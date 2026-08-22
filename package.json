@@ -11,6 +11,7 @@
     "dev": "turbo run dev",
     "lint": "turbo run lint",
     "test": "turbo run test",
+    "test:integration": "npm run --prefix apps/backend test:integration",
     "prettier:check": "prettier --check \"apps/**/*.{ts,tsx,js,jsx}\" \"packages/**/*.{ts,tsx}\"",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
