@@ -1,0 +1,770 @@
+{
+  "slug": "devops-beginner",
+  "title": "Devops Beginner",
+  "description": "Comprehensive learning curriculum and mastery roadmap for devops-beginner.",
+  "category": "skill",
+  "level": "Intermediate",
+  "topicCount": 13,
+  "iconName": "Compass",
+  "nodes": [
+    {
+      "id": "node-h9vVPOmdUSeEGVQQaSTH5",
+      "label": "Ansible",
+      "topicId": "h9vVPOmdUSeEGVQQaSTH5",
+      "level": 1,
+      "position": {
+        "x": 80,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-1ieK6B_oqW8qOC6bdmiJe",
+      "label": "AWS",
+      "topicId": "1ieK6B_oqW8qOC6bdmiJe",
+      "level": 1,
+      "position": {
+        "x": 340,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-P0acFNZ413MSKElHqCxr3",
+      "label": "Docker",
+      "topicId": "P0acFNZ413MSKElHqCxr3",
+      "level": 1,
+      "position": {
+        "x": 600,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-uyDm1SpOQdpHjq9zBAdck",
+      "label": "Git",
+      "topicId": "uyDm1SpOQdpHjq9zBAdck",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-JnWVCS1HbAyfCJzGt-WOH",
+      "label": "GitHub Actions",
+      "topicId": "JnWVCS1HbAyfCJzGt-WOH",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-ot9I_IHdnq2yAMffrSrbN",
+      "label": "GitHub",
+      "topicId": "ot9I_IHdnq2yAMffrSrbN",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-npnMwSDEK2aLGgnuZZ4dO",
+      "label": "Go",
+      "topicId": "npnMwSDEK2aLGgnuZZ4dO",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-w5d24Sf8GDkLDLGUPxzS9",
+      "label": "Networking Protocols",
+      "topicId": "w5d24Sf8GDkLDLGUPxzS9",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-ukOrSeyK1ElOt9tTjCkfO",
+      "label": "Nginx",
+      "topicId": "ukOrSeyK1ElOt9tTjCkfO",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-qe84v529VbCyydl0BKFk2",
+      "label": "Operating system",
+      "topicId": "qe84v529VbCyydl0BKFk2",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-v5FGKQc-_7NYEsWjmTEuq",
+      "label": "Programming Languages",
+      "topicId": "v5FGKQc-_7NYEsWjmTEuq",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-TwVfCYMS9jSaJ6UyYmC-K",
+      "label": "Python",
+      "topicId": "TwVfCYMS9jSaJ6UyYmC-K",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-nUBGf1rp9GK_pbagWCP9g",
+      "label": "Terraform",
+      "topicId": "nUBGf1rp9GK_pbagWCP9g",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 720
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-node-h9vVPOmdUSeEGVQQaSTH5-node-1ieK6B_oqW8qOC6bdmiJe",
+      "source": "node-h9vVPOmdUSeEGVQQaSTH5",
+      "target": "node-1ieK6B_oqW8qOC6bdmiJe",
+      "animated": true
+    },
+    {
+      "id": "edge-node-1ieK6B_oqW8qOC6bdmiJe-node-P0acFNZ413MSKElHqCxr3",
+      "source": "node-1ieK6B_oqW8qOC6bdmiJe",
+      "target": "node-P0acFNZ413MSKElHqCxr3",
+      "animated": true
+    },
+    {
+      "id": "edge-node-P0acFNZ413MSKElHqCxr3-node-uyDm1SpOQdpHjq9zBAdck",
+      "source": "node-P0acFNZ413MSKElHqCxr3",
+      "target": "node-uyDm1SpOQdpHjq9zBAdck",
+      "animated": true
+    },
+    {
+      "id": "edge-node-uyDm1SpOQdpHjq9zBAdck-node-JnWVCS1HbAyfCJzGt-WOH",
+      "source": "node-uyDm1SpOQdpHjq9zBAdck",
+      "target": "node-JnWVCS1HbAyfCJzGt-WOH",
+      "animated": true
+    },
+    {
+      "id": "edge-node-JnWVCS1HbAyfCJzGt-WOH-node-ot9I_IHdnq2yAMffrSrbN",
+      "source": "node-JnWVCS1HbAyfCJzGt-WOH",
+      "target": "node-ot9I_IHdnq2yAMffrSrbN",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ot9I_IHdnq2yAMffrSrbN-node-npnMwSDEK2aLGgnuZZ4dO",
+      "source": "node-ot9I_IHdnq2yAMffrSrbN",
+      "target": "node-npnMwSDEK2aLGgnuZZ4dO",
+      "animated": true
+    },
+    {
+      "id": "edge-node-npnMwSDEK2aLGgnuZZ4dO-node-w5d24Sf8GDkLDLGUPxzS9",
+      "source": "node-npnMwSDEK2aLGgnuZZ4dO",
+      "target": "node-w5d24Sf8GDkLDLGUPxzS9",
+      "animated": true
+    },
+    {
+      "id": "edge-node-w5d24Sf8GDkLDLGUPxzS9-node-ukOrSeyK1ElOt9tTjCkfO",
+      "source": "node-w5d24Sf8GDkLDLGUPxzS9",
+      "target": "node-ukOrSeyK1ElOt9tTjCkfO",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ukOrSeyK1ElOt9tTjCkfO-node-qe84v529VbCyydl0BKFk2",
+      "source": "node-ukOrSeyK1ElOt9tTjCkfO",
+      "target": "node-qe84v529VbCyydl0BKFk2",
+      "animated": true
+    },
+    {
+      "id": "edge-node-qe84v529VbCyydl0BKFk2-node-v5FGKQc-_7NYEsWjmTEuq",
+      "source": "node-qe84v529VbCyydl0BKFk2",
+      "target": "node-v5FGKQc-_7NYEsWjmTEuq",
+      "animated": true
+    },
+    {
+      "id": "edge-node-v5FGKQc-_7NYEsWjmTEuq-node-TwVfCYMS9jSaJ6UyYmC-K",
+      "source": "node-v5FGKQc-_7NYEsWjmTEuq",
+      "target": "node-TwVfCYMS9jSaJ6UyYmC-K",
+      "animated": true
+    },
+    {
+      "id": "edge-node-TwVfCYMS9jSaJ6UyYmC-K-node-nUBGf1rp9GK_pbagWCP9g",
+      "source": "node-TwVfCYMS9jSaJ6UyYmC-K",
+      "target": "node-nUBGf1rp9GK_pbagWCP9g",
+      "animated": true
+    }
+  ],
+  "topics": {
+    "h9vVPOmdUSeEGVQQaSTH5": {
+      "id": "h9vVPOmdUSeEGVQQaSTH5",
+      "slug": "ansible",
+      "title": "Ansible",
+      "description": "Ansible is an open-source automation tool used for configuration management, application deployment, and task automation. It simplifies the process of managing and orchestrating infrastructure by using a declarative language to define desired states and configurations. Ansible operates using YAML files, called playbooks, which describe the tasks to be executed on remote systems. It employs an agentless architecture, meaning it uses SSH or other remote protocols to execute tasks on target machines without requiring additional software to be installed. Ansible is widely used for automating repetitive tasks, ensuring consistency, and managing large-scale deployments across various environments.",
+      "resources": [
+        {
+          "id": "h9vVPOmdUSeEGVQQaSTH5-res-1",
+          "type": "article",
+          "title": "Ansible",
+          "url": "https://www.ansible.com/"
+        },
+        {
+          "id": "h9vVPOmdUSeEGVQQaSTH5-res-2",
+          "type": "article",
+          "title": "Getting Started with Ansible",
+          "url": "https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-ansible-on-ubuntu-20-04"
+        },
+        {
+          "id": "h9vVPOmdUSeEGVQQaSTH5-res-3",
+          "type": "video",
+          "title": "Ansible Full Course for Beginners",
+          "url": "https://www.youtube.com/watch?v=9Ua2b06oAr4"
+        },
+        {
+          "id": "h9vVPOmdUSeEGVQQaSTH5-res-4",
+          "type": "video",
+          "title": "Ansible in 100 Seconds",
+          "url": "https://www.youtube.com/watch?v=xRMPKQweySE"
+        },
+        {
+          "id": "h9vVPOmdUSeEGVQQaSTH5-res-5",
+          "type": "video",
+          "title": "Ansible Full Course to Zero to Hero",
+          "url": "https://www.youtube.com/watch?v=GROqwFFLl3s"
+        },
+        {
+          "id": "h9vVPOmdUSeEGVQQaSTH5-res-6",
+          "type": "article",
+          "title": "Explore top posts about Ansible",
+          "url": "https://app.daily.dev/tags/ansible?ref=roadmapsh"
+        }
+      ]
+    },
+    "1ieK6B_oqW8qOC6bdmiJe": {
+      "id": "1ieK6B_oqW8qOC6bdmiJe",
+      "slug": "aws",
+      "title": "AWS",
+      "description": "Amazon Web Services has been the market-leading cloud computing platform since 2011, ahead of Azure and Google Cloud. AWS offers over 200 services with data centers located all over the globe. AWS is an online platform that provides scalable and cost-effective cloud computing solutions. It is a broadly adopted cloud platform that offers several on-demand operations like compute power, database storage, content delivery, and so on.",
+      "resources": [
+        {
+          "id": "1ieK6B_oqW8qOC6bdmiJe-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated AWS Roadmap",
+          "url": "https://roadmap.sh/aws"
+        },
+        {
+          "id": "1ieK6B_oqW8qOC6bdmiJe-res-2",
+          "type": "article",
+          "title": "AWS",
+          "url": "https://aws.amazon.com/"
+        },
+        {
+          "id": "1ieK6B_oqW8qOC6bdmiJe-res-3",
+          "type": "article",
+          "title": "AWS Cloud Essentials",
+          "url": "https://aws.amazon.com/getting-started/cloud-essentials/"
+        },
+        {
+          "id": "1ieK6B_oqW8qOC6bdmiJe-res-4",
+          "type": "article",
+          "title": "Overview of Amazon Web Services",
+          "url": "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/introduction.html"
+        },
+        {
+          "id": "1ieK6B_oqW8qOC6bdmiJe-res-5",
+          "type": "article",
+          "title": "Create an AWS account",
+          "url": "https://grapplingdev.com/tutorials/how-to-create-aws-account"
+        },
+        {
+          "id": "1ieK6B_oqW8qOC6bdmiJe-res-6",
+          "type": "video",
+          "title": "100 hour AWS Complete Course",
+          "url": "https://www.youtube.com/watch?v=zA8guDqfv40"
+        },
+        {
+          "id": "1ieK6B_oqW8qOC6bdmiJe-res-7",
+          "type": "article",
+          "title": "Explore top posts about AWS",
+          "url": "https://app.daily.dev/tags/aws?ref=roadmapsh"
+        }
+      ]
+    },
+    "P0acFNZ413MSKElHqCxr3": {
+      "id": "P0acFNZ413MSKElHqCxr3",
+      "slug": "docker",
+      "title": "Docker",
+      "description": "Docker is an open-source platform that automates the deployment, scaling, and management of applications using containerization technology. It enables developers to package applications with all their dependencies into standardized units called containers, ensuring consistent behavior across different environments. Docker provides a lightweight alternative to full machine virtualization, using OS-level virtualization to run multiple isolated systems on a single host. Its ecosystem includes tools for building, sharing, and running containers, such as Docker Engine, Docker Hub, and Docker Compose. Docker has become integral to modern DevOps practices, facilitating microservices architectures, continuous integration/deployment pipelines, and efficient resource utilization in both development and production environments.",
+      "resources": [
+        {
+          "id": "P0acFNZ413MSKElHqCxr3-res-1",
+          "type": "article",
+          "title": "Visit Dedicated Docker Roadmap",
+          "url": "https://roadmap.sh/docker"
+        },
+        {
+          "id": "P0acFNZ413MSKElHqCxr3-res-2",
+          "type": "course",
+          "title": "DevOps with Docker",
+          "url": "https://courses.mooc.fi/org/uh-cs/courses/devops-with-docker"
+        },
+        {
+          "id": "P0acFNZ413MSKElHqCxr3-res-3",
+          "type": "article",
+          "title": "Docker Docs",
+          "url": "https://docs.docker.com/"
+        },
+        {
+          "id": "P0acFNZ413MSKElHqCxr3-res-4",
+          "type": "article",
+          "title": "Docker Getting Started Guide",
+          "url": "https://docs.docker.com/get-started/"
+        },
+        {
+          "id": "P0acFNZ413MSKElHqCxr3-res-5",
+          "type": "video",
+          "title": "Docker Tutorial",
+          "url": "https://www.youtube.com/watch?v=RqTEHSBrYFw"
+        },
+        {
+          "id": "P0acFNZ413MSKElHqCxr3-res-6",
+          "type": "video",
+          "title": "Docker simplified in 55 seconds",
+          "url": "https://youtu.be/vP_4DlOH1G4"
+        },
+        {
+          "id": "P0acFNZ413MSKElHqCxr3-res-7",
+          "type": "article",
+          "title": "Explore top posts about Docker",
+          "url": "https://app.daily.dev/tags/docker?ref=roadmapsh"
+        }
+      ]
+    },
+    "uyDm1SpOQdpHjq9zBAdck": {
+      "id": "uyDm1SpOQdpHjq9zBAdck",
+      "slug": "git",
+      "title": "Git",
+      "description": "Git is a distributed version control system designed to track changes in source code during software development. It allows multiple developers to work on the same project simultaneously, maintaining a complete history of modifications. Git features local repositories on each developer's machine, enabling offline work and fast operations. It supports non-linear development through branching and merging, facilitating parallel work streams. Git's distributed nature enhances collaboration, backup, and experimentation. Key concepts include commits, branches, merges, and remote repositories. With its speed, flexibility, and robust branching and merging capabilities, Git has become the standard for version control in modern software development, powering platforms like GitHub and GitLab.",
+      "resources": [
+        {
+          "id": "uyDm1SpOQdpHjq9zBAdck-res-1",
+          "type": "article",
+          "title": "Visit Dedicated Git & GitHub Roadmap",
+          "url": "https://roadmap.sh/git-github"
+        },
+        {
+          "id": "uyDm1SpOQdpHjq9zBAdck-res-2",
+          "type": "article",
+          "title": "Git by Example - Learn Version Control with Bite-sized Lessons",
+          "url": "https://antonz.org/git-by-example/"
+        },
+        {
+          "id": "uyDm1SpOQdpHjq9zBAdck-res-3",
+          "type": "article",
+          "title": "Learn Git with Tutorials, News and Tips - Atlassian",
+          "url": "https://www.atlassian.com/git"
+        },
+        {
+          "id": "uyDm1SpOQdpHjq9zBAdck-res-4",
+          "type": "article",
+          "title": "Git Cheat Sheet",
+          "url": "https://cs.fyi/guide/git-cheatsheet"
+        },
+        {
+          "id": "uyDm1SpOQdpHjq9zBAdck-res-5",
+          "type": "video",
+          "title": "Git & GitHub Crash Course For Beginners",
+          "url": "https://www.youtube.com/watch?v=vA5TTz6BXhY"
+        },
+        {
+          "id": "uyDm1SpOQdpHjq9zBAdck-res-6",
+          "type": "video",
+          "title": "Git for Professionals Tutorial",
+          "url": "https://www.youtube.com/watch?v=Uszj_k0DGsg"
+        },
+        {
+          "id": "uyDm1SpOQdpHjq9zBAdck-res-7",
+          "type": "article",
+          "title": "Explore top posts about Git",
+          "url": "https://app.daily.dev/tags/git?ref=roadmapsh"
+        }
+      ]
+    },
+    "JnWVCS1HbAyfCJzGt-WOH": {
+      "id": "JnWVCS1HbAyfCJzGt-WOH",
+      "slug": "github-actions",
+      "title": "GitHub Actions",
+      "description": "GitHub Actions is GitHub’s built-in automation platform that lets you run workflows directly from your repository, such as building, testing, and deploying code, triggered by events like pushes, pull requests, or schedules.",
+      "resources": [
+        {
+          "id": "JnWVCS1HbAyfCJzGt-WOH-res-1",
+          "type": "article",
+          "title": "GitHub Actions Documentation",
+          "url": "https://docs.github.com/en/actions"
+        },
+        {
+          "id": "JnWVCS1HbAyfCJzGt-WOH-res-2",
+          "type": "article",
+          "title": "GitHub Actions Guide",
+          "url": "https://octopus.com/devops/github-actions/?utm_source=roadmap&utm_medium=link&utm_campaign=devops-ci-cd-github-actions"
+        },
+        {
+          "id": "JnWVCS1HbAyfCJzGt-WOH-res-3",
+          "type": "article",
+          "title": "Understanding GitHub Actions",
+          "url": "ttps://docs.github.com/en/actions/about-github-actions/understanding-github-actions"
+        },
+        {
+          "id": "JnWVCS1HbAyfCJzGt-WOH-res-4",
+          "type": "video",
+          "title": "What is GitHub Actions?",
+          "url": "https://www.youtube.com/watch?v=URmeTqglS58"
+        },
+        {
+          "id": "JnWVCS1HbAyfCJzGt-WOH-res-5",
+          "type": "video",
+          "title": "Automate your Workflow with GitHub Actions",
+          "url": "https://www.youtube.com/watch?v=nyKZTKQS_EQ"
+        },
+        {
+          "id": "JnWVCS1HbAyfCJzGt-WOH-res-6",
+          "type": "video",
+          "title": "GitHub Actions Tutorial - Basic Concepts and CI/CD Pipeline",
+          "url": "https://www.youtube.com/watch?v=R8_veQiYBjI"
+        }
+      ]
+    },
+    "ot9I_IHdnq2yAMffrSrbN": {
+      "id": "ot9I_IHdnq2yAMffrSrbN",
+      "slug": "github",
+      "title": "GitHub",
+      "description": "GitHub is a web-based platform built on top of Git that provides version control, collaboration tools, and project management features for software development. It enables developers to host Git repositories, collaborate on code through pull requests, and review and track changes. GitHub also offers additional features like issue tracking, continuous integration, automated workflows, and documentation hosting. With its social coding environment, GitHub fosters open-source contributions and team collaboration, making it a central hub for many software development projects.",
+      "resources": [
+        {
+          "id": "ot9I_IHdnq2yAMffrSrbN-res-1",
+          "type": "article",
+          "title": "Visit Dedicated Git & GitHub Roadmap",
+          "url": "https://roadmap.sh/git-github"
+        },
+        {
+          "id": "ot9I_IHdnq2yAMffrSrbN-res-2",
+          "type": "article",
+          "title": "GitHub",
+          "url": "https://github.com"
+        },
+        {
+          "id": "ot9I_IHdnq2yAMffrSrbN-res-3",
+          "type": "article",
+          "title": "GitHub Docs",
+          "url": "https://docs.github.com/en/get-started/quickstart"
+        },
+        {
+          "id": "ot9I_IHdnq2yAMffrSrbN-res-4",
+          "type": "video",
+          "title": "What is GitHub?",
+          "url": "https://www.youtube.com/watch?v=w3jLJU7DT5E"
+        },
+        {
+          "id": "ot9I_IHdnq2yAMffrSrbN-res-5",
+          "type": "article",
+          "title": "Explore top posts about GitHub",
+          "url": "https://app.daily.dev/tags/github?ref=roadmapsh"
+        }
+      ]
+    },
+    "npnMwSDEK2aLGgnuZZ4dO": {
+      "id": "npnMwSDEK2aLGgnuZZ4dO",
+      "slug": "go",
+      "title": "Go",
+      "description": "Go (Golang) is Google's statically typed, compiled language combining efficiency with ease of use. Features built-in concurrency via goroutines and channels, simple syntax, fast compilation, and a comprehensive standard library. Popular for microservices, web servers, and cloud-native development.",
+      "resources": [
+        {
+          "id": "npnMwSDEK2aLGgnuZZ4dO-res-1",
+          "type": "article",
+          "title": "Visit Dedicated Go Roadmap",
+          "url": "https://roadmap.sh/golang"
+        },
+        {
+          "id": "npnMwSDEK2aLGgnuZZ4dO-res-2",
+          "type": "article",
+          "title": "Go Reference Documentation",
+          "url": "https://go.dev/doc/"
+        },
+        {
+          "id": "npnMwSDEK2aLGgnuZZ4dO-res-3",
+          "type": "article",
+          "title": "Go by Example - annotated example programs",
+          "url": "https://gobyexample.com/"
+        },
+        {
+          "id": "npnMwSDEK2aLGgnuZZ4dO-res-4",
+          "type": "article",
+          "title": "Go, the Programming Language of the Cloud",
+          "url": "https://thenewstack.io/go-the-programming-language-of-the-cloud/"
+        },
+        {
+          "id": "npnMwSDEK2aLGgnuZZ4dO-res-5",
+          "type": "video",
+          "title": "Go Programming – Golang Course with Bonus Projects",
+          "url": "https://www.youtube.com/watch?v=un6ZyFkqFKo"
+        },
+        {
+          "id": "npnMwSDEK2aLGgnuZZ4dO-res-6",
+          "type": "article",
+          "title": "Explore top posts about Golang",
+          "url": "https://app.daily.dev/tags/golang?ref=roadmapsh"
+        }
+      ]
+    },
+    "w5d24Sf8GDkLDLGUPxzS9": {
+      "id": "w5d24Sf8GDkLDLGUPxzS9",
+      "slug": "networking--protocols",
+      "title": "Networking Protocols",
+      "description": "Networking protocols are standardized rules and procedures that govern how data is transmitted, received, and interpreted across computer networks. They define the format, timing, sequencing, and error control in data communication. Key protocols include: 1.  TCP/IP (Transmission Control Protocol/Internet Protocol): The fundamental suite for Internet communication. 2.  HTTP/HTTPS: For web browsing and secure data transfer on the web. 3.  FTP/SFTP: File transfer protocols. 4.  SMTP/POP3/IMAP: Email communication protocols. 5.  DNS: For domain name resolution. 6.  DHCP: For automatic IP address assignment. 7.  SSL/TLS: For secure, encrypted communication. 8.  UDP: For fast, connectionless data transmission.",
+      "resources": [
+        {
+          "id": "w5d24Sf8GDkLDLGUPxzS9-res-1",
+          "type": "article",
+          "title": "Cloudflare - What is SSL?",
+          "url": "https://www.cloudflare.com/learning/ssl/what-is-ssl/"
+        },
+        {
+          "id": "w5d24Sf8GDkLDLGUPxzS9-res-2",
+          "type": "article",
+          "title": "Cloudflare - What is TLS?",
+          "url": "https://www.cloudflare.com/en-gb/learning/ssl/transport-layer-security-tls/"
+        },
+        {
+          "id": "w5d24Sf8GDkLDLGUPxzS9-res-3",
+          "type": "article",
+          "title": "Everything you need to know about HTTP",
+          "url": "https://cs.fyi/guide/http-in-depth"
+        },
+        {
+          "id": "w5d24Sf8GDkLDLGUPxzS9-res-4",
+          "type": "article",
+          "title": "What is HTTP?",
+          "url": "https://www.cloudflare.com/en-gb/learning/ddos/glossary/hypertext-transfer-protocol-http/"
+        },
+        {
+          "id": "w5d24Sf8GDkLDLGUPxzS9-res-5",
+          "type": "article",
+          "title": "What is HTTPS?",
+          "url": "https://www.cloudflare.com/en-gb/learning/ssl/what-is-https/"
+        },
+        {
+          "id": "w5d24Sf8GDkLDLGUPxzS9-res-6",
+          "type": "article",
+          "title": "What is DNS?",
+          "url": "https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/"
+        },
+        {
+          "id": "w5d24Sf8GDkLDLGUPxzS9-res-7",
+          "type": "video",
+          "title": "DNS and How does it Work?",
+          "url": "https://www.youtube.com/watch?v=Wj0od2ag5sk"
+        },
+        {
+          "id": "w5d24Sf8GDkLDLGUPxzS9-res-8",
+          "type": "video",
+          "title": "DNS Records",
+          "url": "https://www.youtube.com/watch?v=7lxgpKh_fRY"
+        },
+        {
+          "id": "w5d24Sf8GDkLDLGUPxzS9-res-9",
+          "type": "video",
+          "title": "SSH vs SSL vs TLS",
+          "url": "https://www.youtube.com/watch?v=k3rFFLmQCuY"
+        },
+        {
+          "id": "w5d24Sf8GDkLDLGUPxzS9-res-10",
+          "type": "video",
+          "title": "OpenSSH Full Guide",
+          "url": "https://www.youtube.com/watch?v=YS5Zh7KExvE"
+        }
+      ]
+    },
+    "ukOrSeyK1ElOt9tTjCkfO": {
+      "id": "ukOrSeyK1ElOt9tTjCkfO",
+      "slug": "nginx",
+      "title": "Nginx",
+      "description": "NGINX is a high-performance, open-source web server, reverse proxy, and load balancer. Known for its efficiency in handling concurrent connections, NGINX uses an event-driven, asynchronous architecture that consumes minimal resources. It excels at serving static content, proxying requests to application servers, and load balancing across multiple backends. NGINX is widely used for its ability to improve website performance, scalability, and security. It supports various protocols, including HTTP, HTTPS, SMTP, and WebSocket, and offers features like SSL/TLS termination, caching, and content compression. Popular in both small-scale and enterprise environments, NGINX is a key component in many modern web architectures, particularly in microservices and containerized deployments.",
+      "resources": [
+        {
+          "id": "ukOrSeyK1ElOt9tTjCkfO-res-1",
+          "type": "article",
+          "title": "Nginx",
+          "url": "https://nginx.org/"
+        },
+        {
+          "id": "ukOrSeyK1ElOt9tTjCkfO-res-2",
+          "type": "article",
+          "title": "Basic NGINX Setup on Ubuntu: Guide to a Functional and Secure Website Serving",
+          "url": "https://swissmade.host/en/blog/basic-nginx-setup-ubuntu-guide-to-a-functional-and-secure-website-serving"
+        },
+        {
+          "id": "ukOrSeyK1ElOt9tTjCkfO-res-3",
+          "type": "article",
+          "title": "Understanding the Nginx Configuration File Structure",
+          "url": "https://www.digitalocean.com/community/tutorials/understanding-the-nginx-configuration-file-structure-and-configuration-contexts"
+        },
+        {
+          "id": "ukOrSeyK1ElOt9tTjCkfO-res-4",
+          "type": "video",
+          "title": "NGINX Full Course",
+          "url": "https://www.youtube.com/watch?v=0VGEgXfNMIE"
+        },
+        {
+          "id": "ukOrSeyK1ElOt9tTjCkfO-res-5",
+          "type": "video",
+          "title": "NGINX Explained in 100 Seconds",
+          "url": "https://www.youtube.com/watch?v=JKxlsvZXG7c"
+        },
+        {
+          "id": "ukOrSeyK1ElOt9tTjCkfO-res-6",
+          "type": "article",
+          "title": "Explore top posts about Nginx",
+          "url": "https://app.daily.dev/tags/nginx?ref=roadmapsh"
+        }
+      ]
+    },
+    "qe84v529VbCyydl0BKFk2": {
+      "id": "qe84v529VbCyydl0BKFk2",
+      "slug": "operating-system",
+      "title": "Operating system",
+      "description": "Operating systems (OS) are fundamental software that manage computer hardware and software resources, providing common services for computer programs. They act as an intermediary between applications and hardware, handling tasks like memory management, process scheduling, file system management, and device control. Common desktop operating systems include Microsoft Windows, macOS, and various Linux distributions. Mobile devices typically run iOS or Android. Server environments often use Linux distributions like Ubuntu Server, Red Hat Enterprise Linux, or Windows Server. Each OS type offers distinct features, user interfaces, and compatibility with different software and hardware. Operating systems play a crucial role in system security, performance optimization, and providing a consistent user experience across diverse computing devices and environments.",
+      "resources": [
+        {
+          "id": "qe84v529VbCyydl0BKFk2-res-1",
+          "type": "article",
+          "title": "Operating Systems - Wiki",
+          "url": "https://en.wikipedia.org/wiki/Operating_system"
+        },
+        {
+          "id": "qe84v529VbCyydl0BKFk2-res-2",
+          "type": "article",
+          "title": "Learn Operating Systems",
+          "url": "https://www.tutorialspoint.com/operating_system/os_overview.htm"
+        },
+        {
+          "id": "qe84v529VbCyydl0BKFk2-res-3",
+          "type": "video",
+          "title": "What are Operating Systems?",
+          "url": "https://www.youtube.com/watch?v=pVzRTmdd9j0"
+        },
+        {
+          "id": "qe84v529VbCyydl0BKFk2-res-4",
+          "type": "video",
+          "title": "Operating Systems",
+          "url": "https://www.youtube.com/watch?v=vBURTt97EkA&list=PLBlnK6fEyqRiVhbXDGLXDk_OQAeuVcp2O"
+        }
+      ]
+    },
+    "v5FGKQc-_7NYEsWjmTEuq": {
+      "id": "v5FGKQc-_7NYEsWjmTEuq",
+      "slug": "programming-language",
+      "title": "Programming Languages",
+      "description": "Programming languages are sets of instructions that tell a computer what to do. They're used to create software, applications, and automate tasks. Different languages are suited for different purposes, like web development, data analysis, or system administration. You write code in these languages, and the computer translates it to perform specific actions.",
+      "resources": []
+    },
+    "TwVfCYMS9jSaJ6UyYmC-K": {
+      "id": "TwVfCYMS9jSaJ6UyYmC-K",
+      "slug": "python",
+      "title": "Python",
+      "description": "Python is a versatile and easy-to-learn programming language used for a wide range of tasks. It's known for its clear syntax, which makes it readable and simplifies coding. You can use Python to automate tasks, build web applications, analyze data, and even manage infrastructure, making it a valuable tool for many DevOps-related tasks.",
+      "resources": [
+        {
+          "id": "TwVfCYMS9jSaJ6UyYmC-K-res-1",
+          "type": "article",
+          "title": "Visit Dedicated Python Roadmap",
+          "url": "https://roadmap.sh/python"
+        },
+        {
+          "id": "TwVfCYMS9jSaJ6UyYmC-K-res-2",
+          "type": "article",
+          "title": "Python",
+          "url": "https://www.python.org/"
+        },
+        {
+          "id": "TwVfCYMS9jSaJ6UyYmC-K-res-3",
+          "type": "article",
+          "title": "Real Python",
+          "url": "https://realpython.com/"
+        },
+        {
+          "id": "TwVfCYMS9jSaJ6UyYmC-K-res-4",
+          "type": "article",
+          "title": "Automate the Boring Stuff with Python",
+          "url": "https://automatetheboringstuff.com/"
+        },
+        {
+          "id": "TwVfCYMS9jSaJ6UyYmC-K-res-5",
+          "type": "article",
+          "title": "Explore top posts about Python",
+          "url": "https://app.daily.dev/tags/python?ref=roadmapsh"
+        }
+      ]
+    },
+    "nUBGf1rp9GK_pbagWCP9g": {
+      "id": "nUBGf1rp9GK_pbagWCP9g",
+      "slug": "terraform",
+      "title": "Terraform",
+      "description": "Terraform is an open-source infrastructure as code (IaC) tool developed by HashiCorp, used to define, provision, and manage cloud and on-premises infrastructure using declarative configuration files. It supports multiple cloud providers like AWS, Azure, and Google Cloud, as well as various services and platforms, enabling infrastructure automation across diverse environments. Terraform's state management and modular structure allow for efficient scaling, reusability, and version control of infrastructure. It is widely used for automating infrastructure provisioning, reducing manual errors, and improving infrastructure consistency and repeatability.",
+      "resources": [
+        {
+          "id": "nUBGf1rp9GK_pbagWCP9g-res-1",
+          "type": "article",
+          "title": "Visit Dedicated Terraform Roadmap",
+          "url": "https://roadmap.sh/terraform"
+        },
+        {
+          "id": "nUBGf1rp9GK_pbagWCP9g-res-2",
+          "type": "article",
+          "title": "Terraform Docs",
+          "url": "https://www.terraform.io/docs"
+        },
+        {
+          "id": "nUBGf1rp9GK_pbagWCP9g-res-3",
+          "type": "article",
+          "title": "Terraform Tutorials",
+          "url": "https://learn.hashicorp.com/terraform"
+        },
+        {
+          "id": "nUBGf1rp9GK_pbagWCP9g-res-4",
+          "type": "article",
+          "title": "How to Scale Your Terraform Infrastructure",
+          "url": "https://thenewstack.io/how-to-scale-your-terraform-infrastructure/"
+        },
+        {
+          "id": "nUBGf1rp9GK_pbagWCP9g-res-5",
+          "type": "video",
+          "title": "Complete Terraform Course",
+          "url": "https://www.youtube.com/watch?v=7xngnjfIlK4"
+        },
+        {
+          "id": "nUBGf1rp9GK_pbagWCP9g-res-6",
+          "type": "article",
+          "title": "Explore top posts about Terraform",
+          "url": "https://app.daily.dev/tags/terraform?ref=roadmapsh"
+        }
+      ]
+    }
+  }
+}

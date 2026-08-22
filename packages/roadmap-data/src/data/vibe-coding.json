@@ -1,0 +1,2255 @@
+{
+  "slug": "vibe-coding",
+  "title": "Vibe Coding",
+  "description": "Comprehensive learning curriculum and mastery roadmap for vibe-coding.",
+  "category": "skill",
+  "level": "Intermediate",
+  "topicCount": 52,
+  "iconName": "Compass",
+  "nodes": [
+    {
+      "id": "node-vDSSzh5TwZ8zzY0rWRXu4",
+      "label": "Ask AI to handle your Git and GitHub CLI tasks",
+      "topicId": "vDSSzh5TwZ8zzY0rWRXu4",
+      "level": 1,
+      "position": {
+        "x": 80,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-FoQ15wo0cV2Tntru6jV-1",
+      "label": "Ask AI to keep the code modular and aim for smaller modules/files",
+      "topicId": "FoQ15wo0cV2Tntru6jV-1",
+      "level": 1,
+      "position": {
+        "x": 340,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-n5JxUpashrHKai2XESdd-",
+      "label": "Use subagents",
+      "topicId": "n5JxUpashrHKai2XESdd-",
+      "level": 1,
+      "position": {
+        "x": 600,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-WLOx62vbIhIlv73jcT8zM",
+      "label": "Ask AI to write tests",
+      "topicId": "WLOx62vbIhIlv73jcT8zM",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-HpbG5bcOEIZxYlVl9pwod",
+      "label": "Ask for one task at a time",
+      "topicId": "HpbG5bcOEIZxYlVl9pwod",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-3lHMW2Uje5tQawetE4I21",
+      "label": "Tell AI what NOT to do",
+      "topicId": "3lHMW2Uje5tQawetE4I21",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-JXtLbQ1JUQOPZorFy1ctF",
+      "label": "Be specific about what you want",
+      "topicId": "JXtLbQ1JUQOPZorFy1ctF",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-XY2l96sry3WyLzzo3KUeU",
+      "label": "ChatGPT",
+      "topicId": "XY2l96sry3WyLzzo3KUeU",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-wr5ddjutC-fX_ixysTHaT",
+      "label": "Claude Code",
+      "topicId": "wr5ddjutC-fX_ixysTHaT",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-XY2l96sry3WyLzzo3KUeU",
+      "label": "ChatGPT",
+      "topicId": "XY2l96sry3WyLzzo3KUeU",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-Gr9WJ0tNmSsVHSA0Cx3xY",
+      "label": "Consider Test-driven development (TDD)",
+      "topicId": "Gr9WJ0tNmSsVHSA0Cx3xY",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-0ZJrFxKo5HyD9OgzG5LWp",
+      "label": "Context",
+      "topicId": "0ZJrFxKo5HyD9OgzG5LWp",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-Ubk4GN0Z4XlDJ3EbRXdxg",
+      "label": "Copilot",
+      "topicId": "Ubk4GN0Z4XlDJ3EbRXdxg",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-MWhoqhNnBaoeCdN_8i15k",
+      "label": "Cursor",
+      "topicId": "MWhoqhNnBaoeCdN_8i15k",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-mHChjJd39ofwPBS-v_sQY",
+      "label": "Debugging",
+      "topicId": "mHChjJd39ofwPBS-v_sQY",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-8VL5XHFrQUjin1pdAi7WZ",
+      "label": "Explicitly ask AI to perform a security audit of the application",
+      "topicId": "8VL5XHFrQUjin1pdAi7WZ",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-17nFgML7zVjQYiHIOSLlK",
+      "label": "Explicitly tell AI to \"think\" or \"brainstorm\"",
+      "topicId": "17nFgML7zVjQYiHIOSLlK",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-phtVEKzIUv9E1abazort0",
+      "label": "For unrelated tasks, clean and start new sessions",
+      "topicId": "phtVEKzIUv9E1abazort0",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-hzeEo8COf2l07iu5EdlFo",
+      "label": "Gemini",
+      "topicId": "hzeEo8COf2l07iu5EdlFo",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-6kVVt2lihBW8tPGV-ll3_",
+      "label": "Give AI mockups, reference files, and material",
+      "topicId": "6kVVt2lihBW8tPGV-ll3_",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-ikp1O_sss_6hDGl6p8LNJ",
+      "label": "If AI fails after 3 prompts, stop",
+      "topicId": "ikp1O_sss_6hDGl6p8LNJ",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-cz--AlEn0cc2-keXeuk9g",
+      "label": "Ask Al to create a list of possible causes",
+      "topicId": "cz--AlEn0cc2-keXeuk9g",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-QBeh16mppfb2s4OGt4aPy",
+      "label": "If you have style/coding preferences, document them for AI",
+      "topicId": "QBeh16mppfb2s4OGt4aPy",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-upZAMDEtzq1VklqTKG5mV",
+      "label": "Revert with Git",
+      "topicId": "upZAMDEtzq1VklqTKG5mV",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-ODqMzOAN1je004chwATTl",
+      "label": "Illustrate AI with Examples",
+      "topicId": "ODqMzOAN1je004chwATTl",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-O9W3d1q1yJmfRJHnfognN",
+      "label": "Implement Spec-Driven Development (SDD)",
+      "topicId": "O9W3d1q1yJmfRJHnfognN",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-KVb_TAsSD8Kgafij4iEXc",
+      "label": "Install and ask AI to use MCP",
+      "topicId": "KVb_TAsSD8Kgafij4iEXc",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-CMnz6UFUGbxIGSH06ZdgH",
+      "label": "Leverage long context windows",
+      "topicId": "CMnz6UFUGbxIGSH06ZdgH",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-5WogJrcXhNXewsXzSAME7",
+      "label": "Lovable",
+      "topicId": "5WogJrcXhNXewsXzSAME7",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-q5lkCO_uGmkcJopjltg8j",
+      "label": "Master Version Control",
+      "topicId": "q5lkCO_uGmkcJopjltg8j",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-aRnpJbSUg_rr9Z00RafYt",
+      "label": "Always use env variables",
+      "topicId": "aRnpJbSUg_rr9Z00RafYt",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-9BSermDg6ODL2MSRQiDZo",
+      "label": "Once tests are in place, refactor regularly",
+      "topicId": "9BSermDg6ODL2MSRQiDZo",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-7mAZMKyiuZiEpKhrydp8J",
+      "label": "Pick a popular tech stack rather than new/niche ones",
+      "topicId": "7mAZMKyiuZiEpKhrydp8J",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-pfgsxuQ-D7dTMPNWKG9OY",
+      "label": "Plan before you Code",
+      "topicId": "pfgsxuQ-D7dTMPNWKG9OY",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-OPHuAD0L-GZ6zRhIhbmPL",
+      "label": "Plan what you need to develop",
+      "topicId": "OPHuAD0L-GZ6zRhIhbmPL",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-GW5I1z7D1945AxqYHbW6F",
+      "label": "Prompt the error message and let AI do the rest",
+      "topicId": "GW5I1z7D1945AxqYHbW6F",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-6GvIXEzWbSD8q6Qt-BsHP",
+      "label": "Prompting Best Practices",
+      "topicId": "6GvIXEzWbSD8q6Qt-BsHP",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-NtQDPno95SYo5E88ls4v1",
+      "label": "Regularly ask the AI to review and refactor the codebase",
+      "topicId": "NtQDPno95SYo5E88ls4v1",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-WypEm84Rr0t-IzCZiU92q",
+      "label": "Regularly update your context document",
+      "topicId": "WypEm84Rr0t-IzCZiU92q",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-Ubk4GN0Z4XlDJ3EbRXdxg",
+      "label": "Copilot",
+      "topicId": "Ubk4GN0Z4XlDJ3EbRXdxg",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-2omItZjkVFW9kMiNXdt-h",
+      "label": "Security Best Practices",
+      "topicId": "2omItZjkVFW9kMiNXdt-h",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-ScizaxaDFQ_OBiFZ540Xs",
+      "label": "Start each new feature with a clean Git slate",
+      "topicId": "ScizaxaDFQ_OBiFZ540Xs",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-GC4vVcOcFWE1RByD-sd4G",
+      "label": "Tech Stack and Coding",
+      "topicId": "GC4vVcOcFWE1RByD-sd4G",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-vnm51qAe2C1cszHfh-o6P",
+      "label": "Tell AI to add logs",
+      "topicId": "vnm51qAe2C1cszHfh-o6P",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-4bJRhuZzVc32x2Y0gGGrh",
+      "label": "Testing",
+      "topicId": "4bJRhuZzVc32x2Y0gGGrh",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-LkLQ8GjBXDuw1XsrE4Cjj",
+      "label": "The Vibe Coder Mindset",
+      "topicId": "LkLQ8GjBXDuw1XsrE4Cjj",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-h2oehkZSKfMqlVBAgt46P",
+      "label": "Use \"act as\" framing when helpful",
+      "topicId": "h2oehkZSKfMqlVBAgt46P",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-wWs2PxN7T2-gDZNJJ1vTq",
+      "label": "Use git commit",
+      "topicId": "wWs2PxN7T2-gDZNJJ1vTq",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-bnpY9GX1BGjDPJXwTFWTX",
+      "label": "Use skills created by others",
+      "topicId": "bnpY9GX1BGjDPJXwTFWTX",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-eX9-1I_hC2zwJNiBYXFu6",
+      "label": "v0",
+      "topicId": "eX9-1I_hC2zwJNiBYXFu6",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-lzHnwx_3gftRZbstk6INB",
+      "label": "Vibe Coding",
+      "topicId": "lzHnwx_3gftRZbstk6INB",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-r-LrA1cGR1XMu1p2xIsN0",
+      "label": "Use breaking tests",
+      "topicId": "r-LrA1cGR1XMu1p2xIsN0",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-Xsl8mx6J182TxPPtNP471",
+      "label": "Windsurf",
+      "topicId": "Xsl8mx6J182TxPPtNP471",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-CJV5OV_Whoz4_7L8yhDG1",
+      "label": "Work step by step rather than trying to build all at once",
+      "topicId": "CJV5OV_Whoz4_7L8yhDG1",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2800
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-node-vDSSzh5TwZ8zzY0rWRXu4-node-FoQ15wo0cV2Tntru6jV-1",
+      "source": "node-vDSSzh5TwZ8zzY0rWRXu4",
+      "target": "node-FoQ15wo0cV2Tntru6jV-1",
+      "animated": true
+    },
+    {
+      "id": "edge-node-FoQ15wo0cV2Tntru6jV-1-node-n5JxUpashrHKai2XESdd-",
+      "source": "node-FoQ15wo0cV2Tntru6jV-1",
+      "target": "node-n5JxUpashrHKai2XESdd-",
+      "animated": true
+    },
+    {
+      "id": "edge-node-n5JxUpashrHKai2XESdd--node-WLOx62vbIhIlv73jcT8zM",
+      "source": "node-n5JxUpashrHKai2XESdd-",
+      "target": "node-WLOx62vbIhIlv73jcT8zM",
+      "animated": true
+    },
+    {
+      "id": "edge-node-WLOx62vbIhIlv73jcT8zM-node-HpbG5bcOEIZxYlVl9pwod",
+      "source": "node-WLOx62vbIhIlv73jcT8zM",
+      "target": "node-HpbG5bcOEIZxYlVl9pwod",
+      "animated": true
+    },
+    {
+      "id": "edge-node-HpbG5bcOEIZxYlVl9pwod-node-3lHMW2Uje5tQawetE4I21",
+      "source": "node-HpbG5bcOEIZxYlVl9pwod",
+      "target": "node-3lHMW2Uje5tQawetE4I21",
+      "animated": true
+    },
+    {
+      "id": "edge-node-3lHMW2Uje5tQawetE4I21-node-JXtLbQ1JUQOPZorFy1ctF",
+      "source": "node-3lHMW2Uje5tQawetE4I21",
+      "target": "node-JXtLbQ1JUQOPZorFy1ctF",
+      "animated": true
+    },
+    {
+      "id": "edge-node-JXtLbQ1JUQOPZorFy1ctF-node-XY2l96sry3WyLzzo3KUeU",
+      "source": "node-JXtLbQ1JUQOPZorFy1ctF",
+      "target": "node-XY2l96sry3WyLzzo3KUeU",
+      "animated": true
+    },
+    {
+      "id": "edge-node-XY2l96sry3WyLzzo3KUeU-node-wr5ddjutC-fX_ixysTHaT",
+      "source": "node-XY2l96sry3WyLzzo3KUeU",
+      "target": "node-wr5ddjutC-fX_ixysTHaT",
+      "animated": true
+    },
+    {
+      "id": "edge-node-wr5ddjutC-fX_ixysTHaT-node-XY2l96sry3WyLzzo3KUeU",
+      "source": "node-wr5ddjutC-fX_ixysTHaT",
+      "target": "node-XY2l96sry3WyLzzo3KUeU",
+      "animated": true
+    },
+    {
+      "id": "edge-node-XY2l96sry3WyLzzo3KUeU-node-Gr9WJ0tNmSsVHSA0Cx3xY",
+      "source": "node-XY2l96sry3WyLzzo3KUeU",
+      "target": "node-Gr9WJ0tNmSsVHSA0Cx3xY",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Gr9WJ0tNmSsVHSA0Cx3xY-node-0ZJrFxKo5HyD9OgzG5LWp",
+      "source": "node-Gr9WJ0tNmSsVHSA0Cx3xY",
+      "target": "node-0ZJrFxKo5HyD9OgzG5LWp",
+      "animated": true
+    },
+    {
+      "id": "edge-node-0ZJrFxKo5HyD9OgzG5LWp-node-Ubk4GN0Z4XlDJ3EbRXdxg",
+      "source": "node-0ZJrFxKo5HyD9OgzG5LWp",
+      "target": "node-Ubk4GN0Z4XlDJ3EbRXdxg",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Ubk4GN0Z4XlDJ3EbRXdxg-node-MWhoqhNnBaoeCdN_8i15k",
+      "source": "node-Ubk4GN0Z4XlDJ3EbRXdxg",
+      "target": "node-MWhoqhNnBaoeCdN_8i15k",
+      "animated": true
+    },
+    {
+      "id": "edge-node-MWhoqhNnBaoeCdN_8i15k-node-mHChjJd39ofwPBS-v_sQY",
+      "source": "node-MWhoqhNnBaoeCdN_8i15k",
+      "target": "node-mHChjJd39ofwPBS-v_sQY",
+      "animated": true
+    },
+    {
+      "id": "edge-node-mHChjJd39ofwPBS-v_sQY-node-8VL5XHFrQUjin1pdAi7WZ",
+      "source": "node-mHChjJd39ofwPBS-v_sQY",
+      "target": "node-8VL5XHFrQUjin1pdAi7WZ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-8VL5XHFrQUjin1pdAi7WZ-node-17nFgML7zVjQYiHIOSLlK",
+      "source": "node-8VL5XHFrQUjin1pdAi7WZ",
+      "target": "node-17nFgML7zVjQYiHIOSLlK",
+      "animated": true
+    },
+    {
+      "id": "edge-node-17nFgML7zVjQYiHIOSLlK-node-phtVEKzIUv9E1abazort0",
+      "source": "node-17nFgML7zVjQYiHIOSLlK",
+      "target": "node-phtVEKzIUv9E1abazort0",
+      "animated": true
+    },
+    {
+      "id": "edge-node-phtVEKzIUv9E1abazort0-node-hzeEo8COf2l07iu5EdlFo",
+      "source": "node-phtVEKzIUv9E1abazort0",
+      "target": "node-hzeEo8COf2l07iu5EdlFo",
+      "animated": true
+    },
+    {
+      "id": "edge-node-hzeEo8COf2l07iu5EdlFo-node-6kVVt2lihBW8tPGV-ll3_",
+      "source": "node-hzeEo8COf2l07iu5EdlFo",
+      "target": "node-6kVVt2lihBW8tPGV-ll3_",
+      "animated": true
+    },
+    {
+      "id": "edge-node-6kVVt2lihBW8tPGV-ll3_-node-ikp1O_sss_6hDGl6p8LNJ",
+      "source": "node-6kVVt2lihBW8tPGV-ll3_",
+      "target": "node-ikp1O_sss_6hDGl6p8LNJ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ikp1O_sss_6hDGl6p8LNJ-node-cz--AlEn0cc2-keXeuk9g",
+      "source": "node-ikp1O_sss_6hDGl6p8LNJ",
+      "target": "node-cz--AlEn0cc2-keXeuk9g",
+      "animated": true
+    },
+    {
+      "id": "edge-node-cz--AlEn0cc2-keXeuk9g-node-QBeh16mppfb2s4OGt4aPy",
+      "source": "node-cz--AlEn0cc2-keXeuk9g",
+      "target": "node-QBeh16mppfb2s4OGt4aPy",
+      "animated": true
+    },
+    {
+      "id": "edge-node-QBeh16mppfb2s4OGt4aPy-node-upZAMDEtzq1VklqTKG5mV",
+      "source": "node-QBeh16mppfb2s4OGt4aPy",
+      "target": "node-upZAMDEtzq1VklqTKG5mV",
+      "animated": true
+    },
+    {
+      "id": "edge-node-upZAMDEtzq1VklqTKG5mV-node-ODqMzOAN1je004chwATTl",
+      "source": "node-upZAMDEtzq1VklqTKG5mV",
+      "target": "node-ODqMzOAN1je004chwATTl",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ODqMzOAN1je004chwATTl-node-O9W3d1q1yJmfRJHnfognN",
+      "source": "node-ODqMzOAN1je004chwATTl",
+      "target": "node-O9W3d1q1yJmfRJHnfognN",
+      "animated": true
+    },
+    {
+      "id": "edge-node-O9W3d1q1yJmfRJHnfognN-node-KVb_TAsSD8Kgafij4iEXc",
+      "source": "node-O9W3d1q1yJmfRJHnfognN",
+      "target": "node-KVb_TAsSD8Kgafij4iEXc",
+      "animated": true
+    },
+    {
+      "id": "edge-node-KVb_TAsSD8Kgafij4iEXc-node-CMnz6UFUGbxIGSH06ZdgH",
+      "source": "node-KVb_TAsSD8Kgafij4iEXc",
+      "target": "node-CMnz6UFUGbxIGSH06ZdgH",
+      "animated": true
+    },
+    {
+      "id": "edge-node-CMnz6UFUGbxIGSH06ZdgH-node-5WogJrcXhNXewsXzSAME7",
+      "source": "node-CMnz6UFUGbxIGSH06ZdgH",
+      "target": "node-5WogJrcXhNXewsXzSAME7",
+      "animated": true
+    },
+    {
+      "id": "edge-node-5WogJrcXhNXewsXzSAME7-node-q5lkCO_uGmkcJopjltg8j",
+      "source": "node-5WogJrcXhNXewsXzSAME7",
+      "target": "node-q5lkCO_uGmkcJopjltg8j",
+      "animated": true
+    },
+    {
+      "id": "edge-node-q5lkCO_uGmkcJopjltg8j-node-aRnpJbSUg_rr9Z00RafYt",
+      "source": "node-q5lkCO_uGmkcJopjltg8j",
+      "target": "node-aRnpJbSUg_rr9Z00RafYt",
+      "animated": true
+    },
+    {
+      "id": "edge-node-aRnpJbSUg_rr9Z00RafYt-node-9BSermDg6ODL2MSRQiDZo",
+      "source": "node-aRnpJbSUg_rr9Z00RafYt",
+      "target": "node-9BSermDg6ODL2MSRQiDZo",
+      "animated": true
+    },
+    {
+      "id": "edge-node-9BSermDg6ODL2MSRQiDZo-node-7mAZMKyiuZiEpKhrydp8J",
+      "source": "node-9BSermDg6ODL2MSRQiDZo",
+      "target": "node-7mAZMKyiuZiEpKhrydp8J",
+      "animated": true
+    },
+    {
+      "id": "edge-node-7mAZMKyiuZiEpKhrydp8J-node-pfgsxuQ-D7dTMPNWKG9OY",
+      "source": "node-7mAZMKyiuZiEpKhrydp8J",
+      "target": "node-pfgsxuQ-D7dTMPNWKG9OY",
+      "animated": true
+    },
+    {
+      "id": "edge-node-pfgsxuQ-D7dTMPNWKG9OY-node-OPHuAD0L-GZ6zRhIhbmPL",
+      "source": "node-pfgsxuQ-D7dTMPNWKG9OY",
+      "target": "node-OPHuAD0L-GZ6zRhIhbmPL",
+      "animated": true
+    },
+    {
+      "id": "edge-node-OPHuAD0L-GZ6zRhIhbmPL-node-GW5I1z7D1945AxqYHbW6F",
+      "source": "node-OPHuAD0L-GZ6zRhIhbmPL",
+      "target": "node-GW5I1z7D1945AxqYHbW6F",
+      "animated": true
+    },
+    {
+      "id": "edge-node-GW5I1z7D1945AxqYHbW6F-node-6GvIXEzWbSD8q6Qt-BsHP",
+      "source": "node-GW5I1z7D1945AxqYHbW6F",
+      "target": "node-6GvIXEzWbSD8q6Qt-BsHP",
+      "animated": true
+    },
+    {
+      "id": "edge-node-6GvIXEzWbSD8q6Qt-BsHP-node-NtQDPno95SYo5E88ls4v1",
+      "source": "node-6GvIXEzWbSD8q6Qt-BsHP",
+      "target": "node-NtQDPno95SYo5E88ls4v1",
+      "animated": true
+    },
+    {
+      "id": "edge-node-NtQDPno95SYo5E88ls4v1-node-WypEm84Rr0t-IzCZiU92q",
+      "source": "node-NtQDPno95SYo5E88ls4v1",
+      "target": "node-WypEm84Rr0t-IzCZiU92q",
+      "animated": true
+    },
+    {
+      "id": "edge-node-WypEm84Rr0t-IzCZiU92q-node-Ubk4GN0Z4XlDJ3EbRXdxg",
+      "source": "node-WypEm84Rr0t-IzCZiU92q",
+      "target": "node-Ubk4GN0Z4XlDJ3EbRXdxg",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Ubk4GN0Z4XlDJ3EbRXdxg-node-2omItZjkVFW9kMiNXdt-h",
+      "source": "node-Ubk4GN0Z4XlDJ3EbRXdxg",
+      "target": "node-2omItZjkVFW9kMiNXdt-h",
+      "animated": true
+    },
+    {
+      "id": "edge-node-2omItZjkVFW9kMiNXdt-h-node-ScizaxaDFQ_OBiFZ540Xs",
+      "source": "node-2omItZjkVFW9kMiNXdt-h",
+      "target": "node-ScizaxaDFQ_OBiFZ540Xs",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ScizaxaDFQ_OBiFZ540Xs-node-GC4vVcOcFWE1RByD-sd4G",
+      "source": "node-ScizaxaDFQ_OBiFZ540Xs",
+      "target": "node-GC4vVcOcFWE1RByD-sd4G",
+      "animated": true
+    },
+    {
+      "id": "edge-node-GC4vVcOcFWE1RByD-sd4G-node-vnm51qAe2C1cszHfh-o6P",
+      "source": "node-GC4vVcOcFWE1RByD-sd4G",
+      "target": "node-vnm51qAe2C1cszHfh-o6P",
+      "animated": true
+    },
+    {
+      "id": "edge-node-vnm51qAe2C1cszHfh-o6P-node-4bJRhuZzVc32x2Y0gGGrh",
+      "source": "node-vnm51qAe2C1cszHfh-o6P",
+      "target": "node-4bJRhuZzVc32x2Y0gGGrh",
+      "animated": true
+    },
+    {
+      "id": "edge-node-4bJRhuZzVc32x2Y0gGGrh-node-LkLQ8GjBXDuw1XsrE4Cjj",
+      "source": "node-4bJRhuZzVc32x2Y0gGGrh",
+      "target": "node-LkLQ8GjBXDuw1XsrE4Cjj",
+      "animated": true
+    },
+    {
+      "id": "edge-node-LkLQ8GjBXDuw1XsrE4Cjj-node-h2oehkZSKfMqlVBAgt46P",
+      "source": "node-LkLQ8GjBXDuw1XsrE4Cjj",
+      "target": "node-h2oehkZSKfMqlVBAgt46P",
+      "animated": true
+    },
+    {
+      "id": "edge-node-h2oehkZSKfMqlVBAgt46P-node-wWs2PxN7T2-gDZNJJ1vTq",
+      "source": "node-h2oehkZSKfMqlVBAgt46P",
+      "target": "node-wWs2PxN7T2-gDZNJJ1vTq",
+      "animated": true
+    },
+    {
+      "id": "edge-node-wWs2PxN7T2-gDZNJJ1vTq-node-bnpY9GX1BGjDPJXwTFWTX",
+      "source": "node-wWs2PxN7T2-gDZNJJ1vTq",
+      "target": "node-bnpY9GX1BGjDPJXwTFWTX",
+      "animated": true
+    },
+    {
+      "id": "edge-node-bnpY9GX1BGjDPJXwTFWTX-node-eX9-1I_hC2zwJNiBYXFu6",
+      "source": "node-bnpY9GX1BGjDPJXwTFWTX",
+      "target": "node-eX9-1I_hC2zwJNiBYXFu6",
+      "animated": true
+    },
+    {
+      "id": "edge-node-eX9-1I_hC2zwJNiBYXFu6-node-lzHnwx_3gftRZbstk6INB",
+      "source": "node-eX9-1I_hC2zwJNiBYXFu6",
+      "target": "node-lzHnwx_3gftRZbstk6INB",
+      "animated": true
+    },
+    {
+      "id": "edge-node-lzHnwx_3gftRZbstk6INB-node-r-LrA1cGR1XMu1p2xIsN0",
+      "source": "node-lzHnwx_3gftRZbstk6INB",
+      "target": "node-r-LrA1cGR1XMu1p2xIsN0",
+      "animated": true
+    },
+    {
+      "id": "edge-node-r-LrA1cGR1XMu1p2xIsN0-node-Xsl8mx6J182TxPPtNP471",
+      "source": "node-r-LrA1cGR1XMu1p2xIsN0",
+      "target": "node-Xsl8mx6J182TxPPtNP471",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Xsl8mx6J182TxPPtNP471-node-CJV5OV_Whoz4_7L8yhDG1",
+      "source": "node-Xsl8mx6J182TxPPtNP471",
+      "target": "node-CJV5OV_Whoz4_7L8yhDG1",
+      "animated": true
+    }
+  ],
+  "topics": {
+    "vDSSzh5TwZ8zzY0rWRXu4": {
+      "id": "vDSSzh5TwZ8zzY0rWRXu4",
+      "slug": "ask-ai-to-handle-your-git-and-github-cli-tasks",
+      "title": "Ask AI to handle your Git and GitHub CLI tasks",
+      "description": "You don't need to memorize Git commands. Ask AI to write commit messages, create branches, push code, and manage your repository for you. This removes one of the biggest barriers beginners face with version control and keeps the workflow moving smoothly.",
+      "resources": [
+        {
+          "id": "vDSSzh5TwZ8zzY0rWRXu4-res-1",
+          "type": "article",
+          "title": "AI Coding Best Practices for Modern Development - GitHub",
+          "url": "https://github.com/kurdin/ai-coding-best-practices-for-modern-development"
+        },
+        {
+          "id": "vDSSzh5TwZ8zzY0rWRXu4-res-2",
+          "type": "article",
+          "title": "Automatic Commit Message Generation in Cursor IDE - Cursor Forum",
+          "url": "https://forum.cursor.com/t/feature-request-integration-of-automatic-commit-message-generation-in-cursor-ide/1654"
+        },
+        {
+          "id": "vDSSzh5TwZ8zzY0rWRXu4-res-3",
+          "type": "article",
+          "title": "AICommitMessages Plugin for JetBrains IDEs - JetBrains",
+          "url": "https://plugins.jetbrains.com/plugin/30544-aicommitmessages"
+        }
+      ]
+    },
+    "FoQ15wo0cV2Tntru6jV-1": {
+      "id": "FoQ15wo0cV2Tntru6jV-1",
+      "slug": "ask-ai-to-keep-the-code-modular-and-aim-for-smaller-modulesfiles",
+      "title": "Ask AI to keep the code modular and aim for smaller modules/files",
+      "description": "From the start, tell AI to split the code into small, focused files rather than putting everything in one place. Smaller files are easier to read, easier to fix, and easier for AI to work with in future sessions without getting confused.",
+      "resources": [
+        {
+          "id": "FoQ15wo0cV2Tntru6jV-1-res-1",
+          "type": "article",
+          "title": "Vibe Coding Principles: Modularity and Coupling Principles",
+          "url": "https://blog.synapticlabs.ai/what-is-modular-programming-loose-coupling"
+        },
+        {
+          "id": "FoQ15wo0cV2Tntru6jV-1-res-2",
+          "type": "article",
+          "title": "Clean Code: What Is Refactoring and Why It Matters - Refactoring.Guru",
+          "url": "https://refactoring.guru/refactoring/what-is-refactoring"
+        },
+        {
+          "id": "FoQ15wo0cV2Tntru6jV-1-res-3",
+          "type": "article",
+          "title": "Modular Code - Quality Assurance of Code for Analysis and Research - Gov.UK",
+          "url": "https://best-practice-and-impact.github.io/qa-of-code-guidance/modular_code.html"
+        }
+      ]
+    },
+    "n5JxUpashrHKai2XESdd-": {
+      "id": "n5JxUpashrHKai2XESdd-",
+      "slug": "ask-ai-to-use-subagents-if-possible",
+      "title": "Use subagents",
+      "description": "Subagents are specialized agents that handle specific tasks in their own isolated context. Using them keeps each part of the work focused, reduces token usage, and produces cleaner results than trying to do everything inside one long conversation.",
+      "resources": [
+        {
+          "id": "n5JxUpashrHKai2XESdd--res-1",
+          "type": "article",
+          "title": "Agents, Subagents, and Multi Agents: What They Are and When to Use Them",
+          "url": "https://dev.to/goose_oss/agents-subagents-and-multi-agents-what-they-are-and-when-to-use-them-39na"
+        },
+        {
+          "id": "n5JxUpashrHKai2XESdd--res-2",
+          "type": "article",
+          "title": "Create custom subagents - Claude Code",
+          "url": "https://code.claude.com/docs/en/sub-agents"
+        },
+        {
+          "id": "n5JxUpashrHKai2XESdd--res-3",
+          "type": "article",
+          "title": "The Code Agent Orchestra - Addy Osmani",
+          "url": "https://addyosmani.com/blog/code-agent-orchestra/"
+        }
+      ]
+    },
+    "WLOx62vbIhIlv73jcT8zM": {
+      "id": "WLOx62vbIhIlv73jcT8zM",
+      "slug": "ask-ai-to-write-tests-e2e-tests-can-help-build-a-stable-product",
+      "title": "Ask AI to write tests",
+      "description": "Every time AI builds a feature, ask it to write tests for that feature right away. End-to-end tests are especially useful because they simulate a real user going through your app and catch bugs that affect the experience before they reach real users.",
+      "resources": [
+        {
+          "id": "WLOx62vbIhIlv73jcT8zM-res-1",
+          "type": "article",
+          "title": "AI-Driven Testing Best Practices - Foojay.io",
+          "url": "https://foojay.io/today/ai-driven-testing-best-practices/"
+        },
+        {
+          "id": "WLOx62vbIhIlv73jcT8zM-res-2",
+          "type": "article",
+          "title": "AI-Powered E2E Testing: How Cursor and Release Make Quality at Speed - Release",
+          "url": "https://release.com/blog/ai-powered-e2e-testing"
+        },
+        {
+          "id": "WLOx62vbIhIlv73jcT8zM-res-3",
+          "type": "article",
+          "title": "The Complete Playwright End-to-End Story: Tools, AI, and Real-World Workflows - Microsoft",
+          "url": "https://developer.microsoft.com/blog/the-complete-playwright-end-to-end-story-tools-ai-and-real-world-workflows"
+        }
+      ]
+    },
+    "HpbG5bcOEIZxYlVl9pwod": {
+      "id": "HpbG5bcOEIZxYlVl9pwod",
+      "slug": "ask-for-one-task-at-a-time-rather-than-five-different-items",
+      "title": "Ask for one task at a time",
+      "description": "Keep your prompts focused. Ask AI to do one thing, review the result, and then move on to the next. When you stack multiple requests into one prompt, the AI loses focus and mistakes pile up across all of them at once.",
+      "resources": [
+        {
+          "id": "HpbG5bcOEIZxYlVl9pwod-res-1",
+          "type": "article",
+          "title": "The Productivity Paradox of AI Coding Assistants - Cerbos",
+          "url": "https://www.cerbos.dev/blog/productivity-paradox-of-ai-coding-assistants"
+        },
+        {
+          "id": "HpbG5bcOEIZxYlVl9pwod-res-2",
+          "type": "article",
+          "title": "Vibe Coding: Best Practices for Prompting - Supabase",
+          "url": "https://supabase.com/blog/vibe-coding-best-practices-for-prompting"
+        },
+        {
+          "id": "HpbG5bcOEIZxYlVl9pwod-res-3",
+          "type": "article",
+          "title": "My LLM Codegen Workflow ATM - Harper Reed",
+          "url": "https://harper.blog/2025/02/16/my-llm-codegen-workflow-atm/"
+        }
+      ]
+    },
+    "3lHMW2Uje5tQawetE4I21": {
+      "id": "3lHMW2Uje5tQawetE4I21",
+      "slug": "based-on-your-previous-coding-sessions-tell-ai-what-not-to-do",
+      "title": "Tell AI what NOT to do",
+      "description": "Articles ========",
+      "resources": [
+        {
+          "id": "3lHMW2Uje5tQawetE4I21-res-1",
+          "type": "article",
+          "title": "Negative Prompting and How to Tell AI What NOT to Do - Vibe Coder",
+          "url": "https://blog.vibecoder.me/negative-prompting-telling-ai-what-not-to-do"
+        },
+        {
+          "id": "3lHMW2Uje5tQawetE4I21-res-2",
+          "type": "article",
+          "title": "Case Study: \"Negative Prompting\" for Code Review. Hype or Real? - Trilogy AI",
+          "url": "https://trilogyai.substack.com/p/case-study-i-tested-the-negative"
+        },
+        {
+          "id": "3lHMW2Uje5tQawetE4I21-res-3",
+          "type": "article",
+          "title": "Using Negative AI Prompts Effectively - Virtualization Review",
+          "url": "https://virtualizationreview.com/articles/2025/12/08/using-negative-ai-prompts-effectively.aspx"
+        }
+      ]
+    },
+    "JXtLbQ1JUQOPZorFy1ctF": {
+      "id": "JXtLbQ1JUQOPZorFy1ctF",
+      "slug": "be-specific-about-what-you-want-rather-than-high-level-vague-instructions",
+      "title": "Be specific about what you want",
+      "description": "Describe exactly what you want — layout, behavior, content, constraints. The more detail you give, the less the AI has to guess. Vague prompts produce vague results, and you end up spending more time correcting than if you had been specific from the start.",
+      "resources": [
+        {
+          "id": "JXtLbQ1JUQOPZorFy1ctF-res-1",
+          "type": "article",
+          "title": "Prompt Engineering Best Practices: Tutorial & Examples - LaunchDarkly",
+          "url": "https://launchdarkly.com/blog/prompt-engineering-best-practices/"
+        },
+        {
+          "id": "JXtLbQ1JUQOPZorFy1ctF-res-2",
+          "type": "article",
+          "title": "The Prompt Engineering Playbook for Programmers - Addy Osmani",
+          "url": "https://addyo.substack.com/p/the-prompt-engineering-playbook-for"
+        },
+        {
+          "id": "JXtLbQ1JUQOPZorFy1ctF-res-3",
+          "type": "article",
+          "title": "Vibe Coding Explained: Platforms, Prompts & Best Practices - Clarifai",
+          "url": "https://www.clarifai.com/blog/vibe-coding-explained"
+        }
+      ]
+    },
+    "XY2l96sry3WyLzzo3KUeU": {
+      "id": "XY2l96sry3WyLzzo3KUeU",
+      "slug": "codex",
+      "title": "ChatGPT",
+      "description": "ChatGPT is a large language model chatbot developed by OpenAI. You can give it a prompt, and it'll generate text that attempts to answer or continue the conversation. Think of it as a super-smart auto-complete that can understand context and hold a conversation. It's been used for things like writing code, answering questions, and even creative writing.",
+      "resources": [
+        {
+          "id": "XY2l96sry3WyLzzo3KUeU-res-1",
+          "type": "article",
+          "title": "ChatGPT",
+          "url": "https://chatgpt.com/"
+        },
+        {
+          "id": "XY2l96sry3WyLzzo3KUeU-res-2",
+          "type": "article",
+          "title": "ChatGPT Overview",
+          "url": "https://chatgpt.com/overview"
+        },
+        {
+          "id": "XY2l96sry3WyLzzo3KUeU-res-3",
+          "type": "video",
+          "title": "ChatGPT Tutorial - A Crash Course on Chat GPT for Beginners",
+          "url": "https://www.youtube.com/watch?v=JTxsNm9IdYU"
+        }
+      ]
+    },
+    "wr5ddjutC-fX_ixysTHaT": {
+      "id": "wr5ddjutC-fX_ixysTHaT",
+      "slug": "claude-code",
+      "title": "Claude Code",
+      "description": "Claude Code is a terminal-based AI tool built by Anthropic. It is designed to reason through complex code problems, explain unfamiliar codebases, and help with debugging. It works best when you need to understand what a piece of code is doing before modifying it; give it a specific problem and it will walk through it step by step.",
+      "resources": [
+        {
+          "id": "wr5ddjutC-fX_ixysTHaT-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated Claude Code Roadmap",
+          "url": "https://roadmap.sh/claude-code"
+        },
+        {
+          "id": "wr5ddjutC-fX_ixysTHaT-res-2",
+          "type": "article",
+          "title": "Claude Code Overview",
+          "url": "https://code.claude.com/docs/en/overview"
+        },
+        {
+          "id": "wr5ddjutC-fX_ixysTHaT-res-3",
+          "type": "article",
+          "title": "Vibe coding tutorial: Build your first app with Claude Code",
+          "url": "https://roadmap.sh/vibe-coding/tutorial"
+        },
+        {
+          "id": "wr5ddjutC-fX_ixysTHaT-res-4",
+          "type": "video",
+          "title": "Claude Code Tutorial for Beginners",
+          "url": "https://www.youtube.com/watch?v=eMZmDH3T2bY"
+        }
+      ]
+    },
+    "Gr9WJ0tNmSsVHSA0Cx3xY": {
+      "id": "Gr9WJ0tNmSsVHSA0Cx3xY",
+      "slug": "consider-test-driven-development-tdd",
+      "title": "Consider Test-driven development (TDD)",
+      "description": "With TDD, you write the test before the code. Ask AI to first write a test that describes the expected behavior, then write the code that makes it pass. This forces clarity about what you are building and results in cleaner, more reliable code.",
+      "resources": [
+        {
+          "id": "Gr9WJ0tNmSsVHSA0Cx3xY-res-1",
+          "type": "article",
+          "title": "TDD in the Age of Vibe Coding: Pairing Red-Green-Refactor with AI",
+          "url": "https://medium.com/@rupeshit/tdd-in-the-age-of-vibe-coding-pairing-red-green-refactor-with-ai-65af8ed32ae8"
+        },
+        {
+          "id": "Gr9WJ0tNmSsVHSA0Cx3xY-res-2",
+          "type": "article",
+          "title": "Test-First Prompting: Using TDD for Secure AI-Generated Code - Endor Labs",
+          "url": "https://www.endorlabs.com/learn/test-first-prompting-using-tdd-for-secure-ai-generated-code"
+        },
+        {
+          "id": "Gr9WJ0tNmSsVHSA0Cx3xY-res-3",
+          "type": "video",
+          "title": "Claude Code Agents TDD Vibe Coding Test + Research",
+          "url": "https://www.youtube.com/watch?v=6kt6Lhz4yJU"
+        }
+      ]
+    },
+    "0ZJrFxKo5HyD9OgzG5LWp": {
+      "id": "0ZJrFxKo5HyD9OgzG5LWp",
+      "slug": "context",
+      "title": "Context",
+      "description": "Context is everything when working with AI. The AI only knows what you tell it; it has no memory of your project, your past decisions, or your preferences unless you provide that information in the current session. Keep sessions focused, start fresh for unrelated tasks, and use subagents when possible to keep context clean and costs low.",
+      "resources": [
+        {
+          "id": "0ZJrFxKo5HyD9OgzG5LWp-res-1",
+          "type": "article",
+          "title": "Effective context engineering for AI agents",
+          "url": "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents"
+        },
+        {
+          "id": "0ZJrFxKo5HyD9OgzG5LWp-res-2",
+          "type": "article",
+          "title": "Context Engineering Best Practices for AI-Powered Dev Teams - Packmind",
+          "url": "https://packmind.com/context-engineering-ai-coding/context-engineering-best-practices/"
+        },
+        {
+          "id": "0ZJrFxKo5HyD9OgzG5LWp-res-3",
+          "type": "article",
+          "title": "Complete Guide to Context Engineering for Coding Agents - Latitude",
+          "url": "https://latitude.so/blog/context-engineering-guide-coding-agents"
+        }
+      ]
+    },
+    "Ubk4GN0Z4XlDJ3EbRXdxg": {
+      "id": "Ubk4GN0Z4XlDJ3EbRXdxg",
+      "slug": "replit",
+      "title": "Copilot",
+      "description": "GitHub Copilot is an AI-powered coding assistant that helps you write code faster. It suggests lines of code and even entire functions as you type, learning from your style and comments to provide relevant suggestions. It's like having a coding partner that understands your intentions and helps you bring them to life.",
+      "resources": [
+        {
+          "id": "Ubk4GN0Z4XlDJ3EbRXdxg-res-1",
+          "type": "article",
+          "title": "GitHub Copilot Docs",
+          "url": "https://docs.github.com/en/copilot"
+        },
+        {
+          "id": "Ubk4GN0Z4XlDJ3EbRXdxg-res-2",
+          "type": "article",
+          "title": "Tutorials",
+          "url": "https://docs.github.com/en/copilot/tutorials"
+        },
+        {
+          "id": "Ubk4GN0Z4XlDJ3EbRXdxg-res-3",
+          "type": "video",
+          "title": "Getting started with GitHub Copilot | Tutorial",
+          "url": "https://www.youtube.com/watch?v=n0NlxUyA7FI"
+        }
+      ]
+    },
+    "MWhoqhNnBaoeCdN_8i15k": {
+      "id": "MWhoqhNnBaoeCdN_8i15k",
+      "slug": "cursor",
+      "title": "Cursor",
+      "description": "Cursor is a code editor built on top of VS Code with AI assistance integrated throughout. It is particularly useful for navigating and editing large codebases you did not write yourself, which makes it well suited for working with AI-generated code. You can select any part of the code and ask it to explain, fix, or rewrite it without having to read every line around it.",
+      "resources": [
+        {
+          "id": "MWhoqhNnBaoeCdN_8i15k-res-1",
+          "type": "article",
+          "title": "Cursor Docs",
+          "url": "https://cursor.com/docs"
+        },
+        {
+          "id": "MWhoqhNnBaoeCdN_8i15k-res-2",
+          "type": "article",
+          "title": "Claude Code vs Cursor: Which AI Coding Tool To Choose in 2026?",
+          "url": "https://roadmap.sh/claude-code/vs-cursor"
+        },
+        {
+          "id": "MWhoqhNnBaoeCdN_8i15k-res-3",
+          "type": "video",
+          "title": "Cursor AI Tutorial for Beginners",
+          "url": "https://www.youtube.com/watch?v=3289vhOUdKA"
+        },
+        {
+          "id": "MWhoqhNnBaoeCdN_8i15k-res-4",
+          "type": "video",
+          "title": "Cursor Tutorial for Beginners (AI Code Editor)",
+          "url": "https://www.youtube.com/watch?v=ocMOZpuAMw4"
+        }
+      ]
+    },
+    "mHChjJd39ofwPBS-v_sQY": {
+      "id": "mHChjJd39ofwPBS-v_sQY",
+      "slug": "debugging",
+      "title": "Debugging",
+      "description": "AI is very good at fixing errors when you give it the right information. Paste the error message directly, let it diagnose the problem, and if it keeps failing after a few attempts, ask it to list all possible causes instead of guessing. Use logs to trace exactly where things go wrong, and when available, use MCP tools to give AI direct visibility into what is happening inside your app in real time.",
+      "resources": [
+        {
+          "id": "mHChjJd39ofwPBS-v_sQY-res-1",
+          "type": "article",
+          "title": "10 Debugging Techniques and How AI Is Changing the Game - WeAreBrain",
+          "url": "https://wearebrain.com/blog/10-effective-debugging-techniques-for-developers/"
+        },
+        {
+          "id": "mHChjJd39ofwPBS-v_sQY-res-2",
+          "type": "article",
+          "title": "AI-First Debugging: Tools and Techniques for Faster Root Cause Analysis - LogRocket",
+          "url": "https://blog.logrocket.com/ai-debugging/"
+        },
+        {
+          "id": "mHChjJd39ofwPBS-v_sQY-res-3",
+          "type": "video",
+          "title": "Vibe Coding Debugging: The Only Tutorial You Need for 10X Fast Debugging",
+          "url": "https://www.youtube.com/watch?v=2h8WSChA1-o"
+        }
+      ]
+    },
+    "8VL5XHFrQUjin1pdAi7WZ": {
+      "id": "8VL5XHFrQUjin1pdAi7WZ",
+      "slug": "explicitly-ask-ai-to-perform-a-security-audit-of-the-application",
+      "title": "Explicitly ask AI to perform a security audit of the application",
+      "description": "Before launching anything publicly, ask AI to go through the code and look for security issues — unprotected routes, missing input validation, exposed data, and anything else that could be exploited. Treat this as a mandatory step, not an optional one.",
+      "resources": [
+        {
+          "id": "8VL5XHFrQUjin1pdAi7WZ-res-1",
+          "type": "article",
+          "title": "AI Code Security: Risks, Best Practices, and Tools - Kiuwan",
+          "url": "https://www.kiuwan.com/blog/ai-code-security/"
+        },
+        {
+          "id": "8VL5XHFrQUjin1pdAi7WZ-res-2",
+          "type": "article",
+          "title": "2025 CISO Guide to Securing AI-Generated Code - Checkmarx",
+          "url": "https://checkmarx.com/blog/ai-is-writing-your-code-whos-keeping-it-secure/"
+        },
+        {
+          "id": "8VL5XHFrQUjin1pdAi7WZ-res-3",
+          "type": "article",
+          "title": "Security-Focused Guide for AI Code Assistant Instructions - OpenSSF",
+          "url": "https://best.openssf.org/Security-Focused-Guide-for-AI-Code-Assistant-Instructions.html"
+        }
+      ]
+    },
+    "17nFgML7zVjQYiHIOSLlK": {
+      "id": "17nFgML7zVjQYiHIOSLlK",
+      "slug": "explicitly-tell-ai-to-think-or-brainstorm-before-complex-problems",
+      "title": "Explicitly tell AI to \"think\" or \"brainstorm\"",
+      "description": "For tricky problems, don't ask AI to jump straight to a solution. Tell it to think through the options first and explain its reasoning before writing any code. This simple instruction often leads to much better results on complex tasks.",
+      "resources": [
+        {
+          "id": "17nFgML7zVjQYiHIOSLlK-res-1",
+          "type": "article",
+          "title": "Teaching AI to \"Think\" Before Answering",
+          "url": "https://medium.com/@21joshishubham/teaching-ai-to-think-before-answering-1bf8c6bb16c4"
+        },
+        {
+          "id": "17nFgML7zVjQYiHIOSLlK-res-2",
+          "type": "article",
+          "title": "What is Chain of Thought (CoT) Prompting? - IBM",
+          "url": "https://www.ibm.com/think/topics/chain-of-thoughts"
+        },
+        {
+          "id": "17nFgML7zVjQYiHIOSLlK-res-3",
+          "type": "article",
+          "title": "Chain-of-Thought (CoT) Prompting Guide",
+          "url": "https://www.promptingguide.ai/techniques/cot"
+        }
+      ]
+    },
+    "phtVEKzIUv9E1abazort0": {
+      "id": "phtVEKzIUv9E1abazort0",
+      "slug": "for-unrelated-tasks-proactively-clean-and-start-new-sessions",
+      "title": "For unrelated tasks, clean and start new sessions",
+      "description": "When switching to a different task, start a new chat. Carrying over context from an unrelated session confuses the AI, reduces the quality of responses, and wastes tokens on information that is no longer relevant.",
+      "resources": [
+        {
+          "id": "phtVEKzIUv9E1abazort0-res-1",
+          "type": "article",
+          "title": "Want Better AI Outputs? Try Context Engineering - GitHub Blog",
+          "url": "https://github.blog/ai-and-ml/generative-ai/want-better-ai-outputs-try-context-engineering/"
+        },
+        {
+          "id": "phtVEKzIUv9E1abazort0-res-2",
+          "type": "article",
+          "title": "Context Engineering: Managing AI-Generated Code Complexity - INNOQ",
+          "url": "https://www.innoq.com/en/blog/2025/10/ai-context-management/"
+        },
+        {
+          "id": "phtVEKzIUv9E1abazort0-res-3",
+          "type": "article",
+          "title": "What Is the WHISK Framework? AI Coding Context Management",
+          "url": "https://www.mindstudio.ai/blog/what-is-whisk-framework-ai-coding-context-management/"
+        }
+      ]
+    },
+    "hzeEo8COf2l07iu5EdlFo": {
+      "id": "hzeEo8COf2l07iu5EdlFo",
+      "slug": "gemini",
+      "title": "Gemini",
+      "description": "Gemini CLI is Google's command-line AI tool for developers. It assists with code generation, explanation, and refactoring directly in the terminal. It is a practical option if you are already working within Google's ecosystem or want a powerful AI assistant without switching away from your existing terminal workflow.",
+      "resources": [
+        {
+          "id": "hzeEo8COf2l07iu5EdlFo-res-1",
+          "type": "article",
+          "title": "Google Gemini",
+          "url": "https://gemini.google.com/"
+        },
+        {
+          "id": "hzeEo8COf2l07iu5EdlFo-res-2",
+          "type": "article",
+          "title": "Google's Gemini Documentation",
+          "url": "https://workspace.google.com/solutions/ai/"
+        },
+        {
+          "id": "hzeEo8COf2l07iu5EdlFo-res-3",
+          "type": "video",
+          "title": "Welcome to the Gemini era",
+          "url": "https://www.youtube.com/watch?v=_fuimO6ErKI"
+        }
+      ]
+    },
+    "6kVVt2lihBW8tPGV-ll3_": {
+      "id": "6kVVt2lihBW8tPGV-ll3_",
+      "slug": "give-ai-mockups-reference-files-and-material-that-can-help-it",
+      "title": "Give AI mockups, reference files, and material",
+      "description": "Articles ========",
+      "resources": [
+        {
+          "id": "6kVVt2lihBW8tPGV-ll3_-res-1",
+          "type": "article",
+          "title": "Mastering Project Context Files for AI Coding Agents - EclipseSource",
+          "url": "https://eclipsesource.com/blogs/2025/11/20/mastering-project-context-files-for-ai-coding-agents/"
+        },
+        {
+          "id": "6kVVt2lihBW8tPGV-ll3_-res-2",
+          "type": "article",
+          "title": "Context Engineering for Coding Agents - Martin Fowler",
+          "url": "https://martinfowler.com/articles/exploring-gen-ai/context-engineering-coding-agents.html"
+        },
+        {
+          "id": "6kVVt2lihBW8tPGV-ll3_-res-3",
+          "type": "article",
+          "title": "Set up a Context Engineering Flow in VS Code - VS Code Docs",
+          "url": "https://code.visualstudio.com/docs/copilot/guides/context-engineering-guide"
+        }
+      ]
+    },
+    "ikp1O_sss_6hDGl6p8LNJ": {
+      "id": "ikp1O_sss_6hDGl6p8LNJ",
+      "slug": "if-ai-fails-after-3-prompts-stop-and-start-a-fresh-chat",
+      "title": "If AI fails after 3 prompts, stop",
+      "description": "As a rule of thumb, if the AI keeps getting something wrong after three attempts, it's better to stop and try something different. Start a fresh session and rephrase the request from scratch. A clean slate almost always works better than trying to fix a conversation that has gone off the track.",
+      "resources": [
+        {
+          "id": "ikp1O_sss_6hDGl6p8LNJ-res-1",
+          "type": "article",
+          "title": "Context Degradation Syndrome: When Large Language Models Lose the Plot",
+          "url": "https://jameshoward.us/2024/11/26/context-degradation-syndrome-when-large-language-models-lose-the-plot"
+        },
+        {
+          "id": "ikp1O_sss_6hDGl6p8LNJ-res-2",
+          "type": "article",
+          "title": "Context Rot: Why AI Gets Worse the Longer You Chat",
+          "url": "https://www.producttalk.org/context-rot/"
+        },
+        {
+          "id": "ikp1O_sss_6hDGl6p8LNJ-res-3",
+          "type": "article",
+          "title": "Best Practices for Context Management in Long AI Chats",
+          "url": "https://community.openai.com/t/best-practices-for-cost-efficient-high-quality-context-management-in-long-ai-chats/1373996"
+        }
+      ]
+    },
+    "cz--AlEn0cc2-keXeuk9g": {
+      "id": "cz--AlEn0cc2-keXeuk9g",
+      "slug": "if-errors-persist-ask-al-to-create-a-list-of-possible-causes",
+      "title": "Ask Al to create a list of possible causes",
+      "description": "If a bug keeps coming back after fixes, ask AI to step back and list all the possible reasons it could be happening. This forces a more systematic approach and often surfaces the real root cause instead of just patching symptoms.",
+      "resources": [
+        {
+          "id": "cz--AlEn0cc2-keXeuk9g-res-1",
+          "type": "article",
+          "title": "The Developer's Guide to Debugging AI-Generated Code - Speedscale",
+          "url": "https://speedscale.com/blog/the-developers-guide-to-debugging-ai-generated-code/"
+        },
+        {
+          "id": "cz--AlEn0cc2-keXeuk9g-res-2",
+          "type": "article",
+          "title": "Debugging AI-Generated Code: 8 Failure Patterns & Fixes - Augment Code",
+          "url": "https://www.augmentcode.com/guides/debugging-ai-generated-code-8-failure-patterns-and-fixes"
+        },
+        {
+          "id": "cz--AlEn0cc2-keXeuk9g-res-3",
+          "type": "article",
+          "title": "AI Debugging Tools - CREATEQ",
+          "url": "https://www.createq.com/en/software-engineering-hub/ai-debugging-tools"
+        }
+      ]
+    },
+    "QBeh16mppfb2s4OGt4aPy": {
+      "id": "QBeh16mppfb2s4OGt4aPy",
+      "slug": "if-you-have-stylecoding-preferences-document-them-for-ai",
+      "title": "If you have style/coding preferences, document them for AI",
+      "description": "Write down your preferences - folder structure, naming conventions, coding patterns - in a dedicated file (e.g., a [CLAUDE.md](http://CLAUDE.md)) and share it with AI at the start of each session. This stops you from correcting the same things over and over and keeps the code consistent throughout the project.",
+      "resources": [
+        {
+          "id": "QBeh16mppfb2s4OGt4aPy-res-1",
+          "type": "article",
+          "title": "Building Shared Coding Guidelines for AI (and People Too) - Stack Overflow Blog",
+          "url": "https://stackoverflow.blog/2026/03/26/coding-guidelines-for-ai-agents-and-people-too/"
+        },
+        {
+          "id": "QBeh16mppfb2s4OGt4aPy-res-2",
+          "type": "article",
+          "title": "The Renaissance of Written Coding Conventions: Because AI Reads Them Too",
+          "url": "https://www.brokenrobot.xyz/blog/the-renaissance-of-written-coding-conventions/"
+        },
+        {
+          "id": "QBeh16mppfb2s4OGt4aPy-res-3",
+          "type": "article",
+          "title": "How to Write a Good CLAUDE.md File - Builder.io",
+          "url": "https://www.builder.io/blog/claude-md-guide"
+        }
+      ]
+    },
+    "upZAMDEtzq1VklqTKG5mV": {
+      "id": "upZAMDEtzq1VklqTKG5mV",
+      "slug": "if-you-need-to-revert-use-git-rather-than-ai-native-revert-functionality",
+      "title": "Revert with Git",
+      "description": "Git gives you precise, reliable control over your code history. AI's built-in undo features are not always trustworthy, especially when changes span multiple files. A proper Git revert takes you back to an exact saved state with no surprises.",
+      "resources": [
+        {
+          "id": "upZAMDEtzq1VklqTKG5mV-res-1",
+          "type": "article",
+          "title": "Vibe Coding with reset --hard - DoltHub",
+          "url": "https://www.dolthub.com/blog/2025-03-31-vibin-with-reset/"
+        },
+        {
+          "id": "upZAMDEtzq1VklqTKG5mV-res-2",
+          "type": "article",
+          "title": "Git Revert Explained: Safely Undoing Your Changes - CloudBees",
+          "url": "https://www.cloudbees.com/blog/git-revert-explained"
+        },
+        {
+          "id": "upZAMDEtzq1VklqTKG5mV-res-3",
+          "type": "article",
+          "title": "The Art of Reverting - Runtime Revolution",
+          "url": "https://revs.runtime-revolution.com/the-art-of-reverting-b2940dba26f0"
+        }
+      ]
+    },
+    "ODqMzOAN1je004chwATTl": {
+      "id": "ODqMzOAN1je004chwATTl",
+      "slug": "illustrate-ai-with-examples-mockups-code-samples-images",
+      "title": "Illustrate AI with Examples",
+      "description": "Always give AI something to look at, not just something to read. Paste in existing files, attach screenshots, or link to references. The more relevant material you provide, the less it has to guess and the better the output will be.",
+      "resources": [
+        {
+          "id": "ODqMzOAN1je004chwATTl-res-1",
+          "type": "article",
+          "title": "Cooking with Constraints: A Designer's Framework for Better AI Prompts - Figma",
+          "url": "https://www.figma.com/blog/designer-framework-for-better-ai-prompts/"
+        },
+        {
+          "id": "ODqMzOAN1je004chwATTl-res-2",
+          "type": "article",
+          "title": "4 Prompt Engineering Examples That Will Make You a Writing Maven - CodeSignal",
+          "url": "https://codesignal.com/blog/prompt-engineering-examples/"
+        },
+        {
+          "id": "ODqMzOAN1je004chwATTl-res-3",
+          "type": "article",
+          "title": "Best Practices for Using AI in VS Code - VS Code Docs",
+          "url": "https://code.visualstudio.com/docs/copilot/best-practices"
+        }
+      ]
+    },
+    "O9W3d1q1yJmfRJHnfognN": {
+      "id": "O9W3d1q1yJmfRJHnfognN",
+      "slug": "implement-spec-driven-development-sdd",
+      "title": "Implement Spec-Driven Development (SDD)",
+      "description": "Spec-driven development means writing a clear document that describes what you want to build before you start prompting. Instead of jumping straight into asking AI to write code, you first describe the features, the user flows, the data structure, and any important rules. You then give this document to the AI at the start of each session so it always has the full picture.",
+      "resources": [
+        {
+          "id": "O9W3d1q1yJmfRJHnfognN-res-1",
+          "type": "article",
+          "title": "A Practical Guide to Spec-Driven Development",
+          "url": "https://docs.zencoder.ai/user-guides/tutorials/spec-driven-development-guide"
+        },
+        {
+          "id": "O9W3d1q1yJmfRJHnfognN-res-2",
+          "type": "article",
+          "title": "Understanding Spec-Driven-Development: Kiro, spec-kit, and Tessl",
+          "url": "https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html"
+        },
+        {
+          "id": "O9W3d1q1yJmfRJHnfognN-res-3",
+          "type": "article",
+          "title": "How to write a good spec for AI agents",
+          "url": "https://addyosmani.com/blog/good-spec/"
+        }
+      ]
+    },
+    "KVb_TAsSD8Kgafij4iEXc": {
+      "id": "KVb_TAsSD8Kgafij4iEXc",
+      "slug": "install-and-ask-ai-to-use-mcp-eg-playwright-for-browser-when-possible",
+      "title": "Install and ask AI to use MCP",
+      "description": "MCP tools let AI interact directly with your app — for example, using Playwright to test it in a real browser. This gives AI actual visibility into what is happening rather than guessing from the code alone, which makes debugging much faster and more accurate.",
+      "resources": [
+        {
+          "id": "KVb_TAsSD8Kgafij4iEXc-res-1",
+          "type": "article",
+          "title": "What is the Model Context Protocol (MCP)?",
+          "url": "https://modelcontextprotocol.io/docs/getting-started/intro"
+        },
+        {
+          "id": "KVb_TAsSD8Kgafij4iEXc-res-2",
+          "type": "article",
+          "title": "The Future of Connected AI: What is an MCP Server and Why It Could Replace RAG Systems",
+          "url": "https://www.hiberus.com/en/blog/the-future-of-connected-ai-what-is-an-mcp-server/"
+        },
+        {
+          "id": "KVb_TAsSD8Kgafij4iEXc-res-3",
+          "type": "article",
+          "title": "The Model Context Protocol's Impact on 2025 - ThoughtWorks",
+          "url": "https://www.thoughtworks.com/en-us/insights/blog/generative-ai/model-context-protocol-mcp-impact-2025"
+        }
+      ]
+    },
+    "CMnz6UFUGbxIGSH06ZdgH": {
+      "id": "CMnz6UFUGbxIGSH06ZdgH",
+      "slug": "leverage-long-context-window-when-available-and-necessary",
+      "title": "Leverage long context windows",
+      "description": "Some AI tools allow you to paste in a lot of information at once. When working on something complex, prompt AI with all the relevant files, notes, and context at once. The more the AI understands about your project upfront, the better decisions it will make throughout the session.",
+      "resources": [
+        {
+          "id": "CMnz6UFUGbxIGSH06ZdgH-res-1",
+          "type": "article",
+          "title": "Context Length Comparison: Leading AI Models in 2026",
+          "url": "https://www.elvex.com/blog/context-length-comparison-ai-models-2026"
+        },
+        {
+          "id": "CMnz6UFUGbxIGSH06ZdgH-res-2",
+          "type": "article",
+          "title": "AI Context Windows: Why Bigger Is Not Always Better - Augment Code",
+          "url": "https://www.augmentcode.com/learn/ai-context-windows-why-bigger-isn-t-always-better"
+        },
+        {
+          "id": "CMnz6UFUGbxIGSH06ZdgH-res-3",
+          "type": "article",
+          "title": "LLMs With Largest Context Windows - Codingscape",
+          "url": "https://codingscape.com/blog/llms-with-largest-context-windows"
+        }
+      ]
+    },
+    "5WogJrcXhNXewsXzSAME7": {
+      "id": "5WogJrcXhNXewsXzSAME7",
+      "slug": "lovable",
+      "title": "Lovable",
+      "description": "Lovable generates a working front-end application from a text description. It is one of the fastest ways to go from idea to something clickable. The output is good enough for early user testing but may need refinement with a code editor before it is ready for production.",
+      "resources": [
+        {
+          "id": "5WogJrcXhNXewsXzSAME7-res-1",
+          "type": "article",
+          "title": "Lovable",
+          "url": "https://lovable.dev"
+        },
+        {
+          "id": "5WogJrcXhNXewsXzSAME7-res-2",
+          "type": "article",
+          "title": "What is Lovable AI? A Deep Dive into the Builder | UI Bakery Blog",
+          "url": "https://uibakery.io/blog/what-is-lovable-ai"
+        },
+        {
+          "id": "5WogJrcXhNXewsXzSAME7-res-3",
+          "type": "article",
+          "title": "How I Built and Deployed an App in 2 days with Lovable, Supabase, and Netlify",
+          "url": "https://towardsdatascience.com/how-i-built-and-deployed-an-app-in-2-days-with-lovable-supabase-and-netlify/?utm_source=roadmap&utm_medium=Referral&utm_campaign=TDS+roadmap+integration"
+        },
+        {
+          "id": "5WogJrcXhNXewsXzSAME7-res-4",
+          "type": "video",
+          "title": "Master Lovable In 24 Minutes",
+          "url": "https://www.youtube.com/watch?v=rqvtLxwMklo"
+        },
+        {
+          "id": "5WogJrcXhNXewsXzSAME7-res-5",
+          "type": "video",
+          "title": "Master Lovable AI in 20 Minutes (NEW 2.0 UPDATE)",
+          "url": "https://www.youtube.com/watch?v=mOak_imYmqU"
+        }
+      ]
+    },
+    "q5lkCO_uGmkcJopjltg8j": {
+      "id": "q5lkCO_uGmkcJopjltg8j",
+      "slug": "master-version-control",
+      "title": "Master Version Control",
+      "description": "Version control is the system you use to track changes to your code over time. Version control tools like Git are especially important for vibe coders because AI can sometimes make sweeping changes that break things unexpectedly, and having a recent save point means you never lose too much progress.",
+      "resources": [
+        {
+          "id": "q5lkCO_uGmkcJopjltg8j-res-1",
+          "type": "article",
+          "title": "Git Guardian: Why Version Control is Non-Negotiable in Vibe Coding",
+          "url": "https://verityai.co/blog/vibe-coding-version-control"
+        },
+        {
+          "id": "q5lkCO_uGmkcJopjltg8j-res-2",
+          "type": "article",
+          "title": "Version Control in the Age of AI - Tower Blog",
+          "url": "https://www.git-tower.com/blog/version-control-in-the-age-of-ai"
+        },
+        {
+          "id": "q5lkCO_uGmkcJopjltg8j-res-3",
+          "type": "video",
+          "title": "Vibe Coding Course 7 – Version Control Basics (Git)",
+          "url": "https://www.youtube.com/watch?v=qUE-nVUrpq4"
+        }
+      ]
+    },
+    "aRnpJbSUg_rr9Z00RafYt": {
+      "id": "aRnpJbSUg_rr9Z00RafYt",
+      "slug": "never-hardcode-or-credentials-use-env-variables-instead",
+      "title": "Always use env variables",
+      "description": "API keys, passwords, and tokens should never appear directly in your code. Store them in a `.env` file using environment variables, and make sure that file is listed in `.gitignore` so it never gets pushed to GitHub accidentally.",
+      "resources": [
+        {
+          "id": "aRnpJbSUg_rr9Z00RafYt-res-1",
+          "type": "article",
+          "title": "Store Config in the Environment - The Twelve-Factor App",
+          "url": "https://12factor.net/config"
+        },
+        {
+          "id": "aRnpJbSUg_rr9Z00RafYt-res-2",
+          "type": "article",
+          "title": "Secrets Management Cheat Sheet - OWASP",
+          "url": "https://cheatsheetseries.owasp.org/cheatsheets/Secrets_Management_Cheat_Sheet.html"
+        },
+        {
+          "id": "aRnpJbSUg_rr9Z00RafYt-res-3",
+          "type": "article",
+          "title": "What Are Hardcoded Secrets? Risks and Best Practices - Apiiro",
+          "url": "https://apiiro.com/glossary/hardcoded-secrets/"
+        }
+      ]
+    },
+    "9BSermDg6ODL2MSRQiDZo": {
+      "id": "9BSermDg6ODL2MSRQiDZo",
+      "slug": "once-tests-are-in-place-refactor-regularly",
+      "title": "Once tests are in place, refactor regularly",
+      "description": "Good tests give you the freedom to clean up and reorganize the code without fear of breaking things. Once your test suite is in place, make refactoring a regular habit and let the tests tell you immediately if anything goes wrong.",
+      "resources": [
+        {
+          "id": "9BSermDg6ODL2MSRQiDZo-res-1",
+          "type": "article",
+          "title": "What is AI Code Refactoring? - Graphite",
+          "url": "https://graphite.com/guides/what-is-ai-code-refactoring"
+        },
+        {
+          "id": "9BSermDg6ODL2MSRQiDZo-res-2",
+          "type": "article",
+          "title": "The Developer's Refactoring Safety Net - Dev.to",
+          "url": "https://dev.to/tracygjg/the-developers-refactoring-safety-net-11nc"
+        },
+        {
+          "id": "9BSermDg6ODL2MSRQiDZo-res-3",
+          "type": "article",
+          "title": "AI Code Refactoring: Strategic Approaches to Enterprise Software - DX",
+          "url": "https://getdx.com/blog/enterprise-ai-refactoring-best-practices/"
+        }
+      ]
+    },
+    "7mAZMKyiuZiEpKhrydp8J": {
+      "id": "7mAZMKyiuZiEpKhrydp8J",
+      "slug": "pick-a-popular-tech-stack-rather-than-newniche-ones",
+      "title": "Pick a popular tech stack rather than new/niche ones",
+      "description": "Use popular tech stacks like React, Next.js, Tailwind, and Supabase. AI has been trained on a lot of code using these tools, so it gives better results. For mobile, desktop, or hardware projects, the same rule applies: stick to established tools. If you use something niche or very new, AI will make more mistakes, and you will spend more time fixing things. Popular stacks also have more tutorials and community support, which helps when you get stuck.",
+      "resources": [
+        {
+          "id": "7mAZMKyiuZiEpKhrydp8J-res-1",
+          "type": "article",
+          "title": "The Best Tech Stack in the Age of AI",
+          "url": "https://thebootstrappedfounder.com/the-best-tech-stack-in-the-age-of-ai/"
+        },
+        {
+          "id": "7mAZMKyiuZiEpKhrydp8J-res-2",
+          "type": "article",
+          "title": "Choosing the Right Tech Stack in 2025 - CodeAnt AI",
+          "url": "https://www.codeant.ai/blogs/best-tech-stack-2025-what-actually-works"
+        },
+        {
+          "id": "7mAZMKyiuZiEpKhrydp8J-res-3",
+          "type": "article",
+          "title": "The React + AI Stack for 2026 - Builder.io",
+          "url": "https://www.builder.io/blog/react-ai-stack-2026"
+        }
+      ]
+    },
+    "pfgsxuQ-D7dTMPNWKG9OY": {
+      "id": "pfgsxuQ-D7dTMPNWKG9OY",
+      "slug": "plan-before-you-code",
+      "title": "Plan before you Code",
+      "description": "Before you start coding with AI, have a plan. Define your MVP and break the project into phases. Don't try to build everything at once; work step by step. Give AI examples like mockups, screenshots, or code samples so it understands what you want. You can even use AI itself to help you plan. Tell it your idea, let it help you refine it, and break it into phases. Little planning at the start saves many hours of fixing later.",
+      "resources": [
+        {
+          "id": "pfgsxuQ-D7dTMPNWKG9OY-res-1",
+          "type": "article",
+          "title": "From vibe coding to vibe planning",
+          "url": "https://tessl.io/blog/from-vibe-coding-to-vibe-planning/"
+        },
+        {
+          "id": "pfgsxuQ-D7dTMPNWKG9OY-res-2",
+          "type": "article",
+          "title": "Advance Planning for AI Project Evaluation",
+          "url": "https://towardsdatascience.com/advance-planning-for-ai-project-evaluation/?utm_source=roadmap&utm_medium=Referral&utm_campaign=TDS+roadmap+integration"
+        },
+        {
+          "id": "pfgsxuQ-D7dTMPNWKG9OY-res-3",
+          "type": "video",
+          "title": "Vibe Planning: The Smarter Way to Code with AI Agents",
+          "url": "https://www.youtube.com/watch?v=B4uD9z6i_IU"
+        }
+      ]
+    },
+    "OPHuAD0L-GZ6zRhIhbmPL": {
+      "id": "OPHuAD0L-GZ6zRhIhbmPL",
+      "slug": "plan-what-you-need-to-develop-mvp-different-phases",
+      "title": "Plan what you need to develop",
+      "description": "Don't try to build everything at once. Start with your MVP, the simplest version that works. If you are building a task manager, that might just be adding, viewing, and deleting tasks. Nothing else. Then break the rest into phases. Maybe phase two is user accounts, phase three is notifications. This way, you always have something working, and the AI gives better results when you give it smaller, focused tasks instead of asking it to build a whole app in one go.",
+      "resources": [
+        {
+          "id": "OPHuAD0L-GZ6zRhIhbmPL-res-1",
+          "type": "article",
+          "title": "A Structured Workflow for \"Vibe Coding\" Full-Stack Apps",
+          "url": "https://dev.to/wasp/a-structured-workflow-for-vibe-coding-full-stack-apps-352l"
+        },
+        {
+          "id": "OPHuAD0L-GZ6zRhIhbmPL-res-2",
+          "type": "article",
+          "title": "Vibe Coding MVP Guide: How to Build SaaS Faster with AI Tools - Upsilon IT",
+          "url": "https://www.upsilonit.com/blog/vibe-coding-mvp-guide"
+        },
+        {
+          "id": "OPHuAD0L-GZ6zRhIhbmPL-res-3",
+          "type": "article",
+          "title": "From Vibe Coding to Spec-Driven Development - Towards Data Science",
+          "url": "https://towardsdatascience.com/from-vibe-coding-to-spec-driven-development/"
+        }
+      ]
+    },
+    "GW5I1z7D1945AxqYHbW6F": {
+      "id": "GW5I1z7D1945AxqYHbW6F",
+      "slug": "prompt-the-error-message-and-let-ai-do-the-rest",
+      "title": "Prompt the error message and let AI do the rest",
+      "description": "When something breaks, copy the full error message and paste it directly into your prompt along with a short description of what you were doing. In most cases, this is enough for AI to find the problem and suggest a fix without any back and forth.",
+      "resources": [
+        {
+          "id": "GW5I1z7D1945AxqYHbW6F-res-1",
+          "type": "article",
+          "title": "Debugging with AI: Can It Replace an Experienced Developer? - Developer Way",
+          "url": "https://www.developerway.com/posts/debugging-with-ai"
+        },
+        {
+          "id": "GW5I1z7D1945AxqYHbW6F-res-2",
+          "type": "article",
+          "title": "How to Replace Stack Overflow with an AI Pair - Kinde",
+          "url": "https://kinde.com/learn/ai-for-software-engineering/prompting/how-to-replace-stack-overflow-with-an-ai-pair-prompt-engineering-for-real-debugging/"
+        },
+        {
+          "id": "GW5I1z7D1945AxqYHbW6F-res-3",
+          "type": "article",
+          "title": "Treat AI-Generated Code as a Draft - Addy Osmani",
+          "url": "https://addyo.substack.com/p/treat-ai-generated-code-as-a-draft"
+        }
+      ]
+    },
+    "6GvIXEzWbSD8q6Qt-BsHP": {
+      "id": "6GvIXEzWbSD8q6Qt-BsHP",
+      "slug": "prompting-best-practices",
+      "title": "Prompting Best Practices",
+      "description": "How you talk to AI determines the quality of what you get back. Ask for one thing at a time, be specific, show examples, tell it what to avoid, and use a context document so you don't repeat yourself every session.",
+      "resources": [
+        {
+          "id": "6GvIXEzWbSD8q6Qt-BsHP-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated Prompt Engineering Roadmap",
+          "url": "https://roadmap.sh/prompt-engineering"
+        },
+        {
+          "id": "6GvIXEzWbSD8q6Qt-BsHP-res-2",
+          "type": "article",
+          "title": "Vibe Coding Like A Pro",
+          "url": "https://leonnicholls.medium.com/vibe-coding-like-a-pro-de18aa1a0cce"
+        },
+        {
+          "id": "6GvIXEzWbSD8q6Qt-BsHP-res-3",
+          "type": "video",
+          "title": "RAG vs Fine-Tuning vs Prompt Engineering: Optimizing AI Models",
+          "url": "https://www.youtube.com/watch?v=zYGDpG-pTho"
+        }
+      ]
+    },
+    "NtQDPno95SYo5E88ls4v1": {
+      "id": "NtQDPno95SYo5E88ls4v1",
+      "slug": "regularly-ask-the-ai-to-review-and-refactor-the-codebase",
+      "title": "Regularly ask the AI to review and refactor the codebase",
+      "description": "Every few sessions, pause new feature work and ask AI to clean up the existing code. Over time, code gets messy, and a regular cleanup keeps the project healthy and makes it easier to keep building without things breaking unexpectedly.",
+      "resources": [
+        {
+          "id": "NtQDPno95SYo5E88ls4v1-res-1",
+          "type": "article",
+          "title": "Code Refactoring: Principles, Techniques, and AI Automation - Tabnine",
+          "url": "https://www.tabnine.com/blog/code-refactoring-with-generative-ai/"
+        },
+        {
+          "id": "NtQDPno95SYo5E88ls4v1-res-2",
+          "type": "article",
+          "title": "Refactoring to Understand and Vibe Coding - Sean Goedecke",
+          "url": "https://www.seangoedecke.com/vibe-coding/"
+        },
+        {
+          "id": "NtQDPno95SYo5E88ls4v1-res-3",
+          "type": "article",
+          "title": "AI Code Refactoring: Tools, Tactics and Best Practices - Augment Code",
+          "url": "https://www.augmentcode.com/tools/ai-code-refactoring-tools-tactics-and-best-practices"
+        }
+      ]
+    },
+    "WypEm84Rr0t-IzCZiU92q": {
+      "id": "WypEm84Rr0t-IzCZiU92q",
+      "slug": "regularly-update-your-context-document-eg-claudemd",
+      "title": "Regularly update your context document",
+      "description": "Every time you make an important decision about your project, add it to your context document, like your [CLAUDE.md](http://CLAUDE.md). This keeps sessions shorter, reduces repeated explanations, and saves tokens, which saves money, especially when working with agents that consume tokens fast.",
+      "resources": [
+        {
+          "id": "WypEm84Rr0t-IzCZiU92q-res-1",
+          "type": "article",
+          "title": "Writing a good CLAUDE.md",
+          "url": "https://www.humanlayer.dev/blog/writing-a-good-claude-md"
+        },
+        {
+          "id": "WypEm84Rr0t-IzCZiU92q-res-2",
+          "type": "article",
+          "title": "Rules Files for Safer Vibe Coding",
+          "url": "https://www.wiz.io/blog/safer-vibe-coding-rules-files"
+        },
+        {
+          "id": "WypEm84Rr0t-IzCZiU92q-res-3",
+          "type": "article",
+          "title": "Writing AI Coding Agent Context Files is Easy. Keeping Them Accurate - Packmind",
+          "url": "https://packmind.com/evaluate-context-ai-coding-agent/"
+        }
+      ]
+    },
+    "2omItZjkVFW9kMiNXdt-h": {
+      "id": "2omItZjkVFW9kMiNXdt-h",
+      "slug": "security-best-practices",
+      "title": "Security Best Practices",
+      "description": "Security is easy to overlook when you are focused on building, but the consequences of ignoring it can be serious. Always use environment variables for sensitive information like API keys and passwords, and before going live, explicitly ask AI to audit your app for vulnerabilities.",
+      "resources": [
+        {
+          "id": "2omItZjkVFW9kMiNXdt-h-res-1",
+          "type": "article",
+          "title": "Passing the Security Vibe Check: The Dangers of Vibe Coding",
+          "url": "https://www.databricks.com/blog/passing-security-vibe-check-dangers-vibe-coding"
+        },
+        {
+          "id": "2omItZjkVFW9kMiNXdt-h-res-2",
+          "type": "article",
+          "title": "How to secure AI-coded (vibe coded) applications",
+          "url": "https://dev.to/zvone187/how-to-secure-ai-coded-vibe-coded-applications-18ge"
+        },
+        {
+          "id": "2omItZjkVFW9kMiNXdt-h-res-3",
+          "type": "article",
+          "title": "Vibe Coding Security: Risks and Best Practices - Legit Security",
+          "url": "https://www.legitsecurity.com/aspm-knowledge-base/vibe-coding-security"
+        }
+      ]
+    },
+    "ScizaxaDFQ_OBiFZ540Xs": {
+      "id": "ScizaxaDFQ_OBiFZ540Xs",
+      "slug": "start-each-new-feature-with-a-clean-git-slate",
+      "title": "Start each new feature with a clean Git slate",
+      "description": "Before asking AI to build something new, make sure all your current changes are committed. This gives you a clean checkpoint so that if the new feature causes problems, you can discard the changes and start again without any risk to what you already have.",
+      "resources": [
+        {
+          "id": "ScizaxaDFQ_OBiFZ540Xs-res-1",
+          "type": "article",
+          "title": "Git Feature Branch Workflow - Atlassian",
+          "url": "https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow"
+        },
+        {
+          "id": "ScizaxaDFQ_OBiFZ540Xs-res-2",
+          "type": "article",
+          "title": "Vibe Coding in Practice: Patterns, Pitfalls, and Prompting Strategies - AIM Consulting",
+          "url": "https://aimconsulting.com/insights/vibe-coding-practice-patterns-pitfalls-prompting/"
+        },
+        {
+          "id": "ScizaxaDFQ_OBiFZ540Xs-res-3",
+          "type": "article",
+          "title": "What is Vibe Coding? Moving Fast with AI Assistance - Contentful",
+          "url": "https://www.contentful.com/blog/practical-vibe-coding/"
+        }
+      ]
+    },
+    "GC4vVcOcFWE1RByD-sd4G": {
+      "id": "GC4vVcOcFWE1RByD-sd4G",
+      "slug": "tech-stack-and-coding",
+      "title": "Tech Stack and Coding",
+      "description": "AI works better with popular tech stacks like React, Next.js, Python, and Tailwind. If you use something niche, expect more errors. Go with what's popular. Write down your coding preferences and give them to AI before you start, otherwise it will make its own choices. Always tell AI to keep code small and modular. It will try to put everything in one file if you let it. And do refactoring sessions regularly, ask AI to review the codebase, and clean up the mess. If you skip this, things get out of control fast.",
+      "resources": [
+        {
+          "id": "GC4vVcOcFWE1RByD-sd4G-res-1",
+          "type": "article",
+          "title": "Web Frameworks 2026: Future-Proofing Enterprise Tech Stack - DEV Community",
+          "url": "https://dev.to/devin-rosario/web-frameworks-2026-future-proofing-enterprise-tech-stack-4l03"
+        },
+        {
+          "id": "GC4vVcOcFWE1RByD-sd4G-res-2",
+          "type": "article",
+          "title": "The 2025 Tech Stack Shake-Up: Why Next.js, Python and Postgres Are Taking Over - DEV Community",
+          "url": "https://dev.to/usman_awan/the-2025-tech-stack-shake-up-why-nextjs-python-postgres-are-taking-over-the-world-4d6p"
+        },
+        {
+          "id": "GC4vVcOcFWE1RByD-sd4G-res-3",
+          "type": "article",
+          "title": "TypeScript, Python, and the AI Feedback Loop Changing Software Development - GitHub Blog",
+          "url": "https://github.blog/news-insights/octoverse/typescript-python-and-the-ai-feedback-loop-changing-software-development/"
+        }
+      ]
+    },
+    "vnm51qAe2C1cszHfh-o6P": {
+      "id": "vnm51qAe2C1cszHfh-o6P",
+      "slug": "tell-ai-to-add-logs-to-find-the-error-faster",
+      "title": "Tell AI to add logs",
+      "description": "Keep track of the mistakes AI keeps repeating and include them in your prompts. Telling AI what to avoid is just as important as telling it what to do. A simple line like \"do not add placeholder data\" can prevent a lot of unnecessary back and forth.",
+      "resources": [
+        {
+          "id": "vnm51qAe2C1cszHfh-o6P-res-1",
+          "type": "article",
+          "title": "Top 10 Debugging Techniques for Vibe Coders - EmbedAI",
+          "url": "https://embedai.dev/blog/debugging-techniques-vibe-coders"
+        },
+        {
+          "id": "vnm51qAe2C1cszHfh-o6P-res-2",
+          "type": "article",
+          "title": "Vibe Coding Debugging: Mastering Effective Techniques - Alan Knox",
+          "url": "https://alanknox.com/debugging-engineering-for-vibe-coders/"
+        },
+        {
+          "id": "vnm51qAe2C1cszHfh-o6P-res-3",
+          "type": "article",
+          "title": "The Truth About Vibe Coding: AI Won't Save You From Debugging - dev.to",
+          "url": "https://dev.to/mikaelsantilio/the-truth-about-vibe-coding-ai-wont-save-you-from-debugging-2i14"
+        }
+      ]
+    },
+    "4bJRhuZzVc32x2Y0gGGrh": {
+      "id": "4bJRhuZzVc32x2Y0gGGrh",
+      "slug": "testing",
+      "title": "Testing",
+      "description": "Testing is how you make sure your app actually works the way it's supposed to. Ask AI to write tests as it builds, not after. Use E2E tests to catch real user-facing bugs, write a breaking test before fixing any bug, and refactor freely once your tests are in place.",
+      "resources": [
+        {
+          "id": "4bJRhuZzVc32x2Y0gGGrh-res-1",
+          "type": "article",
+          "title": "Vibe Coding Testing Gap: AI Apps Need Tests - Autonoma",
+          "url": "https://getautonoma.com/blog/vibe-coding-testing"
+        },
+        {
+          "id": "4bJRhuZzVc32x2Y0gGGrh-res-2",
+          "type": "article",
+          "title": "Test-Driven Development with AI - Builder.io",
+          "url": "https://www.builder.io/blog/test-driven-development-ai"
+        },
+        {
+          "id": "4bJRhuZzVc32x2Y0gGGrh-res-3",
+          "type": "article",
+          "title": "Stop Vibe Coding Your Unit Tests - Andy Gallagher",
+          "url": "https://www.andy-gallagher.com/blog/stop-vibe-coding-your-unit-tests/"
+        }
+      ]
+    },
+    "LkLQ8GjBXDuw1XsrE4Cjj": {
+      "id": "LkLQ8GjBXDuw1XsrE4Cjj",
+      "slug": "the-vibe-coder-mindset",
+      "title": "The Vibe Coder Mindset",
+      "description": "AI is more like a junior developer working next to you. You don't ask one question and leave. You have a conversation with it. You give context, check what it gives back, tell it when something is wrong, and guide it to what you need. If you explain your idea clearly, it works better. This is very different from traditional programming, where you must know exact syntax and write everything yourself. With AI, your role changes; you become the person who directs, not the person who writes the code. You set the vision, review output, and keep the project going in the right direction. You still need to understand the basics of programming, but you don't need to memorize syntax or figure out every small detail on your own anymore.",
+      "resources": [
+        {
+          "id": "LkLQ8GjBXDuw1XsrE4Cjj-res-1",
+          "type": "article",
+          "title": "Vibe Coding Best Practices: How To Get Consistent Results",
+          "url": "https://roadmap.sh/vibe-coding/best-practices"
+        },
+        {
+          "id": "LkLQ8GjBXDuw1XsrE4Cjj-res-2",
+          "type": "article",
+          "title": "The Unbearable Lightness of Coding",
+          "url": "https://towardsdatascience.com/the-unbearable-lightness-of-coding/?utm_source=roadmap&utm_medium=Referral&utm_campaign=TDS+roadmap+integration"
+        },
+        {
+          "id": "LkLQ8GjBXDuw1XsrE4Cjj-res-3",
+          "type": "video",
+          "title": "What is Vibe Coding?",
+          "url": "https://www.youtube.com/watch?v=5OWurmg41tI"
+        }
+      ]
+    },
+    "h2oehkZSKfMqlVBAgt46P": {
+      "id": "h2oehkZSKfMqlVBAgt46P",
+      "slug": "use-act-as-framing-when-helpful-eg-act-as-a-ux-researcher",
+      "title": "Use \"act as\" framing when helpful",
+      "description": "When you want a specific type of thinking, tell AI to take on a role. \"Act as a senior developer\" or \"act as a UX researcher\" shifts how it approaches your question and gives you more relevant, role-specific advice than a generic prompt would.",
+      "resources": [
+        {
+          "id": "h2oehkZSKfMqlVBAgt46P-res-1",
+          "type": "article",
+          "title": "Role Prompting: Guide LLMs with Persona-Based Tasks - Learn Prompting",
+          "url": "https://learnprompting.org/docs/advanced/zero_shot/role_prompting"
+        },
+        {
+          "id": "h2oehkZSKfMqlVBAgt46P-res-2",
+          "type": "article",
+          "title": "Role-Based Prompting - GeeksforGeeks",
+          "url": "https://www.geeksforgeeks.org/artificial-intelligence/role-based-prompting/"
+        },
+        {
+          "id": "h2oehkZSKfMqlVBAgt46P-res-3",
+          "type": "article",
+          "title": "Prompting Techniques | Prompt Engineering Guide - promptingguide.ai",
+          "url": "https://www.promptingguide.ai/techniques"
+        }
+      ]
+    },
+    "wWs2PxN7T2-gDZNJJ1vTq": {
+      "id": "wWs2PxN7T2-gDZNJJ1vTq",
+      "slug": "use-git-commit-regularly-eg-after-every-successful-ai-task",
+      "title": "Use git commit",
+      "description": "Every time AI completes a task, and the result looks good, make a commit. This locks in your progress so that if the next task breaks something, you can go back to the last working version without losing any of your previous work.",
+      "resources": [
+        {
+          "id": "wWs2PxN7T2-gDZNJJ1vTq-res-1",
+          "type": "article",
+          "title": "Best Practices for Committing AI-Generated Code - DeployHQ",
+          "url": "https://www.deployhq.com/git/committing-ai-generated-code"
+        },
+        {
+          "id": "wWs2PxN7T2-gDZNJJ1vTq-res-2",
+          "type": "article",
+          "title": "Git and GitHub for Vibe Coders - DeepakNess",
+          "url": "https://deepakness.com/blog/git-for-vibe-coders/"
+        },
+        {
+          "id": "wWs2PxN7T2-gDZNJJ1vTq-res-3",
+          "type": "article",
+          "title": "Version Control Best Practices for AI Code - Ranger",
+          "url": "https://www.ranger.net/post/version-control-best-practices-ai-code"
+        }
+      ]
+    },
+    "bnpY9GX1BGjDPJXwTFWTX": {
+      "id": "bnpY9GX1BGjDPJXwTFWTX",
+      "slug": "use-skills-created-by-others",
+      "title": "Use skills created by others",
+      "description": "There is a growing ecosystem of skills — pre-built AI capabilities developed as an open standard — that you can plug into your AI tool to extend its capabilities. Before building something from scratch, check if a skill already exists for it. It saves time and often gives better results than starting from zero.",
+      "resources": [
+        {
+          "id": "bnpY9GX1BGjDPJXwTFWTX-res-1",
+          "type": "course",
+          "title": "Agent Skills with Anthropic",
+          "url": "https://www.deeplearning.ai/short-courses/agent-skills-with-anthropic/"
+        },
+        {
+          "id": "bnpY9GX1BGjDPJXwTFWTX-res-2",
+          "type": "article",
+          "title": "Agent Skills - Claude",
+          "url": "https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview"
+        },
+        {
+          "id": "bnpY9GX1BGjDPJXwTFWTX-res-3",
+          "type": "article",
+          "title": "Agents Skills",
+          "url": "https://agentskills.io/home"
+        }
+      ]
+    },
+    "eX9-1I_hC2zwJNiBYXFu6": {
+      "id": "eX9-1I_hC2zwJNiBYXFu6",
+      "slug": "v0",
+      "title": "v0",
+      "description": "v0 is Vercel's UI generation tool. You describe a component or screen in plain language, and it produces clean React code ready to drop into your project. It is best for generating individual UI components rather than full applications; use it when you need a specific interface element quickly without writing it from scratch.",
+      "resources": [
+        {
+          "id": "eX9-1I_hC2zwJNiBYXFu6-res-1",
+          "type": "article",
+          "title": "v0",
+          "url": "https://v0.app/"
+        },
+        {
+          "id": "eX9-1I_hC2zwJNiBYXFu6-res-2",
+          "type": "article",
+          "title": "Transforming how you work with v0 - Vercel",
+          "url": "https://vercel.com/blog/transforming-how-you-work-with-v0"
+        },
+        {
+          "id": "eX9-1I_hC2zwJNiBYXFu6-res-3",
+          "type": "video",
+          "title": "Build a fullstack app in 7 minutes with v0 (Figma to code)",
+          "url": "https://www.youtube.com/watch?v=cyFVtaLy-bA"
+        },
+        {
+          "id": "eX9-1I_hC2zwJNiBYXFu6-res-4",
+          "type": "video",
+          "title": "How To Use v0 by Vercel For Beginners",
+          "url": "https://www.youtube.com/watch?v=41SR07p243Q"
+        }
+      ]
+    },
+    "lzHnwx_3gftRZbstk6INB": {
+      "id": "lzHnwx_3gftRZbstk6INB",
+      "slug": "what-is-vibe-coding",
+      "title": "Vibe Coding",
+      "description": "\"Vibe coding\" is a software development method in which you use AI and LLMs to generate code via natural-language prompts rather than writing it by hand. The idea is you describe what you want the application to do, and AI builds it. Good for fast prototyping. You don't need to review every line of code. Makes development faster and more accessible for people who are not traditional programmers.",
+      "resources": [
+        {
+          "id": "lzHnwx_3gftRZbstk6INB-res-1",
+          "type": "article",
+          "title": "Vibe coding tutorial: Build your first app with Claude Code",
+          "url": "https://roadmap.sh/vibe-coding/tutorial"
+        },
+        {
+          "id": "lzHnwx_3gftRZbstk6INB-res-2",
+          "type": "article",
+          "title": "Vibe Coding Best Practices: How To Get Consistent Results",
+          "url": "https://roadmap.sh/vibe-coding/best-practices"
+        },
+        {
+          "id": "lzHnwx_3gftRZbstk6INB-res-3",
+          "type": "article",
+          "title": "The 10 Best Vibe Coding Tools in 2026: Our Choices",
+          "url": "https://roadmap.sh/vibe-coding/best-tools"
+        }
+      ]
+    },
+    "r-LrA1cGR1XMu1p2xIsN0": {
+      "id": "r-LrA1cGR1XMu1p2xIsN0",
+      "slug": "when-you-find-a-bug-ask-ai-to-write-a-breaking-test-and-then-fix",
+      "title": "Use breaking tests",
+      "description": "Before fixing a bug, ask AI to write a test that reproduces it, that is, a test that currently fails because of the broken behavior. Then ask it to fix the code so the test passes. This confirms the fix is real and prevents the same bug from coming back silently.",
+      "resources": [
+        {
+          "id": "r-LrA1cGR1XMu1p2xIsN0-res-1",
+          "type": "article",
+          "title": "Test-Driven Development (TDD): A Comprehensive Guide - monday.com",
+          "url": "https://monday.com/blog/rnd/what-is-tdd/"
+        },
+        {
+          "id": "r-LrA1cGR1XMu1p2xIsN0-res-2",
+          "type": "article",
+          "title": "Common Bugs in AI-Generated Code and Fixes - Ranger",
+          "url": "https://www.ranger.net/post/common-bugs-ai-generated-code-fixes"
+        },
+        {
+          "id": "r-LrA1cGR1XMu1p2xIsN0-res-3",
+          "type": "article",
+          "title": "How AI Will Bring TDD Back from the Dead - Momentic",
+          "url": "https://momentic.ai/blog/test-driven-development"
+        }
+      ]
+    },
+    "Xsl8mx6J182TxPPtNP471": {
+      "id": "Xsl8mx6J182TxPPtNP471",
+      "slug": "windsurf",
+      "title": "Windsurf",
+      "description": "Windsurf is an AI-powered code editor developed by Codeium. It combines code generation, editing, and navigation in a single environment and is designed to keep context across the entire codebase rather than just the file you are working on. It is a practical alternative to Cursor for developers who want deep AI integration without leaving the editor.",
+      "resources": [
+        {
+          "id": "Xsl8mx6J182TxPPtNP471-res-1",
+          "type": "article",
+          "title": "Windsurf Docs",
+          "url": "https://docs.windsurf.com/windsurf/getting-started"
+        },
+        {
+          "id": "Xsl8mx6J182TxPPtNP471-res-2",
+          "type": "video",
+          "title": "Windsurf Tutorial for Beginners (AI Code Editor) - Better than Cursor??",
+          "url": "https://www.youtube.com/watch?v=8TcWGk1DJVs"
+        },
+        {
+          "id": "Xsl8mx6J182TxPPtNP471-res-3",
+          "type": "video",
+          "title": "Windsurf AI Tutorial for Beginners",
+          "url": "https://www.youtube.com/watch?v=x1VCmB__TDo"
+        }
+      ]
+    },
+    "CJV5OV_Whoz4_7L8yhDG1": {
+      "id": "CJV5OV_Whoz4_7L8yhDG1",
+      "slug": "work-step-by-step-rather-than-trying-to-build-everything-at-once",
+      "title": "Work step by step rather than trying to build all at once",
+      "description": "Build one feature at a time. Ask the AI to do it, test it, make sure it works, then move to the next one. If you ask AI to build too many things at once, things will break, and you won't know why. Small steps make debugging easy because you only changed one thing, so you know exactly where the problem is.",
+      "resources": [
+        {
+          "id": "CJV5OV_Whoz4_7L8yhDG1-res-1",
+          "type": "article",
+          "title": "9 Vibe Coding Best Practices - Memberstack",
+          "url": "https://www.memberstack.com/blog/9-vibe-coding-best-practices"
+        },
+        {
+          "id": "CJV5OV_Whoz4_7L8yhDG1-res-2",
+          "type": "article",
+          "title": "How to Vibe Code Effectively - Replit Docs",
+          "url": "https://docs.replit.com/tutorials/how-to-vibe-code"
+        },
+        {
+          "id": "CJV5OV_Whoz4_7L8yhDG1-res-3",
+          "type": "article",
+          "title": "Vibe Coding Tips: Checklist to Avoid Breaking Builds - Presta",
+          "url": "https://wearepresta.com/vibe-coding-tips-checklist-avoid-breaking-builds/"
+        }
+      ]
+    }
+  }
+}

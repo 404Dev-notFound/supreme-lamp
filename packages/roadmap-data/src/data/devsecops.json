@@ -1,0 +1,4070 @@
+{
+  "slug": "devsecops",
+  "title": "Devsecops",
+  "description": "Comprehensive learning curriculum and mastery roadmap for devsecops.",
+  "category": "skill",
+  "level": "Intermediate",
+  "topicCount": 94,
+  "iconName": "Compass",
+  "nodes": [
+    {
+      "id": "node-lLWQhvzXn3EpeCf9Mhgyj",
+      "label": "Access Control Lists (ACLs)",
+      "topicId": "lLWQhvzXn3EpeCf9Mhgyj",
+      "level": 1,
+      "position": {
+        "x": 80,
+        "y": 80
+      }
+    },
+    {
+      "id": "node--j1PH9_z-Eq3jxX6e8VmQ",
+      "label": "Alert Types",
+      "topicId": "-j1PH9_z-Eq3jxX6e8VmQ",
+      "level": 1,
+      "position": {
+        "x": 340,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-hz0WFG5ksaBFMpq7ypLgF",
+      "label": "Asymmetric Encryption",
+      "topicId": "hz0WFG5ksaBFMpq7ypLgF",
+      "level": 1,
+      "position": {
+        "x": 600,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-JztcgG94qZ5trdhfDcRa6",
+      "label": "Attack Surface Mapping",
+      "topicId": "JztcgG94qZ5trdhfDcRa6",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-04_UcLELHkqjBCwliCw7H",
+      "label": "Audit & Compliance Mapping",
+      "topicId": "04_UcLELHkqjBCwliCw7H",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-iiOWJ7KXyHp_ovVWNmDoc",
+      "label": "Authentication",
+      "topicId": "iiOWJ7KXyHp_ovVWNmDoc",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-DYmh1MkmAuXUJOFqnFzWc",
+      "label": "Authorization",
+      "topicId": "DYmh1MkmAuXUJOFqnFzWc",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-HahTEhITEAGaoys1psZqV",
+      "label": "Automated Patching",
+      "topicId": "HahTEhITEAGaoys1psZqV",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-r3XBfcNtxSraF11YK_5d5",
+      "label": "Bash Scripting",
+      "topicId": "r3XBfcNtxSraF11YK_5d5",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-TqmbGC_Q_b3BkU7UkvE-S",
+      "label": "bcrypt",
+      "topicId": "TqmbGC_Q_b3BkU7UkvE-S",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-nkPrYgpM5Mn6C_9u9yAyQ",
+      "label": "Build Pipeline Hardening",
+      "topicId": "nkPrYgpM5Mn6C_9u9yAyQ",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-uAUg6mDDDq7ZyR0IEDxg5",
+      "label": "Burp Suite",
+      "topicId": "uAUg6mDDDq7ZyR0IEDxg5",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-quUzTCnBnmJoSmIPBGjxk",
+      "label": "Certificate Lifecycle",
+      "topicId": "quUzTCnBnmJoSmIPBGjxk",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-k7AtVkkVavHjCVo1hqCc0",
+      "label": "CIA Triad",
+      "topicId": "k7AtVkkVavHjCVo1hqCc0",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-ou2-KKBNyOxH_IW9s3eE9",
+      "label": "Cloud Security",
+      "topicId": "ou2-KKBNyOxH_IW9s3eE9",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-EnDqfr07RzNZmPIth6wSq",
+      "label": "Container Security",
+      "topicId": "EnDqfr07RzNZmPIth6wSq",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-CUjGVwPvQytVYqy2zEPuw",
+      "label": "Containment",
+      "topicId": "CUjGVwPvQytVYqy2zEPuw",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-EqfPoveYajk61VH-ii_uE",
+      "label": "Cryptographic Hashing",
+      "topicId": "EqfPoveYajk61VH-ii_uE",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-eTOjfNSzlvbWsyX5an_5w",
+      "label": "Cloud Security Posture Management (CSPM)",
+      "topicId": "eTOjfNSzlvbWsyX5an_5w",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-ltpquwL_YEvbgMZ2OyNS4",
+      "label": "DDoS Mitigation Strategy",
+      "topicId": "ltpquwL_YEvbgMZ2OyNS4",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-a4dYHrx1KzhKRtarZT1iy",
+      "label": "Defense in Depth",
+      "topicId": "a4dYHrx1KzhKRtarZT1iy",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-AAd_X7gI-WA7Jh9FKsuE_",
+      "label": "Dependency Risk Management",
+      "topicId": "AAd_X7gI-WA7Jh9FKsuE_",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-SJa6UcRcgT08lF8Phnh0X",
+      "label": "DevSecOps vs. DevOps",
+      "topicId": "SJa6UcRcgT08lF8Phnh0X",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-TnDsOr1iJX3hY7vJRpp7S",
+      "label": "DNS",
+      "topicId": "TnDsOr1iJX3hY7vJRpp7S",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node--OWtiqx4YbcOVhtYU0D69",
+      "label": "Docker Security",
+      "topicId": "-OWtiqx4YbcOVhtYU0D69",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-A67WShi92I-TX0iK7Fv0L",
+      "label": "EDR Strategy",
+      "topicId": "A67WShi92I-TX0iK7Fv0L",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-0ey7Spq4DoZ-AfXOsMtag",
+      "label": "Encryption",
+      "topicId": "0ey7Spq4DoZ-AfXOsMtag",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-E2jGo4HeKaeuXYa9-f-vy",
+      "label": "Endpoint Detection",
+      "topicId": "E2jGo4HeKaeuXYa9-f-vy",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-68qVLExPlVrKJweTjd_S5",
+      "label": "Enterprise Operations",
+      "topicId": "68qVLExPlVrKJweTjd_S5",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-LV_uiNRdUi9OrmxQCdeGw",
+      "label": "Firewalls",
+      "topicId": "LV_uiNRdUi9OrmxQCdeGw",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-h_kjdN5uGNKLtJ3puQ9RH",
+      "label": "Forensics",
+      "topicId": "h_kjdN5uGNKLtJ3puQ9RH",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-UcBt4BsvLDlsnVy3KKJ1y",
+      "label": "Go Programming Language",
+      "topicId": "UcBt4BsvLDlsnVy3KKJ1y",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-WamX-UieM8NxhK6P_bDCB",
+      "label": "HTTP",
+      "topicId": "WamX-UieM8NxhK6P_bDCB",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node--RORxEsNvIPSlnM2TWB3j",
+      "label": "IAM",
+      "topicId": "-RORxEsNvIPSlnM2TWB3j",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-JDglIowCyRjSoqCcNfkZr",
+      "label": "Identity and Access Management (IAM)",
+      "topicId": "JDglIowCyRjSoqCcNfkZr",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-iONpD135a4kd3zR5ufoTx",
+      "label": "Identity Basics",
+      "topicId": "iONpD135a4kd3zR5ufoTx",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-L3Mu6rCIu58VyhtxeyLXq",
+      "label": "Intrusion Detection Systems",
+      "topicId": "L3Mu6rCIu58VyhtxeyLXq",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-bPmjX9IPL9Da0XUApY5UF",
+      "label": "Image Scanning",
+      "topicId": "bPmjX9IPL9Da0XUApY5UF",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-V5eQcby9FNcGv68KPj5rH",
+      "label": "Incident Response",
+      "topicId": "V5eQcby9FNcGv68KPj5rH",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-lq4nTMBniaxxwPvH5M77Z",
+      "label": "Input Validation Patterns",
+      "topicId": "lq4nTMBniaxxwPvH5M77Z",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node--X3GTFpg3kzm0cELAngjb",
+      "label": "DevSecOps",
+      "topicId": "-X3GTFpg3kzm0cELAngjb",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-PYH_nc4bktIJoCJA6OC5E",
+      "label": "Intrusion Prevention Systems",
+      "topicId": "PYH_nc4bktIJoCJA6OC5E",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-X-pvSQnfB2W4992_3eOEy",
+      "label": "IR Lifecycle",
+      "topicId": "X-pvSQnfB2W4992_3eOEy",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-JBNiSzYD8DSnKfHoKRjMg",
+      "label": "ISO 27001",
+      "topicId": "JBNiSzYD8DSnKfHoKRjMg",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-BeUiBY18JHqCKVNtYAHH3",
+      "label": "JavaScript and Node.js",
+      "topicId": "BeUiBY18JHqCKVNtYAHH3",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-l76yFl4lSXnxg5DBbnnID",
+      "label": "Key Management Service",
+      "topicId": "l76yFl4lSXnxg5DBbnnID",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-YveqgdX6eNRFC1zU_q7r1",
+      "label": "Kubernetes Security",
+      "topicId": "YveqgdX6eNRFC1zU_q7r1",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-XRnxOPVChkGLQSXX-kUmi",
+      "label": "Large Scale Identity Strategy",
+      "topicId": "XRnxOPVChkGLQSXX-kUmi",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-v5FGKQc-_7NYEsWjmTEuq",
+      "label": "Programming Languages",
+      "topicId": "v5FGKQc-_7NYEsWjmTEuq",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-rK-RToN5JRcclYl23TyYz",
+      "label": "Least Privilege",
+      "topicId": "rK-RToN5JRcclYl23TyYz",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-_Kr2_N8021tsZfa0wZ3Vu",
+      "label": "Log Analysis",
+      "topicId": "_Kr2_N8021tsZfa0wZ3Vu",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-MMTCo21ap15MrPV64vKka",
+      "label": "Monitoring",
+      "topicId": "MMTCo21ap15MrPV64vKka",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-eALB73XbtnFF3-PYcLcZq",
+      "label": "Multi-Region Security Planning",
+      "topicId": "eALB73XbtnFF3-PYcLcZq",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-EqbzAy56Tu8asKNFzuti_",
+      "label": "Nessus",
+      "topicId": "EqbzAy56Tu8asKNFzuti_",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-Cr0VAtdu0ZYPOkUU_7vjR",
+      "label": "Network Segmentation",
+      "topicId": "Cr0VAtdu0ZYPOkUU_7vjR",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-84HlHz8bHCDtAPGpq7LpX",
+      "label": "Networking Basics",
+      "topicId": "84HlHz8bHCDtAPGpq7LpX",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-yMb0-A55r1KEsLntOmp5F",
+      "label": "NIST Cybersecurity Framework",
+      "topicId": "yMb0-A55r1KEsLntOmp5F",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-JyXv5vPHCjSBc0J-PpUEV",
+      "label": "Nmap Basics",
+      "topicId": "JyXv5vPHCjSBc0J-PpUEV",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-0Tci_Ks8jXisin90VqB_D",
+      "label": "Nmap",
+      "topicId": "0Tci_Ks8jXisin90VqB_D",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-mIcs0fp3T9IwwAvgYyKnY",
+      "label": "OpenVAS",
+      "topicId": "mIcs0fp3T9IwwAvgYyKnY",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-igGASa7AknApWtq57v2Qx",
+      "label": "OWASP Top 10",
+      "topicId": "igGASa7AknApWtq57v2Qx",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-6A_3p3CzwxFVjJaXahEVr",
+      "label": "PASTA",
+      "topicId": "6A_3p3CzwxFVjJaXahEVr",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-nEYMyTKfRDqA2Uc1tCwxv",
+      "label": "PKI Design and Failover",
+      "topicId": "nEYMyTKfRDqA2Uc1tCwxv",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-91lxZEOZ6KF3tY9id2Au8",
+      "label": "PowerShell",
+      "topicId": "91lxZEOZ6KF3tY9id2Au8",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-txcfATz3k89CedFrSZMWj",
+      "label": "Python in DevSecOps",
+      "topicId": "txcfATz3k89CedFrSZMWj",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-Pkud7rAzdV5asF5aGAq7z",
+      "label": "Qualys",
+      "topicId": "Pkud7rAzdV5asF5aGAq7z",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-6Q2VIdeSuBZzo7c1qnYLG",
+      "label": "Response Strategy",
+      "topicId": "6Q2VIdeSuBZzo7c1qnYLG",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-V97S_0PrVw3jjHnmcxDgJ",
+      "label": "Risk Quantification",
+      "topicId": "V97S_0PrVw3jjHnmcxDgJ",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-9Tea1ge_l1fls0fyPxMPG",
+      "label": "Role-Based Access Control",
+      "topicId": "9Tea1ge_l1fls0fyPxMPG",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-VyzLkdcLgxfSSFuUS0xO_",
+      "label": "Root Cause Analysis",
+      "topicId": "VyzLkdcLgxfSSFuUS0xO_",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-nKthK-OsFO0TGwptD-Dme",
+      "label": "Ruby in DevSecOps",
+      "topicId": "nKthK-OsFO0TGwptD-Dme",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-V_-gY34XcyIqPcLKtDJZr",
+      "label": "Rust",
+      "topicId": "V_-gY34XcyIqPcLKtDJZr",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-MF8AYjKun5SHtumTyuurJ",
+      "label": "SBOMs",
+      "topicId": "MF8AYjKun5SHtumTyuurJ",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-wjJPzrFJBNYOD3SJLzW2M",
+      "label": "Scripting Knowledge",
+      "topicId": "wjJPzrFJBNYOD3SJLzW2M",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-aMu0e6xQ3Rak44F_I7Ish",
+      "label": "Secure API Design",
+      "topicId": "aMu0e6xQ3Rak44F_I7Ish",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-iHd6XNAUGXn3_d-I_YtTM",
+      "label": "Secure Coding",
+      "topicId": "iHd6XNAUGXn3_d-I_YtTM",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-ixiKWBp8m4tP55dBYFzRL",
+      "label": "Secure Network Zoning",
+      "topicId": "ixiKWBp8m4tP55dBYFzRL",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-LKMBv-M9k71yrR2WzN4bK",
+      "label": "SHA-256",
+      "topicId": "LKMBv-M9k71yrR2WzN4bK",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-hnroE_riXvw6BqYdirWBX",
+      "label": "SIEM",
+      "topicId": "hnroE_riXvw6BqYdirWBX",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-rXS1CIZHu7TA_o7L-vMtV",
+      "label": "SOAR Automation",
+      "topicId": "rXS1CIZHu7TA_o7L-vMtV",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-O0aVW37VhZInw9Z9Mghcg",
+      "label": "SOAR Concepts",
+      "topicId": "O0aVW37VhZInw9Z9Mghcg",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-VmDslOmZANHpHmAInFa_j",
+      "label": "SOC 2",
+      "topicId": "VmDslOmZANHpHmAInFa_j",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-VPBQh3CSsNA-esuvEHT3X",
+      "label": "SQL Injection Prevention",
+      "topicId": "VPBQh3CSsNA-esuvEHT3X",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-EZZsZHxu7__yM2l9tr95-",
+      "label": "STRIDE",
+      "topicId": "EZZsZHxu7__yM2l9tr95-",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-qKHb2e9g_Xuo-nHepICTR",
+      "label": "Supply Chain Security",
+      "topicId": "qKHb2e9g_Xuo-nHepICTR",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-mT1cKWZcKXwvopW6BeX-A",
+      "label": "Symmetric Encryption",
+      "topicId": "mT1cKWZcKXwvopW6BeX-A",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-qfhpMprVX562UuktYN9BZ",
+      "label": "Threat Modeling Workflows",
+      "topicId": "qfhpMprVX562UuktYN9BZ",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-XA7JUF00B1locP0xY3T95",
+      "label": "Threat Modeling",
+      "topicId": "XA7JUF00B1locP0xY3T95",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-FvU310TuexCsp8QkvxJib",
+      "label": "TLS",
+      "topicId": "FvU310TuexCsp8QkvxJib",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-7MavDAydyrt0tOJ6a6xRQ",
+      "label": "Text Editors: Vim, Nano, and Emacs",
+      "topicId": "7MavDAydyrt0tOJ6a6xRQ",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-GPVN-nDitsY1bF_3huqnh",
+      "label": "VLANs",
+      "topicId": "GPVN-nDitsY1bF_3huqnh",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-iHhitN8zToXm4nK1m0OeR",
+      "label": "Wireshark Basics",
+      "topicId": "iHhitN8zToXm4nK1m0OeR",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-ph7rFQFJffi_di133vm3Z",
+      "label": "Cross-Site Scripting (XSS) Prevention",
+      "topicId": "ph7rFQFJffi_di133vm3Z",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-3UAH70FkQlv5_VbYon4U9",
+      "label": "Zero Trust Concepts",
+      "topicId": "3UAH70FkQlv5_VbYon4U9",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5040
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-node-lLWQhvzXn3EpeCf9Mhgyj-node--j1PH9_z-Eq3jxX6e8VmQ",
+      "source": "node-lLWQhvzXn3EpeCf9Mhgyj",
+      "target": "node--j1PH9_z-Eq3jxX6e8VmQ",
+      "animated": true
+    },
+    {
+      "id": "edge-node--j1PH9_z-Eq3jxX6e8VmQ-node-hz0WFG5ksaBFMpq7ypLgF",
+      "source": "node--j1PH9_z-Eq3jxX6e8VmQ",
+      "target": "node-hz0WFG5ksaBFMpq7ypLgF",
+      "animated": true
+    },
+    {
+      "id": "edge-node-hz0WFG5ksaBFMpq7ypLgF-node-JztcgG94qZ5trdhfDcRa6",
+      "source": "node-hz0WFG5ksaBFMpq7ypLgF",
+      "target": "node-JztcgG94qZ5trdhfDcRa6",
+      "animated": true
+    },
+    {
+      "id": "edge-node-JztcgG94qZ5trdhfDcRa6-node-04_UcLELHkqjBCwliCw7H",
+      "source": "node-JztcgG94qZ5trdhfDcRa6",
+      "target": "node-04_UcLELHkqjBCwliCw7H",
+      "animated": true
+    },
+    {
+      "id": "edge-node-04_UcLELHkqjBCwliCw7H-node-iiOWJ7KXyHp_ovVWNmDoc",
+      "source": "node-04_UcLELHkqjBCwliCw7H",
+      "target": "node-iiOWJ7KXyHp_ovVWNmDoc",
+      "animated": true
+    },
+    {
+      "id": "edge-node-iiOWJ7KXyHp_ovVWNmDoc-node-DYmh1MkmAuXUJOFqnFzWc",
+      "source": "node-iiOWJ7KXyHp_ovVWNmDoc",
+      "target": "node-DYmh1MkmAuXUJOFqnFzWc",
+      "animated": true
+    },
+    {
+      "id": "edge-node-DYmh1MkmAuXUJOFqnFzWc-node-HahTEhITEAGaoys1psZqV",
+      "source": "node-DYmh1MkmAuXUJOFqnFzWc",
+      "target": "node-HahTEhITEAGaoys1psZqV",
+      "animated": true
+    },
+    {
+      "id": "edge-node-HahTEhITEAGaoys1psZqV-node-r3XBfcNtxSraF11YK_5d5",
+      "source": "node-HahTEhITEAGaoys1psZqV",
+      "target": "node-r3XBfcNtxSraF11YK_5d5",
+      "animated": true
+    },
+    {
+      "id": "edge-node-r3XBfcNtxSraF11YK_5d5-node-TqmbGC_Q_b3BkU7UkvE-S",
+      "source": "node-r3XBfcNtxSraF11YK_5d5",
+      "target": "node-TqmbGC_Q_b3BkU7UkvE-S",
+      "animated": true
+    },
+    {
+      "id": "edge-node-TqmbGC_Q_b3BkU7UkvE-S-node-nkPrYgpM5Mn6C_9u9yAyQ",
+      "source": "node-TqmbGC_Q_b3BkU7UkvE-S",
+      "target": "node-nkPrYgpM5Mn6C_9u9yAyQ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-nkPrYgpM5Mn6C_9u9yAyQ-node-uAUg6mDDDq7ZyR0IEDxg5",
+      "source": "node-nkPrYgpM5Mn6C_9u9yAyQ",
+      "target": "node-uAUg6mDDDq7ZyR0IEDxg5",
+      "animated": true
+    },
+    {
+      "id": "edge-node-uAUg6mDDDq7ZyR0IEDxg5-node-quUzTCnBnmJoSmIPBGjxk",
+      "source": "node-uAUg6mDDDq7ZyR0IEDxg5",
+      "target": "node-quUzTCnBnmJoSmIPBGjxk",
+      "animated": true
+    },
+    {
+      "id": "edge-node-quUzTCnBnmJoSmIPBGjxk-node-k7AtVkkVavHjCVo1hqCc0",
+      "source": "node-quUzTCnBnmJoSmIPBGjxk",
+      "target": "node-k7AtVkkVavHjCVo1hqCc0",
+      "animated": true
+    },
+    {
+      "id": "edge-node-k7AtVkkVavHjCVo1hqCc0-node-ou2-KKBNyOxH_IW9s3eE9",
+      "source": "node-k7AtVkkVavHjCVo1hqCc0",
+      "target": "node-ou2-KKBNyOxH_IW9s3eE9",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ou2-KKBNyOxH_IW9s3eE9-node-EnDqfr07RzNZmPIth6wSq",
+      "source": "node-ou2-KKBNyOxH_IW9s3eE9",
+      "target": "node-EnDqfr07RzNZmPIth6wSq",
+      "animated": true
+    },
+    {
+      "id": "edge-node-EnDqfr07RzNZmPIth6wSq-node-CUjGVwPvQytVYqy2zEPuw",
+      "source": "node-EnDqfr07RzNZmPIth6wSq",
+      "target": "node-CUjGVwPvQytVYqy2zEPuw",
+      "animated": true
+    },
+    {
+      "id": "edge-node-CUjGVwPvQytVYqy2zEPuw-node-EqfPoveYajk61VH-ii_uE",
+      "source": "node-CUjGVwPvQytVYqy2zEPuw",
+      "target": "node-EqfPoveYajk61VH-ii_uE",
+      "animated": true
+    },
+    {
+      "id": "edge-node-EqfPoveYajk61VH-ii_uE-node-eTOjfNSzlvbWsyX5an_5w",
+      "source": "node-EqfPoveYajk61VH-ii_uE",
+      "target": "node-eTOjfNSzlvbWsyX5an_5w",
+      "animated": true
+    },
+    {
+      "id": "edge-node-eTOjfNSzlvbWsyX5an_5w-node-ltpquwL_YEvbgMZ2OyNS4",
+      "source": "node-eTOjfNSzlvbWsyX5an_5w",
+      "target": "node-ltpquwL_YEvbgMZ2OyNS4",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ltpquwL_YEvbgMZ2OyNS4-node-a4dYHrx1KzhKRtarZT1iy",
+      "source": "node-ltpquwL_YEvbgMZ2OyNS4",
+      "target": "node-a4dYHrx1KzhKRtarZT1iy",
+      "animated": true
+    },
+    {
+      "id": "edge-node-a4dYHrx1KzhKRtarZT1iy-node-AAd_X7gI-WA7Jh9FKsuE_",
+      "source": "node-a4dYHrx1KzhKRtarZT1iy",
+      "target": "node-AAd_X7gI-WA7Jh9FKsuE_",
+      "animated": true
+    },
+    {
+      "id": "edge-node-AAd_X7gI-WA7Jh9FKsuE_-node-SJa6UcRcgT08lF8Phnh0X",
+      "source": "node-AAd_X7gI-WA7Jh9FKsuE_",
+      "target": "node-SJa6UcRcgT08lF8Phnh0X",
+      "animated": true
+    },
+    {
+      "id": "edge-node-SJa6UcRcgT08lF8Phnh0X-node-TnDsOr1iJX3hY7vJRpp7S",
+      "source": "node-SJa6UcRcgT08lF8Phnh0X",
+      "target": "node-TnDsOr1iJX3hY7vJRpp7S",
+      "animated": true
+    },
+    {
+      "id": "edge-node-TnDsOr1iJX3hY7vJRpp7S-node--OWtiqx4YbcOVhtYU0D69",
+      "source": "node-TnDsOr1iJX3hY7vJRpp7S",
+      "target": "node--OWtiqx4YbcOVhtYU0D69",
+      "animated": true
+    },
+    {
+      "id": "edge-node--OWtiqx4YbcOVhtYU0D69-node-A67WShi92I-TX0iK7Fv0L",
+      "source": "node--OWtiqx4YbcOVhtYU0D69",
+      "target": "node-A67WShi92I-TX0iK7Fv0L",
+      "animated": true
+    },
+    {
+      "id": "edge-node-A67WShi92I-TX0iK7Fv0L-node-0ey7Spq4DoZ-AfXOsMtag",
+      "source": "node-A67WShi92I-TX0iK7Fv0L",
+      "target": "node-0ey7Spq4DoZ-AfXOsMtag",
+      "animated": true
+    },
+    {
+      "id": "edge-node-0ey7Spq4DoZ-AfXOsMtag-node-E2jGo4HeKaeuXYa9-f-vy",
+      "source": "node-0ey7Spq4DoZ-AfXOsMtag",
+      "target": "node-E2jGo4HeKaeuXYa9-f-vy",
+      "animated": true
+    },
+    {
+      "id": "edge-node-E2jGo4HeKaeuXYa9-f-vy-node-68qVLExPlVrKJweTjd_S5",
+      "source": "node-E2jGo4HeKaeuXYa9-f-vy",
+      "target": "node-68qVLExPlVrKJweTjd_S5",
+      "animated": true
+    },
+    {
+      "id": "edge-node-68qVLExPlVrKJweTjd_S5-node-LV_uiNRdUi9OrmxQCdeGw",
+      "source": "node-68qVLExPlVrKJweTjd_S5",
+      "target": "node-LV_uiNRdUi9OrmxQCdeGw",
+      "animated": true
+    },
+    {
+      "id": "edge-node-LV_uiNRdUi9OrmxQCdeGw-node-h_kjdN5uGNKLtJ3puQ9RH",
+      "source": "node-LV_uiNRdUi9OrmxQCdeGw",
+      "target": "node-h_kjdN5uGNKLtJ3puQ9RH",
+      "animated": true
+    },
+    {
+      "id": "edge-node-h_kjdN5uGNKLtJ3puQ9RH-node-UcBt4BsvLDlsnVy3KKJ1y",
+      "source": "node-h_kjdN5uGNKLtJ3puQ9RH",
+      "target": "node-UcBt4BsvLDlsnVy3KKJ1y",
+      "animated": true
+    },
+    {
+      "id": "edge-node-UcBt4BsvLDlsnVy3KKJ1y-node-WamX-UieM8NxhK6P_bDCB",
+      "source": "node-UcBt4BsvLDlsnVy3KKJ1y",
+      "target": "node-WamX-UieM8NxhK6P_bDCB",
+      "animated": true
+    },
+    {
+      "id": "edge-node-WamX-UieM8NxhK6P_bDCB-node--RORxEsNvIPSlnM2TWB3j",
+      "source": "node-WamX-UieM8NxhK6P_bDCB",
+      "target": "node--RORxEsNvIPSlnM2TWB3j",
+      "animated": true
+    },
+    {
+      "id": "edge-node--RORxEsNvIPSlnM2TWB3j-node-JDglIowCyRjSoqCcNfkZr",
+      "source": "node--RORxEsNvIPSlnM2TWB3j",
+      "target": "node-JDglIowCyRjSoqCcNfkZr",
+      "animated": true
+    },
+    {
+      "id": "edge-node-JDglIowCyRjSoqCcNfkZr-node-iONpD135a4kd3zR5ufoTx",
+      "source": "node-JDglIowCyRjSoqCcNfkZr",
+      "target": "node-iONpD135a4kd3zR5ufoTx",
+      "animated": true
+    },
+    {
+      "id": "edge-node-iONpD135a4kd3zR5ufoTx-node-L3Mu6rCIu58VyhtxeyLXq",
+      "source": "node-iONpD135a4kd3zR5ufoTx",
+      "target": "node-L3Mu6rCIu58VyhtxeyLXq",
+      "animated": true
+    },
+    {
+      "id": "edge-node-L3Mu6rCIu58VyhtxeyLXq-node-bPmjX9IPL9Da0XUApY5UF",
+      "source": "node-L3Mu6rCIu58VyhtxeyLXq",
+      "target": "node-bPmjX9IPL9Da0XUApY5UF",
+      "animated": true
+    },
+    {
+      "id": "edge-node-bPmjX9IPL9Da0XUApY5UF-node-V5eQcby9FNcGv68KPj5rH",
+      "source": "node-bPmjX9IPL9Da0XUApY5UF",
+      "target": "node-V5eQcby9FNcGv68KPj5rH",
+      "animated": true
+    },
+    {
+      "id": "edge-node-V5eQcby9FNcGv68KPj5rH-node-lq4nTMBniaxxwPvH5M77Z",
+      "source": "node-V5eQcby9FNcGv68KPj5rH",
+      "target": "node-lq4nTMBniaxxwPvH5M77Z",
+      "animated": true
+    },
+    {
+      "id": "edge-node-lq4nTMBniaxxwPvH5M77Z-node--X3GTFpg3kzm0cELAngjb",
+      "source": "node-lq4nTMBniaxxwPvH5M77Z",
+      "target": "node--X3GTFpg3kzm0cELAngjb",
+      "animated": true
+    },
+    {
+      "id": "edge-node--X3GTFpg3kzm0cELAngjb-node-PYH_nc4bktIJoCJA6OC5E",
+      "source": "node--X3GTFpg3kzm0cELAngjb",
+      "target": "node-PYH_nc4bktIJoCJA6OC5E",
+      "animated": true
+    },
+    {
+      "id": "edge-node-PYH_nc4bktIJoCJA6OC5E-node-X-pvSQnfB2W4992_3eOEy",
+      "source": "node-PYH_nc4bktIJoCJA6OC5E",
+      "target": "node-X-pvSQnfB2W4992_3eOEy",
+      "animated": true
+    },
+    {
+      "id": "edge-node-X-pvSQnfB2W4992_3eOEy-node-JBNiSzYD8DSnKfHoKRjMg",
+      "source": "node-X-pvSQnfB2W4992_3eOEy",
+      "target": "node-JBNiSzYD8DSnKfHoKRjMg",
+      "animated": true
+    },
+    {
+      "id": "edge-node-JBNiSzYD8DSnKfHoKRjMg-node-BeUiBY18JHqCKVNtYAHH3",
+      "source": "node-JBNiSzYD8DSnKfHoKRjMg",
+      "target": "node-BeUiBY18JHqCKVNtYAHH3",
+      "animated": true
+    },
+    {
+      "id": "edge-node-BeUiBY18JHqCKVNtYAHH3-node-l76yFl4lSXnxg5DBbnnID",
+      "source": "node-BeUiBY18JHqCKVNtYAHH3",
+      "target": "node-l76yFl4lSXnxg5DBbnnID",
+      "animated": true
+    },
+    {
+      "id": "edge-node-l76yFl4lSXnxg5DBbnnID-node-YveqgdX6eNRFC1zU_q7r1",
+      "source": "node-l76yFl4lSXnxg5DBbnnID",
+      "target": "node-YveqgdX6eNRFC1zU_q7r1",
+      "animated": true
+    },
+    {
+      "id": "edge-node-YveqgdX6eNRFC1zU_q7r1-node-XRnxOPVChkGLQSXX-kUmi",
+      "source": "node-YveqgdX6eNRFC1zU_q7r1",
+      "target": "node-XRnxOPVChkGLQSXX-kUmi",
+      "animated": true
+    },
+    {
+      "id": "edge-node-XRnxOPVChkGLQSXX-kUmi-node-v5FGKQc-_7NYEsWjmTEuq",
+      "source": "node-XRnxOPVChkGLQSXX-kUmi",
+      "target": "node-v5FGKQc-_7NYEsWjmTEuq",
+      "animated": true
+    },
+    {
+      "id": "edge-node-v5FGKQc-_7NYEsWjmTEuq-node-rK-RToN5JRcclYl23TyYz",
+      "source": "node-v5FGKQc-_7NYEsWjmTEuq",
+      "target": "node-rK-RToN5JRcclYl23TyYz",
+      "animated": true
+    },
+    {
+      "id": "edge-node-rK-RToN5JRcclYl23TyYz-node-_Kr2_N8021tsZfa0wZ3Vu",
+      "source": "node-rK-RToN5JRcclYl23TyYz",
+      "target": "node-_Kr2_N8021tsZfa0wZ3Vu",
+      "animated": true
+    },
+    {
+      "id": "edge-node-_Kr2_N8021tsZfa0wZ3Vu-node-MMTCo21ap15MrPV64vKka",
+      "source": "node-_Kr2_N8021tsZfa0wZ3Vu",
+      "target": "node-MMTCo21ap15MrPV64vKka",
+      "animated": true
+    },
+    {
+      "id": "edge-node-MMTCo21ap15MrPV64vKka-node-eALB73XbtnFF3-PYcLcZq",
+      "source": "node-MMTCo21ap15MrPV64vKka",
+      "target": "node-eALB73XbtnFF3-PYcLcZq",
+      "animated": true
+    },
+    {
+      "id": "edge-node-eALB73XbtnFF3-PYcLcZq-node-EqbzAy56Tu8asKNFzuti_",
+      "source": "node-eALB73XbtnFF3-PYcLcZq",
+      "target": "node-EqbzAy56Tu8asKNFzuti_",
+      "animated": true
+    },
+    {
+      "id": "edge-node-EqbzAy56Tu8asKNFzuti_-node-Cr0VAtdu0ZYPOkUU_7vjR",
+      "source": "node-EqbzAy56Tu8asKNFzuti_",
+      "target": "node-Cr0VAtdu0ZYPOkUU_7vjR",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Cr0VAtdu0ZYPOkUU_7vjR-node-84HlHz8bHCDtAPGpq7LpX",
+      "source": "node-Cr0VAtdu0ZYPOkUU_7vjR",
+      "target": "node-84HlHz8bHCDtAPGpq7LpX",
+      "animated": true
+    },
+    {
+      "id": "edge-node-84HlHz8bHCDtAPGpq7LpX-node-yMb0-A55r1KEsLntOmp5F",
+      "source": "node-84HlHz8bHCDtAPGpq7LpX",
+      "target": "node-yMb0-A55r1KEsLntOmp5F",
+      "animated": true
+    },
+    {
+      "id": "edge-node-yMb0-A55r1KEsLntOmp5F-node-JyXv5vPHCjSBc0J-PpUEV",
+      "source": "node-yMb0-A55r1KEsLntOmp5F",
+      "target": "node-JyXv5vPHCjSBc0J-PpUEV",
+      "animated": true
+    },
+    {
+      "id": "edge-node-JyXv5vPHCjSBc0J-PpUEV-node-0Tci_Ks8jXisin90VqB_D",
+      "source": "node-JyXv5vPHCjSBc0J-PpUEV",
+      "target": "node-0Tci_Ks8jXisin90VqB_D",
+      "animated": true
+    },
+    {
+      "id": "edge-node-0Tci_Ks8jXisin90VqB_D-node-mIcs0fp3T9IwwAvgYyKnY",
+      "source": "node-0Tci_Ks8jXisin90VqB_D",
+      "target": "node-mIcs0fp3T9IwwAvgYyKnY",
+      "animated": true
+    },
+    {
+      "id": "edge-node-mIcs0fp3T9IwwAvgYyKnY-node-igGASa7AknApWtq57v2Qx",
+      "source": "node-mIcs0fp3T9IwwAvgYyKnY",
+      "target": "node-igGASa7AknApWtq57v2Qx",
+      "animated": true
+    },
+    {
+      "id": "edge-node-igGASa7AknApWtq57v2Qx-node-6A_3p3CzwxFVjJaXahEVr",
+      "source": "node-igGASa7AknApWtq57v2Qx",
+      "target": "node-6A_3p3CzwxFVjJaXahEVr",
+      "animated": true
+    },
+    {
+      "id": "edge-node-6A_3p3CzwxFVjJaXahEVr-node-nEYMyTKfRDqA2Uc1tCwxv",
+      "source": "node-6A_3p3CzwxFVjJaXahEVr",
+      "target": "node-nEYMyTKfRDqA2Uc1tCwxv",
+      "animated": true
+    },
+    {
+      "id": "edge-node-nEYMyTKfRDqA2Uc1tCwxv-node-91lxZEOZ6KF3tY9id2Au8",
+      "source": "node-nEYMyTKfRDqA2Uc1tCwxv",
+      "target": "node-91lxZEOZ6KF3tY9id2Au8",
+      "animated": true
+    },
+    {
+      "id": "edge-node-91lxZEOZ6KF3tY9id2Au8-node-txcfATz3k89CedFrSZMWj",
+      "source": "node-91lxZEOZ6KF3tY9id2Au8",
+      "target": "node-txcfATz3k89CedFrSZMWj",
+      "animated": true
+    },
+    {
+      "id": "edge-node-txcfATz3k89CedFrSZMWj-node-Pkud7rAzdV5asF5aGAq7z",
+      "source": "node-txcfATz3k89CedFrSZMWj",
+      "target": "node-Pkud7rAzdV5asF5aGAq7z",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Pkud7rAzdV5asF5aGAq7z-node-6Q2VIdeSuBZzo7c1qnYLG",
+      "source": "node-Pkud7rAzdV5asF5aGAq7z",
+      "target": "node-6Q2VIdeSuBZzo7c1qnYLG",
+      "animated": true
+    },
+    {
+      "id": "edge-node-6Q2VIdeSuBZzo7c1qnYLG-node-V97S_0PrVw3jjHnmcxDgJ",
+      "source": "node-6Q2VIdeSuBZzo7c1qnYLG",
+      "target": "node-V97S_0PrVw3jjHnmcxDgJ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-V97S_0PrVw3jjHnmcxDgJ-node-9Tea1ge_l1fls0fyPxMPG",
+      "source": "node-V97S_0PrVw3jjHnmcxDgJ",
+      "target": "node-9Tea1ge_l1fls0fyPxMPG",
+      "animated": true
+    },
+    {
+      "id": "edge-node-9Tea1ge_l1fls0fyPxMPG-node-VyzLkdcLgxfSSFuUS0xO_",
+      "source": "node-9Tea1ge_l1fls0fyPxMPG",
+      "target": "node-VyzLkdcLgxfSSFuUS0xO_",
+      "animated": true
+    },
+    {
+      "id": "edge-node-VyzLkdcLgxfSSFuUS0xO_-node-nKthK-OsFO0TGwptD-Dme",
+      "source": "node-VyzLkdcLgxfSSFuUS0xO_",
+      "target": "node-nKthK-OsFO0TGwptD-Dme",
+      "animated": true
+    },
+    {
+      "id": "edge-node-nKthK-OsFO0TGwptD-Dme-node-V_-gY34XcyIqPcLKtDJZr",
+      "source": "node-nKthK-OsFO0TGwptD-Dme",
+      "target": "node-V_-gY34XcyIqPcLKtDJZr",
+      "animated": true
+    },
+    {
+      "id": "edge-node-V_-gY34XcyIqPcLKtDJZr-node-MF8AYjKun5SHtumTyuurJ",
+      "source": "node-V_-gY34XcyIqPcLKtDJZr",
+      "target": "node-MF8AYjKun5SHtumTyuurJ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-MF8AYjKun5SHtumTyuurJ-node-wjJPzrFJBNYOD3SJLzW2M",
+      "source": "node-MF8AYjKun5SHtumTyuurJ",
+      "target": "node-wjJPzrFJBNYOD3SJLzW2M",
+      "animated": true
+    },
+    {
+      "id": "edge-node-wjJPzrFJBNYOD3SJLzW2M-node-aMu0e6xQ3Rak44F_I7Ish",
+      "source": "node-wjJPzrFJBNYOD3SJLzW2M",
+      "target": "node-aMu0e6xQ3Rak44F_I7Ish",
+      "animated": true
+    },
+    {
+      "id": "edge-node-aMu0e6xQ3Rak44F_I7Ish-node-iHd6XNAUGXn3_d-I_YtTM",
+      "source": "node-aMu0e6xQ3Rak44F_I7Ish",
+      "target": "node-iHd6XNAUGXn3_d-I_YtTM",
+      "animated": true
+    },
+    {
+      "id": "edge-node-iHd6XNAUGXn3_d-I_YtTM-node-ixiKWBp8m4tP55dBYFzRL",
+      "source": "node-iHd6XNAUGXn3_d-I_YtTM",
+      "target": "node-ixiKWBp8m4tP55dBYFzRL",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ixiKWBp8m4tP55dBYFzRL-node-LKMBv-M9k71yrR2WzN4bK",
+      "source": "node-ixiKWBp8m4tP55dBYFzRL",
+      "target": "node-LKMBv-M9k71yrR2WzN4bK",
+      "animated": true
+    },
+    {
+      "id": "edge-node-LKMBv-M9k71yrR2WzN4bK-node-hnroE_riXvw6BqYdirWBX",
+      "source": "node-LKMBv-M9k71yrR2WzN4bK",
+      "target": "node-hnroE_riXvw6BqYdirWBX",
+      "animated": true
+    },
+    {
+      "id": "edge-node-hnroE_riXvw6BqYdirWBX-node-rXS1CIZHu7TA_o7L-vMtV",
+      "source": "node-hnroE_riXvw6BqYdirWBX",
+      "target": "node-rXS1CIZHu7TA_o7L-vMtV",
+      "animated": true
+    },
+    {
+      "id": "edge-node-rXS1CIZHu7TA_o7L-vMtV-node-O0aVW37VhZInw9Z9Mghcg",
+      "source": "node-rXS1CIZHu7TA_o7L-vMtV",
+      "target": "node-O0aVW37VhZInw9Z9Mghcg",
+      "animated": true
+    },
+    {
+      "id": "edge-node-O0aVW37VhZInw9Z9Mghcg-node-VmDslOmZANHpHmAInFa_j",
+      "source": "node-O0aVW37VhZInw9Z9Mghcg",
+      "target": "node-VmDslOmZANHpHmAInFa_j",
+      "animated": true
+    },
+    {
+      "id": "edge-node-VmDslOmZANHpHmAInFa_j-node-VPBQh3CSsNA-esuvEHT3X",
+      "source": "node-VmDslOmZANHpHmAInFa_j",
+      "target": "node-VPBQh3CSsNA-esuvEHT3X",
+      "animated": true
+    },
+    {
+      "id": "edge-node-VPBQh3CSsNA-esuvEHT3X-node-EZZsZHxu7__yM2l9tr95-",
+      "source": "node-VPBQh3CSsNA-esuvEHT3X",
+      "target": "node-EZZsZHxu7__yM2l9tr95-",
+      "animated": true
+    },
+    {
+      "id": "edge-node-EZZsZHxu7__yM2l9tr95--node-qKHb2e9g_Xuo-nHepICTR",
+      "source": "node-EZZsZHxu7__yM2l9tr95-",
+      "target": "node-qKHb2e9g_Xuo-nHepICTR",
+      "animated": true
+    },
+    {
+      "id": "edge-node-qKHb2e9g_Xuo-nHepICTR-node-mT1cKWZcKXwvopW6BeX-A",
+      "source": "node-qKHb2e9g_Xuo-nHepICTR",
+      "target": "node-mT1cKWZcKXwvopW6BeX-A",
+      "animated": true
+    },
+    {
+      "id": "edge-node-mT1cKWZcKXwvopW6BeX-A-node-qfhpMprVX562UuktYN9BZ",
+      "source": "node-mT1cKWZcKXwvopW6BeX-A",
+      "target": "node-qfhpMprVX562UuktYN9BZ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-qfhpMprVX562UuktYN9BZ-node-XA7JUF00B1locP0xY3T95",
+      "source": "node-qfhpMprVX562UuktYN9BZ",
+      "target": "node-XA7JUF00B1locP0xY3T95",
+      "animated": true
+    },
+    {
+      "id": "edge-node-XA7JUF00B1locP0xY3T95-node-FvU310TuexCsp8QkvxJib",
+      "source": "node-XA7JUF00B1locP0xY3T95",
+      "target": "node-FvU310TuexCsp8QkvxJib",
+      "animated": true
+    },
+    {
+      "id": "edge-node-FvU310TuexCsp8QkvxJib-node-7MavDAydyrt0tOJ6a6xRQ",
+      "source": "node-FvU310TuexCsp8QkvxJib",
+      "target": "node-7MavDAydyrt0tOJ6a6xRQ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-7MavDAydyrt0tOJ6a6xRQ-node-GPVN-nDitsY1bF_3huqnh",
+      "source": "node-7MavDAydyrt0tOJ6a6xRQ",
+      "target": "node-GPVN-nDitsY1bF_3huqnh",
+      "animated": true
+    },
+    {
+      "id": "edge-node-GPVN-nDitsY1bF_3huqnh-node-iHhitN8zToXm4nK1m0OeR",
+      "source": "node-GPVN-nDitsY1bF_3huqnh",
+      "target": "node-iHhitN8zToXm4nK1m0OeR",
+      "animated": true
+    },
+    {
+      "id": "edge-node-iHhitN8zToXm4nK1m0OeR-node-ph7rFQFJffi_di133vm3Z",
+      "source": "node-iHhitN8zToXm4nK1m0OeR",
+      "target": "node-ph7rFQFJffi_di133vm3Z",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ph7rFQFJffi_di133vm3Z-node-3UAH70FkQlv5_VbYon4U9",
+      "source": "node-ph7rFQFJffi_di133vm3Z",
+      "target": "node-3UAH70FkQlv5_VbYon4U9",
+      "animated": true
+    }
+  ],
+  "topics": {
+    "lLWQhvzXn3EpeCf9Mhgyj": {
+      "id": "lLWQhvzXn3EpeCf9Mhgyj",
+      "slug": "acls",
+      "title": "Access Control Lists (ACLs)",
+      "description": "Access Control Lists (ACLs) are sets of rules that determine whether network traffic is allowed or denied to pass through a network interface. They act as a security filter, examining packets based on source and destination IP addresses, ports, and protocols. ACLs are configured on network devices like routers and firewalls to control network access and enforce security policies.",
+      "resources": [
+        {
+          "id": "lLWQhvzXn3EpeCf9Mhgyj-res-1",
+          "type": "article",
+          "title": "Access Control List: Definition, Types & Usages",
+          "url": "https://www.okta.com/uk/identity-101/access-control-list/"
+        },
+        {
+          "id": "lLWQhvzXn3EpeCf9Mhgyj-res-2",
+          "type": "video",
+          "title": "Access Control Lists",
+          "url": "https://www.youtube.com/watch?v=IwLyr0mKK1w"
+        }
+      ]
+    },
+    "-j1PH9_z-Eq3jxX6e8VmQ": {
+      "id": "-j1PH9_z-Eq3jxX6e8VmQ",
+      "slug": "alert-types",
+      "title": "Alert Types",
+      "description": "Alert types are the different categories or classifications of notifications generated by monitoring systems when specific events or conditions occur. These alerts signal potential issues, anomalies, or security threats within an application or infrastructure. They can range from simple notifications about resource utilization to complex warnings about potential security breaches, and are crucial for timely response and remediation.",
+      "resources": [
+        {
+          "id": "-j1PH9_z-Eq3jxX6e8VmQ-res-1",
+          "type": "article",
+          "title": "Monitoring 101: Alerting on what matters",
+          "url": "https://www.datadoghq.com/blog/monitoring-101-alerting/"
+        },
+        {
+          "id": "-j1PH9_z-Eq3jxX6e8VmQ-res-2",
+          "type": "article",
+          "title": "Introduction to Metrics, Monitoring and Alerting",
+          "url": "https://sematext.com/blog/monitoring-alerting/"
+        },
+        {
+          "id": "-j1PH9_z-Eq3jxX6e8VmQ-res-3",
+          "type": "video",
+          "title": "Observability vs Monitoring vs APM vs Logging vs Alerting",
+          "url": "https://www.youtube.com/watch?v=TYE2u7QZNVA"
+        }
+      ]
+    },
+    "hz0WFG5ksaBFMpq7ypLgF": {
+      "id": "hz0WFG5ksaBFMpq7ypLgF",
+      "slug": "asymmetric",
+      "title": "Asymmetric Encryption",
+      "description": "Asymmetric encryption, also known as public-key cryptography, uses a pair of keys: a public key for encryption and a private key for decryption. The public key can be freely distributed, allowing anyone to encrypt data intended for the owner of the private key. Only the corresponding private key, which is kept secret, can decrypt the data. This method enables secure communication without the need to exchange secret keys beforehand.",
+      "resources": [
+        {
+          "id": "hz0WFG5ksaBFMpq7ypLgF-res-1",
+          "type": "article",
+          "title": "What is asymmetric encryption?",
+          "url": "https://www.ibm.com/think/topics/asymmetric-encryption"
+        },
+        {
+          "id": "hz0WFG5ksaBFMpq7ypLgF-res-2",
+          "type": "video",
+          "title": "Asymmetric Encryption - Simply explained",
+          "url": "https://www.youtube.com/watch?v=AQDCe585Lnc"
+        },
+        {
+          "id": "hz0WFG5ksaBFMpq7ypLgF-res-3",
+          "type": "video",
+          "title": "Symmetric vs. Asymmetric Encryption - CompTIA Security+ SY0-401: 6.1",
+          "url": "https://www.youtube.com/watch?v=z2aueocJE8Q"
+        }
+      ]
+    },
+    "JztcgG94qZ5trdhfDcRa6": {
+      "id": "JztcgG94qZ5trdhfDcRa6",
+      "slug": "attack-surface-mapping",
+      "title": "Attack Surface Mapping",
+      "description": "Attack surface mapping is the process of identifying and documenting all the potential entry points or vulnerabilities that an attacker could exploit to gain unauthorized access to a system or application. This involves cataloging all assets, including hardware, software, network components, and data, and then analyzing them to determine their susceptibility to various threats. The resulting map provides a clear picture of the organization's security posture, enabling security teams to prioritize mitigation efforts and reduce the overall risk.",
+      "resources": [
+        {
+          "id": "JztcgG94qZ5trdhfDcRa6-res-1",
+          "type": "article",
+          "title": "Attack Surface Analysis Cheat Sheet¶",
+          "url": "https://cheatsheetseries.owasp.org/cheatsheets/Attack_Surface_Analysis_Cheat_Sheet.html"
+        },
+        {
+          "id": "JztcgG94qZ5trdhfDcRa6-res-2",
+          "type": "article",
+          "title": "What is Attack Surface Mapping & Analysis in Cybersecurity?",
+          "url": "https://jetpack.com/resources/attack-surface-mapping-and-analysis/"
+        },
+        {
+          "id": "JztcgG94qZ5trdhfDcRa6-res-3",
+          "type": "video",
+          "title": "Attack Surface Mapping with Jeff Foley from OWASP Amass",
+          "url": "https://www.youtube.com/watch?v=Ui35-YEbBiA"
+        },
+        {
+          "id": "JztcgG94qZ5trdhfDcRa6-res-4",
+          "type": "video",
+          "title": "ASM and Vulnerability Management: Why you need both",
+          "url": "https://www.youtube.com/watch?v=oMx9lgTtJnM"
+        },
+        {
+          "id": "JztcgG94qZ5trdhfDcRa6-res-5",
+          "type": "video",
+          "title": "What is ASM (Attack Surface Management)?",
+          "url": "https://www.youtube.com/watch?v=NqKid53v5x8"
+        }
+      ]
+    },
+    "04_UcLELHkqjBCwliCw7H": {
+      "id": "04_UcLELHkqjBCwliCw7H",
+      "slug": "audit--compliance-mapping",
+      "title": "Audit & Compliance Mapping",
+      "description": "Audit & Compliance Mapping involves aligning an organization's security controls and practices with relevant regulatory requirements, industry standards, and internal policies. This process identifies which controls satisfy specific compliance obligations, creating a clear relationship between security efforts and the necessary frameworks for legal and operational adherence. The goal is to demonstrate that the organization is meeting its obligations and to streamline the audit process by providing a structured view of compliance.",
+      "resources": []
+    },
+    "iiOWJ7KXyHp_ovVWNmDoc": {
+      "id": "iiOWJ7KXyHp_ovVWNmDoc",
+      "slug": "authentication",
+      "title": "Authentication",
+      "description": "Authentication is the process of verifying the identity of a user, device, or application attempting to access a system or resource. It confirms that the entity is who or what it claims to be, typically by requiring them to provide credentials such as a username and password, a digital certificate, or biometric data. Successful authentication grants access based on pre-defined permissions and roles.",
+      "resources": [
+        {
+          "id": "iiOWJ7KXyHp_ovVWNmDoc-res-1",
+          "type": "article",
+          "title": "Basic Authentication",
+          "url": "https://roadmap.sh/guides/basic-authentication"
+        },
+        {
+          "id": "iiOWJ7KXyHp_ovVWNmDoc-res-2",
+          "type": "article",
+          "title": "Session Based Authentication",
+          "url": "https://roadmap.sh/guides/session-based-authentication"
+        },
+        {
+          "id": "iiOWJ7KXyHp_ovVWNmDoc-res-3",
+          "type": "article",
+          "title": "Token Based Authentication",
+          "url": "https://roadmap.sh/guides/token-authentication"
+        },
+        {
+          "id": "iiOWJ7KXyHp_ovVWNmDoc-res-4",
+          "type": "article",
+          "title": "JWT Authentication",
+          "url": "https://roadmap.sh/guides/jwt-authentication"
+        },
+        {
+          "id": "iiOWJ7KXyHp_ovVWNmDoc-res-5",
+          "type": "article",
+          "title": "Auth - Open Authorization",
+          "url": "https://roadmap.sh/guides/oauth"
+        },
+        {
+          "id": "iiOWJ7KXyHp_ovVWNmDoc-res-6",
+          "type": "article",
+          "title": "SSO - Single Sign On",
+          "url": "https://roadmap.sh/guides/sso"
+        }
+      ]
+    },
+    "DYmh1MkmAuXUJOFqnFzWc": {
+      "id": "DYmh1MkmAuXUJOFqnFzWc",
+      "slug": "authorization",
+      "title": "Authorization",
+      "description": "Authorization is the process of determining what a user or system is allowed to access or do. It verifies if a user, once authenticated, has the necessary permissions to perform a specific action on a particular resource. This involves checking access control policies and rules to ensure that only authorized entities can access sensitive data or functionalities.",
+      "resources": [
+        {
+          "id": "DYmh1MkmAuXUJOFqnFzWc-res-1",
+          "type": "article",
+          "title": "What Is Authorization and How Does It Work?",
+          "url": "https://www.descope.com/learn/post/authorization"
+        },
+        {
+          "id": "DYmh1MkmAuXUJOFqnFzWc-res-2",
+          "type": "video",
+          "title": "Authentication vs Authorization Explained",
+          "url": "https://www.youtube.com/watch?v=7ijBiXddB7w"
+        }
+      ]
+    },
+    "HahTEhITEAGaoys1psZqV": {
+      "id": "HahTEhITEAGaoys1psZqV",
+      "slug": "automated-patching",
+      "title": "Automated Patching",
+      "description": "Automated patching is the process of automatically applying software updates and security fixes to systems and applications. This involves using tools and scripts to identify missing patches, download them from a central repository, and install them on target machines without manual intervention. The goal is to quickly and efficiently address vulnerabilities and maintain the security and stability of the IT environment.",
+      "resources": [
+        {
+          "id": "HahTEhITEAGaoys1psZqV-res-1",
+          "type": "article",
+          "title": "What is automated patch management?",
+          "url": "https://www.pdq.com/blog/what-is-automated-patch-management/"
+        },
+        {
+          "id": "HahTEhITEAGaoys1psZqV-res-2",
+          "type": "article",
+          "title": "What is Patch Management Automation and Why It Matters",
+          "url": "https://blog.qualys.com/product-tech/patch-management/2025/11/18/what-is-patch-management-automation-guide"
+        },
+        {
+          "id": "HahTEhITEAGaoys1psZqV-res-3",
+          "type": "article",
+          "title": "What is Patch Management?",
+          "url": "https://www.ibm.com/topics/patch-management"
+        },
+        {
+          "id": "HahTEhITEAGaoys1psZqV-res-4",
+          "type": "video",
+          "title": "What Is Patch Management, and Why Does Your Company Need It?",
+          "url": "https://www.youtube.com/watch?v=O5XXlJear0w"
+        }
+      ]
+    },
+    "r3XBfcNtxSraF11YK_5d5": {
+      "id": "r3XBfcNtxSraF11YK_5d5",
+      "slug": "bash",
+      "title": "Bash Scripting",
+      "description": "Bash is a command-line interpreter and scripting language commonly used in Linux and macOS environments. It allows users to automate tasks, manage files, and execute programs through a series of commands written in a script. These scripts can range from simple one-liners to complex programs that perform system administration, software deployment, and other essential operations.",
+      "resources": [
+        {
+          "id": "r3XBfcNtxSraF11YK_5d5-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated Bash Roadmap",
+          "url": "https://roadmap.sh/shell-bash"
+        },
+        {
+          "id": "r3XBfcNtxSraF11YK_5d5-res-2",
+          "type": "article",
+          "title": "Interactive Shell Scripting Tutorial",
+          "url": "https://www.learnshell.org/en/Welcome"
+        },
+        {
+          "id": "r3XBfcNtxSraF11YK_5d5-res-3",
+          "type": "video",
+          "title": "Bash Scripting Tutorial for Beginners",
+          "url": "https://www.youtube.com/watch?v=tK9Oc6AEnR4"
+        },
+        {
+          "id": "r3XBfcNtxSraF11YK_5d5-res-4",
+          "type": "video",
+          "title": "Bash in 100 Seconds",
+          "url": "https://www.youtube.com/watch?v=I4EWvMFj37g"
+        }
+      ]
+    },
+    "TqmbGC_Q_b3BkU7UkvE-S": {
+      "id": "TqmbGC_Q_b3BkU7UkvE-S",
+      "slug": "bcrypt",
+      "title": "bcrypt",
+      "description": "bcrypt is a password-hashing function designed to be computationally intensive and resistant to brute-force attacks. It incorporates a salt to protect against rainbow table attacks and uses an adaptive hashing algorithm, meaning the computational cost can be increased over time to keep pace with advancements in computing power. This makes it a strong choice for securely storing user passwords.",
+      "resources": [
+        {
+          "id": "TqmbGC_Q_b3BkU7UkvE-S-res-1",
+          "type": "article",
+          "title": "Hashing in Action: Understanding bcrypt",
+          "url": "https://auth0.com/blog/hashing-in-action-understanding-bcrypt/"
+        },
+        {
+          "id": "TqmbGC_Q_b3BkU7UkvE-S-res-2",
+          "type": "article",
+          "title": "Password Hashing using bcrypt",
+          "url": "https://medium.com/@bhupendra_Maurya/password-hashing-using-bcrypt-e36f5c655e09"
+        },
+        {
+          "id": "TqmbGC_Q_b3BkU7UkvE-S-res-3",
+          "type": "article",
+          "title": "BCrypt Explained",
+          "url": "https://dev.to/sylviapap/bcrypt-explained-4k5c"
+        },
+        {
+          "id": "TqmbGC_Q_b3BkU7UkvE-S-res-4",
+          "type": "video",
+          "title": "Password Storage Tier List: encryption, hashing, salting, bcrypt, and beyond",
+          "url": "https://www.youtube.com/watch?v=qgpsIBLvrGY"
+        }
+      ]
+    },
+    "nkPrYgpM5Mn6C_9u9yAyQ": {
+      "id": "nkPrYgpM5Mn6C_9u9yAyQ",
+      "slug": "build-pipeline-hardening",
+      "title": "Build Pipeline Hardening",
+      "description": "Pipeline hardening focuses on securing the automated process that transforms source code into deployable software. This involves implementing security measures at each stage of the pipeline, from code commit to artifact creation, to prevent vulnerabilities from being introduced or exploited. The goal is to ensure the integrity and confidentiality of the software being built and deployed.",
+      "resources": [
+        {
+          "id": "nkPrYgpM5Mn6C_9u9yAyQ-res-1",
+          "type": "article",
+          "title": "Harden Your CI/CD Pipelines",
+          "url": "https://www.paloaltonetworks.com/resources/datasheets/tip-sheet-ci-cd-security"
+        },
+        {
+          "id": "nkPrYgpM5Mn6C_9u9yAyQ-res-2",
+          "type": "article",
+          "title": "Hardening - CI/CD Recommendations",
+          "url": "https://docs.gitlab.com/security/hardening_cicd_recommendations/"
+        },
+        {
+          "id": "nkPrYgpM5Mn6C_9u9yAyQ-res-3",
+          "type": "video",
+          "title": "Hardening Your CI/CD Pipelines with GitOps and Continuous Security",
+          "url": "https://www.youtube.com/watch?v=OHly5mGdhNY"
+        }
+      ]
+    },
+    "uAUg6mDDDq7ZyR0IEDxg5": {
+      "id": "uAUg6mDDDq7ZyR0IEDxg5",
+      "slug": "burp-suite",
+      "title": "Burp Suite",
+      "description": "Burp Suite is a platform used for performing security testing of web applications. It acts as a proxy, intercepting and analyzing traffic between a browser and a web server. This allows security professionals to identify vulnerabilities such as SQL injection, cross-site scripting (XSS), and other common web application flaws.",
+      "resources": [
+        {
+          "id": "uAUg6mDDDq7ZyR0IEDxg5-res-1",
+          "type": "article",
+          "title": "Burp",
+          "url": "https://portswigger.net/burp"
+        },
+        {
+          "id": "uAUg6mDDDq7ZyR0IEDxg5-res-2",
+          "type": "article",
+          "title": "Getting started with Burp Suite",
+          "url": "https://portswigger.net/burp/documentation/desktop/getting-started"
+        },
+        {
+          "id": "uAUg6mDDDq7ZyR0IEDxg5-res-3",
+          "type": "article",
+          "title": "What is Burp Suite?",
+          "url": "https://www.scaler.com/topics/cyber-security/burp-suite/"
+        },
+        {
+          "id": "uAUg6mDDDq7ZyR0IEDxg5-res-4",
+          "type": "video",
+          "title": "How to use Burp Suite for Beginners",
+          "url": "https://www.youtube.com/watch?v=GxvFqgCBW-8"
+        },
+        {
+          "id": "uAUg6mDDDq7ZyR0IEDxg5-res-5",
+          "type": "video",
+          "title": "Master Burp Suite Like A Pro In Just 1 Hour",
+          "url": "https://www.youtube.com/watch?v=QiNLNDSLuJY"
+        }
+      ]
+    },
+    "quUzTCnBnmJoSmIPBGjxk": {
+      "id": "quUzTCnBnmJoSmIPBGjxk",
+      "slug": "certificate-lifecycle",
+      "title": "Certificate Lifecycle",
+      "description": "Certificate lifecycle management encompasses all the processes involved in creating, deploying, managing, and eventually revoking digital certificates. This includes requesting certificates from a Certificate Authority (CA), securely storing private keys, distributing certificates to servers and applications, monitoring certificate expiration dates, and renewing or replacing certificates before they expire to maintain secure communication and authentication.",
+      "resources": []
+    },
+    "k7AtVkkVavHjCVo1hqCc0": {
+      "id": "k7AtVkkVavHjCVo1hqCc0",
+      "slug": "cia-triad",
+      "title": "CIA Triad",
+      "description": "The CIA Triad is a model designed to guide security policies for organizations. It consists of three fundamental principles: Confidentiality, ensuring that information is accessible only to authorized individuals; Integrity, maintaining the accuracy and completeness of data; and Availability, guaranteeing that authorized users have reliable access to information and resources when needed.",
+      "resources": [
+        {
+          "id": "k7AtVkkVavHjCVo1hqCc0-res-1",
+          "type": "article",
+          "title": "The CIA Triad",
+          "url": "https://www.fortinet.com/resources/cyberglossary/cia-triad"
+        },
+        {
+          "id": "k7AtVkkVavHjCVo1hqCc0-res-2",
+          "type": "video",
+          "title": "The CIA Triad - Professor Messer",
+          "url": "https://www.youtube.com/watch?v=SBcDGb9l6yo"
+        }
+      ]
+    },
+    "ou2-KKBNyOxH_IW9s3eE9": {
+      "id": "ou2-KKBNyOxH_IW9s3eE9",
+      "slug": "cloud-security",
+      "title": "Cloud Security",
+      "description": "Cloud security encompasses the policies, technologies, software, and practices that protect cloud-based systems, data, and infrastructure. It addresses the unique security challenges presented by cloud computing, such as shared responsibility models, data residency, and the dynamic nature of cloud environments. Effective cloud security strategies aim to maintain confidentiality, integrity, and availability of cloud resources while mitigating risks like data breaches, unauthorized access, and denial-of-service attacks.",
+      "resources": [
+        {
+          "id": "ou2-KKBNyOxH_IW9s3eE9-res-1",
+          "type": "article",
+          "title": "What is cloud security?",
+          "url": "https://www.ibm.com/think/topics/cloud-security"
+        },
+        {
+          "id": "ou2-KKBNyOxH_IW9s3eE9-res-2",
+          "type": "article",
+          "title": "What is Cloud Security? Essential Tools, Best Practices and Strategies",
+          "url": "https://www.crowdstrike.com/en-us/cybersecurity-101/cloud-security/"
+        }
+      ]
+    },
+    "EnDqfr07RzNZmPIth6wSq": {
+      "id": "EnDqfr07RzNZmPIth6wSq",
+      "slug": "container-security",
+      "title": "Container Security",
+      "description": "Container security involves protecting containerized applications and the underlying infrastructure from vulnerabilities and threats. This includes securing the container image build process, managing container runtime environments, and implementing security measures to prevent unauthorized access, data breaches, and other security incidents. Effective container security practices are essential for ensuring the integrity, confidentiality, and availability of applications deployed in containerized environments.",
+      "resources": [
+        {
+          "id": "EnDqfr07RzNZmPIth6wSq-res-1",
+          "type": "article",
+          "title": "What Is Container Security?",
+          "url": "https://www.paloaltonetworks.com/cyberpedia/what-is-container-security"
+        }
+      ]
+    },
+    "CUjGVwPvQytVYqy2zEPuw": {
+      "id": "CUjGVwPvQytVYqy2zEPuw",
+      "slug": "containment",
+      "title": "Containment",
+      "description": "Containment in incident response refers to the actions taken to limit the scope and impact of a security incident. It involves isolating affected systems or networks to prevent the incident from spreading further, minimizing damage, and preserving evidence for investigation. This can include actions like disconnecting compromised machines from the network, shutting down vulnerable applications, or implementing temporary security controls.",
+      "resources": [
+        {
+          "id": "CUjGVwPvQytVYqy2zEPuw-res-1",
+          "type": "article",
+          "title": "Microsoft Security Incident Management: Containment, Eradication, and Recovery",
+          "url": "https://learn.microsoft.com/en-us/compliance/assurance/assurance-sim-containment-eradication-recovery"
+        },
+        {
+          "id": "CUjGVwPvQytVYqy2zEPuw-res-2",
+          "type": "article",
+          "title": "Containment - AWS",
+          "url": "https://docs.aws.amazon.com/whitepapers/latest/aws-security-incident-response-guide/containment.html"
+        }
+      ]
+    },
+    "EqfPoveYajk61VH-ii_uE": {
+      "id": "EqfPoveYajk61VH-ii_uE",
+      "slug": "cryptographic-hashing",
+      "title": "Cryptographic Hashing",
+      "description": "Cryptographic hashing is a process that takes an input (or 'message') and produces a fixed-size string of characters, known as a hash. This hash acts as a unique fingerprint of the input data. Even a small change to the input will result in a drastically different hash value. Hashing algorithms are designed to be one-way functions, meaning it's computationally infeasible to reverse the process and derive the original input from the hash.",
+      "resources": [
+        {
+          "id": "EqfPoveYajk61VH-ii_uE-res-1",
+          "type": "article",
+          "title": "What is hashing and how does it work?",
+          "url": "https://www.techtarget.com/searchdatamanagement/definition/hashing"
+        },
+        {
+          "id": "EqfPoveYajk61VH-ii_uE-res-2",
+          "type": "article",
+          "title": "Hashing Algorithm Overview: Types, Methodologies & Usage",
+          "url": "https://www.okta.com/identity-101/hashing-algorithms/"
+        },
+        {
+          "id": "EqfPoveYajk61VH-ii_uE-res-3",
+          "type": "article",
+          "title": "Understanding Cryptography Types",
+          "url": "https://geekflare.com/cybersecurity/cryptography-types/"
+        },
+        {
+          "id": "EqfPoveYajk61VH-ii_uE-res-4",
+          "type": "video",
+          "title": "Hashing Explained",
+          "url": "https://www.youtube.com/watch?v=EOe1XUykdP4"
+        }
+      ]
+    },
+    "eTOjfNSzlvbWsyX5an_5w": {
+      "id": "eTOjfNSzlvbWsyX5an_5w",
+      "slug": "cspm",
+      "title": "Cloud Security Posture Management (CSPM)",
+      "description": "Cloud Security Posture Management (CSPM) involves continuously assessing and improving the security configuration of cloud resources. It helps organizations identify and remediate misconfigurations, compliance violations, and security risks across their cloud environments. CSPM tools automate security assessments, provide visibility into cloud security posture, and offer recommendations for improving security controls.",
+      "resources": [
+        {
+          "id": "eTOjfNSzlvbWsyX5an_5w-res-1",
+          "type": "article",
+          "title": "What is cloud security posture management (CSPM)?",
+          "url": "https://www.ibm.com/think/topics/cspm"
+        },
+        {
+          "id": "eTOjfNSzlvbWsyX5an_5w-res-2",
+          "type": "article",
+          "title": "What is CSPM?",
+          "url": "https://www.microsoft.com/en-us/security/business/security-101/what-is-cspm"
+        },
+        {
+          "id": "eTOjfNSzlvbWsyX5an_5w-res-3",
+          "type": "video",
+          "title": "What is CSPM (Cloud Security Posture Management)?",
+          "url": "https://www.youtube.com/watch?v=V4wmb5KVmKM"
+        },
+        {
+          "id": "eTOjfNSzlvbWsyX5an_5w-res-4",
+          "type": "video",
+          "title": "What is Cloud Security Posture Management (CSPM)?",
+          "url": "https://www.youtube.com/watch?v=dZLEngVpKME"
+        }
+      ]
+    },
+    "ltpquwL_YEvbgMZ2OyNS4": {
+      "id": "ltpquwL_YEvbgMZ2OyNS4",
+      "slug": "ddos-miligation-strategy",
+      "title": "DDoS Mitigation Strategy",
+      "description": "A DDoS (Distributed Denial of Service) mitigation strategy is a plan and set of techniques used to protect a system or network from being overwhelmed by malicious traffic. It involves identifying, analyzing, and filtering out illegitimate requests while allowing legitimate users to access the service. This often includes a combination of traffic filtering, rate limiting, content delivery networks (CDNs), and other security measures to maintain availability and performance during an attack.",
+      "resources": [
+        {
+          "id": "ltpquwL_YEvbgMZ2OyNS4-res-1",
+          "type": "article",
+          "title": "10 Best Practices to Prevent DDoS Attacks",
+          "url": "https://securityscorecard.com/blog/best-practices-to-prevent-ddos-attacks/"
+        },
+        {
+          "id": "ltpquwL_YEvbgMZ2OyNS4-res-2",
+          "type": "article",
+          "title": "How to prevent DDoS attacks | Methods and tools",
+          "url": "https://www.cloudflare.com/en-gb/learning/ddos/how-to-prevent-ddos-attacks/"
+        },
+        {
+          "id": "ltpquwL_YEvbgMZ2OyNS4-res-3",
+          "type": "article",
+          "title": "DoS vs DDoS",
+          "url": "https://www.fortinet.com/resources/cyberglossary/dos-vs-ddos"
+        },
+        {
+          "id": "ltpquwL_YEvbgMZ2OyNS4-res-4",
+          "type": "video",
+          "title": "hat is Denial-of-Service attack?",
+          "url": "https://www.youtube.com/watch?v=Z7xG3b0aL_I"
+        },
+        {
+          "id": "ltpquwL_YEvbgMZ2OyNS4-res-5",
+          "type": "video",
+          "title": "What is a DDoS attack?",
+          "url": "https://www.youtube.com/watch?v=z503nLsfe5s"
+        }
+      ]
+    },
+    "a4dYHrx1KzhKRtarZT1iy": {
+      "id": "a4dYHrx1KzhKRtarZT1iy",
+      "slug": "defense-in-depth-concepts",
+      "title": "Defense in Depth",
+      "description": "Defense in Depth is a security approach that uses multiple layers of security controls to protect assets. If one security measure fails, others are in place to provide continued protection. This layered approach reduces the risk of a single point of failure compromising the entire system.",
+      "resources": [
+        {
+          "id": "a4dYHrx1KzhKRtarZT1iy-res-1",
+          "type": "article",
+          "title": "What is Defense in Depth?",
+          "url": "https://www.fortinet.com/resources/cyberglossary/defense-in-depth"
+        },
+        {
+          "id": "a4dYHrx1KzhKRtarZT1iy-res-2",
+          "type": "article",
+          "title": "What is Defense in Depth? Best Practices for Layered Security",
+          "url": "https://www.wiz.io/academy/cloud-security/defense-in-depth"
+        },
+        {
+          "id": "a4dYHrx1KzhKRtarZT1iy-res-3",
+          "type": "video",
+          "title": "Defense-in-Depth - CompTIA Security+",
+          "url": "https://www.youtube.com/watch?v=HLQ4wX8NxQY"
+        }
+      ]
+    },
+    "AAd_X7gI-WA7Jh9FKsuE_": {
+      "id": "AAd_X7gI-WA7Jh9FKsuE_",
+      "slug": "dependency-risk-management",
+      "title": "Dependency Risk Management",
+      "description": "Dependency Risk Management involves identifying, assessing, and mitigating the risks associated with using third-party libraries, frameworks, and other external components in software development. This includes understanding the potential vulnerabilities, licensing issues, and maintenance status of these dependencies to ensure the security and stability of the application. Effective dependency management helps prevent the introduction of known security flaws and ensures compliance with licensing requirements.",
+      "resources": [
+        {
+          "id": "AAd_X7gI-WA7Jh9FKsuE_-res-1",
+          "type": "article",
+          "title": "Dependency Risk Analysis",
+          "url": "https://www.launchnotes.com/glossary/dependency-risk-analysis-in-product-management-and-operations"
+        },
+        {
+          "id": "AAd_X7gI-WA7Jh9FKsuE_-res-2",
+          "type": "article",
+          "title": "OWASP Dependency-Track",
+          "url": "https://owasp.org/www-project-dependency-track/"
+        }
+      ]
+    },
+    "SJa6UcRcgT08lF8Phnh0X": {
+      "id": "SJa6UcRcgT08lF8Phnh0X",
+      "slug": "devsecops-vs-devops",
+      "title": "DevSecOps vs. DevOps",
+      "description": "DevOps focuses on streamlining and automating the software development lifecycle, emphasizing collaboration between development and operations teams to deliver software faster and more efficiently. DevSecOps builds upon this foundation by integrating security practices and considerations throughout the entire DevOps pipeline, rather than treating security as a separate, end-of-cycle step. This means security is a shared responsibility from the initial planning stages to deployment and monitoring.",
+      "resources": [
+        {
+          "id": "SJa6UcRcgT08lF8Phnh0X-res-1",
+          "type": "article",
+          "title": "DevOps vs DevSecOps: Key Differences and Best Fit",
+          "url": "https://roadmap.sh/devops/vs-devsecops"
+        },
+        {
+          "id": "SJa6UcRcgT08lF8Phnh0X-res-2",
+          "type": "article",
+          "title": "DevOps vs DevSecOps: Differences and Similarities",
+          "url": "https://www.browserstack.com/guide/what-is-the-difference-between-devops-and-devsecops"
+        },
+        {
+          "id": "SJa6UcRcgT08lF8Phnh0X-res-3",
+          "type": "video",
+          "title": "What is DevSecOps? | DevOps vs DevSecOps | KodeKloud",
+          "url": "https://www.youtube.com/watch?v=1XpUDV7PBFo"
+        }
+      ]
+    },
+    "TnDsOr1iJX3hY7vJRpp7S": {
+      "id": "TnDsOr1iJX3hY7vJRpp7S",
+      "slug": "dns",
+      "title": "DNS",
+      "description": "DNS, or Domain Name System, is essentially the phonebook of the internet. It translates human-readable domain names, like \"example.com,\" into IP addresses, like \"192.0.2.1,\" which computers use to identify each other on the network. Without DNS, we'd have to remember and type in these numerical IP addresses every time we wanted to visit a website.",
+      "resources": [
+        {
+          "id": "TnDsOr1iJX3hY7vJRpp7S-res-1",
+          "type": "article",
+          "title": "What is DNS?",
+          "url": "https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/"
+        },
+        {
+          "id": "TnDsOr1iJX3hY7vJRpp7S-res-2",
+          "type": "article",
+          "title": "Mess with DNS - DNS Playground",
+          "url": "https://messwithdns.net/"
+        },
+        {
+          "id": "TnDsOr1iJX3hY7vJRpp7S-res-3",
+          "type": "article",
+          "title": "How DNS works (comic)",
+          "url": "https://howdns.works/"
+        },
+        {
+          "id": "TnDsOr1iJX3hY7vJRpp7S-res-4",
+          "type": "video",
+          "title": "DNS and How does it Work?",
+          "url": "](https://www.youtube.com/watch?v=Wj0od2ag5sk"
+        },
+        {
+          "id": "TnDsOr1iJX3hY7vJRpp7S-res-5",
+          "type": "article",
+          "title": "Explore top posts about DNS",
+          "url": "https://app.daily.dev/tags/dns?ref=roadmapsh"
+        }
+      ]
+    },
+    "-OWtiqx4YbcOVhtYU0D69": {
+      "id": "-OWtiqx4YbcOVhtYU0D69",
+      "slug": "docker",
+      "title": "Docker Security",
+      "description": "Docker security entails protecting your applications and data within Docker containers. Because containers share the host operating system's kernel, vulnerabilities in the kernel or container configurations can be exploited. Securing Docker involves practices like using minimal base images, regularly scanning images for vulnerabilities, implementing strong access controls, and properly configuring Docker daemon settings to prevent unauthorized access and ensure isolation.",
+      "resources": [
+        {
+          "id": "-OWtiqx4YbcOVhtYU0D69-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated Docker Roadmap",
+          "url": "https://roadmap.sh/docker"
+        },
+        {
+          "id": "-OWtiqx4YbcOVhtYU0D69-res-2",
+          "type": "article",
+          "title": "Docker Security",
+          "url": "https://docs.docker.com/engine/security/"
+        },
+        {
+          "id": "-OWtiqx4YbcOVhtYU0D69-res-3",
+          "type": "article",
+          "title": "Kubernetes Security Best Practices",
+          "url": "https://www.aquasec.com/cloud-native-academy/kubernetes-in-production/kubernetes-security-best-practices-10-steps-to-securing-k8s/"
+        }
+      ]
+    },
+    "A67WShi92I-TX0iK7Fv0L": {
+      "id": "A67WShi92I-TX0iK7Fv0L",
+      "slug": "edr-strategy",
+      "title": "EDR Strategy",
+      "description": "Endpoint Detection and Response (EDR) strategy focuses on proactively identifying and mitigating threats on endpoint devices like laptops, servers, and workstations. It involves implementing tools and processes that continuously monitor these endpoints for suspicious activities, analyze the data to detect potential security incidents, and provide automated or manual response capabilities to contain and remediate threats. A well-defined EDR strategy helps organizations gain visibility into endpoint security posture and improve their ability to defend against advanced attacks.",
+      "resources": []
+    },
+    "0ey7Spq4DoZ-AfXOsMtag": {
+      "id": "0ey7Spq4DoZ-AfXOsMtag",
+      "slug": "encryption",
+      "title": "Encryption",
+      "description": "Encryption is the process of converting readable data (plaintext) into an unreadable format (ciphertext) to protect its confidentiality. This is achieved using algorithms and cryptographic keys. Only authorized parties with the correct key can decrypt the ciphertext back into its original plaintext form, ensuring that sensitive information remains protected from unauthorized access or disclosure.",
+      "resources": [
+        {
+          "id": "0ey7Spq4DoZ-AfXOsMtag-res-1",
+          "type": "article",
+          "title": "What is Encryption?",
+          "url": "https://cloud.google.com/learn/what-is-encryption"
+        },
+        {
+          "id": "0ey7Spq4DoZ-AfXOsMtag-res-2",
+          "type": "video",
+          "title": "What is Encryption?",
+          "url": "https://www.youtube.com/watch?v=9chKCUQ8_VQ"
+        }
+      ]
+    },
+    "E2jGo4HeKaeuXYa9-f-vy": {
+      "id": "E2jGo4HeKaeuXYa9-f-vy",
+      "slug": "endpoint-detection",
+      "title": "Endpoint Detection",
+      "description": "Endpoint detection involves monitoring and analyzing activities on devices like laptops, desktops, and servers to identify suspicious behavior that could indicate a security threat. This process typically uses software agents installed on these endpoints to collect data, which is then analyzed for patterns and anomalies that might signal malware, unauthorized access, or other malicious activities. When a threat is detected, the system alerts security teams and may automatically take actions to contain or remediate the issue.",
+      "resources": []
+    },
+    "68qVLExPlVrKJweTjd_S5": {
+      "id": "68qVLExPlVrKJweTjd_S5",
+      "slug": "enterprise-operations",
+      "title": "Enterprise Operations",
+      "description": "Enterprise Operations encompasses all the activities and processes required to manage and maintain an organization's IT infrastructure, applications, and services. This includes tasks like system administration, network management, database administration, incident response, and ensuring the overall stability and performance of the IT environment that supports the business. It focuses on keeping the lights on and ensuring that the business can function effectively.",
+      "resources": []
+    },
+    "LV_uiNRdUi9OrmxQCdeGw": {
+      "id": "LV_uiNRdUi9OrmxQCdeGw",
+      "slug": "firewalls",
+      "title": "Firewalls",
+      "description": "Firewalls are network security systems that monitor and control incoming and outgoing network traffic based on predetermined security rules. They act as a barrier between a trusted internal network and an untrusted external network, such as the internet. Firewalls analyze network packets and either allow or block them based on configured rules, helping to prevent unauthorized access to or from private networks.",
+      "resources": [
+        {
+          "id": "LV_uiNRdUi9OrmxQCdeGw-res-1",
+          "type": "article",
+          "title": "What is Firewall?",
+          "url": "https://www.checkpoint.com/cyber-hub/network-security/what-is-firewall/"
+        },
+        {
+          "id": "LV_uiNRdUi9OrmxQCdeGw-res-2",
+          "type": "article",
+          "title": "Types of Firewall",
+          "url": "https://www.cisco.com/c/en_in/products/security/firewalls/what-is-a-firewall.html"
+        },
+        {
+          "id": "LV_uiNRdUi9OrmxQCdeGw-res-3",
+          "type": "article",
+          "title": "Uncomplicated Firewall (UFW)",
+          "url": "https://dev.to/coder7475/uncomplicated-firewall-ufw-1638"
+        },
+        {
+          "id": "LV_uiNRdUi9OrmxQCdeGw-res-4",
+          "type": "article",
+          "title": "Why do we need Firewalls?",
+          "url": "https://www.tutorialspoint.com/what-is-a-firewall-and-why-do-you-need-one"
+        },
+        {
+          "id": "LV_uiNRdUi9OrmxQCdeGw-res-5",
+          "type": "video",
+          "title": "Firewalls and Network Security - SimpliLearn",
+          "url": "https://www.youtube.com/watch?v=9GZlVOafYTg"
+        }
+      ]
+    },
+    "h_kjdN5uGNKLtJ3puQ9RH": {
+      "id": "h_kjdN5uGNKLtJ3puQ9RH",
+      "slug": "forensics",
+      "title": "Forensics",
+      "description": "Forensics, in the context of incident response, involves the systematic investigation and analysis of security incidents to understand what happened, how it happened, and who was involved. It's about gathering and preserving digital evidence to reconstruct events, identify root causes, and support potential legal or disciplinary actions. This process helps organizations learn from incidents, improve their security posture, and prevent future occurrences.",
+      "resources": [
+        {
+          "id": "h_kjdN5uGNKLtJ3puQ9RH-res-1",
+          "type": "article",
+          "title": "Introduction to Digital Forensics (TryHackMe)",
+          "url": "https://tryhackme.com/room/introdigitalforensics"
+        },
+        {
+          "id": "h_kjdN5uGNKLtJ3puQ9RH-res-2",
+          "type": "video",
+          "title": "Digital Forensics",
+          "url": "https://www.youtube.com/watch?v=UtDWApdO8Zk"
+        }
+      ]
+    },
+    "UcBt4BsvLDlsnVy3KKJ1y": {
+      "id": "UcBt4BsvLDlsnVy3KKJ1y",
+      "slug": "go",
+      "title": "Go Programming Language",
+      "description": "Go, often referred to as Golang, is a statically typed, compiled programming language designed at Google. Its simple syntax, efficient performance, and built-in concurrency features make it well-suited for building reliable and scalable tools and infrastructure components often used in DevSecOps pipelines. This includes tasks like automating security checks, building network tools, and creating efficient deployment systems.",
+      "resources": [
+        {
+          "id": "UcBt4BsvLDlsnVy3KKJ1y-res-1",
+          "type": "article",
+          "title": "Visit de Dedicated Rust Roadmap",
+          "url": "https://roadmap.sh/golang"
+        },
+        {
+          "id": "UcBt4BsvLDlsnVy3KKJ1y-res-2",
+          "type": "article",
+          "title": "Go",
+          "url": "https://go.dev/"
+        },
+        {
+          "id": "UcBt4BsvLDlsnVy3KKJ1y-res-3",
+          "type": "article",
+          "title": "Go Docs",
+          "url": "https://go.dev/doc/"
+        },
+        {
+          "id": "UcBt4BsvLDlsnVy3KKJ1y-res-4",
+          "type": "article",
+          "title": "Getting Started with Go",
+          "url": "https://go.dev/doc/tutorial/getting-started"
+        },
+        {
+          "id": "UcBt4BsvLDlsnVy3KKJ1y-res-5",
+          "type": "article",
+          "title": "Getting Started with Go and the Web",
+          "url": "https://dev.to/markmunyaka/getting-started-with-go-and-the-web-hello-world-nal"
+        },
+        {
+          "id": "UcBt4BsvLDlsnVy3KKJ1y-res-6",
+          "type": "video",
+          "title": "Golang 101 Crash Course: Learn Go Programming Fundamentals!",
+          "url": "https://www.youtube.com/watch?v=S65k7Tubbck"
+        }
+      ]
+    },
+    "WamX-UieM8NxhK6P_bDCB": {
+      "id": "WamX-UieM8NxhK6P_bDCB",
+      "slug": "http",
+      "title": "HTTP",
+      "description": "HTTP (Hypertext Transfer Protocol) is the foundation of data communication on the World Wide Web. It's an application-layer protocol that defines how clients (like web browsers) and servers communicate by exchanging messages. These messages consist of requests from the client and responses from the server, enabling the transfer of resources like HTML documents, images, and other web content.",
+      "resources": [
+        {
+          "id": "WamX-UieM8NxhK6P_bDCB-res-1",
+          "type": "article",
+          "title": "Everything you need to know about HTTP",
+          "url": "https://cs.fyi/guide/http-in-depth"
+        },
+        {
+          "id": "WamX-UieM8NxhK6P_bDCB-res-2",
+          "type": "article",
+          "title": "What is HTTP?",
+          "url": "https://www.cloudflare.com/en-gb/learning/ddos/glossary/hypertext-transfer-protocol-http/"
+        },
+        {
+          "id": "WamX-UieM8NxhK6P_bDCB-res-3",
+          "type": "article",
+          "title": "An overview of HTTP",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview"
+        },
+        {
+          "id": "WamX-UieM8NxhK6P_bDCB-res-4",
+          "type": "video",
+          "title": "HTTP/1 to HTTP/2 to HTTP/3",
+          "url": "https://www.youtube.com/watch?v=a-sBfyiXysI"
+        },
+        {
+          "id": "WamX-UieM8NxhK6P_bDCB-res-5",
+          "type": "video",
+          "title": "HTTP Crash Course & Exploration",
+          "url": "https://www.youtube.com/watch?v=iYM2zFP3Zn0"
+        }
+      ]
+    },
+    "-RORxEsNvIPSlnM2TWB3j": {
+      "id": "-RORxEsNvIPSlnM2TWB3j",
+      "slug": "iam",
+      "title": "IAM",
+      "description": "Identity and Access Management (IAM) is a framework of policies and technologies that ensures the right individuals and services have appropriate access to resources. It defines and manages user identities, authenticates them, and authorizes their access to specific resources based on predefined roles and permissions. This helps organizations control who can access what, when, and how, thereby reducing the risk of unauthorized access and data breaches.",
+      "resources": [
+        {
+          "id": "-RORxEsNvIPSlnM2TWB3j-res-1",
+          "type": "article",
+          "title": "Introduction to Identity and Access Management (IAM)",
+          "url": "https://auth0.com/docs/get-started/identity-fundamentals/identity-and-access-management"
+        },
+        {
+          "id": "-RORxEsNvIPSlnM2TWB3j-res-2",
+          "type": "article",
+          "title": "What is identity and access management (IAM)?",
+          "url": "https://www.ibm.com/think/topics/identity-access-management"
+        },
+        {
+          "id": "-RORxEsNvIPSlnM2TWB3j-res-3",
+          "type": "article",
+          "title": "How to build an effective IAM architecture",
+          "url": "https://www.techtarget.com/searchsecurity/feature/How-to-build-an-identity-and-access-management-architecture"
+        },
+        {
+          "id": "-RORxEsNvIPSlnM2TWB3j-res-4",
+          "type": "video",
+          "title": "Identity & Access Management (IAM)",
+          "url": "https://www.youtube.com/watch?v=aNj36g7fSsU"
+        },
+        {
+          "id": "-RORxEsNvIPSlnM2TWB3j-res-5",
+          "type": "video",
+          "title": "Cybersecurity Architecture: Who Are You? Identity and Access Management",
+          "url": "https://www.youtube.com/watch?v=5uNifnVlBy4"
+        }
+      ]
+    },
+    "JDglIowCyRjSoqCcNfkZr": {
+      "id": "JDglIowCyRjSoqCcNfkZr",
+      "slug": "iam",
+      "title": "Identity and Access Management (IAM)",
+      "description": "IAM in cloud providers like AWS and GCP controls who can access what resources within your cloud environment. It lets you define users, groups, and roles, and then assign permissions to those roles. These permissions determine what actions users and services can perform, such as reading data from a database, creating virtual machines, or managing network configurations. IAM helps you enforce the principle of least privilege, granting only the necessary access to perform specific tasks, thereby minimizing the potential impact of security breaches.",
+      "resources": [
+        {
+          "id": "JDglIowCyRjSoqCcNfkZr-res-1",
+          "type": "article",
+          "title": "AWS Identity and Access Management",
+          "url": "https://aws.amazon.com/es/iam/"
+        },
+        {
+          "id": "JDglIowCyRjSoqCcNfkZr-res-2",
+          "type": "article",
+          "title": "What is IAM? - AWS",
+          "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html"
+        },
+        {
+          "id": "JDglIowCyRjSoqCcNfkZr-res-3",
+          "type": "article",
+          "title": "Identity and Access Management documentation - GCP",
+          "url": "https://docs.cloud.google.com/iam/docs"
+        },
+        {
+          "id": "JDglIowCyRjSoqCcNfkZr-res-4",
+          "type": "video",
+          "title": "AWS IAM Core Concepts You NEED to Know",
+          "url": "https://www.youtube.com/watch?v=_ZCTvmaPgao"
+        },
+        {
+          "id": "JDglIowCyRjSoqCcNfkZr-res-5",
+          "type": "video",
+          "title": "IAM Explained in Google Cloud: Manage Access and Permissions",
+          "url": "https://www.youtube.com/watch?v=iTY64is1-qk"
+        }
+      ]
+    },
+    "iONpD135a4kd3zR5ufoTx": {
+      "id": "iONpD135a4kd3zR5ufoTx",
+      "slug": "identity-basics",
+      "title": "Identity Basics",
+      "description": "Identity basics involve establishing and managing digital identities for users, applications, and services within a system. This includes processes for authentication (verifying who someone is) and authorization (determining what they are allowed to access). Effective identity management ensures that only authorized entities can access specific resources, maintaining security and control over sensitive data and functionalities.",
+      "resources": [
+        {
+          "id": "iONpD135a4kd3zR5ufoTx-res-1",
+          "type": "article",
+          "title": "What is identity and access management (IAM)?",
+          "url": "https://www.microsoft.com/en-us/security/business/security-101/what-is-identity-access-management-iam"
+        }
+      ]
+    },
+    "L3Mu6rCIu58VyhtxeyLXq": {
+      "id": "L3Mu6rCIu58VyhtxeyLXq",
+      "slug": "ids",
+      "title": "Intrusion Detection Systems",
+      "description": "An Intrusion Detection System (IDS) monitors a network or systems for malicious activity or policy violations. It analyzes network traffic, system logs, and other data sources to identify suspicious patterns that may indicate an attack or unauthorized access. When a threat is detected, the IDS alerts administrators, allowing them to investigate and respond to the incident.",
+      "resources": [
+        {
+          "id": "L3Mu6rCIu58VyhtxeyLXq-res-1",
+          "type": "article",
+          "title": "What is Intrusion Detection Systems (IDS)",
+          "url": "https://www.fortinet.com/resources/cyberglossary/intrusion-detection-system"
+        },
+        {
+          "id": "L3Mu6rCIu58VyhtxeyLXq-res-2",
+          "type": "video",
+          "title": "What Is Intrusion Detection System? | Intrusion Detection System (IDS) | Cyber Security |Simplilearn",
+          "url": "https://www.youtube.com/watch?v=dfVAi87BSEs"
+        },
+        {
+          "id": "L3Mu6rCIu58VyhtxeyLXq-res-3",
+          "type": "video",
+          "title": "Intrusion Detection and Intrusion Prevention Systems",
+          "url": "https://www.youtube.com/watch?v=_gHMkEKGwBM"
+        }
+      ]
+    },
+    "bPmjX9IPL9Da0XUApY5UF": {
+      "id": "bPmjX9IPL9Da0XUApY5UF",
+      "slug": "image-scanning",
+      "title": "Image Scanning",
+      "description": "Image scanning is the process of analyzing container images for known vulnerabilities, malware, and configuration issues. It involves examining the layers of the image, including the operating system, installed packages, and application code, against vulnerability databases and security policies. This helps identify potential risks before the image is deployed, ensuring a more secure container environment.",
+      "resources": [
+        {
+          "id": "bPmjX9IPL9Da0XUApY5UF-res-1",
+          "type": "article",
+          "title": "12 container image scanning best practices",
+          "url": "https://www.sysdig.com/learn-cloud-native/12-container-image-scanning-best-practices"
+        },
+        {
+          "id": "bPmjX9IPL9Da0XUApY5UF-res-2",
+          "type": "article",
+          "title": "OWASP DevSecOps Guideline - v-0.2",
+          "url": "https://owasp.org/www-project-devsecops-guideline/latest/02f-Container-Vulnerability-Scanning"
+        },
+        {
+          "id": "bPmjX9IPL9Da0XUApY5UF-res-3",
+          "type": "article",
+          "title": "Top 10 Container Scanning Tools for 2026",
+          "url": "https://www.jit.io/resources/appsec-tools/container-scanning-tools-for-2023"
+        }
+      ]
+    },
+    "V5eQcby9FNcGv68KPj5rH": {
+      "id": "V5eQcby9FNcGv68KPj5rH",
+      "slug": "incident-response",
+      "title": "Incident Response",
+      "description": "Incident Response is the structured approach an organization takes to address and manage the aftermath of a security breach or cyberattack. It involves identifying, analyzing, containing, eradicating, and recovering from incidents to minimize damage and reduce recovery time and costs. The goal is to restore normal operations as quickly and efficiently as possible while preventing similar incidents from occurring in the future.",
+      "resources": [
+        {
+          "id": "V5eQcby9FNcGv68KPj5rH-res-1",
+          "type": "article",
+          "title": "What is incident response?",
+          "url": "https://www.ibm.com/think/topics/incident-response"
+        },
+        {
+          "id": "V5eQcby9FNcGv68KPj5rH-res-2",
+          "type": "article",
+          "title": "What is Incident Response? Process, Frameworks, and Tools",
+          "url": "https://www.bluevoyant.com/knowledge-center/what-is-incident-response-process-frameworks-and-tools"
+        },
+        {
+          "id": "V5eQcby9FNcGv68KPj5rH-res-3",
+          "type": "video",
+          "title": "Cybersecurity IDR: Incident Detection & Response | Google Cybersecurity Certificate",
+          "url": "https://www.youtube.com/watch?v=MsGl6lX-YaI"
+        },
+        {
+          "id": "V5eQcby9FNcGv68KPj5rH-res-4",
+          "type": "video",
+          "title": "3 LEVELS of Cybersecurity Incident Response You NEED To Know",
+          "url": "https://www.youtube.com/watch?v=vhCCo7ioDhA"
+        }
+      ]
+    },
+    "lq4nTMBniaxxwPvH5M77Z": {
+      "id": "lq4nTMBniaxxwPvH5M77Z",
+      "slug": "input-validation-patterns",
+      "title": "Input Validation Patterns",
+      "description": "Input validation patterns are techniques used to ensure that data entered into an application conforms to expected formats and values. These patterns involve checking the length, type, format, and range of user-supplied data before it's processed by the application. By implementing these patterns, developers can prevent malicious or malformed data from causing errors, security vulnerabilities, or unexpected behavior within the system.",
+      "resources": [
+        {
+          "id": "lq4nTMBniaxxwPvH5M77Z-res-1",
+          "type": "article",
+          "title": "Input Validation Cheat Sheet¶",
+          "url": "https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html"
+        },
+        {
+          "id": "lq4nTMBniaxxwPvH5M77Z-res-2",
+          "type": "article",
+          "title": "Input Validation Using Design Patterns",
+          "url": "https://medium.com/henrydchan/input-validation-using-design-patterns-9d7b96f87702"
+        },
+        {
+          "id": "lq4nTMBniaxxwPvH5M77Z-res-3",
+          "type": "article",
+          "title": "Regular Expressions and Input Validation",
+          "url": "https://blog.openreplay.com/regular-expressions-and-input-validations/"
+        }
+      ]
+    },
+    "-X3GTFpg3kzm0cELAngjb": {
+      "id": "-X3GTFpg3kzm0cELAngjb",
+      "slug": "introduction",
+      "title": "DevSecOps",
+      "description": "DevSecOps is an approach to software development that integrates security practices within the DevOps process. It emphasizes shared responsibility for security throughout the entire software lifecycle, from initial design to integration, testing, deployment, and software delivery. The goal is to build security into the development pipeline, rather than adding it as an afterthought, enabling faster and more secure software releases.",
+      "resources": [
+        {
+          "id": "-X3GTFpg3kzm0cELAngjb-res-1",
+          "type": "article",
+          "title": "What is DevSecOps? - Red Hat",
+          "url": "https://www.redhat.com/en/topics/devops/what-is-devsecops"
+        },
+        {
+          "id": "-X3GTFpg3kzm0cELAngjb-res-2",
+          "type": "article",
+          "title": "What is DevSecOps? - AWS",
+          "url": "https://aws.amazon.com/what-is/devsecops/"
+        },
+        {
+          "id": "-X3GTFpg3kzm0cELAngjb-res-3",
+          "type": "course",
+          "title": "DevSecOps",
+          "url": "https://www.skills.google/paths/76"
+        },
+        {
+          "id": "-X3GTFpg3kzm0cELAngjb-res-4",
+          "type": "video",
+          "title": "DevSecOps Course for Beginners – API Security",
+          "url": "https://www.youtube.com/watch?v=JfiWi8RjN-8"
+        },
+        {
+          "id": "-X3GTFpg3kzm0cELAngjb-res-5",
+          "type": "video",
+          "title": "Everything you NEED to know about DevSecOps in 5 Minutes",
+          "url": "https://www.youtube.com/watch?v=DTEaw2-Sa7I"
+        }
+      ]
+    },
+    "PYH_nc4bktIJoCJA6OC5E": {
+      "id": "PYH_nc4bktIJoCJA6OC5E",
+      "slug": "ips",
+      "title": "Intrusion Prevention Systems",
+      "description": "An Intrusion Prevention System (IPS) is a network security tool that monitors network traffic for malicious activity. It actively works to block or prevent detected threats, going beyond simple detection to take automated action. This can include terminating malicious sessions, blocking specific IP addresses, or alerting administrators to potential security breaches.",
+      "resources": [
+        {
+          "id": "PYH_nc4bktIJoCJA6OC5E-res-1",
+          "type": "article",
+          "title": "What is an Intrusion Prevention System?",
+          "url": "https://www.paloaltonetworks.com/cyberpedia/what-is-an-intrusion-prevention-system-ips"
+        },
+        {
+          "id": "PYH_nc4bktIJoCJA6OC5E-res-2",
+          "type": "video",
+          "title": "Intrusion Prevention System (IPS)",
+          "url": "https://www.youtube.com/watch?v=7QuYupuic3Q"
+        }
+      ]
+    },
+    "X-pvSQnfB2W4992_3eOEy": {
+      "id": "X-pvSQnfB2W4992_3eOEy",
+      "slug": "ir-lifecycle",
+      "title": "IR Lifecycle",
+      "description": "The Incident Response (IR) Lifecycle is a structured approach to managing and resolving security incidents. It outlines the key phases involved, from initial preparation and detection to containment, eradication, recovery, and post-incident activity. This lifecycle ensures a consistent and effective response to security breaches, minimizing damage and restoring normal operations as quickly as possible.",
+      "resources": [
+        {
+          "id": "X-pvSQnfB2W4992_3eOEy-res-1",
+          "type": "article",
+          "title": "Get to know the incident response lifecycle",
+          "url": "https://www.atlassian.com/incident-management/incident-response/lifecycle#incident-response-lifecycle"
+        },
+        {
+          "id": "X-pvSQnfB2W4992_3eOEy-res-2",
+          "type": "article",
+          "title": "What is incident response?",
+          "url": "https://www.ibm.com/think/topics/incident-response"
+        },
+        {
+          "id": "X-pvSQnfB2W4992_3eOEy-res-3",
+          "type": "article",
+          "title": "Incident Response Life Cycle",
+          "url": "https://www.devo.com/threat-hunting-guide/incident-response-life-cycle/"
+        },
+        {
+          "id": "X-pvSQnfB2W4992_3eOEy-res-4",
+          "type": "video",
+          "title": "Incident Response Lifecycle | IR Plan | NIST SP 800-61 Security Incident Handling| Cybersecurity",
+          "url": "https://www.youtube.com/watch?v=IRSQEO0koYY"
+        }
+      ]
+    },
+    "JBNiSzYD8DSnKfHoKRjMg": {
+      "id": "JBNiSzYD8DSnKfHoKRjMg",
+      "slug": "iso-27001",
+      "title": "ISO 27001",
+      "description": "ISO 27001 is an international standard that specifies the requirements for establishing, implementing, maintaining, and continually improving an Information Security Management System (ISMS). It provides a framework of policies and procedures that includes all legal, physical, and technical controls involved in an organization's information risk management processes. The standard helps organizations protect their information assets through a systematic approach to security.",
+      "resources": []
+    },
+    "BeUiBY18JHqCKVNtYAHH3": {
+      "id": "BeUiBY18JHqCKVNtYAHH3",
+      "slug": "javascript--nodejs",
+      "title": "JavaScript and Node.js",
+      "description": "JavaScript is a programming language primarily used for front-end web development, making websites interactive. Node.js, on the other hand, allows you to use JavaScript on the back-end, enabling server-side scripting and building scalable network applications. This means you can use JavaScript for both what the user sees and interacts with, and for the server logic that powers the application.",
+      "resources": [
+        {
+          "id": "BeUiBY18JHqCKVNtYAHH3-res-1",
+          "type": "article",
+          "title": "Visit Dedicated JavaScript Roadmap",
+          "url": "https://roadmap.sh/javascript"
+        },
+        {
+          "id": "BeUiBY18JHqCKVNtYAHH3-res-2",
+          "type": "article",
+          "title": "Visit Dedicated Node.js Roadmap",
+          "url": "https://roadmap.sh/nodejs"
+        },
+        {
+          "id": "BeUiBY18JHqCKVNtYAHH3-res-3",
+          "type": "article",
+          "title": "Introduction to Node.js",
+          "url": "https://nodejs.org/en/learn/getting-started/introduction-to-nodejs"
+        },
+        {
+          "id": "BeUiBY18JHqCKVNtYAHH3-res-4",
+          "type": "article",
+          "title": "You Don't Know JS Yet (book series)",
+          "url": "https://github.com/getify/You-Dont-Know-JS"
+        },
+        {
+          "id": "BeUiBY18JHqCKVNtYAHH3-res-5",
+          "type": "article",
+          "title": "The Modern JavaScript Tutorial",
+          "url": "https://javascript.info/"
+        },
+        {
+          "id": "BeUiBY18JHqCKVNtYAHH3-res-6",
+          "type": "article",
+          "title": "JavaScript MDN Docs",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+        },
+        {
+          "id": "BeUiBY18JHqCKVNtYAHH3-res-7",
+          "type": "article",
+          "title": "Eloquent JavaScript textbook",
+          "url": "https://eloquentjavascript.net/"
+        },
+        {
+          "id": "BeUiBY18JHqCKVNtYAHH3-res-8",
+          "type": "video",
+          "title": "JavaScript Crash Course for Beginners",
+          "url": "https://www.youtube.com/watch?v=hdI2bqOjy3c"
+        }
+      ]
+    },
+    "l76yFl4lSXnxg5DBbnnID": {
+      "id": "l76yFl4lSXnxg5DBbnnID",
+      "slug": "key-management-service",
+      "title": "Key Management Service",
+      "description": "A Key Management Service (KMS) is a secure system for creating, storing, and managing cryptographic keys. It provides a centralized platform to control access to these keys, ensuring that sensitive data is protected through encryption. KMS solutions often include features like key rotation, auditing, and integration with other security tools to maintain the integrity and confidentiality of data.",
+      "resources": [
+        {
+          "id": "l76yFl4lSXnxg5DBbnnID-res-1",
+          "type": "article",
+          "title": "AWS Key Management Service",
+          "url": "https://docs.aws.amazon.com/kms/latest/developerguide/overview.html"
+        },
+        {
+          "id": "l76yFl4lSXnxg5DBbnnID-res-2",
+          "type": "article",
+          "title": "Cloud Key Management",
+          "url": "https://cloud.google.com/security/products/security-key-management?hl=en"
+        },
+        {
+          "id": "l76yFl4lSXnxg5DBbnnID-res-3",
+          "type": "video",
+          "title": "What is AWS Key Management Service? | Amazon Web Services",
+          "url": "https://www.youtube.com/watch?v=8Z0wsE2HoSo"
+        },
+        {
+          "id": "l76yFl4lSXnxg5DBbnnID-res-4",
+          "type": "video",
+          "title": "Encryption with Cloud KMS Keys - GCP",
+          "url": "https://www.youtube.com/watch?v=WKZC93y-aWI"
+        }
+      ]
+    },
+    "YveqgdX6eNRFC1zU_q7r1": {
+      "id": "YveqgdX6eNRFC1zU_q7r1",
+      "slug": "kubernetes",
+      "title": "Kubernetes Security",
+      "description": "Kubernetes is a system for managing containerized applications. Securing Kubernetes involves protecting the cluster itself, the containers running within it, and the data they access. This includes controlling access to the Kubernetes API, securing network communication between pods, managing secrets and configurations safely, and ensuring the container images used are free from vulnerabilities.",
+      "resources": [
+        {
+          "id": "YveqgdX6eNRFC1zU_q7r1-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated Kubernetes Roadmap",
+          "url": "https://roadmap.sh/kubernetes"
+        },
+        {
+          "id": "YveqgdX6eNRFC1zU_q7r1-res-2",
+          "type": "article",
+          "title": "Security",
+          "url": "https://kubernetes.io/docs/concepts/security/"
+        },
+        {
+          "id": "YveqgdX6eNRFC1zU_q7r1-res-3",
+          "type": "article",
+          "title": "Kubernetes Security Cheat Sheet¶",
+          "url": "https://cheatsheetseries.owasp.org/cheatsheets/Kubernetes_Security_Cheat_Sheet.html"
+        },
+        {
+          "id": "YveqgdX6eNRFC1zU_q7r1-res-4",
+          "type": "article",
+          "title": "7 Kubernetes Security Scanners to Use in Your DevSecOps Pipeline",
+          "url": "https://thechief.io/c/editorial/7-kubernetes-security-scanners-to-use-in-your-devsecops-pipeline/"
+        },
+        {
+          "id": "YveqgdX6eNRFC1zU_q7r1-res-5",
+          "type": "article",
+          "title": "Starboard: Putting all the Kubernetes Security Pieces into One Place",
+          "url": "https://thenewstack.io/starboard-putting-all-the-kubernetes-security-pieces-into-one-place/"
+        },
+        {
+          "id": "YveqgdX6eNRFC1zU_q7r1-res-6",
+          "type": "article",
+          "title": "Improve Security With Automated Image Scanning Through CI/CD",
+          "url": "https://thenewstack.io/improve-security-with-automated-image-scanning-through-ci-cd/"
+        }
+      ]
+    },
+    "XRnxOPVChkGLQSXX-kUmi": {
+      "id": "XRnxOPVChkGLQSXX-kUmi",
+      "slug": "large-scale-identity-strategy",
+      "title": "Large Scale Identity Strategy",
+      "description": "A large-scale identity strategy defines how an organization manages and controls digital identities across a vast and complex environment. This includes defining policies, processes, and technologies for creating, managing, and authenticating users and devices, ensuring secure access to resources while maintaining scalability and usability. It addresses challenges like diverse user populations, multiple applications and systems, and the need for consistent security controls across the entire organization.",
+      "resources": [
+        {
+          "id": "XRnxOPVChkGLQSXX-kUmi-res-1",
+          "type": "article",
+          "title": "Securing Identities in 2025 – The Future of Identity Governance",
+          "url": "https://www.lumos.com/blog/future-of-identity-governance"
+        },
+        {
+          "id": "XRnxOPVChkGLQSXX-kUmi-res-2",
+          "type": "article",
+          "title": "How modern identity strategies shape enterprise security",
+          "url": "https://www.okta.com/blog/industry-insights/how-modern-identity-strategies-shape-enterprise-security/"
+        },
+        {
+          "id": "XRnxOPVChkGLQSXX-kUmi-res-3",
+          "type": "article",
+          "title": "Identity Governance and Identity Management",
+          "url": "https://identitymanagementinstitute.org/identity-governance-and-identity-management/"
+        },
+        {
+          "id": "XRnxOPVChkGLQSXX-kUmi-res-4",
+          "type": "article",
+          "title": "What is Identity Governance and Administration (IGA)?",
+          "url": "https://www.sailpoint.com/identity-library/identity-governance"
+        }
+      ]
+    },
+    "v5FGKQc-_7NYEsWjmTEuq": {
+      "id": "v5FGKQc-_7NYEsWjmTEuq",
+      "slug": "learn-a-programming-language",
+      "title": "Programming Languages",
+      "description": "Programming languages are the fundamental tools used to build and automate software systems. In DevSecOps, knowing how to code is important because it allows you to analyze code for vulnerabilities, automate security tasks, and integrate security checks directly into the development pipeline. Knowing the languages your applications are built with enables you to proactively identify and address security risks early in the software development lifecycle.",
+      "resources": []
+    },
+    "rK-RToN5JRcclYl23TyYz": {
+      "id": "rK-RToN5JRcclYl23TyYz",
+      "slug": "least-privilege",
+      "title": "Least Privilege",
+      "description": "Least privilege is the concept of granting users or processes only the minimum level of access necessary to perform their required tasks. This means limiting access rights to only what is strictly needed, avoiding broad or unnecessary permissions. The goal is to reduce the potential damage that can result from accidental or malicious actions, such as data breaches or system compromises.",
+      "resources": [
+        {
+          "id": "rK-RToN5JRcclYl23TyYz-res-1",
+          "type": "article",
+          "title": "What Is the Principle of Least Privilege?",
+          "url": "https://www.aquasec.com/cloud-native-academy/application-security/the-principle-of-least-privilege-polp/"
+        },
+        {
+          "id": "rK-RToN5JRcclYl23TyYz-res-2",
+          "type": "article",
+          "title": "Intro to The Principle of Least Privilege (POLP)",
+          "url": "https://www.crowdstrike.com/en-us/cybersecurity-101/identity-protection/principle-of-least-privilege-polp/"
+        },
+        {
+          "id": "rK-RToN5JRcclYl23TyYz-res-3",
+          "type": "article",
+          "title": "Six ways to apply the principle of least privilege to your Active Directory",
+          "url": "https://specopssoft.com/blog/six-ways-to-apply-the-principle-of-least-privilege-to-your-active-directory/"
+        },
+        {
+          "id": "rK-RToN5JRcclYl23TyYz-res-4",
+          "type": "video",
+          "title": "What is the Principle of Least Privilege?",
+          "url": "https://www.youtube.com/watch?v=8GZ6516Kao4"
+        }
+      ]
+    },
+    "_Kr2_N8021tsZfa0wZ3Vu": {
+      "id": "_Kr2_N8021tsZfa0wZ3Vu",
+      "slug": "log-analysis",
+      "title": "Log Analysis",
+      "description": "Log analysis involves collecting, reviewing, and interpreting computer-generated records (logs) to identify patterns, anomalies, and potential security threats. These logs contain information about system events, user activities, and application behavior, providing valuable insights into the overall health and security posture of an environment. By examining log data, organizations can detect suspicious activities, troubleshoot issues, and improve their security defenses.",
+      "resources": [
+        {
+          "id": "_Kr2_N8021tsZfa0wZ3Vu-res-1",
+          "type": "article",
+          "title": "What is log analysis?",
+          "url": "https://www.ibm.com/think/topics/log-analysis"
+        },
+        {
+          "id": "_Kr2_N8021tsZfa0wZ3Vu-res-2",
+          "type": "article",
+          "title": "Log Analysis: A Complete Introduction",
+          "url": "https://www.splunk.com/en_us/blog/learn/log-analysis.html"
+        },
+        {
+          "id": "_Kr2_N8021tsZfa0wZ3Vu-res-3",
+          "type": "article",
+          "title": "Log Management: What DevOps Teams Need to Know",
+          "url": "https://devops.com/log-management-what-devops-teams-need-to-know/"
+        },
+        {
+          "id": "_Kr2_N8021tsZfa0wZ3Vu-res-4",
+          "type": "article",
+          "title": "Introduction to Logs Management",
+          "url": "https://sematext.com/guides/log-management"
+        },
+        {
+          "id": "_Kr2_N8021tsZfa0wZ3Vu-res-5",
+          "type": "video",
+          "title": "How to MASTER Logs as a BEGINNER in Cybersecurity",
+          "url": "https://www.youtube.com/watch?v=GpG19jOYQVo&t=66s"
+        }
+      ]
+    },
+    "MMTCo21ap15MrPV64vKka": {
+      "id": "MMTCo21ap15MrPV64vKka",
+      "slug": "monitoring",
+      "title": "Monitoring",
+      "description": "Monitoring involves the systematic collection and analysis of data to track the performance, health, and security of systems and applications. It provides real-time visibility into the operational state, allowing teams to identify anomalies, detect potential issues, and proactively address them before they impact users or the overall system stability. This process typically involves setting up alerts and dashboards to visualize key metrics and logs, enabling quick response and informed decision-making.",
+      "resources": [
+        {
+          "id": "MMTCo21ap15MrPV64vKka-res-1",
+          "type": "article",
+          "title": "What’s IT Monitoring? IT Systems Monitoring Explained",
+          "url": "https://www.splunk.com/en_us/blog/learn/it-monitoring.html"
+        },
+        {
+          "id": "MMTCo21ap15MrPV64vKka-res-2",
+          "type": "article",
+          "title": "IT Monitoring: An Introductory Guide With 5 Monitoring Strategies",
+          "url": "https://www.suse.com/c/observability-it-monitoring-an-introductory-guide-with-5-monitoring-strategies/"
+        }
+      ]
+    },
+    "eALB73XbtnFF3-PYcLcZq": {
+      "id": "eALB73XbtnFF3-PYcLcZq",
+      "slug": "multi-region-security-planning",
+      "title": "Multi-Region Security Planning",
+      "description": "Multi-Region Security Planning involves designing and implementing security measures across multiple geographical locations where an application or service is deployed. This includes considering factors like data residency requirements, regional compliance regulations, and the potential for geographically isolated failures or attacks. The goal is to ensure consistent security posture and resilience, regardless of the region, while also optimizing for performance and cost.",
+      "resources": [
+        {
+          "id": "eALB73XbtnFF3-PYcLcZq-res-1",
+          "type": "article",
+          "title": "7 Reasons to Have a Multi-Region Application Architecture",
+          "url": "https://controlplane.com/community-blog/post/multi-region-application-architecture"
+        },
+        {
+          "id": "eALB73XbtnFF3-PYcLcZq-res-2",
+          "type": "article",
+          "title": "Day 9 : System Design concept : Multi-Region Deployment",
+          "url": "https://medium.com/@shivanimutke2501/multi-region-deployments-3ea97c59d326"
+        },
+        {
+          "id": "eALB73XbtnFF3-PYcLcZq-res-3",
+          "type": "article",
+          "title": "How to build a multi-Region AWS Security Hub analytic pipeline and visualize Security Hub data",
+          "url": "https://aws.amazon.com/blogs/security/how-to-build-a-multi-region-aws-security-hub-analytic-pipeline/"
+        },
+        {
+          "id": "eALB73XbtnFF3-PYcLcZq-res-4",
+          "type": "video",
+          "title": "AWS re:Invent 2022 - Global security at maximum velocity: Multi-Region and hybrid DevSecOps (PRT090)",
+          "url": "https://www.youtube.com/watch?v=l3jLJq8bt1E"
+        }
+      ]
+    },
+    "EqbzAy56Tu8asKNFzuti_": {
+      "id": "EqbzAy56Tu8asKNFzuti_",
+      "slug": "nessus",
+      "title": "Nessus",
+      "description": "Nessus is a widely used vulnerability scanner that helps identify security weaknesses in computer systems, networks, and applications. It works by performing a variety of tests, including port scanning, service enumeration, and vulnerability identification, to detect potential security flaws. Nessus provides detailed reports on identified vulnerabilities, along with recommendations for remediation.",
+      "resources": [
+        {
+          "id": "EqbzAy56Tu8asKNFzuti_-res-1",
+          "type": "article",
+          "title": "Nessus",
+          "url": "https://www.tenable.com/products/nessus"
+        },
+        {
+          "id": "EqbzAy56Tu8asKNFzuti_-res-2",
+          "type": "article",
+          "title": "Get Started with Tenable Nessus",
+          "url": "https://docs.tenable.com/nessus/Content/GetStarted.htm"
+        },
+        {
+          "id": "EqbzAy56Tu8asKNFzuti_-res-3",
+          "type": "article",
+          "title": "Nessus vulnerability scanner: Beginner’s guide",
+          "url": "https://www.hackercoolmagazine.com/nessus-vulnerability-scanner-beginners-guide/?srsltid=AfmBOooPg3-kiYjXCcYQ3uyz0AwmLHnUpJ4Bs2u77HmhoDrA4EJKe7Nz"
+        },
+        {
+          "id": "EqbzAy56Tu8asKNFzuti_-res-4",
+          "type": "article",
+          "title": "Vulnerability Scanning with Nessus: A Practical Guide",
+          "url": "https://www.infosectrain.com/blog/vulnerability-scanning-with-nessus-a-practical-guide/"
+        },
+        {
+          "id": "EqbzAy56Tu8asKNFzuti_-res-5",
+          "type": "video",
+          "title": "Nessus Vulnerability Scanner Tutorial (Cyber Security Tools)",
+          "url": "https://www.youtube.com/watch?v=x87gbgQD4eg"
+        }
+      ]
+    },
+    "Cr0VAtdu0ZYPOkUU_7vjR": {
+      "id": "Cr0VAtdu0ZYPOkUU_7vjR",
+      "slug": "network-segmentation",
+      "title": "Network Segmentation",
+      "description": "Network segmentation divides a network into smaller, isolated segments or subnetworks. This is done to improve security, performance, and manageability. By isolating sensitive data and systems, segmentation limits the impact of security breaches, reduces the attack surface, and simplifies compliance efforts.",
+      "resources": [
+        {
+          "id": "Cr0VAtdu0ZYPOkUU_7vjR-res-1",
+          "type": "article",
+          "title": "What Is Network Segmentation? - Cisco",
+          "url": "https://www.cisco.com/site/us/en/learn/topics/security/what-is-network-segmentation.html"
+        },
+        {
+          "id": "Cr0VAtdu0ZYPOkUU_7vjR-res-2",
+          "type": "article",
+          "title": "What Is Network Segmentation?",
+          "url": "https://www.paloaltonetworks.com/cyberpedia/what-is-network-segmentation"
+        },
+        {
+          "id": "Cr0VAtdu0ZYPOkUU_7vjR-res-3",
+          "type": "video",
+          "title": "What is Network Segmentation?",
+          "url": "https://www.youtube.com/watch?v=ouvqTP3RajU"
+        }
+      ]
+    },
+    "84HlHz8bHCDtAPGpq7LpX": {
+      "id": "84HlHz8bHCDtAPGpq7LpX",
+      "slug": "networking-basics",
+      "title": "Networking Basics",
+      "description": "Networking involves understanding how devices communicate with each other over a network. This includes concepts like IP addresses, which uniquely identify devices; protocols like TCP/IP, which govern data transmission; and network topologies, which describe the physical or logical arrangement of network components. Understanding these fundamentals is crucial for configuring, troubleshooting, and securing network infrastructure.",
+      "resources": [
+        {
+          "id": "84HlHz8bHCDtAPGpq7LpX-res-1",
+          "type": "article",
+          "title": "Khan Academy - Networking",
+          "url": "ttps://www.khanacademy.org/computing/code-org/computers-and-the-internet"
+        },
+        {
+          "id": "84HlHz8bHCDtAPGpq7LpX-res-2",
+          "type": "video",
+          "title": "Computer Networking Course - Network Engineering",
+          "url": "https://www.youtube.com/watch?v=qiQR5rTSshw"
+        },
+        {
+          "id": "84HlHz8bHCDtAPGpq7LpX-res-3",
+          "type": "video",
+          "title": "Networking Video Series (21 videos)",
+          "url": "https://www.youtube.com/playlist?list=PLEbnTDJUr_IegfoqO4iPnPYQui46QqT0j"
+        }
+      ]
+    },
+    "yMb0-A55r1KEsLntOmp5F": {
+      "id": "yMb0-A55r1KEsLntOmp5F",
+      "slug": "nist",
+      "title": "NIST Cybersecurity Framework",
+      "description": "The NIST Cybersecurity Framework (CSF) is a voluntary framework primarily intended for organizations to manage and reduce cybersecurity risks. It provides a set of standards, guidelines, and best practices to help organizations assess their current cybersecurity posture, identify areas for improvement, and develop a roadmap for enhancing their security capabilities. The framework is structured around five core functions: Identify, Protect, Detect, Respond, and Recover, which are further broken down into categories and subcategories to provide a detailed and actionable approach to cybersecurity risk management.",
+      "resources": []
+    },
+    "JyXv5vPHCjSBc0J-PpUEV": {
+      "id": "JyXv5vPHCjSBc0J-PpUEV",
+      "slug": "nmap-basics",
+      "title": "Nmap Basics",
+      "description": "Nmap (Network Mapper) is a free and open-source utility used for network discovery and security auditing. It's used to discover hosts and services on a computer network by sending packets and analyzing the responses. Nmap provides information about host availability, operating systems, firewall status, and other network characteristics.",
+      "resources": [
+        {
+          "id": "JyXv5vPHCjSBc0J-PpUEV-res-1",
+          "type": "article",
+          "title": "NMAP",
+          "url": "https://nmap.org/"
+        },
+        {
+          "id": "JyXv5vPHCjSBc0J-PpUEV-res-2",
+          "type": "article",
+          "title": "NMAP Cheat Sheet",
+          "url": "https://www.tutorialspoint.com/nmap-cheat-sheet"
+        },
+        {
+          "id": "JyXv5vPHCjSBc0J-PpUEV-res-3",
+          "type": "video",
+          "title": "Nmap Tutorial to find Network Vulnerabilities",
+          "url": "https://www.youtube.com/watch?v=4t4kBkMsDbQ"
+        },
+        {
+          "id": "JyXv5vPHCjSBc0J-PpUEV-res-4",
+          "type": "video",
+          "title": "NMAP Full Guide (You will never ask about NMAP again)",
+          "url": "https://www.youtube.com/watch?v=JHAMj2vN2oU&t=33s"
+        }
+      ]
+    },
+    "0Tci_Ks8jXisin90VqB_D": {
+      "id": "0Tci_Ks8jXisin90VqB_D",
+      "slug": "nmap",
+      "title": "Nmap",
+      "description": "Nmap (Network Mapper) is a free and open-source utility used for network discovery and security auditing. It's designed to scan networks to determine available hosts, the services they offer, the operating systems they run, packet filters/firewalls, and many other characteristics. Nmap works by sending packets to target hosts and analyzing the responses.",
+      "resources": [
+        {
+          "id": "0Tci_Ks8jXisin90VqB_D-res-1",
+          "type": "article",
+          "title": "NMAP",
+          "url": "https://nmap.org/"
+        },
+        {
+          "id": "0Tci_Ks8jXisin90VqB_D-res-2",
+          "type": "article",
+          "title": "NMAP Cheat Sheet",
+          "url": "https://www.tutorialspoint.com/nmap-cheat-sheet"
+        },
+        {
+          "id": "0Tci_Ks8jXisin90VqB_D-res-3",
+          "type": "video",
+          "title": "Nmap Tutorial to find Network Vulnerabilities",
+          "url": "https://www.youtube.com/watch?v=4t4kBkMsDbQ"
+        }
+      ]
+    },
+    "mIcs0fp3T9IwwAvgYyKnY": {
+      "id": "mIcs0fp3T9IwwAvgYyKnY",
+      "slug": "openvas",
+      "title": "OpenVAS",
+      "description": "OpenVAS (Open Vulnerability Assessment System) is a comprehensive vulnerability scanner. It's a framework of several services and tools offering vulnerability management. OpenVAS helps identify security weaknesses in systems and networks by performing tests against known vulnerabilities. It's often used for vulnerability assessments and penetration testing.",
+      "resources": [
+        {
+          "id": "mIcs0fp3T9IwwAvgYyKnY-res-1",
+          "type": "article",
+          "title": "OpenVAS",
+          "url": "https://www.openvas.org/"
+        },
+        {
+          "id": "mIcs0fp3T9IwwAvgYyKnY-res-2",
+          "type": "article",
+          "title": "openvas",
+          "url": "https://github.com/greenbone/openvas-scanner"
+        },
+        {
+          "id": "mIcs0fp3T9IwwAvgYyKnY-res-3",
+          "type": "article",
+          "title": "OpenVAS Tutorial and Tips",
+          "url": "https://hackertarget.com/openvas-tutorial-tips/"
+        },
+        {
+          "id": "mIcs0fp3T9IwwAvgYyKnY-res-4",
+          "type": "video",
+          "title": "Complete Beginner OpenVAS Vulnerability Scanning Tutorial - Cyber Security // Kali Linux",
+          "url": "https://www.youtube.com/watch?v=LGh2SetiKaY"
+        }
+      ]
+    },
+    "igGASa7AknApWtq57v2Qx": {
+      "id": "igGASa7AknApWtq57v2Qx",
+      "slug": "owasp-top-10",
+      "title": "OWASP Top 10",
+      "description": "The OWASP Top 10 is a standard awareness document for developers and web application security. It represents a broad consensus about the most critical security risks to web applications. It's a list that is updated periodically to reflect the changing threat landscape and provides actionable guidance on how to mitigate these risks. The list includes vulnerabilities like injection flaws, broken authentication, and security misconfigurations.",
+      "resources": [
+        {
+          "id": "igGASa7AknApWtq57v2Qx-res-1",
+          "type": "article",
+          "title": "OWASP Top 10",
+          "url": "https://owasp.org/www-project-top-ten/"
+        },
+        {
+          "id": "igGASa7AknApWtq57v2Qx-res-2",
+          "type": "article",
+          "title": "What is the OWASP Top 10?",
+          "url": "https://www.cloudflare.com/learning/security/threats/owasp-top-10/"
+        }
+      ]
+    },
+    "6A_3p3CzwxFVjJaXahEVr": {
+      "id": "6A_3p3CzwxFVjJaXahEVr",
+      "slug": "pasta",
+      "title": "PASTA",
+      "description": "PASTA (Process for Attack Simulation and Threat Analysis) is a risk-centric threat modeling methodology. It focuses on aligning security with business objectives by understanding the potential impact of threats on the organization's goals. It involves a seven-stage process that includes defining objectives, technical risk analysis, application decomposition, threat analysis, vulnerability analysis, attack modeling, and risk & impact analysis.",
+      "resources": [
+        {
+          "id": "6A_3p3CzwxFVjJaXahEVr-res-1",
+          "type": "article",
+          "title": "PASTA Threat Modeling",
+          "url": "https://threat-modeling.com/pasta-threat-modeling/"
+        },
+        {
+          "id": "6A_3p3CzwxFVjJaXahEVr-res-2",
+          "type": "article",
+          "title": "Process for Attack Simulation & Threat Analysis",
+          "url": "https://cdn2.hubspot.net/hubfs/4598121/Content%20PDFs/VerSprite-PASTA-Threat-Modeling-Process-for-Attack-Simulation-Threat-Analysis.pdf"
+        },
+        {
+          "id": "6A_3p3CzwxFVjJaXahEVr-res-3",
+          "type": "video",
+          "title": "PASTA Threat Modeling for Cybersecurity | Threat Modeling Example",
+          "url": "https://www.youtube.com/watch?v=s21aI-jqIVM&t=144s"
+        }
+      ]
+    },
+    "nEYMyTKfRDqA2Uc1tCwxv": {
+      "id": "nEYMyTKfRDqA2Uc1tCwxv",
+      "slug": "pki-design-and-failover",
+      "title": "PKI Design and Failover",
+      "description": "Public Key Infrastructure (PKI) is a system for creating, managing, distributing, using, storing, and revoking digital certificates. These certificates are used to verify the identity of users, devices, and services, enabling secure communication and data exchange. PKI design involves selecting appropriate certificate authorities, defining certificate policies, and establishing procedures for key management. Failover mechanisms ensure the continued availability of PKI services in the event of a system failure, preventing disruptions to security and operations.",
+      "resources": []
+    },
+    "91lxZEOZ6KF3tY9id2Au8": {
+      "id": "91lxZEOZ6KF3tY9id2Au8",
+      "slug": "powershell",
+      "title": "PowerShell",
+      "description": "PowerShell is a cross-platform task automation and configuration management framework, consisting of a command-line shell and associated scripting language. It allows users to automate administrative tasks on both local and remote Windows, Linux, and macOS systems. PowerShell uses cmdlets (pronounced \"command-lets\") to perform specific actions, and these cmdlets can be combined into scripts to automate complex processes.",
+      "resources": [
+        {
+          "id": "91lxZEOZ6KF3tY9id2Au8-res-1",
+          "type": "article",
+          "title": "What is PowerShell?",
+          "url": "https://learn.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7.5"
+        },
+        {
+          "id": "91lxZEOZ6KF3tY9id2Au8-res-2",
+          "type": "article",
+          "title": "PowerShell Docs",
+          "url": "https://learn.microsoft.com/en-us/powershell/"
+        },
+        {
+          "id": "91lxZEOZ6KF3tY9id2Au8-res-3",
+          "type": "article",
+          "title": "Powershell",
+          "url": "https://github.com/PowerShell/PowerShell"
+        },
+        {
+          "id": "91lxZEOZ6KF3tY9id2Au8-res-4",
+          "type": "video",
+          "title": "Learn PowerShell in Less Than 2 Hours",
+          "url": "https://www.youtube.com/watch?v=ZOoCaWyifmI"
+        },
+        {
+          "id": "91lxZEOZ6KF3tY9id2Au8-res-5",
+          "type": "video",
+          "title": "PowerShell Made Easy",
+          "url": "https://www.youtube.com/watch?v=b7SGPchYRn0"
+        }
+      ]
+    },
+    "txcfATz3k89CedFrSZMWj": {
+      "id": "txcfATz3k89CedFrSZMWj",
+      "slug": "python",
+      "title": "Python in DevSecOps",
+      "description": "Python is a versatile programming language known for its readability and extensive libraries. It's used to automate tasks, build tools, and analyze data. Its simple syntax makes it easier to learn and use, while its powerful libraries allow for complex operations. This makes it a valuable asset for automating security tasks, integrating security tools, and analyzing security data within a DevSecOps environment.",
+      "resources": [
+        {
+          "id": "txcfATz3k89CedFrSZMWj-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated Python Roadmap",
+          "url": "https://roadmap.sh/python"
+        },
+        {
+          "id": "txcfATz3k89CedFrSZMWj-res-2",
+          "type": "article",
+          "title": "Python Website",
+          "url": "https://www.python.org/"
+        },
+        {
+          "id": "txcfATz3k89CedFrSZMWj-res-3",
+          "type": "article",
+          "title": "Python - Wiki",
+          "url": "https://en.wikipedia.org/wiki/Python_(programming_language"
+        },
+        {
+          "id": "txcfATz3k89CedFrSZMWj-res-4",
+          "type": "article",
+          "title": "Tutorial Series: How to Code in Python",
+          "url": "https://www.digitalocean.com/community/tutorials/how-to-write-your-first-python-3-program"
+        },
+        {
+          "id": "txcfATz3k89CedFrSZMWj-res-5",
+          "type": "article",
+          "title": "Google's Python Class",
+          "url": "https://developers.google.com/edu/python"
+        },
+        {
+          "id": "txcfATz3k89CedFrSZMWj-res-6",
+          "type": "video",
+          "title": "Learn Python - Full Course",
+          "url": "https://www.youtube.com/watch?v=4M87qBgpafk"
+        }
+      ]
+    },
+    "Pkud7rAzdV5asF5aGAq7z": {
+      "id": "Pkud7rAzdV5asF5aGAq7z",
+      "slug": "qualys",
+      "title": "Qualys",
+      "description": "Qualys is a cloud-based platform that provides a suite of security and compliance solutions. It helps organizations identify vulnerabilities in their IT infrastructure, including servers, applications, and networks. Qualys offers various scanning capabilities, such as vulnerability management, web application scanning, and compliance monitoring, all accessible through a centralized platform.",
+      "resources": [
+        {
+          "id": "Pkud7rAzdV5asF5aGAq7z-res-1",
+          "type": "article",
+          "title": "Qualys",
+          "url": "https://www.qualys.com/"
+        },
+        {
+          "id": "Pkud7rAzdV5asF5aGAq7z-res-2",
+          "type": "article",
+          "title": "Qualys VMDR Getting Started Guide",
+          "url": "https://docs.qualys.com/en/vmdr/getting-started-guide/vmdr/getting_started_guide.htm"
+        },
+        {
+          "id": "Pkud7rAzdV5asF5aGAq7z-res-3",
+          "type": "article",
+          "title": "Training Videos",
+          "url": "https://docs.qualys.com/en/pm/latest/other_resources/training_videos.htm"
+        },
+        {
+          "id": "Pkud7rAzdV5asF5aGAq7z-res-4",
+          "type": "video",
+          "title": "Learn Qualys Vulnerability Management (Home Lab)",
+          "url": "https://www.youtube.com/watch?v=l5At5WDj7v0&t=90s"
+        },
+        {
+          "id": "Pkud7rAzdV5asF5aGAq7z-res-5",
+          "type": "video",
+          "title": "Qualys File Integrity Monitoring (FIM) Overview",
+          "url": "https://www.youtube.com/watch?v=533YWyWk8X8&list=PL86wiCAX5vmQIninZod7FzuGBWVbb0vFv"
+        }
+      ]
+    },
+    "6Q2VIdeSuBZzo7c1qnYLG": {
+      "id": "6Q2VIdeSuBZzo7c1qnYLG",
+      "slug": "response-strategy",
+      "title": "Response Strategy",
+      "description": "A response strategy outlines the planned actions an organization will take when a security incident occurs. It defines roles, responsibilities, communication channels, and procedures for identifying, containing, eradicating, and recovering from security breaches. A well-defined strategy ensures a coordinated and effective response, minimizing damage and restoring normal operations as quickly as possible.",
+      "resources": []
+    },
+    "V97S_0PrVw3jjHnmcxDgJ": {
+      "id": "V97S_0PrVw3jjHnmcxDgJ",
+      "slug": "risk-quantification",
+      "title": "Risk Quantification",
+      "description": "Risk quantification is the process of assigning measurable values (often monetary) to the potential impact of identified risks. It involves analyzing the probability of a risk occurring and the potential damage it could cause to an organization's assets, operations, or reputation. This allows for a more objective comparison of different risks and helps prioritize mitigation efforts based on their potential financial or operational impact.",
+      "resources": []
+    },
+    "9Tea1ge_l1fls0fyPxMPG": {
+      "id": "9Tea1ge_l1fls0fyPxMPG",
+      "slug": "role-based-access",
+      "title": "Role-Based Access Control",
+      "description": "Role-Based Access Control (RBAC) is a method of regulating access to computer or network resources based on the roles of individual users within an organization. It assigns permissions and privileges to roles, and then assigns users to those roles, simplifying access management and improving security by ensuring users only have the access necessary to perform their job functions.",
+      "resources": [
+        {
+          "id": "9Tea1ge_l1fls0fyPxMPG-res-1",
+          "type": "article",
+          "title": "Role-Based Access Control",
+          "url": "https://auth0.com/docs/manage-users/access-control/rbac"
+        },
+        {
+          "id": "9Tea1ge_l1fls0fyPxMPG-res-2",
+          "type": "article",
+          "title": "What is Role-based Access Control (RBAC)?",
+          "url": "https://www.redhat.com/en/topics/security/what-is-role-based-access-control"
+        },
+        {
+          "id": "9Tea1ge_l1fls0fyPxMPG-res-3",
+          "type": "video",
+          "title": "Role-based Access Control (RBAC) vs. Attribute-based Access Control (ABAC)",
+          "url": "https://www.youtube.com/watch?v=rvZ35YW4t5k"
+        }
+      ]
+    },
+    "VyzLkdcLgxfSSFuUS0xO_": {
+      "id": "VyzLkdcLgxfSSFuUS0xO_",
+      "slug": "root-cause-analysis",
+      "title": "Root Cause Analysis",
+      "description": "Root Cause Analysis (RCA) is a systematic process for identifying the fundamental reasons behind a problem or incident. It goes beyond addressing the immediate symptoms to uncover the underlying factors that led to the issue. The goal of RCA is to implement corrective actions that prevent the problem from recurring in the future.",
+      "resources": [
+        {
+          "id": "VyzLkdcLgxfSSFuUS0xO_-res-1",
+          "type": "article",
+          "title": "What is root cause analysis (RCA) in software development?",
+          "url": "https://www.elastic.co/what-is/root-cause-analysis"
+        },
+        {
+          "id": "VyzLkdcLgxfSSFuUS0xO_-res-2",
+          "type": "video",
+          "title": "hat is Root Cause Analysis (RCA)?",
+          "url": "https://www.youtube.com/watch?v=7t3lTYEd_PM"
+        }
+      ]
+    },
+    "nKthK-OsFO0TGwptD-Dme": {
+      "id": "nKthK-OsFO0TGwptD-Dme",
+      "slug": "ruby",
+      "title": "Ruby in DevSecOps",
+      "description": "Ruby is a dynamic, open-source programming language known for its simplicity and readability. Its flexible syntax and powerful features make it useful for automating tasks, building tools, and scripting, which are all valuable in a DevSecOps environment. Ruby's extensive ecosystem of gems (libraries) provides pre-built solutions for various security and automation needs, allowing teams to quickly implement and integrate security practices into their development pipelines.",
+      "resources": [
+        {
+          "id": "nKthK-OsFO0TGwptD-Dme-res-1",
+          "type": "article",
+          "title": "Ruby",
+          "url": "https://www.ruby-lang.org/en/"
+        },
+        {
+          "id": "nKthK-OsFO0TGwptD-Dme-res-2",
+          "type": "article",
+          "title": "Ruby Lang",
+          "url": "https://github.com/ruby/ruby"
+        },
+        {
+          "id": "nKthK-OsFO0TGwptD-Dme-res-3",
+          "type": "video",
+          "title": "Ruby Programming Language - Full Course",
+          "url": "https://www.youtube.com/watch?app=desktop&v=t_ispmWmdjY&t=0s"
+        }
+      ]
+    },
+    "V_-gY34XcyIqPcLKtDJZr": {
+      "id": "V_-gY34XcyIqPcLKtDJZr",
+      "slug": "rust",
+      "title": "Rust",
+      "description": "Rust is a systems programming language focused on safety, speed, and concurrency. Its memory safety features, achieved through a borrow checker and ownership system, help prevent common vulnerabilities like buffer overflows and data races. This makes Rust a valuable tool for building secure and reliable software components within a DevSecOps environment, especially for performance-critical applications and infrastructure tools.",
+      "resources": [
+        {
+          "id": "V_-gY34XcyIqPcLKtDJZr-res-1",
+          "type": "article",
+          "title": "Visit de Dedicated Rust Roadmap",
+          "url": "https://roadmap.sh/rust"
+        },
+        {
+          "id": "V_-gY34XcyIqPcLKtDJZr-res-2",
+          "type": "article",
+          "title": "Rust Programming Language",
+          "url": "https://rust-lang.org/"
+        },
+        {
+          "id": "V_-gY34XcyIqPcLKtDJZr-res-3",
+          "type": "article",
+          "title": "Rust by Example",
+          "url": "https://doc.rust-lang.org/stable/rust-by-example/index.html#rust-by-example"
+        },
+        {
+          "id": "V_-gY34XcyIqPcLKtDJZr-res-4",
+          "type": "article",
+          "title": "Rust Book",
+          "url": "https://edu.anarcho-copy.org/Programming%20Languages/Rust/rust-programming-language-steve-klabnik.pdf"
+        },
+        {
+          "id": "V_-gY34XcyIqPcLKtDJZr-res-5",
+          "type": "article",
+          "title": "Rust Book Interactive",
+          "url": "https://rust-book.cs.brown.edu/experiment-intro.html"
+        }
+      ]
+    },
+    "MF8AYjKun5SHtumTyuurJ": {
+      "id": "MF8AYjKun5SHtumTyuurJ",
+      "slug": "sboms",
+      "title": "SBOMs",
+      "description": "A Software Bill of Materials (SBOM) is a comprehensive inventory of all components, libraries, and dependencies used in building a software application. It's essentially a list that details the ingredients of your software, much like a nutrition label for food. This allows developers and security teams to understand the composition of their software and identify potential vulnerabilities or licensing issues associated with those components.",
+      "resources": [
+        {
+          "id": "MF8AYjKun5SHtumTyuurJ-res-1",
+          "type": "article",
+          "title": "Software Bill of Materials (SBOM)",
+          "url": "https://www.cisa.gov/sbom"
+        },
+        {
+          "id": "MF8AYjKun5SHtumTyuurJ-res-2",
+          "type": "article",
+          "title": "The ultimate guide to SBOMs",
+          "url": "https://about.gitlab.com/blog/the-ultimate-guide-to-sboms/"
+        },
+        {
+          "id": "MF8AYjKun5SHtumTyuurJ-res-3",
+          "type": "article",
+          "title": "What Is a Software Bill of Materials (SBOM)?",
+          "url": "https://www.paloaltonetworks.com/cyberpedia/what-is-software-bill-materials-sbom"
+        },
+        {
+          "id": "MF8AYjKun5SHtumTyuurJ-res-4",
+          "type": "video",
+          "title": "Thinking Elixir Podcast 245: Supply Chain Security and SBoMs",
+          "url": "https://www.youtube.com/watch?v=jYkV9n4WW-Y"
+        },
+        {
+          "id": "MF8AYjKun5SHtumTyuurJ-res-5",
+          "type": "video",
+          "title": "The Rise of Software Bill of Materials (SBOMs) – A Growing Necessity",
+          "url": "https://www.youtube.com/watch?v=Vqn9P6gEM5I"
+        }
+      ]
+    },
+    "wjJPzrFJBNYOD3SJLzW2M": {
+      "id": "wjJPzrFJBNYOD3SJLzW2M",
+      "slug": "scripting-knowledge",
+      "title": "Scripting Knowledge",
+      "description": "Scripting involves the ability to write and understand scripts, which are sets of instructions executed by a computer. These scripts automate tasks, configure systems, and manage infrastructure. They are typically written in languages like Python or shells like Bash or PowerShell. They allow for efficient and repeatable execution of complex operations.",
+      "resources": [
+        {
+          "id": "wjJPzrFJBNYOD3SJLzW2M-res-1",
+          "type": "article",
+          "title": "Scripting language - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Scripting_language"
+        },
+        {
+          "id": "wjJPzrFJBNYOD3SJLzW2M-res-2",
+          "type": "article",
+          "title": "What is scripting?",
+          "url": "https://coralogix.com/blog/what-is-scripting/"
+        },
+        {
+          "id": "wjJPzrFJBNYOD3SJLzW2M-res-3",
+          "type": "video",
+          "title": "What's the difference between Programming and Scripting?",
+          "url": "https://www.youtube.com/watch?v=7-0iBZxNq74"
+        },
+        {
+          "id": "wjJPzrFJBNYOD3SJLzW2M-res-4",
+          "type": "video",
+          "title": "ash Scripting Tutorial – Linux Shell Script and Command Line for Beginners",
+          "url": "https://www.freecodecamp.org/news/bash-scripting-tutorial-linux-shell-script-and-command-line-for-beginners/"
+        },
+        {
+          "id": "wjJPzrFJBNYOD3SJLzW2M-res-5",
+          "type": "video",
+          "title": "Bash Scripting on Linux",
+          "url": "https://www.youtube.com/playlist?list=PLT98CRl2KxKGj-VKtApD8-zCqSaN2mD4w"
+        }
+      ]
+    },
+    "aMu0e6xQ3Rak44F_I7Ish": {
+      "id": "aMu0e6xQ3Rak44F_I7Ish",
+      "slug": "secure-api-design",
+      "title": "Secure API Design",
+      "description": "Secure API design focuses on building application programming interfaces (APIs) that are resilient to attacks and protect sensitive data. This involves implementing security measures throughout the API lifecycle, from initial design and development to deployment and maintenance. Key considerations include authentication, authorization, input validation, encryption, and rate limiting to prevent unauthorized access, data breaches, and other security vulnerabilities.",
+      "resources": [
+        {
+          "id": "aMu0e6xQ3Rak44F_I7Ish-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated API Design Roadmap",
+          "url": "https://roadmap.sh/api-design"
+        },
+        {
+          "id": "aMu0e6xQ3Rak44F_I7Ish-res-2",
+          "type": "article",
+          "title": "API Security Best Practices",
+          "url": "https://roadmap.sh/api-security-best-practices"
+        },
+        {
+          "id": "aMu0e6xQ3Rak44F_I7Ish-res-3",
+          "type": "article",
+          "title": "OWASP Project API Security",
+          "url": "https://owasp.org/API-Security/editions/2023/en/0x00-toc/"
+        },
+        {
+          "id": "aMu0e6xQ3Rak44F_I7Ish-res-4",
+          "type": "video",
+          "title": "API Security Fundamentals – Course for Beginners",
+          "url": "https://www.youtube.com/watch?v=R-4_DbV1Su4"
+        }
+      ]
+    },
+    "iHd6XNAUGXn3_d-I_YtTM": {
+      "id": "iHd6XNAUGXn3_d-I_YtTM",
+      "slug": "secure-coding",
+      "title": "Secure Coding",
+      "description": "Secure coding involves developing software applications in a way that prevents vulnerabilities and reduces the risk of security breaches. It encompasses a set of practices and guidelines that developers follow throughout the software development lifecycle to minimize potential flaws that attackers could exploit. This includes techniques like input validation, output encoding, and proper error handling to ensure the application is resilient against common security threats.",
+      "resources": [
+        {
+          "id": "iHd6XNAUGXn3_d-I_YtTM-res-1",
+          "type": "article",
+          "title": "What Is Secure Coding? Best Practices and Techniques to Apply",
+          "url": "https://www.legitsecurity.com/aspm-knowledge-base/what-is-secure-coding"
+        },
+        {
+          "id": "iHd6XNAUGXn3_d-I_YtTM-res-2",
+          "type": "article",
+          "title": "What Is Secure Coding? Best Practices and Techniques to Apply",
+          "url": "https://www.securecoding.org/"
+        },
+        {
+          "id": "iHd6XNAUGXn3_d-I_YtTM-res-3",
+          "type": "video",
+          "title": "Secure Coding Techniques - SY0-601 CompTIA Security+ : 2.3",
+          "url": "https://www.youtube.com/watch?v=IEIGEjy-W4Q"
+        }
+      ]
+    },
+    "ixiKWBp8m4tP55dBYFzRL": {
+      "id": "ixiKWBp8m4tP55dBYFzRL",
+      "slug": "secure-network-zoning",
+      "title": "Secure Network Zoning",
+      "description": "Secure network zoning involves dividing a network into distinct segments or zones, each with its own security policies and access controls. This segmentation limits the impact of a security breach by containing it within a specific zone, preventing attackers from easily moving laterally across the entire network. By implementing strict rules for traffic flow between zones, organizations can minimize the attack surface and protect sensitive data and systems.",
+      "resources": [
+        {
+          "id": "ixiKWBp8m4tP55dBYFzRL-res-1",
+          "type": "article",
+          "title": "Security zones",
+          "url": "https://www.ibm.com/docs/en/storage-ceph/8.0.0?topic=management-security-zones"
+        },
+        {
+          "id": "ixiKWBp8m4tP55dBYFzRL-res-2",
+          "type": "article",
+          "title": "Network Segmentation: Secure Your Network, Contain Attacks",
+          "url": "https://www.tufin.com/blog/network-segmentation-secure-your-network"
+        },
+        {
+          "id": "ixiKWBp8m4tP55dBYFzRL-res-3",
+          "type": "article",
+          "title": "Security Zoning in Network Architecture",
+          "url": "https://medium.com/@aman.bansal93/security-zoning-in-network-architecture-ff7693b91556"
+        }
+      ]
+    },
+    "LKMBv-M9k71yrR2WzN4bK": {
+      "id": "LKMBv-M9k71yrR2WzN4bK",
+      "slug": "sha-256",
+      "title": "SHA-256",
+      "description": "SHA-256 (Secure Hash Algorithm 256-bit) is a cryptographic hash function that generates a nearly unique 256-bit (32-byte) hash from any input data. This hash acts as a digital fingerprint, meaning even a small change to the input will result in a drastically different hash value. It's primarily used for verifying data integrity, digital signatures, and password storage due to its one-way nature, making it computationally infeasible to reverse the process and derive the original input from the hash.",
+      "resources": [
+        {
+          "id": "LKMBv-M9k71yrR2WzN4bK-res-1",
+          "type": "article",
+          "title": "A Definitive Guide to Learn The SHA-256 (Secure Hash Algorithms)",
+          "url": "https://www.simplilearn.com/tutorials/cyber-security-tutorial/sha-256-algorithm"
+        },
+        {
+          "id": "LKMBv-M9k71yrR2WzN4bK-res-2",
+          "type": "article",
+          "title": "What is the SHA-256 algorithm, and how does it work?",
+          "url": "https://nordvpn.com/blog/sha-256/?srsltid=AfmBOoox3HKIBWzAYqvIp1Eio9jDh7ntzKnfEuJw79zF_h2NfuI2MsyA"
+        },
+        {
+          "id": "LKMBv-M9k71yrR2WzN4bK-res-3",
+          "type": "article",
+          "title": "Use cases for hash functions or what is SHA-256?",
+          "url": "https://medium.com/@makhmud.islamov/use-cases-for-hash-functions-or-what-is-sha-256-83036de048b4"
+        },
+        {
+          "id": "LKMBv-M9k71yrR2WzN4bK-res-4",
+          "type": "video",
+          "title": "How secure is 256 bit security?",
+          "url": "https://www.youtube.com/watch?v=S9JGmA5_unY"
+        },
+        {
+          "id": "LKMBv-M9k71yrR2WzN4bK-res-5",
+          "type": "video",
+          "title": "SHA-256 | COMPLETE Step-By-Step Explanation (W/ Example)",
+          "url": "https://www.youtube.com/watch?v=orIgy2MjqrA"
+        }
+      ]
+    },
+    "hnroE_riXvw6BqYdirWBX": {
+      "id": "hnroE_riXvw6BqYdirWBX",
+      "slug": "siem",
+      "title": "SIEM",
+      "description": "SIEM (Security Information and Event Management) is a system that collects and analyzes security logs and event data from various sources across an organization's IT infrastructure. It helps security teams detect, analyze, and respond to security threats and incidents by providing a centralized view of security-related information and automating threat detection and incident response processes. SIEM systems typically include features such as log management, event correlation, threat intelligence integration, and reporting.",
+      "resources": [
+        {
+          "id": "hnroE_riXvw6BqYdirWBX-res-1",
+          "type": "article",
+          "title": "Security 101: What is a SIEM? - Microsoft",
+          "url": "https://www.microsoft.com/security/business/security-101/what-is-siem"
+        },
+        {
+          "id": "hnroE_riXvw6BqYdirWBX-res-2",
+          "type": "video",
+          "title": "SIEM Explained - Professor Messer",
+          "url": "https://www.youtube.com/watch?v=JEcETdy5WxU"
+        },
+        {
+          "id": "hnroE_riXvw6BqYdirWBX-res-3",
+          "type": "video",
+          "title": "Wazuh | Open source SIEM",
+          "url": "https://www.youtube.com/watch?v=3CaG2GI1kn0"
+        },
+        {
+          "id": "hnroE_riXvw6BqYdirWBX-res-4",
+          "type": "video",
+          "title": "Splunk | The Complete Beginner Tutorial",
+          "url": "https://www.youtube.com/playlist?list=PLY2f3p7xyMiTUbUo0A_lBFEwj6KdH0nFy"
+        },
+        {
+          "id": "hnroE_riXvw6BqYdirWBX-res-5",
+          "type": "video",
+          "title": "Elastic Security | Build a powerful home SIEM",
+          "url": "https://www.youtube.com/watch?v=2XLzMb9oZBI"
+        }
+      ]
+    },
+    "rXS1CIZHu7TA_o7L-vMtV": {
+      "id": "rXS1CIZHu7TA_o7L-vMtV",
+      "slug": "soar-automation",
+      "title": "SOAR Automation",
+      "description": "SOAR (Security Orchestration, Automation, and Response) automation involves using technologies to collect security data from various sources, analyze it, and then automate responses to security incidents. This includes tasks like threat intelligence gathering, vulnerability scanning, incident investigation, and remediation actions. The goal is to improve the efficiency and effectiveness of security operations by reducing manual effort and enabling faster response times to threats.",
+      "resources": []
+    },
+    "O0aVW37VhZInw9Z9Mghcg": {
+      "id": "O0aVW37VhZInw9Z9Mghcg",
+      "slug": "soar-concepts",
+      "title": "SOAR Concepts",
+      "description": "SOAR (Security Orchestration, Automation and Response) refers to a collection of technologies that enable organizations to automate and orchestrate security tasks and incident response processes. It integrates various security tools and data sources to streamline workflows, improve efficiency, and reduce the time it takes to detect, analyze, and respond to security threats. SOAR platforms typically include capabilities for threat intelligence, incident management, and automated remediation.",
+      "resources": [
+        {
+          "id": "O0aVW37VhZInw9Z9Mghcg-res-1",
+          "type": "article",
+          "title": "What is SOAR?",
+          "url": "https://www.paloaltonetworks.co.uk/cyberpedia/what-is-soar"
+        },
+        {
+          "id": "O0aVW37VhZInw9Z9Mghcg-res-2",
+          "type": "video",
+          "title": "What is SOAR (Security, Orchestration, Automation & Response",
+          "url": "https://www.youtube.com/watch?v=k7ju95jDxFA"
+        }
+      ]
+    },
+    "VmDslOmZANHpHmAInFa_j": {
+      "id": "VmDslOmZANHpHmAInFa_j",
+      "slug": "soc-2",
+      "title": "SOC 2",
+      "description": "SOC 2 (System and Organization Controls 2) is an auditing procedure that ensures service providers securely manage data to protect the interests of their organization and the privacy of its clients. It defines criteria for managing customer data based on five \"trust service principles\": security, availability, processing integrity, confidentiality, and privacy. A SOC 2 report assures customers that a service provider has implemented controls to protect their data.",
+      "resources": []
+    },
+    "VPBQh3CSsNA-esuvEHT3X": {
+      "id": "VPBQh3CSsNA-esuvEHT3X",
+      "slug": "sql-injection-prevention",
+      "title": "SQL Injection Prevention",
+      "description": "SQL Injection is a type of security vulnerability that occurs when malicious SQL code is inserted into an application's database query. This can happen when user input is not properly validated or sanitized before being used in a SQL query. Successful exploitation can allow attackers to bypass security measures, gain unauthorized access to sensitive data, modify or delete data, or even execute arbitrary commands on the database server.",
+      "resources": [
+        {
+          "id": "VPBQh3CSsNA-esuvEHT3X-res-1",
+          "type": "article",
+          "title": "SQL Injection: How it Works and How to Prevent it",
+          "url": "https://www.datacamp.com/tutorial/sql-injection"
+        },
+        {
+          "id": "VPBQh3CSsNA-esuvEHT3X-res-2",
+          "type": "article",
+          "title": "PortSwigger - SQL Injection",
+          "url": "https://portswigger.net/web-security/sql-injection"
+        },
+        {
+          "id": "VPBQh3CSsNA-esuvEHT3X-res-3",
+          "type": "video",
+          "title": "SQL Injections are scary",
+          "url": "https://www.youtube.com/watch?v=2OPVViV-GQk"
+        }
+      ]
+    },
+    "EZZsZHxu7__yM2l9tr95-": {
+      "id": "EZZsZHxu7__yM2l9tr95-",
+      "slug": "stride",
+      "title": "STRIDE",
+      "description": "STRIDE is a threat modeling methodology used to identify potential security threats in a system or application. It provides a framework for categorizing threats based on six key characteristics: Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, and Elevation of Privilege. By systematically analyzing these categories, security professionals can proactively identify vulnerabilities and design mitigations to reduce risk.",
+      "resources": [
+        {
+          "id": "EZZsZHxu7__yM2l9tr95--res-1",
+          "type": "article",
+          "title": "STRIDE",
+          "url": "https://owasp.org/www-community/Threat_Modeling_Process#stride"
+        },
+        {
+          "id": "EZZsZHxu7__yM2l9tr95--res-2",
+          "type": "article",
+          "title": "What Is the STRIDE Threat Model? Beginner’s Guide – 2025",
+          "url": "https://www.practical-devsecops.com/what-is-stride-threat-model/"
+        },
+        {
+          "id": "EZZsZHxu7__yM2l9tr95--res-3",
+          "type": "article",
+          "title": "STRIDE: A Guide to Threat Modeling and Secure Implementation",
+          "url": "https://dzone.com/articles/stride-threat-modeling-guide-secure-implementation"
+        },
+        {
+          "id": "EZZsZHxu7__yM2l9tr95--res-4",
+          "type": "article",
+          "title": "Using the STRIDE Threat Model: Tutorial & Best Practices",
+          "url": "https://drata.com/grc-central/risk/guide-stride-threat-model"
+        }
+      ]
+    },
+    "qKHb2e9g_Xuo-nHepICTR": {
+      "id": "qKHb2e9g_Xuo-nHepICTR",
+      "slug": "supply-chain-security",
+      "title": "Supply Chain Security",
+      "description": "Supply chain security focuses on protecting the integrity and security of all components, processes, and people involved in the development and delivery of software. It aims to prevent malicious actors from introducing vulnerabilities or malicious code into the software supply chain, ensuring that the final product is trustworthy and free from tampering. This includes securing everything from open-source libraries and third-party dependencies to build pipelines and deployment environments.",
+      "resources": [
+        {
+          "id": "qKHb2e9g_Xuo-nHepICTR-res-1",
+          "type": "article",
+          "title": "Software Supply Chain Security¶",
+          "url": "https://cheatsheetseries.owasp.org/cheatsheets/Software_Supply_Chain_Security_Cheat_Sheet.html"
+        },
+        {
+          "id": "qKHb2e9g_Xuo-nHepICTR-res-2",
+          "type": "article",
+          "title": "What is supply chain security?",
+          "url": "https://www.ibm.com/think/topics/supply-chain-security"
+        },
+        {
+          "id": "qKHb2e9g_Xuo-nHepICTR-res-3",
+          "type": "article",
+          "title": "The Ultimate Guide to Software Supply Chain Security",
+          "url": "https://www.gitguardian.com/nhi-hub/software-supply-chain-security"
+        },
+        {
+          "id": "qKHb2e9g_Xuo-nHepICTR-res-4",
+          "type": "video",
+          "title": "Understanding software supply chain threats | Security Detail",
+          "url": "https://www.youtube.com/watch?v=BqpWvESLW78"
+        },
+        {
+          "id": "qKHb2e9g_Xuo-nHepICTR-res-5",
+          "type": "video",
+          "title": "Securing your software supply chain",
+          "url": "https://www.youtube.com/watch?v=Dg-hD4HHKT8"
+        }
+      ]
+    },
+    "mT1cKWZcKXwvopW6BeX-A": {
+      "id": "mT1cKWZcKXwvopW6BeX-A",
+      "slug": "symmetric",
+      "title": "Symmetric Encryption",
+      "description": "Symmetric encryption uses the same secret key for both encrypting and decrypting data. This means that the sender and receiver must both possess the same key before secure communication can begin. Algorithms like AES and DES are common examples, offering a balance between security and speed, making them suitable for encrypting large amounts of data.",
+      "resources": [
+        {
+          "id": "mT1cKWZcKXwvopW6BeX-A-res-1",
+          "type": "article",
+          "title": "What is symmetric encryption?",
+          "url": "https://www.ibm.com/think/topics/symmetric-encryption"
+        },
+        {
+          "id": "mT1cKWZcKXwvopW6BeX-A-res-2",
+          "type": "video",
+          "title": "What is Symmetric Encryption? Simply Explained | CyberArk",
+          "url": "https://www.youtube.com/watch?v=Wh9iC6uMv9s"
+        },
+        {
+          "id": "mT1cKWZcKXwvopW6BeX-A-res-3",
+          "type": "video",
+          "title": "What is symmetric encryption?",
+          "url": "https://www.youtube.com/watch?v=8Ov4HyncJUU"
+        }
+      ]
+    },
+    "qfhpMprVX562UuktYN9BZ": {
+      "id": "qfhpMprVX562UuktYN9BZ",
+      "slug": "threat-modeling-workflows",
+      "title": "Threat Modeling Workflows",
+      "description": "Threat modeling workflows are structured, repeatable processes used to identify, assess, and mitigate potential security threats in a system or application. These workflows typically involve defining the system's scope, decomposing it into components, identifying potential threats and vulnerabilities, prioritizing those threats based on risk, and then developing and implementing mitigation strategies. The goal is to proactively address security concerns throughout the development lifecycle.",
+      "resources": [
+        {
+          "id": "qfhpMprVX562UuktYN9BZ-res-1",
+          "type": "article",
+          "title": "Threat Modeling Process",
+          "url": "https://owasp.org/www-community/Threat_Modeling_Process"
+        },
+        {
+          "id": "qfhpMprVX562UuktYN9BZ-res-2",
+          "type": "article",
+          "title": "Top 12 Threat Modeling Methodologies and Techniques",
+          "url": "https://www.securitycompass.com/blog/top-12-threat-modeling-methodologies-techniques/"
+        },
+        {
+          "id": "qfhpMprVX562UuktYN9BZ-res-3",
+          "type": "article",
+          "title": "Best Practices in the Threat Modeling Process",
+          "url": "https://blog.secureflag.com/2025/04/03/threat-modeling-process/"
+        }
+      ]
+    },
+    "XA7JUF00B1locP0xY3T95": {
+      "id": "XA7JUF00B1locP0xY3T95",
+      "slug": "threat-modeling",
+      "title": "Threat Modeling",
+      "description": "Threat modeling is a structured process for identifying, evaluating, and mitigating potential security threats and vulnerabilities in a system or application. It involves understanding the system's architecture, identifying potential attackers and their motives, and analyzing the possible attack vectors they might use to compromise the system. The goal is to proactively identify weaknesses and design security controls to reduce the risk of successful attacks.",
+      "resources": [
+        {
+          "id": "XA7JUF00B1locP0xY3T95-res-1",
+          "type": "article",
+          "title": "What Is Threat Modeling?",
+          "url": "https://www.cisco.com/site/us/en/learn/topics/security/what-is-threat-modeling.html"
+        },
+        {
+          "id": "XA7JUF00B1locP0xY3T95-res-2",
+          "type": "article",
+          "title": "Threat Modeling",
+          "url": "https://owasp.org/www-community/Threat_Modeling"
+        },
+        {
+          "id": "XA7JUF00B1locP0xY3T95-res-3",
+          "type": "article",
+          "title": "Threat Modeling Process",
+          "url": "https://owasp.org/www-community/Threat_Modeling_Process"
+        },
+        {
+          "id": "XA7JUF00B1locP0xY3T95-res-4",
+          "type": "video",
+          "title": "1. Introduction, Threat Models",
+          "url": "https://www.youtube.com/watch?v=GqmQg-cszw4"
+        }
+      ]
+    },
+    "FvU310TuexCsp8QkvxJib": {
+      "id": "FvU310TuexCsp8QkvxJib",
+      "slug": "tls",
+      "title": "TLS",
+      "description": "TLS (Transport Layer Security) is a protocol that provides privacy and data integrity between two communicating applications. It's the successor to SSL (Secure Sockets Layer) and is used to encrypt the communication between a client (like a web browser) and a server, ensuring that data transmitted between them remains confidential and tamper-proof. TLS uses cryptographic algorithms to encrypt data, authenticate the server (and optionally the client), and ensure the integrity of the data being transmitted.",
+      "resources": [
+        {
+          "id": "FvU310TuexCsp8QkvxJib-res-1",
+          "type": "article",
+          "title": "What is TLS & How Does it Work? - Internet Society",
+          "url": "https://www.internetsociety.org/deploy360/tls/basics/"
+        },
+        {
+          "id": "FvU310TuexCsp8QkvxJib-res-2",
+          "type": "article",
+          "title": "What is TLS (Transport Layer Security)? - Cloudflare",
+          "url": "https://www.cloudflare.com/learning/ssl/transport-layer-security-tls/"
+        },
+        {
+          "id": "FvU310TuexCsp8QkvxJib-res-3",
+          "type": "video",
+          "title": "SSL and HTTPS",
+          "url": "https://www.youtube.com/watch?v=S2iBR2ZlZf0"
+        },
+        {
+          "id": "FvU310TuexCsp8QkvxJib-res-4",
+          "type": "video",
+          "title": "SSL/TLS - Cristina Formaini",
+          "url": "https://www.youtube.com/watch?v=Rp3iZUvXWlM"
+        }
+      ]
+    },
+    "7MavDAydyrt0tOJ6a6xRQ": {
+      "id": "7MavDAydyrt0tOJ6a6xRQ",
+      "slug": "vim--nano--emacs",
+      "title": "Text Editors: Vim, Nano, and Emacs",
+      "description": "Vim, Nano, and Emacs are text editors used for creating, viewing, and modifying files, particularly configuration files and code. They provide different interfaces and functionalities, ranging from simple, beginner-friendly options to highly customizable and powerful environments for advanced users. These editors are essential tools for interacting with systems and automating tasks through scripting.",
+      "resources": [
+        {
+          "id": "7MavDAydyrt0tOJ6a6xRQ-res-1",
+          "type": "article",
+          "title": "Vim",
+          "url": "https://www.vim.org"
+        },
+        {
+          "id": "7MavDAydyrt0tOJ6a6xRQ-res-2",
+          "type": "article",
+          "title": "GNU Nano",
+          "url": "https://www.nano-editor.org/"
+        },
+        {
+          "id": "7MavDAydyrt0tOJ6a6xRQ-res-3",
+          "type": "article",
+          "title": "GNU Emacs",
+          "url": "https://www.gnu.org/software/emacs/"
+        },
+        {
+          "id": "7MavDAydyrt0tOJ6a6xRQ-res-4",
+          "type": "article",
+          "title": "Practical Vim 2nd Edition",
+          "url": "https://dokumen.pub/practical-vim-2nd-edition-2nd-edition-9781680501278.html"
+        },
+        {
+          "id": "7MavDAydyrt0tOJ6a6xRQ-res-5",
+          "type": "video",
+          "title": "Vim Tutorial for Beginners",
+          "url": "https://www.youtube.com/watch?v=RZ4p-saaQkc"
+        },
+        {
+          "id": "7MavDAydyrt0tOJ6a6xRQ-res-6",
+          "type": "video",
+          "title": "Linux Crash Course - nano",
+          "url": "https://www.youtube.com/watch?v=DLeATFgGM-A"
+        },
+        {
+          "id": "7MavDAydyrt0tOJ6a6xRQ-res-7",
+          "type": "video",
+          "title": "The Absolute Beginner's Guide to Emacs",
+          "url": "https://www.youtube.com/watch?v=48JlgiBpw_I"
+        }
+      ]
+    },
+    "GPVN-nDitsY1bF_3huqnh": {
+      "id": "GPVN-nDitsY1bF_3huqnh",
+      "slug": "vlans",
+      "title": "VLANs",
+      "description": "VLANs (Virtual Local Area Networks) are a way to logically segment a physical network into multiple broadcast domains. This allows you to group devices regardless of their physical location, improving network security, performance, and manageability by isolating traffic and reducing broadcast traffic within the network.",
+      "resources": [
+        {
+          "id": "GPVN-nDitsY1bF_3huqnh-res-1",
+          "type": "article",
+          "title": "What is a VLAN?",
+          "url": "https://www.solarwinds.com/resources/it-glossary/vlan"
+        },
+        {
+          "id": "GPVN-nDitsY1bF_3huqnh-res-2",
+          "type": "video",
+          "title": "VLAN Explained",
+          "url": "https://www.youtube.com/watch?v=jC6MJTh9fRE"
+        }
+      ]
+    },
+    "iHhitN8zToXm4nK1m0OeR": {
+      "id": "iHhitN8zToXm4nK1m0OeR",
+      "slug": "wireshark-basics",
+      "title": "Wireshark Basics",
+      "description": "Wireshark is a free and open-source packet analyzer. It captures network traffic in real-time and allows you to examine the data transmitted across a network. It can be used to troubleshoot network problems, analyze network protocols, examine security issues, and learn about network communication. Wireshark decodes the raw network data into a human-readable format, making it easier to understand the information being transmitted.",
+      "resources": [
+        {
+          "id": "iHhitN8zToXm4nK1m0OeR-res-1",
+          "type": "article",
+          "title": "Wireshark",
+          "url": "https://www.wireshark.org/"
+        },
+        {
+          "id": "iHhitN8zToXm4nK1m0OeR-res-2",
+          "type": "article",
+          "title": "How to Use Wireshark: Comprehensive Tutorial + Tips",
+          "url": "https://www.varonis.com/blog/how-to-use-wireshark"
+        },
+        {
+          "id": "iHhitN8zToXm4nK1m0OeR-res-3",
+          "type": "video",
+          "title": "How to use Wireshark",
+          "url": "https://www.youtube.com/watch?v=zWoHJ3oGRGY"
+        },
+        {
+          "id": "iHhitN8zToXm4nK1m0OeR-res-4",
+          "type": "video",
+          "title": "Wireshark Tutorial for BEGINNERS || How to Capture Network Traffic || Skilled Inspirational Academy",
+          "url": "https://www.youtube.com/watch?v=byL8VMEMC0M&list=PL_o0Qzu-8MKhg6co37kssx6lRdQ4o1YpX"
+        }
+      ]
+    },
+    "ph7rFQFJffi_di133vm3Z": {
+      "id": "ph7rFQFJffi_di133vm3Z",
+      "slug": "xss-prevention",
+      "title": "Cross-Site Scripting (XSS) Prevention",
+      "description": "Cross-Site Scripting (XSS) is a type of security vulnerability that allows attackers to inject malicious scripts into websites viewed by other users. These scripts can then execute in the user's browser, potentially stealing sensitive information like cookies, redirecting the user to malicious sites, or defacing the website. Preventing XSS involves sanitizing user inputs, encoding outputs, and implementing security policies to ensure that untrusted data cannot be executed as code.",
+      "resources": [
+        {
+          "id": "ph7rFQFJffi_di133vm3Z-res-1",
+          "type": "article",
+          "title": "Cross Site Scripting Prevention Cheat Sheet¶",
+          "url": "https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html"
+        },
+        {
+          "id": "ph7rFQFJffi_di133vm3Z-res-2",
+          "type": "article",
+          "title": "Cross-site scripting",
+          "url": "https://portswigger.net/web-security/cross-site-scripting"
+        },
+        {
+          "id": "ph7rFQFJffi_di133vm3Z-res-3",
+          "type": "article",
+          "title": "Cross-site scripting (XSS)",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/Security/Attacks/XSS"
+        },
+        {
+          "id": "ph7rFQFJffi_di133vm3Z-res-4",
+          "type": "video",
+          "title": "Cross-Site Scripting: A 25-Year Threat That Is Still Going Strong",
+          "url": "https://www.youtube.com/watch?v=z4LhLJnmoZ0"
+        },
+        {
+          "id": "ph7rFQFJffi_di133vm3Z-res-5",
+          "type": "video",
+          "title": "Cross-Site Scripting (XSS) Explained",
+          "url": "https://www.youtube.com/watch?v=EoaDgUgS6QA&t=341s"
+        }
+      ]
+    },
+    "3UAH70FkQlv5_VbYon4U9": {
+      "id": "3UAH70FkQlv5_VbYon4U9",
+      "slug": "zero-trust-concepts",
+      "title": "Zero Trust Concepts",
+      "description": "Zero Trust is a security framework based on the principle of \"never trust, always verify.\" It assumes that no user or device, whether inside or outside the network perimeter, should be automatically trusted. Instead, every access request is fully authenticated, authorized, and encrypted before granting access to resources. This approach minimizes the blast radius of potential breaches and enhances overall security posture by continuously validating trust at every stage of digital interaction.",
+      "resources": [
+        {
+          "id": "3UAH70FkQlv5_VbYon4U9-res-1",
+          "type": "article",
+          "title": "What is a Zero Trust Network?",
+          "url": "https://www.cloudflare.com/en-gb/learning/security/glossary/what-is-zero-trust/"
+        },
+        {
+          "id": "3UAH70FkQlv5_VbYon4U9-res-2",
+          "type": "video",
+          "title": "ero Trust Explained in 4 minutes",
+          "url": "https://www.youtube.com/watch?v=yn6CPQ9RioA"
+        }
+      ]
+    }
+  }
+}

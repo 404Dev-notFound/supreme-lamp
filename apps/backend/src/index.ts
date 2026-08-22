@@ -4,6 +4,7 @@ import helmet from "helmet";
 import morgan from "morgan";
 import dotenv from "dotenv";
 import { initTelemetry } from "./telemetry";
+import { roadmapsRouter } from "./routes/roadmaps";
 initTelemetry();
 
 dotenv.config();
@@ -26,6 +27,9 @@ app.get("/", (req: Request, res: Response) => {
 app.get("/api/health", (req: Request, res: Response) => {
   res.status(200).json({ status: "ok", message: "flowCTRL API is running" });
 });
+
+// Roadmap Routes
+app.use("/api/roadmaps", roadmapsRouter);
 
 // Protected Route Example
 import { requireAuth, requireRole } from "./middleware/auth";

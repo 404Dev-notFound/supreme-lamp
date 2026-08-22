@@ -1,0 +1,3462 @@
+{
+  "slug": "react",
+  "title": "React & Next.js Ecosystem",
+  "description": "Everything you need to master modern React 19, Server Components, and Next.js",
+  "category": "skill",
+  "level": "Intermediate",
+  "topicCount": 80,
+  "iconName": "Code2",
+  "nodes": [
+    {
+      "id": "node-bRpeoo9zXrnZ2IHSI7JX4",
+      "label": "Animation",
+      "topicId": "bRpeoo9zXrnZ2IHSI7JX4",
+      "level": 1,
+      "position": {
+        "x": 80,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-b4AP2OggxFAwsQtUwiUJJ",
+      "label": "API Calls",
+      "topicId": "b4AP2OggxFAwsQtUwiUJJ",
+      "level": 1,
+      "position": {
+        "x": 340,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-8nMbfGxe3STMbrAVcqHHh",
+      "label": "Apollo",
+      "topicId": "8nMbfGxe3STMbrAVcqHHh",
+      "level": 1,
+      "position": {
+        "x": 600,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-kiCTo0U6VgNON8rv_Ktlj",
+      "label": "Ark UI",
+      "topicId": "kiCTo0U6VgNON8rv_Ktlj",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-_HoZkE7FH-v3wI_722ZTF",
+      "label": "Astro",
+      "topicId": "_HoZkE7FH-v3wI_722ZTF",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-ElqWQClryfSYdL7P_mgYK",
+      "label": "Axios",
+      "topicId": "ElqWQClryfSYdL7P_mgYK",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-uqphqAnlcJOLnwHZs5jWu",
+      "label": "Chakra UI",
+      "topicId": "uqphqAnlcJOLnwHZs5jWu",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-tU4Umtnfu01t9gLlnlK6b",
+      "label": "CLI Tools",
+      "topicId": "tU4Umtnfu01t9gLlnlK6b",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-thfnymb_UIiKxakKfiua5",
+      "label": "Component / Libraries",
+      "topicId": "thfnymb_UIiKxakKfiua5",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-8OBlgDRUg-CTgDXY-QHyO",
+      "label": "Component Life Cycle",
+      "topicId": "8OBlgDRUg-CTgDXY-QHyO",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-79K4xgljcoSHkCYI1D55O",
+      "label": "Components",
+      "topicId": "79K4xgljcoSHkCYI1D55O",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-4T59gdcwdXqj9kCuK7cfp",
+      "label": "Composition vs Inheritance",
+      "topicId": "4T59gdcwdXqj9kCuK7cfp",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-aE6XBgH23135_9QmD4ff2",
+      "label": "Conditional Rendering",
+      "topicId": "aE6XBgH23135_9QmD4ff2",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-10uL0r388lKh8pWYWqRZD",
+      "label": "Context",
+      "topicId": "10uL0r388lKh8pWYWqRZD",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-HX75SExuzR5AP7TQ94qid",
+      "label": "Writing Custom Hooks",
+      "topicId": "HX75SExuzR5AP7TQ94qid",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-awoEhwPKjUcR84XGL6Som",
+      "label": "CSS Modules",
+      "topicId": "awoEhwPKjUcR84XGL6Som",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-zN7Ps1puD-YpHbKi1pHH8",
+      "label": "Cypress",
+      "topicId": "zN7Ps1puD-YpHbKi1pHH8",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-gMHMjsh0i8paLZUH5mDX3",
+      "label": "Error Boundaries",
+      "topicId": "gMHMjsh0i8paLZUH5mDX3",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-Nex2HcTOYIbfqUzXyxSMY",
+      "label": "Events",
+      "topicId": "Nex2HcTOYIbfqUzXyxSMY",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-gr1CaLvL7tFOkIRywSsID",
+      "label": "Formik",
+      "topicId": "gr1CaLvL7tFOkIRywSsID",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-KHcC5pFN3qLnsbPPKpYd2",
+      "label": "Forms",
+      "topicId": "KHcC5pFN3qLnsbPPKpYd2",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-H6-XGDjs4f-qbv13v5av0",
+      "label": "Framer Motion",
+      "topicId": "H6-XGDjs4f-qbv13v5av0",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-W-atg_Msa9uPLr6RXAKSb",
+      "label": "SSR Frameworks",
+      "topicId": "W-atg_Msa9uPLr6RXAKSb",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-8mw4TxlLN4ZKAlLl-_NVV",
+      "label": "Functional Components",
+      "topicId": "8mw4TxlLN4ZKAlLl-_NVV",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-y2dI1DVLWKAkv6VRpgaQa",
+      "label": "GSock",
+      "topicId": "y2dI1DVLWKAkv6VRpgaQa",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-MnDgQq9Vcxsu3wDqv5uh2",
+      "label": "Headless Component Libraries",
+      "topicId": "MnDgQq9Vcxsu3wDqv5uh2",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-MnDgQq9Vcxsu3wDqv5uh2",
+      "label": "Headless Component Libraries",
+      "topicId": "MnDgQq9Vcxsu3wDqv5uh2",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-zOENl96GUZRw2PP2KxIck",
+      "label": "High Order Components",
+      "topicId": "zOENl96GUZRw2PP2KxIck",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-mkyU0ug8MXxV4biHuOity",
+      "label": "Hooks Best Practices",
+      "topicId": "mkyU0ug8MXxV4biHuOity",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-LbLQhonBqzxHU6B-L--Vq",
+      "label": "Hooks",
+      "topicId": "LbLQhonBqzxHU6B-L--Vq",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-opa61u9gYgSpoPtxp58wu",
+      "label": "Jest",
+      "topicId": "opa61u9gYgSpoPtxp58wu",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-yI6XiNW04EL78UL4lkVgd",
+      "label": "Jotai",
+      "topicId": "yI6XiNW04EL78UL4lkVgd",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-WREBxWSNQDD_6fzpHL6CE",
+      "label": "JSX",
+      "topicId": "WREBxWSNQDD_6fzpHL6CE",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-HeWVCPHqVnnbOn6zIim4K",
+      "label": "Lists and Keys",
+      "topicId": "HeWVCPHqVnnbOn6zIim4K",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-gy7eBxPOlwG8BvxHVLDQ9",
+      "label": "Material UI",
+      "topicId": "gy7eBxPOlwG8BvxHVLDQ9",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-txARr3lgTvy-vJCj5zAb1",
+      "label": "Mobile",
+      "topicId": "txARr3lgTvy-vJCj5zAb1",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-1kbrCI5JS0c9wbzxXpgFU",
+      "label": "MobX",
+      "topicId": "1kbrCI5JS0c9wbzxXpgFU",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-HdWq9ue0JdwmwqSIN2OD_",
+      "label": "Next.js",
+      "topicId": "HdWq9ue0JdwmwqSIN2OD_",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-akVNUPOqaTXaSHoQFlkP_",
+      "label": "Panda CSS",
+      "topicId": "akVNUPOqaTXaSHoQFlkP_",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-g39P0c6M2sHNoUPs0m8tr",
+      "label": "Playwright",
+      "topicId": "g39P0c6M2sHNoUPs0m8tr",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-DcDggX4OmmwvJGHwuV86t",
+      "label": "Portals",
+      "topicId": "DcDggX4OmmwvJGHwuV86t",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-RFuy3Eho3mnW1GpP08BVw",
+      "label": "Props vs State",
+      "topicId": "RFuy3Eho3mnW1GpP08BVw",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-XL9XOV2h0BAuA5cFcM5L_",
+      "label": "Radix UI",
+      "topicId": "XL9XOV2h0BAuA5cFcM5L_",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-RvDfKoa_HIW3QDBfkPv3m",
+      "label": "React Aria",
+      "topicId": "RvDfKoa_HIW3QDBfkPv3m",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-_5ht0PAdVOJWPzTRS1mVg",
+      "label": "React hook form",
+      "topicId": "_5ht0PAdVOJWPzTRS1mVg",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-NvXAq1vN2wpncdW-yTL4c",
+      "label": "React Native",
+      "topicId": "NvXAq1vN2wpncdW-yTL4c",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node--WjJBYCmRRj08n_9HxohY",
+      "label": "react-router",
+      "topicId": "-WjJBYCmRRj08n_9HxohY",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-jvp43wFkKlGQX2y7IxkbM",
+      "label": "React Router",
+      "topicId": "jvp43wFkKlGQX2y7IxkbM",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-WzoB5B6SdOI4Mzv6U51nY",
+      "label": "react spring",
+      "topicId": "WzoB5B6SdOI4Mzv6U51nY",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-cQllxv7qGbRtM9O5llgN6",
+      "label": "React Testing Library",
+      "topicId": "cQllxv7qGbRtM9O5llgN6",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-_zNAOhFWMcWqP4oxNPCXF",
+      "label": "Refs",
+      "topicId": "_zNAOhFWMcWqP4oxNPCXF",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-cLfM342sZfsCwmPPxQpEI",
+      "label": "Relay",
+      "topicId": "cLfM342sZfsCwmPPxQpEI",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-vdumdIglnouf1KyGIGZnc",
+      "label": "Render Props",
+      "topicId": "vdumdIglnouf1KyGIGZnc",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-0uiGsC5SWavNdlFqizkKe",
+      "label": "Rendering",
+      "topicId": "0uiGsC5SWavNdlFqizkKe",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-NStw6bi_pPB49K41BFSgo",
+      "label": "Routing",
+      "topicId": "NStw6bi_pPB49K41BFSgo",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-h49-tjEkKcq7d7ikRHIOx",
+      "label": "rtk-query",
+      "topicId": "h49-tjEkKcq7d7ikRHIOx",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-SUeXDkmOLipdRP4fSrZOH",
+      "label": "Server APIs",
+      "topicId": "SUeXDkmOLipdRP4fSrZOH",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-njKsYNkwTXPQ1NjlGKXab",
+      "label": "Shadcn UI",
+      "topicId": "njKsYNkwTXPQ1NjlGKXab",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-I7_mX4h-Yywp1YyTJRKXI",
+      "label": "State Management",
+      "topicId": "I7_mX4h-Yywp1YyTJRKXI",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-_F3WMxhzaK9F8_-zHDDMF",
+      "label": "Suspense",
+      "topicId": "_F3WMxhzaK9F8_-zHDDMF",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node--ea1KsXEyz-4voHXklG_J",
+      "label": "SWR",
+      "topicId": "-ea1KsXEyz-4voHXklG_J",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-KO3viVIJJREtxXxsocN7j",
+      "label": "Tailwind CSS",
+      "topicId": "KO3viVIJJREtxXxsocN7j",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-5EPmbiNdP_vhIXclv_GjV",
+      "label": "TanStack Query",
+      "topicId": "5EPmbiNdP_vhIXclv_GjV",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-zWL8VLx_g0SWubavJDs6i",
+      "label": "TanStack Router",
+      "topicId": "zWL8VLx_g0SWubavJDs6i",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-e_lwZ-a72-tAan2KDX6k3",
+      "label": "Testing",
+      "topicId": "e_lwZ-a72-tAan2KDX6k3",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-UNlvRp6k3_RDoTAAIEfJ1",
+      "label": "Types & Validation",
+      "topicId": "UNlvRp6k3_RDoTAAIEfJ1",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-ElgRwv5LSVg5FXGx-2K2s",
+      "label": "TypeScript",
+      "topicId": "ElgRwv5LSVg5FXGx-2K2s",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-9M5jRu0pj8KMvg9f-2oqZ",
+      "label": "urql",
+      "topicId": "9M5jRu0pj8KMvg9f-2oqZ",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-dgoDNDtW2_q9R9yhkXrcz",
+      "label": "useCallback",
+      "topicId": "dgoDNDtW2_q9R9yhkXrcz",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-D5_O-uElftYGQr_bTU_se",
+      "label": "useContext",
+      "topicId": "D5_O-uElftYGQr_bTU_se",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-8OnzX03hkZ9K9i__tjmFX",
+      "label": "useEffect Hook",
+      "topicId": "8OnzX03hkZ9K9i__tjmFX",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-w3bNp7OkehI1gjx8NzlC8",
+      "label": "useMemo",
+      "topicId": "w3bNp7OkehI1gjx8NzlC8",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-v48Mv0wQqjXbvy8x6gDjQ",
+      "label": "useReducer",
+      "topicId": "v48Mv0wQqjXbvy8x6gDjQ",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-t_laNdMmdLApYszqXRdWg",
+      "label": "useRef",
+      "topicId": "t_laNdMmdLApYszqXRdWg",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-FK59Zsm5ENA9g11XWCan_",
+      "label": "useState Hook",
+      "topicId": "FK59Zsm5ENA9g11XWCan_",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-YEpkbNzEMzS6wAKg85J_N",
+      "label": "useState",
+      "topicId": "YEpkbNzEMzS6wAKg85J_N",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-y9ToYDix-koRbR6FLydFw",
+      "label": "Vite",
+      "topicId": "y9ToYDix-koRbR6FLydFw",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-LULjhsPNONyI5912DKzPw",
+      "label": "Vitest",
+      "topicId": "LULjhsPNONyI5912DKzPw",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-DfrCkbD-HEHwLymv10zb5",
+      "label": "Styling",
+      "topicId": "DfrCkbD-HEHwLymv10zb5",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-K3RZ8ESxWCpLKHePF87Hy",
+      "label": "Zod",
+      "topicId": "K3RZ8ESxWCpLKHePF87Hy",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-nl5imPsdY2oEWlg-9TTuk",
+      "label": "Zustand",
+      "topicId": "nl5imPsdY2oEWlg-9TTuk",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4240
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-node-bRpeoo9zXrnZ2IHSI7JX4-node-b4AP2OggxFAwsQtUwiUJJ",
+      "source": "node-bRpeoo9zXrnZ2IHSI7JX4",
+      "target": "node-b4AP2OggxFAwsQtUwiUJJ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-b4AP2OggxFAwsQtUwiUJJ-node-8nMbfGxe3STMbrAVcqHHh",
+      "source": "node-b4AP2OggxFAwsQtUwiUJJ",
+      "target": "node-8nMbfGxe3STMbrAVcqHHh",
+      "animated": true
+    },
+    {
+      "id": "edge-node-8nMbfGxe3STMbrAVcqHHh-node-kiCTo0U6VgNON8rv_Ktlj",
+      "source": "node-8nMbfGxe3STMbrAVcqHHh",
+      "target": "node-kiCTo0U6VgNON8rv_Ktlj",
+      "animated": true
+    },
+    {
+      "id": "edge-node-kiCTo0U6VgNON8rv_Ktlj-node-_HoZkE7FH-v3wI_722ZTF",
+      "source": "node-kiCTo0U6VgNON8rv_Ktlj",
+      "target": "node-_HoZkE7FH-v3wI_722ZTF",
+      "animated": true
+    },
+    {
+      "id": "edge-node-_HoZkE7FH-v3wI_722ZTF-node-ElqWQClryfSYdL7P_mgYK",
+      "source": "node-_HoZkE7FH-v3wI_722ZTF",
+      "target": "node-ElqWQClryfSYdL7P_mgYK",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ElqWQClryfSYdL7P_mgYK-node-uqphqAnlcJOLnwHZs5jWu",
+      "source": "node-ElqWQClryfSYdL7P_mgYK",
+      "target": "node-uqphqAnlcJOLnwHZs5jWu",
+      "animated": true
+    },
+    {
+      "id": "edge-node-uqphqAnlcJOLnwHZs5jWu-node-tU4Umtnfu01t9gLlnlK6b",
+      "source": "node-uqphqAnlcJOLnwHZs5jWu",
+      "target": "node-tU4Umtnfu01t9gLlnlK6b",
+      "animated": true
+    },
+    {
+      "id": "edge-node-tU4Umtnfu01t9gLlnlK6b-node-thfnymb_UIiKxakKfiua5",
+      "source": "node-tU4Umtnfu01t9gLlnlK6b",
+      "target": "node-thfnymb_UIiKxakKfiua5",
+      "animated": true
+    },
+    {
+      "id": "edge-node-thfnymb_UIiKxakKfiua5-node-8OBlgDRUg-CTgDXY-QHyO",
+      "source": "node-thfnymb_UIiKxakKfiua5",
+      "target": "node-8OBlgDRUg-CTgDXY-QHyO",
+      "animated": true
+    },
+    {
+      "id": "edge-node-8OBlgDRUg-CTgDXY-QHyO-node-79K4xgljcoSHkCYI1D55O",
+      "source": "node-8OBlgDRUg-CTgDXY-QHyO",
+      "target": "node-79K4xgljcoSHkCYI1D55O",
+      "animated": true
+    },
+    {
+      "id": "edge-node-79K4xgljcoSHkCYI1D55O-node-4T59gdcwdXqj9kCuK7cfp",
+      "source": "node-79K4xgljcoSHkCYI1D55O",
+      "target": "node-4T59gdcwdXqj9kCuK7cfp",
+      "animated": true
+    },
+    {
+      "id": "edge-node-4T59gdcwdXqj9kCuK7cfp-node-aE6XBgH23135_9QmD4ff2",
+      "source": "node-4T59gdcwdXqj9kCuK7cfp",
+      "target": "node-aE6XBgH23135_9QmD4ff2",
+      "animated": true
+    },
+    {
+      "id": "edge-node-aE6XBgH23135_9QmD4ff2-node-10uL0r388lKh8pWYWqRZD",
+      "source": "node-aE6XBgH23135_9QmD4ff2",
+      "target": "node-10uL0r388lKh8pWYWqRZD",
+      "animated": true
+    },
+    {
+      "id": "edge-node-10uL0r388lKh8pWYWqRZD-node-HX75SExuzR5AP7TQ94qid",
+      "source": "node-10uL0r388lKh8pWYWqRZD",
+      "target": "node-HX75SExuzR5AP7TQ94qid",
+      "animated": true
+    },
+    {
+      "id": "edge-node-HX75SExuzR5AP7TQ94qid-node-awoEhwPKjUcR84XGL6Som",
+      "source": "node-HX75SExuzR5AP7TQ94qid",
+      "target": "node-awoEhwPKjUcR84XGL6Som",
+      "animated": true
+    },
+    {
+      "id": "edge-node-awoEhwPKjUcR84XGL6Som-node-zN7Ps1puD-YpHbKi1pHH8",
+      "source": "node-awoEhwPKjUcR84XGL6Som",
+      "target": "node-zN7Ps1puD-YpHbKi1pHH8",
+      "animated": true
+    },
+    {
+      "id": "edge-node-zN7Ps1puD-YpHbKi1pHH8-node-gMHMjsh0i8paLZUH5mDX3",
+      "source": "node-zN7Ps1puD-YpHbKi1pHH8",
+      "target": "node-gMHMjsh0i8paLZUH5mDX3",
+      "animated": true
+    },
+    {
+      "id": "edge-node-gMHMjsh0i8paLZUH5mDX3-node-Nex2HcTOYIbfqUzXyxSMY",
+      "source": "node-gMHMjsh0i8paLZUH5mDX3",
+      "target": "node-Nex2HcTOYIbfqUzXyxSMY",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Nex2HcTOYIbfqUzXyxSMY-node-gr1CaLvL7tFOkIRywSsID",
+      "source": "node-Nex2HcTOYIbfqUzXyxSMY",
+      "target": "node-gr1CaLvL7tFOkIRywSsID",
+      "animated": true
+    },
+    {
+      "id": "edge-node-gr1CaLvL7tFOkIRywSsID-node-KHcC5pFN3qLnsbPPKpYd2",
+      "source": "node-gr1CaLvL7tFOkIRywSsID",
+      "target": "node-KHcC5pFN3qLnsbPPKpYd2",
+      "animated": true
+    },
+    {
+      "id": "edge-node-KHcC5pFN3qLnsbPPKpYd2-node-H6-XGDjs4f-qbv13v5av0",
+      "source": "node-KHcC5pFN3qLnsbPPKpYd2",
+      "target": "node-H6-XGDjs4f-qbv13v5av0",
+      "animated": true
+    },
+    {
+      "id": "edge-node-H6-XGDjs4f-qbv13v5av0-node-W-atg_Msa9uPLr6RXAKSb",
+      "source": "node-H6-XGDjs4f-qbv13v5av0",
+      "target": "node-W-atg_Msa9uPLr6RXAKSb",
+      "animated": true
+    },
+    {
+      "id": "edge-node-W-atg_Msa9uPLr6RXAKSb-node-8mw4TxlLN4ZKAlLl-_NVV",
+      "source": "node-W-atg_Msa9uPLr6RXAKSb",
+      "target": "node-8mw4TxlLN4ZKAlLl-_NVV",
+      "animated": true
+    },
+    {
+      "id": "edge-node-8mw4TxlLN4ZKAlLl-_NVV-node-y2dI1DVLWKAkv6VRpgaQa",
+      "source": "node-8mw4TxlLN4ZKAlLl-_NVV",
+      "target": "node-y2dI1DVLWKAkv6VRpgaQa",
+      "animated": true
+    },
+    {
+      "id": "edge-node-y2dI1DVLWKAkv6VRpgaQa-node-MnDgQq9Vcxsu3wDqv5uh2",
+      "source": "node-y2dI1DVLWKAkv6VRpgaQa",
+      "target": "node-MnDgQq9Vcxsu3wDqv5uh2",
+      "animated": true
+    },
+    {
+      "id": "edge-node-MnDgQq9Vcxsu3wDqv5uh2-node-MnDgQq9Vcxsu3wDqv5uh2",
+      "source": "node-MnDgQq9Vcxsu3wDqv5uh2",
+      "target": "node-MnDgQq9Vcxsu3wDqv5uh2",
+      "animated": true
+    },
+    {
+      "id": "edge-node-MnDgQq9Vcxsu3wDqv5uh2-node-zOENl96GUZRw2PP2KxIck",
+      "source": "node-MnDgQq9Vcxsu3wDqv5uh2",
+      "target": "node-zOENl96GUZRw2PP2KxIck",
+      "animated": true
+    },
+    {
+      "id": "edge-node-zOENl96GUZRw2PP2KxIck-node-mkyU0ug8MXxV4biHuOity",
+      "source": "node-zOENl96GUZRw2PP2KxIck",
+      "target": "node-mkyU0ug8MXxV4biHuOity",
+      "animated": true
+    },
+    {
+      "id": "edge-node-mkyU0ug8MXxV4biHuOity-node-LbLQhonBqzxHU6B-L--Vq",
+      "source": "node-mkyU0ug8MXxV4biHuOity",
+      "target": "node-LbLQhonBqzxHU6B-L--Vq",
+      "animated": true
+    },
+    {
+      "id": "edge-node-LbLQhonBqzxHU6B-L--Vq-node-opa61u9gYgSpoPtxp58wu",
+      "source": "node-LbLQhonBqzxHU6B-L--Vq",
+      "target": "node-opa61u9gYgSpoPtxp58wu",
+      "animated": true
+    },
+    {
+      "id": "edge-node-opa61u9gYgSpoPtxp58wu-node-yI6XiNW04EL78UL4lkVgd",
+      "source": "node-opa61u9gYgSpoPtxp58wu",
+      "target": "node-yI6XiNW04EL78UL4lkVgd",
+      "animated": true
+    },
+    {
+      "id": "edge-node-yI6XiNW04EL78UL4lkVgd-node-WREBxWSNQDD_6fzpHL6CE",
+      "source": "node-yI6XiNW04EL78UL4lkVgd",
+      "target": "node-WREBxWSNQDD_6fzpHL6CE",
+      "animated": true
+    },
+    {
+      "id": "edge-node-WREBxWSNQDD_6fzpHL6CE-node-HeWVCPHqVnnbOn6zIim4K",
+      "source": "node-WREBxWSNQDD_6fzpHL6CE",
+      "target": "node-HeWVCPHqVnnbOn6zIim4K",
+      "animated": true
+    },
+    {
+      "id": "edge-node-HeWVCPHqVnnbOn6zIim4K-node-gy7eBxPOlwG8BvxHVLDQ9",
+      "source": "node-HeWVCPHqVnnbOn6zIim4K",
+      "target": "node-gy7eBxPOlwG8BvxHVLDQ9",
+      "animated": true
+    },
+    {
+      "id": "edge-node-gy7eBxPOlwG8BvxHVLDQ9-node-txARr3lgTvy-vJCj5zAb1",
+      "source": "node-gy7eBxPOlwG8BvxHVLDQ9",
+      "target": "node-txARr3lgTvy-vJCj5zAb1",
+      "animated": true
+    },
+    {
+      "id": "edge-node-txARr3lgTvy-vJCj5zAb1-node-1kbrCI5JS0c9wbzxXpgFU",
+      "source": "node-txARr3lgTvy-vJCj5zAb1",
+      "target": "node-1kbrCI5JS0c9wbzxXpgFU",
+      "animated": true
+    },
+    {
+      "id": "edge-node-1kbrCI5JS0c9wbzxXpgFU-node-HdWq9ue0JdwmwqSIN2OD_",
+      "source": "node-1kbrCI5JS0c9wbzxXpgFU",
+      "target": "node-HdWq9ue0JdwmwqSIN2OD_",
+      "animated": true
+    },
+    {
+      "id": "edge-node-HdWq9ue0JdwmwqSIN2OD_-node-akVNUPOqaTXaSHoQFlkP_",
+      "source": "node-HdWq9ue0JdwmwqSIN2OD_",
+      "target": "node-akVNUPOqaTXaSHoQFlkP_",
+      "animated": true
+    },
+    {
+      "id": "edge-node-akVNUPOqaTXaSHoQFlkP_-node-g39P0c6M2sHNoUPs0m8tr",
+      "source": "node-akVNUPOqaTXaSHoQFlkP_",
+      "target": "node-g39P0c6M2sHNoUPs0m8tr",
+      "animated": true
+    },
+    {
+      "id": "edge-node-g39P0c6M2sHNoUPs0m8tr-node-DcDggX4OmmwvJGHwuV86t",
+      "source": "node-g39P0c6M2sHNoUPs0m8tr",
+      "target": "node-DcDggX4OmmwvJGHwuV86t",
+      "animated": true
+    },
+    {
+      "id": "edge-node-DcDggX4OmmwvJGHwuV86t-node-RFuy3Eho3mnW1GpP08BVw",
+      "source": "node-DcDggX4OmmwvJGHwuV86t",
+      "target": "node-RFuy3Eho3mnW1GpP08BVw",
+      "animated": true
+    },
+    {
+      "id": "edge-node-RFuy3Eho3mnW1GpP08BVw-node-XL9XOV2h0BAuA5cFcM5L_",
+      "source": "node-RFuy3Eho3mnW1GpP08BVw",
+      "target": "node-XL9XOV2h0BAuA5cFcM5L_",
+      "animated": true
+    },
+    {
+      "id": "edge-node-XL9XOV2h0BAuA5cFcM5L_-node-RvDfKoa_HIW3QDBfkPv3m",
+      "source": "node-XL9XOV2h0BAuA5cFcM5L_",
+      "target": "node-RvDfKoa_HIW3QDBfkPv3m",
+      "animated": true
+    },
+    {
+      "id": "edge-node-RvDfKoa_HIW3QDBfkPv3m-node-_5ht0PAdVOJWPzTRS1mVg",
+      "source": "node-RvDfKoa_HIW3QDBfkPv3m",
+      "target": "node-_5ht0PAdVOJWPzTRS1mVg",
+      "animated": true
+    },
+    {
+      "id": "edge-node-_5ht0PAdVOJWPzTRS1mVg-node-NvXAq1vN2wpncdW-yTL4c",
+      "source": "node-_5ht0PAdVOJWPzTRS1mVg",
+      "target": "node-NvXAq1vN2wpncdW-yTL4c",
+      "animated": true
+    },
+    {
+      "id": "edge-node-NvXAq1vN2wpncdW-yTL4c-node--WjJBYCmRRj08n_9HxohY",
+      "source": "node-NvXAq1vN2wpncdW-yTL4c",
+      "target": "node--WjJBYCmRRj08n_9HxohY",
+      "animated": true
+    },
+    {
+      "id": "edge-node--WjJBYCmRRj08n_9HxohY-node-jvp43wFkKlGQX2y7IxkbM",
+      "source": "node--WjJBYCmRRj08n_9HxohY",
+      "target": "node-jvp43wFkKlGQX2y7IxkbM",
+      "animated": true
+    },
+    {
+      "id": "edge-node-jvp43wFkKlGQX2y7IxkbM-node-WzoB5B6SdOI4Mzv6U51nY",
+      "source": "node-jvp43wFkKlGQX2y7IxkbM",
+      "target": "node-WzoB5B6SdOI4Mzv6U51nY",
+      "animated": true
+    },
+    {
+      "id": "edge-node-WzoB5B6SdOI4Mzv6U51nY-node-cQllxv7qGbRtM9O5llgN6",
+      "source": "node-WzoB5B6SdOI4Mzv6U51nY",
+      "target": "node-cQllxv7qGbRtM9O5llgN6",
+      "animated": true
+    },
+    {
+      "id": "edge-node-cQllxv7qGbRtM9O5llgN6-node-_zNAOhFWMcWqP4oxNPCXF",
+      "source": "node-cQllxv7qGbRtM9O5llgN6",
+      "target": "node-_zNAOhFWMcWqP4oxNPCXF",
+      "animated": true
+    },
+    {
+      "id": "edge-node-_zNAOhFWMcWqP4oxNPCXF-node-cLfM342sZfsCwmPPxQpEI",
+      "source": "node-_zNAOhFWMcWqP4oxNPCXF",
+      "target": "node-cLfM342sZfsCwmPPxQpEI",
+      "animated": true
+    },
+    {
+      "id": "edge-node-cLfM342sZfsCwmPPxQpEI-node-vdumdIglnouf1KyGIGZnc",
+      "source": "node-cLfM342sZfsCwmPPxQpEI",
+      "target": "node-vdumdIglnouf1KyGIGZnc",
+      "animated": true
+    },
+    {
+      "id": "edge-node-vdumdIglnouf1KyGIGZnc-node-0uiGsC5SWavNdlFqizkKe",
+      "source": "node-vdumdIglnouf1KyGIGZnc",
+      "target": "node-0uiGsC5SWavNdlFqizkKe",
+      "animated": true
+    },
+    {
+      "id": "edge-node-0uiGsC5SWavNdlFqizkKe-node-NStw6bi_pPB49K41BFSgo",
+      "source": "node-0uiGsC5SWavNdlFqizkKe",
+      "target": "node-NStw6bi_pPB49K41BFSgo",
+      "animated": true
+    },
+    {
+      "id": "edge-node-NStw6bi_pPB49K41BFSgo-node-h49-tjEkKcq7d7ikRHIOx",
+      "source": "node-NStw6bi_pPB49K41BFSgo",
+      "target": "node-h49-tjEkKcq7d7ikRHIOx",
+      "animated": true
+    },
+    {
+      "id": "edge-node-h49-tjEkKcq7d7ikRHIOx-node-SUeXDkmOLipdRP4fSrZOH",
+      "source": "node-h49-tjEkKcq7d7ikRHIOx",
+      "target": "node-SUeXDkmOLipdRP4fSrZOH",
+      "animated": true
+    },
+    {
+      "id": "edge-node-SUeXDkmOLipdRP4fSrZOH-node-njKsYNkwTXPQ1NjlGKXab",
+      "source": "node-SUeXDkmOLipdRP4fSrZOH",
+      "target": "node-njKsYNkwTXPQ1NjlGKXab",
+      "animated": true
+    },
+    {
+      "id": "edge-node-njKsYNkwTXPQ1NjlGKXab-node-I7_mX4h-Yywp1YyTJRKXI",
+      "source": "node-njKsYNkwTXPQ1NjlGKXab",
+      "target": "node-I7_mX4h-Yywp1YyTJRKXI",
+      "animated": true
+    },
+    {
+      "id": "edge-node-I7_mX4h-Yywp1YyTJRKXI-node-_F3WMxhzaK9F8_-zHDDMF",
+      "source": "node-I7_mX4h-Yywp1YyTJRKXI",
+      "target": "node-_F3WMxhzaK9F8_-zHDDMF",
+      "animated": true
+    },
+    {
+      "id": "edge-node-_F3WMxhzaK9F8_-zHDDMF-node--ea1KsXEyz-4voHXklG_J",
+      "source": "node-_F3WMxhzaK9F8_-zHDDMF",
+      "target": "node--ea1KsXEyz-4voHXklG_J",
+      "animated": true
+    },
+    {
+      "id": "edge-node--ea1KsXEyz-4voHXklG_J-node-KO3viVIJJREtxXxsocN7j",
+      "source": "node--ea1KsXEyz-4voHXklG_J",
+      "target": "node-KO3viVIJJREtxXxsocN7j",
+      "animated": true
+    },
+    {
+      "id": "edge-node-KO3viVIJJREtxXxsocN7j-node-5EPmbiNdP_vhIXclv_GjV",
+      "source": "node-KO3viVIJJREtxXxsocN7j",
+      "target": "node-5EPmbiNdP_vhIXclv_GjV",
+      "animated": true
+    },
+    {
+      "id": "edge-node-5EPmbiNdP_vhIXclv_GjV-node-zWL8VLx_g0SWubavJDs6i",
+      "source": "node-5EPmbiNdP_vhIXclv_GjV",
+      "target": "node-zWL8VLx_g0SWubavJDs6i",
+      "animated": true
+    },
+    {
+      "id": "edge-node-zWL8VLx_g0SWubavJDs6i-node-e_lwZ-a72-tAan2KDX6k3",
+      "source": "node-zWL8VLx_g0SWubavJDs6i",
+      "target": "node-e_lwZ-a72-tAan2KDX6k3",
+      "animated": true
+    },
+    {
+      "id": "edge-node-e_lwZ-a72-tAan2KDX6k3-node-UNlvRp6k3_RDoTAAIEfJ1",
+      "source": "node-e_lwZ-a72-tAan2KDX6k3",
+      "target": "node-UNlvRp6k3_RDoTAAIEfJ1",
+      "animated": true
+    },
+    {
+      "id": "edge-node-UNlvRp6k3_RDoTAAIEfJ1-node-ElgRwv5LSVg5FXGx-2K2s",
+      "source": "node-UNlvRp6k3_RDoTAAIEfJ1",
+      "target": "node-ElgRwv5LSVg5FXGx-2K2s",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ElgRwv5LSVg5FXGx-2K2s-node-9M5jRu0pj8KMvg9f-2oqZ",
+      "source": "node-ElgRwv5LSVg5FXGx-2K2s",
+      "target": "node-9M5jRu0pj8KMvg9f-2oqZ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-9M5jRu0pj8KMvg9f-2oqZ-node-dgoDNDtW2_q9R9yhkXrcz",
+      "source": "node-9M5jRu0pj8KMvg9f-2oqZ",
+      "target": "node-dgoDNDtW2_q9R9yhkXrcz",
+      "animated": true
+    },
+    {
+      "id": "edge-node-dgoDNDtW2_q9R9yhkXrcz-node-D5_O-uElftYGQr_bTU_se",
+      "source": "node-dgoDNDtW2_q9R9yhkXrcz",
+      "target": "node-D5_O-uElftYGQr_bTU_se",
+      "animated": true
+    },
+    {
+      "id": "edge-node-D5_O-uElftYGQr_bTU_se-node-8OnzX03hkZ9K9i__tjmFX",
+      "source": "node-D5_O-uElftYGQr_bTU_se",
+      "target": "node-8OnzX03hkZ9K9i__tjmFX",
+      "animated": true
+    },
+    {
+      "id": "edge-node-8OnzX03hkZ9K9i__tjmFX-node-w3bNp7OkehI1gjx8NzlC8",
+      "source": "node-8OnzX03hkZ9K9i__tjmFX",
+      "target": "node-w3bNp7OkehI1gjx8NzlC8",
+      "animated": true
+    },
+    {
+      "id": "edge-node-w3bNp7OkehI1gjx8NzlC8-node-v48Mv0wQqjXbvy8x6gDjQ",
+      "source": "node-w3bNp7OkehI1gjx8NzlC8",
+      "target": "node-v48Mv0wQqjXbvy8x6gDjQ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-v48Mv0wQqjXbvy8x6gDjQ-node-t_laNdMmdLApYszqXRdWg",
+      "source": "node-v48Mv0wQqjXbvy8x6gDjQ",
+      "target": "node-t_laNdMmdLApYszqXRdWg",
+      "animated": true
+    },
+    {
+      "id": "edge-node-t_laNdMmdLApYszqXRdWg-node-FK59Zsm5ENA9g11XWCan_",
+      "source": "node-t_laNdMmdLApYszqXRdWg",
+      "target": "node-FK59Zsm5ENA9g11XWCan_",
+      "animated": true
+    },
+    {
+      "id": "edge-node-FK59Zsm5ENA9g11XWCan_-node-YEpkbNzEMzS6wAKg85J_N",
+      "source": "node-FK59Zsm5ENA9g11XWCan_",
+      "target": "node-YEpkbNzEMzS6wAKg85J_N",
+      "animated": true
+    },
+    {
+      "id": "edge-node-YEpkbNzEMzS6wAKg85J_N-node-y9ToYDix-koRbR6FLydFw",
+      "source": "node-YEpkbNzEMzS6wAKg85J_N",
+      "target": "node-y9ToYDix-koRbR6FLydFw",
+      "animated": true
+    },
+    {
+      "id": "edge-node-y9ToYDix-koRbR6FLydFw-node-LULjhsPNONyI5912DKzPw",
+      "source": "node-y9ToYDix-koRbR6FLydFw",
+      "target": "node-LULjhsPNONyI5912DKzPw",
+      "animated": true
+    },
+    {
+      "id": "edge-node-LULjhsPNONyI5912DKzPw-node-DfrCkbD-HEHwLymv10zb5",
+      "source": "node-LULjhsPNONyI5912DKzPw",
+      "target": "node-DfrCkbD-HEHwLymv10zb5",
+      "animated": true
+    },
+    {
+      "id": "edge-node-DfrCkbD-HEHwLymv10zb5-node-K3RZ8ESxWCpLKHePF87Hy",
+      "source": "node-DfrCkbD-HEHwLymv10zb5",
+      "target": "node-K3RZ8ESxWCpLKHePF87Hy",
+      "animated": true
+    },
+    {
+      "id": "edge-node-K3RZ8ESxWCpLKHePF87Hy-node-nl5imPsdY2oEWlg-9TTuk",
+      "source": "node-K3RZ8ESxWCpLKHePF87Hy",
+      "target": "node-nl5imPsdY2oEWlg-9TTuk",
+      "animated": true
+    }
+  ],
+  "topics": {
+    "bRpeoo9zXrnZ2IHSI7JX4": {
+      "id": "bRpeoo9zXrnZ2IHSI7JX4",
+      "slug": "animation",
+      "title": "Animation",
+      "description": "Animation in React can be achieved using various methods, such as CSS transitions, keyframes, or libraries like `react-spring`, `framer-motion`, and `GSAP` (GreenSock Animation Platform). CSS transitions are ideal for simple animations, where you can toggle classes or manipulate inline styles to create smooth transitions. For more complex and interactive animations, libraries like `react-spring` provide a declarative approach, allowing you to create animations by defining spring physics or interpolating values. `framer-motion` offers a rich API to handle complex animations, gestures, and even layout transitions with ease. `GSAP` is another powerful library that excels at creating high-performance animations, offering fine-grained control over every aspect of the animation process. These tools integrate seamlessly with React's component-driven architecture, enabling you to create responsive and dynamic user interfaces.",
+      "resources": [
+        {
+          "id": "bRpeoo9zXrnZ2IHSI7JX4-res-1",
+          "type": "article",
+          "title": "Framer Motion Docs",
+          "url": "https://www.framer.com/motion/"
+        },
+        {
+          "id": "bRpeoo9zXrnZ2IHSI7JX4-res-2",
+          "type": "article",
+          "title": "GSAP Docs",
+          "url": "https://gsap.com/docs/v3/"
+        },
+        {
+          "id": "bRpeoo9zXrnZ2IHSI7JX4-res-3",
+          "type": "article",
+          "title": "React Spring Docs",
+          "url": "https://www.react-spring.dev/docs/getting-started"
+        }
+      ]
+    },
+    "b4AP2OggxFAwsQtUwiUJJ": {
+      "id": "b4AP2OggxFAwsQtUwiUJJ",
+      "slug": "api-calls",
+      "title": "API Calls",
+      "description": "APIs, short for Application Programming Interfaces, are software-to-software interfaces. Meaning, they allow different applications to talk to each other and exchange information or functionality. This allows businesses to access another business’s data, piece of code, software, or services in order to extend the functionality of their own products — all while saving time and money. There are several options available to make API calls from your React.js applications.",
+      "resources": [
+        {
+          "id": "b4AP2OggxFAwsQtUwiUJJ-res-1",
+          "type": "article",
+          "title": "AJAX and APIs",
+          "url": "https://reactjs.org/docs/faq-ajax.html"
+        },
+        {
+          "id": "b4AP2OggxFAwsQtUwiUJJ-res-2",
+          "type": "article",
+          "title": "How to fetch data in React",
+          "url": "https://www.robinwieruch.de/react-hooks-fetch-data/"
+        }
+      ]
+    },
+    "8nMbfGxe3STMbrAVcqHHh": {
+      "id": "8nMbfGxe3STMbrAVcqHHh",
+      "slug": "apollo",
+      "title": "Apollo",
+      "description": "Apollo is a platform for building a unified graph, a communication layer that helps you manage the flow of data between your application clients (such as web and native apps) and your back-end services.",
+      "resources": [
+        {
+          "id": "8nMbfGxe3STMbrAVcqHHh-res-1",
+          "type": "article",
+          "title": "Apollo Website",
+          "url": "https://www.apollographql.com"
+        },
+        {
+          "id": "8nMbfGxe3STMbrAVcqHHh-res-2",
+          "type": "article",
+          "title": "Official Docs",
+          "url": "https://www.apollographql.com/docs/"
+        },
+        {
+          "id": "8nMbfGxe3STMbrAVcqHHh-res-3",
+          "type": "video",
+          "title": "Official YouTube Channel",
+          "url": "https://www.youtube.com/c/ApolloGraphQL/"
+        },
+        {
+          "id": "8nMbfGxe3STMbrAVcqHHh-res-4",
+          "type": "video",
+          "title": "GraphQL With React Tutorial - Apollo Client",
+          "url": "https://www.youtube.com/watch?v=YyUWW04HwKY"
+        },
+        {
+          "id": "8nMbfGxe3STMbrAVcqHHh-res-5",
+          "type": "article",
+          "title": "Explore top posts about Apollo",
+          "url": "https://app.daily.dev/tags/apollo?ref=roadmapsh"
+        }
+      ]
+    },
+    "kiCTo0U6VgNON8rv_Ktlj": {
+      "id": "kiCTo0U6VgNON8rv_Ktlj",
+      "slug": "ark-ui",
+      "title": "Ark UI",
+      "description": "It is a modern and versatile user interface framework designed to streamline the development of responsive and accessible web applications. It provides a `comprehensive set` of components and tools that simplify the process of building user interfaces, allowing developers to focus on functionality and design. With a strong emphasis on flexibility and ease of use, Ark UI enables rapid prototyping and `scalable solutions`, ensuring a consistent and polished user experience across various devices and platforms. Its modular architecture and extensive documentation make it an excellent choice for developers looking to enhance productivity and maintain high standards in their UI design.",
+      "resources": [
+        {
+          "id": "kiCTo0U6VgNON8rv_Ktlj-res-1",
+          "type": "article",
+          "title": "Official Website",
+          "url": "https://ark-ui.com/"
+        },
+        {
+          "id": "kiCTo0U6VgNON8rv_Ktlj-res-2",
+          "type": "article",
+          "title": "Official Website",
+          "url": "https://ark-ui.com/react/docs/overview/introduction"
+        },
+        {
+          "id": "kiCTo0U6VgNON8rv_Ktlj-res-3",
+          "type": "article",
+          "title": "What is ARK UI?",
+          "url": "https://shaxadd.medium.com/enhance-your-user-interfaces-with-ark-ui-a-comprehensive-guide-7e87dd0a79cf"
+        },
+        {
+          "id": "kiCTo0U6VgNON8rv_Ktlj-res-4",
+          "type": "video",
+          "title": "Hands On ARK UI",
+          "url": "https://www.youtube.com/watch?v=zjo-77I0unk"
+        }
+      ]
+    },
+    "_HoZkE7FH-v3wI_722ZTF": {
+      "id": "_HoZkE7FH-v3wI_722ZTF",
+      "slug": "astro",
+      "title": "Astro",
+      "description": "Astro is the web framework for building content-driven websites like blogs, marketing, and e-commerce. Astro is best-known for pioneering a new frontend architecture to reduce JavaScript overhead and complexity compared to other frameworks. If you need a website that loads fast and has great SEO, then Astro is for you.",
+      "resources": [
+        {
+          "id": "_HoZkE7FH-v3wI_722ZTF-res-1",
+          "type": "article",
+          "title": "Astro Website",
+          "url": "https://astro.build/"
+        },
+        {
+          "id": "_HoZkE7FH-v3wI_722ZTF-res-2",
+          "type": "video",
+          "title": "Astro Crash Course in 60 Minutes",
+          "url": "https://www.youtube.com/watch?v=NniT0vKyn-E"
+        },
+        {
+          "id": "_HoZkE7FH-v3wI_722ZTF-res-3",
+          "type": "video",
+          "title": "How To: Add/Integrate React.js and TailwindCss into Astro framework",
+          "url": "https://www.youtube.com/watch?v=d6CsWTVa42o"
+        }
+      ]
+    },
+    "ElqWQClryfSYdL7P_mgYK": {
+      "id": "ElqWQClryfSYdL7P_mgYK",
+      "slug": "axios",
+      "title": "Axios",
+      "description": "The most common way for frontend programs to communicate with servers is through the HTTP protocol. You are probably familiar with the Fetch API and the XMLHttpRequest interface, which allows you to fetch resources and make HTTP requests. Axios is a client HTTP API based on the XMLHttpRequest interface provided by browsers.",
+      "resources": [
+        {
+          "id": "ElqWQClryfSYdL7P_mgYK-res-1",
+          "type": "article",
+          "title": "Axios Getting Started",
+          "url": "https://axios-http.com/docs/intro"
+        },
+        {
+          "id": "ElqWQClryfSYdL7P_mgYK-res-2",
+          "type": "article",
+          "title": "How to make HTTP requests with Axios",
+          "url": "https://blog.logrocket.com/how-to-make-http-requests-like-a-pro-with-axios/#why"
+        },
+        {
+          "id": "ElqWQClryfSYdL7P_mgYK-res-3",
+          "type": "article",
+          "title": "Explore top posts about Axios",
+          "url": "https://app.daily.dev/tags/axios?ref=roadmapsh"
+        }
+      ]
+    },
+    "uqphqAnlcJOLnwHZs5jWu": {
+      "id": "uqphqAnlcJOLnwHZs5jWu",
+      "slug": "chakra-ui",
+      "title": "Chakra UI",
+      "description": "Chakra UI is a simple, modular and accessible component library that gives you the building blocks you need to build your React applications.",
+      "resources": [
+        {
+          "id": "uqphqAnlcJOLnwHZs5jWu-res-1",
+          "type": "article",
+          "title": "Chakra UI Website",
+          "url": "https://chakra-ui.com/"
+        },
+        {
+          "id": "uqphqAnlcJOLnwHZs5jWu-res-2",
+          "type": "article",
+          "title": "Chakra UI Official Getting Started",
+          "url": "https://chakra-ui.com/docs/getting-started"
+        },
+        {
+          "id": "uqphqAnlcJOLnwHZs5jWu-res-3",
+          "type": "video",
+          "title": "Official Getting Started Video",
+          "url": "https://youtu.be/wI2vqXsjsIo"
+        },
+        {
+          "id": "uqphqAnlcJOLnwHZs5jWu-res-4",
+          "type": "video",
+          "title": "Chakra UI Crash Course",
+          "url": "https://youtu.be/s-bIsz-NR3c"
+        }
+      ]
+    },
+    "tU4Umtnfu01t9gLlnlK6b": {
+      "id": "tU4Umtnfu01t9gLlnlK6b",
+      "slug": "cli-tools",
+      "title": "CLI Tools",
+      "description": "Comprehensive guide and learning curriculum for CLI Tools.",
+      "resources": [
+        {
+          "id": "tU4Umtnfu01t9gLlnlK6b-res-1",
+          "type": "article",
+          "title": "vite",
+          "url": "https://vitejs.dev"
+        },
+        {
+          "id": "tU4Umtnfu01t9gLlnlK6b-res-2",
+          "type": "article",
+          "title": "Explore top posts about CLI",
+          "url": "https://app.daily.dev/tags/cli?ref=roadmapsh"
+        }
+      ]
+    },
+    "thfnymb_UIiKxakKfiua5": {
+      "id": "thfnymb_UIiKxakKfiua5",
+      "slug": "component--libraries",
+      "title": "Component / Libraries",
+      "description": "React component libraries are collections of pre-built, reusable components that can be used to speed up the development process. They can be styled using CSS in various ways, including traditional CSS files, CSS modules, and CSS-in-JS solutions like styled-components.",
+      "resources": [
+        {
+          "id": "thfnymb_UIiKxakKfiua5-res-1",
+          "type": "article",
+          "title": "MUI: React Component Library",
+          "url": "https://mui.com/"
+        },
+        {
+          "id": "thfnymb_UIiKxakKfiua5-res-2",
+          "type": "article",
+          "title": "NextUI.org",
+          "url": "https://nextui.org/"
+        }
+      ]
+    },
+    "8OBlgDRUg-CTgDXY-QHyO": {
+      "id": "8OBlgDRUg-CTgDXY-QHyO",
+      "slug": "component-lifecycle",
+      "title": "Component Life Cycle",
+      "description": "React components have a lifecycle consisting of three phases: Mounting, Updating, and Unmounting along with several “lifecycle methods” that you can override to run code at particular times in the process. It is not recommended to use lifecycle methods manually. Instead, use the useEffect hook with functional components.",
+      "resources": [
+        {
+          "id": "8OBlgDRUg-CTgDXY-QHyO-res-1",
+          "type": "article",
+          "title": "Lifecycle of Reactive Effects",
+          "url": "https://react.dev/learn/lifecycle-of-reactive-effects"
+        },
+        {
+          "id": "8OBlgDRUg-CTgDXY-QHyO-res-2",
+          "type": "article",
+          "title": "Class Component",
+          "url": "https://react.dev/reference/react/Component"
+        },
+        {
+          "id": "8OBlgDRUg-CTgDXY-QHyO-res-3",
+          "type": "article",
+          "title": "React component lifecycle: React lifecycle methods & hooks",
+          "url": "https://tsh.io/blog/react-component-lifecycle-methods-vs-hooks/"
+        },
+        {
+          "id": "8OBlgDRUg-CTgDXY-QHyO-res-4",
+          "type": "article",
+          "title": "The React lifecycle: methods and hooks explained",
+          "url": "https://retool.com/blog/the-react-lifecycle-methods-and-hooks-explained#react-hooks-and-the-component-lifecycle"
+        },
+        {
+          "id": "8OBlgDRUg-CTgDXY-QHyO-res-5",
+          "type": "article",
+          "title": "React Lifecycle: Methods & Hooks In Detail",
+          "url": "https://www.bairesdev.com/blog/react-lifecycle-methods-hooks/"
+        },
+        {
+          "id": "8OBlgDRUg-CTgDXY-QHyO-res-6",
+          "type": "article",
+          "title": "lifecycle diagram",
+          "url": "https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/"
+        }
+      ]
+    },
+    "79K4xgljcoSHkCYI1D55O": {
+      "id": "79K4xgljcoSHkCYI1D55O",
+      "slug": "components",
+      "title": "Components",
+      "description": "Components are the building blocks of React applications. They let us split the UI into independent, reusable pieces, and think about each piece in isolation.",
+      "resources": [
+        {
+          "id": "79K4xgljcoSHkCYI1D55O-res-1",
+          "type": "article",
+          "title": "Creating and nesting components",
+          "url": "https://react.dev/learn#components"
+        },
+        {
+          "id": "79K4xgljcoSHkCYI1D55O-res-2",
+          "type": "article",
+          "title": "Explore the different types of components in React",
+          "url": "https://www.robinwieruch.de/react-component-types/"
+        },
+        {
+          "id": "79K4xgljcoSHkCYI1D55O-res-3",
+          "type": "article",
+          "title": "What is the difference between components, elements, and instances?",
+          "url": "https://www.robinwieruch.de/react-element-component/"
+        },
+        {
+          "id": "79K4xgljcoSHkCYI1D55O-res-4",
+          "type": "video",
+          "title": "Components & Templates in React",
+          "url": "https://www.youtube.com/watch?v=9D1x7-2FmTA"
+        }
+      ]
+    },
+    "4T59gdcwdXqj9kCuK7cfp": {
+      "id": "4T59gdcwdXqj9kCuK7cfp",
+      "slug": "composition",
+      "title": "Composition vs Inheritance",
+      "description": "React has a powerful composition model, and it is recommended to use composition instead of inheritance to reuse code between components.",
+      "resources": [
+        {
+          "id": "4T59gdcwdXqj9kCuK7cfp-res-1",
+          "type": "article",
+          "title": "Passing JSX as children",
+          "url": "https://react.dev/learn/passing-props-to-a-component#passing-jsx-as-children"
+        },
+        {
+          "id": "4T59gdcwdXqj9kCuK7cfp-res-2",
+          "type": "article",
+          "title": "Composition vs Inheritance",
+          "url": "https://reactjs.org/docs/composition-vs-inheritance.html"
+        },
+        {
+          "id": "4T59gdcwdXqj9kCuK7cfp-res-3",
+          "type": "article",
+          "title": "How to perform component composition in React",
+          "url": "https://www.robinwieruch.de/react-component-composition/"
+        },
+        {
+          "id": "4T59gdcwdXqj9kCuK7cfp-res-4",
+          "type": "article",
+          "title": "Achieving Reusability With React Composition",
+          "url": "https://formidable.com/blog/2021/react-composition/"
+        }
+      ]
+    },
+    "aE6XBgH23135_9QmD4ff2": {
+      "id": "aE6XBgH23135_9QmD4ff2",
+      "slug": "conditional-rendering",
+      "title": "Conditional Rendering",
+      "description": "In React, you can create distinct components that encapsulate behavior you need. Then, you can render only some of them, depending on the state of your application. Conditional rendering in React works the same way conditions work in JavaScript. Use JavaScript operators like [if](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else) or the [conditional operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator) to create elements representing the current state, and let React update the UI to match them.",
+      "resources": [
+        {
+          "id": "aE6XBgH23135_9QmD4ff2-res-1",
+          "type": "article",
+          "title": "Conditional Rendering",
+          "url": "https://react.dev/learn/conditional-rendering"
+        },
+        {
+          "id": "aE6XBgH23135_9QmD4ff2-res-2",
+          "type": "article",
+          "title": "Different techniques for conditional rendering in React",
+          "url": "https://www.robinwieruch.de/conditional-rendering-react/"
+        },
+        {
+          "id": "aE6XBgH23135_9QmD4ff2-res-3",
+          "type": "video",
+          "title": "Conditional rendering in React",
+          "url": "https://www.youtube.com/watch?v=4oCVDkb_EIs"
+        }
+      ]
+    },
+    "10uL0r388lKh8pWYWqRZD": {
+      "id": "10uL0r388lKh8pWYWqRZD",
+      "slug": "context",
+      "title": "Context",
+      "description": "Context provides a way to pass data through the component tree without having to pass props down manually at every level. In a typical React application, data is passed top-down (parent to child) via props, but such usage can be cumbersome for certain types of props (e.g. locale preference, UI theme) that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.",
+      "resources": [
+        {
+          "id": "10uL0r388lKh8pWYWqRZD-res-1",
+          "type": "article",
+          "title": "Passing Data Deeply with Context",
+          "url": "https://react.dev/learn/passing-data-deeply-with-context"
+        },
+        {
+          "id": "10uL0r388lKh8pWYWqRZD-res-2",
+          "type": "article",
+          "title": "State with useContext and useState/useReducer",
+          "url": "https://www.robinwieruch.de/react-state-usereducer-usestate-usecontext/"
+        },
+        {
+          "id": "10uL0r388lKh8pWYWqRZD-res-3",
+          "type": "video",
+          "title": "React Context API Crash Course",
+          "url": "https://www.youtube.com/watch?v=t9WmZFnE6Hg"
+        }
+      ]
+    },
+    "HX75SExuzR5AP7TQ94qid": {
+      "id": "HX75SExuzR5AP7TQ94qid",
+      "slug": "creating-custom-hooks",
+      "title": "Writing Custom Hooks",
+      "description": "Building your own Hooks lets you extract component logic into reusable functions.",
+      "resources": [
+        {
+          "id": "HX75SExuzR5AP7TQ94qid-res-1",
+          "type": "article",
+          "title": "Reusing Logic with Custom Hooks",
+          "url": "https://react.dev/learn/reusing-logic-with-custom-hooks"
+        },
+        {
+          "id": "HX75SExuzR5AP7TQ94qid-res-2",
+          "type": "article",
+          "title": "How to create a custom Hook (2) followed by Examples",
+          "url": "https://www.robinwieruch.de/react-custom-hook/"
+        },
+        {
+          "id": "HX75SExuzR5AP7TQ94qid-res-3",
+          "type": "video",
+          "title": "Custom Hooks in React",
+          "url": "https://www.youtube.com/watch?v=I2Bgi0Qcdvc"
+        },
+        {
+          "id": "HX75SExuzR5AP7TQ94qid-res-4",
+          "type": "article",
+          "title": "Explore top posts about React Hooks",
+          "url": "https://app.daily.dev/tags/react-hooks?ref=roadmapsh"
+        }
+      ]
+    },
+    "awoEhwPKjUcR84XGL6Som": {
+      "id": "awoEhwPKjUcR84XGL6Som",
+      "slug": "css-modules",
+      "title": "CSS Modules",
+      "description": "CSS files in which all class names and animation names are scoped locally by default.",
+      "resources": [
+        {
+          "id": "awoEhwPKjUcR84XGL6Som-res-1",
+          "type": "article",
+          "title": "Project GitHub Repository",
+          "url": "https://github.com/css-modules/css-modules"
+        },
+        {
+          "id": "awoEhwPKjUcR84XGL6Som-res-2",
+          "type": "article",
+          "title": "Using CSS Modules In React App",
+          "url": "https://medium.com/@ralph1786/using-css-modules-in-react-app-c2079eadbb87"
+        },
+        {
+          "id": "awoEhwPKjUcR84XGL6Som-res-3",
+          "type": "video",
+          "title": "CSS Modules: Why are they great?",
+          "url": "https://www.youtube.com/watch?v=pKMWU9OrA2s"
+        },
+        {
+          "id": "awoEhwPKjUcR84XGL6Som-res-4",
+          "type": "article",
+          "title": "Explore top posts about CSS",
+          "url": "https://app.daily.dev/tags/css?ref=roadmapsh"
+        }
+      ]
+    },
+    "zN7Ps1puD-YpHbKi1pHH8": {
+      "id": "zN7Ps1puD-YpHbKi1pHH8",
+      "slug": "cypress",
+      "title": "Cypress",
+      "description": "Cypress framework is a JavaScript-based end-to-end testing framework built on top of Mocha – a feature-rich JavaScript test framework running on and in the browser, making asynchronous testing simple and convenient. It also uses a BDD/TDD assertion library and a browser to pair with any JavaScript testing framework.",
+      "resources": [
+        {
+          "id": "zN7Ps1puD-YpHbKi1pHH8-res-1",
+          "type": "article",
+          "title": "Official Website",
+          "url": "https://www.cypress.io/"
+        },
+        {
+          "id": "zN7Ps1puD-YpHbKi1pHH8-res-2",
+          "type": "article",
+          "title": "Official Documentation",
+          "url": "https://docs.cypress.io/guides/overview/why-cypress#Other"
+        },
+        {
+          "id": "zN7Ps1puD-YpHbKi1pHH8-res-3",
+          "type": "video",
+          "title": "Cypress End-to-End Testing",
+          "url": "https://www.youtube.com/watch?v=7N63cMKosIE"
+        },
+        {
+          "id": "zN7Ps1puD-YpHbKi1pHH8-res-4",
+          "type": "article",
+          "title": "Explore top posts about Cypress",
+          "url": "https://app.daily.dev/tags/cypress?ref=roadmapsh"
+        }
+      ]
+    },
+    "gMHMjsh0i8paLZUH5mDX3": {
+      "id": "gMHMjsh0i8paLZUH5mDX3",
+      "slug": "error-boundaries",
+      "title": "Error Boundaries",
+      "description": "In the past, JavaScript errors inside components used to corrupt React’s internal state and cause it to emit cryptic errors on next renders. These errors were always caused by an earlier error in the application code, but React did not provide a way to handle them gracefully in components, and could not recover from them. Error boundaries are React components that catch JavaScript errors anywhere in their child component tree, log those errors, and display a fallback UI instead of the component tree that crashed. Error boundaries catch errors during rendering, in lifecycle methods, and in constructors of the whole tree below them.",
+      "resources": [
+        {
+          "id": "gMHMjsh0i8paLZUH5mDX3-res-1",
+          "type": "article",
+          "title": "Error Boundaries in React",
+          "url": "https://react.dev/reference/react/Component#catching-rendering-errors-with-an-error-boundary"
+        }
+      ]
+    },
+    "Nex2HcTOYIbfqUzXyxSMY": {
+      "id": "Nex2HcTOYIbfqUzXyxSMY",
+      "slug": "events",
+      "title": "Events",
+      "description": "Handling events with React elements is very similar to handling events on DOM elements. There are some syntax differences: *   React events are named using camelCase, rather than lowercase. *   With JSX you pass a function as the event handler, rather than a string.",
+      "resources": [
+        {
+          "id": "Nex2HcTOYIbfqUzXyxSMY-res-1",
+          "type": "article",
+          "title": "Responding to Events",
+          "url": "https://react.dev/learn/responding-to-events"
+        },
+        {
+          "id": "Nex2HcTOYIbfqUzXyxSMY-res-2",
+          "type": "article",
+          "title": "React Event Object (Synthetic Event)",
+          "url": "https://react.dev/reference/react-dom/components/common#react-event-object"
+        },
+        {
+          "id": "Nex2HcTOYIbfqUzXyxSMY-res-3",
+          "type": "article",
+          "title": "React Event Handler",
+          "url": "https://www.robinwieruch.de/react-event-handler/"
+        }
+      ]
+    },
+    "gr1CaLvL7tFOkIRywSsID": {
+      "id": "gr1CaLvL7tFOkIRywSsID",
+      "slug": "formik",
+      "title": "Formik",
+      "description": "Formik is another famous opensource form library that helps with getting values in and out of form state, validation and error messages, and handling form submissions.",
+      "resources": [
+        {
+          "id": "gr1CaLvL7tFOkIRywSsID-res-1",
+          "type": "article",
+          "title": "Official Website — Formik",
+          "url": "https://formik.org/"
+        },
+        {
+          "id": "gr1CaLvL7tFOkIRywSsID-res-2",
+          "type": "article",
+          "title": "formik/formik",
+          "url": "https://github.com/formik/formik"
+        },
+        {
+          "id": "gr1CaLvL7tFOkIRywSsID-res-3",
+          "type": "video",
+          "title": "Formik - Building React Forms easier",
+          "url": "https://www.youtube.com/watch?v=khGypss-RJs"
+        },
+        {
+          "id": "gr1CaLvL7tFOkIRywSsID-res-4",
+          "type": "video",
+          "title": "React Formik Tutorial with Yup (React Form Validation)",
+          "url": "https://www.youtube.com/watch?v=7Ophfq0lEAY"
+        }
+      ]
+    },
+    "KHcC5pFN3qLnsbPPKpYd2": {
+      "id": "KHcC5pFN3qLnsbPPKpYd2",
+      "slug": "forms",
+      "title": "Forms",
+      "description": "Although you can build forms using vanilla React, it normally requires a lot of boilerplate code. This is because the form is built using a combination of state and props. To make it easier to manage forms, we use some sort of library.",
+      "resources": [
+        {
+          "id": "KHcC5pFN3qLnsbPPKpYd2-res-1",
+          "type": "article",
+          "title": "How to use Forms in React",
+          "url": "https://www.robinwieruch.de/react-form/"
+        },
+        {
+          "id": "KHcC5pFN3qLnsbPPKpYd2-res-2",
+          "type": "video",
+          "title": "React Forms: the SIMPLEST way",
+          "url": "https://www.youtube.com/watch?v=CT-72lTXdPg"
+        }
+      ]
+    },
+    "H6-XGDjs4f-qbv13v5av0": {
+      "id": "H6-XGDjs4f-qbv13v5av0",
+      "slug": "framer-motion",
+      "title": "Framer Motion",
+      "description": "Framer Motion is a popular open-source motion library for React that allows developers to create sophisticated animations and interactions with ease. It is designed to be simple to use yet powerful, providing a rich set of tools to animate elements in a declarative way. It powers the amazing animations and interactions in Framer, the web builder for creative pros. Zero code, maximum speed.",
+      "resources": [
+        {
+          "id": "H6-XGDjs4f-qbv13v5av0-res-1",
+          "type": "article",
+          "title": "Framer Motion Website",
+          "url": "https://www.framer.com/motion/introduction/"
+        },
+        {
+          "id": "H6-XGDjs4f-qbv13v5av0-res-2",
+          "type": "video",
+          "title": "Framer Motion Crash Course with React & TS",
+          "url": "https://www.youtube.com/watch?v=hjbxaYTMhy0&list=PLA4qBVt61k3Phpwt7uqaptIg9NYZ5aNu_"
+        }
+      ]
+    },
+    "W-atg_Msa9uPLr6RXAKSb": {
+      "id": "W-atg_Msa9uPLr6RXAKSb",
+      "slug": "frameworks",
+      "title": "SSR Frameworks",
+      "description": "Server-side rendering (SSR) is a technique for rendering a JavaScript application on the server, rather than in the browser. This can improve the performance and user experience of a web application, as the initial render of the application is done on the server and the content is sent to the browser as a fully-rendered HTML page. There are several frameworks and libraries available for server-side rendering React applications, most common being Next.js and Remix:",
+      "resources": [
+        {
+          "id": "W-atg_Msa9uPLr6RXAKSb-res-1",
+          "type": "article",
+          "title": "Next.js",
+          "url": "https://nextjs.org/"
+        },
+        {
+          "id": "W-atg_Msa9uPLr6RXAKSb-res-2",
+          "type": "article",
+          "title": "Remix",
+          "url": "https://remix.run/"
+        },
+        {
+          "id": "W-atg_Msa9uPLr6RXAKSb-res-3",
+          "type": "video",
+          "title": "Next.js 14 Full Course 2024",
+          "url": "https://www.youtube.com/watch?v=wm5gMKuwSYk"
+        },
+        {
+          "id": "W-atg_Msa9uPLr6RXAKSb-res-4",
+          "type": "video",
+          "title": "Remix Crash Course",
+          "url": "https://www.youtube.com/watch?v=RBYJTop1e-g"
+        }
+      ]
+    },
+    "8mw4TxlLN4ZKAlLl-_NVV": {
+      "id": "8mw4TxlLN4ZKAlLl-_NVV",
+      "slug": "functional-components",
+      "title": "Functional Components",
+      "description": "Functional components are some of the more common components that will come across while working in React. These are simply JavaScript functions. We can create a functional component to React by writing a JavaScript function. These functions may or may not receive data as parameters. In the functional Components, the return value is the JSX code to render to the DOM tree. Functional components can also have state which is managed using React hooks.",
+      "resources": [
+        {
+          "id": "8mw4TxlLN4ZKAlLl-_NVV-res-1",
+          "type": "article",
+          "title": "Functional Components and Props",
+          "url": "https://react.dev/reference/react/Component"
+        },
+        {
+          "id": "8mw4TxlLN4ZKAlLl-_NVV-res-2",
+          "type": "article",
+          "title": "Your first component",
+          "url": "https://react.dev/learn/your-first-component"
+        },
+        {
+          "id": "8mw4TxlLN4ZKAlLl-_NVV-res-3",
+          "type": "article",
+          "title": "Passing props to a component",
+          "url": "https://react.dev/learn/passing-props-to-a-component"
+        },
+        {
+          "id": "8mw4TxlLN4ZKAlLl-_NVV-res-4",
+          "type": "article",
+          "title": "Functional Components in React",
+          "url": "https://www.robinwieruch.de/react-function-component/"
+        },
+        {
+          "id": "8mw4TxlLN4ZKAlLl-_NVV-res-5",
+          "type": "video",
+          "title": "React JS Functional Components",
+          "url": "https://www.youtube.com/watch?v=NJ_qbsLf52w"
+        },
+        {
+          "id": "8mw4TxlLN4ZKAlLl-_NVV-res-6",
+          "type": "article",
+          "title": "Explore top posts about React",
+          "url": "https://app.daily.dev/tags/react?ref=roadmapsh"
+        }
+      ]
+    },
+    "y2dI1DVLWKAkv6VRpgaQa": {
+      "id": "y2dI1DVLWKAkv6VRpgaQa",
+      "slug": "gsock",
+      "title": "GSock",
+      "description": "`GSAP` (GreenSock Animation Platform) is a framework-agnostic JavaScript animation library that turns developers into animation superheroes. Build high-performance animations that work in every major browser. Animate CSS, SVG, canvas, React, Vue, WebGL, colors, strings, motion paths, generic objects...anything JavaScript can touch!",
+      "resources": [
+        {
+          "id": "y2dI1DVLWKAkv6VRpgaQa-res-1",
+          "type": "article",
+          "title": "GSAP: Homepage",
+          "url": "https://gsap.com/docs/v3/"
+        },
+        {
+          "id": "y2dI1DVLWKAkv6VRpgaQa-res-2",
+          "type": "article",
+          "title": "The Beginner's Guide to the GreenSock Animation Platform",
+          "url": "https://www.freecodecamp.org/news/the-beginners-guide-to-the-greensock-animation-platform-7dc9fd9eb826/"
+        },
+        {
+          "id": "y2dI1DVLWKAkv6VRpgaQa-res-3",
+          "type": "video",
+          "title": "Intro to Greensock Web Animation",
+          "url": "https://www.youtube.com/watch?v=EOa7ccPWvXg"
+        }
+      ]
+    },
+    "MnDgQq9Vcxsu3wDqv5uh2": {
+      "id": "MnDgQq9Vcxsu3wDqv5uh2",
+      "slug": "headless-components",
+      "title": "Headless Component Libraries",
+      "description": "Headless component libraries have some powerful state, logic and data management tools that do not enforce any UI structure. Consequently, developers are able to build custom UI components with unique styles but that still benefit from strong reusable logics. This kind of library simplifies complex behaviors and accessibility issues in outdoor environments allowing you to create innovative interfaces. With headless components, developers keep code clean and maintainable as a result of the reusability aspect inherent in these, this also guarantees efficient and accessible components enhancing application quality.",
+      "resources": [
+        {
+          "id": "MnDgQq9Vcxsu3wDqv5uh2-res-1",
+          "type": "article",
+          "title": "What are headless components?",
+          "url": "https://dev.to/verthon/headless-ui-libraries-the-key-to-flexible-and-accessible-user-interfaces-546p"
+        },
+        {
+          "id": "MnDgQq9Vcxsu3wDqv5uh2-res-2",
+          "type": "article",
+          "title": "Headless Components: A Comprehensive Guide",
+          "url": "https://blog.logrocket.com/the-complete-guide-to-building-headless-interface-components-in-react/"
+        },
+        {
+          "id": "MnDgQq9Vcxsu3wDqv5uh2-res-3",
+          "type": "video",
+          "title": "Rise of Headless Components",
+          "url": "https://www.youtube.com/watch?v=_WtVG_pKsxM"
+        }
+      ]
+    },
+    "zOENl96GUZRw2PP2KxIck": {
+      "id": "zOENl96GUZRw2PP2KxIck",
+      "slug": "high-order-components",
+      "title": "High Order Components",
+      "description": "A higher-order component (HOC) is an advanced technique in React for reusing component logic. HOCs are not part of the React API, per se. They are a pattern that emerges from React’s compositional nature. Concretely, a higher-order component is a function that takes a component and returns a new component. Higher-order components are not commonly used in modern React code. In order to reuse logic, React hooks are mainly used now.",
+      "resources": [
+        {
+          "id": "zOENl96GUZRw2PP2KxIck-res-1",
+          "type": "article",
+          "title": "High-Order Components",
+          "url": "https://reactjs.org/docs/higher-order-components.html"
+        },
+        {
+          "id": "zOENl96GUZRw2PP2KxIck-res-2",
+          "type": "article",
+          "title": "How to create a Higher-Order Component",
+          "url": "https://www.robinwieruch.de/react-higher-order-components/"
+        },
+        {
+          "id": "zOENl96GUZRw2PP2KxIck-res-3",
+          "type": "video",
+          "title": "Learn React Higher Order Component (HOC) in 10 Minutes",
+          "url": "https://youtu.be/J5P0q7EROfw?si=-8s5h1b0mZSGVgLt"
+        },
+        {
+          "id": "zOENl96GUZRw2PP2KxIck-res-4",
+          "type": "video",
+          "title": "ReactJS Tutorial - Higher Order Components (Part 1)",
+          "url": "https://www.youtube.com/watch?v=B6aNv8nkUSw"
+        },
+        {
+          "id": "zOENl96GUZRw2PP2KxIck-res-5",
+          "type": "video",
+          "title": "ReactJS Tutorial - Higher Order Components (Part 2)",
+          "url": "https://www.youtube.com/watch?v=rsBQj6X7UK8"
+        },
+        {
+          "id": "zOENl96GUZRw2PP2KxIck-res-6",
+          "type": "video",
+          "title": "ReactJS Tutorial - Higher Order Components (Part 3)",
+          "url": "https://www.youtube.com/watch?v=l8V59zIdBXU"
+        }
+      ]
+    },
+    "mkyU0ug8MXxV4biHuOity": {
+      "id": "mkyU0ug8MXxV4biHuOity",
+      "slug": "hooks-best-practices",
+      "title": "Hooks Best Practices",
+      "description": "To fully leverage the capabilities of React Hooks, it is crucial to adopt best practices that not only enhance code readability but also optimize performance. By adhering to these practices, developers can create cleaner, more maintainable components that make the most of React's powerful features, leading to a more efficient and enjoyable development experience.",
+      "resources": [
+        {
+          "id": "mkyU0ug8MXxV4biHuOity-res-1",
+          "type": "article",
+          "title": "Rules of Hooks",
+          "url": "https://react.dev/reference/rules/rules-of-hooks/"
+        },
+        {
+          "id": "mkyU0ug8MXxV4biHuOity-res-2",
+          "type": "article",
+          "title": "React Hooks Best Practices: Unlocking Efficiency and Elegance",
+          "url": "https://medium.com/womenintechnology/react-hooks-best-practices-unlocking-efficiency-and-elegance-da23f7e1418a"
+        },
+        {
+          "id": "mkyU0ug8MXxV4biHuOity-res-3",
+          "type": "article",
+          "title": "Mastering React Hooks: Best Practices and Common Pitfalls",
+          "url": "https://dev.to/codesensei/mastering-react-hooks-best-practices-and-common-pitfalls-3d9i"
+        },
+        {
+          "id": "mkyU0ug8MXxV4biHuOity-res-4",
+          "type": "article",
+          "title": "React Hooks Cheat Sheet: Best Practices with Examples",
+          "url": "https://blog.logrocket.com/react-hooks-cheat-sheet-solutions-common-problems/"
+        },
+        {
+          "id": "mkyU0ug8MXxV4biHuOity-res-5",
+          "type": "article",
+          "title": "React Custom Hooks: Best Practices and Examples",
+          "url": "https://utopia-insights.dev/react-custom-hooks-best-practices-and-examples/"
+        }
+      ]
+    },
+    "LbLQhonBqzxHU6B-L--Vq": {
+      "id": "LbLQhonBqzxHU6B-L--Vq",
+      "slug": "hooks",
+      "title": "Hooks",
+      "description": "Hooks were introduced in React 16.8 and they let us use React's features-like managing your component's state and or performing an after effect when certain changes occur in state(s) without writing a class.",
+      "resources": [
+        {
+          "id": "LbLQhonBqzxHU6B-L--Vq-res-1",
+          "type": "article",
+          "title": "Hooks Reference",
+          "url": "https://react.dev/reference/react"
+        },
+        {
+          "id": "LbLQhonBqzxHU6B-L--Vq-res-2",
+          "type": "article",
+          "title": "Explore top posts about React Hooks",
+          "url": "https://app.daily.dev/tags/react-hooks?ref=roadmapsh"
+        }
+      ]
+    },
+    "opa61u9gYgSpoPtxp58wu": {
+      "id": "opa61u9gYgSpoPtxp58wu",
+      "slug": "jest",
+      "title": "Jest",
+      "description": "Jest is a delightful JavaScript Testing Framework with a focus on simplicity. It works with projects using: Babel, TypeScript, Node, React, Angular, Vue and more!",
+      "resources": [
+        {
+          "id": "opa61u9gYgSpoPtxp58wu-res-1",
+          "type": "article",
+          "title": "Jest Website",
+          "url": "https://jestjs.io/"
+        },
+        {
+          "id": "opa61u9gYgSpoPtxp58wu-res-2",
+          "type": "article",
+          "title": "Testing JavaScript with Jest on Vultr",
+          "url": "https://developer.mozilla.org/en-US/blog/test-javascript-with-jest-on-vultr/"
+        },
+        {
+          "id": "opa61u9gYgSpoPtxp58wu-res-3",
+          "type": "article",
+          "title": "Explore top posts about Jest",
+          "url": "https://app.daily.dev/tags/jest?ref=roadmapsh"
+        }
+      ]
+    },
+    "yI6XiNW04EL78UL4lkVgd": {
+      "id": "yI6XiNW04EL78UL4lkVgd",
+      "slug": "jotai",
+      "title": "Jotai",
+      "description": "Jotai takes an atomic approach to global React state management. Build state by combining atoms and renders are automatically optimized based on atom dependency. This solves the extra re-render issue of React context, eliminates the need for memoization, and provides a similar developer experience to signals while maintaining a declarative programming model.",
+      "resources": [
+        {
+          "id": "yI6XiNW04EL78UL4lkVgd-res-1",
+          "type": "article",
+          "title": "Official Website: Jotai",
+          "url": "https://jotai.org/"
+        },
+        {
+          "id": "yI6XiNW04EL78UL4lkVgd-res-2",
+          "type": "article",
+          "title": "State Management on React - Jotai",
+          "url": "https://dev.to/kevin-uehara/state-management-on-react-part-3-jotai-i7f"
+        },
+        {
+          "id": "yI6XiNW04EL78UL4lkVgd-res-3",
+          "type": "video",
+          "title": "Jotai React - Better Global State Management",
+          "url": "https://www.youtube.com/watch?v=ZcKzPZN7Ids"
+        }
+      ]
+    },
+    "WREBxWSNQDD_6fzpHL6CE": {
+      "id": "WREBxWSNQDD_6fzpHL6CE",
+      "slug": "jsx",
+      "title": "JSX",
+      "description": "JSX stands for JavaScript XML. It allows writing HTML in JavaScript and converts the HTML tags into React elements.",
+      "resources": [
+        {
+          "id": "WREBxWSNQDD_6fzpHL6CE-res-1",
+          "type": "article",
+          "title": "Writing markup with JSX",
+          "url": "https://react.dev/learn/writing-markup-with-jsx"
+        },
+        {
+          "id": "WREBxWSNQDD_6fzpHL6CE-res-2",
+          "type": "article",
+          "title": "JavaScript in JSX with Curly Braces",
+          "url": "https://react.dev/learn/javascript-in-jsx-with-curly-braces"
+        },
+        {
+          "id": "WREBxWSNQDD_6fzpHL6CE-res-3",
+          "type": "article",
+          "title": "Working with JSX - React - CodeGuage",
+          "url": "https://www.codeguage.com/courses/react/jsx"
+        },
+        {
+          "id": "WREBxWSNQDD_6fzpHL6CE-res-4",
+          "type": "article",
+          "title": "Explore top posts about JSX",
+          "url": "https://app.daily.dev/tags/jsx?ref=roadmapsh"
+        }
+      ]
+    },
+    "HeWVCPHqVnnbOn6zIim4K": {
+      "id": "HeWVCPHqVnnbOn6zIim4K",
+      "slug": "lists-and-keys",
+      "title": "Lists and Keys",
+      "description": "When you render lists in React, you can use the `key` prop to specify a unique key for each item. This key is used to identify which item to update when you want to update a specific item.",
+      "resources": [
+        {
+          "id": "HeWVCPHqVnnbOn6zIim4K-res-1",
+          "type": "article",
+          "title": "Lists and Keys",
+          "url": "https://react.dev/learn/rendering-lists#keeping-list-items-in-order-with-key"
+        },
+        {
+          "id": "HeWVCPHqVnnbOn6zIim4K-res-2",
+          "type": "article",
+          "title": "Rendering Lists",
+          "url": "https://react.dev/learn/rendering-lists"
+        },
+        {
+          "id": "HeWVCPHqVnnbOn6zIim4K-res-3",
+          "type": "article",
+          "title": "List components in React by Example",
+          "url": "https://www.robinwieruch.de/react-list-component/"
+        },
+        {
+          "id": "HeWVCPHqVnnbOn6zIim4K-res-4",
+          "type": "article",
+          "title": "Why do we need the key prop in React?",
+          "url": "https://www.robinwieruch.de/react-list-key/"
+        }
+      ]
+    },
+    "gy7eBxPOlwG8BvxHVLDQ9": {
+      "id": "gy7eBxPOlwG8BvxHVLDQ9",
+      "slug": "material-ui",
+      "title": "Material UI",
+      "description": "Material UI is an open-source React component library that implements Google's Material Design.",
+      "resources": [
+        {
+          "id": "gy7eBxPOlwG8BvxHVLDQ9-res-1",
+          "type": "article",
+          "title": "Material UI website",
+          "url": "https://mui.com/material-ui/getting-started/"
+        },
+        {
+          "id": "gy7eBxPOlwG8BvxHVLDQ9-res-2",
+          "type": "video",
+          "title": "React Material UI Course",
+          "url": "https://www.youtube.com/watch?v=BHEPVdfBAqE&list=PLC3y8-rFHvwh-K9mDlrrcDywl7CeVL2rO"
+        },
+        {
+          "id": "gy7eBxPOlwG8BvxHVLDQ9-res-3",
+          "type": "video",
+          "title": "Material UI with React",
+          "url": "https://www.youtube.com/watch?v=5cvg2qZwYrI"
+        }
+      ]
+    },
+    "txARr3lgTvy-vJCj5zAb1": {
+      "id": "txARr3lgTvy-vJCj5zAb1",
+      "slug": "mobile-applications",
+      "title": "Mobile",
+      "description": "Comprehensive guide and learning curriculum for Mobile.",
+      "resources": [
+        {
+          "id": "txARr3lgTvy-vJCj5zAb1-res-1",
+          "type": "article",
+          "title": "React Native Official website",
+          "url": "https://reactnative.dev/"
+        },
+        {
+          "id": "txARr3lgTvy-vJCj5zAb1-res-2",
+          "type": "video",
+          "title": "React Native Course for Beginners",
+          "url": "https://www.youtube.com/watch?v=ZBCUegTZF7M"
+        }
+      ]
+    },
+    "1kbrCI5JS0c9wbzxXpgFU": {
+      "id": "1kbrCI5JS0c9wbzxXpgFU",
+      "slug": "mobx",
+      "title": "MobX",
+      "description": "Comprehensive guide and learning curriculum for MobX.",
+      "resources": [
+        {
+          "id": "1kbrCI5JS0c9wbzxXpgFU-res-1",
+          "type": "article",
+          "title": "Official Website: MobX",
+          "url": "https://mobx.js.org/"
+        },
+        {
+          "id": "1kbrCI5JS0c9wbzxXpgFU-res-2",
+          "type": "article",
+          "title": "How to Improve State Management in React with MobX",
+          "url": "https://medium.com/whitespectre/how-to-improve-state-management-in-react-with-mobx-568808ff86a4"
+        },
+        {
+          "id": "1kbrCI5JS0c9wbzxXpgFU-res-3",
+          "type": "video",
+          "title": "Mobx React - State Management",
+          "url": "https://www.youtube.com/watch?v=AgcaGGkYy_8"
+        },
+        {
+          "id": "1kbrCI5JS0c9wbzxXpgFU-res-4",
+          "type": "video",
+          "title": "MobX Tutorial with React and Typescript",
+          "url": "https://www.youtube.com/watch?v=ElgfQdq-Htk"
+        }
+      ]
+    },
+    "HdWq9ue0JdwmwqSIN2OD_": {
+      "id": "HdWq9ue0JdwmwqSIN2OD_",
+      "slug": "nextjs",
+      "title": "Next.js",
+      "description": "Next.js is an open-source development framework built on top of Node.js enabling React based web applications functionalities such as server-side rendering and generating static websites.",
+      "resources": [
+        {
+          "id": "HdWq9ue0JdwmwqSIN2OD_-res-1",
+          "type": "article",
+          "title": "Official Website",
+          "url": "https://nextjs.org/"
+        },
+        {
+          "id": "HdWq9ue0JdwmwqSIN2OD_-res-2",
+          "type": "article",
+          "title": "Official Docs for Getting Started",
+          "url": "https://nextjs.org/docs/getting-started"
+        },
+        {
+          "id": "HdWq9ue0JdwmwqSIN2OD_-res-3",
+          "type": "article",
+          "title": "Mastering Next.js",
+          "url": "https://masteringnextjs.com/"
+        },
+        {
+          "id": "HdWq9ue0JdwmwqSIN2OD_-res-4",
+          "type": "video",
+          "title": "Next.js Full course",
+          "url": "https://www.youtube.com/watch?v=9P8mASSREYM&list=PLC3y8-rFHvwgC9mj0qv972IO5DmD-H0ZH"
+        },
+        {
+          "id": "HdWq9ue0JdwmwqSIN2OD_-res-5",
+          "type": "video",
+          "title": "Next.js for Beginners - freeCodeCamp",
+          "url": "https://youtu.be/KjY94sAKLlw?si=orve81YcY8Fm2vDy"
+        },
+        {
+          "id": "HdWq9ue0JdwmwqSIN2OD_-res-6",
+          "type": "article",
+          "title": "Explore top posts about JavaScript",
+          "url": "https://app.daily.dev/tags/javascript?ref=roadmapsh"
+        }
+      ]
+    },
+    "akVNUPOqaTXaSHoQFlkP_": {
+      "id": "akVNUPOqaTXaSHoQFlkP_",
+      "slug": "panda-css",
+      "title": "Panda CSS",
+      "description": "Panda CSS is CSS-in-JS with build time generated styles, RSC compatible, multi-variant support, and best-in-class developer experience.",
+      "resources": [
+        {
+          "id": "akVNUPOqaTXaSHoQFlkP_-res-1",
+          "type": "article",
+          "title": "Official Website",
+          "url": "https://panda-css.com"
+        },
+        {
+          "id": "akVNUPOqaTXaSHoQFlkP_-res-2",
+          "type": "article",
+          "title": "Tutorials and videos to get started with Panda!",
+          "url": "https://panda-css.com/learn"
+        },
+        {
+          "id": "akVNUPOqaTXaSHoQFlkP_-res-3",
+          "type": "article",
+          "title": "Panda CSS – CSS-in-JS without Runtime Overhead",
+          "url": "https://infinum.com/blog/panda-css-css-in-js-without-runtime-overhead/"
+        },
+        {
+          "id": "akVNUPOqaTXaSHoQFlkP_-res-4",
+          "type": "video",
+          "title": "Panda CSS First Impressions | Theo Reacts",
+          "url": "https://www.youtube.com/watch?v=UlY-Ixddjm0"
+        }
+      ]
+    },
+    "g39P0c6M2sHNoUPs0m8tr": {
+      "id": "g39P0c6M2sHNoUPs0m8tr",
+      "slug": "playwright",
+      "title": "Playwright",
+      "description": "Playwright Test was created specifically to accommodate the needs of end-to-end testing. Playwright supports all modern rendering engines including Chromium, WebKit, and Firefox. Test on Windows, Linux, and macOS, locally or on CI, headless or headed with native mobile emulation of Google Chrome for Android and Mobile Safari.Playwright leverages the DevTools protocol to write powerful, stable automated tests.Playwright can actually see into and control the browser rather than relying on a middle translation layer, it allows for the simulation of more insightful and relevant user scenarios.",
+      "resources": [
+        {
+          "id": "g39P0c6M2sHNoUPs0m8tr-res-1",
+          "type": "article",
+          "title": "Official Website: Playwright",
+          "url": "https://playwright.dev/"
+        },
+        {
+          "id": "g39P0c6M2sHNoUPs0m8tr-res-2",
+          "type": "article",
+          "title": "Playwright Tutorial: Learn Basics and Setup",
+          "url": "https://www.browserstack.com/guide/playwright-tutorial"
+        },
+        {
+          "id": "g39P0c6M2sHNoUPs0m8tr-res-3",
+          "type": "video",
+          "title": "Get started with end-to-end testing: Playwright",
+          "url": "https://www.youtube.com/playlist?list=PLQ6Buerc008ed-F9OksF7ek37wR3y916p"
+        }
+      ]
+    },
+    "DcDggX4OmmwvJGHwuV86t": {
+      "id": "DcDggX4OmmwvJGHwuV86t",
+      "slug": "portals",
+      "title": "Portals",
+      "description": "Portals provide a first-class way to render children into a DOM node that exists outside the DOM hierarchy of the parent component.",
+      "resources": [
+        {
+          "id": "DcDggX4OmmwvJGHwuV86t-res-1",
+          "type": "article",
+          "title": "Portals in React",
+          "url": "https://react.dev/reference/react-dom/createPortal"
+        },
+        {
+          "id": "DcDggX4OmmwvJGHwuV86t-res-2",
+          "type": "video",
+          "title": "React Portals",
+          "url": "https://www.youtube.com/watch?v=HpHLa-5Wdys"
+        }
+      ]
+    },
+    "RFuy3Eho3mnW1GpP08BVw": {
+      "id": "RFuy3Eho3mnW1GpP08BVw",
+      "slug": "props-vs-state",
+      "title": "Props vs State",
+      "description": "Props (short for “properties”) and state are both plain JavaScript objects. While both hold information that influences the output of component render, they are different in one important way: props get passed to the component (similar to function parameters) whereas state is managed within the component (similar to variables declared within a function).",
+      "resources": [
+        {
+          "id": "RFuy3Eho3mnW1GpP08BVw-res-1",
+          "type": "article",
+          "title": "State: A Component's Memory",
+          "url": "https://react.dev/learn/state-a-components-memory"
+        },
+        {
+          "id": "RFuy3Eho3mnW1GpP08BVw-res-2",
+          "type": "article",
+          "title": "How to use Props in React",
+          "url": "https://www.robinwieruch.de/react-pass-props-to-component/"
+        },
+        {
+          "id": "RFuy3Eho3mnW1GpP08BVw-res-3",
+          "type": "article",
+          "title": "What is the difference between state and props in React?",
+          "url": "https://stackoverflow.com/questions/27991366/what-is-the-difference-between-state-and-props-in-react"
+        },
+        {
+          "id": "RFuy3Eho3mnW1GpP08BVw-res-4",
+          "type": "article",
+          "title": "How to update state from props in React",
+          "url": "https://www.robinwieruch.de/react-derive-state-props/"
+        }
+      ]
+    },
+    "XL9XOV2h0BAuA5cFcM5L_": {
+      "id": "XL9XOV2h0BAuA5cFcM5L_",
+      "slug": "radix-ui",
+      "title": "Radix UI",
+      "description": "Radix UI is an open-source library designed to make it easier to create accessible and customizable User Interface (UI) components in React. It provides developers with a range of `unstyled`, fully `accessible` primitives, giving them complete control over the appearance and behavior of their UI elements.",
+      "resources": [
+        {
+          "id": "XL9XOV2h0BAuA5cFcM5L_-res-1",
+          "type": "article",
+          "title": "Getting Started with Radix UI",
+          "url": "https://www.radix-ui.com/themes/docs/overview/getting-started"
+        },
+        {
+          "id": "XL9XOV2h0BAuA5cFcM5L_-res-2",
+          "type": "article",
+          "title": "Official Website",
+          "url": "https://www.radix-ui.com/"
+        },
+        {
+          "id": "XL9XOV2h0BAuA5cFcM5L_-res-3",
+          "type": "article",
+          "title": "What is Radix UI?",
+          "url": "https://medium.com/@olivier.trinh/what-is-radix-ui-ff535bbb52d5"
+        },
+        {
+          "id": "XL9XOV2h0BAuA5cFcM5L_-res-4",
+          "type": "video",
+          "title": "Radix UI Course",
+          "url": "https://www.youtube.com/playlist?list=PLlNdnoKwDZdwANQoaakE8-kYMyKFOETlo"
+        }
+      ]
+    },
+    "RvDfKoa_HIW3QDBfkPv3m": {
+      "id": "RvDfKoa_HIW3QDBfkPv3m",
+      "slug": "react-aria",
+      "title": "React Aria",
+      "description": "React Aria is style-free out of the box, allowing you to build custom designs to fit your application or design system using any styling and animation solution. Each component is broken down into individual parts with built-in states, render props, and slots that make styling a breeze.",
+      "resources": [
+        {
+          "id": "RvDfKoa_HIW3QDBfkPv3m-res-1",
+          "type": "article",
+          "title": "Getting Started with React Aria",
+          "url": "https://react-spectrum.adobe.com/react-aria/"
+        },
+        {
+          "id": "RvDfKoa_HIW3QDBfkPv3m-res-2",
+          "type": "video",
+          "title": "Why You Should Use React Aria Components",
+          "url": "https://www.youtube.com/watch?v=lTPh6NGLAmk"
+        }
+      ]
+    },
+    "_5ht0PAdVOJWPzTRS1mVg": {
+      "id": "_5ht0PAdVOJWPzTRS1mVg",
+      "slug": "react-hook-form",
+      "title": "React hook form",
+      "description": "React hook form is an opensource form library for react. Performant, flexible and extensible forms with easy-to-use validation.",
+      "resources": [
+        {
+          "id": "_5ht0PAdVOJWPzTRS1mVg-res-1",
+          "type": "article",
+          "title": "react-hook-form/react-hook-form",
+          "url": "https://github.com/react-hook-form/react-hook-form"
+        },
+        {
+          "id": "_5ht0PAdVOJWPzTRS1mVg-res-2",
+          "type": "article",
+          "title": "React Hook Form: Official Website",
+          "url": "https://react-hook-form.com/"
+        },
+        {
+          "id": "_5ht0PAdVOJWPzTRS1mVg-res-3",
+          "type": "article",
+          "title": "Explore top posts about React",
+          "url": "https://app.daily.dev/tags/react?ref=roadmapsh"
+        }
+      ]
+    },
+    "NvXAq1vN2wpncdW-yTL4c": {
+      "id": "NvXAq1vN2wpncdW-yTL4c",
+      "slug": "react-native",
+      "title": "React Native",
+      "description": "React Native is an open-source UI software framework created by Meta Platforms, Inc. It is used to develop applications for Android, Android TV, iOS, macOS, tvOS, Web, Windows and UWP by enabling developers to use the React framework along with native platform capabilities.",
+      "resources": [
+        {
+          "id": "NvXAq1vN2wpncdW-yTL4c-res-1",
+          "type": "article",
+          "title": "React Native: Official Website",
+          "url": "https://reactnative.dev/"
+        },
+        {
+          "id": "NvXAq1vN2wpncdW-yTL4c-res-2",
+          "type": "article",
+          "title": "Official Getting Started",
+          "url": "https://reactnative.dev/docs/getting-started"
+        },
+        {
+          "id": "NvXAq1vN2wpncdW-yTL4c-res-3",
+          "type": "article",
+          "title": "Explore top posts about React",
+          "url": "https://app.daily.dev/tags/react?ref=roadmapsh"
+        }
+      ]
+    },
+    "-WjJBYCmRRj08n_9HxohY": {
+      "id": "-WjJBYCmRRj08n_9HxohY",
+      "slug": "react-router",
+      "title": "react-router",
+      "description": "There used to be Remix in this list but they announced to merge Remix into react-router after v7.",
+      "resources": [
+        {
+          "id": "-WjJBYCmRRj08n_9HxohY-res-1",
+          "type": "article",
+          "title": "Official Website",
+          "url": "https://remix.run/"
+        },
+        {
+          "id": "-WjJBYCmRRj08n_9HxohY-res-2",
+          "type": "article",
+          "title": "Announcement to merge Remix into react-router",
+          "url": "https://remix.run/blog/merging-remix-and-react-router"
+        }
+      ]
+    },
+    "jvp43wFkKlGQX2y7IxkbM": {
+      "id": "jvp43wFkKlGQX2y7IxkbM",
+      "slug": "react-router",
+      "title": "React Router",
+      "description": "React Router is a standard library for routing in React applications. It enables navigation between different views or components within a single-page application (SPA) without requiring the browser to reload the page. It provides a declarative way to define routes and map them to specific components, allowing users to seamlessly navigate through different parts of the application.",
+      "resources": [
+        {
+          "id": "jvp43wFkKlGQX2y7IxkbM-res-1",
+          "type": "article",
+          "title": "React Router — Official Website",
+          "url": "https://reactrouter.com/"
+        },
+        {
+          "id": "jvp43wFkKlGQX2y7IxkbM-res-2",
+          "type": "article",
+          "title": "What is React Router?",
+          "url": "https://www.w3schools.com/react/react_router.asp"
+        },
+        {
+          "id": "jvp43wFkKlGQX2y7IxkbM-res-3",
+          "type": "article",
+          "title": "React Router V7: A Crash Course",
+          "url": "https://dev.to/pedrotech/react-router-v7-a-crash-course-2m86"
+        }
+      ]
+    },
+    "WzoB5B6SdOI4Mzv6U51nY": {
+      "id": "WzoB5B6SdOI4Mzv6U51nY",
+      "slug": "react-spring",
+      "title": "react spring",
+      "description": "React Spring is a popular animation library for React that leverages the principles of spring physics to create smooth, natural-looking animations. Unlike traditional animation libraries that rely on keyframes and linear transitions, React Spring uses spring-based physics to produce fluid and realistic animations that can dynamically respond to user interactions and state changes.",
+      "resources": [
+        {
+          "id": "WzoB5B6SdOI4Mzv6U51nY-res-1",
+          "type": "article",
+          "title": "React Spring — Official Website",
+          "url": "https://www.react-spring.dev/"
+        },
+        {
+          "id": "WzoB5B6SdOI4Mzv6U51nY-res-2",
+          "type": "article",
+          "title": "How to Create Interactive Animations Using React Spring",
+          "url": "https://www.sitepoint.com/react-spring-interactive-animations/"
+        },
+        {
+          "id": "WzoB5B6SdOI4Mzv6U51nY-res-3",
+          "type": "video",
+          "title": "React Spring Crash Course",
+          "url": "https://www.youtube.com/watch?v=f2vdduklY20&list=PLLnpHn493BHGrM7tAQL8qVtqwqzbuuE5_"
+        }
+      ]
+    },
+    "cQllxv7qGbRtM9O5llgN6": {
+      "id": "cQllxv7qGbRtM9O5llgN6",
+      "slug": "react-testing-library",
+      "title": "React Testing Library",
+      "description": "The React Testing Library is a very lightweight solution for testing React components. It provides light utility functions on top of react-dom and react-dom/test-utils, in a way that encourages better testing practices. Its primary guiding principle is: The more your tests resemble the way your software is used, the more confidence they can give you.",
+      "resources": [
+        {
+          "id": "cQllxv7qGbRtM9O5llgN6-res-1",
+          "type": "article",
+          "title": "React Testing Library",
+          "url": "https://testing-library.com/docs/react-testing-library/intro/"
+        },
+        {
+          "id": "cQllxv7qGbRtM9O5llgN6-res-2",
+          "type": "article",
+          "title": "How to use React Testing Library",
+          "url": "https://www.robinwieruch.de/react-testing-library/"
+        },
+        {
+          "id": "cQllxv7qGbRtM9O5llgN6-res-3",
+          "type": "article",
+          "title": "Explore top posts about React",
+          "url": "https://app.daily.dev/tags/react?ref=roadmapsh"
+        }
+      ]
+    },
+    "_zNAOhFWMcWqP4oxNPCXF": {
+      "id": "_zNAOhFWMcWqP4oxNPCXF",
+      "slug": "refs",
+      "title": "Refs",
+      "description": "Refs provide a way to access DOM nodes or React elements created in the render method. In the typical React dataflow, props are the only way that parent components interact with their children. To modify a child, you re-render it with new props. However, there are a few cases where you need to imperatively modify a child outside of the typical dataflow. The child to be modified could be an instance of a React component, or it could be a DOM element. For both of these cases, React provides an escape hatch.",
+      "resources": [
+        {
+          "id": "_zNAOhFWMcWqP4oxNPCXF-res-1",
+          "type": "article",
+          "title": "Referencing Values with Refs",
+          "url": "https://react.dev/learn/referencing-values-with-refs"
+        },
+        {
+          "id": "_zNAOhFWMcWqP4oxNPCXF-res-2",
+          "type": "article",
+          "title": "Manipulating the DOM with Refs",
+          "url": "https://react.dev/learn/manipulating-the-dom-with-refs"
+        },
+        {
+          "id": "_zNAOhFWMcWqP4oxNPCXF-res-3",
+          "type": "article",
+          "title": "Examples of using refs in React",
+          "url": "https://www.robinwieruch.de/react-ref/"
+        },
+        {
+          "id": "_zNAOhFWMcWqP4oxNPCXF-res-4",
+          "type": "article",
+          "title": "The Complete Guide to useRef() and Refs in React",
+          "url": "https://dmitripavlutin.com/react-useref-guide/"
+        },
+        {
+          "id": "_zNAOhFWMcWqP4oxNPCXF-res-5",
+          "type": "article",
+          "title": "What Exactly Are Refs? - React - CodeGuage",
+          "url": "https://www.codeguage.com/courses/react/refs"
+        },
+        {
+          "id": "_zNAOhFWMcWqP4oxNPCXF-res-6",
+          "type": "video",
+          "title": "Learn useRef in 11 Minutes - Web Dev Simplified",
+          "url": "https://www.youtube.com/watch?v=t2ypzz6gJm0"
+        }
+      ]
+    },
+    "cLfM342sZfsCwmPPxQpEI": {
+      "id": "cLfM342sZfsCwmPPxQpEI",
+      "slug": "relay",
+      "title": "Relay",
+      "description": "Relay is a JavaScript client used in the browser to fetch GraphQL data. It's a JavaScript framework developed by Facebook for managing and fetching data in React applications. It is built with scalability in mind in order to power complex applications like Facebook. The ultimate goal of GraphQL and Relay is to deliver instant UI-response interactions.",
+      "resources": [
+        {
+          "id": "cLfM342sZfsCwmPPxQpEI-res-1",
+          "type": "article",
+          "title": "Official Website",
+          "url": "https://relay.dev/"
+        },
+        {
+          "id": "cLfM342sZfsCwmPPxQpEI-res-2",
+          "type": "article",
+          "title": "Introduction to Relay modern",
+          "url": "https://relay.dev/docs/"
+        }
+      ]
+    },
+    "vdumdIglnouf1KyGIGZnc": {
+      "id": "vdumdIglnouf1KyGIGZnc",
+      "slug": "render-props",
+      "title": "Render Props",
+      "description": "The term 'render props' refers to a technique for sharing code between React components using a prop whose value is a function. A component with a render prop takes a function that returns a React element and calls it instead of implementing its own render logic.",
+      "resources": [
+        {
+          "id": "vdumdIglnouf1KyGIGZnc-res-1",
+          "type": "article",
+          "title": "Render Props in React",
+          "url": "https://react.dev/learn/passing-props-to-a-component"
+        },
+        {
+          "id": "vdumdIglnouf1KyGIGZnc-res-2",
+          "type": "article",
+          "title": "How to create a Render Prop Component",
+          "url": "https://www.robinwieruch.de/react-render-props/"
+        },
+        {
+          "id": "vdumdIglnouf1KyGIGZnc-res-3",
+          "type": "article",
+          "title": "Render Props Pattern",
+          "url": "https://www.patterns.dev/posts/render-props-pattern/"
+        }
+      ]
+    },
+    "0uiGsC5SWavNdlFqizkKe": {
+      "id": "0uiGsC5SWavNdlFqizkKe",
+      "slug": "rendering",
+      "title": "Rendering",
+      "description": "React follows a declarative approach to rendering components, which means that developers specify what a component should look like, and React takes care of rendering the component to the screen. This is in contrast to an imperative approach, where developers would write code to manually manipulate the DOM (Document Object Model) to update the UI. The virtual DOM (VDOM) is an important aspect of how React works. It is a lightweight in-memory representation of the DOM (Document Object Model), and it is used to optimize the rendering of components in a React application. *   Components are written as JavaScript classes or functions that define a render method. The render method returns a description of what the component should look like, using JSX syntax. *   When a component is rendered, React creates a virtual DOM (VDOM) representation of the component. The VDOM is a lightweight in-memory representation of the DOM, and it is used to optimize the rendering of components. *   React compares the VDOM representation of the component with the previous VDOM representation (if it exists). If there are differences between the two VDOMs, React calculates the minimum number of DOM updates needed to bring the actual DOM into line with the new VDOM. *   React updates the actual DOM with the minimum number of DOM updates needed to reflect the changes in the VDOM. This process is known as reconciliation, and it is an important aspect of how React works. By using a declarative approach and a VDOM, React is able to optimize the rendering of components and improve the performance of web applications.",
+      "resources": [
+        {
+          "id": "0uiGsC5SWavNdlFqizkKe-res-1",
+          "type": "article",
+          "title": "Render and Commit - Official Docs",
+          "url": "https://react.dev/learn/render-and-commit"
+        },
+        {
+          "id": "0uiGsC5SWavNdlFqizkKe-res-2",
+          "type": "article",
+          "title": "Rendering in React - ui.dev",
+          "url": "https://ui.dev/why-react-renders"
+        },
+        {
+          "id": "0uiGsC5SWavNdlFqizkKe-res-3",
+          "type": "article",
+          "title": "Fix the slow render before you fix the re-render",
+          "url": "https://kentcdodds.com/blog/fix-the-slow-render-before-you-fix-the-re-render"
+        }
+      ]
+    },
+    "NStw6bi_pPB49K41BFSgo": {
+      "id": "NStw6bi_pPB49K41BFSgo",
+      "slug": "routers",
+      "title": "Routing",
+      "description": "Routing is an essential concept in Single Page Applications (SPA). When your application is divided into separated logical sections, and all of them are under their own URL, your users can easily share links among each other.",
+      "resources": [
+        {
+          "id": "NStw6bi_pPB49K41BFSgo-res-1",
+          "type": "article",
+          "title": "How to use Routing in React JS: A Comprehensive Guide.",
+          "url": "https://blog.logrocket.com/react-router-v6-guide/"
+        },
+        {
+          "id": "NStw6bi_pPB49K41BFSgo-res-2",
+          "type": "video",
+          "title": "React Router 6 – Tutorial for Beginners.",
+          "url": "https://www.youtube.com/watch?v=59IXY5IDrBA"
+        }
+      ]
+    },
+    "h49-tjEkKcq7d7ikRHIOx": {
+      "id": "h49-tjEkKcq7d7ikRHIOx",
+      "slug": "rtk-query",
+      "title": "rtk-query",
+      "description": "[RTK Query](https://redux-toolkit.js.org/rtk-query/overview) is a data fetching and caching tool that is included in the Redux Toolkit package. It is designed to simplify common use cases for fetching data, including caching, polling, and invalidation.",
+      "resources": [
+        {
+          "id": "h49-tjEkKcq7d7ikRHIOx-res-1",
+          "type": "article",
+          "title": "RTK Query - Official Website",
+          "url": "https://redux-toolkit.js.org/rtk-query/overview"
+        }
+      ]
+    },
+    "SUeXDkmOLipdRP4fSrZOH": {
+      "id": "SUeXDkmOLipdRP4fSrZOH",
+      "slug": "server-apis",
+      "title": "Server APIs",
+      "description": "The react-dom/server APIs let you render React components to HTML on the server. These APIs are only used on the server at the top level of your app to generate the initial HTML. A [framework](https://react.dev/learn/start-a-new-react-project#production-grade-react-frameworks) may call them for you. Most of your components don’t need to import or use them.",
+      "resources": [
+        {
+          "id": "SUeXDkmOLipdRP4fSrZOH-res-1",
+          "type": "article",
+          "title": "Documentation For API",
+          "url": "https://react.dev/reference/react-dom/server"
+        }
+      ]
+    },
+    "njKsYNkwTXPQ1NjlGKXab": {
+      "id": "njKsYNkwTXPQ1NjlGKXab",
+      "slug": "shadcn-ui",
+      "title": "Shadcn UI",
+      "description": "Shadcn is an open-source framework providing pre-built, accessible, and customizable UI components for rapid web application development. It offers a streamlined approach to construct modern user interfaces.",
+      "resources": [
+        {
+          "id": "njKsYNkwTXPQ1NjlGKXab-res-1",
+          "type": "article",
+          "title": "Official Website",
+          "url": "https://ui.shadcn.com/"
+        },
+        {
+          "id": "njKsYNkwTXPQ1NjlGKXab-res-2",
+          "type": "article",
+          "title": "Documentation",
+          "url": "https://ui.shadcn.com/docs"
+        },
+        {
+          "id": "njKsYNkwTXPQ1NjlGKXab-res-3",
+          "type": "article",
+          "title": "Shadcn Guide",
+          "url": "https://blog.logrocket.com/shadcn-ui-adoption-guide/"
+        },
+        {
+          "id": "njKsYNkwTXPQ1NjlGKXab-res-4",
+          "type": "video",
+          "title": "Shadcn Setup and Tutorial",
+          "url": "https://www.youtube.com/watch?v=v0_AT8zaLo8"
+        }
+      ]
+    },
+    "I7_mX4h-Yywp1YyTJRKXI": {
+      "id": "I7_mX4h-Yywp1YyTJRKXI",
+      "slug": "state-management",
+      "title": "State Management",
+      "description": "Application state management is the process of maintaining knowledge of an application's inputs across multiple related data flows that form a complete business transaction -- or a session -- to understand the condition of the app at any given moment. In computer science, an input is information put into the program by the user and state refers to the condition of an application according to its stored inputs -- saved as variables or constants. State can also be described as the collection of preserved information that forms a complete session.",
+      "resources": [
+        {
+          "id": "I7_mX4h-Yywp1YyTJRKXI-res-1",
+          "type": "article",
+          "title": "What is State Management?",
+          "url": "https://www.techtarget.com/searchapparchitecture/definition/state-management"
+        },
+        {
+          "id": "I7_mX4h-Yywp1YyTJRKXI-res-2",
+          "type": "article",
+          "title": "Overview of State in React",
+          "url": "https://www.robinwieruch.de/react-state/"
+        }
+      ]
+    },
+    "_F3WMxhzaK9F8_-zHDDMF": {
+      "id": "_F3WMxhzaK9F8_-zHDDMF",
+      "slug": "suspense",
+      "title": "Suspense",
+      "description": "React Suspense is a feature in React that allows components to \"suspend\" rendering while they are waiting for something to happen, such as data to be fetched from an API or an image to be loaded. Suspense allows developers to create a more seamless user experience by rendering a placeholder or fallback component while the component is waiting for the required data to be available. Here is a general overview of how React Suspense works: *   A component that uses Suspense wraps a component that may need to \"suspend\" rendering in a `Suspense` component. *   The wrapped component throws a promise when it needs to suspend rendering. *   The `Suspense` component catches the promise and renders a fallback component while the promise is pending. *   When the promise resolves, the wrapped component is rendered with the required data.",
+      "resources": [
+        {
+          "id": "_F3WMxhzaK9F8_-zHDDMF-res-1",
+          "type": "article",
+          "title": "React Suspense",
+          "url": "https://react.dev/reference/react/Suspense"
+        },
+        {
+          "id": "_F3WMxhzaK9F8_-zHDDMF-res-2",
+          "type": "article",
+          "title": "React Suspense - A complete guide",
+          "url": "https://hygraph.com/blog/react-suspense"
+        }
+      ]
+    },
+    "-ea1KsXEyz-4voHXklG_J": {
+      "id": "-ea1KsXEyz-4voHXklG_J",
+      "slug": "swr",
+      "title": "SWR",
+      "description": "SWR is a React Hooks library for data fetching. The name “SWR” is derived from stale-while-revalidate, a cache invalidation strategy popularized by HTTP RFC 5861. SWR first returns the data from cache (stale), then sends the request (revalidate), and finally comes with the up-to-date data again. With just one hook, you can significantly simplify the data fetching logic in your project.",
+      "resources": [
+        {
+          "id": "-ea1KsXEyz-4voHXklG_J-res-1",
+          "type": "article",
+          "title": "SWR: React Hooks for Data Fetching",
+          "url": "https://swr.vercel.app/"
+        },
+        {
+          "id": "-ea1KsXEyz-4voHXklG_J-res-2",
+          "type": "article",
+          "title": "Explore top posts about Next.js",
+          "url": "https://app.daily.dev/tags/nextjs?ref=roadmapsh"
+        }
+      ]
+    },
+    "KO3viVIJJREtxXxsocN7j": {
+      "id": "KO3viVIJJREtxXxsocN7j",
+      "slug": "tailwind-css",
+      "title": "Tailwind CSS",
+      "description": "CSS Framework that provides atomic CSS classes to help you style components e.g. `flex`, `pt-4`, `text-center` and `rotate-90` that can be composed to build any design, directly in your markup.",
+      "resources": [
+        {
+          "id": "KO3viVIJJREtxXxsocN7j-res-1",
+          "type": "article",
+          "title": "Tailwind Website",
+          "url": "https://tailwindcss.com"
+        },
+        {
+          "id": "KO3viVIJJREtxXxsocN7j-res-2",
+          "type": "video",
+          "title": "Tailwind CSS Full Course for Beginners",
+          "url": "https://www.youtube.com/watch?v=lCxcTsOHrjo"
+        },
+        {
+          "id": "KO3viVIJJREtxXxsocN7j-res-3",
+          "type": "video",
+          "title": "Tailwind CSS Crash Course",
+          "url": "https://www.youtube.com/watch?v=UBOj6rqRUME"
+        },
+        {
+          "id": "KO3viVIJJREtxXxsocN7j-res-4",
+          "type": "video",
+          "title": "Should You Use Tailwind CSS?",
+          "url": "https://www.youtube.com/watch?v=hdGsFpZ0J2E"
+        },
+        {
+          "id": "KO3viVIJJREtxXxsocN7j-res-5",
+          "type": "video",
+          "title": "Official Screencasts",
+          "url": "https://www.youtube.com/c/TailwindLabs/videos"
+        },
+        {
+          "id": "KO3viVIJJREtxXxsocN7j-res-6",
+          "type": "article",
+          "title": "Explore top posts about Tailwind CSS",
+          "url": "https://app.daily.dev/tags/tailwind-css?ref=roadmapsh"
+        }
+      ]
+    },
+    "5EPmbiNdP_vhIXclv_GjV": {
+      "id": "5EPmbiNdP_vhIXclv_GjV",
+      "slug": "tanstack-query",
+      "title": "TanStack Query",
+      "description": "TanStack Query, previously known as React Query, is a powerful library for fetching, caching, synchronizing, and updating server state in your React applications. It simplifies the process of handling asynchronous data, reducing boilerplate code and improving the user experience by providing features like automatic retries, background updates, and optimistic updates. It essentially helps you manage data fetching and caching in a declarative and efficient way.",
+      "resources": [
+        {
+          "id": "5EPmbiNdP_vhIXclv_GjV-res-1",
+          "type": "article",
+          "title": "TanStack Query",
+          "url": "https://tanstack.com/query/latest"
+        },
+        {
+          "id": "5EPmbiNdP_vhIXclv_GjV-res-2",
+          "type": "article",
+          "title": "TanStack Query",
+          "url": "https://github.com/TanStack/query"
+        },
+        {
+          "id": "5EPmbiNdP_vhIXclv_GjV-res-3",
+          "type": "article",
+          "title": "TanStack for Beginners: A Complete Guide & Tutorial",
+          "url": "https://codeparrot.ai/blogs/tanstack-for-beginners-a-complete-guide-tutorial"
+        },
+        {
+          "id": "5EPmbiNdP_vhIXclv_GjV-res-4",
+          "type": "video",
+          "title": "TanStack Query - How to become a React Query God",
+          "url": "https://www.youtube.com/watch?v=mPaCnwpFvZY"
+        },
+        {
+          "id": "5EPmbiNdP_vhIXclv_GjV-res-5",
+          "type": "article",
+          "title": "Explore top posts about React",
+          "url": "https://app.daily.dev/tags/react?ref=roadmapsh"
+        }
+      ]
+    },
+    "zWL8VLx_g0SWubavJDs6i": {
+      "id": "zWL8VLx_g0SWubavJDs6i",
+      "slug": "tanstack-router",
+      "title": "TanStack Router",
+      "description": "TanStack Router is a powerful router for building React applications, offering a range of advanced features to streamline development.",
+      "resources": [
+        {
+          "id": "zWL8VLx_g0SWubavJDs6i-res-1",
+          "type": "article",
+          "title": "TanStack Router Documentation",
+          "url": "https://tanstack.com/router/latest/docs/framework/react/overview"
+        },
+        {
+          "id": "zWL8VLx_g0SWubavJDs6i-res-2",
+          "type": "video",
+          "title": "TanStack Router - Crash Course",
+          "url": "https://www.youtube.com/watch?v=4sslBg8LprE&list=PLOQjd5dsGSxJilh0lBofeY8Qib98kzmF5"
+        },
+        {
+          "id": "zWL8VLx_g0SWubavJDs6i-res-3",
+          "type": "video",
+          "title": "TanStack Router Vite: Ultimate Guide for Beginners",
+          "url": "https://www.youtube.com/watch?v=AN9rD7y9MS8"
+        }
+      ]
+    },
+    "e_lwZ-a72-tAan2KDX6k3": {
+      "id": "e_lwZ-a72-tAan2KDX6k3",
+      "slug": "testing",
+      "title": "Testing",
+      "description": "A key to building software that meets requirements without defects is testing. Software testing helps developers know they are building the right software. When tests are run as part of the development process (often with continuous integration tools), they build confidence and prevent regressions in the code.",
+      "resources": [
+        {
+          "id": "e_lwZ-a72-tAan2KDX6k3-res-1",
+          "type": "article",
+          "title": "What is Software Testing?",
+          "url": "https://www.guru99.com/software-testing-introduction-importance.html"
+        },
+        {
+          "id": "e_lwZ-a72-tAan2KDX6k3-res-2",
+          "type": "article",
+          "title": "Testing Pyramid",
+          "url": "https://www.browserstack.com/guide/testing-pyramid-for-test-automation"
+        },
+        {
+          "id": "e_lwZ-a72-tAan2KDX6k3-res-3",
+          "type": "article",
+          "title": "Explore top posts about Testing",
+          "url": "https://app.daily.dev/tags/testing?ref=roadmapsh"
+        }
+      ]
+    },
+    "UNlvRp6k3_RDoTAAIEfJ1": {
+      "id": "UNlvRp6k3_RDoTAAIEfJ1",
+      "slug": "types--validation",
+      "title": "Types & Validation",
+      "description": "**Typescript** provides a static type system that helps you in avoiding mistakes during the development and provides other features (e.g. IDE support) that help you improve your productivity. One thing you should note is that TypeScript can only help you avoid mistakes during the development. We can't rely on it to validate a client's input. **Zod** is a powerful validation library that allows us to validate: form input, local storage, API contracts and much more using their typesafe implementation.",
+      "resources": [
+        {
+          "id": "UNlvRp6k3_RDoTAAIEfJ1-res-1",
+          "type": "article",
+          "title": "What is TypeScript and why would I use it in place of JavaScript?",
+          "url": "https://stackoverflow.com/questions/12694530/what-is-typescript-and-why-would-i-use-it-in-place-of-javascript"
+        },
+        {
+          "id": "UNlvRp6k3_RDoTAAIEfJ1-res-2",
+          "type": "article",
+          "title": "When Use Zod",
+          "url": "https://www.totaltypescript.com/when-should-you-use-zod"
+        }
+      ]
+    },
+    "ElgRwv5LSVg5FXGx-2K2s": {
+      "id": "ElgRwv5LSVg5FXGx-2K2s",
+      "slug": "typescript",
+      "title": "TypeScript",
+      "description": "TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.",
+      "resources": [
+        {
+          "id": "ElgRwv5LSVg5FXGx-2K2s-res-1",
+          "type": "article",
+          "title": "Official Website",
+          "url": "https://www.typescriptlang.org/"
+        },
+        {
+          "id": "ElgRwv5LSVg5FXGx-2K2s-res-2",
+          "type": "article",
+          "title": "The TypeScript Handbook",
+          "url": "https://www.typescriptlang.org/docs/handbook/intro.html"
+        },
+        {
+          "id": "ElgRwv5LSVg5FXGx-2K2s-res-3",
+          "type": "video",
+          "title": "TypeScript for Beginners",
+          "url": "https://www.youtube.com/watch?v=BwuLxPH8IDs"
+        },
+        {
+          "id": "ElgRwv5LSVg5FXGx-2K2s-res-4",
+          "type": "article",
+          "title": "Explore top posts about TypeScript",
+          "url": "https://app.daily.dev/tags/typescript?ref=roadmapsh"
+        }
+      ]
+    },
+    "9M5jRu0pj8KMvg9f-2oqZ": {
+      "id": "9M5jRu0pj8KMvg9f-2oqZ",
+      "slug": "urql",
+      "title": "urql",
+      "description": "urql (Universal React Query Library) is a library for managing GraphQL data in React applications. It is developed and maintained by Formidable Labs and is available as open-source software. urql is designed to be easy to use and flexible, with a simple API for performing GraphQL queries and mutations. It is based on the concept of a client, which is used to manage the GraphQL data for an application. The client provides a set of utilities and APIs for managing GraphQL data, including: *   executeQuery: A utility for executing a GraphQL query. *   executeMutation: A utility for executing a GraphQL mutation. *   useQuery: A hook for executing a GraphQL query and accessing the result in a component. *   useMutation: A hook for executing a GraphQL mutation and accessing the result in a component. urql is often used as an alternative to other GraphQL libraries, such as Apollo Client, because of its simplicity and lightweight size. It is particularly well-suited for small to medium-sized React applications where the complexity of other GraphQL libraries may not be required.",
+      "resources": [
+        {
+          "id": "9M5jRu0pj8KMvg9f-2oqZ-res-1",
+          "type": "article",
+          "title": "urql - Formidable Labs",
+          "url": "https://formidable.com/open-source/urql/"
+        }
+      ]
+    },
+    "dgoDNDtW2_q9R9yhkXrcz": {
+      "id": "dgoDNDtW2_q9R9yhkXrcz",
+      "slug": "usecallback",
+      "title": "useCallback",
+      "description": "`useCallback` is a React hook that returns a memoized version of a callback function. It's used to optimize performance by preventing unnecessary re-renders. Specifically, it helps avoid recreating functions when their dependencies haven't changed, which can be useful when passing callbacks to child components that rely on referential equality to prevent re-rendering.",
+      "resources": [
+        {
+          "id": "dgoDNDtW2_q9R9yhkXrcz-res-1",
+          "type": "article",
+          "title": "React Documentation on useCallback",
+          "url": "https://react.dev/reference/react/useCallback"
+        },
+        {
+          "id": "dgoDNDtW2_q9R9yhkXrcz-res-2",
+          "type": "article",
+          "title": "useCallback Explained in Depth",
+          "url": "https://kentcdodds.com/blog/usememo-and-usecallback"
+        },
+        {
+          "id": "dgoDNDtW2_q9R9yhkXrcz-res-3",
+          "type": "article",
+          "title": "useCallback Hook: An Introductory Guide",
+          "url": "https://dmitripavlutin.com/dont-overuse-react-usecallback/"
+        }
+      ]
+    },
+    "D5_O-uElftYGQr_bTU_se": {
+      "id": "D5_O-uElftYGQr_bTU_se",
+      "slug": "usecontext",
+      "title": "useContext",
+      "description": "The `useContext` Hook lets us share data between components without having to pass props down through every level of the component tree. This is particularly useful when many components need to access the same data or when components are deeply nested.",
+      "resources": [
+        {
+          "id": "D5_O-uElftYGQr_bTU_se-res-1",
+          "type": "article",
+          "title": "Using useContext",
+          "url": "https://react.dev/reference/react/useContext"
+        },
+        {
+          "id": "D5_O-uElftYGQr_bTU_se-res-2",
+          "type": "article",
+          "title": "Explore the concept of context",
+          "url": "https://react.dev/learn/passing-data-deeply-with-context"
+        },
+        {
+          "id": "D5_O-uElftYGQr_bTU_se-res-3",
+          "type": "video",
+          "title": "Learn useContext In 13 Minutes",
+          "url": "https://www.youtube.com/watch?v=5LrDIWkK_Bc"
+        }
+      ]
+    },
+    "8OnzX03hkZ9K9i__tjmFX": {
+      "id": "8OnzX03hkZ9K9i__tjmFX",
+      "slug": "useeffect",
+      "title": "useEffect Hook",
+      "description": "`useEffect` is a special hook that lets you run side effects in React. It is similar to componentDidMount and componentDidUpdate, but it only runs when the component (or some of its props) changes and during the initial mount.",
+      "resources": [
+        {
+          "id": "8OnzX03hkZ9K9i__tjmFX-res-1",
+          "type": "article",
+          "title": "Using the Effect Hook",
+          "url": "https://react.dev/reference/react/useEffect"
+        },
+        {
+          "id": "8OnzX03hkZ9K9i__tjmFX-res-2",
+          "type": "article",
+          "title": "React useEffect Hook by Example",
+          "url": "https://www.robinwieruch.de/react-useeffect-hook/"
+        }
+      ]
+    },
+    "w3bNp7OkehI1gjx8NzlC8": {
+      "id": "w3bNp7OkehI1gjx8NzlC8",
+      "slug": "usememo",
+      "title": "useMemo",
+      "description": "`useMemo` is a React hook that memoizes the result of a function. It is used to optimize performance by caching the result of a function and returning the cached result when the inputs to the function have not changed.",
+      "resources": [
+        {
+          "id": "w3bNp7OkehI1gjx8NzlC8-res-1",
+          "type": "article",
+          "title": "useMemo Docs",
+          "url": "https://react.dev/reference/react/useMemo"
+        },
+        {
+          "id": "w3bNp7OkehI1gjx8NzlC8-res-2",
+          "type": "article",
+          "title": "useMemo and useCallback - Josh W. Comeau",
+          "url": "https://www.joshwcomeau.com/react/usememo-and-usecallback/"
+        }
+      ]
+    },
+    "v48Mv0wQqjXbvy8x6gDjQ": {
+      "id": "v48Mv0wQqjXbvy8x6gDjQ",
+      "slug": "usereducer",
+      "title": "useReducer",
+      "description": "`useReducer`: An alternative to useState. Accepts a reducer of type (state, action) => newState, and returns the current state paired with a dispatch method. (If you’re familiar with Redux, you already know how this works.)",
+      "resources": [
+        {
+          "id": "v48Mv0wQqjXbvy8x6gDjQ-res-1",
+          "type": "article",
+          "title": "useReducer Docs",
+          "url": "https://react.dev/reference/react/useReducer"
+        },
+        {
+          "id": "v48Mv0wQqjXbvy8x6gDjQ-res-2",
+          "type": "article",
+          "title": "The React useReducer Hook",
+          "url": "https://www.telerik.com/blogs/react-usereducer-hook"
+        },
+        {
+          "id": "v48Mv0wQqjXbvy8x6gDjQ-res-3",
+          "type": "article",
+          "title": "A guide to the React useReducer Hook",
+          "url": "https://blog.logrocket.com/react-usereducer-hook-ultimate-guide/"
+        },
+        {
+          "id": "v48Mv0wQqjXbvy8x6gDjQ-res-4",
+          "type": "video",
+          "title": "Learn React Hooks: useReducer - Simply Explained!",
+          "url": "https://www.youtube.com/watch?v=rgp_iCVS8ys&t"
+        }
+      ]
+    },
+    "t_laNdMmdLApYszqXRdWg": {
+      "id": "t_laNdMmdLApYszqXRdWg",
+      "slug": "useref",
+      "title": "useRef",
+      "description": "`useRef` is a React hook that provides a way to create a mutable reference that persists across component re-renders. It stores a value that doesn't cause re-renders when it changes.",
+      "resources": [
+        {
+          "id": "t_laNdMmdLApYszqXRdWg-res-1",
+          "type": "article",
+          "title": "useRef",
+          "url": "https://react.dev/reference/react/useRef"
+        },
+        {
+          "id": "t_laNdMmdLApYszqXRdWg-res-2",
+          "type": "video",
+          "title": "WebDevSimplified",
+          "url": "https://www.youtube.com/watch?v=t2ypzz6gJm0"
+        }
+      ]
+    },
+    "FK59Zsm5ENA9g11XWCan_": {
+      "id": "FK59Zsm5ENA9g11XWCan_",
+      "slug": "usestate",
+      "title": "useState Hook",
+      "description": "`useState` is a React Hook that lets you add state to functional components. When you call `useState`, you get back the current state value and a function to update it, allowing components to store and manage data that persists between renders.",
+      "resources": [
+        {
+          "id": "FK59Zsm5ENA9g11XWCan_-res-1",
+          "type": "article",
+          "title": "useState Documentation",
+          "url": "https://react.dev/reference/react/useState"
+        },
+        {
+          "id": "FK59Zsm5ENA9g11XWCan_-res-2",
+          "type": "article",
+          "title": "State: A Component's Memory",
+          "url": "https://react.dev/learn/state-a-components-memory"
+        },
+        {
+          "id": "FK59Zsm5ENA9g11XWCan_-res-3",
+          "type": "article",
+          "title": "Adding Interactivity",
+          "url": "https://react.dev/learn/adding-interactivity"
+        },
+        {
+          "id": "FK59Zsm5ENA9g11XWCan_-res-4",
+          "type": "article",
+          "title": "eact Hooks: useState Explained",
+          "url": "https://www.robinwieruch.de/react-usestate-hook/"
+        }
+      ]
+    },
+    "YEpkbNzEMzS6wAKg85J_N": {
+      "id": "YEpkbNzEMzS6wAKg85J_N",
+      "slug": "usestate",
+      "title": "useState",
+      "description": "`useState` is a React Hook that adds state to function components. It returns an array with the current state value and a setter function; calling the setter with a new value schedules a re-render, and you can pass a function to compute the new state from the previous one.",
+      "resources": []
+    },
+    "y9ToYDix-koRbR6FLydFw": {
+      "id": "y9ToYDix-koRbR6FLydFw",
+      "slug": "vite",
+      "title": "Vite",
+      "description": "Vite is a build tool that aims to provide a faster and leaner development experience for modern web projects.",
+      "resources": [
+        {
+          "id": "y9ToYDix-koRbR6FLydFw-res-1",
+          "type": "article",
+          "title": "Vite Website",
+          "url": "https://vitejs.dev"
+        },
+        {
+          "id": "y9ToYDix-koRbR6FLydFw-res-2",
+          "type": "article",
+          "title": "Vite Documentation",
+          "url": "https://vitejs.dev/guide"
+        },
+        {
+          "id": "y9ToYDix-koRbR6FLydFw-res-3",
+          "type": "video",
+          "title": "Vite Crash Course",
+          "url": "https://youtu.be/LQQ3CR2JTX8"
+        },
+        {
+          "id": "y9ToYDix-koRbR6FLydFw-res-4",
+          "type": "video",
+          "title": "Vite Crash Course | Faster Alternative To CRA | 2023",
+          "url": "https://www.youtube.com/watch?v=89NJdbYTgJ8"
+        },
+        {
+          "id": "y9ToYDix-koRbR6FLydFw-res-5",
+          "type": "article",
+          "title": "Explore top posts about Vite",
+          "url": "https://app.daily.dev/tags/vite?ref=roadmapsh"
+        }
+      ]
+    },
+    "LULjhsPNONyI5912DKzPw": {
+      "id": "LULjhsPNONyI5912DKzPw",
+      "slug": "vitest",
+      "title": "Vitest",
+      "description": "Vitest is a fast Vite-native unit test framework with out-of-box ESM, TypeScript and JSX support. Works on React, Vue, Svelte and more projects created with Vite",
+      "resources": [
+        {
+          "id": "LULjhsPNONyI5912DKzPw-res-1",
+          "type": "article",
+          "title": "Vitest Website",
+          "url": "https://vitest.dev/"
+        },
+        {
+          "id": "LULjhsPNONyI5912DKzPw-res-2",
+          "type": "video",
+          "title": "Testing with Vitest",
+          "url": "https://www.youtube.com/watch?v=cM_AeQHzlGg"
+        }
+      ]
+    },
+    "DfrCkbD-HEHwLymv10zb5": {
+      "id": "DfrCkbD-HEHwLymv10zb5",
+      "slug": "writing-css",
+      "title": "Styling",
+      "description": "While \"CSS in JS\" is the most predominant way of styling modern frontend applications, there are several different ways to style your React applications whether it is vanilla CSS, [CSS Modules](https://github.com/css-modules/css-modules), or [CSS in JS](https://css-tricks.com/a-thorough-analysis-of-css-in-js/) etc and each has several frameworks available.",
+      "resources": [
+        {
+          "id": "DfrCkbD-HEHwLymv10zb5-res-1",
+          "type": "article",
+          "title": "Ways to CSS style a React application",
+          "url": "https://www.robinwieruch.de/react-css-styling/"
+        }
+      ]
+    },
+    "K3RZ8ESxWCpLKHePF87Hy": {
+      "id": "K3RZ8ESxWCpLKHePF87Hy",
+      "slug": "zod",
+      "title": "Zod",
+      "description": "Zod is a TypeScript-first schema declaration and validation library. I'm using the term \"schema\" to broadly refer to any data type, from a simple string to a complex nested object. Zod is designed to be as developer-friendly as possible. The goal is to eliminate duplicate type declarations. With Zod, you declare a validator once and Zod will automatically infer the static TypeScript type. It's easy to compose simpler types into complex data structures.",
+      "resources": [
+        {
+          "id": "K3RZ8ESxWCpLKHePF87Hy-res-1",
+          "type": "article",
+          "title": "Zod Website",
+          "url": "https://zod.dev/"
+        },
+        {
+          "id": "K3RZ8ESxWCpLKHePF87Hy-res-2",
+          "type": "video",
+          "title": "Learn Zod In 30 Minutes",
+          "url": "https://www.youtube.com/watch?v=L6BE-U3oy80"
+        }
+      ]
+    },
+    "nl5imPsdY2oEWlg-9TTuk": {
+      "id": "nl5imPsdY2oEWlg-9TTuk",
+      "slug": "zustand",
+      "title": "Zustand",
+      "description": "Zustand is a small, fast and scalable bearbones state-management solution using simplified flux principles. Has a comfy api based on hooks, isn't boilerplatey or opinionated. Zustand is often used as an alternative to other state management libraries, such as Redux and MobX, because of its simplicity and small size. It is particularly well-suited for small to medium-sized applications, where the complexity of larger state management libraries is not required.",
+      "resources": [
+        {
+          "id": "nl5imPsdY2oEWlg-9TTuk-res-1",
+          "type": "article",
+          "title": "Zustand - Official Website",
+          "url": "https://github.com/pmndrs/zustand"
+        },
+        {
+          "id": "nl5imPsdY2oEWlg-9TTuk-res-2",
+          "type": "article",
+          "title": "Zustand Repository",
+          "url": "https://github.com/pmndrs/zustand"
+        },
+        {
+          "id": "nl5imPsdY2oEWlg-9TTuk-res-3",
+          "type": "article",
+          "title": "Working with Zustand",
+          "url": "https://tkdodo.eu/blog/working-with-zustand"
+        },
+        {
+          "id": "nl5imPsdY2oEWlg-9TTuk-res-4",
+          "type": "article",
+          "title": "Zustand - Official Documentation",
+          "url": "https://docs.pmnd.rs/zustand/getting-started/introduction"
+        },
+        {
+          "id": "nl5imPsdY2oEWlg-9TTuk-res-5",
+          "type": "video",
+          "title": "Zustand Tutorial for Beginners",
+          "url": "https://www.youtube.com/watch?v=AYO4qHAnLQI&t"
+        }
+      ]
+    }
+  }
+}

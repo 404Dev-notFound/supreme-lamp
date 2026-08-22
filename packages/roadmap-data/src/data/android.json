@@ -1,0 +1,3987 @@
+{
+  "slug": "android",
+  "title": "Android",
+  "description": "Comprehensive learning curriculum and mastery roadmap for android.",
+  "category": "skill",
+  "level": "Intermediate",
+  "topicCount": 114,
+  "iconName": "Compass",
+  "nodes": [
+    {
+      "id": "node-FVg438cVBBzqJFkGWVbQM",
+      "label": "Activity LifeCycle",
+      "topicId": "FVg438cVBBzqJFkGWVbQM",
+      "level": 1,
+      "position": {
+        "x": 80,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-nwuVlPmzwJ17mtVQ8Hi9w",
+      "label": "Activity",
+      "topicId": "nwuVlPmzwJ17mtVQ8Hi9w",
+      "level": 1,
+      "position": {
+        "x": 340,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-pHxtpvd7U8CbIW6yebcVX",
+      "label": "Animations",
+      "topicId": "pHxtpvd7U8CbIW6yebcVX",
+      "level": 1,
+      "position": {
+        "x": 600,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-ww0fTbdXwVr-QIOClU7ng",
+      "label": "Apollo-Android",
+      "topicId": "ww0fTbdXwVr-QIOClU7ng",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-5Li8J5iR_ZuyIlxX0LYei",
+      "label": "App Components",
+      "topicId": "5Li8J5iR_ZuyIlxX0LYei",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-xV475jHTlLuHtpHZeXb7P",
+      "label": "App Shortcuts",
+      "topicId": "xV475jHTlLuHtpHZeXb7P",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-cFYZ2C7yNnY6NHKUNP2Z4",
+      "label": "Asynchronism",
+      "topicId": "cFYZ2C7yNnY6NHKUNP2Z4",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-Xv0es_z64vh-QzivMeAT3",
+      "label": "Authentication",
+      "topicId": "Xv0es_z64vh-QzivMeAT3",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-jl1FsQ5-WGKeFyaILNt_p",
+      "label": "Basics of Kotlin",
+      "topicId": "jl1FsQ5-WGKeFyaILNt_p",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-j69erqfosSZMDlmKcnnn0",
+      "label": "Basics of Kotlin",
+      "topicId": "j69erqfosSZMDlmKcnnn0",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-5LFZdUiFYYU_1sYsouyan",
+      "label": "Bitbucket",
+      "topicId": "5LFZdUiFYYU_1sYsouyan",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-Z4Tbd5ClnqCXGPGG09F-G",
+      "label": "BottomSheet",
+      "topicId": "Z4Tbd5ClnqCXGPGG09F-G",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-Dp2DOX10u2xJUjB8Okhzh",
+      "label": "Box Layout",
+      "topicId": "Dp2DOX10u2xJUjB8Okhzh",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-tFuAToid1Fkmu96BDtW7K",
+      "label": "Broadcast Receiver",
+      "topicId": "tFuAToid1Fkmu96BDtW7K",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-784fiIdKrQDlIm3VIiJQN",
+      "label": "Builder Pattern",
+      "topicId": "784fiIdKrQDlIm3VIiJQN",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-WhfzFOUpm0DFEj7Oeq21R",
+      "label": "Button",
+      "topicId": "WhfzFOUpm0DFEj7Oeq21R",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-EzLjX4iRT7AxkAOsJYnSU",
+      "label": "Card",
+      "topicId": "EzLjX4iRT7AxkAOsJYnSU",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-7RKN1FNtRE_BE6QeAQrKb",
+      "label": "Chucker",
+      "topicId": "7RKN1FNtRE_BE6QeAQrKb",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-e3vHFaFFMV7kI9q6yf5e9",
+      "label": "Cloud Messaging",
+      "topicId": "e3vHFaFFMV7kI9q6yf5e9",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-yE0qAQZiEC9R8WvCdskpr",
+      "label": "Column and Row in Compose",
+      "topicId": "yE0qAQZiEC9R8WvCdskpr",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-ZEdn2yy-IwHN3kOYr2ZbC",
+      "label": "Common Services",
+      "topicId": "ZEdn2yy-IwHN3kOYr2ZbC",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-3fFNMhQIuuh-NRzSXYpXO",
+      "label": "ConstraintLayout",
+      "topicId": "3fFNMhQIuuh-NRzSXYpXO",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-qNzC8sQqQaDnG1oy1jiO0",
+      "label": "ConstraintLayout",
+      "topicId": "qNzC8sQqQaDnG1oy1jiO0",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-nkcdjrswv0WCzUs48BAt9",
+      "label": "Content Provider",
+      "topicId": "nkcdjrswv0WCzUs48BAt9",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-i_cKmTnGAYw8xpHwZHjAd",
+      "label": "Coroutines",
+      "topicId": "i_cKmTnGAYw8xpHwZHjAd",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-xB4evbD07n1VrHOIpowV4",
+      "label": "Crashlytics",
+      "topicId": "xB4evbD07n1VrHOIpowV4",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-5m_7DvInF8C_4Ml1xVI6L",
+      "label": "Create a Basic Hello World App",
+      "topicId": "5m_7DvInF8C_4Ml1xVI6L",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-CK7Ce632fdTgxeFsRUVvd",
+      "label": "Dagger",
+      "topicId": "CK7Ce632fdTgxeFsRUVvd",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-cNeT1dJDfgn0ndPzSxhSL",
+      "label": "Data Structures and Algorithms",
+      "topicId": "cNeT1dJDfgn0ndPzSxhSL",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-GWq3s1iTxQOp1BstHscJ9",
+      "label": "DataStore",
+      "topicId": "GWq3s1iTxQOp1BstHscJ9",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-6KbSUAoT_jTudFoIbwMpA",
+      "label": "Debugging",
+      "topicId": "6KbSUAoT_jTudFoIbwMpA",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-qtXM9K7wyjOFuEMlZrB3C",
+      "label": "Dependency Injection",
+      "topicId": "qtXM9K7wyjOFuEMlZrB3C",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-jePGzTejFe4ryA5qFFmjl",
+      "label": "Architecture and Design Patterns",
+      "topicId": "jePGzTejFe4ryA5qFFmjl",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-RUvuCp_JK5MQQT13SSHUV",
+      "label": "Detekt",
+      "topicId": "RUvuCp_JK5MQQT13SSHUV",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-ZRGsokU313Ky-anWbWK6q",
+      "label": "Development IDE",
+      "topicId": "ZRGsokU313Ky-anWbWK6q",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-Xn1VQ-xOT67ZfJJTM4r1p",
+      "label": "Animations",
+      "topicId": "Xn1VQ-xOT67ZfJJTM4r1p",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-kc6buUsLAeZeUb4Tk0apM",
+      "label": "Distribution",
+      "topicId": "kc6buUsLAeZeUb4Tk0apM",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-mhxUDPHI-6NHwOxsdVn65",
+      "label": "Drawer",
+      "topicId": "mhxUDPHI-6NHwOxsdVn65",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node--ONSC-ImGSELbamKmjIlH",
+      "label": "Espresso",
+      "topicId": "-ONSC-ImGSELbamKmjIlH",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-TmIeCF3xVCe5Sy3ITmM31",
+      "label": "Explicit Intents",
+      "topicId": "TmIeCF3xVCe5Sy3ITmM31",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-DeOxj6RzQBYfEWV-M1Ybm",
+      "label": "Factory Pattern",
+      "topicId": "DeOxj6RzQBYfEWV-M1Ybm",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-A4kdaj6AFueUgPI7hwKi5",
+      "label": "File System",
+      "topicId": "A4kdaj6AFueUgPI7hwKi5",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-T7q_quNaIAuGi96OdnDT1",
+      "label": "Firebase Distribution",
+      "topicId": "T7q_quNaIAuGi96OdnDT1",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-3EEfKAd-ppIQpdQSEhbA1",
+      "label": "FireStore",
+      "topicId": "3EEfKAd-ppIQpdQSEhbA1",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-W-WTIiQml8dLK6i_V69JK",
+      "label": "Flow",
+      "topicId": "W-WTIiQml8dLK6i_V69JK",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-2iDJrxjXOt7o2fPp2HfRl",
+      "label": "Fragments",
+      "topicId": "2iDJrxjXOt7o2fPp2HfRl",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-rqSZ2ATeHbOdIQE9Jlb0B",
+      "label": "Git",
+      "topicId": "rqSZ2ATeHbOdIQE9Jlb0B",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-H-2eb8fLwz8IKYXbeSVKK",
+      "label": "GitHub",
+      "topicId": "H-2eb8fLwz8IKYXbeSVKK",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-Q47BtQphp59NkkZoeNXmP",
+      "label": "GitLab",
+      "topicId": "Q47BtQphp59NkkZoeNXmP",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-D4ZXQOKJkyFYNZIy-MJ9Y",
+      "label": "Google AdMob",
+      "topicId": "D4ZXQOKJkyFYNZIy-MJ9Y",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-S5FVF9rMgVSSDKXJW2GYb",
+      "label": "Google Maps",
+      "topicId": "S5FVF9rMgVSSDKXJW2GYb",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-m5rumeynEbS8T27pelr0-",
+      "label": "Google Play Services",
+      "topicId": "m5rumeynEbS8T27pelr0-",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-HgRdgi2Hu4C8YLG5PXfoo",
+      "label": "Google Playstore",
+      "topicId": "HgRdgi2Hu4C8YLG5PXfoo",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-ooo_k2k_vUBR_jQ7Ke6Et",
+      "label": "Hilt",
+      "topicId": "ooo_k2k_vUBR_jQ7Ke6Et",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-pEBpXv3Jf1AzBNHlvVrG8",
+      "label": "Icon in Compose",
+      "topicId": "pEBpXv3Jf1AzBNHlvVrG8",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-Mtx0bY0drmaTw8sCM5YTl",
+      "label": "Image",
+      "topicId": "Mtx0bY0drmaTw8sCM5YTl",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-A4rtNULX_MoV93IH1Lgqw",
+      "label": "ImageView",
+      "topicId": "A4rtNULX_MoV93IH1Lgqw",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-gGdz3j33x0gfrFDp_rw8Z",
+      "label": "Implicit Intents",
+      "topicId": "gGdz3j33x0gfrFDp_rw8Z",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-b-sfh6NoS-APqaNKm5L5S",
+      "label": "Intent Filters",
+      "topicId": "b-sfh6NoS-APqaNKm5L5S",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-hv_9imIQpthxEaMLXEUHI",
+      "label": "Intent",
+      "topicId": "hv_9imIQpthxEaMLXEUHI",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-4_e76QafrB419S2INOeKd",
+      "label": "Interface and Navigation",
+      "topicId": "4_e76QafrB419S2INOeKd",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-RBABbkzD_uNFwEO-hssZO",
+      "label": "Java",
+      "topicId": "RBABbkzD_uNFwEO-hssZO",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-ACUJlDDR0jqEohsFzWEoQ",
+      "label": "Jetpack Benchmark",
+      "topicId": "ACUJlDDR0jqEohsFzWEoQ",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-60Vm-77rseUqpMiFvp-dA",
+      "label": "Jetpack Compose",
+      "topicId": "60Vm-77rseUqpMiFvp-dA",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-gvGAwjk_nhEgxzZ_c3f6b",
+      "label": "JUnit",
+      "topicId": "gvGAwjk_nhEgxzZ_c3f6b",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-dc7k50PjCYZcElHhCk66p",
+      "label": "Kodein",
+      "topicId": "dc7k50PjCYZcElHhCk66p",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-UMqZ-jmXKDXKuu8bzqDH_",
+      "label": "Koin",
+      "topicId": "UMqZ-jmXKDXKuu8bzqDH_",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-qIzUv8-GgQnkqChEdgD50",
+      "label": "Kotlin",
+      "topicId": "qIzUv8-GgQnkqChEdgD50",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-zMbXQH17Q52opdbitPzj7",
+      "label": "Ktlint",
+      "topicId": "zMbXQH17Q52opdbitPzj7",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-mMKN4a8lqo38M0iL1Qwhy",
+      "label": "Lazy Column and Row",
+      "topicId": "mMKN4a8lqo38M0iL1Qwhy",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-3i4g9ZWgLxKb2UMgRJi4Q",
+      "label": "Leak Canary",
+      "topicId": "3i4g9ZWgLxKb2UMgRJi4Q",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-77F9F3oI5CPgwgM_hxWfa",
+      "label": "Linting",
+      "topicId": "77F9F3oI5CPgwgM_hxWfa",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-TiokceMGU9caqiR0lbFYL",
+      "label": "LiveData",
+      "topicId": "TiokceMGU9caqiR0lbFYL",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-w1A6wPKSd3Yh2luuHV-aE",
+      "label": "MVC",
+      "topicId": "w1A6wPKSd3Yh2luuHV-aE",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-Bz-BkfzsDHAbAw3HD7WCd",
+      "label": "MVI",
+      "topicId": "Bz-BkfzsDHAbAw3HD7WCd",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-aF_xFIqTjQbENtC7pkXvJ",
+      "label": "MVP",
+      "topicId": "aF_xFIqTjQbENtC7pkXvJ",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-pSU-NZtjBh-u0WKTYfjk_",
+      "label": "MVVM",
+      "topicId": "pSU-NZtjBh-u0WKTYfjk_",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-UAerxLQ1ZB6N6LS1IhfNk",
+      "label": "NavHost",
+      "topicId": "UAerxLQ1ZB6N6LS1IhfNk",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-o5rzmnaQeiSh9ocvfJPpK",
+      "label": "Navigation Components",
+      "topicId": "o5rzmnaQeiSh9ocvfJPpK",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-Yb6aKJMMCxU1QVltWg3Dr",
+      "label": "Network",
+      "topicId": "Yb6aKJMMCxU1QVltWg3Dr",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-N_auRfGKkeIIc-qiHLkR_",
+      "label": "Observer Pattern",
+      "topicId": "N_auRfGKkeIIc-qiHLkR_",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-5pVuwOItAhUxxJX8ysAsn",
+      "label": "OkHttp",
+      "topicId": "5pVuwOItAhUxxJX8ysAsn",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-Suws-7f_6Z1ChpfcnxX2M",
+      "label": "Pick a Language",
+      "topicId": "Suws-7f_6Z1ChpfcnxX2M",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-xIvplWfe-uDr9iHjPT1Mx",
+      "label": "RecyclerView",
+      "topicId": "xIvplWfe-uDr9iHjPT1Mx",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-8axL6Fa5fm1xWPP07MUbD",
+      "label": "remember / State",
+      "topicId": "8axL6Fa5fm1xWPP07MUbD",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-1Tz-Shj_Tuz2U8llEAcLr",
+      "label": "Remote Config",
+      "topicId": "1Tz-Shj_Tuz2U8llEAcLr",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-ZF5XgO7I_J9928bD3CVXo",
+      "label": "Repository Pattern",
+      "topicId": "ZF5XgO7I_J9928bD3CVXo",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-dDMRYiqrKyOBnRRQc8zsp",
+      "label": "Retrofit",
+      "topicId": "dDMRYiqrKyOBnRRQc8zsp",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-Bfg4So5RlI09zFNcburJd",
+      "label": "Room Database",
+      "topicId": "Bfg4So5RlI09zFNcburJd",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-xk0vnWr7uESdzYRxwFjoK",
+      "label": "RxJava",
+      "topicId": "xk0vnWr7uESdzYRxwFjoK",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-zXsNEyRbb8UpEOAUv6FpY",
+      "label": "RxJava",
+      "topicId": "zXsNEyRbb8UpEOAUv6FpY",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-4h37WBpYxRRyw9oH8ge7o",
+      "label": "RxKotlin",
+      "topicId": "4h37WBpYxRRyw9oH8ge7o",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-7rbsp1o5bzIJP11BRIoeG",
+      "label": "RxKotlin",
+      "topicId": "7rbsp1o5bzIJP11BRIoeG",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-U8iMGGOd2EgPxSuwSG39Z",
+      "label": "Scaffold",
+      "topicId": "U8iMGGOd2EgPxSuwSG39Z",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5040
+      }
+    },
+    {
+      "id": "node-j5qmSMOdhpGZo1XOUVx1k",
+      "label": "Android Security",
+      "topicId": "j5qmSMOdhpGZo1XOUVx1k",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5040
+      }
+    },
+    {
+      "id": "node-PcHmU1c9hqKyzSjwlRPHk",
+      "label": "Services",
+      "topicId": "PcHmU1c9hqKyzSjwlRPHk",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5040
+      }
+    },
+    {
+      "id": "node-PKql1HY0PLMfp50FRELXL",
+      "label": "Shared Preferences",
+      "topicId": "PKql1HY0PLMfp50FRELXL",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5200
+      }
+    },
+    {
+      "id": "node-XTMhA-rYiXP7aVFk2nDLY",
+      "label": "Side Effects",
+      "topicId": "XTMhA-rYiXP7aVFk2nDLY",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5200
+      }
+    },
+    {
+      "id": "node-_FSlD_qTz5Xo0x3pB6sZI",
+      "label": "Signed APK",
+      "topicId": "_FSlD_qTz5Xo0x3pB6sZI",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5200
+      }
+    },
+    {
+      "id": "node-oUjetA2eduvQIeLcQlLcu",
+      "label": "State Changes",
+      "topicId": "oUjetA2eduvQIeLcQlLcu",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5360
+      }
+    },
+    {
+      "id": "node-0fNQWRxst8xRstIfPaPO6",
+      "label": "Storage",
+      "topicId": "0fNQWRxst8xRstIfPaPO6",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5360
+      }
+    },
+    {
+      "id": "node-amTxz7mS98lkhOrNMJXG_",
+      "label": "Drawer",
+      "topicId": "amTxz7mS98lkhOrNMJXG_",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5360
+      }
+    },
+    {
+      "id": "node--O-G9bg36ut8NnZcdOaop",
+      "label": "Tasks & Backstack",
+      "topicId": "-O-G9bg36ut8NnZcdOaop",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5520
+      }
+    },
+    {
+      "id": "node-ZOQm5OlzCA-h_yxywwDrW",
+      "label": "Testing",
+      "topicId": "ZOQm5OlzCA-h_yxywwDrW",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5520
+      }
+    },
+    {
+      "id": "node-BVgO9n7tGlVdiS72-hFSd",
+      "label": "Text in Android Development",
+      "topicId": "BVgO9n7tGlVdiS72-hFSd",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5520
+      }
+    },
+    {
+      "id": "node-boMz0HZlMAsLdCZlpUo-H",
+      "label": "TextField",
+      "topicId": "boMz0HZlMAsLdCZlpUo-H",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5680
+      }
+    },
+    {
+      "id": "node-znvZp24L-PcQwkSObtixs",
+      "label": "TextView",
+      "topicId": "znvZp24L-PcQwkSObtixs",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5680
+      }
+    },
+    {
+      "id": "node-HlUUGj3dOZ68t4gIjerXh",
+      "label": "The Fundamentals",
+      "topicId": "HlUUGj3dOZ68t4gIjerXh",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5680
+      }
+    },
+    {
+      "id": "node-BeGrA5BDBMZP1Jy7n-wl-",
+      "label": "Threads",
+      "topicId": "BeGrA5BDBMZP1Jy7n-wl-",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5840
+      }
+    },
+    {
+      "id": "node-VFOD4JrV8kZ2583G3oT95",
+      "label": "Timber",
+      "topicId": "VFOD4JrV8kZ2583G3oT95",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5840
+      }
+    },
+    {
+      "id": "node-5s1CqsYCOXjNroDHaGKGa",
+      "label": "Version Control",
+      "topicId": "5s1CqsYCOXjNroDHaGKGa",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5840
+      }
+    },
+    {
+      "id": "node-lEdmnJhs-WN-A6glX2DeA",
+      "label": "ViewModel State",
+      "topicId": "lEdmnJhs-WN-A6glX2DeA",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 6000
+      }
+    },
+    {
+      "id": "node-FVxNjbDBxgf6vkZWw1Awt",
+      "label": "What is and how to use Gradle?",
+      "topicId": "FVxNjbDBxgf6vkZWw1Awt",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 6000
+      }
+    },
+    {
+      "id": "node-OAb_JD64uGm2tPoue7w6t",
+      "label": "WorkManager",
+      "topicId": "OAb_JD64uGm2tPoue7w6t",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 6000
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-node-FVg438cVBBzqJFkGWVbQM-node-nwuVlPmzwJ17mtVQ8Hi9w",
+      "source": "node-FVg438cVBBzqJFkGWVbQM",
+      "target": "node-nwuVlPmzwJ17mtVQ8Hi9w",
+      "animated": true
+    },
+    {
+      "id": "edge-node-nwuVlPmzwJ17mtVQ8Hi9w-node-pHxtpvd7U8CbIW6yebcVX",
+      "source": "node-nwuVlPmzwJ17mtVQ8Hi9w",
+      "target": "node-pHxtpvd7U8CbIW6yebcVX",
+      "animated": true
+    },
+    {
+      "id": "edge-node-pHxtpvd7U8CbIW6yebcVX-node-ww0fTbdXwVr-QIOClU7ng",
+      "source": "node-pHxtpvd7U8CbIW6yebcVX",
+      "target": "node-ww0fTbdXwVr-QIOClU7ng",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ww0fTbdXwVr-QIOClU7ng-node-5Li8J5iR_ZuyIlxX0LYei",
+      "source": "node-ww0fTbdXwVr-QIOClU7ng",
+      "target": "node-5Li8J5iR_ZuyIlxX0LYei",
+      "animated": true
+    },
+    {
+      "id": "edge-node-5Li8J5iR_ZuyIlxX0LYei-node-xV475jHTlLuHtpHZeXb7P",
+      "source": "node-5Li8J5iR_ZuyIlxX0LYei",
+      "target": "node-xV475jHTlLuHtpHZeXb7P",
+      "animated": true
+    },
+    {
+      "id": "edge-node-xV475jHTlLuHtpHZeXb7P-node-cFYZ2C7yNnY6NHKUNP2Z4",
+      "source": "node-xV475jHTlLuHtpHZeXb7P",
+      "target": "node-cFYZ2C7yNnY6NHKUNP2Z4",
+      "animated": true
+    },
+    {
+      "id": "edge-node-cFYZ2C7yNnY6NHKUNP2Z4-node-Xv0es_z64vh-QzivMeAT3",
+      "source": "node-cFYZ2C7yNnY6NHKUNP2Z4",
+      "target": "node-Xv0es_z64vh-QzivMeAT3",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Xv0es_z64vh-QzivMeAT3-node-jl1FsQ5-WGKeFyaILNt_p",
+      "source": "node-Xv0es_z64vh-QzivMeAT3",
+      "target": "node-jl1FsQ5-WGKeFyaILNt_p",
+      "animated": true
+    },
+    {
+      "id": "edge-node-jl1FsQ5-WGKeFyaILNt_p-node-j69erqfosSZMDlmKcnnn0",
+      "source": "node-jl1FsQ5-WGKeFyaILNt_p",
+      "target": "node-j69erqfosSZMDlmKcnnn0",
+      "animated": true
+    },
+    {
+      "id": "edge-node-j69erqfosSZMDlmKcnnn0-node-5LFZdUiFYYU_1sYsouyan",
+      "source": "node-j69erqfosSZMDlmKcnnn0",
+      "target": "node-5LFZdUiFYYU_1sYsouyan",
+      "animated": true
+    },
+    {
+      "id": "edge-node-5LFZdUiFYYU_1sYsouyan-node-Z4Tbd5ClnqCXGPGG09F-G",
+      "source": "node-5LFZdUiFYYU_1sYsouyan",
+      "target": "node-Z4Tbd5ClnqCXGPGG09F-G",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Z4Tbd5ClnqCXGPGG09F-G-node-Dp2DOX10u2xJUjB8Okhzh",
+      "source": "node-Z4Tbd5ClnqCXGPGG09F-G",
+      "target": "node-Dp2DOX10u2xJUjB8Okhzh",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Dp2DOX10u2xJUjB8Okhzh-node-tFuAToid1Fkmu96BDtW7K",
+      "source": "node-Dp2DOX10u2xJUjB8Okhzh",
+      "target": "node-tFuAToid1Fkmu96BDtW7K",
+      "animated": true
+    },
+    {
+      "id": "edge-node-tFuAToid1Fkmu96BDtW7K-node-784fiIdKrQDlIm3VIiJQN",
+      "source": "node-tFuAToid1Fkmu96BDtW7K",
+      "target": "node-784fiIdKrQDlIm3VIiJQN",
+      "animated": true
+    },
+    {
+      "id": "edge-node-784fiIdKrQDlIm3VIiJQN-node-WhfzFOUpm0DFEj7Oeq21R",
+      "source": "node-784fiIdKrQDlIm3VIiJQN",
+      "target": "node-WhfzFOUpm0DFEj7Oeq21R",
+      "animated": true
+    },
+    {
+      "id": "edge-node-WhfzFOUpm0DFEj7Oeq21R-node-EzLjX4iRT7AxkAOsJYnSU",
+      "source": "node-WhfzFOUpm0DFEj7Oeq21R",
+      "target": "node-EzLjX4iRT7AxkAOsJYnSU",
+      "animated": true
+    },
+    {
+      "id": "edge-node-EzLjX4iRT7AxkAOsJYnSU-node-7RKN1FNtRE_BE6QeAQrKb",
+      "source": "node-EzLjX4iRT7AxkAOsJYnSU",
+      "target": "node-7RKN1FNtRE_BE6QeAQrKb",
+      "animated": true
+    },
+    {
+      "id": "edge-node-7RKN1FNtRE_BE6QeAQrKb-node-e3vHFaFFMV7kI9q6yf5e9",
+      "source": "node-7RKN1FNtRE_BE6QeAQrKb",
+      "target": "node-e3vHFaFFMV7kI9q6yf5e9",
+      "animated": true
+    },
+    {
+      "id": "edge-node-e3vHFaFFMV7kI9q6yf5e9-node-yE0qAQZiEC9R8WvCdskpr",
+      "source": "node-e3vHFaFFMV7kI9q6yf5e9",
+      "target": "node-yE0qAQZiEC9R8WvCdskpr",
+      "animated": true
+    },
+    {
+      "id": "edge-node-yE0qAQZiEC9R8WvCdskpr-node-ZEdn2yy-IwHN3kOYr2ZbC",
+      "source": "node-yE0qAQZiEC9R8WvCdskpr",
+      "target": "node-ZEdn2yy-IwHN3kOYr2ZbC",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ZEdn2yy-IwHN3kOYr2ZbC-node-3fFNMhQIuuh-NRzSXYpXO",
+      "source": "node-ZEdn2yy-IwHN3kOYr2ZbC",
+      "target": "node-3fFNMhQIuuh-NRzSXYpXO",
+      "animated": true
+    },
+    {
+      "id": "edge-node-3fFNMhQIuuh-NRzSXYpXO-node-qNzC8sQqQaDnG1oy1jiO0",
+      "source": "node-3fFNMhQIuuh-NRzSXYpXO",
+      "target": "node-qNzC8sQqQaDnG1oy1jiO0",
+      "animated": true
+    },
+    {
+      "id": "edge-node-qNzC8sQqQaDnG1oy1jiO0-node-nkcdjrswv0WCzUs48BAt9",
+      "source": "node-qNzC8sQqQaDnG1oy1jiO0",
+      "target": "node-nkcdjrswv0WCzUs48BAt9",
+      "animated": true
+    },
+    {
+      "id": "edge-node-nkcdjrswv0WCzUs48BAt9-node-i_cKmTnGAYw8xpHwZHjAd",
+      "source": "node-nkcdjrswv0WCzUs48BAt9",
+      "target": "node-i_cKmTnGAYw8xpHwZHjAd",
+      "animated": true
+    },
+    {
+      "id": "edge-node-i_cKmTnGAYw8xpHwZHjAd-node-xB4evbD07n1VrHOIpowV4",
+      "source": "node-i_cKmTnGAYw8xpHwZHjAd",
+      "target": "node-xB4evbD07n1VrHOIpowV4",
+      "animated": true
+    },
+    {
+      "id": "edge-node-xB4evbD07n1VrHOIpowV4-node-5m_7DvInF8C_4Ml1xVI6L",
+      "source": "node-xB4evbD07n1VrHOIpowV4",
+      "target": "node-5m_7DvInF8C_4Ml1xVI6L",
+      "animated": true
+    },
+    {
+      "id": "edge-node-5m_7DvInF8C_4Ml1xVI6L-node-CK7Ce632fdTgxeFsRUVvd",
+      "source": "node-5m_7DvInF8C_4Ml1xVI6L",
+      "target": "node-CK7Ce632fdTgxeFsRUVvd",
+      "animated": true
+    },
+    {
+      "id": "edge-node-CK7Ce632fdTgxeFsRUVvd-node-cNeT1dJDfgn0ndPzSxhSL",
+      "source": "node-CK7Ce632fdTgxeFsRUVvd",
+      "target": "node-cNeT1dJDfgn0ndPzSxhSL",
+      "animated": true
+    },
+    {
+      "id": "edge-node-cNeT1dJDfgn0ndPzSxhSL-node-GWq3s1iTxQOp1BstHscJ9",
+      "source": "node-cNeT1dJDfgn0ndPzSxhSL",
+      "target": "node-GWq3s1iTxQOp1BstHscJ9",
+      "animated": true
+    },
+    {
+      "id": "edge-node-GWq3s1iTxQOp1BstHscJ9-node-6KbSUAoT_jTudFoIbwMpA",
+      "source": "node-GWq3s1iTxQOp1BstHscJ9",
+      "target": "node-6KbSUAoT_jTudFoIbwMpA",
+      "animated": true
+    },
+    {
+      "id": "edge-node-6KbSUAoT_jTudFoIbwMpA-node-qtXM9K7wyjOFuEMlZrB3C",
+      "source": "node-6KbSUAoT_jTudFoIbwMpA",
+      "target": "node-qtXM9K7wyjOFuEMlZrB3C",
+      "animated": true
+    },
+    {
+      "id": "edge-node-qtXM9K7wyjOFuEMlZrB3C-node-jePGzTejFe4ryA5qFFmjl",
+      "source": "node-qtXM9K7wyjOFuEMlZrB3C",
+      "target": "node-jePGzTejFe4ryA5qFFmjl",
+      "animated": true
+    },
+    {
+      "id": "edge-node-jePGzTejFe4ryA5qFFmjl-node-RUvuCp_JK5MQQT13SSHUV",
+      "source": "node-jePGzTejFe4ryA5qFFmjl",
+      "target": "node-RUvuCp_JK5MQQT13SSHUV",
+      "animated": true
+    },
+    {
+      "id": "edge-node-RUvuCp_JK5MQQT13SSHUV-node-ZRGsokU313Ky-anWbWK6q",
+      "source": "node-RUvuCp_JK5MQQT13SSHUV",
+      "target": "node-ZRGsokU313Ky-anWbWK6q",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ZRGsokU313Ky-anWbWK6q-node-Xn1VQ-xOT67ZfJJTM4r1p",
+      "source": "node-ZRGsokU313Ky-anWbWK6q",
+      "target": "node-Xn1VQ-xOT67ZfJJTM4r1p",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Xn1VQ-xOT67ZfJJTM4r1p-node-kc6buUsLAeZeUb4Tk0apM",
+      "source": "node-Xn1VQ-xOT67ZfJJTM4r1p",
+      "target": "node-kc6buUsLAeZeUb4Tk0apM",
+      "animated": true
+    },
+    {
+      "id": "edge-node-kc6buUsLAeZeUb4Tk0apM-node-mhxUDPHI-6NHwOxsdVn65",
+      "source": "node-kc6buUsLAeZeUb4Tk0apM",
+      "target": "node-mhxUDPHI-6NHwOxsdVn65",
+      "animated": true
+    },
+    {
+      "id": "edge-node-mhxUDPHI-6NHwOxsdVn65-node--ONSC-ImGSELbamKmjIlH",
+      "source": "node-mhxUDPHI-6NHwOxsdVn65",
+      "target": "node--ONSC-ImGSELbamKmjIlH",
+      "animated": true
+    },
+    {
+      "id": "edge-node--ONSC-ImGSELbamKmjIlH-node-TmIeCF3xVCe5Sy3ITmM31",
+      "source": "node--ONSC-ImGSELbamKmjIlH",
+      "target": "node-TmIeCF3xVCe5Sy3ITmM31",
+      "animated": true
+    },
+    {
+      "id": "edge-node-TmIeCF3xVCe5Sy3ITmM31-node-DeOxj6RzQBYfEWV-M1Ybm",
+      "source": "node-TmIeCF3xVCe5Sy3ITmM31",
+      "target": "node-DeOxj6RzQBYfEWV-M1Ybm",
+      "animated": true
+    },
+    {
+      "id": "edge-node-DeOxj6RzQBYfEWV-M1Ybm-node-A4kdaj6AFueUgPI7hwKi5",
+      "source": "node-DeOxj6RzQBYfEWV-M1Ybm",
+      "target": "node-A4kdaj6AFueUgPI7hwKi5",
+      "animated": true
+    },
+    {
+      "id": "edge-node-A4kdaj6AFueUgPI7hwKi5-node-T7q_quNaIAuGi96OdnDT1",
+      "source": "node-A4kdaj6AFueUgPI7hwKi5",
+      "target": "node-T7q_quNaIAuGi96OdnDT1",
+      "animated": true
+    },
+    {
+      "id": "edge-node-T7q_quNaIAuGi96OdnDT1-node-3EEfKAd-ppIQpdQSEhbA1",
+      "source": "node-T7q_quNaIAuGi96OdnDT1",
+      "target": "node-3EEfKAd-ppIQpdQSEhbA1",
+      "animated": true
+    },
+    {
+      "id": "edge-node-3EEfKAd-ppIQpdQSEhbA1-node-W-WTIiQml8dLK6i_V69JK",
+      "source": "node-3EEfKAd-ppIQpdQSEhbA1",
+      "target": "node-W-WTIiQml8dLK6i_V69JK",
+      "animated": true
+    },
+    {
+      "id": "edge-node-W-WTIiQml8dLK6i_V69JK-node-2iDJrxjXOt7o2fPp2HfRl",
+      "source": "node-W-WTIiQml8dLK6i_V69JK",
+      "target": "node-2iDJrxjXOt7o2fPp2HfRl",
+      "animated": true
+    },
+    {
+      "id": "edge-node-2iDJrxjXOt7o2fPp2HfRl-node-rqSZ2ATeHbOdIQE9Jlb0B",
+      "source": "node-2iDJrxjXOt7o2fPp2HfRl",
+      "target": "node-rqSZ2ATeHbOdIQE9Jlb0B",
+      "animated": true
+    },
+    {
+      "id": "edge-node-rqSZ2ATeHbOdIQE9Jlb0B-node-H-2eb8fLwz8IKYXbeSVKK",
+      "source": "node-rqSZ2ATeHbOdIQE9Jlb0B",
+      "target": "node-H-2eb8fLwz8IKYXbeSVKK",
+      "animated": true
+    },
+    {
+      "id": "edge-node-H-2eb8fLwz8IKYXbeSVKK-node-Q47BtQphp59NkkZoeNXmP",
+      "source": "node-H-2eb8fLwz8IKYXbeSVKK",
+      "target": "node-Q47BtQphp59NkkZoeNXmP",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Q47BtQphp59NkkZoeNXmP-node-D4ZXQOKJkyFYNZIy-MJ9Y",
+      "source": "node-Q47BtQphp59NkkZoeNXmP",
+      "target": "node-D4ZXQOKJkyFYNZIy-MJ9Y",
+      "animated": true
+    },
+    {
+      "id": "edge-node-D4ZXQOKJkyFYNZIy-MJ9Y-node-S5FVF9rMgVSSDKXJW2GYb",
+      "source": "node-D4ZXQOKJkyFYNZIy-MJ9Y",
+      "target": "node-S5FVF9rMgVSSDKXJW2GYb",
+      "animated": true
+    },
+    {
+      "id": "edge-node-S5FVF9rMgVSSDKXJW2GYb-node-m5rumeynEbS8T27pelr0-",
+      "source": "node-S5FVF9rMgVSSDKXJW2GYb",
+      "target": "node-m5rumeynEbS8T27pelr0-",
+      "animated": true
+    },
+    {
+      "id": "edge-node-m5rumeynEbS8T27pelr0--node-HgRdgi2Hu4C8YLG5PXfoo",
+      "source": "node-m5rumeynEbS8T27pelr0-",
+      "target": "node-HgRdgi2Hu4C8YLG5PXfoo",
+      "animated": true
+    },
+    {
+      "id": "edge-node-HgRdgi2Hu4C8YLG5PXfoo-node-ooo_k2k_vUBR_jQ7Ke6Et",
+      "source": "node-HgRdgi2Hu4C8YLG5PXfoo",
+      "target": "node-ooo_k2k_vUBR_jQ7Ke6Et",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ooo_k2k_vUBR_jQ7Ke6Et-node-pEBpXv3Jf1AzBNHlvVrG8",
+      "source": "node-ooo_k2k_vUBR_jQ7Ke6Et",
+      "target": "node-pEBpXv3Jf1AzBNHlvVrG8",
+      "animated": true
+    },
+    {
+      "id": "edge-node-pEBpXv3Jf1AzBNHlvVrG8-node-Mtx0bY0drmaTw8sCM5YTl",
+      "source": "node-pEBpXv3Jf1AzBNHlvVrG8",
+      "target": "node-Mtx0bY0drmaTw8sCM5YTl",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Mtx0bY0drmaTw8sCM5YTl-node-A4rtNULX_MoV93IH1Lgqw",
+      "source": "node-Mtx0bY0drmaTw8sCM5YTl",
+      "target": "node-A4rtNULX_MoV93IH1Lgqw",
+      "animated": true
+    },
+    {
+      "id": "edge-node-A4rtNULX_MoV93IH1Lgqw-node-gGdz3j33x0gfrFDp_rw8Z",
+      "source": "node-A4rtNULX_MoV93IH1Lgqw",
+      "target": "node-gGdz3j33x0gfrFDp_rw8Z",
+      "animated": true
+    },
+    {
+      "id": "edge-node-gGdz3j33x0gfrFDp_rw8Z-node-b-sfh6NoS-APqaNKm5L5S",
+      "source": "node-gGdz3j33x0gfrFDp_rw8Z",
+      "target": "node-b-sfh6NoS-APqaNKm5L5S",
+      "animated": true
+    },
+    {
+      "id": "edge-node-b-sfh6NoS-APqaNKm5L5S-node-hv_9imIQpthxEaMLXEUHI",
+      "source": "node-b-sfh6NoS-APqaNKm5L5S",
+      "target": "node-hv_9imIQpthxEaMLXEUHI",
+      "animated": true
+    },
+    {
+      "id": "edge-node-hv_9imIQpthxEaMLXEUHI-node-4_e76QafrB419S2INOeKd",
+      "source": "node-hv_9imIQpthxEaMLXEUHI",
+      "target": "node-4_e76QafrB419S2INOeKd",
+      "animated": true
+    },
+    {
+      "id": "edge-node-4_e76QafrB419S2INOeKd-node-RBABbkzD_uNFwEO-hssZO",
+      "source": "node-4_e76QafrB419S2INOeKd",
+      "target": "node-RBABbkzD_uNFwEO-hssZO",
+      "animated": true
+    },
+    {
+      "id": "edge-node-RBABbkzD_uNFwEO-hssZO-node-ACUJlDDR0jqEohsFzWEoQ",
+      "source": "node-RBABbkzD_uNFwEO-hssZO",
+      "target": "node-ACUJlDDR0jqEohsFzWEoQ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ACUJlDDR0jqEohsFzWEoQ-node-60Vm-77rseUqpMiFvp-dA",
+      "source": "node-ACUJlDDR0jqEohsFzWEoQ",
+      "target": "node-60Vm-77rseUqpMiFvp-dA",
+      "animated": true
+    },
+    {
+      "id": "edge-node-60Vm-77rseUqpMiFvp-dA-node-gvGAwjk_nhEgxzZ_c3f6b",
+      "source": "node-60Vm-77rseUqpMiFvp-dA",
+      "target": "node-gvGAwjk_nhEgxzZ_c3f6b",
+      "animated": true
+    },
+    {
+      "id": "edge-node-gvGAwjk_nhEgxzZ_c3f6b-node-dc7k50PjCYZcElHhCk66p",
+      "source": "node-gvGAwjk_nhEgxzZ_c3f6b",
+      "target": "node-dc7k50PjCYZcElHhCk66p",
+      "animated": true
+    },
+    {
+      "id": "edge-node-dc7k50PjCYZcElHhCk66p-node-UMqZ-jmXKDXKuu8bzqDH_",
+      "source": "node-dc7k50PjCYZcElHhCk66p",
+      "target": "node-UMqZ-jmXKDXKuu8bzqDH_",
+      "animated": true
+    },
+    {
+      "id": "edge-node-UMqZ-jmXKDXKuu8bzqDH_-node-qIzUv8-GgQnkqChEdgD50",
+      "source": "node-UMqZ-jmXKDXKuu8bzqDH_",
+      "target": "node-qIzUv8-GgQnkqChEdgD50",
+      "animated": true
+    },
+    {
+      "id": "edge-node-qIzUv8-GgQnkqChEdgD50-node-zMbXQH17Q52opdbitPzj7",
+      "source": "node-qIzUv8-GgQnkqChEdgD50",
+      "target": "node-zMbXQH17Q52opdbitPzj7",
+      "animated": true
+    },
+    {
+      "id": "edge-node-zMbXQH17Q52opdbitPzj7-node-mMKN4a8lqo38M0iL1Qwhy",
+      "source": "node-zMbXQH17Q52opdbitPzj7",
+      "target": "node-mMKN4a8lqo38M0iL1Qwhy",
+      "animated": true
+    },
+    {
+      "id": "edge-node-mMKN4a8lqo38M0iL1Qwhy-node-3i4g9ZWgLxKb2UMgRJi4Q",
+      "source": "node-mMKN4a8lqo38M0iL1Qwhy",
+      "target": "node-3i4g9ZWgLxKb2UMgRJi4Q",
+      "animated": true
+    },
+    {
+      "id": "edge-node-3i4g9ZWgLxKb2UMgRJi4Q-node-77F9F3oI5CPgwgM_hxWfa",
+      "source": "node-3i4g9ZWgLxKb2UMgRJi4Q",
+      "target": "node-77F9F3oI5CPgwgM_hxWfa",
+      "animated": true
+    },
+    {
+      "id": "edge-node-77F9F3oI5CPgwgM_hxWfa-node-TiokceMGU9caqiR0lbFYL",
+      "source": "node-77F9F3oI5CPgwgM_hxWfa",
+      "target": "node-TiokceMGU9caqiR0lbFYL",
+      "animated": true
+    },
+    {
+      "id": "edge-node-TiokceMGU9caqiR0lbFYL-node-w1A6wPKSd3Yh2luuHV-aE",
+      "source": "node-TiokceMGU9caqiR0lbFYL",
+      "target": "node-w1A6wPKSd3Yh2luuHV-aE",
+      "animated": true
+    },
+    {
+      "id": "edge-node-w1A6wPKSd3Yh2luuHV-aE-node-Bz-BkfzsDHAbAw3HD7WCd",
+      "source": "node-w1A6wPKSd3Yh2luuHV-aE",
+      "target": "node-Bz-BkfzsDHAbAw3HD7WCd",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Bz-BkfzsDHAbAw3HD7WCd-node-aF_xFIqTjQbENtC7pkXvJ",
+      "source": "node-Bz-BkfzsDHAbAw3HD7WCd",
+      "target": "node-aF_xFIqTjQbENtC7pkXvJ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-aF_xFIqTjQbENtC7pkXvJ-node-pSU-NZtjBh-u0WKTYfjk_",
+      "source": "node-aF_xFIqTjQbENtC7pkXvJ",
+      "target": "node-pSU-NZtjBh-u0WKTYfjk_",
+      "animated": true
+    },
+    {
+      "id": "edge-node-pSU-NZtjBh-u0WKTYfjk_-node-UAerxLQ1ZB6N6LS1IhfNk",
+      "source": "node-pSU-NZtjBh-u0WKTYfjk_",
+      "target": "node-UAerxLQ1ZB6N6LS1IhfNk",
+      "animated": true
+    },
+    {
+      "id": "edge-node-UAerxLQ1ZB6N6LS1IhfNk-node-o5rzmnaQeiSh9ocvfJPpK",
+      "source": "node-UAerxLQ1ZB6N6LS1IhfNk",
+      "target": "node-o5rzmnaQeiSh9ocvfJPpK",
+      "animated": true
+    },
+    {
+      "id": "edge-node-o5rzmnaQeiSh9ocvfJPpK-node-Yb6aKJMMCxU1QVltWg3Dr",
+      "source": "node-o5rzmnaQeiSh9ocvfJPpK",
+      "target": "node-Yb6aKJMMCxU1QVltWg3Dr",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Yb6aKJMMCxU1QVltWg3Dr-node-N_auRfGKkeIIc-qiHLkR_",
+      "source": "node-Yb6aKJMMCxU1QVltWg3Dr",
+      "target": "node-N_auRfGKkeIIc-qiHLkR_",
+      "animated": true
+    },
+    {
+      "id": "edge-node-N_auRfGKkeIIc-qiHLkR_-node-5pVuwOItAhUxxJX8ysAsn",
+      "source": "node-N_auRfGKkeIIc-qiHLkR_",
+      "target": "node-5pVuwOItAhUxxJX8ysAsn",
+      "animated": true
+    },
+    {
+      "id": "edge-node-5pVuwOItAhUxxJX8ysAsn-node-Suws-7f_6Z1ChpfcnxX2M",
+      "source": "node-5pVuwOItAhUxxJX8ysAsn",
+      "target": "node-Suws-7f_6Z1ChpfcnxX2M",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Suws-7f_6Z1ChpfcnxX2M-node-xIvplWfe-uDr9iHjPT1Mx",
+      "source": "node-Suws-7f_6Z1ChpfcnxX2M",
+      "target": "node-xIvplWfe-uDr9iHjPT1Mx",
+      "animated": true
+    },
+    {
+      "id": "edge-node-xIvplWfe-uDr9iHjPT1Mx-node-8axL6Fa5fm1xWPP07MUbD",
+      "source": "node-xIvplWfe-uDr9iHjPT1Mx",
+      "target": "node-8axL6Fa5fm1xWPP07MUbD",
+      "animated": true
+    },
+    {
+      "id": "edge-node-8axL6Fa5fm1xWPP07MUbD-node-1Tz-Shj_Tuz2U8llEAcLr",
+      "source": "node-8axL6Fa5fm1xWPP07MUbD",
+      "target": "node-1Tz-Shj_Tuz2U8llEAcLr",
+      "animated": true
+    },
+    {
+      "id": "edge-node-1Tz-Shj_Tuz2U8llEAcLr-node-ZF5XgO7I_J9928bD3CVXo",
+      "source": "node-1Tz-Shj_Tuz2U8llEAcLr",
+      "target": "node-ZF5XgO7I_J9928bD3CVXo",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ZF5XgO7I_J9928bD3CVXo-node-dDMRYiqrKyOBnRRQc8zsp",
+      "source": "node-ZF5XgO7I_J9928bD3CVXo",
+      "target": "node-dDMRYiqrKyOBnRRQc8zsp",
+      "animated": true
+    },
+    {
+      "id": "edge-node-dDMRYiqrKyOBnRRQc8zsp-node-Bfg4So5RlI09zFNcburJd",
+      "source": "node-dDMRYiqrKyOBnRRQc8zsp",
+      "target": "node-Bfg4So5RlI09zFNcburJd",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Bfg4So5RlI09zFNcburJd-node-xk0vnWr7uESdzYRxwFjoK",
+      "source": "node-Bfg4So5RlI09zFNcburJd",
+      "target": "node-xk0vnWr7uESdzYRxwFjoK",
+      "animated": true
+    },
+    {
+      "id": "edge-node-xk0vnWr7uESdzYRxwFjoK-node-zXsNEyRbb8UpEOAUv6FpY",
+      "source": "node-xk0vnWr7uESdzYRxwFjoK",
+      "target": "node-zXsNEyRbb8UpEOAUv6FpY",
+      "animated": true
+    },
+    {
+      "id": "edge-node-zXsNEyRbb8UpEOAUv6FpY-node-4h37WBpYxRRyw9oH8ge7o",
+      "source": "node-zXsNEyRbb8UpEOAUv6FpY",
+      "target": "node-4h37WBpYxRRyw9oH8ge7o",
+      "animated": true
+    },
+    {
+      "id": "edge-node-4h37WBpYxRRyw9oH8ge7o-node-7rbsp1o5bzIJP11BRIoeG",
+      "source": "node-4h37WBpYxRRyw9oH8ge7o",
+      "target": "node-7rbsp1o5bzIJP11BRIoeG",
+      "animated": true
+    },
+    {
+      "id": "edge-node-7rbsp1o5bzIJP11BRIoeG-node-U8iMGGOd2EgPxSuwSG39Z",
+      "source": "node-7rbsp1o5bzIJP11BRIoeG",
+      "target": "node-U8iMGGOd2EgPxSuwSG39Z",
+      "animated": true
+    },
+    {
+      "id": "edge-node-U8iMGGOd2EgPxSuwSG39Z-node-j5qmSMOdhpGZo1XOUVx1k",
+      "source": "node-U8iMGGOd2EgPxSuwSG39Z",
+      "target": "node-j5qmSMOdhpGZo1XOUVx1k",
+      "animated": true
+    },
+    {
+      "id": "edge-node-j5qmSMOdhpGZo1XOUVx1k-node-PcHmU1c9hqKyzSjwlRPHk",
+      "source": "node-j5qmSMOdhpGZo1XOUVx1k",
+      "target": "node-PcHmU1c9hqKyzSjwlRPHk",
+      "animated": true
+    },
+    {
+      "id": "edge-node-PcHmU1c9hqKyzSjwlRPHk-node-PKql1HY0PLMfp50FRELXL",
+      "source": "node-PcHmU1c9hqKyzSjwlRPHk",
+      "target": "node-PKql1HY0PLMfp50FRELXL",
+      "animated": true
+    },
+    {
+      "id": "edge-node-PKql1HY0PLMfp50FRELXL-node-XTMhA-rYiXP7aVFk2nDLY",
+      "source": "node-PKql1HY0PLMfp50FRELXL",
+      "target": "node-XTMhA-rYiXP7aVFk2nDLY",
+      "animated": true
+    },
+    {
+      "id": "edge-node-XTMhA-rYiXP7aVFk2nDLY-node-_FSlD_qTz5Xo0x3pB6sZI",
+      "source": "node-XTMhA-rYiXP7aVFk2nDLY",
+      "target": "node-_FSlD_qTz5Xo0x3pB6sZI",
+      "animated": true
+    },
+    {
+      "id": "edge-node-_FSlD_qTz5Xo0x3pB6sZI-node-oUjetA2eduvQIeLcQlLcu",
+      "source": "node-_FSlD_qTz5Xo0x3pB6sZI",
+      "target": "node-oUjetA2eduvQIeLcQlLcu",
+      "animated": true
+    },
+    {
+      "id": "edge-node-oUjetA2eduvQIeLcQlLcu-node-0fNQWRxst8xRstIfPaPO6",
+      "source": "node-oUjetA2eduvQIeLcQlLcu",
+      "target": "node-0fNQWRxst8xRstIfPaPO6",
+      "animated": true
+    },
+    {
+      "id": "edge-node-0fNQWRxst8xRstIfPaPO6-node-amTxz7mS98lkhOrNMJXG_",
+      "source": "node-0fNQWRxst8xRstIfPaPO6",
+      "target": "node-amTxz7mS98lkhOrNMJXG_",
+      "animated": true
+    },
+    {
+      "id": "edge-node-amTxz7mS98lkhOrNMJXG_-node--O-G9bg36ut8NnZcdOaop",
+      "source": "node-amTxz7mS98lkhOrNMJXG_",
+      "target": "node--O-G9bg36ut8NnZcdOaop",
+      "animated": true
+    },
+    {
+      "id": "edge-node--O-G9bg36ut8NnZcdOaop-node-ZOQm5OlzCA-h_yxywwDrW",
+      "source": "node--O-G9bg36ut8NnZcdOaop",
+      "target": "node-ZOQm5OlzCA-h_yxywwDrW",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ZOQm5OlzCA-h_yxywwDrW-node-BVgO9n7tGlVdiS72-hFSd",
+      "source": "node-ZOQm5OlzCA-h_yxywwDrW",
+      "target": "node-BVgO9n7tGlVdiS72-hFSd",
+      "animated": true
+    },
+    {
+      "id": "edge-node-BVgO9n7tGlVdiS72-hFSd-node-boMz0HZlMAsLdCZlpUo-H",
+      "source": "node-BVgO9n7tGlVdiS72-hFSd",
+      "target": "node-boMz0HZlMAsLdCZlpUo-H",
+      "animated": true
+    },
+    {
+      "id": "edge-node-boMz0HZlMAsLdCZlpUo-H-node-znvZp24L-PcQwkSObtixs",
+      "source": "node-boMz0HZlMAsLdCZlpUo-H",
+      "target": "node-znvZp24L-PcQwkSObtixs",
+      "animated": true
+    },
+    {
+      "id": "edge-node-znvZp24L-PcQwkSObtixs-node-HlUUGj3dOZ68t4gIjerXh",
+      "source": "node-znvZp24L-PcQwkSObtixs",
+      "target": "node-HlUUGj3dOZ68t4gIjerXh",
+      "animated": true
+    },
+    {
+      "id": "edge-node-HlUUGj3dOZ68t4gIjerXh-node-BeGrA5BDBMZP1Jy7n-wl-",
+      "source": "node-HlUUGj3dOZ68t4gIjerXh",
+      "target": "node-BeGrA5BDBMZP1Jy7n-wl-",
+      "animated": true
+    },
+    {
+      "id": "edge-node-BeGrA5BDBMZP1Jy7n-wl--node-VFOD4JrV8kZ2583G3oT95",
+      "source": "node-BeGrA5BDBMZP1Jy7n-wl-",
+      "target": "node-VFOD4JrV8kZ2583G3oT95",
+      "animated": true
+    },
+    {
+      "id": "edge-node-VFOD4JrV8kZ2583G3oT95-node-5s1CqsYCOXjNroDHaGKGa",
+      "source": "node-VFOD4JrV8kZ2583G3oT95",
+      "target": "node-5s1CqsYCOXjNroDHaGKGa",
+      "animated": true
+    },
+    {
+      "id": "edge-node-5s1CqsYCOXjNroDHaGKGa-node-lEdmnJhs-WN-A6glX2DeA",
+      "source": "node-5s1CqsYCOXjNroDHaGKGa",
+      "target": "node-lEdmnJhs-WN-A6glX2DeA",
+      "animated": true
+    },
+    {
+      "id": "edge-node-lEdmnJhs-WN-A6glX2DeA-node-FVxNjbDBxgf6vkZWw1Awt",
+      "source": "node-lEdmnJhs-WN-A6glX2DeA",
+      "target": "node-FVxNjbDBxgf6vkZWw1Awt",
+      "animated": true
+    },
+    {
+      "id": "edge-node-FVxNjbDBxgf6vkZWw1Awt-node-OAb_JD64uGm2tPoue7w6t",
+      "source": "node-FVxNjbDBxgf6vkZWw1Awt",
+      "target": "node-OAb_JD64uGm2tPoue7w6t",
+      "animated": true
+    }
+  ],
+  "topics": {
+    "FVg438cVBBzqJFkGWVbQM": {
+      "id": "FVg438cVBBzqJFkGWVbQM",
+      "slug": "activity-lifecycle",
+      "title": "Activity LifeCycle",
+      "description": "The Activity lifecycle is a set of states and callbacks that an Activity goes through from creation to destruction. Key callbacks include onCreate, onStart, onResume, onPause, onStop, and onDestroy. Properly implementing these callbacks ensures the app handles interruptions like phone calls or screen rotations without data loss.",
+      "resources": [
+        {
+          "id": "FVg438cVBBzqJFkGWVbQM-res-1",
+          "type": "article",
+          "title": "Activity Lifecycle",
+          "url": "https://developer.android.com/guide/components/activities/activity-lifecycle"
+        }
+      ]
+    },
+    "nwuVlPmzwJ17mtVQ8Hi9w": {
+      "id": "nwuVlPmzwJ17mtVQ8Hi9w",
+      "slug": "activity",
+      "title": "Activity",
+      "description": "An Activity represents a single screen in an Android app with a user interface. Apps are typically made up of multiple activities that users navigate between. Activities have a lifecycle managed by the operating system, and handling that lifecycle correctly is essential for building stable apps.",
+      "resources": [
+        {
+          "id": "nwuVlPmzwJ17mtVQ8Hi9w-res-1",
+          "type": "article",
+          "title": "Android Activity",
+          "url": "https://developer.android.com/reference/android/app/Activity"
+        },
+        {
+          "id": "nwuVlPmzwJ17mtVQ8Hi9w-res-2",
+          "type": "article",
+          "title": "Mastering Android Activities",
+          "url": "https://medium.com/deuk/mastering-the-android-activity-lifecycle-best-practices-1d10f15d060a"
+        }
+      ]
+    },
+    "pHxtpvd7U8CbIW6yebcVX": {
+      "id": "pHxtpvd7U8CbIW6yebcVX",
+      "slug": "animations",
+      "title": "Animations",
+      "description": "Animations, in a broad sense, are visual effects that give the impression of movement by rapidly displaying a sequence of images or frames.  In the context of user interfaces, animations enhance the user experience by providing visual feedback, guiding the user's attention, and making the interface feel more responsive and engaging. They help communicate changes in state, indicate loading progress, and add polish to an application's overall look and feel.",
+      "resources": [
+        {
+          "id": "pHxtpvd7U8CbIW6yebcVX-res-1",
+          "type": "article",
+          "title": "Animations in Compose",
+          "url": "https://developer.android.com/develop/ui/compose/animation/introduction"
+        },
+        {
+          "id": "pHxtpvd7U8CbIW6yebcVX-res-2",
+          "type": "article",
+          "title": "Quick guide to Animations in Compose  |  Jetpack Compose  |  Android Developers",
+          "url": "https://developer.android.com/develop/ui/compose/animation/quick-guide"
+        }
+      ]
+    },
+    "ww0fTbdXwVr-QIOClU7ng": {
+      "id": "ww0fTbdXwVr-QIOClU7ng",
+      "slug": "apollo-android",
+      "title": "Apollo-Android",
+      "description": "Apollo Android is a GraphQL client for Android and Kotlin that generates type-safe Kotlin models from a GraphQL schema and query files. It handles query execution, caching, and subscriptions, and integrates with Kotlin coroutines. Apollo-Android allows working with GraphQL APIs in a structured, compile-time-safe way.",
+      "resources": [
+        {
+          "id": "ww0fTbdXwVr-QIOClU7ng-res-1",
+          "type": "article",
+          "title": "Apollo Android",
+          "url": "https://www.apollographql.com/docs/kotlin/v2/"
+        },
+        {
+          "id": "ww0fTbdXwVr-QIOClU7ng-res-2",
+          "type": "article",
+          "title": "Apollo Docs",
+          "url": "https://www.apollographql.com/docs/kotlin/"
+        },
+        {
+          "id": "ww0fTbdXwVr-QIOClU7ng-res-3",
+          "type": "article",
+          "title": "apollographql/apollo-kotlin - GraphQL for Android",
+          "url": "https://github.com/apollographql/apollo-kotlin"
+        }
+      ]
+    },
+    "5Li8J5iR_ZuyIlxX0LYei": {
+      "id": "5Li8J5iR_ZuyIlxX0LYei",
+      "slug": "app-components",
+      "title": "App Components",
+      "description": "App components are the building blocks of an Android application. The four main types are Activities, Services, Broadcast Receivers, and Content Providers. Each serves a different purpose and has its own lifecycle managed by the Android system.",
+      "resources": [
+        {
+          "id": "5Li8J5iR_ZuyIlxX0LYei-res-1",
+          "type": "article",
+          "title": "App Fundamentals",
+          "url": "https://developer.android.com/guide/components/fundamentals"
+        },
+        {
+          "id": "5Li8J5iR_ZuyIlxX0LYei-res-2",
+          "type": "article",
+          "title": "Android App Components",
+          "url": "https://medium.com/android-hunger/android-app-components-activities-fragments-and-intents-ed7373455555"
+        }
+      ]
+    },
+    "xV475jHTlLuHtpHZeXb7P": {
+      "id": "xV475jHTlLuHtpHZeXb7P",
+      "slug": "app-shortcuts",
+      "title": "App Shortcuts",
+      "description": "App shortcuts in Android are designed to provide quick and convenient routes to specific actions or functions within your app from the device home screen. To use them, long-press an app's icon and a pop-up menu will appear with the available shortcuts. Depending on the app, you might be able to send a message, make a booking, navigate home, or perform some other specific task without having to first open the app and navigate to the desired function. These shortcuts can also be moved and placed individually on the home screen for even faster access.",
+      "resources": [
+        {
+          "id": "xV475jHTlLuHtpHZeXb7P-res-1",
+          "type": "article",
+          "title": "App Shortcuts",
+          "url": "https://developer.android.com/guide/topics/ui/shortcuts"
+        }
+      ]
+    },
+    "cFYZ2C7yNnY6NHKUNP2Z4": {
+      "id": "cFYZ2C7yNnY6NHKUNP2Z4",
+      "slug": "asynchronism",
+      "title": "Asynchronism",
+      "description": "Asynchronism in Android refers to running operations outside the main thread to prevent blocking the UI. Android provides several tools for this: Kotlin Coroutines as the modern recommended approach, Threads for low-level concurrency, RxJava and RxKotlin for reactive streams, and WorkManager for deferred background tasks.",
+      "resources": [
+        {
+          "id": "cFYZ2C7yNnY6NHKUNP2Z4-res-1",
+          "type": "article",
+          "title": "Asynchronous Tasks",
+          "url": "https://developer.android.com/guide/background"
+        },
+        {
+          "id": "cFYZ2C7yNnY6NHKUNP2Z4-res-2",
+          "type": "article",
+          "title": "Asynchronous Task Execution",
+          "url": "https://medium.com/@cpvasani48/asynchronous-task-execution-in-android-a-guide-with-example-44732744f3b8"
+        }
+      ]
+    },
+    "Xv0es_z64vh-QzivMeAT3": {
+      "id": "Xv0es_z64vh-QzivMeAT3",
+      "slug": "authentication",
+      "title": "Authentication",
+      "description": "Firebase Authentication provides backend services for authenticating users with email and password, phone numbers, or federated identity providers like Google, Facebook, and Apple. It manages tokens and session state securely. On Android, it integrates with the Firebase SDK to handle sign-in flows with minimal boilerplate.",
+      "resources": [
+        {
+          "id": "Xv0es_z64vh-QzivMeAT3-res-1",
+          "type": "article",
+          "title": "Firebase Authentication",
+          "url": "https://firebase.google.com/docs/auth"
+        },
+        {
+          "id": "Xv0es_z64vh-QzivMeAT3-res-2",
+          "type": "article",
+          "title": "Firebase Authentication: Android",
+          "url": "https://firebase.google.com/docs/auth/android/start"
+        }
+      ]
+    },
+    "jl1FsQ5-WGKeFyaILNt_p": {
+      "id": "jl1FsQ5-WGKeFyaILNt_p",
+      "slug": "basics-of-kotlin",
+      "title": "Basics of Kotlin",
+      "description": "Kotlin is a concise, multi-platform, and fun language developed by JetBrains. Learn how to use Kotlin for Android, server-side, and cross-platform development, and explore its features, news, and community. Kotlin is a statically-typed programming language that runs on the Java Virtual Machine (JVM) and can be used to develop all types of Android apps. It is Google's preferred language for Android app development.",
+      "resources": [
+        {
+          "id": "jl1FsQ5-WGKeFyaILNt_p-res-1",
+          "type": "article",
+          "title": "Visit the Dedicaated Kotlin Roadmap",
+          "url": "https://roadmap.sh/kotlin"
+        },
+        {
+          "id": "jl1FsQ5-WGKeFyaILNt_p-res-2",
+          "type": "article",
+          "title": "Kotlin",
+          "url": "https://kotlinlang.org/"
+        },
+        {
+          "id": "jl1FsQ5-WGKeFyaILNt_p-res-3",
+          "type": "article",
+          "title": "Kotlin Docs",
+          "url": "https://kotlinlang.org/docs/getting-started.html"
+        }
+      ]
+    },
+    "j69erqfosSZMDlmKcnnn0": {
+      "id": "j69erqfosSZMDlmKcnnn0",
+      "slug": "basics-of-oop",
+      "title": "Basics of Kotlin",
+      "description": "The basics of Kotlin cover the syntax and core concepts needed to write Kotlin programs. This includes variables, data types, control flow, functions, lambdas, classes, and Kotlin-specific features like null safety and extension functions. A solid grasp of these fundamentals is required before working with Android-specific APIs.",
+      "resources": [
+        {
+          "id": "j69erqfosSZMDlmKcnnn0-res-1",
+          "type": "article",
+          "title": "Object-Oriented Programming - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Object-oriented_programming"
+        },
+        {
+          "id": "j69erqfosSZMDlmKcnnn0-res-2",
+          "type": "article",
+          "title": "OOP in Kotlin",
+          "url": "https://developer.android.com/codelabs/basic-android-kotlin-compose-classes-and-objects"
+        }
+      ]
+    },
+    "5LFZdUiFYYU_1sYsouyan": {
+      "id": "5LFZdUiFYYU_1sYsouyan",
+      "slug": "bitbucket",
+      "title": "Bitbucket",
+      "description": "Bitbucket is a Git repository hosting service by Atlassian. It integrates with other Atlassian tools like Jira and Confluence, making it a common choice for teams already using Atlassian products. Bitbucket supports pull requests, branch permissions, and CI/CD pipelines through Bitbucket Pipelines.",
+      "resources": [
+        {
+          "id": "5LFZdUiFYYU_1sYsouyan-res-1",
+          "type": "article",
+          "title": "Bitbucket",
+          "url": "https://bitbucket.org/"
+        },
+        {
+          "id": "5LFZdUiFYYU_1sYsouyan-res-2",
+          "type": "article",
+          "title": "Bitbucket for Developers",
+          "url": "https://www.atlassian.com/software/bitbucket"
+        }
+      ]
+    },
+    "Z4Tbd5ClnqCXGPGG09F-G": {
+      "id": "Z4Tbd5ClnqCXGPGG09F-G",
+      "slug": "bottomsheet",
+      "title": "BottomSheet",
+      "description": "A BottomSheet is a UI pattern that presents supplementary content from the bottom edge of the screen. It typically appears as a sheet that slides up to reveal more information or options related to the current screen or selected item. Users can often dismiss it by swiping down or tapping outside of it.",
+      "resources": [
+        {
+          "id": "Z4Tbd5ClnqCXGPGG09F-G-res-1",
+          "type": "article",
+          "title": "Bottom sheets  |  Jetpack Compose  |  Android Developers",
+          "url": "https://developer.android.com/develop/ui/compose/components/bottom-sheets"
+        },
+        {
+          "id": "Z4Tbd5ClnqCXGPGG09F-G-res-2",
+          "type": "video",
+          "title": "Full Guide to Bottom Sheets - UX With Material3",
+          "url": "https://www.youtube.com/watch?v=VxgWUdOKgtI"
+        }
+      ]
+    },
+    "Dp2DOX10u2xJUjB8Okhzh": {
+      "id": "Dp2DOX10u2xJUjB8Okhzh",
+      "slug": "box",
+      "title": "Box Layout",
+      "description": "A Box layout allows you to arrange UI elements in a single direction, either vertically or horizontally. It's a simple and effective way to organize views in a row or a column, providing control over how they are stacked and spaced. This layout is useful when you want to create linear arrangements of UI components in your Android app.",
+      "resources": [
+        {
+          "id": "Dp2DOX10u2xJUjB8Okhzh-res-1",
+          "type": "article",
+          "title": "Box",
+          "url": "https://developer.android.com/reference/kotlin/androidx/compose/foundation/layout/Box.composable#Box(androidx.compose.ui.Modifier,androidx.compose.ui.Alignment,kotlin.Boolean,kotlin.Function1"
+        },
+        {
+          "id": "Dp2DOX10u2xJUjB8Okhzh-res-2",
+          "type": "article",
+          "title": "A Comprehensive Guide to Box in Jetpack Compose",
+          "url": "https://medium.com/@ramadan123sayed/a-comprehensive-guide-to-box-in-jetpack-compose-a0eb3838b897"
+        }
+      ]
+    },
+    "tFuAToid1Fkmu96BDtW7K": {
+      "id": "tFuAToid1Fkmu96BDtW7K",
+      "slug": "broadcast-receiver",
+      "title": "Broadcast Receiver",
+      "description": "A Broadcast Receiver is a component that listens for system-wide broadcast announcements. Common broadcasts include events like device boot, network connectivity changes, or battery status updates. Receivers can also facilitate communication between different parts of the same app.",
+      "resources": [
+        {
+          "id": "tFuAToid1Fkmu96BDtW7K-res-1",
+          "type": "article",
+          "title": "Broadcast Receiver",
+          "url": "https://developer.android.com/reference/android/content/BroadcastReceiver"
+        }
+      ]
+    },
+    "784fiIdKrQDlIm3VIiJQN": {
+      "id": "784fiIdKrQDlIm3VIiJQN",
+      "slug": "builder-pattern",
+      "title": "Builder Pattern",
+      "description": "The **Builder Pattern** in Android is used to construct complex objects step by step. It separates the construction of an object from its representation. The pattern involves a `Builder` class which is used to construct the `Product` class. The Builder class typically has a method for each part that may be used to construct a Product. It also has a method for returning the final product. The Builder pattern is useful in situations where you might have multiple ways to create an object or when an object requires a large number of parameters for its constructor.",
+      "resources": [
+        {
+          "id": "784fiIdKrQDlIm3VIiJQN-res-1",
+          "type": "article",
+          "title": "Builder Pattern",
+          "url": "https://developer.android.com/kotlin/style-guide#builder-pattern"
+        },
+        {
+          "id": "784fiIdKrQDlIm3VIiJQN-res-2",
+          "type": "article",
+          "title": "Android Builder Pattern",
+          "url": "https://medium.com/kayvan-kaseb/builder-design-pattern-in-android-a38dccb75485"
+        }
+      ]
+    },
+    "WhfzFOUpm0DFEj7Oeq21R": {
+      "id": "WhfzFOUpm0DFEj7Oeq21R",
+      "slug": "button",
+      "title": "Button",
+      "description": "A button is a fundamental UI element that triggers an action when tapped or clicked by the user. It allows users to initiate specific tasks within an application, such as submitting a form, navigating to another screen, or executing a function. Buttons typically consist of text or an icon that clearly indicates their purpose.",
+      "resources": [
+        {
+          "id": "WhfzFOUpm0DFEj7Oeq21R-res-1",
+          "type": "article",
+          "title": "Button  |  Jetpack Compose  |  Android Developers",
+          "url": "https://developer.android.com/develop/ui/compose/components/button"
+        },
+        {
+          "id": "WhfzFOUpm0DFEj7Oeq21R-res-2",
+          "type": "article",
+          "title": "A Comprehensive Guide to Buttons and Actions in Jetpack Compose | by Ramadan Sayed | Medium",
+          "url": "https://medium.com/@ramadan123sayed/a-comprehensive-guide-to-buttons-and-actions-in-jetpack-compose-50968cf030f7"
+        }
+      ]
+    },
+    "EzLjX4iRT7AxkAOsJYnSU": {
+      "id": "EzLjX4iRT7AxkAOsJYnSU",
+      "slug": "card",
+      "title": "Card",
+      "description": "In Jetpack Compose, a Card is a composable that provides a container with a rounded corner background and a subtle shadow. It's used to group related pieces of information, creating visual separation and improving the user interface's organization. Think of it like a physical card: it holds content and provides a distinct visual element on the screen.",
+      "resources": [
+        {
+          "id": "EzLjX4iRT7AxkAOsJYnSU-res-1",
+          "type": "article",
+          "title": "Card  |  Jetpack Compose  |  Android Developers",
+          "url": "https://developer.android.com/develop/ui/compose/components/card"
+        },
+        {
+          "id": "EzLjX4iRT7AxkAOsJYnSU-res-2",
+          "type": "article",
+          "title": "Mastering Jetpack Compose Cards: Complete Guide to Material 3 Cards | by Ramadan Sayed | Medium",
+          "url": "https://medium.com/@ramadan123sayed/mastering-jetpack-compose-cards-complete-guide-to-material-3-cards-a41ce7af4716"
+        }
+      ]
+    },
+    "7RKN1FNtRE_BE6QeAQrKb": {
+      "id": "7RKN1FNtRE_BE6QeAQrKb",
+      "slug": "chucker",
+      "title": "Chucker",
+      "description": "Chucker is an in-app HTTP inspector for Android. It intercepts OkHttp network requests and responses and displays them in a dedicated UI within the app during development. Chucker helps developers inspect API calls, headers, payloads, and response times without needing an external proxy tool.",
+      "resources": [
+        {
+          "id": "7RKN1FNtRE_BE6QeAQrKb-res-1",
+          "type": "article",
+          "title": "ChuckerTeam/chucker - Chucker On GitHub",
+          "url": "https://github.com/ChuckerTeam/chucker"
+        },
+        {
+          "id": "7RKN1FNtRE_BE6QeAQrKb-res-2",
+          "type": "article",
+          "title": "Network Traffic Inspection with Chucker",
+          "url": "https://medium.com/tech-takeaways/simple-android-network-traffic-inspection-with-chucker-and-seismic-1e6162c51f64"
+        }
+      ]
+    },
+    "e3vHFaFFMV7kI9q6yf5e9": {
+      "id": "e3vHFaFFMV7kI9q6yf5e9",
+      "slug": "cloud-messaging",
+      "title": "Cloud Messaging",
+      "description": "Firebase Cloud Messaging (FCM) is a cross-platform messaging service for delivering push notifications and data messages to Android apps. Notifications can target individual devices, device groups, or topics that users subscribe to. FCM supports both foreground and background message delivery and is free to use.",
+      "resources": [
+        {
+          "id": "e3vHFaFFMV7kI9q6yf5e9-res-1",
+          "type": "article",
+          "title": "Documentation",
+          "url": "https://firebase.google.com/docs/cloud-messaging/android/client"
+        },
+        {
+          "id": "e3vHFaFFMV7kI9q6yf5e9-res-2",
+          "type": "video",
+          "title": "Firebase Cloud Messaging",
+          "url": "https://www.youtube.com/watch?v=sioEY4tWmLI&list=PLl-K7zZEsYLkuHRCtHTpi6JYHka8oHLft"
+        }
+      ]
+    },
+    "yE0qAQZiEC9R8WvCdskpr": {
+      "id": "yE0qAQZiEC9R8WvCdskpr",
+      "slug": "column--row",
+      "title": "Column and Row in Compose",
+      "description": "Column and Row are fundamental layout composables in Jetpack Compose used to arrange items vertically (Column) or horizontally (Row). They provide a simple and intuitive way to organize UI elements by stacking them in a single direction, offering control over how items are aligned and spaced within the layout. This makes creating responsive and visually appealing user interfaces much easier.",
+      "resources": [
+        {
+          "id": "yE0qAQZiEC9R8WvCdskpr-res-1",
+          "type": "article",
+          "title": "Column",
+          "url": "https://developer.android.com/reference/kotlin/androidx/compose/foundation/layout/Column.composable#Column(androidx.compose.ui.Modifier,androidx.compose.foundation.layout.Arrangement.Vertical,androidx.compose.ui.Alignment.Horizontal,kotlin.Function1"
+        },
+        {
+          "id": "yE0qAQZiEC9R8WvCdskpr-res-2",
+          "type": "article",
+          "title": "Row",
+          "url": "https://developer.android.com/reference/kotlin/androidx/compose/foundation/layout/Row.composable#Row(androidx.compose.ui.Modifier,androidx.compose.foundation.layout.Arrangement.Horizontal,androidx.compose.ui.Alignment.Vertical,kotlin.Function1"
+        }
+      ]
+    },
+    "ZEdn2yy-IwHN3kOYr2ZbC": {
+      "id": "ZEdn2yy-IwHN3kOYr2ZbC",
+      "slug": "common-services",
+      "title": "Common Services",
+      "description": "Common Services covers widely used Google and third-party platform services that Android apps integrate with. These include Google Maps for location and mapping, Google Play Services for platform features, AdMob for advertising, and Firebase for a range of backend services.",
+      "resources": [
+        {
+          "id": "ZEdn2yy-IwHN3kOYr2ZbC-res-1",
+          "type": "article",
+          "title": "Common Services",
+          "url": "https://developer.android.com/guide/components/services"
+        }
+      ]
+    },
+    "3fFNMhQIuuh-NRzSXYpXO": {
+      "id": "3fFNMhQIuuh-NRzSXYpXO",
+      "slug": "constraint",
+      "title": "ConstraintLayout",
+      "description": "ConstraintLayout is a layout manager in Android that gives you flexible control over the positioning and sizing of views within your user interface. It allows you to create complex layouts without nesting multiple view groups, which can improve performance. Views are positioned by defining constraints relative to other views or the parent layout.",
+      "resources": [
+        {
+          "id": "3fFNMhQIuuh-NRzSXYpXO-res-1",
+          "type": "article",
+          "title": "Android: ConstraintLayout in XML",
+          "url": "https://developer.android.com/develop/ui/views/layout/constraint-layout"
+        },
+        {
+          "id": "3fFNMhQIuuh-NRzSXYpXO-res-2",
+          "type": "article",
+          "title": "Android: ConstraintLayout in Compose",
+          "url": "https://developer.android.com/develop/ui/compose/layouts/constraintlayout"
+        }
+      ]
+    },
+    "qNzC8sQqQaDnG1oy1jiO0": {
+      "id": "qNzC8sQqQaDnG1oy1jiO0",
+      "slug": "constraintlayout",
+      "title": "ConstraintLayout",
+      "description": "ConstraintLayout is a flexible and powerful layout manager for Android that allows you to position and size views using constraints relative to other views, the parent layout, or guidelines. It gives you fine-grained control over the placement of UI elements and helps create complex layouts without nesting multiple layout groups. It's designed to be a flat layout, which can help improve performance compared to deeply nested layouts.",
+      "resources": [
+        {
+          "id": "qNzC8sQqQaDnG1oy1jiO0-res-1",
+          "type": "article",
+          "title": "ConstraintLayout",
+          "url": "https://developer.android.com/develop/ui/compose/layouts/constraintlayout"
+        },
+        {
+          "id": "qNzC8sQqQaDnG1oy1jiO0-res-2",
+          "type": "article",
+          "title": "Constraint Layout — Jetpack Compose",
+          "url": "https://medium.com/@jayeshseth/constraint-layout-jetpack-compose-a3545f3dee00"
+        }
+      ]
+    },
+    "nkcdjrswv0WCzUs48BAt9": {
+      "id": "nkcdjrswv0WCzUs48BAt9",
+      "slug": "content-provider",
+      "title": "Content Provider",
+      "description": "A Content Provider manages access to a structured set of data and provides a standard interface for sharing data between apps. Platform apps like Contacts, Calendar, and Media Store expose their data through content providers. Custom content providers are used to share data with other apps or between processes within the same app.",
+      "resources": [
+        {
+          "id": "nkcdjrswv0WCzUs48BAt9-res-1",
+          "type": "article",
+          "title": "Content Provider",
+          "url": "https://developer.android.com/guide/topics/providers/content-providers"
+        }
+      ]
+    },
+    "i_cKmTnGAYw8xpHwZHjAd": {
+      "id": "i_cKmTnGAYw8xpHwZHjAd",
+      "slug": "coroutines",
+      "title": "Coroutines",
+      "description": "Kotlin Coroutines are a concurrency framework that allows writing asynchronous code in a sequential, readable style. They are lightweight, support structured concurrency, and integrate with Android Jetpack through lifecycle-aware CoroutineScopes. Coroutines replaced older patterns like AsyncTask and are now the preferred approach for async work in Android.",
+      "resources": [
+        {
+          "id": "i_cKmTnGAYw8xpHwZHjAd-res-1",
+          "type": "article",
+          "title": "Coroutines",
+          "url": "https://kotlinlang.org/docs/coroutines-overview.html"
+        }
+      ]
+    },
+    "xB4evbD07n1VrHOIpowV4": {
+      "id": "xB4evbD07n1VrHOIpowV4",
+      "slug": "crashlytics",
+      "title": "Crashlytics",
+      "description": "`Crashlytics` is a lightweight, real-time crash reporter that helps you track, prioritize, and fix stability issues that dismantle your app's quality. It delivers fast and precise information about crashes and helps you gain insights into your app's performance so you can pinpoint the exact line of code your app crashed on. Crashlytics offers a comprehensive suite of features like crash analysis, issue aggregation, and tracking user activities that led to a crash. This tool is now a part of Google's `Firebase` platform but can also be used independently.",
+      "resources": [
+        {
+          "id": "xB4evbD07n1VrHOIpowV4-res-1",
+          "type": "article",
+          "title": "Crashlytics Documentation",
+          "url": "https://firebase.google.com/docs/crashlytics/get-started?platform=android"
+        },
+        {
+          "id": "xB4evbD07n1VrHOIpowV4-res-2",
+          "type": "video",
+          "title": "Firebase: Crashlytics",
+          "url": "https://www.youtube.com/watch?v=LhjTAkifr6g"
+        }
+      ]
+    },
+    "5m_7DvInF8C_4Ml1xVI6L": {
+      "id": "5m_7DvInF8C_4Ml1xVI6L",
+      "slug": "create-a-basic-hello-world-app",
+      "title": "Create a Basic Hello World App",
+      "description": "Creating a Hello World app is the starting point for hands-on Android development. It involves setting up a new project in Android Studio, writing a simple activity, and running it on an emulator or physical device. The exercise introduces the project structure, the Gradle build process, and how the UI connects to code.",
+      "resources": [
+        {
+          "id": "5m_7DvInF8C_4Ml1xVI6L-res-1",
+          "type": "article",
+          "title": "Create Your First Android Application",
+          "url": "https://developer.android.com/codelabs/basic-android-kotlin-compose-first-app"
+        }
+      ]
+    },
+    "CK7Ce632fdTgxeFsRUVvd": {
+      "id": "CK7Ce632fdTgxeFsRUVvd",
+      "slug": "dagger",
+      "title": "Dagger",
+      "description": "Dagger is a compile-time dependency injection framework for Java and Kotlin. It generates efficient DI code based on annotations, avoiding reflection at runtime. Dagger has a steep learning curve but is widely used in large Android codebases for its performance and reliability.",
+      "resources": [
+        {
+          "id": "CK7Ce632fdTgxeFsRUVvd-res-1",
+          "type": "article",
+          "title": "Dagger",
+          "url": "https://dagger.dev/"
+        }
+      ]
+    },
+    "cNeT1dJDfgn0ndPzSxhSL": {
+      "id": "cNeT1dJDfgn0ndPzSxhSL",
+      "slug": "data-structures-and-algorithms",
+      "title": "Data Structures and Algorithms",
+      "description": "Data structures and algorithms cover how data is organized and processed efficiently in code. Common structures include lists, maps, sets, stacks, and queues; common algorithmic topics include sorting, searching, and recursion. Understanding these is necessary for writing performant apps and for technical interviews.",
+      "resources": [
+        {
+          "id": "cNeT1dJDfgn0ndPzSxhSL-res-1",
+          "type": "article",
+          "title": "Data Structures and Algorithms in Android",
+          "url": "https://medium.com/@pranamsharma.1997/importance-of-data-structure-and-algorithms-in-android-app-development-75eed9f73909"
+        }
+      ]
+    },
+    "GWq3s1iTxQOp1BstHscJ9": {
+      "id": "GWq3s1iTxQOp1BstHscJ9",
+      "slug": "datastore",
+      "title": "DataStore",
+      "description": "DataStore is Jetpack's modern replacement for Shared Preferences. It provides two implementations: Preferences DataStore for key-value storage and Proto DataStore for typed, schema-based storage using Protocol Buffers. DataStore uses Kotlin coroutines and Flow, making it asynchronous and safer to use than Shared Preferences.",
+      "resources": [
+        {
+          "id": "GWq3s1iTxQOp1BstHscJ9-res-1",
+          "type": "article",
+          "title": "Documentation",
+          "url": "https://developer.android.com/topic/libraries/architecture/datastore"
+        },
+        {
+          "id": "GWq3s1iTxQOp1BstHscJ9-res-2",
+          "type": "video",
+          "title": "Introduction to DataStore",
+          "url": "https://www.youtube.com/watch?v=9ws-cJzlJkU&list=PLWz5rJ2EKKc8to3Ere-ePuco69yBUmQ9C"
+        }
+      ]
+    },
+    "6KbSUAoT_jTudFoIbwMpA": {
+      "id": "6KbSUAoT_jTudFoIbwMpA",
+      "slug": "debugging",
+      "title": "Debugging",
+      "description": "Debugging in Android involves identifying and fixing issues in app behavior, performance, and memory usage. Android Studio provides a built-in debugger, and specialized tools like Jetpack Benchmark, Chucker, LeakCanary, and Timber address specific categories of issues.",
+      "resources": [
+        {
+          "id": "6KbSUAoT_jTudFoIbwMpA-res-1",
+          "type": "article",
+          "title": "Debugging",
+          "url": "https://developer.android.com/studio/debug"
+        }
+      ]
+    },
+    "qtXM9K7wyjOFuEMlZrB3C": {
+      "id": "qtXM9K7wyjOFuEMlZrB3C",
+      "slug": "dependency-injection",
+      "title": "Dependency Injection",
+      "description": "Dependency Injection (DI) is a technique where objects receive their dependencies from an external source rather than creating them internally. In Android, DI frameworks manage the creation and lifecycle of dependencies across the app, improving testability and reducing coupling. Common solutions include Dagger, Hilt, and Koin.",
+      "resources": [
+        {
+          "id": "qtXM9K7wyjOFuEMlZrB3C-res-1",
+          "type": "article",
+          "title": "Dependency Injection",
+          "url": "https://developer.android.com/training/dependency-injection"
+        }
+      ]
+    },
+    "jePGzTejFe4ryA5qFFmjl": {
+      "id": "jePGzTejFe4ryA5qFFmjl",
+      "slug": "design--architecture",
+      "title": "Architecture and Design Patterns",
+      "description": "**Design Architecture** refers to structuring the code in a way that increases its readability, maintainability, and testability. There are several ways to design architecture like Model-View-Controller (MVC), Model-View-Intent (MVI). Each of these define the interaction between the data, the logic, and the UI layers. Google’s recommended architectural pattern is Android Architecture Components which follow the principles of the MVVM pattern. Bear in mind that an architecture is not a rigid structure that fits all solutions. Rather, it serves as a guideline and can be tweaked as necessary.",
+      "resources": [
+        {
+          "id": "jePGzTejFe4ryA5qFFmjl-res-1",
+          "type": "article",
+          "title": "Android Architecture Components",
+          "url": "https://developer.android.com/topic/libraries/architecture"
+        },
+        {
+          "id": "jePGzTejFe4ryA5qFFmjl-res-2",
+          "type": "article",
+          "title": "Model-View-Controller (MVC)",
+          "url": "https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller"
+        },
+        {
+          "id": "jePGzTejFe4ryA5qFFmjl-res-3",
+          "type": "article",
+          "title": "Model-View-Presenter (MVP)",
+          "url": "https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93presenter"
+        },
+        {
+          "id": "jePGzTejFe4ryA5qFFmjl-res-4",
+          "type": "article",
+          "title": "Model-View-ViewModel (MVVM)",
+          "url": "https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel"
+        },
+        {
+          "id": "jePGzTejFe4ryA5qFFmjl-res-5",
+          "type": "article",
+          "title": "Model-View-Intent (MVI)",
+          "url": "https://www.raywenderlich.com/817602-mvi-architecture-for-android-tutorial-getting-started"
+        }
+      ]
+    },
+    "RUvuCp_JK5MQQT13SSHUV": {
+      "id": "RUvuCp_JK5MQQT13SSHUV",
+      "slug": "detekt",
+      "title": "Detekt",
+      "description": "Detekt is a static code analysis tool for Kotlin that identifies code smells, complexity issues, potential bugs, and style violations. It is more configurable than Ktlint and covers a broader range of quality checks. Detekt reports can be integrated into CI pipelines to prevent problematic code from being merged.",
+      "resources": [
+        {
+          "id": "RUvuCp_JK5MQQT13SSHUV-res-1",
+          "type": "article",
+          "title": "Detekt",
+          "url": "https://detekt.dev/"
+        },
+        {
+          "id": "RUvuCp_JK5MQQT13SSHUV-res-2",
+          "type": "article",
+          "title": "Detekt: Static Code Analysis for Kotlin",
+          "url": "https://github.com/detekt/detekt"
+        }
+      ]
+    },
+    "ZRGsokU313Ky-anWbWK6q": {
+      "id": "ZRGsokU313Ky-anWbWK6q",
+      "slug": "development-ide",
+      "title": "Development IDE",
+      "description": "Android Studio is the official integrated development environment for Android development. It is built on IntelliJ IDEA and provides tools for code editing, debugging, performance profiling, and device emulation. It also integrates directly with the Gradle build system and the Android SDK.",
+      "resources": [
+        {
+          "id": "ZRGsokU313Ky-anWbWK6q-res-1",
+          "type": "article",
+          "title": "Android Studio",
+          "url": "https://developer.android.com/studio"
+        },
+        {
+          "id": "ZRGsokU313Ky-anWbWK6q-res-2",
+          "type": "article",
+          "title": "Android Studio Documentation",
+          "url": "https://developer.android.com/studio/intro"
+        },
+        {
+          "id": "ZRGsokU313Ky-anWbWK6q-res-3",
+          "type": "video",
+          "title": "Android Studio Tutorial (2024 Edition) - Part 1",
+          "url": "https://www.youtube.com/watch?v=saKrGCWlJDs"
+        }
+      ]
+    },
+    "Xn1VQ-xOT67ZfJJTM4r1p": {
+      "id": "Xn1VQ-xOT67ZfJJTM4r1p",
+      "slug": "dialog",
+      "title": "Animations",
+      "description": "`Animations` can add visual cues that notify users about what's going on in your app. They are especially useful when the UI changes state, such as when new content loads or new actions become available. Animations also add a polished look to your app, which gives it a higher quality look and feel.",
+      "resources": [
+        {
+          "id": "Xn1VQ-xOT67ZfJJTM4r1p-res-1",
+          "type": "article",
+          "title": "Google developers: Animations",
+          "url": "https://developer.android.com/develop/ui/views/animations/overview"
+        },
+        {
+          "id": "Xn1VQ-xOT67ZfJJTM4r1p-res-2",
+          "type": "video",
+          "title": "Google developers: Animations",
+          "url": "https://www.youtube.com/watch?v=N_x7SV3I3P0"
+        }
+      ]
+    },
+    "kc6buUsLAeZeUb4Tk0apM": {
+      "id": "kc6buUsLAeZeUb4Tk0apM",
+      "slug": "distribution",
+      "title": "Distribution",
+      "description": "Distribution covers how Android apps are packaged and delivered to users. This includes generating a signed APK or AAB for release, and publishing through channels like the Google Play Store or Firebase App Distribution for internal testing and staged rollouts.",
+      "resources": [
+        {
+          "id": "kc6buUsLAeZeUb4Tk0apM-res-1",
+          "type": "article",
+          "title": "Google Play Developer Distribution",
+          "url": "https://developer.android.com/distribute"
+        }
+      ]
+    },
+    "mhxUDPHI-6NHwOxsdVn65": {
+      "id": "mhxUDPHI-6NHwOxsdVn65",
+      "slug": "drawer",
+      "title": "Drawer",
+      "description": "A Drawer is a panel that slides in from the edge of the screen to display navigation options and app content. Typically, it's triggered by a \"hamburger\" menu icon and provides a hierarchical way to access different sections within the application, offering a space-saving alternative to tabs or a navigation bar. It improves the user experience by organizing and hiding away secondary options, making the main screen less cluttered.",
+      "resources": [
+        {
+          "id": "mhxUDPHI-6NHwOxsdVn65-res-1",
+          "type": "article",
+          "title": "Navigation drawer  |  Jetpack Compose  |  Android Developers",
+          "url": "https://developer.android.com/develop/ui/compose/components/drawer"
+        },
+        {
+          "id": "mhxUDPHI-6NHwOxsdVn65-res-2",
+          "type": "article",
+          "title": "Crafting an Elegant Navigation Drawer in Jetpack Compose | by Abhishek Pathak | Medium",
+          "url": "https://medium.com/@myofficework000/crafting-an-elegant-navigation-drawer-in-jetpack-compose-49fac924e30f"
+        }
+      ]
+    },
+    "-ONSC-ImGSELbamKmjIlH": {
+      "id": "-ONSC-ImGSELbamKmjIlH",
+      "slug": "espresso",
+      "title": "Espresso",
+      "description": "Espresso is a testing framework provided by Android to create UI tests for Android applications. It automatically synchronizes your test actions with the UI of your application, ensuring that your test will only proceed when the necessary UI activities have been completed. In Espresso, you can programmatically simulate user interactions like clicking buttons, typing text, or swiping screens, and then examine the UI's state to confirm it's as expected. Espresso tests can run on devices running Android 4.3 (API level 18) or higher.",
+      "resources": [
+        {
+          "id": "-ONSC-ImGSELbamKmjIlH-res-1",
+          "type": "article",
+          "title": "Espresso",
+          "url": "https://developer.android.com/training/testing/espresso"
+        }
+      ]
+    },
+    "TmIeCF3xVCe5Sy3ITmM31": {
+      "id": "TmIeCF3xVCe5Sy3ITmM31",
+      "slug": "explicit-intents",
+      "title": "Explicit Intents",
+      "description": "**Explicit Intents** are primarily used within an application's own boundaries. In explicit intents you specify the component that needs to be responded to the intent. Therefore, the target component must be specified by calling methods such as `setComponent(ComponentName)`, `setClass(Context, Class)`, or `setClassName(String, String)`. This means that explicit intents are typically used for launching activities, broadcasting messages, starting services within the app. Explicit intents are not resolved by the system but are passed to the component identified in the intent.",
+      "resources": [
+        {
+          "id": "TmIeCF3xVCe5Sy3ITmM31-res-1",
+          "type": "article",
+          "title": "Explicit Intents",
+          "url": "https://developer.android.com/guide/components/intents-filters#explicit"
+        }
+      ]
+    },
+    "DeOxj6RzQBYfEWV-M1Ybm": {
+      "id": "DeOxj6RzQBYfEWV-M1Ybm",
+      "slug": "factory-pattern",
+      "title": "Factory Pattern",
+      "description": "The Factory pattern provides an interface for creating objects without specifying their exact class. It centralizes object creation logic, making it easier to swap implementations without modifying calling code. In Android, factory patterns appear in ViewModelProvider.Factory for creating ViewModels with custom constructor arguments.",
+      "resources": [
+        {
+          "id": "DeOxj6RzQBYfEWV-M1Ybm-res-1",
+          "type": "article",
+          "title": "Android: Factory Pattern",
+          "url": "https://developer.android.com/guide/components/intents-filters#factory"
+        }
+      ]
+    },
+    "A4kdaj6AFueUgPI7hwKi5": {
+      "id": "A4kdaj6AFueUgPI7hwKi5",
+      "slug": "file-system",
+      "title": "File System",
+      "description": "The Android file system allows apps to read and write files to internal storage, external storage, and cache directories. Internal storage is private to the app, while shared storage is accessible to other apps through proper permissions and scoped storage APIs. File system access is used for raw files, media, and documents.",
+      "resources": [
+        {
+          "id": "A4kdaj6AFueUgPI7hwKi5-res-1",
+          "type": "article",
+          "title": "Android File System",
+          "url": "https://developer.android.com/training/data-storage/"
+        },
+        {
+          "id": "A4kdaj6AFueUgPI7hwKi5-res-2",
+          "type": "article",
+          "title": "Android File System",
+          "url": "https://www.androidauthority.com/android-file-system-1010817/"
+        }
+      ]
+    },
+    "T7q_quNaIAuGi96OdnDT1": {
+      "id": "T7q_quNaIAuGi96OdnDT1",
+      "slug": "firebase-distribution",
+      "title": "Firebase Distribution",
+      "description": "Firebase Distribution is a development tool within the Google Firebase suite that allows you to share pre-release versions of your Android apps with your development team. It enables you to distribute your app binaries to multiple testers and teams to get feedback before the app's official launch. Firebase Distribution supports both Android and iOS applications and works in tandem with other features, like Firebase Crashlytics, to effectively manage the testing and debugging aspects of your application's lifecycle.",
+      "resources": [
+        {
+          "id": "T7q_quNaIAuGi96OdnDT1-res-1",
+          "type": "article",
+          "title": "Firebase Distribution",
+          "url": "https://firebase.google.com/docs/app-distribution"
+        }
+      ]
+    },
+    "3EEfKAd-ppIQpdQSEhbA1": {
+      "id": "3EEfKAd-ppIQpdQSEhbA1",
+      "slug": "firestore",
+      "title": "FireStore",
+      "description": "Firestore is Firebase's scalable, flexible NoSQL cloud database. It stores data as collections of documents and supports real-time listeners that push updates to connected clients instantly. Firestore provides offline support through local caching and automatically syncs data when connectivity is restored.",
+      "resources": [
+        {
+          "id": "3EEfKAd-ppIQpdQSEhbA1-res-1",
+          "type": "article",
+          "title": "Firestore",
+          "url": "https://firebase.google.com/docs/firestore"
+        }
+      ]
+    },
+    "W-WTIiQml8dLK6i_V69JK": {
+      "id": "W-WTIiQml8dLK6i_V69JK",
+      "slug": "flow",
+      "title": "Flow",
+      "description": "`Flow` in Android development is part of the Kotlin Coroutines library. It is a type that can emit multiple values sequentially, making it perfect for working with any data streams or any streams of events that aren't instantaneous. Like Observables, `Flow` is also based on the observer pattern, meaning it can emit values and these emissions can be observed and reacted to. However, `Flow` comes with built-in back pressure handling and the ability to transform, filter, or combine these flows in a sequence. Along with Coroutines, `Flow` encourages a more predictable and simplified concurrency design without callback hell problem.",
+      "resources": [
+        {
+          "id": "W-WTIiQml8dLK6i_V69JK-res-1",
+          "type": "article",
+          "title": "Flow",
+          "url": "https://kotlinlang.org/docs/flow.html"
+        },
+        {
+          "id": "W-WTIiQml8dLK6i_V69JK-res-2",
+          "type": "article",
+          "title": "Flow: Coroutines",
+          "url": "https://kotlinlang.org/docs/flow-coroutines.html"
+        }
+      ]
+    },
+    "2iDJrxjXOt7o2fPp2HfRl": {
+      "id": "2iDJrxjXOt7o2fPp2HfRl",
+      "slug": "fragments",
+      "title": "Fragments",
+      "description": "A `Fragment` represents a reusable portion of your app's UI. A fragment defines and manages its own layout, has its own lifecycle, and can handle its own input events. Fragments can't live on their own. They must be hosted by an activity or another fragment. The fragment’s view hierarchy becomes part of, or attaches to, the host’s view hierarchy.",
+      "resources": [
+        {
+          "id": "2iDJrxjXOt7o2fPp2HfRl-res-1",
+          "type": "article",
+          "title": "Android Developers: Fragments",
+          "url": "https://developer.android.com/guide/fragments"
+        }
+      ]
+    },
+    "rqSZ2ATeHbOdIQE9Jlb0B": {
+      "id": "rqSZ2ATeHbOdIQE9Jlb0B",
+      "slug": "git",
+      "title": "Git",
+      "description": "`Git` is a highly efficient and flexible distributed version control system that was created by **Linus Torvalds**, the creator of Linux. It allows multiple developers to work on a project concurrently, providing tools for non-linear development and tracking changes in any set of files. Git has a local repository with a complete history and version-tracking capabilities, allowing offline operations, unlike SVN. It ensures data integrity and provides strong support for non-linear development with features such as branching and merging.",
+      "resources": [
+        {
+          "id": "rqSZ2ATeHbOdIQE9Jlb0B-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated Git and GitHub Roadmap",
+          "url": "https://roadmap.sh/git-github"
+        },
+        {
+          "id": "rqSZ2ATeHbOdIQE9Jlb0B-res-2",
+          "type": "course",
+          "title": "Why use Git? (Interactive Lesson)",
+          "url": "https://inter-git.com/lessons/introduction"
+        },
+        {
+          "id": "rqSZ2ATeHbOdIQE9Jlb0B-res-3",
+          "type": "article",
+          "title": "Git by Example - Learn Version Control with Bite-sized Lessons",
+          "url": "https://antonz.org/git-by-example/"
+        },
+        {
+          "id": "rqSZ2ATeHbOdIQE9Jlb0B-res-4",
+          "type": "video",
+          "title": "Git & GitHub Crash Course For Beginners",
+          "url": "https://www.youtube.com/watch?v=vA5TTz6BXhY"
+        }
+      ]
+    },
+    "H-2eb8fLwz8IKYXbeSVKK": {
+      "id": "H-2eb8fLwz8IKYXbeSVKK",
+      "slug": "github",
+      "title": "GitHub",
+      "description": "**GitHub** is a cloud-based hosting service for managing software version control using Git. It provides a platform for enabling multiple developers to work together on the same project at the same time. With GitHub, codes can be stored publicly, allowing for collaboration with other developers or privately for individual projects. Key features of GitHub include code sharing, task management, and version control, among others. GitHub also offers functionalities such as bug tracking, feature requests, and task management for the project.",
+      "resources": [
+        {
+          "id": "H-2eb8fLwz8IKYXbeSVKK-res-1",
+          "type": "article",
+          "title": "Git and GitHub Roadmap",
+          "url": "https://roadmap.sh/git-github"
+        },
+        {
+          "id": "H-2eb8fLwz8IKYXbeSVKK-res-2",
+          "type": "article",
+          "title": "GitHub",
+          "url": "https://github.com/"
+        },
+        {
+          "id": "H-2eb8fLwz8IKYXbeSVKK-res-3",
+          "type": "article",
+          "title": "GitHub Documentation",
+          "url": "https://docs.github.com/"
+        }
+      ]
+    },
+    "Q47BtQphp59NkkZoeNXmP": {
+      "id": "Q47BtQphp59NkkZoeNXmP",
+      "slug": "gitlab",
+      "title": "GitLab",
+      "description": "GitLab is a DevOps platform that includes Git repository hosting, CI/CD pipelines, issue tracking, and a container registry in a single product. It can be used as a cloud service or self-hosted on private infrastructure. GitLab CI/CD is particularly useful for automating Android build and testing workflows.",
+      "resources": [
+        {
+          "id": "Q47BtQphp59NkkZoeNXmP-res-1",
+          "type": "article",
+          "title": "GitLab",
+          "url": "https://about.gitlab.com/"
+        },
+        {
+          "id": "Q47BtQphp59NkkZoeNXmP-res-2",
+          "type": "article",
+          "title": "GitLab Documentation",
+          "url": "https://docs.gitlab.com/"
+        }
+      ]
+    },
+    "D4ZXQOKJkyFYNZIy-MJ9Y": {
+      "id": "D4ZXQOKJkyFYNZIy-MJ9Y",
+      "slug": "google-admob",
+      "title": "Google AdMob",
+      "description": "Google AdMob is a mobile advertising platform designed for app developers to monetize their apps by displaying ads from over 1 million Google advertisers. AdMob supports a wide range of ad formats, such as banner ads, interstitial ads, video ads, and more. It offers a powerful mediator that enables you to display ads from multiple sources, which includes the Google Mobile Ads SDK, third-party ad networks, and house ad campaigns. Furthermore, AdMob provides analytical tools to better understand your users and maximize ad revenue.",
+      "resources": [
+        {
+          "id": "D4ZXQOKJkyFYNZIy-MJ9Y-res-1",
+          "type": "article",
+          "title": "Google AdMob",
+          "url": "https://admob.google.com/home/"
+        },
+        {
+          "id": "D4ZXQOKJkyFYNZIy-MJ9Y-res-2",
+          "type": "article",
+          "title": "Google AdMob Documentation",
+          "url": "https://admob.google.com/home/get-started/"
+        }
+      ]
+    },
+    "S5FVF9rMgVSSDKXJW2GYb": {
+      "id": "S5FVF9rMgVSSDKXJW2GYb",
+      "slug": "google-maps",
+      "title": "Google Maps",
+      "description": "The Google Maps SDK for Android allows apps to embed interactive maps, display markers, draw routes, and access geolocation data. It is used in apps that require navigation, location search, or geographic visualization. The SDK integrates with the Fused Location Provider for efficient and battery-aware location access.",
+      "resources": [
+        {
+          "id": "S5FVF9rMgVSSDKXJW2GYb-res-1",
+          "type": "article",
+          "title": "Google Maps",
+          "url": "https://developers.google.com/maps/documentation/android-sdk/overview"
+        },
+        {
+          "id": "S5FVF9rMgVSSDKXJW2GYb-res-2",
+          "type": "article",
+          "title": "Google Maps Documentation",
+          "url": "https://developers.google.com/maps/documentation/android-sdk/intro"
+        }
+      ]
+    },
+    "m5rumeynEbS8T27pelr0-": {
+      "id": "m5rumeynEbS8T27pelr0-",
+      "slug": "google-play-services",
+      "title": "Google Play Services",
+      "description": "Google Play Services is a background service that provides core Google APIs to Android apps, including authentication, location, maps, and in-app payments. It is automatically updated on compatible devices and required for many Android platform features. Most apps that use Google APIs depend on Play Services being installed on the device.",
+      "resources": [
+        {
+          "id": "m5rumeynEbS8T27pelr0--res-1",
+          "type": "article",
+          "title": "Google Play Services",
+          "url": "https://developer.android.com/google/play-services"
+        },
+        {
+          "id": "m5rumeynEbS8T27pelr0--res-2",
+          "type": "article",
+          "title": "Google Play Services Documentation",
+          "url": "https://developer.android.com/google/play-services/overview.html"
+        }
+      ]
+    },
+    "HgRdgi2Hu4C8YLG5PXfoo": {
+      "id": "HgRdgi2Hu4C8YLG5PXfoo",
+      "slug": "google-playstore",
+      "title": "Google Playstore",
+      "description": "The Google Play Store is the official marketplace for distributing Android apps to users worldwide. Publishing an app requires a Google Play developer account, a signed AAB or APK, and compliance with Google's developer policies. The Play Console provides tools for staged rollouts, A/B testing, crash monitoring, and user review management.",
+      "resources": [
+        {
+          "id": "HgRdgi2Hu4C8YLG5PXfoo-res-1",
+          "type": "article",
+          "title": "Google Play Store",
+          "url": "https://play.google.com/store"
+        },
+        {
+          "id": "HgRdgi2Hu4C8YLG5PXfoo-res-2",
+          "type": "article",
+          "title": "Google Play Store Documentation",
+          "url": "https://developer.android.com/distribute/googleplay"
+        }
+      ]
+    },
+    "ooo_k2k_vUBR_jQ7Ke6Et": {
+      "id": "ooo_k2k_vUBR_jQ7Ke6Et",
+      "slug": "hilt",
+      "title": "Hilt",
+      "description": "Hilt is a dependency injection library for Android that reduces the boilerplate code that you would normally need to write when setting up manual dependency injection in your project. It is based on the Dagger library, but it simplifies the implementation process and streamlines the use of Dagger in Android apps. To set it up, you must annotate your Android classes and Hilt will automatically generate and provide the necessary dependencies for you.",
+      "resources": [
+        {
+          "id": "ooo_k2k_vUBR_jQ7Ke6Et-res-1",
+          "type": "article",
+          "title": "Hilt",
+          "url": "https://developer.android.com/training/dependency-injection/hilt-android"
+        }
+      ]
+    },
+    "pEBpXv3Jf1AzBNHlvVrG8": {
+      "id": "pEBpXv3Jf1AzBNHlvVrG8",
+      "slug": "icon",
+      "title": "Icon in Compose",
+      "description": "In Jetpack Compose, an `Icon` is a composable function that displays a graphical image. You can use it to show vector drawables, raster images, or even custom shapes. It's a fundamental building block for enhancing your app's user interface by adding visual cues and branding elements. You can customize the `Icon`'s color, size, and add a content description for accessibility.",
+      "resources": [
+        {
+          "id": "pEBpXv3Jf1AzBNHlvVrG8-res-1",
+          "type": "article",
+          "title": "Icons  |  Jetpack Compose  |  Android Developers",
+          "url": "https://developer.android.com/develop/ui/compose/graphics/images/material"
+        },
+        {
+          "id": "pEBpXv3Jf1AzBNHlvVrG8-res-2",
+          "type": "article",
+          "title": "IconButton in Jetpack Compose. Ever wondered how to use icons as… | by Dhivya | Medium",
+          "url": "https://medium.com/@dhivyakgf/iconbutton-in-jetpack-compose-bc1f1268c745"
+        }
+      ]
+    },
+    "Mtx0bY0drmaTw8sCM5YTl": {
+      "id": "Mtx0bY0drmaTw8sCM5YTl",
+      "slug": "image",
+      "title": "Image",
+      "description": "An image, in the context of Android development, refers to a visual representation displayed within an application's user interface. It allows developers to incorporate graphics, photographs, or illustrations into their apps to enhance visual appeal, provide context, or convey information. Images can be static or dynamically loaded from various sources, such as local storage, network resources, or generated programmatically.",
+      "resources": [
+        {
+          "id": "Mtx0bY0drmaTw8sCM5YTl-res-1",
+          "type": "article",
+          "title": "Loading images  |  Jetpack Compose  |  Android Developers",
+          "url": "https://developer.android.com/reference/kotlin/androidx/compose/foundation/Image.composable"
+        },
+        {
+          "id": "Mtx0bY0drmaTw8sCM5YTl-res-2",
+          "type": "article",
+          "title": "Working with images",
+          "url": "https://developer.android.com/develop/ui/compose/graphics/images"
+        }
+      ]
+    },
+    "A4rtNULX_MoV93IH1Lgqw": {
+      "id": "A4rtNULX_MoV93IH1Lgqw",
+      "slug": "imageview",
+      "title": "ImageView",
+      "description": "ImageView is a UI component that displays images in an Android application. It's used to show pictures, icons, and other visual content to users. You can set the image source from a variety of resources, including local files, drawables, or URLs. ImageView offers various scaling options to fit the image within its bounds and can also handle image transformations.",
+      "resources": [
+        {
+          "id": "A4rtNULX_MoV93IH1Lgqw-res-1",
+          "type": "article",
+          "title": "Android Developers: ImageView",
+          "url": "https://developer.android.com/reference/android/widget/ImageView"
+        }
+      ]
+    },
+    "gGdz3j33x0gfrFDp_rw8Z": {
+      "id": "gGdz3j33x0gfrFDp_rw8Z",
+      "slug": "implicit-intents",
+      "title": "Implicit Intents",
+      "description": "**Implicit Intents** do not specify the target component explicitly like Explicit Intents. Instead, they allow the system to find a suitable component matching the Intent description to handle the request. The system will find an activity that can handle this intent by comparing the `<intent-filter>` section in the `AndroidManifest.xml` of all apps installed on the device against the Implicit Intent.",
+      "resources": [
+        {
+          "id": "gGdz3j33x0gfrFDp_rw8Z-res-1",
+          "type": "article",
+          "title": "Implicit Intents",
+          "url": "https://developer.android.com/guide/components/intents-filters#implicit"
+        }
+      ]
+    },
+    "b-sfh6NoS-APqaNKm5L5S": {
+      "id": "b-sfh6NoS-APqaNKm5L5S",
+      "slug": "intent-filters",
+      "title": "Intent Filters",
+      "description": "Intent filters declare what types of intents a component can receive. They are defined in the AndroidManifest.xml file and describe the actions, data types, and categories a component supports. The system uses intent filters to determine which activities or services can respond to a given implicit intent.",
+      "resources": [
+        {
+          "id": "b-sfh6NoS-APqaNKm5L5S-res-1",
+          "type": "article",
+          "title": "Intent Filters",
+          "url": "https://developer.android.com/guide/components/intents-filters"
+        }
+      ]
+    },
+    "hv_9imIQpthxEaMLXEUHI": {
+      "id": "hv_9imIQpthxEaMLXEUHI",
+      "slug": "intent",
+      "title": "Intent",
+      "description": "Intent in Android is a software mechanism used for late runtime binding between components, such as activities, content providers, and services. It is essentially a passive data structure holding an abstract description of an operation that the Android system is requested to perform.",
+      "resources": [
+        {
+          "id": "hv_9imIQpthxEaMLXEUHI-res-1",
+          "type": "article",
+          "title": "Intent",
+          "url": "https://developer.android.com/reference/android/content/Intent"
+        }
+      ]
+    },
+    "4_e76QafrB419S2INOeKd": {
+      "id": "4_e76QafrB419S2INOeKd",
+      "slug": "interface--navigation",
+      "title": "Interface and Navigation",
+      "description": "In Android development, the concepts of \"Interface\" and \"Navigation\" are crucial. The \"Interface\" often refers to the Graphical User Interface (GUI) that users interact with. This includes buttons, text fields, image views, scroll views and other UI elements that the users can interact with to perform certain tasks. Tools like XML and Material Designs are used for interface design in Android.",
+      "resources": [
+        {
+          "id": "4_e76QafrB419S2INOeKd-res-1",
+          "type": "article",
+          "title": "Android Developers: Interface",
+          "url": "https://developer.android.com/guide/topics/ui/declaring-layout.html"
+        },
+        {
+          "id": "4_e76QafrB419S2INOeKd-res-2",
+          "type": "article",
+          "title": "Android Developers: Navigation",
+          "url": "https://developer.android.com/guide/navigation"
+        }
+      ]
+    },
+    "RBABbkzD_uNFwEO-hssZO": {
+      "id": "RBABbkzD_uNFwEO-hssZO",
+      "slug": "java",
+      "title": "Java",
+      "description": "Java was the original language for Android development and remains supported on the Android platform. It is a statically typed, object-oriented language that runs on the JVM. Many existing Android codebases and libraries are written in Java, so familiarity with it is still valuable even for developers working primarily in Kotlin.",
+      "resources": [
+        {
+          "id": "RBABbkzD_uNFwEO-hssZO-res-1",
+          "type": "article",
+          "title": "Visit the dedicated Java Roadmap",
+          "url": "https://roadmap.sh/java"
+        },
+        {
+          "id": "RBABbkzD_uNFwEO-hssZO-res-2",
+          "type": "article",
+          "title": "Java",
+          "url": "https://www.oracle.com/java/technologies/javase-jdk11-downloads.html"
+        },
+        {
+          "id": "RBABbkzD_uNFwEO-hssZO-res-3",
+          "type": "article",
+          "title": "Java Documentation",
+          "url": "https://docs.oracle.com/en/java/javase/11/docs/api/"
+        }
+      ]
+    },
+    "ACUJlDDR0jqEohsFzWEoQ": {
+      "id": "ACUJlDDR0jqEohsFzWEoQ",
+      "slug": "jetpack-benchmark",
+      "title": "Jetpack Benchmark",
+      "description": "Jetpack Benchmark is a library within the Android Jetpack Suite that allows developers to quickly and accurately measure the performance of their apps. This library can help measure CPU, memory, and IO performance of code in Android apps. Developers can define some specific code paths to be benchmarked by wrapping the code in `BenchmarkRule.measureRepeated {}`. In addition, it automatically takes care of warmup, measures your code performance, and outputs benchmarking results to the Android Studio's logcat.",
+      "resources": [
+        {
+          "id": "ACUJlDDR0jqEohsFzWEoQ-res-1",
+          "type": "article",
+          "title": "Jetpack Benchmark",
+          "url": "https://developer.android.com/studio/profile/benchmark"
+        }
+      ]
+    },
+    "60Vm-77rseUqpMiFvp-dA": {
+      "id": "60Vm-77rseUqpMiFvp-dA",
+      "slug": "jetpack-compose",
+      "title": "Jetpack Compose",
+      "description": "`Jetpack Compose` is a modern toolkit for building native Android UI. It simplifies and accelerates UI development on Android with less code, powerful tools, and intuitive Kotlin APIs. `Jetpack Compose` offers a declarative approach to designing UI, where you can simply describe what your UI should look like at any given point of your app’s state, and `Compose` takes care of updating the view hierarchy, making UI development more efficient. It also integrates well with existing Android apps, letting you adopt its benefits at your own pace.",
+      "resources": [
+        {
+          "id": "60Vm-77rseUqpMiFvp-dA-res-1",
+          "type": "article",
+          "title": "Jetpack Compose",
+          "url": "https://developer.android.com/jetpack/compose"
+        },
+        {
+          "id": "60Vm-77rseUqpMiFvp-dA-res-2",
+          "type": "article",
+          "title": "Compose layout basics",
+          "url": "https://developer.android.com/develop/ui/compose/layouts/basics"
+        },
+        {
+          "id": "60Vm-77rseUqpMiFvp-dA-res-3",
+          "type": "video",
+          "title": "Jetpack Compose Crash Course",
+          "url": "https://www.youtube.com/watch?v=6_wK_Ud8--0"
+        }
+      ]
+    },
+    "gvGAwjk_nhEgxzZ_c3f6b": {
+      "id": "gvGAwjk_nhEgxzZ_c3f6b",
+      "slug": "junit",
+      "title": "JUnit",
+      "description": "JUnit is the standard testing framework for unit testing Java and Kotlin code on Android. Unit tests run on the local JVM without needing a device or emulator, making them fast to execute. JUnit is used to verify the logic of ViewModels, Repositories, and other non-UI components.",
+      "resources": [
+        {
+          "id": "gvGAwjk_nhEgxzZ_c3f6b-res-1",
+          "type": "article",
+          "title": "Documentation",
+          "url": "https://developer.android.com/training/testing/local-tests"
+        },
+        {
+          "id": "gvGAwjk_nhEgxzZ_c3f6b-res-2",
+          "type": "video",
+          "title": "Junit for android",
+          "url": "https://www.youtube.com/watch?v=jE1vQGVHaQA"
+        }
+      ]
+    },
+    "dc7k50PjCYZcElHhCk66p": {
+      "id": "dc7k50PjCYZcElHhCk66p",
+      "slug": "kodein",
+      "title": "Kodein",
+      "description": "`Kodein` is one of the recommended dependency injection frameworks suitable for Android development. This open-source Kotlin library simplifies the DI process by allowing developers to bind various types of dependencies, such as singleton, factory, or provider bindings into containers or `Kodein` modules. It promotes dependency declaration where used, instead of prior declaration. It follows a \"Define in Use\" principle that enables easy-to-use, easy-to-debug and very idiomatic Kotlin code. It's also worth noting that `Kodein` works hand in hand with Android's lifecycle and provides easy integration with popular libraries such as Android Architecture Components, leveraging their functionality.",
+      "resources": [
+        {
+          "id": "dc7k50PjCYZcElHhCk66p-res-1",
+          "type": "article",
+          "title": "Kodein",
+          "url": "https://insert-kodein.io/"
+        }
+      ]
+    },
+    "UMqZ-jmXKDXKuu8bzqDH_": {
+      "id": "UMqZ-jmXKDXKuu8bzqDH_",
+      "slug": "koin",
+      "title": "Koin",
+      "description": "Koin is a lightweight dependency injection framework developed specifically for Kotlin developers. It uses functional resolution only - no proxy, no code generation, no reflection, and offers simplicity by leveraging Kotlin's language features. While Koin is not related to the Android platform, it provides specific extensions enabling an efficient integration into your Android applications, including Android Architecture Components and Kotlin Coroutines amongst others.",
+      "resources": [
+        {
+          "id": "UMqZ-jmXKDXKuu8bzqDH_-res-1",
+          "type": "article",
+          "title": "Koin",
+          "url": "https://insert-koin.io"
+        },
+        {
+          "id": "UMqZ-jmXKDXKuu8bzqDH_-res-2",
+          "type": "article",
+          "title": "Android Architecture Components",
+          "url": "https://developer.android.com/topic/libraries/architecture/index.html"
+        },
+        {
+          "id": "UMqZ-jmXKDXKuu8bzqDH_-res-3",
+          "type": "article",
+          "title": "@officialKotlin Coroutines",
+          "url": "https://kotlinlang.org/docs/reference/coroutines-overview.html"
+        }
+      ]
+    },
+    "qIzUv8-GgQnkqChEdgD50": {
+      "id": "qIzUv8-GgQnkqChEdgD50",
+      "slug": "kotlin",
+      "title": "Kotlin",
+      "description": "Kotlin is a statically typed programming language developed by JetBrains and officially endorsed by Google for Android development. It runs on the JVM and is fully interoperable with Java. Kotlin features concise syntax, null safety, coroutines for asynchronous programming, and extension functions that reduce boilerplate.",
+      "resources": [
+        {
+          "id": "qIzUv8-GgQnkqChEdgD50-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated Kotlin Roadmap",
+          "url": "https://roadmap.sh/kotlin"
+        },
+        {
+          "id": "qIzUv8-GgQnkqChEdgD50-res-2",
+          "type": "article",
+          "title": "Kotlin",
+          "url": "https://kotlinlang.org/"
+        },
+        {
+          "id": "qIzUv8-GgQnkqChEdgD50-res-3",
+          "type": "article",
+          "title": "Kotlin Documentation",
+          "url": "https://kotlinlang.org/docs/home.html"
+        },
+        {
+          "id": "qIzUv8-GgQnkqChEdgD50-res-4",
+          "type": "video",
+          "title": "Learn Kotlin Programming for Beginners - Free Code Camp",
+          "url": "https://youtu.be/EExSSotojVI?si=4VPW8ZHa2UMX0HH1"
+        }
+      ]
+    },
+    "zMbXQH17Q52opdbitPzj7": {
+      "id": "zMbXQH17Q52opdbitPzj7",
+      "slug": "ktlint",
+      "title": "Ktlint",
+      "description": "Ktlint is a Kotlin linter and formatter that enforces the official Kotlin coding style. It can run manually, as part of a Gradle build, or as a pre-commit hook. Ktlint has minimal configuration by design and focuses on formatting rules like indentation, spacing, and import ordering.",
+      "resources": [
+        {
+          "id": "zMbXQH17Q52opdbitPzj7-res-1",
+          "type": "article",
+          "title": "Ktlint",
+          "url": "https://ktlint.github.io/"
+        },
+        {
+          "id": "zMbXQH17Q52opdbitPzj7-res-2",
+          "type": "article",
+          "title": "Ktlint: Static Code Analysis for Kotlin",
+          "url": "https://github.com/pinterest/ktlint"
+        }
+      ]
+    },
+    "mMKN4a8lqo38M0iL1Qwhy": {
+      "id": "mMKN4a8lqo38M0iL1Qwhy",
+      "slug": "lazy-column--row",
+      "title": "Lazy Column and Row",
+      "description": "LazyColumn and LazyRow are composable functions in Jetpack Compose that efficiently display a large number of items in a scrollable list. Instead of composing all items at once, they only compose and render the items that are currently visible on the screen. This approach significantly improves performance and reduces memory consumption, especially when dealing with extensive datasets or dynamically changing content. They are similar to RecyclerView in the traditional Android View system, but with Compose's declarative and concise syntax.",
+      "resources": [
+        {
+          "id": "mMKN4a8lqo38M0iL1Qwhy-res-1",
+          "type": "article",
+          "title": "Lazy Column",
+          "url": "https://developer.android.com/reference/kotlin/androidx/compose/foundation/lazy/LazyColumn.composable"
+        },
+        {
+          "id": "mMKN4a8lqo38M0iL1Qwhy-res-2",
+          "type": "article",
+          "title": "Lazy Row",
+          "url": "https://developer.android.com/reference/kotlin/androidx/compose/foundation/lazy/LazyRow.composable"
+        },
+        {
+          "id": "mMKN4a8lqo38M0iL1Qwhy-res-3",
+          "type": "article",
+          "title": "Lists and grids",
+          "url": "https://developer.android.com/develop/ui/compose/lists"
+        },
+        {
+          "id": "mMKN4a8lqo38M0iL1Qwhy-res-4",
+          "type": "video",
+          "title": "Lazy layouts in Compose",
+          "url": "https://www.youtube.com/watch?v=1ANt65eoNhQ"
+        }
+      ]
+    },
+    "3i4g9ZWgLxKb2UMgRJi4Q": {
+      "id": "3i4g9ZWgLxKb2UMgRJi4Q",
+      "slug": "leak-canary",
+      "title": "Leak Canary",
+      "description": "LeakCanary is an open-source memory leak detection library for Android. It automatically monitors objects that should be garbage collected and reports leaks with a detailed analysis showing the reference chain causing the problem. LeakCanary is typically included only in debug builds.",
+      "resources": [
+        {
+          "id": "3i4g9ZWgLxKb2UMgRJi4Q-res-1",
+          "type": "article",
+          "title": "Leak Canary",
+          "url": "https://square.github.io/leakcanary/"
+        },
+        {
+          "id": "3i4g9ZWgLxKb2UMgRJi4Q-res-2",
+          "type": "article",
+          "title": "LeakCanary on GitHub",
+          "url": "https://github.com/square/leakcanary"
+        }
+      ]
+    },
+    "77F9F3oI5CPgwgM_hxWfa": {
+      "id": "77F9F3oI5CPgwgM_hxWfa",
+      "slug": "linting",
+      "title": "Linting",
+      "description": "`Linting` in Android is a tool that analyzes the source code of your application to identify potential errors, bugs, stylistic errors, and suspicious constructs. The term Linting came from a Unix utility that examined C language source code. In Android, it not only checks for potential Java issues but also for XML layout files and provides alerts for issues it encounters regarding usability, performance, and accessibility. For instance, it may scrutinize a draft of your AndroidManifest.xml file for potential duplication of elements or other anomalies that would cause the app to crash.",
+      "resources": [
+        {
+          "id": "77F9F3oI5CPgwgM_hxWfa-res-1",
+          "type": "article",
+          "title": "Linting",
+          "url": "https://developer.android.com/studio/write/lint"
+        }
+      ]
+    },
+    "TiokceMGU9caqiR0lbFYL": {
+      "id": "TiokceMGU9caqiR0lbFYL",
+      "slug": "livedata",
+      "title": "LiveData",
+      "description": "LiveData is a lifecycle-aware observable data holder from Android Jetpack. It delivers updates to UI observers only when they are in an active lifecycle state, preventing crashes from updates sent to stopped components. LiveData is commonly used to expose ViewModel state to the UI layer.",
+      "resources": [
+        {
+          "id": "TiokceMGU9caqiR0lbFYL-res-1",
+          "type": "article",
+          "title": "LiveData",
+          "url": "https://developer.android.com/topic/libraries/architecture/livedata"
+        }
+      ]
+    },
+    "w1A6wPKSd3Yh2luuHV-aE": {
+      "id": "w1A6wPKSd3Yh2luuHV-aE",
+      "slug": "mvc",
+      "title": "MVC",
+      "description": "MVC (Model-View-Controller) is an architectural pattern that divides an application into three components: the Model holds data and business logic, the View renders the UI, and the Controller handles user input. Android does not map cleanly to traditional MVC, as Activities and Fragments often act as both View and Controller simultaneously.",
+      "resources": [
+        {
+          "id": "w1A6wPKSd3Yh2luuHV-aE-res-1",
+          "type": "article",
+          "title": "MVC",
+          "url": "https://developer.mozilla.org/en-US/docs/Glossary/MVC"
+        },
+        {
+          "id": "w1A6wPKSd3Yh2luuHV-aE-res-2",
+          "type": "article",
+          "title": "Model View Controller",
+          "url": "https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller"
+        }
+      ]
+    },
+    "Bz-BkfzsDHAbAw3HD7WCd": {
+      "id": "Bz-BkfzsDHAbAw3HD7WCd",
+      "slug": "mvi",
+      "title": "MVI",
+      "description": "MVI (Model-View-Intent) is an architectural pattern where user actions are modeled as Intents that flow into the Model, which produces a new immutable State rendered by the View. It enforces strict unidirectional data flow and makes application state predictable and easy to test. MVI pairs well with Kotlin coroutines and Jetpack Compose.",
+      "resources": [
+        {
+          "id": "Bz-BkfzsDHAbAw3HD7WCd-res-1",
+          "type": "article",
+          "title": "MVI with Kotlin",
+          "url": "https://proandroiddev.com/mvi-architecture-with-kotlin-flows-and-channels-d36820b2028d"
+        }
+      ]
+    },
+    "aF_xFIqTjQbENtC7pkXvJ": {
+      "id": "aF_xFIqTjQbENtC7pkXvJ",
+      "slug": "mvp",
+      "title": "MVP",
+      "description": "MVP (Model-View-Presenter) is an architectural pattern where the Presenter acts as a mediator between the View and the Model. The View delegates user actions to the Presenter, which processes them and updates the View through an interface contract. MVP was widely used before MVVM and ViewModel became the recommended approach.",
+      "resources": [
+        {
+          "id": "aF_xFIqTjQbENtC7pkXvJ-res-1",
+          "type": "article",
+          "title": "Model View Presenter",
+          "url": "https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93presenter"
+        }
+      ]
+    },
+    "pSU-NZtjBh-u0WKTYfjk_": {
+      "id": "pSU-NZtjBh-u0WKTYfjk_",
+      "slug": "mvvm",
+      "title": "MVVM",
+      "description": "MVVM (Model-View-ViewModel) is an architectural pattern that separates the UI layer (View) from the business logic and state layer (ViewModel). The ViewModel exposes state and events, and the View observes and renders them reactively. Google recommends MVVM for Android apps and provides official support through ViewModel, LiveData, and StateFlow.",
+      "resources": [
+        {
+          "id": "pSU-NZtjBh-u0WKTYfjk_-res-1",
+          "type": "article",
+          "title": "Android Developers: View Model",
+          "url": "https://developer.android.com/topic/libraries/architecture/viewmodel"
+        },
+        {
+          "id": "pSU-NZtjBh-u0WKTYfjk_-res-2",
+          "type": "article",
+          "title": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel"
+        }
+      ]
+    },
+    "UAerxLQ1ZB6N6LS1IhfNk": {
+      "id": "UAerxLQ1ZB6N6LS1IhfNk",
+      "slug": "navhost",
+      "title": "NavHost",
+      "description": "A NavHost is a special Android UI component, typically a Fragment, within your app that serves as a central point for navigating between different destinations. It's like the container that displays different parts of your app's user interface as the user moves from one screen to another. The NavHost works together with a NavController to manage the navigation flow based on a navigation graph.",
+      "resources": [
+        {
+          "id": "UAerxLQ1ZB6N6LS1IhfNk-res-1",
+          "type": "article",
+          "title": "Navigation with Compose  |  Jetpack Compose  |  Android Developers",
+          "url": "https://developer.android.com/develop/ui/compose/navigation"
+        },
+        {
+          "id": "UAerxLQ1ZB6N6LS1IhfNk-res-2",
+          "type": "article",
+          "title": "Navigation in Jetpack Compose. | by Chase | Medium",
+          "url": "https://medium.com/@jpmtech/navigation-in-jetpack-compose-c9e1fcfd2cdd"
+        }
+      ]
+    },
+    "o5rzmnaQeiSh9ocvfJPpK": {
+      "id": "o5rzmnaQeiSh9ocvfJPpK",
+      "slug": "navigation-components",
+      "title": "Navigation Components",
+      "description": "The **Navigation Components** are part of Android Jetpack and are designed to simplify the implementation of navigation in your Android app. These components help you follow best practices, handle deep linking, and provide a consistent user experience across deep and conditional navigation. They also automate many common tasks, such as handling Up and Back actions correctly across many different types of devices. The Navigation component consists of three key parts which are Navigation graph, NavHost, and NavController.",
+      "resources": [
+        {
+          "id": "o5rzmnaQeiSh9ocvfJPpK-res-1",
+          "type": "article",
+          "title": "Navigation Components",
+          "url": "https://developer.android.com/guide/navigation"
+        }
+      ]
+    },
+    "Yb6aKJMMCxU1QVltWg3Dr": {
+      "id": "Yb6aKJMMCxU1QVltWg3Dr",
+      "slug": "network",
+      "title": "Network",
+      "description": "In Android, the `Network` component offers vital capabilities that enable communication and interaction among users, between users and remote servers, and between users and cloud services. Android provides a variety of APIs and services to interact with networks. The primary APIs are the `ConnectivityManager`, `WifiManager`, `TelephonyManager`, and `BluetoothManager` APIs, among others. ConnectivityManager, for example, can tell you about network connectivity changes.",
+      "resources": [
+        {
+          "id": "Yb6aKJMMCxU1QVltWg3Dr-res-1",
+          "type": "article",
+          "title": "Network",
+          "url": "https://developer.android.com/guide/topics/connectivity"
+        },
+        {
+          "id": "Yb6aKJMMCxU1QVltWg3Dr-res-2",
+          "type": "article",
+          "title": "ConnectivityManager",
+          "url": "https://developer.android.com/reference/android/net/ConnectivityManager"
+        },
+        {
+          "id": "Yb6aKJMMCxU1QVltWg3Dr-res-3",
+          "type": "article",
+          "title": "WifiManager",
+          "url": "https://developer.android.com/reference/android/net/wifi/WifiManager"
+        }
+      ]
+    },
+    "N_auRfGKkeIIc-qiHLkR_": {
+      "id": "N_auRfGKkeIIc-qiHLkR_",
+      "slug": "observer-pattern",
+      "title": "Observer Pattern",
+      "description": "The Observer pattern defines a one-to-many dependency where multiple observers are notified automatically when a subject changes state. In Android, this pattern is the foundation of reactive data streams implemented through LiveData, Kotlin Flow, RxJava, and RxKotlin.",
+      "resources": [
+        {
+          "id": "N_auRfGKkeIIc-qiHLkR_-res-1",
+          "type": "article",
+          "title": "Observer Pattern",
+          "url": "https://en.wikipedia.org/wiki/Observer_pattern"
+        },
+        {
+          "id": "N_auRfGKkeIIc-qiHLkR_-res-2",
+          "type": "article",
+          "title": "Observer Pattern",
+          "url": "https://refactoring.guru/design-patterns/observer"
+        }
+      ]
+    },
+    "5pVuwOItAhUxxJX8ysAsn": {
+      "id": "5pVuwOItAhUxxJX8ysAsn",
+      "slug": "okhttp",
+      "title": "OkHttp",
+      "description": "`OkHttp` is an HTTP client that's extremely efficient, enabling several advanced features in Android app or other platforms that use Java. Developed by Square, it's built for high efficiency and capacity, simplifying many networking tasks, including connection pooling, response caching, and request retries. OkHttp allows seamless recovery from network issues, minimizing the loss of data. The library ensures fewer errors and higher quality of service by using the modern TLS encryption, extensible request and response models, and a fluent API for ease of use and integration.",
+      "resources": [
+        {
+          "id": "5pVuwOItAhUxxJX8ysAsn-res-1",
+          "type": "article",
+          "title": "OkHttp",
+          "url": "https://square.github.io/okhttp/"
+        },
+        {
+          "id": "5pVuwOItAhUxxJX8ysAsn-res-2",
+          "type": "article",
+          "title": "OkHttp on GitHub",
+          "url": "https://github.com/square/okhttp"
+        }
+      ]
+    },
+    "Suws-7f_6Z1ChpfcnxX2M": {
+      "id": "Suws-7f_6Z1ChpfcnxX2M",
+      "slug": "pick-a-language",
+      "title": "Pick a Language",
+      "description": "Android development primarily uses Kotlin and Java. Kotlin is Google's officially preferred language since 2019, but Java remains fully supported and is still present in many existing codebases and libraries.",
+      "resources": [
+        {
+          "id": "Suws-7f_6Z1ChpfcnxX2M-res-1",
+          "type": "article",
+          "title": "Pick a Language",
+          "url": "https://developer.android.com/studio/write/java8-support"
+        },
+        {
+          "id": "Suws-7f_6Z1ChpfcnxX2M-res-2",
+          "type": "article",
+          "title": "Kotlin vs Java",
+          "url": "https://developer.android.com/kotlin"
+        }
+      ]
+    },
+    "xIvplWfe-uDr9iHjPT1Mx": {
+      "id": "xIvplWfe-uDr9iHjPT1Mx",
+      "slug": "recycleview",
+      "title": "RecyclerView",
+      "description": "RecyclerView is a flexible and efficient view for displaying large sets of data in a scrollable list. It provides a mechanism for reusing view holders, which reduces memory consumption and improves performance when dealing with dynamic content. Unlike its predecessor, ListView, RecyclerView enforces the use of a ViewHolder pattern for optimizing view creation and binding. This results in smoother scrolling and a better user experience, especially when handling complex layouts or large datasets.",
+      "resources": [
+        {
+          "id": "xIvplWfe-uDr9iHjPT1Mx-res-1",
+          "type": "article",
+          "title": "RecyclerView Reference (Android Docs)",
+          "url": "https://developer.android.com/reference/androidx/recyclerview/widget/RecyclerView"
+        },
+        {
+          "id": "xIvplWfe-uDr9iHjPT1Mx-res-2",
+          "type": "article",
+          "title": "Create Dynamic Lists with RecyclerView (Android Docs)",
+          "url": "https://developer.android.com/develop/ui/views/layout/recyclerview"
+        }
+      ]
+    },
+    "8axL6Fa5fm1xWPP07MUbD": {
+      "id": "8axL6Fa5fm1xWPP07MUbD",
+      "slug": "remember--state",
+      "title": "remember / State",
+      "description": "remember is a Compose function that retains a value across recompositions within a composable. Combined with mutableStateOf, it creates a state holder that triggers recomposition when its value changes. Local state managed with remember is suitable for UI-only state that does not need to survive configuration changes.",
+      "resources": [
+        {
+          "id": "8axL6Fa5fm1xWPP07MUbD-res-1",
+          "type": "article",
+          "title": "State and Jetpack Compose",
+          "url": "https://developer.android.com/develop/ui/compose/state"
+        },
+        {
+          "id": "8axL6Fa5fm1xWPP07MUbD-res-2",
+          "type": "article",
+          "title": "Understanding remember in Jetpack Compose: A Deep Dive from First Principles",
+          "url": "https://medium.com/@sandeepkella23/understanding-remember-in-jetpack-compose-a-deep-dive-from-first-principles-2587b2098323"
+        }
+      ]
+    },
+    "1Tz-Shj_Tuz2U8llEAcLr": {
+      "id": "1Tz-Shj_Tuz2U8llEAcLr",
+      "slug": "remote-config",
+      "title": "Remote Config",
+      "description": "Firebase Remote Config allows developers to change the behavior and appearance of an Android app without publishing an app update. Configuration values are stored in the cloud and fetched at runtime. It is commonly used for A/B testing, feature flags, and gradual feature rollouts.",
+      "resources": [
+        {
+          "id": "1Tz-Shj_Tuz2U8llEAcLr-res-1",
+          "type": "article",
+          "title": "Remote Config",
+          "url": "https://firebase.google.com/docs/remote-config/get-started?platform=android"
+        },
+        {
+          "id": "1Tz-Shj_Tuz2U8llEAcLr-res-2",
+          "type": "video",
+          "title": "Getting Started with Remote Config",
+          "url": "https://www.youtube.com/watch?v=pcnnbjAAIkI"
+        }
+      ]
+    },
+    "ZF5XgO7I_J9928bD3CVXo": {
+      "id": "ZF5XgO7I_J9928bD3CVXo",
+      "slug": "repository-pattern",
+      "title": "Repository Pattern",
+      "description": "The `Repository Pattern` separates the data sources from the rest of the application. It acts as a mediator between different data sources, such as persistent models, web services, or caches. Instead of having the network and database calls spread out throughout your ViewModel, they are encapsulated within a Repository class. This separation will make the code clean, easy to read and testable. It provides a simple API for data access, the rest of the app doesn't need to know where the data is coming from it just asks the repository.",
+      "resources": [
+        {
+          "id": "ZF5XgO7I_J9928bD3CVXo-res-1",
+          "type": "article",
+          "title": "Repository Pattern",
+          "url": "https://en.wikipedia.org/wiki/Repository_pattern"
+        }
+      ]
+    },
+    "dDMRYiqrKyOBnRRQc8zsp": {
+      "id": "dDMRYiqrKyOBnRRQc8zsp",
+      "slug": "retro",
+      "title": "Retrofit",
+      "description": "Retrofit is a type-safe HTTP client for Android. It's designed to connect your application with an API or a back-end web service. Retrofit uses annotations to encode details about the API's operations and requests, such as the HTTP method (`GET`, `POST`, `PUT`, `DELETE`, `HEAD`) and the query parameters. The main advantage of **Retrofit** over other similar libraries is in its simplicity and intuitiveness, and it efficiently handles all network calls.",
+      "resources": [
+        {
+          "id": "dDMRYiqrKyOBnRRQc8zsp-res-1",
+          "type": "article",
+          "title": "Retrofit Documentation",
+          "url": "https://square.github.io/retrofit/"
+        },
+        {
+          "id": "dDMRYiqrKyOBnRRQc8zsp-res-2",
+          "type": "video",
+          "title": "Retrofit in Android Studio",
+          "url": "https://www.youtube.com/watch?v=KJSBsRKqNwU"
+        }
+      ]
+    },
+    "Bfg4So5RlI09zFNcburJd": {
+      "id": "Bfg4So5RlI09zFNcburJd",
+      "slug": "room-database",
+      "title": "Room Database",
+      "description": "Room is an Android Jetpack library that provides an abstraction layer over SQLite. It uses annotations to define database entities, Data Access Objects (DAOs), and queries, and it verifies SQL at compile time. Room integrates with coroutines and Flow for reactive, asynchronous database access.",
+      "resources": [
+        {
+          "id": "Bfg4So5RlI09zFNcburJd-res-1",
+          "type": "article",
+          "title": "Room Database",
+          "url": "https://developer.android.com/training/data-storage/room"
+        },
+        {
+          "id": "Bfg4So5RlI09zFNcburJd-res-2",
+          "type": "video",
+          "title": "The Full Beginner's Guide for Room in Android",
+          "url": "https://www.youtube.com/watch?v=bOd3wO0uFr8&t=10s"
+        }
+      ]
+    },
+    "xk0vnWr7uESdzYRxwFjoK": {
+      "id": "xk0vnWr7uESdzYRxwFjoK",
+      "slug": "rxjava",
+      "title": "RxJava",
+      "description": "RxJava, standing for Reactive Extensions for the JVM, is a library in the Java and Android ecosystem that allows developers to write asynchronous, event-based programs. It is developed according to reactive programming principles and it supports multi-threading operations. One can create data streams from just about anything - variables, data structures, inputs, etc. and these streams could be used with functional programming methods to process the data.",
+      "resources": [
+        {
+          "id": "xk0vnWr7uESdzYRxwFjoK-res-1",
+          "type": "article",
+          "title": "RxJava on GitHub",
+          "url": "https://github.com/ReactiveX/RxJava"
+        }
+      ]
+    },
+    "zXsNEyRbb8UpEOAUv6FpY": {
+      "id": "zXsNEyRbb8UpEOAUv6FpY",
+      "slug": "rxjava",
+      "title": "RxJava",
+      "description": "RxJava (Reactive Extensions for the JVM) is a powerful library for composing asynchronous and event-based programs using observable sequences in Java. If you are an Android developer, you might be familiar with callbacks and async tasks to perform long-running operations in the background. However, handling multiple async tasks and nested callbacks can produce code that's complicated to read and maintain. To alleviate such complexities, RxJava provides tools and methods to create, transform and chain Observable sequences in a clean and declarative manner.",
+      "resources": [
+        {
+          "id": "zXsNEyRbb8UpEOAUv6FpY-res-1",
+          "type": "article",
+          "title": "RxJava on GitHub",
+          "url": "https://github.com/ReactiveX/RxJava"
+        }
+      ]
+    },
+    "4h37WBpYxRRyw9oH8ge7o": {
+      "id": "4h37WBpYxRRyw9oH8ge7o",
+      "slug": "rxkotlin",
+      "title": "RxKotlin",
+      "description": "RxKotlin is a lightweight Kotlin extension library for RxJava. It adds idiomatic Kotlin extension functions and DSL-style utilities for working with RxJava observables. Developers use RxKotlin to write more natural Kotlin code when building reactive streams in Android.",
+      "resources": [
+        {
+          "id": "4h37WBpYxRRyw9oH8ge7o-res-1",
+          "type": "article",
+          "title": "ReactiveX/RxKotlin - RxKotlin on GitHub",
+          "url": "https://github.com/ReactiveX/RxKotlin"
+        }
+      ]
+    },
+    "7rbsp1o5bzIJP11BRIoeG": {
+      "id": "7rbsp1o5bzIJP11BRIoeG",
+      "slug": "rxkotlin",
+      "title": "RxKotlin",
+      "description": "`RxKotlin` is a lightweight library that adds convenient extension functions to `RxJava`. It allows developers to use RxJava with Kotlin in a more idiomatic way, thus making code more readable and understandable. While `RxJava` is a Java-based implementation of Reactive Extensions, `RxKotlin` is essentially a wrapper that includes extension functions and other constructs to take full advantage of Kotlin's features, such as its syntactic simplicity and ease of use.",
+      "resources": [
+        {
+          "id": "7rbsp1o5bzIJP11BRIoeG-res-1",
+          "type": "article",
+          "title": "RxKotlin",
+          "url": "https://github.com/ReactiveX/RxKotlin"
+        }
+      ]
+    },
+    "U8iMGGOd2EgPxSuwSG39Z": {
+      "id": "U8iMGGOd2EgPxSuwSG39Z",
+      "slug": "scaffold",
+      "title": "Scaffold",
+      "description": "Scaffold, in simple terms, is a structure that provides a foundation for building a user interface. It typically includes common screen elements like an app bar (top bar), a body (the main content area), and optionally, a bottom navigation bar or a drawer. Think of it as a pre-designed template that takes care of basic screen organization, letting you focus on the specific content and functionality of your app.",
+      "resources": [
+        {
+          "id": "U8iMGGOd2EgPxSuwSG39Z-res-1",
+          "type": "article",
+          "title": "Scaffold",
+          "url": "https://developer.android.com/develop/ui/compose/components/scaffold"
+        },
+        {
+          "id": "U8iMGGOd2EgPxSuwSG39Z-res-2",
+          "type": "article",
+          "title": "Create a scaffold component to hold the UI together",
+          "url": "https://developer.android.com/develop/ui/compose/quick-guides/content/create-scaffold"
+        },
+        {
+          "id": "U8iMGGOd2EgPxSuwSG39Z-res-3",
+          "type": "article",
+          "title": "Understanding Scaffold in Jetpack Compose: A Comprehensive Guide",
+          "url": "https://medium.com/@ramadan123sayed/understanding-scaffold-in-jetpack-compose-a-comprehensive-guide-e248c2406412"
+        }
+      ]
+    },
+    "j5qmSMOdhpGZo1XOUVx1k": {
+      "id": "j5qmSMOdhpGZo1XOUVx1k",
+      "slug": "security",
+      "title": "Android Security",
+      "description": "Android security encompasses the strategies and techniques used to protect Android devices and the data they contain from unauthorized access, use, disclosure, disruption, modification, or destruction. It involves various layers of protection, including hardware security features, the Android operating system's security architecture, and application-level security measures, all working together to safeguard user data and device integrity.",
+      "resources": [
+        {
+          "id": "j5qmSMOdhpGZo1XOUVx1k-res-1",
+          "type": "article",
+          "title": "Security checklist",
+          "url": "https://developer.android.com/privacy-and-security/security-tips"
+        },
+        {
+          "id": "j5qmSMOdhpGZo1XOUVx1k-res-2",
+          "type": "article",
+          "title": "Improve your app's security",
+          "url": "https://developer.android.com/privacy-and-security/security-best-practices"
+        },
+        {
+          "id": "j5qmSMOdhpGZo1XOUVx1k-res-3",
+          "type": "article",
+          "title": "Cryptography",
+          "url": "https://developer.android.com/privacy-and-security/cryptography"
+        },
+        {
+          "id": "j5qmSMOdhpGZo1XOUVx1k-res-4",
+          "type": "article",
+          "title": "Android Keystore system",
+          "url": "https://developer.android.com/privacy-and-security/keystore"
+        }
+      ]
+    },
+    "PcHmU1c9hqKyzSjwlRPHk": {
+      "id": "PcHmU1c9hqKyzSjwlRPHk",
+      "slug": "services",
+      "title": "Services",
+      "description": "A Service is an app component that performs long-running operations in the background without a user interface. Services handle tasks like playing music, downloading files, or processing data while the user interacts with other apps. Android provides foreground services, background services, and bound services depending on the use case.",
+      "resources": [
+        {
+          "id": "PcHmU1c9hqKyzSjwlRPHk-res-1",
+          "type": "article",
+          "title": "Services",
+          "url": "https://developer.android.com/guide/components/services"
+        }
+      ]
+    },
+    "PKql1HY0PLMfp50FRELXL": {
+      "id": "PKql1HY0PLMfp50FRELXL",
+      "slug": "shared-preferences",
+      "title": "Shared Preferences",
+      "description": "Shared Preferences in Android are used to store data in key-value pairs. It works similar to a tiny database where you can save small pieces of data such as settings or the state of an application. When data is saved to Shared Preferences, it persists across user sessions, even if your application is killed or gets deleted. Data in Shared Preferences is not typically used for large amounts of data. To perform actions such as saving, retrieving, or editing data in Shared Preferences, you use an instance of `SharedPreferences.Editor`.",
+      "resources": [
+        {
+          "id": "PKql1HY0PLMfp50FRELXL-res-1",
+          "type": "article",
+          "title": "Shared Preferences Documentation",
+          "url": "https://developer.android.com/training/data-storage/shared-preferences"
+        },
+        {
+          "id": "PKql1HY0PLMfp50FRELXL-res-2",
+          "type": "video",
+          "title": "SharedPreferences in Android",
+          "url": "https://www.youtube.com/watch?v=rJ3uwqko9Ew"
+        }
+      ]
+    },
+    "XTMhA-rYiXP7aVFk2nDLY": {
+      "id": "XTMhA-rYiXP7aVFk2nDLY",
+      "slug": "side-effects",
+      "title": "Side Effects",
+      "description": "In Jetpack Compose, side effects are actions that occur outside the composable function itself, such as updating a database, making a network request, or using shared mutable state. Compose recomposes when its inputs change and to avoid unpredictable behaviour, any code that interacts with the outside world needs to be carefully controlled, so Side Effects is a way for doing it in a predictable and testable manner. They should be isolated and handled in a controlled way to maintain the predictability and reliability of your UI.",
+      "resources": [
+        {
+          "id": "XTMhA-rYiXP7aVFk2nDLY-res-1",
+          "type": "article",
+          "title": "Side-effects in Compose  |  Jetpack Compose  |  Android Developers",
+          "url": "https://developer.android.com/develop/ui/compose/side-effects"
+        },
+        {
+          "id": "XTMhA-rYiXP7aVFk2nDLY-res-2",
+          "type": "article",
+          "title": "Complete Guide to Side Effects in Jetpack Compose",
+          "url": "https://proandroiddev.com/complete-guide-to-side-effects-in-jetpack-compose-5be32b09514a"
+        }
+      ]
+    },
+    "_FSlD_qTz5Xo0x3pB6sZI": {
+      "id": "_FSlD_qTz5Xo0x3pB6sZI",
+      "slug": "signed-apk",
+      "title": "Signed APK",
+      "description": "A signed APK is an Android application package that has been digitally signed with a developer's certificate. Signing is required before an app can be published to the Google Play Store. The signing process verifies the app's authorship and ensures that future updates come from the same developer.",
+      "resources": [
+        {
+          "id": "_FSlD_qTz5Xo0x3pB6sZI-res-1",
+          "type": "article",
+          "title": "Signing Your App",
+          "url": "https://developer.android.com/studio/publish/app-signing"
+        }
+      ]
+    },
+    "oUjetA2eduvQIeLcQlLcu": {
+      "id": "oUjetA2eduvQIeLcQlLcu",
+      "slug": "state-changes",
+      "title": "State Changes",
+      "description": "State changes occur when an Activity transitions between lifecycle states due to user actions or system events. Common triggers include pressing the Home button, rotating the device, or receiving a phone call. Android developers must save and restore UI state during these transitions to prevent data loss.",
+      "resources": [
+        {
+          "id": "oUjetA2eduvQIeLcQlLcu-res-1",
+          "type": "article",
+          "title": "Activity Lifecycle",
+          "url": "https://developer.android.com/guide/components/activities/activity-lifecycle"
+        }
+      ]
+    },
+    "0fNQWRxst8xRstIfPaPO6": {
+      "id": "0fNQWRxst8xRstIfPaPO6",
+      "slug": "storage",
+      "title": "Storage",
+      "description": "On Android devices, storage refers to where your data such as apps, photos, videos, and music are saved. It can be categorized into two types: internal and external storage. Internal Storage is where data is stored that's tied directly to your app. This data is private by default and not accessible by other apps. External Storage, on the other hand, is a shared space where all apps can read and write data. It can be further sub-categorized into Public and Private directories. Public directories are shared among all apps while private directories are specific to your app but can be accessed by other apps if they have the appropriate permissions.",
+      "resources": [
+        {
+          "id": "0fNQWRxst8xRstIfPaPO6-res-1",
+          "type": "article",
+          "title": "Storage",
+          "url": "https://developer.android.com/guide/topics/data/data-storage"
+        }
+      ]
+    },
+    "amTxz7mS98lkhOrNMJXG_": {
+      "id": "amTxz7mS98lkhOrNMJXG_",
+      "slug": "tabrow",
+      "title": "Drawer",
+      "description": "The **Navigation Drawer** in Android is a sliding menu from the left that simplifies navigation between important app links. It opens by sliding or via an icon in the `ActionBar`. It’s an overlay panel that replaces a screen dedicated to displaying options.",
+      "resources": [
+        {
+          "id": "amTxz7mS98lkhOrNMJXG_-res-1",
+          "type": "article",
+          "title": "Android developers: DrawerLayout",
+          "url": "https://developer.android.com/reference/androidx/drawerlayout/widget/DrawerLayout"
+        },
+        {
+          "id": "amTxz7mS98lkhOrNMJXG_-res-2",
+          "type": "article",
+          "title": "Navigate Drawer Tutorial",
+          "url": "https://www.digitalocean.com/community/tutorials/android-navigation-drawer-example-tutorial"
+        }
+      ]
+    },
+    "-O-G9bg36ut8NnZcdOaop": {
+      "id": "-O-G9bg36ut8NnZcdOaop",
+      "slug": "tasks--backstack",
+      "title": "Tasks & Backstack",
+      "description": "A task is a collection of activities that the user interacts with to accomplish a goal, and the back stack keeps track of the order in which those activities were opened. When the user presses Back, activities are popped off the stack in reverse order. Understanding task and back stack behavior is important for building predictable navigation flows.",
+      "resources": [
+        {
+          "id": "-O-G9bg36ut8NnZcdOaop-res-1",
+          "type": "article",
+          "title": "Tasks and Backstack",
+          "url": "https://developer.android.com/guide/components/activities/tasks-and-back-stack"
+        }
+      ]
+    },
+    "ZOQm5OlzCA-h_yxywwDrW": {
+      "id": "ZOQm5OlzCA-h_yxywwDrW",
+      "slug": "testing",
+      "title": "Testing",
+      "description": "Testing in Android ensures that app code behaves correctly and that UI interactions work as expected. JUnit is used for unit testing business logic, while Espresso handles UI testing by simulating user interactions on a device or emulator.",
+      "resources": [
+        {
+          "id": "ZOQm5OlzCA-h_yxywwDrW-res-1",
+          "type": "article",
+          "title": "Testing",
+          "url": "https://developer.android.com/training/testing"
+        }
+      ]
+    },
+    "BVgO9n7tGlVdiS72-hFSd": {
+      "id": "BVgO9n7tGlVdiS72-hFSd",
+      "slug": "text",
+      "title": "Text in Android Development",
+      "description": "Text in Android refers to the display and manipulation of textual information within an application. It involves using UI elements like TextViews and EditTexts to show static text, collect user input, or dynamically update the content displayed on the screen. Developers can customize the appearance of text using attributes such as font, size, color, and style, and also handle user interactions with text through event listeners.",
+      "resources": [
+        {
+          "id": "BVgO9n7tGlVdiS72-hFSd-res-1",
+          "type": "article",
+          "title": "Text",
+          "url": "https://developer.android.com/reference/kotlin/androidx/compose/material/Text.composable#Text(androidx.compose.ui.text.AnnotatedString,androidx.compose.ui.Modifier,androidx.compose.ui.graphics.Color,androidx.compose.ui.unit.TextUnit,androidx.compose.ui.text.font.FontStyle,androidx.compose.ui.text.font.FontWeight,androidx.compose.ui.text.font.FontFamily,androidx.compose.ui.unit.TextUnit,androidx.compose.ui.text.style.TextDecoration,androidx.compose.ui.text.style.TextAlign,androidx.compose.ui.unit.TextUnit,androidx.compose.ui.text.style.TextOverflow,kotlin.Boolean,kotlin.Int,kotlin.Int,kotlin.collections.Map,kotlin.Function1,androidx.compose.ui.text.TextStyle"
+        },
+        {
+          "id": "BVgO9n7tGlVdiS72-hFSd-res-2",
+          "type": "article",
+          "title": "Text in Compose",
+          "url": "https://developer.android.com/develop/ui/compose/text"
+        },
+        {
+          "id": "BVgO9n7tGlVdiS72-hFSd-res-3",
+          "type": "article",
+          "title": "Mastering Text in Jetpack Compose: A Comprehensive Guide | by Ramadan Sayed | Medium",
+          "url": "https://medium.com/@ramadan123sayed/mastering-text-in-jetpack-compose-a-comprehensive-guide-5d3fb9ab5bcf"
+        }
+      ]
+    },
+    "boMz0HZlMAsLdCZlpUo-H": {
+      "id": "boMz0HZlMAsLdCZlpUo-H",
+      "slug": "textfield",
+      "title": "TextField",
+      "description": "A TextField allows users to input and edit text on the screen. It provides a visual component, such as a box or line, where users can type in characters, typically using an on-screen keyboard or physical keyboard. TextFields are fundamental for collecting user input in forms, search bars, messaging apps, and various other interactive elements.",
+      "resources": [
+        {
+          "id": "boMz0HZlMAsLdCZlpUo-H-res-1",
+          "type": "article",
+          "title": "TextField",
+          "url": "https://developer.android.com/reference/kotlin/androidx/compose/material3/TextField.composable#TextField(androidx.compose.foundation.text.input.TextFieldState,androidx.compose.ui.Modifier,kotlin.Boolean,kotlin.Boolean,androidx.compose.ui.text.TextStyle,androidx.compose.material3.TextFieldLabelPosition,kotlin.Function1,kotlin.Function0,kotlin.Function0,kotlin.Function0,kotlin.Function0,kotlin.Function0,kotlin.Function0,kotlin.Boolean,androidx.compose.foundation.text.input.InputTransformation,androidx.compose.foundation.text.input.OutputTransformation,androidx.compose.foundation.text.KeyboardOptions,androidx.compose.foundation.text.input.KeyboardActionHandler,androidx.compose.foundation.text.input.TextFieldLineLimits,kotlin.Function2,androidx.compose.foundation.ScrollState,androidx.compose.ui.graphics.Shape,androidx.compose.material3.TextFieldColors,androidx.compose.foundation.layout.PaddingValues,androidx.compose.foundation.interaction.MutableInteractionSource"
+        },
+        {
+          "id": "boMz0HZlMAsLdCZlpUo-H-res-2",
+          "type": "article",
+          "title": "Configure text fields  |  Jetpack Compose  |  Android Developers",
+          "url": "https://developer.android.com/develop/ui/compose/text/user-input?textfield=state-based"
+        },
+        {
+          "id": "boMz0HZlMAsLdCZlpUo-H-res-3",
+          "type": "article",
+          "title": "Comprehensive Guide to TextFields in Jetpack Compose",
+          "url": "https://medium.com/@ramadan123sayed/comprehensive-guide-to-textfields-in-jetpack-compose-f009c4868c54"
+        }
+      ]
+    },
+    "znvZp24L-PcQwkSObtixs": {
+      "id": "znvZp24L-PcQwkSObtixs",
+      "slug": "textview",
+      "title": "TextView",
+      "description": "TextView displays text to the user. It's a fundamental UI element in Android used to show static or dynamically updated content. You can customize the appearance of the text, including font, color, size, and style. TextView also supports features like handling clicks and displaying formatted text using spans.",
+      "resources": [
+        {
+          "id": "znvZp24L-PcQwkSObtixs-res-1",
+          "type": "article",
+          "title": "TextView",
+          "url": "https://developer.android.com/reference/android/widget/TextView"
+        }
+      ]
+    },
+    "HlUUGj3dOZ68t4gIjerXh": {
+      "id": "HlUUGj3dOZ68t4gIjerXh",
+      "slug": "the-fundamentals",
+      "title": "The Fundamentals",
+      "description": "The fundamentals cover the core programming and tooling concepts needed before building Android apps. This includes understanding Kotlin or Java basics, object-oriented programming principles, data structures and algorithms, Gradle as the build system, and how to set up a working development environment.",
+      "resources": [
+        {
+          "id": "HlUUGj3dOZ68t4gIjerXh-res-1",
+          "type": "article",
+          "title": "The Fundamentals",
+          "url": "https://developer.android.com/guide/components/fundamentals"
+        }
+      ]
+    },
+    "BeGrA5BDBMZP1Jy7n-wl-": {
+      "id": "BeGrA5BDBMZP1Jy7n-wl-",
+      "slug": "threads",
+      "title": "Threads",
+      "description": "Threads are the basic unit of concurrency in the JVM. Android runs UI operations on the main thread and requires network, database, and other slow operations to run on background threads. Developers use Thread, Handler, Executors, or HandlerThread to manage background work at the thread level.",
+      "resources": [
+        {
+          "id": "BeGrA5BDBMZP1Jy7n-wl--res-1",
+          "type": "article",
+          "title": "Threads",
+          "url": "https://developer.android.com/guide/components/processes-and-threads"
+        }
+      ]
+    },
+    "VFOD4JrV8kZ2583G3oT95": {
+      "id": "VFOD4JrV8kZ2583G3oT95",
+      "slug": "timber",
+      "title": "Timber",
+      "description": "Timber is a logging utility library for Android built on top of the standard android.util.Log API. It provides a cleaner logging interface, automatically includes class names in log tags, and makes it easy to control logging behavior per build variant. In release builds, logging can be suppressed or redirected to a crash reporting service.",
+      "resources": [
+        {
+          "id": "VFOD4JrV8kZ2583G3oT95-res-1",
+          "type": "article",
+          "title": "Timber on GitHub",
+          "url": "https://github.com/JakeWharton/timber"
+        }
+      ]
+    },
+    "5s1CqsYCOXjNroDHaGKGa": {
+      "id": "5s1CqsYCOXjNroDHaGKGa",
+      "slug": "version-control",
+      "title": "Version Control",
+      "description": "Version control systems track changes to code over time and enable collaboration among developers. In Android development, Git is the standard version control tool, and platforms like GitHub, GitLab, and Bitbucket are used to host and manage repositories.",
+      "resources": [
+        {
+          "id": "5s1CqsYCOXjNroDHaGKGa-res-1",
+          "type": "course",
+          "title": "What is Git? (Interactive Lesson)",
+          "url": "https://inter-git.com/lessons/introduction"
+        },
+        {
+          "id": "5s1CqsYCOXjNroDHaGKGa-res-2",
+          "type": "article",
+          "title": "Version Control Systems",
+          "url": "https://en.wikipedia.org/wiki/Version_control"
+        },
+        {
+          "id": "5s1CqsYCOXjNroDHaGKGa-res-3",
+          "type": "video",
+          "title": "What is Git? Explained in 2 minutes",
+          "url": "https://www.youtube.com/watch?v=2ReR1YJrNOM"
+        }
+      ]
+    },
+    "lEdmnJhs-WN-A6glX2DeA": {
+      "id": "lEdmnJhs-WN-A6glX2DeA",
+      "slug": "viewmodel-state",
+      "title": "ViewModel State",
+      "description": "ViewModel state refers to the data held within a ViewModel class that persists across configuration changes, such as screen rotations. It allows your UI data to survive these changes, preventing the need to re-fetch or re-create it every time the activity or fragment is recreated. This data is typically observed by the UI, which updates itself automatically whenever the state changes, ensuring a consistent user experience.",
+      "resources": [
+        {
+          "id": "lEdmnJhs-WN-A6glX2DeA-res-1",
+          "type": "article",
+          "title": "ViewModel and State in Compose",
+          "url": "https://developer.android.com/codelabs/basic-android-kotlin-compose-viewmodel-and-state#0"
+        },
+        {
+          "id": "lEdmnJhs-WN-A6glX2DeA-res-2",
+          "type": "article",
+          "title": "Compose State vs ViewModel: Complete Android Developer Guide 2025",
+          "url": "https://www.brahimoubbad.com/2025/05/compose-state-vs-viewmodel-complete.html"
+        }
+      ]
+    },
+    "FVxNjbDBxgf6vkZWw1Awt": {
+      "id": "FVxNjbDBxgf6vkZWw1Awt",
+      "slug": "what-is-and-how-to-use-gradle",
+      "title": "What is and how to use Gradle?",
+      "description": "Gradle is the build system used in Android projects to compile code, manage dependencies, and package applications. It uses Groovy or Kotlin DSL scripts to define project configuration. Android Studio generates Gradle files automatically, but understanding how to modify them is needed for adding libraries, setting build variants, and configuring app signing.",
+      "resources": [
+        {
+          "id": "FVxNjbDBxgf6vkZWw1Awt-res-1",
+          "type": "article",
+          "title": "Gradle Build Tool",
+          "url": "https://docs.gradle.org/current/userguide/userguide.html"
+        },
+        {
+          "id": "FVxNjbDBxgf6vkZWw1Awt-res-2",
+          "type": "article",
+          "title": "Gradle Documentation",
+          "url": "https://docs.gradle.org/current/userguide/getting_started_eng.html"
+        },
+        {
+          "id": "FVxNjbDBxgf6vkZWw1Awt-res-3",
+          "type": "video",
+          "title": "Gradle Course for Beginners - 55minutes",
+          "url": "https://www.youtube.com/watch?v=R6Z-Sxb837I"
+        },
+        {
+          "id": "FVxNjbDBxgf6vkZWw1Awt-res-4",
+          "type": "video",
+          "title": "Introduction to Gradle for Complete Beginners - 25minutes",
+          "url": "https://youtu.be/-dtcEMLNmn0?si=NuIP-3wNpUrxfTxA"
+        }
+      ]
+    },
+    "OAb_JD64uGm2tPoue7w6t": {
+      "id": "OAb_JD64uGm2tPoue7w6t",
+      "slug": "workmanager",
+      "title": "WorkManager",
+      "description": "WorkManager is a Jetpack library for scheduling deferrable, guaranteed background work. It supports constraints like requiring network connectivity or charging, survives app restarts and device reboots, and allows chaining multiple tasks together. WorkManager is the recommended solution for background work that must run reliably regardless of app lifecycle.",
+      "resources": [
+        {
+          "id": "OAb_JD64uGm2tPoue7w6t-res-1",
+          "type": "article",
+          "title": "WorkManager",
+          "url": "https://developer.android.com/topic/libraries/architecture/workmanager"
+        }
+      ]
+    }
+  }
+}

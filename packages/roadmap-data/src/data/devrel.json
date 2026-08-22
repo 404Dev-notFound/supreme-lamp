@@ -1,0 +1,4138 @@
+{
+  "slug": "devrel",
+  "title": "Devrel",
+  "description": "Comprehensive learning curriculum and mastery roadmap for devrel.",
+  "category": "skill",
+  "level": "Intermediate",
+  "topicCount": 142,
+  "iconName": "Compass",
+  "nodes": [
+    {
+      "id": "node-UdUDngq425NYSvIuOd7St",
+      "label": "Active Listening",
+      "topicId": "UdUDngq425NYSvIuOd7St",
+      "level": 1,
+      "position": {
+        "x": 80,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-7MCmY1bABGPfmzjErADvg",
+      "label": "Advocacy",
+      "topicId": "7MCmY1bABGPfmzjErADvg",
+      "level": 1,
+      "position": {
+        "x": 340,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-lG1FH7Q-YX5pG-7mMtbSR",
+      "label": "Analytics and Optimization",
+      "topicId": "lG1FH7Q-YX5pG-7mMtbSR",
+      "level": 1,
+      "position": {
+        "x": 600,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-D7_iNPEKxFv0gw-fsNNrZ",
+      "label": "Animations & Graphics",
+      "topicId": "D7_iNPEKxFv0gw-fsNNrZ",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-OUWVqJImrmsZpAtRrUYNH",
+      "label": "Animations & Graphics",
+      "topicId": "OUWVqJImrmsZpAtRrUYNH",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-jyScVS-sYMcZcH3hOwbMK",
+      "label": "Anticipate Questions",
+      "topicId": "jyScVS-sYMcZcH3hOwbMK",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-7IJO_jDpZUdlr_n5rBJ6O",
+      "label": "API References",
+      "topicId": "7IJO_jDpZUdlr_n5rBJ6O",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-sUEZHmKxtjO9gXKJoOdbF",
+      "label": "APIs & SDKs",
+      "topicId": "sUEZHmKxtjO9gXKJoOdbF",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-7y4vHk_jgNTW6Q1WoqYDc",
+      "label": "Audio",
+      "topicId": "7y4vHk_jgNTW6Q1WoqYDc",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-aSYXa25_0O2qQl1O-N3xl",
+      "label": "Basic Programming Skills",
+      "topicId": "aSYXa25_0O2qQl1O-N3xl",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-rhs6QwxZ7PZthLfi38FJn",
+      "label": "Be Concise",
+      "topicId": "rhs6QwxZ7PZthLfi38FJn",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-c0w241EL0Kh4ek76IgsEs",
+      "label": "Blog Posts",
+      "topicId": "c0w241EL0Kh4ek76IgsEs",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-B1IdobUaGeBLI2CgsFg8H",
+      "label": "Blogging",
+      "topicId": "B1IdobUaGeBLI2CgsFg8H",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-GvmXdWiwITgWzx_f5_ick",
+      "label": "Building a Community",
+      "topicId": "GvmXdWiwITgWzx_f5_ick",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-HN2gNsYYRLVOOdy_r8FKJ",
+      "label": "Building a Personal Brand",
+      "topicId": "HN2gNsYYRLVOOdy_r8FKJ",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-h6R3Vyq0U8t8WL3G5xC2l",
+      "label": "Building SDKs",
+      "topicId": "h6R3Vyq0U8t8WL3G5xC2l",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-er9ukuBvY-F4F8S1qbbjU",
+      "label": "Code of Conduct",
+      "topicId": "er9ukuBvY-F4F8S1qbbjU",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-pGJrCyYhLLGUnv6LxpYUe",
+      "label": "Code Samples",
+      "topicId": "pGJrCyYhLLGUnv6LxpYUe",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-w1ZooDCDOkbL1EAa5Hx3d",
+      "label": "Collaborations",
+      "topicId": "w1ZooDCDOkbL1EAa5Hx3d",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-yJygbi8cnp3oz2EFl2MR0",
+      "label": "Community Engagement",
+      "topicId": "yJygbi8cnp3oz2EFl2MR0",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-afR1VviBs2w0k8UmP38vn",
+      "label": "Community Growth",
+      "topicId": "afR1VviBs2w0k8UmP38vn",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-4ZvzY_xGO5BZOmfqj0TTq",
+      "label": "Community Guidelines",
+      "topicId": "4ZvzY_xGO5BZOmfqj0TTq",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node--6cf3RT4-cbwvLYIkCosF",
+      "label": "Community Management",
+      "topicId": "-6cf3RT4-cbwvLYIkCosF",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-1NFcpGzCJylRPbFYdD9bB",
+      "label": "Community Support",
+      "topicId": "1NFcpGzCJylRPbFYdD9bB",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-ue0NaNnNpF7UhvJ8j0Yuo",
+      "label": "Conference Speaking",
+      "topicId": "ue0NaNnNpF7UhvJ8j0Yuo",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-8ls5kQvDgvwLbIrwYg1OL",
+      "label": "Conflict Resolution",
+      "topicId": "8ls5kQvDgvwLbIrwYg1OL",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-l2P44pL9eF8xarBwC_CVO",
+      "label": "Consistent Posting",
+      "topicId": "l2P44pL9eF8xarBwC_CVO",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-_3ZnPUl4kzzuM0bKQ8IAq",
+      "label": "Content Creation",
+      "topicId": "_3ZnPUl4kzzuM0bKQ8IAq",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-yhDBZfUAjumFHpUZtmLg3",
+      "label": "Content Performance",
+      "topicId": "yhDBZfUAjumFHpUZtmLg3",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-TGXPxTFv9EhsfS5uWR5gS",
+      "label": "Content Strategy",
+      "topicId": "TGXPxTFv9EhsfS5uWR5gS",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-bwwk6ESNyEJa3fCAIKPwh",
+      "label": "Continuous Learning",
+      "topicId": "bwwk6ESNyEJa3fCAIKPwh",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-LixiZj3-QcmQgGAqaaDr6",
+      "label": "Contrast Principle",
+      "topicId": "LixiZj3-QcmQgGAqaaDr6",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-ZWkpgvXIzjN3_fOyhVEv0",
+      "label": "Creating Brand Voice",
+      "topicId": "ZWkpgvXIzjN3_fOyhVEv0",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-nlzI2fG3SwC5Q42qXcXPX",
+      "label": "Cross-Promotion",
+      "topicId": "nlzI2fG3SwC5Q42qXcXPX",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-46iMfYgC7fCZLCy-qzl1B",
+      "label": "Data-Driven Strategy Shift",
+      "topicId": "46iMfYgC7fCZLCy-qzl1B",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-0dRnUlgze87eq2FVU_mWp",
+      "label": "Data Visualization",
+      "topicId": "0dRnUlgze87eq2FVU_mWp",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-No-UnhdGmtLW9uFGLy-ca",
+      "label": "Developer Experience",
+      "topicId": "No-UnhdGmtLW9uFGLy-ca",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-BooGiYTMoS0N5eobwjPHY",
+      "label": "Developer Journey",
+      "topicId": "BooGiYTMoS0N5eobwjPHY",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-UhMk8g5MMhvi3kWLLI6B1",
+      "label": "Developer Marketing",
+      "topicId": "UhMk8g5MMhvi3kWLLI6B1",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-AwMwMU9hg_gCKPP4tykHb",
+      "label": "Developer Satisfaction",
+      "topicId": "AwMwMU9hg_gCKPP4tykHb",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-g3M6nfLr0DMcn-NCFF7nZ",
+      "label": "Documentation",
+      "topicId": "g3M6nfLr0DMcn-NCFF7nZ",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-6zK9EJDKBC89UArY7sfgs",
+      "label": "Editing",
+      "topicId": "6zK9EJDKBC89UArY7sfgs",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-EjqJkyojhO7f1uFHIoyGY",
+      "label": "Education",
+      "topicId": "EjqJkyojhO7f1uFHIoyGY",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-6yLt4Ia52Jke9i5kJQvAC",
+      "label": "Encouraging Participation",
+      "topicId": "6yLt4Ia52Jke9i5kJQvAC",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-RXj0yB7KsIOM5whwtyBBU",
+      "label": "Engagement Rates",
+      "topicId": "RXj0yB7KsIOM5whwtyBBU",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-iKYmUvWFT_C0wnO0iB6gM",
+      "label": "Engaging Audience",
+      "topicId": "iKYmUvWFT_C0wnO0iB6gM",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-WIH216mHg2OiSebzQYI-f",
+      "label": "Engaging Content",
+      "topicId": "WIH216mHg2OiSebzQYI-f",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-usorG1GkkvGAZ0h_AGHVk",
+      "label": "Event Management",
+      "topicId": "usorG1GkkvGAZ0h_AGHVk",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-C2w8R4tNy2lOhhWU9l32s",
+      "label": "Event Participation",
+      "topicId": "C2w8R4tNy2lOhhWU9l32s",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-mWcMSKnUQamUykBxND-Ju",
+      "label": "Example Apps",
+      "topicId": "mWcMSKnUQamUykBxND-Ju",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-1m1keusP-PTjEwy0dCJJL",
+      "label": "Execution",
+      "topicId": "1m1keusP-PTjEwy0dCJJL",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-ZMManUnO-9EQqi-xmLt5r",
+      "label": "Facebook",
+      "topicId": "ZMManUnO-9EQqi-xmLt5r",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-4GCQ3stXxW1HrlAVC0qDl",
+      "label": "FAQs",
+      "topicId": "4GCQ3stXxW1HrlAVC0qDl",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-oWXfov-mOF47d7Vffyp3t",
+      "label": "Feedback Collection",
+      "topicId": "oWXfov-mOF47d7Vffyp3t",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-IxRvVvX9Fax08YUbVob4s",
+      "label": "Feedback Loop",
+      "topicId": "IxRvVvX9Fax08YUbVob4s",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-oGTIvAY3zYgoiC63FQRSd",
+      "label": "Forums",
+      "topicId": "oGTIvAY3zYgoiC63FQRSd",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-a-i1mgF3VAxbbpA1gMWyK",
+      "label": "Git",
+      "topicId": "a-i1mgF3VAxbbpA1gMWyK",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-8O1AgUKXe35kdiYD02dyt",
+      "label": "GitHub",
+      "topicId": "8O1AgUKXe35kdiYD02dyt",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-8xrhjG9qmbsoBC3F8zS-b",
+      "label": "Google Analytics",
+      "topicId": "8xrhjG9qmbsoBC3F8zS-b",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-2QiQW9tygpeaES8Wp1Kw6",
+      "label": "Guest Blogging",
+      "topicId": "2QiQW9tygpeaES8Wp1Kw6",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-Xf-Lxi1cKReo4yDLylBbL",
+      "label": "Handling Q&A",
+      "topicId": "Xf-Lxi1cKReo4yDLylBbL",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-tbIAEStaoVWnEWbdk7EGc",
+      "label": "Handouts",
+      "topicId": "tbIAEStaoVWnEWbdk7EGc",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-KP28dl1I9hxM130gIPxSZ",
+      "label": "History and Evolution",
+      "topicId": "KP28dl1I9hxM130gIPxSZ",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-UKi3waPx2pozvZf2aQ52s",
+      "label": "Identifying Audience",
+      "topicId": "UKi3waPx2pozvZf2aQ52s",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-KdFYmj36M2jrGfsYkukpo",
+      "label": "IDEs",
+      "topicId": "KdFYmj36M2jrGfsYkukpo",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-N9HXTCQq2wfC-QurSofE_",
+      "label": "Importance of DevRel",
+      "topicId": "N9HXTCQq2wfC-QurSofE_",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-hPJM4QXxeqTxPlvJ2_D3_",
+      "label": "Initial Outreach",
+      "topicId": "hPJM4QXxeqTxPlvJ2_D3_",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-mh1BZDVkc-VwA8aQAmDhO",
+      "label": "Insights & Recommendations",
+      "topicId": "mh1BZDVkc-VwA8aQAmDhO",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-UAkGV9_I6qiKZMr1aqQCm",
+      "label": "Instagram",
+      "topicId": "UAkGV9_I6qiKZMr1aqQCm",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-j6tr3mAaKqTuEFTRSCsrK",
+      "label": "Issue Tracking",
+      "topicId": "j6tr3mAaKqTuEFTRSCsrK",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-vCoEJyS4qMWTTiL17PmWr",
+      "label": "Issues & Pull Requests",
+      "topicId": "vCoEJyS4qMWTTiL17PmWr",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-NCnKS435DCl-8vilr1_XE",
+      "label": "JetBrains IDEs",
+      "topicId": "NCnKS435DCl-8vilr1_XE",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-DCj1teu8Hp82EKnakFRPn",
+      "label": "Key Metrics",
+      "topicId": "DCj1teu8Hp82EKnakFRPn",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-x3qTqhR1uA5CXqULIJqL8",
+      "label": "Labelling and Cleanup",
+      "topicId": "x3qTqhR1uA5CXqULIJqL8",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-6UR59TigEZ0NaixbaUIqn",
+      "label": "LinkedIn",
+      "topicId": "6UR59TigEZ0NaixbaUIqn",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-iPaFjacZ7hSWriSEqUmHc",
+      "label": "Live Streaming",
+      "topicId": "iPaFjacZ7hSWriSEqUmHc",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-VSOdD9KKF_Qz8nbRdHNo3",
+      "label": "Managing Difficult Questions",
+      "topicId": "VSOdD9KKF_Qz8nbRdHNo3",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-J2WunUJBzYw_D5cQH_pnH",
+      "label": "Managing Discussions",
+      "topicId": "J2WunUJBzYw_D5cQH_pnH",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-QrDqUGWC2t9r6p4aR8I5g",
+      "label": "Media Appearances",
+      "topicId": "QrDqUGWC2t9r6p4aR8I5g",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-HIIqlnZ4Vad_1o4F0lkv-",
+      "label": "Meetups",
+      "topicId": "HIIqlnZ4Vad_1o4F0lkv-",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-v_lDqjtxjRK67GsbtxXgT",
+      "label": "Milestones & Releases",
+      "topicId": "v_lDqjtxjRK67GsbtxXgT",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-uwvvWmcZnFqLoHRDFXFyW",
+      "label": "Mind Mapping",
+      "topicId": "uwvvWmcZnFqLoHRDFXFyW",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-d_dKF87OnRWoWj3Bf1uFf",
+      "label": "Moderation",
+      "topicId": "d_dKF87OnRWoWj3Bf1uFf",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-4ygpqUK70hI5r1AmmfMZq",
+      "label": "Networking Strategies",
+      "topicId": "4ygpqUK70hI5r1AmmfMZq",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-SJf9e7SQnzYVHoRWl0i6P",
+      "label": "Networking",
+      "topicId": "SJf9e7SQnzYVHoRWl0i6P",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-weyCcboaekqf5NuVAOxfU",
+      "label": "Office Hours",
+      "topicId": "weyCcboaekqf5NuVAOxfU",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-gvMbo22eRxqOzszc_w4Gz",
+      "label": "Online Communities",
+      "topicId": "gvMbo22eRxqOzszc_w4Gz",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-lMbj0WdoEia_tdpO5rXph",
+      "label": "Online Communities",
+      "topicId": "lMbj0WdoEia_tdpO5rXph",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-NhQUDVA9q1hnV44EKapbU",
+      "label": "Open-Source",
+      "topicId": "NhQUDVA9q1hnV44EKapbU",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-_FZNqUKgPkzbgOPoiSLSU",
+      "label": "PechaKucha",
+      "topicId": "_FZNqUKgPkzbgOPoiSLSU",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-RQk3uOikjQYRyTu7vuAG7",
+      "label": "Planning",
+      "topicId": "RQk3uOikjQYRyTu7vuAG7",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-WItTQ1QboHoRkqeHJzCM9",
+      "label": "Platform Selection",
+      "topicId": "WItTQ1QboHoRkqeHJzCM9",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-AL3-UzREwTpsADTU0YtRW",
+      "label": "Platform Specific Analytics",
+      "topicId": "AL3-UzREwTpsADTU0YtRW",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-kmcOYDvu1vq7AQPllZvv0",
+      "label": "Post Event Followup",
+      "topicId": "kmcOYDvu1vq7AQPllZvv0",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5040
+      }
+    },
+    {
+      "id": "node-PFjF2PnYpSbvd24jb_D2G",
+      "label": "Presentation Techniques",
+      "topicId": "PFjF2PnYpSbvd24jb_D2G",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5040
+      }
+    },
+    {
+      "id": "node-C9--J8gGZENQKn-QcZK4M",
+      "label": "Promotion",
+      "topicId": "C9--J8gGZENQKn-QcZK4M",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5040
+      }
+    },
+    {
+      "id": "node-7ZFTmlQHYQKNjKprwV8zk",
+      "label": "Public Backlog",
+      "topicId": "7ZFTmlQHYQKNjKprwV8zk",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5200
+      }
+    },
+    {
+      "id": "node-LRZ8yxTfEGCXsYp4N1_uD",
+      "label": "Public Speaking",
+      "topicId": "LRZ8yxTfEGCXsYp4N1_uD",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5200
+      }
+    },
+    {
+      "id": "node-I7RBMfoD30OstVLeTrMs9",
+      "label": "Publishing",
+      "topicId": "I7RBMfoD30OstVLeTrMs9",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5200
+      }
+    },
+    {
+      "id": "node-Nta8pUncwNQxJlqF6h1AT",
+      "label": "Recognition Programs",
+      "topicId": "Nta8pUncwNQxJlqF6h1AT",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5360
+      }
+    },
+    {
+      "id": "node-_QHUpFW4kZ5SBaP7stXY2",
+      "label": "Recording",
+      "topicId": "_QHUpFW4kZ5SBaP7stXY2",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5360
+      }
+    },
+    {
+      "id": "node-U2QKCu6TvDuxSNRfdM74n",
+      "label": "Regular Reports",
+      "topicId": "U2QKCu6TvDuxSNRfdM74n",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5360
+      }
+    },
+    {
+      "id": "node-2iRt9E42i_ej4woKCW_s2",
+      "label": "Repetition & Reinforcement",
+      "topicId": "2iRt9E42i_ej4woKCW_s2",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5520
+      }
+    },
+    {
+      "id": "node-N1uh7dVKfSPT7w0MlKzWO",
+      "label": "Reporting",
+      "topicId": "N1uh7dVKfSPT7w0MlKzWO",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5520
+      }
+    },
+    {
+      "id": "node-8I59U-nnkhQv8ldRuqQlb",
+      "label": "Rules and Policies",
+      "topicId": "8I59U-nnkhQv8ldRuqQlb",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5520
+      }
+    },
+    {
+      "id": "node-vH_ECVYSQ3Fg-DASO1EgK",
+      "label": "Rules of Three",
+      "topicId": "vH_ECVYSQ3Fg-DASO1EgK",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5680
+      }
+    },
+    {
+      "id": "node-xy9Kqtwrh5IhYHaqEhvl_",
+      "label": "Sample Projects",
+      "topicId": "xy9Kqtwrh5IhYHaqEhvl_",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5680
+      }
+    },
+    {
+      "id": "node-rLDRkUht9K1m4noMAIgKU",
+      "label": "Scripting",
+      "topicId": "rLDRkUht9K1m4noMAIgKU",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5680
+      }
+    },
+    {
+      "id": "node-zVBy8o66FdZueg-2v3gaw",
+      "label": "SEO Basics",
+      "topicId": "zVBy8o66FdZueg-2v3gaw",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5840
+      }
+    },
+    {
+      "id": "node-x8RIrK2VB-LBFbt6hAcQb",
+      "label": "Social Media Analytics",
+      "topicId": "x8RIrK2VB-LBFbt6hAcQb",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5840
+      }
+    },
+    {
+      "id": "node-71BBFjaON1NJi4rOHKW6K",
+      "label": "Social Media",
+      "topicId": "71BBFjaON1NJi4rOHKW6K",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5840
+      }
+    },
+    {
+      "id": "node-urbtoZtuJryK-6TJ3lmRN",
+      "label": "Social Media",
+      "topicId": "urbtoZtuJryK-6TJ3lmRN",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 6000
+      }
+    },
+    {
+      "id": "node-Y0GUZynSXjITDOA-TP6LH",
+      "label": "Storytelling",
+      "topicId": "Y0GUZynSXjITDOA-TP6LH",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 6000
+      }
+    },
+    {
+      "id": "node-meZDgDJMy4aH5VqS-NJL4",
+      "label": "Streamyard",
+      "topicId": "meZDgDJMy4aH5VqS-NJL4",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 6000
+      }
+    },
+    {
+      "id": "node-LwNa3u9Lf88ju5w7CvSN5",
+      "label": "Support",
+      "topicId": "LwNa3u9Lf88ju5w7CvSN5",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 6160
+      }
+    },
+    {
+      "id": "node-_Qe_0RksYpX7Spzgc6Fw3",
+      "label": "Surveys",
+      "topicId": "_Qe_0RksYpX7Spzgc6Fw3",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 6160
+      }
+    },
+    {
+      "id": "node-X0xUzEP0S6SyspvqyoDDk",
+      "label": "Technical Documentation",
+      "topicId": "X0xUzEP0S6SyspvqyoDDk",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 6160
+      }
+    },
+    {
+      "id": "node-8aiLVG4clveX1Luiehvxr",
+      "label": "Technical Setup",
+      "topicId": "8aiLVG4clveX1Luiehvxr",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 6320
+      }
+    },
+    {
+      "id": "node-VTGsmk3p4RVXiNhDmx2l8",
+      "label": "The Hook",
+      "topicId": "VTGsmk3p4RVXiNhDmx2l8",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 6320
+      }
+    },
+    {
+      "id": "node-wcfrXA9zWZ4Taey7mR2yG",
+      "label": "Thought Leadership",
+      "topicId": "wcfrXA9zWZ4Taey7mR2yG",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 6320
+      }
+    },
+    {
+      "id": "node-psk3bo-nSskboAoVTjlpz",
+      "label": "Tools",
+      "topicId": "psk3bo-nSskboAoVTjlpz",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 6480
+      }
+    },
+    {
+      "id": "node-uzMfR6Yd9Jvjn8i5RpC1Q",
+      "label": "Topic Selection",
+      "topicId": "uzMfR6Yd9Jvjn8i5RpC1Q",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 6480
+      }
+    },
+    {
+      "id": "node-NWxAxiDgvlGpvqdkzqnOH",
+      "label": "Tracking Engagement",
+      "topicId": "NWxAxiDgvlGpvqdkzqnOH",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 6480
+      }
+    },
+    {
+      "id": "node-6ubk20TBIL3_VrrRMe8tO",
+      "label": "Tutorials",
+      "topicId": "6ubk20TBIL3_VrrRMe8tO",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 6640
+      }
+    },
+    {
+      "id": "node-QlWam-kHv8G_-yx3ClP9s",
+      "label": "Twitch",
+      "topicId": "QlWam-kHv8G_-yx3ClP9s",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 6640
+      }
+    },
+    {
+      "id": "node-7Q6_tdRaeb8BgreG8Mw-a",
+      "label": "Understanding APIs",
+      "topicId": "7Q6_tdRaeb8BgreG8Mw-a",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 6640
+      }
+    },
+    {
+      "id": "node-omnUSgUHZg2DmnOUJ0Xo1",
+      "label": "Use Case Based",
+      "topicId": "omnUSgUHZg2DmnOUJ0Xo1",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 6800
+      }
+    },
+    {
+      "id": "node-RLf08xKMjlt6S9-MFiTo-",
+      "label": "User Guides",
+      "topicId": "RLf08xKMjlt6S9-MFiTo-",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 6800
+      }
+    },
+    {
+      "id": "node-x6KFf4akYuUYkNhrUwj1r",
+      "label": "Version Control",
+      "topicId": "x6KFf4akYuUYkNhrUwj1r",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 6800
+      }
+    },
+    {
+      "id": "node-bRzzc137OlmivEGdhv5Ew",
+      "label": "Video Production",
+      "topicId": "bRzzc137OlmivEGdhv5Ew",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 6960
+      }
+    },
+    {
+      "id": "node-pEMNcm_wJNmOkWm57L1pA",
+      "label": "Video Production",
+      "topicId": "pEMNcm_wJNmOkWm57L1pA",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 6960
+      }
+    },
+    {
+      "id": "node-tRywPj_2VyjSLjxYJtYZd",
+      "label": "Video",
+      "topicId": "tRywPj_2VyjSLjxYJtYZd",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 6960
+      }
+    },
+    {
+      "id": "node-SNhrYZsmyDHN_JWh0eZy2",
+      "label": "Visualization",
+      "topicId": "SNhrYZsmyDHN_JWh0eZy2",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 7120
+      }
+    },
+    {
+      "id": "node-j5nNSYI8s-cH8EA6G1EWY",
+      "label": "VS Code",
+      "topicId": "j5nNSYI8s-cH8EA6G1EWY",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 7120
+      }
+    },
+    {
+      "id": "node-1fc0iWwOkheUJ7d0np86L",
+      "label": "Webinars",
+      "topicId": "1fc0iWwOkheUJ7d0np86L",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 7120
+      }
+    },
+    {
+      "id": "node-SiYUdtYMDImRPmV2_XPkH",
+      "label": "What is DevRel?",
+      "topicId": "SiYUdtYMDImRPmV2_XPkH",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 7280
+      }
+    },
+    {
+      "id": "node-pqp9FLRJRDDEnni72KHmv",
+      "label": "Writing Documentation",
+      "topicId": "pqp9FLRJRDDEnni72KHmv",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 7280
+      }
+    },
+    {
+      "id": "node-l6-mzgDTXg2EPkyZyZ6TC",
+      "label": "Writing Process",
+      "topicId": "l6-mzgDTXg2EPkyZyZ6TC",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 7280
+      }
+    },
+    {
+      "id": "node-0ntOE6PSdMl_EXB9gdgIv",
+      "label": "Writing Skills",
+      "topicId": "0ntOE6PSdMl_EXB9gdgIv",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 7440
+      }
+    },
+    {
+      "id": "node-6BqkO4XOspJg0-9GNLtUp",
+      "label": "X",
+      "topicId": "6BqkO4XOspJg0-9GNLtUp",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 7440
+      }
+    },
+    {
+      "id": "node-Mdp4bBlhVbGohJkVlsDar",
+      "label": "X",
+      "topicId": "Mdp4bBlhVbGohJkVlsDar",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 7440
+      }
+    },
+    {
+      "id": "node-OY5rn3XTbmz4LzSLRcNmw",
+      "label": "YouTube",
+      "topicId": "OY5rn3XTbmz4LzSLRcNmw",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 7600
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-node-UdUDngq425NYSvIuOd7St-node-7MCmY1bABGPfmzjErADvg",
+      "source": "node-UdUDngq425NYSvIuOd7St",
+      "target": "node-7MCmY1bABGPfmzjErADvg",
+      "animated": true
+    },
+    {
+      "id": "edge-node-7MCmY1bABGPfmzjErADvg-node-lG1FH7Q-YX5pG-7mMtbSR",
+      "source": "node-7MCmY1bABGPfmzjErADvg",
+      "target": "node-lG1FH7Q-YX5pG-7mMtbSR",
+      "animated": true
+    },
+    {
+      "id": "edge-node-lG1FH7Q-YX5pG-7mMtbSR-node-D7_iNPEKxFv0gw-fsNNrZ",
+      "source": "node-lG1FH7Q-YX5pG-7mMtbSR",
+      "target": "node-D7_iNPEKxFv0gw-fsNNrZ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-D7_iNPEKxFv0gw-fsNNrZ-node-OUWVqJImrmsZpAtRrUYNH",
+      "source": "node-D7_iNPEKxFv0gw-fsNNrZ",
+      "target": "node-OUWVqJImrmsZpAtRrUYNH",
+      "animated": true
+    },
+    {
+      "id": "edge-node-OUWVqJImrmsZpAtRrUYNH-node-jyScVS-sYMcZcH3hOwbMK",
+      "source": "node-OUWVqJImrmsZpAtRrUYNH",
+      "target": "node-jyScVS-sYMcZcH3hOwbMK",
+      "animated": true
+    },
+    {
+      "id": "edge-node-jyScVS-sYMcZcH3hOwbMK-node-7IJO_jDpZUdlr_n5rBJ6O",
+      "source": "node-jyScVS-sYMcZcH3hOwbMK",
+      "target": "node-7IJO_jDpZUdlr_n5rBJ6O",
+      "animated": true
+    },
+    {
+      "id": "edge-node-7IJO_jDpZUdlr_n5rBJ6O-node-sUEZHmKxtjO9gXKJoOdbF",
+      "source": "node-7IJO_jDpZUdlr_n5rBJ6O",
+      "target": "node-sUEZHmKxtjO9gXKJoOdbF",
+      "animated": true
+    },
+    {
+      "id": "edge-node-sUEZHmKxtjO9gXKJoOdbF-node-7y4vHk_jgNTW6Q1WoqYDc",
+      "source": "node-sUEZHmKxtjO9gXKJoOdbF",
+      "target": "node-7y4vHk_jgNTW6Q1WoqYDc",
+      "animated": true
+    },
+    {
+      "id": "edge-node-7y4vHk_jgNTW6Q1WoqYDc-node-aSYXa25_0O2qQl1O-N3xl",
+      "source": "node-7y4vHk_jgNTW6Q1WoqYDc",
+      "target": "node-aSYXa25_0O2qQl1O-N3xl",
+      "animated": true
+    },
+    {
+      "id": "edge-node-aSYXa25_0O2qQl1O-N3xl-node-rhs6QwxZ7PZthLfi38FJn",
+      "source": "node-aSYXa25_0O2qQl1O-N3xl",
+      "target": "node-rhs6QwxZ7PZthLfi38FJn",
+      "animated": true
+    },
+    {
+      "id": "edge-node-rhs6QwxZ7PZthLfi38FJn-node-c0w241EL0Kh4ek76IgsEs",
+      "source": "node-rhs6QwxZ7PZthLfi38FJn",
+      "target": "node-c0w241EL0Kh4ek76IgsEs",
+      "animated": true
+    },
+    {
+      "id": "edge-node-c0w241EL0Kh4ek76IgsEs-node-B1IdobUaGeBLI2CgsFg8H",
+      "source": "node-c0w241EL0Kh4ek76IgsEs",
+      "target": "node-B1IdobUaGeBLI2CgsFg8H",
+      "animated": true
+    },
+    {
+      "id": "edge-node-B1IdobUaGeBLI2CgsFg8H-node-GvmXdWiwITgWzx_f5_ick",
+      "source": "node-B1IdobUaGeBLI2CgsFg8H",
+      "target": "node-GvmXdWiwITgWzx_f5_ick",
+      "animated": true
+    },
+    {
+      "id": "edge-node-GvmXdWiwITgWzx_f5_ick-node-HN2gNsYYRLVOOdy_r8FKJ",
+      "source": "node-GvmXdWiwITgWzx_f5_ick",
+      "target": "node-HN2gNsYYRLVOOdy_r8FKJ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-HN2gNsYYRLVOOdy_r8FKJ-node-h6R3Vyq0U8t8WL3G5xC2l",
+      "source": "node-HN2gNsYYRLVOOdy_r8FKJ",
+      "target": "node-h6R3Vyq0U8t8WL3G5xC2l",
+      "animated": true
+    },
+    {
+      "id": "edge-node-h6R3Vyq0U8t8WL3G5xC2l-node-er9ukuBvY-F4F8S1qbbjU",
+      "source": "node-h6R3Vyq0U8t8WL3G5xC2l",
+      "target": "node-er9ukuBvY-F4F8S1qbbjU",
+      "animated": true
+    },
+    {
+      "id": "edge-node-er9ukuBvY-F4F8S1qbbjU-node-pGJrCyYhLLGUnv6LxpYUe",
+      "source": "node-er9ukuBvY-F4F8S1qbbjU",
+      "target": "node-pGJrCyYhLLGUnv6LxpYUe",
+      "animated": true
+    },
+    {
+      "id": "edge-node-pGJrCyYhLLGUnv6LxpYUe-node-w1ZooDCDOkbL1EAa5Hx3d",
+      "source": "node-pGJrCyYhLLGUnv6LxpYUe",
+      "target": "node-w1ZooDCDOkbL1EAa5Hx3d",
+      "animated": true
+    },
+    {
+      "id": "edge-node-w1ZooDCDOkbL1EAa5Hx3d-node-yJygbi8cnp3oz2EFl2MR0",
+      "source": "node-w1ZooDCDOkbL1EAa5Hx3d",
+      "target": "node-yJygbi8cnp3oz2EFl2MR0",
+      "animated": true
+    },
+    {
+      "id": "edge-node-yJygbi8cnp3oz2EFl2MR0-node-afR1VviBs2w0k8UmP38vn",
+      "source": "node-yJygbi8cnp3oz2EFl2MR0",
+      "target": "node-afR1VviBs2w0k8UmP38vn",
+      "animated": true
+    },
+    {
+      "id": "edge-node-afR1VviBs2w0k8UmP38vn-node-4ZvzY_xGO5BZOmfqj0TTq",
+      "source": "node-afR1VviBs2w0k8UmP38vn",
+      "target": "node-4ZvzY_xGO5BZOmfqj0TTq",
+      "animated": true
+    },
+    {
+      "id": "edge-node-4ZvzY_xGO5BZOmfqj0TTq-node--6cf3RT4-cbwvLYIkCosF",
+      "source": "node-4ZvzY_xGO5BZOmfqj0TTq",
+      "target": "node--6cf3RT4-cbwvLYIkCosF",
+      "animated": true
+    },
+    {
+      "id": "edge-node--6cf3RT4-cbwvLYIkCosF-node-1NFcpGzCJylRPbFYdD9bB",
+      "source": "node--6cf3RT4-cbwvLYIkCosF",
+      "target": "node-1NFcpGzCJylRPbFYdD9bB",
+      "animated": true
+    },
+    {
+      "id": "edge-node-1NFcpGzCJylRPbFYdD9bB-node-ue0NaNnNpF7UhvJ8j0Yuo",
+      "source": "node-1NFcpGzCJylRPbFYdD9bB",
+      "target": "node-ue0NaNnNpF7UhvJ8j0Yuo",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ue0NaNnNpF7UhvJ8j0Yuo-node-8ls5kQvDgvwLbIrwYg1OL",
+      "source": "node-ue0NaNnNpF7UhvJ8j0Yuo",
+      "target": "node-8ls5kQvDgvwLbIrwYg1OL",
+      "animated": true
+    },
+    {
+      "id": "edge-node-8ls5kQvDgvwLbIrwYg1OL-node-l2P44pL9eF8xarBwC_CVO",
+      "source": "node-8ls5kQvDgvwLbIrwYg1OL",
+      "target": "node-l2P44pL9eF8xarBwC_CVO",
+      "animated": true
+    },
+    {
+      "id": "edge-node-l2P44pL9eF8xarBwC_CVO-node-_3ZnPUl4kzzuM0bKQ8IAq",
+      "source": "node-l2P44pL9eF8xarBwC_CVO",
+      "target": "node-_3ZnPUl4kzzuM0bKQ8IAq",
+      "animated": true
+    },
+    {
+      "id": "edge-node-_3ZnPUl4kzzuM0bKQ8IAq-node-yhDBZfUAjumFHpUZtmLg3",
+      "source": "node-_3ZnPUl4kzzuM0bKQ8IAq",
+      "target": "node-yhDBZfUAjumFHpUZtmLg3",
+      "animated": true
+    },
+    {
+      "id": "edge-node-yhDBZfUAjumFHpUZtmLg3-node-TGXPxTFv9EhsfS5uWR5gS",
+      "source": "node-yhDBZfUAjumFHpUZtmLg3",
+      "target": "node-TGXPxTFv9EhsfS5uWR5gS",
+      "animated": true
+    },
+    {
+      "id": "edge-node-TGXPxTFv9EhsfS5uWR5gS-node-bwwk6ESNyEJa3fCAIKPwh",
+      "source": "node-TGXPxTFv9EhsfS5uWR5gS",
+      "target": "node-bwwk6ESNyEJa3fCAIKPwh",
+      "animated": true
+    },
+    {
+      "id": "edge-node-bwwk6ESNyEJa3fCAIKPwh-node-LixiZj3-QcmQgGAqaaDr6",
+      "source": "node-bwwk6ESNyEJa3fCAIKPwh",
+      "target": "node-LixiZj3-QcmQgGAqaaDr6",
+      "animated": true
+    },
+    {
+      "id": "edge-node-LixiZj3-QcmQgGAqaaDr6-node-ZWkpgvXIzjN3_fOyhVEv0",
+      "source": "node-LixiZj3-QcmQgGAqaaDr6",
+      "target": "node-ZWkpgvXIzjN3_fOyhVEv0",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ZWkpgvXIzjN3_fOyhVEv0-node-nlzI2fG3SwC5Q42qXcXPX",
+      "source": "node-ZWkpgvXIzjN3_fOyhVEv0",
+      "target": "node-nlzI2fG3SwC5Q42qXcXPX",
+      "animated": true
+    },
+    {
+      "id": "edge-node-nlzI2fG3SwC5Q42qXcXPX-node-46iMfYgC7fCZLCy-qzl1B",
+      "source": "node-nlzI2fG3SwC5Q42qXcXPX",
+      "target": "node-46iMfYgC7fCZLCy-qzl1B",
+      "animated": true
+    },
+    {
+      "id": "edge-node-46iMfYgC7fCZLCy-qzl1B-node-0dRnUlgze87eq2FVU_mWp",
+      "source": "node-46iMfYgC7fCZLCy-qzl1B",
+      "target": "node-0dRnUlgze87eq2FVU_mWp",
+      "animated": true
+    },
+    {
+      "id": "edge-node-0dRnUlgze87eq2FVU_mWp-node-No-UnhdGmtLW9uFGLy-ca",
+      "source": "node-0dRnUlgze87eq2FVU_mWp",
+      "target": "node-No-UnhdGmtLW9uFGLy-ca",
+      "animated": true
+    },
+    {
+      "id": "edge-node-No-UnhdGmtLW9uFGLy-ca-node-BooGiYTMoS0N5eobwjPHY",
+      "source": "node-No-UnhdGmtLW9uFGLy-ca",
+      "target": "node-BooGiYTMoS0N5eobwjPHY",
+      "animated": true
+    },
+    {
+      "id": "edge-node-BooGiYTMoS0N5eobwjPHY-node-UhMk8g5MMhvi3kWLLI6B1",
+      "source": "node-BooGiYTMoS0N5eobwjPHY",
+      "target": "node-UhMk8g5MMhvi3kWLLI6B1",
+      "animated": true
+    },
+    {
+      "id": "edge-node-UhMk8g5MMhvi3kWLLI6B1-node-AwMwMU9hg_gCKPP4tykHb",
+      "source": "node-UhMk8g5MMhvi3kWLLI6B1",
+      "target": "node-AwMwMU9hg_gCKPP4tykHb",
+      "animated": true
+    },
+    {
+      "id": "edge-node-AwMwMU9hg_gCKPP4tykHb-node-g3M6nfLr0DMcn-NCFF7nZ",
+      "source": "node-AwMwMU9hg_gCKPP4tykHb",
+      "target": "node-g3M6nfLr0DMcn-NCFF7nZ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-g3M6nfLr0DMcn-NCFF7nZ-node-6zK9EJDKBC89UArY7sfgs",
+      "source": "node-g3M6nfLr0DMcn-NCFF7nZ",
+      "target": "node-6zK9EJDKBC89UArY7sfgs",
+      "animated": true
+    },
+    {
+      "id": "edge-node-6zK9EJDKBC89UArY7sfgs-node-EjqJkyojhO7f1uFHIoyGY",
+      "source": "node-6zK9EJDKBC89UArY7sfgs",
+      "target": "node-EjqJkyojhO7f1uFHIoyGY",
+      "animated": true
+    },
+    {
+      "id": "edge-node-EjqJkyojhO7f1uFHIoyGY-node-6yLt4Ia52Jke9i5kJQvAC",
+      "source": "node-EjqJkyojhO7f1uFHIoyGY",
+      "target": "node-6yLt4Ia52Jke9i5kJQvAC",
+      "animated": true
+    },
+    {
+      "id": "edge-node-6yLt4Ia52Jke9i5kJQvAC-node-RXj0yB7KsIOM5whwtyBBU",
+      "source": "node-6yLt4Ia52Jke9i5kJQvAC",
+      "target": "node-RXj0yB7KsIOM5whwtyBBU",
+      "animated": true
+    },
+    {
+      "id": "edge-node-RXj0yB7KsIOM5whwtyBBU-node-iKYmUvWFT_C0wnO0iB6gM",
+      "source": "node-RXj0yB7KsIOM5whwtyBBU",
+      "target": "node-iKYmUvWFT_C0wnO0iB6gM",
+      "animated": true
+    },
+    {
+      "id": "edge-node-iKYmUvWFT_C0wnO0iB6gM-node-WIH216mHg2OiSebzQYI-f",
+      "source": "node-iKYmUvWFT_C0wnO0iB6gM",
+      "target": "node-WIH216mHg2OiSebzQYI-f",
+      "animated": true
+    },
+    {
+      "id": "edge-node-WIH216mHg2OiSebzQYI-f-node-usorG1GkkvGAZ0h_AGHVk",
+      "source": "node-WIH216mHg2OiSebzQYI-f",
+      "target": "node-usorG1GkkvGAZ0h_AGHVk",
+      "animated": true
+    },
+    {
+      "id": "edge-node-usorG1GkkvGAZ0h_AGHVk-node-C2w8R4tNy2lOhhWU9l32s",
+      "source": "node-usorG1GkkvGAZ0h_AGHVk",
+      "target": "node-C2w8R4tNy2lOhhWU9l32s",
+      "animated": true
+    },
+    {
+      "id": "edge-node-C2w8R4tNy2lOhhWU9l32s-node-mWcMSKnUQamUykBxND-Ju",
+      "source": "node-C2w8R4tNy2lOhhWU9l32s",
+      "target": "node-mWcMSKnUQamUykBxND-Ju",
+      "animated": true
+    },
+    {
+      "id": "edge-node-mWcMSKnUQamUykBxND-Ju-node-1m1keusP-PTjEwy0dCJJL",
+      "source": "node-mWcMSKnUQamUykBxND-Ju",
+      "target": "node-1m1keusP-PTjEwy0dCJJL",
+      "animated": true
+    },
+    {
+      "id": "edge-node-1m1keusP-PTjEwy0dCJJL-node-ZMManUnO-9EQqi-xmLt5r",
+      "source": "node-1m1keusP-PTjEwy0dCJJL",
+      "target": "node-ZMManUnO-9EQqi-xmLt5r",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ZMManUnO-9EQqi-xmLt5r-node-4GCQ3stXxW1HrlAVC0qDl",
+      "source": "node-ZMManUnO-9EQqi-xmLt5r",
+      "target": "node-4GCQ3stXxW1HrlAVC0qDl",
+      "animated": true
+    },
+    {
+      "id": "edge-node-4GCQ3stXxW1HrlAVC0qDl-node-oWXfov-mOF47d7Vffyp3t",
+      "source": "node-4GCQ3stXxW1HrlAVC0qDl",
+      "target": "node-oWXfov-mOF47d7Vffyp3t",
+      "animated": true
+    },
+    {
+      "id": "edge-node-oWXfov-mOF47d7Vffyp3t-node-IxRvVvX9Fax08YUbVob4s",
+      "source": "node-oWXfov-mOF47d7Vffyp3t",
+      "target": "node-IxRvVvX9Fax08YUbVob4s",
+      "animated": true
+    },
+    {
+      "id": "edge-node-IxRvVvX9Fax08YUbVob4s-node-oGTIvAY3zYgoiC63FQRSd",
+      "source": "node-IxRvVvX9Fax08YUbVob4s",
+      "target": "node-oGTIvAY3zYgoiC63FQRSd",
+      "animated": true
+    },
+    {
+      "id": "edge-node-oGTIvAY3zYgoiC63FQRSd-node-a-i1mgF3VAxbbpA1gMWyK",
+      "source": "node-oGTIvAY3zYgoiC63FQRSd",
+      "target": "node-a-i1mgF3VAxbbpA1gMWyK",
+      "animated": true
+    },
+    {
+      "id": "edge-node-a-i1mgF3VAxbbpA1gMWyK-node-8O1AgUKXe35kdiYD02dyt",
+      "source": "node-a-i1mgF3VAxbbpA1gMWyK",
+      "target": "node-8O1AgUKXe35kdiYD02dyt",
+      "animated": true
+    },
+    {
+      "id": "edge-node-8O1AgUKXe35kdiYD02dyt-node-8xrhjG9qmbsoBC3F8zS-b",
+      "source": "node-8O1AgUKXe35kdiYD02dyt",
+      "target": "node-8xrhjG9qmbsoBC3F8zS-b",
+      "animated": true
+    },
+    {
+      "id": "edge-node-8xrhjG9qmbsoBC3F8zS-b-node-2QiQW9tygpeaES8Wp1Kw6",
+      "source": "node-8xrhjG9qmbsoBC3F8zS-b",
+      "target": "node-2QiQW9tygpeaES8Wp1Kw6",
+      "animated": true
+    },
+    {
+      "id": "edge-node-2QiQW9tygpeaES8Wp1Kw6-node-Xf-Lxi1cKReo4yDLylBbL",
+      "source": "node-2QiQW9tygpeaES8Wp1Kw6",
+      "target": "node-Xf-Lxi1cKReo4yDLylBbL",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Xf-Lxi1cKReo4yDLylBbL-node-tbIAEStaoVWnEWbdk7EGc",
+      "source": "node-Xf-Lxi1cKReo4yDLylBbL",
+      "target": "node-tbIAEStaoVWnEWbdk7EGc",
+      "animated": true
+    },
+    {
+      "id": "edge-node-tbIAEStaoVWnEWbdk7EGc-node-KP28dl1I9hxM130gIPxSZ",
+      "source": "node-tbIAEStaoVWnEWbdk7EGc",
+      "target": "node-KP28dl1I9hxM130gIPxSZ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-KP28dl1I9hxM130gIPxSZ-node-UKi3waPx2pozvZf2aQ52s",
+      "source": "node-KP28dl1I9hxM130gIPxSZ",
+      "target": "node-UKi3waPx2pozvZf2aQ52s",
+      "animated": true
+    },
+    {
+      "id": "edge-node-UKi3waPx2pozvZf2aQ52s-node-KdFYmj36M2jrGfsYkukpo",
+      "source": "node-UKi3waPx2pozvZf2aQ52s",
+      "target": "node-KdFYmj36M2jrGfsYkukpo",
+      "animated": true
+    },
+    {
+      "id": "edge-node-KdFYmj36M2jrGfsYkukpo-node-N9HXTCQq2wfC-QurSofE_",
+      "source": "node-KdFYmj36M2jrGfsYkukpo",
+      "target": "node-N9HXTCQq2wfC-QurSofE_",
+      "animated": true
+    },
+    {
+      "id": "edge-node-N9HXTCQq2wfC-QurSofE_-node-hPJM4QXxeqTxPlvJ2_D3_",
+      "source": "node-N9HXTCQq2wfC-QurSofE_",
+      "target": "node-hPJM4QXxeqTxPlvJ2_D3_",
+      "animated": true
+    },
+    {
+      "id": "edge-node-hPJM4QXxeqTxPlvJ2_D3_-node-mh1BZDVkc-VwA8aQAmDhO",
+      "source": "node-hPJM4QXxeqTxPlvJ2_D3_",
+      "target": "node-mh1BZDVkc-VwA8aQAmDhO",
+      "animated": true
+    },
+    {
+      "id": "edge-node-mh1BZDVkc-VwA8aQAmDhO-node-UAkGV9_I6qiKZMr1aqQCm",
+      "source": "node-mh1BZDVkc-VwA8aQAmDhO",
+      "target": "node-UAkGV9_I6qiKZMr1aqQCm",
+      "animated": true
+    },
+    {
+      "id": "edge-node-UAkGV9_I6qiKZMr1aqQCm-node-j6tr3mAaKqTuEFTRSCsrK",
+      "source": "node-UAkGV9_I6qiKZMr1aqQCm",
+      "target": "node-j6tr3mAaKqTuEFTRSCsrK",
+      "animated": true
+    },
+    {
+      "id": "edge-node-j6tr3mAaKqTuEFTRSCsrK-node-vCoEJyS4qMWTTiL17PmWr",
+      "source": "node-j6tr3mAaKqTuEFTRSCsrK",
+      "target": "node-vCoEJyS4qMWTTiL17PmWr",
+      "animated": true
+    },
+    {
+      "id": "edge-node-vCoEJyS4qMWTTiL17PmWr-node-NCnKS435DCl-8vilr1_XE",
+      "source": "node-vCoEJyS4qMWTTiL17PmWr",
+      "target": "node-NCnKS435DCl-8vilr1_XE",
+      "animated": true
+    },
+    {
+      "id": "edge-node-NCnKS435DCl-8vilr1_XE-node-DCj1teu8Hp82EKnakFRPn",
+      "source": "node-NCnKS435DCl-8vilr1_XE",
+      "target": "node-DCj1teu8Hp82EKnakFRPn",
+      "animated": true
+    },
+    {
+      "id": "edge-node-DCj1teu8Hp82EKnakFRPn-node-x3qTqhR1uA5CXqULIJqL8",
+      "source": "node-DCj1teu8Hp82EKnakFRPn",
+      "target": "node-x3qTqhR1uA5CXqULIJqL8",
+      "animated": true
+    },
+    {
+      "id": "edge-node-x3qTqhR1uA5CXqULIJqL8-node-6UR59TigEZ0NaixbaUIqn",
+      "source": "node-x3qTqhR1uA5CXqULIJqL8",
+      "target": "node-6UR59TigEZ0NaixbaUIqn",
+      "animated": true
+    },
+    {
+      "id": "edge-node-6UR59TigEZ0NaixbaUIqn-node-iPaFjacZ7hSWriSEqUmHc",
+      "source": "node-6UR59TigEZ0NaixbaUIqn",
+      "target": "node-iPaFjacZ7hSWriSEqUmHc",
+      "animated": true
+    },
+    {
+      "id": "edge-node-iPaFjacZ7hSWriSEqUmHc-node-VSOdD9KKF_Qz8nbRdHNo3",
+      "source": "node-iPaFjacZ7hSWriSEqUmHc",
+      "target": "node-VSOdD9KKF_Qz8nbRdHNo3",
+      "animated": true
+    },
+    {
+      "id": "edge-node-VSOdD9KKF_Qz8nbRdHNo3-node-J2WunUJBzYw_D5cQH_pnH",
+      "source": "node-VSOdD9KKF_Qz8nbRdHNo3",
+      "target": "node-J2WunUJBzYw_D5cQH_pnH",
+      "animated": true
+    },
+    {
+      "id": "edge-node-J2WunUJBzYw_D5cQH_pnH-node-QrDqUGWC2t9r6p4aR8I5g",
+      "source": "node-J2WunUJBzYw_D5cQH_pnH",
+      "target": "node-QrDqUGWC2t9r6p4aR8I5g",
+      "animated": true
+    },
+    {
+      "id": "edge-node-QrDqUGWC2t9r6p4aR8I5g-node-HIIqlnZ4Vad_1o4F0lkv-",
+      "source": "node-QrDqUGWC2t9r6p4aR8I5g",
+      "target": "node-HIIqlnZ4Vad_1o4F0lkv-",
+      "animated": true
+    },
+    {
+      "id": "edge-node-HIIqlnZ4Vad_1o4F0lkv--node-v_lDqjtxjRK67GsbtxXgT",
+      "source": "node-HIIqlnZ4Vad_1o4F0lkv-",
+      "target": "node-v_lDqjtxjRK67GsbtxXgT",
+      "animated": true
+    },
+    {
+      "id": "edge-node-v_lDqjtxjRK67GsbtxXgT-node-uwvvWmcZnFqLoHRDFXFyW",
+      "source": "node-v_lDqjtxjRK67GsbtxXgT",
+      "target": "node-uwvvWmcZnFqLoHRDFXFyW",
+      "animated": true
+    },
+    {
+      "id": "edge-node-uwvvWmcZnFqLoHRDFXFyW-node-d_dKF87OnRWoWj3Bf1uFf",
+      "source": "node-uwvvWmcZnFqLoHRDFXFyW",
+      "target": "node-d_dKF87OnRWoWj3Bf1uFf",
+      "animated": true
+    },
+    {
+      "id": "edge-node-d_dKF87OnRWoWj3Bf1uFf-node-4ygpqUK70hI5r1AmmfMZq",
+      "source": "node-d_dKF87OnRWoWj3Bf1uFf",
+      "target": "node-4ygpqUK70hI5r1AmmfMZq",
+      "animated": true
+    },
+    {
+      "id": "edge-node-4ygpqUK70hI5r1AmmfMZq-node-SJf9e7SQnzYVHoRWl0i6P",
+      "source": "node-4ygpqUK70hI5r1AmmfMZq",
+      "target": "node-SJf9e7SQnzYVHoRWl0i6P",
+      "animated": true
+    },
+    {
+      "id": "edge-node-SJf9e7SQnzYVHoRWl0i6P-node-weyCcboaekqf5NuVAOxfU",
+      "source": "node-SJf9e7SQnzYVHoRWl0i6P",
+      "target": "node-weyCcboaekqf5NuVAOxfU",
+      "animated": true
+    },
+    {
+      "id": "edge-node-weyCcboaekqf5NuVAOxfU-node-gvMbo22eRxqOzszc_w4Gz",
+      "source": "node-weyCcboaekqf5NuVAOxfU",
+      "target": "node-gvMbo22eRxqOzszc_w4Gz",
+      "animated": true
+    },
+    {
+      "id": "edge-node-gvMbo22eRxqOzszc_w4Gz-node-lMbj0WdoEia_tdpO5rXph",
+      "source": "node-gvMbo22eRxqOzszc_w4Gz",
+      "target": "node-lMbj0WdoEia_tdpO5rXph",
+      "animated": true
+    },
+    {
+      "id": "edge-node-lMbj0WdoEia_tdpO5rXph-node-NhQUDVA9q1hnV44EKapbU",
+      "source": "node-lMbj0WdoEia_tdpO5rXph",
+      "target": "node-NhQUDVA9q1hnV44EKapbU",
+      "animated": true
+    },
+    {
+      "id": "edge-node-NhQUDVA9q1hnV44EKapbU-node-_FZNqUKgPkzbgOPoiSLSU",
+      "source": "node-NhQUDVA9q1hnV44EKapbU",
+      "target": "node-_FZNqUKgPkzbgOPoiSLSU",
+      "animated": true
+    },
+    {
+      "id": "edge-node-_FZNqUKgPkzbgOPoiSLSU-node-RQk3uOikjQYRyTu7vuAG7",
+      "source": "node-_FZNqUKgPkzbgOPoiSLSU",
+      "target": "node-RQk3uOikjQYRyTu7vuAG7",
+      "animated": true
+    },
+    {
+      "id": "edge-node-RQk3uOikjQYRyTu7vuAG7-node-WItTQ1QboHoRkqeHJzCM9",
+      "source": "node-RQk3uOikjQYRyTu7vuAG7",
+      "target": "node-WItTQ1QboHoRkqeHJzCM9",
+      "animated": true
+    },
+    {
+      "id": "edge-node-WItTQ1QboHoRkqeHJzCM9-node-AL3-UzREwTpsADTU0YtRW",
+      "source": "node-WItTQ1QboHoRkqeHJzCM9",
+      "target": "node-AL3-UzREwTpsADTU0YtRW",
+      "animated": true
+    },
+    {
+      "id": "edge-node-AL3-UzREwTpsADTU0YtRW-node-kmcOYDvu1vq7AQPllZvv0",
+      "source": "node-AL3-UzREwTpsADTU0YtRW",
+      "target": "node-kmcOYDvu1vq7AQPllZvv0",
+      "animated": true
+    },
+    {
+      "id": "edge-node-kmcOYDvu1vq7AQPllZvv0-node-PFjF2PnYpSbvd24jb_D2G",
+      "source": "node-kmcOYDvu1vq7AQPllZvv0",
+      "target": "node-PFjF2PnYpSbvd24jb_D2G",
+      "animated": true
+    },
+    {
+      "id": "edge-node-PFjF2PnYpSbvd24jb_D2G-node-C9--J8gGZENQKn-QcZK4M",
+      "source": "node-PFjF2PnYpSbvd24jb_D2G",
+      "target": "node-C9--J8gGZENQKn-QcZK4M",
+      "animated": true
+    },
+    {
+      "id": "edge-node-C9--J8gGZENQKn-QcZK4M-node-7ZFTmlQHYQKNjKprwV8zk",
+      "source": "node-C9--J8gGZENQKn-QcZK4M",
+      "target": "node-7ZFTmlQHYQKNjKprwV8zk",
+      "animated": true
+    },
+    {
+      "id": "edge-node-7ZFTmlQHYQKNjKprwV8zk-node-LRZ8yxTfEGCXsYp4N1_uD",
+      "source": "node-7ZFTmlQHYQKNjKprwV8zk",
+      "target": "node-LRZ8yxTfEGCXsYp4N1_uD",
+      "animated": true
+    },
+    {
+      "id": "edge-node-LRZ8yxTfEGCXsYp4N1_uD-node-I7RBMfoD30OstVLeTrMs9",
+      "source": "node-LRZ8yxTfEGCXsYp4N1_uD",
+      "target": "node-I7RBMfoD30OstVLeTrMs9",
+      "animated": true
+    },
+    {
+      "id": "edge-node-I7RBMfoD30OstVLeTrMs9-node-Nta8pUncwNQxJlqF6h1AT",
+      "source": "node-I7RBMfoD30OstVLeTrMs9",
+      "target": "node-Nta8pUncwNQxJlqF6h1AT",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Nta8pUncwNQxJlqF6h1AT-node-_QHUpFW4kZ5SBaP7stXY2",
+      "source": "node-Nta8pUncwNQxJlqF6h1AT",
+      "target": "node-_QHUpFW4kZ5SBaP7stXY2",
+      "animated": true
+    },
+    {
+      "id": "edge-node-_QHUpFW4kZ5SBaP7stXY2-node-U2QKCu6TvDuxSNRfdM74n",
+      "source": "node-_QHUpFW4kZ5SBaP7stXY2",
+      "target": "node-U2QKCu6TvDuxSNRfdM74n",
+      "animated": true
+    },
+    {
+      "id": "edge-node-U2QKCu6TvDuxSNRfdM74n-node-2iRt9E42i_ej4woKCW_s2",
+      "source": "node-U2QKCu6TvDuxSNRfdM74n",
+      "target": "node-2iRt9E42i_ej4woKCW_s2",
+      "animated": true
+    },
+    {
+      "id": "edge-node-2iRt9E42i_ej4woKCW_s2-node-N1uh7dVKfSPT7w0MlKzWO",
+      "source": "node-2iRt9E42i_ej4woKCW_s2",
+      "target": "node-N1uh7dVKfSPT7w0MlKzWO",
+      "animated": true
+    },
+    {
+      "id": "edge-node-N1uh7dVKfSPT7w0MlKzWO-node-8I59U-nnkhQv8ldRuqQlb",
+      "source": "node-N1uh7dVKfSPT7w0MlKzWO",
+      "target": "node-8I59U-nnkhQv8ldRuqQlb",
+      "animated": true
+    },
+    {
+      "id": "edge-node-8I59U-nnkhQv8ldRuqQlb-node-vH_ECVYSQ3Fg-DASO1EgK",
+      "source": "node-8I59U-nnkhQv8ldRuqQlb",
+      "target": "node-vH_ECVYSQ3Fg-DASO1EgK",
+      "animated": true
+    },
+    {
+      "id": "edge-node-vH_ECVYSQ3Fg-DASO1EgK-node-xy9Kqtwrh5IhYHaqEhvl_",
+      "source": "node-vH_ECVYSQ3Fg-DASO1EgK",
+      "target": "node-xy9Kqtwrh5IhYHaqEhvl_",
+      "animated": true
+    },
+    {
+      "id": "edge-node-xy9Kqtwrh5IhYHaqEhvl_-node-rLDRkUht9K1m4noMAIgKU",
+      "source": "node-xy9Kqtwrh5IhYHaqEhvl_",
+      "target": "node-rLDRkUht9K1m4noMAIgKU",
+      "animated": true
+    },
+    {
+      "id": "edge-node-rLDRkUht9K1m4noMAIgKU-node-zVBy8o66FdZueg-2v3gaw",
+      "source": "node-rLDRkUht9K1m4noMAIgKU",
+      "target": "node-zVBy8o66FdZueg-2v3gaw",
+      "animated": true
+    },
+    {
+      "id": "edge-node-zVBy8o66FdZueg-2v3gaw-node-x8RIrK2VB-LBFbt6hAcQb",
+      "source": "node-zVBy8o66FdZueg-2v3gaw",
+      "target": "node-x8RIrK2VB-LBFbt6hAcQb",
+      "animated": true
+    },
+    {
+      "id": "edge-node-x8RIrK2VB-LBFbt6hAcQb-node-71BBFjaON1NJi4rOHKW6K",
+      "source": "node-x8RIrK2VB-LBFbt6hAcQb",
+      "target": "node-71BBFjaON1NJi4rOHKW6K",
+      "animated": true
+    },
+    {
+      "id": "edge-node-71BBFjaON1NJi4rOHKW6K-node-urbtoZtuJryK-6TJ3lmRN",
+      "source": "node-71BBFjaON1NJi4rOHKW6K",
+      "target": "node-urbtoZtuJryK-6TJ3lmRN",
+      "animated": true
+    },
+    {
+      "id": "edge-node-urbtoZtuJryK-6TJ3lmRN-node-Y0GUZynSXjITDOA-TP6LH",
+      "source": "node-urbtoZtuJryK-6TJ3lmRN",
+      "target": "node-Y0GUZynSXjITDOA-TP6LH",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Y0GUZynSXjITDOA-TP6LH-node-meZDgDJMy4aH5VqS-NJL4",
+      "source": "node-Y0GUZynSXjITDOA-TP6LH",
+      "target": "node-meZDgDJMy4aH5VqS-NJL4",
+      "animated": true
+    },
+    {
+      "id": "edge-node-meZDgDJMy4aH5VqS-NJL4-node-LwNa3u9Lf88ju5w7CvSN5",
+      "source": "node-meZDgDJMy4aH5VqS-NJL4",
+      "target": "node-LwNa3u9Lf88ju5w7CvSN5",
+      "animated": true
+    },
+    {
+      "id": "edge-node-LwNa3u9Lf88ju5w7CvSN5-node-_Qe_0RksYpX7Spzgc6Fw3",
+      "source": "node-LwNa3u9Lf88ju5w7CvSN5",
+      "target": "node-_Qe_0RksYpX7Spzgc6Fw3",
+      "animated": true
+    },
+    {
+      "id": "edge-node-_Qe_0RksYpX7Spzgc6Fw3-node-X0xUzEP0S6SyspvqyoDDk",
+      "source": "node-_Qe_0RksYpX7Spzgc6Fw3",
+      "target": "node-X0xUzEP0S6SyspvqyoDDk",
+      "animated": true
+    },
+    {
+      "id": "edge-node-X0xUzEP0S6SyspvqyoDDk-node-8aiLVG4clveX1Luiehvxr",
+      "source": "node-X0xUzEP0S6SyspvqyoDDk",
+      "target": "node-8aiLVG4clveX1Luiehvxr",
+      "animated": true
+    },
+    {
+      "id": "edge-node-8aiLVG4clveX1Luiehvxr-node-VTGsmk3p4RVXiNhDmx2l8",
+      "source": "node-8aiLVG4clveX1Luiehvxr",
+      "target": "node-VTGsmk3p4RVXiNhDmx2l8",
+      "animated": true
+    },
+    {
+      "id": "edge-node-VTGsmk3p4RVXiNhDmx2l8-node-wcfrXA9zWZ4Taey7mR2yG",
+      "source": "node-VTGsmk3p4RVXiNhDmx2l8",
+      "target": "node-wcfrXA9zWZ4Taey7mR2yG",
+      "animated": true
+    },
+    {
+      "id": "edge-node-wcfrXA9zWZ4Taey7mR2yG-node-psk3bo-nSskboAoVTjlpz",
+      "source": "node-wcfrXA9zWZ4Taey7mR2yG",
+      "target": "node-psk3bo-nSskboAoVTjlpz",
+      "animated": true
+    },
+    {
+      "id": "edge-node-psk3bo-nSskboAoVTjlpz-node-uzMfR6Yd9Jvjn8i5RpC1Q",
+      "source": "node-psk3bo-nSskboAoVTjlpz",
+      "target": "node-uzMfR6Yd9Jvjn8i5RpC1Q",
+      "animated": true
+    },
+    {
+      "id": "edge-node-uzMfR6Yd9Jvjn8i5RpC1Q-node-NWxAxiDgvlGpvqdkzqnOH",
+      "source": "node-uzMfR6Yd9Jvjn8i5RpC1Q",
+      "target": "node-NWxAxiDgvlGpvqdkzqnOH",
+      "animated": true
+    },
+    {
+      "id": "edge-node-NWxAxiDgvlGpvqdkzqnOH-node-6ubk20TBIL3_VrrRMe8tO",
+      "source": "node-NWxAxiDgvlGpvqdkzqnOH",
+      "target": "node-6ubk20TBIL3_VrrRMe8tO",
+      "animated": true
+    },
+    {
+      "id": "edge-node-6ubk20TBIL3_VrrRMe8tO-node-QlWam-kHv8G_-yx3ClP9s",
+      "source": "node-6ubk20TBIL3_VrrRMe8tO",
+      "target": "node-QlWam-kHv8G_-yx3ClP9s",
+      "animated": true
+    },
+    {
+      "id": "edge-node-QlWam-kHv8G_-yx3ClP9s-node-7Q6_tdRaeb8BgreG8Mw-a",
+      "source": "node-QlWam-kHv8G_-yx3ClP9s",
+      "target": "node-7Q6_tdRaeb8BgreG8Mw-a",
+      "animated": true
+    },
+    {
+      "id": "edge-node-7Q6_tdRaeb8BgreG8Mw-a-node-omnUSgUHZg2DmnOUJ0Xo1",
+      "source": "node-7Q6_tdRaeb8BgreG8Mw-a",
+      "target": "node-omnUSgUHZg2DmnOUJ0Xo1",
+      "animated": true
+    },
+    {
+      "id": "edge-node-omnUSgUHZg2DmnOUJ0Xo1-node-RLf08xKMjlt6S9-MFiTo-",
+      "source": "node-omnUSgUHZg2DmnOUJ0Xo1",
+      "target": "node-RLf08xKMjlt6S9-MFiTo-",
+      "animated": true
+    },
+    {
+      "id": "edge-node-RLf08xKMjlt6S9-MFiTo--node-x6KFf4akYuUYkNhrUwj1r",
+      "source": "node-RLf08xKMjlt6S9-MFiTo-",
+      "target": "node-x6KFf4akYuUYkNhrUwj1r",
+      "animated": true
+    },
+    {
+      "id": "edge-node-x6KFf4akYuUYkNhrUwj1r-node-bRzzc137OlmivEGdhv5Ew",
+      "source": "node-x6KFf4akYuUYkNhrUwj1r",
+      "target": "node-bRzzc137OlmivEGdhv5Ew",
+      "animated": true
+    },
+    {
+      "id": "edge-node-bRzzc137OlmivEGdhv5Ew-node-pEMNcm_wJNmOkWm57L1pA",
+      "source": "node-bRzzc137OlmivEGdhv5Ew",
+      "target": "node-pEMNcm_wJNmOkWm57L1pA",
+      "animated": true
+    },
+    {
+      "id": "edge-node-pEMNcm_wJNmOkWm57L1pA-node-tRywPj_2VyjSLjxYJtYZd",
+      "source": "node-pEMNcm_wJNmOkWm57L1pA",
+      "target": "node-tRywPj_2VyjSLjxYJtYZd",
+      "animated": true
+    },
+    {
+      "id": "edge-node-tRywPj_2VyjSLjxYJtYZd-node-SNhrYZsmyDHN_JWh0eZy2",
+      "source": "node-tRywPj_2VyjSLjxYJtYZd",
+      "target": "node-SNhrYZsmyDHN_JWh0eZy2",
+      "animated": true
+    },
+    {
+      "id": "edge-node-SNhrYZsmyDHN_JWh0eZy2-node-j5nNSYI8s-cH8EA6G1EWY",
+      "source": "node-SNhrYZsmyDHN_JWh0eZy2",
+      "target": "node-j5nNSYI8s-cH8EA6G1EWY",
+      "animated": true
+    },
+    {
+      "id": "edge-node-j5nNSYI8s-cH8EA6G1EWY-node-1fc0iWwOkheUJ7d0np86L",
+      "source": "node-j5nNSYI8s-cH8EA6G1EWY",
+      "target": "node-1fc0iWwOkheUJ7d0np86L",
+      "animated": true
+    },
+    {
+      "id": "edge-node-1fc0iWwOkheUJ7d0np86L-node-SiYUdtYMDImRPmV2_XPkH",
+      "source": "node-1fc0iWwOkheUJ7d0np86L",
+      "target": "node-SiYUdtYMDImRPmV2_XPkH",
+      "animated": true
+    },
+    {
+      "id": "edge-node-SiYUdtYMDImRPmV2_XPkH-node-pqp9FLRJRDDEnni72KHmv",
+      "source": "node-SiYUdtYMDImRPmV2_XPkH",
+      "target": "node-pqp9FLRJRDDEnni72KHmv",
+      "animated": true
+    },
+    {
+      "id": "edge-node-pqp9FLRJRDDEnni72KHmv-node-l6-mzgDTXg2EPkyZyZ6TC",
+      "source": "node-pqp9FLRJRDDEnni72KHmv",
+      "target": "node-l6-mzgDTXg2EPkyZyZ6TC",
+      "animated": true
+    },
+    {
+      "id": "edge-node-l6-mzgDTXg2EPkyZyZ6TC-node-0ntOE6PSdMl_EXB9gdgIv",
+      "source": "node-l6-mzgDTXg2EPkyZyZ6TC",
+      "target": "node-0ntOE6PSdMl_EXB9gdgIv",
+      "animated": true
+    },
+    {
+      "id": "edge-node-0ntOE6PSdMl_EXB9gdgIv-node-6BqkO4XOspJg0-9GNLtUp",
+      "source": "node-0ntOE6PSdMl_EXB9gdgIv",
+      "target": "node-6BqkO4XOspJg0-9GNLtUp",
+      "animated": true
+    },
+    {
+      "id": "edge-node-6BqkO4XOspJg0-9GNLtUp-node-Mdp4bBlhVbGohJkVlsDar",
+      "source": "node-6BqkO4XOspJg0-9GNLtUp",
+      "target": "node-Mdp4bBlhVbGohJkVlsDar",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Mdp4bBlhVbGohJkVlsDar-node-OY5rn3XTbmz4LzSLRcNmw",
+      "source": "node-Mdp4bBlhVbGohJkVlsDar",
+      "target": "node-OY5rn3XTbmz4LzSLRcNmw",
+      "animated": true
+    }
+  ],
+  "topics": {
+    "UdUDngq425NYSvIuOd7St": {
+      "id": "UdUDngq425NYSvIuOd7St",
+      "slug": "active-listening",
+      "title": "Active Listening",
+      "description": "Active listening in developer relations is about genuinely engaging with the developer community to understand their needs, challenges, and feedback. It involves more than just hearing what is said; it requires attention to verbal cues, context, and non-verbal signals, as well as asking clarifying questions and reflecting on what has been shared. By actively listening, developer advocates can build trust, foster open communication, and gain insights that help shape better products, documentation, and community experiences, ultimately creating a more supportive and responsive environment for developers.",
+      "resources": [
+        {
+          "id": "UdUDngq425NYSvIuOd7St-res-1",
+          "type": "article",
+          "title": "What is active listening?",
+          "url": "https://hbr.org/2024/01/what-is-active-listening"
+        },
+        {
+          "id": "UdUDngq425NYSvIuOd7St-res-2",
+          "type": "article",
+          "title": "7 Active Listening Techniques For Better Communication",
+          "url": "https://www.verywellmind.com/what-is-active-listening-3024343"
+        }
+      ]
+    },
+    "7MCmY1bABGPfmzjErADvg": {
+      "id": "7MCmY1bABGPfmzjErADvg",
+      "slug": "advocacy",
+      "title": "Advocacy",
+      "description": "Developer Advocacy is the practice of representing and supporting the needs and interests of developers both within a company and in the broader developer community. Developer Advocates act as liaisons between the company’s development team and external developers, ensuring that the developers have the tools, resources, and knowledge to effectively use the company's products or platforms. They create educational content, provide technical support, gather feedback, and participate in community events.",
+      "resources": [
+        {
+          "id": "7MCmY1bABGPfmzjErADvg-res-1",
+          "type": "article",
+          "title": "What is developer advocacy?",
+          "url": "https://appsembler.com/glossary/developer-advocacy/"
+        },
+        {
+          "id": "7MCmY1bABGPfmzjErADvg-res-2",
+          "type": "article",
+          "title": "The Developer Advocate Playbook: Your Go-To Guide to Turning Users into Champions 🚀",
+          "url": "https://www.doc-e.ai/post/the-developer-advocate-playbook-your-go-to-guide-to-turning-users-into-champions"
+        },
+        {
+          "id": "7MCmY1bABGPfmzjErADvg-res-3",
+          "type": "video",
+          "title": "Developer Relations: New Career Path for Developers",
+          "url": "https://www.youtube.com/watch?v=iA2SQ4OL4GU"
+        }
+      ]
+    },
+    "lG1FH7Q-YX5pG-7mMtbSR": {
+      "id": "lG1FH7Q-YX5pG-7mMtbSR",
+      "slug": "analytics-and-optimization",
+      "title": "Analytics and Optimization",
+      "description": "When engaging with developer communities on social media, it's important to monitor your analytics in order to maximise the potential of your content. Platforms like X provide great analytics that help you keep an eye on which posts perform well with data such as impressions, likes, and shares.",
+      "resources": [
+        {
+          "id": "lG1FH7Q-YX5pG-7mMtbSR-res-1",
+          "type": "article",
+          "title": "What is social media analytics?",
+          "url": "https://blog.hootsuite.com/social-media-analytics/"
+        },
+        {
+          "id": "lG1FH7Q-YX5pG-7mMtbSR-res-2",
+          "type": "article",
+          "title": "2024 Guide to X (Twitter) Analytics",
+          "url": "https://blog.hootsuite.com/twitter-analytics-guide/"
+        }
+      ]
+    },
+    "D7_iNPEKxFv0gw-fsNNrZ": {
+      "id": "D7_iNPEKxFv0gw-fsNNrZ",
+      "slug": "animations--graphics",
+      "title": "Animations & Graphics",
+      "description": "Animations and graphics can be a great addition to your live streaming setup, especially if they're related to the brand that you're representing. Be aware though that excessive animations and graphics can take its toll on your machine and potentially result in a bad experience for viewers, so it's important to find the right balance.",
+      "resources": [
+        {
+          "id": "D7_iNPEKxFv0gw-fsNNrZ-res-1",
+          "type": "video",
+          "title": "How to Create Animated Overlays For Your Live Streams",
+          "url": "https://www.youtube.com/watch?v=y6BykyZGUlE"
+        },
+        {
+          "id": "D7_iNPEKxFv0gw-fsNNrZ-res-2",
+          "type": "video",
+          "title": "How to Install & Use Overlays in OBS",
+          "url": "https://www.youtube.com/watch?v=pxB9ET8gZH0"
+        }
+      ]
+    },
+    "OUWVqJImrmsZpAtRrUYNH": {
+      "id": "OUWVqJImrmsZpAtRrUYNH",
+      "slug": "animations--graphics",
+      "title": "Animations & Graphics",
+      "description": "Animations and graphics are used in both video production and live streaming to illustrate concepts that are difficult to convey through code or speech alone. Architecture diagrams, data flow animations, and branded lower-thirds all add clarity and professionalism. Tools like After Effects, Motion, and simpler web-based tools make this accessible without specialist design skills.",
+      "resources": [
+        {
+          "id": "OUWVqJImrmsZpAtRrUYNH-res-1",
+          "type": "video",
+          "title": "3 AMAZING Graphic Animations For Level UP Your Videos",
+          "url": "https://www.youtube.com/watch?v=cnyQkr21oM8"
+        },
+        {
+          "id": "OUWVqJImrmsZpAtRrUYNH-res-2",
+          "type": "video",
+          "title": "Essential Motion Graphics for Youtube",
+          "url": "https://www.youtube.com/watch?v=HH0VBOyht0E"
+        }
+      ]
+    },
+    "jyScVS-sYMcZcH3hOwbMK": {
+      "id": "jyScVS-sYMcZcH3hOwbMK",
+      "slug": "anticipate-questions",
+      "title": "Anticipate Questions",
+      "description": "When giving talks, especially at developer conferences or events, its important to anticipate the audience asking questions at the end of your talk. Being prepared to handle common questions related to your topic can help you with confidence and show that you're a subject matter expert when you answer them correctly. It's important however not to lie or give incorrect answers so make sure that if you don't know the answer, you're honest about it.",
+      "resources": [
+        {
+          "id": "jyScVS-sYMcZcH3hOwbMK-res-1",
+          "type": "article",
+          "title": "How to handle questions during a presentation",
+          "url": "https://www.secondnature.com.au/blog/how-to-handle-questions-during-a-presentation"
+        }
+      ]
+    },
+    "7IJO_jDpZUdlr_n5rBJ6O": {
+      "id": "7IJO_jDpZUdlr_n5rBJ6O",
+      "slug": "api-references",
+      "title": "API References",
+      "description": "Adding API References to your products documentation is a key component and the most common reason for developers using documentation. When creating API documentation, ensure you add examples for the most common languages as well as any details around authorization and common issues faced.",
+      "resources": [
+        {
+          "id": "7IJO_jDpZUdlr_n5rBJ6O-res-1",
+          "type": "article",
+          "title": "What Is API Documentation?",
+          "url": "https://blog.hubspot.com/website/api-documentation"
+        },
+        {
+          "id": "7IJO_jDpZUdlr_n5rBJ6O-res-2",
+          "type": "video",
+          "title": "API Documentation and Why it Matters",
+          "url": "https://www.youtube.com/watch?v=39Tt1IkLiQQ"
+        }
+      ]
+    },
+    "sUEZHmKxtjO9gXKJoOdbF": {
+      "id": "sUEZHmKxtjO9gXKJoOdbF",
+      "slug": "apis--sdks",
+      "title": "APIs & SDKs",
+      "description": "APIs and SDKs are the primary technical surfaces that DevRel teams support and promote. Understanding how they work, how they are designed, and how they are documented is fundamental to the role. DevRel professionals often serve as the bridge between the developers building on these interfaces and the teams that create them.",
+      "resources": []
+    },
+    "7y4vHk_jgNTW6Q1WoqYDc": {
+      "id": "7y4vHk_jgNTW6Q1WoqYDc",
+      "slug": "audio",
+      "title": "Audio",
+      "description": "Having good quality audio when live streaming or creating video content is a must; it is often said that viewers will accept lower quality video, but poor audio is a deal breaker. Unfortunately, this often includes purchasing a good quality microphone, although there are many improvements you can make to an existing setup, such as streaming from a quiet location with good acoustics and applying filters in your software of choice.",
+      "resources": [
+        {
+          "id": "7y4vHk_jgNTW6Q1WoqYDc-res-1",
+          "type": "article",
+          "title": "How to Improve Your Live Stream Audio",
+          "url": "https://www.soundproofcow.com/improve-live-stream-audio/"
+        },
+        {
+          "id": "7y4vHk_jgNTW6Q1WoqYDc-res-2",
+          "type": "video",
+          "title": "How to improve your live stream audio quality!",
+          "url": "https://www.youtube.com/watch?app=desktop&v=_bTb0YqJX9w"
+        }
+      ]
+    },
+    "aSYXa25_0O2qQl1O-N3xl": {
+      "id": "aSYXa25_0O2qQl1O-N3xl",
+      "slug": "basic-programming-skills",
+      "title": "Basic Programming Skills",
+      "description": "Basic programming skills are essential for Developer Relations professionals to effectively communicate with developers, understand their needs, and provide technical support. These skills include proficiency in at least one programming language, understanding of data structures and algorithms, and familiarity with development tools and technologies. Having basic programming skills enables Developer Relations professionals to create educational content, provide technical guidance, and participate in code reviews.",
+      "resources": [
+        {
+          "id": "aSYXa25_0O2qQl1O-N3xl-res-1",
+          "type": "article",
+          "title": "TheNewStack.io - Devrel",
+          "url": "https://thenewstack.io/devrel-for-beginners-how-to-get-started/"
+        },
+        {
+          "id": "aSYXa25_0O2qQl1O-N3xl-res-2",
+          "type": "article",
+          "title": "Getting Started With Devrel- Dev.to",
+          "url": "https://dev.to/rejoice/getting-started-with-devrel-22n3"
+        },
+        {
+          "id": "aSYXa25_0O2qQl1O-N3xl-res-3",
+          "type": "article",
+          "title": "How to become a DevRel",
+          "url": "https://www.pluralsight.com/resources/blog/tech-operations/developer-relations-getting-a-devrel-job"
+        }
+      ]
+    },
+    "rhs6QwxZ7PZthLfi38FJn": {
+      "id": "rhs6QwxZ7PZthLfi38FJn",
+      "slug": "be-concise",
+      "title": "Be Concise",
+      "description": "Being concise during a Q&A means delivering clear, direct answers that address the core of the question without unnecessary detail or digression. This approach respects the time of both the person asking and the audience, ensuring that key information is communicated effectively.",
+      "resources": [
+        {
+          "id": "rhs6QwxZ7PZthLfi38FJn-res-1",
+          "type": "article",
+          "title": "How to handle a Q&A",
+          "url": "https://anthonysanni.com/blog/3-common-difficult-q-session-questions-turn-advantage"
+        },
+        {
+          "id": "rhs6QwxZ7PZthLfi38FJn-res-2",
+          "type": "video",
+          "title": "How to answer any presentation question",
+          "url": "https://www.youtube.com/watch?v=lfiNFNTwFGU"
+        }
+      ]
+    },
+    "c0w241EL0Kh4ek76IgsEs": {
+      "id": "c0w241EL0Kh4ek76IgsEs",
+      "slug": "blog-posts",
+      "title": "Blog Posts",
+      "description": "Writing blog posts is about creating valuable, informative content that resonates with developers by addressing their interests, challenges, and learning needs. Effective blog posts should be well-structured, beginning with a clear introduction that outlines the problem or topic, followed by detailed, actionable insights, code examples, or step-by-step guides that help readers understand and apply the concepts. It’s essential to write in a clear, engaging tone that balances technical accuracy with readability, making sure to anticipate common questions and challenges developers might have.",
+      "resources": [
+        {
+          "id": "c0w241EL0Kh4ek76IgsEs-res-1",
+          "type": "article",
+          "title": "How to Write an SEO Blog Post: 11 Key Tips",
+          "url": "https://www.semrush.com/blog/seo-blog-post/"
+        },
+        {
+          "id": "c0w241EL0Kh4ek76IgsEs-res-2",
+          "type": "article",
+          "title": "How to Write an Awesome Blog Post in 5 Steps",
+          "url": "https://www.wordstream.com/blog/ws/2015/02/09/how-to-write-a-blog-post"
+        },
+        {
+          "id": "c0w241EL0Kh4ek76IgsEs-res-3",
+          "type": "video",
+          "title": "How to Write a PERFECT Blog Post in 2024",
+          "url": "https://www.youtube.com/watch?v=HoT9naGLgNk"
+        }
+      ]
+    },
+    "B1IdobUaGeBLI2CgsFg8H": {
+      "id": "B1IdobUaGeBLI2CgsFg8H",
+      "slug": "blogging",
+      "title": "Blogging",
+      "description": "Blogging is a strategic way to share knowledge, build credibility, and engage with the developer community. It involves writing content that educates, informs, or solves specific problems that developers face, such as tutorials, best practices, case studies, and product updates. Effective blogging should be both informative and approachable, using clear language, relevant examples, and practical insights that developers can easily apply.",
+      "resources": []
+    },
+    "GvmXdWiwITgWzx_f5_ick": {
+      "id": "GvmXdWiwITgWzx_f5_ick",
+      "slug": "building-a-community",
+      "title": "Building a Community",
+      "description": "Online developer communities have become the heart of successful DevTools (Developer Tools) go-to-market (GTM) strategies. They provide a platform for developers to connect, collaborate, learn, and share their expertise, ultimately fostering loyalty, driving product adoption, and fueling innovation.",
+      "resources": [
+        {
+          "id": "GvmXdWiwITgWzx_f5_ick-res-1",
+          "type": "article",
+          "title": "Building and Nurturing Online Developer Communities: The Ultimate Guide",
+          "url": "https://www.doc-e.ai/post/building-and-nurturing-online-developer-communities-the-ultimate-guide"
+        },
+        {
+          "id": "GvmXdWiwITgWzx_f5_ick-res-2",
+          "type": "article",
+          "title": "10 Proven Strategies for Building a Developer Community That Thrives: A Guide to Inclusion & Engagement",
+          "url": "https://dev.to/swati1267/10-proven-strategies-for-building-a-developer-community-that-thrives-a-guide-to-inclusion-engagement-21cm"
+        }
+      ]
+    },
+    "HN2gNsYYRLVOOdy_r8FKJ": {
+      "id": "HN2gNsYYRLVOOdy_r8FKJ",
+      "slug": "building-a-personal-brand",
+      "title": "Building a Personal Brand",
+      "description": "Building a personal brand in developer relations is about establishing a unique and authentic presence that showcases your expertise, values, and contributions to the developer community. It involves consistently sharing knowledge, insights, and experiences through various channels such as blogs, social media, podcasts, or public speaking, while engaging in meaningful conversations and collaborations. A strong personal brand helps build credibility and trust, making it easier to connect with other developers, influencers, and potential partners.",
+      "resources": [
+        {
+          "id": "HN2gNsYYRLVOOdy_r8FKJ-res-1",
+          "type": "article",
+          "title": "A New Approach to Building Your Personal Brand",
+          "url": "https://hbr.org/2023/05/a-new-approach-to-building-your-personal-brand"
+        },
+        {
+          "id": "HN2gNsYYRLVOOdy_r8FKJ-res-2",
+          "type": "video",
+          "title": "5 Steps to Building a Personal Brand You Feel Good About",
+          "url": "https://www.youtube.com/watch?v=ozMCb0wOnMU"
+        }
+      ]
+    },
+    "h6R3Vyq0U8t8WL3G5xC2l": {
+      "id": "h6R3Vyq0U8t8WL3G5xC2l",
+      "slug": "building-sdks",
+      "title": "Building SDKs",
+      "description": "Building SDKs (Software Development Kits) involves creating a set of tools, libraries, and documentation that help developers easily integrate and interact with a platform or service. A well-designed SDK abstracts the complexities of an API, providing a streamlined, user-friendly interface that enables developers to focus on building their applications rather than handling low-level technical details. It should be intuitive, well-documented, and robust, offering clear examples, error handling, and flexibility to suit different use cases.",
+      "resources": [
+        {
+          "id": "h6R3Vyq0U8t8WL3G5xC2l-res-1",
+          "type": "article",
+          "title": "How to build an SDK from scratch: Tutorial & best practices",
+          "url": "https://liblab.com/blog/how-to-build-an-sdk/"
+        },
+        {
+          "id": "h6R3Vyq0U8t8WL3G5xC2l-res-2",
+          "type": "article",
+          "title": "Guiding Principles for Building SDKs",
+          "url": "https://auth0.com/blog/guiding-principles-for-building-sdks/"
+        },
+        {
+          "id": "h6R3Vyq0U8t8WL3G5xC2l-res-3",
+          "type": "video",
+          "title": "API vs SDK",
+          "url": "https://www.youtube.com/watch?v=kG-fLp9BTRo"
+        }
+      ]
+    },
+    "er9ukuBvY-F4F8S1qbbjU": {
+      "id": "er9ukuBvY-F4F8S1qbbjU",
+      "slug": "code-of-conduct",
+      "title": "Code of Conduct",
+      "description": "A code of conduct is a formal document that sets expectations for member behavior and describes consequences for violations. It typically covers harassment, discrimination, and respectful communication. Publishing a code of conduct signals that the community takes inclusion seriously and provides recourse for members who experience problems.",
+      "resources": [
+        {
+          "id": "er9ukuBvY-F4F8S1qbbjU-res-1",
+          "type": "article",
+          "title": "Guide to writing a Code of Conduct",
+          "url": "https://projectinclude.org/writing_cocs"
+        },
+        {
+          "id": "er9ukuBvY-F4F8S1qbbjU-res-2",
+          "type": "article",
+          "title": "Code of Conduct meaning and template",
+          "url": "https://humaans.io/hr-glossary/code-of-conduct"
+        }
+      ]
+    },
+    "pGJrCyYhLLGUnv6LxpYUe": {
+      "id": "pGJrCyYhLLGUnv6LxpYUe",
+      "slug": "code-samples",
+      "title": "Code Samples",
+      "description": "Code samples are essential in sample projects as they provide concrete, practical examples that help developers understand how to use a platform, library, or tool. Well-crafted code samples should be clear, concise, and focused on demonstrating specific functionality, avoiding unnecessary complexity that might distract from the core concept. They should be easy to read, following consistent naming conventions, proper formatting, and best practices for the relevant programming language. Including inline comments and explanations can help clarify key steps, while additional context in the accompanying documentation or blog post can guide developers through the logic and potential use cases.",
+      "resources": [
+        {
+          "id": "pGJrCyYhLLGUnv6LxpYUe-res-1",
+          "type": "article",
+          "title": "Code Documentation Best Practices and Standards: A Complete Guide",
+          "url": "https://blog.codacy.com/code-documentation"
+        }
+      ]
+    },
+    "w1ZooDCDOkbL1EAa5Hx3d": {
+      "id": "w1ZooDCDOkbL1EAa5Hx3d",
+      "slug": "collaborations",
+      "title": "Collaborations",
+      "description": "Content collaborations involve creating blog posts, tutorials, or case studies jointly with community members, partners, or customers. Collaborations produce more credible content because they include real user perspectives, and they give the collaborating parties a shared stake in promoting the result. They are also an effective way to recognize and reward community contributors.",
+      "resources": [
+        {
+          "id": "w1ZooDCDOkbL1EAa5Hx3d-res-1",
+          "type": "article",
+          "title": "How to collaborate with bloggers",
+          "url": "https://www.create.net/blog/how-to-collaborate-with-bloggers"
+        },
+        {
+          "id": "w1ZooDCDOkbL1EAa5Hx3d-res-2",
+          "type": "article",
+          "title": "The Power of Collaborative Blogging: Building Relationships and Connecting with Others",
+          "url": "https://aicontentfy.com/en/blog/power-of-collaborative-blogging-building-relationships-and-connecting-with-others"
+        }
+      ]
+    },
+    "yJygbi8cnp3oz2EFl2MR0": {
+      "id": "yJygbi8cnp3oz2EFl2MR0",
+      "slug": "community-engagement",
+      "title": "Community Engagement",
+      "description": "Building a positive developer experience through community engagement is an ongoing process that requires dedication, empathy, and a genuine commitment to your users. By investing in a welcoming environment, facilitating knowledge sharing, and leveraging AI-powered tools like [Doc-E.ai](http://Doc-E.ai), you can create a thriving community that not only supports your product but also becomes a source of innovation, loyalty, and growth.",
+      "resources": [
+        {
+          "id": "yJygbi8cnp3oz2EFl2MR0-res-1",
+          "type": "article",
+          "title": "The Ultimate Guide to Developer Engagement and Community Building: Unlocking the Power of Developer-Centric Growth",
+          "url": "https://www.doc-e.ai/post/the-ultimate-guide-to-developer-engagement-and-community-building-unlocking-the-power-of-developer-centric-growth"
+        },
+        {
+          "id": "yJygbi8cnp3oz2EFl2MR0-res-2",
+          "type": "article",
+          "title": "Fostering a Positive Developer Experience Through Community Engagement: A Blueprint for DevTool Success",
+          "url": "https://www.doc-e.ai/post/fostering-a-positive-developer-experience-through-community-engagement-a-blueprint-for-devtool-success"
+        }
+      ]
+    },
+    "afR1VviBs2w0k8UmP38vn": {
+      "id": "afR1VviBs2w0k8UmP38vn",
+      "slug": "community-growth",
+      "title": "Community Growth",
+      "description": "Growing a community is a multifaceted process that requires strategic planning, consistent engagement, and a focus on providing value to members. It involves creating a welcoming environment, fostering meaningful interactions, and continuously adapting to the needs and interests of the community. Key aspects include developing clear goals, establishing communication channels, organizing events, encouraging user-generated content, and leveraging data-driven insights to refine strategies. Successful community growth not only increases numbers but also enhances the quality of interactions, builds loyalty, and creates a self-sustaining ecosystem where members actively contribute to and benefit from the community's collective knowledge and resources.",
+      "resources": [
+        {
+          "id": "afR1VviBs2w0k8UmP38vn-res-1",
+          "type": "video",
+          "title": "ecrets to Building the Most Engaging Community Ever",
+          "url": "https://www.youtube.com/watch?v=6ZVpufakwfk"
+        }
+      ]
+    },
+    "4ZvzY_xGO5BZOmfqj0TTq": {
+      "id": "4ZvzY_xGO5BZOmfqj0TTq",
+      "slug": "community-guidelines",
+      "title": "Community Guidelines",
+      "description": "Community guidelines define the norms of behavior expected from all members. They cover how to treat other members, what content is appropriate, how to ask for help, and what will result in removal. Clear guidelines create a safer, more welcoming environment and give moderators a consistent basis for making decisions.",
+      "resources": [
+        {
+          "id": "4ZvzY_xGO5BZOmfqj0TTq-res-1",
+          "type": "article",
+          "title": "Community Guidelines: How to Write and Enforce Them",
+          "url": "https://www.commsor.com/post/community-guidelines"
+        },
+        {
+          "id": "4ZvzY_xGO5BZOmfqj0TTq-res-2",
+          "type": "article",
+          "title": "Community Guidelines Mastery: From Creation to Enforcement",
+          "url": "https://bettermode.com/blog/community-guidelines"
+        }
+      ]
+    },
+    "-6cf3RT4-cbwvLYIkCosF": {
+      "id": "-6cf3RT4-cbwvLYIkCosF",
+      "slug": "community-management",
+      "title": "Community Management",
+      "description": "Community management is the day-to-day work of keeping a developer community active, healthy, and growing. It includes moderating discussions, welcoming new members, facilitating conversations, resolving conflicts, and recognizing contributors. Effective community management makes the difference between a community that thrives and one that goes quiet.",
+      "resources": [
+        {
+          "id": "-6cf3RT4-cbwvLYIkCosF-res-1",
+          "type": "article",
+          "title": "The Ultimate Guide to Community Management",
+          "url": "https://blog.hubspot.com/marketing/community-management-expert-advice"
+        },
+        {
+          "id": "-6cf3RT4-cbwvLYIkCosF-res-2",
+          "type": "article",
+          "title": "Online Community Management Tactics",
+          "url": "https://www.higherlogic.com/blog/online-community-management-guide/"
+        }
+      ]
+    },
+    "1NFcpGzCJylRPbFYdD9bB": {
+      "id": "1NFcpGzCJylRPbFYdD9bB",
+      "slug": "community-support",
+      "title": "Community Support",
+      "description": "Community support involves being present in the spaces where developers ask questions and share problems, such as forums, Discord servers, GitHub issues, and Stack Overflow. DevRel teams monitor these channels, answer questions, and connect developers with the right resources. Active support signals that the company cares about developer success beyond the sale.",
+      "resources": [
+        {
+          "id": "1NFcpGzCJylRPbFYdD9bB-res-1",
+          "type": "article",
+          "title": "Community and DevRel",
+          "url": "https://developerrelations.com/podcast/community-and-devrel"
+        },
+        {
+          "id": "1NFcpGzCJylRPbFYdD9bB-res-2",
+          "type": "article",
+          "title": "New to DevRel? Talk to your community!",
+          "url": "https://dev.to/amandamartindev/new-to-devrel-talk-to-your-community-hmf"
+        },
+        {
+          "id": "1NFcpGzCJylRPbFYdD9bB-res-3",
+          "type": "video",
+          "title": "DevRel & Community",
+          "url": "https://www.youtube.com/watch?v=CfXkY2m_0dU"
+        }
+      ]
+    },
+    "ue0NaNnNpF7UhvJ8j0Yuo": {
+      "id": "ue0NaNnNpF7UhvJ8j0Yuo",
+      "slug": "conference-speaking",
+      "title": "Conference Speaking",
+      "description": "Conference speaking is one of the highest-visibility activities in DevRel. A well-received talk at a major developer conference can reach thousands of developers and build lasting credibility. Building a speaking career involves developing signature talks, submitting to CFPs (Calls for Papers), and investing in the preparation and delivery skills that make talks memorable.",
+      "resources": [
+        {
+          "id": "ue0NaNnNpF7UhvJ8j0Yuo-res-1",
+          "type": "article",
+          "title": "How to speak at a conference",
+          "url": "https://www.eventible.com/learning/how-to-speak-at-a-conference/"
+        },
+        {
+          "id": "ue0NaNnNpF7UhvJ8j0Yuo-res-2",
+          "type": "video",
+          "title": "Secrets of Great Conference Talks",
+          "url": "https://www.youtube.com/watch?v=rOf5sPSBLjg"
+        }
+      ]
+    },
+    "8ls5kQvDgvwLbIrwYg1OL": {
+      "id": "8ls5kQvDgvwLbIrwYg1OL",
+      "slug": "conflict-resolution",
+      "title": "Conflict Resolution",
+      "description": "Conflict resolution addresses disputes between community members before they damage the community's health. This involves understanding each party's perspective, applying the community guidelines consistently, and helping members reach a resolution or enforcing consequences when necessary. Handled well, conflict resolution demonstrates that the community is safe and governed fairly.",
+      "resources": [
+        {
+          "id": "8ls5kQvDgvwLbIrwYg1OL-res-1",
+          "type": "article",
+          "title": "5 Conflict Resolution Strategies",
+          "url": "https://www.indeed.com/career-advice/career-development/conflict-resolution-strategies"
+        },
+        {
+          "id": "8ls5kQvDgvwLbIrwYg1OL-res-2",
+          "type": "video",
+          "title": "14 Effective Conflict Resolution Techniques",
+          "url": "https://www.youtube.com/watch?v=v4sby5j4dTY"
+        }
+      ]
+    },
+    "l2P44pL9eF8xarBwC_CVO": {
+      "id": "l2P44pL9eF8xarBwC_CVO",
+      "slug": "consistent-posting",
+      "title": "Consistent Posting",
+      "description": "Consistent posting means publishing on a regular schedule so the audience knows when to expect new content. Algorithms on most platforms reward consistency with better distribution, and audiences are more likely to follow accounts that post reliably. A content calendar helps plan and batch content production to maintain consistency without burning out.",
+      "resources": [
+        {
+          "id": "l2P44pL9eF8xarBwC_CVO-res-1",
+          "type": "article",
+          "title": "Why Posting Consistently is Key to Social Media",
+          "url": "https://forty8creates.com/why-posting-consistently-is-key-to-social-media/"
+        },
+        {
+          "id": "l2P44pL9eF8xarBwC_CVO-res-2",
+          "type": "video",
+          "title": "How to Create Consistent Content on Social Media",
+          "url": "https://www.youtube.com/watch?v=-bQpsCMgCkA"
+        }
+      ]
+    },
+    "_3ZnPUl4kzzuM0bKQ8IAq": {
+      "id": "_3ZnPUl4kzzuM0bKQ8IAq",
+      "slug": "content-creation",
+      "title": "Content Creation",
+      "description": "Content creation in the context of Developer Relations (DevRel) involves producing a wide range of materials designed to educate, engage, and empower developers. This includes writing technical blogs, creating video tutorials, developing comprehensive documentation, and crafting code samples and demos. The goal is to provide valuable resources that help developers understand and effectively use a product or platform. High-quality content addresses common challenges, showcases best practices, and highlights new features or updates.",
+      "resources": [
+        {
+          "id": "_3ZnPUl4kzzuM0bKQ8IAq-res-1",
+          "type": "article",
+          "title": "The secret of content creation for DevRel",
+          "url": "https://developerrelations.com/dev-rel/the-secrets-of-content-creation-for-devrels"
+        },
+        {
+          "id": "_3ZnPUl4kzzuM0bKQ8IAq-res-2",
+          "type": "article",
+          "title": "Content strategy for DevRel teams",
+          "url": "https://www.stephaniemorillo.co/post/content-strategy-for-devrel-teams-a-primer"
+        },
+        {
+          "id": "_3ZnPUl4kzzuM0bKQ8IAq-res-3",
+          "type": "video",
+          "title": "DevRel Content Creation with Stephanie Wong from Google Cloud",
+          "url": "https://www.youtube.com/watch?v=DQE1hBXVXYA"
+        }
+      ]
+    },
+    "yhDBZfUAjumFHpUZtmLg3": {
+      "id": "yhDBZfUAjumFHpUZtmLg3",
+      "slug": "content-performance",
+      "title": "Content Performance",
+      "description": "Content performance involves measuring, analyzing, and optimizing the impact of created content on the target audience. This multifaceted process encompasses tracking various metrics such as engagement rates, conversion rates, time spent on page, and social shares to gauge the effectiveness of content in achieving its intended goals. By leveraging sophisticated analytics tools and techniques, DevRel professionals can gain valuable insights into audience behavior, preferences, and pain points, enabling them to refine their content strategy, improve user experience, and ultimately drive better outcomes for both developers and the organization.",
+      "resources": [
+        {
+          "id": "yhDBZfUAjumFHpUZtmLg3-res-1",
+          "type": "article",
+          "title": "Content Performance: 19 Metrics to Track Your Results",
+          "url": "https://www.semrush.com/blog/content-performance/"
+        },
+        {
+          "id": "yhDBZfUAjumFHpUZtmLg3-res-2",
+          "type": "video",
+          "title": "How to measure the ROI of your content efforts",
+          "url": "https://www.youtube.com/watch?v=j1CNmi302Oc"
+        }
+      ]
+    },
+    "TGXPxTFv9EhsfS5uWR5gS": {
+      "id": "TGXPxTFv9EhsfS5uWR5gS",
+      "slug": "content-strategy",
+      "title": "Content Strategy",
+      "description": "A social media content strategy is a plan to use platforms effectively to engage and grow an audience. It starts with setting clear goals, like increasing brand awareness or driving traffic, and understanding the target audience. The strategy focuses on creating diverse, valuable content—tutorials, updates, tips, and interactive posts—that resonates with followers and encourages engagement. Choosing the right platforms, posting consistently, and actively responding to comments are key to building relationships.",
+      "resources": [
+        {
+          "id": "TGXPxTFv9EhsfS5uWR5gS-res-1",
+          "type": "article",
+          "title": "The Ultimate Guide to Creating a Content Marketing Strategy",
+          "url": "https://www.semrush.com/blog/content-marketing-strategy-guide/"
+        },
+        {
+          "id": "TGXPxTFv9EhsfS5uWR5gS-res-2",
+          "type": "article",
+          "title": "How to craft an effective social media content strategy",
+          "url": "https://sproutsocial.com/insights/social-media-content-strategy/"
+        }
+      ]
+    },
+    "bwwk6ESNyEJa3fCAIKPwh": {
+      "id": "bwwk6ESNyEJa3fCAIKPwh",
+      "slug": "continuous-learning",
+      "title": "Continuous Learning",
+      "description": "Continuous learning is the ongoing practice of staying current with technical developments, community trends, and DevRel practices. The field evolves quickly, and professionals who invest in learning consistently are better equipped to serve their communities and grow their careers. Learning happens through reading, courses, conferences, and hands-on experimentation.",
+      "resources": []
+    },
+    "LixiZj3-QcmQgGAqaaDr6": {
+      "id": "LixiZj3-QcmQgGAqaaDr6",
+      "slug": "contrast-principle",
+      "title": "Contrast Principle",
+      "description": "The contrast principle is a psychological concept where the perception of something is influenced by what came before it. In practical terms, it means that when two items are presented one after the other, the differences between them seem more pronounced. For example, if a developer sees a complex solution first, a simpler one that follows will appear even easier than it would on its own. This principle is often used in marketing, presentations, and negotiations to shape how choices are perceived, making certain options more attractive by strategically setting up contrasts.",
+      "resources": [
+        {
+          "id": "LixiZj3-QcmQgGAqaaDr6-res-1",
+          "type": "article",
+          "title": "How to have influence",
+          "url": "https://www.ethosdebate.com/influence-part-2-contrast-principle/"
+        },
+        {
+          "id": "LixiZj3-QcmQgGAqaaDr6-res-2",
+          "type": "article",
+          "title": "Psychology of perceptual contrast",
+          "url": "https://www.linkedin.com/pulse/psychology-perceptual-contrast-devender-kumar/"
+        }
+      ]
+    },
+    "ZWkpgvXIzjN3_fOyhVEv0": {
+      "id": "ZWkpgvXIzjN3_fOyhVEv0",
+      "slug": "creating-brand-voice",
+      "title": "Creating Brand Voice",
+      "description": "Brand voice is the consistent tone, style, and personality expressed across all of a company's communications. For DevRel, the brand voice needs to feel credible and peer-like to developers, avoiding corporate speak. Defining the brand voice in a brief guide helps everyone who creates content maintain a consistent identity across platforms.",
+      "resources": [
+        {
+          "id": "ZWkpgvXIzjN3_fOyhVEv0-res-1",
+          "type": "article",
+          "title": "Creating Your Brand Voice: A Complete Guide",
+          "url": "https://blog.hubspot.com/marketing/brand-voice"
+        },
+        {
+          "id": "ZWkpgvXIzjN3_fOyhVEv0-res-2",
+          "type": "article",
+          "title": "How to Define Your Brand’s Tone of Voice",
+          "url": "https://www.semrush.com/blog/how-to-define-your-tone-of-voice"
+        },
+        {
+          "id": "ZWkpgvXIzjN3_fOyhVEv0-res-3",
+          "type": "video",
+          "title": "Branding 101: How To Build Customer Loyalty With Brand Voice",
+          "url": "https://www.youtube.com/watch?v=et-a39drCsU"
+        }
+      ]
+    },
+    "nlzI2fG3SwC5Q42qXcXPX": {
+      "id": "nlzI2fG3SwC5Q42qXcXPX",
+      "slug": "cross-promotion",
+      "title": "Cross-Promotion",
+      "description": "Cross-promotion means sharing each other's content across different audiences and platforms when two parties produce related material. A guest blog post can be promoted by both the author and the hosting publication, reaching developers who follow each. Cross-promotion multiplies the distribution of individual pieces of content with minimal additional effort.",
+      "resources": [
+        {
+          "id": "nlzI2fG3SwC5Q42qXcXPX-res-1",
+          "type": "article",
+          "title": "What Is Cross-Promotion + 8 Cross-Promotion Strategies",
+          "url": "https://optinmonster.com/cross-promotion-ideas-triple-customers/"
+        },
+        {
+          "id": "nlzI2fG3SwC5Q42qXcXPX-res-2",
+          "type": "article",
+          "title": "How to cross promote on Social Media",
+          "url": "https://www.sprinklr.com/blog/cross-promote-social-media/"
+        }
+      ]
+    },
+    "46iMfYgC7fCZLCy-qzl1B": {
+      "id": "46iMfYgC7fCZLCy-qzl1B",
+      "slug": "data-driven-strategy-shift",
+      "title": "Data-Driven Strategy Shift",
+      "description": "A data-driven strategy shift means changing the content approach based on what performance data reveals. If certain topics, formats, or posting times consistently outperform others, those findings should reshape the content plan. Regularly reviewing analytics and acting on them prevents continuing to invest in content that does not reach or engage the target audience.",
+      "resources": [
+        {
+          "id": "46iMfYgC7fCZLCy-qzl1B-res-1",
+          "type": "article",
+          "title": "What Does a Data-Driven Digital Marketing Strategy Look Like",
+          "url": "https://medium.com/@vantageplusmarketing/implementing-data-driven-strategies-in-seo-and-content-marketing-6104a91afba0"
+        },
+        {
+          "id": "46iMfYgC7fCZLCy-qzl1B-res-2",
+          "type": "video",
+          "title": "Analytics vs Reporting: How to make Data-driven Business Decisions",
+          "url": "https://www.youtube.com/watch?v=kyNa3SdKU84"
+        }
+      ]
+    },
+    "0dRnUlgze87eq2FVU_mWp": {
+      "id": "0dRnUlgze87eq2FVU_mWp",
+      "slug": "data-visualization",
+      "title": "Data Visualization",
+      "description": "Data visualization involves using charts, graphs, and other visual tools to present data clearly and effectively. It transforms raw numbers into visual formats that make patterns, trends, and insights easier to understand at a glance. Good visualizations simplify complex data, highlighting key findings and supporting informed decision-making. When creating these visuals, it’s important to choose the right type—like bar charts for comparisons, line graphs for trends, or pie charts for proportions—and ensure they are clean, accurate, and easy to read.",
+      "resources": [
+        {
+          "id": "0dRnUlgze87eq2FVU_mWp-res-1",
+          "type": "article",
+          "title": "What is Data Visualization?",
+          "url": "https://www.ibm.com/topics/data-visualization"
+        },
+        {
+          "id": "0dRnUlgze87eq2FVU_mWp-res-2",
+          "type": "video",
+          "title": "Data Visualization in 2024",
+          "url": "https://www.youtube.com/watch?v=loYuxWSsLNc"
+        }
+      ]
+    },
+    "No-UnhdGmtLW9uFGLy-ca": {
+      "id": "No-UnhdGmtLW9uFGLy-ca",
+      "slug": "developer-experience",
+      "title": "Developer Experience",
+      "description": "Developer Experience (DX) refers to the overall experience developers have while using a software product, tool, or platform. A positive DX is characterized by intuitive and well-documented APIs, robust and clear documentation, seamless integration processes, and responsive support. Good DX ensures that developers can efficiently build, deploy, and manage applications, reducing frustration and increasing productivity.",
+      "resources": [
+        {
+          "id": "No-UnhdGmtLW9uFGLy-ca-res-1",
+          "type": "article",
+          "title": "What is developer experience?",
+          "url": "https://swimm.io/learn/developer-experience/what-is-developer-experience-devx-pillars-and-best-practices"
+        },
+        {
+          "id": "No-UnhdGmtLW9uFGLy-ca-res-2",
+          "type": "article",
+          "title": "Developer Experience: What is it and why should you care? GitHub",
+          "url": "https://github.blog/2023-06-08-developer-experience-what-is-it-and-why-should-you-care/"
+        }
+      ]
+    },
+    "BooGiYTMoS0N5eobwjPHY": {
+      "id": "BooGiYTMoS0N5eobwjPHY",
+      "slug": "developer-journey",
+      "title": "Developer Journey",
+      "description": "The Developer Journey encompasses the entire process that a developer goes through when interacting with a product or platform, from initial discovery to long-term engagement. This journey includes various stages such as awareness, onboarding, learning, building, deploying, and scaling. Each stage requires thoughtful design and support to ensure a smooth and positive experience. By understanding and optimizing each touchpoint in the Developer Journey, companies can reduce friction, enhance satisfaction, and foster a more loyal and productive developer community.",
+      "resources": [
+        {
+          "id": "BooGiYTMoS0N5eobwjPHY-res-1",
+          "type": "article",
+          "title": "The Developer Journey",
+          "url": "https://www.devrel.agency/developerjourney"
+        },
+        {
+          "id": "BooGiYTMoS0N5eobwjPHY-res-2",
+          "type": "article",
+          "title": "Developer Relations: The Developer Journey Map",
+          "url": "https://medium.com/codex/developer-relations-the-developer-journey-map-36bd4619f5f3"
+        },
+        {
+          "id": "BooGiYTMoS0N5eobwjPHY-res-3",
+          "type": "article",
+          "title": "Understand the developer journey",
+          "url": "https://www.commonroom.io/resources/ultimate-guide-to-developer-experience/"
+        }
+      ]
+    },
+    "UhMk8g5MMhvi3kWLLI6B1": {
+      "id": "UhMk8g5MMhvi3kWLLI6B1",
+      "slug": "developer-marketing",
+      "title": "Developer Marketing",
+      "description": "Developer marketing focuses on reaching, attracting, and retaining developers as an audience. Unlike consumer marketing, it requires technical credibility and relies on education, tutorials, open-source contributions, and community engagement rather than advertising. The goal is to help developers understand what a product does and how to get started quickly.",
+      "resources": [
+        {
+          "id": "UhMk8g5MMhvi3kWLLI6B1-res-1",
+          "type": "article",
+          "title": "What is developer marketing?",
+          "url": "https://appsembler.com/glossary/developer-marketing/"
+        },
+        {
+          "id": "UhMk8g5MMhvi3kWLLI6B1-res-2",
+          "type": "article",
+          "title": "What is developer marketing? IronHorse.io",
+          "url": "https://ironhorse.io/blog/what-is-developer-marketing/"
+        },
+        {
+          "id": "UhMk8g5MMhvi3kWLLI6B1-res-3",
+          "type": "article",
+          "title": "What is developer marketing (B2D)",
+          "url": "https://www.productmarketingalliance.com/what-is-developer-marketing/"
+        }
+      ]
+    },
+    "AwMwMU9hg_gCKPP4tykHb": {
+      "id": "AwMwMU9hg_gCKPP4tykHb",
+      "slug": "developer-satisfaction",
+      "title": "Developer Satisfaction",
+      "description": "Developer satisfaction refers to how content and engaged developers feel when using a platform, tool, or service. It encompasses aspects like ease of use, quality of documentation, helpfulness of support, and overall developer experience. High developer satisfaction is crucial because it leads to greater adoption, advocacy, and retention. To achieve it, platforms need to listen actively to developer feedback, provide intuitive and well-documented tools, and ensure quick, effective support. Regularly measuring satisfaction through surveys, feedback loops, and usage analytics helps identify areas for improvement, ensuring that the platform continues to meet developer needs effectively.",
+      "resources": [
+        {
+          "id": "AwMwMU9hg_gCKPP4tykHb-res-1",
+          "type": "article",
+          "title": "What are developer experience metrics?",
+          "url": "https://www.cortex.io/post/developer-experience-metrics-for-software-development-success"
+        },
+        {
+          "id": "AwMwMU9hg_gCKPP4tykHb-res-2",
+          "type": "article",
+          "title": "How to measure developer experience with metrics",
+          "url": "https://www.opslevel.com/resources/measuring-developer-experience-with-metrics"
+        }
+      ]
+    },
+    "g3M6nfLr0DMcn-NCFF7nZ": {
+      "id": "g3M6nfLr0DMcn-NCFF7nZ",
+      "slug": "documentation",
+      "title": "Documentation",
+      "description": "Developer onboarding documentation covers everything a new developer needs to go from zero to their first successful integration. It includes tutorials, API references, and user guides organized to match the developer's journey. Good onboarding documentation reduces the time to first success and lowers the volume of basic support questions.",
+      "resources": []
+    },
+    "6zK9EJDKBC89UArY7sfgs": {
+      "id": "6zK9EJDKBC89UArY7sfgs",
+      "slug": "editing",
+      "title": "Editing",
+      "description": "Editing transforms raw footage into a polished, watchable video by removing mistakes, dead air, and tangents. It also involves adding titles, captions, transitions, and annotations to guide the viewer. Even modest editing significantly improves the watchability of technical content and demonstrates respect for the audience's time.",
+      "resources": [
+        {
+          "id": "6zK9EJDKBC89UArY7sfgs-res-1",
+          "type": "article",
+          "title": "Introduction to video editing",
+          "url": "https://www.adobe.com/uk/creativecloud/video/discover/edit-a-video.html"
+        },
+        {
+          "id": "6zK9EJDKBC89UArY7sfgs-res-2",
+          "type": "article",
+          "title": "A complete guide on how to edit videos fast even if you are a beginner",
+          "url": "https://www.laura-moore.co.uk/a-complete-guide-on-how-to-edit-videos-fast-even-if-you-are-a-beginner/"
+        },
+        {
+          "id": "6zK9EJDKBC89UArY7sfgs-res-3",
+          "type": "video",
+          "title": "How to edit videos",
+          "url": "https://www.youtube.com/watch?app=desktop&v=sTqEmGNtNqk"
+        }
+      ]
+    },
+    "EjqJkyojhO7f1uFHIoyGY": {
+      "id": "EjqJkyojhO7f1uFHIoyGY",
+      "slug": "education",
+      "title": "Education",
+      "description": "Developer Education focuses on providing developers with the knowledge and skills they need to effectively use a product, platform, or technology. This involves creating and delivering a variety of educational materials such as documentation, tutorials, courses, webinars, and interactive workshops. Effective developer education programs cater to different learning styles and levels of expertise, from beginners to advanced users.",
+      "resources": [
+        {
+          "id": "EjqJkyojhO7f1uFHIoyGY-res-1",
+          "type": "article",
+          "title": "What is developer education?",
+          "url": "https://appsembler.com/glossary/developer-education/"
+        },
+        {
+          "id": "EjqJkyojhO7f1uFHIoyGY-res-2",
+          "type": "article",
+          "title": "What is developer education - Dev.to",
+          "url": "https://dev.to/jacobandrewsky/what-is-developer-education-5a01"
+        },
+        {
+          "id": "EjqJkyojhO7f1uFHIoyGY-res-3",
+          "type": "article",
+          "title": "Successful Developer Education: What you need to know",
+          "url": "https://www.developermarketing.io/successful-developer-education-what-you-need-to-know/"
+        }
+      ]
+    },
+    "6yLt4Ia52Jke9i5kJQvAC": {
+      "id": "6yLt4Ia52Jke9i5kJQvAC",
+      "slug": "encouraging-participation",
+      "title": "Encouraging Participation",
+      "description": "Encouraging participation means reducing the barriers and increasing the motivations for members to contribute. Tactics include welcoming new members publicly, asking direct questions to quiet members, creating low-effort entry points like polls or reactions, and making it easy to find ways to help. Communities that actively encourage participation grow faster and retain members longer.",
+      "resources": [
+        {
+          "id": "6yLt4Ia52Jke9i5kJQvAC-res-1",
+          "type": "article",
+          "title": "12 tips to encourage activity in an online community",
+          "url": "https://www.yunits.com/en/blogs/12-tips-to-encourage-activity-in-an-online-community/"
+        },
+        {
+          "id": "6yLt4Ia52Jke9i5kJQvAC-res-2",
+          "type": "article",
+          "title": "How To Increase Community Engagement",
+          "url": "https://www.aluminati.net/how-to-increase-community-engagement/"
+        }
+      ]
+    },
+    "RXj0yB7KsIOM5whwtyBBU": {
+      "id": "RXj0yB7KsIOM5whwtyBBU",
+      "slug": "engagement-rates",
+      "title": "Engagement Rates",
+      "description": "Engagement rates are key metrics that measure how actively an audience interacts with content on platforms like social media, blogs, or community forums. They reflect actions such as likes, comments, shares, and clicks, indicating how well the content resonates with the audience. High engagement rates suggest that the content is relevant, valuable, and appealing, while low rates can signal a need for adjustment in the messaging or approach. Tracking engagement rates helps in understanding audience preferences, refining content strategies, and assessing the effectiveness of campaigns, making them essential for improving overall communication and outreach efforts.",
+      "resources": [
+        {
+          "id": "RXj0yB7KsIOM5whwtyBBU-res-1",
+          "type": "article",
+          "title": "What is Engagement Rate",
+          "url": "https://sproutsocial.com/glossary/engagement-rate/"
+        },
+        {
+          "id": "RXj0yB7KsIOM5whwtyBBU-res-2",
+          "type": "video",
+          "title": "Introduction to Engagement Rate",
+          "url": "https://www.youtube.com/watch?v=SCTbIwADCo4"
+        }
+      ]
+    },
+    "iKYmUvWFT_C0wnO0iB6gM": {
+      "id": "iKYmUvWFT_C0wnO0iB6gM",
+      "slug": "engaging-audience",
+      "title": "Engaging Audience",
+      "description": "Engaging the audience in public speaking involves capturing and maintaining their attention through dynamic delivery, relatable content, and interactive elements. Effective speakers use storytelling, humor, and real-life examples to make complex ideas more accessible and memorable. Varying tone, pace, and body language helps keep the presentation lively and prevents monotony. Additionally, asking questions, encouraging participation, and inviting feedback can make the audience feel involved and connected. Engaging speakers not only convey information but also create an experience that resonates, making it easier for the audience to absorb and remember key points.",
+      "resources": []
+    },
+    "WIH216mHg2OiSebzQYI-f": {
+      "id": "WIH216mHg2OiSebzQYI-f",
+      "slug": "engaging-content",
+      "title": "Engaging Content",
+      "description": "Content on social media is designed to capture attention, spark interaction, and encourage sharing. It’s often visually appealing, informative, or entertaining, offering value that resonates with the audience’s interests. This can include eye-catching images, short videos, infographics, or quick tips that are easy to digest and act on. To boost engagement, content should invite responses, like asking questions, running polls, or encouraging users to share their thoughts.",
+      "resources": [
+        {
+          "id": "WIH216mHg2OiSebzQYI-f-res-1",
+          "type": "article",
+          "title": "Create engaging and effective social media content",
+          "url": "https://help.hootsuite.com/hc/en-us/articles/4403597090459-Create-engaging-and-effective-social-media-content"
+        },
+        {
+          "id": "WIH216mHg2OiSebzQYI-f-res-2",
+          "type": "video",
+          "title": "How To Create Engaging Videos As A Solo Creator",
+          "url": "https://www.youtube.com/watch?v=yxXOjyvIkik"
+        }
+      ]
+    },
+    "usorG1GkkvGAZ0h_AGHVk": {
+      "id": "usorG1GkkvGAZ0h_AGHVk",
+      "slug": "event-management",
+      "title": "Event Management",
+      "description": "Event management involves planning, organizing, and executing events, whether virtual or in-person, to create meaningful experiences for participants. It requires careful coordination of logistics, from selecting venues and scheduling to arranging speakers, promotions, and attendee engagement. Effective event management starts with clear objectives and a detailed plan, covering everything from budgeting and marketing to technical support and post-event follow-ups. Engaging content, interactive sessions, and smooth operations are essential to ensuring a positive experience, encouraging participation, and meeting the event’s goals.",
+      "resources": [
+        {
+          "id": "usorG1GkkvGAZ0h_AGHVk-res-1",
+          "type": "article",
+          "title": "A step-by-step guide to organising unforgettable professional events for developers",
+          "url": "https://weezevent.com/en-gb/blog/organising-events-for-developers/"
+        },
+        {
+          "id": "usorG1GkkvGAZ0h_AGHVk-res-2",
+          "type": "article",
+          "title": "Anatomy of a Developer Conference",
+          "url": "https://shiloh-events.com/anatomy-of-a-developer-conference/"
+        }
+      ]
+    },
+    "C2w8R4tNy2lOhhWU9l32s": {
+      "id": "C2w8R4tNy2lOhhWU9l32s",
+      "slug": "event-participation",
+      "title": "Event Participation",
+      "description": "Event participation involves encouraging members to actively join and contribute to events such as workshops, webinars, hackathons, or meetups. Effective participation starts with understanding the community’s interests and creating events that provide value, whether through learning opportunities, networking, or problem-solving. To boost attendance, clear communication, easy registration processes, and engaging promotions are essential. During the event, interactive elements like Q&A sessions, polls, and group activities help keep participants involved and foster a sense of community.",
+      "resources": []
+    },
+    "mWcMSKnUQamUykBxND-Ju": {
+      "id": "mWcMSKnUQamUykBxND-Ju",
+      "slug": "example-apps",
+      "title": "Example Apps",
+      "description": "Example apps are pre-built applications that demonstrate how to use a platform, framework, or set of tools in a practical, real-world scenario. These apps provide developers with hands-on examples of best practices, showing how different components work together and offering a solid starting point for building their projects. Effective example apps are well-documented, easy to set up, and cover common use cases, helping developers quickly understand core concepts and features. By providing clear, functional code, they reduce the learning curve, making it easier for developers to explore, experiment, and adopt new technologies.",
+      "resources": []
+    },
+    "1m1keusP-PTjEwy0dCJJL": {
+      "id": "1m1keusP-PTjEwy0dCJJL",
+      "slug": "execution",
+      "title": "Execution",
+      "description": "Execution is the delivery of the event itself, ensuring that everything planned comes together on the day. This includes managing the schedule, supporting speakers, handling technical issues, engaging attendees, and creating a welcoming atmosphere. Good execution makes an event feel polished and leaves attendees with a positive impression.",
+      "resources": [
+        {
+          "id": "1m1keusP-PTjEwy0dCJJL-res-1",
+          "type": "article",
+          "title": "How to run a successful hackathon",
+          "url": "https://hackathon.guide/"
+        },
+        {
+          "id": "1m1keusP-PTjEwy0dCJJL-res-2",
+          "type": "video",
+          "title": "So you want to run an online event",
+          "url": "https://www.youtube.com/watch?v=56rvtjZ9x3g"
+        }
+      ]
+    },
+    "ZMManUnO-9EQqi-xmLt5r": {
+      "id": "ZMManUnO-9EQqi-xmLt5r",
+      "slug": "facebook",
+      "title": "Facebook",
+      "description": "Facebook serves as a powerful platform for building and engaging developer communities. It allows developer advocates to share resources, host live events, and create dedicated groups or pages for discussions, fostering collaboration and knowledge sharing. Facebook’s global reach and engagement tools help advocates amplify content, provide support, and maintain an active presence in the developer ecosystem, creating a space for feedback, networking, and promoting tools or products to a broad audience.",
+      "resources": [
+        {
+          "id": "ZMManUnO-9EQqi-xmLt5r-res-1",
+          "type": "article",
+          "title": "Facebook marketing: The complete guide for your brand’s strategy",
+          "url": "https://sproutsocial.com/insights/facebook-marketing-strategy/"
+        }
+      ]
+    },
+    "4GCQ3stXxW1HrlAVC0qDl": {
+      "id": "4GCQ3stXxW1HrlAVC0qDl",
+      "slug": "faqs",
+      "title": "FAQs",
+      "description": "FAQs (Frequently Asked Questions) serve as a self-service resource that addresses common queries or issues users may encounter. They help reduce the volume of support tickets by providing quick, accessible answers to recurring problems, ranging from technical troubleshooting to product usage. Well-structured FAQs not only improve customer satisfaction by offering immediate solutions but also free up support teams to focus on more complex cases, ultimately enhancing overall efficiency and user experience. For developer relations, FAQs can include coding examples, integration tips, and clarifications about APIs or tools.",
+      "resources": [
+        {
+          "id": "4GCQ3stXxW1HrlAVC0qDl-res-1",
+          "type": "article",
+          "title": "12 Crystal-Clear FAQ Page Examples & How to Make Your Own",
+          "url": "https://blog.hubspot.com/service/faq-page"
+        },
+        {
+          "id": "4GCQ3stXxW1HrlAVC0qDl-res-2",
+          "type": "article",
+          "title": "How to write an FAQ page",
+          "url": "https://uk.indeed.com/career-advice/career-development/how-to-write-faq-page"
+        }
+      ]
+    },
+    "oWXfov-mOF47d7Vffyp3t": {
+      "id": "oWXfov-mOF47d7Vffyp3t",
+      "slug": "feedback-collection",
+      "title": "Feedback Collection",
+      "description": "Collecting feedback after an event reveals what worked, what did not, and what attendees want from future events. Feedback can be gathered through post-event surveys, direct conversations, and monitoring social media reactions. Acting on feedback visibly shows the community that their input shapes future events.",
+      "resources": [
+        {
+          "id": "oWXfov-mOF47d7Vffyp3t-res-1",
+          "type": "article",
+          "title": "7 Tips to Collect Effective Event Feedback",
+          "url": "https://daily.dev/blog/7-tips-to-collect-effective-event-feedback"
+        },
+        {
+          "id": "oWXfov-mOF47d7Vffyp3t-res-2",
+          "type": "article",
+          "title": "Post-event survey questions you should ask after any event",
+          "url": "https://uk.surveymonkey.com/mp/post-event-survey-questions/"
+        }
+      ]
+    },
+    "IxRvVvX9Fax08YUbVob4s": {
+      "id": "IxRvVvX9Fax08YUbVob4s",
+      "slug": "feedback-loop",
+      "title": "Feedback Loop",
+      "description": "Feedback loops are a crucial process that involves collecting, analyzing, and acting on feedback from developers to improve products and services. This loop begins with gathering insights through various channels such as forums, surveys, social media, direct interactions at events, and support tickets. The feedback is then communicated to internal teams, including product management, engineering, and marketing, to inform product enhancements, feature requests, and bug fixes.",
+      "resources": [
+        {
+          "id": "IxRvVvX9Fax08YUbVob4s-res-1",
+          "type": "article",
+          "title": "Harnessing the Power of Community Feedback for Product Development",
+          "url": "https://draft.dev/learn/devrel-harnessing-the-power-of-community-feedback-for-product-development"
+        },
+        {
+          "id": "IxRvVvX9Fax08YUbVob4s-res-2",
+          "type": "article",
+          "title": "The Developer Advocacy Feedback Loop",
+          "url": "https://glaforge.dev/talks/2020/08/06/the-developer-advocacy-feedback-loop/"
+        }
+      ]
+    },
+    "oGTIvAY3zYgoiC63FQRSd": {
+      "id": "oGTIvAY3zYgoiC63FQRSd",
+      "slug": "forums",
+      "title": "Forums",
+      "description": "Support forums are online platforms where developers can ask questions, share solutions, and collaborate on challenges related to specific products, technologies, or tools. They serve as a valuable resource for peer-to-peer support, allowing the community to contribute their expertise, often reducing the workload of official support teams. Active participation by developer advocates in these forums can foster stronger relationships, provide real-time feedback, and build trust within the community by addressing issues, clarifying doubts, and offering guidance in a more interactive and collaborative environment.",
+      "resources": []
+    },
+    "a-i1mgF3VAxbbpA1gMWyK": {
+      "id": "a-i1mgF3VAxbbpA1gMWyK",
+      "slug": "git",
+      "title": "Git",
+      "description": "Git is the standard distributed version control system. Core operations include committing changes, branching, merging, and pushing to remote repositories. DevRel professionals use Git daily when maintaining sample code, contributing to open-source projects, and collaborating on documentation.",
+      "resources": [
+        {
+          "id": "a-i1mgF3VAxbbpA1gMWyK-res-1",
+          "type": "article",
+          "title": "What is Git?",
+          "url": "https://www.atlassian.com/git/tutorials/what-is-git"
+        },
+        {
+          "id": "a-i1mgF3VAxbbpA1gMWyK-res-2",
+          "type": "article",
+          "title": "What is Git? Our beginner’s guide to version control",
+          "url": "https://github.blog/developer-skills/programming-languages-and-frameworks/what-is-git-our-beginners-guide-to-version-control/"
+        },
+        {
+          "id": "a-i1mgF3VAxbbpA1gMWyK-res-3",
+          "type": "video",
+          "title": "What is Git? Explained in 2 Minutes!",
+          "url": "https://www.youtube.com/watch?v=2ReR1YJrNOM"
+        }
+      ]
+    },
+    "8O1AgUKXe35kdiYD02dyt": {
+      "id": "8O1AgUKXe35kdiYD02dyt",
+      "slug": "github",
+      "title": "GitHub",
+      "description": "GitHub is the most widely used platform for hosting Git repositories and collaborating on code. Beyond version control, it provides tools for project management, issue tracking, community engagement through Discussions, and public backlog management. For many developer communities, a company's GitHub presence is a key signal of openness and developer investment.",
+      "resources": [
+        {
+          "id": "8O1AgUKXe35kdiYD02dyt-res-1",
+          "type": "article",
+          "title": "GitHub Website",
+          "url": "https://github.com"
+        },
+        {
+          "id": "8O1AgUKXe35kdiYD02dyt-res-2",
+          "type": "video",
+          "title": "How to Use GitHub",
+          "url": "https://www.youtube.com/watch?v=v_1iqtOnUMg"
+        }
+      ]
+    },
+    "8xrhjG9qmbsoBC3F8zS-b": {
+      "id": "8xrhjG9qmbsoBC3F8zS-b",
+      "slug": "google-analytics",
+      "title": "Google Analytics",
+      "description": "Google Analytics tracks web traffic, user behavior, and conversion events on documentation sites and developer portals. It shows where visitors come from, which pages they view, how long they stay, and where they drop off. These insights help DevRel teams optimize documentation structure and content to improve the developer onboarding experience.",
+      "resources": [
+        {
+          "id": "8xrhjG9qmbsoBC3F8zS-b-res-1",
+          "type": "article",
+          "title": "Google Analytics Academy",
+          "url": "https://developers.google.com/analytics"
+        },
+        {
+          "id": "8xrhjG9qmbsoBC3F8zS-b-res-2",
+          "type": "video",
+          "title": "Get started with Google Analytics",
+          "url": "https://www.youtube.com/watch?v=UuE37-MM1ws"
+        }
+      ]
+    },
+    "2QiQW9tygpeaES8Wp1Kw6": {
+      "id": "2QiQW9tygpeaES8Wp1Kw6",
+      "slug": "guest-blogging",
+      "title": "Guest Blogging",
+      "description": "Guest blogging involves writing for external publications or inviting external authors to contribute to the company blog. Publishing on established developer platforms increases reach beyond the existing audience. Hosting guest posts brings fresh perspectives, recognizes community contributors, and reduces the content production burden on the internal team.",
+      "resources": []
+    },
+    "Xf-Lxi1cKReo4yDLylBbL": {
+      "id": "Xf-Lxi1cKReo4yDLylBbL",
+      "slug": "handling-qa",
+      "title": "Handling Q&A",
+      "description": "Q&A sessions test a speaker's depth of knowledge and ability to think on their feet. Good Q&A handling involves active listening to understand the question fully, anticipating common questions in advance, and giving concise answers. Difficult or off-topic questions should be acknowledged and redirected without dismissing the person asking.",
+      "resources": []
+    },
+    "tbIAEStaoVWnEWbdk7EGc": {
+      "id": "tbIAEStaoVWnEWbdk7EGc",
+      "slug": "handouts",
+      "title": "Handouts",
+      "description": "Handouts are supplementary materials distributed before, during, or after a talk, such as slides, reference guides, or code snippets. They allow attendees to review content after the session and reduce the need to take notes during the talk. In technical presentations, handouts that include code samples or setup instructions are especially useful.",
+      "resources": []
+    },
+    "KP28dl1I9hxM130gIPxSZ": {
+      "id": "KP28dl1I9hxM130gIPxSZ",
+      "slug": "history-and-evolution",
+      "title": "History and Evolution",
+      "description": "DevRel as a formal discipline emerged in the late 1980s when Apple and Sun Microsystems created dedicated teams to support third-party developers building on their platforms. Over the following decades it evolved from a support function into a strategic role, growing alongside the API economy and open-source movement. Today it covers a broad range of activities from technical content creation to community building and product feedback.",
+      "resources": [
+        {
+          "id": "KP28dl1I9hxM130gIPxSZ-res-1",
+          "type": "article",
+          "title": "Developer Relations History & Mission Structure",
+          "url": "https://lmcdunna.medium.com/developer-relations-history-mission-structure-5fcad869deac"
+        },
+        {
+          "id": "KP28dl1I9hxM130gIPxSZ-res-2",
+          "type": "video",
+          "title": "History of Developer Evangelism",
+          "url": "https://www.youtube.com/watch?v=ieiQmyrmakI"
+        }
+      ]
+    },
+    "UKi3waPx2pozvZf2aQ52s": {
+      "id": "UKi3waPx2pozvZf2aQ52s",
+      "slug": "identifying-audience",
+      "title": "Identifying Audience",
+      "description": "Identifying the audience means understanding who the target developers are, what they build, what problems they face, and where they spend time online. This research shapes every decision about platform choice, content format, tone, and event type. Building a community without a clear picture of the audience leads to unfocused efforts and low engagement.",
+      "resources": []
+    },
+    "KdFYmj36M2jrGfsYkukpo": {
+      "id": "KdFYmj36M2jrGfsYkukpo",
+      "slug": "ides",
+      "title": "IDEs",
+      "description": "The concept of Integrated Development Environments (IDEs) traces its roots back to the 1960s and 1970s when basic text editors and simple programming tools were used in early computing. The first notable IDEs emerged with the rise of Unix systems in the 1970s, such as the EMACS text editor, which included features like code editing and debugging. Today, IDEs have become essential for developers, supporting multiple programming languages and integrating cloud-based tools, continuous integration, and real-time collaboration. IDEs like Visual Studio Code, IntelliJ IDEA, and Eclipse are widely adopted by developers across industries.",
+      "resources": [
+        {
+          "id": "KdFYmj36M2jrGfsYkukpo-res-1",
+          "type": "article",
+          "title": "Visual Studio Code",
+          "url": "https://code.visualstudio.com/"
+        },
+        {
+          "id": "KdFYmj36M2jrGfsYkukpo-res-2",
+          "type": "article",
+          "title": "JetBrains IDEs",
+          "url": "https://www.jetbrains.com/"
+        },
+        {
+          "id": "KdFYmj36M2jrGfsYkukpo-res-3",
+          "type": "article",
+          "title": "History of IDEs",
+          "url": "https://multiqos.com/blogs/guide-to-integrated-development-environment/#:~:text=While%20TurboPascal%20may%20have%20popularized,significant%20popularity%20in%20the%201980s."
+        }
+      ]
+    },
+    "N9HXTCQq2wfC-QurSofE_": {
+      "id": "N9HXTCQq2wfC-QurSofE_",
+      "slug": "importance-of-devrel",
+      "title": "Importance of DevRel",
+      "description": "Developers make purchasing and adoption decisions based on technical quality, documentation, and community trust rather than traditional marketing. A strong DevRel practice reduces friction for new developers, builds long-term loyalty, and creates a feedback channel between the community and the product team. Companies with active DevRel programs typically see faster developer onboarding and higher platform engagement.",
+      "resources": [
+        {
+          "id": "N9HXTCQq2wfC-QurSofE_-res-1",
+          "type": "article",
+          "title": "What is Developer Relations? The Ultimate Guide for DevTool GTM Teams",
+          "url": "https://www.doc-e.ai/post/what-is-developer-relations-the-ultimate-guide-for-devtool-gtm-teams"
+        },
+        {
+          "id": "N9HXTCQq2wfC-QurSofE_-res-2",
+          "type": "article",
+          "title": "DevRel - Why is it important?",
+          "url": "https://developers.onelogin.com/blog/devrel"
+        },
+        {
+          "id": "N9HXTCQq2wfC-QurSofE_-res-3",
+          "type": "article",
+          "title": "The role of developer advocacy in driving innovation",
+          "url": "https://leaddev.com/process/role-developer-advocacy-driving-innovation"
+        }
+      ]
+    },
+    "hPJM4QXxeqTxPlvJ2_D3_": {
+      "id": "hPJM4QXxeqTxPlvJ2_D3_",
+      "slug": "initial-outreach",
+      "title": "Initial Outreach",
+      "description": "Initial outreach is the process of inviting the first members to a new community before it has organic momentum. This involves identifying existing developers who use the product, reaching out directly, and giving them a reason to join and participate. The earliest members set the tone and help attract others through their presence and contributions.",
+      "resources": []
+    },
+    "mh1BZDVkc-VwA8aQAmDhO": {
+      "id": "mh1BZDVkc-VwA8aQAmDhO",
+      "slug": "insights--recommendations",
+      "title": "Insights & Recommendations",
+      "description": "Insights and recommendations transform data into action. Rather than just reporting numbers, this involves explaining what the data means, why it changed, and what should be done differently as a result. Reports that include concrete recommendations are more valuable to stakeholders and more likely to lead to informed decisions.",
+      "resources": []
+    },
+    "UAkGV9_I6qiKZMr1aqQCm": {
+      "id": "UAkGV9_I6qiKZMr1aqQCm",
+      "slug": "instagram",
+      "title": "Instagram",
+      "description": "Instagram is a visual platform used by some DevRel programs for brand building, event coverage, and behind-the-scenes content. It works best for reaching developers interested in company culture, community events, and visually engaging technical content like architecture diagrams or infographics. It is less effective for driving direct technical engagement than X or LinkedIn.",
+      "resources": []
+    },
+    "j6tr3mAaKqTuEFTRSCsrK": {
+      "id": "j6tr3mAaKqTuEFTRSCsrK",
+      "slug": "issue-tracking",
+      "title": "Issue Tracking",
+      "description": "Issue tracking through tools like GitHub Issues provides a structured way for developers to report bugs, request features, and ask questions within the context of a specific project. DevRel teams triage incoming issues, reproduce bugs, route them to the right teams, and communicate status updates back to reporters. Responsive issue management signals that the company takes developer feedback seriously.",
+      "resources": []
+    },
+    "vCoEJyS4qMWTTiL17PmWr": {
+      "id": "vCoEJyS4qMWTTiL17PmWr",
+      "slug": "issues--pull-requests",
+      "title": "Issues & Pull Requests",
+      "description": "GitHub Issues are used to report bugs, request features, and ask questions in a project's repository. Pull Requests propose changes to the codebase and trigger code review. DevRel professionals triage incoming issues, respond to questions, review community pull requests, and use both to maintain an active and welcoming project.",
+      "resources": []
+    },
+    "NCnKS435DCl-8vilr1_XE": {
+      "id": "NCnKS435DCl-8vilr1_XE",
+      "slug": "jetbrains-ides",
+      "title": "JetBrains IDEs",
+      "description": "JetBrains produces a family of IDEs tailored to specific languages, including IntelliJ IDEA for Java and Kotlin, PyCharm for Python, and WebStorm for JavaScript. They are widely used in enterprise and professional development environments. DevRel professionals working with these ecosystems should be familiar with JetBrains tooling and its plugin system.",
+      "resources": []
+    },
+    "DCj1teu8Hp82EKnakFRPn": {
+      "id": "DCj1teu8Hp82EKnakFRPn",
+      "slug": "key-metrics",
+      "title": "Key Metrics",
+      "description": "Key metrics in DevRel quantify the impact of the team's work on developer satisfaction, content effectiveness, community engagement, and growth. Tracking the right metrics helps justify investment in DevRel, identify what is working, and guide decisions about where to focus effort. Metrics should be chosen to reflect business outcomes, not just activity.",
+      "resources": []
+    },
+    "x3qTqhR1uA5CXqULIJqL8": {
+      "id": "x3qTqhR1uA5CXqULIJqL8",
+      "slug": "labelling-and-cleanup",
+      "title": "Labelling and Cleanup",
+      "description": "Labels in GitHub categorize issues and pull requests by type, priority, status, or area. Consistent labelling makes it easier for contributors to find beginner-friendly issues, understand what needs review, and filter by topic. Regular cleanup of stale issues and outdated labels keeps the repository approachable and the backlog meaningful.",
+      "resources": []
+    },
+    "6UR59TigEZ0NaixbaUIqn": {
+      "id": "6UR59TigEZ0NaixbaUIqn",
+      "slug": "linkedin",
+      "title": "LinkedIn",
+      "description": "LinkedIn is the professional social network where developers follow company pages, read industry articles, and make career decisions. DevRel content on LinkedIn tends to perform well when it focuses on career insights, technical learnings, product announcements, and developer success stories. LinkedIn reaches a different segment of the developer audience than X, including more senior roles and enterprise buyers.",
+      "resources": [
+        {
+          "id": "6UR59TigEZ0NaixbaUIqn-res-1",
+          "type": "article",
+          "title": "Visit LinkedIn",
+          "url": "https://linkedin.com"
+        }
+      ]
+    },
+    "iPaFjacZ7hSWriSEqUmHc": {
+      "id": "iPaFjacZ7hSWriSEqUmHc",
+      "slug": "live-streaming",
+      "title": "Live Streaming",
+      "description": "Live streaming brings DevRel content to audiences in real time, creating an interactive experience where viewers can ask questions and influence the direction of the session. It is used for coding sessions, product demos, community Q&As, and conference presentations. The informal, unedited nature of live streams can feel more authentic than polished video content.",
+      "resources": []
+    },
+    "VSOdD9KKF_Qz8nbRdHNo3": {
+      "id": "VSOdD9KKF_Qz8nbRdHNo3",
+      "slug": "managing-difficult-questions",
+      "title": "Managing Difficult Questions",
+      "description": "Difficult questions include those that are hostile, outside the speaker's knowledge, or designed to derail the discussion. Effective strategies include acknowledging the question honestly, offering to follow up offline, and redirecting to the talk's core topic when appropriate. Remaining calm and professional when challenged builds credibility with the rest of the audience.",
+      "resources": []
+    },
+    "J2WunUJBzYw_D5cQH_pnH": {
+      "id": "J2WunUJBzYw_D5cQH_pnH",
+      "slug": "managing-discussions",
+      "title": "Managing Discussions",
+      "description": "GitHub Discussions provides a forum-like space within a repository for longer-form conversations that are not bug reports or feature requests. DevRel teams use it for Q&A, announcements, polls, and general community conversations. Actively managing Discussions keeps the community informed and creates a searchable knowledge base for common questions.",
+      "resources": []
+    },
+    "QrDqUGWC2t9r6p4aR8I5g": {
+      "id": "QrDqUGWC2t9r6p4aR8I5g",
+      "slug": "media-appearances",
+      "title": "Media Appearances",
+      "description": "Media appearances include interviews, podcast episodes, and press quotes that extend reach to audiences beyond those already following the speaker. Being accessible to journalists, podcast hosts, and newsletter writers as a knowledgeable source increases visibility and positions the individual as a go-to expert in their area.",
+      "resources": []
+    },
+    "HIIqlnZ4Vad_1o4F0lkv-": {
+      "id": "HIIqlnZ4Vad_1o4F0lkv-",
+      "slug": "meetups",
+      "title": "Meetups",
+      "description": "Meetups are local or virtual gatherings of developers around a specific technology, interest, or geography. Attending and speaking at meetups builds relationships at a community level and reaches developers who may not attend large conferences. Organizing meetups creates a recurring touchpoint with the local developer community.",
+      "resources": []
+    },
+    "v_lDqjtxjRK67GsbtxXgT": {
+      "id": "v_lDqjtxjRK67GsbtxXgT",
+      "slug": "milestones--releases",
+      "title": "Milestones & Releases",
+      "description": "GitHub Milestones group issues and pull requests into planned releases or goals. They help communicate the project roadmap to contributors and users. Keeping milestones current and closing them with proper release notes shows a project is actively maintained and makes the development process legible to the community.",
+      "resources": []
+    },
+    "uwvvWmcZnFqLoHRDFXFyW": {
+      "id": "uwvvWmcZnFqLoHRDFXFyW",
+      "slug": "mind-mapping",
+      "title": "Mind Mapping",
+      "description": "Mind mapping is a visual technique for organizing ideas around a central concept, with branches representing related topics. It is used in talk preparation to explore the full scope of a subject before deciding what to include or cut. Mind maps help speakers see connections between ideas and avoid presenting in an overly linear way.",
+      "resources": []
+    },
+    "d_dKF87OnRWoWj3Bf1uFf": {
+      "id": "d_dKF87OnRWoWj3Bf1uFf",
+      "slug": "moderation",
+      "title": "Moderation",
+      "description": "Moderation involves reviewing content and member behavior to ensure the community stays within its guidelines. It ranges from removing spam and off-topic posts to handling reports of harassment or conflict. Good moderation is consistent, fair, and transparent, and it responds promptly enough to prevent problems from escalating.",
+      "resources": []
+    },
+    "4ygpqUK70hI5r1AmmfMZq": {
+      "id": "4ygpqUK70hI5r1AmmfMZq",
+      "slug": "networking-strategies",
+      "title": "Networking Strategies",
+      "description": "Networking strategies are deliberate approaches to building professional relationships that support career growth and the effectiveness of DevRel work. Effective networking is about giving value first, maintaining relationships consistently rather than only when needed, and engaging with communities in both online and in-person contexts.",
+      "resources": []
+    },
+    "SJf9e7SQnzYVHoRWl0i6P": {
+      "id": "SJf9e7SQnzYVHoRWl0i6P",
+      "slug": "networking",
+      "title": "Networking",
+      "description": "Networking in DevRel involves building professional relationships with other developers, advocates, event organizers, and community leaders. Strong networks amplify the reach of DevRel work through referrals, collaborations, and co-promotion. Conferences, meetups, and online communities are the primary venues for building these connections.",
+      "resources": []
+    },
+    "weyCcboaekqf5NuVAOxfU": {
+      "id": "weyCcboaekqf5NuVAOxfU",
+      "slug": "office-hours",
+      "title": "Office Hours",
+      "description": "Office hours are scheduled sessions where developers can join a live call to ask questions, get help debugging, or discuss their use case directly with a member of the DevRel or product team. They provide high-touch support for developers who are stuck and create direct feedback opportunities that are harder to get through asynchronous channels.",
+      "resources": []
+    },
+    "gvMbo22eRxqOzszc_w4Gz": {
+      "id": "gvMbo22eRxqOzszc_w4Gz",
+      "slug": "online-communities",
+      "title": "Online Communities",
+      "description": "Online communities are digital spaces where developers gather to discuss topics, ask questions, and share work. Examples include Discord servers, Slack workspaces, Reddit communities, GitHub Discussions, and Stack Overflow. DevRel professionals participate in these spaces to support developers, gather feedback, and build visibility for their product.",
+      "resources": []
+    },
+    "lMbj0WdoEia_tdpO5rXph": {
+      "id": "lMbj0WdoEia_tdpO5rXph",
+      "slug": "online-communities",
+      "title": "Online Communities",
+      "description": "Online communities for networking include developer forums, Slack groups, Discord servers, and LinkedIn groups focused on DevRel, developer tools, or specific technologies. Active participation in these spaces builds relationships with peers, potential collaborators, and future employers. Being helpful and visible in online communities compounds over time.",
+      "resources": []
+    },
+    "NhQUDVA9q1hnV44EKapbU": {
+      "id": "NhQUDVA9q1hnV44EKapbU",
+      "slug": "open-source",
+      "title": "Open-Source",
+      "description": "Contributing to open-source projects is a high-credibility networking and learning activity. It creates public evidence of technical skills, builds relationships with maintainers and contributors, and demonstrates investment in the ecosystem. DevRel professionals who contribute to open source are seen as genuine participants in the community rather than pure marketers.",
+      "resources": []
+    },
+    "_FZNqUKgPkzbgOPoiSLSU": {
+      "id": "_FZNqUKgPkzbgOPoiSLSU",
+      "slug": "pechakucha",
+      "title": "PechaKucha",
+      "description": "PechaKucha is a presentation format where a speaker shows 20 slides for exactly 20 seconds each, totaling 6 minutes and 40 seconds. The strict timing forces brevity and encourages visual storytelling over dense slides. It is used at community events and conferences where multiple short talks are given in sequence.",
+      "resources": []
+    },
+    "RQk3uOikjQYRyTu7vuAG7": {
+      "id": "RQk3uOikjQYRyTu7vuAG7",
+      "slug": "planning",
+      "title": "Planning",
+      "description": "Event planning involves defining the format, audience, goals, venue or platform, agenda, and budget. Good planning accounts for logistics, speaker preparation, accessibility, and contingency scenarios. Starting the planning process well in advance gives enough time to promote the event and attract the right attendees.",
+      "resources": []
+    },
+    "WItTQ1QboHoRkqeHJzCM9": {
+      "id": "WItTQ1QboHoRkqeHJzCM9",
+      "slug": "platform-selection",
+      "title": "Platform Selection",
+      "description": "Platform selection is the choice of where to host and grow a community, such as Discord, Slack, GitHub Discussions, a forum, or a mailing list. The right platform depends on the audience's existing habits, the desired type of interaction, and the level of moderation required. It is better to commit to one platform and do it well than to spread effort thinly across many.",
+      "resources": []
+    },
+    "AL3-UzREwTpsADTU0YtRW": {
+      "id": "AL3-UzREwTpsADTU0YtRW",
+      "slug": "platform-specific-analytics",
+      "title": "Platform Specific Analytics",
+      "description": "Platform-specific analytics cover the insights available within community platforms like Discord, GitHub, and YouTube. GitHub Insights shows repository traffic and contributor activity. YouTube Studio shows watch time, audience retention, and traffic sources. Each platform provides unique data that complements the broader analytics picture.",
+      "resources": []
+    },
+    "kmcOYDvu1vq7AQPllZvv0": {
+      "id": "kmcOYDvu1vq7AQPllZvv0",
+      "slug": "post-event-followup",
+      "title": "Post Event Followup",
+      "description": "Post-event followup extends the value of an event beyond the day it occurred. This includes sending recordings and resources to attendees, publishing a summary, following up with speakers, and reaching out to new contacts made during the event. Timely followup reinforces relationships and converts event energy into lasting community connections.",
+      "resources": []
+    },
+    "PFjF2PnYpSbvd24jb_D2G": {
+      "id": "PFjF2PnYpSbvd24jb_D2G",
+      "slug": "presentation-techniques",
+      "title": "Presentation Techniques",
+      "description": "Presentation techniques are the methods used to structure and deliver a talk effectively. Common approaches include the Rule of Three for organizing content, storytelling to make technical material memorable, and visual aids to reinforce key points. Choosing the right technique depends on the audience, the topic, and the format of the event.",
+      "resources": []
+    },
+    "C9--J8gGZENQKn-QcZK4M": {
+      "id": "C9--J8gGZENQKn-QcZK4M",
+      "slug": "promotion",
+      "title": "Promotion",
+      "description": "Promoting an event means reaching the target developer audience through the channels they use, including social media, community forums, email newsletters, and partner networks. Effective promotion communicates the value of attending clearly and creates multiple touchpoints between announcement and the event date.",
+      "resources": []
+    },
+    "7ZFTmlQHYQKNjKprwV8zk": {
+      "id": "7ZFTmlQHYQKNjKprwV8zk",
+      "slug": "public-backlog",
+      "title": "Public Backlog",
+      "description": "A public backlog on GitHub exposes the planned and in-progress work on a project or SDK to the developer community. It increases transparency, allows external contributors to identify where help is needed, and gives users insight into when issues they care about will be addressed. Maintaining a clean and up-to-date public backlog builds community trust.",
+      "resources": []
+    },
+    "LRZ8yxTfEGCXsYp4N1_uD": {
+      "id": "LRZ8yxTfEGCXsYp4N1_uD",
+      "slug": "public-speaking",
+      "title": "Public Speaking",
+      "description": "Public speaking is very important for a Developer Relations (DevRel) role, though its exact importance depends on the specific job and company. DevRel professionals act as a bridge between a company (often its tech or product team) and the developer community, so communication—especially in public settings—is a core part of the gig.",
+      "resources": []
+    },
+    "I7RBMfoD30OstVLeTrMs9": {
+      "id": "I7RBMfoD30OstVLeTrMs9",
+      "slug": "publishing",
+      "title": "Publishing",
+      "description": "Publishing thought leadership content involves writing articles, essays, research reports, or opinion pieces for blogs, industry publications, and developer platforms. The goal is to contribute ideas that the audience finds genuinely useful or thought-provoking, not just to market a product. Consistent, high-quality publishing establishes a reputation as a credible voice in the ecosystem.",
+      "resources": []
+    },
+    "Nta8pUncwNQxJlqF6h1AT": {
+      "id": "Nta8pUncwNQxJlqF6h1AT",
+      "slug": "recognition-programs",
+      "title": "Recognition Programs",
+      "description": "Recognition programs acknowledge and reward community members who contribute positively through answering questions, creating content, reporting bugs, or helping onboard new members. Formats include MVPs, badges, featured spotlights, and early access programs. Recognition programs increase motivation, build loyalty, and identify potential advocates and future collaborators.",
+      "resources": []
+    },
+    "_QHUpFW4kZ5SBaP7stXY2": {
+      "id": "_QHUpFW4kZ5SBaP7stXY2",
+      "slug": "recording",
+      "title": "Recording",
+      "description": "Recording a high-quality technical video requires adequate screen resolution, a clean microphone signal, and a distraction-free environment. Screen recordings for tutorials should use a large font, high contrast, and a zoomed-in view when showing code. Recording in shorter segments and assembling them in editing is usually more efficient than attempting long single takes.",
+      "resources": []
+    },
+    "U2QKCu6TvDuxSNRfdM74n": {
+      "id": "U2QKCu6TvDuxSNRfdM74n",
+      "slug": "regular-reports",
+      "title": "Regular Reports",
+      "description": "Regular reports, produced weekly, monthly, or quarterly, keep stakeholders informed about DevRel performance without requiring them to dig into raw data. They typically cover key metrics against targets, highlights from the period, and areas for improvement. Cadence and format should match the audience's level of interest and the pace of the work.",
+      "resources": []
+    },
+    "2iRt9E42i_ej4woKCW_s2": {
+      "id": "2iRt9E42i_ej4woKCW_s2",
+      "slug": "repetition--reinforcement",
+      "title": "Repetition & Reinforcement",
+      "description": "Repetition and reinforcement involve stating key messages multiple times across a talk in different ways to improve retention. The principle is to tell the audience what you will say, say it, then summarize what you said. Repeating the core idea in varied forms helps different types of learners absorb it.",
+      "resources": []
+    },
+    "N1uh7dVKfSPT7w0MlKzWO": {
+      "id": "N1uh7dVKfSPT7w0MlKzWO",
+      "slug": "reporting",
+      "title": "Reporting",
+      "description": "Reporting translates raw analytics data into structured summaries that communicate the impact of DevRel work to stakeholders. Regular reports build organizational trust in the team and provide a record of progress over time. Good reports focus on trends and insights rather than raw numbers, and connect metrics to business outcomes.",
+      "resources": []
+    },
+    "8I59U-nnkhQv8ldRuqQlb": {
+      "id": "8I59U-nnkhQv8ldRuqQlb",
+      "slug": "rules-and-policies",
+      "title": "Rules and Policies",
+      "description": "Rules and policies go beyond the code of conduct to cover operational details: how to post in different channels, what is off-topic, how to report issues, and what promotional content is allowed. Well-documented rules reduce ambiguity and lower the moderation burden by preventing common misunderstandings before they arise.",
+      "resources": []
+    },
+    "vH_ECVYSQ3Fg-DASO1EgK": {
+      "id": "vH_ECVYSQ3Fg-DASO1EgK",
+      "slug": "rules-of-three",
+      "title": "Rules of Three",
+      "description": "The Rule of Three is a presentation principle based on the idea that audiences remember information most effectively when it is grouped in sets of three. Structuring a talk around three main points, three examples, or three takeaways makes the content easier to follow and recall. It is one of the most widely used frameworks in speechwriting and presentation design.",
+      "resources": []
+    },
+    "xy9Kqtwrh5IhYHaqEhvl_": {
+      "id": "xy9Kqtwrh5IhYHaqEhvl_",
+      "slug": "sample-projects",
+      "title": "Sample Projects",
+      "description": "Sample projects are complete, working applications that demonstrate how to use a product in a realistic context. Unlike tutorials, which teach step by step, sample projects give developers a starting point they can explore, run, and adapt. They are especially useful for developers who prefer to learn by reading code rather than following instructions.",
+      "resources": []
+    },
+    "rLDRkUht9K1m4noMAIgKU": {
+      "id": "rLDRkUht9K1m4noMAIgKU",
+      "slug": "scripting",
+      "title": "Scripting",
+      "description": "A script or detailed outline before recording ensures the video covers its topic efficiently and stays on track. Even a loosely structured script reduces retakes, filler words, and tangents. For tutorial videos, scripting means working through the code in advance so the recording flows without unexpected errors or confusion.",
+      "resources": []
+    },
+    "zVBy8o66FdZueg-2v3gaw": {
+      "id": "zVBy8o66FdZueg-2v3gaw",
+      "slug": "seo-basics",
+      "title": "SEO Basics",
+      "description": "SEO (Search Engine Optimization) for technical blog posts involves writing about topics developers search for, using accurate and specific language, structuring content with clear headings, and linking to related resources. Good SEO practices make content discoverable long after it is published and compound in value over time.",
+      "resources": []
+    },
+    "x8RIrK2VB-LBFbt6hAcQb": {
+      "id": "x8RIrK2VB-LBFbt6hAcQb",
+      "slug": "social-media-analytics",
+      "title": "Social Media Analytics",
+      "description": "Social media analytics tools, including native platform dashboards and third-party tools like Buffer and Sprout Social, track post performance, audience growth, and engagement over time. They allow comparisons across content types and posting times, revealing patterns that inform the content strategy.",
+      "resources": []
+    },
+    "71BBFjaON1NJi4rOHKW6K": {
+      "id": "71BBFjaON1NJi4rOHKW6K",
+      "slug": "social-media",
+      "title": "Social Media",
+      "description": "Social media is a primary channel for DevRel outreach, community engagement, and content distribution. Different platforms serve different purposes: X for real-time conversation, LinkedIn for professional reach, Instagram for visual storytelling, and Facebook for certain community groups. An effective social media presence builds audience, drives traffic, and keeps the developer community informed.",
+      "resources": []
+    },
+    "urbtoZtuJryK-6TJ3lmRN": {
+      "id": "urbtoZtuJryK-6TJ3lmRN",
+      "slug": "social-media",
+      "title": "Social Media",
+      "description": "Social media writing for DevRel involves communicating technical ideas concisely across platforms like X, LinkedIn, and Mastodon. Posts need to be accurate, engaging, and relevant to the developer audience. Social media writing builds a public presence for both the individual and the product, and drives traffic to longer-form content.",
+      "resources": []
+    },
+    "Y0GUZynSXjITDOA-TP6LH": {
+      "id": "Y0GUZynSXjITDOA-TP6LH",
+      "slug": "storytelling",
+      "title": "Storytelling",
+      "description": "Storytelling frames technical content within a narrative structure that makes it more relatable and memorable. A story typically follows a pattern of context, conflict, and resolution, which maps well onto problem-solution formats common in DevRel talks. Good technical storytelling shows real-world impact rather than just describing features.",
+      "resources": []
+    },
+    "meZDgDJMy4aH5VqS-NJL4": {
+      "id": "meZDgDJMy4aH5VqS-NJL4",
+      "slug": "streamyard",
+      "title": "Streamyard",
+      "description": "Streamyard is a browser-based live streaming studio that makes it easy to broadcast to multiple platforms simultaneously, add guests via video call, display comments on screen, and apply branded overlays. It reduces the technical complexity of live production, making it accessible for DevRel teams without dedicated streaming infrastructure.",
+      "resources": []
+    },
+    "LwNa3u9Lf88ju5w7CvSN5": {
+      "id": "LwNa3u9Lf88ju5w7CvSN5",
+      "slug": "support",
+      "title": "Support",
+      "description": "Developer support in DevRel covers the channels and resources that help developers resolve problems and get answers. It includes asynchronous options like forums, issue trackers, and FAQs as well as synchronous options like webinars and office hours. Good support reduces developer frustration, speeds up integrations, and creates opportunities for direct feedback.",
+      "resources": []
+    },
+    "_Qe_0RksYpX7Spzgc6Fw3": {
+      "id": "_Qe_0RksYpX7Spzgc6Fw3",
+      "slug": "surveys",
+      "title": "Surveys",
+      "description": "Surveys are structured questionnaires used to collect feedback from event attendees or community members at scale. A good post-event survey is short, specific, and includes both rating scales and open-ended questions. Survey results provide quantitative data on satisfaction and qualitative insights on what to improve.",
+      "resources": []
+    },
+    "X0xUzEP0S6SyspvqyoDDk": {
+      "id": "X0xUzEP0S6SyspvqyoDDk",
+      "slug": "technical-documentation",
+      "title": "Technical Documentation",
+      "description": "Technical documentation explains how a product works and how to use it. Good documentation is accurate, complete, and organized so developers can find what they need quickly. It includes conceptual overviews, how-to guides, API references, and troubleshooting sections, each serving a different stage of the developer journey.",
+      "resources": [
+        {
+          "id": "X0xUzEP0S6SyspvqyoDDk-res-1",
+          "type": "article",
+          "title": "Technical Writer Roadmap",
+          "url": "https://roadmap.sh/technical-writer"
+        },
+        {
+          "id": "X0xUzEP0S6SyspvqyoDDk-res-2",
+          "type": "article",
+          "title": "Technical Writing - MDN Docs",
+          "url": "https://developer.mozilla.org/en-US/blog/technical-writing/"
+        },
+        {
+          "id": "X0xUzEP0S6SyspvqyoDDk-res-3",
+          "type": "article",
+          "title": "Technical Documentation - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Technical_documentation"
+        }
+      ]
+    },
+    "8aiLVG4clveX1Luiehvxr": {
+      "id": "8aiLVG4clveX1Luiehvxr",
+      "slug": "technical-setup",
+      "title": "Technical Setup",
+      "description": "Technical setup for live streaming involves configuring streaming software, audio and video hardware, internet connection stability, and platform settings. Testing the full setup before going live reduces the risk of technical failures mid-stream. A basic checklist covering audio levels, screen share functionality, and backup plans helps ensure smooth broadcasts.",
+      "resources": []
+    },
+    "VTGsmk3p4RVXiNhDmx2l8": {
+      "id": "VTGsmk3p4RVXiNhDmx2l8",
+      "slug": "the-hook",
+      "title": "The Hook",
+      "description": "A hook is the opening of a presentation designed to capture audience attention immediately. It can be a provocative question, a surprising statistic, a short story, or a live demonstration. A strong hook sets the tone for the talk and gives the audience a reason to keep listening.",
+      "resources": []
+    },
+    "wcfrXA9zWZ4Taey7mR2yG": {
+      "id": "wcfrXA9zWZ4Taey7mR2yG",
+      "slug": "thought-leadership",
+      "title": "Thought Leadership",
+      "description": "Thought leadership means contributing original ideas, perspectives, and analysis to conversations in the developer and technology community. It is built through publishing, speaking, and participating in discussions in ways that demonstrate expertise and a distinctive point of view. Strong thought leadership increases both personal and company credibility over time.",
+      "resources": []
+    },
+    "psk3bo-nSskboAoVTjlpz": {
+      "id": "psk3bo-nSskboAoVTjlpz",
+      "slug": "tools",
+      "title": "Tools",
+      "description": "DevRel teams use a range of analytics tools to measure content and community performance. These include general web analytics, social media native analytics, and platform-specific tools. Using the right tools for each channel ensures the team has accurate, actionable data rather than relying on manual tracking.",
+      "resources": []
+    },
+    "uzMfR6Yd9Jvjn8i5RpC1Q": {
+      "id": "uzMfR6Yd9Jvjn8i5RpC1Q",
+      "slug": "topic-selection",
+      "title": "Topic Selection",
+      "description": "Choosing the right blog topics means identifying subjects that the target audience is actively searching for or discussing, that align with the product's strengths, and that the author can cover with genuine depth. Good topic selection combines keyword research, community observation, and awareness of trending conversations in the ecosystem.",
+      "resources": []
+    },
+    "NWxAxiDgvlGpvqdkzqnOH": {
+      "id": "NWxAxiDgvlGpvqdkzqnOH",
+      "slug": "tracking-engagement",
+      "title": "Tracking Engagement",
+      "description": "Tracking engagement means monitoring likes, comments, shares, replies, and saves across social platforms to understand how the audience is responding to content. High engagement relative to reach indicates the content is resonating. Engagement data is more useful than follower count because it reflects active interest rather than passive presence.",
+      "resources": []
+    },
+    "6ubk20TBIL3_VrrRMe8tO": {
+      "id": "6ubk20TBIL3_VrrRMe8tO",
+      "slug": "tutorials",
+      "title": "Tutorials",
+      "description": "Tutorials guide developers through completing a specific task step by step. A good tutorial has a clear goal, working code at every step, and is written for the developer's current level of knowledge. Tutorials are the most effective onboarding content because they give developers a concrete win early in their experience with a product.",
+      "resources": []
+    },
+    "QlWam-kHv8G_-yx3ClP9s": {
+      "id": "QlWam-kHv8G_-yx3ClP9s",
+      "slug": "twitch",
+      "title": "Twitch",
+      "description": "Twitch is a live streaming platform primarily known for gaming but with a growing developer and coding community. It is used by some DevRel professionals for live coding sessions, pair programming, and casual community interactions. Twitch's chat and clip features make it easy for viewers to engage and share moments from a stream.",
+      "resources": []
+    },
+    "7Q6_tdRaeb8BgreG8Mw-a": {
+      "id": "7Q6_tdRaeb8BgreG8Mw-a",
+      "slug": "understanding-apis",
+      "title": "Understanding APIs",
+      "description": "An API (Application Programming Interface) defines how software components interact, specifying the requests that can be made, the data formats used, and the authentication required. DevRel professionals must understand REST, GraphQL, and webhook patterns well enough to explain them clearly, write accurate documentation, and identify friction points in the developer experience.",
+      "resources": []
+    },
+    "omnUSgUHZg2DmnOUJ0Xo1": {
+      "id": "omnUSgUHZg2DmnOUJ0Xo1",
+      "slug": "use-case-based",
+      "title": "Use Case Based",
+      "description": "Use-case-based sample projects are organized around what a developer wants to build rather than around individual API features. Examples include a chat application, an image processing pipeline, or a payment integration. This framing is more intuitive for developers who arrive with a goal in mind rather than a desire to explore the API systematically.",
+      "resources": []
+    },
+    "RLf08xKMjlt6S9-MFiTo-": {
+      "id": "RLf08xKMjlt6S9-MFiTo-",
+      "slug": "user-guides",
+      "title": "User Guides",
+      "description": "User guides explain how to accomplish common tasks and workflows with a product, sitting between tutorials and API references in depth. They address the \"how do I do X?\" questions that come up after the initial onboarding. Organized by use case rather than by API structure, user guides are particularly valuable for developers building more complex integrations.",
+      "resources": []
+    },
+    "x6KFf4akYuUYkNhrUwj1r": {
+      "id": "x6KFf4akYuUYkNhrUwj1r",
+      "slug": "version-control",
+      "title": "Version Control",
+      "description": "Version Control Systems (VCS) like Git track code changes and enable developer collaboration through modification history. Features include branching, merging, reverting, remote repositories, pull requests, and code reviews. Essential for modern software development productivity, quality, and teamwork.",
+      "resources": [
+        {
+          "id": "x6KFf4akYuUYkNhrUwj1r-res-1",
+          "type": "article",
+          "title": "Visit Dedicated Git & GitHub Roadmap",
+          "url": "https://roadmap.sh/git-github"
+        },
+        {
+          "id": "x6KFf4akYuUYkNhrUwj1r-res-2",
+          "type": "course",
+          "title": "Why version control? (Interactive Lesson)",
+          "url": "https://inter-git.com/lessons/introduction"
+        },
+        {
+          "id": "x6KFf4akYuUYkNhrUwj1r-res-3",
+          "type": "article",
+          "title": "What is version control?",
+          "url": "https://www.atlassian.com/git/tutorials/what-is-version-control"
+        },
+        {
+          "id": "x6KFf4akYuUYkNhrUwj1r-res-4",
+          "type": "video",
+          "title": "What is a Version Control System and why you should always use it",
+          "url": "https://www.youtube.com/watch?v=IeXhYROClZk"
+        }
+      ]
+    },
+    "bRzzc137OlmivEGdhv5Ew": {
+      "id": "bRzzc137OlmivEGdhv5Ew",
+      "slug": "video-production",
+      "title": "Video Production",
+      "description": "Video production for developer relations covers planning, recording, and publishing technical content such as tutorials, live streams, and conference talks. It involves scripting, screen and audio capture, editing, and distribution — with emphasis on clear code visuals and practical examples for a developer audience.",
+      "resources": []
+    },
+    "pEMNcm_wJNmOkWm57L1pA": {
+      "id": "pEMNcm_wJNmOkWm57L1pA",
+      "slug": "video-production",
+      "title": "Video Production",
+      "description": "Video production is a significant part of DevRel content work, covering tutorial screencasts, conference talk recordings, product demos, and interview content. Good technical video requires clear scripting, quality audio, and competent editing to be worth a developer's time. Video content reaches audiences who prefer watching to reading and performs well on YouTube and social media.",
+      "resources": []
+    },
+    "tRywPj_2VyjSLjxYJtYZd": {
+      "id": "tRywPj_2VyjSLjxYJtYZd",
+      "slug": "video",
+      "title": "Video",
+      "description": "Video quality in live streaming covers resolution, frame rate, lighting, and camera angle. Good lighting, particularly a key light facing the presenter, makes a significant difference in perceived production quality. While 1080p is standard, consistent framing and a clean background matter more than raw resolution.",
+      "resources": []
+    },
+    "SNhrYZsmyDHN_JWh0eZy2": {
+      "id": "SNhrYZsmyDHN_JWh0eZy2",
+      "slug": "visualization",
+      "title": "Visualization",
+      "description": "Visualization in presentations means using diagrams, charts, architecture drawings, and live demos to illustrate concepts that are harder to convey in words alone. Strong visuals reduce cognitive load and help diverse audiences follow technical content regardless of background. The best visuals are simple, focused, and directly tied to the point being made.",
+      "resources": []
+    },
+    "j5nNSYI8s-cH8EA6G1EWY": {
+      "id": "j5nNSYI8s-cH8EA6G1EWY",
+      "slug": "vs-code",
+      "title": "VS Code",
+      "description": "Visual Studio Code is the most widely used code editor among developers across almost every language and platform. It is lightweight, extensible through a large marketplace of extensions, and free. Being fluent in VS Code helps DevRel professionals create tutorials and demos that match the environment most developers already use.",
+      "resources": [
+        {
+          "id": "j5nNSYI8s-cH8EA6G1EWY-res-1",
+          "type": "article",
+          "title": "Visual Studio Code",
+          "url": "https://code.visualstudio.com/"
+        },
+        {
+          "id": "j5nNSYI8s-cH8EA6G1EWY-res-2",
+          "type": "article",
+          "title": "Docs - Visual Studio Code",
+          "url": "https://code.visualstudio.com/docs"
+        },
+        {
+          "id": "j5nNSYI8s-cH8EA6G1EWY-res-3",
+          "type": "video",
+          "title": "FreeCodeCamp Crash Course",
+          "url": "https://www.youtube.com/watch?v=WPqXP_kLzpo"
+        },
+        {
+          "id": "j5nNSYI8s-cH8EA6G1EWY-res-4",
+          "type": "video",
+          "title": "VSCode Basics",
+          "url": "https://www.youtube.com/watch?v=B-s71n0dHUk"
+        },
+        {
+          "id": "j5nNSYI8s-cH8EA6G1EWY-res-5",
+          "type": "video",
+          "title": "VSCode in 100 Seconds",
+          "url": "https://www.youtube.com/watch?v=KMxo3T_MTvY"
+        }
+      ]
+    },
+    "1fc0iWwOkheUJ7d0np86L": {
+      "id": "1fc0iWwOkheUJ7d0np86L",
+      "slug": "webinars",
+      "title": "Webinars",
+      "description": "Webinars are live online presentations that allow DevRel teams to demonstrate features, walk through tutorials, and answer questions from a wider audience than in-person events. They are recorded and shared afterward, extending their value beyond the live session. Regular webinars create a predictable touchpoint with the developer community and generate useful content.",
+      "resources": []
+    },
+    "SiYUdtYMDImRPmV2_XPkH": {
+      "id": "SiYUdtYMDImRPmV2_XPkH",
+      "slug": "what-is-devrel",
+      "title": "What is DevRel?",
+      "description": "Developer Relations (DevRel) is the practice of building and maintaining relationships between a company and the developers who use its products, APIs, or platforms. It sits at the intersection of engineering, marketing, and community management. DevRel teams work to make developers successful with a product, which in turn drives adoption, retention, and trust.",
+      "resources": []
+    },
+    "pqp9FLRJRDDEnni72KHmv": {
+      "id": "pqp9FLRJRDDEnni72KHmv",
+      "slug": "writing-documentation",
+      "title": "Writing Documentation",
+      "description": "Writing documentation for APIs and SDKs requires combining technical accuracy with clarity. Good API documentation includes authentication instructions, endpoint references with request and response examples, error code explanations, and quickstart guides. Documentation is often the first thing a developer consults and directly affects whether they continue evaluating the product.",
+      "resources": []
+    },
+    "l6-mzgDTXg2EPkyZyZ6TC": {
+      "id": "l6-mzgDTXg2EPkyZyZ6TC",
+      "slug": "writing-process",
+      "title": "Writing Process",
+      "description": "A structured writing process produces better blog posts more consistently. It typically involves outlining the structure before writing, drafting without self-editing, revising for clarity and accuracy, and getting a technical review before publishing. A repeatable process reduces the time spent on each post and improves quality over time.",
+      "resources": []
+    },
+    "0ntOE6PSdMl_EXB9gdgIv": {
+      "id": "0ntOE6PSdMl_EXB9gdgIv",
+      "slug": "writing-skills",
+      "title": "Writing Skills",
+      "description": "Writing is one of the most high-leverage skills in DevRel because written content reaches far more developers than any single presentation. DevRel writing spans technical documentation, blog posts, social media, and email. Clear, accurate, and well-structured writing builds trust and helps developers succeed without needing direct assistance.",
+      "resources": [
+        {
+          "id": "0ntOE6PSdMl_EXB9gdgIv-res-1",
+          "type": "article",
+          "title": "Putting Ideas into Words",
+          "url": "https://www.paulgraham.com/words.html"
+        },
+        {
+          "id": "0ntOE6PSdMl_EXB9gdgIv-res-2",
+          "type": "article",
+          "title": "Patterns in confusing explanations",
+          "url": "https://jvns.ca/blog/confusing-explanations/"
+        },
+        {
+          "id": "0ntOE6PSdMl_EXB9gdgIv-res-3",
+          "type": "article",
+          "title": "Signposting: How to reduce cognitive load for your reader",
+          "url": "https://newsletter.weskao.com/p/sign-posting-how-to-reduce-cognitive"
+        }
+      ]
+    },
+    "6BqkO4XOspJg0-9GNLtUp": {
+      "id": "6BqkO4XOspJg0-9GNLtUp",
+      "slug": "x",
+      "title": "X",
+      "description": "X is the platform where a significant portion of the developer and tech community discusses tools, ideas, and industry news in real time. It is used by DevRel professionals for product announcements, sharing tutorials, engaging with community members, and joining trending technical conversations. A consistent, authentic presence on X builds visibility and credibility among developers.",
+      "resources": []
+    },
+    "Mdp4bBlhVbGohJkVlsDar": {
+      "id": "Mdp4bBlhVbGohJkVlsDar",
+      "slug": "x",
+      "title": "X",
+      "description": "X (formerly Twitter) remains a primary platform for developer conversations, announcements, and real-time discussion. For live streaming, X allows broadcasts directly to followers and integrates with Streamyard and other tools. It is useful for reaching developers who follow technical accounts and for amplifying live event announcements.",
+      "resources": []
+    },
+    "OY5rn3XTbmz4LzSLRcNmw": {
+      "id": "OY5rn3XTbmz4LzSLRcNmw",
+      "slug": "youtube",
+      "title": "YouTube",
+      "description": "YouTube is the dominant platform for hosting and distributing recorded and live video content to developers. Videos on YouTube are indexable by search engines and accumulate views long after publication. A well-maintained YouTube channel with organized playlists becomes a durable resource for developer education.",
+      "resources": []
+    }
+  }
+}

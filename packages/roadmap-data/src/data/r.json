@@ -1,0 +1,3715 @@
+{
+  "slug": "r",
+  "title": "R",
+  "description": "Comprehensive learning curriculum and mastery roadmap for r.",
+  "category": "skill",
+  "level": "Intermediate",
+  "topicCount": 129,
+  "iconName": "Compass",
+  "nodes": [
+    {
+      "id": "node-HDWIMwjBFh4vKw_BYo0bF",
+      "label": "Aesthetic Mappings",
+      "topicId": "HDWIMwjBFh4vKw_BYo0bF",
+      "level": 1,
+      "position": {
+        "x": 80,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-V_cnhs4qzp-SLnLaGXC1l",
+      "label": "APIs",
+      "topicId": "V_cnhs4qzp-SLnLaGXC1l",
+      "level": 1,
+      "position": {
+        "x": 340,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-yqCapCzAFkWZvebvkuHNV",
+      "label": "Apply Family",
+      "topicId": "yqCapCzAFkWZvebvkuHNV",
+      "level": 1,
+      "position": {
+        "x": 600,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-qSJI_xsSN3wPY3ud0bZdm",
+      "label": "Arguments & Defaults",
+      "topicId": "qSJI_xsSN3wPY3ud0bZdm",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-fy2pI0rjkw9d8THIHgDuN",
+      "label": "Arrays",
+      "topicId": "fy2pI0rjkw9d8THIHgDuN",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-Ytwncvf4YOgLPNnczOpts",
+      "label": "Base R Plotting",
+      "topicId": "Ytwncvf4YOgLPNnczOpts",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-nDFlbYOe7U7mVJadKYy_W",
+      "label": "Basic Syntax",
+      "topicId": "nDFlbYOe7U7mVJadKYy_W",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-OLOZSNHrOFD3claBXNKxP",
+      "label": "Best Practices",
+      "topicId": "OLOZSNHrOFD3claBXNKxP",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-GkxSrpOJx-SWvnDkTPcJt",
+      "label": "Big Data Tools",
+      "topicId": "GkxSrpOJx-SWvnDkTPcJt",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-XI8bvhQ3ugezTu60USUG2",
+      "label": "Casting Types",
+      "topicId": "XI8bvhQ3ugezTu60USUG2",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-ghrVl-VfVDvpyBIl6N4xM",
+      "label": "Character",
+      "topicId": "ghrVl-VfVDvpyBIl6N4xM",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-IahDxQfLvld-qCAeAuAo-",
+      "label": "Comments",
+      "topicId": "IahDxQfLvld-qCAeAuAo-",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-1uWW6PP2uWqKU4Ya5GzVO",
+      "label": "Common Plots",
+      "topicId": "1uWW6PP2uWqKU4Ya5GzVO",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-SQh5uCFmpecdc-_PtyCEp",
+      "label": "Complex",
+      "topicId": "SQh5uCFmpecdc-_PtyCEp",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-bN3DAVH9lstsgwFhFMU_m",
+      "label": "Conditional Statements",
+      "topicId": "bN3DAVH9lstsgwFhFMU_m",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-IeNMySumbyJdHhORMwmFr",
+      "label": "Correlation",
+      "topicId": "IeNMySumbyJdHhORMwmFr",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-IL0fFEs4CgK_eBft-SYAl",
+      "label": "CRAN",
+      "topicId": "IL0fFEs4CgK_eBft-SYAl",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-WBnsgWCiduh03uxGIN69c",
+      "label": "Creating Variables",
+      "topicId": "WBnsgWCiduh03uxGIN69c",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-0cq7ItNudoIj48xoeA-q5",
+      "label": "CSV",
+      "topicId": "0cq7ItNudoIj48xoeA-q5",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-ofS4vY5u64GP4mI8gG_WD",
+      "label": "Dashboards",
+      "topicId": "ofS4vY5u64GP4mI8gG_WD",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-dLatbMJKRRZKjQbKW291i",
+      "label": "Data Cleaning",
+      "topicId": "dLatbMJKRRZKjQbKW291i",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-kIXf6FI-z6dgUdTGCjHkt",
+      "label": "Data Frames",
+      "topicId": "kIXf6FI-z6dgUdTGCjHkt",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-vP5oSvl3Z5inZEd3pmiMK",
+      "label": "Data Manipulation",
+      "topicId": "vP5oSvl3Z5inZEd3pmiMK",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-JTDhohoC6Ew7uvPwuWr1v",
+      "label": "Data Structures",
+      "topicId": "JTDhohoC6Ew7uvPwuWr1v",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-SCW3xD7wCf3_ruTtxBkAX",
+      "label": "Data Tables",
+      "topicId": "SCW3xD7wCf3_ruTtxBkAX",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-Iw6aTwdfOys4mzozQ_2Hz",
+      "label": "Data Types",
+      "topicId": "Iw6aTwdfOys4mzozQ_2Hz",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-1shfOZKx1DfYAOtQb1CoK",
+      "label": "Debugging",
+      "topicId": "1shfOZKx1DfYAOtQb1CoK",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-epfsRqEvWDjgeSrku0emD",
+      "label": "Descriptive Statistics",
+      "topicId": "epfsRqEvWDjgeSrku0emD",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-52p2OUjL11aRM4PyHrCt_",
+      "label": "Distribution Analysis",
+      "topicId": "52p2OUjL11aRM4PyHrCt_",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-2EXfdeT4WoEg5ZNr9eCtK",
+      "label": "dplyr",
+      "topicId": "2EXfdeT4WoEg5ZNr9eCtK",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-xIS0cJ8ui0siBoZJr3-B_",
+      "label": "Dropping vs. Imputing",
+      "topicId": "xIS0cJ8ui0siBoZJr3-B_",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-1bHv3_acNts_BeOn3l6DF",
+      "label": "Encoding Categories",
+      "topicId": "1bHv3_acNts_BeOn3l6DF",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-bLZXJOMu6-NT2bqntOPfd",
+      "label": "Error Handling",
+      "topicId": "bLZXJOMu6-NT2bqntOPfd",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-SOdl-8SpW1NsQoPtviJ8-",
+      "label": "Excel",
+      "topicId": "SOdl-8SpW1NsQoPtviJ8-",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-s2Wxtvjjz7bYK0sYeNhM4",
+      "label": "Exploratory Data Analysis",
+      "topicId": "s2Wxtvjjz7bYK0sYeNhM4",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-P0NtCbzyGWz5B41feWsAy",
+      "label": "Faceting & Themes",
+      "topicId": "P0NtCbzyGWz5B41feWsAy",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-GeyQm1ONhk_eLXME7OS4M",
+      "label": "Factors",
+      "topicId": "GeyQm1ONhk_eLXME7OS4M",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-6w_sSTw1R5MU2zj2RpO5Z",
+      "label": "Filter, Query, Arrange",
+      "topicId": "6w_sSTw1R5MU2zj2RpO5Z",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-WVgYRRNpsNXBnz7V9JX29",
+      "label": "forcats",
+      "topicId": "WVgYRRNpsNXBnz7V9JX29",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-9mFT0z5yT446_-nGdG492",
+      "label": "Forward / Backward Fill",
+      "topicId": "9mFT0z5yT446_-nGdG492",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-GrKgIYLzkSjtXdK5czN2x",
+      "label": "Functions",
+      "topicId": "GrKgIYLzkSjtXdK5czN2x",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-f2NsSRl_UukuqHggghWSw",
+      "label": "Geospatial Analysis",
+      "topicId": "f2NsSRl_UukuqHggghWSw",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-4FPrICo0eUAONFvObktqU",
+      "label": "ggplot2",
+      "topicId": "4FPrICo0eUAONFvObktqU",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-vsqvOoq59aWgGexOSwlFG",
+      "label": "ggplot2",
+      "topicId": "vsqvOoq59aWgGexOSwlFG",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-lEiv0DXeWD7w67GdZdy54",
+      "label": "Grammar of Graphics",
+      "topicId": "lEiv0DXeWD7w67GdZdy54",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-fuAX0fNChwliVC_gJ7GV2",
+      "label": "Group By & Summarize",
+      "topicId": "fuAX0fNChwliVC_gJ7GV2",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-0xYk_O7rNoy7O116xVJvi",
+      "label": "Hypothesis Testing",
+      "topicId": "0xYk_O7rNoy7O116xVJvi",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-WA-oBafJlw5OUphYrDm5u",
+      "label": "igraph",
+      "topicId": "WA-oBafJlw5OUphYrDm5u",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-KrX28-WcpfMiuvPBtHAXw",
+      "label": "Importing Data",
+      "topicId": "KrX28-WcpfMiuvPBtHAXw",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-_4619gNlgw_dDr_fVZ7Up",
+      "label": "Installing Packages",
+      "topicId": "_4619gNlgw_dDr_fVZ7Up",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-8sLFw8BlwuE7tvMrDg9Pp",
+      "label": "Installing R",
+      "topicId": "8sLFw8BlwuE7tvMrDg9Pp",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-K1whVa9-2i8QMqDo_tNlZ",
+      "label": "Integer",
+      "topicId": "K1whVa9-2i8QMqDo_tNlZ",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-BMWA2CF4VkXEneErhJym-",
+      "label": "Interactive Plots",
+      "topicId": "BMWA2CF4VkXEneErhJym-",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-QUzLkB8iKfUBtyAfKc8LC",
+      "label": "What is R",
+      "topicId": "QUzLkB8iKfUBtyAfKc8LC",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-ucEFYVtXIvuYKjudK3pwB",
+      "label": "IQR",
+      "topicId": "ucEFYVtXIvuYKjudK3pwB",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-bcODvfBqCUwLVXa8HKOFB",
+      "label": "isnull, isna",
+      "topicId": "bcODvfBqCUwLVXa8HKOFB",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-WdiPYzeuO8dKQsuP0xy4P",
+      "label": "Joins",
+      "topicId": "WdiPYzeuO8dKQsuP0xy4P",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-R_8vJSp2Zp0CBWMeI2gsd",
+      "label": "JSON",
+      "topicId": "R_8vJSp2Zp0CBWMeI2gsd",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-2uHsp_MQMF3WaOgcv0eDY",
+      "label": "leaflet",
+      "topicId": "2uHsp_MQMF3WaOgcv0eDY",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-PMGbX81TpodkDVz8o1z-T",
+      "label": "Linear Regression",
+      "topicId": "PMGbX81TpodkDVz8o1z-T",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-lbYcKVjKw1mMU1DIGwA-s",
+      "label": "Lists",
+      "topicId": "lbYcKVjKw1mMU1DIGwA-s",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-jQTOs0UfekeCV6sPWVOr2",
+      "label": "Logical",
+      "topicId": "jQTOs0UfekeCV6sPWVOr2",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-nfuMTLrkI-XSNDseEOkXD",
+      "label": "Logistic Regression",
+      "topicId": "nfuMTLrkI-XSNDseEOkXD",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-mCa0SGe_bHuU5P_FEsNYI",
+      "label": "Loops",
+      "topicId": "mCa0SGe_bHuU5P_FEsNYI",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-aD3VCC-ltZVisOgC--gAd",
+      "label": "lubridate",
+      "topicId": "aD3VCC-ltZVisOgC--gAd",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-KWfYpJQwYeQzP4buGaA9y",
+      "label": "Machine Learning",
+      "topicId": "KWfYpJQwYeQzP4buGaA9y",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-e4mVEXKmmQbz051wE1HPZ",
+      "label": "Map Functions",
+      "topicId": "e4mVEXKmmQbz051wE1HPZ",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-29bAj72LyJQ62JbBl9vvG",
+      "label": "Matrices",
+      "topicId": "29bAj72LyJQ62JbBl9vvG",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-8vgTUVCNPb71lNHKycHce",
+      "label": "Mutate & Transform",
+      "topicId": "8vgTUVCNPb71lNHKycHce",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-YBcSlradj7221NPcwWcFk",
+      "label": "Network Analysis",
+      "topicId": "YBcSlradj7221NPcwWcFk",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-BgwWbX4MgOPwMDPGX_HFs",
+      "label": "NLP",
+      "topicId": "BgwWbX4MgOPwMDPGX_HFs",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-dewpbYpun6Nho0ErI3rv-",
+      "label": "Numeric",
+      "topicId": "dewpbYpun6Nho0ErI3rv-",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-3d540CG_Ye7vvIFQKmiPb",
+      "label": "Operators",
+      "topicId": "3d540CG_Ye7vvIFQKmiPb",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-1b3AiO9i3pgkglwGeHiqd",
+      "label": "Overplotting Techniques",
+      "topicId": "1b3AiO9i3pgkglwGeHiqd",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-j1jq5_64lBuYQQjJWKIuI",
+      "label": "pak",
+      "topicId": "j1jq5_64lBuYQQjJWKIuI",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-ApowKoA3C1B8oUr4-sltZ",
+      "label": "Parallel Computing",
+      "topicId": "ApowKoA3C1B8oUr4-sltZ",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-L7btVRwvkEVX0K8LxnbqJ",
+      "label": "Parsing Dates",
+      "topicId": "L7btVRwvkEVX0K8LxnbqJ",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-0K17RO_EoOaT820WypQ7H",
+      "label": "Pipe",
+      "topicId": "0K17RO_EoOaT820WypQ7H",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-XPr7td4S8xpFxG5IkWvyz",
+      "label": "plotly",
+      "topicId": "XPr7td4S8xpFxG5IkWvyz",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-2m8uQRGaVZUd4mfm7bRou",
+      "label": "Positron",
+      "topicId": "2m8uQRGaVZUd4mfm7bRou",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-EHVXO79NGpLC1i8x4Y7g1",
+      "label": "Power BI / Tableau",
+      "topicId": "EHVXO79NGpLC1i8x4Y7g1",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-wSKItU0lct_9CCs4G4JO_",
+      "label": "Probability Distributions",
+      "topicId": "wSKItU0lct_9CCs4G4JO_",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-KXvrYvFvyAqFbJeS1KHRi",
+      "label": "purrr",
+      "topicId": "KXvrYvFvyAqFbJeS1KHRi",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-gUpA_YtWlToGs-OJZZDpV",
+      "label": "quanteda",
+      "topicId": "gUpA_YtWlToGs-OJZZDpV",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-SnLNFoVZhL6YuE9QOLpAl",
+      "label": "Quarto",
+      "topicId": "SnLNFoVZhL6YuE9QOLpAl",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-1X3RbJPY_GbIDarcO2UDL",
+      "label": "R Dates & Times",
+      "topicId": "1X3RbJPY_GbIDarcO2UDL",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-PDZEvLgi94V5oLt3J5U9Z",
+      "label": "R Markdown",
+      "topicId": "PDZEvLgi94V5oLt3J5U9Z",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-O3lbX70fDeKsv9fkJJtYv",
+      "label": "R vs Python for Data Work",
+      "topicId": "O3lbX70fDeKsv9fkJJtYv",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-y0yMev6QSHjqd1YJ9Y05Z",
+      "label": "readr",
+      "topicId": "y0yMev6QSHjqd1YJ9Y05Z",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-VdtQNeFL8vnaHHzW6CWds",
+      "label": "Recursion",
+      "topicId": "VdtQNeFL8vnaHHzW6CWds",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-feXXBBD1J5TEllq2zbCUZ",
+      "label": "Regular Expressions",
+      "topicId": "feXXBBD1J5TEllq2zbCUZ",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-hS12KA72tBNmVvS921-H-",
+      "label": "Relationship Analysis",
+      "topicId": "hS12KA72tBNmVvS921-H-",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-6dJaQRj2zMz00sfTiTdww",
+      "label": "renv",
+      "topicId": "6dJaQRj2zMz00sfTiTdww",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-cRgcpjX7GlMB_l3ARU1z4",
+      "label": "Reshaping",
+      "topicId": "cRgcpjX7GlMB_l3ARU1z4",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5040
+      }
+    },
+    {
+      "id": "node--9C077yNLTXLbEo0TW1zU",
+      "label": "rstatix",
+      "topicId": "-9C077yNLTXLbEo0TW1zU",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5040
+      }
+    },
+    {
+      "id": "node-c8uLNJMr6UZfvjFwFhxvd",
+      "label": "RStudio",
+      "topicId": "c8uLNJMr6UZfvjFwFhxvd",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5040
+      }
+    },
+    {
+      "id": "node-U6vkyRtFatEi8oCm0zoIK",
+      "label": "Sampling",
+      "topicId": "U6vkyRtFatEi8oCm0zoIK",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5200
+      }
+    },
+    {
+      "id": "node-JWRELdQozts-p0448ILYf",
+      "label": "Scopes",
+      "topicId": "JWRELdQozts-p0448ILYf",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5200
+      }
+    },
+    {
+      "id": "node-6br2AmC31MvGURDUgNtl2",
+      "label": "Setting Up",
+      "topicId": "6br2AmC31MvGURDUgNtl2",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5200
+      }
+    },
+    {
+      "id": "node-XP4ngNk1Fqzb2nxtHs3Ot",
+      "label": "sf",
+      "topicId": "XP4ngNk1Fqzb2nxtHs3Ot",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5360
+      }
+    },
+    {
+      "id": "node-pC_AC-yhn9qqL2HbIl8Yx",
+      "label": "Shiny",
+      "topicId": "pC_AC-yhn9qqL2HbIl8Yx",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5360
+      }
+    },
+    {
+      "id": "node-XTXm8aIDbRkTXoAck_m3I",
+      "label": "Sparklyr",
+      "topicId": "XTXm8aIDbRkTXoAck_m3I",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5360
+      }
+    },
+    {
+      "id": "node-MhJaZyfzuHGROihT8U7cY",
+      "label": "Statistical Analysis",
+      "topicId": "MhJaZyfzuHGROihT8U7cY",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5520
+      }
+    },
+    {
+      "id": "node-xgI4j0gkNkd3pqGmWkpmF",
+      "label": "stats",
+      "topicId": "xgI4j0gkNkd3pqGmWkpmF",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5520
+      }
+    },
+    {
+      "id": "node-swUTr8ZP72JnyP7UjfrHH",
+      "label": "String Manipulation",
+      "topicId": "swUTr8ZP72JnyP7UjfrHH",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5520
+      }
+    },
+    {
+      "id": "node-P_u3uSVm63KsmQRWdvBmr",
+      "label": "stringr",
+      "topicId": "P_u3uSVm63KsmQRWdvBmr",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5680
+      }
+    },
+    {
+      "id": "node-akoMThJHZLC3vFk_zB-S1",
+      "label": "Strings and Dates",
+      "topicId": "akoMThJHZLC3vFk_zB-S1",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5680
+      }
+    },
+    {
+      "id": "node-S1EzGF-CLu7tWDb1V6RQc",
+      "label": "strip, replace, split",
+      "topicId": "S1EzGF-CLu7tWDb1V6RQc",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5680
+      }
+    },
+    {
+      "id": "node-AvzZ6SxNvGCuq9cX_O6op",
+      "label": "Summary Statistics",
+      "topicId": "AvzZ6SxNvGCuq9cX_O6op",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5840
+      }
+    },
+    {
+      "id": "node-UphqgVEpeVfM8mCVKpE-s",
+      "label": "terra",
+      "topicId": "UphqgVEpeVfM8mCVKpE-s",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5840
+      }
+    },
+    {
+      "id": "node-1BCWaI0i01gzwo539I90D",
+      "label": "Text",
+      "topicId": "1BCWaI0i01gzwo539I90D",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5840
+      }
+    },
+    {
+      "id": "node-3PBGqxsWI3K6vpB9PtteC",
+      "label": "tibble",
+      "topicId": "3PBGqxsWI3K6vpB9PtteC",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 6000
+      }
+    },
+    {
+      "id": "node-4LSIcQnzj3V5mStHIYP-O",
+      "label": "Tibbles",
+      "topicId": "4LSIcQnzj3V5mStHIYP-O",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 6000
+      }
+    },
+    {
+      "id": "node-_VJmd1wv2UJcLpQKnmjjK",
+      "label": "tidygraph",
+      "topicId": "_VJmd1wv2UJcLpQKnmjjK",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 6000
+      }
+    },
+    {
+      "id": "node-23bhr8zcXaTgjiAa7z_Pn",
+      "label": "tidymodels",
+      "topicId": "23bhr8zcXaTgjiAa7z_Pn",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 6160
+      }
+    },
+    {
+      "id": "node-axtup-_HtUjM2Ft3J1Sxb",
+      "label": "tidyr",
+      "topicId": "axtup-_HtUjM2Ft3J1Sxb",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 6160
+      }
+    },
+    {
+      "id": "node-BM2ukkGQzjbWiPgExsN5z",
+      "label": "tidytext",
+      "topicId": "BM2ukkGQzjbWiPgExsN5z",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 6160
+      }
+    },
+    {
+      "id": "node-qjHtL_erZg2F9HuDOSaKl",
+      "label": "tidyverse",
+      "topicId": "qjHtL_erZg2F9HuDOSaKl",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 6320
+      }
+    },
+    {
+      "id": "node-6u9a625hfddNmkjU0uiSK",
+      "label": "Time Series Analysis",
+      "topicId": "6u9a625hfddNmkjU0uiSK",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 6320
+      }
+    },
+    {
+      "id": "node-z9ZgXE5cDkLOlJNi6JIMJ",
+      "label": "tmap",
+      "topicId": "z9ZgXE5cDkLOlJNi6JIMJ",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 6320
+      }
+    },
+    {
+      "id": "node-5pYoyNuVkRmQBqdrgcAcN",
+      "label": "Type Conversion",
+      "topicId": "5pYoyNuVkRmQBqdrgcAcN",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 6480
+      }
+    },
+    {
+      "id": "node-C19rHMygP6Uc1NDgzt3DG",
+      "label": "Vectors",
+      "topicId": "C19rHMygP6Uc1NDgzt3DG",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 6480
+      }
+    },
+    {
+      "id": "node-UIFNQ9g5fMK-KoZCrqv27",
+      "label": "Visual Inspection",
+      "topicId": "UIFNQ9g5fMK-KoZCrqv27",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 6480
+      }
+    },
+    {
+      "id": "node-ObA_xZDY7PxU54NGBwyVI",
+      "label": "VS Code",
+      "topicId": "ObA_xZDY7PxU54NGBwyVI",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 6640
+      }
+    },
+    {
+      "id": "node-2Es328m-FGfn7UQteQjdS",
+      "label": "Web Scraping",
+      "topicId": "2Es328m-FGfn7UQteQjdS",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 6640
+      }
+    },
+    {
+      "id": "node-w78MVXiI2V3XXajsEEZyk",
+      "label": "Window Functions",
+      "topicId": "w78MVXiI2V3XXajsEEZyk",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 6640
+      }
+    },
+    {
+      "id": "node-GChLgXktEvXnOs9fiv77x",
+      "label": "Working with Data Tables",
+      "topicId": "GChLgXktEvXnOs9fiv77x",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 6800
+      }
+    },
+    {
+      "id": "node-NkRfIHsHQnOHJSTuFQ9aj",
+      "label": "Your First R Script",
+      "topicId": "NkRfIHsHQnOHJSTuFQ9aj",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 6800
+      }
+    },
+    {
+      "id": "node-2HIeG6ywOA9BkE9W3Gu9v",
+      "label": "Z-score",
+      "topicId": "2HIeG6ywOA9BkE9W3Gu9v",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 6800
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-node-HDWIMwjBFh4vKw_BYo0bF-node-V_cnhs4qzp-SLnLaGXC1l",
+      "source": "node-HDWIMwjBFh4vKw_BYo0bF",
+      "target": "node-V_cnhs4qzp-SLnLaGXC1l",
+      "animated": true
+    },
+    {
+      "id": "edge-node-V_cnhs4qzp-SLnLaGXC1l-node-yqCapCzAFkWZvebvkuHNV",
+      "source": "node-V_cnhs4qzp-SLnLaGXC1l",
+      "target": "node-yqCapCzAFkWZvebvkuHNV",
+      "animated": true
+    },
+    {
+      "id": "edge-node-yqCapCzAFkWZvebvkuHNV-node-qSJI_xsSN3wPY3ud0bZdm",
+      "source": "node-yqCapCzAFkWZvebvkuHNV",
+      "target": "node-qSJI_xsSN3wPY3ud0bZdm",
+      "animated": true
+    },
+    {
+      "id": "edge-node-qSJI_xsSN3wPY3ud0bZdm-node-fy2pI0rjkw9d8THIHgDuN",
+      "source": "node-qSJI_xsSN3wPY3ud0bZdm",
+      "target": "node-fy2pI0rjkw9d8THIHgDuN",
+      "animated": true
+    },
+    {
+      "id": "edge-node-fy2pI0rjkw9d8THIHgDuN-node-Ytwncvf4YOgLPNnczOpts",
+      "source": "node-fy2pI0rjkw9d8THIHgDuN",
+      "target": "node-Ytwncvf4YOgLPNnczOpts",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Ytwncvf4YOgLPNnczOpts-node-nDFlbYOe7U7mVJadKYy_W",
+      "source": "node-Ytwncvf4YOgLPNnczOpts",
+      "target": "node-nDFlbYOe7U7mVJadKYy_W",
+      "animated": true
+    },
+    {
+      "id": "edge-node-nDFlbYOe7U7mVJadKYy_W-node-OLOZSNHrOFD3claBXNKxP",
+      "source": "node-nDFlbYOe7U7mVJadKYy_W",
+      "target": "node-OLOZSNHrOFD3claBXNKxP",
+      "animated": true
+    },
+    {
+      "id": "edge-node-OLOZSNHrOFD3claBXNKxP-node-GkxSrpOJx-SWvnDkTPcJt",
+      "source": "node-OLOZSNHrOFD3claBXNKxP",
+      "target": "node-GkxSrpOJx-SWvnDkTPcJt",
+      "animated": true
+    },
+    {
+      "id": "edge-node-GkxSrpOJx-SWvnDkTPcJt-node-XI8bvhQ3ugezTu60USUG2",
+      "source": "node-GkxSrpOJx-SWvnDkTPcJt",
+      "target": "node-XI8bvhQ3ugezTu60USUG2",
+      "animated": true
+    },
+    {
+      "id": "edge-node-XI8bvhQ3ugezTu60USUG2-node-ghrVl-VfVDvpyBIl6N4xM",
+      "source": "node-XI8bvhQ3ugezTu60USUG2",
+      "target": "node-ghrVl-VfVDvpyBIl6N4xM",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ghrVl-VfVDvpyBIl6N4xM-node-IahDxQfLvld-qCAeAuAo-",
+      "source": "node-ghrVl-VfVDvpyBIl6N4xM",
+      "target": "node-IahDxQfLvld-qCAeAuAo-",
+      "animated": true
+    },
+    {
+      "id": "edge-node-IahDxQfLvld-qCAeAuAo--node-1uWW6PP2uWqKU4Ya5GzVO",
+      "source": "node-IahDxQfLvld-qCAeAuAo-",
+      "target": "node-1uWW6PP2uWqKU4Ya5GzVO",
+      "animated": true
+    },
+    {
+      "id": "edge-node-1uWW6PP2uWqKU4Ya5GzVO-node-SQh5uCFmpecdc-_PtyCEp",
+      "source": "node-1uWW6PP2uWqKU4Ya5GzVO",
+      "target": "node-SQh5uCFmpecdc-_PtyCEp",
+      "animated": true
+    },
+    {
+      "id": "edge-node-SQh5uCFmpecdc-_PtyCEp-node-bN3DAVH9lstsgwFhFMU_m",
+      "source": "node-SQh5uCFmpecdc-_PtyCEp",
+      "target": "node-bN3DAVH9lstsgwFhFMU_m",
+      "animated": true
+    },
+    {
+      "id": "edge-node-bN3DAVH9lstsgwFhFMU_m-node-IeNMySumbyJdHhORMwmFr",
+      "source": "node-bN3DAVH9lstsgwFhFMU_m",
+      "target": "node-IeNMySumbyJdHhORMwmFr",
+      "animated": true
+    },
+    {
+      "id": "edge-node-IeNMySumbyJdHhORMwmFr-node-IL0fFEs4CgK_eBft-SYAl",
+      "source": "node-IeNMySumbyJdHhORMwmFr",
+      "target": "node-IL0fFEs4CgK_eBft-SYAl",
+      "animated": true
+    },
+    {
+      "id": "edge-node-IL0fFEs4CgK_eBft-SYAl-node-WBnsgWCiduh03uxGIN69c",
+      "source": "node-IL0fFEs4CgK_eBft-SYAl",
+      "target": "node-WBnsgWCiduh03uxGIN69c",
+      "animated": true
+    },
+    {
+      "id": "edge-node-WBnsgWCiduh03uxGIN69c-node-0cq7ItNudoIj48xoeA-q5",
+      "source": "node-WBnsgWCiduh03uxGIN69c",
+      "target": "node-0cq7ItNudoIj48xoeA-q5",
+      "animated": true
+    },
+    {
+      "id": "edge-node-0cq7ItNudoIj48xoeA-q5-node-ofS4vY5u64GP4mI8gG_WD",
+      "source": "node-0cq7ItNudoIj48xoeA-q5",
+      "target": "node-ofS4vY5u64GP4mI8gG_WD",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ofS4vY5u64GP4mI8gG_WD-node-dLatbMJKRRZKjQbKW291i",
+      "source": "node-ofS4vY5u64GP4mI8gG_WD",
+      "target": "node-dLatbMJKRRZKjQbKW291i",
+      "animated": true
+    },
+    {
+      "id": "edge-node-dLatbMJKRRZKjQbKW291i-node-kIXf6FI-z6dgUdTGCjHkt",
+      "source": "node-dLatbMJKRRZKjQbKW291i",
+      "target": "node-kIXf6FI-z6dgUdTGCjHkt",
+      "animated": true
+    },
+    {
+      "id": "edge-node-kIXf6FI-z6dgUdTGCjHkt-node-vP5oSvl3Z5inZEd3pmiMK",
+      "source": "node-kIXf6FI-z6dgUdTGCjHkt",
+      "target": "node-vP5oSvl3Z5inZEd3pmiMK",
+      "animated": true
+    },
+    {
+      "id": "edge-node-vP5oSvl3Z5inZEd3pmiMK-node-JTDhohoC6Ew7uvPwuWr1v",
+      "source": "node-vP5oSvl3Z5inZEd3pmiMK",
+      "target": "node-JTDhohoC6Ew7uvPwuWr1v",
+      "animated": true
+    },
+    {
+      "id": "edge-node-JTDhohoC6Ew7uvPwuWr1v-node-SCW3xD7wCf3_ruTtxBkAX",
+      "source": "node-JTDhohoC6Ew7uvPwuWr1v",
+      "target": "node-SCW3xD7wCf3_ruTtxBkAX",
+      "animated": true
+    },
+    {
+      "id": "edge-node-SCW3xD7wCf3_ruTtxBkAX-node-Iw6aTwdfOys4mzozQ_2Hz",
+      "source": "node-SCW3xD7wCf3_ruTtxBkAX",
+      "target": "node-Iw6aTwdfOys4mzozQ_2Hz",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Iw6aTwdfOys4mzozQ_2Hz-node-1shfOZKx1DfYAOtQb1CoK",
+      "source": "node-Iw6aTwdfOys4mzozQ_2Hz",
+      "target": "node-1shfOZKx1DfYAOtQb1CoK",
+      "animated": true
+    },
+    {
+      "id": "edge-node-1shfOZKx1DfYAOtQb1CoK-node-epfsRqEvWDjgeSrku0emD",
+      "source": "node-1shfOZKx1DfYAOtQb1CoK",
+      "target": "node-epfsRqEvWDjgeSrku0emD",
+      "animated": true
+    },
+    {
+      "id": "edge-node-epfsRqEvWDjgeSrku0emD-node-52p2OUjL11aRM4PyHrCt_",
+      "source": "node-epfsRqEvWDjgeSrku0emD",
+      "target": "node-52p2OUjL11aRM4PyHrCt_",
+      "animated": true
+    },
+    {
+      "id": "edge-node-52p2OUjL11aRM4PyHrCt_-node-2EXfdeT4WoEg5ZNr9eCtK",
+      "source": "node-52p2OUjL11aRM4PyHrCt_",
+      "target": "node-2EXfdeT4WoEg5ZNr9eCtK",
+      "animated": true
+    },
+    {
+      "id": "edge-node-2EXfdeT4WoEg5ZNr9eCtK-node-xIS0cJ8ui0siBoZJr3-B_",
+      "source": "node-2EXfdeT4WoEg5ZNr9eCtK",
+      "target": "node-xIS0cJ8ui0siBoZJr3-B_",
+      "animated": true
+    },
+    {
+      "id": "edge-node-xIS0cJ8ui0siBoZJr3-B_-node-1bHv3_acNts_BeOn3l6DF",
+      "source": "node-xIS0cJ8ui0siBoZJr3-B_",
+      "target": "node-1bHv3_acNts_BeOn3l6DF",
+      "animated": true
+    },
+    {
+      "id": "edge-node-1bHv3_acNts_BeOn3l6DF-node-bLZXJOMu6-NT2bqntOPfd",
+      "source": "node-1bHv3_acNts_BeOn3l6DF",
+      "target": "node-bLZXJOMu6-NT2bqntOPfd",
+      "animated": true
+    },
+    {
+      "id": "edge-node-bLZXJOMu6-NT2bqntOPfd-node-SOdl-8SpW1NsQoPtviJ8-",
+      "source": "node-bLZXJOMu6-NT2bqntOPfd",
+      "target": "node-SOdl-8SpW1NsQoPtviJ8-",
+      "animated": true
+    },
+    {
+      "id": "edge-node-SOdl-8SpW1NsQoPtviJ8--node-s2Wxtvjjz7bYK0sYeNhM4",
+      "source": "node-SOdl-8SpW1NsQoPtviJ8-",
+      "target": "node-s2Wxtvjjz7bYK0sYeNhM4",
+      "animated": true
+    },
+    {
+      "id": "edge-node-s2Wxtvjjz7bYK0sYeNhM4-node-P0NtCbzyGWz5B41feWsAy",
+      "source": "node-s2Wxtvjjz7bYK0sYeNhM4",
+      "target": "node-P0NtCbzyGWz5B41feWsAy",
+      "animated": true
+    },
+    {
+      "id": "edge-node-P0NtCbzyGWz5B41feWsAy-node-GeyQm1ONhk_eLXME7OS4M",
+      "source": "node-P0NtCbzyGWz5B41feWsAy",
+      "target": "node-GeyQm1ONhk_eLXME7OS4M",
+      "animated": true
+    },
+    {
+      "id": "edge-node-GeyQm1ONhk_eLXME7OS4M-node-6w_sSTw1R5MU2zj2RpO5Z",
+      "source": "node-GeyQm1ONhk_eLXME7OS4M",
+      "target": "node-6w_sSTw1R5MU2zj2RpO5Z",
+      "animated": true
+    },
+    {
+      "id": "edge-node-6w_sSTw1R5MU2zj2RpO5Z-node-WVgYRRNpsNXBnz7V9JX29",
+      "source": "node-6w_sSTw1R5MU2zj2RpO5Z",
+      "target": "node-WVgYRRNpsNXBnz7V9JX29",
+      "animated": true
+    },
+    {
+      "id": "edge-node-WVgYRRNpsNXBnz7V9JX29-node-9mFT0z5yT446_-nGdG492",
+      "source": "node-WVgYRRNpsNXBnz7V9JX29",
+      "target": "node-9mFT0z5yT446_-nGdG492",
+      "animated": true
+    },
+    {
+      "id": "edge-node-9mFT0z5yT446_-nGdG492-node-GrKgIYLzkSjtXdK5czN2x",
+      "source": "node-9mFT0z5yT446_-nGdG492",
+      "target": "node-GrKgIYLzkSjtXdK5czN2x",
+      "animated": true
+    },
+    {
+      "id": "edge-node-GrKgIYLzkSjtXdK5czN2x-node-f2NsSRl_UukuqHggghWSw",
+      "source": "node-GrKgIYLzkSjtXdK5czN2x",
+      "target": "node-f2NsSRl_UukuqHggghWSw",
+      "animated": true
+    },
+    {
+      "id": "edge-node-f2NsSRl_UukuqHggghWSw-node-4FPrICo0eUAONFvObktqU",
+      "source": "node-f2NsSRl_UukuqHggghWSw",
+      "target": "node-4FPrICo0eUAONFvObktqU",
+      "animated": true
+    },
+    {
+      "id": "edge-node-4FPrICo0eUAONFvObktqU-node-vsqvOoq59aWgGexOSwlFG",
+      "source": "node-4FPrICo0eUAONFvObktqU",
+      "target": "node-vsqvOoq59aWgGexOSwlFG",
+      "animated": true
+    },
+    {
+      "id": "edge-node-vsqvOoq59aWgGexOSwlFG-node-lEiv0DXeWD7w67GdZdy54",
+      "source": "node-vsqvOoq59aWgGexOSwlFG",
+      "target": "node-lEiv0DXeWD7w67GdZdy54",
+      "animated": true
+    },
+    {
+      "id": "edge-node-lEiv0DXeWD7w67GdZdy54-node-fuAX0fNChwliVC_gJ7GV2",
+      "source": "node-lEiv0DXeWD7w67GdZdy54",
+      "target": "node-fuAX0fNChwliVC_gJ7GV2",
+      "animated": true
+    },
+    {
+      "id": "edge-node-fuAX0fNChwliVC_gJ7GV2-node-0xYk_O7rNoy7O116xVJvi",
+      "source": "node-fuAX0fNChwliVC_gJ7GV2",
+      "target": "node-0xYk_O7rNoy7O116xVJvi",
+      "animated": true
+    },
+    {
+      "id": "edge-node-0xYk_O7rNoy7O116xVJvi-node-WA-oBafJlw5OUphYrDm5u",
+      "source": "node-0xYk_O7rNoy7O116xVJvi",
+      "target": "node-WA-oBafJlw5OUphYrDm5u",
+      "animated": true
+    },
+    {
+      "id": "edge-node-WA-oBafJlw5OUphYrDm5u-node-KrX28-WcpfMiuvPBtHAXw",
+      "source": "node-WA-oBafJlw5OUphYrDm5u",
+      "target": "node-KrX28-WcpfMiuvPBtHAXw",
+      "animated": true
+    },
+    {
+      "id": "edge-node-KrX28-WcpfMiuvPBtHAXw-node-_4619gNlgw_dDr_fVZ7Up",
+      "source": "node-KrX28-WcpfMiuvPBtHAXw",
+      "target": "node-_4619gNlgw_dDr_fVZ7Up",
+      "animated": true
+    },
+    {
+      "id": "edge-node-_4619gNlgw_dDr_fVZ7Up-node-8sLFw8BlwuE7tvMrDg9Pp",
+      "source": "node-_4619gNlgw_dDr_fVZ7Up",
+      "target": "node-8sLFw8BlwuE7tvMrDg9Pp",
+      "animated": true
+    },
+    {
+      "id": "edge-node-8sLFw8BlwuE7tvMrDg9Pp-node-K1whVa9-2i8QMqDo_tNlZ",
+      "source": "node-8sLFw8BlwuE7tvMrDg9Pp",
+      "target": "node-K1whVa9-2i8QMqDo_tNlZ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-K1whVa9-2i8QMqDo_tNlZ-node-BMWA2CF4VkXEneErhJym-",
+      "source": "node-K1whVa9-2i8QMqDo_tNlZ",
+      "target": "node-BMWA2CF4VkXEneErhJym-",
+      "animated": true
+    },
+    {
+      "id": "edge-node-BMWA2CF4VkXEneErhJym--node-QUzLkB8iKfUBtyAfKc8LC",
+      "source": "node-BMWA2CF4VkXEneErhJym-",
+      "target": "node-QUzLkB8iKfUBtyAfKc8LC",
+      "animated": true
+    },
+    {
+      "id": "edge-node-QUzLkB8iKfUBtyAfKc8LC-node-ucEFYVtXIvuYKjudK3pwB",
+      "source": "node-QUzLkB8iKfUBtyAfKc8LC",
+      "target": "node-ucEFYVtXIvuYKjudK3pwB",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ucEFYVtXIvuYKjudK3pwB-node-bcODvfBqCUwLVXa8HKOFB",
+      "source": "node-ucEFYVtXIvuYKjudK3pwB",
+      "target": "node-bcODvfBqCUwLVXa8HKOFB",
+      "animated": true
+    },
+    {
+      "id": "edge-node-bcODvfBqCUwLVXa8HKOFB-node-WdiPYzeuO8dKQsuP0xy4P",
+      "source": "node-bcODvfBqCUwLVXa8HKOFB",
+      "target": "node-WdiPYzeuO8dKQsuP0xy4P",
+      "animated": true
+    },
+    {
+      "id": "edge-node-WdiPYzeuO8dKQsuP0xy4P-node-R_8vJSp2Zp0CBWMeI2gsd",
+      "source": "node-WdiPYzeuO8dKQsuP0xy4P",
+      "target": "node-R_8vJSp2Zp0CBWMeI2gsd",
+      "animated": true
+    },
+    {
+      "id": "edge-node-R_8vJSp2Zp0CBWMeI2gsd-node-2uHsp_MQMF3WaOgcv0eDY",
+      "source": "node-R_8vJSp2Zp0CBWMeI2gsd",
+      "target": "node-2uHsp_MQMF3WaOgcv0eDY",
+      "animated": true
+    },
+    {
+      "id": "edge-node-2uHsp_MQMF3WaOgcv0eDY-node-PMGbX81TpodkDVz8o1z-T",
+      "source": "node-2uHsp_MQMF3WaOgcv0eDY",
+      "target": "node-PMGbX81TpodkDVz8o1z-T",
+      "animated": true
+    },
+    {
+      "id": "edge-node-PMGbX81TpodkDVz8o1z-T-node-lbYcKVjKw1mMU1DIGwA-s",
+      "source": "node-PMGbX81TpodkDVz8o1z-T",
+      "target": "node-lbYcKVjKw1mMU1DIGwA-s",
+      "animated": true
+    },
+    {
+      "id": "edge-node-lbYcKVjKw1mMU1DIGwA-s-node-jQTOs0UfekeCV6sPWVOr2",
+      "source": "node-lbYcKVjKw1mMU1DIGwA-s",
+      "target": "node-jQTOs0UfekeCV6sPWVOr2",
+      "animated": true
+    },
+    {
+      "id": "edge-node-jQTOs0UfekeCV6sPWVOr2-node-nfuMTLrkI-XSNDseEOkXD",
+      "source": "node-jQTOs0UfekeCV6sPWVOr2",
+      "target": "node-nfuMTLrkI-XSNDseEOkXD",
+      "animated": true
+    },
+    {
+      "id": "edge-node-nfuMTLrkI-XSNDseEOkXD-node-mCa0SGe_bHuU5P_FEsNYI",
+      "source": "node-nfuMTLrkI-XSNDseEOkXD",
+      "target": "node-mCa0SGe_bHuU5P_FEsNYI",
+      "animated": true
+    },
+    {
+      "id": "edge-node-mCa0SGe_bHuU5P_FEsNYI-node-aD3VCC-ltZVisOgC--gAd",
+      "source": "node-mCa0SGe_bHuU5P_FEsNYI",
+      "target": "node-aD3VCC-ltZVisOgC--gAd",
+      "animated": true
+    },
+    {
+      "id": "edge-node-aD3VCC-ltZVisOgC--gAd-node-KWfYpJQwYeQzP4buGaA9y",
+      "source": "node-aD3VCC-ltZVisOgC--gAd",
+      "target": "node-KWfYpJQwYeQzP4buGaA9y",
+      "animated": true
+    },
+    {
+      "id": "edge-node-KWfYpJQwYeQzP4buGaA9y-node-e4mVEXKmmQbz051wE1HPZ",
+      "source": "node-KWfYpJQwYeQzP4buGaA9y",
+      "target": "node-e4mVEXKmmQbz051wE1HPZ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-e4mVEXKmmQbz051wE1HPZ-node-29bAj72LyJQ62JbBl9vvG",
+      "source": "node-e4mVEXKmmQbz051wE1HPZ",
+      "target": "node-29bAj72LyJQ62JbBl9vvG",
+      "animated": true
+    },
+    {
+      "id": "edge-node-29bAj72LyJQ62JbBl9vvG-node-8vgTUVCNPb71lNHKycHce",
+      "source": "node-29bAj72LyJQ62JbBl9vvG",
+      "target": "node-8vgTUVCNPb71lNHKycHce",
+      "animated": true
+    },
+    {
+      "id": "edge-node-8vgTUVCNPb71lNHKycHce-node-YBcSlradj7221NPcwWcFk",
+      "source": "node-8vgTUVCNPb71lNHKycHce",
+      "target": "node-YBcSlradj7221NPcwWcFk",
+      "animated": true
+    },
+    {
+      "id": "edge-node-YBcSlradj7221NPcwWcFk-node-BgwWbX4MgOPwMDPGX_HFs",
+      "source": "node-YBcSlradj7221NPcwWcFk",
+      "target": "node-BgwWbX4MgOPwMDPGX_HFs",
+      "animated": true
+    },
+    {
+      "id": "edge-node-BgwWbX4MgOPwMDPGX_HFs-node-dewpbYpun6Nho0ErI3rv-",
+      "source": "node-BgwWbX4MgOPwMDPGX_HFs",
+      "target": "node-dewpbYpun6Nho0ErI3rv-",
+      "animated": true
+    },
+    {
+      "id": "edge-node-dewpbYpun6Nho0ErI3rv--node-3d540CG_Ye7vvIFQKmiPb",
+      "source": "node-dewpbYpun6Nho0ErI3rv-",
+      "target": "node-3d540CG_Ye7vvIFQKmiPb",
+      "animated": true
+    },
+    {
+      "id": "edge-node-3d540CG_Ye7vvIFQKmiPb-node-1b3AiO9i3pgkglwGeHiqd",
+      "source": "node-3d540CG_Ye7vvIFQKmiPb",
+      "target": "node-1b3AiO9i3pgkglwGeHiqd",
+      "animated": true
+    },
+    {
+      "id": "edge-node-1b3AiO9i3pgkglwGeHiqd-node-j1jq5_64lBuYQQjJWKIuI",
+      "source": "node-1b3AiO9i3pgkglwGeHiqd",
+      "target": "node-j1jq5_64lBuYQQjJWKIuI",
+      "animated": true
+    },
+    {
+      "id": "edge-node-j1jq5_64lBuYQQjJWKIuI-node-ApowKoA3C1B8oUr4-sltZ",
+      "source": "node-j1jq5_64lBuYQQjJWKIuI",
+      "target": "node-ApowKoA3C1B8oUr4-sltZ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ApowKoA3C1B8oUr4-sltZ-node-L7btVRwvkEVX0K8LxnbqJ",
+      "source": "node-ApowKoA3C1B8oUr4-sltZ",
+      "target": "node-L7btVRwvkEVX0K8LxnbqJ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-L7btVRwvkEVX0K8LxnbqJ-node-0K17RO_EoOaT820WypQ7H",
+      "source": "node-L7btVRwvkEVX0K8LxnbqJ",
+      "target": "node-0K17RO_EoOaT820WypQ7H",
+      "animated": true
+    },
+    {
+      "id": "edge-node-0K17RO_EoOaT820WypQ7H-node-XPr7td4S8xpFxG5IkWvyz",
+      "source": "node-0K17RO_EoOaT820WypQ7H",
+      "target": "node-XPr7td4S8xpFxG5IkWvyz",
+      "animated": true
+    },
+    {
+      "id": "edge-node-XPr7td4S8xpFxG5IkWvyz-node-2m8uQRGaVZUd4mfm7bRou",
+      "source": "node-XPr7td4S8xpFxG5IkWvyz",
+      "target": "node-2m8uQRGaVZUd4mfm7bRou",
+      "animated": true
+    },
+    {
+      "id": "edge-node-2m8uQRGaVZUd4mfm7bRou-node-EHVXO79NGpLC1i8x4Y7g1",
+      "source": "node-2m8uQRGaVZUd4mfm7bRou",
+      "target": "node-EHVXO79NGpLC1i8x4Y7g1",
+      "animated": true
+    },
+    {
+      "id": "edge-node-EHVXO79NGpLC1i8x4Y7g1-node-wSKItU0lct_9CCs4G4JO_",
+      "source": "node-EHVXO79NGpLC1i8x4Y7g1",
+      "target": "node-wSKItU0lct_9CCs4G4JO_",
+      "animated": true
+    },
+    {
+      "id": "edge-node-wSKItU0lct_9CCs4G4JO_-node-KXvrYvFvyAqFbJeS1KHRi",
+      "source": "node-wSKItU0lct_9CCs4G4JO_",
+      "target": "node-KXvrYvFvyAqFbJeS1KHRi",
+      "animated": true
+    },
+    {
+      "id": "edge-node-KXvrYvFvyAqFbJeS1KHRi-node-gUpA_YtWlToGs-OJZZDpV",
+      "source": "node-KXvrYvFvyAqFbJeS1KHRi",
+      "target": "node-gUpA_YtWlToGs-OJZZDpV",
+      "animated": true
+    },
+    {
+      "id": "edge-node-gUpA_YtWlToGs-OJZZDpV-node-SnLNFoVZhL6YuE9QOLpAl",
+      "source": "node-gUpA_YtWlToGs-OJZZDpV",
+      "target": "node-SnLNFoVZhL6YuE9QOLpAl",
+      "animated": true
+    },
+    {
+      "id": "edge-node-SnLNFoVZhL6YuE9QOLpAl-node-1X3RbJPY_GbIDarcO2UDL",
+      "source": "node-SnLNFoVZhL6YuE9QOLpAl",
+      "target": "node-1X3RbJPY_GbIDarcO2UDL",
+      "animated": true
+    },
+    {
+      "id": "edge-node-1X3RbJPY_GbIDarcO2UDL-node-PDZEvLgi94V5oLt3J5U9Z",
+      "source": "node-1X3RbJPY_GbIDarcO2UDL",
+      "target": "node-PDZEvLgi94V5oLt3J5U9Z",
+      "animated": true
+    },
+    {
+      "id": "edge-node-PDZEvLgi94V5oLt3J5U9Z-node-O3lbX70fDeKsv9fkJJtYv",
+      "source": "node-PDZEvLgi94V5oLt3J5U9Z",
+      "target": "node-O3lbX70fDeKsv9fkJJtYv",
+      "animated": true
+    },
+    {
+      "id": "edge-node-O3lbX70fDeKsv9fkJJtYv-node-y0yMev6QSHjqd1YJ9Y05Z",
+      "source": "node-O3lbX70fDeKsv9fkJJtYv",
+      "target": "node-y0yMev6QSHjqd1YJ9Y05Z",
+      "animated": true
+    },
+    {
+      "id": "edge-node-y0yMev6QSHjqd1YJ9Y05Z-node-VdtQNeFL8vnaHHzW6CWds",
+      "source": "node-y0yMev6QSHjqd1YJ9Y05Z",
+      "target": "node-VdtQNeFL8vnaHHzW6CWds",
+      "animated": true
+    },
+    {
+      "id": "edge-node-VdtQNeFL8vnaHHzW6CWds-node-feXXBBD1J5TEllq2zbCUZ",
+      "source": "node-VdtQNeFL8vnaHHzW6CWds",
+      "target": "node-feXXBBD1J5TEllq2zbCUZ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-feXXBBD1J5TEllq2zbCUZ-node-hS12KA72tBNmVvS921-H-",
+      "source": "node-feXXBBD1J5TEllq2zbCUZ",
+      "target": "node-hS12KA72tBNmVvS921-H-",
+      "animated": true
+    },
+    {
+      "id": "edge-node-hS12KA72tBNmVvS921-H--node-6dJaQRj2zMz00sfTiTdww",
+      "source": "node-hS12KA72tBNmVvS921-H-",
+      "target": "node-6dJaQRj2zMz00sfTiTdww",
+      "animated": true
+    },
+    {
+      "id": "edge-node-6dJaQRj2zMz00sfTiTdww-node-cRgcpjX7GlMB_l3ARU1z4",
+      "source": "node-6dJaQRj2zMz00sfTiTdww",
+      "target": "node-cRgcpjX7GlMB_l3ARU1z4",
+      "animated": true
+    },
+    {
+      "id": "edge-node-cRgcpjX7GlMB_l3ARU1z4-node--9C077yNLTXLbEo0TW1zU",
+      "source": "node-cRgcpjX7GlMB_l3ARU1z4",
+      "target": "node--9C077yNLTXLbEo0TW1zU",
+      "animated": true
+    },
+    {
+      "id": "edge-node--9C077yNLTXLbEo0TW1zU-node-c8uLNJMr6UZfvjFwFhxvd",
+      "source": "node--9C077yNLTXLbEo0TW1zU",
+      "target": "node-c8uLNJMr6UZfvjFwFhxvd",
+      "animated": true
+    },
+    {
+      "id": "edge-node-c8uLNJMr6UZfvjFwFhxvd-node-U6vkyRtFatEi8oCm0zoIK",
+      "source": "node-c8uLNJMr6UZfvjFwFhxvd",
+      "target": "node-U6vkyRtFatEi8oCm0zoIK",
+      "animated": true
+    },
+    {
+      "id": "edge-node-U6vkyRtFatEi8oCm0zoIK-node-JWRELdQozts-p0448ILYf",
+      "source": "node-U6vkyRtFatEi8oCm0zoIK",
+      "target": "node-JWRELdQozts-p0448ILYf",
+      "animated": true
+    },
+    {
+      "id": "edge-node-JWRELdQozts-p0448ILYf-node-6br2AmC31MvGURDUgNtl2",
+      "source": "node-JWRELdQozts-p0448ILYf",
+      "target": "node-6br2AmC31MvGURDUgNtl2",
+      "animated": true
+    },
+    {
+      "id": "edge-node-6br2AmC31MvGURDUgNtl2-node-XP4ngNk1Fqzb2nxtHs3Ot",
+      "source": "node-6br2AmC31MvGURDUgNtl2",
+      "target": "node-XP4ngNk1Fqzb2nxtHs3Ot",
+      "animated": true
+    },
+    {
+      "id": "edge-node-XP4ngNk1Fqzb2nxtHs3Ot-node-pC_AC-yhn9qqL2HbIl8Yx",
+      "source": "node-XP4ngNk1Fqzb2nxtHs3Ot",
+      "target": "node-pC_AC-yhn9qqL2HbIl8Yx",
+      "animated": true
+    },
+    {
+      "id": "edge-node-pC_AC-yhn9qqL2HbIl8Yx-node-XTXm8aIDbRkTXoAck_m3I",
+      "source": "node-pC_AC-yhn9qqL2HbIl8Yx",
+      "target": "node-XTXm8aIDbRkTXoAck_m3I",
+      "animated": true
+    },
+    {
+      "id": "edge-node-XTXm8aIDbRkTXoAck_m3I-node-MhJaZyfzuHGROihT8U7cY",
+      "source": "node-XTXm8aIDbRkTXoAck_m3I",
+      "target": "node-MhJaZyfzuHGROihT8U7cY",
+      "animated": true
+    },
+    {
+      "id": "edge-node-MhJaZyfzuHGROihT8U7cY-node-xgI4j0gkNkd3pqGmWkpmF",
+      "source": "node-MhJaZyfzuHGROihT8U7cY",
+      "target": "node-xgI4j0gkNkd3pqGmWkpmF",
+      "animated": true
+    },
+    {
+      "id": "edge-node-xgI4j0gkNkd3pqGmWkpmF-node-swUTr8ZP72JnyP7UjfrHH",
+      "source": "node-xgI4j0gkNkd3pqGmWkpmF",
+      "target": "node-swUTr8ZP72JnyP7UjfrHH",
+      "animated": true
+    },
+    {
+      "id": "edge-node-swUTr8ZP72JnyP7UjfrHH-node-P_u3uSVm63KsmQRWdvBmr",
+      "source": "node-swUTr8ZP72JnyP7UjfrHH",
+      "target": "node-P_u3uSVm63KsmQRWdvBmr",
+      "animated": true
+    },
+    {
+      "id": "edge-node-P_u3uSVm63KsmQRWdvBmr-node-akoMThJHZLC3vFk_zB-S1",
+      "source": "node-P_u3uSVm63KsmQRWdvBmr",
+      "target": "node-akoMThJHZLC3vFk_zB-S1",
+      "animated": true
+    },
+    {
+      "id": "edge-node-akoMThJHZLC3vFk_zB-S1-node-S1EzGF-CLu7tWDb1V6RQc",
+      "source": "node-akoMThJHZLC3vFk_zB-S1",
+      "target": "node-S1EzGF-CLu7tWDb1V6RQc",
+      "animated": true
+    },
+    {
+      "id": "edge-node-S1EzGF-CLu7tWDb1V6RQc-node-AvzZ6SxNvGCuq9cX_O6op",
+      "source": "node-S1EzGF-CLu7tWDb1V6RQc",
+      "target": "node-AvzZ6SxNvGCuq9cX_O6op",
+      "animated": true
+    },
+    {
+      "id": "edge-node-AvzZ6SxNvGCuq9cX_O6op-node-UphqgVEpeVfM8mCVKpE-s",
+      "source": "node-AvzZ6SxNvGCuq9cX_O6op",
+      "target": "node-UphqgVEpeVfM8mCVKpE-s",
+      "animated": true
+    },
+    {
+      "id": "edge-node-UphqgVEpeVfM8mCVKpE-s-node-1BCWaI0i01gzwo539I90D",
+      "source": "node-UphqgVEpeVfM8mCVKpE-s",
+      "target": "node-1BCWaI0i01gzwo539I90D",
+      "animated": true
+    },
+    {
+      "id": "edge-node-1BCWaI0i01gzwo539I90D-node-3PBGqxsWI3K6vpB9PtteC",
+      "source": "node-1BCWaI0i01gzwo539I90D",
+      "target": "node-3PBGqxsWI3K6vpB9PtteC",
+      "animated": true
+    },
+    {
+      "id": "edge-node-3PBGqxsWI3K6vpB9PtteC-node-4LSIcQnzj3V5mStHIYP-O",
+      "source": "node-3PBGqxsWI3K6vpB9PtteC",
+      "target": "node-4LSIcQnzj3V5mStHIYP-O",
+      "animated": true
+    },
+    {
+      "id": "edge-node-4LSIcQnzj3V5mStHIYP-O-node-_VJmd1wv2UJcLpQKnmjjK",
+      "source": "node-4LSIcQnzj3V5mStHIYP-O",
+      "target": "node-_VJmd1wv2UJcLpQKnmjjK",
+      "animated": true
+    },
+    {
+      "id": "edge-node-_VJmd1wv2UJcLpQKnmjjK-node-23bhr8zcXaTgjiAa7z_Pn",
+      "source": "node-_VJmd1wv2UJcLpQKnmjjK",
+      "target": "node-23bhr8zcXaTgjiAa7z_Pn",
+      "animated": true
+    },
+    {
+      "id": "edge-node-23bhr8zcXaTgjiAa7z_Pn-node-axtup-_HtUjM2Ft3J1Sxb",
+      "source": "node-23bhr8zcXaTgjiAa7z_Pn",
+      "target": "node-axtup-_HtUjM2Ft3J1Sxb",
+      "animated": true
+    },
+    {
+      "id": "edge-node-axtup-_HtUjM2Ft3J1Sxb-node-BM2ukkGQzjbWiPgExsN5z",
+      "source": "node-axtup-_HtUjM2Ft3J1Sxb",
+      "target": "node-BM2ukkGQzjbWiPgExsN5z",
+      "animated": true
+    },
+    {
+      "id": "edge-node-BM2ukkGQzjbWiPgExsN5z-node-qjHtL_erZg2F9HuDOSaKl",
+      "source": "node-BM2ukkGQzjbWiPgExsN5z",
+      "target": "node-qjHtL_erZg2F9HuDOSaKl",
+      "animated": true
+    },
+    {
+      "id": "edge-node-qjHtL_erZg2F9HuDOSaKl-node-6u9a625hfddNmkjU0uiSK",
+      "source": "node-qjHtL_erZg2F9HuDOSaKl",
+      "target": "node-6u9a625hfddNmkjU0uiSK",
+      "animated": true
+    },
+    {
+      "id": "edge-node-6u9a625hfddNmkjU0uiSK-node-z9ZgXE5cDkLOlJNi6JIMJ",
+      "source": "node-6u9a625hfddNmkjU0uiSK",
+      "target": "node-z9ZgXE5cDkLOlJNi6JIMJ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-z9ZgXE5cDkLOlJNi6JIMJ-node-5pYoyNuVkRmQBqdrgcAcN",
+      "source": "node-z9ZgXE5cDkLOlJNi6JIMJ",
+      "target": "node-5pYoyNuVkRmQBqdrgcAcN",
+      "animated": true
+    },
+    {
+      "id": "edge-node-5pYoyNuVkRmQBqdrgcAcN-node-C19rHMygP6Uc1NDgzt3DG",
+      "source": "node-5pYoyNuVkRmQBqdrgcAcN",
+      "target": "node-C19rHMygP6Uc1NDgzt3DG",
+      "animated": true
+    },
+    {
+      "id": "edge-node-C19rHMygP6Uc1NDgzt3DG-node-UIFNQ9g5fMK-KoZCrqv27",
+      "source": "node-C19rHMygP6Uc1NDgzt3DG",
+      "target": "node-UIFNQ9g5fMK-KoZCrqv27",
+      "animated": true
+    },
+    {
+      "id": "edge-node-UIFNQ9g5fMK-KoZCrqv27-node-ObA_xZDY7PxU54NGBwyVI",
+      "source": "node-UIFNQ9g5fMK-KoZCrqv27",
+      "target": "node-ObA_xZDY7PxU54NGBwyVI",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ObA_xZDY7PxU54NGBwyVI-node-2Es328m-FGfn7UQteQjdS",
+      "source": "node-ObA_xZDY7PxU54NGBwyVI",
+      "target": "node-2Es328m-FGfn7UQteQjdS",
+      "animated": true
+    },
+    {
+      "id": "edge-node-2Es328m-FGfn7UQteQjdS-node-w78MVXiI2V3XXajsEEZyk",
+      "source": "node-2Es328m-FGfn7UQteQjdS",
+      "target": "node-w78MVXiI2V3XXajsEEZyk",
+      "animated": true
+    },
+    {
+      "id": "edge-node-w78MVXiI2V3XXajsEEZyk-node-GChLgXktEvXnOs9fiv77x",
+      "source": "node-w78MVXiI2V3XXajsEEZyk",
+      "target": "node-GChLgXktEvXnOs9fiv77x",
+      "animated": true
+    },
+    {
+      "id": "edge-node-GChLgXktEvXnOs9fiv77x-node-NkRfIHsHQnOHJSTuFQ9aj",
+      "source": "node-GChLgXktEvXnOs9fiv77x",
+      "target": "node-NkRfIHsHQnOHJSTuFQ9aj",
+      "animated": true
+    },
+    {
+      "id": "edge-node-NkRfIHsHQnOHJSTuFQ9aj-node-2HIeG6ywOA9BkE9W3Gu9v",
+      "source": "node-NkRfIHsHQnOHJSTuFQ9aj",
+      "target": "node-2HIeG6ywOA9BkE9W3Gu9v",
+      "animated": true
+    }
+  ],
+  "topics": {
+    "HDWIMwjBFh4vKw_BYo0bF": {
+      "id": "HDWIMwjBFh4vKw_BYo0bF",
+      "slug": "aesthetic-mappings",
+      "title": "Aesthetic Mappings",
+      "description": "Aesthetic mappings connect columns in your data to visual properties of a plot, like position, color, size, or shape. Writing `aes(x = year, y = revenue, color = region)` tells ggplot2 to plot year against revenue and color each point by region. Choosing the right aesthetics for the right variables makes the difference between a clear plot and a confusing one.",
+      "resources": []
+    },
+    "V_cnhs4qzp-SLnLaGXC1l": {
+      "id": "V_cnhs4qzp-SLnLaGXC1l",
+      "slug": "apis",
+      "title": "APIs",
+      "description": "Web APIs let you request data over the internet from another service, typically returning it in JSON format. Fetching data from an API in R usually means making an HTTP request with a package like httr, then parsing the response. This combination of requesting and parsing is essential for working with any modern data source that exposes an API rather than a static file.",
+      "resources": []
+    },
+    "yqCapCzAFkWZvebvkuHNV": {
+      "id": "yqCapCzAFkWZvebvkuHNV",
+      "slug": "apply-family",
+      "title": "Apply Family",
+      "description": "The apply family is a set of base R functions that apply another function to every element of a vector, list, or data structure, replacing many uses of explicit loops. `lapply()` always returns a list, `sapply()` tries to simplify the result into a vector or matrix, and `vapply()` works like `sapply()` but requires specifying the expected output type in advance. These functions predate the tidyverse's purrr package, which offers similar functionality with more consistent behavior.",
+      "resources": [
+        {
+          "id": "yqCapCzAFkWZvebvkuHNV-res-1",
+          "type": "article",
+          "title": "apply family in r apply(), lapply(), sapply(), mapply() and tapply()",
+          "url": "https://www.r-bloggers.com/2021/05/apply-family-in-r-apply-lapply-sapply-mapply-and-tapply/"
+        },
+        {
+          "id": "yqCapCzAFkWZvebvkuHNV-res-2",
+          "type": "article",
+          "title": "apply, lapply, sapply in R: The apply Family Explained",
+          "url": "https://coddy.tech/docs/r/apply-family"
+        },
+        {
+          "id": "yqCapCzAFkWZvebvkuHNV-res-3",
+          "type": "video",
+          "title": "Apply Functions in R",
+          "url": "https://www.youtube.com/watch?v=i8xYAX5dH-o"
+        }
+      ]
+    },
+    "qSJI_xsSN3wPY3ud0bZdm": {
+      "id": "qSJI_xsSN3wPY3ud0bZdm",
+      "slug": "arguments--defaults",
+      "title": "Arguments & Defaults",
+      "description": "Function arguments are the inputs a function accepts, and default values let you specify what an argument should be if the caller doesn't provide one. Writing `function(x, na.rm = FALSE)` means `na.rm` defaults to `FALSE` unless the caller overrides it. R also supports `...` to let a function accept a variable number of additional arguments, often passed through to another function inside.",
+      "resources": [
+        {
+          "id": "qSJI_xsSN3wPY3ud0bZdm-res-1",
+          "type": "article",
+          "title": "R Functions",
+          "url": "https://adv-r.hadley.nz/functions.html"
+        },
+        {
+          "id": "qSJI_xsSN3wPY3ud0bZdm-res-2",
+          "type": "video",
+          "title": "Create functions in R",
+          "url": "https://www.youtube.com/watch?v=dCyj1MCOMrw"
+        }
+      ]
+    },
+    "fy2pI0rjkw9d8THIHgDuN": {
+      "id": "fy2pI0rjkw9d8THIHgDuN",
+      "slug": "arrays",
+      "title": "Arrays",
+      "description": "An array generalizes a matrix to more than two dimensions, storing values of a single type across any number of dimensions you specify. Arrays are less common in everyday data analysis than vectors or data frames, but they appear in specialized numerical and scientific computing contexts. R indexes into them using the same bracket notation used for vectors and matrices, just with an extra dimension for each additional axis.",
+      "resources": [
+        {
+          "id": "fy2pI0rjkw9d8THIHgDuN-res-1",
+          "type": "article",
+          "title": "R Arrays",
+          "url": "https://www.w3schools.com/r/r_arrays.asp"
+        },
+        {
+          "id": "fy2pI0rjkw9d8THIHgDuN-res-2",
+          "type": "video",
+          "title": "R Basics 11 - Arrays",
+          "url": "https://www.youtube.com/watch?v=oYhP2WZYpBY"
+        }
+      ]
+    },
+    "Ytwncvf4YOgLPNnczOpts": {
+      "id": "Ytwncvf4YOgLPNnczOpts",
+      "slug": "base-r-plotting",
+      "title": "Base R Plotting",
+      "description": "Base R includes plotting functions like `plot()`, `hist()`, and `boxplot()` that don't require any additional package. They're quick to use for a fast look at data and require no setup. Base R plots are generally less polished and more manual to customize than ggplot2, since you build them up layer by layer using separate function calls.",
+      "resources": []
+    },
+    "nDFlbYOe7U7mVJadKYy_W": {
+      "id": "nDFlbYOe7U7mVJadKYy_W",
+      "slug": "basic-syntax",
+      "title": "Basic Syntax",
+      "description": "This section covers the fundamental building blocks of writing R code: variables, operators, comments, and basic control structures. It's the vocabulary you need before anything more complex makes sense.",
+      "resources": [
+        {
+          "id": "nDFlbYOe7U7mVJadKYy_W-res-1",
+          "type": "article",
+          "title": "R for Data Science (2e)",
+          "url": "https://r4ds.hadley.nz/"
+        },
+        {
+          "id": "nDFlbYOe7U7mVJadKYy_W-res-2",
+          "type": "video",
+          "title": "Harvard CS50’s Intro to R Programming",
+          "url": "https://www.youtube.com/watch?v=g_3IKHG-rfA"
+        },
+        {
+          "id": "nDFlbYOe7U7mVJadKYy_W-res-3",
+          "type": "video",
+          "title": "Learn R in 39 minutes",
+          "url": "https://www.youtube.com/watch?v=yZ0bV2Afkjc"
+        },
+        {
+          "id": "nDFlbYOe7U7mVJadKYy_W-res-4",
+          "type": "video",
+          "title": "R programming in one hour - a crash course for beginners",
+          "url": "https://www.youtube.com/watch?v=eR-XRSKsuR4"
+        }
+      ]
+    },
+    "OLOZSNHrOFD3claBXNKxP": {
+      "id": "OLOZSNHrOFD3claBXNKxP",
+      "slug": "best-practices",
+      "title": "Best Practices",
+      "description": "Good data visualization practice means choosing chart types and design choices that communicate data accurately rather than misleadingly. Common anti-patterns include truncated axes that exaggerate differences and color choices that aren't accessible to colorblind viewers. A technically correct chart can still mislead its audience if these principles are ignored.",
+      "resources": []
+    },
+    "GkxSrpOJx-SWvnDkTPcJt": {
+      "id": "GkxSrpOJx-SWvnDkTPcJt",
+      "slug": "big-data-tools",
+      "title": "Big Data Tools",
+      "description": "This section covers working with datasets too large or too slow to handle comfortably with standard R data manipulation tools. It includes techniques for parallelizing computation and connecting to distributed processing systems.",
+      "resources": []
+    },
+    "XI8bvhQ3ugezTu60USUG2": {
+      "id": "XI8bvhQ3ugezTu60USUG2",
+      "slug": "casting-types",
+      "title": "Casting Types",
+      "description": "Casting converts a column to the correct type, such as turning character `\"42\"` into the numeric value `42`. Data often arrives in the wrong type for analysis, especially numbers or dates stored as plain text. Getting the types right early avoids confusing errors later when a function expects a number but receives text instead.",
+      "resources": []
+    },
+    "ghrVl-VfVDvpyBIl6N4xM": {
+      "id": "ghrVl-VfVDvpyBIl6N4xM",
+      "slug": "character",
+      "title": "Character",
+      "description": "Character is R's type for text, written inside single or double quotes, like `\"hello\"`. R provides many built-in and package functions for searching, splitting, and reformatting text stored this way. Character data shows up constantly in real datasets: names, categories, free-text responses, file paths.",
+      "resources": [
+        {
+          "id": "ghrVl-VfVDvpyBIl6N4xM-res-1",
+          "type": "article",
+          "title": "Character",
+          "url": "https://www.r-tutor.com/r-introduction/basic-data-types/character"
+        },
+        {
+          "id": "ghrVl-VfVDvpyBIl6N4xM-res-2",
+          "type": "article",
+          "title": "R Strings",
+          "url": "https://www.w3schools.com/r/r_strings.asp"
+        }
+      ]
+    },
+    "IahDxQfLvld-qCAeAuAo-": {
+      "id": "IahDxQfLvld-qCAeAuAo-",
+      "slug": "comments",
+      "title": "Comments",
+      "description": "Comments start with `#` and are ignored when R runs the code, letting you leave notes explaining what a piece of code does or why. They don't affect how a script executes, but they make code easier to understand later, whether for someone else or for yourself after time has passed. Good commenting habits pay off especially once scripts grow beyond a few lines.",
+      "resources": [
+        {
+          "id": "IahDxQfLvld-qCAeAuAo--res-1",
+          "type": "article",
+          "title": "R Comments",
+          "url": "https://www.w3schools.com/r/r_comments.asp"
+        },
+        {
+          "id": "IahDxQfLvld-qCAeAuAo--res-2",
+          "type": "video",
+          "title": "how to add comments in your R codes",
+          "url": "https://www.youtube.com/watch?v=1ELURZg8IIY"
+        }
+      ]
+    },
+    "1uWW6PP2uWqKU4Ya5GzVO": {
+      "id": "1uWW6PP2uWqKU4Ya5GzVO",
+      "slug": "common-plots",
+      "title": "Common Plots",
+      "description": "Common plot types include line plots for trends over time, bar plots for comparing quantities across categories, histograms for showing the distribution of a single numeric variable, and boxplots for summarizing spread and outliers. Each type suits a different kind of question about the data. Learning when to reach for which one is as important as knowing the syntax to produce it.",
+      "resources": []
+    },
+    "SQh5uCFmpecdc-_PtyCEp": {
+      "id": "SQh5uCFmpecdc-_PtyCEp",
+      "slug": "complex",
+      "title": "Complex",
+      "description": "Complex numbers combine a real and imaginary part, written in R as something like `3+2i`. They come up in specialized mathematical work, such as signal processing, but most day-to-day data analysis never touches them directly. R supports them fully as a native type, including arithmetic and functions like `Mod()` and `Conj()`.",
+      "resources": [
+        {
+          "id": "SQh5uCFmpecdc-_PtyCEp-res-1",
+          "type": "article",
+          "title": "Complex Types",
+          "url": "https://www.r-tutor.com/r-introduction/basic-data-types/complex"
+        }
+      ]
+    },
+    "bN3DAVH9lstsgwFhFMU_m": {
+      "id": "bN3DAVH9lstsgwFhFMU_m",
+      "slug": "conditional-statements",
+      "title": "Conditional Statements",
+      "description": "Conditional statements let code branch based on whether something is true or false, using `if`, `else if`, and `else`. R evaluates the condition, runs the matching block, and skips the rest. R also offers `ifelse()` and dplyr's `case_when()` for applying conditional logic across an entire column of data at once.",
+      "resources": [
+        {
+          "id": "bN3DAVH9lstsgwFhFMU_m-res-1",
+          "type": "article",
+          "title": "Conditional statements",
+          "url": "https://intro2r.com/conditional-statements.html"
+        },
+        {
+          "id": "bN3DAVH9lstsgwFhFMU_m-res-2",
+          "type": "article",
+          "title": "R If ... Else",
+          "url": "https://www.w3schools.com/r/r_if_else.asp"
+        },
+        {
+          "id": "bN3DAVH9lstsgwFhFMU_m-res-3",
+          "type": "video",
+          "title": "Conditional Statements in R (If, Else If, and Else)",
+          "url": "https://www.youtube.com/watch?v=YT6OXoTIjOk"
+        }
+      ]
+    },
+    "IeNMySumbyJdHhORMwmFr": {
+      "id": "IeNMySumbyJdHhORMwmFr",
+      "slug": "correlation",
+      "title": "Correlation",
+      "description": "Correlation measures the strength and direction of a linear relationship between two numeric variables, expressed as a single number between negative one and positive one. A value near positive one means the variables tend to increase together, and near zero means little linear relationship exists. Correlation does not imply causation, and it can miss real relationships that aren't linear in shape.",
+      "resources": []
+    },
+    "IL0fFEs4CgK_eBft-SYAl": {
+      "id": "IL0fFEs4CgK_eBft-SYAl",
+      "slug": "cran",
+      "title": "CRAN",
+      "description": "CRAN, the Comprehensive R Archive Network, is R's official package repository, hosting tens of thousands of vetted packages. Packages published on CRAN go through basic automated checks before release, giving them a baseline level of reliability. It's the default source `install.packages()` pulls from, and most tutorials assume packages come from here unless stated otherwise.",
+      "resources": [
+        {
+          "id": "IL0fFEs4CgK_eBft-SYAl-res-1",
+          "type": "article",
+          "title": "CRAN",
+          "url": "https://cran.r-project.org/"
+        }
+      ]
+    },
+    "WBnsgWCiduh03uxGIN69c": {
+      "id": "WBnsgWCiduh03uxGIN69c",
+      "slug": "creating-variables",
+      "title": "Creating Variables",
+      "description": "Creating a variable stores a value under a name so you can reuse it later, most commonly using the `<-` assignment operator, though `=` also works in most contexts. Once assigned, a variable holds its value until you reassign or remove it. This is one of the very first things you do in any R script.",
+      "resources": [
+        {
+          "id": "WBnsgWCiduh03uxGIN69c-res-1",
+          "type": "article",
+          "title": "R Variables",
+          "url": "https://www.w3schools.com/r/r_variables.asp"
+        },
+        {
+          "id": "WBnsgWCiduh03uxGIN69c-res-2",
+          "type": "video",
+          "title": "Creating Variables in R",
+          "url": "https://www.youtube.com/watch?v=FmK79_MgO-8"
+        }
+      ]
+    },
+    "0cq7ItNudoIj48xoeA-q5": {
+      "id": "0cq7ItNudoIj48xoeA-q5",
+      "slug": "csv",
+      "title": "CSV",
+      "description": "CSV files store tabular data as plain text with values separated by commas, making them one of the most universal formats for exchanging data between tools. Base R can read them with `read.csv()`, though readr's `read_csv()` is faster and handles more edge cases well, such as inconsistent column types or unusual encodings. Reading them correctly means paying attention to details like headers and how missing values are represented.",
+      "resources": []
+    },
+    "ofS4vY5u64GP4mI8gG_WD": {
+      "id": "ofS4vY5u64GP4mI8gG_WD",
+      "slug": "dashboards",
+      "title": "Dashboards",
+      "description": "Dashboards present data and analysis interactively, typically through a web page with charts, filters, and controls a viewer can adjust themselves. They're built either through general business intelligence tools or R-native frameworks, depending on the audience and existing tooling in an organization. This section covers both routes for building them out of R work.",
+      "resources": []
+    },
+    "dLatbMJKRRZKjQbKW291i": {
+      "id": "dLatbMJKRRZKjQbKW291i",
+      "slug": "data-cleaning",
+      "title": "Data Cleaning",
+      "description": "This section covers fixing messy, inconsistent, or incomplete data before it's ready for analysis. It includes converting types, cleaning text, handling missing values, and detecting outliers.",
+      "resources": []
+    },
+    "kIXf6FI-z6dgUdTGCjHkt": {
+      "id": "kIXf6FI-z6dgUdTGCjHkt",
+      "slug": "data-frames",
+      "title": "Data Frames",
+      "description": "A data frame is R's standard structure for tabular data, organized into rows and columns where each column can hold a different type but all values within a column share the same type. It's the structure you'll use for almost any real dataset loaded into R, whether from a CSV file, a database, or an API. Nearly every data manipulation package in R, including dplyr, is built around working with data frames or their variants.",
+      "resources": [
+        {
+          "id": "kIXf6FI-z6dgUdTGCjHkt-res-1",
+          "type": "article",
+          "title": "R Data Frames",
+          "url": "https://www.w3schools.com/r/r_data_frames.asp"
+        },
+        {
+          "id": "kIXf6FI-z6dgUdTGCjHkt-res-2",
+          "type": "video",
+          "title": "R Tutorial - Using the Data Frame in R",
+          "url": "https://www.youtube.com/watch?v=9f2g7RN5N0I"
+        }
+      ]
+    },
+    "vP5oSvl3Z5inZEd3pmiMK": {
+      "id": "vP5oSvl3Z5inZEd3pmiMK",
+      "slug": "data-manipulation",
+      "title": "Data Manipulation",
+      "description": "This section covers the core tasks of reshaping and transforming data once it's already loaded into R: filtering, grouping, joining, and more. Most real analysis work happens here, between importing raw data and producing final results.",
+      "resources": []
+    },
+    "JTDhohoC6Ew7uvPwuWr1v": {
+      "id": "JTDhohoC6Ew7uvPwuWr1v",
+      "slug": "data-structures",
+      "title": "Data Structures",
+      "description": "This section covers the containers R uses to hold data: vectors, lists, and the various tabular formats. Nearly everything you do in R involves working with one of these structures.",
+      "resources": [
+        {
+          "id": "JTDhohoC6Ew7uvPwuWr1v-res-1",
+          "type": "article",
+          "title": "R Data Structures",
+          "url": "https://www.w3schools.com/r/r_data_structures.asp"
+        },
+        {
+          "id": "JTDhohoC6Ew7uvPwuWr1v-res-2",
+          "type": "article",
+          "title": "Basic Data Structures in R: Vectors, Matrices, and Data Frames",
+          "url": "https://www.r-bloggers.com/2025/01/basic-data-structures-in-r-vectors-matrices-and-data-frames/"
+        },
+        {
+          "id": "JTDhohoC6Ew7uvPwuWr1v-res-3",
+          "type": "video",
+          "title": "BASIC DATA STRUCTURES IN R PROGRAMMING",
+          "url": "https://www.youtube.com/watch?v=k0zLwDAQ6Uw"
+        }
+      ]
+    },
+    "SCW3xD7wCf3_ruTtxBkAX": {
+      "id": "SCW3xD7wCf3_ruTtxBkAX",
+      "slug": "data-tables",
+      "title": "Data Tables",
+      "description": "A data table is the structure provided by the data.table package, built specifically for fast, memory-efficient operations on large datasets. It extends the data frame with a more concise syntax and internal optimizations that make filtering, grouping, and joining noticeably faster on big data. Many R users learn dplyr first and pick up data tables specifically when performance on large datasets becomes a bottleneck.",
+      "resources": [
+        {
+          "id": "SCW3xD7wCf3_ruTtxBkAX-res-1",
+          "type": "article",
+          "title": "Introduction to data.table",
+          "url": "https://cran.r-project.org/web/packages/data.table/vignettes/datatable-intro.html"
+        },
+        {
+          "id": "SCW3xD7wCf3_ruTtxBkAX-res-2",
+          "type": "article",
+          "title": "DT: An R interface to the DataTables library",
+          "url": "https://rstudio.github.io/DT/"
+        },
+        {
+          "id": "SCW3xD7wCf3_ruTtxBkAX-res-3",
+          "type": "video",
+          "title": "data.table Package in R",
+          "url": "https://www.youtube.com/playlist?list=PLu6UwBFCnlEcb47DE-yWPjoEeZp10PDJz"
+        }
+      ]
+    },
+    "Iw6aTwdfOys4mzozQ_2Hz": {
+      "id": "Iw6aTwdfOys4mzozQ_2Hz",
+      "slug": "data-types",
+      "title": "Data Types",
+      "description": "This section covers the basic kinds of values R works with: numbers, text, and logical values. Every piece of data in R falls into one of these categories, and knowing them shapes how you write and debug code.",
+      "resources": [
+        {
+          "id": "Iw6aTwdfOys4mzozQ_2Hz-res-1",
+          "type": "article",
+          "title": "R Data Types",
+          "url": "https://intro2r.com/data-types.html"
+        },
+        {
+          "id": "Iw6aTwdfOys4mzozQ_2Hz-res-2",
+          "type": "article",
+          "title": "Data types in R programming",
+          "url": "https://www.youtube.com/watch?v=VtUVQWl0aRA"
+        }
+      ]
+    },
+    "1shfOZKx1DfYAOtQb1CoK": {
+      "id": "1shfOZKx1DfYAOtQb1CoK",
+      "slug": "debugging",
+      "title": "Debugging",
+      "description": "Debugging in R involves finding out why code isn't behaving as expected, using tools like `browser()`, which pauses execution at a specific line so you can inspect variables, and `traceback()`, which shows the sequence of function calls leading up to an error. RStudio and Positron both provide visual debugging tools built on top of these, including breakpoints you can set by clicking in the editor. Print statements remain a simple and effective debugging tool for many everyday issues.",
+      "resources": [
+        {
+          "id": "1shfOZKx1DfYAOtQb1CoK-res-1",
+          "type": "article",
+          "title": "Debugging",
+          "url": "https://adv-r.hadley.nz/debugging.html"
+        },
+        {
+          "id": "1shfOZKx1DfYAOtQb1CoK-res-2",
+          "type": "article",
+          "title": "Debugging with the RStudio IDE",
+          "url": "https://support.posit.co/hc/en-us/articles/205612627-Debugging-with-the-RStudio-IDE"
+        },
+        {
+          "id": "1shfOZKx1DfYAOtQb1CoK-res-3",
+          "type": "video",
+          "title": "Introduction to the RStudio Debugger",
+          "url": "https://www.youtube.com/watch?v=QQxTf3o07NU"
+        }
+      ]
+    },
+    "epfsRqEvWDjgeSrku0emD": {
+      "id": "epfsRqEvWDjgeSrku0emD",
+      "slug": "descriptive-statistics",
+      "title": "Descriptive Statistics",
+      "description": "Descriptive statistics summarize the basic characteristics of a dataset: central tendency, spread, and shape. They form the foundation for almost every deeper statistical technique, since you need to understand a variable's basic behavior before modeling relationships involving it. R's base `summary()` function calculates several of these at once for a quick overview.",
+      "resources": []
+    },
+    "52p2OUjL11aRM4PyHrCt_": {
+      "id": "52p2OUjL11aRM4PyHrCt_",
+      "slug": "distribution-analysis",
+      "title": "Distribution Analysis",
+      "description": "Distribution analysis looks at how values in a dataset are spread across their range, most commonly using histograms and boxplots. A histogram groups values into bins and shows how many observations fall into each, revealing shape characteristics like skewness. A boxplot summarizes a distribution's median, quartiles, and potential outliers in a single compact visual.",
+      "resources": []
+    },
+    "2EXfdeT4WoEg5ZNr9eCtK": {
+      "id": "2EXfdeT4WoEg5ZNr9eCtK",
+      "slug": "dplyr",
+      "title": "dplyr",
+      "description": "dplyr provides a small set of verbs for the most common data manipulation tasks: filtering rows, selecting columns, arranging order, and summarizing groups. These verbs are designed to read almost like plain English, making dplyr code easier to follow than equivalent base R code. It's the core data manipulation package within the tidyverse.",
+      "resources": []
+    },
+    "xIS0cJ8ui0siBoZJr3-B_": {
+      "id": "xIS0cJ8ui0siBoZJr3-B_",
+      "slug": "dropping-vs-imputing",
+      "title": "Dropping vs. Imputing",
+      "description": "Once missing values are found, you have to decide whether to drop rows containing them, which is simple but can lose real information, or impute them, replacing missing values with an estimate like the column mean. The right choice depends heavily on why the data is missing and how much of it there is. Dropping too aggressively can bias results if the missingness isn't random.",
+      "resources": []
+    },
+    "1bHv3_acNts_BeOn3l6DF": {
+      "id": "1bHv3_acNts_BeOn3l6DF",
+      "slug": "encoding-categories",
+      "title": "Encoding Categories",
+      "description": "Encoding categories turns text labels into R's factor type, giving categorical data the structure needed for modeling and certain visualizations. It also involves deciding on the order categories should follow, since default alphabetical ordering isn't always meaningful. This step usually comes after the raw text has already been cleaned and standardized.",
+      "resources": []
+    },
+    "bLZXJOMu6-NT2bqntOPfd": {
+      "id": "bLZXJOMu6-NT2bqntOPfd",
+      "slug": "error-handling",
+      "title": "Error Handling",
+      "description": "This section covers how to catch and respond to problems in your code instead of letting them crash your script outright. `tryCatch()` lets you run code that might fail and specify what should happen if it does, such as logging a message or returning a default value. This matters for any code that depends on unreliable inputs, like reading files or calling an API.",
+      "resources": [
+        {
+          "id": "bLZXJOMu6-NT2bqntOPfd-res-1",
+          "type": "article",
+          "title": "Catch Me If You Can: Exception Handling in R",
+          "url": "https://www.r-bloggers.com/2023/11/catch-me-if-you-can-exception-handling-in-r/"
+        },
+        {
+          "id": "bLZXJOMu6-NT2bqntOPfd-res-2",
+          "type": "article",
+          "title": "Error Handling and Generation",
+          "url": "https://bookdown.org/rdpeng/RProgDA/error-handling-and-generation.html"
+        },
+        {
+          "id": "bLZXJOMu6-NT2bqntOPfd-res-3",
+          "type": "video",
+          "title": "R Tutorial Playlist - Error handler, try catch statement",
+          "url": "https://www.youtube.com/watch?v=ShGJy5beTJo"
+        }
+      ]
+    },
+    "SOdl-8SpW1NsQoPtviJ8-": {
+      "id": "SOdl-8SpW1NsQoPtviJ8-",
+      "slug": "excel",
+      "title": "Excel",
+      "description": "Excel files store data in a binary or XML-based format that differs from plain text files, often including multiple sheets and formatting within a single file. R doesn't read them with base functions, so packages like readxl are needed to extract the underlying data into a usable data frame. Reading Excel data means deciding which sheet to read and whether the first row contains headers.",
+      "resources": []
+    },
+    "s2Wxtvjjz7bYK0sYeNhM4": {
+      "id": "s2Wxtvjjz7bYK0sYeNhM4",
+      "slug": "exploratory-data-analysis",
+      "title": "Exploratory Data Analysis",
+      "description": "This section covers the first, applied pass at understanding a new dataset: summarizing it numerically and visually before any deeper modeling. It's usually the step right after data cleaning and right before serious statistical analysis.",
+      "resources": []
+    },
+    "P0NtCbzyGWz5B41feWsAy": {
+      "id": "P0NtCbzyGWz5B41feWsAy",
+      "slug": "faceting--themes",
+      "title": "Faceting & Themes",
+      "description": "Faceting splits a single plot into a grid of smaller plots, one for each level of a categorical variable, making it easy to compare patterns across groups side by side. Themes control the overall visual styling of a plot, like background color, gridlines, and font sizes. Together they cover much of the difference between a rough exploratory plot and one polished enough to share.",
+      "resources": []
+    },
+    "GeyQm1ONhk_eLXME7OS4M": {
+      "id": "GeyQm1ONhk_eLXME7OS4M",
+      "slug": "factors",
+      "title": "Factors",
+      "description": "A factor represents categorical data, storing a fixed set of possible values called levels, such as \"low\", \"medium\", \"high\". Internally, R stores factors as integers mapped to those level labels, which is more memory-efficient than storing the same category repeatedly as text. Getting factor levels and their order right is a common source of subtle bugs, especially when merging or filtering categorical data.",
+      "resources": [
+        {
+          "id": "GeyQm1ONhk_eLXME7OS4M-res-1",
+          "type": "article",
+          "title": "R Factors",
+          "url": "https://www.w3schools.com/r/r_factors.asp"
+        },
+        {
+          "id": "GeyQm1ONhk_eLXME7OS4M-res-2",
+          "type": "article",
+          "title": "Factors",
+          "url": "https://r4ds.had.co.nz/factors.html"
+        },
+        {
+          "id": "GeyQm1ONhk_eLXME7OS4M-res-3",
+          "type": "video",
+          "title": "Factor Variables in R",
+          "url": "https://www.youtube.com/watch?v=cspQYQLZbCo"
+        }
+      ]
+    },
+    "6w_sSTw1R5MU2zj2RpO5Z": {
+      "id": "6w_sSTw1R5MU2zj2RpO5Z",
+      "slug": "filter-query-arrange",
+      "title": "Filter, Query, Arrange",
+      "description": "Filtering keeps rows matching a condition, querying more broadly covers selecting the specific subset of data you need, and arranging sorts rows by one or more columns. In dplyr, these map to `filter()` and `arrange()`, both designed to read almost like plain English. Together they cover a large share of everyday data wrangling needs.",
+      "resources": []
+    },
+    "WVgYRRNpsNXBnz7V9JX29": {
+      "id": "WVgYRRNpsNXBnz7V9JX29",
+      "slug": "forcats",
+      "title": "forcats",
+      "description": "forcats provides tools for working with factors, R's data type for categorical variables, making common tasks like reordering levels or lumping rare categories together more straightforward than base R. Functions like `fct_reorder()` let you control the order categories appear in in plots and tables, which matters since default factor ordering is often alphabetical rather than meaningful. It's especially useful when preparing categorical data for visualization.",
+      "resources": []
+    },
+    "9mFT0z5yT446_-nGdG492": {
+      "id": "9mFT0z5yT446_-nGdG492",
+      "slug": "forward--backward-fill",
+      "title": "Forward / Backward Fill",
+      "description": "Forward and backward fill are common in time series data, carrying the last known value forward or the next known value backward to fill gaps. This assumes a value likely stayed the same or is reasonably close to nearby recorded values. It's a simpler alternative to statistical imputation, often used when data is missing due to something like a sensor briefly going offline.",
+      "resources": []
+    },
+    "GrKgIYLzkSjtXdK5czN2x": {
+      "id": "GrKgIYLzkSjtXdK5czN2x",
+      "slug": "functions",
+      "title": "Functions",
+      "description": "This section covers writing and using your own functions in R: how they accept inputs, return values, and interact with the rest of your code. Functions are the main way to package logic so it can be reused instead of repeated.",
+      "resources": [
+        {
+          "id": "GrKgIYLzkSjtXdK5czN2x-res-1",
+          "type": "article",
+          "title": "R Functions",
+          "url": "https://www.w3schools.com/r/r_functions.asp"
+        },
+        {
+          "id": "GrKgIYLzkSjtXdK5czN2x-res-2",
+          "type": "article",
+          "title": "Functions",
+          "url": "https://r4ds.had.co.nz/functions.html"
+        },
+        {
+          "id": "GrKgIYLzkSjtXdK5czN2x-res-3",
+          "type": "video",
+          "title": "A tutorial for writing functions in R",
+          "url": "https://www.youtube.com/watch?v=3uK1OzA7CTs"
+        },
+        {
+          "id": "GrKgIYLzkSjtXdK5czN2x-res-4",
+          "type": "video",
+          "title": "Create functions in R",
+          "url": "https://www.youtube.com/watch?v=dCyj1MCOMrw"
+        }
+      ]
+    },
+    "f2NsSRl_UukuqHggghWSw": {
+      "id": "f2NsSRl_UukuqHggghWSw",
+      "slug": "geospatial-analysis",
+      "title": "Geospatial Analysis",
+      "description": "Geospatial analysis works with data tied to specific locations on Earth, using specialized structures and tools for handling coordinates, boundaries, and spatial relationships. It covers both vector data, like points and polygons, and raster data, like satellite imagery. This is a distinct application area requiring its own set of packages beyond standard data manipulation tools.",
+      "resources": []
+    },
+    "4FPrICo0eUAONFvObktqU": {
+      "id": "4FPrICo0eUAONFvObktqU",
+      "slug": "ggplot2",
+      "title": "ggplot2",
+      "description": "ggplot2 is the tidyverse's plotting package, built around the grammar of graphics, which describes any plot as a combination of data, a coordinate system, and layered elements mapped to aesthetics like position or color. Instead of choosing a fixed chart type, you build a plot by combining these pieces, which is why the same approach can produce scatterplots, bar charts, or complex faceted layouts. It's the standard tool for data visualization in modern R.",
+      "resources": []
+    },
+    "vsqvOoq59aWgGexOSwlFG": {
+      "id": "vsqvOoq59aWgGexOSwlFG",
+      "slug": "ggplot2",
+      "title": "ggplot2",
+      "description": "ggplot2 is a data visualization package that follows the grammar of graphics, a system for describing and building graphs by combining independent components. It allows users to create complex plots by layering elements such as data, coordinate systems, and visual mappings. By providing a consistent and structured approach to plotting, it enables the creation of publication-quality visualizations through a series of intuitive, additive commands.",
+      "resources": []
+    },
+    "lEiv0DXeWD7w67GdZdy54": {
+      "id": "lEiv0DXeWD7w67GdZdy54",
+      "slug": "grammar-of-graphics",
+      "title": "Grammar of Graphics",
+      "description": "The grammar of graphics is the conceptual framework ggplot2 is built on, describing any plot as a combination of data, a coordinate system, and layered geometric elements mapped to aesthetics. Instead of choosing a fixed chart type, you build a plot by combining these pieces, which is why the same underlying approach can produce scatterplots, bar charts, or complex layouts using consistent syntax. Understanding this grammar is what makes ggplot2 code readable and predictable once you know the pattern.",
+      "resources": []
+    },
+    "fuAX0fNChwliVC_gJ7GV2": {
+      "id": "fuAX0fNChwliVC_gJ7GV2",
+      "slug": "group-by--summarize",
+      "title": "Group By & Summarize",
+      "description": "Grouping splits a data frame into groups based on one or more columns, and summarizing then collapses each group down to a single summary row, such as a group's average or count. Together they replace the need for manual loops when calculating statistics per category, like average sales per region. This pattern is one of the most commonly used in all of data analysis.",
+      "resources": []
+    },
+    "0xYk_O7rNoy7O116xVJvi": {
+      "id": "0xYk_O7rNoy7O116xVJvi",
+      "slug": "hypothesis-testing",
+      "title": "Hypothesis Testing",
+      "description": "Hypothesis testing provides a formal framework for deciding whether an observed pattern in data is likely real or could plausibly have occurred by chance alone. It starts with a null hypothesis, typically stating there's no effect, and calculates a p-value representing how surprising the observed data would be if that null hypothesis were true. Common tests include the t-test for comparing means and the chi-square test for categorical relationships.",
+      "resources": []
+    },
+    "WA-oBafJlw5OUphYrDm5u": {
+      "id": "WA-oBafJlw5OUphYrDm5u",
+      "slug": "igraph",
+      "title": "igraph",
+      "description": "igraph is the standard R package for building, analyzing, and visualizing network graphs. It provides tools for calculating centrality measures, detecting communities, and computing paths between nodes, covering most of the core graph theory operations needed. It's the foundation many other network analysis tools in R, including tidygraph, build on top of.",
+      "resources": []
+    },
+    "KrX28-WcpfMiuvPBtHAXw": {
+      "id": "KrX28-WcpfMiuvPBtHAXw",
+      "slug": "importing-data",
+      "title": "Importing Data",
+      "description": "This section covers getting data from outside sources into R, whatever form it originally comes in. Different sources, flat files, spreadsheets, web pages, and APIs, each need a different approach to load correctly.",
+      "resources": []
+    },
+    "_4619gNlgw_dDr_fVZ7Up": {
+      "id": "_4619gNlgw_dDr_fVZ7Up",
+      "slug": "installing-packages",
+      "title": "Installing Packages",
+      "description": "Installing packages adds functionality to R beyond what comes built in, using the base function `install.packages()` to download and install from CRAN. Running `install.packages(\"dplyr\")`, for example, fetches the dplyr package and its dependencies. This is the most basic and common way to extend R with new capabilities.",
+      "resources": [
+        {
+          "id": "_4619gNlgw_dDr_fVZ7Up-res-1",
+          "type": "article",
+          "title": "Installing and loading packages",
+          "url": "https://rladiessydney.org/courses/01-basicbasics-2"
+        },
+        {
+          "id": "_4619gNlgw_dDr_fVZ7Up-res-2",
+          "type": "article",
+          "title": "R packages",
+          "url": "https://intro2r.com/packages.html"
+        },
+        {
+          "id": "_4619gNlgw_dDr_fVZ7Up-res-3",
+          "type": "article",
+          "title": "The Easy Way to Install a Package in R (with 8 Code Examples)",
+          "url": "https://www.dataquest.io/blog/install-package-r/"
+        },
+        {
+          "id": "_4619gNlgw_dDr_fVZ7Up-res-4",
+          "type": "video",
+          "title": "Installing Packages in R Studio",
+          "url": "https://www.youtube.com/watch?v=u1r5XTqrCTQ"
+        }
+      ]
+    },
+    "8sLFw8BlwuE7tvMrDg9Pp": {
+      "id": "8sLFw8BlwuE7tvMrDg9Pp",
+      "slug": "installing-r",
+      "title": "Installing R",
+      "description": "Installing R involves downloading the base software environment from the Comprehensive R Archive Network (CRAN) and executing the installer for your specific operating system. This process sets up the core language engine, allowing you to run R scripts, manage packages, and perform statistical computations directly on your computer. Once the installation is complete, you can interact with the language through the default console or by using an integrated development environment like Positron or RStudio.",
+      "resources": [
+        {
+          "id": "8sLFw8BlwuE7tvMrDg9Pp-res-1",
+          "type": "article",
+          "title": "Installing R",
+          "url": "https://intro2r.com/install_r.html"
+        },
+        {
+          "id": "8sLFw8BlwuE7tvMrDg9Pp-res-2",
+          "type": "article",
+          "title": "Installing R and RStudio",
+          "url": "https://rstudio-education.github.io/hopr/starting.html"
+        },
+        {
+          "id": "8sLFw8BlwuE7tvMrDg9Pp-res-3",
+          "type": "video",
+          "title": "R Programming Tutorial - Learn the Basics of Statistical Computing",
+          "url": "https://www.youtube.com/watch?v=_V8eKsto3Ug"
+        },
+        {
+          "id": "8sLFw8BlwuE7tvMrDg9Pp-res-4",
+          "type": "video",
+          "title": "How to install R and RStudio on Windows 11 (Updated 2025)",
+          "url": "https://www.youtube.com/watch?v=mxNrU902uyc"
+        }
+      ]
+    },
+    "K1whVa9-2i8QMqDo_tNlZ": {
+      "id": "K1whVa9-2i8QMqDo_tNlZ",
+      "slug": "integer",
+      "title": "Integer",
+      "description": "Integers are whole numbers stored more compactly than numeric values, created by appending an `L` to a number, like `5L`. They matter when memory efficiency counts, since integers take up less space than numeric doubles. Most everyday R code doesn't need to worry about the distinction, since R converts between the two automatically in most operations.",
+      "resources": [
+        {
+          "id": "K1whVa9-2i8QMqDo_tNlZ-res-1",
+          "type": "article",
+          "title": "Integers",
+          "url": "https://statsandr.com/blog/data-types-in-r/#integer"
+        }
+      ]
+    },
+    "BMWA2CF4VkXEneErhJym-": {
+      "id": "BMWA2CF4VkXEneErhJym-",
+      "slug": "interactive-plots",
+      "title": "Interactive Plots",
+      "description": "Interactive plots let viewers hover over points for details, zoom into a region, or toggle categories on and off, rather than viewing a fixed, static image. They work particularly well in dashboards, reports viewed in a browser, or any context where the audience benefits from exploring the data themselves. They aren't useful for print or contexts where the output needs to be a fixed image.",
+      "resources": []
+    },
+    "QUzLkB8iKfUBtyAfKc8LC": {
+      "id": "QUzLkB8iKfUBtyAfKc8LC",
+      "slug": "introduction",
+      "title": "What is R",
+      "description": "R is a programming language built for statistical computing and data analysis. Bell Labs statisticians created its predecessor, S, in the 1970s, and R emerged in the 1990s as an open-source implementation of similar ideas. It comes with built-in support for vectors, data frames, and statistical functions, so tasks like regression or plotting a distribution take just a line or two of code. Universities, pharmaceutical companies, and data science teams use it heavily for analysis, visualization, and research reproducibility.",
+      "resources": [
+        {
+          "id": "QUzLkB8iKfUBtyAfKc8LC-res-1",
+          "type": "article",
+          "title": "Introduction to R",
+          "url": "https://www.r-project.org/about.html"
+        },
+        {
+          "id": "QUzLkB8iKfUBtyAfKc8LC-res-2",
+          "type": "article",
+          "title": "R Introduction",
+          "url": "https://www.w3schools.com/r/r_intro.asp"
+        },
+        {
+          "id": "QUzLkB8iKfUBtyAfKc8LC-res-3",
+          "type": "article",
+          "title": "What Is R Programming? Definition, Use Cases and FAQ",
+          "url": "https://www.coursera.org/articles/what-is-r-programming"
+        },
+        {
+          "id": "QUzLkB8iKfUBtyAfKc8LC-res-4",
+          "type": "video",
+          "title": "R programming for ABSOLUTE beginners",
+          "url": "https://www.youtube.com/watch?v=FY8BISK5DpM"
+        }
+      ]
+    },
+    "ucEFYVtXIvuYKjudK3pwB": {
+      "id": "ucEFYVtXIvuYKjudK3pwB",
+      "slug": "iqr",
+      "title": "IQR",
+      "description": "The IQR method for detecting outliers flags values that fall well below or above the interquartile range, the range between the 25th and 75th percentile of the data. It's a robust approach, less sensitive to extreme values than methods based on the mean and standard deviation. It's commonly visualized directly through a boxplot's whiskers.",
+      "resources": []
+    },
+    "bcODvfBqCUwLVXa8HKOFB": {
+      "id": "bcODvfBqCUwLVXa8HKOFB",
+      "slug": "isnull-isna",
+      "title": "isnull, isna",
+      "description": "Detecting missing values in R relies on `is.na()`, since direct comparison like `NA == NA` doesn't return `TRUE` the way you might expect. This function returns a logical vector marking which values are missing, which can then be summed to count them or used to filter rows. It's the starting point before deciding how to handle any missing data found.",
+      "resources": []
+    },
+    "WdiPYzeuO8dKQsuP0xy4P": {
+      "id": "WdiPYzeuO8dKQsuP0xy4P",
+      "slug": "joins",
+      "title": "Joins",
+      "description": "Joins combine two data frames based on matching values in one or more shared columns, similar to joins in SQL. An inner join keeps only rows with matches in both tables, a left join keeps all rows from the first table and fills in matches where available, and a full join keeps all rows from both regardless of matches. Choosing the right join type is essential whenever data is spread across multiple related tables.",
+      "resources": []
+    },
+    "R_8vJSp2Zp0CBWMeI2gsd": {
+      "id": "R_8vJSp2Zp0CBWMeI2gsd",
+      "slug": "json",
+      "title": "JSON",
+      "description": "JSON is a structured text format built around nested key-value pairs, commonly returned by web APIs. Parsing it in R usually means using a package like jsonlite to convert the response into R data structures. Because JSON's nested structure often doesn't map directly onto a flat data frame, some restructuring is usually needed afterward to get it into a usable tabular shape.",
+      "resources": []
+    },
+    "2uHsp_MQMF3WaOgcv0eDY": {
+      "id": "2uHsp_MQMF3WaOgcv0eDY",
+      "slug": "leaflet",
+      "title": "leaflet",
+      "description": "leaflet creates interactive, web-based maps in R, built on top of the popular Leaflet.js JavaScript library. Unlike static maps, leaflet maps let viewers pan, zoom, and click on individual features to see more detail. It integrates well with Shiny apps, letting map interactions trigger updates elsewhere in a dashboard.",
+      "resources": []
+    },
+    "PMGbX81TpodkDVz8o1z-T": {
+      "id": "PMGbX81TpodkDVz8o1z-T",
+      "slug": "linear-regression",
+      "title": "Linear Regression",
+      "description": "Linear regression models the relationship between a numeric outcome and one or more predictor variables, fitting a straight line, or hyperplane with multiple predictors, that best describes the relationship. R's `lm()` function fits linear models with a simple formula syntax, like `lm(sales ~ advertising)`. Checking the model's assumptions, like linearity and constant variance of the errors, matters for trusting its results.",
+      "resources": []
+    },
+    "lbYcKVjKw1mMU1DIGwA-s": {
+      "id": "lbYcKVjKw1mMU1DIGwA-s",
+      "slug": "lists",
+      "title": "Lists",
+      "description": "A list is a flexible container that can hold elements of different types and lengths in a single object, unlike a vector, which requires uniform type. A single list might hold a character string, a numeric vector, and a data frame all at once. Accessing elements typically uses double brackets, `[[ ]]`, to pull out a single element, versus single brackets, `[ ]`, which return a sublist.",
+      "resources": [
+        {
+          "id": "lbYcKVjKw1mMU1DIGwA-s-res-1",
+          "type": "article",
+          "title": "R Lists",
+          "url": "https://www.w3schools.com/r/r_lists.asp"
+        },
+        {
+          "id": "lbYcKVjKw1mMU1DIGwA-s-res-2",
+          "type": "video",
+          "title": "Working with lists in R",
+          "url": "https://www.youtube.com/watch?v=X8lNTDeiKiE"
+        }
+      ]
+    },
+    "jQTOs0UfekeCV6sPWVOr2": {
+      "id": "jQTOs0UfekeCV6sPWVOr2",
+      "slug": "logical",
+      "title": "Logical",
+      "description": "Logical values represent true or false, written as `TRUE` and `FALSE`. They result from comparisons like `5 > 3` and drive conditional logic throughout R code, such as `if` statements and filtering rows in a data frame. Logical values can also be summed directly, since R treats `TRUE` as 1 and `FALSE` as 0 in numeric contexts.",
+      "resources": [
+        {
+          "id": "jQTOs0UfekeCV6sPWVOr2-res-1",
+          "type": "article",
+          "title": "R Booleans / Logical Values",
+          "url": "https://www.w3schools.com/r/r_booleans.asp"
+        }
+      ]
+    },
+    "nfuMTLrkI-XSNDseEOkXD": {
+      "id": "nfuMTLrkI-XSNDseEOkXD",
+      "slug": "logistic-regression",
+      "title": "Logistic Regression",
+      "description": "Logistic regression models a binary outcome, like whether an event happens or not, as a function of one or more predictor variables. It predicts the probability of the outcome falling into one category, using the `glm()` function with a logistic link in R. It's one of the most widely used models for classification problems, both in traditional statistics and as a baseline in machine learning.",
+      "resources": []
+    },
+    "mCa0SGe_bHuU5P_FEsNYI": {
+      "id": "mCa0SGe_bHuU5P_FEsNYI",
+      "slug": "loops",
+      "title": "Loops",
+      "description": "A `for` loop repeats a block of code once for each element in a vector or list. A `while` loop repeats as long as a condition stays true, useful when you don't know in advance how many iterations you'll need. R loops are generally slower than vectorized alternatives, so experienced R users often reach for functions like `sapply()` or dplyr verbs where possible.",
+      "resources": [
+        {
+          "id": "mCa0SGe_bHuU5P_FEsNYI-res-1",
+          "type": "article",
+          "title": "R Loops",
+          "url": "https://intro2r.com/loops.html"
+        },
+        {
+          "id": "mCa0SGe_bHuU5P_FEsNYI-res-2",
+          "type": "article",
+          "title": "Loops",
+          "url": "https://rstudio-education.github.io/hopr/loops.html"
+        },
+        {
+          "id": "mCa0SGe_bHuU5P_FEsNYI-res-3",
+          "type": "video",
+          "title": "Loops using R programming",
+          "url": "https://www.youtube.com/watch?v=UvopClD98LQ"
+        }
+      ]
+    },
+    "aD3VCC-ltZVisOgC--gAd": {
+      "id": "aD3VCC-ltZVisOgC--gAd",
+      "slug": "lubridate",
+      "title": "lubridate",
+      "description": "lubridate makes working with dates and times considerably easier than base R alone. Functions like `ymd()`, `mdy()`, and `dmy()` parse dates written in different common formats without requiring a manually specified format string. It also provides clear tools for date arithmetic using durations, periods, and intervals, each handling calendar quirks like leap years slightly differently.",
+      "resources": []
+    },
+    "KWfYpJQwYeQzP4buGaA9y": {
+      "id": "KWfYpJQwYeQzP4buGaA9y",
+      "slug": "machine-learning",
+      "title": "Machine Learning",
+      "description": "This section covers building predictive and pattern-finding models from data, using R's modern modeling frameworks. It builds on the statistical foundations covered earlier in the roadmap.",
+      "resources": []
+    },
+    "e4mVEXKmmQbz051wE1HPZ": {
+      "id": "e4mVEXKmmQbz051wE1HPZ",
+      "slug": "map-functions",
+      "title": "Map Functions",
+      "description": "Map functions apply a function to every element of a list or vector and collect the results, avoiding the need for an explicit loop. purrr's `map()` always returns a list, while variants like `map_dbl()` return a vector of a specific type, making the expected output explicit. This becomes especially useful for iterating over nested data, such as running the same model on many subsets of a dataset at once.",
+      "resources": []
+    },
+    "29bAj72LyJQ62JbBl9vvG": {
+      "id": "29bAj72LyJQ62JbBl9vvG",
+      "slug": "matrices",
+      "title": "Matrices",
+      "description": "A matrix is a two-dimensional grid of values, all of the same type, arranged in rows and columns. Matrices support standard linear algebra operations like multiplication, transposition, and inversion, making them the natural structure for mathematical computation in R. Unlike a data frame, every cell in a matrix must share the same underlying data type.",
+      "resources": [
+        {
+          "id": "29bAj72LyJQ62JbBl9vvG-res-1",
+          "type": "article",
+          "title": "R Matrices",
+          "url": "https://www.w3schools.com/r/r_matrices.asp"
+        },
+        {
+          "id": "29bAj72LyJQ62JbBl9vvG-res-2",
+          "type": "article",
+          "title": "Understanding Matrices in R Programming",
+          "url": "https://www.r-bloggers.com/2023/11/understanding-matrices-in-r-programming/"
+        },
+        {
+          "id": "29bAj72LyJQ62JbBl9vvG-res-3",
+          "type": "video",
+          "title": "Matrices in R",
+          "url": "https://www.youtube.com/watch?v=3fHRSAYgRKY"
+        },
+        {
+          "id": "29bAj72LyJQ62JbBl9vvG-res-4",
+          "type": "video",
+          "title": "How to Create Matrices and Perform matrix Operations in R",
+          "url": "https://www.youtube.com/watch?v=SYYUBytX1ng"
+        }
+      ]
+    },
+    "8vgTUVCNPb71lNHKycHce": {
+      "id": "8vgTUVCNPb71lNHKycHce",
+      "slug": "mutate--transform",
+      "title": "Mutate & Transform",
+      "description": "Mutating adds new columns or changes existing ones in a data frame, calculating values across every row based on an expression you specify. Multiple new columns can be created in a single step, with later columns able to reference ones created earlier in the same step. This is one of the most frequently used data manipulation operations, since almost every analysis involves deriving new variables from existing ones.",
+      "resources": []
+    },
+    "YBcSlradj7221NPcwWcFk": {
+      "id": "YBcSlradj7221NPcwWcFk",
+      "slug": "network-analysis",
+      "title": "Network Analysis",
+      "description": "Network analysis studies relationships between entities, represented as a graph of nodes connected by edges, such as people connected by friendships or web pages connected by links. It covers identifying influential nodes, detecting clusters or communities within a network, and visualizing the overall structure. This is a distinct application area from typical tabular data analysis, since relationships between records matter as much as the records themselves.",
+      "resources": []
+    },
+    "BgwWbX4MgOPwMDPGX_HFs": {
+      "id": "BgwWbX4MgOPwMDPGX_HFs",
+      "slug": "nlp",
+      "title": "NLP",
+      "description": "NLP, or natural language processing, covers techniques for analyzing and extracting meaning from text data, such as tokenizing, measuring sentiment, or discovering topics across a collection of documents. R has a mature set of packages for this kind of work, ranging from tidyverse-friendly tools to faster, more specialized libraries for large text corpora. It's a distinct application area combining string handling with statistical and sometimes machine learning techniques.",
+      "resources": []
+    },
+    "dewpbYpun6Nho0ErI3rv-": {
+      "id": "dewpbYpun6Nho0ErI3rv-",
+      "slug": "numeric",
+      "title": "Numeric",
+      "description": "Numeric is R's default type for numbers with decimal points, such as `3.14` or `2.0`, stored internally as double-precision floating point values. Almost all arithmetic in R produces numeric results unless you explicitly ask for integers. This is the type used for the vast majority of everyday calculations.",
+      "resources": [
+        {
+          "id": "dewpbYpun6Nho0ErI3rv--res-1",
+          "type": "article",
+          "title": "Numerics",
+          "url": "https://www.w3schools.com/r/r_numbers.asp"
+        },
+        {
+          "id": "dewpbYpun6Nho0ErI3rv--res-2",
+          "type": "article",
+          "title": "Numeric Types",
+          "url": "https://statsandr.com/blog/data-types-in-r/#numeric"
+        }
+      ]
+    },
+    "3d540CG_Ye7vvIFQKmiPb": {
+      "id": "3d540CG_Ye7vvIFQKmiPb",
+      "slug": "operators",
+      "title": "Operators",
+      "description": "Arithmetic operators handle basic math, like `+`, `-`, `*`, and `/`. Relational operators compare values and return a logical result, like `==` and `<`. Logical operators combine or invert logical values, using `&` and `|` for element-wise comparisons. These form the backbone of nearly every calculation and condition you write in R.",
+      "resources": [
+        {
+          "id": "3d540CG_Ye7vvIFQKmiPb-res-1",
+          "type": "article",
+          "title": "R Operators",
+          "url": "https://www.w3schools.com/r/r_operators.asp"
+        },
+        {
+          "id": "3d540CG_Ye7vvIFQKmiPb-res-2",
+          "type": "video",
+          "title": "Operators in R | R for Data Analytics Series",
+          "url": "https://www.youtube.com/watch?v=O5nQKzBb0oc"
+        }
+      ]
+    },
+    "1b3AiO9i3pgkglwGeHiqd": {
+      "id": "1b3AiO9i3pgkglwGeHiqd",
+      "slug": "overplotting-techniques",
+      "title": "Overplotting Techniques",
+      "description": "Overplotting happens when too many data points overlap on a plot, making it hard to see the true density or pattern, especially common with large datasets. Jittering adds small random noise to point positions to spread out overlapping points slightly. Transparency, adjusted through the alpha setting, lets overlapping points show through each other rather than fully obscuring one another.",
+      "resources": []
+    },
+    "j1jq5_64lBuYQQjJWKIuI": {
+      "id": "j1jq5_64lBuYQQjJWKIuI",
+      "slug": "pak",
+      "title": "pak",
+      "description": "pak is a newer package installer for R designed to replace `install.packages()` with something faster and more reliable. It parallelizes downloads, caches packages locally so reinstalls are quicker, and gives clearer error messages when a dependency conflict occurs. Many R developers now use it as their default installer instead of base R's built-in function.",
+      "resources": [
+        {
+          "id": "j1jq5_64lBuYQQjJWKIuI-res-1",
+          "type": "article",
+          "title": "pak",
+          "url": "https://pak.r-lib.org/"
+        },
+        {
+          "id": "j1jq5_64lBuYQQjJWKIuI-res-2",
+          "type": "article",
+          "title": "pak",
+          "url": "https://github.com/r-lib/pak"
+        }
+      ]
+    },
+    "ApowKoA3C1B8oUr4-sltZ": {
+      "id": "ApowKoA3C1B8oUr4-sltZ",
+      "slug": "parallel-computing",
+      "title": "Parallel Computing",
+      "description": "Parallel computing splits a computational task across multiple processor cores at once, rather than running everything sequentially, cutting the total time for tasks that can be broken into independent pieces. R provides tools like the parallel package's `parLapply()` for distributing work across a cluster of R processes. Not every task benefits from this, since the overhead of splitting work and combining results can outweigh the benefit for small or fast tasks.",
+      "resources": []
+    },
+    "L7btVRwvkEVX0K8LxnbqJ": {
+      "id": "L7btVRwvkEVX0K8LxnbqJ",
+      "slug": "parsing-dates",
+      "title": "Parsing Dates",
+      "description": "Parsing dates handles the extra complexity of date formats, since something like \"01/02/2024\" could mean different things depending on locale conventions. Getting the format specification right, or using a package like lubridate that guesses common formats automatically, avoids silently misreading dates. This matters especially when working with data from different countries or systems that don't agree on date conventions.",
+      "resources": []
+    },
+    "0K17RO_EoOaT820WypQ7H": {
+      "id": "0K17RO_EoOaT820WypQ7H",
+      "slug": "pipe",
+      "title": "Pipe",
+      "description": "The pipe operator takes the result on its left and passes it as the first argument to the function on its right, letting you chain several operations in a readable, top-to-bottom sequence. R now has two common versions: the native pipe `|>`, built into base R since version 4.1, and the older magrittr pipe `%>%`, which predates it and is still common in existing code. Writing `data |> filter(x > 0) |> summarize(mean(x))` reads as a sequence of steps rather than a nested jumble of function calls.",
+      "resources": [
+        {
+          "id": "0K17RO_EoOaT820WypQ7H-res-1",
+          "type": "article",
+          "title": "R Pipe Operator: %\\>% vs |\\>, The Complete Guide to Both Pipes",
+          "url": "https://r-statistics.co/R-Pipe-Operator.html"
+        },
+        {
+          "id": "0K17RO_EoOaT820WypQ7H-res-2",
+          "type": "video",
+          "title": "Finally Explained: The Difference Between R's Pipe Operators",
+          "url": "https://www.youtube.com/watch?v=uIL9gMjn40Y"
+        },
+        {
+          "id": "0K17RO_EoOaT820WypQ7H-res-3",
+          "type": "video",
+          "title": "Introducing the Pipe Operator in R",
+          "url": "https://www.youtube.com/watch?v=Stt3qEuIeso"
+        }
+      ]
+    },
+    "XPr7td4S8xpFxG5IkWvyz": {
+      "id": "XPr7td4S8xpFxG5IkWvyz",
+      "slug": "plotly",
+      "title": "plotly",
+      "description": "plotly creates interactive charts that let viewers hover, zoom, and filter directly in the browser. It can convert many existing ggplot2 plots into interactive versions with a single function call, or build interactive charts directly with its own syntax. It's the most common package in R for adding this kind of interactivity to a plot.",
+      "resources": []
+    },
+    "2m8uQRGaVZUd4mfm7bRou": {
+      "id": "2m8uQRGaVZUd4mfm7bRou",
+      "slug": "positron",
+      "title": "Positron",
+      "description": "Positron is a newer IDE from Posit, built on the same underlying technology as VS Code but tailored for data science work in R and Python. It combines a modern, extensible editor with the data-focused features R users expect, like a variables pane and integrated plots. It's becoming the default recommendation for new R and data science setups.",
+      "resources": [
+        {
+          "id": "2m8uQRGaVZUd4mfm7bRou-res-1",
+          "type": "article",
+          "title": "Positron",
+          "url": "https://positron.posit.co/"
+        },
+        {
+          "id": "2m8uQRGaVZUd4mfm7bRou-res-2",
+          "type": "article",
+          "title": "Exploratory Data Analysis with R in Positron",
+          "url": "https://posit.co/blog/eda-in-positron"
+        },
+        {
+          "id": "2m8uQRGaVZUd4mfm7bRou-res-3",
+          "type": "video",
+          "title": "A quick tour of Positron",
+          "url": "https://www.youtube.com/watch?v=4Ir_HX4riHw"
+        }
+      ]
+    },
+    "EHVXO79NGpLC1i8x4Y7g1": {
+      "id": "EHVXO79NGpLC1i8x4Y7g1",
+      "slug": "power-bi--tableau",
+      "title": "Power BI / Tableau",
+      "description": "Power BI and Tableau are business intelligence tools for building dashboards, connecting to data sources and creating interactive visualizations largely through a visual interface rather than code. R can connect to both, either as a data source feeding into them or, in Power BI's case, running R scripts directly inside the tool for custom visuals or calculations. They're common in organizations where dashboards need to be shared with non-technical stakeholders through a standard business tool.",
+      "resources": []
+    },
+    "wSKItU0lct_9CCs4G4JO_": {
+      "id": "wSKItU0lct_9CCs4G4JO_",
+      "slug": "probability-distributions",
+      "title": "Probability Distributions",
+      "description": "A probability distribution describes how likely different outcomes are for a random variable, such as the normal distribution or the binomial distribution for counting successes in repeated trials. R provides functions for common distributions following a consistent naming pattern: `d` for density, `p` for cumulative probability, `q` for quantiles, and `r` for random generation. Understanding which distribution reasonably describes your data underlies many statistical tests and models.",
+      "resources": []
+    },
+    "KXvrYvFvyAqFbJeS1KHRi": {
+      "id": "KXvrYvFvyAqFbJeS1KHRi",
+      "slug": "purrr",
+      "title": "purrr",
+      "description": "purrr applies a function to each element of a list or vector and collects the results, similar in spirit to base R's apply family but with more consistent, predictable behavior. Its `map()` function always returns a list, while variants like `map_dbl()` return a vector of a specific type, making the expected output explicit. It fits naturally with the pipe operator and tidyverse style, letting you iterate without writing explicit loops.",
+      "resources": []
+    },
+    "gUpA_YtWlToGs-OJZZDpV": {
+      "id": "gUpA_YtWlToGs-OJZZDpV",
+      "slug": "quanteda",
+      "title": "quanteda",
+      "description": "quanteda is a faster, more powerful text analysis package built for working with large corpora of documents, offering more advanced features than tidytext for tasks like document-feature matrices and topic modeling. It trades some of tidytext's tidyverse-native simplicity for more performance and specialized functionality. It's typically reached for once text analysis needs outgrow what tidytext comfortably handles.",
+      "resources": []
+    },
+    "SnLNFoVZhL6YuE9QOLpAl": {
+      "id": "SnLNFoVZhL6YuE9QOLpAl",
+      "slug": "quarto",
+      "title": "Quarto",
+      "description": "Quarto is a publishing system that renders documents combining text, code, and code output into formats like HTML, PDF, or Word. It works across multiple languages, including R, Python, and Julia, and is positioned as the modern successor to R Markdown. Posit actively develops and promotes it as the current default for literate programming in R.",
+      "resources": [
+        {
+          "id": "SnLNFoVZhL6YuE9QOLpAl-res-1",
+          "type": "article",
+          "title": "Quarto",
+          "url": "https://quarto.org/"
+        },
+        {
+          "id": "SnLNFoVZhL6YuE9QOLpAl-res-2",
+          "type": "article",
+          "title": "Quarto for R",
+          "url": "https://quarto.org/docs/computations/r.html"
+        },
+        {
+          "id": "SnLNFoVZhL6YuE9QOLpAl-res-3",
+          "type": "article",
+          "title": "Tutorial: Hello, Quarto",
+          "url": "https://quarto.org/docs/get-started/hello/rstudio.html"
+        },
+        {
+          "id": "SnLNFoVZhL6YuE9QOLpAl-res-4",
+          "type": "video",
+          "title": "Quarto crash course - what you can do with quarto",
+          "url": "https://www.youtube.com/watch?v=oYV1a9sWhgM"
+        }
+      ]
+    },
+    "1X3RbJPY_GbIDarcO2UDL": {
+      "id": "1X3RbJPY_GbIDarcO2UDL",
+      "slug": "r-dates--times",
+      "title": "R Dates & Times",
+      "description": "Base R represents dates and times using specific classes: `Date` for calendar dates and `POSIXct` for date-times that include a time component. These classes let you do arithmetic directly, like subtracting two dates to get the number of days between them. Parsing dates correctly requires knowing the format they were written in, since ambiguous formats can be misread.",
+      "resources": []
+    },
+    "PDZEvLgi94V5oLt3J5U9Z": {
+      "id": "PDZEvLgi94V5oLt3J5U9Z",
+      "slug": "r-markdown",
+      "title": "R Markdown",
+      "description": "R Markdown documents mix Markdown-formatted text with chunks of R code, rendering into HTML, PDF, or Word output with the code's results embedded directly. It predates Quarto and was the standard tool for this kind of work for many years, so a large amount of existing documentation and tutorials still use it. Quarto has since become the recommended tool for new projects, but R Markdown remains fully functional and widely used.",
+      "resources": [
+        {
+          "id": "PDZEvLgi94V5oLt3J5U9Z-res-1",
+          "type": "article",
+          "title": "R Markdown",
+          "url": "https://rmarkdown.rstudio.com/"
+        },
+        {
+          "id": "PDZEvLgi94V5oLt3J5U9Z-res-2",
+          "type": "video",
+          "title": "R Markdown: The Definitive Guide",
+          "url": "https://pkg.yihui.org/rmarkdown-book/"
+        },
+        {
+          "id": "PDZEvLgi94V5oLt3J5U9Z-res-3",
+          "type": "video",
+          "title": "What is R Markdown?",
+          "url": "https://www.youtube.com/watch?v=asHhuHRxhvo"
+        },
+        {
+          "id": "PDZEvLgi94V5oLt3J5U9Z-res-4",
+          "type": "video",
+          "title": "R Markdown TUTORIAL",
+          "url": "https://www.youtube.com/watch?v=K418swtFnik"
+        }
+      ]
+    },
+    "O3lbX70fDeKsv9fkJJtYv": {
+      "id": "O3lbX70fDeKsv9fkJJtYv",
+      "slug": "r-vs-python",
+      "title": "R vs Python for Data Work",
+      "description": "R and Python solve overlapping problems but come from different roots. R grew out of statistics departments, so its core language and packages treat data frames, vectors, and statistical models as first-class citizens. Python grew as a general-purpose language, so its data tools (pandas, NumPy) were added on top of a language built for other things. In practice, R tends to win for statistical modeling, academic research, and quick exploratory analysis, while Python wins for production software, deep learning, and general-purpose scripting.",
+      "resources": [
+        {
+          "id": "O3lbX70fDeKsv9fkJJtYv-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated Python For Data Analysis Roadmap",
+          "url": "https://roadmap.sh/python-data-analysis"
+        },
+        {
+          "id": "O3lbX70fDeKsv9fkJJtYv-res-2",
+          "type": "article",
+          "title": "Python vs. R: What’s the Difference?",
+          "url": "https://www.ibm.com/think/topics/python-vs-r"
+        },
+        {
+          "id": "O3lbX70fDeKsv9fkJJtYv-res-3",
+          "type": "article",
+          "title": "Python or R for Data Analysis: Which Should You Learn?",
+          "url": "https://www.coursera.org/articles/python-or-r-for-data-analysis"
+        },
+        {
+          "id": "O3lbX70fDeKsv9fkJJtYv-res-4",
+          "type": "video",
+          "title": "R vs Python",
+          "url": "https://www.youtube.com/watch?v=4lcwTGA7MZw&t=171s"
+        }
+      ]
+    },
+    "y0yMev6QSHjqd1YJ9Y05Z": {
+      "id": "y0yMev6QSHjqd1YJ9Y05Z",
+      "slug": "readr",
+      "title": "readr",
+      "description": "readr provides fast, consistent functions for reading flat files like CSVs into R, such as `read_csv()`, as an improvement over base R's equivalent functions. It handles more edge cases well, like inconsistent column types or unusual encodings, and gives clearer feedback about how it parsed each column. It's typically the first tool reached for when loading tabular data into R.",
+      "resources": []
+    },
+    "VdtQNeFL8vnaHHzW6CWds": {
+      "id": "VdtQNeFL8vnaHHzW6CWds",
+      "slug": "recursion",
+      "title": "Recursion",
+      "description": "Recursion is when a function calls itself, typically to break a problem into smaller versions of the same problem until it reaches a simple base case. A classic example is calculating a factorial by having the function call itself with a smaller number each time. Recursive functions need a clear stopping condition, or they will call themselves indefinitely and crash.",
+      "resources": [
+        {
+          "id": "VdtQNeFL8vnaHHzW6CWds-res-1",
+          "type": "article",
+          "title": "R recursion",
+          "url": "https://www.w3schools.com/r/r_functions_recursion.asp"
+        }
+      ]
+    },
+    "feXXBBD1J5TEllq2zbCUZ": {
+      "id": "feXXBBD1J5TEllq2zbCUZ",
+      "slug": "regular-expressions",
+      "title": "Regular Expressions",
+      "description": "Regular expressions are a pattern-matching language for describing sequences of characters, used to search, validate, or extract specific pieces of text. A pattern like `^\\d{3}-\\d{4}$` might describe a phone number format, matching only text that fits that exact shape. They take practice to read fluently, but solve text problems that simple string functions alone can't handle efficiently.",
+      "resources": []
+    },
+    "hS12KA72tBNmVvS921-H-": {
+      "id": "hS12KA72tBNmVvS921-H-",
+      "slug": "relationship-analysis",
+      "title": "Relationship Analysis",
+      "description": "Relationship analysis examines how two or more variables relate to each other, using tools like scatterplots for two numeric variables, correlation matrices for many numeric variables at once, and cross-tabulation for categorical variables. This is usually the second step in exploratory analysis, after looking at variables individually. It often surfaces the patterns that later motivate a specific statistical model.",
+      "resources": []
+    },
+    "6dJaQRj2zMz00sfTiTdww": {
+      "id": "6dJaQRj2zMz00sfTiTdww",
+      "slug": "renv",
+      "title": "renv",
+      "description": "renv manages package versions on a per-project basis instead of one shared library for your whole machine. It records the exact package versions a project uses in a lockfile, so anyone who opens that project later can restore the exact same environment. This solves the common problem where a script that worked months ago breaks because a package updated in a way that changed its behavior.",
+      "resources": [
+        {
+          "id": "6dJaQRj2zMz00sfTiTdww-res-1",
+          "type": "article",
+          "title": "renv",
+          "url": "https://cran.r-project.org/web/packages/renv/index.html"
+        },
+        {
+          "id": "6dJaQRj2zMz00sfTiTdww-res-2",
+          "type": "article",
+          "title": "Introduction to renv",
+          "url": "https://rstudio.github.io/renv/articles/renv.html"
+        },
+        {
+          "id": "6dJaQRj2zMz00sfTiTdww-res-3",
+          "type": "video",
+          "title": "renv: How to create a stable environment and manage dependencies in R",
+          "url": "https://www.youtube.com/watch?v=FWhjQrRZwRg"
+        }
+      ]
+    },
+    "cRgcpjX7GlMB_l3ARU1z4": {
+      "id": "cRgcpjX7GlMB_l3ARU1z4",
+      "slug": "reshaping",
+      "title": "Reshaping",
+      "description": "Reshaping changes the layout of a dataset without changing its underlying content, most commonly converting between wide and long formats. Wide format spreads related values across separate columns, while long format stacks them into fewer columns with an extra column identifying what each value represents. Many statistical functions and plotting tools expect one shape or the other, so reshaping is often a necessary step before analysis.",
+      "resources": []
+    },
+    "-9C077yNLTXLbEo0TW1zU": {
+      "id": "-9C077yNLTXLbEo0TW1zU",
+      "slug": "rstatix",
+      "title": "rstatix",
+      "description": "rstatix provides a tidyverse-friendly interface for common statistical tests, wrapping base R functions like `t.test()` and `aov()` in a syntax that fits naturally into a dplyr pipeline. It returns results as tidy data frames rather than the more complex object types base R statistical functions typically produce, making the output easier to filter, combine, or feed into a plot. It's a popular choice for anyone who wants classical statistical tests without leaving the tidyverse workflow.",
+      "resources": []
+    },
+    "c8uLNJMr6UZfvjFwFhxvd": {
+      "id": "c8uLNJMr6UZfvjFwFhxvd",
+      "slug": "rstudio",
+      "title": "RStudio",
+      "description": "RStudio is the most established integrated development environment for R, combining a script editor, console, plot viewer, and package tools in one window. It has deep, mature support for building R packages and rendering Quarto or R Markdown documents. Posit develops and maintains it, and much existing R documentation still assumes you're working in it.",
+      "resources": [
+        {
+          "id": "c8uLNJMr6UZfvjFwFhxvd-res-1",
+          "type": "article",
+          "title": "RStudio IDE",
+          "url": "https://posit.co/downloads"
+        },
+        {
+          "id": "c8uLNJMr6UZfvjFwFhxvd-res-2",
+          "type": "article",
+          "title": "Installing R and RStudio",
+          "url": "https://rstudio-education.github.io/hopr/starting.html"
+        },
+        {
+          "id": "c8uLNJMr6UZfvjFwFhxvd-res-3",
+          "type": "video",
+          "title": "RStudio for beginners",
+          "url": "https://www.youtube.com/watch?v=Kgwfuycn9_I"
+        },
+        {
+          "id": "c8uLNJMr6UZfvjFwFhxvd-res-4",
+          "type": "video",
+          "title": "RStudio for the Total Beginner",
+          "url": "https://www.youtube.com/watch?v=FIrsOBy5k58"
+        }
+      ]
+    },
+    "U6vkyRtFatEi8oCm0zoIK": {
+      "id": "U6vkyRtFatEi8oCm0zoIK",
+      "slug": "sampling",
+      "title": "Sampling",
+      "description": "Sampling covers the different methods for selecting a subset of a population to study, when studying the entire population isn't feasible, including simple random, stratified, and cluster sampling. It also covers the mechanics of random number generation in R and setting a seed for reproducibility. The right sampling method depends on the structure of the population and what you need the sample to represent.",
+      "resources": []
+    },
+    "JWRELdQozts-p0448ILYf": {
+      "id": "JWRELdQozts-p0448ILYf",
+      "slug": "scopes",
+      "title": "Scopes",
+      "description": "Scoping determines which variables a function can see and use while it runs. R uses lexical scoping, meaning a function looks first inside itself, then in the environment where it was defined, not the environment where it was called from. Understanding scoping becomes especially important once you write nested functions or functions that return other functions.",
+      "resources": [
+        {
+          "id": "JWRELdQozts-p0448ILYf-res-1",
+          "type": "article",
+          "title": "Scoping Rules of R",
+          "url": "https://bookdown.org/rdpeng/rprogdatascience/scoping-rules-of-r.html"
+        },
+        {
+          "id": "JWRELdQozts-p0448ILYf-res-2",
+          "type": "article",
+          "title": "Lexical scoping",
+          "url": "https://adv-r.hadley.nz/functions.html"
+        },
+        {
+          "id": "JWRELdQozts-p0448ILYf-res-3",
+          "type": "video",
+          "title": "R Scoping Rules",
+          "url": "https://www.youtube.com/watch?v=Xom1XXqiwV0"
+        }
+      ]
+    },
+    "6br2AmC31MvGURDUgNtl2": {
+      "id": "6br2AmC31MvGURDUgNtl2",
+      "slug": "setting-up",
+      "title": "Setting Up",
+      "description": "This section covers configuring your R environment: managing packages, choosing an IDE, and setting up tools for publishing your work. It's the practical groundwork that makes the rest of your R workflow smooth.",
+      "resources": []
+    },
+    "XP4ngNk1Fqzb2nxtHs3Ot": {
+      "id": "XP4ngNk1Fqzb2nxtHs3Ot",
+      "slug": "sf",
+      "title": "sf",
+      "description": "sf handles vector spatial data in R, representing points, lines, and polygons, such as store locations or country boundaries. It's built around simple features, a standard format for representing spatial data used across many GIS tools beyond just R. It's the modern standard for vector geospatial work in R, having replaced the older sp package.",
+      "resources": []
+    },
+    "pC_AC-yhn9qqL2HbIl8Yx": {
+      "id": "pC_AC-yhn9qqL2HbIl8Yx",
+      "slug": "shiny",
+      "title": "Shiny",
+      "description": "Shiny is a framework for building interactive web applications directly in R, without needing to know HTML, CSS, or JavaScript. An app has two main parts: a UI defining what the user sees, and a server function defining how the app responds when the user interacts with those elements. This reactive model automatically updates outputs whenever their underlying inputs change.",
+      "resources": []
+    },
+    "XTXm8aIDbRkTXoAck_m3I": {
+      "id": "XTXm8aIDbRkTXoAck_m3I",
+      "slug": "sparklyr",
+      "title": "Sparklyr",
+      "description": "Sparklyr connects R to Apache Spark, a distributed computing framework built for processing datasets far too large to fit in memory on a single machine. It lets you write familiar dplyr syntax that gets translated into Spark operations running across a cluster of machines. It matters specifically once a dataset grows beyond what fits comfortably in a single machine's memory.",
+      "resources": []
+    },
+    "MhJaZyfzuHGROihT8U7cY": {
+      "id": "MhJaZyfzuHGROihT8U7cY",
+      "slug": "statistical-analysis",
+      "title": "Statistical Analysis",
+      "description": "This section covers the classical statistical techniques used to summarize data, test hypotheses, and model relationships between variables. It's the theoretical and methodological core underneath a lot of applied data work.",
+      "resources": []
+    },
+    "xgI4j0gkNkd3pqGmWkpmF": {
+      "id": "xgI4j0gkNkd3pqGmWkpmF",
+      "slug": "stats",
+      "title": "stats",
+      "description": "stats is the base R package that ships with every R installation, providing core statistical functions like `lm()` for regression, `t.test()` for hypothesis testing, and functions for common probability distributions. It requires no separate installation since it's part of base R itself. Many higher-level statistics packages build directly on functions from this package.",
+      "resources": []
+    },
+    "swUTr8ZP72JnyP7UjfrHH": {
+      "id": "swUTr8ZP72JnyP7UjfrHH",
+      "slug": "string-manipulation",
+      "title": "String Manipulation",
+      "description": "String manipulation covers searching, extracting, replacing, and combining text values, most commonly using the stringr package's consistent `str_` functions. Text data shows up constantly in real datasets: names, categories, free-text responses. Getting comfortable with these operations resolves a large share of everyday data cleaning problems.",
+      "resources": []
+    },
+    "P_u3uSVm63KsmQRWdvBmr": {
+      "id": "P_u3uSVm63KsmQRWdvBmr",
+      "slug": "stringr",
+      "title": "stringr",
+      "description": "stringr provides a consistent, well-documented set of functions for working with text, covering tasks like detecting patterns, extracting substrings, and combining strings. Every function follows a consistent naming pattern starting with `str_`, such as `str_detect()` or `str_replace()`, making the package easier to learn than base R's more scattered string functions. It's the standard tool for text-heavy cleaning and manipulation in modern R code.",
+      "resources": []
+    },
+    "akoMThJHZLC3vFk_zB-S1": {
+      "id": "akoMThJHZLC3vFk_zB-S1",
+      "slug": "strings-and-dates",
+      "title": "Strings and Dates",
+      "description": "This section covers handling text and date or time data, two of the most common sources of messy, inconsistently formatted values in real datasets. Getting comfortable here pays off across nearly every other part of data analysis.",
+      "resources": []
+    },
+    "S1EzGF-CLu7tWDb1V6RQc": {
+      "id": "S1EzGF-CLu7tWDb1V6RQc",
+      "slug": "strip-replace-split",
+      "title": "strip, replace, split",
+      "description": "Stripping removes leading or trailing whitespace from text, replacing swaps out unwanted characters or patterns for something else, and splitting breaks a single string into multiple parts based on a delimiter. These are usually among the first steps in cleaning any dataset with free-text or inconsistently formatted columns. The stringr package provides consistent functions for all three operations.",
+      "resources": []
+    },
+    "AvzZ6SxNvGCuq9cX_O6op": {
+      "id": "AvzZ6SxNvGCuq9cX_O6op",
+      "slug": "summary-statistics",
+      "title": "Summary Statistics",
+      "description": "Summary statistics condense a column of data down to a few representative numbers, like the mean, median, and standard deviation. They form the foundation for almost every deeper statistical technique, since you need to understand a variable's basic behavior before modeling relationships involving it. Calculating these is usually the first step in getting a feel for any new dataset.",
+      "resources": []
+    },
+    "UphqgVEpeVfM8mCVKpE-s": {
+      "id": "UphqgVEpeVfM8mCVKpE-s",
+      "slug": "terra",
+      "title": "terra",
+      "description": "terra handles raster data in R, grids of values like satellite imagery or elevation data, and has replaced the older, now retired raster package. It provides functions for reading, manipulating, and analyzing raster layers, including operations like resampling and calculating values across a grid. It's the standard modern choice for raster work in R.",
+      "resources": []
+    },
+    "1BCWaI0i01gzwo539I90D": {
+      "id": "1BCWaI0i01gzwo539I90D",
+      "slug": "text",
+      "title": "Text",
+      "description": "Plain text files store unstructured or loosely structured data without the strict comma or tab delimiters of a CSV or TSV file. Reading them into R might mean reading line by line for further parsing, or using a delimiter-aware function if the text has some consistent structure like tab separation. This is a common starting point for log files, raw scraped content, or data that doesn't fit neatly into a standard tabular format.",
+      "resources": []
+    },
+    "3PBGqxsWI3K6vpB9PtteC": {
+      "id": "3PBGqxsWI3K6vpB9PtteC",
+      "slug": "tibble",
+      "title": "tibble",
+      "description": "tibble is the tidyverse package that defines and supports the tibble data structure, a modern variant of the data frame. It provides functions for creating tibbles directly, converting existing data frames into tibbles, and controlling how they print in the console. Most other tidyverse packages return tibbles by default, relying on this package underneath.",
+      "resources": []
+    },
+    "4LSIcQnzj3V5mStHIYP-O": {
+      "id": "4LSIcQnzj3V5mStHIYP-O",
+      "slug": "tibbles",
+      "title": "Tibbles",
+      "description": "A tibble is a modern variant of the data frame, introduced by the tidyverse, with a few behavioral differences designed to reduce surprises. Tibbles print more usefully in the console, showing only what fits on screen along with each column's type, and they refuse to silently drop dimensions the way base data frames sometimes do. Most tidyverse functions return tibbles by default rather than base data frames.",
+      "resources": [
+        {
+          "id": "4LSIcQnzj3V5mStHIYP-O-res-1",
+          "type": "article",
+          "title": "Tibble",
+          "url": "https://tibble.tidyverse.org/"
+        },
+        {
+          "id": "4LSIcQnzj3V5mStHIYP-O-res-2",
+          "type": "article",
+          "title": "Tibbles",
+          "url": "https://r4ds.had.co.nz/tibbles.html"
+        },
+        {
+          "id": "4LSIcQnzj3V5mStHIYP-O-res-3",
+          "type": "video",
+          "title": "Tibble in R",
+          "url": "https://www.youtube.com/playlist?list=PLu6UwBFCnlEc2m689k42f0bXLX7rUfOJv"
+        }
+      ]
+    },
+    "_VJmd1wv2UJcLpQKnmjjK": {
+      "id": "_VJmd1wv2UJcLpQKnmjjK",
+      "slug": "tidygraph",
+      "title": "tidygraph",
+      "description": "tidygraph applies tidyverse conventions to network data, letting you manipulate graph nodes and edges using familiar dplyr-style verbs instead of igraph's more specialized syntax. It works alongside ggraph for visualization, together forming a tidyverse-native alternative to working with igraph directly. It's often preferred by users already comfortable with the tidyverse who want that same syntax applied to network data.",
+      "resources": []
+    },
+    "23bhr8zcXaTgjiAa7z_Pn": {
+      "id": "23bhr8zcXaTgjiAa7z_Pn",
+      "slug": "tidymodels",
+      "title": "tidymodels",
+      "description": "tidymodels is a collection of R packages for building and evaluating machine learning models, designed to follow tidyverse conventions and work well with the pipe operator. It splits modeling into distinct, composable steps: preprocessing, specifying a model, fitting it, and evaluating results, each handled by a different package within the collection. It has become the standard modern framework for machine learning in R.",
+      "resources": []
+    },
+    "axtup-_HtUjM2Ft3J1Sxb": {
+      "id": "axtup-_HtUjM2Ft3J1Sxb",
+      "slug": "tidyr",
+      "title": "tidyr",
+      "description": "tidyr handles reshaping data between different layouts, most notably converting between wide and long formats with `pivot_longer()` and `pivot_wider()`. Many statistical functions and ggplot2 specifically expect data in a particular shape, so tidyr often bridges the gap between how data is stored and how it needs to look for analysis or plotting. It also handles filling in missing combinations of values and unnesting nested data structures.",
+      "resources": []
+    },
+    "BM2ukkGQzjbWiPgExsN5z": {
+      "id": "BM2ukkGQzjbWiPgExsN5z",
+      "slug": "tidytext",
+      "title": "tidytext",
+      "description": "tidytext applies tidyverse conventions to text analysis, representing tokenized text as a data frame with one row per word. This tidy structure lets you use familiar dplyr verbs to filter, count, and summarize text data, rather than working with specialized text-only data structures. It's typically the entry point before deeper text analysis like sentiment analysis or topic modeling.",
+      "resources": []
+    },
+    "qjHtL_erZg2F9HuDOSaKl": {
+      "id": "qjHtL_erZg2F9HuDOSaKl",
+      "slug": "tidyverse",
+      "title": "tidyverse",
+      "description": "The tidyverse is a collection of R packages designed to work together around a shared philosophy and consistent syntax for data science tasks. It includes packages for data manipulation, visualization, string handling, and more, all built to interoperate smoothly with the pipe operator. Learning the tidyverse's conventions once makes each individual package inside it easier to pick up.",
+      "resources": []
+    },
+    "6u9a625hfddNmkjU0uiSK": {
+      "id": "6u9a625hfddNmkjU0uiSK",
+      "slug": "time-series-analysis",
+      "title": "Time Series Analysis",
+      "description": "Time series analysis studies data collected sequentially over time, where the order of observations carries meaning that would be lost if the rows were shuffled. It involves identifying trends, seasonal patterns, and autocorrelation, where a value depends on its own previous values. Forecasting models use these identified patterns to predict future values based on historical data.",
+      "resources": []
+    },
+    "z9ZgXE5cDkLOlJNi6JIMJ": {
+      "id": "z9ZgXE5cDkLOlJNi6JIMJ",
+      "slug": "tmap",
+      "title": "tmap",
+      "description": "tmap creates thematic maps in R, designed specifically for visualizing spatial data like sf objects with a syntax inspired by ggplot2's layered approach. It supports both static maps for reports and interactive maps for exploration, switching between the two with a single setting. It's commonly used as the visualization layer on top of data prepared with sf or terra.",
+      "resources": []
+    },
+    "5pYoyNuVkRmQBqdrgcAcN": {
+      "id": "5pYoyNuVkRmQBqdrgcAcN",
+      "slug": "type-conversion",
+      "title": "Type Conversion",
+      "description": "Type conversion is deliberately changing a value from one type to another, such as turning the character `\"5\"` into the numeric value `5` with `as.numeric()`. R also does this automatically in some situations, called coercion, which can cause quiet bugs when data doesn't convert the way you expect. Understanding both the explicit functions and R's automatic rules helps catch these issues early.",
+      "resources": [
+        {
+          "id": "5pYoyNuVkRmQBqdrgcAcN-res-1",
+          "type": "article",
+          "title": "Data Type Conversion in R",
+          "url": "https://www.youtube.com/watch?v=_rPde-SPDVE"
+        },
+        {
+          "id": "5pYoyNuVkRmQBqdrgcAcN-res-2",
+          "type": "article",
+          "title": "Data Types in R Programming and Data type conversion",
+          "url": "https://medium.com/swlh/data-types-in-r-programming-and-data-type-conversion-1bb613213708"
+        }
+      ]
+    },
+    "C19rHMygP6Uc1NDgzt3DG": {
+      "id": "C19rHMygP6Uc1NDgzt3DG",
+      "slug": "vectors",
+      "title": "Vectors",
+      "description": "A vector is R's most basic data structure: an ordered collection of values that all share the same type. Nearly everything in R is built on vectors, including single values, which R treats as vectors of length one. Operations on vectors work element by element without needing an explicit loop, which is one of the defining features of how R code is written.",
+      "resources": [
+        {
+          "id": "C19rHMygP6Uc1NDgzt3DG-res-1",
+          "type": "article",
+          "title": "R Vectors",
+          "url": "https://www.w3schools.com/r/r_vectors.asp"
+        },
+        {
+          "id": "C19rHMygP6Uc1NDgzt3DG-res-2",
+          "type": "article",
+          "title": "Vectors",
+          "url": "https://r4ds.had.co.nz/vectors.html"
+        },
+        {
+          "id": "C19rHMygP6Uc1NDgzt3DG-res-3",
+          "type": "video",
+          "title": "Introduction to R: Vectors",
+          "url": "https://www.youtube.com/watch?v=H4v4MRSc8k4"
+        }
+      ]
+    },
+    "UIFNQ9g5fMK-KoZCrqv27": {
+      "id": "UIFNQ9g5fMK-KoZCrqv27",
+      "slug": "visual-inspection",
+      "title": "Visual Inspection",
+      "description": "Visual inspection uses plots, most often boxplots or scatterplots, to spot outliers by eye rather than through a fixed numeric rule. This often reveals context that purely numeric methods miss, such as whether an unusual value looks like a data entry error or a genuine rare event. It's frequently used alongside numeric methods like IQR or Z-score rather than as a replacement for them.",
+      "resources": []
+    },
+    "ObA_xZDY7PxU54NGBwyVI": {
+      "id": "ObA_xZDY7PxU54NGBwyVI",
+      "slug": "vs-code",
+      "title": "VS Code",
+      "description": "VS Code is a general-purpose code editor from Microsoft that supports R through extensions rather than built-in features. It fits projects where R is just one part of a larger codebase involving other languages, since it shares one consistent editor across all of them. R support in VS Code is solid but less specialized than what RStudio or Positron offer natively.",
+      "resources": [
+        {
+          "id": "ObA_xZDY7PxU54NGBwyVI-res-1",
+          "type": "article",
+          "title": "R in Visual Studio Code",
+          "url": "https://code.visualstudio.com/docs/languages/r"
+        },
+        {
+          "id": "ObA_xZDY7PxU54NGBwyVI-res-2",
+          "type": "article",
+          "title": "A Data Scientist’s View of Running R in Visual Studio Code",
+          "url": "https://www.r-bloggers.com/2025/05/a-data-scientists-view-of-running-r-in-visual-studio-code/"
+        },
+        {
+          "id": "ObA_xZDY7PxU54NGBwyVI-res-3",
+          "type": "video",
+          "title": "Simple setup for R in VSCode instead of RStudio (Mac)",
+          "url": "https://www.youtube.com/watch?v=rKPfssR66GM"
+        }
+      ]
+    },
+    "2Es328m-FGfn7UQteQjdS": {
+      "id": "2Es328m-FGfn7UQteQjdS",
+      "slug": "web-scraping",
+      "title": "Web Scraping",
+      "description": "Web scraping extracts data directly from a website's HTML when that data isn't offered through a proper API or downloadable file. The rvest package reads a webpage's HTML and lets you select specific elements using CSS selectors or XPath, pulling out text, tables, or links. It requires some understanding of how the target page is structured, since different sites organize their HTML very differently.",
+      "resources": []
+    },
+    "w78MVXiI2V3XXajsEEZyk": {
+      "id": "w78MVXiI2V3XXajsEEZyk",
+      "slug": "window-functions",
+      "title": "Window Functions",
+      "description": "Window functions calculate a value for each row based on a set of related rows, without collapsing the data the way summarizing does. Ranking each row within its group, calculating a running total, or comparing a row's value to the previous row are all window function tasks. They're typically combined with grouping, keeping one row per original row rather than one row per group.",
+      "resources": []
+    },
+    "GChLgXktEvXnOs9fiv77x": {
+      "id": "GChLgXktEvXnOs9fiv77x",
+      "slug": "working-with-data-tables",
+      "title": "Working with Data Tables",
+      "description": "Working with data tables means using the data.table package's syntax and conventions for fast, memory-efficient data manipulation on large datasets. It uses a distinctive bracket-based syntax, `dt[i, j, by]`, differing from both base R indexing and dplyr's verb-based approach. It's typically reached for once dataset size makes dplyr noticeably slower.",
+      "resources": []
+    },
+    "NkRfIHsHQnOHJSTuFQ9aj": {
+      "id": "NkRfIHsHQnOHJSTuFQ9aj",
+      "slug": "your-first-r-script",
+      "title": "Your First R Script",
+      "description": "A first R script is usually a short file with a few lines of code, like assigning a variable and printing it, run to confirm your R installation actually works. Writing and running this first script is where syntax stops being abstract and starts being something you can see execute. It's also the point where you get comfortable with the basic loop of writing code, running it, and reading the output.",
+      "resources": [
+        {
+          "id": "NkRfIHsHQnOHJSTuFQ9aj-res-1",
+          "type": "article",
+          "title": "Using R for the very first time?",
+          "url": "https://towardsdatascience.com/using-r-for-the-very-first-time-7d78c526ae68/"
+        },
+        {
+          "id": "NkRfIHsHQnOHJSTuFQ9aj-res-2",
+          "type": "video",
+          "title": "R Programming Tutorial - Learn the Basics of Statistical Computing",
+          "url": "https://www.youtube.com/watch?v=_V8eKsto3Ug"
+        }
+      ]
+    },
+    "2HIeG6ywOA9BkE9W3Gu9v": {
+      "id": "2HIeG6ywOA9BkE9W3Gu9v",
+      "slug": "z-score",
+      "title": "Z-score",
+      "description": "The Z-score method flags values a certain number of standard deviations away from the mean, commonly using a threshold like 2 or 3. It works well for roughly normally distributed data, but poorly for data that's heavily skewed, since the mean and standard deviation themselves get distorted by skew. It gives a precise numeric measure of how unusual a given value is relative to the rest of the data.",
+      "resources": []
+    }
+  }
+}

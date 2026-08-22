@@ -1,0 +1,4196 @@
+{
+  "slug": "linux",
+  "title": "Linux",
+  "description": "Comprehensive learning curriculum and mastery roadmap for linux.",
+  "category": "skill",
+  "level": "Intermediate",
+  "topicCount": 102,
+  "iconName": "Compass",
+  "nodes": [
+    {
+      "id": "node-4xBaZPk0eSsWG1vK3e2yW",
+      "label": "Adding Disks",
+      "topicId": "4xBaZPk0eSsWG1vK3e2yW",
+      "level": 1,
+      "position": {
+        "x": 80,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-iD073xTmpzvQFfXwcwXcY",
+      "label": "Archiving and Compressing",
+      "topicId": "iD073xTmpzvQFfXwcwXcY",
+      "level": 1,
+      "position": {
+        "x": 340,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-WwybfdKuP9ogCGpT7d3NU",
+      "label": "Authentication Logs",
+      "topicId": "WwybfdKuP9ogCGpT7d3NU",
+      "level": 1,
+      "position": {
+        "x": 600,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-tx0nh6cbBjVxwNlyrBNYm",
+      "label": "Available Memory and Disk",
+      "topicId": "tx0nh6cbBjVxwNlyrBNYm",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-QTmECqpRVMjNgQU70uCF8",
+      "label": "AWK",
+      "topicId": "QTmECqpRVMjNgQU70uCF8",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-mUKoiGUTpIaUgQNF3BND_",
+      "label": "Background and Foreground Processes",
+      "topicId": "mUKoiGUTpIaUgQNF3BND_",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-qLeEEwBvlGt1fP5Qcreah",
+      "label": "Linux Navigation Basics: Basic Commands",
+      "topicId": "qLeEEwBvlGt1fP5Qcreah",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-o5lSQFW-V_PqndGqo1mp3",
+      "label": "Boot Loaders",
+      "topicId": "o5lSQFW-V_PqndGqo1mp3",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-DQEa8LrJ9TVW4ULBE4aHJ",
+      "label": "Booting Linux",
+      "topicId": "DQEa8LrJ9TVW4ULBE4aHJ",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-23lsrUw8ux6ZP9JlDNNu2",
+      "label": "Cgroups",
+      "topicId": "23lsrUw8ux6ZP9JlDNNu2",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-FStz-bftQBK0M6zz2Bxl4",
+      "label": "Checking Service Logs",
+      "topicId": "FStz-bftQBK0M6zz2Bxl4",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-xk5Xgi797HlVjdZJRfwX1",
+      "label": "Checking Service Status",
+      "topicId": "xk5Xgi797HlVjdZJRfwX1",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-KaMSsQnJzNqGHg0Oia4uy",
+      "label": "Command Help",
+      "topicId": "KaMSsQnJzNqGHg0Oia4uy",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-moGMHNR58wFlzhS7je1wc",
+      "label": "Command Path in Shell",
+      "topicId": "moGMHNR58wFlzhS7je1wc",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-rQxfp7UWqN72iqewZhOdc",
+      "label": "Conditionals",
+      "topicId": "rQxfp7UWqN72iqewZhOdc",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-bVCwRoFsYb3HD8X4xuKOo",
+      "label": "Container Runtime",
+      "topicId": "bVCwRoFsYb3HD8X4xuKOo",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-3OpGaQhyNtk1n1MLp-tlb",
+      "label": "Containerization",
+      "topicId": "3OpGaQhyNtk1n1MLp-tlb",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-abKO6KuuIfl9ruVxBw6t_",
+      "label": "Copying and Renaming Files",
+      "topicId": "abKO6KuuIfl9ruVxBw6t_",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-R9TZfkgVUQNLnMpDhovJa",
+      "label": "Create, Update, and Delete Users",
+      "topicId": "R9TZfkgVUQNLnMpDhovJa",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-9oo2fxTM2_p0VYPBroqxa",
+      "label": "Creating Files",
+      "topicId": "9oo2fxTM2_p0VYPBroqxa",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-34UUrc8Yjc_8lvTL8itc3",
+      "label": "Creating Services",
+      "topicId": "34UUrc8Yjc_8lvTL8itc3",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-Z5Mf_e5G24IkmxEHgYBe2",
+      "label": "Cut Command",
+      "topicId": "Z5Mf_e5G24IkmxEHgYBe2",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-rOGnHbGIr3xPCFdpkqoeK",
+      "label": "Debugging",
+      "topicId": "rOGnHbGIr3xPCFdpkqoeK",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-X6Jw95kbyPgsDNRhvkQP9",
+      "label": "DHCP",
+      "topicId": "X6Jw95kbyPgsDNRhvkQP9",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-3fzuXKH7az_LVnmnoXB1p",
+      "label": "Understanding Directory Hierarchy",
+      "topicId": "3fzuXKH7az_LVnmnoXB1p",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-Fn_uYKigJRgb7r_iYGVBr",
+      "label": "Disks and Filesystems",
+      "topicId": "Fn_uYKigJRgb7r_iYGVBr",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-f5oQYhmjNM2_FD7Qe1zGK",
+      "label": "DNS Resolution",
+      "topicId": "f5oQYhmjNM2_FD7Qe1zGK",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-MfengY3ouz6sSOx3PXYf8",
+      "label": "Docker",
+      "topicId": "MfengY3ouz6sSOx3PXYf8",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-HGmeYvRf7_XusZl_K4x9k",
+      "label": "Editing Files",
+      "topicId": "HGmeYvRf7_XusZl_K4x9k",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-zwXEmpPYjA7_msS43z7I0",
+      "label": "Environment Variables",
+      "topicId": "zwXEmpPYjA7_msS43z7I0",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-4ees23q281J1DPVAc7iXd",
+      "label": "Ethernet, ARP and RARP",
+      "topicId": "4ees23q281J1DPVAc7iXd",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-TZuDVFS7DZFBgaSYYXoGe",
+      "label": "Expand",
+      "topicId": "TZuDVFS7DZFBgaSYYXoGe",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-TnrT-cqMA8urew9nLv0Ns",
+      "label": "File Permissions",
+      "topicId": "TnrT-cqMA8urew9nLv0Ns",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-tVrbVcNEfc11FbEUoO2Dk",
+      "label": "File Transfer",
+      "topicId": "tVrbVcNEfc11FbEUoO2Dk",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-LFPhSHOhUqM98fUxMjQUw",
+      "label": "Filesystems",
+      "topicId": "LFPhSHOhUqM98fUxMjQUw",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-Z23eJZjmWoeXQuezR9AhG",
+      "label": "Finding and Installing Packages",
+      "topicId": "Z23eJZjmWoeXQuezR9AhG",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-umlhxidsvtZG9k40Ca0Ac",
+      "label": "GREP",
+      "topicId": "umlhxidsvtZG9k40Ca0Ac",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-6xdkFk_GT93MigeTSSGCp",
+      "label": "Head Command",
+      "topicId": "6xdkFk_GT93MigeTSSGCp",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-Ymf3u_sG1dyt8ZR_LbwqJ",
+      "label": "ICMP",
+      "topicId": "Ymf3u_sG1dyt8ZR_LbwqJ",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-AwQJYL60NNbA5_z7iLcM7",
+      "label": "Inodes",
+      "topicId": "AwQJYL60NNbA5_z7iLcM7",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-xEHiB-egkkcBuZmgMoqHT",
+      "label": "Install, Remove, and Upgrade Packages",
+      "topicId": "xEHiB-egkkcBuZmgMoqHT",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-D0yUzzaJsfhtdBWMtquAj",
+      "label": "IP Routing",
+      "topicId": "D0yUzzaJsfhtdBWMtquAj",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-vfcCS1GoyKpU1rQaE8I5r",
+      "label": "join Command",
+      "topicId": "vfcCS1GoyKpU1rQaE8I5r",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-0FLUI9r7znMqi6YKReLzD",
+      "label": "Kill Processes",
+      "topicId": "0FLUI9r7znMqi6YKReLzD",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-lf3_CRyOI2ZXGzz5ff451",
+      "label": "Listing and Finding Processes",
+      "topicId": "lf3_CRyOI2ZXGzz5ff451",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-48wAoAAlCNt3j5mBpKTWC",
+      "label": "Listing Installed Packages",
+      "topicId": "48wAoAAlCNt3j5mBpKTWC",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node--pW7R76yNIeGf7TQoX4QL",
+      "label": "Literals",
+      "topicId": "-pW7R76yNIeGf7TQoX4QL",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-ru7mpLQZKE1QxAdiA1sS3",
+      "label": "System Logs",
+      "topicId": "ru7mpLQZKE1QxAdiA1sS3",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-WJT-yrMq8cEI87RHWA2jY",
+      "label": "Loops",
+      "topicId": "WJT-yrMq8cEI87RHWA2jY",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-I3LNa1cM_zRkBy8wKdz3g",
+      "label": "LVM (Logical Volume Manager)",
+      "topicId": "I3LNa1cM_zRkBy8wKdz3g",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-L6RMExeqi9501y-eCHDt1",
+      "label": "Permissions",
+      "topicId": "L6RMExeqi9501y-eCHDt1",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-zmb5lK_EGMAChPoPvP9E0",
+      "label": "Mounts",
+      "topicId": "zmb5lK_EGMAChPoPvP9E0",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-q-Ky0ietZGpyUcBQfh-BJ",
+      "label": "Moving Files",
+      "topicId": "q-Ky0ietZGpyUcBQfh-BJ",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-yqRwmcZThjQuqh2ao0dWK",
+      "label": "Nano: A File Editing Tool",
+      "topicId": "yqRwmcZThjQuqh2ao0dWK",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-y7KjVfSI6CAduyHd4mBFT",
+      "label": "Navigation Basics",
+      "topicId": "y7KjVfSI6CAduyHd4mBFT",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-bZ8Yj6QfBeDdh8hRM_aZs",
+      "label": "Netfilter",
+      "topicId": "bZ8Yj6QfBeDdh8hRM_aZs",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-yrxNYMluJ9OAQCKuM5W1u",
+      "label": "Netstat",
+      "topicId": "yrxNYMluJ9OAQCKuM5W1u",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-Mb42VFjCzMZn_PovKIfKx",
+      "label": "Networking",
+      "topicId": "Mb42VFjCzMZn_PovKIfKx",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-YSfGrmT795miIeIZrtC3D",
+      "label": "NL (Number Lines)",
+      "topicId": "YSfGrmT795miIeIZrtC3D",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-4eINX8jYMJxfYh7ZV47YI",
+      "label": "Package Management",
+      "topicId": "4eINX8jYMJxfYh7ZV47YI",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-2oQiuQ2j02SCt9t5eV6hg",
+      "label": "Repositories",
+      "topicId": "2oQiuQ2j02SCt9t5eV6hg",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-7seneb4TWts4v1_x8xlcZ",
+      "label": "Packet Analysis",
+      "topicId": "7seneb4TWts4v1_x8xlcZ",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-5658kdqJw-pIOyyhll80a",
+      "label": "Paste",
+      "topicId": "5658kdqJw-pIOyyhll80a",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-Uc36t92UAlILgM3_XxcMG",
+      "label": "Ping",
+      "topicId": "Uc36t92UAlILgM3_XxcMG",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-v32PJl4fzIFTOirOm6G44",
+      "label": "Pipe Commands",
+      "topicId": "v32PJl4fzIFTOirOm6G44",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-Rib7h9lh_ndiXkwNbftz_",
+      "label": "Process Forking",
+      "topicId": "Rib7h9lh_ndiXkwNbftz_",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-h01Y6dW09ChidlM2HYoav",
+      "label": "Process Management",
+      "topicId": "h01Y6dW09ChidlM2HYoav",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-5anSYRhaKIs3dCLWlvZfT",
+      "label": "Process Priorities",
+      "topicId": "5anSYRhaKIs3dCLWlvZfT",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-VkLWTvKnRXzvLGWza2v45",
+      "label": "Process Signals",
+      "topicId": "VkLWTvKnRXzvLGWza2v45",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-JgoZzx4BfK7tmosgpZOsf",
+      "label": "Redirects",
+      "topicId": "JgoZzx4BfK7tmosgpZOsf",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-jSzfQf0MlnXtWHCc-HYvr",
+      "label": "Server Review",
+      "topicId": "jSzfQf0MlnXtWHCc-HYvr",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-F1sU3O1ouxTOvpidDfN3k",
+      "label": "Service Management",
+      "topicId": "F1sU3O1ouxTOvpidDfN3k",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-ewUuI_x-YhOQIYd3MTgJJ",
+      "label": "Running Services",
+      "topicId": "ewUuI_x-YhOQIYd3MTgJJ",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-8QBMyL8D5jPovxN8jyZW9",
+      "label": "Shell Basics",
+      "topicId": "8QBMyL8D5jPovxN8jyZW9",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-4tFZ1PLpz50bddf7zSFrW",
+      "label": "Shell Programming",
+      "topicId": "4tFZ1PLpz50bddf7zSFrW",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-eKyMZn30UxQeBZQ7FxFbF",
+      "label": "Snap",
+      "topicId": "eKyMZn30UxQeBZQ7FxFbF",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-KaXHG_EKxI5PUXmcvlJt6",
+      "label": "Soft and Hard Links",
+      "topicId": "KaXHG_EKxI5PUXmcvlJt6",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-1WRIy3xHtQfiQFZrprobP",
+      "label": "Sort",
+      "topicId": "1WRIy3xHtQfiQFZrprobP",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-Pl9s2ti25hsSEljXJvBTj",
+      "label": "Split Command",
+      "topicId": "Pl9s2ti25hsSEljXJvBTj",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-uk6UMuI8Uhf02TBAGVeLS",
+      "label": "SSH",
+      "topicId": "uk6UMuI8Uhf02TBAGVeLS",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-DuEfJNrm4Jfmp8-8Pggrf",
+      "label": "Starting / Stopping Services",
+      "topicId": "DuEfJNrm4Jfmp8-8Pggrf",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-t3fxSgCgtxuMtHjclPHA6",
+      "label": "Stdout, Stdin, and Stderr",
+      "topicId": "t3fxSgCgtxuMtHjclPHA6",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-Xszo9vXuwwXZo26seHehD",
+      "label": "Subnetting",
+      "topicId": "Xszo9vXuwwXZo26seHehD",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-NIBSZGE9PskVrluJpdom0",
+      "label": "Super User",
+      "topicId": "NIBSZGE9PskVrluJpdom0",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-AWosNs2nvDGV8r6WvgBI1",
+      "label": "Swap Space",
+      "topicId": "AWosNs2nvDGV8r6WvgBI1",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-Yyk28H6TiteZEGv6Aps1h",
+      "label": "Tail Command",
+      "topicId": "Yyk28H6TiteZEGv6Aps1h",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-0pciSsiQqIGJh3x8465_s",
+      "label": "TCP/IP",
+      "topicId": "0pciSsiQqIGJh3x8465_s",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-Bo9CdrGJej-QcNmw46k9t",
+      "label": "Tee",
+      "topicId": "Bo9CdrGJej-QcNmw46k9t",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node--B2Dvz7160Er0OBHzS6ro",
+      "label": "Text Processing",
+      "topicId": "-B2Dvz7160Er0OBHzS6ro",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-O9Vci_WpUY-79AkA4HDx3",
+      "label": "Tr-Command",
+      "topicId": "O9Vci_WpUY-79AkA4HDx3",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-BnB3Rirh4R7a7LW7-k-95",
+      "label": "Traceroute",
+      "topicId": "BnB3Rirh4R7a7LW7-k-95",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-bdQNcr1sj94aX_gjwf2Fa",
+      "label": "Troubleshooting",
+      "topicId": "bdQNcr1sj94aX_gjwf2Fa",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-QgfenmhMc18cU_JngQ1n0",
+      "label": "Ulimits",
+      "topicId": "QgfenmhMc18cU_JngQ1n0",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-sKduFaX6xZaUUBdXRMKCL",
+      "label": "Unexpand",
+      "topicId": "sKduFaX6xZaUUBdXRMKCL",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5040
+      }
+    },
+    {
+      "id": "node-qnBbzphImflQbEbtFub9x",
+      "label": "Uniq",
+      "topicId": "qnBbzphImflQbEbtFub9x",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5040
+      }
+    },
+    {
+      "id": "node-19lTWqAvZFT2CDlhLlPSq",
+      "label": "Uptime and Load",
+      "topicId": "19lTWqAvZFT2CDlhLlPSq",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5040
+      }
+    },
+    {
+      "id": "node-g6n7f1Qi0BPr_BGvisWuz",
+      "label": "User Management",
+      "topicId": "g6n7f1Qi0BPr_BGvisWuz",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5200
+      }
+    },
+    {
+      "id": "node-h8wc8XEwWYHErna68w7Mg",
+      "label": "Users and Groups",
+      "topicId": "h8wc8XEwWYHErna68w7Mg",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5200
+      }
+    },
+    {
+      "id": "node-JyxvZOb7iusOSUYSlniGl",
+      "label": "Variables",
+      "topicId": "JyxvZOb7iusOSUYSlniGl",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5200
+      }
+    },
+    {
+      "id": "node-XiZz7EFIey1XKS292GN4t",
+      "label": "Vim: An Essential Tool for Editing Files",
+      "topicId": "XiZz7EFIey1XKS292GN4t",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5360
+      }
+    },
+    {
+      "id": "node-LIGOJwrXexnIcPyHVlhQ8",
+      "label": "WC - Text Processing",
+      "topicId": "LIGOJwrXexnIcPyHVlhQ8",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5360
+      }
+    },
+    {
+      "id": "node-RsOTPZPZGTEIt1Lk41bQV",
+      "label": "Working with Files",
+      "topicId": "RsOTPZPZGTEIt1Lk41bQV",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5360
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-node-4xBaZPk0eSsWG1vK3e2yW-node-iD073xTmpzvQFfXwcwXcY",
+      "source": "node-4xBaZPk0eSsWG1vK3e2yW",
+      "target": "node-iD073xTmpzvQFfXwcwXcY",
+      "animated": true
+    },
+    {
+      "id": "edge-node-iD073xTmpzvQFfXwcwXcY-node-WwybfdKuP9ogCGpT7d3NU",
+      "source": "node-iD073xTmpzvQFfXwcwXcY",
+      "target": "node-WwybfdKuP9ogCGpT7d3NU",
+      "animated": true
+    },
+    {
+      "id": "edge-node-WwybfdKuP9ogCGpT7d3NU-node-tx0nh6cbBjVxwNlyrBNYm",
+      "source": "node-WwybfdKuP9ogCGpT7d3NU",
+      "target": "node-tx0nh6cbBjVxwNlyrBNYm",
+      "animated": true
+    },
+    {
+      "id": "edge-node-tx0nh6cbBjVxwNlyrBNYm-node-QTmECqpRVMjNgQU70uCF8",
+      "source": "node-tx0nh6cbBjVxwNlyrBNYm",
+      "target": "node-QTmECqpRVMjNgQU70uCF8",
+      "animated": true
+    },
+    {
+      "id": "edge-node-QTmECqpRVMjNgQU70uCF8-node-mUKoiGUTpIaUgQNF3BND_",
+      "source": "node-QTmECqpRVMjNgQU70uCF8",
+      "target": "node-mUKoiGUTpIaUgQNF3BND_",
+      "animated": true
+    },
+    {
+      "id": "edge-node-mUKoiGUTpIaUgQNF3BND_-node-qLeEEwBvlGt1fP5Qcreah",
+      "source": "node-mUKoiGUTpIaUgQNF3BND_",
+      "target": "node-qLeEEwBvlGt1fP5Qcreah",
+      "animated": true
+    },
+    {
+      "id": "edge-node-qLeEEwBvlGt1fP5Qcreah-node-o5lSQFW-V_PqndGqo1mp3",
+      "source": "node-qLeEEwBvlGt1fP5Qcreah",
+      "target": "node-o5lSQFW-V_PqndGqo1mp3",
+      "animated": true
+    },
+    {
+      "id": "edge-node-o5lSQFW-V_PqndGqo1mp3-node-DQEa8LrJ9TVW4ULBE4aHJ",
+      "source": "node-o5lSQFW-V_PqndGqo1mp3",
+      "target": "node-DQEa8LrJ9TVW4ULBE4aHJ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-DQEa8LrJ9TVW4ULBE4aHJ-node-23lsrUw8ux6ZP9JlDNNu2",
+      "source": "node-DQEa8LrJ9TVW4ULBE4aHJ",
+      "target": "node-23lsrUw8ux6ZP9JlDNNu2",
+      "animated": true
+    },
+    {
+      "id": "edge-node-23lsrUw8ux6ZP9JlDNNu2-node-FStz-bftQBK0M6zz2Bxl4",
+      "source": "node-23lsrUw8ux6ZP9JlDNNu2",
+      "target": "node-FStz-bftQBK0M6zz2Bxl4",
+      "animated": true
+    },
+    {
+      "id": "edge-node-FStz-bftQBK0M6zz2Bxl4-node-xk5Xgi797HlVjdZJRfwX1",
+      "source": "node-FStz-bftQBK0M6zz2Bxl4",
+      "target": "node-xk5Xgi797HlVjdZJRfwX1",
+      "animated": true
+    },
+    {
+      "id": "edge-node-xk5Xgi797HlVjdZJRfwX1-node-KaMSsQnJzNqGHg0Oia4uy",
+      "source": "node-xk5Xgi797HlVjdZJRfwX1",
+      "target": "node-KaMSsQnJzNqGHg0Oia4uy",
+      "animated": true
+    },
+    {
+      "id": "edge-node-KaMSsQnJzNqGHg0Oia4uy-node-moGMHNR58wFlzhS7je1wc",
+      "source": "node-KaMSsQnJzNqGHg0Oia4uy",
+      "target": "node-moGMHNR58wFlzhS7je1wc",
+      "animated": true
+    },
+    {
+      "id": "edge-node-moGMHNR58wFlzhS7je1wc-node-rQxfp7UWqN72iqewZhOdc",
+      "source": "node-moGMHNR58wFlzhS7je1wc",
+      "target": "node-rQxfp7UWqN72iqewZhOdc",
+      "animated": true
+    },
+    {
+      "id": "edge-node-rQxfp7UWqN72iqewZhOdc-node-bVCwRoFsYb3HD8X4xuKOo",
+      "source": "node-rQxfp7UWqN72iqewZhOdc",
+      "target": "node-bVCwRoFsYb3HD8X4xuKOo",
+      "animated": true
+    },
+    {
+      "id": "edge-node-bVCwRoFsYb3HD8X4xuKOo-node-3OpGaQhyNtk1n1MLp-tlb",
+      "source": "node-bVCwRoFsYb3HD8X4xuKOo",
+      "target": "node-3OpGaQhyNtk1n1MLp-tlb",
+      "animated": true
+    },
+    {
+      "id": "edge-node-3OpGaQhyNtk1n1MLp-tlb-node-abKO6KuuIfl9ruVxBw6t_",
+      "source": "node-3OpGaQhyNtk1n1MLp-tlb",
+      "target": "node-abKO6KuuIfl9ruVxBw6t_",
+      "animated": true
+    },
+    {
+      "id": "edge-node-abKO6KuuIfl9ruVxBw6t_-node-R9TZfkgVUQNLnMpDhovJa",
+      "source": "node-abKO6KuuIfl9ruVxBw6t_",
+      "target": "node-R9TZfkgVUQNLnMpDhovJa",
+      "animated": true
+    },
+    {
+      "id": "edge-node-R9TZfkgVUQNLnMpDhovJa-node-9oo2fxTM2_p0VYPBroqxa",
+      "source": "node-R9TZfkgVUQNLnMpDhovJa",
+      "target": "node-9oo2fxTM2_p0VYPBroqxa",
+      "animated": true
+    },
+    {
+      "id": "edge-node-9oo2fxTM2_p0VYPBroqxa-node-34UUrc8Yjc_8lvTL8itc3",
+      "source": "node-9oo2fxTM2_p0VYPBroqxa",
+      "target": "node-34UUrc8Yjc_8lvTL8itc3",
+      "animated": true
+    },
+    {
+      "id": "edge-node-34UUrc8Yjc_8lvTL8itc3-node-Z5Mf_e5G24IkmxEHgYBe2",
+      "source": "node-34UUrc8Yjc_8lvTL8itc3",
+      "target": "node-Z5Mf_e5G24IkmxEHgYBe2",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Z5Mf_e5G24IkmxEHgYBe2-node-rOGnHbGIr3xPCFdpkqoeK",
+      "source": "node-Z5Mf_e5G24IkmxEHgYBe2",
+      "target": "node-rOGnHbGIr3xPCFdpkqoeK",
+      "animated": true
+    },
+    {
+      "id": "edge-node-rOGnHbGIr3xPCFdpkqoeK-node-X6Jw95kbyPgsDNRhvkQP9",
+      "source": "node-rOGnHbGIr3xPCFdpkqoeK",
+      "target": "node-X6Jw95kbyPgsDNRhvkQP9",
+      "animated": true
+    },
+    {
+      "id": "edge-node-X6Jw95kbyPgsDNRhvkQP9-node-3fzuXKH7az_LVnmnoXB1p",
+      "source": "node-X6Jw95kbyPgsDNRhvkQP9",
+      "target": "node-3fzuXKH7az_LVnmnoXB1p",
+      "animated": true
+    },
+    {
+      "id": "edge-node-3fzuXKH7az_LVnmnoXB1p-node-Fn_uYKigJRgb7r_iYGVBr",
+      "source": "node-3fzuXKH7az_LVnmnoXB1p",
+      "target": "node-Fn_uYKigJRgb7r_iYGVBr",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Fn_uYKigJRgb7r_iYGVBr-node-f5oQYhmjNM2_FD7Qe1zGK",
+      "source": "node-Fn_uYKigJRgb7r_iYGVBr",
+      "target": "node-f5oQYhmjNM2_FD7Qe1zGK",
+      "animated": true
+    },
+    {
+      "id": "edge-node-f5oQYhmjNM2_FD7Qe1zGK-node-MfengY3ouz6sSOx3PXYf8",
+      "source": "node-f5oQYhmjNM2_FD7Qe1zGK",
+      "target": "node-MfengY3ouz6sSOx3PXYf8",
+      "animated": true
+    },
+    {
+      "id": "edge-node-MfengY3ouz6sSOx3PXYf8-node-HGmeYvRf7_XusZl_K4x9k",
+      "source": "node-MfengY3ouz6sSOx3PXYf8",
+      "target": "node-HGmeYvRf7_XusZl_K4x9k",
+      "animated": true
+    },
+    {
+      "id": "edge-node-HGmeYvRf7_XusZl_K4x9k-node-zwXEmpPYjA7_msS43z7I0",
+      "source": "node-HGmeYvRf7_XusZl_K4x9k",
+      "target": "node-zwXEmpPYjA7_msS43z7I0",
+      "animated": true
+    },
+    {
+      "id": "edge-node-zwXEmpPYjA7_msS43z7I0-node-4ees23q281J1DPVAc7iXd",
+      "source": "node-zwXEmpPYjA7_msS43z7I0",
+      "target": "node-4ees23q281J1DPVAc7iXd",
+      "animated": true
+    },
+    {
+      "id": "edge-node-4ees23q281J1DPVAc7iXd-node-TZuDVFS7DZFBgaSYYXoGe",
+      "source": "node-4ees23q281J1DPVAc7iXd",
+      "target": "node-TZuDVFS7DZFBgaSYYXoGe",
+      "animated": true
+    },
+    {
+      "id": "edge-node-TZuDVFS7DZFBgaSYYXoGe-node-TnrT-cqMA8urew9nLv0Ns",
+      "source": "node-TZuDVFS7DZFBgaSYYXoGe",
+      "target": "node-TnrT-cqMA8urew9nLv0Ns",
+      "animated": true
+    },
+    {
+      "id": "edge-node-TnrT-cqMA8urew9nLv0Ns-node-tVrbVcNEfc11FbEUoO2Dk",
+      "source": "node-TnrT-cqMA8urew9nLv0Ns",
+      "target": "node-tVrbVcNEfc11FbEUoO2Dk",
+      "animated": true
+    },
+    {
+      "id": "edge-node-tVrbVcNEfc11FbEUoO2Dk-node-LFPhSHOhUqM98fUxMjQUw",
+      "source": "node-tVrbVcNEfc11FbEUoO2Dk",
+      "target": "node-LFPhSHOhUqM98fUxMjQUw",
+      "animated": true
+    },
+    {
+      "id": "edge-node-LFPhSHOhUqM98fUxMjQUw-node-Z23eJZjmWoeXQuezR9AhG",
+      "source": "node-LFPhSHOhUqM98fUxMjQUw",
+      "target": "node-Z23eJZjmWoeXQuezR9AhG",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Z23eJZjmWoeXQuezR9AhG-node-umlhxidsvtZG9k40Ca0Ac",
+      "source": "node-Z23eJZjmWoeXQuezR9AhG",
+      "target": "node-umlhxidsvtZG9k40Ca0Ac",
+      "animated": true
+    },
+    {
+      "id": "edge-node-umlhxidsvtZG9k40Ca0Ac-node-6xdkFk_GT93MigeTSSGCp",
+      "source": "node-umlhxidsvtZG9k40Ca0Ac",
+      "target": "node-6xdkFk_GT93MigeTSSGCp",
+      "animated": true
+    },
+    {
+      "id": "edge-node-6xdkFk_GT93MigeTSSGCp-node-Ymf3u_sG1dyt8ZR_LbwqJ",
+      "source": "node-6xdkFk_GT93MigeTSSGCp",
+      "target": "node-Ymf3u_sG1dyt8ZR_LbwqJ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Ymf3u_sG1dyt8ZR_LbwqJ-node-AwQJYL60NNbA5_z7iLcM7",
+      "source": "node-Ymf3u_sG1dyt8ZR_LbwqJ",
+      "target": "node-AwQJYL60NNbA5_z7iLcM7",
+      "animated": true
+    },
+    {
+      "id": "edge-node-AwQJYL60NNbA5_z7iLcM7-node-xEHiB-egkkcBuZmgMoqHT",
+      "source": "node-AwQJYL60NNbA5_z7iLcM7",
+      "target": "node-xEHiB-egkkcBuZmgMoqHT",
+      "animated": true
+    },
+    {
+      "id": "edge-node-xEHiB-egkkcBuZmgMoqHT-node-D0yUzzaJsfhtdBWMtquAj",
+      "source": "node-xEHiB-egkkcBuZmgMoqHT",
+      "target": "node-D0yUzzaJsfhtdBWMtquAj",
+      "animated": true
+    },
+    {
+      "id": "edge-node-D0yUzzaJsfhtdBWMtquAj-node-vfcCS1GoyKpU1rQaE8I5r",
+      "source": "node-D0yUzzaJsfhtdBWMtquAj",
+      "target": "node-vfcCS1GoyKpU1rQaE8I5r",
+      "animated": true
+    },
+    {
+      "id": "edge-node-vfcCS1GoyKpU1rQaE8I5r-node-0FLUI9r7znMqi6YKReLzD",
+      "source": "node-vfcCS1GoyKpU1rQaE8I5r",
+      "target": "node-0FLUI9r7znMqi6YKReLzD",
+      "animated": true
+    },
+    {
+      "id": "edge-node-0FLUI9r7znMqi6YKReLzD-node-lf3_CRyOI2ZXGzz5ff451",
+      "source": "node-0FLUI9r7znMqi6YKReLzD",
+      "target": "node-lf3_CRyOI2ZXGzz5ff451",
+      "animated": true
+    },
+    {
+      "id": "edge-node-lf3_CRyOI2ZXGzz5ff451-node-48wAoAAlCNt3j5mBpKTWC",
+      "source": "node-lf3_CRyOI2ZXGzz5ff451",
+      "target": "node-48wAoAAlCNt3j5mBpKTWC",
+      "animated": true
+    },
+    {
+      "id": "edge-node-48wAoAAlCNt3j5mBpKTWC-node--pW7R76yNIeGf7TQoX4QL",
+      "source": "node-48wAoAAlCNt3j5mBpKTWC",
+      "target": "node--pW7R76yNIeGf7TQoX4QL",
+      "animated": true
+    },
+    {
+      "id": "edge-node--pW7R76yNIeGf7TQoX4QL-node-ru7mpLQZKE1QxAdiA1sS3",
+      "source": "node--pW7R76yNIeGf7TQoX4QL",
+      "target": "node-ru7mpLQZKE1QxAdiA1sS3",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ru7mpLQZKE1QxAdiA1sS3-node-WJT-yrMq8cEI87RHWA2jY",
+      "source": "node-ru7mpLQZKE1QxAdiA1sS3",
+      "target": "node-WJT-yrMq8cEI87RHWA2jY",
+      "animated": true
+    },
+    {
+      "id": "edge-node-WJT-yrMq8cEI87RHWA2jY-node-I3LNa1cM_zRkBy8wKdz3g",
+      "source": "node-WJT-yrMq8cEI87RHWA2jY",
+      "target": "node-I3LNa1cM_zRkBy8wKdz3g",
+      "animated": true
+    },
+    {
+      "id": "edge-node-I3LNa1cM_zRkBy8wKdz3g-node-L6RMExeqi9501y-eCHDt1",
+      "source": "node-I3LNa1cM_zRkBy8wKdz3g",
+      "target": "node-L6RMExeqi9501y-eCHDt1",
+      "animated": true
+    },
+    {
+      "id": "edge-node-L6RMExeqi9501y-eCHDt1-node-zmb5lK_EGMAChPoPvP9E0",
+      "source": "node-L6RMExeqi9501y-eCHDt1",
+      "target": "node-zmb5lK_EGMAChPoPvP9E0",
+      "animated": true
+    },
+    {
+      "id": "edge-node-zmb5lK_EGMAChPoPvP9E0-node-q-Ky0ietZGpyUcBQfh-BJ",
+      "source": "node-zmb5lK_EGMAChPoPvP9E0",
+      "target": "node-q-Ky0ietZGpyUcBQfh-BJ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-q-Ky0ietZGpyUcBQfh-BJ-node-yqRwmcZThjQuqh2ao0dWK",
+      "source": "node-q-Ky0ietZGpyUcBQfh-BJ",
+      "target": "node-yqRwmcZThjQuqh2ao0dWK",
+      "animated": true
+    },
+    {
+      "id": "edge-node-yqRwmcZThjQuqh2ao0dWK-node-y7KjVfSI6CAduyHd4mBFT",
+      "source": "node-yqRwmcZThjQuqh2ao0dWK",
+      "target": "node-y7KjVfSI6CAduyHd4mBFT",
+      "animated": true
+    },
+    {
+      "id": "edge-node-y7KjVfSI6CAduyHd4mBFT-node-bZ8Yj6QfBeDdh8hRM_aZs",
+      "source": "node-y7KjVfSI6CAduyHd4mBFT",
+      "target": "node-bZ8Yj6QfBeDdh8hRM_aZs",
+      "animated": true
+    },
+    {
+      "id": "edge-node-bZ8Yj6QfBeDdh8hRM_aZs-node-yrxNYMluJ9OAQCKuM5W1u",
+      "source": "node-bZ8Yj6QfBeDdh8hRM_aZs",
+      "target": "node-yrxNYMluJ9OAQCKuM5W1u",
+      "animated": true
+    },
+    {
+      "id": "edge-node-yrxNYMluJ9OAQCKuM5W1u-node-Mb42VFjCzMZn_PovKIfKx",
+      "source": "node-yrxNYMluJ9OAQCKuM5W1u",
+      "target": "node-Mb42VFjCzMZn_PovKIfKx",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Mb42VFjCzMZn_PovKIfKx-node-YSfGrmT795miIeIZrtC3D",
+      "source": "node-Mb42VFjCzMZn_PovKIfKx",
+      "target": "node-YSfGrmT795miIeIZrtC3D",
+      "animated": true
+    },
+    {
+      "id": "edge-node-YSfGrmT795miIeIZrtC3D-node-4eINX8jYMJxfYh7ZV47YI",
+      "source": "node-YSfGrmT795miIeIZrtC3D",
+      "target": "node-4eINX8jYMJxfYh7ZV47YI",
+      "animated": true
+    },
+    {
+      "id": "edge-node-4eINX8jYMJxfYh7ZV47YI-node-2oQiuQ2j02SCt9t5eV6hg",
+      "source": "node-4eINX8jYMJxfYh7ZV47YI",
+      "target": "node-2oQiuQ2j02SCt9t5eV6hg",
+      "animated": true
+    },
+    {
+      "id": "edge-node-2oQiuQ2j02SCt9t5eV6hg-node-7seneb4TWts4v1_x8xlcZ",
+      "source": "node-2oQiuQ2j02SCt9t5eV6hg",
+      "target": "node-7seneb4TWts4v1_x8xlcZ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-7seneb4TWts4v1_x8xlcZ-node-5658kdqJw-pIOyyhll80a",
+      "source": "node-7seneb4TWts4v1_x8xlcZ",
+      "target": "node-5658kdqJw-pIOyyhll80a",
+      "animated": true
+    },
+    {
+      "id": "edge-node-5658kdqJw-pIOyyhll80a-node-Uc36t92UAlILgM3_XxcMG",
+      "source": "node-5658kdqJw-pIOyyhll80a",
+      "target": "node-Uc36t92UAlILgM3_XxcMG",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Uc36t92UAlILgM3_XxcMG-node-v32PJl4fzIFTOirOm6G44",
+      "source": "node-Uc36t92UAlILgM3_XxcMG",
+      "target": "node-v32PJl4fzIFTOirOm6G44",
+      "animated": true
+    },
+    {
+      "id": "edge-node-v32PJl4fzIFTOirOm6G44-node-Rib7h9lh_ndiXkwNbftz_",
+      "source": "node-v32PJl4fzIFTOirOm6G44",
+      "target": "node-Rib7h9lh_ndiXkwNbftz_",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Rib7h9lh_ndiXkwNbftz_-node-h01Y6dW09ChidlM2HYoav",
+      "source": "node-Rib7h9lh_ndiXkwNbftz_",
+      "target": "node-h01Y6dW09ChidlM2HYoav",
+      "animated": true
+    },
+    {
+      "id": "edge-node-h01Y6dW09ChidlM2HYoav-node-5anSYRhaKIs3dCLWlvZfT",
+      "source": "node-h01Y6dW09ChidlM2HYoav",
+      "target": "node-5anSYRhaKIs3dCLWlvZfT",
+      "animated": true
+    },
+    {
+      "id": "edge-node-5anSYRhaKIs3dCLWlvZfT-node-VkLWTvKnRXzvLGWza2v45",
+      "source": "node-5anSYRhaKIs3dCLWlvZfT",
+      "target": "node-VkLWTvKnRXzvLGWza2v45",
+      "animated": true
+    },
+    {
+      "id": "edge-node-VkLWTvKnRXzvLGWza2v45-node-JgoZzx4BfK7tmosgpZOsf",
+      "source": "node-VkLWTvKnRXzvLGWza2v45",
+      "target": "node-JgoZzx4BfK7tmosgpZOsf",
+      "animated": true
+    },
+    {
+      "id": "edge-node-JgoZzx4BfK7tmosgpZOsf-node-jSzfQf0MlnXtWHCc-HYvr",
+      "source": "node-JgoZzx4BfK7tmosgpZOsf",
+      "target": "node-jSzfQf0MlnXtWHCc-HYvr",
+      "animated": true
+    },
+    {
+      "id": "edge-node-jSzfQf0MlnXtWHCc-HYvr-node-F1sU3O1ouxTOvpidDfN3k",
+      "source": "node-jSzfQf0MlnXtWHCc-HYvr",
+      "target": "node-F1sU3O1ouxTOvpidDfN3k",
+      "animated": true
+    },
+    {
+      "id": "edge-node-F1sU3O1ouxTOvpidDfN3k-node-ewUuI_x-YhOQIYd3MTgJJ",
+      "source": "node-F1sU3O1ouxTOvpidDfN3k",
+      "target": "node-ewUuI_x-YhOQIYd3MTgJJ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ewUuI_x-YhOQIYd3MTgJJ-node-8QBMyL8D5jPovxN8jyZW9",
+      "source": "node-ewUuI_x-YhOQIYd3MTgJJ",
+      "target": "node-8QBMyL8D5jPovxN8jyZW9",
+      "animated": true
+    },
+    {
+      "id": "edge-node-8QBMyL8D5jPovxN8jyZW9-node-4tFZ1PLpz50bddf7zSFrW",
+      "source": "node-8QBMyL8D5jPovxN8jyZW9",
+      "target": "node-4tFZ1PLpz50bddf7zSFrW",
+      "animated": true
+    },
+    {
+      "id": "edge-node-4tFZ1PLpz50bddf7zSFrW-node-eKyMZn30UxQeBZQ7FxFbF",
+      "source": "node-4tFZ1PLpz50bddf7zSFrW",
+      "target": "node-eKyMZn30UxQeBZQ7FxFbF",
+      "animated": true
+    },
+    {
+      "id": "edge-node-eKyMZn30UxQeBZQ7FxFbF-node-KaXHG_EKxI5PUXmcvlJt6",
+      "source": "node-eKyMZn30UxQeBZQ7FxFbF",
+      "target": "node-KaXHG_EKxI5PUXmcvlJt6",
+      "animated": true
+    },
+    {
+      "id": "edge-node-KaXHG_EKxI5PUXmcvlJt6-node-1WRIy3xHtQfiQFZrprobP",
+      "source": "node-KaXHG_EKxI5PUXmcvlJt6",
+      "target": "node-1WRIy3xHtQfiQFZrprobP",
+      "animated": true
+    },
+    {
+      "id": "edge-node-1WRIy3xHtQfiQFZrprobP-node-Pl9s2ti25hsSEljXJvBTj",
+      "source": "node-1WRIy3xHtQfiQFZrprobP",
+      "target": "node-Pl9s2ti25hsSEljXJvBTj",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Pl9s2ti25hsSEljXJvBTj-node-uk6UMuI8Uhf02TBAGVeLS",
+      "source": "node-Pl9s2ti25hsSEljXJvBTj",
+      "target": "node-uk6UMuI8Uhf02TBAGVeLS",
+      "animated": true
+    },
+    {
+      "id": "edge-node-uk6UMuI8Uhf02TBAGVeLS-node-DuEfJNrm4Jfmp8-8Pggrf",
+      "source": "node-uk6UMuI8Uhf02TBAGVeLS",
+      "target": "node-DuEfJNrm4Jfmp8-8Pggrf",
+      "animated": true
+    },
+    {
+      "id": "edge-node-DuEfJNrm4Jfmp8-8Pggrf-node-t3fxSgCgtxuMtHjclPHA6",
+      "source": "node-DuEfJNrm4Jfmp8-8Pggrf",
+      "target": "node-t3fxSgCgtxuMtHjclPHA6",
+      "animated": true
+    },
+    {
+      "id": "edge-node-t3fxSgCgtxuMtHjclPHA6-node-Xszo9vXuwwXZo26seHehD",
+      "source": "node-t3fxSgCgtxuMtHjclPHA6",
+      "target": "node-Xszo9vXuwwXZo26seHehD",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Xszo9vXuwwXZo26seHehD-node-NIBSZGE9PskVrluJpdom0",
+      "source": "node-Xszo9vXuwwXZo26seHehD",
+      "target": "node-NIBSZGE9PskVrluJpdom0",
+      "animated": true
+    },
+    {
+      "id": "edge-node-NIBSZGE9PskVrluJpdom0-node-AWosNs2nvDGV8r6WvgBI1",
+      "source": "node-NIBSZGE9PskVrluJpdom0",
+      "target": "node-AWosNs2nvDGV8r6WvgBI1",
+      "animated": true
+    },
+    {
+      "id": "edge-node-AWosNs2nvDGV8r6WvgBI1-node-Yyk28H6TiteZEGv6Aps1h",
+      "source": "node-AWosNs2nvDGV8r6WvgBI1",
+      "target": "node-Yyk28H6TiteZEGv6Aps1h",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Yyk28H6TiteZEGv6Aps1h-node-0pciSsiQqIGJh3x8465_s",
+      "source": "node-Yyk28H6TiteZEGv6Aps1h",
+      "target": "node-0pciSsiQqIGJh3x8465_s",
+      "animated": true
+    },
+    {
+      "id": "edge-node-0pciSsiQqIGJh3x8465_s-node-Bo9CdrGJej-QcNmw46k9t",
+      "source": "node-0pciSsiQqIGJh3x8465_s",
+      "target": "node-Bo9CdrGJej-QcNmw46k9t",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Bo9CdrGJej-QcNmw46k9t-node--B2Dvz7160Er0OBHzS6ro",
+      "source": "node-Bo9CdrGJej-QcNmw46k9t",
+      "target": "node--B2Dvz7160Er0OBHzS6ro",
+      "animated": true
+    },
+    {
+      "id": "edge-node--B2Dvz7160Er0OBHzS6ro-node-O9Vci_WpUY-79AkA4HDx3",
+      "source": "node--B2Dvz7160Er0OBHzS6ro",
+      "target": "node-O9Vci_WpUY-79AkA4HDx3",
+      "animated": true
+    },
+    {
+      "id": "edge-node-O9Vci_WpUY-79AkA4HDx3-node-BnB3Rirh4R7a7LW7-k-95",
+      "source": "node-O9Vci_WpUY-79AkA4HDx3",
+      "target": "node-BnB3Rirh4R7a7LW7-k-95",
+      "animated": true
+    },
+    {
+      "id": "edge-node-BnB3Rirh4R7a7LW7-k-95-node-bdQNcr1sj94aX_gjwf2Fa",
+      "source": "node-BnB3Rirh4R7a7LW7-k-95",
+      "target": "node-bdQNcr1sj94aX_gjwf2Fa",
+      "animated": true
+    },
+    {
+      "id": "edge-node-bdQNcr1sj94aX_gjwf2Fa-node-QgfenmhMc18cU_JngQ1n0",
+      "source": "node-bdQNcr1sj94aX_gjwf2Fa",
+      "target": "node-QgfenmhMc18cU_JngQ1n0",
+      "animated": true
+    },
+    {
+      "id": "edge-node-QgfenmhMc18cU_JngQ1n0-node-sKduFaX6xZaUUBdXRMKCL",
+      "source": "node-QgfenmhMc18cU_JngQ1n0",
+      "target": "node-sKduFaX6xZaUUBdXRMKCL",
+      "animated": true
+    },
+    {
+      "id": "edge-node-sKduFaX6xZaUUBdXRMKCL-node-qnBbzphImflQbEbtFub9x",
+      "source": "node-sKduFaX6xZaUUBdXRMKCL",
+      "target": "node-qnBbzphImflQbEbtFub9x",
+      "animated": true
+    },
+    {
+      "id": "edge-node-qnBbzphImflQbEbtFub9x-node-19lTWqAvZFT2CDlhLlPSq",
+      "source": "node-qnBbzphImflQbEbtFub9x",
+      "target": "node-19lTWqAvZFT2CDlhLlPSq",
+      "animated": true
+    },
+    {
+      "id": "edge-node-19lTWqAvZFT2CDlhLlPSq-node-g6n7f1Qi0BPr_BGvisWuz",
+      "source": "node-19lTWqAvZFT2CDlhLlPSq",
+      "target": "node-g6n7f1Qi0BPr_BGvisWuz",
+      "animated": true
+    },
+    {
+      "id": "edge-node-g6n7f1Qi0BPr_BGvisWuz-node-h8wc8XEwWYHErna68w7Mg",
+      "source": "node-g6n7f1Qi0BPr_BGvisWuz",
+      "target": "node-h8wc8XEwWYHErna68w7Mg",
+      "animated": true
+    },
+    {
+      "id": "edge-node-h8wc8XEwWYHErna68w7Mg-node-JyxvZOb7iusOSUYSlniGl",
+      "source": "node-h8wc8XEwWYHErna68w7Mg",
+      "target": "node-JyxvZOb7iusOSUYSlniGl",
+      "animated": true
+    },
+    {
+      "id": "edge-node-JyxvZOb7iusOSUYSlniGl-node-XiZz7EFIey1XKS292GN4t",
+      "source": "node-JyxvZOb7iusOSUYSlniGl",
+      "target": "node-XiZz7EFIey1XKS292GN4t",
+      "animated": true
+    },
+    {
+      "id": "edge-node-XiZz7EFIey1XKS292GN4t-node-LIGOJwrXexnIcPyHVlhQ8",
+      "source": "node-XiZz7EFIey1XKS292GN4t",
+      "target": "node-LIGOJwrXexnIcPyHVlhQ8",
+      "animated": true
+    },
+    {
+      "id": "edge-node-LIGOJwrXexnIcPyHVlhQ8-node-RsOTPZPZGTEIt1Lk41bQV",
+      "source": "node-LIGOJwrXexnIcPyHVlhQ8",
+      "target": "node-RsOTPZPZGTEIt1Lk41bQV",
+      "animated": true
+    }
+  ],
+  "topics": {
+    "4xBaZPk0eSsWG1vK3e2yW": {
+      "id": "4xBaZPk0eSsWG1vK3e2yW",
+      "slug": "adding-disks",
+      "title": "Adding Disks",
+      "description": "Adding disks in Linux involves partitioning, creating filesystems, and mounting. Use `lsblk` to list devices, `fdisk /dev/sdX` to create partitions, `mkfs.ext4 /dev/sdX1` to create filesystems, and `mount /dev/sdX1 /mount/point` to mount. This process prepares new storage devices for seamless integration into the Linux filesystem hierarchy.",
+      "resources": [
+        {
+          "id": "4xBaZPk0eSsWG1vK3e2yW-res-1",
+          "type": "article",
+          "title": "How to Add a New Disk",
+          "url": "https://linuxconfig.org/how-to-add-new-disk-to-existing-linux-system"
+        },
+        {
+          "id": "4xBaZPk0eSsWG1vK3e2yW-res-2",
+          "type": "article",
+          "title": "How to Add a New Disk to an Existing Linux Server",
+          "url": "https://www.tecmint.com/add-new-disk-to-an-existing-linux/"
+        }
+      ]
+    },
+    "iD073xTmpzvQFfXwcwXcY": {
+      "id": "iD073xTmpzvQFfXwcwXcY",
+      "slug": "archiving-and-compressing",
+      "title": "Archiving and Compressing",
+      "description": "Archiving bundles multiple files into a single file, typically using `tar`, while compressing reduces that file's size using tools like `gzip` or `bzip2`. A common pattern combines both steps at once, such as `tar -czvf archive.tar.gz folder/`, which archives and compresses a folder in one command. These tools are widely used for backups, transferring multiple files as one, and distributing software packages.",
+      "resources": [
+        {
+          "id": "iD073xTmpzvQFfXwcwXcY-res-1",
+          "type": "article",
+          "title": "Linux File Packaging and Compression",
+          "url": "https://labex.io/tutorials/linux-file-packaging-and-compression-385413"
+        }
+      ]
+    },
+    "WwybfdKuP9ogCGpT7d3NU": {
+      "id": "WwybfdKuP9ogCGpT7d3NU",
+      "slug": "authentication-logs",
+      "title": "Authentication Logs",
+      "description": "Authentication logs in Linux record all auth-related events like logins, password changes, and sudo commands. Located at `/var/log/auth.log` (Debian) or `/var/log/secure` (RHEL/CentOS), these logs help detect brute force attacks and unauthorized access attempts. Use `tail /var/log/auth.log` to view recent entries. Regular log analysis is essential for server security monitoring.",
+      "resources": [
+        {
+          "id": "WwybfdKuP9ogCGpT7d3NU-res-1",
+          "type": "article",
+          "title": "Monitoring Linux Authentication Logs",
+          "url": "https://betterstack.com/community/guides/logging/monitoring-linux-auth-logs/"
+        },
+        {
+          "id": "WwybfdKuP9ogCGpT7d3NU-res-2",
+          "type": "article",
+          "title": "How to Check Linux Login History - Linux Handbook",
+          "url": "https://linuxhandbook.com/linux-login-history/"
+        }
+      ]
+    },
+    "tx0nh6cbBjVxwNlyrBNYm": {
+      "id": "tx0nh6cbBjVxwNlyrBNYm",
+      "slug": "available-memory--disk",
+      "title": "Available Memory and Disk",
+      "description": "Linux provides tools like `free`, `vmstat`, and `top` to monitor system memory usage and performance. The `free -h` command shows total, used, free, shared, buffer/cache, and available memory in human-readable format. Regular memory monitoring helps maintain optimal server performance, prevent overload, and troubleshoot resource issues effectively.",
+      "resources": [
+        {
+          "id": "tx0nh6cbBjVxwNlyrBNYm-res-1",
+          "type": "article",
+          "title": "5 Best Ways To Check Available Memory In Linux",
+          "url": "https://itslinuxfoss.com/5-ways-check-available-memory-linux/"
+        },
+        {
+          "id": "tx0nh6cbBjVxwNlyrBNYm-res-2",
+          "type": "article",
+          "title": "Free vs. Available Memory in Linux",
+          "url": "https://linuxblog.io/free-vs-available-memory-in-linux/"
+        }
+      ]
+    },
+    "QTmECqpRVMjNgQU70uCF8": {
+      "id": "QTmECqpRVMjNgQU70uCF8",
+      "slug": "awk",
+      "title": "AWK",
+      "description": "AWK is a powerful text-processing language for Unix-like systems, named after its creators Aho, Weinberger, and Kernighan. It reads files line by line, identifies patterns, and executes actions on matches. Commonly used in bash scripts for sorting, filtering, and report generation.",
+      "resources": [
+        {
+          "id": "QTmECqpRVMjNgQU70uCF8-res-1",
+          "type": "article",
+          "title": "IBM.com: Awk by Example",
+          "url": "https://developer.ibm.com/tutorials/l-awk1/"
+        },
+        {
+          "id": "QTmECqpRVMjNgQU70uCF8-res-2",
+          "type": "article",
+          "title": "AWK Tutorial",
+          "url": "https://linuxhandbook.com/awk-command-tutorial/"
+        },
+        {
+          "id": "QTmECqpRVMjNgQU70uCF8-res-3",
+          "type": "article",
+          "title": "Linux awk Command: Text Processing",
+          "url": "https://labex.io/tutorials/linux-linux-awk-command-text-processing-388493"
+        },
+        {
+          "id": "QTmECqpRVMjNgQU70uCF8-res-4",
+          "type": "video",
+          "title": "Learning Awk Is Essential For Linux Users",
+          "url": "https://www.youtube.com/watch?v=9YOZmI-zWok"
+        }
+      ]
+    },
+    "mUKoiGUTpIaUgQNF3BND_": {
+      "id": "mUKoiGUTpIaUgQNF3BND_",
+      "slug": "background--foreground-processes",
+      "title": "Background and Foreground Processes",
+      "description": "Linux processes run in foreground (taking direct user input) or background (running independently). Send processes to background with `&` or `bg` command. Bring to foreground with `fg`. Use Ctrl+Z to pause, then `bg` to resume in background. Part of job control for managing multiple tasks simultaneously from single terminal.",
+      "resources": [
+        {
+          "id": "mUKoiGUTpIaUgQNF3BND_-res-1",
+          "type": "article",
+          "title": "Understanding Foreground and Background Processes",
+          "url": "https://linuxconfig.org/understanding-foreground-and-background-linux-processes"
+        },
+        {
+          "id": "mUKoiGUTpIaUgQNF3BND_-res-2",
+          "type": "article",
+          "title": "Running Linux Commands in Background and Foreground",
+          "url": "https://linuxhandbook.com/run-process-background/"
+        }
+      ]
+    },
+    "qLeEEwBvlGt1fP5Qcreah": {
+      "id": "qLeEEwBvlGt1fP5Qcreah",
+      "slug": "basic-commands",
+      "title": "Linux Navigation Basics: Basic Commands",
+      "description": "Linux Navigation Basics is about using simple commands to move around and manage files on your computer. For example, `cd` lets you go into different folders, `ls` shows you what files and folders are inside, and `pwd` tells you where you are currently. These commands help you easily find and organize your files.",
+      "resources": [
+        {
+          "id": "qLeEEwBvlGt1fP5Qcreah-res-1",
+          "type": "article",
+          "title": "Linux Filesystem Navigation Basics",
+          "url": "https://linuxconfig.org/filesystem-basics"
+        },
+        {
+          "id": "qLeEEwBvlGt1fP5Qcreah-res-2",
+          "type": "article",
+          "title": "Linux Navigation and File Management",
+          "url": "https://www.digitalocean.com/community/tutorials/basic-linux-navigation-and-file-management"
+        },
+        {
+          "id": "qLeEEwBvlGt1fP5Qcreah-res-3",
+          "type": "article",
+          "title": "Basic Navigation Commands: cd, ls, and pwd",
+          "url": "https://www.linuxbash.sh/post/basic-navigation-commands-cd-ls-and-pwd"
+        }
+      ]
+    },
+    "o5lSQFW-V_PqndGqo1mp3": {
+      "id": "o5lSQFW-V_PqndGqo1mp3",
+      "slug": "boot-loaders",
+      "title": "Boot Loaders",
+      "description": "Boot loaders load the OS kernel into memory when systems start. Common Linux boot loaders include GRUB (modern, feature-rich with graphical interface) and LILO (older, broader hardware support). Boot loaders initialize hardware, load drivers, start schedulers, and execute init processes. Use `sudo update-grub` to update GRUB configuration. Enable multi-OS booting on single machines.",
+      "resources": [
+        {
+          "id": "o5lSQFW-V_PqndGqo1mp3-res-1",
+          "type": "article",
+          "title": "The GNU GRUB",
+          "url": "https://www.gnu.org/software/grub/"
+        },
+        {
+          "id": "o5lSQFW-V_PqndGqo1mp3-res-2",
+          "type": "article",
+          "title": "Bootloader - Archlinux wiki",
+          "url": "https://wiki.archlinux.org/title/Arch_boot_process#Boot_loader"
+        },
+        {
+          "id": "o5lSQFW-V_PqndGqo1mp3-res-3",
+          "type": "article",
+          "title": "Most Popular Linux Boot Loaders",
+          "url": "https://thelinuxcode.com/what-is-a-boot-loader/"
+        },
+        {
+          "id": "o5lSQFW-V_PqndGqo1mp3-res-4",
+          "type": "article",
+          "title": "GRUB Bootloader in Linux",
+          "url": "https://phoenixnap.com/kb/what-is-grub"
+        }
+      ]
+    },
+    "DQEa8LrJ9TVW4ULBE4aHJ": {
+      "id": "DQEa8LrJ9TVW4ULBE4aHJ",
+      "slug": "booting-linux",
+      "title": "Booting Linux",
+      "description": "Linux booting involves several stages: POST, MBR, GRUB, Kernel, Init, and GUI/CLI. The bootloader loads the kernel into memory, which detects hardware, loads drivers, mounts filesystems, starts system processes, and presents login prompts. GRUB configuration is managed through `/etc/default/grub` with settings like timeout and default boot options.",
+      "resources": [
+        {
+          "id": "DQEa8LrJ9TVW4ULBE4aHJ-res-1",
+          "type": "article",
+          "title": "The GNU GRUB",
+          "url": "https://www.gnu.org/software/grub/"
+        },
+        {
+          "id": "DQEa8LrJ9TVW4ULBE4aHJ-res-2",
+          "type": "article",
+          "title": "Booting process of Linux - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Booting_process_of_Linux"
+        },
+        {
+          "id": "DQEa8LrJ9TVW4ULBE4aHJ-res-3",
+          "type": "article",
+          "title": "The Linux Booting Process",
+          "url": "https://thelinuxcode.com/the-linux-booting-process-6-steps-described-in-detail/"
+        }
+      ]
+    },
+    "23lsrUw8ux6ZP9JlDNNu2": {
+      "id": "23lsrUw8ux6ZP9JlDNNu2",
+      "slug": "cgroups",
+      "title": "Cgroups",
+      "description": "Cgroups (control groups) are a Linux kernel feature that organizes processes into hierarchical groups and limits their resource usage (CPU, memory, disk I/O). Essential for containerization, cgroups prevent containers from monopolizing host resources, ensuring system stability and performance. Use `cgcreate` to create groups, assign processes, and set resource limits effectively.",
+      "resources": [
+        {
+          "id": "23lsrUw8ux6ZP9JlDNNu2-res-1",
+          "type": "article",
+          "title": "Control Groups — The Linux Kernel",
+          "url": "https://docs.kernel.org/admin-guide/cgroup-v1/"
+        },
+        {
+          "id": "23lsrUw8ux6ZP9JlDNNu2-res-2",
+          "type": "article",
+          "title": "cgroups — Linux manual page",
+          "url": "https://www.man7.org/linux/man-pages/man7/cgroups.7.html"
+        },
+        {
+          "id": "23lsrUw8ux6ZP9JlDNNu2-res-3",
+          "type": "article",
+          "title": "Introduction to Control Groups (Cgroups)",
+          "url": "https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/7/html/resource_management_guide/chap-introduction_to_control_groups"
+        }
+      ]
+    },
+    "FStz-bftQBK0M6zz2Bxl4": {
+      "id": "FStz-bftQBK0M6zz2Bxl4",
+      "slug": "checking-service-logs",
+      "title": "Checking Service Logs",
+      "description": "Systemd captures output from all managed services and stores it in the journal, a binary log managed by journald. You can view logs for a specific service using journalctl -u service-name. Useful flags include -f to follow logs in real time, --since and --until to filter by time range, and -n to limit the number of lines shown. Logs include both stdout/stderr from the process and systemd lifecycle events.",
+      "resources": [
+        {
+          "id": "FStz-bftQBK0M6zz2Bxl4-res-1",
+          "type": "article",
+          "title": "Journalctl Explained: How To View And Analyze Systemd Logs.",
+          "url": "https://uptimerobot.com/knowledge-hub/logging/journalctl-explained-how-to-view-and-analyze-systemd-logs/"
+        },
+        {
+          "id": "FStz-bftQBK0M6zz2Bxl4-res-2",
+          "type": "article",
+          "title": "How To Use journalctl to View and Manipulate systemd Logs on Linux",
+          "url": "https://www.digitalocean.com/community/tutorials/how-to-use-journalctl-to-view-and-manipulate-systemd-logs"
+        }
+      ]
+    },
+    "xk5Xgi797HlVjdZJRfwX1": {
+      "id": "xk5Xgi797HlVjdZJRfwX1",
+      "slug": "checking-service-status",
+      "title": "Checking Service Status",
+      "description": "systemctl status service-name gives a real-time snapshot of a service: whether it's active, inactive, or failed; its process ID; recent log lines; and any error messages from the last run. For a quick boolean check, systemctl is-active and systemctl is-enabled return simple values suitable for use in scripts. The enabled/disabled state indicates whether the service is configured to start automatically at boot, separate from whether it's currently running.",
+      "resources": [
+        {
+          "id": "xk5Xgi797HlVjdZJRfwX1-res-1",
+          "type": "article",
+          "title": "Checking the Status of a Service Without Having an Exact Name",
+          "url": "https://www.baeldung.com/linux/initialization-managers-service-status"
+        }
+      ]
+    },
+    "KaMSsQnJzNqGHg0Oia4uy": {
+      "id": "KaMSsQnJzNqGHg0Oia4uy",
+      "slug": "command-help",
+      "title": "Command Help",
+      "description": "Linux command help provides documentation and usage information for shell commands. Use `man command` for detailed manuals, `help command` for shell built-ins, `command --help` for quick options, and `tldr command` for practical examples. Essential for learning command syntax, parameters, and functionality in Linux terminal environments.",
+      "resources": [
+        {
+          "id": "KaMSsQnJzNqGHg0Oia4uy-res-1",
+          "type": "article",
+          "title": "tldr-pages/tldr",
+          "url": "https://github.com/tldr-pages/tldr"
+        },
+        {
+          "id": "KaMSsQnJzNqGHg0Oia4uy-res-2",
+          "type": "article",
+          "title": "Using the Help Command in Linux",
+          "url": "https://linuxhandbook.com/help-command/"
+        },
+        {
+          "id": "KaMSsQnJzNqGHg0Oia4uy-res-3",
+          "type": "article",
+          "title": "Chapter 10: Getting Help in Linux Terminal",
+          "url": "https://itsfoss.com/linux-command-help/"
+        },
+        {
+          "id": "KaMSsQnJzNqGHg0Oia4uy-res-4",
+          "type": "article",
+          "title": "Get Help on Linux Commands",
+          "url": "https://labex.io/tutorials/linux-get-help-on-linux-commands-18000"
+        }
+      ]
+    },
+    "moGMHNR58wFlzhS7je1wc": {
+      "id": "moGMHNR58wFlzhS7je1wc",
+      "slug": "command-path",
+      "title": "Command Path in Shell",
+      "description": "The command path is a variable that is used by the shell to determine where to look for the executable files to run. Linux commands are nothing but programs residing in particular directories. But, one does not have to navigate to these directories every time to run these programs. The command path comes to the rescue!",
+      "resources": [
+        {
+          "id": "moGMHNR58wFlzhS7je1wc-res-1",
+          "type": "article",
+          "title": "Linux path environment variable",
+          "url": "https://linuxconfig.org/linux-path-environment-variable"
+        },
+        {
+          "id": "moGMHNR58wFlzhS7je1wc-res-2",
+          "type": "article",
+          "title": "How to find a path of a Linux command like a pro",
+          "url": "https://www.cyberciti.biz/howto/finding-a-path-of-a-linux-command-like-a-pro/"
+        }
+      ]
+    },
+    "rQxfp7UWqN72iqewZhOdc": {
+      "id": "rQxfp7UWqN72iqewZhOdc",
+      "slug": "conditionals",
+      "title": "Conditionals",
+      "description": "Shell conditionals allow scripts to make decisions based on conditions using `if`, `elif`, and `else` statements. These control process flow by evaluating string variables, arithmetic tests, or process status. Conditions are checked sequentially - if true, the corresponding code block executes; otherwise, it moves to the next condition until finding a match or reaching `else`.",
+      "resources": [
+        {
+          "id": "rQxfp7UWqN72iqewZhOdc-res-1",
+          "type": "article",
+          "title": "Bash Scripting: Conditionals",
+          "url": "https://linuxconfig.org/bash-scripting-conditionals"
+        }
+      ]
+    },
+    "bVCwRoFsYb3HD8X4xuKOo": {
+      "id": "bVCwRoFsYb3HD8X4xuKOo",
+      "slug": "container-runtime",
+      "title": "Container Runtime",
+      "description": "Container runtime is software responsible for running containers in Linux, providing image transport, storage, execution, and network interactions. Popular options include Docker (comprehensive ecosystem), Containerd (lightweight standalone), and CRI-O (Kubernetes-optimized). Each runtime offers specific features and benefits for different use cases in containerized application deployment and management.",
+      "resources": [
+        {
+          "id": "bVCwRoFsYb3HD8X4xuKOo-res-1",
+          "type": "article",
+          "title": "Container Runtimes",
+          "url": "https://kubernetes.io/docs/setup/production-environment/container-runtimes/"
+        },
+        {
+          "id": "bVCwRoFsYb3HD8X4xuKOo-res-2",
+          "type": "article",
+          "title": "What are Container Runtimes? Types and Popular Runtime",
+          "url": "https://www.wiz.io/academy/container-runtimes"
+        },
+        {
+          "id": "bVCwRoFsYb3HD8X4xuKOo-res-3",
+          "type": "article",
+          "title": "What are container runtimes?",
+          "url": "https://opensource.com/article/21/9/container-runtimes"
+        }
+      ]
+    },
+    "3OpGaQhyNtk1n1MLp-tlb": {
+      "id": "3OpGaQhyNtk1n1MLp-tlb",
+      "slug": "containerization",
+      "title": "Containerization",
+      "description": "Containerization is a virtualization method that encapsulates applications in containers with isolated operating environments, enabling reliable deployment across computing environments. Unlike VMs requiring full operating systems, containers share the host system's user space, making them lightweight and faster. Docker is a popular Linux containerization tool for managing complex applications.",
+      "resources": [
+        {
+          "id": "3OpGaQhyNtk1n1MLp-tlb-res-1",
+          "type": "article",
+          "title": "Docker",
+          "url": "https://docker.com"
+        },
+        {
+          "id": "3OpGaQhyNtk1n1MLp-tlb-res-2",
+          "type": "article",
+          "title": "Kubernetes",
+          "url": "https://kubernetes.io"
+        },
+        {
+          "id": "3OpGaQhyNtk1n1MLp-tlb-res-3",
+          "type": "article",
+          "title": "What is Containerization? - Containerization Explained - AWS",
+          "url": "https://aws.amazon.com/what-is/containerization/"
+        },
+        {
+          "id": "3OpGaQhyNtk1n1MLp-tlb-res-4",
+          "type": "article",
+          "title": "What is Containerization? - DigitalOcean",
+          "url": "https://www.digitalocean.com/resources/articles/what-is-containerization"
+        }
+      ]
+    },
+    "abKO6KuuIfl9ruVxBw6t_": {
+      "id": "abKO6KuuIfl9ruVxBw6t_",
+      "slug": "copying-and-renaming",
+      "title": "Copying and Renaming Files",
+      "description": "Essential Linux file operations use `cp` to copy files and `mv` to move/rename them. The `cp` command copies files from source to destination, while `mv` moves or renames files/directories. Both commands use the syntax `command source destination`. These case-sensitive commands are fundamental for daily file management tasks in Linux systems.",
+      "resources": [
+        {
+          "id": "abKO6KuuIfl9ruVxBw6t_-res-1",
+          "type": "article",
+          "title": "mv and cp - Linux.org",
+          "url": "https://www.linux.org/threads/mv-and-cp.54793/"
+        },
+        {
+          "id": "abKO6KuuIfl9ruVxBw6t_-res-2",
+          "type": "article",
+          "title": "Mastering cp and mv Commands in Linux",
+          "url": "https://dev.to/ldwit/mastering-cp-and-mv-commands-in-linux-plus-related-cmds-5cc9"
+        },
+        {
+          "id": "abKO6KuuIfl9ruVxBw6t_-res-3",
+          "type": "article",
+          "title": "Linux cp Command: File Copying",
+          "url": "https://labex.io/tutorials/linux-linux-cp-command-file-copying-209744"
+        },
+        {
+          "id": "abKO6KuuIfl9ruVxBw6t_-res-4",
+          "type": "article",
+          "title": "Linux mv Command: File Moving and Renaming",
+          "url": "https://labex.io/tutorials/linux-linux-mv-command-file-moving-and-renaming-209743"
+        }
+      ]
+    },
+    "R9TZfkgVUQNLnMpDhovJa": {
+      "id": "R9TZfkgVUQNLnMpDhovJa",
+      "slug": "create--delete--update",
+      "title": "Create, Update, and Delete Users",
+      "description": "Linux user management involves creating, updating, and deleting user accounts for system security and resource utilization. Key commands: `useradd`/`adduser` (create users), `usermod` (update user details like home directory/shell), `userdel` (delete users). Essential for maintaining secure, organized multi-user system environments and efficient resource allocation.",
+      "resources": [
+        {
+          "id": "R9TZfkgVUQNLnMpDhovJa-res-1",
+          "type": "article",
+          "title": "Creating, Modifying, and Deleting User Accounts",
+          "url": "https://serveracademy.com/courses/linux-server-administration/creating-modifying-and-deleting-user-accounts/"
+        },
+        {
+          "id": "R9TZfkgVUQNLnMpDhovJa-res-2",
+          "type": "article",
+          "title": "How to create, update, and delete users account on Linux",
+          "url": "https://linuxconfig.org/how-to-create-modify-and-delete-users-account-on-linux"
+        },
+        {
+          "id": "R9TZfkgVUQNLnMpDhovJa-res-3",
+          "type": "article",
+          "title": "User Management in Linux: A Beginner's Guide",
+          "url": "https://dev.to/austinozor/user-management-in-linux-a-beginners-guide-to-creating-modifying-and-deleting-users-fhf"
+        }
+      ]
+    },
+    "9oo2fxTM2_p0VYPBroqxa": {
+      "id": "9oo2fxTM2_p0VYPBroqxa",
+      "slug": "creating--deleting-files--dirs",
+      "title": "Creating Files",
+      "description": "Linux file creation uses `touch` for empty files, `echo \"text\" > filename` for text files, or `cat > filename` for interactive input. Commands like `mkdir` create directories. File creation is immediate and permanent. Essential for organizing data, scripts, and configuration files in Linux systems.",
+      "resources": [
+        {
+          "id": "9oo2fxTM2_p0VYPBroqxa-res-1",
+          "type": "article",
+          "title": "What is the Difference Between Cat and Touch Command",
+          "url": "https://linuxways.net/centos/what-is-the-difference-between-cat-and-touch-command/"
+        },
+        {
+          "id": "9oo2fxTM2_p0VYPBroqxa-res-2",
+          "type": "article",
+          "title": "Creating and Deleting Files / Directories in Linux",
+          "url": "https://useful.codes/creating-and-deleting-files-directories-in-linux/"
+        },
+        {
+          "id": "9oo2fxTM2_p0VYPBroqxa-res-3",
+          "type": "article",
+          "title": "Creating, Moving, and Deleting Files and Folders",
+          "url": "https://dev.to/alkesh009/linux-basics-part-4-creating-moving-and-deleting-files-and-folders-5hip"
+        }
+      ]
+    },
+    "34UUrc8Yjc_8lvTL8itc3": {
+      "id": "34UUrc8Yjc_8lvTL8itc3",
+      "slug": "creating-new-services",
+      "title": "Creating Services",
+      "description": "Creating Linux services involves setting up background applications using systemd service files. Services run continuously performing essential tasks like web servers, databases, and mail servers. Create `.service` files in `/etc/systemd/system/` with Unit, Service, and Install sections. Control services using `systemctl` commands. Best practice: avoid running services as root for security.",
+      "resources": [
+        {
+          "id": "34UUrc8Yjc_8lvTL8itc3-res-1",
+          "type": "article",
+          "title": "How to Create a systemd Service in Linux",
+          "url": "https://linuxhandbook.com/create-systemd-services/"
+        },
+        {
+          "id": "34UUrc8Yjc_8lvTL8itc3-res-2",
+          "type": "article",
+          "title": "A Beginner's Guide to Creating Linux Services",
+          "url": "https://www.fosslinux.com/111815/a-guide-to-creating-linux-services-with-systemd.htm"
+        }
+      ]
+    },
+    "Z5Mf_e5G24IkmxEHgYBe2": {
+      "id": "Z5Mf_e5G24IkmxEHgYBe2",
+      "slug": "cut",
+      "title": "Cut Command",
+      "description": "The `cut` command is a text processing utility that allows you to cut out sections of each line from a file or output, and display it on the standard output (usually, the terminal). It's commonly used in scripts and pipelines, especially for file operations and text manipulation.",
+      "resources": [
+        {
+          "id": "Z5Mf_e5G24IkmxEHgYBe2-res-1",
+          "type": "article",
+          "title": "Cut Command in Linux | Linuxize",
+          "url": "https://linuxize.com/post/linux-cut-command/"
+        },
+        {
+          "id": "Z5Mf_e5G24IkmxEHgYBe2-res-2",
+          "type": "article",
+          "title": "Linux cut Command: Text Cutting",
+          "url": "https://labex.io/tutorials/linux-linux-cut-command-text-cutting-219187"
+        }
+      ]
+    },
+    "rOGnHbGIr3xPCFdpkqoeK": {
+      "id": "rOGnHbGIr3xPCFdpkqoeK",
+      "slug": "debugging",
+      "title": "Debugging",
+      "description": "Shell script debugging in Linux uses tools like bash's `-x` option for execution traces, `trap`, `set` commands, and external tools like `shellcheck`. Use `#!/bin/bash -x` in scripts or `bash -x script.sh` from command line for tracing. These debugging options help detect, trace, and fix errors to make scripts more efficient and error-proof.",
+      "resources": [
+        {
+          "id": "rOGnHbGIr3xPCFdpkqoeK-res-1",
+          "type": "article",
+          "title": "How To Debug a Bash Shell Script Under Linux or UNIX",
+          "url": "https://www.cyberciti.biz/tips/debugging-shell-script.html"
+        },
+        {
+          "id": "rOGnHbGIr3xPCFdpkqoeK-res-2",
+          "type": "article",
+          "title": "How to Debug a Bash Shell Script in Linux",
+          "url": "https://www.linuxtechi.com/debugging-shell-scripts-in-linux/"
+        },
+        {
+          "id": "rOGnHbGIr3xPCFdpkqoeK-res-3",
+          "type": "article",
+          "title": "How to Debug Bash Scripts",
+          "url": "https://thelinuxcode.com/debug-bash-script/"
+        }
+      ]
+    },
+    "X6Jw95kbyPgsDNRhvkQP9": {
+      "id": "X6Jw95kbyPgsDNRhvkQP9",
+      "slug": "dhcp",
+      "title": "DHCP",
+      "description": "DHCP (Dynamic Host Configuration Protocol) automatically allocates IP addresses and network configuration to clients, ensuring unique addresses for each machine. In Linux, install with `sudo apt-get install isc-dhcp-server` and configure via `/etc/dhcp/dhcpd.conf`. DHCP servers require static IPs for effective management and can handle DNS and network data. The DHCP server effectively manages the IP addresses and information related to them, making sure that each client machine gets a unique IP and all the correct network information.",
+      "resources": [
+        {
+          "id": "X6Jw95kbyPgsDNRhvkQP9-res-1",
+          "type": "article",
+          "title": "Dynamic Host Configuration Protocol - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol"
+        },
+        {
+          "id": "X6Jw95kbyPgsDNRhvkQP9-res-2",
+          "type": "article",
+          "title": "DHCP Protocol: How Dynamic Host Configuration Protocol Works",
+          "url": "https://network-guides.com/dhcp-protocol/"
+        }
+      ]
+    },
+    "3fzuXKH7az_LVnmnoXB1p": {
+      "id": "3fzuXKH7az_LVnmnoXB1p",
+      "slug": "directory-hierarchy-overview",
+      "title": "Understanding Directory Hierarchy",
+      "description": "In Linux, understanding the directory hierarchy is crucial for efficient navigation and file management. A Linux system's directory structure, also known as the Filesystem Hierarchy Standard (FHS), is a defined tree structure that helps to prevent files from being scattered all over the system and instead organise them in a logical and easy-to-navigate manner.",
+      "resources": [
+        {
+          "id": "3fzuXKH7az_LVnmnoXB1p-res-1",
+          "type": "article",
+          "title": "Linux Directory Structure Explained for Beginners",
+          "url": "https://linuxhandbook.com/linux-directory-structure/"
+        },
+        {
+          "id": "3fzuXKH7az_LVnmnoXB1p-res-2",
+          "type": "article",
+          "title": "Overview of File System Hierarchy Standard (FHS)",
+          "url": "https://access.redhat.com/documentation/ru-ru/red_hat_enterprise_linux/4/html/reference_guide/s1-filesystem-fhs#s3-filesystem-usr"
+        },
+        {
+          "id": "3fzuXKH7az_LVnmnoXB1p-res-3",
+          "type": "video",
+          "title": "The Linux File System Explained in 1,233 Seconds",
+          "url": "https://youtu.be/A3G-3hp88mo?si=sTJTSzubdb0Vizjr"
+        }
+      ]
+    },
+    "Fn_uYKigJRgb7r_iYGVBr": {
+      "id": "Fn_uYKigJRgb7r_iYGVBr",
+      "slug": "disks-and-filesystems",
+      "title": "Disks and Filesystems",
+      "description": "Linux uses various filesystems to organize, store, and retrieve data from storage devices. Popular filesystems include EXT4 (robust for Linux volumes), FAT32 (compatible with all OS for removable media), NTFS, and Btrfs. Each has specific advantages and use cases. Use `df -T` command to display filesystem types, disk space usage, and mounted device information.",
+      "resources": [
+        {
+          "id": "Fn_uYKigJRgb7r_iYGVBr-res-1",
+          "type": "article",
+          "title": "Partitions And Filesystems In Linux - Introduction",
+          "url": "https://www.linuxfordevices.com/tutorials/linux/partitions-and-filesystems"
+        },
+        {
+          "id": "Fn_uYKigJRgb7r_iYGVBr-res-2",
+          "type": "article",
+          "title": "Overview of File System Hierarchy Standard (FHS)",
+          "url": "https://access.redhat.com/documentation/ru-ru/red_hat_enterprise_linux/4/html/reference_guide/s1-filesystem-fhs#s3-filesystem-usr"
+        },
+        {
+          "id": "Fn_uYKigJRgb7r_iYGVBr-res-3",
+          "type": "article",
+          "title": "Understanding Linux Filesystems: Inodes, Block Sizes, and Data",
+          "url": "https://www.linuxjournal.com/content/understanding-linux-filesystems-inodes-block-sizes-and-data-structures"
+        }
+      ]
+    },
+    "f5oQYhmjNM2_FD7Qe1zGK": {
+      "id": "f5oQYhmjNM2_FD7Qe1zGK",
+      "slug": "dns-resolution",
+      "title": "DNS Resolution",
+      "description": "DNS (Domain Name System) converts hostnames to IP addresses, enabling users to access websites without remembering numeric addresses. Linux systems use `/etc/resolv.conf` to configure DNS resolution. Applications consult the DNS resolver, which communicates with DNS servers for address translation. Use `nslookup` or `dig` commands to query DNS and troubleshoot network connectivity issues.",
+      "resources": [
+        {
+          "id": "f5oQYhmjNM2_FD7Qe1zGK-res-1",
+          "type": "article",
+          "title": "Setup DNS Resolution With \"resolv.conf\" in Examples",
+          "url": "https://www.shellhacks.com/setup-dns-resolution-resolvconf-example/"
+        },
+        {
+          "id": "f5oQYhmjNM2_FD7Qe1zGK-res-2",
+          "type": "article",
+          "title": "DNS Resolution",
+          "url": "https://wiki.archlinux.org/title/Domain_name_resolution"
+        },
+        {
+          "id": "f5oQYhmjNM2_FD7Qe1zGK-res-3",
+          "type": "article",
+          "title": "nslookup command",
+          "url": "https://linuxconfig.org/nslookup-linux-command"
+        },
+        {
+          "id": "f5oQYhmjNM2_FD7Qe1zGK-res-4",
+          "type": "article",
+          "title": "dig command",
+          "url": "https://linuxhandbook.com/dig-command/"
+        }
+      ]
+    },
+    "MfengY3ouz6sSOx3PXYf8": {
+      "id": "MfengY3ouz6sSOx3PXYf8",
+      "slug": "docker",
+      "title": "Docker",
+      "description": "Docker is an open-source containerization platform that uses OS-level virtualization to package applications with dependencies into lightweight containers. In Linux, Docker containers share the kernel and use features like namespaces and cgroups for isolation. This provides less overhead than traditional VMs while enabling consistent deployment across environments.",
+      "resources": [
+        {
+          "id": "MfengY3ouz6sSOx3PXYf8-res-1",
+          "type": "article",
+          "title": "Visit Dedicated Docker Roadmap",
+          "url": "https://roadmap.sh/docker"
+        },
+        {
+          "id": "MfengY3ouz6sSOx3PXYf8-res-2",
+          "type": "article",
+          "title": "Docker",
+          "url": "https://docker.com"
+        },
+        {
+          "id": "MfengY3ouz6sSOx3PXYf8-res-3",
+          "type": "article",
+          "title": "Docker Documentation",
+          "url": "https://docs.docker.com/"
+        },
+        {
+          "id": "MfengY3ouz6sSOx3PXYf8-res-4",
+          "type": "article",
+          "title": "How To Install and Use Docker on Ubuntu",
+          "url": "https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04"
+        }
+      ]
+    },
+    "HGmeYvRf7_XusZl_K4x9k": {
+      "id": "HGmeYvRf7_XusZl_K4x9k",
+      "slug": "editing-files",
+      "title": "Editing Files",
+      "description": "Linux, like other operating systems, allows file editing for numerous purposes, whether you need to configure some system functionality or writing scripts. There's a variety of text editors available in Linux by default, these include: `nano`, `vi/vim`, `emacs`, and `gedit`. Each of these has its own learning curve and set of commands.",
+      "resources": [
+        {
+          "id": "HGmeYvRf7_XusZl_K4x9k-res-1",
+          "type": "article",
+          "title": "Editing Files in Linux Command Line",
+          "url": "https://itsfoss.com/edit-files-linux/"
+        },
+        {
+          "id": "HGmeYvRf7_XusZl_K4x9k-res-2",
+          "type": "article",
+          "title": "The Complete Guide to Text Editing in Linux with Nano and Vim",
+          "url": "https://thelinuxcode.com/how-to-edit-file-in-linux/"
+        },
+        {
+          "id": "HGmeYvRf7_XusZl_K4x9k-res-3",
+          "type": "article",
+          "title": "Vim Tutorial for Beginners",
+          "url": "https://linuxconfig.org/vim-tutorial"
+        }
+      ]
+    },
+    "zwXEmpPYjA7_msS43z7I0": {
+      "id": "zwXEmpPYjA7_msS43z7I0",
+      "slug": "environment-variables",
+      "title": "Environment Variables",
+      "description": "Environment variables are dynamic named values that can affect the behavior of running processes in a shell. They exist in every shell session. A shell session's environment includes, but is not limited to, the user's home directory, command search path, terminal type, and program preferences.",
+      "resources": [
+        {
+          "id": "zwXEmpPYjA7_msS43z7I0-res-1",
+          "type": "article",
+          "title": "Environment Variables in Linux",
+          "url": "https://labex.io/tutorials/linux-environment-variables-in-linux-385274"
+        },
+        {
+          "id": "zwXEmpPYjA7_msS43z7I0-res-2",
+          "type": "article",
+          "title": "Linux Environment Variables List, Set, Create & Remove",
+          "url": "https://www.computernetworkingnotes.com/linux-tutorials/linux-environment-variables-list-set-create-remove.html"
+        },
+        {
+          "id": "zwXEmpPYjA7_msS43z7I0-res-3",
+          "type": "article",
+          "title": "How to Set and List Environment Variables in Linux",
+          "url": "https://linuxize.com/post/how-to-set-and-list-environment-variables-in-linux/"
+        }
+      ]
+    },
+    "4ees23q281J1DPVAc7iXd": {
+      "id": "4ees23q281J1DPVAc7iXd",
+      "slug": "ethernet--arprarp",
+      "title": "Ethernet, ARP and RARP",
+      "description": "Three crucial Linux networking components: Ethernet enables LAN device communication, ARP (Address Resolution Protocol) translates IP addresses to MAC addresses for direct network communication, and RARP (Reverse ARP) converts MAC addresses to IP addresses when devices know their MAC but need their IP. Essential for diagnosing and managing Linux networking issues.",
+      "resources": [
+        {
+          "id": "4ees23q281J1DPVAc7iXd-res-1",
+          "type": "article",
+          "title": "A Comprehensive guide to Linux Networking",
+          "url": "https://centlinux.com/linux-networking/"
+        },
+        {
+          "id": "4ees23q281J1DPVAc7iXd-res-2",
+          "type": "article",
+          "title": "A Beginner's Guide to Linux Networking Fundamentals",
+          "url": "https://dev.to/iaadidev/a-beginners-guide-to-linux-networking-fundamentals-dev-ops-prerequisite-7-434o"
+        },
+        {
+          "id": "4ees23q281J1DPVAc7iXd-res-3",
+          "type": "video",
+          "title": "ARP Explained - Address Resolution Protocol",
+          "url": "https://www.youtube.com/watch?v=cn8Zxh9bPio"
+        },
+        {
+          "id": "4ees23q281J1DPVAc7iXd-res-4",
+          "type": "video",
+          "title": "What is Ethernet?",
+          "url": "https://www.youtube.com/watch?v=HLziLmaYsO0"
+        }
+      ]
+    },
+    "TZuDVFS7DZFBgaSYYXoGe": {
+      "id": "TZuDVFS7DZFBgaSYYXoGe",
+      "slug": "expand",
+      "title": "Expand",
+      "description": "The `expand` command converts tabs to spaces in text files, useful for consistent formatting across different systems and editors. Default conversion is 8 spaces per tab. Use `expand filename` for basic conversion or `expand -t 4 filename` to specify 4 spaces per tab. Essential for maintaining code readability and consistent indentation in shell scripts.",
+      "resources": [
+        {
+          "id": "TZuDVFS7DZFBgaSYYXoGe-res-1",
+          "type": "article",
+          "title": "expand — Linux manual page",
+          "url": "https://www.man7.org/linux/man-pages/man1/expand.1.html"
+        },
+        {
+          "id": "TZuDVFS7DZFBgaSYYXoGe-res-2",
+          "type": "article",
+          "title": "How to Use the 'expand' Command (with examples)",
+          "url": "https://commandmasters.com/commands/expand-common/"
+        }
+      ]
+    },
+    "TnrT-cqMA8urew9nLv0Ns": {
+      "id": "TnrT-cqMA8urew9nLv0Ns",
+      "slug": "file-permissions",
+      "title": "File Permissions",
+      "description": "File permissions control who can read, write, or execute a file, split into three categories: owner, group, and others. Each category can have any combination of read (r), write (w), and execute (x) permissions, often represented as a numeric value like 755. The `chmod` command changes these permissions, while `chown` changes which user or group owns the file.",
+      "resources": [
+        {
+          "id": "TnrT-cqMA8urew9nLv0Ns-res-1",
+          "type": "article",
+          "title": "Linux File Permissions",
+          "url": "https://linuxhandbook.com/linux-file-permissions/"
+        },
+        {
+          "id": "TnrT-cqMA8urew9nLv0Ns-res-2",
+          "type": "article",
+          "title": "Linux Permissions of Files",
+          "url": "https://labex.io/tutorials/linux-permissions-of-files-270252"
+        },
+        {
+          "id": "TnrT-cqMA8urew9nLv0Ns-res-3",
+          "type": "video",
+          "title": "Linux File Permissions in 5 Minutes",
+          "url": "https://www.youtube.com/watch?v=LnKoncbQBsM"
+        }
+      ]
+    },
+    "tVrbVcNEfc11FbEUoO2Dk": {
+      "id": "tVrbVcNEfc11FbEUoO2Dk",
+      "slug": "file-transfer",
+      "title": "File Transfer",
+      "description": "Linux file transfer involves copying or moving files between systems over networks. Command-line tools support protocols like FTP, HTTP, SCP, SFTP, and NFS. Common commands include `scp`, `rsync`, and `wget`. Example: `scp /local/file username@remote:/destination` copies files to remote systems. These tools make network file sharing streamlined, easier, and more secure.",
+      "resources": [
+        {
+          "id": "tVrbVcNEfc11FbEUoO2Dk-res-1",
+          "type": "article",
+          "title": "How to Use Linux FTP Command to Transfer Files",
+          "url": "https://linuxize.com/post/how-to-use-linux-ftp-command-to-transfer-files/"
+        },
+        {
+          "id": "tVrbVcNEfc11FbEUoO2Dk-res-2",
+          "type": "article",
+          "title": "Rsync Command in Linux with Examples",
+          "url": "https://linuxize.com/post/how-to-use-rsync-for-local-and-remote-data-transfer-and-synchronization/"
+        },
+        {
+          "id": "tVrbVcNEfc11FbEUoO2Dk-res-3",
+          "type": "article",
+          "title": "Using scp Command in Linux",
+          "url": "https://linuxhandbook.com/scp-command/"
+        },
+        {
+          "id": "tVrbVcNEfc11FbEUoO2Dk-res-4",
+          "type": "article",
+          "title": "Wget Command in Linux with Examples",
+          "url": "https://linuxize.com/post/wget-command-examples/"
+        }
+      ]
+    },
+    "LFPhSHOhUqM98fUxMjQUw": {
+      "id": "LFPhSHOhUqM98fUxMjQUw",
+      "slug": "filesystems",
+      "title": "Filesystems",
+      "description": "Filesystems define how files are stored and organized on Linux storage disks, ensuring data integrity, reliability, and efficient access. Linux supports various types like EXT4, XFS, BTRFS with different performance and recovery capabilities. All files start from root directory '/'. Use `df -T` to display filesystem types and disk usage status. Essential for Linux administration tasks.",
+      "resources": [
+        {
+          "id": "LFPhSHOhUqM98fUxMjQUw-res-1",
+          "type": "article",
+          "title": "Filesystems in the Linux Kernel",
+          "url": "https://docs.kernel.org/filesystems/index.html"
+        },
+        {
+          "id": "LFPhSHOhUqM98fUxMjQUw-res-2",
+          "type": "article",
+          "title": "df command in Linux (Check Disk Space)",
+          "url": "https://linuxize.com/post/how-to-check-disk-space-in-linux-using-the-df-command/"
+        },
+        {
+          "id": "LFPhSHOhUqM98fUxMjQUw-res-3",
+          "type": "article",
+          "title": "Partitions And Filesystems In Linux - Introduction",
+          "url": "https://www.linuxfordevices.com/tutorials/linux/partitions-and-filesystems"
+        }
+      ]
+    },
+    "Z23eJZjmWoeXQuezR9AhG": {
+      "id": "Z23eJZjmWoeXQuezR9AhG",
+      "slug": "finding--installing-packages",
+      "title": "Finding and Installing Packages",
+      "description": "Linux package managers like `apt`, `yum`, and `dnf` automate software installation, upgrading, configuring, and removal. Debian-based systems: `sudo apt-get update && sudo apt-get install package-name`. Fedora/CentOS: `sudo dnf update && sudo dnf install package-name`. Package management eliminates manual compilation from source code. Root permissions required for installation.",
+      "resources": [
+        {
+          "id": "Z23eJZjmWoeXQuezR9AhG-res-1",
+          "type": "article",
+          "title": "APT Package Manager",
+          "url": "https://www.debian.org/doc/manuals/apt-guide/index.en.html"
+        },
+        {
+          "id": "Z23eJZjmWoeXQuezR9AhG-res-2",
+          "type": "article",
+          "title": "Yum Package Manager",
+          "url": "http://yum.baseurl.org/"
+        },
+        {
+          "id": "Z23eJZjmWoeXQuezR9AhG-res-3",
+          "type": "article",
+          "title": "Using the DNF Software Package Manager",
+          "url": "https://docs.fedoraproject.org/en-US/quick-docs/dnf/"
+        },
+        {
+          "id": "Z23eJZjmWoeXQuezR9AhG-res-4",
+          "type": "article",
+          "title": "Linux Package Manager Explained",
+          "url": "https://geekflare.com/dev/linux-package-manager-explained/"
+        },
+        {
+          "id": "Z23eJZjmWoeXQuezR9AhG-res-5",
+          "type": "article",
+          "title": "8 Best Package Manager for Linux",
+          "url": "https://linuxsimply.com/linux-basics/package-management/best-package-manager/"
+        }
+      ]
+    },
+    "umlhxidsvtZG9k40Ca0Ac": {
+      "id": "umlhxidsvtZG9k40Ca0Ac",
+      "slug": "grep",
+      "title": "GREP",
+      "description": "GREP (Global Regular Expression Print) is a powerful text search utility that finds and filters text matching specific patterns in files. It searches line by line and prints matching lines to the screen. Essential for shell scripts and command-line operations. Example: `grep \"pattern\" fileName` searches for specified patterns. Alternative: `ripgrep` offers enhanced performance and features.",
+      "resources": [
+        {
+          "id": "umlhxidsvtZG9k40Ca0Ac-res-1",
+          "type": "article",
+          "title": "Ripgrep: GitHub Repository",
+          "url": "https://github.com/BurntSushi/ripgrep"
+        },
+        {
+          "id": "umlhxidsvtZG9k40Ca0Ac-res-2",
+          "type": "article",
+          "title": "Grep and Regular Expressions for Beginners",
+          "url": "https://ryanstutorials.net/linuxtutorial/grep.php"
+        },
+        {
+          "id": "umlhxidsvtZG9k40Ca0Ac-res-3",
+          "type": "article",
+          "title": "Linux grep Command: Pattern Searching",
+          "url": "https://labex.io/tutorials/linux-linux-grep-command-pattern-searching-219192"
+        }
+      ]
+    },
+    "6xdkFk_GT93MigeTSSGCp": {
+      "id": "6xdkFk_GT93MigeTSSGCp",
+      "slug": "head",
+      "title": "Head Command",
+      "description": "The `head` command in Linux is a text processing utility that allows a user to output the first part (or the \"head\") of files. It is commonly used for previewing the start of a file without loading the entire document into memory, which can act as an efficient way of quickly examining the data in very large files. By default, the `head` command prints the first 10 lines of each file to standard output, which is the terminal in most systems.",
+      "resources": [
+        {
+          "id": "6xdkFk_GT93MigeTSSGCp-res-1",
+          "type": "article",
+          "title": "Head Command in Linux - 5 Essential Examples",
+          "url": "https://linuxhandbook.com/head-command/"
+        },
+        {
+          "id": "6xdkFk_GT93MigeTSSGCp-res-2",
+          "type": "article",
+          "title": "Linux head Command: File Beginning Display",
+          "url": "https://labex.io/tutorials/linux-linux-head-command-file-beginning-display-214302"
+        }
+      ]
+    },
+    "Ymf3u_sG1dyt8ZR_LbwqJ": {
+      "id": "Ymf3u_sG1dyt8ZR_LbwqJ",
+      "slug": "icmp",
+      "title": "ICMP",
+      "description": "Internet Control Message Protocol (ICMP) is a supportive protocol used by network devices to communicate error messages and operational information. Essential for Linux network troubleshooting, ICMP enables tools like `ping` and `traceroute` to diagnose network connectivity and routing issues. Use `ping www.google.com` to send ICMP echo requests and test network reachability effectively.",
+      "resources": [
+        {
+          "id": "Ymf3u_sG1dyt8ZR_LbwqJ-res-1",
+          "type": "article",
+          "title": "icmp(7) — Linux manual page",
+          "url": "https://www.man7.org/linux/man-pages/man7/icmp.7.html"
+        },
+        {
+          "id": "Ymf3u_sG1dyt8ZR_LbwqJ-res-2",
+          "type": "article",
+          "title": "Understanding ICMP Packets with Examples",
+          "url": "https://www.howtouselinux.com/post/icmp-packets"
+        }
+      ]
+    },
+    "AwQJYL60NNbA5_z7iLcM7": {
+      "id": "AwQJYL60NNbA5_z7iLcM7",
+      "slug": "inodes",
+      "title": "Inodes",
+      "description": "An inode (index node) is a data structure in Linux filesystems that stores metadata about files and directories except their names and actual data. Contains file size, owner, permissions, timestamps, and more. Each file has a unique inode number for identification. Understanding inodes helps with advanced operations like linking and file recovery. Use `ls -i filename` to view inode numbers.",
+      "resources": [
+        {
+          "id": "AwQJYL60NNbA5_z7iLcM7-res-1",
+          "type": "article",
+          "title": "Introduction to Inodes",
+          "url": "https://linuxjourney.com/lesson/inodes"
+        },
+        {
+          "id": "AwQJYL60NNbA5_z7iLcM7-res-2",
+          "type": "article",
+          "title": "Index Nodes — The Linux Kernel documentation",
+          "url": "https://www.kernel.org/doc/html/latest/filesystems/ext4/inodes.html?highlight=inode"
+        }
+      ]
+    },
+    "xEHiB-egkkcBuZmgMoqHT": {
+      "id": "xEHiB-egkkcBuZmgMoqHT",
+      "slug": "install--remove--upgrade-packages",
+      "title": "Install, Remove, and Upgrade Packages",
+      "description": "Linux package management handles installing, removing, and upgrading pre-compiled software modules. Different distributions use specific package managers: `apt` (Debian/Ubuntu), `yum`/`dnf` (Fedora/RHEL/CentOS), `zypper` (SUSE). Example installation: `sudo apt-get install packagename`. Each manager has specific commands for removal and upgrades. Critical skill for effective Linux system administration.",
+      "resources": []
+    },
+    "D0yUzzaJsfhtdBWMtquAj": {
+      "id": "D0yUzzaJsfhtdBWMtquAj",
+      "slug": "ip-routing",
+      "title": "IP Routing",
+      "description": "IP routing in Linux involves configuring routing tables and network routes for packet forwarding across networks. The kernel handles route selection to send packets to their destinations. Use the `ip` command (replacing deprecated `ifconfig`) for network configuration. Example: `ip route show` displays all kernel-known routes for network troubleshooting and management.",
+      "resources": [
+        {
+          "id": "D0yUzzaJsfhtdBWMtquAj-res-1",
+          "type": "article",
+          "title": "Linux Set Up Routing with ip Command",
+          "url": "https://www.cyberciti.biz/faq/howto-linux-configuring-default-route-with-ipcommand/"
+        },
+        {
+          "id": "D0yUzzaJsfhtdBWMtquAj-res-2",
+          "type": "article",
+          "title": "Linux Networking: A Simplified Guide to IP Addresses",
+          "url": "https://www.linuxjournal.com/content/linux-networking-simplified-guide-ip-addresses-and-routing"
+        }
+      ]
+    },
+    "vfcCS1GoyKpU1rQaE8I5r": {
+      "id": "vfcCS1GoyKpU1rQaE8I5r",
+      "slug": "join",
+      "title": "join Command",
+      "description": "`join` is a powerful text processing command in Linux. It lets you combine lines of two files on a common field, which works similar to the 'Join' operation in SQL. It's particularly useful when you're dealing with large volumes of data. Specifically, `join` uses the lines from two files to form lines that contain pairs of lines related in a meaningful way.",
+      "resources": [
+        {
+          "id": "vfcCS1GoyKpU1rQaE8I5r-res-1",
+          "type": "article",
+          "title": "join(1) — Linux manual page",
+          "url": "https://www.man7.org/linux/man-pages/man1/join.1.html"
+        },
+        {
+          "id": "vfcCS1GoyKpU1rQaE8I5r-res-2",
+          "type": "article",
+          "title": "join command in Linux with examples",
+          "url": "https://linuxconfig.org/join"
+        },
+        {
+          "id": "vfcCS1GoyKpU1rQaE8I5r-res-3",
+          "type": "article",
+          "title": "Linux join Command: File Joining",
+          "url": "https://labex.io/tutorials/linux-linux-join-command-file-joining-219193"
+        }
+      ]
+    },
+    "0FLUI9r7znMqi6YKReLzD": {
+      "id": "0FLUI9r7znMqi6YKReLzD",
+      "slug": "killing-processes",
+      "title": "Kill Processes",
+      "description": "The `kill` command terminates processes manually by sending specific signals to Process IDs (PIDs). Used when processes behave unexpectedly due to system bugs or accidental initiation. Syntax: `kill [signal or option] PID(s)`. Essential for Linux process management, allowing administrators to stop, pause, or terminate problematic processes and maintain system stability.",
+      "resources": [
+        {
+          "id": "0FLUI9r7znMqi6YKReLzD-res-1",
+          "type": "article",
+          "title": "Using Kill Command in Linux",
+          "url": "https://linuxhandbook.com/kill-command/"
+        },
+        {
+          "id": "0FLUI9r7znMqi6YKReLzD-res-2",
+          "type": "article",
+          "title": "Kill Command in Linux",
+          "url": "https://linuxize.com/post/kill-command-in-linux/"
+        }
+      ]
+    },
+    "lf3_CRyOI2ZXGzz5ff451": {
+      "id": "lf3_CRyOI2ZXGzz5ff451",
+      "slug": "listing--finding-processes",
+      "title": "Listing and Finding Processes",
+      "description": "Linux processes can be monitored using the `proc` virtual filesystem and commands like `ps`, `top`, and `htop`. Use `ps -ef` for process snapshots, `top`/`htop` for real-time views. The `/proc` directory contains detailed process information. View specific process details with `cat /proc/{PID}/status`. Essential for system performance monitoring and troubleshooting.",
+      "resources": [
+        {
+          "id": "lf3_CRyOI2ZXGzz5ff451-res-1",
+          "type": "article",
+          "title": "The /proc File System",
+          "url": "https://www.kernel.org/doc/html/latest/filesystems/proc.html"
+        },
+        {
+          "id": "lf3_CRyOI2ZXGzz5ff451-res-2",
+          "type": "article",
+          "title": "What is a Process in Linux/Unix?",
+          "url": "https://www.scaler.com/topics/linux-process/"
+        },
+        {
+          "id": "lf3_CRyOI2ZXGzz5ff451-res-3",
+          "type": "article",
+          "title": "Exploring the Linux /proc Filesystem",
+          "url": "https://www.redhat.com/en/blog/linux-proc-filesystem"
+        }
+      ]
+    },
+    "48wAoAAlCNt3j5mBpKTWC": {
+      "id": "48wAoAAlCNt3j5mBpKTWC",
+      "slug": "listing-installed-packages",
+      "title": "Listing Installed Packages",
+      "description": "Linux distributions use different package managers: `apt` (Debian-based), `dnf` (Fedora), `zypper` (OpenSUSE), `pacman` (Arch). Listing installed packages helps with auditing software and deployment automation. Commands: `sudo apt list --installed` for apt systems, `dnf list installed` for dnf systems. Each distribution has its own syntax for this command.",
+      "resources": [
+        {
+          "id": "48wAoAAlCNt3j5mBpKTWC-res-1",
+          "type": "article",
+          "title": "APT Package Manager",
+          "url": "https://www.debian.org/doc/manuals/apt-guide/index.en.html"
+        },
+        {
+          "id": "48wAoAAlCNt3j5mBpKTWC-res-2",
+          "type": "article",
+          "title": "5 ways to list installed packages in Linux",
+          "url": "https://www.howtouselinux.com/post/list-installed-packages-in-linux"
+        },
+        {
+          "id": "48wAoAAlCNt3j5mBpKTWC-res-3",
+          "type": "article",
+          "title": "Linux Package Manager Explained",
+          "url": "https://geekflare.com/dev/linux-package-manager-explained/"
+        }
+      ]
+    },
+    "-pW7R76yNIeGf7TQoX4QL": {
+      "id": "-pW7R76yNIeGf7TQoX4QL",
+      "slug": "literals",
+      "title": "Literals",
+      "description": "Shell literals are fixed values in source code including string literals (enclosed in quotes), numeric literals (sequences of digits), and boolean literals (1=true, 0=false). String examples: 'Hello, world!' or \"Hello, world!\". Numeric examples: 25, 100, 1234. Understanding literals is fundamental for shell scripting readability and functionality in Linux programming.",
+      "resources": [
+        {
+          "id": "-pW7R76yNIeGf7TQoX4QL-res-1",
+          "type": "article",
+          "title": "Bash Tutorial - Quoting literal text",
+          "url": "https://riptutorial.com/bash/example/2465/quoting-literal-text"
+        },
+        {
+          "id": "-pW7R76yNIeGf7TQoX4QL-res-2",
+          "type": "article",
+          "title": "Handling Special Characters in Shell Scripts",
+          "url": "https://www.baeldung.com/linux/special-characters-in-shell-scripts"
+        }
+      ]
+    },
+    "ru7mpLQZKE1QxAdiA1sS3": {
+      "id": "ru7mpLQZKE1QxAdiA1sS3",
+      "slug": "logs",
+      "title": "System Logs",
+      "description": "Linux maintains logs documenting system activities, errors, and kernel messages. Boot logs record all operations during system startup for troubleshooting. Use `dmesg` to view kernel ring buffer messages in real-time, or access logs in `/var/log`. Systemd uses `journalctl` for logging. Log levels range from emergency (system unusable) to debug messages.",
+      "resources": [
+        {
+          "id": "ru7mpLQZKE1QxAdiA1sS3-res-1",
+          "type": "article",
+          "title": "How to Use journalctl Command to Analyze Logs in Linux",
+          "url": "https://linuxhandbook.com/journalctl-command/"
+        },
+        {
+          "id": "ru7mpLQZKE1QxAdiA1sS3-res-2",
+          "type": "article",
+          "title": "How to Check System Logs on Linux",
+          "url": "https://www.fosslinux.com/8984/how-to-check-system-logs-on-linux-complete-usage-guide.htm"
+        },
+        {
+          "id": "ru7mpLQZKE1QxAdiA1sS3-res-3",
+          "type": "article",
+          "title": "What is dmesg in Linux, And How Do I Use It?",
+          "url": "https://linuxconfig.org/what-is-dmesg-and-how-do-i-use-it"
+        }
+      ]
+    },
+    "WJT-yrMq8cEI87RHWA2jY": {
+      "id": "WJT-yrMq8cEI87RHWA2jY",
+      "slug": "loops",
+      "title": "Loops",
+      "description": "Shell loops automate repetitive tasks with three types: `for` (iterates over lists), `while` (executes while condition true), `until` (runs until condition true). Example: `for i in 1 2 3; do echo \"$i\"; done` outputs each number. Essential for script efficiency, automation, and effective Linux shell programming.",
+      "resources": [
+        {
+          "id": "WJT-yrMq8cEI87RHWA2jY-res-1",
+          "type": "article",
+          "title": "Using For, While and Until Loops in Bash",
+          "url": "https://linuxhandbook.com/bash-loops/"
+        },
+        {
+          "id": "WJT-yrMq8cEI87RHWA2jY-res-2",
+          "type": "article",
+          "title": "Bash Loops with examples",
+          "url": "https://linuxconfig.org/bash-loops-with-examples"
+        }
+      ]
+    },
+    "I3LNa1cM_zRkBy8wKdz3g": {
+      "id": "I3LNa1cM_zRkBy8wKdz3g",
+      "slug": "lvm",
+      "title": "LVM (Logical Volume Manager)",
+      "description": "LVM provides logical volume management through device mapper framework, offering flexible disk management with resizing, mirroring, and moving capabilities. Three levels: Physical Volumes (PVs - actual disks), Volume Groups (VGs - storage pools), and Logical Volumes (LVs - carved portions). Create with `pvcreate`, `vgcreate`, and `lvcreate` commands. Essential for enterprise storage systems.",
+      "resources": [
+        {
+          "id": "I3LNa1cM_zRkBy8wKdz3g-res-1",
+          "type": "article",
+          "title": "The Complete Beginner's Guide to LVM in Linux",
+          "url": "https://linuxhandbook.com/lvm-guide/"
+        },
+        {
+          "id": "I3LNa1cM_zRkBy8wKdz3g-res-2",
+          "type": "article",
+          "title": "A Beginner's Guide to LVM in Linux - It's FOSS",
+          "url": "https://itsfoss.com/lvm-guide/"
+        }
+      ]
+    },
+    "L6RMExeqi9501y-eCHDt1": {
+      "id": "L6RMExeqi9501y-eCHDt1",
+      "slug": "managing-permissions",
+      "title": "Permissions",
+      "description": "Linux permissions control file and directory access for users, groups, and others with read, write, and execute types. Commands include `chmod` (change permissions), `chown` (change owner), and `chgrp` (change group). Proper permission management is crucial for system security and organization. Essential for maintaining controlled access to system resources.",
+      "resources": [
+        {
+          "id": "L6RMExeqi9501y-eCHDt1-res-1",
+          "type": "article",
+          "title": "Understanding Linux File Permissions",
+          "url": "https://linuxize.com/post/understanding-linux-file-permissions/"
+        },
+        {
+          "id": "L6RMExeqi9501y-eCHDt1-res-2",
+          "type": "article",
+          "title": "Linux File Permissions",
+          "url": "https://linuxhandbook.com/linux-file-permissions/"
+        },
+        {
+          "id": "L6RMExeqi9501y-eCHDt1-res-3",
+          "type": "article",
+          "title": "Linux Permissions of Files",
+          "url": "https://labex.io/tutorials/linux-permissions-of-files-270252"
+        },
+        {
+          "id": "L6RMExeqi9501y-eCHDt1-res-4",
+          "type": "video",
+          "title": "Linux File Permissions in 5 Minutes",
+          "url": "https://www.youtube.com/watch?v=LnKoncbQBsM"
+        }
+      ]
+    },
+    "zmb5lK_EGMAChPoPvP9E0": {
+      "id": "zmb5lK_EGMAChPoPvP9E0",
+      "slug": "mounts",
+      "title": "Mounts",
+      "description": "Mounting in Linux attaches filesystems to specific directories (mount points) in the directory tree, allowing the OS to access data on storage devices. The `mount` command performs this operation. Example: `mount /dev/sdb1 /mnt` mounts second partition to `/mnt` directory. The `/mnt` directory is conventionally used for temporary mounting operations. Essential for Linux disk and filesystem management.",
+      "resources": [
+        {
+          "id": "zmb5lK_EGMAChPoPvP9E0-res-1",
+          "type": "article",
+          "title": "The mount command manual page",
+          "url": "https://man7.org/linux/man-pages/man8/mount.8.html"
+        },
+        {
+          "id": "zmb5lK_EGMAChPoPvP9E0-res-2",
+          "type": "article",
+          "title": "Mounting, unmounting and the /mnt directory - The Linux Documentation Project",
+          "url": "https://tldp.org/LDP/Linux-Filesystem-Hierarchy/html/mnt.html"
+        },
+        {
+          "id": "zmb5lK_EGMAChPoPvP9E0-res-3",
+          "type": "article",
+          "title": "Linux mount command with Examples",
+          "url": "https://phoenixnap.com/kb/linux-mount-command"
+        }
+      ]
+    },
+    "q-Ky0ietZGpyUcBQfh-BJ": {
+      "id": "q-Ky0ietZGpyUcBQfh-BJ",
+      "slug": "moving-files--directories",
+      "title": "Moving Files",
+      "description": "In Linux, moving files is an essential task that you will need to perform quite frequently. The `mv` command, short for move, is used to move files and directories from one location to another. The `mv` command can also be used for renaming files in Linux.",
+      "resources": [
+        {
+          "id": "q-Ky0ietZGpyUcBQfh-BJ-res-1",
+          "type": "article",
+          "title": "mv command",
+          "url": "https://linuxhandbook.com/mv-command/"
+        },
+        {
+          "id": "q-Ky0ietZGpyUcBQfh-BJ-res-2",
+          "type": "article",
+          "title": "mv Cheat Sheet",
+          "url": "https://www.commandinline.com/cheat-sheet/mv/"
+        },
+        {
+          "id": "q-Ky0ietZGpyUcBQfh-BJ-res-3",
+          "type": "article",
+          "title": "Linux mv Command: File Moving and Renaming",
+          "url": "https://labex.io/tutorials/linux-linux-mv-command-file-moving-and-renaming-209743"
+        }
+      ]
+    },
+    "yqRwmcZThjQuqh2ao0dWK": {
+      "id": "yqRwmcZThjQuqh2ao0dWK",
+      "slug": "nano",
+      "title": "Nano: A File Editing Tool",
+      "description": "Nano is a popular, user-friendly text editor used for creating and editing files directly within the Linux command line interface (CLI). It is an alternative to editors like `Vi` and `Emacs` and is considered more straightforward for beginners due to its simple and intuitive interface.",
+      "resources": [
+        {
+          "id": "yqRwmcZThjQuqh2ao0dWK-res-1",
+          "type": "article",
+          "title": "nano - Text editor",
+          "url": "https://www.nano-editor.org/"
+        },
+        {
+          "id": "yqRwmcZThjQuqh2ao0dWK-res-2",
+          "type": "article",
+          "title": "Editing Files With Nano in Linux",
+          "url": "https://itsfoss.com/nano-editor-guide/"
+        },
+        {
+          "id": "yqRwmcZThjQuqh2ao0dWK-res-3",
+          "type": "article",
+          "title": "Nano in Linux",
+          "url": "https://ioflood.com/blog/nano-linux-command/"
+        },
+        {
+          "id": "yqRwmcZThjQuqh2ao0dWK-res-4",
+          "type": "video",
+          "title": "Nano editor fundamentals",
+          "url": "https://www.youtube.com/watch?v=gyKiDczLIZ4&ab_channel=HackerSploit"
+        }
+      ]
+    },
+    "y7KjVfSI6CAduyHd4mBFT": {
+      "id": "y7KjVfSI6CAduyHd4mBFT",
+      "slug": "navigation-basics",
+      "title": "Navigation Basics",
+      "description": "In Linux, navigation between directories and files is a fundamental, yet essential function that allows you to exploit the power of the command-line interface (CLI). Mastering the basic Linux navigation commands such as `cd`, `pwd`, `ls`, and `tree` enables you to flawlessly move from one point to another within the filesystem, display the list of files & directories, and understand your position relative to other system components.",
+      "resources": [
+        {
+          "id": "y7KjVfSI6CAduyHd4mBFT-res-1",
+          "type": "course",
+          "title": "Linux for Noobs (Hands-on)",
+          "url": "https://labex.io/courses/linux-for-noobs"
+        },
+        {
+          "id": "y7KjVfSI6CAduyHd4mBFT-res-2",
+          "type": "article",
+          "title": "Linux Filesystem Navigation Basics",
+          "url": "https://linuxconfig.org/filesystem-basics"
+        },
+        {
+          "id": "y7KjVfSI6CAduyHd4mBFT-res-3",
+          "type": "article",
+          "title": "Basic Navigation Commands: cd, ls, and pwd",
+          "url": "https://www.linuxbash.sh/post/basic-navigation-commands-cd-ls-and-pwd"
+        },
+        {
+          "id": "y7KjVfSI6CAduyHd4mBFT-res-4",
+          "type": "article",
+          "title": "Practice on Linux Fundamentals",
+          "url": "https://linuxjourney.com/"
+        },
+        {
+          "id": "y7KjVfSI6CAduyHd4mBFT-res-5",
+          "type": "video",
+          "title": "Linux fundamentals",
+          "url": "https://www.youtube.com/watch?v=kPylihJRG70&t=1381s&ab_channel=TryHackMe"
+        }
+      ]
+    },
+    "bZ8Yj6QfBeDdh8hRM_aZs": {
+      "id": "bZ8Yj6QfBeDdh8hRM_aZs",
+      "slug": "netfilter",
+      "title": "Netfilter",
+      "description": "Netfilter is a Linux kernel framework for manipulating and filtering network packets with hooks at various stages (pre-routing, input, forward, output, post-routing). Used for firewalls and NAT management with iptables configuration. Essential for traffic control, packet modification, logging, and intrusion detection in Linux networking systems.",
+      "resources": [
+        {
+          "id": "bZ8Yj6QfBeDdh8hRM_aZs-res-1",
+          "type": "article",
+          "title": "netfilter/iptables project homepage",
+          "url": "https://netfilter.org/"
+        },
+        {
+          "id": "bZ8Yj6QfBeDdh8hRM_aZs-res-2",
+          "type": "article",
+          "title": "Packet filtering in Linux - iptables, nftables and firewalld",
+          "url": "https://wyssmann.com/blog/2021/07/packet-filtering-in-linux-iptables-nftables-and-firewalld/"
+        }
+      ]
+    },
+    "yrxNYMluJ9OAQCKuM5W1u": {
+      "id": "yrxNYMluJ9OAQCKuM5W1u",
+      "slug": "netstat",
+      "title": "Netstat",
+      "description": "Netstat is a command-line tool for network troubleshooting and performance measurement in Linux. It provides network statistics, open ports, routing table information, and protocol details. Use options like `-n` for numerical addresses, `-c` for continuous monitoring, and `-t`/`-u` for specific protocols. Example: `netstat -n` lists all connections with numerical values.",
+      "resources": [
+        {
+          "id": "yrxNYMluJ9OAQCKuM5W1u-res-1",
+          "type": "article",
+          "title": "Netstat Command in Linux",
+          "url": "https://linuxhandbook.com/netstat-command/"
+        },
+        {
+          "id": "yrxNYMluJ9OAQCKuM5W1u-res-2",
+          "type": "article",
+          "title": "How to Use netstat on Linux",
+          "url": "https://www.howtogeek.com/513003/how-to-use-netstat-on-linux/"
+        }
+      ]
+    },
+    "Mb42VFjCzMZn_PovKIfKx": {
+      "id": "Mb42VFjCzMZn_PovKIfKx",
+      "slug": "networking",
+      "title": "Networking",
+      "description": "Linux networking enables system connections and resource sharing across platforms with robust management tools. Network configurations stored in `/etc/network/interfaces`. Key commands include `ifconfig` (deprecated) and `ip` for interface management. Supports various protocols with excellent scalability. Essential for system connectivity and network troubleshooting. Linux adopts a file-based approach for network configuration, storing network-related settings and configurations in standard files, such as `/etc/network/interfaces` or `/etc/sysconfig/network-scripts/`, depending on the Linux distribution.",
+      "resources": [
+        {
+          "id": "Mb42VFjCzMZn_PovKIfKx-res-1",
+          "type": "article",
+          "title": "A Comprehensive Guide to Linux Networking",
+          "url": "https://centlinux.com/linux-networking/"
+        },
+        {
+          "id": "Mb42VFjCzMZn_PovKIfKx-res-2",
+          "type": "article",
+          "title": "A Beginner's Guide to Linux Networking Fundamentals",
+          "url": "https://dev.to/iaadidev/a-beginners-guide-to-linux-networking-fundamentals-dev-ops-prerequisite-7-434o"
+        },
+        {
+          "id": "Mb42VFjCzMZn_PovKIfKx-res-3",
+          "type": "article",
+          "title": "Practice on Networking Fundamentals",
+          "url": "https://linuxjourney.com/lesson/network-basics"
+        }
+      ]
+    },
+    "YSfGrmT795miIeIZrtC3D": {
+      "id": "YSfGrmT795miIeIZrtC3D",
+      "slug": "nl",
+      "title": "NL (Number Lines)",
+      "description": "The `nl` command numbers lines in text files, providing an overview of line locations. By default, it numbers only non-empty lines, but this behavior can be modified. Syntax: `nl [options] [file_name]`. If no file is specified, nl reads from stdin. Valuable for text processing when line numbers are needed for reference or debugging purposes.",
+      "resources": [
+        {
+          "id": "YSfGrmT795miIeIZrtC3D-res-1",
+          "type": "article",
+          "title": "nl command",
+          "url": "https://www.computerhope.com/unix/nl.htm"
+        },
+        {
+          "id": "YSfGrmT795miIeIZrtC3D-res-2",
+          "type": "article",
+          "title": "Linux nl Command: Line Numbering",
+          "url": "https://labex.io/tutorials/linux-linux-nl-command-line-numbering-210988"
+        },
+        {
+          "id": "YSfGrmT795miIeIZrtC3D-res-3",
+          "type": "article",
+          "title": "Master the Linux 'nl' Command: A Comprehensive Guide",
+          "url": "https://hopeness.medium.com/master-the-linux-nl-command-a-comprehensive-guide-79c6adf50fa9"
+        }
+      ]
+    },
+    "4eINX8jYMJxfYh7ZV47YI": {
+      "id": "4eINX8jYMJxfYh7ZV47YI",
+      "slug": "package-management",
+      "title": "Package Management",
+      "description": "Package management handles software installation, updates, configuration, and removal in Linux. It manages collections of files and tracks software prerequisites automatically. Common package managers include `apt` (Debian-based), `yum`/`dnf` (Red Hat-based), and `pacman` (Arch). Example: `sudo apt install <package-name>` installs packages. Essential for efficient application management.",
+      "resources": [
+        {
+          "id": "4eINX8jYMJxfYh7ZV47YI-res-1",
+          "type": "article",
+          "title": "APT Package Manager",
+          "url": "https://www.debian.org/doc/manuals/apt-guide/index.en.html"
+        },
+        {
+          "id": "4eINX8jYMJxfYh7ZV47YI-res-2",
+          "type": "article",
+          "title": "Yum Package Manager",
+          "url": "http://yum.baseurl.org/"
+        },
+        {
+          "id": "4eINX8jYMJxfYh7ZV47YI-res-3",
+          "type": "article",
+          "title": "Using the DNF Software Package Manager",
+          "url": "https://docs.fedoraproject.org/en-US/quick-docs/dnf/"
+        },
+        {
+          "id": "4eINX8jYMJxfYh7ZV47YI-res-4",
+          "type": "article",
+          "title": "Linux Package Manager Explained",
+          "url": "https://geekflare.com/dev/linux-package-manager-explained/"
+        },
+        {
+          "id": "4eINX8jYMJxfYh7ZV47YI-res-5",
+          "type": "article",
+          "title": "8 Best Package Manager for Linux",
+          "url": "https://linuxsimply.com/linux-basics/package-management/best-package-manager/"
+        },
+        {
+          "id": "4eINX8jYMJxfYh7ZV47YI-res-6",
+          "type": "article",
+          "title": "Software Installation on Linux",
+          "url": "https://labex.io/tutorials/linux-software-installation-on-linux-18005"
+        }
+      ]
+    },
+    "2oQiuQ2j02SCt9t5eV6hg": {
+      "id": "2oQiuQ2j02SCt9t5eV6hg",
+      "slug": "package-repositories",
+      "title": "Repositories",
+      "description": "Repositories are storage locations containing collections of software packages for Linux distributions. They store thousands of compiled packages specific to each distribution (.deb for Debian/Ubuntu, .rpm for Fedora/CentOS). Repositories ensure secure, tested software with proper dependencies. Update commands: `sudo apt update` (Ubuntu), `sudo yum update` (CentOS/Fedora). Essential for secure software management.",
+      "resources": [
+        {
+          "id": "2oQiuQ2j02SCt9t5eV6hg-res-1",
+          "type": "article",
+          "title": "APT Package Manager",
+          "url": "https://www.debian.org/doc/manuals/apt-guide/index.en.html"
+        },
+        {
+          "id": "2oQiuQ2j02SCt9t5eV6hg-res-2",
+          "type": "article",
+          "title": "What is Repository in Linux?",
+          "url": "https://linuxsimply.com/what-is-repository-in-linux/"
+        },
+        {
+          "id": "2oQiuQ2j02SCt9t5eV6hg-res-3",
+          "type": "article",
+          "title": "Official Repositories - ArchWiki",
+          "url": "https://wiki.archlinux.org/title/Official_repositories"
+        }
+      ]
+    },
+    "7seneb4TWts4v1_x8xlcZ": {
+      "id": "7seneb4TWts4v1_x8xlcZ",
+      "slug": "packet-analysis",
+      "title": "Packet Analysis",
+      "description": "Packet analysis is a key Linux network troubleshooting skill involving capturing and analyzing network traffic to identify performance issues, connectivity problems, and security vulnerabilities. Tools like tcpdump and Wireshark provide packet-level details for network diagnostics. Use `sudo tcpdump -i eth0` to capture packets on the eth0 interface for debugging network protocols.",
+      "resources": [
+        {
+          "id": "7seneb4TWts4v1_x8xlcZ-res-1",
+          "type": "article",
+          "title": "How to Capture and Analyze Packets with tcpdump",
+          "url": "https://www.debian.org/doc/manuals/apt-guide/index.en.html"
+        },
+        {
+          "id": "7seneb4TWts4v1_x8xlcZ-res-2",
+          "type": "article",
+          "title": "Mastering Network Traffic Analysis in Linux",
+          "url": "https://en.ittrip.xyz/linux/linux-network-analysis"
+        },
+        {
+          "id": "7seneb4TWts4v1_x8xlcZ-res-3",
+          "type": "article",
+          "title": "16 Best Free and Open Source Network Analyzers",
+          "url": "https://www.linuxlinks.com/best-free-open-source-network-analyzers/"
+        }
+      ]
+    },
+    "5658kdqJw-pIOyyhll80a": {
+      "id": "5658kdqJw-pIOyyhll80a",
+      "slug": "paste",
+      "title": "Paste",
+      "description": "In Linux, paste is a powerful text processing utility that is primarily used for merging lines from multiple files. It allows users to combine data by columns rather than rows, adding immense flexibility to textual data manipulation. Users can choose a specific delimiter for separating columns, providing a range of ways to format the output. You may use `paste` command like `$ paste file1.txt file2.txt > combined.txt`.",
+      "resources": [
+        {
+          "id": "5658kdqJw-pIOyyhll80a-res-1",
+          "type": "article",
+          "title": "Paste Command in Linux (Merge Lines)",
+          "url": "https://linuxize.com/post/paste-command-in-linux/"
+        },
+        {
+          "id": "5658kdqJw-pIOyyhll80a-res-2",
+          "type": "article",
+          "title": "7 Practical Usage of Paste Command in Linux",
+          "url": "https://linuxhandbook.com/paste-command/"
+        }
+      ]
+    },
+    "Uc36t92UAlILgM3_XxcMG": {
+      "id": "Uc36t92UAlILgM3_XxcMG",
+      "slug": "ping",
+      "title": "Ping",
+      "description": "The `ping` command is essential for Linux network troubleshooting, checking connectivity between your host and target machines. It sends ICMP ECHO\\_REQUEST packets and listens for ECHO\\_RESPONSE returns, providing insights into connection health and speed. Use `ping <target IP or hostname>` to diagnose network connectivity issues and identify reachability problems efficiently.",
+      "resources": [
+        {
+          "id": "Uc36t92UAlILgM3_XxcMG-res-1",
+          "type": "article",
+          "title": "Ping Command in Linux",
+          "url": "https://linuxize.com/post/linux-ping-command/"
+        },
+        {
+          "id": "Uc36t92UAlILgM3_XxcMG-res-2",
+          "type": "article",
+          "title": "Ping Command Examples in Linux - It's FOSS",
+          "url": "https://itsfoss.com/ping-command/"
+        }
+      ]
+    },
+    "v32PJl4fzIFTOirOm6G44": {
+      "id": "v32PJl4fzIFTOirOm6G44",
+      "slug": "pipe",
+      "title": "Pipe Commands",
+      "description": "The pipe (`|`) is a powerful feature in Linux used to connect two or more commands together. This mechanism allows output of one command to be \"piped\" as input to another. With regards to text processing, using pipe is especially helpful since it allows you to manipulate, analyze, and transform text data without the need to create intermediary files or programs.",
+      "resources": [
+        {
+          "id": "v32PJl4fzIFTOirOm6G44-res-1",
+          "type": "article",
+          "title": "An In-Depth Guide to Pipes in Linux - TheLinuxCode",
+          "url": "https://thelinuxcode.com/linux-pipe-command-examples/"
+        },
+        {
+          "id": "v32PJl4fzIFTOirOm6G44-res-2",
+          "type": "article",
+          "title": "Piping and Redirection",
+          "url": "https://ryanstutorials.net/linuxtutorial/piping.php#piping"
+        },
+        {
+          "id": "v32PJl4fzIFTOirOm6G44-res-3",
+          "type": "article",
+          "title": "What is Piping in Linux?",
+          "url": "https://linuxsimply.com/what-is-piping-in-linux/"
+        }
+      ]
+    },
+    "Rib7h9lh_ndiXkwNbftz_": {
+      "id": "Rib7h9lh_ndiXkwNbftz_",
+      "slug": "process-forking",
+      "title": "Process Forking",
+      "description": "Process forking uses the `fork()` system call to create child processes from parent processes, enabling concurrent execution. Child processes are nearly perfect copies of parents with different PIDs. Changes in child processes don't affect parents. Essential for understanding Linux process creation and control in multi-processing environments.",
+      "resources": [
+        {
+          "id": "Rib7h9lh_ndiXkwNbftz_-res-1",
+          "type": "article",
+          "title": "fork — Linux manual page",
+          "url": "https://www.man7.org/linux/man-pages/man2/fork.2.html"
+        },
+        {
+          "id": "Rib7h9lh_ndiXkwNbftz_-res-2",
+          "type": "article",
+          "title": "Understanding the fork() System Call in Linux",
+          "url": "https://thelinuxcode.com/fork-system-call-linux/"
+        },
+        {
+          "id": "Rib7h9lh_ndiXkwNbftz_-res-3",
+          "type": "article",
+          "title": "Linux Process calls: Creating process using fork",
+          "url": "https://medium.com/@joshuaudayagiri/linux-process-calls-creating-process-using-fork-52a1eac7de8b"
+        }
+      ]
+    },
+    "h01Y6dW09ChidlM2HYoav": {
+      "id": "h01Y6dW09ChidlM2HYoav",
+      "slug": "process-management",
+      "title": "Process Management",
+      "description": "Linux treats every running program as a process. Process management commands help view, control, and manipulate these processes. Key commands: `ps aux` shows running processes, `top` provides live system view, `kill -SIGTERM pid` gracefully stops processes, `kill -SIGKILL pid` forcefully terminates processes. Essential for understanding and controlling Linux system operations effectively.",
+      "resources": [
+        {
+          "id": "h01Y6dW09ChidlM2HYoav-res-1",
+          "type": "article",
+          "title": "The Complete Guide to Process Management Commands",
+          "url": "https://thelinuxcode.com/process-management-commands-linux/"
+        },
+        {
+          "id": "h01Y6dW09ChidlM2HYoav-res-2",
+          "type": "article",
+          "title": "Commands for Process Management in Linux",
+          "url": "https://www.digitalocean.com/community/tutorials/process-management-in-linux"
+        }
+      ]
+    },
+    "5anSYRhaKIs3dCLWlvZfT": {
+      "id": "5anSYRhaKIs3dCLWlvZfT",
+      "slug": "process-priorities",
+      "title": "Process Priorities",
+      "description": "Linux assigns priority levels to processes for efficient resource utilization and execution timing. Priority values (\"nice\" values) range from -20 (highest) to +19 (lowest priority). View priorities with `ps -eo pid,pri,user,comm`. Change priorities using `renice -5 -p [PID]`. Essential for system performance optimization and CPU resource management.",
+      "resources": [
+        {
+          "id": "5anSYRhaKIs3dCLWlvZfT-res-1",
+          "type": "article",
+          "title": "Understanding Process Thread Priorities in Linux",
+          "url": "https://blogs.oracle.com/linux/post/task-priority"
+        },
+        {
+          "id": "5anSYRhaKIs3dCLWlvZfT-res-2",
+          "type": "article",
+          "title": "How To Manipulate Process Priority In Linux",
+          "url": "https://www.itsmarttricks.com/how-to-manipulate-process-priority-in-linux-using-nice-and-renice-commands/"
+        }
+      ]
+    },
+    "VkLWTvKnRXzvLGWza2v45": {
+      "id": "VkLWTvKnRXzvLGWza2v45",
+      "slug": "process-signals",
+      "title": "Process Signals",
+      "description": "Process signals are communication mechanisms in Linux that notify processes of synchronous or asynchronous events. Common signals include SIGINT, SIGSTOP, SIGKILL for interrupting, pausing, or terminating processes. Example: `kill -SIGSTOP 12345` suspends process with PID 12345 until `SIGCONT` is received. Essential for comprehensive process management and resource allocation.",
+      "resources": [
+        {
+          "id": "VkLWTvKnRXzvLGWza2v45-res-1",
+          "type": "article",
+          "title": "Understanding Linux Process Signals",
+          "url": "https://www.ceos3c.com/linux/understanding-linux-process-signals-a-complete/"
+        },
+        {
+          "id": "VkLWTvKnRXzvLGWza2v45-res-2",
+          "type": "article",
+          "title": "Linux Process Signals and their meaning",
+          "url": "https://linux-audit.com/processes/linux-process-signals/"
+        }
+      ]
+    },
+    "JgoZzx4BfK7tmosgpZOsf": {
+      "id": "JgoZzx4BfK7tmosgpZOsf",
+      "slug": "redirects",
+      "title": "Redirects",
+      "description": "Redirects change where a command's input comes from or where its output goes, instead of the default terminal screen. The `>` operator sends output to a file, overwriting it, while `>>` appends to the end of a file instead. The `<` operator redirects input from a file, feeding its contents into a command instead of typing them manually.",
+      "resources": [
+        {
+          "id": "JgoZzx4BfK7tmosgpZOsf-res-1",
+          "type": "article",
+          "title": "Input Output & Error Redirection in Linux",
+          "url": "https://linuxhandbook.com/redirection-linux/"
+        },
+        {
+          "id": "JgoZzx4BfK7tmosgpZOsf-res-2",
+          "type": "article",
+          "title": "Redirections (Bash Reference Manual)",
+          "url": "https://www.gnu.org/software/bash/manual/html_node/Redirections.html"
+        }
+      ]
+    },
+    "jSzfQf0MlnXtWHCc-HYvr": {
+      "id": "jSzfQf0MlnXtWHCc-HYvr",
+      "slug": "server-review",
+      "title": "Server Review",
+      "description": "Server review in Linux involves assessing performance, security, and configuration to identify improvements and issues. Check security enhancements, log files, user accounts, network configuration, and software versions. Common commands: `free -m` for memory, `df -h` for disk usage, `uptime` for CPU load. Critical task for system administrators and DevOps professionals to ensure optimal performance, security, and reliability.",
+      "resources": [
+        {
+          "id": "jSzfQf0MlnXtWHCc-HYvr-res-1",
+          "type": "article",
+          "title": "Linux Server Management Essentials",
+          "url": "https://www.ictbroadcast.com/linux-server-management-essentials-administration-monitoring-and-maintenance-guidelines-for-success/"
+        },
+        {
+          "id": "jSzfQf0MlnXtWHCc-HYvr-res-2",
+          "type": "article",
+          "title": "Essential Linux Server Maintenance Checklist",
+          "url": "https://tecadmin.net/linux-server-maintenance-checklist/"
+        },
+        {
+          "id": "jSzfQf0MlnXtWHCc-HYvr-res-3",
+          "type": "article",
+          "title": "Optimizing Linux Server Performance",
+          "url": "https://www.linuxjournal.com/content/optimizing-linux-server-performance-benchmarking-and-advanced-techniques"
+        }
+      ]
+    },
+    "F1sU3O1ouxTOvpidDfN3k": {
+      "id": "F1sU3O1ouxTOvpidDfN3k",
+      "slug": "service-management-systemd",
+      "title": "Service Management",
+      "description": "Service management controls Linux services (daemons) during boot and shutdown processes. Common systemctl commands include start, stop, restart, reload, status, enable/disable. Modern Linux uses systemd while older systems use SystemV or Upstart. Example: `sudo systemctl start sshd` starts SSH service. Essential skill for Linux system administration and maintaining secure, stable systems.",
+      "resources": [
+        {
+          "id": "F1sU3O1ouxTOvpidDfN3k-res-1",
+          "type": "article",
+          "title": "How to Master Linux Service Management with Systemctl",
+          "url": "https://labex.io/tutorials/linux-how-to-master-linux-service-management-with-systemctl-392864"
+        },
+        {
+          "id": "F1sU3O1ouxTOvpidDfN3k-res-2",
+          "type": "article",
+          "title": "Service Management in Linux: A Comprehensive Guide",
+          "url": "https://medium.com/@thesureshvadde/service-management-in-linux-a-comprehensive-guide-cb4c7e81dfa9"
+        },
+        {
+          "id": "F1sU3O1ouxTOvpidDfN3k-res-3",
+          "type": "article",
+          "title": "How to Manage Services in Linux: systemd and SysVinit",
+          "url": "https://dev.to/iaadidev/how-to-manage-services-in-linux-systemd-and-sysvinit-essentials-devops-prerequisite-8-1jop"
+        }
+      ]
+    },
+    "ewUuI_x-YhOQIYd3MTgJJ": {
+      "id": "ewUuI_x-YhOQIYd3MTgJJ",
+      "slug": "services-running",
+      "title": "Running Services",
+      "description": "Linux servers run various services including web, database, DNS, and mail servers. System administrators use tools like `systemctl`, `service`, `netstat`, `ss`, and `lsof` to manage and monitor services. Use `systemctl --type=service` to list all active services with their status. Essential for server management, resource monitoring, and troubleshooting.",
+      "resources": [
+        {
+          "id": "ewUuI_x-YhOQIYd3MTgJJ-res-1",
+          "type": "article",
+          "title": "How to List Linux Services With systemctl",
+          "url": "https://www.howtogeek.com/839285/how-to-list-linux-services-with-systemctl/"
+        },
+        {
+          "id": "ewUuI_x-YhOQIYd3MTgJJ-res-2",
+          "type": "article",
+          "title": "Service Management in Linux: A Comprehensive Guide",
+          "url": "https://medium.com/@thesureshvadde/service-management-in-linux-a-comprehensive-guide-cb4c7e81dfa9"
+        },
+        {
+          "id": "ewUuI_x-YhOQIYd3MTgJJ-res-3",
+          "type": "article",
+          "title": "How to Manage Services in Linux: systemd and SysVinit",
+          "url": "https://dev.to/iaadidev/how-to-manage-services-in-linux-systemd-and-sysvinit-essentials-devops-prerequisite-8-1jop"
+        }
+      ]
+    },
+    "8QBMyL8D5jPovxN8jyZW9": {
+      "id": "8QBMyL8D5jPovxN8jyZW9",
+      "slug": "shell-and-other-basics",
+      "title": "Shell Basics",
+      "description": "The Linux shell is a command-line interface that acts as an intermediary between users and the system kernel. Common shells include Bash, sh, and csh. Basic operations involve navigating directories, creating/deleting files, and executing commands. Shell knowledge is fundamental for Linux administration, scripting, and automation tasks.",
+      "resources": [
+        {
+          "id": "8QBMyL8D5jPovxN8jyZW9-res-1",
+          "type": "article",
+          "title": "Learning The Shell",
+          "url": "https://www.linuxcommand.org/lc3_lts0010.php"
+        },
+        {
+          "id": "8QBMyL8D5jPovxN8jyZW9-res-2",
+          "type": "article",
+          "title": "What is a Shell in Linux",
+          "url": "https://linuxsimply.com/what-is-a-shell-linux/"
+        },
+        {
+          "id": "8QBMyL8D5jPovxN8jyZW9-res-3",
+          "type": "article",
+          "title": "Learn Linux Easily",
+          "url": "https://linuxjourney.com"
+        }
+      ]
+    },
+    "4tFZ1PLpz50bddf7zSFrW": {
+      "id": "4tFZ1PLpz50bddf7zSFrW",
+      "slug": "shell-programming",
+      "title": "Shell Programming",
+      "description": "Shell programming (scripting) automates administrative tasks, repetitive operations, and system monitoring in Linux. Bash is the default shell and scripting language in most distributions. Scripts are text files executed by the shell, excellent for system automation. Example: `#!/bin/bash echo \"Hello, World!\"` creates a simple script that prints output to terminal.",
+      "resources": [
+        {
+          "id": "4tFZ1PLpz50bddf7zSFrW-res-1",
+          "type": "article",
+          "title": "Learn Shell - Free Interactive Shell Tutorial",
+          "url": "https://www.learnshell.org/"
+        },
+        {
+          "id": "4tFZ1PLpz50bddf7zSFrW-res-2",
+          "type": "article",
+          "title": "Bash Scripting Tutorial Series for Beginners",
+          "url": "https://linuxhandbook.com/bash/"
+        },
+        {
+          "id": "4tFZ1PLpz50bddf7zSFrW-res-3",
+          "type": "article",
+          "title": "Linux Bash Shell Scripting Tutorial Wiki",
+          "url": "https://bash.cyberciti.biz/guide/Main_Page"
+        },
+        {
+          "id": "4tFZ1PLpz50bddf7zSFrW-res-4",
+          "type": "video",
+          "title": "Bash Scripting on Linux - YT Playlist",
+          "url": "https://youtube.com/playlist?list=PLT98CRl2KxKGj-VKtApD8-zCqSaN2mD4w&si=MSehStqnhSqgoMSj"
+        }
+      ]
+    },
+    "eKyMZn30UxQeBZQ7FxFbF": {
+      "id": "eKyMZn30UxQeBZQ7FxFbF",
+      "slug": "snap",
+      "title": "Snap",
+      "description": "Snap is a modern Linux package management system by Canonical providing self-contained packages with all dependencies included. Snaps run consistently across different Linux distributions, install from Snapcraft store, and update automatically. Updates are transactional with automatic rollback on failure. Install packages using `sudo snap install [package-name]` command.",
+      "resources": [
+        {
+          "id": "eKyMZn30UxQeBZQ7FxFbF-res-1",
+          "type": "article",
+          "title": "The \"snap\" Command in Linux",
+          "url": "https://linuxsimply.com/snap-command-in-linux/"
+        },
+        {
+          "id": "eKyMZn30UxQeBZQ7FxFbF-res-2",
+          "type": "article",
+          "title": "How to Install and Use Snap in Various Linux Distributions",
+          "url": "https://itsfoss.com/install-snap-linux/"
+        }
+      ]
+    },
+    "KaXHG_EKxI5PUXmcvlJt6": {
+      "id": "KaXHG_EKxI5PUXmcvlJt6",
+      "slug": "soft-links--hard-links",
+      "title": "Soft and Hard Links",
+      "description": "Linux supports two types of file links. Hard links share the same inode and data as the original file - if the original is deleted, data remains accessible. Soft links (symbolic links) are shortcuts pointing to the original file path - they break if the original is removed. Create with `ln` for hard links and `ln -s` for soft links.",
+      "resources": [
+        {
+          "id": "KaXHG_EKxI5PUXmcvlJt6-res-1",
+          "type": "article",
+          "title": "Hard links and Soft links in Linux Explained",
+          "url": "https://www.redhat.com/en/blog/linking-linux-explained"
+        },
+        {
+          "id": "KaXHG_EKxI5PUXmcvlJt6-res-2",
+          "type": "article",
+          "title": "Difference between hard link and soft link",
+          "url": "https://kerneltalks.com/commands/difference-between-hard-link-and-soft-link/"
+        },
+        {
+          "id": "KaXHG_EKxI5PUXmcvlJt6-res-3",
+          "type": "article",
+          "title": "How to Understand the Difference between Hard and Symbolic Links in Linux",
+          "url": "https://labex.io/tutorials/linux-how-to-understand-the-difference-between-hard-and-symbolic-links-in-linux-409929"
+        }
+      ]
+    },
+    "1WRIy3xHtQfiQFZrprobP": {
+      "id": "1WRIy3xHtQfiQFZrprobP",
+      "slug": "sort",
+      "title": "Sort",
+      "description": "Linux provides a variety of tools for processing and manipulating text files, one of which is the sort command. The `sort` command in Linux is used to sort the contents of a text file, line by line. The command uses ASCII values to sort files. You can use this command to sort the data in a file in a number of different ways such as alphabetically, numerically, reverse order, or even monthly. The sort command takes a file as input and prints the sorted content on the standard output (screen).",
+      "resources": [
+        {
+          "id": "1WRIy3xHtQfiQFZrprobP-res-1",
+          "type": "article",
+          "title": "Sort Command in Linux - 10 Useful Examples",
+          "url": "https://linuxhandbook.com/sort-command/"
+        },
+        {
+          "id": "1WRIy3xHtQfiQFZrprobP-res-2",
+          "type": "article",
+          "title": "Sort Command in Linux with Practical Examples",
+          "url": "https://tecadmin.net/linux-sort-command/"
+        },
+        {
+          "id": "1WRIy3xHtQfiQFZrprobP-res-3",
+          "type": "article",
+          "title": "Linux sort Command: Text Sorting",
+          "url": "https://labex.io/tutorials/linux-linux-sort-command-text-sorting-219196"
+        }
+      ]
+    },
+    "Pl9s2ti25hsSEljXJvBTj": {
+      "id": "Pl9s2ti25hsSEljXJvBTj",
+      "slug": "split",
+      "title": "Split Command",
+      "description": "Linux provides an extensive set of tools for manipulating text data. One of such utilities is the `split` command that is used, as the name suggests, to split large files into smaller files. The `split` command in Linux divides a file into multiple equal parts, based on the lines or bytes specified by the user.",
+      "resources": [
+        {
+          "id": "Pl9s2ti25hsSEljXJvBTj-res-1",
+          "type": "article",
+          "title": "Split Command in Linux: 9 Useful Examples",
+          "url": "https://linuxhandbook.com/split-command/"
+        },
+        {
+          "id": "Pl9s2ti25hsSEljXJvBTj-res-2",
+          "type": "article",
+          "title": "Split Command in Linux: Usage Guide with Examples",
+          "url": "https://ioflood.com/blog/split-linux-command/"
+        }
+      ]
+    },
+    "uk6UMuI8Uhf02TBAGVeLS": {
+      "id": "uk6UMuI8Uhf02TBAGVeLS",
+      "slug": "ssh",
+      "title": "SSH",
+      "description": "SSH (Secure Shell) is a cryptographic network protocol providing secure remote access, command execution, and data communication between networked computers. Replaces insecure protocols like Telnet with confidentiality, integrity, and security. Use `ssh username@server_ip_address` to connect to remote Linux servers. Essential for secure system administration and remote management.",
+      "resources": [
+        {
+          "id": "uk6UMuI8Uhf02TBAGVeLS-res-1",
+          "type": "article",
+          "title": "Secure Shell",
+          "url": "https://en.wikipedia.org/wiki/Secure_Shell"
+        },
+        {
+          "id": "uk6UMuI8Uhf02TBAGVeLS-res-2",
+          "type": "article",
+          "title": "Mastering SSH - A Complete Guide to Secure Shell Protocol",
+          "url": "https://www.socketxp.com/iot/ssh-secure-shell/"
+        },
+        {
+          "id": "uk6UMuI8Uhf02TBAGVeLS-res-3",
+          "type": "article",
+          "title": "What is SSH? | Secure Shell (SSH) Protocol - Cloudflare",
+          "url": "https://www.cloudflare.com/learning/access-management/what-is-ssh/"
+        }
+      ]
+    },
+    "DuEfJNrm4Jfmp8-8Pggrf": {
+      "id": "DuEfJNrm4Jfmp8-8Pggrf",
+      "slug": "starting--stopping-services",
+      "title": "Starting / Stopping Services",
+      "description": "Linux service management controls system services like firewall, network, and database using `systemctl` commands. Basic operations: `sudo systemctl start service_name` (start), `sudo systemctl stop service_name` (stop), `sudo systemctl restart service_name` (restart). Root permissions required. Essential for system administrators managing updates and configuration changes.",
+      "resources": [
+        {
+          "id": "DuEfJNrm4Jfmp8-8Pggrf-res-1",
+          "type": "article",
+          "title": "Service Management in Linux: A Comprehensive Guide",
+          "url": "https://medium.com/@thesureshvadde/service-management-in-linux-a-comprehensive-guide-cb4c7e81dfa9"
+        },
+        {
+          "id": "DuEfJNrm4Jfmp8-8Pggrf-res-2",
+          "type": "article",
+          "title": "How to Master Linux Service Management with Systemctl",
+          "url": "https://labex.io/tutorials/linux-how-to-master-linux-service-management-with-systemctl-392864"
+        },
+        {
+          "id": "DuEfJNrm4Jfmp8-8Pggrf-res-3",
+          "type": "article",
+          "title": "How to Manage Services in Linux: systemd and SysVinit",
+          "url": "https://dev.to/iaadidev/how-to-manage-services-in-linux-systemd-and-sysvinit-essentials-devops-prerequisite-8-1jop"
+        }
+      ]
+    },
+    "t3fxSgCgtxuMtHjclPHA6": {
+      "id": "t3fxSgCgtxuMtHjclPHA6",
+      "slug": "stdout--stdin--stderr",
+      "title": "Stdout, Stdin, and Stderr",
+      "description": "Linux processes use three standard data streams: STDIN (input), STDOUT (output), and STDERR (error messages). STDOUT handles normal command output while STDERR specifically handles error messages. You can redirect these streams using operators like `>` for stdout and `2>` for stderr, allowing separate handling of normal output and errors for better scripting and debugging.",
+      "resources": [
+        {
+          "id": "t3fxSgCgtxuMtHjclPHA6-res-1",
+          "type": "article",
+          "title": "Linux Fundamentals - I/O, Standard Streams, and Redirection",
+          "url": "https://www.putorius.net/linux-io-file-descriptors-and-redirection.html"
+        },
+        {
+          "id": "t3fxSgCgtxuMtHjclPHA6-res-2",
+          "type": "article",
+          "title": "Understanding 'stdin', 'stdout' and 'stderr' in Linux",
+          "url": "https://www.slingacademy.com/article/understanding-stdin-stdout-and-stderr-in-linux/"
+        },
+        {
+          "id": "t3fxSgCgtxuMtHjclPHA6-res-3",
+          "type": "article",
+          "title": "Working with data streams on the Linux command line",
+          "url": "https://opensource.com/article/18/10/linux-data-streams"
+        }
+      ]
+    },
+    "Xszo9vXuwwXZo26seHehD": {
+      "id": "Xszo9vXuwwXZo26seHehD",
+      "slug": "subnetting",
+      "title": "Subnetting",
+      "description": "Subnetting divides networks into smaller subnets to improve performance and security in Linux networking. It organizes IP addresses within IP addressing schemes, preventing conflicts and efficiently utilizing address ranges. Use `route -n` to view routing tables and `route add -net xxx.xxx.xxx.x/xx gw yyy.yyy.yyy.y` to add subnets. Essential for complex networking environments.",
+      "resources": [
+        {
+          "id": "Xszo9vXuwwXZo26seHehD-res-1",
+          "type": "article",
+          "title": "Understanding IP Addressing and Subnetting in Linux",
+          "url": "https://useful.codes/understanding-ip-addressing-and-subnetting-in-linux/"
+        },
+        {
+          "id": "Xszo9vXuwwXZo26seHehD-res-2",
+          "type": "article",
+          "title": "The Basics of IP Subnetting | Linux Journal",
+          "url": "https://www.linuxjournal.com/article/6287"
+        },
+        {
+          "id": "Xszo9vXuwwXZo26seHehD-res-3",
+          "type": "article",
+          "title": "How to Find Subnet Mask in Linux",
+          "url": "https://www.howtouselinux.com/post/find-subnet-mask-on-linux"
+        }
+      ]
+    },
+    "NIBSZGE9PskVrluJpdom0": {
+      "id": "NIBSZGE9PskVrluJpdom0",
+      "slug": "super-user",
+      "title": "Super User",
+      "description": "The super user, commonly referred to as root, is the account with unrestricted access to every file, process, and setting on a Linux system. Regular users run commands with `sudo` to temporarily gain root privileges for a single command, rather than logging in as root directly. Because root can modify or delete anything on the system, using `sudo` only when necessary reduces the risk of accidental damage.",
+      "resources": [
+        {
+          "id": "NIBSZGE9PskVrluJpdom0-res-1",
+          "type": "article",
+          "title": "Linux Superuser Access, Explained",
+          "url": "https://www.redhat.com/en/blog/linux-superuser-access/"
+        },
+        {
+          "id": "NIBSZGE9PskVrluJpdom0-res-2",
+          "type": "article",
+          "title": "Difference between the root user and super (sudo) user",
+          "url": "https://www.computernetworkingnotes.com/linux-tutorials/difference-between-the-root-user-and-super-sudo-user.html"
+        },
+        {
+          "id": "NIBSZGE9PskVrluJpdom0-res-3",
+          "type": "article",
+          "title": "What is Superuser Access in Linux?",
+          "url": "https://www.scaler.com/topics/super-user-in-linux/"
+        }
+      ]
+    },
+    "AWosNs2nvDGV8r6WvgBI1": {
+      "id": "AWosNs2nvDGV8r6WvgBI1",
+      "slug": "swap",
+      "title": "Swap Space",
+      "description": "Swap space extends physical memory by using disk storage when RAM is full. Inactive memory pages move to swap, freeing RAM but with performance impact due to slower disk access. Swap can exist as dedicated partitions or regular files. Create with `fallocate`, `mkswap`, and `swapon` commands. Critical for memory management and system stability optimization.",
+      "resources": [
+        {
+          "id": "AWosNs2nvDGV8r6WvgBI1-res-1",
+          "type": "article",
+          "title": "Swap - Arch Wiki",
+          "url": "https://wiki.archlinux.org/title/Swap"
+        },
+        {
+          "id": "AWosNs2nvDGV8r6WvgBI1-res-2",
+          "type": "article",
+          "title": "How to Increase Swap Space on Linux",
+          "url": "https://linuxconfig.org/how-to-increase-swap-space-on-linux"
+        }
+      ]
+    },
+    "Yyk28H6TiteZEGv6Aps1h": {
+      "id": "Yyk28H6TiteZEGv6Aps1h",
+      "slug": "tail",
+      "title": "Tail Command",
+      "description": "The `tail` command in Linux is a utility used in text processing. Fundamentally, it's used to output the last part of the files. The command reads data from standard input or from a file and outputs the last `N` bytes, lines, blocks, characters or words to the standard output (or a different file). By default, `tail` returns the last 10 lines of each file to the standard output. This command is common in situations where the user is interested in the most recent entries in a text file, such as log files.",
+      "resources": [
+        {
+          "id": "Yyk28H6TiteZEGv6Aps1h-res-1",
+          "type": "article",
+          "title": "5 Practical Examples of Tail Command in Linux",
+          "url": "https://linuxhandbook.com/tail-command/"
+        },
+        {
+          "id": "Yyk28H6TiteZEGv6Aps1h-res-2",
+          "type": "article",
+          "title": "Linux Tail Command | Linuxize",
+          "url": "https://linuxize.com/post/linux-tail-command/"
+        },
+        {
+          "id": "Yyk28H6TiteZEGv6Aps1h-res-3",
+          "type": "article",
+          "title": "Linux tail Command: File End Display",
+          "url": "https://labex.io/tutorials/linux-linux-tail-command-file-end-display-214303"
+        }
+      ]
+    },
+    "0pciSsiQqIGJh3x8465_s": {
+      "id": "0pciSsiQqIGJh3x8465_s",
+      "slug": "tcpip-stack",
+      "title": "TCP/IP",
+      "description": "TCP/IP (Transmission Control Protocol/Internet Protocol) forms the backbone of internet communication, allowing computers to connect and transfer data. It comprises four layers: Network Interface, Internet, Transport, and Application. Essential for Linux networking, enabling hosts to interact across networks. Use `netstat -at` to view active TCP/IP connections. Crucial for network management and troubleshooting.",
+      "resources": [
+        {
+          "id": "0pciSsiQqIGJh3x8465_s-res-1",
+          "type": "article",
+          "title": "TCP/IP Commands for Linux",
+          "url": "https://whatismyipaddress.com/tcp-ip-commands-linux"
+        },
+        {
+          "id": "0pciSsiQqIGJh3x8465_s-res-2",
+          "type": "article",
+          "title": "Netstat Command in Linux",
+          "url": "https://phoenixnap.com/kb/netstat-command"
+        },
+        {
+          "id": "0pciSsiQqIGJh3x8465_s-res-3",
+          "type": "article",
+          "title": "Netstat Command in Linux: 13 Practical Examples",
+          "url": "https://linuxhandbook.com/netstat-command/"
+        }
+      ]
+    },
+    "Bo9CdrGJej-QcNmw46k9t": {
+      "id": "Bo9CdrGJej-QcNmw46k9t",
+      "slug": "tee",
+      "title": "Tee",
+      "description": "The `tee` command reads from standard input and writes to both standard output and files simultaneously, like a T-splitter in plumbing. It enables users to view results in the terminal while saving output to files concurrently. Syntax: `command | tee file`. Extremely useful for documenting terminal activities and preserving command outputs for later analysis.",
+      "resources": [
+        {
+          "id": "Bo9CdrGJej-QcNmw46k9t-res-1",
+          "type": "article",
+          "title": "Tee Command in Linux Explained with Examples",
+          "url": "https://linuxhandbook.com/tee-command/"
+        },
+        {
+          "id": "Bo9CdrGJej-QcNmw46k9t-res-2",
+          "type": "article",
+          "title": "Linux Tee Command",
+          "url": "https://linuxize.com/post/linux-tee-command/"
+        }
+      ]
+    },
+    "-B2Dvz7160Er0OBHzS6ro": {
+      "id": "-B2Dvz7160Er0OBHzS6ro",
+      "slug": "text-processing",
+      "title": "Text Processing",
+      "description": "Linux offers robust text processing capabilities essential for system administrators and developers. Users can leverage command-line tools like `awk`, `sed`, `grep`, and `cut` for tasks such as filtering, substitution, and regular expression handling. Scripting languages like Python and Perl further enhance text processing. While primarily command-line based, Linux also provides GUI text editors such as `gedit`, `nano`, and `vim`. Proficiency in these tools is vital for automating tasks, parsing files, and efficient data mining.",
+      "resources": [
+        {
+          "id": "-B2Dvz7160Er0OBHzS6ro-res-1",
+          "type": "article",
+          "title": "Common Linux Text Processing Commands",
+          "url": "https://www.commandinline.com/linux/common-linux-text-processing-commands/"
+        },
+        {
+          "id": "-B2Dvz7160Er0OBHzS6ro-res-2",
+          "type": "article",
+          "title": "Linux Filters",
+          "url": "https://ryanstutorials.net/linuxtutorial/filters.php"
+        },
+        {
+          "id": "-B2Dvz7160Er0OBHzS6ro-res-3",
+          "type": "article",
+          "title": "Linux Text Processing Command",
+          "url": "https://earthly.dev/blog/linux-text-processing-commands/"
+        },
+        {
+          "id": "-B2Dvz7160Er0OBHzS6ro-res-4",
+          "type": "article",
+          "title": "Master Linux Text Processing Commands",
+          "url": "https://everythingdevops.dev/linux-text-processing-commands/"
+        }
+      ]
+    },
+    "O9Vci_WpUY-79AkA4HDx3": {
+      "id": "O9Vci_WpUY-79AkA4HDx3",
+      "slug": "tr",
+      "title": "Tr-Command",
+      "description": "The `tr` command in Linux is a command-line utility that translates or substitutes characters. It reads from the standard input and writes to the standard output. Although commonly used for translation applications, `tr` has versatile functionality in the text processing aspect of Linux. Ranging from replacing a list of characters, to deleting or squeezing character repetitions, `tr` presents a robust tool for stream-based text manipulations.",
+      "resources": [
+        {
+          "id": "O9Vci_WpUY-79AkA4HDx3-res-1",
+          "type": "article",
+          "title": "tr Command in Linux: 6 Useful Examples",
+          "url": "https://linuxhandbook.com/tr-command/"
+        },
+        {
+          "id": "O9Vci_WpUY-79AkA4HDx3-res-2",
+          "type": "article",
+          "title": "Linux tr Command with Practical Examples",
+          "url": "https://labex.io/tutorials/linux-linux-tr-command-with-practical-examples-422963"
+        }
+      ]
+    },
+    "BnB3Rirh4R7a7LW7-k-95": {
+      "id": "BnB3Rirh4R7a7LW7-k-95",
+      "slug": "traceroute",
+      "title": "Traceroute",
+      "description": "Traceroute is a Linux network diagnostic tool that displays the path packets take from your system to a destination. It identifies routing problems, measures latency, and reveals network structure as packets traverse the internet. Each hop is tested multiple times with round-trip times displayed. Use `traceroute www.example.com` to discover packet routes and diagnose failures.",
+      "resources": [
+        {
+          "id": "BnB3Rirh4R7a7LW7-k-95-res-1",
+          "type": "article",
+          "title": "traceroute Command Examples in Linux",
+          "url": "https://linuxhandbook.com/traceroute/"
+        },
+        {
+          "id": "BnB3Rirh4R7a7LW7-k-95-res-2",
+          "type": "article",
+          "title": "How to Use the traceroute Command on Linux",
+          "url": "https://www.howtogeek.com/657780/how-to-use-the-traceroute-command-on-linux/"
+        }
+      ]
+    },
+    "bdQNcr1sj94aX_gjwf2Fa": {
+      "id": "bdQNcr1sj94aX_gjwf2Fa",
+      "slug": "troubleshooting",
+      "title": "Troubleshooting",
+      "description": "Linux troubleshooting involves identifying and resolving system errors, hardware/software issues, network problems, and resource management challenges. Key skills include using command-line tools, inspecting log files, understanding processes, and interpreting error messages. Tools like `top` provide real-time process monitoring to identify resource-heavy processes causing performance issues efficiently.",
+      "resources": [
+        {
+          "id": "bdQNcr1sj94aX_gjwf2Fa-res-1",
+          "type": "article",
+          "title": "Troubleshooting Linux Problems: A Beginner's Guide",
+          "url": "https://learn.redhat.com/t5/Platform-Linux/Troubleshooting-Linux-Problems-A-Beginner-s-Guide/td-p/36236"
+        },
+        {
+          "id": "bdQNcr1sj94aX_gjwf2Fa-res-2",
+          "type": "article",
+          "title": "Linux Top 20 Important Commands for Monitoring and Troubleshooting",
+          "url": "https://medium.com/@stepstodevops/linux-top-20-important-commands-for-monitoring-and-troubleshooting-a-comprehensive-guide-for-cd5aaa37da17"
+        },
+        {
+          "id": "bdQNcr1sj94aX_gjwf2Fa-res-3",
+          "type": "article",
+          "title": "10 Linux Troubleshooting Tips - dummies",
+          "url": "https://www.dummies.com/article/technology/computers/operating-systems/linux/10-linux-troubleshooting-tips-274301/"
+        }
+      ]
+    },
+    "QgfenmhMc18cU_JngQ1n0": {
+      "id": "QgfenmhMc18cU_JngQ1n0",
+      "slug": "ulimits",
+      "title": "Ulimits",
+      "description": "Ulimits (user limits) are Linux kernel features that restrict resources like file handles and memory that processes can consume. In containerization, ulimits prevent rogue processes from exhausting server resources and creating denial-of-service situations. Use `ulimit -a` to view current limits and `ulimit -n 1024` to set specific limits for optimal container performance and security.",
+      "resources": [
+        {
+          "id": "QgfenmhMc18cU_JngQ1n0-res-1",
+          "type": "article",
+          "title": "Check and set user limits with ulimit Linux command",
+          "url": "https://linuxconfig.org/limit-user-environment-with-ulimit-linux-command"
+        },
+        {
+          "id": "QgfenmhMc18cU_JngQ1n0-res-2",
+          "type": "article",
+          "title": "How to Use Ulimit Command in Linux",
+          "url": "https://linuxhandbook.com/ulimit-command/"
+        },
+        {
+          "id": "QgfenmhMc18cU_JngQ1n0-res-3",
+          "type": "article",
+          "title": "10 Linux Troubleshooting Tips",
+          "url": "https://www.dummies.com/article/technology/computers/operating-systems/linux/10-linux-troubleshooting-tips-274301/"
+        }
+      ]
+    },
+    "sKduFaX6xZaUUBdXRMKCL": {
+      "id": "sKduFaX6xZaUUBdXRMKCL",
+      "slug": "unexpand",
+      "title": "Unexpand",
+      "description": "The `unexpand` command converts spaces to tabs in text files, making documents more coherent and neat. Commonly used in programming scripts where tab indentation is preferred. Use `unexpand -t 4 file.txt` to replace every four spaces with a tab. Opposite of `expand` command, useful for standardizing indentation formatting in code files.",
+      "resources": [
+        {
+          "id": "sKduFaX6xZaUUBdXRMKCL-res-1",
+          "type": "article",
+          "title": "unexpand Cheat Sheet",
+          "url": "https://www.commandinline.com/cheat-sheet/unexpand/"
+        },
+        {
+          "id": "sKduFaX6xZaUUBdXRMKCL-res-2",
+          "type": "article",
+          "title": "Master the Linux 'unexpand' Command: A Comprehensive Guide",
+          "url": "https://hopeness.medium.com/master-the-linux-unexpand-command-a-comprehensive-guide-6966c1f90acb"
+        },
+        {
+          "id": "sKduFaX6xZaUUBdXRMKCL-res-3",
+          "type": "article",
+          "title": "Linux unexpand Command with Practical Examples",
+          "url": "https://labex.io/tutorials/linux-linux-unexpand-command-with-practical-examples-422975"
+        }
+      ]
+    },
+    "qnBbzphImflQbEbtFub9x": {
+      "id": "qnBbzphImflQbEbtFub9x",
+      "slug": "uniq",
+      "title": "Uniq",
+      "description": "`uniq` is an extremely useful command-line program for text processing. It aids in the examination and manipulation of text files by comparing or filtering out repeated lines that are adjacent. Whether you're dealing with a list of data or a large text document, the `uniq` command allows you to find and filter out duplicate lines, or even provide a count of each unique line in a file. It's important to remember that `uniq` only removes duplicates that are next to each other, so to get the most out of this command, data is often sorted using the `sort` command first.",
+      "resources": [
+        {
+          "id": "qnBbzphImflQbEbtFub9x-res-1",
+          "type": "article",
+          "title": "Uniq Command in Unix and Linux: 7 Essential Examples",
+          "url": "https://linuxhandbook.com/uniq-command/"
+        },
+        {
+          "id": "qnBbzphImflQbEbtFub9x-res-2",
+          "type": "article",
+          "title": "Linux uniq Command: Duplicate Filtering",
+          "url": "https://labex.io/tutorials/linux-linux-uniq-command-duplicate-filtering-219199"
+        },
+        {
+          "id": "qnBbzphImflQbEbtFub9x-res-3",
+          "type": "article",
+          "title": "How to Use the Uniq Command to Process Lists in Linux",
+          "url": "https://www.redhat.com/en/blog/uniq-command-lists"
+        }
+      ]
+    },
+    "19lTWqAvZFT2CDlhLlPSq": {
+      "id": "19lTWqAvZFT2CDlhLlPSq",
+      "slug": "uptime-and-load",
+      "title": "Uptime and Load",
+      "description": "The `uptime` command shows system running time and load averages for 1, 5, and 15-minute intervals. Load average indicates computational work and processes waiting for CPU time. High load suggests insufficient resources or misconfigurations. Example: `uptime` shows \"2 days, 20 min\" uptime and \"0.00, 0.01, 0.05\" load averages. Essential for performance monitoring and capacity planning.",
+      "resources": [
+        {
+          "id": "19lTWqAvZFT2CDlhLlPSq-res-1",
+          "type": "article",
+          "title": "Linux Uptime Command With Usage Examples",
+          "url": "https://www.tecmint.com/linux-uptime-command-examples/"
+        },
+        {
+          "id": "19lTWqAvZFT2CDlhLlPSq-res-2",
+          "type": "article",
+          "title": "How to Check Uptime in Linux Command Line",
+          "url": "https://linuxhandbook.com/uptime-command/"
+        },
+        {
+          "id": "19lTWqAvZFT2CDlhLlPSq-res-3",
+          "type": "article",
+          "title": "Linux Load Average: What is Load Average in Linux?",
+          "url": "https://www.digitalocean.com/community/tutorials/load-average-in-linux"
+        }
+      ]
+    },
+    "g6n7f1Qi0BPr_BGvisWuz": {
+      "id": "g6n7f1Qi0BPr_BGvisWuz",
+      "slug": "user-management",
+      "title": "User Management",
+      "description": "Linux user management allows multiple users to interact with the system in isolation. Includes creating, deleting, modifying users and groups, assigning permissions and ownership. Key commands: `adduser`/`useradd` creates users, `deluser`/`userdel` removes users, `passwd` manages passwords, `su` switches users. Essential for providing proper accessibility and maintaining Linux system security.",
+      "resources": [
+        {
+          "id": "g6n7f1Qi0BPr_BGvisWuz-res-1",
+          "type": "article",
+          "title": "User Account Management",
+          "url": "https://labex.io/tutorials/linux-user-account-management-49"
+        },
+        {
+          "id": "g6n7f1Qi0BPr_BGvisWuz-res-2",
+          "type": "article",
+          "title": "Creating, Modifying, and Deleting User Accounts",
+          "url": "https://serveracademy.com/courses/linux-server-administration/creating-modifying-and-deleting-user-accounts/"
+        },
+        {
+          "id": "g6n7f1Qi0BPr_BGvisWuz-res-3",
+          "type": "article",
+          "title": "User Management in Linux: A Beginner's Guide",
+          "url": "https://dev.to/austinozor/user-management-in-linux-a-beginners-guide-to-creating-modifying-and-deleting-users-fhf"
+        }
+      ]
+    },
+    "h8wc8XEwWYHErna68w7Mg": {
+      "id": "h8wc8XEwWYHErna68w7Mg",
+      "slug": "users-and-groups",
+      "title": "Users and Groups",
+      "description": "Linux user groups simplify system administration by managing collections of users with shared access rights to files and directories. Each user belongs to one or more groups, enabling privilege management without full superuser access. Management commands: `groupadd`, `groupdel`, `groupmod`, `usermod`, `gpasswd`. Essential for secure and organized system environments.",
+      "resources": [
+        {
+          "id": "h8wc8XEwWYHErna68w7Mg-res-1",
+          "type": "article",
+          "title": "How to create, delete, and modify groups in Linux",
+          "url": "https://www.redhat.com/sysadmin/linux-groups"
+        },
+        {
+          "id": "h8wc8XEwWYHErna68w7Mg-res-2",
+          "type": "article",
+          "title": "How to manage groups on Linux",
+          "url": "https://linuxconfig.org/how-to-manage-groups-on-linux"
+        },
+        {
+          "id": "h8wc8XEwWYHErna68w7Mg-res-3",
+          "type": "article",
+          "title": "Creating, Modifying, and Deleting User Accounts",
+          "url": "https://serveracademy.com/courses/linux-server-administration/creating-modifying-and-deleting-user-accounts/"
+        },
+        {
+          "id": "h8wc8XEwWYHErna68w7Mg-res-4",
+          "type": "article",
+          "title": "User Management in Linux: A Beginner's Guide",
+          "url": "https://dev.to/austinozor/user-management-in-linux-a-beginners-guide-to-creating-modifying-and-deleting-users-fhf"
+        }
+      ]
+    },
+    "JyxvZOb7iusOSUYSlniGl": {
+      "id": "JyxvZOb7iusOSUYSlniGl",
+      "slug": "variables",
+      "title": "Variables",
+      "description": "Shell variables store system or user-defined data that can change during script execution. Two categories exist: System Variables (PATH, HOME, PWD) created by Linux, and User-Defined Variables created by users. Define variables with `=` operator and retrieve values with `$` prefix. Example: `MY_VARIABLE=\"Hello World\"` then `echo $MY_VARIABLE` prints the value.",
+      "resources": [
+        {
+          "id": "JyxvZOb7iusOSUYSlniGl-res-1",
+          "type": "article",
+          "title": "Learning The Shell",
+          "url": "https://www.linuxcommand.org/lc3_lts0010.php"
+        },
+        {
+          "id": "JyxvZOb7iusOSUYSlniGl-res-2",
+          "type": "article",
+          "title": "How to Use Variables in Bash Shell Scripts",
+          "url": "https://linuxhandbook.com/bash-variables/"
+        },
+        {
+          "id": "JyxvZOb7iusOSUYSlniGl-res-3",
+          "type": "article",
+          "title": "How To Read and Set Environmental and Shell Variables",
+          "url": "https://www.digitalocean.com/community/tutorials/how-to-read-and-set-environmental-and-shell-variables-on-linux"
+        }
+      ]
+    },
+    "XiZz7EFIey1XKS292GN4t": {
+      "id": "XiZz7EFIey1XKS292GN4t",
+      "slug": "vim",
+      "title": "Vim: An Essential Tool for Editing Files",
+      "description": "Vim (Vi Improved) is a powerful and flexible text editor used in Unix-like systems. It builds on the original Vi editor with additional features and improvements, including multi-level undo, syntax highlighting, and an extensive set of commands for text manipulation.",
+      "resources": [
+        {
+          "id": "XiZz7EFIey1XKS292GN4t-res-1",
+          "type": "course",
+          "title": "Learn Vimscript The Hard Way",
+          "url": "https://learnvimscriptthehardway.stevelosh.com/"
+        },
+        {
+          "id": "XiZz7EFIey1XKS292GN4t-res-2",
+          "type": "article",
+          "title": "Vim Cheat Sheet",
+          "url": "https://vim.rtorr.com/"
+        },
+        {
+          "id": "XiZz7EFIey1XKS292GN4t-res-3",
+          "type": "article",
+          "title": "Learn Vim Progressively",
+          "url": "https://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/"
+        },
+        {
+          "id": "XiZz7EFIey1XKS292GN4t-res-4",
+          "type": "article",
+          "title": "Platform to practice Vim",
+          "url": "https://vim-adventures.com/"
+        },
+        {
+          "id": "XiZz7EFIey1XKS292GN4t-res-5",
+          "type": "video",
+          "title": "Vim Basics",
+          "url": "https://www.youtube.com/watch?v=wACD8WEnImo&list=PLT98CRl2KxKHy4A5N70jMRYAROzzC2a6x&ab_channel=LearnLinuxTV"
+        }
+      ]
+    },
+    "LIGOJwrXexnIcPyHVlhQ8": {
+      "id": "LIGOJwrXexnIcPyHVlhQ8",
+      "slug": "wc",
+      "title": "WC - Text Processing",
+      "description": "The `wc` command is a commonly used tool in Unix or Linux that allows users to count the number of bytes, characters, words, and lines in a file or in data piped from standard input. The name `wc` stands for 'word count', but it can do much more than just count words. Common usage of `wc` includes tracking program output, counting code lines, and more. It's an invaluable tool for analyzing text at both granular and larger scales.",
+      "resources": [
+        {
+          "id": "LIGOJwrXexnIcPyHVlhQ8-res-1",
+          "type": "article",
+          "title": "Wc Command in Linux (Count Number of Lines, Words, and Characters)",
+          "url": "https://linuxize.com/post/linux-wc-command/"
+        },
+        {
+          "id": "LIGOJwrXexnIcPyHVlhQ8-res-2",
+          "type": "article",
+          "title": "wc Command Examples - Linux Handbook",
+          "url": "https://linuxhandbook.com/wc-command/"
+        },
+        {
+          "id": "LIGOJwrXexnIcPyHVlhQ8-res-3",
+          "type": "article",
+          "title": "Linux wc Command: Text Counting",
+          "url": "https://labex.io/tutorials/linux-linux-wc-command-text-counting-219200"
+        }
+      ]
+    },
+    "RsOTPZPZGTEIt1Lk41bQV": {
+      "id": "RsOTPZPZGTEIt1Lk41bQV",
+      "slug": "working-with-files",
+      "title": "Working with Files",
+      "description": "Working with files is an essential part of Linux and it's a skill every Linux user must have. In Linux, everything is considered a file: texts, images, systems, devices, and directories. Linux provides multiple command-line utilities to create, view, move or search files. Some of the basic commands for file handling in Linux terminal include `touch` for creating files, `mv` for moving files, `cp` for copying files, `rm` for removing files, and `ls` for listing files and directories.",
+      "resources": [
+        {
+          "id": "RsOTPZPZGTEIt1Lk41bQV-res-1",
+          "type": "article",
+          "title": "Editing Files in Linux Command Line",
+          "url": "https://itsfoss.com/edit-files-linux/"
+        },
+        {
+          "id": "RsOTPZPZGTEIt1Lk41bQV-res-2",
+          "type": "article",
+          "title": "Mastering cp and mv Commands in Linux",
+          "url": "https://dev.to/ldwit/mastering-cp-and-mv-commands-in-linux-plus-related-cmds-5cc9"
+        },
+        {
+          "id": "RsOTPZPZGTEIt1Lk41bQV-res-3",
+          "type": "article",
+          "title": "Vim Tutorial for Beginners",
+          "url": "https://linuxconfig.org/vim-tutorial"
+        },
+        {
+          "id": "RsOTPZPZGTEIt1Lk41bQV-res-4",
+          "type": "article",
+          "title": "Linux Basic Files Operations",
+          "url": "https://labex.io/tutorials/linux-basic-files-operations-270248"
+        },
+        {
+          "id": "RsOTPZPZGTEIt1Lk41bQV-res-5",
+          "type": "article",
+          "title": "What is the Difference Between Cat and Touch Command",
+          "url": "https://linuxways.net/centos/what-is-the-difference-between-cat-and-touch-command/"
+        }
+      ]
+    }
+  }
+}

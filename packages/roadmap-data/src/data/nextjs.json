@@ -1,0 +1,3435 @@
+{
+  "slug": "nextjs",
+  "title": "Nextjs",
+  "description": "Comprehensive learning curriculum and mastery roadmap for nextjs.",
+  "category": "skill",
+  "level": "Intermediate",
+  "topicCount": 94,
+  "iconName": "Compass",
+  "nodes": [
+    {
+      "id": "node-fXXlJ6oN_YPWVr-fqEar3",
+      "label": "Adapter",
+      "topicId": "fXXlJ6oN_YPWVr-fqEar3",
+      "level": 1,
+      "position": {
+        "x": 80,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-a34ZmSk5VYVLq8wsEvOcI",
+      "label": "Analytics",
+      "topicId": "a34ZmSk5VYVLq8wsEvOcI",
+      "level": 1,
+      "position": {
+        "x": 340,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-4H8aOVYsZiPbTQUYcZjb_",
+      "label": "API Endpoints",
+      "topicId": "4H8aOVYsZiPbTQUYcZjb_",
+      "level": 1,
+      "position": {
+        "x": 600,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-3VXKRDxDmqJObkoW8ndrz",
+      "label": "App Router",
+      "topicId": "3VXKRDxDmqJObkoW8ndrz",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-77i6HVsnX-uSDw8vz3afD",
+      "label": "Caching Data",
+      "topicId": "77i6HVsnX-uSDw8vz3afD",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-0Rgs7jaFX1Gl5KDT6DKbX",
+      "label": "Caching API Endpoints in Next.js",
+      "topicId": "0Rgs7jaFX1Gl5KDT6DKbX",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-HdSmD_nDV5BPO5JJqs1k8",
+      "label": "Client-Side Rendering in Next.js",
+      "topicId": "HdSmD_nDV5BPO5JJqs1k8",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-jYSa7UMmjb51pGAyU4PoB",
+      "label": "Client-Side Data Fetching",
+      "topicId": "jYSa7UMmjb51pGAyU4PoB",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-6O9c3J-1JQtZTXXIDDXSM",
+      "label": "Rendering Composition",
+      "topicId": "6O9c3J-1JQtZTXXIDDXSM",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-3tTTKj6PWsRoRRXH5tXxS",
+      "label": "create-next-app",
+      "topicId": "3tTTKj6PWsRoRRXH5tXxS",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-4CcK-BLP5NM3ZrCIEG4s8",
+      "label": "Client-Side Rendering (CSR)",
+      "topicId": "4CcK-BLP5NM3ZrCIEG4s8",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-j5jIZvz_bMZqmr_gl0pQF",
+      "label": "CSS in JS",
+      "topicId": "j5jIZvz_bMZqmr_gl0pQF",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-tlg5XMVcAHmhey-efjf3M",
+      "label": "CSS Modules",
+      "topicId": "tlg5XMVcAHmhey-efjf3M",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-Hj01UZuHkQppXTq6XV9Pn",
+      "label": "How to set up a custom server in Next.js",
+      "topicId": "Hj01UZuHkQppXTq6XV9Pn",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-KmOTgclnf-QYDYK0QwwVe",
+      "label": "Cypress",
+      "topicId": "KmOTgclnf-QYDYK0QwwVe",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-GAHFfQ8CviNxV7ITpt--q",
+      "label": "Data Fetching Patterns in Next.js",
+      "topicId": "GAHFfQ8CviNxV7ITpt--q",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-BPStVqWV0660A-_fJSuM7",
+      "label": "Deployment Options",
+      "topicId": "BPStVqWV0660A-_fJSuM7",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-y5_zX209AaHOf_wQibo12",
+      "label": "Docker Container",
+      "topicId": "y5_zX209AaHOf_wQibo12",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-SYUKB1Afciqz7hA1n5yIx",
+      "label": "Edge Runtime",
+      "topicId": "SYUKB1Afciqz7hA1n5yIx",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-iv6rWEqjh07d0n2kAQedO",
+      "label": "Environment Variables",
+      "topicId": "iv6rWEqjh07d0n2kAQedO",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-pxltXOWgpbo95V4u2ryX7",
+      "label": "Error States",
+      "topicId": "pxltXOWgpbo95V4u2ryX7",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-CvrHzkxg7ndCvd_tbYnK4",
+      "label": "ESLint",
+      "topicId": "CvrHzkxg7ndCvd_tbYnK4",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-lkdBRzC8lAvRYKBt7E37V",
+      "label": "Fetching Location",
+      "topicId": "lkdBRzC8lAvRYKBt7E37V",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-ZptECTASMX97m5yCZ-XO8",
+      "label": "Font Optimization",
+      "topicId": "ZptECTASMX97m5yCZ-XO8",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-BfNON3Vp3zSWBurSS4ZHo",
+      "label": "Global CSS",
+      "topicId": "BfNON3Vp3zSWBurSS4ZHo",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-Ti_Bl5NnRIY9UTNTH15xA",
+      "label": "Handling Sensitive Data",
+      "topicId": "Ti_Bl5NnRIY9UTNTH15xA",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-1t9iOcmrEmuwOxOZ0vlY7",
+      "label": "Images",
+      "topicId": "1t9iOcmrEmuwOxOZ0vlY7",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-DHqdXJFhVZWaNa5zSX8Wk",
+      "label": "instrumentation",
+      "topicId": "DHqdXJFhVZWaNa5zSX8Wk",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-dP6cZkEZ6lxPsy5SjvuZA",
+      "label": "Intercepting Routes",
+      "topicId": "dP6cZkEZ6lxPsy5SjvuZA",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-bSsM7VLZcJKYL5XXSG0r-",
+      "label": "Internationalization",
+      "topicId": "bSsM7VLZcJKYL5XXSG0r-",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-tcDL4OEbZplbjNa8VTLpv",
+      "label": "Introduction",
+      "topicId": "tcDL4OEbZplbjNa8VTLpv",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-DlUQkDRPUcjC3pO4P5zCQ",
+      "label": "JavaScript Basics",
+      "topicId": "DlUQkDRPUcjC3pO4P5zCQ",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-sc5Pliyq6bfeFXp0ca5yH",
+      "label": "Jest",
+      "topicId": "sc5Pliyq6bfeFXp0ca5yH",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-zJXCS7U9NUsn7cuEx3YMs",
+      "label": "Layouts and Templates",
+      "topicId": "zJXCS7U9NUsn7cuEx3YMs",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-3_Mpvkxp9A7PMogxxMikQ",
+      "label": "Lazy Loading",
+      "topicId": "3_Mpvkxp9A7PMogxxMikQ",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-b2LcPc5MfoyF0W9Y0aGpR",
+      "label": "Loading and Streaming",
+      "topicId": "b2LcPc5MfoyF0W9Y0aGpR",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-3GI0xHGG_qgpLfEjaLYxr",
+      "label": "Markdown and MDX",
+      "topicId": "3GI0xHGG_qgpLfEjaLYxr",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-UZCMVpg5YIDxu-AMah3S-",
+      "label": "Memoization in Fetch",
+      "topicId": "UZCMVpg5YIDxu-AMah3S-",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-SI7KzNSLP0ccH_P94StGL",
+      "label": "Memory Usage",
+      "topicId": "SI7KzNSLP0ccH_P94StGL",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-45XMR5imHEDF_X8wcgjGW",
+      "label": "Metadata",
+      "topicId": "45XMR5imHEDF_X8wcgjGW",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-gpZNwsh075wl5eH2gLKro",
+      "label": "Middleware",
+      "topicId": "gpZNwsh075wl5eH2gLKro",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-xRZqBd5-QO8zh7ksHlRjK",
+      "label": "Next.js Routing Basics",
+      "topicId": "xRZqBd5-QO8zh7ksHlRjK",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-uJrOHRLmEBZtHJzAAusUe",
+      "label": "Next.js",
+      "topicId": "uJrOHRLmEBZtHJzAAusUe",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-Okw_IjU2iRSvSQVdKeeCo",
+      "label": "Node.js Server",
+      "topicId": "Okw_IjU2iRSvSQVdKeeCo",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-0S37ka1K-TdYLnjCBrKSH",
+      "label": "Node.js",
+      "topicId": "0S37ka1K-TdYLnjCBrKSH",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-mTh5PZNpzJNKPqpu5PVL6",
+      "label": "OpenTelemetry",
+      "topicId": "mTh5PZNpzJNKPqpu5PVL6",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-qM_Za9NiCiCG5-kf5RCXF",
+      "label": "Package Bundling",
+      "topicId": "qM_Za9NiCiCG5-kf5RCXF",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-htuyzi5_N-fqnx_SsO_DS",
+      "label": "Pages Router",
+      "topicId": "htuyzi5_N-fqnx_SsO_DS",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-2N_hm9Zx_Lp-RFEMP9HFb",
+      "label": "Parallel Routes",
+      "topicId": "2N_hm9Zx_Lp-RFEMP9HFb",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-SjJQ7ceU6vBhlhrN8hcvy",
+      "label": "Parallel vs Sequential",
+      "topicId": "SjJQ7ceU6vBhlhrN8hcvy",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-qFDdfOBdOlGMjTEOiiuTe",
+      "label": "Playwright",
+      "topicId": "qFDdfOBdOlGMjTEOiiuTe",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-Ve1Pa7IhGHPZ_F-sCMcNb",
+      "label": "Preloading data",
+      "topicId": "Ve1Pa7IhGHPZ_F-sCMcNb",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node--yiJSBIoczJHOW8YMdWFI",
+      "label": "Preparing for Production",
+      "topicId": "-yiJSBIoczJHOW8YMdWFI",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-efMytbUmw44M8dPL4ItsX",
+      "label": "Prettier",
+      "topicId": "efMytbUmw44M8dPL4ItsX",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-crBlqiS78n7yz28cT2GGz",
+      "label": "React Cache function",
+      "topicId": "crBlqiS78n7yz28cT2GGz",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-FdvaN6BOxUEJt7TarSDmo",
+      "label": "React Frameworks",
+      "topicId": "FdvaN6BOxUEJt7TarSDmo",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-K1wGmAy9L0VE6cwYE2pA6",
+      "label": "Redirects in Next.js API Endpoints",
+      "topicId": "K1wGmAy9L0VE6cwYE2pA6",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-G_33yo1MshQbiaGTPtTdK",
+      "label": "Remix",
+      "topicId": "G_33yo1MshQbiaGTPtTdK",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-IlWFMh44HtHDnIr7nqwtI",
+      "label": "Rendering Pages in Next.js",
+      "topicId": "IlWFMh44HtHDnIr7nqwtI",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-1ch6ZXZP46FP8q3HeCqWM",
+      "label": "Rendering Strategies",
+      "topicId": "1ch6ZXZP46FP8q3HeCqWM",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-N5siOJO3dc9vJUTpbdm04",
+      "label": "Revalidating Cached Data",
+      "topicId": "N5siOJO3dc9vJUTpbdm04",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-qMYuXOlr_c-6oQKVOdGci",
+      "label": "Revalidation Errors",
+      "topicId": "qMYuXOlr_c-6oQKVOdGci",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-Sn-8ztsjjtUxD_SP6w3cS",
+      "label": "Route Matcher",
+      "topicId": "Sn-8ztsjjtUxD_SP6w3cS",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-09uWsmXOXU0Ox7F3qsjRx",
+      "label": "Routing Patterns",
+      "topicId": "09uWsmXOXU0Ox7F3qsjRx",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-oFhmV5Xv0KJ-SjeYVZBpi",
+      "label": "Routing Terminology in Next.js",
+      "topicId": "oFhmV5Xv0KJ-SjeYVZBpi",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-LN7SHgcQp9gX_jfEN84YP",
+      "label": "Runtimes and Types",
+      "topicId": "LN7SHgcQp9gX_jfEN84YP",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-5H7toz-DxtnwjozCgLuk6",
+      "label": "Sass in Next.js",
+      "topicId": "5H7toz-DxtnwjozCgLuk6",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-JFrpy3dGt-UP9Weo1VBvN",
+      "label": "Third-Party Scripts",
+      "topicId": "JFrpy3dGt-UP9Weo1VBvN",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-IuBZY-ISP1Sy_5OQ99jLY",
+      "label": "Server Functions",
+      "topicId": "IuBZY-ISP1Sy_5OQ99jLY",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-m7eKlykOZCA3BLuBHioDj",
+      "label": "Server-Side Rendering (SSR)",
+      "topicId": "m7eKlykOZCA3BLuBHioDj",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-QDxYlIyFOuGUIy_ZovHs0",
+      "label": "Server-Side Data Fetching for Locations",
+      "topicId": "QDxYlIyFOuGUIy_ZovHs0",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-XwDF-Kt9K5smm3ruxlkR2",
+      "label": "Setting Headers in Next.js Middleware",
+      "topicId": "XwDF-Kt9K5smm3ruxlkR2",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-ThrO72opK7xGWpy0GG63T",
+      "label": "Setting Things Up",
+      "topicId": "ThrO72opK7xGWpy0GG63T",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-ch5gUr8xeCIp-i48N5qew",
+      "label": "SPA vs SSR",
+      "topicId": "ch5gUr8xeCIp-i48N5qew",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-NC7s-EOLWhjXR70JFZxcg",
+      "label": "Single-Page Application (SPA) Rendering",
+      "topicId": "NC7s-EOLWhjXR70JFZxcg",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-CqPZHOs1Iew6PCIjwiqUt",
+      "label": "Static Site Generation (SSG)",
+      "topicId": "CqPZHOs1Iew6PCIjwiqUt",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-7EYQnX3cEAjSL-iJSprEI",
+      "label": "Server-Side Rendering (SSR)",
+      "topicId": "7EYQnX3cEAjSL-iJSprEI",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-iabbuLHqAiRkgj03t64x7",
+      "label": "Static Assets",
+      "topicId": "iabbuLHqAiRkgj03t64x7",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-evmzZ6F7TWgYhdaahnZHY",
+      "label": "Static Export",
+      "topicId": "evmzZ6F7TWgYhdaahnZHY",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-hQHvu7MzNwA2lL9ADm5YQ",
+      "label": "Static vs Dynamic API Endpoints",
+      "topicId": "hQHvu7MzNwA2lL9ADm5YQ",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-lR7oPh0DCY_BhzXH31N36",
+      "label": "Streaming in Next.js API Endpoints",
+      "topicId": "lR7oPh0DCY_BhzXH31N36",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-9egFwmy-o7Fx-M7FcPXXy",
+      "label": "Structuring Routes",
+      "topicId": "9egFwmy-o7Fx-M7FcPXXy",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-3IKXvlA9P06GiOi34zv5H",
+      "label": "Tailwind CSS",
+      "topicId": "3IKXvlA9P06GiOi34zv5H",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node--j38AhG6LUCH5GupGiqUM",
+      "label": "Third Party Libraries",
+      "topicId": "-j38AhG6LUCH5GupGiqUM",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-km7dLVpl76c5EfWvhhbRh",
+      "label": "Types of Routers",
+      "topicId": "km7dLVpl76c5EfWvhhbRh",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-ZFHkHmvjndPjDAB-MAtb7",
+      "label": "TypeScript",
+      "topicId": "ZFHkHmvjndPjDAB-MAtb7",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-54Cc_GdL327tzkdYBA305",
+      "label": "Middleware Use Cases",
+      "topicId": "54Cc_GdL327tzkdYBA305",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-8kUhcd2-BlqOKInEuSI95",
+      "label": "Using Cookies in Next.js Middleware",
+      "topicId": "8kUhcd2-BlqOKInEuSI95",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-1SJX-nGuhIxGH0ukfluoQ",
+      "label": "Videos in Next.js",
+      "topicId": "1SJX-nGuhIxGH0ukfluoQ",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-KTZRo1Y_Z-7eMYzZ9W0Vl",
+      "label": "Vitest",
+      "topicId": "KTZRo1Y_Z-7eMYzZ9W0Vl",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-rJ3vuI58Z9u2SKTDgpTE2",
+      "label": "Why Frontend Frameworks?",
+      "topicId": "rJ3vuI58Z9u2SKTDgpTE2",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-WxoMZRRiW9CGDZ9i80nbf",
+      "label": "Why Next.js?",
+      "topicId": "WxoMZRRiW9CGDZ9i80nbf",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-ey6z7Y4WtNtQJ50n-3j5P",
+      "label": "Why React?",
+      "topicId": "ey6z7Y4WtNtQJ50n-3j5P",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-e_rwwlKsvyv9OMDDBXo_N",
+      "label": "App Router",
+      "topicId": "e_rwwlKsvyv9OMDDBXo_N",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5040
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-node-fXXlJ6oN_YPWVr-fqEar3-node-a34ZmSk5VYVLq8wsEvOcI",
+      "source": "node-fXXlJ6oN_YPWVr-fqEar3",
+      "target": "node-a34ZmSk5VYVLq8wsEvOcI",
+      "animated": true
+    },
+    {
+      "id": "edge-node-a34ZmSk5VYVLq8wsEvOcI-node-4H8aOVYsZiPbTQUYcZjb_",
+      "source": "node-a34ZmSk5VYVLq8wsEvOcI",
+      "target": "node-4H8aOVYsZiPbTQUYcZjb_",
+      "animated": true
+    },
+    {
+      "id": "edge-node-4H8aOVYsZiPbTQUYcZjb_-node-3VXKRDxDmqJObkoW8ndrz",
+      "source": "node-4H8aOVYsZiPbTQUYcZjb_",
+      "target": "node-3VXKRDxDmqJObkoW8ndrz",
+      "animated": true
+    },
+    {
+      "id": "edge-node-3VXKRDxDmqJObkoW8ndrz-node-77i6HVsnX-uSDw8vz3afD",
+      "source": "node-3VXKRDxDmqJObkoW8ndrz",
+      "target": "node-77i6HVsnX-uSDw8vz3afD",
+      "animated": true
+    },
+    {
+      "id": "edge-node-77i6HVsnX-uSDw8vz3afD-node-0Rgs7jaFX1Gl5KDT6DKbX",
+      "source": "node-77i6HVsnX-uSDw8vz3afD",
+      "target": "node-0Rgs7jaFX1Gl5KDT6DKbX",
+      "animated": true
+    },
+    {
+      "id": "edge-node-0Rgs7jaFX1Gl5KDT6DKbX-node-HdSmD_nDV5BPO5JJqs1k8",
+      "source": "node-0Rgs7jaFX1Gl5KDT6DKbX",
+      "target": "node-HdSmD_nDV5BPO5JJqs1k8",
+      "animated": true
+    },
+    {
+      "id": "edge-node-HdSmD_nDV5BPO5JJqs1k8-node-jYSa7UMmjb51pGAyU4PoB",
+      "source": "node-HdSmD_nDV5BPO5JJqs1k8",
+      "target": "node-jYSa7UMmjb51pGAyU4PoB",
+      "animated": true
+    },
+    {
+      "id": "edge-node-jYSa7UMmjb51pGAyU4PoB-node-6O9c3J-1JQtZTXXIDDXSM",
+      "source": "node-jYSa7UMmjb51pGAyU4PoB",
+      "target": "node-6O9c3J-1JQtZTXXIDDXSM",
+      "animated": true
+    },
+    {
+      "id": "edge-node-6O9c3J-1JQtZTXXIDDXSM-node-3tTTKj6PWsRoRRXH5tXxS",
+      "source": "node-6O9c3J-1JQtZTXXIDDXSM",
+      "target": "node-3tTTKj6PWsRoRRXH5tXxS",
+      "animated": true
+    },
+    {
+      "id": "edge-node-3tTTKj6PWsRoRRXH5tXxS-node-4CcK-BLP5NM3ZrCIEG4s8",
+      "source": "node-3tTTKj6PWsRoRRXH5tXxS",
+      "target": "node-4CcK-BLP5NM3ZrCIEG4s8",
+      "animated": true
+    },
+    {
+      "id": "edge-node-4CcK-BLP5NM3ZrCIEG4s8-node-j5jIZvz_bMZqmr_gl0pQF",
+      "source": "node-4CcK-BLP5NM3ZrCIEG4s8",
+      "target": "node-j5jIZvz_bMZqmr_gl0pQF",
+      "animated": true
+    },
+    {
+      "id": "edge-node-j5jIZvz_bMZqmr_gl0pQF-node-tlg5XMVcAHmhey-efjf3M",
+      "source": "node-j5jIZvz_bMZqmr_gl0pQF",
+      "target": "node-tlg5XMVcAHmhey-efjf3M",
+      "animated": true
+    },
+    {
+      "id": "edge-node-tlg5XMVcAHmhey-efjf3M-node-Hj01UZuHkQppXTq6XV9Pn",
+      "source": "node-tlg5XMVcAHmhey-efjf3M",
+      "target": "node-Hj01UZuHkQppXTq6XV9Pn",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Hj01UZuHkQppXTq6XV9Pn-node-KmOTgclnf-QYDYK0QwwVe",
+      "source": "node-Hj01UZuHkQppXTq6XV9Pn",
+      "target": "node-KmOTgclnf-QYDYK0QwwVe",
+      "animated": true
+    },
+    {
+      "id": "edge-node-KmOTgclnf-QYDYK0QwwVe-node-GAHFfQ8CviNxV7ITpt--q",
+      "source": "node-KmOTgclnf-QYDYK0QwwVe",
+      "target": "node-GAHFfQ8CviNxV7ITpt--q",
+      "animated": true
+    },
+    {
+      "id": "edge-node-GAHFfQ8CviNxV7ITpt--q-node-BPStVqWV0660A-_fJSuM7",
+      "source": "node-GAHFfQ8CviNxV7ITpt--q",
+      "target": "node-BPStVqWV0660A-_fJSuM7",
+      "animated": true
+    },
+    {
+      "id": "edge-node-BPStVqWV0660A-_fJSuM7-node-y5_zX209AaHOf_wQibo12",
+      "source": "node-BPStVqWV0660A-_fJSuM7",
+      "target": "node-y5_zX209AaHOf_wQibo12",
+      "animated": true
+    },
+    {
+      "id": "edge-node-y5_zX209AaHOf_wQibo12-node-SYUKB1Afciqz7hA1n5yIx",
+      "source": "node-y5_zX209AaHOf_wQibo12",
+      "target": "node-SYUKB1Afciqz7hA1n5yIx",
+      "animated": true
+    },
+    {
+      "id": "edge-node-SYUKB1Afciqz7hA1n5yIx-node-iv6rWEqjh07d0n2kAQedO",
+      "source": "node-SYUKB1Afciqz7hA1n5yIx",
+      "target": "node-iv6rWEqjh07d0n2kAQedO",
+      "animated": true
+    },
+    {
+      "id": "edge-node-iv6rWEqjh07d0n2kAQedO-node-pxltXOWgpbo95V4u2ryX7",
+      "source": "node-iv6rWEqjh07d0n2kAQedO",
+      "target": "node-pxltXOWgpbo95V4u2ryX7",
+      "animated": true
+    },
+    {
+      "id": "edge-node-pxltXOWgpbo95V4u2ryX7-node-CvrHzkxg7ndCvd_tbYnK4",
+      "source": "node-pxltXOWgpbo95V4u2ryX7",
+      "target": "node-CvrHzkxg7ndCvd_tbYnK4",
+      "animated": true
+    },
+    {
+      "id": "edge-node-CvrHzkxg7ndCvd_tbYnK4-node-lkdBRzC8lAvRYKBt7E37V",
+      "source": "node-CvrHzkxg7ndCvd_tbYnK4",
+      "target": "node-lkdBRzC8lAvRYKBt7E37V",
+      "animated": true
+    },
+    {
+      "id": "edge-node-lkdBRzC8lAvRYKBt7E37V-node-ZptECTASMX97m5yCZ-XO8",
+      "source": "node-lkdBRzC8lAvRYKBt7E37V",
+      "target": "node-ZptECTASMX97m5yCZ-XO8",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ZptECTASMX97m5yCZ-XO8-node-BfNON3Vp3zSWBurSS4ZHo",
+      "source": "node-ZptECTASMX97m5yCZ-XO8",
+      "target": "node-BfNON3Vp3zSWBurSS4ZHo",
+      "animated": true
+    },
+    {
+      "id": "edge-node-BfNON3Vp3zSWBurSS4ZHo-node-Ti_Bl5NnRIY9UTNTH15xA",
+      "source": "node-BfNON3Vp3zSWBurSS4ZHo",
+      "target": "node-Ti_Bl5NnRIY9UTNTH15xA",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Ti_Bl5NnRIY9UTNTH15xA-node-1t9iOcmrEmuwOxOZ0vlY7",
+      "source": "node-Ti_Bl5NnRIY9UTNTH15xA",
+      "target": "node-1t9iOcmrEmuwOxOZ0vlY7",
+      "animated": true
+    },
+    {
+      "id": "edge-node-1t9iOcmrEmuwOxOZ0vlY7-node-DHqdXJFhVZWaNa5zSX8Wk",
+      "source": "node-1t9iOcmrEmuwOxOZ0vlY7",
+      "target": "node-DHqdXJFhVZWaNa5zSX8Wk",
+      "animated": true
+    },
+    {
+      "id": "edge-node-DHqdXJFhVZWaNa5zSX8Wk-node-dP6cZkEZ6lxPsy5SjvuZA",
+      "source": "node-DHqdXJFhVZWaNa5zSX8Wk",
+      "target": "node-dP6cZkEZ6lxPsy5SjvuZA",
+      "animated": true
+    },
+    {
+      "id": "edge-node-dP6cZkEZ6lxPsy5SjvuZA-node-bSsM7VLZcJKYL5XXSG0r-",
+      "source": "node-dP6cZkEZ6lxPsy5SjvuZA",
+      "target": "node-bSsM7VLZcJKYL5XXSG0r-",
+      "animated": true
+    },
+    {
+      "id": "edge-node-bSsM7VLZcJKYL5XXSG0r--node-tcDL4OEbZplbjNa8VTLpv",
+      "source": "node-bSsM7VLZcJKYL5XXSG0r-",
+      "target": "node-tcDL4OEbZplbjNa8VTLpv",
+      "animated": true
+    },
+    {
+      "id": "edge-node-tcDL4OEbZplbjNa8VTLpv-node-DlUQkDRPUcjC3pO4P5zCQ",
+      "source": "node-tcDL4OEbZplbjNa8VTLpv",
+      "target": "node-DlUQkDRPUcjC3pO4P5zCQ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-DlUQkDRPUcjC3pO4P5zCQ-node-sc5Pliyq6bfeFXp0ca5yH",
+      "source": "node-DlUQkDRPUcjC3pO4P5zCQ",
+      "target": "node-sc5Pliyq6bfeFXp0ca5yH",
+      "animated": true
+    },
+    {
+      "id": "edge-node-sc5Pliyq6bfeFXp0ca5yH-node-zJXCS7U9NUsn7cuEx3YMs",
+      "source": "node-sc5Pliyq6bfeFXp0ca5yH",
+      "target": "node-zJXCS7U9NUsn7cuEx3YMs",
+      "animated": true
+    },
+    {
+      "id": "edge-node-zJXCS7U9NUsn7cuEx3YMs-node-3_Mpvkxp9A7PMogxxMikQ",
+      "source": "node-zJXCS7U9NUsn7cuEx3YMs",
+      "target": "node-3_Mpvkxp9A7PMogxxMikQ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-3_Mpvkxp9A7PMogxxMikQ-node-b2LcPc5MfoyF0W9Y0aGpR",
+      "source": "node-3_Mpvkxp9A7PMogxxMikQ",
+      "target": "node-b2LcPc5MfoyF0W9Y0aGpR",
+      "animated": true
+    },
+    {
+      "id": "edge-node-b2LcPc5MfoyF0W9Y0aGpR-node-3GI0xHGG_qgpLfEjaLYxr",
+      "source": "node-b2LcPc5MfoyF0W9Y0aGpR",
+      "target": "node-3GI0xHGG_qgpLfEjaLYxr",
+      "animated": true
+    },
+    {
+      "id": "edge-node-3GI0xHGG_qgpLfEjaLYxr-node-UZCMVpg5YIDxu-AMah3S-",
+      "source": "node-3GI0xHGG_qgpLfEjaLYxr",
+      "target": "node-UZCMVpg5YIDxu-AMah3S-",
+      "animated": true
+    },
+    {
+      "id": "edge-node-UZCMVpg5YIDxu-AMah3S--node-SI7KzNSLP0ccH_P94StGL",
+      "source": "node-UZCMVpg5YIDxu-AMah3S-",
+      "target": "node-SI7KzNSLP0ccH_P94StGL",
+      "animated": true
+    },
+    {
+      "id": "edge-node-SI7KzNSLP0ccH_P94StGL-node-45XMR5imHEDF_X8wcgjGW",
+      "source": "node-SI7KzNSLP0ccH_P94StGL",
+      "target": "node-45XMR5imHEDF_X8wcgjGW",
+      "animated": true
+    },
+    {
+      "id": "edge-node-45XMR5imHEDF_X8wcgjGW-node-gpZNwsh075wl5eH2gLKro",
+      "source": "node-45XMR5imHEDF_X8wcgjGW",
+      "target": "node-gpZNwsh075wl5eH2gLKro",
+      "animated": true
+    },
+    {
+      "id": "edge-node-gpZNwsh075wl5eH2gLKro-node-xRZqBd5-QO8zh7ksHlRjK",
+      "source": "node-gpZNwsh075wl5eH2gLKro",
+      "target": "node-xRZqBd5-QO8zh7ksHlRjK",
+      "animated": true
+    },
+    {
+      "id": "edge-node-xRZqBd5-QO8zh7ksHlRjK-node-uJrOHRLmEBZtHJzAAusUe",
+      "source": "node-xRZqBd5-QO8zh7ksHlRjK",
+      "target": "node-uJrOHRLmEBZtHJzAAusUe",
+      "animated": true
+    },
+    {
+      "id": "edge-node-uJrOHRLmEBZtHJzAAusUe-node-Okw_IjU2iRSvSQVdKeeCo",
+      "source": "node-uJrOHRLmEBZtHJzAAusUe",
+      "target": "node-Okw_IjU2iRSvSQVdKeeCo",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Okw_IjU2iRSvSQVdKeeCo-node-0S37ka1K-TdYLnjCBrKSH",
+      "source": "node-Okw_IjU2iRSvSQVdKeeCo",
+      "target": "node-0S37ka1K-TdYLnjCBrKSH",
+      "animated": true
+    },
+    {
+      "id": "edge-node-0S37ka1K-TdYLnjCBrKSH-node-mTh5PZNpzJNKPqpu5PVL6",
+      "source": "node-0S37ka1K-TdYLnjCBrKSH",
+      "target": "node-mTh5PZNpzJNKPqpu5PVL6",
+      "animated": true
+    },
+    {
+      "id": "edge-node-mTh5PZNpzJNKPqpu5PVL6-node-qM_Za9NiCiCG5-kf5RCXF",
+      "source": "node-mTh5PZNpzJNKPqpu5PVL6",
+      "target": "node-qM_Za9NiCiCG5-kf5RCXF",
+      "animated": true
+    },
+    {
+      "id": "edge-node-qM_Za9NiCiCG5-kf5RCXF-node-htuyzi5_N-fqnx_SsO_DS",
+      "source": "node-qM_Za9NiCiCG5-kf5RCXF",
+      "target": "node-htuyzi5_N-fqnx_SsO_DS",
+      "animated": true
+    },
+    {
+      "id": "edge-node-htuyzi5_N-fqnx_SsO_DS-node-2N_hm9Zx_Lp-RFEMP9HFb",
+      "source": "node-htuyzi5_N-fqnx_SsO_DS",
+      "target": "node-2N_hm9Zx_Lp-RFEMP9HFb",
+      "animated": true
+    },
+    {
+      "id": "edge-node-2N_hm9Zx_Lp-RFEMP9HFb-node-SjJQ7ceU6vBhlhrN8hcvy",
+      "source": "node-2N_hm9Zx_Lp-RFEMP9HFb",
+      "target": "node-SjJQ7ceU6vBhlhrN8hcvy",
+      "animated": true
+    },
+    {
+      "id": "edge-node-SjJQ7ceU6vBhlhrN8hcvy-node-qFDdfOBdOlGMjTEOiiuTe",
+      "source": "node-SjJQ7ceU6vBhlhrN8hcvy",
+      "target": "node-qFDdfOBdOlGMjTEOiiuTe",
+      "animated": true
+    },
+    {
+      "id": "edge-node-qFDdfOBdOlGMjTEOiiuTe-node-Ve1Pa7IhGHPZ_F-sCMcNb",
+      "source": "node-qFDdfOBdOlGMjTEOiiuTe",
+      "target": "node-Ve1Pa7IhGHPZ_F-sCMcNb",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Ve1Pa7IhGHPZ_F-sCMcNb-node--yiJSBIoczJHOW8YMdWFI",
+      "source": "node-Ve1Pa7IhGHPZ_F-sCMcNb",
+      "target": "node--yiJSBIoczJHOW8YMdWFI",
+      "animated": true
+    },
+    {
+      "id": "edge-node--yiJSBIoczJHOW8YMdWFI-node-efMytbUmw44M8dPL4ItsX",
+      "source": "node--yiJSBIoczJHOW8YMdWFI",
+      "target": "node-efMytbUmw44M8dPL4ItsX",
+      "animated": true
+    },
+    {
+      "id": "edge-node-efMytbUmw44M8dPL4ItsX-node-crBlqiS78n7yz28cT2GGz",
+      "source": "node-efMytbUmw44M8dPL4ItsX",
+      "target": "node-crBlqiS78n7yz28cT2GGz",
+      "animated": true
+    },
+    {
+      "id": "edge-node-crBlqiS78n7yz28cT2GGz-node-FdvaN6BOxUEJt7TarSDmo",
+      "source": "node-crBlqiS78n7yz28cT2GGz",
+      "target": "node-FdvaN6BOxUEJt7TarSDmo",
+      "animated": true
+    },
+    {
+      "id": "edge-node-FdvaN6BOxUEJt7TarSDmo-node-K1wGmAy9L0VE6cwYE2pA6",
+      "source": "node-FdvaN6BOxUEJt7TarSDmo",
+      "target": "node-K1wGmAy9L0VE6cwYE2pA6",
+      "animated": true
+    },
+    {
+      "id": "edge-node-K1wGmAy9L0VE6cwYE2pA6-node-G_33yo1MshQbiaGTPtTdK",
+      "source": "node-K1wGmAy9L0VE6cwYE2pA6",
+      "target": "node-G_33yo1MshQbiaGTPtTdK",
+      "animated": true
+    },
+    {
+      "id": "edge-node-G_33yo1MshQbiaGTPtTdK-node-IlWFMh44HtHDnIr7nqwtI",
+      "source": "node-G_33yo1MshQbiaGTPtTdK",
+      "target": "node-IlWFMh44HtHDnIr7nqwtI",
+      "animated": true
+    },
+    {
+      "id": "edge-node-IlWFMh44HtHDnIr7nqwtI-node-1ch6ZXZP46FP8q3HeCqWM",
+      "source": "node-IlWFMh44HtHDnIr7nqwtI",
+      "target": "node-1ch6ZXZP46FP8q3HeCqWM",
+      "animated": true
+    },
+    {
+      "id": "edge-node-1ch6ZXZP46FP8q3HeCqWM-node-N5siOJO3dc9vJUTpbdm04",
+      "source": "node-1ch6ZXZP46FP8q3HeCqWM",
+      "target": "node-N5siOJO3dc9vJUTpbdm04",
+      "animated": true
+    },
+    {
+      "id": "edge-node-N5siOJO3dc9vJUTpbdm04-node-qMYuXOlr_c-6oQKVOdGci",
+      "source": "node-N5siOJO3dc9vJUTpbdm04",
+      "target": "node-qMYuXOlr_c-6oQKVOdGci",
+      "animated": true
+    },
+    {
+      "id": "edge-node-qMYuXOlr_c-6oQKVOdGci-node-Sn-8ztsjjtUxD_SP6w3cS",
+      "source": "node-qMYuXOlr_c-6oQKVOdGci",
+      "target": "node-Sn-8ztsjjtUxD_SP6w3cS",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Sn-8ztsjjtUxD_SP6w3cS-node-09uWsmXOXU0Ox7F3qsjRx",
+      "source": "node-Sn-8ztsjjtUxD_SP6w3cS",
+      "target": "node-09uWsmXOXU0Ox7F3qsjRx",
+      "animated": true
+    },
+    {
+      "id": "edge-node-09uWsmXOXU0Ox7F3qsjRx-node-oFhmV5Xv0KJ-SjeYVZBpi",
+      "source": "node-09uWsmXOXU0Ox7F3qsjRx",
+      "target": "node-oFhmV5Xv0KJ-SjeYVZBpi",
+      "animated": true
+    },
+    {
+      "id": "edge-node-oFhmV5Xv0KJ-SjeYVZBpi-node-LN7SHgcQp9gX_jfEN84YP",
+      "source": "node-oFhmV5Xv0KJ-SjeYVZBpi",
+      "target": "node-LN7SHgcQp9gX_jfEN84YP",
+      "animated": true
+    },
+    {
+      "id": "edge-node-LN7SHgcQp9gX_jfEN84YP-node-5H7toz-DxtnwjozCgLuk6",
+      "source": "node-LN7SHgcQp9gX_jfEN84YP",
+      "target": "node-5H7toz-DxtnwjozCgLuk6",
+      "animated": true
+    },
+    {
+      "id": "edge-node-5H7toz-DxtnwjozCgLuk6-node-JFrpy3dGt-UP9Weo1VBvN",
+      "source": "node-5H7toz-DxtnwjozCgLuk6",
+      "target": "node-JFrpy3dGt-UP9Weo1VBvN",
+      "animated": true
+    },
+    {
+      "id": "edge-node-JFrpy3dGt-UP9Weo1VBvN-node-IuBZY-ISP1Sy_5OQ99jLY",
+      "source": "node-JFrpy3dGt-UP9Weo1VBvN",
+      "target": "node-IuBZY-ISP1Sy_5OQ99jLY",
+      "animated": true
+    },
+    {
+      "id": "edge-node-IuBZY-ISP1Sy_5OQ99jLY-node-m7eKlykOZCA3BLuBHioDj",
+      "source": "node-IuBZY-ISP1Sy_5OQ99jLY",
+      "target": "node-m7eKlykOZCA3BLuBHioDj",
+      "animated": true
+    },
+    {
+      "id": "edge-node-m7eKlykOZCA3BLuBHioDj-node-QDxYlIyFOuGUIy_ZovHs0",
+      "source": "node-m7eKlykOZCA3BLuBHioDj",
+      "target": "node-QDxYlIyFOuGUIy_ZovHs0",
+      "animated": true
+    },
+    {
+      "id": "edge-node-QDxYlIyFOuGUIy_ZovHs0-node-XwDF-Kt9K5smm3ruxlkR2",
+      "source": "node-QDxYlIyFOuGUIy_ZovHs0",
+      "target": "node-XwDF-Kt9K5smm3ruxlkR2",
+      "animated": true
+    },
+    {
+      "id": "edge-node-XwDF-Kt9K5smm3ruxlkR2-node-ThrO72opK7xGWpy0GG63T",
+      "source": "node-XwDF-Kt9K5smm3ruxlkR2",
+      "target": "node-ThrO72opK7xGWpy0GG63T",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ThrO72opK7xGWpy0GG63T-node-ch5gUr8xeCIp-i48N5qew",
+      "source": "node-ThrO72opK7xGWpy0GG63T",
+      "target": "node-ch5gUr8xeCIp-i48N5qew",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ch5gUr8xeCIp-i48N5qew-node-NC7s-EOLWhjXR70JFZxcg",
+      "source": "node-ch5gUr8xeCIp-i48N5qew",
+      "target": "node-NC7s-EOLWhjXR70JFZxcg",
+      "animated": true
+    },
+    {
+      "id": "edge-node-NC7s-EOLWhjXR70JFZxcg-node-CqPZHOs1Iew6PCIjwiqUt",
+      "source": "node-NC7s-EOLWhjXR70JFZxcg",
+      "target": "node-CqPZHOs1Iew6PCIjwiqUt",
+      "animated": true
+    },
+    {
+      "id": "edge-node-CqPZHOs1Iew6PCIjwiqUt-node-7EYQnX3cEAjSL-iJSprEI",
+      "source": "node-CqPZHOs1Iew6PCIjwiqUt",
+      "target": "node-7EYQnX3cEAjSL-iJSprEI",
+      "animated": true
+    },
+    {
+      "id": "edge-node-7EYQnX3cEAjSL-iJSprEI-node-iabbuLHqAiRkgj03t64x7",
+      "source": "node-7EYQnX3cEAjSL-iJSprEI",
+      "target": "node-iabbuLHqAiRkgj03t64x7",
+      "animated": true
+    },
+    {
+      "id": "edge-node-iabbuLHqAiRkgj03t64x7-node-evmzZ6F7TWgYhdaahnZHY",
+      "source": "node-iabbuLHqAiRkgj03t64x7",
+      "target": "node-evmzZ6F7TWgYhdaahnZHY",
+      "animated": true
+    },
+    {
+      "id": "edge-node-evmzZ6F7TWgYhdaahnZHY-node-hQHvu7MzNwA2lL9ADm5YQ",
+      "source": "node-evmzZ6F7TWgYhdaahnZHY",
+      "target": "node-hQHvu7MzNwA2lL9ADm5YQ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-hQHvu7MzNwA2lL9ADm5YQ-node-lR7oPh0DCY_BhzXH31N36",
+      "source": "node-hQHvu7MzNwA2lL9ADm5YQ",
+      "target": "node-lR7oPh0DCY_BhzXH31N36",
+      "animated": true
+    },
+    {
+      "id": "edge-node-lR7oPh0DCY_BhzXH31N36-node-9egFwmy-o7Fx-M7FcPXXy",
+      "source": "node-lR7oPh0DCY_BhzXH31N36",
+      "target": "node-9egFwmy-o7Fx-M7FcPXXy",
+      "animated": true
+    },
+    {
+      "id": "edge-node-9egFwmy-o7Fx-M7FcPXXy-node-3IKXvlA9P06GiOi34zv5H",
+      "source": "node-9egFwmy-o7Fx-M7FcPXXy",
+      "target": "node-3IKXvlA9P06GiOi34zv5H",
+      "animated": true
+    },
+    {
+      "id": "edge-node-3IKXvlA9P06GiOi34zv5H-node--j38AhG6LUCH5GupGiqUM",
+      "source": "node-3IKXvlA9P06GiOi34zv5H",
+      "target": "node--j38AhG6LUCH5GupGiqUM",
+      "animated": true
+    },
+    {
+      "id": "edge-node--j38AhG6LUCH5GupGiqUM-node-km7dLVpl76c5EfWvhhbRh",
+      "source": "node--j38AhG6LUCH5GupGiqUM",
+      "target": "node-km7dLVpl76c5EfWvhhbRh",
+      "animated": true
+    },
+    {
+      "id": "edge-node-km7dLVpl76c5EfWvhhbRh-node-ZFHkHmvjndPjDAB-MAtb7",
+      "source": "node-km7dLVpl76c5EfWvhhbRh",
+      "target": "node-ZFHkHmvjndPjDAB-MAtb7",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ZFHkHmvjndPjDAB-MAtb7-node-54Cc_GdL327tzkdYBA305",
+      "source": "node-ZFHkHmvjndPjDAB-MAtb7",
+      "target": "node-54Cc_GdL327tzkdYBA305",
+      "animated": true
+    },
+    {
+      "id": "edge-node-54Cc_GdL327tzkdYBA305-node-8kUhcd2-BlqOKInEuSI95",
+      "source": "node-54Cc_GdL327tzkdYBA305",
+      "target": "node-8kUhcd2-BlqOKInEuSI95",
+      "animated": true
+    },
+    {
+      "id": "edge-node-8kUhcd2-BlqOKInEuSI95-node-1SJX-nGuhIxGH0ukfluoQ",
+      "source": "node-8kUhcd2-BlqOKInEuSI95",
+      "target": "node-1SJX-nGuhIxGH0ukfluoQ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-1SJX-nGuhIxGH0ukfluoQ-node-KTZRo1Y_Z-7eMYzZ9W0Vl",
+      "source": "node-1SJX-nGuhIxGH0ukfluoQ",
+      "target": "node-KTZRo1Y_Z-7eMYzZ9W0Vl",
+      "animated": true
+    },
+    {
+      "id": "edge-node-KTZRo1Y_Z-7eMYzZ9W0Vl-node-rJ3vuI58Z9u2SKTDgpTE2",
+      "source": "node-KTZRo1Y_Z-7eMYzZ9W0Vl",
+      "target": "node-rJ3vuI58Z9u2SKTDgpTE2",
+      "animated": true
+    },
+    {
+      "id": "edge-node-rJ3vuI58Z9u2SKTDgpTE2-node-WxoMZRRiW9CGDZ9i80nbf",
+      "source": "node-rJ3vuI58Z9u2SKTDgpTE2",
+      "target": "node-WxoMZRRiW9CGDZ9i80nbf",
+      "animated": true
+    },
+    {
+      "id": "edge-node-WxoMZRRiW9CGDZ9i80nbf-node-ey6z7Y4WtNtQJ50n-3j5P",
+      "source": "node-WxoMZRRiW9CGDZ9i80nbf",
+      "target": "node-ey6z7Y4WtNtQJ50n-3j5P",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ey6z7Y4WtNtQJ50n-3j5P-node-e_rwwlKsvyv9OMDDBXo_N",
+      "source": "node-ey6z7Y4WtNtQJ50n-3j5P",
+      "target": "node-e_rwwlKsvyv9OMDDBXo_N",
+      "animated": true
+    }
+  ],
+  "topics": {
+    "fXXlJ6oN_YPWVr-fqEar3": {
+      "id": "fXXlJ6oN_YPWVr-fqEar3",
+      "slug": "adapters",
+      "title": "Adapter",
+      "description": "Next.js can be adapted to run on different platforms to support their infrastructure capabilities, including AWS Amplify Hosting, Cloudflare, Deno Deploy, Netlify, and Vercel.",
+      "resources": [
+        {
+          "id": "fXXlJ6oN_YPWVr-fqEar3-res-1",
+          "type": "article",
+          "title": "Deployment with Adapters",
+          "url": "https://nextjs.org/docs/app/getting-started/deploying#adapters"
+        }
+      ]
+    },
+    "a34ZmSk5VYVLq8wsEvOcI": {
+      "id": "a34ZmSk5VYVLq8wsEvOcI",
+      "slug": "analytics",
+      "title": "Analytics",
+      "description": "Next.js has built-in support for measuring and reporting performance metrics. You can either use the `useReportWebVitals` hook to manage reporting yourself, or alternatively, Vercel provides a managed service to automatically collect and visualize metrics for you.",
+      "resources": [
+        {
+          "id": "a34ZmSk5VYVLq8wsEvOcI-res-1",
+          "type": "article",
+          "title": "How to add analytics to your Next.js application",
+          "url": "https://nextjs.org/docs/app/guides/analytics"
+        },
+        {
+          "id": "a34ZmSk5VYVLq8wsEvOcI-res-2",
+          "type": "article",
+          "title": "useReportWebVitals",
+          "url": "https://nextjs.org/docs/app/api-reference/functions/use-report-web-vitals"
+        }
+      ]
+    },
+    "4H8aOVYsZiPbTQUYcZjb_": {
+      "id": "4H8aOVYsZiPbTQUYcZjb_",
+      "slug": "api-endpoints",
+      "title": "API Endpoints",
+      "description": "API Routes let you create an API endpoint inside a Next.js app. API endpoints work differently in Pages routers and App Routers: * Pages Router: Historically, Next.js used pages/api/* for APIs. This approach relied on Node.js request/response objects and an Express-like API. * App Router (Default): Introduced in Next.js 13, the App Router fully embraces web standard Request/Response APIs. Instead of pages/api/*, you can now place `route.ts` or `route.js` files anywhere inside the app/ directory.",
+      "resources": [
+        {
+          "id": "4H8aOVYsZiPbTQUYcZjb_-res-1",
+          "type": "article",
+          "title": "Route Handlers and Middleware",
+          "url": "https://nextjs.org/docs/app/getting-started/route-handlers-and-middleware"
+        },
+        {
+          "id": "4H8aOVYsZiPbTQUYcZjb_-res-2",
+          "type": "article",
+          "title": "API Routes for Pages Router",
+          "url": "https://nextjs.org/docs/pages/building-your-application/routing/api-routes"
+        },
+        {
+          "id": "4H8aOVYsZiPbTQUYcZjb_-res-3",
+          "type": "article",
+          "title": "Building APIs with Next.js",
+          "url": "https://nextjs.org/blog/building-apis-with-nextjs"
+        },
+        {
+          "id": "4H8aOVYsZiPbTQUYcZjb_-res-4",
+          "type": "video",
+          "title": "Next.js 15 Tutorial - Route Handlers",
+          "url": "https://www.youtube.com/watch?v=27Uj6BeIDV0"
+        }
+      ]
+    },
+    "3VXKRDxDmqJObkoW8ndrz": {
+      "id": "3VXKRDxDmqJObkoW8ndrz",
+      "slug": "app",
+      "title": "App Router",
+      "description": "The App Router is a file-system based router that uses React's latest features, such as [Server Components](https://react.dev/reference/rsc/server-components), [Suspense](https://react.dev/reference/react/Suspense), and [Server Functions](https://react.dev/reference/rsc/server-functions)",
+      "resources": [
+        {
+          "id": "3VXKRDxDmqJObkoW8ndrz-res-1",
+          "type": "article",
+          "title": "App Router Tutorial",
+          "url": "https://nextjs.org/learn/dashboard-app"
+        },
+        {
+          "id": "3VXKRDxDmqJObkoW8ndrz-res-2",
+          "type": "video",
+          "title": "Next js Tutorial for Beginners | Nextjs 13 (App Router) with TypeScript",
+          "url": "https://www.youtube.com/watch?v=ZVnjOPwW4ZA"
+        }
+      ]
+    },
+    "77i6HVsnX-uSDw8vz3afD": {
+      "id": "77i6HVsnX-uSDw8vz3afD",
+      "slug": "caching-data",
+      "title": "Caching Data",
+      "description": "Caching data in Next.js involves storing the results of data fetches so that subsequent requests for the same data can be served faster. Instead of repeatedly fetching data from a database or API, Next.js can retrieve it from the cache. This improves performance and reduces the load on your data sources. Caching can be configured at different levels. Caching behavior changes depending on whether the route is statically or dynamically rendered, data is cached or uncached, and whether a request is part of an initial visit or a subsequent navigation. Depending on your use case, you can configure the caching behavior for individual routes and data requests.",
+      "resources": [
+        {
+          "id": "77i6HVsnX-uSDw8vz3afD-res-1",
+          "type": "article",
+          "title": "Caching and Revalidating",
+          "url": "https://nextjs.org/docs/app/getting-started/caching-and-revalidating"
+        }
+      ]
+    },
+    "0Rgs7jaFX1Gl5KDT6DKbX": {
+      "id": "0Rgs7jaFX1Gl5KDT6DKbX",
+      "slug": "caching",
+      "title": "Caching API Endpoints in Next.js",
+      "description": "When you don't know the exact route segment names ahead of time and want to create routes from dynamic data, you can use Dynamic Segments that are filled in at request time or prerendered at build time. One example is catch-all segments, which allow you to extend API Routes  to catch all subsequent paths.",
+      "resources": [
+        {
+          "id": "0Rgs7jaFX1Gl5KDT6DKbX-res-1",
+          "type": "article",
+          "title": "Catch-all Segments for App Router",
+          "url": "https://nextjs.org/docs/app/api-reference/file-conventions/dynamic-routes#catch-all-segments"
+        },
+        {
+          "id": "0Rgs7jaFX1Gl5KDT6DKbX-res-2",
+          "type": "article",
+          "title": "Catch all API routes for Page Router",
+          "url": "https://nextjs.org/docs/pages/building-your-application/routing/api-routes#catch-all-api-routes"
+        },
+        {
+          "id": "0Rgs7jaFX1Gl5KDT6DKbX-res-3",
+          "type": "video",
+          "title": "Next.js 15 Tutorial - Catch all Segments",
+          "url": "https://www.youtube.com/watch?v=d46hLIg1B3Q"
+        }
+      ]
+    },
+    "HdSmD_nDV5BPO5JJqs1k8": {
+      "id": "HdSmD_nDV5BPO5JJqs1k8",
+      "slug": "client-rendered",
+      "title": "Client-Side Rendering in Next.js",
+      "description": "Client-Side Rendering (CSR) means the browser receives a minimal HTML page from the server. The browser then downloads the JavaScript code, which is responsible for rendering the entire user interface. The JavaScript code fetches the data and dynamically generates the HTML content in the browser. This approach shifts the rendering workload from the server to the client's browser.",
+      "resources": [
+        {
+          "id": "HdSmD_nDV5BPO5JJqs1k8-res-1",
+          "type": "article",
+          "title": "Server and Client Components for App Router",
+          "url": "https://nextjs.org/docs/app/getting-started/server-and-client-components"
+        },
+        {
+          "id": "HdSmD_nDV5BPO5JJqs1k8-res-2",
+          "type": "article",
+          "title": "Client-side Rendering for Pages Router",
+          "url": "https://nextjs.org/docs/pages/building-your-application/rendering/client-side-rendering"
+        },
+        {
+          "id": "HdSmD_nDV5BPO5JJqs1k8-res-3",
+          "type": "article",
+          "title": "Client Components",
+          "url": "https://nextjs.org/docs/14/app/building-your-application/rendering/client-components"
+        },
+        {
+          "id": "HdSmD_nDV5BPO5JJqs1k8-res-4",
+          "type": "video",
+          "title": "Next.js 15 Tutorial - Server and Client Components",
+          "url": "https://www.youtube.com/watch?v=dMCSiA5gzkU"
+        }
+      ]
+    },
+    "jYSa7UMmjb51pGAyU4PoB": {
+      "id": "jYSa7UMmjb51pGAyU4PoB",
+      "slug": "client",
+      "title": "Client-Side Data Fetching",
+      "description": "Client-side data fetching involves retrieving data directly in the user's browser using JavaScript. This happens after the initial HTML content is loaded. When a user interacts with a page, or after a certain event, the browser makes a request to an API or data source. The fetched data is then used to update the user interface dynamically, without requiring a full page reload. Client-side data fetching is useful when your page doesn't require SEO indexing, when you don't need to pre-render your data, or when the content of your pages needs to update frequently.  It's important to note that using client-side data fetching can affect the performance of your application and the load speed of your pages. This is because the data fetching is done at the time of the component or pages mount, and the data is not cached.",
+      "resources": [
+        {
+          "id": "jYSa7UMmjb51pGAyU4PoB-res-1",
+          "type": "article",
+          "title": "Client-side Fetching for App Router",
+          "url": "https://nextjs.org/docs/app/getting-started/fetching-data#client-components"
+        },
+        {
+          "id": "jYSa7UMmjb51pGAyU4PoB-res-2",
+          "type": "article",
+          "title": "Client-side Fetching for Pages Router",
+          "url": "https://nextjs.org/docs/pages/building-your-application/data-fetching/client-side"
+        },
+        {
+          "id": "jYSa7UMmjb51pGAyU4PoB-res-3",
+          "type": "video",
+          "title": "Next.js 15 Tutorial - Fetching Data in Client Components",
+          "url": "https://www.youtube.com/watch?v=7Kz4--kCBP0"
+        }
+      ]
+    },
+    "6O9c3J-1JQtZTXXIDDXSM": {
+      "id": "6O9c3J-1JQtZTXXIDDXSM",
+      "slug": "composition",
+      "title": "Rendering Composition",
+      "description": "Rendering composition is the practice of building complex user interfaces by combining smaller, reusable components. In Next.js, this is important because it allows you to strategically decide which parts of your application should be pre-rendered on the server for better performance and SEO, and which parts can be rendered on the client for dynamic interactivity. By composing components effectively, you can optimize the rendering strategy for each part of your application, leading to a faster and more efficient user experience.",
+      "resources": [
+        {
+          "id": "6O9c3J-1JQtZTXXIDDXSM-res-1",
+          "type": "article",
+          "title": "Server and Client Composition Patterns",
+          "url": "https://nextjs.org/docs/14/app/building-your-application/rendering/composition-patterns"
+        },
+        {
+          "id": "6O9c3J-1JQtZTXXIDDXSM-res-2",
+          "type": "article",
+          "title": "Server and Client Components",
+          "url": "https://nextjs.org/docs/app/getting-started/server-and-client-components#how-do-server-and-client-components-work-in-nextjs"
+        },
+        {
+          "id": "6O9c3J-1JQtZTXXIDDXSM-res-3",
+          "type": "video",
+          "title": "Next.js 15 Tutorial - Server and Client Components",
+          "url": "https://www.youtube.com/watch?v=dMCSiA5gzkU"
+        }
+      ]
+    },
+    "3tTTKj6PWsRoRRXH5tXxS": {
+      "id": "3tTTKj6PWsRoRRXH5tXxS",
+      "slug": "create-next-app",
+      "title": "create-next-app",
+      "description": "The create-next-app CLI allow you to create a new Next.js application using the default template or an example from a public GitHub repository. It is the easiest way to get started with Next.js.",
+      "resources": [
+        {
+          "id": "3tTTKj6PWsRoRRXH5tXxS-res-1",
+          "type": "article",
+          "title": "create-next-app",
+          "url": "https://nextjs.org/docs/app/api-reference/cli/create-next-app"
+        },
+        {
+          "id": "3tTTKj6PWsRoRRXH5tXxS-res-2",
+          "type": "video",
+          "title": "Create Next App | Create Next Js Project",
+          "url": "https://www.youtube.com/watch?v=o1cRvsrHbfo"
+        }
+      ]
+    },
+    "4CcK-BLP5NM3ZrCIEG4s8": {
+      "id": "4CcK-BLP5NM3ZrCIEG4s8",
+      "slug": "csr",
+      "title": "Client-Side Rendering (CSR)",
+      "description": "In Client-Side Rendering (CSR) with React, the browser downloads a minimal HTML page and the JavaScript needed for the page. The JavaScript is then used to update the DOM and render the page. When the application is first loaded, the user may notice a slight delay before they can see the full page, this is because the page isn't fully rendered until all the JavaScript is downloaded, parsed, and executed. After the page has been loaded for the first time, navigating to other pages on the same website is typically faster, as only necessary data needs to be fetched, and JavaScript can re-render parts of the page without requiring a full page refresh.",
+      "resources": [
+        {
+          "id": "4CcK-BLP5NM3ZrCIEG4s8-res-1",
+          "type": "article",
+          "title": "Client-side Rendering (CSR)",
+          "url": "https://nextjs.org/docs/pages/building-your-application/rendering/client-side-rendering"
+        },
+        {
+          "id": "4CcK-BLP5NM3ZrCIEG4s8-res-2",
+          "type": "article",
+          "title": "What is Client-side Rendering (CSR)?",
+          "url": "https://prismic.io/blog/client-side-rendering"
+        }
+      ]
+    },
+    "j5jIZvz_bMZqmr_gl0pQF": {
+      "id": "j5jIZvz_bMZqmr_gl0pQF",
+      "slug": "css-in-js",
+      "title": "CSS in JS",
+      "description": "It's possible to use any existing CSS-in-JS solution in your existing Next.js Apps and Pages. CSS-in-JS is a technique where CSS styles are written in JavaScript files instead of separate CSS files. This approach allows you to use JavaScript's dynamic capabilities to manage and scope your styles, often using libraries that generate CSS at runtime or build time. It offers benefits like component-level styling, dynamic theming, and easier management of CSS dependencies.",
+      "resources": [
+        {
+          "id": "j5jIZvz_bMZqmr_gl0pQF-res-1",
+          "type": "article",
+          "title": "How to use CSS-in-JS libraries in App Router",
+          "url": "https://nextjs.org/docs/app/guides/css-in-js"
+        },
+        {
+          "id": "j5jIZvz_bMZqmr_gl0pQF-res-2",
+          "type": "article",
+          "title": "How to use CSS-in-JS libraries in Pages Router",
+          "url": "https://nextjs.org/docs/pages/guides/css-in-js"
+        }
+      ]
+    },
+    "tlg5XMVcAHmhey-efjf3M": {
+      "id": "tlg5XMVcAHmhey-efjf3M",
+      "slug": "css-modules",
+      "title": "CSS Modules",
+      "description": "CSS Modules locally scope CSS by generating unique class names. This allows you to use the same class in different files without worrying about naming collisions.",
+      "resources": [
+        {
+          "id": "tlg5XMVcAHmhey-efjf3M-res-1",
+          "type": "article",
+          "title": "CSS Modules",
+          "url": "https://nextjs.org/docs/app/getting-started/css#css-modules"
+        }
+      ]
+    },
+    "Hj01UZuHkQppXTq6XV9Pn": {
+      "id": "Hj01UZuHkQppXTq6XV9Pn",
+      "slug": "custom-server",
+      "title": "How to set up a custom server in Next.js",
+      "description": "Next.js includes its own server with `next start` by default. If you have an existing backend, you can still use it with Next.js (this is not a custom server). A custom Next.js server allows you to programmatically start a server for custom patterns. The majority of the time, you will not need this approach. However, it's available if you need to eject.",
+      "resources": [
+        {
+          "id": "Hj01UZuHkQppXTq6XV9Pn-res-1",
+          "type": "article",
+          "title": "How to set up a custom server in Next.js",
+          "url": "https://nextjs.org/docs/app/guides/custom-server"
+        }
+      ]
+    },
+    "KmOTgclnf-QYDYK0QwwVe": {
+      "id": "KmOTgclnf-QYDYK0QwwVe",
+      "slug": "cypress",
+      "title": "Cypress",
+      "description": "Next.js supports Cypress for End-to-End (E2E) and Component Testing. With Cypress, you can easily create tests for your modern web applications, debug them visually, and automatically run them in your continuous integration builds.",
+      "resources": [
+        {
+          "id": "KmOTgclnf-QYDYK0QwwVe-res-1",
+          "type": "article",
+          "title": "How to set up Cypress with Next.js",
+          "url": "https://nextjs.org/docs/app/guides/testing/cypress"
+        },
+        {
+          "id": "KmOTgclnf-QYDYK0QwwVe-res-2",
+          "type": "article",
+          "title": "Cypress",
+          "url": "https://www.cypress.io/"
+        }
+      ]
+    },
+    "GAHFfQ8CviNxV7ITpt--q": {
+      "id": "GAHFfQ8CviNxV7ITpt--q",
+      "slug": "data-fetching-patterns",
+      "title": "Data Fetching Patterns in Next.js",
+      "description": "There are a few recommended patterns and best practices for fetching data in React and Next.js, including: * Fetching data on the server. * Fetching data only where it's necessary. * Using React's streaming and Suspense features to progressively render and incrementally stream rendered units of the UI to the client. * Using parallel or sequential fetching depending on your particular use case. * Using preload data.",
+      "resources": [
+        {
+          "id": "GAHFfQ8CviNxV7ITpt--q-res-1",
+          "type": "article",
+          "title": "Patterns and Best Practices",
+          "url": "https://nextjs.org/docs/14/app/building-your-application/data-fetching/patterns#fetching-data-on-the-server"
+        }
+      ]
+    },
+    "BPStVqWV0660A-_fJSuM7": {
+      "id": "BPStVqWV0660A-_fJSuM7",
+      "slug": "deployment-options",
+      "title": "Deployment Options",
+      "description": "Next.js can be deployed in multiple ways, including as a : * Node.js server, * Docker container, * static export, * adapted to run on different platforms.",
+      "resources": [
+        {
+          "id": "BPStVqWV0660A-_fJSuM7-res-1",
+          "type": "article",
+          "title": "Deploying in Next.js",
+          "url": "https://nextjs.org/docs/app/getting-started/deploying"
+        }
+      ]
+    },
+    "y5_zX209AaHOf_wQibo12": {
+      "id": "y5_zX209AaHOf_wQibo12",
+      "slug": "docker-container",
+      "title": "Docker Container",
+      "description": "Next.js can be deployed to any provider that supports Docker containers. This includes container orchestrators like Kubernetes or a cloud provider that runs Docker. Docker deployments support all Next.js features.",
+      "resources": [
+        {
+          "id": "y5_zX209AaHOf_wQibo12-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated Docker Roadmap",
+          "url": "https://roadmap.sh/docker"
+        },
+        {
+          "id": "y5_zX209AaHOf_wQibo12-res-2",
+          "type": "article",
+          "title": "Deployment with Docker",
+          "url": "https://nextjs.org/docs/app/getting-started/deploying#nodejs-server"
+        }
+      ]
+    },
+    "SYUKB1Afciqz7hA1n5yIx": {
+      "id": "SYUKB1Afciqz7hA1n5yIx",
+      "slug": "edge",
+      "title": "Edge Runtime",
+      "description": "The Edge Runtime is a lightweight JavaScript runtime environment based on V8, designed to execute code closer to the user. It allows you to run server-side logic, like API routes and middleware, on a globally distributed network of servers. This proximity reduces latency and improves the overall performance of your application by minimizing the distance data needs to travel.",
+      "resources": [
+        {
+          "id": "SYUKB1Afciqz7hA1n5yIx-res-1",
+          "type": "article",
+          "title": "What is Edge Runtime?",
+          "url": "https://edge-runtime.vercel.app/"
+        },
+        {
+          "id": "SYUKB1Afciqz7hA1n5yIx-res-2",
+          "type": "article",
+          "title": "Edge Runtime",
+          "url": "https://nextjs.org/docs/app/api-reference/edge"
+        }
+      ]
+    },
+    "iv6rWEqjh07d0n2kAQedO": {
+      "id": "iv6rWEqjh07d0n2kAQedO",
+      "slug": "environment-variables",
+      "title": "Environment Variables",
+      "description": "Environment variables are dynamic values that can affect the behavior of programs on a computer. They are typically used to store configuration settings, API keys, and other sensitive information that should not be hardcoded directly into the application's source code. This allows you to easily change the application's behavior without modifying the code itself, making it more flexible and secure across different environments like development, testing, and production. Next.js comes with built-in support for environment variables, which allows you to use `.env` to load environment variables, and bundle environment variables for the browser by prefixing with` NEXT_PUBLIC_`",
+      "resources": [
+        {
+          "id": "iv6rWEqjh07d0n2kAQedO-res-1",
+          "type": "article",
+          "title": "How to use environment variables in Next.js",
+          "url": "https://nextjs.org/docs/app/guides/environment-variables"
+        }
+      ]
+    },
+    "pxltXOWgpbo95V4u2ryX7": {
+      "id": "pxltXOWgpbo95V4u2ryX7",
+      "slug": "error-states",
+      "title": "Error States",
+      "description": "Error states in Next.js routing refer to how your application handles situations where a route cannot be successfully loaded or rendered. Errors can be divided into two categories: expected errors and uncaught exceptions. Expected errors are those that can occur during the normal operation of the application, such as those from server-side form validation or failed requests. These errors should be handled explicitly and returned to the client. Uncaught exceptions are unexpected errors that indicate bugs or issues that should not occur during the normal flow of your application. These should be handled by throwing errors, which will then be caught by error boundaries.",
+      "resources": [
+        {
+          "id": "pxltXOWgpbo95V4u2ryX7-res-1",
+          "type": "article",
+          "title": "Error Handling",
+          "url": "https://nextjs.org/docs/app/getting-started/error-handling#handling-expected-errors"
+        },
+        {
+          "id": "pxltXOWgpbo95V4u2ryX7-res-2",
+          "type": "video",
+          "title": "Next.js 15 Tutorial - Error Handling",
+          "url": "https://www.youtube.com/watch?v=fWV5WPSbgdg"
+        }
+      ]
+    },
+    "CvrHzkxg7ndCvd_tbYnK4": {
+      "id": "CvrHzkxg7ndCvd_tbYnK4",
+      "slug": "eslint",
+      "title": "ESLint",
+      "description": "ESLint is an open-source static code analysis tool for JavaScript that identifies problematic patterns and style issues in your code, helping to enforce coding standards and prevent bugs before they occur Next.js provides an ESLint plugin, `eslint-plugin-next`, already bundled within the base configuration that makes it possible to catch common issues and problems in a Next.js application.",
+      "resources": [
+        {
+          "id": "CvrHzkxg7ndCvd_tbYnK4-res-1",
+          "type": "article",
+          "title": "ESLint Plugin",
+          "url": "https://nextjs.org/docs/app/api-reference/config/eslint"
+        }
+      ]
+    },
+    "lkdBRzC8lAvRYKBt7E37V": {
+      "id": "lkdBRzC8lAvRYKBt7E37V",
+      "slug": "fetching-locations",
+      "title": "Fetching Location",
+      "description": "Data fetching in Next.js allows you to render your content in different ways, depending on your application's use case. By default, layouts and pages are Server Components, which lets you fetch data and render parts of your UI on the server, optionally cache the result, and stream it to the client. When you need interactivity or browser APIs, you can use Client Components to layer in functionality. These include pre-rendering with Server-side Rendering or Static Generation, and updating or creating content at runtime with Incremental Static Regeneration.",
+      "resources": [
+        {
+          "id": "lkdBRzC8lAvRYKBt7E37V-res-1",
+          "type": "article",
+          "title": "Fetching Data",
+          "url": "https://nextjs.org/docs/app/getting-started/fetching-data"
+        },
+        {
+          "id": "lkdBRzC8lAvRYKBt7E37V-res-2",
+          "type": "video",
+          "title": "Next.js 15 Tutorial - Data Fetching",
+          "url": "https://www.youtube.com/watch?v=DRsU93Lde2"
+        }
+      ]
+    },
+    "ZptECTASMX97m5yCZ-XO8": {
+      "id": "ZptECTASMX97m5yCZ-XO8",
+      "slug": "fonts",
+      "title": "Font Optimization",
+      "description": "The `next/font` module automatically optimizes your fonts and removes external network requests for improved privacy and performance. It includes built-in self-hosting for any font file. This means you can optimally load web fonts with no layout shift.",
+      "resources": [
+        {
+          "id": "ZptECTASMX97m5yCZ-XO8-res-1",
+          "type": "article",
+          "title": "Font Optimization",
+          "url": "https://nextjs.org/docs/app/getting-started/fonts"
+        }
+      ]
+    },
+    "BfNON3Vp3zSWBurSS4ZHo": {
+      "id": "BfNON3Vp3zSWBurSS4ZHo",
+      "slug": "global-css",
+      "title": "Global CSS",
+      "description": "Next.js provides several ways to style your application using CSS. One example is Global CSS, which refers to CSS styles that are applied across your entire application. This means that the styles defined in a global CSS file will affect all elements on every page of your website, unless specifically overridden by more specific CSS rules. It's a way to establish a consistent look and feel throughout your project.",
+      "resources": [
+        {
+          "id": "BfNON3Vp3zSWBurSS4ZHo-res-1",
+          "type": "article",
+          "title": "Global CSS",
+          "url": "https://nextjs.org/docs/app/getting-started/css#global-css"
+        }
+      ]
+    },
+    "Ti_Bl5NnRIY9UTNTH15xA": {
+      "id": "Ti_Bl5NnRIY9UTNTH15xA",
+      "slug": "handling-sensitive-data",
+      "title": "Handling Sensitive Data",
+      "description": "Sensitive data, like API keys or user credentials, requires careful management to prevent exposure. In Next.js, you should avoid directly embedding such data in client-side code or committing it to your repository. Instead, leverage environment variables and server-side logic to securely access and utilize sensitive information, ensuring it remains protected from unauthorized access.",
+      "resources": [
+        {
+          "id": "Ti_Bl5NnRIY9UTNTH15xA-res-1",
+          "type": "article",
+          "title": "How to think about data security in Next.js",
+          "url": "https://nextjs.org/docs/app/guides/data-security#data-fetching-approaches"
+        },
+        {
+          "id": "Ti_Bl5NnRIY9UTNTH15xA-res-2",
+          "type": "article",
+          "title": "How to Think About Security in Next.js",
+          "url": "https://nextjs.org/blog/security-nextjs-server-components-actions"
+        }
+      ]
+    },
+    "1t9iOcmrEmuwOxOZ0vlY7": {
+      "id": "1t9iOcmrEmuwOxOZ0vlY7",
+      "slug": "images",
+      "title": "Images",
+      "description": "images account for a huge portion of the typical website’s page weight and can have a sizable impact on your website's LCP performance. The Next.js Image component extends the HTML <img> element with features for automatic image optimization, including: * Size Optimization: Automatically serve correctly sized images for each device, using modern image formats like WebP and AVIF. * Visual Stability: Prevent layout shift automatically when images are loading. * Faster Page Loads: Images are only loaded when they enter the viewport using native browser lazy loading, with optional blur-up placeholders. * Asset Flexibility: On-demand image resizing, even for images stored on remote servers",
+      "resources": [
+        {
+          "id": "1t9iOcmrEmuwOxOZ0vlY7-res-1",
+          "type": "article",
+          "title": "Image Optimization",
+          "url": "https://nextjs.org/docs/app/getting-started/images"
+        }
+      ]
+    },
+    "DHqdXJFhVZWaNa5zSX8Wk": {
+      "id": "DHqdXJFhVZWaNa5zSX8Wk",
+      "slug": "instrumentation",
+      "title": "instrumentation",
+      "description": "Instrumentation is the process of using code to integrate monitoring and logging tools into your application. This allows you to track the performance and behavior of your application, and to debug issues in production.",
+      "resources": [
+        {
+          "id": "DHqdXJFhVZWaNa5zSX8Wk-res-1",
+          "type": "article",
+          "title": "How to set up instrumentation",
+          "url": "https://nextjs.org/docs/app/guides/instrumentation"
+        }
+      ]
+    },
+    "dP6cZkEZ6lxPsy5SjvuZA": {
+      "id": "dP6cZkEZ6lxPsy5SjvuZA",
+      "slug": "intercepting-routes",
+      "title": "Intercepting Routes",
+      "description": "Intercepting routes allows you to load a route from another part of your application within the current layout. This routing paradigm can be useful when you want to display the content of a route without the user switching to a different context. For example, when clicking on a photo in a feed, you can display the photo in a modal, overlaying the feed.",
+      "resources": [
+        {
+          "id": "dP6cZkEZ6lxPsy5SjvuZA-res-1",
+          "type": "article",
+          "title": "Intercepting Routes",
+          "url": "https://nextjs.org/docs/app/api-reference/file-conventions/intercepting-routes"
+        },
+        {
+          "id": "dP6cZkEZ6lxPsy5SjvuZA-res-2",
+          "type": "video",
+          "title": "Next.js 15 Tutorial - Intercepting Routes",
+          "url": "https://www.youtube.com/watch?v=FTiwIVxWC00"
+        }
+      ]
+    },
+    "bSsM7VLZcJKYL5XXSG0r-": {
+      "id": "bSsM7VLZcJKYL5XXSG0r-",
+      "slug": "internationalization",
+      "title": "Internationalization",
+      "description": "Internationalization is the process of designing and developing applications that can be adapted to various languages and regions without engineering changes. Next.js enables you to configure the routing and rendering of content to support multiple languages. Making your site adaptive to different locales includes translated content (localization) and internationalized routes.",
+      "resources": [
+        {
+          "id": "bSsM7VLZcJKYL5XXSG0r--res-1",
+          "type": "article",
+          "title": "How to implement internationalization in Next.js for App Router",
+          "url": "https://nextjs.org/docs/app/guides/internationalization"
+        },
+        {
+          "id": "bSsM7VLZcJKYL5XXSG0r--res-2",
+          "type": "article",
+          "title": "How to implement internationalization in Next.js for Pages Router",
+          "url": "https://nextjs.org/docs/pages/guides/internationalization"
+        }
+      ]
+    },
+    "tcDL4OEbZplbjNa8VTLpv": {
+      "id": "tcDL4OEbZplbjNa8VTLpv",
+      "slug": "introduction",
+      "title": "Introduction",
+      "description": "Next.js is a React framework that enables functionalities like server-side rendering and static site generation for web applications. It provides a structure for organizing React components, handling routing, and optimizing performance. Next.js simplifies the process of building production-ready, full-stack web applications with React.",
+      "resources": [
+        {
+          "id": "tcDL4OEbZplbjNa8VTLpv-res-1",
+          "type": "article",
+          "title": "Next.js",
+          "url": "https://nextjs.org/"
+        },
+        {
+          "id": "tcDL4OEbZplbjNa8VTLpv-res-2",
+          "type": "article",
+          "title": "Next.js Docs",
+          "url": "https://nextjs.org/docs"
+        },
+        {
+          "id": "tcDL4OEbZplbjNa8VTLpv-res-3",
+          "type": "article",
+          "title": "Next.js Course",
+          "url": "https://nextjs.org/learn"
+        },
+        {
+          "id": "tcDL4OEbZplbjNa8VTLpv-res-4",
+          "type": "article",
+          "title": "Next.js",
+          "url": "https://github.com/vercel/next.js"
+        }
+      ]
+    },
+    "DlUQkDRPUcjC3pO4P5zCQ": {
+      "id": "DlUQkDRPUcjC3pO4P5zCQ",
+      "slug": "javascript-basics",
+      "title": "JavaScript Basics",
+      "description": "JavaScript is a programming language that adds interactivity to websites. It allows you to create dynamic content, control multimedia, animate images, and much more. Think of HTML as the structure of a house, CSS as the interior design, and JavaScript as the electrical system that makes everything work. Understanding JavaScript is crucial before diving into Next.js because Next.js is built on top of React, which itself is a JavaScript library. Without a solid grasp of JavaScript fundamentals, you'll find it difficult to understand and effectively use Next.js's features and concepts.",
+      "resources": [
+        {
+          "id": "DlUQkDRPUcjC3pO4P5zCQ-res-1",
+          "type": "article",
+          "title": "Visit Dedicated JavaScript Roadmap",
+          "url": "https://roadmap.sh/javascript"
+        },
+        {
+          "id": "DlUQkDRPUcjC3pO4P5zCQ-res-2",
+          "type": "article",
+          "title": "The Modern JavaScript Tutorial",
+          "url": "https://javascript.info/"
+        },
+        {
+          "id": "DlUQkDRPUcjC3pO4P5zCQ-res-3",
+          "type": "video",
+          "title": "JavaScript Crash Course for Beginners",
+          "url": "https://youtu.be/hdI2bqOjy3c"
+        },
+        {
+          "id": "DlUQkDRPUcjC3pO4P5zCQ-res-4",
+          "type": "article",
+          "title": "Explore top posts about JavaScript",
+          "url": "https://app.daily.dev/tags/javascript?ref=roadmapsh"
+        }
+      ]
+    },
+    "sc5Pliyq6bfeFXp0ca5yH": {
+      "id": "sc5Pliyq6bfeFXp0ca5yH",
+      "slug": "jest",
+      "title": "Jest",
+      "description": "Next.js allows you to use Jest for unit testing and snapshot testing. Jest is a JavaScript testing framework created by Facebook, designed for ensuring the correctness of JavaScript code, especially React applications. It provides a complete and easy-to-use solution for writing unit, integration, and end-to-end tests. Jest includes features like a test runner, assertion library, mocking capabilities, and code coverage reporting, making it a popular choice for developers looking to thoroughly test their code.",
+      "resources": [
+        {
+          "id": "sc5Pliyq6bfeFXp0ca5yH-res-1",
+          "type": "article",
+          "title": "How to set up Jest with Next.js",
+          "url": "https://nextjs.org/docs/app/guides/testing/jest"
+        },
+        {
+          "id": "sc5Pliyq6bfeFXp0ca5yH-res-2",
+          "type": "article",
+          "title": "Jest",
+          "url": "https://jestjs.io/"
+        }
+      ]
+    },
+    "zJXCS7U9NUsn7cuEx3YMs": {
+      "id": "zJXCS7U9NUsn7cuEx3YMs",
+      "slug": "layouts-and-templates",
+      "title": "Layouts and Templates",
+      "description": "Layouts and templates provide a way to share UI elements across multiple pages, maintaining state and avoiding unnecessary re-renders. Layouts wrap around pages, persisting across route changes to preserve things like navigation bars or sidebars. Templates are similar to layouts in that they wrap each child layout or page. Unlike layouts that persist across routes and maintain state, templates create a new instance for each of their children on navigation. This means that when a user navigates between routes that share a template, a new instance of the component is mounted, DOM elements are recreated, state is not preserved, and effects are re-synchronized.",
+      "resources": [
+        {
+          "id": "zJXCS7U9NUsn7cuEx3YMs-res-1",
+          "type": "article",
+          "title": "Layouts for App Router",
+          "url": "https://nextjs.org/docs/app/api-reference/file-conventions/layout#root-layouts"
+        },
+        {
+          "id": "zJXCS7U9NUsn7cuEx3YMs-res-2",
+          "type": "article",
+          "title": "Layouts for Pages Router",
+          "url": "https://nextjs.org/docs/pages/building-your-application/routing/pages-and-layouts"
+        },
+        {
+          "id": "zJXCS7U9NUsn7cuEx3YMs-res-3",
+          "type": "article",
+          "title": "Templates for App Router",
+          "url": "https://nextjs.org/docs/app/api-reference/file-conventions/template"
+        },
+        {
+          "id": "zJXCS7U9NUsn7cuEx3YMs-res-4",
+          "type": "article",
+          "title": "A guide to Next.js layouts and nested layouts",
+          "url": "https://blog.logrocket.com/guide-next-js-layouts-nested-layouts/"
+        },
+        {
+          "id": "zJXCS7U9NUsn7cuEx3YMs-res-5",
+          "type": "video",
+          "title": "Next.js 15 Tutorial - Layouts",
+          "url": "https://www.youtube.com/watch?v=NK-8a8EzWrU"
+        },
+        {
+          "id": "zJXCS7U9NUsn7cuEx3YMs-res-6",
+          "type": "video",
+          "title": "Next.js 15 Tutorial - Templates",
+          "url": "https://www.youtube.com/watch?v=yfww2kplO-k"
+        }
+      ]
+    },
+    "3_Mpvkxp9A7PMogxxMikQ": {
+      "id": "3_Mpvkxp9A7PMogxxMikQ",
+      "slug": "lazy-loading",
+      "title": "Lazy Loading",
+      "description": "Lazy loading in Next.js helps improve the initial loading performance of an application by decreasing the amount of JavaScript needed to render a route. It allows you to defer loading of Client Components and imported libraries, and only include them in the client bundle when they're needed. For example, you might want to defer loading a modal until a user clicks to open it.",
+      "resources": [
+        {
+          "id": "3_Mpvkxp9A7PMogxxMikQ-res-1",
+          "type": "article",
+          "title": "How to lazy load Client Components and libraries",
+          "url": "https://nextjs.org/docs/app/guides/lazy-loading"
+        },
+        {
+          "id": "3_Mpvkxp9A7PMogxxMikQ-res-2",
+          "type": "article",
+          "title": "Lazy loading",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/Performance/Guides/Lazy_loading"
+        }
+      ]
+    },
+    "b2LcPc5MfoyF0W9Y0aGpR": {
+      "id": "b2LcPc5MfoyF0W9Y0aGpR",
+      "slug": "loading-and-streaming",
+      "title": "Loading and Streaming",
+      "description": "The special file `loading.js` helps you create meaningful Loading UI with React Suspense. With this convention, you can show an instant loading state from the server while the content of a route segment loads. The new content is automatically swapped in once rendering is complete. In addition to `loading.js`, you can also manually create Suspense Boundaries for your own UI components. The App Router supports streaming with Suspense for both Node.js and Edge runtimes.",
+      "resources": [
+        {
+          "id": "b2LcPc5MfoyF0W9Y0aGpR-res-1",
+          "type": "article",
+          "title": "Loading UI and Streaming",
+          "url": "https://nextjs.org/docs/14/app/building-your-application/routing/loading-ui-and-streaming"
+        },
+        {
+          "id": "b2LcPc5MfoyF0W9Y0aGpR-res-2",
+          "type": "article",
+          "title": "Instant Loading States",
+          "url": "https://nextjs.org/docs/14/app/building-your-application/routing/loading-ui-and-streaming#instant-loading-states"
+        },
+        {
+          "id": "b2LcPc5MfoyF0W9Y0aGpR-res-3",
+          "type": "article",
+          "title": "Suspense",
+          "url": "https://react.dev/reference/react/Suspense"
+        },
+        {
+          "id": "b2LcPc5MfoyF0W9Y0aGpR-res-4",
+          "type": "article",
+          "title": "Next.js 15 Tutorial - Loading UI",
+          "url": "https://www.youtube.com/watch?v=0OVg4ikUaz0"
+        }
+      ]
+    },
+    "3GI0xHGG_qgpLfEjaLYxr": {
+      "id": "3GI0xHGG_qgpLfEjaLYxr",
+      "slug": "markdown-and-mdx",
+      "title": "Markdown and MDX",
+      "description": "Markdown is a lightweight markup language used to format text. It allows you to write using plain text syntax and convert it to structurally valid HTML. It's commonly used for writing content on websites and blogs. MDX is a superset of markdown that lets you write JSX directly in your markdown files. It is a powerful way to add dynamic interactivity and embed React components within your content. Next.js can support both local MDX content inside your application, as well as remote MDX files fetched dynamically on the server. The Next.js plugin handles transforming markdown and React components into HTML, including support for usage in Server Components (the default in App Router).",
+      "resources": [
+        {
+          "id": "3GI0xHGG_qgpLfEjaLYxr-res-1",
+          "type": "article",
+          "title": "How to use markdown and MDX in Next.js",
+          "url": "https://nextjs.org/docs/app/guides/mdx"
+        }
+      ]
+    },
+    "UZCMVpg5YIDxu-AMah3S-": {
+      "id": "UZCMVpg5YIDxu-AMah3S-",
+      "slug": "memoization-in-fetch",
+      "title": "Memoization in Fetch",
+      "description": "Memoization is an optimization technique that speeds up subsequent function calls by caching the results of previous calls with the same input parameters. This approach allows for re-use of data in a React Component tree, prevents redundant network calls and enhances performance For the initial request, data is fetched from an external source and the result is stored in memory Subsequent requests for the same data within the same render pass retrieve the result from memory, bypassing the need to make the request again.",
+      "resources": [
+        {
+          "id": "UZCMVpg5YIDxu-AMah3S--res-1",
+          "type": "article",
+          "title": "Request Memoization",
+          "url": "https://nextjs.org/docs/app/guides/caching#request-memoization"
+        },
+        {
+          "id": "UZCMVpg5YIDxu-AMah3S--res-2",
+          "type": "video",
+          "title": "Next.js 14 Tutorial - vRequest Memoization",
+          "url": "https://www.youtube.com/watch?v=tcLe3Xi0fJE"
+        }
+      ]
+    },
+    "SI7KzNSLP0ccH_P94StGL": {
+      "id": "SI7KzNSLP0ccH_P94StGL",
+      "slug": "memory-usage",
+      "title": "Memory Usage",
+      "description": "As applications grow and become more feature rich, they can demand more resources when developing locally or creating production builds. Next.js provides several strategies and techniques to optimize memory and address common memory issues in Next.js.",
+      "resources": [
+        {
+          "id": "SI7KzNSLP0ccH_P94StGL-res-1",
+          "type": "article",
+          "title": "How to optimize memory usage",
+          "url": "https://nextjs.org/docs/app/guides/memory-usage"
+        }
+      ]
+    },
+    "45XMR5imHEDF_X8wcgjGW": {
+      "id": "45XMR5imHEDF_X8wcgjGW",
+      "slug": "metadata",
+      "title": "Metadata",
+      "description": "The Metadata APIs can be used to define your application metadata for improved SEO and web shareability and include: * The static `metadata` object * The dynamic `generateMetadata` function * Special file conventions that can be used to add static or dynamically generated favicons and OG images.",
+      "resources": [
+        {
+          "id": "45XMR5imHEDF_X8wcgjGW-res-1",
+          "type": "article",
+          "title": "Metadata and OG images",
+          "url": "https://nextjs.org/docs/app/getting-started/metadata-and-og-images#static-open-graph-images"
+        }
+      ]
+    },
+    "gpZNwsh075wl5eH2gLKro": {
+      "id": "gpZNwsh075wl5eH2gLKro",
+      "slug": "middleware",
+      "title": "Middleware",
+      "description": "Middleware is a powerful feature that allows you to intercept and run code on the server before a request is completed. Then, based on the incoming request, you can modify the response by rewriting, redirecting, modifying the request or response headers, or responding directly. Middleware executes before routes are rendered. It's particularly useful for implementing custom server-side logic like authentication, logging, or handling redirects.",
+      "resources": [
+        {
+          "id": "gpZNwsh075wl5eH2gLKro-res-1",
+          "type": "article",
+          "title": "Middleware for App Router",
+          "url": "https://nextjs.org/docs/app/api-reference/file-conventions/middleware"
+        },
+        {
+          "id": "gpZNwsh075wl5eH2gLKro-res-2",
+          "type": "article",
+          "title": "Middleware for Pages Router",
+          "url": "https://nextjs.org/docs/pages/api-reference/file-conventions/middleware"
+        },
+        {
+          "id": "gpZNwsh075wl5eH2gLKro-res-3",
+          "type": "video",
+          "title": "Next.js 15 Tutorial - Middleware",
+          "url": "https://www.youtube.com/watch?v=t1KTTZbqCm0"
+        }
+      ]
+    },
+    "xRZqBd5-QO8zh7ksHlRjK": {
+      "id": "xRZqBd5-QO8zh7ksHlRjK",
+      "slug": "nextjs-routing-basics",
+      "title": "Next.js Routing Basics",
+      "description": "Routing is the process of defining how an application responds to client requests to specific endpoints (URIs). In Next.js, routing is primarily file-system based. This means that the structure of your `pages` directory directly corresponds to the routes of your application. Each file in the `pages` directory becomes a route based on its filename. For example, a file named `about.js` in the `pages` directory will be accessible at the `/about` route.",
+      "resources": [
+        {
+          "id": "xRZqBd5-QO8zh7ksHlRjK-res-1",
+          "type": "article",
+          "title": "https://nextjs.org/docs/pages/building-your-application/routing",
+          "url": "https://nextjs.org/docs/pages/building-your-application/routing"
+        },
+        {
+          "id": "xRZqBd5-QO8zh7ksHlRjK-res-2",
+          "type": "article",
+          "title": "Defining Routes",
+          "url": "https://nextjs.org/docs/14/app/building-your-application/routing/defining-routes"
+        },
+        {
+          "id": "xRZqBd5-QO8zh7ksHlRjK-res-3",
+          "type": "video",
+          "title": "Next.js 15 Routing Explained For Beginners",
+          "url": "https://www.youtube.com/watch?v=qivq_vDYFGk"
+        }
+      ]
+    },
+    "uJrOHRLmEBZtHJzAAusUe": {
+      "id": "uJrOHRLmEBZtHJzAAusUe",
+      "slug": "nextjs",
+      "title": "Next.js",
+      "description": "Next.js is a React framework that provides extra features and optimizations on top of React for building web applications. It simplifies development by offering solutions for routing, data fetching, and server-side rendering out of the box. This allows developers to create performant and scalable web applications with less configuration.",
+      "resources": [
+        {
+          "id": "uJrOHRLmEBZtHJzAAusUe-res-1",
+          "type": "article",
+          "title": "Next.js",
+          "url": "https://nextjs.org/"
+        },
+        {
+          "id": "uJrOHRLmEBZtHJzAAusUe-res-2",
+          "type": "article",
+          "title": "Mastering Next.js",
+          "url": "https://masteringnextjs.com"
+        },
+        {
+          "id": "uJrOHRLmEBZtHJzAAusUe-res-3",
+          "type": "video",
+          "title": "Next.js Full course",
+          "url": "https://www.youtube.com/watch?v=9P8mASSREYM"
+        },
+        {
+          "id": "uJrOHRLmEBZtHJzAAusUe-res-4",
+          "type": "video",
+          "title": "Next.js for Beginners - freeCodeCamp",
+          "url": "https://youtu.be/KjY94sAKLlw?si=orve81YcY8Fm2vDy"
+        }
+      ]
+    },
+    "Okw_IjU2iRSvSQVdKeeCo": {
+      "id": "Okw_IjU2iRSvSQVdKeeCo",
+      "slug": "nodejs-server",
+      "title": "Node.js Server",
+      "description": "Next.js can be deployed to any provider that supports Node.js. You just have to build your application and start a Node.js server using simple commands. This server supports all Next.js features. If needed, you can also eject to a custom server. Node.js deployments support all Next.js features.",
+      "resources": [
+        {
+          "id": "Okw_IjU2iRSvSQVdKeeCo-res-1",
+          "type": "article",
+          "title": "Node.js Server",
+          "url": "https://nextjs.org/docs/app/getting-started/deploying#nodejs-server"
+        }
+      ]
+    },
+    "0S37ka1K-TdYLnjCBrKSH": {
+      "id": "0S37ka1K-TdYLnjCBrKSH",
+      "slug": "nodejs",
+      "title": "Node.js",
+      "description": "Node.js is a JavaScript runtime environment that executes JavaScript code outside of a web browser. It allows developers to use JavaScript for server-side scripting and to build scalable network applications. Node.js uses an event-driven, non-blocking I/O model that makes it efficient and well-suited for real-time applications.",
+      "resources": [
+        {
+          "id": "0S37ka1K-TdYLnjCBrKSH-res-1",
+          "type": "article",
+          "title": "Visit de Dedicated Node.js Roadmap",
+          "url": "https://roadmap.sh/nodejs"
+        },
+        {
+          "id": "0S37ka1K-TdYLnjCBrKSH-res-2",
+          "type": "article",
+          "title": "Node.js",
+          "url": "https://nodejs.org/en/about/"
+        },
+        {
+          "id": "0S37ka1K-TdYLnjCBrKSH-res-3",
+          "type": "article",
+          "title": "Edge Runtime",
+          "url": "https://nextjs.org/docs/app/api-reference/edge"
+        }
+      ]
+    },
+    "mTh5PZNpzJNKPqpu5PVL6": {
+      "id": "mTh5PZNpzJNKPqpu5PVL6",
+      "slug": "opentelemetry",
+      "title": "OpenTelemetry",
+      "description": "Observability is crucial for understanding and optimizing the behavior and performance of your Next.js app. With observability, developers can proactively address issues before they become major problems and provide a better user experience. Next.js recommends using OpenTelemetry for instrumenting your apps. It's a platform-agnostic way to instrument apps that allows you to change your observability provider without changing your code. Next.js supports OpenTelemetry instrumentation out of the box, which means that we already instrumented Next.js itself.",
+      "resources": [
+        {
+          "id": "mTh5PZNpzJNKPqpu5PVL6-res-1",
+          "type": "article",
+          "title": "How to set up instrumentation with OpenTelemetry",
+          "url": "https://nextjs.org/docs/app/guides/open-telemetry"
+        },
+        {
+          "id": "mTh5PZNpzJNKPqpu5PVL6-res-2",
+          "type": "article",
+          "title": "OpenTelemetry Docs",
+          "url": "https://opentelemetry.io/docs/"
+        }
+      ]
+    },
+    "qM_Za9NiCiCG5-kf5RCXF": {
+      "id": "qM_Za9NiCiCG5-kf5RCXF",
+      "slug": "package-bundling",
+      "title": "Package Bundling",
+      "description": "Bundling external packages can significantly improve the performance of your application. By default, packages imported inside Server Components and Route Handlers are automatically bundled by Next.js for enhanced optimization.",
+      "resources": [
+        {
+          "id": "qM_Za9NiCiCG5-kf5RCXF-res-1",
+          "type": "article",
+          "title": "How to optimize package bundling",
+          "url": "https://nextjs.org/docs/app/guides/package-bundling"
+        }
+      ]
+    },
+    "htuyzi5_N-fqnx_SsO_DS": {
+      "id": "htuyzi5_N-fqnx_SsO_DS",
+      "slug": "pages",
+      "title": "Pages Router",
+      "description": "The Pages Router in Next.js is a file-system based router built around the `pages` directory. Each file in the `pages` directory becomes a route based on its file name. For example, a file named `about.js` would create a route at `/about`. This approach simplifies routing by automatically mapping files to routes, making it easy to create and manage different pages within your application.",
+      "resources": [
+        {
+          "id": "htuyzi5_N-fqnx_SsO_DS-res-1",
+          "type": "article",
+          "title": "Pages Router",
+          "url": "https://nextjs.org/docs/pages"
+        },
+        {
+          "id": "htuyzi5_N-fqnx_SsO_DS-res-2",
+          "type": "article",
+          "title": "Pages Router Tutorial",
+          "url": "https://nextjs.org/learn/pages-router"
+        }
+      ]
+    },
+    "2N_hm9Zx_Lp-RFEMP9HFb": {
+      "id": "2N_hm9Zx_Lp-RFEMP9HFb",
+      "slug": "parallel-routes",
+      "title": "Parallel Routes",
+      "description": "Parallel Routes allows you to simultaneously or conditionally render one or more pages within the same layout. They are useful for highly dynamic sections of an app, such as dashboards and feeds on social sites.",
+      "resources": [
+        {
+          "id": "2N_hm9Zx_Lp-RFEMP9HFb-res-1",
+          "type": "article",
+          "title": "Parallel Routes",
+          "url": "https://nextjs.org/docs/app/api-reference/file-conventions/parallel-routes"
+        },
+        {
+          "id": "2N_hm9Zx_Lp-RFEMP9HFb-res-2",
+          "type": "video",
+          "title": "Next.js 15 Tutorial - Parallel Routes",
+          "url": "https://www.youtube.com/watch?v=697kNwfU-4M"
+        }
+      ]
+    },
+    "SjJQ7ceU6vBhlhrN8hcvy": {
+      "id": "SjJQ7ceU6vBhlhrN8hcvy",
+      "slug": "parallel-vs-sequential",
+      "title": "Parallel vs Sequential",
+      "description": "When fetching data inside React components, you need to be aware of two data fetching patterns: Parallel and Sequential. With sequential data fetching, requests in a route are dependent on each other and therefore create waterfalls. There may be cases where you want this pattern because one fetch depends on the result of the other, or you want a condition to be satisfied before the next fetch to save resources. However, this behavior can also be unintentional and lead to longer loading times. With parallel data fetching, requests in a route are eagerly initiated and will load data at the same time. This reduces client-server waterfalls and the total time it takes to load data.",
+      "resources": [
+        {
+          "id": "SjJQ7ceU6vBhlhrN8hcvy-res-1",
+          "type": "article",
+          "title": "Parallel and sequential data fetching",
+          "url": "https://nextjs.org/docs/14/app/building-your-application/data-fetching/patterns#parallel-and-sequential-data-fetching"
+        }
+      ]
+    },
+    "qFDdfOBdOlGMjTEOiiuTe": {
+      "id": "qFDdfOBdOlGMjTEOiiuTe",
+      "slug": "playwright",
+      "title": "Playwright",
+      "description": "Next.js supports Playwright for End-to-End (E2E) testing. Playwright is a testing framework that lets you automate Chromium, Firefox, and WebKit with a single API. You can use it to write E2E testing.",
+      "resources": [
+        {
+          "id": "qFDdfOBdOlGMjTEOiiuTe-res-1",
+          "type": "article",
+          "title": "How to set up Playwright with Next.js",
+          "url": "https://nextjs.org/docs/app/guides/testing/playwright"
+        },
+        {
+          "id": "qFDdfOBdOlGMjTEOiiuTe-res-2",
+          "type": "article",
+          "title": "Playwright",
+          "url": "https://playwright.dev/"
+        }
+      ]
+    },
+    "Ve1Pa7IhGHPZ_F-sCMcNb": {
+      "id": "Ve1Pa7IhGHPZ_F-sCMcNb",
+      "slug": "preloading-data",
+      "title": "Preloading data",
+      "description": "Another way to optimize data fetching is to use the preload pattern. You can optionally create a preload function to further optimize parallel data fetching. With this approach, you don't have to pass promises down as props. The preload function can also have any name as it's a pattern, not an API.",
+      "resources": [
+        {
+          "id": "Ve1Pa7IhGHPZ_F-sCMcNb-res-1",
+          "type": "article",
+          "title": "Preloading data",
+          "url": "https://nextjs.org/docs/14/app/building-your-application/data-fetching/patterns#preloading-data"
+        }
+      ]
+    },
+    "-yiJSBIoczJHOW8YMdWFI": {
+      "id": "-yiJSBIoczJHOW8YMdWFI",
+      "slug": "preparing-for-production",
+      "title": "Preparing for Production",
+      "description": "Before taking Next.js application to production, there are some optimizations and patterns you should consider implementing for the best user experience, performance, and security. Next.js provides a list of best practices when building your application and before going to production. In addition, you should be aware of the automatic Next.js optimizations.",
+      "resources": [
+        {
+          "id": "-yiJSBIoczJHOW8YMdWFI-res-1",
+          "type": "article",
+          "title": "How to optimize your Next.js application for production",
+          "url": "https://nextjs.org/docs/app/guides/production-checklist"
+        }
+      ]
+    },
+    "efMytbUmw44M8dPL4ItsX": {
+      "id": "efMytbUmw44M8dPL4ItsX",
+      "slug": "prettier",
+      "title": "Prettier",
+      "description": "Prettier is an opinionated code formatter that supports many languages, including JavaScript, TypeScript, and CSS. It automatically formats your code to adhere to a consistent style, ensuring readability and maintainability across your project. The ESLint Plugin contains code formatting rules, which may conflict with your existing Prettier setup. To make ESLint and Prettier work together, you can include `eslint-config-prettier` in your ESLint config.",
+      "resources": [
+        {
+          "id": "efMytbUmw44M8dPL4ItsX-res-1",
+          "type": "article",
+          "title": "ESLint Plugin with Prettier",
+          "url": "https://nextjs.org/docs/app/api-reference/config/eslint#with-prettier"
+        },
+        {
+          "id": "efMytbUmw44M8dPL4ItsX-res-2",
+          "type": "article",
+          "title": "eslint-config-prettier",
+          "url": "https://github.com/prettier/eslint-config-prettier"
+        }
+      ]
+    },
+    "crBlqiS78n7yz28cT2GGz": {
+      "id": "crBlqiS78n7yz28cT2GGz",
+      "slug": "react-cache",
+      "title": "React Cache function",
+      "description": "The React `cache` function allows you to memoize the return value of a function, allowing you to call the same function multiple times while only executing it once. `fetch` requests using the `GET` or `HEAD` methods are automatically memoized, so you do not need to wrap it in React `cache`. However, for other `fetch` methods, or when using data fetching libraries (such as some database, CMS, or GraphQL clients) that don't inherently memoize requests, you can use `cache` to manually memoize data requests.",
+      "resources": [
+        {
+          "id": "crBlqiS78n7yz28cT2GGz-res-1",
+          "type": "article",
+          "title": "React cache function",
+          "url": "https://nextjs.org/docs/app/guides/caching#react-cache-function"
+        }
+      ]
+    },
+    "FdvaN6BOxUEJt7TarSDmo": {
+      "id": "FdvaN6BOxUEJt7TarSDmo",
+      "slug": "react-frameworks",
+      "title": "React Frameworks",
+      "description": "React frameworks provide structure and tools to streamline the development of React applications. They offer solutions for common challenges like routing, data fetching, state management, and build processes, allowing developers to focus on building features rather than configuring infrastructure. These frameworks often include pre-built components, optimized performance configurations, and conventions that promote code organization and maintainability.",
+      "resources": [
+        {
+          "id": "FdvaN6BOxUEJt7TarSDmo-res-1",
+          "type": "article",
+          "title": "Comparing The Top React Frameworks",
+          "url": "https://dev.to/surajondev/comparing-the-top-cra-alternatives-9cg"
+        }
+      ]
+    },
+    "K1wGmAy9L0VE6cwYE2pA6": {
+      "id": "K1wGmAy9L0VE6cwYE2pA6",
+      "slug": "reditects",
+      "title": "Redirects in Next.js API Endpoints",
+      "description": "Redirects in Next.js API endpoints allow you to send a user from one URL to another. This is useful for various scenarios, such as moving or renaming pages, handling temporary content changes, or guiding users to a different part of your application based on specific conditions. By sending an HTTP redirect response, the server instructs the client's browser to navigate to the new URL.",
+      "resources": [
+        {
+          "id": "K1wGmAy9L0VE6cwYE2pA6-res-1",
+          "type": "article",
+          "title": "How to handle redirects in Next.js for App Router",
+          "url": "https://nextjs.org/docs/app/guides/redirecting"
+        },
+        {
+          "id": "K1wGmAy9L0VE6cwYE2pA6-res-2",
+          "type": "article",
+          "title": "redirectHow to handle redirects in Next.js for Pages Router",
+          "url": "https://nextjs.org/docs/pages/guides/redirecting"
+        }
+      ]
+    },
+    "G_33yo1MshQbiaGTPtTdK": {
+      "id": "G_33yo1MshQbiaGTPtTdK",
+      "slug": "remix",
+      "title": "Remix",
+      "description": "Remix is a full-stack web framework that focuses on web standards and modern web development patterns. It emphasizes server-side rendering and progressive enhancement to deliver fast and resilient user experiences. Remix leverages web fundamentals like HTTP caching and distributed systems to build robust and performant web applications.",
+      "resources": [
+        {
+          "id": "G_33yo1MshQbiaGTPtTdK-res-1",
+          "type": "article",
+          "title": "Remix",
+          "url": "https://remix.run/"
+        },
+        {
+          "id": "G_33yo1MshQbiaGTPtTdK-res-2",
+          "type": "article",
+          "title": "Remix Docs",
+          "url": "https://v2.remix.run/docs/"
+        },
+        {
+          "id": "G_33yo1MshQbiaGTPtTdK-res-3",
+          "type": "video",
+          "title": "Remix Crash Course 2023",
+          "url": "https://www.youtube.com/watch?v=RBYJTop1e-g"
+        }
+      ]
+    },
+    "IlWFMh44HtHDnIr7nqwtI": {
+      "id": "IlWFMh44HtHDnIr7nqwtI",
+      "slug": "rendering-pages",
+      "title": "Rendering Pages in Next.js",
+      "description": "Rendering refers to the process of converting your code into HTML that can be displayed in a web browser. Next.js offers different strategies for this, including server-side rendering (SSR), static site generation (SSG), incremental static regeneration (ISR), and client-side rendering (CSR). Each method determines when and where the HTML is generated, impacting performance, SEO, and interactivity. Choosing the right rendering strategy depends on the specific needs of each page in your application. Recently, Next.js has launched a partial prerendering feature, that allows you to combine static and dynamic content in the same route. This improves the initial page performance while still supporting personalized, dynamic data. However, this feature is currently experimental and subject to change, it's not recommended for production.",
+      "resources": [
+        {
+          "id": "IlWFMh44HtHDnIr7nqwtI-res-1",
+          "type": "article",
+          "title": "Rendering Strategies",
+          "url": "https://nextjs.org/learn/seo/rendering-strategies"
+        },
+        {
+          "id": "IlWFMh44HtHDnIr7nqwtI-res-2",
+          "type": "article",
+          "title": "Partial Prerendering",
+          "url": "https://nextjs.org/docs/app/getting-started/partial-prerendering"
+        },
+        {
+          "id": "IlWFMh44HtHDnIr7nqwtI-res-3",
+          "type": "article",
+          "title": "Rendering User Interfaces (UI)",
+          "url": "https://nextjs.org/learn/react-foundations/rendering-ui"
+        }
+      ]
+    },
+    "1ch6ZXZP46FP8q3HeCqWM": {
+      "id": "1ch6ZXZP46FP8q3HeCqWM",
+      "slug": "rendering-strategies",
+      "title": "Rendering Strategies",
+      "description": "Rendering strategies determine how your application's user interface is generated and delivered to the user's browser. Different strategies offer varying trade-offs between performance, SEO, and data freshness. Choosing the right rendering strategy is crucial for optimizing your application based on its specific requirements and content characteristics.",
+      "resources": [
+        {
+          "id": "1ch6ZXZP46FP8q3HeCqWM-res-1",
+          "type": "article",
+          "title": "Rendering Strategies",
+          "url": "https://nextjs.org/learn/seo/rendering-strategies"
+        },
+        {
+          "id": "1ch6ZXZP46FP8q3HeCqWM-res-2",
+          "type": "article",
+          "title": "How to build single-page applications with Next.js",
+          "url": "https://nextjs.org/docs/app/guides/single-page-applications"
+        },
+        {
+          "id": "1ch6ZXZP46FP8q3HeCqWM-res-3",
+          "type": "article",
+          "title": "Next.js Rendering Strategies: SSR, SSG, and ISR Compared",
+          "url": "https://hybridheroes.de/blog/2023-05-31-next-js-rendering-strategies/"
+        }
+      ]
+    },
+    "N5siOJO3dc9vJUTpbdm04": {
+      "id": "N5siOJO3dc9vJUTpbdm04",
+      "slug": "revalidating-cached-data",
+      "title": "Revalidating Cached Data",
+      "description": "Revalidation is the process of updating cached data. When you cache data, it's stored for a certain period. After that period, or based on specific events, you might want to refresh the data to ensure your application displays the most up-to-date information. Revalidation allows you to control when and how your cached data is updated, balancing performance with data freshness. Revalidating in Next.js is conducted through the `revalidatePath` and `revalidateTag` functions.",
+      "resources": [
+        {
+          "id": "N5siOJO3dc9vJUTpbdm04-res-1",
+          "type": "article",
+          "title": "Revalidating",
+          "url": "https://nextjs.org/docs/app/guides/caching#revalidating-1"
+        },
+        {
+          "id": "N5siOJO3dc9vJUTpbdm04-res-2",
+          "type": "article",
+          "title": "Caching and Revalidating",
+          "url": "https://nextjs.org/docs/app/getting-started/caching-and-revalidating#revalidatetag"
+        }
+      ]
+    },
+    "qMYuXOlr_c-6oQKVOdGci": {
+      "id": "qMYuXOlr_c-6oQKVOdGci",
+      "slug": "revalidation-errors",
+      "title": "Revalidation Errors",
+      "description": "When revalidation fails, it means the attempt to refresh the cached data encountered an issue, preventing the application from displaying the most up-to-date information. These errors can stem from various sources, such as network connectivity problems, issues with the data source itself (e.g., a database being unavailable), or problems within the revalidation logic. In Next.js, If an error is thrown while attempting to revalidate data, the last successfully generated data will continue to be served from the cache. On the next subsequent request, Next.js will retry revalidating the data.",
+      "resources": [
+        {
+          "id": "qMYuXOlr_c-6oQKVOdGci-res-1",
+          "type": "article",
+          "title": "Error handling and revalidation",
+          "url": "https://nextjs.org/docs/14/app/building-your-application/data-fetching/fetching-caching-and-revalidating"
+        }
+      ]
+    },
+    "Sn-8ztsjjtUxD_SP6w3cS": {
+      "id": "Sn-8ztsjjtUxD_SP6w3cS",
+      "slug": "route-matcher",
+      "title": "Route Matcher",
+      "description": "A route matcher in Next.js middleware allows you to conditionally execute middleware based on the incoming request's path. It defines specific patterns or conditions that the request path must satisfy for the middleware to run. This enables you to apply middleware logic only to certain routes or groups of routes within your application, providing fine-grained control over request handling.",
+      "resources": [
+        {
+          "id": "Sn-8ztsjjtUxD_SP6w3cS-res-1",
+          "type": "article",
+          "title": "Matcher for App Router",
+          "url": "https://nextjs.org/docs/app/api-reference/file-conventions/middleware#matcher"
+        },
+        {
+          "id": "Sn-8ztsjjtUxD_SP6w3cS-res-2",
+          "type": "article",
+          "title": "Matcher for Pages Router",
+          "url": "https://nextjs.org/docs/pages/api-reference/file-conventions/middleware#matcher"
+        }
+      ]
+    },
+    "09uWsmXOXU0Ox7F3qsjRx": {
+      "id": "09uWsmXOXU0Ox7F3qsjRx",
+      "slug": "routing-patterns",
+      "title": "Routing Patterns",
+      "description": "The App Router provides a set of conventions to help you implement more advanced routing patterns. These include: * Parallel Routes: Allow you to simultaneously show two or more pages in the same view that can be navigated independently. * Intercepting Routes: Allow you to intercept a route and show it in the context of another route. These patterns allow you to build richer and more complex UIs, democratizing features that were historically complex for small teams and individual developers to implement.",
+      "resources": [
+        {
+          "id": "09uWsmXOXU0Ox7F3qsjRx-res-1",
+          "type": "article",
+          "title": "Advanced Routing Patterns",
+          "url": "https://nextjs.org/docs/13/app/building-your-application/routing#advanced-routing-patterns"
+        }
+      ]
+    },
+    "oFhmV5Xv0KJ-SjeYVZBpi": {
+      "id": "oFhmV5Xv0KJ-SjeYVZBpi",
+      "slug": "routing-terminology",
+      "title": "Routing Terminology in Next.js",
+      "description": "In Next.js, routing is primarily handled through the `app` directory (introduced in Next.js 13) and the older `pages` directory. Key terms include: *   **Route:** A specific URL path that maps to a particular component or page. For example, `/blog/my-first-post`. *   **Route Segment:** A part of the URL path. In `/blog/my-first-post`, `blog` and `my-first-post` are route segments. *   **File-System Routing:** Next.js uses a file-system based router. The structure of your directories and files within the `app` or `pages` directory directly defines your application's routes. *   **Dynamic Routes:** Routes that include parameters, allowing you to create pages based on data. For example, `/blog/[slug]` where `[slug]` is a dynamic parameter. *   **Index Route:** The route that is served when a user visits a directory. Typically represented by an `index.js` or `page.js` file within a directory. *   **Layout:** A component that wraps multiple pages, providing a consistent UI structure (like headers and footers) across different routes. *   **Link Component:** The `<Link>` component from `next/link` is used for client-side navigation between routes, providing better performance than traditional `<a>` tags.",
+      "resources": [
+        {
+          "id": "oFhmV5Xv0KJ-SjeYVZBpi-res-1",
+          "type": "article",
+          "title": "Project structure and organization",
+          "url": "https://nextjs.org/docs/app/getting-started/project-structure"
+        },
+        {
+          "id": "oFhmV5Xv0KJ-SjeYVZBpi-res-2",
+          "type": "video",
+          "title": "Next.js 15 Tutorial - Routing",
+          "url": "https://www.youtube.com/watch?v=9602Yzvd7i"
+        },
+        {
+          "id": "oFhmV5Xv0KJ-SjeYVZBpi-res-3",
+          "type": "video",
+          "title": "Next.js 15 Tutorial - Nested Routes",
+          "url": "https://www.youtube.com/watch?v=H7JjKjkC33c"
+        },
+        {
+          "id": "oFhmV5Xv0KJ-SjeYVZBpi-res-4",
+          "type": "video",
+          "title": "Next.js 15 Tutorial - Dynamic Routes",
+          "url": "https://www.youtube.com/watch?v=k9g6aVLH3p4"
+        },
+        {
+          "id": "oFhmV5Xv0KJ-SjeYVZBpi-res-5",
+          "type": "video",
+          "title": "Next.js 15 Tutorial - Nested Dynamic Routes",
+          "url": "https://www.youtube.com/watch?v=edrJf0GKfAI"
+        }
+      ]
+    },
+    "LN7SHgcQp9gX_jfEN84YP": {
+      "id": "LN7SHgcQp9gX_jfEN84YP",
+      "slug": "runtimes-and-types",
+      "title": "Runtimes and Types",
+      "description": "In the context of Next.js, runtime refers to the set of libraries, APIs, and general functionality available to your code during execution. On the server, there are two runtimes where parts of your application code can be rendered: * The Node.js Runtime (default), which has access to all Node.js APIs and is used for rendering your application. * The Edge Runtime which contains a more limited set of APIs, used in Middleware.",
+      "resources": [
+        {
+          "id": "LN7SHgcQp9gX_jfEN84YP-res-1",
+          "type": "article",
+          "title": "https://nextjs.org/docs/app/api-reference/edge",
+          "url": "https://nextjs.org/docs/app/api-reference/edge"
+        }
+      ]
+    },
+    "5H7toz-DxtnwjozCgLuk6": {
+      "id": "5H7toz-DxtnwjozCgLuk6",
+      "slug": "sass",
+      "title": "Sass in Next.js",
+      "description": "Sass (Syntactically Awesome Style Sheets) is a CSS preprocessor that extends the capabilities of standard CSS. It allows you to use features like variables, nesting, mixins, and functions to write more organized, maintainable, and efficient stylesheets. These features are then compiled into standard CSS that browsers can understand. Next.js has built-in support for integrating with Sass after the package is installed using both the `.scss` and `.sass` extensions. You can use component-level Sass via CSS Modules and the `.module.scss` or `.module.sass` extension.",
+      "resources": [
+        {
+          "id": "5H7toz-DxtnwjozCgLuk6-res-1",
+          "type": "article",
+          "title": "Sass",
+          "url": "https://sass-lang.com/"
+        },
+        {
+          "id": "5H7toz-DxtnwjozCgLuk6-res-2",
+          "type": "article",
+          "title": "Sass",
+          "url": "https://github.com/sass/sass"
+        },
+        {
+          "id": "5H7toz-DxtnwjozCgLuk6-res-3",
+          "type": "article",
+          "title": "How to use Sass in Next.js",
+          "url": "https://nextjs.org/docs/app/guides/sass"
+        }
+      ]
+    },
+    "JFrpy3dGt-UP9Weo1VBvN": {
+      "id": "JFrpy3dGt-UP9Weo1VBvN",
+      "slug": "scripts",
+      "title": "Third-Party Scripts",
+      "description": "Third-party scripts are code snippets from external sources that add functionality to your website, such as analytics, advertising, or social media widgets. Next.js allows you to load a third-party script for multiple routes through the `next/script` component, optimizing performance and enhancing control over when and how scripts are executed within your application. These scripts can impact your website's performance because they often require downloading and executing code from external servers. Managing these scripts effectively is crucial for maintaining a fast and responsive user experience.",
+      "resources": [
+        {
+          "id": "JFrpy3dGt-UP9Weo1VBvN-res-1",
+          "type": "article",
+          "title": "How to load and optimize scripts",
+          "url": "https://nextjs.org/docs/app/guides/scripts"
+        }
+      ]
+    },
+    "IuBZY-ISP1Sy_5OQ99jLY": {
+      "id": "IuBZY-ISP1Sy_5OQ99jLY",
+      "slug": "server-actions",
+      "title": "Server Functions",
+      "description": "Server Functions are asynchronous functions that are executed on the server. They can be used in Server and Client Components to handle form submissions and data mutations in Next.js applications. In an `action` or mutation context, they are also called Server Actions.",
+      "resources": [
+        {
+          "id": "IuBZY-ISP1Sy_5OQ99jLY-res-1",
+          "type": "article",
+          "title": "What are Server Functions?",
+          "url": "https://nextjs.org/docs/app/getting-started/updating-data"
+        },
+        {
+          "id": "IuBZY-ISP1Sy_5OQ99jLY-res-2",
+          "type": "video",
+          "title": "Next.js Server Actions",
+          "url": "https://www.youtube.com/watch?v=gQ2bVQPFS4U"
+        }
+      ]
+    },
+    "m7eKlykOZCA3BLuBHioDj": {
+      "id": "m7eKlykOZCA3BLuBHioDj",
+      "slug": "server-rendered",
+      "title": "Server-Side Rendering (SSR)",
+      "description": "Server-Side Rendering (SSR) is a technique where a web application's initial HTML is generated on the server in response to a user's request. This pre-rendered HTML is then sent to the client's browser, allowing the user to see the content immediately, even before the JavaScript code is fully executed. This approach contrasts with client-side rendering, where the browser downloads a minimal HTML page and then uses JavaScript to render the content.",
+      "resources": [
+        {
+          "id": "m7eKlykOZCA3BLuBHioDj-res-1",
+          "type": "article",
+          "title": "Server and Client Components for App Router",
+          "url": "https://nextjs.org/docs/app/getting-started/server-and-client-components#when-to-use-server-and-client-components"
+        },
+        {
+          "id": "m7eKlykOZCA3BLuBHioDj-res-2",
+          "type": "article",
+          "title": "Server-side Rendering (SSR) for App Router",
+          "url": "https://nextjs.org/docs/pages/building-your-application/rendering/server-side-rendering"
+        },
+        {
+          "id": "m7eKlykOZCA3BLuBHioDj-res-3",
+          "type": "article",
+          "title": "Server Components",
+          "url": "https://nextjs.org/docs/14/app/building-your-application/rendering/server-components"
+        },
+        {
+          "id": "m7eKlykOZCA3BLuBHioDj-res-4",
+          "type": "video",
+          "title": "Next.js 15 Tutorial - Server and Client Components",
+          "url": "https://www.youtube.com/watch?v=dMCSiA5gzkU"
+        }
+      ]
+    },
+    "QDxYlIyFOuGUIy_ZovHs0": {
+      "id": "QDxYlIyFOuGUIy_ZovHs0",
+      "slug": "server",
+      "title": "Server-Side Data Fetching for Locations",
+      "description": "Fetching data on the server in Next.js allows you to retrieve location information before the page is rendered. This approach improves performance by reducing the amount of work the client's browser needs to do, leading to faster initial page loads and better SEO. Server-side data fetching ensures that the data is available when the page is initially rendered, providing a seamless user experience.",
+      "resources": [
+        {
+          "id": "QDxYlIyFOuGUIy_ZovHs0-res-1",
+          "type": "article",
+          "title": "Client-side Fetching",
+          "url": "https://nextjs.org/docs/app/getting-started/fetching-data#server-components"
+        },
+        {
+          "id": "QDxYlIyFOuGUIy_ZovHs0-res-2",
+          "type": "video",
+          "title": "Next.js 15 Tutorial - Fetching Data in Server Components",
+          "url": "https://www.youtube.com/watch?v=WKfPctdIDek"
+        }
+      ]
+    },
+    "XwDF-Kt9K5smm3ruxlkR2": {
+      "id": "XwDF-Kt9K5smm3ruxlkR2",
+      "slug": "setting-headers",
+      "title": "Setting Headers in Next.js Middleware",
+      "description": "Middleware in Next.js allows you to run code before a request is completed. Setting headers within middleware enables you to modify the HTTP response headers, controlling aspects like caching, security policies, or custom information passed to the client. This provides a flexible way to manage response behavior based on incoming requests.",
+      "resources": [
+        {
+          "id": "XwDF-Kt9K5smm3ruxlkR2-res-1",
+          "type": "article",
+          "title": "Setting Headers for App Router",
+          "url": "https://nextjs.org/docs/app/api-reference/file-conventions/middleware#setting-headers"
+        },
+        {
+          "id": "XwDF-Kt9K5smm3ruxlkR2-res-2",
+          "type": "article",
+          "title": "Setting Headers for Pages Router",
+          "url": "https://nextjs.org/docs/pages/api-reference/file-conventions/middleware#setting-headers"
+        }
+      ]
+    },
+    "ThrO72opK7xGWpy0GG63T": {
+      "id": "ThrO72opK7xGWpy0GG63T",
+      "slug": "setting-things-up",
+      "title": "Setting Things Up",
+      "description": "Next.js allows you to customize your project to meet specific requirements. This includes integrations with TypeScript, ESlint, and more, as well as internal configuration options such as Absolute Imports and Environment Variables.",
+      "resources": [
+        {
+          "id": "ThrO72opK7xGWpy0GG63T-res-1",
+          "type": "article",
+          "title": "Configuration",
+          "url": "https://nextjs.org/docs/app/api-reference/config"
+        }
+      ]
+    },
+    "ch5gUr8xeCIp-i48N5qew": {
+      "id": "ch5gUr8xeCIp-i48N5qew",
+      "slug": "spa-vs-ssr",
+      "title": "SPA vs SSR",
+      "description": "Single-Page Applications (SPAs) load a single HTML page and dynamically update the content using JavaScript, providing a fluid user experience without full page reloads. Server-Side Rendering (SSR), on the other hand, generates the HTML on the server for each request, sending a fully rendered page to the client. Next.js allows you to choose between these approaches or even combine them, offering flexibility in optimizing for performance, SEO, and user experience.",
+      "resources": [
+        {
+          "id": "ch5gUr8xeCIp-i48N5qew-res-1",
+          "type": "article",
+          "title": "How to build single-page applications with Next.js",
+          "url": "https://nextjs.org/docs/app/guides/single-page-applications"
+        },
+        {
+          "id": "ch5gUr8xeCIp-i48N5qew-res-2",
+          "type": "article",
+          "title": "Server-side Rendering (SSR)",
+          "url": "https://nextjs.org/docs/pages/building-your-application/rendering/server-side-rendering"
+        },
+        {
+          "id": "ch5gUr8xeCIp-i48N5qew-res-3",
+          "type": "article",
+          "title": "https://dev.to/santhanam87/ssr-vs-spa-showdown-choosing-the-right-rendering-approach-for-your-web-app-4439",
+          "url": "https://dev.to/santhanam87/ssr-vs-spa-showdown-choosing-the-right-rendering-approach-for-your-web-app-4439"
+        }
+      ]
+    },
+    "NC7s-EOLWhjXR70JFZxcg": {
+      "id": "NC7s-EOLWhjXR70JFZxcg",
+      "slug": "spa",
+      "title": "Single-Page Application (SPA) Rendering",
+      "description": "A Single-Page Application (SPA) is a web application that loads a single HTML page and dynamically updates that page as the user interacts with the application. This is achieved by using JavaScript to manipulate the DOM (Document Object Model) directly, rather than requesting new HTML pages from the server for each interaction. This approach provides a more fluid and responsive user experience, as the browser doesn't need to reload the entire page for every change.",
+      "resources": [
+        {
+          "id": "NC7s-EOLWhjXR70JFZxcg-res-1",
+          "type": "article",
+          "title": "https://nextjs.org/docs/app/guides/single-page-applications",
+          "url": "https://nextjs.org/docs/app/guides/single-page-applications"
+        },
+        {
+          "id": "NC7s-EOLWhjXR70JFZxcg-res-2",
+          "type": "article",
+          "title": "Single-page application",
+          "url": "https://en.wikipedia.org/wiki/Single-page_application"
+        },
+        {
+          "id": "NC7s-EOLWhjXR70JFZxcg-res-3",
+          "type": "article",
+          "title": "Building Single-Page Applications (SPAs) with React and Next.js",
+          "url": "https://medium.com/@blog.iroidsolutions/building-single-page-applications-spas-with-react-and-next-js-c8e02d806145"
+        }
+      ]
+    },
+    "CqPZHOs1Iew6PCIjwiqUt": {
+      "id": "CqPZHOs1Iew6PCIjwiqUt",
+      "slug": "ssg",
+      "title": "Static Site Generation (SSG)",
+      "description": "Static Site Generation (SSG) is a rendering method that generates HTML pages at build time. This means that when a user requests a page, the server sends a pre-rendered HTML file, rather than dynamically generating it on each request. This approach leads to faster load times and improved SEO, as search engines can easily crawl and index the static content.",
+      "resources": [
+        {
+          "id": "CqPZHOs1Iew6PCIjwiqUt-res-1",
+          "type": "article",
+          "title": "Static Site Generation (SSG)",
+          "url": "https://nextjs.org/docs/pages/building-your-application/rendering/static-site-generation"
+        }
+      ]
+    },
+    "7EYQnX3cEAjSL-iJSprEI": {
+      "id": "7EYQnX3cEAjSL-iJSprEI",
+      "slug": "ssr",
+      "title": "Server-Side Rendering (SSR)",
+      "description": "Server-Side Rendering (SSR) is a technique where a web application's HTML is generated on the server in response to each user request. The server then sends the fully rendered HTML to the client's browser, which displays it. This differs from client-side rendering, where the browser downloads a minimal HTML page and then uses JavaScript to render the content.",
+      "resources": [
+        {
+          "id": "7EYQnX3cEAjSL-iJSprEI-res-1",
+          "type": "article",
+          "title": "Server-side Rendering (SSR)",
+          "url": "https://nextjs.org/docs/pages/building-your-application/rendering/server-side-rendering"
+        },
+        {
+          "id": "7EYQnX3cEAjSL-iJSprEI-res-2",
+          "type": "article",
+          "title": "What is Server-Side Rendering: Definition, Benefits and Risks",
+          "url": "https://solutionshub.epam.com/blog/post/what-is-server-side-rendering"
+        }
+      ]
+    },
+    "iabbuLHqAiRkgj03t64x7": {
+      "id": "iabbuLHqAiRkgj03t64x7",
+      "slug": "static-assets",
+      "title": "Static Assets",
+      "description": "Static content is any file that is stored in a server and is the same every time it is delivered to users. HTML files and images are examples of this kind of content. Next.js can serve static files under a folder called `public` in the root directory. Files inside `public` can then be referenced by your code starting from the base URL (`/`). It's important to note that Next.js cannot safely cache assets in the public folder because they may change.",
+      "resources": [
+        {
+          "id": "iabbuLHqAiRkgj03t64x7-res-1",
+          "type": "article",
+          "title": "public Folder",
+          "url": "https://nextjs.org/docs/app/api-reference/file-conventions/public-folder"
+        }
+      ]
+    },
+    "evmzZ6F7TWgYhdaahnZHY": {
+      "id": "evmzZ6F7TWgYhdaahnZHY",
+      "slug": "static-export",
+      "title": "Static Export",
+      "description": "Next.js enables starting as a static site or Single-Page Application (SPA), then later optionally upgrading to use features that require a server. Since Next.js supports static exports, it can be deployed and hosted on any web server that can serve HTML/CSS/JS static assets. This includes tools like AWS S3, Nginx, or Apache. Running as a static export does not support Next.js features that require a server.",
+      "resources": [
+        {
+          "id": "evmzZ6F7TWgYhdaahnZHY-res-1",
+          "type": "article",
+          "title": "Static Export Deployment",
+          "url": "https://nextjs.org/docs/app/getting-started/deploying#static-export"
+        }
+      ]
+    },
+    "hQHvu7MzNwA2lL9ADm5YQ": {
+      "id": "hQHvu7MzNwA2lL9ADm5YQ",
+      "slug": "static-vs-dynamic",
+      "title": "Static vs Dynamic API Endpoints",
+      "description": "API endpoints in Next.js allow you to create serverless functions that handle requests. These endpoints can be either static or dynamic, depending on how their routes are defined and how they process data. Static API endpoints have predefined routes and typically return the same response for every request, while dynamic API endpoints use parameters in their routes to handle different requests and generate responses based on those parameters.",
+      "resources": [
+        {
+          "id": "hQHvu7MzNwA2lL9ADm5YQ-res-1",
+          "type": "article",
+          "title": "Route Handlers and Middleware",
+          "url": "https://nextjs.org/docs/app/getting-started/route-handlers-and-middleware"
+        },
+        {
+          "id": "hQHvu7MzNwA2lL9ADm5YQ-res-2",
+          "type": "article",
+          "title": "Dynamic API Routes for Pages Routers",
+          "url": "https://nextjs.org/docs/pages/building-your-application/routing/api-routes#dynamic-api-routes"
+        },
+        {
+          "id": "hQHvu7MzNwA2lL9ADm5YQ-res-3",
+          "type": "article",
+          "title": "Building APIs with Next.js",
+          "url": "https://nextjs.org/blog/building-apis-with-nextjs#12-app-router-vs-pages-router"
+        }
+      ]
+    },
+    "lR7oPh0DCY_BhzXH31N36": {
+      "id": "lR7oPh0DCY_BhzXH31N36",
+      "slug": "streaming",
+      "title": "Streaming in Next.js API Endpoints",
+      "description": "Streaming in Next.js API endpoints allows you to send data to the client in chunks, rather than waiting for the entire response to be generated on the server before sending anything. This can significantly improve perceived performance, especially for long-running processes or when dealing with large datasets. By sending data incrementally, the client can start processing and displaying information sooner, leading to a more responsive user experience.",
+      "resources": [
+        {
+          "id": "lR7oPh0DCY_BhzXH31N36-res-1",
+          "type": "article",
+          "title": "Streaming",
+          "url": "https://nextjs.org/docs/app/api-reference/file-conventions/route#streaming"
+        },
+        {
+          "id": "lR7oPh0DCY_BhzXH31N36-res-2",
+          "type": "article",
+          "title": "Streaming responses",
+          "url": "https://nextjs.org/docs/pages/building-your-application/routing/api-routes#streaming-responses"
+        },
+        {
+          "id": "lR7oPh0DCY_BhzXH31N36-res-3",
+          "type": "video",
+          "title": "Next.js 15 Tutorial - Streaming",
+          "url": "https://www.youtube.com/watch?v=oSf1gUDGJOA"
+        }
+      ]
+    },
+    "9egFwmy-o7Fx-M7FcPXXy": {
+      "id": "9egFwmy-o7Fx-M7FcPXXy",
+      "slug": "structuring-routes",
+      "title": "Structuring Routes",
+      "description": "Structuring routes in Next.js involves organizing your project's file system to define the different URLs (or routes) of your application. Each file within the `app` directory (or `pages` directory in older versions) corresponds to a specific route. The file's location and name directly determine the URL path that users will access. This file-system-based routing simplifies navigation and makes it easy to create a well-organized web application.",
+      "resources": [
+        {
+          "id": "9egFwmy-o7Fx-M7FcPXXy-res-1",
+          "type": "article",
+          "title": "Project structure and organization for App Router",
+          "url": "https://nextjs.org/docs/app/getting-started/project-structure"
+        },
+        {
+          "id": "9egFwmy-o7Fx-M7FcPXXy-res-2",
+          "type": "article",
+          "title": "Project Structure and Organization for Pages Router",
+          "url": "https://nextjs.org/docs/pages/getting-started/project-structure"
+        },
+        {
+          "id": "9egFwmy-o7Fx-M7FcPXXy-res-3",
+          "type": "video",
+          "title": "Next.js 15 Tutorial - Project Structure",
+          "url": "https://www.youtube.com/watch?v=L0g87N0piT0"
+        }
+      ]
+    },
+    "3IKXvlA9P06GiOi34zv5H": {
+      "id": "3IKXvlA9P06GiOi34zv5H",
+      "slug": "tailwind-css",
+      "title": "Tailwind CSS",
+      "description": "Next.js support Tailwind CSS to style your apps. Tailwind CSS is a utility-first CSS framework that provides a set of pre-defined CSS classes that you can use to style your HTML elements directly in your markup. Instead of writing custom CSS rules, you compose styles by applying these utility classes, allowing for rapid UI development and consistent design. This approach promotes a more streamlined workflow by reducing the need to switch between HTML and CSS files.",
+      "resources": [
+        {
+          "id": "3IKXvlA9P06GiOi34zv5H-res-1",
+          "type": "article",
+          "title": "Tailwind CSS",
+          "url": "https://tailwindcss.com/"
+        },
+        {
+          "id": "3IKXvlA9P06GiOi34zv5H-res-2",
+          "type": "article",
+          "title": "Tailwind CSS in Next.js",
+          "url": "https://nextjs.org/docs/app/getting-started/css#tailwind-css"
+        }
+      ]
+    },
+    "-j38AhG6LUCH5GupGiqUM": {
+      "id": "-j38AhG6LUCH5GupGiqUM",
+      "slug": "third-party-libraries",
+      "title": "Third Party Libraries",
+      "description": "`@next/third-parties` is a library that provides a collection of components and utilities that improve the performance and developer experience of loading popular third-party libraries, like Google Tag Manager and Google Analytics,  in your Next.js application. All third-party integrations provided by `@next/third-parties` have been optimized for performance and ease of use.",
+      "resources": [
+        {
+          "id": "-j38AhG6LUCH5GupGiqUM-res-1",
+          "type": "article",
+          "title": "How to optimize third-party libraries",
+          "url": "https://nextjs.org/docs/app/guides/third-party-libraries"
+        }
+      ]
+    },
+    "km7dLVpl76c5EfWvhhbRh": {
+      "id": "km7dLVpl76c5EfWvhhbRh",
+      "slug": "types-of-routers",
+      "title": "Types of Routers",
+      "description": "Next.js has two different routers: *   **App Router**: The newer router that supports new React features like Server Components. *   **Pages Router**: The original router, still supported and being improved. Before Next.js 13, the Pages Router was the main way to create routes in Next.js. It's still supported in newer versions of Next.js, but Next.js recommends migrating to the new App Router to leverage React's latest features.",
+      "resources": [
+        {
+          "id": "km7dLVpl76c5EfWvhhbRh-res-1",
+          "type": "article",
+          "title": "Next.js Docs",
+          "url": "https://nextjs.org/docs#app-router-and-pages-router"
+        },
+        {
+          "id": "km7dLVpl76c5EfWvhhbRh-res-2",
+          "type": "video",
+          "title": "Next.js App vs. Pages Router - Which One is Better?",
+          "url": "https://www.youtube.com/watch?v=EYDOXzpTRvw"
+        }
+      ]
+    },
+    "ZFHkHmvjndPjDAB-MAtb7": {
+      "id": "ZFHkHmvjndPjDAB-MAtb7",
+      "slug": "typescript",
+      "title": "TypeScript",
+      "description": "TypeScript is a syntactic superset of JavaScript which adds static typing. This means that TypeScript adds syntax on top of JavaScript, allowing developers to add types. Next.js comes with built-in TypeScript, automatically installing the necessary packages and configuring the proper settings when you create a new project with create-next-app. To add TypeScript to an existing project, rename a file to `.ts` / `.tsx`. Run `next dev` and `next build` to automatically install the necessary dependencies and add a `tsconfig.json` file with the recommended config options.",
+      "resources": [
+        {
+          "id": "ZFHkHmvjndPjDAB-MAtb7-res-1",
+          "type": "article",
+          "title": "TypeScript",
+          "url": "https://nextjs.org/docs/app/api-reference/config/typescript"
+        }
+      ]
+    },
+    "54Cc_GdL327tzkdYBA305": {
+      "id": "54Cc_GdL327tzkdYBA305",
+      "slug": "use-cases",
+      "title": "Middleware Use Cases",
+      "description": "Middleware in Next.js allows you to run code before a request is completed. This provides a flexible way to modify the response by rewriting, redirecting, adding headers, or even directly responding. Common use cases include authentication, authorization, redirecting users based on their location (localization), handling bots, and implementing advanced security measures.",
+      "resources": [
+        {
+          "id": "54Cc_GdL327tzkdYBA305-res-1",
+          "type": "article",
+          "title": "Middleware for App Router",
+          "url": "https://nextjs.org/docs/app/api-reference/file-conventions/middleware"
+        },
+        {
+          "id": "54Cc_GdL327tzkdYBA305-res-2",
+          "type": "article",
+          "title": "Middleware for Pages Router",
+          "url": "https://nextjs.org/docs/pages/api-reference/file-conventions/middleware"
+        }
+      ]
+    },
+    "8kUhcd2-BlqOKInEuSI95": {
+      "id": "8kUhcd2-BlqOKInEuSI95",
+      "slug": "using-cookies",
+      "title": "Using Cookies in Next.js Middleware",
+      "description": "Cookies are small pieces of data that websites store on a user's computer to remember information about them, such as login details, preferences, or shopping cart items. In Next.js middleware, you can access and modify these cookies before a request is handled by your application's routes, allowing you to implement features like authentication, personalization, and A/B testing based on cookie values. This provides a powerful way to control the user experience at the edge.",
+      "resources": [
+        {
+          "id": "8kUhcd2-BlqOKInEuSI95-res-1",
+          "type": "article",
+          "title": "Using Cookies for App Router",
+          "url": "https://nextjs.org/docs/app/api-reference/file-conventions/middleware#using-cookies"
+        },
+        {
+          "id": "8kUhcd2-BlqOKInEuSI95-res-2",
+          "type": "article",
+          "title": "Using Cookies for Pages Router",
+          "url": "https://nextjs.org/docs/pages/api-reference/file-conventions/middleware#using-cookies"
+        }
+      ]
+    },
+    "1SJX-nGuhIxGH0ukfluoQ": {
+      "id": "1SJX-nGuhIxGH0ukfluoQ",
+      "slug": "videos",
+      "title": "Videos in Next.js",
+      "description": "Next.js provides various approaches and techniques to store and display video files without affecting performance. Videos can be embedded on the page using the HTML `<video>` tag for direct video files and `<iframe>` for external platform-hosted videos.",
+      "resources": [
+        {
+          "id": "1SJX-nGuhIxGH0ukfluoQ-res-1",
+          "type": "article",
+          "title": "How to use and optimize videos",
+          "url": "https://nextjs.org/docs/app/guides/videos"
+        },
+        {
+          "id": "1SJX-nGuhIxGH0ukfluoQ-res-2",
+          "type": "video",
+          "title": "Add high-performance video to your Nextjs app",
+          "url": "https://next-video.dev/docs"
+        }
+      ]
+    },
+    "KTZRo1Y_Z-7eMYzZ9W0Vl": {
+      "id": "KTZRo1Y_Z-7eMYzZ9W0Vl",
+      "slug": "vitest",
+      "title": "Vitest",
+      "description": "Next.js allows you to use Vitest for unit testing. Vitest is a fast unit test framework powered by Vite. It offers a development experience similar to Vite, making it easy to set up and use in projects that already use Vite for building. Vitest focuses on speed and simplicity, providing features like instant hot module replacement (HMR) and built-in support for TypeScript and JSX.",
+      "resources": [
+        {
+          "id": "KTZRo1Y_Z-7eMYzZ9W0Vl-res-1",
+          "type": "article",
+          "title": "How to set up Vitest with Next.js",
+          "url": "https://nextjs.org/docs/app/guides/testing/vitest"
+        },
+        {
+          "id": "KTZRo1Y_Z-7eMYzZ9W0Vl-res-2",
+          "type": "article",
+          "title": "Vitest",
+          "url": "https://vitest.dev/"
+        }
+      ]
+    },
+    "rJ3vuI58Z9u2SKTDgpTE2": {
+      "id": "rJ3vuI58Z9u2SKTDgpTE2",
+      "slug": "why-frontend-frameworks",
+      "title": "Why Frontend Frameworks?",
+      "description": "Building modern web applications often involves managing complex user interfaces, handling data efficiently, and ensuring a smooth user experience. Frontend frameworks like React, Angular, and Next.js provide a structured approach to these challenges. They offer pre-built components, routing solutions, state management tools, and optimized build processes, allowing developers to focus on building features rather than reinventing the wheel. This leads to faster development cycles, more maintainable code, and ultimately, better web applications.",
+      "resources": [
+        {
+          "id": "rJ3vuI58Z9u2SKTDgpTE2-res-1",
+          "type": "article",
+          "title": "Web3 Frontend – Everything You Need to Learn About Building Dapp Frontends",
+          "url": "https://moralis.io/web3-frontend-everything-you-need-to-learn-about-building-dapp-frontends/"
+        },
+        {
+          "id": "rJ3vuI58Z9u2SKTDgpTE2-res-2",
+          "type": "video",
+          "title": "What is the difference between a framework and a library?",
+          "url": "https://www.youtube.com/watch?v=D_MO9vIRBcA"
+        },
+        {
+          "id": "rJ3vuI58Z9u2SKTDgpTE2-res-3",
+          "type": "video",
+          "title": "Which JS Framework is best?",
+          "url": "https://www.youtube.com/watch?v=cuHDQhDhvPE"
+        },
+        {
+          "id": "rJ3vuI58Z9u2SKTDgpTE2-res-4",
+          "type": "article",
+          "title": "Explore top posts about Frontend Development",
+          "url": "https://app.daily.dev/tags/frontend?ref=roadmapsh"
+        }
+      ]
+    },
+    "WxoMZRRiW9CGDZ9i80nbf": {
+      "id": "WxoMZRRiW9CGDZ9i80nbf",
+      "slug": "why-nextjs",
+      "title": "Why Next.js?",
+      "description": "Next.js is a React framework that provides extra features and optimizations beyond what React offers on its own. When choosing a framework built on React, Next.js stands out because it simplifies development with features like built-in routing, server-side rendering, and static site generation. These capabilities improve performance, SEO, and the overall developer experience compared to building a React application from scratch or using other frameworks that require more manual configuration.",
+      "resources": [
+        {
+          "id": "WxoMZRRiW9CGDZ9i80nbf-res-1",
+          "type": "article",
+          "title": "10 Must-Know Benefits of Next.js for Modern Web Apps",
+          "url": "https://www.designrush.com/agency/web-development-companies/nextjs/trends/benefits-of-next-js"
+        },
+        {
+          "id": "WxoMZRRiW9CGDZ9i80nbf-res-2",
+          "type": "article",
+          "title": "Next.js 15 Tutorial - Introduction",
+          "url": "https://www.youtube.com/watch?v=b4ba60j_4o8"
+        }
+      ]
+    },
+    "ey6z7Y4WtNtQJ50n-3j5P": {
+      "id": "ey6z7Y4WtNtQJ50n-3j5P",
+      "slug": "why-react",
+      "title": "Why React?",
+      "description": "React is a JavaScript library designed for building user interfaces in a declarative and component-based way. It simplifies the process of creating dynamic and interactive web applications by allowing developers to break down complex UIs into smaller, reusable pieces. This approach promotes code maintainability, reusability, and efficiency, making it easier to manage and update large-scale frontend projects. React also works with tools like Redux for data management and React Native for mobile apps. It's popular because it's clear, fast, and has a big community.",
+      "resources": [
+        {
+          "id": "ey6z7Y4WtNtQJ50n-3j5P-res-1",
+          "type": "article",
+          "title": "Visit Dedicated React Roadmap",
+          "url": "https://roadmap.sh/react"
+        },
+        {
+          "id": "ey6z7Y4WtNtQJ50n-3j5P-res-2",
+          "type": "article",
+          "title": "React Website",
+          "url": "https://react.dev"
+        },
+        {
+          "id": "ey6z7Y4WtNtQJ50n-3j5P-res-3",
+          "type": "video",
+          "title": "Full Stack React Developer Course",
+          "url": "https://www.youtube.com/watch?v=Bvwq_S0n2pk"
+        },
+        {
+          "id": "ey6z7Y4WtNtQJ50n-3j5P-res-4",
+          "type": "article",
+          "title": "Explore top posts about React",
+          "url": "https://app.daily.dev/tags/react?ref=roadmapsh"
+        }
+      ]
+    },
+    "e_rwwlKsvyv9OMDDBXo_N": {
+      "id": "e_rwwlKsvyv9OMDDBXo_N",
+      "slug": "why-use-app-router",
+      "title": "App Router",
+      "description": "The App Router in Next.js is a new routing system built on React Server Components, offering enhanced flexibility and performance compared to the traditional Pages Router. Before Next.js 13, the Pages Router was the main way to create routes in Next.js. It's still supported in newer versions of Next.js, but Next.js recommends migrating to the new App Router to leverage React's latest features.",
+      "resources": [
+        {
+          "id": "e_rwwlKsvyv9OMDDBXo_N-res-1",
+          "type": "article",
+          "title": "Next.js: App Router vs Pages Router",
+          "url": "https://dev.to/dcs-ink/nextjs-app-router-vs-pages-router-3p57"
+        }
+      ]
+    }
+  }
+}

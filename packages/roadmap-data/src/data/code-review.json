@@ -1,0 +1,249 @@
+{
+  "slug": "code-review",
+  "title": "Code Review",
+  "description": "Comprehensive learning curriculum and mastery roadmap for code-review.",
+  "category": "skill",
+  "level": "Intermediate",
+  "topicCount": 6,
+  "iconName": "Compass",
+  "nodes": [
+    {
+      "id": "node-api-semantics.md",
+      "label": "Questions to Ask",
+      "topicId": "api-semantics.md",
+      "level": 1,
+      "position": {
+        "x": 80,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-code-style.md",
+      "label": "Questions to Ask",
+      "topicId": "code-style.md",
+      "level": 1,
+      "position": {
+        "x": 340,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-documentation.md",
+      "label": "Questions to Ask",
+      "topicId": "documentation.md",
+      "level": 1,
+      "position": {
+        "x": 600,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-implementation-semantics.md",
+      "label": "Questions to Ask",
+      "topicId": "implementation-semantics.md",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-index.md",
+      "label": "Index.md",
+      "topicId": "index.md",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-tests.md",
+      "label": "Questions to Ask",
+      "topicId": "tests.md",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 240
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-node-api-semantics.md-node-code-style.md",
+      "source": "node-api-semantics.md",
+      "target": "node-code-style.md",
+      "animated": true
+    },
+    {
+      "id": "edge-node-code-style.md-node-documentation.md",
+      "source": "node-code-style.md",
+      "target": "node-documentation.md",
+      "animated": true
+    },
+    {
+      "id": "edge-node-documentation.md-node-implementation-semantics.md",
+      "source": "node-documentation.md",
+      "target": "node-implementation-semantics.md",
+      "animated": true
+    },
+    {
+      "id": "edge-node-implementation-semantics.md-node-index.md",
+      "source": "node-implementation-semantics.md",
+      "target": "node-index.md",
+      "animated": true
+    },
+    {
+      "id": "edge-node-index.md-node-tests.md",
+      "source": "node-index.md",
+      "target": "node-tests.md",
+      "animated": true
+    }
+  ],
+  "topics": {
+    "api-semantics.md": {
+      "id": "api-semantics.md",
+      "slug": "api-semantics.md",
+      "title": "Questions to Ask",
+      "description": "- API as small as possible, as large as needed? - Is there one way of doing one thing, not multiple ones? - Is it consistent, does it follow the principle of least surprise? - Clean split of API/internals without internals leaking into the API? - Are there no breaking changes to user-facing parts (API classes, configuration, metrics, log formats, etc)? - Is a new API generally useful and not overly specific to a single use case? Learn more from the following resources:",
+      "resources": [
+        {
+          "id": "api-semantics.md-res-1",
+          "type": "article",
+          "title": "API Design Best Practices Guide - Fern",
+          "url": "https://buildwithfern.com/post/api-design-best-practices-guide"
+        },
+        {
+          "id": "api-semantics.md-res-2",
+          "type": "article",
+          "title": "RESTful API Resource Naming",
+          "url": "https://restfulapi.net/resource-naming/"
+        },
+        {
+          "id": "api-semantics.md-res-3",
+          "type": "article",
+          "title": "Web API Design Best Practices - Microsoft Azure",
+          "url": "https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design"
+        }
+      ]
+    },
+    "code-style.md": {
+      "id": "code-style.md",
+      "slug": "code-style.md",
+      "title": "Questions to Ask",
+      "description": "- Is the project's formatting style applied? - Does it adhere to the agreed-upon naming conventions? - Is it DRY? - Is the code sufficiently \"readable\" (method lengths, etc.)? Learn more from the following resources:",
+      "resources": [
+        {
+          "id": "code-style.md-res-1",
+          "type": "article",
+          "title": "The Standard of Code Review - Google",
+          "url": "https://google.github.io/eng-practices/review/reviewer/standard.html"
+        },
+        {
+          "id": "code-style.md-res-2",
+          "type": "article",
+          "title": "Creating a Coding Style Guide for Your Team - Graphite",
+          "url": "https://graphite.com/guides/creating-coding-style-guide"
+        },
+        {
+          "id": "code-style.md-res-3",
+          "type": "article",
+          "title": "Code Smells - Refactoring Guru",
+          "url": "https://refactoring.guru/refactoring/smells"
+        }
+      ]
+    },
+    "documentation.md": {
+      "id": "documentation.md",
+      "slug": "documentation.md",
+      "title": "Questions to Ask",
+      "description": "- Are the new features reasonably documented? - Are all relevant types of documentation covered, such as README, API docs, user guide, reference docs, etc? - Is the documentation understandable and free of significant typos and grammar mistakes? Learn more from the following resources:",
+      "resources": [
+        {
+          "id": "documentation.md-res-1",
+          "type": "article",
+          "title": "How to Write Software Documentation - Write the Docs",
+          "url": "https://www.writethedocs.org/guide/writing/beginners-guide-to-docs/"
+        },
+        {
+          "id": "documentation.md-res-2",
+          "type": "article",
+          "title": "8 Essential Code Documentation Best Practices - Heretto",
+          "url": "https://www.heretto.com/blog/best-practices-for-writing-code-documentation"
+        },
+        {
+          "id": "documentation.md-res-3",
+          "type": "article",
+          "title": "Looking for Things in a Code Review - Google",
+          "url": "https://google.github.io/eng-practices/review/reviewer/looking-for.html"
+        }
+      ]
+    },
+    "implementation-semantics.md": {
+      "id": "implementation-semantics.md",
+      "slug": "implementation-semantics.md",
+      "title": "Questions to Ask",
+      "description": "- Does it satisfy the original requirements? - Is it logically correct? - Is there no unnecessary complexity? - Is it robust (i.e., no concurrency issues, proper error handling, etc.)? - Is it performant? - Is it secure (i.e., no SQL injections, etc.)? - Is it observable (i.e., metrics, logging, tracing, etc.)? - Do newly added dependencies pull their weight? Is their license acceptable? Learn more from the following resources:",
+      "resources": [
+        {
+          "id": "implementation-semantics.md-res-1",
+          "type": "article",
+          "title": "Three Pillars of Observability: Logs, Metrics and Traces - IBM",
+          "url": "https://www.ibm.com/think/insights/observability-pillars"
+        },
+        {
+          "id": "implementation-semantics.md-res-2",
+          "type": "article",
+          "title": "Security Code Review Checklist - Redwerk",
+          "url": "https://redwerk.com/blog/security-code-review-checklist/"
+        },
+        {
+          "id": "implementation-semantics.md-res-3",
+          "type": "article",
+          "title": "What Is Clean Code? - Codacy",
+          "url": "https://blog.codacy.com/what-is-clean-code"
+        }
+      ]
+    },
+    "index.md": {
+      "id": "index.md",
+      "slug": "index.md",
+      "title": "Index.md",
+      "description": "# Learn more from the following resources:",
+      "resources": [
+        {
+          "id": "index.md-res-1",
+          "type": "article",
+          "title": "Google Engineering Practices",
+          "url": "https://github.com/google/eng-practices"
+        }
+      ]
+    },
+    "tests.md": {
+      "id": "tests.md",
+      "slug": "tests.md",
+      "title": "Questions to Ask",
+      "description": "- Are all tests passing? - Are new features reasonably tested? - Are corner cases tested? - Is it using unit tests where possible, integration tests where necessary? - Are there tests for NFRs, e.g. performance? Learn more from the following resources:",
+      "resources": [
+        {
+          "id": "tests.md-res-1",
+          "type": "article",
+          "title": "Unit Testing Best Practices - IBM",
+          "url": "https://www.ibm.com/think/insights/unit-testing-best-practices"
+        },
+        {
+          "id": "tests.md-res-2",
+          "type": "article",
+          "title": "Integration Testing - Microsoft Engineering Playbook",
+          "url": "https://microsoft.github.io/code-with-engineering-playbook/automated-testing/integration-testing/"
+        },
+        {
+          "id": "tests.md-res-3",
+          "type": "article",
+          "title": "The Practical Test Pyramid - Martin Fowler",
+          "url": "https://martinfowler.com/articles/practical-test-pyramid.html"
+        }
+      ]
+    }
+  }
+}

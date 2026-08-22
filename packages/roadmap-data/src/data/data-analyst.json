@@ -1,0 +1,3643 @@
+{
+  "slug": "data-analyst",
+  "title": "Data Analyst",
+  "description": "Comprehensive learning curriculum and mastery roadmap for data-analyst.",
+  "category": "role",
+  "level": "Intermediate",
+  "topicCount": 102,
+  "iconName": "Compass",
+  "nodes": [
+    {
+      "id": "node-sgXIjVTbwdwdYoaxN3XBM",
+      "label": "Excel",
+      "topicId": "sgXIjVTbwdwdYoaxN3XBM",
+      "level": 1,
+      "position": {
+        "x": 80,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-4DFcXSSHxg5wv0uXLIRij",
+      "label": "APIs and Data Collection",
+      "topicId": "4DFcXSSHxg5wv0uXLIRij",
+      "level": 1,
+      "position": {
+        "x": 340,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-FDYunL9KJkR_tHEcUV2iC",
+      "label": "Average",
+      "topicId": "FDYunL9KJkR_tHEcUV2iC",
+      "level": 1,
+      "position": {
+        "x": 600,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-EVk1H-QLtTlpG7lVEenDt",
+      "label": "Bar Charts",
+      "topicId": "EVk1H-QLtTlpG7lVEenDt",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-m1IfG2sEedUxMXrv_B8GW",
+      "label": "Big Data Concepts",
+      "topicId": "m1IfG2sEedUxMXrv_B8GW",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-_aUQZWUhFRvNu0MZ8CPit",
+      "label": "Big Data Technologies",
+      "topicId": "_aUQZWUhFRvNu0MZ8CPit",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-BJTVa4ur_bJB7mMtD2-hQ",
+      "label": "Central Tendency",
+      "topicId": "BJTVa4ur_bJB7mMtD2-hQ",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-Vk3JErqxpnPY44iyfkLMl",
+      "label": "Charting",
+      "topicId": "Vk3JErqxpnPY44iyfkLMl",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-nC7tViln4UyQFYP_-fyjB",
+      "label": "Cleanup",
+      "topicId": "nC7tViln4UyQFYP_-fyjB",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-XlCv2OirEfuBFa4ranyyE",
+      "label": "CNNs",
+      "topicId": "XlCv2OirEfuBFa4ranyyE",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-mDUSpexdq3ITV6qokwSJl",
+      "label": "Collection",
+      "topicId": "mDUSpexdq3ITV6qokwSJl",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-SIiIfcy-jeiRoDlxw385V",
+      "label": "CONCAT",
+      "topicId": "SIiIfcy-jeiRoDlxw385V",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-murioZ0NdrTix_lqSGz-8",
+      "label": "Correlation Analysis",
+      "topicId": "murioZ0NdrTix_lqSGz-8",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-uAdxP1ZkgzcU8JcWjvw6d",
+      "label": "Count",
+      "topicId": "uAdxP1ZkgzcU8JcWjvw6d",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-iWOK0mRY-hAGxMnHYJ0tt",
+      "label": "CSV Files",
+      "topicId": "iWOK0mRY-hAGxMnHYJ0tt",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-E6cpb6kvluJM8OGuDcFBT",
+      "label": "Data Cleanup",
+      "topicId": "E6cpb6kvluJM8OGuDcFBT",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-_sjXCLHHTbZromJYn6fnu",
+      "label": "Data Collection",
+      "topicId": "_sjXCLHHTbZromJYn6fnu",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-M1QtGTLyygIjePoCfvjve",
+      "label": "Data Manipulation Libraries",
+      "topicId": "M1QtGTLyygIjePoCfvjve",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-iTmtpXe7dR4XKslgpsk2q",
+      "label": "Data Storage Solutions",
+      "topicId": "iTmtpXe7dR4XKslgpsk2q",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-t_BRtEharsrOZxoyX0OzV",
+      "label": "Data Transformation",
+      "topicId": "t_BRtEharsrOZxoyX0OzV",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-l1SnPc4EMqGdaIAhIQfrT",
+      "label": "Data Visualisation Libraries",
+      "topicId": "l1SnPc4EMqGdaIAhIQfrT",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-2g19zjEASJw2ve57hxpr0",
+      "label": "Data Visualisation",
+      "topicId": "2g19zjEASJw2ve57hxpr0",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-tYPeLCxbqvMFlTkCGjdHg",
+      "label": "Databases",
+      "topicId": "tYPeLCxbqvMFlTkCGjdHg",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-yBlJrNo9eO470dLp6OaQZ",
+      "label": "DATEDIF",
+      "topicId": "yBlJrNo9eO470dLp6OaQZ",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-vHDm_9Lh4EqvXNYSOBaqZ",
+      "label": "Decision Trees",
+      "topicId": "vHDm_9Lh4EqvXNYSOBaqZ",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-SiYUdtYMDImRPmV2_XPkH",
+      "label": "Deep Learning (Optional)",
+      "topicId": "SiYUdtYMDImRPmV2_XPkH",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-il6KQXVPGBza5libN38ib",
+      "label": "Descriptive Analysis",
+      "topicId": "il6KQXVPGBza5libN38ib",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-hWDh0ooidbqZb000ENVok",
+      "label": "Descriptive Analytics",
+      "topicId": "hWDh0ooidbqZb000ENVok",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-j7DA2J3speSaBsZAV4M0v",
+      "label": "Diagnostic Analytics",
+      "topicId": "j7DA2J3speSaBsZAV4M0v",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-2ldO-_ZnIg364Eo8Jyfgr",
+      "label": "Dispersion",
+      "topicId": "2ldO-_ZnIg364Eo8Jyfgr",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-Fyqg3MRcwY7g-Q3gjiqwK",
+      "label": "Distribution Space",
+      "topicId": "Fyqg3MRcwY7g-Q3gjiqwK",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-v8TfY-b4W5ygOv7r-syHq",
+      "label": "Dplyr",
+      "topicId": "v8TfY-b4W5ygOv7r-syHq",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-XFnw4_dQYSzm96-srWa7X",
+      "label": "Exploration",
+      "topicId": "XFnw4_dQYSzm96-srWa7X",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node--rQ8h_6NFxEOhxXgo7LHo",
+      "label": "Finding Outliers",
+      "topicId": "-rQ8h_6NFxEOhxXgo7LHo",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-muFy-C2agCX9vR_NU7UZF",
+      "label": "Funnel Charts",
+      "topicId": "muFy-C2agCX9vR_NU7UZF",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-n3M49lgNPn28hm7kzki-a",
+      "label": "ggplot2",
+      "topicId": "n3M49lgNPn28hm7kzki-a",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-wECWIRMlWNoTxz5eKwaSf",
+      "label": "Hadoop",
+      "topicId": "wECWIRMlWNoTxz5eKwaSf",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-X9WmfHOks82BIAzs6abqO",
+      "label": "Handling Missing Data",
+      "topicId": "X9WmfHOks82BIAzs6abqO",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-G8resQXEVEHCaQfDlt3nj",
+      "label": "Heatmap",
+      "topicId": "G8resQXEVEHCaQfDlt3nj",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-FEyBFZLaGJqTC-IUEcOVS",
+      "label": "Histograms",
+      "topicId": "FEyBFZLaGJqTC-IUEcOVS",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-Xygwu0m5TeYT6S_8FKKXh",
+      "label": "Hypothesis Testing",
+      "topicId": "Xygwu0m5TeYT6S_8FKKXh",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-wME4MSldOWlMB54ekpReS",
+      "label": "If",
+      "topicId": "wME4MSldOWlMB54ekpReS",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-bHPJ6yOHtUq5EjJBSrJUE",
+      "label": "Image Recognition",
+      "topicId": "bHPJ6yOHtUq5EjJBSrJUE",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-3xp2fogAVmwXQhdzhZDWR",
+      "label": "Introduction",
+      "topicId": "3xp2fogAVmwXQhdzhZDWR",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-h2xF5bZeUByDgsAi4dga2",
+      "label": "K-Means Clustering",
+      "topicId": "h2xF5bZeUByDgsAi4dga2",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-R12sArWVpbIs_PHxBqVaR",
+      "label": "Introduction to Key Concepts for Data Analysts",
+      "topicId": "R12sArWVpbIs_PHxBqVaR",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-SStzU_iXSvI_9QWbvGNou",
+      "label": "KNN",
+      "topicId": "SStzU_iXSvI_9QWbvGNou",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-PqGO8AU1zE2ZdtqrIrOkZ",
+      "label": "Kurtosis",
+      "topicId": "PqGO8AU1zE2ZdtqrIrOkZ",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-i2uEcaO4bJhcZ5ayRs2CQ",
+      "label": "Learn a Programming Language",
+      "topicId": "i2uEcaO4bJhcZ5ayRs2CQ",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-5GarFKYApjrhxHBLNPVnJ",
+      "label": "Learn Common Functions",
+      "topicId": "5GarFKYApjrhxHBLNPVnJ",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-v9T0DX56jFNhUz9nzubzS",
+      "label": "Line Chart",
+      "topicId": "v9T0DX56jFNhUz9nzubzS",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-ofOQKAIu4rezWmgZeE-KT",
+      "label": "Logistic Regression",
+      "topicId": "ofOQKAIu4rezWmgZeE-KT",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-f4GuzeokP9w_gwtOquP0g",
+      "label": "Machine Learning",
+      "topicId": "f4GuzeokP9w_gwtOquP0g",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-U55hwR0HRCIz2cveVR8FZ",
+      "label": "Machine Learning",
+      "topicId": "U55hwR0HRCIz2cveVR8FZ",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-eAM9orCNwzqh34uvGBVm8",
+      "label": "MapReduce",
+      "topicId": "eAM9orCNwzqh34uvGBVm8",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-tvDdXwaRPsUSTqJGaLS3P",
+      "label": "Matplotlib",
+      "topicId": "tvDdXwaRPsUSTqJGaLS3P",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-923KGEUG9ofBm7dYkkrxz",
+      "label": "Mean",
+      "topicId": "923KGEUG9ofBm7dYkkrxz",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-qdXoikVh2xkJkOQNKcyvb",
+      "label": "Median",
+      "topicId": "qdXoikVh2xkJkOQNKcyvb",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-F3-cr5onkWqKKPRdxu8lV",
+      "label": "Min / Max Function",
+      "topicId": "F3-cr5onkWqKKPRdxu8lV",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-fY8zVG2tVbmtx5OhY7hj-",
+      "label": "Mode",
+      "topicId": "fY8zVG2tVbmtx5OhY7hj-",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-7ikA373qH88HBx5irCgIH",
+      "label": "Model Evaluation Techniques",
+      "topicId": "7ikA373qH88HBx5irCgIH",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-fqCAH4Enc4AAJHoSkk2Pe",
+      "label": "MPI",
+      "topicId": "fqCAH4Enc4AAJHoSkk2Pe",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-zbUw5PyVsdccbgDTRHg7d",
+      "label": "Naive Byes",
+      "topicId": "zbUw5PyVsdccbgDTRHg7d",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-DFv-eiYDicF4cA4jgVk9_",
+      "label": "Natural Language Processing",
+      "topicId": "DFv-eiYDicF4cA4jgVk9_",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-gGHsKcS92StK5FolzmVvm",
+      "label": "Neural Networks",
+      "topicId": "gGHsKcS92StK5FolzmVvm",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-TucngXKNptbeo3PtdJHX8",
+      "label": "Pandas",
+      "topicId": "TucngXKNptbeo3PtdJHX8",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-Fwwve0j-KDfc605IIgmil",
+      "label": "Parallel Processing",
+      "topicId": "Fwwve0j-KDfc605IIgmil",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-K9xwm_Vpdup9ujYqlD9F3",
+      "label": "Pie Charts",
+      "topicId": "K9xwm_Vpdup9ujYqlD9F3",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-2DDJUFr0AJTVR2Whj8zub",
+      "label": "Pivot Tables",
+      "topicId": "2DDJUFr0AJTVR2Whj8zub",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-SJLeose5vZU8w_18C8_t0",
+      "label": "Power BI",
+      "topicId": "SJLeose5vZU8w_18C8_t0",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-3WZORRCwme3HsaKew23Z5",
+      "label": "Predictive Analytics",
+      "topicId": "3WZORRCwme3HsaKew23Z5",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-DFMR-0MbmVCCrJu0I9JWG",
+      "label": "Prescriptive Analytics",
+      "topicId": "DFMR-0MbmVCCrJu0I9JWG",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-LJSqfz6aYJbCe_bK8EWI1",
+      "label": "Pytorch",
+      "topicId": "LJSqfz6aYJbCe_bK8EWI1",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-g_EBQizZsIe-vn8ir6FTv",
+      "label": "R",
+      "topicId": "g_EBQizZsIe-vn8ir6FTv",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-tSxtyJhL5wjU0XJcjsJmm",
+      "label": "Range",
+      "topicId": "tSxtyJhL5wjU0XJcjsJmm",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-lTycWscyFPi-BtkNg9cdm",
+      "label": "Regression",
+      "topicId": "lTycWscyFPi-BtkNg9cdm",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-XdBwqLoYYiLJNlWPBEDUj",
+      "label": "Reinforcement Learning",
+      "topicId": "XdBwqLoYYiLJNlWPBEDUj",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-Xltm7B-8TZ1-igLjVJXoR",
+      "label": "Removing Duplicates",
+      "topicId": "Xltm7B-8TZ1-igLjVJXoR",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-dke_pySrqYZZ7K3rprnIT",
+      "label": "REPLACE / SUBSTITUTE",
+      "topicId": "dke_pySrqYZZ7K3rprnIT",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-Gocm98_tRg5BGxKcP-7zg",
+      "label": "RNN",
+      "topicId": "Gocm98_tRg5BGxKcP-7zg",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-A5YQv7D4qRcskdZ64XldH",
+      "label": "Scatter Plot",
+      "topicId": "A5YQv7D4qRcskdZ64XldH",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node--cJb8gEBvdVFf7FlgG3Ud",
+      "label": "Seaborn",
+      "topicId": "-cJb8gEBvdVFf7FlgG3Ud",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-VfcCRRqwLxkYpIX0ZKNNX",
+      "label": "Skewness",
+      "topicId": "VfcCRRqwLxkYpIX0ZKNNX",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-vaiigToDh4522rtWamuSM",
+      "label": "Spark",
+      "topicId": "vaiigToDh4522rtWamuSM",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-329BrtmXjXNLfi1SFfdeo",
+      "label": "Stacked Chart",
+      "topicId": "329BrtmXjXNLfi1SFfdeo",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-MXIP8ekH4YtczODKM_G_l",
+      "label": "Standard Deviation",
+      "topicId": "MXIP8ekH4YtczODKM_G_l",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-2pUq-7hu5EjGpowz98YoV",
+      "label": "Statistical Analysis",
+      "topicId": "2pUq-7hu5EjGpowz98YoV",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-TeewVruErSsD4VLXcaDxp",
+      "label": "Statistical Analysis",
+      "topicId": "TeewVruErSsD4VLXcaDxp",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-_FO80Cm2iAD_bThmnsEgp",
+      "label": "Sum",
+      "topicId": "_FO80Cm2iAD_bThmnsEgp",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-FIYCkGXofKMsXmsqHSMh9",
+      "label": "Supervised Learning",
+      "topicId": "FIYCkGXofKMsXmsqHSMh9",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-Sz2Y8HLbSmDjSKAJztDql",
+      "label": "Tableau",
+      "topicId": "Sz2Y8HLbSmDjSKAJztDql",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-FJ4Sx477FWxyDsQr0R8rl",
+      "label": "Tensor Flow",
+      "topicId": "FJ4Sx477FWxyDsQr0R8rl",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-D5Q6o6ydr1j51kB0ASFPE",
+      "label": "Trim",
+      "topicId": "D5Q6o6ydr1j51kB0ASFPE",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-Lsapbmg-eMIYJAHpV97nO",
+      "label": "Types of Data Analytics",
+      "topicId": "Lsapbmg-eMIYJAHpV97nO",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5040
+      }
+    },
+    {
+      "id": "node-FntL9E2yVAYwIrlANDNKE",
+      "label": "Unsupervised Learning",
+      "topicId": "FntL9E2yVAYwIrlANDNKE",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5040
+      }
+    },
+    {
+      "id": "node-YReKRRgE_2dWfGGdBQqbf",
+      "label": "UPPER / LOWER / PROPER",
+      "topicId": "YReKRRgE_2dWfGGdBQqbf",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5040
+      }
+    },
+    {
+      "id": "node-ict4JkoVM-AzPbp9bDztg",
+      "label": "Variance",
+      "topicId": "ict4JkoVM-AzPbp9bDztg",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5200
+      }
+    },
+    {
+      "id": "node-jowh4CFLQiFzKaaElyCuQ",
+      "label": "Visualisation",
+      "topicId": "jowh4CFLQiFzKaaElyCuQ",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5200
+      }
+    },
+    {
+      "id": "node-mCUW07rx74_dUNi7OGVlj",
+      "label": "Visualizing Distributions",
+      "topicId": "mCUW07rx74_dUNi7OGVlj",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5200
+      }
+    },
+    {
+      "id": "node-9sIP-jpNjtA1JPCBjTf-H",
+      "label": "VLOOKUP / HLOOKUP",
+      "topicId": "9sIP-jpNjtA1JPCBjTf-H",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5360
+      }
+    },
+    {
+      "id": "node-qQ64ZhSlbbWu9pP8KTE67",
+      "label": "Web Scraping",
+      "topicId": "qQ64ZhSlbbWu9pP8KTE67",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5360
+      }
+    },
+    {
+      "id": "node-yCnn-NfSxIybUQ2iTuUGq",
+      "label": "What is Data Analytics",
+      "topicId": "yCnn-NfSxIybUQ2iTuUGq",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5360
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-node-sgXIjVTbwdwdYoaxN3XBM-node-4DFcXSSHxg5wv0uXLIRij",
+      "source": "node-sgXIjVTbwdwdYoaxN3XBM",
+      "target": "node-4DFcXSSHxg5wv0uXLIRij",
+      "animated": true
+    },
+    {
+      "id": "edge-node-4DFcXSSHxg5wv0uXLIRij-node-FDYunL9KJkR_tHEcUV2iC",
+      "source": "node-4DFcXSSHxg5wv0uXLIRij",
+      "target": "node-FDYunL9KJkR_tHEcUV2iC",
+      "animated": true
+    },
+    {
+      "id": "edge-node-FDYunL9KJkR_tHEcUV2iC-node-EVk1H-QLtTlpG7lVEenDt",
+      "source": "node-FDYunL9KJkR_tHEcUV2iC",
+      "target": "node-EVk1H-QLtTlpG7lVEenDt",
+      "animated": true
+    },
+    {
+      "id": "edge-node-EVk1H-QLtTlpG7lVEenDt-node-m1IfG2sEedUxMXrv_B8GW",
+      "source": "node-EVk1H-QLtTlpG7lVEenDt",
+      "target": "node-m1IfG2sEedUxMXrv_B8GW",
+      "animated": true
+    },
+    {
+      "id": "edge-node-m1IfG2sEedUxMXrv_B8GW-node-_aUQZWUhFRvNu0MZ8CPit",
+      "source": "node-m1IfG2sEedUxMXrv_B8GW",
+      "target": "node-_aUQZWUhFRvNu0MZ8CPit",
+      "animated": true
+    },
+    {
+      "id": "edge-node-_aUQZWUhFRvNu0MZ8CPit-node-BJTVa4ur_bJB7mMtD2-hQ",
+      "source": "node-_aUQZWUhFRvNu0MZ8CPit",
+      "target": "node-BJTVa4ur_bJB7mMtD2-hQ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-BJTVa4ur_bJB7mMtD2-hQ-node-Vk3JErqxpnPY44iyfkLMl",
+      "source": "node-BJTVa4ur_bJB7mMtD2-hQ",
+      "target": "node-Vk3JErqxpnPY44iyfkLMl",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Vk3JErqxpnPY44iyfkLMl-node-nC7tViln4UyQFYP_-fyjB",
+      "source": "node-Vk3JErqxpnPY44iyfkLMl",
+      "target": "node-nC7tViln4UyQFYP_-fyjB",
+      "animated": true
+    },
+    {
+      "id": "edge-node-nC7tViln4UyQFYP_-fyjB-node-XlCv2OirEfuBFa4ranyyE",
+      "source": "node-nC7tViln4UyQFYP_-fyjB",
+      "target": "node-XlCv2OirEfuBFa4ranyyE",
+      "animated": true
+    },
+    {
+      "id": "edge-node-XlCv2OirEfuBFa4ranyyE-node-mDUSpexdq3ITV6qokwSJl",
+      "source": "node-XlCv2OirEfuBFa4ranyyE",
+      "target": "node-mDUSpexdq3ITV6qokwSJl",
+      "animated": true
+    },
+    {
+      "id": "edge-node-mDUSpexdq3ITV6qokwSJl-node-SIiIfcy-jeiRoDlxw385V",
+      "source": "node-mDUSpexdq3ITV6qokwSJl",
+      "target": "node-SIiIfcy-jeiRoDlxw385V",
+      "animated": true
+    },
+    {
+      "id": "edge-node-SIiIfcy-jeiRoDlxw385V-node-murioZ0NdrTix_lqSGz-8",
+      "source": "node-SIiIfcy-jeiRoDlxw385V",
+      "target": "node-murioZ0NdrTix_lqSGz-8",
+      "animated": true
+    },
+    {
+      "id": "edge-node-murioZ0NdrTix_lqSGz-8-node-uAdxP1ZkgzcU8JcWjvw6d",
+      "source": "node-murioZ0NdrTix_lqSGz-8",
+      "target": "node-uAdxP1ZkgzcU8JcWjvw6d",
+      "animated": true
+    },
+    {
+      "id": "edge-node-uAdxP1ZkgzcU8JcWjvw6d-node-iWOK0mRY-hAGxMnHYJ0tt",
+      "source": "node-uAdxP1ZkgzcU8JcWjvw6d",
+      "target": "node-iWOK0mRY-hAGxMnHYJ0tt",
+      "animated": true
+    },
+    {
+      "id": "edge-node-iWOK0mRY-hAGxMnHYJ0tt-node-E6cpb6kvluJM8OGuDcFBT",
+      "source": "node-iWOK0mRY-hAGxMnHYJ0tt",
+      "target": "node-E6cpb6kvluJM8OGuDcFBT",
+      "animated": true
+    },
+    {
+      "id": "edge-node-E6cpb6kvluJM8OGuDcFBT-node-_sjXCLHHTbZromJYn6fnu",
+      "source": "node-E6cpb6kvluJM8OGuDcFBT",
+      "target": "node-_sjXCLHHTbZromJYn6fnu",
+      "animated": true
+    },
+    {
+      "id": "edge-node-_sjXCLHHTbZromJYn6fnu-node-M1QtGTLyygIjePoCfvjve",
+      "source": "node-_sjXCLHHTbZromJYn6fnu",
+      "target": "node-M1QtGTLyygIjePoCfvjve",
+      "animated": true
+    },
+    {
+      "id": "edge-node-M1QtGTLyygIjePoCfvjve-node-iTmtpXe7dR4XKslgpsk2q",
+      "source": "node-M1QtGTLyygIjePoCfvjve",
+      "target": "node-iTmtpXe7dR4XKslgpsk2q",
+      "animated": true
+    },
+    {
+      "id": "edge-node-iTmtpXe7dR4XKslgpsk2q-node-t_BRtEharsrOZxoyX0OzV",
+      "source": "node-iTmtpXe7dR4XKslgpsk2q",
+      "target": "node-t_BRtEharsrOZxoyX0OzV",
+      "animated": true
+    },
+    {
+      "id": "edge-node-t_BRtEharsrOZxoyX0OzV-node-l1SnPc4EMqGdaIAhIQfrT",
+      "source": "node-t_BRtEharsrOZxoyX0OzV",
+      "target": "node-l1SnPc4EMqGdaIAhIQfrT",
+      "animated": true
+    },
+    {
+      "id": "edge-node-l1SnPc4EMqGdaIAhIQfrT-node-2g19zjEASJw2ve57hxpr0",
+      "source": "node-l1SnPc4EMqGdaIAhIQfrT",
+      "target": "node-2g19zjEASJw2ve57hxpr0",
+      "animated": true
+    },
+    {
+      "id": "edge-node-2g19zjEASJw2ve57hxpr0-node-tYPeLCxbqvMFlTkCGjdHg",
+      "source": "node-2g19zjEASJw2ve57hxpr0",
+      "target": "node-tYPeLCxbqvMFlTkCGjdHg",
+      "animated": true
+    },
+    {
+      "id": "edge-node-tYPeLCxbqvMFlTkCGjdHg-node-yBlJrNo9eO470dLp6OaQZ",
+      "source": "node-tYPeLCxbqvMFlTkCGjdHg",
+      "target": "node-yBlJrNo9eO470dLp6OaQZ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-yBlJrNo9eO470dLp6OaQZ-node-vHDm_9Lh4EqvXNYSOBaqZ",
+      "source": "node-yBlJrNo9eO470dLp6OaQZ",
+      "target": "node-vHDm_9Lh4EqvXNYSOBaqZ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-vHDm_9Lh4EqvXNYSOBaqZ-node-SiYUdtYMDImRPmV2_XPkH",
+      "source": "node-vHDm_9Lh4EqvXNYSOBaqZ",
+      "target": "node-SiYUdtYMDImRPmV2_XPkH",
+      "animated": true
+    },
+    {
+      "id": "edge-node-SiYUdtYMDImRPmV2_XPkH-node-il6KQXVPGBza5libN38ib",
+      "source": "node-SiYUdtYMDImRPmV2_XPkH",
+      "target": "node-il6KQXVPGBza5libN38ib",
+      "animated": true
+    },
+    {
+      "id": "edge-node-il6KQXVPGBza5libN38ib-node-hWDh0ooidbqZb000ENVok",
+      "source": "node-il6KQXVPGBza5libN38ib",
+      "target": "node-hWDh0ooidbqZb000ENVok",
+      "animated": true
+    },
+    {
+      "id": "edge-node-hWDh0ooidbqZb000ENVok-node-j7DA2J3speSaBsZAV4M0v",
+      "source": "node-hWDh0ooidbqZb000ENVok",
+      "target": "node-j7DA2J3speSaBsZAV4M0v",
+      "animated": true
+    },
+    {
+      "id": "edge-node-j7DA2J3speSaBsZAV4M0v-node-2ldO-_ZnIg364Eo8Jyfgr",
+      "source": "node-j7DA2J3speSaBsZAV4M0v",
+      "target": "node-2ldO-_ZnIg364Eo8Jyfgr",
+      "animated": true
+    },
+    {
+      "id": "edge-node-2ldO-_ZnIg364Eo8Jyfgr-node-Fyqg3MRcwY7g-Q3gjiqwK",
+      "source": "node-2ldO-_ZnIg364Eo8Jyfgr",
+      "target": "node-Fyqg3MRcwY7g-Q3gjiqwK",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Fyqg3MRcwY7g-Q3gjiqwK-node-v8TfY-b4W5ygOv7r-syHq",
+      "source": "node-Fyqg3MRcwY7g-Q3gjiqwK",
+      "target": "node-v8TfY-b4W5ygOv7r-syHq",
+      "animated": true
+    },
+    {
+      "id": "edge-node-v8TfY-b4W5ygOv7r-syHq-node-XFnw4_dQYSzm96-srWa7X",
+      "source": "node-v8TfY-b4W5ygOv7r-syHq",
+      "target": "node-XFnw4_dQYSzm96-srWa7X",
+      "animated": true
+    },
+    {
+      "id": "edge-node-XFnw4_dQYSzm96-srWa7X-node--rQ8h_6NFxEOhxXgo7LHo",
+      "source": "node-XFnw4_dQYSzm96-srWa7X",
+      "target": "node--rQ8h_6NFxEOhxXgo7LHo",
+      "animated": true
+    },
+    {
+      "id": "edge-node--rQ8h_6NFxEOhxXgo7LHo-node-muFy-C2agCX9vR_NU7UZF",
+      "source": "node--rQ8h_6NFxEOhxXgo7LHo",
+      "target": "node-muFy-C2agCX9vR_NU7UZF",
+      "animated": true
+    },
+    {
+      "id": "edge-node-muFy-C2agCX9vR_NU7UZF-node-n3M49lgNPn28hm7kzki-a",
+      "source": "node-muFy-C2agCX9vR_NU7UZF",
+      "target": "node-n3M49lgNPn28hm7kzki-a",
+      "animated": true
+    },
+    {
+      "id": "edge-node-n3M49lgNPn28hm7kzki-a-node-wECWIRMlWNoTxz5eKwaSf",
+      "source": "node-n3M49lgNPn28hm7kzki-a",
+      "target": "node-wECWIRMlWNoTxz5eKwaSf",
+      "animated": true
+    },
+    {
+      "id": "edge-node-wECWIRMlWNoTxz5eKwaSf-node-X9WmfHOks82BIAzs6abqO",
+      "source": "node-wECWIRMlWNoTxz5eKwaSf",
+      "target": "node-X9WmfHOks82BIAzs6abqO",
+      "animated": true
+    },
+    {
+      "id": "edge-node-X9WmfHOks82BIAzs6abqO-node-G8resQXEVEHCaQfDlt3nj",
+      "source": "node-X9WmfHOks82BIAzs6abqO",
+      "target": "node-G8resQXEVEHCaQfDlt3nj",
+      "animated": true
+    },
+    {
+      "id": "edge-node-G8resQXEVEHCaQfDlt3nj-node-FEyBFZLaGJqTC-IUEcOVS",
+      "source": "node-G8resQXEVEHCaQfDlt3nj",
+      "target": "node-FEyBFZLaGJqTC-IUEcOVS",
+      "animated": true
+    },
+    {
+      "id": "edge-node-FEyBFZLaGJqTC-IUEcOVS-node-Xygwu0m5TeYT6S_8FKKXh",
+      "source": "node-FEyBFZLaGJqTC-IUEcOVS",
+      "target": "node-Xygwu0m5TeYT6S_8FKKXh",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Xygwu0m5TeYT6S_8FKKXh-node-wME4MSldOWlMB54ekpReS",
+      "source": "node-Xygwu0m5TeYT6S_8FKKXh",
+      "target": "node-wME4MSldOWlMB54ekpReS",
+      "animated": true
+    },
+    {
+      "id": "edge-node-wME4MSldOWlMB54ekpReS-node-bHPJ6yOHtUq5EjJBSrJUE",
+      "source": "node-wME4MSldOWlMB54ekpReS",
+      "target": "node-bHPJ6yOHtUq5EjJBSrJUE",
+      "animated": true
+    },
+    {
+      "id": "edge-node-bHPJ6yOHtUq5EjJBSrJUE-node-3xp2fogAVmwXQhdzhZDWR",
+      "source": "node-bHPJ6yOHtUq5EjJBSrJUE",
+      "target": "node-3xp2fogAVmwXQhdzhZDWR",
+      "animated": true
+    },
+    {
+      "id": "edge-node-3xp2fogAVmwXQhdzhZDWR-node-h2xF5bZeUByDgsAi4dga2",
+      "source": "node-3xp2fogAVmwXQhdzhZDWR",
+      "target": "node-h2xF5bZeUByDgsAi4dga2",
+      "animated": true
+    },
+    {
+      "id": "edge-node-h2xF5bZeUByDgsAi4dga2-node-R12sArWVpbIs_PHxBqVaR",
+      "source": "node-h2xF5bZeUByDgsAi4dga2",
+      "target": "node-R12sArWVpbIs_PHxBqVaR",
+      "animated": true
+    },
+    {
+      "id": "edge-node-R12sArWVpbIs_PHxBqVaR-node-SStzU_iXSvI_9QWbvGNou",
+      "source": "node-R12sArWVpbIs_PHxBqVaR",
+      "target": "node-SStzU_iXSvI_9QWbvGNou",
+      "animated": true
+    },
+    {
+      "id": "edge-node-SStzU_iXSvI_9QWbvGNou-node-PqGO8AU1zE2ZdtqrIrOkZ",
+      "source": "node-SStzU_iXSvI_9QWbvGNou",
+      "target": "node-PqGO8AU1zE2ZdtqrIrOkZ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-PqGO8AU1zE2ZdtqrIrOkZ-node-i2uEcaO4bJhcZ5ayRs2CQ",
+      "source": "node-PqGO8AU1zE2ZdtqrIrOkZ",
+      "target": "node-i2uEcaO4bJhcZ5ayRs2CQ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-i2uEcaO4bJhcZ5ayRs2CQ-node-5GarFKYApjrhxHBLNPVnJ",
+      "source": "node-i2uEcaO4bJhcZ5ayRs2CQ",
+      "target": "node-5GarFKYApjrhxHBLNPVnJ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-5GarFKYApjrhxHBLNPVnJ-node-v9T0DX56jFNhUz9nzubzS",
+      "source": "node-5GarFKYApjrhxHBLNPVnJ",
+      "target": "node-v9T0DX56jFNhUz9nzubzS",
+      "animated": true
+    },
+    {
+      "id": "edge-node-v9T0DX56jFNhUz9nzubzS-node-ofOQKAIu4rezWmgZeE-KT",
+      "source": "node-v9T0DX56jFNhUz9nzubzS",
+      "target": "node-ofOQKAIu4rezWmgZeE-KT",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ofOQKAIu4rezWmgZeE-KT-node-f4GuzeokP9w_gwtOquP0g",
+      "source": "node-ofOQKAIu4rezWmgZeE-KT",
+      "target": "node-f4GuzeokP9w_gwtOquP0g",
+      "animated": true
+    },
+    {
+      "id": "edge-node-f4GuzeokP9w_gwtOquP0g-node-U55hwR0HRCIz2cveVR8FZ",
+      "source": "node-f4GuzeokP9w_gwtOquP0g",
+      "target": "node-U55hwR0HRCIz2cveVR8FZ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-U55hwR0HRCIz2cveVR8FZ-node-eAM9orCNwzqh34uvGBVm8",
+      "source": "node-U55hwR0HRCIz2cveVR8FZ",
+      "target": "node-eAM9orCNwzqh34uvGBVm8",
+      "animated": true
+    },
+    {
+      "id": "edge-node-eAM9orCNwzqh34uvGBVm8-node-tvDdXwaRPsUSTqJGaLS3P",
+      "source": "node-eAM9orCNwzqh34uvGBVm8",
+      "target": "node-tvDdXwaRPsUSTqJGaLS3P",
+      "animated": true
+    },
+    {
+      "id": "edge-node-tvDdXwaRPsUSTqJGaLS3P-node-923KGEUG9ofBm7dYkkrxz",
+      "source": "node-tvDdXwaRPsUSTqJGaLS3P",
+      "target": "node-923KGEUG9ofBm7dYkkrxz",
+      "animated": true
+    },
+    {
+      "id": "edge-node-923KGEUG9ofBm7dYkkrxz-node-qdXoikVh2xkJkOQNKcyvb",
+      "source": "node-923KGEUG9ofBm7dYkkrxz",
+      "target": "node-qdXoikVh2xkJkOQNKcyvb",
+      "animated": true
+    },
+    {
+      "id": "edge-node-qdXoikVh2xkJkOQNKcyvb-node-F3-cr5onkWqKKPRdxu8lV",
+      "source": "node-qdXoikVh2xkJkOQNKcyvb",
+      "target": "node-F3-cr5onkWqKKPRdxu8lV",
+      "animated": true
+    },
+    {
+      "id": "edge-node-F3-cr5onkWqKKPRdxu8lV-node-fY8zVG2tVbmtx5OhY7hj-",
+      "source": "node-F3-cr5onkWqKKPRdxu8lV",
+      "target": "node-fY8zVG2tVbmtx5OhY7hj-",
+      "animated": true
+    },
+    {
+      "id": "edge-node-fY8zVG2tVbmtx5OhY7hj--node-7ikA373qH88HBx5irCgIH",
+      "source": "node-fY8zVG2tVbmtx5OhY7hj-",
+      "target": "node-7ikA373qH88HBx5irCgIH",
+      "animated": true
+    },
+    {
+      "id": "edge-node-7ikA373qH88HBx5irCgIH-node-fqCAH4Enc4AAJHoSkk2Pe",
+      "source": "node-7ikA373qH88HBx5irCgIH",
+      "target": "node-fqCAH4Enc4AAJHoSkk2Pe",
+      "animated": true
+    },
+    {
+      "id": "edge-node-fqCAH4Enc4AAJHoSkk2Pe-node-zbUw5PyVsdccbgDTRHg7d",
+      "source": "node-fqCAH4Enc4AAJHoSkk2Pe",
+      "target": "node-zbUw5PyVsdccbgDTRHg7d",
+      "animated": true
+    },
+    {
+      "id": "edge-node-zbUw5PyVsdccbgDTRHg7d-node-DFv-eiYDicF4cA4jgVk9_",
+      "source": "node-zbUw5PyVsdccbgDTRHg7d",
+      "target": "node-DFv-eiYDicF4cA4jgVk9_",
+      "animated": true
+    },
+    {
+      "id": "edge-node-DFv-eiYDicF4cA4jgVk9_-node-gGHsKcS92StK5FolzmVvm",
+      "source": "node-DFv-eiYDicF4cA4jgVk9_",
+      "target": "node-gGHsKcS92StK5FolzmVvm",
+      "animated": true
+    },
+    {
+      "id": "edge-node-gGHsKcS92StK5FolzmVvm-node-TucngXKNptbeo3PtdJHX8",
+      "source": "node-gGHsKcS92StK5FolzmVvm",
+      "target": "node-TucngXKNptbeo3PtdJHX8",
+      "animated": true
+    },
+    {
+      "id": "edge-node-TucngXKNptbeo3PtdJHX8-node-Fwwve0j-KDfc605IIgmil",
+      "source": "node-TucngXKNptbeo3PtdJHX8",
+      "target": "node-Fwwve0j-KDfc605IIgmil",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Fwwve0j-KDfc605IIgmil-node-K9xwm_Vpdup9ujYqlD9F3",
+      "source": "node-Fwwve0j-KDfc605IIgmil",
+      "target": "node-K9xwm_Vpdup9ujYqlD9F3",
+      "animated": true
+    },
+    {
+      "id": "edge-node-K9xwm_Vpdup9ujYqlD9F3-node-2DDJUFr0AJTVR2Whj8zub",
+      "source": "node-K9xwm_Vpdup9ujYqlD9F3",
+      "target": "node-2DDJUFr0AJTVR2Whj8zub",
+      "animated": true
+    },
+    {
+      "id": "edge-node-2DDJUFr0AJTVR2Whj8zub-node-SJLeose5vZU8w_18C8_t0",
+      "source": "node-2DDJUFr0AJTVR2Whj8zub",
+      "target": "node-SJLeose5vZU8w_18C8_t0",
+      "animated": true
+    },
+    {
+      "id": "edge-node-SJLeose5vZU8w_18C8_t0-node-3WZORRCwme3HsaKew23Z5",
+      "source": "node-SJLeose5vZU8w_18C8_t0",
+      "target": "node-3WZORRCwme3HsaKew23Z5",
+      "animated": true
+    },
+    {
+      "id": "edge-node-3WZORRCwme3HsaKew23Z5-node-DFMR-0MbmVCCrJu0I9JWG",
+      "source": "node-3WZORRCwme3HsaKew23Z5",
+      "target": "node-DFMR-0MbmVCCrJu0I9JWG",
+      "animated": true
+    },
+    {
+      "id": "edge-node-DFMR-0MbmVCCrJu0I9JWG-node-LJSqfz6aYJbCe_bK8EWI1",
+      "source": "node-DFMR-0MbmVCCrJu0I9JWG",
+      "target": "node-LJSqfz6aYJbCe_bK8EWI1",
+      "animated": true
+    },
+    {
+      "id": "edge-node-LJSqfz6aYJbCe_bK8EWI1-node-g_EBQizZsIe-vn8ir6FTv",
+      "source": "node-LJSqfz6aYJbCe_bK8EWI1",
+      "target": "node-g_EBQizZsIe-vn8ir6FTv",
+      "animated": true
+    },
+    {
+      "id": "edge-node-g_EBQizZsIe-vn8ir6FTv-node-tSxtyJhL5wjU0XJcjsJmm",
+      "source": "node-g_EBQizZsIe-vn8ir6FTv",
+      "target": "node-tSxtyJhL5wjU0XJcjsJmm",
+      "animated": true
+    },
+    {
+      "id": "edge-node-tSxtyJhL5wjU0XJcjsJmm-node-lTycWscyFPi-BtkNg9cdm",
+      "source": "node-tSxtyJhL5wjU0XJcjsJmm",
+      "target": "node-lTycWscyFPi-BtkNg9cdm",
+      "animated": true
+    },
+    {
+      "id": "edge-node-lTycWscyFPi-BtkNg9cdm-node-XdBwqLoYYiLJNlWPBEDUj",
+      "source": "node-lTycWscyFPi-BtkNg9cdm",
+      "target": "node-XdBwqLoYYiLJNlWPBEDUj",
+      "animated": true
+    },
+    {
+      "id": "edge-node-XdBwqLoYYiLJNlWPBEDUj-node-Xltm7B-8TZ1-igLjVJXoR",
+      "source": "node-XdBwqLoYYiLJNlWPBEDUj",
+      "target": "node-Xltm7B-8TZ1-igLjVJXoR",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Xltm7B-8TZ1-igLjVJXoR-node-dke_pySrqYZZ7K3rprnIT",
+      "source": "node-Xltm7B-8TZ1-igLjVJXoR",
+      "target": "node-dke_pySrqYZZ7K3rprnIT",
+      "animated": true
+    },
+    {
+      "id": "edge-node-dke_pySrqYZZ7K3rprnIT-node-Gocm98_tRg5BGxKcP-7zg",
+      "source": "node-dke_pySrqYZZ7K3rprnIT",
+      "target": "node-Gocm98_tRg5BGxKcP-7zg",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Gocm98_tRg5BGxKcP-7zg-node-A5YQv7D4qRcskdZ64XldH",
+      "source": "node-Gocm98_tRg5BGxKcP-7zg",
+      "target": "node-A5YQv7D4qRcskdZ64XldH",
+      "animated": true
+    },
+    {
+      "id": "edge-node-A5YQv7D4qRcskdZ64XldH-node--cJb8gEBvdVFf7FlgG3Ud",
+      "source": "node-A5YQv7D4qRcskdZ64XldH",
+      "target": "node--cJb8gEBvdVFf7FlgG3Ud",
+      "animated": true
+    },
+    {
+      "id": "edge-node--cJb8gEBvdVFf7FlgG3Ud-node-VfcCRRqwLxkYpIX0ZKNNX",
+      "source": "node--cJb8gEBvdVFf7FlgG3Ud",
+      "target": "node-VfcCRRqwLxkYpIX0ZKNNX",
+      "animated": true
+    },
+    {
+      "id": "edge-node-VfcCRRqwLxkYpIX0ZKNNX-node-vaiigToDh4522rtWamuSM",
+      "source": "node-VfcCRRqwLxkYpIX0ZKNNX",
+      "target": "node-vaiigToDh4522rtWamuSM",
+      "animated": true
+    },
+    {
+      "id": "edge-node-vaiigToDh4522rtWamuSM-node-329BrtmXjXNLfi1SFfdeo",
+      "source": "node-vaiigToDh4522rtWamuSM",
+      "target": "node-329BrtmXjXNLfi1SFfdeo",
+      "animated": true
+    },
+    {
+      "id": "edge-node-329BrtmXjXNLfi1SFfdeo-node-MXIP8ekH4YtczODKM_G_l",
+      "source": "node-329BrtmXjXNLfi1SFfdeo",
+      "target": "node-MXIP8ekH4YtczODKM_G_l",
+      "animated": true
+    },
+    {
+      "id": "edge-node-MXIP8ekH4YtczODKM_G_l-node-2pUq-7hu5EjGpowz98YoV",
+      "source": "node-MXIP8ekH4YtczODKM_G_l",
+      "target": "node-2pUq-7hu5EjGpowz98YoV",
+      "animated": true
+    },
+    {
+      "id": "edge-node-2pUq-7hu5EjGpowz98YoV-node-TeewVruErSsD4VLXcaDxp",
+      "source": "node-2pUq-7hu5EjGpowz98YoV",
+      "target": "node-TeewVruErSsD4VLXcaDxp",
+      "animated": true
+    },
+    {
+      "id": "edge-node-TeewVruErSsD4VLXcaDxp-node-_FO80Cm2iAD_bThmnsEgp",
+      "source": "node-TeewVruErSsD4VLXcaDxp",
+      "target": "node-_FO80Cm2iAD_bThmnsEgp",
+      "animated": true
+    },
+    {
+      "id": "edge-node-_FO80Cm2iAD_bThmnsEgp-node-FIYCkGXofKMsXmsqHSMh9",
+      "source": "node-_FO80Cm2iAD_bThmnsEgp",
+      "target": "node-FIYCkGXofKMsXmsqHSMh9",
+      "animated": true
+    },
+    {
+      "id": "edge-node-FIYCkGXofKMsXmsqHSMh9-node-Sz2Y8HLbSmDjSKAJztDql",
+      "source": "node-FIYCkGXofKMsXmsqHSMh9",
+      "target": "node-Sz2Y8HLbSmDjSKAJztDql",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Sz2Y8HLbSmDjSKAJztDql-node-FJ4Sx477FWxyDsQr0R8rl",
+      "source": "node-Sz2Y8HLbSmDjSKAJztDql",
+      "target": "node-FJ4Sx477FWxyDsQr0R8rl",
+      "animated": true
+    },
+    {
+      "id": "edge-node-FJ4Sx477FWxyDsQr0R8rl-node-D5Q6o6ydr1j51kB0ASFPE",
+      "source": "node-FJ4Sx477FWxyDsQr0R8rl",
+      "target": "node-D5Q6o6ydr1j51kB0ASFPE",
+      "animated": true
+    },
+    {
+      "id": "edge-node-D5Q6o6ydr1j51kB0ASFPE-node-Lsapbmg-eMIYJAHpV97nO",
+      "source": "node-D5Q6o6ydr1j51kB0ASFPE",
+      "target": "node-Lsapbmg-eMIYJAHpV97nO",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Lsapbmg-eMIYJAHpV97nO-node-FntL9E2yVAYwIrlANDNKE",
+      "source": "node-Lsapbmg-eMIYJAHpV97nO",
+      "target": "node-FntL9E2yVAYwIrlANDNKE",
+      "animated": true
+    },
+    {
+      "id": "edge-node-FntL9E2yVAYwIrlANDNKE-node-YReKRRgE_2dWfGGdBQqbf",
+      "source": "node-FntL9E2yVAYwIrlANDNKE",
+      "target": "node-YReKRRgE_2dWfGGdBQqbf",
+      "animated": true
+    },
+    {
+      "id": "edge-node-YReKRRgE_2dWfGGdBQqbf-node-ict4JkoVM-AzPbp9bDztg",
+      "source": "node-YReKRRgE_2dWfGGdBQqbf",
+      "target": "node-ict4JkoVM-AzPbp9bDztg",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ict4JkoVM-AzPbp9bDztg-node-jowh4CFLQiFzKaaElyCuQ",
+      "source": "node-ict4JkoVM-AzPbp9bDztg",
+      "target": "node-jowh4CFLQiFzKaaElyCuQ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-jowh4CFLQiFzKaaElyCuQ-node-mCUW07rx74_dUNi7OGVlj",
+      "source": "node-jowh4CFLQiFzKaaElyCuQ",
+      "target": "node-mCUW07rx74_dUNi7OGVlj",
+      "animated": true
+    },
+    {
+      "id": "edge-node-mCUW07rx74_dUNi7OGVlj-node-9sIP-jpNjtA1JPCBjTf-H",
+      "source": "node-mCUW07rx74_dUNi7OGVlj",
+      "target": "node-9sIP-jpNjtA1JPCBjTf-H",
+      "animated": true
+    },
+    {
+      "id": "edge-node-9sIP-jpNjtA1JPCBjTf-H-node-qQ64ZhSlbbWu9pP8KTE67",
+      "source": "node-9sIP-jpNjtA1JPCBjTf-H",
+      "target": "node-qQ64ZhSlbbWu9pP8KTE67",
+      "animated": true
+    },
+    {
+      "id": "edge-node-qQ64ZhSlbbWu9pP8KTE67-node-yCnn-NfSxIybUQ2iTuUGq",
+      "source": "node-qQ64ZhSlbbWu9pP8KTE67",
+      "target": "node-yCnn-NfSxIybUQ2iTuUGq",
+      "animated": true
+    }
+  ],
+  "topics": {
+    "sgXIjVTbwdwdYoaxN3XBM": {
+      "id": "sgXIjVTbwdwdYoaxN3XBM",
+      "slug": "analysis--reporting-with-excel",
+      "title": "Excel",
+      "description": "Excel is a powerful tool utilized by data analysts worldwide to store, manipulate, and analyze data. It offers a vast array of features such as pivot tables, graphs and a powerful suite of formulas and functions to help sift through large sets of data. A data analyst uses Excel to perform a wide range of tasks, from simple data entry and cleaning, to more complex statistical analysis and predictive modeling. Proficiency in Excel is often a key requirement for a data analyst, as its versatility and ubiquity make it an indispensable tool in the field of data analysis.",
+      "resources": [
+        {
+          "id": "sgXIjVTbwdwdYoaxN3XBM-res-1",
+          "type": "course",
+          "title": "Microsoft Excel Course",
+          "url": "https://support.microsoft.com/en-us/office/excel-video-training-9bc05390-e94c-46af-a5b3-d7c22f6990bb"
+        }
+      ]
+    },
+    "4DFcXSSHxg5wv0uXLIRij": {
+      "id": "4DFcXSSHxg5wv0uXLIRij",
+      "slug": "apis",
+      "title": "APIs and Data Collection",
+      "description": "Application Programming Interfaces, better known as APIs, play a fundamental role in the work of data analysts, particularly in the process of data collection. APIs are sets of protocols, routines, and tools that enable different software applications to communicate with each other. In data analysis, APIs are used extensively to collect, exchange, and manipulate data from different sources in a secure and efficient manner. This data collection process is paramount in shaping the insights derived by the analysts.",
+      "resources": [
+        {
+          "id": "4DFcXSSHxg5wv0uXLIRij-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated API Design Roadmap",
+          "url": "https://roadmap.sh/api-design"
+        },
+        {
+          "id": "4DFcXSSHxg5wv0uXLIRij-res-2",
+          "type": "article",
+          "title": "What is an API?",
+          "url": "https://aws.amazon.com/what-is/api/"
+        },
+        {
+          "id": "4DFcXSSHxg5wv0uXLIRij-res-3",
+          "type": "article",
+          "title": "A Beginner's Guide to APIs",
+          "url": "https://www.postman.com/what-is-an-api/"
+        }
+      ]
+    },
+    "FDYunL9KJkR_tHEcUV2iC": {
+      "id": "FDYunL9KJkR_tHEcUV2iC",
+      "slug": "average",
+      "title": "Average",
+      "description": "The average, also often referred to as the mean, is one of the most commonly used mathematical calculations in data analysis. It provides a simple, useful measure of a set of data. For a data analyst, understanding how to calculate and interpret averages is fundamental. Basic functions, including the average, are integral components in data analysis that are used to summarize and understand complex data sets. Though conceptually simple, the power of average lies in its utility in a range of analyses - from forecasting models to understanding trends and patterns in the dataset.",
+      "resources": [
+        {
+          "id": "FDYunL9KJkR_tHEcUV2iC-res-1",
+          "type": "article",
+          "title": "AVERAGE Function",
+          "url": "https://support.microsoft.com/en-gb/office/average-function-047bac88-d466-426c-a32b-8f33eb960cf6"
+        },
+        {
+          "id": "FDYunL9KJkR_tHEcUV2iC-res-2",
+          "type": "article",
+          "title": "Excel AVERAGE function",
+          "url": "https://www.w3schools.com/excel/excel_average.php"
+        }
+      ]
+    },
+    "EVk1H-QLtTlpG7lVEenDt": {
+      "id": "EVk1H-QLtTlpG7lVEenDt",
+      "slug": "bar-charts",
+      "title": "Bar Charts",
+      "description": "Bar charts display categorical data with rectangular bars whose lengths represent values. They are used to compare quantities across different categories. Horizontal bar charts work well for long category names; vertical bar charts (column charts) are standard for time-based comparisons.",
+      "resources": [
+        {
+          "id": "EVk1H-QLtTlpG7lVEenDt-res-1",
+          "type": "article",
+          "title": "A Complete Guide to Bar Charts",
+          "url": "https://www.atlassian.com/data/charts/bar-chart-complete-guide"
+        },
+        {
+          "id": "EVk1H-QLtTlpG7lVEenDt-res-2",
+          "type": "video",
+          "title": "What is a Bar Chart?",
+          "url": "https://www.youtube.com/watch?v=WTVdncVCvKo"
+        }
+      ]
+    },
+    "m1IfG2sEedUxMXrv_B8GW": {
+      "id": "m1IfG2sEedUxMXrv_B8GW",
+      "slug": "big-data-concepts",
+      "title": "Big Data Concepts",
+      "description": "Big data concepts describe the properties and challenges of working with very large datasets. The three Vs (volume, velocity, variety) capture the main dimensions: how much data there is, how fast it arrives, and how many formats it comes in. Understanding these concepts helps in choosing appropriate storage and processing technologies.",
+      "resources": [
+        {
+          "id": "m1IfG2sEedUxMXrv_B8GW-res-1",
+          "type": "article",
+          "title": "An Introduction to Big Data Concepts and Terminology",
+          "url": "https://www.digitalocean.com/community/tutorials/an-introduction-to-big-data-concepts-and-terminology"
+        },
+        {
+          "id": "m1IfG2sEedUxMXrv_B8GW-res-2",
+          "type": "article",
+          "title": "An Introduction to Big Data Concepts",
+          "url": "https://www.suse.com/c/rancher_blog/an-introduction-to-big-data-concepts/"
+        }
+      ]
+    },
+    "_aUQZWUhFRvNu0MZ8CPit": {
+      "id": "_aUQZWUhFRvNu0MZ8CPit",
+      "slug": "big-data-technologies",
+      "title": "Big Data Technologies",
+      "description": "Big data technologies handle datasets that are too large or complex for traditional tools to process. The defining characteristics of big data are often described as volume, velocity, and variety. Distributed processing frameworks like Hadoop and Spark allow computation to be spread across clusters of machines.",
+      "resources": [
+        {
+          "id": "_aUQZWUhFRvNu0MZ8CPit-res-1",
+          "type": "article",
+          "title": "Big Data Analytics",
+          "url": "https://www.ibm.com/think/topics/big-data-analytics"
+        }
+      ]
+    },
+    "BJTVa4ur_bJB7mMtD2-hQ": {
+      "id": "BJTVa4ur_bJB7mMtD2-hQ",
+      "slug": "central-tendency",
+      "title": "Central Tendency",
+      "description": "Measures of central tendency describe the center or typical value of a dataset. The three main measures are mean (arithmetic average), median (middle value), and mode (most frequent value). The choice between them depends on the data's distribution and whether outliers are present.",
+      "resources": [
+        {
+          "id": "BJTVa4ur_bJB7mMtD2-hQ-res-1",
+          "type": "article",
+          "title": "Measures of central tendency",
+          "url": "https://www.abs.gov.au/statistics/understanding-statistics/statistical-terms-and-concepts/measures-central-tendency"
+        },
+        {
+          "id": "BJTVa4ur_bJB7mMtD2-hQ-res-2",
+          "type": "video",
+          "title": "Understanding Central Tendency",
+          "url": "https://www.youtube.com/watch?v=n_sSVhHBdj4"
+        }
+      ]
+    },
+    "Vk3JErqxpnPY44iyfkLMl": {
+      "id": "Vk3JErqxpnPY44iyfkLMl",
+      "slug": "charting",
+      "title": "Charting",
+      "description": "Excel charts turn tabular data into visual representations like bar charts, line charts, pie charts, and scatter plots. Charts are created directly from selected data and can be formatted and embedded in reports and dashboards. Knowing which chart type suits different data and messages is an important analytical skill.",
+      "resources": [
+        {
+          "id": "Vk3JErqxpnPY44iyfkLMl-res-1",
+          "type": "article",
+          "title": "Create a chart from start to finish",
+          "url": "https://support.microsoft.com/en-gb/office/create-a-chart-from-start-to-finish-0baf399e-dd61-4e18-8a73-b3fd5d5680c2"
+        },
+        {
+          "id": "Vk3JErqxpnPY44iyfkLMl-res-2",
+          "type": "video",
+          "title": "Excel Charts and Graphs Tutorial",
+          "url": "https://www.youtube.com/watch?v=eHtZrIb0oWY"
+        }
+      ]
+    },
+    "nC7tViln4UyQFYP_-fyjB": {
+      "id": "nC7tViln4UyQFYP_-fyjB",
+      "slug": "cleanup",
+      "title": "Cleanup",
+      "description": "Data cleanup (or data cleaning) is the process of identifying and correcting errors, inconsistencies, and missing values in a dataset. Common tasks include handling null values, removing duplicates, fixing formatting issues, and standardizing categories. Clean data is a prerequisite for accurate analysis.",
+      "resources": [
+        {
+          "id": "nC7tViln4UyQFYP_-fyjB-res-1",
+          "type": "article",
+          "title": "Top 10 Ways to Clean Your Data",
+          "url": "https://support.microsoft.com/en-gb/office/top-ten-ways-to-clean-your-data-2844b620-677c-47a7-ac3e-c2e157d1db19"
+        },
+        {
+          "id": "nC7tViln4UyQFYP_-fyjB-res-2",
+          "type": "video",
+          "title": "Master Data Cleaning Essentials on Excel in Just 10 Minutes",
+          "url": "https://www.youtube.com/watch?v=jxq4-KSB_OA"
+        }
+      ]
+    },
+    "XlCv2OirEfuBFa4ranyyE": {
+      "id": "XlCv2OirEfuBFa4ranyyE",
+      "slug": "cnns",
+      "title": "CNNs",
+      "description": "Convolutional Neural Networks (CNNs) are a type of deep neural network designed for processing grid-structured data like images. They use convolutional layers to automatically learn spatial features such as edges, textures, and shapes. CNNs are the standard architecture for image classification, object detection, and computer vision tasks.",
+      "resources": [
+        {
+          "id": "XlCv2OirEfuBFa4ranyyE-res-1",
+          "type": "article",
+          "title": "What are convolutional neural networks?",
+          "url": "https://www.ibm.com/topics/convolutional-neural-networks"
+        },
+        {
+          "id": "XlCv2OirEfuBFa4ranyyE-res-2",
+          "type": "video",
+          "title": "What are Convolutional Neural Networks (CNNs)?",
+          "url": "https://www.youtube.com/watch?v=QzY57FaENXg"
+        }
+      ]
+    },
+    "mDUSpexdq3ITV6qokwSJl": {
+      "id": "mDUSpexdq3ITV6qokwSJl",
+      "slug": "collection",
+      "title": "Collection",
+      "description": "Data collection is the process of gathering raw data from various sources for analysis. Sources can include databases, spreadsheets, APIs, web scraping, surveys, and sensor data. The quality and completeness of collected data directly affects the quality of any analysis downstream.",
+      "resources": [
+        {
+          "id": "mDUSpexdq3ITV6qokwSJl-res-1",
+          "type": "article",
+          "title": "Data Collection Methods",
+          "url": "https://www.questionpro.com/blog/data-collection-methods/"
+        },
+        {
+          "id": "mDUSpexdq3ITV6qokwSJl-res-2",
+          "type": "article",
+          "title": "What is data collection?",
+          "url": "https://www.simplilearn.com/what-is-data-collection-article"
+        }
+      ]
+    },
+    "SIiIfcy-jeiRoDlxw385V": {
+      "id": "SIiIfcy-jeiRoDlxw385V",
+      "slug": "concat",
+      "title": "CONCAT",
+      "description": "`CONCAT` joins two or more text strings into one. It is the modern replacement for the `&` operator and the older `CONCATENATE` function. `CONCAT` is used to combine name fields, build labels, and merge data from multiple columns.",
+      "resources": [
+        {
+          "id": "SIiIfcy-jeiRoDlxw385V-res-1",
+          "type": "article",
+          "title": "CONCAT Function",
+          "url": "https://support.microsoft.com/en-gb/office/concat-function-9b1a9a3f-94ff-41af-9736-694cbd6b4ca2"
+        },
+        {
+          "id": "SIiIfcy-jeiRoDlxw385V-res-2",
+          "type": "article",
+          "title": "Excel CONCAT Function",
+          "url": "https://www.w3schools.com/excel/excel_concat.php"
+        }
+      ]
+    },
+    "murioZ0NdrTix_lqSGz-8": {
+      "id": "murioZ0NdrTix_lqSGz-8",
+      "slug": "correlation-analysis",
+      "title": "Correlation Analysis",
+      "description": "Correlation analysis measures the strength and direction of the relationship between two numeric variables. The Pearson correlation coefficient ranges from -1 (perfect negative relationship) to +1 (perfect positive relationship), with 0 indicating no linear relationship. Correlation does not imply causation, and further analysis is needed to understand underlying relationships.",
+      "resources": [
+        {
+          "id": "murioZ0NdrTix_lqSGz-8-res-1",
+          "type": "article",
+          "title": "Correlation",
+          "url": "https://www.mathsisfun.com/data/correlation.html"
+        },
+        {
+          "id": "murioZ0NdrTix_lqSGz-8-res-2",
+          "type": "article",
+          "title": "What is correlation analysis?",
+          "url": "https://blog.flexmr.net/correlation-analysis-definition-exploration"
+        }
+      ]
+    },
+    "uAdxP1ZkgzcU8JcWjvw6d": {
+      "id": "uAdxP1ZkgzcU8JcWjvw6d",
+      "slug": "count",
+      "title": "Count",
+      "description": "The Count function in data analysis is one of the most fundamental tasks that a Data Analyst gets to handle. This function is a simple yet powerful tool that aids in understanding the underlying data by providing the count or frequency of occurrences of unique elements in data sets. The relevance of count comes into play in various scenarios – from understanding the popularity of a certain category to analyzing customer activity, and much more. This basic function offers crucial insights into data, making it an essential skill in the toolkit of any data analyst.",
+      "resources": [
+        {
+          "id": "uAdxP1ZkgzcU8JcWjvw6d-res-1",
+          "type": "article",
+          "title": "COUNT Function",
+          "url": "https://support.microsoft.com/en-gb/office/count-function-a59cd7fc-b623-4d93-87a4-d23bf411294c"
+        },
+        {
+          "id": "uAdxP1ZkgzcU8JcWjvw6d-res-2",
+          "type": "video",
+          "title": "How to Count Cells in Microsoft Excel (COUNT, COUNTA, COUNTIF, COUNTIFS Functions)",
+          "url": "https://www.youtube.com/watch?v=5RFLncJuMng"
+        }
+      ]
+    },
+    "iWOK0mRY-hAGxMnHYJ0tt": {
+      "id": "iWOK0mRY-hAGxMnHYJ0tt",
+      "slug": "csv-files",
+      "title": "CSV Files",
+      "description": "CSV (Comma-Separated Values) files are plain text files where each row represents a record and columns are separated by commas. They are the most common format for exchanging tabular data between systems and tools. CSV files are easy to read into Pandas, R, and Excel, but require care when handling special characters, encoding, and missing values.",
+      "resources": [
+        {
+          "id": "iWOK0mRY-hAGxMnHYJ0tt-res-1",
+          "type": "article",
+          "title": "What is a CSV file: A comprehensive guide",
+          "url": "https://flatfile.com/blog/what-is-a-csv-file-guide-to-uses-and-benefits/"
+        },
+        {
+          "id": "iWOK0mRY-hAGxMnHYJ0tt-res-2",
+          "type": "video",
+          "title": "Understanding CSV Files",
+          "url": "https://www.youtube.com/watch?v=UofTplCVkYI"
+        }
+      ]
+    },
+    "E6cpb6kvluJM8OGuDcFBT": {
+      "id": "E6cpb6kvluJM8OGuDcFBT",
+      "slug": "data-cleanup",
+      "title": "Data Cleanup",
+      "description": "Data cleanup is the process of identifying and resolving quality issues in a dataset before analysis. Raw data from real-world sources almost always contains errors, missing values, duplicates, and inconsistencies. Thorough cleaning ensures that analysis results reflect reality rather than artifacts of data collection.",
+      "resources": [
+        {
+          "id": "E6cpb6kvluJM8OGuDcFBT-res-1",
+          "type": "article",
+          "title": "Data Cleaning",
+          "url": "https://www.tableau.com/learn/articles/what-is-data-cleaning#:~:text=tools%20and%20software-,What%20is%20data%20cleaning%3F,to%20be%20duplicated%20or%20mislabeled."
+        }
+      ]
+    },
+    "_sjXCLHHTbZromJYn6fnu": {
+      "id": "_sjXCLHHTbZromJYn6fnu",
+      "slug": "data-collection",
+      "title": "Data Collection",
+      "description": "Data collection in analysis involves pulling data from the relevant sources into the analytical environment. Sources include databases queried with SQL, CSV files loaded from disk, APIs called programmatically, and web scraping for publicly available data. Each source has different access methods, formats, and reliability characteristics.",
+      "resources": [
+        {
+          "id": "_sjXCLHHTbZromJYn6fnu-res-1",
+          "type": "article",
+          "title": "What is Data Collection?",
+          "url": "https://www.databricks.com/blog/what-is-data-collection"
+        },
+        {
+          "id": "_sjXCLHHTbZromJYn6fnu-res-2",
+          "type": "article",
+          "title": "Data Collection",
+          "url": "https://en.wikipedia.org/wiki/Data_collection"
+        }
+      ]
+    },
+    "M1QtGTLyygIjePoCfvjve": {
+      "id": "M1QtGTLyygIjePoCfvjve",
+      "slug": "data-manipulation-libraries",
+      "title": "Data Manipulation Libraries",
+      "description": "Data manipulation libraries are essential tools in data science and analytics, enabling efficient handling, transformation, and analysis of large datasets. Python, a popular language for data science, offers several powerful libraries for this purpose. Pandas is a highly versatile library that provides data structures like DataFrames, which allow for easy manipulation and analysis of tabular data. NumPy, another fundamental library, offers support for large, multi-dimensional arrays and matrices, along with a collection of mathematical functions to operate on these arrays. Together, Pandas and NumPy form the backbone of data manipulation in Python, facilitating tasks such as data cleaning, merging, reshaping, and statistical analysis, thus streamlining the data preparation process for machine learning and other data-driven applications.",
+      "resources": [
+        {
+          "id": "M1QtGTLyygIjePoCfvjve-res-1",
+          "type": "article",
+          "title": "Pandas",
+          "url": "https://pandas.pydata.org/"
+        },
+        {
+          "id": "M1QtGTLyygIjePoCfvjve-res-2",
+          "type": "article",
+          "title": "NumPy",
+          "url": "https://numpy.org/"
+        },
+        {
+          "id": "M1QtGTLyygIjePoCfvjve-res-3",
+          "type": "article",
+          "title": "Top Python Libraries for Data Science",
+          "url": "https://www.simplilearn.com/top-python-libraries-for-data-science-article"
+        }
+      ]
+    },
+    "iTmtpXe7dR4XKslgpsk2q": {
+      "id": "iTmtpXe7dR4XKslgpsk2q",
+      "slug": "data-storage-solutions",
+      "title": "Data Storage Solutions",
+      "description": "Big data storage solutions are designed to hold large volumes of structured, semi-structured, and unstructured data reliably. Options include distributed file systems like HDFS, object stores like S3, and columnar databases optimized for analytics. The choice depends on access patterns, data format, and the processing framework being used.",
+      "resources": [
+        {
+          "id": "iTmtpXe7dR4XKslgpsk2q-res-1",
+          "type": "article",
+          "title": "Visit Dedicated SQL Roadmap",
+          "url": "https://roadmap.sh/sql"
+        },
+        {
+          "id": "iTmtpXe7dR4XKslgpsk2q-res-2",
+          "type": "article",
+          "title": "Visit Dedicated PostgreSQL Roadmap",
+          "url": "https://roadmap.sh/postgresql-dba"
+        }
+      ]
+    },
+    "t_BRtEharsrOZxoyX0OzV": {
+      "id": "t_BRtEharsrOZxoyX0OzV",
+      "slug": "data-transformation",
+      "title": "Data Transformation",
+      "description": "Data Transformation, also known as Data Wrangling, is an essential part of a Data Analyst's role. This process involves the conversion of data from a raw format into another format to make it more appropriate and valuable for a variety of downstream purposes such as analytics. Data Analysts transform data to make the data more suitable for analysis, ensure accuracy, and to improve data quality. The right transformation techniques can give the data a structure, multiply its value, and enhance the accuracy of the analytics performed by serving meaningful results.",
+      "resources": [
+        {
+          "id": "t_BRtEharsrOZxoyX0OzV-res-1",
+          "type": "article",
+          "title": "What is data transformation?",
+          "url": "https://www.qlik.com/us/data-management/data-transformation"
+        }
+      ]
+    },
+    "l1SnPc4EMqGdaIAhIQfrT": {
+      "id": "l1SnPc4EMqGdaIAhIQfrT",
+      "slug": "data-visualisation-libraries",
+      "title": "Data Visualisation Libraries",
+      "description": "Data visualization libraries allow analysts to create charts, graphs, and interactive plots from code. Python's Matplotlib and ggplot2 in R are the foundational libraries, while Seaborn provides a higher-level interface for statistical graphics. These libraries give analysts more control and flexibility than spreadsheet charting tools.",
+      "resources": []
+    },
+    "2g19zjEASJw2ve57hxpr0": {
+      "id": "2g19zjEASJw2ve57hxpr0",
+      "slug": "data-visualisation",
+      "title": "Data Visualisation",
+      "description": "Data visualisation is the process of representing data graphically to communicate patterns, trends, and insights. Effective visualisation requires choosing the right chart type for the data, designing for clarity, and tailoring the presentation to the audience. Tools range from Excel and BI platforms to Python and R libraries.",
+      "resources": [
+        {
+          "id": "2g19zjEASJw2ve57hxpr0-res-1",
+          "type": "article",
+          "title": "What is Data Visualization?",
+          "url": "https://www.ibm.com/think/topics/data-visualization"
+        },
+        {
+          "id": "2g19zjEASJw2ve57hxpr0-res-2",
+          "type": "article",
+          "title": "Top 11 Data Science Skills to Master in 2026",
+          "url": "https://roadmap.sh/ai-data-scientist/skills"
+        }
+      ]
+    },
+    "tYPeLCxbqvMFlTkCGjdHg": {
+      "id": "tYPeLCxbqvMFlTkCGjdHg",
+      "slug": "databases",
+      "title": "Databases",
+      "description": "Databases are structured storage systems that hold organized data accessible via query languages like SQL. Data analysts connect to databases to extract relevant subsets of data for analysis. Understanding basic SQL and database concepts is necessary for working with most organizational data.",
+      "resources": [
+        {
+          "id": "tYPeLCxbqvMFlTkCGjdHg-res-1",
+          "type": "article",
+          "title": "Visit Dedicated SQL Roadmap",
+          "url": "https://roadmap.sh/sql"
+        },
+        {
+          "id": "tYPeLCxbqvMFlTkCGjdHg-res-2",
+          "type": "article",
+          "title": "Visit Dedicated PostgreSQL Roadmap",
+          "url": "https://roadmap.sh/postgresql-dba"
+        }
+      ]
+    },
+    "yBlJrNo9eO470dLp6OaQZ": {
+      "id": "yBlJrNo9eO470dLp6OaQZ",
+      "slug": "datedif",
+      "title": "DATEDIF",
+      "description": "`DATEDIF` calculates the difference between two dates in days, months, or years. It is useful for computing ages, tenures, and durations. Despite being an undocumented legacy function, it remains widely used in practice for date arithmetic.",
+      "resources": [
+        {
+          "id": "yBlJrNo9eO470dLp6OaQZ-res-1",
+          "type": "article",
+          "title": "DATEDIF function",
+          "url": "https://support.microsoft.com/en-gb/office/datedif-function-25dba1a4-2812-480b-84dd-8b32a451b35c"
+        },
+        {
+          "id": "yBlJrNo9eO470dLp6OaQZ-res-2",
+          "type": "article",
+          "title": "How to use DATEDIF in Excel",
+          "url": "https://www.excel-easy.com/examples/datedif.html"
+        }
+      ]
+    },
+    "vHDm_9Lh4EqvXNYSOBaqZ": {
+      "id": "vHDm_9Lh4EqvXNYSOBaqZ",
+      "slug": "decision-trees",
+      "title": "Decision Trees",
+      "description": "A decision tree is a supervised learning algorithm that splits data into branches based on feature values to reach a prediction. It is interpretable because the decision logic can be visualized and explained. Decision trees are the foundation for ensemble methods like Random Forests and Gradient Boosting.",
+      "resources": [
+        {
+          "id": "vHDm_9Lh4EqvXNYSOBaqZ-res-1",
+          "type": "article",
+          "title": "What is machine learning for analytics?",
+          "url": "https://www.oracle.com/business-analytics/what-is-machine-learning-for-analytics/"
+        },
+        {
+          "id": "vHDm_9Lh4EqvXNYSOBaqZ-res-2",
+          "type": "article",
+          "title": "The Role of Machine Learning in Data Analysis",
+          "url": "https://www.ironhack.com/gb/blog/the-role-of-machine-learning-in-data-analysis"
+        }
+      ]
+    },
+    "SiYUdtYMDImRPmV2_XPkH": {
+      "id": "SiYUdtYMDImRPmV2_XPkH",
+      "slug": "deep-learning-optional",
+      "title": "Deep Learning (Optional)",
+      "description": "Deep learning is a subset of machine learning that uses neural networks with many layers to learn representations from large amounts of data. It excels at tasks like image recognition, natural language processing, and speech recognition. For data analysts, deep learning is an advanced optional topic that extends capabilities for unstructured data problems.",
+      "resources": [
+        {
+          "id": "SiYUdtYMDImRPmV2_XPkH-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated Machine Learning Roadmap",
+          "url": "https://roadmap.sh/machine-learning"
+        },
+        {
+          "id": "SiYUdtYMDImRPmV2_XPkH-res-2",
+          "type": "article",
+          "title": "Deep Learning for Data Analysis",
+          "url": "https://www.ibm.com/think/topics/deep-learning"
+        }
+      ]
+    },
+    "il6KQXVPGBza5libN38ib": {
+      "id": "il6KQXVPGBza5libN38ib",
+      "slug": "descriptive-analysis",
+      "title": "Descriptive Analysis",
+      "description": "Descriptive analysis summarizes the main features of a dataset using statistics and visualizations. It answers basic questions about the data: what are the typical values, how spread out are they, and what does the distribution look like. Descriptive analysis is always the first step before any more advanced analytical work.",
+      "resources": [
+        {
+          "id": "il6KQXVPGBza5libN38ib-res-1",
+          "type": "article",
+          "title": "Descriptive Analytics: What They Are and Related Terms",
+          "url": "https://www.investopedia.com/terms/d/descriptive-analytics.asp"
+        },
+        {
+          "id": "il6KQXVPGBza5libN38ib-res-2",
+          "type": "video",
+          "title": "What are Descriptive Analytics?",
+          "url": "https://www.youtube.com/watch?v=DlFqQy10aCs"
+        }
+      ]
+    },
+    "hWDh0ooidbqZb000ENVok": {
+      "id": "hWDh0ooidbqZb000ENVok",
+      "slug": "descriptive-analytics",
+      "title": "Descriptive Analytics",
+      "description": "Descriptive analytics summarizes historical data to answer the question \"what happened?\" It produces reports, dashboards, and summaries that describe past performance. Examples include monthly sales reports, website traffic summaries, and customer demographic breakdowns.",
+      "resources": [
+        {
+          "id": "hWDh0ooidbqZb000ENVok-res-1",
+          "type": "article",
+          "title": "Descriptive Analytics: What They Are and Related Terms",
+          "url": "https://www.investopedia.com/terms/d/descriptive-analytics.asp"
+        },
+        {
+          "id": "hWDh0ooidbqZb000ENVok-res-2",
+          "type": "video",
+          "title": "What are Descriptive Analytics?",
+          "url": "https://www.youtube.com/watch?v=DlFqQy10aCs"
+        }
+      ]
+    },
+    "j7DA2J3speSaBsZAV4M0v": {
+      "id": "j7DA2J3speSaBsZAV4M0v",
+      "slug": "diagnostic-analytics",
+      "title": "Diagnostic Analytics",
+      "description": "Diagnostic analytics examines data to answer \"why did it happen?\" It goes beyond describing outcomes to identifying the causes and contributing factors behind them. Techniques include drill-down analysis, data discovery, correlations, and filtering to isolate the drivers of a specific result.",
+      "resources": [
+        {
+          "id": "j7DA2J3speSaBsZAV4M0v-res-1",
+          "type": "article",
+          "title": "What is Diagnostic Analytics?",
+          "url": "https://amplitude.com/explore/analytics/what-diagnostic-analytics"
+        },
+        {
+          "id": "j7DA2J3speSaBsZAV4M0v-res-2",
+          "type": "video",
+          "title": "What is Diagnostic Analytics? | Understanding Data-Driven Decision Making",
+          "url": "https://www.youtube.com/watch?v=ikZjeAC1yJ0"
+        }
+      ]
+    },
+    "2ldO-_ZnIg364Eo8Jyfgr": {
+      "id": "2ldO-_ZnIg364Eo8Jyfgr",
+      "slug": "dispersion",
+      "title": "Dispersion",
+      "description": "Dispersion measures how spread out values are in a dataset. High dispersion means values vary widely; low dispersion means they cluster close to the center. Range, variance, and standard deviation are the primary measures of dispersion.",
+      "resources": [
+        {
+          "id": "2ldO-_ZnIg364Eo8Jyfgr-res-1",
+          "type": "article",
+          "title": "What is dispersion?",
+          "url": "https://www.investopedia.com/terms/d/dispersion.asp"
+        },
+        {
+          "id": "2ldO-_ZnIg364Eo8Jyfgr-res-2",
+          "type": "video",
+          "title": "Statistics 101 - Measures of Dispersion",
+          "url": "https://www.youtube.com/watch?v=goXdWMZxlqM"
+        }
+      ]
+    },
+    "Fyqg3MRcwY7g-Q3gjiqwK": {
+      "id": "Fyqg3MRcwY7g-Q3gjiqwK",
+      "slug": "distribution-shape",
+      "title": "Distribution Space",
+      "description": "Distribution space refers to the full range of values a variable takes and how frequently each value or range of values occurs. Understanding distribution shape (symmetric, skewed, bimodal) informs which statistical methods are appropriate. Tools like histograms and density plots are used to visualize distributions.",
+      "resources": [
+        {
+          "id": "Fyqg3MRcwY7g-Q3gjiqwK-res-1",
+          "type": "article",
+          "title": "Shapes of Distributions: Definitions, Examples",
+          "url": "https://www.statisticshowto.com/shapes-of-distributions/"
+        }
+      ]
+    },
+    "v8TfY-b4W5ygOv7r-syHq": {
+      "id": "v8TfY-b4W5ygOv7r-syHq",
+      "slug": "dplyr",
+      "title": "Dplyr",
+      "description": "Dplyr provides the primary toolkit for data transformation in R. Functions like `mutate()`, `filter()`, `select()`, `arrange()`, and `summarise()` cover the most common transformation tasks. Combined with the pipe operator, dplyr code reads clearly as a sequence of transformation steps applied to a dataset.",
+      "resources": [
+        {
+          "id": "v8TfY-b4W5ygOv7r-syHq-res-1",
+          "type": "article",
+          "title": "dplyr",
+          "url": "https://dplyr.tidyverse.org/"
+        },
+        {
+          "id": "v8TfY-b4W5ygOv7r-syHq-res-2",
+          "type": "video",
+          "title": "Dplyr Essentials",
+          "url": "https://www.youtube.com/watch?v=Gvhkp-Yw65U"
+        }
+      ]
+    },
+    "XFnw4_dQYSzm96-srWa7X": {
+      "id": "XFnw4_dQYSzm96-srWa7X",
+      "slug": "exploration",
+      "title": "Exploration",
+      "description": "Data exploration, or exploratory data analysis (EDA), is the process of examining a dataset to understand its structure, distributions, and relationships before formal analysis. It involves computing summary statistics, creating visualizations, and identifying patterns, outliers, and anomalies. EDA guides the choice of analytical methods and helps surface unexpected findings.",
+      "resources": [
+        {
+          "id": "XFnw4_dQYSzm96-srWa7X-res-1",
+          "type": "video",
+          "title": "How to do Data Exploration",
+          "url": "https://www.youtube.com/watch?v=OY4eQrekQvs"
+        }
+      ]
+    },
+    "-rQ8h_6NFxEOhxXgo7LHo": {
+      "id": "-rQ8h_6NFxEOhxXgo7LHo",
+      "slug": "finding-outliers",
+      "title": "Finding Outliers",
+      "description": "Outliers are data points that differ significantly from the rest of the dataset. They can result from data entry errors, measurement anomalies, or genuine extreme values. Detecting outliers using statistical methods (z-scores, IQR) or visualization (box plots, scatter plots) is necessary before deciding whether to remove, transform, or investigate them further.",
+      "resources": [
+        {
+          "id": "-rQ8h_6NFxEOhxXgo7LHo-res-1",
+          "type": "article",
+          "title": "Outliers",
+          "url": "https://www.mathsisfun.com/data/outliers.html"
+        }
+      ]
+    },
+    "muFy-C2agCX9vR_NU7UZF": {
+      "id": "muFy-C2agCX9vR_NU7UZF",
+      "slug": "funnel-charts",
+      "title": "Funnel Charts",
+      "description": "Funnel charts display values decreasing progressively across stages of a process, such as a sales pipeline or user conversion flow. Each stage is represented as a narrowing bar. They highlight where the largest drop-offs occur in a sequential process.",
+      "resources": [
+        {
+          "id": "muFy-C2agCX9vR_NU7UZF-res-1",
+          "type": "article",
+          "title": "What is a Funnel Chart?",
+          "url": "https://www.atlassian.com/data/charts/funnel-chart-complete-guide"
+        },
+        {
+          "id": "muFy-C2agCX9vR_NU7UZF-res-2",
+          "type": "video",
+          "title": "Explain your data with a funnel chart",
+          "url": "https://www.youtube.com/watch?v=AwFB9Qg96Ek"
+        }
+      ]
+    },
+    "n3M49lgNPn28hm7kzki-a": {
+      "id": "n3M49lgNPn28hm7kzki-a",
+      "slug": "ggplot2",
+      "title": "ggplot2",
+      "description": "ggplot2 is R's most popular visualization library, based on the Grammar of Graphics framework. Plots are built by layering geometric elements (points, lines, bars) on top of aesthetic mappings (x, y, color, size). It produces clean, professional-looking charts with minimal code and is the standard for data visualization in R.",
+      "resources": [
+        {
+          "id": "n3M49lgNPn28hm7kzki-a-res-1",
+          "type": "article",
+          "title": "ggplot2 website",
+          "url": "https://ggplot2.tidyverse.org/"
+        },
+        {
+          "id": "n3M49lgNPn28hm7kzki-a-res-2",
+          "type": "video",
+          "title": "Make beautiful graphs in R",
+          "url": "https://www.youtube.com/watch?v=qnw1xDnt_Ec"
+        }
+      ]
+    },
+    "wECWIRMlWNoTxz5eKwaSf": {
+      "id": "wECWIRMlWNoTxz5eKwaSf",
+      "slug": "hadoop",
+      "title": "Hadoop",
+      "description": "Apache Hadoop is an open-source framework for distributed storage and processing of large datasets across clusters. It consists of HDFS for storage and MapReduce for computation. While largely superseded by Spark for processing, Hadoop's ecosystem, including HDFS and YARN, remains foundational in many big data environments.",
+      "resources": [
+        {
+          "id": "wECWIRMlWNoTxz5eKwaSf-res-1",
+          "type": "article",
+          "title": "Apache Hadoop",
+          "url": "https://hadoop.apache.org/"
+        },
+        {
+          "id": "wECWIRMlWNoTxz5eKwaSf-res-2",
+          "type": "article",
+          "title": "What Is Hadoop?",
+          "url": "https://www.databricks.com/glossary/hadoop"
+        }
+      ]
+    },
+    "X9WmfHOks82BIAzs6abqO": {
+      "id": "X9WmfHOks82BIAzs6abqO",
+      "slug": "handling-missing-data",
+      "title": "Handling Missing Data",
+      "description": "Missing data occurs when values are absent in a dataset, which can distort analysis if not handled carefully. Common strategies include removing rows with missing values, imputing with the mean, median, or a predicted value, and flagging missingness as its own category. The right approach depends on how much data is missing and why.",
+      "resources": [
+        {
+          "id": "X9WmfHOks82BIAzs6abqO-res-1",
+          "type": "article",
+          "title": "How to Handle Missing Data Values While Data Cleaning",
+          "url": "https://insightsoftware.com/blog/how-to-handle-missing-data-values-while-data-cleaning/"
+        },
+        {
+          "id": "X9WmfHOks82BIAzs6abqO-res-2",
+          "type": "article",
+          "title": "Handling Missing Data in Data Preprocessing and Cleaning",
+          "url": "https://medium.com/@yennhi95zz/handling-missing-data-in-data-preprocessing-and-cleaning-methods-and-examples-19a893336b2a"
+        }
+      ]
+    },
+    "G8resQXEVEHCaQfDlt3nj": {
+      "id": "G8resQXEVEHCaQfDlt3nj",
+      "slug": "heatmap",
+      "title": "Heatmap",
+      "description": "A heatmap uses color intensity to represent the magnitude of values in a matrix. It is commonly used to visualize correlation matrices, frequency tables, and geographic data. Heatmaps make it easy to spot patterns and relationships across two categorical dimensions.",
+      "resources": [
+        {
+          "id": "G8resQXEVEHCaQfDlt3nj-res-1",
+          "type": "article",
+          "title": "A Complete Guide to Heatmaps",
+          "url": "https://www.hotjar.com/heatmaps/"
+        },
+        {
+          "id": "G8resQXEVEHCaQfDlt3nj-res-2",
+          "type": "article",
+          "title": "What is a Heatmap?",
+          "url": "https://www.atlassian.com/data/charts/heatmap-complete-guide"
+        }
+      ]
+    },
+    "FEyBFZLaGJqTC-IUEcOVS": {
+      "id": "FEyBFZLaGJqTC-IUEcOVS",
+      "slug": "histograms",
+      "title": "Histograms",
+      "description": "Histograms display the distribution of a numeric variable by grouping values into bins and showing the frequency of each bin. They reveal the shape, center, and spread of the data. Histograms are the standard first chart to create when exploring a new numeric variable.",
+      "resources": [
+        {
+          "id": "FEyBFZLaGJqTC-IUEcOVS-res-1",
+          "type": "article",
+          "title": "How a histogram works to display data",
+          "url": "https://www.investopedia.com/terms/h/histogram.asp"
+        },
+        {
+          "id": "FEyBFZLaGJqTC-IUEcOVS-res-2",
+          "type": "article",
+          "title": "What is a histogram",
+          "url": "https://www.mathsisfun.com/data/histograms.html"
+        }
+      ]
+    },
+    "Xygwu0m5TeYT6S_8FKKXh": {
+      "id": "Xygwu0m5TeYT6S_8FKKXh",
+      "slug": "hypothesis-testing",
+      "title": "Hypothesis Testing",
+      "description": "Hypothesis testing is a statistical method for evaluating whether observed data provides enough evidence to support or reject a claim about a population. It involves defining a null hypothesis, choosing a significance level, computing a test statistic, and comparing it to a critical value or p-value. Common tests include t-tests, chi-square tests, and ANOVA.",
+      "resources": [
+        {
+          "id": "Xygwu0m5TeYT6S_8FKKXh-res-1",
+          "type": "article",
+          "title": "Hypothesis Testing - 4 Step",
+          "url": "https://www.investopedia.com/terms/h/hypothesistesting.asp"
+        }
+      ]
+    },
+    "wME4MSldOWlMB54ekpReS": {
+      "id": "wME4MSldOWlMB54ekpReS",
+      "slug": "if",
+      "title": "If",
+      "description": "The IF function in Excel is a crucial tool for data analysts, enabling them to create conditional statements, clean and validate data, perform calculations based on specific conditions, create custom metrics, apply conditional formatting, automate tasks, and generate dynamic reports. Data analysts use IF to categorize data, handle missing values, calculate bonuses or custom metrics, highlight trends, and enhance visualizations, ultimately facilitating informed decision-making through data analysis.",
+      "resources": [
+        {
+          "id": "wME4MSldOWlMB54ekpReS-res-1",
+          "type": "article",
+          "title": "IF Function",
+          "url": "https://support.microsoft.com/en-gb/office/if-function-69aed7c9-4e8a-4755-a9bc-aa8bbff73be2"
+        },
+        {
+          "id": "wME4MSldOWlMB54ekpReS-res-2",
+          "type": "article",
+          "title": "Excel IF Function",
+          "url": "https://exceljet.net/functions/if-function"
+        }
+      ]
+    },
+    "bHPJ6yOHtUq5EjJBSrJUE": {
+      "id": "bHPJ6yOHtUq5EjJBSrJUE",
+      "slug": "image-recognition",
+      "title": "Image Recognition",
+      "description": "Image recognition is the task of identifying objects, scenes, or attributes in images. Deep learning models, particularly CNNs, have achieved human-level performance on standard image recognition benchmarks. Practicing image recognition involves training models on labeled image datasets and evaluating their accuracy on unseen images.",
+      "resources": [
+        {
+          "id": "bHPJ6yOHtUq5EjJBSrJUE-res-1",
+          "type": "article",
+          "title": "What is Image Recognition?",
+          "url": "https://www.techtarget.com/searchenterpriseai/definition/image-recognition"
+        },
+        {
+          "id": "bHPJ6yOHtUq5EjJBSrJUE-res-2",
+          "type": "article",
+          "title": "Image Recognition: Definition, Algorithms & Uses",
+          "url": "https://www.v7labs.com/blog/image-recognition-guide"
+        }
+      ]
+    },
+    "3xp2fogAVmwXQhdzhZDWR": {
+      "id": "3xp2fogAVmwXQhdzhZDWR",
+      "slug": "introduction",
+      "title": "Introduction",
+      "description": "Data analytics is the practice of examining raw data to draw conclusions and support decision-making. It combines statistical methods, programming tools, and domain knowledge to extract meaning from structured and unstructured data. Data analysts work across industries to help organizations understand what has happened, why it happened, and what might happen next.",
+      "resources": [
+        {
+          "id": "3xp2fogAVmwXQhdzhZDWR-res-1",
+          "type": "article",
+          "title": "What Does a Data Analyst Do?",
+          "url": "https://roadmap.sh/data-analyst/what-does-a-data-analyst-do"
+        },
+        {
+          "id": "3xp2fogAVmwXQhdzhZDWR-res-2",
+          "type": "article",
+          "title": "Data Analyst Career Path: My Pro Advice",
+          "url": "https://roadmap.sh/data-analyst/career-path"
+        },
+        {
+          "id": "3xp2fogAVmwXQhdzhZDWR-res-3",
+          "type": "article",
+          "title": "How to Become a Data Analyst with No Experience: My Advice",
+          "url": "https://roadmap.sh/data-analyst/how-to-become"
+        },
+        {
+          "id": "3xp2fogAVmwXQhdzhZDWR-res-4",
+          "type": "article",
+          "title": "Top 11 Data Science Skills to Master in 2026",
+          "url": "https://roadmap.sh/ai-data-scientist/tools"
+        }
+      ]
+    },
+    "h2xF5bZeUByDgsAi4dga2": {
+      "id": "h2xF5bZeUByDgsAi4dga2",
+      "slug": "k-means-clustering",
+      "title": "K-Means Clustering",
+      "description": "K-Means is an unsupervised clustering algorithm that partitions data into K groups by iteratively assigning points to the nearest cluster centroid and updating the centroids. It is simple and scalable but requires specifying K in advance and is sensitive to outliers and initial centroid placement. It is used for customer segmentation, anomaly detection, and data compression.",
+      "resources": [
+        {
+          "id": "h2xF5bZeUByDgsAi4dga2-res-1",
+          "type": "article",
+          "title": "K-Means Clustering",
+          "url": "https://en.wikipedia.org/wiki/K-means_clustering"
+        },
+        {
+          "id": "h2xF5bZeUByDgsAi4dga2-res-2",
+          "type": "article",
+          "title": "K-Means",
+          "url": "https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html"
+        }
+      ]
+    },
+    "R12sArWVpbIs_PHxBqVaR": {
+      "id": "R12sArWVpbIs_PHxBqVaR",
+      "slug": "key-concepts-of-data",
+      "title": "Introduction to Key Concepts for Data Analysts",
+      "description": "Data analysis is the process of inspecting, cleansing, transforming, and modeling data to discover useful information and support decision-making. In the broadest sense, data can be classified into various types like nominal, ordinal, interval and ratio, each with a specific role and analysis technique. Higher-dimensional data types like time-series, panel data, and multi-dimensional arrays are also critical. On the other hand, data quality and data management are key concepts to ensure clean and reliable datasets. With an understanding of these fundamental concepts, a data analyst can transform raw data into meaningful insights.",
+      "resources": []
+    },
+    "SStzU_iXSvI_9QWbvGNou": {
+      "id": "SStzU_iXSvI_9QWbvGNou",
+      "slug": "knn",
+      "title": "KNN",
+      "description": "K-Nearest Neighbors (KNN) is a simple supervised learning algorithm that classifies a data point based on the majority class of its K nearest neighbors in the feature space. It requires no training phase but is slow at prediction time for large datasets. KNN is also used for regression by averaging the values of the nearest neighbors.",
+      "resources": [
+        {
+          "id": "SStzU_iXSvI_9QWbvGNou-res-1",
+          "type": "article",
+          "title": "What is the k-nearest neighbors (KNN) algorithm?",
+          "url": "https://www.ibm.com/topics/knn#:~:text=The%20k%2Dnearest%20neighbors%20KNN,used%20in%20machine%20learning%20today."
+        },
+        {
+          "id": "SStzU_iXSvI_9QWbvGNou-res-2",
+          "type": "article",
+          "title": "Nearest Neighbors",
+          "url": "https://scikit-learn.org/stable/modules/neighbors.html"
+        }
+      ]
+    },
+    "PqGO8AU1zE2ZdtqrIrOkZ": {
+      "id": "PqGO8AU1zE2ZdtqrIrOkZ",
+      "slug": "kurtosis",
+      "title": "Kurtosis",
+      "description": "Kurtosis measures the heaviness of a distribution's tails compared to a normal distribution. High kurtosis (leptokurtic) means more values in the tails and a sharper peak; low kurtosis (platykurtic) means thinner tails and a flatter peak. It is used alongside skewness to assess whether data approximates a normal distribution.",
+      "resources": [
+        {
+          "id": "PqGO8AU1zE2ZdtqrIrOkZ-res-1",
+          "type": "article",
+          "title": "Kurtosis: Definition, Types, and Importance",
+          "url": "https://www.investopedia.com/terms/k/kurtosis.asp"
+        },
+        {
+          "id": "PqGO8AU1zE2ZdtqrIrOkZ-res-2",
+          "type": "video",
+          "title": "What is Kurtosis?",
+          "url": "https://www.youtube.com/watch?v=AsxEDBhESJg"
+        }
+      ]
+    },
+    "i2uEcaO4bJhcZ5ayRs2CQ": {
+      "id": "i2uEcaO4bJhcZ5ayRs2CQ",
+      "slug": "learn-a-programming-lang",
+      "title": "Learn a Programming Language",
+      "description": "Programming extends the analytical capabilities of a data analyst beyond what spreadsheet tools can handle. Python and R are the two most common languages used in data analysis for data manipulation, statistical modeling, and visualization. Choosing one and learning it well is the foundation for working with large datasets and building repeatable analyses.",
+      "resources": [
+        {
+          "id": "i2uEcaO4bJhcZ5ayRs2CQ-res-1",
+          "type": "article",
+          "title": "Python Data Science Handbook",
+          "url": "https://jakevdp.github.io/PythonDataScienceHandbook/"
+        },
+        {
+          "id": "i2uEcaO4bJhcZ5ayRs2CQ-res-2",
+          "type": "article",
+          "title": "How to Become a Data Analyst with No Experience: My Advice",
+          "url": "https://roadmap.sh/data-analyst/how-to-become"
+        }
+      ]
+    },
+    "5GarFKYApjrhxHBLNPVnJ": {
+      "id": "5GarFKYApjrhxHBLNPVnJ",
+      "slug": "learn-common-functions",
+      "title": "Learn Common Functions",
+      "description": "Excel functions are built-in formulas that perform calculations on data. Mastering common functions for text manipulation, date arithmetic, lookup, aggregation, and logic is the core of Excel-based data analysis. Functions can be combined and nested to handle complex analytical tasks without programming.",
+      "resources": [
+        {
+          "id": "5GarFKYApjrhxHBLNPVnJ-res-1",
+          "type": "article",
+          "title": "Excel functions (by category)",
+          "url": "https://support.microsoft.com/en-US/Excel/excel-functions-by-category"
+        },
+        {
+          "id": "5GarFKYApjrhxHBLNPVnJ-res-2",
+          "type": "article",
+          "title": "Microsoft Excel Essentials",
+          "url": "https://uniskills.library.curtin.edu.au/digital/ms-excel/formulas-and-common-functions/"
+        }
+      ]
+    },
+    "v9T0DX56jFNhUz9nzubzS": {
+      "id": "v9T0DX56jFNhUz9nzubzS",
+      "slug": "line-chart",
+      "title": "Line Chart",
+      "description": "Data visualization is a crucial skill for every Data Analyst and the Line Chart is one of the most commonly used chart types in this field. Line charts act as powerful tools for summarizing and interpreting complex datasets. Through attractive and interactive design, these charts allow for clear and efficient communication of patterns, trends, and outliers in the data. This makes them valuable for data analysts when presenting data spanning over a period of time, forecasting trends or demonstrating relationships between different data sets.",
+      "resources": [
+        {
+          "id": "v9T0DX56jFNhUz9nzubzS-res-1",
+          "type": "article",
+          "title": "Line Graph: Definition, Types, Parts, Uses, and Examples",
+          "url": "https://www.investopedia.com/terms/l/line-graph.asp"
+        },
+        {
+          "id": "v9T0DX56jFNhUz9nzubzS-res-2",
+          "type": "video",
+          "title": "What is a line graph?",
+          "url": "https://www.youtube.com/watch?v=rw-MxkzymEw"
+        }
+      ]
+    },
+    "ofOQKAIu4rezWmgZeE-KT": {
+      "id": "ofOQKAIu4rezWmgZeE-KT",
+      "slug": "logistic-regression",
+      "title": "Logistic Regression",
+      "description": "Logistic regression is a supervised classification algorithm that models the probability of a binary outcome using a sigmoid function. Despite its name, it is a classification method, not a regression one. It is widely used for binary classification tasks like churn prediction, fraud detection, and medical diagnosis.",
+      "resources": [
+        {
+          "id": "ofOQKAIu4rezWmgZeE-KT-res-1",
+          "type": "article",
+          "title": "Everything you need to know about Logistic Regression",
+          "url": "https://www.spiceworks.com/tech/artificial-intelligence/articles/what-is-logistic-regression/"
+        },
+        {
+          "id": "ofOQKAIu4rezWmgZeE-KT-res-2",
+          "type": "article",
+          "title": "Logistic Regression for Machine Learning",
+          "url": "https://machinelearningmastery.com/logistic-regression-for-machine-learning/"
+        }
+      ]
+    },
+    "f4GuzeokP9w_gwtOquP0g": {
+      "id": "f4GuzeokP9w_gwtOquP0g",
+      "slug": "machine-learning",
+      "title": "Machine Learning",
+      "description": "Machine learning is the field of building systems that learn from data to make predictions or decisions. For data analysts, understanding ML provides tools to tackle problems that go beyond traditional statistical methods, such as classifying text, detecting anomalies, and building recommendation systems. Analysts typically apply ML algorithms rather than build them from scratch.",
+      "resources": [
+        {
+          "id": "f4GuzeokP9w_gwtOquP0g-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated Machine Learning Roadmap",
+          "url": "https://roadmap.sh/machine-learning"
+        }
+      ]
+    },
+    "U55hwR0HRCIz2cveVR8FZ": {
+      "id": "U55hwR0HRCIz2cveVR8FZ",
+      "slug": "machine-learning",
+      "title": "Machine Learning",
+      "description": "Machine learning is a branch of artificial intelligence where systems learn patterns from data and make predictions or decisions without being explicitly programmed for each task. For data analysts, ML provides tools like classification, clustering, and regression models that automate pattern recognition at scale. Understanding the basics of ML extends what an analyst can do beyond traditional statistical methods.",
+      "resources": [
+        {
+          "id": "U55hwR0HRCIz2cveVR8FZ-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated Machine Learning Roadmap Roadmap",
+          "url": "https://roadmap.sh/machine-learning"
+        },
+        {
+          "id": "U55hwR0HRCIz2cveVR8FZ-res-2",
+          "type": "article",
+          "title": "What is Machine Learning (ML)?",
+          "url": "https://www.ibm.com/topics/machine-learning"
+        },
+        {
+          "id": "U55hwR0HRCIz2cveVR8FZ-res-3",
+          "type": "article",
+          "title": "Data Science vs Machine Learning: How are they different?",
+          "url": "https://roadmap.sh/ai-data-scientist/vs-machine-learning"
+        },
+        {
+          "id": "U55hwR0HRCIz2cveVR8FZ-res-4",
+          "type": "video",
+          "title": "What is Machine Learning?",
+          "url": "https://www.youtube.com/watch?v=9gGnTQTYNaE"
+        }
+      ]
+    },
+    "eAM9orCNwzqh34uvGBVm8": {
+      "id": "eAM9orCNwzqh34uvGBVm8",
+      "slug": "mapreduce",
+      "title": "MapReduce",
+      "description": "MapReduce is a programming model for processing large datasets in parallel. The map phase transforms input data into key-value pairs, and the reduce phase aggregates them into a final result. It was the original processing model for Hadoop and, while largely replaced by Spark, the map-reduce paradigm still underlies many distributed data processing patterns.",
+      "resources": [
+        {
+          "id": "eAM9orCNwzqh34uvGBVm8-res-1",
+          "type": "article",
+          "title": "MapReduce",
+          "url": "https://www.databricks.com/glossary/mapreduce"
+        },
+        {
+          "id": "eAM9orCNwzqh34uvGBVm8-res-2",
+          "type": "article",
+          "title": "What is Apache MapReduce?",
+          "url": "https://www.ibm.com/topics/mapreduce"
+        }
+      ]
+    },
+    "tvDdXwaRPsUSTqJGaLS3P": {
+      "id": "tvDdXwaRPsUSTqJGaLS3P",
+      "slug": "matplotlib",
+      "title": "Matplotlib",
+      "description": "Matplotlib is Python's foundational plotting library. It supports a wide range of chart types and gives detailed control over every visual element. While more verbose than higher-level libraries, Matplotlib is the base on which many other Python visualization tools are built and is essential for custom or publication-quality plots.",
+      "resources": [
+        {
+          "id": "tvDdXwaRPsUSTqJGaLS3P-res-1",
+          "type": "article",
+          "title": "Matplotlib",
+          "url": "https://matplotlib.org/"
+        },
+        {
+          "id": "tvDdXwaRPsUSTqJGaLS3P-res-2",
+          "type": "video",
+          "title": "Learn Matplotlib in 6 minutes",
+          "url": "https://www.youtube.com/watch?v=nzKy9GY12yo"
+        }
+      ]
+    },
+    "923KGEUG9ofBm7dYkkrxz": {
+      "id": "923KGEUG9ofBm7dYkkrxz",
+      "slug": "mean",
+      "title": "Mean",
+      "description": "The mean is the arithmetic average of a set of values, calculated by summing all values and dividing by the count. It is the most commonly used measure of central tendency but is sensitive to outliers. When data is skewed, the median is often a better representation of the typical value.",
+      "resources": [
+        {
+          "id": "923KGEUG9ofBm7dYkkrxz-res-1",
+          "type": "article",
+          "title": "Measures of Central Tendency",
+          "url": "https://statistics.laerd.com/statistical-guides/measures-central-tendency-mean-mode-median.php"
+        },
+        {
+          "id": "923KGEUG9ofBm7dYkkrxz-res-2",
+          "type": "article",
+          "title": "Central Tendency | Understanding the Mean, Median & Mode",
+          "url": "https://www.scribbr.co.uk/stats/measures-of-central-tendency/"
+        }
+      ]
+    },
+    "qdXoikVh2xkJkOQNKcyvb": {
+      "id": "qdXoikVh2xkJkOQNKcyvb",
+      "slug": "median",
+      "title": "Median",
+      "description": "Median signifies the middle value in a data set when arranged in ascending or descending order. As a data analyst, understanding, calculating, and interpreting the median is crucial. It is especially helpful when dealing with outliers in a dataset as the median is less sensitive to extreme values. Thus, providing a more realistic 'central' value for skewed distributions. This measure is a reliable reflection of the dataset and is widely used in fields like real estate, economics, and finance for data interpretation and decision-making.",
+      "resources": [
+        {
+          "id": "qdXoikVh2xkJkOQNKcyvb-res-1",
+          "type": "article",
+          "title": "How to find the median value",
+          "url": "https://www.mathsisfun.com/median.html"
+        },
+        {
+          "id": "qdXoikVh2xkJkOQNKcyvb-res-2",
+          "type": "article",
+          "title": "Median: What It Is and How to Calculate It",
+          "url": "https://www.investopedia.com/terms/m/median.asp"
+        }
+      ]
+    },
+    "F3-cr5onkWqKKPRdxu8lV": {
+      "id": "F3-cr5onkWqKKPRdxu8lV",
+      "slug": "min--max",
+      "title": "Min / Max Function",
+      "description": "Understanding the minimum and maximum values in your dataset is critical in data analysis. These basic functions, often referred to as Min-Max functions, are statistical tools that data analysts use to inspect the distribution of a particular dataset. By identifying the lowest and highest values, data analysts can gain insight into the range of the dataset, identify possible outliers, and understand the data's variability. Beyond their use in descriptive statistics, Min-Max functions also play a vital role in data normalization, shaping the accuracy of predictive models in Machine Learning and AI fields.",
+      "resources": [
+        {
+          "id": "F3-cr5onkWqKKPRdxu8lV-res-1",
+          "type": "article",
+          "title": "MIN Function",
+          "url": "https://support.microsoft.com/en-gb/office/min-function-61635d12-920f-4ce2-a70f-96f202dcc152"
+        },
+        {
+          "id": "F3-cr5onkWqKKPRdxu8lV-res-2",
+          "type": "article",
+          "title": "MAX Function",
+          "url": "https://support.microsoft.com/en-gb/office/max-function-e0012414-9ac8-4b34-9a47-73e662c08098"
+        }
+      ]
+    },
+    "fY8zVG2tVbmtx5OhY7hj-": {
+      "id": "fY8zVG2tVbmtx5OhY7hj-",
+      "slug": "mode",
+      "title": "Mode",
+      "description": "The mode is the value that appears most frequently in a dataset. It is the only measure of central tendency applicable to categorical data. A dataset can have no mode, one mode, or multiple modes (bimodal or multimodal).",
+      "resources": [
+        {
+          "id": "fY8zVG2tVbmtx5OhY7hj--res-1",
+          "type": "article",
+          "title": "Mode: What is it and how to calculate it",
+          "url": "https://www.investopedia.com/terms/m/mode.asp"
+        },
+        {
+          "id": "fY8zVG2tVbmtx5OhY7hj--res-2",
+          "type": "article",
+          "title": "Mean Median Mode Formula",
+          "url": "https://www.cuemath.com/mean-median-mode-formula/"
+        }
+      ]
+    },
+    "7ikA373qH88HBx5irCgIH": {
+      "id": "7ikA373qH88HBx5irCgIH",
+      "slug": "model-evaluation-techniques",
+      "title": "Model Evaluation Techniques",
+      "description": "Model evaluation measures how well a machine learning model performs on unseen data. Common metrics include accuracy, precision, recall, F1 score for classification, and mean squared error for regression. Techniques like cross-validation and train/test splits ensure that evaluation reflects real-world performance rather than overfitting to training data.",
+      "resources": [
+        {
+          "id": "7ikA373qH88HBx5irCgIH-res-1",
+          "type": "article",
+          "title": "What is Model Evaluation",
+          "url": "https://domino.ai/data-science-dictionary/model-evaluation"
+        }
+      ]
+    },
+    "fqCAH4Enc4AAJHoSkk2Pe": {
+      "id": "fqCAH4Enc4AAJHoSkk2Pe",
+      "slug": "mpi",
+      "title": "MPI",
+      "description": "MPI (Message Passing Interface) is a standard for parallel programming across distributed memory systems. It allows processes on different machines to communicate and coordinate. MPI is used in high-performance computing (HPC) environments for scientific simulations and large-scale numerical computations.",
+      "resources": [
+        {
+          "id": "fqCAH4Enc4AAJHoSkk2Pe-res-1",
+          "type": "article",
+          "title": "Message Passing Interface Forum",
+          "url": "https://www.mpi-forum.org/"
+        },
+        {
+          "id": "fqCAH4Enc4AAJHoSkk2Pe-res-2",
+          "type": "article",
+          "title": "Microsoft MPI",
+          "url": "https://learn.microsoft.com/en-us/message-passing-interface/microsoft-mpi"
+        }
+      ]
+    },
+    "zbUw5PyVsdccbgDTRHg7d": {
+      "id": "zbUw5PyVsdccbgDTRHg7d",
+      "slug": "naive-byes",
+      "title": "Naive Byes",
+      "description": "Naive Bayes is a probabilistic classification algorithm based on Bayes' theorem, with the assumption that features are independent of each other given the class. Despite this simplifying assumption, it performs well in practice for text classification, spam detection, and other categorical problems. It is fast to train and works well with small datasets.",
+      "resources": [
+        {
+          "id": "zbUw5PyVsdccbgDTRHg7d-res-1",
+          "type": "article",
+          "title": "What are Naïve Bayes classifiers?",
+          "url": "https://www.ibm.com/topics/naive-bayes"
+        },
+        {
+          "id": "zbUw5PyVsdccbgDTRHg7d-res-2",
+          "type": "article",
+          "title": "Naive Bayes",
+          "url": "https://scikit-learn.org/stable/modules/naive_bayes.html"
+        }
+      ]
+    },
+    "DFv-eiYDicF4cA4jgVk9_": {
+      "id": "DFv-eiYDicF4cA4jgVk9_",
+      "slug": "natural-language-processing",
+      "title": "Natural Language Processing",
+      "description": "Natural Language Processing (NLP) is the field of enabling computers to understand, interpret, and generate human language. Tasks include text classification, sentiment analysis, named entity recognition, and machine translation. Deep learning models, especially transformers, have dramatically improved NLP performance and are the basis for tools like large language models.",
+      "resources": [
+        {
+          "id": "DFv-eiYDicF4cA4jgVk9_-res-1",
+          "type": "article",
+          "title": "What is NLP?",
+          "url": "https://aws.amazon.com/what-is/nlp/"
+        },
+        {
+          "id": "DFv-eiYDicF4cA4jgVk9_-res-2",
+          "type": "article",
+          "title": "Natural Language Processing",
+          "url": "https://www.deeplearning.ai/resources/natural-language-processing/"
+        }
+      ]
+    },
+    "gGHsKcS92StK5FolzmVvm": {
+      "id": "gGHsKcS92StK5FolzmVvm",
+      "slug": "neural-networks",
+      "title": "Neural Networks",
+      "description": "Neural networks are machine learning models inspired by the structure of the brain, consisting of layers of interconnected nodes (neurons) that transform inputs into outputs. They learn by adjusting connection weights during training to minimize prediction error. Neural networks are the foundation of deep learning and power most modern AI applications.",
+      "resources": [
+        {
+          "id": "gGHsKcS92StK5FolzmVvm-res-1",
+          "type": "article",
+          "title": "What is a Neural Network?",
+          "url": "https://aws.amazon.com/what-is/neural-network/"
+        },
+        {
+          "id": "gGHsKcS92StK5FolzmVvm-res-2",
+          "type": "article",
+          "title": "Explained: Neural networks",
+          "url": "https://news.mit.edu/2017/explained-neural-networks-deep-learning-0414"
+        }
+      ]
+    },
+    "TucngXKNptbeo3PtdJHX8": {
+      "id": "TucngXKNptbeo3PtdJHX8",
+      "slug": "pandas",
+      "title": "Pandas",
+      "description": "Pandas is used extensively for data cleanup tasks: loading raw data, filling or dropping missing values, removing duplicates, renaming columns, filtering rows, and converting data types. Its DataFrame API provides a comprehensive set of methods for every stage of the cleanup workflow, making it the go-to tool for Python-based data preparation.",
+      "resources": [
+        {
+          "id": "TucngXKNptbeo3PtdJHX8-res-1",
+          "type": "article",
+          "title": "Pandas",
+          "url": "https://pandas.pydata.org/"
+        },
+        {
+          "id": "TucngXKNptbeo3PtdJHX8-res-2",
+          "type": "video",
+          "title": "NumPy vs Pandas",
+          "url": "https://www.youtube.com/watch?v=KHoEbRH46Zk"
+        }
+      ]
+    },
+    "Fwwve0j-KDfc605IIgmil": {
+      "id": "Fwwve0j-KDfc605IIgmil",
+      "slug": "parallel-processing",
+      "title": "Parallel Processing",
+      "description": "Parallel processing divides a computation into tasks that run simultaneously across multiple processors or machines. It is the core technique that makes big data processing feasible, as tasks that would take hours on a single machine can complete in minutes when distributed. Spark and Hadoop both use parallelism to handle large-scale data.",
+      "resources": [
+        {
+          "id": "Fwwve0j-KDfc605IIgmil-res-1",
+          "type": "article",
+          "title": "What Is Parallel Processing?",
+          "url": "https://www.spiceworks.com/tech/iot/articles/what-is-parallel-processing/"
+        },
+        {
+          "id": "Fwwve0j-KDfc605IIgmil-res-2",
+          "type": "article",
+          "title": "How Parallel Computing Works",
+          "url": "https://computer.howstuffworks.com/parallel-processing.htm"
+        }
+      ]
+    },
+    "K9xwm_Vpdup9ujYqlD9F3": {
+      "id": "K9xwm_Vpdup9ujYqlD9F3",
+      "slug": "pie-charts",
+      "title": "Pie Charts",
+      "description": "Pie charts show the proportional composition of a whole by dividing a circle into slices. They are best used for a small number of categories (typically fewer than five) where the relative sizes are meaningfully different. Pie charts are often criticized for being harder to interpret accurately than bar charts for the same data.",
+      "resources": [
+        {
+          "id": "K9xwm_Vpdup9ujYqlD9F3-res-1",
+          "type": "article",
+          "title": "A Complete Guide to Pie Charts",
+          "url": "https://www.atlassian.com/data/charts/pie-chart-complete-guide"
+        },
+        {
+          "id": "K9xwm_Vpdup9ujYqlD9F3-res-2",
+          "type": "video",
+          "title": "What is a Pie Chart",
+          "url": "https://www.youtube.com/watch?v=GjJdZaQrItg"
+        }
+      ]
+    },
+    "2DDJUFr0AJTVR2Whj8zub": {
+      "id": "2DDJUFr0AJTVR2Whj8zub",
+      "slug": "pivot-tables",
+      "title": "Pivot Tables",
+      "description": "Pivot tables are one of Excel's most powerful features for summarizing and analyzing large datasets. They allow data to be grouped, filtered, and aggregated across multiple dimensions without writing formulas. Pivot tables are used to quickly explore data and build summary reports by dragging and dropping fields.",
+      "resources": [
+        {
+          "id": "2DDJUFr0AJTVR2Whj8zub-res-1",
+          "type": "article",
+          "title": "Create a Pivot Table",
+          "url": "https://support.microsoft.com/en-gb/office/create-a-pivottable-to-analyze-worksheet-data-a9a84538-bfe9-40a9-a8e9-f99134456576"
+        },
+        {
+          "id": "2DDJUFr0AJTVR2Whj8zub-res-2",
+          "type": "article",
+          "title": "Pivot Tables in Excel",
+          "url": "https://www.excel-easy.com/data-analysis/pivot-tables.html"
+        },
+        {
+          "id": "2DDJUFr0AJTVR2Whj8zub-res-3",
+          "type": "video",
+          "title": "How to Create a Pivot Table in Excel",
+          "url": "https://www.youtube.com/watch?v=PdJzy956wo4"
+        }
+      ]
+    },
+    "SJLeose5vZU8w_18C8_t0": {
+      "id": "SJLeose5vZU8w_18C8_t0",
+      "slug": "power-bi",
+      "title": "Power BI",
+      "description": "Power BI is Microsoft's business intelligence platform for creating interactive reports and dashboards. It integrates tightly with the Microsoft ecosystem, including Excel, Azure, and SQL Server. Power BI is widely adopted in organizations already using Microsoft tools for reporting and data sharing across teams.",
+      "resources": [
+        {
+          "id": "SJLeose5vZU8w_18C8_t0-res-1",
+          "type": "article",
+          "title": "Power BI",
+          "url": "https://www.microsoft.com/en-us/power-platform/products/power-bi"
+        },
+        {
+          "id": "SJLeose5vZU8w_18C8_t0-res-2",
+          "type": "video",
+          "title": "Power BI for beginners",
+          "url": "https://www.youtube.com/watch?v=NNSHu0rkew8"
+        }
+      ]
+    },
+    "3WZORRCwme3HsaKew23Z5": {
+      "id": "3WZORRCwme3HsaKew23Z5",
+      "slug": "predictive-analytics",
+      "title": "Predictive Analytics",
+      "description": "Predictive analytics uses historical data and statistical models to forecast future outcomes. It answers the question \"what is likely to happen?\" Techniques include regression, time series analysis, and machine learning models trained on past data to predict future behavior or events.",
+      "resources": [
+        {
+          "id": "3WZORRCwme3HsaKew23Z5-res-1",
+          "type": "article",
+          "title": "What is Predictive Analytics? - Google",
+          "url": "https://cloud.google.com/learn/what-is-predictive-analytics"
+        },
+        {
+          "id": "3WZORRCwme3HsaKew23Z5-res-2",
+          "type": "video",
+          "title": "What is Predictive Analytics?",
+          "url": "https://www.youtube.com/watch?v=cVibCHRSxB0"
+        }
+      ]
+    },
+    "DFMR-0MbmVCCrJu0I9JWG": {
+      "id": "DFMR-0MbmVCCrJu0I9JWG",
+      "slug": "prescriptive-analytics",
+      "title": "Prescriptive Analytics",
+      "description": "Prescriptive analytics recommends actions to achieve a desired outcome, answering \"what should we do?\" It builds on predictive analytics by combining forecasts with optimization and decision logic. Examples include recommendation engines, dynamic pricing systems, and supply chain optimization tools.",
+      "resources": [
+        {
+          "id": "DFMR-0MbmVCCrJu0I9JWG-res-1",
+          "type": "article",
+          "title": "What is Prescriptive Analysis?",
+          "url": "https://www.investopedia.com/terms/p/prescriptive-analytics.asp"
+        },
+        {
+          "id": "DFMR-0MbmVCCrJu0I9JWG-res-2",
+          "type": "video",
+          "title": "Examples of Prescriptive Analysis",
+          "url": "https://www.youtube.com/watch?v=NOo8Nc9zG20"
+        }
+      ]
+    },
+    "LJSqfz6aYJbCe_bK8EWI1": {
+      "id": "LJSqfz6aYJbCe_bK8EWI1",
+      "slug": "pytorch",
+      "title": "Pytorch",
+      "description": "PyTorch is an open-source deep learning framework developed by Meta. It uses dynamic computation graphs, making it flexible and intuitive for research and experimentation. PyTorch has become the preferred framework in academic research and is increasingly used in production deployments. It is the other dominant deep learning framework alongside TensorFlow.",
+      "resources": [
+        {
+          "id": "LJSqfz6aYJbCe_bK8EWI1-res-1",
+          "type": "article",
+          "title": "PyTorch",
+          "url": "https://pytorch.org/"
+        },
+        {
+          "id": "LJSqfz6aYJbCe_bK8EWI1-res-2",
+          "type": "article",
+          "title": "PyTorch Documentation",
+          "url": "https://pytorch.org/docs/stable/index.html"
+        },
+        {
+          "id": "LJSqfz6aYJbCe_bK8EWI1-res-3",
+          "type": "video",
+          "title": "PyTorch in 100 seconds",
+          "url": "https://www.youtube.com/watch?v=ORMx45xqWkA"
+        }
+      ]
+    },
+    "g_EBQizZsIe-vn8ir6FTv": {
+      "id": "g_EBQizZsIe-vn8ir6FTv",
+      "slug": "r",
+      "title": "R",
+      "description": "R is a powerful language profoundly used by data analysts and statisticians across the globe. Offering a wide array of statistical and graphical techniques, R proves to be an excellent tool for data manipulation, statistical modeling and visualization. With its comprehensive collection of packages and built-in functions for data analysis, R allows data analysts to perform complex exploratory data analysis, build sophisticated models and create stunning visualizations. Moreover, given its open-source nature, R consistently advances with contributions from the worldwide statistical community.",
+      "resources": [
+        {
+          "id": "g_EBQizZsIe-vn8ir6FTv-res-1",
+          "type": "article",
+          "title": "R Website",
+          "url": "https://www.r-project.org/about.html"
+        },
+        {
+          "id": "g_EBQizZsIe-vn8ir6FTv-res-2",
+          "type": "video",
+          "title": "R vs Python | Which is Better for Data Analysis?",
+          "url": "https://www.youtube.com/watch?v=1gdKC5O0Pwc"
+        }
+      ]
+    },
+    "tSxtyJhL5wjU0XJcjsJmm": {
+      "id": "tSxtyJhL5wjU0XJcjsJmm",
+      "slug": "range",
+      "title": "Range",
+      "description": "Range is the simplest measure of dispersion, calculated as the difference between the maximum and minimum values in a dataset. It gives a quick sense of how wide the data spans but is sensitive to outliers. For a more robust measure, interquartile range (IQR) is preferred.",
+      "resources": [
+        {
+          "id": "tSxtyJhL5wjU0XJcjsJmm-res-1",
+          "type": "article",
+          "title": "How to Find the Range of a Data Set",
+          "url": "https://www.scribbr.co.uk/stats/range-statistics/"
+        }
+      ]
+    },
+    "lTycWscyFPi-BtkNg9cdm": {
+      "id": "lTycWscyFPi-BtkNg9cdm",
+      "slug": "regression",
+      "title": "Regression",
+      "description": "Regression models the relationship between a dependent variable and one or more independent variables. Simple linear regression fits a line to describe how one variable changes with another. Multiple regression extends this to several predictors. Regression is used for prediction, forecasting, and understanding which factors influence an outcome.",
+      "resources": [
+        {
+          "id": "lTycWscyFPi-BtkNg9cdm-res-1",
+          "type": "article",
+          "title": "Regression: Definition, Analysis, Calculation, and Example",
+          "url": "https://www.investopedia.com/terms/r/regression.asp"
+        },
+        {
+          "id": "lTycWscyFPi-BtkNg9cdm-res-2",
+          "type": "article",
+          "title": "A Refresher on Regression Analysis - Harvard",
+          "url": "https://hbr.org/2015/11/a-refresher-on-regression-analysis"
+        }
+      ]
+    },
+    "XdBwqLoYYiLJNlWPBEDUj": {
+      "id": "XdBwqLoYYiLJNlWPBEDUj",
+      "slug": "reinforcement-learning",
+      "title": "Reinforcement Learning",
+      "description": "Reinforcement learning is a type of machine learning where an agent learns to make decisions by interacting with an environment and receiving rewards or penalties. Unlike supervised learning, it does not require labeled training data. It is used in robotics, game-playing AI, and dynamic optimization problems.",
+      "resources": [
+        {
+          "id": "XdBwqLoYYiLJNlWPBEDUj-res-1",
+          "type": "article",
+          "title": "What is reinforcement learning",
+          "url": "https://aws.amazon.com/what-is/reinforcement-learning/#:~:text=Reinforcement%20learning%20(RL"
+        },
+        {
+          "id": "XdBwqLoYYiLJNlWPBEDUj-res-2",
+          "type": "article",
+          "title": "What is reinforcement learning - IBM",
+          "url": "https://www.ibm.com/topics/reinforcement-learning"
+        }
+      ]
+    },
+    "Xltm7B-8TZ1-igLjVJXoR": {
+      "id": "Xltm7B-8TZ1-igLjVJXoR",
+      "slug": "removing-duplicates",
+      "title": "Removing Duplicates",
+      "description": "Duplicate records occur when the same entity appears more than once in a dataset, often due to data entry errors or merging multiple sources. Removing duplicates ensures that counts, sums, and other aggregations are not inflated. Pandas provides `drop_duplicates()` and Excel provides a built-in remove duplicates tool for this.",
+      "resources": [
+        {
+          "id": "Xltm7B-8TZ1-igLjVJXoR-res-1",
+          "type": "article",
+          "title": "Handling Duplicate Values and Outliers in a dataset",
+          "url": "https://medium.com/@ayushmandurgapal/handling-duplicate-values-and-outliers-in-a-dataset-b00ce130818e"
+        },
+        {
+          "id": "Xltm7B-8TZ1-igLjVJXoR-res-2",
+          "type": "video",
+          "title": "How To Remove Duplicates in a Dataset and Find Unique Values",
+          "url": "https://www.youtube.com/watch?v=KBzYrvjUsps"
+        }
+      ]
+    },
+    "dke_pySrqYZZ7K3rprnIT": {
+      "id": "dke_pySrqYZZ7K3rprnIT",
+      "slug": "replace--substitute",
+      "title": "REPLACE / SUBSTITUTE",
+      "description": "`REPLACE` replaces a portion of a text string based on position and length. `SUBSTITUTE` replaces all occurrences of a specific substring with another string. Both are used for text cleaning and standardization in Excel.",
+      "resources": [
+        {
+          "id": "dke_pySrqYZZ7K3rprnIT-res-1",
+          "type": "article",
+          "title": "Replace Function",
+          "url": "https://support.microsoft.com/en-us/office/replace-function-8d799074-2425-4a8a-84bc-82472868878a"
+        },
+        {
+          "id": "dke_pySrqYZZ7K3rprnIT-res-2",
+          "type": "article",
+          "title": "Substitute Function",
+          "url": "https://support.microsoft.com/en-us/office/substitute-function-6434944e-a904-4336-a9b0-1e58df3bc332"
+        }
+      ]
+    },
+    "Gocm98_tRg5BGxKcP-7zg": {
+      "id": "Gocm98_tRg5BGxKcP-7zg",
+      "slug": "rnn",
+      "title": "RNN",
+      "description": "Recurrent Neural Networks (RNNs) are a type of neural network designed for sequential data, where the output at each step depends on previous steps. They maintain a hidden state that carries information from earlier in the sequence. RNNs and their variants (LSTM, GRU) are used for time series forecasting, text generation, and language modeling.",
+      "resources": [
+        {
+          "id": "Gocm98_tRg5BGxKcP-7zg-res-1",
+          "type": "article",
+          "title": "What is a Recurrent Neural Network (RNN)?",
+          "url": "https://www.ibm.com/topics/recurrent-neural-networks"
+        },
+        {
+          "id": "Gocm98_tRg5BGxKcP-7zg-res-2",
+          "type": "article",
+          "title": "Recurrent Neural Networks Cheat-sheet",
+          "url": "https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-recurrent-neural-networks"
+        }
+      ]
+    },
+    "A5YQv7D4qRcskdZ64XldH": {
+      "id": "A5YQv7D4qRcskdZ64XldH",
+      "slug": "scatter-plot",
+      "title": "Scatter Plot",
+      "description": "A scatter plot, a crucial aspect of data visualization, is a mathematical diagram using Cartesian coordinates to represent values from two different variables. As a data analyst, understanding and interpreting scatter plots can be instrumental in identifying correlations and trends within a dataset, drawing meaningful insights, and showcasing these findings in a clear, visual manner. In addition, scatter plots are paramount in predictive analytics as they reveal patterns which can be used to predict future occurrences.",
+      "resources": [
+        {
+          "id": "A5YQv7D4qRcskdZ64XldH-res-1",
+          "type": "article",
+          "title": "Mastering Scatter Plots",
+          "url": "https://www.atlassian.com/data/charts/what-is-a-scatter-plot"
+        },
+        {
+          "id": "A5YQv7D4qRcskdZ64XldH-res-2",
+          "type": "video",
+          "title": "Scatter Graphs: What are they and how to plot them",
+          "url": "https://www.youtube.com/watch?v=Vyg9qmBsgAc"
+        }
+      ]
+    },
+    "-cJb8gEBvdVFf7FlgG3Ud": {
+      "id": "-cJb8gEBvdVFf7FlgG3Ud",
+      "slug": "seaborn",
+      "title": "Seaborn",
+      "description": "Seaborn is a Python visualization library built on top of Matplotlib that provides a higher-level interface for statistical graphics. It simplifies the creation of complex plots like heatmaps, pair plots, and distribution comparisons. Seaborn is well suited for exploring relationships in datasets with minimal boilerplate.",
+      "resources": [
+        {
+          "id": "-cJb8gEBvdVFf7FlgG3Ud-res-1",
+          "type": "article",
+          "title": "Seaborn",
+          "url": "https://seaborn.pydata.org/"
+        },
+        {
+          "id": "-cJb8gEBvdVFf7FlgG3Ud-res-2",
+          "type": "video",
+          "title": "Seaborn Tutorial : Seaborn Full Course",
+          "url": "https://www.youtube.com/watch?v=6GUZXDef2U0"
+        }
+      ]
+    },
+    "VfcCRRqwLxkYpIX0ZKNNX": {
+      "id": "VfcCRRqwLxkYpIX0ZKNNX",
+      "slug": "skewness",
+      "title": "Skewness",
+      "description": "Skewness is a crucial statistical concept driven by data analysis and is a significant parameter in understanding the distribution shape of a dataset. In essence, skewness provides a measure to define the extent and direction of asymmetry in data. A positive skewness indicates a distribution with an asymmetric tail extending towards more positive values, while a negative skew indicates a distribution with an asymmetric tail extending towards more negative values. For a data analyst, recognizing and analyzing skewness is essential as it can greatly influence model selection, prediction accuracy, and interpretation of results.",
+      "resources": [
+        {
+          "id": "VfcCRRqwLxkYpIX0ZKNNX-res-1",
+          "type": "article",
+          "title": "Skewed Data",
+          "url": "https://www.mathsisfun.com/data/skewness.html"
+        }
+      ]
+    },
+    "vaiigToDh4522rtWamuSM": {
+      "id": "vaiigToDh4522rtWamuSM",
+      "slug": "spark",
+      "title": "Spark",
+      "description": "Apache Spark is a distributed data processing engine for large-scale batch and streaming workloads. It processes data in memory across a cluster, making it significantly faster than MapReduce for iterative computations. Spark supports Python (PySpark), Scala, SQL, and provides libraries for machine learning (MLlib) and graph processing.",
+      "resources": [
+        {
+          "id": "vaiigToDh4522rtWamuSM-res-1",
+          "type": "article",
+          "title": "Apache Spark",
+          "url": "https://spark.apache.org/"
+        },
+        {
+          "id": "vaiigToDh4522rtWamuSM-res-2",
+          "type": "article",
+          "title": "apache/spark",
+          "url": "https://github.com/apache/spark"
+        }
+      ]
+    },
+    "329BrtmXjXNLfi1SFfdeo": {
+      "id": "329BrtmXjXNLfi1SFfdeo",
+      "slug": "stacked-charts",
+      "title": "Stacked Chart",
+      "description": "A stacked chart is an essential tool for a data analyst in the field of data visualization. This type of chart presents quantitative data in a visually appealing manner and allows users to easily compare different categories while still being able to compare the total sizes. These charts are highly effective when trying to measure part-to-whole relationships, displaying accumulated totals over time or when presenting data with multiple variables. Data analysts often use stacked charts to detect patterns, trends and anomalies which can aid in strategic decision making.",
+      "resources": [
+        {
+          "id": "329BrtmXjXNLfi1SFfdeo-res-1",
+          "type": "article",
+          "title": "What is a Stacked Chart?",
+          "url": "https://www.spotfire.com/glossary/what-is-a-stacked-chart"
+        },
+        {
+          "id": "329BrtmXjXNLfi1SFfdeo-res-2",
+          "type": "article",
+          "title": "A Complete Guide to Stacked Bar Charts",
+          "url": "https://www.atlassian.com/data/charts/stacked-bar-chart-complete-guide"
+        }
+      ]
+    },
+    "MXIP8ekH4YtczODKM_G_l": {
+      "id": "MXIP8ekH4YtczODKM_G_l",
+      "slug": "standard-deviation",
+      "title": "Standard Deviation",
+      "description": "Standard deviation is the square root of variance and expresses dispersion in the same units as the original data. It is the most commonly used measure of spread. A low standard deviation means values are clustered near the mean; a high one means they are more spread out.",
+      "resources": [
+        {
+          "id": "MXIP8ekH4YtczODKM_G_l-res-1",
+          "type": "article",
+          "title": "Standard Deviation Formula and Uses vs. Variance",
+          "url": "https://www.investopedia.com/terms/s/standarddeviation.asp"
+        },
+        {
+          "id": "MXIP8ekH4YtczODKM_G_l-res-2",
+          "type": "video",
+          "title": "Standard Deviation",
+          "url": "https://www.youtube.com/watch?v=esskJJF8pCc"
+        }
+      ]
+    },
+    "2pUq-7hu5EjGpowz98YoV": {
+      "id": "2pUq-7hu5EjGpowz98YoV",
+      "slug": "statistical-analysis",
+      "title": "Statistical Analysis",
+      "description": "Statistical analysis applies mathematical techniques to summarize, interpret, and draw inferences from data. Core methods include descriptive statistics, hypothesis testing, correlation analysis, and regression. Statistical rigor ensures that conclusions drawn from data are valid and not the result of chance.",
+      "resources": [
+        {
+          "id": "2pUq-7hu5EjGpowz98YoV-res-1",
+          "type": "article",
+          "title": "Understanding Statistical Analysis",
+          "url": "https://www.simplilearn.com/what-is-statistical-analysis-article"
+        },
+        {
+          "id": "2pUq-7hu5EjGpowz98YoV-res-2",
+          "type": "video",
+          "title": "Statistical Analysis",
+          "url": "https://www.youtube.com/watch?v=XjMBZE1DuBY"
+        }
+      ]
+    },
+    "TeewVruErSsD4VLXcaDxp": {
+      "id": "TeewVruErSsD4VLXcaDxp",
+      "slug": "statistical-analysis",
+      "title": "Statistical Analysis",
+      "description": "Statistical analysis applies formal mathematical methods to data to test hypotheses, measure relationships, and draw inferences. Core techniques include hypothesis testing, correlation analysis, and regression modeling. Statistical rigor ensures that findings are not the result of random variation.",
+      "resources": [
+        {
+          "id": "TeewVruErSsD4VLXcaDxp-res-1",
+          "type": "article",
+          "title": "Understanding Statistical Analysis",
+          "url": "https://www.simplilearn.com/what-is-statistical-analysis-article"
+        },
+        {
+          "id": "TeewVruErSsD4VLXcaDxp-res-2",
+          "type": "video",
+          "title": "Statistical Analysis",
+          "url": "https://www.youtube.com/watch?v=XjMBZE1DuBY"
+        }
+      ]
+    },
+    "_FO80Cm2iAD_bThmnsEgp": {
+      "id": "_FO80Cm2iAD_bThmnsEgp",
+      "slug": "sum",
+      "title": "Sum",
+      "description": "Sum is one of the most fundamental operations in data analysis. As a data analyst, the ability to quickly and accurately summarize numerical data is key to draw meaningful insights from large data sets. The operation can be performed using various software and programming languages such as Excel, SQL, Python, R etc., each providing distinct methods to compute sums. Understanding the 'sum' operation is critical for tasks such as trend analysis, forecasting, budgeting, and essentially any operation involving quantitative data.",
+      "resources": [
+        {
+          "id": "_FO80Cm2iAD_bThmnsEgp-res-1",
+          "type": "article",
+          "title": "SUM Function",
+          "url": "https://support.microsoft.com/en-gb/office/sum-function-043e1c7d-7726-4e80-8f32-07b23e057f89"
+        },
+        {
+          "id": "_FO80Cm2iAD_bThmnsEgp-res-2",
+          "type": "video",
+          "title": "How to use the SUM function in excel",
+          "url": "https://www.youtube.com/watch?v=-u-9f3QrdAQ"
+        }
+      ]
+    },
+    "FIYCkGXofKMsXmsqHSMh9": {
+      "id": "FIYCkGXofKMsXmsqHSMh9",
+      "slug": "supervised-learning",
+      "title": "Supervised Learning",
+      "description": "Supervised learning trains models on labeled data, where each example has an input and a known output. The model learns a mapping from inputs to outputs that generalizes to new examples. Classification and regression are the two main tasks in supervised learning.",
+      "resources": [
+        {
+          "id": "FIYCkGXofKMsXmsqHSMh9-res-1",
+          "type": "article",
+          "title": "What is Supervised Learning?",
+          "url": "https://cloud.google.com/discover/what-is-supervised-learning"
+        }
+      ]
+    },
+    "Sz2Y8HLbSmDjSKAJztDql": {
+      "id": "Sz2Y8HLbSmDjSKAJztDql",
+      "slug": "tableau",
+      "title": "Tableau",
+      "description": "Tableau is a leading business intelligence and data visualization platform. It allows analysts to connect to data sources and build interactive dashboards and visualizations with a drag-and-drop interface. Tableau is widely used in business settings for self-service analytics and sharing insights with non-technical stakeholders.",
+      "resources": [
+        {
+          "id": "Sz2Y8HLbSmDjSKAJztDql-res-1",
+          "type": "article",
+          "title": "Tableau",
+          "url": "https://www.tableau.com/en-gb"
+        },
+        {
+          "id": "Sz2Y8HLbSmDjSKAJztDql-res-2",
+          "type": "video",
+          "title": "What is Tableau?",
+          "url": "https://www.youtube.com/watch?v=NLCzpPRCc7U"
+        }
+      ]
+    },
+    "FJ4Sx477FWxyDsQr0R8rl": {
+      "id": "FJ4Sx477FWxyDsQr0R8rl",
+      "slug": "tensorflow",
+      "title": "Tensor Flow",
+      "description": "TensorFlow, developed by Google Brain Team, has become a crucial tool in the realm of data analytics, particularly within the field of deep learning. It's an open-source platform for machine learning, offering a comprehensive and flexible ecosystem of tools, libraries, and community resources. As a data analyst, understanding and implementing TensorFlow for deep learning models allows us to identify complex patterns and make insightful predictions which standard analysis could miss. It's an in-demand skill that enhances our ability to generate accurate insights from colossal and complicated structured or unstructured data sets.",
+      "resources": [
+        {
+          "id": "FJ4Sx477FWxyDsQr0R8rl-res-1",
+          "type": "article",
+          "title": "Tensorflow",
+          "url": "https://www.tensorflow.org/"
+        },
+        {
+          "id": "FJ4Sx477FWxyDsQr0R8rl-res-2",
+          "type": "article",
+          "title": "Tensorflow Documentation",
+          "url": "https://www.tensorflow.org/learn"
+        },
+        {
+          "id": "FJ4Sx477FWxyDsQr0R8rl-res-3",
+          "type": "video",
+          "title": "Tensorflow in 100 seconds",
+          "url": "https://www.youtube.com/watch?v=i8NETqtGHms"
+        }
+      ]
+    },
+    "D5Q6o6ydr1j51kB0ASFPE": {
+      "id": "D5Q6o6ydr1j51kB0ASFPE",
+      "slug": "trim",
+      "title": "Trim",
+      "description": "Trim is considered a basic yet vital function within the scope of data analysis. It plays an integral role in preparing and cleansing the dataset, which is key to analytical accuracy. Trim allows data analysts to streamline dataset by removing extra spaces, enhancing the data quality. Furthermore, Trim functions can help in reducing the errors, enhancing the efficiency of data modelling and ensuring reliable data insight generation. Understanding Trim function is thus an essential part of a data analyst's toolbox.",
+      "resources": [
+        {
+          "id": "D5Q6o6ydr1j51kB0ASFPE-res-1",
+          "type": "article",
+          "title": "TRIM Function",
+          "url": "https://corporatefinanceinstitute.com/resources/excel/trim-function/"
+        },
+        {
+          "id": "D5Q6o6ydr1j51kB0ASFPE-res-2",
+          "type": "article",
+          "title": "Excel TRIM Function",
+          "url": "https://support.microsoft.com/en-gb/office/trim-function-410388fa-c5df-49c6-b16c-9e5630b479f9"
+        }
+      ]
+    },
+    "Lsapbmg-eMIYJAHpV97nO": {
+      "id": "Lsapbmg-eMIYJAHpV97nO",
+      "slug": "types-of-data-analytics",
+      "title": "Types of Data Analytics",
+      "description": "Data analytics is divided into four types based on the questions they answer: descriptive, diagnostic, predictive, and prescriptive. Each type builds on the previous, moving from understanding what happened to recommending what to do. Knowing which type of analysis a problem requires shapes the tools and techniques used.",
+      "resources": [
+        {
+          "id": "Lsapbmg-eMIYJAHpV97nO-res-1",
+          "type": "article",
+          "title": "The 4 Types of Data Analysis: Ultimate Guide",
+          "url": "https://careerfoundry.com/en/blog/data-analytics/different-types-of-data-analysis/"
+        },
+        {
+          "id": "Lsapbmg-eMIYJAHpV97nO-res-2",
+          "type": "video",
+          "title": "Descriptive vs Diagnostic vs Predictive vs Prescriptive Analytics: What's the Difference?",
+          "url": "https://www.youtube.com/watch?v=QoEpC7jUb9k"
+        },
+        {
+          "id": "Lsapbmg-eMIYJAHpV97nO-res-3",
+          "type": "video",
+          "title": "Types of Data Analytics",
+          "url": "https://www.youtube.com/watch?v=lsZnSgxMwBA"
+        }
+      ]
+    },
+    "FntL9E2yVAYwIrlANDNKE": {
+      "id": "FntL9E2yVAYwIrlANDNKE",
+      "slug": "unsupervised-learning",
+      "title": "Unsupervised Learning",
+      "description": "Unsupervised learning finds patterns in data without labeled training examples. Common techniques include clustering (grouping similar data points together) and dimensionality reduction (compressing data while preserving structure). K-Means and PCA are widely used unsupervised methods in data analysis.",
+      "resources": [
+        {
+          "id": "FntL9E2yVAYwIrlANDNKE-res-1",
+          "type": "article",
+          "title": "What is Unsupervised Learning?",
+          "url": "https://cloud.google.com/discover/what-is-unsupervised-learning"
+        }
+      ]
+    },
+    "YReKRRgE_2dWfGGdBQqbf": {
+      "id": "YReKRRgE_2dWfGGdBQqbf",
+      "slug": "upper--lower--proper",
+      "title": "UPPER / LOWER / PROPER",
+      "description": "`UPPER` converts text to all uppercase, `LOWER` to all lowercase, and `PROPER` capitalizes the first letter of each word. These functions are used to standardize text formatting in datasets, especially when combining data from multiple sources with inconsistent casing.",
+      "resources": [
+        {
+          "id": "YReKRRgE_2dWfGGdBQqbf-res-1",
+          "type": "article",
+          "title": "UPPER Function",
+          "url": "https://support.microsoft.com/en-gb/office/upper-function-c11f29b3-d1a3-4537-8df6-04d0049963d6"
+        },
+        {
+          "id": "YReKRRgE_2dWfGGdBQqbf-res-2",
+          "type": "article",
+          "title": "LOWER Function",
+          "url": "https://support.microsoft.com/en-gb/office/lower-function-3f21df02-a80c-44b2-afaf-81358f9fdeb4"
+        },
+        {
+          "id": "YReKRRgE_2dWfGGdBQqbf-res-3",
+          "type": "article",
+          "title": "PROPER Function",
+          "url": "https://support.microsoft.com/en-gb/office/proper-function-52a5a283-e8b2-49be-8506-b2887b889f94"
+        }
+      ]
+    },
+    "ict4JkoVM-AzPbp9bDztg": {
+      "id": "ict4JkoVM-AzPbp9bDztg",
+      "slug": "variance",
+      "title": "Variance",
+      "description": "Variance measures the average squared deviation of each value from the mean. It quantifies how much the data points differ from the average. A higher variance indicates greater spread. Variance is the basis for standard deviation and many inferential statistical tests.",
+      "resources": [
+        {
+          "id": "ict4JkoVM-AzPbp9bDztg-res-1",
+          "type": "article",
+          "title": "What is Variance?",
+          "url": "https://www.investopedia.com/terms/v/variance.asp"
+        },
+        {
+          "id": "ict4JkoVM-AzPbp9bDztg-res-2",
+          "type": "article",
+          "title": "How to Calculate Variance",
+          "url": "https://www.scribbr.co.uk/stats/variance-meaning/"
+        }
+      ]
+    },
+    "jowh4CFLQiFzKaaElyCuQ": {
+      "id": "jowh4CFLQiFzKaaElyCuQ",
+      "slug": "visualisation",
+      "title": "Visualisation",
+      "description": "Data visualisation is the representation of data in graphical or visual form. Charts, graphs, and dashboards make patterns and relationships in data easier to perceive and communicate than tables of numbers alone. Effective visualisation is both analytical (for exploring data) and communicative (for presenting findings to others).",
+      "resources": [
+        {
+          "id": "jowh4CFLQiFzKaaElyCuQ-res-1",
+          "type": "article",
+          "title": "Data Visualization Beginner's Guide",
+          "url": "https://www.tableau.com/en-gb/learn/articles/data-visualization"
+        },
+        {
+          "id": "jowh4CFLQiFzKaaElyCuQ-res-2",
+          "type": "video",
+          "title": "Top 11 Data Science Skills to Master in 2026",
+          "url": "https://roadmap.sh/ai-data-scientist/skills"
+        }
+      ]
+    },
+    "mCUW07rx74_dUNi7OGVlj": {
+      "id": "mCUW07rx74_dUNi7OGVlj",
+      "slug": "visualizing-distributions",
+      "title": "Visualizing Distributions",
+      "description": "Visualizing distributions helps analysts understand the shape, spread, and outliers of a variable more intuitively than summary statistics alone. Common visualizations include histograms, density plots, box plots, and violin plots. These charts reveal whether data is normally distributed, skewed, or multi-modal.",
+      "resources": [
+        {
+          "id": "mCUW07rx74_dUNi7OGVlj-res-1",
+          "type": "video",
+          "title": "Visualising Distributions in Power BI",
+          "url": "https://www.youtube.com/watch?v=rOemr3sz2vw"
+        }
+      ]
+    },
+    "9sIP-jpNjtA1JPCBjTf-H": {
+      "id": "9sIP-jpNjtA1JPCBjTf-H",
+      "slug": "vlookup--hlookup",
+      "title": "VLOOKUP / HLOOKUP",
+      "description": "`VLOOKUP` searches for a value in the first column of a table and returns a value from a specified column in the same row. `HLOOKUP` does the same horizontally, searching across the first row. Both are used to merge data from different tables, though they have been largely replaced by `XLOOKUP` in modern Excel.",
+      "resources": [
+        {
+          "id": "9sIP-jpNjtA1JPCBjTf-H-res-1",
+          "type": "article",
+          "title": "VLOOKUP Function",
+          "url": "https://support.microsoft.com/en-gb/office/vlookup-function-0bbc8083-26fe-4963-8ab8-93a18ad188a1"
+        },
+        {
+          "id": "9sIP-jpNjtA1JPCBjTf-H-res-2",
+          "type": "article",
+          "title": "HLOOKUP Function",
+          "url": "https://support.microsoft.com/en-gb/office/hlookup-function-a3034eec-b719-4ba3-bb65-e1ad662ed95f"
+        }
+      ]
+    },
+    "qQ64ZhSlbbWu9pP8KTE67": {
+      "id": "qQ64ZhSlbbWu9pP8KTE67",
+      "slug": "web-scraping",
+      "title": "Web Scraping",
+      "description": "Web scraping plays a significant role in collecting unique datasets for data analysis. In the realm of a data analyst's tasks, web scraping refers to the method of extracting information from websites and converting it into a structured usable format like a CSV, Excel spreadsheet, or even into databases. This technique allows data analysts to gather large sets of data from the internet, which otherwise could be time-consuming if done manually. The capability of web scraping and parsing data effectively can give data analysts a competitive edge in their data analysis process, from unlocking in-depth, insightful information to making data-driven decisions.",
+      "resources": [
+        {
+          "id": "qQ64ZhSlbbWu9pP8KTE67-res-1",
+          "type": "article",
+          "title": "What is Web Scraping & What is it used for?",
+          "url": "https://www.parsehub.com/blog/what-is-web-scraping/"
+        },
+        {
+          "id": "qQ64ZhSlbbWu9pP8KTE67-res-2",
+          "type": "video",
+          "title": "What is Web Scraping?",
+          "url": "https://www.youtube.com/watch?v=dlj_QL-ENJM"
+        }
+      ]
+    },
+    "yCnn-NfSxIybUQ2iTuUGq": {
+      "id": "yCnn-NfSxIybUQ2iTuUGq",
+      "slug": "what-is-data-analytics",
+      "title": "What is Data Analytics",
+      "description": "Data analytics is the process of collecting, cleaning, transforming, and analyzing data to discover useful information, identify patterns, and support decisions. It spans a wide range of activities from basic reporting to predictive modeling. The goal is to turn raw data into actionable insights.",
+      "resources": [
+        {
+          "id": "yCnn-NfSxIybUQ2iTuUGq-res-1",
+          "type": "course",
+          "title": "Introduction to Data Analytics",
+          "url": "https://www.coursera.org/learn/introduction-to-data-analytics"
+        },
+        {
+          "id": "yCnn-NfSxIybUQ2iTuUGq-res-2",
+          "type": "article",
+          "title": "What Does a Data Analyst Do?",
+          "url": "https://roadmap.sh/data-analyst/what-does-a-data-analyst-do"
+        },
+        {
+          "id": "yCnn-NfSxIybUQ2iTuUGq-res-3",
+          "type": "article",
+          "title": "Data Science Lifecycle 101: A Beginners' Ultimate Guide",
+          "url": "https://roadmap.sh/ai-data-scientist/lifecycle"
+        },
+        {
+          "id": "yCnn-NfSxIybUQ2iTuUGq-res-4",
+          "type": "article",
+          "title": "Data Analyst vs. Business Analyst Roles: How to Choose",
+          "url": "https://roadmap.sh/data-analyst/vs-business-analyst"
+        }
+      ]
+    }
+  }
+}

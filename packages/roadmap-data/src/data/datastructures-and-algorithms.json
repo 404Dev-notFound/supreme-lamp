@@ -1,0 +1,3261 @@
+{
+  "slug": "datastructures-and-algorithms",
+  "title": "Datastructures And Algorithms",
+  "description": "Comprehensive learning curriculum and mastery roadmap for datastructures-and-algorithms.",
+  "category": "skill",
+  "level": "Intermediate",
+  "topicCount": 107,
+  "iconName": "Compass",
+  "nodes": [
+    {
+      "id": "node-o0fNAhJ1LsCdmGzY2ni_x",
+      "label": "Complex Data Structures",
+      "topicId": "o0fNAhJ1LsCdmGzY2ni_x",
+      "level": 1,
+      "position": {
+        "x": 80,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-AabJqPUwFVBVS02YPDPvL",
+      "label": "A* Algorithm",
+      "topicId": "AabJqPUwFVBVS02YPDPvL",
+      "level": 1,
+      "position": {
+        "x": 340,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-KnyUHDvpDTUO0EkAs9pT8",
+      "label": "Advanced Data Structures",
+      "topicId": "KnyUHDvpDTUO0EkAs9pT8",
+      "level": 1,
+      "position": {
+        "x": 600,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-VotdHk0_bI3CeoIf-KoKu",
+      "label": "Algorithmic Complexity",
+      "topicId": "VotdHk0_bI3CeoIf-KoKu",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-lxY3ErxJ_D3zkSAXIBUpv",
+      "label": "Array",
+      "topicId": "lxY3ErxJ_D3zkSAXIBUpv",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-v0LrabYYOKzV4oCXOK2Rs",
+      "label": "Asymptotic Notation",
+      "topicId": "v0LrabYYOKzV4oCXOK2Rs",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-5MCgKpylPzDZaGBEUU51r",
+      "label": "AVL Trees",
+      "topicId": "5MCgKpylPzDZaGBEUU51r",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-2F6BcbAzICynOK3oEj-Is",
+      "label": "B-Trees",
+      "topicId": "2F6BcbAzICynOK3oEj-Is",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-mKoC5o__gLSTjAlq8iXkV",
+      "label": "Backtracking",
+      "topicId": "mKoC5o__gLSTjAlq8iXkV",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-iTlpa9A7h33FkUAv0UaVZ",
+      "label": "Basic Data Structures",
+      "topicId": "iTlpa9A7h33FkUAv0UaVZ",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-2G6vn7K11_mPQQ7_IXJ96",
+      "label": "B/B+ Trees",
+      "topicId": "2G6vn7K11_mPQQ7_IXJ96",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-7CgGwdwHnOmISmEPtJegN",
+      "label": "Bellman-Ford",
+      "topicId": "7CgGwdwHnOmISmEPtJegN",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-CkUi93TvTkEm2_isHNvqr",
+      "label": "Big-Ω Notation",
+      "topicId": "CkUi93TvTkEm2_isHNvqr",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-Ex6tzu6gwrarWm1CNFufO",
+      "label": "Big-θ Notation",
+      "topicId": "Ex6tzu6gwrarWm1CNFufO",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-oylTfop_JDPHJ3jYuA2Nq",
+      "label": "Big O Notation",
+      "topicId": "oylTfop_JDPHJ3jYuA2Nq",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-UYm7unZfXd9Ge5EYV4odb",
+      "label": "Binary Search Trees",
+      "topicId": "UYm7unZfXd9Ge5EYV4odb",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-Wt74MRKaZcs8lYvfqjffT",
+      "label": "Binary Search",
+      "topicId": "Wt74MRKaZcs8lYvfqjffT",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-RPU5CGp2Li5lk0UB-zNHT",
+      "label": "Binary Trees",
+      "topicId": "RPU5CGp2Li5lk0UB-zNHT",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-c7LdXJPv-5M-NPKSCXYuB",
+      "label": "Breadth First Search",
+      "topicId": "c7LdXJPv-5M-NPKSCXYuB",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-pfg-qclOpvlsGMdlZ1aoj",
+      "label": "Breadth First Search",
+      "topicId": "pfg-qclOpvlsGMdlZ1aoj",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-5T2y6Iqi-I_zOtLkeSPzY",
+      "label": "Brute Force",
+      "topicId": "5T2y6Iqi-I_zOtLkeSPzY",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-zUDKCJCQHLW4c_6A349R3",
+      "label": "Bubble Sort",
+      "topicId": "zUDKCJCQHLW4c_6A349R3",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-BZvNEZjCNuHPg5SkX90bt",
+      "label": "C#",
+      "topicId": "BZvNEZjCNuHPg5SkX90bt",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-IWmq4UFB5j6O3UJfarh1u",
+      "label": "C++",
+      "topicId": "IWmq4UFB5j6O3UJfarh1u",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-nqnO1Wz3gYIMR98_BnF2V",
+      "label": "Algorithmic Complexity",
+      "topicId": "nqnO1Wz3gYIMR98_BnF2V",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-kSpgFuAHyzySWlGBLOHZR",
+      "label": "Complex Data Structures",
+      "topicId": "kSpgFuAHyzySWlGBLOHZR",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-_bpV8MkVOY8ZatTXYaEE4",
+      "label": "Constant",
+      "topicId": "_bpV8MkVOY8ZatTXYaEE4",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-G74Xp8_EMZO2oEzNTRAli",
+      "label": "Control Structures",
+      "topicId": "G74Xp8_EMZO2oEzNTRAli",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-L1FIJAluyxG6CGaVLM20O",
+      "label": "Cyclic Sort",
+      "topicId": "L1FIJAluyxG6CGaVLM20O",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-gR8KcOIADUxS8hdiEaGZy",
+      "label": "Depth First Search",
+      "topicId": "gR8KcOIADUxS8hdiEaGZy",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-NrPO7vF8Z1WzmA9Ca3Y_E",
+      "label": "Depth First Search",
+      "topicId": "NrPO7vF8Z1WzmA9Ca3Y_E",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-87UugvReiywF0E7Acos9U",
+      "label": "Dijkstra's Algorithm",
+      "topicId": "87UugvReiywF0E7Acos9U",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-XVw2_dL3uN0SOWmjH1Uao",
+      "label": "Directed Graph",
+      "topicId": "XVw2_dL3uN0SOWmjH1Uao",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-La8XAT0BWvqRCrvQxtZIp",
+      "label": "Disjoint Set (Union-Find)",
+      "topicId": "La8XAT0BWvqRCrvQxtZIp",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-xchWhsizaKgYuHPC4Tz9H",
+      "label": "Divide and Conquer",
+      "topicId": "xchWhsizaKgYuHPC4Tz9H",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-jKAZNybU9cxufNBdFsqsP",
+      "label": "Dynamic Programming",
+      "topicId": "jKAZNybU9cxufNBdFsqsP",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-8-7phxPp1D1mv2yubpLBo",
+      "label": "Edabit",
+      "topicId": "8-7phxPp1D1mv2yubpLBo",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-xqzaYJBvlsNtT6qZ59ktv",
+      "label": "Exponential",
+      "topicId": "xqzaYJBvlsNtT6qZ59ktv",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-wclY3cmt1fBNYjLsmijdW",
+      "label": "Factorial",
+      "topicId": "wclY3cmt1fBNYjLsmijdW",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-J_No8GTa92DcwPtua30wL",
+      "label": "Fast and Slow Pointers",
+      "topicId": "J_No8GTa92DcwPtua30wL",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-V9SWO58kaMsU1NT7q26WG",
+      "label": "Fenwick Trees",
+      "topicId": "V9SWO58kaMsU1NT7q26WG",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-Cu08m5JOfvrPUDGony144",
+      "label": "Functions",
+      "topicId": "Cu08m5JOfvrPUDGony144",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-OkdM_PJge70j5tsjT2Esl",
+      "label": "Go",
+      "topicId": "OkdM_PJge70j5tsjT2Esl",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-j_r1tB16bA7R3yDAWN7Oj",
+      "label": "Graph Data Structure",
+      "topicId": "j_r1tB16bA7R3yDAWN7Oj",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-qUlqyTjk3XKF9DEm6Lsgb",
+      "label": "Greedy Algorithms",
+      "topicId": "qUlqyTjk3XKF9DEm6Lsgb",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-kSy-8ubESdmIX4Fyl8TSu",
+      "label": "Hash Tables",
+      "topicId": "kSy-8ubESdmIX4Fyl8TSu",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-yMv9Oa3hsgT8Adx6m_rdL",
+      "label": "Heap Sort",
+      "topicId": "yMv9Oa3hsgT8Adx6m_rdL",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-R3Coq0TG1_cSOXzXWgpuI",
+      "label": "Heap",
+      "topicId": "R3Coq0TG1_cSOXzXWgpuI",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-HosRc0hczubBHrWxCzEJj",
+      "label": "How to Calculate Complexity?",
+      "topicId": "HosRc0hczubBHrWxCzEJj",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-iCA7UKZih4ItDmDNEC8Q-",
+      "label": "In-Order Traversal",
+      "topicId": "iCA7UKZih4ItDmDNEC8Q-",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-Ar7GEGfI9O_dLPbIEVhF_",
+      "label": "Indexing",
+      "topicId": "Ar7GEGfI9O_dLPbIEVhF_",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-liJfTV5ajAFZcfwBdVGpU",
+      "label": "Insertion Sort",
+      "topicId": "liJfTV5ajAFZcfwBdVGpU",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-uxErZ4gLeKqwhrUG88InQ",
+      "label": "ISAM",
+      "topicId": "uxErZ4gLeKqwhrUG88InQ",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-q9qLI6HzOJ0vYaIVrZ5CU",
+      "label": "Island traversal",
+      "topicId": "q9qLI6HzOJ0vYaIVrZ5CU",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-gjZZOwmYkXQHPfg9Ynz80",
+      "label": "Java",
+      "topicId": "gjZZOwmYkXQHPfg9Ynz80",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-HVD9G3JlLBsAg111vQILj",
+      "label": "JavaScript",
+      "topicId": "HVD9G3JlLBsAg111vQILj",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-F3bPbwIdCNMzL7QXEYJK3",
+      "label": "Kruskal's Algorithm",
+      "topicId": "F3bPbwIdCNMzL7QXEYJK3",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-JcchUF_U99zkFpXp3VT2R",
+      "label": "Kth Element",
+      "topicId": "JcchUF_U99zkFpXp3VT2R",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-kE6qddRhO8C5ur3JbeuhF",
+      "label": "Language Syntax",
+      "topicId": "kE6qddRhO8C5ur3JbeuhF",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-waM_j5mbe_XoA7h8u4vFN",
+      "label": "Leetcode",
+      "topicId": "waM_j5mbe_XoA7h8u4vFN",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-AtX-PeI8nY4-5bA-xLla0",
+      "label": "Linear Search",
+      "topicId": "AtX-PeI8nY4-5bA-xLla0",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-4noav5w_8GrMTXN1Lxm5h",
+      "label": "Linear Indexing",
+      "topicId": "4noav5w_8GrMTXN1Lxm5h",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-HOpL-4jYhOe0LNrrkPrET",
+      "label": "Linear",
+      "topicId": "HOpL-4jYhOe0LNrrkPrET",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-bRu9u8pEAQ1TmKygjIjyI",
+      "label": "Linked Lists",
+      "topicId": "bRu9u8pEAQ1TmKygjIjyI",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-Cnceet0yroFHzn8npAir8",
+      "label": "Logarithmic",
+      "topicId": "Cnceet0yroFHzn8npAir8",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-S2mBvlFTd673XcXxisD5P",
+      "label": "Merge Intervals",
+      "topicId": "S2mBvlFTd673XcXxisD5P",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-k0UBAj3hOYab4mUziOYyW",
+      "label": "Merge Sort",
+      "topicId": "k0UBAj3hOYab4mUziOYyW",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-Ktqau1VkVrnnVYByqcacM",
+      "label": "Graph Data Structure",
+      "topicId": "Ktqau1VkVrnnVYByqcacM",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-gaaRAL3HR48Qj9rz1CkDU",
+      "label": "Multi-threaded",
+      "topicId": "gaaRAL3HR48Qj9rz1CkDU",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-QFR1FMOf2OV3n3jcDnOCP",
+      "label": "OOP Basics",
+      "topicId": "QFR1FMOf2OV3n3jcDnOCP",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-Z4uVzAoNzcAkyjd-lp3_M",
+      "label": "Pick a Language",
+      "topicId": "Z4uVzAoNzcAkyjd-lp3_M",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-VMV4F-SPKWn9CtpHXEjeN",
+      "label": "Platforms for Practice",
+      "topicId": "VMV4F-SPKWn9CtpHXEjeN",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-QKhmM_IG1FkBudfdrf1aT",
+      "label": "Polynomial",
+      "topicId": "QKhmM_IG1FkBudfdrf1aT",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-j6_DyKiyG1wBuygQkxWB7",
+      "label": "Post-Order Traversal",
+      "topicId": "j6_DyKiyG1wBuygQkxWB7",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-BMEoO65zsX51H4Js1gcWI",
+      "label": "Pre-Order Traversal",
+      "topicId": "BMEoO65zsX51H4Js1gcWI",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-yEWnYjW0ZLVhsLc9rH4ae",
+      "label": "Prim's Algorithm",
+      "topicId": "yEWnYjW0ZLVhsLc9rH4ae",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-Y1Uz6XRbR1YqFtO4akiPA",
+      "label": "Problem Solving Techniques",
+      "topicId": "Y1Uz6XRbR1YqFtO4akiPA",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-ebQdTOAOV54WBToHmFtBk",
+      "label": "Programming Fundamentals",
+      "topicId": "ebQdTOAOV54WBToHmFtBk",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-tvy3Vic8Vp-Ie2x_OyZ5b",
+      "label": "Pseudo Code",
+      "topicId": "tvy3Vic8Vp-Ie2x_OyZ5b",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-XyRCXhZjQFcDNaUSNNQV-",
+      "label": "Python",
+      "topicId": "XyRCXhZjQFcDNaUSNNQV-",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-v0phjC75jhmE1z-f9ZMck",
+      "label": "Queues",
+      "topicId": "v0phjC75jhmE1z-f9ZMck",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-LgEV0Wm4avrOqR8bV5GXW",
+      "label": "Quick Sort",
+      "topicId": "LgEV0Wm4avrOqR8bV5GXW",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-RiS8KZs3YBE6mKWPHszMp",
+      "label": "Randomised Algorithms",
+      "topicId": "RiS8KZs3YBE6mKWPHszMp",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-4ZAzcwP0oPGZ9Rw042V8-",
+      "label": "Recursion",
+      "topicId": "4ZAzcwP0oPGZ9Rw042V8-",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-9h1mz0xAUvPrnRm9VndJF",
+      "label": "Ruby",
+      "topicId": "9h1mz0xAUvPrnRm9VndJF",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-acgRMEuL4ZGGRHpZ7kXSo",
+      "label": "Rust",
+      "topicId": "acgRMEuL4ZGGRHpZ7kXSo",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-LW5HZMca4lvhbbA8KYaOa",
+      "label": "Graph Data Structure",
+      "topicId": "LW5HZMca4lvhbbA8KYaOa",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-YJsAQWJpLwVN6oCxNwNAn",
+      "label": "Tree Data Structures",
+      "topicId": "YJsAQWJpLwVN6oCxNwNAn",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-z_Cf_alLAYSCyYtNviRcO",
+      "label": "Search Algorithms",
+      "topicId": "z_Cf_alLAYSCyYtNviRcO",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-iFNS3x9wVRIjpixct6H7x",
+      "label": "Segment Trees",
+      "topicId": "iFNS3x9wVRIjpixct6H7x",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-SMgBHvqXLD6Cgr2nix4wR",
+      "label": "Selection Sort",
+      "topicId": "SMgBHvqXLD6Cgr2nix4wR",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-N-qvYirxpORcaTslvlOL0",
+      "label": "Graph Data Structure",
+      "topicId": "N-qvYirxpORcaTslvlOL0",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-TQu-OBpvR-aQfMByUcwyM",
+      "label": "Skip List",
+      "topicId": "TQu-OBpvR-aQfMByUcwyM",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-gbHVR-ojRxv9I0E5eSlWy",
+      "label": "Sliding Window Technique",
+      "topicId": "gbHVR-ojRxv9I0E5eSlWy",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5040
+      }
+    },
+    {
+      "id": "node-WzFkdkcbL8ea9DBkjfSwa",
+      "label": "Sorting Algorithms",
+      "topicId": "WzFkdkcbL8ea9DBkjfSwa",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5040
+      }
+    },
+    {
+      "id": "node-jvKRykGNy140FlquF2fcK",
+      "label": "Stacks",
+      "topicId": "jvKRykGNy140FlquF2fcK",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5040
+      }
+    },
+    {
+      "id": "node-zprVkxpojaxNo0LQar3Ex",
+      "label": "Suffix Trees and Arrays",
+      "topicId": "zprVkxpojaxNo0LQar3Ex",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5200
+      }
+    },
+    {
+      "id": "node-unaYmPzK761Eh_iZMLeRC",
+      "label": "Time vs Space Complexity",
+      "topicId": "unaYmPzK761Eh_iZMLeRC",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5200
+      }
+    },
+    {
+      "id": "node-ZXUfeyfC5oSKkGktXuK8t",
+      "label": "Tree-Based Indexing",
+      "topicId": "ZXUfeyfC5oSKkGktXuK8t",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5200
+      }
+    },
+    {
+      "id": "node-r2Jagzbx0qOG-VtxBY-mz",
+      "label": "Tree Data Structures",
+      "topicId": "r2Jagzbx0qOG-VtxBY-mz",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5360
+      }
+    },
+    {
+      "id": "node-2Od5lNc6fCM6Gyj_axj4n",
+      "label": "Tree Data Structures",
+      "topicId": "2Od5lNc6fCM6Gyj_axj4n",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5360
+      }
+    },
+    {
+      "id": "node-zy3wpb1MjizfUfx9_rZy2",
+      "label": "Trie",
+      "topicId": "zy3wpb1MjizfUfx9_rZy2",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5360
+      }
+    },
+    {
+      "id": "node-MGb8ufztTK75aXAyEAuaf",
+      "label": "Two Heaps",
+      "topicId": "MGb8ufztTK75aXAyEAuaf",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5520
+      }
+    },
+    {
+      "id": "node-itvhUXbe9dr9JN5ga2jYy",
+      "label": "Two Pointer Technique",
+      "topicId": "itvhUXbe9dr9JN5ga2jYy",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5520
+      }
+    },
+    {
+      "id": "node-VnKm_j7McUW9Lo0iKyPUp",
+      "label": "Undirected Graph",
+      "topicId": "VnKm_j7McUW9Lo0iKyPUp",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5520
+      }
+    },
+    {
+      "id": "node-jvWuYXWRtt_ePawc4q1Tg",
+      "label": "What are Data Structures?",
+      "topicId": "jvWuYXWRtt_ePawc4q1Tg",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5680
+      }
+    },
+    {
+      "id": "node-8_GkF9zhRL8tvT2qu-bGj",
+      "label": "Importance of Data Structures",
+      "topicId": "8_GkF9zhRL8tvT2qu-bGj",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5680
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-node-o0fNAhJ1LsCdmGzY2ni_x-node-AabJqPUwFVBVS02YPDPvL",
+      "source": "node-o0fNAhJ1LsCdmGzY2ni_x",
+      "target": "node-AabJqPUwFVBVS02YPDPvL",
+      "animated": true
+    },
+    {
+      "id": "edge-node-AabJqPUwFVBVS02YPDPvL-node-KnyUHDvpDTUO0EkAs9pT8",
+      "source": "node-AabJqPUwFVBVS02YPDPvL",
+      "target": "node-KnyUHDvpDTUO0EkAs9pT8",
+      "animated": true
+    },
+    {
+      "id": "edge-node-KnyUHDvpDTUO0EkAs9pT8-node-VotdHk0_bI3CeoIf-KoKu",
+      "source": "node-KnyUHDvpDTUO0EkAs9pT8",
+      "target": "node-VotdHk0_bI3CeoIf-KoKu",
+      "animated": true
+    },
+    {
+      "id": "edge-node-VotdHk0_bI3CeoIf-KoKu-node-lxY3ErxJ_D3zkSAXIBUpv",
+      "source": "node-VotdHk0_bI3CeoIf-KoKu",
+      "target": "node-lxY3ErxJ_D3zkSAXIBUpv",
+      "animated": true
+    },
+    {
+      "id": "edge-node-lxY3ErxJ_D3zkSAXIBUpv-node-v0LrabYYOKzV4oCXOK2Rs",
+      "source": "node-lxY3ErxJ_D3zkSAXIBUpv",
+      "target": "node-v0LrabYYOKzV4oCXOK2Rs",
+      "animated": true
+    },
+    {
+      "id": "edge-node-v0LrabYYOKzV4oCXOK2Rs-node-5MCgKpylPzDZaGBEUU51r",
+      "source": "node-v0LrabYYOKzV4oCXOK2Rs",
+      "target": "node-5MCgKpylPzDZaGBEUU51r",
+      "animated": true
+    },
+    {
+      "id": "edge-node-5MCgKpylPzDZaGBEUU51r-node-2F6BcbAzICynOK3oEj-Is",
+      "source": "node-5MCgKpylPzDZaGBEUU51r",
+      "target": "node-2F6BcbAzICynOK3oEj-Is",
+      "animated": true
+    },
+    {
+      "id": "edge-node-2F6BcbAzICynOK3oEj-Is-node-mKoC5o__gLSTjAlq8iXkV",
+      "source": "node-2F6BcbAzICynOK3oEj-Is",
+      "target": "node-mKoC5o__gLSTjAlq8iXkV",
+      "animated": true
+    },
+    {
+      "id": "edge-node-mKoC5o__gLSTjAlq8iXkV-node-iTlpa9A7h33FkUAv0UaVZ",
+      "source": "node-mKoC5o__gLSTjAlq8iXkV",
+      "target": "node-iTlpa9A7h33FkUAv0UaVZ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-iTlpa9A7h33FkUAv0UaVZ-node-2G6vn7K11_mPQQ7_IXJ96",
+      "source": "node-iTlpa9A7h33FkUAv0UaVZ",
+      "target": "node-2G6vn7K11_mPQQ7_IXJ96",
+      "animated": true
+    },
+    {
+      "id": "edge-node-2G6vn7K11_mPQQ7_IXJ96-node-7CgGwdwHnOmISmEPtJegN",
+      "source": "node-2G6vn7K11_mPQQ7_IXJ96",
+      "target": "node-7CgGwdwHnOmISmEPtJegN",
+      "animated": true
+    },
+    {
+      "id": "edge-node-7CgGwdwHnOmISmEPtJegN-node-CkUi93TvTkEm2_isHNvqr",
+      "source": "node-7CgGwdwHnOmISmEPtJegN",
+      "target": "node-CkUi93TvTkEm2_isHNvqr",
+      "animated": true
+    },
+    {
+      "id": "edge-node-CkUi93TvTkEm2_isHNvqr-node-Ex6tzu6gwrarWm1CNFufO",
+      "source": "node-CkUi93TvTkEm2_isHNvqr",
+      "target": "node-Ex6tzu6gwrarWm1CNFufO",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Ex6tzu6gwrarWm1CNFufO-node-oylTfop_JDPHJ3jYuA2Nq",
+      "source": "node-Ex6tzu6gwrarWm1CNFufO",
+      "target": "node-oylTfop_JDPHJ3jYuA2Nq",
+      "animated": true
+    },
+    {
+      "id": "edge-node-oylTfop_JDPHJ3jYuA2Nq-node-UYm7unZfXd9Ge5EYV4odb",
+      "source": "node-oylTfop_JDPHJ3jYuA2Nq",
+      "target": "node-UYm7unZfXd9Ge5EYV4odb",
+      "animated": true
+    },
+    {
+      "id": "edge-node-UYm7unZfXd9Ge5EYV4odb-node-Wt74MRKaZcs8lYvfqjffT",
+      "source": "node-UYm7unZfXd9Ge5EYV4odb",
+      "target": "node-Wt74MRKaZcs8lYvfqjffT",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Wt74MRKaZcs8lYvfqjffT-node-RPU5CGp2Li5lk0UB-zNHT",
+      "source": "node-Wt74MRKaZcs8lYvfqjffT",
+      "target": "node-RPU5CGp2Li5lk0UB-zNHT",
+      "animated": true
+    },
+    {
+      "id": "edge-node-RPU5CGp2Li5lk0UB-zNHT-node-c7LdXJPv-5M-NPKSCXYuB",
+      "source": "node-RPU5CGp2Li5lk0UB-zNHT",
+      "target": "node-c7LdXJPv-5M-NPKSCXYuB",
+      "animated": true
+    },
+    {
+      "id": "edge-node-c7LdXJPv-5M-NPKSCXYuB-node-pfg-qclOpvlsGMdlZ1aoj",
+      "source": "node-c7LdXJPv-5M-NPKSCXYuB",
+      "target": "node-pfg-qclOpvlsGMdlZ1aoj",
+      "animated": true
+    },
+    {
+      "id": "edge-node-pfg-qclOpvlsGMdlZ1aoj-node-5T2y6Iqi-I_zOtLkeSPzY",
+      "source": "node-pfg-qclOpvlsGMdlZ1aoj",
+      "target": "node-5T2y6Iqi-I_zOtLkeSPzY",
+      "animated": true
+    },
+    {
+      "id": "edge-node-5T2y6Iqi-I_zOtLkeSPzY-node-zUDKCJCQHLW4c_6A349R3",
+      "source": "node-5T2y6Iqi-I_zOtLkeSPzY",
+      "target": "node-zUDKCJCQHLW4c_6A349R3",
+      "animated": true
+    },
+    {
+      "id": "edge-node-zUDKCJCQHLW4c_6A349R3-node-BZvNEZjCNuHPg5SkX90bt",
+      "source": "node-zUDKCJCQHLW4c_6A349R3",
+      "target": "node-BZvNEZjCNuHPg5SkX90bt",
+      "animated": true
+    },
+    {
+      "id": "edge-node-BZvNEZjCNuHPg5SkX90bt-node-IWmq4UFB5j6O3UJfarh1u",
+      "source": "node-BZvNEZjCNuHPg5SkX90bt",
+      "target": "node-IWmq4UFB5j6O3UJfarh1u",
+      "animated": true
+    },
+    {
+      "id": "edge-node-IWmq4UFB5j6O3UJfarh1u-node-nqnO1Wz3gYIMR98_BnF2V",
+      "source": "node-IWmq4UFB5j6O3UJfarh1u",
+      "target": "node-nqnO1Wz3gYIMR98_BnF2V",
+      "animated": true
+    },
+    {
+      "id": "edge-node-nqnO1Wz3gYIMR98_BnF2V-node-kSpgFuAHyzySWlGBLOHZR",
+      "source": "node-nqnO1Wz3gYIMR98_BnF2V",
+      "target": "node-kSpgFuAHyzySWlGBLOHZR",
+      "animated": true
+    },
+    {
+      "id": "edge-node-kSpgFuAHyzySWlGBLOHZR-node-_bpV8MkVOY8ZatTXYaEE4",
+      "source": "node-kSpgFuAHyzySWlGBLOHZR",
+      "target": "node-_bpV8MkVOY8ZatTXYaEE4",
+      "animated": true
+    },
+    {
+      "id": "edge-node-_bpV8MkVOY8ZatTXYaEE4-node-G74Xp8_EMZO2oEzNTRAli",
+      "source": "node-_bpV8MkVOY8ZatTXYaEE4",
+      "target": "node-G74Xp8_EMZO2oEzNTRAli",
+      "animated": true
+    },
+    {
+      "id": "edge-node-G74Xp8_EMZO2oEzNTRAli-node-L1FIJAluyxG6CGaVLM20O",
+      "source": "node-G74Xp8_EMZO2oEzNTRAli",
+      "target": "node-L1FIJAluyxG6CGaVLM20O",
+      "animated": true
+    },
+    {
+      "id": "edge-node-L1FIJAluyxG6CGaVLM20O-node-gR8KcOIADUxS8hdiEaGZy",
+      "source": "node-L1FIJAluyxG6CGaVLM20O",
+      "target": "node-gR8KcOIADUxS8hdiEaGZy",
+      "animated": true
+    },
+    {
+      "id": "edge-node-gR8KcOIADUxS8hdiEaGZy-node-NrPO7vF8Z1WzmA9Ca3Y_E",
+      "source": "node-gR8KcOIADUxS8hdiEaGZy",
+      "target": "node-NrPO7vF8Z1WzmA9Ca3Y_E",
+      "animated": true
+    },
+    {
+      "id": "edge-node-NrPO7vF8Z1WzmA9Ca3Y_E-node-87UugvReiywF0E7Acos9U",
+      "source": "node-NrPO7vF8Z1WzmA9Ca3Y_E",
+      "target": "node-87UugvReiywF0E7Acos9U",
+      "animated": true
+    },
+    {
+      "id": "edge-node-87UugvReiywF0E7Acos9U-node-XVw2_dL3uN0SOWmjH1Uao",
+      "source": "node-87UugvReiywF0E7Acos9U",
+      "target": "node-XVw2_dL3uN0SOWmjH1Uao",
+      "animated": true
+    },
+    {
+      "id": "edge-node-XVw2_dL3uN0SOWmjH1Uao-node-La8XAT0BWvqRCrvQxtZIp",
+      "source": "node-XVw2_dL3uN0SOWmjH1Uao",
+      "target": "node-La8XAT0BWvqRCrvQxtZIp",
+      "animated": true
+    },
+    {
+      "id": "edge-node-La8XAT0BWvqRCrvQxtZIp-node-xchWhsizaKgYuHPC4Tz9H",
+      "source": "node-La8XAT0BWvqRCrvQxtZIp",
+      "target": "node-xchWhsizaKgYuHPC4Tz9H",
+      "animated": true
+    },
+    {
+      "id": "edge-node-xchWhsizaKgYuHPC4Tz9H-node-jKAZNybU9cxufNBdFsqsP",
+      "source": "node-xchWhsizaKgYuHPC4Tz9H",
+      "target": "node-jKAZNybU9cxufNBdFsqsP",
+      "animated": true
+    },
+    {
+      "id": "edge-node-jKAZNybU9cxufNBdFsqsP-node-8-7phxPp1D1mv2yubpLBo",
+      "source": "node-jKAZNybU9cxufNBdFsqsP",
+      "target": "node-8-7phxPp1D1mv2yubpLBo",
+      "animated": true
+    },
+    {
+      "id": "edge-node-8-7phxPp1D1mv2yubpLBo-node-xqzaYJBvlsNtT6qZ59ktv",
+      "source": "node-8-7phxPp1D1mv2yubpLBo",
+      "target": "node-xqzaYJBvlsNtT6qZ59ktv",
+      "animated": true
+    },
+    {
+      "id": "edge-node-xqzaYJBvlsNtT6qZ59ktv-node-wclY3cmt1fBNYjLsmijdW",
+      "source": "node-xqzaYJBvlsNtT6qZ59ktv",
+      "target": "node-wclY3cmt1fBNYjLsmijdW",
+      "animated": true
+    },
+    {
+      "id": "edge-node-wclY3cmt1fBNYjLsmijdW-node-J_No8GTa92DcwPtua30wL",
+      "source": "node-wclY3cmt1fBNYjLsmijdW",
+      "target": "node-J_No8GTa92DcwPtua30wL",
+      "animated": true
+    },
+    {
+      "id": "edge-node-J_No8GTa92DcwPtua30wL-node-V9SWO58kaMsU1NT7q26WG",
+      "source": "node-J_No8GTa92DcwPtua30wL",
+      "target": "node-V9SWO58kaMsU1NT7q26WG",
+      "animated": true
+    },
+    {
+      "id": "edge-node-V9SWO58kaMsU1NT7q26WG-node-Cu08m5JOfvrPUDGony144",
+      "source": "node-V9SWO58kaMsU1NT7q26WG",
+      "target": "node-Cu08m5JOfvrPUDGony144",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Cu08m5JOfvrPUDGony144-node-OkdM_PJge70j5tsjT2Esl",
+      "source": "node-Cu08m5JOfvrPUDGony144",
+      "target": "node-OkdM_PJge70j5tsjT2Esl",
+      "animated": true
+    },
+    {
+      "id": "edge-node-OkdM_PJge70j5tsjT2Esl-node-j_r1tB16bA7R3yDAWN7Oj",
+      "source": "node-OkdM_PJge70j5tsjT2Esl",
+      "target": "node-j_r1tB16bA7R3yDAWN7Oj",
+      "animated": true
+    },
+    {
+      "id": "edge-node-j_r1tB16bA7R3yDAWN7Oj-node-qUlqyTjk3XKF9DEm6Lsgb",
+      "source": "node-j_r1tB16bA7R3yDAWN7Oj",
+      "target": "node-qUlqyTjk3XKF9DEm6Lsgb",
+      "animated": true
+    },
+    {
+      "id": "edge-node-qUlqyTjk3XKF9DEm6Lsgb-node-kSy-8ubESdmIX4Fyl8TSu",
+      "source": "node-qUlqyTjk3XKF9DEm6Lsgb",
+      "target": "node-kSy-8ubESdmIX4Fyl8TSu",
+      "animated": true
+    },
+    {
+      "id": "edge-node-kSy-8ubESdmIX4Fyl8TSu-node-yMv9Oa3hsgT8Adx6m_rdL",
+      "source": "node-kSy-8ubESdmIX4Fyl8TSu",
+      "target": "node-yMv9Oa3hsgT8Adx6m_rdL",
+      "animated": true
+    },
+    {
+      "id": "edge-node-yMv9Oa3hsgT8Adx6m_rdL-node-R3Coq0TG1_cSOXzXWgpuI",
+      "source": "node-yMv9Oa3hsgT8Adx6m_rdL",
+      "target": "node-R3Coq0TG1_cSOXzXWgpuI",
+      "animated": true
+    },
+    {
+      "id": "edge-node-R3Coq0TG1_cSOXzXWgpuI-node-HosRc0hczubBHrWxCzEJj",
+      "source": "node-R3Coq0TG1_cSOXzXWgpuI",
+      "target": "node-HosRc0hczubBHrWxCzEJj",
+      "animated": true
+    },
+    {
+      "id": "edge-node-HosRc0hczubBHrWxCzEJj-node-iCA7UKZih4ItDmDNEC8Q-",
+      "source": "node-HosRc0hczubBHrWxCzEJj",
+      "target": "node-iCA7UKZih4ItDmDNEC8Q-",
+      "animated": true
+    },
+    {
+      "id": "edge-node-iCA7UKZih4ItDmDNEC8Q--node-Ar7GEGfI9O_dLPbIEVhF_",
+      "source": "node-iCA7UKZih4ItDmDNEC8Q-",
+      "target": "node-Ar7GEGfI9O_dLPbIEVhF_",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Ar7GEGfI9O_dLPbIEVhF_-node-liJfTV5ajAFZcfwBdVGpU",
+      "source": "node-Ar7GEGfI9O_dLPbIEVhF_",
+      "target": "node-liJfTV5ajAFZcfwBdVGpU",
+      "animated": true
+    },
+    {
+      "id": "edge-node-liJfTV5ajAFZcfwBdVGpU-node-uxErZ4gLeKqwhrUG88InQ",
+      "source": "node-liJfTV5ajAFZcfwBdVGpU",
+      "target": "node-uxErZ4gLeKqwhrUG88InQ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-uxErZ4gLeKqwhrUG88InQ-node-q9qLI6HzOJ0vYaIVrZ5CU",
+      "source": "node-uxErZ4gLeKqwhrUG88InQ",
+      "target": "node-q9qLI6HzOJ0vYaIVrZ5CU",
+      "animated": true
+    },
+    {
+      "id": "edge-node-q9qLI6HzOJ0vYaIVrZ5CU-node-gjZZOwmYkXQHPfg9Ynz80",
+      "source": "node-q9qLI6HzOJ0vYaIVrZ5CU",
+      "target": "node-gjZZOwmYkXQHPfg9Ynz80",
+      "animated": true
+    },
+    {
+      "id": "edge-node-gjZZOwmYkXQHPfg9Ynz80-node-HVD9G3JlLBsAg111vQILj",
+      "source": "node-gjZZOwmYkXQHPfg9Ynz80",
+      "target": "node-HVD9G3JlLBsAg111vQILj",
+      "animated": true
+    },
+    {
+      "id": "edge-node-HVD9G3JlLBsAg111vQILj-node-F3bPbwIdCNMzL7QXEYJK3",
+      "source": "node-HVD9G3JlLBsAg111vQILj",
+      "target": "node-F3bPbwIdCNMzL7QXEYJK3",
+      "animated": true
+    },
+    {
+      "id": "edge-node-F3bPbwIdCNMzL7QXEYJK3-node-JcchUF_U99zkFpXp3VT2R",
+      "source": "node-F3bPbwIdCNMzL7QXEYJK3",
+      "target": "node-JcchUF_U99zkFpXp3VT2R",
+      "animated": true
+    },
+    {
+      "id": "edge-node-JcchUF_U99zkFpXp3VT2R-node-kE6qddRhO8C5ur3JbeuhF",
+      "source": "node-JcchUF_U99zkFpXp3VT2R",
+      "target": "node-kE6qddRhO8C5ur3JbeuhF",
+      "animated": true
+    },
+    {
+      "id": "edge-node-kE6qddRhO8C5ur3JbeuhF-node-waM_j5mbe_XoA7h8u4vFN",
+      "source": "node-kE6qddRhO8C5ur3JbeuhF",
+      "target": "node-waM_j5mbe_XoA7h8u4vFN",
+      "animated": true
+    },
+    {
+      "id": "edge-node-waM_j5mbe_XoA7h8u4vFN-node-AtX-PeI8nY4-5bA-xLla0",
+      "source": "node-waM_j5mbe_XoA7h8u4vFN",
+      "target": "node-AtX-PeI8nY4-5bA-xLla0",
+      "animated": true
+    },
+    {
+      "id": "edge-node-AtX-PeI8nY4-5bA-xLla0-node-4noav5w_8GrMTXN1Lxm5h",
+      "source": "node-AtX-PeI8nY4-5bA-xLla0",
+      "target": "node-4noav5w_8GrMTXN1Lxm5h",
+      "animated": true
+    },
+    {
+      "id": "edge-node-4noav5w_8GrMTXN1Lxm5h-node-HOpL-4jYhOe0LNrrkPrET",
+      "source": "node-4noav5w_8GrMTXN1Lxm5h",
+      "target": "node-HOpL-4jYhOe0LNrrkPrET",
+      "animated": true
+    },
+    {
+      "id": "edge-node-HOpL-4jYhOe0LNrrkPrET-node-bRu9u8pEAQ1TmKygjIjyI",
+      "source": "node-HOpL-4jYhOe0LNrrkPrET",
+      "target": "node-bRu9u8pEAQ1TmKygjIjyI",
+      "animated": true
+    },
+    {
+      "id": "edge-node-bRu9u8pEAQ1TmKygjIjyI-node-Cnceet0yroFHzn8npAir8",
+      "source": "node-bRu9u8pEAQ1TmKygjIjyI",
+      "target": "node-Cnceet0yroFHzn8npAir8",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Cnceet0yroFHzn8npAir8-node-S2mBvlFTd673XcXxisD5P",
+      "source": "node-Cnceet0yroFHzn8npAir8",
+      "target": "node-S2mBvlFTd673XcXxisD5P",
+      "animated": true
+    },
+    {
+      "id": "edge-node-S2mBvlFTd673XcXxisD5P-node-k0UBAj3hOYab4mUziOYyW",
+      "source": "node-S2mBvlFTd673XcXxisD5P",
+      "target": "node-k0UBAj3hOYab4mUziOYyW",
+      "animated": true
+    },
+    {
+      "id": "edge-node-k0UBAj3hOYab4mUziOYyW-node-Ktqau1VkVrnnVYByqcacM",
+      "source": "node-k0UBAj3hOYab4mUziOYyW",
+      "target": "node-Ktqau1VkVrnnVYByqcacM",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Ktqau1VkVrnnVYByqcacM-node-gaaRAL3HR48Qj9rz1CkDU",
+      "source": "node-Ktqau1VkVrnnVYByqcacM",
+      "target": "node-gaaRAL3HR48Qj9rz1CkDU",
+      "animated": true
+    },
+    {
+      "id": "edge-node-gaaRAL3HR48Qj9rz1CkDU-node-QFR1FMOf2OV3n3jcDnOCP",
+      "source": "node-gaaRAL3HR48Qj9rz1CkDU",
+      "target": "node-QFR1FMOf2OV3n3jcDnOCP",
+      "animated": true
+    },
+    {
+      "id": "edge-node-QFR1FMOf2OV3n3jcDnOCP-node-Z4uVzAoNzcAkyjd-lp3_M",
+      "source": "node-QFR1FMOf2OV3n3jcDnOCP",
+      "target": "node-Z4uVzAoNzcAkyjd-lp3_M",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Z4uVzAoNzcAkyjd-lp3_M-node-VMV4F-SPKWn9CtpHXEjeN",
+      "source": "node-Z4uVzAoNzcAkyjd-lp3_M",
+      "target": "node-VMV4F-SPKWn9CtpHXEjeN",
+      "animated": true
+    },
+    {
+      "id": "edge-node-VMV4F-SPKWn9CtpHXEjeN-node-QKhmM_IG1FkBudfdrf1aT",
+      "source": "node-VMV4F-SPKWn9CtpHXEjeN",
+      "target": "node-QKhmM_IG1FkBudfdrf1aT",
+      "animated": true
+    },
+    {
+      "id": "edge-node-QKhmM_IG1FkBudfdrf1aT-node-j6_DyKiyG1wBuygQkxWB7",
+      "source": "node-QKhmM_IG1FkBudfdrf1aT",
+      "target": "node-j6_DyKiyG1wBuygQkxWB7",
+      "animated": true
+    },
+    {
+      "id": "edge-node-j6_DyKiyG1wBuygQkxWB7-node-BMEoO65zsX51H4Js1gcWI",
+      "source": "node-j6_DyKiyG1wBuygQkxWB7",
+      "target": "node-BMEoO65zsX51H4Js1gcWI",
+      "animated": true
+    },
+    {
+      "id": "edge-node-BMEoO65zsX51H4Js1gcWI-node-yEWnYjW0ZLVhsLc9rH4ae",
+      "source": "node-BMEoO65zsX51H4Js1gcWI",
+      "target": "node-yEWnYjW0ZLVhsLc9rH4ae",
+      "animated": true
+    },
+    {
+      "id": "edge-node-yEWnYjW0ZLVhsLc9rH4ae-node-Y1Uz6XRbR1YqFtO4akiPA",
+      "source": "node-yEWnYjW0ZLVhsLc9rH4ae",
+      "target": "node-Y1Uz6XRbR1YqFtO4akiPA",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Y1Uz6XRbR1YqFtO4akiPA-node-ebQdTOAOV54WBToHmFtBk",
+      "source": "node-Y1Uz6XRbR1YqFtO4akiPA",
+      "target": "node-ebQdTOAOV54WBToHmFtBk",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ebQdTOAOV54WBToHmFtBk-node-tvy3Vic8Vp-Ie2x_OyZ5b",
+      "source": "node-ebQdTOAOV54WBToHmFtBk",
+      "target": "node-tvy3Vic8Vp-Ie2x_OyZ5b",
+      "animated": true
+    },
+    {
+      "id": "edge-node-tvy3Vic8Vp-Ie2x_OyZ5b-node-XyRCXhZjQFcDNaUSNNQV-",
+      "source": "node-tvy3Vic8Vp-Ie2x_OyZ5b",
+      "target": "node-XyRCXhZjQFcDNaUSNNQV-",
+      "animated": true
+    },
+    {
+      "id": "edge-node-XyRCXhZjQFcDNaUSNNQV--node-v0phjC75jhmE1z-f9ZMck",
+      "source": "node-XyRCXhZjQFcDNaUSNNQV-",
+      "target": "node-v0phjC75jhmE1z-f9ZMck",
+      "animated": true
+    },
+    {
+      "id": "edge-node-v0phjC75jhmE1z-f9ZMck-node-LgEV0Wm4avrOqR8bV5GXW",
+      "source": "node-v0phjC75jhmE1z-f9ZMck",
+      "target": "node-LgEV0Wm4avrOqR8bV5GXW",
+      "animated": true
+    },
+    {
+      "id": "edge-node-LgEV0Wm4avrOqR8bV5GXW-node-RiS8KZs3YBE6mKWPHszMp",
+      "source": "node-LgEV0Wm4avrOqR8bV5GXW",
+      "target": "node-RiS8KZs3YBE6mKWPHszMp",
+      "animated": true
+    },
+    {
+      "id": "edge-node-RiS8KZs3YBE6mKWPHszMp-node-4ZAzcwP0oPGZ9Rw042V8-",
+      "source": "node-RiS8KZs3YBE6mKWPHszMp",
+      "target": "node-4ZAzcwP0oPGZ9Rw042V8-",
+      "animated": true
+    },
+    {
+      "id": "edge-node-4ZAzcwP0oPGZ9Rw042V8--node-9h1mz0xAUvPrnRm9VndJF",
+      "source": "node-4ZAzcwP0oPGZ9Rw042V8-",
+      "target": "node-9h1mz0xAUvPrnRm9VndJF",
+      "animated": true
+    },
+    {
+      "id": "edge-node-9h1mz0xAUvPrnRm9VndJF-node-acgRMEuL4ZGGRHpZ7kXSo",
+      "source": "node-9h1mz0xAUvPrnRm9VndJF",
+      "target": "node-acgRMEuL4ZGGRHpZ7kXSo",
+      "animated": true
+    },
+    {
+      "id": "edge-node-acgRMEuL4ZGGRHpZ7kXSo-node-LW5HZMca4lvhbbA8KYaOa",
+      "source": "node-acgRMEuL4ZGGRHpZ7kXSo",
+      "target": "node-LW5HZMca4lvhbbA8KYaOa",
+      "animated": true
+    },
+    {
+      "id": "edge-node-LW5HZMca4lvhbbA8KYaOa-node-YJsAQWJpLwVN6oCxNwNAn",
+      "source": "node-LW5HZMca4lvhbbA8KYaOa",
+      "target": "node-YJsAQWJpLwVN6oCxNwNAn",
+      "animated": true
+    },
+    {
+      "id": "edge-node-YJsAQWJpLwVN6oCxNwNAn-node-z_Cf_alLAYSCyYtNviRcO",
+      "source": "node-YJsAQWJpLwVN6oCxNwNAn",
+      "target": "node-z_Cf_alLAYSCyYtNviRcO",
+      "animated": true
+    },
+    {
+      "id": "edge-node-z_Cf_alLAYSCyYtNviRcO-node-iFNS3x9wVRIjpixct6H7x",
+      "source": "node-z_Cf_alLAYSCyYtNviRcO",
+      "target": "node-iFNS3x9wVRIjpixct6H7x",
+      "animated": true
+    },
+    {
+      "id": "edge-node-iFNS3x9wVRIjpixct6H7x-node-SMgBHvqXLD6Cgr2nix4wR",
+      "source": "node-iFNS3x9wVRIjpixct6H7x",
+      "target": "node-SMgBHvqXLD6Cgr2nix4wR",
+      "animated": true
+    },
+    {
+      "id": "edge-node-SMgBHvqXLD6Cgr2nix4wR-node-N-qvYirxpORcaTslvlOL0",
+      "source": "node-SMgBHvqXLD6Cgr2nix4wR",
+      "target": "node-N-qvYirxpORcaTslvlOL0",
+      "animated": true
+    },
+    {
+      "id": "edge-node-N-qvYirxpORcaTslvlOL0-node-TQu-OBpvR-aQfMByUcwyM",
+      "source": "node-N-qvYirxpORcaTslvlOL0",
+      "target": "node-TQu-OBpvR-aQfMByUcwyM",
+      "animated": true
+    },
+    {
+      "id": "edge-node-TQu-OBpvR-aQfMByUcwyM-node-gbHVR-ojRxv9I0E5eSlWy",
+      "source": "node-TQu-OBpvR-aQfMByUcwyM",
+      "target": "node-gbHVR-ojRxv9I0E5eSlWy",
+      "animated": true
+    },
+    {
+      "id": "edge-node-gbHVR-ojRxv9I0E5eSlWy-node-WzFkdkcbL8ea9DBkjfSwa",
+      "source": "node-gbHVR-ojRxv9I0E5eSlWy",
+      "target": "node-WzFkdkcbL8ea9DBkjfSwa",
+      "animated": true
+    },
+    {
+      "id": "edge-node-WzFkdkcbL8ea9DBkjfSwa-node-jvKRykGNy140FlquF2fcK",
+      "source": "node-WzFkdkcbL8ea9DBkjfSwa",
+      "target": "node-jvKRykGNy140FlquF2fcK",
+      "animated": true
+    },
+    {
+      "id": "edge-node-jvKRykGNy140FlquF2fcK-node-zprVkxpojaxNo0LQar3Ex",
+      "source": "node-jvKRykGNy140FlquF2fcK",
+      "target": "node-zprVkxpojaxNo0LQar3Ex",
+      "animated": true
+    },
+    {
+      "id": "edge-node-zprVkxpojaxNo0LQar3Ex-node-unaYmPzK761Eh_iZMLeRC",
+      "source": "node-zprVkxpojaxNo0LQar3Ex",
+      "target": "node-unaYmPzK761Eh_iZMLeRC",
+      "animated": true
+    },
+    {
+      "id": "edge-node-unaYmPzK761Eh_iZMLeRC-node-ZXUfeyfC5oSKkGktXuK8t",
+      "source": "node-unaYmPzK761Eh_iZMLeRC",
+      "target": "node-ZXUfeyfC5oSKkGktXuK8t",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ZXUfeyfC5oSKkGktXuK8t-node-r2Jagzbx0qOG-VtxBY-mz",
+      "source": "node-ZXUfeyfC5oSKkGktXuK8t",
+      "target": "node-r2Jagzbx0qOG-VtxBY-mz",
+      "animated": true
+    },
+    {
+      "id": "edge-node-r2Jagzbx0qOG-VtxBY-mz-node-2Od5lNc6fCM6Gyj_axj4n",
+      "source": "node-r2Jagzbx0qOG-VtxBY-mz",
+      "target": "node-2Od5lNc6fCM6Gyj_axj4n",
+      "animated": true
+    },
+    {
+      "id": "edge-node-2Od5lNc6fCM6Gyj_axj4n-node-zy3wpb1MjizfUfx9_rZy2",
+      "source": "node-2Od5lNc6fCM6Gyj_axj4n",
+      "target": "node-zy3wpb1MjizfUfx9_rZy2",
+      "animated": true
+    },
+    {
+      "id": "edge-node-zy3wpb1MjizfUfx9_rZy2-node-MGb8ufztTK75aXAyEAuaf",
+      "source": "node-zy3wpb1MjizfUfx9_rZy2",
+      "target": "node-MGb8ufztTK75aXAyEAuaf",
+      "animated": true
+    },
+    {
+      "id": "edge-node-MGb8ufztTK75aXAyEAuaf-node-itvhUXbe9dr9JN5ga2jYy",
+      "source": "node-MGb8ufztTK75aXAyEAuaf",
+      "target": "node-itvhUXbe9dr9JN5ga2jYy",
+      "animated": true
+    },
+    {
+      "id": "edge-node-itvhUXbe9dr9JN5ga2jYy-node-VnKm_j7McUW9Lo0iKyPUp",
+      "source": "node-itvhUXbe9dr9JN5ga2jYy",
+      "target": "node-VnKm_j7McUW9Lo0iKyPUp",
+      "animated": true
+    },
+    {
+      "id": "edge-node-VnKm_j7McUW9Lo0iKyPUp-node-jvWuYXWRtt_ePawc4q1Tg",
+      "source": "node-VnKm_j7McUW9Lo0iKyPUp",
+      "target": "node-jvWuYXWRtt_ePawc4q1Tg",
+      "animated": true
+    },
+    {
+      "id": "edge-node-jvWuYXWRtt_ePawc4q1Tg-node-8_GkF9zhRL8tvT2qu-bGj",
+      "source": "node-jvWuYXWRtt_ePawc4q1Tg",
+      "target": "node-8_GkF9zhRL8tvT2qu-bGj",
+      "animated": true
+    }
+  ],
+  "topics": {
+    "o0fNAhJ1LsCdmGzY2ni_x": {
+      "id": "o0fNAhJ1LsCdmGzY2ni_x",
+      "slug": "2-3-trees",
+      "title": "Complex Data Structures",
+      "description": "Complex data structures are advanced structures that are used for storing and organizing data in a more specialized way to manage larger amounts of data more effectively. These include Trees, Graphs, Hash Tables, and Heaps. Trees allow for hierarchical data structures and can be utilized in many ways like Binary Trees, AVL Trees etc. Graphs are networks consisting of nodes or vertices, connected by edges. Hash Tables use a hash function to compute an index into an array of buckets or slots, from which the desired value can be found. Heaps are a special case of a binary tree where the parent nodes are compared to their children with specific rules.",
+      "resources": []
+    },
+    "AabJqPUwFVBVS02YPDPvL": {
+      "id": "AabJqPUwFVBVS02YPDPvL",
+      "slug": "a-algorithm",
+      "title": "A* Algorithm",
+      "description": "A* is a pathfinding and graph traversal algorithm that finds the shortest path between two nodes. It combines the guarantees of Dijkstra's algorithm with a heuristic that estimates the remaining distance, guiding the search toward the goal and exploring far fewer nodes in practice.",
+      "resources": []
+    },
+    "KnyUHDvpDTUO0EkAs9pT8": {
+      "id": "KnyUHDvpDTUO0EkAs9pT8",
+      "slug": "advanced-data-structures",
+      "title": "Advanced Data Structures",
+      "description": "Advanced data structures are an integral part of advanced programming. They include structures such as Binary Search Trees (BST), Balanced trees like AVL Trees, Red-Black Trees, Heap, Disjoint Data Set, Trie, Suffix Array, Suffix tree and others. BST is a node-based data structure where each node contains a key, a pointer to left child and a pointer to right child. AVL and Red-Black trees are self-balancing binary search trees. Disjoint set data structure supports union and find operations making them useful in computer vision for segmentation. Trie is an ordered tree structure used for faster retrievals, while Suffix Array and Suffix tree are data structures used in pattern matching algorithms. These structures offer an efficient way of manipulating and storing data.",
+      "resources": []
+    },
+    "VotdHk0_bI3CeoIf-KoKu": {
+      "id": "VotdHk0_bI3CeoIf-KoKu",
+      "slug": "algorithmic-complexity",
+      "title": "Algorithmic Complexity",
+      "description": "\"Algorithmic Complexity\" refers to the computing resources needed by an algorithm to solve a problem. These computing resources can be the time taken for program execution (time complexity), or the space used in memory during its execution (space complexity). The aim is to minimize these resources, so an algorithm that takes less time and space is considered more efficient. Complexity is usually expressed using Big O notation, which describes the upper bound of time or space needs, and explains how they grow in relation to the input size. It's important to analyze and understand the algorithmic complexity to choose or design the most efficient algorithm for a specific use-case.",
+      "resources": []
+    },
+    "lxY3ErxJ_D3zkSAXIBUpv": {
+      "id": "lxY3ErxJ_D3zkSAXIBUpv",
+      "slug": "array",
+      "title": "Array",
+      "description": "Comprehensive guide and learning curriculum for Array.",
+      "resources": [
+        {
+          "id": "lxY3ErxJ_D3zkSAXIBUpv-res-1",
+          "type": "video",
+          "title": "Arrays in Python",
+          "url": "https://www.youtube.com/watch?v=gDqQf4Ekr2A&ab_channel=codebasics"
+        },
+        {
+          "id": "lxY3ErxJ_D3zkSAXIBUpv-res-2",
+          "type": "video",
+          "title": "Arrays in Java",
+          "url": "https://www.youtube.com/watch?v=ei_4Nt7XWOw&ab_channel=BroCode"
+        },
+        {
+          "id": "lxY3ErxJ_D3zkSAXIBUpv-res-3",
+          "type": "video",
+          "title": "Arrays in Javascript",
+          "url": "https://www.youtube.com/watch?v=yQ1fz8LY354"
+        },
+        {
+          "id": "lxY3ErxJ_D3zkSAXIBUpv-res-4",
+          "type": "video",
+          "title": "Arrays in GoLang",
+          "url": "https://www.youtube.com/watch?v=e-oBn806Pzc&pp=ygUIYXJyYXkgZ28%3D"
+        },
+        {
+          "id": "lxY3ErxJ_D3zkSAXIBUpv-res-5",
+          "type": "video",
+          "title": "Arrays in C#",
+          "url": "https://www.youtube.com/watch?v=YiE0oetGMAg&pp=ygUIYXJyYXkgYyM%3D"
+        },
+        {
+          "id": "lxY3ErxJ_D3zkSAXIBUpv-res-6",
+          "type": "video",
+          "title": "Arrays in C++",
+          "url": "https://www.youtube.com/watch?v=G38hQKXa_RU&pp=ygUJYXJyYXkgYysr"
+        },
+        {
+          "id": "lxY3ErxJ_D3zkSAXIBUpv-res-7",
+          "type": "video",
+          "title": "Arrays in Rust",
+          "url": "https://www.youtube.com/watch?v=cH6Qv47MPwk&pp=ygUKYXJyYXkgcnVzdA%3D%3D"
+        },
+        {
+          "id": "lxY3ErxJ_D3zkSAXIBUpv-res-8",
+          "type": "video",
+          "title": "Arrays in Ruby",
+          "url": "https://www.youtube.com/watch?v=SP3Vf2KcYeU&pp=ygUKYXJyYXkgcnVieQ%3D%3D"
+        }
+      ]
+    },
+    "v0LrabYYOKzV4oCXOK2Rs": {
+      "id": "v0LrabYYOKzV4oCXOK2Rs",
+      "slug": "asymptotic-notation",
+      "title": "Asymptotic Notation",
+      "description": "Asymptotic notation is a way to describe the limiting behavior of a function, typically representing the time or space complexity of an algorithm, as the input size grows. It focuses on the dominant terms and ignores constant factors and lower-order terms, providing a simplified and generalized way to compare the efficiency of different algorithms. Common notations include Big O, Big Omega, and Big Theta, which represent upper bound, lower bound, and tight bound, respectively.",
+      "resources": [
+        {
+          "id": "v0LrabYYOKzV4oCXOK2Rs-res-1",
+          "type": "article",
+          "title": "Asymptotic Analysis: Big-O Notation and More",
+          "url": "https://www.programiz.com/dsa/asymptotic-notations"
+        },
+        {
+          "id": "v0LrabYYOKzV4oCXOK2Rs-res-2",
+          "type": "article",
+          "title": "The Big O Notation",
+          "url": "https://towardsdatascience.com/big-o-notation-32fb458e5260/?utm_source=roadmap&utm_medium=Referral&utm_campaign=TDS+roadmap+integration"
+        }
+      ]
+    },
+    "5MCgKpylPzDZaGBEUU51r": {
+      "id": "5MCgKpylPzDZaGBEUU51r",
+      "slug": "avl-trees",
+      "title": "AVL Trees",
+      "description": "An **AVL tree** is a type of binary search tree that is self-balancing, which means the heights of the two child subtrees of any node in the tree differ by at most one. If at any point the difference becomes greater than one, rebalancing is done to restore the property. The tree is named after its inventors, G.M. Adelson-Velsky and E.M. Landis, who introduced it in 1962. Each node in an AVL tree carries extra information (its Balance Factor) which could be either -1, 0, or +1. AVL trees balance themselves by rotating sub-trees in different manners(named as Left-Left rotation, Right-Right rotation, Left-Right rotation, and Right-Left rotation) whenever an insert operation causes the balance factor to go beyond this range.",
+      "resources": [
+        {
+          "id": "5MCgKpylPzDZaGBEUU51r-res-1",
+          "type": "video",
+          "title": "AVL trees in 5 minutes — Intro & Search",
+          "url": "https://www.youtube.com/watch?v=DB1HFCEdLxA"
+        }
+      ]
+    },
+    "2F6BcbAzICynOK3oEj-Is": {
+      "id": "2F6BcbAzICynOK3oEj-Is",
+      "slug": "b-trees",
+      "title": "B-Trees",
+      "description": "B-Tree is a self-balanced search tree data structure that maintains sorted data and allows for efficient insertion, deletion, and search operations. It is most commonly used in systems where read and write operations are performed on disk, such as databases and file systems. The main characteristic of a B-Tree is that all leaves are at the same level, and the internal nodes can store more than one key. Each node in a B-Tree contains a certain number of keys and pointers which navigate the tree. The keys act as separation values which divide its subtrees. For example, if a node contains the values \\[10,20,30\\] it has four children: the first contains values less than 10, the second contains values between 10 and 20, the third contains values between 20 and 30, and the fourth contains values greater than 30.",
+      "resources": [
+        {
+          "id": "2F6BcbAzICynOK3oEj-Is-res-1",
+          "type": "video",
+          "title": "B-trees in 4 minutes — Intro",
+          "url": "https://www.youtube.com/watch?v=FgWbADOG44s"
+        }
+      ]
+    },
+    "mKoC5o__gLSTjAlq8iXkV": {
+      "id": "mKoC5o__gLSTjAlq8iXkV",
+      "slug": "backtracking",
+      "title": "Backtracking",
+      "description": "Backtracking is a powerful algorithmic technique that aims to solve a problem incrementally, by trying out an various sequences of decisions. If at any point it realizes that its current path will not lead to a solution, it reverses or \"backtracks\" the most recent decision and tries the next available route. Backtracking is often applied in problems where the solution requires the sequence of decisions to meet certain constraints, like the 8-queens puzzle or the traveling salesperson problem. In essence, it involves exhaustive search and thus, can be computationally expensive. However, with the right sorts of constraints, it can sometimes find solutions to problems with large and complex spaces very efficiently.",
+      "resources": [
+        {
+          "id": "mKoC5o__gLSTjAlq8iXkV-res-1",
+          "type": "video",
+          "title": "What is backtracking?",
+          "url": "https://www.youtube.com/watch?v=Peo7k2osVVs"
+        }
+      ]
+    },
+    "iTlpa9A7h33FkUAv0UaVZ": {
+      "id": "iTlpa9A7h33FkUAv0UaVZ",
+      "slug": "basic-data-structures",
+      "title": "Basic Data Structures",
+      "description": "The five main types of basic data structures are: **Arrays**, **Linked Lists**, **Stacks**, **Queues**, and **Hash Tables**. *   **Arrays** are static data structures that store elements of the same type in contiguous memory locations. *   **Linked Lists** are dynamic data structures that store elements in individual nodes, with each node pointing to the next. *   **Stacks** follow the Last-In-First-Out principle (LIFO) and primarily assist in function calls in most programming languages. *   **Queues** operate on the First-In-First-Out principle (FIFO) and are commonly used in task scheduling. *   Lastly, **Hash Tables** store key-value pairs allowing for fast insertion, deletion, and search operations.",
+      "resources": []
+    },
+    "2G6vn7K11_mPQQ7_IXJ96": {
+      "id": "2G6vn7K11_mPQQ7_IXJ96",
+      "slug": "bb-trees",
+      "title": "B/B+ Trees",
+      "description": "`B trees` and `B+ trees` are both types of self-balancing, sorted, tree-based data structures that maintain sorted data in a way that allows for efficient insertion, deletion, and search operations. A `B tree` is a tree data structure in which each node has multiple keys and can be in more than two children nodes. Each internal node in a `B tree` can contain a variable number of keys and pointers. The keys act as separation values which divide its subtrees. One important aspect of a `B tree` is that every key in the node also appears in the parent node. On the other hand, a `B+ tree` is an extension of a `B tree` which allows for efficient traversal of data. In a `B+ tree`, data pointers are stored only at the leaf nodes of the tree, making every leaf node of a `B+ tree` a linked list. The intermediary nodes only use the keys to aid with the search.",
+      "resources": [
+        {
+          "id": "2G6vn7K11_mPQQ7_IXJ96-res-1",
+          "type": "video",
+          "title": "B Trees and B+ Trees. How they are useful in Databases",
+          "url": "https://www.youtube.com/watch?v=aZjYr87r1b8"
+        }
+      ]
+    },
+    "7CgGwdwHnOmISmEPtJegN": {
+      "id": "7CgGwdwHnOmISmEPtJegN",
+      "slug": "bellman-ford-algoritm",
+      "title": "Bellman-Ford",
+      "description": "The **Bellman Ford algorithm** is a method used in graph theory for finding the shortest path between a single source vertex and all other vertices in a weighted graph. This algorithm is significant because it is capable of handling graphs with negative weight edges, unlike Dijkstra's algorithm. It follows a bottom-up approach, filling up the distance table gradually while relaxing edges. The algorithm gets its name from its developers, Richard Bellman and Lester Ford. However, it can lead to an infinite loop if there are negative weight cycles in the graph, which should be addressed separately using another check.",
+      "resources": []
+    },
+    "CkUi93TvTkEm2_isHNvqr": {
+      "id": "CkUi93TvTkEm2_isHNvqr",
+      "slug": "big--notation",
+      "title": "Big-Ω Notation",
+      "description": "The Big Omega (Ω) notation is used in computer science to describe an algorithm's lower bound. Essentially, it provides a best-case analysis of an algorithm's efficiency, giving us a lower limit of the performance. If we say a function f(n) is Ω(g(n)), it means that from a certain point onwards (n0 for some constant n0), the value of g(n) is a lower bound on f(n). It implies that f(n) is at least as fast as g(n) past a certain threshold. This means that the algorithm won't perform more efficiently than the Ω time complexity suggests.",
+      "resources": []
+    },
+    "Ex6tzu6gwrarWm1CNFufO": {
+      "id": "Ex6tzu6gwrarWm1CNFufO",
+      "slug": "big--notation",
+      "title": "Big-θ Notation",
+      "description": "Big Theta (θ) notation is used in computer science to describe an asymptotic tight bound on a function. This essentially means it provides both an upper and lower bound for a function. When we say a function f(n) is θ(g(n)), we mean that the growth rate of f(n) is both bounded above and below by the function g(n) after a certain point. This is more precise than Big O and Big Omega notation, which provide only an upper and a lower bound, respectively. Big Theta notation tells us exactly how a function behaves for large input values. For example, if an algorithm has a time complexity of θ(n^2), it means the running time will increase quadratically with the input size.",
+      "resources": []
+    },
+    "oylTfop_JDPHJ3jYuA2Nq": {
+      "id": "oylTfop_JDPHJ3jYuA2Nq",
+      "slug": "big-o-notation",
+      "title": "Big O Notation",
+      "description": "\"Big O\" notation, officially known as O-notation, is used in computer science to describe the performance or complexity of an algorithm. Specifically, it provides an upper bound on the time complexity, describing the worst-case scenario. Thus, it gives an upper limit on the time taken for an algorithm to complete based on the size of the input. The notation is expressed as O(f(n)), where f(n) is a function that measures the largest count of steps that an algorithm could possibly take to solve a problem of size n. For instance, O(n) denotes a linear relationship between the time taken and the input size, while O(1) signifies constant time complexity, i.e., the time taken is independent of input size. Remember, Big O notation is only an approximation meant to describe the scaling of the algorithm and not the exact time taken.",
+      "resources": [
+        {
+          "id": "oylTfop_JDPHJ3jYuA2Nq-res-1",
+          "type": "article",
+          "title": "Big-O Cheat Sheet",
+          "url": "https://www.bigocheatsheet.com/"
+        },
+        {
+          "id": "oylTfop_JDPHJ3jYuA2Nq-res-2",
+          "type": "video",
+          "title": "Introduction to Big O Notation and Time Complexity",
+          "url": "https://www.youtube.com/watch?v=D6xkbGLQesk"
+        },
+        {
+          "id": "oylTfop_JDPHJ3jYuA2Nq-res-3",
+          "type": "video",
+          "title": "Big-O Notation",
+          "url": "https://www.youtube.com/watch?v=BgLTDT03QtU"
+        }
+      ]
+    },
+    "UYm7unZfXd9Ge5EYV4odb": {
+      "id": "UYm7unZfXd9Ge5EYV4odb",
+      "slug": "binary-search-trees",
+      "title": "Binary Search Trees",
+      "description": "A **Binary Search Tree** (BST) is a type of binary tree data structure where each node carries a unique key (a value), and each key/node has up to two referenced sub-trees, the left and right child. The key feature of a BST is that every node on the right subtree must have a value greater than its parent node, while every node on the left subtree must have a value less than its parent node. This property must be true for all the nodes, not just the root. Due to this property, searching, insertion, and removal of a node in a BST perform quite fast, and the operations can be done in O(log n) time complexity, making it suitable for data-intensive operations.",
+      "resources": [
+        {
+          "id": "UYm7unZfXd9Ge5EYV4odb-res-1",
+          "type": "video",
+          "title": "Binary Search Tree Part-1",
+          "url": "https://youtu.be/lFq5mYUWEBk?si=GKRm1O278NCetnry"
+        },
+        {
+          "id": "UYm7unZfXd9Ge5EYV4odb-res-2",
+          "type": "video",
+          "title": "Binary Search Tree Part-2",
+          "url": "https://youtu.be/JnrbMQyGLiU?si=1pfKn2akKXWLshY6"
+        }
+      ]
+    },
+    "Wt74MRKaZcs8lYvfqjffT": {
+      "id": "Wt74MRKaZcs8lYvfqjffT",
+      "slug": "binary-search",
+      "title": "Binary Search",
+      "description": "`Binary Search` is a type of search algorithm that follows the divide and conquer strategy. It works on a sorted array by repeatedly dividing the search interval in half. Initially, the search space is the entire array and the target is compared with the middle element of the array. If they are not equal, the half in which the target cannot lie is eliminated and the search continues on the remaining half, again taking the middle element to compare to the target, and repeating this until the target is found. If the search ends with the remaining half being empty, the target is not in the array. Binary Search is log(n) as it cuts down the search space by half each step.",
+      "resources": [
+        {
+          "id": "Wt74MRKaZcs8lYvfqjffT-res-1",
+          "type": "video",
+          "title": "Learn Binary Search in 10 minutes",
+          "url": "https://www.youtube.com/watch?v=xrMppTpoqdw"
+        }
+      ]
+    },
+    "RPU5CGp2Li5lk0UB-zNHT": {
+      "id": "RPU5CGp2Li5lk0UB-zNHT",
+      "slug": "binary-trees",
+      "title": "Binary Trees",
+      "description": "A **Binary Tree** is a type of tree data structure in which each node has at most two children, referred to as the left child and the right child. This distinguishes it from trees in which nodes can have any number of children. A binary tree is further classified as a strictly binary tree if every non-leaf node in the tree has non-empty left and right child nodes. A binary tree is complete if all levels of the tree, except possibly the last, are fully filled, and all nodes are as left-justified as possible. Multiple algorithms and functions employ binary trees due to their suitable properties for mathematical operations and data organization.",
+      "resources": [
+        {
+          "id": "RPU5CGp2Li5lk0UB-zNHT-res-1",
+          "type": "video",
+          "title": "Binary Tree",
+          "url": "https://youtu.be/4r_XR9fUPhQ?si=PBsRjix_Z9kVHgMM"
+        }
+      ]
+    },
+    "c7LdXJPv-5M-NPKSCXYuB": {
+      "id": "c7LdXJPv-5M-NPKSCXYuB",
+      "slug": "breadth-first-search",
+      "title": "Breadth First Search",
+      "description": "Breadth-First Search (BFS) is a searching algorithm used to traverse or search in data structures like a tree or a graph. The algorithm starts with a root node and visits the nodes in a level by level manner (i.e., visiting the ones nearest to the root first). It makes use of a queue data structure to store nodes not yet visited. A check is performed before nodes are put in the queue. This is to ensure same node is not visited twice. BFS can be used in multiple areas like finding shortest paths, serialized tree or in test case scenarios where all vertices are equally important.",
+      "resources": []
+    },
+    "pfg-qclOpvlsGMdlZ1aoj": {
+      "id": "pfg-qclOpvlsGMdlZ1aoj",
+      "slug": "breadth-first-search",
+      "title": "Breadth First Search",
+      "description": "Breadth-First Search (BFS) is a searching algorithm that's used in tree or graph data structures. It starts from the root (the topmost node in the tree) and expands all neighboring nodes at the present depth prior to moving on to nodes at the next depth level. This technique uses a queue data structure to remember to explore the next vertex or node and every edge that leads to a vertex will be explored, which ensures the discovery of every vertex reachable from the source. BFS is complete in nature, which means if the searched node is in the tree, BFS is guaranteed to find it.",
+      "resources": []
+    },
+    "5T2y6Iqi-I_zOtLkeSPzY": {
+      "id": "5T2y6Iqi-I_zOtLkeSPzY",
+      "slug": "brute-force",
+      "title": "Brute Force",
+      "description": "\"Brute Force\" is a straightforward method to solve problems. It involves trying every possible solution until the right one is found. This technique does not require any specific skills or knowledge and the approach is directly applied to the problem at hand. However, while it can be effective, it is not always efficient since it often requires a significant amount of time and resources to go through all potential solutions. In terms of computational problems, a brute force algorithm examines all possibilities one by one until a satisfactory solution is found. With growing complexity, the processing time of brute force solutions dramatically increases leading to combinatorial explosion. Brute force is a base for complex problem-solving algorithms which improve the time and space complexity by adding heuristics or rules of thumb.",
+      "resources": [
+        {
+          "id": "5T2y6Iqi-I_zOtLkeSPzY-res-1",
+          "type": "article",
+          "title": "Brute Force Technique in Algorithms",
+          "url": "https://medium.com/@shraddharao_/brute-force-technique-in-algorithms-34bac04bde8a"
+        },
+        {
+          "id": "5T2y6Iqi-I_zOtLkeSPzY-res-2",
+          "type": "video",
+          "title": "Brute Force Algorithm Explained With C++ Examples",
+          "url": "https://www.youtube.com/watch?v=BYWf6-tpQ4k"
+        }
+      ]
+    },
+    "zUDKCJCQHLW4c_6A349R3": {
+      "id": "zUDKCJCQHLW4c_6A349R3",
+      "slug": "bubble-sort",
+      "title": "Bubble Sort",
+      "description": "Bubble Sort is a simple sorting algorithm that works by repeatedly swapping the adjacent elements if they are in the wrong order. It gets its name because with each iteration the largest element \"bubbles\" up to its proper location. It continues this process of swapping until the entire list is sorted in ascending order. The main steps of the algorithm are: starting from the beginning of the list, compare every pair of adjacent items and swap them if they are in the wrong order, and then pass through the list until no more swaps are needed. However, despite being simple, Bubble Sort is not suited for large datasets as it has a worst-case and average time complexity of O(n²), where n is the number of items being sorted.",
+      "resources": [
+        {
+          "id": "zUDKCJCQHLW4c_6A349R3-res-1",
+          "type": "article",
+          "title": "Bubble Sort Visualize",
+          "url": "https://www.hackerearth.com/practice/algorithms/sorting/bubble-sort/visualize/"
+        },
+        {
+          "id": "zUDKCJCQHLW4c_6A349R3-res-2",
+          "type": "video",
+          "title": "Bubble Sort",
+          "url": "https://www.youtube.com/watch?v=Jdtq5uKz-w4"
+        },
+        {
+          "id": "zUDKCJCQHLW4c_6A349R3-res-3",
+          "type": "video",
+          "title": "Bubble Sort",
+          "url": "https://www.youtube.com/watch?v=p__ETf2CKY4"
+        }
+      ]
+    },
+    "BZvNEZjCNuHPg5SkX90bt": {
+      "id": "BZvNEZjCNuHPg5SkX90bt",
+      "slug": "c",
+      "title": "C#",
+      "description": "C# (pronounced \"C sharp\") is a general purpose programming language made by Microsoft. It is used to perform different tasks and can be used to create web apps, games, mobile apps, etc.",
+      "resources": [
+        {
+          "id": "BZvNEZjCNuHPg5SkX90bt-res-1",
+          "type": "article",
+          "title": "C# Learning Path",
+          "url": "https://docs.microsoft.com/en-us/learn/paths/csharp-first-steps/?WT.mc_id=dotnet-35129-website"
+        },
+        {
+          "id": "BZvNEZjCNuHPg5SkX90bt-res-2",
+          "type": "article",
+          "title": "Introduction to C#",
+          "url": "https://docs.microsoft.com/en-us/shows/CSharp-101/?WT.mc_id=Educationalcsharp-c9-scottha"
+        },
+        {
+          "id": "BZvNEZjCNuHPg5SkX90bt-res-3",
+          "type": "video",
+          "title": "C# tutorials",
+          "url": "https://www.youtube.com/watch?v=gfkTfcpWqAY&list=PLTjRvDozrdlz3_FPXwb6lX_HoGXa09Yef"
+        },
+        {
+          "id": "BZvNEZjCNuHPg5SkX90bt-res-4",
+          "type": "article",
+          "title": "Explore top posts about C#",
+          "url": "https://app.daily.dev/tags/csharp?ref=roadmapsh"
+        }
+      ]
+    },
+    "IWmq4UFB5j6O3UJfarh1u": {
+      "id": "IWmq4UFB5j6O3UJfarh1u",
+      "slug": "c",
+      "title": "C++",
+      "description": "C++ is a powerful general-purpose programming language. It can be used to develop operating systems, browsers, games, and so on. C++ supports different ways of programming like procedural, object-oriented, functional, and so on. This makes C++ powerful as well as flexible.",
+      "resources": [
+        {
+          "id": "IWmq4UFB5j6O3UJfarh1u-res-1",
+          "type": "article",
+          "title": "Visit Dedicated C++ Roadmap",
+          "url": "https://roadmap.sh/cpp"
+        },
+        {
+          "id": "IWmq4UFB5j6O3UJfarh1u-res-2",
+          "type": "article",
+          "title": "Learn Cpp",
+          "url": "https://learncpp.com/"
+        },
+        {
+          "id": "IWmq4UFB5j6O3UJfarh1u-res-3",
+          "type": "article",
+          "title": "C++ Reference",
+          "url": "https://en.cppreference.com/"
+        },
+        {
+          "id": "IWmq4UFB5j6O3UJfarh1u-res-4",
+          "type": "article",
+          "title": "Explore top posts about C++",
+          "url": "https://app.daily.dev/tags/c++?ref=roadmapsh"
+        }
+      ]
+    },
+    "nqnO1Wz3gYIMR98_BnF2V": {
+      "id": "nqnO1Wz3gYIMR98_BnF2V",
+      "slug": "common-runtimes",
+      "title": "Algorithmic Complexity",
+      "description": "\"Algorithmic Complexity\" refers to the computing resources needed by an algorithm to solve a problem. These computing resources can be the time taken for program execution (time complexity), or the space used in memory during its execution (space complexity). The aim is to minimize these resources, so an algorithm that takes less time and space is considered more efficient. Complexity is usually expressed using Big O notation, which describes the upper bound of time or space needs, and explains how they grow in relation to the input size. It's important to analyze and understand the algorithmic complexity to choose or design the most efficient algorithm for a specific use-case.",
+      "resources": []
+    },
+    "kSpgFuAHyzySWlGBLOHZR": {
+      "id": "kSpgFuAHyzySWlGBLOHZR",
+      "slug": "complex-data-structures",
+      "title": "Complex Data Structures",
+      "description": "Complex data structures are advanced structures that are used for storing and organizing data in a more specialized way to manage larger amounts of data more effectively. These include Trees, Graphs, Hash Tables, and Heaps. Trees allow for hierarchical data structures and can be utilized in many ways like Binary Trees, AVL Trees etc. Graphs are networks consisting of nodes or vertices, connected by edges. Hash Tables use a hash function to compute an index into an array of buckets or slots, from which the desired value can be found. Heaps are a special case of a binary tree where the parent nodes are compared to their children with specific rules.",
+      "resources": []
+    },
+    "_bpV8MkVOY8ZatTXYaEE4": {
+      "id": "_bpV8MkVOY8ZatTXYaEE4",
+      "slug": "constant",
+      "title": "Constant",
+      "description": "Constant time complexity is denoted as O(1). This means the running time of the algorithm remains constant, regardless of the size of the input data set. Whether you're working with an array of 10 elements or 1 million, if an operation takes the same amount of time regardless of the size of the array, it is said to have a constant time complexity. For example, accessing any element in an array by index is an O(1) operation, as the access operation takes the same amount of time regardless of the position of the element in the array.",
+      "resources": []
+    },
+    "G74Xp8_EMZO2oEzNTRAli": {
+      "id": "G74Xp8_EMZO2oEzNTRAli",
+      "slug": "control-structures",
+      "title": "Control Structures",
+      "description": "Control structures are fundamental elements in most programming languages that facilitate the flow of control through a program. There are three main types of control structures: Sequential, Selection and Iteration. *   **Sequential** control structures are the default mode where instructions happen one after another. *   **Selection** control structures (often called \"conditional\" or \"decision\" structures) allow one set of instructions to be executed if a condition is true and another if it's false. These typically include `if...else` statements. *   **Iteration** control structures (also known as _loops_) allow a block of code to be repeated multiple times. Common loop structures include `for`, `while`, and `do...while` loops. All these control structures play a vital role in shaping the program logic.",
+      "resources": []
+    },
+    "L1FIJAluyxG6CGaVLM20O": {
+      "id": "L1FIJAluyxG6CGaVLM20O",
+      "slug": "cyclic-sort",
+      "title": "Cyclic Sort",
+      "description": "Cyclic sort is a sorting technique for arrays whose values fall in a known, contiguous range, typically `1` to `n`. Each element is swapped to the position matching its value, placing everything correctly in O(n) time and O(1) space — ideal as a building block for problems such as finding missing or duplicate numbers.",
+      "resources": []
+    },
+    "gR8KcOIADUxS8hdiEaGZy": {
+      "id": "gR8KcOIADUxS8hdiEaGZy",
+      "slug": "depth-first-search",
+      "title": "Depth First Search",
+      "description": "Depth First Search (DFS) is an algorithm for traversing or searching tree or graph data structures. The process starts at the root (in the case of a tree) or an arbitrary node (in case of a graph), and explores as far as possible along each branch before retracing steps. Essentially, DFS is about diving deep into the tree/graph from a starting point, and when no more nodes are left to explore, it backtracks, moving up the tree/graph. This repeat until all nodes have been visited. This algorithm is often used in simulation of game states, solving puzzles and finding connected components in a graph.",
+      "resources": []
+    },
+    "NrPO7vF8Z1WzmA9Ca3Y_E": {
+      "id": "NrPO7vF8Z1WzmA9Ca3Y_E",
+      "slug": "depth-first-search",
+      "title": "Depth First Search",
+      "description": "**Depth-First Search (DFS)** is an algorithm used for traversing or searching tree or graph data structures. The process starts at the root node (selecting some arbitrary node as the root in the case of a graph), and explores as far as possible along each branch before backtracking. It uses a last in, first out (LIFO) stack to remember to get the next vertex to start a search when a dead end occurs in any iteration. DFS has been used in a variety of applications including finding connected components, topological sorting, and finding articulation points (or cut vertices) in a graph.",
+      "resources": [
+        {
+          "id": "NrPO7vF8Z1WzmA9Ca3Y_E-res-1",
+          "type": "video",
+          "title": "Learn Depth First Search in 7 minutes",
+          "url": "https://youtu.be/by93qH4ACxo?si=FXcUfuwB5atV5SIY"
+        }
+      ]
+    },
+    "87UugvReiywF0E7Acos9U": {
+      "id": "87UugvReiywF0E7Acos9U",
+      "slug": "dijkstras-algorithm",
+      "title": "Dijkstra's Algorithm",
+      "description": "Dijkstra's algorithm is a popular method used in computing and graph theory for finding the shortest paths between nodes in a graph. Named after Dutch computer scientist Edsger W. Dijkstra, this algorithm works by visiting vertices in the graph starting from the object's starting point and gradually spreading out until the shortest path to the desired endpoint is known. This algorithm is applicable in such situation where all the edges are non-negative. Linear data structures such as stacks and queues are commonly used in the implementation of this algorithm. Although its worst-case time complexity appears to be high (O(|V|^2)), it runs significantly faster in practice.",
+      "resources": []
+    },
+    "XVw2_dL3uN0SOWmjH1Uao": {
+      "id": "XVw2_dL3uN0SOWmjH1Uao",
+      "slug": "directed-graph",
+      "title": "Directed Graph",
+      "description": "A **Directed Graph**, also known as a DiGraph, is a set of vertices and a collection of directed edges. Each directed edge has an initial vertex, also called the tail, and a terminal vertex, also known as the head. The directed edge is said to point from the tail to the head. To visualize this, think of a graph where the nodes are cities and the edges are one-way roads. Directed graphs are often used to represent relationships between objects where direction does matter, such as a sequence of events in a workflow.",
+      "resources": []
+    },
+    "La8XAT0BWvqRCrvQxtZIp": {
+      "id": "La8XAT0BWvqRCrvQxtZIp",
+      "slug": "disjoint-set-union-find",
+      "title": "Disjoint Set (Union-Find)",
+      "description": "A **disjoint-set** data structure, also called a union-find data structure or merge-find set, is a data structure that tracks a partition of a set into numerous non-overlapping subsets. It provides near-constant-time operations to add new sets, to merge existing sets, and to determine whether elements are in the same set. The underlying algorithm uses two main techniques, `Union by Rank` and `Path Compression`, to achieve the efficient time complexity. Each element is represented as a node, and each group of disjoint sets forms a tree structure. Disjoint sets are useful in multitude of graph algorithms like Kruskal’s algorithm and many more.",
+      "resources": []
+    },
+    "xchWhsizaKgYuHPC4Tz9H": {
+      "id": "xchWhsizaKgYuHPC4Tz9H",
+      "slug": "divide-and-conquer",
+      "title": "Divide and Conquer",
+      "description": "Divide and conquer is a powerful algorithm design technique that solves a problem by breaking it down into smaller and easier-to-manage sub-problems, until these become simple enough to be solved directly. This approach is usually carried out recursively for most problems. Once all the sub-problems are solved, the solutions are combined to give a solution to the original problem. It is a common strategy that significantly reduces the complexity of the problem.",
+      "resources": [
+        {
+          "id": "xchWhsizaKgYuHPC4Tz9H-res-1",
+          "type": "video",
+          "title": "Divide & Conquer Algorithm In 3 Minutes",
+          "url": "https://www.youtube.com/watch?v=YOh6hBtX5l0"
+        }
+      ]
+    },
+    "jKAZNybU9cxufNBdFsqsP": {
+      "id": "jKAZNybU9cxufNBdFsqsP",
+      "slug": "dynamic-programming",
+      "title": "Dynamic Programming",
+      "description": "**Dynamic Programming** is a powerful problem-solving method that solves complex problems by breaking them down into simpler subproblems and solving each subproblem only once, storing their results using a memory-based data structure (like an array or a dictionary). The principle of dynamic programming is based on _Bellman's Principle of Optimality_ which provides a method to solve optimization problems. In practical terms, this approach avoids repetitive computations by storing the results of expensive function calls. This technique is widely used in optimization problems where the same subproblem may occur multiple times. Dynamic Programming is used in numerous fields including mathematics, economics, and computer science.",
+      "resources": [
+        {
+          "id": "jKAZNybU9cxufNBdFsqsP-res-1",
+          "type": "article",
+          "title": "Getting Started with Dynamic Programming in Data Structures and Algorithms",
+          "url": "https://medium.com/@PythonicPioneer/getting-started-with-dynamic-programming-in-data-structures-and-algorithms-126c7a16775c"
+        },
+        {
+          "id": "jKAZNybU9cxufNBdFsqsP-res-2",
+          "type": "video",
+          "title": "What Is Dynamic Programming and How To Use It",
+          "url": "https://www.youtube.com/watch?v=vYquumk4nWw&t=4s"
+        },
+        {
+          "id": "jKAZNybU9cxufNBdFsqsP-res-3",
+          "type": "video",
+          "title": "5 Simple Steps for Solving Dynamic Programming Problems",
+          "url": "https://www.youtube.com/watch?v=aPQY__2H3tE"
+        }
+      ]
+    },
+    "8-7phxPp1D1mv2yubpLBo": {
+      "id": "8-7phxPp1D1mv2yubpLBo",
+      "slug": "edabit",
+      "title": "Edabit",
+      "description": "[Edabit](https://edabit.com/) is an online platform designed to improve coding skills for various programming languages like JavaScript, Python, C#, PHP, Java, Swift, Ruby, and C++. This platform is centered around practice and engagement, through interactive challenges that assist in learning the syntax, structure, and basic concepts of the aforementioned languages. Edabit does not just provide the solution but the process, showcasing different approaches to solving the challenges. For each challenge, it represents the difficulty level and assigned category, allowing users to choose and practice according to proficiency level and need.",
+      "resources": []
+    },
+    "xqzaYJBvlsNtT6qZ59ktv": {
+      "id": "xqzaYJBvlsNtT6qZ59ktv",
+      "slug": "exponential",
+      "title": "Exponential",
+      "description": "Exponential time complexity is denoted as `O(2^n)`, where a growth in `n` leads to an exponential growth in the number of steps required to complete a task. It means that the time complexity will double with every additional element in the input set. This is seen in many recursive algorithms, where a problem is divided into two sub-problems of the same type. Examples of such algorithms include the naive recursive approach for the Fibonacci sequence or the Towers of Hanoi problem. Although exponential time complexity solutions are often simpler to implement, they are inefficient for larger input sizes.",
+      "resources": []
+    },
+    "wclY3cmt1fBNYjLsmijdW": {
+      "id": "wclY3cmt1fBNYjLsmijdW",
+      "slug": "factorial",
+      "title": "Factorial",
+      "description": "Factorial, often denoted as `n!`, is a mathematical operation. In the context of computer science and algorithm complexity, it represents an extremely high growth rate. This occurs because of the way a factorial is calculated: The product of all positive integers less than or equal to a non-negative integer `n`. Thus, if an algorithm has a complexity of O(n!), it means the running time increases factorially based on the size of the input data set. That is, for an input of size `n`, the algorithm does `n` \\* `(n-1)` \\* `(n-2)` \\* ... \\* `1` operations. O(n!) is essentially the worst case scenario of complexity for an algorithm and is seen in brute-force search algorithms, such as the traveling salesman problem via brute-force.",
+      "resources": []
+    },
+    "J_No8GTa92DcwPtua30wL": {
+      "id": "J_No8GTa92DcwPtua30wL",
+      "slug": "fast-and-slow-pointers",
+      "title": "Fast and Slow Pointers",
+      "description": "The fast and slow pointers pattern uses two pointers that traverse a data structure at different speeds. It is commonly used to detect cycles in linked lists, find the middle of a list, or locate the kth element from the end, running in O(n) time with constant space.",
+      "resources": []
+    },
+    "V9SWO58kaMsU1NT7q26WG": {
+      "id": "V9SWO58kaMsU1NT7q26WG",
+      "slug": "fenwick-trees",
+      "title": "Fenwick Trees",
+      "description": "Fenwick Trees, also known as Binary Indexed Trees, are data structures that can efficiently support the operation of updating elements and calculating prefix sums in a table of numbers. This makes it particularly useful in situations where the table gets updated often and different kinds of queries (such as sum of elements) need to be answered fast. A Fenwick Tree typically takes O(log n) time for both updation and query operations, which is more efficient than an array or a segment tree. It achieves this efficiency by storing partial sum information in the array. This allows for efficient calculation of sum ranges, with the operation of adding an element and getting the sum of a range both achieve in O(log n) time.",
+      "resources": []
+    },
+    "Cu08m5JOfvrPUDGony144": {
+      "id": "Cu08m5JOfvrPUDGony144",
+      "slug": "functions",
+      "title": "Functions",
+      "description": "Functions in programming are named sections of a program that perform a specific task. They allow us to write a piece of code once and reuse it in different places throughout the program, making our code more modular and easier to maintain. Functions often take in input, do something with it, and return output. Functions can be categorized into four main types: *   **Built-in** functions: provided by the programming language, like `print()` in Python. *   **User-defined** functions: written by the user for a specific use case. *   **Anonymous** functions: also known as lambda functions, which are not declared using the standard keyword (`def` in Python, for example). *   **Higher-order** functions: functions that take other functions as arguments or return a function.",
+      "resources": []
+    },
+    "OkdM_PJge70j5tsjT2Esl": {
+      "id": "OkdM_PJge70j5tsjT2Esl",
+      "slug": "go",
+      "title": "Go",
+      "description": "Go is an open source programming language supported by Google. Go can be used to write cloud services, CLI tools, used for API development, and much more.",
+      "resources": [
+        {
+          "id": "OkdM_PJge70j5tsjT2Esl-res-1",
+          "type": "article",
+          "title": "Visit Dedicated Go Roadmap",
+          "url": "https://roadmap.sh/golang"
+        },
+        {
+          "id": "OkdM_PJge70j5tsjT2Esl-res-2",
+          "type": "article",
+          "title": "A Tour of Go – Go Basics",
+          "url": "https://go.dev/tour/welcome/1"
+        },
+        {
+          "id": "OkdM_PJge70j5tsjT2Esl-res-3",
+          "type": "article",
+          "title": "Go Reference Documentation",
+          "url": "https://go.dev/doc/"
+        },
+        {
+          "id": "OkdM_PJge70j5tsjT2Esl-res-4",
+          "type": "article",
+          "title": "Go by Example - annotated example programs",
+          "url": "https://gobyexample.com/"
+        },
+        {
+          "id": "OkdM_PJge70j5tsjT2Esl-res-5",
+          "type": "article",
+          "title": "Making a RESTful JSON API in Go",
+          "url": "https://thenewstack.io/make-a-restful-json-api-go/"
+        },
+        {
+          "id": "OkdM_PJge70j5tsjT2Esl-res-6",
+          "type": "article",
+          "title": "Go, the Programming Language of the Cloud",
+          "url": "https://thenewstack.io/go-the-programming-language-of-the-cloud/"
+        },
+        {
+          "id": "OkdM_PJge70j5tsjT2Esl-res-7",
+          "type": "article",
+          "title": "Explore top posts about Golang",
+          "url": "https://app.daily.dev/tags/golang?ref=roadmapsh"
+        }
+      ]
+    },
+    "j_r1tB16bA7R3yDAWN7Oj": {
+      "id": "j_r1tB16bA7R3yDAWN7Oj",
+      "slug": "graph-data-structures",
+      "title": "Graph Data Structure",
+      "description": "A **Graph Data Structure** consists of a set of vertices (or nodes) and edges where each edge connects a pair of vertices. It can be visualized as networks consisting of elements in interconnected various relationships. There are two major types of graphs: Directed and Undirected. In a directed graph, all the edges are unidirectional - they only go one way. On the other hand, in an undirected graph, the edges are not directed - they are bidirectional. Another concept important to graphs is the idea of 'Weighted' and 'Unweighted' graphs. In a weighted graph, each edge is assigned a weight or cost. Unweighted graphs don't have these extra edge information. Graphs have a diverse set of applications in computer science, from creating connections between web pages to modeling networks and much more.",
+      "resources": []
+    },
+    "qUlqyTjk3XKF9DEm6Lsgb": {
+      "id": "qUlqyTjk3XKF9DEm6Lsgb",
+      "slug": "greedy-algorithms",
+      "title": "Greedy Algorithms",
+      "description": "Greedy algorithms follow the problem-solving heuristic of making the locally optimal choice at each stage with the hope of finding a global optimum. They are used for optimization problems. An optimal solution is one where the value of the solution is either maximum or minimum. These algorithms work in a \" greedy\" manner by choosing the best option at the current, disregarding any implications on the future steps. This can lead to solutions that are less optimal. Examples of problems solved by greedy algorithms are Kruskal's minimal spanning tree algorithm, Dijkstra's shortest path algorithm, and the Knapsack problem.",
+      "resources": [
+        {
+          "id": "qUlqyTjk3XKF9DEm6Lsgb-res-1",
+          "type": "video",
+          "title": "Greedy Algorithms Tutorial",
+          "url": "https://www.youtube.com/watch?v=bC7o8P_Ste4"
+        }
+      ]
+    },
+    "kSy-8ubESdmIX4Fyl8TSu": {
+      "id": "kSy-8ubESdmIX4Fyl8TSu",
+      "slug": "hash-tables",
+      "title": "Hash Tables",
+      "description": "`Hash Tables` are specialized data structures that allow fast access to data based on a key. Essentially, a hash table works by taking a key input, and then computes an index into an array in which the desired value can be found. It uses a hash function to calculate this index. Suppose the elements are integers and the hash function returns the value at the unit's place. If the given key is 22, it will check the value at index 2. Collisions occur when the hash function returns the same output for two different inputs. There are different methods to handle these collisions such as chaining and open addressing.",
+      "resources": [
+        {
+          "id": "kSy-8ubESdmIX4Fyl8TSu-res-1",
+          "type": "video",
+          "title": "Hash Table",
+          "url": "https://www.youtube.com/watch?v=KEs5UyBJ39g&ab_channel=takeUforward"
+        },
+        {
+          "id": "kSy-8ubESdmIX4Fyl8TSu-res-2",
+          "type": "video",
+          "title": "Python Hash Table Part 1",
+          "url": "https://www.youtube.com/watch?v=ea8BRGxGmlA"
+        },
+        {
+          "id": "kSy-8ubESdmIX4Fyl8TSu-res-3",
+          "type": "video",
+          "title": "Python Hash Table Part 2",
+          "url": "https://www.youtube.com/watch?v=54iv1si4YCM"
+        }
+      ]
+    },
+    "yMv9Oa3hsgT8Adx6m_rdL": {
+      "id": "yMv9Oa3hsgT8Adx6m_rdL",
+      "slug": "heap-sort",
+      "title": "Heap Sort",
+      "description": "Heap Sort is an efficient, comparison-based sorting algorithm. It utilizes a data structure known as a 'binary heap', and works by dividing its input into a sorted and an unsorted region, and iteratively shrinking the unsorted region by extracting the largest element and moving that to the sorted region. It's an in-place algorithm but not a stable sort. It involves building a Max-Heap, which is a specialized tree-based data structure, and then swapping the root node (maximum element) with the last node, reducing the size of heap by one and heapifying the root node. The maximum element is now at the end of the list and this step is repeated until all nodes are sorted. Heap Sort offers a good worst-case runtime of O(n log n), irrespective of the input data.",
+      "resources": [
+        {
+          "id": "yMv9Oa3hsgT8Adx6m_rdL-res-1",
+          "type": "article",
+          "title": "Heap Sort Visualize",
+          "url": "https://www.hackerearth.com/practice/algorithms/sorting/heap-sort/tutorial/"
+        },
+        {
+          "id": "yMv9Oa3hsgT8Adx6m_rdL-res-2",
+          "type": "video",
+          "title": "Heap sort in 4 minutes",
+          "url": "https://www.youtube.com/watch?v=2DmK_H7IdTo"
+        }
+      ]
+    },
+    "R3Coq0TG1_cSOXzXWgpuI": {
+      "id": "R3Coq0TG1_cSOXzXWgpuI",
+      "slug": "heap",
+      "title": "Heap",
+      "description": "A heap is a type of data structure in computer science that is like a tree, where each parent node is always bigger (in a max heap) or smaller (in a min heap) than its child nodes.",
+      "resources": [
+        {
+          "id": "R3Coq0TG1_cSOXzXWgpuI-res-1",
+          "type": "article",
+          "title": "Heap Data Structure",
+          "url": "https://www.programiz.com/dsa/heap-data-structure"
+        },
+        {
+          "id": "R3Coq0TG1_cSOXzXWgpuI-res-2",
+          "type": "video",
+          "title": "Heap Data Structure",
+          "url": "https://www.youtube.com/watch?v=t0Cq6tVNRBA"
+        },
+        {
+          "id": "R3Coq0TG1_cSOXzXWgpuI-res-3",
+          "type": "video",
+          "title": "Heaps and Priority Queues",
+          "url": "https://www.youtube.com/watch?v=B7hVxCmfPtM"
+        }
+      ]
+    },
+    "HosRc0hczubBHrWxCzEJj": {
+      "id": "HosRc0hczubBHrWxCzEJj",
+      "slug": "how-to-calculate-complexity",
+      "title": "How to Calculate Complexity?",
+      "description": "The process of calculating algorithmic complexity, often referred to as Big O notation, involves counting the operations or steps an algorithm takes in function of the size of its input. The aim is to identify the worst-case, average-case, and best-case complexity. Generally, the main focus is on the worst-case scenario which represents the maximum number of steps taken by an algorithm. To calculate it, you consider the highest order of size (n) in your algorithm's steps. For instance, if an algorithm performs a loop 5 times for 'n' items, and then does 3 unrelated steps, it has a complexity of O(n), because the linear steps grow faster than constant ones as n increases. Other complexities include O(1) for constant complexity, O(n) for linear complexity, O(n^2) for quadratic complexity, and so on, based on how the steps increase with size.",
+      "resources": [
+        {
+          "id": "HosRc0hczubBHrWxCzEJj-res-1",
+          "type": "video",
+          "title": "Time & Space Complexity",
+          "url": "https://www.youtube.com/watch?v=Z0bH0cMY0E8"
+        },
+        {
+          "id": "HosRc0hczubBHrWxCzEJj-res-2",
+          "type": "video",
+          "title": "How Write and Analyze Algorithm",
+          "url": "https://www.youtube.com/watch?v=xGYsEqe9Vl0"
+        }
+      ]
+    },
+    "iCA7UKZih4ItDmDNEC8Q-": {
+      "id": "iCA7UKZih4ItDmDNEC8Q-",
+      "slug": "in-order-traversal",
+      "title": "In-Order Traversal",
+      "description": "In order traversal is a method for traversing binary trees. This method follows a specific order: Left Node, Root Node, then Right Node (L-N-R). Starting from the leftmost node of the tree, you first visit the left subtree, then the root node, and finally the right subtree. If the tree is a binary search tree, in order traversal will output the values of the nodes in the tree in ascending order. This traversal method is recursive in nature, as it requires each subtree to be visited in the exact same way.",
+      "resources": []
+    },
+    "Ar7GEGfI9O_dLPbIEVhF_": {
+      "id": "Ar7GEGfI9O_dLPbIEVhF_",
+      "slug": "indexing",
+      "title": "Indexing",
+      "description": "Indexing is a data structure technique to efficiently retrieve data from a database. It essentially creates a lookup that can be used to quickly find the location of data records on a disk. Indexes are created using a few database columns and are capable of rapidly locating data without scanning every row in a database table each time the database table is accessed. Indexes can be created using any combination of columns in a database table, reducing the amount of time it takes to find data. Indexes can be structured in several ways: Binary Tree, B-Tree, Hash Map, etc., each having its own particular strengths and weaknesses. When creating an index, it's crucial to understand which type of index to apply in order to achieve maximum efficiency. Indexes, like any other database feature, must be used wisely because they require disk space and need to be maintained, which can slow down insert and update operations.",
+      "resources": []
+    },
+    "liJfTV5ajAFZcfwBdVGpU": {
+      "id": "liJfTV5ajAFZcfwBdVGpU",
+      "slug": "insertion-sort",
+      "title": "Insertion Sort",
+      "description": "Insertion sort is a simple sorting algorithm that works by iteratively inserting each element of an unsorted list into its correct position in a sorted portion of the list. It is like sorting playing cards in your hands. You split the cards into two groups: the sorted cards and the unsorted cards. Then, you pick a card from the unsorted group and put it in the right place in the sorted group. - Start with the second element as the first element is assumed to be sorted. - Compare the second element with the first if the second is smaller then swap them. - Move to the third element, compare it with the first two, and put it in its correct position - Repeat until the entire array is sorted.",
+      "resources": [
+        {
+          "id": "liJfTV5ajAFZcfwBdVGpU-res-1",
+          "type": "course",
+          "title": "Insertion Sort",
+          "url": "https://youtu.be/JU767SDMDvA"
+        },
+        {
+          "id": "liJfTV5ajAFZcfwBdVGpU-res-2",
+          "type": "article",
+          "title": "Insertion Sort Visualization",
+          "url": "https://www.hackerearth.com/practice/algorithms/sorting/insertion-sort/visualize/"
+        }
+      ]
+    },
+    "uxErZ4gLeKqwhrUG88InQ": {
+      "id": "uxErZ4gLeKqwhrUG88InQ",
+      "slug": "isam",
+      "title": "ISAM",
+      "description": "ISAM, which stands for Indexed Sequential Access Method, is a type of disk storage access method developed by IBM. It combines features of both sequential and direct access methods to store and retrieve data. ISAM primarily organizes data sequentially but creates an index to provide direct access to the data blocks. This index allows for quick retrieval of data records, improving efficiency and performance. A key feature of ISAM is that it maintains the data sequence even after insertions and deletions, ensuring that the data remains ordered for efficient processing.",
+      "resources": [
+        {
+          "id": "uxErZ4gLeKqwhrUG88InQ-res-1",
+          "type": "video",
+          "title": "DBMS - Index Sequential Access Method (ISAM)",
+          "url": "https://www.youtube.com/watch?v=EiW1VVPor10"
+        }
+      ]
+    },
+    "q9qLI6HzOJ0vYaIVrZ5CU": {
+      "id": "q9qLI6HzOJ0vYaIVrZ5CU",
+      "slug": "island-traversal",
+      "title": "Island traversal",
+      "description": "Island traversal is a grid-based technique used to find connected regions of cells that share a common value, typically `1`s in a binary matrix. It combines grid traversal with depth-first or breadth-first search — often with visited tracking — to count islands, measure their size, or analyze their shape.",
+      "resources": []
+    },
+    "gjZZOwmYkXQHPfg9Ynz80": {
+      "id": "gjZZOwmYkXQHPfg9Ynz80",
+      "slug": "java",
+      "title": "Java",
+      "description": "Java is general-purpose language, primarily used for Internet-based applications. It was created in 1995 by James Gosling at Sun Microsystems and is one of the most popular options for backend developers.",
+      "resources": [
+        {
+          "id": "gjZZOwmYkXQHPfg9Ynz80-res-1",
+          "type": "article",
+          "title": "Visit Dedicated Java Roadmap",
+          "url": "https://roadmap.sh/java"
+        },
+        {
+          "id": "gjZZOwmYkXQHPfg9Ynz80-res-2",
+          "type": "article",
+          "title": "Java Website",
+          "url": "https://www.java.com/"
+        },
+        {
+          "id": "gjZZOwmYkXQHPfg9Ynz80-res-3",
+          "type": "video",
+          "title": "Java Crash Course",
+          "url": "https://www.youtube.com/watch?v=eIrMbAQSU34"
+        },
+        {
+          "id": "gjZZOwmYkXQHPfg9Ynz80-res-4",
+          "type": "video",
+          "title": "Complete Java course",
+          "url": "https://www.youtube.com/watch?v=xk4_1vDrzzo"
+        },
+        {
+          "id": "gjZZOwmYkXQHPfg9Ynz80-res-5",
+          "type": "article",
+          "title": "Explore top posts about Java",
+          "url": "https://app.daily.dev/tags/java?ref=roadmapsh"
+        }
+      ]
+    },
+    "HVD9G3JlLBsAg111vQILj": {
+      "id": "HVD9G3JlLBsAg111vQILj",
+      "slug": "javascript",
+      "title": "JavaScript",
+      "description": "JavaScript allows you to add interactivity to your pages. Common examples that you may have seen on the websites are sliders, click interactions, popups and so on. Apart from being used on the frontend in browsers, there is Node.js which is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser.",
+      "resources": [
+        {
+          "id": "HVD9G3JlLBsAg111vQILj-res-1",
+          "type": "article",
+          "title": "Visit Dedicated JavaScript Roadmap",
+          "url": "https://roadmap.sh/javascript"
+        },
+        {
+          "id": "HVD9G3JlLBsAg111vQILj-res-2",
+          "type": "article",
+          "title": "The Modern JavaScript Tutorial",
+          "url": "https://javascript.info/"
+        },
+        {
+          "id": "HVD9G3JlLBsAg111vQILj-res-3",
+          "type": "article",
+          "title": "Official Documentation",
+          "url": "https://nodejs.org/en/learn/getting-started/introduction-to-nodejs"
+        },
+        {
+          "id": "HVD9G3JlLBsAg111vQILj-res-4",
+          "type": "video",
+          "title": "JavaScript Crash Course for Beginners",
+          "url": "https://youtu.be/hdI2bqOjy3c"
+        },
+        {
+          "id": "HVD9G3JlLBsAg111vQILj-res-5",
+          "type": "video",
+          "title": "Node.js Crash Course",
+          "url": "https://www.youtube.com/watch?v=fBNz5xF-Kx4"
+        },
+        {
+          "id": "HVD9G3JlLBsAg111vQILj-res-6",
+          "type": "video",
+          "title": "Node.js Tutorial for Beginners",
+          "url": "https://www.youtube.com/watch?v=TlB_eWDSMt4"
+        },
+        {
+          "id": "HVD9G3JlLBsAg111vQILj-res-7",
+          "type": "article",
+          "title": "Explore top posts about JavaScript",
+          "url": "https://app.daily.dev/tags/javascript?ref=roadmapsh"
+        }
+      ]
+    },
+    "F3bPbwIdCNMzL7QXEYJK3": {
+      "id": "F3bPbwIdCNMzL7QXEYJK3",
+      "slug": "kruskals-algorithm",
+      "title": "Kruskal's Algorithm",
+      "description": "Kruskal's algorithm is a popular procedure in computer science for finding minimum spanning trees in a graph, developed by Joseph Kruskal in 1956. The algorithm operates by sorting the edges of the graph by their weight in ascending order. Then, it loops through each, adding the edge to the spanning tree if it doesn't form a circuit with the edges already there. This process repeats until all the vertices in the graph are included in the tree. Kruskal's algorithm belongs to the group of Greedy Algorithms as it tries to find the local optimum at each stage with the hope of finding the global optimum. It has an overall time complexity of O(E log E) or O(E log V), where E is the number of edges and V is the number of vertices.",
+      "resources": []
+    },
+    "JcchUF_U99zkFpXp3VT2R": {
+      "id": "JcchUF_U99zkFpXp3VT2R",
+      "slug": "kth-element",
+      "title": "Kth Element",
+      "description": "Kth element problems ask you to find the kth smallest (or largest) element in a collection without fully sorting it. Common solutions include heaps, quickselect, or sorting, depending on the constraints — a pattern that also appears in questions about arrays, streams, and binary search trees.",
+      "resources": []
+    },
+    "kE6qddRhO8C5ur3JbeuhF": {
+      "id": "kE6qddRhO8C5ur3JbeuhF",
+      "slug": "language-syntax",
+      "title": "Language Syntax",
+      "description": "Language syntax refers to the set of rules that dictate how programs written in a particular programming language must be structured. This can include rules for how to declare variables, how to call functions, how to structure control flow statements, and so on. Syntax varies significantly between different programming languages, so it is critical to grasp the specific syntax of the language you are using. It’s similar to grammar in human languages - putting words in the wrong order or including extraneous punctuation can make a sentence hard to understand, and the same applies to programming. Incorrect syntax leads to syntax errors which prevent your code from executing. Learn the language syntax of the programming language you are using.",
+      "resources": []
+    },
+    "waM_j5mbe_XoA7h8u4vFN": {
+      "id": "waM_j5mbe_XoA7h8u4vFN",
+      "slug": "leetcode",
+      "title": "Leetcode",
+      "description": "[LeetCode](https://leetcode.com/) is a widely recognized online platform used for preparing coding interviews and improving problem-solving skills. It offers a vast collection of programming challenges that can be solved in multiple programming languages. The problems are categorized by difficulty level, and each problem has a solution provided by the community. LeetCode also provides a discussion board for each problem where users can discuss solutions, optimized ideas, and their thoughts. It also features mock interviews, articles, and a strong community of programmers to engage and learn from.",
+      "resources": []
+    },
+    "AtX-PeI8nY4-5bA-xLla0": {
+      "id": "AtX-PeI8nY4-5bA-xLla0",
+      "slug": "linear-search",
+      "title": "Linear Search",
+      "description": "Linear search is one of the simplest search algorithms. In this method, every element in an array is checked sequentially starting from the first until a match is found or all elements have been checked. It is also known as sequential search. It works on both sorted and unsorted lists, and does not need any preconditioned list for the operation. However, its efficiency is lesser as compared to other search algorithms since it checks all elements one by one.",
+      "resources": [
+        {
+          "id": "AtX-PeI8nY4-5bA-xLla0-res-1",
+          "type": "video",
+          "title": "Learn Linear Search in 3 minutes",
+          "url": "https://www.youtube.com/watch?v=246V51AWwZM"
+        }
+      ]
+    },
+    "4noav5w_8GrMTXN1Lxm5h": {
+      "id": "4noav5w_8GrMTXN1Lxm5h",
+      "slug": "linear",
+      "title": "Linear Indexing",
+      "description": "Linear indexing is a type of data structure method where each element of an array is indexed successively in a linear format. This method treats multi-dimensional arrays as a long vector and provides a simple way to traverse through all the elements of the array in a sequence without the need for multiple loop statements. For instance, in a 2D array, the first index refers to rows and the second to columns. Using linear indexing, elements are indexed from top left to bottom right moving row by row. Despite its simplicity, this method is often less efficient than other forms of indexing for multidimensional arrays.",
+      "resources": []
+    },
+    "HOpL-4jYhOe0LNrrkPrET": {
+      "id": "HOpL-4jYhOe0LNrrkPrET",
+      "slug": "linear",
+      "title": "Linear",
+      "description": "Linear time complexity, denoted as O(n), is one of the best possible algorithmic performance situations. An algorithm is said to have a linear time complexity when the running time increases at most linearly with the size of the input data. This means that if you double the size of the input, the running time will at most double as well. In an ideal situation, every single element in the data set should be viewed exactly once. Sorting algorithms such as counting sort and bucket sort have linear time complexity under certain conditions.",
+      "resources": []
+    },
+    "bRu9u8pEAQ1TmKygjIjyI": {
+      "id": "bRu9u8pEAQ1TmKygjIjyI",
+      "slug": "linked-lists",
+      "title": "Linked Lists",
+      "description": "Linked Lists are a type of data structure used for storing collections of data. The data is stored in nodes, each of which contains a data field and a reference (link) to the next node in the sequence. Structurally, a linked list is organized into a sequence or chain of nodes, hence the name. Two types of linked lists are commonly used: singly linked lists, where each node points to the next node and the last node points to null, and doubly linked lists, where each node has two links, one to the previous node and another one to the next. Linked Lists are used in other types of data structures like stacks and queues.",
+      "resources": [
+        {
+          "id": "bRu9u8pEAQ1TmKygjIjyI-res-1",
+          "type": "video",
+          "title": "Introduction To Linked List",
+          "url": "https://youtu.be/Nq7ok-OyEpg?si=xttaGoYKcoJ09Ln2"
+        },
+        {
+          "id": "bRu9u8pEAQ1TmKygjIjyI-res-2",
+          "type": "video",
+          "title": "Python Linked List",
+          "url": "https://www.youtube.com/watch?v=qp8u-frRAnU&list=PLeo1K3hjS3uu_n_a__MI_KktGTLYopZ12&index=4&ab_channel=codebasics"
+        }
+      ]
+    },
+    "Cnceet0yroFHzn8npAir8": {
+      "id": "Cnceet0yroFHzn8npAir8",
+      "slug": "logarithmic",
+      "title": "Logarithmic",
+      "description": "Logarithmic time complexity (O(log n)) often indicates that the algorithm halves the size of the input at each step. It's more efficient compared to linear time complexity. Binary search is a classic example of logarithmic time complexity where at every step, the algorithm breaks the list into half until it finds the desired element. As the size of the input increases, the growth of the time taken by an algorithm with logarithmic complexity grows slowly because it divides the problem into smaller parts in each step.",
+      "resources": []
+    },
+    "S2mBvlFTd673XcXxisD5P": {
+      "id": "S2mBvlFTd673XcXxisD5P",
+      "slug": "merge-intervals",
+      "title": "Merge Intervals",
+      "description": "The merge intervals pattern deals with overlapping ranges, typically merging a list of intervals that intersect. The standard approach sorts the intervals by start time and then folds them together in a single pass — a technique used in scheduling, availability, and range problems.",
+      "resources": []
+    },
+    "k0UBAj3hOYab4mUziOYyW": {
+      "id": "k0UBAj3hOYab4mUziOYyW",
+      "slug": "merge-sort",
+      "title": "Merge Sort",
+      "description": "**Merge sort** is a type of sorting algorithm that follows the divide-and-conquer paradigm. It was invented by John von Neumann in 1945. This algorithm works by dividing an unsorted list into `n` partitions, each containing one element (a list of one element is considered sorted), then repeatedly merging partitions to produce new sorted lists until there is only 1 sorted list remaining. This resulting list is the fully sorted list. The process of dividing the list is done recursively until it hits the base case of a list with one item. Merge sort has a time complexity of `O(n log n)` for all cases (best, average and worst), which makes it highly efficient for large data sets.",
+      "resources": [
+        {
+          "id": "k0UBAj3hOYab4mUziOYyW-res-1",
+          "type": "article",
+          "title": "Merge Sort Visualize",
+          "url": "https://www.hackerearth.com/practice/algorithms/sorting/merge-sort/visualize/"
+        },
+        {
+          "id": "k0UBAj3hOYab4mUziOYyW-res-2",
+          "type": "video",
+          "title": "Merge Sort",
+          "url": "https://www.youtube.com/watch?v=4VqmGXwpLqc"
+        }
+      ]
+    },
+    "Ktqau1VkVrnnVYByqcacM": {
+      "id": "Ktqau1VkVrnnVYByqcacM",
+      "slug": "minimum-spanning-tree",
+      "title": "Graph Data Structure",
+      "description": "A **Graph Data Structure** consists of a set of vertices (or nodes) and edges where each edge connects a pair of vertices. It can be visualized as networks consisting of elements in interconnected various relationships. There are two major types of graphs: Directed and Undirected. In a directed graph, all the edges are unidirectional - they only go one way. On the other hand, in an undirected graph, the edges are not directed - they are bidirectional. Another concept important to graphs is the idea of 'Weighted' and 'Unweighted' graphs. In a weighted graph, each edge is assigned a weight or cost. Unweighted graphs don't have these extra edge information. Graphs have a diverse set of applications in computer science, from creating connections between web pages to modeling networks and much more.",
+      "resources": []
+    },
+    "gaaRAL3HR48Qj9rz1CkDU": {
+      "id": "gaaRAL3HR48Qj9rz1CkDU",
+      "slug": "multi-threaded",
+      "title": "Multi-threaded",
+      "description": "Multi-threaded algorithms divide work across multiple threads to run faster on multi-core machines. Common patterns include parallel divide-and-conquer, thread-safe queues for producer-consumer flows, and careful synchronization to avoid race conditions — with quality often measured by speedup and scalability.",
+      "resources": []
+    },
+    "QFR1FMOf2OV3n3jcDnOCP": {
+      "id": "QFR1FMOf2OV3n3jcDnOCP",
+      "slug": "oop-basics",
+      "title": "OOP Basics",
+      "description": "Object-oriented programming (OOP) is a programming paradigm that uses \"objects\" to design applications and software. In OOP, each object is an instance of a class. A class defines the properties (often known as attributes or fields) and methods (actions) that are common to all objects of a certain kind. A key principle of OOP is the ability to hide certain parts of the objects’ data from the outside, a concept known as encapsulation. Other key principles are inheritance, a way to form new classes using classes that have already been defined, and polymorphism, the concept of designing objects to share behaviors and being able to override shared behaviors with specifics.",
+      "resources": [
+        {
+          "id": "QFR1FMOf2OV3n3jcDnOCP-res-1",
+          "type": "video",
+          "title": "Object-Oriented Programming (Simplified)",
+          "url": "https://youtu.be/pTB0EiLXUC8?si=I8rV2K5fhpoqmixX"
+        }
+      ]
+    },
+    "Z4uVzAoNzcAkyjd-lp3_M": {
+      "id": "Z4uVzAoNzcAkyjd-lp3_M",
+      "slug": "pick-a-language",
+      "title": "Pick a Language",
+      "description": "Pick a programming language to practice data structures and algorithms with. You should pick a language that you are comfortable with or plan to adopt.",
+      "resources": []
+    },
+    "VMV4F-SPKWn9CtpHXEjeN": {
+      "id": "VMV4F-SPKWn9CtpHXEjeN",
+      "slug": "platforms-to-practice",
+      "title": "Platforms for Practice",
+      "description": "There are numerous platforms for practicing data structures and algorithms. Some of the notable ones include LeetCode, with a vast collection of challenges and a robust community, and HackerRank, which provides a diverse set of problems and hosts competitive coding contests. Other platforms such as CodeChef, AtCoder, and TopCoder also host contests and have a vast problemset archive. For those interested in learning through problem-solving and real-world coding, platforms like Project Euler and CodeSignal could be more appealing. Practice can also be undertaken through interactive platforms like Codewars and Exercism, which offer gamified experiences. Another option is InterviewBit, which provides problems contextualized within interview scenarios. These platforms cover a broad range of difficulty levels and languages, offering a comprehensive practice environment for beginners and experts alike.",
+      "resources": []
+    },
+    "QKhmM_IG1FkBudfdrf1aT": {
+      "id": "QKhmM_IG1FkBudfdrf1aT",
+      "slug": "polynomial",
+      "title": "Polynomial",
+      "description": "Polynomial time complexity, denoted as O(n^k), is a class of time complexity that represents the amount of time an algorithm takes to run as being proportional to the size of the input data raised to a constant power 'k'. Polynomial time complexity includes runtimes like O(n), O(n^2), O(n^3), etc. The value 'n' is a representation of the size of the input, while 'k' represents a constant. Algorithms running in polynomial time are considered to be reasonably efficient for small and medium-sized inputs, but can become impractical for large input sizes due to the rapid growth rate of function.",
+      "resources": []
+    },
+    "j6_DyKiyG1wBuygQkxWB7": {
+      "id": "j6_DyKiyG1wBuygQkxWB7",
+      "slug": "post-order-traversal",
+      "title": "Post-Order Traversal",
+      "description": "Post Order Traversal is a technique used in Binary Tree structure where each node is processed after its child nodes. As the name suggests, it first traverses the left subtree, then the right subtree, and finally the root node. The process is recursively repeated for each subtree until the entire tree has been traversed. This traversal method is often used for calculations that require that all child nodes be processed before the parent, such as evaluating a mathematical expression represented in a tree structure.",
+      "resources": []
+    },
+    "BMEoO65zsX51H4Js1gcWI": {
+      "id": "BMEoO65zsX51H4Js1gcWI",
+      "slug": "pre-order-traversal",
+      "title": "Pre-Order Traversal",
+      "description": "Pre Order Traversal is a very specific kind of tree traversal in data structures. In this method of traversal, the process starts from the root node, then proceeds to the left subtree, and finally to the right subtree. To put it concisely, the order of traversal is Root, Left, and Right (often abbreviated as R-L-R). This makes it particularly useful in scenarios where it's important to duplicate or clone a tree, or to get a prefix expression (Polish notation) of a binary expression tree.",
+      "resources": []
+    },
+    "yEWnYjW0ZLVhsLc9rH4ae": {
+      "id": "yEWnYjW0ZLVhsLc9rH4ae",
+      "slug": "prims-algorithm",
+      "title": "Prim's Algorithm",
+      "description": "Prim's algorithm is a greedy algorithm that finds a minimum spanning tree for a weighted undirected graph. This means it finds a subset of the edges that forms a tree that includes every vertex, where the total weight of all the edges in the tree is minimized. The algorithm operates by building this tree one vertex at a time, from an arbitrary starting vertex, at each step adding the cheapest possible connection from the tree to another vertex.",
+      "resources": []
+    },
+    "Y1Uz6XRbR1YqFtO4akiPA": {
+      "id": "Y1Uz6XRbR1YqFtO4akiPA",
+      "slug": "problem-solving-techniques",
+      "title": "Problem Solving Techniques",
+      "description": "\"Problem Solving Techniques\" is a topic that explore various methods used to solve problems in computing and mathematics. They are approaches and procedures that help in the systematic identification and resolution of complex issues. Some of these techniques include \"Divide and Conquer\" where a problem is split into subproblems to make it easier to solve, \"Dynamic Programming\" which solves problems by dividing them into smaller similar sub-problems and storing the solutions of these subproblems to avoid unnecessary calculations, \"Greedy Algorithms\" which make the globally optimal choice at each step, \"Backtracking\" is used when problem can be solved incrementally, \"Branch and Bound\" method is used for optimization problems. These techniques are designed to efficiently solve problems by significantly reducing the time and computational effort required.",
+      "resources": []
+    },
+    "ebQdTOAOV54WBToHmFtBk": {
+      "id": "ebQdTOAOV54WBToHmFtBk",
+      "slug": "programming-fundamentals",
+      "title": "Programming Fundamentals",
+      "description": "Programming Fundamentals are the basic concepts and principles that form the foundation of any computer programming language. These include understanding variables, which store data for processing, control structures such as loops and conditional statements that direct the flow of a program, data structures which organize and store data efficiently, and algorithms which step by step instructions to solve specific problems or perform specific tasks. Mastery of these fundamentals forms the basis for learning any specific programming language and for writing efficient, effective code.",
+      "resources": []
+    },
+    "tvy3Vic8Vp-Ie2x_OyZ5b": {
+      "id": "tvy3Vic8Vp-Ie2x_OyZ5b",
+      "slug": "pseudo-code",
+      "title": "Pseudo Code",
+      "description": "Pseudo code is a plain language description of the steps in an algorithm or another system. It is intended for human reading rather than machine reading. Pseudo code often uses control structures and terms common to popular high-level programming languages without strictly adhering to the syntax of any particular one. The foremost aim of pseudocode is to explain the inner \"algorithmic thinking\" behind coding, rather than focusing on the syntax of a particular language. A nice feature of pseudocode is that it is largely able to be understood by a wider range of people than the corresponding code in a specific programming language, which enhances its roles in drafting, documentation, learning, and collaboration aspects.",
+      "resources": []
+    },
+    "XyRCXhZjQFcDNaUSNNQV-": {
+      "id": "XyRCXhZjQFcDNaUSNNQV-",
+      "slug": "python",
+      "title": "Python",
+      "description": "Python is a well known programming language which is both a strongly typed and a dynamically typed language. Being an interpreted language, code is executed as soon as it is written and the Python syntax allows for writing code in functional, procedural or object-oriented programmatic ways.",
+      "resources": [
+        {
+          "id": "XyRCXhZjQFcDNaUSNNQV--res-1",
+          "type": "article",
+          "title": "Visit Dedicated Python Roadmap",
+          "url": "https://roadmap.sh/python"
+        },
+        {
+          "id": "XyRCXhZjQFcDNaUSNNQV--res-2",
+          "type": "article",
+          "title": "Python Website",
+          "url": "https://www.python.org/"
+        },
+        {
+          "id": "XyRCXhZjQFcDNaUSNNQV--res-3",
+          "type": "article",
+          "title": "Python Getting Started",
+          "url": "https://www.python.org/about/gettingstarted/"
+        },
+        {
+          "id": "XyRCXhZjQFcDNaUSNNQV--res-4",
+          "type": "article",
+          "title": "Automate the Boring Stuff",
+          "url": "https://automatetheboringstuff.com/"
+        },
+        {
+          "id": "XyRCXhZjQFcDNaUSNNQV--res-5",
+          "type": "article",
+          "title": "Python principles - Python basics",
+          "url": "https://pythonprinciples.com/"
+        },
+        {
+          "id": "XyRCXhZjQFcDNaUSNNQV--res-6",
+          "type": "article",
+          "title": "Python Crash Course",
+          "url": "https://ehmatthes.github.io/pcc/"
+        },
+        {
+          "id": "XyRCXhZjQFcDNaUSNNQV--res-7",
+          "type": "article",
+          "title": "An Introduction to Python for Non-Programmers",
+          "url": "https://thenewstack.io/an-introduction-to-python-for-non-programmers/"
+        },
+        {
+          "id": "XyRCXhZjQFcDNaUSNNQV--res-8",
+          "type": "article",
+          "title": "Explore top posts about Python",
+          "url": "https://app.daily.dev/tags/python?ref=roadmapsh"
+        }
+      ]
+    },
+    "v0phjC75jhmE1z-f9ZMck": {
+      "id": "v0phjC75jhmE1z-f9ZMck",
+      "slug": "queues",
+      "title": "Queues",
+      "description": "Queues are a type of data structure in which elements are held in a sequence and access is restricted to one end. Elements are added (\"enqueued\") at the rear end and removed (\"dequeued\") from the front. This makes queues a First-In, First-Out (FIFO) data structure. This type of organization is particularly useful for specific situations such as printing jobs, handling requests in a web server, scheduling tasks in a system, etc. Due to its FIFO property, once a new element is inserted into the queue, all elements that were inserted before the new element must be removed before the new element can be invoked. The fundamental operations associated with queues include Enqueue (insert), Dequeue (remove) and Peek (get the top element).",
+      "resources": [
+        {
+          "id": "v0phjC75jhmE1z-f9ZMck-res-1",
+          "type": "video",
+          "title": "Queue",
+          "url": "https://www.youtube.com/watch?v=M6GnoUDpqEE"
+        },
+        {
+          "id": "v0phjC75jhmE1z-f9ZMck-res-2",
+          "type": "video",
+          "title": "Python Queue",
+          "url": "https://www.youtube.com/watch?v=rUUrmGKYwHw"
+        }
+      ]
+    },
+    "LgEV0Wm4avrOqR8bV5GXW": {
+      "id": "LgEV0Wm4avrOqR8bV5GXW",
+      "slug": "quick-sort",
+      "title": "Quick Sort",
+      "description": "Quicksort, also known as partition-exchange sort, is an efficient, in-place sorting algorithm, which uses divide and conquer principles. It was developed by Tony Hoare in 1959. It operates by selecting a 'pivot' element from the array and partitioning the other elements into two sub-arrays, according to whether they are less than or greater than the pivot. The sub-arrays are then recursively sorted. This process continues until the base case is achieved, which is when the array or sub-array has zero or one element, hence is already sorted. Quicksort can have worst-case performance of O(n^2) if the pivot is the smallest or the largest element in the array, although this scenario is rare if the pivot is chosen randomly. The average case time complexity is O(n log n).",
+      "resources": [
+        {
+          "id": "LgEV0Wm4avrOqR8bV5GXW-res-1",
+          "type": "article",
+          "title": "Quick Sort Visualize",
+          "url": "https://www.hackerearth.com/practice/algorithms/sorting/quick-sort/visualize/"
+        },
+        {
+          "id": "LgEV0Wm4avrOqR8bV5GXW-res-2",
+          "type": "video",
+          "title": "A Complete Overview of Quicksort",
+          "url": "https://www.youtube.com/watch?v=0SkOjNaO1XY"
+        },
+        {
+          "id": "LgEV0Wm4avrOqR8bV5GXW-res-3",
+          "type": "video",
+          "title": "QuickSort",
+          "url": "https://www.youtube.com/watch?v=7h1s2SojIRw"
+        },
+        {
+          "id": "LgEV0Wm4avrOqR8bV5GXW-res-4",
+          "type": "video",
+          "title": "QuickSort Analysis",
+          "url": "https://www.youtube.com/watch?v=-qOVVRIZzao"
+        }
+      ]
+    },
+    "RiS8KZs3YBE6mKWPHszMp": {
+      "id": "RiS8KZs3YBE6mKWPHszMp",
+      "slug": "randomised-algorithms",
+      "title": "Randomised Algorithms",
+      "description": "Randomised algorithms are a type of algorithm that employs a degree of randomness as part of the logic of the algorithm. These algorithms use random numbers to make decisions, and thus, even for the same input, can produce different outcomes on different executions. The correctness of these algorithms are probabilistic and they are particularly useful when dealing with a large input space. There are two major types of randomised algorithms: Las Vegas algorithms, which always give the correct answer, but their running time is a random variable; and Monté Carlo algorithms, where the algorithm has a small probability of viability or accuracy.",
+      "resources": [
+        {
+          "id": "RiS8KZs3YBE6mKWPHszMp-res-1",
+          "type": "video",
+          "title": "Algorithm Classification Randomized Algorithm",
+          "url": "https://www.youtube.com/watch?v=J_EVG6yCOz0"
+        }
+      ]
+    },
+    "4ZAzcwP0oPGZ9Rw042V8-": {
+      "id": "4ZAzcwP0oPGZ9Rw042V8-",
+      "slug": "recursion",
+      "title": "Recursion",
+      "description": "Recursion is a method where the solution to a problem depends on solutions to shorter instances of the same problem. It involves a function calling itself while having a condition for its termination. This technique is mostly used in programming languages like C++, Java, Python, etc. There are two main components in a recursive function: the base case (termination condition) and the recursive case, where the function repeatedly calls itself. All recursive algorithms must have a base case to prevent infinite loops. Recursion can be direct (if a function calls itself) or indirect (if the function A calls another function B, which calls the first function A).",
+      "resources": [
+        {
+          "id": "4ZAzcwP0oPGZ9Rw042V8--res-1",
+          "type": "video",
+          "title": "Recursion in 100 Seconds",
+          "url": "https://www.youtube.com/watch?v=rf60MejMz3E"
+        }
+      ]
+    },
+    "9h1mz0xAUvPrnRm9VndJF": {
+      "id": "9h1mz0xAUvPrnRm9VndJF",
+      "slug": "ruby",
+      "title": "Ruby",
+      "description": "Ruby is a high-level, interpreted programming language that blends Perl, Smalltalk, Eiffel, Ada, and Lisp. Ruby focuses on simplicity and productivity along with a syntax that reads and writes naturally. Ruby supports procedural, object-oriented and functional programming and is dynamically typed.",
+      "resources": [
+        {
+          "id": "9h1mz0xAUvPrnRm9VndJF-res-1",
+          "type": "article",
+          "title": "Ruby Website",
+          "url": "https://www.ruby-lang.org/en/"
+        },
+        {
+          "id": "9h1mz0xAUvPrnRm9VndJF-res-2",
+          "type": "article",
+          "title": "Learn Ruby in 20 minutes",
+          "url": "https://www.ruby-lang.org/en/documentation/quickstart/"
+        },
+        {
+          "id": "9h1mz0xAUvPrnRm9VndJF-res-3",
+          "type": "article",
+          "title": "Ruby, An Introduction to a Programmer’s Best Friend",
+          "url": "https://thenewstack.io/ruby-a-programmers-best-friend/"
+        },
+        {
+          "id": "9h1mz0xAUvPrnRm9VndJF-res-4",
+          "type": "article",
+          "title": "Explore top posts about Ruby",
+          "url": "https://app.daily.dev/tags/ruby?ref=roadmapsh"
+        }
+      ]
+    },
+    "acgRMEuL4ZGGRHpZ7kXSo": {
+      "id": "acgRMEuL4ZGGRHpZ7kXSo",
+      "slug": "rust",
+      "title": "Rust",
+      "description": "Rust is a modern systems programming language focusing on safety, speed, and concurrency. It accomplishes these goals by being memory safe without using garbage collection.",
+      "resources": [
+        {
+          "id": "acgRMEuL4ZGGRHpZ7kXSo-res-1",
+          "type": "article",
+          "title": "The Rust Programming Language - online book",
+          "url": "https://doc.rust-lang.org/book/"
+        },
+        {
+          "id": "acgRMEuL4ZGGRHpZ7kXSo-res-2",
+          "type": "article",
+          "title": "Rust by Example - collection of runnable examples",
+          "url": "https://doc.rust-lang.org/stable/rust-by-example/index.html"
+        },
+        {
+          "id": "acgRMEuL4ZGGRHpZ7kXSo-res-3",
+          "type": "article",
+          "title": "Rust vs. Go: Why They’re Better Together",
+          "url": "https://thenewstack.io/rust-vs-go-why-theyre-better-together/"
+        },
+        {
+          "id": "acgRMEuL4ZGGRHpZ7kXSo-res-4",
+          "type": "article",
+          "title": "Rust by the Numbers: The Rust Programming Language in 2021",
+          "url": "https://thenewstack.io/rust-by-the-numbers-the-rust-programming-language-in-2021/"
+        },
+        {
+          "id": "acgRMEuL4ZGGRHpZ7kXSo-res-5",
+          "type": "article",
+          "title": "Explore top posts about Rust",
+          "url": "https://app.daily.dev/tags/rust?ref=roadmapsh"
+        }
+      ]
+    },
+    "LW5HZMca4lvhbbA8KYaOa": {
+      "id": "LW5HZMca4lvhbbA8KYaOa",
+      "slug": "search-algorithms",
+      "title": "Graph Data Structure",
+      "description": "A **Graph Data Structure** consists of a set of vertices (or nodes) and edges where each edge connects a pair of vertices. It can be visualized as networks consisting of elements in interconnected various relationships. There are two major types of graphs: Directed and Undirected. In a directed graph, all the edges are unidirectional - they only go one way. On the other hand, in an undirected graph, the edges are not directed - they are bidirectional. Another concept important to graphs is the idea of 'Weighted' and 'Unweighted' graphs. In a weighted graph, each edge is assigned a weight or cost. Unweighted graphs don't have these extra edge information. Graphs have a diverse set of applications in computer science, from creating connections between web pages to modeling networks and much more.",
+      "resources": []
+    },
+    "YJsAQWJpLwVN6oCxNwNAn": {
+      "id": "YJsAQWJpLwVN6oCxNwNAn",
+      "slug": "search-algorithms",
+      "title": "Tree Data Structures",
+      "description": "A **Tree data structure** is a type of non-linear, hierarchical data structure that consists of nodes connected by edges. It follows the parent-child relationship, with the top node being called the root. Each node in a tree can have child nodes and each of these child nodes has a single parent node. Nodes with same parents are known as siblings. Nodes without any children are referred to as leaves. Its structure allows the organization of data in a natural hierarchy. The simplification it provides in accessing, managing and manipulating data with complex relationships makes it a vital data structure in computer science. Implementations of the tree data structure are seen in databases, file systems, and HTML DOM.",
+      "resources": []
+    },
+    "z_Cf_alLAYSCyYtNviRcO": {
+      "id": "z_Cf_alLAYSCyYtNviRcO",
+      "slug": "search-algorithms",
+      "title": "Search Algorithms",
+      "description": "Search algorithms are techniques used for finding a specific item or group of items among a collection of data. The primary types of search algorithms are linear search, binary search, depth-first search, and breadth-first search. Linear and binary search are explained in this section. The other two types in a next section of this roadmap.",
+      "resources": []
+    },
+    "iFNS3x9wVRIjpixct6H7x": {
+      "id": "iFNS3x9wVRIjpixct6H7x",
+      "slug": "segment-trees",
+      "title": "Segment Trees",
+      "description": "A **Segment Tree** is a data structure designed for efficient processing of range queries and updates on array elements. In a situation where you have an array and you need to execute several types of queries including updating array elements and computing sum or minimum or maximum of elements in a given range, segment trees could be a great choice. The tree itself is a height-balanced binary tree and is filled with data from the input array. The leaves of the Segment Tree contain the array elements, while the internal nodes store information needed for processing the query, often the sum, minimum, or maximum of the elements represented by their child nodes. Efficient implementation of segment trees can achieve query and update operations in logarithmic time.",
+      "resources": []
+    },
+    "SMgBHvqXLD6Cgr2nix4wR": {
+      "id": "SMgBHvqXLD6Cgr2nix4wR",
+      "slug": "selection-sort",
+      "title": "Selection Sort",
+      "description": "Selection Sort is a simple and intuitive sorting algorithm. It works by dividing the array into two parts - sorted and unsorted. Initially, the sorted part is empty and the unsorted part contains all the elements. The algorithm repeatedly selects the smallest (or largest, if sorting in descending order) element from the unsorted part and moves that to the end of the sorted part. The process continues until the unsorted part becomes empty and the sorted part contains all the elements. Selection sort is not efficient on large lists, as its time complexity is O(n²) where n is the number of items.",
+      "resources": [
+        {
+          "id": "SMgBHvqXLD6Cgr2nix4wR-res-1",
+          "type": "article",
+          "title": "Selection Sort Visualize",
+          "url": "https://www.hackerearth.com/practice/algorithms/sorting/selection-sort/practice-problems/"
+        },
+        {
+          "id": "SMgBHvqXLD6Cgr2nix4wR-res-2",
+          "type": "video",
+          "title": "Selection sort in 3 minutes",
+          "url": "https://www.youtube.com/watch?v=g-PGLbMth_g&t=5s"
+        }
+      ]
+    },
+    "N-qvYirxpORcaTslvlOL0": {
+      "id": "N-qvYirxpORcaTslvlOL0",
+      "slug": "shortest-path-algorithms",
+      "title": "Graph Data Structure",
+      "description": "A **Graph Data Structure** consists of a set of vertices (or nodes) and edges where each edge connects a pair of vertices. It can be visualized as networks consisting of elements in interconnected various relationships. There are two major types of graphs: Directed and Undirected. In a directed graph, all the edges are unidirectional - they only go one way. On the other hand, in an undirected graph, the edges are not directed - they are bidirectional. Another concept important to graphs is the idea of 'Weighted' and 'Unweighted' graphs. In a weighted graph, each edge is assigned a weight or cost. Unweighted graphs don't have these extra edge information. Graphs have a diverse set of applications in computer science, from creating connections between web pages to modeling networks and much more.",
+      "resources": []
+    },
+    "TQu-OBpvR-aQfMByUcwyM": {
+      "id": "TQu-OBpvR-aQfMByUcwyM",
+      "slug": "skip-list",
+      "title": "Skip List",
+      "description": "A **Skip List** is a probabilistic data structure that allows efficient search, insertion, and removal operations. It is a layered list that consists of a base list holding all the elements and several lists layered on top, each layer containing a random subset of the elements from the layer below. The highest level contains only one element, the maximum. Every element in the lists is connected by a link to the element of the same value in the list below. This structure provides a balance between the speed of binary search trees and the ease of implementation of linked lists, providing an efficient means for storing data while allowing fast retrieval, even within large sets of data.",
+      "resources": [
+        {
+          "id": "TQu-OBpvR-aQfMByUcwyM-res-1",
+          "type": "video",
+          "title": "Skip Lists",
+          "url": "https://www.youtube.com/watch?v=NDGpsfwAaqo"
+        }
+      ]
+    },
+    "gbHVR-ojRxv9I0E5eSlWy": {
+      "id": "gbHVR-ojRxv9I0E5eSlWy",
+      "slug": "sliding-window-technique",
+      "title": "Sliding Window Technique",
+      "description": "The **Sliding Window Technique** is an algorithmic paradigm that manages a subset of items in a collection of objects, like an array or list, by maintaining a range of elements observed, which is referred to as the 'window'. The window 'slides' over the data to examine different subsets of its contents. This technique is often used in array-related coding problems and is particularly useful for problems that ask for maximums or minimums over a specific range within the dataset. This technique can help to greatly reduce the time complexity when dealing with problems revolving around sequential or contiguous data. Common examples of its application are in solving problems like maximum sum subarray or minimum size subsequence with a given sum.",
+      "resources": [
+        {
+          "id": "gbHVR-ojRxv9I0E5eSlWy-res-1",
+          "type": "article",
+          "title": "Mastering Sliding Window Techniques",
+          "url": "https://medium.com/@rishu__2701/mastering-sliding-window-techniques-48f819194fd7"
+        },
+        {
+          "id": "gbHVR-ojRxv9I0E5eSlWy-res-2",
+          "type": "video",
+          "title": "Sliding window technique",
+          "url": "https://www.youtube.com/watch?v=p-ss2JNynmw"
+        }
+      ]
+    },
+    "WzFkdkcbL8ea9DBkjfSwa": {
+      "id": "WzFkdkcbL8ea9DBkjfSwa",
+      "slug": "sorting-algorithms",
+      "title": "Sorting Algorithms",
+      "description": "Sorting algorithms are used to rearrange a given array or list elements according to a comparison operator on the elements. The comparison operator is used to decide the new order of element in the respective data structure. For example, the numerical order is a commonly used sequence but a lexicographical order is also a commonly used sequence type. There are several types of sorting algorithms: quick sort, bubble sort, merge sort, insertion sort, selection sort, heap sort, radix sort, bucket sort among others. Each has its own properties and are suited to specific types of tasks and data.",
+      "resources": []
+    },
+    "jvKRykGNy140FlquF2fcK": {
+      "id": "jvKRykGNy140FlquF2fcK",
+      "slug": "stacks",
+      "title": "Stacks",
+      "description": "A **stack** is a linear data structure that follows a particular order in which the operations are performed. The order may be LIFO (Last In First Out) or FILO (First In Last Out). Mainly three basic operations are performed in the stack: 1.  **Push**: adds an element to the collection. 2.  **Pop**: removes an element from the collection. A pop can result in stack underflow if the stack is empty. 3.  **Peek** or **Top**: returns the top item without removing it from the stack. The basic principle of stack operation is that in a stack, the element that is added last is the first one to come off, thus the name \"Last in First Out\".",
+      "resources": [
+        {
+          "id": "jvKRykGNy140FlquF2fcK-res-1",
+          "type": "article",
+          "title": "Leetcode",
+          "url": "https://leetcode.com/problems/valid-parentheses/"
+        },
+        {
+          "id": "jvKRykGNy140FlquF2fcK-res-2",
+          "type": "video",
+          "title": "Stacks",
+          "url": "https://www.youtube.com/watch?v=GYptUgnIM_I&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=69&ab_channel=takeUforward"
+        },
+        {
+          "id": "jvKRykGNy140FlquF2fcK-res-3",
+          "type": "video",
+          "title": "Stack Data Structure Tutorial",
+          "url": "https://www.youtube.com/watch?v=O1KeXo8lE8A"
+        },
+        {
+          "id": "jvKRykGNy140FlquF2fcK-res-4",
+          "type": "video",
+          "title": "Python Stacks",
+          "url": "https://www.youtube.com/watch?v=zwb3GmNAtFk"
+        }
+      ]
+    },
+    "zprVkxpojaxNo0LQar3Ex": {
+      "id": "zprVkxpojaxNo0LQar3Ex",
+      "slug": "suffix-trees-and-arrays",
+      "title": "Suffix Trees and Arrays",
+      "description": "**Suffix Trees and Arrays** are advanced data structures used primarily for string manipulation and searches. A **Suffix Tree** is a compressed trie containing all the suffixes of a given text as their keys and positions as their values. On the other hand, a **Suffix Array** is a sorted array of all possible suffixes of a given text. Both these data structures provide an efficient way to store and search substrings in a text, but differ in terms of space complexity and time complexity.",
+      "resources": []
+    },
+    "unaYmPzK761Eh_iZMLeRC": {
+      "id": "unaYmPzK761Eh_iZMLeRC",
+      "slug": "time-vs-space-complexity",
+      "title": "Time vs Space Complexity",
+      "description": "In the context of algorithmic complexity, \"time\" refers to the amount of computational time that the algorithm takes to execute, while \"space\" refers to the amount of memory that the algorithm needs to complete its operation. The time complexity of an algorithm quantifies the amount of time taken by an algorithm to run, as a function of the size of the input to the program. The space complexity of an algorithm quantifies the amount of space or memory taken by an algorithm to run, as a function of the size of the input to the program. It's important to note that time and space are often at odds with each other; optimizing an algorithm to be quicker often requires taking up more memory, and decreasing memory usage can often make the algorithm slower. This is known as the space-time tradeoff.",
+      "resources": [
+        {
+          "id": "unaYmPzK761Eh_iZMLeRC-res-1",
+          "type": "article",
+          "title": "Cheat Sheet",
+          "url": "https://www.bigocheatsheet.com/"
+        },
+        {
+          "id": "unaYmPzK761Eh_iZMLeRC-res-2",
+          "type": "video",
+          "title": "Big O Notation — Calculating Time Complexity",
+          "url": "https://www.youtube.com/watch?v=Z0bH0cMY0E8"
+        },
+        {
+          "id": "unaYmPzK761Eh_iZMLeRC-res-3",
+          "type": "video",
+          "title": "Free Code Camp Big-O Tutorial",
+          "url": "https://youtu.be/Mo4vesaut8g?si=1jyb-EkfCLf9PNND"
+        }
+      ]
+    },
+    "ZXUfeyfC5oSKkGktXuK8t": {
+      "id": "ZXUfeyfC5oSKkGktXuK8t",
+      "slug": "tree-based",
+      "title": "Tree-Based Indexing",
+      "description": "Tree-based indexing involves using data structures that follow a tree-like model, with parent nodes, child nodes, and leaf nodes in a hierarchical order. Two popular tree-based indexing methods are B-tree and B+ tree. In a B-tree index, every data record is associated with a leaf node, while internal nodes can be linked to a number of lower nodes within a certain range. On the other hand, B+ tree index structure makes all records reside at the leaf level, with the internal nodes only containing key values. The path from the root to every leaf node in both B-tree and B+ tree is the same length, which allows for efficient and consistent retrieval times.",
+      "resources": []
+    },
+    "r2Jagzbx0qOG-VtxBY-mz": {
+      "id": "r2Jagzbx0qOG-VtxBY-mz",
+      "slug": "tree-data-structures",
+      "title": "Tree Data Structures",
+      "description": "A **Tree data structure** is a type of non-linear, hierarchical data structure that consists of nodes connected by edges. It follows the parent-child relationship, with the top node being called the root. Each node in a tree can have child nodes and each of these child nodes has a single parent node. Nodes with same parents are known as siblings. Nodes without any children are referred to as leaves. Its structure allows the organization of data in a natural hierarchy. The simplification it provides in accessing, managing and manipulating data with complex relationships makes it a vital data structure in computer science. Implementations of the tree data structure are seen in databases, file systems, and HTML DOM.",
+      "resources": []
+    },
+    "2Od5lNc6fCM6Gyj_axj4n": {
+      "id": "2Od5lNc6fCM6Gyj_axj4n",
+      "slug": "tree-traversal",
+      "title": "Tree Data Structures",
+      "description": "A **Tree data structure** is a type of non-linear, hierarchical data structure that consists of nodes connected by edges. It follows the parent-child relationship, with the top node being called the root. Each node in a tree can have child nodes and each of these child nodes has a single parent node. Nodes with same parents are known as siblings. Nodes without any children are referred to as leaves. Its structure allows the organization of data in a natural hierarchy. The simplification it provides in accessing, managing and manipulating data with complex relationships makes it a vital data structure in computer science. Implementations of the tree data structure are seen in databases, file systems, and HTML DOM.",
+      "resources": []
+    },
+    "zy3wpb1MjizfUfx9_rZy2": {
+      "id": "zy3wpb1MjizfUfx9_rZy2",
+      "slug": "trie",
+      "title": "Trie",
+      "description": "A **Trie**, also called digital tree and sometimes radix tree or prefix tree, is a type of search tree that is used to store a dynamic set or associative array where the keys are usually strings. Unlike binary search trees, no node in the tree stores the key associated with that node; instead, its position in the tree defines the key with which it is associated. All the descendants of any one node have a common prefix of the string associated with that node, and the root is associated with the empty string. A 'trie' is thus a way to represent the 're**trie**val' of information and is a type of tree structure used for this purpose. Typical usage scenarios could be in storing a predictive text or autocomplete dictionary, such as found on your smartphone or search engine.",
+      "resources": []
+    },
+    "MGb8ufztTK75aXAyEAuaf": {
+      "id": "MGb8ufztTK75aXAyEAuaf",
+      "slug": "two-heaps",
+      "title": "Two Heaps",
+      "description": "The two heaps method uses a max-heap to store the lower half of the numbers and a min-heap to store the upper half. This setup allows you to quickly access the largest value of the lower half and the smallest value of the upper half in constant time. Insertions and deletions take logarithmic time, and the heaps are balanced so that the median can be found in O(1) time. This approach is especially useful for dynamically maintaining the median of a long or streaming data sequence, where repeatedly sorting the data would be inefficient (O(n log n) per sort).",
+      "resources": [
+        {
+          "id": "MGb8ufztTK75aXAyEAuaf-res-1",
+          "type": "article",
+          "title": "Two Heaps — A Coding Pattern for Median-finding (Emre Bolat)",
+          "url": "https://emre.me/coding-patterns/two-heaps/"
+        },
+        {
+          "id": "MGb8ufztTK75aXAyEAuaf-res-2",
+          "type": "video",
+          "title": "Coding Pattern - Two Heaps",
+          "url": "https://www.youtube.com/watch?v=9P7W5aEaatQ"
+        }
+      ]
+    },
+    "itvhUXbe9dr9JN5ga2jYy": {
+      "id": "itvhUXbe9dr9JN5ga2jYy",
+      "slug": "two-pointer-technique",
+      "title": "Two Pointer Technique",
+      "description": "The **two-pointer technique** is a strategy that can be used to solve certain types of problems, particularly those that involve arrays or linked lists. This technique primarily involves using two pointers, which navigate through the data structure in various ways, depending on the nature of the problem. The pointers could traverse the array from opposite ends, or one could be moving faster than the other - often referred to as the `slow` and `fast` pointer method. This technique can greatly optimize performance by reducing time complexity, often enabling solutions to achieve O(n) time complexity.",
+      "resources": [
+        {
+          "id": "itvhUXbe9dr9JN5ga2jYy-res-1",
+          "type": "article",
+          "title": "Two Pointers Technique",
+          "url": "https://medium.com/@johnnyJK/data-structures-and-algorithms-907a63d691c1"
+        },
+        {
+          "id": "itvhUXbe9dr9JN5ga2jYy-res-2",
+          "type": "article",
+          "title": "Mastering the Two Pointers Technique: An In-Depth Guide",
+          "url": "https://lordkonadu.medium.com/mastering-the-two-pointers-technique-an-in-depth-guide-3c2167584ccc"
+        },
+        {
+          "id": "itvhUXbe9dr9JN5ga2jYy-res-3",
+          "type": "video",
+          "title": "Visual introduction Two Pointer Algorithm",
+          "url": "https://www.youtube.com/watch?v=On03HWe2tZM"
+        }
+      ]
+    },
+    "VnKm_j7McUW9Lo0iKyPUp": {
+      "id": "VnKm_j7McUW9Lo0iKyPUp",
+      "slug": "undirected-graph",
+      "title": "Undirected Graph",
+      "description": "An **Undirected Graph** is a type of graph in which the edges are not directed. That is, they do not point in any specific direction and are not ordered pairs. They cannot be referred to as originating or ending node, instead, they are endpoints of the edges. In this type of graph, the edges essentially represent a two-way relationship, in the sense that, a travel can be made back and forth between the two vertices without any restriction. Every edge of the undirected graph always connects two different vertices or nodes.",
+      "resources": []
+    },
+    "jvWuYXWRtt_ePawc4q1Tg": {
+      "id": "jvWuYXWRtt_ePawc4q1Tg",
+      "slug": "what-are-data-structures",
+      "title": "What are Data Structures?",
+      "description": "Data structures are specialized formats for organizing and storing data in a computer so that it can be used efficiently. They provide a means to manage large amounts of data efficiently for uses such as large databases and internet indexing services. They are critical to programming and are used in almost all software systems including web development, operating systems, image editing, and much more. Some common types of data structures are arrays, linked lists, queues, stacks, trees, and graphs. The choice of the data structure often begins from the choice of an abstract data type, a broad type encapsulating various possible data structures.\"",
+      "resources": [
+        {
+          "id": "jvWuYXWRtt_ePawc4q1Tg-res-1",
+          "type": "video",
+          "title": "What an Algorithms and More(MIT)",
+          "url": "https://youtu.be/Zc54gFhdpLA?si=F_1QRigN_h2t2nSp&t=133"
+        },
+        {
+          "id": "jvWuYXWRtt_ePawc4q1Tg-res-2",
+          "type": "video",
+          "title": "What Are Data Structures?",
+          "url": "https://www.youtube.com/watch?v=bum_19loj9A"
+        },
+        {
+          "id": "jvWuYXWRtt_ePawc4q1Tg-res-3",
+          "type": "video",
+          "title": "Introduction to Algorithms",
+          "url": "https://www.youtube.com/watch?v=0IAPZzGSbME"
+        }
+      ]
+    },
+    "8_GkF9zhRL8tvT2qu-bGj": {
+      "id": "8_GkF9zhRL8tvT2qu-bGj",
+      "slug": "why-are-data-structures-important",
+      "title": "Importance of Data Structures",
+      "description": "Data structures are crucial in the field of computer science and coding because they offer a method of organizing and storing data in an efficient and manageable format. They're critical because they form the foundation for modern algorithm design. Your ability to choose or design the most suited data structure for a particular task can be the difference between a solution that's functional and efficient and one that isn't. They allow data to be processed in a variety of ways - stored, sorted, ordered, or accessed - which is integral to software or database development. By implementing effective data structures, programmers can enhance performance, ease coding procedures, allow flexibility of data and most importantly, reduce complexity of code in a significant manner.",
+      "resources": [
+        {
+          "id": "8_GkF9zhRL8tvT2qu-bGj-res-1",
+          "type": "video",
+          "title": "What are Data Structures? Why is it Important?",
+          "url": "https://www.youtube.com/watch?v=18V8Avz2OH8"
+        }
+      ]
+    }
+  }
+}

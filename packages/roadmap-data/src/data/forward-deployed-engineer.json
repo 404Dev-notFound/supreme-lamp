@@ -1,0 +1,3737 @@
+{
+  "slug": "forward-deployed-engineer",
+  "title": "Forward Deployed Engineer",
+  "description": "Comprehensive learning curriculum and mastery roadmap for forward-deployed-engineer.",
+  "category": "role",
+  "level": "Intermediate",
+  "topicCount": 96,
+  "iconName": "Compass",
+  "nodes": [
+    {
+      "id": "node-RqfaQpg0ZK8-GMUPrU9EX",
+      "label": "Agent Architectures",
+      "topicId": "RqfaQpg0ZK8-GMUPrU9EX",
+      "level": 1,
+      "position": {
+        "x": 80,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-ZS84Fe33y6DCQYWPjSgZs",
+      "label": "AI Agents",
+      "topicId": "ZS84Fe33y6DCQYWPjSgZs",
+      "level": 1,
+      "position": {
+        "x": 340,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-tTTDizQfuACFUoAAsTCt1",
+      "label": "AI Engineering Skills",
+      "topicId": "tTTDizQfuACFUoAAsTCt1",
+      "level": 1,
+      "position": {
+        "x": 600,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-buA5I4rQkiDB_EDG-6kju",
+      "label": "AI Engineering",
+      "topicId": "buA5I4rQkiDB_EDG-6kju",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-NaNmI6f-LLdb-ITMaPD6w",
+      "label": "AI Governance",
+      "topicId": "NaNmI6f-LLdb-ITMaPD6w",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-T_I3hVabg_-juEb7_Rz0v",
+      "label": "Airflow",
+      "topicId": "T_I3hVabg_-juEb7_Rz0v",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-_nL7Wf1MG3mofKY9XwGDX",
+      "label": "APIs Design",
+      "topicId": "_nL7Wf1MG3mofKY9XwGDX",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-OkdMIcPrbRmTCvViMHL58",
+      "label": "API Security",
+      "topicId": "OkdMIcPrbRmTCvViMHL58",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-_nL7Wf1MG3mofKY9XwGDX",
+      "label": "APIs Design",
+      "topicId": "_nL7Wf1MG3mofKY9XwGDX",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-jHqnzz31kPThHr2Evq9rl",
+      "label": "Authentication",
+      "topicId": "jHqnzz31kPThHr2Evq9rl",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-sb6WyqJdxrUI9CRKSo0r0",
+      "label": "AWS",
+      "topicId": "sb6WyqJdxrUI9CRKSo0r0",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-4tQhE4qGiC_PcgD1gFeQi",
+      "label": "Azure",
+      "topicId": "4tQhE4qGiC_PcgD1gFeQi",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-kK16boEALRDQdRmFRphso",
+      "label": "Backend",
+      "topicId": "kK16boEALRDQdRmFRphso",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-CEj01gIsqo9cnfBQAu4Oq",
+      "label": "Backend",
+      "topicId": "CEj01gIsqo9cnfBQAu4Oq",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-exOxhFap719ArAhvgsCDx",
+      "label": "Build your Agent",
+      "topicId": "exOxhFap719ArAhvgsCDx",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-bgZE7NSpze22A5BBq1azG",
+      "label": "Building Eval Pipelines",
+      "topicId": "bgZE7NSpze22A5BBq1azG",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-bE7j2U28V8Vf9OKHBqLwW",
+      "label": "Business Acumen",
+      "topicId": "bE7j2U28V8Vf9OKHBqLwW",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-s7xfJo04F2DGaKWBlUOwh",
+      "label": "C++",
+      "topicId": "s7xfJo04F2DGaKWBlUOwh",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-XpkCJoUTbi1oqksEZ1v6O",
+      "label": "Choosing your Model Provider",
+      "topicId": "XpkCJoUTbi1oqksEZ1v6O",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-wr5ddjutC-fX_ixysTHaT",
+      "label": "Claude Code",
+      "topicId": "wr5ddjutC-fX_ixysTHaT",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-mj6Hlgcu1ABoRgJ4E3Nl8",
+      "label": "Cloud Platforms",
+      "topicId": "mj6Hlgcu1ABoRgJ4E3Nl8",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-hzeEo8COf2l07iu5EdlFo",
+      "label": "Codex",
+      "topicId": "hzeEo8COf2l07iu5EdlFo",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-iaNbLDFrEDYEKwpkGFWts",
+      "label": "Communication",
+      "topicId": "iaNbLDFrEDYEKwpkGFWts",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-lWOtIplGjXg139CAr2HaC",
+      "label": "Complete App with Observability",
+      "topicId": "lWOtIplGjXg139CAr2HaC",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-YyPk_MygYb40ALZ2cynmN",
+      "label": "Complete Apps",
+      "topicId": "YyPk_MygYb40ALZ2cynmN",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-dWklJpF9hcjJSxb4Q4xIO",
+      "label": "Computer Science",
+      "topicId": "dWklJpF9hcjJSxb4Q4xIO",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-jSNp7CyvfjYWjzTmVO8oP",
+      "label": "Containers",
+      "topicId": "jSNp7CyvfjYWjzTmVO8oP",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-0llUuL5wNY111LDMfgTfn",
+      "label": "CSS",
+      "topicId": "0llUuL5wNY111LDMfgTfn",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-MWhoqhNnBaoeCdN_8i15k",
+      "label": "Cursor",
+      "topicId": "MWhoqhNnBaoeCdN_8i15k",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-LUL5YJYOjQtE8mGHhXxt1",
+      "label": "Data Engineering",
+      "topicId": "LUL5YJYOjQtE8mGHhXxt1",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-oqvpmxz-G2wAYZBsvYI-l",
+      "label": "Data Pipelines",
+      "topicId": "oqvpmxz-G2wAYZBsvYI-l",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-xvTYuzxuOJ0gsmQEkNS5x",
+      "label": "Data Privacy & Compliance",
+      "topicId": "xvTYuzxuOJ0gsmQEkNS5x",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-aqrK4e6B8LFvFimKoqCNF",
+      "label": "Data Structures & Algorithms",
+      "topicId": "aqrK4e6B8LFvFimKoqCNF",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-2e6r7o6wjknJDInucHPx-",
+      "label": "DevOps & CI/CD",
+      "topicId": "2e6r7o6wjknJDInucHPx-",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-LRBwP7EQj4byox7yKdPAj",
+      "label": "DevOps Skills",
+      "topicId": "LRBwP7EQj4byox7yKdPAj",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-hO7BCDFmbvQVcgM7W2t9S",
+      "label": "Discovery & Scoping",
+      "topicId": "hO7BCDFmbvQVcgM7W2t9S",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-_JBeNCBgiucjYlcX871eU",
+      "label": "Docker",
+      "topicId": "_JBeNCBgiucjYlcX871eU",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-aqrK4e6B8LFvFimKoqCNF",
+      "label": "Data Structures & Algorithms",
+      "topicId": "aqrK4e6B8LFvFimKoqCNF",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-c8dBwWaKLiW6X2HWfmVJt",
+      "label": "Enterprise Workflow",
+      "topicId": "c8dBwWaKLiW6X2HWfmVJt",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-414WIX6TuK2h1jEtzRG2H",
+      "label": "From X to FDE",
+      "topicId": "414WIX6TuK2h1jEtzRG2H",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-XjxnVjO0fR2XNzBUSzA4L",
+      "label": "From X to FDE",
+      "topicId": "XjxnVjO0fR2XNzBUSzA4L",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-7JU1cVggMDoZUV-adGsf-",
+      "label": "Frontend Apps",
+      "topicId": "7JU1cVggMDoZUV-adGsf-",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-CNTtsgHntKdMsM7FgrrB8",
+      "label": "Frontend",
+      "topicId": "CNTtsgHntKdMsM7FgrrB8",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-wY07cSW1nGj3JHJDNDrxq",
+      "label": "Frontend",
+      "topicId": "wY07cSW1nGj3JHJDNDrxq",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-8kWwBNYkgnesTcSt2MKcU",
+      "label": "Full Stack",
+      "topicId": "8kWwBNYkgnesTcSt2MKcU",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-yS5n-Z4mJ6oI4_uPJgwpo",
+      "label": "GCP",
+      "topicId": "yS5n-Z4mJ6oI4_uPJgwpo",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-XY2l96sry3WyLzzo3KUeU",
+      "label": "Gemini",
+      "topicId": "XY2l96sry3WyLzzo3KUeU",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-Kl1nNBwVfne778x81AlXj",
+      "label": "Git & GitHub",
+      "topicId": "Kl1nNBwVfne778x81AlXj",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-__EIrpa-JCYb_Mwtg6fz6",
+      "label": "GitHub Actions",
+      "topicId": "__EIrpa-JCYb_Mwtg6fz6",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-iH_24AecJgB2txeia9DzG",
+      "label": "Go",
+      "topicId": "iH_24AecJgB2txeia9DzG",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-A07PWN8ILr286zxGGkS2Q",
+      "label": "GraphQL",
+      "topicId": "A07PWN8ILr286zxGGkS2Q",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-uY8VYGM8lKY82haZlr00i",
+      "label": "HTML",
+      "topicId": "uY8VYGM8lKY82haZlr00i",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-hRTwO-qsk58UpfTKmsTvo",
+      "label": "Inference Optimization",
+      "topicId": "hRTwO-qsk58UpfTKmsTvo",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-PBtnaTE_5AMOa5mxbhoT2",
+      "label": "Introduction",
+      "topicId": "PBtnaTE_5AMOa5mxbhoT2",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-6ODdQmQGtTnNDwuXPIvxG",
+      "label": "Java / Scala",
+      "topicId": "6ODdQmQGtTnNDwuXPIvxG",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-rBaErvrSvzB3slZfsZPCT",
+      "label": "JavaScript / TypeScript",
+      "topicId": "rBaErvrSvzB3slZfsZPCT",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-qs2rpJiu6hYvArgevoRw1",
+      "label": "JavaScript",
+      "topicId": "qs2rpJiu6hYvArgevoRw1",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-SpVJnrinTt1uUWNuYikDK",
+      "label": "Kubernetes",
+      "topicId": "SpVJnrinTt1uUWNuYikDK",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-WQRS3xCIeSSJbE6ighp-q",
+      "label": "Latency and Cost Optimization",
+      "topicId": "WQRS3xCIeSSJbE6ighp-q",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-CruESa0Ir9fSbxyX3ny13",
+      "label": "Linux",
+      "topicId": "CruESa0Ir9fSbxyX3ny13",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-mhyaSwOETwgFl4zsCJjkp",
+      "label": "Linux",
+      "topicId": "mhyaSwOETwgFl4zsCJjkp",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-UP2OJo5oN7AUxrBDcNsD-",
+      "label": "LLM Fundamentals",
+      "topicId": "UP2OJo5oN7AUxrBDcNsD-",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-e_jwUga36fZWaE57bXVZa",
+      "label": "Managed ML Services",
+      "topicId": "e_jwUga36fZWaE57bXVZa",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-9I0e9Qr0LLO_wtRZSaxcg",
+      "label": "MCP",
+      "topicId": "9I0e9Qr0LLO_wtRZSaxcg",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-trgV5OI77V92kX-Zgbqpy",
+      "label": "Memory & State Management",
+      "topicId": "trgV5OI77V92kX-Zgbqpy",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-DNwdb0vzfmG0XNYB_A4XJ",
+      "label": "MLOps",
+      "topicId": "DNwdb0vzfmG0XNYB_A4XJ",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-I1XhZ_DojZAC8_vxFHjAX",
+      "label": "Model Deployment",
+      "topicId": "I1XhZ_DojZAC8_vxFHjAX",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-W0M32nEoOSRDCLGFquoct",
+      "label": "Multi-Agents",
+      "topicId": "W0M32nEoOSRDCLGFquoct",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-Rdm1H7sq1MSAH_Gj9wKlH",
+      "label": "Node.js",
+      "topicId": "Rdm1H7sq1MSAH_Gj9wKlH",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-QNScC6Pvz2OG3WJAIWkND",
+      "label": "NoSQL Databases",
+      "topicId": "QNScC6Pvz2OG3WJAIWkND",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-8fojVRR98MiJQEA_dec8n",
+      "label": "Observability",
+      "topicId": "8fojVRR98MiJQEA_dec8n",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-YJ3cNcQGBifxTLY_X7Rsb",
+      "label": "PostgreSQL",
+      "topicId": "YJ3cNcQGBifxTLY_X7Rsb",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-U2mQX5_XwmW74HFEM1Uzw",
+      "label": "Product Feedback Loop",
+      "topicId": "U2mQX5_XwmW74HFEM1Uzw",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-wc3AT6lpGUDr-KM95XjgI",
+      "label": "Prompt Engineering",
+      "topicId": "wc3AT6lpGUDr-KM95XjgI",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-ThPsnGBFU3KZwsTf2U2ws",
+      "label": "Prompt Management",
+      "topicId": "ThPsnGBFU3KZwsTf2U2ws",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-DKWrSQDE7nFZFGVEUH1od",
+      "label": "Prompt Versioning",
+      "topicId": "DKWrSQDE7nFZFGVEUH1od",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-3CR52IR7RUOGUP7pLJlCE",
+      "label": "Python",
+      "topicId": "3CR52IR7RUOGUP7pLJlCE",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-7YOfKFFLI78GabP760sy8",
+      "label": "RAGs",
+      "topicId": "7YOfKFFLI78GabP760sy8",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-2jjQRP6B7ACFWU1lG56In",
+      "label": "React",
+      "topicId": "2jjQRP6B7ACFWU1lG56In",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-9TV0wGo6BMD_TuMAx-sAw",
+      "label": "Regression Testing",
+      "topicId": "9TV0wGo6BMD_TuMAx-sAw",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-s4Kooj99igkE02P-D-dAU",
+      "label": "Requirements Gathering",
+      "topicId": "s4Kooj99igkE02P-D-dAU",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-kyHwTMFBQxbHrGBcv3q0O",
+      "label": "ROI & AI Impact",
+      "topicId": "kyHwTMFBQxbHrGBcv3q0O",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-E7o6LDxng5zNFg_mgltg6",
+      "label": "Roles & Responsibilities",
+      "topicId": "E7o6LDxng5zNFg_mgltg6",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-YNaf7swqsvYaXRK6uevdv",
+      "label": "Roles & Responsibilities",
+      "topicId": "YNaf7swqsvYaXRK6uevdv",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-fxWu8J2166baYEoCti_hr",
+      "label": "Security",
+      "topicId": "fxWu8J2166baYEoCti_hr",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-TQA4APeviRM-CFi8y9_iJ",
+      "label": "Shell / Bash",
+      "topicId": "TQA4APeviRM-CFi8y9_iJ",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-nWA_ZKriQWQV6vS6eoQkS",
+      "label": "Software Architecture",
+      "topicId": "nWA_ZKriQWQV6vS6eoQkS",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-0NVAhnjHZ2-oo6TBcbs9X",
+      "label": "Spark",
+      "topicId": "0NVAhnjHZ2-oo6TBcbs9X",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-EWIf51kO_21ZK2ep0vWIJ",
+      "label": "SQL",
+      "topicId": "EWIf51kO_21ZK2ep0vWIJ",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-L76T2X7AFpVtpMF9CjBJo",
+      "label": "Stakeholder Management",
+      "topicId": "L76T2X7AFpVtpMF9CjBJo",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-nkkCScukl9AVpLNQkTUoA",
+      "label": "System Design",
+      "topicId": "nkkCScukl9AVpLNQkTUoA",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-KqQHfy1Z8w-v8p73QkvG5",
+      "label": "Technical Scoping & Sequencing",
+      "topicId": "KqQHfy1Z8w-v8p73QkvG5",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-ir0uv9E3flgBz_cHntOf4",
+      "label": "Technical Writing",
+      "topicId": "ir0uv9E3flgBz_cHntOf4",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-OB_e7DYScbT05uKYWlIG_",
+      "label": "Terraform",
+      "topicId": "OB_e7DYScbT05uKYWlIG_",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5040
+      }
+    },
+    {
+      "id": "node-V7d0lWrX8g3z2D9L99mdl",
+      "label": "Tools & Functions",
+      "topicId": "V7d0lWrX8g3z2D9L99mdl",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5040
+      }
+    },
+    {
+      "id": "node-eKUy2q5cGskmcg-sAAtYW",
+      "label": "Tradeoffs: Scope, Speed, Quality",
+      "topicId": "eKUy2q5cGskmcg-sAAtYW",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5040
+      }
+    },
+    {
+      "id": "node-N5MPa9HqtdcZeF0wtLMVu",
+      "label": "Vector DBs",
+      "topicId": "N5MPa9HqtdcZeF0wtLMVu",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5200
+      }
+    },
+    {
+      "id": "node-BHpm4kOU6e1dOlWW104QB",
+      "label": "Vibe Coding",
+      "topicId": "BHpm4kOU6e1dOlWW104QB",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5200
+      }
+    },
+    {
+      "id": "node-414WIX6TuK2h1jEtzRG2H",
+      "label": "From X to FDE",
+      "topicId": "414WIX6TuK2h1jEtzRG2H",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5200
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-node-RqfaQpg0ZK8-GMUPrU9EX-node-ZS84Fe33y6DCQYWPjSgZs",
+      "source": "node-RqfaQpg0ZK8-GMUPrU9EX",
+      "target": "node-ZS84Fe33y6DCQYWPjSgZs",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ZS84Fe33y6DCQYWPjSgZs-node-tTTDizQfuACFUoAAsTCt1",
+      "source": "node-ZS84Fe33y6DCQYWPjSgZs",
+      "target": "node-tTTDizQfuACFUoAAsTCt1",
+      "animated": true
+    },
+    {
+      "id": "edge-node-tTTDizQfuACFUoAAsTCt1-node-buA5I4rQkiDB_EDG-6kju",
+      "source": "node-tTTDizQfuACFUoAAsTCt1",
+      "target": "node-buA5I4rQkiDB_EDG-6kju",
+      "animated": true
+    },
+    {
+      "id": "edge-node-buA5I4rQkiDB_EDG-6kju-node-NaNmI6f-LLdb-ITMaPD6w",
+      "source": "node-buA5I4rQkiDB_EDG-6kju",
+      "target": "node-NaNmI6f-LLdb-ITMaPD6w",
+      "animated": true
+    },
+    {
+      "id": "edge-node-NaNmI6f-LLdb-ITMaPD6w-node-T_I3hVabg_-juEb7_Rz0v",
+      "source": "node-NaNmI6f-LLdb-ITMaPD6w",
+      "target": "node-T_I3hVabg_-juEb7_Rz0v",
+      "animated": true
+    },
+    {
+      "id": "edge-node-T_I3hVabg_-juEb7_Rz0v-node-_nL7Wf1MG3mofKY9XwGDX",
+      "source": "node-T_I3hVabg_-juEb7_Rz0v",
+      "target": "node-_nL7Wf1MG3mofKY9XwGDX",
+      "animated": true
+    },
+    {
+      "id": "edge-node-_nL7Wf1MG3mofKY9XwGDX-node-OkdMIcPrbRmTCvViMHL58",
+      "source": "node-_nL7Wf1MG3mofKY9XwGDX",
+      "target": "node-OkdMIcPrbRmTCvViMHL58",
+      "animated": true
+    },
+    {
+      "id": "edge-node-OkdMIcPrbRmTCvViMHL58-node-_nL7Wf1MG3mofKY9XwGDX",
+      "source": "node-OkdMIcPrbRmTCvViMHL58",
+      "target": "node-_nL7Wf1MG3mofKY9XwGDX",
+      "animated": true
+    },
+    {
+      "id": "edge-node-_nL7Wf1MG3mofKY9XwGDX-node-jHqnzz31kPThHr2Evq9rl",
+      "source": "node-_nL7Wf1MG3mofKY9XwGDX",
+      "target": "node-jHqnzz31kPThHr2Evq9rl",
+      "animated": true
+    },
+    {
+      "id": "edge-node-jHqnzz31kPThHr2Evq9rl-node-sb6WyqJdxrUI9CRKSo0r0",
+      "source": "node-jHqnzz31kPThHr2Evq9rl",
+      "target": "node-sb6WyqJdxrUI9CRKSo0r0",
+      "animated": true
+    },
+    {
+      "id": "edge-node-sb6WyqJdxrUI9CRKSo0r0-node-4tQhE4qGiC_PcgD1gFeQi",
+      "source": "node-sb6WyqJdxrUI9CRKSo0r0",
+      "target": "node-4tQhE4qGiC_PcgD1gFeQi",
+      "animated": true
+    },
+    {
+      "id": "edge-node-4tQhE4qGiC_PcgD1gFeQi-node-kK16boEALRDQdRmFRphso",
+      "source": "node-4tQhE4qGiC_PcgD1gFeQi",
+      "target": "node-kK16boEALRDQdRmFRphso",
+      "animated": true
+    },
+    {
+      "id": "edge-node-kK16boEALRDQdRmFRphso-node-CEj01gIsqo9cnfBQAu4Oq",
+      "source": "node-kK16boEALRDQdRmFRphso",
+      "target": "node-CEj01gIsqo9cnfBQAu4Oq",
+      "animated": true
+    },
+    {
+      "id": "edge-node-CEj01gIsqo9cnfBQAu4Oq-node-exOxhFap719ArAhvgsCDx",
+      "source": "node-CEj01gIsqo9cnfBQAu4Oq",
+      "target": "node-exOxhFap719ArAhvgsCDx",
+      "animated": true
+    },
+    {
+      "id": "edge-node-exOxhFap719ArAhvgsCDx-node-bgZE7NSpze22A5BBq1azG",
+      "source": "node-exOxhFap719ArAhvgsCDx",
+      "target": "node-bgZE7NSpze22A5BBq1azG",
+      "animated": true
+    },
+    {
+      "id": "edge-node-bgZE7NSpze22A5BBq1azG-node-bE7j2U28V8Vf9OKHBqLwW",
+      "source": "node-bgZE7NSpze22A5BBq1azG",
+      "target": "node-bE7j2U28V8Vf9OKHBqLwW",
+      "animated": true
+    },
+    {
+      "id": "edge-node-bE7j2U28V8Vf9OKHBqLwW-node-s7xfJo04F2DGaKWBlUOwh",
+      "source": "node-bE7j2U28V8Vf9OKHBqLwW",
+      "target": "node-s7xfJo04F2DGaKWBlUOwh",
+      "animated": true
+    },
+    {
+      "id": "edge-node-s7xfJo04F2DGaKWBlUOwh-node-XpkCJoUTbi1oqksEZ1v6O",
+      "source": "node-s7xfJo04F2DGaKWBlUOwh",
+      "target": "node-XpkCJoUTbi1oqksEZ1v6O",
+      "animated": true
+    },
+    {
+      "id": "edge-node-XpkCJoUTbi1oqksEZ1v6O-node-wr5ddjutC-fX_ixysTHaT",
+      "source": "node-XpkCJoUTbi1oqksEZ1v6O",
+      "target": "node-wr5ddjutC-fX_ixysTHaT",
+      "animated": true
+    },
+    {
+      "id": "edge-node-wr5ddjutC-fX_ixysTHaT-node-mj6Hlgcu1ABoRgJ4E3Nl8",
+      "source": "node-wr5ddjutC-fX_ixysTHaT",
+      "target": "node-mj6Hlgcu1ABoRgJ4E3Nl8",
+      "animated": true
+    },
+    {
+      "id": "edge-node-mj6Hlgcu1ABoRgJ4E3Nl8-node-hzeEo8COf2l07iu5EdlFo",
+      "source": "node-mj6Hlgcu1ABoRgJ4E3Nl8",
+      "target": "node-hzeEo8COf2l07iu5EdlFo",
+      "animated": true
+    },
+    {
+      "id": "edge-node-hzeEo8COf2l07iu5EdlFo-node-iaNbLDFrEDYEKwpkGFWts",
+      "source": "node-hzeEo8COf2l07iu5EdlFo",
+      "target": "node-iaNbLDFrEDYEKwpkGFWts",
+      "animated": true
+    },
+    {
+      "id": "edge-node-iaNbLDFrEDYEKwpkGFWts-node-lWOtIplGjXg139CAr2HaC",
+      "source": "node-iaNbLDFrEDYEKwpkGFWts",
+      "target": "node-lWOtIplGjXg139CAr2HaC",
+      "animated": true
+    },
+    {
+      "id": "edge-node-lWOtIplGjXg139CAr2HaC-node-YyPk_MygYb40ALZ2cynmN",
+      "source": "node-lWOtIplGjXg139CAr2HaC",
+      "target": "node-YyPk_MygYb40ALZ2cynmN",
+      "animated": true
+    },
+    {
+      "id": "edge-node-YyPk_MygYb40ALZ2cynmN-node-dWklJpF9hcjJSxb4Q4xIO",
+      "source": "node-YyPk_MygYb40ALZ2cynmN",
+      "target": "node-dWklJpF9hcjJSxb4Q4xIO",
+      "animated": true
+    },
+    {
+      "id": "edge-node-dWklJpF9hcjJSxb4Q4xIO-node-jSNp7CyvfjYWjzTmVO8oP",
+      "source": "node-dWklJpF9hcjJSxb4Q4xIO",
+      "target": "node-jSNp7CyvfjYWjzTmVO8oP",
+      "animated": true
+    },
+    {
+      "id": "edge-node-jSNp7CyvfjYWjzTmVO8oP-node-0llUuL5wNY111LDMfgTfn",
+      "source": "node-jSNp7CyvfjYWjzTmVO8oP",
+      "target": "node-0llUuL5wNY111LDMfgTfn",
+      "animated": true
+    },
+    {
+      "id": "edge-node-0llUuL5wNY111LDMfgTfn-node-MWhoqhNnBaoeCdN_8i15k",
+      "source": "node-0llUuL5wNY111LDMfgTfn",
+      "target": "node-MWhoqhNnBaoeCdN_8i15k",
+      "animated": true
+    },
+    {
+      "id": "edge-node-MWhoqhNnBaoeCdN_8i15k-node-LUL5YJYOjQtE8mGHhXxt1",
+      "source": "node-MWhoqhNnBaoeCdN_8i15k",
+      "target": "node-LUL5YJYOjQtE8mGHhXxt1",
+      "animated": true
+    },
+    {
+      "id": "edge-node-LUL5YJYOjQtE8mGHhXxt1-node-oqvpmxz-G2wAYZBsvYI-l",
+      "source": "node-LUL5YJYOjQtE8mGHhXxt1",
+      "target": "node-oqvpmxz-G2wAYZBsvYI-l",
+      "animated": true
+    },
+    {
+      "id": "edge-node-oqvpmxz-G2wAYZBsvYI-l-node-xvTYuzxuOJ0gsmQEkNS5x",
+      "source": "node-oqvpmxz-G2wAYZBsvYI-l",
+      "target": "node-xvTYuzxuOJ0gsmQEkNS5x",
+      "animated": true
+    },
+    {
+      "id": "edge-node-xvTYuzxuOJ0gsmQEkNS5x-node-aqrK4e6B8LFvFimKoqCNF",
+      "source": "node-xvTYuzxuOJ0gsmQEkNS5x",
+      "target": "node-aqrK4e6B8LFvFimKoqCNF",
+      "animated": true
+    },
+    {
+      "id": "edge-node-aqrK4e6B8LFvFimKoqCNF-node-2e6r7o6wjknJDInucHPx-",
+      "source": "node-aqrK4e6B8LFvFimKoqCNF",
+      "target": "node-2e6r7o6wjknJDInucHPx-",
+      "animated": true
+    },
+    {
+      "id": "edge-node-2e6r7o6wjknJDInucHPx--node-LRBwP7EQj4byox7yKdPAj",
+      "source": "node-2e6r7o6wjknJDInucHPx-",
+      "target": "node-LRBwP7EQj4byox7yKdPAj",
+      "animated": true
+    },
+    {
+      "id": "edge-node-LRBwP7EQj4byox7yKdPAj-node-hO7BCDFmbvQVcgM7W2t9S",
+      "source": "node-LRBwP7EQj4byox7yKdPAj",
+      "target": "node-hO7BCDFmbvQVcgM7W2t9S",
+      "animated": true
+    },
+    {
+      "id": "edge-node-hO7BCDFmbvQVcgM7W2t9S-node-_JBeNCBgiucjYlcX871eU",
+      "source": "node-hO7BCDFmbvQVcgM7W2t9S",
+      "target": "node-_JBeNCBgiucjYlcX871eU",
+      "animated": true
+    },
+    {
+      "id": "edge-node-_JBeNCBgiucjYlcX871eU-node-aqrK4e6B8LFvFimKoqCNF",
+      "source": "node-_JBeNCBgiucjYlcX871eU",
+      "target": "node-aqrK4e6B8LFvFimKoqCNF",
+      "animated": true
+    },
+    {
+      "id": "edge-node-aqrK4e6B8LFvFimKoqCNF-node-c8dBwWaKLiW6X2HWfmVJt",
+      "source": "node-aqrK4e6B8LFvFimKoqCNF",
+      "target": "node-c8dBwWaKLiW6X2HWfmVJt",
+      "animated": true
+    },
+    {
+      "id": "edge-node-c8dBwWaKLiW6X2HWfmVJt-node-414WIX6TuK2h1jEtzRG2H",
+      "source": "node-c8dBwWaKLiW6X2HWfmVJt",
+      "target": "node-414WIX6TuK2h1jEtzRG2H",
+      "animated": true
+    },
+    {
+      "id": "edge-node-414WIX6TuK2h1jEtzRG2H-node-XjxnVjO0fR2XNzBUSzA4L",
+      "source": "node-414WIX6TuK2h1jEtzRG2H",
+      "target": "node-XjxnVjO0fR2XNzBUSzA4L",
+      "animated": true
+    },
+    {
+      "id": "edge-node-XjxnVjO0fR2XNzBUSzA4L-node-7JU1cVggMDoZUV-adGsf-",
+      "source": "node-XjxnVjO0fR2XNzBUSzA4L",
+      "target": "node-7JU1cVggMDoZUV-adGsf-",
+      "animated": true
+    },
+    {
+      "id": "edge-node-7JU1cVggMDoZUV-adGsf--node-CNTtsgHntKdMsM7FgrrB8",
+      "source": "node-7JU1cVggMDoZUV-adGsf-",
+      "target": "node-CNTtsgHntKdMsM7FgrrB8",
+      "animated": true
+    },
+    {
+      "id": "edge-node-CNTtsgHntKdMsM7FgrrB8-node-wY07cSW1nGj3JHJDNDrxq",
+      "source": "node-CNTtsgHntKdMsM7FgrrB8",
+      "target": "node-wY07cSW1nGj3JHJDNDrxq",
+      "animated": true
+    },
+    {
+      "id": "edge-node-wY07cSW1nGj3JHJDNDrxq-node-8kWwBNYkgnesTcSt2MKcU",
+      "source": "node-wY07cSW1nGj3JHJDNDrxq",
+      "target": "node-8kWwBNYkgnesTcSt2MKcU",
+      "animated": true
+    },
+    {
+      "id": "edge-node-8kWwBNYkgnesTcSt2MKcU-node-yS5n-Z4mJ6oI4_uPJgwpo",
+      "source": "node-8kWwBNYkgnesTcSt2MKcU",
+      "target": "node-yS5n-Z4mJ6oI4_uPJgwpo",
+      "animated": true
+    },
+    {
+      "id": "edge-node-yS5n-Z4mJ6oI4_uPJgwpo-node-XY2l96sry3WyLzzo3KUeU",
+      "source": "node-yS5n-Z4mJ6oI4_uPJgwpo",
+      "target": "node-XY2l96sry3WyLzzo3KUeU",
+      "animated": true
+    },
+    {
+      "id": "edge-node-XY2l96sry3WyLzzo3KUeU-node-Kl1nNBwVfne778x81AlXj",
+      "source": "node-XY2l96sry3WyLzzo3KUeU",
+      "target": "node-Kl1nNBwVfne778x81AlXj",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Kl1nNBwVfne778x81AlXj-node-__EIrpa-JCYb_Mwtg6fz6",
+      "source": "node-Kl1nNBwVfne778x81AlXj",
+      "target": "node-__EIrpa-JCYb_Mwtg6fz6",
+      "animated": true
+    },
+    {
+      "id": "edge-node-__EIrpa-JCYb_Mwtg6fz6-node-iH_24AecJgB2txeia9DzG",
+      "source": "node-__EIrpa-JCYb_Mwtg6fz6",
+      "target": "node-iH_24AecJgB2txeia9DzG",
+      "animated": true
+    },
+    {
+      "id": "edge-node-iH_24AecJgB2txeia9DzG-node-A07PWN8ILr286zxGGkS2Q",
+      "source": "node-iH_24AecJgB2txeia9DzG",
+      "target": "node-A07PWN8ILr286zxGGkS2Q",
+      "animated": true
+    },
+    {
+      "id": "edge-node-A07PWN8ILr286zxGGkS2Q-node-uY8VYGM8lKY82haZlr00i",
+      "source": "node-A07PWN8ILr286zxGGkS2Q",
+      "target": "node-uY8VYGM8lKY82haZlr00i",
+      "animated": true
+    },
+    {
+      "id": "edge-node-uY8VYGM8lKY82haZlr00i-node-hRTwO-qsk58UpfTKmsTvo",
+      "source": "node-uY8VYGM8lKY82haZlr00i",
+      "target": "node-hRTwO-qsk58UpfTKmsTvo",
+      "animated": true
+    },
+    {
+      "id": "edge-node-hRTwO-qsk58UpfTKmsTvo-node-PBtnaTE_5AMOa5mxbhoT2",
+      "source": "node-hRTwO-qsk58UpfTKmsTvo",
+      "target": "node-PBtnaTE_5AMOa5mxbhoT2",
+      "animated": true
+    },
+    {
+      "id": "edge-node-PBtnaTE_5AMOa5mxbhoT2-node-6ODdQmQGtTnNDwuXPIvxG",
+      "source": "node-PBtnaTE_5AMOa5mxbhoT2",
+      "target": "node-6ODdQmQGtTnNDwuXPIvxG",
+      "animated": true
+    },
+    {
+      "id": "edge-node-6ODdQmQGtTnNDwuXPIvxG-node-rBaErvrSvzB3slZfsZPCT",
+      "source": "node-6ODdQmQGtTnNDwuXPIvxG",
+      "target": "node-rBaErvrSvzB3slZfsZPCT",
+      "animated": true
+    },
+    {
+      "id": "edge-node-rBaErvrSvzB3slZfsZPCT-node-qs2rpJiu6hYvArgevoRw1",
+      "source": "node-rBaErvrSvzB3slZfsZPCT",
+      "target": "node-qs2rpJiu6hYvArgevoRw1",
+      "animated": true
+    },
+    {
+      "id": "edge-node-qs2rpJiu6hYvArgevoRw1-node-SpVJnrinTt1uUWNuYikDK",
+      "source": "node-qs2rpJiu6hYvArgevoRw1",
+      "target": "node-SpVJnrinTt1uUWNuYikDK",
+      "animated": true
+    },
+    {
+      "id": "edge-node-SpVJnrinTt1uUWNuYikDK-node-WQRS3xCIeSSJbE6ighp-q",
+      "source": "node-SpVJnrinTt1uUWNuYikDK",
+      "target": "node-WQRS3xCIeSSJbE6ighp-q",
+      "animated": true
+    },
+    {
+      "id": "edge-node-WQRS3xCIeSSJbE6ighp-q-node-CruESa0Ir9fSbxyX3ny13",
+      "source": "node-WQRS3xCIeSSJbE6ighp-q",
+      "target": "node-CruESa0Ir9fSbxyX3ny13",
+      "animated": true
+    },
+    {
+      "id": "edge-node-CruESa0Ir9fSbxyX3ny13-node-mhyaSwOETwgFl4zsCJjkp",
+      "source": "node-CruESa0Ir9fSbxyX3ny13",
+      "target": "node-mhyaSwOETwgFl4zsCJjkp",
+      "animated": true
+    },
+    {
+      "id": "edge-node-mhyaSwOETwgFl4zsCJjkp-node-UP2OJo5oN7AUxrBDcNsD-",
+      "source": "node-mhyaSwOETwgFl4zsCJjkp",
+      "target": "node-UP2OJo5oN7AUxrBDcNsD-",
+      "animated": true
+    },
+    {
+      "id": "edge-node-UP2OJo5oN7AUxrBDcNsD--node-e_jwUga36fZWaE57bXVZa",
+      "source": "node-UP2OJo5oN7AUxrBDcNsD-",
+      "target": "node-e_jwUga36fZWaE57bXVZa",
+      "animated": true
+    },
+    {
+      "id": "edge-node-e_jwUga36fZWaE57bXVZa-node-9I0e9Qr0LLO_wtRZSaxcg",
+      "source": "node-e_jwUga36fZWaE57bXVZa",
+      "target": "node-9I0e9Qr0LLO_wtRZSaxcg",
+      "animated": true
+    },
+    {
+      "id": "edge-node-9I0e9Qr0LLO_wtRZSaxcg-node-trgV5OI77V92kX-Zgbqpy",
+      "source": "node-9I0e9Qr0LLO_wtRZSaxcg",
+      "target": "node-trgV5OI77V92kX-Zgbqpy",
+      "animated": true
+    },
+    {
+      "id": "edge-node-trgV5OI77V92kX-Zgbqpy-node-DNwdb0vzfmG0XNYB_A4XJ",
+      "source": "node-trgV5OI77V92kX-Zgbqpy",
+      "target": "node-DNwdb0vzfmG0XNYB_A4XJ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-DNwdb0vzfmG0XNYB_A4XJ-node-I1XhZ_DojZAC8_vxFHjAX",
+      "source": "node-DNwdb0vzfmG0XNYB_A4XJ",
+      "target": "node-I1XhZ_DojZAC8_vxFHjAX",
+      "animated": true
+    },
+    {
+      "id": "edge-node-I1XhZ_DojZAC8_vxFHjAX-node-W0M32nEoOSRDCLGFquoct",
+      "source": "node-I1XhZ_DojZAC8_vxFHjAX",
+      "target": "node-W0M32nEoOSRDCLGFquoct",
+      "animated": true
+    },
+    {
+      "id": "edge-node-W0M32nEoOSRDCLGFquoct-node-Rdm1H7sq1MSAH_Gj9wKlH",
+      "source": "node-W0M32nEoOSRDCLGFquoct",
+      "target": "node-Rdm1H7sq1MSAH_Gj9wKlH",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Rdm1H7sq1MSAH_Gj9wKlH-node-QNScC6Pvz2OG3WJAIWkND",
+      "source": "node-Rdm1H7sq1MSAH_Gj9wKlH",
+      "target": "node-QNScC6Pvz2OG3WJAIWkND",
+      "animated": true
+    },
+    {
+      "id": "edge-node-QNScC6Pvz2OG3WJAIWkND-node-8fojVRR98MiJQEA_dec8n",
+      "source": "node-QNScC6Pvz2OG3WJAIWkND",
+      "target": "node-8fojVRR98MiJQEA_dec8n",
+      "animated": true
+    },
+    {
+      "id": "edge-node-8fojVRR98MiJQEA_dec8n-node-YJ3cNcQGBifxTLY_X7Rsb",
+      "source": "node-8fojVRR98MiJQEA_dec8n",
+      "target": "node-YJ3cNcQGBifxTLY_X7Rsb",
+      "animated": true
+    },
+    {
+      "id": "edge-node-YJ3cNcQGBifxTLY_X7Rsb-node-U2mQX5_XwmW74HFEM1Uzw",
+      "source": "node-YJ3cNcQGBifxTLY_X7Rsb",
+      "target": "node-U2mQX5_XwmW74HFEM1Uzw",
+      "animated": true
+    },
+    {
+      "id": "edge-node-U2mQX5_XwmW74HFEM1Uzw-node-wc3AT6lpGUDr-KM95XjgI",
+      "source": "node-U2mQX5_XwmW74HFEM1Uzw",
+      "target": "node-wc3AT6lpGUDr-KM95XjgI",
+      "animated": true
+    },
+    {
+      "id": "edge-node-wc3AT6lpGUDr-KM95XjgI-node-ThPsnGBFU3KZwsTf2U2ws",
+      "source": "node-wc3AT6lpGUDr-KM95XjgI",
+      "target": "node-ThPsnGBFU3KZwsTf2U2ws",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ThPsnGBFU3KZwsTf2U2ws-node-DKWrSQDE7nFZFGVEUH1od",
+      "source": "node-ThPsnGBFU3KZwsTf2U2ws",
+      "target": "node-DKWrSQDE7nFZFGVEUH1od",
+      "animated": true
+    },
+    {
+      "id": "edge-node-DKWrSQDE7nFZFGVEUH1od-node-3CR52IR7RUOGUP7pLJlCE",
+      "source": "node-DKWrSQDE7nFZFGVEUH1od",
+      "target": "node-3CR52IR7RUOGUP7pLJlCE",
+      "animated": true
+    },
+    {
+      "id": "edge-node-3CR52IR7RUOGUP7pLJlCE-node-7YOfKFFLI78GabP760sy8",
+      "source": "node-3CR52IR7RUOGUP7pLJlCE",
+      "target": "node-7YOfKFFLI78GabP760sy8",
+      "animated": true
+    },
+    {
+      "id": "edge-node-7YOfKFFLI78GabP760sy8-node-2jjQRP6B7ACFWU1lG56In",
+      "source": "node-7YOfKFFLI78GabP760sy8",
+      "target": "node-2jjQRP6B7ACFWU1lG56In",
+      "animated": true
+    },
+    {
+      "id": "edge-node-2jjQRP6B7ACFWU1lG56In-node-9TV0wGo6BMD_TuMAx-sAw",
+      "source": "node-2jjQRP6B7ACFWU1lG56In",
+      "target": "node-9TV0wGo6BMD_TuMAx-sAw",
+      "animated": true
+    },
+    {
+      "id": "edge-node-9TV0wGo6BMD_TuMAx-sAw-node-s4Kooj99igkE02P-D-dAU",
+      "source": "node-9TV0wGo6BMD_TuMAx-sAw",
+      "target": "node-s4Kooj99igkE02P-D-dAU",
+      "animated": true
+    },
+    {
+      "id": "edge-node-s4Kooj99igkE02P-D-dAU-node-kyHwTMFBQxbHrGBcv3q0O",
+      "source": "node-s4Kooj99igkE02P-D-dAU",
+      "target": "node-kyHwTMFBQxbHrGBcv3q0O",
+      "animated": true
+    },
+    {
+      "id": "edge-node-kyHwTMFBQxbHrGBcv3q0O-node-E7o6LDxng5zNFg_mgltg6",
+      "source": "node-kyHwTMFBQxbHrGBcv3q0O",
+      "target": "node-E7o6LDxng5zNFg_mgltg6",
+      "animated": true
+    },
+    {
+      "id": "edge-node-E7o6LDxng5zNFg_mgltg6-node-YNaf7swqsvYaXRK6uevdv",
+      "source": "node-E7o6LDxng5zNFg_mgltg6",
+      "target": "node-YNaf7swqsvYaXRK6uevdv",
+      "animated": true
+    },
+    {
+      "id": "edge-node-YNaf7swqsvYaXRK6uevdv-node-fxWu8J2166baYEoCti_hr",
+      "source": "node-YNaf7swqsvYaXRK6uevdv",
+      "target": "node-fxWu8J2166baYEoCti_hr",
+      "animated": true
+    },
+    {
+      "id": "edge-node-fxWu8J2166baYEoCti_hr-node-TQA4APeviRM-CFi8y9_iJ",
+      "source": "node-fxWu8J2166baYEoCti_hr",
+      "target": "node-TQA4APeviRM-CFi8y9_iJ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-TQA4APeviRM-CFi8y9_iJ-node-nWA_ZKriQWQV6vS6eoQkS",
+      "source": "node-TQA4APeviRM-CFi8y9_iJ",
+      "target": "node-nWA_ZKriQWQV6vS6eoQkS",
+      "animated": true
+    },
+    {
+      "id": "edge-node-nWA_ZKriQWQV6vS6eoQkS-node-0NVAhnjHZ2-oo6TBcbs9X",
+      "source": "node-nWA_ZKriQWQV6vS6eoQkS",
+      "target": "node-0NVAhnjHZ2-oo6TBcbs9X",
+      "animated": true
+    },
+    {
+      "id": "edge-node-0NVAhnjHZ2-oo6TBcbs9X-node-EWIf51kO_21ZK2ep0vWIJ",
+      "source": "node-0NVAhnjHZ2-oo6TBcbs9X",
+      "target": "node-EWIf51kO_21ZK2ep0vWIJ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-EWIf51kO_21ZK2ep0vWIJ-node-L76T2X7AFpVtpMF9CjBJo",
+      "source": "node-EWIf51kO_21ZK2ep0vWIJ",
+      "target": "node-L76T2X7AFpVtpMF9CjBJo",
+      "animated": true
+    },
+    {
+      "id": "edge-node-L76T2X7AFpVtpMF9CjBJo-node-nkkCScukl9AVpLNQkTUoA",
+      "source": "node-L76T2X7AFpVtpMF9CjBJo",
+      "target": "node-nkkCScukl9AVpLNQkTUoA",
+      "animated": true
+    },
+    {
+      "id": "edge-node-nkkCScukl9AVpLNQkTUoA-node-KqQHfy1Z8w-v8p73QkvG5",
+      "source": "node-nkkCScukl9AVpLNQkTUoA",
+      "target": "node-KqQHfy1Z8w-v8p73QkvG5",
+      "animated": true
+    },
+    {
+      "id": "edge-node-KqQHfy1Z8w-v8p73QkvG5-node-ir0uv9E3flgBz_cHntOf4",
+      "source": "node-KqQHfy1Z8w-v8p73QkvG5",
+      "target": "node-ir0uv9E3flgBz_cHntOf4",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ir0uv9E3flgBz_cHntOf4-node-OB_e7DYScbT05uKYWlIG_",
+      "source": "node-ir0uv9E3flgBz_cHntOf4",
+      "target": "node-OB_e7DYScbT05uKYWlIG_",
+      "animated": true
+    },
+    {
+      "id": "edge-node-OB_e7DYScbT05uKYWlIG_-node-V7d0lWrX8g3z2D9L99mdl",
+      "source": "node-OB_e7DYScbT05uKYWlIG_",
+      "target": "node-V7d0lWrX8g3z2D9L99mdl",
+      "animated": true
+    },
+    {
+      "id": "edge-node-V7d0lWrX8g3z2D9L99mdl-node-eKUy2q5cGskmcg-sAAtYW",
+      "source": "node-V7d0lWrX8g3z2D9L99mdl",
+      "target": "node-eKUy2q5cGskmcg-sAAtYW",
+      "animated": true
+    },
+    {
+      "id": "edge-node-eKUy2q5cGskmcg-sAAtYW-node-N5MPa9HqtdcZeF0wtLMVu",
+      "source": "node-eKUy2q5cGskmcg-sAAtYW",
+      "target": "node-N5MPa9HqtdcZeF0wtLMVu",
+      "animated": true
+    },
+    {
+      "id": "edge-node-N5MPa9HqtdcZeF0wtLMVu-node-BHpm4kOU6e1dOlWW104QB",
+      "source": "node-N5MPa9HqtdcZeF0wtLMVu",
+      "target": "node-BHpm4kOU6e1dOlWW104QB",
+      "animated": true
+    },
+    {
+      "id": "edge-node-BHpm4kOU6e1dOlWW104QB-node-414WIX6TuK2h1jEtzRG2H",
+      "source": "node-BHpm4kOU6e1dOlWW104QB",
+      "target": "node-414WIX6TuK2h1jEtzRG2H",
+      "animated": true
+    }
+  ],
+  "topics": {
+    "RqfaQpg0ZK8-GMUPrU9EX": {
+      "id": "RqfaQpg0ZK8-GMUPrU9EX",
+      "slug": "agent-architectures",
+      "title": "Agent Architectures",
+      "description": "Agent architectures define how an AI agent is structured: how it reasons, selects tools, manages memory, and decides when to stop. Common patterns include ReAct (reason + act), plan-and-execute, and tree-of-thought. Choosing the right architecture depends on how much control the application needs over model behavior and how tolerant the customer is of unpredictable agent outputs.",
+      "resources": [
+        {
+          "id": "RqfaQpg0ZK8-GMUPrU9EX-res-1",
+          "type": "article",
+          "title": "What is agentic architecture?",
+          "url": "https://www.ibm.com/think/topics/agentic-architecture"
+        },
+        {
+          "id": "RqfaQpg0ZK8-GMUPrU9EX-res-2",
+          "type": "article",
+          "title": "The Complete Guide to AI Agent Architecture",
+          "url": "https://medium.com/@amarg3891/the-complete-guide-to-ai-agent-architecture-25dc2cbe7016"
+        },
+        {
+          "id": "RqfaQpg0ZK8-GMUPrU9EX-res-3",
+          "type": "video",
+          "title": "AI Agents, Clearly Explained",
+          "url": "https://www.youtube.com/watch?v=FwOTs4UxQS4"
+        }
+      ]
+    },
+    "ZS84Fe33y6DCQYWPjSgZs": {
+      "id": "ZS84Fe33y6DCQYWPjSgZs",
+      "slug": "ai-agents",
+      "title": "AI Agents",
+      "description": "AI agents are systems where a language model is given tools and a goal, and takes a sequence of actions to complete a task rather than responding to a single prompt. In practice, most well-designed agents use one LLM call as an orchestrating layer with a series of tool calls around it. Overloading an agent with AI at every step increases token costs and often produces worse results.",
+      "resources": [
+        {
+          "id": "ZS84Fe33y6DCQYWPjSgZs-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated AI Agents Roadmap",
+          "url": "https://roadmap.sh/ai-agents"
+        },
+        {
+          "id": "ZS84Fe33y6DCQYWPjSgZs-res-2",
+          "type": "article",
+          "title": "Agents in Artificial Intelligence Explained",
+          "url": "https://aws.amazon.com/what-is/ai-agents/"
+        },
+        {
+          "id": "ZS84Fe33y6DCQYWPjSgZs-res-3",
+          "type": "video",
+          "title": "What are AI Agents?",
+          "url": "https://www.youtube.com/watch?v=F8NKVhkZZWI"
+        }
+      ]
+    },
+    "tTTDizQfuACFUoAAsTCt1": {
+      "id": "tTTDizQfuACFUoAAsTCt1",
+      "slug": "ai-engineering-skills",
+      "title": "AI Engineering Skills",
+      "description": "AI Engineering AI engineering involves building software systems that use machine learning models and large language models (LLMs) as components. This includes selecting models, integrating them via APIs, engineering prompts, managing context, and deploying AI features in production. AI engineering is at the core of the job of FDEs. It's what turns an AI model into a product that runs reliably inside a company's infrastructure.",
+      "resources": [
+        {
+          "id": "tTTDizQfuACFUoAAsTCt1-res-1",
+          "type": "article",
+          "title": "What Is an AI Engineer? (And How to Become One)",
+          "url": "https://www.coursera.org/articles/ai-engineer"
+        },
+        {
+          "id": "tTTDizQfuACFUoAAsTCt1-res-2",
+          "type": "video",
+          "title": "AI, Machine Learning, Deep Learning and Generative AI Explained",
+          "url": "https://www.youtube.com/watch?v=qYNweeDHiyU"
+        }
+      ]
+    },
+    "buA5I4rQkiDB_EDG-6kju": {
+      "id": "buA5I4rQkiDB_EDG-6kju",
+      "slug": "ai-engineering",
+      "title": "AI Engineering",
+      "description": "AI engineering involves building software systems that use machine learning models and large language models (LLMs) as components. This includes selecting models, integrating them via APIs, engineering prompts, managing context, and deploying AI features in production. For FDEs, AI engineering is often the core of the engagement to deliver a working AI-powered feature within the customer's existing environment.",
+      "resources": [
+        {
+          "id": "buA5I4rQkiDB_EDG-6kju-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated AI Engineer Roadmap",
+          "url": "https://roadmap.sh/ai-engineer"
+        },
+        {
+          "id": "buA5I4rQkiDB_EDG-6kju-res-2",
+          "type": "article",
+          "title": "What Is an AI Engineer? (And How to Become One)",
+          "url": "https://www.coursera.org/articles/ai-engineer"
+        },
+        {
+          "id": "buA5I4rQkiDB_EDG-6kju-res-3",
+          "type": "video",
+          "title": "AI, Machine Learning, Deep Learning and Generative AI Explained",
+          "url": "https://www.youtube.com/watch?v=qYNweeDHiyU"
+        }
+      ]
+    },
+    "NaNmI6f-LLdb-ITMaPD6w": {
+      "id": "NaNmI6f-LLdb-ITMaPD6w",
+      "slug": "ai-governance",
+      "title": "AI Governance",
+      "description": "AI governance refers to the policies, processes, and controls that ensure AI systems behave safely, fairly, and in compliance with regulations and organizational standards. This includes defining acceptable use, managing model risk, ensuring transparency, and monitoring for harmful or biased outputs. Enterprise customers increasingly require AI governance frameworks before they will deploy AI features in production.",
+      "resources": [
+        {
+          "id": "NaNmI6f-LLdb-ITMaPD6w-res-1",
+          "type": "article",
+          "title": "What is AI governance?",
+          "url": "https://www.ibm.com/think/topics/ai-governance"
+        },
+        {
+          "id": "NaNmI6f-LLdb-ITMaPD6w-res-2",
+          "type": "video",
+          "title": "The Importance of AI Governance",
+          "url": "https://www.youtube.com/watch?v=Q020C-Jw0o8"
+        }
+      ]
+    },
+    "T_I3hVabg_-juEb7_Rz0v": {
+      "id": "T_I3hVabg_-juEb7_Rz0v",
+      "slug": "airflow",
+      "title": "Airflow",
+      "description": "Apache Airflow is an open-source workflow orchestration platform for scheduling and monitoring data pipelines. Pipelines are defined as Directed Acyclic Graphs (DAGs) in Python, where each node is a task. Many enterprise data teams use Airflow to manage their pipelines, and FDEs may need to add new DAGs, debug failures, or integrate new data sources into an existing Airflow setup.",
+      "resources": [
+        {
+          "id": "T_I3hVabg_-juEb7_Rz0v-res-1",
+          "type": "article",
+          "title": "Airflow Docs",
+          "url": "https://airflow.apache.org/docs/"
+        },
+        {
+          "id": "T_I3hVabg_-juEb7_Rz0v-res-2",
+          "type": "article",
+          "title": "airflow",
+          "url": "https://airflow.apache.org/docs/"
+        },
+        {
+          "id": "T_I3hVabg_-juEb7_Rz0v-res-3",
+          "type": "video",
+          "title": "Airflow Tutorial for Beginners",
+          "url": "https://www.youtube.com/watch?v=K9AnJ9_ZAXE&list=PLwFJcsJ61oujAqYpMp1kdUBcPG0sE0QMT"
+        }
+      ]
+    },
+    "_nL7Wf1MG3mofKY9XwGDX": {
+      "id": "_nL7Wf1MG3mofKY9XwGDX",
+      "slug": "apis-design",
+      "title": "APIs Design",
+      "description": "API design is the process of defining how services communicate with each other through well-structured interfaces. Good API design involves choosing the right protocol (REST, GraphQL, gRPC), defining clear resource models, handling errors consistently, and versioning carefully.",
+      "resources": []
+    },
+    "OkdMIcPrbRmTCvViMHL58": {
+      "id": "OkdMIcPrbRmTCvViMHL58",
+      "slug": "api-security",
+      "title": "API Security",
+      "description": "API security covers the practices and controls needed to protect APIs from unauthorized access and abuse. This includes authentication, authorization, rate limiting, input validation, and protection against common attacks. When building APIs, it's important to follow the customer's security standards and design endpoints that are not vulnerable to misuse, especially when those APIs expose AI capabilities.",
+      "resources": [
+        {
+          "id": "OkdMIcPrbRmTCvViMHL58-res-1",
+          "type": "article",
+          "title": "API Security Best Practices",
+          "url": "https://roadmap.sh/api-security-best-practices"
+        },
+        {
+          "id": "OkdMIcPrbRmTCvViMHL58-res-2",
+          "type": "article",
+          "title": "What Is API Security?",
+          "url": "https://www.fortinet.com/resources/cyberglossary/api-security"
+        },
+        {
+          "id": "OkdMIcPrbRmTCvViMHL58-res-3",
+          "type": "video",
+          "title": "Top 12 Tips For API Security",
+          "url": "https://www.youtube.com/watch?v=6WZ6S-qmtqY"
+        }
+      ]
+    },
+    "jHqnzz31kPThHr2Evq9rl": {
+      "id": "jHqnzz31kPThHr2Evq9rl",
+      "slug": "authentication",
+      "title": "Authentication",
+      "description": "Authentication is the process of verifying the identity of a user or system. Common mechanisms include username/password, API keys, OAuth 2.0 tokens, and JWTs. In customer environments, FDEs typically need to integrate with an existing identity provider rather than build authentication from scratch, which requires understanding how common auth flows work and how to connect new services to them securely.",
+      "resources": [
+        {
+          "id": "jHqnzz31kPThHr2Evq9rl-res-1",
+          "type": "video",
+          "title": "Session vs Token Authentication in 100 Seconds",
+          "url": "https://www.youtube.com/watch?v=UBUNrFtufWo"
+        },
+        {
+          "id": "jHqnzz31kPThHr2Evq9rl-res-2",
+          "type": "video",
+          "title": "How will AI Agents Manage Identity & Build Trust in Complex Systems",
+          "url": "https://www.youtube.com/watch?v=wiU7VEvi1LM"
+        }
+      ]
+    },
+    "sb6WyqJdxrUI9CRKSo0r0": {
+      "id": "sb6WyqJdxrUI9CRKSo0r0",
+      "slug": "aws",
+      "title": "AWS",
+      "description": "Amazon Web Services (AWS) is the largest cloud platform by market share, offering services across compute (EC2, Lambda), storage (S3), databases (RDS, DynamoDB), networking, and AI/ML tooling. A large proportion of customer environments run on AWS, making it one of the most common cloud platforms an FDE will need to work within.",
+      "resources": [
+        {
+          "id": "sb6WyqJdxrUI9CRKSo0r0-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated AWS Roadmap",
+          "url": "https://roadmap.sh/aws"
+        },
+        {
+          "id": "sb6WyqJdxrUI9CRKSo0r0-res-2",
+          "type": "article",
+          "title": "AWS Cloud Essentials",
+          "url": "https://aws.amazon.com/getting-started/cloud-essentials/"
+        },
+        {
+          "id": "sb6WyqJdxrUI9CRKSo0r0-res-3",
+          "type": "article",
+          "title": "AWS Training and Certification",
+          "url": "https://aws.amazon.com/training/?trk=50fd1d88-f5af-4fa6-9b0b-5a8afc70d2f0&sc_channel=ps&trk=50fd1d88-f5af-4fa6-9b0b-5a8afc70d2f0&sc_channel=ps&ef_id=Cj0KCQjw2_TQBhCnARIsAF3-XhyfwvjJ5p5jx-ax1ZtJ-OhBvXe_kMG6L2PQ-4tzdtYR04RkwTcZ7a4aAq3kEALw_wcB:G:s&s_kwcid=AL!4422!3!795841471846!e!!g!!aws%20courses!23533256377!189966199662&trk=50fd1d88-f5af-4fa6-9b0b-5a8afc70d2f0&sc_channel=ps&ef_id=Cj0KCQjw2_TQBhCnARIsAF3-XhyfwvjJ5p5jx-ax1ZtJ-OhBvXe_kMG6L2PQ-4tzdtYR04RkwTcZ7a4aAq3kEALw_wcB:G:s&s_kwcid=AL!4422!3!795841471846!e!!g!!aws%20courses!23533256377!189966199662&gad_campaignid=23533256377&gbraid=0AAAAADjHtp-d6KYp4kcG8UBYRNKgIuXZy&gclid=Cj0KCQjw2_TQBhCnARIsAF3-XhyfwvjJ5p5jx-ax1ZtJ-OhBvXe_kMG6L2PQ-4tzdtYR04RkwTcZ7a4aAq3kEALw_wcB"
+        },
+        {
+          "id": "sb6WyqJdxrUI9CRKSo0r0-res-4",
+          "type": "video",
+          "title": "AWS Certified Cloud Practitioner Certification Course",
+          "url": "https://www.youtube.com/watch?v=7HKot-brXFE"
+        }
+      ]
+    },
+    "4tQhE4qGiC_PcgD1gFeQi": {
+      "id": "4tQhE4qGiC_PcgD1gFeQi",
+      "slug": "azrue",
+      "title": "Azure",
+      "description": "Microsoft Azure is Microsoft's cloud platform with particularly strong adoption in enterprise environments, especially those using Microsoft products like Active Directory, Office 365, and .NET.",
+      "resources": [
+        {
+          "id": "4tQhE4qGiC_PcgD1gFeQi-res-1",
+          "type": "article",
+          "title": "Azure Docs",
+          "url": "https://learn.microsoft.com/en-us/azure/?product=popular"
+        },
+        {
+          "id": "4tQhE4qGiC_PcgD1gFeQi-res-2",
+          "type": "video",
+          "title": "Microsoft Azure Fundamentals",
+          "url": "https://www.youtube.com/watch?v=NPEsD6n9A_I&list=PLGjZwEtPN7j-Q59JYso3L4_yoCjj2syrM"
+        }
+      ]
+    },
+    "kK16boEALRDQdRmFRphso": {
+      "id": "kK16boEALRDQdRmFRphso",
+      "slug": "backend-skills",
+      "title": "Backend",
+      "description": "Backend development refers to the server-side logic of a web application, including handling requests, running business logic, interacting with databases, and returning responses. Backend systems are typically built with Python, Node.js, Java, or Go, connected to databases and external services. FDEs who can build solid backend systems can own the full delivery of a feature rather than handing off at the API boundary.",
+      "resources": [
+        {
+          "id": "kK16boEALRDQdRmFRphso-res-1",
+          "type": "article",
+          "title": "What is backend? A comprehensive intro to server-side development",
+          "url": "https://alokai.com/blog/what-is-backend"
+        },
+        {
+          "id": "kK16boEALRDQdRmFRphso-res-2",
+          "type": "video",
+          "title": "How The Backend Works",
+          "url": "https://www.youtube.com/watch?v=4r6WdaY3SOA"
+        }
+      ]
+    },
+    "CEj01gIsqo9cnfBQAu4Oq": {
+      "id": "CEj01gIsqo9cnfBQAu4Oq",
+      "slug": "backend",
+      "title": "Backend",
+      "description": "Backend development refers to the server-side logic of a web application, including handling requests, running business logic, interacting with databases, and returning responses. Backend systems are typically built with Python, Node.js, Java, or Go, connected to databases and external services. FDEs who can build solid backend systems can own the full delivery of a feature rather than handing off at the API boundary.",
+      "resources": [
+        {
+          "id": "CEj01gIsqo9cnfBQAu4Oq-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated Backend Developer Roadmap",
+          "url": "https://roadmap.sh/backend"
+        },
+        {
+          "id": "CEj01gIsqo9cnfBQAu4Oq-res-2",
+          "type": "article",
+          "title": "What is backend? A comprehensive intro to server-side development",
+          "url": "https://alokai.com/blog/what-is-backend"
+        },
+        {
+          "id": "CEj01gIsqo9cnfBQAu4Oq-res-3",
+          "type": "video",
+          "title": "How The Backend Works",
+          "url": "https://www.youtube.com/watch?v=4r6WdaY3SOA"
+        }
+      ]
+    },
+    "exOxhFap719ArAhvgsCDx": {
+      "id": "exOxhFap719ArAhvgsCDx",
+      "slug": "build-your-agent",
+      "title": "Build your Agent",
+      "description": "You have learned the concepts. Now build one. Pick a real task, something you actually want automated, and build an agent that can do it: define the tools, write the orchestration logic, handle failures, and test it against inputs that are likely to break it. It does not matter if the first version is rough. Getting hands-on with a real agent exposes the gaps that no amount of reading covers, and what you learn from debugging a misbehaving agent is exactly the knowledge you will need when doing it inside a customer environment.",
+      "resources": []
+    },
+    "bgZE7NSpze22A5BBq1azG": {
+      "id": "bgZE7NSpze22A5BBq1azG",
+      "slug": "building-eval-pipelines",
+      "title": "Building Eval Pipelines",
+      "description": "Evaluation pipelines are automated systems for measuring the quality of an AI model or application across a set of test cases. They run inputs through the system, compare outputs to expected results or use a judge model, and surface quality metrics. Eval pipelines give customers a way to measure whether AI features are working, which makes it easier to iterate and build confidence in the system over time.",
+      "resources": [
+        {
+          "id": "bgZE7NSpze22A5BBq1azG-res-1",
+          "type": "article",
+          "title": "LLM evaluation: a beginner's guide",
+          "url": "https://www.evidentlyai.com/llm-guide/llm-evaluation"
+        },
+        {
+          "id": "bgZE7NSpze22A5BBq1azG-res-2",
+          "type": "article",
+          "title": "Building an Evaluation Harness for Production AI Agents:",
+          "url": "https://towardsdatascience.com/building-an-evaluation-harness-for-production-ai-agents-a-12-metric-framework-from-100-deployments/"
+        },
+        {
+          "id": "bgZE7NSpze22A5BBq1azG-res-3",
+          "type": "video",
+          "title": "LLM Evaluation course",
+          "url": "https://www.youtube.com/watch?v=rHs0sP7b5fM&list=PL9omX6impEuMgDFCK_NleIB0sMzKs2boI"
+        }
+      ]
+    },
+    "bE7j2U28V8Vf9OKHBqLwW": {
+      "id": "bE7j2U28V8Vf9OKHBqLwW",
+      "slug": "business-acumen",
+      "title": "Business Acumen",
+      "description": "Business acumen is the ability to understand how an organization operates, what its priorities are, how it makes money, and where technology can create real value. Being able to connect engineering decisions to business outcomes is what makes FDEs different from traditional software engineers.",
+      "resources": []
+    },
+    "s7xfJo04F2DGaKWBlUOwh": {
+      "id": "s7xfJo04F2DGaKWBlUOwh",
+      "slug": "c",
+      "title": "C++",
+      "description": "C++ is a high-performance, statically typed language that gives developers fine-grained control over memory and system resources. It is used in systems programming, game engines, embedded software, and performance-critical applications. While less common in typical web or AI deployments, some customer environments in hardware, robotics, or real-time systems will require at least reading and navigating C++ codebases.",
+      "resources": [
+        {
+          "id": "s7xfJo04F2DGaKWBlUOwh-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated C++ Developer Roadmap",
+          "url": "https://roadmap.sh/cpp"
+        },
+        {
+          "id": "s7xfJo04F2DGaKWBlUOwh-res-2",
+          "type": "article",
+          "title": "Get Started with C++",
+          "url": "https://isocpp.org/get-started"
+        },
+        {
+          "id": "s7xfJo04F2DGaKWBlUOwh-res-3",
+          "type": "course",
+          "title": "Modern Cpp Series By Mike Shah",
+          "url": "https://courses.mshah.io/courses/cpp-programming-language"
+        }
+      ]
+    },
+    "XpkCJoUTbi1oqksEZ1v6O": {
+      "id": "XpkCJoUTbi1oqksEZ1v6O",
+      "slug": "choosing-your-model-provider",
+      "title": "Choosing your Model Provider",
+      "description": "Different LLM providers offer models with different tradeoffs in capability, cost, latency, context length, and licensing terms. Common providers include OpenAI, Anthropic, Google, and Meta, as well as providers of open-source models like Hugging Face. FDEs need to be able to evaluate and recommend the right model for a customer's use case, considering not just benchmark performance but also data privacy requirements, cost at scale, and the customer's existing cloud agreements.",
+      "resources": [
+        {
+          "id": "XpkCJoUTbi1oqksEZ1v6O-res-1",
+          "type": "article",
+          "title": "Choosing the right model",
+          "url": "https://bentoml.com/llm/getting-started/choosing-the-right-model"
+        },
+        {
+          "id": "XpkCJoUTbi1oqksEZ1v6O-res-2",
+          "type": "article",
+          "title": "Beyond vibes: How to properly select the right LLM for the right task",
+          "url": "https://aws.amazon.com/blogs/machine-learning/beyond-vibes-how-to-properly-select-the-right-llm-for-the-right-task/"
+        }
+      ]
+    },
+    "wr5ddjutC-fX_ixysTHaT": {
+      "id": "wr5ddjutC-fX_ixysTHaT",
+      "slug": "claude-code",
+      "title": "Claude Code",
+      "description": "Claude Code is a terminal-based AI tool built by Anthropic. It is designed to reason through complex code problems, explain unfamiliar codebases, and help with debugging. It works best when you need to understand what a piece of code is doing before modifying it; give it a specific problem and it will walk through it step by step.",
+      "resources": [
+        {
+          "id": "wr5ddjutC-fX_ixysTHaT-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated Claude Code Roadmap",
+          "url": "https://roadmap.sh/claude-code"
+        },
+        {
+          "id": "wr5ddjutC-fX_ixysTHaT-res-2",
+          "type": "article",
+          "title": "Claude Code Overview",
+          "url": "https://code.claude.com/docs/en/overview"
+        },
+        {
+          "id": "wr5ddjutC-fX_ixysTHaT-res-3",
+          "type": "course",
+          "title": "Claude Code in Action",
+          "url": "https://anthropic.skilljar.com/claude-code-in-action"
+        },
+        {
+          "id": "wr5ddjutC-fX_ixysTHaT-res-4",
+          "type": "article",
+          "title": "Vibe coding tutorial: Build your first app with Claude Code",
+          "url": "https://roadmap.sh/vibe-coding/tutorial"
+        }
+      ]
+    },
+    "mj6Hlgcu1ABoRgJ4E3Nl8": {
+      "id": "mj6Hlgcu1ABoRgJ4E3Nl8",
+      "slug": "cloud-platforms",
+      "title": "Cloud Platforms",
+      "description": "Cloud platforms provide on-demand access to computing resources, including servers, storage, networking, databases, and managed services. Almost every customer environment runs on one or more cloud providers, so FDEs need to be comfortable operating across at least one of the major platforms, understanding how to deploy services, manage permissions, and navigate the ecosystem of managed offerings.",
+      "resources": [
+        {
+          "id": "mj6Hlgcu1ABoRgJ4E3Nl8-res-1",
+          "type": "article",
+          "title": "Cloud Platforms: Revolutionizing Business Operations",
+          "url": "https://www.coursera.org/articles/cloud-platforms"
+        },
+        {
+          "id": "mj6Hlgcu1ABoRgJ4E3Nl8-res-2",
+          "type": "video",
+          "title": "Cloud Computing In 6 Minutes",
+          "url": "https://www.youtube.com/watch?v=M988_fsOSWo"
+        }
+      ]
+    },
+    "hzeEo8COf2l07iu5EdlFo": {
+      "id": "hzeEo8COf2l07iu5EdlFo",
+      "slug": "codex",
+      "title": "Codex",
+      "description": "Codex is OpenAI's code-focused model, trained on large amounts of public code, and the model that powers GitHub Copilot. It can generate code from natural language descriptions, complete functions, and assist with documentation. It is one of the foundational tools in the AI-assisted coding ecosystem that FDEs may use or encounter in customer engineering teams.",
+      "resources": [
+        {
+          "id": "hzeEo8COf2l07iu5EdlFo-res-1",
+          "type": "article",
+          "title": "Codex Overview",
+          "url": "https://chatgpt.com/codex"
+        },
+        {
+          "id": "hzeEo8COf2l07iu5EdlFo-res-2",
+          "type": "course",
+          "title": "Codex for Builders",
+          "url": "https://academy.openai.com/public/clubs/builders-etkn1/resources/codex-for-builders"
+        },
+        {
+          "id": "hzeEo8COf2l07iu5EdlFo-res-3",
+          "type": "video",
+          "title": "Codex Full Course 2026",
+          "url": "https://www.youtube.com/watch?v=KXIdYEdOPys"
+        }
+      ]
+    },
+    "iaNbLDFrEDYEKwpkGFWts": {
+      "id": "iaNbLDFrEDYEKwpkGFWts",
+      "slug": "communication",
+      "title": "Communication",
+      "description": "If you cannot explain what AI can and cannot do to a non-technical VP, you cannot be an FDE. Communication in this role is about translating between two different worlds: the technical reality of what you are building and the business reality of what the customer needs to justify the investment. That means being able to speak about token costs and latency in the same conversation where you are explaining ROI to an executive. It also means knowing when to say AI is not the right answer.",
+      "resources": []
+    },
+    "lWOtIplGjXg139CAr2HaC": {
+      "id": "lWOtIplGjXg139CAr2HaC",
+      "slug": "complete-app-with-observability",
+      "title": "Complete App with Observability",
+      "description": "Take a complete application and make it production-ready by building a sandbox first: a replica of the deployment environment where you can run, test, and debug the system before it touches production. Then add the operational layer: structured logging, distributed tracing, error tracking, performance metrics, and alerts. Once it is running, break something intentionally and use those tools to find it. In a real customer engagement, you will not be there forever. Observability is what lets the customer's team keep the system running after you leave.",
+      "resources": []
+    },
+    "YyPk_MygYb40ALZ2cynmN": {
+      "id": "YyPk_MygYb40ALZ2cynmN",
+      "slug": "complete-apps",
+      "title": "Complete Apps",
+      "description": "This is where everything connects. Take an idea and build it fully, from the database schema to the API to the frontend. No mocking, no placeholders, no \"this would normally connect to X.\" The point is to experience what it feels like to own a full system: making decisions at every layer, dealing with the friction between them, and ending up with something that actually works. Building complete apps on your own is the best way to develop that instinct before you are doing it under customer pressure.",
+      "resources": []
+    },
+    "dWklJpF9hcjJSxb4Q4xIO": {
+      "id": "dWklJpF9hcjJSxb4Q4xIO",
+      "slug": "computer-science",
+      "title": "Computer Science",
+      "description": "Computer science covers the foundational principles behind how software and computing systems work. This includes programming, algorithms, data structures, system design, and software architecture. These fundamentals matter because FDEs often need to quickly evaluate a customer's existing systems, identify bottlenecks, and make sound architectural decisions.",
+      "resources": [
+        {
+          "id": "dWklJpF9hcjJSxb4Q4xIO-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated Computer Science Roadmap",
+          "url": "https://roadmap.sh/computer-science"
+        },
+        {
+          "id": "dWklJpF9hcjJSxb4Q4xIO-res-2",
+          "type": "article",
+          "title": "Computer science - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Computer_science"
+        },
+        {
+          "id": "dWklJpF9hcjJSxb4Q4xIO-res-3",
+          "type": "video",
+          "title": "Early Computing: Crash Course Computer Science",
+          "url": "https://www.youtube.com/watch?v=O5nskjZ_GoI"
+        }
+      ]
+    },
+    "jSNp7CyvfjYWjzTmVO8oP": {
+      "id": "jSNp7CyvfjYWjzTmVO8oP",
+      "slug": "containers",
+      "title": "Containers",
+      "description": "Containers are a lightweight way to package an application along with its dependencies and configuration so it runs consistently across environments. Unlike virtual machines, containers share the host operating system kernel, making them fast to start and efficient to run. Containerizing an application is often the first step toward making it deployable in a customer's cloud environment.",
+      "resources": [
+        {
+          "id": "jSNp7CyvfjYWjzTmVO8oP-res-1",
+          "type": "article",
+          "title": "What is a Container?",
+          "url": "https://www.docker.com/resources/what-container/"
+        },
+        {
+          "id": "jSNp7CyvfjYWjzTmVO8oP-res-2",
+          "type": "video",
+          "title": "What are Containers?",
+          "url": "https://www.youtube.com/playlist?list=PLawsLZMfND4nz-WDBZIj8-nbzGFD4S9oz"
+        }
+      ]
+    },
+    "0llUuL5wNY111LDMfgTfn": {
+      "id": "0llUuL5wNY111LDMfgTfn",
+      "slug": "css",
+      "title": "CSS",
+      "description": "CSS, or Cascading Style Sheets, controls the visual appearance of HTML elements on a web page. It handles layout, colors, typography, spacing, animations, and responsive design. Modern CSS includes Flexbox, Grid, and custom properties. Being fluent in CSS is key to produce clean, presentable demos and prototypes.",
+      "resources": [
+        {
+          "id": "0llUuL5wNY111LDMfgTfn-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated CSS Roadmap",
+          "url": "https://roadmap.sh/css"
+        },
+        {
+          "id": "0llUuL5wNY111LDMfgTfn-res-2",
+          "type": "article",
+          "title": "Learn CSS",
+          "url": "https://web.dev/learn/css/"
+        },
+        {
+          "id": "0llUuL5wNY111LDMfgTfn-res-3",
+          "type": "video",
+          "title": "CSS Full Course for Beginners",
+          "url": "https://www.youtube.com/watch?v=n4R2E7O-Ngo"
+        }
+      ]
+    },
+    "MWhoqhNnBaoeCdN_8i15k": {
+      "id": "MWhoqhNnBaoeCdN_8i15k",
+      "slug": "cursor",
+      "title": "Cursor",
+      "description": "Cursor is a code editor built on top of VS Code with AI assistance integrated throughout. It is particularly useful for navigating and editing large codebases you did not write yourself, which makes it well-suited for working with AI-generated code. You can select any part of the code and ask it to explain, fix, or rewrite it without having to read every line around it.",
+      "resources": [
+        {
+          "id": "MWhoqhNnBaoeCdN_8i15k-res-1",
+          "type": "article",
+          "title": "Cursor Docs",
+          "url": "https://cursor.com/docs"
+        },
+        {
+          "id": "MWhoqhNnBaoeCdN_8i15k-res-2",
+          "type": "article",
+          "title": "Claude Code vs Cursor: Which AI Coding Tool To Choose",
+          "url": "https://roadmap.sh/claude-code/vs-cursor"
+        },
+        {
+          "id": "MWhoqhNnBaoeCdN_8i15k-res-3",
+          "type": "video",
+          "title": "Cursor 2.0 Tutorial for Beginners (Full Course)",
+          "url": "https://www.youtube.com/watch?v=2aldTxnbNt0"
+        }
+      ]
+    },
+    "LUL5YJYOjQtE8mGHhXxt1": {
+      "id": "LUL5YJYOjQtE8mGHhXxt1",
+      "slug": "data-engineering",
+      "title": "Data Engineering",
+      "description": "Data engineering involves building and maintaining the systems that collect, store, process, and move data at scale. This includes designing pipelines, working with data warehouses, and ensuring data quality for downstream consumers like analysts and ML systems. FDEs working with enterprise customers often find that data access, transformation, and availability are the first real blockers to building anything useful with AI.",
+      "resources": [
+        {
+          "id": "LUL5YJYOjQtE8mGHhXxt1-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated Data Engineer Roadmap",
+          "url": "https://roadmap.sh/data-engineer"
+        },
+        {
+          "id": "LUL5YJYOjQtE8mGHhXxt1-res-2",
+          "type": "article",
+          "title": "What is data engineering?",
+          "url": "https://www.ibm.com/think/topics/data-engineering"
+        },
+        {
+          "id": "LUL5YJYOjQtE8mGHhXxt1-res-3",
+          "type": "video",
+          "title": "Data Engineering Course for Beginners",
+          "url": "https://www.youtube.com/watch?v=PHsC_t0j1dU"
+        },
+        {
+          "id": "LUL5YJYOjQtE8mGHhXxt1-res-4",
+          "type": "video",
+          "title": "Data Engineering Boot camp",
+          "url": "https://www.youtube.com/watch?v=myhe0LXpCeo&list=PLwUdL9DpGWU0lhwp3WCxRsb1385KFTLYE"
+        }
+      ]
+    },
+    "oqvpmxz-G2wAYZBsvYI-l": {
+      "id": "oqvpmxz-G2wAYZBsvYI-l",
+      "slug": "data-pipelines",
+      "title": "Data Pipelines",
+      "description": "A data pipeline is a series of steps that move and transform data from one place to another, usually from source systems into a warehouse or processing layer. Pipelines can be batch-based (running on a schedule) or streaming (processing data in real time). Building reliable pipelines means handling failures, schema changes, and data quality issues, all of which are common realities in customer environments.",
+      "resources": []
+    },
+    "xvTYuzxuOJ0gsmQEkNS5x": {
+      "id": "xvTYuzxuOJ0gsmQEkNS5x",
+      "slug": "data-privacy--compliance",
+      "title": "Data Privacy & Compliance",
+      "description": "Data privacy ensures personal or sensitive data is handled according to applicable laws and organizational policies, including GDPR, CCPA, HIPAA, and others. For AI systems, this includes what data is sent to third-party model APIs, what is stored, and how long it is retained.",
+      "resources": [
+        {
+          "id": "xvTYuzxuOJ0gsmQEkNS5x-res-1",
+          "type": "article",
+          "title": "Exploring privacy issues in the age of AI",
+          "url": "https://www.ibm.com/think/insights/ai-privacy"
+        },
+        {
+          "id": "xvTYuzxuOJ0gsmQEkNS5x-res-2",
+          "type": "article",
+          "title": "AI Data Privacy: A Guide for Modern Industries",
+          "url": "https://trustarc.com/resource/ai-applications-used-in-privacy-compliance/"
+        }
+      ]
+    },
+    "aqrK4e6B8LFvFimKoqCNF": {
+      "id": "aqrK4e6B8LFvFimKoqCNF",
+      "slug": "dsa--system-design",
+      "title": "Data Structures & Algorithms",
+      "description": "Data structures are ways of organizing data in memory, such as arrays, linked lists, trees, graphs, and hash maps. Algorithms are step-by-step procedures for solving problems, like sorting, searching, or traversal. Knowing these well means being able to evaluate performance characteristics of code, debug inefficiencies in customer systems, and reason clearly about solutions to technical problems.",
+      "resources": [
+        {
+          "id": "aqrK4e6B8LFvFimKoqCNF-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated Data Structures & Algorithms Roadmap",
+          "url": "https://roadmap.sh/datastructures-and-algorithms"
+        },
+        {
+          "id": "aqrK4e6B8LFvFimKoqCNF-res-2",
+          "type": "article",
+          "title": "Data Structures and Algorithms (DSA) Tutorial",
+          "url": "https://www.tutorialspoint.com/data_structures_algorithms/index.htm"
+        },
+        {
+          "id": "aqrK4e6B8LFvFimKoqCNF-res-3",
+          "type": "video",
+          "title": "What Are Data Structures?",
+          "url": "https://www.youtube.com/watch?v=bum_19loj9A"
+        }
+      ]
+    },
+    "2e6r7o6wjknJDInucHPx-": {
+      "id": "2e6r7o6wjknJDInucHPx-",
+      "slug": "devops--cicd",
+      "title": "DevOps & CI/CD",
+      "description": "DevOps is a set of practices that combine software development and IT operations to shorten delivery cycles and ship software more reliably. CI/CD automates the process of testing, building, and deploying code. Understanding the customer's CI/CD setup is often necessary for FDEs to integrate new work into their delivery pipeline without disrupting existing processes.",
+      "resources": [
+        {
+          "id": "2e6r7o6wjknJDInucHPx--res-1",
+          "type": "article",
+          "title": "Visit the Dedicated DevOps Roadmap",
+          "url": "https://roadmap.sh/devops"
+        },
+        {
+          "id": "2e6r7o6wjknJDInucHPx--res-2",
+          "type": "article",
+          "title": "What is CI/CD?",
+          "url": "https://www.ibm.com/think/topics/ci-cd"
+        },
+        {
+          "id": "2e6r7o6wjknJDInucHPx--res-3",
+          "type": "video",
+          "title": "DevOps In 5 Minutes",
+          "url": "https://www.youtube.com/watch?v=Xrgk023l4lI"
+        }
+      ]
+    },
+    "LRBwP7EQj4byox7yKdPAj": {
+      "id": "LRBwP7EQj4byox7yKdPAj",
+      "slug": "devops-skills",
+      "title": "DevOps Skills",
+      "description": "DevOps is the practice of automating and streamlining how software is built, tested, and deployed. A forward-deployed engineer who knows DevOps can own the full deployment lifecycle, from spinning up infrastructure to shipping a containerized agent into a client's cloud environment, without depending on another team to get there.",
+      "resources": [
+        {
+          "id": "LRBwP7EQj4byox7yKdPAj-res-1",
+          "type": "article",
+          "title": "What Is DevOps? A Guide to the Basics",
+          "url": "https://www.coursera.org/articles/what-is-devops"
+        },
+        {
+          "id": "LRBwP7EQj4byox7yKdPAj-res-2",
+          "type": "video",
+          "title": "DevOps In 5 Minutes",
+          "url": "https://www.youtube.com/watch?v=Xrgk023l4lI"
+        }
+      ]
+    },
+    "hO7BCDFmbvQVcgM7W2t9S": {
+      "id": "hO7BCDFmbvQVcgM7W2t9S",
+      "slug": "discovery--scoping",
+      "title": "Discovery & Scoping",
+      "description": "Discovery and scoping is the phase of a customer engagement where the team identifies the problem to solve, understands the current state of the customer's systems and processes, and defines what success looks like. It involves asking the right questions, identifying constraints, and setting realistic expectations before any building begins. Getting this phase right determines whether the rest of the engagement goes smoothly or runs into avoidable problems.",
+      "resources": [
+        {
+          "id": "hO7BCDFmbvQVcgM7W2t9S-res-1",
+          "type": "article",
+          "title": "AI Techniques (Production): Use Case Discovery & System Scoping",
+          "url": "https://academy.openai.com/public/clubs/builders-etkn1/videos/ai-techniques-production-use-case-discovery-and-system-scoping-2025-12-11"
+        },
+        {
+          "id": "hO7BCDFmbvQVcgM7W2t9S-res-2",
+          "type": "article",
+          "title": "AI Discovery & Scoping Session",
+          "url": "https://www.elevatecorporatetraining.com.au/ai-discovery-scoping/"
+        }
+      ]
+    },
+    "_JBeNCBgiucjYlcX871eU": {
+      "id": "_JBeNCBgiucjYlcX871eU",
+      "slug": "docker",
+      "title": "Docker",
+      "description": "Docker is the leading platform for building, shipping, and running containers. A Dockerfile defines the steps to build a container image, and Docker provides tools to run those images locally or push them to a registry for deployment. Docker is the standard way to package work so it runs reliably in customer environments regardless of local differences in setup.",
+      "resources": [
+        {
+          "id": "_JBeNCBgiucjYlcX871eU-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated Docker Roadmap",
+          "url": "https://roadmap.sh/docker"
+        },
+        {
+          "id": "_JBeNCBgiucjYlcX871eU-res-2",
+          "type": "article",
+          "title": "Docker Docs",
+          "url": "https://docs.docker.com/"
+        },
+        {
+          "id": "_JBeNCBgiucjYlcX871eU-res-3",
+          "type": "video",
+          "title": "Complete Docker Course",
+          "url": "https://www.youtube.com/watch?v=RqTEHSBrYFw"
+        }
+      ]
+    },
+    "c8dBwWaKLiW6X2HWfmVJt": {
+      "id": "c8dBwWaKLiW6X2HWfmVJt",
+      "slug": "enterprise-workflow",
+      "title": "Enterprise Workflow",
+      "description": "Enterprise workflows are the processes and systems through which large organizations operate, including approvals, handoffs, integrations with existing tools, and compliance requirements. Building for enterprise environments requires understanding these workflows and designing solutions that fit within them.",
+      "resources": [
+        {
+          "id": "c8dBwWaKLiW6X2HWfmVJt-res-1",
+          "type": "article",
+          "title": "What is enterprise workflow management?",
+          "url": "https://www.manageengine.com/appcreator/enterprise-workflow-management.html"
+        }
+      ]
+    },
+    "414WIX6TuK2h1jEtzRG2H": {
+      "id": "414WIX6TuK2h1jEtzRG2H",
+      "slug": "what-is-an-fde",
+      "title": "From X to FDE",
+      "description": "Three backgrounds tend to transition well into the FDE role: software engineers, consultants, and product managers. Software engineers already have the technical foundation but often need to develop the ability to communicate AI tradeoffs to non-technical stakeholders and build a portfolio that shows they can own a full deployment, not just write code. Consultants and PMs can already translate data into business outcomes, which is half the job, but need to close the gap on engineering by building real agents, RAG pipelines, and eval frameworks from scratch.",
+      "resources": [
+        {
+          "id": "414WIX6TuK2h1jEtzRG2H-res-1",
+          "type": "article",
+          "title": "The Definitive Guide to Forward Deployed Engineer Interviews in 2026",
+          "url": "https://www.sundeepteki.org/advice/the-definitive-guide-to-forward-deployed-engineer-interviews-in-2026"
+        }
+      ]
+    },
+    "XjxnVjO0fR2XNzBUSzA4L": {
+      "id": "XjxnVjO0fR2XNzBUSzA4L",
+      "slug": "from-x-to-fde",
+      "title": "From X to FDE",
+      "description": "Three backgrounds tend to transition well into the FDE role: software engineers, consultants, and product managers. Software engineers already have the technical foundation but often need to develop the ability to communicate AI tradeoffs to non-technical stakeholders and build a portfolio that shows they can own a full deployment, not just write code. Consultants and PMs can already translate data into business outcomes, which is half the job, but need to close the gap on engineering by building real agents, RAG pipelines, and eval frameworks from scratch.",
+      "resources": [
+        {
+          "id": "XjxnVjO0fR2XNzBUSzA4L-res-1",
+          "type": "article",
+          "title": "The Definitive Guide to Forward Deployed Engineer Interviews in 2026",
+          "url": "https://www.sundeepteki.org/advice/the-definitive-guide-to-forward-deployed-engineer-interviews-in-2026"
+        }
+      ]
+    },
+    "7JU1cVggMDoZUV-adGsf-": {
+      "id": "7JU1cVggMDoZUV-adGsf-",
+      "slug": "frontend-apps",
+      "title": "Frontend Apps",
+      "description": "Put the frontend skills together and build something that lives entirely in the browser. A weather dashboard, a personal finance tracker, a Pomodoro timer, a markdown editor. Use mock data or a public API if you need data, but keep the focus on the frontend itself: how you structure components, manage state, handle routing, and make the interface feel responsive and usable. The goal is to get comfortable making frontend decisions on your own, without a backend to hide behind.",
+      "resources": []
+    },
+    "CNTtsgHntKdMsM7FgrrB8": {
+      "id": "CNTtsgHntKdMsM7FgrrB8",
+      "slug": "frontend-skills",
+      "title": "Frontend",
+      "description": "Frontend development refers to the part of web development concerned with what users see and interact with in a browser. It covers HTML for structure, CSS for styling, and JavaScript for interactivity. FDEs who can build functional frontends are more self-sufficient in customer engagements, able to deliver end-to-end demos and working prototypes without depending on a separate frontend team.",
+      "resources": [
+        {
+          "id": "CNTtsgHntKdMsM7FgrrB8-res-1",
+          "type": "article",
+          "title": "Frontend Development Handbook",
+          "url": "https://github.com/FrontendMasters/front-end-handbook-2019/blob/master/exports/Front-end%20Developer%20Handbook%202019.pdf"
+        },
+        {
+          "id": "CNTtsgHntKdMsM7FgrrB8-res-2",
+          "type": "video",
+          "title": "Frontend web development - a complete overview",
+          "url": "https://www.youtube.com/watch?v=WG5ikvJ2TKA"
+        }
+      ]
+    },
+    "wY07cSW1nGj3JHJDNDrxq": {
+      "id": "wY07cSW1nGj3JHJDNDrxq",
+      "slug": "frontend",
+      "title": "Frontend",
+      "description": "Frontend development refers to the part of web development concerned with what users see and interact with in a browser. It covers HTML for structure, CSS for styling, and JavaScript for interactivity. FDEs who can build functional frontends are more self-sufficient in customer engagements, able to deliver end-to-end demos and working prototypes without depending on a separate frontend team.",
+      "resources": [
+        {
+          "id": "wY07cSW1nGj3JHJDNDrxq-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated Frontend Developer Roadmap",
+          "url": "https://roadmap.sh/frontend"
+        },
+        {
+          "id": "wY07cSW1nGj3JHJDNDrxq-res-2",
+          "type": "article",
+          "title": "Frontend Development Handbook",
+          "url": "https://github.com/FrontendMasters/front-end-handbook-2019/blob/master/exports/Front-end%20Developer%20Handbook%202019.pdf"
+        },
+        {
+          "id": "wY07cSW1nGj3JHJDNDrxq-res-3",
+          "type": "video",
+          "title": "Frontend web development - a complete overview",
+          "url": "https://www.youtube.com/watch?v=WG5ikvJ2TKA"
+        }
+      ]
+    },
+    "8kWwBNYkgnesTcSt2MKcU": {
+      "id": "8kWwBNYkgnesTcSt2MKcU",
+      "slug": "full-stack",
+      "title": "Full Stack",
+      "description": "Full stack development refers to working across both the frontend and backend of a web application. A full stack developer understands how the client-side and server-side interact and can build across all layers.",
+      "resources": [
+        {
+          "id": "8kWwBNYkgnesTcSt2MKcU-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated Full Stack Developer Roadmap",
+          "url": "https://roadmap.sh/full-stack"
+        },
+        {
+          "id": "8kWwBNYkgnesTcSt2MKcU-res-2",
+          "type": "article",
+          "title": "What is Full Stack Development?",
+          "url": "https://aws.amazon.com/what-is/full-stack-development/"
+        },
+        {
+          "id": "8kWwBNYkgnesTcSt2MKcU-res-3",
+          "type": "video",
+          "title": "Become a Fullstack Developer from Scratch",
+          "url": "https://www.youtube.com/watch?v=LzMnsfqjzkA"
+        }
+      ]
+    },
+    "yS5n-Z4mJ6oI4_uPJgwpo": {
+      "id": "yS5n-Z4mJ6oI4_uPJgwpo",
+      "slug": "gcp",
+      "title": "GCP",
+      "description": "Google Cloud Platform (GCP) is Google's cloud offering, known for strong data and analytics services like BigQuery and AI/ML infrastructure like Vertex AI. It is often the preferred choice for data-intensive workloads and organizations using Google Workspace.",
+      "resources": [
+        {
+          "id": "yS5n-Z4mJ6oI4_uPJgwpo-res-1",
+          "type": "article",
+          "title": "GCP Docs",
+          "url": "https://docs.cloud.google.com/docs"
+        },
+        {
+          "id": "yS5n-Z4mJ6oI4_uPJgwpo-res-2",
+          "type": "article",
+          "title": "Google Cloud overview",
+          "url": "https://docs.cloud.google.com/docs/overview"
+        },
+        {
+          "id": "yS5n-Z4mJ6oI4_uPJgwpo-res-3",
+          "type": "video",
+          "title": "Google Cloud Essentials",
+          "url": "https://www.youtube.com/watch?v=kzKFuHk8ovk&list=PLIivdWyY5sqKh1gDR0WpP9iIOY00IE0xL"
+        }
+      ]
+    },
+    "XY2l96sry3WyLzzo3KUeU": {
+      "id": "XY2l96sry3WyLzzo3KUeU",
+      "slug": "gemini",
+      "title": "Gemini",
+      "description": "Gemini CLI is Google's command-line AI tool for developers. It assists with code generation, explanation, and refactoring directly in the terminal. It is a practical option if you are already working within Google's ecosystem or want a powerful AI assistant without switching away from your existing terminal workflow.",
+      "resources": [
+        {
+          "id": "XY2l96sry3WyLzzo3KUeU-res-1",
+          "type": "article",
+          "title": "Google Gemini",
+          "url": "https://gemini.google.com/"
+        },
+        {
+          "id": "XY2l96sry3WyLzzo3KUeU-res-2",
+          "type": "video",
+          "title": "Gemini Essentials",
+          "url": "https://www.youtube.com/watch?v=XKOR4h3CrwE"
+        }
+      ]
+    },
+    "Kl1nNBwVfne778x81AlXj": {
+      "id": "Kl1nNBwVfne778x81AlXj",
+      "slug": "git--github",
+      "title": "Git & GitHub",
+      "description": "Git is a distributed version control system that tracks changes to code over time and allows multiple people to collaborate on the same codebase. GitHub adds features like pull requests, code review, issue tracking, and CI/CD integrations on top of Git. FDEs regularly work inside customer repositories, contribute to shared codebases, and need to follow existing branching and review conventions from day one.",
+      "resources": [
+        {
+          "id": "Kl1nNBwVfne778x81AlXj-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated Git and GitHub Roadmap",
+          "url": "https://roadmap.sh/git-github"
+        },
+        {
+          "id": "Kl1nNBwVfne778x81AlXj-res-2",
+          "type": "article",
+          "title": "Getting Started - Installing Git",
+          "url": "https://git-scm.com/book/en/v2/Getting-Started-Installing-Git"
+        },
+        {
+          "id": "Kl1nNBwVfne778x81AlXj-res-3",
+          "type": "video",
+          "title": "What is GitHub?",
+          "url": "https://www.youtube.com/watch?v=pBy1zgt0XPc"
+        }
+      ]
+    },
+    "__EIrpa-JCYb_Mwtg6fz6": {
+      "id": "__EIrpa-JCYb_Mwtg6fz6",
+      "slug": "github-actions",
+      "title": "GitHub Actions",
+      "description": "GitHub Actions is a CI/CD and automation platform built into GitHub. Workflows are defined in YAML files and triggered by events like pushes, pull requests, or schedules. They can run tests, build container images, and deploy to cloud environments.",
+      "resources": [
+        {
+          "id": "__EIrpa-JCYb_Mwtg6fz6-res-1",
+          "type": "article",
+          "title": "GitHub Actions Docs",
+          "url": "https://docs.github.com/en/actions"
+        },
+        {
+          "id": "__EIrpa-JCYb_Mwtg6fz6-res-2",
+          "type": "article",
+          "title": "Awesome GitHub Actions",
+          "url": "https://github.com/sdras/awesome-actions"
+        },
+        {
+          "id": "__EIrpa-JCYb_Mwtg6fz6-res-3",
+          "type": "video",
+          "title": "Automate your Workflow with GitHub Actions",
+          "url": "https://www.youtube.com/watch?v=nyKZTKQS_EQ"
+        }
+      ]
+    },
+    "iH_24AecJgB2txeia9DzG": {
+      "id": "iH_24AecJgB2txeia9DzG",
+      "slug": "go",
+      "title": "Go",
+      "description": "Go is a statically typed, compiled language developed by Google, designed for simplicity and performance. It is commonly used for building backend services, command-line tools, and cloud infrastructure components. FDEs working in cloud-native or infrastructure-heavy customer environments will often encounter Go-based tooling and services.",
+      "resources": [
+        {
+          "id": "iH_24AecJgB2txeia9DzG-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated Go Developer Roadmap",
+          "url": "https://roadmap.sh/golang"
+        },
+        {
+          "id": "iH_24AecJgB2txeia9DzG-res-2",
+          "type": "article",
+          "title": "Get Started with Go",
+          "url": "https://go.dev/doc/tutorial/getting-started"
+        },
+        {
+          "id": "iH_24AecJgB2txeia9DzG-res-3",
+          "type": "video",
+          "title": "Learn GO Fast: Full Tutorial",
+          "url": "https://www.youtube.com/watch?v=8uiZC0l4Ajw"
+        }
+      ]
+    },
+    "A07PWN8ILr286zxGGkS2Q": {
+      "id": "A07PWN8ILr286zxGGkS2Q",
+      "slug": "graphql",
+      "title": "GraphQL",
+      "description": "GraphQL is a query language and runtime for APIs that lets clients request exactly the fields they need, rather than consuming fixed endpoints with predefined shapes. This makes APIs more flexible and reduces over-fetching, especially in frontend-heavy applications. Some customer stacks use GraphQL, and understanding it makes it easier to integrate with or extend their data layer.",
+      "resources": [
+        {
+          "id": "A07PWN8ILr286zxGGkS2Q-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated GraphQL Roadmap",
+          "url": "https://roadmap.sh/graphql"
+        },
+        {
+          "id": "A07PWN8ILr286zxGGkS2Q-res-2",
+          "type": "article",
+          "title": "Get started with GraphQL",
+          "url": "https://graphql.org/learn/"
+        },
+        {
+          "id": "A07PWN8ILr286zxGGkS2Q-res-3",
+          "type": "video",
+          "title": "GraphQL Course for Beginners",
+          "url": "https://www.youtube.com/watch?v=5199E50O7SI"
+        }
+      ]
+    },
+    "uY8VYGM8lKY82haZlr00i": {
+      "id": "uY8VYGM8lKY82haZlr00i",
+      "slug": "html",
+      "title": "HTML",
+      "description": "HTML, or HyperText Markup Language, is the standard language for structuring content on the web. It defines the elements of a page, such as headings, paragraphs, links, forms, and images. It forms the foundation that CSS and JavaScript build on. Understanding HTML is necessary for any frontend work and for reading or modifying web-based customer interfaces.",
+      "resources": [
+        {
+          "id": "uY8VYGM8lKY82haZlr00i-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated HTML Roadmap",
+          "url": "https://roadmap.sh/html"
+        },
+        {
+          "id": "uY8VYGM8lKY82haZlr00i-res-2",
+          "type": "article",
+          "title": "HTML Docs",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+        },
+        {
+          "id": "uY8VYGM8lKY82haZlr00i-res-3",
+          "type": "video",
+          "title": "HTML Tutorial for Beginners: HTML Crash Course",
+          "url": "https://www.youtube.com/watch?v=qz0aGYrrlhU"
+        }
+      ]
+    },
+    "hRTwO-qsk58UpfTKmsTvo": {
+      "id": "hRTwO-qsk58UpfTKmsTvo",
+      "slug": "inference-optimization",
+      "title": "Inference Optimization",
+      "description": "Inference optimization refers to techniques for making model predictions faster and cheaper without significantly reducing quality. Common approaches include quantization, distillation, response caching, and request batching. Inference costs can become a real issue quickly, and knowing how to optimize without degrading the user experience is a practical skill FDEs should have.",
+      "resources": [
+        {
+          "id": "hRTwO-qsk58UpfTKmsTvo-res-1",
+          "type": "article",
+          "title": "Mastering LLM Techniques: Inference Optimization",
+          "url": "https://developer.nvidia.com/blog/mastering-llm-techniques-inference-optimization/"
+        },
+        {
+          "id": "hRTwO-qsk58UpfTKmsTvo-res-2",
+          "type": "article",
+          "title": "How can I optimize for an inference application?",
+          "url": "https://cloud.google.com/discover/inference-optimization?hl=en"
+        },
+        {
+          "id": "hRTwO-qsk58UpfTKmsTvo-res-3",
+          "type": "video",
+          "title": "AI Inference: The Secret to AI's Superpowers",
+          "url": "https://www.youtube.com/watch?v=XtT5i0ZeHHE&t=19s"
+        }
+      ]
+    },
+    "PBtnaTE_5AMOa5mxbhoT2": {
+      "id": "PBtnaTE_5AMOa5mxbhoT2",
+      "slug": "introduction",
+      "title": "Introduction",
+      "description": "A Forward Deployed Engineer is a software engineer who works directly inside a customer's environment to build, deploy, and stabilize AI systems. The role originated at Palantir, where engineers called Deltas would embed with clients, sometimes on military bases, to ship code overnight based on feedback from the field that same day. That same idea is now at the center of how companies like OpenAI and Anthropic are bringing AI into large enterprises. The job requires technical depth, the ability to read an unfamiliar codebase quickly, and the communication skills to explain what AI can and cannot do to a non-technical decision maker.",
+      "resources": [
+        {
+          "id": "PBtnaTE_5AMOa5mxbhoT2-res-1",
+          "type": "article",
+          "title": "Forward deployed engineer is AI’s hottest job",
+          "url": "https://thenewstack.io/forward-deployed-engineer-fde-openai-google/"
+        },
+        {
+          "id": "PBtnaTE_5AMOa5mxbhoT2-res-2",
+          "type": "article",
+          "title": "Forward-deployed engineer: The complete guide",
+          "url": "https://www.rocketlane.com/blogs/forward-deployed-engineer"
+        }
+      ]
+    },
+    "6ODdQmQGtTnNDwuXPIvxG": {
+      "id": "6ODdQmQGtTnNDwuXPIvxG",
+      "slug": "java--scala",
+      "title": "Java / Scala",
+      "description": "Java is a statically typed, object-oriented language that runs on the Java Virtual Machine (JVM) and is widely used in enterprise systems, backend services, and Android development. Scala is also a JVM language that blends object-oriented and functional styles, commonly used with Apache Spark. Many enterprise customers, especially in finance or large tech organizations, run significant infrastructure on the JVM.",
+      "resources": [
+        {
+          "id": "6ODdQmQGtTnNDwuXPIvxG-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated Java Developer Roadmap",
+          "url": "https://roadmap.sh/java"
+        },
+        {
+          "id": "6ODdQmQGtTnNDwuXPIvxG-res-2",
+          "type": "article",
+          "title": "Visit the Dedicated Scala Developer Roadmap",
+          "url": "https://roadmap.sh/scala"
+        },
+        {
+          "id": "6ODdQmQGtTnNDwuXPIvxG-res-3",
+          "type": "article",
+          "title": "Scala Docs",
+          "url": "https://docs.scala-lang.org/"
+        },
+        {
+          "id": "6ODdQmQGtTnNDwuXPIvxG-res-4",
+          "type": "article",
+          "title": "Introduction to Java",
+          "url": "https://hyperskill.org/courses/8"
+        },
+        {
+          "id": "6ODdQmQGtTnNDwuXPIvxG-res-5",
+          "type": "video",
+          "title": "Java for Beginners",
+          "url": "https://www.youtube.com/watch?v=eIrMbAQSU34"
+        }
+      ]
+    },
+    "rBaErvrSvzB3slZfsZPCT": {
+      "id": "rBaErvrSvzB3slZfsZPCT",
+      "slug": "javascript--typescript",
+      "title": "JavaScript / TypeScript",
+      "description": "JavaScript is the programming language of the web, running natively in browsers and on servers via Node.js. TypeScript is a superset of JavaScript that adds static type annotations, which help catch errors early and improve code maintainability. Together, they cover a large portion of the customer codebases and frontend work that an FDE is likely to encounter.",
+      "resources": [
+        {
+          "id": "rBaErvrSvzB3slZfsZPCT-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated JavaScript Roadmap",
+          "url": "https://roadmap.sh/javascript"
+        },
+        {
+          "id": "rBaErvrSvzB3slZfsZPCT-res-2",
+          "type": "article",
+          "title": "Visit the Dedicated TypeScript Roadmap",
+          "url": "https://roadmap.sh/typescript"
+        },
+        {
+          "id": "rBaErvrSvzB3slZfsZPCT-res-3",
+          "type": "article",
+          "title": "TypeScript for the New Programmer",
+          "url": "https://www.typescriptlang.org/docs/handbook/typescript-from-scratch.html"
+        },
+        {
+          "id": "rBaErvrSvzB3slZfsZPCT-res-4",
+          "type": "article",
+          "title": "JavaScript Docs",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+        },
+        {
+          "id": "rBaErvrSvzB3slZfsZPCT-res-5",
+          "type": "video",
+          "title": "JavaScript Crash Course For Beginners",
+          "url": "https://www.youtube.com/watch?v=hdI2bqOjy3c&t=2s"
+        }
+      ]
+    },
+    "qs2rpJiu6hYvArgevoRw1": {
+      "id": "qs2rpJiu6hYvArgevoRw1",
+      "slug": "javascript",
+      "title": "JavaScript",
+      "description": "JavaScript is the scripting language that runs in web browsers, giving web pages dynamic behavior. It handles user interactions, DOM manipulation, API requests, and more. On the server side, JavaScript runs via Node.js. Understanding JavaScript well means being able to work across the full web stack.",
+      "resources": [
+        {
+          "id": "qs2rpJiu6hYvArgevoRw1-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated JavaScript Roadmap",
+          "url": "https://roadmap.sh/javascript"
+        },
+        {
+          "id": "qs2rpJiu6hYvArgevoRw1-res-2",
+          "type": "article",
+          "title": "JavaScript Docs",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+        },
+        {
+          "id": "qs2rpJiu6hYvArgevoRw1-res-3",
+          "type": "course",
+          "title": "JavaScript Tutorial Full Course - Beginner to Pro",
+          "url": "https://www.youtube.com/watch?v=EerdGm-ehJQ"
+        }
+      ]
+    },
+    "SpVJnrinTt1uUWNuYikDK": {
+      "id": "SpVJnrinTt1uUWNuYikDK",
+      "slug": "kubernetes",
+      "title": "Kubernetes",
+      "description": "Kubernetes is an open-source container orchestration system that automates the deployment, scaling, and management of containerized applications. It handles scheduling containers across a cluster, managing service discovery, load balancing, rolling updates, and self-healing. Many enterprise customers run Kubernetes in production, and FDEs need to know enough to deploy and operate services within existing clusters.",
+      "resources": [
+        {
+          "id": "SpVJnrinTt1uUWNuYikDK-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated Kubernetes Roadmap",
+          "url": "https://roadmap.sh/kubernetes"
+        },
+        {
+          "id": "SpVJnrinTt1uUWNuYikDK-res-2",
+          "type": "article",
+          "title": "Kubernetes Docs",
+          "url": "https://kubernetes.io/docs/home/"
+        },
+        {
+          "id": "SpVJnrinTt1uUWNuYikDK-res-3",
+          "type": "video",
+          "title": "Kubernetes Crash Course for Absolute Beginners",
+          "url": "https://www.youtube.com/watch?v=s_o8dwzRlu4"
+        }
+      ]
+    },
+    "WQRS3xCIeSSJbE6ighp-q": {
+      "id": "WQRS3xCIeSSJbE6ighp-q",
+      "slug": "latency-and-cost-optimization",
+      "title": "Latency and Cost Optimization",
+      "description": "Latency and cost optimization in AI systems involves reducing the time and money needed to serve model predictions. Strategies include choosing smaller or faster models, caching responses for repeated queries, batching requests, and routing simpler inputs to cheaper models. These tradeoffs become very real when a customer starts using an AI feature at scale and the initial architecture no longer holds up economically.",
+      "resources": [
+        {
+          "id": "WQRS3xCIeSSJbE6ighp-q-res-1",
+          "type": "article",
+          "title": "The LLM Inference Trilemma: Throughput, Latency, Cost",
+          "url": "https://www.digitalocean.com/blog/llm-inference-tradeoffs"
+        },
+        {
+          "id": "WQRS3xCIeSSJbE6ighp-q-res-2",
+          "type": "article",
+          "title": "LLM Cost Optimization: 5 Levers That Cut API Spend 70-85%",
+          "url": "https://www.morphllm.com/llm-cost-optimization"
+        }
+      ]
+    },
+    "CruESa0Ir9fSbxyX3ny13": {
+      "id": "CruESa0Ir9fSbxyX3ny13",
+      "slug": "linux-skills",
+      "title": "Linux",
+      "description": "Linux is an open-source operating system used widely in servers, cloud environments, and developer workstations. Most production software runs on Linux, so being comfortable navigating a Linux system, managing processes, reading logs, and configuring services is a practical necessity for anyone building and deploying in real customer environments.",
+      "resources": [
+        {
+          "id": "CruESa0Ir9fSbxyX3ny13-res-1",
+          "type": "course",
+          "title": "Linux for Noobs",
+          "url": "https://labex.io/courses/linux-for-noobs"
+        },
+        {
+          "id": "CruESa0Ir9fSbxyX3ny13-res-2",
+          "type": "article",
+          "title": "Practice Linux Fundamentals",
+          "url": "https://labex.io/linuxjourney"
+        },
+        {
+          "id": "CruESa0Ir9fSbxyX3ny13-res-3",
+          "type": "video",
+          "title": "Linux Fundamentals",
+          "url": "https://www.youtube.com/watch?v=kPylihJRG70"
+        }
+      ]
+    },
+    "mhyaSwOETwgFl4zsCJjkp": {
+      "id": "mhyaSwOETwgFl4zsCJjkp",
+      "slug": "linux",
+      "title": "Linux",
+      "description": "Linux is an open-source operating system used widely in servers, cloud environments, and developer workstations. Most production software runs on Linux, so being comfortable navigating a Linux system, managing processes, reading logs, and configuring services is a practical necessity for anyone building and deploying in real customer environments.",
+      "resources": [
+        {
+          "id": "mhyaSwOETwgFl4zsCJjkp-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated Linux Roadmap",
+          "url": "https://roadmap.sh/linux"
+        },
+        {
+          "id": "mhyaSwOETwgFl4zsCJjkp-res-2",
+          "type": "course",
+          "title": "Linux for Noobs",
+          "url": "https://labex.io/courses/linux-for-noobs"
+        },
+        {
+          "id": "mhyaSwOETwgFl4zsCJjkp-res-3",
+          "type": "article",
+          "title": "Practice Linux Fundamentals",
+          "url": "https://labex.io/linuxjourney"
+        },
+        {
+          "id": "mhyaSwOETwgFl4zsCJjkp-res-4",
+          "type": "video",
+          "title": "Linux Fundamentals",
+          "url": "https://www.youtube.com/watch?v=kPylihJRG70"
+        }
+      ]
+    },
+    "UP2OJo5oN7AUxrBDcNsD-": {
+      "id": "UP2OJo5oN7AUxrBDcNsD-",
+      "slug": "llm-fundamentals",
+      "title": "LLM Fundamentals",
+      "description": "Large language models (LLMs) are machine learning models trained on large amounts of text data that can generate, summarize, classify, and reason about language. They work by predicting the most likely next tokens given a context window of input. Understanding how LLMs work, including their limitations around hallucination, context length, and latency, helps FDEs build more reliable systems around them and set realistic expectations with customers.",
+      "resources": [
+        {
+          "id": "UP2OJo5oN7AUxrBDcNsD--res-1",
+          "type": "article",
+          "title": "What is a large language model (LLM)?",
+          "url": "https://www.cloudflare.com/en-gb/learning/ai/what-is-large-language-model/"
+        },
+        {
+          "id": "UP2OJo5oN7AUxrBDcNsD--res-2",
+          "type": "video",
+          "title": "How Large Language Models Work",
+          "url": "https://www.youtube.com/watch?v=5sLYAQS9sWQ"
+        },
+        {
+          "id": "UP2OJo5oN7AUxrBDcNsD--res-3",
+          "type": "video",
+          "title": "Building Large Language Models (LLMs) - Standford University",
+          "url": "https://www.youtube.com/watch?v=9vM4p9NN0Ts"
+        }
+      ]
+    },
+    "e_jwUga36fZWaE57bXVZa": {
+      "id": "e_jwUga36fZWaE57bXVZa",
+      "slug": "manage-ml-services",
+      "title": "Managed ML Services",
+      "description": "Major Cloud providers offer services that abstract away the infrastructure for training, deploying, and serving machine learning models. Examples include AWS SageMaker, Gemini Enterprise Agent Platform, and Azure Machine Learning. For FDEs building AI features inside customer cloud environments, these services can significantly reduce the time needed to get a model into production.",
+      "resources": [
+        {
+          "id": "e_jwUga36fZWaE57bXVZa-res-1",
+          "type": "article",
+          "title": "Amazon SageMaker AI Documentation",
+          "url": "https://docs.aws.amazon.com/sagemaker/"
+        },
+        {
+          "id": "e_jwUga36fZWaE57bXVZa-res-2",
+          "type": "article",
+          "title": "Gemini Enterprise Agent Platform",
+          "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform"
+        },
+        {
+          "id": "e_jwUga36fZWaE57bXVZa-res-3",
+          "type": "article",
+          "title": "Azure Machine Learning documentation",
+          "url": "https://learn.microsoft.com/en-us/azure/machine-learning/?view=azureml-api-2"
+        }
+      ]
+    },
+    "9I0e9Qr0LLO_wtRZSaxcg": {
+      "id": "9I0e9Qr0LLO_wtRZSaxcg",
+      "slug": "mcp",
+      "title": "MCP",
+      "description": "The Model Context Protocol (MCP) is an open standard for connecting AI models to external tools and data sources through a unified interface. Instead of building custom integrations for every tool, developers implement MCP servers that expose tools and resources in a standardized way. MCP can simplify connecting AI agents to a customer's existing systems and internal APIs.",
+      "resources": [
+        {
+          "id": "9I0e9Qr0LLO_wtRZSaxcg-res-1",
+          "type": "article",
+          "title": "What is the Model Context Protocol (MCP)?",
+          "url": "https://modelcontextprotocol.io/docs/getting-started/intro"
+        },
+        {
+          "id": "9I0e9Qr0LLO_wtRZSaxcg-res-2",
+          "type": "course",
+          "title": "Model Context Protocol (MCP) Course",
+          "url": "https://huggingface.co/learn/mcp-course/en/unit0/introduction"
+        },
+        {
+          "id": "9I0e9Qr0LLO_wtRZSaxcg-res-3",
+          "type": "video",
+          "title": "What is MCP? Integrate AI Agents with Databases & APIs",
+          "url": "https://www.youtube.com/watch?v=eur8dUO9mvE"
+        }
+      ]
+    },
+    "trgV5OI77V92kX-Zgbqpy": {
+      "id": "trgV5OI77V92kX-Zgbqpy",
+      "slug": "memory--state-management",
+      "title": "Memory & State Management",
+      "description": "Memory refers to how information is stored and retrieved across steps in a conversation or task. Short-term memory lives in the context window, while long-term memory requires external storage like a database or vector store. Managing state well is important when building agents for customer workflows that span multiple steps, sessions, or users.",
+      "resources": [
+        {
+          "id": "trgV5OI77V92kX-Zgbqpy-res-1",
+          "type": "article",
+          "title": "What is AI agent memory?",
+          "url": "https://www.ibm.com/think/topics/ai-agent-memory"
+        },
+        {
+          "id": "trgV5OI77V92kX-Zgbqpy-res-2",
+          "type": "video",
+          "title": "Building Brain-Like Memory for AI | LLM Agent Memory Systems",
+          "url": "https://www.youtube.com/watch?v=VKPngyO0iKg"
+        },
+        {
+          "id": "trgV5OI77V92kX-Zgbqpy-res-3",
+          "type": "video",
+          "title": "The Four Types of Memory Every AI Agent Needs",
+          "url": "https://www.youtube.com/watch?v=BacJ6sEhqMo"
+        }
+      ]
+    },
+    "DNwdb0vzfmG0XNYB_A4XJ": {
+      "id": "DNwdb0vzfmG0XNYB_A4XJ",
+      "slug": "mlops",
+      "title": "MLOps",
+      "description": "MLOps applies DevOps principles to machine learning systems, covering the processes and tooling needed to reliably build, deploy, monitor, and update ML models in production. This includes versioning data and models, automating training pipelines, serving inference at scale, and detecting degradation over time. FDEs building AI features for customers increasingly need MLOps knowledge to ensure those features stay reliable after handoff.",
+      "resources": [
+        {
+          "id": "DNwdb0vzfmG0XNYB_A4XJ-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated MLOps Roadmap",
+          "url": "https://roadmap.sh/mlops"
+        },
+        {
+          "id": "DNwdb0vzfmG0XNYB_A4XJ-res-2",
+          "type": "article",
+          "title": "What is MLOps? - Machine Learning Operations Explained",
+          "url": "https://aws.amazon.com/what-is/mlops/"
+        },
+        {
+          "id": "DNwdb0vzfmG0XNYB_A4XJ-res-3",
+          "type": "video",
+          "title": "What is MLOps?",
+          "url": "https://www.youtube.com/watch?v=OejCJL2EC3k"
+        }
+      ]
+    },
+    "I1XhZ_DojZAC8_vxFHjAX": {
+      "id": "I1XhZ_DojZAC8_vxFHjAX",
+      "slug": "model-deployment",
+      "title": "Model Deployment",
+      "description": "Model deployment is the process of making a trained machine learning model available to serve predictions in a production environment. This involves packaging the model, setting up an inference server, exposing an API, and ensuring the system can handle required throughput and latency.",
+      "resources": [
+        {
+          "id": "I1XhZ_DojZAC8_vxFHjAX-res-1",
+          "type": "course",
+          "title": "Machine Learning Engineering for Production (MLOps) Specialization",
+          "url": "https://imp.i384100.net/nLA5mx"
+        },
+        {
+          "id": "I1XhZ_DojZAC8_vxFHjAX-res-2",
+          "type": "article",
+          "title": "What Is Model Deployment?",
+          "url": "https://www.ibm.com/think/topics/model-deployment"
+        },
+        {
+          "id": "I1XhZ_DojZAC8_vxFHjAX-res-3",
+          "type": "video",
+          "title": "Top 5 Most-Used Deployment Strategies",
+          "url": "https://www.youtube.com/watch?v=AWVTKBUnoIg"
+        }
+      ]
+    },
+    "W0M32nEoOSRDCLGFquoct": {
+      "id": "W0M32nEoOSRDCLGFquoct",
+      "slug": "multi-agents",
+      "title": "Multi-Agents",
+      "description": "Multi-agent systems involve multiple AI agents working together, where each agent has a specific role or capability, and they coordinate to complete a larger task. One agent might plan the work while others execute specific subtasks. This pattern becomes relevant for complex customer workflows where a single agent would struggle to manage all the context and steps reliably.",
+      "resources": [
+        {
+          "id": "W0M32nEoOSRDCLGFquoct-res-1",
+          "type": "article",
+          "title": "Guide to multi-agent systems (MAS)",
+          "url": "https://cloud.google.com/discover/what-is-a-multi-agent-system?hl=en"
+        },
+        {
+          "id": "W0M32nEoOSRDCLGFquoct-res-2",
+          "type": "video",
+          "title": "Multi Agent Systems Explained",
+          "url": "https://www.youtube.com/watch?v=sWH0T4Zez6I"
+        }
+      ]
+    },
+    "Rdm1H7sq1MSAH_Gj9wKlH": {
+      "id": "Rdm1H7sq1MSAH_Gj9wKlH",
+      "slug": "nodejs",
+      "title": "Node.js",
+      "description": "Node.js is a JavaScript runtime built on Chrome's V8 engine that lets developers run JavaScript on the server side. It uses a non-blocking, event-driven architecture well suited for I/O-heavy workloads like APIs and real-time applications. Many customer web stacks include Node.js services, and being able to read, debug, and extend them is a practical advantage.",
+      "resources": [
+        {
+          "id": "Rdm1H7sq1MSAH_Gj9wKlH-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated Node.js Developer Roadmap",
+          "url": "https://roadmap.sh/nodejs"
+        },
+        {
+          "id": "Rdm1H7sq1MSAH_Gj9wKlH-res-2",
+          "type": "article",
+          "title": "Node.js Docs",
+          "url": "https://nodejs.org/docs/latest/api/"
+        },
+        {
+          "id": "Rdm1H7sq1MSAH_Gj9wKlH-res-3",
+          "type": "video",
+          "title": "Node.js Tutorial for Beginners: Learn Node in 1 Hour",
+          "url": "https://www.youtube.com/watch?v=TlB_eWDSMt4"
+        }
+      ]
+    },
+    "QNScC6Pvz2OG3WJAIWkND": {
+      "id": "QNScC6Pvz2OG3WJAIWkND",
+      "slug": "nosql-databases",
+      "title": "NoSQL Databases",
+      "description": "NoSQL databases store data in formats other than traditional relational tables, such as documents, key-value pairs, graphs, or wide columns. Examples include MongoDB, Redis, Cassandra, and DynamoDB. Customer environments often include NoSQL stores for specific use cases like caching, session management, or high-throughput writes, so knowing how these systems work helps FDEs navigate and extend existing architectures.",
+      "resources": [
+        {
+          "id": "QNScC6Pvz2OG3WJAIWkND-res-1",
+          "type": "article",
+          "title": "NoSQL Explained",
+          "url": "https://www.mongodb.com/nosql-explained"
+        },
+        {
+          "id": "QNScC6Pvz2OG3WJAIWkND-res-2",
+          "type": "video",
+          "title": "SQL vs NoSQL Explained",
+          "url": "https://www.youtube.com/watch?v=ruz-vK8IesE"
+        },
+        {
+          "id": "QNScC6Pvz2OG3WJAIWkND-res-3",
+          "type": "video",
+          "title": "How do NoSQL Databases work",
+          "url": "https://www.youtube.com/watch?v=0buKQHokLK8"
+        }
+      ]
+    },
+    "8fojVRR98MiJQEA_dec8n": {
+      "id": "8fojVRR98MiJQEA_dec8n",
+      "slug": "observability",
+      "title": "Observability",
+      "description": "Observability refers to the ability to understand the internal state of a system based on its external outputs, through logging, metrics, and distributed tracing. For AI-powered systems, observability also involves monitoring model outputs, tracking prompt and response quality, and detecting unexpected behavior in production.",
+      "resources": [
+        {
+          "id": "8fojVRR98MiJQEA_dec8n-res-1",
+          "type": "article",
+          "title": "What is LLM observability?",
+          "url": "https://www.ibm.com/think/topics/llm-observability"
+        },
+        {
+          "id": "8fojVRR98MiJQEA_dec8n-res-2",
+          "type": "article",
+          "title": "LLM Evaluation and AI Observability for Agent Monitoring",
+          "url": "https://blog.jetbrains.com/pycharm/2026/05/llm-evaluation-and-ai-observability-for-agent-monitoring/"
+        },
+        {
+          "id": "8fojVRR98MiJQEA_dec8n-res-3",
+          "type": "video",
+          "title": "https://www.youtube.com/watch?v=Q9zd548hqiQ",
+          "url": "https://www.youtube.com/watch?v=Q9zd548hqiQ"
+        }
+      ]
+    },
+    "YJ3cNcQGBifxTLY_X7Rsb": {
+      "id": "YJ3cNcQGBifxTLY_X7Rsb",
+      "slug": "postgresql",
+      "title": "PostgreSQL",
+      "description": "PostgreSQL is a powerful, open-source relational database system that supports advanced features like JSONB storage, full-text search, window functions, and custom data types. It is a widely used database in both startups and large organizations, and knowing it well means being able to work effectively with a large portion of customer backend stacks without a steep learning curve.",
+      "resources": [
+        {
+          "id": "YJ3cNcQGBifxTLY_X7Rsb-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated PostgreSQL DBA Roadmap",
+          "url": "https://roadmap.sh/postgresql"
+        },
+        {
+          "id": "YJ3cNcQGBifxTLY_X7Rsb-res-2",
+          "type": "article",
+          "title": "PostgreSQL Docs",
+          "url": "https://www.postgresql.org/docs/"
+        },
+        {
+          "id": "YJ3cNcQGBifxTLY_X7Rsb-res-3",
+          "type": "video",
+          "title": "Learn PostgreSQL Tutorial - Full Course for Beginners",
+          "url": "https://www.youtube.com/watch?v=qw--VYLpxG4"
+        }
+      ]
+    },
+    "U2mQX5_XwmW74HFEM1Uzw": {
+      "id": "U2mQX5_XwmW74HFEM1Uzw",
+      "slug": "product-feedback-loop",
+      "title": "Product Feedback Loop",
+      "description": "A product feedback loop is the cycle of shipping something, collecting feedback from users or stakeholders, and using that input to improve future iterations. This usually means working closely with the customer to observe how the delivered product is actually being used, identifying gaps between expectation and reality, and feeding those observations back into the build process while still on the engagement.",
+      "resources": []
+    },
+    "wc3AT6lpGUDr-KM95XjgI": {
+      "id": "wc3AT6lpGUDr-KM95XjgI",
+      "slug": "prompt-engineering",
+      "title": "Prompt Engineering",
+      "description": "Prompt engineering is the practice of crafting inputs to language models in a way that produces more accurate, useful, or reliable outputs. Techniques include zero-shot and few-shot prompting, chain-of-thought reasoning, role assignment, and structured output formatting. Strong prompt engineering skills often determine whether a customer demo works convincingly or falls apart on edge cases.",
+      "resources": [
+        {
+          "id": "wc3AT6lpGUDr-KM95XjgI-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated Prompt Engineering Roadmap",
+          "url": "https://roadmap.sh/prompt-engineering"
+        },
+        {
+          "id": "wc3AT6lpGUDr-KM95XjgI-res-2",
+          "type": "course",
+          "title": "Google Prompting Essentials Specialization",
+          "url": "https://www.coursera.org/specializations/prompting-essentials-google"
+        },
+        {
+          "id": "wc3AT6lpGUDr-KM95XjgI-res-3",
+          "type": "article",
+          "title": "Prompt engineering: overview and guide",
+          "url": "https://cloud.google.com/discover/what-is-prompt-engineering?hl=en"
+        }
+      ]
+    },
+    "ThPsnGBFU3KZwsTf2U2ws": {
+      "id": "ThPsnGBFU3KZwsTf2U2ws",
+      "slug": "prompt-management",
+      "title": "Prompt Management",
+      "description": "Prompt management involves organizing, versioning, testing, and iterating on the prompts used in production AI systems. As customer applications grow and include more AI-powered features, managing prompts across different use cases becomes complex. Good prompt management practices ensure that changes to prompts do not introduce regressions and that improvements can be tracked and rolled back if needed.",
+      "resources": [
+        {
+          "id": "ThPsnGBFU3KZwsTf2U2ws-res-1",
+          "type": "article",
+          "title": "Prompt management systems compared",
+          "url": "https://nearform.com/digital-community/prompt-management-systems-compared/"
+        },
+        {
+          "id": "ThPsnGBFU3KZwsTf2U2ws-res-2",
+          "type": "video",
+          "title": "Prompt Management 101 - Full Guide for AI Engineers",
+          "url": "https://www.youtube.com/watch?v=Qddc_DNo9qY"
+        }
+      ]
+    },
+    "DKWrSQDE7nFZFGVEUH1od": {
+      "id": "DKWrSQDE7nFZFGVEUH1od",
+      "slug": "prompt-versioning",
+      "title": "Prompt Versioning",
+      "description": "Prompt versioning is the practice of treating prompts like code, tracking changes over time with version control. This makes it possible to roll back to previous versions, compare outputs across versions, and understand what changed when behavior shifted. When handing AI systems to customers, prompt versioning is part of making those systems maintainable after the engagement ends.",
+      "resources": []
+    },
+    "3CR52IR7RUOGUP7pLJlCE": {
+      "id": "3CR52IR7RUOGUP7pLJlCE",
+      "slug": "python",
+      "title": "Python",
+      "description": "Python is a general-purpose programming language known for its readable syntax and broad ecosystem. It is widely used in web development, data engineering, scripting, automation, and AI/ML workloads. For FDEs, Python is especially useful because it lets you move fast, prototype quickly, and work across a wide range of customer environments without heavy setup.",
+      "resources": [
+        {
+          "id": "3CR52IR7RUOGUP7pLJlCE-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated Python Developer Roadmap",
+          "url": "https://roadmap.sh/python"
+        },
+        {
+          "id": "3CR52IR7RUOGUP7pLJlCE-res-2",
+          "type": "article",
+          "title": "Automate the Boring Stuff",
+          "url": "https://automatetheboringstuff.com/"
+        },
+        {
+          "id": "3CR52IR7RUOGUP7pLJlCE-res-3",
+          "type": "video",
+          "title": "Python Full Course for free",
+          "url": "https://www.youtube.com/watch?v=ix9cRaBkVe0"
+        }
+      ]
+    },
+    "7YOfKFFLI78GabP760sy8": {
+      "id": "7YOfKFFLI78GabP760sy8",
+      "slug": "rags",
+      "title": "RAGs",
+      "description": "Retrieval-Augmented Generation (RAG) is a pattern where relevant documents or data are fetched from a knowledge source and injected into a model's context before generating a response. This gives the model access to customer-specific or up-to-date information without requiring fine-tuning. RAG is one of the most common patterns FDEs implement when building AI features on top of a customer's proprietary data.",
+      "resources": [
+        {
+          "id": "7YOfKFFLI78GabP760sy8-res-1",
+          "type": "article",
+          "title": "What is RAG?",
+          "url": "https://aws.amazon.com/what-is/retrieval-augmented-generation/"
+        },
+        {
+          "id": "7YOfKFFLI78GabP760sy8-res-2",
+          "type": "article",
+          "title": "RAG Explained: Understanding Embeddings, Similarity, and Retrieval",
+          "url": "https://towardsdatascience.com/rag-explained-understanding-embeddings-similarity-and-retrieval/?utm_source=roadmap&utm_medium=Referral&utm_campaign=TDS+roadmap+integration"
+        },
+        {
+          "id": "7YOfKFFLI78GabP760sy8-res-3",
+          "type": "video",
+          "title": "What is Retrieval-Augmented Generation? IBM",
+          "url": "https://www.youtube.com/watch?v=T-D1OfcDW1M"
+        }
+      ]
+    },
+    "2jjQRP6B7ACFWU1lG56In": {
+      "id": "2jjQRP6B7ACFWU1lG56In",
+      "slug": "react",
+      "title": "React",
+      "description": "React is a JavaScript library for building user interfaces using a component-based model. Each component manages its own state and rendering logic, and components are composed to build complete interfaces. React is one of the most common frontend frameworks in production (especially for building AI-powered apps), so familiarity with it makes it easier to contribute to or extend existing customer frontends quickly.",
+      "resources": [
+        {
+          "id": "2jjQRP6B7ACFWU1lG56In-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated React Developer Roadmap",
+          "url": "https://roadmap.sh/react"
+        },
+        {
+          "id": "2jjQRP6B7ACFWU1lG56In-res-2",
+          "type": "article",
+          "title": "Getting Started with React",
+          "url": "https://react.dev/learn/tutorial-tic-tac-toe"
+        },
+        {
+          "id": "2jjQRP6B7ACFWU1lG56In-res-3",
+          "type": "video",
+          "title": "React Course - Beginners Tutorial for React",
+          "url": "https://www.youtube.com/watch?v=bMknfKXIFA8"
+        }
+      ]
+    },
+    "9TV0wGo6BMD_TuMAx-sAw": {
+      "id": "9TV0wGo6BMD_TuMAx-sAw",
+      "slug": "regression-testing",
+      "title": "Regression Testing",
+      "description": "Regression testing for AI systems involves running a set of test cases against a model or prompt to verify that a change has not degraded behavior relative to a previous baseline. Unlike traditional software tests, AI regression tests often use example inputs and expected output properties evaluated by another model or human review.",
+      "resources": [
+        {
+          "id": "9TV0wGo6BMD_TuMAx-sAw-res-1",
+          "type": "article",
+          "title": "Watch the language: A tutorial on regression testing for LLMs",
+          "url": "https://www.evidentlyai.com/blog/llm-regression-testing-tutorial"
+        },
+        {
+          "id": "9TV0wGo6BMD_TuMAx-sAw-res-2",
+          "type": "video",
+          "title": "What is Regression Testing? A Software Testing FAQ - Why? How? When?",
+          "url": "https://www.youtube.com/watch?v=xmQuLTarGI4"
+        }
+      ]
+    },
+    "s4Kooj99igkE02P-D-dAU": {
+      "id": "s4Kooj99igkE02P-D-dAU",
+      "slug": "requirements-gathering",
+      "title": "Requirements Gathering",
+      "description": "Project requirements come from observation as much as from conversation. You watch how teams actually work, not just how they describe their work, because those two things are often different. The goal is to surface the undocumented workflow, the data source people actually trust, and the edge cases that would break an agent in its first week of production. Written requirements are useful, but the real requirements live in the room with the people doing the work.",
+      "resources": [
+        {
+          "id": "s4Kooj99igkE02P-D-dAU-res-1",
+          "type": "course",
+          "title": "Requirements Gathering in Business Analysis",
+          "url": "https://www.coursera.org/learn/requirements-gathering-in-business-analysis"
+        },
+        {
+          "id": "s4Kooj99igkE02P-D-dAU-res-2",
+          "type": "article",
+          "title": "Requirements Gathering in Software Engineering",
+          "url": "https://www.jamasoftware.com/requirements-management-guide/requirements-gathering-and-management-processes/what-is-requirements-gathering/"
+        },
+        {
+          "id": "s4Kooj99igkE02P-D-dAU-res-3",
+          "type": "video",
+          "title": "Requirement Gathering Techniques For A Business Analyst",
+          "url": "https://www.youtube.com/watch?v=8EBWxW5Cn1g"
+        }
+      ]
+    },
+    "kyHwTMFBQxbHrGBcv3q0O": {
+      "id": "kyHwTMFBQxbHrGBcv3q0O",
+      "slug": "roi--ai-impact",
+      "title": "ROI & AI Impact",
+      "description": "Understanding return on investment (ROI) for AI projects means being able to quantify how an AI system creates value, whether through cost savings, productivity improvements, revenue growth, or risk reduction. It also means being honest about what AI can realistically deliver. FDEs who can frame AI work in business terms help customers build confidence in the investment and avoid overselling what the technology can do.",
+      "resources": [
+        {
+          "id": "kyHwTMFBQxbHrGBcv3q0O-res-1",
+          "type": "article",
+          "title": "How to maximize AI ROI in 2026",
+          "url": "https://www.ibm.com/think/insights/ai-roi"
+        },
+        {
+          "id": "kyHwTMFBQxbHrGBcv3q0O-res-2",
+          "type": "article",
+          "title": "What is ROI and How to Calculate Return on Investment",
+          "url": "https://www.esade.edu/beyond/en/what-is-roi-and-how-to-calculate-return-on-investment/"
+        }
+      ]
+    },
+    "E7o6LDxng5zNFg_mgltg6": {
+      "id": "E7o6LDxng5zNFg_mgltg6",
+      "slug": "roles--responsabilities",
+      "title": "Roles & Responsibilities",
+      "description": "The FDE job has three phases: audit, evals, and deployment. In the audit phase, you embed with different teams inside the customer's organization, map their workflows, identify bottlenecks, and decide where AI can create real value and where it cannot. In the evals phase, you build systems to measure whether the AI is actually working, not just whether it produces an answer, but whether it reasons through problems the way a skilled human would. In the deployment phase, you ship the system into production, starting with the smallest possible unit of autonomy and layering on capabilities only after each step is proven to work.",
+      "resources": [
+        {
+          "id": "E7o6LDxng5zNFg_mgltg6-res-1",
+          "type": "article",
+          "title": "Forward-deployed engineer: The complete guide",
+          "url": "https://www.rocketlane.com/blogs/forward-deployed-engineer"
+        }
+      ]
+    },
+    "YNaf7swqsvYaXRK6uevdv": {
+      "id": "YNaf7swqsvYaXRK6uevdv",
+      "slug": "roles--responsabilities",
+      "title": "Roles & Responsibilities",
+      "description": "The FDE job has three phases: audit, evals, and deployment. In the audit phase, you embed with different teams inside the customer's organization, map their workflows, identify bottlenecks, and decide where AI can create real value and where it cannot. In the evals phase, you build systems to measure whether the AI is actually working, not just whether it produces an answer, but whether it reasons through problems the way a skilled human would. In the deployment phase, you ship the system into production, starting with the smallest possible unit of autonomy and layering on capabilities only after each step is proven to work.",
+      "resources": [
+        {
+          "id": "YNaf7swqsvYaXRK6uevdv-res-1",
+          "type": "article",
+          "title": "Forward-deployed engineer: The complete guide",
+          "url": "https://www.rocketlane.com/blogs/forward-deployed-engineer"
+        }
+      ]
+    },
+    "fxWu8J2166baYEoCti_hr": {
+      "id": "fxWu8J2166baYEoCti_hr",
+      "slug": "security",
+      "title": "Security",
+      "description": "FDEs are the last line of defense before an agent hits a client's production environment. You need to prove to the customer's security team that the system won't leak data, go rogue, or be manipulated.",
+      "resources": [
+        {
+          "id": "fxWu8J2166baYEoCti_hr-res-1",
+          "type": "article",
+          "title": "What Is LLM (Large Language Model) Security? | Starter Guide",
+          "url": "https://www.paloaltonetworks.com/cyberpedia/what-is-llm-security"
+        },
+        {
+          "id": "fxWu8J2166baYEoCti_hr-res-2",
+          "type": "video",
+          "title": "OWASP's Top 10 Ways to Attack LLMs: AI Vulnerabilities Exposed",
+          "url": "https://www.youtube.com/watch?v=gUNXZMcd2jU"
+        },
+        {
+          "id": "fxWu8J2166baYEoCti_hr-res-3",
+          "type": "video",
+          "title": "LLM Security & Observability Course",
+          "url": "https://www.youtube.com/watch?v=dj1H4g4YSlU&list=PLFDswngT2LSgxkC9QPpyr0Ir0zUTOF8Eo"
+        }
+      ]
+    },
+    "TQA4APeviRM-CFi8y9_iJ": {
+      "id": "TQA4APeviRM-CFi8y9_iJ",
+      "slug": "shell--bash",
+      "title": "Shell / Bash",
+      "description": "Bash is a command-line shell and scripting language available on most Unix-like systems. Shell scripts let you automate repetitive tasks, manage files, configure systems, and chain together command-line tools. Being fluent in Bash allows FDEs to move fast in terminal environments, debug deployment issues quickly, and write lightweight automation without reaching for a heavier tool.",
+      "resources": [
+        {
+          "id": "TQA4APeviRM-CFi8y9_iJ-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated Shell/Bash Roadmap",
+          "url": "https://roadmap.sh/shell-bash"
+        },
+        {
+          "id": "TQA4APeviRM-CFi8y9_iJ-res-2",
+          "type": "article",
+          "title": "The Shell Scripting Tutorial",
+          "url": "https://www.shellscript.sh/philosophy.html"
+        },
+        {
+          "id": "TQA4APeviRM-CFi8y9_iJ-res-3",
+          "type": "video",
+          "title": "Shell Scripting Tutorial for Beginners",
+          "url": "https://www.youtube.com/playlist?list=PLS1QulWo1RIYmaxcEqw5JhK3b-6rgdWO_"
+        }
+      ]
+    },
+    "nWA_ZKriQWQV6vS6eoQkS": {
+      "id": "nWA_ZKriQWQV6vS6eoQkS",
+      "slug": "software-architecture",
+      "title": "Software Architecture",
+      "description": "Software architecture is the high-level structure of a software system, including how components are organized, how they interact, and what principles guide those design decisions. Common patterns include layered architecture, microservices, event-driven design, and domain-driven design. FDEs need to quickly understand a customer's architecture and make decisions that fit within it, or clearly articulate why a different approach is needed.",
+      "resources": [
+        {
+          "id": "nWA_ZKriQWQV6vS6eoQkS-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated Software Design and Architecture Roadmap",
+          "url": "https://roadmap.sh/software-design-architecture"
+        },
+        {
+          "id": "nWA_ZKriQWQV6vS6eoQkS-res-2",
+          "type": "article",
+          "title": "What is Software Architecture? A Comprehensive Guide",
+          "url": "https://vfunction.com/blog/what-is-software-architecture/"
+        },
+        {
+          "id": "nWA_ZKriQWQV6vS6eoQkS-res-3",
+          "type": "video",
+          "title": "Getting the Basics - Software Architecture Introduction",
+          "url": "https://www.youtube.com/watch?v=8UlLgOf20Ho"
+        }
+      ]
+    },
+    "0NVAhnjHZ2-oo6TBcbs9X": {
+      "id": "0NVAhnjHZ2-oo6TBcbs9X",
+      "slug": "spark",
+      "title": "Spark",
+      "description": "Apache Spark is a distributed computing framework for processing large datasets in parallel across a cluster. It supports batch processing, streaming, SQL queries, and machine learning through a unified API. Customers with large-scale data operations often use Spark as part of their data infrastructure, and knowing it makes it possible to work with or extend their existing pipelines.",
+      "resources": [
+        {
+          "id": "0NVAhnjHZ2-oo6TBcbs9X-res-1",
+          "type": "article",
+          "title": "Spark Docs",
+          "url": "https://spark.apache.org/docs/latest/"
+        },
+        {
+          "id": "0NVAhnjHZ2-oo6TBcbs9X-res-2",
+          "type": "article",
+          "title": "What is Spark",
+          "url": "https://aws.amazon.com/what-is/apache-spark"
+        },
+        {
+          "id": "0NVAhnjHZ2-oo6TBcbs9X-res-3",
+          "type": "video",
+          "title": "Apache Spark full course",
+          "url": "https://www.youtube.com/watch?v=S2MUhGA3lEw"
+        }
+      ]
+    },
+    "EWIf51kO_21ZK2ep0vWIJ": {
+      "id": "EWIf51kO_21ZK2ep0vWIJ",
+      "slug": "sql",
+      "title": "SQL",
+      "description": "SQL, or Structured Query Language, is the standard language for interacting with relational databases. It is used to create, read, update, and delete records, and to define the structure of tables and their relationships. FDEs regularly need to query customer databases, understand data models, and sometimes debug or optimize slow queries as part of investigating production issues.",
+      "resources": [
+        {
+          "id": "EWIf51kO_21ZK2ep0vWIJ-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated SQL Roadmap",
+          "url": "https://roadmap.sh/sql"
+        },
+        {
+          "id": "EWIf51kO_21ZK2ep0vWIJ-res-2",
+          "type": "article",
+          "title": "Introduction to SQl",
+          "url": "https://www.thoughtspot.com/sql-tutorial"
+        },
+        {
+          "id": "EWIf51kO_21ZK2ep0vWIJ-res-3",
+          "type": "article",
+          "title": "SQL Tutorial",
+          "url": "https://www.sqltutorial.org/"
+        }
+      ]
+    },
+    "L76T2X7AFpVtpMF9CjBJo": {
+      "id": "L76T2X7AFpVtpMF9CjBJo",
+      "slug": "stakeholder-management",
+      "title": "Stakeholder Management",
+      "description": "Stakeholder management in FDE work is less about keeping people happy and more about making sure the right people know what is happening before it becomes a problem. This means identifying who the skeptics are early, giving them the evidence they need to trust the system (usually evals), managing expectations before a demo rather than after it goes wrong, and escalating blockers fast rather than letting them quietly slow the engagement. The technical work can be excellent, and the engagement can still fail if the people who need to approve, adopt, or fund the system never get bought in.",
+      "resources": [
+        {
+          "id": "L76T2X7AFpVtpMF9CjBJo-res-1",
+          "type": "article",
+          "title": "Stakeholder Management Guide: Definitions, Processes & More",
+          "url": "https://simplystakeholders.com/resources/guides/stakeholder-management/"
+        }
+      ]
+    },
+    "nkkCScukl9AVpLNQkTUoA": {
+      "id": "nkkCScukl9AVpLNQkTUoA",
+      "slug": "system-design",
+      "title": "System Design",
+      "description": "System design is the process of defining the components, data flows, and infrastructure needed to build a scalable and reliable system. It involves decisions around databases, caching, load balancing, APIs, and service boundaries. For FDEs, system design often happens under time pressure and with incomplete information, so knowing common patterns well makes it possible to move quickly without making costly mistakes.",
+      "resources": [
+        {
+          "id": "nkkCScukl9AVpLNQkTUoA-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated System Design Roadmap",
+          "url": "https://roadmap.sh/system-design"
+        },
+        {
+          "id": "nkkCScukl9AVpLNQkTUoA-res-2",
+          "type": "article",
+          "title": "AI System Design: A Complete Guide",
+          "url": "https://www.systemdesignhandbook.com/guides/ai-system-design/"
+        },
+        {
+          "id": "nkkCScukl9AVpLNQkTUoA-res-3",
+          "type": "article",
+          "title": "System Design: Complete Guide",
+          "url": "https://swimm.io/learn/system-design/system-design-complete-guide-with-patterns-examples-and-techniques"
+        }
+      ]
+    },
+    "KqQHfy1Z8w-v8p73QkvG5": {
+      "id": "KqQHfy1Z8w-v8p73QkvG5",
+      "slug": "technical-scoping--sequencing",
+      "title": "Technical Scoping & Sequencing",
+      "description": "Technical scoping involves breaking a project into discrete tasks, estimating their complexity, and identifying dependencies. Sequencing means ordering those tasks logically, starting with the highest-risk or most uncertain parts. A well-scoped and sequenced project is easier to track and deliver on time, and gives the customer visibility into what is being built and in what order.",
+      "resources": [
+        {
+          "id": "KqQHfy1Z8w-v8p73QkvG5-res-1",
+          "type": "article",
+          "title": "How to effectively scope your software projects",
+          "url": "https://medium.com/free-code-camp/how-to-effectively-scope-your-software-projects-from-planning-to-execution-e96cbcac54b9"
+        }
+      ]
+    },
+    "ir0uv9E3flgBz_cHntOf4": {
+      "id": "ir0uv9E3flgBz_cHntOf4",
+      "slug": "technical-writing",
+      "title": "Technical Writing",
+      "description": "Technical writing is the practice of producing clear, accurate, and useful documentation for software systems. This includes API docs, architecture decision records, runbooks, onboarding guides, and design documents. Technical writing is especially important because good documentation is often what allows a customer to operate and extend a system after the engagement ends, without needing to call the FDE back for every question.",
+      "resources": [
+        {
+          "id": "ir0uv9E3flgBz_cHntOf4-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated Technical Writer Roadmap",
+          "url": "https://roadmap.sh/technical-writer"
+        }
+      ]
+    },
+    "OB_e7DYScbT05uKYWlIG_": {
+      "id": "OB_e7DYScbT05uKYWlIG_",
+      "slug": "terraform",
+      "title": "Terraform",
+      "description": "Terraform is an open-source infrastructure-as-code tool by HashiCorp that lets engineers define cloud resources in configuration files and provision or update them automatically. It works across multiple cloud providers and is the standard tool for managing infrastructure in a repeatable, version-controlled way. FDEs who can write Terraform can provision and tear down customer environments faster and more reliably than doing it manually through cloud consoles.",
+      "resources": [
+        {
+          "id": "OB_e7DYScbT05uKYWlIG_-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated Terraform Roadmap",
+          "url": "https://roadmap.sh/terraform"
+        },
+        {
+          "id": "OB_e7DYScbT05uKYWlIG_-res-2",
+          "type": "article",
+          "title": "Terraform Docs",
+          "url": "https://developer.hashicorp.com/terraform/docs"
+        },
+        {
+          "id": "OB_e7DYScbT05uKYWlIG_-res-3",
+          "type": "article",
+          "title": "What is Terraform?",
+          "url": "https://developer.hashicorp.com/terraform/intro"
+        },
+        {
+          "id": "OB_e7DYScbT05uKYWlIG_-res-4",
+          "type": "video",
+          "title": "Complete Terraform Course",
+          "url": "https://www.youtube.com/watch?v=7xngnjfIlK4"
+        }
+      ]
+    },
+    "V7d0lWrX8g3z2D9L99mdl": {
+      "id": "V7d0lWrX8g3z2D9L99mdl",
+      "slug": "tools--functions",
+      "title": "Tools & Functions",
+      "description": "Tools and functions are the mechanisms through which AI agents interact with the outside world. A tool might query a database, call an external API, run a code interpreter, or search the web. In practice, tools are defined as schemas the model can invoke, and the application handles executing the actual function and returning the result. Designing good tool interfaces is a significant part of making agents reliable.",
+      "resources": [
+        {
+          "id": "V7d0lWrX8g3z2D9L99mdl-res-1",
+          "type": "article",
+          "title": "What are Tools?",
+          "url": "https://huggingface.co/learn/agents-course/unit1/tools"
+        },
+        {
+          "id": "V7d0lWrX8g3z2D9L99mdl-res-2",
+          "type": "video",
+          "title": "What is Tool Calling? Connecting LLMs to Your Data",
+          "url": "https://www.youtube.com/watch?v=h8gMhXYAv1k"
+        }
+      ]
+    },
+    "eKUy2q5cGskmcg-sAAtYW": {
+      "id": "eKUy2q5cGskmcg-sAAtYW",
+      "slug": "tradeoffs-scope-speed-quality",
+      "title": "Tradeoffs: Scope, Speed, Quality",
+      "description": "Every project involves tradeoffs between scope (how much is built), speed (how fast it is delivered), and quality (how well it holds up over time). Reducing scope can speed things up without sacrificing quality. Cutting corners on quality can speed things up in the short term but creates problems later. FDEs need to understand and communicate these tradeoffs clearly, helping customers make informed decisions rather than just agreeing to everything and delivering less than expected.",
+      "resources": [
+        {
+          "id": "eKUy2q5cGskmcg-sAAtYW-res-1",
+          "type": "article",
+          "title": "Project management triangle: Triple constraint guide",
+          "url": "https://asana.com/resources/project-management-triangle"
+        },
+        {
+          "id": "eKUy2q5cGskmcg-sAAtYW-res-2",
+          "type": "video",
+          "title": "What is the Iron Triangle? Time, Cost, Quality, Scope?",
+          "url": "https://www.youtube.com/watch?v=JHSHOAfV-uw"
+        }
+      ]
+    },
+    "N5MPa9HqtdcZeF0wtLMVu": {
+      "id": "N5MPa9HqtdcZeF0wtLMVu",
+      "slug": "vector-dbs",
+      "title": "Vector DBs",
+      "description": "Vector databases store high-dimensional vector embeddings and support efficient similarity search. They are a core component of RAG systems and semantic search applications, where the goal is to find content semantically similar to a query rather than matching keywords exactly.",
+      "resources": [
+        {
+          "id": "N5MPa9HqtdcZeF0wtLMVu-res-1",
+          "type": "article",
+          "title": "What is RAG (Retrieval-Augmented Generation)?",
+          "url": "https://aws.amazon.com/what-is/retrieval-augmented-generation/"
+        },
+        {
+          "id": "N5MPa9HqtdcZeF0wtLMVu-res-2",
+          "type": "article",
+          "title": "How to Implement Graph RAG Using Knowledge Graphs and Vector Databases",
+          "url": "https://towardsdatascience.com/how-to-implement-graph-rag-using-knowledge-graphs-and-vector-databases-60bb69a22759"
+        },
+        {
+          "id": "N5MPa9HqtdcZeF0wtLMVu-res-3",
+          "type": "video",
+          "title": "Complete RAG Tutorial",
+          "url": "https://www.youtube.com/playlist?list=PLNIQLFWpQMRUMjxfe8o6g3uzJ6LH_VotY"
+        }
+      ]
+    },
+    "BHpm4kOU6e1dOlWW104QB": {
+      "id": "BHpm4kOU6e1dOlWW104QB",
+      "slug": "vibe-coding",
+      "title": "Vibe Coding",
+      "description": "Vibe coding refers to using AI-assisted tools to write, edit, and iterate on code through natural language interaction, often at a higher level of abstraction than traditional coding. Instead of writing every line manually, the developer describes intent and guides the AI to produce working code, reviewing and refining the output. Vibe coding tools can significantly accelerate the productivity of FDEs, enabling them to work under tight delivery timelines.",
+      "resources": [
+        {
+          "id": "BHpm4kOU6e1dOlWW104QB-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated Vibe Coding Roadmap",
+          "url": "https://roadmap.sh/vibe-coding"
+        },
+        {
+          "id": "BHpm4kOU6e1dOlWW104QB-res-2",
+          "type": "article",
+          "title": "Vibe coding tutorial: Build your first app with Claude Code",
+          "url": "https://roadmap.sh/vibe-coding/tutorial"
+        },
+        {
+          "id": "BHpm4kOU6e1dOlWW104QB-res-3",
+          "type": "article",
+          "title": "Vibe Coding Best Practices: How To Get Consistent Results",
+          "url": "https://roadmap.sh/vibe-coding/best-practices"
+        },
+        {
+          "id": "BHpm4kOU6e1dOlWW104QB-res-4",
+          "type": "video",
+          "title": "What is Vibe Coding?",
+          "url": "https://www.youtube.com/watch?v=5OWurmg41tI"
+        }
+      ]
+    }
+  }
+}

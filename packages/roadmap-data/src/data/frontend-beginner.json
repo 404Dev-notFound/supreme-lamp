@@ -1,0 +1,453 @@
+{
+  "slug": "frontend-beginner",
+  "title": "Frontend Beginner",
+  "description": "Comprehensive learning curriculum and mastery roadmap for frontend-beginner.",
+  "category": "skill",
+  "level": "Intermediate",
+  "topicCount": 9,
+  "iconName": "Compass",
+  "nodes": [
+    {
+      "id": "node-ZhJhf1M2OphYbEmduFq-9",
+      "label": "CSS",
+      "topicId": "ZhJhf1M2OphYbEmduFq-9",
+      "level": 1,
+      "position": {
+        "x": 80,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-R_I4SGYqLk5zze5I1zS_E",
+      "label": "Git",
+      "topicId": "R_I4SGYqLk5zze5I1zS_E",
+      "level": 1,
+      "position": {
+        "x": 340,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-qmTVMJDsEhNIkiwE_UTYu",
+      "label": "GitHub",
+      "topicId": "qmTVMJDsEhNIkiwE_UTYu",
+      "level": 1,
+      "position": {
+        "x": 600,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-yWG2VUkaF5IJVVut6AiSy",
+      "label": "HTML",
+      "topicId": "yWG2VUkaF5IJVVut6AiSy",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-ODcfFEorkfJNupoQygM53",
+      "label": "JavaScript",
+      "topicId": "ODcfFEorkfJNupoQygM53",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-ib_FHinhrw8VuSet-xMF7",
+      "label": "npm",
+      "topicId": "ib_FHinhrw8VuSet-xMF7",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-tG5v3O4lNIFc2uCnacPak",
+      "label": "React",
+      "topicId": "tG5v3O4lNIFc2uCnacPak",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-eghnfG4p7i-EDWfp3CQXC",
+      "label": "Tailwind CSS",
+      "topicId": "eghnfG4p7i-EDWfp3CQXC",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-hVQ89f6G0LXEgHIOKHDYq",
+      "label": "Vitest",
+      "topicId": "hVQ89f6G0LXEgHIOKHDYq",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 400
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-node-ZhJhf1M2OphYbEmduFq-9-node-R_I4SGYqLk5zze5I1zS_E",
+      "source": "node-ZhJhf1M2OphYbEmduFq-9",
+      "target": "node-R_I4SGYqLk5zze5I1zS_E",
+      "animated": true
+    },
+    {
+      "id": "edge-node-R_I4SGYqLk5zze5I1zS_E-node-qmTVMJDsEhNIkiwE_UTYu",
+      "source": "node-R_I4SGYqLk5zze5I1zS_E",
+      "target": "node-qmTVMJDsEhNIkiwE_UTYu",
+      "animated": true
+    },
+    {
+      "id": "edge-node-qmTVMJDsEhNIkiwE_UTYu-node-yWG2VUkaF5IJVVut6AiSy",
+      "source": "node-qmTVMJDsEhNIkiwE_UTYu",
+      "target": "node-yWG2VUkaF5IJVVut6AiSy",
+      "animated": true
+    },
+    {
+      "id": "edge-node-yWG2VUkaF5IJVVut6AiSy-node-ODcfFEorkfJNupoQygM53",
+      "source": "node-yWG2VUkaF5IJVVut6AiSy",
+      "target": "node-ODcfFEorkfJNupoQygM53",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ODcfFEorkfJNupoQygM53-node-ib_FHinhrw8VuSet-xMF7",
+      "source": "node-ODcfFEorkfJNupoQygM53",
+      "target": "node-ib_FHinhrw8VuSet-xMF7",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ib_FHinhrw8VuSet-xMF7-node-tG5v3O4lNIFc2uCnacPak",
+      "source": "node-ib_FHinhrw8VuSet-xMF7",
+      "target": "node-tG5v3O4lNIFc2uCnacPak",
+      "animated": true
+    },
+    {
+      "id": "edge-node-tG5v3O4lNIFc2uCnacPak-node-eghnfG4p7i-EDWfp3CQXC",
+      "source": "node-tG5v3O4lNIFc2uCnacPak",
+      "target": "node-eghnfG4p7i-EDWfp3CQXC",
+      "animated": true
+    },
+    {
+      "id": "edge-node-eghnfG4p7i-EDWfp3CQXC-node-hVQ89f6G0LXEgHIOKHDYq",
+      "source": "node-eghnfG4p7i-EDWfp3CQXC",
+      "target": "node-hVQ89f6G0LXEgHIOKHDYq",
+      "animated": true
+    }
+  ],
+  "topics": {
+    "ZhJhf1M2OphYbEmduFq-9": {
+      "id": "ZhJhf1M2OphYbEmduFq-9",
+      "slug": "css",
+      "title": "CSS",
+      "description": "CSS, or Cascading Style Sheets, is a language used to describe the look and formatting of a document written in HTML. It controls things like the colors, fonts, layout, and overall visual presentation of a website, ensuring it's both appealing and easy to navigate for users. Think of it as the makeup artist for your website, taking the basic structure provided by HTML and making it beautiful.",
+      "resources": [
+        {
+          "id": "ZhJhf1M2OphYbEmduFq-9-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated CSS Roadmap",
+          "url": "https://roadmap.sh/css"
+        },
+        {
+          "id": "ZhJhf1M2OphYbEmduFq-9-res-2",
+          "type": "article",
+          "title": "HTML & CSS: design and build websites",
+          "url": "https://sites.math.duke.edu/courses/math_everywhere/assets/techRefs/HTML%20and%20CSS-%20Design%20and%20Build%20Websites_Jon%20Duckett_2011.pdf"
+        },
+        {
+          "id": "ZhJhf1M2OphYbEmduFq-9-res-3",
+          "type": "article",
+          "title": "CSS MDN Docs",
+          "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/What_is_CSS"
+        },
+        {
+          "id": "ZhJhf1M2OphYbEmduFq-9-res-4",
+          "type": "article",
+          "title": "CSS | Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/CSS"
+        },
+        {
+          "id": "ZhJhf1M2OphYbEmduFq-9-res-5",
+          "type": "video",
+          "title": "SS Tutorial – Full Course for Beginners",
+          "url": "https://www.youtube.com/watch?v=OXGznpKZ_sA"
+        }
+      ]
+    },
+    "R_I4SGYqLk5zze5I1zS_E": {
+      "id": "R_I4SGYqLk5zze5I1zS_E",
+      "slug": "git",
+      "title": "Git",
+      "description": "Git is like a save button for your code, but way more powerful. It's a system that tracks changes you make to your files, so you can easily go back to earlier versions, compare different versions, and collaborate with others on the same project without messing up each other's work. Think of it as a detailed history book for your code, allowing you to experiment and fix mistakes without fear of losing progress.",
+      "resources": [
+        {
+          "id": "R_I4SGYqLk5zze5I1zS_E-res-1",
+          "type": "article",
+          "title": "Visit Dedicated Git & GitHub Roadmap",
+          "url": "https://roadmap.sh/git-github"
+        },
+        {
+          "id": "R_I4SGYqLk5zze5I1zS_E-res-2",
+          "type": "article",
+          "title": "Tutorial: Git for Absolutely Everyone",
+          "url": "https://thenewstack.io/tutorial-git-for-absolutely-everyone/"
+        },
+        {
+          "id": "R_I4SGYqLk5zze5I1zS_E-res-3",
+          "type": "video",
+          "title": "Git & GitHub Crash Course For Beginners",
+          "url": "https://www.youtube.com/watch?v=SWYqp7iY_Tc"
+        },
+        {
+          "id": "R_I4SGYqLk5zze5I1zS_E-res-4",
+          "type": "course",
+          "title": "Why use Git? (Interactive Lesson)",
+          "url": "https://inter-git.com/lessons/introduction"
+        }
+      ]
+    },
+    "qmTVMJDsEhNIkiwE_UTYu": {
+      "id": "qmTVMJDsEhNIkiwE_UTYu",
+      "slug": "github",
+      "title": "GitHub",
+      "description": "GitHub is a website and service that helps developers store and manage their code. Think of it like a cloud-based folder where you can keep all your project files. It also allows multiple people to work on the same project at the same time without messing each other's work up, using a system called version control. This makes it easier to collaborate and track changes to your code.",
+      "resources": [
+        {
+          "id": "qmTVMJDsEhNIkiwE_UTYu-res-1",
+          "type": "article",
+          "title": "Visit Dedicated Git & GitHub Roadmap",
+          "url": "https://roadmap.sh/git-github"
+        },
+        {
+          "id": "qmTVMJDsEhNIkiwE_UTYu-res-2",
+          "type": "article",
+          "title": "GitHub",
+          "url": "https://github.com"
+        },
+        {
+          "id": "qmTVMJDsEhNIkiwE_UTYu-res-3",
+          "type": "article",
+          "title": "GitHub Documentation",
+          "url": "https://docs.github.com/en/get-started/quickstart"
+        },
+        {
+          "id": "qmTVMJDsEhNIkiwE_UTYu-res-4",
+          "type": "video",
+          "title": "What is GitHub?",
+          "url": "https://www.youtube.com/watch?v=w3jLJU7DT5E"
+        }
+      ]
+    },
+    "yWG2VUkaF5IJVVut6AiSy": {
+      "id": "yWG2VUkaF5IJVVut6AiSy",
+      "slug": "html",
+      "title": "HTML",
+      "description": "HTML, or HyperText Markup Language, is the standard language for creating web pages. It uses tags to structure content like headings, paragraphs, images, and links, telling the web browser how to display the information. Think of it as the skeleton of a website, providing the basic structure and content that users see.",
+      "resources": [
+        {
+          "id": "yWG2VUkaF5IJVVut6AiSy-res-1",
+          "type": "article",
+          "title": "Visit the dedicated HTML roadmap",
+          "url": "https://roadmap.sh/html"
+        },
+        {
+          "id": "yWG2VUkaF5IJVVut6AiSy-res-2",
+          "type": "article",
+          "title": "Responsive Web Design Certification - Co-Learn HTML & CSS with guided projects",
+          "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/"
+        },
+        {
+          "id": "yWG2VUkaF5IJVVut6AiSy-res-3",
+          "type": "video",
+          "title": "HTML Full Course for Beginners",
+          "url": "https://www.youtube.com/watch?v=mJgBOIoGihA"
+        },
+        {
+          "id": "yWG2VUkaF5IJVVut6AiSy-res-4",
+          "type": "video",
+          "title": "HTML Full Course - Build a Website Tutorial",
+          "url": "https://www.youtube.com/watch?v=pQN-pnXPaVg"
+        }
+      ]
+    },
+    "ODcfFEorkfJNupoQygM53": {
+      "id": "ODcfFEorkfJNupoQygM53",
+      "slug": "javascript",
+      "title": "JavaScript",
+      "description": "JavaScript is a programming language that makes websites interactive. It lets you add dynamic content, control multimedia, animate images, and pretty much everything else that makes a webpage more than just static text. It runs in web browsers, allowing you to create engaging experiences for users.",
+      "resources": [
+        {
+          "id": "ODcfFEorkfJNupoQygM53-res-1",
+          "type": "article",
+          "title": "Visit Dedicated JavaScript Roadmap",
+          "url": "https://roadmap.sh/javascript"
+        },
+        {
+          "id": "ODcfFEorkfJNupoQygM53-res-2",
+          "type": "article",
+          "title": "JavaScript from Beginner to Professional",
+          "url": "https://www.gurukultti.org/admin/notice/javascript.pdf"
+        },
+        {
+          "id": "ODcfFEorkfJNupoQygM53-res-3",
+          "type": "article",
+          "title": "The Modern JavaScript Tutorial",
+          "url": "https://javascript.info/"
+        },
+        {
+          "id": "ODcfFEorkfJNupoQygM53-res-4",
+          "type": "article",
+          "title": "Build 30 Javascript projects in 30 days",
+          "url": "https://javascript30.com/"
+        },
+        {
+          "id": "ODcfFEorkfJNupoQygM53-res-5",
+          "type": "video",
+          "title": "JavaScript Crash Course For Beginners",
+          "url": "https://www.youtube.com/watch?v=hdI2bqOjy3c&t=4s"
+        }
+      ]
+    },
+    "ib_FHinhrw8VuSet-xMF7": {
+      "id": "ib_FHinhrw8VuSet-xMF7",
+      "slug": "npm",
+      "title": "npm",
+      "description": "npm is like a personal assistant for your coding projects. It's a tool that helps you easily manage and share code packages (like pre-written bits of code that do specific things) in your projects. Think of it as an app store, but for code. You can use it to install, update, and uninstall these packages, making it much easier to use other people's code and share your own.",
+      "resources": [
+        {
+          "id": "ib_FHinhrw8VuSet-xMF7-res-1",
+          "type": "article",
+          "title": "NPM Website",
+          "url": "https://www.npmjs.com/"
+        },
+        {
+          "id": "ib_FHinhrw8VuSet-xMF7-res-2",
+          "type": "article",
+          "title": "NPM Documentation",
+          "url": "https://docs.npmjs.com/"
+        },
+        {
+          "id": "ib_FHinhrw8VuSet-xMF7-res-3",
+          "type": "article",
+          "title": "How to NPM",
+          "url": "https://github.com/workshopper/how-to-npm"
+        },
+        {
+          "id": "ib_FHinhrw8VuSet-xMF7-res-4",
+          "type": "article",
+          "title": "Modern JavaScript for Dinosaurs",
+          "url": "https://peterxjang.com/blog/modern-javascript-explained-for-dinosaurs.html"
+        },
+        {
+          "id": "ib_FHinhrw8VuSet-xMF7-res-5",
+          "type": "video",
+          "title": "NPM Tutorial for Beginners",
+          "url": "https://www.youtube.com/watch?v=2V1UUhBJ62Y"
+        }
+      ]
+    },
+    "tG5v3O4lNIFc2uCnacPak": {
+      "id": "tG5v3O4lNIFc2uCnacPak",
+      "slug": "react",
+      "title": "React",
+      "description": "React is a JavaScript library for building user interfaces. It lets you break down complex UIs into smaller, reusable components. These components manage their own data and can be composed together to create larger applications. React uses a declarative approach, meaning you describe what you want the UI to look like, and React takes care of updating the DOM efficiently.",
+      "resources": [
+        {
+          "id": "tG5v3O4lNIFc2uCnacPak-res-1",
+          "type": "article",
+          "title": "Visit Dedicated React Roadmap",
+          "url": "https://roadmap.sh/react"
+        },
+        {
+          "id": "tG5v3O4lNIFc2uCnacPak-res-2",
+          "type": "article",
+          "title": "React Website",
+          "url": "https://react.dev"
+        },
+        {
+          "id": "tG5v3O4lNIFc2uCnacPak-res-3",
+          "type": "video",
+          "title": "Full Stack React Developer Course",
+          "url": "https://www.youtube.com/watch?v=Bvwq_S0n2pk"
+        }
+      ]
+    },
+    "eghnfG4p7i-EDWfp3CQXC": {
+      "id": "eghnfG4p7i-EDWfp3CQXC",
+      "slug": "tailwind",
+      "title": "Tailwind CSS",
+      "description": "Tailwind CSS is a utility-first CSS framework. Instead of providing pre-designed components like buttons or navigation bars, it gives you a set of pre-defined CSS classes that you can use directly in your HTML to style your elements. This allows for highly customized designs without writing custom CSS from scratch, offering a faster and more flexible way to style your web pages.",
+      "resources": [
+        {
+          "id": "eghnfG4p7i-EDWfp3CQXC-res-1",
+          "type": "article",
+          "title": "Tailwind Website",
+          "url": "https://tailwindcss.com"
+        },
+        {
+          "id": "eghnfG4p7i-EDWfp3CQXC-res-2",
+          "type": "article",
+          "title": "Online Playground",
+          "url": "https://play.tailwindcss.com"
+        },
+        {
+          "id": "eghnfG4p7i-EDWfp3CQXC-res-3",
+          "type": "course",
+          "title": "Tailwind CSS Full Course for Beginners",
+          "url": "https://www.youtube.com/watch?v=lCxcTsOHrjo"
+        },
+        {
+          "id": "eghnfG4p7i-EDWfp3CQXC-res-4",
+          "type": "video",
+          "title": "Should You Use Tailwind CSS?",
+          "url": "https://www.youtube.com/watch?v=hdGsFpZ0J2E"
+        },
+        {
+          "id": "eghnfG4p7i-EDWfp3CQXC-res-5",
+          "type": "video",
+          "title": "Official Screencasts",
+          "url": "https://www.youtube.com/c/TailwindLabs/videos"
+        }
+      ]
+    },
+    "hVQ89f6G0LXEgHIOKHDYq": {
+      "id": "hVQ89f6G0LXEgHIOKHDYq",
+      "slug": "vitest",
+      "title": "Vitest",
+      "description": "Vitest is a testing framework powered by Vite. It's designed to be fast and easy to use, especially for projects that already use Vite for development. Vitest allows you to write unit tests and integration tests for your frontend code, ensuring that your components and functions work as expected. It offers features like hot module replacement (HMR) during testing, a watch mode for automatically re-running tests on file changes, and compatibility with popular testing libraries like Jest.",
+      "resources": [
+        {
+          "id": "hVQ89f6G0LXEgHIOKHDYq-res-1",
+          "type": "article",
+          "title": "Vitest - Next Generation Testing Framework",
+          "url": "https://vitest.dev/"
+        },
+        {
+          "id": "hVQ89f6G0LXEgHIOKHDYq-res-2",
+          "type": "article",
+          "title": "Vitest Documentation",
+          "url": "https://vitest.dev/guide/"
+        },
+        {
+          "id": "hVQ89f6G0LXEgHIOKHDYq-res-3",
+          "type": "video",
+          "title": "Vitest Simplified",
+          "url": "https://www.youtube.com/watch?v=snCLQmINqCU"
+        }
+      ]
+    }
+  }
+}

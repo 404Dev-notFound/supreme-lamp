@@ -1,0 +1,3285 @@
+{
+  "slug": "html",
+  "title": "Html",
+  "description": "Comprehensive learning curriculum and mastery roadmap for html.",
+  "category": "skill",
+  "level": "Intermediate",
+  "topicCount": 88,
+  "iconName": "Compass",
+  "nodes": [
+    {
+      "id": "node-aeovzlUV4oWwZCMcAoRVC",
+      "label": "Abbreviation Element",
+      "topicId": "aeovzlUV4oWwZCMcAoRVC",
+      "level": 1,
+      "position": {
+        "x": 80,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-YHoag7UR40OeIVUjfhQg_",
+      "label": "Accessibility",
+      "topicId": "YHoag7UR40OeIVUjfhQg_",
+      "level": 1,
+      "position": {
+        "x": 340,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-PGKWhfXEd3Iv0AIhL7y4_",
+      "label": "Address Element",
+      "topicId": "PGKWhfXEd3Iv0AIhL7y4_",
+      "level": 1,
+      "position": {
+        "x": 600,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-99wo0cNHe0sU63_aDBrxY",
+      "label": "Article Element",
+      "topicId": "99wo0cNHe0sU63_aDBrxY",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-VahoGEC6I3jX1916MsmUY",
+      "label": "Aside Element",
+      "topicId": "VahoGEC6I3jX1916MsmUY",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-k8FZPxFcDPVnXBONWUhME",
+      "label": "Audio",
+      "topicId": "k8FZPxFcDPVnXBONWUhME",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-efddQv5AZqvGmIyuYuCr7",
+      "label": "b / strong",
+      "topicId": "efddQv5AZqvGmIyuYuCr7",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-MjGfRzhVZRxu545TbJ1AJ",
+      "label": "Basic HTML Tags",
+      "topicId": "MjGfRzhVZRxu545TbJ1AJ",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-yEl77JIN5-ixN5Ay247qp",
+      "label": "Basics of SEO",
+      "topicId": "yEl77JIN5-ixN5Ay247qp",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-B-Bv4aY_tGgWakyT8TgEe",
+      "label": "blockquote",
+      "topicId": "B-Bv4aY_tGgWakyT8TgEe",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-93tSk4RwWfkfOyaA7I9Gn",
+      "label": "Body Tag",
+      "topicId": "93tSk4RwWfkfOyaA7I9Gn",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-cBKw3jiAvdXVwUryV1aJl",
+      "label": "br Tag",
+      "topicId": "cBKw3jiAvdXVwUryV1aJl",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-4gvPprSH7hRS4gtXNMcCF",
+      "label": "Browsers",
+      "topicId": "4gvPprSH7hRS4gtXNMcCF",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-qXcn_AGcGWjT8GgjaW5WN",
+      "label": "Case Insensitivity",
+      "topicId": "qXcn_AGcGWjT8GgjaW5WN",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-PE_WoH4nbGAJSJT14Qli0",
+      "label": "The  Element",
+      "topicId": "PE_WoH4nbGAJSJT14Qli0",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-R0mDuO5V5NJI8Yupc_i8i",
+      "label": "Class Attribute",
+      "topicId": "R0mDuO5V5NJI8Yupc_i8i",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-9FAlTHlRj_DVjbpuiGRzD",
+      "label": "Content Security Policy",
+      "topicId": "9FAlTHlRj_DVjbpuiGRzD",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-fX71CXA26cUxY5WX_zABi",
+      "label": "CSS",
+      "topicId": "fX71CXA26cUxY5WX_zABi",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-7iDMmYQ-2Q6hrrFnUgRuP",
+      "label": "Data Attributes",
+      "topicId": "7iDMmYQ-2Q6hrrFnUgRuP",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-pEcxDj3dSgAwxydwKWU7d",
+      "label": "Definition Lists",
+      "topicId": "pEcxDj3dSgAwxydwKWU7d",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-v3Uf4LTfCbyasNJ-2Vfj9",
+      "label": "del",
+      "topicId": "v3Uf4LTfCbyasNJ-2Vfj9",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-jfC0Og9340AK7b3Fhp4WI",
+      "label": "dfn",
+      "topicId": "jfC0Og9340AK7b3Fhp4WI",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-ihP3FIRMr8iQTdOja_CxV",
+      "label": "div",
+      "topicId": "ihP3FIRMr8iQTdOja_CxV",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-0Q41Bm_TZqsC7X-MH8uFe",
+      "label": "DNS",
+      "topicId": "0Q41Bm_TZqsC7X-MH8uFe",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-VscH3rVqpX29vaKmdCMop",
+      "label": "!DOCTYPE Declaration",
+      "topicId": "VscH3rVqpX29vaKmdCMop",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-oRjacb1OqAlsP-YB16Nuy",
+      "label": "Domain name",
+      "topicId": "oRjacb1OqAlsP-YB16Nuy",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-UevJNi2HHNzpCAx7Icd0k",
+      "label": "Embedding Media",
+      "topicId": "UevJNi2HHNzpCAx7Icd0k",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-PhC4amuHcgxujOJisNsIr",
+      "label": "External CSS",
+      "topicId": "PhC4amuHcgxujOJisNsIr",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node--UlDLjC8VsrKB9yexMtlr",
+      "label": "File Uploads",
+      "topicId": "-UlDLjC8VsrKB9yexMtlr",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-rjE1yjFZ6KBWXgXDRIZc1",
+      "label": "Footer",
+      "topicId": "rjE1yjFZ6KBWXgXDRIZc1",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-6NvYDlYYLZzf4IHXu0dWs",
+      "label": "Form Validation",
+      "topicId": "6NvYDlYYLZzf4IHXu0dWs",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-Xy15NSxlS0QXYNzEvgocK",
+      "label": "Frontend Development",
+      "topicId": "Xy15NSxlS0QXYNzEvgocK",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-Wu3oW_gnjKTYV8QJHdNxi",
+      "label": "Grouping Text",
+      "topicId": "Wu3oW_gnjKTYV8QJHdNxi",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-AmIRWclu6IYViWHXnGA8U",
+      "label": "Headings",
+      "topicId": "AmIRWclu6IYViWHXnGA8U",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-Ufgy4-kC2drCov4MqEhjy",
+      "label": "head",
+      "topicId": "Ufgy4-kC2drCov4MqEhjy",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-0AF0Xs2nWVZav9t5Eh9NX",
+      "label": "Header",
+      "topicId": "0AF0Xs2nWVZav9t5Eh9NX",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-t9KmPbRh6pkfouPi1mBqJ",
+      "label": "Hosting",
+      "topicId": "t9KmPbRh6pkfouPi1mBqJ",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-0CHn_ubTBRWgrYGy0moZh",
+      "label": "How the web works",
+      "topicId": "0CHn_ubTBRWgrYGy0moZh",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-Bdu0_AcAADs7YiCaHte1g",
+      "label": "Horizontal Rule",
+      "topicId": "Bdu0_AcAADs7YiCaHte1g",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node--ME4w8Bm5krSH14Yno4E5",
+      "label": "HTML Comments",
+      "topicId": "-ME4w8Bm5krSH14Yno4E5",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-Ego3XwBDgqlXOj6jSNvpy",
+      "label": "HTML Entities",
+      "topicId": "Ego3XwBDgqlXOj6jSNvpy",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-b83npHc-R9M03hEGzA9Ha",
+      "label": "HTML",
+      "topicId": "b83npHc-R9M03hEGzA9Ha",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-fP2cPskF9KzppZUhfyB8U",
+      "label": "HTML Element",
+      "topicId": "fP2cPskF9KzppZUhfyB8U",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-9EGwQalXfVGpVcMpTeD4V",
+      "label": "i / em",
+      "topicId": "9EGwQalXfVGpVcMpTeD4V",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-PikSDs0EZ93RauZc_GDEw",
+      "label": "id Attribute",
+      "topicId": "PikSDs0EZ93RauZc_GDEw",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-W0pWVr4cdxSan9Ceu5t7i",
+      "label": "iframe",
+      "topicId": "W0pWVr4cdxSan9Ceu5t7i",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-94HB2gvHgcEIeFQTlbVDu",
+      "label": "Images",
+      "topicId": "94HB2gvHgcEIeFQTlbVDu",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-f5O_U9dt0b73ZhLrWWz2L",
+      "label": "img vs. figure",
+      "topicId": "f5O_U9dt0b73ZhLrWWz2L",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-5Ze6iqSnZLpQWnhUSGQOE",
+      "label": "Including JavaScript",
+      "topicId": "5Ze6iqSnZLpQWnhUSGQOE",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-ievbuvgPKo261hM-9F117",
+      "label": "Inline CSS",
+      "topicId": "ievbuvgPKo261hM-9F117",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-G_hZBbIGOLn1-sh1jROL3",
+      "label": "ins Element",
+      "topicId": "G_hZBbIGOLn1-sh1jROL3",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-1uhThwxjHgXPu_i1__1eE",
+      "label": "Internal CSS",
+      "topicId": "1uhThwxjHgXPu_i1__1eE",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-JkLec2vSBMFAUc1Dzra-L",
+      "label": "Introduction to HTML",
+      "topicId": "JkLec2vSBMFAUc1Dzra-L",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-F-9uI39S9oYVGA8hi7aZI",
+      "label": "JavaScript",
+      "topicId": "F-9uI39S9oYVGA8hi7aZI",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-9R5WYPxlChmz6bevJUwsT",
+      "label": "Labels and Inputs",
+      "topicId": "9R5WYPxlChmz6bevJUwsT",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-HxgDw9gh1vHiMIMyZW8H2",
+      "label": "HTML Form Constraints",
+      "topicId": "HxgDw9gh1vHiMIMyZW8H2",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-wmAps9IeAvOxcqBqgUAXN",
+      "label": "Links",
+      "topicId": "wmAps9IeAvOxcqBqgUAXN",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-oHbzYpFInyr5aKCe-NWkC",
+      "label": "Lists and Types",
+      "topicId": "oHbzYpFInyr5aKCe-NWkC",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-InNY2DPYlnZaeBG9X_sMI",
+      "label": "Main Element",
+      "topicId": "InNY2DPYlnZaeBG9X_sMI",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-9S2IUUWVv_Q7ZfD7VqfhH",
+      "label": "Mark Text",
+      "topicId": "9S2IUUWVv_Q7ZfD7VqfhH",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-ceAHMWQeaqURKWy628QBH",
+      "label": "Meta Tags",
+      "topicId": "ceAHMWQeaqURKWy628QBH",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-4uKQubirOgXz9ZvfR9cWa",
+      "label": "Nav",
+      "topicId": "4uKQubirOgXz9ZvfR9cWa",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-wDBnbKni0SamOqNhnp87B",
+      "label": "Nested Lists in HTML",
+      "topicId": "wDBnbKni0SamOqNhnp87B",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-ePOzN3Sh5tCYlAbsweWU0",
+      "label": "Ordered Lists",
+      "topicId": "ePOzN3Sh5tCYlAbsweWU0",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-czmIvZYONFDxB2UNpT8U1",
+      "label": "p Tag",
+      "topicId": "czmIvZYONFDxB2UNpT8U1",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node--2BvwJsqa5K8Tb8oSDUC8",
+      "label": "pre",
+      "topicId": "-2BvwJsqa5K8Tb8oSDUC8",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-znqYy9Tgfpe-qakjRr7KU",
+      "label": "Priority Hints",
+      "topicId": "znqYy9Tgfpe-qakjRr7KU",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-Xprekf2SY1fevcR2P5gRw",
+      "label": "The  Element",
+      "topicId": "Xprekf2SY1fevcR2P5gRw",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-Hx8mfbfkvRrBqLypE_NL3",
+      "label": "s",
+      "topicId": "Hx8mfbfkvRrBqLypE_NL3",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-1WvHjkclwT-LUGdeuygzV",
+      "label": "Section Tag",
+      "topicId": "1WvHjkclwT-LUGdeuygzV",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-aJTXstcrsINdov7yrH8cE",
+      "label": "Semantic Markup",
+      "topicId": "aJTXstcrsINdov7yrH8cE",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-f7-umBvAzDZxHtHgJMCj6",
+      "label": "Span Element",
+      "topicId": "f7-umBvAzDZxHtHgJMCj6",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-xgw2ux-2Poml1fjWxjFsu",
+      "label": "Standard Attributes",
+      "topicId": "xgw2ux-2Poml1fjWxjFsu",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-GpaI2IDHDOZjyT3AZMbYD",
+      "label": "Style Attribute",
+      "topicId": "GpaI2IDHDOZjyT3AZMbYD",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-51NlCt5pvWNfa70WaE2M4",
+      "label": "Styling Basics",
+      "topicId": "51NlCt5pvWNfa70WaE2M4",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-JU8Ff3DSCn_db0K7-P-Op",
+      "label": "Subscript Text",
+      "topicId": "JU8Ff3DSCn_db0K7-P-Op",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-o1rSXBsjhD-sN0FdOK_dm",
+      "label": "sup",
+      "topicId": "o1rSXBsjhD-sN0FdOK_dm",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-3P9p18a9EjbjjMtzpoVRN",
+      "label": "HTML Table Tag",
+      "topicId": "3P9p18a9EjbjjMtzpoVRN",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-nOIijMH-3TvcO1KL6qzwf",
+      "label": "Tags and Attributes",
+      "topicId": "nOIijMH-3TvcO1KL6qzwf",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-ksKI4TDz4_9IcmNORczWo",
+      "label": "Textual Tags",
+      "topicId": "ksKI4TDz4_9IcmNORczWo",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-SS7JmTrySRmRlzInvRJxw",
+      "label": "Title Tag",
+      "topicId": "SS7JmTrySRmRlzInvRJxw",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-LKn40uz56vYrPnLG3I-CY",
+      "label": "Unordered Lists",
+      "topicId": "LKn40uz56vYrPnLG3I-CY",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-P_wR4dwto2NKrvTRbdBIX",
+      "label": "Using Forms",
+      "topicId": "P_wR4dwto2NKrvTRbdBIX",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-mWc4HuNQACXGpJjEPa79j",
+      "label": "Video",
+      "topicId": "mWc4HuNQACXGpJjEPa79j",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-4gst44L8-ps9YFMHzucfN",
+      "label": "Markup Languages",
+      "topicId": "4gst44L8-ps9YFMHzucfN",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-nXRjahYSDqfEqY26yfLEt",
+      "label": "What is HTTP?",
+      "topicId": "nXRjahYSDqfEqY26yfLEt",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-6vGbvRsmQgOpRh8JJ3RF_",
+      "label": "Search Engine Optimization (SEO)",
+      "topicId": "6vGbvRsmQgOpRh8JJ3RF_",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-IUsaaRxiuOn3y9uYbpsJ0",
+      "label": "Whitespaces",
+      "topicId": "IUsaaRxiuOn3y9uYbpsJ0",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4720
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-node-aeovzlUV4oWwZCMcAoRVC-node-YHoag7UR40OeIVUjfhQg_",
+      "source": "node-aeovzlUV4oWwZCMcAoRVC",
+      "target": "node-YHoag7UR40OeIVUjfhQg_",
+      "animated": true
+    },
+    {
+      "id": "edge-node-YHoag7UR40OeIVUjfhQg_-node-PGKWhfXEd3Iv0AIhL7y4_",
+      "source": "node-YHoag7UR40OeIVUjfhQg_",
+      "target": "node-PGKWhfXEd3Iv0AIhL7y4_",
+      "animated": true
+    },
+    {
+      "id": "edge-node-PGKWhfXEd3Iv0AIhL7y4_-node-99wo0cNHe0sU63_aDBrxY",
+      "source": "node-PGKWhfXEd3Iv0AIhL7y4_",
+      "target": "node-99wo0cNHe0sU63_aDBrxY",
+      "animated": true
+    },
+    {
+      "id": "edge-node-99wo0cNHe0sU63_aDBrxY-node-VahoGEC6I3jX1916MsmUY",
+      "source": "node-99wo0cNHe0sU63_aDBrxY",
+      "target": "node-VahoGEC6I3jX1916MsmUY",
+      "animated": true
+    },
+    {
+      "id": "edge-node-VahoGEC6I3jX1916MsmUY-node-k8FZPxFcDPVnXBONWUhME",
+      "source": "node-VahoGEC6I3jX1916MsmUY",
+      "target": "node-k8FZPxFcDPVnXBONWUhME",
+      "animated": true
+    },
+    {
+      "id": "edge-node-k8FZPxFcDPVnXBONWUhME-node-efddQv5AZqvGmIyuYuCr7",
+      "source": "node-k8FZPxFcDPVnXBONWUhME",
+      "target": "node-efddQv5AZqvGmIyuYuCr7",
+      "animated": true
+    },
+    {
+      "id": "edge-node-efddQv5AZqvGmIyuYuCr7-node-MjGfRzhVZRxu545TbJ1AJ",
+      "source": "node-efddQv5AZqvGmIyuYuCr7",
+      "target": "node-MjGfRzhVZRxu545TbJ1AJ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-MjGfRzhVZRxu545TbJ1AJ-node-yEl77JIN5-ixN5Ay247qp",
+      "source": "node-MjGfRzhVZRxu545TbJ1AJ",
+      "target": "node-yEl77JIN5-ixN5Ay247qp",
+      "animated": true
+    },
+    {
+      "id": "edge-node-yEl77JIN5-ixN5Ay247qp-node-B-Bv4aY_tGgWakyT8TgEe",
+      "source": "node-yEl77JIN5-ixN5Ay247qp",
+      "target": "node-B-Bv4aY_tGgWakyT8TgEe",
+      "animated": true
+    },
+    {
+      "id": "edge-node-B-Bv4aY_tGgWakyT8TgEe-node-93tSk4RwWfkfOyaA7I9Gn",
+      "source": "node-B-Bv4aY_tGgWakyT8TgEe",
+      "target": "node-93tSk4RwWfkfOyaA7I9Gn",
+      "animated": true
+    },
+    {
+      "id": "edge-node-93tSk4RwWfkfOyaA7I9Gn-node-cBKw3jiAvdXVwUryV1aJl",
+      "source": "node-93tSk4RwWfkfOyaA7I9Gn",
+      "target": "node-cBKw3jiAvdXVwUryV1aJl",
+      "animated": true
+    },
+    {
+      "id": "edge-node-cBKw3jiAvdXVwUryV1aJl-node-4gvPprSH7hRS4gtXNMcCF",
+      "source": "node-cBKw3jiAvdXVwUryV1aJl",
+      "target": "node-4gvPprSH7hRS4gtXNMcCF",
+      "animated": true
+    },
+    {
+      "id": "edge-node-4gvPprSH7hRS4gtXNMcCF-node-qXcn_AGcGWjT8GgjaW5WN",
+      "source": "node-4gvPprSH7hRS4gtXNMcCF",
+      "target": "node-qXcn_AGcGWjT8GgjaW5WN",
+      "animated": true
+    },
+    {
+      "id": "edge-node-qXcn_AGcGWjT8GgjaW5WN-node-PE_WoH4nbGAJSJT14Qli0",
+      "source": "node-qXcn_AGcGWjT8GgjaW5WN",
+      "target": "node-PE_WoH4nbGAJSJT14Qli0",
+      "animated": true
+    },
+    {
+      "id": "edge-node-PE_WoH4nbGAJSJT14Qli0-node-R0mDuO5V5NJI8Yupc_i8i",
+      "source": "node-PE_WoH4nbGAJSJT14Qli0",
+      "target": "node-R0mDuO5V5NJI8Yupc_i8i",
+      "animated": true
+    },
+    {
+      "id": "edge-node-R0mDuO5V5NJI8Yupc_i8i-node-9FAlTHlRj_DVjbpuiGRzD",
+      "source": "node-R0mDuO5V5NJI8Yupc_i8i",
+      "target": "node-9FAlTHlRj_DVjbpuiGRzD",
+      "animated": true
+    },
+    {
+      "id": "edge-node-9FAlTHlRj_DVjbpuiGRzD-node-fX71CXA26cUxY5WX_zABi",
+      "source": "node-9FAlTHlRj_DVjbpuiGRzD",
+      "target": "node-fX71CXA26cUxY5WX_zABi",
+      "animated": true
+    },
+    {
+      "id": "edge-node-fX71CXA26cUxY5WX_zABi-node-7iDMmYQ-2Q6hrrFnUgRuP",
+      "source": "node-fX71CXA26cUxY5WX_zABi",
+      "target": "node-7iDMmYQ-2Q6hrrFnUgRuP",
+      "animated": true
+    },
+    {
+      "id": "edge-node-7iDMmYQ-2Q6hrrFnUgRuP-node-pEcxDj3dSgAwxydwKWU7d",
+      "source": "node-7iDMmYQ-2Q6hrrFnUgRuP",
+      "target": "node-pEcxDj3dSgAwxydwKWU7d",
+      "animated": true
+    },
+    {
+      "id": "edge-node-pEcxDj3dSgAwxydwKWU7d-node-v3Uf4LTfCbyasNJ-2Vfj9",
+      "source": "node-pEcxDj3dSgAwxydwKWU7d",
+      "target": "node-v3Uf4LTfCbyasNJ-2Vfj9",
+      "animated": true
+    },
+    {
+      "id": "edge-node-v3Uf4LTfCbyasNJ-2Vfj9-node-jfC0Og9340AK7b3Fhp4WI",
+      "source": "node-v3Uf4LTfCbyasNJ-2Vfj9",
+      "target": "node-jfC0Og9340AK7b3Fhp4WI",
+      "animated": true
+    },
+    {
+      "id": "edge-node-jfC0Og9340AK7b3Fhp4WI-node-ihP3FIRMr8iQTdOja_CxV",
+      "source": "node-jfC0Og9340AK7b3Fhp4WI",
+      "target": "node-ihP3FIRMr8iQTdOja_CxV",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ihP3FIRMr8iQTdOja_CxV-node-0Q41Bm_TZqsC7X-MH8uFe",
+      "source": "node-ihP3FIRMr8iQTdOja_CxV",
+      "target": "node-0Q41Bm_TZqsC7X-MH8uFe",
+      "animated": true
+    },
+    {
+      "id": "edge-node-0Q41Bm_TZqsC7X-MH8uFe-node-VscH3rVqpX29vaKmdCMop",
+      "source": "node-0Q41Bm_TZqsC7X-MH8uFe",
+      "target": "node-VscH3rVqpX29vaKmdCMop",
+      "animated": true
+    },
+    {
+      "id": "edge-node-VscH3rVqpX29vaKmdCMop-node-oRjacb1OqAlsP-YB16Nuy",
+      "source": "node-VscH3rVqpX29vaKmdCMop",
+      "target": "node-oRjacb1OqAlsP-YB16Nuy",
+      "animated": true
+    },
+    {
+      "id": "edge-node-oRjacb1OqAlsP-YB16Nuy-node-UevJNi2HHNzpCAx7Icd0k",
+      "source": "node-oRjacb1OqAlsP-YB16Nuy",
+      "target": "node-UevJNi2HHNzpCAx7Icd0k",
+      "animated": true
+    },
+    {
+      "id": "edge-node-UevJNi2HHNzpCAx7Icd0k-node-PhC4amuHcgxujOJisNsIr",
+      "source": "node-UevJNi2HHNzpCAx7Icd0k",
+      "target": "node-PhC4amuHcgxujOJisNsIr",
+      "animated": true
+    },
+    {
+      "id": "edge-node-PhC4amuHcgxujOJisNsIr-node--UlDLjC8VsrKB9yexMtlr",
+      "source": "node-PhC4amuHcgxujOJisNsIr",
+      "target": "node--UlDLjC8VsrKB9yexMtlr",
+      "animated": true
+    },
+    {
+      "id": "edge-node--UlDLjC8VsrKB9yexMtlr-node-rjE1yjFZ6KBWXgXDRIZc1",
+      "source": "node--UlDLjC8VsrKB9yexMtlr",
+      "target": "node-rjE1yjFZ6KBWXgXDRIZc1",
+      "animated": true
+    },
+    {
+      "id": "edge-node-rjE1yjFZ6KBWXgXDRIZc1-node-6NvYDlYYLZzf4IHXu0dWs",
+      "source": "node-rjE1yjFZ6KBWXgXDRIZc1",
+      "target": "node-6NvYDlYYLZzf4IHXu0dWs",
+      "animated": true
+    },
+    {
+      "id": "edge-node-6NvYDlYYLZzf4IHXu0dWs-node-Xy15NSxlS0QXYNzEvgocK",
+      "source": "node-6NvYDlYYLZzf4IHXu0dWs",
+      "target": "node-Xy15NSxlS0QXYNzEvgocK",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Xy15NSxlS0QXYNzEvgocK-node-Wu3oW_gnjKTYV8QJHdNxi",
+      "source": "node-Xy15NSxlS0QXYNzEvgocK",
+      "target": "node-Wu3oW_gnjKTYV8QJHdNxi",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Wu3oW_gnjKTYV8QJHdNxi-node-AmIRWclu6IYViWHXnGA8U",
+      "source": "node-Wu3oW_gnjKTYV8QJHdNxi",
+      "target": "node-AmIRWclu6IYViWHXnGA8U",
+      "animated": true
+    },
+    {
+      "id": "edge-node-AmIRWclu6IYViWHXnGA8U-node-Ufgy4-kC2drCov4MqEhjy",
+      "source": "node-AmIRWclu6IYViWHXnGA8U",
+      "target": "node-Ufgy4-kC2drCov4MqEhjy",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Ufgy4-kC2drCov4MqEhjy-node-0AF0Xs2nWVZav9t5Eh9NX",
+      "source": "node-Ufgy4-kC2drCov4MqEhjy",
+      "target": "node-0AF0Xs2nWVZav9t5Eh9NX",
+      "animated": true
+    },
+    {
+      "id": "edge-node-0AF0Xs2nWVZav9t5Eh9NX-node-t9KmPbRh6pkfouPi1mBqJ",
+      "source": "node-0AF0Xs2nWVZav9t5Eh9NX",
+      "target": "node-t9KmPbRh6pkfouPi1mBqJ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-t9KmPbRh6pkfouPi1mBqJ-node-0CHn_ubTBRWgrYGy0moZh",
+      "source": "node-t9KmPbRh6pkfouPi1mBqJ",
+      "target": "node-0CHn_ubTBRWgrYGy0moZh",
+      "animated": true
+    },
+    {
+      "id": "edge-node-0CHn_ubTBRWgrYGy0moZh-node-Bdu0_AcAADs7YiCaHte1g",
+      "source": "node-0CHn_ubTBRWgrYGy0moZh",
+      "target": "node-Bdu0_AcAADs7YiCaHte1g",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Bdu0_AcAADs7YiCaHte1g-node--ME4w8Bm5krSH14Yno4E5",
+      "source": "node-Bdu0_AcAADs7YiCaHte1g",
+      "target": "node--ME4w8Bm5krSH14Yno4E5",
+      "animated": true
+    },
+    {
+      "id": "edge-node--ME4w8Bm5krSH14Yno4E5-node-Ego3XwBDgqlXOj6jSNvpy",
+      "source": "node--ME4w8Bm5krSH14Yno4E5",
+      "target": "node-Ego3XwBDgqlXOj6jSNvpy",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Ego3XwBDgqlXOj6jSNvpy-node-b83npHc-R9M03hEGzA9Ha",
+      "source": "node-Ego3XwBDgqlXOj6jSNvpy",
+      "target": "node-b83npHc-R9M03hEGzA9Ha",
+      "animated": true
+    },
+    {
+      "id": "edge-node-b83npHc-R9M03hEGzA9Ha-node-fP2cPskF9KzppZUhfyB8U",
+      "source": "node-b83npHc-R9M03hEGzA9Ha",
+      "target": "node-fP2cPskF9KzppZUhfyB8U",
+      "animated": true
+    },
+    {
+      "id": "edge-node-fP2cPskF9KzppZUhfyB8U-node-9EGwQalXfVGpVcMpTeD4V",
+      "source": "node-fP2cPskF9KzppZUhfyB8U",
+      "target": "node-9EGwQalXfVGpVcMpTeD4V",
+      "animated": true
+    },
+    {
+      "id": "edge-node-9EGwQalXfVGpVcMpTeD4V-node-PikSDs0EZ93RauZc_GDEw",
+      "source": "node-9EGwQalXfVGpVcMpTeD4V",
+      "target": "node-PikSDs0EZ93RauZc_GDEw",
+      "animated": true
+    },
+    {
+      "id": "edge-node-PikSDs0EZ93RauZc_GDEw-node-W0pWVr4cdxSan9Ceu5t7i",
+      "source": "node-PikSDs0EZ93RauZc_GDEw",
+      "target": "node-W0pWVr4cdxSan9Ceu5t7i",
+      "animated": true
+    },
+    {
+      "id": "edge-node-W0pWVr4cdxSan9Ceu5t7i-node-94HB2gvHgcEIeFQTlbVDu",
+      "source": "node-W0pWVr4cdxSan9Ceu5t7i",
+      "target": "node-94HB2gvHgcEIeFQTlbVDu",
+      "animated": true
+    },
+    {
+      "id": "edge-node-94HB2gvHgcEIeFQTlbVDu-node-f5O_U9dt0b73ZhLrWWz2L",
+      "source": "node-94HB2gvHgcEIeFQTlbVDu",
+      "target": "node-f5O_U9dt0b73ZhLrWWz2L",
+      "animated": true
+    },
+    {
+      "id": "edge-node-f5O_U9dt0b73ZhLrWWz2L-node-5Ze6iqSnZLpQWnhUSGQOE",
+      "source": "node-f5O_U9dt0b73ZhLrWWz2L",
+      "target": "node-5Ze6iqSnZLpQWnhUSGQOE",
+      "animated": true
+    },
+    {
+      "id": "edge-node-5Ze6iqSnZLpQWnhUSGQOE-node-ievbuvgPKo261hM-9F117",
+      "source": "node-5Ze6iqSnZLpQWnhUSGQOE",
+      "target": "node-ievbuvgPKo261hM-9F117",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ievbuvgPKo261hM-9F117-node-G_hZBbIGOLn1-sh1jROL3",
+      "source": "node-ievbuvgPKo261hM-9F117",
+      "target": "node-G_hZBbIGOLn1-sh1jROL3",
+      "animated": true
+    },
+    {
+      "id": "edge-node-G_hZBbIGOLn1-sh1jROL3-node-1uhThwxjHgXPu_i1__1eE",
+      "source": "node-G_hZBbIGOLn1-sh1jROL3",
+      "target": "node-1uhThwxjHgXPu_i1__1eE",
+      "animated": true
+    },
+    {
+      "id": "edge-node-1uhThwxjHgXPu_i1__1eE-node-JkLec2vSBMFAUc1Dzra-L",
+      "source": "node-1uhThwxjHgXPu_i1__1eE",
+      "target": "node-JkLec2vSBMFAUc1Dzra-L",
+      "animated": true
+    },
+    {
+      "id": "edge-node-JkLec2vSBMFAUc1Dzra-L-node-F-9uI39S9oYVGA8hi7aZI",
+      "source": "node-JkLec2vSBMFAUc1Dzra-L",
+      "target": "node-F-9uI39S9oYVGA8hi7aZI",
+      "animated": true
+    },
+    {
+      "id": "edge-node-F-9uI39S9oYVGA8hi7aZI-node-9R5WYPxlChmz6bevJUwsT",
+      "source": "node-F-9uI39S9oYVGA8hi7aZI",
+      "target": "node-9R5WYPxlChmz6bevJUwsT",
+      "animated": true
+    },
+    {
+      "id": "edge-node-9R5WYPxlChmz6bevJUwsT-node-HxgDw9gh1vHiMIMyZW8H2",
+      "source": "node-9R5WYPxlChmz6bevJUwsT",
+      "target": "node-HxgDw9gh1vHiMIMyZW8H2",
+      "animated": true
+    },
+    {
+      "id": "edge-node-HxgDw9gh1vHiMIMyZW8H2-node-wmAps9IeAvOxcqBqgUAXN",
+      "source": "node-HxgDw9gh1vHiMIMyZW8H2",
+      "target": "node-wmAps9IeAvOxcqBqgUAXN",
+      "animated": true
+    },
+    {
+      "id": "edge-node-wmAps9IeAvOxcqBqgUAXN-node-oHbzYpFInyr5aKCe-NWkC",
+      "source": "node-wmAps9IeAvOxcqBqgUAXN",
+      "target": "node-oHbzYpFInyr5aKCe-NWkC",
+      "animated": true
+    },
+    {
+      "id": "edge-node-oHbzYpFInyr5aKCe-NWkC-node-InNY2DPYlnZaeBG9X_sMI",
+      "source": "node-oHbzYpFInyr5aKCe-NWkC",
+      "target": "node-InNY2DPYlnZaeBG9X_sMI",
+      "animated": true
+    },
+    {
+      "id": "edge-node-InNY2DPYlnZaeBG9X_sMI-node-9S2IUUWVv_Q7ZfD7VqfhH",
+      "source": "node-InNY2DPYlnZaeBG9X_sMI",
+      "target": "node-9S2IUUWVv_Q7ZfD7VqfhH",
+      "animated": true
+    },
+    {
+      "id": "edge-node-9S2IUUWVv_Q7ZfD7VqfhH-node-ceAHMWQeaqURKWy628QBH",
+      "source": "node-9S2IUUWVv_Q7ZfD7VqfhH",
+      "target": "node-ceAHMWQeaqURKWy628QBH",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ceAHMWQeaqURKWy628QBH-node-4uKQubirOgXz9ZvfR9cWa",
+      "source": "node-ceAHMWQeaqURKWy628QBH",
+      "target": "node-4uKQubirOgXz9ZvfR9cWa",
+      "animated": true
+    },
+    {
+      "id": "edge-node-4uKQubirOgXz9ZvfR9cWa-node-wDBnbKni0SamOqNhnp87B",
+      "source": "node-4uKQubirOgXz9ZvfR9cWa",
+      "target": "node-wDBnbKni0SamOqNhnp87B",
+      "animated": true
+    },
+    {
+      "id": "edge-node-wDBnbKni0SamOqNhnp87B-node-ePOzN3Sh5tCYlAbsweWU0",
+      "source": "node-wDBnbKni0SamOqNhnp87B",
+      "target": "node-ePOzN3Sh5tCYlAbsweWU0",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ePOzN3Sh5tCYlAbsweWU0-node-czmIvZYONFDxB2UNpT8U1",
+      "source": "node-ePOzN3Sh5tCYlAbsweWU0",
+      "target": "node-czmIvZYONFDxB2UNpT8U1",
+      "animated": true
+    },
+    {
+      "id": "edge-node-czmIvZYONFDxB2UNpT8U1-node--2BvwJsqa5K8Tb8oSDUC8",
+      "source": "node-czmIvZYONFDxB2UNpT8U1",
+      "target": "node--2BvwJsqa5K8Tb8oSDUC8",
+      "animated": true
+    },
+    {
+      "id": "edge-node--2BvwJsqa5K8Tb8oSDUC8-node-znqYy9Tgfpe-qakjRr7KU",
+      "source": "node--2BvwJsqa5K8Tb8oSDUC8",
+      "target": "node-znqYy9Tgfpe-qakjRr7KU",
+      "animated": true
+    },
+    {
+      "id": "edge-node-znqYy9Tgfpe-qakjRr7KU-node-Xprekf2SY1fevcR2P5gRw",
+      "source": "node-znqYy9Tgfpe-qakjRr7KU",
+      "target": "node-Xprekf2SY1fevcR2P5gRw",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Xprekf2SY1fevcR2P5gRw-node-Hx8mfbfkvRrBqLypE_NL3",
+      "source": "node-Xprekf2SY1fevcR2P5gRw",
+      "target": "node-Hx8mfbfkvRrBqLypE_NL3",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Hx8mfbfkvRrBqLypE_NL3-node-1WvHjkclwT-LUGdeuygzV",
+      "source": "node-Hx8mfbfkvRrBqLypE_NL3",
+      "target": "node-1WvHjkclwT-LUGdeuygzV",
+      "animated": true
+    },
+    {
+      "id": "edge-node-1WvHjkclwT-LUGdeuygzV-node-aJTXstcrsINdov7yrH8cE",
+      "source": "node-1WvHjkclwT-LUGdeuygzV",
+      "target": "node-aJTXstcrsINdov7yrH8cE",
+      "animated": true
+    },
+    {
+      "id": "edge-node-aJTXstcrsINdov7yrH8cE-node-f7-umBvAzDZxHtHgJMCj6",
+      "source": "node-aJTXstcrsINdov7yrH8cE",
+      "target": "node-f7-umBvAzDZxHtHgJMCj6",
+      "animated": true
+    },
+    {
+      "id": "edge-node-f7-umBvAzDZxHtHgJMCj6-node-xgw2ux-2Poml1fjWxjFsu",
+      "source": "node-f7-umBvAzDZxHtHgJMCj6",
+      "target": "node-xgw2ux-2Poml1fjWxjFsu",
+      "animated": true
+    },
+    {
+      "id": "edge-node-xgw2ux-2Poml1fjWxjFsu-node-GpaI2IDHDOZjyT3AZMbYD",
+      "source": "node-xgw2ux-2Poml1fjWxjFsu",
+      "target": "node-GpaI2IDHDOZjyT3AZMbYD",
+      "animated": true
+    },
+    {
+      "id": "edge-node-GpaI2IDHDOZjyT3AZMbYD-node-51NlCt5pvWNfa70WaE2M4",
+      "source": "node-GpaI2IDHDOZjyT3AZMbYD",
+      "target": "node-51NlCt5pvWNfa70WaE2M4",
+      "animated": true
+    },
+    {
+      "id": "edge-node-51NlCt5pvWNfa70WaE2M4-node-JU8Ff3DSCn_db0K7-P-Op",
+      "source": "node-51NlCt5pvWNfa70WaE2M4",
+      "target": "node-JU8Ff3DSCn_db0K7-P-Op",
+      "animated": true
+    },
+    {
+      "id": "edge-node-JU8Ff3DSCn_db0K7-P-Op-node-o1rSXBsjhD-sN0FdOK_dm",
+      "source": "node-JU8Ff3DSCn_db0K7-P-Op",
+      "target": "node-o1rSXBsjhD-sN0FdOK_dm",
+      "animated": true
+    },
+    {
+      "id": "edge-node-o1rSXBsjhD-sN0FdOK_dm-node-3P9p18a9EjbjjMtzpoVRN",
+      "source": "node-o1rSXBsjhD-sN0FdOK_dm",
+      "target": "node-3P9p18a9EjbjjMtzpoVRN",
+      "animated": true
+    },
+    {
+      "id": "edge-node-3P9p18a9EjbjjMtzpoVRN-node-nOIijMH-3TvcO1KL6qzwf",
+      "source": "node-3P9p18a9EjbjjMtzpoVRN",
+      "target": "node-nOIijMH-3TvcO1KL6qzwf",
+      "animated": true
+    },
+    {
+      "id": "edge-node-nOIijMH-3TvcO1KL6qzwf-node-ksKI4TDz4_9IcmNORczWo",
+      "source": "node-nOIijMH-3TvcO1KL6qzwf",
+      "target": "node-ksKI4TDz4_9IcmNORczWo",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ksKI4TDz4_9IcmNORczWo-node-SS7JmTrySRmRlzInvRJxw",
+      "source": "node-ksKI4TDz4_9IcmNORczWo",
+      "target": "node-SS7JmTrySRmRlzInvRJxw",
+      "animated": true
+    },
+    {
+      "id": "edge-node-SS7JmTrySRmRlzInvRJxw-node-LKn40uz56vYrPnLG3I-CY",
+      "source": "node-SS7JmTrySRmRlzInvRJxw",
+      "target": "node-LKn40uz56vYrPnLG3I-CY",
+      "animated": true
+    },
+    {
+      "id": "edge-node-LKn40uz56vYrPnLG3I-CY-node-P_wR4dwto2NKrvTRbdBIX",
+      "source": "node-LKn40uz56vYrPnLG3I-CY",
+      "target": "node-P_wR4dwto2NKrvTRbdBIX",
+      "animated": true
+    },
+    {
+      "id": "edge-node-P_wR4dwto2NKrvTRbdBIX-node-mWc4HuNQACXGpJjEPa79j",
+      "source": "node-P_wR4dwto2NKrvTRbdBIX",
+      "target": "node-mWc4HuNQACXGpJjEPa79j",
+      "animated": true
+    },
+    {
+      "id": "edge-node-mWc4HuNQACXGpJjEPa79j-node-4gst44L8-ps9YFMHzucfN",
+      "source": "node-mWc4HuNQACXGpJjEPa79j",
+      "target": "node-4gst44L8-ps9YFMHzucfN",
+      "animated": true
+    },
+    {
+      "id": "edge-node-4gst44L8-ps9YFMHzucfN-node-nXRjahYSDqfEqY26yfLEt",
+      "source": "node-4gst44L8-ps9YFMHzucfN",
+      "target": "node-nXRjahYSDqfEqY26yfLEt",
+      "animated": true
+    },
+    {
+      "id": "edge-node-nXRjahYSDqfEqY26yfLEt-node-6vGbvRsmQgOpRh8JJ3RF_",
+      "source": "node-nXRjahYSDqfEqY26yfLEt",
+      "target": "node-6vGbvRsmQgOpRh8JJ3RF_",
+      "animated": true
+    },
+    {
+      "id": "edge-node-6vGbvRsmQgOpRh8JJ3RF_-node-IUsaaRxiuOn3y9uYbpsJ0",
+      "source": "node-6vGbvRsmQgOpRh8JJ3RF_",
+      "target": "node-IUsaaRxiuOn3y9uYbpsJ0",
+      "animated": true
+    }
+  ],
+  "topics": {
+    "aeovzlUV4oWwZCMcAoRVC": {
+      "id": "aeovzlUV4oWwZCMcAoRVC",
+      "slug": "abbr",
+      "title": "Abbreviation Element",
+      "description": "The `<abbr>` tag in HTML represents an abbreviation or acronym. It's useful for providing a full description of the abbreviated term when the user hovers over it, improving accessibility and clarity. The `title` attribute is used to specify the expanded form of the abbreviation.",
+      "resources": [
+        {
+          "id": "aeovzlUV4oWwZCMcAoRVC-res-1",
+          "type": "video",
+          "title": "HTML abbr tag",
+          "url": "https://www.youtube.com/watch?v=yN191Pkg4kg"
+        }
+      ]
+    },
+    "YHoag7UR40OeIVUjfhQg_": {
+      "id": "YHoag7UR40OeIVUjfhQg_",
+      "slug": "accessibility",
+      "title": "Accessibility",
+      "description": "Accessibility in HTML refers to the practice of designing and developing web content that is usable by people with disabilities. This involves ensuring that websites and web applications are perceivable, operable, understandable, and robust for individuals who may have visual, auditory, motor, or cognitive impairments, allowing them to access information and interact with the web effectively.",
+      "resources": [
+        {
+          "id": "YHoag7UR40OeIVUjfhQg_-res-1",
+          "type": "article",
+          "title": "HTML: A good basis for accessibility",
+          "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility/HTML"
+        },
+        {
+          "id": "YHoag7UR40OeIVUjfhQg_-res-2",
+          "type": "article",
+          "title": "HTML Accessibility: Programming with an Inclusive Perspective",
+          "url": "https://www.a11y-collective.com/blog/html-accessibility-programming-with-an-inclusive-perspective/"
+        },
+        {
+          "id": "YHoag7UR40OeIVUjfhQg_-res-3",
+          "type": "video",
+          "title": "Accessibility Savvy: Semantic HTML and Accessibility",
+          "url": "https://www.youtube.com/watch?v=qSNUi7pRmWg"
+        }
+      ]
+    },
+    "PGKWhfXEd3Iv0AIhL7y4_": {
+      "id": "PGKWhfXEd3Iv0AIhL7y4_",
+      "slug": "address",
+      "title": "Address Element",
+      "description": "The `<address>` element in HTML represents contact information for the author or owner of a document or article. This can include physical addresses, email addresses, phone numbers, and social media links. It's typically used within the `<footer>` of a page or section to provide contact details.",
+      "resources": [
+        {
+          "id": "PGKWhfXEd3Iv0AIhL7y4_-res-1",
+          "type": "video",
+          "title": "How do you display addresses in HTML?",
+          "url": "https://www.youtube.com/watch?v=P1OCt7x5zSA"
+        }
+      ]
+    },
+    "99wo0cNHe0sU63_aDBrxY": {
+      "id": "99wo0cNHe0sU63_aDBrxY",
+      "slug": "article",
+      "title": "Article Element",
+      "description": "The `<article>` element in HTML represents a self-contained composition in a document, page, application, or site. It is intended to independently distributable or reusable, for example, in syndication. This could be a forum post, a magazine or newspaper article, a blog entry, a user-submitted comment, or any other independent item of content.",
+      "resources": [
+        {
+          "id": "99wo0cNHe0sU63_aDBrxY-res-1",
+          "type": "video",
+          "title": "HTML article Tag Tutorial (Semantic Element): Easy Guide for Beginners",
+          "url": "https://www.youtube.com/watch?v=C7Sp70_TU40"
+        }
+      ]
+    },
+    "VahoGEC6I3jX1916MsmUY": {
+      "id": "VahoGEC6I3jX1916MsmUY",
+      "slug": "aside",
+      "title": "Aside Element",
+      "description": "The `<aside>` element in HTML represents a section of a page that is tangentially related to the main content. It's often used for sidebars, pull quotes, or other content that provides additional information or context but isn't essential to understanding the primary content. Think of it as content that can be removed without significantly impacting the user's comprehension of the main topic.",
+      "resources": [
+        {
+          "id": "VahoGEC6I3jX1916MsmUY-res-1",
+          "type": "video",
+          "title": "HTML aside Tag Tutorial (Semantic Element): Easy Guide for Beginners",
+          "url": "https://www.youtube.com/watch?v=2uKbSQ0mXGA"
+        }
+      ]
+    },
+    "k8FZPxFcDPVnXBONWUhME": {
+      "id": "k8FZPxFcDPVnXBONWUhME",
+      "slug": "audio",
+      "title": "Audio",
+      "description": "Audio on the web involves incorporating sound files into HTML documents. This allows users to listen to music, podcasts, or other audio content directly within a webpage. The HTML `<audio>` element is used to embed audio, providing attributes for controlling playback, displaying controls, and specifying multiple source files for browser compatibility.",
+      "resources": [
+        {
+          "id": "k8FZPxFcDPVnXBONWUhME-res-1",
+          "type": "video",
+          "title": "Learn HTML audio in 5 minutes!",
+          "url": "https://www.youtube.com/watch?v=uof_zYxtnp0"
+        }
+      ]
+    },
+    "efddQv5AZqvGmIyuYuCr7": {
+      "id": "efddQv5AZqvGmIyuYuCr7",
+      "slug": "b--strong",
+      "title": "b / strong",
+      "description": "The `<b>` and `<strong>` tags in HTML are used to make text appear bold. While both achieve a similar visual effect, the `<b>` tag is primarily for stylistic purposes, indicating text that should be visually distinguished without necessarily conveying importance. On the other hand, the `<strong>` tag signifies that the enclosed text has strong importance, seriousness, or urgency.",
+      "resources": [
+        {
+          "id": "efddQv5AZqvGmIyuYuCr7-res-1",
+          "type": "article",
+          "title": "b: Bring Attention To element",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/b"
+        },
+        {
+          "id": "efddQv5AZqvGmIyuYuCr7-res-2",
+          "type": "article",
+          "title": "strong: The Strong Importance element",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/strong"
+        }
+      ]
+    },
+    "MjGfRzhVZRxu545TbJ1AJ": {
+      "id": "MjGfRzhVZRxu545TbJ1AJ",
+      "slug": "basic-tags",
+      "title": "Basic HTML Tags",
+      "description": "HTML documents are structured using fundamental tags that define the document's content and structure. The `<!DOCTYPE html>` declaration informs the browser that the document is an HTML5 document. The `<html>` tag is the root element, encompassing all other HTML elements. Inside `<html>`, the `<head>` tag contains metadata about the document, such as the title and character set, while the `<body>` tag contains the visible content of the webpage. The `<meta>` tag provides metadata like character encoding (`charset=\"UTF-8\"`) to ensure proper text display.",
+      "resources": [
+        {
+          "id": "MjGfRzhVZRxu545TbJ1AJ-res-1",
+          "type": "article",
+          "title": "HTML Basic Tags: A Guide for Complete Beginners with Examples",
+          "url": "https://www.tutorialspoint.com/html/html_basic_tags.htm"
+        }
+      ]
+    },
+    "yEl77JIN5-ixN5Ay247qp": {
+      "id": "yEl77JIN5-ixN5Ay247qp",
+      "slug": "basics-of-seo",
+      "title": "Basics of SEO",
+      "description": "Search Engine Optimization (SEO) is the practice of improving a website to increase its visibility in search engine results pages (SERPs). This involves optimizing various elements of a website, such as its content, structure, and HTML code, to make it more appealing to search engines like Google. The goal is to rank higher in search results for relevant keywords, which can drive more organic traffic to the website.",
+      "resources": [
+        {
+          "id": "yEl77JIN5-ixN5Ay247qp-res-1",
+          "type": "article",
+          "title": "Search Engine Optimization (SEO) Starter Guide",
+          "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide"
+        },
+        {
+          "id": "yEl77JIN5-ixN5Ay247qp-res-2",
+          "type": "article",
+          "title": "What Is SEO?",
+          "url": "https://exposureninja.com/blog/what-is-seo/"
+        },
+        {
+          "id": "yEl77JIN5-ixN5Ay247qp-res-3",
+          "type": "article",
+          "title": "GEO (Generative Engine Optimization) vs SEO (Search Engine Optimization): What’s The Difference?",
+          "url": "https://writesonic.com/blog/geo-vs-seo"
+        },
+        {
+          "id": "yEl77JIN5-ixN5Ay247qp-res-4",
+          "type": "video",
+          "title": "SEO In 5 Minutes | What Is SEO And How Does It Work",
+          "url": "https://www.youtube.com/watch?v=MYE6T_gd7H0"
+        },
+        {
+          "id": "yEl77JIN5-ixN5Ay247qp-res-5",
+          "type": "video",
+          "title": "Why Generative Engine Optimisation (GEO) is the FUTURE of SEO",
+          "url": "https://www.youtube.com/watch?v=FoIc8LkSETo"
+        }
+      ]
+    },
+    "B-Bv4aY_tGgWakyT8TgEe": {
+      "id": "B-Bv4aY_tGgWakyT8TgEe",
+      "slug": "blockquote",
+      "title": "blockquote",
+      "description": "The `blockquote` element in HTML represents a section of text that is quoted from another source. It's used to indicate that the enclosed content is an extended quotation, often displayed with indentation or other visual cues to distinguish it from the surrounding text. The `cite` attribute can be used to specify the URL of the source document or message.",
+      "resources": [
+        {
+          "id": "B-Bv4aY_tGgWakyT8TgEe-res-1",
+          "type": "video",
+          "title": "The Blockquote and Quote Tags",
+          "url": "https://www.youtube.com/watch?v=SNEABGfkWhQ"
+        }
+      ]
+    },
+    "93tSk4RwWfkfOyaA7I9Gn": {
+      "id": "93tSk4RwWfkfOyaA7I9Gn",
+      "slug": "body",
+      "title": "Body Tag",
+      "description": "The `<body>` tag in HTML defines the main content of an HTML document. It contains all the visible elements of a webpage, such as text, images, links, tables, lists, and more. Think of it as the container for everything you actually see and interact with on a website.",
+      "resources": [
+        {
+          "id": "93tSk4RwWfkfOyaA7I9Gn-res-1",
+          "type": "article",
+          "title": "body HTML Document Body element",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/body"
+        }
+      ]
+    },
+    "cBKw3jiAvdXVwUryV1aJl": {
+      "id": "cBKw3jiAvdXVwUryV1aJl",
+      "slug": "br",
+      "title": "br Tag",
+      "description": "The `<br>` tag in HTML creates a line break within a text block. It's used to start a new line without creating a new paragraph, effectively forcing the text that follows to appear on the next line. It is an empty element, meaning it has no closing tag.",
+      "resources": [
+        {
+          "id": "cBKw3jiAvdXVwUryV1aJl-res-1",
+          "type": "article",
+          "title": "The Line Break element",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/br"
+        },
+        {
+          "id": "cBKw3jiAvdXVwUryV1aJl-res-2",
+          "type": "video",
+          "title": "hr & br tags in HTML",
+          "url": "https://www.youtube.com/watch?v=B1UCE3nfLww"
+        }
+      ]
+    },
+    "4gvPprSH7hRS4gtXNMcCF": {
+      "id": "4gvPprSH7hRS4gtXNMcCF",
+      "slug": "browsers",
+      "title": "Browsers",
+      "description": "Web browsers request and display websites by interpreting HTML, CSS, and JavaScript. Use rendering engines (Blink, Gecko) for display and JavaScript engines (V8) for code execution. Handle security, bookmarks, history, and user interactions for web navigation.",
+      "resources": [
+        {
+          "id": "4gvPprSH7hRS4gtXNMcCF-res-1",
+          "type": "article",
+          "title": "How Browsers Work",
+          "url": "https://www.ramotion.com/blog/what-is-web-browser/"
+        },
+        {
+          "id": "4gvPprSH7hRS4gtXNMcCF-res-2",
+          "type": "article",
+          "title": "Populating the Page: How Browsers Work",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/Performance/Guides/How_browsers_work"
+        },
+        {
+          "id": "4gvPprSH7hRS4gtXNMcCF-res-3",
+          "type": "video",
+          "title": "How Do Web Browsers Work?",
+          "url": "https://www.youtube.com/watch?v=5rLFYtXHo9s"
+        },
+        {
+          "id": "4gvPprSH7hRS4gtXNMcCF-res-4",
+          "type": "article",
+          "title": "Explore top posts about Browsers",
+          "url": "https://app.daily.dev/tags/browsers?ref=roadmapsh"
+        }
+      ]
+    },
+    "qXcn_AGcGWjT8GgjaW5WN": {
+      "id": "qXcn_AGcGWjT8GgjaW5WN",
+      "slug": "case-insensitivity",
+      "title": "Case Insensitivity",
+      "description": "HTML isn't picky about capitalization. You can write tags and attributes using uppercase, lowercase, or a mix of both. For example, `<html>`, `<HTML>`, and `<Html>` all work the same way. While browsers understand all these variations, it's generally considered good practice to stick to lowercase for better readability and consistency in your code.",
+      "resources": [
+        {
+          "id": "qXcn_AGcGWjT8GgjaW5WN-res-1",
+          "type": "article",
+          "title": "HTML Style Guide - Capitalization",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/HTML5/HTML5_notes"
+        },
+        {
+          "id": "qXcn_AGcGWjT8GgjaW5WN-res-2",
+          "type": "article",
+          "title": "HTML Case Sensitivity Explained",
+          "url": "https://www.w3schools.com/html/html5_syntax.asp"
+        },
+        {
+          "id": "qXcn_AGcGWjT8GgjaW5WN-res-3",
+          "type": "article",
+          "title": "What is Case Sensitivity in HTML?",
+          "url": "https://www.educative.io/answers/what-is-case-sensitivity-in-html"
+        }
+      ]
+    },
+    "PE_WoH4nbGAJSJT14Qli0": {
+      "id": "PE_WoH4nbGAJSJT14Qli0",
+      "slug": "cite",
+      "title": "The  Element",
+      "description": "The <cite> element in HTML is used to define the title of a creative work (e.g., a book, article, song, movie, painting, sculpture, etc.). It's typically used to provide a reference or citation for a source. The content inside the <cite> element is often rendered in italics by browsers, but this styling can be overridden with CSS.",
+      "resources": [
+        {
+          "id": "PE_WoH4nbGAJSJT14Qli0-res-1",
+          "type": "video",
+          "title": "How to set work title (cite tag) in HTML | HTML5 Tutorial",
+          "url": "https://www.youtube.com/watch?v=nCsUD4h1qC4"
+        }
+      ]
+    },
+    "R0mDuO5V5NJI8Yupc_i8i": {
+      "id": "R0mDuO5V5NJI8Yupc_i8i",
+      "slug": "class",
+      "title": "Class Attribute",
+      "description": "The `class` attribute in HTML is used to specify one or more class names for an HTML element. These class names can then be used by CSS and JavaScript to style and manipulate specific elements or groups of elements that share the same class. Essentially, it's a way to categorize and target elements for styling and scripting purposes.",
+      "resources": [
+        {
+          "id": "R0mDuO5V5NJI8Yupc_i8i-res-1",
+          "type": "article",
+          "title": "HTML class global attribute",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/class"
+        },
+        {
+          "id": "R0mDuO5V5NJI8Yupc_i8i-res-2",
+          "type": "article",
+          "title": "HTML Class",
+          "url": "https://www.codecademy.com/resources/docs/html/attributes/class"
+        },
+        {
+          "id": "R0mDuO5V5NJI8Yupc_i8i-res-3",
+          "type": "video",
+          "title": "HTML - Classes | W3Schools",
+          "url": "https://www.youtube.com/watch?v=tWIkDOJo0Ts"
+        }
+      ]
+    },
+    "9FAlTHlRj_DVjbpuiGRzD": {
+      "id": "9FAlTHlRj_DVjbpuiGRzD",
+      "slug": "csp",
+      "title": "Content Security Policy",
+      "description": "Content Security Policy (CSP) is a security standard introduced to prevent cross-site scripting (XSS), clickjacking, and other code injection attacks. It works by allowing you to define a whitelist of sources that the browser is permitted to load resources from. This helps to control the origins of scripts, stylesheets, images, and other assets, effectively reducing the attack surface of a web application.",
+      "resources": [
+        {
+          "id": "9FAlTHlRj_DVjbpuiGRzD-res-1",
+          "type": "article",
+          "title": "Content Security Policy (CSP)",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP"
+        },
+        {
+          "id": "9FAlTHlRj_DVjbpuiGRzD-res-2",
+          "type": "article",
+          "title": "Content Security Policy Cheat Sheet¶",
+          "url": "https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html"
+        },
+        {
+          "id": "9FAlTHlRj_DVjbpuiGRzD-res-3",
+          "type": "video",
+          "title": "Content Security Policy Explained",
+          "url": "https://www.youtube.com/watch?v=-LjPRzFR5f0"
+        }
+      ]
+    },
+    "fX71CXA26cUxY5WX_zABi": {
+      "id": "fX71CXA26cUxY5WX_zABi",
+      "slug": "css",
+      "title": "CSS",
+      "description": "CSS, or Cascading Style Sheets, is a language used to describe the look and formatting of a document written in HTML. It controls things like the layout, colors, fonts, and overall visual presentation of web pages, ensuring a consistent and appealing user experience across different devices and screen sizes.",
+      "resources": [
+        {
+          "id": "fX71CXA26cUxY5WX_zABi-res-1",
+          "type": "article",
+          "title": "HTML & CSS: design and build websites",
+          "url": "https://sites.math.duke.edu/courses/math_everywhere/assets/techRefs/HTML%20and%20CSS-%20Design%20and%20Build%20Websites_Jon%20Duckett_2011.pdf"
+        },
+        {
+          "id": "fX71CXA26cUxY5WX_zABi-res-2",
+          "type": "article",
+          "title": "Visit the Dedicated CSS Roadmap",
+          "url": "https://roadmap.sh/css"
+        },
+        {
+          "id": "fX71CXA26cUxY5WX_zABi-res-3",
+          "type": "article",
+          "title": "CSS MDN Docs",
+          "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/What_is_CSS"
+        },
+        {
+          "id": "fX71CXA26cUxY5WX_zABi-res-4",
+          "type": "article",
+          "title": "CSS | Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/CSS"
+        },
+        {
+          "id": "fX71CXA26cUxY5WX_zABi-res-5",
+          "type": "video",
+          "title": "CSS Tutorial – Full Course for Beginners",
+          "url": "https://www.youtube.com/watch?v=OXGznpKZ_sA"
+        }
+      ]
+    },
+    "7iDMmYQ-2Q6hrrFnUgRuP": {
+      "id": "7iDMmYQ-2Q6hrrFnUgRuP",
+      "slug": "data-attributes",
+      "title": "Data Attributes",
+      "description": "Data attributes are special attributes in HTML that allow you to store extra information directly within HTML elements. These attributes start with `data-` followed by a name of your choosing. They are primarily used to store custom data private to the page or application, meaning they are not intended for use by search engines or other external services. This data can then be accessed and used by JavaScript to enhance the functionality and interactivity of your web pages.",
+      "resources": [
+        {
+          "id": "7iDMmYQ-2Q6hrrFnUgRuP-res-1",
+          "type": "article",
+          "title": "Use data attributes",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/How_to/Use_data_attributes"
+        },
+        {
+          "id": "7iDMmYQ-2Q6hrrFnUgRuP-res-2",
+          "type": "article",
+          "title": "HTML Data Attributes Guide",
+          "url": "https://css-tricks.com/a-complete-guide-to-data-attributes/"
+        },
+        {
+          "id": "7iDMmYQ-2Q6hrrFnUgRuP-res-3",
+          "type": "video",
+          "title": "Using HTML5 Data Attributes in JavaScript and CSS Tutorial",
+          "url": "https://www.youtube.com/watch?v=cTe5vQAm2So"
+        }
+      ]
+    },
+    "pEcxDj3dSgAwxydwKWU7d": {
+      "id": "pEcxDj3dSgAwxydwKWU7d",
+      "slug": "definition-lists",
+      "title": "Definition Lists",
+      "description": "Definition lists in HTML are used to present terms and their corresponding definitions. They are structured using three main elements: `<dl>` (definition list), `<dt>` (definition term), and `<dd>` (definition description). The `<dl>` element acts as the container for the entire list, while each term is marked with `<dt>` and its associated description is enclosed within `<dd>`. This structure allows for a clear and organized presentation of terms and their meanings. @article@: The Description List element @article@: The Description Details element",
+      "resources": [
+        {
+          "id": "pEcxDj3dSgAwxydwKWU7d-res-1",
+          "type": "article",
+          "title": "d;\" The Description List element",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/dl"
+        },
+        {
+          "id": "pEcxDj3dSgAwxydwKWU7d-res-2",
+          "type": "article",
+          "title": "HTML dl Tag",
+          "url": "https://www.w3schools.com/tags/tag_dl.asp"
+        }
+      ]
+    },
+    "v3Uf4LTfCbyasNJ-2Vfj9": {
+      "id": "v3Uf4LTfCbyasNJ-2Vfj9",
+      "slug": "del",
+      "title": "del",
+      "description": "The `<del>` element in HTML represents text that has been deleted or removed from a document. Browsers typically render deleted text with a strikethrough, visually indicating that the content is no longer valid or accurate. This element is useful for showing edits and revisions in a clear and understandable way.",
+      "resources": [
+        {
+          "id": "v3Uf4LTfCbyasNJ-2Vfj9-res-1",
+          "type": "video",
+          "title": "Deleted Text in HTML (del Tag)",
+          "url": "https://www.youtube.com/watch?v=7TuyqBr0eH8"
+        }
+      ]
+    },
+    "jfC0Og9340AK7b3Fhp4WI": {
+      "id": "jfC0Og9340AK7b3Fhp4WI",
+      "slug": "dfn",
+      "title": "dfn",
+      "description": "The `<dfn>` element in HTML represents the defining instance of a term. It's used to indicate the specific location where a word or phrase is being defined for the first time within a document. Typically, the term being defined is included within the `<dfn>` tags, and often a definition or explanation of the term is provided nearby.",
+      "resources": [
+        {
+          "id": "jfC0Og9340AK7b3Fhp4WI-res-1",
+          "type": "video",
+          "title": "HTML dfn Tag",
+          "url": "https://www.youtube.com/watch?v=o6pKejnUN9s"
+        }
+      ]
+    },
+    "ihP3FIRMr8iQTdOja_CxV": {
+      "id": "ihP3FIRMr8iQTdOja_CxV",
+      "slug": "div",
+      "title": "div",
+      "description": "The `<div>` element is a generic container for flow content, which in simpler terms means it's a way to group together other HTML elements. It doesn't inherently represent anything specific on its own, but it's commonly used to structure and style sections of a webpage. It has no effect on the content or layout until styled in some way using CSS (e.g., styling is directly applied to it, or some kind of layout model like Flexbox is applied to its parent element).",
+      "resources": [
+        {
+          "id": "ihP3FIRMr8iQTdOja_CxV-res-1",
+          "type": "article",
+          "title": "HTML Div – What is a Div Tag and How to Style it with CSS",
+          "url": "https://www.freecodecamp.org/news/html-div-what-is-a-div-tag-and-how-to-style-it-with-css/"
+        },
+        {
+          "id": "ihP3FIRMr8iQTdOja_CxV-res-2",
+          "type": "video",
+          "title": "Learn HTML span & div in 4 minutes!",
+          "url": "https://www.youtube.com/watch?v=WbnCll6vvw4"
+        }
+      ]
+    },
+    "0Q41Bm_TZqsC7X-MH8uFe": {
+      "id": "0Q41Bm_TZqsC7X-MH8uFe",
+      "slug": "dns",
+      "title": "DNS",
+      "description": "DNS (Domain Name System) translates human-readable domain names into IP addresses through a global, decentralized server network. Enables easy internet navigation by converting names like [www.example.com](http://www.example.com) to numeric addresses browsers can connect to.",
+      "resources": [
+        {
+          "id": "0Q41Bm_TZqsC7X-MH8uFe-res-1",
+          "type": "article",
+          "title": "What is DNS?",
+          "url": "https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/"
+        },
+        {
+          "id": "0Q41Bm_TZqsC7X-MH8uFe-res-2",
+          "type": "article",
+          "title": "Mess with DNS - DNS Playground",
+          "url": "https://messwithdns.net/"
+        },
+        {
+          "id": "0Q41Bm_TZqsC7X-MH8uFe-res-3",
+          "type": "article",
+          "title": "How DNS works (comic)",
+          "url": "https://howdns.works/"
+        },
+        {
+          "id": "0Q41Bm_TZqsC7X-MH8uFe-res-4",
+          "type": "video",
+          "title": "DNS and How does it Work?",
+          "url": "https://www.youtube.com/watch?v=Wj0od2ag5sk"
+        },
+        {
+          "id": "0Q41Bm_TZqsC7X-MH8uFe-res-5",
+          "type": "article",
+          "title": "Explore top posts about DNS",
+          "url": "https://app.daily.dev/tags/dns?ref=roadmapsh"
+        }
+      ]
+    },
+    "VscH3rVqpX29vaKmdCMop": {
+      "id": "VscH3rVqpX29vaKmdCMop",
+      "slug": "doctype",
+      "title": "!DOCTYPE Declaration",
+      "description": "The `<!DOCTYPE>` declaration is an instruction to the web browser about the HTML version used to write the page. It's placed at the very top of an HTML document, before the `<html>` tag, and ensures that the browser renders the page in \"standards mode,\" following the correct specifications for that HTML version. Technically, It is not an HTML tag itself.",
+      "resources": [
+        {
+          "id": "VscH3rVqpX29vaKmdCMop-res-1",
+          "type": "article",
+          "title": "Doctype | DMN docs",
+          "url": "https://developer.mozilla.org/en-US/docs/Glossary/Doctype"
+        },
+        {
+          "id": "VscH3rVqpX29vaKmdCMop-res-2",
+          "type": "article",
+          "title": "What is the DOCTYPE Declaration in HTML?",
+          "url": "https://www.freecodecamp.org/news/what-is-the-doctype-declaration-in-html/"
+        },
+        {
+          "id": "VscH3rVqpX29vaKmdCMop-res-3",
+          "type": "video",
+          "title": "HTML DOCTYPE | Standards vs Quirks mode | HTML 5 Tutorial",
+          "url": "https://www.youtube.com/watch?v=G1MOlh5uJYE"
+        }
+      ]
+    },
+    "oRjacb1OqAlsP-YB16Nuy": {
+      "id": "oRjacb1OqAlsP-YB16Nuy",
+      "slug": "domain-names",
+      "title": "Domain name",
+      "description": "Domain names are human-friendly web addresses (e.g., [google.com](http://google.com)) substituting numerical IP addresses. Comprise second-level (\"google\") and top-level (\".com\") domains. Registered through registrars, essential for branding and online presence. DNS translates names to IP addresses for accessibility.",
+      "resources": [
+        {
+          "id": "oRjacb1OqAlsP-YB16Nuy-res-1",
+          "type": "article",
+          "title": "What is a Domain Name?",
+          "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_domain_name"
+        },
+        {
+          "id": "oRjacb1OqAlsP-YB16Nuy-res-2",
+          "type": "article",
+          "title": "What is a domain name? | Domain name vs. URL",
+          "url": "https://www.cloudflare.com/en-gb/learning/dns/glossary/what-is-a-domain-name/"
+        },
+        {
+          "id": "oRjacb1OqAlsP-YB16Nuy-res-3",
+          "type": "video",
+          "title": "What Is a Domain Name | Domain Names Explained",
+          "url": "https://www.youtube.com/watch?v=lMHzpBwPuG8"
+        }
+      ]
+    },
+    "UevJNi2HHNzpCAx7Icd0k": {
+      "id": "UevJNi2HHNzpCAx7Icd0k",
+      "slug": "embedding-media",
+      "title": "Embedding Media",
+      "description": "Embedding media in HTML involves integrating multimedia content like images, audio, and video directly into a webpage. This allows users to view or listen to these elements without having to download them separately or navigate to another site. HTML provides specific elements, such as `<img>`, `<audio>`, and `<video>`, to facilitate this embedding process, along with attributes to control their appearance and behavior.",
+      "resources": [
+        {
+          "id": "UevJNi2HHNzpCAx7Icd0k-res-1",
+          "type": "article",
+          "title": "Adding Media",
+          "url": "https://learn.shayhowe.com/html-css/adding-media/"
+        }
+      ]
+    },
+    "PhC4amuHcgxujOJisNsIr": {
+      "id": "PhC4amuHcgxujOJisNsIr",
+      "slug": "external-css",
+      "title": "External CSS",
+      "description": "External CSS involves creating separate files (with a `.css` extension) to hold all the styling rules for an HTML document. These CSS files are then linked to the HTML document using the `<link>` tag, allowing you to apply the same styles across multiple pages and keep your HTML code clean and organized. This approach promotes reusability and maintainability of your website's design.",
+      "resources": [
+        {
+          "id": "PhC4amuHcgxujOJisNsIr-res-1",
+          "type": "article",
+          "title": "Types of CSS: inline, external and internal definitions and differences explained",
+          "url": "https://www.hostinger.com/tutorials/difference-between-inline-external-and-internal-css"
+        },
+        {
+          "id": "PhC4amuHcgxujOJisNsIr-res-2",
+          "type": "video",
+          "title": "External Style Sheets | CSS",
+          "url": "https://www.youtube.com/watch?v=2P_LUPc2HrM"
+        }
+      ]
+    },
+    "-UlDLjC8VsrKB9yexMtlr": {
+      "id": "-UlDLjC8VsrKB9yexMtlr",
+      "slug": "file-uploads",
+      "title": "File Uploads",
+      "description": "File uploads allow users to send files from their computer to a web server. This is typically achieved through an HTML form that includes an `<input>` element with the `type` attribute set to \"file\". When the form is submitted, the selected file(s) are sent to the server for processing and storage.",
+      "resources": [
+        {
+          "id": "-UlDLjC8VsrKB9yexMtlr-res-1",
+          "type": "article",
+          "title": "Input type file",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/file"
+        },
+        {
+          "id": "-UlDLjC8VsrKB9yexMtlr-res-2",
+          "type": "article",
+          "title": "How to Upload Files with HTML",
+          "url": "https://www.freecodecamp.org/news/upload-files-with-html/"
+        },
+        {
+          "id": "-UlDLjC8VsrKB9yexMtlr-res-3",
+          "type": "video",
+          "title": "HTML File Uploads in 5 Minutes (Plus Some JavaScript Features)",
+          "url": "https://www.youtube.com/watch?v=iAxUpo0aJSk"
+        },
+        {
+          "id": "-UlDLjC8VsrKB9yexMtlr-res-4",
+          "type": "video",
+          "title": "Uploading Files to the Web with HTML",
+          "url": "https://www.youtube.com/watch?v=s2TTck1sj4s"
+        }
+      ]
+    },
+    "rjE1yjFZ6KBWXgXDRIZc1": {
+      "id": "rjE1yjFZ6KBWXgXDRIZc1",
+      "slug": "footer",
+      "title": "Footer",
+      "description": "The `<footer>` element in HTML represents a container for introductory content or navigation links that typically appear at the end of a section or document. It usually contains information about the author, copyright data, terms of use, contact information, related documents, and sometimes navigation. A footer is not necessarily restricted to the bottom of the page; it can be used within sections to denote the end of that specific content area.",
+      "resources": [
+        {
+          "id": "rjE1yjFZ6KBWXgXDRIZc1-res-1",
+          "type": "video",
+          "title": "Learn HTML headers & footers in 5 minutes! 🤯",
+          "url": "https://www.youtube.com/watch?v=JNFdCgmMkPk"
+        }
+      ]
+    },
+    "6NvYDlYYLZzf4IHXu0dWs": {
+      "id": "6NvYDlYYLZzf4IHXu0dWs",
+      "slug": "form-validation",
+      "title": "Form Validation",
+      "description": "Form validation is the process of checking if the information a user provides in a form is correct and complete before it's submitted. This ensures that the data received is accurate and meets the required format, preventing errors and improving data quality. It can involve checking for things like required fields, correct email addresses, valid date formats, and acceptable password strength.",
+      "resources": [
+        {
+          "id": "6NvYDlYYLZzf4IHXu0dWs-res-1",
+          "type": "article",
+          "title": "Client-side form validation",
+          "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation"
+        },
+        {
+          "id": "6NvYDlYYLZzf4IHXu0dWs-res-2",
+          "type": "article",
+          "title": "Using HTML form validation and the Constraint Validation API",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Constraint_validation"
+        },
+        {
+          "id": "6NvYDlYYLZzf4IHXu0dWs-res-3",
+          "type": "article",
+          "title": "HTML Form Validation: Techniques, Tips, and Tools",
+          "url": "https://www.dhiwise.com/post/html-form-validation-techniques-tips-and-tools"
+        }
+      ]
+    },
+    "Xy15NSxlS0QXYNzEvgocK": {
+      "id": "Xy15NSxlS0QXYNzEvgocK",
+      "slug": "frontend-development",
+      "title": "Frontend Development",
+      "description": "Frontend development is the practice of creating the user interface and user experience of a website or web application. It focuses on the parts of a website that users directly interact with, such as buttons, text, images, and navigation menus. Frontend developers use languages like HTML, CSS, and JavaScript to build these interactive elements and ensure they are visually appealing and function correctly across different devices and browsers.",
+      "resources": [
+        {
+          "id": "Xy15NSxlS0QXYNzEvgocK-res-1",
+          "type": "article",
+          "title": "Visit the dedicated Frontend Developer Roadmap",
+          "url": "https://roadmap.sh/frontend"
+        },
+        {
+          "id": "Xy15NSxlS0QXYNzEvgocK-res-2",
+          "type": "article",
+          "title": "https://www.coursera.org/articles/what-is-front-end-development",
+          "url": "https://www.coursera.org/articles/what-is-front-end-development"
+        },
+        {
+          "id": "Xy15NSxlS0QXYNzEvgocK-res-3",
+          "type": "video",
+          "title": "Frontend web development - a complete overview",
+          "url": "https://www.youtube.com/watch?v=WG5ikvJ2TKA"
+        },
+        {
+          "id": "Xy15NSxlS0QXYNzEvgocK-res-4",
+          "type": "video",
+          "title": "The Complete Frontend Developer Roadmap",
+          "url": "https://www.youtube.com/watch?v=Tef1e9FiSR0"
+        }
+      ]
+    },
+    "Wu3oW_gnjKTYV8QJHdNxi": {
+      "id": "Wu3oW_gnjKTYV8QJHdNxi",
+      "slug": "grouping-text",
+      "title": "Grouping Text",
+      "description": "`<div>` and `<span>` are HTML elements used to group other elements together. The `<div>` element is a block-level element, meaning it creates a distinct block on the page and typically starts on a new line. It's often used for larger structural groupings. The `<span>` element, on the other hand, is an inline element, meaning it flows within the surrounding text and doesn't create a new line. It's useful for styling or manipulating specific portions of text without disrupting the overall layout.",
+      "resources": [
+        {
+          "id": "Wu3oW_gnjKTYV8QJHdNxi-res-1",
+          "type": "article",
+          "title": "The Div element",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div"
+        },
+        {
+          "id": "Wu3oW_gnjKTYV8QJHdNxi-res-2",
+          "type": "article",
+          "title": "The Span element",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span"
+        },
+        {
+          "id": "Wu3oW_gnjKTYV8QJHdNxi-res-3",
+          "type": "article",
+          "title": "HTML Div vs Span - Differences",
+          "url": "https://www.freecodecamp.org/news/span-vs-div-html-tags-what-is-the-difference/"
+        }
+      ]
+    },
+    "AmIRWclu6IYViWHXnGA8U": {
+      "id": "AmIRWclu6IYViWHXnGA8U",
+      "slug": "h1-to-h6",
+      "title": "Headings",
+      "description": "Headings are used to define the titles and subtitles within a document. HTML provides six levels of headings, from `<h1>` (the most important and largest) to `<h6>` (the least important and smallest). They help structure content and improve readability by creating a clear hierarchy.",
+      "resources": [
+        {
+          "id": "AmIRWclu6IYViWHXnGA8U-res-1",
+          "type": "video",
+          "title": "HTML - Headings | W3Schools",
+          "url": "https://www.youtube.com/watch?v=9gHPpwq6IaY"
+        }
+      ]
+    },
+    "Ufgy4-kC2drCov4MqEhjy": {
+      "id": "Ufgy4-kC2drCov4MqEhjy",
+      "slug": "head",
+      "title": "head",
+      "description": "The `<head>` element in HTML acts as a container for metadata (data about data) about the HTML document. This metadata isn't displayed on the page itself, but it provides information like the document's title, character set, linked stylesheets, scripts, and other important configurations that help browsers and search engines understand and process the HTML document correctly.",
+      "resources": [
+        {
+          "id": "Ufgy4-kC2drCov4MqEhjy-res-1",
+          "type": "video",
+          "title": "Head Tag in HTML | An HTML5 Head Element Tutorial",
+          "url": "https://www.youtube.com/watch?v=QRvA8Mp-uME"
+        }
+      ]
+    },
+    "0AF0Xs2nWVZav9t5Eh9NX": {
+      "id": "0AF0Xs2nWVZav9t5Eh9NX",
+      "slug": "header",
+      "title": "Header",
+      "description": "The `<header>` element represents introductory content, typically containing a group of introductory or navigational aids. It might contain a heading, logo, search form, or other relevant content. It's used to define the top section of a document, article, or section.",
+      "resources": [
+        {
+          "id": "0AF0Xs2nWVZav9t5Eh9NX-res-1",
+          "type": "video",
+          "title": "Learn HTML headers & footers in 5 minutes!",
+          "url": "https://www.youtube.com/watch?v=JNFdCgmMkPk"
+        }
+      ]
+    },
+    "t9KmPbRh6pkfouPi1mBqJ": {
+      "id": "t9KmPbRh6pkfouPi1mBqJ",
+      "slug": "hosting",
+      "title": "Hosting",
+      "description": "Web hosting stores website files on servers, making sites accessible online. Types include shared (multiple sites per server) and dedicated (exclusive server) hosting. Providers offer additional services like email, domains, and security certificates. Critical for website performance and accessibility.",
+      "resources": [
+        {
+          "id": "t9KmPbRh6pkfouPi1mBqJ-res-1",
+          "type": "article",
+          "title": "What is Web Hosting?",
+          "url": "https://www.namecheap.com/guru-guides/what-is-web-hosting/"
+        },
+        {
+          "id": "t9KmPbRh6pkfouPi1mBqJ-res-2",
+          "type": "video",
+          "title": "Different Types of Web Hosting Explained",
+          "url": "https://www.youtube.com/watch?v=AXVZYzw8geg"
+        },
+        {
+          "id": "t9KmPbRh6pkfouPi1mBqJ-res-3",
+          "type": "video",
+          "title": "Where to Host a Fullstack Project on a Budget",
+          "url": "https://www.youtube.com/watch?v=Kx_1NYYJS7Q"
+        }
+      ]
+    },
+    "0CHn_ubTBRWgrYGy0moZh": {
+      "id": "0CHn_ubTBRWgrYGy0moZh",
+      "slug": "how-the-web-works",
+      "title": "How the web works",
+      "description": "The internet is a global network connecting computers and devices for information sharing. Enables browsing, email, streaming, and communication through interconnected systems. Acts as worldwide infrastructure facilitating access to online resources and services.",
+      "resources": [
+        {
+          "id": "0CHn_ubTBRWgrYGy0moZh-res-1",
+          "type": "article",
+          "title": "Introduction to the Internet",
+          "url": "https://roadmap.sh/guides/what-is-internet"
+        },
+        {
+          "id": "0CHn_ubTBRWgrYGy0moZh-res-2",
+          "type": "article",
+          "title": "How does the Internet Work?",
+          "url": "https://cs.fyi/guide/how-does-internet-work"
+        },
+        {
+          "id": "0CHn_ubTBRWgrYGy0moZh-res-3",
+          "type": "article",
+          "title": "How does the Internet work? | MDN Dcos",
+          "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/How_does_the_Internet_work"
+        },
+        {
+          "id": "0CHn_ubTBRWgrYGy0moZh-res-4",
+          "type": "video",
+          "title": "How the Internet Works in 5 Minutes",
+          "url": "https://www.youtube.com/watch?v=7_LPdttKXPc"
+        }
+      ]
+    },
+    "Bdu0_AcAADs7YiCaHte1g": {
+      "id": "Bdu0_AcAADs7YiCaHte1g",
+      "slug": "hr",
+      "title": "Horizontal Rule",
+      "description": "The `<hr>` tag in HTML creates a thematic break in an HTML page and is most often displayed as a horizontal rule. It's used to separate content visually, like dividing sections of text or indicating a change in topic. The `<hr>` tag is an empty element, meaning it doesn't have a closing tag.",
+      "resources": [
+        {
+          "id": "Bdu0_AcAADs7YiCaHte1g-res-1",
+          "type": "article",
+          "title": ": The Thematic Break (Horizontal Rule) element",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/hr"
+        },
+        {
+          "id": "Bdu0_AcAADs7YiCaHte1g-res-2",
+          "type": "video",
+          "title": "hr & br tags in HTML",
+          "url": "https://www.youtube.com/watch?v=B1UCE3nfLww"
+        }
+      ]
+    },
+    "-ME4w8Bm5krSH14Yno4E5": {
+      "id": "-ME4w8Bm5krSH14Yno4E5",
+      "slug": "html-comments",
+      "title": "HTML Comments",
+      "description": "Comments in HTML are notes that you can add to your code to explain what's going on, make reminders, or temporarily disable parts of your code. These comments are not displayed in the browser, so they're only visible when someone views the source code. To create a comment in HTML, you enclose your text within `<!--` and `-->`. Anything between these tags will be ignored by the browser.",
+      "resources": [
+        {
+          "id": "-ME4w8Bm5krSH14Yno4E5-res-1",
+          "type": "article",
+          "title": "Using HTML comments",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Comments"
+        },
+        {
+          "id": "-ME4w8Bm5krSH14Yno4E5-res-2",
+          "type": "video",
+          "title": "HTML - Comments - W3Schools.com",
+          "url": "https://www.youtube.com/watch?v=229HYq40vaA"
+        }
+      ]
+    },
+    "Ego3XwBDgqlXOj6jSNvpy": {
+      "id": "Ego3XwBDgqlXOj6jSNvpy",
+      "slug": "html-entities",
+      "title": "HTML Entities",
+      "description": "HTML entities are special codes used to represent reserved characters or characters that are difficult to type directly in HTML. They allow you to display characters like angle brackets (< and >), ampersands (&), and copyright symbols (©) that have special meanings in HTML or are not readily available on a standard keyboard. Using entities ensures that these characters are displayed correctly in a web browser.",
+      "resources": [
+        {
+          "id": "Ego3XwBDgqlXOj6jSNvpy-res-1",
+          "type": "article",
+          "title": "Entity | MDN docs",
+          "url": "https://developer.mozilla.org/en-US/docs/Glossary/Entity"
+        },
+        {
+          "id": "Ego3XwBDgqlXOj6jSNvpy-res-2",
+          "type": "article",
+          "title": "Character reference | MDN docs",
+          "url": "https://developer.mozilla.org/en-US/docs/Glossary/Character_reference"
+        },
+        {
+          "id": "Ego3XwBDgqlXOj6jSNvpy-res-3",
+          "type": "video",
+          "title": "What Are HTML Entities, and What Are Some Common Examples?",
+          "url": "https://www.youtube.com/watch?v=brTVRzirTGM"
+        }
+      ]
+    },
+    "b83npHc-R9M03hEGzA9Ha": {
+      "id": "b83npHc-R9M03hEGzA9Ha",
+      "slug": "html",
+      "title": "HTML",
+      "description": "HTML (HyperText Markup Language) is the standard markup language for creating web pages. It provides the structure of a webpage, defining elements like headings, paragraphs, images, and links using tags. Web browsers interpret these tags to display the content to users.",
+      "resources": [
+        {
+          "id": "b83npHc-R9M03hEGzA9Ha-res-1",
+          "type": "article",
+          "title": "HTML MDN Docs",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+        },
+        {
+          "id": "b83npHc-R9M03hEGzA9Ha-res-2",
+          "type": "article",
+          "title": "HTML | Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/HTML"
+        }
+      ]
+    },
+    "fP2cPskF9KzppZUhfyB8U": {
+      "id": "fP2cPskF9KzppZUhfyB8U",
+      "slug": "html",
+      "title": "HTML Element",
+      "description": "The `<html>` element is the root element of an HTML page. It tells the browser that this is an HTML document. All other HTML elements (except for the `<!DOCTYPE>` declaration) must be descendants of the `<html>` element.",
+      "resources": [
+        {
+          "id": "fP2cPskF9KzppZUhfyB8U-res-1",
+          "type": "article",
+          "title": "The HTML Document / Root element",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/html"
+        },
+        {
+          "id": "fP2cPskF9KzppZUhfyB8U-res-2",
+          "type": "article",
+          "title": "HTML Tag",
+          "url": "https://www.w3schools.com/tags/tag_html.asp"
+        }
+      ]
+    },
+    "9EGwQalXfVGpVcMpTeD4V": {
+      "id": "9EGwQalXfVGpVcMpTeD4V",
+      "slug": "i--em",
+      "title": "i / em",
+      "description": "The `<i>` and `<em>` tags in HTML are used to emphasize text. The `<i>` tag represents text that is set off from the normal prose, such as technical terms, foreign words, or thoughts. The `<em>` tag represents stress emphasis of its contents. While both may render similarly in browsers (often as italicized text), `<em>` has semantic meaning, indicating importance, whereas `<i>` is purely presentational.",
+      "resources": [
+        {
+          "id": "9EGwQalXfVGpVcMpTeD4V-res-1",
+          "type": "video",
+          "title": "Learn HTML em and i elements in 6 minutes",
+          "url": "https://m.youtube.com/watch?v=yhbzW3y_7KE"
+        }
+      ]
+    },
+    "PikSDs0EZ93RauZc_GDEw": {
+      "id": "PikSDs0EZ93RauZc_GDEw",
+      "slug": "id",
+      "title": "id Attribute",
+      "description": "The `id` attribute in HTML provides a unique identifier for an element within a document. This identifier allows you to target and manipulate that specific element using CSS styles, JavaScript code, or even link directly to it using fragment identifiers in URLs (e.g., `#section1`). Each `id` value should be unique within the entire HTML document to ensure proper functionality.",
+      "resources": [
+        {
+          "id": "PikSDs0EZ93RauZc_GDEw-res-1",
+          "type": "article",
+          "title": "HTML id global attribute",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/id"
+        },
+        {
+          "id": "PikSDs0EZ93RauZc_GDEw-res-2",
+          "type": "article",
+          "title": "HTML id",
+          "url": "https://www.codecademy.com/resources/docs/html/attributes/id"
+        },
+        {
+          "id": "PikSDs0EZ93RauZc_GDEw-res-3",
+          "type": "video",
+          "title": "HTML - Id | W3Schools",
+          "url": "https://www.youtube.com/watch?v=rZ0k516qZmc"
+        }
+      ]
+    },
+    "W0pWVr4cdxSan9Ceu5t7i": {
+      "id": "W0pWVr4cdxSan9Ceu5t7i",
+      "slug": "iframe",
+      "title": "iframe",
+      "description": "An `iframe` (Inline Frame) is an HTML element that allows you to embed another HTML document within the current HTML page. It essentially creates a window within your webpage where you can display content from a different source, such as another website, a video, or even another HTML file on your own server.",
+      "resources": [
+        {
+          "id": "W0pWVr4cdxSan9Ceu5t7i-res-1",
+          "type": "article",
+          "title": "What is an iframe, and how do you use it on your website?",
+          "url": "https://world.siteground.com/kb/what-is-iframe/"
+        },
+        {
+          "id": "W0pWVr4cdxSan9Ceu5t7i-res-2",
+          "type": "video",
+          "title": "Learn HTML iframes in 3 minutes",
+          "url": "https://www.youtube.com/watch?v=aRGdDy18qfY"
+        }
+      ]
+    },
+    "94HB2gvHgcEIeFQTlbVDu": {
+      "id": "94HB2gvHgcEIeFQTlbVDu",
+      "slug": "images",
+      "title": "Images",
+      "description": "Images are a way to display visual content on a webpage. They are added to HTML documents using the `<img>` tag, which links to an image file. Attributes like `src` (source), `alt` (alternative text), `width`, and `height` are used to specify the image's location, description, and dimensions.",
+      "resources": [
+        {
+          "id": "94HB2gvHgcEIeFQTlbVDu-res-1",
+          "type": "article",
+          "title": "HTML images",
+          "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images"
+        },
+        {
+          "id": "94HB2gvHgcEIeFQTlbVDu-res-2",
+          "type": "article",
+          "title": ": The Image Embed element",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/img"
+        },
+        {
+          "id": "94HB2gvHgcEIeFQTlbVDu-res-3",
+          "type": "video",
+          "title": "HTML - Images | W3Schools",
+          "url": "https://www.youtube.com/watch?v=FmoYRiepmOE"
+        }
+      ]
+    },
+    "f5O_U9dt0b73ZhLrWWz2L": {
+      "id": "f5O_U9dt0b73ZhLrWWz2L",
+      "slug": "img-vs-figure",
+      "title": "img vs. figure",
+      "description": "The `<img>` tag in HTML is used to embed a simple image directly into a webpage. It requires a `src` attribute to specify the image source. On the other hand, the `<figure>` element represents self-contained content, like an image, illustration, diagram, code snippet, etc., that is referenced as a single unit. It is typically used with the `<figcaption>` element to provide a caption for the figure.",
+      "resources": [
+        {
+          "id": "f5O_U9dt0b73ZhLrWWz2L-res-1",
+          "type": "article",
+          "title": "The Ultimate Guide to Using HTML Figure Elements",
+          "url": "https://www.dhiwise.com/post/the-ultimate-guide-to-using-html-figure-elements"
+        },
+        {
+          "id": "f5O_U9dt0b73ZhLrWWz2L-res-2",
+          "type": "video",
+          "title": "When to use image, figure and picture tag in html",
+          "url": "https://www.youtube.com/watch?v=Xn5_gDQFyJg"
+        }
+      ]
+    },
+    "5Ze6iqSnZLpQWnhUSGQOE": {
+      "id": "5Ze6iqSnZLpQWnhUSGQOE",
+      "slug": "including-javascript",
+      "title": "Including JavaScript",
+      "description": "JavaScript can be added to HTML documents to make web pages interactive. This is done by embedding the JavaScript code directly within the HTML or by linking to external JavaScript files. Embedding uses the `<script>` tag, while linking uses the `<script>` tag with the `src` attribute pointing to the JavaScript file.",
+      "resources": [
+        {
+          "id": "5Ze6iqSnZLpQWnhUSGQOE-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated JavaScript Roadmap",
+          "url": "https://roadmap.sh/javascript"
+        },
+        {
+          "id": "5Ze6iqSnZLpQWnhUSGQOE-res-2",
+          "type": "article",
+          "title": "Add JavaScript to your web page",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/How_to/Add_JavaScript_to_your_web_page"
+        },
+        {
+          "id": "5Ze6iqSnZLpQWnhUSGQOE-res-3",
+          "type": "video",
+          "title": "Link JavaScript to HTML: How to run your JavaScript code in the browser",
+          "url": "https://www.youtube.com/watch?v=821C5aJ3SLM"
+        }
+      ]
+    },
+    "ievbuvgPKo261hM-9F117": {
+      "id": "ievbuvgPKo261hM-9F117",
+      "slug": "inline-css",
+      "title": "Inline CSS",
+      "description": "Inline CSS involves applying styles directly to individual HTML elements using the `style` attribute. This method allows you to define specific visual properties for a single element, overriding any styles defined in external stylesheets or internal style blocks. It's useful for quick, element-specific styling, but can become difficult to manage for larger projects due to its lack of reusability and separation of concerns.",
+      "resources": [
+        {
+          "id": "ievbuvgPKo261hM-9F117-res-1",
+          "type": "article",
+          "title": "Inline Style in HTML – CSS Inline Styles",
+          "url": "https://www.freecodecamp.org/news/inline-style-in-html/"
+        },
+        {
+          "id": "ievbuvgPKo261hM-9F117-res-2",
+          "type": "video",
+          "title": "HTML & CSS for Absolute Beginners: Inline CSS and Internal stylesheets",
+          "url": "https://www.youtube.com/watch?v=5vf7rtzil9M"
+        }
+      ]
+    },
+    "G_hZBbIGOLn1-sh1jROL3": {
+      "id": "G_hZBbIGOLn1-sh1jROL3",
+      "slug": "ins",
+      "title": "ins Element",
+      "description": "The `<ins>` element in HTML represents text that has been inserted into a document. It's used to indicate additions or updates to content, often displayed with an underline to visually distinguish it from the original text. This element helps to clearly communicate revisions and modifications within a webpage.",
+      "resources": [
+        {
+          "id": "G_hZBbIGOLn1-sh1jROL3-res-1",
+          "type": "video",
+          "title": "Inserted Text in HTML (ins Tag)",
+          "url": "https://www.youtube.com/watch?v=fKWiyfOUs9M"
+        }
+      ]
+    },
+    "1uhThwxjHgXPu_i1__1eE": {
+      "id": "1uhThwxjHgXPu_i1__1eE",
+      "slug": "internal-css",
+      "title": "Internal CSS",
+      "description": "Internal CSS allows you to add styles directly within an HTML document using the `<style>` tag. This tag is typically placed inside the `<head>` section of your HTML file. Within the `<style>` tag, you can define CSS rules that apply to specific HTML elements on that page, controlling their appearance and layout.",
+      "resources": [
+        {
+          "id": "1uhThwxjHgXPu_i1__1eE-res-1",
+          "type": "article",
+          "title": "Types of CSS: inline, external and internal definitions and differences explained",
+          "url": "https://www.hostinger.com/tutorials/difference-between-inline-external-and-internal-css"
+        },
+        {
+          "id": "1uhThwxjHgXPu_i1__1eE-res-2",
+          "type": "video",
+          "title": "HTML & CSS for Absolute Beginners: Inline CSS and Internal stylesheets",
+          "url": "https://www.youtube.com/watch?v=5vf7rtzil9M"
+        }
+      ]
+    },
+    "JkLec2vSBMFAUc1Dzra-L": {
+      "id": "JkLec2vSBMFAUc1Dzra-L",
+      "slug": "introduction",
+      "title": "Introduction to HTML",
+      "description": "HTML, or HyperText Markup Language, is the standard language for creating web pages. It uses a system of tags to structure content, such as headings, paragraphs, images, and links, so that web browsers can display them correctly. These tags tell the browser how to present the text, images, and other forms of multimedia on a webpage.",
+      "resources": [
+        {
+          "id": "JkLec2vSBMFAUc1Dzra-L-res-1",
+          "type": "article",
+          "title": "HTML MDN Docs",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+        },
+        {
+          "id": "JkLec2vSBMFAUc1Dzra-L-res-2",
+          "type": "article",
+          "title": "What is HTML – Definition and Meaning of Hypertext Markup Language",
+          "url": "https://www.freecodecamp.org/news/what-is-html-definition-and-meaning/"
+        },
+        {
+          "id": "JkLec2vSBMFAUc1Dzra-L-res-3",
+          "type": "video",
+          "title": "HTML Tutorial for Beginners: HTML Crash Course",
+          "url": "https://www.youtube.com/watch?v=qz0aGYrrlhU"
+        }
+      ]
+    },
+    "F-9uI39S9oYVGA8hi7aZI": {
+      "id": "F-9uI39S9oYVGA8hi7aZI",
+      "slug": "javascript",
+      "title": "JavaScript",
+      "description": "JavaScript is a programming language primarily used to create interactive and dynamic effects within web browsers. It allows developers to implement complex features on web pages, updating content dynamically, controlling multimedia, animating images, and much more, enhancing the user experience beyond static HTML and CSS.",
+      "resources": [
+        {
+          "id": "F-9uI39S9oYVGA8hi7aZI-res-1",
+          "type": "article",
+          "title": "Visit the dedicated JavaScript Roadmap",
+          "url": "https://roadmap.sh/javascript"
+        },
+        {
+          "id": "F-9uI39S9oYVGA8hi7aZI-res-2",
+          "type": "article",
+          "title": "You Don't Know JS Yet (book series)",
+          "url": "https://github.com/getify/You-Dont-Know-JS"
+        },
+        {
+          "id": "F-9uI39S9oYVGA8hi7aZI-res-3",
+          "type": "article",
+          "title": "JavaScript MDN Docs",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+        },
+        {
+          "id": "F-9uI39S9oYVGA8hi7aZI-res-4",
+          "type": "article",
+          "title": "The Modern JavaScript Tutorial",
+          "url": "https://javascript.info/"
+        },
+        {
+          "id": "F-9uI39S9oYVGA8hi7aZI-res-5",
+          "type": "article",
+          "title": "Eloquent JavaScript textbook",
+          "url": "https://eloquentjavascript.net/"
+        },
+        {
+          "id": "F-9uI39S9oYVGA8hi7aZI-res-6",
+          "type": "video",
+          "title": "JavaScript Crash Course for Beginners",
+          "url": "https://www.youtube.com/watch?v=hdI2bqOjy3c"
+        }
+      ]
+    },
+    "9R5WYPxlChmz6bevJUwsT": {
+      "id": "9R5WYPxlChmz6bevJUwsT",
+      "slug": "labels-and-inputs",
+      "title": "Labels and Inputs",
+      "description": "Labels and inputs are fundamental building blocks for creating forms in HTML. Labels provide descriptive text that tells users what information is expected in a corresponding input field. Input elements, on the other hand, are the interactive controls where users can enter data, such as text, numbers, dates, or make selections from options. They work together to create a user-friendly and accessible form experience.",
+      "resources": [
+        {
+          "id": "9R5WYPxlChmz6bevJUwsT-res-1",
+          "type": "article",
+          "title": ": The HTML Input element",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input"
+        },
+        {
+          "id": "9R5WYPxlChmz6bevJUwsT-res-2",
+          "type": "article",
+          "title": "HTML Inputs and Labels: A Love Story",
+          "url": "https://css-tricks.com/html-inputs-and-labels-a-love-story/"
+        }
+      ]
+    },
+    "HxgDw9gh1vHiMIMyZW8H2": {
+      "id": "HxgDw9gh1vHiMIMyZW8H2",
+      "slug": "limitations",
+      "title": "HTML Form Constraints",
+      "description": "HTML form constraints are rules you set on form fields to control what kind of data users can enter. These constraints help ensure that the information submitted is valid and meets your requirements. For example, you can specify that a field is required, set a minimum or maximum length for text, or restrict the input to a specific data type like a number or email address. These limitations are defined using HTML attributes directly within the form elements.",
+      "resources": [
+        {
+          "id": "HxgDw9gh1vHiMIMyZW8H2-res-1",
+          "type": "article",
+          "title": "Using HTML form validation and the Constraint Validation API",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Constraint_validation"
+        },
+        {
+          "id": "HxgDw9gh1vHiMIMyZW8H2-res-2",
+          "type": "article",
+          "title": "The Definitive Guide to the Constraint Validation API",
+          "url": "https://dev.to/itxshakil/the-definitive-guide-to-the-constraint-validation-api-3l80"
+        }
+      ]
+    },
+    "wmAps9IeAvOxcqBqgUAXN": {
+      "id": "wmAps9IeAvOxcqBqgUAXN",
+      "slug": "links",
+      "title": "Links",
+      "description": "Links, also known as hyperlinks, are elements that connect one web resource to another. They allow users to navigate between different pages on the same website or to external websites. Links are created using the `<a>` (anchor) tag, and they can point to various types of resources, including HTML pages, images, documents, and more.",
+      "resources": [
+        {
+          "id": "wmAps9IeAvOxcqBqgUAXN-res-1",
+          "type": "video",
+          "title": "HTML a Tag Tutorial: Easy Guide for Beginners",
+          "url": "https://www.youtube.com/watch?v=J0jqBqFd7Ro"
+        }
+      ]
+    },
+    "oHbzYpFInyr5aKCe-NWkC": {
+      "id": "oHbzYpFInyr5aKCe-NWkC",
+      "slug": "lists-and-types",
+      "title": "Lists and Types",
+      "description": "Lists in HTML are used to present information in a structured and organized manner. There are primarily two main types: ordered lists (numbered) and unordered lists (bulleted). HTML also supports definition lists, which are used to display terms and their corresponding definitions. Each type of list uses specific HTML tags to define the list structure and its individual items.",
+      "resources": [
+        {
+          "id": "oHbzYpFInyr5aKCe-NWkC-res-1",
+          "type": "article",
+          "title": "HTML Lists",
+          "url": "https://www.w3schools.com/html/html_lists.asp"
+        },
+        {
+          "id": "oHbzYpFInyr5aKCe-NWkC-res-2",
+          "type": "video",
+          "title": "Learn HTML lists in 4 minutes 📋",
+          "url": "https://www.youtube.com/watch?v=-kXZvKxs9oA"
+        }
+      ]
+    },
+    "InNY2DPYlnZaeBG9X_sMI": {
+      "id": "InNY2DPYlnZaeBG9X_sMI",
+      "slug": "main",
+      "title": "Main Element",
+      "description": "The `<main>` element in HTML defines the primary content of a document's `<body>`. It should contain the central topic of the page, excluding any content that is repeated across multiple pages, such as navigation, headers, or footers. Using `<main>` helps improve accessibility and provides a clear structure for search engines and assistive technologies to understand the page's purpose.",
+      "resources": [
+        {
+          "id": "InNY2DPYlnZaeBG9X_sMI-res-1",
+          "type": "video",
+          "title": "HTML main Tag Tutorial (Semantic Element): Easy Guide for Beginners",
+          "url": "https://www.youtube.com/watch?v=ROahTJeu-Iw"
+        }
+      ]
+    },
+    "9S2IUUWVv_Q7ZfD7VqfhH": {
+      "id": "9S2IUUWVv_Q7ZfD7VqfhH",
+      "slug": "mark",
+      "title": "Mark Text",
+      "description": "The `<mark>` tag in HTML is used to highlight specific parts of text within a larger block of content. It's primarily intended to draw the reader's attention to these sections, often because they are relevant to the user's current activity or search query. The default styling usually renders the marked text with a yellow background, but this can be customized using CSS.",
+      "resources": [
+        {
+          "id": "9S2IUUWVv_Q7ZfD7VqfhH-res-1",
+          "type": "video",
+          "title": "Mark Tag Example HTML | Master When and How to Use Mark Tag properly!",
+          "url": "https://www.youtube.com/watch?v=uJc-UUgZ-UM"
+        }
+      ]
+    },
+    "ceAHMWQeaqURKWy628QBH": {
+      "id": "ceAHMWQeaqURKWy628QBH",
+      "slug": "meta",
+      "title": "Meta Tags",
+      "description": "Meta tags are HTML elements that provide metadata about a webpage. This data is not displayed on the page itself but is used by browsers, search engines, and other web services to understand the content and purpose of the page. They are placed within the `<head>` section of an HTML document and can specify information like character set, description, keywords, author, and viewport settings.",
+      "resources": [
+        {
+          "id": "ceAHMWQeaqURKWy628QBH-res-1",
+          "type": "article",
+          "title": "meta: The metadata element",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/meta"
+        },
+        {
+          "id": "ceAHMWQeaqURKWy628QBH-res-2",
+          "type": "article",
+          "title": "Meta elements | Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Meta_element"
+        },
+        {
+          "id": "ceAHMWQeaqURKWy628QBH-res-3",
+          "type": "video",
+          "title": "Learn HTML meta tags in 3 minutes",
+          "url": "https://www.youtube.com/watch?v=bi5bfH_gVWE"
+        }
+      ]
+    },
+    "4uKQubirOgXz9ZvfR9cWa": {
+      "id": "4uKQubirOgXz9ZvfR9cWa",
+      "slug": "nav",
+      "title": "Nav",
+      "description": "The `<nav>` element in HTML is used to define a section of a page that contains navigation links. It's intended for major navigational blocks, like a site's menu, a table of contents, or a set of breadcrumbs. Using `<nav>` helps structure your content and makes it more accessible to screen readers and search engines by clearly identifying navigation sections.",
+      "resources": [
+        {
+          "id": "4uKQubirOgXz9ZvfR9cWa-res-1",
+          "type": "video",
+          "title": "HTML nav Tag Tutorial (Semantic Element): Easy Guide for Beginners",
+          "url": "https://www.youtube.com/watch?v=FqDFwCQb4yI"
+        }
+      ]
+    },
+    "wDBnbKni0SamOqNhnp87B": {
+      "id": "wDBnbKni0SamOqNhnp87B",
+      "slug": "nested-lists",
+      "title": "Nested Lists in HTML",
+      "description": "Nested lists in HTML allow you to create lists within lists, forming a hierarchical structure. This is achieved by placing one list (either ordered `<ol>` or unordered `<ul>`) inside a list item `<li>` of another list. This creates a sub-list that is visually indented, helping to organize information into related categories and subcategories.",
+      "resources": [
+        {
+          "id": "wDBnbKni0SamOqNhnp87B-res-1",
+          "type": "article",
+          "title": "How to Create Nested Lists in HTML: A Simple Guide",
+          "url": "https://www.dhiwise.com/post/how-to-create-nested-lists-in-html-a-simple-guide"
+        }
+      ]
+    },
+    "ePOzN3Sh5tCYlAbsweWU0": {
+      "id": "ePOzN3Sh5tCYlAbsweWU0",
+      "slug": "ordered-lists",
+      "title": "Ordered Lists",
+      "description": "Ordered lists in HTML are used to display a series of items in a specific order. Each item in the list is typically numbered, allowing readers to easily follow a sequence or ranking. The `<ol>` tag is used to create an ordered list, and each list item is defined using the `<li>` tag.",
+      "resources": [
+        {
+          "id": "ePOzN3Sh5tCYlAbsweWU0-res-1",
+          "type": "article",
+          "title": "ol: HTML ordered list element",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/ol"
+        },
+        {
+          "id": "ePOzN3Sh5tCYlAbsweWU0-res-2",
+          "type": "article",
+          "title": "HTML Ordered Lists",
+          "url": "https://www.w3schools.com/html/html_lists_ordered.asp"
+        }
+      ]
+    },
+    "czmIvZYONFDxB2UNpT8U1": {
+      "id": "czmIvZYONFDxB2UNpT8U1",
+      "slug": "p",
+      "title": "p Tag",
+      "description": "The `<p>` tag in HTML defines a paragraph. Browsers automatically add a single blank line before and after each paragraph, creating a clear separation between blocks of text. It's a block-level element, meaning it occupies the full width available to it and starts on a new line.",
+      "resources": [
+        {
+          "id": "czmIvZYONFDxB2UNpT8U1-res-1",
+          "type": "video",
+          "title": "HTML - Paragraphs | W3Schools",
+          "url": "https://www.youtube.com/watch?v=qis4kAOThLw"
+        }
+      ]
+    },
+    "-2BvwJsqa5K8Tb8oSDUC8": {
+      "id": "-2BvwJsqa5K8Tb8oSDUC8",
+      "slug": "pre",
+      "title": "pre",
+      "description": "The `<pre>` tag in HTML represents preformatted text. Text inside a `<pre>` element is displayed in a fixed-width font, and it preserves both spaces and line breaks. This is useful for displaying code snippets, ASCII art, or any other text where formatting is important.",
+      "resources": [
+        {
+          "id": "-2BvwJsqa5K8Tb8oSDUC8-res-1",
+          "type": "article",
+          "title": "HTML Pre Tag",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/pre"
+        }
+      ]
+    },
+    "znqYy9Tgfpe-qakjRr7KU": {
+      "id": "znqYy9Tgfpe-qakjRr7KU",
+      "slug": "priority-hints",
+      "title": "Priority Hints",
+      "description": "Priority Hints in HTML allow developers to indicate the relative priority of fetching resources like images. This helps the browser decide which images to load first, potentially improving page load times and user experience by prioritizing content that is immediately visible or more important to the user. This is achieved using the `fetchpriority` attribute.",
+      "resources": [
+        {
+          "id": "znqYy9Tgfpe-qakjRr7KU-res-1",
+          "type": "article",
+          "title": "fetchpriority HTML attribute",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Attributes/fetchpriority"
+        }
+      ]
+    },
+    "Xprekf2SY1fevcR2P5gRw": {
+      "id": "Xprekf2SY1fevcR2P5gRw",
+      "slug": "q",
+      "title": "The  Element",
+      "description": "The <q> element in HTML represents a short, inline quotation. Browsers typically render this element with quotation marks around the content it contains. It's designed for brief quotes that fit within a paragraph, as opposed to longer, block-level quotations that would use the <blockquote> element.",
+      "resources": [
+        {
+          "id": "Xprekf2SY1fevcR2P5gRw-res-1",
+          "type": "video",
+          "title": "The Blockquote and Quote Tags",
+          "url": "https://www.youtube.com/watch?v=SNEABGfkWhQ"
+        }
+      ]
+    },
+    "Hx8mfbfkvRrBqLypE_NL3": {
+      "id": "Hx8mfbfkvRrBqLypE_NL3",
+      "slug": "s",
+      "title": "s",
+      "description": "The `<s>` element in HTML represents content that is no longer accurate or relevant. It indicates things that are no longer correct, accurate, or no longer relevant. Browsers typically render this element with a strikethrough, visually indicating the text has been removed or is no longer valid.",
+      "resources": [
+        {
+          "id": "Hx8mfbfkvRrBqLypE_NL3-res-1",
+          "type": "article",
+          "title": "HTML s Tag: How it Works with Examples",
+          "url": "https://flatcoding.com/tutorials/html/html-s-tag-how-it-works-with-examples/"
+        }
+      ]
+    },
+    "1WvHjkclwT-LUGdeuygzV": {
+      "id": "1WvHjkclwT-LUGdeuygzV",
+      "slug": "section",
+      "title": "Section Tag",
+      "description": "The `<section>` tag in HTML is used to define thematic groupings of content within a document. It's a way to organize related content together, like chapters, introductions, or news items. A section typically has a heading and can contain other HTML elements to structure the content within it.",
+      "resources": [
+        {
+          "id": "1WvHjkclwT-LUGdeuygzV-res-1",
+          "type": "video",
+          "title": "HTML section Tag Tutorial (Semantic Element): Easy Guide for Beginners",
+          "url": "https://www.youtube.com/watch?v=08b6OJbL3Cs"
+        }
+      ]
+    },
+    "aJTXstcrsINdov7yrH8cE": {
+      "id": "aJTXstcrsINdov7yrH8cE",
+      "slug": "semantic-markup",
+      "title": "Semantic Markup",
+      "description": "Semantic markup uses HTML tags to convey the meaning and structure of content, rather than just its appearance. This approach makes web pages more accessible to both humans and machines by providing context about the different parts of the content, such as headings, paragraphs, articles, and navigation menus. By using semantic elements, developers create more organized and understandable code, which improves search engine optimization and overall website usability.",
+      "resources": [
+        {
+          "id": "aJTXstcrsINdov7yrH8cE-res-1",
+          "type": "article",
+          "title": "Semantics",
+          "url": "https://developer.mozilla.org/en-US/docs/Glossary/Semantics"
+        },
+        {
+          "id": "aJTXstcrsINdov7yrH8cE-res-2",
+          "type": "article",
+          "title": "HTML Semantic Elements",
+          "url": "https://www.w3schools.com/html/html5_semantic_elements.asp"
+        },
+        {
+          "id": "aJTXstcrsINdov7yrH8cE-res-3",
+          "type": "video",
+          "title": "HTML & CSS for Absolute Beginners: Semantic HTML",
+          "url": "https://www.youtube.com/watch?v=YOsMJQfwqow"
+        }
+      ]
+    },
+    "f7-umBvAzDZxHtHgJMCj6": {
+      "id": "f7-umBvAzDZxHtHgJMCj6",
+      "slug": "span",
+      "title": "Span Element",
+      "description": "The `<span>` element is an inline container used to mark up a part of a text, or a part of a document. It is used to group elements for styling purposes or because they share attributes such as `lang` or `dir`. It doesn't inherently represent anything on its own, but becomes useful when combined with CSS or JavaScript to target specific sections of text.",
+      "resources": [
+        {
+          "id": "f7-umBvAzDZxHtHgJMCj6-res-1",
+          "type": "article",
+          "title": "Span HTML – How to Use the Span Tag with CSS",
+          "url": "https://www.freecodecamp.org/news/span-html-how-to-use-the-span-tag-with-css/"
+        },
+        {
+          "id": "f7-umBvAzDZxHtHgJMCj6-res-2",
+          "type": "video",
+          "title": "Learn HTML span & div in 4 minutes!",
+          "url": "https://www.youtube.com/watch?v=WbnCll6vvw4"
+        }
+      ]
+    },
+    "xgw2ux-2Poml1fjWxjFsu": {
+      "id": "xgw2ux-2Poml1fjWxjFsu",
+      "slug": "standard-attributes",
+      "title": "Standard Attributes",
+      "description": "Standard attributes are properties that can be used on almost all HTML elements to provide additional information or functionality. These attributes control things like element styling, identification, accessibility, and event handling, allowing you to modify how elements behave and interact within a webpage. They offer a consistent way to manage common element characteristics across different browsers and devices.",
+      "resources": [
+        {
+          "id": "xgw2ux-2Poml1fjWxjFsu-res-1",
+          "type": "article",
+          "title": "HTML Global Attributes",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes"
+        },
+        {
+          "id": "xgw2ux-2Poml1fjWxjFsu-res-2",
+          "type": "article",
+          "title": "HTML Attributes Reference",
+          "url": "https://www.w3schools.com/tags/ref_attributes.asp"
+        },
+        {
+          "id": "xgw2ux-2Poml1fjWxjFsu-res-3",
+          "type": "article",
+          "title": "Understanding HTML Attributes",
+          "url": "https://www.freecodecamp.org/news/html-attributes-and-how-to-use-them/"
+        }
+      ]
+    },
+    "GpaI2IDHDOZjyT3AZMbYD": {
+      "id": "GpaI2IDHDOZjyT3AZMbYD",
+      "slug": "style",
+      "title": "Style Attribute",
+      "description": "The `style` attribute in HTML allows you to apply CSS (Cascading Style Sheets) directly to individual HTML elements. It's used to define inline styles, overriding external stylesheets or default browser styles. You can set properties like color, font, size, and layout directly within the HTML tag.",
+      "resources": [
+        {
+          "id": "GpaI2IDHDOZjyT3AZMbYD-res-1",
+          "type": "article",
+          "title": "HTML style global attribute",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/style"
+        },
+        {
+          "id": "GpaI2IDHDOZjyT3AZMbYD-res-2",
+          "type": "article",
+          "title": "HTML style",
+          "url": "https://www.codecademy.com/resources/docs/html/attributes/style"
+        },
+        {
+          "id": "GpaI2IDHDOZjyT3AZMbYD-res-3",
+          "type": "video",
+          "title": "HTML Style Attribute | Mastering of Web development",
+          "url": "https://www.youtube.com/watch?v=zk97ve9JM6A"
+        }
+      ]
+    },
+    "51NlCt5pvWNfa70WaE2M4": {
+      "id": "51NlCt5pvWNfa70WaE2M4",
+      "slug": "styling-basics",
+      "title": "Styling Basics",
+      "description": "Styling Basics in HTML involves using CSS (Cascading Style Sheets) to control the visual presentation of HTML elements. This includes properties like colors, fonts, layout, and responsiveness, allowing you to customize the look and feel of your web pages beyond the default browser styles. By applying CSS rules, you can create visually appealing and user-friendly websites.",
+      "resources": [
+        {
+          "id": "51NlCt5pvWNfa70WaE2M4-res-1",
+          "type": "article",
+          "title": "Getting started with CSS",
+          "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Getting_started"
+        },
+        {
+          "id": "51NlCt5pvWNfa70WaE2M4-res-2",
+          "type": "article",
+          "title": "HTML and CSS – Inline Style, External Stylesheet, CSS Code Examples",
+          "url": "https://www.freecodecamp.org/news/html-and-css-inline-style-external-stylesheet-css-code-examples/"
+        },
+        {
+          "id": "51NlCt5pvWNfa70WaE2M4-res-3",
+          "type": "video",
+          "title": "CSS - How to add CSS to HTML | W3Schools",
+          "url": "https://www.youtube.com/watch?v=VSwaoQ3TFkQ"
+        }
+      ]
+    },
+    "JU8Ff3DSCn_db0K7-P-Op": {
+      "id": "JU8Ff3DSCn_db0K7-P-Op",
+      "slug": "sub",
+      "title": "Subscript Text",
+      "description": "The `<sub>` tag in HTML is used to display text as subscript. Subscript text appears slightly below the normal line of text and is typically rendered in a smaller font size. It's commonly used for mathematical formulas, chemical formulas, or footnotes.",
+      "resources": [
+        {
+          "id": "JU8Ff3DSCn_db0K7-P-Op-res-1",
+          "type": "video",
+          "title": "HTML sub Tag | HTML sup Tag",
+          "url": "https://www.youtube.com/watch?v=7GBTIHoWZko"
+        }
+      ]
+    },
+    "o1rSXBsjhD-sN0FdOK_dm": {
+      "id": "o1rSXBsjhD-sN0FdOK_dm",
+      "slug": "sup",
+      "title": "sup",
+      "description": "The `<sup>` tag in HTML is used to display text as superscript. Superscript text appears slightly above the normal line of text and is typically rendered in a smaller font size. It's commonly used for things like exponents, ordinal numbers (e.g., 1st, 2nd), and footnotes.",
+      "resources": [
+        {
+          "id": "o1rSXBsjhD-sN0FdOK_dm-res-1",
+          "type": "video",
+          "title": "HTML sub Tag | HTML sup Tag",
+          "url": "https://www.youtube.com/watch?v=7GBTIHoWZko"
+        }
+      ]
+    },
+    "3P9p18a9EjbjjMtzpoVRN": {
+      "id": "3P9p18a9EjbjjMtzpoVRN",
+      "slug": "table-tag",
+      "title": "HTML Table Tag",
+      "description": "The HTML `<table>` tag is used to create tables on web pages. It organizes data into rows and columns, similar to a spreadsheet. Within the `<table>` tag, you'll find tags like `<tr>` for table rows, `<th>` for table headers, and `<td>` for table data cells, which define the structure and content of the table.",
+      "resources": [
+        {
+          "id": "3P9p18a9EjbjjMtzpoVRN-res-1",
+          "type": "article",
+          "title": "HTML table basics",
+          "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_table_basics"
+        },
+        {
+          "id": "3P9p18a9EjbjjMtzpoVRN-res-2",
+          "type": "article",
+          "title": "HTML Table (With Examples)",
+          "url": "https://www.programiz.com/html/table"
+        },
+        {
+          "id": "3P9p18a9EjbjjMtzpoVRN-res-3",
+          "type": "video",
+          "title": "How to Create Tables in HTML",
+          "url": "https://www.youtube.com/watch?v=e23RA_Uo99o"
+        }
+      ]
+    },
+    "nOIijMH-3TvcO1KL6qzwf": {
+      "id": "nOIijMH-3TvcO1KL6qzwf",
+      "slug": "tags-and-attributes",
+      "title": "Tags and Attributes",
+      "description": "Tags and attributes are fundamental building blocks of HTML. Tags define the structure and content of a webpage, such as headings, paragraphs, and images. Attributes provide additional information about HTML elements, modifying their behavior or appearance, like specifying the source of an image or the destination of a link.",
+      "resources": [
+        {
+          "id": "nOIijMH-3TvcO1KL6qzwf-res-1",
+          "type": "article",
+          "title": "Tags | MDN docs",
+          "url": "https://developer.mozilla.org/en-US/docs/Glossary/Tag"
+        },
+        {
+          "id": "nOIijMH-3TvcO1KL6qzwf-res-2",
+          "type": "article",
+          "title": "Attributes | MDN docs",
+          "url": "https://developer.mozilla.org/en-US/docs/Glossary/Attribute"
+        },
+        {
+          "id": "nOIijMH-3TvcO1KL6qzwf-res-3",
+          "type": "video",
+          "title": "HTML - Tags | W3Schools",
+          "url": "https://www.youtube.com/watch?v=vIoO52MdZFE"
+        },
+        {
+          "id": "nOIijMH-3TvcO1KL6qzwf-res-4",
+          "type": "video",
+          "title": "HTML - Attributes | W3Schools",
+          "url": "https://www.youtube.com/watch?v=yMX901oVtn8"
+        }
+      ]
+    },
+    "ksKI4TDz4_9IcmNORczWo": {
+      "id": "ksKI4TDz4_9IcmNORczWo",
+      "slug": "textual-tags",
+      "title": "Textual Tags",
+      "description": "Textual tags in HTML are used to structure and format text content on a webpage. They define how text should appear, whether it's a paragraph, heading, emphasized word, or a quoted section. These tags provide semantic meaning to the text, helping browsers and search engines understand the content's organization and purpose.",
+      "resources": [
+        {
+          "id": "ksKI4TDz4_9IcmNORczWo-res-1",
+          "type": "article",
+          "title": "HTML Text Formatting Elements",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/text-level_semantics"
+        },
+        {
+          "id": "ksKI4TDz4_9IcmNORczWo-res-2",
+          "type": "article",
+          "title": "HTML Text Tags Overview",
+          "url": "https://www.w3schools.com/html/html_formatting.asp"
+        },
+        {
+          "id": "ksKI4TDz4_9IcmNORczWo-res-3",
+          "type": "article",
+          "title": "Semantic HTML for Text",
+          "url": "https://www.freecodecamp.org/news/semantic-html5-elements/"
+        }
+      ]
+    },
+    "SS7JmTrySRmRlzInvRJxw": {
+      "id": "SS7JmTrySRmRlzInvRJxw",
+      "slug": "title",
+      "title": "Title Tag",
+      "description": "The `<title>` tag in HTML defines the title of the HTML document. This title is displayed in the browser's title bar or tab, and it's also used for bookmarking pages and in search engine results. It's placed within the `<head>` section of the HTML document.",
+      "resources": [
+        {
+          "id": "SS7JmTrySRmRlzInvRJxw-res-1",
+          "type": "video",
+          "title": "HTML Title Tag Example | Step-by-Step Instructions and Real-World Example!",
+          "url": "https://www.youtube.com/watch?v=LaSOIf6dnzo"
+        }
+      ]
+    },
+    "LKn40uz56vYrPnLG3I-CY": {
+      "id": "LKn40uz56vYrPnLG3I-CY",
+      "slug": "unordered-lists",
+      "title": "Unordered Lists",
+      "description": "Unordered lists present items in a bulleted format, where the order of the items is not significant. They are used to group related content together without implying any specific sequence or priority. Each item in the list is typically marked with a bullet point, making it easy to visually distinguish and scan the list's contents.",
+      "resources": [
+        {
+          "id": "LKn40uz56vYrPnLG3I-CY-res-1",
+          "type": "article",
+          "title": "ul: The Unordered List element",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/ul"
+        },
+        {
+          "id": "LKn40uz56vYrPnLG3I-CY-res-2",
+          "type": "article",
+          "title": "HTML Unordered Lists",
+          "url": "https://www.w3schools.com/html/html_lists_unordered.asp"
+        }
+      ]
+    },
+    "P_wR4dwto2NKrvTRbdBIX": {
+      "id": "P_wR4dwto2NKrvTRbdBIX",
+      "slug": "using-forms",
+      "title": "Using Forms",
+      "description": "Forms in HTML are used to collect data from users. They provide a way for users to input information like text, passwords, and selections, and then submit that data to a server for processing. Forms are created using the `<form>` element, which contains various input elements like `<input>`, `<textarea>`, and `<select>` to define the different fields for user input.",
+      "resources": [
+        {
+          "id": "P_wR4dwto2NKrvTRbdBIX-res-1",
+          "type": "article",
+          "title": "Your first form",
+          "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Your_first_form"
+        },
+        {
+          "id": "P_wR4dwto2NKrvTRbdBIX-res-2",
+          "type": "video",
+          "title": "Learn HTML forms in 8 minutes 📝",
+          "url": "https://www.youtube.com/watch?v=2O8pkybH6po"
+        }
+      ]
+    },
+    "mWc4HuNQACXGpJjEPa79j": {
+      "id": "mWc4HuNQACXGpJjEPa79j",
+      "slug": "video",
+      "title": "Video",
+      "description": "The `<video>` element in HTML is used to embed video content directly into a webpage. It allows you to display video files, control playback, and provide options for users to interact with the video, such as pausing, playing, adjusting volume, and viewing in fullscreen. The element supports various video formats and attributes to customize the video's appearance and behavior.",
+      "resources": [
+        {
+          "id": "mWc4HuNQACXGpJjEPa79j-res-1",
+          "type": "course",
+          "title": "HTML & CSS - How to Embed a YouTube Video in Your Website",
+          "url": "https://www.youtube.com/watch?v=ly36kn0ug4k"
+        },
+        {
+          "id": "mWc4HuNQACXGpJjEPa79j-res-2",
+          "type": "article",
+          "title": "Learn HTML video in 4 minutes!",
+          "url": "https://www.youtube.com/watch?v=BAx2GaMW2qA"
+        }
+      ]
+    },
+    "4gst44L8-ps9YFMHzucfN": {
+      "id": "4gst44L8-ps9YFMHzucfN",
+      "slug": "what-are-markup-languages",
+      "title": "Markup Languages",
+      "description": "Markup languages are systems for annotating text in a way that makes it readable by both humans and computers. They use tags to define elements within a document, specifying how the text should be structured, formatted, and displayed. For example, HTML uses tags like `<p>` for paragraphs and `<h1>` for headings to structure web content, while XML uses custom tags to define data structures for various applications.",
+      "resources": [
+        {
+          "id": "4gst44L8-ps9YFMHzucfN-res-1",
+          "type": "article",
+          "title": "What Is a Markup Language?",
+          "url": "https://www.semrush.com/blog/markup-language/"
+        },
+        {
+          "id": "4gst44L8-ps9YFMHzucfN-res-2",
+          "type": "video",
+          "title": "Theory - Markup Languages",
+          "url": "https://www.youtube.com/watch?v=6PWOswN4lgg"
+        }
+      ]
+    },
+    "nXRjahYSDqfEqY26yfLEt": {
+      "id": "nXRjahYSDqfEqY26yfLEt",
+      "slug": "what-is-http",
+      "title": "What is HTTP?",
+      "description": "HTTP (Hypertext Transfer Protocol) enables browser-server communication through requests and responses. Stateless protocol using methods like GET and POST. HTTPS provides encrypted security. Newer versions (HTTP/2, HTTP/3) offer improved performance. Fundamental for web development understanding.",
+      "resources": [
+        {
+          "id": "nXRjahYSDqfEqY26yfLEt-res-1",
+          "type": "article",
+          "title": "Everything you need to know about HTTP",
+          "url": "https://cs.fyi/guide/http-in-depth"
+        },
+        {
+          "id": "nXRjahYSDqfEqY26yfLEt-res-2",
+          "type": "article",
+          "title": "What is HTTP?",
+          "url": "https://www.cloudflare.com/en-gb/learning/ddos/glossary/hypertext-transfer-protocol-http/"
+        },
+        {
+          "id": "nXRjahYSDqfEqY26yfLEt-res-3",
+          "type": "article",
+          "title": "How HTTPS Works",
+          "url": "https://howhttps.works/"
+        },
+        {
+          "id": "nXRjahYSDqfEqY26yfLEt-res-4",
+          "type": "article",
+          "title": "HTTP/3 Is Now a Standard: Why Use It and How to Get Started",
+          "url": "https://thenewstack.io/http-3-is-now-a-standard-why-use-it-and-how-to-get-started/"
+        }
+      ]
+    },
+    "6vGbvRsmQgOpRh8JJ3RF_": {
+      "id": "6vGbvRsmQgOpRh8JJ3RF_",
+      "slug": "what-is-seo",
+      "title": "Search Engine Optimization (SEO)",
+      "description": "Search Engine Optimization, or SEO, is the practice of improving your website to increase its visibility when people search for products or services related to your business in search engines like Google. The better visibility your pages have in search results, the more likely you are to garner attention and attract prospective and existing customers to your business. A related concept, Generative Engine Optimization (GEO), focuses on optimizing content for AI-powered search experiences, ensuring your information is accurately and effectively presented in AI-generated summaries and responses.",
+      "resources": [
+        {
+          "id": "6vGbvRsmQgOpRh8JJ3RF_-res-1",
+          "type": "article",
+          "title": "Search Engine Optimization (SEO) Starter Guide",
+          "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide"
+        },
+        {
+          "id": "6vGbvRsmQgOpRh8JJ3RF_-res-2",
+          "type": "article",
+          "title": "What Is SEO?",
+          "url": "https://exposureninja.com/blog/what-is-seo/"
+        },
+        {
+          "id": "6vGbvRsmQgOpRh8JJ3RF_-res-3",
+          "type": "article",
+          "title": "GEO (Generative Engine Optimization) vs SEO (Search Engine Optimization): What’s The Difference?",
+          "url": "https://writesonic.com/blog/geo-vs-seo"
+        },
+        {
+          "id": "6vGbvRsmQgOpRh8JJ3RF_-res-4",
+          "type": "video",
+          "title": "SEO In 5 Minutes | What Is SEO And How Does It Work",
+          "url": "https://www.youtube.com/watch?v=MYE6T_gd7H0"
+        },
+        {
+          "id": "6vGbvRsmQgOpRh8JJ3RF_-res-5",
+          "type": "video",
+          "title": "Why Generative Engine Optimisation (GEO) is the FUTURE of SEO",
+          "url": "https://www.youtube.com/watch?v=FoIc8LkSETo"
+        }
+      ]
+    },
+    "IUsaaRxiuOn3y9uYbpsJ0": {
+      "id": "IUsaaRxiuOn3y9uYbpsJ0",
+      "slug": "whitespaces",
+      "title": "Whitespaces",
+      "description": "Whitespaces in HTML refer to the spaces, tabs, and line breaks that are used to format the code. Browsers typically collapse multiple consecutive whitespaces into a single space when rendering the content. While using whitespaces can improve the readability of your HTML code, they generally don't affect how the page is displayed to the user.",
+      "resources": [
+        {
+          "id": "IUsaaRxiuOn3y9uYbpsJ0-res-1",
+          "type": "article",
+          "title": "Handling whitespace | DMN docs",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_text/Whitespace"
+        },
+        {
+          "id": "IUsaaRxiuOn3y9uYbpsJ0-res-2",
+          "type": "video",
+          "title": "Whitespace in HTML",
+          "url": "https://www.youtube.com/watch?v=XhItAZTTSR8"
+        }
+      ]
+    }
+  }
+}

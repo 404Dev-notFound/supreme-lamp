@@ -1,0 +1,1363 @@
+{
+  "slug": "backend-beginner",
+  "title": "Backend Beginner",
+  "description": "Comprehensive learning curriculum and mastery roadmap for backend-beginner.",
+  "category": "skill",
+  "level": "Intermediate",
+  "topicCount": 27,
+  "iconName": "Compass",
+  "nodes": [
+    {
+      "id": "node-qSAdfaGUfn8mtmDjHJi3z",
+      "label": "ACID",
+      "topicId": "qSAdfaGUfn8mtmDjHJi3z",
+      "level": 1,
+      "position": {
+        "x": 80,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-PY9G7KQy8bF6eIdr1ydHf",
+      "label": "Authentication",
+      "topicId": "PY9G7KQy8bF6eIdr1ydHf",
+      "level": 1,
+      "position": {
+        "x": 340,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-ELj8af7Mi38kUbaPJfCUR",
+      "label": "Caching",
+      "topicId": "ELj8af7Mi38kUbaPJfCUR",
+      "level": 1,
+      "position": {
+        "x": 600,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-NAGisfq2CgeK3SsuRjnMw",
+      "label": "Functional Testing",
+      "topicId": "NAGisfq2CgeK3SsuRjnMw",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-_I1E__wCIVrhjMk6IMieE",
+      "label": "Git",
+      "topicId": "_I1E__wCIVrhjMk6IMieE",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-ptD8EVqwFUYr4W5A_tABY",
+      "label": "GitHub",
+      "topicId": "ptD8EVqwFUYr4W5A_tABY",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-BdXbcz4-ar3XOX0wIKzBp",
+      "label": "Go",
+      "topicId": "BdXbcz4-ar3XOX0wIKzBp",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-index.md",
+      "label": "Index.md",
+      "topicId": "index.md",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-381Kw1IMRv7CJp-Uf--qd",
+      "label": "Integration Testing",
+      "topicId": "381Kw1IMRv7CJp-Uf--qd",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-8-lO-v6jCYYoklEJXULxN",
+      "label": "JavaScript",
+      "topicId": "8-lO-v6jCYYoklEJXULxN",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-sNceS4MpSIjRkWhNDmrFg",
+      "label": "JSON APIs",
+      "topicId": "sNceS4MpSIjRkWhNDmrFg",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-UxS_mzVUjLigEwKrXnEeB",
+      "label": "JWT",
+      "topicId": "UxS_mzVUjLigEwKrXnEeB",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-EwvLPSI6AlZ4TnNIJTZA4",
+      "label": "APIs",
+      "topicId": "EwvLPSI6AlZ4TnNIJTZA4",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-LJt27onEOeIBomiEMTyKd",
+      "label": "Databases",
+      "topicId": "LJt27onEOeIBomiEMTyKd",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-bQnOAu863hsHdyNMNyJop",
+      "label": "N plus one problem",
+      "topicId": "bQnOAu863hsHdyNMNyJop",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-Z7jp_Juj5PffSxV7UZcBb",
+      "label": "ORMs",
+      "topicId": "Z7jp_Juj5PffSxV7UZcBb",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-2f0ZO6GJElfZ2Eis28Hzg",
+      "label": "Learn a Language",
+      "topicId": "2f0ZO6GJElfZ2Eis28Hzg",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-FihTrMO56kj9jT8O_pO2T",
+      "label": "PostgreSQL",
+      "topicId": "FihTrMO56kj9jT8O_pO2T",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-J_sVHsD72Yzyqb9KCIvAY",
+      "label": "Python",
+      "topicId": "J_sVHsD72Yzyqb9KCIvAY",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-g8GjkJAhvnSxXTZks0V1g",
+      "label": "Redis",
+      "topicId": "g8GjkJAhvnSxXTZks0V1g",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-r45b461NxLN6wBODJ5CNP",
+      "label": "Relational Databases",
+      "topicId": "r45b461NxLN6wBODJ5CNP",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-NvUcSDWBhzJZ31nzT4UlE",
+      "label": "Repo Hosting Services",
+      "topicId": "NvUcSDWBhzJZ31nzT4UlE",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-lfNFDZZNdrB0lbEaMtU71",
+      "label": "REST",
+      "topicId": "lfNFDZZNdrB0lbEaMtU71",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-STQQbPa7PE3gbjMdL6P-t",
+      "label": "Testing",
+      "topicId": "STQQbPa7PE3gbjMdL6P-t",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-rq_y_OBMD9AH_4aoecvAi",
+      "label": "Transactions",
+      "topicId": "rq_y_OBMD9AH_4aoecvAi",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-3OYm6b9f6WOrKi4KTOZYK",
+      "label": "Unit Testing",
+      "topicId": "3OYm6b9f6WOrKi4KTOZYK",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-ezdqQW9wTUw93F6kjOzku",
+      "label": "Version Control Systems",
+      "topicId": "ezdqQW9wTUw93F6kjOzku",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1360
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-node-qSAdfaGUfn8mtmDjHJi3z-node-PY9G7KQy8bF6eIdr1ydHf",
+      "source": "node-qSAdfaGUfn8mtmDjHJi3z",
+      "target": "node-PY9G7KQy8bF6eIdr1ydHf",
+      "animated": true
+    },
+    {
+      "id": "edge-node-PY9G7KQy8bF6eIdr1ydHf-node-ELj8af7Mi38kUbaPJfCUR",
+      "source": "node-PY9G7KQy8bF6eIdr1ydHf",
+      "target": "node-ELj8af7Mi38kUbaPJfCUR",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ELj8af7Mi38kUbaPJfCUR-node-NAGisfq2CgeK3SsuRjnMw",
+      "source": "node-ELj8af7Mi38kUbaPJfCUR",
+      "target": "node-NAGisfq2CgeK3SsuRjnMw",
+      "animated": true
+    },
+    {
+      "id": "edge-node-NAGisfq2CgeK3SsuRjnMw-node-_I1E__wCIVrhjMk6IMieE",
+      "source": "node-NAGisfq2CgeK3SsuRjnMw",
+      "target": "node-_I1E__wCIVrhjMk6IMieE",
+      "animated": true
+    },
+    {
+      "id": "edge-node-_I1E__wCIVrhjMk6IMieE-node-ptD8EVqwFUYr4W5A_tABY",
+      "source": "node-_I1E__wCIVrhjMk6IMieE",
+      "target": "node-ptD8EVqwFUYr4W5A_tABY",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ptD8EVqwFUYr4W5A_tABY-node-BdXbcz4-ar3XOX0wIKzBp",
+      "source": "node-ptD8EVqwFUYr4W5A_tABY",
+      "target": "node-BdXbcz4-ar3XOX0wIKzBp",
+      "animated": true
+    },
+    {
+      "id": "edge-node-BdXbcz4-ar3XOX0wIKzBp-node-index.md",
+      "source": "node-BdXbcz4-ar3XOX0wIKzBp",
+      "target": "node-index.md",
+      "animated": true
+    },
+    {
+      "id": "edge-node-index.md-node-381Kw1IMRv7CJp-Uf--qd",
+      "source": "node-index.md",
+      "target": "node-381Kw1IMRv7CJp-Uf--qd",
+      "animated": true
+    },
+    {
+      "id": "edge-node-381Kw1IMRv7CJp-Uf--qd-node-8-lO-v6jCYYoklEJXULxN",
+      "source": "node-381Kw1IMRv7CJp-Uf--qd",
+      "target": "node-8-lO-v6jCYYoklEJXULxN",
+      "animated": true
+    },
+    {
+      "id": "edge-node-8-lO-v6jCYYoklEJXULxN-node-sNceS4MpSIjRkWhNDmrFg",
+      "source": "node-8-lO-v6jCYYoklEJXULxN",
+      "target": "node-sNceS4MpSIjRkWhNDmrFg",
+      "animated": true
+    },
+    {
+      "id": "edge-node-sNceS4MpSIjRkWhNDmrFg-node-UxS_mzVUjLigEwKrXnEeB",
+      "source": "node-sNceS4MpSIjRkWhNDmrFg",
+      "target": "node-UxS_mzVUjLigEwKrXnEeB",
+      "animated": true
+    },
+    {
+      "id": "edge-node-UxS_mzVUjLigEwKrXnEeB-node-EwvLPSI6AlZ4TnNIJTZA4",
+      "source": "node-UxS_mzVUjLigEwKrXnEeB",
+      "target": "node-EwvLPSI6AlZ4TnNIJTZA4",
+      "animated": true
+    },
+    {
+      "id": "edge-node-EwvLPSI6AlZ4TnNIJTZA4-node-LJt27onEOeIBomiEMTyKd",
+      "source": "node-EwvLPSI6AlZ4TnNIJTZA4",
+      "target": "node-LJt27onEOeIBomiEMTyKd",
+      "animated": true
+    },
+    {
+      "id": "edge-node-LJt27onEOeIBomiEMTyKd-node-bQnOAu863hsHdyNMNyJop",
+      "source": "node-LJt27onEOeIBomiEMTyKd",
+      "target": "node-bQnOAu863hsHdyNMNyJop",
+      "animated": true
+    },
+    {
+      "id": "edge-node-bQnOAu863hsHdyNMNyJop-node-Z7jp_Juj5PffSxV7UZcBb",
+      "source": "node-bQnOAu863hsHdyNMNyJop",
+      "target": "node-Z7jp_Juj5PffSxV7UZcBb",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Z7jp_Juj5PffSxV7UZcBb-node-2f0ZO6GJElfZ2Eis28Hzg",
+      "source": "node-Z7jp_Juj5PffSxV7UZcBb",
+      "target": "node-2f0ZO6GJElfZ2Eis28Hzg",
+      "animated": true
+    },
+    {
+      "id": "edge-node-2f0ZO6GJElfZ2Eis28Hzg-node-FihTrMO56kj9jT8O_pO2T",
+      "source": "node-2f0ZO6GJElfZ2Eis28Hzg",
+      "target": "node-FihTrMO56kj9jT8O_pO2T",
+      "animated": true
+    },
+    {
+      "id": "edge-node-FihTrMO56kj9jT8O_pO2T-node-J_sVHsD72Yzyqb9KCIvAY",
+      "source": "node-FihTrMO56kj9jT8O_pO2T",
+      "target": "node-J_sVHsD72Yzyqb9KCIvAY",
+      "animated": true
+    },
+    {
+      "id": "edge-node-J_sVHsD72Yzyqb9KCIvAY-node-g8GjkJAhvnSxXTZks0V1g",
+      "source": "node-J_sVHsD72Yzyqb9KCIvAY",
+      "target": "node-g8GjkJAhvnSxXTZks0V1g",
+      "animated": true
+    },
+    {
+      "id": "edge-node-g8GjkJAhvnSxXTZks0V1g-node-r45b461NxLN6wBODJ5CNP",
+      "source": "node-g8GjkJAhvnSxXTZks0V1g",
+      "target": "node-r45b461NxLN6wBODJ5CNP",
+      "animated": true
+    },
+    {
+      "id": "edge-node-r45b461NxLN6wBODJ5CNP-node-NvUcSDWBhzJZ31nzT4UlE",
+      "source": "node-r45b461NxLN6wBODJ5CNP",
+      "target": "node-NvUcSDWBhzJZ31nzT4UlE",
+      "animated": true
+    },
+    {
+      "id": "edge-node-NvUcSDWBhzJZ31nzT4UlE-node-lfNFDZZNdrB0lbEaMtU71",
+      "source": "node-NvUcSDWBhzJZ31nzT4UlE",
+      "target": "node-lfNFDZZNdrB0lbEaMtU71",
+      "animated": true
+    },
+    {
+      "id": "edge-node-lfNFDZZNdrB0lbEaMtU71-node-STQQbPa7PE3gbjMdL6P-t",
+      "source": "node-lfNFDZZNdrB0lbEaMtU71",
+      "target": "node-STQQbPa7PE3gbjMdL6P-t",
+      "animated": true
+    },
+    {
+      "id": "edge-node-STQQbPa7PE3gbjMdL6P-t-node-rq_y_OBMD9AH_4aoecvAi",
+      "source": "node-STQQbPa7PE3gbjMdL6P-t",
+      "target": "node-rq_y_OBMD9AH_4aoecvAi",
+      "animated": true
+    },
+    {
+      "id": "edge-node-rq_y_OBMD9AH_4aoecvAi-node-3OYm6b9f6WOrKi4KTOZYK",
+      "source": "node-rq_y_OBMD9AH_4aoecvAi",
+      "target": "node-3OYm6b9f6WOrKi4KTOZYK",
+      "animated": true
+    },
+    {
+      "id": "edge-node-3OYm6b9f6WOrKi4KTOZYK-node-ezdqQW9wTUw93F6kjOzku",
+      "source": "node-3OYm6b9f6WOrKi4KTOZYK",
+      "target": "node-ezdqQW9wTUw93F6kjOzku",
+      "animated": true
+    }
+  ],
+  "topics": {
+    "qSAdfaGUfn8mtmDjHJi3z": {
+      "id": "qSAdfaGUfn8mtmDjHJi3z",
+      "slug": "acid",
+      "title": "ACID",
+      "description": "ACID represents four database transaction properties: Atomicity (all-or-nothing execution), Consistency (valid state maintenance), Isolation (concurrent transaction separation), and Durability (permanent commit survival). These principles ensure reliable data processing and integrity in database systems, crucial for financial and e-commerce applications.",
+      "resources": [
+        {
+          "id": "qSAdfaGUfn8mtmDjHJi3z-res-1",
+          "type": "article",
+          "title": "What is ACID Compliant Database?",
+          "url": "https://retool.com/blog/whats-an-acid-compliant-database/"
+        },
+        {
+          "id": "qSAdfaGUfn8mtmDjHJi3z-res-2",
+          "type": "article",
+          "title": "What is ACID Compliance?: Atomicity, Consistency, Isolation",
+          "url": "https://fauna.com/blog/what-is-acid-compliance-atomicity-consistency-isolation"
+        },
+        {
+          "id": "qSAdfaGUfn8mtmDjHJi3z-res-3",
+          "type": "article",
+          "title": "A Beginner's Guide to ACID and Database Transactions",
+          "url": "https://vladmihalcea.com/a-beginners-guide-to-acid-and-database-transactions/"
+        },
+        {
+          "id": "qSAdfaGUfn8mtmDjHJi3z-res-4",
+          "type": "video",
+          "title": "ACID Explained: Atomic, Consistent, Isolated & Durable",
+          "url": "https://www.youtube.com/watch?v=yaQ5YMWkxq4"
+        },
+        {
+          "id": "qSAdfaGUfn8mtmDjHJi3z-res-5",
+          "type": "video",
+          "title": "ACID Transactions (Explained by Example)",
+          "url": "https://www.youtube.com/watch?v=pomxJOFVcQs"
+        }
+      ]
+    },
+    "PY9G7KQy8bF6eIdr1ydHf": {
+      "id": "PY9G7KQy8bF6eIdr1ydHf",
+      "slug": "authentication",
+      "title": "Authentication",
+      "description": "API authentication verifies client identity to ensure only authorized access to resources. Common methods include API keys, OAuth 2.0, JWT, and basic auth. It protects data, prevents unauthorized access, enables usage tracking, and provides granular control over API resources.",
+      "resources": [
+        {
+          "id": "PY9G7KQy8bF6eIdr1ydHf-res-1",
+          "type": "article",
+          "title": "Basic Authentication",
+          "url": "https://roadmap.sh/guides/basic-authentication"
+        },
+        {
+          "id": "PY9G7KQy8bF6eIdr1ydHf-res-2",
+          "type": "article",
+          "title": "Session Based Authentication",
+          "url": "https://roadmap.sh/guides/session-based-authentication"
+        },
+        {
+          "id": "PY9G7KQy8bF6eIdr1ydHf-res-3",
+          "type": "article",
+          "title": "Token Based Authentication",
+          "url": "https://roadmap.sh/guides/token-authentication"
+        },
+        {
+          "id": "PY9G7KQy8bF6eIdr1ydHf-res-4",
+          "type": "article",
+          "title": "JWT Authentication",
+          "url": "https://roadmap.sh/guides/jwt-authentication"
+        },
+        {
+          "id": "PY9G7KQy8bF6eIdr1ydHf-res-5",
+          "type": "article",
+          "title": "OAuth - Open Authorization",
+          "url": "https://roadmap.sh/guides/oauth"
+        },
+        {
+          "id": "PY9G7KQy8bF6eIdr1ydHf-res-6",
+          "type": "article",
+          "title": "SSO - Single Sign On",
+          "url": "https://roadmap.sh/guides/sso"
+        },
+        {
+          "id": "PY9G7KQy8bF6eIdr1ydHf-res-7",
+          "type": "article",
+          "title": "Explore top posts about Authentication",
+          "url": "https://app.daily.dev/tags/authentication?ref=roadmapsh"
+        }
+      ]
+    },
+    "ELj8af7Mi38kUbaPJfCUR": {
+      "id": "ELj8af7Mi38kUbaPJfCUR",
+      "slug": "caching",
+      "title": "Caching",
+      "description": "Caching stores frequently accessed data in faster locations to improve performance by reducing latency and server load. It operates at the browser, application, and database levels using strategies like LRU and time-based expiration. Balances speed gains with data consistency challenges.",
+      "resources": [
+        {
+          "id": "ELj8af7Mi38kUbaPJfCUR-res-1",
+          "type": "article",
+          "title": "What is Caching - AWS",
+          "url": "https://aws.amazon.com/caching/"
+        },
+        {
+          "id": "ELj8af7Mi38kUbaPJfCUR-res-2",
+          "type": "article",
+          "title": "Caching - Cloudflare",
+          "url": "https://www.cloudflare.com/learning/cdn/what-is-caching/"
+        },
+        {
+          "id": "ELj8af7Mi38kUbaPJfCUR-res-3",
+          "type": "article",
+          "title": "Caching Strategies and How to Choose the Right One",
+          "url": "https://codeahoy.com/2017/08/11/caching-strategies-and-how-to-choose-the-right-one/"
+        },
+        {
+          "id": "ELj8af7Mi38kUbaPJfCUR-res-4",
+          "type": "article",
+          "title": "Top Caching Strategies Explained",
+          "url": "https://blog.bytebytego.com/p/top-caching-strategies"
+        },
+        {
+          "id": "ELj8af7Mi38kUbaPJfCUR-res-5",
+          "type": "video",
+          "title": "Cache Systems Every Developer Should Know",
+          "url": "https://www.youtube.com/watch?v=dGAgxozNWFE"
+        },
+        {
+          "id": "ELj8af7Mi38kUbaPJfCUR-res-6",
+          "type": "video",
+          "title": "Caching Complete Tutorial for Beginners",
+          "url": "https://www.youtube.com/watch?v=1XJG34mewts"
+        }
+      ]
+    },
+    "NAGisfq2CgeK3SsuRjnMw": {
+      "id": "NAGisfq2CgeK3SsuRjnMw",
+      "slug": "functional-testing",
+      "title": "Functional Testing",
+      "description": "Functional testing ensures software meets functional requirements through black box testing. Testers provide input and compare expected vs actual output without understanding the source code. Contrasts with non-functional testing (performance, load, scalability).",
+      "resources": [
+        {
+          "id": "NAGisfq2CgeK3SsuRjnMw-res-1",
+          "type": "article",
+          "title": "What is Functional Testing?",
+          "url": "https://www.guru99.com/functional-testing.html"
+        },
+        {
+          "id": "NAGisfq2CgeK3SsuRjnMw-res-2",
+          "type": "article",
+          "title": "Functional Testing: What It Is and How to Do It Right",
+          "url": "https://www.atlassian.com/continuous-delivery/software-testing/functional-testing"
+        },
+        {
+          "id": "NAGisfq2CgeK3SsuRjnMw-res-3",
+          "type": "video",
+          "title": "unctional Testing vs Non-Functional Testing",
+          "url": "https://www.youtube.com/watch?v=NgQT7miTP9M"
+        },
+        {
+          "id": "NAGisfq2CgeK3SsuRjnMw-res-4",
+          "type": "video",
+          "title": "Software Testing Tutorial for Beginners",
+          "url": "https://www.youtube.com/watch?v=u6QfIXgjwGQ"
+        },
+        {
+          "id": "NAGisfq2CgeK3SsuRjnMw-res-5",
+          "type": "article",
+          "title": "Explore top posts about Testing",
+          "url": "https://app.daily.dev/tags/testing?ref=roadmapsh"
+        }
+      ]
+    },
+    "_I1E__wCIVrhjMk6IMieE": {
+      "id": "_I1E__wCIVrhjMk6IMieE",
+      "slug": "git",
+      "title": "Git",
+      "description": "Git is a distributed version control system used to track changes in source code during software development. It enables multiple developers to collaborate on a project by managing versions of code, allowing for branching, merging, and tracking of revisions. Git ensures that changes are recorded with a complete history, enabling rollback to previous versions if necessary. It supports distributed workflows, meaning each developer has a complete local copy of the project’s history, facilitating seamless collaboration, conflict resolution, and efficient management of code across different teams or environments.",
+      "resources": [
+        {
+          "id": "_I1E__wCIVrhjMk6IMieE-res-1",
+          "type": "article",
+          "title": "Visit Dedicated Git & GitHub Roadmap",
+          "url": "https://roadmap.sh/git-github"
+        },
+        {
+          "id": "_I1E__wCIVrhjMk6IMieE-res-2",
+          "type": "article",
+          "title": "Tutorial: Git for Absolutely Everyone",
+          "url": "https://thenewstack.io/tutorial-git-for-absolutely-everyone/"
+        },
+        {
+          "id": "_I1E__wCIVrhjMk6IMieE-res-3",
+          "type": "video",
+          "title": "Git & GitHub Crash Course For Beginners",
+          "url": "https://www.youtube.com/watch?v=SWYqp7iY_Tc"
+        },
+        {
+          "id": "_I1E__wCIVrhjMk6IMieE-res-4",
+          "type": "course",
+          "title": "Why use Git? (Interactive Lesson)",
+          "url": "https://inter-git.com/lessons/introduction"
+        }
+      ]
+    },
+    "ptD8EVqwFUYr4W5A_tABY": {
+      "id": "ptD8EVqwFUYr4W5A_tABY",
+      "slug": "github",
+      "title": "GitHub",
+      "description": "GitHub is a web-based platform built on top of Git that provides version control, collaboration tools, and project management features for software development. It enables developers to host Git repositories, collaborate on code through pull requests, and review and track changes. GitHub also offers additional features like issue tracking, continuous integration, automated workflows, and documentation hosting. With its social coding environment, GitHub fosters open-source contributions and team collaboration, making it a central hub for many software development projects.",
+      "resources": [
+        {
+          "id": "ptD8EVqwFUYr4W5A_tABY-res-1",
+          "type": "article",
+          "title": "Visit Dedicated Git & GitHub Roadmap",
+          "url": "https://roadmap.sh/git-github"
+        },
+        {
+          "id": "ptD8EVqwFUYr4W5A_tABY-res-2",
+          "type": "article",
+          "title": "GitHub",
+          "url": "https://github.com"
+        },
+        {
+          "id": "ptD8EVqwFUYr4W5A_tABY-res-3",
+          "type": "article",
+          "title": "GitHub Docs",
+          "url": "https://docs.github.com/en/get-started/quickstart"
+        },
+        {
+          "id": "ptD8EVqwFUYr4W5A_tABY-res-4",
+          "type": "article",
+          "title": "Comprehensive Guide to GitHub for Data Scientists",
+          "url": "https://towardsdatascience.com/comprehensive-guide-to-github-for-data-scientist-d3f71bd320da/?utm_source=roadmap&utm_medium=Referral&utm_campaign=TDS+roadmap+integration"
+        },
+        {
+          "id": "ptD8EVqwFUYr4W5A_tABY-res-5",
+          "type": "video",
+          "title": "What is GitHub?",
+          "url": "https://www.youtube.com/watch?v=w3jLJU7DT5E"
+        },
+        {
+          "id": "ptD8EVqwFUYr4W5A_tABY-res-6",
+          "type": "article",
+          "title": "Explore top posts about GitHub",
+          "url": "https://app.daily.dev/tags/github?ref=roadmapsh"
+        }
+      ]
+    },
+    "BdXbcz4-ar3XOX0wIKzBp": {
+      "id": "BdXbcz4-ar3XOX0wIKzBp",
+      "slug": "go",
+      "title": "Go",
+      "description": "Go (Golang) is Google's statically typed, compiled language combining efficiency with ease of use. Features built-in concurrency via goroutines and channels, simple syntax, fast compilation, and a comprehensive standard library. Popular for microservices, web servers, and cloud-native development.",
+      "resources": [
+        {
+          "id": "BdXbcz4-ar3XOX0wIKzBp-res-1",
+          "type": "article",
+          "title": "Visit Dedicated Go Roadmap",
+          "url": "https://roadmap.sh/golang"
+        },
+        {
+          "id": "BdXbcz4-ar3XOX0wIKzBp-res-2",
+          "type": "article",
+          "title": "Go Reference Documentation",
+          "url": "https://go.dev/doc/"
+        },
+        {
+          "id": "BdXbcz4-ar3XOX0wIKzBp-res-3",
+          "type": "article",
+          "title": "Go by Example - annotated example programs",
+          "url": "https://gobyexample.com/"
+        },
+        {
+          "id": "BdXbcz4-ar3XOX0wIKzBp-res-4",
+          "type": "article",
+          "title": "Go, the Programming Language of the Cloud",
+          "url": "https://thenewstack.io/go-the-programming-language-of-the-cloud/"
+        },
+        {
+          "id": "BdXbcz4-ar3XOX0wIKzBp-res-5",
+          "type": "video",
+          "title": "Go Programming – Golang Course with Bonus Projects",
+          "url": "https://www.youtube.com/watch?v=un6ZyFkqFKo"
+        },
+        {
+          "id": "BdXbcz4-ar3XOX0wIKzBp-res-6",
+          "type": "article",
+          "title": "Explore top posts about Golang",
+          "url": "https://app.daily.dev/tags/golang?ref=roadmapsh"
+        }
+      ]
+    },
+    "index.md": {
+      "id": "index.md",
+      "slug": "index.md",
+      "title": "Index.md",
+      "description": "Comprehensive guide and learning curriculum for Index.md.",
+      "resources": []
+    },
+    "381Kw1IMRv7CJp-Uf--qd": {
+      "id": "381Kw1IMRv7CJp-Uf--qd",
+      "slug": "integration-testing",
+      "title": "Integration Testing",
+      "description": "Integration testing verifies interactions between software components to ensure they work together correctly. Tests module communication via APIs, databases, and third-party services. Catches integration issues like data mismatches and protocol errors that unit tests miss.",
+      "resources": [
+        {
+          "id": "381Kw1IMRv7CJp-Uf--qd-res-1",
+          "type": "article",
+          "title": "Integration Testing",
+          "url": "https://www.guru99.com/integration-testing.html"
+        },
+        {
+          "id": "381Kw1IMRv7CJp-Uf--qd-res-2",
+          "type": "article",
+          "title": "How to Integrate and Test Your Tech Stack",
+          "url": "https://thenewstack.io/how-to-integrate-and-test-your-tech-stack/"
+        },
+        {
+          "id": "381Kw1IMRv7CJp-Uf--qd-res-3",
+          "type": "video",
+          "title": "What is Integration Testing?",
+          "url": "https://www.youtube.com/watch?v=kRD6PA6uxiY"
+        }
+      ]
+    },
+    "8-lO-v6jCYYoklEJXULxN": {
+      "id": "8-lO-v6jCYYoklEJXULxN",
+      "slug": "javascript",
+      "title": "JavaScript",
+      "description": "JavaScript is a versatile, high-level language for web interactivity and dynamic features. Runs client-side in browsers and server-side with Node.js for full-stack development. Supports multiple programming styles with a rich ecosystem of frameworks like React, Angular, and Vue.",
+      "resources": [
+        {
+          "id": "8-lO-v6jCYYoklEJXULxN-res-1",
+          "type": "article",
+          "title": "Visit Dedicated JavaScript Roadmap",
+          "url": "https://roadmap.sh/javascript"
+        },
+        {
+          "id": "8-lO-v6jCYYoklEJXULxN-res-2",
+          "type": "article",
+          "title": "JavaScript from Beginner to Professional",
+          "url": "https://www.gurukultti.org/admin/notice/javascript.pdf"
+        },
+        {
+          "id": "8-lO-v6jCYYoklEJXULxN-res-3",
+          "type": "article",
+          "title": "The Modern JavaScript Tutorial",
+          "url": "https://javascript.info/"
+        },
+        {
+          "id": "8-lO-v6jCYYoklEJXULxN-res-4",
+          "type": "article",
+          "title": "Build 30 Javascript projects in 30 days",
+          "url": "https://javascript30.com/"
+        },
+        {
+          "id": "8-lO-v6jCYYoklEJXULxN-res-5",
+          "type": "video",
+          "title": "JavaScript Crash Course For Beginners",
+          "url": "https://www.youtube.com/watch?v=hdI2bqOjy3c&t=4s"
+        }
+      ]
+    },
+    "sNceS4MpSIjRkWhNDmrFg": {
+      "id": "sNceS4MpSIjRkWhNDmrFg",
+      "slug": "json-apis",
+      "title": "JSON APIs",
+      "description": "JSON (JavaScript Object Notation) is an encoding scheme eliminating ad-hoc code for server communication. JSON API provides a standardized implementation for data stores and structures, including entity types, bundles, and fields with defined communication protocols.",
+      "resources": [
+        {
+          "id": "sNceS4MpSIjRkWhNDmrFg-res-1",
+          "type": "article",
+          "title": "JSON API",
+          "url": "https://jsonapi.org/"
+        },
+        {
+          "id": "sNceS4MpSIjRkWhNDmrFg-res-2",
+          "type": "article",
+          "title": "JSON API Recommendations and Best Practices",
+          "url": "https://jsonapi.org/recommendations/"
+        },
+        {
+          "id": "sNceS4MpSIjRkWhNDmrFg-res-3",
+          "type": "article",
+          "title": "JSON.org - Introducing JSON",
+          "url": "https://www.json.org/json-en.html"
+        },
+        {
+          "id": "sNceS4MpSIjRkWhNDmrFg-res-4",
+          "type": "article",
+          "title": "What is JSON API?",
+          "url": "https://medium.com/@niranjan.cs/what-is-json-api-3b824fba2788"
+        },
+        {
+          "id": "sNceS4MpSIjRkWhNDmrFg-res-5",
+          "type": "video",
+          "title": "JSON API: Explained in 4 minutes",
+          "url": "https://www.youtube.com/watch?v=N-4prIh7t38"
+        }
+      ]
+    },
+    "UxS_mzVUjLigEwKrXnEeB": {
+      "id": "UxS_mzVUjLigEwKrXnEeB",
+      "slug": "jwt",
+      "title": "JWT",
+      "description": "JWT (JSON Web Token) securely transmits information as JSON objects with three parts: header (token type/algorithm), payload (claims/data), and signature (integrity verification). Used for authentication and authorization in web/mobile apps. Compact, self-contained, and HTTP header-friendly.",
+      "resources": [
+        {
+          "id": "UxS_mzVUjLigEwKrXnEeB-res-1",
+          "type": "article",
+          "title": "jwt.io Website",
+          "url": "https://jwt.io/"
+        },
+        {
+          "id": "UxS_mzVUjLigEwKrXnEeB-res-2",
+          "type": "article",
+          "title": "What is JWT?",
+          "url": "https://www.akana.com/blog/what-is-jwt"
+        },
+        {
+          "id": "UxS_mzVUjLigEwKrXnEeB-res-3",
+          "type": "article",
+          "title": "JWT Security Best Practices",
+          "url": "https://curity.io/resources/learn/jwt-best-practices/"
+        },
+        {
+          "id": "UxS_mzVUjLigEwKrXnEeB-res-4",
+          "type": "video",
+          "title": "What Is JWT and Why Should You Use JWT",
+          "url": "https://www.youtube.com/watch?v=7Q17ubqLfaM"
+        },
+        {
+          "id": "UxS_mzVUjLigEwKrXnEeB-res-5",
+          "type": "article",
+          "title": "Explore top posts about JWT",
+          "url": "https://app.daily.dev/tags/jwt?ref=roadmapsh"
+        }
+      ]
+    },
+    "EwvLPSI6AlZ4TnNIJTZA4": {
+      "id": "EwvLPSI6AlZ4TnNIJTZA4",
+      "slug": "learn-about-apis",
+      "title": "APIs",
+      "description": "API (Application Programming Interface) defines rules and protocols for software applications to communicate. Provides standardized access to functionalities without understanding internal workings. Includes endpoints, request methods (GET, POST, PUT), and data formats (JSON, XML).",
+      "resources": [
+        {
+          "id": "EwvLPSI6AlZ4TnNIJTZA4-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated API Design Roadmap",
+          "url": "https://roadmap.sh/api-design"
+        },
+        {
+          "id": "EwvLPSI6AlZ4TnNIJTZA4-res-2",
+          "type": "article",
+          "title": "Visit the Dedicated API Security Best Practices",
+          "url": "https://roadmap.sh/api-security-best-practices"
+        },
+        {
+          "id": "EwvLPSI6AlZ4TnNIJTZA4-res-3",
+          "type": "article",
+          "title": "What is an API?",
+          "url": "https://aws.amazon.com/what-is/api/"
+        },
+        {
+          "id": "EwvLPSI6AlZ4TnNIJTZA4-res-4",
+          "type": "video",
+          "title": "What is an API (in 5 minutes)",
+          "url": "https://www.youtube.com/watch?v=ByGJQzlzxQg"
+        },
+        {
+          "id": "EwvLPSI6AlZ4TnNIJTZA4-res-5",
+          "type": "article",
+          "title": "daily.dev API Feed",
+          "url": "https://app.daily.dev/tags/rest-api"
+        }
+      ]
+    },
+    "LJt27onEOeIBomiEMTyKd": {
+      "id": "LJt27onEOeIBomiEMTyKd",
+      "slug": "more-about-databases",
+      "title": "Databases",
+      "description": "A database is a structured collection of useful data that serves as an organizational asset. A database management system (DBMS) is software designed to maintain and extract large data collections efficiently and timely.",
+      "resources": [
+        {
+          "id": "LJt27onEOeIBomiEMTyKd-res-1",
+          "type": "article",
+          "title": "Oracle: What is a Database?",
+          "url": "https://www.oracle.com/database/what-is-database/"
+        },
+        {
+          "id": "LJt27onEOeIBomiEMTyKd-res-2",
+          "type": "article",
+          "title": "Prisma.io: What are Databases?",
+          "url": "https://www.prisma.io/dataguide/intro/what-are-databases"
+        },
+        {
+          "id": "LJt27onEOeIBomiEMTyKd-res-3",
+          "type": "article",
+          "title": "Explore top posts about Backend Development",
+          "url": "https://app.daily.dev/tags/backend?ref=roadmapsh"
+        }
+      ]
+    },
+    "bQnOAu863hsHdyNMNyJop": {
+      "id": "bQnOAu863hsHdyNMNyJop",
+      "slug": "n1-problem",
+      "title": "N plus one problem",
+      "description": "The N+1 problem occurs when an application retrieves a list then performs additional queries for each item's related data. Results in inefficient query multiplication (1 + N queries instead of optimized joins). Severely impacts performance with larger datasets. Solved through query optimization, joins, or batching techniques.",
+      "resources": [
+        {
+          "id": "bQnOAu863hsHdyNMNyJop-res-1",
+          "type": "article",
+          "title": "In Detail Explanation of N+1 Problem",
+          "url": "https://medium.com/doctolib/understanding-and-fixing-n-1-query-30623109fe89"
+        },
+        {
+          "id": "bQnOAu863hsHdyNMNyJop-res-2",
+          "type": "article",
+          "title": "What is the N+1 Problem",
+          "url": "https://planetscale.com/blog/what-is-n-1-query-problem-and-how-to-solve-it"
+        },
+        {
+          "id": "bQnOAu863hsHdyNMNyJop-res-3",
+          "type": "article",
+          "title": "Solving N+1 Problem: For Java Backend Developers",
+          "url": "https://dev.to/jackynote/solving-the-notorious-n1-problem-optimizing-database-queries-for-java-backend-developers-2o0p"
+        },
+        {
+          "id": "bQnOAu863hsHdyNMNyJop-res-4",
+          "type": "video",
+          "title": "SQLite and the N+1 (no) problem",
+          "url": "https://www.youtube.com/watch?v=qPfAQY_RahA"
+        }
+      ]
+    },
+    "Z7jp_Juj5PffSxV7UZcBb": {
+      "id": "Z7jp_Juj5PffSxV7UZcBb",
+      "slug": "orms",
+      "title": "ORMs",
+      "description": "ORM (Object-Relational Mapping) allows developers to interact with databases using object-oriented concepts. Maps database tables to classes and rows to objects, eliminating raw SQL queries. Simplifies data manipulation and improves maintainability. Popular ORMs: Hibernate (Java), Entity Framework (.NET), SQLAlchemy (Python).",
+      "resources": [
+        {
+          "id": "Z7jp_Juj5PffSxV7UZcBb-res-1",
+          "type": "article",
+          "title": "What is an ORM, how does it work, and how should I use one?",
+          "url": "https://stackoverflow.com/a/1279678"
+        },
+        {
+          "id": "Z7jp_Juj5PffSxV7UZcBb-res-2",
+          "type": "article",
+          "title": "What is an ORM",
+          "url": "https://www.freecodecamp.org/news/what-is-an-orm-the-meaning-of-object-relational-mapping-database-tools/"
+        },
+        {
+          "id": "Z7jp_Juj5PffSxV7UZcBb-res-3",
+          "type": "video",
+          "title": "Why Use an ORM?",
+          "url": "https://www.youtube.com/watch?v=vHt2LC1EM3Q"
+        },
+        {
+          "id": "Z7jp_Juj5PffSxV7UZcBb-res-4",
+          "type": "article",
+          "title": "Explore top posts about Backend Development",
+          "url": "https://app.daily.dev/tags/backend?ref=roadmapsh"
+        }
+      ]
+    },
+    "2f0ZO6GJElfZ2Eis28Hzg": {
+      "id": "2f0ZO6GJElfZ2Eis28Hzg",
+      "slug": "pick-a-language",
+      "title": "Learn a Language",
+      "description": "Web development divides into Frontend (HTML, CSS, JavaScript) and Backend Development. Backend uses server-side languages like Python, Java, or Node.js, complemented by databases, frameworks, and web servers for website functionality. Choose a language based on project needs and preferences.",
+      "resources": []
+    },
+    "FihTrMO56kj9jT8O_pO2T": {
+      "id": "FihTrMO56kj9jT8O_pO2T",
+      "slug": "postgresql",
+      "title": "PostgreSQL",
+      "description": "PostgreSQL is an advanced, open-source RDBMS known for robustness, extensibility, and standards compliance. Supports complex queries, custom data types, full-text search, and ACID properties. Highly extensible with strong concurrency support, suitable for web apps to data warehousing.",
+      "resources": [
+        {
+          "id": "FihTrMO56kj9jT8O_pO2T-res-1",
+          "type": "article",
+          "title": "Visit Dedicated PostgreSQL DBA Roadmap",
+          "url": "https://roadmap.sh/postgresql-dba"
+        },
+        {
+          "id": "FihTrMO56kj9jT8O_pO2T-res-2",
+          "type": "article",
+          "title": "Official Website",
+          "url": "https://www.postgresql.org/"
+        },
+        {
+          "id": "FihTrMO56kj9jT8O_pO2T-res-3",
+          "type": "article",
+          "title": "Learn PostgreSQL - Full Tutorial for Beginners",
+          "url": "https://www.postgresqltutorial.com/"
+        },
+        {
+          "id": "FihTrMO56kj9jT8O_pO2T-res-4",
+          "type": "video",
+          "title": "PostgreSQL in 100 Seconds",
+          "url": "https://www.youtube.com/watch?v=n2Fluyr3lbc"
+        },
+        {
+          "id": "FihTrMO56kj9jT8O_pO2T-res-5",
+          "type": "video",
+          "title": "Postgres tutorial for Beginners",
+          "url": "https://www.youtube.com/watch?v=SpfIwlAYaKk"
+        },
+        {
+          "id": "FihTrMO56kj9jT8O_pO2T-res-6",
+          "type": "article",
+          "title": "Explore top posts about PostgreSQL",
+          "url": "https://app.daily.dev/tags/postgresql?ref=roadmapsh"
+        }
+      ]
+    },
+    "J_sVHsD72Yzyqb9KCIvAY": {
+      "id": "J_sVHsD72Yzyqb9KCIvAY",
+      "slug": "python",
+      "title": "Python",
+      "description": "Python is a popular programming language that is easy to learn and read. It is used for building web applications, analyzing data, automating tasks, and creating intelligent systems. Python has a large community and many libraries that make it powerful and flexible for various types of projects.",
+      "resources": [
+        {
+          "id": "J_sVHsD72Yzyqb9KCIvAY-res-1",
+          "type": "article",
+          "title": "Visit Dedicated Python Roadmap",
+          "url": "https://roadmap.sh/python"
+        },
+        {
+          "id": "J_sVHsD72Yzyqb9KCIvAY-res-2",
+          "type": "article",
+          "title": "Python",
+          "url": "https://www.python.org/"
+        },
+        {
+          "id": "J_sVHsD72Yzyqb9KCIvAY-res-3",
+          "type": "article",
+          "title": "Real Python",
+          "url": "https://realpython.com/"
+        },
+        {
+          "id": "J_sVHsD72Yzyqb9KCIvAY-res-4",
+          "type": "article",
+          "title": "Automate the Boring Stuff with Python",
+          "url": "https://automatetheboringstuff.com/"
+        },
+        {
+          "id": "J_sVHsD72Yzyqb9KCIvAY-res-5",
+          "type": "article",
+          "title": "Explore top posts about Python",
+          "url": "https://app.daily.dev/tags/python?ref=roadmapsh"
+        }
+      ]
+    },
+    "g8GjkJAhvnSxXTZks0V1g": {
+      "id": "g8GjkJAhvnSxXTZks0V1g",
+      "slug": "redis",
+      "title": "Redis",
+      "description": "Redis is an open-source, in-memory data structure store supporting strings, lists, sets, hashes, and sorted sets. Used for caching, session management, real-time analytics, and message brokering. Offers persistence, replication, clustering, and low-latency high-throughput performance.",
+      "resources": [
+        {
+          "id": "g8GjkJAhvnSxXTZks0V1g-res-1",
+          "type": "article",
+          "title": "Visit Dedicated Redis Roadmap",
+          "url": "https://roadmap.sh/redis"
+        },
+        {
+          "id": "g8GjkJAhvnSxXTZks0V1g-res-2",
+          "type": "course",
+          "title": "Redis Crash Course",
+          "url": "https://www.youtube.com/watch?v=XCsS_NVAa1g"
+        },
+        {
+          "id": "g8GjkJAhvnSxXTZks0V1g-res-3",
+          "type": "article",
+          "title": "Redis",
+          "url": "https://redis.io/"
+        },
+        {
+          "id": "g8GjkJAhvnSxXTZks0V1g-res-4",
+          "type": "article",
+          "title": "Redis Documentation",
+          "url": "https://redis.io/docs/latest/"
+        },
+        {
+          "id": "g8GjkJAhvnSxXTZks0V1g-res-5",
+          "type": "video",
+          "title": "Redis in 100 Seconds",
+          "url": "https://www.youtube.com/watch?v=G1rOthIU-uo"
+        },
+        {
+          "id": "g8GjkJAhvnSxXTZks0V1g-res-6",
+          "type": "article",
+          "title": "Explore top posts about Redis",
+          "url": "https://app.daily.dev/tags/redis?ref=roadmapsh"
+        }
+      ]
+    },
+    "r45b461NxLN6wBODJ5CNP": {
+      "id": "r45b461NxLN6wBODJ5CNP",
+      "slug": "relational-databases",
+      "title": "Relational Databases",
+      "description": "Relational databases organize data into structured tables with rows and columns, using SQL for querying. Enforce data integrity through keys and constraints, handle complex queries and transactions efficiently. Examples: MySQL, PostgreSQL, Oracle. Used for structured data storage and strong consistency.",
+      "resources": [
+        {
+          "id": "r45b461NxLN6wBODJ5CNP-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated SQL Roadmap",
+          "url": "https://roadmap.sh/sql"
+        },
+        {
+          "id": "r45b461NxLN6wBODJ5CNP-res-2",
+          "type": "course",
+          "title": "Visit the Dedicated SQL Master Course",
+          "url": "https://roadmap.sh/courses/sql"
+        },
+        {
+          "id": "r45b461NxLN6wBODJ5CNP-res-3",
+          "type": "course",
+          "title": "Databases and SQL",
+          "url": "https://www.edx.org/course/databases-5-sql"
+        },
+        {
+          "id": "r45b461NxLN6wBODJ5CNP-res-4",
+          "type": "article",
+          "title": "Relational Databases",
+          "url": "https://www.ibm.com/cloud/learn/relational-databases"
+        },
+        {
+          "id": "r45b461NxLN6wBODJ5CNP-res-5",
+          "type": "article",
+          "title": "Intro To Relational Databases",
+          "url": "https://www.udacity.com/course/intro-to-relational-databases--ud197"
+        },
+        {
+          "id": "r45b461NxLN6wBODJ5CNP-res-6",
+          "type": "video",
+          "title": "What is Relational Database",
+          "url": "https://youtu.be/OqjJjpjDRLc"
+        },
+        {
+          "id": "r45b461NxLN6wBODJ5CNP-res-7",
+          "type": "article",
+          "title": "Explore top posts about Backend Development",
+          "url": "https://app.daily.dev/tags/backend?ref=roadmapsh"
+        }
+      ]
+    },
+    "NvUcSDWBhzJZ31nzT4UlE": {
+      "id": "NvUcSDWBhzJZ31nzT4UlE",
+      "slug": "repo-hosting-services",
+      "title": "Repo Hosting Services",
+      "description": "Repo hosting services provide storage, management, and collaboration tools for version-controlled code repositories. Support Git, Mercurial, Subversion with features like branching, pull requests, issue tracking, code review, and CI/CD integration. Popular services: GitHub, GitLab, Bitbucket.",
+      "resources": [
+        {
+          "id": "NvUcSDWBhzJZ31nzT4UlE-res-1",
+          "type": "article",
+          "title": "GitHub",
+          "url": "https://github.com"
+        },
+        {
+          "id": "NvUcSDWBhzJZ31nzT4UlE-res-2",
+          "type": "article",
+          "title": "GitLab",
+          "url": "https://about.gitlab.com/"
+        },
+        {
+          "id": "NvUcSDWBhzJZ31nzT4UlE-res-3",
+          "type": "article",
+          "title": "BitBucket",
+          "url": "https://bitbucket.org/product/guides/getting-started/overview"
+        }
+      ]
+    },
+    "lfNFDZZNdrB0lbEaMtU71": {
+      "id": "lfNFDZZNdrB0lbEaMtU71",
+      "slug": "rest",
+      "title": "REST",
+      "description": "REST API is an architectural style using standard HTTP methods (GET, POST, PUT, DELETE) to interact with URI-represented resources. It's stateless, requiring complete request information, uses HTTP status codes, and typically communicates via JSON/XML. Popular for simplicity and scalability.",
+      "resources": [
+        {
+          "id": "lfNFDZZNdrB0lbEaMtU71-res-1",
+          "type": "article",
+          "title": "What is a REST API?",
+          "url": "https://www.redhat.com/en/topics/api/what-is-a-rest-api"
+        },
+        {
+          "id": "lfNFDZZNdrB0lbEaMtU71-res-2",
+          "type": "article",
+          "title": "Best practices for RESTful web API design",
+          "url": "https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design"
+        },
+        {
+          "id": "lfNFDZZNdrB0lbEaMtU71-res-3",
+          "type": "article",
+          "title": "Roy Fieldings dissertation chapter, Representational State Transfer (REST)",
+          "url": "https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm"
+        },
+        {
+          "id": "lfNFDZZNdrB0lbEaMtU71-res-4",
+          "type": "article",
+          "title": "Learn REST: A RESTful Tutorial",
+          "url": "https://restapitutorial.com/"
+        },
+        {
+          "id": "lfNFDZZNdrB0lbEaMtU71-res-5",
+          "type": "video",
+          "title": "What is a REST API?",
+          "url": "https://www.youtube.com/watch?v=-mN3VyJuCjM"
+        },
+        {
+          "id": "lfNFDZZNdrB0lbEaMtU71-res-6",
+          "type": "article",
+          "title": "Explore top posts about REST API",
+          "url": "https://app.daily.dev/tags/rest-api?ref=roadmapsh"
+        }
+      ]
+    },
+    "STQQbPa7PE3gbjMdL6P-t": {
+      "id": "STQQbPa7PE3gbjMdL6P-t",
+      "slug": "testing",
+      "title": "Testing",
+      "description": "Testing systematically evaluates software functionality, performance, and quality against requirements. Includes unit, integration, system, and acceptance testing levels. Can be manual or automated to identify defects, validate features, and ensure reliable performance before deployment.",
+      "resources": [
+        {
+          "id": "STQQbPa7PE3gbjMdL6P-t-res-1",
+          "type": "article",
+          "title": "What is Software Testing?",
+          "url": "https://www.guru99.com/software-testing-introduction-importance.html"
+        },
+        {
+          "id": "STQQbPa7PE3gbjMdL6P-t-res-2",
+          "type": "article",
+          "title": "Testing Pyramid",
+          "url": "https://www.browserstack.com/guide/testing-pyramid-for-test-automation"
+        }
+      ]
+    },
+    "rq_y_OBMD9AH_4aoecvAi": {
+      "id": "rq_y_OBMD9AH_4aoecvAi",
+      "slug": "transactions",
+      "title": "Transactions",
+      "description": "Database transactions are a series of operations executed as atomic units to ensure data integrity. Follow ACID properties: Atomicity (all-or-nothing), Consistency (valid state), Isolation (no interference), Durability (permanent changes). Ensure reliable concurrent operations and data consistency.",
+      "resources": [
+        {
+          "id": "rq_y_OBMD9AH_4aoecvAi-res-1",
+          "type": "article",
+          "title": "What are Transactions?",
+          "url": "https://fauna.com/blog/database-transaction"
+        },
+        {
+          "id": "rq_y_OBMD9AH_4aoecvAi-res-2",
+          "type": "video",
+          "title": "What is a Database transaction?",
+          "url": "https://www.youtube.com/watch?v=wHUOeXbZCYA"
+        },
+        {
+          "id": "rq_y_OBMD9AH_4aoecvAi-res-3",
+          "type": "video",
+          "title": "ACID Properties in Databases With Examples",
+          "url": "https://www.youtube.com/watch?v=GAe5oB742dw"
+        }
+      ]
+    },
+    "3OYm6b9f6WOrKi4KTOZYK": {
+      "id": "3OYm6b9f6WOrKi4KTOZYK",
+      "slug": "unit-testing",
+      "title": "Unit Testing",
+      "description": "Unit testing tests individual components or units in isolation to ensure correct functionality. Focuses on the smallest testable parts like functions with predefined inputs and expected outcomes. Automated tests written by developers during coding to catch bugs early and improve reliability.",
+      "resources": [
+        {
+          "id": "3OYm6b9f6WOrKi4KTOZYK-res-1",
+          "type": "article",
+          "title": "Unit Testing",
+          "url": "https://en.wikipedia.org/wiki/Unit_testing"
+        },
+        {
+          "id": "3OYm6b9f6WOrKi4KTOZYK-res-2",
+          "type": "article",
+          "title": "What is Unit Testing?",
+          "url": "https://www.guru99.com/unit-testing-guide.html"
+        },
+        {
+          "id": "3OYm6b9f6WOrKi4KTOZYK-res-3",
+          "type": "video",
+          "title": "What is Unit Testing?",
+          "url": "https://youtu.be/x95ez7_V7rA?si=JhCVhcEN7zZOkxdp"
+        }
+      ]
+    },
+    "ezdqQW9wTUw93F6kjOzku": {
+      "id": "ezdqQW9wTUw93F6kjOzku",
+      "slug": "version-control-systems",
+      "title": "Version Control Systems",
+      "description": "Version control systems (VCS) are tools that track changes to code and files over time, enabling multiple users to collaborate on projects, maintain history, and manage different versions of codebases. They help in tracking modifications, merging changes, and resolving conflicts. There are two main types of VCS: centralized and distributed. Centralized systems (like Subversion and CVS) rely on a single central repository, while distributed systems (like Git and Mercurial) allow each user to have a complete copy of the repository, including its history. Distributed VCSs, such as Git, are particularly popular for their flexibility, branching capabilities, and robust support for collaborative workflows.",
+      "resources": [
+        {
+          "id": "ezdqQW9wTUw93F6kjOzku-res-1",
+          "type": "article",
+          "title": "Visit Dedicated Git & GitHub Roadmap",
+          "url": "https://roadmap.sh/git-github"
+        },
+        {
+          "id": "ezdqQW9wTUw93F6kjOzku-res-2",
+          "type": "video",
+          "title": "What is a Version Control System and why you should always use it",
+          "url": "https://www.youtube.com/watch?v=IeXhYROClZk"
+        },
+        {
+          "id": "ezdqQW9wTUw93F6kjOzku-res-3",
+          "type": "article",
+          "title": "What is version control?",
+          "url": "https://www.atlassian.com/git/tutorials/what-is-version-control"
+        },
+        {
+          "id": "ezdqQW9wTUw93F6kjOzku-res-4",
+          "type": "course",
+          "title": "Why version control? (Interactive Lesson)",
+          "url": "https://inter-git.com/lessons/introduction"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,4190 @@
+{
+  "slug": "product-design",
+  "title": "Product Design",
+  "description": "Comprehensive learning curriculum and mastery roadmap for product-design.",
+  "category": "skill",
+  "level": "Intermediate",
+  "topicCount": 118,
+  "iconName": "Compass",
+  "nodes": [
+    {
+      "id": "node-tI31OEk2oI2CzTLZ3kCQl",
+      "label": "A/B Testing",
+      "topicId": "tI31OEk2oI2CzTLZ3kCQl",
+      "level": 1,
+      "position": {
+        "x": 80,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-QOvNo5vsPhIJCSDQu3-Ln",
+      "label": "Accessibility Testing",
+      "topicId": "QOvNo5vsPhIJCSDQu3-Ln",
+      "level": 1,
+      "position": {
+        "x": 340,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-5vPrv890AGAMy3VPl9gwk",
+      "label": "Agile UX, Lean UX",
+      "topicId": "5vPrv890AGAMy3VPl9gwk",
+      "level": 1,
+      "position": {
+        "x": 600,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-WC7fqDlXZyONf11qzDpdJ",
+      "label": "AI-Assisted Design",
+      "topicId": "WC7fqDlXZyONf11qzDpdJ",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-jAhHs0Ba18emgZBdn77Gd",
+      "label": "Aligning Teams",
+      "topicId": "jAhHs0Ba18emgZBdn77Gd",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-l6hgxqruST7xBBypypQFs",
+      "label": "API & Data Limitations",
+      "topicId": "l6hgxqruST7xBBypypQFs",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-pWiKXyU5rUxvutXhpgcBD",
+      "label": "Assumption Mapping",
+      "topicId": "pWiKXyU5rUxvutXhpgcBD",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-Ypy2m6Y_-kkqwpfanwbQ3",
+      "label": "Brainstorming",
+      "topicId": "Ypy2m6Y_-kkqwpfanwbQ3",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-_FYOA_bNRxoNeoPs_rMuk",
+      "label": "Business & User Needs",
+      "topicId": "_FYOA_bNRxoNeoPs_rMuk",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-t8gOYcyit3111blHtJHOT",
+      "label": "Business Alignment",
+      "topicId": "t8gOYcyit3111blHtJHOT",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-id54mKpAb7h62n1RyBfzT",
+      "label": "Business Metrics & OKRs",
+      "topicId": "id54mKpAb7h62n1RyBfzT",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-l6NCN6tGAKFU48I_VRXAg",
+      "label": "Business Understanding",
+      "topicId": "l6NCN6tGAKFU48I_VRXAg",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-lKVVP0ILn8Fywr-P3Lgno",
+      "label": "Collaboration by Design",
+      "topicId": "lKVVP0ILn8Fywr-P3Lgno",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-w_sr4EMZsyOWcWwiHMGCx",
+      "label": "Color",
+      "topicId": "w_sr4EMZsyOWcWwiHMGCx",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-KrC2p39xUWJjnJh4yUC-6",
+      "label": "Components",
+      "topicId": "KrC2p39xUWJjnJh4yUC-6",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-fzInyQDV_9TqeQf1jLKLT",
+      "label": "Consistency & Coherence",
+      "topicId": "fzInyQDV_9TqeQf1jLKLT",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-v8g054KMIKVvtpWvOfTVW",
+      "label": "Content Design",
+      "topicId": "v8g054KMIKVvtpWvOfTVW",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-ttBrvqyUpCcnrT8ksRggd",
+      "label": "Content Organization",
+      "topicId": "ttBrvqyUpCcnrT8ksRggd",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-BC_3TgAAehSUlM_oC3aEq",
+      "label": "Contextual Inquiry",
+      "topicId": "BC_3TgAAehSUlM_oC3aEq",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-dgBELpFRvRO_7ir0y0AtX",
+      "label": "Continuous Improvement",
+      "topicId": "dgBELpFRvRO_7ir0y0AtX",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-e6giaRpKxfvKXsfjhBj7G",
+      "label": "Critiques & Reviews",
+      "topicId": "e6giaRpKxfvKXsfjhBj7G",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-X4NkbOfNGR89y5x1c3MFo",
+      "label": "Defining Success",
+      "topicId": "X4NkbOfNGR89y5x1c3MFo",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-2BHujRBCdcaJdIb23Fu6j",
+      "label": "Design Handoff",
+      "topicId": "2BHujRBCdcaJdIb23Fu6j",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-9JlXWWRRXGm5tcFl5IDCq",
+      "label": "Design Principles",
+      "topicId": "9JlXWWRRXGm5tcFl5IDCq",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-9_zOlYfK-YSWbXoBalPf3",
+      "label": "Design Systems",
+      "topicId": "9_zOlYfK-YSWbXoBalPf3",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-rnt2fhRBVd4UI5ANC-YIh",
+      "label": "Design Tokens",
+      "topicId": "rnt2fhRBVd4UI5ANC-YIh",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-PeC0uue9ZwvAxcN_4NOub",
+      "label": "Design Workshops & Sprints",
+      "topicId": "PeC0uue9ZwvAxcN_4NOub",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-C0EkWS2SR3ZVi3-hPyNP_",
+      "label": "Designing Responsibly",
+      "topicId": "C0EkWS2SR3ZVi3-hPyNP_",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-UdWsU4kOxSqcHacgTvd7E",
+      "label": "DesignOps",
+      "topicId": "UdWsU4kOxSqcHacgTvd7E",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-FzFKW32DLjvH6JyYVsfGx",
+      "label": "Developer Collaboration",
+      "topicId": "FzFKW32DLjvH6JyYVsfGx",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-pAFqw5GHr1O38wEQh3UA4",
+      "label": "Edge Cases & States",
+      "topicId": "pAFqw5GHr1O38wEQh3UA4",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-jbuHRX0mjQRO_2h0U6Y2S",
+      "label": "Empathy Maps",
+      "topicId": "jbuHRX0mjQRO_2h0U6Y2S",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-hIN-rnf-XhZr4LJCtMykg",
+      "label": "Engineering Collaboration",
+      "topicId": "hIN-rnf-XhZr4LJCtMykg",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-wFbCnmsVaZvR-1W04Y8NB",
+      "label": "Ethical Design",
+      "topicId": "wFbCnmsVaZvR-1W04Y8NB",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-cs068IzvRiFrHtfbj3lxK",
+      "label": "Experimentation",
+      "topicId": "cs068IzvRiFrHtfbj3lxK",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-xhMXqsbC0qeAkHdMDOxbH",
+      "label": "Expert Review",
+      "topicId": "xhMXqsbC0qeAkHdMDOxbH",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-xocmzj_2tDkWjwBnTM3EN",
+      "label": "Feasibility Assessment",
+      "topicId": "xocmzj_2tDkWjwBnTM3EN",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-VoV8iP-A028UvgutSQb9z",
+      "label": "Feature Flags",
+      "topicId": "VoV8iP-A028UvgutSQb9z",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-A9QA_XQihVKTfVk-BEUil",
+      "label": "Figma Dev Mode",
+      "topicId": "A9QA_XQihVKTfVk-BEUil",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-mN3ZzOH3yo6mIGwA0hqdm",
+      "label": "Framing the Problem",
+      "topicId": "mN3ZzOH3yo6mIGwA0hqdm",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-KIQRg8ap5Z7IQuMUZc7yC",
+      "label": "Functionality over Polish",
+      "topicId": "KIQRg8ap5Z7IQuMUZc7yC",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-J4yN0KLUPX2iqI64Hqfgz",
+      "label": "Gathering Information",
+      "topicId": "J4yN0KLUPX2iqI64Hqfgz",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-iDc14ni7C6YGpVeze3Cqo",
+      "label": "Goal Setting",
+      "topicId": "iDc14ni7C6YGpVeze3Cqo",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-NV0L45IsvUhMkfCFGVdqQ",
+      "label": "HEART Framework",
+      "topicId": "NV0L45IsvUhMkfCFGVdqQ",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node--3y4W63-ERcniQsmR4MIS",
+      "label": "Heatmaps",
+      "topicId": "-3y4W63-ERcniQsmR4MIS",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-GGMcheQAGyAc8BgXi0oaI",
+      "label": "How Might We Questions",
+      "topicId": "GGMcheQAGyAc8BgXi0oaI",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-cRabi0wAInx3kpLQQbOXx",
+      "label": "Icons",
+      "topicId": "cRabi0wAInx3kpLQQbOXx",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-ZcdXHB3b5f6b21fTDfYVm",
+      "label": "Ideation",
+      "topicId": "ZcdXHB3b5f6b21fTDfYVm",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-FX1Z0YNkxHNl0ozjCn03N",
+      "label": "Improving Designs",
+      "topicId": "FX1Z0YNkxHNl0ozjCn03N",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-6J-GuW42O19Rx4o0Fyspm",
+      "label": "Inclusive Design",
+      "topicId": "6J-GuW42O19Rx4o0Fyspm",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-V_AMJYmqBxC6YUT6SJf3J",
+      "label": "Information Architecture",
+      "topicId": "V_AMJYmqBxC6YUT6SJf3J",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-Ln8HKsHi-gUeLrrjH8s56",
+      "label": "Interface Design",
+      "topicId": "Ln8HKsHi-gUeLrrjH8s56",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-OcYNyCYMKQqlsup8ghpZ7",
+      "label": "Interface States",
+      "topicId": "OcYNyCYMKQqlsup8ghpZ7",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-Bairy2nTXWhX098bGJBU9",
+      "label": "Interviews",
+      "topicId": "Bairy2nTXWhX098bGJBU9",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-q4yfZZ0MTANpDfx3U7uPP",
+      "label": "Introduction",
+      "topicId": "q4yfZZ0MTANpDfx3U7uPP",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-9F99swrvYC0zk2NLDw3T8",
+      "label": "Iteration over Perfection",
+      "topicId": "9F99swrvYC0zk2NLDw3T8",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-JJLA3I1wQlE4iJTroTgSf",
+      "label": "Jobs-to-be-Done",
+      "topicId": "JJLA3I1wQlE4iJTroTgSf",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-Eb-UqSB5b19dgqL8zXixA",
+      "label": "Journey Mapping",
+      "topicId": "Eb-UqSB5b19dgqL8zXixA",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-IdDdkazWJoZqJLaOwuIN_",
+      "label": "Kano",
+      "topicId": "IdDdkazWJoZqJLaOwuIN_",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-o5060NjFK7EYOGD2nF7Dp",
+      "label": "Launch Readiness",
+      "topicId": "o5060NjFK7EYOGD2nF7Dp",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-Ss8-G_xPJnuTOjfumjQKc",
+      "label": "Layout & Grid",
+      "topicId": "Ss8-G_xPJnuTOjfumjQKc",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-YnOZYh0OgyyzhY_vKqo7f",
+      "label": "Managing Risk",
+      "topicId": "YnOZYh0OgyyzhY_vKqo7f",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-gx9iCEQ27s2cvFeEmZHck",
+      "label": "Mapping Context",
+      "topicId": "gx9iCEQ27s2cvFeEmZHck",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node--D0SRvKU8sSGd2GJ20ImB",
+      "label": "Measuring Quality",
+      "topicId": "-D0SRvKU8sSGd2GJ20ImB",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-5mb-glqmSTgyd8VE0BFlH",
+      "label": "Micro-interactions",
+      "topicId": "5mb-glqmSTgyd8VE0BFlH",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-zLjTzpEmP1AURO0KsSDgz",
+      "label": "Microcopy",
+      "topicId": "zLjTzpEmP1AURO0KsSDgz",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-eG8L9zdZJ6WWKX5zoCU3F",
+      "label": "Mind Maps",
+      "topicId": "eG8L9zdZJ6WWKX5zoCU3F",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-d0T6LSBz1Dxfvm9oWnb2V",
+      "label": "MoSCoW",
+      "topicId": "d0T6LSBz1Dxfvm9oWnb2V",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-N0_SikPe2t7v1zrwkVNOh",
+      "label": "Motion & Interaction",
+      "topicId": "N0_SikPe2t7v1zrwkVNOh",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-wgISet-HBQkte12PUPX00",
+      "label": "Motion Principles",
+      "topicId": "wgISet-HBQkte12PUPX00",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-b958AcoB4_V4t_vYJsN5A",
+      "label": "Multi-platform Design",
+      "topicId": "b958AcoB4_V4t_vYJsN5A",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-55kM1GxUBxwM-WoRaDDyj",
+      "label": "Navigation",
+      "topicId": "55kM1GxUBxwM-WoRaDDyj",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-jqDcscSHTUizNmJHA2i-t",
+      "label": "Operating at Scale",
+      "topicId": "jqDcscSHTUizNmJHA2i-t",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-HxYpzimPltNch8qbPzfbp",
+      "label": "Opportunity Solution Trees",
+      "topicId": "HxYpzimPltNch8qbPzfbp",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-DlHfLq7nNXqDbwouhPn3V",
+      "label": "Organizing Research",
+      "topicId": "DlHfLq7nNXqDbwouhPn3V",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-MMl84Bimru37xW2Kjyd4x",
+      "label": "Performance Constraints",
+      "topicId": "MMl84Bimru37xW2Kjyd4x",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-qk_4nCoJeEvRE9q2yC18I",
+      "label": "Personas",
+      "topicId": "qk_4nCoJeEvRE9q2yC18I",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-ugdFMO3Zy4Be_GjgMZ9_z",
+      "label": "Prioritization Frameworks",
+      "topicId": "ugdFMO3Zy4Be_GjgMZ9_z",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-qJbhaY7aU8PqVQlt2mV4z",
+      "label": "Prioritizing Opportunities",
+      "topicId": "qJbhaY7aU8PqVQlt2mV4z",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-S2P-SK6LXy82Z5VgBjx2N",
+      "label": "Problem Statements",
+      "topicId": "S2P-SK6LXy82Z5VgBjx2N",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-03dZOKaQ2TvUC7BGqufQ8",
+      "label": "Product Analytics",
+      "topicId": "03dZOKaQ2TvUC7BGqufQ8",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-q5OzV1_ao0xg66nYyeFjM",
+      "label": "Product Design vs UI",
+      "topicId": "q5OzV1_ao0xg66nYyeFjM",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-zhWj9lOOoxXciAvCeksxm",
+      "label": "Product Design vs UX",
+      "topicId": "zhWj9lOOoxXciAvCeksxm",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-PYX5MBioD6gNUeUdBIUOY",
+      "label": "Product-Market Fit",
+      "topicId": "PYX5MBioD6gNUeUdBIUOY",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-OzzpfpDWCzK6GYyiljA5x",
+      "label": "Product Performance",
+      "topicId": "OzzpfpDWCzK6GYyiljA5x",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-j_pfvhH-5qquAJXjbu-p8",
+      "label": "Product Sense",
+      "topicId": "j_pfvhH-5qquAJXjbu-p8",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-snUVcr1REPBMrRwuNzDf1",
+      "label": "Product Strategy",
+      "topicId": "snUVcr1REPBMrRwuNzDf1",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-2kzDNLEmYJdL0iy9JcRaR",
+      "label": "Product Vision",
+      "topicId": "2kzDNLEmYJdL0iy9JcRaR",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-Wy5D8nEdJf7KJcollezXw",
+      "label": "Prototyping",
+      "topicId": "Wy5D8nEdJf7KJcollezXw",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-PU-d82UeSi3_MeE2mbcxo",
+      "label": "Research Repository",
+      "topicId": "PU-d82UeSi3_MeE2mbcxo",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-GtCXJjgEhL2wLSVatu1LX",
+      "label": "RICE",
+      "topicId": "GtCXJjgEhL2wLSVatu1LX",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-l__bw06NFolmlIMOylKJP",
+      "label": "Risk Identification",
+      "topicId": "l__bw06NFolmlIMOylKJP",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-VWmJcie2YkJ6V6DvjSDy3",
+      "label": "Session Recordings",
+      "topicId": "VWmJcie2YkJ6V6DvjSDy3",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-CdWMdC25kExM4Sp59FY4U",
+      "label": "Site Maps",
+      "topicId": "CdWMdC25kExM4Sp59FY4U",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5040
+      }
+    },
+    {
+      "id": "node-l2CI9A_cn9aatKUp3lSfi",
+      "label": "Sketching",
+      "topicId": "l2CI9A_cn9aatKUp3lSfi",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5040
+      }
+    },
+    {
+      "id": "node-hGIMl_hjYkbtTbYLi9Ijv",
+      "label": "Specs",
+      "topicId": "hGIMl_hjYkbtTbYLi9Ijv",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5040
+      }
+    },
+    {
+      "id": "node-iYGkLplsUjuCEo6YaNk_L",
+      "label": "Stack & Platform Constraints",
+      "topicId": "iYGkLplsUjuCEo6YaNk_L",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5200
+      }
+    },
+    {
+      "id": "node-MjwUcq2Y2J_8gXyLSZvts",
+      "label": "Stakeholder Alignment",
+      "topicId": "MjwUcq2Y2J_8gXyLSZvts",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5200
+      }
+    },
+    {
+      "id": "node-US48-gcagvUHsvEgeahqD",
+      "label": "Success Metrics",
+      "topicId": "US48-gcagvUHsvEgeahqD",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5200
+      }
+    },
+    {
+      "id": "node-jIS-dqSKdsUZPovkgoEhX",
+      "label": "Surveys",
+      "topicId": "jIS-dqSKdsUZPovkgoEhX",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5360
+      }
+    },
+    {
+      "id": "node-q9NnyTHujmBii2oiXCNfT",
+      "label": "Synthesizing Research",
+      "topicId": "q9NnyTHujmBii2oiXCNfT",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5360
+      }
+    },
+    {
+      "id": "node-wYHDGxaqMG8y2oDjKjkzB",
+      "label": "Task Analysis",
+      "topicId": "wYHDGxaqMG8y2oDjKjkzB",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5360
+      }
+    },
+    {
+      "id": "node-uhilOC2btRa61IoM5c3-C",
+      "label": "Task Flows",
+      "topicId": "uhilOC2btRa61IoM5c3-C",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5520
+      }
+    },
+    {
+      "id": "node-UTIPCn26LOzF5HW7775sE",
+      "label": "Technical Constraints",
+      "topicId": "UTIPCn26LOzF5HW7775sE",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5520
+      }
+    },
+    {
+      "id": "node-i2Tg7bH-0ny0RLVmZN5Iw",
+      "label": "Testing Designs",
+      "topicId": "i2Tg7bH-0ny0RLVmZN5Iw",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5520
+      }
+    },
+    {
+      "id": "node-_7Lo7JUjJ1iJ0bHrwlz3f",
+      "label": "Typography",
+      "topicId": "_7Lo7JUjJ1iJ0bHrwlz3f",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5680
+      }
+    },
+    {
+      "id": "node-8HR1zfU5WGMFtf2UrDvmJ",
+      "label": "UI Patterns",
+      "topicId": "8HR1zfU5WGMFtf2UrDvmJ",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5680
+      }
+    },
+    {
+      "id": "node-W5fsnYf-CKMNUrcZ1HAKh",
+      "label": "Usability Testing",
+      "topicId": "W5fsnYf-CKMNUrcZ1HAKh",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5680
+      }
+    },
+    {
+      "id": "node-3AMETPxIcRWbjGwkLoFxW",
+      "label": "User-Centered Design",
+      "topicId": "3AMETPxIcRWbjGwkLoFxW",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5840
+      }
+    },
+    {
+      "id": "node-Nl3xvCKE_4jozlAiweqBJ",
+      "label": "User Flows",
+      "topicId": "Nl3xvCKE_4jozlAiweqBJ",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5840
+      }
+    },
+    {
+      "id": "node-VMX5mUOBFKhnuPmKdh3zF",
+      "label": "UX Benchmarking",
+      "topicId": "VMX5mUOBFKhnuPmKdh3zF",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5840
+      }
+    },
+    {
+      "id": "node-k864ijkOZFS1tPSwBXXHC",
+      "label": "UX Writing",
+      "topicId": "k864ijkOZFS1tPSwBXXHC",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 6000
+      }
+    },
+    {
+      "id": "node-J_xpmcvqWbI7ZZGEHlc50",
+      "label": "Value Proposition",
+      "topicId": "J_xpmcvqWbI7ZZGEHlc50",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 6000
+      }
+    },
+    {
+      "id": "node-bwj1QpmHeJth7Z5b1TpfU",
+      "label": "Visual Foundations",
+      "topicId": "bwj1QpmHeJth7Z5b1TpfU",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 6000
+      }
+    },
+    {
+      "id": "node-auEN54ontSqWBb-DDD_A9",
+      "label": "Visual Hierarchy",
+      "topicId": "auEN54ontSqWBb-DDD_A9",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 6160
+      }
+    },
+    {
+      "id": "node-iq1jmcWoLb2BodJBuk7v0",
+      "label": "Voice & Tone",
+      "topicId": "iq1jmcWoLb2BodJBuk7v0",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 6160
+      }
+    },
+    {
+      "id": "node-k2EyAc_Zs5VDUJ55taOy2",
+      "label": "Wireframing",
+      "topicId": "k2EyAc_Zs5VDUJ55taOy2",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 6160
+      }
+    },
+    {
+      "id": "node-ZUenBZJztKfzobLOj8BdV",
+      "label": "Zeplin",
+      "topicId": "ZUenBZJztKfzobLOj8BdV",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 6320
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-node-tI31OEk2oI2CzTLZ3kCQl-node-QOvNo5vsPhIJCSDQu3-Ln",
+      "source": "node-tI31OEk2oI2CzTLZ3kCQl",
+      "target": "node-QOvNo5vsPhIJCSDQu3-Ln",
+      "animated": true
+    },
+    {
+      "id": "edge-node-QOvNo5vsPhIJCSDQu3-Ln-node-5vPrv890AGAMy3VPl9gwk",
+      "source": "node-QOvNo5vsPhIJCSDQu3-Ln",
+      "target": "node-5vPrv890AGAMy3VPl9gwk",
+      "animated": true
+    },
+    {
+      "id": "edge-node-5vPrv890AGAMy3VPl9gwk-node-WC7fqDlXZyONf11qzDpdJ",
+      "source": "node-5vPrv890AGAMy3VPl9gwk",
+      "target": "node-WC7fqDlXZyONf11qzDpdJ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-WC7fqDlXZyONf11qzDpdJ-node-jAhHs0Ba18emgZBdn77Gd",
+      "source": "node-WC7fqDlXZyONf11qzDpdJ",
+      "target": "node-jAhHs0Ba18emgZBdn77Gd",
+      "animated": true
+    },
+    {
+      "id": "edge-node-jAhHs0Ba18emgZBdn77Gd-node-l6hgxqruST7xBBypypQFs",
+      "source": "node-jAhHs0Ba18emgZBdn77Gd",
+      "target": "node-l6hgxqruST7xBBypypQFs",
+      "animated": true
+    },
+    {
+      "id": "edge-node-l6hgxqruST7xBBypypQFs-node-pWiKXyU5rUxvutXhpgcBD",
+      "source": "node-l6hgxqruST7xBBypypQFs",
+      "target": "node-pWiKXyU5rUxvutXhpgcBD",
+      "animated": true
+    },
+    {
+      "id": "edge-node-pWiKXyU5rUxvutXhpgcBD-node-Ypy2m6Y_-kkqwpfanwbQ3",
+      "source": "node-pWiKXyU5rUxvutXhpgcBD",
+      "target": "node-Ypy2m6Y_-kkqwpfanwbQ3",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Ypy2m6Y_-kkqwpfanwbQ3-node-_FYOA_bNRxoNeoPs_rMuk",
+      "source": "node-Ypy2m6Y_-kkqwpfanwbQ3",
+      "target": "node-_FYOA_bNRxoNeoPs_rMuk",
+      "animated": true
+    },
+    {
+      "id": "edge-node-_FYOA_bNRxoNeoPs_rMuk-node-t8gOYcyit3111blHtJHOT",
+      "source": "node-_FYOA_bNRxoNeoPs_rMuk",
+      "target": "node-t8gOYcyit3111blHtJHOT",
+      "animated": true
+    },
+    {
+      "id": "edge-node-t8gOYcyit3111blHtJHOT-node-id54mKpAb7h62n1RyBfzT",
+      "source": "node-t8gOYcyit3111blHtJHOT",
+      "target": "node-id54mKpAb7h62n1RyBfzT",
+      "animated": true
+    },
+    {
+      "id": "edge-node-id54mKpAb7h62n1RyBfzT-node-l6NCN6tGAKFU48I_VRXAg",
+      "source": "node-id54mKpAb7h62n1RyBfzT",
+      "target": "node-l6NCN6tGAKFU48I_VRXAg",
+      "animated": true
+    },
+    {
+      "id": "edge-node-l6NCN6tGAKFU48I_VRXAg-node-lKVVP0ILn8Fywr-P3Lgno",
+      "source": "node-l6NCN6tGAKFU48I_VRXAg",
+      "target": "node-lKVVP0ILn8Fywr-P3Lgno",
+      "animated": true
+    },
+    {
+      "id": "edge-node-lKVVP0ILn8Fywr-P3Lgno-node-w_sr4EMZsyOWcWwiHMGCx",
+      "source": "node-lKVVP0ILn8Fywr-P3Lgno",
+      "target": "node-w_sr4EMZsyOWcWwiHMGCx",
+      "animated": true
+    },
+    {
+      "id": "edge-node-w_sr4EMZsyOWcWwiHMGCx-node-KrC2p39xUWJjnJh4yUC-6",
+      "source": "node-w_sr4EMZsyOWcWwiHMGCx",
+      "target": "node-KrC2p39xUWJjnJh4yUC-6",
+      "animated": true
+    },
+    {
+      "id": "edge-node-KrC2p39xUWJjnJh4yUC-6-node-fzInyQDV_9TqeQf1jLKLT",
+      "source": "node-KrC2p39xUWJjnJh4yUC-6",
+      "target": "node-fzInyQDV_9TqeQf1jLKLT",
+      "animated": true
+    },
+    {
+      "id": "edge-node-fzInyQDV_9TqeQf1jLKLT-node-v8g054KMIKVvtpWvOfTVW",
+      "source": "node-fzInyQDV_9TqeQf1jLKLT",
+      "target": "node-v8g054KMIKVvtpWvOfTVW",
+      "animated": true
+    },
+    {
+      "id": "edge-node-v8g054KMIKVvtpWvOfTVW-node-ttBrvqyUpCcnrT8ksRggd",
+      "source": "node-v8g054KMIKVvtpWvOfTVW",
+      "target": "node-ttBrvqyUpCcnrT8ksRggd",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ttBrvqyUpCcnrT8ksRggd-node-BC_3TgAAehSUlM_oC3aEq",
+      "source": "node-ttBrvqyUpCcnrT8ksRggd",
+      "target": "node-BC_3TgAAehSUlM_oC3aEq",
+      "animated": true
+    },
+    {
+      "id": "edge-node-BC_3TgAAehSUlM_oC3aEq-node-dgBELpFRvRO_7ir0y0AtX",
+      "source": "node-BC_3TgAAehSUlM_oC3aEq",
+      "target": "node-dgBELpFRvRO_7ir0y0AtX",
+      "animated": true
+    },
+    {
+      "id": "edge-node-dgBELpFRvRO_7ir0y0AtX-node-e6giaRpKxfvKXsfjhBj7G",
+      "source": "node-dgBELpFRvRO_7ir0y0AtX",
+      "target": "node-e6giaRpKxfvKXsfjhBj7G",
+      "animated": true
+    },
+    {
+      "id": "edge-node-e6giaRpKxfvKXsfjhBj7G-node-X4NkbOfNGR89y5x1c3MFo",
+      "source": "node-e6giaRpKxfvKXsfjhBj7G",
+      "target": "node-X4NkbOfNGR89y5x1c3MFo",
+      "animated": true
+    },
+    {
+      "id": "edge-node-X4NkbOfNGR89y5x1c3MFo-node-2BHujRBCdcaJdIb23Fu6j",
+      "source": "node-X4NkbOfNGR89y5x1c3MFo",
+      "target": "node-2BHujRBCdcaJdIb23Fu6j",
+      "animated": true
+    },
+    {
+      "id": "edge-node-2BHujRBCdcaJdIb23Fu6j-node-9JlXWWRRXGm5tcFl5IDCq",
+      "source": "node-2BHujRBCdcaJdIb23Fu6j",
+      "target": "node-9JlXWWRRXGm5tcFl5IDCq",
+      "animated": true
+    },
+    {
+      "id": "edge-node-9JlXWWRRXGm5tcFl5IDCq-node-9_zOlYfK-YSWbXoBalPf3",
+      "source": "node-9JlXWWRRXGm5tcFl5IDCq",
+      "target": "node-9_zOlYfK-YSWbXoBalPf3",
+      "animated": true
+    },
+    {
+      "id": "edge-node-9_zOlYfK-YSWbXoBalPf3-node-rnt2fhRBVd4UI5ANC-YIh",
+      "source": "node-9_zOlYfK-YSWbXoBalPf3",
+      "target": "node-rnt2fhRBVd4UI5ANC-YIh",
+      "animated": true
+    },
+    {
+      "id": "edge-node-rnt2fhRBVd4UI5ANC-YIh-node-PeC0uue9ZwvAxcN_4NOub",
+      "source": "node-rnt2fhRBVd4UI5ANC-YIh",
+      "target": "node-PeC0uue9ZwvAxcN_4NOub",
+      "animated": true
+    },
+    {
+      "id": "edge-node-PeC0uue9ZwvAxcN_4NOub-node-C0EkWS2SR3ZVi3-hPyNP_",
+      "source": "node-PeC0uue9ZwvAxcN_4NOub",
+      "target": "node-C0EkWS2SR3ZVi3-hPyNP_",
+      "animated": true
+    },
+    {
+      "id": "edge-node-C0EkWS2SR3ZVi3-hPyNP_-node-UdWsU4kOxSqcHacgTvd7E",
+      "source": "node-C0EkWS2SR3ZVi3-hPyNP_",
+      "target": "node-UdWsU4kOxSqcHacgTvd7E",
+      "animated": true
+    },
+    {
+      "id": "edge-node-UdWsU4kOxSqcHacgTvd7E-node-FzFKW32DLjvH6JyYVsfGx",
+      "source": "node-UdWsU4kOxSqcHacgTvd7E",
+      "target": "node-FzFKW32DLjvH6JyYVsfGx",
+      "animated": true
+    },
+    {
+      "id": "edge-node-FzFKW32DLjvH6JyYVsfGx-node-pAFqw5GHr1O38wEQh3UA4",
+      "source": "node-FzFKW32DLjvH6JyYVsfGx",
+      "target": "node-pAFqw5GHr1O38wEQh3UA4",
+      "animated": true
+    },
+    {
+      "id": "edge-node-pAFqw5GHr1O38wEQh3UA4-node-jbuHRX0mjQRO_2h0U6Y2S",
+      "source": "node-pAFqw5GHr1O38wEQh3UA4",
+      "target": "node-jbuHRX0mjQRO_2h0U6Y2S",
+      "animated": true
+    },
+    {
+      "id": "edge-node-jbuHRX0mjQRO_2h0U6Y2S-node-hIN-rnf-XhZr4LJCtMykg",
+      "source": "node-jbuHRX0mjQRO_2h0U6Y2S",
+      "target": "node-hIN-rnf-XhZr4LJCtMykg",
+      "animated": true
+    },
+    {
+      "id": "edge-node-hIN-rnf-XhZr4LJCtMykg-node-wFbCnmsVaZvR-1W04Y8NB",
+      "source": "node-hIN-rnf-XhZr4LJCtMykg",
+      "target": "node-wFbCnmsVaZvR-1W04Y8NB",
+      "animated": true
+    },
+    {
+      "id": "edge-node-wFbCnmsVaZvR-1W04Y8NB-node-cs068IzvRiFrHtfbj3lxK",
+      "source": "node-wFbCnmsVaZvR-1W04Y8NB",
+      "target": "node-cs068IzvRiFrHtfbj3lxK",
+      "animated": true
+    },
+    {
+      "id": "edge-node-cs068IzvRiFrHtfbj3lxK-node-xhMXqsbC0qeAkHdMDOxbH",
+      "source": "node-cs068IzvRiFrHtfbj3lxK",
+      "target": "node-xhMXqsbC0qeAkHdMDOxbH",
+      "animated": true
+    },
+    {
+      "id": "edge-node-xhMXqsbC0qeAkHdMDOxbH-node-xocmzj_2tDkWjwBnTM3EN",
+      "source": "node-xhMXqsbC0qeAkHdMDOxbH",
+      "target": "node-xocmzj_2tDkWjwBnTM3EN",
+      "animated": true
+    },
+    {
+      "id": "edge-node-xocmzj_2tDkWjwBnTM3EN-node-VoV8iP-A028UvgutSQb9z",
+      "source": "node-xocmzj_2tDkWjwBnTM3EN",
+      "target": "node-VoV8iP-A028UvgutSQb9z",
+      "animated": true
+    },
+    {
+      "id": "edge-node-VoV8iP-A028UvgutSQb9z-node-A9QA_XQihVKTfVk-BEUil",
+      "source": "node-VoV8iP-A028UvgutSQb9z",
+      "target": "node-A9QA_XQihVKTfVk-BEUil",
+      "animated": true
+    },
+    {
+      "id": "edge-node-A9QA_XQihVKTfVk-BEUil-node-mN3ZzOH3yo6mIGwA0hqdm",
+      "source": "node-A9QA_XQihVKTfVk-BEUil",
+      "target": "node-mN3ZzOH3yo6mIGwA0hqdm",
+      "animated": true
+    },
+    {
+      "id": "edge-node-mN3ZzOH3yo6mIGwA0hqdm-node-KIQRg8ap5Z7IQuMUZc7yC",
+      "source": "node-mN3ZzOH3yo6mIGwA0hqdm",
+      "target": "node-KIQRg8ap5Z7IQuMUZc7yC",
+      "animated": true
+    },
+    {
+      "id": "edge-node-KIQRg8ap5Z7IQuMUZc7yC-node-J4yN0KLUPX2iqI64Hqfgz",
+      "source": "node-KIQRg8ap5Z7IQuMUZc7yC",
+      "target": "node-J4yN0KLUPX2iqI64Hqfgz",
+      "animated": true
+    },
+    {
+      "id": "edge-node-J4yN0KLUPX2iqI64Hqfgz-node-iDc14ni7C6YGpVeze3Cqo",
+      "source": "node-J4yN0KLUPX2iqI64Hqfgz",
+      "target": "node-iDc14ni7C6YGpVeze3Cqo",
+      "animated": true
+    },
+    {
+      "id": "edge-node-iDc14ni7C6YGpVeze3Cqo-node-NV0L45IsvUhMkfCFGVdqQ",
+      "source": "node-iDc14ni7C6YGpVeze3Cqo",
+      "target": "node-NV0L45IsvUhMkfCFGVdqQ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-NV0L45IsvUhMkfCFGVdqQ-node--3y4W63-ERcniQsmR4MIS",
+      "source": "node-NV0L45IsvUhMkfCFGVdqQ",
+      "target": "node--3y4W63-ERcniQsmR4MIS",
+      "animated": true
+    },
+    {
+      "id": "edge-node--3y4W63-ERcniQsmR4MIS-node-GGMcheQAGyAc8BgXi0oaI",
+      "source": "node--3y4W63-ERcniQsmR4MIS",
+      "target": "node-GGMcheQAGyAc8BgXi0oaI",
+      "animated": true
+    },
+    {
+      "id": "edge-node-GGMcheQAGyAc8BgXi0oaI-node-cRabi0wAInx3kpLQQbOXx",
+      "source": "node-GGMcheQAGyAc8BgXi0oaI",
+      "target": "node-cRabi0wAInx3kpLQQbOXx",
+      "animated": true
+    },
+    {
+      "id": "edge-node-cRabi0wAInx3kpLQQbOXx-node-ZcdXHB3b5f6b21fTDfYVm",
+      "source": "node-cRabi0wAInx3kpLQQbOXx",
+      "target": "node-ZcdXHB3b5f6b21fTDfYVm",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ZcdXHB3b5f6b21fTDfYVm-node-FX1Z0YNkxHNl0ozjCn03N",
+      "source": "node-ZcdXHB3b5f6b21fTDfYVm",
+      "target": "node-FX1Z0YNkxHNl0ozjCn03N",
+      "animated": true
+    },
+    {
+      "id": "edge-node-FX1Z0YNkxHNl0ozjCn03N-node-6J-GuW42O19Rx4o0Fyspm",
+      "source": "node-FX1Z0YNkxHNl0ozjCn03N",
+      "target": "node-6J-GuW42O19Rx4o0Fyspm",
+      "animated": true
+    },
+    {
+      "id": "edge-node-6J-GuW42O19Rx4o0Fyspm-node-V_AMJYmqBxC6YUT6SJf3J",
+      "source": "node-6J-GuW42O19Rx4o0Fyspm",
+      "target": "node-V_AMJYmqBxC6YUT6SJf3J",
+      "animated": true
+    },
+    {
+      "id": "edge-node-V_AMJYmqBxC6YUT6SJf3J-node-Ln8HKsHi-gUeLrrjH8s56",
+      "source": "node-V_AMJYmqBxC6YUT6SJf3J",
+      "target": "node-Ln8HKsHi-gUeLrrjH8s56",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Ln8HKsHi-gUeLrrjH8s56-node-OcYNyCYMKQqlsup8ghpZ7",
+      "source": "node-Ln8HKsHi-gUeLrrjH8s56",
+      "target": "node-OcYNyCYMKQqlsup8ghpZ7",
+      "animated": true
+    },
+    {
+      "id": "edge-node-OcYNyCYMKQqlsup8ghpZ7-node-Bairy2nTXWhX098bGJBU9",
+      "source": "node-OcYNyCYMKQqlsup8ghpZ7",
+      "target": "node-Bairy2nTXWhX098bGJBU9",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Bairy2nTXWhX098bGJBU9-node-q4yfZZ0MTANpDfx3U7uPP",
+      "source": "node-Bairy2nTXWhX098bGJBU9",
+      "target": "node-q4yfZZ0MTANpDfx3U7uPP",
+      "animated": true
+    },
+    {
+      "id": "edge-node-q4yfZZ0MTANpDfx3U7uPP-node-9F99swrvYC0zk2NLDw3T8",
+      "source": "node-q4yfZZ0MTANpDfx3U7uPP",
+      "target": "node-9F99swrvYC0zk2NLDw3T8",
+      "animated": true
+    },
+    {
+      "id": "edge-node-9F99swrvYC0zk2NLDw3T8-node-JJLA3I1wQlE4iJTroTgSf",
+      "source": "node-9F99swrvYC0zk2NLDw3T8",
+      "target": "node-JJLA3I1wQlE4iJTroTgSf",
+      "animated": true
+    },
+    {
+      "id": "edge-node-JJLA3I1wQlE4iJTroTgSf-node-Eb-UqSB5b19dgqL8zXixA",
+      "source": "node-JJLA3I1wQlE4iJTroTgSf",
+      "target": "node-Eb-UqSB5b19dgqL8zXixA",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Eb-UqSB5b19dgqL8zXixA-node-IdDdkazWJoZqJLaOwuIN_",
+      "source": "node-Eb-UqSB5b19dgqL8zXixA",
+      "target": "node-IdDdkazWJoZqJLaOwuIN_",
+      "animated": true
+    },
+    {
+      "id": "edge-node-IdDdkazWJoZqJLaOwuIN_-node-o5060NjFK7EYOGD2nF7Dp",
+      "source": "node-IdDdkazWJoZqJLaOwuIN_",
+      "target": "node-o5060NjFK7EYOGD2nF7Dp",
+      "animated": true
+    },
+    {
+      "id": "edge-node-o5060NjFK7EYOGD2nF7Dp-node-Ss8-G_xPJnuTOjfumjQKc",
+      "source": "node-o5060NjFK7EYOGD2nF7Dp",
+      "target": "node-Ss8-G_xPJnuTOjfumjQKc",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Ss8-G_xPJnuTOjfumjQKc-node-YnOZYh0OgyyzhY_vKqo7f",
+      "source": "node-Ss8-G_xPJnuTOjfumjQKc",
+      "target": "node-YnOZYh0OgyyzhY_vKqo7f",
+      "animated": true
+    },
+    {
+      "id": "edge-node-YnOZYh0OgyyzhY_vKqo7f-node-gx9iCEQ27s2cvFeEmZHck",
+      "source": "node-YnOZYh0OgyyzhY_vKqo7f",
+      "target": "node-gx9iCEQ27s2cvFeEmZHck",
+      "animated": true
+    },
+    {
+      "id": "edge-node-gx9iCEQ27s2cvFeEmZHck-node--D0SRvKU8sSGd2GJ20ImB",
+      "source": "node-gx9iCEQ27s2cvFeEmZHck",
+      "target": "node--D0SRvKU8sSGd2GJ20ImB",
+      "animated": true
+    },
+    {
+      "id": "edge-node--D0SRvKU8sSGd2GJ20ImB-node-5mb-glqmSTgyd8VE0BFlH",
+      "source": "node--D0SRvKU8sSGd2GJ20ImB",
+      "target": "node-5mb-glqmSTgyd8VE0BFlH",
+      "animated": true
+    },
+    {
+      "id": "edge-node-5mb-glqmSTgyd8VE0BFlH-node-zLjTzpEmP1AURO0KsSDgz",
+      "source": "node-5mb-glqmSTgyd8VE0BFlH",
+      "target": "node-zLjTzpEmP1AURO0KsSDgz",
+      "animated": true
+    },
+    {
+      "id": "edge-node-zLjTzpEmP1AURO0KsSDgz-node-eG8L9zdZJ6WWKX5zoCU3F",
+      "source": "node-zLjTzpEmP1AURO0KsSDgz",
+      "target": "node-eG8L9zdZJ6WWKX5zoCU3F",
+      "animated": true
+    },
+    {
+      "id": "edge-node-eG8L9zdZJ6WWKX5zoCU3F-node-d0T6LSBz1Dxfvm9oWnb2V",
+      "source": "node-eG8L9zdZJ6WWKX5zoCU3F",
+      "target": "node-d0T6LSBz1Dxfvm9oWnb2V",
+      "animated": true
+    },
+    {
+      "id": "edge-node-d0T6LSBz1Dxfvm9oWnb2V-node-N0_SikPe2t7v1zrwkVNOh",
+      "source": "node-d0T6LSBz1Dxfvm9oWnb2V",
+      "target": "node-N0_SikPe2t7v1zrwkVNOh",
+      "animated": true
+    },
+    {
+      "id": "edge-node-N0_SikPe2t7v1zrwkVNOh-node-wgISet-HBQkte12PUPX00",
+      "source": "node-N0_SikPe2t7v1zrwkVNOh",
+      "target": "node-wgISet-HBQkte12PUPX00",
+      "animated": true
+    },
+    {
+      "id": "edge-node-wgISet-HBQkte12PUPX00-node-b958AcoB4_V4t_vYJsN5A",
+      "source": "node-wgISet-HBQkte12PUPX00",
+      "target": "node-b958AcoB4_V4t_vYJsN5A",
+      "animated": true
+    },
+    {
+      "id": "edge-node-b958AcoB4_V4t_vYJsN5A-node-55kM1GxUBxwM-WoRaDDyj",
+      "source": "node-b958AcoB4_V4t_vYJsN5A",
+      "target": "node-55kM1GxUBxwM-WoRaDDyj",
+      "animated": true
+    },
+    {
+      "id": "edge-node-55kM1GxUBxwM-WoRaDDyj-node-jqDcscSHTUizNmJHA2i-t",
+      "source": "node-55kM1GxUBxwM-WoRaDDyj",
+      "target": "node-jqDcscSHTUizNmJHA2i-t",
+      "animated": true
+    },
+    {
+      "id": "edge-node-jqDcscSHTUizNmJHA2i-t-node-HxYpzimPltNch8qbPzfbp",
+      "source": "node-jqDcscSHTUizNmJHA2i-t",
+      "target": "node-HxYpzimPltNch8qbPzfbp",
+      "animated": true
+    },
+    {
+      "id": "edge-node-HxYpzimPltNch8qbPzfbp-node-DlHfLq7nNXqDbwouhPn3V",
+      "source": "node-HxYpzimPltNch8qbPzfbp",
+      "target": "node-DlHfLq7nNXqDbwouhPn3V",
+      "animated": true
+    },
+    {
+      "id": "edge-node-DlHfLq7nNXqDbwouhPn3V-node-MMl84Bimru37xW2Kjyd4x",
+      "source": "node-DlHfLq7nNXqDbwouhPn3V",
+      "target": "node-MMl84Bimru37xW2Kjyd4x",
+      "animated": true
+    },
+    {
+      "id": "edge-node-MMl84Bimru37xW2Kjyd4x-node-qk_4nCoJeEvRE9q2yC18I",
+      "source": "node-MMl84Bimru37xW2Kjyd4x",
+      "target": "node-qk_4nCoJeEvRE9q2yC18I",
+      "animated": true
+    },
+    {
+      "id": "edge-node-qk_4nCoJeEvRE9q2yC18I-node-ugdFMO3Zy4Be_GjgMZ9_z",
+      "source": "node-qk_4nCoJeEvRE9q2yC18I",
+      "target": "node-ugdFMO3Zy4Be_GjgMZ9_z",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ugdFMO3Zy4Be_GjgMZ9_z-node-qJbhaY7aU8PqVQlt2mV4z",
+      "source": "node-ugdFMO3Zy4Be_GjgMZ9_z",
+      "target": "node-qJbhaY7aU8PqVQlt2mV4z",
+      "animated": true
+    },
+    {
+      "id": "edge-node-qJbhaY7aU8PqVQlt2mV4z-node-S2P-SK6LXy82Z5VgBjx2N",
+      "source": "node-qJbhaY7aU8PqVQlt2mV4z",
+      "target": "node-S2P-SK6LXy82Z5VgBjx2N",
+      "animated": true
+    },
+    {
+      "id": "edge-node-S2P-SK6LXy82Z5VgBjx2N-node-03dZOKaQ2TvUC7BGqufQ8",
+      "source": "node-S2P-SK6LXy82Z5VgBjx2N",
+      "target": "node-03dZOKaQ2TvUC7BGqufQ8",
+      "animated": true
+    },
+    {
+      "id": "edge-node-03dZOKaQ2TvUC7BGqufQ8-node-q5OzV1_ao0xg66nYyeFjM",
+      "source": "node-03dZOKaQ2TvUC7BGqufQ8",
+      "target": "node-q5OzV1_ao0xg66nYyeFjM",
+      "animated": true
+    },
+    {
+      "id": "edge-node-q5OzV1_ao0xg66nYyeFjM-node-zhWj9lOOoxXciAvCeksxm",
+      "source": "node-q5OzV1_ao0xg66nYyeFjM",
+      "target": "node-zhWj9lOOoxXciAvCeksxm",
+      "animated": true
+    },
+    {
+      "id": "edge-node-zhWj9lOOoxXciAvCeksxm-node-PYX5MBioD6gNUeUdBIUOY",
+      "source": "node-zhWj9lOOoxXciAvCeksxm",
+      "target": "node-PYX5MBioD6gNUeUdBIUOY",
+      "animated": true
+    },
+    {
+      "id": "edge-node-PYX5MBioD6gNUeUdBIUOY-node-OzzpfpDWCzK6GYyiljA5x",
+      "source": "node-PYX5MBioD6gNUeUdBIUOY",
+      "target": "node-OzzpfpDWCzK6GYyiljA5x",
+      "animated": true
+    },
+    {
+      "id": "edge-node-OzzpfpDWCzK6GYyiljA5x-node-j_pfvhH-5qquAJXjbu-p8",
+      "source": "node-OzzpfpDWCzK6GYyiljA5x",
+      "target": "node-j_pfvhH-5qquAJXjbu-p8",
+      "animated": true
+    },
+    {
+      "id": "edge-node-j_pfvhH-5qquAJXjbu-p8-node-snUVcr1REPBMrRwuNzDf1",
+      "source": "node-j_pfvhH-5qquAJXjbu-p8",
+      "target": "node-snUVcr1REPBMrRwuNzDf1",
+      "animated": true
+    },
+    {
+      "id": "edge-node-snUVcr1REPBMrRwuNzDf1-node-2kzDNLEmYJdL0iy9JcRaR",
+      "source": "node-snUVcr1REPBMrRwuNzDf1",
+      "target": "node-2kzDNLEmYJdL0iy9JcRaR",
+      "animated": true
+    },
+    {
+      "id": "edge-node-2kzDNLEmYJdL0iy9JcRaR-node-Wy5D8nEdJf7KJcollezXw",
+      "source": "node-2kzDNLEmYJdL0iy9JcRaR",
+      "target": "node-Wy5D8nEdJf7KJcollezXw",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Wy5D8nEdJf7KJcollezXw-node-PU-d82UeSi3_MeE2mbcxo",
+      "source": "node-Wy5D8nEdJf7KJcollezXw",
+      "target": "node-PU-d82UeSi3_MeE2mbcxo",
+      "animated": true
+    },
+    {
+      "id": "edge-node-PU-d82UeSi3_MeE2mbcxo-node-GtCXJjgEhL2wLSVatu1LX",
+      "source": "node-PU-d82UeSi3_MeE2mbcxo",
+      "target": "node-GtCXJjgEhL2wLSVatu1LX",
+      "animated": true
+    },
+    {
+      "id": "edge-node-GtCXJjgEhL2wLSVatu1LX-node-l__bw06NFolmlIMOylKJP",
+      "source": "node-GtCXJjgEhL2wLSVatu1LX",
+      "target": "node-l__bw06NFolmlIMOylKJP",
+      "animated": true
+    },
+    {
+      "id": "edge-node-l__bw06NFolmlIMOylKJP-node-VWmJcie2YkJ6V6DvjSDy3",
+      "source": "node-l__bw06NFolmlIMOylKJP",
+      "target": "node-VWmJcie2YkJ6V6DvjSDy3",
+      "animated": true
+    },
+    {
+      "id": "edge-node-VWmJcie2YkJ6V6DvjSDy3-node-CdWMdC25kExM4Sp59FY4U",
+      "source": "node-VWmJcie2YkJ6V6DvjSDy3",
+      "target": "node-CdWMdC25kExM4Sp59FY4U",
+      "animated": true
+    },
+    {
+      "id": "edge-node-CdWMdC25kExM4Sp59FY4U-node-l2CI9A_cn9aatKUp3lSfi",
+      "source": "node-CdWMdC25kExM4Sp59FY4U",
+      "target": "node-l2CI9A_cn9aatKUp3lSfi",
+      "animated": true
+    },
+    {
+      "id": "edge-node-l2CI9A_cn9aatKUp3lSfi-node-hGIMl_hjYkbtTbYLi9Ijv",
+      "source": "node-l2CI9A_cn9aatKUp3lSfi",
+      "target": "node-hGIMl_hjYkbtTbYLi9Ijv",
+      "animated": true
+    },
+    {
+      "id": "edge-node-hGIMl_hjYkbtTbYLi9Ijv-node-iYGkLplsUjuCEo6YaNk_L",
+      "source": "node-hGIMl_hjYkbtTbYLi9Ijv",
+      "target": "node-iYGkLplsUjuCEo6YaNk_L",
+      "animated": true
+    },
+    {
+      "id": "edge-node-iYGkLplsUjuCEo6YaNk_L-node-MjwUcq2Y2J_8gXyLSZvts",
+      "source": "node-iYGkLplsUjuCEo6YaNk_L",
+      "target": "node-MjwUcq2Y2J_8gXyLSZvts",
+      "animated": true
+    },
+    {
+      "id": "edge-node-MjwUcq2Y2J_8gXyLSZvts-node-US48-gcagvUHsvEgeahqD",
+      "source": "node-MjwUcq2Y2J_8gXyLSZvts",
+      "target": "node-US48-gcagvUHsvEgeahqD",
+      "animated": true
+    },
+    {
+      "id": "edge-node-US48-gcagvUHsvEgeahqD-node-jIS-dqSKdsUZPovkgoEhX",
+      "source": "node-US48-gcagvUHsvEgeahqD",
+      "target": "node-jIS-dqSKdsUZPovkgoEhX",
+      "animated": true
+    },
+    {
+      "id": "edge-node-jIS-dqSKdsUZPovkgoEhX-node-q9NnyTHujmBii2oiXCNfT",
+      "source": "node-jIS-dqSKdsUZPovkgoEhX",
+      "target": "node-q9NnyTHujmBii2oiXCNfT",
+      "animated": true
+    },
+    {
+      "id": "edge-node-q9NnyTHujmBii2oiXCNfT-node-wYHDGxaqMG8y2oDjKjkzB",
+      "source": "node-q9NnyTHujmBii2oiXCNfT",
+      "target": "node-wYHDGxaqMG8y2oDjKjkzB",
+      "animated": true
+    },
+    {
+      "id": "edge-node-wYHDGxaqMG8y2oDjKjkzB-node-uhilOC2btRa61IoM5c3-C",
+      "source": "node-wYHDGxaqMG8y2oDjKjkzB",
+      "target": "node-uhilOC2btRa61IoM5c3-C",
+      "animated": true
+    },
+    {
+      "id": "edge-node-uhilOC2btRa61IoM5c3-C-node-UTIPCn26LOzF5HW7775sE",
+      "source": "node-uhilOC2btRa61IoM5c3-C",
+      "target": "node-UTIPCn26LOzF5HW7775sE",
+      "animated": true
+    },
+    {
+      "id": "edge-node-UTIPCn26LOzF5HW7775sE-node-i2Tg7bH-0ny0RLVmZN5Iw",
+      "source": "node-UTIPCn26LOzF5HW7775sE",
+      "target": "node-i2Tg7bH-0ny0RLVmZN5Iw",
+      "animated": true
+    },
+    {
+      "id": "edge-node-i2Tg7bH-0ny0RLVmZN5Iw-node-_7Lo7JUjJ1iJ0bHrwlz3f",
+      "source": "node-i2Tg7bH-0ny0RLVmZN5Iw",
+      "target": "node-_7Lo7JUjJ1iJ0bHrwlz3f",
+      "animated": true
+    },
+    {
+      "id": "edge-node-_7Lo7JUjJ1iJ0bHrwlz3f-node-8HR1zfU5WGMFtf2UrDvmJ",
+      "source": "node-_7Lo7JUjJ1iJ0bHrwlz3f",
+      "target": "node-8HR1zfU5WGMFtf2UrDvmJ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-8HR1zfU5WGMFtf2UrDvmJ-node-W5fsnYf-CKMNUrcZ1HAKh",
+      "source": "node-8HR1zfU5WGMFtf2UrDvmJ",
+      "target": "node-W5fsnYf-CKMNUrcZ1HAKh",
+      "animated": true
+    },
+    {
+      "id": "edge-node-W5fsnYf-CKMNUrcZ1HAKh-node-3AMETPxIcRWbjGwkLoFxW",
+      "source": "node-W5fsnYf-CKMNUrcZ1HAKh",
+      "target": "node-3AMETPxIcRWbjGwkLoFxW",
+      "animated": true
+    },
+    {
+      "id": "edge-node-3AMETPxIcRWbjGwkLoFxW-node-Nl3xvCKE_4jozlAiweqBJ",
+      "source": "node-3AMETPxIcRWbjGwkLoFxW",
+      "target": "node-Nl3xvCKE_4jozlAiweqBJ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Nl3xvCKE_4jozlAiweqBJ-node-VMX5mUOBFKhnuPmKdh3zF",
+      "source": "node-Nl3xvCKE_4jozlAiweqBJ",
+      "target": "node-VMX5mUOBFKhnuPmKdh3zF",
+      "animated": true
+    },
+    {
+      "id": "edge-node-VMX5mUOBFKhnuPmKdh3zF-node-k864ijkOZFS1tPSwBXXHC",
+      "source": "node-VMX5mUOBFKhnuPmKdh3zF",
+      "target": "node-k864ijkOZFS1tPSwBXXHC",
+      "animated": true
+    },
+    {
+      "id": "edge-node-k864ijkOZFS1tPSwBXXHC-node-J_xpmcvqWbI7ZZGEHlc50",
+      "source": "node-k864ijkOZFS1tPSwBXXHC",
+      "target": "node-J_xpmcvqWbI7ZZGEHlc50",
+      "animated": true
+    },
+    {
+      "id": "edge-node-J_xpmcvqWbI7ZZGEHlc50-node-bwj1QpmHeJth7Z5b1TpfU",
+      "source": "node-J_xpmcvqWbI7ZZGEHlc50",
+      "target": "node-bwj1QpmHeJth7Z5b1TpfU",
+      "animated": true
+    },
+    {
+      "id": "edge-node-bwj1QpmHeJth7Z5b1TpfU-node-auEN54ontSqWBb-DDD_A9",
+      "source": "node-bwj1QpmHeJth7Z5b1TpfU",
+      "target": "node-auEN54ontSqWBb-DDD_A9",
+      "animated": true
+    },
+    {
+      "id": "edge-node-auEN54ontSqWBb-DDD_A9-node-iq1jmcWoLb2BodJBuk7v0",
+      "source": "node-auEN54ontSqWBb-DDD_A9",
+      "target": "node-iq1jmcWoLb2BodJBuk7v0",
+      "animated": true
+    },
+    {
+      "id": "edge-node-iq1jmcWoLb2BodJBuk7v0-node-k2EyAc_Zs5VDUJ55taOy2",
+      "source": "node-iq1jmcWoLb2BodJBuk7v0",
+      "target": "node-k2EyAc_Zs5VDUJ55taOy2",
+      "animated": true
+    },
+    {
+      "id": "edge-node-k2EyAc_Zs5VDUJ55taOy2-node-ZUenBZJztKfzobLOj8BdV",
+      "source": "node-k2EyAc_Zs5VDUJ55taOy2",
+      "target": "node-ZUenBZJztKfzobLOj8BdV",
+      "animated": true
+    }
+  ],
+  "topics": {
+    "tI31OEk2oI2CzTLZ3kCQl": {
+      "id": "tI31OEk2oI2CzTLZ3kCQl",
+      "slug": "ab-testing",
+      "title": "A/B Testing",
+      "description": "A/B testing compares two versions of a design, showing each version to a separate group of users, to measure which one performs better against a specific metric. Because only one variable typically changes between versions, teams can attribute any difference in outcome to that specific change with reasonable confidence. It is one of the most common ways product teams validate design decisions with real user data before rolling them out fully.",
+      "resources": [
+        {
+          "id": "tI31OEk2oI2CzTLZ3kCQl-res-1",
+          "type": "article",
+          "title": "A/B Testing — What it is, examples, and best practices.",
+          "url": "https://business.adobe.com/blog/basics/learn-about-a-b-testing"
+        },
+        {
+          "id": "tI31OEk2oI2CzTLZ3kCQl-res-2",
+          "type": "article",
+          "title": "The complete guide to A/B testing in 2026",
+          "url": "https://www.kameleoon.com/ab-testing"
+        },
+        {
+          "id": "tI31OEk2oI2CzTLZ3kCQl-res-3",
+          "type": "video",
+          "title": "What is A/B Testing in Design & User Experience Research?",
+          "url": "https://www.youtube.com/watch?v=R1jAoOvWRN0"
+        },
+        {
+          "id": "tI31OEk2oI2CzTLZ3kCQl-res-4",
+          "type": "video",
+          "title": "How To A/B Test a Product",
+          "url": "https://www.youtube.com/watch?v=jEpwNaHjD68"
+        }
+      ]
+    },
+    "QOvNo5vsPhIJCSDQu3-Ln": {
+      "id": "QOvNo5vsPhIJCSDQu3-Ln",
+      "slug": "accessibility-testing",
+      "title": "Accessibility Testing",
+      "description": "Accessibility testing evaluates whether a product can be used effectively by people with disabilities, including those using screen readers, keyboard-only navigation, or other assistive technology. It checks things like color contrast, alternative text, and proper semantic structure against established accessibility standards. This testing is essential for ensuring a product is usable by as wide a range of people as possible, and is often a legal requirement as well.",
+      "resources": [
+        {
+          "id": "QOvNo5vsPhIJCSDQu3-Ln-res-1",
+          "type": "article",
+          "title": "Accessibility Testing: What Is It, And Why Does It Matter?",
+          "url": "https://uxarmy.com/blog/accessibility-testing/"
+        },
+        {
+          "id": "QOvNo5vsPhIJCSDQu3-Ln-res-2",
+          "type": "video",
+          "title": "If I Started Web Accessibility in 2026, This Is My Plan",
+          "url": "https://www.youtube.com/watch?v=5MWtL-I-XEc&list=PLsvet3tE97Xe2obfpeS_TxuHD-437KrJc"
+        }
+      ]
+    },
+    "5vPrv890AGAMy3VPl9gwk": {
+      "id": "5vPrv890AGAMy3VPl9gwk",
+      "slug": "agile-ux-lean-ux",
+      "title": "Agile UX, Lean UX",
+      "description": "Agile UX and Lean UX are approaches to design that fit within iterative, fast-moving development cycles rather than lengthy upfront design phases. They favor small, testable increments of design work, tight feedback loops, and close collaboration with engineering throughout a sprint. These approaches are common in teams that release frequently and need design to keep pace with development.",
+      "resources": [
+        {
+          "id": "5vPrv890AGAMy3VPl9gwk-res-1",
+          "type": "article",
+          "title": "Lean UX & Agile: Study Guide",
+          "url": "https://www.nngroup.com/articles/lean-ux-agile-study-guide/"
+        },
+        {
+          "id": "5vPrv890AGAMy3VPl9gwk-res-2",
+          "type": "video",
+          "title": "Attributes of Effective Agile UX",
+          "url": "https://www.youtube.com/watch?v=XLvx-hCmKPk"
+        },
+        {
+          "id": "5vPrv890AGAMy3VPl9gwk-res-3",
+          "type": "video",
+          "title": "What is Lean UX?",
+          "url": "https://www.youtube.com/watch?v=Y_C9jKXUVnE"
+        }
+      ]
+    },
+    "WC7fqDlXZyONf11qzDpdJ": {
+      "id": "WC7fqDlXZyONf11qzDpdJ",
+      "slug": "ai-assisted-design",
+      "title": "AI-Assisted Design",
+      "description": "AI-assisted design refers to using artificial intelligence tools to support parts of the design process, such as generating layout variations, writing draft copy, or producing quick visual concepts. These tools can speed up early exploration and reduce repetitive manual work, though designers still need to evaluate and refine the output. As these tools evolve, they are increasingly integrated into existing design and prototyping workflows rather than used as standalone products.",
+      "resources": [
+        {
+          "id": "WC7fqDlXZyONf11qzDpdJ-res-1",
+          "type": "article",
+          "title": "Good from Afar, But Far from Good: AI Prototyping in Real Design Contexts",
+          "url": "https://www.nngroup.com/articles/ai-prototyping/"
+        }
+      ]
+    },
+    "jAhHs0Ba18emgZBdn77Gd": {
+      "id": "jAhHs0Ba18emgZBdn77Gd",
+      "slug": "aligning-teams",
+      "title": "Aligning Teams",
+      "description": "Aligning teams is the ongoing work of getting stakeholders, designers, and engineers to agree on direction, priorities, and process. It includes practices like stakeholder alignment, adopting shared methods such as Agile UX or Lean UX, and running collaborative design workshops or sprints. Strong alignment reduces friction and rework later in a project caused by misunderstandings about goals or approach.",
+      "resources": []
+    },
+    "l6hgxqruST7xBBypypQFs": {
+      "id": "l6hgxqruST7xBBypypQFs",
+      "slug": "api--data-limitations",
+      "title": "API & Data Limitations",
+      "description": "API and data limitations refer to the technical boundaries imposed by the software services that power a digital product, such as how much information can be retrieved at once, how quickly it can be updated, or what specific data fields are available. These constraints dictate the realism of a design, as they define whether a user interface can display real-time information, handle large datasets, or support certain interactive features. Understanding these boundaries early helps designers avoid creating experiences that the underlying system cannot technically support or that would cause significant performance issues for the end user.",
+      "resources": [
+        {
+          "id": "l6hgxqruST7xBBypypQFs-res-1",
+          "type": "article",
+          "title": "Everything I know about good API design",
+          "url": "https://www.seangoedecke.com/good-api-design/"
+        },
+        {
+          "id": "l6hgxqruST7xBBypypQFs-res-2",
+          "type": "article",
+          "title": "Understanding Data Design: The Key to Effective User Experiences",
+          "url": "https://pixso.net/articles/data-design/"
+        }
+      ]
+    },
+    "pWiKXyU5rUxvutXhpgcBD": {
+      "id": "pWiKXyU5rUxvutXhpgcBD",
+      "slug": "assumption-mapping",
+      "title": "Assumption Mapping",
+      "description": "Assumption mapping is the practice of listing out the underlying beliefs a product idea depends on, then ranking them by how risky and how uncertain each one is. It helps a team see which assumptions need to be tested before moving forward, rather than treating all beliefs as equally solid. This step often produces a shortlist of experiments needed to validate the riskiest assumptions first.",
+      "resources": [
+        {
+          "id": "pWiKXyU5rUxvutXhpgcBD-res-1",
+          "type": "article",
+          "title": "An introduction to assumptions mapping",
+          "url": "https://www.mural.co/blog/intro-assumptions-mapping"
+        },
+        {
+          "id": "pWiKXyU5rUxvutXhpgcBD-res-2",
+          "type": "video",
+          "title": "How to Get Started with Assumptions Mapping",
+          "url": "https://www.youtube.com/watch?v=PyCvsBrKO4w"
+        }
+      ]
+    },
+    "Ypy2m6Y_-kkqwpfanwbQ3": {
+      "id": "Ypy2m6Y_-kkqwpfanwbQ3",
+      "slug": "brainstorming",
+      "title": "Brainstorming",
+      "description": "Brainstorming is a group activity where participants generate as many ideas as possible for solving a problem, typically without judging or filtering them in the moment. The emphasis on quantity over quality early on helps surface unconventional ideas that might otherwise get dismissed too soon. Ideas generated here are usually filtered and refined in later steps of the ideation process.",
+      "resources": [
+        {
+          "id": "Ypy2m6Y_-kkqwpfanwbQ3-res-1",
+          "type": "article",
+          "title": "The 6 Key Components of an Effective Product Brainstorming Session",
+          "url": "https://www.disher.com/blog/brainstorming-session-components/"
+        },
+        {
+          "id": "Ypy2m6Y_-kkqwpfanwbQ3-res-2",
+          "type": "article",
+          "title": "How I Run Brainstorming Sessions (UX Framework)",
+          "url": "https://www.youtube.com/watch?v=9mOIgNml-eg&t=211s"
+        }
+      ]
+    },
+    "_FYOA_bNRxoNeoPs_rMuk": {
+      "id": "_FYOA_bNRxoNeoPs_rMuk",
+      "slug": "business--user-needs",
+      "title": "Business & User Needs",
+      "description": "Balancing business and user needs means weighing what would benefit users against what the business requires to remain viable, such as revenue or strategic goals. A design that ignores business needs may not survive as a sustainable product, while one that ignores user needs may fail to gain adoption. Prioritization decisions usually involve finding the overlap between these two sets of needs.",
+      "resources": [
+        {
+          "id": "_FYOA_bNRxoNeoPs_rMuk-res-1",
+          "type": "article",
+          "title": "Balancing business needs and user needs in a product",
+          "url": "https://www.uxdesigninstitute.com/blog/business-needs-and-user-needs/"
+        },
+        {
+          "id": "_FYOA_bNRxoNeoPs_rMuk-res-2",
+          "type": "article",
+          "title": "Navigating the User Needs vs. Business Needs Dilemma",
+          "url": "https://medium.com/design-bootcamp/business-needs-vs-user-needs-2b62190b6a22"
+        }
+      ]
+    },
+    "t8gOYcyit3111blHtJHOT": {
+      "id": "t8gOYcyit3111blHtJHOT",
+      "slug": "business-alignment",
+      "title": "Business Alignment",
+      "description": "Business alignment is the process of connecting design and product decisions to the broader goals, strategy, and metrics of the business. It includes understanding how the business operates, shaping product strategy, and tracking relevant business metrics and OKRs. Without this alignment, product design risks producing work that pleases users but does not support the company's underlying objectives.",
+      "resources": [
+        {
+          "id": "t8gOYcyit3111blHtJHOT-res-1",
+          "type": "article",
+          "title": "What is Business Alignment?",
+          "url": "https://dealhub.io/glossary/business-alignment/"
+        }
+      ]
+    },
+    "id54mKpAb7h62n1RyBfzT": {
+      "id": "id54mKpAb7h62n1RyBfzT",
+      "slug": "business-metrics--okrs",
+      "title": "Business Metrics & OKRs",
+      "description": "Business metrics and OKRs are the specific measures and objectives a company tracks to judge whether it is succeeding, such as revenue, growth rate, or customer retention. OKRs pair an objective with measurable key results, giving teams a clear way to check progress. Product design decisions are often justified or prioritized based on how they are expected to move these metrics.",
+      "resources": [
+        {
+          "id": "id54mKpAb7h62n1RyBfzT-res-1",
+          "type": "article",
+          "title": "What are OKRs? A guide to objectives and key results",
+          "url": "https://asana.com/resources/okr-meaning"
+        },
+        {
+          "id": "id54mKpAb7h62n1RyBfzT-res-2",
+          "type": "video",
+          "title": "Objectives and Key Results explained (New OKR Crash Course)",
+          "url": "https://www.youtube.com/watch?v=1nEyzZnSsTg"
+        }
+      ]
+    },
+    "l6NCN6tGAKFU48I_VRXAg": {
+      "id": "l6NCN6tGAKFU48I_VRXAg",
+      "slug": "business-understanding",
+      "title": "Business Understanding",
+      "description": "Business understanding means having a working knowledge of how the company makes money, who its customers are, and what constraints shape its decisions. This context helps a designer make choices that are realistic and aligned with what the business can support, rather than purely ideal from a user's perspective. It is often gained through conversations with stakeholders, sales, and leadership rather than through user research alone.",
+      "resources": [
+        {
+          "id": "l6NCN6tGAKFU48I_VRXAg-res-1",
+          "type": "article",
+          "title": "What Is Business Acumen? And How to Develop It",
+          "url": "https://www.coursera.org/articles/what-is-business-acumen"
+        },
+        {
+          "id": "l6NCN6tGAKFU48I_VRXAg-res-2",
+          "type": "video",
+          "title": "What is Business Acumen?",
+          "url": "https://www.youtube.com/watch?v=pr12giEsBSk"
+        }
+      ]
+    },
+    "lKVVP0ILn8Fywr-P3Lgno": {
+      "id": "lKVVP0ILn8Fywr-P3Lgno",
+      "slug": "collaboration-by-design",
+      "title": "Collaboration by Design",
+      "description": "Collaboration by design means treating design as a shared, cross-functional activity involving product managers, engineers, and other stakeholders rather than something done in isolation. Design workshops, reviews, and shared documentation are common practices that support this. It reflects the reality that good product decisions usually depend on input from multiple disciplines, not just the designer.",
+      "resources": []
+    },
+    "w_sr4EMZsyOWcWwiHMGCx": {
+      "id": "w_sr4EMZsyOWcWwiHMGCx",
+      "slug": "color",
+      "title": "Color",
+      "description": "Color in interface design is used to establish hierarchy, communicate meaning, such as errors or success states, and support a product's brand identity. A well-considered color palette also needs to account for accessibility, ensuring enough contrast for users with visual impairments. Color choices are typically defined once in a design system and reused consistently across a product.",
+      "resources": [
+        {
+          "id": "w_sr4EMZsyOWcWwiHMGCx-res-1",
+          "type": "article",
+          "title": "How To Actually Implement Your UI Color Palette",
+          "url": "https://medium.com/@shannon.cabeen/how-to-actually-implement-your-ui-color-palette-a5a7e266dc6f"
+        },
+        {
+          "id": "w_sr4EMZsyOWcWwiHMGCx-res-2",
+          "type": "article",
+          "title": "100 color combinations to influence your next design",
+          "url": "https://www.figma.com/resource-library/color-combinations/"
+        },
+        {
+          "id": "w_sr4EMZsyOWcWwiHMGCx-res-3",
+          "type": "article",
+          "title": "Color Theory",
+          "url": "https://designcode.io/color-theory"
+        }
+      ]
+    },
+    "KrC2p39xUWJjnJh4yUC-6": {
+      "id": "KrC2p39xUWJjnJh4yUC-6",
+      "slug": "components",
+      "title": "Components",
+      "description": "Components are reusable interface building blocks, such as buttons, form fields, or cards, that combine visual style and behavior into a single, consistent unit. Building interfaces from shared components speeds up design and development while keeping the product visually and functionally consistent. Components are a core part of most design systems, since they let teams avoid rebuilding the same elements repeatedly.",
+      "resources": [
+        {
+          "id": "KrC2p39xUWJjnJh4yUC-6-res-1",
+          "type": "article",
+          "title": "The Largest Library of Open-Source UI",
+          "url": "https://uiverse.io/"
+        },
+        {
+          "id": "KrC2p39xUWJjnJh4yUC-6-res-2",
+          "type": "article",
+          "title": "What Are UI Components? Types, Benefits, Limitations & More",
+          "url": "https://magicui.design/blog/what-are-ui-components"
+        },
+        {
+          "id": "KrC2p39xUWJjnJh4yUC-6-res-3",
+          "type": "video",
+          "title": "UI Components Every Programmer Should Know (Probably)",
+          "url": "https://www.youtube.com/watch?v=cjSpnReY3Xwhttps://www.youtube.com/watch?v=cjSpnReY3Xw"
+        }
+      ]
+    },
+    "fzInyQDV_9TqeQf1jLKLT": {
+      "id": "fzInyQDV_9TqeQf1jLKLT",
+      "slug": "consistency--coherence",
+      "title": "Consistency & Coherence",
+      "description": "Consistency and coherence mean that a product's visual style, terminology, and interaction patterns behave the same way across different screens and features. Inconsistent patterns force users to relearn how things work in different parts of the same product, increasing cognitive effort. Design systems and shared components are common tools used to maintain this principle at scale.",
+      "resources": []
+    },
+    "v8g054KMIKVvtpWvOfTVW": {
+      "id": "v8g054KMIKVvtpWvOfTVW",
+      "slug": "content-design",
+      "title": "Content Design",
+      "description": "Content design is the practice of crafting the words used throughout a product, including labels, instructions, and messages, so they are clear and helpful to users. It includes UX writing, defining a consistent voice and tone, and writing precise microcopy for specific interface moments. Good content design often reduces confusion more effectively than visual changes alone.",
+      "resources": [
+        {
+          "id": "v8g054KMIKVvtpWvOfTVW-res-1",
+          "type": "article",
+          "title": "Content Design and UI Mapping",
+          "url": "https://wolframnagel.medium.com/content-design-and-ui-mapping-a35af8cac3f6"
+        },
+        {
+          "id": "v8g054KMIKVvtpWvOfTVW-res-2",
+          "type": "article",
+          "title": "What is content design?",
+          "url": "https://uxcontent.com/content-design/"
+        },
+        {
+          "id": "v8g054KMIKVvtpWvOfTVW-res-3",
+          "type": "video",
+          "title": "What is UX Writing and Content Design? | Get a tech career without learning to code!",
+          "url": "https://www.youtube.com/watch?v=K8bec9d9d78"
+        },
+        {
+          "id": "v8g054KMIKVvtpWvOfTVW-res-4",
+          "type": "video",
+          "title": "What is Content Design?",
+          "url": "https://www.youtube.com/watch?v=PsL5zHLiwWQ"
+        }
+      ]
+    },
+    "ttBrvqyUpCcnrT8ksRggd": {
+      "id": "ttBrvqyUpCcnrT8ksRggd",
+      "slug": "content-organization",
+      "title": "Content Organization",
+      "description": "Content organization is the process of grouping and labeling information within a product so it matches how users think about and search for it. Poorly organized content can hide useful information behind confusing categories or unclear labels, even if the content itself is well written. This work often draws on card sorting or similar research techniques to validate that groupings make sense to real users.",
+      "resources": [
+        {
+          "id": "ttBrvqyUpCcnrT8ksRggd-res-1",
+          "type": "article",
+          "title": "Content organization at its finest",
+          "url": "https://kontent.ai/learn/set-up/your-first-project/content-organization?sl=1"
+        }
+      ]
+    },
+    "BC_3TgAAehSUlM_oC3aEq": {
+      "id": "BC_3TgAAehSUlM_oC3aEq",
+      "slug": "contextual-inquiry",
+      "title": "Contextual Inquiry",
+      "description": "Contextual inquiry is a research method where a designer observes and talks with users while they use a product or perform a task in their actual environment. Watching behavior in context often reveals problems or workarounds that users would not think to mention in an interview. It is especially valuable for understanding workflows that are shaped by physical space, tools, or team dynamics.",
+      "resources": [
+        {
+          "id": "BC_3TgAAehSUlM_oC3aEq-res-1",
+          "type": "article",
+          "title": "Contextual Inquiry: Inspire Design by Observing and Interviewing Users in Their Context",
+          "url": "https://www.nngroup.com/articles/contextual-inquiry/"
+        },
+        {
+          "id": "BC_3TgAAehSUlM_oC3aEq-res-2",
+          "type": "article",
+          "title": "Contextual inquiry: A comprehensive guide",
+          "url": "https://www.usertesting.com/blog/contextual-inquiry"
+        },
+        {
+          "id": "BC_3TgAAehSUlM_oC3aEq-res-3",
+          "type": "video",
+          "title": "Contextual Enquiry",
+          "url": "https://www.youtube.com/watch?v=mOWeNnSY5M0"
+        }
+      ]
+    },
+    "dgBELpFRvRO_7ir0y0AtX": {
+      "id": "dgBELpFRvRO_7ir0y0AtX",
+      "slug": "continuous-improvement",
+      "title": "Continuous Improvement",
+      "description": "Continuous improvement is the ongoing practice of using data, feedback, and experimentation to make incremental refinements to a product after launch. Rather than treating a product as finished once shipped, teams keep monitoring performance and iterating based on what they learn. This mindset closes the loop back to earlier stages like research and testing, treating design as a repeating cycle rather than a one-time project.",
+      "resources": [
+        {
+          "id": "dgBELpFRvRO_7ir0y0AtX-res-1",
+          "type": "article",
+          "title": "Continuous Improvement",
+          "url": "https://www.productplan.com/glossary/continuous-improvement"
+        }
+      ]
+    },
+    "e6giaRpKxfvKXsfjhBj7G": {
+      "id": "e6giaRpKxfvKXsfjhBj7G",
+      "slug": "critiques--reviews",
+      "title": "Critiques & Reviews",
+      "description": "Critiques and reviews are structured sessions where designers present their work to peers or stakeholders to receive feedback before finalizing a design. They are meant to surface blind spots and alternative perspectives that the original designer may not have considered. A well-run critique focuses on the problem the design is solving rather than personal taste alone.",
+      "resources": [
+        {
+          "id": "e6giaRpKxfvKXsfjhBj7G-res-1",
+          "type": "article",
+          "title": "Mastering design critique with a product team: why it matters and how to do it well",
+          "url": "https://medium.com/design-bootcamp/mastering-design-critique-with-a-product-team-why-it-matters-and-how-to-do-it-well-1148a9092ac7"
+        },
+        {
+          "id": "e6giaRpKxfvKXsfjhBj7G-res-2",
+          "type": "article",
+          "title": "Design Critiques: Encourage a Positive Culture to Improve Products",
+          "url": "https://www.nngroup.com/articles/design-critiques/"
+        }
+      ]
+    },
+    "X4NkbOfNGR89y5x1c3MFo": {
+      "id": "X4NkbOfNGR89y5x1c3MFo",
+      "slug": "defining-success",
+      "title": "Defining Success",
+      "description": "Defining success is the early step of setting clear goals, a vision, and measurable outcomes for a product before design work begins. It includes clarifying the product vision, value proposition, and the metrics that will indicate whether the product is working. Without this step, teams risk building features that look good but do not move any meaningful outcome.",
+      "resources": [
+        {
+          "id": "X4NkbOfNGR89y5x1c3MFo-res-1",
+          "type": "article",
+          "title": "Product Success: 13 Metrics That Measure What Matters",
+          "url": "https://productschool.com/blog/analytics/product-success"
+        }
+      ]
+    },
+    "2BHujRBCdcaJdIb23Fu6j": {
+      "id": "2BHujRBCdcaJdIb23Fu6j",
+      "slug": "design-handoff",
+      "title": "Design Handoff",
+      "description": "Design handoff is the process of transferring finished design work to engineers in a clear, usable format, including specifications for spacing, colors, and behavior. A well-executed handoff reduces back-and-forth questions and the risk of implementation not matching the intended design. Tools that link directly to design files with specs and assets have made this process faster than manually writing out documentation.",
+      "resources": [
+        {
+          "id": "2BHujRBCdcaJdIb23Fu6j-res-1",
+          "type": "article",
+          "title": "Design Handoff to Developers: How to Stay True to Your Original Vision",
+          "url": "https://www.qt.io/software-insights/design-handoff-to-developers-how-to-stay-true-to-your-original-vision"
+        },
+        {
+          "id": "2BHujRBCdcaJdIb23Fu6j-res-2",
+          "type": "article",
+          "title": "Design Handoffs",
+          "url": "https://ixdf.org/literature/topics/design-handoffs"
+        },
+        {
+          "id": "2BHujRBCdcaJdIb23Fu6j-res-3",
+          "type": "video",
+          "title": "How to handoff your designs to Engineering",
+          "url": "https://www.youtube.com/watch?v=PK8dLpwSqbw"
+        }
+      ]
+    },
+    "9JlXWWRRXGm5tcFl5IDCq": {
+      "id": "9JlXWWRRXGm5tcFl5IDCq",
+      "slug": "design-principles",
+      "title": "Design Principles",
+      "description": "Design principles are the guiding rules a team commits to when making design decisions, covering things like putting users first, favoring function over polish, and staying consistent across a product. They act as a shared reference so individual designers make similar calls even when working independently. Principles like these get applied throughout every later stage, from research to shipping.",
+      "resources": [
+        {
+          "id": "9JlXWWRRXGm5tcFl5IDCq-res-1",
+          "type": "article",
+          "title": "Principles of Product Design",
+          "url": "https://principles.design/examples/principles-of-product-design"
+        },
+        {
+          "id": "9JlXWWRRXGm5tcFl5IDCq-res-2",
+          "type": "article",
+          "title": "5 Design Principles From The World’s Most Product-Centric Companies",
+          "url": "https://www.productplan.com/learn/product-design-principles"
+        },
+        {
+          "id": "9JlXWWRRXGm5tcFl5IDCq-res-3",
+          "type": "video",
+          "title": "The Principles of Design | FREE COURSE",
+          "url": "https://www.youtube.com/watch?v=9EPTM91TBDU"
+        }
+      ]
+    },
+    "9_zOlYfK-YSWbXoBalPf3": {
+      "id": "9_zOlYfK-YSWbXoBalPf3",
+      "slug": "design-systems",
+      "title": "Design Systems",
+      "description": "A design system is a shared collection of reusable components, patterns, and guidelines, including visual foundations like color and typography, that keeps a product consistent as it grows. It gives designers and engineers a common language and set of building blocks instead of recreating the same elements repeatedly. Well-maintained design systems become especially valuable as a product scales across multiple teams or platforms.",
+      "resources": [
+        {
+          "id": "9_zOlYfK-YSWbXoBalPf3-res-1",
+          "type": "article",
+          "title": "Design Handoffs",
+          "url": "https://ixdf.org/literature/topics/design-handoffs"
+        },
+        {
+          "id": "9_zOlYfK-YSWbXoBalPf3-res-2",
+          "type": "video",
+          "title": "Build a Design System - Full Course",
+          "url": "https://www.youtube.com/watch?v=opTANvl9G1g"
+        }
+      ]
+    },
+    "rnt2fhRBVd4UI5ANC-YIh": {
+      "id": "rnt2fhRBVd4UI5ANC-YIh",
+      "slug": "design-tokens",
+      "title": "Design Tokens",
+      "description": "Design tokens are named, reusable values, such as a specific color, spacing unit, or font size, that store core design decisions in a single place. Instead of hardcoding a color value on every screen, a designer references a token like \"primary-color\" that can be updated everywhere at once. This makes it much easier to maintain consistency and make sweeping visual changes across a large product.",
+      "resources": [
+        {
+          "id": "rnt2fhRBVd4UI5ANC-YIh-res-1",
+          "type": "article",
+          "title": "Design tokens explained (and how to build a design token system)",
+          "url": "https://www.contentful.com/blog/design-token-system/"
+        },
+        {
+          "id": "rnt2fhRBVd4UI5ANC-YIh-res-2",
+          "type": "article",
+          "title": "Design tokens: How to sync design and code in Figma",
+          "url": "https://www.figma.com/resource-library/design-tokens/"
+        },
+        {
+          "id": "rnt2fhRBVd4UI5ANC-YIh-res-3",
+          "type": "video",
+          "title": "Introduction to Design Systems: Design Tokens",
+          "url": "https://www.youtube.com/watch?v=1O2sROtE3uI"
+        },
+        {
+          "id": "rnt2fhRBVd4UI5ANC-YIh-res-4",
+          "type": "video",
+          "title": "Tokens, variables, and styles - Update: Introduction to design systems",
+          "url": "https://www.youtube.com/watch?v=JyCmacSyDY4"
+        }
+      ]
+    },
+    "PeC0uue9ZwvAxcN_4NOub": {
+      "id": "PeC0uue9ZwvAxcN_4NOub",
+      "slug": "design-workshops--sprints",
+      "title": "Design Workshops & Sprints",
+      "description": "Design workshops and sprints are structured, time-boxed sessions where a team collaborates intensively to solve a specific problem, often over a few days. They typically combine activities like sketching, prioritization, and prototyping to move quickly from a vague problem to a testable idea. This approach is used when a team needs rapid alignment and a concrete output in a short amount of time.",
+      "resources": [
+        {
+          "id": "PeC0uue9ZwvAxcN_4NOub-res-1",
+          "type": "article",
+          "title": "How to create and run a design workshop",
+          "url": "https://thelittledesigncorner.com/blogs/news/design-workshop-guide?srsltid=AfmBOopvcpUPIeSNj31lR1Nz2Hb_XVtTIEHU4na3DI-L_CstfBVLic4z"
+        },
+        {
+          "id": "PeC0uue9ZwvAxcN_4NOub-res-2",
+          "type": "article",
+          "title": "A guide to understanding the 5 phases of design sprints",
+          "url": "https://www.atlassian.com/en/agile/design/design-sprint"
+        },
+        {
+          "id": "PeC0uue9ZwvAxcN_4NOub-res-3",
+          "type": "video",
+          "title": "How To Run a Design Thinking Workshop (2-hour Live Training)",
+          "url": "https://www.youtube.com/watch?v=J64VamE8LdE"
+        },
+        {
+          "id": "PeC0uue9ZwvAxcN_4NOub-res-4",
+          "type": "video",
+          "title": "What is a Design Sprint? | Google UX Design Certificate",
+          "url": "https://www.youtube.com/watch?v=xVvVaIWTuck"
+        }
+      ]
+    },
+    "C0EkWS2SR3ZVi3-hPyNP_": {
+      "id": "C0EkWS2SR3ZVi3-hPyNP_",
+      "slug": "designing-responsibly",
+      "title": "Designing Responsibly",
+      "description": "Designing responsibly means considering the broader impact of design decisions on users and society, beyond just business metrics or user engagement. It includes practices like ethical design, which questions whether a pattern manipulates users unfairly, and inclusive design, which ensures products work for people with diverse needs and backgrounds. This area has grown in importance as design has become more capable of shaping user behavior at scale.",
+      "resources": []
+    },
+    "UdWsU4kOxSqcHacgTvd7E": {
+      "id": "UdWsU4kOxSqcHacgTvd7E",
+      "slug": "designops",
+      "title": "DesignOps",
+      "description": "DesignOps refers to the operational practices that support a design team's efficiency, including workflows, tooling, hiring, and processes that let designers focus on design work rather than administrative overhead. It plays a similar role for design teams that DevOps plays for engineering teams. DesignOps becomes especially important as a design organization grows and needs consistent processes across multiple teams or products.",
+      "resources": [
+        {
+          "id": "UdWsU4kOxSqcHacgTvd7E-res-1",
+          "type": "article",
+          "title": "DesignOps – How to Improve Your Design Workflow and Operations",
+          "url": "https://www.uxpin.com/studio/blog/designops/"
+        },
+        {
+          "id": "UdWsU4kOxSqcHacgTvd7E-res-2",
+          "type": "article",
+          "title": "What is DesignOps? How It Scales Design Teams and Speeds Delivery",
+          "url": "https://www.neuronux.com/post/what-is-designops"
+        },
+        {
+          "id": "UdWsU4kOxSqcHacgTvd7E-res-3",
+          "type": "video",
+          "title": "DesignOps 101",
+          "url": "https://www.youtube.com/watch?v=I-z1NCbQQ38&list=PLJOFJ3Ok_iduKLPT5n2IQr-at29zhPS4E"
+        }
+      ]
+    },
+    "FzFKW32DLjvH6JyYVsfGx": {
+      "id": "FzFKW32DLjvH6JyYVsfGx",
+      "slug": "developer-collaboration",
+      "title": "Developer Collaboration",
+      "description": "Developer collaboration is the ongoing communication between designers and engineers throughout a project, not just at the point of handoff. Involving developers early can surface technical constraints or better implementation approaches before a design is finalized. This continuous relationship helps prevent late-stage surprises that force design changes during development.",
+      "resources": []
+    },
+    "pAFqw5GHr1O38wEQh3UA4": {
+      "id": "pAFqw5GHr1O38wEQh3UA4",
+      "slug": "edge-cases--states",
+      "title": "Edge Cases & States",
+      "description": "Edge cases and states refer to the variations in a design that account for non-ideal or non-standard scenarios during user interaction. States define how an interface looks or behaves under specific conditions, such as loading, success, error, or empty states, while edge cases address unusual occurrences like exceptionally long text strings, lost internet connectivity, or unexpected data inputs. By documenting these scenarios, designers ensure that the interface remains functional and provides clear feedback to the user even when the application deviates from the primary happy path.",
+      "resources": [
+        {
+          "id": "pAFqw5GHr1O38wEQh3UA4-res-1",
+          "type": "article",
+          "title": "Dealing with Edge Cases in Product Design",
+          "url": "https://medium.com/@nelsonjoyce/dealing-with-edge-cases-in-product-design-f90ecbf0dffd"
+        },
+        {
+          "id": "pAFqw5GHr1O38wEQh3UA4-res-2",
+          "type": "article",
+          "title": "Designing for edge cases",
+          "url": "https://www.uxtoast.com/ux-design/edge-cases"
+        },
+        {
+          "id": "pAFqw5GHr1O38wEQh3UA4-res-3",
+          "type": "video",
+          "title": "Why Edge Cases are Important in UX | Google UX Design Certificate",
+          "url": "https://www.youtube.com/watch?v=eFbyaTdWxJI"
+        }
+      ]
+    },
+    "jbuHRX0mjQRO_2h0U6Y2S": {
+      "id": "jbuHRX0mjQRO_2h0U6Y2S",
+      "slug": "empathy-maps",
+      "title": "Empathy Maps",
+      "description": "An empathy map is a simple diagram that captures what a user says, thinks, does, and feels regarding a specific situation or product. It helps a team step into the user's perspective and surface needs or frustrations that may not be explicitly stated. Empathy maps are often built directly from interview or observation data gathered earlier in the research process.",
+      "resources": [
+        {
+          "id": "jbuHRX0mjQRO_2h0U6Y2S-res-1",
+          "type": "article",
+          "title": "Empathy Mapping: The First Step in Design Thinking",
+          "url": "https://www.nngroup.com/articles/empathy-mapping/"
+        },
+        {
+          "id": "jbuHRX0mjQRO_2h0U6Y2S-res-2",
+          "type": "video",
+          "title": "What is an Empathy Map?",
+          "url": "https://www.youtube.com/watch?v=QwF9a56WFWA"
+        }
+      ]
+    },
+    "hIN-rnf-XhZr4LJCtMykg": {
+      "id": "hIN-rnf-XhZr4LJCtMykg",
+      "slug": "engineering-collaboration",
+      "title": "Engineering Collaboration",
+      "description": "Engineering collaboration covers the practices that keep designers and developers working together effectively, including preparing for launch, handing off designs clearly, and maintaining ongoing communication during development. Strong collaboration reduces the gap between what was designed and what actually gets built. This relationship becomes especially important as a product moves from design into active development and release.",
+      "resources": []
+    },
+    "wFbCnmsVaZvR-1W04Y8NB": {
+      "id": "wFbCnmsVaZvR-1W04Y8NB",
+      "slug": "ethical-design",
+      "title": "Ethical Design",
+      "description": "Ethical design involves evaluating whether design choices manipulate or mislead users for the benefit of a business, rather than genuinely serving their interests. It scrutinizes patterns like fake urgency, hidden costs, or deceptive defaults that push users toward decisions they might not otherwise make. Practicing ethical design means being willing to choose a less profitable pattern when a more persuasive one would harm user trust.",
+      "resources": [
+        {
+          "id": "wFbCnmsVaZvR-1W04Y8NB-res-1",
+          "type": "article",
+          "title": "Ethical Design: Building Responsible Products, Services, and Systems for a Better World",
+          "url": "https://www.coursera.org/articles/ethical-design"
+        },
+        {
+          "id": "wFbCnmsVaZvR-1W04Y8NB-res-2",
+          "type": "article",
+          "title": "Ethical design: principles, benefits and examples",
+          "url": "https://www.future-processing.com/blog/ethical-design-principles-benefits-and-examples/"
+        },
+        {
+          "id": "wFbCnmsVaZvR-1W04Y8NB-res-3",
+          "type": "video",
+          "title": "What is Ethical Design?",
+          "url": "https://www.youtube.com/watch?v=HPMqyfOT-l8"
+        }
+      ]
+    },
+    "cs068IzvRiFrHtfbj3lxK": {
+      "id": "cs068IzvRiFrHtfbj3lxK",
+      "slug": "experimentation",
+      "title": "Experimentation",
+      "description": "Experimentation is the practice of testing design or product changes with real users under controlled conditions to measure their actual effect, commonly through methods like A/B testing and feature flags. It replaces guesswork with evidence about whether a specific change improves or harms a chosen metric. This approach is central to a data-informed process of continuous improvement.",
+      "resources": []
+    },
+    "xhMXqsbC0qeAkHdMDOxbH": {
+      "id": "xhMXqsbC0qeAkHdMDOxbH",
+      "slug": "expert-review",
+      "title": "Expert Review",
+      "description": "An expert review, also called a heuristic evaluation, has an experienced designer or usability specialist assess a product against established usability principles without involving real users. It can catch many common issues quickly and at low cost compared to full user testing. Expert reviews are often used as an early filter before investing in more resource-intensive usability testing.",
+      "resources": [
+        {
+          "id": "xhMXqsbC0qeAkHdMDOxbH-res-1",
+          "type": "article",
+          "title": "UX Expert Reviews",
+          "url": "https://www.nngroup.com/articles/ux-expert-reviews/"
+        },
+        {
+          "id": "xhMXqsbC0qeAkHdMDOxbH-res-2",
+          "type": "article",
+          "title": "Expert review",
+          "url": "https://www.uxtweak.com/ux-glossary/expert-review/"
+        }
+      ]
+    },
+    "xocmzj_2tDkWjwBnTM3EN": {
+      "id": "xocmzj_2tDkWjwBnTM3EN",
+      "slug": "feasibility-assessment",
+      "title": "Feasibility Assessment",
+      "description": "Feasibility assessment evaluates whether a proposed design or feature can realistically be built given the team's technical capabilities, timeline, and resources. It usually involves close collaboration with engineers to estimate effort and identify potential blockers. This assessment often happens alongside risk management, since infeasible ideas represent one of the biggest risks to a project's success.",
+      "resources": [
+        {
+          "id": "xocmzj_2tDkWjwBnTM3EN-res-1",
+          "type": "article",
+          "title": "What is a Feasibility Study (during new product development)?",
+          "url": "https://qualityinspection.org/what-a-feasibility-study-is/"
+        },
+        {
+          "id": "xocmzj_2tDkWjwBnTM3EN-res-2",
+          "type": "video",
+          "title": "How to Conduct a Feasibility Study - Project Management Training",
+          "url": "https://www.youtube.com/watch?v=WI6_snOjlm0"
+        }
+      ]
+    },
+    "VoV8iP-A028UvgutSQb9z": {
+      "id": "VoV8iP-A028UvgutSQb9z",
+      "slug": "feature-flags",
+      "title": "Feature Flags",
+      "description": "Feature flags are a technical mechanism that lets teams turn a feature on or off for specific users without deploying new code. They allow gradual rollouts, quick rollbacks if something goes wrong, and controlled experiments like A/B tests. Feature flags give product teams flexibility to manage risk when releasing new or unproven features.",
+      "resources": [
+        {
+          "id": "VoV8iP-A028UvgutSQb9z-res-1",
+          "type": "article",
+          "title": "What Are Feature Flags?",
+          "url": "https://launchdarkly.com/blog/what-are-feature-flags/"
+        },
+        {
+          "id": "VoV8iP-A028UvgutSQb9z-res-2",
+          "type": "video",
+          "title": "What are Feature Flags?",
+          "url": "https://www.youtube.com/watch?v=AJa2B-twtG4"
+        },
+        {
+          "id": "VoV8iP-A028UvgutSQb9z-res-3",
+          "type": "video",
+          "title": "How To Build Feature Flags Like A Senior Dev In 20 Minutes",
+          "url": "https://www.youtube.com/watch?v=VBCYqp8l3Lc"
+        }
+      ]
+    },
+    "A9QA_XQihVKTfVk-BEUil": {
+      "id": "A9QA_XQihVKTfVk-BEUil",
+      "slug": "figma-dev-mode",
+      "title": "Figma Dev Mode",
+      "description": "Figma Dev Mode is a dedicated workspace within Figma that provides developers with the specific information they need to translate design files into functional code. It allows developers to inspect layers, measure spacing, export assets, and view CSS, Swift, or Compose code snippets directly from the design file. By streamlining the inspection process, it bridges the gap between static visuals and technical implementation, ensuring that the final output accurately matches the designer's original intent.",
+      "resources": [
+        {
+          "id": "A9QA_XQihVKTfVk-BEUil-res-1",
+          "type": "article",
+          "title": "Dev Mode",
+          "url": "https://www.figma.com/dev-mode/"
+        },
+        {
+          "id": "A9QA_XQihVKTfVk-BEUil-res-2",
+          "type": "video",
+          "title": "Figma Tutorial: Master Figma Dev Mode in 8 Minutes",
+          "url": "https://www.youtube.com/watch?v=HH0ancOHSdc"
+        }
+      ]
+    },
+    "mN3ZzOH3yo6mIGwA0hqdm": {
+      "id": "mN3ZzOH3yo6mIGwA0hqdm",
+      "slug": "framing-the-problem",
+      "title": "Framing the Problem",
+      "description": "Framing the problem is the step of turning research findings into a clear, well-defined problem statement that guides design work. It uses tools like empathy maps, personas, jobs-to-be-done, and How Might We questions to translate raw insight into an actionable direction. A well-framed problem keeps a team focused on solving the right issue instead of jumping straight to solutions.",
+      "resources": []
+    },
+    "KIQRg8ap5Z7IQuMUZc7yC": {
+      "id": "KIQRg8ap5Z7IQuMUZc7yC",
+      "slug": "functionality-over-polish",
+      "title": "Functionality over Polish",
+      "description": "This principle prioritizes making a product work correctly and solve the user's problem before investing heavily in visual refinement. A feature that looks beautiful but fails to perform its core task provides little value, while a rough but functional one can still succeed. Teams often apply this early in a project, saving deeper visual polish for later stages once the core experience is validated.",
+      "resources": []
+    },
+    "J4yN0KLUPX2iqI64Hqfgz": {
+      "id": "J4yN0KLUPX2iqI64Hqfgz",
+      "slug": "gathering-information",
+      "title": "Gathering Information",
+      "description": "Gathering information is the first step of the discover phase, where a team collects raw data about users, their behaviors, and their problems. It uses a mix of methods such as surveys, interviews, contextual inquiry, heatmaps, and session recordings, depending on what kind of insight is needed. This information becomes the foundation for later steps like mapping context and framing the problem.",
+      "resources": []
+    },
+    "iDc14ni7C6YGpVeze3Cqo": {
+      "id": "iDc14ni7C6YGpVeze3Cqo",
+      "slug": "goal-setting",
+      "title": "Goal Setting",
+      "description": "Goal setting means establishing specific, measurable objectives a product or feature should achieve within a given time frame. Clear goals give a team a shared target to design and prioritize around, instead of relying on subjective opinions about what to build. Goals set here typically connect to broader business metrics and OKRs used later in planning.",
+      "resources": [
+        {
+          "id": "iDc14ni7C6YGpVeze3Cqo-res-1",
+          "type": "article",
+          "title": "Setting Product Goals: A Strategic Guide for Product Teams",
+          "url": "https://www.productboard.com/blog/setting-product-goals/"
+        },
+        {
+          "id": "iDc14ni7C6YGpVeze3Cqo-res-2",
+          "type": "article",
+          "title": "What Is a Product Goal? Definition, Examples & Best Practices",
+          "url": "https://productschool.com/blog/product-strategy/product-goal"
+        }
+      ]
+    },
+    "NV0L45IsvUhMkfCFGVdqQ": {
+      "id": "NV0L45IsvUhMkfCFGVdqQ",
+      "slug": "heart-framework",
+      "title": "HEART Framework",
+      "description": "The HEART framework measures user experience quality across five dimensions: Happiness, Engagement, Adoption, Retention, and Task success. It gives teams a structured way to choose relevant metrics for a specific feature rather than relying on a single generic measure. Each dimension can be tied to specific, measurable signals depending on what a team is trying to evaluate.",
+      "resources": [
+        {
+          "id": "NV0L45IsvUhMkfCFGVdqQ-res-1",
+          "type": "article",
+          "title": "How to Choose the Right UX Metrics for Your Product",
+          "url": "https://www.heartframework.com/"
+        },
+        {
+          "id": "NV0L45IsvUhMkfCFGVdqQ-res-2",
+          "type": "article",
+          "title": "Google’s Heart framework: Choosing the right metrics for your product",
+          "url": "https://uxdesign.cc/googles-heart-framework-choosing-the-right-metrics-for-your-product-112bd7300d55"
+        },
+        {
+          "id": "NV0L45IsvUhMkfCFGVdqQ-res-3",
+          "type": "video",
+          "title": "The HEART Framework | Key Business Metrics",
+          "url": "https://www.youtube.com/watch?v=YugESrDVHuo&list=PLr8ITgkaARq6AWstPQZNUZyHa6gX_9uIz"
+        }
+      ]
+    },
+    "-3y4W63-ERcniQsmR4MIS": {
+      "id": "-3y4W63-ERcniQsmR4MIS",
+      "slug": "heatmaps",
+      "title": "Heatmaps",
+      "description": "Heatmaps are visual representations of user activity on a screen, showing where users click, move their cursor, or spend the most time looking. They reveal patterns such as ignored content or unexpected areas of interest that raw analytics numbers do not show as clearly. Designers use heatmaps to spot friction points on existing pages without needing to run a full study.",
+      "resources": [
+        {
+          "id": "-3y4W63-ERcniQsmR4MIS-res-1",
+          "type": "article",
+          "title": "Using heatmaps to improve your website’s UX: 5 ways to get started",
+          "url": "https://contentsquare.com/guides/heatmaps/ux/"
+        },
+        {
+          "id": "-3y4W63-ERcniQsmR4MIS-res-2",
+          "type": "video",
+          "title": "How to Use Website Heatmap Data to Improve Your Site",
+          "url": "https://www.youtube.com/watch?v=vfDhk62dSlo&t=34s"
+        }
+      ]
+    },
+    "GGMcheQAGyAc8BgXi0oaI": {
+      "id": "GGMcheQAGyAc8BgXi0oaI",
+      "slug": "how-might-we-questions",
+      "title": "How Might We Questions",
+      "description": "How Might We questions reframe a problem statement into an open-ended question that invites brainstorming, such as turning \"users abandon signup\" into \"how might we make signup feel effortless.\" The phrasing is deliberately broad enough to allow many possible solutions rather than pointing toward just one. Teams commonly use these questions as a starting prompt at the beginning of an ideation session.",
+      "resources": [
+        {
+          "id": "GGMcheQAGyAc8BgXi0oaI-res-1",
+          "type": "article",
+          "title": "Using “How Might We” Questions to Ideate on the Right Problems",
+          "url": "https://www.nngroup.com/articles/how-might-we-questions/"
+        },
+        {
+          "id": "GGMcheQAGyAc8BgXi0oaI-res-2",
+          "type": "video",
+          "title": "How Might We statement builder",
+          "url": "https://www.youtube.com/watch?v=51SX9CpFBnc"
+        }
+      ]
+    },
+    "cRabi0wAInx3kpLQQbOXx": {
+      "id": "cRabi0wAInx3kpLQQbOXx",
+      "slug": "icons",
+      "title": "Icons",
+      "description": "Icons are small visual symbols used to represent actions, objects, or categories within an interface, often to save space or add quick visual recognition. Effective icons are simple, consistent in style, and paired with text labels when their meaning might be unclear on their own. A consistent icon set is typically maintained as part of a broader design system.",
+      "resources": [
+        {
+          "id": "cRabi0wAInx3kpLQQbOXx-res-1",
+          "type": "article",
+          "title": "The basics of iconography in UI design: A comprehensive guide",
+          "url": "https://medium.com/design-bootcamp/the-basics-of-iconography-in-ui-design-a-comprehensive-guide-49076b88527f"
+        },
+        {
+          "id": "cRabi0wAInx3kpLQQbOXx-res-2",
+          "type": "article",
+          "title": "Design Principles for Perfect Icons: A Complete UI/UX Guide",
+          "url": "https://upslidedesignstudio.com/blogs/design-principles-for-perfect-icons-a-complete-ui-ux-guide"
+        },
+        {
+          "id": "cRabi0wAInx3kpLQQbOXx-res-3",
+          "type": "video",
+          "title": "How to Design Better ICON",
+          "url": "https://www.youtube.com/watch?v=9At1yFg901Y"
+        },
+        {
+          "id": "cRabi0wAInx3kpLQQbOXx-res-4",
+          "type": "video",
+          "title": "Figma Design System: 09 Iconography",
+          "url": "https://www.youtube.com/watch?v=eobqYu7wliE"
+        }
+      ]
+    },
+    "ZcdXHB3b5f6b21fTDfYVm": {
+      "id": "ZcdXHB3b5f6b21fTDfYVm",
+      "slug": "ideation",
+      "title": "Ideation",
+      "description": "Ideation is the stage where a team generates a wide range of possible solutions to a defined problem before narrowing down to the best ones. It includes techniques like brainstorming, mind mapping, sketching, wireframing, and early prototyping. The goal at this stage is breadth of ideas first, with evaluation and refinement happening afterward.",
+      "resources": [
+        {
+          "id": "ZcdXHB3b5f6b21fTDfYVm-res-1",
+          "type": "article",
+          "title": "A Systematic Approach to New Product Ideation",
+          "url": "https://edea.design/a-systematic-approach-to-new-product-ideation/"
+        },
+        {
+          "id": "ZcdXHB3b5f6b21fTDfYVm-res-2",
+          "type": "article",
+          "title": "Stage 3 in the Design Thinking Process: Ideate",
+          "url": "https://ixdf.org/literature/article/stage-3-in-the-design-thinking-process-ideate"
+        }
+      ]
+    },
+    "FX1Z0YNkxHNl0ozjCn03N": {
+      "id": "FX1Z0YNkxHNl0ozjCn03N",
+      "slug": "improving-designs",
+      "title": "Improving Designs",
+      "description": "Improving designs is the step of acting on findings from testing and quality measurement to make concrete revisions to a product. It includes structured practices like critiques and reviews, where designers gather feedback from peers or stakeholders on proposed changes. This step closes the loop between validating a design and actually making it better.",
+      "resources": []
+    },
+    "6J-GuW42O19Rx4o0Fyspm": {
+      "id": "6J-GuW42O19Rx4o0Fyspm",
+      "slug": "inclusive-design",
+      "title": "Inclusive Design",
+      "description": "Inclusive design is the practice of creating products that work well for people with a wide range of abilities, backgrounds, and circumstances, rather than designing only for a typical or average user. It considers factors like disability, language, cultural context, and access to technology when making design decisions. Accessibility testing is one concrete practice that supports the broader goal of inclusive design.",
+      "resources": [
+        {
+          "id": "6J-GuW42O19Rx4o0Fyspm-res-1",
+          "type": "article",
+          "title": "Inclusive Design",
+          "url": "https://www.nngroup.com/articles/inclusive-design/"
+        },
+        {
+          "id": "6J-GuW42O19Rx4o0Fyspm-res-2",
+          "type": "article",
+          "title": "What is inclusive design?",
+          "url": "https://www.inclusivedesigntoolkit.com/whatis/whatis.html"
+        },
+        {
+          "id": "6J-GuW42O19Rx4o0Fyspm-res-3",
+          "type": "video",
+          "title": "Accessibility vs. Inclusive Design",
+          "url": "https://www.youtube.com/watch?v=hE83Qn-PTGA"
+        }
+      ]
+    },
+    "V_AMJYmqBxC6YUT6SJf3J": {
+      "id": "V_AMJYmqBxC6YUT6SJf3J",
+      "slug": "information-architecture",
+      "title": "Information Architecture",
+      "description": "Information architecture is the practice of organizing and structuring a product's content and features so users can find what they need and understand how everything relates. It includes decisions about navigation, site maps, and how content is grouped and labeled. Good information architecture is largely invisible when done well, since users move through a product without confusion.",
+      "resources": [
+        {
+          "id": "V_AMJYmqBxC6YUT6SJf3J-res-1",
+          "type": "article",
+          "title": "What is information architecture?",
+          "url": "https://www.figma.com/resource-library/what-is-information-architecture/"
+        },
+        {
+          "id": "V_AMJYmqBxC6YUT6SJf3J-res-2",
+          "type": "video",
+          "title": "What Is Information Architecture? (UX Design Guide)",
+          "url": "https://www.youtube.com/watch?v=OJLfjgVlwDo"
+        }
+      ]
+    },
+    "Ln8HKsHi-gUeLrrjH8s56": {
+      "id": "Ln8HKsHi-gUeLrrjH8s56",
+      "slug": "interface-design",
+      "title": "Interface Design",
+      "description": "Interface design is the practice of designing the actual screens and interactive elements a user sees and touches, building on visual foundations like color and typography. It includes defining UI patterns, design tokens, reusable components, and the different states an interface element can be in. This stage turns wireframes and prototypes into a polished, functional interface ready for development.",
+      "resources": [
+        {
+          "id": "Ln8HKsHi-gUeLrrjH8s56-res-1",
+          "type": "article",
+          "title": "What is UI design? A complete guide for 2025",
+          "url": "https://www.uxdesigninstitute.com/blog/what-is-ui-design/"
+        },
+        {
+          "id": "Ln8HKsHi-gUeLrrjH8s56-res-2",
+          "type": "video",
+          "title": "The Weird Future Of User Interfaces",
+          "url": "https://www.youtube.com/watch?v=f32W5BEzWN0"
+        }
+      ]
+    },
+    "OcYNyCYMKQqlsup8ghpZ7": {
+      "id": "OcYNyCYMKQqlsup8ghpZ7",
+      "slug": "interface-states",
+      "title": "Interface States",
+      "description": "Interface states describe the different conditions a component or screen can be in, such as default, hover, disabled, loading, or error. Designing for these states ensures the product behaves predictably and gives clear feedback in situations beyond the ideal, happy path. Overlooking states like empty or error conditions is a common cause of confusing or broken-feeling experiences.",
+      "resources": [
+        {
+          "id": "OcYNyCYMKQqlsup8ghpZ7-res-1",
+          "type": "article",
+          "title": "UI states are important!!",
+          "url": "https://medium.com/@pakhimangal/ui-states-are-important-74c2715cef0b"
+        },
+        {
+          "id": "OcYNyCYMKQqlsup8ghpZ7-res-2",
+          "type": "article",
+          "title": "Understanding button states in UI design",
+          "url": "https://www.figma.com/resource-library/button-states/"
+        },
+        {
+          "id": "OcYNyCYMKQqlsup8ghpZ7-res-3",
+          "type": "article",
+          "title": "States",
+          "url": "https://m2.material.io/design/interaction/states.html#usage"
+        }
+      ]
+    },
+    "Bairy2nTXWhX098bGJBU9": {
+      "id": "Bairy2nTXWhX098bGJBU9",
+      "slug": "interviews",
+      "title": "Interviews",
+      "description": "Interviews are one-on-one conversations with users designed to uncover their needs, motivations, and pain points in their own words. They allow a researcher to ask follow-up questions and dig deeper into unexpected answers, which surveys cannot do. Interviews are typically used earlier in a research process to generate insights that other methods can later validate at scale.",
+      "resources": [
+        {
+          "id": "Bairy2nTXWhX098bGJBU9-res-1",
+          "type": "article",
+          "title": "What it’s like to interview as a product designer",
+          "url": "https://medium.com/@yamilah/what-its-like-to-interview-as-a-product-designer-fcb7c88e75ca"
+        },
+        {
+          "id": "Bairy2nTXWhX098bGJBU9-res-2",
+          "type": "video",
+          "title": "How To Conduct User Interviews Like A Pro (UX Design)",
+          "url": "https://www.youtube.com/watch?v=5tVbFfGDQCk"
+        }
+      ]
+    },
+    "q4yfZZ0MTANpDfx3U7uPP": {
+      "id": "q4yfZZ0MTANpDfx3U7uPP",
+      "slug": "introduction",
+      "title": "Introduction",
+      "description": "Product design is the practice of shaping a product's experience, look, and behavior so it solves a real user problem while supporting business goals. It spans research, strategy, interaction design, visual design, and collaboration with engineering through to launch and iteration. The discipline sits at the intersection of user experience and business outcomes, rather than focusing on interfaces alone.",
+      "resources": [
+        {
+          "id": "q4yfZZ0MTANpDfx3U7uPP-res-1",
+          "type": "article",
+          "title": "What is product design?",
+          "url": "https://www.figma.com/resource-library/what-is-product-design/"
+        },
+        {
+          "id": "q4yfZZ0MTANpDfx3U7uPP-res-2",
+          "type": "video",
+          "title": "What EXACTLY is Product Design? 🤔",
+          "url": "https://www.youtube.com/watch?v=LckQ4VVjHDs"
+        },
+        {
+          "id": "q4yfZZ0MTANpDfx3U7uPP-res-3",
+          "type": "video",
+          "title": "Product Design Tutorials & Advice",
+          "url": "https://www.youtube.com/playlist?list=PLDodijvPErk-0e-znq_4a2rtVW4BFF_wi"
+        }
+      ]
+    },
+    "9F99swrvYC0zk2NLDw3T8": {
+      "id": "9F99swrvYC0zk2NLDw3T8",
+      "slug": "iteration-over-perfection",
+      "title": "Iteration over Perfection",
+      "description": "This principle favors releasing a workable version of a design and improving it based on real feedback, instead of trying to perfect it before anyone uses it. Waiting for a flawless design often means delaying valuable learning about how users actually respond. It ties closely to practices like A/B testing and continuous improvement that rely on live feedback to guide refinement.",
+      "resources": []
+    },
+    "JJLA3I1wQlE4iJTroTgSf": {
+      "id": "JJLA3I1wQlE4iJTroTgSf",
+      "slug": "jobs-to-be-done",
+      "title": "Jobs-to-be-Done",
+      "description": "Jobs-to-be-Done is a framework that frames a product or feature around the underlying task or goal a user is trying to accomplish, rather than around the user's demographic traits. It asks what job the user is hiring a product to do, which can reveal competitors that are not obvious, such as a notepad app competing with a to-do list app for the same job. This framing helps teams avoid designing around surface-level assumptions about who a user is.",
+      "resources": [
+        {
+          "id": "JJLA3I1wQlE4iJTroTgSf-res-1",
+          "type": "article",
+          "title": "Jobs-To-Be-Done Framework",
+          "url": "https://www.productplan.com/glossary/jobs-to-be-done-framework"
+        },
+        {
+          "id": "JJLA3I1wQlE4iJTroTgSf-res-2",
+          "type": "video",
+          "title": "What is Jobs to be Done",
+          "url": "https://www.youtube.com/watch?v=RQjBawcU_qg"
+        }
+      ]
+    },
+    "Eb-UqSB5b19dgqL8zXixA": {
+      "id": "Eb-UqSB5b19dgqL8zXixA",
+      "slug": "journey-mapping",
+      "title": "Journey Mapping",
+      "description": "Journey mapping visualizes the full sequence of steps a user takes to accomplish a goal, often across multiple touchpoints and over an extended period of time. It typically captures actions, thoughts, and emotions at each stage, highlighting moments of friction or delight. Teams use it to spot gaps in the experience that would be easy to miss when looking at a single screen in isolation.",
+      "resources": [
+        {
+          "id": "Eb-UqSB5b19dgqL8zXixA-res-1",
+          "type": "article",
+          "title": "Journey Mapping 101",
+          "url": "https://www.nngroup.com/articles/journey-mapping-101/"
+        },
+        {
+          "id": "Eb-UqSB5b19dgqL8zXixA-res-2",
+          "type": "article",
+          "title": "Customer journey map explained: Everything you need to know",
+          "url": "https://miro.com/customer-journey-map/what-is-a-customer-journey-map/"
+        }
+      ]
+    },
+    "IdDdkazWJoZqJLaOwuIN_": {
+      "id": "IdDdkazWJoZqJLaOwuIN_",
+      "slug": "kano",
+      "title": "Kano",
+      "description": "The Kano model classifies features into categories based on how they affect user satisfaction, including basic expectations, performance features that scale with satisfaction, and delighters that create disproportionate happiness when present. It helps teams distinguish between features users expect by default and those that would genuinely excite them. This distinction guides decisions about where extra investment is likely to pay off versus where it is simply required to meet a baseline.",
+      "resources": [
+        {
+          "id": "IdDdkazWJoZqJLaOwuIN_-res-1",
+          "type": "article",
+          "title": "Kano Model",
+          "url": "https://www.productplan.com/glossary/kano-model"
+        },
+        {
+          "id": "IdDdkazWJoZqJLaOwuIN_-res-2",
+          "type": "video",
+          "title": "The Kano Model",
+          "url": "https://www.youtube.com/watch?v=iFU_04VE5Os"
+        }
+      ]
+    },
+    "o5060NjFK7EYOGD2nF7Dp": {
+      "id": "o5060NjFK7EYOGD2nF7Dp",
+      "slug": "launch-readiness",
+      "title": "Launch Readiness",
+      "description": "Launch readiness is the process of confirming that a design and its implementation are fully prepared for release, including checking edge cases, content, and interface states across the product. It typically involves a final review to catch issues before they reach real users. Skipping this step can lead to avoidable bugs or inconsistencies appearing immediately after a product goes live.",
+      "resources": [
+        {
+          "id": "o5060NjFK7EYOGD2nF7Dp-res-1",
+          "type": "article",
+          "title": "Product launch checklist: How to ensure a successful launch",
+          "url": "https://www.atlassian.com/agile/product-management/product-launch-checklist"
+        },
+        {
+          "id": "o5060NjFK7EYOGD2nF7Dp-res-2",
+          "type": "article",
+          "title": "Goals, Readiness and Constraints: The Three Dimensions of a Product Launch",
+          "url": "https://www.pragmaticinstitute.com/resources/articles/product/goals-readiness-and-constraints-the-three-dimensions-of-product-launch/"
+        },
+        {
+          "id": "o5060NjFK7EYOGD2nF7Dp-res-3",
+          "type": "video",
+          "title": "How To Have A Successful Product Launch: My 4-Step Process",
+          "url": "https://www.youtube.com/watch?v=a7wyiacasDA"
+        }
+      ]
+    },
+    "Ss8-G_xPJnuTOjfumjQKc": {
+      "id": "Ss8-G_xPJnuTOjfumjQKc",
+      "slug": "layout--grid",
+      "title": "Layout & Grid",
+      "description": "Layout and grid systems define how elements are positioned and spaced on a screen, using a consistent underlying structure such as columns and margins. A solid grid keeps interfaces visually organized and makes it easier to design new screens that feel consistent with existing ones. This foundation supports responsive design, since a well-built grid can adapt across different screen sizes.",
+      "resources": [
+        {
+          "id": "Ss8-G_xPJnuTOjfumjQKc-res-1",
+          "type": "article",
+          "title": "Understanding layout",
+          "url": "https://m2.material.io/design/layout/understanding-layout.html#principles"
+        },
+        {
+          "id": "Ss8-G_xPJnuTOjfumjQKc-res-2",
+          "type": "video",
+          "title": "Complete Layout Guide",
+          "url": "https://www.youtube.com/watch?v=MlsV3hu84as"
+        }
+      ]
+    },
+    "YnOZYh0OgyyzhY_vKqo7f": {
+      "id": "YnOZYh0OgyyzhY_vKqo7f",
+      "slug": "managing-risk",
+      "title": "Managing Risk",
+      "description": "Managing risk in product design means identifying assumptions, constraints, and uncertainties that could cause a project to fail, and addressing them before committing significant resources. It includes assumption mapping, risk identification, and assessing technical constraints and feasibility. Catching risks early is generally far cheaper than discovering them after a product has shipped.",
+      "resources": []
+    },
+    "gx9iCEQ27s2cvFeEmZHck": {
+      "id": "gx9iCEQ27s2cvFeEmZHck",
+      "slug": "mapping-context",
+      "title": "Mapping Context",
+      "description": "Mapping context is the step of organizing gathered research into a clear picture of how users move through tasks and situations over time. It includes techniques like journey mapping and task analysis to show the sequence of steps, decisions, and emotions involved. This step turns individual pieces of research into a structured understanding of the user's overall experience.",
+      "resources": []
+    },
+    "-D0SRvKU8sSGd2GJ20ImB": {
+      "id": "-D0SRvKU8sSGd2GJ20ImB",
+      "slug": "measuring-quality",
+      "title": "Measuring Quality",
+      "description": "Measuring quality is the process of evaluating how well a design performs against established standards, using methods like UX benchmarking and expert review. Unlike usability testing with real users, these methods often rely on structured criteria or experienced evaluators to judge quality. This step helps teams track whether design quality is improving or declining over time and across products.",
+      "resources": []
+    },
+    "5mb-glqmSTgyd8VE0BFlH": {
+      "id": "5mb-glqmSTgyd8VE0BFlH",
+      "slug": "micro-interactions",
+      "title": "Micro-interactions",
+      "description": "Micro-interactions are small, focused moments of feedback within a product, such as a button changing color when clicked or a checkbox animating when checked. They confirm to users that their action was registered and add a sense of responsiveness to an interface. Though subtle, well-designed micro-interactions can meaningfully improve how polished and trustworthy a product feels.",
+      "resources": [
+        {
+          "id": "5mb-glqmSTgyd8VE0BFlH-res-1",
+          "type": "article",
+          "title": "12 Micro-Interaction Examples That Reshape User Behavior in 2026",
+          "url": "https://userpilot.com/blog/micro-interaction-examples/"
+        },
+        {
+          "id": "5mb-glqmSTgyd8VE0BFlH-res-2",
+          "type": "article",
+          "title": "Microinteractions in User Experience",
+          "url": "https://www.nngroup.com/articles/microinteractions/"
+        },
+        {
+          "id": "5mb-glqmSTgyd8VE0BFlH-res-3",
+          "type": "video",
+          "title": "Micro-interactions to delight your users: what, when and how",
+          "url": "https://www.youtube.com/watch?v=jgrkV_hJdJw"
+        }
+      ]
+    },
+    "zLjTzpEmP1AURO0KsSDgz": {
+      "id": "zLjTzpEmP1AURO0KsSDgz",
+      "slug": "microcopy",
+      "title": "Microcopy",
+      "description": "Microcopy refers to the small pieces of text embedded throughout an interface, such as button labels, tooltips, placeholder text, and error messages. Despite being brief, microcopy has an outsized effect on how easy and confident a user feels while completing a task. Well-crafted microcopy often prevents confusion at exactly the moment a user is about to make a decision or take an action.",
+      "resources": [
+        {
+          "id": "zLjTzpEmP1AURO0KsSDgz-res-1",
+          "type": "article",
+          "title": "What Is Microcopy?",
+          "url": "https://www.coursera.org/articles/microcopy"
+        },
+        {
+          "id": "zLjTzpEmP1AURO0KsSDgz-res-2",
+          "type": "article",
+          "title": "Basics of Microcopy",
+          "url": "https://uxwritinghub.com/what-is-microcopy/"
+        },
+        {
+          "id": "zLjTzpEmP1AURO0KsSDgz-res-3",
+          "type": "video",
+          "title": "Informative Microcopy: Titles, Headings, Cards, and More | Course Preview",
+          "url": "https://www.youtube.com/watch?v=nVKF8eS4EZM"
+        }
+      ]
+    },
+    "eG8L9zdZJ6WWKX5zoCU3F": {
+      "id": "eG8L9zdZJ6WWKX5zoCU3F",
+      "slug": "mind-maps",
+      "title": "Mind Maps",
+      "description": "A mind map is a diagram that visually branches out from a central topic into related ideas, themes, or subtopics. It helps a team explore connections between ideas that might not be obvious when listed in a straight line. Mind maps are commonly used early in ideation to organize a broad brainstorm into related clusters.",
+      "resources": [
+        {
+          "id": "eG8L9zdZJ6WWKX5zoCU3F-res-1",
+          "type": "article",
+          "title": "Gray Matter: What Is a Mind Map in the Design Process?",
+          "url": "https://www.toptal.com/designers/product-design/what-is-a-mind-map"
+        },
+        {
+          "id": "eG8L9zdZJ6WWKX5zoCU3F-res-2",
+          "type": "video",
+          "title": "ES  Skip navigation mind maps product design     Create   Avatar image Design Any Product with this Mind Map",
+          "url": "https://www.youtube.com/watch?v=VnIGd7R5zIU"
+        }
+      ]
+    },
+    "d0T6LSBz1Dxfvm9oWnb2V": {
+      "id": "d0T6LSBz1Dxfvm9oWnb2V",
+      "slug": "moscow",
+      "title": "MoSCoW",
+      "description": "MoSCoW is a prioritization method that sorts requirements into four categories: Must have, Should have, Could have, and Won't have for now. It gives stakeholders a simple, shared vocabulary for discussing what is essential versus optional within a given release. This method is often used in planning discussions where a team needs to quickly agree on scope.",
+      "resources": [
+        {
+          "id": "d0T6LSBz1Dxfvm9oWnb2V-res-1",
+          "type": "article",
+          "title": "The MoSCoW prioritisation model, explained",
+          "url": "https://www.bitesizelearning.co.uk/resources/moscow-prioritisation-model"
+        },
+        {
+          "id": "d0T6LSBz1Dxfvm9oWnb2V-res-2",
+          "type": "video",
+          "title": "What is MoSCoW Prioritization Method? Definition, Overview, and Best Practices",
+          "url": "https://www.youtube.com/watch?v=pm4GbSRMElc"
+        }
+      ]
+    },
+    "N0_SikPe2t7v1zrwkVNOh": {
+      "id": "N0_SikPe2t7v1zrwkVNOh",
+      "slug": "motion--interaction",
+      "title": "Motion & Interaction",
+      "description": "Motion and interaction design covers how elements move, transition, and respond to user input within an interface. Thoughtful motion can clarify relationships between elements or provide feedback, while poorly used motion can feel distracting or slow the experience down. This area includes both small micro-interactions and broader motion principles that guide consistent use of animation across a product.",
+      "resources": [
+        {
+          "id": "N0_SikPe2t7v1zrwkVNOh-res-1",
+          "type": "article",
+          "title": "20 Motion Design Principles with Examples for UI/UX Designers",
+          "url": "https://www.mockplus.com/blog/post/20-motion-design-principles-with-examples"
+        },
+        {
+          "id": "N0_SikPe2t7v1zrwkVNOh-res-2",
+          "type": "article",
+          "title": "Motion UI & Interactive Design: Creating Engaging Animations and User Interfaces",
+          "url": "https://dev.to/arasosman/motion-ui-interactive-design-creating-engaging-animations-and-user-interfaces-4dfe"
+        }
+      ]
+    },
+    "wgISet-HBQkte12PUPX00": {
+      "id": "wgISet-HBQkte12PUPX00",
+      "slug": "motion-principles",
+      "title": "Motion Principles",
+      "description": "Motion principles are the underlying rules that guide how animation is used consistently across a product, covering aspects like timing, easing, and when motion should or should not be used. They help ensure that transitions feel cohesive rather than arbitrary from one screen to another. Teams often document these principles alongside other design system elements to keep motion consistent as new features are added.",
+      "resources": [
+        {
+          "id": "wgISet-HBQkte12PUPX00-res-1",
+          "type": "article",
+          "title": "Understanding motion",
+          "url": "https://m2.material.io/design/motion/understanding-motion.html"
+        },
+        {
+          "id": "wgISet-HBQkte12PUPX00-res-2",
+          "type": "article",
+          "title": "When Motion Got Principled",
+          "url": "https://design.google/library/material-design-motion-sharon-harris"
+        },
+        {
+          "id": "wgISet-HBQkte12PUPX00-res-3",
+          "type": "video",
+          "title": "10 Motion Design Principles Every Animator Needs",
+          "url": "https://www.youtube.com/watch?v=Cz-GcIITNrs"
+        }
+      ]
+    },
+    "b958AcoB4_V4t_vYJsN5A": {
+      "id": "b958AcoB4_V4t_vYJsN5A",
+      "slug": "multi-platform-design",
+      "title": "Multi-platform Design",
+      "description": "Multi-platform design is the practice of creating a consistent experience for a product across different platforms, such as web, iOS, and Android, while respecting the conventions specific to each. It requires balancing a unified brand and interaction model against platform-specific expectations users already have. Design systems often play a key role in managing this consistency across multiple platforms at once.",
+      "resources": [
+        {
+          "id": "b958AcoB4_V4t_vYJsN5A-res-1",
+          "type": "article",
+          "title": "An Introduction to Multi-Platform Design Systems",
+          "url": "https://dbanks.design/blog/multi-platform/"
+        },
+        {
+          "id": "b958AcoB4_V4t_vYJsN5A-res-2",
+          "type": "article",
+          "title": "Designing for Cross-Platform Consistency: Best Practices and Challenges",
+          "url": "https://www.designsystemscollective.com/designing-for-cross-platform-consistency-best-practices-and-challenges-a86ccb6adfe6"
+        }
+      ]
+    },
+    "55kM1GxUBxwM-WoRaDDyj": {
+      "id": "55kM1GxUBxwM-WoRaDDyj",
+      "slug": "navigation",
+      "title": "Navigation",
+      "description": "Navigation refers to the system of menus, links, and structural elements that let users move between different parts of a product. Well-designed navigation reflects the underlying information architecture, making the product's structure clear and predictable. Poor navigation is a common cause of user frustration, since it can leave people unable to find content or features they know exist.",
+      "resources": [
+        {
+          "id": "55kM1GxUBxwM-WoRaDDyj-res-1",
+          "type": "article",
+          "title": "Navigation design: Almost everything you need to know",
+          "url": "https://www.justinmind.com/blog/navigation-design-almost-everything-you-need-to-know/"
+        },
+        {
+          "id": "55kM1GxUBxwM-WoRaDDyj-res-2",
+          "type": "video",
+          "title": "Information Architecture: 3 Key Models",
+          "url": "https://www.youtube.com/watch?v=v39z0JPeIc8"
+        }
+      ]
+    },
+    "jqDcscSHTUizNmJHA2i-t": {
+      "id": "jqDcscSHTUizNmJHA2i-t",
+      "slug": "operating-at-scale",
+      "title": "Operating at Scale",
+      "description": "Operating at scale covers the practices needed to keep design consistent and efficient as a product, team, or company grows larger. It includes disciplines like DesignOps, which manages the processes and tools supporting a design team, and multi-platform design, which addresses maintaining a consistent experience across devices. These practices become necessary once a single ad hoc process can no longer keep up with growing complexity.",
+      "resources": []
+    },
+    "HxYpzimPltNch8qbPzfbp": {
+      "id": "HxYpzimPltNch8qbPzfbp",
+      "slug": "opportunity-solution-trees",
+      "title": "Opportunity Solution Trees",
+      "description": "An opportunity solution tree is a visual framework that maps a desired outcome at the top, branching down into different opportunities, and further down into specific solutions and experiments for each. It helps teams see multiple possible paths to a goal instead of committing early to a single solution. This structure makes it easier to compare and prioritize different ways of solving the same underlying opportunity.",
+      "resources": [
+        {
+          "id": "HxYpzimPltNch8qbPzfbp-res-1",
+          "type": "article",
+          "title": "Opportunity Solution Trees:",
+          "url": "https://www.producttalk.org/opportunity-solution-trees"
+        },
+        {
+          "id": "HxYpzimPltNch8qbPzfbp-res-2",
+          "type": "article",
+          "title": "Opportunity Solution Tree",
+          "url": "https://www.productplan.com/glossary/opportunity-solution-tree"
+        },
+        {
+          "id": "HxYpzimPltNch8qbPzfbp-res-3",
+          "type": "video",
+          "title": "What is an opportunity solution tree?",
+          "url": "https://www.youtube.com/watch?v=y7hfQ1V1N3M"
+        }
+      ]
+    },
+    "DlHfLq7nNXqDbwouhPn3V": {
+      "id": "DlHfLq7nNXqDbwouhPn3V",
+      "slug": "organizing-research",
+      "title": "Organizing Research",
+      "description": "Organizing research is the process of consolidating findings from multiple research methods into a usable, shared format for the team. It includes synthesizing raw data into clear insights and storing findings in a research repository so they remain accessible over time. Without this step, valuable research risks being forgotten or repeated unnecessarily by different team members.",
+      "resources": []
+    },
+    "MMl84Bimru37xW2Kjyd4x": {
+      "id": "MMl84Bimru37xW2Kjyd4x",
+      "slug": "performance-constraints",
+      "title": "Performance Constraints",
+      "description": "Performance constraints refer to the technical limits on how quickly an application loads, responds to user input, and maintains smooth interactions on a device. These limitations are dictated by factors like network speed, processing power, and memory availability. Designers must account for these boundaries by optimizing file sizes, minimizing complex animations, and managing data heavy-lifting to ensure that the interface remains functional and responsive for all users, regardless of their hardware or connectivity.",
+      "resources": [
+        {
+          "id": "MMl84Bimru37xW2Kjyd4x-res-1",
+          "type": "article",
+          "title": "What Are Constraints in Engineering - Overcoming Design Barriers",
+          "url": "https://www.neuralconcept.com/post/what-are-constraints-in-engineering-overcoming-design-barriers"
+        },
+        {
+          "id": "MMl84Bimru37xW2Kjyd4x-res-2",
+          "type": "article",
+          "title": "15 Engineering Design Constraints that Product Design Companies & Engineering Firms Can’t Avoid",
+          "url": "https://www.cadcrowd.com/blog/15-engineering-design-constraints-that-product-design-companies-engineering-firms-cant-avoid/"
+        }
+      ]
+    },
+    "qk_4nCoJeEvRE9q2yC18I": {
+      "id": "qk_4nCoJeEvRE9q2yC18I",
+      "slug": "personas",
+      "title": "Personas",
+      "description": "Personas are fictional but research-based profiles representing key types of users a product serves, built from patterns found in real research rather than assumptions. Each persona typically includes goals, frustrations, and behaviors relevant to the product being designed. Teams reference personas throughout design and prioritization to keep decisions grounded in actual user needs.",
+      "resources": [
+        {
+          "id": "qk_4nCoJeEvRE9q2yC18I-res-1",
+          "type": "article",
+          "title": "What are UX personas and what are they used for?",
+          "url": "https://www.uxdesigninstitute.com/blog/what-are-ux-personas/"
+        },
+        {
+          "id": "qk_4nCoJeEvRE9q2yC18I-res-2",
+          "type": "video",
+          "title": "What are personas and why should I care?",
+          "url": "https://www.youtube.com/watch?v=khLWLtxmMGM"
+        }
+      ]
+    },
+    "ugdFMO3Zy4Be_GjgMZ9_z": {
+      "id": "ugdFMO3Zy4Be_GjgMZ9_z",
+      "slug": "prioritization-frameworks",
+      "title": "Prioritization Frameworks",
+      "description": "Prioritization frameworks are structured methods for ranking competing ideas or features based on defined criteria, rather than relying purely on opinion. Common examples include Kano, RICE, and MoSCoW, each weighing factors like effort, impact, or user satisfaction differently. Using a shared framework helps a team make prioritization decisions more transparent and easier to explain to stakeholders.",
+      "resources": [
+        {
+          "id": "ugdFMO3Zy4Be_GjgMZ9_z-res-1",
+          "type": "article",
+          "title": "Six product prioritization frameworks and how to pick the right one",
+          "url": "https://www.atlassian.com/agile/product-management/prioritization-framework"
+        }
+      ]
+    },
+    "qJbhaY7aU8PqVQlt2mV4z": {
+      "id": "qJbhaY7aU8PqVQlt2mV4z",
+      "slug": "prioritizing-opportunities",
+      "title": "Prioritizing Opportunities",
+      "description": "Prioritizing opportunities is the process of deciding which problems or ideas deserve a team's limited time and resources. It combines product sense, business needs, and structured frameworks like RICE or Kano to compare very different opportunities on a common basis. This step turns a long list of possible improvements into a focused, actionable set of priorities.",
+      "resources": []
+    },
+    "S2P-SK6LXy82Z5VgBjx2N": {
+      "id": "S2P-SK6LXy82Z5VgBjx2N",
+      "slug": "problem-statements",
+      "title": "Problem Statements",
+      "description": "A problem statement is a concise, specific description of the issue a design effort is meant to solve, usually framed around a particular user and their need. It keeps a project scoped and focused, preventing the team from drifting into unrelated ideas. A well-written problem statement avoids suggesting a specific solution, leaving room for multiple approaches during ideation.",
+      "resources": [
+        {
+          "id": "S2P-SK6LXy82Z5VgBjx2N-res-1",
+          "type": "article",
+          "title": "Design Problem Statements: What They Are and How to Frame Them",
+          "url": "https://www.toptal.com/designers/product-design/design-problem-statement"
+        },
+        {
+          "id": "S2P-SK6LXy82Z5VgBjx2N-res-2",
+          "type": "video",
+          "title": "How to craft better product problem statements with the SMART framework",
+          "url": "https://www.youtube.com/watch?v=IKB2KnFmy6I"
+        }
+      ]
+    },
+    "03dZOKaQ2TvUC7BGqufQ8": {
+      "id": "03dZOKaQ2TvUC7BGqufQ8",
+      "slug": "product-analytics",
+      "title": "Product Analytics",
+      "description": "Product analytics involves collecting and analyzing data on how users actually interact with a product, such as which features they use, how often, and where they drop off. This quantitative data complements qualitative research by showing patterns across a large number of users rather than a small sample. Teams use product analytics to identify where to focus further research or design improvements.",
+      "resources": [
+        {
+          "id": "03dZOKaQ2TvUC7BGqufQ8-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated Data Analyst Roadmap",
+          "url": "https://roadmap.sh/data-analyst"
+        },
+        {
+          "id": "03dZOKaQ2TvUC7BGqufQ8-res-2",
+          "type": "article",
+          "title": "What every product manager needs to know about product analytics",
+          "url": "https://www.atlassian.com/agile/product-management/product-analytics"
+        },
+        {
+          "id": "03dZOKaQ2TvUC7BGqufQ8-res-3",
+          "type": "article",
+          "title": "Amplitude Guide to Product Analytics",
+          "url": "https://amplitude.com/guides/product-analytics"
+        },
+        {
+          "id": "03dZOKaQ2TvUC7BGqufQ8-res-4",
+          "type": "video",
+          "title": "One-Hour Product Analytics Tutorial",
+          "url": "https://www.youtube.com/watch?v=5O4ST-R5ZVw"
+        }
+      ]
+    },
+    "q5OzV1_ao0xg66nYyeFjM": {
+      "id": "q5OzV1_ao0xg66nYyeFjM",
+      "slug": "product-design-vs-ui",
+      "title": "Product Design vs UI",
+      "description": "Product design is concerned with the overall problem being solved, the user's journey, and business impact, while UI design focuses specifically on the visual and interactive surface, such as layout, color, and components. A product designer typically owns decisions about what the product should do, while a UI designer focuses on how it looks and feels to use. In smaller teams, one person often does both.",
+      "resources": [
+        {
+          "id": "q5OzV1_ao0xg66nYyeFjM-res-1",
+          "type": "article",
+          "title": "Product design vs. UX design vs. UI design",
+          "url": "https://medium.com/design-bootcamp/product-design-vs-ux-design-vs-ui-design-2b281ba5f6c7"
+        },
+        {
+          "id": "q5OzV1_ao0xg66nYyeFjM-res-2",
+          "type": "video",
+          "title": "UI/UX Design vs Product Design",
+          "url": "https://www.youtube.com/watch?v=S6maF4tICPs"
+        }
+      ]
+    },
+    "zhWj9lOOoxXciAvCeksxm": {
+      "id": "zhWj9lOOoxXciAvCeksxm",
+      "slug": "product-design-vs-ux",
+      "title": "Product Design vs UX",
+      "description": "Product design covers the full lifecycle of a product, including strategy, business alignment, and shipping decisions, while UX design focuses more narrowly on how a user experiences and interacts with a product. A product designer often makes calls on what to build and why, not only how it should look or feel. The two roles overlap heavily in practice, and many companies use the titles interchangeably.",
+      "resources": [
+        {
+          "id": "zhWj9lOOoxXciAvCeksxm-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated UX Design Roamdapux",
+          "url": "https://roadmap.sh/ux-design"
+        },
+        {
+          "id": "zhWj9lOOoxXciAvCeksxm-res-2",
+          "type": "article",
+          "title": "Product Designer vs. UX Designer: The Difference Explained",
+          "url": "https://www.coursera.org/articles/product-designer-vs-ux-designer-the-difference-explained"
+        },
+        {
+          "id": "zhWj9lOOoxXciAvCeksxm-res-3",
+          "type": "course",
+          "title": "Intro to UX (User Experience) | Google UX Design Certificate",
+          "url": "https://www.youtube.com/watch?v=2QQQtiFwXjU&list=PLTZYG7bZ1u6oHnGp4Ib3n0y-CmFQdTW6r"
+        }
+      ]
+    },
+    "PYX5MBioD6gNUeUdBIUOY": {
+      "id": "PYX5MBioD6gNUeUdBIUOY",
+      "slug": "product-market-fit",
+      "title": "Product-Market Fit",
+      "description": "Product-market fit describes the point at which a product satisfies strong market demand, shown by users actively adopting, retaining, and recommending it. Before reaching this point, teams typically iterate heavily on the product based on user feedback and usage data. Many product decisions, including which features to prioritize, are shaped by how close or far the product is from this fit.",
+      "resources": [
+        {
+          "id": "PYX5MBioD6gNUeUdBIUOY-res-1",
+          "type": "article",
+          "title": "What is product-market fit? Examples and strategies to find it",
+          "url": "https://www.zendesk.es/blog/customer-experience/customer-journey/product-market-fit/"
+        },
+        {
+          "id": "PYX5MBioD6gNUeUdBIUOY-res-2",
+          "type": "video",
+          "title": "How to Find Product-Market-Fit as Fast as Possible",
+          "url": "https://www.youtube.com/watch?v=HVkfEXgH8QM"
+        }
+      ]
+    },
+    "OzzpfpDWCzK6GYyiljA5x": {
+      "id": "OzzpfpDWCzK6GYyiljA5x",
+      "slug": "product-performance",
+      "title": "Product Performance",
+      "description": "Product performance measures how well a product is achieving its intended goals after launch, using data like product analytics and structured frameworks such as HEART. This step connects back to the success metrics defined earlier in the process, showing whether a product is actually delivering the value it was designed to. Ongoing measurement here feeds directly into decisions about what to improve next.",
+      "resources": []
+    },
+    "j_pfvhH-5qquAJXjbu-p8": {
+      "id": "j_pfvhH-5qquAJXjbu-p8",
+      "slug": "product-sense",
+      "title": "Product Sense",
+      "description": "Product sense is a designer's or product manager's ability to judge what will genuinely work well for users and the business, built from experience and pattern recognition rather than a fixed process. It helps teams make fast, reasonable calls in situations where full research or data is not available. While useful, product sense is often paired with structured frameworks and user feedback to check for blind spots.",
+      "resources": [
+        {
+          "id": "j_pfvhH-5qquAJXjbu-p8-res-1",
+          "type": "article",
+          "title": "Product Sense: What is it, Why it’s Needed, and How to Keep it Fresh",
+          "url": "https://medium.com/@dianas/product-sense-what-is-it-why-its-needed-and-how-to-keep-it-fresh-ead3de52460a"
+        },
+        {
+          "id": "j_pfvhH-5qquAJXjbu-p8-res-2",
+          "type": "article",
+          "title": "Product Sense",
+          "url": "https://www.productplan.com/glossary/product-sense"
+        },
+        {
+          "id": "j_pfvhH-5qquAJXjbu-p8-res-3",
+          "type": "video",
+          "title": "Where does Product Sense come from?",
+          "url": "https://www.youtube.com/watch?v=ZZkT6nF3i64"
+        }
+      ]
+    },
+    "snUVcr1REPBMrRwuNzDf1": {
+      "id": "snUVcr1REPBMrRwuNzDf1",
+      "slug": "product-strategy",
+      "title": "Product Strategy",
+      "description": "Product strategy is the high-level plan for how a product will achieve its vision and business goals over time, including what to build, for whom, and in what order. It connects the product vision to concrete decisions about focus areas and trade-offs. Design decisions at every later stage are typically expected to support this strategy rather than conflict with it.",
+      "resources": [
+        {
+          "id": "snUVcr1REPBMrRwuNzDf1-res-1",
+          "type": "article",
+          "title": "Product strategy: Definition, best practices & how to build one",
+          "url": "https://www.atlassian.com/agile/product-management/product-strategy"
+        },
+        {
+          "id": "snUVcr1REPBMrRwuNzDf1-res-2",
+          "type": "video",
+          "title": "What Is Product Strategy (an overview)",
+          "url": "https://www.youtube.com/watch?v=ebwo_BX_VtU"
+        }
+      ]
+    },
+    "2kzDNLEmYJdL0iy9JcRaR": {
+      "id": "2kzDNLEmYJdL0iy9JcRaR",
+      "slug": "product-vision",
+      "title": "Product Vision",
+      "description": "A product vision is a concise statement of what a product aims to become and why it matters, usually looking several years ahead. It gives a team a consistent direction to align decisions against, even as individual features and priorities shift over time. A strong vision is specific enough to guide choices but broad enough to survive changes in strategy.",
+      "resources": [
+        {
+          "id": "2kzDNLEmYJdL0iy9JcRaR-res-1",
+          "type": "article",
+          "title": "What is a Product Vision?",
+          "url": "https://airfocus.com/glossary/what-is-product-vision/"
+        },
+        {
+          "id": "2kzDNLEmYJdL0iy9JcRaR-res-2",
+          "type": "article",
+          "title": "Product Vision",
+          "url": "https://www.productplan.com/glossary/product-vision"
+        }
+      ]
+    },
+    "Wy5D8nEdJf7KJcollezXw": {
+      "id": "Wy5D8nEdJf7KJcollezXw",
+      "slug": "prototyping",
+      "title": "Prototyping",
+      "description": "Prototyping is the process of building an interactive or semi-interactive representation of a design so it can be tested and reviewed before actual development begins. Prototypes range from simple clickable wireframes to detailed, high-fidelity simulations of the final product. They let designers and stakeholders evaluate flow and interaction in a way that static images cannot fully convey.",
+      "resources": [
+        {
+          "id": "Wy5D8nEdJf7KJcollezXw-res-1",
+          "type": "article",
+          "title": "What is prototyping",
+          "url": "https://www.figma.com/resource-library/what-is-prototyping/"
+        },
+        {
+          "id": "Wy5D8nEdJf7KJcollezXw-res-2",
+          "type": "video",
+          "title": "UX Prototyping Tutorial - What is a prototype?",
+          "url": "https://www.youtube.com/watch?v=zFBa7URT654"
+        }
+      ]
+    },
+    "PU-d82UeSi3_MeE2mbcxo": {
+      "id": "PU-d82UeSi3_MeE2mbcxo",
+      "slug": "research-repository",
+      "title": "Research Repository",
+      "description": "A research repository is a centralized, searchable store of past research findings, recordings, and insights that a team can reference over time. It prevents duplicate research efforts and makes it easier for new team members to catch up on what is already known about users. Well-maintained repositories are usually tagged and organized by topic, project, or user segment.",
+      "resources": [
+        {
+          "id": "PU-d82UeSi3_MeE2mbcxo-res-1",
+          "type": "article",
+          "title": "What is a research repository, and why do you need one?",
+          "url": "https://dovetail.com/research/what-is-a-research-repository/"
+        },
+        {
+          "id": "PU-d82UeSi3_MeE2mbcxo-res-2",
+          "type": "video",
+          "title": "Research Repositories 101",
+          "url": "https://www.youtube.com/watch?v=QQgm4VPJCdU"
+        }
+      ]
+    },
+    "GtCXJjgEhL2wLSVatu1LX": {
+      "id": "GtCXJjgEhL2wLSVatu1LX",
+      "slug": "rice",
+      "title": "RICE",
+      "description": "RICE is a prioritization framework that scores potential projects based on four factors: reach, impact, confidence, and effort, combined into a single comparable score. Reach and impact estimate how many users are affected and how much, confidence accounts for uncertainty in those estimates, and effort represents the cost of building it. Teams use the resulting score to rank features or projects on a consistent, numeric basis.",
+      "resources": [
+        {
+          "id": "GtCXJjgEhL2wLSVatu1LX-res-1",
+          "type": "article",
+          "title": "RICE Scoring Model",
+          "url": "https://www.productplan.com/glossary/rice-scoring-model"
+        },
+        {
+          "id": "GtCXJjgEhL2wLSVatu1LX-res-2",
+          "type": "video",
+          "title": "What is the RICE Scoring Model?",
+          "url": "https://www.youtube.com/watch?v=pzyRafZJ-0M"
+        }
+      ]
+    },
+    "l__bw06NFolmlIMOylKJP": {
+      "id": "l__bw06NFolmlIMOylKJP",
+      "slug": "risk-identification",
+      "title": "Risk Identification",
+      "description": "Risk identification is the process of proactively spotting potential problems, such as technical limitations, unclear requirements, or unvalidated user needs, before they derail a project. It draws on input from design, engineering, and business stakeholders to surface risks that any single perspective might miss. Identified risks are typically prioritized and addressed through further research, prototyping, or technical spikes.",
+      "resources": [
+        {
+          "id": "l__bw06NFolmlIMOylKJP-res-1",
+          "type": "article",
+          "title": "Design Risks: How to Assess, Mitigate, and Manage Them",
+          "url": "https://www.nngroup.com/articles/design-risk-management/"
+        },
+        {
+          "id": "l__bw06NFolmlIMOylKJP-res-2",
+          "type": "article",
+          "title": "What Is Risk Identification? Definition and Tools",
+          "url": "https://www.indeed.com/career-advice/career-development/risk-identification"
+        }
+      ]
+    },
+    "VWmJcie2YkJ6V6DvjSDy3": {
+      "id": "VWmJcie2YkJ6V6DvjSDy3",
+      "slug": "session-recordings",
+      "title": "Session Recordings",
+      "description": "Session recordings capture a real user's interactions with a product, such as mouse movement, clicks, and scrolling, played back as a video. They let designers observe exactly where users hesitate, get confused, or abandon a task. Unlike interviews, they show actual behavior rather than what users say they do.",
+      "resources": [
+        {
+          "id": "VWmJcie2YkJ6V6DvjSDy3-res-1",
+          "type": "article",
+          "title": "User Recording: What it Is and How it Can Improve User Experience",
+          "url": "https://www.userexperior.com/blog/user-recording-what-it-is-and-how-it-can-improve-user-experience"
+        },
+        {
+          "id": "VWmJcie2YkJ6V6DvjSDy3-res-2",
+          "type": "video",
+          "title": "An Overview of Session Recordings in Microsoft Clarity",
+          "url": "https://www.youtube.com/watch?v=AlSkWk-iWpg"
+        }
+      ]
+    },
+    "CdWMdC25kExM4Sp59FY4U": {
+      "id": "CdWMdC25kExM4Sp59FY4U",
+      "slug": "site-maps",
+      "title": "Site Maps",
+      "description": "A site map is a diagram that shows the overall structure of a product's pages or screens and how they relate to one another in a hierarchy. It gives a bird's eye view of the entire product, which is useful for planning navigation and spotting gaps or redundant sections. Site maps are typically created early in the information architecture process, before individual screens are designed.",
+      "resources": [
+        {
+          "id": "CdWMdC25kExM4Sp59FY4U-res-1",
+          "type": "article",
+          "title": "What is a Sitemap in UX Design?",
+          "url": "https://ixdf.org/literature/article/ux-sitemap"
+        },
+        {
+          "id": "CdWMdC25kExM4Sp59FY4U-res-2",
+          "type": "video",
+          "title": "What is a Sitemap? Let’s Break it Down Simply",
+          "url": "https://www.youtube.com/watch?v=GjEIuy9s4is"
+        }
+      ]
+    },
+    "l2CI9A_cn9aatKUp3lSfi": {
+      "id": "l2CI9A_cn9aatKUp3lSfi",
+      "slug": "sketching",
+      "title": "Sketching",
+      "description": "Sketching is the practice of quickly drawing rough visual representations of an idea, often by hand, to explore layout and interaction concepts before committing to a digital tool. Its low fidelity makes it fast to produce and easy to discard, which encourages exploring many directions rather than over-investing in one idea too early. Sketches typically feed into more refined wireframes once a direction starts to take shape.",
+      "resources": [
+        {
+          "id": "l2CI9A_cn9aatKUp3lSfi-res-1",
+          "type": "article",
+          "title": "Start the development process right with product design sketching",
+          "url": "https://www.autodesk.com/solutions/product-design-sketching"
+        }
+      ]
+    },
+    "hGIMl_hjYkbtTbYLi9Ijv": {
+      "id": "hGIMl_hjYkbtTbYLi9Ijv",
+      "slug": "specs",
+      "title": "Specs",
+      "description": "Specs, short for specifications, are detailed documents or annotations that outline the functional and visual requirements of a design. They act as a bridge between design and development by providing engineers with precise information regarding dimensions, color codes, typography, spacing, and interaction behaviors. Specs ensure that the final implementation matches the intended design vision while reducing ambiguity during the coding process.",
+      "resources": [
+        {
+          "id": "hGIMl_hjYkbtTbYLi9Ijv-res-1",
+          "type": "article",
+          "title": "What Is a Product Specification? A Complete Guide",
+          "url": "https://www.productboard.com/blog/product-specification-a-complete-guide/"
+        },
+        {
+          "id": "hGIMl_hjYkbtTbYLi9Ijv-res-2",
+          "type": "article",
+          "title": "Creating Design Specs for Development",
+          "url": "https://www.nngroup.com/articles/creating-design-specs-for-development/"
+        },
+        {
+          "id": "hGIMl_hjYkbtTbYLi9Ijv-res-3",
+          "type": "video",
+          "title": "12 Senior Designers Show Their Engineering Handoff Process",
+          "url": "https://www.youtube.com/watch?v=CYPeIjgIfOE"
+        }
+      ]
+    },
+    "iYGkLplsUjuCEo6YaNk_L": {
+      "id": "iYGkLplsUjuCEo6YaNk_L",
+      "slug": "stack--platform-constraints",
+      "title": "Stack & Platform Constraints",
+      "description": "Stack and platform constraints refer to the specific technical limitations and capabilities imposed by the programming languages, frameworks, and operating systems chosen to build a product. These boundaries dictate what features are technically feasible, how quickly they can be rendered, and how the interface behaves across different environments like iOS, Android, or the web.",
+      "resources": [
+        {
+          "id": "iYGkLplsUjuCEo6YaNk_L-res-1",
+          "type": "article",
+          "title": "Architecture as a Product: Why Your Tech Stack is Your Biggest UX Constraint",
+          "url": "https://appibara.medium.com/architecture-as-a-product-why-your-tech-stack-is-your-biggest-ux-constraint-f4283eacc6ae"
+        },
+        {
+          "id": "iYGkLplsUjuCEo6YaNk_L-res-2",
+          "type": "article",
+          "title": "Design Constraints: 7 Types Every UX Team Faces and How to Overcome Them",
+          "url": "https://www.uxpin.com/studio/blog/constraints-in-design/"
+        }
+      ]
+    },
+    "MjwUcq2Y2J_8gXyLSZvts": {
+      "id": "MjwUcq2Y2J_8gXyLSZvts",
+      "slug": "stakeholder-alignment",
+      "title": "Stakeholder Alignment",
+      "description": "Stakeholder alignment means ensuring that key decision-makers across the business share a common understanding of a product's direction and priorities. It typically involves regular communication, shared documentation, and structured meetings to surface disagreements early rather than after work is done. Without this alignment, a design can face late-stage pushback that forces costly rework.",
+      "resources": [
+        {
+          "id": "MjwUcq2Y2J_8gXyLSZvts-res-1",
+          "type": "article",
+          "title": "7 Steps for Effective Stakeholder Alignment",
+          "url": "https://simplystakeholders.com/stakeholder-alignment/"
+        }
+      ]
+    },
+    "US48-gcagvUHsvEgeahqD": {
+      "id": "US48-gcagvUHsvEgeahqD",
+      "slug": "success-metrics",
+      "title": "Success Metrics",
+      "description": "Success metrics are the specific, quantifiable indicators used to judge whether a product or feature is achieving its intended goal, such as retention rate, conversion rate, or task completion time. Choosing the right metrics early prevents teams from optimizing for numbers that look good but do not reflect real user value. These metrics are revisited later during measurement and iteration to judge actual performance.",
+      "resources": [
+        {
+          "id": "US48-gcagvUHsvEgeahqD-res-1",
+          "type": "article",
+          "title": "Success metrics examples: How to choose KPIs by team",
+          "url": "https://asana.com/resources/success-metrics-examples"
+        },
+        {
+          "id": "US48-gcagvUHsvEgeahqD-res-2",
+          "type": "video",
+          "title": "Product Success Metrics | A Complete Tutorial",
+          "url": "https://www.youtube.com/watch?v=1nsBdgVlE8w"
+        }
+      ]
+    },
+    "jIS-dqSKdsUZPovkgoEhX": {
+      "id": "jIS-dqSKdsUZPovkgoEhX",
+      "slug": "surveys",
+      "title": "Surveys",
+      "description": "Surveys are a research method that collects structured feedback from a large number of users through a set of predefined questions, often using rating scales or multiple choice options. They are useful for measuring how widespread an opinion or behavior is across a user base, though they capture less depth than interviews. Teams often use surveys to validate patterns found in smaller, more qualitative research.",
+      "resources": [
+        {
+          "id": "jIS-dqSKdsUZPovkgoEhX-res-1",
+          "type": "article",
+          "title": "How to use product development surveys for customer satisfaction",
+          "url": "https://www.surveymonkey.com/learn/product-development/"
+        },
+        {
+          "id": "jIS-dqSKdsUZPovkgoEhX-res-2",
+          "type": "article",
+          "title": "How to Run Surveys at Every Stage of the Design Cycle",
+          "url": "https://www.nngroup.com/articles/surveys-design-cycle/"
+        },
+        {
+          "id": "jIS-dqSKdsUZPovkgoEhX-res-3",
+          "type": "article",
+          "title": "Designing a Survey",
+          "url": "https://www.youtube.com/watch?v=mdVWbuffdNY"
+        }
+      ]
+    },
+    "q9NnyTHujmBii2oiXCNfT": {
+      "id": "q9NnyTHujmBii2oiXCNfT",
+      "slug": "synthesizing-research",
+      "title": "Synthesizing Research",
+      "description": "Synthesizing research means analyzing raw data from interviews, surveys, and observations to identify patterns, themes, and key insights. It turns a large volume of individual data points into a smaller set of clear, actionable findings a team can act on. This step usually happens after gathering information and before framing the problem, since the synthesized insights shape how the problem gets defined.",
+      "resources": [
+        {
+          "id": "q9NnyTHujmBii2oiXCNfT-res-1",
+          "type": "article",
+          "title": "Synthesizing UX Research: Making What's \"Mysterious\" Clear",
+          "url": "https://dscout.com/people-nerds/user-research-synthesis"
+        },
+        {
+          "id": "q9NnyTHujmBii2oiXCNfT-res-2",
+          "type": "article",
+          "title": "How to synthesise information",
+          "url": "https://sheffield.ac.uk/study-skills/research/approaches/synthesise"
+        }
+      ]
+    },
+    "wYHDGxaqMG8y2oDjKjkzB": {
+      "id": "wYHDGxaqMG8y2oDjKjkzB",
+      "slug": "task-analysis",
+      "title": "Task Analysis",
+      "description": "Task analysis breaks down a specific task into its individual steps and decision points to understand exactly what a user must do to complete it. It reveals unnecessary complexity, missing information, or unclear steps that could cause a user to fail or give up. This detailed view is often used to redesign a specific flow rather than the product's overall experience.",
+      "resources": [
+        {
+          "id": "wYHDGxaqMG8y2oDjKjkzB-res-1",
+          "type": "article",
+          "title": "Task Analysis: Support Users in Achieving Their Goals",
+          "url": "https://www.nngroup.com/articles/task-analysis/"
+        },
+        {
+          "id": "wYHDGxaqMG8y2oDjKjkzB-res-2",
+          "type": "video",
+          "title": "Task Analysis Made Easy with Examples",
+          "url": "https://www.youtube.com/watch?v=QuVNyuVOBi8"
+        }
+      ]
+    },
+    "uhilOC2btRa61IoM5c3-C": {
+      "id": "uhilOC2btRa61IoM5c3-C",
+      "slug": "task-flows",
+      "title": "Task Flows",
+      "description": "A task flow maps the specific steps required to complete a single task within a product, similar to a user flow but typically narrower in scope and without branching alternate paths. It is used to closely examine and optimize one particular interaction, such as completing a checkout or resetting a password. This detailed view helps identify unnecessary steps or friction within a specific task.",
+      "resources": [
+        {
+          "id": "uhilOC2btRa61IoM5c3-C-res-1",
+          "type": "article",
+          "title": "Task Flow and User Flow Explained",
+          "url": "https://builtin.com/articles/task-flow"
+        },
+        {
+          "id": "uhilOC2btRa61IoM5c3-C-res-2",
+          "type": "video",
+          "title": "User Flow vs Task Flow in UX Design",
+          "url": "https://www.youtube.com/watch?v=cGzIO4n03gY"
+        }
+      ]
+    },
+    "UTIPCn26LOzF5HW7775sE": {
+      "id": "UTIPCn26LOzF5HW7775sE",
+      "slug": "technical-constraints",
+      "title": "Technical Constraints",
+      "description": "Technical constraints are the limitations imposed by existing systems, infrastructure, or engineering capacity that shape what a design can realistically achieve. Ignoring these constraints during design can lead to ideas that look great on paper but are impossible or very costly to build. Understanding them early allows a designer to make trade-offs deliberately rather than being surprised later in development.",
+      "resources": [
+        {
+          "id": "UTIPCn26LOzF5HW7775sE-res-1",
+          "type": "article",
+          "title": "What are design constraints? — The power of limitations in design",
+          "url": "https://blog.logrocket.com/ux-design/what-are-design-constraints/"
+        }
+      ]
+    },
+    "i2Tg7bH-0ny0RLVmZN5Iw": {
+      "id": "i2Tg7bH-0ny0RLVmZN5Iw",
+      "slug": "testing-designs",
+      "title": "Testing Designs",
+      "description": "Testing designs is the practice of evaluating a design with real users or experts to identify usability problems and accessibility issues before or after launch. It includes methods like usability testing and accessibility testing, each focused on different aspects of the experience. This step provides direct evidence of how well a design works, rather than relying solely on internal judgment.",
+      "resources": [
+        {
+          "id": "i2Tg7bH-0ny0RLVmZN5Iw-res-1",
+          "type": "article",
+          "title": "Test Design: A Guide for Manual and Automated Testing",
+          "url": "https://www.testrail.com/blog/test-design-guide/"
+        }
+      ]
+    },
+    "_7Lo7JUjJ1iJ0bHrwlz3f": {
+      "id": "_7Lo7JUjJ1iJ0bHrwlz3f",
+      "slug": "typography",
+      "title": "Typography",
+      "description": "Typography covers the choice and use of fonts, sizes, weights, and spacing to make text readable and establish visual hierarchy within a product. Poor typography choices can make an interface feel cluttered or hard to read, even if the underlying content is well written. Typography decisions are usually codified into a design system so headings, body text, and labels stay consistent throughout a product.",
+      "resources": [
+        {
+          "id": "_7Lo7JUjJ1iJ0bHrwlz3f-res-1",
+          "type": "article",
+          "title": "Guide: How to Define & Use Typography in UX/UI Design",
+          "url": "https://designlab.com/blog/what-is-typography-how-is-it-important-to-ux-ui-design"
+        },
+        {
+          "id": "_7Lo7JUjJ1iJ0bHrwlz3f-res-2",
+          "type": "article",
+          "title": "Principles of Typography in UI Design",
+          "url": "https://uxplanet.org/principles-of-typography-in-ui-design-bc28f1f9666d"
+        },
+        {
+          "id": "_7Lo7JUjJ1iJ0bHrwlz3f-res-3",
+          "type": "video",
+          "title": "Typography in UI Design",
+          "url": "https://www.youtube.com/playlist?list=PLZNQnufz3ORJj545kYkdneoqaO0tX0dRx"
+        }
+      ]
+    },
+    "8HR1zfU5WGMFtf2UrDvmJ": {
+      "id": "8HR1zfU5WGMFtf2UrDvmJ",
+      "slug": "ui-patterns",
+      "title": "UI Patterns",
+      "description": "UI patterns are common, reusable solutions to recurring interface design problems, such as how to display a form, a modal, or a navigation menu. Using established patterns helps users apply familiarity from other products to navigate a new one more easily. Teams typically document their chosen patterns as part of a design system to keep usage consistent across a product.",
+      "resources": [
+        {
+          "id": "8HR1zfU5WGMFtf2UrDvmJ-res-1",
+          "type": "article",
+          "title": "User Interface (UI) Design Patterns",
+          "url": "https://ixdf.org/literature/topics/ui-design-patterns"
+        },
+        {
+          "id": "8HR1zfU5WGMFtf2UrDvmJ-res-2",
+          "type": "article",
+          "title": "Design-Pattern Guidelines: Study Guide",
+          "url": "https://www.nngroup.com/articles/design-pattern-guidelines/"
+        },
+        {
+          "id": "8HR1zfU5WGMFtf2UrDvmJ-res-3",
+          "type": "video",
+          "title": "5 Common UI Design Patterns | Part 1",
+          "url": "https://www.youtube.com/watch?v=X6RRjByY5Nk"
+        }
+      ]
+    },
+    "W5fsnYf-CKMNUrcZ1HAKh": {
+      "id": "W5fsnYf-CKMNUrcZ1HAKh",
+      "slug": "usability-testing",
+      "title": "Usability Testing",
+      "description": "Usability testing involves observing real users as they attempt to complete tasks with a product, in order to identify points of confusion, friction, or failure. It can be conducted on prototypes or live products, and can be moderated by a researcher or done remotely without direct supervision. The findings typically feed directly back into design revisions before or after a product ships.",
+      "resources": [
+        {
+          "id": "W5fsnYf-CKMNUrcZ1HAKh-res-1",
+          "type": "article",
+          "title": "Usability (User) Testing 101",
+          "url": "https://www.nngroup.com/articles/usability-testing-101/"
+        },
+        {
+          "id": "W5fsnYf-CKMNUrcZ1HAKh-res-2",
+          "type": "video",
+          "title": "Usability Testing Tips and Examples | Google UX Design Certificate",
+          "url": "https://www.youtube.com/watch?v=nYCJTea1AUQ"
+        }
+      ]
+    },
+    "3AMETPxIcRWbjGwkLoFxW": {
+      "id": "3AMETPxIcRWbjGwkLoFxW",
+      "slug": "user-centered-design",
+      "title": "User-Centered Design",
+      "description": "User-centered design is an approach that puts real user needs, behaviors, and feedback at the center of every design decision, rather than starting from technical constraints or internal assumptions. It typically involves ongoing research, testing, and iteration based on how actual users interact with a product. This principle underlies most of the research and validation activities in a product design process.",
+      "resources": [
+        {
+          "id": "3AMETPxIcRWbjGwkLoFxW-res-1",
+          "type": "article",
+          "title": "User Centered Design (UCD)",
+          "url": "https://ixdf.org/literature/topics/user-centered-design"
+        },
+        {
+          "id": "3AMETPxIcRWbjGwkLoFxW-res-2",
+          "type": "video",
+          "title": "What is user-centred design (UCD)?",
+          "url": "https://www.youtube.com/watch?v=-f_nXBzaTPw"
+        }
+      ]
+    },
+    "Nl3xvCKE_4jozlAiweqBJ": {
+      "id": "Nl3xvCKE_4jozlAiweqBJ",
+      "slug": "user-flows",
+      "title": "User Flows",
+      "description": "A user flow is a diagram showing the path a user takes through a product to complete a specific goal, including the screens and decisions along the way. It focuses on the sequence and logic of an experience rather than visual details. Designers use user flows early in the design process to validate that a proposed structure makes sense before building detailed screens.",
+      "resources": [
+        {
+          "id": "Nl3xvCKE_4jozlAiweqBJ-res-1",
+          "type": "article",
+          "title": "What is a user flow? Why it’s important in UX design",
+          "url": "https://www.figma.com/resource-library/user-flow/"
+        },
+        {
+          "id": "Nl3xvCKE_4jozlAiweqBJ-res-2",
+          "type": "video",
+          "title": "User Flow Diagram Basics",
+          "url": "https://www.youtube.com/watch?v=cvYhuowazh0"
+        }
+      ]
+    },
+    "VMX5mUOBFKhnuPmKdh3zF": {
+      "id": "VMX5mUOBFKhnuPmKdh3zF",
+      "slug": "ux-benchmarking",
+      "title": "UX Benchmarking",
+      "description": "UX benchmarking measures a product's usability against a defined standard, past version, or competitor product using consistent metrics. It gives teams a way to track whether design changes are actually improving the experience over time, rather than relying on subjective impressions. Benchmarks are often revisited periodically to monitor long-term trends in product quality.",
+      "resources": [
+        {
+          "id": "VMX5mUOBFKhnuPmKdh3zF-res-1",
+          "type": "article",
+          "title": "Benchmarking UX: Tracking Metrics",
+          "url": "https://www.nngroup.com/articles/benchmarking-ux/"
+        },
+        {
+          "id": "VMX5mUOBFKhnuPmKdh3zF-res-2",
+          "type": "video",
+          "title": "The secret power of Benchmarking | UX Benchmarking tips",
+          "url": "https://www.youtube.com/watch?v=zd7SYKxlFVA"
+        }
+      ]
+    },
+    "k864ijkOZFS1tPSwBXXHC": {
+      "id": "k864ijkOZFS1tPSwBXXHC",
+      "slug": "ux-writing",
+      "title": "UX Writing",
+      "description": "UX writing is the practice of crafting the text within a product's interface, such as button labels, error messages, and onboarding copy, so it is clear and actionable. It requires balancing brevity with enough context for users to understand what to do next. UX writers often work closely with designers to ensure text and layout support each other rather than working against one another.",
+      "resources": [
+        {
+          "id": "k864ijkOZFS1tPSwBXXHC-res-1",
+          "type": "article",
+          "title": "UX Writing: Study Guide",
+          "url": "https://www.nngroup.com/articles/ux-writing-study-guide/"
+        },
+        {
+          "id": "k864ijkOZFS1tPSwBXXHC-res-2",
+          "type": "video",
+          "title": "A Day in the Life of a UX Writer | Google UX Design Certificate",
+          "url": "https://www.youtube.com/watch?v=CxBL_QwyWjA"
+        },
+        {
+          "id": "k864ijkOZFS1tPSwBXXHC-res-3",
+          "type": "video",
+          "title": "How to Get Into UX Writing",
+          "url": "https://www.youtube.com/watch?v=1Yvu-i9H6lI"
+        }
+      ]
+    },
+    "J_xpmcvqWbI7ZZGEHlc50": {
+      "id": "J_xpmcvqWbI7ZZGEHlc50",
+      "slug": "value-proposition",
+      "title": "Value Proposition",
+      "description": "A value proposition is a clear statement of the specific benefit a product delivers to its users and why it is better than existing alternatives. It answers the question of why someone would choose this product over doing nothing or using a competitor. Product teams use it to keep design and marketing decisions focused on the core value being delivered.",
+      "resources": [
+        {
+          "id": "J_xpmcvqWbI7ZZGEHlc50-res-1",
+          "type": "article",
+          "title": "Value proposition: the key to winning customers and driving business growth",
+          "url": "https://www.strategyzer.com/value-proposition"
+        },
+        {
+          "id": "J_xpmcvqWbI7ZZGEHlc50-res-2",
+          "type": "article",
+          "title": "How to Create a Compelling Value Proposition, With Examples",
+          "url": "https://www.investopedia.com/terms/v/valueproposition.asp"
+        }
+      ]
+    },
+    "bwj1QpmHeJth7Z5b1TpfU": {
+      "id": "bwj1QpmHeJth7Z5b1TpfU",
+      "slug": "visual-foundations",
+      "title": "Visual Foundations",
+      "description": "Visual foundations are the basic building blocks of visual design, including color, layout and grid systems, typography, icons, and visual hierarchy. These elements establish the underlying rules that keep an interface consistent and easy to read. Nearly all interface design work builds on top of these foundational choices.",
+      "resources": [
+        {
+          "id": "bwj1QpmHeJth7Z5b1TpfU-res-1",
+          "type": "article",
+          "title": "What is UI design?",
+          "url": "https://www.figma.com/resource-library/what-is-ui-design/"
+        },
+        {
+          "id": "bwj1QpmHeJth7Z5b1TpfU-res-2",
+          "type": "video",
+          "title": "UI Design",
+          "url": "https://www.youtube.com/playlist?list=PLrtjkLnNjGHu09kr99red3iVlzV2wrR9Q"
+        },
+        {
+          "id": "bwj1QpmHeJth7Z5b1TpfU-res-3",
+          "type": "video",
+          "title": "Every UI/UX Concept Explained in Under 10 Minutes",
+          "url": "https://www.youtube.com/watch?v=EcbgbKtOELY"
+        }
+      ]
+    },
+    "auEN54ontSqWBb-DDD_A9": {
+      "id": "auEN54ontSqWBb-DDD_A9",
+      "slug": "visual-hierarchy",
+      "title": "Visual Hierarchy",
+      "description": "Visual hierarchy is the arrangement of design elements, such as size, color, and placement, to guide a user's attention to the most important information first. A clear hierarchy helps users quickly understand what matters most on a screen without having to read everything. It draws on principles from color, typography, and layout to create a scannable, easy-to-navigate interface.",
+      "resources": [
+        {
+          "id": "auEN54ontSqWBb-DDD_A9-res-1",
+          "type": "article",
+          "title": "What is visual hierarchy",
+          "url": "https://www.figma.com/resource-library/what-is-visual-hierarchy/"
+        },
+        {
+          "id": "auEN54ontSqWBb-DDD_A9-res-2",
+          "type": "article",
+          "title": "Principles of visual hierarchy in UI Design",
+          "url": "https://uxplanet.org/principles-of-visual-hierarchy-in-ui-design-fbcd31f88088"
+        },
+        {
+          "id": "auEN54ontSqWBb-DDD_A9-res-3",
+          "type": "video",
+          "title": "The ONLY Video On Visual Hierarchy ANY Graphic Designer Needs",
+          "url": "https://www.youtube.com/watch?v=4QNEDhrsRLo&pp=ygUadWkgZGVzaWduIHZpc3VhbCBoaWVyYXJjaHk%3D"
+        }
+      ]
+    },
+    "iq1jmcWoLb2BodJBuk7v0": {
+      "id": "iq1jmcWoLb2BodJBuk7v0",
+      "slug": "voice--tone",
+      "title": "Voice & Tone",
+      "description": "Voice and tone define the personality and style of a product's writing, and how that style shifts depending on the situation, such as a playful tone in a success message versus a serious tone in an error about lost data. A consistent voice helps a product feel coherent and trustworthy across different touchpoints. Tone can flex situationally while the underlying voice generally stays consistent.",
+      "resources": [
+        {
+          "id": "iq1jmcWoLb2BodJBuk7v0-res-1",
+          "type": "article",
+          "title": "Creating your product’s tone and voice",
+          "url": "https://uxdesign.cc/creating-your-products-tone-and-voice-758fdcd1f0b2"
+        },
+        {
+          "id": "iq1jmcWoLb2BodJBuk7v0-res-2",
+          "type": "article",
+          "title": "Understanding Voice & Tone in UX Design:",
+          "url": "https://medium.com/design-bootcamp/understanding-voice-tone-in-ux-design-making-your-product-speak-the-language-of-your-users-07940219e652"
+        }
+      ]
+    },
+    "k2EyAc_Zs5VDUJ55taOy2": {
+      "id": "k2EyAc_Zs5VDUJ55taOy2",
+      "slug": "wireframing",
+      "title": "Wireframing",
+      "description": "Wireframing is the process of creating simplified, low-fidelity layouts of a screen that show structure and placement of elements without detailed visual design. It focuses attention on functionality and flow rather than color, typography, or imagery. Wireframes are often used to get early feedback and alignment before investing time in higher-fidelity design work.",
+      "resources": [
+        {
+          "id": "k2EyAc_Zs5VDUJ55taOy2-res-1",
+          "type": "article",
+          "title": "What is wireframing?",
+          "url": "https://www.figma.com/resource-library/what-is-wireframing/"
+        },
+        {
+          "id": "k2EyAc_Zs5VDUJ55taOy2-res-2",
+          "type": "video",
+          "title": "Figma Wireframe Tutorial for Beginners",
+          "url": "https://www.youtube.com/watch?v=iyrEStiTZh0"
+        }
+      ]
+    },
+    "ZUenBZJztKfzobLOj8BdV": {
+      "id": "ZUenBZJztKfzobLOj8BdV",
+      "slug": "zeplin",
+      "title": "Zeplin",
+      "description": "Zeplin is a collaboration tool that bridges the gap between designers and developers by automatically generating design specifications, assets, and code snippets from design files. It allows designers to upload their work from tools like Figma, Sketch, or Adobe XD, providing developers with a dedicated environment to inspect layouts, extract color palettes, and download individual assets without needing access to the original design software. B",
+      "resources": [
+        {
+          "id": "ZUenBZJztKfzobLOj8BdV-res-1",
+          "type": "article",
+          "title": "Zeplin",
+          "url": "https://zeplin.io/"
+        },
+        {
+          "id": "ZUenBZJztKfzobLOj8BdV-res-2",
+          "type": "video",
+          "title": "Quick tour of Zeplin",
+          "url": "https://www.youtube.com/watch?v=qWqWx0dvXHw"
+        }
+      ]
+    }
+  }
+}

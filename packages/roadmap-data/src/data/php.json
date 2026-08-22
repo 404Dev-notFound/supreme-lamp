@@ -1,0 +1,3721 @@
+{
+  "slug": "php",
+  "title": "Php",
+  "description": "Comprehensive learning curriculum and mastery roadmap for php.",
+  "category": "skill",
+  "level": "Intermediate",
+  "topicCount": 120,
+  "iconName": "Compass",
+  "nodes": [
+    {
+      "id": "node-ub79EkMiOmPBwXLRuYFL8",
+      "label": "Abstract classes",
+      "topicId": "ub79EkMiOmPBwXLRuYFL8",
+      "level": 1,
+      "position": {
+        "x": 80,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-RD2RaBmA2XWkEa13PTCTX",
+      "label": "Access Specifiers",
+      "topicId": "RD2RaBmA2XWkEa13PTCTX",
+      "level": 1,
+      "position": {
+        "x": 340,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-Nr5m6wQLp7VyG3AucrSc8",
+      "label": "Anonymous Functions",
+      "topicId": "Nr5m6wQLp7VyG3AucrSc8",
+      "level": 1,
+      "position": {
+        "x": 600,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-KMQqePqAjQ-ReDwHqeofx",
+      "label": "Apache",
+      "topicId": "KMQqePqAjQ-ReDwHqeofx",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-IhKjvT6CjRz4dsSU7SNQo",
+      "label": "Arrays",
+      "topicId": "IhKjvT6CjRz4dsSU7SNQo",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-mP1BIkqbWVVTU-zZv1ZL6",
+      "label": "Arrow Functions",
+      "topicId": "mP1BIkqbWVVTU-zZv1ZL6",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-i_NRsOJNNp7AOqMgu5Jg8",
+      "label": "Associative Arrays",
+      "topicId": "i_NRsOJNNp7AOqMgu5Jg8",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-HJJzKYXdK4BWITLP4APLZ",
+      "label": "Auth Mechanisms",
+      "topicId": "HJJzKYXdK4BWITLP4APLZ",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-qFiTsf6Es-gwqe6J6bdL1",
+      "label": "Autoloading",
+      "topicId": "qFiTsf6Es-gwqe6J6bdL1",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-hzBUHSuFwLYNooF_vEmrs",
+      "label": "Basic PHP Syntax",
+      "topicId": "hzBUHSuFwLYNooF_vEmrs",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-Av-BMa57RvrLlAXLffOH0",
+      "label": "Caching Strategies",
+      "topicId": "Av-BMa57RvrLlAXLffOH0",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-x7hA2KAzJIjc-prgCEw6V",
+      "label": "Callback Functions",
+      "topicId": "x7hA2KAzJIjc-prgCEw6V",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-pzReF4C0mcCWAnpfIJbwl",
+      "label": "Casting Data Types",
+      "topicId": "pzReF4C0mcCWAnpfIJbwl",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-PIuplWreo7PFG3Mdn2t6W",
+      "label": "Classes and Objects",
+      "topicId": "PIuplWreo7PFG3Mdn2t6W",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-yVFDu2aTiEZ4PWMdKdW2P",
+      "label": "Composer",
+      "topicId": "yVFDu2aTiEZ4PWMdKdW2P",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-38YksjvhXCbgnHqkl57Cz",
+      "label": "Conditionals",
+      "topicId": "38YksjvhXCbgnHqkl57Cz",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-DTaAZaU1CwzW7esoDhj85",
+      "label": "Configuration Files",
+      "topicId": "DTaAZaU1CwzW7esoDhj85",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-VpwwF8j5ZtXVSbzNfE7Sx",
+      "label": "Configuration Tuning",
+      "topicId": "VpwwF8j5ZtXVSbzNfE7Sx",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-txUyPR_tdC8iTJV3RtvBz",
+      "label": "Connection Pooling",
+      "topicId": "txUyPR_tdC8iTJV3RtvBz",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-VLRLymQmLfscrBfzXKvHi",
+      "label": "Constants",
+      "topicId": "VLRLymQmLfscrBfzXKvHi",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-oNUt1oT8pYBVvH0S2P6cb",
+      "label": "Constructor / Destructor",
+      "topicId": "oNUt1oT8pYBVvH0S2P6cb",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-so03-fK7E2WvTm6XsPq4i",
+      "label": "Cookies",
+      "topicId": "so03-fK7E2WvTm6XsPq4i",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-J9yIXZTtwbFzH2u4dI1ep",
+      "label": "CSRF Protection",
+      "topicId": "J9yIXZTtwbFzH2u4dI1ep",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-MRDjEjbkMpk7shcWAoPOF",
+      "label": "CSV Processing",
+      "topicId": "MRDjEjbkMpk7shcWAoPOF",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-KC6D81-T-FwQc7Osw1rlY",
+      "label": "cURL",
+      "topicId": "KC6D81-T-FwQc7Osw1rlY",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-srIHPZabaCGdB5VvUXaMa",
+      "label": "Data Types",
+      "topicId": "srIHPZabaCGdB5VvUXaMa",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-meplwvmHMtI3Sb_fyodzZ",
+      "label": "Database Migrations",
+      "topicId": "meplwvmHMtI3Sb_fyodzZ",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-FY-F6n9j29hQrnFry3VGb",
+      "label": "Database Transactions",
+      "topicId": "FY-F6n9j29hQrnFry3VGb",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-RgVP99rJJ8FVecIA45w20",
+      "label": "Default / Optional Params",
+      "topicId": "RgVP99rJJ8FVecIA45w20",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-KEE50C6lOS4eX8sAbfhYe",
+      "label": "Dependency Injection",
+      "topicId": "KEE50C6lOS4eX8sAbfhYe",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-2ykzBBdYhWuM-neGf0AWP",
+      "label": "echo",
+      "topicId": "2ykzBBdYhWuM-neGf0AWP",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-fitjnLYKLHJ2P5G7JAvzm",
+      "label": "Environment Variables",
+      "topicId": "fitjnLYKLHJ2P5G7JAvzm",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-b2CuLrhsUNnb4OxI6RRAS",
+      "label": "Evolution and History",
+      "topicId": "b2CuLrhsUNnb4OxI6RRAS",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-VhyYNGhOdKKrz_-uTkrjD",
+      "label": "Executing System Commands",
+      "topicId": "VhyYNGhOdKKrz_-uTkrjD",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-tgIyG6vHWpe9sz6lHmj5a",
+      "label": "File Permissions",
+      "topicId": "tgIyG6vHWpe9sz6lHmj5a",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-HNo8QO4aPbvgePiA4l6tq",
+      "label": "File Uploads",
+      "topicId": "HNo8QO4aPbvgePiA4l6tq",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-sYI7f1PYP7G30_Uj2mZRv",
+      "label": "Form Processing",
+      "topicId": "sYI7f1PYP7G30_Uj2mZRv",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-1nODJchgSuWbcvSlxnWeE",
+      "label": "Function Declaration",
+      "topicId": "1nODJchgSuWbcvSlxnWeE",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-WiGv7vi7Mtw-YqPMcnnyw",
+      "label": "Functions",
+      "topicId": "WiGv7vi7Mtw-YqPMcnnyw",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-_Al4NXKVQAnk8OikwvXCL",
+      "label": "Guzzle",
+      "topicId": "_Al4NXKVQAnk8OikwvXCL",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-tn_iIfaJZVtPK6vFds7FH",
+      "label": "HTTP Methods",
+      "topicId": "tn_iIfaJZVtPK6vFds7FH",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node--McOv-ZPTGayX7Mx2Thw1",
+      "label": "if/else",
+      "topicId": "-McOv-ZPTGayX7Mx2Thw1",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-hKfv7V6bl2LXssq9Ffi7C",
+      "label": "include",
+      "topicId": "hKfv7V6bl2LXssq9Ffi7C",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-SwtLDgyPmDry20qS4FBfH",
+      "label": "include_once",
+      "topicId": "SwtLDgyPmDry20qS4FBfH",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-j2S8dP3HlAOOoZdpj-7Dx",
+      "label": "Indexed Arrays",
+      "topicId": "j2S8dP3HlAOOoZdpj-7Dx",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-c5q2e_jyMt8Pir5Od3lRi",
+      "label": "Inheritance",
+      "topicId": "c5q2e_jyMt8Pir5Od3lRi",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-93oEIZttb85S23C1fLraP",
+      "label": "Input Validation",
+      "topicId": "93oEIZttb85S23C1fLraP",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-3_TuxOSzBuktBlBF05r_z",
+      "label": "Installing PHP",
+      "topicId": "3_TuxOSzBuktBlBF05r_z",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-vu0H-TsD7hkJgOQbSRj92",
+      "label": "Interfaces",
+      "topicId": "vu0H-TsD7hkJgOQbSRj92",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-_hYN0gEi9BL24nptEtXWU",
+      "label": "Introduction to PHP",
+      "topicId": "_hYN0gEi9BL24nptEtXWU",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-DB2cxZE58WCCavW2PNwmf",
+      "label": "JSON Processing",
+      "topicId": "DB2cxZE58WCCavW2PNwmf",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-7LjxtrmgJtTJc0_kP83Tr",
+      "label": "LAMP",
+      "topicId": "7LjxtrmgJtTJc0_kP83Tr",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-zsscRQZIq5o0JZir9hlz-",
+      "label": "Yii",
+      "topicId": "zsscRQZIq5o0JZir9hlz-",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-qwt8xN4vuTrY-D0czYITI",
+      "label": "Loops",
+      "topicId": "qwt8xN4vuTrY-D0czYITI",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-rSXsPWto7Jeyw3Szl9pvf",
+      "label": "Magic methods",
+      "topicId": "rSXsPWto7Jeyw3Szl9pvf",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-t7p7TU2khaxsZPYAdwFAA",
+      "label": "MAMP",
+      "topicId": "t7p7TU2khaxsZPYAdwFAA",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-3gNzX-bw2iqur7U7-_W38",
+      "label": "match",
+      "topicId": "3gNzX-bw2iqur7U7-_W38",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-bt7dK2PcOZ72B9HXPyMwL",
+      "label": "Memory Management",
+      "topicId": "bt7dK2PcOZ72B9HXPyMwL",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-uARTOZ-ZwugSmbCJoRS5Y",
+      "label": "Multi-dimensional Arrays",
+      "topicId": "uARTOZ-ZwugSmbCJoRS5Y",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-YLuo0oZJzTCoiZoOSG57z",
+      "label": "MySQLi",
+      "topicId": "YLuo0oZJzTCoiZoOSG57z",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-RkNjYva8o_jXp9suz5YdG",
+      "label": "Named Arguments",
+      "topicId": "RkNjYva8o_jXp9suz5YdG",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-9raJ06lKRZITbjWeLil-F",
+      "label": "Namespaces",
+      "topicId": "9raJ06lKRZITbjWeLil-F",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-aspZpACHEKOsi_Er5FYPY",
+      "label": "Nginx",
+      "topicId": "aspZpACHEKOsi_Er5FYPY",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-w0ntgFBhgGd5RUFd-qlPK",
+      "label": "Null Coalescing Operator",
+      "topicId": "w0ntgFBhgGd5RUFd-qlPK",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-1NXSk8VZDr89jQTTkOL7x",
+      "label": "Null Safe Operator",
+      "topicId": "1NXSk8VZDr89jQTTkOL7x",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-SeqGIfcLuveZ2z5ZSXcOd",
+      "label": "Object-Relational Mapping (ORM)",
+      "topicId": "SeqGIfcLuveZ2z5ZSXcOd",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-yTviiPFR5b_dr3WyxdxxQ",
+      "label": "OOP Fundamentals",
+      "topicId": "yTviiPFR5b_dr3WyxdxxQ",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-NieqZd1juaNYoZOrB7e31",
+      "label": "Opcode Caching",
+      "topicId": "NieqZd1juaNYoZOrB7e31",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-xZf2jjnCVHwYfDH2hs9kR",
+      "label": "Packagist",
+      "topicId": "xZf2jjnCVHwYfDH2hs9kR",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-mpQKoBzsOa-5iWo08sOhQ",
+      "label": "Parameters / Return Values",
+      "topicId": "mpQKoBzsOa-5iWo08sOhQ",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-JbWFfJiCRrXDhnuIx_lqx",
+      "label": "Password Hashing",
+      "topicId": "JbWFfJiCRrXDhnuIx_lqx",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-cJtPz1RMN1qDE4eRdv4N_",
+      "label": "PDO",
+      "topicId": "cJtPz1RMN1qDE4eRdv4N_",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-M1nVsh_sCSFJRf6-7Ttsj",
+      "label": "Performance Optimization",
+      "topicId": "M1nVsh_sCSFJRf6-7Ttsj",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-d6MydchA52HIxfAUjmZui",
+      "label": "Pest",
+      "topicId": "d6MydchA52HIxfAUjmZui",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-B45YVzov8X_iOtneiFEqa",
+      "label": "Phan",
+      "topicId": "B45YVzov8X_iOtneiFEqa",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-r07k_hT2z2EiIBH4q3F7-",
+      "label": "PHP CS Fixer",
+      "topicId": "r07k_hT2z2EiIBH4q3F7-",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-SD9k16UlVve9WtNMDA5Za",
+      "label": "PHP-FIG",
+      "topicId": "SD9k16UlVve9WtNMDA5Za",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-AoGS-5MSkp8gtJFQVPSBE",
+      "label": "PHP-FPM",
+      "topicId": "AoGS-5MSkp8gtJFQVPSBE",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-6sHRQTcoKL3TlgNJlwyx8",
+      "label": "PHP Versions and Features",
+      "topicId": "6sHRQTcoKL3TlgNJlwyx8",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-fSpvZ_4kGFMbFVCWhA8vn",
+      "label": "PHP CodeSniffer",
+      "topicId": "fSpvZ_4kGFMbFVCWhA8vn",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-12k71gNfwAcT9K5aLWgbZ",
+      "label": "PHPStan",
+      "topicId": "12k71gNfwAcT9K5aLWgbZ",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-NfBKKwG2GGBPppOjoLLBg",
+      "label": "PHPUnit",
+      "topicId": "NfBKKwG2GGBPppOjoLLBg",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-gtq5KrghF28f5G8nuDcYQ",
+      "label": "Polymorphism",
+      "topicId": "gtq5KrghF28f5G8nuDcYQ",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-NQUmO90sqe7fnzod3Ia8H",
+      "label": "print",
+      "topicId": "NQUmO90sqe7fnzod3Ia8H",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-wsC7OGXOyfCY4pLLNrR2v",
+      "label": "print_r",
+      "topicId": "wsC7OGXOyfCY4pLLNrR2v",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-NTKUMgsKGYISIyhgOJPQn",
+      "label": "Process Control",
+      "topicId": "NTKUMgsKGYISIyhgOJPQn",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-_Dh78x_tPLqZweg--qZFQ",
+      "label": "Profiling Techniques",
+      "topicId": "_Dh78x_tPLqZweg--qZFQ",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-MRAPXshy9RoYdReY6grf_",
+      "label": "Properties and Methods",
+      "topicId": "MRAPXshy9RoYdReY6grf_",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-T1XD93j6Lkpl88JSmys9b",
+      "label": "Psalm",
+      "topicId": "T1XD93j6Lkpl88JSmys9b",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-3tONibbRgK7HCwGTE2Gqw",
+      "label": "PSR Standards",
+      "topicId": "3tONibbRgK7HCwGTE2Gqw",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-S9wTlkbv9-R6dohhZ47hs",
+      "label": "Reading Files",
+      "topicId": "S9wTlkbv9-R6dohhZ47hs",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-D9ybK5INH5zSOcYMb5ZPi",
+      "label": "Recursion",
+      "topicId": "D9ybK5INH5zSOcYMb5ZPi",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-Kaaqu-mN7xvHN6CbIn616",
+      "label": "require",
+      "topicId": "Kaaqu-mN7xvHN6CbIn616",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node--CyJbsg2ho3RvfzKnJj5C",
+      "label": "require_once",
+      "topicId": "-CyJbsg2ho3RvfzKnJj5C",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5040
+      }
+    },
+    {
+      "id": "node-tfC1tCrbvH5J43WUpG9Yb",
+      "label": "Sanitization Techniques",
+      "topicId": "tfC1tCrbvH5J43WUpG9Yb",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5040
+      }
+    },
+    {
+      "id": "node-qobzzgzArNHLLn9Oiqc6G",
+      "label": "Sessions",
+      "topicId": "qobzzgzArNHLLn9Oiqc6G",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5040
+      }
+    },
+    {
+      "id": "node-801vB_JMas4ucriUmfrLg",
+      "label": "SQL Injection",
+      "topicId": "801vB_JMas4ucriUmfrLg",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5200
+      }
+    },
+    {
+      "id": "node-CGehmZjcgTWC7fQAvxmNW",
+      "label": "State Management",
+      "topicId": "CGehmZjcgTWC7fQAvxmNW",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5200
+      }
+    },
+    {
+      "id": "node-PrG_5dyBblXsWYYRcOJMa",
+      "label": "Static Analysis",
+      "topicId": "PrG_5dyBblXsWYYRcOJMa",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5200
+      }
+    },
+    {
+      "id": "node-qlkpwXfOc1p7j37hrzffI",
+      "label": "Static Methods and Properties",
+      "topicId": "qlkpwXfOc1p7j37hrzffI",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5360
+      }
+    },
+    {
+      "id": "node-6eWgZVLV479oQzl0fu-Od",
+      "label": "Style Tools",
+      "topicId": "6eWgZVLV479oQzl0fu-Od",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5360
+      }
+    },
+    {
+      "id": "node-bgJ9-m6Fiu3VCc-NZlbpn",
+      "label": "switch",
+      "topicId": "bgJ9-m6Fiu3VCc-NZlbpn",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5360
+      }
+    },
+    {
+      "id": "node-57VSMVePOr9qUD5x_LNdf",
+      "label": "Symfony",
+      "topicId": "57VSMVePOr9qUD5x_LNdf",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5520
+      }
+    },
+    {
+      "id": "node-GR09ns9B-0cONQaQ_uj-7",
+      "label": "Traits",
+      "topicId": "GR09ns9B-0cONQaQ_uj-7",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5520
+      }
+    },
+    {
+      "id": "node-sPW-Ti2VyNYzxq6EYkbn7",
+      "label": "Type Declarations",
+      "topicId": "sPW-Ti2VyNYzxq6EYkbn7",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5520
+      }
+    },
+    {
+      "id": "node-D0BtyxyjIBcpfn5wP23WC",
+      "label": "Variables and Scope",
+      "topicId": "D0BtyxyjIBcpfn5wP23WC",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5680
+      }
+    },
+    {
+      "id": "node-rtmytETfyyLdcXUC0QyzL",
+      "label": "Variadic Functions",
+      "topicId": "rtmytETfyyLdcXUC0QyzL",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5680
+      }
+    },
+    {
+      "id": "node-JCCeVC0hOrvIeyfg1ScKA",
+      "label": "var_dump",
+      "topicId": "JCCeVC0hOrvIeyfg1ScKA",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5680
+      }
+    },
+    {
+      "id": "node-36Y1HkHxhuxh2qVQB8NVE",
+      "label": "WAMP",
+      "topicId": "36Y1HkHxhuxh2qVQB8NVE",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5840
+      }
+    },
+    {
+      "id": "node-_LhLDVZjLt1DoAP1NuUES",
+      "label": "What is PHP?",
+      "topicId": "_LhLDVZjLt1DoAP1NuUES",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5840
+      }
+    },
+    {
+      "id": "node-two4UycJaCfSp6jQqtTAb",
+      "label": "Writing Files",
+      "topicId": "two4UycJaCfSp6jQqtTAb",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5840
+      }
+    },
+    {
+      "id": "node--wniKEBwbF0Fi1fHpF-Gc",
+      "label": "XAMPP",
+      "topicId": "-wniKEBwbF0Fi1fHpF-Gc",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 6000
+      }
+    },
+    {
+      "id": "node-lFoHoMRywCWa056ii5cKQ",
+      "label": "Xdebug",
+      "topicId": "lFoHoMRywCWa056ii5cKQ",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 6000
+      }
+    },
+    {
+      "id": "node-ggkWo0DRSSDDkHpbiyUyf",
+      "label": "XML Processing",
+      "topicId": "ggkWo0DRSSDDkHpbiyUyf",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 6000
+      }
+    },
+    {
+      "id": "node-DxqQrToZSayWplKdCkTgT",
+      "label": "XSS Prevention",
+      "topicId": "DxqQrToZSayWplKdCkTgT",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 6160
+      }
+    },
+    {
+      "id": "node-KpQb5Zh3GUcbYUyXHvyu2",
+      "label": "Zend Debugger",
+      "topicId": "KpQb5Zh3GUcbYUyXHvyu2",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 6160
+      }
+    },
+    {
+      "id": "node-GFYGFVfxkOoPI5mI4zSt1",
+      "label": "$_GET",
+      "topicId": "GFYGFVfxkOoPI5mI4zSt1",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 6160
+      }
+    },
+    {
+      "id": "node-qNG-a4iIO-puZsMwAMzYC",
+      "label": "$_POST",
+      "topicId": "qNG-a4iIO-puZsMwAMzYC",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 6320
+      }
+    },
+    {
+      "id": "node-A6rfW4uJhyfAX2b18_EEC",
+      "label": "$_REQUEST",
+      "topicId": "A6rfW4uJhyfAX2b18_EEC",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 6320
+      }
+    },
+    {
+      "id": "node-7Ja2at_N9tRTlvSGahrqn",
+      "label": "$_SERVER",
+      "topicId": "7Ja2at_N9tRTlvSGahrqn",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 6320
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-node-ub79EkMiOmPBwXLRuYFL8-node-RD2RaBmA2XWkEa13PTCTX",
+      "source": "node-ub79EkMiOmPBwXLRuYFL8",
+      "target": "node-RD2RaBmA2XWkEa13PTCTX",
+      "animated": true
+    },
+    {
+      "id": "edge-node-RD2RaBmA2XWkEa13PTCTX-node-Nr5m6wQLp7VyG3AucrSc8",
+      "source": "node-RD2RaBmA2XWkEa13PTCTX",
+      "target": "node-Nr5m6wQLp7VyG3AucrSc8",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Nr5m6wQLp7VyG3AucrSc8-node-KMQqePqAjQ-ReDwHqeofx",
+      "source": "node-Nr5m6wQLp7VyG3AucrSc8",
+      "target": "node-KMQqePqAjQ-ReDwHqeofx",
+      "animated": true
+    },
+    {
+      "id": "edge-node-KMQqePqAjQ-ReDwHqeofx-node-IhKjvT6CjRz4dsSU7SNQo",
+      "source": "node-KMQqePqAjQ-ReDwHqeofx",
+      "target": "node-IhKjvT6CjRz4dsSU7SNQo",
+      "animated": true
+    },
+    {
+      "id": "edge-node-IhKjvT6CjRz4dsSU7SNQo-node-mP1BIkqbWVVTU-zZv1ZL6",
+      "source": "node-IhKjvT6CjRz4dsSU7SNQo",
+      "target": "node-mP1BIkqbWVVTU-zZv1ZL6",
+      "animated": true
+    },
+    {
+      "id": "edge-node-mP1BIkqbWVVTU-zZv1ZL6-node-i_NRsOJNNp7AOqMgu5Jg8",
+      "source": "node-mP1BIkqbWVVTU-zZv1ZL6",
+      "target": "node-i_NRsOJNNp7AOqMgu5Jg8",
+      "animated": true
+    },
+    {
+      "id": "edge-node-i_NRsOJNNp7AOqMgu5Jg8-node-HJJzKYXdK4BWITLP4APLZ",
+      "source": "node-i_NRsOJNNp7AOqMgu5Jg8",
+      "target": "node-HJJzKYXdK4BWITLP4APLZ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-HJJzKYXdK4BWITLP4APLZ-node-qFiTsf6Es-gwqe6J6bdL1",
+      "source": "node-HJJzKYXdK4BWITLP4APLZ",
+      "target": "node-qFiTsf6Es-gwqe6J6bdL1",
+      "animated": true
+    },
+    {
+      "id": "edge-node-qFiTsf6Es-gwqe6J6bdL1-node-hzBUHSuFwLYNooF_vEmrs",
+      "source": "node-qFiTsf6Es-gwqe6J6bdL1",
+      "target": "node-hzBUHSuFwLYNooF_vEmrs",
+      "animated": true
+    },
+    {
+      "id": "edge-node-hzBUHSuFwLYNooF_vEmrs-node-Av-BMa57RvrLlAXLffOH0",
+      "source": "node-hzBUHSuFwLYNooF_vEmrs",
+      "target": "node-Av-BMa57RvrLlAXLffOH0",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Av-BMa57RvrLlAXLffOH0-node-x7hA2KAzJIjc-prgCEw6V",
+      "source": "node-Av-BMa57RvrLlAXLffOH0",
+      "target": "node-x7hA2KAzJIjc-prgCEw6V",
+      "animated": true
+    },
+    {
+      "id": "edge-node-x7hA2KAzJIjc-prgCEw6V-node-pzReF4C0mcCWAnpfIJbwl",
+      "source": "node-x7hA2KAzJIjc-prgCEw6V",
+      "target": "node-pzReF4C0mcCWAnpfIJbwl",
+      "animated": true
+    },
+    {
+      "id": "edge-node-pzReF4C0mcCWAnpfIJbwl-node-PIuplWreo7PFG3Mdn2t6W",
+      "source": "node-pzReF4C0mcCWAnpfIJbwl",
+      "target": "node-PIuplWreo7PFG3Mdn2t6W",
+      "animated": true
+    },
+    {
+      "id": "edge-node-PIuplWreo7PFG3Mdn2t6W-node-yVFDu2aTiEZ4PWMdKdW2P",
+      "source": "node-PIuplWreo7PFG3Mdn2t6W",
+      "target": "node-yVFDu2aTiEZ4PWMdKdW2P",
+      "animated": true
+    },
+    {
+      "id": "edge-node-yVFDu2aTiEZ4PWMdKdW2P-node-38YksjvhXCbgnHqkl57Cz",
+      "source": "node-yVFDu2aTiEZ4PWMdKdW2P",
+      "target": "node-38YksjvhXCbgnHqkl57Cz",
+      "animated": true
+    },
+    {
+      "id": "edge-node-38YksjvhXCbgnHqkl57Cz-node-DTaAZaU1CwzW7esoDhj85",
+      "source": "node-38YksjvhXCbgnHqkl57Cz",
+      "target": "node-DTaAZaU1CwzW7esoDhj85",
+      "animated": true
+    },
+    {
+      "id": "edge-node-DTaAZaU1CwzW7esoDhj85-node-VpwwF8j5ZtXVSbzNfE7Sx",
+      "source": "node-DTaAZaU1CwzW7esoDhj85",
+      "target": "node-VpwwF8j5ZtXVSbzNfE7Sx",
+      "animated": true
+    },
+    {
+      "id": "edge-node-VpwwF8j5ZtXVSbzNfE7Sx-node-txUyPR_tdC8iTJV3RtvBz",
+      "source": "node-VpwwF8j5ZtXVSbzNfE7Sx",
+      "target": "node-txUyPR_tdC8iTJV3RtvBz",
+      "animated": true
+    },
+    {
+      "id": "edge-node-txUyPR_tdC8iTJV3RtvBz-node-VLRLymQmLfscrBfzXKvHi",
+      "source": "node-txUyPR_tdC8iTJV3RtvBz",
+      "target": "node-VLRLymQmLfscrBfzXKvHi",
+      "animated": true
+    },
+    {
+      "id": "edge-node-VLRLymQmLfscrBfzXKvHi-node-oNUt1oT8pYBVvH0S2P6cb",
+      "source": "node-VLRLymQmLfscrBfzXKvHi",
+      "target": "node-oNUt1oT8pYBVvH0S2P6cb",
+      "animated": true
+    },
+    {
+      "id": "edge-node-oNUt1oT8pYBVvH0S2P6cb-node-so03-fK7E2WvTm6XsPq4i",
+      "source": "node-oNUt1oT8pYBVvH0S2P6cb",
+      "target": "node-so03-fK7E2WvTm6XsPq4i",
+      "animated": true
+    },
+    {
+      "id": "edge-node-so03-fK7E2WvTm6XsPq4i-node-J9yIXZTtwbFzH2u4dI1ep",
+      "source": "node-so03-fK7E2WvTm6XsPq4i",
+      "target": "node-J9yIXZTtwbFzH2u4dI1ep",
+      "animated": true
+    },
+    {
+      "id": "edge-node-J9yIXZTtwbFzH2u4dI1ep-node-MRDjEjbkMpk7shcWAoPOF",
+      "source": "node-J9yIXZTtwbFzH2u4dI1ep",
+      "target": "node-MRDjEjbkMpk7shcWAoPOF",
+      "animated": true
+    },
+    {
+      "id": "edge-node-MRDjEjbkMpk7shcWAoPOF-node-KC6D81-T-FwQc7Osw1rlY",
+      "source": "node-MRDjEjbkMpk7shcWAoPOF",
+      "target": "node-KC6D81-T-FwQc7Osw1rlY",
+      "animated": true
+    },
+    {
+      "id": "edge-node-KC6D81-T-FwQc7Osw1rlY-node-srIHPZabaCGdB5VvUXaMa",
+      "source": "node-KC6D81-T-FwQc7Osw1rlY",
+      "target": "node-srIHPZabaCGdB5VvUXaMa",
+      "animated": true
+    },
+    {
+      "id": "edge-node-srIHPZabaCGdB5VvUXaMa-node-meplwvmHMtI3Sb_fyodzZ",
+      "source": "node-srIHPZabaCGdB5VvUXaMa",
+      "target": "node-meplwvmHMtI3Sb_fyodzZ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-meplwvmHMtI3Sb_fyodzZ-node-FY-F6n9j29hQrnFry3VGb",
+      "source": "node-meplwvmHMtI3Sb_fyodzZ",
+      "target": "node-FY-F6n9j29hQrnFry3VGb",
+      "animated": true
+    },
+    {
+      "id": "edge-node-FY-F6n9j29hQrnFry3VGb-node-RgVP99rJJ8FVecIA45w20",
+      "source": "node-FY-F6n9j29hQrnFry3VGb",
+      "target": "node-RgVP99rJJ8FVecIA45w20",
+      "animated": true
+    },
+    {
+      "id": "edge-node-RgVP99rJJ8FVecIA45w20-node-KEE50C6lOS4eX8sAbfhYe",
+      "source": "node-RgVP99rJJ8FVecIA45w20",
+      "target": "node-KEE50C6lOS4eX8sAbfhYe",
+      "animated": true
+    },
+    {
+      "id": "edge-node-KEE50C6lOS4eX8sAbfhYe-node-2ykzBBdYhWuM-neGf0AWP",
+      "source": "node-KEE50C6lOS4eX8sAbfhYe",
+      "target": "node-2ykzBBdYhWuM-neGf0AWP",
+      "animated": true
+    },
+    {
+      "id": "edge-node-2ykzBBdYhWuM-neGf0AWP-node-fitjnLYKLHJ2P5G7JAvzm",
+      "source": "node-2ykzBBdYhWuM-neGf0AWP",
+      "target": "node-fitjnLYKLHJ2P5G7JAvzm",
+      "animated": true
+    },
+    {
+      "id": "edge-node-fitjnLYKLHJ2P5G7JAvzm-node-b2CuLrhsUNnb4OxI6RRAS",
+      "source": "node-fitjnLYKLHJ2P5G7JAvzm",
+      "target": "node-b2CuLrhsUNnb4OxI6RRAS",
+      "animated": true
+    },
+    {
+      "id": "edge-node-b2CuLrhsUNnb4OxI6RRAS-node-VhyYNGhOdKKrz_-uTkrjD",
+      "source": "node-b2CuLrhsUNnb4OxI6RRAS",
+      "target": "node-VhyYNGhOdKKrz_-uTkrjD",
+      "animated": true
+    },
+    {
+      "id": "edge-node-VhyYNGhOdKKrz_-uTkrjD-node-tgIyG6vHWpe9sz6lHmj5a",
+      "source": "node-VhyYNGhOdKKrz_-uTkrjD",
+      "target": "node-tgIyG6vHWpe9sz6lHmj5a",
+      "animated": true
+    },
+    {
+      "id": "edge-node-tgIyG6vHWpe9sz6lHmj5a-node-HNo8QO4aPbvgePiA4l6tq",
+      "source": "node-tgIyG6vHWpe9sz6lHmj5a",
+      "target": "node-HNo8QO4aPbvgePiA4l6tq",
+      "animated": true
+    },
+    {
+      "id": "edge-node-HNo8QO4aPbvgePiA4l6tq-node-sYI7f1PYP7G30_Uj2mZRv",
+      "source": "node-HNo8QO4aPbvgePiA4l6tq",
+      "target": "node-sYI7f1PYP7G30_Uj2mZRv",
+      "animated": true
+    },
+    {
+      "id": "edge-node-sYI7f1PYP7G30_Uj2mZRv-node-1nODJchgSuWbcvSlxnWeE",
+      "source": "node-sYI7f1PYP7G30_Uj2mZRv",
+      "target": "node-1nODJchgSuWbcvSlxnWeE",
+      "animated": true
+    },
+    {
+      "id": "edge-node-1nODJchgSuWbcvSlxnWeE-node-WiGv7vi7Mtw-YqPMcnnyw",
+      "source": "node-1nODJchgSuWbcvSlxnWeE",
+      "target": "node-WiGv7vi7Mtw-YqPMcnnyw",
+      "animated": true
+    },
+    {
+      "id": "edge-node-WiGv7vi7Mtw-YqPMcnnyw-node-_Al4NXKVQAnk8OikwvXCL",
+      "source": "node-WiGv7vi7Mtw-YqPMcnnyw",
+      "target": "node-_Al4NXKVQAnk8OikwvXCL",
+      "animated": true
+    },
+    {
+      "id": "edge-node-_Al4NXKVQAnk8OikwvXCL-node-tn_iIfaJZVtPK6vFds7FH",
+      "source": "node-_Al4NXKVQAnk8OikwvXCL",
+      "target": "node-tn_iIfaJZVtPK6vFds7FH",
+      "animated": true
+    },
+    {
+      "id": "edge-node-tn_iIfaJZVtPK6vFds7FH-node--McOv-ZPTGayX7Mx2Thw1",
+      "source": "node-tn_iIfaJZVtPK6vFds7FH",
+      "target": "node--McOv-ZPTGayX7Mx2Thw1",
+      "animated": true
+    },
+    {
+      "id": "edge-node--McOv-ZPTGayX7Mx2Thw1-node-hKfv7V6bl2LXssq9Ffi7C",
+      "source": "node--McOv-ZPTGayX7Mx2Thw1",
+      "target": "node-hKfv7V6bl2LXssq9Ffi7C",
+      "animated": true
+    },
+    {
+      "id": "edge-node-hKfv7V6bl2LXssq9Ffi7C-node-SwtLDgyPmDry20qS4FBfH",
+      "source": "node-hKfv7V6bl2LXssq9Ffi7C",
+      "target": "node-SwtLDgyPmDry20qS4FBfH",
+      "animated": true
+    },
+    {
+      "id": "edge-node-SwtLDgyPmDry20qS4FBfH-node-j2S8dP3HlAOOoZdpj-7Dx",
+      "source": "node-SwtLDgyPmDry20qS4FBfH",
+      "target": "node-j2S8dP3HlAOOoZdpj-7Dx",
+      "animated": true
+    },
+    {
+      "id": "edge-node-j2S8dP3HlAOOoZdpj-7Dx-node-c5q2e_jyMt8Pir5Od3lRi",
+      "source": "node-j2S8dP3HlAOOoZdpj-7Dx",
+      "target": "node-c5q2e_jyMt8Pir5Od3lRi",
+      "animated": true
+    },
+    {
+      "id": "edge-node-c5q2e_jyMt8Pir5Od3lRi-node-93oEIZttb85S23C1fLraP",
+      "source": "node-c5q2e_jyMt8Pir5Od3lRi",
+      "target": "node-93oEIZttb85S23C1fLraP",
+      "animated": true
+    },
+    {
+      "id": "edge-node-93oEIZttb85S23C1fLraP-node-3_TuxOSzBuktBlBF05r_z",
+      "source": "node-93oEIZttb85S23C1fLraP",
+      "target": "node-3_TuxOSzBuktBlBF05r_z",
+      "animated": true
+    },
+    {
+      "id": "edge-node-3_TuxOSzBuktBlBF05r_z-node-vu0H-TsD7hkJgOQbSRj92",
+      "source": "node-3_TuxOSzBuktBlBF05r_z",
+      "target": "node-vu0H-TsD7hkJgOQbSRj92",
+      "animated": true
+    },
+    {
+      "id": "edge-node-vu0H-TsD7hkJgOQbSRj92-node-_hYN0gEi9BL24nptEtXWU",
+      "source": "node-vu0H-TsD7hkJgOQbSRj92",
+      "target": "node-_hYN0gEi9BL24nptEtXWU",
+      "animated": true
+    },
+    {
+      "id": "edge-node-_hYN0gEi9BL24nptEtXWU-node-DB2cxZE58WCCavW2PNwmf",
+      "source": "node-_hYN0gEi9BL24nptEtXWU",
+      "target": "node-DB2cxZE58WCCavW2PNwmf",
+      "animated": true
+    },
+    {
+      "id": "edge-node-DB2cxZE58WCCavW2PNwmf-node-7LjxtrmgJtTJc0_kP83Tr",
+      "source": "node-DB2cxZE58WCCavW2PNwmf",
+      "target": "node-7LjxtrmgJtTJc0_kP83Tr",
+      "animated": true
+    },
+    {
+      "id": "edge-node-7LjxtrmgJtTJc0_kP83Tr-node-zsscRQZIq5o0JZir9hlz-",
+      "source": "node-7LjxtrmgJtTJc0_kP83Tr",
+      "target": "node-zsscRQZIq5o0JZir9hlz-",
+      "animated": true
+    },
+    {
+      "id": "edge-node-zsscRQZIq5o0JZir9hlz--node-qwt8xN4vuTrY-D0czYITI",
+      "source": "node-zsscRQZIq5o0JZir9hlz-",
+      "target": "node-qwt8xN4vuTrY-D0czYITI",
+      "animated": true
+    },
+    {
+      "id": "edge-node-qwt8xN4vuTrY-D0czYITI-node-rSXsPWto7Jeyw3Szl9pvf",
+      "source": "node-qwt8xN4vuTrY-D0czYITI",
+      "target": "node-rSXsPWto7Jeyw3Szl9pvf",
+      "animated": true
+    },
+    {
+      "id": "edge-node-rSXsPWto7Jeyw3Szl9pvf-node-t7p7TU2khaxsZPYAdwFAA",
+      "source": "node-rSXsPWto7Jeyw3Szl9pvf",
+      "target": "node-t7p7TU2khaxsZPYAdwFAA",
+      "animated": true
+    },
+    {
+      "id": "edge-node-t7p7TU2khaxsZPYAdwFAA-node-3gNzX-bw2iqur7U7-_W38",
+      "source": "node-t7p7TU2khaxsZPYAdwFAA",
+      "target": "node-3gNzX-bw2iqur7U7-_W38",
+      "animated": true
+    },
+    {
+      "id": "edge-node-3gNzX-bw2iqur7U7-_W38-node-bt7dK2PcOZ72B9HXPyMwL",
+      "source": "node-3gNzX-bw2iqur7U7-_W38",
+      "target": "node-bt7dK2PcOZ72B9HXPyMwL",
+      "animated": true
+    },
+    {
+      "id": "edge-node-bt7dK2PcOZ72B9HXPyMwL-node-uARTOZ-ZwugSmbCJoRS5Y",
+      "source": "node-bt7dK2PcOZ72B9HXPyMwL",
+      "target": "node-uARTOZ-ZwugSmbCJoRS5Y",
+      "animated": true
+    },
+    {
+      "id": "edge-node-uARTOZ-ZwugSmbCJoRS5Y-node-YLuo0oZJzTCoiZoOSG57z",
+      "source": "node-uARTOZ-ZwugSmbCJoRS5Y",
+      "target": "node-YLuo0oZJzTCoiZoOSG57z",
+      "animated": true
+    },
+    {
+      "id": "edge-node-YLuo0oZJzTCoiZoOSG57z-node-RkNjYva8o_jXp9suz5YdG",
+      "source": "node-YLuo0oZJzTCoiZoOSG57z",
+      "target": "node-RkNjYva8o_jXp9suz5YdG",
+      "animated": true
+    },
+    {
+      "id": "edge-node-RkNjYva8o_jXp9suz5YdG-node-9raJ06lKRZITbjWeLil-F",
+      "source": "node-RkNjYva8o_jXp9suz5YdG",
+      "target": "node-9raJ06lKRZITbjWeLil-F",
+      "animated": true
+    },
+    {
+      "id": "edge-node-9raJ06lKRZITbjWeLil-F-node-aspZpACHEKOsi_Er5FYPY",
+      "source": "node-9raJ06lKRZITbjWeLil-F",
+      "target": "node-aspZpACHEKOsi_Er5FYPY",
+      "animated": true
+    },
+    {
+      "id": "edge-node-aspZpACHEKOsi_Er5FYPY-node-w0ntgFBhgGd5RUFd-qlPK",
+      "source": "node-aspZpACHEKOsi_Er5FYPY",
+      "target": "node-w0ntgFBhgGd5RUFd-qlPK",
+      "animated": true
+    },
+    {
+      "id": "edge-node-w0ntgFBhgGd5RUFd-qlPK-node-1NXSk8VZDr89jQTTkOL7x",
+      "source": "node-w0ntgFBhgGd5RUFd-qlPK",
+      "target": "node-1NXSk8VZDr89jQTTkOL7x",
+      "animated": true
+    },
+    {
+      "id": "edge-node-1NXSk8VZDr89jQTTkOL7x-node-SeqGIfcLuveZ2z5ZSXcOd",
+      "source": "node-1NXSk8VZDr89jQTTkOL7x",
+      "target": "node-SeqGIfcLuveZ2z5ZSXcOd",
+      "animated": true
+    },
+    {
+      "id": "edge-node-SeqGIfcLuveZ2z5ZSXcOd-node-yTviiPFR5b_dr3WyxdxxQ",
+      "source": "node-SeqGIfcLuveZ2z5ZSXcOd",
+      "target": "node-yTviiPFR5b_dr3WyxdxxQ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-yTviiPFR5b_dr3WyxdxxQ-node-NieqZd1juaNYoZOrB7e31",
+      "source": "node-yTviiPFR5b_dr3WyxdxxQ",
+      "target": "node-NieqZd1juaNYoZOrB7e31",
+      "animated": true
+    },
+    {
+      "id": "edge-node-NieqZd1juaNYoZOrB7e31-node-xZf2jjnCVHwYfDH2hs9kR",
+      "source": "node-NieqZd1juaNYoZOrB7e31",
+      "target": "node-xZf2jjnCVHwYfDH2hs9kR",
+      "animated": true
+    },
+    {
+      "id": "edge-node-xZf2jjnCVHwYfDH2hs9kR-node-mpQKoBzsOa-5iWo08sOhQ",
+      "source": "node-xZf2jjnCVHwYfDH2hs9kR",
+      "target": "node-mpQKoBzsOa-5iWo08sOhQ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-mpQKoBzsOa-5iWo08sOhQ-node-JbWFfJiCRrXDhnuIx_lqx",
+      "source": "node-mpQKoBzsOa-5iWo08sOhQ",
+      "target": "node-JbWFfJiCRrXDhnuIx_lqx",
+      "animated": true
+    },
+    {
+      "id": "edge-node-JbWFfJiCRrXDhnuIx_lqx-node-cJtPz1RMN1qDE4eRdv4N_",
+      "source": "node-JbWFfJiCRrXDhnuIx_lqx",
+      "target": "node-cJtPz1RMN1qDE4eRdv4N_",
+      "animated": true
+    },
+    {
+      "id": "edge-node-cJtPz1RMN1qDE4eRdv4N_-node-M1nVsh_sCSFJRf6-7Ttsj",
+      "source": "node-cJtPz1RMN1qDE4eRdv4N_",
+      "target": "node-M1nVsh_sCSFJRf6-7Ttsj",
+      "animated": true
+    },
+    {
+      "id": "edge-node-M1nVsh_sCSFJRf6-7Ttsj-node-d6MydchA52HIxfAUjmZui",
+      "source": "node-M1nVsh_sCSFJRf6-7Ttsj",
+      "target": "node-d6MydchA52HIxfAUjmZui",
+      "animated": true
+    },
+    {
+      "id": "edge-node-d6MydchA52HIxfAUjmZui-node-B45YVzov8X_iOtneiFEqa",
+      "source": "node-d6MydchA52HIxfAUjmZui",
+      "target": "node-B45YVzov8X_iOtneiFEqa",
+      "animated": true
+    },
+    {
+      "id": "edge-node-B45YVzov8X_iOtneiFEqa-node-r07k_hT2z2EiIBH4q3F7-",
+      "source": "node-B45YVzov8X_iOtneiFEqa",
+      "target": "node-r07k_hT2z2EiIBH4q3F7-",
+      "animated": true
+    },
+    {
+      "id": "edge-node-r07k_hT2z2EiIBH4q3F7--node-SD9k16UlVve9WtNMDA5Za",
+      "source": "node-r07k_hT2z2EiIBH4q3F7-",
+      "target": "node-SD9k16UlVve9WtNMDA5Za",
+      "animated": true
+    },
+    {
+      "id": "edge-node-SD9k16UlVve9WtNMDA5Za-node-AoGS-5MSkp8gtJFQVPSBE",
+      "source": "node-SD9k16UlVve9WtNMDA5Za",
+      "target": "node-AoGS-5MSkp8gtJFQVPSBE",
+      "animated": true
+    },
+    {
+      "id": "edge-node-AoGS-5MSkp8gtJFQVPSBE-node-6sHRQTcoKL3TlgNJlwyx8",
+      "source": "node-AoGS-5MSkp8gtJFQVPSBE",
+      "target": "node-6sHRQTcoKL3TlgNJlwyx8",
+      "animated": true
+    },
+    {
+      "id": "edge-node-6sHRQTcoKL3TlgNJlwyx8-node-fSpvZ_4kGFMbFVCWhA8vn",
+      "source": "node-6sHRQTcoKL3TlgNJlwyx8",
+      "target": "node-fSpvZ_4kGFMbFVCWhA8vn",
+      "animated": true
+    },
+    {
+      "id": "edge-node-fSpvZ_4kGFMbFVCWhA8vn-node-12k71gNfwAcT9K5aLWgbZ",
+      "source": "node-fSpvZ_4kGFMbFVCWhA8vn",
+      "target": "node-12k71gNfwAcT9K5aLWgbZ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-12k71gNfwAcT9K5aLWgbZ-node-NfBKKwG2GGBPppOjoLLBg",
+      "source": "node-12k71gNfwAcT9K5aLWgbZ",
+      "target": "node-NfBKKwG2GGBPppOjoLLBg",
+      "animated": true
+    },
+    {
+      "id": "edge-node-NfBKKwG2GGBPppOjoLLBg-node-gtq5KrghF28f5G8nuDcYQ",
+      "source": "node-NfBKKwG2GGBPppOjoLLBg",
+      "target": "node-gtq5KrghF28f5G8nuDcYQ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-gtq5KrghF28f5G8nuDcYQ-node-NQUmO90sqe7fnzod3Ia8H",
+      "source": "node-gtq5KrghF28f5G8nuDcYQ",
+      "target": "node-NQUmO90sqe7fnzod3Ia8H",
+      "animated": true
+    },
+    {
+      "id": "edge-node-NQUmO90sqe7fnzod3Ia8H-node-wsC7OGXOyfCY4pLLNrR2v",
+      "source": "node-NQUmO90sqe7fnzod3Ia8H",
+      "target": "node-wsC7OGXOyfCY4pLLNrR2v",
+      "animated": true
+    },
+    {
+      "id": "edge-node-wsC7OGXOyfCY4pLLNrR2v-node-NTKUMgsKGYISIyhgOJPQn",
+      "source": "node-wsC7OGXOyfCY4pLLNrR2v",
+      "target": "node-NTKUMgsKGYISIyhgOJPQn",
+      "animated": true
+    },
+    {
+      "id": "edge-node-NTKUMgsKGYISIyhgOJPQn-node-_Dh78x_tPLqZweg--qZFQ",
+      "source": "node-NTKUMgsKGYISIyhgOJPQn",
+      "target": "node-_Dh78x_tPLqZweg--qZFQ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-_Dh78x_tPLqZweg--qZFQ-node-MRAPXshy9RoYdReY6grf_",
+      "source": "node-_Dh78x_tPLqZweg--qZFQ",
+      "target": "node-MRAPXshy9RoYdReY6grf_",
+      "animated": true
+    },
+    {
+      "id": "edge-node-MRAPXshy9RoYdReY6grf_-node-T1XD93j6Lkpl88JSmys9b",
+      "source": "node-MRAPXshy9RoYdReY6grf_",
+      "target": "node-T1XD93j6Lkpl88JSmys9b",
+      "animated": true
+    },
+    {
+      "id": "edge-node-T1XD93j6Lkpl88JSmys9b-node-3tONibbRgK7HCwGTE2Gqw",
+      "source": "node-T1XD93j6Lkpl88JSmys9b",
+      "target": "node-3tONibbRgK7HCwGTE2Gqw",
+      "animated": true
+    },
+    {
+      "id": "edge-node-3tONibbRgK7HCwGTE2Gqw-node-S9wTlkbv9-R6dohhZ47hs",
+      "source": "node-3tONibbRgK7HCwGTE2Gqw",
+      "target": "node-S9wTlkbv9-R6dohhZ47hs",
+      "animated": true
+    },
+    {
+      "id": "edge-node-S9wTlkbv9-R6dohhZ47hs-node-D9ybK5INH5zSOcYMb5ZPi",
+      "source": "node-S9wTlkbv9-R6dohhZ47hs",
+      "target": "node-D9ybK5INH5zSOcYMb5ZPi",
+      "animated": true
+    },
+    {
+      "id": "edge-node-D9ybK5INH5zSOcYMb5ZPi-node-Kaaqu-mN7xvHN6CbIn616",
+      "source": "node-D9ybK5INH5zSOcYMb5ZPi",
+      "target": "node-Kaaqu-mN7xvHN6CbIn616",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Kaaqu-mN7xvHN6CbIn616-node--CyJbsg2ho3RvfzKnJj5C",
+      "source": "node-Kaaqu-mN7xvHN6CbIn616",
+      "target": "node--CyJbsg2ho3RvfzKnJj5C",
+      "animated": true
+    },
+    {
+      "id": "edge-node--CyJbsg2ho3RvfzKnJj5C-node-tfC1tCrbvH5J43WUpG9Yb",
+      "source": "node--CyJbsg2ho3RvfzKnJj5C",
+      "target": "node-tfC1tCrbvH5J43WUpG9Yb",
+      "animated": true
+    },
+    {
+      "id": "edge-node-tfC1tCrbvH5J43WUpG9Yb-node-qobzzgzArNHLLn9Oiqc6G",
+      "source": "node-tfC1tCrbvH5J43WUpG9Yb",
+      "target": "node-qobzzgzArNHLLn9Oiqc6G",
+      "animated": true
+    },
+    {
+      "id": "edge-node-qobzzgzArNHLLn9Oiqc6G-node-801vB_JMas4ucriUmfrLg",
+      "source": "node-qobzzgzArNHLLn9Oiqc6G",
+      "target": "node-801vB_JMas4ucriUmfrLg",
+      "animated": true
+    },
+    {
+      "id": "edge-node-801vB_JMas4ucriUmfrLg-node-CGehmZjcgTWC7fQAvxmNW",
+      "source": "node-801vB_JMas4ucriUmfrLg",
+      "target": "node-CGehmZjcgTWC7fQAvxmNW",
+      "animated": true
+    },
+    {
+      "id": "edge-node-CGehmZjcgTWC7fQAvxmNW-node-PrG_5dyBblXsWYYRcOJMa",
+      "source": "node-CGehmZjcgTWC7fQAvxmNW",
+      "target": "node-PrG_5dyBblXsWYYRcOJMa",
+      "animated": true
+    },
+    {
+      "id": "edge-node-PrG_5dyBblXsWYYRcOJMa-node-qlkpwXfOc1p7j37hrzffI",
+      "source": "node-PrG_5dyBblXsWYYRcOJMa",
+      "target": "node-qlkpwXfOc1p7j37hrzffI",
+      "animated": true
+    },
+    {
+      "id": "edge-node-qlkpwXfOc1p7j37hrzffI-node-6eWgZVLV479oQzl0fu-Od",
+      "source": "node-qlkpwXfOc1p7j37hrzffI",
+      "target": "node-6eWgZVLV479oQzl0fu-Od",
+      "animated": true
+    },
+    {
+      "id": "edge-node-6eWgZVLV479oQzl0fu-Od-node-bgJ9-m6Fiu3VCc-NZlbpn",
+      "source": "node-6eWgZVLV479oQzl0fu-Od",
+      "target": "node-bgJ9-m6Fiu3VCc-NZlbpn",
+      "animated": true
+    },
+    {
+      "id": "edge-node-bgJ9-m6Fiu3VCc-NZlbpn-node-57VSMVePOr9qUD5x_LNdf",
+      "source": "node-bgJ9-m6Fiu3VCc-NZlbpn",
+      "target": "node-57VSMVePOr9qUD5x_LNdf",
+      "animated": true
+    },
+    {
+      "id": "edge-node-57VSMVePOr9qUD5x_LNdf-node-GR09ns9B-0cONQaQ_uj-7",
+      "source": "node-57VSMVePOr9qUD5x_LNdf",
+      "target": "node-GR09ns9B-0cONQaQ_uj-7",
+      "animated": true
+    },
+    {
+      "id": "edge-node-GR09ns9B-0cONQaQ_uj-7-node-sPW-Ti2VyNYzxq6EYkbn7",
+      "source": "node-GR09ns9B-0cONQaQ_uj-7",
+      "target": "node-sPW-Ti2VyNYzxq6EYkbn7",
+      "animated": true
+    },
+    {
+      "id": "edge-node-sPW-Ti2VyNYzxq6EYkbn7-node-D0BtyxyjIBcpfn5wP23WC",
+      "source": "node-sPW-Ti2VyNYzxq6EYkbn7",
+      "target": "node-D0BtyxyjIBcpfn5wP23WC",
+      "animated": true
+    },
+    {
+      "id": "edge-node-D0BtyxyjIBcpfn5wP23WC-node-rtmytETfyyLdcXUC0QyzL",
+      "source": "node-D0BtyxyjIBcpfn5wP23WC",
+      "target": "node-rtmytETfyyLdcXUC0QyzL",
+      "animated": true
+    },
+    {
+      "id": "edge-node-rtmytETfyyLdcXUC0QyzL-node-JCCeVC0hOrvIeyfg1ScKA",
+      "source": "node-rtmytETfyyLdcXUC0QyzL",
+      "target": "node-JCCeVC0hOrvIeyfg1ScKA",
+      "animated": true
+    },
+    {
+      "id": "edge-node-JCCeVC0hOrvIeyfg1ScKA-node-36Y1HkHxhuxh2qVQB8NVE",
+      "source": "node-JCCeVC0hOrvIeyfg1ScKA",
+      "target": "node-36Y1HkHxhuxh2qVQB8NVE",
+      "animated": true
+    },
+    {
+      "id": "edge-node-36Y1HkHxhuxh2qVQB8NVE-node-_LhLDVZjLt1DoAP1NuUES",
+      "source": "node-36Y1HkHxhuxh2qVQB8NVE",
+      "target": "node-_LhLDVZjLt1DoAP1NuUES",
+      "animated": true
+    },
+    {
+      "id": "edge-node-_LhLDVZjLt1DoAP1NuUES-node-two4UycJaCfSp6jQqtTAb",
+      "source": "node-_LhLDVZjLt1DoAP1NuUES",
+      "target": "node-two4UycJaCfSp6jQqtTAb",
+      "animated": true
+    },
+    {
+      "id": "edge-node-two4UycJaCfSp6jQqtTAb-node--wniKEBwbF0Fi1fHpF-Gc",
+      "source": "node-two4UycJaCfSp6jQqtTAb",
+      "target": "node--wniKEBwbF0Fi1fHpF-Gc",
+      "animated": true
+    },
+    {
+      "id": "edge-node--wniKEBwbF0Fi1fHpF-Gc-node-lFoHoMRywCWa056ii5cKQ",
+      "source": "node--wniKEBwbF0Fi1fHpF-Gc",
+      "target": "node-lFoHoMRywCWa056ii5cKQ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-lFoHoMRywCWa056ii5cKQ-node-ggkWo0DRSSDDkHpbiyUyf",
+      "source": "node-lFoHoMRywCWa056ii5cKQ",
+      "target": "node-ggkWo0DRSSDDkHpbiyUyf",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ggkWo0DRSSDDkHpbiyUyf-node-DxqQrToZSayWplKdCkTgT",
+      "source": "node-ggkWo0DRSSDDkHpbiyUyf",
+      "target": "node-DxqQrToZSayWplKdCkTgT",
+      "animated": true
+    },
+    {
+      "id": "edge-node-DxqQrToZSayWplKdCkTgT-node-KpQb5Zh3GUcbYUyXHvyu2",
+      "source": "node-DxqQrToZSayWplKdCkTgT",
+      "target": "node-KpQb5Zh3GUcbYUyXHvyu2",
+      "animated": true
+    },
+    {
+      "id": "edge-node-KpQb5Zh3GUcbYUyXHvyu2-node-GFYGFVfxkOoPI5mI4zSt1",
+      "source": "node-KpQb5Zh3GUcbYUyXHvyu2",
+      "target": "node-GFYGFVfxkOoPI5mI4zSt1",
+      "animated": true
+    },
+    {
+      "id": "edge-node-GFYGFVfxkOoPI5mI4zSt1-node-qNG-a4iIO-puZsMwAMzYC",
+      "source": "node-GFYGFVfxkOoPI5mI4zSt1",
+      "target": "node-qNG-a4iIO-puZsMwAMzYC",
+      "animated": true
+    },
+    {
+      "id": "edge-node-qNG-a4iIO-puZsMwAMzYC-node-A6rfW4uJhyfAX2b18_EEC",
+      "source": "node-qNG-a4iIO-puZsMwAMzYC",
+      "target": "node-A6rfW4uJhyfAX2b18_EEC",
+      "animated": true
+    },
+    {
+      "id": "edge-node-A6rfW4uJhyfAX2b18_EEC-node-7Ja2at_N9tRTlvSGahrqn",
+      "source": "node-A6rfW4uJhyfAX2b18_EEC",
+      "target": "node-7Ja2at_N9tRTlvSGahrqn",
+      "animated": true
+    }
+  ],
+  "topics": {
+    "ub79EkMiOmPBwXLRuYFL8": {
+      "id": "ub79EkMiOmPBwXLRuYFL8",
+      "slug": "abstract-classes",
+      "title": "Abstract classes",
+      "description": "Abstract classes in PHP are those which cannot be instantiated on their own. They are simply blueprints for other classes, providing a predefined structure. By declaring a class as abstract, you can define methods without having to implement them. Subsequent classes, when inheriting from an abstract class, must implement these undefined methods.",
+      "resources": [
+        {
+          "id": "ub79EkMiOmPBwXLRuYFL8-res-1",
+          "type": "article",
+          "title": "Abstract Classes",
+          "url": "https://www.php.net/manual/en/language.oop5.abstract.php"
+        }
+      ]
+    },
+    "RD2RaBmA2XWkEa13PTCTX": {
+      "id": "RD2RaBmA2XWkEa13PTCTX",
+      "slug": "access-specifiers",
+      "title": "Access Specifiers",
+      "description": "Access specifiers, also known as access modifiers, in PHP are keywords used in the class context which define the visibility and accessibility of properties, methods and constants. PHP supports three types of access specifiers: public, private, and protected. 'Public' specified properties or methods can be accessed from anywhere, 'private' ones can only be accessed within the class that defines them, while 'protected' ones can be accessed within the class itself and by inherited and parent classes. Here's an illustrative example:",
+      "resources": [
+        {
+          "id": "RD2RaBmA2XWkEa13PTCTX-res-1",
+          "type": "article",
+          "title": "Access Specifiers & Visibility",
+          "url": "https://www.php.net/manual/en/language.oop5.visibility.php"
+        }
+      ]
+    },
+    "Nr5m6wQLp7VyG3AucrSc8": {
+      "id": "Nr5m6wQLp7VyG3AucrSc8",
+      "slug": "anonymous-functions",
+      "title": "Anonymous Functions",
+      "description": "Anonymous functions in PHP, also known as closures, are functions that do not have a specified name. They are most frequently used as a value for callback parameters, but can be used in many other ways. When creating an anonymous function, you can also inherit variables from the parent scope. Here's a basic usage example: $greet = function($name) { printf(\"Hello %s\\r\\n\", $name); }; $greet('World'); $greet('PHP'); In this example, we're creating an anonymous function and assigning it to the variable `$greet`. We then call this anonymous function using $greet with 'World' and 'PHP' as arguments.",
+      "resources": [
+        {
+          "id": "Nr5m6wQLp7VyG3AucrSc8-res-1",
+          "type": "article",
+          "title": "Anonymous Functions",
+          "url": "https://www.php.net/manual/en/functions.anonymous.php"
+        }
+      ]
+    },
+    "KMQqePqAjQ-ReDwHqeofx": {
+      "id": "KMQqePqAjQ-ReDwHqeofx",
+      "slug": "apache",
+      "title": "Apache",
+      "description": "Apache is a popular web server that can efficiently host PHP applications. Apache integrates well with PHP, using its `mod_php` module, providing a stable and consistent environment for your PHP scripts to run. This compatibility creates a seamless user experience, as PHP pages are served as if they're part of the website and not just files being executed on the server.",
+      "resources": [
+        {
+          "id": "KMQqePqAjQ-ReDwHqeofx-res-1",
+          "type": "article",
+          "title": "Apache PHP Documentation",
+          "url": "https://www.php.net/manual/en/install.unix.apache2.php"
+        },
+        {
+          "id": "KMQqePqAjQ-ReDwHqeofx-res-2",
+          "type": "article",
+          "title": "Apache",
+          "url": "https://httpd.apache.org/"
+        }
+      ]
+    },
+    "IhKjvT6CjRz4dsSU7SNQo": {
+      "id": "IhKjvT6CjRz4dsSU7SNQo",
+      "slug": "arrays",
+      "title": "Arrays",
+      "description": "Arrays in PHP are fundamental data structures that store multiple elements in a particular key-value pair collection. PHP offers extensive support for arrays, making them convenient for storing sets of data or complex collections.",
+      "resources": [
+        {
+          "id": "IhKjvT6CjRz4dsSU7SNQo-res-1",
+          "type": "article",
+          "title": "Arrays",
+          "url": "https://www.php.net/manual/en/language.types.array.php"
+        }
+      ]
+    },
+    "mP1BIkqbWVVTU-zZv1ZL6": {
+      "id": "mP1BIkqbWVVTU-zZv1ZL6",
+      "slug": "arrow-functions",
+      "title": "Arrow Functions",
+      "description": "Arrow functions provide a more concise syntax to create anonymous functions. The feature enthusiastically borrowed from modern Javascript significantly improves PHP's functional programming credibility. The primary difference between regular PHP closures and PHP Arrow functions is the automatic capturing of variables from the parent scope.",
+      "resources": [
+        {
+          "id": "mP1BIkqbWVVTU-zZv1ZL6-res-1",
+          "type": "article",
+          "title": "Arrow Functions",
+          "url": "https://www.php.net/manual/en/functions.arrow.php"
+        }
+      ]
+    },
+    "i_NRsOJNNp7AOqMgu5Jg8": {
+      "id": "i_NRsOJNNp7AOqMgu5Jg8",
+      "slug": "associative-arrays",
+      "title": "Associative Arrays",
+      "description": "Associative arrays in PHP are a type of array that uses named keys instead of numeric ones. This provides a more human-readable way to store data where each value can be accessed by its corresponding string key. An example of an associative array could be storing names as keys and their corresponding ages as values. Here's a brief example: $ages = [ \"Peter\" => 35, \"John\" => 42, \"Mary\" => 27 ]; In this case, to find out John's age, you would simply use `echo $ages['John']` where 'John' is the key. Associative arrays are also easy to loop through using the `foreach` construct.",
+      "resources": [
+        {
+          "id": "i_NRsOJNNp7AOqMgu5Jg8-res-1",
+          "type": "article",
+          "title": "PHP Documentation - Associative Arrays",
+          "url": "https://www.php.net/manual/en/language.types.array.php"
+        }
+      ]
+    },
+    "HJJzKYXdK4BWITLP4APLZ": {
+      "id": "HJJzKYXdK4BWITLP4APLZ",
+      "slug": "auth-mechanisms",
+      "title": "Auth Mechanisms",
+      "description": "When you are developing PHP application, security should always be a top priority and authentication mechanism forms it's very core. It ensures proper establishing of user identities before they can access your system's resources. PHP provides several methods to implement authentication like session-based, token-based, HTTP authentication, and more.",
+      "resources": [
+        {
+          "id": "HJJzKYXdK4BWITLP4APLZ-res-1",
+          "type": "article",
+          "title": "Auth Mechanisms",
+          "url": "https://www.php.net/manual/en/features.http-auth.php"
+        }
+      ]
+    },
+    "qFiTsf6Es-gwqe6J6bdL1": {
+      "id": "qFiTsf6Es-gwqe6J6bdL1",
+      "slug": "autoloading",
+      "title": "Autoloading",
+      "description": "Autoloading is a convenient feature in PHP that allows for automated loading of classes or files when they are needed. For example, if you have a class that is not yet included or required in the script, and you're instantiating that class, PHP would automatically include that class file for you, given that it complies with the standard PHP autoloading conventions. This feature cuts down the need to manually include or require files and makes your code cleaner and more efficient to manage. Here's a simple example: spl_autoload_register(function ($class_name) { include $class_name . '.php'; }); $obj = new MyClass(); In this example, PHP will automatically load the MyClass.php file when the MyClass is instantiated.",
+      "resources": [
+        {
+          "id": "qFiTsf6Es-gwqe6J6bdL1-res-1",
+          "type": "article",
+          "title": "Autoloading",
+          "url": "https://www.php.net/manual/en/language.oop5.autoload.php"
+        }
+      ]
+    },
+    "hzBUHSuFwLYNooF_vEmrs": {
+      "id": "hzBUHSuFwLYNooF_vEmrs",
+      "slug": "basic-php-syntax",
+      "title": "Basic PHP Syntax",
+      "description": "PHP syntax is generally considered similar to C-style syntax, where code blocks are defined with curly braces, variables start with a dollar sign ($), and statements end with a semicolon (;), making it relatively easy to learn for programmers familiar with C-like languages; PHP scripts are embedded within HTML using opening tags \"\" to mark where PHP code should be executed within a web page.",
+      "resources": [
+        {
+          "id": "hzBUHSuFwLYNooF_vEmrs-res-1",
+          "type": "article",
+          "title": "Basic Syntax",
+          "url": "https://www.php.net/manual/en/langref.php"
+        }
+      ]
+    },
+    "Av-BMa57RvrLlAXLffOH0": {
+      "id": "Av-BMa57RvrLlAXLffOH0",
+      "slug": "caching-strategies",
+      "title": "Caching Strategies",
+      "description": "Caching Strategies are integral to Performance Optimization in PHP. Caching minimizes server load and enhances application speed by temporarily storing results of expensive operations, so that they can be reused in subsequent requests. Some caching techniques used in PHP include opcode caching, object caching, database query caching or full-page caching. For example, OPcache is an opcode caching system that improves PHP performance by storing precompiled script bytecode in memory, negating the need for PHP to load and parse scripts on every request.",
+      "resources": [
+        {
+          "id": "Av-BMa57RvrLlAXLffOH0-res-1",
+          "type": "article",
+          "title": "Opcache",
+          "url": "https://www.php.net/manual/en/book.opcache.php"
+        }
+      ]
+    },
+    "x7hA2KAzJIjc-prgCEw6V": {
+      "id": "x7hA2KAzJIjc-prgCEw6V",
+      "slug": "callback-functions",
+      "title": "Callback Functions",
+      "description": "A callback function in PHP is a function that is passed as an argument to another function. The receiving function can then invoke this function as needed. Callback functions are often used to define flexible or reusable code because they allow you to customize the behavior of a function without changing its structure.",
+      "resources": [
+        {
+          "id": "x7hA2KAzJIjc-prgCEw6V-res-1",
+          "type": "article",
+          "title": "Callback Functions",
+          "url": "https://www.php.net/manual/en/language.types.callable.php"
+        }
+      ]
+    },
+    "pzReF4C0mcCWAnpfIJbwl": {
+      "id": "pzReF4C0mcCWAnpfIJbwl",
+      "slug": "casting-data-types",
+      "title": "Casting Data Types",
+      "description": "PHP, as a loose typing language, allows us to change the type of a variable or to transform an instance of one data type into another. This operation is known as Casting. When to use casting, however, depends on the situation - it is recommendable when you want explicit control over the data type for an operation. The syntax involves putting the intended type in parentheses before the variable. For example, if you wanted to convert a string to an integer, you'd use: `$myVar = \"123\"; $intVar = (int) $myVar;`. Here, `$intVar` would be an integer representation of `$myVar`. Remember, the original variable type remains unchanged. Here's an example of type casting in PHP: <?php $foo = 10;   // $foo is an integer $bar = (bool) $foo;   // $bar is a boolean ?>",
+      "resources": [
+        {
+          "id": "pzReF4C0mcCWAnpfIJbwl-res-1",
+          "type": "article",
+          "title": "Type Casting",
+          "url": "https://www.php.net/manual/en/language.types.type-juggling.php"
+        }
+      ]
+    },
+    "PIuplWreo7PFG3Mdn2t6W": {
+      "id": "PIuplWreo7PFG3Mdn2t6W",
+      "slug": "classes-and-objects",
+      "title": "Classes and Objects",
+      "description": "PHP supports object-oriented programming, offering a multi-paradigm way of coding through classes and objects. A class is like a blueprint for creating objects that encapsulate all faculties, properties and methods. An object, on the other hand, is an instance of a class where you can interact with the class's methods and change its properties. PHP lets you define a class using the keyword 'class', set properties and methods within it, and then create an object of that class using 'new'.",
+      "resources": [
+        {
+          "id": "PIuplWreo7PFG3Mdn2t6W-res-1",
+          "type": "article",
+          "title": "Classes",
+          "url": "https://www.php.net/manual/en/language.oop5.php"
+        }
+      ]
+    },
+    "yVFDu2aTiEZ4PWMdKdW2P": {
+      "id": "yVFDu2aTiEZ4PWMdKdW2P",
+      "slug": "composer",
+      "title": "Composer",
+      "description": "Composer is a fundamental tool in modern PHP development. It simplifies the management of project dependencies, allowing you to declare what you need and automatically installing those resources in your project. For example, if your PHP project requires a certain library, Composer will fetch the appropriate version and make sure it's available for your project. Here's an example of how to add a dependency using Composer: composer require vendor/package This command adds the `vendor/package` dependency to your project. The same goes for removing dependencies, updating them, and more.",
+      "resources": [
+        {
+          "id": "yVFDu2aTiEZ4PWMdKdW2P-res-1",
+          "type": "article",
+          "title": "Composer",
+          "url": "https://getcomposer.org/"
+        },
+        {
+          "id": "yVFDu2aTiEZ4PWMdKdW2P-res-2",
+          "type": "article",
+          "title": "Composer Documentation",
+          "url": "https://getcomposer.org/doc/"
+        }
+      ]
+    },
+    "38YksjvhXCbgnHqkl57Cz": {
+      "id": "38YksjvhXCbgnHqkl57Cz",
+      "slug": "conditionals",
+      "title": "Conditionals",
+      "description": "Conditionals in PHP, much like in other programming languages, allow for branching in code, meaning your program can choose to execute specific parts of code based on the state of variables or expressions. The most common conditional statements in PHP are \"if\", \"else\", and \"elseif\".",
+      "resources": [
+        {
+          "id": "38YksjvhXCbgnHqkl57Cz-res-1",
+          "type": "article",
+          "title": "Control Structures",
+          "url": "https://www.php.net/manual/en/language.control-structures.php"
+        }
+      ]
+    },
+    "DTaAZaU1CwzW7esoDhj85": {
+      "id": "DTaAZaU1CwzW7esoDhj85",
+      "slug": "configuration-files",
+      "title": "Configuration Files",
+      "description": "Configuration files are critical for PHP applications because they help manage dynamic settings like database connection information, error reporting, and many other PHP settings without hard coding, making your application flexible and secure. PHP uses an \"php.ini\" file to hold these settings. You can modify settings by accessing and changing values in this file. For example, to adjust the maximum file upload size, you might modify the `upload_max_filesize` directive. However, changes to the `php.ini` file take effect only after the server is restarted.",
+      "resources": [
+        {
+          "id": "DTaAZaU1CwzW7esoDhj85-res-1",
+          "type": "article",
+          "title": "PHP Config",
+          "url": "https://www.php.net/manual/en/ini.list.php"
+        }
+      ]
+    },
+    "VpwwF8j5ZtXVSbzNfE7Sx": {
+      "id": "VpwwF8j5ZtXVSbzNfE7Sx",
+      "slug": "configuration-tuning",
+      "title": "Configuration Tuning",
+      "description": "For performance optimization in PHP, configuration tuning is a crucial step. You can manipulate several settings in your php.ini file to enhance your PHP application's performance. For instance, `memory_limit` is a key parameter that specifies the maximum amount of memory a script can consume. Optimizing this setting will prevent the PHP scripts from eating up all server resources. Similarly, adjusting the `max_execution_time` limits the time a script runs. Just ensure careful configuration since restrictive settings could lead to issues. Here's a simple example of how you might modify these parameters: // Updating memory_limit ini_set('memory_limit','256M'); // Updating max_execution_time ini_set('max_execution_time', '300');",
+      "resources": [
+        {
+          "id": "VpwwF8j5ZtXVSbzNfE7Sx-res-1",
+          "type": "article",
+          "title": "Configuration Tuning",
+          "url": "https://www.php.net/manual/en/ini.core.php"
+        }
+      ]
+    },
+    "txUyPR_tdC8iTJV3RtvBz": {
+      "id": "txUyPR_tdC8iTJV3RtvBz",
+      "slug": "connection-pooling",
+      "title": "Connection Pooling",
+      "description": "Connection pooling is a technique used in PHP to manage and maintain multiple open connections with a database. It reduces the time overhead of constantly opening and closing connections, and ensures efficient utilisation of resources. Connection pooling limits the number of connections opened with the database and instead reuses a pool of existing active connections, thereby significantly enhancing the performance of PHP applications. When a PHP script needs to communicate with the database, it borrows a connection from this pool, performs the operations, and then returns it back to the pool. Although PHP doesn't have native support for connection pooling, it can be achieved through third-party tools like 'pgBouncer' when using PostgreSQL or 'mysqlnd\\_ms' plugin with MySQL. Note, it's recommended to use connection pooling when you've a high-traffic PHP application.",
+      "resources": [
+        {
+          "id": "txUyPR_tdC8iTJV3RtvBz-res-1",
+          "type": "article",
+          "title": "Connection Pooling",
+          "url": "https://www.php.net/manual/en/oci8.connection.php"
+        },
+        {
+          "id": "txUyPR_tdC8iTJV3RtvBz-res-2",
+          "type": "article",
+          "title": "Database Extensions",
+          "url": "https://www.php.net/manual/en/refs.database.php"
+        }
+      ]
+    },
+    "VLRLymQmLfscrBfzXKvHi": {
+      "id": "VLRLymQmLfscrBfzXKvHi",
+      "slug": "constants",
+      "title": "Constants",
+      "description": "Constants in PHP are fixed values that do not change during the execution of the script. They can be handy for values that need to be reused often like a website's URL, a company's name, or even a hardcoded database connection string. Unlike variables, once a constant is defined, it cannot be undefined or reassigned. Constants are case-sensitive by default but this can be overridden. They are defined using the define() function or the const keyword. For instance, you can create a constant to hold the value of Pi and call it in your script like this: define(\"PI\", 3.14); echo PI; // Outputs: 3.14",
+      "resources": [
+        {
+          "id": "VLRLymQmLfscrBfzXKvHi-res-1",
+          "type": "article",
+          "title": "Constants",
+          "url": "https://www.php.net/manual/en/language.constants.php"
+        }
+      ]
+    },
+    "oNUt1oT8pYBVvH0S2P6cb": {
+      "id": "oNUt1oT8pYBVvH0S2P6cb",
+      "slug": "constructor--destructor",
+      "title": "Constructor / Destructor",
+      "description": "Constructor and Destructor methods are fundamental components of Object-Oriented Programming (OOP) in PHP. A constructor is a special type of method that automatically runs upon creating an object, often used to set property values or default behaviors. On the other hand, a destructor is a method that is automatically invoked when an object is due to be destroyed, perfect for cleanup activities. Here is a basic example: class TestClass { public $value; // Constructor Method public function __construct($val) { $this->value = $val; } // Destructor Method public function __destruct() { echo \"Object is being destroyed.\"; } } $obj = new TestClass(\"Hello World\"); echo $obj->value; // Displays: Hello World // And when the script ends, \"Object is being destroyed.\"",
+      "resources": [
+        {
+          "id": "oNUt1oT8pYBVvH0S2P6cb-res-1",
+          "type": "article",
+          "title": "PHP Constructors and Destructors",
+          "url": "https://www.php.net/manual/en/language.oop5.decon.php"
+        }
+      ]
+    },
+    "so03-fK7E2WvTm6XsPq4i": {
+      "id": "so03-fK7E2WvTm6XsPq4i",
+      "slug": "cookies",
+      "title": "Cookies",
+      "description": "Cookies are a crucial part of state management in PHP. They enable storage of data on the user's browser, which can then be sent back to the server with each subsequent request. This permits persistent data between different pages or visits. To set a cookie in PHP, you can use the `setcookie()` function. For example, `setcookie(\"user\", \"John Doe\", time() + (86400 * 30), \"/\");` will set a cookie named \"user\" with the value \"John Doe\", that will expire after 30 days. The cookie will be available across the entire website due to the path parameter set as `/`. To retrieve the value of the cookie, you can use the global `$_COOKIE` array: `echo $_COOKIE[\"user\"];`.",
+      "resources": [
+        {
+          "id": "so03-fK7E2WvTm6XsPq4i-res-1",
+          "type": "article",
+          "title": "Cookies",
+          "url": "https://www.php.net/manual/en/features.cookies.php"
+        }
+      ]
+    },
+    "J9yIXZTtwbFzH2u4dI1ep": {
+      "id": "J9yIXZTtwbFzH2u4dI1ep",
+      "slug": "csrf-protection",
+      "title": "CSRF Protection",
+      "description": "Cross-Site Request Forgery (CSRF) Protection in PHP is a method where a website can defend itself against unwanted actions performed on behalf of the users without their consent. It's a critical aspect of security as it safeguards users against potential harmful activities. Here's an example: if users are logged into a website and get tricked into clicking a deceitful link, CSRF attacks could be triggered. To protect your PHP applications from such attacks, you can generate a unique token for every session and include it as a hidden field for all form submissions. Afterwards, you need to verify this token on the server side before performing any action. <?php // Generate CSRF token if(empty($_SESSION['csrf'])) { $_SESSION['csrf'] = bin2hex(random_bytes(32)); } // Verify CSRF token if(isset($_POST['csrf']) && $_POST['csrf'] === $_SESSION['csrf']) { // valid CSRF token, perform action } ?>",
+      "resources": [
+        {
+          "id": "J9yIXZTtwbFzH2u4dI1ep-res-1",
+          "type": "article",
+          "title": "PHP Tutorial CSRF",
+          "url": "https://www.phptutorial.net/php-tutorial/php-csrf/"
+        }
+      ]
+    },
+    "MRDjEjbkMpk7shcWAoPOF": {
+      "id": "MRDjEjbkMpk7shcWAoPOF",
+      "slug": "csv-processing",
+      "title": "CSV Processing",
+      "description": "CSV processing refers to handling CSV (Comma Separated Values) files in PHP, an operation significantly useful for managing tabular data. PHP provides a few key functions to handle CSV files effectively. For example, `fgetcsv()` allows you to read CSV file line by line, `fputcsv()` lets you write line by line into a CSV file, and `str_getcsv()` allows you to parse a CSV string into an array. A quick example of reading a CSV file: if (($handle = fopen(\"sample.csv\", \"r\")) !== FALSE) { while (($data = fgetcsv($handle, 1000, \",\")) !== FALSE) { print_r($data); } fclose($handle); } In this snippet, PHP reads through each line of the `sample.csv` file, converting each into an array with `fgetcsv()`.",
+      "resources": [
+        {
+          "id": "MRDjEjbkMpk7shcWAoPOF-res-1",
+          "type": "article",
+          "title": "CSV Processing",
+          "url": "https://php.net/manual/en/ref.fileinfo.php"
+        }
+      ]
+    },
+    "KC6D81-T-FwQc7Osw1rlY": {
+      "id": "KC6D81-T-FwQc7Osw1rlY",
+      "slug": "curl",
+      "title": "cURL",
+      "description": "cURL is a flexible way to make requests to external servers from within a PHP script. cURL, which stands for Client URL, is a library that facilitates various types of network communication methods based on different types of URLs. You can, for example, use cURL functions in PHP to access REST APIs, download files, or post form data, among other things. Here's a basic PHP cURL example where we fetch data from an API: $ch = curl_init(); curl_setopt($ch, CURLOPT_URL, \"http://example.com/api/data\"); curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1); $result = curl_exec($ch); if(curl_errno($ch)){ echo 'Error:' . curl_error($ch); } curl_close($ch);",
+      "resources": [
+        {
+          "id": "KC6D81-T-FwQc7Osw1rlY-res-1",
+          "type": "article",
+          "title": "cURL",
+          "url": "https://curl.se/"
+        },
+        {
+          "id": "KC6D81-T-FwQc7Osw1rlY-res-2",
+          "type": "article",
+          "title": "cURL in PHP",
+          "url": "https://www.php.net/manual/en/book.curl.php"
+        },
+        {
+          "id": "KC6D81-T-FwQc7Osw1rlY-res-3",
+          "type": "article",
+          "title": "curl/curl",
+          "url": "https://github.com/curl/curl"
+        }
+      ]
+    },
+    "srIHPZabaCGdB5VvUXaMa": {
+      "id": "srIHPZabaCGdB5VvUXaMa",
+      "slug": "data-types",
+      "title": "Data Types",
+      "description": "PHP is a flexible and widely-used language that supports several types of data. These types include integers, floating-point numbers, strings, arrays, objects, NULL, and many more. The different data types allow developers to efficiently manage and handle data in their applications. For example, an integer data type in PHP can be a non-decimal number between -2,147,483,648 and 2,147,483,647. Here's a small sample PHP code snippet that assigns different data types to variables: $text = \"Hello world!\";  // String $number = 1234;  // Integer $decimalNumber = 12.34;  // Floating-point number $boolean = true; // Boolean",
+      "resources": [
+        {
+          "id": "srIHPZabaCGdB5VvUXaMa-res-1",
+          "type": "article",
+          "title": "Data Types",
+          "url": "https://www.php.net/manual/en/language.types.php"
+        }
+      ]
+    },
+    "meplwvmHMtI3Sb_fyodzZ": {
+      "id": "meplwvmHMtI3Sb_fyodzZ",
+      "slug": "database-migrations",
+      "title": "Database Migrations",
+      "description": "Database migrations help keep track of changes in your database schema, making it easier to move from one version of a database to another. Migrations allow us to evolve our database design iteratively and apply these updates across our development, staging, and production servers. This can save a lot of manual work. But more than that, migrations maintain consistency across all the environments, reducing the chances of unexpected behavior. There's no standard built-in migrations mechanism in PHP, but powerful and popular PHP frameworks like Laravel have robust solutions for migrations.",
+      "resources": []
+    },
+    "FY-F6n9j29hQrnFry3VGb": {
+      "id": "FY-F6n9j29hQrnFry3VGb",
+      "slug": "database-transactions",
+      "title": "Database Transactions",
+      "description": "Database transactions in PHP refer to a unit of work performed within a database system, which is treated in a coordinated manner. This technique is vital when dealing with critical tasks like money transfer between accounts, where data consistency is crucial. If one part of the transaction fails, the entire transaction fails, ensuring that the database stays consistent even in an event of a failure.",
+      "resources": [
+        {
+          "id": "FY-F6n9j29hQrnFry3VGb-res-1",
+          "type": "article",
+          "title": "PDO Transactions",
+          "url": "https://www.php.net/manual/en/pdo.transactions.php"
+        }
+      ]
+    },
+    "RgVP99rJJ8FVecIA45w20": {
+      "id": "RgVP99rJJ8FVecIA45w20",
+      "slug": "default--optional-params",
+      "title": "Default / Optional Params",
+      "description": "In PHP, you can assign default values to your function parameters. These are called default or optional parameters. This is exceptionally useful when you want to make the function argument optional so if a value is not provided when the function is called, then the default value is used instead. Here's a simple code example: function greet($name = \"guest\") { echo \"Hello, $name!\"; } greet(); // Outputs: Hello, guest! greet(\"John\"); // Outputs: Hello, John!",
+      "resources": [
+        {
+          "id": "RgVP99rJJ8FVecIA45w20-res-1",
+          "type": "article",
+          "title": "Default Parameters",
+          "url": "https://www.php.net/manual/en/functions.arguments.php#functions.arguments.default"
+        }
+      ]
+    },
+    "KEE50C6lOS4eX8sAbfhYe": {
+      "id": "KEE50C6lOS4eX8sAbfhYe",
+      "slug": "dependency-injection",
+      "title": "Dependency Injection",
+      "description": "Dependency injection is a design pattern used mainly for managing class dependencies. Here, instead of a class being responsible for creating its dependencies on its own, an injector (the \"client\") passes the requirements to the class (the \"service\"), centralizing control and encouraging code to follow the single responsibility principle. As a simple example, consider a situation where class B needs to utilize class A's methods. Instead of creating an object of class A within B, with dependency injection, we pass an instance of class A to B. class A { function display(){ echo 'Hello, PHP dependency injection!'; } } class B { private $a; public function __construct(A $classAInstance) { $this->a = $classAInstance; } public function callDisplayOwn() { $this->a->display(); } } $instanceA = new A(); $instanceB = new B($instanceA); $instanceB->callDisplayOwn();  // Outputs: \"Hello, PHP dependency injection!\"",
+      "resources": [
+        {
+          "id": "KEE50C6lOS4eX8sAbfhYe-res-1",
+          "type": "article",
+          "title": "Understand Dependency Injection in PHP",
+          "url": "https://php-di.org/doc/understanding-di.html"
+        }
+      ]
+    },
+    "2ykzBBdYhWuM-neGf0AWP": {
+      "id": "2ykzBBdYhWuM-neGf0AWP",
+      "slug": "echo",
+      "title": "echo",
+      "description": "'echo' is a language construct in PHP, and it is commonly used to output one or more strings to the browser. This command doesn't behave like a function, hence it doesn't require parentheses unless it's necessary to avoid confusion. It's also worth mentioning that 'echo' also supports multiple parameters. Check out a simple example below where we are using echo to output a simple string: echo \"Hello, world!\";",
+      "resources": []
+    },
+    "fitjnLYKLHJ2P5G7JAvzm": {
+      "id": "fitjnLYKLHJ2P5G7JAvzm",
+      "slug": "environment-variables",
+      "title": "Environment Variables",
+      "description": "Environment variables provide a way to influence the behavior of software on your system. They consist of name/value pairs and are used for various purposes, such as to specify directory paths, usernames, or passwords that your PHP application might use. You can set PHP environment variables using the `putenv()` function, and retrieve them using `getenv()`. For example, if you want to set the environment variable \"FOO\" to \"bar\", you could do so like this: putenv(\"FOO=bar\"); And then you can retrieve the value with `getenv()` like: echo getenv(\"FOO\"); // returns \"bar\" Keep in mind that environment variables set using `putenv()` are only available for the duration of the current request. If you want them to persist for future requests, you'll need to set them using your system's method for setting environment variables.",
+      "resources": [
+        {
+          "id": "fitjnLYKLHJ2P5G7JAvzm-res-1",
+          "type": "article",
+          "title": "Environment Variables",
+          "url": "https://www.php.net/manual/en/function.putenv.php"
+        }
+      ]
+    },
+    "b2CuLrhsUNnb4OxI6RRAS": {
+      "id": "b2CuLrhsUNnb4OxI6RRAS",
+      "slug": "evolution-and-history",
+      "title": "Evolution and History",
+      "description": "PHP, originally standing for Personal Home Page, is a popular scripting language used commonly for web development. Rasmus Lerdorf created it in 1994, and since then, it has evolved significantly from a simple set of CGI binaries written in C, to a full-featured language. PHP's journey includes several versions, with PHP 3 introducing a re-written parser and a better approach to object-oriented programming. PHP 8.0, introduced several optimizations, JIT compilation, and union types, among other improvements.",
+      "resources": [
+        {
+          "id": "b2CuLrhsUNnb4OxI6RRAS-res-1",
+          "type": "article",
+          "title": "History of PHP",
+          "url": "https://www.php.net/history"
+        }
+      ]
+    },
+    "VhyYNGhOdKKrz_-uTkrjD": {
+      "id": "VhyYNGhOdKKrz_-uTkrjD",
+      "slug": "executing-system-commands",
+      "title": "Executing System Commands",
+      "description": "PHP provides developers with the flexibility to invoke system commands directly from PHP scripts. This can be achieved with functions like `exec()`, `system()`, or `passthru()`, which allow your PHP script to execute system-level instructions and interact with the underlying server. This can be useful in several scenarios - for automating tasks, orchestrating system activities, or even for pulling out system information. However, it's important to use these functions with caution due to the security risks of executing system commands. Here's a simple example of using the exec() function: <?php // Outputs all lines exec('ls', $output); foreach($output as $out){ echo $out, PHP_EOL; } ?>",
+      "resources": [
+        {
+          "id": "VhyYNGhOdKKrz_-uTkrjD-res-1",
+          "type": "article",
+          "title": "Exec Function",
+          "url": "https://www.php.net/manual/en/ref.exec.php"
+        }
+      ]
+    },
+    "tgIyG6vHWpe9sz6lHmj5a": {
+      "id": "tgIyG6vHWpe9sz6lHmj5a",
+      "slug": "file-permissions",
+      "title": "File Permissions",
+      "description": "File permissions in PHP control who can read, write, and execute a file. They're crucial for the security and proper functioning of your PHP applications. When working with files, you can use functions like `chmod()`, `is_readable()`, and `is_writable()` to manage permissions. Typically, you would use `chmod()` to change the permissions of a file. The first parameter is the name of the file and the second parameter is the mode. For instance, `chmod($file, 0755)` would assign owner permissions to read, write, and execute, while everyone else would only have read and execute permissions. To know if a file is readable or writable, use `is_readable()` or `is_writable()` respectively.",
+      "resources": [
+        {
+          "id": "tgIyG6vHWpe9sz6lHmj5a-res-1",
+          "type": "article",
+          "title": "Filesystem Functions",
+          "url": "https://www.php.net/manual/en/ref.filesystem.php"
+        }
+      ]
+    },
+    "HNo8QO4aPbvgePiA4l6tq": {
+      "id": "HNo8QO4aPbvgePiA4l6tq",
+      "slug": "file-uploads",
+      "title": "File Uploads",
+      "description": "Uploading files in PHP is a commonly used functionality for many applications. This is typically done using the `$_FILES` superglobal array that allows you to manage uploaded files in your PHP script. It contains details like `name`, `type`, `size` etc of the file. An index is also present for each file in the case of multiple uploads. The `move_uploaded_file()` function is then used to move the uploaded file to the desired directory. Don't forget to pay attention to security considerations when accepting file uploads.",
+      "resources": [
+        {
+          "id": "HNo8QO4aPbvgePiA4l6tq-res-1",
+          "type": "article",
+          "title": "File Uploads",
+          "url": "https://www.php.net/manual/en/features.file-upload.php"
+        }
+      ]
+    },
+    "sYI7f1PYP7G30_Uj2mZRv": {
+      "id": "sYI7f1PYP7G30_Uj2mZRv",
+      "slug": "form-processing",
+      "title": "Form Processing",
+      "description": "Form processing is a common web function and in PHP, it's pretty straightforward. It typically involves accepting data from a user through a web form and then using PHP to handle, process and possibly store that data. PHP provides superglobal arrays (`$_GET`, `$_POST`, and `$_REQUEST`) which help to collect form data. Let's talk about a simple example of a form that accepts a name from a user and then displays it. Make sure to handle form data securely, for instance by using the `htmlspecialchars()` function to neutralize any harmful characters.",
+      "resources": [
+        {
+          "id": "sYI7f1PYP7G30_Uj2mZRv-res-1",
+          "type": "article",
+          "title": "HTML Form Processing",
+          "url": "https://www.php.net/manual/en/tutorial.forms.php"
+        }
+      ]
+    },
+    "1nODJchgSuWbcvSlxnWeE": {
+      "id": "1nODJchgSuWbcvSlxnWeE",
+      "slug": "function-declaration",
+      "title": "Function Declaration",
+      "description": "Function is the block of code that performs a specific task. It is a reusable code that can be called multiple times. In PHP, a function is declared using the `function` keyword followed by the function name and parentheses. The function name should be unique and descriptive. The parentheses may contain parameters that are passed to the function. The function body is enclosed within curly braces `{}`. function greeting($name) { echo \"Hello, \" . $name; } In this case, 'greeting' is the function name, '$name' is the parameter, and 'echo \"Hello, \" . $name;' is the operation.",
+      "resources": [
+        {
+          "id": "1nODJchgSuWbcvSlxnWeE-res-1",
+          "type": "article",
+          "title": "User Defined Functions",
+          "url": "https://www.php.net/manual/en/functions.user-defined.php"
+        }
+      ]
+    },
+    "WiGv7vi7Mtw-YqPMcnnyw": {
+      "id": "WiGv7vi7Mtw-YqPMcnnyw",
+      "slug": "functions",
+      "title": "Functions",
+      "description": "Functions in PHP are self-contained blocks of code that carry out specific tasks and can be reused throughout your application. A function is defined with the word \"function\" followed by a name, and it should return a value using the \"return\" statement. To use a function, you simply need to call it by its name. You can also pass parameters to functions to influence how they work. Here's a simple function: function greet($name) { return \"Hello, \" . $name; } echo greet(\"John\"); // Outputs: Hello, John In the code above, \"greet\" is a function that takes one parameter \"name\". It concatenates \"Hello, \" with the name and returns the result.",
+      "resources": [
+        {
+          "id": "WiGv7vi7Mtw-YqPMcnnyw-res-1",
+          "type": "article",
+          "title": "Functions",
+          "url": "https://www.php.net/manual/en/language.functions.php"
+        }
+      ]
+    },
+    "_Al4NXKVQAnk8OikwvXCL": {
+      "id": "_Al4NXKVQAnk8OikwvXCL",
+      "slug": "guzzle",
+      "title": "Guzzle",
+      "description": "Guzzle is a PHP HTTP client that simplifies making HTTP requests in PHP. It provides a straightforward and powerful way to send HTTP requests. Guzzle can simplify your life if you often handle APIs or other HTTP requests. It's great for everything from sending simple GET requests, to uploading files with POST requests, or even handling Errors using exception handling.",
+      "resources": [
+        {
+          "id": "_Al4NXKVQAnk8OikwvXCL-res-1",
+          "type": "article",
+          "title": "Guzzle Documentation",
+          "url": "https://docs.guzzlephp.org/en/stable/"
+        }
+      ]
+    },
+    "tn_iIfaJZVtPK6vFds7FH": {
+      "id": "tn_iIfaJZVtPK6vFds7FH",
+      "slug": "http-methods",
+      "title": "HTTP Methods",
+      "description": "PHP allows for handling HTTP methods, which are a way of defining the action to be performed on the resource identified by a given URL. In PHP, the $\\_SERVER superglobal array can be used to identify the HTTP method of a specific request, typically a GET, POST, PUT, DELETE or HEAD. For example, to identify if a request is a POST request, you can use `if ($_SERVER['REQUEST_METHOD'] == 'POST') { // your code here }`. More advanced handling can be done by utilizing built-in PHP libraries or third-party packages.",
+      "resources": [
+        {
+          "id": "tn_iIfaJZVtPK6vFds7FH-res-1",
+          "type": "article",
+          "title": "HTTP Methods",
+          "url": "https://www.php.net/manual/en/reserved.variables.server.php"
+        }
+      ]
+    },
+    "-McOv-ZPTGayX7Mx2Thw1": {
+      "id": "-McOv-ZPTGayX7Mx2Thw1",
+      "slug": "ifelse",
+      "title": "if/else",
+      "description": "In PHP, the if/else conditional statements are fundamental components that control the flow of the program based on specific conditions. When the 'if' condition is true, a block of code will execute. If that condition is not met (or false), the program proceeds to the 'else' statement (if provided), executing its block of code. This allows you to handle different situations dynamically. A simple example of this concept in action would be: $number = 10; if ($number > 5) { echo \"The number is greater than 5\"; } else { echo \"The number is not greater than 5\"; } In this example, the output will be \"The number is greater than 5\" because the condition evaluated to true.",
+      "resources": [
+        {
+          "id": "-McOv-ZPTGayX7Mx2Thw1-res-1",
+          "type": "article",
+          "title": "if-else",
+          "url": "https://www.php.net/manual/en/control-structures.elseif.php"
+        }
+      ]
+    },
+    "hKfv7V6bl2LXssq9Ffi7C": {
+      "id": "hKfv7V6bl2LXssq9Ffi7C",
+      "slug": "include",
+      "title": "include",
+      "description": "The 'include' statement in PHP is a useful method for inserting code written in one file into another. It's mainly used when the same code needs to be used in multiple files, avoiding redundancy and making code maintenance easier. If it cannot find the file, PHP will emit a warning but continue to execute the rest of the script. Here's a simple example: <?php include 'filename.php'; ?> In this code snippet, 'filename.php' is the file containing the code that you want to insert. Just replace 'filename.php' with the actual file path you want to include.",
+      "resources": [
+        {
+          "id": "hKfv7V6bl2LXssq9Ffi7C-res-1",
+          "type": "article",
+          "title": "include",
+          "url": "https://www.php.net/manual/en/function.include.php"
+        }
+      ]
+    },
+    "SwtLDgyPmDry20qS4FBfH": {
+      "id": "SwtLDgyPmDry20qS4FBfH",
+      "slug": "include_once",
+      "title": "include_once",
+      "description": "The `include_once` statement is a part of PHP's file-handling toolkit, allowing developers to include a PHP file within another PHP file, but only for a one-time execution. This way, you can ensure that functions or objects defined in the included file are not duplicated leading to errors. It helps keep your code DRY (Don't Repeat Yourself) and clean. Here is a small example: include_once 'database.php'; $db = new Database(); In this simple code snippet, we include the `database.php` file once, giving us access to the `Database` class.",
+      "resources": [
+        {
+          "id": "SwtLDgyPmDry20qS4FBfH-res-1",
+          "type": "article",
+          "title": "include_once",
+          "url": "https://www.php.net/manual/en/function.include-once.php"
+        }
+      ]
+    },
+    "j2S8dP3HlAOOoZdpj-7Dx": {
+      "id": "j2S8dP3HlAOOoZdpj-7Dx",
+      "slug": "indexed-arrays",
+      "title": "Indexed Arrays",
+      "description": "Indexed arrays in PHP store values that are accessed through numerical indexes, which start at 0 by default. This might be particularly useful when you have a list of items in a specific order. For example, you might use an indexed array to represent a list of your favorite books, where each book is numbered starting from 0. Each individual item in the array, book in this case, can be accessed by their specific index. You can use the array() function or the short array syntax \\[\\] to declare an indexed array. Here's an Example: $books = [\"The Great Gatsby\", \"Moby Dick\", \"To Kill a Mockingbird\"]; echo $books[0]; //Outputs \"The Great Gatsby\"",
+      "resources": [
+        {
+          "id": "j2S8dP3HlAOOoZdpj-7Dx-res-1",
+          "type": "article",
+          "title": "Indexed Arrays",
+          "url": "https://www.php.net/manual/en/language.types.array.php"
+        }
+      ]
+    },
+    "c5q2e_jyMt8Pir5Od3lRi": {
+      "id": "c5q2e_jyMt8Pir5Od3lRi",
+      "slug": "inheritance",
+      "title": "Inheritance",
+      "description": "Inheritance, a fundamental concept in object-oriented programming (OOP), is a feature that PHP supports. It lets us create classes which are extensions of other classes, inheriting their methods and properties. This concept allows the creation of more flexible and maintainable code, as it promotes code reuse. For instance, consider we have a 'Vehicle' class and we want to create a 'Car' class. Since cars are a type of vehicle, it would make sense for our 'Car' class to inherit from the 'Vehicle' class. class Vehicle { public $color; function drive() { echo \"Driving...\"; } } class Car extends Vehicle { function horn() { echo \"Beeping...\"; } } $myCar = new Car(); $myCar->drive(); // Inherits drive method from Vehicle $myCar->horn(); // Unique to Car In the above example, the 'Car' class inherits the drive method from the 'Vehicle' class but also has an additional method, horn. This is an illustration of how inheritance in PHP can help to organize your code efficiently and intuitively.",
+      "resources": [
+        {
+          "id": "c5q2e_jyMt8Pir5Od3lRi-res-1",
+          "type": "article",
+          "title": "Inheritance",
+          "url": "https://www.php.net/manual/en/language.oop5.inheritance.php"
+        }
+      ]
+    },
+    "93oEIZttb85S23C1fLraP": {
+      "id": "93oEIZttb85S23C1fLraP",
+      "slug": "input-validation",
+      "title": "Input Validation",
+      "description": "Input validation is a vital aspect of PHP security. It involves checking whether the user-provided data is in the expected format or not before it's processed further. This helps prevent potential security risks such as SQL injections, cross-site scripting (XSS) etc. Let's take an example of a simple form input validation: if (filter_var($email, FILTER_VALIDATE_EMAIL)) { echo(\"Email is valid\"); } else { echo(\"Email is not valid\"); } This code uses PHP's built-in `filter_var()` function to ensure the data is a valid email address. If not, the form will not be submitted until valid data is entered.",
+      "resources": [
+        {
+          "id": "93oEIZttb85S23C1fLraP-res-1",
+          "type": "article",
+          "title": "Input Validation",
+          "url": "https://www.php.net/manual/en/book.filter.php"
+        }
+      ]
+    },
+    "3_TuxOSzBuktBlBF05r_z": {
+      "id": "3_TuxOSzBuktBlBF05r_z",
+      "slug": "installing-php",
+      "title": "Installing PHP",
+      "description": "Installing PHP is an essential process to start developing PHP applications. PHP can be installed on Windows, macOS, and various distributions of Linux. Places to get PHP include the official PHP website, package managers like APT for Linux and Homebrew for macOS, or bundled solutions like XAMPP or WAMP that provide PHP along with a web server and database. After successful installation, you can run a simple PHP script to verify the installation. Here's an example, `<?php echo 'Hello, World!'; ?>`, which should display \"Hello, World!\" when accessed in a web browser.",
+      "resources": [
+        {
+          "id": "3_TuxOSzBuktBlBF05r_z-res-1",
+          "type": "article",
+          "title": "Installation Guide",
+          "url": "https://www.php.net/manual/en/install.php"
+        }
+      ]
+    },
+    "vu0H-TsD7hkJgOQbSRj92": {
+      "id": "vu0H-TsD7hkJgOQbSRj92",
+      "slug": "interfaces",
+      "title": "Interfaces",
+      "description": "Interfaces in PHP serve as a blueprint for designing classes. They ensure that a class adheres to a certain contract, all without defining how those methods should function. As PHP is not a strictly typed language, interfaces can be particularly useful in large codebases to maintain continuity and predictability. For example, in PHP, an interface 'iTemplate' could be defined with methods 'setVariable' and 'getHtml'. Any class that implements this interface must define these methods. Here is a snippet: interface iTemplate { public function setVariable($name, $var); public function getHtml($template); } class Template implements iTemplate { private $vars = array(); public function setVariable($name, $var) { $this->vars[$name] = $var; } public function getHtml($template) { foreach($this->vars as $name => $value) { $template = str_replace('{' . $name . '}', $value, $template); } return $template; } }",
+      "resources": [
+        {
+          "id": "vu0H-TsD7hkJgOQbSRj92-res-1",
+          "type": "article",
+          "title": "Interfaces",
+          "url": "https://www.php.net/manual/en/language.oop5.interfaces.php"
+        }
+      ]
+    },
+    "_hYN0gEi9BL24nptEtXWU": {
+      "id": "_hYN0gEi9BL24nptEtXWU",
+      "slug": "introduction-to-php",
+      "title": "Introduction to PHP",
+      "description": "PHP, also known as Hypertext Preprocessor, is a powerful scripting language used predominantly for creating dynamic web pages and applications. It provides seamless interaction with databases, easier control of content, session tracking, and cookies. Being an open-source language, it's favored by developers for its flexibility, speed, and security. Here's a simple PHP code to print a text: <?php echo \"Hello, World!\"; ?> Here the \"echo\" command in PHP helps to output one or more strings.",
+      "resources": [
+        {
+          "id": "_hYN0gEi9BL24nptEtXWU-res-1",
+          "type": "article",
+          "title": "PHP",
+          "url": "https://www.php.net/"
+        },
+        {
+          "id": "_hYN0gEi9BL24nptEtXWU-res-2",
+          "type": "article",
+          "title": "PHP Documentation",
+          "url": "https://www.php.net/docs.php"
+        },
+        {
+          "id": "_hYN0gEi9BL24nptEtXWU-res-3",
+          "type": "article",
+          "title": "PHP Tutorial",
+          "url": "https://www.phptutorial.net/"
+        },
+        {
+          "id": "_hYN0gEi9BL24nptEtXWU-res-4",
+          "type": "article",
+          "title": "Learn PHP Interactively",
+          "url": "https://www.learn-php.org/about"
+        },
+        {
+          "id": "_hYN0gEi9BL24nptEtXWU-res-5",
+          "type": "video",
+          "title": "Introduction to PHP",
+          "url": "https://www.youtube.com/watch?v=KBT2gmAfav4"
+        },
+        {
+          "id": "_hYN0gEi9BL24nptEtXWU-res-6",
+          "type": "video",
+          "title": "PHP Tutorial - Full Course",
+          "url": "https://www.youtube.com/watch?v=OK_JCtrrv-c"
+        }
+      ]
+    },
+    "DB2cxZE58WCCavW2PNwmf": {
+      "id": "DB2cxZE58WCCavW2PNwmf",
+      "slug": "json-processing",
+      "title": "JSON Processing",
+      "description": "JSON Processing in PHP refers to the handling, reading, and manipulation of JSON formatted data. JSON, or JavaScript Object Notation, is a versatile data format used worldwide due to its easy readability and robustness. PHP natively supports JSON and includes built-in functions like `json_encode()` and `json_decode()`. The `json_encode()` function returns a JSON representation of a value, particularly useful when you need to pass arrays or objects to a script. On the other hand, `json_decode()` is used to extract data from a JSON file or a JSON-encoded string, converting it into a PHP variable. Here's a quick example: // Create an array $data = array('a' => 1, 'b' => 2, 'c' => 3); // Encode the array into a JSON string $json = json_encode($data); echo $json; // Output: {\"a\":1,\"b\":2,\"c\":3} // Decode the JSON string back into an array $decoded = json_decode($json, true); print_r($decoded); // Output: Array ( [a] => 1 [b] => 2 [c] => 3 )",
+      "resources": [
+        {
+          "id": "DB2cxZE58WCCavW2PNwmf-res-1",
+          "type": "article",
+          "title": "JSON Manual",
+          "url": "https://www.php.net/manual/en/book.json.php"
+        }
+      ]
+    },
+    "7LjxtrmgJtTJc0_kP83Tr": {
+      "id": "7LjxtrmgJtTJc0_kP83Tr",
+      "slug": "lamp",
+      "title": "LAMP",
+      "description": "LAMP refers to the combined use of Linux OS, Apache HTTP Server, MySQL relational database management system, and PHP; it's a popular stack for creating and hosting websites. For PHP, LAMP is a robust, open-source web development platform that supports a wide range of dynamic websites and applications. Suppose you plan to develop a content management system (CMS), forums, or e-commerce shops. In that case, PHP, as a part of the LAMP stack, helps provide a flexible development environment. Here, PHP works hand-in-hand with MySQL to access and manage databases, get queried results, and embed them into HTML pages by the Apache HTTP Server before sending them to the client side.",
+      "resources": [
+        {
+          "id": "7LjxtrmgJtTJc0_kP83Tr-res-1",
+          "type": "article",
+          "title": "PHP Lamp",
+          "url": "https://www.php.net/manual/en/introduction.php"
+        }
+      ]
+    },
+    "zsscRQZIq5o0JZir9hlz-": {
+      "id": "zsscRQZIq5o0JZir9hlz-",
+      "slug": "laravel",
+      "title": "Yii",
+      "description": "Yii is a high-performance, package-based PHP framework for developing modern applications.  It provides a full set of proven, ready-to-use features including caching, logging, a template engine, data abstraction, validation, authentication and authorization, routing, a middleware pipeline, a dependency injection container, database access via query builder and Active Record, migrations, event handling, and console tools. It's especially suitable for developing large-scale applications such as portals, content management systems, e-commerce, REST APIs, etc.",
+      "resources": [
+        {
+          "id": "zsscRQZIq5o0JZir9hlz--res-1",
+          "type": "article",
+          "title": "Yii Docs",
+          "url": "https://yiisoft.github.io/docs/"
+        },
+        {
+          "id": "zsscRQZIq5o0JZir9hlz--res-2",
+          "type": "article",
+          "title": "Demo Applications",
+          "url": "https://yiisoft.github.io/docs/guide/start/demo-apps.html"
+        }
+      ]
+    },
+    "qwt8xN4vuTrY-D0czYITI": {
+      "id": "qwt8xN4vuTrY-D0czYITI",
+      "slug": "loops",
+      "title": "Loops",
+      "description": "PHP incorporates the use of loops, which are a vital part of programming. They allow a block of code to be executed repeatedly based on a certain condition or until a specific condition is met. In PHP, there are four types of loops - 'while', 'do-while', 'for' and 'foreach'. The 'while' loop continues executing its nested code as long as the condition remains true. The 'do-while' loop executes a block of code at least once, and then either continues executing it or stops, based on the condition. The 'for' loop is often used when the number of iterations is known. The 'foreach' loop works with arrays and is used to loop through each key/value pair in an array. Here's a simple example of a 'for' loop in PHP: <?php for ($i = 0; $i < 5; $i++) { echo $i; } ?> In this example, the loop will execute five times, with $i increasing by one each time, outputting the numbers from 0 to 4.",
+      "resources": [
+        {
+          "id": "qwt8xN4vuTrY-D0czYITI-res-1",
+          "type": "article",
+          "title": "Loops",
+          "url": "https://www.php.net/manual/en/language.control-structures.php"
+        }
+      ]
+    },
+    "rSXsPWto7Jeyw3Szl9pvf": {
+      "id": "rSXsPWto7Jeyw3Szl9pvf",
+      "slug": "magic-methods",
+      "title": "Magic methods",
+      "description": "PHP Magic Methods, often considered the hooks of the language, provide developers a way to change how objects will respond to particular language constructs. Magic methods are special functions that start with \"\\_\\_\" such as `__construct()`, `__destruct(), __call(), __get(), __set()` and more. They enable us to perform certain tasks automatically when specific actions occur. For example, `__construct()` executes when an object is created while `__destruct()` triggers when an object is no longer needed. Let's see the `__construct` magic method in action: class Car { public $color; public function __construct($color) { $this->color = $color; } } $blueCar = new Car(\"Blue\"); // This will call the __construct() method. echo $blueCar->color;  // Outputs \"Blue\".",
+      "resources": [
+        {
+          "id": "rSXsPWto7Jeyw3Szl9pvf-res-1",
+          "type": "article",
+          "title": "Magic Methods",
+          "url": "https://www.php.net/manual/en/language.oop5.magic.php"
+        }
+      ]
+    },
+    "t7p7TU2khaxsZPYAdwFAA": {
+      "id": "t7p7TU2khaxsZPYAdwFAA",
+      "slug": "mamp",
+      "title": "MAMP",
+      "description": "MAMP stands for Macintosh, Apache, MySQL, and PHP. It is a popular software stack that enables developers to run a local server environment. While other technology stacks might be more relevant to different languages or platform-specific development, MAMP is highly beneficial for PHP development. MAMP allows PHP developers to run their code in a localhost environment on their systems, making testing and debugging more straightforward. MAMP bundles all the required software packages (Apache, MySQL, PHP) into one convenient installation, supporting developers in creating a reliable, consistent development environment without tussle. However, as an assistant, I cannot provide a code sample for this topic since it's not directly related to coding in PHP.",
+      "resources": [
+        {
+          "id": "t7p7TU2khaxsZPYAdwFAA-res-1",
+          "type": "article",
+          "title": "MAMP",
+          "url": "https://www.mamp.info/en/"
+        }
+      ]
+    },
+    "3gNzX-bw2iqur7U7-_W38": {
+      "id": "3gNzX-bw2iqur7U7-_W38",
+      "slug": "match",
+      "title": "match",
+      "description": "Match expressions are an integral feature of PHP, introduced in PHP 8.0 as an alternative to the switch statement. Compared to the switch statement, match expressions are safer since they don't require break statements and are more concise. The match expression can be an excellent tool for pattern matching. Here's an example: $message = match ($statusCode) { 200, 300 => 'OK', 400 => 'error', default => 'unknown status code', }; In this code, based on the value of `$statusCode`, the `match` expression assigns a specific text to the `$message`. If `$statusCode` is not 200, 300, or 400, the `default` case applies. After running the code, the `$message` variable contains the result of the `match` expression.",
+      "resources": [
+        {
+          "id": "3gNzX-bw2iqur7U7-_W38-res-1",
+          "type": "article",
+          "title": "match",
+          "url": "https://www.php.net/manual/en/control-structures.match.php"
+        }
+      ]
+    },
+    "bt7dK2PcOZ72B9HXPyMwL": {
+      "id": "bt7dK2PcOZ72B9HXPyMwL",
+      "slug": "memory-management",
+      "title": "Memory Management",
+      "description": "Memory Management is a crucial part of PHP performance optimization. Efficient memory use can significantly boost the speed and reliability of your PHP applications. PHP automatically provides a garbage collector which cleans up unused memory, but understanding and managing your script's memory usage can result in better use of resources. For instance, `unset()` function can help in freeing up memory by destroying the variables that are no longer used. Here is an example: $string = str_repeat(\"very long string\", 10240); echo memory_get_usage();  // Outputs: 514576 unset($string); echo memory_get_usage();  // Outputs: 346672 In this example, memory usage decreases after the `$string` variable is unset. This occurs because `unset()` decreases the reference count, and when it reaches zero, the memory associated with the variable is freed and returned to PHP’s internal memory manager. However, this memory is not necessarily returned to the operating system. Instead, it remains allocated to PHP and can be reused for subsequent operations within the script. Avoiding unnecessary data storage and leveraging built-in PHP functions can help improve memory efficiency.",
+      "resources": [
+        {
+          "id": "bt7dK2PcOZ72B9HXPyMwL-res-1",
+          "type": "article",
+          "title": "Memory Management",
+          "url": "https://www.php.net/manual/en/features.gc.php"
+        }
+      ]
+    },
+    "uARTOZ-ZwugSmbCJoRS5Y": {
+      "id": "uARTOZ-ZwugSmbCJoRS5Y",
+      "slug": "multi-dimensional-arrays",
+      "title": "Multi-dimensional Arrays",
+      "description": "Multi-dimensional arrays in PHP are a type of array that contains one or more arrays. Essentially, it's an array of arrays. This allows you to store data in a structured manner, much like a table or a matrix. The fundamental idea is that each array value can, in turn, be another array. For instance, you can store information about various users, where each user (a primary array element) contains several details about them (in a secondary array like email, username etc.). Here's an example: $users = [ [\"John\", \"john@example.com\", \"john123\"], [\"Jane\", \"jane@example.com\", \"jane123\"], [\"Doe\", \"doe@example.com\", \"doe123\"] ];",
+      "resources": [
+        {
+          "id": "uARTOZ-ZwugSmbCJoRS5Y-res-1",
+          "type": "article",
+          "title": "Multi-dimensional Arrays",
+          "url": "https://www.php.net/manual/en/language.types.array.php"
+        }
+      ]
+    },
+    "YLuo0oZJzTCoiZoOSG57z": {
+      "id": "YLuo0oZJzTCoiZoOSG57z",
+      "slug": "mysqli",
+      "title": "MySQLi",
+      "description": "MySQLi is a PHP extension that allows PHP programs to connect with MySQL databases. This extension provides the capability to perform queries, retrieve data, and perform complex operations on MySQL databases using PHP. MySQLi comes with an object-oriented and procedural interface and supports prepared statements, multiple statements, and transactions. Here's a basic example of using MySQLi to connect to a MySQL database: $servername = \"localhost\"; $username = \"username\"; $password = \"password\"; $dbname = \"myDB\"; // Create connection $conn = new mysqli($servername, $username, $password, $dbname); // Check connection if ($conn->connect_error) { die(\"Connection failed: \" . $conn->connect_error); } echo \"Connected successfully\";",
+      "resources": [
+        {
+          "id": "YLuo0oZJzTCoiZoOSG57z-res-1",
+          "type": "article",
+          "title": "MySQLi",
+          "url": "https://www.php.net/manual/en/book.mysqli.php"
+        }
+      ]
+    },
+    "RkNjYva8o_jXp9suz5YdG": {
+      "id": "RkNjYva8o_jXp9suz5YdG",
+      "slug": "named-arguments",
+      "title": "Named Arguments",
+      "description": "Named arguments in PHP, introduced with PHP 8.0, allow you to specify the values of required parameters by their names, instead of their position in the function call, thus making your code more readable, reducing mistakes, and allowing for unimportant arguments to be skipped. Here's an array\\_fill() function using named arguments: <?php $a = array_fill(start_index: 0, count: 100, value: 50); In this code snippet, the parameters are passed by their names ('start\\_index', 'count', 'value'), not by their order in the function definition.",
+      "resources": [
+        {
+          "id": "RkNjYva8o_jXp9suz5YdG-res-1",
+          "type": "article",
+          "title": "Named Arguments",
+          "url": "https://www.php.net/manual/en/functions.arguments.php#functions.named-arguments"
+        }
+      ]
+    },
+    "9raJ06lKRZITbjWeLil-F": {
+      "id": "9raJ06lKRZITbjWeLil-F",
+      "slug": "namespaces",
+      "title": "Namespaces",
+      "description": "Namespaces in PHP are a way of encapsulating items so that name collisions won't occur. When your code expands, there could be a situation where classes, interfaces, functions, or constants might have the same name, causing confusion or errors. Namespaces come to the rescue by grouping these items. You declare a namespace using the keyword 'namespace' at the top of your PHP file. Every class, function, or variable under this declaration is a part of the namespace until another namespace is declared, or the file ends. It's like creating a new room in your house solely for storing sports equipment. This makes it easier to find your tennis racket, as you won't have to rummage around in a closet full of mixed items. Here's a quick example: namespace MyNamespace\\SubNamespace; function displayGreeting() { echo 'Hello World!'; }",
+      "resources": [
+        {
+          "id": "9raJ06lKRZITbjWeLil-F-res-1",
+          "type": "article",
+          "title": "Namespaces",
+          "url": "https://www.php.net/manual/en/language.namespaces.php"
+        }
+      ]
+    },
+    "aspZpACHEKOsi_Er5FYPY": {
+      "id": "aspZpACHEKOsi_Er5FYPY",
+      "slug": "nginx",
+      "title": "Nginx",
+      "description": "Nginx is often deployed as a reverse proxy server for PHP applications, helping to manage client requests and load balance. Unlike traditional servers, Nginx handles numerous simultaneous connections more efficiently, proving instrumental in delivering PHP content faster. For PHP, one common configuration with Nginx involves PHP-FPM (FastCGI Process Manager). FastCGI is a variation on the earlier CGI (Common Gateway Interface), it allows for long-lived PHP processes that can service many requests, improving the performance of PHP applications. For instance, your Nginx server configuration for serving PHP files might include directives like these: location ~ \\.php$ { include snippets/fastcgi-php.conf; fastcgi_pass unix:/run/php/php7.0-fpm.sock; }",
+      "resources": [
+        {
+          "id": "aspZpACHEKOsi_Er5FYPY-res-1",
+          "type": "article",
+          "title": "Nginx Documentation",
+          "url": "https://nginx.org/en/docs/"
+        }
+      ]
+    },
+    "w0ntgFBhgGd5RUFd-qlPK": {
+      "id": "w0ntgFBhgGd5RUFd-qlPK",
+      "slug": "null-coalescing-operator",
+      "title": "Null Coalescing Operator",
+      "description": "The Null Coalescing Operator (??) in PHP is a simple and useful tool for handling variables that might not be set. It allows developers to provide a default value when the variable happens not to have a value. It is similar to the ternary operator, but instead of checking whether a variable is true or false, it checks if it is set or null. This makes it a handy tool for handling optional function arguments or form inputs. Here's an example: `$username = $_POST['username'] ?? 'Guest';`. In this line, if 'username' was set in the POST array, $username will be set to that value. If not, it will be set to 'Guest'.",
+      "resources": [
+        {
+          "id": "w0ntgFBhgGd5RUFd-qlPK-res-1",
+          "type": "article",
+          "title": "Null Coalescing Operator",
+          "url": "https://www.php.net/manual/en/migration70.new-features.php#migration70.new-features.null-coalesce-op"
+        }
+      ]
+    },
+    "1NXSk8VZDr89jQTTkOL7x": {
+      "id": "1NXSk8VZDr89jQTTkOL7x",
+      "slug": "null-safe-operator",
+      "title": "Null Safe Operator",
+      "description": "The Null Safe Operator is a handy feature in PHP which deals with an issue that often pops up when working with objects: trying to access properties or methods on an object that might be null. Instead of a fatal error, the PHP Null Safe Operator (indicated by ?->) allows null values to be returned safely, making your code more robust. Here's a quick example, consider $session?->user?->name. If $session or user is null, PHP will stop further execution and simply return null. This makes PHP more resilient when processing unpredictable data.",
+      "resources": [
+        {
+          "id": "1NXSk8VZDr89jQTTkOL7x-res-1",
+          "type": "article",
+          "title": "The Basics - Manual",
+          "url": "https://www.php.net/manual/en/language.oop5.basic.php"
+        },
+        {
+          "id": "1NXSk8VZDr89jQTTkOL7x-res-2",
+          "type": "article",
+          "title": "PHP RFC: Nullsafe operator",
+          "url": "https://wiki.php.net/rfc/nullsafe_operator"
+        }
+      ]
+    },
+    "SeqGIfcLuveZ2z5ZSXcOd": {
+      "id": "SeqGIfcLuveZ2z5ZSXcOd",
+      "slug": "object-relational-mapping-orm",
+      "title": "Object-Relational Mapping (ORM)",
+      "description": "Object-Relational Mapping (ORM) is a popular technique used with PHP to convert data between incompatible type systems using an object-oriented programming language. Essentially, it saves PHP developers time by enabling them to work with databases using OOP standards and avoid writing long SQL queries. One commonly used ORM in PHP is Doctrine. For instance, to save data into a products table, you don't use SQL but OOP-style code: $product = new Product(); $product->setName('New Product'); $entityManager->persist($product); $entityManager->flush();",
+      "resources": [
+        {
+          "id": "SeqGIfcLuveZ2z5ZSXcOd-res-1",
+          "type": "article",
+          "title": "What is an Object Relational Mapping (ORM)",
+          "url": "https://stackoverflow.com/questions/1279613/what-is-an-orm-how-does-it-work-and-how-should-i-use-one#answer-1279678"
+        }
+      ]
+    },
+    "yTviiPFR5b_dr3WyxdxxQ": {
+      "id": "yTviiPFR5b_dr3WyxdxxQ",
+      "slug": "oop-fundamentals",
+      "title": "OOP Fundamentals",
+      "description": "In PHP, Object-Oriented Programming (OOP) Fundamentals cover critical aspects like classes, objects, properties, and methods. OOP facilitates efficient code reusability and makes it easier to manage and modify code. For example, here's a code snippet that represents a class with a method and a property in PHP: class Hello { public $greeting = \"Hello, world!\"; public function displayGreeting() { echo $this->greeting; } } $hello = new Hello(); $hello->displayGreeting(); // Outputs \"Hello, world!\" This snippet defines a class `Hello` with a property `$greeting` and a method `displayGreeting()`. Instances of this class can access these methods and properties. OOP Fundamentals in PHP are much more comprehensive, encompassing concepts like inheritance, encapsulation, and polymorphism.",
+      "resources": [
+        {
+          "id": "yTviiPFR5b_dr3WyxdxxQ-res-1",
+          "type": "article",
+          "title": "OOP",
+          "url": "https://php.net/manual/en/language.oop5.basic.php"
+        }
+      ]
+    },
+    "NieqZd1juaNYoZOrB7e31": {
+      "id": "NieqZd1juaNYoZOrB7e31",
+      "slug": "opcode-caching",
+      "title": "Opcode Caching",
+      "description": "Opcode caching is a technique that can significantly enhance the PHP performance. It works by storing precompiled script bytecode in memory, thus eliminating the need for PHP to load and parse scripts on each request. For opcode caching, OPCache extension is often used in PHP. With this, the PHP script's compiled version is stored for subsequent requests, reducing the overhead of code parsing and compiling. As a result, your applications experience faster execution and lower CPU usage. An Example of a way to enable OPCache in your php.ini configuration file might look like: opcache.enable=1 opcache.memory_consumption=128 opcache.max_accelerated_files=4000 opcache.revalidate_freq=60",
+      "resources": [
+        {
+          "id": "NieqZd1juaNYoZOrB7e31-res-1",
+          "type": "article",
+          "title": "Opcode Caching",
+          "url": "https://www.php.net/manual/en/book.opcache.php"
+        }
+      ]
+    },
+    "xZf2jjnCVHwYfDH2hs9kR": {
+      "id": "xZf2jjnCVHwYfDH2hs9kR",
+      "slug": "packagist",
+      "title": "Packagist",
+      "description": "Packagist is the primary package repository for PHP, providing a service for hosting and distributing PHP package dependencies. Developers can use it to upload their PHP packages and share them with other developers globally. In conjunction with Composer, Packagist helps manage package versions and resolve dependencies for PHP, acting as a crucial part of modern PHP development.",
+      "resources": [
+        {
+          "id": "xZf2jjnCVHwYfDH2hs9kR-res-1",
+          "type": "article",
+          "title": "Packagist",
+          "url": "https://packagist.org/"
+        },
+        {
+          "id": "xZf2jjnCVHwYfDH2hs9kR-res-2",
+          "type": "article",
+          "title": "Package Documentation",
+          "url": "https://getcomposer.org/doc/01-basic-usage.md#package-versions"
+        }
+      ]
+    },
+    "mpQKoBzsOa-5iWo08sOhQ": {
+      "id": "mpQKoBzsOa-5iWo08sOhQ",
+      "slug": "parameters--return-values",
+      "title": "Parameters / Return Values",
+      "description": "Parameters in PHP functions specify the input that the function expects to receive when it is called. They can be of various types like strings, integers, arrays, or even objects. PHP also supports default values for parameters and passing by reference. In PHP, the 'return' statement is often used to end the execution of a function and send back a value. Return values can be any data type. Here's a simple example: function addNumbers($num1, $num2) { $sum = $num1 + $num2; return $sum; } echo addNumbers(3, 4);  // Outputs: 7 In the above code, `$num1` and `$num2` are parameters, and the sum of these numbers is the return value.",
+      "resources": [
+        {
+          "id": "mpQKoBzsOa-5iWo08sOhQ-res-1",
+          "type": "article",
+          "title": "Parameters / Return Values",
+          "url": "https://www.php.net/manual/en/functions.arguments.php"
+        }
+      ]
+    },
+    "JbWFfJiCRrXDhnuIx_lqx": {
+      "id": "JbWFfJiCRrXDhnuIx_lqx",
+      "slug": "password-hashing",
+      "title": "Password Hashing",
+      "description": "Password Hashing in PHP is a crucial aspect of security, which involves converting a plaintext password into a unique hash that cannot be easily reversed. PHP's built-in functions - `password_hash()` and `password_verify()` - are usually employed for this purpose. `password_hash()` creates a new password hash using a strong one-way hashing algorithm, while `password_verify()` checks if the given hash matches the password provided. This makes it extremely difficult for malicious actors to get the original password, even if they have the hash. // Hashing the password $hash = password_hash('mypassword', PASSWORD_DEFAULT); // Verifying the password if (password_verify('mypassword', $hash)) { echo 'Password is valid!'; } else { echo 'Invalid password.'; }",
+      "resources": [
+        {
+          "id": "JbWFfJiCRrXDhnuIx_lqx-res-1",
+          "type": "article",
+          "title": "Password Hashing",
+          "url": "https://www.php.net/manual/en/function.password-hash.php"
+        }
+      ]
+    },
+    "cJtPz1RMN1qDE4eRdv4N_": {
+      "id": "cJtPz1RMN1qDE4eRdv4N_",
+      "slug": "pdo",
+      "title": "PDO",
+      "description": "PDO (PHP Data Objects) is an interface in PHP that provides a lightweight, consistent way for working with databases in PHP. PDO allows you to use any database without changing your PHP code, making your code database-independent. Furthermore, it offers robust error handling and can utilize prepared statements to prevent SQL injection attacks. Here is how you could connect and fetch data from a MySQL database using PDO: try { $pdo = new PDO('mysql:host=localhost;dbname=test', 'username', 'password'); $stmt = $pdo->query('SELECT * FROM myTable'); while ($row = $stmt->fetch()) { echo $row['name'] . \"\\n\"; } } catch (PDOException $e) { echo \"Connection failed: \" . $e->getMessage(); }",
+      "resources": [
+        {
+          "id": "cJtPz1RMN1qDE4eRdv4N_-res-1",
+          "type": "article",
+          "title": "Data Objects",
+          "url": "https://www.php.net/manual/en/book.pdo.php"
+        }
+      ]
+    },
+    "M1nVsh_sCSFJRf6-7Ttsj": {
+      "id": "M1nVsh_sCSFJRf6-7Ttsj",
+      "slug": "performance-optimization",
+      "title": "Performance Optimization",
+      "description": "Performance Optimization linked with Advanced Database Techniques in PHP ensures your database-driven applications run efficiently. This involves techniques like indexing, using EXPLAIN SQL command, de-normalization, and caching query results. For instance, an effective technique is caching query results, which can significantly reduce the number of database calls. PHP offers functions to serialize and unserialize data, you can store your result set in a serialized form and when needed, retrieve it quickly, unserialize it and voila, you have your data ready with no database calls. Here's a simple example of caching MySQL query with PHP: $query = \"SELECT * FROM my_table\"; $cache_file = '/tmp/cache/' . md5($query); if (file_exists($cache_file)) { $result_set = unserialize(file_get_contents($cache_file)); } else { $result= mysql_query($query); $result_set= array(); while ($row = mysql_fetch_array($result)) { $result_set[]= $row; } file_put_contents($cache_file, serialize($result_set)); }",
+      "resources": [
+        {
+          "id": "M1nVsh_sCSFJRf6-7Ttsj-res-1",
+          "type": "article",
+          "title": "MySQL Performance Optimization",
+          "url": "https://www.php.net/manual/en/book.mysql.php"
+        }
+      ]
+    },
+    "d6MydchA52HIxfAUjmZui": {
+      "id": "d6MydchA52HIxfAUjmZui",
+      "slug": "pest",
+      "title": "Pest",
+      "description": "Pest is an innovative and elegant testing framework for PHP. Think of it as a stylish and streamlined alternative to PHPUnit. Pest makes testing your PHP code a breeze by enabling expressive and flexible test cases. It provides higher-level abstractions to minimize boilerplate code without disrupting the ability to integrate traditional PHPUnit tests. For example, using Pest can make a test case as simple as writing a closure: it('has homepage', function () { $response = get('/'); $response->assertStatus(200); });",
+      "resources": [
+        {
+          "id": "d6MydchA52HIxfAUjmZui-res-1",
+          "type": "article",
+          "title": "Pest",
+          "url": "https://pestphp.com/"
+        },
+        {
+          "id": "d6MydchA52HIxfAUjmZui-res-2",
+          "type": "article",
+          "title": "Pest Installation",
+          "url": "https://pestphp.com/docs/installation"
+        }
+      ]
+    },
+    "B45YVzov8X_iOtneiFEqa": {
+      "id": "B45YVzov8X_iOtneiFEqa",
+      "slug": "phan",
+      "title": "Phan",
+      "description": "Phan is a static analysis tool specially made for PHP language, greatly useful in catching common issues in the code before execution. It can analyze the syntax and behaviors in PHP code, detecting problems such as undeclared variables, type inconsistencies, uncaught exceptions, and more. Interestingly, Phan has a particular strength — it understands the relationships among PHP's different features, making the tool effective in finding subtle, complicated bugs. To use it, simply install it using composer and run the command 'phan' in your project directory. <?php // Phan sample usage require 'vendor/autoload.php';    // Autoload files using Composer autoload use Phan\\Phan; use Phan\\CLI; $code = \"<?php function add(int $a, int $b): int { return $a + $b; } echo add('hello', 'world');\"; // code with a type error Phan::analyzeFile('test.php', $code); Above is a basic sample of using Phan. It checks for a type error in a PHP function.",
+      "resources": [
+        {
+          "id": "B45YVzov8X_iOtneiFEqa-res-1",
+          "type": "article",
+          "title": "Phan",
+          "url": "https://phan.github.io/"
+        },
+        {
+          "id": "B45YVzov8X_iOtneiFEqa-res-2",
+          "type": "article",
+          "title": "phan/phan",
+          "url": "https://github.com/phan/phan"
+        }
+      ]
+    },
+    "r07k_hT2z2EiIBH4q3F7-": {
+      "id": "r07k_hT2z2EiIBH4q3F7-",
+      "slug": "php-cs-fixer",
+      "title": "PHP CS Fixer",
+      "description": "PHP CS Fixer is a valuable utility for PHP developers that examines and fixes your code to ensure it aligns with specific coding standards. This powerful tool diminishes the time and effort spent on manual code review and corrections. It reviews your PHP code's syntax, appearance, and structure and can automatically fix issues found. PHP CS Fixer supports PSR-1, PSR-2, Symfony standards, and more. Here's an example of how you can use PHP CS Fixer. First, install it via composer: composer global require friendsofphp/php-cs-fixer Then, run this command in your project directory: php-cs-fixer fix /path-to-your-php-files",
+      "resources": [
+        {
+          "id": "r07k_hT2z2EiIBH4q3F7--res-1",
+          "type": "article",
+          "title": "CS Fixer",
+          "url": "https://cs.symfony.com/"
+        }
+      ]
+    },
+    "SD9k16UlVve9WtNMDA5Za": {
+      "id": "SD9k16UlVve9WtNMDA5Za",
+      "slug": "php-fig",
+      "title": "PHP-FIG",
+      "description": "PHP-FIG, also known as the PHP Framework Interoperability Group, is a vital part of PHP's ecosystem. This group has the main goal of creating PHP standards that promote interoperability among PHP frameworks, libraries, and other pieces of PHP based software. The group is responsible for PSR standards, which most modern PHP codes adhere to. Typically, it provides guidelines on coding style, logger interface, http cache, and more. Each PSR is designed to make PHP code more consistent and maintainable. By adhering to PHP-FIG's standards, developers enhance their ability to integrate and leverage third-party code within their projects.",
+      "resources": [
+        {
+          "id": "SD9k16UlVve9WtNMDA5Za-res-1",
+          "type": "article",
+          "title": "PHP FIG",
+          "url": "https://www.php-fig.org/psr/"
+        }
+      ]
+    },
+    "AoGS-5MSkp8gtJFQVPSBE": {
+      "id": "AoGS-5MSkp8gtJFQVPSBE",
+      "slug": "php-fpm",
+      "title": "PHP-FPM",
+      "description": "PHP-FPM, or PHP FastCGI Process Manager, is a robust and efficient way to serve PHP applications. It dramatically improves the speed and processing efficiency of PHP apps by isolating each request, thus preventing jobs from interfering with each other. With PHP-FPM, your server can handle more simultaneous visitors without a slowdown. For example, to start using PHP-FPM with NGINX, you may include this configuration in your NGINX server block: location ~ \\.php$ { try_files $uri =404; fastcgi_pass unix:/var/run/php/php7.4-fpm.sock; fastcgi_index index.php; fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name; include fastcgi_params; } Here `$uri` is the incoming request and `fastcgi_pass` should be the location where PHP-FPM listens.",
+      "resources": [
+        {
+          "id": "AoGS-5MSkp8gtJFQVPSBE-res-1",
+          "type": "article",
+          "title": "PHP FPM",
+          "url": "https://www.php.net/manual/en/install.fpm.php"
+        }
+      ]
+    },
+    "6sHRQTcoKL3TlgNJlwyx8": {
+      "id": "6sHRQTcoKL3TlgNJlwyx8",
+      "slug": "php-versions-and-features",
+      "title": "PHP Versions and Features",
+      "description": "PHP (Hypertext Preprocessor) versions are critically important as each release comes with new features, improvements, and bug fixes. PHP versions start from PHP 1.0 released in 1995 and have improved over the years. The more recent version as of writing is PHP 8.0, which introduced features like the JIT compiler, named arguments, match expressions, and more. Remember, sticking to officially supported versions, like PHP 7.4 or 8.0, ensures security updates and performance improvements. For instance, the code `echo \"Current PHP version: \" . phpversion();` would tell you the PHP version in use.",
+      "resources": [
+        {
+          "id": "6sHRQTcoKL3TlgNJlwyx8-res-1",
+          "type": "article",
+          "title": "Versions and Features",
+          "url": "https://www.php.net/manual/en/history.php.php"
+        }
+      ]
+    },
+    "fSpvZ_4kGFMbFVCWhA8vn": {
+      "id": "fSpvZ_4kGFMbFVCWhA8vn",
+      "slug": "phpcodesniffer",
+      "title": "PHP CodeSniffer",
+      "description": "PHP CodeSniffer is a tool used to ensure your PHP code adheres to a defined coding standard. It works by tokenizing your code and detecting violations of a pre-configured set of rules, covering aspects like indentation, spacing, naming conventions, and more. This helps maintain code consistency across projects and teams, making it easier to read, understand, and maintain.",
+      "resources": [
+        {
+          "id": "fSpvZ_4kGFMbFVCWhA8vn-res-1",
+          "type": "article",
+          "title": "PHP_CodeSniffer",
+          "url": "https://github.com/PHPCSStandards/PHP_CodeSniffer/"
+        }
+      ]
+    },
+    "12k71gNfwAcT9K5aLWgbZ": {
+      "id": "12k71gNfwAcT9K5aLWgbZ",
+      "slug": "phpstan",
+      "title": "PHPStan",
+      "description": "PHPStan is a static analysis tool for PHP that focuses on discovering bugs in your code. As opposed to dynamic analysis which works while your program is running, static analysis examines your code without executing it. PHPStan can catch an entire class of bugs even before you write tests for the code, thus making it a valuable tool in PHP development. For example, PHPStan can prevent issues like accessing an undefined array key or calling a method that doesn't exist. Here's a basic example of how you can use PHPStan: // install PHPStan using composer $ composer require --dev phpstan/phpstan // analyse your code $ vendor/bin/phpstan analyse src",
+      "resources": [
+        {
+          "id": "12k71gNfwAcT9K5aLWgbZ-res-1",
+          "type": "article",
+          "title": "PHP Stan",
+          "url": "https://phpstan.org/user-guide/getting-started"
+        }
+      ]
+    },
+    "NfBKKwG2GGBPppOjoLLBg": {
+      "id": "NfBKKwG2GGBPppOjoLLBg",
+      "slug": "phpunit",
+      "title": "PHPUnit",
+      "description": "PHPUnit is a widely used testing framework in PHP. Automated testing allows developers to ensure their code functions as expected. With PHPUnit, you can write test cases in PHP to check the functionality of your codebase. It's particularly good for executing unit tests - tests that verify individual parts of the software. PHPUnit supports several types of assertions, making it versatile for any testing requirement. Here's a simple PHPUnit test case: <?php use PHPUnit\\Framework\\TestCase; class StackTest extends TestCase { public function testPushAndPop() { $stack = []; $this->assertEquals(0, count($stack)); array_push($stack, 'foo'); $this->assertEquals('foo', $stack[count($stack)-1]); $this->assertEquals(1, count($stack)); $this->assertEquals('foo', array_pop($stack)); $this->assertEquals(0, count($stack)); } } ?> In this example, we’re testing the 'push' and 'pop' functionality of an array.",
+      "resources": [
+        {
+          "id": "NfBKKwG2GGBPppOjoLLBg-res-1",
+          "type": "article",
+          "title": "PHP Unit",
+          "url": "https://phpunit.de/getting-started/phpunit-7.html"
+        }
+      ]
+    },
+    "gtq5KrghF28f5G8nuDcYQ": {
+      "id": "gtq5KrghF28f5G8nuDcYQ",
+      "slug": "polymorphism",
+      "title": "Polymorphism",
+      "description": "Polymorphism is a core concept in object-oriented programming that PHP supports. It provides a mechanism to use one interface for different underlying forms, enabling different objects to process differently based on their data type. In PHP, polymorphism can be achieved through inheritance and interfaces. For example, you may have a parent class 'Shape' and child classes 'Circle', 'Rectangle', etc. They all can have a method 'draw' but with different implementations. It's not limited to classes; you can also use polymorphism with interfaces by implementing different classes with the same interface where each class will have different code for the same method. Here's a small sample code demonstrating the concept: <?php interface Shape { public function draw(); } class Circle implements Shape { public function draw() { echo \"Draw a circle\"; } } class Rectangle implements Shape { public function draw() { echo \"Draw a rectangle\"; } } function drawShape(Shape $shape) { $shape->draw(); } drawShape(new Circle()); drawShape(new Rectangle()); ?> This creates a scalable way to add more shapes, as you only need to follow the 'Shape' interface.",
+      "resources": [
+        {
+          "id": "gtq5KrghF28f5G8nuDcYQ-res-1",
+          "type": "article",
+          "title": "Polymorphism",
+          "url": "https://www.phptutorial.net/php-oop/php-polymorphism/"
+        }
+      ]
+    },
+    "NQUmO90sqe7fnzod3Ia8H": {
+      "id": "NQUmO90sqe7fnzod3Ia8H",
+      "slug": "print",
+      "title": "print",
+      "description": "The 'print' statement in PHP is an in-built function used for outputting one or more strings. Unlike 'echo', it is not a language construct and has a return value. However, it is slower because it uses expressions. The text or numeric data that 'print' outputs can be shown directly or stored in a variable. For instance, to print a string you may use `print(\"Hello, World!\");`, and for using it with a variable, `echo $variable;` is suitable.",
+      "resources": [
+        {
+          "id": "NQUmO90sqe7fnzod3Ia8H-res-1",
+          "type": "article",
+          "title": "print",
+          "url": "https://www.php.net/manual/en/function.print.php"
+        }
+      ]
+    },
+    "wsC7OGXOyfCY4pLLNrR2v": {
+      "id": "wsC7OGXOyfCY4pLLNrR2v",
+      "slug": "print_r",
+      "title": "print_r",
+      "description": "The print\\_r function in PHP is used to print human-readable information about a variable, ranging from simple values to more complex, multi-dimensional arrays and objects. It's exceptionally helpful while debugging, providing more information about the variable's contents than the echo or print functions. For example, in the code `$array = array('apple', 'banana', 'cherry'); print_r($array);`, it will display Array ( \\[0\\] => apple \\[1\\] => banana \\[2\\] => cherry ).",
+      "resources": [
+        {
+          "id": "wsC7OGXOyfCY4pLLNrR2v-res-1",
+          "type": "article",
+          "title": "print_r",
+          "url": "https://www.php.net/manual/en/function.print-r.php"
+        }
+      ]
+    },
+    "NTKUMgsKGYISIyhgOJPQn": {
+      "id": "NTKUMgsKGYISIyhgOJPQn",
+      "slug": "process-control",
+      "title": "Process Control",
+      "description": "Process Control, a crucial aspect of PHP system interactions, pertains to the ability to manage child processes within larger PHP scripts. Through the Process Control Extensions, PHP can create, monitor and control these child processes efficiently. These functions help develop robust client-server systems by managing and bringing multi-threading capabilities to single-threaded PHP scripts. For instance, when creating a new child process using pcntl\\_fork() function, the return value in the parent process is the PID of the newly created child process whereas, in the child process, '0' is returned. Remember, this feature isn't enabled by default in PHP. Here's a short PHP code demonstrating Process Control: <?php $pid = pcntl_fork(); if ($pid == -1) { die('could not fork'); } else if ($pid) { // we are the parent pcntl_wait($status); // Protect against Zombie children } else { // we are the child } ?>",
+      "resources": [
+        {
+          "id": "NTKUMgsKGYISIyhgOJPQn-res-1",
+          "type": "article",
+          "title": "Process Control",
+          "url": "https://www.php.net/manual/en/ref.pcntl.php"
+        }
+      ]
+    },
+    "_Dh78x_tPLqZweg--qZFQ": {
+      "id": "_Dh78x_tPLqZweg--qZFQ",
+      "slug": "profiling-techniques",
+      "title": "Profiling Techniques",
+      "description": "Profiling is an analytical process within PHP that focuses on optimizing the application’s performance. It involves pinpointing bottlenecks and problematic sections of your PHP code that cause poor performance, often using profiling tools. One such tool is Xdebug, which provides detailed information about how each line of code is executed. This process helps in understanding how long an operation takes to execute, which parts consume more memory, and which functions/methods are most frequently used, thereby enabling an optimization strategy. Here's a snippet of how to use Xdebug: xdebug_start_trace(); // Your code here xdebug_stop_trace();",
+      "resources": [
+        {
+          "id": "_Dh78x_tPLqZweg--qZFQ-res-1",
+          "type": "article",
+          "title": "Xdebug Profiler",
+          "url": "https://xdebug.org/docs/profiler"
+        }
+      ]
+    },
+    "MRAPXshy9RoYdReY6grf_": {
+      "id": "MRAPXshy9RoYdReY6grf_",
+      "slug": "properties-and-methods",
+      "title": "Properties and Methods",
+      "description": "Properties and Methods are fundamental components of Object-Oriented Programming (OOP) in PHP. Properties are just like variables; they hold information that an object will need to use. Methods, on the other hand, are similar to functions; they perform an action on an object's properties. In PHP, properties are declared using visibility keywords (public, protected, or private) followed by a regular variable declaration, while methods are declared like functions but inside a class. Here is a simple example: class Car { public $color; // Property // Method public function setColor($color) { $this->color = $color; } } In this example, `$color` is a property and `setColor()` is a method.",
+      "resources": [
+        {
+          "id": "MRAPXshy9RoYdReY6grf_-res-1",
+          "type": "article",
+          "title": "Properties and Methods",
+          "url": "https://www.php.net/manual/en/language.oop5.properties.php"
+        }
+      ]
+    },
+    "T1XD93j6Lkpl88JSmys9b": {
+      "id": "T1XD93j6Lkpl88JSmys9b",
+      "slug": "psalm",
+      "title": "Psalm",
+      "description": "Psalm is a popular static analysis tool tailored for PHP. It identifies potential issues in your code, including syntax errors, unused variables, and type mismatches, before you run the code. This helps to improve code quality and maintainability. It's quite powerful, it can even understand complex scenarios using its template/interface system. To analyze your PHP code with Psalm, you simply need to install it and then run it against your PHP file or directory. Here's an example of how you might run Psalm against a file called 'example.php': vendor/bin/psalm example.php",
+      "resources": [
+        {
+          "id": "T1XD93j6Lkpl88JSmys9b-res-1",
+          "type": "article",
+          "title": "Psalm Documentation",
+          "url": "https://psalm.dev/docs/"
+        }
+      ]
+    },
+    "3tONibbRgK7HCwGTE2Gqw": {
+      "id": "3tONibbRgK7HCwGTE2Gqw",
+      "slug": "psr-standards",
+      "title": "PSR Standards",
+      "description": "The PHP Framework Interop Group (PHP-FIG) introduced PHP Standard Recommendation (PSR) standards to provide a uniform and interoperable set of coding practices for PHP developers. PSR standards cover a variety of coding aspects such as code style (PSR-1, PSR-2), autoloading (PSR-4), and more. The PHP community widely accepts these standards contributing towards writing clean and easy-to-follow code. Here's a snippet to illustrate the PSR-4 autoloading standards in PHP: // Register the autoloader spl_autoload_register(function ($class) { // Convert namespace to directory structure $class = str_replace('\\\\', DIRECTORY_SEPARATOR, $class) . '.php'; // Get file if it exists if (file_exists($class)) { require $class; } });",
+      "resources": [
+        {
+          "id": "3tONibbRgK7HCwGTE2Gqw-res-1",
+          "type": "article",
+          "title": "PSR Standards",
+          "url": "https://www.php-fig.org/psr/"
+        }
+      ]
+    },
+    "S9wTlkbv9-R6dohhZ47hs": {
+      "id": "S9wTlkbv9-R6dohhZ47hs",
+      "slug": "reading-files",
+      "title": "Reading Files",
+      "description": "Reading files is a common task in PHP and it provides a range of functions for this purpose. You can use the `fopen()` function with the 'r' mode to open a file for reading. The `fgets()` function lets you read a file line by line, while `fread()` reads a specified number of bytes. For reading the entire file in one go, use `file_get_contents()`. Remember to always close the file after you're done with `fclose()`. Here's a small example using `fgets()`: $file = fopen(\"example.txt\", \"r\"); if ($file) { while (($line = fgets($file)) !== false) { echo $line; } fclose($file); } else { echo 'Error opening file'; }",
+      "resources": [
+        {
+          "id": "S9wTlkbv9-R6dohhZ47hs-res-1",
+          "type": "article",
+          "title": "Filesystem Operations",
+          "url": "https://www.php.net/manual/en/book.filesystem.php"
+        }
+      ]
+    },
+    "D9ybK5INH5zSOcYMb5ZPi": {
+      "id": "D9ybK5INH5zSOcYMb5ZPi",
+      "slug": "recursion",
+      "title": "Recursion",
+      "description": "Recursion, as it applies to PHP, refers to a function that calls itself to solve a problem. A recursive function distinguishes itself by solving small parts of the problem until it resolves the main issue. Think of it as breaking down a task into smaller tasks that are easier to solve. However, careful design is needed to ensure the recursive function has a clear stopping point, or else it can result in an infinite loop. Here's a quick example of a simple recursive function in PHP: function countDown($count) { echo $count; if($count > 0) { countDown($count - 1); } } countDown(5); In this example, the function `countDown` calls itself until the count hits zero, displaying numbers from 5 to 0.",
+      "resources": [
+        {
+          "id": "D9ybK5INH5zSOcYMb5ZPi-res-1",
+          "type": "article",
+          "title": "Functions - Recursion",
+          "url": "https://www.php.net/manual/en/language.functions.php"
+        }
+      ]
+    },
+    "Kaaqu-mN7xvHN6CbIn616": {
+      "id": "Kaaqu-mN7xvHN6CbIn616",
+      "slug": "require",
+      "title": "require",
+      "description": "The 'require' statement is a built-in feature of PHP used to include and evaluate a specific file while executing the code. This is a crucial part of file handling in PHP because it enables the sharing of functions, classes, or elements across multiple scripts, promoting code reusability and neatness. Keep in mind, if the required file is missing, PHP will produce a fatal error and stop the code execution. The basic syntax is `require 'filename';`.",
+      "resources": [
+        {
+          "id": "Kaaqu-mN7xvHN6CbIn616-res-1",
+          "type": "article",
+          "title": "require",
+          "url": "https://www.php.net/manual/en/function.require.php"
+        }
+      ]
+    },
+    "-CyJbsg2ho3RvfzKnJj5C": {
+      "id": "-CyJbsg2ho3RvfzKnJj5C",
+      "slug": "require_once",
+      "title": "require_once",
+      "description": "PHP uses the 'require\\_once' statement as an efficient way to include a PHP file into another one. There's an interesting quirk to this function: PHP checks if the file was previously included, and if so, it doesn't include the file again. This helps avoid problems with redundant function declarations, variable value reassignments, or coding loops. However, do remember that 'require\\_once' is distinct from 'include\\_once'. The key difference lies in error handling: if the file specified in 'require\\_once' cannot be found, PHP will emit a fatal error and halt script execution. Whereas, 'include\\_once', will only generate a warning. Here's how you can utilize 'require\\_once': <?php require_once('somefile.php'); ?> This code fetches all the functions and codes from 'somefile.php' and includes them in the current file.",
+      "resources": [
+        {
+          "id": "-CyJbsg2ho3RvfzKnJj5C-res-1",
+          "type": "article",
+          "title": "require_once",
+          "url": "https://www.php.net/manual/en/function.require-once.php"
+        }
+      ]
+    },
+    "tfC1tCrbvH5J43WUpG9Yb": {
+      "id": "tfC1tCrbvH5J43WUpG9Yb",
+      "slug": "sanitization-techniques",
+      "title": "Sanitization Techniques",
+      "description": "Sanitization Techniques is a vital part of PHP security basics, which ensures that the user-provided data is safe to be used within your script. It can prevent harmful data from being inserted into the database or being used in other ways that could potentially be dangerous to your application. It includes functions which can strip off unwanted characters from the data. For instance, the `filter_var()` function in PHP can be applied to sanitize text. $dirty_data = \"<p>We love PHP!</p><script>alert('Virus!')</script>\"; $clean_data = filter_var($dirty_data, FILTER_SANITIZE_STRING); echo $clean_data;",
+      "resources": [
+        {
+          "id": "tfC1tCrbvH5J43WUpG9Yb-res-1",
+          "type": "article",
+          "title": "Sanitization Techniques",
+          "url": "https://www.php.net/manual/en/function.filter-var.php"
+        }
+      ]
+    },
+    "qobzzgzArNHLLn9Oiqc6G": {
+      "id": "qobzzgzArNHLLn9Oiqc6G",
+      "slug": "sessions",
+      "title": "Sessions",
+      "description": "Sessions provide a way to preserve certain data across subsequent accesses. Unlike a cookie, the information is not stored on the user's computer but on the server. This is particularly useful when you want to store information related to a specific user's session on your platform, like user login status or user preferences. When a session is started in PHP, a unique session ID is generated for the user. This ID is then passed and tracked through a cookie in the user's browser. To start a session, you would use the PHP function session\\_start(). To save a value in a session, you'd use the $\\_SESSION superglobal array. For example, `$_SESSION['username'] = 'John';` assigns 'John' to the session variable 'username'.",
+      "resources": [
+        {
+          "id": "qobzzgzArNHLLn9Oiqc6G-res-1",
+          "type": "article",
+          "title": "Sessions",
+          "url": "https://www.php.net/manual/en/book.session.php"
+        }
+      ]
+    },
+    "801vB_JMas4ucriUmfrLg": {
+      "id": "801vB_JMas4ucriUmfrLg",
+      "slug": "sql-injection",
+      "title": "SQL Injection",
+      "description": "SQL Injection is a crucial security topic in PHP. It is a code injection technique where an attacker may slip shady SQL code within a query. This attack can lead to data manipulation or loss and even compromise your database. To prevent this, PHP encourages the use of prepared statements with either the MySQLi or PDO extension. An example of a vulnerable code snippet would be: `$unsafe_variable = $_POST['user_input']; mysqli_query($link, \"INSERT INTO` table `(`column`) VALUES ('$unsafe_variable')\");`. Stop falling prey to injections by utilizing prepared statement like so: `$stmt = $pdo->prepare('INSERT INTO` table `(`column`) VALUES (?)'); $stmt->execute([$safe_variable]);`.",
+      "resources": [
+        {
+          "id": "801vB_JMas4ucriUmfrLg-res-1",
+          "type": "article",
+          "title": "SQL Injection",
+          "url": "https://www.php.net/manual/en/security.database.sql-injection.php"
+        }
+      ]
+    },
+    "CGehmZjcgTWC7fQAvxmNW": {
+      "id": "CGehmZjcgTWC7fQAvxmNW",
+      "slug": "state-management",
+      "title": "State Management",
+      "description": "State management in PHP involves keeping track of user activity in the application, as HTTP protocol doesn't store earlier interactions. Typically, these data involve user details such as login info, form input data, etc. A prevalent method of state management in PHP is through sessions and cookies. Sessions work by keeping the state data on the server side and a session identifier on the client side. Note, session's info remains active until the user's session expires. On the other hand, cookies store data on the client side, having an expiry date or until the user deletes them. Here's how to set a cookie in PHP: `setcookie(\"test_cookie\", \"test\", time() + 3600, '/');`. To access sessions, use the `_SESSION` superglobal array: `$_SESSION[\"favcolor\"] = \"green\";`.",
+      "resources": [
+        {
+          "id": "CGehmZjcgTWC7fQAvxmNW-res-1",
+          "type": "article",
+          "title": "setcookie",
+          "url": "https://php.net/manual/en/function.setcookie.php"
+        }
+      ]
+    },
+    "PrG_5dyBblXsWYYRcOJMa": {
+      "id": "PrG_5dyBblXsWYYRcOJMa",
+      "slug": "static-analysis",
+      "title": "Static Analysis",
+      "description": "Static analysis in PHP is a method to inspect the source code before running it. Rather than testing programs on specific inputs (dynamic analysis), static analysis focuses on finding potential issues within code without executing it. It can help in identifying common coding mistakes and uncovering complex problems like dependency issues, unused variables, undeclared properties, and more. Using tools such as PHPStan or Psalm provides this static analysis feature in PHP. For instance, using PHPStan involves merely installing it via Composer and running it against your codebase. composer require --dev phpstan/phpstan ./vendor/bin/phpstan analyse src It outputs information about any issues it finds in code. However, to reap the full benefits, understand that these tools require proper configuration and regular usage.",
+      "resources": [
+        {
+          "id": "PrG_5dyBblXsWYYRcOJMa-res-1",
+          "type": "article",
+          "title": "PHP Stan",
+          "url": "https://phpstan.org/"
+        },
+        {
+          "id": "PrG_5dyBblXsWYYRcOJMa-res-2",
+          "type": "article",
+          "title": "PHP Stan - Getting Started",
+          "url": "https://phpstan.org/user-guide/getting-started"
+        }
+      ]
+    },
+    "qlkpwXfOc1p7j37hrzffI": {
+      "id": "qlkpwXfOc1p7j37hrzffI",
+      "slug": "static-methods-and-properties",
+      "title": "Static Methods and Properties",
+      "description": "Static methods and properties in PHP belong to the class rather than an instance of the class. This means they can be accessed without creating an object of the class. A static method is declared with the static keyword and can be invoked directly using the class name followed by the scope resolution operator. Similarly, a static property is also defined with the static keyword, but cannot be accessed directly, even from within the class methods - they must be accessed through static methods. Here's a simple example: class MyClass { static $myStaticProperty = \"Hello, world\"; static function myStaticMethod() { return self::$myStaticProperty; } } echo MyClass::myStaticMethod(); In this example, we're directly accessing `myStaticMethod` from `MyClass` without an instantiation.",
+      "resources": [
+        {
+          "id": "qlkpwXfOc1p7j37hrzffI-res-1",
+          "type": "article",
+          "title": "Static Methods and Properties",
+          "url": "https://www.php.net/manual/en/language.oop5.static.php"
+        }
+      ]
+    },
+    "6eWgZVLV479oQzl0fu-Od": {
+      "id": "6eWgZVLV479oQzl0fu-Od",
+      "slug": "style-tools",
+      "title": "Style Tools",
+      "description": "Style Tools in PHP are primarily coding standard tools that help maintain a consistent coding style throughout your PHP project. PHP\\_CodeSniffer is a popular tool in this category. It tokenizes PHP, JavaScript, and CSS files and detects violations of a defined set of coding standards. A brief example of PHP\\_CodeSniffer usage would be to run it in the command line like this: `phpcs /path/to/code/myfile.php`. Other tools, such as PHP CS Fixer, can automatically correct coding standard violations.",
+      "resources": [
+        {
+          "id": "6eWgZVLV479oQzl0fu-Od-res-1",
+          "type": "article",
+          "title": "PHP_CodeSniffer",
+          "url": "https://github.com/PHPCSStandards/PHP_CodeSniffer/"
+        },
+        {
+          "id": "6eWgZVLV479oQzl0fu-Od-res-2",
+          "type": "article",
+          "title": "PHP code quality tools",
+          "url": "https://www.jetbrains.com/help/phpstorm/php-code-quality-tools.html"
+        }
+      ]
+    },
+    "bgJ9-m6Fiu3VCc-NZlbpn": {
+      "id": "bgJ9-m6Fiu3VCc-NZlbpn",
+      "slug": "switch",
+      "title": "switch",
+      "description": "The switch statement is a special conditional statement in PHP that can simplify code and improve readability when you need to compare one value with multiple different possibilities. It is an alternative to using a chain of \"if...else\" conditions, and is particularly useful when you have many different cases to compare. The switch expression is evaluated only once, and its value is compared to each case. When a match is found, PHP executes the associated code block. Here's a basic switch statement: $fruit = \"apple\"; switch ($fruit) { case \"apple\": echo \"You chose apple.\"; break; case \"banana\": echo \"You chose banana.\"; break; default: echo \"Invalid choice.\"; } // Outputs: You chose apple. Switch statements can make your code cleaner and easier to manage, especially when dealing with multiple conditions.",
+      "resources": [
+        {
+          "id": "bgJ9-m6Fiu3VCc-NZlbpn-res-1",
+          "type": "article",
+          "title": "switch",
+          "url": "https://www.php.net/manual/en/control-structures.switch.php"
+        }
+      ]
+    },
+    "57VSMVePOr9qUD5x_LNdf": {
+      "id": "57VSMVePOr9qUD5x_LNdf",
+      "slug": "symfony",
+      "title": "Symfony",
+      "description": "Symfony is a set of PHP components and a framework for web projects. It aims to speed up the creation and maintenance of web applications and replace the recurring coding tasks. Symfony uses Composer, a PHP dependency manager, to manage its components. Below is an example of creating a new Symfony project: composer create-project symfony/website-skeleton myproject This will download and install a new Symfony project in the 'myproject' directory. Symfony's components are reusable PHP libraries that will help you complete tasks, like routing, templating, or even creating form handling.",
+      "resources": [
+        {
+          "id": "57VSMVePOr9qUD5x_LNdf-res-1",
+          "type": "article",
+          "title": "Symfony",
+          "url": "https://symfony.com/"
+        },
+        {
+          "id": "57VSMVePOr9qUD5x_LNdf-res-2",
+          "type": "article",
+          "title": "Symfony Documentation",
+          "url": "https://symfony.com/doc/current/index.html"
+        }
+      ]
+    },
+    "GR09ns9B-0cONQaQ_uj-7": {
+      "id": "GR09ns9B-0cONQaQ_uj-7",
+      "slug": "traits",
+      "title": "Traits",
+      "description": "Traits is a concept in PHP that allows code reusability by enabling developers to create reusable pieces of code which can be used in classes to extend functionality. They are a way to reduce intricacies of single inheritance by enabling a developer to reuse sets of methods freely in several independent classes. Here's an example how to use a Trait: trait Greeting { public function sayHello() { return \"Hello\"; } } class User { use Greeting; } $user = new User(); echo $user->sayHello(); // Outputs: Hello In the above code snippet, the `Greeting` trait is being used in the `User` class, and we are able to use its methods as if they were defined in the `User` class.",
+      "resources": [
+        {
+          "id": "GR09ns9B-0cONQaQ_uj-7-res-1",
+          "type": "article",
+          "title": "Traits",
+          "url": "https://www.php.net/manual/en/language.oop5.traits.php"
+        }
+      ]
+    },
+    "sPW-Ti2VyNYzxq6EYkbn7": {
+      "id": "sPW-Ti2VyNYzxq6EYkbn7",
+      "slug": "type-declarations",
+      "title": "Type Declarations",
+      "description": "Type declarations, also known as type hints, are a feature in PHP that provides you options to specify the type of variable that a function is expected to receive or the type of value that it should return. Not only does it help to debug code quickly, it also makes the code more readable. In PHP, type declarations can be for both parameters in a function (parameter type declarations) and return values from a function (return type declarations). They can apply to classes, interfaces, callable, and scalar types (int, float, string, bool). Here's an example: function add(int $a, int $b): int { return $a + $b; } echo add(1, 2);  // prints: 3 In this example, the function 'add' only accepts integers and also returns an integer.",
+      "resources": [
+        {
+          "id": "sPW-Ti2VyNYzxq6EYkbn7-res-1",
+          "type": "article",
+          "title": "Type Declarations",
+          "url": "https://www.php.net/manual/en/language.types.declarations.php"
+        }
+      ]
+    },
+    "D0BtyxyjIBcpfn5wP23WC": {
+      "id": "D0BtyxyjIBcpfn5wP23WC",
+      "slug": "variables-and-scope",
+      "title": "Variables and Scope",
+      "description": "Variables are a central part of PHP, allowing you to store data that can be used later in your scripts. Their values can be of various types including strings, integers, arrays, and objects. PHP has both local and global scope when it comes to variables. Local scope refers to variables that are only accessible within the function they are defined, while global scope means a variable is accessible to any part of the script. However, to use a global variable inside a function, you need to declare it as global. Here's a brief example: $x = 10; //global variable function test() { global $x; // accessing the global variable echo $x; } test(); //prints 10",
+      "resources": [
+        {
+          "id": "D0BtyxyjIBcpfn5wP23WC-res-1",
+          "type": "article",
+          "title": "Variables and Scope",
+          "url": "https://www.php.net/manual/en/language.variables.scope.php"
+        }
+      ]
+    },
+    "rtmytETfyyLdcXUC0QyzL": {
+      "id": "rtmytETfyyLdcXUC0QyzL",
+      "slug": "variadic-functions",
+      "title": "Variadic Functions",
+      "description": "Variadic functions in PHP are functions that can accept any number of arguments. This gives you greater flexibility, as it allows for an undetermined number of arguments. You can create a variadic function by adding '...' before the function argument. Any number of arguments you provide when calling the function are treated as an array, which can be processed using common array functions. A simple code example: function sum(...$numbers) { return array_sum($numbers); } echo sum(1, 2, 3, 4); This prints \"10\". The function accepts any number of arguments and adds them together.",
+      "resources": [
+        {
+          "id": "rtmytETfyyLdcXUC0QyzL-res-1",
+          "type": "article",
+          "title": "Variadic Functions",
+          "url": "https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list"
+        }
+      ]
+    },
+    "JCCeVC0hOrvIeyfg1ScKA": {
+      "id": "JCCeVC0hOrvIeyfg1ScKA",
+      "slug": "var_dump",
+      "title": "var_dump",
+      "description": "Var\\_dump is a built-in PHP function that's incredibly handy for debugging as it outputs the data type and value of a given variable. This includes array elements and object properties, if given such types. If you're wrangling with your PHP code and finding your variables aren't behaving as you expect, using var\\_dump can quickly show you what you're working with. Check out a simple usage example below: $myVar = array( \"Hello\", \"World!\"); var_dump($myVar); This will output the size of array and details of each element in the array.",
+      "resources": [
+        {
+          "id": "JCCeVC0hOrvIeyfg1ScKA-res-1",
+          "type": "article",
+          "title": "var_dump",
+          "url": "https://www.php.net/manual/en/function.var-dump.php"
+        }
+      ]
+    },
+    "36Y1HkHxhuxh2qVQB8NVE": {
+      "id": "36Y1HkHxhuxh2qVQB8NVE",
+      "slug": "wamp",
+      "title": "WAMP",
+      "description": "WAMP is a popular software stack used for developing PHP web applications on Windows systems. Acting as an abbreviation for Windows, Apache, MySQL, and PHP, WAMP provides all the components necessary to set up a local web server. Apache is used to handle HTTP requests, MySQL manages the databases, and PHP serves as the programming language. The benefit of using WAMP lies in its convenience as it pre-packages all these components, saving time for the developer. You can download WAMP from its official website, then after installation, testing of your PHP scripts can be done locally without needing an internet connection.",
+      "resources": [
+        {
+          "id": "36Y1HkHxhuxh2qVQB8NVE-res-1",
+          "type": "article",
+          "title": "Windows Installation",
+          "url": "https://www.php.net/manual/en/install.windows.manual.php"
+        }
+      ]
+    },
+    "_LhLDVZjLt1DoAP1NuUES": {
+      "id": "_LhLDVZjLt1DoAP1NuUES",
+      "slug": "what-is-php",
+      "title": "What is PHP?",
+      "description": "PHP, an acronym for Hypertext Preprocessor, is a popular server-side scripting language favored for web development. It's versatile, dynamic, and can be embedded seamlessly into HTML code. PHP scripts are executed on the server, and the result is sent back to the browser as plain HTML.",
+      "resources": [
+        {
+          "id": "_LhLDVZjLt1DoAP1NuUES-res-1",
+          "type": "article",
+          "title": "What is PHP?",
+          "url": "https://www.php.net/manual/en/introduction.php"
+        },
+        {
+          "id": "_LhLDVZjLt1DoAP1NuUES-res-2",
+          "type": "article",
+          "title": "Introduction to PHP",
+          "url": "https://www.phptutorial.net/php-tutorial/what-is-php/"
+        }
+      ]
+    },
+    "two4UycJaCfSp6jQqtTAb": {
+      "id": "two4UycJaCfSp6jQqtTAb",
+      "slug": "writing-files",
+      "title": "Writing Files",
+      "description": "Writing files plays a crucial part in PHP, allowing you to store data and modify it later. This process involves opening the file, writing the desired data, and then closing it. Writing can be done using different functions, but `fwrite()` is the most commonly used one. It requires two arguments the file pointer and the string of data to be written. Here's a brief snippet of code for instance: $file = 'data.txt'; $current = file_get_contents($file); $current .= \"New Data\\n\"; file_put_contents($file, $current); In this code, `file_get_contents()` is used to get the current data, then new data is appended, and `file_put_contents()` is used to write back to the file.",
+      "resources": [
+        {
+          "id": "two4UycJaCfSp6jQqtTAb-res-1",
+          "type": "article",
+          "title": "Writing Files",
+          "url": "https://www.php.net/manual/en/function.fwrite.php"
+        }
+      ]
+    },
+    "-wniKEBwbF0Fi1fHpF-Gc": {
+      "id": "-wniKEBwbF0Fi1fHpF-Gc",
+      "slug": "xampp",
+      "title": "XAMPP",
+      "description": "XAMPP is an open-source development environment that stands for Cross-Platform (X), Apache server (A), MariaDB (M), PHP (P), and Perl (P). If you're working with PHP, it's a handy tool because it creates a local web server for testing or development purposes. It's especially useful if you plan to use a database in your project, as it includes MariaDB. It integrates seamlessly with PHP, enabling you to manage your server, scripting language, and database from a unified platform with less hassle. A code sample isn't really applicable here as XAMPP is more about setup and management. For more information, you can visit the official PHP documentation: .",
+      "resources": [
+        {
+          "id": "-wniKEBwbF0Fi1fHpF-Gc-res-1",
+          "type": "article",
+          "title": "Installing Apache2",
+          "url": "https://www.php.net/manual/en/install.windows.apache2.php"
+        },
+        {
+          "id": "-wniKEBwbF0Fi1fHpF-Gc-res-2",
+          "type": "article",
+          "title": "XAMPP",
+          "url": "https://www.apachefriends.org/"
+        }
+      ]
+    },
+    "lFoHoMRywCWa056ii5cKQ": {
+      "id": "lFoHoMRywCWa056ii5cKQ",
+      "slug": "xdebug",
+      "title": "Xdebug",
+      "description": "Xdebug is a PHP extension that provides debugging and profiling capabilities. It's a powerful tool that can help you understand what your code is doing, track down bugs, and optimize performance. With Xdebug, you can set breakpoints, watch variables, and step through your code one line at a time. For instance, to start using Xdebug, you first need to install it and then initialize it in your code like so: <?php xdebug_start_trace(); // Your code here... xdebug_stop_trace(); ?> Xdebug can significantly speed up bug-tracking and testing, making it an essential tool in any PHP developer's toolkit.",
+      "resources": [
+        {
+          "id": "lFoHoMRywCWa056ii5cKQ-res-1",
+          "type": "article",
+          "title": "Xdebug",
+          "url": "https://xdebug.org/"
+        },
+        {
+          "id": "lFoHoMRywCWa056ii5cKQ-res-2",
+          "type": "article",
+          "title": "Xdebug Documentation",
+          "url": "https://xdebug.org/docs/"
+        }
+      ]
+    },
+    "ggkWo0DRSSDDkHpbiyUyf": {
+      "id": "ggkWo0DRSSDDkHpbiyUyf",
+      "slug": "xml-processing",
+      "title": "XML Processing",
+      "description": "XML processing in PHP allows manipulation and interpretation of XML documents. PHP's XML Parser extension helps to parse XML data from strings and files, providing event-driven processing capabilities. This is especially useful during large XML parsing. To process XML in PHP, you first create an XML parser, set functionality through handler functions for the start and end of elements, character data, etc., and then parse the XML data. The `xml_parser_create()`, `xml_set_element_handler()`, `xml_parse()`, and `xml_parser_free()` functions come into play here. Here's a brief snippet showing XML parsing in PHP: $parser = xml_parser_create(); xml_set_element_handler($parser, \"startElement\", \"endElement\"); xml_parse($parser, $xml_data); xml_parser_free($parser);",
+      "resources": [
+        {
+          "id": "ggkWo0DRSSDDkHpbiyUyf-res-1",
+          "type": "article",
+          "title": "XML Processing",
+          "url": "https://www.php.net/manual/en/book.xml.php"
+        }
+      ]
+    },
+    "DxqQrToZSayWplKdCkTgT": {
+      "id": "DxqQrToZSayWplKdCkTgT",
+      "slug": "xss-prevention",
+      "title": "XSS Prevention",
+      "description": "Cross Site Scripting, often known as XSS, is a glaring risk in web security, and PHP also must address it. It occurs when someone is able to insert dangerous code into your site, which can then be executed by users. To prevent XSS in PHP, developers should deploy `htmlspecialchars()` function to escape potentially harmful characters. This function converts special characters to their HTML entities, reducing risk. For instance, '<' becomes '<'. Sample PHP code to implement this: $secure_text = htmlspecialchars($raw_text, ENT_QUOTES, 'UTF-8'); In this code, `$raw_text` contains user input that might be risky. By using `htmlspecialchars()`, `$secure_text` will now hold a sanitized version of the user input.",
+      "resources": [
+        {
+          "id": "DxqQrToZSayWplKdCkTgT-res-1",
+          "type": "article",
+          "title": "Special Charsets",
+          "url": "https://www.php.net/manual/en/function.htmlspecialchars.php"
+        }
+      ]
+    },
+    "KpQb5Zh3GUcbYUyXHvyu2": {
+      "id": "KpQb5Zh3GUcbYUyXHvyu2",
+      "slug": "zend-debugger",
+      "title": "Zend Debugger",
+      "description": "Zend Debugger is a PHP debugging extension used to identify issues in PHP scripts. It allows you to monitor and fix issues in your code, such as logical errors, and helps in boosting your web application's overall performance. Essentially, it becomes a simple yet powerful method for debugging server-side PHP scripts, by providing detailed debugging data and facilitating real-time interaction with the scripts. Using Zend Debugger with PHP can drastically improve the quality of your codebase and save considerable time in the development phase. A short usage example of Zend Debugger can be setting up a debug session, using the function `zend_debugger_connector_address()` which returns the IP address of the debugger currently in use.",
+      "resources": [
+        {
+          "id": "KpQb5Zh3GUcbYUyXHvyu2-res-1",
+          "type": "article",
+          "title": "Zend Debugger",
+          "url": "https://www.zend.com/topics/Debugger-API"
+        }
+      ]
+    },
+    "GFYGFVfxkOoPI5mI4zSt1": {
+      "id": "GFYGFVfxkOoPI5mI4zSt1",
+      "slug": "_get",
+      "title": "$_GET",
+      "description": "$\\_GET is a pre-defined array in PHP, that's used to collect form-data sent through HTTP GET method. It's useful whenever you need to process or interact with data that has been passed in via a URL's query string. For an example if you have a form with a GET method, you can get the values of the form elements through this global $\\_GET array. Here’s an example: <form method=\"get\" action=\"test.php\"> Name: <input type=\"text\" name=\"fname\"> <input type=\"submit\"> </form> Using $\\_GET in `test.php`, you can fetch the 'fname' value from the URL: echo \"Name is: \" . $_GET['fname'];",
+      "resources": [
+        {
+          "id": "GFYGFVfxkOoPI5mI4zSt1-res-1",
+          "type": "article",
+          "title": "$_GET",
+          "url": "https://www.php.net/manual/en/reserved.variables.get.php"
+        }
+      ]
+    },
+    "qNG-a4iIO-puZsMwAMzYC": {
+      "id": "qNG-a4iIO-puZsMwAMzYC",
+      "slug": "_post",
+      "title": "$_POST",
+      "description": "`$_POST` is a superglobal variable in PHP that's used to collect form data submitted via HTTP POST method. Your PHP script can access this data through `$_POST`. Let's say you have a simple HTML form on your webpage. When the user submits this form, the entered data can be fetched using `$_POST`. Here's a brief example: <?php if ($_SERVER[\"REQUEST_METHOD\"] == \"POST\") { $name = $_POST[\"name\"]; } ?> In this code, `$_POST[\"name\"]` fetches the value entered in the 'name' field of the form. Always be cautious when using `$_POST` as it may contain user input which is a common source of vulnerabilities. Always validate and sanitize data from `$_POST` before using it.",
+      "resources": [
+        {
+          "id": "qNG-a4iIO-puZsMwAMzYC-res-1",
+          "type": "article",
+          "title": "$_POST",
+          "url": "https://www.php.net/manual/en/reserved.variables.post.php"
+        }
+      ]
+    },
+    "A6rfW4uJhyfAX2b18_EEC": {
+      "id": "A6rfW4uJhyfAX2b18_EEC",
+      "slug": "_request",
+      "title": "$_REQUEST",
+      "description": "$\\_REQUEST is a PHP superglobal variable that contains the contents of both $\\_GET, $\\_POST, and $\\_COOKIE. It is used to collect data sent via both the GET and POST methods, as well as cookies. $\\_REQUEST is useful if you do not care about the method used to send data, but its usage is generally discouraged as it could lead to security vulnerabilities. Here's a simple example: $name = $_REQUEST['name']; This statement will store the value of the 'name' field sent through either a GET or POST method. Always remember to sanitize user input to avoid security problems.",
+      "resources": [
+        {
+          "id": "A6rfW4uJhyfAX2b18_EEC-res-1",
+          "type": "article",
+          "title": "$_REQUEST",
+          "url": "https://www.php.net/manual/en/reserved.variables.request.php"
+        }
+      ]
+    },
+    "7Ja2at_N9tRTlvSGahrqn": {
+      "id": "7Ja2at_N9tRTlvSGahrqn",
+      "slug": "_server",
+      "title": "$_SERVER",
+      "description": "The `$_SERVER` is a superglobal in PHP, holding information about headers, paths, and script locations. $\\_SERVER is an associative array containing server variables created by the web server. This can include specific environmental configurations, the server signature, your PHP script's paths and details, client data, and the active request/response sequence. Among its many uses, `$_SERVER['REMOTE_ADDR']` can help get the visitor's IP while `$_SERVER['HTTP_USER_AGENT']` offers information about their browser. Don't forget to sanitize the content before use to prevent security exploits. Here's an easy code sample that prints the client's IP: echo 'Your IP is: ' . $_SERVER['REMOTE_ADDR'];",
+      "resources": [
+        {
+          "id": "7Ja2at_N9tRTlvSGahrqn-res-1",
+          "type": "article",
+          "title": "$_SERVER",
+          "url": "https://www.php.net/reserved.variables.server"
+        }
+      ]
+    }
+  }
+}

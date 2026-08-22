@@ -15,6 +15,7 @@ import JobMatcherModal from "../components/JobMatcherModal";
 import NavProfile from "../components/NavProfile";
 import WellbeingEmbed from "../components/WellbeingEmbed";
 import CompanyMarquee from "../components/CompanyMarquee";
+import DevRoadmapButton from "../components/roadmap/DevRoadmapButton";
 
 export default function LandingPage() {
   const [isJobMatcherOpen, setJobMatcherOpen] = useState(false);
@@ -31,6 +32,13 @@ export default function LandingPage() {
           <span className="font-semibold text-lg tracking-tight">flowCTRL</span>
         </div>
         <div className="hidden md:flex items-center gap-8 text-sm font-medium text-zinc-400">
+          <Link
+            href="/roadmaps"
+            className="hover:text-amber-300 transition-colors flex items-center gap-1.5 text-zinc-200"
+          >
+            <Compass className="w-4 h-4 text-orange-400" />
+            Roadmaps
+          </Link>
           <Link href="#features" className="hover:text-white transition-colors">
             Features
           </Link>
@@ -65,9 +73,9 @@ export default function LandingPage() {
       <section className="relative pt-32 pb-20 px-6 max-w-7xl mx-auto flex flex-col items-center text-center">
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[600px] bg-primary/20 rounded-full blur-[120px] opacity-50 pointer-events-none" />
 
-        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-sm font-medium mb-8 glass">
+        <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-sm font-medium mb-8 glass">
           <span className="flex h-2 w-2 rounded-full bg-primary animate-pulse"></span>
-          flowCTRL 2.0 is now live
+          flowCTRL 2.0 is now live with 90+ Dev Roadmaps
         </div>
 
         <h1 className="text-5xl md:text-7xl font-bold tracking-tighter mb-6 max-w-4xl leading-[1.1]">
@@ -79,20 +87,22 @@ export default function LandingPage() {
 
         <p className="text-lg md:text-xl text-zinc-400 max-w-2xl mb-10 leading-relaxed">
           The first Career Operating System designed to help you identify your
-          skill gaps, generate a personalized learning roadmap, and
-          systematically land your dream job.
+          skill gaps, explore interactive learning roadmaps, and systematically
+          land your dream engineering role.
         </p>
 
+        {/* Hero CTA Button Cluster */}
         <div className="flex flex-col sm:flex-row items-center gap-4">
+          <DevRoadmapButton size="md" variant="glow" />
           <Link
             href="/signup"
-            className="flex items-center gap-2 bg-white text-black px-6 py-3 rounded-full font-medium hover:bg-zinc-200 transition-all"
+            className="flex items-center gap-2 bg-white text-black px-6 py-3 rounded-full font-medium hover:bg-zinc-200 transition-all text-sm"
           >
             Start your journey <ArrowRight className="w-4 h-4" />
           </Link>
           <Link
             href="/resume-screener"
-            className="flex items-center gap-2 px-6 py-3 rounded-full font-medium text-zinc-300 hover:text-white hover:bg-white/5 transition-all"
+            className="flex items-center gap-2 px-6 py-3 rounded-full font-medium text-zinc-300 hover:text-white hover:bg-white/5 transition-all text-sm"
           >
             Resume Screener
           </Link>
@@ -149,17 +159,30 @@ export default function LandingPage() {
               </p>
             </div>
 
-            {/* Feature 2 */}
-            <div className="p-6 rounded-2xl glass-card hover:bg-card/70 transition-colors group">
+            {/* Feature 2: Interactive Dev Roadmaps */}
+            <Link
+              href="/roadmaps"
+              className="p-6 rounded-2xl glass-card hover:bg-card/70 border border-orange-500/20 hover:border-orange-500/40 transition-all group relative overflow-hidden"
+            >
               <div className="w-12 h-12 rounded-xl bg-amber-500/20 flex items-center justify-center text-amber-400 mb-6 group-hover:scale-110 transition-transform shadow-inner border border-amber-500/20">
                 <Compass className="w-6 h-6" />
               </div>
-              <h3 className="text-xl font-semibold mb-2">Roadmap Generator</h3>
-              <p className="text-zinc-400 leading-relaxed text-sm">
-                Turn your skill gaps into a structured, daily learning plan with
-                milestones and projects.
+              <div className="flex items-center gap-2 mb-2">
+                <h3 className="text-xl font-semibold text-white group-hover:text-amber-300">
+                  90+ Dev Roadmaps
+                </h3>
+                <span className="px-2 py-0.5 rounded-full text-[10px] font-bold bg-orange-500/20 text-orange-400 border border-orange-500/30">
+                  New
+                </span>
+              </div>
+              <p className="text-zinc-400 leading-relaxed text-sm mb-4">
+                Interactive learning graphs with curated articles, videos, and
+                progress tracking across Frontend, AI, Backend, and DevOps.
               </p>
-            </div>
+              <span className="text-xs font-semibold text-orange-400 flex items-center gap-1 group-hover:translate-x-1 transition-transform">
+                Explore roadmaps <ArrowRight className="w-3.5 h-3.5" />
+              </span>
+            </Link>
 
             {/* Feature 3 */}
             <div className="p-6 rounded-2xl glass-card hover:bg-card/70 transition-colors group">
@@ -209,7 +232,7 @@ export default function LandingPage() {
               </p>
               <button
                 onClick={() => setJobMatcherOpen(true)}
-                className="mt-4 px-4 py-2 bg-primary text-white rounded-md hover:bg-primary/90"
+                className="mt-4 px-4 py-2 bg-primary text-white rounded-md hover:bg-primary/90 cursor-pointer text-xs font-semibold"
               >
                 Find Jobs
               </button>
@@ -234,12 +257,15 @@ export default function LandingPage() {
             Join thousands of ambitious individuals building their careers
             systematically with flowCTRL.
           </p>
-          <Link
-            href="/signup"
-            className="inline-flex items-center gap-2 bg-white text-black px-8 py-4 rounded-full font-semibold hover:scale-105 transition-transform"
-          >
-            Create your free account
-          </Link>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <Link
+              href="/signup"
+              className="inline-flex items-center gap-2 bg-white text-black px-8 py-4 rounded-full font-semibold hover:scale-105 transition-transform"
+            >
+              Create your free account
+            </Link>
+            <DevRoadmapButton variant="glow" size="lg" />
+          </div>
 
           <div className="mt-8 flex items-center justify-center gap-6 text-sm text-zinc-500">
             <span className="flex items-center gap-2">
@@ -272,22 +298,31 @@ export default function LandingPage() {
             <h4 className="font-semibold mb-4">Product</h4>
             <ul className="space-y-2 text-sm text-zinc-500">
               <li>
+                <Link
+                  href="/roadmaps"
+                  className="hover:text-white transition-colors"
+                >
+                  Interactive Dev Roadmaps
+                </Link>
+              </li>
+              <li>
                 <Link href="#" className="hover:text-white transition-colors">
                   Skill Gap Analyzer
                 </Link>
               </li>
               <li>
-                <Link href="#" className="hover:text-white transition-colors">
-                  Roadmap Generator
+                <Link
+                  href="/resume-screener"
+                  className="hover:text-white transition-colors"
+                >
+                  Resume Screener
                 </Link>
               </li>
               <li>
-                <Link href="#" className="hover:text-white transition-colors">
-                  Portfolio Builder
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="hover:text-white transition-colors">
+                <Link
+                  href="#pricing"
+                  className="hover:text-white transition-colors"
+                >
                   Pricing
                 </Link>
               </li>

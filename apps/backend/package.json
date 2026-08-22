@@ -8,7 +8,7 @@
     "build": "tsc",
     "start": "node dist/index.js",
     "lint": "tsc --noEmit",
-    "test": "node --test dist/health.test.js",
+    "test": "node --test dist/health.test.js dist/routes/roadmaps.test.js",
     "test:integration": "node -e \"console.log('Backend integration tests passed')\""
   },
   "devDependencies": {
@@ -23,6 +23,8 @@
     "typescript": "^5.4.5"
   },
   "dependencies": {
+    "@flowctrl/roadmap-data": "*",
+    "@flowctrl/types": "*",
     "@opentelemetry/exporter-jaeger": "^2.10.0",
     "@opentelemetry/exporter-prometheus": "^0.221.0",
     "@opentelemetry/instrumentation": "^0.221.0",
@@ -33,6 +35,9 @@
     "@opentelemetry/sdk-trace-base": "^2.10.0",
     "@opentelemetry/semantic-conventions": "^1.43.0",
     "@types/helmet": "^0.0.48",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
     "helmet": "^8.3.0",
     "morgan": "^1.11.0",
     "next-auth": "^4.24.15"

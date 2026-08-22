@@ -1,0 +1,4289 @@
+{
+  "slug": "openclaw",
+  "title": "Openclaw",
+  "description": "Comprehensive learning curriculum and mastery roadmap for openclaw.",
+  "category": "skill",
+  "level": "Intermediate",
+  "topicCount": 118,
+  "iconName": "Compass",
+  "nodes": [
+    {
+      "id": "node-wGp4nsoZNTbM4wgAmrqjj",
+      "label": "Adding Daemon",
+      "topicId": "wGp4nsoZNTbM4wgAmrqjj",
+      "level": 1,
+      "position": {
+        "x": 80,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-MbZFK1Q6ndoaDMsrf15Xi",
+      "label": "Adding First Channel",
+      "topicId": "MbZFK1Q6ndoaDMsrf15Xi",
+      "level": 1,
+      "position": {
+        "x": 340,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-oaXblhElJYZoLT4OS-7TQ",
+      "label": "Agent Loop",
+      "topicId": "oaXblhElJYZoLT4OS-7TQ",
+      "level": 1,
+      "position": {
+        "x": 600,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-i5pSML-UG6dqXETubMEs6",
+      "label": "Agents",
+      "topicId": "i5pSML-UG6dqXETubMEs6",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-4CT2VNLkpdqeartj2z0lt",
+      "label": "AGENTS.md",
+      "topicId": "4CT2VNLkpdqeartj2z0lt",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-v4nwaFwHjh2UQ8rsBiTOo",
+      "label": "/allowlist",
+      "topicId": "v4nwaFwHjh2UQ8rsBiTOo",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-3bSTQ3nt5GdvKOder9J5R",
+      "label": "Anthropic",
+      "topicId": "3bSTQ3nt5GdvKOder9J5R",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-3bSTQ3nt5GdvKOder9J5R",
+      "label": "Anthropic",
+      "topicId": "3bSTQ3nt5GdvKOder9J5R",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-B4SyJwbv0HnI34BW81Ong",
+      "label": "Auth & Model Providers",
+      "topicId": "B4SyJwbv0HnI34BW81Ong",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-uX7uZBFzUyVJ4aKjyjBHq",
+      "label": "Automating Tasks",
+      "topicId": "uX7uZBFzUyVJ4aKjyjBHq",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-f8WQ8qOiCFpW3sTJbIc2D",
+      "label": "openclaw backup create",
+      "topicId": "f8WQ8qOiCFpW3sTJbIc2D",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-ODqMzOAN1je004chwATTl",
+      "label": "Bind the Gateway to Localhost",
+      "topicId": "ODqMzOAN1je004chwATTl",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-7pTIsu7dh8ue2Aju270Ec",
+      "label": "openclaw channels add --channel",
+      "topicId": "7pTIsu7dh8ue2Aju270Ec",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-bmvpZKVx3YgUBEC3WfrWA",
+      "label": "openclaw channels list",
+      "topicId": "bmvpZKVx3YgUBEC3WfrWA",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-GUlO2ZchQ4EFcvDWpVQVV",
+      "label": "openclaw channels login",
+      "topicId": "GUlO2ZchQ4EFcvDWpVQVV",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-BczmS7SR1jk9FJqlQmqVb",
+      "label": "openclaw channels remove --channel",
+      "topicId": "BczmS7SR1jk9FJqlQmqVb",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-rjTLUR9vhsyqmHV4xRPyv",
+      "label": "openclaw channels status --probe",
+      "topicId": "rjTLUR9vhsyqmHV4xRPyv",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 880
+      }
+    },
+    {
+      "id": "node--K12VwV2QQiQNjjjr-ENW",
+      "label": "Channels",
+      "topicId": "-K12VwV2QQiQNjjjr-ENW",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-nNM3q26rXk3_HoxyOYxcV",
+      "label": "/compact",
+      "topicId": "nNM3q26rXk3_HoxyOYxcV",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-T8qUFenL-CKPWnwOEe8lS",
+      "label": "/config",
+      "topicId": "T8qUFenL-CKPWnwOEe8lS",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-7bgIwJ5S-b6DXdLe-pWlI",
+      "label": "Context Window",
+      "topicId": "7bgIwJ5S-b6DXdLe-pWlI",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-kotkvs1mJRlHaEZA5NyDp",
+      "label": "/context",
+      "topicId": "kotkvs1mJRlHaEZA5NyDp",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-l4jRfrWA0ATEsywdoZQyv",
+      "label": "Creating Plugins",
+      "topicId": "l4jRfrWA0ATEsywdoZQyv",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-xRDXMh4n8LghBX5TH0LIu",
+      "label": "Creating Skills",
+      "topicId": "xRDXMh4n8LghBX5TH0LIu",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-lHePFHLUR1BKK9mC0HWLU",
+      "label": "openclaw cron add",
+      "topicId": "lHePFHLUR1BKK9mC0HWLU",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-3v3VJETUQ1x1eKWUo8jhf",
+      "label": "Cron Jobs",
+      "topicId": "3v3VJETUQ1x1eKWUo8jhf",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-0NpspxLPvMqvmeIq8hdd1",
+      "label": "openclaw cron list",
+      "topicId": "0NpspxLPvMqvmeIq8hdd1",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-y8n10TL6_mWldqclw1Dcz",
+      "label": "Dedicated Hardware",
+      "topicId": "y8n10TL6_mWldqclw1Dcz",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-OPHuAD0L-GZ6zRhIhbmPL",
+      "label": "Deploy on an Isolated VPS, VM, or Dedicated Device",
+      "topicId": "OPHuAD0L-GZ6zRhIhbmPL",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-OPHuAD0L-GZ6zRhIhbmPL",
+      "label": "Deploy on an Isolated VPS, VM, or Dedicated Device",
+      "topicId": "OPHuAD0L-GZ6zRhIhbmPL",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-ghi0M5P_JMm7D_JhIwJXC",
+      "label": "Discord",
+      "topicId": "ghi0M5P_JMm7D_JhIwJXC",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-nVzj2P826S2LjUCpdYGVo",
+      "label": "Docker / Isolated Install",
+      "topicId": "nVzj2P826S2LjUCpdYGVo",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-qAL663Fl50skXD_zd1I7c",
+      "label": "openclaw doctor --deep",
+      "topicId": "qAL663Fl50skXD_zd1I7c",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-Phj_imdYA3Fr4HTcfyidD",
+      "label": "openclaw doctor",
+      "topicId": "Phj_imdYA3Fr4HTcfyidD",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-qlMuVy6jwwsrSvS-xE9NT",
+      "label": "Enable Device Pairing and Maintain a Minimal Sender Allowlist",
+      "topicId": "qlMuVy6jwwsrSvS-xE9NT",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-HnF_CCNL3pssicFlGNta3",
+      "label": "Event Types",
+      "topicId": "HnF_CCNL3pssicFlGNta3",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-RZ2afehxi2PlKAFp9WY_3",
+      "label": "/fast",
+      "topicId": "RZ2afehxi2PlKAFp9WY_3",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-nU3pnqImGhRO3QwK4CLeM",
+      "label": "Gateway Settings",
+      "topicId": "nU3pnqImGhRO3QwK4CLeM",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-ZCY_hUhVIMLPoXnRXVpkN",
+      "label": "openclaw gateway start | stop | restart",
+      "topicId": "ZCY_hUhVIMLPoXnRXVpkN",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-bH9ebjEofXA3mwnmqRzW1",
+      "label": "openclaw gateway",
+      "topicId": "bH9ebjEofXA3mwnmqRzW1",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-w8Vwf1Ak_gNdvgXOgU1Fo",
+      "label": "Gateway",
+      "topicId": "w8Vwf1Ak_gNdvgXOgU1Fo",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-Le0uptRoIlwTZ7crU3rMQ",
+      "label": "Gemini",
+      "topicId": "Le0uptRoIlwTZ7crU3rMQ",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-eXo_Wxhg-i7v6lx12NqAu",
+      "label": "HEARTBEAT.md",
+      "topicId": "eXo_Wxhg-i7v6lx12NqAu",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-XCpfUKOalyeNAx6Z5DPVG",
+      "label": "Heartbeats",
+      "topicId": "XCpfUKOalyeNAx6Z5DPVG",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-jQwU2VQFmjyWQHn5PpViF",
+      "label": "/help",
+      "topicId": "jQwU2VQFmjyWQHn5PpViF",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-yxty1gRUtcy-GoPFV4ybO",
+      "label": "Hook Structure",
+      "topicId": "yxty1gRUtcy-GoPFV4ybO",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-KJ_Y5N8D-FWZIz52ajcO8",
+      "label": "Hooks",
+      "topicId": "KJ_Y5N8D-FWZIz52ajcO8",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-EggP8_uXPbgQeNKQFP4JJ",
+      "label": "How OpenClaw Works",
+      "topicId": "EggP8_uXPbgQeNKQFP4JJ",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-EggP8_uXPbgQeNKQFP4JJ",
+      "label": "How OpenClaw Works",
+      "topicId": "EggP8_uXPbgQeNKQFP4JJ",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-ouy9TRfFrXcsTKh_E2qjq",
+      "label": "iMessage",
+      "topicId": "ouy9TRfFrXcsTKh_E2qjq",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-2JiT8CS9PSVSfIeao29hq",
+      "label": "Installation",
+      "topicId": "2JiT8CS9PSVSfIeao29hq",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-rEUJIhqOUyLORy6cnlAAj",
+      "label": "Installing from ClawHub",
+      "topicId": "rEUJIhqOUyLORy6cnlAAj",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-reIkqx-GGIq31cv2cHXbZ",
+      "label": "Installing Plugins",
+      "topicId": "reIkqx-GGIq31cv2cHXbZ",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-D8VJRcsVLzwCLSZX5TkoR",
+      "label": "Interval & Active Hours",
+      "topicId": "D8VJRcsVLzwCLSZX5TkoR",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-6VS0lRVk60w49FvRiCRWK",
+      "label": "Introduction",
+      "topicId": "6VS0lRVk60w49FvRiCRWK",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-02A7y4sZ-qg3-dx1wmxwj",
+      "label": "Local Machine",
+      "topicId": "02A7y4sZ-qg3-dx1wmxwj",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-oEAIlEf0PqO8TWl-w2NUC",
+      "label": "Mac Mini",
+      "topicId": "oEAIlEf0PqO8TWl-w2NUC",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-aezBZ3XK1cXgMn1QTvBMs",
+      "label": "Managing & Disabling Jobs",
+      "topicId": "aezBZ3XK1cXgMn1QTvBMs",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-kPrB8vWCQkXdiEm42TVel",
+      "label": "/mcp",
+      "topicId": "kPrB8vWCQkXdiEm42TVel",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-vFjddVdOJvkTDptambYt0",
+      "label": "MCP",
+      "topicId": "vFjddVdOJvkTDptambYt0",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-Bz_gfPslArn4PH1clLiWl",
+      "label": "openclaw memory index",
+      "topicId": "Bz_gfPslArn4PH1clLiWl",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-eEXTZXgd2F51OAQQ6jELC",
+      "label": "openclaw memory search \"query\"",
+      "topicId": "eEXTZXgd2F51OAQQ6jELC",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-c9fsU9OeThY79MYbpzbA0",
+      "label": "Memory System",
+      "topicId": "c9fsU9OeThY79MYbpzbA0",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-HebyE2mjSdCLBEbiJAbsC",
+      "label": "MEMORY.md",
+      "topicId": "HebyE2mjSdCLBEbiJAbsC",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-U1W-s3E2Iu74sFyf4U-vQ",
+      "label": "memory/YYYY-MM-DD.md",
+      "topicId": "U1W-s3E2Iu74sFyf4U-vQ",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node--sFXMyN-4VvXdJCaU8qiK",
+      "label": "/model",
+      "topicId": "-sFXMyN-4VvXdJCaU8qiK",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-ce3e7IMiN-n3wX9PvJXoW",
+      "label": "openclaw models auth add",
+      "topicId": "ce3e7IMiN-n3wX9PvJXoW",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-OJb7PnYnN2RW4fqLV-vnl",
+      "label": "openclaw models auth setup-token",
+      "topicId": "OJb7PnYnN2RW4fqLV-vnl",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-YS-u4nfgmr9pOq_NLrdCA",
+      "label": "openclaw models list | set | status",
+      "topicId": "YS-u4nfgmr9pOq_NLrdCA",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-fSHA8tY7RmDbD8zn3DDhu",
+      "label": "Multi-Agents",
+      "topicId": "fSHA8tY7RmDbD8zn3DDhu",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-naqlnPdoywxf16KaHtNyw",
+      "label": "Never Hardcode API Keys",
+      "topicId": "naqlnPdoywxf16KaHtNyw",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-lISj5JCtAnk4qjoCiG0gD",
+      "label": "Never Trust External Content to Prevent Prompt Injection",
+      "topicId": "lISj5JCtAnk4qjoCiG0gD",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-5ah4uCTo83YTFtn3kkH-l",
+      "label": "/new",
+      "topicId": "5ah4uCTo83YTFtn3kkH-l",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-2qAGs1j1MDaoQFCDpF37Z",
+      "label": "Ollama",
+      "topicId": "2qAGs1j1MDaoQFCDpF37Z",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-WblCEWQzvYDzVdn3XEIa8",
+      "label": "openclaw onboard",
+      "topicId": "WblCEWQzvYDzVdn3XEIa8",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-sI6wvGO8kZN8M_RIjQ7FN",
+      "label": "Onboarding",
+      "topicId": "sI6wvGO8kZN8M_RIjQ7FN",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-vLQ7hJJS3yXgbi0b-RAlb",
+      "label": "OpenAI",
+      "topicId": "vLQ7hJJS3yXgbi0b-RAlb",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-4u53an-SHGNCAh87GTd7C",
+      "label": "OpenClaw vs Claude Code",
+      "topicId": "4u53an-SHGNCAh87GTd7C",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-7Nvwyi3YFerTpDKkA0Uzo",
+      "label": "Other Workspace Files",
+      "topicId": "7Nvwyi3YFerTpDKkA0Uzo",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-HgvUjBAWLLmT_QBYeSyli",
+      "label": "VPS & Cloud Providers",
+      "topicId": "HgvUjBAWLLmT_QBYeSyli",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-MeNsZrMsNU_xZR9hmLkQz",
+      "label": "/plugins",
+      "topicId": "MeNsZrMsNU_xZR9hmLkQz",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-QbcsFFPpZt7k_R_70jLxe",
+      "label": "Plugins",
+      "topicId": "QbcsFFPpZt7k_R_70jLxe",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-qzVRzcGnImdqVDw0W-Z7H",
+      "label": "Proactive Core",
+      "topicId": "qzVRzcGnImdqVDw0W-Z7H",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-CE3p60gkIzzHBh69kKiIw",
+      "label": "Raspberry Pi",
+      "topicId": "CE3p60gkIzzHBh69kKiIw",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-CE3p60gkIzzHBh69kKiIw",
+      "label": "Raspberry Pi",
+      "topicId": "CE3p60gkIzzHBh69kKiIw",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-M6sqVDIh4d4lYNefJqKX5",
+      "label": "/reasoning",
+      "topicId": "M6sqVDIh4d4lYNefJqKX5",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-BJ3iFyZjmakxbeh4IsXkw",
+      "label": "/reset",
+      "topicId": "BJ3iFyZjmakxbeh4IsXkw",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-V15_eZ8CpPDvjbcF9NWU0",
+      "label": "Rotate All Credentials Immediately if a Breach is Suspected",
+      "topicId": "V15_eZ8CpPDvjbcF9NWU0",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-_tmV2qJyrkBBZdCL_xWh1",
+      "label": "Routing Rules",
+      "topicId": "_tmV2qJyrkBBZdCL_xWh1",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-CJV5OV_Whoz4_7L8yhDG1",
+      "label": "Run OpenClaw as a Non-Root User",
+      "topicId": "CJV5OV_Whoz4_7L8yhDG1",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-gNSp_eg81GgVvR5g-XJr-",
+      "label": "Run openclaw security audit --deep After Every Config Change",
+      "topicId": "gNSp_eg81GgVvR5g-XJr-",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-abWTw0gTCO4R3VygeDqsL",
+      "label": "Securing Webhooks",
+      "topicId": "abWTw0gTCO4R3VygeDqsL",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-zqeuYyqd5pMPQLFfPnskC",
+      "label": "openclaw security audit",
+      "topicId": "zqeuYyqd5pMPQLFfPnskC",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-qDidhG0fztZ38BSMv76YI",
+      "label": "Security Best Practices",
+      "topicId": "qDidhG0fztZ38BSMv76YI",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5040
+      }
+    },
+    {
+      "id": "node-y29FvjAzA1KhzlC49XPfh",
+      "label": "Security Best Practices",
+      "topicId": "y29FvjAzA1KhzlC49XPfh",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5040
+      }
+    },
+    {
+      "id": "node-9wAYWJQBiWy_RF2AfQsqn",
+      "label": "Security Risks (Skills)",
+      "topicId": "9wAYWJQBiWy_RF2AfQsqn",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5040
+      }
+    },
+    {
+      "id": "node-gN2oNDE7FXPyBh_5ZOu_Z",
+      "label": "Security Risks (Plugins)",
+      "topicId": "gN2oNDE7FXPyBh_5ZOu_Z",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5200
+      }
+    },
+    {
+      "id": "node-4XsdBdveBxrTIg3WdzzOO",
+      "label": "Sessions",
+      "topicId": "4XsdBdveBxrTIg3WdzzOO",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5200
+      }
+    },
+    {
+      "id": "node-O9W3d1q1yJmfRJHnfognN",
+      "label": "Set a Strong Gateway Auth Token",
+      "topicId": "O9W3d1q1yJmfRJHnfognN",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5200
+      }
+    },
+    {
+      "id": "node-u9hCwPYZucGkb_zChmpzj",
+      "label": "Setting up Open Claw",
+      "topicId": "u9hCwPYZucGkb_zChmpzj",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5360
+      }
+    },
+    {
+      "id": "node-0a08Q6vTfqbG94tcJYxN2",
+      "label": "Signal",
+      "topicId": "0a08Q6vTfqbG94tcJYxN2",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5360
+      }
+    },
+    {
+      "id": "node-7_QUsiC57I4xcaySZYAoc",
+      "label": "Skills",
+      "topicId": "7_QUsiC57I4xcaySZYAoc",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5360
+      }
+    },
+    {
+      "id": "node-H4EXzyftWkvdFlMfU7ydG",
+      "label": "Skills",
+      "topicId": "H4EXzyftWkvdFlMfU7ydG",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5520
+      }
+    },
+    {
+      "id": "node-4XYMS1wQa3ZwWCQNBnwpd",
+      "label": "Slack",
+      "topicId": "4XYMS1wQa3ZwWCQNBnwpd",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5520
+      }
+    },
+    {
+      "id": "node-M1zIUsUO6qKhIXzxE9sho",
+      "label": "SOUL.md",
+      "topicId": "M1zIUsUO6qKhIXzxE9sho",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5520
+      }
+    },
+    {
+      "id": "node-dL_II2-0sUvm8UyFgQLfC",
+      "label": "Start in Read-Only Mode and Widen Permissions Deliberately",
+      "topicId": "dL_II2-0sUvm8UyFgQLfC",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5680
+      }
+    },
+    {
+      "id": "node-D79q0eP_HbXBGWgDB6XgW",
+      "label": "/status",
+      "topicId": "D79q0eP_HbXBGWgDB6XgW",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5680
+      }
+    },
+    {
+      "id": "node-jhDkMmSD6bMZoTNOjZUnr",
+      "label": "/stop",
+      "topicId": "jhDkMmSD6bMZoTNOjZUnr",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5680
+      }
+    },
+    {
+      "id": "node-gFGGZE4AUBm8PxKHrF8_g",
+      "label": "Telegram",
+      "topicId": "gFGGZE4AUBm8PxKHrF8_g",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5840
+      }
+    },
+    {
+      "id": "node-xBl2Xgvbi6f_zwl4uPJhu",
+      "label": "/think",
+      "topicId": "xBl2Xgvbi6f_zwl4uPJhu",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5840
+      }
+    },
+    {
+      "id": "node-ieHfFGH1RbnxZdVgCfxge",
+      "label": "Update OpenClaw Regularly",
+      "topicId": "ieHfFGH1RbnxZdVgCfxge",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5840
+      }
+    },
+    {
+      "id": "node-WeEz693z_j7kIL39uFyHF",
+      "label": "Usage Best Practices",
+      "topicId": "WeEz693z_j7kIL39uFyHF",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 6000
+      }
+    },
+    {
+      "id": "node-1qsX8SiXVlpVrOXZE-5mg",
+      "label": "/usage",
+      "topicId": "1qsX8SiXVlpVrOXZE-5mg",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 6000
+      }
+    },
+    {
+      "id": "node-EzEJOUOwLlVfA4q5NXC88",
+      "label": "Use Cases",
+      "topicId": "EzEJOUOwLlVfA4q5NXC88",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 6000
+      }
+    },
+    {
+      "id": "node-S7qSTFNATTfamM6XMnm-O",
+      "label": "USER.md",
+      "topicId": "S7qSTFNATTfamM6XMnm-O",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 6160
+      }
+    },
+    {
+      "id": "node-bnyEeJVvaysPBkIevTCBa",
+      "label": "VPS/Cloud",
+      "topicId": "bnyEeJVvaysPBkIevTCBa",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 6160
+      }
+    },
+    {
+      "id": "node-F0jyMHHjeAbftNw2BjrUi",
+      "label": "Webhooks",
+      "topicId": "F0jyMHHjeAbftNw2BjrUi",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 6160
+      }
+    },
+    {
+      "id": "node-y6qWd-k0SiMhLFexkyQb5",
+      "label": "WhatsApp",
+      "topicId": "y6qWd-k0SiMhLFexkyQb5",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 6320
+      }
+    },
+    {
+      "id": "node-htT_HpzKKNXSbxhWf4dCJ",
+      "label": "Limitations",
+      "topicId": "htT_HpzKKNXSbxhWf4dCJ",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 6320
+      }
+    },
+    {
+      "id": "node-NhAOeGOqfUjkXth5DntKA",
+      "label": "Why and Why not?",
+      "topicId": "NhAOeGOqfUjkXth5DntKA",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 6320
+      }
+    },
+    {
+      "id": "node-v2fsulkH_nGktwcdk8QWR",
+      "label": "When to Use a VPS or Cloud Server",
+      "topicId": "v2fsulkH_nGktwcdk8QWR",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 6480
+      }
+    },
+    {
+      "id": "node-wp7wX-xbOKG5Aemo-rl4g",
+      "label": "Workspace Settings",
+      "topicId": "wp7wX-xbOKG5Aemo-rl4g",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 6480
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-node-wGp4nsoZNTbM4wgAmrqjj-node-MbZFK1Q6ndoaDMsrf15Xi",
+      "source": "node-wGp4nsoZNTbM4wgAmrqjj",
+      "target": "node-MbZFK1Q6ndoaDMsrf15Xi",
+      "animated": true
+    },
+    {
+      "id": "edge-node-MbZFK1Q6ndoaDMsrf15Xi-node-oaXblhElJYZoLT4OS-7TQ",
+      "source": "node-MbZFK1Q6ndoaDMsrf15Xi",
+      "target": "node-oaXblhElJYZoLT4OS-7TQ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-oaXblhElJYZoLT4OS-7TQ-node-i5pSML-UG6dqXETubMEs6",
+      "source": "node-oaXblhElJYZoLT4OS-7TQ",
+      "target": "node-i5pSML-UG6dqXETubMEs6",
+      "animated": true
+    },
+    {
+      "id": "edge-node-i5pSML-UG6dqXETubMEs6-node-4CT2VNLkpdqeartj2z0lt",
+      "source": "node-i5pSML-UG6dqXETubMEs6",
+      "target": "node-4CT2VNLkpdqeartj2z0lt",
+      "animated": true
+    },
+    {
+      "id": "edge-node-4CT2VNLkpdqeartj2z0lt-node-v4nwaFwHjh2UQ8rsBiTOo",
+      "source": "node-4CT2VNLkpdqeartj2z0lt",
+      "target": "node-v4nwaFwHjh2UQ8rsBiTOo",
+      "animated": true
+    },
+    {
+      "id": "edge-node-v4nwaFwHjh2UQ8rsBiTOo-node-3bSTQ3nt5GdvKOder9J5R",
+      "source": "node-v4nwaFwHjh2UQ8rsBiTOo",
+      "target": "node-3bSTQ3nt5GdvKOder9J5R",
+      "animated": true
+    },
+    {
+      "id": "edge-node-3bSTQ3nt5GdvKOder9J5R-node-3bSTQ3nt5GdvKOder9J5R",
+      "source": "node-3bSTQ3nt5GdvKOder9J5R",
+      "target": "node-3bSTQ3nt5GdvKOder9J5R",
+      "animated": true
+    },
+    {
+      "id": "edge-node-3bSTQ3nt5GdvKOder9J5R-node-B4SyJwbv0HnI34BW81Ong",
+      "source": "node-3bSTQ3nt5GdvKOder9J5R",
+      "target": "node-B4SyJwbv0HnI34BW81Ong",
+      "animated": true
+    },
+    {
+      "id": "edge-node-B4SyJwbv0HnI34BW81Ong-node-uX7uZBFzUyVJ4aKjyjBHq",
+      "source": "node-B4SyJwbv0HnI34BW81Ong",
+      "target": "node-uX7uZBFzUyVJ4aKjyjBHq",
+      "animated": true
+    },
+    {
+      "id": "edge-node-uX7uZBFzUyVJ4aKjyjBHq-node-f8WQ8qOiCFpW3sTJbIc2D",
+      "source": "node-uX7uZBFzUyVJ4aKjyjBHq",
+      "target": "node-f8WQ8qOiCFpW3sTJbIc2D",
+      "animated": true
+    },
+    {
+      "id": "edge-node-f8WQ8qOiCFpW3sTJbIc2D-node-ODqMzOAN1je004chwATTl",
+      "source": "node-f8WQ8qOiCFpW3sTJbIc2D",
+      "target": "node-ODqMzOAN1je004chwATTl",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ODqMzOAN1je004chwATTl-node-7pTIsu7dh8ue2Aju270Ec",
+      "source": "node-ODqMzOAN1je004chwATTl",
+      "target": "node-7pTIsu7dh8ue2Aju270Ec",
+      "animated": true
+    },
+    {
+      "id": "edge-node-7pTIsu7dh8ue2Aju270Ec-node-bmvpZKVx3YgUBEC3WfrWA",
+      "source": "node-7pTIsu7dh8ue2Aju270Ec",
+      "target": "node-bmvpZKVx3YgUBEC3WfrWA",
+      "animated": true
+    },
+    {
+      "id": "edge-node-bmvpZKVx3YgUBEC3WfrWA-node-GUlO2ZchQ4EFcvDWpVQVV",
+      "source": "node-bmvpZKVx3YgUBEC3WfrWA",
+      "target": "node-GUlO2ZchQ4EFcvDWpVQVV",
+      "animated": true
+    },
+    {
+      "id": "edge-node-GUlO2ZchQ4EFcvDWpVQVV-node-BczmS7SR1jk9FJqlQmqVb",
+      "source": "node-GUlO2ZchQ4EFcvDWpVQVV",
+      "target": "node-BczmS7SR1jk9FJqlQmqVb",
+      "animated": true
+    },
+    {
+      "id": "edge-node-BczmS7SR1jk9FJqlQmqVb-node-rjTLUR9vhsyqmHV4xRPyv",
+      "source": "node-BczmS7SR1jk9FJqlQmqVb",
+      "target": "node-rjTLUR9vhsyqmHV4xRPyv",
+      "animated": true
+    },
+    {
+      "id": "edge-node-rjTLUR9vhsyqmHV4xRPyv-node--K12VwV2QQiQNjjjr-ENW",
+      "source": "node-rjTLUR9vhsyqmHV4xRPyv",
+      "target": "node--K12VwV2QQiQNjjjr-ENW",
+      "animated": true
+    },
+    {
+      "id": "edge-node--K12VwV2QQiQNjjjr-ENW-node-nNM3q26rXk3_HoxyOYxcV",
+      "source": "node--K12VwV2QQiQNjjjr-ENW",
+      "target": "node-nNM3q26rXk3_HoxyOYxcV",
+      "animated": true
+    },
+    {
+      "id": "edge-node-nNM3q26rXk3_HoxyOYxcV-node-T8qUFenL-CKPWnwOEe8lS",
+      "source": "node-nNM3q26rXk3_HoxyOYxcV",
+      "target": "node-T8qUFenL-CKPWnwOEe8lS",
+      "animated": true
+    },
+    {
+      "id": "edge-node-T8qUFenL-CKPWnwOEe8lS-node-7bgIwJ5S-b6DXdLe-pWlI",
+      "source": "node-T8qUFenL-CKPWnwOEe8lS",
+      "target": "node-7bgIwJ5S-b6DXdLe-pWlI",
+      "animated": true
+    },
+    {
+      "id": "edge-node-7bgIwJ5S-b6DXdLe-pWlI-node-kotkvs1mJRlHaEZA5NyDp",
+      "source": "node-7bgIwJ5S-b6DXdLe-pWlI",
+      "target": "node-kotkvs1mJRlHaEZA5NyDp",
+      "animated": true
+    },
+    {
+      "id": "edge-node-kotkvs1mJRlHaEZA5NyDp-node-l4jRfrWA0ATEsywdoZQyv",
+      "source": "node-kotkvs1mJRlHaEZA5NyDp",
+      "target": "node-l4jRfrWA0ATEsywdoZQyv",
+      "animated": true
+    },
+    {
+      "id": "edge-node-l4jRfrWA0ATEsywdoZQyv-node-xRDXMh4n8LghBX5TH0LIu",
+      "source": "node-l4jRfrWA0ATEsywdoZQyv",
+      "target": "node-xRDXMh4n8LghBX5TH0LIu",
+      "animated": true
+    },
+    {
+      "id": "edge-node-xRDXMh4n8LghBX5TH0LIu-node-lHePFHLUR1BKK9mC0HWLU",
+      "source": "node-xRDXMh4n8LghBX5TH0LIu",
+      "target": "node-lHePFHLUR1BKK9mC0HWLU",
+      "animated": true
+    },
+    {
+      "id": "edge-node-lHePFHLUR1BKK9mC0HWLU-node-3v3VJETUQ1x1eKWUo8jhf",
+      "source": "node-lHePFHLUR1BKK9mC0HWLU",
+      "target": "node-3v3VJETUQ1x1eKWUo8jhf",
+      "animated": true
+    },
+    {
+      "id": "edge-node-3v3VJETUQ1x1eKWUo8jhf-node-0NpspxLPvMqvmeIq8hdd1",
+      "source": "node-3v3VJETUQ1x1eKWUo8jhf",
+      "target": "node-0NpspxLPvMqvmeIq8hdd1",
+      "animated": true
+    },
+    {
+      "id": "edge-node-0NpspxLPvMqvmeIq8hdd1-node-y8n10TL6_mWldqclw1Dcz",
+      "source": "node-0NpspxLPvMqvmeIq8hdd1",
+      "target": "node-y8n10TL6_mWldqclw1Dcz",
+      "animated": true
+    },
+    {
+      "id": "edge-node-y8n10TL6_mWldqclw1Dcz-node-OPHuAD0L-GZ6zRhIhbmPL",
+      "source": "node-y8n10TL6_mWldqclw1Dcz",
+      "target": "node-OPHuAD0L-GZ6zRhIhbmPL",
+      "animated": true
+    },
+    {
+      "id": "edge-node-OPHuAD0L-GZ6zRhIhbmPL-node-OPHuAD0L-GZ6zRhIhbmPL",
+      "source": "node-OPHuAD0L-GZ6zRhIhbmPL",
+      "target": "node-OPHuAD0L-GZ6zRhIhbmPL",
+      "animated": true
+    },
+    {
+      "id": "edge-node-OPHuAD0L-GZ6zRhIhbmPL-node-ghi0M5P_JMm7D_JhIwJXC",
+      "source": "node-OPHuAD0L-GZ6zRhIhbmPL",
+      "target": "node-ghi0M5P_JMm7D_JhIwJXC",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ghi0M5P_JMm7D_JhIwJXC-node-nVzj2P826S2LjUCpdYGVo",
+      "source": "node-ghi0M5P_JMm7D_JhIwJXC",
+      "target": "node-nVzj2P826S2LjUCpdYGVo",
+      "animated": true
+    },
+    {
+      "id": "edge-node-nVzj2P826S2LjUCpdYGVo-node-qAL663Fl50skXD_zd1I7c",
+      "source": "node-nVzj2P826S2LjUCpdYGVo",
+      "target": "node-qAL663Fl50skXD_zd1I7c",
+      "animated": true
+    },
+    {
+      "id": "edge-node-qAL663Fl50skXD_zd1I7c-node-Phj_imdYA3Fr4HTcfyidD",
+      "source": "node-qAL663Fl50skXD_zd1I7c",
+      "target": "node-Phj_imdYA3Fr4HTcfyidD",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Phj_imdYA3Fr4HTcfyidD-node-qlMuVy6jwwsrSvS-xE9NT",
+      "source": "node-Phj_imdYA3Fr4HTcfyidD",
+      "target": "node-qlMuVy6jwwsrSvS-xE9NT",
+      "animated": true
+    },
+    {
+      "id": "edge-node-qlMuVy6jwwsrSvS-xE9NT-node-HnF_CCNL3pssicFlGNta3",
+      "source": "node-qlMuVy6jwwsrSvS-xE9NT",
+      "target": "node-HnF_CCNL3pssicFlGNta3",
+      "animated": true
+    },
+    {
+      "id": "edge-node-HnF_CCNL3pssicFlGNta3-node-RZ2afehxi2PlKAFp9WY_3",
+      "source": "node-HnF_CCNL3pssicFlGNta3",
+      "target": "node-RZ2afehxi2PlKAFp9WY_3",
+      "animated": true
+    },
+    {
+      "id": "edge-node-RZ2afehxi2PlKAFp9WY_3-node-nU3pnqImGhRO3QwK4CLeM",
+      "source": "node-RZ2afehxi2PlKAFp9WY_3",
+      "target": "node-nU3pnqImGhRO3QwK4CLeM",
+      "animated": true
+    },
+    {
+      "id": "edge-node-nU3pnqImGhRO3QwK4CLeM-node-ZCY_hUhVIMLPoXnRXVpkN",
+      "source": "node-nU3pnqImGhRO3QwK4CLeM",
+      "target": "node-ZCY_hUhVIMLPoXnRXVpkN",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ZCY_hUhVIMLPoXnRXVpkN-node-bH9ebjEofXA3mwnmqRzW1",
+      "source": "node-ZCY_hUhVIMLPoXnRXVpkN",
+      "target": "node-bH9ebjEofXA3mwnmqRzW1",
+      "animated": true
+    },
+    {
+      "id": "edge-node-bH9ebjEofXA3mwnmqRzW1-node-w8Vwf1Ak_gNdvgXOgU1Fo",
+      "source": "node-bH9ebjEofXA3mwnmqRzW1",
+      "target": "node-w8Vwf1Ak_gNdvgXOgU1Fo",
+      "animated": true
+    },
+    {
+      "id": "edge-node-w8Vwf1Ak_gNdvgXOgU1Fo-node-Le0uptRoIlwTZ7crU3rMQ",
+      "source": "node-w8Vwf1Ak_gNdvgXOgU1Fo",
+      "target": "node-Le0uptRoIlwTZ7crU3rMQ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Le0uptRoIlwTZ7crU3rMQ-node-eXo_Wxhg-i7v6lx12NqAu",
+      "source": "node-Le0uptRoIlwTZ7crU3rMQ",
+      "target": "node-eXo_Wxhg-i7v6lx12NqAu",
+      "animated": true
+    },
+    {
+      "id": "edge-node-eXo_Wxhg-i7v6lx12NqAu-node-XCpfUKOalyeNAx6Z5DPVG",
+      "source": "node-eXo_Wxhg-i7v6lx12NqAu",
+      "target": "node-XCpfUKOalyeNAx6Z5DPVG",
+      "animated": true
+    },
+    {
+      "id": "edge-node-XCpfUKOalyeNAx6Z5DPVG-node-jQwU2VQFmjyWQHn5PpViF",
+      "source": "node-XCpfUKOalyeNAx6Z5DPVG",
+      "target": "node-jQwU2VQFmjyWQHn5PpViF",
+      "animated": true
+    },
+    {
+      "id": "edge-node-jQwU2VQFmjyWQHn5PpViF-node-yxty1gRUtcy-GoPFV4ybO",
+      "source": "node-jQwU2VQFmjyWQHn5PpViF",
+      "target": "node-yxty1gRUtcy-GoPFV4ybO",
+      "animated": true
+    },
+    {
+      "id": "edge-node-yxty1gRUtcy-GoPFV4ybO-node-KJ_Y5N8D-FWZIz52ajcO8",
+      "source": "node-yxty1gRUtcy-GoPFV4ybO",
+      "target": "node-KJ_Y5N8D-FWZIz52ajcO8",
+      "animated": true
+    },
+    {
+      "id": "edge-node-KJ_Y5N8D-FWZIz52ajcO8-node-EggP8_uXPbgQeNKQFP4JJ",
+      "source": "node-KJ_Y5N8D-FWZIz52ajcO8",
+      "target": "node-EggP8_uXPbgQeNKQFP4JJ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-EggP8_uXPbgQeNKQFP4JJ-node-EggP8_uXPbgQeNKQFP4JJ",
+      "source": "node-EggP8_uXPbgQeNKQFP4JJ",
+      "target": "node-EggP8_uXPbgQeNKQFP4JJ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-EggP8_uXPbgQeNKQFP4JJ-node-ouy9TRfFrXcsTKh_E2qjq",
+      "source": "node-EggP8_uXPbgQeNKQFP4JJ",
+      "target": "node-ouy9TRfFrXcsTKh_E2qjq",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ouy9TRfFrXcsTKh_E2qjq-node-2JiT8CS9PSVSfIeao29hq",
+      "source": "node-ouy9TRfFrXcsTKh_E2qjq",
+      "target": "node-2JiT8CS9PSVSfIeao29hq",
+      "animated": true
+    },
+    {
+      "id": "edge-node-2JiT8CS9PSVSfIeao29hq-node-rEUJIhqOUyLORy6cnlAAj",
+      "source": "node-2JiT8CS9PSVSfIeao29hq",
+      "target": "node-rEUJIhqOUyLORy6cnlAAj",
+      "animated": true
+    },
+    {
+      "id": "edge-node-rEUJIhqOUyLORy6cnlAAj-node-reIkqx-GGIq31cv2cHXbZ",
+      "source": "node-rEUJIhqOUyLORy6cnlAAj",
+      "target": "node-reIkqx-GGIq31cv2cHXbZ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-reIkqx-GGIq31cv2cHXbZ-node-D8VJRcsVLzwCLSZX5TkoR",
+      "source": "node-reIkqx-GGIq31cv2cHXbZ",
+      "target": "node-D8VJRcsVLzwCLSZX5TkoR",
+      "animated": true
+    },
+    {
+      "id": "edge-node-D8VJRcsVLzwCLSZX5TkoR-node-6VS0lRVk60w49FvRiCRWK",
+      "source": "node-D8VJRcsVLzwCLSZX5TkoR",
+      "target": "node-6VS0lRVk60w49FvRiCRWK",
+      "animated": true
+    },
+    {
+      "id": "edge-node-6VS0lRVk60w49FvRiCRWK-node-02A7y4sZ-qg3-dx1wmxwj",
+      "source": "node-6VS0lRVk60w49FvRiCRWK",
+      "target": "node-02A7y4sZ-qg3-dx1wmxwj",
+      "animated": true
+    },
+    {
+      "id": "edge-node-02A7y4sZ-qg3-dx1wmxwj-node-oEAIlEf0PqO8TWl-w2NUC",
+      "source": "node-02A7y4sZ-qg3-dx1wmxwj",
+      "target": "node-oEAIlEf0PqO8TWl-w2NUC",
+      "animated": true
+    },
+    {
+      "id": "edge-node-oEAIlEf0PqO8TWl-w2NUC-node-aezBZ3XK1cXgMn1QTvBMs",
+      "source": "node-oEAIlEf0PqO8TWl-w2NUC",
+      "target": "node-aezBZ3XK1cXgMn1QTvBMs",
+      "animated": true
+    },
+    {
+      "id": "edge-node-aezBZ3XK1cXgMn1QTvBMs-node-kPrB8vWCQkXdiEm42TVel",
+      "source": "node-aezBZ3XK1cXgMn1QTvBMs",
+      "target": "node-kPrB8vWCQkXdiEm42TVel",
+      "animated": true
+    },
+    {
+      "id": "edge-node-kPrB8vWCQkXdiEm42TVel-node-vFjddVdOJvkTDptambYt0",
+      "source": "node-kPrB8vWCQkXdiEm42TVel",
+      "target": "node-vFjddVdOJvkTDptambYt0",
+      "animated": true
+    },
+    {
+      "id": "edge-node-vFjddVdOJvkTDptambYt0-node-Bz_gfPslArn4PH1clLiWl",
+      "source": "node-vFjddVdOJvkTDptambYt0",
+      "target": "node-Bz_gfPslArn4PH1clLiWl",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Bz_gfPslArn4PH1clLiWl-node-eEXTZXgd2F51OAQQ6jELC",
+      "source": "node-Bz_gfPslArn4PH1clLiWl",
+      "target": "node-eEXTZXgd2F51OAQQ6jELC",
+      "animated": true
+    },
+    {
+      "id": "edge-node-eEXTZXgd2F51OAQQ6jELC-node-c9fsU9OeThY79MYbpzbA0",
+      "source": "node-eEXTZXgd2F51OAQQ6jELC",
+      "target": "node-c9fsU9OeThY79MYbpzbA0",
+      "animated": true
+    },
+    {
+      "id": "edge-node-c9fsU9OeThY79MYbpzbA0-node-HebyE2mjSdCLBEbiJAbsC",
+      "source": "node-c9fsU9OeThY79MYbpzbA0",
+      "target": "node-HebyE2mjSdCLBEbiJAbsC",
+      "animated": true
+    },
+    {
+      "id": "edge-node-HebyE2mjSdCLBEbiJAbsC-node-U1W-s3E2Iu74sFyf4U-vQ",
+      "source": "node-HebyE2mjSdCLBEbiJAbsC",
+      "target": "node-U1W-s3E2Iu74sFyf4U-vQ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-U1W-s3E2Iu74sFyf4U-vQ-node--sFXMyN-4VvXdJCaU8qiK",
+      "source": "node-U1W-s3E2Iu74sFyf4U-vQ",
+      "target": "node--sFXMyN-4VvXdJCaU8qiK",
+      "animated": true
+    },
+    {
+      "id": "edge-node--sFXMyN-4VvXdJCaU8qiK-node-ce3e7IMiN-n3wX9PvJXoW",
+      "source": "node--sFXMyN-4VvXdJCaU8qiK",
+      "target": "node-ce3e7IMiN-n3wX9PvJXoW",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ce3e7IMiN-n3wX9PvJXoW-node-OJb7PnYnN2RW4fqLV-vnl",
+      "source": "node-ce3e7IMiN-n3wX9PvJXoW",
+      "target": "node-OJb7PnYnN2RW4fqLV-vnl",
+      "animated": true
+    },
+    {
+      "id": "edge-node-OJb7PnYnN2RW4fqLV-vnl-node-YS-u4nfgmr9pOq_NLrdCA",
+      "source": "node-OJb7PnYnN2RW4fqLV-vnl",
+      "target": "node-YS-u4nfgmr9pOq_NLrdCA",
+      "animated": true
+    },
+    {
+      "id": "edge-node-YS-u4nfgmr9pOq_NLrdCA-node-fSHA8tY7RmDbD8zn3DDhu",
+      "source": "node-YS-u4nfgmr9pOq_NLrdCA",
+      "target": "node-fSHA8tY7RmDbD8zn3DDhu",
+      "animated": true
+    },
+    {
+      "id": "edge-node-fSHA8tY7RmDbD8zn3DDhu-node-naqlnPdoywxf16KaHtNyw",
+      "source": "node-fSHA8tY7RmDbD8zn3DDhu",
+      "target": "node-naqlnPdoywxf16KaHtNyw",
+      "animated": true
+    },
+    {
+      "id": "edge-node-naqlnPdoywxf16KaHtNyw-node-lISj5JCtAnk4qjoCiG0gD",
+      "source": "node-naqlnPdoywxf16KaHtNyw",
+      "target": "node-lISj5JCtAnk4qjoCiG0gD",
+      "animated": true
+    },
+    {
+      "id": "edge-node-lISj5JCtAnk4qjoCiG0gD-node-5ah4uCTo83YTFtn3kkH-l",
+      "source": "node-lISj5JCtAnk4qjoCiG0gD",
+      "target": "node-5ah4uCTo83YTFtn3kkH-l",
+      "animated": true
+    },
+    {
+      "id": "edge-node-5ah4uCTo83YTFtn3kkH-l-node-2qAGs1j1MDaoQFCDpF37Z",
+      "source": "node-5ah4uCTo83YTFtn3kkH-l",
+      "target": "node-2qAGs1j1MDaoQFCDpF37Z",
+      "animated": true
+    },
+    {
+      "id": "edge-node-2qAGs1j1MDaoQFCDpF37Z-node-WblCEWQzvYDzVdn3XEIa8",
+      "source": "node-2qAGs1j1MDaoQFCDpF37Z",
+      "target": "node-WblCEWQzvYDzVdn3XEIa8",
+      "animated": true
+    },
+    {
+      "id": "edge-node-WblCEWQzvYDzVdn3XEIa8-node-sI6wvGO8kZN8M_RIjQ7FN",
+      "source": "node-WblCEWQzvYDzVdn3XEIa8",
+      "target": "node-sI6wvGO8kZN8M_RIjQ7FN",
+      "animated": true
+    },
+    {
+      "id": "edge-node-sI6wvGO8kZN8M_RIjQ7FN-node-vLQ7hJJS3yXgbi0b-RAlb",
+      "source": "node-sI6wvGO8kZN8M_RIjQ7FN",
+      "target": "node-vLQ7hJJS3yXgbi0b-RAlb",
+      "animated": true
+    },
+    {
+      "id": "edge-node-vLQ7hJJS3yXgbi0b-RAlb-node-4u53an-SHGNCAh87GTd7C",
+      "source": "node-vLQ7hJJS3yXgbi0b-RAlb",
+      "target": "node-4u53an-SHGNCAh87GTd7C",
+      "animated": true
+    },
+    {
+      "id": "edge-node-4u53an-SHGNCAh87GTd7C-node-7Nvwyi3YFerTpDKkA0Uzo",
+      "source": "node-4u53an-SHGNCAh87GTd7C",
+      "target": "node-7Nvwyi3YFerTpDKkA0Uzo",
+      "animated": true
+    },
+    {
+      "id": "edge-node-7Nvwyi3YFerTpDKkA0Uzo-node-HgvUjBAWLLmT_QBYeSyli",
+      "source": "node-7Nvwyi3YFerTpDKkA0Uzo",
+      "target": "node-HgvUjBAWLLmT_QBYeSyli",
+      "animated": true
+    },
+    {
+      "id": "edge-node-HgvUjBAWLLmT_QBYeSyli-node-MeNsZrMsNU_xZR9hmLkQz",
+      "source": "node-HgvUjBAWLLmT_QBYeSyli",
+      "target": "node-MeNsZrMsNU_xZR9hmLkQz",
+      "animated": true
+    },
+    {
+      "id": "edge-node-MeNsZrMsNU_xZR9hmLkQz-node-QbcsFFPpZt7k_R_70jLxe",
+      "source": "node-MeNsZrMsNU_xZR9hmLkQz",
+      "target": "node-QbcsFFPpZt7k_R_70jLxe",
+      "animated": true
+    },
+    {
+      "id": "edge-node-QbcsFFPpZt7k_R_70jLxe-node-qzVRzcGnImdqVDw0W-Z7H",
+      "source": "node-QbcsFFPpZt7k_R_70jLxe",
+      "target": "node-qzVRzcGnImdqVDw0W-Z7H",
+      "animated": true
+    },
+    {
+      "id": "edge-node-qzVRzcGnImdqVDw0W-Z7H-node-CE3p60gkIzzHBh69kKiIw",
+      "source": "node-qzVRzcGnImdqVDw0W-Z7H",
+      "target": "node-CE3p60gkIzzHBh69kKiIw",
+      "animated": true
+    },
+    {
+      "id": "edge-node-CE3p60gkIzzHBh69kKiIw-node-CE3p60gkIzzHBh69kKiIw",
+      "source": "node-CE3p60gkIzzHBh69kKiIw",
+      "target": "node-CE3p60gkIzzHBh69kKiIw",
+      "animated": true
+    },
+    {
+      "id": "edge-node-CE3p60gkIzzHBh69kKiIw-node-M6sqVDIh4d4lYNefJqKX5",
+      "source": "node-CE3p60gkIzzHBh69kKiIw",
+      "target": "node-M6sqVDIh4d4lYNefJqKX5",
+      "animated": true
+    },
+    {
+      "id": "edge-node-M6sqVDIh4d4lYNefJqKX5-node-BJ3iFyZjmakxbeh4IsXkw",
+      "source": "node-M6sqVDIh4d4lYNefJqKX5",
+      "target": "node-BJ3iFyZjmakxbeh4IsXkw",
+      "animated": true
+    },
+    {
+      "id": "edge-node-BJ3iFyZjmakxbeh4IsXkw-node-V15_eZ8CpPDvjbcF9NWU0",
+      "source": "node-BJ3iFyZjmakxbeh4IsXkw",
+      "target": "node-V15_eZ8CpPDvjbcF9NWU0",
+      "animated": true
+    },
+    {
+      "id": "edge-node-V15_eZ8CpPDvjbcF9NWU0-node-_tmV2qJyrkBBZdCL_xWh1",
+      "source": "node-V15_eZ8CpPDvjbcF9NWU0",
+      "target": "node-_tmV2qJyrkBBZdCL_xWh1",
+      "animated": true
+    },
+    {
+      "id": "edge-node-_tmV2qJyrkBBZdCL_xWh1-node-CJV5OV_Whoz4_7L8yhDG1",
+      "source": "node-_tmV2qJyrkBBZdCL_xWh1",
+      "target": "node-CJV5OV_Whoz4_7L8yhDG1",
+      "animated": true
+    },
+    {
+      "id": "edge-node-CJV5OV_Whoz4_7L8yhDG1-node-gNSp_eg81GgVvR5g-XJr-",
+      "source": "node-CJV5OV_Whoz4_7L8yhDG1",
+      "target": "node-gNSp_eg81GgVvR5g-XJr-",
+      "animated": true
+    },
+    {
+      "id": "edge-node-gNSp_eg81GgVvR5g-XJr--node-abWTw0gTCO4R3VygeDqsL",
+      "source": "node-gNSp_eg81GgVvR5g-XJr-",
+      "target": "node-abWTw0gTCO4R3VygeDqsL",
+      "animated": true
+    },
+    {
+      "id": "edge-node-abWTw0gTCO4R3VygeDqsL-node-zqeuYyqd5pMPQLFfPnskC",
+      "source": "node-abWTw0gTCO4R3VygeDqsL",
+      "target": "node-zqeuYyqd5pMPQLFfPnskC",
+      "animated": true
+    },
+    {
+      "id": "edge-node-zqeuYyqd5pMPQLFfPnskC-node-qDidhG0fztZ38BSMv76YI",
+      "source": "node-zqeuYyqd5pMPQLFfPnskC",
+      "target": "node-qDidhG0fztZ38BSMv76YI",
+      "animated": true
+    },
+    {
+      "id": "edge-node-qDidhG0fztZ38BSMv76YI-node-y29FvjAzA1KhzlC49XPfh",
+      "source": "node-qDidhG0fztZ38BSMv76YI",
+      "target": "node-y29FvjAzA1KhzlC49XPfh",
+      "animated": true
+    },
+    {
+      "id": "edge-node-y29FvjAzA1KhzlC49XPfh-node-9wAYWJQBiWy_RF2AfQsqn",
+      "source": "node-y29FvjAzA1KhzlC49XPfh",
+      "target": "node-9wAYWJQBiWy_RF2AfQsqn",
+      "animated": true
+    },
+    {
+      "id": "edge-node-9wAYWJQBiWy_RF2AfQsqn-node-gN2oNDE7FXPyBh_5ZOu_Z",
+      "source": "node-9wAYWJQBiWy_RF2AfQsqn",
+      "target": "node-gN2oNDE7FXPyBh_5ZOu_Z",
+      "animated": true
+    },
+    {
+      "id": "edge-node-gN2oNDE7FXPyBh_5ZOu_Z-node-4XsdBdveBxrTIg3WdzzOO",
+      "source": "node-gN2oNDE7FXPyBh_5ZOu_Z",
+      "target": "node-4XsdBdveBxrTIg3WdzzOO",
+      "animated": true
+    },
+    {
+      "id": "edge-node-4XsdBdveBxrTIg3WdzzOO-node-O9W3d1q1yJmfRJHnfognN",
+      "source": "node-4XsdBdveBxrTIg3WdzzOO",
+      "target": "node-O9W3d1q1yJmfRJHnfognN",
+      "animated": true
+    },
+    {
+      "id": "edge-node-O9W3d1q1yJmfRJHnfognN-node-u9hCwPYZucGkb_zChmpzj",
+      "source": "node-O9W3d1q1yJmfRJHnfognN",
+      "target": "node-u9hCwPYZucGkb_zChmpzj",
+      "animated": true
+    },
+    {
+      "id": "edge-node-u9hCwPYZucGkb_zChmpzj-node-0a08Q6vTfqbG94tcJYxN2",
+      "source": "node-u9hCwPYZucGkb_zChmpzj",
+      "target": "node-0a08Q6vTfqbG94tcJYxN2",
+      "animated": true
+    },
+    {
+      "id": "edge-node-0a08Q6vTfqbG94tcJYxN2-node-7_QUsiC57I4xcaySZYAoc",
+      "source": "node-0a08Q6vTfqbG94tcJYxN2",
+      "target": "node-7_QUsiC57I4xcaySZYAoc",
+      "animated": true
+    },
+    {
+      "id": "edge-node-7_QUsiC57I4xcaySZYAoc-node-H4EXzyftWkvdFlMfU7ydG",
+      "source": "node-7_QUsiC57I4xcaySZYAoc",
+      "target": "node-H4EXzyftWkvdFlMfU7ydG",
+      "animated": true
+    },
+    {
+      "id": "edge-node-H4EXzyftWkvdFlMfU7ydG-node-4XYMS1wQa3ZwWCQNBnwpd",
+      "source": "node-H4EXzyftWkvdFlMfU7ydG",
+      "target": "node-4XYMS1wQa3ZwWCQNBnwpd",
+      "animated": true
+    },
+    {
+      "id": "edge-node-4XYMS1wQa3ZwWCQNBnwpd-node-M1zIUsUO6qKhIXzxE9sho",
+      "source": "node-4XYMS1wQa3ZwWCQNBnwpd",
+      "target": "node-M1zIUsUO6qKhIXzxE9sho",
+      "animated": true
+    },
+    {
+      "id": "edge-node-M1zIUsUO6qKhIXzxE9sho-node-dL_II2-0sUvm8UyFgQLfC",
+      "source": "node-M1zIUsUO6qKhIXzxE9sho",
+      "target": "node-dL_II2-0sUvm8UyFgQLfC",
+      "animated": true
+    },
+    {
+      "id": "edge-node-dL_II2-0sUvm8UyFgQLfC-node-D79q0eP_HbXBGWgDB6XgW",
+      "source": "node-dL_II2-0sUvm8UyFgQLfC",
+      "target": "node-D79q0eP_HbXBGWgDB6XgW",
+      "animated": true
+    },
+    {
+      "id": "edge-node-D79q0eP_HbXBGWgDB6XgW-node-jhDkMmSD6bMZoTNOjZUnr",
+      "source": "node-D79q0eP_HbXBGWgDB6XgW",
+      "target": "node-jhDkMmSD6bMZoTNOjZUnr",
+      "animated": true
+    },
+    {
+      "id": "edge-node-jhDkMmSD6bMZoTNOjZUnr-node-gFGGZE4AUBm8PxKHrF8_g",
+      "source": "node-jhDkMmSD6bMZoTNOjZUnr",
+      "target": "node-gFGGZE4AUBm8PxKHrF8_g",
+      "animated": true
+    },
+    {
+      "id": "edge-node-gFGGZE4AUBm8PxKHrF8_g-node-xBl2Xgvbi6f_zwl4uPJhu",
+      "source": "node-gFGGZE4AUBm8PxKHrF8_g",
+      "target": "node-xBl2Xgvbi6f_zwl4uPJhu",
+      "animated": true
+    },
+    {
+      "id": "edge-node-xBl2Xgvbi6f_zwl4uPJhu-node-ieHfFGH1RbnxZdVgCfxge",
+      "source": "node-xBl2Xgvbi6f_zwl4uPJhu",
+      "target": "node-ieHfFGH1RbnxZdVgCfxge",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ieHfFGH1RbnxZdVgCfxge-node-WeEz693z_j7kIL39uFyHF",
+      "source": "node-ieHfFGH1RbnxZdVgCfxge",
+      "target": "node-WeEz693z_j7kIL39uFyHF",
+      "animated": true
+    },
+    {
+      "id": "edge-node-WeEz693z_j7kIL39uFyHF-node-1qsX8SiXVlpVrOXZE-5mg",
+      "source": "node-WeEz693z_j7kIL39uFyHF",
+      "target": "node-1qsX8SiXVlpVrOXZE-5mg",
+      "animated": true
+    },
+    {
+      "id": "edge-node-1qsX8SiXVlpVrOXZE-5mg-node-EzEJOUOwLlVfA4q5NXC88",
+      "source": "node-1qsX8SiXVlpVrOXZE-5mg",
+      "target": "node-EzEJOUOwLlVfA4q5NXC88",
+      "animated": true
+    },
+    {
+      "id": "edge-node-EzEJOUOwLlVfA4q5NXC88-node-S7qSTFNATTfamM6XMnm-O",
+      "source": "node-EzEJOUOwLlVfA4q5NXC88",
+      "target": "node-S7qSTFNATTfamM6XMnm-O",
+      "animated": true
+    },
+    {
+      "id": "edge-node-S7qSTFNATTfamM6XMnm-O-node-bnyEeJVvaysPBkIevTCBa",
+      "source": "node-S7qSTFNATTfamM6XMnm-O",
+      "target": "node-bnyEeJVvaysPBkIevTCBa",
+      "animated": true
+    },
+    {
+      "id": "edge-node-bnyEeJVvaysPBkIevTCBa-node-F0jyMHHjeAbftNw2BjrUi",
+      "source": "node-bnyEeJVvaysPBkIevTCBa",
+      "target": "node-F0jyMHHjeAbftNw2BjrUi",
+      "animated": true
+    },
+    {
+      "id": "edge-node-F0jyMHHjeAbftNw2BjrUi-node-y6qWd-k0SiMhLFexkyQb5",
+      "source": "node-F0jyMHHjeAbftNw2BjrUi",
+      "target": "node-y6qWd-k0SiMhLFexkyQb5",
+      "animated": true
+    },
+    {
+      "id": "edge-node-y6qWd-k0SiMhLFexkyQb5-node-htT_HpzKKNXSbxhWf4dCJ",
+      "source": "node-y6qWd-k0SiMhLFexkyQb5",
+      "target": "node-htT_HpzKKNXSbxhWf4dCJ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-htT_HpzKKNXSbxhWf4dCJ-node-NhAOeGOqfUjkXth5DntKA",
+      "source": "node-htT_HpzKKNXSbxhWf4dCJ",
+      "target": "node-NhAOeGOqfUjkXth5DntKA",
+      "animated": true
+    },
+    {
+      "id": "edge-node-NhAOeGOqfUjkXth5DntKA-node-v2fsulkH_nGktwcdk8QWR",
+      "source": "node-NhAOeGOqfUjkXth5DntKA",
+      "target": "node-v2fsulkH_nGktwcdk8QWR",
+      "animated": true
+    },
+    {
+      "id": "edge-node-v2fsulkH_nGktwcdk8QWR-node-wp7wX-xbOKG5Aemo-rl4g",
+      "source": "node-v2fsulkH_nGktwcdk8QWR",
+      "target": "node-wp7wX-xbOKG5Aemo-rl4g",
+      "animated": true
+    }
+  ],
+  "topics": {
+    "wGp4nsoZNTbM4wgAmrqjj": {
+      "id": "wGp4nsoZNTbM4wgAmrqjj",
+      "slug": "adding-daemon",
+      "title": "Adding Daemon",
+      "description": "A daemon is a background process that runs continuously without needing a terminal window open. Configuring Open Claw as a daemon ensures it starts automatically and keeps running even after you log out or restart your machine.",
+      "resources": [
+        {
+          "id": "wGp4nsoZNTbM4wgAmrqjj-res-1",
+          "type": "article",
+          "title": "Run OpenClaw 24/7: Complete Setup Guide for Local, AWS & Ubuntu (2026)",
+          "url": "https://dextralabs.com/blog/how-to-run-openclaw/"
+        }
+      ]
+    },
+    "MbZFK1Q6ndoaDMsrf15Xi": {
+      "id": "MbZFK1Q6ndoaDMsrf15Xi",
+      "slug": "adding-first-channel",
+      "title": "Adding First Channel",
+      "description": "After setting up your model provider, the next step is connecting a communication channel, in other words, the platform where you will actually talk to your agent. Telegram is recommended as the fastest channel to get started with.",
+      "resources": [
+        {
+          "id": "MbZFK1Q6ndoaDMsrf15Xi-res-1",
+          "type": "article",
+          "title": "Channels",
+          "url": "https://docs.openclaw.ai/channels"
+        }
+      ]
+    },
+    "oaXblhElJYZoLT4OS-7TQ": {
+      "id": "oaXblhElJYZoLT4OS-7TQ",
+      "slug": "agent-loop",
+      "title": "Agent Loop",
+      "description": "When Open Claw receives a message, it runs a full agent loop rather than returning a single response. The loop validates the message, resolves the model, assembles the system prompt from skills and context files, and then sends everything to the model for inference. If the model decides to call a tool, like running a command, reading a file, or searching the web, the loop executes it, feeds the result back to the model, and continues until no more tool calls are needed and a final reply is ready. If the session gets too long for the context window, compaction kicks in automatically before retrying.",
+      "resources": [
+        {
+          "id": "oaXblhElJYZoLT4OS-7TQ-res-1",
+          "type": "article",
+          "title": "Agent Loop",
+          "url": "https://docs.openclaw.ai/concepts/agent-loop"
+        }
+      ]
+    },
+    "i5pSML-UG6dqXETubMEs6": {
+      "id": "i5pSML-UG6dqXETubMEs6",
+      "slug": "agents",
+      "title": "Agents",
+      "description": "An agent in Open Claw is a fully isolated unit with its own workspace folder containing its personality and configuration files, its own state directory that holds auth profiles and the model registry, and its own session store that keeps the full conversation history separate from every other agent. Because auth profiles are scoped per-agent, credentials for one agent are never automatically shared with another, which means you can run a personal agent on your WhatsApp number and a work agent on a separate account on the same Gateway without any risk of their sessions, memories, or API keys crossing over.",
+      "resources": [
+        {
+          "id": "i5pSML-UG6dqXETubMEs6-res-1",
+          "type": "article",
+          "title": "Agent Runtime",
+          "url": "https://docs.openclaw.ai/concepts/agent"
+        },
+        {
+          "id": "i5pSML-UG6dqXETubMEs6-res-2",
+          "type": "article",
+          "title": "🦞 Awesome OpenClaw Agents",
+          "url": "https://github.com/mergisi/awesome-openclaw-agents"
+        }
+      ]
+    },
+    "4CT2VNLkpdqeartj2z0lt": {
+      "id": "4CT2VNLkpdqeartj2z0lt",
+      "slug": "agentsmd",
+      "title": "AGENTS.md",
+      "description": "[AGENTS.md](http://AGENTS.md) describes the agents available in your workspace, their roles, and how they relate to each other. It is used when running multiple agents to clarify who does what.",
+      "resources": [
+        {
+          "id": "4CT2VNLkpdqeartj2z0lt-res-1",
+          "type": "article",
+          "title": "Default AGENTS.md",
+          "url": "https://docs.openclaw.ai/reference/AGENTS.default#default-agents-md"
+        },
+        {
+          "id": "4CT2VNLkpdqeartj2z0lt-res-2",
+          "type": "article",
+          "title": "AGENTS.md Template",
+          "url": "https://docs.openclaw.ai/reference/templates/AGENTS"
+        }
+      ]
+    },
+    "v4nwaFwHjh2UQ8rsBiTOo": {
+      "id": "v4nwaFwHjh2UQ8rsBiTOo",
+      "slug": "allowlist",
+      "title": "/allowlist",
+      "description": "`/allowlist` lists, adds, or removes entries from the sender allowlist that controls who can interact with the agent. Add and remove operations require `commands.config: true` to be set in your configuration.",
+      "resources": [
+        {
+          "id": "v4nwaFwHjh2UQ8rsBiTOo-res-1",
+          "type": "article",
+          "title": "Slash Commands",
+          "url": "https://docs.openclaw.ai/tools/slash-commands"
+        },
+        {
+          "id": "v4nwaFwHjh2UQ8rsBiTOo-res-2",
+          "type": "article",
+          "title": "Allowlists (DM + groups) - terminology",
+          "url": "https://docs.openclaw.ai/gateway/security#allowlists-dm-+-groups-terminology"
+        }
+      ]
+    },
+    "3bSTQ3nt5GdvKOder9J5R": {
+      "id": "3bSTQ3nt5GdvKOder9J5R",
+      "slug": "antropic",
+      "title": "Anthropic",
+      "description": "Anthropic is the company behind the Claude family of models. Connecting Open Claw to Anthropic lets you use Claude as your agent's underlying model, which is well-suited for reasoning, writing, and tool use.",
+      "resources": [
+        {
+          "id": "3bSTQ3nt5GdvKOder9J5R-res-1",
+          "type": "article",
+          "title": "Anthropic Provider",
+          "url": "https://docs.openclaw.ai/providers/anthropic"
+        },
+        {
+          "id": "3bSTQ3nt5GdvKOder9J5R-res-2",
+          "type": "article",
+          "title": "Using anthropic Models",
+          "url": "https://docs.openclaw.ai/providers/anthropic"
+        },
+        {
+          "id": "3bSTQ3nt5GdvKOder9J5R-res-3",
+          "type": "video",
+          "title": "Anthropic just blocked OpenClaw. Here’s what you need to do immediately",
+          "url": "https://www.youtube.com/watch?v=cNALFf9R4t4"
+        }
+      ]
+    },
+    "B4SyJwbv0HnI34BW81Ong": {
+      "id": "B4SyJwbv0HnI34BW81Ong",
+      "slug": "auth--model-providers",
+      "title": "Auth & Model Providers",
+      "description": "This section covers how to connect Open Claw to AI model providers like Anthropic, OpenAI, Gemini, or Ollama by entering your API credentials. The model provider is what powers the agent's intelligence.",
+      "resources": [
+        {
+          "id": "B4SyJwbv0HnI34BW81Ong-res-1",
+          "type": "article",
+          "title": "Provider Directory",
+          "url": "https://docs.openclaw.ai/providers"
+        },
+        {
+          "id": "B4SyJwbv0HnI34BW81Ong-res-2",
+          "type": "article",
+          "title": "Provider Quickstart",
+          "url": "https://docs.openclaw.ai/providers/models"
+        },
+        {
+          "id": "B4SyJwbv0HnI34BW81Ong-res-3",
+          "type": "article",
+          "title": "OpenClaw Model Selection & API Providers",
+          "url": "https://www.meta-intelligence.tech/en/insight-openclaw-model-guide"
+        }
+      ]
+    },
+    "uX7uZBFzUyVJ4aKjyjBHq": {
+      "id": "uX7uZBFzUyVJ4aKjyjBHq",
+      "slug": "automating-tasks",
+      "title": "Automating Tasks",
+      "description": "Open Claw supports several mechanisms for running tasks automatically, including hooks, webhooks, heartbeats, and cron jobs, so your agent can act without waiting for a human to send a message.",
+      "resources": [
+        {
+          "id": "uX7uZBFzUyVJ4aKjyjBHq-res-1",
+          "type": "article",
+          "title": "Automation Overview",
+          "url": "https://docs.openclaw.ai/automation"
+        },
+        {
+          "id": "uX7uZBFzUyVJ4aKjyjBHq-res-2",
+          "type": "video",
+          "title": "OpenClaw (Clawdbot) use cases: 9 automations + 4 wild builds that actually work",
+          "url": "https://www.youtube.com/watch?v=52kOmSQGt_E"
+        }
+      ]
+    },
+    "f8WQ8qOiCFpW3sTJbIc2D": {
+      "id": "f8WQ8qOiCFpW3sTJbIc2D",
+      "slug": "backup-create",
+      "title": "openclaw backup create",
+      "description": "`openclaw backup create` generates a snapshot of your Open Claw configuration and memory files so you can restore your setup if something goes wrong.",
+      "resources": [
+        {
+          "id": "f8WQ8qOiCFpW3sTJbIc2D-res-1",
+          "type": "article",
+          "title": "backup",
+          "url": "https://docs.openclaw.ai/cli/backup#backup"
+        }
+      ]
+    },
+    "ODqMzOAN1je004chwATTl": {
+      "id": "ODqMzOAN1je004chwATTl",
+      "slug": "bind-the-gateway-to-localhost-not-0000-and-secure-ports-18789-and-18793",
+      "title": "Bind the Gateway to Localhost",
+      "description": "Binding to localhost means the gateway only accepts connections from the same machine, not from the open internet. You can then use a reverse proxy or Tailscale to selectively expose it.",
+      "resources": [
+        {
+          "id": "ODqMzOAN1je004chwATTl-res-1",
+          "type": "article",
+          "title": "Gateway Runbook",
+          "url": "https://docs.openclaw.ai/gateway"
+        },
+        {
+          "id": "ODqMzOAN1je004chwATTl-res-2",
+          "type": "article",
+          "title": "Tailscale",
+          "url": "https://docs.openclaw.ai/gateway/tailscale"
+        }
+      ]
+    },
+    "7pTIsu7dh8ue2Aju270Ec": {
+      "id": "7pTIsu7dh8ue2Aju270Ec",
+      "slug": "channels-add---channel",
+      "title": "openclaw channels add --channel",
+      "description": "`openclaw channels add --channel` adds a new communication channel to your Open Claw setup, specifying which platform to connect.",
+      "resources": [
+        {
+          "id": "7pTIsu7dh8ue2Aju270Ec-res-1",
+          "type": "article",
+          "title": "Add / remove accounts",
+          "url": "https://docs.openclaw.ai/cli/channels#add-/-remove-accounts"
+        }
+      ]
+    },
+    "bmvpZKVx3YgUBEC3WfrWA": {
+      "id": "bmvpZKVx3YgUBEC3WfrWA",
+      "slug": "channels-list",
+      "title": "openclaw channels list",
+      "description": "`openclaw channels list` displays all the communication channels currently connected to your Open Claw gateway, along with their status.",
+      "resources": [
+        {
+          "id": "bmvpZKVx3YgUBEC3WfrWA-res-1",
+          "type": "article",
+          "title": "Common Commands",
+          "url": "https://docs.openclaw.ai/cli/channels#add-/-remove-accounts"
+        }
+      ]
+    },
+    "GUlO2ZchQ4EFcvDWpVQVV": {
+      "id": "GUlO2ZchQ4EFcvDWpVQVV",
+      "slug": "channels-login",
+      "title": "openclaw channels login",
+      "description": "`openclaw channels login` initiates the authentication flow for a specific channel, allowing Open Claw to connect to it on your behalf.",
+      "resources": [
+        {
+          "id": "GUlO2ZchQ4EFcvDWpVQVV-res-1",
+          "type": "article",
+          "title": "Login / logout (interactive)",
+          "url": "https://docs.openclaw.ai/cli/channels#add-/-remove-accounts"
+        }
+      ]
+    },
+    "BczmS7SR1jk9FJqlQmqVb": {
+      "id": "BczmS7SR1jk9FJqlQmqVb",
+      "slug": "channels-remove---channel",
+      "title": "openclaw channels remove --channel",
+      "description": "`openclaw channels remove --channel` disconnects and removes a channel from your Open Claw configuration.",
+      "resources": [
+        {
+          "id": "BczmS7SR1jk9FJqlQmqVb-res-1",
+          "type": "article",
+          "title": "Add / remove accounts",
+          "url": "https://docs.openclaw.ai/cli/channels#add-/-remove-accounts"
+        }
+      ]
+    },
+    "rjTLUR9vhsyqmHV4xRPyv": {
+      "id": "rjTLUR9vhsyqmHV4xRPyv",
+      "slug": "channels-status---probe",
+      "title": "openclaw channels status --probe",
+      "description": "`openclaw channels status --probe` actively checks the connection status of your channels by probing them, rather than just reporting cached status.",
+      "resources": [
+        {
+          "id": "rjTLUR9vhsyqmHV4xRPyv-res-1",
+          "type": "article",
+          "title": "Status / capabilities / resolve / logs",
+          "url": "https://docs.openclaw.ai/cli/channels#status-/-capabilities-/-resolve-/-logs"
+        }
+      ]
+    },
+    "-K12VwV2QQiQNjjjr-ENW": {
+      "id": "-K12VwV2QQiQNjjjr-ENW",
+      "slug": "channels",
+      "title": "Channels",
+      "description": "Channels are the messaging platforms through which users interact with Open Claw, and each one connects to the single Gateway process that routes incoming messages to the right agent and sends replies back. Every channel runs simultaneously on the same Gateway, so you can be connected to Telegram, WhatsApp, Discord, and Slack all at once without running separate processes. Text is supported across all channels, but richer features like reactions, media, message editing, and group behavior vary depending on what each platform's API supports",
+      "resources": [
+        {
+          "id": "-K12VwV2QQiQNjjjr-ENW-res-1",
+          "type": "article",
+          "title": "Chat Channels",
+          "url": "https://docs.openclaw.ai/channels"
+        }
+      ]
+    },
+    "nNM3q26rXk3_HoxyOYxcV": {
+      "id": "nNM3q26rXk3_HoxyOYxcV",
+      "slug": "compact",
+      "title": "/compact",
+      "description": "`/compact` is a text-only command that compresses or summarizes the current conversation context to free up space in the context window without losing essential information. You can optionally pass instructions to guide how the compaction is done.",
+      "resources": [
+        {
+          "id": "nNM3q26rXk3_HoxyOYxcV-res-1",
+          "type": "article",
+          "title": "Slash Commands",
+          "url": "https://docs.openclaw.ai/tools/slash-commands"
+        },
+        {
+          "id": "nNM3q26rXk3_HoxyOYxcV-res-2",
+          "type": "article",
+          "title": "Compaction",
+          "url": "https://docs.openclaw.ai/concepts/compaction"
+        }
+      ]
+    },
+    "T8qUFenL-CKPWnwOEe8lS": {
+      "id": "T8qUFenL-CKPWnwOEe8lS",
+      "slug": "config",
+      "title": "/config",
+      "description": "`/config` reads and writes your on-disk `openclaw.json` configuration file directly from chat. It is disabled by default and requires `commands.config: true` in your config to enable. It supports `show`, `get`, `set`, and `unset` subcommands and is owner-only.",
+      "resources": [
+        {
+          "id": "T8qUFenL-CKPWnwOEe8lS-res-1",
+          "type": "article",
+          "title": "Config updates",
+          "url": "https://docs.openclaw.ai/tools/slash-commands#config-updates"
+        },
+        {
+          "id": "T8qUFenL-CKPWnwOEe8lS-res-2",
+          "type": "article",
+          "title": "Gateway Configuration",
+          "url": "https://docs.openclaw.ai/gateway/configuration"
+        }
+      ]
+    },
+    "7bgIwJ5S-b6DXdLe-pWlI": {
+      "id": "7bgIwJ5S-b6DXdLe-pWlI",
+      "slug": "context-window",
+      "title": "Context Window",
+      "description": "The context window is the amount of conversation history, instructions, and tool results the AI model can see at once when generating a response. Open Claw manages this carefully through a context engine and compaction system so long-running agents don't exceed the model's limits.",
+      "resources": [
+        {
+          "id": "7bgIwJ5S-b6DXdLe-pWlI-res-1",
+          "type": "article",
+          "title": "Context",
+          "url": "https://docs.openclaw.ai/concepts/context"
+        },
+        {
+          "id": "7bgIwJ5S-b6DXdLe-pWlI-res-2",
+          "type": "article",
+          "title": "Context Engine",
+          "url": "https://docs.openclaw.ai/concepts/context-engine"
+        },
+        {
+          "id": "7bgIwJ5S-b6DXdLe-pWlI-res-3",
+          "type": "article",
+          "title": "OpenClaw Memory Masterclass: The complete guide to agent memory that survives • VelvetShark",
+          "url": "https://velvetshark.com/openclaw-memory-masterclass"
+        }
+      ]
+    },
+    "kotkvs1mJRlHaEZA5NyDp": {
+      "id": "kotkvs1mJRlHaEZA5NyDp",
+      "slug": "context",
+      "title": "/context",
+      "description": "`/context` explains what context the agent is currently working with. You can use `/context list` for a summary, `/context detail` for a breakdown of per-file, per-tool, per-skill, and system prompt sizes, or `/context json` for machine-readable output.",
+      "resources": [
+        {
+          "id": "kotkvs1mJRlHaEZA5NyDp-res-1",
+          "type": "article",
+          "title": "Slash Commands",
+          "url": "https://docs.openclaw.ai/tools/slash-commands#command-list"
+        }
+      ]
+    },
+    "l4jRfrWA0ATEsywdoZQyv": {
+      "id": "l4jRfrWA0ATEsywdoZQyv",
+      "slug": "creating-plugins",
+      "title": "Creating Plugins",
+      "description": "You can build your own plugins to add custom functionality to Open Claw, such as integrating a new service or adding a new type of tool the agent can call.",
+      "resources": [
+        {
+          "id": "l4jRfrWA0ATEsywdoZQyv-res-1",
+          "type": "article",
+          "title": "Building Plugins",
+          "url": "https://docs.openclaw.ai/plugins/building-plugins"
+        }
+      ]
+    },
+    "xRDXMh4n8LghBX5TH0LIu": {
+      "id": "xRDXMh4n8LghBX5TH0LIu",
+      "slug": "creating-skills",
+      "title": "Creating Skills",
+      "description": "You can write your own skills by creating a `SKILL.md` file with instructions and placing it in your workspace's `skills/` folder. This lets you teach the agent new behaviors tailored to your specific needs.",
+      "resources": [
+        {
+          "id": "xRDXMh4n8LghBX5TH0LIu-res-1",
+          "type": "article",
+          "title": "Creating Skills",
+          "url": "https://docs.openclaw.ai/tools/creating-skills"
+        },
+        {
+          "id": "xRDXMh4n8LghBX5TH0LIu-res-2",
+          "type": "video",
+          "title": "Create Unlimited OpenClaw Skills | Full Tutorial (Upstage Studio Skill)",
+          "url": "https://www.youtube.com/watch?v=aYsPTu7VzEs"
+        }
+      ]
+    },
+    "lHePFHLUR1BKK9mC0HWLU": {
+      "id": "lHePFHLUR1BKK9mC0HWLU",
+      "slug": "cron-add",
+      "title": "openclaw cron add",
+      "description": "`openclaw cron add` registers a new scheduled task, letting you define what the agent should do and when it should trigger automatically.",
+      "resources": [
+        {
+          "id": "lHePFHLUR1BKK9mC0HWLU-res-1",
+          "type": "article",
+          "title": "Scheduled Tasks",
+          "url": "https://docs.openclaw.ai/automation/cron-jobs"
+        },
+        {
+          "id": "lHePFHLUR1BKK9mC0HWLU-res-2",
+          "type": "article",
+          "title": "Cron",
+          "url": "https://docs.openclaw.ai/cli/index#cron"
+        }
+      ]
+    },
+    "3v3VJETUQ1x1eKWUo8jhf": {
+      "id": "3v3VJETUQ1x1eKWUo8jhf",
+      "slug": "cron-jobs",
+      "title": "Cron Jobs",
+      "description": "Cron jobs are scheduled tasks that run at specific times or intervals. They allow you to automate recurring actions like summaries, cleanups, or reports without any human prompt.",
+      "resources": [
+        {
+          "id": "3v3VJETUQ1x1eKWUo8jhf-res-1",
+          "type": "article",
+          "title": "Scheduled Tasks",
+          "url": "https://docs.openclaw.ai/automation/cron-jobs"
+        },
+        {
+          "id": "3v3VJETUQ1x1eKWUo8jhf-res-2",
+          "type": "video",
+          "title": "OpenClaw Cron Jobs vs Heartbeat Explained",
+          "url": "https://www.youtube.com/watch?v=KtNZ1twkc7o"
+        }
+      ]
+    },
+    "0NpspxLPvMqvmeIq8hdd1": {
+      "id": "0NpspxLPvMqvmeIq8hdd1",
+      "slug": "cron-list",
+      "title": "openclaw cron list",
+      "description": "`openclaw cron list` shows all the scheduled tasks currently registered in Open Claw along with their schedules and status.",
+      "resources": [
+        {
+          "id": "0NpspxLPvMqvmeIq8hdd1-res-1",
+          "type": "article",
+          "title": "Scheduled Tasks",
+          "url": "https://docs.openclaw.ai/automation/cron-jobs"
+        },
+        {
+          "id": "0NpspxLPvMqvmeIq8hdd1-res-2",
+          "type": "article",
+          "title": "Cron",
+          "url": "https://docs.openclaw.ai/cli/index#cron"
+        }
+      ]
+    },
+    "y8n10TL6_mWldqclw1Dcz": {
+      "id": "y8n10TL6_mWldqclw1Dcz",
+      "slug": "dedicated-hardware",
+      "title": "Dedicated Hardware",
+      "description": "Running Open Claw on dedicated hardware means using a physical device like a Raspberry Pi or Mac Mini that runs continuously in your home or office. This gives you full control and low ongoing costs with no monthly cloud fees.",
+      "resources": [
+        {
+          "id": "y8n10TL6_mWldqclw1Dcz-res-1",
+          "type": "article",
+          "title": "How to Install OpenClaw: A Complete Setup Guide",
+          "url": "https://roadmap.sh/openclaw/installation-guide"
+        },
+        {
+          "id": "y8n10TL6_mWldqclw1Dcz-res-2",
+          "type": "article",
+          "title": "OpenClaw: The complete guide to building, training, and living with your personal AI agent",
+          "url": "https://www.lennysnewsletter.com/p/openclaw-the-complete-guide-to-building?hide_intro_popup=true"
+        }
+      ]
+    },
+    "OPHuAD0L-GZ6zRhIhbmPL": {
+      "id": "OPHuAD0L-GZ6zRhIhbmPL",
+      "slug": "deploy-on-an-isolated-vps-vm-or-dedicated-device-not-your-pc",
+      "title": "Deploy on an Isolated VPS, VM, or Dedicated Device",
+      "description": "Running Open Claw on a dedicated, isolated machine rather than your personal computer limits the blast radius if something goes wrong and keeps your agent separate from your sensitive personal data.",
+      "resources": [
+        {
+          "id": "OPHuAD0L-GZ6zRhIhbmPL-res-1",
+          "type": "article",
+          "title": "Security",
+          "url": "https://docs.openclaw.ai/gateway/security"
+        },
+        {
+          "id": "OPHuAD0L-GZ6zRhIhbmPL-res-2",
+          "type": "article",
+          "title": "Remote Access",
+          "url": "https://docs.openclaw.ai/gateway/remote#macos-persistent-ssh-tunnel-via-launchagent"
+        },
+        {
+          "id": "OPHuAD0L-GZ6zRhIhbmPL-res-3",
+          "type": "article",
+          "title": "OpenClaw Security: 12 Best Practices Our Experts Recommend",
+          "url": "https://roadmap.sh/openclaw/security-best-practices"
+        },
+        {
+          "id": "OPHuAD0L-GZ6zRhIhbmPL-res-4",
+          "type": "video",
+          "title": "How to Secure OpenClaw - Complete Security Guide with Private Models",
+          "url": "https://www.youtube.com/watch?v=jPslceOAbv0"
+        }
+      ]
+    },
+    "ghi0M5P_JMm7D_JhIwJXC": {
+      "id": "ghi0M5P_JMm7D_JhIwJXC",
+      "slug": "discord",
+      "title": "Discord",
+      "description": "Discord is a chat platform popular in gaming and developer communities. Open Claw connects to it via the Discord Bot API and Gateway, supporting servers, channels, and DMs.",
+      "resources": [
+        {
+          "id": "ghi0M5P_JMm7D_JhIwJXC-res-1",
+          "type": "article",
+          "title": "Discord Channel",
+          "url": "https://docs.openclaw.ai/channels/discord"
+        },
+        {
+          "id": "ghi0M5P_JMm7D_JhIwJXC-res-2",
+          "type": "video",
+          "title": "Set Up OpenClaw + Discord Fast (Step-by-Step)",
+          "url": "https://www.youtube.com/watch?v=uy_wmsEwW6U"
+        }
+      ]
+    },
+    "nVzj2P826S2LjUCpdYGVo": {
+      "id": "nVzj2P826S2LjUCpdYGVo",
+      "slug": "docker",
+      "title": "Docker / Isolated Install",
+      "description": "Docker lets you run Open Claw inside a container, an isolated environment that keeps it separate from the rest of your system. This makes installation cleaner, reduces conflicts with other software, and makes it easier to remove or update later.",
+      "resources": [
+        {
+          "id": "nVzj2P826S2LjUCpdYGVo-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated Docker Roadmap",
+          "url": "https://roadmap.sh/docker"
+        },
+        {
+          "id": "nVzj2P826S2LjUCpdYGVo-res-2",
+          "type": "article",
+          "title": "Docker Install",
+          "url": "https://docs.openclaw.ai/install/docker"
+        },
+        {
+          "id": "nVzj2P826S2LjUCpdYGVo-res-3",
+          "type": "article",
+          "title": "Use OpenClaw to Make a Personal AI Assistant",
+          "url": "https://towardsdatascience.com/use-openclaw-to-make-a-personal-ai-assistant/?utm_source=roadmap&utm_medium=Referral&utm_campaign=TDS+roadmap+integration"
+        },
+        {
+          "id": "nVzj2P826S2LjUCpdYGVo-res-4",
+          "type": "video",
+          "title": "How To Install and Setup OpenClaw With Docker | OpenClaw AI Docker Setup | Clawdbot, Moltbot",
+          "url": "https://www.youtube.com/watch?v=Ql4nm0FW_MA"
+        }
+      ]
+    },
+    "qAL663Fl50skXD_zd1I7c": {
+      "id": "qAL663Fl50skXD_zd1I7c",
+      "slug": "doctor---deep",
+      "title": "openclaw doctor --deep",
+      "description": "`openclaw doctor --deep` is an extended version of `openclaw doctor` that performs a more thorough diagnostic check, scanning system services for extra gateway installs and deeper configuration issues that the standard check might miss. You can add the `--yes` flag to automatically accept any prompts without manual input, which is useful for running the command in a headless or",
+      "resources": [
+        {
+          "id": "qAL663Fl50skXD_zd1I7c-res-1",
+          "type": "article",
+          "title": "Doctor",
+          "url": "https://docs.openclaw.ai/gateway/doctor"
+        },
+        {
+          "id": "qAL663Fl50skXD_zd1I7c-res-2",
+          "type": "article",
+          "title": "doctor",
+          "url": "https://docs.openclaw.ai/cli/doctor"
+        }
+      ]
+    },
+    "Phj_imdYA3Fr4HTcfyidD": {
+      "id": "Phj_imdYA3Fr4HTcfyidD",
+      "slug": "doctor",
+      "title": "openclaw doctor",
+      "description": "The `openclaw doctor` command checks your Open Claw installation for common configuration problems and misconfigurations. It is the first thing to run when something is not working as expected.",
+      "resources": [
+        {
+          "id": "Phj_imdYA3Fr4HTcfyidD-res-1",
+          "type": "article",
+          "title": "Doctor",
+          "url": "https://docs.openclaw.ai/gateway/doctor"
+        },
+        {
+          "id": "Phj_imdYA3Fr4HTcfyidD-res-2",
+          "type": "article",
+          "title": "doctor",
+          "url": "https://docs.openclaw.ai/cli/doctor"
+        }
+      ]
+    },
+    "qlMuVy6jwwsrSvS-xE9NT": {
+      "id": "qlMuVy6jwwsrSvS-xE9NT",
+      "slug": "enable-device-pairing-and-maintain-a-minimal-sender-allowlist",
+      "title": "Enable Device Pairing and Maintain a Minimal Sender Allowlist",
+      "description": "Device pairing ensures only verified devices can talk to your agent. Keeping the allowlist minimal means only the people or systems you explicitly trust can send it messages.",
+      "resources": [
+        {
+          "id": "qlMuVy6jwwsrSvS-xE9NT-res-1",
+          "type": "article",
+          "title": "Pairing",
+          "url": "https://docs.openclaw.ai/channels/pairing#pairing"
+        },
+        {
+          "id": "qlMuVy6jwwsrSvS-xE9NT-res-2",
+          "type": "article",
+          "title": "Allowlists (DM + groups) - terminology",
+          "url": "https://docs.openclaw.ai/gateway/security/index#allowlists-dm-+-groups-terminology"
+        }
+      ]
+    },
+    "HnF_CCNL3pssicFlGNta3": {
+      "id": "HnF_CCNL3pssicFlGNta3",
+      "slug": "event-types",
+      "title": "Event Types",
+      "description": "Open Claw hooks support a range of event types, including command events like `/new` and `/reset`, session events like compaction, agent bootstrap events, gateway startup events, and message received and sent events.",
+      "resources": [
+        {
+          "id": "HnF_CCNL3pssicFlGNta3-res-1",
+          "type": "article",
+          "title": "Event Types",
+          "url": "https://docs.openclaw.ai/automation/hooks#event-types"
+        }
+      ]
+    },
+    "RZ2afehxi2PlKAFp9WY_3": {
+      "id": "RZ2afehxi2PlKAFp9WY_3",
+      "slug": "fast",
+      "title": "/fast",
+      "description": "`/fast` is a directive that toggles fast mode for the current session. It takes `on`, `off`, or `status` as arguments. Fast mode maps to different provider-level behaviors depending on your model — for example, `service_tier=priority` on OpenAI or `service_tier=auto` on Anthropic. Omitting the argument shows the current effective fast-mode state.",
+      "resources": [
+        {
+          "id": "RZ2afehxi2PlKAFp9WY_3-res-1",
+          "type": "article",
+          "title": "Fast mode (/fast)",
+          "url": "https://docs.openclaw.ai/tools/thinking#fast-mode-/fast"
+        },
+        {
+          "id": "RZ2afehxi2PlKAFp9WY_3-res-2",
+          "type": "article",
+          "title": "Slash Commands",
+          "url": "https://docs.openclaw.ai/tools/slash-commands"
+        }
+      ]
+    },
+    "nU3pnqImGhRO3QwK4CLeM": {
+      "id": "nU3pnqImGhRO3QwK4CLeM",
+      "slug": "gateway-settings",
+      "title": "Gateway Settings",
+      "description": "Gateway settings control how the Open Claw server behaves, including the port it listens on, authentication tokens, and which interfaces it binds to. These settings are critical for both functionality and security.",
+      "resources": [
+        {
+          "id": "nU3pnqImGhRO3QwK4CLeM-res-1",
+          "type": "article",
+          "title": "Gateway Configuration",
+          "url": "https://docs.openclaw.ai/gateway/configuration"
+        }
+      ]
+    },
+    "ZCY_hUhVIMLPoXnRXVpkN": {
+      "id": "ZCY_hUhVIMLPoXnRXVpkN",
+      "slug": "gateway-start--stop--restart",
+      "title": "openclaw gateway start | stop | restart",
+      "description": "`openclaw gateway start`, `openclaw gateway stop`, and `openclaw gateway restart` control the lifecycle of the Open Claw gateway process, starting it up, shutting it down, or restarting it after a configuration change.",
+      "resources": [
+        {
+          "id": "ZCY_hUhVIMLPoXnRXVpkN-res-1",
+          "type": "article",
+          "title": "Gateway Runbook",
+          "url": "https://docs.openclaw.ai/gateway"
+        },
+        {
+          "id": "ZCY_hUhVIMLPoXnRXVpkN-res-2",
+          "type": "article",
+          "title": "Manage the Gateway service",
+          "url": "https://docs.openclaw.ai/cli/gateway#manage-the-gateway-service"
+        }
+      ]
+    },
+    "bH9ebjEofXA3mwnmqRzW1": {
+      "id": "bH9ebjEofXA3mwnmqRzW1",
+      "slug": "gateway",
+      "title": "openclaw gateway",
+      "description": "`openclaw gateway` is the main command for interacting with the gateway process. It is the entry point for all gateway-related operations from the command line.",
+      "resources": [
+        {
+          "id": "bH9ebjEofXA3mwnmqRzW1-res-1",
+          "type": "article",
+          "title": "Gateway Runbook",
+          "url": "https://docs.openclaw.ai/gateway"
+        },
+        {
+          "id": "bH9ebjEofXA3mwnmqRzW1-res-2",
+          "type": "article",
+          "title": "gateway",
+          "url": "https://docs.openclaw.ai/cli/gateway#gateway"
+        }
+      ]
+    },
+    "w8Vwf1Ak_gNdvgXOgU1Fo": {
+      "id": "w8Vwf1Ak_gNdvgXOgU1Fo",
+      "slug": "gateway",
+      "title": "Gateway",
+      "description": "The Gateway is the single always-on process that handles routing, the control plane, and all channel connections. It runs on a single multiplexed port that serves the WebSocket control and RPC interface, HTTP APIs, the Control UI, and hooks. By default, it binds to localhost and requires an auth token before accepting any connections.",
+      "resources": [
+        {
+          "id": "w8Vwf1Ak_gNdvgXOgU1Fo-res-1",
+          "type": "article",
+          "title": "Gateway Runbook",
+          "url": "https://docs.openclaw.ai/gateway"
+        },
+        {
+          "id": "w8Vwf1Ak_gNdvgXOgU1Fo-res-2",
+          "type": "article",
+          "title": "OpenClaw Gateway: Setup, Start/Stop Commands & Remote Mode",
+          "url": "https://www.meta-intelligence.tech/en/insight-openclaw-gateway"
+        }
+      ]
+    },
+    "Le0uptRoIlwTZ7crU3rMQ": {
+      "id": "Le0uptRoIlwTZ7crU3rMQ",
+      "slug": "gemini",
+      "title": "Gemini",
+      "description": "Gemini is Google's family of AI models. Open Claw supports Gemini as an alternative model provider, giving you access to Google's AI infrastructure for powering your agents.",
+      "resources": [
+        {
+          "id": "Le0uptRoIlwTZ7crU3rMQ-res-1",
+          "type": "article",
+          "title": "Google (Gemini) Provider",
+          "url": "https://docs.openclaw.ai/providers/google"
+        },
+        {
+          "id": "Le0uptRoIlwTZ7crU3rMQ-res-2",
+          "type": "video",
+          "title": "Gemini 3.1 Pro + OpenClaw Tested!",
+          "url": "https://www.youtube.com/watch?v=es16_Icm_PM"
+        }
+      ]
+    },
+    "eXo_Wxhg-i7v6lx12NqAu": {
+      "id": "eXo_Wxhg-i7v6lx12NqAu",
+      "slug": "heartbeatmd",
+      "title": "HEARTBEAT.md",
+      "description": "[HEARTBEAT.md](http://HEARTBEAT.md) is a workspace configuration file where you define what the agent should do during each heartbeat cycle — essentially a set of instructions for proactive, time-based behavior.",
+      "resources": [
+        {
+          "id": "eXo_Wxhg-i7v6lx12NqAu-res-1",
+          "type": "article",
+          "title": "HEARTBEAT.md",
+          "url": "https://docs.openclaw.ai/gateway/heartbeat#heartbeat-md-optional"
+        },
+        {
+          "id": "eXo_Wxhg-i7v6lx12NqAu-res-2",
+          "type": "article",
+          "title": "HEARTBEAT.md Template",
+          "url": "https://docs.openclaw.ai/reference/templates/HEARTBEAT"
+        }
+      ]
+    },
+    "XCpfUKOalyeNAx6Z5DPVG": {
+      "id": "XCpfUKOalyeNAx6Z5DPVG",
+      "slug": "heartbeats",
+      "title": "Heartbeats",
+      "description": "Heartbeats are periodic signals the Gateway emits on a regular interval. They can be used to confirm the agent is alive and to trigger recurring background tasks without any human input.",
+      "resources": [
+        {
+          "id": "XCpfUKOalyeNAx6Z5DPVG-res-1",
+          "type": "article",
+          "title": "Scheduled Tasks (Cron) vs Heartbeat",
+          "url": "https://docs.openclaw.ai/automation#scheduled-tasks-cron-vs-heartbeat"
+        },
+        {
+          "id": "XCpfUKOalyeNAx6Z5DPVG-res-2",
+          "type": "article",
+          "title": "Heartbeat",
+          "url": "https://docs.openclaw.ai/gateway/heartbeat"
+        },
+        {
+          "id": "XCpfUKOalyeNAx6Z5DPVG-res-3",
+          "type": "video",
+          "title": "OpenClaw Cron Jobs vs Heartbeat Explained",
+          "url": "https://www.youtube.com/watch?v=KtNZ1twkc7o"
+        }
+      ]
+    },
+    "jQwU2VQFmjyWQHn5PpViF": {
+      "id": "jQwU2VQFmjyWQHn5PpViF",
+      "slug": "help",
+      "title": "/help",
+      "description": "`/help` displays a list of available slash commands and a brief description of what each one does. It also works as an inline shortcut, meaning it can be embedded in a normal message and will be stripped before the model sees the rest of the text.",
+      "resources": [
+        {
+          "id": "jQwU2VQFmjyWQHn5PpViF-res-1",
+          "type": "article",
+          "title": "Slash Commands",
+          "url": "https://docs.openclaw.ai/tools/slash-commands"
+        }
+      ]
+    },
+    "yxty1gRUtcy-GoPFV4ybO": {
+      "id": "yxty1gRUtcy-GoPFV4ybO",
+      "slug": "hook-structure",
+      "title": "Hook Structure",
+      "description": "Each hook is a directory containing a `HOOK.md` file with metadata and a `handler.ts` file with the logic to run. The metadata defines which events to listen for and what requirements the hook needs to be eligible.",
+      "resources": [
+        {
+          "id": "yxty1gRUtcy-GoPFV4ybO-res-1",
+          "type": "article",
+          "title": "Hook Structure",
+          "url": "https://docs.openclaw.ai/automation/hooks#hook-structure"
+        }
+      ]
+    },
+    "KJ_Y5N8D-FWZIz52ajcO8": {
+      "id": "KJ_Y5N8D-FWZIz52ajcO8",
+      "slug": "hooks",
+      "title": "Hooks",
+      "description": "Hooks are small scripts that run inside the Gateway when specific agent events fire, like `/new`, `/reset`, `/stop`, or lifecycle events. They are automatically discovered from directories and can be inspected with `openclaw hooks`.",
+      "resources": [
+        {
+          "id": "KJ_Y5N8D-FWZIz52ajcO8-res-1",
+          "type": "article",
+          "title": "Hooks",
+          "url": "https://docs.openclaw.ai/automation/hooks"
+        }
+      ]
+    },
+    "EggP8_uXPbgQeNKQFP4JJ": {
+      "id": "EggP8_uXPbgQeNKQFP4JJ",
+      "slug": "how-openclaw-works",
+      "title": "How OpenClaw Works",
+      "description": "Open Claw runs a single long-lived Gateway that owns all messaging surfaces and exposes a typed WebSocket API for control-plane clients like the macOS app, CLI, and web UI. When a message arrives, the Gateway routes it to the appropriate agent, which then runs through a full loop of context assembly, model inference, and tool execution before streaming a reply back.",
+      "resources": [
+        {
+          "id": "EggP8_uXPbgQeNKQFP4JJ-res-1",
+          "type": "article",
+          "title": "OpenClaw Overview",
+          "url": "https://docs.openclaw.ai/"
+        },
+        {
+          "id": "EggP8_uXPbgQeNKQFP4JJ-res-2",
+          "type": "article",
+          "title": "Gateway Architecture",
+          "url": "https://docs.openclaw.ai/concepts/architecture"
+        },
+        {
+          "id": "EggP8_uXPbgQeNKQFP4JJ-res-3",
+          "type": "article",
+          "title": "OpenClaw Architecture, Explained: How It Works",
+          "url": "https://ppaolo.substack.com/p/openclaw-system-architecture-overview"
+        },
+        {
+          "id": "EggP8_uXPbgQeNKQFP4JJ-res-4",
+          "type": "video",
+          "title": "How OpenClaw Works: The Architecture Behind the 'Magic'",
+          "url": "https://www.youtube.com/watch?v=CAbrRTu5xcw&t=75s"
+        }
+      ]
+    },
+    "ouy9TRfFrXcsTKh_E2qjq": {
+      "id": "ouy9TRfFrXcsTKh_E2qjq",
+      "slug": "imessage",
+      "title": "iMessage",
+      "description": "iMessage is Apple's built-in messaging system. The recommended way to connect it to Open Claw is via BlueBubbles, a macOS server that provides a full-featured REST API for iMessage integration.",
+      "resources": [
+        {
+          "id": "ouy9TRfFrXcsTKh_E2qjq-res-1",
+          "type": "article",
+          "title": "BlueBubbles Channel",
+          "url": "https://docs.openclaw.ai/channels/bluebubbles"
+        },
+        {
+          "id": "ouy9TRfFrXcsTKh_E2qjq-res-2",
+          "type": "article",
+          "title": "OpenClaw SMS and iMessage setup guide (Twilio, BlueBubbles, imsg)",
+          "url": "https://lumadock.com/tutorials/openclaw-sms-imessage-setup-guide"
+        }
+      ]
+    },
+    "2JiT8CS9PSVSfIeao29hq": {
+      "id": "2JiT8CS9PSVSfIeao29hq",
+      "slug": "installation",
+      "title": "Installation",
+      "description": "Installation covers the steps to get Open Claw onto your chosen environment. It requires a recent version of Node.js, an API key from your chosen model provider, and takes around five minutes. The core install command is `npm install -g openclaw@latest`, after which you run openclaw onboard to connect your first model and channel. Always check the official documentation for the current Node.js version requirements before installing, as these may change between releases.",
+      "resources": [
+        {
+          "id": "2JiT8CS9PSVSfIeao29hq-res-1",
+          "type": "article",
+          "title": "Getting Started",
+          "url": "https://docs.openclaw.ai/start/getting-started"
+        }
+      ]
+    },
+    "rEUJIhqOUyLORy6cnlAAj": {
+      "id": "rEUJIhqOUyLORy6cnlAAj",
+      "slug": "installing-from-clawhub",
+      "title": "Installing from ClawHub",
+      "description": "ClawHub is a community repository of pre-built skills. You can browse and install skills from ClawHub directly, saving time compared to building them from scratch.",
+      "resources": [
+        {
+          "id": "rEUJIhqOUyLORy6cnlAAj-res-1",
+          "type": "article",
+          "title": "ClawHub",
+          "url": "https://clawhub.ai/"
+        },
+        {
+          "id": "rEUJIhqOUyLORy6cnlAAj-res-2",
+          "type": "article",
+          "title": "What is ClawHub?",
+          "url": "https://docs.openclaw.ai/tools/clawhub"
+        }
+      ]
+    },
+    "reIkqx-GGIq31cv2cHXbZ": {
+      "id": "reIkqx-GGIq31cv2cHXbZ",
+      "slug": "installing-plugins",
+      "title": "Installing Plugins",
+      "description": "Plugins are installed via `openclaw plugins install` followed by the package name or path. Once installed, they become available to all agents in your workspace.",
+      "resources": [
+        {
+          "id": "reIkqx-GGIq31cv2cHXbZ-res-1",
+          "type": "article",
+          "title": "Install and Configure",
+          "url": "https://docs.openclaw.ai/tools/plugin"
+        }
+      ]
+    },
+    "D8VJRcsVLzwCLSZX5TkoR": {
+      "id": "D8VJRcsVLzwCLSZX5TkoR",
+      "slug": "interval--active-hours",
+      "title": "Interval & Active Hours",
+      "description": "You can configure how often heartbeats fire and restrict them to certain hours of the day, so your agent only runs automated tasks during times you define as active.",
+      "resources": [
+        {
+          "id": "D8VJRcsVLzwCLSZX5TkoR-res-1",
+          "type": "article",
+          "title": "Heartbeat",
+          "url": "https://docs.openclaw.ai/gateway/heartbeat#heartbeat-gateway"
+        }
+      ]
+    },
+    "6VS0lRVk60w49FvRiCRWK": {
+      "id": "6VS0lRVk60w49FvRiCRWK",
+      "slug": "introduction",
+      "title": "Introduction",
+      "description": "Open Claw is a self-hosted AI agent gateway that connects your messaging apps to AI models you control. You run a single Gateway process on your own machine or server, and it becomes the bridge between platforms like Telegram, WhatsApp, Discord, Slack, Signal, and more, and an always-available AI assistant. It is MIT-licensed, open source, and designed for developers and power users who want a personal AI they can message from anywhere without giving up control of their data.",
+      "resources": [
+        {
+          "id": "6VS0lRVk60w49FvRiCRWK-res-1",
+          "type": "article",
+          "title": "Open Claw Docs",
+          "url": "https://docs.openclaw.ai/"
+        },
+        {
+          "id": "6VS0lRVk60w49FvRiCRWK-res-2",
+          "type": "article",
+          "title": "What Is OpenClaw? The Open-Source AI Agent That Actually Does Things",
+          "url": "https://www.mindstudio.ai/blog/what-is-openclaw-ai-agent"
+        },
+        {
+          "id": "6VS0lRVk60w49FvRiCRWK-res-3",
+          "type": "video",
+          "title": "The wild rise of OpenClaw...",
+          "url": "https://www.youtube.com/watch?v=ssYt09bCgUY"
+        }
+      ]
+    },
+    "02A7y4sZ-qg3-dx1wmxwj": {
+      "id": "02A7y4sZ-qg3-dx1wmxwj",
+      "slug": "local-machine",
+      "title": "Local Machine",
+      "description": "Running Open Claw on your local machine means installing it directly on your personal computer. This is the quickest way to get started and is good for experimentation, though it comes with limitations around uptime and accessibility from outside your network.",
+      "resources": [
+        {
+          "id": "02A7y4sZ-qg3-dx1wmxwj-res-1",
+          "type": "article",
+          "title": "Getting Started",
+          "url": "https://docs.openclaw.ai/start/getting-started"
+        },
+        {
+          "id": "02A7y4sZ-qg3-dx1wmxwj-res-2",
+          "type": "article",
+          "title": "How to Install OpenClaw: A Complete Setup Guide",
+          "url": "https://roadmap.sh/openclaw/installation-guide"
+        },
+        {
+          "id": "02A7y4sZ-qg3-dx1wmxwj-res-3",
+          "type": "video",
+          "title": "OpenClaw Full Tutorial for Beginners – How to Set Up and Use OpenClaw (ClawdBot / MoltBot)",
+          "url": "https://www.youtube.com/watch?v=n1sfrc-RjyM"
+        }
+      ]
+    },
+    "oEAIlEf0PqO8TWl-w2NUC": {
+      "id": "oEAIlEf0PqO8TWl-w2NUC",
+      "slug": "mac-mini",
+      "title": "Mac Mini",
+      "description": "A Mac Mini is a compact desktop computer that works well as a home server for Open Claw. It is more powerful than a Raspberry Pi and runs macOS, which may simplify setup for Mac users.",
+      "resources": [
+        {
+          "id": "oEAIlEf0PqO8TWl-w2NUC-res-1",
+          "type": "video",
+          "title": "How to set up OpenClaw on Mac mini (full tutorial)",
+          "url": "https://www.youtube.com/watch?v=dKRJQeGIj_E"
+        },
+        {
+          "id": "oEAIlEf0PqO8TWl-w2NUC-res-2",
+          "type": "video",
+          "title": "OpenClaw Installation Guide: The Setup That Actually Works!",
+          "url": "https://www.youtube.com/watch?v=9xnWCeLhRow"
+        }
+      ]
+    },
+    "aezBZ3XK1cXgMn1QTvBMs": {
+      "id": "aezBZ3XK1cXgMn1QTvBMs",
+      "slug": "managing--disabling-jobs",
+      "title": "Managing & Disabling Jobs",
+      "description": "You can list, pause, and delete cron jobs from the command line, giving you control over which scheduled tasks are active at any given time.",
+      "resources": [
+        {
+          "id": "aezBZ3XK1cXgMn1QTvBMs-res-1",
+          "type": "article",
+          "title": "Managing jobs",
+          "url": "https://docs.openclaw.ai/automation/cron-jobs#managing-jobs"
+        }
+      ]
+    },
+    "kPrB8vWCQkXdiEm42TVel": {
+      "id": "kPrB8vWCQkXdiEm42TVel",
+      "slug": "mcp",
+      "title": "/mcp",
+      "description": "`/mcp` manages OpenClaw-managed MCP server definitions from chat. It is disabled by default and requires `commands.mcp: true` to enable. It supports `show`, `get`, `set`, and `unset` subcommands and is owner-only",
+      "resources": [
+        {
+          "id": "kPrB8vWCQkXdiEm42TVel-res-1",
+          "type": "article",
+          "title": "MCP Updates",
+          "url": "https://docs.openclaw.ai/tools/slash-commands#mcp-updates"
+        },
+        {
+          "id": "kPrB8vWCQkXdiEm42TVel-res-2",
+          "type": "article",
+          "title": "mcp",
+          "url": "https://docs.openclaw.ai/cli/mcp#mcp"
+        }
+      ]
+    },
+    "vFjddVdOJvkTDptambYt0": {
+      "id": "vFjddVdOJvkTDptambYt0",
+      "slug": "mcp",
+      "title": "MCP",
+      "description": "MCP (Model Context Protocol) is an open standard for connecting AI models to external tools and data sources. Open Claw supports MCP, allowing your agent to call tools from any MCP-compatible server.",
+      "resources": [
+        {
+          "id": "vFjddVdOJvkTDptambYt0-res-1",
+          "type": "article",
+          "title": "mcp",
+          "url": "https://docs.openclaw.ai/cli/mcp#mcp"
+        },
+        {
+          "id": "vFjddVdOJvkTDptambYt0-res-2",
+          "type": "article",
+          "title": "How to Set Up OpenClaw MCP Server",
+          "url": "https://fast.io/resources/openclaw-mcp-setup/"
+        }
+      ]
+    },
+    "Bz_gfPslArn4PH1clLiWl": {
+      "id": "Bz_gfPslArn4PH1clLiWl",
+      "slug": "memory-index---all",
+      "title": "openclaw memory index",
+      "description": "`openclaw memory index` rebuilds the search index for all memory files, ensuring the agent can efficiently retrieve relevant information from its stored memories.",
+      "resources": [
+        {
+          "id": "Bz_gfPslArn4PH1clLiWl-res-1",
+          "type": "article",
+          "title": "Memory overview",
+          "url": "https://docs.openclaw.ai/concepts/memory#memory-overview"
+        },
+        {
+          "id": "Bz_gfPslArn4PH1clLiWl-res-2",
+          "type": "article",
+          "title": "memory",
+          "url": "https://docs.openclaw.ai/cli/index#memory"
+        }
+      ]
+    },
+    "eEXTZXgd2F51OAQQ6jELC": {
+      "id": "eEXTZXgd2F51OAQQ6jELC",
+      "slug": "memory-search-query",
+      "title": "openclaw memory search \"query\"",
+      "description": "`openclaw memory search \"query\"` lets you search through the agent's stored memories using a keyword or phrase, useful for checking what the agent has remembered about past conversations or preferences.",
+      "resources": [
+        {
+          "id": "eEXTZXgd2F51OAQQ6jELC-res-1",
+          "type": "article",
+          "title": "Memory",
+          "url": "https://docs.openclaw.ai/cli/index#memory"
+        }
+      ]
+    },
+    "c9fsU9OeThY79MYbpzbA0": {
+      "id": "c9fsU9OeThY79MYbpzbA0",
+      "slug": "memory-system",
+      "title": "Memory System",
+      "description": "The memory system allows Open Claw agents to remember information across conversations. Instead of starting fresh every time, agents can store and retrieve facts, past interactions, or user preferences from structured memory files in the workspace. Open Claw also includes a compaction system that automatically summarizes older conversation history when a session grows too long, preserving the essential information while freeing up space for new exchanges.",
+      "resources": [
+        {
+          "id": "c9fsU9OeThY79MYbpzbA0-res-1",
+          "type": "article",
+          "title": "Memory",
+          "url": "https://docs.openclaw.ai/concepts/memory"
+        },
+        {
+          "id": "c9fsU9OeThY79MYbpzbA0-res-2",
+          "type": "article",
+          "title": "Compaction",
+          "url": "https://docs.openclaw.ai/concepts/compaction"
+        }
+      ]
+    },
+    "HebyE2mjSdCLBEbiJAbsC": {
+      "id": "HebyE2mjSdCLBEbiJAbsC",
+      "slug": "memorymd",
+      "title": "MEMORY.md",
+      "description": "[MEMORY.md](http://MEMORY.md) is a persistent file where the agent stores important facts it has learned over time. It is regularly updated so the agent can recall relevant information in future conversations.",
+      "resources": [
+        {
+          "id": "HebyE2mjSdCLBEbiJAbsC-res-1",
+          "type": "article",
+          "title": "Memory Overview",
+          "url": "https://docs.openclaw.ai/concepts/memory#memory-overview"
+        },
+        {
+          "id": "HebyE2mjSdCLBEbiJAbsC-res-2",
+          "type": "article",
+          "title": "MEMORY.md - Your Long-Term Memory",
+          "url": "https://docs.openclaw.ai/reference/templates/AGENTS#-memory-md-your-long-term-memory"
+        }
+      ]
+    },
+    "U1W-s3E2Iu74sFyf4U-vQ": {
+      "id": "U1W-s3E2Iu74sFyf4U-vQ",
+      "slug": "memoryyyyy-mm-ddmd",
+      "title": "memory/YYYY-MM-DD.md",
+      "description": "These are dated memory log files that store a record of what happened on a specific day. They give the agent a chronological history that it can reference when needed, and are created automatically by the session-memory hook.",
+      "resources": [
+        {
+          "id": "U1W-s3E2Iu74sFyf4U-vQ-res-1",
+          "type": "article",
+          "title": "Memory Overview",
+          "url": "https://docs.openclaw.ai/concepts/memory"
+        }
+      ]
+    },
+    "-sFXMyN-4VvXdJCaU8qiK": {
+      "id": "-sFXMyN-4VvXdJCaU8qiK",
+      "slug": "model",
+      "title": "/model",
+      "description": "`/model` is a directive that lets you switch the AI model the agent is currently using. You can pass a number from the model picker, a full `provider/model` string, or use `/model list` to see available options.",
+      "resources": [
+        {
+          "id": "-sFXMyN-4VvXdJCaU8qiK-res-1",
+          "type": "article",
+          "title": "Model selection (/model)",
+          "url": "https://docs.openclaw.ai/tools/slash-commands#model-selection-/model"
+        }
+      ]
+    },
+    "ce3e7IMiN-n3wX9PvJXoW": {
+      "id": "ce3e7IMiN-n3wX9PvJXoW",
+      "slug": "models-auth-add",
+      "title": "openclaw models auth add",
+      "description": "`openclaw models auth add` is the interactive auth helper. It can launch a provider auth flow (OAuth/API key) or guide you into manual token paste, depending on the provider you choose.",
+      "resources": [
+        {
+          "id": "ce3e7IMiN-n3wX9PvJXoW-res-1",
+          "type": "article",
+          "title": "Model Providers",
+          "url": "https://docs.openclaw.ai/concepts/model-providers#model-providers"
+        },
+        {
+          "id": "ce3e7IMiN-n3wX9PvJXoW-res-2",
+          "type": "article",
+          "title": "Auth Providers",
+          "url": "https://docs.openclaw.ai/cli/models#auth-profiles"
+        }
+      ]
+    },
+    "OJb7PnYnN2RW4fqLV-vnl": {
+      "id": "OJb7PnYnN2RW4fqLV-vnl",
+      "slug": "models-auth-setup-token",
+      "title": "openclaw models auth setup-token",
+      "description": "`openclaw models auth setup-token` stores the authentication token for a model provider, allowing Open Claw to make authenticated API calls on your behalf. It is part of the broader `models auth` command group, which also includes `add`, `login`, and `paste-token`.",
+      "resources": [
+        {
+          "id": "OJb7PnYnN2RW4fqLV-vnl-res-1",
+          "type": "article",
+          "title": "Model Providers",
+          "url": "https://docs.openclaw.ai/concepts/model-providers#model-providers"
+        },
+        {
+          "id": "OJb7PnYnN2RW4fqLV-vnl-res-2",
+          "type": "article",
+          "title": "Auth Providers",
+          "url": "https://docs.openclaw.ai/cli/models#auth-profiles"
+        }
+      ]
+    },
+    "YS-u4nfgmr9pOq_NLrdCA": {
+      "id": "YS-u4nfgmr9pOq_NLrdCA",
+      "slug": "models-list--set--status",
+      "title": "openclaw models list | set | status",
+      "description": "`openclaw models list`, `openclaw models set`, and `openclaw models status` let you view the AI models available in your setup, switch between them, and check which one is currently active.",
+      "resources": [
+        {
+          "id": "YS-u4nfgmr9pOq_NLrdCA-res-1",
+          "type": "article",
+          "title": "model list",
+          "url": "https://docs.openclaw.ai/concepts/models#models-list"
+        },
+        {
+          "id": "YS-u4nfgmr9pOq_NLrdCA-res-2",
+          "type": "article",
+          "title": "models status",
+          "url": "https://docs.openclaw.ai/concepts/models#models-status"
+        },
+        {
+          "id": "YS-u4nfgmr9pOq_NLrdCA-res-3",
+          "type": "article",
+          "title": "Common commands",
+          "url": "https://docs.openclaw.ai/concepts/models?search=openclaw+models+set"
+        }
+      ]
+    },
+    "fSHA8tY7RmDbD8zn3DDhu": {
+      "id": "fSHA8tY7RmDbD8zn3DDhu",
+      "slug": "multi-agents",
+      "title": "Multi-Agents",
+      "description": "Multi-agent mode lets you run several specialized agents in the same Open Claw gateway, each with its own workspace, auth profiles, and session store. They can operate independently or be coordinated through routing rules and shared memory.",
+      "resources": [
+        {
+          "id": "fSHA8tY7RmDbD8zn3DDhu-res-1",
+          "type": "article",
+          "title": "Multi-Agent Routing",
+          "url": "https://docs.openclaw.ai/concepts/multi-agent"
+        },
+        {
+          "id": "fSHA8tY7RmDbD8zn3DDhu-res-2",
+          "type": "article",
+          "title": "Sub-Agents",
+          "url": "https://docs.openclaw.ai/tools/subagents"
+        }
+      ]
+    },
+    "naqlnPdoywxf16KaHtNyw": {
+      "id": "naqlnPdoywxf16KaHtNyw",
+      "slug": "never-hardcode-api-keys--use-environment-variables",
+      "title": "Never Hardcode API Keys",
+      "description": "API keys stored directly in code or config files can be accidentally exposed through logs, version control, or error messages. Always use environment variables or a secrets manager instead.",
+      "resources": [
+        {
+          "id": "naqlnPdoywxf16KaHtNyw-res-1",
+          "type": "article",
+          "title": "Security",
+          "url": "https://docs.openclaw.ai/gateway/security"
+        }
+      ]
+    },
+    "lISj5JCtAnk4qjoCiG0gD": {
+      "id": "lISj5JCtAnk4qjoCiG0gD",
+      "slug": "never-trust-external-content-emails-web-pages-to-prevent-prompt-injection",
+      "title": "Never Trust External Content to Prevent Prompt Injection",
+      "description": "Prompt injection is an attack where malicious text in an email, webpage, or file tricks the agent into taking unintended actions. Treating all external content as untrusted input is a core security principle in Open Claw.",
+      "resources": [
+        {
+          "id": "lISj5JCtAnk4qjoCiG0gD-res-1",
+          "type": "article",
+          "title": "Threat Model",
+          "url": "https://docs.openclaw.ai/security/THREAT-MODEL-ATLAS"
+        }
+      ]
+    },
+    "5ah4uCTo83YTFtn3kkH-l": {
+      "id": "5ah4uCTo83YTFtn3kkH-l",
+      "slug": "new",
+      "title": "/new",
+      "description": "`/new` starts a fresh conversation with the agent, clearing the current context so you are beginning from a clean slate. It also triggers the session-memory hook to save the previous session before resetting. You can optionally pass a model name after `/new` to start the session with a specific model.",
+      "resources": [
+        {
+          "id": "5ah4uCTo83YTFtn3kkH-l-res-1",
+          "type": "article",
+          "title": "Slash Commands",
+          "url": "https://docs.openclaw.ai/tools/slash-commands"
+        }
+      ]
+    },
+    "2qAGs1j1MDaoQFCDpF37Z": {
+      "id": "2qAGs1j1MDaoQFCDpF37Z",
+      "slug": "ollama",
+      "title": "Ollama",
+      "description": "Ollama is a tool that lets you run open-source AI models locally on your own hardware, making it a natural fit for Open Claw setups where privacy, cost, or offline availability are a priority. It shines most in dedicated hardware setups like a Mac Mini or a capable home server, where you have enough RAM and processing power to run a model comfortably. However, low-powered devices like a Raspberry Pi will likely struggle with most models.",
+      "resources": [
+        {
+          "id": "2qAGs1j1MDaoQFCDpF37Z-res-1",
+          "type": "article",
+          "title": "Ollama Provider",
+          "url": "https://docs.openclaw.ai/providers/ollama"
+        }
+      ]
+    },
+    "WblCEWQzvYDzVdn3XEIa8": {
+      "id": "WblCEWQzvYDzVdn3XEIa8",
+      "slug": "onboard",
+      "title": "openclaw onboard",
+      "description": "`openclaw onboard` walks you through the initial setup process interactively, helping you connect your model provider and first channel step by step.",
+      "resources": [
+        {
+          "id": "WblCEWQzvYDzVdn3XEIa8-res-1",
+          "type": "article",
+          "title": "Onboarding: CLI",
+          "url": "https://docs.openclaw.ai/start/wizard"
+        },
+        {
+          "id": "WblCEWQzvYDzVdn3XEIa8-res-2",
+          "type": "article",
+          "title": "onboard",
+          "url": "https://docs.openclaw.ai/cli/onboard"
+        }
+      ]
+    },
+    "sI6wvGO8kZN8M_RIjQ7FN": {
+      "id": "sI6wvGO8kZN8M_RIjQ7FN",
+      "slug": "onboarding",
+      "title": "Onboarding",
+      "description": "Onboarding is the guided first-run process that walks you through connecting your first AI model provider and communication channel so your agent is ready to receive and respond to messages. You can run it with `openclaw onboard`.",
+      "resources": [
+        {
+          "id": "sI6wvGO8kZN8M_RIjQ7FN-res-1",
+          "type": "article",
+          "title": "Onboarding Overview",
+          "url": "https://docs.openclaw.ai/start/onboarding-overview"
+        },
+        {
+          "id": "sI6wvGO8kZN8M_RIjQ7FN-res-2",
+          "type": "article",
+          "title": "Onboarding CLI",
+          "url": "https://docs.openclaw.ai/start/wizard"
+        }
+      ]
+    },
+    "vLQ7hJJS3yXgbi0b-RAlb": {
+      "id": "vLQ7hJJS3yXgbi0b-RAlb",
+      "slug": "openai",
+      "title": "OpenAI",
+      "description": "OpenAI provides access to models like GPT-4o. Open Claw can use these models as the AI brain behind your agent by configuring your OpenAI API key in the model provider settings.",
+      "resources": [
+        {
+          "id": "vLQ7hJJS3yXgbi0b-RAlb-res-1",
+          "type": "article",
+          "title": "OpenAI Provider",
+          "url": "https://docs.openclaw.ai/providers/openai"
+        },
+        {
+          "id": "vLQ7hJJS3yXgbi0b-RAlb-res-2",
+          "type": "article",
+          "title": "Using OpenAI Models",
+          "url": "https://docs.openclaw.ai/providers/openai"
+        }
+      ]
+    },
+    "4u53an-SHGNCAh87GTd7C": {
+      "id": "4u53an-SHGNCAh87GTd7C",
+      "slug": "openclaw-vs-claude-code",
+      "title": "OpenClaw vs Claude Code",
+      "description": "Claude Code is Anthropic's official CLI tool for AI-assisted coding, tightly integrated with Claude models and designed for developer workflows. OpenClaw is a community-built alternative that runs independently, supports a wide range of AI providers beyond Anthropic, and extends beyond coding to general agent automation across messaging platforms.",
+      "resources": [
+        {
+          "id": "4u53an-SHGNCAh87GTd7C-res-1",
+          "type": "article",
+          "title": "Open Claw vs Claude Code",
+          "url": "https://docs.openclaw.ai/help/faq#what-are-the-advantages-vs-claude-code-for-web-development"
+        },
+        {
+          "id": "4u53an-SHGNCAh87GTd7C-res-2",
+          "type": "article",
+          "title": "OpenClaw vs Claude explained simply in 8 minutes",
+          "url": "https://www.mindstudio.ai/blog/what-is-openclaw-ai-agent"
+        },
+        {
+          "id": "4u53an-SHGNCAh87GTd7C-res-3",
+          "type": "video",
+          "title": "OpenClaw vs Claude explained simply in 8 minutes",
+          "url": "https://www.youtube.com/watch?v=b773XfpS7fw"
+        }
+      ]
+    },
+    "7Nvwyi3YFerTpDKkA0Uzo": {
+      "id": "7Nvwyi3YFerTpDKkA0Uzo",
+      "slug": "other-workspace-files",
+      "title": "Other Workspace Files",
+      "description": "Open Claw recognizes several other special markdown files that are automatically injected into the agent's context at startup. [BOOT.md](http://BOOT.md) contains instructions that the agent runs once when the Gateway starts. [TOOLS.md](http://TOOLS.md) describes the tools available to the agent and how they should be used. [IDENTITY.md](http://IDENTITY.md) is an alternative or complement to [SOUL.md](http://SOUL.md) for defining the agent's persona. [BOOTSTRAP.md](http://BOOTSTRAP.md) is a general-purpose file for injecting additional context into every session. On top of these recognized filenames, you can also add any other markdown files to your workspace, such as project notes, reference documents, or custom instructions for specific tasks.",
+      "resources": [
+        {
+          "id": "7Nvwyi3YFerTpDKkA0Uzo-res-1",
+          "type": "article",
+          "title": "Agent Workspace",
+          "url": "https://docs.openclaw.ai/concepts/agent-workspace"
+        },
+        {
+          "id": "7Nvwyi3YFerTpDKkA0Uzo-res-2",
+          "type": "article",
+          "title": "AI Agents 003 — OpenClaw Workspace Files Explained: SOUL.md, AGENTS.md, HEARTBEAT.md and More",
+          "url": "https://capodieci.medium.com/ai-agents-003-openclaw-workspace-files-explained-soul-md-agents-md-heartbeat-md-and-more-5bdfbee4827a"
+        }
+      ]
+    },
+    "HgvUjBAWLLmT_QBYeSyli": {
+      "id": "HgvUjBAWLLmT_QBYeSyli",
+      "slug": "pick-a-provider",
+      "title": "VPS & Cloud Providers",
+      "description": "Open Claw runs on any VPS or cloud server that supports Node.js, so you are not locked into a specific provider. The official docs include setup guides for several popular options, including DigitalOcean, Render, Hetzner, [Fly.io](http://Fly.io), Google Cloud Platform, Azure, and exe.dev, each with different trade-offs around pricing, location, and ease of setup",
+      "resources": [
+        {
+          "id": "HgvUjBAWLLmT_QBYeSyli-res-1",
+          "type": "article",
+          "title": "Hosting and Deployment",
+          "url": "https://docs.openclaw.ai/install#hosting-and-deployment"
+        },
+        {
+          "id": "HgvUjBAWLLmT_QBYeSyli-res-2",
+          "type": "article",
+          "title": "Best VPS hosts for OpenClaw ?",
+          "url": "https://www.reddit.com/r/VPS/comments/1reuehc/best_vps_hosts_for_openclaw/#:~:text=Comments%20Section,a%20script%20for%20the%20setup"
+        },
+        {
+          "id": "HgvUjBAWLLmT_QBYeSyli-res-3",
+          "type": "video",
+          "title": "Run OpenClaw for $0/Month — 5 Free VPS That Actually Work in 2026",
+          "url": "https://www.youtube.com/watch?v=EfmIl0_Naj8"
+        }
+      ]
+    },
+    "MeNsZrMsNU_xZR9hmLkQz": {
+      "id": "MeNsZrMsNU_xZR9hmLkQz",
+      "slug": "plugins",
+      "title": "/plugins",
+      "description": "`/plugins` lets you inspect discovered plugins and toggle their enablement from chat. It is disabled by default and requires `commands.plugins: true` to enable. It supports `list`, `show`, `install`, `enable`, and `disable` subcommands. Write operations are owner-only. Alias: `/plugin`.",
+      "resources": [
+        {
+          "id": "MeNsZrMsNU_xZR9hmLkQz-res-1",
+          "type": "article",
+          "title": "Slash Commands",
+          "url": "https://docs.openclaw.ai/tools/slash-commands"
+        },
+        {
+          "id": "MeNsZrMsNU_xZR9hmLkQz-res-2",
+          "type": "article",
+          "title": "Install and Configure",
+          "url": "https://docs.openclaw.ai/tools/plugin"
+        }
+      ]
+    },
+    "QbcsFFPpZt7k_R_70jLxe": {
+      "id": "QbcsFFPpZt7k_R_70jLxe",
+      "slug": "plugins",
+      "title": "Plugins",
+      "description": "Plugins are packages that can register any combination of capabilities: channels, model providers, tools, skills, speech, image generation, and more. Some are bundled with Open Claw, and others are published by the community on npm.",
+      "resources": [
+        {
+          "id": "QbcsFFPpZt7k_R_70jLxe-res-1",
+          "type": "article",
+          "title": "Tools and Plugins",
+          "url": "https://docs.openclaw.ai/tools"
+        },
+        {
+          "id": "QbcsFFPpZt7k_R_70jLxe-res-2",
+          "type": "article",
+          "title": "Plugins",
+          "url": "https://docs.openclaw.ai/tools/plugin"
+        },
+        {
+          "id": "QbcsFFPpZt7k_R_70jLxe-res-3",
+          "type": "video",
+          "title": "Create OpenClaw AI Plugin for Extra Features and Skills | Step-by-Step Guide for Beginners",
+          "url": "https://www.youtube.com/watch?v=baHEUzqatK4"
+        }
+      ]
+    },
+    "qzVRzcGnImdqVDw0W-Z7H": {
+      "id": "qzVRzcGnImdqVDw0W-Z7H",
+      "slug": "proactive-core",
+      "title": "Proactive Core",
+      "description": "The proactive core is what allows Open Claw agents to act on their own initiative rather than just responding to messages. Using heartbeats, cron jobs, and standing orders, the agent can run tasks on a schedule or trigger automatically based on conditions you define.",
+      "resources": [
+        {
+          "id": "qzVRzcGnImdqVDw0W-Z7H-res-1",
+          "type": "article",
+          "title": "Automation & Tasks",
+          "url": "https://docs.openclaw.ai/automation"
+        },
+        {
+          "id": "qzVRzcGnImdqVDw0W-Z7H-res-2",
+          "type": "article",
+          "title": "How OpenClaw Works: Understanding AI Agents Through a Real Architecture",
+          "url": "https://bibek-poudel.medium.com/how-openclaw-works-understanding-ai-agents-through-a-real-architecture-5d59cc7a4764"
+        }
+      ]
+    },
+    "CE3p60gkIzzHBh69kKiIw": {
+      "id": "CE3p60gkIzzHBh69kKiIw",
+      "slug": "raspberry-pi",
+      "title": "Raspberry Pi",
+      "description": "A Raspberry Pi is a small, low-cost single-board computer that can run Open Claw 24/7 with minimal power consumption. It is a popular self-hosting choice for hobbyists who want a home server.",
+      "resources": [
+        {
+          "id": "CE3p60gkIzzHBh69kKiIw-res-1",
+          "type": "article",
+          "title": "Raspberry Pi Hosting",
+          "url": "https://docs.openclaw.ai/install/raspberry-pi#raspberry-pi"
+        },
+        {
+          "id": "CE3p60gkIzzHBh69kKiIw-res-2",
+          "type": "video",
+          "title": "OpenClaw on Raspberry Pi 5: Full Setup Guide + AI Agent Demo (Step-by-Step)",
+          "url": "https://www.youtube.com/watch?v=NqY0wF4YKXo"
+        },
+        {
+          "id": "CE3p60gkIzzHBh69kKiIw-res-3",
+          "type": "video",
+          "title": "OpenClaw on Raspberry Pi",
+          "url": "https://www.youtube.com/watch?v=fMtQy9msLz0"
+        }
+      ]
+    },
+    "M6sqVDIh4d4lYNefJqKX5": {
+      "id": "M6sqVDIh4d4lYNefJqKX5",
+      "slug": "reasoning",
+      "title": "/reasoning",
+      "description": "`/reasoning` is a directive that enables or disables extended reasoning mode. It takes `on`, `off`, or `stream` as arguments. When set to `on`, the agent sends a separate message prefixed with `Reasoning:` before its final reply. `stream` enables Telegram draft streaming only. Alias: `/reason`.",
+      "resources": [
+        {
+          "id": "M6sqVDIh4d4lYNefJqKX5-res-1",
+          "type": "article",
+          "title": "Slash Commands",
+          "url": "https://docs.openclaw.ai/tools/slash-commands"
+        },
+        {
+          "id": "M6sqVDIh4d4lYNefJqKX5-res-2",
+          "type": "article",
+          "title": "Reasoning visibility (/reasoning)",
+          "url": "https://docs.openclaw.ai/tools/thinking#reasoning-visibility-%2Freasoning"
+        }
+      ]
+    },
+    "BJ3iFyZjmakxbeh4IsXkw": {
+      "id": "BJ3iFyZjmakxbeh4IsXkw",
+      "slug": "reset",
+      "title": "/reset",
+      "description": "`/reset` resets the agent's current state, clearing any ongoing task or context and returning it to its idle state. Like `/new`, it triggers the session-memory hook before resetting.",
+      "resources": [
+        {
+          "id": "BJ3iFyZjmakxbeh4IsXkw-res-1",
+          "type": "article",
+          "title": "Slash Commands",
+          "url": "https://docs.openclaw.ai/tools/slash-commands"
+        }
+      ]
+    },
+    "V15_eZ8CpPDvjbcF9NWU0": {
+      "id": "V15_eZ8CpPDvjbcF9NWU0",
+      "slug": "rotate-all-credentials-immediately-if-a-breach-is-suspected",
+      "title": "Rotate All Credentials Immediately if a Breach is Suspected",
+      "description": "If you think your setup has been compromised, changing all API keys, tokens, and passwords immediately limits how long an attacker can maintain access.",
+      "resources": []
+    },
+    "_tmV2qJyrkBBZdCL_xWh1": {
+      "id": "_tmV2qJyrkBBZdCL_xWh1",
+      "slug": "routing-rules",
+      "title": "Routing Rules",
+      "description": "Routing rules determine which agent handles which incoming messages. Open Claw uses a deterministic, most-specific-wins system: peer matches beat channel-wide rules, which beat the fallback default agent.",
+      "resources": [
+        {
+          "id": "_tmV2qJyrkBBZdCL_xWh1-res-1",
+          "type": "article",
+          "title": "Multi-Agent Routing",
+          "url": "https://docs.openclaw.ai/concepts/multi-agent"
+        },
+        {
+          "id": "_tmV2qJyrkBBZdCL_xWh1-res-2",
+          "type": "article",
+          "title": "Channel Routing",
+          "url": "https://docs.openclaw.ai/channels/channel-routing"
+        }
+      ]
+    },
+    "CJV5OV_Whoz4_7L8yhDG1": {
+      "id": "CJV5OV_Whoz4_7L8yhDG1",
+      "slug": "run-openclaw-as-a-non-root-user",
+      "title": "Run OpenClaw as a Non-Root User",
+      "description": "Running as a non-root user means that even if the agent is compromised, an attacker cannot gain full system access. It is a basic but important layer of defense for any production setup.",
+      "resources": [
+        {
+          "id": "CJV5OV_Whoz4_7L8yhDG1-res-1",
+          "type": "article",
+          "title": "Security",
+          "url": "https://docs.openclaw.ai/gateway/security"
+        }
+      ]
+    },
+    "gNSp_eg81GgVvR5g-XJr-": {
+      "id": "gNSp_eg81GgVvR5g-XJr-",
+      "slug": "run-openclaw-security-audit---deep-after-every-config-change",
+      "title": "Run openclaw security audit --deep After Every Config Change",
+      "description": "Every configuration change is an opportunity to accidentally introduce a vulnerability. Running a deep security audit after changes catches problems before they become incidents.",
+      "resources": [
+        {
+          "id": "gNSp_eg81GgVvR5g-XJr--res-1",
+          "type": "article",
+          "title": "Quick check: openclaw security audit",
+          "url": "https://docs.openclaw.ai/gateway/security/index#quick-check-openclaw-security-audit"
+        },
+        {
+          "id": "gNSp_eg81GgVvR5g-XJr--res-2",
+          "type": "article",
+          "title": "Formal Verification (Security Models)",
+          "url": "https://docs.openclaw.ai/security/formal-verification"
+        }
+      ]
+    },
+    "abWTw0gTCO4R3VygeDqsL": {
+      "id": "abWTw0gTCO4R3VygeDqsL",
+      "slug": "securing-webhooks",
+      "title": "Securing Webhooks",
+      "description": "The Webhooks plugin ensures that each route is protected by shared-secret authentication, rate limiting, request size guards, and in-flight request limiting. Use a strong unique secret per route, store it as a SecretRef rather than inline plaintext, and bind each route to the narrowest session that fits the workflow. If a secret cannot be resolved at startup, the plugin skips that route and logs a warning instead of exposing a broken endpoint.",
+      "resources": [
+        {
+          "id": "abWTw0gTCO4R3VygeDqsL-res-1",
+          "type": "article",
+          "title": "Webhooks Plugin",
+          "url": "https://docs.openclaw.ai/plugins/webhooks"
+        }
+      ]
+    },
+    "zqeuYyqd5pMPQLFfPnskC": {
+      "id": "zqeuYyqd5pMPQLFfPnskC",
+      "slug": "security-audit",
+      "title": "openclaw security audit",
+      "description": "`openclaw security audit` scans your Open Claw setup for potential security vulnerabilities such as exposed ports, weak tokens, or insecure configurations. You can also run `openclaw security audit --deep` for a live Gateway probe, or openclaw `security audit --fix` to automatically tighten safe defaults.",
+      "resources": [
+        {
+          "id": "zqeuYyqd5pMPQLFfPnskC-res-1",
+          "type": "article",
+          "title": "Quick check: openclaw security audit",
+          "url": "https://docs.openclaw.ai/gateway/security#quick-check-openclaw-security-audit"
+        },
+        {
+          "id": "zqeuYyqd5pMPQLFfPnskC-res-2",
+          "type": "article",
+          "title": "security",
+          "url": "https://docs.openclaw.ai/cli/security"
+        },
+        {
+          "id": "zqeuYyqd5pMPQLFfPnskC-res-3",
+          "type": "article",
+          "title": "OpenClaw Security: 12 Best Practices Our Experts Recommend",
+          "url": "https://roadmap.sh/openclaw/security-best-practices"
+        }
+      ]
+    },
+    "qDidhG0fztZ38BSMv76YI": {
+      "id": "qDidhG0fztZ38BSMv76YI",
+      "slug": "security-best-practices",
+      "title": "Security Best Practices",
+      "description": "When running Open Claw locally, bind the Gateway to localhost only so it is never exposed directly to the internet, set a strong, randomly generated auth token, and never hardcode API keys in config files — use environment variables instead. Run the process as a non-root user, keep your sender allowlist minimal, and enable device pairing so unknown devices cannot connect. Be cautious about prompt injection since the agent can read external content like emails and web pages. Run `openclaw security audit --deep` after any configuration change, keep Open Claw updated regularly, and rotate all credentials immediately if you suspect a breach.",
+      "resources": [
+        {
+          "id": "qDidhG0fztZ38BSMv76YI-res-1",
+          "type": "article",
+          "title": "Security",
+          "url": "https://docs.openclaw.ai/gateway/security"
+        },
+        {
+          "id": "qDidhG0fztZ38BSMv76YI-res-2",
+          "type": "article",
+          "title": "Threat Model",
+          "url": "https://docs.openclaw.ai/security/THREAT-MODEL-ATLAS"
+        },
+        {
+          "id": "qDidhG0fztZ38BSMv76YI-res-3",
+          "type": "article",
+          "title": "OpenClaw Security: 12 Best Practices Our Experts Recommend",
+          "url": "https://roadmap.sh/openclaw/security-best-practices"
+        },
+        {
+          "id": "qDidhG0fztZ38BSMv76YI-res-4",
+          "type": "video",
+          "title": "DO NOT use a VPS for OpenClaw (major warning)",
+          "url": "https://www.youtube.com/watch?v=ev4iiGXlnh0"
+        }
+      ]
+    },
+    "y29FvjAzA1KhzlC49XPfh": {
+      "id": "y29FvjAzA1KhzlC49XPfh",
+      "slug": "security-best-practices",
+      "title": "Security Best Practices",
+      "description": "Use a local machine setup only for single-user personal use. Bind the Gateway to localhost so it is never exposed to the internet, set a strong randomly generated auth token, and store all API keys in environment variables rather than config files. Run Open Claw as a non-root user, keep your sender allowlist to just yourself, and enable device pairing so unknown devices cannot connect. Run `openclaw security audit --deep` after any configuration change and keep Open Claw updated regularly.",
+      "resources": [
+        {
+          "id": "y29FvjAzA1KhzlC49XPfh-res-1",
+          "type": "article",
+          "title": "Security",
+          "url": "https://docs.openclaw.ai/gateway/security"
+        },
+        {
+          "id": "y29FvjAzA1KhzlC49XPfh-res-2",
+          "type": "article",
+          "title": "Gateway Runbook",
+          "url": "https://docs.openclaw.ai/gateway"
+        },
+        {
+          "id": "y29FvjAzA1KhzlC49XPfh-res-3",
+          "type": "article",
+          "title": "OpenClaw Security: 12 Best Practices Our Experts Recommend",
+          "url": "https://roadmap.sh/openclaw/security-best-practices"
+        }
+      ]
+    },
+    "9wAYWJQBiWy_RF2AfQsqn": {
+      "id": "9wAYWJQBiWy_RF2AfQsqn",
+      "slug": "security-risks",
+      "title": "Security Risks (Skills)",
+      "description": "Installing third-party skills carries risk since a skill can define instructions or tool access that could be misused. It is important to review skills from external sources before installing them.",
+      "resources": [
+        {
+          "id": "9wAYWJQBiWy_RF2AfQsqn-res-1",
+          "type": "article",
+          "title": "Security and moderation",
+          "url": "https://docs.openclaw.ai/tools/clawhub#security-and-moderation"
+        },
+        {
+          "id": "9wAYWJQBiWy_RF2AfQsqn-res-2",
+          "type": "article",
+          "title": "OpenClaw Security: 12 Best Practices Our Experts Recommend",
+          "url": "https://roadmap.sh/openclaw/security-best-practices"
+        }
+      ]
+    },
+    "gN2oNDE7FXPyBh_5ZOu_Z": {
+      "id": "gN2oNDE7FXPyBh_5ZOu_Z",
+      "slug": "security-risks",
+      "title": "Security Risks (Plugins)",
+      "description": "Plugins run at a deeper level than skills and can have significant access to your system. Open Claw installs plugin dependencies with `--ignore-scripts` to reduce risk, but you should still only install plugins from trusted sources.",
+      "resources": [
+        {
+          "id": "gN2oNDE7FXPyBh_5ZOu_Z-res-1",
+          "type": "article",
+          "title": "Install and Configure",
+          "url": "https://docs.openclaw.ai/tools/plugin"
+        },
+        {
+          "id": "gN2oNDE7FXPyBh_5ZOu_Z-res-2",
+          "type": "article",
+          "title": "Threat Model",
+          "url": "https://docs.openclaw.ai/security/THREAT-MODEL-ATLAS"
+        },
+        {
+          "id": "gN2oNDE7FXPyBh_5ZOu_Z-res-3",
+          "type": "article",
+          "title": "OpenClaw Security: 12 Best Practices Our Experts Recommend",
+          "url": "https://roadmap.sh/openclaw/security-best-practices"
+        }
+      ]
+    },
+    "4XsdBdveBxrTIg3WdzzOO": {
+      "id": "4XsdBdveBxrTIg3WdzzOO",
+      "slug": "sessions",
+      "title": "Sessions",
+      "description": "A session is the conversation context tied to a specific agent and chat source. Direct messages share one session by default, but you can isolate each sender into their own context, strongly recommended if more than one person can message your agent. All session state is owned by the Gateway and maintained automatically through pruning and entry caps to keep the store bounded over time.",
+      "resources": [
+        {
+          "id": "4XsdBdveBxrTIg3WdzzOO-res-1",
+          "type": "article",
+          "title": "Session Management",
+          "url": "https://docs.openclaw.ai/concepts/session"
+        },
+        {
+          "id": "4XsdBdveBxrTIg3WdzzOO-res-2",
+          "type": "article",
+          "title": "Session Pruning",
+          "url": "https://docs.openclaw.ai/concepts/session-pruning"
+        },
+        {
+          "id": "4XsdBdveBxrTIg3WdzzOO-res-3",
+          "type": "article",
+          "title": "OpenClaw Session Management Explained",
+          "url": "https://www.dench.com/blog/openclaw-session-management"
+        }
+      ]
+    },
+    "O9W3d1q1yJmfRJHnfognN": {
+      "id": "O9W3d1q1yJmfRJHnfognN",
+      "slug": "set-a-strong-gateway-auth-token-before-exposing-any-service",
+      "title": "Set a Strong Gateway Auth Token",
+      "description": "The auth token is the password that protects your gateway from unauthorized access. It should be long, random, and unique and never shared or committed to version control.",
+      "resources": [
+        {
+          "id": "O9W3d1q1yJmfRJHnfognN-res-1",
+          "type": "article",
+          "title": "Security",
+          "url": "https://docs.openclaw.ai/gateway/security"
+        }
+      ]
+    },
+    "u9hCwPYZucGkb_zChmpzj": {
+      "id": "u9hCwPYZucGkb_zChmpzj",
+      "slug": "setting-up-openclaw",
+      "title": "Setting up Open Claw",
+      "description": "Setting up Open Claw involves installing the package via npm, running the onboarding wizard to connect your AI model provider and first communication channel, and optionally installing the Gateway as a background daemon so it starts automatically.",
+      "resources": [
+        {
+          "id": "u9hCwPYZucGkb_zChmpzj-res-1",
+          "type": "article",
+          "title": "Getting Started",
+          "url": "https://docs.openclaw.ai/start/getting-started"
+        },
+        {
+          "id": "u9hCwPYZucGkb_zChmpzj-res-2",
+          "type": "article",
+          "title": "Onboarding Overview",
+          "url": "https://docs.openclaw.ai/start/onboarding-overview"
+        },
+        {
+          "id": "u9hCwPYZucGkb_zChmpzj-res-3",
+          "type": "article",
+          "title": "How to Install OpenClaw: A Complete Setup Guide",
+          "url": "https://roadmap.sh/openclaw/installation-guide"
+        },
+        {
+          "id": "u9hCwPYZucGkb_zChmpzj-res-4",
+          "type": "video",
+          "title": "OpenClaw Full Tutorial for Beginners – How to Set Up and Use OpenClaw (ClawdBot / MoltBot)",
+          "url": "https://www.youtube.com/watch?v=n1sfrc-RjyM"
+        }
+      ]
+    },
+    "0a08Q6vTfqbG94tcJYxN2": {
+      "id": "0a08Q6vTfqbG94tcJYxN2",
+      "slug": "signal",
+      "title": "Signal",
+      "description": "Signal is an end-to-end encrypted messaging app. Open Claw connects to it via signal-cli, making it a strong option for users who prioritize privacy in their communications with the agent.",
+      "resources": [
+        {
+          "id": "0a08Q6vTfqbG94tcJYxN2-res-1",
+          "type": "article",
+          "title": "Signal Channel",
+          "url": "https://docs.openclaw.ai/channels/signal"
+        },
+        {
+          "id": "0a08Q6vTfqbG94tcJYxN2-res-2",
+          "type": "video",
+          "title": "OpenClaw Signal Setup - How To Connect Signal With OpenClaw (Signal integration)",
+          "url": "https://www.youtube.com/watch?v=fbdT7akVm2I"
+        }
+      ]
+    },
+    "7_QUsiC57I4xcaySZYAoc": {
+      "id": "7_QUsiC57I4xcaySZYAoc",
+      "slug": "skills",
+      "title": "Skills",
+      "description": "Skills are modular capability packages that extend what your agent can do. Each skill is a markdown file injected into the system prompt that gives the agent context and guidance for using specific tools or following specific workflows.",
+      "resources": [
+        {
+          "id": "7_QUsiC57I4xcaySZYAoc-res-1",
+          "type": "article",
+          "title": "Skills",
+          "url": "https://docs.openclaw.ai/tools/skills"
+        },
+        {
+          "id": "7_QUsiC57I4xcaySZYAoc-res-2",
+          "type": "article",
+          "title": "Skills Config",
+          "url": "https://docs.openclaw.ai/tools/skills-config"
+        },
+        {
+          "id": "7_QUsiC57I4xcaySZYAoc-res-3",
+          "type": "article",
+          "title": "What are OpenClaw Skills? A 2026 Developer’s Guide",
+          "url": "https://www.digitalocean.com/resources/articles/what-are-openclaw-skills"
+        },
+        {
+          "id": "7_QUsiC57I4xcaySZYAoc-res-4",
+          "type": "video",
+          "title": "Everything You Need to Know About OpenClaw Skills (Beginner to Pro)",
+          "url": "https://www.youtube.com/watch?v=kvTYp6uB_zQ"
+        }
+      ]
+    },
+    "H4EXzyftWkvdFlMfU7ydG": {
+      "id": "H4EXzyftWkvdFlMfU7ydG",
+      "slug": "skills",
+      "title": "Skills",
+      "description": "OpenClaw uses AgentSkills-compatible skill folders to teach the agent how to use tools. A skill is a markdown file injected into the system prompt that gives the agent context, constraints, and step-by-step guidance for using tools effectively. Skills live in your workspace, in shared folders, or ship inside plugins.",
+      "resources": [
+        {
+          "id": "H4EXzyftWkvdFlMfU7ydG-res-1",
+          "type": "article",
+          "title": "Skills",
+          "url": "https://docs.openclaw.ai/tools/skills"
+        },
+        {
+          "id": "H4EXzyftWkvdFlMfU7ydG-res-2",
+          "type": "article",
+          "title": "Agent Skills",
+          "url": "https://agentskills.io/home"
+        },
+        {
+          "id": "H4EXzyftWkvdFlMfU7ydG-res-3",
+          "type": "article",
+          "title": "What are OpenClaw Skills? A 2026 Developer’s Guide | DigitalOcean",
+          "url": "https://www.digitalocean.com/resources/articles/what-are-openclaw-skills"
+        }
+      ]
+    },
+    "4XYMS1wQa3ZwWCQNBnwpd": {
+      "id": "4XYMS1wQa3ZwWCQNBnwpd",
+      "slug": "slack",
+      "title": "Slack",
+      "description": "Slack is a team communication platform. Open Claw connects to it via the Bolt SDK as a workspace app, making it useful for team-based automation and internal tooling.",
+      "resources": [
+        {
+          "id": "4XYMS1wQa3ZwWCQNBnwpd-res-1",
+          "type": "article",
+          "title": "Slack Channel",
+          "url": "https://docs.openclaw.ai/channels/slack"
+        },
+        {
+          "id": "4XYMS1wQa3ZwWCQNBnwpd-res-2",
+          "type": "video",
+          "title": "Connect OpenClaw to Slack in 5 Minutes",
+          "url": "https://www.youtube.com/watch?v=gOUbJA9YFiE"
+        }
+      ]
+    },
+    "M1zIUsUO6qKhIXzxE9sho": {
+      "id": "M1zIUsUO6qKhIXzxE9sho",
+      "slug": "soulmd",
+      "title": "SOUL.md",
+      "description": "[SOUL.md](http://SOUL.md) is the file where you define the agent's personality, tone, and core behavioral guidelines. Think of it as the agent's character sheet. It shapes how it communicates and makes decisions across all conversations.",
+      "resources": [
+        {
+          "id": "M1zIUsUO6qKhIXzxE9sho-res-1",
+          "type": "article",
+          "title": "SOUL.md Personality Guide",
+          "url": "https://docs.openclaw.ai/concepts/soul#soul-md-personality-guide"
+        },
+        {
+          "id": "M1zIUsUO6qKhIXzxE9sho-res-2",
+          "type": "article",
+          "title": "SOUL.md Template",
+          "url": "https://docs.openclaw.ai/reference/templates/SOUL#soul-md-template"
+        }
+      ]
+    },
+    "dL_II2-0sUvm8UyFgQLfC": {
+      "id": "dL_II2-0sUvm8UyFgQLfC",
+      "slug": "start-in-read-only-mode-and-widen-permissions-deliberately",
+      "title": "Start in Read-Only Mode and Widen Permissions Deliberately",
+      "description": "Starting with minimal permissions and only expanding them as needed is a safer approach than granting broad access upfront. Open Claw supports tool allow and deny lists per agent to help enforce this.",
+      "resources": [
+        {
+          "id": "dL_II2-0sUvm8UyFgQLfC-res-1",
+          "type": "article",
+          "title": "Security",
+          "url": "https://docs.openclaw.ai/gateway/security"
+        },
+        {
+          "id": "dL_II2-0sUvm8UyFgQLfC-res-2",
+          "type": "article",
+          "title": "Sandboxing",
+          "url": "https://docs.openclaw.ai/gateway/sandboxing"
+        }
+      ]
+    },
+    "D79q0eP_HbXBGWgDB6XgW": {
+      "id": "D79q0eP_HbXBGWgDB6XgW",
+      "slug": "status",
+      "title": "/status",
+      "description": "`/status` asks the agent to report its current state, including active tasks, connected channels, and any pending operations. It also shows provider usage and quota for the current model provider when usage tracking is enabled.",
+      "resources": [
+        {
+          "id": "D79q0eP_HbXBGWgDB6XgW-res-1",
+          "type": "article",
+          "title": "Slash Commands",
+          "url": "https://docs.openclaw.ai/tools/slash-commands"
+        }
+      ]
+    },
+    "jhDkMmSD6bMZoTNOjZUnr": {
+      "id": "jhDkMmSD6bMZoTNOjZUnr",
+      "slug": "stop",
+      "title": "/stop",
+      "description": "`/stop` interrupts the agent if it is currently in the middle of a task or loop, bringing it to a halt immediately. It targets the active chat session directly so it can abort the current run.",
+      "resources": [
+        {
+          "id": "jhDkMmSD6bMZoTNOjZUnr-res-1",
+          "type": "article",
+          "title": "Slash Commands",
+          "url": "https://docs.openclaw.ai/tools/slash-commands"
+        }
+      ]
+    },
+    "gFGGZE4AUBm8PxKHrF8_g": {
+      "id": "gFGGZE4AUBm8PxKHrF8_g",
+      "slug": "telegram",
+      "title": "Telegram",
+      "description": "Telegram is a messaging app that supports bots via a straightforward API. It is one of the easiest channels to connect to Open Claw and is recommended as the first channel for new users.",
+      "resources": [
+        {
+          "id": "gFGGZE4AUBm8PxKHrF8_g-res-1",
+          "type": "article",
+          "title": "Telegram Channel",
+          "url": "https://docs.openclaw.ai/channels/telegram"
+        },
+        {
+          "id": "gFGGZE4AUBm8PxKHrF8_g-res-2",
+          "type": "article",
+          "title": "How to Set Up OpenClaw with Telegram (So Your AI Can Text You Back)",
+          "url": "https://blog.mohitnagaraj.in/blog/202602/openclaw-telegram-setup"
+        },
+        {
+          "id": "gFGGZE4AUBm8PxKHrF8_g-res-3",
+          "type": "video",
+          "title": "How to Connect OpenClaw to Telegram (Step-by-Step)",
+          "url": "https://www.youtube.com/watch?v=U4wxi3tt7JU"
+        }
+      ]
+    },
+    "xBl2Xgvbi6f_zwl4uPJhu": {
+      "id": "xBl2Xgvbi6f_zwl4uPJhu",
+      "slug": "think",
+      "title": "/think",
+      "description": "`/think` is a directive that sets the agent's thinking level before responding. It takes `off`, `minimal`, `low`, `medium`, `high`, or `xhigh` as arguments. Higher levels make the agent reason more deeply before giving a final answer, which is useful for complex or ambiguous tasks. Aliases: `/thinking`, `/t`.",
+      "resources": [
+        {
+          "id": "xBl2Xgvbi6f_zwl4uPJhu-res-1",
+          "type": "article",
+          "title": "Slash Commands",
+          "url": "https://docs.openclaw.ai/tools/slash-commands"
+        },
+        {
+          "id": "xBl2Xgvbi6f_zwl4uPJhu-res-2",
+          "type": "article",
+          "title": "Thinking Levels",
+          "url": "https://docs.openclaw.ai/tools/thinking"
+        }
+      ]
+    },
+    "ieHfFGH1RbnxZdVgCfxge": {
+      "id": "ieHfFGH1RbnxZdVgCfxge",
+      "slug": "update-openclaw-regularly-many-security-fixes-ship-in-patch-releases",
+      "title": "Update OpenClaw Regularly",
+      "description": "Open Claw releases often include security patches. Staying up to date ensures you are not running with known vulnerabilities that have already been fixed upstream.",
+      "resources": []
+    },
+    "WeEz693z_j7kIL39uFyHF": {
+      "id": "WeEz693z_j7kIL39uFyHF",
+      "slug": "usage-best-practices",
+      "title": "Usage Best Practices",
+      "description": "To get the most out of Open Claw, run `openclaw doctor` regularly to catch configuration drift early, and always run openclaw `security audit --deep` after any config change. Keep your workspace files like [SOUL.md](http://SOUL.md), [USER.md](http://USER.md), and [MEMORY.md](http://MEMORY.md) up to date so the agent always has accurate context about who you are and how you want it to behave. Use `/new` at the start of a new topic rather than letting a single session grow indefinitely, which keeps the context window clean and triggers the session-memory hook to save what was discussed. Start with a minimal tool allowlist and only expand permissions when you have a specific need, and prefer Tailscale over open ports for any remote access to keep your Gateway secure without extra complexity.",
+      "resources": [
+        {
+          "id": "WeEz693z_j7kIL39uFyHF-res-1",
+          "type": "article",
+          "title": "CLI Reference",
+          "url": "https://docs.openclaw.ai/cli"
+        },
+        {
+          "id": "WeEz693z_j7kIL39uFyHF-res-2",
+          "type": "article",
+          "title": "Vibe Coding Best Practices: How To Get Consistent Results",
+          "url": "https://roadmap.sh/vibe-coding/best-practices"
+        },
+        {
+          "id": "WeEz693z_j7kIL39uFyHF-res-3",
+          "type": "article",
+          "title": "OpenClaw Cheatsheet",
+          "url": "https://moltfounders.com/openclaw-mega-cheatsheet"
+        }
+      ]
+    },
+    "1qsX8SiXVlpVrOXZE-5mg": {
+      "id": "1qsX8SiXVlpVrOXZE-5mg",
+      "slug": "usage",
+      "title": "/usage",
+      "description": "`/usage` controls the per-response usage footer appended to normal replies. It takes `off`, `tokens`, `full`, or `cost` as arguments. `/usage cost` prints a local cost summary from your Open Claw session logs rather than appending it to each reply.",
+      "resources": [
+        {
+          "id": "1qsX8SiXVlpVrOXZE-5mg-res-1",
+          "type": "article",
+          "title": "Slash Commands",
+          "url": "https://docs.openclaw.ai/tools/slash-commands"
+        }
+      ]
+    },
+    "EzEJOUOwLlVfA4q5NXC88": {
+      "id": "EzEJOUOwLlVfA4q5NXC88",
+      "slug": "use-cases",
+      "title": "Use Cases",
+      "description": "Open Claw can be used for a wide range of tasks: you can connect it to your messaging apps to have it read and respond to messages on your behalf, set up scheduled jobs using cron and heartbeats to run recurring tasks like daily summaries or file cleanups without any human input, process incoming data from webhooks by extracting and acting on information automatically, manage and update files and documentation in your workspace, chain multiple actions together in a single agent loop to complete multi-step workflows from start to finish, and even run several specialized agents in parallel with routing rules and shared memory so each one handles a different domain while staying coordinated with the others.",
+      "resources": [
+        {
+          "id": "EzEJOUOwLlVfA4q5NXC88-res-1",
+          "type": "article",
+          "title": "Showcase - OpenClaw",
+          "url": "https://docs.openclaw.ai/start/showcase"
+        },
+        {
+          "id": "EzEJOUOwLlVfA4q5NXC88-res-2",
+          "type": "article",
+          "title": "awesome-openclaw-usecases",
+          "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/README.md"
+        },
+        {
+          "id": "EzEJOUOwLlVfA4q5NXC88-res-3",
+          "type": "video",
+          "title": "OpenClaw Use Cases that are actually helpful...",
+          "url": "https://www.youtube.com/watch?v=Q7r--i9lLck"
+        }
+      ]
+    },
+    "S7qSTFNATTfamM6XMnm-O": {
+      "id": "S7qSTFNATTfamM6XMnm-O",
+      "slug": "usermd",
+      "title": "USER.md",
+      "description": "[USER.md](http://USER.md) contains information about you: your preferences, context, and anything you want the agent to know about you by default. The agent reads this to personalize its responses.",
+      "resources": [
+        {
+          "id": "S7qSTFNATTfamM6XMnm-O-res-1",
+          "type": "article",
+          "title": "USER Template",
+          "url": "https://docs.openclaw.ai/reference/templates/USER#user-md-about-your-human"
+        }
+      ]
+    },
+    "bnyEeJVvaysPBkIevTCBa": {
+      "id": "bnyEeJVvaysPBkIevTCBa",
+      "slug": "vpscloud",
+      "title": "VPS/Cloud",
+      "description": "Running Open Claw on a VPS or cloud platform gives you a machine that is always online and accessible from anywhere. This is the most common production setup and is recommended over running on a local machine for anything beyond experimentation.",
+      "resources": [
+        {
+          "id": "bnyEeJVvaysPBkIevTCBa-res-1",
+          "type": "article",
+          "title": "Remote Access",
+          "url": "https://docs.openclaw.ai/gateway/remote#macos-persistent-ssh-tunnel-via-launchagent"
+        },
+        {
+          "id": "bnyEeJVvaysPBkIevTCBa-res-2",
+          "type": "article",
+          "title": "How to Install OpenClaw: A Complete Setup Guide",
+          "url": "https://roadmap.sh/openclaw/installation-guide"
+        },
+        {
+          "id": "bnyEeJVvaysPBkIevTCBa-res-3",
+          "type": "article",
+          "title": "Self-Host OpenClaw on a Free VPS — Step by Step",
+          "url": "https://cognio.so/clawdbot/self-hosting"
+        },
+        {
+          "id": "bnyEeJVvaysPBkIevTCBa-res-4",
+          "type": "video",
+          "title": "OpenClaw Tutorial for Beginners - Full Setup Guide",
+          "url": "https://www.youtube.com/watch?v=WDHgibiZ9S8"
+        }
+      ]
+    },
+    "F0jyMHHjeAbftNw2BjrUi": {
+      "id": "F0jyMHHjeAbftNw2BjrUi",
+      "slug": "webhooks",
+      "title": "Webhooks",
+      "description": "Webhooks allow external services to send HTTP requests to Open Claw to trigger agent actions. This is how you can connect third-party tools like GitHub or custom apps to your agent.",
+      "resources": [
+        {
+          "id": "F0jyMHHjeAbftNw2BjrUi-res-1",
+          "type": "article",
+          "title": "Webhooks",
+          "url": "https://docs.openclaw.ai/automation/cron-jobs#webhooks"
+        },
+        {
+          "id": "F0jyMHHjeAbftNw2BjrUi-res-2",
+          "type": "article",
+          "title": "OpenClaw webhooks explained: A complete guide",
+          "url": "https://lumadock.com/tutorials/openclaw-webhooks-explained"
+        }
+      ]
+    },
+    "y6qWd-k0SiMhLFexkyQb5": {
+      "id": "y6qWd-k0SiMhLFexkyQb5",
+      "slug": "whatsapp",
+      "title": "WhatsApp",
+      "description": "WhatsApp is the most popular channel in Open Claw. It connects via the Baileys library and requires a QR code pairing step to link your account to the Gateway.",
+      "resources": [
+        {
+          "id": "y6qWd-k0SiMhLFexkyQb5-res-1",
+          "type": "article",
+          "title": "WhatsApp Channel",
+          "url": "https://docs.openclaw.ai/channels/whatsapp"
+        },
+        {
+          "id": "y6qWd-k0SiMhLFexkyQb5-res-2",
+          "type": "video",
+          "title": "Connect OpenClaw to WhatsApp in 5 Minutes",
+          "url": "https://www.youtube.com/watch?v=cQ6diPGtwAY"
+        }
+      ]
+    },
+    "htT_HpzKKNXSbxhWf4dCJ": {
+      "id": "htT_HpzKKNXSbxhWf4dCJ",
+      "slug": "why-and-why-not",
+      "title": "Limitations",
+      "description": "Running Open Claw on dedicated hardware like a Raspberry Pi or Mac Mini gives you full control and no ongoing cloud fees, but the hardware itself is a constraint. Low-powered devices like a Raspberry Pi may struggle with memory-intensive tasks or multiple simultaneous agent sessions, and any hardware failure means your agent goes offline until you physically fix or replace the device. You are also still dependent on your home internet connection for external access, which may be unreliable, have changing IP addresses, or block incoming traffic by default.",
+      "resources": [
+        {
+          "id": "htT_HpzKKNXSbxhWf4dCJ-res-1",
+          "type": "article",
+          "title": "Remote Access",
+          "url": "https://docs.openclaw.ai/gateway/remote"
+        },
+        {
+          "id": "htT_HpzKKNXSbxhWf4dCJ-res-2",
+          "type": "video",
+          "title": "OpenClaw Tutorial for Beginners: How to Use & Set up OpenClaw (ClawdBot)",
+          "url": "https://www.youtube.com/watch?v=CxErCGVo-oo"
+        }
+      ]
+    },
+    "NhAOeGOqfUjkXth5DntKA": {
+      "id": "NhAOeGOqfUjkXth5DntKA",
+      "slug": "why-and-why-not",
+      "title": "Why and Why not?",
+      "description": "A local machine is the right choice if you are just getting started, experimenting with Open Claw, or running it as a personal assistant for yourself only. It requires no ongoing costs, no remote infrastructure to manage, and lets you get up and running in minutes. It is not a good fit if you need your agent to be available 24/7, reachable from outside your home network, or capable of receiving webhooks from external services, since your agent goes offline whenever your machine is off or asleep and most home networks block incoming traffic by default.",
+      "resources": [
+        {
+          "id": "NhAOeGOqfUjkXth5DntKA-res-1",
+          "type": "article",
+          "title": "Getting Started",
+          "url": "https://docs.openclaw.ai/start/getting-started"
+        },
+        {
+          "id": "NhAOeGOqfUjkXth5DntKA-res-2",
+          "type": "video",
+          "title": "The only OpenClaw tutorial you’ll ever need (March 2026 edition)",
+          "url": "https://www.youtube.com/watch?v=CxErCGVo-oo"
+        }
+      ]
+    },
+    "v2fsulkH_nGktwcdk8QWR": {
+      "id": "v2fsulkH_nGktwcdk8QWR",
+      "slug": "why-and-why-not",
+      "title": "When to Use a VPS or Cloud Server",
+      "description": "A VPS or cloud server is the right choice if you need your agent to be always online, reachable from anywhere, and capable of receiving webhooks from external services. It is the most common production setup and works well for personal assistants, team automation, and any workflow that requires continuous availability. It is not a good fit if you want to avoid recurring costs, prefer to keep everything on hardware you physically own, or want to run local models via Ollama without paying for a powerful enough remote machine.",
+      "resources": [
+        {
+          "id": "v2fsulkH_nGktwcdk8QWR-res-1",
+          "type": "article",
+          "title": "Remote Access",
+          "url": "https://docs.openclaw.ai/gateway/remote#macos-persistent-ssh-tunnel-via-launchagent"
+        },
+        {
+          "id": "v2fsulkH_nGktwcdk8QWR-res-2",
+          "type": "video",
+          "title": "DO NOT use a VPS for OpenClaw (major warning)",
+          "url": "https://www.youtube.com/watch?v=ev4iiGXlnh0"
+        }
+      ]
+    },
+    "wp7wX-xbOKG5Aemo-rl4g": {
+      "id": "wp7wX-xbOKG5Aemo-rl4g",
+      "slug": "workspace-settings",
+      "title": "Workspace Settings",
+      "description": "Workspace settings define the environment your agent operates in, including its identity, behavioral guidelines, and what it knows about you. These are stored in a set of markdown configuration files in your project directory.",
+      "resources": [
+        {
+          "id": "wp7wX-xbOKG5Aemo-rl4g-res-1",
+          "type": "article",
+          "title": "Agent Workspace",
+          "url": "https://docs.openclaw.ai/concepts/agent-workspace"
+        },
+        {
+          "id": "wp7wX-xbOKG5Aemo-rl4g-res-2",
+          "type": "article",
+          "title": "How to Build and Secure a Personal AI Agent with OpenClaw",
+          "url": "https://www.freecodecamp.org/news/how-to-build-and-secure-a-personal-ai-agent-with-openclaw/#heading-step-2-write-the-agents-operating-manual"
+        },
+        {
+          "id": "wp7wX-xbOKG5Aemo-rl4g-res-3",
+          "type": "article",
+          "title": "AI Agents 003 — OpenClaw Workspace Files Explained: SOUL.md, AGENTS.md, HEARTBEAT.md and More",
+          "url": "https://capodieci.medium.com/ai-agents-003-openclaw-workspace-files-explained-soul-md-agents-md-heartbeat-md-and-more-5bdfbee4827a"
+        },
+        {
+          "id": "wp7wX-xbOKG5Aemo-rl4g-res-4",
+          "type": "video",
+          "title": "OpenClaw Workspace Files Tutorial (AI Agent's Brain)",
+          "url": "https://www.youtube.com/watch?v=XhtjVvlOO3U"
+        }
+      ]
+    }
+  }
+}

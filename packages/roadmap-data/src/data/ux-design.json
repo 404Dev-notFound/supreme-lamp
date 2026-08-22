@@ -1,0 +1,2621 @@
+{
+  "slug": "ux-design",
+  "title": "Ux Design",
+  "description": "Comprehensive learning curriculum and mastery roadmap for ux-design.",
+  "category": "skill",
+  "level": "Intermediate",
+  "topicCount": 94,
+  "iconName": "Compass",
+  "nodes": [
+    {
+      "id": "node-HI_urBhPqT0m3AeBQJIej",
+      "label": "Adobe XD",
+      "topicId": "HI_urBhPqT0m3AeBQJIej",
+      "level": 1,
+      "position": {
+        "x": 80,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-ZufrLRNkMoJ4e2T-vWxCR",
+      "label": "Automate the Act of Repetition",
+      "topicId": "ZufrLRNkMoJ4e2T-vWxCR",
+      "level": 1,
+      "position": {
+        "x": 340,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-8wxlu4KA2iu9CJa1UAUll",
+      "label": "Avoid Direct Payments",
+      "topicId": "8wxlu4KA2iu9CJa1UAUll",
+      "level": 1,
+      "position": {
+        "x": 600,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-4AzPOKXUN32CkgchRMrRY",
+      "label": "Avoid Cognitive Overhead",
+      "topicId": "4AzPOKXUN32CkgchRMrRY",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-iQNvKhwhvbis4Yn1ZxQua",
+      "label": "Avoid Direct Payments",
+      "topicId": "iQNvKhwhvbis4Yn1ZxQua",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-fZkARg6kPXPemYW1vDMTe",
+      "label": "Balsamiq",
+      "topicId": "fZkARg6kPXPemYW1vDMTe",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-m30ePaw_qa36m9Rv9NSFf",
+      "label": "Be Authentic and Personal",
+      "topicId": "m30ePaw_qa36m9Rv9NSFf",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-JSBiw0C6aq1LhA33y79PM",
+      "label": "Behavior Change Games",
+      "topicId": "JSBiw0C6aq1LhA33y79PM",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-w_QWN80zCf1tsVROeyuvo",
+      "label": "Behavior Change Strategies",
+      "topicId": "w_QWN80zCf1tsVROeyuvo",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-zYCBEUqZVlvjlAKnh5cPQ",
+      "label": "Behavior Design",
+      "topicId": "zYCBEUqZVlvjlAKnh5cPQ",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-_lv6GJ0wlMfhJ7PHRGQ_V",
+      "label": "Behavioral Economics",
+      "topicId": "_lv6GJ0wlMfhJ7PHRGQ_V",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-D553-nVELaB5gdxtoKSVc",
+      "label": "Behavioral Science",
+      "topicId": "D553-nVELaB5gdxtoKSVc",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-lRBC8VYJPsR65LHDuuIsL",
+      "label": "BJ Fogg’s Behavior Grid",
+      "topicId": "lRBC8VYJPsR65LHDuuIsL",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-2NlgbLeLBYwZX2u2rKkIO",
+      "label": "BJ Fogg's Behavior Model",
+      "topicId": "2NlgbLeLBYwZX2u2rKkIO",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-SGO9hHju49_py0n0ASGBe",
+      "label": "Business Model Canvas",
+      "topicId": "SGO9hHju49_py0n0ASGBe",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-GI06-DbGyJlQXq5Tyi-aH",
+      "label": "Business Model Inspirator",
+      "topicId": "GI06-DbGyJlQXq5Tyi-aH",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-jy5jtSEyNE8iJpad27rPX",
+      "label": "Business Process Model & Notation (BPMN)",
+      "topicId": "jy5jtSEyNE8iJpad27rPX",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-U4ZEFUcghr9XjSyf-0Np7",
+      "label": "Call to Action",
+      "topicId": "U4ZEFUcghr9XjSyf-0Np7",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-zVXJPpqZvUFIxTGVrr0rN",
+      "label": "Cheating",
+      "topicId": "zVXJPpqZvUFIxTGVrr0rN",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-IjqH_Ev2fDWG0QDQ9c9eN",
+      "label": "Clear the Page of Distractions",
+      "topicId": "IjqH_Ev2fDWG0QDQ9c9eN",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-HUZ5n2MRHzQPyjwX2h6Q4",
+      "label": "Competitor Analysis",
+      "topicId": "HUZ5n2MRHzQPyjwX2h6Q4",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-r6D07cN0Mg4YXsiRSrl1_",
+      "label": "Conceptual Design",
+      "topicId": "r6D07cN0Mg4YXsiRSrl1_",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-kcG4IpneJzA6di0uqTiwb",
+      "label": "CREATE Action Funnel",
+      "topicId": "kcG4IpneJzA6di0uqTiwb",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-s2KJ5kNv9UcnsP0QKIKQ7",
+      "label": "Create User Personas",
+      "topicId": "s2KJ5kNv9UcnsP0QKIKQ7",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-B0gg7Z5JL9m9Srb89KcN5",
+      "label": "Crowd Out Old Habit with New Behavior",
+      "topicId": "B0gg7Z5JL9m9Srb89KcN5",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-X1AroUI8Fge_lRpKab4A9",
+      "label": "Cue Routine Reward Model",
+      "topicId": "X1AroUI8Fge_lRpKab4A9",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-0KEqAjHFBjfmGA1bKzXuD",
+      "label": "Customer Experience Map by Mel Edwards",
+      "topicId": "0KEqAjHFBjfmGA1bKzXuD",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-9vA3ZWMiKG6NiEqGDvcFR",
+      "label": "Decision-Making Support",
+      "topicId": "9vA3ZWMiKG6NiEqGDvcFR",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-wE5gt1vMgbF3csA61VO2-",
+      "label": "Default Everything",
+      "topicId": "wE5gt1vMgbF3csA61VO2-",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-IpKCXqf_PkxIllwmiIZsq",
+      "label": "Defaulting",
+      "topicId": "IpKCXqf_PkxIllwmiIZsq",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-gqOnzmiLQHmIXuEe4jG2e",
+      "label": "Deploy Peer Comparisons",
+      "topicId": "gqOnzmiLQHmIXuEe4jG2e",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-C1NwA0Pivoo73GANoOaPi",
+      "label": "Deploy Social Proof",
+      "topicId": "C1NwA0Pivoo73GANoOaPi",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-C5dKHIIgBzxtBpFgDs-hB",
+      "label": "Deploy Strong Authority on Subject",
+      "topicId": "C5dKHIIgBzxtBpFgDs-hB",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-kWA8CvocP1pkom2N7O4gb",
+      "label": "Dual Process Theory",
+      "topicId": "kWA8CvocP1pkom2N7O4gb",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-SLXjoYL-lhPef8s9V3jpf",
+      "label": "Educate & Encourage User",
+      "topicId": "SLXjoYL-lhPef8s9V3jpf",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-EmDgiwaknBz5lXr1rwalE",
+      "label": "Elicit Implementation Intentions",
+      "topicId": "EmDgiwaknBz5lXr1rwalE",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-nccToz_0FUvHMJytpDpM0",
+      "label": "Event-driven Process Chain Model (EPC)",
+      "topicId": "nccToz_0FUvHMJytpDpM0",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-t46s6Piyd8MoJYzdDTsjr",
+      "label": "Figma",
+      "topicId": "t46s6Piyd8MoJYzdDTsjr",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-F9gpGTRwXq08jNo5pPKm6",
+      "label": "Five Forces Model",
+      "topicId": "F9gpGTRwXq08jNo5pPKm6",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-S9rJr8pc-Ln8BxG0suBWa",
+      "label": "Frame Text to Avoid Temporal Myopia",
+      "topicId": "S9rJr8pc-Ln8BxG0suBWa",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-fbIur1tEIdNDE6gls4Bru",
+      "label": "Gamification",
+      "topicId": "fbIur1tEIdNDE6gls4Bru",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-Emby09Nsm_j6uNreT58r6",
+      "label": "Gather Lessons, Prioritize & Integrate",
+      "topicId": "Emby09Nsm_j6uNreT58r6",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-g-bcan_JnjJfg0_fMOb64",
+      "label": "Goal Trackers",
+      "topicId": "g-bcan_JnjJfg0_fMOb64",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-90_M5qABC1vZ1nsXVyqFJ",
+      "label": "Good Layout Rules",
+      "topicId": "90_M5qABC1vZ1nsXVyqFJ",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-S2TgqNDjvmcJTaXncM09u",
+      "label": "Help user Avoiding the Cue",
+      "topicId": "S2TgqNDjvmcJTaXncM09u",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-e9n9an1PGxDPGkLCOHIwz",
+      "label": "Help User think about their Action",
+      "topicId": "e9n9an1PGxDPGkLCOHIwz",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-mzWd-xSr7sO2RgfPbKy4T",
+      "label": "How-to-Tips",
+      "topicId": "mzWd-xSr7sO2RgfPbKy4T",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-liUKYf7UghuPk25xMPPYj",
+      "label": "Human Decision Making",
+      "topicId": "liUKYf7UghuPk25xMPPYj",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-QNJ-LxfYtR8lbnmuy2Qm9",
+      "label": "In general, keep it short and simple",
+      "topicId": "QNJ-LxfYtR8lbnmuy2Qm9",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-Q4xBz9f3yyZi2F_aZ5ixL",
+      "label": "Incremental A/B Testing",
+      "topicId": "Q4xBz9f3yyZi2F_aZ5ixL",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-sc8jJ_77CrkQuxIJYk28Q",
+      "label": "Lean Canvas",
+      "topicId": "sc8jJ_77CrkQuxIJYk28Q",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-gf7et64xCqkYBrP9HwWs_",
+      "label": "Lessen the Burden of Action / Info",
+      "topicId": "gf7et64xCqkYBrP9HwWs_",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-zXinWCEH4LlYvXekLK0Ju",
+      "label": "Leverage Loss-Aversion",
+      "topicId": "zXinWCEH4LlYvXekLK0Ju",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-dOL2z6ULpmzRD5N3MrYCy",
+      "label": "Make Commitment to Friends",
+      "topicId": "dOL2z6ULpmzRD5N3MrYCy",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-hDj3HaYAM7K1UJmP_T52n",
+      "label": "Make it Clear, Where to Act",
+      "topicId": "hDj3HaYAM7K1UJmP_T52n",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-vAu2c45c7DgoRydHR2tvD",
+      "label": "Make it easy to understand and complete",
+      "topicId": "vAu2c45c7DgoRydHR2tvD",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-y6CqgqTvOt-LrvTnPJkQQ",
+      "label": "Make or Change Habits",
+      "topicId": "y6CqgqTvOt-LrvTnPJkQQ",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-D3LVYuCDHD6-kU8GhXokf",
+      "label": "Make progress meaningful to reward user",
+      "topicId": "D3LVYuCDHD6-kU8GhXokf",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-8YePym3cQtoVY0DJQLllK",
+      "label": "Make progress visible to user",
+      "topicId": "8YePym3cQtoVY0DJQLllK",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-1pzONoWafLAeX8eWbH-Dz",
+      "label": "Make Reward Scarce",
+      "topicId": "1pzONoWafLAeX8eWbH-Dz",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-94V3wUtZ0NMm_0Vb1pBju",
+      "label": "Make successful completion clearly visible",
+      "topicId": "94V3wUtZ0NMm_0Vb1pBju",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-ahhffBkmd-feroleBrhJm",
+      "label": "Make UI Professional and Beautiful",
+      "topicId": "ahhffBkmd-feroleBrhJm",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-Ix5Fll_dAINWLxVF2DXFI",
+      "label": "Making it Incidental",
+      "topicId": "Ix5Fll_dAINWLxVF2DXFI",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-GgBazWfF2OvOqkuo3DO2L",
+      "label": "Measuring the Impact",
+      "topicId": "GgBazWfF2OvOqkuo3DO2L",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-d1dXGCHmMF2EFpL5yKVJA",
+      "label": "Mindfulness to Avoid Acting on the Cue",
+      "topicId": "d1dXGCHmMF2EFpL5yKVJA",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node--_T2nzp1vV1jUcpsC5DI3",
+      "label": "Multivariate Testing",
+      "topicId": "-_T2nzp1vV1jUcpsC5DI3",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-PLLTcrHkhd1KYaMSRKALp",
+      "label": "Nir Eyal's Hook Model",
+      "topicId": "PLLTcrHkhd1KYaMSRKALp",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-6ffY5wO-XhkiDJJ5YcI0x",
+      "label": "Nudge Theory",
+      "topicId": "6ffY5wO-XhkiDJJ5YcI0x",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-K22gvF9DLt0Ikc80yZLCb",
+      "label": "Persuasive Technology",
+      "topicId": "K22gvF9DLt0Ikc80yZLCb",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-eYZf67rnhOksfh44hnzHg",
+      "label": "Planners",
+      "topicId": "eYZf67rnhOksfh44hnzHg",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-jBQtuiHGl3eyCTZG85Vz5",
+      "label": "Prime User-Relevant Associations",
+      "topicId": "jBQtuiHGl3eyCTZG85Vz5",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-6yCBFwntQ_KxFmmGTJ8iR",
+      "label": "Prototyping",
+      "topicId": "6yCBFwntQ_KxFmmGTJ8iR",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-kR-UbUFdELVeiPJqT0GlZ",
+      "label": "Remind of Prior Commitment to Act",
+      "topicId": "kR-UbUFdELVeiPJqT0GlZ",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-wFWidrOZ5EHPgo9uuUclK",
+      "label": "Reminders & Planning Prompts",
+      "topicId": "wFWidrOZ5EHPgo9uuUclK",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-esWGzYUJwv7_xGjq6kpVE",
+      "label": "Reminders",
+      "topicId": "esWGzYUJwv7_xGjq6kpVE",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-_C-55tciBzc6_Kyk6272k",
+      "label": "Replace the Routine",
+      "topicId": "_C-55tciBzc6_Kyk6272k",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-JCP5_jyvh9u7hxp379iW2",
+      "label": "Simple Flowchart",
+      "topicId": "JCP5_jyvh9u7hxp379iW2",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-nb7Ql1gvxqEucsGnIWTyY",
+      "label": "Sketch",
+      "topicId": "nb7Ql1gvxqEucsGnIWTyY",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-FoKtBRuTuMD2SZDHLWS-5",
+      "label": "Social Sharing",
+      "topicId": "FoKtBRuTuMD2SZDHLWS-5",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-0Df110GZcDw5wbAe1eKoA",
+      "label": "Spectrum of Thinking Interventions",
+      "topicId": "0Df110GZcDw5wbAe1eKoA",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-G4Ap91NgZfkV-54EuWe-Z",
+      "label": "Status Reports",
+      "topicId": "G4Ap91NgZfkV-54EuWe-Z",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-PTZROvpPtEvu06szwmt4K",
+      "label": "Support Conscious Action",
+      "topicId": "PTZROvpPtEvu06szwmt4K",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-XiEn1OGFY1bMCoB0Pk8N_",
+      "label": "SWOT Analysis",
+      "topicId": "XiEn1OGFY1bMCoB0Pk8N_",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-AXn-N15U_z4OagClNoXrW",
+      "label": "Target Action",
+      "topicId": "AXn-N15U_z4OagClNoXrW",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-FRn2MaR0-ehSD3zmwXcCI",
+      "label": "Target Actor",
+      "topicId": "FRn2MaR0-ehSD3zmwXcCI",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-7J8F9dn1jGaVlhLVVRPrG",
+      "label": "Target Outcome",
+      "topicId": "7J8F9dn1jGaVlhLVVRPrG",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-FXJpJDIp-JBc0-0z4PIRo",
+      "label": "Tell User what the Action is and ask for it",
+      "topicId": "FXJpJDIp-JBc0-0z4PIRo",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-f0n2JKxpcuP0JW-h4CvwN",
+      "label": "Tutorials",
+      "topicId": "f0n2JKxpcuP0JW-h4CvwN",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-q1WX2Cp4k4-o1T1vgL8FH",
+      "label": "Understanding the Product",
+      "topicId": "q1WX2Cp4k4-o1T1vgL8FH",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-6Mvm8SrISyTT99AJ-VFaW",
+      "label": "Use Competition",
+      "topicId": "6Mvm8SrISyTT99AJ-VFaW",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-0MbrHG-VDrdZqQ0jWtiDo",
+      "label": "Use Consciousness to Interfere",
+      "topicId": "0MbrHG-VDrdZqQ0jWtiDo",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-iKHU0O0z6gCunCgv_aZye",
+      "label": "Use Peer Comparisons",
+      "topicId": "iKHU0O0z6gCunCgv_aZye",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-tkbkpvHlWQeOnReanR8J7",
+      "label": "User Stories",
+      "topicId": "tkbkpvHlWQeOnReanR8J7",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-VUf72i5hYaLR_8ul9EzmM",
+      "label": "UX Best Practices",
+      "topicId": "VUf72i5hYaLR_8ul9EzmM",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5040
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-node-HI_urBhPqT0m3AeBQJIej-node-ZufrLRNkMoJ4e2T-vWxCR",
+      "source": "node-HI_urBhPqT0m3AeBQJIej",
+      "target": "node-ZufrLRNkMoJ4e2T-vWxCR",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ZufrLRNkMoJ4e2T-vWxCR-node-8wxlu4KA2iu9CJa1UAUll",
+      "source": "node-ZufrLRNkMoJ4e2T-vWxCR",
+      "target": "node-8wxlu4KA2iu9CJa1UAUll",
+      "animated": true
+    },
+    {
+      "id": "edge-node-8wxlu4KA2iu9CJa1UAUll-node-4AzPOKXUN32CkgchRMrRY",
+      "source": "node-8wxlu4KA2iu9CJa1UAUll",
+      "target": "node-4AzPOKXUN32CkgchRMrRY",
+      "animated": true
+    },
+    {
+      "id": "edge-node-4AzPOKXUN32CkgchRMrRY-node-iQNvKhwhvbis4Yn1ZxQua",
+      "source": "node-4AzPOKXUN32CkgchRMrRY",
+      "target": "node-iQNvKhwhvbis4Yn1ZxQua",
+      "animated": true
+    },
+    {
+      "id": "edge-node-iQNvKhwhvbis4Yn1ZxQua-node-fZkARg6kPXPemYW1vDMTe",
+      "source": "node-iQNvKhwhvbis4Yn1ZxQua",
+      "target": "node-fZkARg6kPXPemYW1vDMTe",
+      "animated": true
+    },
+    {
+      "id": "edge-node-fZkARg6kPXPemYW1vDMTe-node-m30ePaw_qa36m9Rv9NSFf",
+      "source": "node-fZkARg6kPXPemYW1vDMTe",
+      "target": "node-m30ePaw_qa36m9Rv9NSFf",
+      "animated": true
+    },
+    {
+      "id": "edge-node-m30ePaw_qa36m9Rv9NSFf-node-JSBiw0C6aq1LhA33y79PM",
+      "source": "node-m30ePaw_qa36m9Rv9NSFf",
+      "target": "node-JSBiw0C6aq1LhA33y79PM",
+      "animated": true
+    },
+    {
+      "id": "edge-node-JSBiw0C6aq1LhA33y79PM-node-w_QWN80zCf1tsVROeyuvo",
+      "source": "node-JSBiw0C6aq1LhA33y79PM",
+      "target": "node-w_QWN80zCf1tsVROeyuvo",
+      "animated": true
+    },
+    {
+      "id": "edge-node-w_QWN80zCf1tsVROeyuvo-node-zYCBEUqZVlvjlAKnh5cPQ",
+      "source": "node-w_QWN80zCf1tsVROeyuvo",
+      "target": "node-zYCBEUqZVlvjlAKnh5cPQ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-zYCBEUqZVlvjlAKnh5cPQ-node-_lv6GJ0wlMfhJ7PHRGQ_V",
+      "source": "node-zYCBEUqZVlvjlAKnh5cPQ",
+      "target": "node-_lv6GJ0wlMfhJ7PHRGQ_V",
+      "animated": true
+    },
+    {
+      "id": "edge-node-_lv6GJ0wlMfhJ7PHRGQ_V-node-D553-nVELaB5gdxtoKSVc",
+      "source": "node-_lv6GJ0wlMfhJ7PHRGQ_V",
+      "target": "node-D553-nVELaB5gdxtoKSVc",
+      "animated": true
+    },
+    {
+      "id": "edge-node-D553-nVELaB5gdxtoKSVc-node-lRBC8VYJPsR65LHDuuIsL",
+      "source": "node-D553-nVELaB5gdxtoKSVc",
+      "target": "node-lRBC8VYJPsR65LHDuuIsL",
+      "animated": true
+    },
+    {
+      "id": "edge-node-lRBC8VYJPsR65LHDuuIsL-node-2NlgbLeLBYwZX2u2rKkIO",
+      "source": "node-lRBC8VYJPsR65LHDuuIsL",
+      "target": "node-2NlgbLeLBYwZX2u2rKkIO",
+      "animated": true
+    },
+    {
+      "id": "edge-node-2NlgbLeLBYwZX2u2rKkIO-node-SGO9hHju49_py0n0ASGBe",
+      "source": "node-2NlgbLeLBYwZX2u2rKkIO",
+      "target": "node-SGO9hHju49_py0n0ASGBe",
+      "animated": true
+    },
+    {
+      "id": "edge-node-SGO9hHju49_py0n0ASGBe-node-GI06-DbGyJlQXq5Tyi-aH",
+      "source": "node-SGO9hHju49_py0n0ASGBe",
+      "target": "node-GI06-DbGyJlQXq5Tyi-aH",
+      "animated": true
+    },
+    {
+      "id": "edge-node-GI06-DbGyJlQXq5Tyi-aH-node-jy5jtSEyNE8iJpad27rPX",
+      "source": "node-GI06-DbGyJlQXq5Tyi-aH",
+      "target": "node-jy5jtSEyNE8iJpad27rPX",
+      "animated": true
+    },
+    {
+      "id": "edge-node-jy5jtSEyNE8iJpad27rPX-node-U4ZEFUcghr9XjSyf-0Np7",
+      "source": "node-jy5jtSEyNE8iJpad27rPX",
+      "target": "node-U4ZEFUcghr9XjSyf-0Np7",
+      "animated": true
+    },
+    {
+      "id": "edge-node-U4ZEFUcghr9XjSyf-0Np7-node-zVXJPpqZvUFIxTGVrr0rN",
+      "source": "node-U4ZEFUcghr9XjSyf-0Np7",
+      "target": "node-zVXJPpqZvUFIxTGVrr0rN",
+      "animated": true
+    },
+    {
+      "id": "edge-node-zVXJPpqZvUFIxTGVrr0rN-node-IjqH_Ev2fDWG0QDQ9c9eN",
+      "source": "node-zVXJPpqZvUFIxTGVrr0rN",
+      "target": "node-IjqH_Ev2fDWG0QDQ9c9eN",
+      "animated": true
+    },
+    {
+      "id": "edge-node-IjqH_Ev2fDWG0QDQ9c9eN-node-HUZ5n2MRHzQPyjwX2h6Q4",
+      "source": "node-IjqH_Ev2fDWG0QDQ9c9eN",
+      "target": "node-HUZ5n2MRHzQPyjwX2h6Q4",
+      "animated": true
+    },
+    {
+      "id": "edge-node-HUZ5n2MRHzQPyjwX2h6Q4-node-r6D07cN0Mg4YXsiRSrl1_",
+      "source": "node-HUZ5n2MRHzQPyjwX2h6Q4",
+      "target": "node-r6D07cN0Mg4YXsiRSrl1_",
+      "animated": true
+    },
+    {
+      "id": "edge-node-r6D07cN0Mg4YXsiRSrl1_-node-kcG4IpneJzA6di0uqTiwb",
+      "source": "node-r6D07cN0Mg4YXsiRSrl1_",
+      "target": "node-kcG4IpneJzA6di0uqTiwb",
+      "animated": true
+    },
+    {
+      "id": "edge-node-kcG4IpneJzA6di0uqTiwb-node-s2KJ5kNv9UcnsP0QKIKQ7",
+      "source": "node-kcG4IpneJzA6di0uqTiwb",
+      "target": "node-s2KJ5kNv9UcnsP0QKIKQ7",
+      "animated": true
+    },
+    {
+      "id": "edge-node-s2KJ5kNv9UcnsP0QKIKQ7-node-B0gg7Z5JL9m9Srb89KcN5",
+      "source": "node-s2KJ5kNv9UcnsP0QKIKQ7",
+      "target": "node-B0gg7Z5JL9m9Srb89KcN5",
+      "animated": true
+    },
+    {
+      "id": "edge-node-B0gg7Z5JL9m9Srb89KcN5-node-X1AroUI8Fge_lRpKab4A9",
+      "source": "node-B0gg7Z5JL9m9Srb89KcN5",
+      "target": "node-X1AroUI8Fge_lRpKab4A9",
+      "animated": true
+    },
+    {
+      "id": "edge-node-X1AroUI8Fge_lRpKab4A9-node-0KEqAjHFBjfmGA1bKzXuD",
+      "source": "node-X1AroUI8Fge_lRpKab4A9",
+      "target": "node-0KEqAjHFBjfmGA1bKzXuD",
+      "animated": true
+    },
+    {
+      "id": "edge-node-0KEqAjHFBjfmGA1bKzXuD-node-9vA3ZWMiKG6NiEqGDvcFR",
+      "source": "node-0KEqAjHFBjfmGA1bKzXuD",
+      "target": "node-9vA3ZWMiKG6NiEqGDvcFR",
+      "animated": true
+    },
+    {
+      "id": "edge-node-9vA3ZWMiKG6NiEqGDvcFR-node-wE5gt1vMgbF3csA61VO2-",
+      "source": "node-9vA3ZWMiKG6NiEqGDvcFR",
+      "target": "node-wE5gt1vMgbF3csA61VO2-",
+      "animated": true
+    },
+    {
+      "id": "edge-node-wE5gt1vMgbF3csA61VO2--node-IpKCXqf_PkxIllwmiIZsq",
+      "source": "node-wE5gt1vMgbF3csA61VO2-",
+      "target": "node-IpKCXqf_PkxIllwmiIZsq",
+      "animated": true
+    },
+    {
+      "id": "edge-node-IpKCXqf_PkxIllwmiIZsq-node-gqOnzmiLQHmIXuEe4jG2e",
+      "source": "node-IpKCXqf_PkxIllwmiIZsq",
+      "target": "node-gqOnzmiLQHmIXuEe4jG2e",
+      "animated": true
+    },
+    {
+      "id": "edge-node-gqOnzmiLQHmIXuEe4jG2e-node-C1NwA0Pivoo73GANoOaPi",
+      "source": "node-gqOnzmiLQHmIXuEe4jG2e",
+      "target": "node-C1NwA0Pivoo73GANoOaPi",
+      "animated": true
+    },
+    {
+      "id": "edge-node-C1NwA0Pivoo73GANoOaPi-node-C5dKHIIgBzxtBpFgDs-hB",
+      "source": "node-C1NwA0Pivoo73GANoOaPi",
+      "target": "node-C5dKHIIgBzxtBpFgDs-hB",
+      "animated": true
+    },
+    {
+      "id": "edge-node-C5dKHIIgBzxtBpFgDs-hB-node-kWA8CvocP1pkom2N7O4gb",
+      "source": "node-C5dKHIIgBzxtBpFgDs-hB",
+      "target": "node-kWA8CvocP1pkom2N7O4gb",
+      "animated": true
+    },
+    {
+      "id": "edge-node-kWA8CvocP1pkom2N7O4gb-node-SLXjoYL-lhPef8s9V3jpf",
+      "source": "node-kWA8CvocP1pkom2N7O4gb",
+      "target": "node-SLXjoYL-lhPef8s9V3jpf",
+      "animated": true
+    },
+    {
+      "id": "edge-node-SLXjoYL-lhPef8s9V3jpf-node-EmDgiwaknBz5lXr1rwalE",
+      "source": "node-SLXjoYL-lhPef8s9V3jpf",
+      "target": "node-EmDgiwaknBz5lXr1rwalE",
+      "animated": true
+    },
+    {
+      "id": "edge-node-EmDgiwaknBz5lXr1rwalE-node-nccToz_0FUvHMJytpDpM0",
+      "source": "node-EmDgiwaknBz5lXr1rwalE",
+      "target": "node-nccToz_0FUvHMJytpDpM0",
+      "animated": true
+    },
+    {
+      "id": "edge-node-nccToz_0FUvHMJytpDpM0-node-t46s6Piyd8MoJYzdDTsjr",
+      "source": "node-nccToz_0FUvHMJytpDpM0",
+      "target": "node-t46s6Piyd8MoJYzdDTsjr",
+      "animated": true
+    },
+    {
+      "id": "edge-node-t46s6Piyd8MoJYzdDTsjr-node-F9gpGTRwXq08jNo5pPKm6",
+      "source": "node-t46s6Piyd8MoJYzdDTsjr",
+      "target": "node-F9gpGTRwXq08jNo5pPKm6",
+      "animated": true
+    },
+    {
+      "id": "edge-node-F9gpGTRwXq08jNo5pPKm6-node-S9rJr8pc-Ln8BxG0suBWa",
+      "source": "node-F9gpGTRwXq08jNo5pPKm6",
+      "target": "node-S9rJr8pc-Ln8BxG0suBWa",
+      "animated": true
+    },
+    {
+      "id": "edge-node-S9rJr8pc-Ln8BxG0suBWa-node-fbIur1tEIdNDE6gls4Bru",
+      "source": "node-S9rJr8pc-Ln8BxG0suBWa",
+      "target": "node-fbIur1tEIdNDE6gls4Bru",
+      "animated": true
+    },
+    {
+      "id": "edge-node-fbIur1tEIdNDE6gls4Bru-node-Emby09Nsm_j6uNreT58r6",
+      "source": "node-fbIur1tEIdNDE6gls4Bru",
+      "target": "node-Emby09Nsm_j6uNreT58r6",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Emby09Nsm_j6uNreT58r6-node-g-bcan_JnjJfg0_fMOb64",
+      "source": "node-Emby09Nsm_j6uNreT58r6",
+      "target": "node-g-bcan_JnjJfg0_fMOb64",
+      "animated": true
+    },
+    {
+      "id": "edge-node-g-bcan_JnjJfg0_fMOb64-node-90_M5qABC1vZ1nsXVyqFJ",
+      "source": "node-g-bcan_JnjJfg0_fMOb64",
+      "target": "node-90_M5qABC1vZ1nsXVyqFJ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-90_M5qABC1vZ1nsXVyqFJ-node-S2TgqNDjvmcJTaXncM09u",
+      "source": "node-90_M5qABC1vZ1nsXVyqFJ",
+      "target": "node-S2TgqNDjvmcJTaXncM09u",
+      "animated": true
+    },
+    {
+      "id": "edge-node-S2TgqNDjvmcJTaXncM09u-node-e9n9an1PGxDPGkLCOHIwz",
+      "source": "node-S2TgqNDjvmcJTaXncM09u",
+      "target": "node-e9n9an1PGxDPGkLCOHIwz",
+      "animated": true
+    },
+    {
+      "id": "edge-node-e9n9an1PGxDPGkLCOHIwz-node-mzWd-xSr7sO2RgfPbKy4T",
+      "source": "node-e9n9an1PGxDPGkLCOHIwz",
+      "target": "node-mzWd-xSr7sO2RgfPbKy4T",
+      "animated": true
+    },
+    {
+      "id": "edge-node-mzWd-xSr7sO2RgfPbKy4T-node-liUKYf7UghuPk25xMPPYj",
+      "source": "node-mzWd-xSr7sO2RgfPbKy4T",
+      "target": "node-liUKYf7UghuPk25xMPPYj",
+      "animated": true
+    },
+    {
+      "id": "edge-node-liUKYf7UghuPk25xMPPYj-node-QNJ-LxfYtR8lbnmuy2Qm9",
+      "source": "node-liUKYf7UghuPk25xMPPYj",
+      "target": "node-QNJ-LxfYtR8lbnmuy2Qm9",
+      "animated": true
+    },
+    {
+      "id": "edge-node-QNJ-LxfYtR8lbnmuy2Qm9-node-Q4xBz9f3yyZi2F_aZ5ixL",
+      "source": "node-QNJ-LxfYtR8lbnmuy2Qm9",
+      "target": "node-Q4xBz9f3yyZi2F_aZ5ixL",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Q4xBz9f3yyZi2F_aZ5ixL-node-sc8jJ_77CrkQuxIJYk28Q",
+      "source": "node-Q4xBz9f3yyZi2F_aZ5ixL",
+      "target": "node-sc8jJ_77CrkQuxIJYk28Q",
+      "animated": true
+    },
+    {
+      "id": "edge-node-sc8jJ_77CrkQuxIJYk28Q-node-gf7et64xCqkYBrP9HwWs_",
+      "source": "node-sc8jJ_77CrkQuxIJYk28Q",
+      "target": "node-gf7et64xCqkYBrP9HwWs_",
+      "animated": true
+    },
+    {
+      "id": "edge-node-gf7et64xCqkYBrP9HwWs_-node-zXinWCEH4LlYvXekLK0Ju",
+      "source": "node-gf7et64xCqkYBrP9HwWs_",
+      "target": "node-zXinWCEH4LlYvXekLK0Ju",
+      "animated": true
+    },
+    {
+      "id": "edge-node-zXinWCEH4LlYvXekLK0Ju-node-dOL2z6ULpmzRD5N3MrYCy",
+      "source": "node-zXinWCEH4LlYvXekLK0Ju",
+      "target": "node-dOL2z6ULpmzRD5N3MrYCy",
+      "animated": true
+    },
+    {
+      "id": "edge-node-dOL2z6ULpmzRD5N3MrYCy-node-hDj3HaYAM7K1UJmP_T52n",
+      "source": "node-dOL2z6ULpmzRD5N3MrYCy",
+      "target": "node-hDj3HaYAM7K1UJmP_T52n",
+      "animated": true
+    },
+    {
+      "id": "edge-node-hDj3HaYAM7K1UJmP_T52n-node-vAu2c45c7DgoRydHR2tvD",
+      "source": "node-hDj3HaYAM7K1UJmP_T52n",
+      "target": "node-vAu2c45c7DgoRydHR2tvD",
+      "animated": true
+    },
+    {
+      "id": "edge-node-vAu2c45c7DgoRydHR2tvD-node-y6CqgqTvOt-LrvTnPJkQQ",
+      "source": "node-vAu2c45c7DgoRydHR2tvD",
+      "target": "node-y6CqgqTvOt-LrvTnPJkQQ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-y6CqgqTvOt-LrvTnPJkQQ-node-D3LVYuCDHD6-kU8GhXokf",
+      "source": "node-y6CqgqTvOt-LrvTnPJkQQ",
+      "target": "node-D3LVYuCDHD6-kU8GhXokf",
+      "animated": true
+    },
+    {
+      "id": "edge-node-D3LVYuCDHD6-kU8GhXokf-node-8YePym3cQtoVY0DJQLllK",
+      "source": "node-D3LVYuCDHD6-kU8GhXokf",
+      "target": "node-8YePym3cQtoVY0DJQLllK",
+      "animated": true
+    },
+    {
+      "id": "edge-node-8YePym3cQtoVY0DJQLllK-node-1pzONoWafLAeX8eWbH-Dz",
+      "source": "node-8YePym3cQtoVY0DJQLllK",
+      "target": "node-1pzONoWafLAeX8eWbH-Dz",
+      "animated": true
+    },
+    {
+      "id": "edge-node-1pzONoWafLAeX8eWbH-Dz-node-94V3wUtZ0NMm_0Vb1pBju",
+      "source": "node-1pzONoWafLAeX8eWbH-Dz",
+      "target": "node-94V3wUtZ0NMm_0Vb1pBju",
+      "animated": true
+    },
+    {
+      "id": "edge-node-94V3wUtZ0NMm_0Vb1pBju-node-ahhffBkmd-feroleBrhJm",
+      "source": "node-94V3wUtZ0NMm_0Vb1pBju",
+      "target": "node-ahhffBkmd-feroleBrhJm",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ahhffBkmd-feroleBrhJm-node-Ix5Fll_dAINWLxVF2DXFI",
+      "source": "node-ahhffBkmd-feroleBrhJm",
+      "target": "node-Ix5Fll_dAINWLxVF2DXFI",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Ix5Fll_dAINWLxVF2DXFI-node-GgBazWfF2OvOqkuo3DO2L",
+      "source": "node-Ix5Fll_dAINWLxVF2DXFI",
+      "target": "node-GgBazWfF2OvOqkuo3DO2L",
+      "animated": true
+    },
+    {
+      "id": "edge-node-GgBazWfF2OvOqkuo3DO2L-node-d1dXGCHmMF2EFpL5yKVJA",
+      "source": "node-GgBazWfF2OvOqkuo3DO2L",
+      "target": "node-d1dXGCHmMF2EFpL5yKVJA",
+      "animated": true
+    },
+    {
+      "id": "edge-node-d1dXGCHmMF2EFpL5yKVJA-node--_T2nzp1vV1jUcpsC5DI3",
+      "source": "node-d1dXGCHmMF2EFpL5yKVJA",
+      "target": "node--_T2nzp1vV1jUcpsC5DI3",
+      "animated": true
+    },
+    {
+      "id": "edge-node--_T2nzp1vV1jUcpsC5DI3-node-PLLTcrHkhd1KYaMSRKALp",
+      "source": "node--_T2nzp1vV1jUcpsC5DI3",
+      "target": "node-PLLTcrHkhd1KYaMSRKALp",
+      "animated": true
+    },
+    {
+      "id": "edge-node-PLLTcrHkhd1KYaMSRKALp-node-6ffY5wO-XhkiDJJ5YcI0x",
+      "source": "node-PLLTcrHkhd1KYaMSRKALp",
+      "target": "node-6ffY5wO-XhkiDJJ5YcI0x",
+      "animated": true
+    },
+    {
+      "id": "edge-node-6ffY5wO-XhkiDJJ5YcI0x-node-K22gvF9DLt0Ikc80yZLCb",
+      "source": "node-6ffY5wO-XhkiDJJ5YcI0x",
+      "target": "node-K22gvF9DLt0Ikc80yZLCb",
+      "animated": true
+    },
+    {
+      "id": "edge-node-K22gvF9DLt0Ikc80yZLCb-node-eYZf67rnhOksfh44hnzHg",
+      "source": "node-K22gvF9DLt0Ikc80yZLCb",
+      "target": "node-eYZf67rnhOksfh44hnzHg",
+      "animated": true
+    },
+    {
+      "id": "edge-node-eYZf67rnhOksfh44hnzHg-node-jBQtuiHGl3eyCTZG85Vz5",
+      "source": "node-eYZf67rnhOksfh44hnzHg",
+      "target": "node-jBQtuiHGl3eyCTZG85Vz5",
+      "animated": true
+    },
+    {
+      "id": "edge-node-jBQtuiHGl3eyCTZG85Vz5-node-6yCBFwntQ_KxFmmGTJ8iR",
+      "source": "node-jBQtuiHGl3eyCTZG85Vz5",
+      "target": "node-6yCBFwntQ_KxFmmGTJ8iR",
+      "animated": true
+    },
+    {
+      "id": "edge-node-6yCBFwntQ_KxFmmGTJ8iR-node-kR-UbUFdELVeiPJqT0GlZ",
+      "source": "node-6yCBFwntQ_KxFmmGTJ8iR",
+      "target": "node-kR-UbUFdELVeiPJqT0GlZ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-kR-UbUFdELVeiPJqT0GlZ-node-wFWidrOZ5EHPgo9uuUclK",
+      "source": "node-kR-UbUFdELVeiPJqT0GlZ",
+      "target": "node-wFWidrOZ5EHPgo9uuUclK",
+      "animated": true
+    },
+    {
+      "id": "edge-node-wFWidrOZ5EHPgo9uuUclK-node-esWGzYUJwv7_xGjq6kpVE",
+      "source": "node-wFWidrOZ5EHPgo9uuUclK",
+      "target": "node-esWGzYUJwv7_xGjq6kpVE",
+      "animated": true
+    },
+    {
+      "id": "edge-node-esWGzYUJwv7_xGjq6kpVE-node-_C-55tciBzc6_Kyk6272k",
+      "source": "node-esWGzYUJwv7_xGjq6kpVE",
+      "target": "node-_C-55tciBzc6_Kyk6272k",
+      "animated": true
+    },
+    {
+      "id": "edge-node-_C-55tciBzc6_Kyk6272k-node-JCP5_jyvh9u7hxp379iW2",
+      "source": "node-_C-55tciBzc6_Kyk6272k",
+      "target": "node-JCP5_jyvh9u7hxp379iW2",
+      "animated": true
+    },
+    {
+      "id": "edge-node-JCP5_jyvh9u7hxp379iW2-node-nb7Ql1gvxqEucsGnIWTyY",
+      "source": "node-JCP5_jyvh9u7hxp379iW2",
+      "target": "node-nb7Ql1gvxqEucsGnIWTyY",
+      "animated": true
+    },
+    {
+      "id": "edge-node-nb7Ql1gvxqEucsGnIWTyY-node-FoKtBRuTuMD2SZDHLWS-5",
+      "source": "node-nb7Ql1gvxqEucsGnIWTyY",
+      "target": "node-FoKtBRuTuMD2SZDHLWS-5",
+      "animated": true
+    },
+    {
+      "id": "edge-node-FoKtBRuTuMD2SZDHLWS-5-node-0Df110GZcDw5wbAe1eKoA",
+      "source": "node-FoKtBRuTuMD2SZDHLWS-5",
+      "target": "node-0Df110GZcDw5wbAe1eKoA",
+      "animated": true
+    },
+    {
+      "id": "edge-node-0Df110GZcDw5wbAe1eKoA-node-G4Ap91NgZfkV-54EuWe-Z",
+      "source": "node-0Df110GZcDw5wbAe1eKoA",
+      "target": "node-G4Ap91NgZfkV-54EuWe-Z",
+      "animated": true
+    },
+    {
+      "id": "edge-node-G4Ap91NgZfkV-54EuWe-Z-node-PTZROvpPtEvu06szwmt4K",
+      "source": "node-G4Ap91NgZfkV-54EuWe-Z",
+      "target": "node-PTZROvpPtEvu06szwmt4K",
+      "animated": true
+    },
+    {
+      "id": "edge-node-PTZROvpPtEvu06szwmt4K-node-XiEn1OGFY1bMCoB0Pk8N_",
+      "source": "node-PTZROvpPtEvu06szwmt4K",
+      "target": "node-XiEn1OGFY1bMCoB0Pk8N_",
+      "animated": true
+    },
+    {
+      "id": "edge-node-XiEn1OGFY1bMCoB0Pk8N_-node-AXn-N15U_z4OagClNoXrW",
+      "source": "node-XiEn1OGFY1bMCoB0Pk8N_",
+      "target": "node-AXn-N15U_z4OagClNoXrW",
+      "animated": true
+    },
+    {
+      "id": "edge-node-AXn-N15U_z4OagClNoXrW-node-FRn2MaR0-ehSD3zmwXcCI",
+      "source": "node-AXn-N15U_z4OagClNoXrW",
+      "target": "node-FRn2MaR0-ehSD3zmwXcCI",
+      "animated": true
+    },
+    {
+      "id": "edge-node-FRn2MaR0-ehSD3zmwXcCI-node-7J8F9dn1jGaVlhLVVRPrG",
+      "source": "node-FRn2MaR0-ehSD3zmwXcCI",
+      "target": "node-7J8F9dn1jGaVlhLVVRPrG",
+      "animated": true
+    },
+    {
+      "id": "edge-node-7J8F9dn1jGaVlhLVVRPrG-node-FXJpJDIp-JBc0-0z4PIRo",
+      "source": "node-7J8F9dn1jGaVlhLVVRPrG",
+      "target": "node-FXJpJDIp-JBc0-0z4PIRo",
+      "animated": true
+    },
+    {
+      "id": "edge-node-FXJpJDIp-JBc0-0z4PIRo-node-f0n2JKxpcuP0JW-h4CvwN",
+      "source": "node-FXJpJDIp-JBc0-0z4PIRo",
+      "target": "node-f0n2JKxpcuP0JW-h4CvwN",
+      "animated": true
+    },
+    {
+      "id": "edge-node-f0n2JKxpcuP0JW-h4CvwN-node-q1WX2Cp4k4-o1T1vgL8FH",
+      "source": "node-f0n2JKxpcuP0JW-h4CvwN",
+      "target": "node-q1WX2Cp4k4-o1T1vgL8FH",
+      "animated": true
+    },
+    {
+      "id": "edge-node-q1WX2Cp4k4-o1T1vgL8FH-node-6Mvm8SrISyTT99AJ-VFaW",
+      "source": "node-q1WX2Cp4k4-o1T1vgL8FH",
+      "target": "node-6Mvm8SrISyTT99AJ-VFaW",
+      "animated": true
+    },
+    {
+      "id": "edge-node-6Mvm8SrISyTT99AJ-VFaW-node-0MbrHG-VDrdZqQ0jWtiDo",
+      "source": "node-6Mvm8SrISyTT99AJ-VFaW",
+      "target": "node-0MbrHG-VDrdZqQ0jWtiDo",
+      "animated": true
+    },
+    {
+      "id": "edge-node-0MbrHG-VDrdZqQ0jWtiDo-node-iKHU0O0z6gCunCgv_aZye",
+      "source": "node-0MbrHG-VDrdZqQ0jWtiDo",
+      "target": "node-iKHU0O0z6gCunCgv_aZye",
+      "animated": true
+    },
+    {
+      "id": "edge-node-iKHU0O0z6gCunCgv_aZye-node-tkbkpvHlWQeOnReanR8J7",
+      "source": "node-iKHU0O0z6gCunCgv_aZye",
+      "target": "node-tkbkpvHlWQeOnReanR8J7",
+      "animated": true
+    },
+    {
+      "id": "edge-node-tkbkpvHlWQeOnReanR8J7-node-VUf72i5hYaLR_8ul9EzmM",
+      "source": "node-tkbkpvHlWQeOnReanR8J7",
+      "target": "node-VUf72i5hYaLR_8ul9EzmM",
+      "animated": true
+    }
+  ],
+  "topics": {
+    "HI_urBhPqT0m3AeBQJIej": {
+      "id": "HI_urBhPqT0m3AeBQJIej",
+      "slug": "adobe-xd",
+      "title": "Adobe XD",
+      "description": "Adobe XD (Experience Design) is a powerful design and prototyping tool that allows UX designers to create wireframes, mockups, and interactive prototypes for various digital projects. It is available for both Mac and Windows, and it focuses on providing an easy-to-use, intuitive interface for designing responsive websites, mobile apps, and more.",
+      "resources": [
+        {
+          "id": "HI_urBhPqT0m3AeBQJIej-res-1",
+          "type": "article",
+          "title": "Adobe XD Platform",
+          "url": "https://adobexdplatform.com/"
+        },
+        {
+          "id": "HI_urBhPqT0m3AeBQJIej-res-2",
+          "type": "article",
+          "title": "Getting Started with Adobe XD",
+          "url": "https://helpx.adobe.com/xd/get-started.html"
+        },
+        {
+          "id": "HI_urBhPqT0m3AeBQJIej-res-3",
+          "type": "article",
+          "title": "Learn Adobe XD",
+          "url": "https://www.adobe.com/ph_en/products/xd/learn/get-started-xd-design.html"
+        }
+      ]
+    },
+    "ZufrLRNkMoJ4e2T-vWxCR": {
+      "id": "ZufrLRNkMoJ4e2T-vWxCR",
+      "slug": "automate-the-act-of-repetition",
+      "title": "Automate the Act of Repetition",
+      "description": "Automating repetition removes the user from having to repeat an action manually once it has been done or approved once. Recurring subscriptions, auto-renewals, and scheduled backups are examples where the system takes over a task after the first setup. This reduces the chance that a user abandons a beneficial habit simply because they forgot to repeat it.",
+      "resources": []
+    },
+    "8wxlu4KA2iu9CJa1UAUll": {
+      "id": "8wxlu4KA2iu9CJa1UAUll",
+      "slug": "avoid-choice-overload",
+      "title": "Avoid Direct Payments",
+      "description": "Avoiding direct payments means reducing the visible friction of parting with money, for example by using stored credit, points, or a saved card instead of asking users to re-enter payment details each time. Research shows the physical or visible act of paying creates psychological pain that can reduce purchase likelihood. Reducing that friction supports a more favorable conscious evaluation of the purchase decision.",
+      "resources": [
+        {
+          "id": "8wxlu4KA2iu9CJa1UAUll-res-1",
+          "type": "article",
+          "title": "Choice of Overload",
+          "url": "https://medium.com/@evamiller091/the-impact-of-choice-overload-in-ux-f5defb6cee5d"
+        }
+      ]
+    },
+    "4AzPOKXUN32CkgchRMrRY": {
+      "id": "4AzPOKXUN32CkgchRMrRY",
+      "slug": "avoid-cognitive-overhead",
+      "title": "Avoid Cognitive Overhead",
+      "description": "Cognitive overhead refers to the mental effort needed to understand or operate a given system, tool, or interface. In UX design, it is crucial to minimize cognitive overhead to create user-friendly and efficient experiences. The less mental effort a user needs to invest, the more likely they will have a positive conscious evaluation of your design.",
+      "resources": [
+        {
+          "id": "4AzPOKXUN32CkgchRMrRY-res-1",
+          "type": "article",
+          "title": "Cognitive Overload",
+          "url": "https://blog.logrocket.com/ux-design/cognitive-overload/"
+        },
+        {
+          "id": "4AzPOKXUN32CkgchRMrRY-res-2",
+          "type": "article",
+          "title": "Reducing Cognitive Overload",
+          "url": "https://uxdesign.cc/reducing-cognitive-overload-designing-for-human-cognition-350f07cff9c4"
+        }
+      ]
+    },
+    "iQNvKhwhvbis4Yn1ZxQua": {
+      "id": "iQNvKhwhvbis4Yn1ZxQua",
+      "slug": "avoid-direct-payments",
+      "title": "Avoid Direct Payments",
+      "description": "Avoiding direct payments is a crucial aspect of UX design that can lead to favorable conscious evaluations from users. Direct payments refer to instances where users are required to pay for your product or service upfront, which can create a negative perception and less willingness to engage. By finding alternative ways to monetize or offer premium features, you can create an enjoyable experience and encourage users to appreciate and invest in your offerings without feeling forced.",
+      "resources": [
+        {
+          "id": "iQNvKhwhvbis4Yn1ZxQua-res-1",
+          "type": "article",
+          "title": "Payment UX Best Practices",
+          "url": "https://gocardless.com/guides/posts/payment-ux-best-practices/"
+        }
+      ]
+    },
+    "fZkARg6kPXPemYW1vDMTe": {
+      "id": "fZkARg6kPXPemYW1vDMTe",
+      "slug": "balsamiq",
+      "title": "Balsamiq",
+      "description": "Balsamiq is a popular wireframing tool that helps designers, developers, and product managers to quickly create and visualize user interfaces, web pages, or app screens. It's an easy-to-use software that allows you to focus on ideas and concepts rather than getting caught up in pixel-perfect designs.",
+      "resources": [
+        {
+          "id": "fZkARg6kPXPemYW1vDMTe-res-1",
+          "type": "article",
+          "title": "Balsamiq Website",
+          "url": "https://balsamiq.com/"
+        },
+        {
+          "id": "fZkARg6kPXPemYW1vDMTe-res-2",
+          "type": "video",
+          "title": "Rapid Wireframing with Balsamiq",
+          "url": "https://www.youtube.com/watch?v=dwqHdlXDCBQ&list=PLVlyYfbClWxTsCrScEqhH9JGQUgq98pIu"
+        }
+      ]
+    },
+    "m30ePaw_qa36m9Rv9NSFf": {
+      "id": "m30ePaw_qa36m9Rv9NSFf",
+      "slug": "be-authentic-and-personal",
+      "title": "Be Authentic and Personal",
+      "description": "When creating a user experience (UX) design, it's essential to be authentic and personal. This means that your design should be genuine, truthful, and relatable to your users. By being authentic and personal, you can create a positive intuitive reaction in your users, as they feel connected and engaged with your website or application.",
+      "resources": [
+        {
+          "id": "m30ePaw_qa36m9Rv9NSFf-res-1",
+          "type": "article",
+          "title": "Rethinking Personas",
+          "url": "https://uxdesign.cc/rethinking-personas-empathy-and-inclusion-in-ux-design-37145d2ee807"
+        }
+      ]
+    },
+    "JSBiw0C6aq1LhA33y79PM": {
+      "id": "JSBiw0C6aq1LhA33y79PM",
+      "slug": "behavior-change-games",
+      "title": "Behavior Change Games",
+      "description": "Behavior change games are a powerful UX design pattern that help users adopt new habits or make positive lifestyle changes. These games are typically designed to be engaging, enjoyable, and motivating, utilizing various game elements and mechanics to encourage users to take desired actions. When designing behavior change games, it's essential to keep user experience in mind, and create an enjoyable and motivating experience. Balancing fun and educational elements can result in a powerful tool for guiding users towards positive change in their lives.",
+      "resources": [
+        {
+          "id": "JSBiw0C6aq1LhA33y79PM-res-1",
+          "type": "article",
+          "title": "Behavioral Change Games",
+          "url": "https://medium.com/@jgruver/designing-for-behavioral-change-a-new-approach-in-ux-ui-design-59f9fb0086d1"
+        }
+      ]
+    },
+    "w_QWN80zCf1tsVROeyuvo": {
+      "id": "w_QWN80zCf1tsVROeyuvo",
+      "slug": "behavior-change-strategies",
+      "title": "Behavior Change Strategies",
+      "description": "Behavior change strategies are techniques that aim to help users adopt new behaviors or break existing ones to achieve specific goals, such as healthier lifestyles or improved productivity. In UX design, these strategies are applied to design elements and features within digital products or services to motivate and support users in making lasting changes in their actions.",
+      "resources": [
+        {
+          "id": "w_QWN80zCf1tsVROeyuvo-res-1",
+          "type": "article",
+          "title": "Behavioral Change Strategies",
+          "url": "https://blog.logrocket.com/ux-design/starter-guide-behavioral-design/"
+        }
+      ]
+    },
+    "zYCBEUqZVlvjlAKnh5cPQ": {
+      "id": "zYCBEUqZVlvjlAKnh5cPQ",
+      "slug": "behavior-design",
+      "title": "Behavior Design",
+      "description": "Behavior Design is an approach that combines elements of psychology, neuroscience, and design principles to understand and influence human behaviors. The goal behind behavior design is to make it easier for users to accomplish their goals or desired actions within a product, service, or system.",
+      "resources": [
+        {
+          "id": "zYCBEUqZVlvjlAKnh5cPQ-res-1",
+          "type": "article",
+          "title": "Behavior Design",
+          "url": "https://www.interaction-design.org/literature/topics/behavioral-design"
+        }
+      ]
+    },
+    "_lv6GJ0wlMfhJ7PHRGQ_V": {
+      "id": "_lv6GJ0wlMfhJ7PHRGQ_V",
+      "slug": "behavioral-economics",
+      "title": "Behavioral Economics",
+      "description": "Behavioral Economics is a subfield of economics that studies the psychological, social, and emotional factors that influence decision-making and economic behavior. It seeks to understand why people make choices that deviate from the traditional economic model, which assumes that individuals behave rationally and seek to maximize their utility.",
+      "resources": [
+        {
+          "id": "_lv6GJ0wlMfhJ7PHRGQ_V-res-1",
+          "type": "article",
+          "title": "Behavioral Economics",
+          "url": "https://www.interaction-design.org/literature/article/behavioural-economics-ideas-that-you-can-use-in-ux-design"
+        }
+      ]
+    },
+    "D553-nVELaB5gdxtoKSVc": {
+      "id": "D553-nVELaB5gdxtoKSVc",
+      "slug": "behavioral-science",
+      "title": "Behavioral Science",
+      "description": "Behavioral science is the interdisciplinary study of human behavior, which encompasses disciplines like psychology, sociology, and anthropology. This field- primarily focuses on understanding what impacts our decisions, actions, and emotions. In the context of UX design, applying behavioral science concepts and principles can enhance user experience by improving user engagement, usability, and overall satisfaction.",
+      "resources": [
+        {
+          "id": "D553-nVELaB5gdxtoKSVc-res-1",
+          "type": "article",
+          "title": "Behavioral Science",
+          "url": "https://uxplanet.org/how-to-use-behavioral-science-to-influence-user-behavior-in-design-581dc0805f7c"
+        },
+        {
+          "id": "D553-nVELaB5gdxtoKSVc-res-2",
+          "type": "article",
+          "title": "Future of Behavioral Science",
+          "url": "https://behavioralscientist.org/what-is-the-future-of-design-and-behavioral-science-a-conversation-with-cliff-kuang/"
+        }
+      ]
+    },
+    "lRBC8VYJPsR65LHDuuIsL": {
+      "id": "lRBC8VYJPsR65LHDuuIsL",
+      "slug": "bj-foggs-behavior-grid",
+      "title": "BJ Fogg’s Behavior Grid",
+      "description": "The BJ Fogg Behavior Grid is a framework that helps UX designers, product managers, and marketers understand and identify different types of behavior change. Created by Stanford University professor B.J. Fogg, the grid consists of 15 behavior types based on the combination of three dimensions: Duration, Frequency, and Intensity.",
+      "resources": [
+        {
+          "id": "lRBC8VYJPsR65LHDuuIsL-res-1",
+          "type": "article",
+          "title": "BJ Fogg’s Behavior Grid",
+          "url": "https://behaviordesign.stanford.edu/resources/fogg-behavior-grid"
+        },
+        {
+          "id": "lRBC8VYJPsR65LHDuuIsL-res-2",
+          "type": "article",
+          "title": "The Fogg Behavior Model",
+          "url": "https://blog.logrocket.com/ux-design/fogg-behavior-model/"
+        }
+      ]
+    },
+    "2NlgbLeLBYwZX2u2rKkIO": {
+      "id": "2NlgbLeLBYwZX2u2rKkIO",
+      "slug": "bj-foggs-behavior-model",
+      "title": "BJ Fogg's Behavior Model",
+      "description": "B.J. Fogg, a renowned psychologist, and researcher at Stanford University, proposed the Fogg Behavior Model (FBM). This insightful model helps UX designers understand and influence user behavior by focusing on three core elements. These key factors are motivation, ability, and prompts.",
+      "resources": [
+        {
+          "id": "2NlgbLeLBYwZX2u2rKkIO-res-1",
+          "type": "article",
+          "title": "Meaning of BJ Fogg's Behavior Model",
+          "url": "https://behaviormodel.org/"
+        },
+        {
+          "id": "2NlgbLeLBYwZX2u2rKkIO-res-2",
+          "type": "article",
+          "title": "The Fogg Behavior Model",
+          "url": "https://blog.logrocket.com/ux-design/fogg-behavior-model/"
+        }
+      ]
+    },
+    "SGO9hHju49_py0n0ASGBe": {
+      "id": "SGO9hHju49_py0n0ASGBe",
+      "slug": "business-model-canvas",
+      "title": "Business Model Canvas",
+      "description": "The **Business Model Canvas** is a strategic management and visual representation tool that allows you to describe, design, challenge, and pivot your existing business model. Developed by **Alexander Osterwalder** and **Yves Pigneur**, it helps organizations to understand how they create, deliver, and capture value. The canvas is divided into nine building blocks, which represent the essential elements of a business model:",
+      "resources": [
+        {
+          "id": "SGO9hHju49_py0n0ASGBe-res-1",
+          "type": "article",
+          "title": "Business Model Canvas",
+          "url": "https://www.interaction-design.org/literature/topics/business-model-canvas"
+        }
+      ]
+    },
+    "GI06-DbGyJlQXq5Tyi-aH": {
+      "id": "GI06-DbGyJlQXq5Tyi-aH",
+      "slug": "business-model-inspirator",
+      "title": "Business Model Inspirator",
+      "description": "A Business Model Inspirator is a tool or method that helps you to generate new or creative ideas for the strategic, operational, and financial aspects of a business. It helps entrepreneurs, startups, and established companies to explore different ways of designing or improving their business models by drawing inspiration from various sources.",
+      "resources": [
+        {
+          "id": "GI06-DbGyJlQXq5Tyi-aH-res-1",
+          "type": "article",
+          "title": "Business Model Inspirator",
+          "url": "https://businessdesign.org/knowledge-base/business-model-inspirator"
+        }
+      ]
+    },
+    "jy5jtSEyNE8iJpad27rPX": {
+      "id": "jy5jtSEyNE8iJpad27rPX",
+      "slug": "business-process-model--notation-bpmn",
+      "title": "Business Process Model & Notation (BPMN)",
+      "description": "BPMN is a standardized graphical notation for modeling business processes using elements like events, activities, gateways, and swimlanes. It is more formal and detailed than a simple flowchart, making it suited for complex processes involving multiple actors or systems. Teams use BPMN when a process needs to be communicated precisely across both design and engineering.",
+      "resources": [
+        {
+          "id": "jy5jtSEyNE8iJpad27rPX-res-1",
+          "type": "article",
+          "title": "Business Process Model and Notation (BPMN)",
+          "url": "https://aguayo.co/en/blog-aguayp-user-experience/business-process-model-notation-for-ux/"
+        },
+        {
+          "id": "jy5jtSEyNE8iJpad27rPX-res-2",
+          "type": "article",
+          "title": "How to Design BPNM",
+          "url": "https://devlight.io/blog/how-to-design-business-process-model-and-notation-for-a-mobile-app/"
+        }
+      ]
+    },
+    "U4ZEFUcghr9XjSyf-0Np7": {
+      "id": "U4ZEFUcghr9XjSyf-0Np7",
+      "slug": "call-to-action",
+      "title": "Call to Action",
+      "description": "A **Call to Action (CTA)** is a UX pattern that encourages users to take a specific action on a website, app, or other digital product. It is an essential component of effective UX design, as it helps guide users through the experience and accomplish their goals. CTAs can come in various forms, including buttons, links, images, or text.",
+      "resources": [
+        {
+          "id": "U4ZEFUcghr9XjSyf-0Np7-res-1",
+          "type": "article",
+          "title": "UX Practices: 8 Handy Tips on CTA Button Design",
+          "url": "https://uxplanet.org/ux-practices-8-handy-tips-on-cta-button-design-682fdb9c65bc"
+        }
+      ]
+    },
+    "zVXJPpqZvUFIxTGVrr0rN": {
+      "id": "zVXJPpqZvUFIxTGVrr0rN",
+      "slug": "cheating",
+      "title": "Cheating",
+      "description": "Cheating, in the context of behavior design, refers to shortcuts that produce a desired user action without relying on willpower or motivation. Instead of trying to persuade the user, the designer removes the need for a decision altogether. Defaulting, making an action incidental, and automating repetition are common cheating techniques.",
+      "resources": [
+        {
+          "id": "zVXJPpqZvUFIxTGVrr0rN-res-1",
+          "type": "article",
+          "title": "The Art of Cheating in UX Design: Enhancing User Experience with Creative Shortcuts",
+          "url": "https://medium.com/design-bootcamp/the-art-of-cheating-in-ux-design-enhancing-user-experience-with-creative-shortcuts-f4942ae8cbad"
+        }
+      ]
+    },
+    "IjqH_Ev2fDWG0QDQ9c9eN": {
+      "id": "IjqH_Ev2fDWG0QDQ9c9eN",
+      "slug": "clear-the-page-of-distractions",
+      "title": "Clear the Page of Distractions",
+      "description": "Clearing the page of distractions means removing any element that competes with the user's attention on the target action, such as unrelated links, ads, or excessive navigation. A cleaner page increases the odds a user notices and completes the intended action. This is especially important on high-stakes screens like checkout or signup, where every extra element is a chance for the user to leave.",
+      "resources": []
+    },
+    "HUZ5n2MRHzQPyjwX2h6Q4": {
+      "id": "HUZ5n2MRHzQPyjwX2h6Q4",
+      "slug": "competitor-analysis",
+      "title": "Competitor Analysis",
+      "description": "Competitor analysis is the process of researching other products or businesses that solve a similar problem for similar users. It covers their features, pricing, positioning, and user experience to find gaps and opportunities for differentiation. Teams use it before designing a new business model or product feature so decisions are informed rather than made in isolation.",
+      "resources": [
+        {
+          "id": "HUZ5n2MRHzQPyjwX2h6Q4-res-1",
+          "type": "article",
+          "title": "How to Perform Competitor Analysis: A Step-by-Step Guide",
+          "url": "https://www.coursera.org/articles/competitor-analysis"
+        }
+      ]
+    },
+    "r6D07cN0Mg4YXsiRSrl1_": {
+      "id": "r6D07cN0Mg4YXsiRSrl1_",
+      "slug": "conceptual-design",
+      "title": "Conceptual Design",
+      "description": "Conceptual design is the stage where a team turns a product idea into a structured plan, defining the backlog of features and how user progress and completion will be communicated. It sits between understanding the product and building actual prototypes. Deliverables at this stage, such as flowcharts or process models, describe how the product should behave before any screens are designed.",
+      "resources": [
+        {
+          "id": "r6D07cN0Mg4YXsiRSrl1_-res-1",
+          "type": "article",
+          "title": "How to apply design thinking in UX",
+          "url": "https://medium.com/digital-experience-design/how-to-apply-a-design-thinking-hcd-ux-or-any-creative-process-from-scratch-b8786efbf812"
+        }
+      ]
+    },
+    "kcG4IpneJzA6di0uqTiwb": {
+      "id": "kcG4IpneJzA6di0uqTiwb",
+      "slug": "create-action-funnel",
+      "title": "CREATE Action Funnel",
+      "description": "The CREATE Action Funnel breaks the path to a user action into six stages: Cue, Reaction, Evaluation, Ability, Timing, and Execution. A user must pass through each stage for the target behavior to happen, and a failure at any stage stops the action. It gives designers a step-by-step way to audit where users drop off before completing a task.",
+      "resources": [
+        {
+          "id": "kcG4IpneJzA6di0uqTiwb-res-1",
+          "type": "course",
+          "title": "Behavioral Science Crash Course: Steve Wendel's CREATE Action Funnel",
+          "url": "https://www.prodify.group/blog/behavioral-science-crash-course-steve-wendels-create-action-funnel"
+        }
+      ]
+    },
+    "s2KJ5kNv9UcnsP0QKIKQ7": {
+      "id": "s2KJ5kNv9UcnsP0QKIKQ7",
+      "slug": "create-user-personas",
+      "title": "Create User Personas",
+      "description": "Creating user personas means building fictional but research-based profiles that represent the key user types a product serves. Each persona typically includes goals, frustrations, behaviors, and context drawn from interviews, surveys, or analytics rather than guesswork. Personas give a team a shared reference point when making design decisions instead of relying on personal assumptions.",
+      "resources": [
+        {
+          "id": "s2KJ5kNv9UcnsP0QKIKQ7-res-1",
+          "type": "article",
+          "title": "Personas – A Simple Introduction",
+          "url": "https://www.interaction-design.org/literature/article/personas-why-and-how-you-should-use-them"
+        },
+        {
+          "id": "s2KJ5kNv9UcnsP0QKIKQ7-res-2",
+          "type": "article",
+          "title": "Personas Make Users Memorable for Product Team Members",
+          "url": "https://www.nngroup.com/articles/persona/"
+        },
+        {
+          "id": "s2KJ5kNv9UcnsP0QKIKQ7-res-3",
+          "type": "video",
+          "title": "Personas in UX",
+          "url": "https://youtube.com/playlist?list=PLJOFJ3Ok_ids-oEPCltCVtmdDOXiyttpq&si=v7ZaI65bQNTfXKHJ"
+        }
+      ]
+    },
+    "B0gg7Z5JL9m9Srb89KcN5": {
+      "id": "B0gg7Z5JL9m9Srb89KcN5",
+      "slug": "crowd-out-old-habit-with-new-behavior",
+      "title": "Crowd Out Old Habit with New Behavior",
+      "description": "Crowding out an old habit means introducing a new, incompatible behavior that occupies the same cue and reward slot as the unwanted one. If checking a phone at bedtime is the target, replacing it with reading a book at that same moment can push the old habit out over time. The new behavior competes for the same trigger until it becomes the default response.",
+      "resources": []
+    },
+    "X1AroUI8Fge_lRpKab4A9": {
+      "id": "X1AroUI8Fge_lRpKab4A9",
+      "slug": "cue-routine-reward-model",
+      "title": "Cue Routine Reward Model",
+      "description": "The Cue-Routine-Reward model explains a habit as a loop where a cue triggers a routine, and that routine produces a reward that reinforces the cue-routine connection. Over repeated cycles, the routine becomes automatic once the cue appears, requiring less conscious thought each time. Designers use this model to understand existing habits before deciding whether to support, replace, or break them.",
+      "resources": []
+    },
+    "0KEqAjHFBjfmGA1bKzXuD": {
+      "id": "0KEqAjHFBjfmGA1bKzXuD",
+      "slug": "customer-experience-map-by-mel-edwards",
+      "title": "Customer Experience Map by Mel Edwards",
+      "description": "The Customer Experience Map is a deliverable developed by Mel Edwards that visualizes a user's journey through a product across stages, capturing their actions, thoughts, and emotions at each point. It highlights pain points and moments of friction alongside points of delight across the full experience. Teams use it during conceptual design to see the product from the user's perspective before deciding what to build or fix.",
+      "resources": [
+        {
+          "id": "0KEqAjHFBjfmGA1bKzXuD-res-1",
+          "type": "article",
+          "title": "Customer journey map explained: Everything you need to know",
+          "url": "https://miro.com/customer-journey-map/what-is-a-customer-journey-map/"
+        }
+      ]
+    },
+    "9vA3ZWMiKG6NiEqGDvcFR": {
+      "id": "9vA3ZWMiKG6NiEqGDvcFR",
+      "slug": "decision-making-support",
+      "title": "Decision-Making Support",
+      "description": "Decision making support plays a crucial role in UX design by providing users with the necessary information, options, and feedback to make informed choices when interacting with a product or interface. This UX pattern focuses on helping users make decisions through clear presentation of information, minimizing cognitive load, and offering guidance throughout the various interactions.",
+      "resources": []
+    },
+    "wE5gt1vMgbF3csA61VO2-": {
+      "id": "wE5gt1vMgbF3csA61VO2-",
+      "slug": "default-everything",
+      "title": "Default Everything",
+      "description": "Defaulting everything means pre-filling or pre-selecting sensible choices throughout an interface so the user can proceed with minimal input, only changing what they specifically want to adjust. This reduces the effort required to complete a task, since accepting the default is always easier than making an active choice. It is one of the most effective ways to make a target action easy to complete.",
+      "resources": []
+    },
+    "IpKCXqf_PkxIllwmiIZsq": {
+      "id": "IpKCXqf_PkxIllwmiIZsq",
+      "slug": "defaulting",
+      "title": "Defaulting",
+      "description": "Defaulting means setting a pre-selected option so the user has to opt out rather than opt in. Because most people stick with whatever is already selected, this single design choice can dramatically shift outcomes, such as organ donation rates or retirement plan enrollment. It works because taking no action is the path of least resistance for most users.",
+      "resources": [
+        {
+          "id": "IpKCXqf_PkxIllwmiIZsq-res-1",
+          "type": "article",
+          "title": "The Power of Defaults",
+          "url": "https://www.nngroup.com/articles/the-power-of-defaults/"
+        }
+      ]
+    },
+    "gqOnzmiLQHmIXuEe4jG2e": {
+      "id": "gqOnzmiLQHmIXuEe4jG2e",
+      "slug": "deploy-peer-comparisons",
+      "title": "Deploy Peer Comparisons",
+      "description": "Deploying peer comparisons in the context of making an action easy means showing users what similar people typically do, which can reduce hesitation by making the target action feel normal and low-risk. Seeing that others in a similar situation completed the same action reassures a user that it is a safe and reasonable choice. This reduces the perceived effort or risk that might otherwise stop a user from acting.",
+      "resources": []
+    },
+    "C1NwA0Pivoo73GANoOaPi": {
+      "id": "C1NwA0Pivoo73GANoOaPi",
+      "slug": "deploy-social-proof",
+      "title": "Deploy Social Proof",
+      "description": "Social proof shows users that other people have used, trusted, or approved of a product, through reviews, testimonials, user counts, or ratings. People tend to look to others' behavior when they are uncertain about a decision, so visible social proof reduces hesitation. It is commonly placed near decision points like signup forms or purchase buttons.",
+      "resources": [
+        {
+          "id": "C1NwA0Pivoo73GANoOaPi-res-1",
+          "type": "article",
+          "title": "Social proof in UX: An ancestral habit demoted to dark pattern",
+          "url": "https://uxdesign.cc/social-proof-in-ux-an-ancestral-habit-demoted-to-dark-pattern-31d6c99e059a"
+        }
+      ]
+    },
+    "C5dKHIIgBzxtBpFgDs-hB": {
+      "id": "C5dKHIIgBzxtBpFgDs-hB",
+      "slug": "deploy-strong-authority-on-subject",
+      "title": "Deploy Strong Authority on Subject",
+      "description": "Displaying authority means showing credentials, expertise, or endorsements relevant to the subject matter, such as certifications, media mentions, or an author's professional background. Users are more likely to trust and follow guidance from a source that appears knowledgeable. This practice is common on educational, financial, and medical products where credibility strongly affects user decisions.",
+      "resources": []
+    },
+    "kWA8CvocP1pkom2N7O4gb": {
+      "id": "kWA8CvocP1pkom2N7O4gb",
+      "slug": "dual-process-theory",
+      "title": "Dual Process Theory",
+      "description": "Dual process theory describes two systems of thinking: a fast, automatic, intuitive system and a slower, effortful, analytical system. Most daily decisions rely on the fast system, which is why habits and defaults are so powerful in shaping behavior. Designers use this theory to decide whether an interface should support quick, intuitive action or slow down the user for careful evaluation.",
+      "resources": [
+        {
+          "id": "kWA8CvocP1pkom2N7O4gb-res-1",
+          "type": "article",
+          "title": "Dual Process Theory - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dual_process_theory"
+        },
+        {
+          "id": "kWA8CvocP1pkom2N7O4gb-res-2",
+          "type": "video",
+          "title": "Why Your Brain Lies to You: Dual Process Theory Explained",
+          "url": "https://www.youtube.com/watch?v=Aooj7uijOek"
+        }
+      ]
+    },
+    "SLXjoYL-lhPef8s9V3jpf": {
+      "id": "SLXjoYL-lhPef8s9V3jpf",
+      "slug": "educate--encourage-user",
+      "title": "Educate & Encourage User",
+      "description": "Educating and encouraging the user means providing clear information about a choice along with positive reinforcement to help them decide with confidence. This can take the form of tooltips, explainer content, or contextual tips shown at the moment a decision is being made. The goal is to improve the quality of a conscious decision rather than to push the user toward a specific outcome.",
+      "resources": []
+    },
+    "EmDgiwaknBz5lXr1rwalE": {
+      "id": "EmDgiwaknBz5lXr1rwalE",
+      "slug": "elicit-implementation-intentions",
+      "title": "Elicit Implementation Intentions",
+      "description": "Eliciting implementation intentions means prompting users to specify exactly when, where, or how they will perform an intended action, rather than leaving the intention vague. Research shows that a concrete plan, such as picking a specific time to exercise, makes follow-through significantly more likely than a general intention alone. Apps often support this by letting users schedule or specify the details of a planned action at the moment they commit to it.",
+      "resources": []
+    },
+    "nccToz_0FUvHMJytpDpM0": {
+      "id": "nccToz_0FUvHMJytpDpM0",
+      "slug": "event-driven-process-chain-model-epc",
+      "title": "Event-driven Process Chain Model (EPC)",
+      "description": "The Event-driven Process Chain model, or EPC, is a diagramming notation that represents a business process as an alternating sequence of events and functions. Each function is triggered by an event and produces one or more resulting events, which can branch using logical connectors. It is used to model detailed business processes with more precision than a basic flowchart allows.",
+      "resources": [
+        {
+          "id": "nccToz_0FUvHMJytpDpM0-res-1",
+          "type": "article",
+          "title": "Event-driven process chain (EPC)",
+          "url": "https://ariscommunity.com/event-driven-process-chain"
+        }
+      ]
+    },
+    "t46s6Piyd8MoJYzdDTsjr": {
+      "id": "t46s6Piyd8MoJYzdDTsjr",
+      "slug": "figma",
+      "title": "Figma",
+      "description": "[Figma](https://www.figma.com/) is a powerful and versatile web-based design tool that allows designers, developers, and stakeholders to collaborate on UI and UX projects in real-time. It's an excellent choice for creating wireframes and high-fidelity prototypes and supports vector editing, responsive design, and team collaboration.",
+      "resources": [
+        {
+          "id": "t46s6Piyd8MoJYzdDTsjr-res-1",
+          "type": "article",
+          "title": "Figma",
+          "url": "https://figma.com"
+        },
+        {
+          "id": "t46s6Piyd8MoJYzdDTsjr-res-2",
+          "type": "video",
+          "title": "Free Figma UX Design UI Essentials Course",
+          "url": "https://youtu.be/kbZejnPXyLM?si=W9oY5j_6AcSuHfq2"
+        }
+      ]
+    },
+    "F9gpGTRwXq08jNo5pPKm6": {
+      "id": "F9gpGTRwXq08jNo5pPKm6",
+      "slug": "five-forces-model",
+      "title": "Five Forces Model",
+      "description": "The Five Forces Model, developed by Michael Porter, analyzes an industry's competitiveness through five factors: existing competition, threat of new entrants, threat of substitutes, and the bargaining power of suppliers and buyers. It helps teams understand how much pressure a business faces from its market environment beyond just direct competitors. This analysis often shapes decisions about pricing, differentiation, and where a new business model can find an advantage.",
+      "resources": [
+        {
+          "id": "F9gpGTRwXq08jNo5pPKm6-res-1",
+          "type": "article",
+          "title": "Porter's Five Forces Explained and How to Use the Model",
+          "url": "https://www.investopedia.com/terms/p/porter.asp"
+        }
+      ]
+    },
+    "S9rJr8pc-Ln8BxG0suBWa": {
+      "id": "S9rJr8pc-Ln8BxG0suBWa",
+      "slug": "frame-text-to-avoid-temporal-myopia",
+      "title": "Frame Text to Avoid Temporal Myopia",
+      "description": "Temporal myopia is the tendency for people to undervalue future consequences in favor of immediate ones. Framing text to counter this means making future benefits or costs feel more immediate and concrete, such as showing exactly how much money is lost per month rather than per year. This technique is used to create urgency by making a delayed consequence feel present and real.",
+      "resources": []
+    },
+    "fbIur1tEIdNDE6gls4Bru": {
+      "id": "fbIur1tEIdNDE6gls4Bru",
+      "slug": "gamification",
+      "title": "Gamification",
+      "description": "Gamification is a UX design pattern that involves incorporating elements of game design into non-game applications or websites to enhance user engagement and create enjoyable experiences. By using game mechanics like points, achievements, competition, and progress-tracking, designers can make mundane tasks more appealing and motivate users to interact with the content or perform certain actions.",
+      "resources": [
+        {
+          "id": "fbIur1tEIdNDE6gls4Bru-res-1",
+          "type": "article",
+          "title": "Gamification in UX: Enhancing Engagement and Interaction",
+          "url": "https://designlab.com/blog/gamification-in-ux-enhancing-engagement-and-interaction"
+        }
+      ]
+    },
+    "Emby09Nsm_j6uNreT58r6": {
+      "id": "Emby09Nsm_j6uNreT58r6",
+      "slug": "gather-lessons-prioritize--integrate",
+      "title": "Gather Lessons, Prioritize & Integrate",
+      "description": "This step involves collecting insights from testing and user data, deciding which findings matter most, and feeding them back into the product's design. Not every lesson learned is worth acting on immediately, so teams prioritize based on expected impact and effort required. Integrating validated lessons closes the loop between measuring impact and improving the product.",
+      "resources": []
+    },
+    "g-bcan_JnjJfg0_fMOb64": {
+      "id": "g-bcan_JnjJfg0_fMOb64",
+      "slug": "goal-trackers",
+      "title": "Goal Trackers",
+      "description": "Goal trackers are essential UX patterns that enable users to monitor their progress towards accomplishing a specific task or objective. Essentially, they help users stay motivated, organized and informed about their journey within an app, website, or system. In this guide, we'll explore the significance of goal trackers, and how to effectively design and incorporate them in your projects.",
+      "resources": [
+        {
+          "id": "g-bcan_JnjJfg0_fMOb64-res-1",
+          "type": "article",
+          "title": "UX Case Study: Improving Goal Tracking with Intuitive Design and Collaborative Features",
+          "url": "https://medium.com/@sumeetrana849/ux-case-study-improving-goal-tracking-with-intuitive-design-and-collaborative-features-9da9759bf7eb"
+        }
+      ]
+    },
+    "90_M5qABC1vZ1nsXVyqFJ": {
+      "id": "90_M5qABC1vZ1nsXVyqFJ",
+      "slug": "good-layout-rules",
+      "title": "Good Layout Rules",
+      "description": "Good layout rules are the visual design principles that guide how elements are arranged on a screen, covering alignment, spacing, hierarchy, and grouping. Following them makes an interface easier to scan and reduces the mental effort needed to find information. These rules apply regardless of which prototyping tool is used to build the design.",
+      "resources": [
+        {
+          "id": "90_M5qABC1vZ1nsXVyqFJ-res-1",
+          "type": "article",
+          "title": "User Interface Design Guidelines: 10 Rules of Thumb",
+          "url": "https://www.interaction-design.org/literature/article/user-interface-design-guidelines-10-rules-of-thumb"
+        }
+      ]
+    },
+    "S2TgqNDjvmcJTaXncM09u": {
+      "id": "S2TgqNDjvmcJTaXncM09u",
+      "slug": "help-user-avoiding-the-cue",
+      "title": "Help user Avoiding the Cue",
+      "description": "Helping a user avoid the cue means removing or hiding the trigger that sets off an unwanted habit. If a notification prompts compulsive checking, muting or removing that notification eliminates the starting point of the loop. This is often the simplest way to break a habit, since a habit cannot start without its cue.",
+      "resources": [
+        {
+          "id": "S2TgqNDjvmcJTaXncM09u-res-1",
+          "type": "article",
+          "title": "How to Make Users Avoid Unwanted Cues in UX Design",
+          "url": "https://milies.net/blog/how-to-make-users-avoid-unwanted-cues-in-ux-design"
+        }
+      ]
+    },
+    "e9n9an1PGxDPGkLCOHIwz": {
+      "id": "e9n9an1PGxDPGkLCOHIwz",
+      "slug": "help-user-think-about-their-action",
+      "title": "Help User think about their Action",
+      "description": "This design approach slows the user down at a key decision point so they consciously weigh the consequences of an action before confirming it. Confirmation screens, cooling-off periods, and summary reviews before a purchase are common examples. It is used when a mistaken or impulsive action would be costly or hard to reverse.",
+      "resources": []
+    },
+    "mzWd-xSr7sO2RgfPbKy4T": {
+      "id": "mzWd-xSr7sO2RgfPbKy4T",
+      "slug": "how-to-tips",
+      "title": "How-to-Tips",
+      "description": "How-to-tips are short pieces of guidance shown to users at the moment they need help completing a specific action. They appear as tooltips, inline hints, or brief instructions rather than long documentation. This pattern works well when attention is scarce, since it gives just enough information to move the user forward without demanding extra reading.",
+      "resources": []
+    },
+    "liUKYf7UghuPk25xMPPYj": {
+      "id": "liUKYf7UghuPk25xMPPYj",
+      "slug": "human-decision-making",
+      "title": "Human Decision Making",
+      "description": "Human decision-making encompasses the cognitive processes and influences that drive individuals to select a course of action from multiple options. It involves evaluating information, considering biases, weighing potential outcomes, and ultimately choosing what they believe is the best path forward in a given situation. Understanding how people make decisions is crucial for creating user experiences that align with their natural tendencies and help them achieve their goals effectively.",
+      "resources": [
+        {
+          "id": "liUKYf7UghuPk25xMPPYj-res-1",
+          "type": "article",
+          "title": "List of Cognitive Biases",
+          "url": "https://thedecisionlab.com/biases"
+        },
+        {
+          "id": "liUKYf7UghuPk25xMPPYj-res-2",
+          "type": "video",
+          "title": "Types of Cognitive Bias",
+          "url": "https://www.youtube.com/watch?v=wEwGBIr_RIw"
+        }
+      ]
+    },
+    "QNJ-LxfYtR8lbnmuy2Qm9": {
+      "id": "QNJ-LxfYtR8lbnmuy2Qm9",
+      "slug": "in-general-keep-it-short-and-simple",
+      "title": "In general, keep it short and simple",
+      "description": "This principle says that any task or flow presented to the user should be reduced to the fewest possible steps and the simplest possible language. Extra steps, fields, or explanations increase the chance a user gives up before completing the task. It applies across onboarding, forms, and any process where user effort is required.",
+      "resources": []
+    },
+    "Q4xBz9f3yyZi2F_aZ5ixL": {
+      "id": "Q4xBz9f3yyZi2F_aZ5ixL",
+      "slug": "incremental-ab-testing",
+      "title": "Incremental A/B Testing",
+      "description": "Incremental A/B testing compares two versions of a design that differ by a single, small change, showing each version to a separate group of users and measuring which performs better. Because only one variable changes at a time, teams can clearly attribute any difference in outcome to that specific change. It is commonly used to validate individual design decisions before rolling them out to all users.",
+      "resources": [
+        {
+          "id": "Q4xBz9f3yyZi2F_aZ5ixL-res-1",
+          "type": "article",
+          "title": "The Distinct Roles of Incrementality Testing and A/B Testing",
+          "url": "https://lifesight.io/blog/incrementality-vs-ab-testing/"
+        },
+        {
+          "id": "Q4xBz9f3yyZi2F_aZ5ixL-res-2",
+          "type": "article",
+          "title": "What’s the Difference Between A/B Testing and Incrementality Testing?",
+          "url": "https://www.measured.com/faq/whats-the-difference-between-a-b-testing-and-incrementality-testing/"
+        }
+      ]
+    },
+    "sc8jJ_77CrkQuxIJYk28Q": {
+      "id": "sc8jJ_77CrkQuxIJYk28Q",
+      "slug": "lean-canvas",
+      "title": "Lean Canvas",
+      "description": "Lean Canvas is a variation of the Business Model Canvas adapted for early-stage startups, replacing some blocks with problem, solution, and key metrics sections. It puts more focus on the problem being solved and the unfair advantage a startup has over competitors. Founders and product teams use it to sketch and test a business idea quickly before committing to a full plan.",
+      "resources": [
+        {
+          "id": "sc8jJ_77CrkQuxIJYk28Q-res-1",
+          "type": "article",
+          "title": "Creating a Lean Canvas: How-tos, templates, and tips",
+          "url": "https://www.canva.com/online-whiteboard/lean-canvas/"
+        }
+      ]
+    },
+    "gf7et64xCqkYBrP9HwWs_": {
+      "id": "gf7et64xCqkYBrP9HwWs_",
+      "slug": "lessen-the-burden-of-action--info",
+      "title": "Lessen the Burden of Action / Info",
+      "description": "This practice focuses on reducing the amount of effort or information a user must provide to complete a task, such as shortening forms, auto-filling known data, or breaking a long process into smaller steps. Every additional field or requirement is a chance for a user to stop and reconsider or abandon the task. Simplifying these requirements directly increases completion rates.",
+      "resources": []
+    },
+    "zXinWCEH4LlYvXekLK0Ju": {
+      "id": "zXinWCEH4LlYvXekLK0Ju",
+      "slug": "leverage-loss-aversion",
+      "title": "Leverage Loss-Aversion",
+      "description": "Loss-aversion is the tendency for people to feel the pain of losing something more strongly than the pleasure of gaining something equivalent. Designers use this by framing messages around what a user stands to lose, such as \"don't lose your progress\" instead of \"keep your progress,\" which tends to be more motivating. It is a common technique in subscription cancellation flows and limited-time offers.",
+      "resources": []
+    },
+    "dOL2z6ULpmzRD5N3MrYCy": {
+      "id": "dOL2z6ULpmzRD5N3MrYCy",
+      "slug": "make-commitment-to-friends",
+      "title": "Make Commitment to Friends",
+      "description": "This technique has users publicly commit to a goal or action in front of friends or their social network, increasing the social cost of not following through. Because people want to appear consistent to others, a public commitment adds pressure beyond the user's own motivation. Fitness and habit-tracking apps often use this by letting users share goals with friends.",
+      "resources": []
+    },
+    "hDj3HaYAM7K1UJmP_T52n": {
+      "id": "hDj3HaYAM7K1UJmP_T52n",
+      "slug": "make-it-clear-where-to-act",
+      "title": "Make it Clear, Where to Act",
+      "description": "This practice focuses on making the actionable element, such as a button or link, visually obvious through size, color, contrast, or placement. If users cannot quickly locate where to act, they hesitate or abandon the task even if they understand what to do. Visual hierarchy and consistent placement of key actions support this practice across a product.",
+      "resources": []
+    },
+    "vAu2c45c7DgoRydHR2tvD": {
+      "id": "vAu2c45c7DgoRydHR2tvD",
+      "slug": "make-it-easy-to-understand-and-complete",
+      "title": "Make it easy to understand and complete",
+      "description": "This principle focuses on making sure users know what a task requires and can finish it without confusion or friction. Clear instructions, sensible input formats, and forgiving validation all support this. A task that is easy to understand but hard to complete, or vice versa, still causes users to abandon it.",
+      "resources": []
+    },
+    "y6CqgqTvOt-LrvTnPJkQQ": {
+      "id": "y6CqgqTvOt-LrvTnPJkQQ",
+      "slug": "make-or-change-habits",
+      "title": "Make or Change Habits",
+      "description": "Making or changing habits covers design approaches for building a new habit from scratch or replacing an existing one. It requires working with the existing cue, routine, and reward loop, either by disrupting an unwanted habit or reinforcing a new one. Models like Nir Eyal's Hook Model and the Cue-Routine-Reward loop are commonly applied here.",
+      "resources": []
+    },
+    "D3LVYuCDHD6-kU8GhXokf": {
+      "id": "D3LVYuCDHD6-kU8GhXokf",
+      "slug": "make-progress-meaningful-to-reward-user",
+      "title": "Make progress meaningful to reward user",
+      "description": "This principle says that visible progress should feel like a real reward, not just a mechanical status update. Small celebratory moments, encouraging messages, or visual milestones at meaningful points keep users motivated to continue. Progress indicators that feel arbitrary or disconnected from actual achievement fail to reinforce continued effort.",
+      "resources": []
+    },
+    "8YePym3cQtoVY0DJQLllK": {
+      "id": "8YePym3cQtoVY0DJQLllK",
+      "slug": "make-progress-visible-to-user",
+      "title": "Make progress visible to user",
+      "description": "Making progress visible means showing users where they are in a multi-step process, such as through a progress bar, step counter, or checklist. It reduces uncertainty and helps users judge how much effort remains before they reach completion. Without this visibility, users are more likely to abandon a task partway through because they cannot tell how much is left.",
+      "resources": []
+    },
+    "1pzONoWafLAeX8eWbH-Dz": {
+      "id": "1pzONoWafLAeX8eWbH-Dz",
+      "slug": "make-reward-scarce",
+      "title": "Make Reward Scarce",
+      "description": "Making a reward scarce means limiting its availability by time, quantity, or exclusivity, such as a limited-time discount or a small number of remaining spots. Scarcity increases perceived value and creates urgency to act before the opportunity disappears. This is a widely used technique in ecommerce and event registration flows.",
+      "resources": []
+    },
+    "94V3wUtZ0NMm_0Vb1pBju": {
+      "id": "94V3wUtZ0NMm_0Vb1pBju",
+      "slug": "make-successful-completion-clearly-visible",
+      "title": "Make successful completion clearly visible",
+      "description": "This principle emphasizes giving users an unmistakable signal when they have finished a task successfully, such as a confirmation screen, success message, or visual change. Ambiguous endings leave users unsure whether their action worked, which can lead to repeated submissions or abandoned trust in the product. A clear completion moment also closes the loop and reinforces that the effort paid off.",
+      "resources": []
+    },
+    "ahhffBkmd-feroleBrhJm": {
+      "id": "ahhffBkmd-feroleBrhJm",
+      "slug": "make-ui-professional-and-beautiful",
+      "title": "Make UI Professional and Beautiful",
+      "description": "A professional and visually polished interface builds immediate trust with users, often before they read any content. Inconsistent spacing, mismatched fonts, or a dated look can make users doubt the credibility of a product, regardless of how good the underlying functionality is. This first impression shapes how favorably users judge everything that follows.",
+      "resources": []
+    },
+    "Ix5Fll_dAINWLxVF2DXFI": {
+      "id": "Ix5Fll_dAINWLxVF2DXFI",
+      "slug": "making-it-incidental",
+      "title": "Making it Incidental",
+      "description": "Making an action incidental means folding it into a task the user is already doing, so it happens as a side effect rather than a separate decision. An example is a payment app that automatically rounds up purchases and saves the difference, so saving money requires no extra effort from the user. This avoids relying on the user to remember or choose to perform the target behavior on its own.",
+      "resources": []
+    },
+    "GgBazWfF2OvOqkuo3DO2L": {
+      "id": "GgBazWfF2OvOqkuo3DO2L",
+      "slug": "measuring-the-impact",
+      "title": "Measuring the Impact",
+      "description": "Measuring the impact is the stage where a team evaluates whether the design decisions made throughout the product actually produced the intended behavior change. It involves testing methods such as multivariate testing and incremental A/B testing to compare outcomes across different design variations. Findings from this stage feed back into earlier design decisions to refine and improve the product.",
+      "resources": [
+        {
+          "id": "GgBazWfF2OvOqkuo3DO2L-res-1",
+          "type": "article",
+          "title": "How to Measure User Experience in 2026: Friction-First UX Metrics",
+          "url": "https://userpilot.com/blog/how-to-measure-user-experience/"
+        },
+        {
+          "id": "GgBazWfF2OvOqkuo3DO2L-res-2",
+          "type": "article",
+          "title": "Measuring UX — A Brief Introduction to Attitudinal Metrics",
+          "url": "https://medium.com/design-kisk/measuring-ux-a-brief-introduction-to-attitudinal-metrics-1b88772be59a"
+        }
+      ]
+    },
+    "d1dXGCHmMF2EFpL5yKVJA": {
+      "id": "d1dXGCHmMF2EFpL5yKVJA",
+      "slug": "mindfulness-to-avoid-acting-on-the-cue",
+      "title": "Mindfulness to Avoid Acting on the Cue",
+      "description": "This technique trains users to notice a habit cue as it happens and choose not to act on it, rather than removing the cue itself. Apps that prompt a brief pause or breathing exercise when a craving cue appears use this approach. It relies on building the user's own awareness rather than changing the environment around them.",
+      "resources": []
+    },
+    "-_T2nzp1vV1jUcpsC5DI3": {
+      "id": "-_T2nzp1vV1jUcpsC5DI3",
+      "slug": "multivariate-testing",
+      "title": "Multivariate Testing",
+      "description": "Multivariate testing compares multiple design variations that differ across several elements at once, such as headline, image, and button color, to see which combination performs best. Unlike a simple test of one variable, it can reveal how different elements interact with each other. It typically requires more traffic than a simple A/B test to produce statistically reliable results.",
+      "resources": [
+        {
+          "id": "-_T2nzp1vV1jUcpsC5DI3-res-1",
+          "type": "article",
+          "title": "What Is Multivariate Testing? How It Works and Why It Matters",
+          "url": "https://contentsquare.com/guides/conversion-rate-optimization-glossary/multivariate-testing/"
+        }
+      ]
+    },
+    "PLLTcrHkhd1KYaMSRKALp": {
+      "id": "PLLTcrHkhd1KYaMSRKALp",
+      "slug": "nir-eyals-hook-model",
+      "title": "Nir Eyal's Hook Model",
+      "description": "Nir Eyal's Hook Model describes a four-step loop that products use to build habitual engagement: trigger, action, variable reward, and investment. The trigger prompts the user, the action is the simplest behavior done in anticipation of a reward, the reward keeps the user interested through variability, and the investment step has the user put something into the product that makes future triggers more effective. Social media feeds and many mobile games are commonly cited examples of this loop in action.",
+      "resources": []
+    },
+    "6ffY5wO-XhkiDJJ5YcI0x": {
+      "id": "6ffY5wO-XhkiDJJ5YcI0x",
+      "slug": "nudge-theory",
+      "title": "Nudge Theory",
+      "description": "Nudge Theory suggests that people make decisions based on cognitive biases rather than purely rational analysis. It proposes that subtle changes in the way choices are presented can significantly influence people's behavior without restricting their freedom of choice. This involves designing choices that are easier to make or more appealing, guiding users towards desired actions without being overly forceful or restrictive.",
+      "resources": [
+        {
+          "id": "6ffY5wO-XhkiDJJ5YcI0x-res-1",
+          "type": "article",
+          "title": "Nudge Theory overview with examples",
+          "url": "https://www.businessballs.com/improving-workplace-performance/nudge-theory/"
+        },
+        {
+          "id": "6ffY5wO-XhkiDJJ5YcI0x-res-2",
+          "type": "video",
+          "title": "Nudge Theory Explained in less than 10 minutes",
+          "url": "https://youtu.be/fA5eGIMZTRQ"
+        }
+      ]
+    },
+    "K22gvF9DLt0Ikc80yZLCb": {
+      "id": "K22gvF9DLt0Ikc80yZLCb",
+      "slug": "persuasive-technology",
+      "title": "Persuasive Technology",
+      "description": "Persuasive technology refers to digital products deliberately designed to change a user's attitude or behavior through interaction, not through argument or coercion. Fitness apps that reward streaks or apps that use progress bars to keep users engaged are common examples. The field studies which design elements make a system convincing and how far that influence should go before it becomes manipulative.",
+      "resources": [
+        {
+          "id": "K22gvF9DLt0Ikc80yZLCb-res-1",
+          "type": "article",
+          "title": "Persuasive Technology - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Persuasive_technology"
+        }
+      ]
+    },
+    "eYZf67rnhOksfh44hnzHg": {
+      "id": "eYZf67rnhOksfh44hnzHg",
+      "slug": "planners",
+      "title": "Planners",
+      "description": "Planners are an essential aspect of UX design, helping users accomplish complex tasks by breaking them down into manageable steps. Planners are particularly useful in situations where users are expected to make decisions or deal with a range of options. They help to create an engaging and interactive experience, guiding users to achieve their goals efficiently.",
+      "resources": []
+    },
+    "jBQtuiHGl3eyCTZG85Vz5": {
+      "id": "jBQtuiHGl3eyCTZG85Vz5",
+      "slug": "prime-user-relevant-associations",
+      "title": "Prime User-Relevant Associations",
+      "description": "Priming means exposing users to words, images, or cues related to a desired outcome just before they make a decision, so that concept is more mentally accessible. For example, showing images of relaxation before a spa booking flow can make the decision feel more aligned with the user's goals. This technique shapes the frame of mind a user is in without changing the actual options presented.",
+      "resources": []
+    },
+    "6yCBFwntQ_KxFmmGTJ8iR": {
+      "id": "6yCBFwntQ_KxFmmGTJ8iR",
+      "slug": "prototyping",
+      "title": "Prototyping",
+      "description": "Prototyping is the stage where a design idea is turned into a testable representation, ranging from low-fidelity wireframes to interactive high-fidelity mockups. It lets designers and stakeholders evaluate layout, flow, and interaction before development begins. Tools like Figma, Sketch, and Adobe XD are commonly used to build prototypes at this stage.",
+      "resources": [
+        {
+          "id": "6yCBFwntQ_KxFmmGTJ8iR-res-1",
+          "type": "article",
+          "title": "What is prototyping",
+          "url": "https://www.figma.com/resource-library/what-is-prototyping/"
+        }
+      ]
+    },
+    "kR-UbUFdELVeiPJqT0GlZ": {
+      "id": "kR-UbUFdELVeiPJqT0GlZ",
+      "slug": "remind-of-prior-commitment-to-act",
+      "title": "Remind of Prior Commitment to Act",
+      "description": "This technique reminds users of a commitment they already made, such as a goal they set or an item they added to a wishlist, to prompt them to follow through. People feel internal pressure to stay consistent with past commitments, which this pattern leverages to drive action. It is often used in re-engagement emails or notifications that reference something the user previously started.",
+      "resources": []
+    },
+    "wFWidrOZ5EHPgo9uuUclK": {
+      "id": "wFWidrOZ5EHPgo9uuUclK",
+      "slug": "reminders--planning-prompts",
+      "title": "Reminders & Planning Prompts",
+      "description": "Reminders and planning prompts are notifications or in-app messages that nudge a user to complete a pending task or plan an upcoming action. They work by re-capturing attention at a relevant moment rather than requiring the user to remember on their own. This pattern is useful when a user's attention on the product is limited or intermittent.",
+      "resources": []
+    },
+    "esWGzYUJwv7_xGjq6kpVE": {
+      "id": "esWGzYUJwv7_xGjq6kpVE",
+      "slug": "reminders",
+      "title": "Reminders",
+      "description": "**Reminders** play an essential role in the user's experience, especially when it comes to retaining user attention and engagement. They can be helpful in making sure that the user stays focused on their tasks, remembers essential information or deadlines, and continually interacts with your product or design.",
+      "resources": []
+    },
+    "_C-55tciBzc6_Kyk6272k": {
+      "id": "_C-55tciBzc6_Kyk6272k",
+      "slug": "replace-the-routine",
+      "title": "Replace the Routine",
+      "description": "Replacing the routine means keeping the same cue and reward but substituting a different action in between. For example, if boredom triggers snacking, a product might prompt a short walk instead while still delivering a comparable reward like distraction or a mood boost. This approach works with the existing habit loop rather than trying to remove it entirely.",
+      "resources": []
+    },
+    "JCP5_jyvh9u7hxp379iW2": {
+      "id": "JCP5_jyvh9u7hxp379iW2",
+      "slug": "simple-flowchart",
+      "title": "Simple Flowchart",
+      "description": "A simple flowchart is a diagram that maps out the steps and decision points in a process using basic shapes like boxes and arrows. It shows the logical path a user or system takes from a starting point to an outcome, including any branches. Teams use it during conceptual design because it is quick to draw and easy for anyone to read.",
+      "resources": [
+        {
+          "id": "JCP5_jyvh9u7hxp379iW2-res-1",
+          "type": "article",
+          "title": "Flowcharts in UX/UI Design",
+          "url": "https://ixdf.org/literature/topics/flowcharts"
+        }
+      ]
+    },
+    "nb7Ql1gvxqEucsGnIWTyY": {
+      "id": "nb7Ql1gvxqEucsGnIWTyY",
+      "slug": "sketch",
+      "title": "Sketch",
+      "description": "Sketch is a powerful digital design tool specifically tailored for user interface (UI) and user experience (UX) design. As part of the creative process, designers use Sketch to create wireframes, visual mockups, and interactive prototypes that help plan and iterate their ideas.",
+      "resources": [
+        {
+          "id": "nb7Ql1gvxqEucsGnIWTyY-res-1",
+          "type": "article",
+          "title": "Sketch",
+          "url": "https://www.sketch.com/"
+        },
+        {
+          "id": "nb7Ql1gvxqEucsGnIWTyY-res-2",
+          "type": "video",
+          "title": "Sketch Masterclass: Introduction to the Interface",
+          "url": "https://www.youtube.com/watch?v=R4VBQDv7ISg"
+        }
+      ]
+    },
+    "FoKtBRuTuMD2SZDHLWS-5": {
+      "id": "FoKtBRuTuMD2SZDHLWS-5",
+      "slug": "social-sharing",
+      "title": "Social Sharing",
+      "description": "In the realm of UX design, **Social Sharing** is a crucial pattern that allows users to share content from a website or app to various social media platforms. It helps in creating interaction between users and the content, engaging the audience and generating more traffic to the source.",
+      "resources": []
+    },
+    "0Df110GZcDw5wbAe1eKoA": {
+      "id": "0Df110GZcDw5wbAe1eKoA",
+      "slug": "spectrum-of-thinking-interventions",
+      "title": "Spectrum of Thinking Interventions",
+      "description": "The spectrum of thinking interventions ranges from automatic, low-effort nudges on one end to interventions that demand deliberate, conscious thought on the other. Design choices sit somewhere along this spectrum depending on how much reflection the target behavior needs. Choosing the wrong point on the spectrum, such as an automatic nudge for a decision that needs careful thought, can backfire.",
+      "resources": [
+        {
+          "id": "0Df110GZcDw5wbAe1eKoA-res-1",
+          "type": "article",
+          "title": "Why Users Think the Way They Do (And How to Design for It)",
+          "url": "https://dev.to/rijultp/why-users-think-the-way-they-do-and-how-to-design-for-it-5155"
+        }
+      ]
+    },
+    "G4Ap91NgZfkV-54EuWe-Z": {
+      "id": "G4Ap91NgZfkV-54EuWe-Z",
+      "slug": "status-reports",
+      "title": "Status Reports",
+      "description": "Status reports are UI elements that summarize the current state of a process, account, or system for the user, such as a dashboard showing recent activity or an order tracking screen. They let users quickly check where things stand without digging through details. This pattern suits moments of limited attention because it delivers a condensed, scannable summary.",
+      "resources": [
+        {
+          "id": "G4Ap91NgZfkV-54EuWe-Z-res-1",
+          "type": "article",
+          "title": "A deep dive into the art of writing status reports: Tips and tricks",
+          "url": "https://www.tempo.io/blog/status-report"
+        }
+      ]
+    },
+    "PTZROvpPtEvu06szwmt4K": {
+      "id": "PTZROvpPtEvu06szwmt4K",
+      "slug": "support-conscious-action",
+      "title": "Support Conscious Action",
+      "description": "Supporting conscious action means designing for moments where a user needs to actively think through a decision instead of relying on automatic habits. This applies to choices with real consequences, such as financial commitments or health decisions, where speeding the user through the process could cause harm. It typically involves giving the user relevant information and time to reflect before they act.",
+      "resources": []
+    },
+    "XiEn1OGFY1bMCoB0Pk8N_": {
+      "id": "XiEn1OGFY1bMCoB0Pk8N_",
+      "slug": "swot-analysis",
+      "title": "SWOT Analysis",
+      "description": "SWOT analysis evaluates a business or product across four categories: strengths, weaknesses, opportunities, and threats. Strengths and weaknesses look inward at the organization itself, while opportunities and threats look outward at the market and competition. Teams use it as a quick way to structure a strategic discussion before deciding on a new business direction.",
+      "resources": [
+        {
+          "id": "XiEn1OGFY1bMCoB0Pk8N_-res-1",
+          "type": "article",
+          "title": "SWOT: What Is It, How It Works, and How to Perform an Analysis",
+          "url": "https://www.investopedia.com/terms/s/swot.asp"
+        }
+      ]
+    },
+    "AXn-N15U_z4OagClNoXrW": {
+      "id": "AXn-N15U_z4OagClNoXrW",
+      "slug": "target-action",
+      "title": "Target Action",
+      "description": "The target action is the specific behavior the product is designed to get users to perform, such as completing a purchase, submitting a form, or returning the next day. Defining it clearly early in a project keeps design decisions focused on a measurable outcome. Every later step, from wireframes to UX patterns, is built around driving this action.",
+      "resources": []
+    },
+    "FRn2MaR0-ehSD3zmwXcCI": {
+      "id": "FRn2MaR0-ehSD3zmwXcCI",
+      "slug": "target-actor",
+      "title": "Target Actor",
+      "description": "The target actor is the type of user the product is designed for, defined by their goals, context, and constraints rather than just demographics. Clarifying the target actor early prevents a design from trying to serve everyone and satisfying no one well. It feeds directly into building user personas later in the process.",
+      "resources": []
+    },
+    "7J8F9dn1jGaVlhLVVRPrG": {
+      "id": "7J8F9dn1jGaVlhLVVRPrG",
+      "slug": "target-outcome",
+      "title": "Target Outcome",
+      "description": "The target outcome is the result the business or user gets once the target action is completed, such as increased retention, revenue, or user satisfaction. It connects the user's action back to a measurable goal that justifies the design effort. Clarifying the target outcome early helps teams judge whether a design is actually succeeding after launch.",
+      "resources": []
+    },
+    "FXJpJDIp-JBc0-0z4PIRo": {
+      "id": "FXJpJDIp-JBc0-0z4PIRo",
+      "slug": "tell-user-what-the-action-is-and-ask-for-it",
+      "title": "Tell User what the Action is and ask for it",
+      "description": "This practice means stating plainly what the user should do next instead of leaving them to infer it from vague copy or an unclear button. Direct, specific requests such as \"Add to cart\" outperform vague ones like \"Learn more\" when the goal is a specific action. It removes the guesswork that causes users to hesitate or leave.",
+      "resources": []
+    },
+    "f0n2JKxpcuP0JW-h4CvwN": {
+      "id": "f0n2JKxpcuP0JW-h4CvwN",
+      "slug": "tutorials",
+      "title": "Tutorials",
+      "description": "Tutorials are an important aspect of UX Design, as they help users understand and learn how to navigate through a new application, software or website. It is essential to create engaging, informative and easy-to-follow tutorials to ensure users can quickly comprehend the interface and become efficient in navigating it.",
+      "resources": []
+    },
+    "q1WX2Cp4k4-o1T1vgL8FH": {
+      "id": "q1WX2Cp4k4-o1T1vgL8FH",
+      "slug": "understanding-the-product",
+      "title": "Understanding the Product",
+      "description": "Understanding the product is the early stage of a UX project where the designer clarifies what the product does, who it serves, and how it makes or delivers value. It includes defining the target action, actor, and outcome, along with analyzing the business model behind the product. This groundwork shapes every later design decision, from conceptual design through prototyping.",
+      "resources": []
+    },
+    "6Mvm8SrISyTT99AJ-VFaW": {
+      "id": "6Mvm8SrISyTT99AJ-VFaW",
+      "slug": "use-competition",
+      "title": "Use Competition",
+      "description": "Using competition means framing a decision or task as a contest against other users, such as leaderboards or limited spots, to motivate a favorable choice. People are often more willing to act quickly or commit fully when they sense they are competing against others. This taps into the same drive that makes gamification effective, applied specifically to nudging a conscious evaluation toward action.",
+      "resources": []
+    },
+    "0MbrHG-VDrdZqQ0jWtiDo": {
+      "id": "0MbrHG-VDrdZqQ0jWtiDo",
+      "slug": "use-consciousness-to-interfere",
+      "title": "Use Consciousness to Interfere",
+      "description": "Using consciousness to interfere means inserting a moment of deliberate awareness into an otherwise automatic habit loop. A confirmation dialog before a purchase or a screen time warning before opening an app forces the user out of autopilot. This gives the user a chance to consciously decide whether to continue the routine.",
+      "resources": []
+    },
+    "iKHU0O0z6gCunCgv_aZye": {
+      "id": "iKHU0O0z6gCunCgv_aZye",
+      "slug": "use-peer-comparisons",
+      "title": "Use Peer Comparisons",
+      "description": "Peer comparisons show users how their behavior or choices compare to others in a similar group, such as \"you used less energy than 80% of similar households.\" This taps into social norms, since people tend to adjust their behavior to align with what others like them are doing. It is commonly used to encourage a favorable decision by framing the target choice as the normal one.",
+      "resources": []
+    },
+    "tkbkpvHlWQeOnReanR8J7": {
+      "id": "tkbkpvHlWQeOnReanR8J7",
+      "slug": "user-stories",
+      "title": "User Stories",
+      "description": "A user story is a short description of a feature written from the perspective of the user, typically following the format \"as a \\[user\\], I want \\[goal\\] so that \\[benefit\\].\" It keeps the product backlog focused on user needs rather than technical implementation details. Teams use user stories to prioritize what to build and to write acceptance criteria for each feature.",
+      "resources": [
+        {
+          "id": "tkbkpvHlWQeOnReanR8J7-res-1",
+          "type": "article",
+          "title": "User story",
+          "url": "https://en.wikipedia.org/wiki/User_story"
+        },
+        {
+          "id": "tkbkpvHlWQeOnReanR8J7-res-2",
+          "type": "article",
+          "title": "User stories with examples and a template",
+          "url": "https://www.atlassian.com/agile/project-management/user-stories"
+        }
+      ]
+    },
+    "VUf72i5hYaLR_8ul9EzmM": {
+      "id": "VUf72i5hYaLR_8ul9EzmM",
+      "slug": "ux-best-practices",
+      "title": "UX Best Practices",
+      "description": "UX best practices are established design guidelines proven to improve how users notice, react to, evaluate, and act within a product. They cover getting a user's attention, producing a positive first impression, supporting a favorable conscious evaluation, creating urgency, and making the target action easy. These practices are drawn from repeated observation of what works across many products rather than from a single framework.",
+      "resources": [
+        {
+          "id": "VUf72i5hYaLR_8ul9EzmM-res-1",
+          "type": "article",
+          "title": "10 UX Best Practices to Follow in 2026",
+          "url": "https://uxpilot.ai/blogs/ux-best-practices"
+        },
+        {
+          "id": "VUf72i5hYaLR_8ul9EzmM-res-2",
+          "type": "article",
+          "title": "Laws of UX",
+          "url": "https://lawsofux.com/"
+        }
+      ]
+    }
+  }
+}

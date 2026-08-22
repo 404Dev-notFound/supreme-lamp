@@ -1,0 +1,242 @@
+{
+  "slug": "git-github-beginner",
+  "title": "Git Github Beginner",
+  "description": "Comprehensive learning curriculum and mastery roadmap for git-github-beginner.",
+  "category": "skill",
+  "level": "Intermediate",
+  "topicCount": 5,
+  "iconName": "Compass",
+  "nodes": [
+    {
+      "id": "node-PtU5Qwfzn3N1i3oRlCGoR",
+      "label": "Basic Git Usage",
+      "topicId": "PtU5Qwfzn3N1i3oRlCGoR",
+      "level": 1,
+      "position": {
+        "x": 80,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-bXfCUG3h1TIFPgD4WUDph",
+      "label": "Collaboration",
+      "topicId": "bXfCUG3h1TIFPgD4WUDph",
+      "level": 1,
+      "position": {
+        "x": 340,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-HlUUGj3dOZ68t4gIjerXh",
+      "label": "Learn the Basics",
+      "topicId": "HlUUGj3dOZ68t4gIjerXh",
+      "level": 1,
+      "position": {
+        "x": 600,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-aZMVz6kc52vLGcZFD9Dgh",
+      "label": "More Git",
+      "topicId": "aZMVz6kc52vLGcZFD9Dgh",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-sti_TAgZvSpuFWtygAsKc",
+      "label": "More GitHub",
+      "topicId": "sti_TAgZvSpuFWtygAsKc",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 240
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-node-PtU5Qwfzn3N1i3oRlCGoR-node-bXfCUG3h1TIFPgD4WUDph",
+      "source": "node-PtU5Qwfzn3N1i3oRlCGoR",
+      "target": "node-bXfCUG3h1TIFPgD4WUDph",
+      "animated": true
+    },
+    {
+      "id": "edge-node-bXfCUG3h1TIFPgD4WUDph-node-HlUUGj3dOZ68t4gIjerXh",
+      "source": "node-bXfCUG3h1TIFPgD4WUDph",
+      "target": "node-HlUUGj3dOZ68t4gIjerXh",
+      "animated": true
+    },
+    {
+      "id": "edge-node-HlUUGj3dOZ68t4gIjerXh-node-aZMVz6kc52vLGcZFD9Dgh",
+      "source": "node-HlUUGj3dOZ68t4gIjerXh",
+      "target": "node-aZMVz6kc52vLGcZFD9Dgh",
+      "animated": true
+    },
+    {
+      "id": "edge-node-aZMVz6kc52vLGcZFD9Dgh-node-sti_TAgZvSpuFWtygAsKc",
+      "source": "node-aZMVz6kc52vLGcZFD9Dgh",
+      "target": "node-sti_TAgZvSpuFWtygAsKc",
+      "animated": true
+    }
+  ],
+  "topics": {
+    "PtU5Qwfzn3N1i3oRlCGoR": {
+      "id": "PtU5Qwfzn3N1i3oRlCGoR",
+      "slug": "basic-git-usage",
+      "title": "Basic Git Usage",
+      "description": "You must master the fundamental commands you'll use every day to manage your project's code. These commands allow you to track changes, save snapshots of your work, and collaborate with others. They include initializing a repository, adding files to be tracked, committing changes with messages, viewing the history of changes, and checking the status of your working directory.",
+      "resources": [
+        {
+          "id": "PtU5Qwfzn3N1i3oRlCGoR-res-1",
+          "type": "article",
+          "title": "Learn Git with Tutorials, News and Tips - Atlassian",
+          "url": "https://www.atlassian.com/git"
+        },
+        {
+          "id": "PtU5Qwfzn3N1i3oRlCGoR-res-2",
+          "type": "article",
+          "title": "Git Cheat Sheet",
+          "url": "https://cs.fyi/guide/git-cheatsheet"
+        },
+        {
+          "id": "PtU5Qwfzn3N1i3oRlCGoR-res-3",
+          "type": "video",
+          "title": "Git & GitHub Crash Course For Beginners",
+          "url": "https://www.youtube.com/watch?v=vA5TTz6BXhY"
+        },
+        {
+          "id": "PtU5Qwfzn3N1i3oRlCGoR-res-4",
+          "type": "course",
+          "title": "Creating a Repository? (Interactive Lesson)",
+          "url": "https://inter-git.com/lessons/creating-repository"
+        },
+        {
+          "id": "PtU5Qwfzn3N1i3oRlCGoR-res-5",
+          "type": "course",
+          "title": "Adding Files to Index (Interactive Lesson)",
+          "url": "https://inter-git.com/lessons/adding-files-to-index"
+        },
+        {
+          "id": "PtU5Qwfzn3N1i3oRlCGoR-res-6",
+          "type": "course",
+          "title": "Making a Commit (Interactive Lesson)",
+          "url": "https://inter-git.com/lessons/making-a-commit"
+        }
+      ]
+    },
+    "bXfCUG3h1TIFPgD4WUDph": {
+      "id": "bXfCUG3h1TIFPgD4WUDph",
+      "slug": "collaboration",
+      "title": "Collaboration",
+      "description": "Collaboration in Git and GitHub refers to the process of multiple people working together on the same project, managing changes, and integrating their contributions seamlessly.  It involves using Git's branching and merging capabilities, along with GitHub's pull request workflow, to coordinate efforts, review code, and ultimately build a cohesive and functional project.",
+      "resources": [
+        {
+          "id": "bXfCUG3h1TIFPgD4WUDph-res-1",
+          "type": "video",
+          "title": "Git & GitHub Tutorial for Beginners",
+          "url": "https://youtu.be/MnUd31TvBoU?si=noaQP5yMtmlHlHR0"
+        },
+        {
+          "id": "bXfCUG3h1TIFPgD4WUDph-res-2",
+          "type": "video",
+          "title": "How To Use Git to Collaborate with Others",
+          "url": "https://youtu.be/ygqx50-JHEE?si=CTzH6bpHemYLD9jB"
+        },
+        {
+          "id": "bXfCUG3h1TIFPgD4WUDph-res-3",
+          "type": "article",
+          "title": "The Ultimate Github Collaboration Guide",
+          "url": "https://medium.com/@jonathanmines/the-ultimate-github-collaboration-guide-df816e98fb67"
+        }
+      ]
+    },
+    "HlUUGj3dOZ68t4gIjerXh": {
+      "id": "HlUUGj3dOZ68t4gIjerXh",
+      "slug": "learn-the-basics",
+      "title": "Learn the Basics",
+      "description": "Git is like a save button for your code, allowing you to track changes, revert to previous versions, and collaborate with others without overwriting each other's work. GitHub, on the other hand, is a website and platform that provides hosting for your Git repositories (projects), making it easy to share, manage, and collaborate on code with others remotely.",
+      "resources": [
+        {
+          "id": "HlUUGj3dOZ68t4gIjerXh-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated Git & GitHub Roadmap",
+          "url": "https://roadmap.sh/git-github"
+        },
+        {
+          "id": "HlUUGj3dOZ68t4gIjerXh-res-2",
+          "type": "article",
+          "title": "Git",
+          "url": "https://git-scm.com/"
+        },
+        {
+          "id": "HlUUGj3dOZ68t4gIjerXh-res-3",
+          "type": "article",
+          "title": "GitHub",
+          "url": "https://github.com"
+        },
+        {
+          "id": "HlUUGj3dOZ68t4gIjerXh-res-4",
+          "type": "video",
+          "title": "Git & GitHub Crash Course For Beginners",
+          "url": "https://www.youtube.com/watch?v=vA5TTz6BXhY"
+        },
+        {
+          "id": "HlUUGj3dOZ68t4gIjerXh-res-5",
+          "type": "course",
+          "title": "What is Version Control? (Interactive Lesson)",
+          "url": "https://inter-git.com/lessons/introduction"
+        }
+      ]
+    },
+    "aZMVz6kc52vLGcZFD9Dgh": {
+      "id": "aZMVz6kc52vLGcZFD9Dgh",
+      "slug": "more-git",
+      "title": "More Git",
+      "description": "Beyond the basics of tracking changes and collaborating, Git offers a range of powerful features for managing complex projects. These features allow you to streamline your workflow, experiment safely with new ideas, and maintain a clean and organized project history. Exploring these more advanced aspects of Git can significantly enhance your development process.",
+      "resources": [
+        {
+          "id": "aZMVz6kc52vLGcZFD9Dgh-res-1",
+          "type": "video",
+          "title": "How to Use Git Reset Soft, Mixed, and Hard",
+          "url": "https://youtu.be/s1idhUiCk38?si=F60WS6ukxUUjM-ZI"
+        },
+        {
+          "id": "aZMVz6kc52vLGcZFD9Dgh-res-2",
+          "type": "video",
+          "title": "Git MERGE vs REBASE",
+          "url": "https://youtu.be/0chZFIZLR_0?si=Kua8FdA5to7zHHqG"
+        },
+        {
+          "id": "aZMVz6kc52vLGcZFD9Dgh-res-3",
+          "type": "article",
+          "title": "Git stash",
+          "url": "https://www.atlassian.com/git/tutorials/saving-changes/git-stash"
+        },
+        {
+          "id": "aZMVz6kc52vLGcZFD9Dgh-res-4",
+          "type": "article",
+          "title": "Git Reset and Revert Tutorial for Beginners",
+          "url": "https://www.datacamp.com/tutorial/git-reset-revert-tutorial"
+        },
+        {
+          "id": "aZMVz6kc52vLGcZFD9Dgh-res-5",
+          "type": "article",
+          "title": "Merging vs. rebasing",
+          "url": "https://www.atlassian.com/git/tutorials/merging-vs-rebasing"
+        }
+      ]
+    },
+    "sti_TAgZvSpuFWtygAsKc": {
+      "id": "sti_TAgZvSpuFWtygAsKc",
+      "slug": "more-github",
+      "title": "More GitHub",
+      "description": "GitHub isn't just about storing code; it's a collaborative platform. It offers features beyond basic version control, such as project management tools like issue tracking, where you can report bugs and suggest new features. You can also use GitHub's collaboration features, like pull requests, to propose changes to a project, fostering community involvement and code review.",
+      "resources": []
+    }
+  }
+}

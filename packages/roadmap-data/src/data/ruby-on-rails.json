@@ -1,0 +1,4523 @@
+{
+  "slug": "ruby-on-rails",
+  "title": "Ruby On Rails",
+  "description": "Comprehensive learning curriculum and mastery roadmap for ruby-on-rails.",
+  "category": "skill",
+  "level": "Intermediate",
+  "topicCount": 107,
+  "iconName": "Compass",
+  "nodes": [
+    {
+      "id": "node-dvL7HRXMqs2NOuTtfHeXM",
+      "label": "Accessibility",
+      "topicId": "dvL7HRXMqs2NOuTtfHeXM",
+      "level": 1,
+      "position": {
+        "x": 80,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-NyByCB4J4hk7rN7nrp1dv",
+      "label": "Action Views",
+      "topicId": "NyByCB4J4hk7rN7nrp1dv",
+      "level": 1,
+      "position": {
+        "x": 340,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-ig8gCcieQF923NKhNyaNA",
+      "label": "Active Record",
+      "topicId": "ig8gCcieQF923NKhNyaNA",
+      "level": 1,
+      "position": {
+        "x": 600,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-8Jbs2XpIL-Nd-tr2f0AJ8",
+      "label": "Advanced Asset Management",
+      "topicId": "8Jbs2XpIL-Nd-tr2f0AJ8",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-C8A-30h1xJBFLhD182H89",
+      "label": "Aggregations",
+      "topicId": "C8A-30h1xJBFLhD182H89",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-BiVYxjVr2OhmnglHz_kVZ",
+      "label": "App Directory",
+      "topicId": "BiVYxjVr2OhmnglHz_kVZ",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-EcGyLolDRJJra4PDWlQjJ",
+      "label": "Assets Pipeline",
+      "topicId": "EcGyLolDRJJra4PDWlQjJ",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-WqjcBTzbU4iFpYVp1-ptv",
+      "label": "Authentication",
+      "topicId": "WqjcBTzbU4iFpYVp1-ptv",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-xz-xEwqyvJgTKvjpmXeOH",
+      "label": "Authorization",
+      "topicId": "xz-xEwqyvJgTKvjpmXeOH",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-Mj4SxEsrQZz6zIKos1hyk",
+      "label": "Background Jobs in Rails",
+      "topicId": "Mj4SxEsrQZz6zIKos1hyk",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-Ddikj7KylZSoqsdAsd380",
+      "label": "Basic Queries in Active Record",
+      "topicId": "Ddikj7KylZSoqsdAsd380",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-yUwMPqnV5ZqV7eCL0bkfs",
+      "label": "Better Errors",
+      "topicId": "yUwMPqnV5ZqV7eCL0bkfs",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-6HV1KoHTSeEE1-f6IeWB4",
+      "label": "bin Directory",
+      "topicId": "6HV1KoHTSeEE1-f6IeWB4",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-SFGRkOuEMFxOJ4UU_Ti8L",
+      "label": "Byebug",
+      "topicId": "SFGRkOuEMFxOJ4UU_Ti8L",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-fjROKLDD5h6Vp0zXgJ5Y0",
+      "label": "Caching",
+      "topicId": "fjROKLDD5h6Vp0zXgJ5Y0",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-xgJCbwDNWPbYV2bCILRo0",
+      "label": "Callbacks",
+      "topicId": "xgJCbwDNWPbYV2bCILRo0",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-0dPBO4cZFWvE3rSHEW1OJ",
+      "label": "CanCanCan",
+      "topicId": "0dPBO4cZFWvE3rSHEW1OJ",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-3fA4RoDm2NFUK0EWFy-eP",
+      "label": "CanCanCan",
+      "topicId": "3fA4RoDm2NFUK0EWFy-eP",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-JCQT_3B9hu8QkJaoDQK_V",
+      "label": "Capybara",
+      "topicId": "JCQT_3B9hu8QkJaoDQK_V",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-NgMAdAtdJFd3Pha4nwiLE",
+      "label": "Active Record Conditions",
+      "topicId": "NgMAdAtdJFd3Pha4nwiLE",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-Vr0UKX1C3DSVxZjj-Ls6L",
+      "label": "Config Directory",
+      "topicId": "Vr0UKX1C3DSVxZjj-Ls6L",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-H2lhyWJ2aErIC6UsIag_p",
+      "label": "Routing Constraints",
+      "topicId": "H2lhyWJ2aErIC6UsIag_p",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-Cm0tEnjeqQzQORowsdEjk",
+      "label": "Controller Actions",
+      "topicId": "Cm0tEnjeqQzQORowsdEjk",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-oHdgQvPSEs-l3EzNRd8q2",
+      "label": "Controller Callbacks",
+      "topicId": "oHdgQvPSEs-l3EzNRd8q2",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-HDt5AAg9H4n8wh3uACudP",
+      "label": "Controllers",
+      "topicId": "HDt5AAg9H4n8wh3uACudP",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-JAfp4HnSEfxZ33qhVrNvk",
+      "label": "Cookies in Rails Controllers",
+      "topicId": "JAfp4HnSEfxZ33qhVrNvk",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-4SiV-sW-zg_HtL2tPc90-",
+      "label": "Creating a New Rails Application",
+      "topicId": "4SiV-sW-zg_HtL2tPc90-",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-tSdMmh2SG1Qul5PWCaCKa",
+      "label": "Creating Controllers",
+      "topicId": "tSdMmh2SG1Qul5PWCaCKa",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-oxEooPuoRqxLreJSA4QIh",
+      "label": "Creating Models",
+      "topicId": "oxEooPuoRqxLreJSA4QIh",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-VlQis-Wkahd1E1aM1ZP2E",
+      "label": "CSRF Protection",
+      "topicId": "VlQis-Wkahd1E1aM1ZP2E",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-3NTsftFbqkG5s4xoU_q6E",
+      "label": "Customizing Routes",
+      "topicId": "3NTsftFbqkG5s4xoU_q6E",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-6aukVg4KBYPW0FVtdAvS5",
+      "label": "Data Types in Rails Models",
+      "topicId": "6aukVg4KBYPW0FVtdAvS5",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-QdWCXUAfVXiP6RQ6VyDkX",
+      "label": "Database",
+      "topicId": "QdWCXUAfVXiP6RQ6VyDkX",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-N2pXb4eqXrBdR495zMqGY",
+      "label": "db",
+      "topicId": "N2pXb4eqXrBdR495zMqGY",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-SFGRkOuEMFxOJ4UU_Ti8L",
+      "label": "debug",
+      "topicId": "SFGRkOuEMFxOJ4UU_Ti8L",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-ELvMdjJZGl_k_0Qsi_vtm",
+      "label": "Debugging",
+      "topicId": "ELvMdjJZGl_k_0Qsi_vtm",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-Ia5mN1j_lMCg0vt2z1_jI",
+      "label": "Deployment",
+      "topicId": "Ia5mN1j_lMCg0vt2z1_jI",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-deKkp0TGU3Dj0zxUn9VI4",
+      "label": "Devise",
+      "topicId": "deKkp0TGU3Dj0zxUn9VI4",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-p8bkCtZkgdkh3G_d7fvmt",
+      "label": "Dynamic Finders",
+      "topicId": "p8bkCtZkgdkh3G_d7fvmt",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-D_LyvlDwKSzvnSWCpR00D",
+      "label": "Engines",
+      "topicId": "D_LyvlDwKSzvnSWCpR00D",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-CX-9Ii3e9rrokUTF0_hI5",
+      "label": "ERB Templates",
+      "topicId": "CX-9Ii3e9rrokUTF0_hI5",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-OLdWSGSwYnggN14BdH9nN",
+      "label": "Factory Bot",
+      "topicId": "OLdWSGSwYnggN14BdH9nN",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-GGR8jAQNggJc92FcvtL4O",
+      "label": "Form Elements",
+      "topicId": "GGR8jAQNggJc92FcvtL4O",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-rg-48lLxIaKdjIb9icB72",
+      "label": "Form Validation",
+      "topicId": "rg-48lLxIaKdjIb9icB72",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-EctqfKE5AAqByipGIv0Wa",
+      "label": "form_for",
+      "topicId": "EctqfKE5AAqByipGIv0Wa",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-EWMC98NdSnblHBD0U3Ty2",
+      "label": "form_with",
+      "topicId": "EWMC98NdSnblHBD0U3Ty2",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-t8yTDpN4kNuW6ZhHnum2X",
+      "label": "Gemfile",
+      "topicId": "t8yTDpN4kNuW6ZhHnum2X",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-lnr8HfS8mIcE4Ef-bXQbO",
+      "label": "Helpers",
+      "topicId": "lnr8HfS8mIcE4Ef-bXQbO",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-2IEdP3YjzCf150UpGao42",
+      "label": "Hotwire",
+      "topicId": "2IEdP3YjzCf150UpGao42",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-3YcOhdk9w24f5x0WattyB",
+      "label": "How the Web Works",
+      "topicId": "3YcOhdk9w24f5x0WattyB",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-lLYISr_j0NsE7wkBVvnbM",
+      "label": "Inspecting Routes",
+      "topicId": "lLYISr_j0NsE7wkBVvnbM",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-0MKuq69yhj8q6suTQ7fY7",
+      "label": "Introduction to Ruby on Rails",
+      "topicId": "0MKuq69yhj8q6suTQ7fY7",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-Uz5WseVkPoDJfnKw1FH9a",
+      "label": "Joins in Active Record",
+      "topicId": "Uz5WseVkPoDJfnKw1FH9a",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-ih8oOhO49tg1wUUiusIA-",
+      "label": "Kamal",
+      "topicId": "ih8oOhO49tg1wUUiusIA-",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-6P7GM12isuv5A_SA3tqNA",
+      "label": "Kaminari",
+      "topicId": "6P7GM12isuv5A_SA3tqNA",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node--bX4iPTO1dt3wLAcFI7nL",
+      "label": "Layouts and Yield in Rails Views",
+      "topicId": "-bX4iPTO1dt3wLAcFI7nL",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-1KGuLLxZ-2ghim7ge2ACN",
+      "label": "Log Levels",
+      "topicId": "1KGuLLxZ-2ghim7ge2ACN",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-Un4rFrxtto4WLG9YNaAMK",
+      "label": "Logging",
+      "topicId": "Un4rFrxtto4WLG9YNaAMK",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-rhs6_Zg9PuY2Oost0vc_o",
+      "label": "Mailbox and Mailer",
+      "topicId": "rhs6_Zg9PuY2Oost0vc_o",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-Jf7W0Sw5azZZ6VGb9oaYq",
+      "label": "MariaDB Support in Rails",
+      "topicId": "Jf7W0Sw5azZZ6VGb9oaYq",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-gJYuVgBvJeXL72NsRubLm",
+      "label": "Migrations",
+      "topicId": "gJYuVgBvJeXL72NsRubLm",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-9evL0EqA6aBGczrfsRkV7",
+      "label": "Minitest",
+      "topicId": "9evL0EqA6aBGczrfsRkV7",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-ca3Ik5pl-XmecZ3Ztx0YV",
+      "label": "Model Methods",
+      "topicId": "ca3Ik5pl-XmecZ3Ztx0YV",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-lWsJL135U-N5xIBnXqTYx",
+      "label": "Model Relationships",
+      "topicId": "lWsJL135U-N5xIBnXqTYx",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-NtiePD28NjaDtsC3oEbYf",
+      "label": "Models",
+      "topicId": "NtiePD28NjaDtsC3oEbYf",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-wHKlT_wCIrpSvULvXCufr",
+      "label": "MVC Architecture",
+      "topicId": "wHKlT_wCIrpSvULvXCufr",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-vIOmb6qGA0ZbPyqEQ9Bb4",
+      "label": "MySQL in Rails",
+      "topicId": "vIOmb6qGA0ZbPyqEQ9Bb4",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-KlEgfzfkPu0O43tJIsU3H",
+      "label": "Named Routes",
+      "topicId": "KlEgfzfkPu0O43tJIsU3H",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-p0JHL8iAcV5tRLX9DPhx6",
+      "label": "Nested Forms",
+      "topicId": "p0JHL8iAcV5tRLX9DPhx6",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-DbJ1BIOoerkCH4P95Z7wD",
+      "label": "Nested Routes",
+      "topicId": "DbJ1BIOoerkCH4P95Z7wD",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-3qImaY9Hs3Cvatw1X96Ns",
+      "label": "Non-RESTful Routes",
+      "topicId": "3qImaY9Hs3Cvatw1X96Ns",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-mRdKPWMxzEacPOA8j-SoH",
+      "label": "OmniAuth",
+      "topicId": "mRdKPWMxzEacPOA8j-SoH",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-NwzKYGKVyLF_hiHSZ01Yq",
+      "label": "Ordering",
+      "topicId": "NwzKYGKVyLF_hiHSZ01Yq",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-jTrvSb4eN9Hna0YooHapb",
+      "label": "Pagination",
+      "topicId": "jTrvSb4eN9Hna0YooHapb",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-txrWW1OlBZP-uiUKSMupo",
+      "label": "Pagination",
+      "topicId": "txrWW1OlBZP-uiUKSMupo",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-BFmYL2UyuCXdFCeMKtDZk",
+      "label": "Pagy",
+      "topicId": "BFmYL2UyuCXdFCeMKtDZk",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-9qNdqb_Y95_Hjm-7GYA-o",
+      "label": "Partials",
+      "topicId": "9qNdqb_Y95_Hjm-7GYA-o",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-G3HHrElODg0Js0WY-VYkL",
+      "label": "Phlex",
+      "topicId": "G3HHrElODg0Js0WY-VYkL",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-nh6d9XbtvwBUtVDmEk0i_",
+      "label": "Plugins & Engines",
+      "topicId": "nh6d9XbtvwBUtVDmEk0i_",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-nh6d9XbtvwBUtVDmEk0i_",
+      "label": "Plugins",
+      "topicId": "nh6d9XbtvwBUtVDmEk0i_",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-TRTR2JyyfqICTm3kbyIgu",
+      "label": "PostgreSQL in Rails",
+      "topicId": "TRTR2JyyfqICTm3kbyIgu",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-eyeSECF8-wu8EMr5gD7VJ",
+      "label": "Pry",
+      "topicId": "eyeSECF8-wu8EMr5gD7VJ",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-rHzhzrwsguJx3Hg5szucY",
+      "label": "Public Directory",
+      "topicId": "rHzhzrwsguJx3Hg5szucY",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-dTU2RPkJcZaPRuSHPod71",
+      "label": "Pundit",
+      "topicId": "dTU2RPkJcZaPRuSHPod71",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-8EwNQFoZbzf5WtvP4OA4G",
+      "label": "Query Optimization",
+      "topicId": "8EwNQFoZbzf5WtvP4OA4G",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-jKADWbGXSL5yGzsLqSJG9",
+      "label": "Rails & Frontend",
+      "topicId": "jKADWbGXSL5yGzsLqSJG9",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-DyrNnHUm4Ws5Ku7AlVnWg",
+      "label": "Rails Command Line",
+      "topicId": "DyrNnHUm4Ws5Ku7AlVnWg",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-okQl2NFVACbZJPgh3sD5I",
+      "label": "Rails Generators",
+      "topicId": "okQl2NFVACbZJPgh3sD5I",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-IjEF4T0vuFNUlA9O0wOFw",
+      "label": "Rails Internationalization",
+      "topicId": "IjEF4T0vuFNUlA9O0wOFw",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-PDxKuQbWhbg0_AewOw9Mm",
+      "label": "Rails Logger",
+      "topicId": "PDxKuQbWhbg0_AewOw9Mm",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-wszshSvhqtfN829f5InuL",
+      "label": "Raw SQL in Active Record",
+      "topicId": "wszshSvhqtfN829f5InuL",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-pSdqdRPlLfmIl5X9XF76r",
+      "label": "Redirects",
+      "topicId": "pSdqdRPlLfmIl5X9XF76r",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-WJmDAayQ6SMNuUWsMzhnJ",
+      "label": "Rendering Views",
+      "topicId": "WJmDAayQ6SMNuUWsMzhnJ",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-eYaayU92hNbri3YTdSAbG",
+      "label": "Request-Response Flow in Rails Routing",
+      "topicId": "eYaayU92hNbri3YTdSAbG",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5040
+      }
+    },
+    {
+      "id": "node-NB50RuNBT5Oja2Ry6p892",
+      "label": "RESTful Routes",
+      "topicId": "NB50RuNBT5Oja2Ry6p892",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5040
+      }
+    },
+    {
+      "id": "node-ftFF3oFfqpKvjQhXk3bWw",
+      "label": "Routing Fundamentals",
+      "topicId": "ftFF3oFfqpKvjQhXk3bWw",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5040
+      }
+    },
+    {
+      "id": "node-Xs9gIVdO9TuZabUapgubJ",
+      "label": "RSpec",
+      "topicId": "Xs9gIVdO9TuZabUapgubJ",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5200
+      }
+    },
+    {
+      "id": "node-x4MkSkbLK7aHWUoKuq1j4",
+      "label": "Scopes",
+      "topicId": "x4MkSkbLK7aHWUoKuq1j4",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5200
+      }
+    },
+    {
+      "id": "node-YyBmT5CzL-lspStC8aZ_t",
+      "label": "Security",
+      "topicId": "YyBmT5CzL-lspStC8aZ_t",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5200
+      }
+    },
+    {
+      "id": "node-mJ5wZPg770fDlJ-V9x75t",
+      "label": "Sessions in Rails Controllers",
+      "topicId": "mJ5wZPg770fDlJ-V9x75t",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5360
+      }
+    },
+    {
+      "id": "node-4nyrB8-xmd35S6ZNjPX8d",
+      "label": "Setting up Ruby on Rails",
+      "topicId": "4nyrB8-xmd35S6ZNjPX8d",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5360
+      }
+    },
+    {
+      "id": "node-J7eIUewbviWck-lVJ1hre",
+      "label": "SQLite in Rails",
+      "topicId": "J7eIUewbviWck-lVJ1hre",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5360
+      }
+    },
+    {
+      "id": "node-JyARA-iMMw2uEuB_ljFrs",
+      "label": "Storage in Ruby on Rails",
+      "topicId": "JyARA-iMMw2uEuB_ljFrs",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5520
+      }
+    },
+    {
+      "id": "node-cUYKqkqvg2u3Z4KOtAE9m",
+      "label": "Strong Parameters",
+      "topicId": "cUYKqkqvg2u3Z4KOtAE9m",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5520
+      }
+    },
+    {
+      "id": "node-qtzX0ZzmWjs-CkHQDhsD1",
+      "label": "Testing",
+      "topicId": "qtzX0ZzmWjs-CkHQDhsD1",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5520
+      }
+    },
+    {
+      "id": "node-yrW99MwJNCBMinYUXm1B_",
+      "label": "Transactions",
+      "topicId": "yrW99MwJNCBMinYUXm1B_",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5680
+      }
+    },
+    {
+      "id": "node-UD5BpSz2CRK1_Sl2z67AL",
+      "label": "Validations",
+      "topicId": "UD5BpSz2CRK1_Sl2z67AL",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5680
+      }
+    },
+    {
+      "id": "node-e7tcUrtjEcFvQNL6PCYE1",
+      "label": "ViewComponent",
+      "topicId": "e7tcUrtjEcFvQNL6PCYE1",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5680
+      }
+    },
+    {
+      "id": "node-VCufea-9vs4DfzB815IT5",
+      "label": "Why Web Frameworks?",
+      "topicId": "VCufea-9vs4DfzB815IT5",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5840
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-node-dvL7HRXMqs2NOuTtfHeXM-node-NyByCB4J4hk7rN7nrp1dv",
+      "source": "node-dvL7HRXMqs2NOuTtfHeXM",
+      "target": "node-NyByCB4J4hk7rN7nrp1dv",
+      "animated": true
+    },
+    {
+      "id": "edge-node-NyByCB4J4hk7rN7nrp1dv-node-ig8gCcieQF923NKhNyaNA",
+      "source": "node-NyByCB4J4hk7rN7nrp1dv",
+      "target": "node-ig8gCcieQF923NKhNyaNA",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ig8gCcieQF923NKhNyaNA-node-8Jbs2XpIL-Nd-tr2f0AJ8",
+      "source": "node-ig8gCcieQF923NKhNyaNA",
+      "target": "node-8Jbs2XpIL-Nd-tr2f0AJ8",
+      "animated": true
+    },
+    {
+      "id": "edge-node-8Jbs2XpIL-Nd-tr2f0AJ8-node-C8A-30h1xJBFLhD182H89",
+      "source": "node-8Jbs2XpIL-Nd-tr2f0AJ8",
+      "target": "node-C8A-30h1xJBFLhD182H89",
+      "animated": true
+    },
+    {
+      "id": "edge-node-C8A-30h1xJBFLhD182H89-node-BiVYxjVr2OhmnglHz_kVZ",
+      "source": "node-C8A-30h1xJBFLhD182H89",
+      "target": "node-BiVYxjVr2OhmnglHz_kVZ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-BiVYxjVr2OhmnglHz_kVZ-node-EcGyLolDRJJra4PDWlQjJ",
+      "source": "node-BiVYxjVr2OhmnglHz_kVZ",
+      "target": "node-EcGyLolDRJJra4PDWlQjJ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-EcGyLolDRJJra4PDWlQjJ-node-WqjcBTzbU4iFpYVp1-ptv",
+      "source": "node-EcGyLolDRJJra4PDWlQjJ",
+      "target": "node-WqjcBTzbU4iFpYVp1-ptv",
+      "animated": true
+    },
+    {
+      "id": "edge-node-WqjcBTzbU4iFpYVp1-ptv-node-xz-xEwqyvJgTKvjpmXeOH",
+      "source": "node-WqjcBTzbU4iFpYVp1-ptv",
+      "target": "node-xz-xEwqyvJgTKvjpmXeOH",
+      "animated": true
+    },
+    {
+      "id": "edge-node-xz-xEwqyvJgTKvjpmXeOH-node-Mj4SxEsrQZz6zIKos1hyk",
+      "source": "node-xz-xEwqyvJgTKvjpmXeOH",
+      "target": "node-Mj4SxEsrQZz6zIKos1hyk",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Mj4SxEsrQZz6zIKos1hyk-node-Ddikj7KylZSoqsdAsd380",
+      "source": "node-Mj4SxEsrQZz6zIKos1hyk",
+      "target": "node-Ddikj7KylZSoqsdAsd380",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Ddikj7KylZSoqsdAsd380-node-yUwMPqnV5ZqV7eCL0bkfs",
+      "source": "node-Ddikj7KylZSoqsdAsd380",
+      "target": "node-yUwMPqnV5ZqV7eCL0bkfs",
+      "animated": true
+    },
+    {
+      "id": "edge-node-yUwMPqnV5ZqV7eCL0bkfs-node-6HV1KoHTSeEE1-f6IeWB4",
+      "source": "node-yUwMPqnV5ZqV7eCL0bkfs",
+      "target": "node-6HV1KoHTSeEE1-f6IeWB4",
+      "animated": true
+    },
+    {
+      "id": "edge-node-6HV1KoHTSeEE1-f6IeWB4-node-SFGRkOuEMFxOJ4UU_Ti8L",
+      "source": "node-6HV1KoHTSeEE1-f6IeWB4",
+      "target": "node-SFGRkOuEMFxOJ4UU_Ti8L",
+      "animated": true
+    },
+    {
+      "id": "edge-node-SFGRkOuEMFxOJ4UU_Ti8L-node-fjROKLDD5h6Vp0zXgJ5Y0",
+      "source": "node-SFGRkOuEMFxOJ4UU_Ti8L",
+      "target": "node-fjROKLDD5h6Vp0zXgJ5Y0",
+      "animated": true
+    },
+    {
+      "id": "edge-node-fjROKLDD5h6Vp0zXgJ5Y0-node-xgJCbwDNWPbYV2bCILRo0",
+      "source": "node-fjROKLDD5h6Vp0zXgJ5Y0",
+      "target": "node-xgJCbwDNWPbYV2bCILRo0",
+      "animated": true
+    },
+    {
+      "id": "edge-node-xgJCbwDNWPbYV2bCILRo0-node-0dPBO4cZFWvE3rSHEW1OJ",
+      "source": "node-xgJCbwDNWPbYV2bCILRo0",
+      "target": "node-0dPBO4cZFWvE3rSHEW1OJ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-0dPBO4cZFWvE3rSHEW1OJ-node-3fA4RoDm2NFUK0EWFy-eP",
+      "source": "node-0dPBO4cZFWvE3rSHEW1OJ",
+      "target": "node-3fA4RoDm2NFUK0EWFy-eP",
+      "animated": true
+    },
+    {
+      "id": "edge-node-3fA4RoDm2NFUK0EWFy-eP-node-JCQT_3B9hu8QkJaoDQK_V",
+      "source": "node-3fA4RoDm2NFUK0EWFy-eP",
+      "target": "node-JCQT_3B9hu8QkJaoDQK_V",
+      "animated": true
+    },
+    {
+      "id": "edge-node-JCQT_3B9hu8QkJaoDQK_V-node-NgMAdAtdJFd3Pha4nwiLE",
+      "source": "node-JCQT_3B9hu8QkJaoDQK_V",
+      "target": "node-NgMAdAtdJFd3Pha4nwiLE",
+      "animated": true
+    },
+    {
+      "id": "edge-node-NgMAdAtdJFd3Pha4nwiLE-node-Vr0UKX1C3DSVxZjj-Ls6L",
+      "source": "node-NgMAdAtdJFd3Pha4nwiLE",
+      "target": "node-Vr0UKX1C3DSVxZjj-Ls6L",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Vr0UKX1C3DSVxZjj-Ls6L-node-H2lhyWJ2aErIC6UsIag_p",
+      "source": "node-Vr0UKX1C3DSVxZjj-Ls6L",
+      "target": "node-H2lhyWJ2aErIC6UsIag_p",
+      "animated": true
+    },
+    {
+      "id": "edge-node-H2lhyWJ2aErIC6UsIag_p-node-Cm0tEnjeqQzQORowsdEjk",
+      "source": "node-H2lhyWJ2aErIC6UsIag_p",
+      "target": "node-Cm0tEnjeqQzQORowsdEjk",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Cm0tEnjeqQzQORowsdEjk-node-oHdgQvPSEs-l3EzNRd8q2",
+      "source": "node-Cm0tEnjeqQzQORowsdEjk",
+      "target": "node-oHdgQvPSEs-l3EzNRd8q2",
+      "animated": true
+    },
+    {
+      "id": "edge-node-oHdgQvPSEs-l3EzNRd8q2-node-HDt5AAg9H4n8wh3uACudP",
+      "source": "node-oHdgQvPSEs-l3EzNRd8q2",
+      "target": "node-HDt5AAg9H4n8wh3uACudP",
+      "animated": true
+    },
+    {
+      "id": "edge-node-HDt5AAg9H4n8wh3uACudP-node-JAfp4HnSEfxZ33qhVrNvk",
+      "source": "node-HDt5AAg9H4n8wh3uACudP",
+      "target": "node-JAfp4HnSEfxZ33qhVrNvk",
+      "animated": true
+    },
+    {
+      "id": "edge-node-JAfp4HnSEfxZ33qhVrNvk-node-4SiV-sW-zg_HtL2tPc90-",
+      "source": "node-JAfp4HnSEfxZ33qhVrNvk",
+      "target": "node-4SiV-sW-zg_HtL2tPc90-",
+      "animated": true
+    },
+    {
+      "id": "edge-node-4SiV-sW-zg_HtL2tPc90--node-tSdMmh2SG1Qul5PWCaCKa",
+      "source": "node-4SiV-sW-zg_HtL2tPc90-",
+      "target": "node-tSdMmh2SG1Qul5PWCaCKa",
+      "animated": true
+    },
+    {
+      "id": "edge-node-tSdMmh2SG1Qul5PWCaCKa-node-oxEooPuoRqxLreJSA4QIh",
+      "source": "node-tSdMmh2SG1Qul5PWCaCKa",
+      "target": "node-oxEooPuoRqxLreJSA4QIh",
+      "animated": true
+    },
+    {
+      "id": "edge-node-oxEooPuoRqxLreJSA4QIh-node-VlQis-Wkahd1E1aM1ZP2E",
+      "source": "node-oxEooPuoRqxLreJSA4QIh",
+      "target": "node-VlQis-Wkahd1E1aM1ZP2E",
+      "animated": true
+    },
+    {
+      "id": "edge-node-VlQis-Wkahd1E1aM1ZP2E-node-3NTsftFbqkG5s4xoU_q6E",
+      "source": "node-VlQis-Wkahd1E1aM1ZP2E",
+      "target": "node-3NTsftFbqkG5s4xoU_q6E",
+      "animated": true
+    },
+    {
+      "id": "edge-node-3NTsftFbqkG5s4xoU_q6E-node-6aukVg4KBYPW0FVtdAvS5",
+      "source": "node-3NTsftFbqkG5s4xoU_q6E",
+      "target": "node-6aukVg4KBYPW0FVtdAvS5",
+      "animated": true
+    },
+    {
+      "id": "edge-node-6aukVg4KBYPW0FVtdAvS5-node-QdWCXUAfVXiP6RQ6VyDkX",
+      "source": "node-6aukVg4KBYPW0FVtdAvS5",
+      "target": "node-QdWCXUAfVXiP6RQ6VyDkX",
+      "animated": true
+    },
+    {
+      "id": "edge-node-QdWCXUAfVXiP6RQ6VyDkX-node-N2pXb4eqXrBdR495zMqGY",
+      "source": "node-QdWCXUAfVXiP6RQ6VyDkX",
+      "target": "node-N2pXb4eqXrBdR495zMqGY",
+      "animated": true
+    },
+    {
+      "id": "edge-node-N2pXb4eqXrBdR495zMqGY-node-SFGRkOuEMFxOJ4UU_Ti8L",
+      "source": "node-N2pXb4eqXrBdR495zMqGY",
+      "target": "node-SFGRkOuEMFxOJ4UU_Ti8L",
+      "animated": true
+    },
+    {
+      "id": "edge-node-SFGRkOuEMFxOJ4UU_Ti8L-node-ELvMdjJZGl_k_0Qsi_vtm",
+      "source": "node-SFGRkOuEMFxOJ4UU_Ti8L",
+      "target": "node-ELvMdjJZGl_k_0Qsi_vtm",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ELvMdjJZGl_k_0Qsi_vtm-node-Ia5mN1j_lMCg0vt2z1_jI",
+      "source": "node-ELvMdjJZGl_k_0Qsi_vtm",
+      "target": "node-Ia5mN1j_lMCg0vt2z1_jI",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Ia5mN1j_lMCg0vt2z1_jI-node-deKkp0TGU3Dj0zxUn9VI4",
+      "source": "node-Ia5mN1j_lMCg0vt2z1_jI",
+      "target": "node-deKkp0TGU3Dj0zxUn9VI4",
+      "animated": true
+    },
+    {
+      "id": "edge-node-deKkp0TGU3Dj0zxUn9VI4-node-p8bkCtZkgdkh3G_d7fvmt",
+      "source": "node-deKkp0TGU3Dj0zxUn9VI4",
+      "target": "node-p8bkCtZkgdkh3G_d7fvmt",
+      "animated": true
+    },
+    {
+      "id": "edge-node-p8bkCtZkgdkh3G_d7fvmt-node-D_LyvlDwKSzvnSWCpR00D",
+      "source": "node-p8bkCtZkgdkh3G_d7fvmt",
+      "target": "node-D_LyvlDwKSzvnSWCpR00D",
+      "animated": true
+    },
+    {
+      "id": "edge-node-D_LyvlDwKSzvnSWCpR00D-node-CX-9Ii3e9rrokUTF0_hI5",
+      "source": "node-D_LyvlDwKSzvnSWCpR00D",
+      "target": "node-CX-9Ii3e9rrokUTF0_hI5",
+      "animated": true
+    },
+    {
+      "id": "edge-node-CX-9Ii3e9rrokUTF0_hI5-node-OLdWSGSwYnggN14BdH9nN",
+      "source": "node-CX-9Ii3e9rrokUTF0_hI5",
+      "target": "node-OLdWSGSwYnggN14BdH9nN",
+      "animated": true
+    },
+    {
+      "id": "edge-node-OLdWSGSwYnggN14BdH9nN-node-GGR8jAQNggJc92FcvtL4O",
+      "source": "node-OLdWSGSwYnggN14BdH9nN",
+      "target": "node-GGR8jAQNggJc92FcvtL4O",
+      "animated": true
+    },
+    {
+      "id": "edge-node-GGR8jAQNggJc92FcvtL4O-node-rg-48lLxIaKdjIb9icB72",
+      "source": "node-GGR8jAQNggJc92FcvtL4O",
+      "target": "node-rg-48lLxIaKdjIb9icB72",
+      "animated": true
+    },
+    {
+      "id": "edge-node-rg-48lLxIaKdjIb9icB72-node-EctqfKE5AAqByipGIv0Wa",
+      "source": "node-rg-48lLxIaKdjIb9icB72",
+      "target": "node-EctqfKE5AAqByipGIv0Wa",
+      "animated": true
+    },
+    {
+      "id": "edge-node-EctqfKE5AAqByipGIv0Wa-node-EWMC98NdSnblHBD0U3Ty2",
+      "source": "node-EctqfKE5AAqByipGIv0Wa",
+      "target": "node-EWMC98NdSnblHBD0U3Ty2",
+      "animated": true
+    },
+    {
+      "id": "edge-node-EWMC98NdSnblHBD0U3Ty2-node-t8yTDpN4kNuW6ZhHnum2X",
+      "source": "node-EWMC98NdSnblHBD0U3Ty2",
+      "target": "node-t8yTDpN4kNuW6ZhHnum2X",
+      "animated": true
+    },
+    {
+      "id": "edge-node-t8yTDpN4kNuW6ZhHnum2X-node-lnr8HfS8mIcE4Ef-bXQbO",
+      "source": "node-t8yTDpN4kNuW6ZhHnum2X",
+      "target": "node-lnr8HfS8mIcE4Ef-bXQbO",
+      "animated": true
+    },
+    {
+      "id": "edge-node-lnr8HfS8mIcE4Ef-bXQbO-node-2IEdP3YjzCf150UpGao42",
+      "source": "node-lnr8HfS8mIcE4Ef-bXQbO",
+      "target": "node-2IEdP3YjzCf150UpGao42",
+      "animated": true
+    },
+    {
+      "id": "edge-node-2IEdP3YjzCf150UpGao42-node-3YcOhdk9w24f5x0WattyB",
+      "source": "node-2IEdP3YjzCf150UpGao42",
+      "target": "node-3YcOhdk9w24f5x0WattyB",
+      "animated": true
+    },
+    {
+      "id": "edge-node-3YcOhdk9w24f5x0WattyB-node-lLYISr_j0NsE7wkBVvnbM",
+      "source": "node-3YcOhdk9w24f5x0WattyB",
+      "target": "node-lLYISr_j0NsE7wkBVvnbM",
+      "animated": true
+    },
+    {
+      "id": "edge-node-lLYISr_j0NsE7wkBVvnbM-node-0MKuq69yhj8q6suTQ7fY7",
+      "source": "node-lLYISr_j0NsE7wkBVvnbM",
+      "target": "node-0MKuq69yhj8q6suTQ7fY7",
+      "animated": true
+    },
+    {
+      "id": "edge-node-0MKuq69yhj8q6suTQ7fY7-node-Uz5WseVkPoDJfnKw1FH9a",
+      "source": "node-0MKuq69yhj8q6suTQ7fY7",
+      "target": "node-Uz5WseVkPoDJfnKw1FH9a",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Uz5WseVkPoDJfnKw1FH9a-node-ih8oOhO49tg1wUUiusIA-",
+      "source": "node-Uz5WseVkPoDJfnKw1FH9a",
+      "target": "node-ih8oOhO49tg1wUUiusIA-",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ih8oOhO49tg1wUUiusIA--node-6P7GM12isuv5A_SA3tqNA",
+      "source": "node-ih8oOhO49tg1wUUiusIA-",
+      "target": "node-6P7GM12isuv5A_SA3tqNA",
+      "animated": true
+    },
+    {
+      "id": "edge-node-6P7GM12isuv5A_SA3tqNA-node--bX4iPTO1dt3wLAcFI7nL",
+      "source": "node-6P7GM12isuv5A_SA3tqNA",
+      "target": "node--bX4iPTO1dt3wLAcFI7nL",
+      "animated": true
+    },
+    {
+      "id": "edge-node--bX4iPTO1dt3wLAcFI7nL-node-1KGuLLxZ-2ghim7ge2ACN",
+      "source": "node--bX4iPTO1dt3wLAcFI7nL",
+      "target": "node-1KGuLLxZ-2ghim7ge2ACN",
+      "animated": true
+    },
+    {
+      "id": "edge-node-1KGuLLxZ-2ghim7ge2ACN-node-Un4rFrxtto4WLG9YNaAMK",
+      "source": "node-1KGuLLxZ-2ghim7ge2ACN",
+      "target": "node-Un4rFrxtto4WLG9YNaAMK",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Un4rFrxtto4WLG9YNaAMK-node-rhs6_Zg9PuY2Oost0vc_o",
+      "source": "node-Un4rFrxtto4WLG9YNaAMK",
+      "target": "node-rhs6_Zg9PuY2Oost0vc_o",
+      "animated": true
+    },
+    {
+      "id": "edge-node-rhs6_Zg9PuY2Oost0vc_o-node-Jf7W0Sw5azZZ6VGb9oaYq",
+      "source": "node-rhs6_Zg9PuY2Oost0vc_o",
+      "target": "node-Jf7W0Sw5azZZ6VGb9oaYq",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Jf7W0Sw5azZZ6VGb9oaYq-node-gJYuVgBvJeXL72NsRubLm",
+      "source": "node-Jf7W0Sw5azZZ6VGb9oaYq",
+      "target": "node-gJYuVgBvJeXL72NsRubLm",
+      "animated": true
+    },
+    {
+      "id": "edge-node-gJYuVgBvJeXL72NsRubLm-node-9evL0EqA6aBGczrfsRkV7",
+      "source": "node-gJYuVgBvJeXL72NsRubLm",
+      "target": "node-9evL0EqA6aBGczrfsRkV7",
+      "animated": true
+    },
+    {
+      "id": "edge-node-9evL0EqA6aBGczrfsRkV7-node-ca3Ik5pl-XmecZ3Ztx0YV",
+      "source": "node-9evL0EqA6aBGczrfsRkV7",
+      "target": "node-ca3Ik5pl-XmecZ3Ztx0YV",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ca3Ik5pl-XmecZ3Ztx0YV-node-lWsJL135U-N5xIBnXqTYx",
+      "source": "node-ca3Ik5pl-XmecZ3Ztx0YV",
+      "target": "node-lWsJL135U-N5xIBnXqTYx",
+      "animated": true
+    },
+    {
+      "id": "edge-node-lWsJL135U-N5xIBnXqTYx-node-NtiePD28NjaDtsC3oEbYf",
+      "source": "node-lWsJL135U-N5xIBnXqTYx",
+      "target": "node-NtiePD28NjaDtsC3oEbYf",
+      "animated": true
+    },
+    {
+      "id": "edge-node-NtiePD28NjaDtsC3oEbYf-node-wHKlT_wCIrpSvULvXCufr",
+      "source": "node-NtiePD28NjaDtsC3oEbYf",
+      "target": "node-wHKlT_wCIrpSvULvXCufr",
+      "animated": true
+    },
+    {
+      "id": "edge-node-wHKlT_wCIrpSvULvXCufr-node-vIOmb6qGA0ZbPyqEQ9Bb4",
+      "source": "node-wHKlT_wCIrpSvULvXCufr",
+      "target": "node-vIOmb6qGA0ZbPyqEQ9Bb4",
+      "animated": true
+    },
+    {
+      "id": "edge-node-vIOmb6qGA0ZbPyqEQ9Bb4-node-KlEgfzfkPu0O43tJIsU3H",
+      "source": "node-vIOmb6qGA0ZbPyqEQ9Bb4",
+      "target": "node-KlEgfzfkPu0O43tJIsU3H",
+      "animated": true
+    },
+    {
+      "id": "edge-node-KlEgfzfkPu0O43tJIsU3H-node-p0JHL8iAcV5tRLX9DPhx6",
+      "source": "node-KlEgfzfkPu0O43tJIsU3H",
+      "target": "node-p0JHL8iAcV5tRLX9DPhx6",
+      "animated": true
+    },
+    {
+      "id": "edge-node-p0JHL8iAcV5tRLX9DPhx6-node-DbJ1BIOoerkCH4P95Z7wD",
+      "source": "node-p0JHL8iAcV5tRLX9DPhx6",
+      "target": "node-DbJ1BIOoerkCH4P95Z7wD",
+      "animated": true
+    },
+    {
+      "id": "edge-node-DbJ1BIOoerkCH4P95Z7wD-node-3qImaY9Hs3Cvatw1X96Ns",
+      "source": "node-DbJ1BIOoerkCH4P95Z7wD",
+      "target": "node-3qImaY9Hs3Cvatw1X96Ns",
+      "animated": true
+    },
+    {
+      "id": "edge-node-3qImaY9Hs3Cvatw1X96Ns-node-mRdKPWMxzEacPOA8j-SoH",
+      "source": "node-3qImaY9Hs3Cvatw1X96Ns",
+      "target": "node-mRdKPWMxzEacPOA8j-SoH",
+      "animated": true
+    },
+    {
+      "id": "edge-node-mRdKPWMxzEacPOA8j-SoH-node-NwzKYGKVyLF_hiHSZ01Yq",
+      "source": "node-mRdKPWMxzEacPOA8j-SoH",
+      "target": "node-NwzKYGKVyLF_hiHSZ01Yq",
+      "animated": true
+    },
+    {
+      "id": "edge-node-NwzKYGKVyLF_hiHSZ01Yq-node-jTrvSb4eN9Hna0YooHapb",
+      "source": "node-NwzKYGKVyLF_hiHSZ01Yq",
+      "target": "node-jTrvSb4eN9Hna0YooHapb",
+      "animated": true
+    },
+    {
+      "id": "edge-node-jTrvSb4eN9Hna0YooHapb-node-txrWW1OlBZP-uiUKSMupo",
+      "source": "node-jTrvSb4eN9Hna0YooHapb",
+      "target": "node-txrWW1OlBZP-uiUKSMupo",
+      "animated": true
+    },
+    {
+      "id": "edge-node-txrWW1OlBZP-uiUKSMupo-node-BFmYL2UyuCXdFCeMKtDZk",
+      "source": "node-txrWW1OlBZP-uiUKSMupo",
+      "target": "node-BFmYL2UyuCXdFCeMKtDZk",
+      "animated": true
+    },
+    {
+      "id": "edge-node-BFmYL2UyuCXdFCeMKtDZk-node-9qNdqb_Y95_Hjm-7GYA-o",
+      "source": "node-BFmYL2UyuCXdFCeMKtDZk",
+      "target": "node-9qNdqb_Y95_Hjm-7GYA-o",
+      "animated": true
+    },
+    {
+      "id": "edge-node-9qNdqb_Y95_Hjm-7GYA-o-node-G3HHrElODg0Js0WY-VYkL",
+      "source": "node-9qNdqb_Y95_Hjm-7GYA-o",
+      "target": "node-G3HHrElODg0Js0WY-VYkL",
+      "animated": true
+    },
+    {
+      "id": "edge-node-G3HHrElODg0Js0WY-VYkL-node-nh6d9XbtvwBUtVDmEk0i_",
+      "source": "node-G3HHrElODg0Js0WY-VYkL",
+      "target": "node-nh6d9XbtvwBUtVDmEk0i_",
+      "animated": true
+    },
+    {
+      "id": "edge-node-nh6d9XbtvwBUtVDmEk0i_-node-nh6d9XbtvwBUtVDmEk0i_",
+      "source": "node-nh6d9XbtvwBUtVDmEk0i_",
+      "target": "node-nh6d9XbtvwBUtVDmEk0i_",
+      "animated": true
+    },
+    {
+      "id": "edge-node-nh6d9XbtvwBUtVDmEk0i_-node-TRTR2JyyfqICTm3kbyIgu",
+      "source": "node-nh6d9XbtvwBUtVDmEk0i_",
+      "target": "node-TRTR2JyyfqICTm3kbyIgu",
+      "animated": true
+    },
+    {
+      "id": "edge-node-TRTR2JyyfqICTm3kbyIgu-node-eyeSECF8-wu8EMr5gD7VJ",
+      "source": "node-TRTR2JyyfqICTm3kbyIgu",
+      "target": "node-eyeSECF8-wu8EMr5gD7VJ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-eyeSECF8-wu8EMr5gD7VJ-node-rHzhzrwsguJx3Hg5szucY",
+      "source": "node-eyeSECF8-wu8EMr5gD7VJ",
+      "target": "node-rHzhzrwsguJx3Hg5szucY",
+      "animated": true
+    },
+    {
+      "id": "edge-node-rHzhzrwsguJx3Hg5szucY-node-dTU2RPkJcZaPRuSHPod71",
+      "source": "node-rHzhzrwsguJx3Hg5szucY",
+      "target": "node-dTU2RPkJcZaPRuSHPod71",
+      "animated": true
+    },
+    {
+      "id": "edge-node-dTU2RPkJcZaPRuSHPod71-node-8EwNQFoZbzf5WtvP4OA4G",
+      "source": "node-dTU2RPkJcZaPRuSHPod71",
+      "target": "node-8EwNQFoZbzf5WtvP4OA4G",
+      "animated": true
+    },
+    {
+      "id": "edge-node-8EwNQFoZbzf5WtvP4OA4G-node-jKADWbGXSL5yGzsLqSJG9",
+      "source": "node-8EwNQFoZbzf5WtvP4OA4G",
+      "target": "node-jKADWbGXSL5yGzsLqSJG9",
+      "animated": true
+    },
+    {
+      "id": "edge-node-jKADWbGXSL5yGzsLqSJG9-node-DyrNnHUm4Ws5Ku7AlVnWg",
+      "source": "node-jKADWbGXSL5yGzsLqSJG9",
+      "target": "node-DyrNnHUm4Ws5Ku7AlVnWg",
+      "animated": true
+    },
+    {
+      "id": "edge-node-DyrNnHUm4Ws5Ku7AlVnWg-node-okQl2NFVACbZJPgh3sD5I",
+      "source": "node-DyrNnHUm4Ws5Ku7AlVnWg",
+      "target": "node-okQl2NFVACbZJPgh3sD5I",
+      "animated": true
+    },
+    {
+      "id": "edge-node-okQl2NFVACbZJPgh3sD5I-node-IjEF4T0vuFNUlA9O0wOFw",
+      "source": "node-okQl2NFVACbZJPgh3sD5I",
+      "target": "node-IjEF4T0vuFNUlA9O0wOFw",
+      "animated": true
+    },
+    {
+      "id": "edge-node-IjEF4T0vuFNUlA9O0wOFw-node-PDxKuQbWhbg0_AewOw9Mm",
+      "source": "node-IjEF4T0vuFNUlA9O0wOFw",
+      "target": "node-PDxKuQbWhbg0_AewOw9Mm",
+      "animated": true
+    },
+    {
+      "id": "edge-node-PDxKuQbWhbg0_AewOw9Mm-node-wszshSvhqtfN829f5InuL",
+      "source": "node-PDxKuQbWhbg0_AewOw9Mm",
+      "target": "node-wszshSvhqtfN829f5InuL",
+      "animated": true
+    },
+    {
+      "id": "edge-node-wszshSvhqtfN829f5InuL-node-pSdqdRPlLfmIl5X9XF76r",
+      "source": "node-wszshSvhqtfN829f5InuL",
+      "target": "node-pSdqdRPlLfmIl5X9XF76r",
+      "animated": true
+    },
+    {
+      "id": "edge-node-pSdqdRPlLfmIl5X9XF76r-node-WJmDAayQ6SMNuUWsMzhnJ",
+      "source": "node-pSdqdRPlLfmIl5X9XF76r",
+      "target": "node-WJmDAayQ6SMNuUWsMzhnJ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-WJmDAayQ6SMNuUWsMzhnJ-node-eYaayU92hNbri3YTdSAbG",
+      "source": "node-WJmDAayQ6SMNuUWsMzhnJ",
+      "target": "node-eYaayU92hNbri3YTdSAbG",
+      "animated": true
+    },
+    {
+      "id": "edge-node-eYaayU92hNbri3YTdSAbG-node-NB50RuNBT5Oja2Ry6p892",
+      "source": "node-eYaayU92hNbri3YTdSAbG",
+      "target": "node-NB50RuNBT5Oja2Ry6p892",
+      "animated": true
+    },
+    {
+      "id": "edge-node-NB50RuNBT5Oja2Ry6p892-node-ftFF3oFfqpKvjQhXk3bWw",
+      "source": "node-NB50RuNBT5Oja2Ry6p892",
+      "target": "node-ftFF3oFfqpKvjQhXk3bWw",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ftFF3oFfqpKvjQhXk3bWw-node-Xs9gIVdO9TuZabUapgubJ",
+      "source": "node-ftFF3oFfqpKvjQhXk3bWw",
+      "target": "node-Xs9gIVdO9TuZabUapgubJ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Xs9gIVdO9TuZabUapgubJ-node-x4MkSkbLK7aHWUoKuq1j4",
+      "source": "node-Xs9gIVdO9TuZabUapgubJ",
+      "target": "node-x4MkSkbLK7aHWUoKuq1j4",
+      "animated": true
+    },
+    {
+      "id": "edge-node-x4MkSkbLK7aHWUoKuq1j4-node-YyBmT5CzL-lspStC8aZ_t",
+      "source": "node-x4MkSkbLK7aHWUoKuq1j4",
+      "target": "node-YyBmT5CzL-lspStC8aZ_t",
+      "animated": true
+    },
+    {
+      "id": "edge-node-YyBmT5CzL-lspStC8aZ_t-node-mJ5wZPg770fDlJ-V9x75t",
+      "source": "node-YyBmT5CzL-lspStC8aZ_t",
+      "target": "node-mJ5wZPg770fDlJ-V9x75t",
+      "animated": true
+    },
+    {
+      "id": "edge-node-mJ5wZPg770fDlJ-V9x75t-node-4nyrB8-xmd35S6ZNjPX8d",
+      "source": "node-mJ5wZPg770fDlJ-V9x75t",
+      "target": "node-4nyrB8-xmd35S6ZNjPX8d",
+      "animated": true
+    },
+    {
+      "id": "edge-node-4nyrB8-xmd35S6ZNjPX8d-node-J7eIUewbviWck-lVJ1hre",
+      "source": "node-4nyrB8-xmd35S6ZNjPX8d",
+      "target": "node-J7eIUewbviWck-lVJ1hre",
+      "animated": true
+    },
+    {
+      "id": "edge-node-J7eIUewbviWck-lVJ1hre-node-JyARA-iMMw2uEuB_ljFrs",
+      "source": "node-J7eIUewbviWck-lVJ1hre",
+      "target": "node-JyARA-iMMw2uEuB_ljFrs",
+      "animated": true
+    },
+    {
+      "id": "edge-node-JyARA-iMMw2uEuB_ljFrs-node-cUYKqkqvg2u3Z4KOtAE9m",
+      "source": "node-JyARA-iMMw2uEuB_ljFrs",
+      "target": "node-cUYKqkqvg2u3Z4KOtAE9m",
+      "animated": true
+    },
+    {
+      "id": "edge-node-cUYKqkqvg2u3Z4KOtAE9m-node-qtzX0ZzmWjs-CkHQDhsD1",
+      "source": "node-cUYKqkqvg2u3Z4KOtAE9m",
+      "target": "node-qtzX0ZzmWjs-CkHQDhsD1",
+      "animated": true
+    },
+    {
+      "id": "edge-node-qtzX0ZzmWjs-CkHQDhsD1-node-yrW99MwJNCBMinYUXm1B_",
+      "source": "node-qtzX0ZzmWjs-CkHQDhsD1",
+      "target": "node-yrW99MwJNCBMinYUXm1B_",
+      "animated": true
+    },
+    {
+      "id": "edge-node-yrW99MwJNCBMinYUXm1B_-node-UD5BpSz2CRK1_Sl2z67AL",
+      "source": "node-yrW99MwJNCBMinYUXm1B_",
+      "target": "node-UD5BpSz2CRK1_Sl2z67AL",
+      "animated": true
+    },
+    {
+      "id": "edge-node-UD5BpSz2CRK1_Sl2z67AL-node-e7tcUrtjEcFvQNL6PCYE1",
+      "source": "node-UD5BpSz2CRK1_Sl2z67AL",
+      "target": "node-e7tcUrtjEcFvQNL6PCYE1",
+      "animated": true
+    },
+    {
+      "id": "edge-node-e7tcUrtjEcFvQNL6PCYE1-node-VCufea-9vs4DfzB815IT5",
+      "source": "node-e7tcUrtjEcFvQNL6PCYE1",
+      "target": "node-VCufea-9vs4DfzB815IT5",
+      "animated": true
+    }
+  ],
+  "topics": {
+    "dvL7HRXMqs2NOuTtfHeXM": {
+      "id": "dvL7HRXMqs2NOuTtfHeXM",
+      "slug": "accessibility",
+      "title": "Accessibility",
+      "description": "Accessibility, often shortened to A11y, focuses on designing and developing websites and applications that are usable by people with disabilities. This includes individuals with visual, auditory, motor, or cognitive impairments, ensuring they can perceive, understand, navigate, and interact with web content effectively. Implementing accessibility involves following established guidelines and best practices to create inclusive digital experiences.",
+      "resources": []
+    },
+    "NyByCB4J4hk7rN7nrp1dv": {
+      "id": "NyByCB4J4hk7rN7nrp1dv",
+      "slug": "action-views",
+      "title": "Action Views",
+      "description": "Action View is the view component of the Ruby on Rails framework. It's responsible for rendering the user interface, typically in HTML, but also in other formats like XML or JSON. It handles tasks such as template rendering, layout management, and helper methods to simplify the creation of dynamic web pages.",
+      "resources": [
+        {
+          "id": "NyByCB4J4hk7rN7nrp1dv-res-1",
+          "type": "article",
+          "title": "Action View Overview",
+          "url": "https://guides.rubyonrails.org/action_view_overview.html"
+        },
+        {
+          "id": "NyByCB4J4hk7rN7nrp1dv-res-2",
+          "type": "article",
+          "title": "Views",
+          "url": "https://www.theodinproject.com/lessons/ruby-on-rails-views#introduction"
+        },
+        {
+          "id": "NyByCB4J4hk7rN7nrp1dv-res-3",
+          "type": "article",
+          "title": "Rails Views — The V in MVC",
+          "url": "https://medium.com/@tafby88/rails-views-the-v-in-mvc-71e04d017791"
+        },
+        {
+          "id": "NyByCB4J4hk7rN7nrp1dv-res-4",
+          "type": "video",
+          "title": "Action View in Rails",
+          "url": "https://www.youtube.com/watch?v=n2X_75Jja1A"
+        }
+      ]
+    },
+    "ig8gCcieQF923NKhNyaNA": {
+      "id": "ig8gCcieQF923NKhNyaNA",
+      "slug": "active-record",
+      "title": "Active Record",
+      "description": "Active Record is the ORM (Object-Relational Mapping) layer within Ruby on Rails. It acts as an interface between your Ruby code and the database. Instead of writing raw SQL queries, you use Active Record's methods to interact with your database tables as if they were Ruby objects. This allows you to create, read, update, and delete data in a more intuitive and object-oriented way, simplifying database interactions within your Rails application.",
+      "resources": [
+        {
+          "id": "ig8gCcieQF923NKhNyaNA-res-1",
+          "type": "article",
+          "title": "Active Record Query Interface",
+          "url": "https://guides.rubyonrails.org/active_record_querying.html#what-is-the-active-record-query-interface-questionmark"
+        },
+        {
+          "id": "ig8gCcieQF923NKhNyaNA-res-2",
+          "type": "article",
+          "title": "Active Record Queries",
+          "url": "https://www.theodinproject.com/lessons/ruby-on-rails-active-record-queries"
+        },
+        {
+          "id": "ig8gCcieQF923NKhNyaNA-res-3",
+          "type": "article",
+          "title": "Advanced Queries in ActiveRecord for Ruby on Rails",
+          "url": "https://blog.appsignal.com/2025/02/26/advanced-queries-in-activerecord-for-ruby-on-rails.html"
+        },
+        {
+          "id": "ig8gCcieQF923NKhNyaNA-res-4",
+          "type": "video",
+          "title": "Ep 4. Active Record explained | Rails New Tutorial with Typecraft",
+          "url": "https://www.youtube.com/watch?v=n0TPEsKE9v0"
+        }
+      ]
+    },
+    "8Jbs2XpIL-Nd-tr2f0AJ8": {
+      "id": "8Jbs2XpIL-Nd-tr2f0AJ8",
+      "slug": "advanced-asset-management",
+      "title": "Advanced Asset Management",
+      "description": "You can use advanced asset management techniques to optimize and organize your application's assets (images, stylesheets, JavaScript files) beyond the basic functionality provided by the asset pipeline. This includes strategies like using CDNs for faster delivery, implementing asset versioning for cache busting, precompiling assets for production environments, and employing tools for minification and compression to reduce file sizes and improve performance. It also covers techniques for organizing assets into logical groups and managing dependencies between them.",
+      "resources": [
+        {
+          "id": "8Jbs2XpIL-Nd-tr2f0AJ8-res-1",
+          "type": "article",
+          "title": "Advanced Asset Management",
+          "url": "https://guides.rubyonrails.org/asset_pipeline.html#advanced-asset-management"
+        }
+      ]
+    },
+    "C8A-30h1xJBFLhD182H89": {
+      "id": "C8A-30h1xJBFLhD182H89",
+      "slug": "aggregations",
+      "title": "Aggregations",
+      "description": "Aggregations in Active Record allow you to derive summary information from your database records. This involves performing calculations like finding the average, minimum, maximum, or sum of values across a set of records, or counting the number of records that meet certain criteria. These calculations are typically performed directly within the database for efficiency and can be easily accessed through your Rails models.",
+      "resources": [
+        {
+          "id": "C8A-30h1xJBFLhD182H89-res-1",
+          "type": "article",
+          "title": "Grouping",
+          "url": "https://guides.rubyonrails.org/active_record_querying.html#grouping"
+        },
+        {
+          "id": "C8A-30h1xJBFLhD182H89-res-2",
+          "type": "article",
+          "title": "Calculations",
+          "url": "https://guides.rubyonrails.org/active_record_querying.html#calculations"
+        },
+        {
+          "id": "C8A-30h1xJBFLhD182H89-res-3",
+          "type": "article",
+          "title": "Grouping and Aggregating",
+          "url": "https://backend.turing.edu/module2/lessons/grouping_and_aggregating"
+        },
+        {
+          "id": "C8A-30h1xJBFLhD182H89-res-4",
+          "type": "video",
+          "title": "SQL Learning Path - Group By Statement",
+          "url": "https://www.youtube.com/watch?v=KdI1IPVJlHg"
+        }
+      ]
+    },
+    "BiVYxjVr2OhmnglHz_kVZ": {
+      "id": "BiVYxjVr2OhmnglHz_kVZ",
+      "slug": "app",
+      "title": "App Directory",
+      "description": "The `app` directory in a Rails application is the heart of your project, containing the core logic and components that define its behavior. It's where you'll find the code responsible for handling user requests, interacting with the database, and rendering views. This directory is organized into subdirectories, each dedicated to a specific aspect of the application, such as models, views, and controllers.",
+      "resources": []
+    },
+    "EcGyLolDRJJra4PDWlQjJ": {
+      "id": "EcGyLolDRJJra4PDWlQjJ",
+      "slug": "assets-pipeline",
+      "title": "Assets Pipeline",
+      "description": "The Assets Pipeline in Rails provides a structured way to manage and pre-process assets like stylesheets, JavaScript files, and images. It bundles, minifies, and compresses these assets to improve website performance by reducing the number of requests and the size of the files that need to be downloaded by the browser. It also allows you to use features like automatic CSS prefixing and CoffeeScript compilation.",
+      "resources": [
+        {
+          "id": "EcGyLolDRJJra4PDWlQjJ-res-1",
+          "type": "article",
+          "title": "The Asset Pipeline",
+          "url": "https://guides.rubyonrails.org/asset_pipeline.html"
+        },
+        {
+          "id": "EcGyLolDRJJra4PDWlQjJ-res-2",
+          "type": "article",
+          "title": "The Asset Pipeline",
+          "url": "https://www.theodinproject.com/lessons/ruby-on-rails-the-asset-pipeline"
+        },
+        {
+          "id": "EcGyLolDRJJra4PDWlQjJ-res-3",
+          "type": "article",
+          "title": "Rails Asset Pipeline",
+          "url": "https://medium.com/@tali.scheer/rails-asset-pipeline-ab441688616a"
+        },
+        {
+          "id": "EcGyLolDRJJra4PDWlQjJ-res-4",
+          "type": "article",
+          "title": "Understanding the Asset Pipeline in Ruby on Rails",
+          "url": "https://webcrunch.com/posts/understanding-asset-pipeline-ruby-on-rails"
+        },
+        {
+          "id": "EcGyLolDRJJra4PDWlQjJ-res-5",
+          "type": "video",
+          "title": "A Quick and Easy Guide to the Asset Pipeline in Rails 7",
+          "url": "https://www.youtube.com/watch?v=cQQH9sEhnnY"
+        },
+        {
+          "id": "EcGyLolDRJJra4PDWlQjJ-res-6",
+          "type": "video",
+          "title": "Understanding The Rails Asset Pipeline",
+          "url": "https://www.youtube.com/watch?v=maTYAac1ESI"
+        }
+      ]
+    },
+    "WqjcBTzbU4iFpYVp1-ptv": {
+      "id": "WqjcBTzbU4iFpYVp1-ptv",
+      "slug": "authentication",
+      "title": "Authentication",
+      "description": "Authentication in Rails verifies the identity of users, ensuring they are who they claim to be before granting access to protected resources. It typically involves checking user credentials, like a username and password, against stored data to confirm their validity. Upon successful verification, a user session is created, allowing the application to remember the user across multiple requests without repeatedly asking for credentials. This process helps secure the application by restricting access to authorized users only.",
+      "resources": [
+        {
+          "id": "WqjcBTzbU4iFpYVp1-ptv-res-1",
+          "type": "article",
+          "title": "Authentication",
+          "url": "https://guides.rubyonrails.org/security.html#authentication"
+        },
+        {
+          "id": "WqjcBTzbU4iFpYVp1-ptv-res-2",
+          "type": "article",
+          "title": "Rails Authentication: Gems vs. Recipes vs. Generators",
+          "url": "https://masilotti.com/rails-authentication/"
+        },
+        {
+          "id": "WqjcBTzbU4iFpYVp1-ptv-res-3",
+          "type": "article",
+          "title": "Authentication and Authorization in Ruby on Rails",
+          "url": "https://medium.com/@zachlandis91/authentication-and-authorization-in-ruby-on-rails-c44c1ccea94d"
+        },
+        {
+          "id": "WqjcBTzbU4iFpYVp1-ptv-res-4",
+          "type": "video",
+          "title": "Securing your app with the default Authentication Generator | Rails 8 Unpacked",
+          "url": "https://www.youtube.com/watch?v=4q1RWZABhKE"
+        },
+        {
+          "id": "WqjcBTzbU4iFpYVp1-ptv-res-5",
+          "type": "video",
+          "title": "How to Use Authentication in Ruby on Rails 8",
+          "url": "https://www.youtube.com/watch?v=uGllXLfRx60"
+        }
+      ]
+    },
+    "xz-xEwqyvJgTKvjpmXeOH": {
+      "id": "xz-xEwqyvJgTKvjpmXeOH",
+      "slug": "authorization",
+      "title": "Authorization",
+      "description": "Authorization determines what a user is allowed to do within an application. It focuses on verifying if a user has the necessary permissions to access specific resources or perform certain actions. This process happens after authentication, which confirms the user's identity and dictates the level of access granted based on their role or attributes.",
+      "resources": [
+        {
+          "id": "xz-xEwqyvJgTKvjpmXeOH-res-1",
+          "type": "article",
+          "title": "Complete Guide To Managing User Permissions In Rails Apps",
+          "url": "https://www.honeybadger.io/blog/complete-guide-to-managing-user-permissions-in-rails-apps/"
+        },
+        {
+          "id": "xz-xEwqyvJgTKvjpmXeOH-res-2",
+          "type": "article",
+          "title": "Implementing Role-Based Access Control (RBAC) in Rails: A Comprehensive Guide",
+          "url": "https://medium.com/@er.sumitsah/implementing-role-based-access-control-rbac-in-rails-a-comprehensive-guide-752194c8bffe"
+        },
+        {
+          "id": "xz-xEwqyvJgTKvjpmXeOH-res-3",
+          "type": "article",
+          "title": "Authentication and Authorization in Ruby on Rails",
+          "url": "https://www.shakacode.com/blog/mastering-authorization-in-rails-with-pundit/"
+        }
+      ]
+    },
+    "Mj4SxEsrQZz6zIKos1hyk": {
+      "id": "Mj4SxEsrQZz6zIKos1hyk",
+      "slug": "background-jobs",
+      "title": "Background Jobs in Rails",
+      "description": "Background jobs allow you to perform time-consuming tasks outside of the main request-response cycle. This means your web application can remain responsive and quickly handle user requests, while the longer tasks are processed in the background. Rails achieves this using Active Job, a framework for declaring jobs and making them run on a variety of queuing backends like Sidekiq, Resque, or even a simple in-memory queue for development. This abstraction allows developers to write job logic once and easily switch between different background processing systems as needed.",
+      "resources": [
+        {
+          "id": "Mj4SxEsrQZz6zIKos1hyk-res-1",
+          "type": "article",
+          "title": "Active Job Basics",
+          "url": "https://guides.rubyonrails.org/active_job_basics.html"
+        },
+        {
+          "id": "Mj4SxEsrQZz6zIKos1hyk-res-2",
+          "type": "article",
+          "title": "Rails Background Jobs — Reconstruct Your Application",
+          "url": "https://medium.com/@hasnatraza.dev/rails-background-jobs-reconstruct-your-application-ccaef2860552"
+        },
+        {
+          "id": "Mj4SxEsrQZz6zIKos1hyk-res-3",
+          "type": "article",
+          "title": "A Simple Guide to Background Jobs in Ruby on Rails",
+          "url": "https://www.bluebash.co/blog/simple-guide-to-background-jobs-in-ruby-on-rails/"
+        },
+        {
+          "id": "Mj4SxEsrQZz6zIKos1hyk-res-4",
+          "type": "video",
+          "title": "Manage asynchronous tasks with Solid Queue | Rails 8 Unpacked",
+          "url": "https://www.youtube.com/watch?v=ReyKfb12EVU"
+        },
+        {
+          "id": "Mj4SxEsrQZz6zIKos1hyk-res-5",
+          "type": "video",
+          "title": "Testing Active Job in Ruby on Rails",
+          "url": "https://www.youtube.com/watch?v=7ieeu0r27ig"
+        }
+      ]
+    },
+    "Ddikj7KylZSoqsdAsd380": {
+      "id": "Ddikj7KylZSoqsdAsd380",
+      "slug": "basic-queries",
+      "title": "Basic Queries in Active Record",
+      "description": "Active Record provides a powerful and intuitive interface for interacting with databases in Rails applications. Basic queries allow you to retrieve data from your database tables using simple and expressive methods. These methods enable you to find records based on various criteria, such as specific IDs, attribute values, or more complex conditions, forming the foundation for data retrieval operations within your Rails application.",
+      "resources": [
+        {
+          "id": "Ddikj7KylZSoqsdAsd380-res-1",
+          "type": "article",
+          "title": "Active Record Query Interface",
+          "url": "https://guides.rubyonrails.org/active_record_querying.html"
+        },
+        {
+          "id": "Ddikj7KylZSoqsdAsd380-res-2",
+          "type": "article",
+          "title": "Active Record Queries",
+          "url": "https://www.theodinproject.com/lessons/ruby-on-rails-active-record-queries"
+        },
+        {
+          "id": "Ddikj7KylZSoqsdAsd380-res-3",
+          "type": "article",
+          "title": "Advanced Queries in ActiveRecord for Ruby on Rails",
+          "url": "https://blog.appsignal.com/2025/02/26/advanced-queries-in-activerecord-for-ruby-on-rails.html"
+        },
+        {
+          "id": "Ddikj7KylZSoqsdAsd380-res-4",
+          "type": "article",
+          "title": "Query Like a Pro: Active Record for Database Queries",
+          "url": "https://dev.to/minchulan/exploring-rails-active-record-and-querying-with-relational-databases-3p2g"
+        },
+        {
+          "id": "Ddikj7KylZSoqsdAsd380-res-5",
+          "type": "video",
+          "title": "Ep 4. Active Record explained | Rails New Tutorial with Typecraft",
+          "url": "https://www.youtube.com/watch?v=n0TPEsKE9v0"
+        }
+      ]
+    },
+    "yUwMPqnV5ZqV7eCL0bkfs": {
+      "id": "yUwMPqnV5ZqV7eCL0bkfs",
+      "slug": "better-errors",
+      "title": "Better Errors",
+      "description": "Better Errors is a Ruby gem that enhances the standard Rails error page with more detailed and interactive debugging information. It provides a richer debugging experience by displaying source code snippets, allowing you to inspect variables, and even execute code directly within the error page. This makes it easier to understand the cause of errors and quickly identify solutions during development.",
+      "resources": []
+    },
+    "6HV1KoHTSeEE1-f6IeWB4": {
+      "id": "6HV1KoHTSeEE1-f6IeWB4",
+      "slug": "bin",
+      "title": "bin Directory",
+      "description": "The `bin` directory in a Rails application contains executable scripts that are specific to your application. These scripts are typically used for tasks like starting the server, running tests, or performing other administrative operations. They provide a convenient way to interact with your Rails application from the command line.",
+      "resources": []
+    },
+    "SFGRkOuEMFxOJ4UU_Ti8L": {
+      "id": "SFGRkOuEMFxOJ4UU_Ti8L",
+      "slug": "debug",
+      "title": "debug",
+      "description": "The `debug` helper in Ruby on Rails provides a way to display the contents of a variable or object directly within your views. It's primarily used for debugging purposes, allowing you to quickly inspect data structures and identify issues in your code during development. When used, it outputs the object's information in a readable format within `<pre>` tags on the rendered HTML page, making it easy to examine its properties and values.",
+      "resources": [
+        {
+          "id": "SFGRkOuEMFxOJ4UU_Ti8L-res-1",
+          "type": "article",
+          "title": "debug",
+          "url": "https://guides.rubyonrails.org/debugging_rails_applications.html#debug"
+        }
+      ]
+    },
+    "fjROKLDD5h6Vp0zXgJ5Y0": {
+      "id": "fjROKLDD5h6Vp0zXgJ5Y0",
+      "slug": "caching",
+      "title": "Caching",
+      "description": "Caching is a technique used to store copies of frequently accessed data in a temporary storage location, like memory, to reduce the need to retrieve the data from its source, such as a database or external API, every time it's requested. This results in faster response times and reduced load on the original data source.",
+      "resources": [
+        {
+          "id": "fjROKLDD5h6Vp0zXgJ5Y0-res-1",
+          "type": "article",
+          "title": "Caching with Rails: An Overview",
+          "url": "https://guides.rubyonrails.org/caching_with_rails.html"
+        },
+        {
+          "id": "fjROKLDD5h6Vp0zXgJ5Y0-res-2",
+          "type": "article",
+          "title": "An Introduction to HTTP Caching in Ruby On Rails",
+          "url": "https://blog.appsignal.com/2024/08/14/an-introduction-to-http-caching-in-ruby-on-rails.html"
+        },
+        {
+          "id": "fjROKLDD5h6Vp0zXgJ5Y0-res-3",
+          "type": "article",
+          "title": "Mastering Low Level Caching in Rails",
+          "url": "https://www.honeybadger.io/blog/rails-low-level-caching/"
+        },
+        {
+          "id": "fjROKLDD5h6Vp0zXgJ5Y0-res-4",
+          "type": "article",
+          "title": "Types of Caching in Rails",
+          "url": "https://tadhao.medium.com/types-of-caching-in-rails-cba708aae679"
+        },
+        {
+          "id": "fjROKLDD5h6Vp0zXgJ5Y0-res-5",
+          "type": "video",
+          "title": "Fragment and Collection Cache in Ruby on Rails 7",
+          "url": "https://www.youtube.com/watch?v=t4bugdvKEag"
+        },
+        {
+          "id": "fjROKLDD5h6Vp0zXgJ5Y0-res-6",
+          "type": "video",
+          "title": "Easy caching with Solid Cache | Rails 8 Unpacked",
+          "url": "https://www.youtube.com/watch?v=mA6somzKYEg"
+        }
+      ]
+    },
+    "xgJCbwDNWPbYV2bCILRo0": {
+      "id": "xgJCbwDNWPbYV2bCILRo0",
+      "slug": "callbacks",
+      "title": "Callbacks",
+      "description": "Callbacks are methods that get called at certain moments in the lifecycle of an Active Record object. These moments can include creation, updating, deletion, validation, or saving. By using callbacks, you can trigger logic before or after these actions, allowing you to perform tasks like data validation, auditing, or related object updates automatically",
+      "resources": [
+        {
+          "id": "xgJCbwDNWPbYV2bCILRo0-res-1",
+          "type": "article",
+          "title": "Active Record Callbacks",
+          "url": "https://guides.rubyonrails.org/active_record_callbacks.html"
+        },
+        {
+          "id": "xgJCbwDNWPbYV2bCILRo0-res-2",
+          "type": "article",
+          "title": "Active Record Callbacks | The Odin Project",
+          "url": "https://www.theodinproject.com/lessons/ruby-on-rails-active-record-callbacks"
+        },
+        {
+          "id": "xgJCbwDNWPbYV2bCILRo0-res-3",
+          "type": "article",
+          "title": "Rails ActiveRecord Callbacks — cheatsheet & best practices",
+          "url": "https://medium.com/@jaysadiq/rails-activerecord-callbacks-cheatsheet-55fdb37f76ef"
+        },
+        {
+          "id": "xgJCbwDNWPbYV2bCILRo0-res-4",
+          "type": "article",
+          "title": "Ruby on Rails ActiveRecord Callbacks",
+          "url": "https://dev.to/eapenzac/ruby-on-rails-activerecord-callbacks-597a"
+        },
+        {
+          "id": "xgJCbwDNWPbYV2bCILRo0-res-5",
+          "type": "video",
+          "title": "Understanding Active Record Callbacks",
+          "url": "https://www.youtube.com/watch?v=1-31AlGv96Y"
+        },
+        {
+          "id": "xgJCbwDNWPbYV2bCILRo0-res-6",
+          "type": "video",
+          "title": "Callbacks",
+          "url": "https://www.youtube.com/watch?v=GLBMfB8N1G8"
+        }
+      ]
+    },
+    "0dPBO4cZFWvE3rSHEW1OJ": {
+      "id": "0dPBO4cZFWvE3rSHEW1OJ",
+      "slug": "cancancan",
+      "title": "CanCanCan",
+      "description": "CanCanCan is an authorization library for Ruby on Rails applications that restricts what resources a given user is allowed to access. It provides a simple and declarative way to define abilities, based on the user's role and the resource being accessed. This allows developers to easily manage permissions and ensure that users can only perform actions they are authorized to do.",
+      "resources": []
+    },
+    "3fA4RoDm2NFUK0EWFy-eP": {
+      "id": "3fA4RoDm2NFUK0EWFy-eP",
+      "slug": "cancancan",
+      "title": "CanCanCan",
+      "description": "CanCanCan is an authorization library for Ruby on Rails applications that restricts what resources a given user is allowed to access. It provides a simple and flexible way to define abilities, which represent the permissions a user has on different resources, and then checks these abilities within your controllers and views to control access and display appropriate content. This gem helps in defining and managing user roles and permissions, ensuring that only authorized users can perform specific actions.",
+      "resources": [
+        {
+          "id": "3fA4RoDm2NFUK0EWFy-eP-res-1",
+          "type": "article",
+          "title": "cancancan",
+          "url": "https://github.com/CanCanCommunity/cancancan"
+        },
+        {
+          "id": "3fA4RoDm2NFUK0EWFy-eP-res-2",
+          "type": "article",
+          "title": "Rails 7 Authorization with Cancancan Gem",
+          "url": "https://medium.com/@learnwithalfred/rails-7-authorization-with-cancancan-gem-f3a29c01b3bd"
+        },
+        {
+          "id": "3fA4RoDm2NFUK0EWFy-eP-res-3",
+          "type": "article",
+          "title": "Authorization Gems in Ruby: Pundit and CanCanCan",
+          "url": "https://blog.appsignal.com/2023/03/22/authorization-gems-in-ruby-pundit-and-cancancan.html"
+        },
+        {
+          "id": "3fA4RoDm2NFUK0EWFy-eP-res-4",
+          "type": "video",
+          "title": "Authorization on Rails (CanCanCan Demonstration)",
+          "url": "https://www.youtube.com/watch?v=cTYu-OjUgDw"
+        },
+        {
+          "id": "3fA4RoDm2NFUK0EWFy-eP-res-5",
+          "type": "video",
+          "title": "Ruby On Rails - Authorization Using CanCanCan",
+          "url": "https://www.youtube.com/playlist?list=PL6HtmRWwDtYMuIDt4syZdGXWFPZrAWvm_"
+        }
+      ]
+    },
+    "JCQT_3B9hu8QkJaoDQK_V": {
+      "id": "JCQT_3B9hu8QkJaoDQK_V",
+      "slug": "capybara",
+      "title": "Capybara",
+      "description": "Capybara is a Ruby gem that simplifies acceptance testing for web applications. It simulates how a user interacts with your application through a browser, allowing you to write tests that verify the behavior of your application from an end-user perspective. It provides a clean and easy-to-use API for interacting with elements on a web page, such as clicking links, filling in forms, and asserting the presence of specific content.",
+      "resources": [
+        {
+          "id": "JCQT_3B9hu8QkJaoDQK_V-res-1",
+          "type": "article",
+          "title": "capybara",
+          "url": "https://github.com/teamcapybara/capybara"
+        },
+        {
+          "id": "JCQT_3B9hu8QkJaoDQK_V-res-2",
+          "type": "article",
+          "title": "Integration Testing Ruby on Rails with Minitest and Capybara",
+          "url": "https://semaphore.io/community/tutorials/integration-testing-ruby-on-rails-with-minitest-and-capybara"
+        },
+        {
+          "id": "JCQT_3B9hu8QkJaoDQK_V-res-3",
+          "type": "article",
+          "title": "A Rails testing “hello world” using RSpec and Capybara",
+          "url": "https://www.codewithjason.com/rails-testing-hello-world-using-rspec-capybara/"
+        },
+        {
+          "id": "JCQT_3B9hu8QkJaoDQK_V-res-4",
+          "type": "video",
+          "title": "End to end testing Rails with capybara",
+          "url": "https://www.youtube.com/watch?v=ggnGOBe2A3o"
+        },
+        {
+          "id": "JCQT_3B9hu8QkJaoDQK_V-res-5",
+          "type": "video",
+          "title": "System Tests With Capybara and Selenium | Ruby On Rails 7 Tutorial",
+          "url": "https://www.youtube.com/watch?v=2TInLtG8dj4"
+        }
+      ]
+    },
+    "NgMAdAtdJFd3Pha4nwiLE": {
+      "id": "NgMAdAtdJFd3Pha4nwiLE",
+      "slug": "conditions",
+      "title": "Active Record Conditions",
+      "description": "Active Record conditions are used to specify criteria for retrieving data from a database table. They allow you to filter records based on specific attributes and values, enabling you to retrieve only the data that meets your desired requirements. These conditions are typically expressed using SQL-like syntax or through a more Ruby-friendly syntax provided by Active Record.",
+      "resources": [
+        {
+          "id": "NgMAdAtdJFd3Pha4nwiLE-res-1",
+          "type": "article",
+          "title": "Conditions",
+          "url": "https://guides.rubyonrails.org/active_record_querying.html#conditions"
+        },
+        {
+          "id": "NgMAdAtdJFd3Pha4nwiLE-res-2",
+          "type": "article",
+          "title": "Overriding Conditions",
+          "url": "https://guides.rubyonrails.org/active_record_querying.html#overriding-conditions"
+        }
+      ]
+    },
+    "Vr0UKX1C3DSVxZjj-Ls6L": {
+      "id": "Vr0UKX1C3DSVxZjj-Ls6L",
+      "slug": "config",
+      "title": "Config Directory",
+      "description": "The `config` directory in a Rails application houses configuration files that control various aspects of the application's behavior. These files define database connections, routing rules, environment-specific settings, and other application-wide configurations, allowing developers to customize the application without modifying the core code.",
+      "resources": [
+        {
+          "id": "Vr0UKX1C3DSVxZjj-Ls6L-res-1",
+          "type": "article",
+          "title": "Configuring Rails Applications",
+          "url": "https://guides.rubyonrails.org/configuring.html"
+        },
+        {
+          "id": "Vr0UKX1C3DSVxZjj-Ls6L-res-2",
+          "type": "article",
+          "title": "Setting Up and Managing Databases in Ruby on Rails",
+          "url": "https://bhartee-tech-ror.medium.com/setting-up-and-managing-databases-in-ruby-on-rails-72885f9f1164"
+        },
+        {
+          "id": "Vr0UKX1C3DSVxZjj-Ls6L-res-3",
+          "type": "article",
+          "title": "The Rails database.yml File",
+          "url": "https://dev.to/andreimaxim/the-rails-databaseyml-file-4dm9"
+        }
+      ]
+    },
+    "H2lhyWJ2aErIC6UsIag_p": {
+      "id": "H2lhyWJ2aErIC6UsIag_p",
+      "slug": "constraints",
+      "title": "Routing Constraints",
+      "description": "Routing constraints allow you to restrict which routes are matched based on specific criteria. These criteria can include the request's subdomain, IP address, HTTP headers, or any other attribute of the request. By adding constraints, you can create more precise and targeted routes, ensuring that requests are handled by the correct controller action.",
+      "resources": [
+        {
+          "id": "H2lhyWJ2aErIC6UsIag_p-res-1",
+          "type": "article",
+          "title": "Constraints",
+          "url": "https://guides.rubyonrails.org/routing.html#http-verb-constraints"
+        },
+        {
+          "id": "H2lhyWJ2aErIC6UsIag_p-res-2",
+          "type": "article",
+          "title": "Advanced Constrains",
+          "url": "https://guides.rubyonrails.org/routing.html#advanced-constraints"
+        },
+        {
+          "id": "H2lhyWJ2aErIC6UsIag_p-res-3",
+          "type": "article",
+          "title": "How to Use Rails Routing Constraints: Two Use Cases with Code",
+          "url": "https://8thlight.com/insights/how-to-use-rails-routing-constraints-2-use-cases-with-code"
+        },
+        {
+          "id": "H2lhyWJ2aErIC6UsIag_p-res-4",
+          "type": "article",
+          "title": "Rails advanced routing constraints",
+          "url": "https://thoughtbot.com/blog/rails-advanced-routing-constraints"
+        },
+        {
+          "id": "H2lhyWJ2aErIC6UsIag_p-res-5",
+          "type": "video",
+          "title": "Advanced Rails Routing Constraints: Domain, Subdomain, Authentication, and more | Preview",
+          "url": "https://www.youtube.com/watch?v=bauG5ibI9Xc"
+        }
+      ]
+    },
+    "Cm0tEnjeqQzQORowsdEjk": {
+      "id": "Cm0tEnjeqQzQORowsdEjk",
+      "slug": "controller-actions",
+      "title": "Controller Actions",
+      "description": "Controller actions are methods within a Rails controller that handle specific requests from users or other parts of the application. Each action typically corresponds to a specific route and performs a task, such as displaying a form, creating a new record, updating an existing record, or deleting a record. These actions interact with models to retrieve or manipulate data and then render a view to display the results to the user.",
+      "resources": [
+        {
+          "id": "Cm0tEnjeqQzQORowsdEjk-res-1",
+          "type": "article",
+          "title": "Action Controller Overview",
+          "url": "https://guides.rubyonrails.org/action_controller_overview.html"
+        },
+        {
+          "id": "Cm0tEnjeqQzQORowsdEjk-res-2",
+          "type": "article",
+          "title": "Introduction to Controllers in Rails",
+          "url": "https://codesignal.com/learn/courses/ruby-on-rails-basics/lessons/controllers-in-rails"
+        }
+      ]
+    },
+    "oHdgQvPSEs-l3EzNRd8q2": {
+      "id": "oHdgQvPSEs-l3EzNRd8q2",
+      "slug": "controller-callbacks-filters",
+      "title": "Controller Callbacks",
+      "description": "Controller callbacks, often referred to as filters, are methods that are executed at specific points in the lifecycle of a controller action. They allow you to run code before, after, or around a controller action, providing a way to encapsulate common logic, such as authentication, authorization, or data preparation, and keep your controller actions clean and focused.",
+      "resources": [
+        {
+          "id": "oHdgQvPSEs-l3EzNRd8q2-res-1",
+          "type": "article",
+          "title": "Controller Callbacks",
+          "url": "https://guides.rubyonrails.org/action_controller_overview.html#controller-callbacks"
+        },
+        {
+          "id": "oHdgQvPSEs-l3EzNRd8q2-res-2",
+          "type": "article",
+          "title": "A Simple Guide to before_action Callbacks in Ruby on Rails",
+          "url": "https://medium.com/@havanurkara55/a-simple-guide-to-before-action-callbacks-in-ruby-on-rails-fb068fb533d7"
+        },
+        {
+          "id": "oHdgQvPSEs-l3EzNRd8q2-res-3",
+          "type": "article",
+          "title": "Rails \"around_action\" : a less used callback",
+          "url": "https://dev.to/moltenhead/rails-aroundaction-a-less-used-callback-10cf"
+        },
+        {
+          "id": "oHdgQvPSEs-l3EzNRd8q2-res-4",
+          "type": "video",
+          "title": "ActionController callbacks in Rails",
+          "url": "https://www.youtube.com/watch?v=SnRq1_VXVVc"
+        }
+      ]
+    },
+    "HDt5AAg9H4n8wh3uACudP": {
+      "id": "HDt5AAg9H4n8wh3uACudP",
+      "slug": "controllers",
+      "title": "Controllers",
+      "description": "Controllers are the intermediary between the user, the view, and the model. They receive requests from the user (often through routes), process the request by interacting with the model to retrieve or manipulate data, and then determine which view to render to display the results to the user. Essentially, they manage the application's workflow and logic.",
+      "resources": [
+        {
+          "id": "HDt5AAg9H4n8wh3uACudP-res-1",
+          "type": "article",
+          "title": "Action Controller Overview",
+          "url": "https://guides.rubyonrails.org/action_controller_overview.html"
+        },
+        {
+          "id": "HDt5AAg9H4n8wh3uACudP-res-2",
+          "type": "article",
+          "title": "Controllers",
+          "url": "https://www.theodinproject.com/lessons/ruby-on-rails-controllers"
+        },
+        {
+          "id": "HDt5AAg9H4n8wh3uACudP-res-3",
+          "type": "article",
+          "title": "Ruby on Rails Controller Patterns and Anti-patterns",
+          "url": "https://blog.appsignal.com/2021/04/14/ruby-on-rails-controller-patterns-and-anti-patterns.html"
+        },
+        {
+          "id": "HDt5AAg9H4n8wh3uACudP-res-4",
+          "type": "article",
+          "title": "How I keep my Rails controllers organized",
+          "url": "https://www.codewithjason.com/keep-rails-controllers-organized/"
+        },
+        {
+          "id": "HDt5AAg9H4n8wh3uACudP-res-5",
+          "type": "video",
+          "title": "Controllers - Ruby on Rails - The Odin Project",
+          "url": "https://www.youtube.com/watch?v=2isr-7DdoYE"
+        },
+        {
+          "id": "HDt5AAg9H4n8wh3uACudP-res-6",
+          "type": "video",
+          "title": "Fun With The Controller - Ruby On Rails Friend List App #11",
+          "url": "https://www.youtube.com/watch?v=SErZhMh2o30"
+        }
+      ]
+    },
+    "JAfp4HnSEfxZ33qhVrNvk": {
+      "id": "JAfp4HnSEfxZ33qhVrNvk",
+      "slug": "cookies",
+      "title": "Cookies in Rails Controllers",
+      "description": "Cookies are small pieces of data that a server sends to a user's web browser. The browser may store it and send it back with later requests to the same server. Rails controllers provide a convenient way to set, read, and delete cookies, allowing you to maintain state between requests, such as remembering user preferences or tracking session information.",
+      "resources": [
+        {
+          "id": "JAfp4HnSEfxZ33qhVrNvk-res-1",
+          "type": "article",
+          "title": "Cookies",
+          "url": "https://guides.rubyonrails.org/action_controller_overview.html"
+        },
+        {
+          "id": "JAfp4HnSEfxZ33qhVrNvk-res-2",
+          "type": "article",
+          "title": "The Complete Guide to Working With Cookies in Rails",
+          "url": "https://www.writesoftwarewell.com/how-http-cookies-work-rails/"
+        },
+        {
+          "id": "JAfp4HnSEfxZ33qhVrNvk-res-3",
+          "type": "article",
+          "title": "Mastering Sessions and Cookies in Rails: A Comprehensive Guide",
+          "url": "https://medium.com/@carriekarft/mastering-sessions-and-cookies-in-rails-a-comprehensive-guide-0446422d7b22"
+        },
+        {
+          "id": "JAfp4HnSEfxZ33qhVrNvk-res-4",
+          "type": "article",
+          "title": "Cookies & Sessions in Rails",
+          "url": "https://dev.to/matthewkohn/cookies-sessions-in-rails-54b8"
+        },
+        {
+          "id": "JAfp4HnSEfxZ33qhVrNvk-res-5",
+          "type": "video",
+          "title": "Rails 6 for Beginners Part 15: Login with Session Cookies",
+          "url": "https://www.youtube.com/watch?v=IzbQAj_tcfI"
+        },
+        {
+          "id": "JAfp4HnSEfxZ33qhVrNvk-res-6",
+          "type": "video",
+          "title": "Rails Cookies and Session",
+          "url": "https://www.youtube.com/watch?v=iOR-9fMMmLM"
+        }
+      ]
+    },
+    "4SiV-sW-zg_HtL2tPc90-": {
+      "id": "4SiV-sW-zg_HtL2tPc90-",
+      "slug": "create-an-app",
+      "title": "Creating a New Rails Application",
+      "description": "Creating a new Rails application is the initial step in starting any Rails project. It involves using the `rails new` command, which sets up the basic directory structure, configuration files, and dependencies needed for a functional Rails application. This process bootstraps your project with a default set of tools and conventions, allowing you to quickly begin building your web application.",
+      "resources": []
+    },
+    "tSdMmh2SG1Qul5PWCaCKa": {
+      "id": "tSdMmh2SG1Qul5PWCaCKa",
+      "slug": "creating-controllers",
+      "title": "Creating Controllers",
+      "description": "Controllers are the logical center of your application, responsible for receiving specific requests from the user, interacting with the model to retrieve or save data, and then rendering a view to present that data back to the user. Creating a controller involves defining a Ruby class that inherits from `ApplicationController` and defining methods (called actions) within that class to handle specific routes and user interactions. These actions orchestrate the application's response to user input.",
+      "resources": [
+        {
+          "id": "tSdMmh2SG1Qul5PWCaCKa-res-1",
+          "type": "article",
+          "title": "Creating a Controller",
+          "url": "https://guides.rubyonrails.org/action_controller_overview.html#creating-a-controller"
+        },
+        {
+          "id": "tSdMmh2SG1Qul5PWCaCKa-res-2",
+          "type": "article",
+          "title": "Introduction to Controllers in Rails",
+          "url": "https://codesignal.com/learn/courses/ruby-on-rails-basics/lessons/controllers-in-rails"
+        },
+        {
+          "id": "tSdMmh2SG1Qul5PWCaCKa-res-3",
+          "type": "video",
+          "title": "Controllers - Ruby on Rails - The Odin Project",
+          "url": "https://www.youtube.com/watch?v=2isr-7DdoYE"
+        }
+      ]
+    },
+    "oxEooPuoRqxLreJSA4QIh": {
+      "id": "oxEooPuoRqxLreJSA4QIh",
+      "slug": "creating-models",
+      "title": "Creating Models",
+      "description": "Models in Ruby on Rails represent the data and business logic of your application. They are Ruby classes that inherit from `ApplicationRecord` and typically correspond to tables in your database. Creating a model involves defining its attributes (columns in the database table) and any associated validations, callbacks, and relationships with other models. This process allows you to interact with your database in an object-oriented way, making data management more intuitive and efficient.",
+      "resources": [
+        {
+          "id": "oxEooPuoRqxLreJSA4QIh-res-1",
+          "type": "article",
+          "title": "Creating Active Record Models",
+          "url": "https://guides.rubyonrails.org/active_record_basics.html#creating-active-record-models"
+        },
+        {
+          "id": "oxEooPuoRqxLreJSA4QIh-res-2",
+          "type": "article",
+          "title": "Rails Models",
+          "url": "https://www.theodinproject.com/lessons/ruby-on-rails-active-record-basics#rails-models"
+        },
+        {
+          "id": "oxEooPuoRqxLreJSA4QIh-res-3",
+          "type": "article",
+          "title": "Ruby on Rails - Models",
+          "url": "https://www.tutorialspoint.com/ruby-on-rails/rails-models.htm"
+        },
+        {
+          "id": "oxEooPuoRqxLreJSA4QIh-res-4",
+          "type": "video",
+          "title": "Ep 4. Active Record explained | Rails New Tutorial with Typecraft",
+          "url": "https://www.youtube.com/watch?v=n0TPEsKE9v0"
+        }
+      ]
+    },
+    "VlQis-Wkahd1E1aM1ZP2E": {
+      "id": "VlQis-Wkahd1E1aM1ZP2E",
+      "slug": "csrf-protection",
+      "title": "CSRF Protection",
+      "description": "Cross-Site Request Forgery (CSRF) is a web security vulnerability that allows an attacker to trick a user's browser into executing unwanted actions on a trusted site when the user is authenticated. CSRF protection involves adding a unique, unpredictable token to each form submitted by the user. This token is then verified on the server-side to ensure that the request originated from the legitimate application and not a malicious source.",
+      "resources": []
+    },
+    "3NTsftFbqkG5s4xoU_q6E": {
+      "id": "3NTsftFbqkG5s4xoU_q6E",
+      "slug": "customizing-routes",
+      "title": "Customizing Routes",
+      "description": "Customizing routes allows developers to define specific URL patterns and map them to particular controller actions. This provides flexibility in designing user-friendly and SEO-optimized URLs, deviating from the default Rails conventions. By modifying the `routes.rb` file, you can create custom routes that cater to the unique needs of your application, including specifying HTTP methods, defining route parameters, and using regular expressions for pattern matching.",
+      "resources": [
+        {
+          "id": "3NTsftFbqkG5s4xoU_q6E-res-1",
+          "type": "article",
+          "title": "Customizing Resourceful Routes",
+          "url": "https://guides.rubyonrails.org/routing.html#customizing-resourceful-routes"
+        },
+        {
+          "id": "3NTsftFbqkG5s4xoU_q6E-res-2",
+          "type": "article",
+          "title": "How to Write Custom Routes in Rails",
+          "url": "https://levelup.gitconnected.com/how-to-write-custom-routes-in-rails-872df2ca4d39"
+        },
+        {
+          "id": "3NTsftFbqkG5s4xoU_q6E-res-3",
+          "type": "article",
+          "title": "Custom routes in rails",
+          "url": "https://medium.com/@leviyitzchokdeutsch/custom-routes-in-rails-f790e5940e22"
+        }
+      ]
+    },
+    "6aukVg4KBYPW0FVtdAvS5": {
+      "id": "6aukVg4KBYPW0FVtdAvS5",
+      "slug": "data-types",
+      "title": "Data Types in Rails Models",
+      "description": "Data types define the kind of information a database column can store. When creating Rails models, you specify data types for each attribute, which then translates into the corresponding column type in your database table. These types include integers, strings, booleans, dates, and more, ensuring data integrity and efficient storage.",
+      "resources": [
+        {
+          "id": "6aukVg4KBYPW0FVtdAvS5-res-1",
+          "type": "article",
+          "title": "ActiveRecord::Type",
+          "url": "https://api.rubyonrails.org/classes/ActiveRecord/Type.html"
+        },
+        {
+          "id": "6aukVg4KBYPW0FVtdAvS5-res-2",
+          "type": "article",
+          "title": "Rails ActiveRecord Data Types",
+          "url": "https://dev.to/asyraf/rails-activerecord-data-types-32ip"
+        },
+        {
+          "id": "6aukVg4KBYPW0FVtdAvS5-res-3",
+          "type": "article",
+          "title": "List of Rails data types for ActiveRecord migrations",
+          "url": "https://www.jdeen.com/blog/list-of-rails-data-types-for-activerecord-migrations"
+        }
+      ]
+    },
+    "QdWCXUAfVXiP6RQ6VyDkX": {
+      "id": "QdWCXUAfVXiP6RQ6VyDkX",
+      "slug": "databases",
+      "title": "Database",
+      "description": "Databases are structured collections of data, organized for efficient storage, retrieval, and management. Active Record is Rails' ORM (Object-Relational Mapping) layer, providing an interface between your Ruby code and the database. It allows you to interact with database tables as if they were Ruby objects, simplifying database operations like creating, reading, updating, and deleting records.",
+      "resources": [
+        {
+          "id": "QdWCXUAfVXiP6RQ6VyDkX-res-1",
+          "type": "article",
+          "title": "Configuring a Database",
+          "url": "https://guides.rubyonrails.org/configuring.html#configuring-a-database"
+        },
+        {
+          "id": "QdWCXUAfVXiP6RQ6VyDkX-res-2",
+          "type": "article",
+          "title": "Multiple Databases with Active Record",
+          "url": "https://guides.rubyonrails.org/active_record_multiple_databases.html"
+        },
+        {
+          "id": "QdWCXUAfVXiP6RQ6VyDkX-res-3",
+          "type": "article",
+          "title": "Setting Up and Managing Databases in Ruby on Rails",
+          "url": "https://bhartee-tech-ror.medium.com/setting-up-and-managing-databases-in-ruby-on-rails-72885f9f1164"
+        },
+        {
+          "id": "QdWCXUAfVXiP6RQ6VyDkX-res-4",
+          "type": "article",
+          "title": "The Rails database.yml File",
+          "url": "https://dev.to/andreimaxim/the-rails-databaseyml-file-4dm9"
+        },
+        {
+          "id": "QdWCXUAfVXiP6RQ6VyDkX-res-5",
+          "type": "video",
+          "title": "How to Configure Multiple Databases with Rails",
+          "url": "https://www.youtube.com/watch?v=aOsffm22T8I"
+        }
+      ]
+    },
+    "N2pXb4eqXrBdR495zMqGY": {
+      "id": "N2pXb4eqXrBdR495zMqGY",
+      "slug": "db",
+      "title": "db",
+      "description": "The `db` directory in a Rails application houses everything related to your database. It contains files for database schema definition, migrations, and seed data. This directory is essential for managing and evolving your application's data structure over time.",
+      "resources": []
+    },
+    "ELvMdjJZGl_k_0Qsi_vtm": {
+      "id": "ELvMdjJZGl_k_0Qsi_vtm",
+      "slug": "debugging",
+      "title": "Debugging",
+      "description": "Debugging is the process of identifying and removing errors (bugs) from software. It involves systematically finding the source of a problem, understanding why it's happening, and then implementing a solution to fix it. Effective debugging relies on using tools and techniques to inspect code, track down unexpected behavior, and verify that the fix resolves the issue without introducing new problems.",
+      "resources": [
+        {
+          "id": "ELvMdjJZGl_k_0Qsi_vtm-res-1",
+          "type": "article",
+          "title": "Debugging Rails Applications",
+          "url": "https://guides.rubyonrails.org/debugging_rails_applications.html#view-helpers-for-debugging"
+        }
+      ]
+    },
+    "Ia5mN1j_lMCg0vt2z1_jI": {
+      "id": "Ia5mN1j_lMCg0vt2z1_jI",
+      "slug": "deployment",
+      "title": "Deployment",
+      "description": "Deployment is the process of making your Ruby on Rails application accessible to users on a live server. It involves configuring the server environment, transferring your application code, setting up databases, and ensuring the application runs smoothly and reliably in a production setting. This includes handling aspects like web server configuration, application server setup, database connections, and ongoing maintenance.",
+      "resources": [
+        {
+          "id": "Ia5mN1j_lMCg0vt2z1_jI-res-1",
+          "type": "article",
+          "title": "Deploying to Production",
+          "url": "https://guides.rubyonrails.org/getting_started.html"
+        },
+        {
+          "id": "Ia5mN1j_lMCg0vt2z1_jI-res-2",
+          "type": "video",
+          "title": "Deploying with Kamal 2.0 | Rails 8 Unpacked",
+          "url": "https://www.youhttps://www.youtube.com/watch?v=sPUk9-1WVXItube.com/watch?v=sPUk9-1WVXI"
+        }
+      ]
+    },
+    "deKkp0TGU3Dj0zxUn9VI4": {
+      "id": "deKkp0TGU3Dj0zxUn9VI4",
+      "slug": "devise",
+      "title": "Devise",
+      "description": "Devise is a flexible authentication solution for Rails applications. It provides a complete MVC solution based on Warden that handles user registration, login, password recovery, and other common authentication tasks. It uses a modular approach, allowing developers to choose and configure the specific features they need for their application.",
+      "resources": [
+        {
+          "id": "deKkp0TGU3Dj0zxUn9VI4-res-1",
+          "type": "article",
+          "title": "devise",
+          "url": "https://github.com/heartcombo/devise"
+        },
+        {
+          "id": "deKkp0TGU3Dj0zxUn9VI4-res-2",
+          "type": "article",
+          "title": "An Introduction to Devise for Ruby on Rails",
+          "url": "https://blog.appsignal.com/2023/07/12/an-introduction-to-devise-for-ruby-on-rails.html"
+        },
+        {
+          "id": "deKkp0TGU3Dj0zxUn9VI4-res-3",
+          "type": "article",
+          "title": "How To Set Up User Authentication with Devise in a Rails 7 Application",
+          "url": "https://www.digitalocean.com/community/tutorials/how-to-set-up-user-authentication-with-devise-in-a-rails-7-application"
+        },
+        {
+          "id": "deKkp0TGU3Dj0zxUn9VI4-res-4",
+          "type": "video",
+          "title": "Build a Blog with Rails Part 10: Authentication with Devise",
+          "url": "https://www.youtube.com/watch?v=dTpyInyvQ2Y"
+        },
+        {
+          "id": "deKkp0TGU3Dj0zxUn9VI4-res-5",
+          "type": "video",
+          "title": "This New Devise API Gem Makes User Auth So Simple! | Ruby On Rails 7 Tutorial",
+          "url": "https://www.youtube.com/watch?v=sLcLwVCBU0c"
+        }
+      ]
+    },
+    "p8bkCtZkgdkh3G_d7fvmt": {
+      "id": "p8bkCtZkgdkh3G_d7fvmt",
+      "slug": "dynamic-finders",
+      "title": "Dynamic Finders",
+      "description": "Dynamic finders provide a convenient way to query your database based on specific attributes of your model. They allow you to create methods on the fly that search for records based on the values of those attributes, eliminating the need to write custom query methods for simple attribute-based searches. This feature simplifies data retrieval and makes your code more readable.",
+      "resources": []
+    },
+    "D_LyvlDwKSzvnSWCpR00D": {
+      "id": "D_LyvlDwKSzvnSWCpR00D",
+      "slug": "engines",
+      "title": "Engines",
+      "description": "Engines are like mini-applications that can be plugged into a larger Rails application. They provide a way to encapsulate specific functionality, such as a blog, a forum, or an e-commerce platform, into a reusable component. This allows developers to create modular and maintainable applications by isolating concerns and promoting code reuse across different projects.",
+      "resources": []
+    },
+    "CX-9Ii3e9rrokUTF0_hI5": {
+      "id": "CX-9Ii3e9rrokUTF0_hI5",
+      "slug": "erb-templates",
+      "title": "ERB Templates",
+      "description": "ERB (Embedded Ruby) templates are a core component of Rails views, allowing you to embed Ruby code directly within your HTML markup. This enables dynamic content generation, where data from your Rails application can be seamlessly integrated into the presentation layer. ERB templates use special tags to denote Ruby code, which is then executed when the view is rendered, producing the final HTML output sent to the user's browser.",
+      "resources": [
+        {
+          "id": "CX-9Ii3e9rrokUTF0_hI5-res-1",
+          "type": "article",
+          "title": "ERB",
+          "url": "https://guides.rubyonrails.org/action_view_overview.html#erb"
+        },
+        {
+          "id": "CX-9Ii3e9rrokUTF0_hI5-res-2",
+          "type": "article",
+          "title": "Layouts and Rendering in Rails",
+          "url": "https://guides.rubyonrails.org/layouts_and_rendering.html"
+        },
+        {
+          "id": "CX-9Ii3e9rrokUTF0_hI5-res-3",
+          "type": "article",
+          "title": "Clean Code in ERB Templates: Ruby on Rails Basics",
+          "url": "https://medium.com/nyc-ruby-on-rails/clean-code-in-erb-templates-ruby-on-rails-basics-374ad48dd95e"
+        },
+        {
+          "id": "CX-9Ii3e9rrokUTF0_hI5-res-4",
+          "type": "video",
+          "title": "Rails Application Templates",
+          "url": "https://www.youtube.com/watch?v=ucskVEiN8J8"
+        }
+      ]
+    },
+    "OLdWSGSwYnggN14BdH9nN": {
+      "id": "OLdWSGSwYnggN14BdH9nN",
+      "slug": "factory-bot",
+      "title": "Factory Bot",
+      "description": "Factory Bot is a library for creating Ruby objects for testing purposes. It provides a simple and clean syntax for defining factories, which are blueprints for creating instances of your models with pre-defined attributes. This helps to avoid repetitive setup code in your tests and ensures consistent test data.",
+      "resources": [
+        {
+          "id": "OLdWSGSwYnggN14BdH9nN-res-1",
+          "type": "article",
+          "title": "factory_bot_rails",
+          "url": "https://github.com/thoughtbot/factory_bot_rails"
+        },
+        {
+          "id": "OLdWSGSwYnggN14BdH9nN-res-2",
+          "type": "article",
+          "title": "FactoryBot for Rails testing",
+          "url": "https://www.honeybadger.io/blog/factorybot-for-rails-testing-md/"
+        },
+        {
+          "id": "OLdWSGSwYnggN14BdH9nN-res-3",
+          "type": "article",
+          "title": "How I set up Factory Bot on a fresh Rails project",
+          "url": "http://codewithjason.com/set-factory-bot-fresh-rails-project/"
+        },
+        {
+          "id": "OLdWSGSwYnggN14BdH9nN-res-4",
+          "type": "article",
+          "title": "My Introduction To Factory Bot",
+          "url": "https://medium.com/@mariacristina.simoes/my-introduction-to-factory-bot-88949467a7e9"
+        },
+        {
+          "id": "OLdWSGSwYnggN14BdH9nN-res-5",
+          "type": "video",
+          "title": "Install Factory Bot with Ruby on Rails",
+          "url": "https://www.youtube.com/watch?v=vQQKIyAHPI4"
+        },
+        {
+          "id": "OLdWSGSwYnggN14BdH9nN-res-6",
+          "type": "video",
+          "title": "Factory Bot Testing with Active Storage and Devise | Ruby on Rails 7 Tutorial",
+          "url": "https://www.youtube.com/watch?v=7JdyQEcZ7F8"
+        },
+        {
+          "id": "OLdWSGSwYnggN14BdH9nN-res-7",
+          "type": "video",
+          "title": "Factory Bot Tutorial for Beginners",
+          "url": "https://www.youtube.com/watch?v=ef82mR9Mm8Q"
+        }
+      ]
+    },
+    "GGR8jAQNggJc92FcvtL4O": {
+      "id": "GGR8jAQNggJc92FcvtL4O",
+      "slug": "form-elements",
+      "title": "Form Elements",
+      "description": "Form elements are the individual components within an HTML form that allow users to input data. These elements include text fields, text areas, checkboxes, radio buttons, select boxes, and buttons, each serving a specific purpose in collecting different types of user information. They are essential for creating interactive web applications where users can submit data to the server.",
+      "resources": [
+        {
+          "id": "GGR8jAQNggJc92FcvtL4O-res-1",
+          "type": "article",
+          "title": "Helpers for Generating Form Elements",
+          "url": "https://guides.rubyonrails.org/form_helpers.html#helpers-for-generating-form-elements"
+        }
+      ]
+    },
+    "rg-48lLxIaKdjIb9icB72": {
+      "id": "rg-48lLxIaKdjIb9icB72",
+      "slug": "form-validation",
+      "title": "Form Validation",
+      "description": "Form validation is the process of ensuring that the data submitted through a form meets specific requirements before it's saved to the database. This helps prevent errors, maintain data integrity, and provide a better user experience. Rails provides built-in methods and helpers to easily define and enforce these validation rules directly within your models, such as checking for presence, format, uniqueness, or custom criteria.",
+      "resources": [
+        {
+          "id": "rg-48lLxIaKdjIb9icB72-res-1",
+          "type": "article",
+          "title": "Active Record Validations",
+          "url": "https://guides.rubyonrails.org/active_record_validations.html#performing-custom-validations"
+        },
+        {
+          "id": "rg-48lLxIaKdjIb9icB72-res-2",
+          "type": "article",
+          "title": "Keeping it Clean — Data Validation with Ruby on Rails",
+          "url": "https://medium.com/@jennyjean8675309/keeping-it-clean-data-validation-with-ruby-on-rails-a0c6190f1b8e"
+        },
+        {
+          "id": "rg-48lLxIaKdjIb9icB72-res-3",
+          "type": "video",
+          "title": "Rails Custom Validations",
+          "url": "https://www.youtube.com/watch?v=nPS-dalL_hQ"
+        },
+        {
+          "id": "rg-48lLxIaKdjIb9icB72-res-4",
+          "type": "video",
+          "title": "Nested Attributes & Validation In Ruby On Rails 7",
+          "url": "https://www.youtube.com/watch?v=Fpu0rc3stq4"
+        },
+        {
+          "id": "rg-48lLxIaKdjIb9icB72-res-5",
+          "type": "video",
+          "title": "Rails 6 for Beginners Part 12: Validations",
+          "url": "https://www.youtube.com/watch?v=l-Jv5vMjB70&t=209s"
+        }
+      ]
+    },
+    "EctqfKE5AAqByipGIv0Wa": {
+      "id": "EctqfKE5AAqByipGIv0Wa",
+      "slug": "form_for",
+      "title": "form_for",
+      "description": "`form_for` is a helper method in Ruby on Rails that simplifies the creation of HTML forms. It automatically generates the necessary HTML tags and attributes for creating forms that are bound to a specific model object. This helper streamlines the process of building forms for creating, updating, and managing data within your Rails application.",
+      "resources": [
+        {
+          "id": "EctqfKE5AAqByipGIv0Wa-res-1",
+          "type": "article",
+          "title": "Action View Form Helpers",
+          "url": "https://guides.rubyonrails.org/form_helpers.html"
+        },
+        {
+          "id": "EctqfKE5AAqByipGIv0Wa-res-2",
+          "type": "article",
+          "title": "form_for",
+          "url": "https://api.rubyonrails.org/v8.1.2/classes/ActionView/Helpers/FormHelper.html#method-i-form_for"
+        },
+        {
+          "id": "EctqfKE5AAqByipGIv0Wa-res-3",
+          "type": "article",
+          "title": "I Have a Form_For That! (Rails Forms)",
+          "url": "https://medium.com/@thorntonbrenden/i-have-a-form-for-that-rails-forms-42345b69c31"
+        },
+        {
+          "id": "EctqfKE5AAqByipGIv0Wa-res-4",
+          "type": "article",
+          "title": "Rails form_for Helpers Under the Hood",
+          "url": "https://smitham50.medium.com/rails-form-for-helpers-under-the-hood-fdf98c7bd3d1"
+        },
+        {
+          "id": "EctqfKE5AAqByipGIv0Wa-res-5",
+          "type": "video",
+          "title": "Rails 5.2 - Blog with Comments and Users Nested Resources, form_for and much more",
+          "url": "https://www.youtube.com/watch?v=CBn_zu-2mtk"
+        },
+        {
+          "id": "EctqfKE5AAqByipGIv0Wa-res-6",
+          "type": "video",
+          "title": "Understanding Rails Forms",
+          "url": "https://www.youtube.com/watch?v=28wOvW5x7HY"
+        }
+      ]
+    },
+    "EWMC98NdSnblHBD0U3Ty2": {
+      "id": "EWMC98NdSnblHBD0U3Ty2",
+      "slug": "form_with",
+      "title": "form_with",
+      "description": "`form_with` is a helper method used to create HTML forms. It simplifies the process of generating the necessary HTML tags for form elements, handling attributes like the form's action URL, HTTP method (GET, POST, PUT, PATCH, DELETE), and CSRF protection. It's the recommended way to build forms in Rails 5.1 and later, offering a more streamlined and flexible approach compared to older form helpers.",
+      "resources": [
+        {
+          "id": "EWMC98NdSnblHBD0U3Ty2-res-1",
+          "type": "article",
+          "title": "Action View Form Helpers",
+          "url": "https://guides.rubyonrails.org/form_helpers.html"
+        },
+        {
+          "id": "EWMC98NdSnblHBD0U3Ty2-res-2",
+          "type": "article",
+          "title": "form_with",
+          "url": "https://api.rubyonrails.org/v8.1.2/classes/ActionView/Helpers/FormHelper.html#method-i-form_with"
+        },
+        {
+          "id": "EWMC98NdSnblHBD0U3Ty2-res-3",
+          "type": "article",
+          "title": "Form helpers: form_with",
+          "url": "https://www.theodinproject.com/lessons/ruby-on-rails-form-basics#form-helpers-formwith"
+        },
+        {
+          "id": "EWMC98NdSnblHBD0U3Ty2-res-4",
+          "type": "video",
+          "title": "Improving form_with Errors in Rails | Preview",
+          "url": "https://www.youtube.com/watch?v=mSSO_lT9MeA"
+        },
+        {
+          "id": "EWMC98NdSnblHBD0U3Ty2-res-5",
+          "type": "video",
+          "title": "Ruby on Rails Forms With Hotwire",
+          "url": "https://www.youtube.com/watch?v=-n7IbUFKjoM"
+        },
+        {
+          "id": "EWMC98NdSnblHBD0U3Ty2-res-6",
+          "type": "video",
+          "title": "Understanding Rails Forms",
+          "url": "https://www.youtube.com/watch?v=28wOvW5x7HY"
+        }
+      ]
+    },
+    "t8yTDpN4kNuW6ZhHnum2X": {
+      "id": "t8yTDpN4kNuW6ZhHnum2X",
+      "slug": "gemfile",
+      "title": "Gemfile",
+      "description": "The Gemfile is a file in the root directory of a Ruby on Rails application that specifies the gem dependencies required for the project. It uses Ruby's syntax to list the gems and their versions, allowing Bundler to manage and install the correct versions of each gem. This ensures that the application has all the necessary libraries to run properly and consistently across different environments.",
+      "resources": []
+    },
+    "lnr8HfS8mIcE4Ef-bXQbO": {
+      "id": "lnr8HfS8mIcE4Ef-bXQbO",
+      "slug": "helpers",
+      "title": "Helpers",
+      "description": "Helpers in Rails are methods that you can use in your views to encapsulate complex logic, format data, or generate HTML. They promote code reusability and keep your views clean and readable by moving presentation-related code out of the templates. Helpers can be defined in application-wide helpers or controller-specific helpers.",
+      "resources": [
+        {
+          "id": "lnr8HfS8mIcE4Ef-bXQbO-res-1",
+          "type": "article",
+          "title": "Action View Helpers",
+          "url": "https://guides.rubyonrails.org/action_view_helpers.html"
+        },
+        {
+          "id": "lnr8HfS8mIcE4Ef-bXQbO-res-2",
+          "type": "article",
+          "title": "A Guide to Rails View Helpers",
+          "url": "https://blog.appsignal.com/2023/02/01/a-guide-to-rails-view-helpers.html"
+        },
+        {
+          "id": "lnr8HfS8mIcE4Ef-bXQbO-res-3",
+          "type": "article",
+          "title": "How to Use Rails Helpers (Complete Guide)",
+          "url": "https://www.rubyguides.com/2020/01/rails-helpers/"
+        },
+        {
+          "id": "lnr8HfS8mIcE4Ef-bXQbO-res-4",
+          "type": "video",
+          "title": "Rails helpers: How to use them right",
+          "url": "https://www.youtube.com/watch?v=n0UhaSI54As"
+        },
+        {
+          "id": "lnr8HfS8mIcE4Ef-bXQbO-res-5",
+          "type": "video",
+          "title": "How to Use Rails Helper Methods",
+          "url": "https://www.youtube.com/watch?v=jASswaHkCbk"
+        }
+      ]
+    },
+    "2IEdP3YjzCf150UpGao42": {
+      "id": "2IEdP3YjzCf150UpGao42",
+      "slug": "hotwire",
+      "title": "Hotwire",
+      "description": "Hotwire is an alternative approach to building modern web applications by sending HTML over the wire, instead of complex JSON APIs. It allows you to build rich, dynamic user interfaces without writing large amounts of JavaScript. By leveraging server-rendered HTML and a lightweight JavaScript framework, Hotwire simplifies the development process and improves performance.",
+      "resources": [
+        {
+          "id": "2IEdP3YjzCf150UpGao42-res-1",
+          "type": "article",
+          "title": "Hotwire",
+          "url": "https://hotwired.dev/"
+        },
+        {
+          "id": "2IEdP3YjzCf150UpGao42-res-2",
+          "type": "article",
+          "title": "Turbo Rails Tutorial",
+          "url": "https://www.hotrails.dev/turbo-rails"
+        },
+        {
+          "id": "2IEdP3YjzCf150UpGao42-res-3",
+          "type": "article",
+          "title": "From Zero to Hotwire — Rails 8",
+          "url": "https://medium.com/jungletronics/from-zero-to-hotwire-rails-8-e6cd16216165"
+        },
+        {
+          "id": "2IEdP3YjzCf150UpGao42-res-4",
+          "type": "video",
+          "title": "Hotwire for Rails",
+          "url": "https://www.youtube.com/playlist?list=PLm8ctt9NhMNWy8fC-7g9OC1IJPkYQ_pI7"
+        },
+        {
+          "id": "2IEdP3YjzCf150UpGao42-res-5",
+          "type": "video",
+          "title": "Introduction to Hotwire in Ruby on Rails",
+          "url": "https://www.youtube.com/watch?v=m_4myBwU2cU"
+        },
+        {
+          "id": "2IEdP3YjzCf150UpGao42-res-6",
+          "type": "video",
+          "title": "How to use Hotwire in Rails",
+          "url": "https://www.youtube.com/watch?v=Qp6sxgjA-xY"
+        }
+      ]
+    },
+    "3YcOhdk9w24f5x0WattyB": {
+      "id": "3YcOhdk9w24f5x0WattyB",
+      "slug": "how-the-web-works",
+      "title": "How the Web Works",
+      "description": "The web operates through a client-server model where a client (like a web browser) sends a request to a server, and the server processes that request and sends back a response. This interaction typically involves HTTP (Hypertext Transfer Protocol) for communication, URLs (Uniform Resource Locators) to identify resources, and HTML (Hypertext Markup Language) to structure the content displayed in the browser. The server hosts the website's files and logic, while the client interprets and renders the received information for the user.",
+      "resources": []
+    },
+    "lLYISr_j0NsE7wkBVvnbM": {
+      "id": "lLYISr_j0NsE7wkBVvnbM",
+      "slug": "inspecting-routes",
+      "title": "Inspecting Routes",
+      "description": "Rails comes with functionalities that allow developers to view all defined routes, their corresponding HTTP methods (GET, POST, PUT, DELETE, etc.), the controller and action they map to, and any route parameters. This is crucial for understanding how URLs are handled within the application and for debugging routing issues. Rails provides tools to easily list and analyze these routes, offering insights into the application's URL structure.",
+      "resources": [
+        {
+          "id": "lLYISr_j0NsE7wkBVvnbM-res-1",
+          "type": "article",
+          "title": "Inspecting Routes",
+          "url": "https://guides.rubyonrails.org/routing.html#inspecting-routes"
+        },
+        {
+          "id": "lLYISr_j0NsE7wkBVvnbM-res-2",
+          "type": "article",
+          "title": "How to Inspect Rails Routes from the Terminal",
+          "url": "https://dpericich.medium.com/how-to-inspect-rails-routes-from-the-terminal-860b1aab1df4"
+        }
+      ]
+    },
+    "0MKuq69yhj8q6suTQ7fY7": {
+      "id": "0MKuq69yhj8q6suTQ7fY7",
+      "slug": "introduction",
+      "title": "Introduction to Ruby on Rails",
+      "description": "Ruby on Rails, often shortened to Rails, is a server-side web application framework written in the Ruby programming language. It provides a structure for databases, web services, and web pages, emphasizing the use of convention over configuration (CoC) and the don't repeat yourself (DRY) principles. Rails aims to make web application development easier by providing tools and structures that developers can use to quickly build robust and maintainable web applications.",
+      "resources": []
+    },
+    "Uz5WseVkPoDJfnKw1FH9a": {
+      "id": "Uz5WseVkPoDJfnKw1FH9a",
+      "slug": "joins",
+      "title": "Joins in Active Record",
+      "description": "Joins in Active Record allow you to combine data from multiple database tables based on related columns. This is essential for retrieving information that spans across different tables, such as fetching a user's posts or a product's categories. By specifying the relationships between your models, Active Record simplifies the process of writing complex SQL queries, enabling you to efficiently retrieve and manipulate related data.",
+      "resources": [
+        {
+          "id": "Uz5WseVkPoDJfnKw1FH9a-res-1",
+          "type": "article",
+          "title": "Joining Tables",
+          "url": "https://guides.rubyonrails.org/active_record_querying.html#joining-tables"
+        },
+        {
+          "id": "Uz5WseVkPoDJfnKw1FH9a-res-2",
+          "type": "article",
+          "title": "Getting Really Good at Rails :joins",
+          "url": "https://medium.com/swlh/getting-really-good-at-rails-joins-93fd5b33fa8e"
+        },
+        {
+          "id": "Uz5WseVkPoDJfnKw1FH9a-res-3",
+          "type": "article",
+          "title": "Joins",
+          "url": "https://medium.com/swlh/getting-really-good-at-rails-joins-93fd5b33fa8e"
+        },
+        {
+          "id": "Uz5WseVkPoDJfnKw1FH9a-res-4",
+          "type": "article",
+          "title": "Understanding multiple joins in ActiveRecord",
+          "url": "https://dev.to/anakbns/multiple-joins-with-activerecord-33j5"
+        }
+      ]
+    },
+    "ih8oOhO49tg1wUUiusIA-": {
+      "id": "ih8oOhO49tg1wUUiusIA-",
+      "slug": "kamal",
+      "title": "Kamal",
+      "description": "Kamal is a deployment tool created by 37signals (the creators of Ruby on Rails) designed to simplify the process of deploying web applications to one or more servers. It focuses on using Docker containers and modern deployment strategies like zero-downtime deployments, making it easier to manage and scale your Rails applications in production environments. It aims to provide a streamlined alternative to more complex deployment solutions.",
+      "resources": [
+        {
+          "id": "ih8oOhO49tg1wUUiusIA--res-1",
+          "type": "article",
+          "title": "Kamal",
+          "url": "https://kamal-deploy.org/"
+        },
+        {
+          "id": "ih8oOhO49tg1wUUiusIA--res-2",
+          "type": "article",
+          "title": "kamal",
+          "url": "https://github.com/basecamp/kamal"
+        },
+        {
+          "id": "ih8oOhO49tg1wUUiusIA--res-3",
+          "type": "article",
+          "title": "Deploying a Rails 8 app with Kamal",
+          "url": "https://community.hetzner.com/tutorials/deploy-rails-8-app-on-hetzner-with-kamal"
+        },
+        {
+          "id": "ih8oOhO49tg1wUUiusIA--res-4",
+          "type": "video",
+          "title": "https://www.youtube.com/watch?v=sPUk9-1WVXI",
+          "url": "https://www.youhttps//www.youtube.com/watch?v=sPUk9-1WVXItube.com/watch?v=sPUk9-1WVXI"
+        },
+        {
+          "id": "ih8oOhO49tg1wUUiusIA--res-5",
+          "type": "video",
+          "title": "How to Deploy a Rails App With Kamal",
+          "url": "https://www.youtube.com/watch?v=9nRY0p2br28"
+        },
+        {
+          "id": "ih8oOhO49tg1wUUiusIA--res-6",
+          "type": "video",
+          "title": "Absolute Beginners Guide to Deploying Rails 8 to Production (Kamal Tutorial)",
+          "url": "https://www.youtube.com/watch?v=tGi3YGGhIGg"
+        }
+      ]
+    },
+    "6P7GM12isuv5A_SA3tqNA": {
+      "id": "6P7GM12isuv5A_SA3tqNA",
+      "slug": "kaminari",
+      "title": "Kaminari",
+      "description": "Kaminari is a Ruby on Rails gem that simplifies the process of adding pagination to your application. It provides an easy-to-use interface for displaying large datasets in manageable chunks, improving performance and user experience by loading only the necessary data for each page. Kaminari integrates seamlessly with ActiveRecord and other ORMs, making it a straightforward solution for paginating data in your Rails applications.",
+      "resources": [
+        {
+          "id": "6P7GM12isuv5A_SA3tqNA-res-1",
+          "type": "article",
+          "title": "kaminari",
+          "url": "https://github.com/kaminari/kaminari"
+        },
+        {
+          "id": "6P7GM12isuv5A_SA3tqNA-res-2",
+          "type": "article",
+          "title": "Ruby On Rails Pagination With Kaminari",
+          "url": "https://www.dennisokeeffe.com/blog/2022-03-02-ruby-on-rails-pagination-with-kaminari"
+        },
+        {
+          "id": "6P7GM12isuv5A_SA3tqNA-res-3",
+          "type": "article",
+          "title": "Implementing Pagination in Rails with Kaminari",
+          "url": "https://devcamp.com/trails/2/campsites/37/guides/implementing-pagination-rails-kaminari"
+        },
+        {
+          "id": "6P7GM12isuv5A_SA3tqNA-res-4",
+          "type": "video",
+          "title": "The Kaminari Gem in Ruby on Rails 7",
+          "url": "https://www.youtube.com/watch?v=sHbI0jY8RUs"
+        }
+      ]
+    },
+    "-bX4iPTO1dt3wLAcFI7nL": {
+      "id": "-bX4iPTO1dt3wLAcFI7nL",
+      "slug": "layouts--yield",
+      "title": "Layouts and Yield in Rails Views",
+      "description": "Layouts provide a consistent structure for your application's views. They are templates that define the overall look and feel of a page, including elements like headers, footers, and navigation. The `yield` keyword acts as a placeholder within the layout, indicating where the content from individual views should be inserted. This allows you to reuse common elements across multiple pages while still displaying unique content for each.",
+      "resources": [
+        {
+          "id": "-bX4iPTO1dt3wLAcFI7nL-res-1",
+          "type": "article",
+          "title": "Structuring Layouts",
+          "url": "https://guides.rubyonrails.org/layouts_and_rendering.html#structuring-layouts"
+        },
+        {
+          "id": "-bX4iPTO1dt3wLAcFI7nL-res-2",
+          "type": "article",
+          "title": "Ruby on Rails - Layouts",
+          "url": "https://www.tutorialspoint.com/ruby-on-rails/rails-layouts.htm"
+        },
+        {
+          "id": "-bX4iPTO1dt3wLAcFI7nL-res-3",
+          "type": "article",
+          "title": "How Layouts Work in Rails",
+          "url": "https://railsdesigner.com/rails-layouts/"
+        },
+        {
+          "id": "-bX4iPTO1dt3wLAcFI7nL-res-4",
+          "type": "video",
+          "title": "How to Use Rails Layouts & Display The Current Action Name",
+          "url": "https://www.youtube.com/watch?v=KKg63bQocmw"
+        }
+      ]
+    },
+    "1KGuLLxZ-2ghim7ge2ACN": {
+      "id": "1KGuLLxZ-2ghim7ge2ACN",
+      "slug": "log-levels",
+      "title": "Log Levels",
+      "description": "Log levels in Rails are categories that indicate the severity of a log message. They help you filter and prioritize information when debugging or monitoring your application. Common log levels, in increasing order of severity, are: `debug`, `info`, `warn`, `error`, and `fatal`. Each level allows you to control the amount of detail recorded, from verbose debugging information to critical errors that require immediate attention.",
+      "resources": []
+    },
+    "Un4rFrxtto4WLG9YNaAMK": {
+      "id": "Un4rFrxtto4WLG9YNaAMK",
+      "slug": "logging",
+      "title": "Logging",
+      "description": "Logging involves recording events that occur within an application, such as user actions, errors, and system information. This recorded data is typically stored in log files, providing a valuable resource for monitoring application behavior, diagnosing issues, and understanding performance. Rails provides a built-in logging framework that simplifies the process of generating and managing these logs.",
+      "resources": [
+        {
+          "id": "Un4rFrxtto4WLG9YNaAMK-res-1",
+          "type": "article",
+          "title": "How to Start Logging With Ruby on Rails",
+          "url": "https://betterstack.com/community/guides/logging/how-to-start-logging-with-ruby-on-rails/"
+        },
+        {
+          "id": "Un4rFrxtto4WLG9YNaAMK-res-2",
+          "type": "article",
+          "title": "Making the Most of Your Logs in Rails",
+          "url": "https://blog.appsignal.com/2023/03/01/making-the-most-of-your-logs-in-rails.html"
+        },
+        {
+          "id": "Un4rFrxtto4WLG9YNaAMK-res-3",
+          "type": "article",
+          "title": "The Rails Logging Setup That Saved Me From Debugging Hell",
+          "url": "https://bhavyansh001.medium.com/the-rails-logging-setup-that-saved-me-from-debugging-hell-97904592eceb"
+        },
+        {
+          "id": "Un4rFrxtto4WLG9YNaAMK-res-4",
+          "type": "video",
+          "title": "Debugging And Logging | Intro To Ruby On Rails 7 Part 24",
+          "url": "https://www.youtube.com/watch?v=9rDK2rbm6DI"
+        },
+        {
+          "id": "Un4rFrxtto4WLG9YNaAMK-res-5",
+          "type": "video",
+          "title": "Logging Mastery: From Rails Default to Kibana 📈",
+          "url": "https://www.youtube.com/watch?v=CoHMwJsLiLU"
+        }
+      ]
+    },
+    "rhs6_Zg9PuY2Oost0vc_o": {
+      "id": "rhs6_Zg9PuY2Oost0vc_o",
+      "slug": "mailbox--mailer",
+      "title": "Mailbox and Mailer",
+      "description": "The Rails Mailbox and Mailer provide a structured way to handle incoming and outgoing emails. Mailers are used to compose and send emails from your application, defining email content, recipients, and headers. Mailboxes, introduced more recently, route incoming emails to specific controllers or models within your application, allowing you to process and respond to emails programmatically.",
+      "resources": [
+        {
+          "id": "rhs6_Zg9PuY2Oost0vc_o-res-1",
+          "type": "article",
+          "title": "Action Mailbox Basics",
+          "url": "https://guides.rubyonrails.org/action_mailbox_basics.html"
+        },
+        {
+          "id": "rhs6_Zg9PuY2Oost0vc_o-res-2",
+          "type": "article",
+          "title": "Action Mailer Basics",
+          "url": "https://guides.rubyonrails.org/action_mailer_basics.html"
+        },
+        {
+          "id": "rhs6_Zg9PuY2Oost0vc_o-res-3",
+          "type": "article",
+          "title": "In Depth Look At Action Mailbox",
+          "url": "https://www.codynorman.com/ruby/action_mailbox/"
+        },
+        {
+          "id": "rhs6_Zg9PuY2Oost0vc_o-res-4",
+          "type": "article",
+          "title": "Rails Mailer Tutorial",
+          "url": "https://medium.com/@ericschwartz7/rails-mailer-tutorial-82700f6737d9"
+        },
+        {
+          "id": "rhs6_Zg9PuY2Oost0vc_o-res-5",
+          "type": "article",
+          "title": "Writing better Action Mailers: Revisiting a core Rails concept",
+          "url": "https://boringrails.com/articles/writing-better-action-mailers/"
+        },
+        {
+          "id": "rhs6_Zg9PuY2Oost0vc_o-res-6",
+          "type": "video",
+          "title": "Receive and process inbound email with Ruby on Rails",
+          "url": "https://www.youtube.com/watch?v=jOfAV2QWNOw&t=87s"
+        },
+        {
+          "id": "rhs6_Zg9PuY2Oost0vc_o-res-7",
+          "type": "video",
+          "title": "Action Mailer for Beginners | Ruby on Rails 7",
+          "url": "https://www.youtube.com/watch?v=-8Rs1DcMZ9I"
+        },
+        {
+          "id": "rhs6_Zg9PuY2Oost0vc_o-res-8",
+          "type": "video",
+          "title": "Realtime Rails with Hotwire & ActionMailbox | Part 1",
+          "url": "https://www.youtube.com/watch?v=WSuFaY7-q3g&t=66s"
+        }
+      ]
+    },
+    "Jf7W0Sw5azZZ6VGb9oaYq": {
+      "id": "Jf7W0Sw5azZZ6VGb9oaYq",
+      "slug": "mariadb",
+      "title": "MariaDB Support in Rails",
+      "description": "MariaDB is an open-source relational database management system (RDBMS) that is a popular fork of MySQL. Rails applications can connect to and interact with MariaDB databases using the `mysql2` adapter. This allows developers to leverage MariaDB's features, such as enhanced performance and storage engines, within their Rails applications for data persistence and management.",
+      "resources": [
+        {
+          "id": "Jf7W0Sw5azZZ6VGb9oaYq-res-1",
+          "type": "article",
+          "title": "Configuring a MySQL or MariaDB Database",
+          "url": "https://guides.rubyonrails.org/configuring.html#configuring-a-mysql-or-mariadb-database"
+        },
+        {
+          "id": "Jf7W0Sw5azZZ6VGb9oaYq-res-2",
+          "type": "article",
+          "title": "Connector/Ruby Guide",
+          "url": "https://mariadb.com/docs/connectors/connectors-quickstart-guides/connector-ruby-guide"
+        },
+        {
+          "id": "Jf7W0Sw5azZZ6VGb9oaYq-res-3",
+          "type": "article",
+          "title": "Howto Set Up MariaDB For Rails Development",
+          "url": "https://myrtana.sk/articles/howto-set-up-mariadb-for-rails-development"
+        }
+      ]
+    },
+    "gJYuVgBvJeXL72NsRubLm": {
+      "id": "gJYuVgBvJeXL72NsRubLm",
+      "slug": "migrations",
+      "title": "Migrations",
+      "description": "Migrations are a way to evolve your database schema over time in a consistent and manageable way. They are Ruby files that define changes to your database structure, such as creating tables, adding columns, or modifying indexes. These files allow you to track and apply changes to your database schema, making it easy to collaborate with other developers and deploy your application to different environments.",
+      "resources": [
+        {
+          "id": "gJYuVgBvJeXL72NsRubLm-res-1",
+          "type": "article",
+          "title": "Active Record Migrations",
+          "url": "https://guides.rubyonrails.org/active_record_migrations.html"
+        },
+        {
+          "id": "gJYuVgBvJeXL72NsRubLm-res-2",
+          "type": "article",
+          "title": "Migrations",
+          "url": "https://www.theodinproject.com/lessons/ruby-on-rails-migrations"
+        },
+        {
+          "id": "gJYuVgBvJeXL72NsRubLm-res-3",
+          "type": "article",
+          "title": "How to create Active Record migrations in Ruby on Rails",
+          "url": "https://learnetto.com/tutorials/how-to-create-active-record-migrations-in-ruby-on-rails"
+        },
+        {
+          "id": "gJYuVgBvJeXL72NsRubLm-res-4",
+          "type": "article",
+          "title": "A quick guide on database migrations in Ruby on Rails",
+          "url": "https://dev.to/dumebii/quick-guide-to-migrations-in-ruby-on-rails-for-beginners-4gmb"
+        },
+        {
+          "id": "gJYuVgBvJeXL72NsRubLm-res-5",
+          "type": "video",
+          "title": "How to Use Migrations in Rails (Step-by-Step)",
+          "url": "https://www.youtube.com/watch?v=1DaO6F8-Qdc"
+        }
+      ]
+    },
+    "9evL0EqA6aBGczrfsRkV7": {
+      "id": "9evL0EqA6aBGczrfsRkV7",
+      "slug": "minitest",
+      "title": "Minitest",
+      "description": "Minitest is a complete testing suite for Ruby, providing support for test-driven development (TDD), behavior-driven development (BDD), mocking, and benchmarking. It's a lightweight and fast testing framework that comes bundled with Ruby, making it readily available for use in Rails applications. Minitest allows developers to write various types of tests, including unit tests, integration tests, and system tests, to ensure the quality and reliability of their code.",
+      "resources": [
+        {
+          "id": "9evL0EqA6aBGczrfsRkV7-res-1",
+          "type": "article",
+          "title": "minirtest",
+          "url": "https://github.com/minitest/minitest"
+        },
+        {
+          "id": "9evL0EqA6aBGczrfsRkV7-res-2",
+          "type": "article",
+          "title": "Getting Started With Testing In Rails (Using Minitest and RSpec)",
+          "url": "https://medium.com/@ethanryan/getting-started-with-testing-in-rails-using-minitest-and-rspec-113fe1f866a"
+        },
+        {
+          "id": "9evL0EqA6aBGczrfsRkV7-res-3",
+          "type": "article",
+          "title": "Minitest vs. RSpec in Rails",
+          "url": "https://www.honeybadger.io/blog/minitest-rspec-rails/"
+        },
+        {
+          "id": "9evL0EqA6aBGczrfsRkV7-res-4",
+          "type": "article",
+          "title": "Getting Started With System Tests in Rails With Minitest",
+          "url": "https://blog.appsignal.com/2020/02/12/getting-started-with-system-tests-in-ruby-with-minitest.html"
+        },
+        {
+          "id": "9evL0EqA6aBGczrfsRkV7-res-5",
+          "type": "article",
+          "title": "Testing Rails with MiniTest",
+          "url": "https://medium.com/@mario_chavez/testing-rails-with-minitest-7b4f99d4fcb8"
+        }
+      ]
+    },
+    "ca3Ik5pl-XmecZ3Ztx0YV": {
+      "id": "ca3Ik5pl-XmecZ3Ztx0YV",
+      "slug": "model-methods",
+      "title": "Model Methods",
+      "description": "Model methods in Ruby on Rails are custom functions defined within a model class that encapsulate specific business logic related to that model. These methods allow you to perform operations on model instances or the model class itself, such as data validation, calculations, or interactions with other models, promoting code reusability and maintainability within your Rails application.",
+      "resources": [
+        {
+          "id": "ca3Ik5pl-XmecZ3Ztx0YV-res-1",
+          "type": "article",
+          "title": "CRUD: Reading and Writing Data",
+          "url": "https://guides.rubyonrails.org/active_record_basics.html#validations"
+        },
+        {
+          "id": "ca3Ik5pl-XmecZ3Ztx0YV-res-2",
+          "type": "article",
+          "title": "💎 Ruby on Rails Cheat Sheet",
+          "url": "https://pagertree.com/blog/ruby-on-rails-cheat-sheet#migration-data-types"
+        }
+      ]
+    },
+    "lWsJL135U-N5xIBnXqTYx": {
+      "id": "lWsJL135U-N5xIBnXqTYx",
+      "slug": "model-relationships",
+      "title": "Model Relationships",
+      "description": "Model relationships in Rails define how different models in your application are connected to each other. These relationships allow you to easily access related data and maintain data integrity. Common types of relationships include one-to-one, one-to-many, and many-to-many, each representing a different way that data entities can be associated.",
+      "resources": [
+        {
+          "id": "lWsJL135U-N5xIBnXqTYx-res-1",
+          "type": "article",
+          "title": "Active Record Associations",
+          "url": "https://guides.rubyonrails.org/association_basics.html"
+        },
+        {
+          "id": "lWsJL135U-N5xIBnXqTYx-res-2",
+          "type": "article",
+          "title": "Active Record Associations",
+          "url": "https://www.theodinproject.com/lessons/ruby-on-rails-active-record-associations"
+        },
+        {
+          "id": "lWsJL135U-N5xIBnXqTYx-res-3",
+          "type": "article",
+          "title": "Active Record Associations For Dummies",
+          "url": "https://jontzavala.medium.com/active-record-associations-for-dummies-82af58050da4"
+        },
+        {
+          "id": "lWsJL135U-N5xIBnXqTYx-res-4",
+          "type": "article",
+          "title": "Ruby on Rails - Active Record Associations",
+          "url": "https://www.tutorialspoint.com/ruby-on-rails/rails-active-record-associations.htm"
+        },
+        {
+          "id": "lWsJL135U-N5xIBnXqTYx-res-5",
+          "type": "video",
+          "title": "Learn Active Record associations with Starwars",
+          "url": "https://www.youtube.com/watch?v=E2jk4h1gQ2I"
+        },
+        {
+          "id": "lWsJL135U-N5xIBnXqTYx-res-6",
+          "type": "video",
+          "title": "Understanding Active Record Associations",
+          "url": "https://www.youtube.com/watch?v=5mhuNSkV_vQ"
+        }
+      ]
+    },
+    "NtiePD28NjaDtsC3oEbYf": {
+      "id": "NtiePD28NjaDtsC3oEbYf",
+      "slug": "models",
+      "title": "Models",
+      "description": "Models are Ruby classes that represent data and business logic. They interact with the database to perform CRUD (Create, Read, Update, Delete) operations on the data. Models provide a structured way to manage data, enforce validations, and define relationships between different data entities within an application. They are a core component of the Model-View-Controller (MVC) architectural pattern.",
+      "resources": [
+        {
+          "id": "NtiePD28NjaDtsC3oEbYf-res-1",
+          "type": "article",
+          "title": "Active Record Basics",
+          "url": "https://guides.rubyonrails.org/active_record_basics.html#creating-active-record-models"
+        },
+        {
+          "id": "NtiePD28NjaDtsC3oEbYf-res-2",
+          "type": "article",
+          "title": "Rails models",
+          "url": "https://www.theodinproject.com/lessons/ruby-on-rails-active-record-basics#rails-models"
+        },
+        {
+          "id": "NtiePD28NjaDtsC3oEbYf-res-3",
+          "type": "article",
+          "title": "Ruby on Rails - Models",
+          "url": "https://www.tutorialspoint.com/ruby-on-rails/rails-models.htm"
+        },
+        {
+          "id": "NtiePD28NjaDtsC3oEbYf-res-4",
+          "type": "article",
+          "title": "The Rails Model Introduction I Wish I Had",
+          "url": "https://www.maxwellantonucci.com/posts/2020/04/07/rails-model-intro-wish-i-had/"
+        },
+        {
+          "id": "NtiePD28NjaDtsC3oEbYf-res-5",
+          "type": "article",
+          "title": "Rails models cheatsheet",
+          "url": "https://devhints.io/rails-models"
+        },
+        {
+          "id": "NtiePD28NjaDtsC3oEbYf-res-6",
+          "type": "video",
+          "title": "How to Use Active Record: An Introduction For Beginner Rails Developers",
+          "url": "https://www.youtube.com/watch?v=-zQdVV7D4w8"
+        }
+      ]
+    },
+    "wHKlT_wCIrpSvULvXCufr": {
+      "id": "wHKlT_wCIrpSvULvXCufr",
+      "slug": "mvc-architecture",
+      "title": "MVC Architecture",
+      "description": "MVC, or Model-View-Controller, is a software design pattern commonly used for developing user interfaces that divides an application into three interconnected parts. The Model manages the application's data and logic, the View displays the data to the user, and the Controller handles user input and updates the Model and View accordingly. This separation of concerns makes applications easier to develop, test, and maintain.",
+      "resources": []
+    },
+    "vIOmb6qGA0ZbPyqEQ9Bb4": {
+      "id": "vIOmb6qGA0ZbPyqEQ9Bb4",
+      "slug": "mysql",
+      "title": "MySQL in Rails",
+      "description": "MySQL is a popular open-source relational database management system (RDBMS). In a Ruby on Rails application, MySQL serves as a persistent data store for your application's information, such as user accounts, product details, and blog posts. Rails leverages Active Record, an Object-Relational Mapping (ORM) framework, to interact with MySQL databases, allowing developers to work with data using Ruby objects instead of writing raw SQL queries.",
+      "resources": [
+        {
+          "id": "vIOmb6qGA0ZbPyqEQ9Bb4-res-1",
+          "type": "article",
+          "title": "Configuring a MySQL or MariaDB Database",
+          "url": "https://guides.rubyonrails.org/configuring.html#configuring-a-mysql-or-mariadb-database"
+        },
+        {
+          "id": "vIOmb6qGA0ZbPyqEQ9Bb4-res-2",
+          "type": "article",
+          "title": "Ruby on Rails with MySQL",
+          "url": "https://medium.com/@chandan-sharma/ruby-on-rails-create-mysql-database-and-add-table-5e62ac0e823c"
+        },
+        {
+          "id": "vIOmb6qGA0ZbPyqEQ9Bb4-res-3",
+          "type": "article",
+          "title": "How to use MySQL with your Ruby on Rails application",
+          "url": "https://www.ionos.com/digitalguide/server/know-how/use-mysql-with-ruby-on-rails/"
+        }
+      ]
+    },
+    "KlEgfzfkPu0O43tJIsU3H": {
+      "id": "KlEgfzfkPu0O43tJIsU3H",
+      "slug": "named-routes",
+      "title": "Named Routes",
+      "description": "Named routes provide a convenient way to refer to specific routes within your application's code. Instead of hardcoding URLs, you can use a symbolic name that represents the route, making your code more readable and maintainable. These names are automatically generated based on your `routes.rb` file and can be used in views, controllers, and models to generate URLs and paths.",
+      "resources": [
+        {
+          "id": "KlEgfzfkPu0O43tJIsU3H-res-1",
+          "type": "article",
+          "title": "Naming Routes",
+          "url": "https://guides.rubyonrails.org/routing.html"
+        },
+        {
+          "id": "KlEgfzfkPu0O43tJIsU3H-res-2",
+          "type": "article",
+          "title": "Understanding Named Routes in Rails",
+          "url": "https://www.writesoftwarewell.com/understanding-named-routes-in-rails/"
+        }
+      ]
+    },
+    "p0JHL8iAcV5tRLX9DPhx6": {
+      "id": "p0JHL8iAcV5tRLX9DPhx6",
+      "slug": "nested-forms",
+      "title": "Nested Forms",
+      "description": "Nested forms allow you to manage associated models directly within a parent form. This means you can create, update, and delete records of related models on the same page as the parent model, providing a more streamlined user experience. For example, you might create a new blog post and its associated comments all at once.",
+      "resources": [
+        {
+          "id": "p0JHL8iAcV5tRLX9DPhx6-res-1",
+          "type": "article",
+          "title": "Building Complex Forms",
+          "url": "https://guides.rubyonrails.org/form_helpers.html#building-complex-forms"
+        },
+        {
+          "id": "p0JHL8iAcV5tRLX9DPhx6-res-2",
+          "type": "article",
+          "title": "Rails — Nested Forms and Nested Resources",
+          "url": "https://david-rafe.medium.com/rails-nested-forms-and-nested-resources-cb9f21bb1a1a"
+        },
+        {
+          "id": "p0JHL8iAcV5tRLX9DPhx6-res-3",
+          "type": "article",
+          "title": "Nested Forms in Rails - FastRuby.io",
+          "url": "https://www.fastruby.io/blog/learning/rails/nested-forms.html"
+        },
+        {
+          "id": "p0JHL8iAcV5tRLX9DPhx6-res-4",
+          "type": "article",
+          "title": "Dynamic Nested Forms with Rails and Stimulus",
+          "url": "https://jonathanyeong.com/writing/rails-stimulus-dynamic-nested-form/"
+        },
+        {
+          "id": "p0JHL8iAcV5tRLX9DPhx6-res-5",
+          "type": "video",
+          "title": "Stimulus Nested Forms | Ruby on Rails 7 Tutorial",
+          "url": "https://www.youtube.com/watch?v=7JNRZLTRDCc"
+        }
+      ]
+    },
+    "DbJ1BIOoerkCH4P95Z7wD": {
+      "id": "DbJ1BIOoerkCH4P95Z7wD",
+      "slug": "nested-routes",
+      "title": "Nested Routes",
+      "description": "Nested routes allow you to define hierarchical relationships between resources in your application's URLs. This means you can represent parent-child relationships, such as comments belonging to a specific post, directly in the URL structure. This approach helps to create more organized and intuitive URLs, reflecting the data's relationships and improving the user experience.",
+      "resources": []
+    },
+    "3qImaY9Hs3Cvatw1X96Ns": {
+      "id": "3qImaY9Hs3Cvatw1X96Ns",
+      "slug": "non-restful-routes",
+      "title": "Non-RESTful Routes",
+      "description": "Non-RESTful routes are custom routes that deviate from the standard RESTful conventions (like `index`, `show`, `create`, `update`, `destroy`). They are used when an action doesn't naturally map to a typical CRUD operation or when you need a more descriptive or specific URL for a particular function in your application. These routes allow you to define custom paths and HTTP verbs to connect to specific controller actions.",
+      "resources": []
+    },
+    "mRdKPWMxzEacPOA8j-SoH": {
+      "id": "mRdKPWMxzEacPOA8j-SoH",
+      "slug": "omniauth",
+      "title": "OmniAuth",
+      "description": "OmniAuth is a flexible authentication system that allows users to sign in to your application using third-party providers like Google, Facebook, Twitter, and more. It provides a standardized way to handle the authentication process, abstracting away the complexities of dealing with different authentication protocols and APIs. This simplifies the integration of social login and other external authentication methods into your Ruby on Rails application.",
+      "resources": []
+    },
+    "NwzKYGKVyLF_hiHSZ01Yq": {
+      "id": "NwzKYGKVyLF_hiHSZ01Yq",
+      "slug": "ordering",
+      "title": "Ordering",
+      "description": "Ordering in Active Record allows you to specify the sequence in which records are retrieved from the database. This is achieved by using the `order` method, which accepts either a string representing the SQL order clause or a hash/symbol representing the attribute(s) to order by and their direction (ascending or descending). Ordering ensures that data is presented in a predictable and meaningful way, enhancing the user experience and facilitating data analysis.",
+      "resources": [
+        {
+          "id": "NwzKYGKVyLF_hiHSZ01Yq-res-1",
+          "type": "article",
+          "title": "Ordering",
+          "url": "https://guides.rubyonrails.org/active_record_querying.html#ordering"
+        },
+        {
+          "id": "NwzKYGKVyLF_hiHSZ01Yq-res-2",
+          "type": "article",
+          "title": "Rails Quick Tips - ActiveRecord Ordering",
+          "url": "https://hashrocket.com/blog/posts/rails-quick-tips-activerecord-ordering"
+        },
+        {
+          "id": "NwzKYGKVyLF_hiHSZ01Yq-res-3",
+          "type": "article",
+          "title": "Rails 7 adds ActiveRecord::QueryMethods#in_order_of to return query results in a particular sequence",
+          "url": "https://blog.saeloun.com/2021/10/05/rails-7-activerecord-adds-in-order-of-method/"
+        }
+      ]
+    },
+    "jTrvSb4eN9Hna0YooHapb": {
+      "id": "jTrvSb4eN9Hna0YooHapb",
+      "slug": "pagination",
+      "title": "Pagination",
+      "description": "Pagination is the process of dividing content into discrete pages, allowing users to navigate through large sets of data in a more manageable way. This technique enhances user experience by preventing overwhelming amounts of information from being displayed on a single page, leading to faster loading times and improved site usability.",
+      "resources": [
+        {
+          "id": "jTrvSb4eN9Hna0YooHapb-res-1",
+          "type": "article",
+          "title": "Pagination in Rails from scratch (no gems)",
+          "url": "https://dev.to/anakbns/pagination-in-rails-from-scratch-no-gems-206f"
+        }
+      ]
+    },
+    "txrWW1OlBZP-uiUKSMupo": {
+      "id": "txrWW1OlBZP-uiUKSMupo",
+      "slug": "pagination",
+      "title": "Pagination",
+      "description": "Pagination is the process of dividing content into discrete pages, allowing users to navigate through large datasets in a manageable way. Instead of displaying all records at once, which can lead to performance issues and a poor user experience, pagination presents data in smaller, more digestible chunks, typically with navigation controls to move between pages. This improves loading times and makes it easier for users to find the information they need.",
+      "resources": []
+    },
+    "BFmYL2UyuCXdFCeMKtDZk": {
+      "id": "BFmYL2UyuCXdFCeMKtDZk",
+      "slug": "pagy",
+      "title": "Pagy",
+      "description": "Pagy is a gem in Ruby on Rails that simplifies the implementation of pagination in your web applications. It provides a fast and flexible way to divide large datasets into smaller, more manageable pages, improving user experience and server performance. Pagy focuses on efficiency and minimal memory usage, offering customizable templates and a variety of features to suit different pagination needs.",
+      "resources": [
+        {
+          "id": "BFmYL2UyuCXdFCeMKtDZk-res-1",
+          "type": "article",
+          "title": "Pagy",
+          "url": "https://ddnexus.github.io/pagy/"
+        },
+        {
+          "id": "BFmYL2UyuCXdFCeMKtDZk-res-2",
+          "type": "article",
+          "title": "pagy",
+          "url": "https://github.com/ddnexus/pagy"
+        },
+        {
+          "id": "BFmYL2UyuCXdFCeMKtDZk-res-3",
+          "type": "article",
+          "title": "A step-by-step guide to paginate your Rails app with Pagy gem",
+          "url": "https://medium.com/@barrosgiovanni1/a-step-by-step-guide-to-paginate-your-rails-app-with-pagy-gem-d177c42a43a6"
+        },
+        {
+          "id": "BFmYL2UyuCXdFCeMKtDZk-res-4",
+          "type": "video",
+          "title": "Pagy Gem with Turbo for Easy Infinite Scrolling | Ruby on Rails 7 Tutorial",
+          "url": "https://www.youtube.com/watch?v=4nrmf5KfD8Y"
+        }
+      ]
+    },
+    "9qNdqb_Y95_Hjm-7GYA-o": {
+      "id": "9qNdqb_Y95_Hjm-7GYA-o",
+      "slug": "partials",
+      "title": "Partials",
+      "description": "Partials are reusable snippets of view code that can be rendered within other views. They help to keep your views organized and DRY (Don't Repeat Yourself) by extracting common UI elements or logic into separate files. This allows you to easily update and maintain these elements across your application without duplicating code.",
+      "resources": [
+        {
+          "id": "9qNdqb_Y95_Hjm-7GYA-o-res-1",
+          "type": "article",
+          "title": "Partials",
+          "url": "https://guides.rubyonrails.org/action_view_overview.html#partials"
+        },
+        {
+          "id": "9qNdqb_Y95_Hjm-7GYA-o-res-2",
+          "type": "article",
+          "title": "An Intro to Partials and Helpers in Ruby on Rails",
+          "url": "https://staceymck.medium.com/an-intro-to-partials-and-helpers-in-ruby-on-rails-10d62d85da24"
+        },
+        {
+          "id": "9qNdqb_Y95_Hjm-7GYA-o-res-3",
+          "type": "video",
+          "title": "Rails Tutorial | Working with View Partials in Ruby on Rails",
+          "url": "https://www.youtube.com/watch?v=YIJwb0rQS74"
+        }
+      ]
+    },
+    "G3HHrElODg0Js0WY-VYkL": {
+      "id": "G3HHrElODg0Js0WY-VYkL",
+      "slug": "phlex",
+      "title": "Phlex",
+      "description": "Phlex is a Ruby library for building HTML views with a Ruby syntax. It offers a component-based approach, allowing developers to define reusable UI elements as Ruby classes. This approach aims to provide a more structured and maintainable way to create dynamic web pages compared to traditional ERB templates.",
+      "resources": [
+        {
+          "id": "G3HHrElODg0Js0WY-VYkL-res-1",
+          "type": "article",
+          "title": "Phlex",
+          "url": "https://www.phlex.fun/"
+        },
+        {
+          "id": "G3HHrElODg0Js0WY-VYkL-res-2",
+          "type": "article",
+          "title": "phlex-rails",
+          "url": "https://github.com/yippee-fun/phlex-rails"
+        },
+        {
+          "id": "G3HHrElODg0Js0WY-VYkL-res-3",
+          "type": "article",
+          "title": "Ruby On rails Using phlex gem",
+          "url": "https://medium.com/@ashwinborkar1997/ruby-on-rails-using-phlex-gem-5603ab87a4bf"
+        },
+        {
+          "id": "G3HHrElODg0Js0WY-VYkL-res-4",
+          "type": "video",
+          "title": "Components with Phlex in Rails",
+          "url": "https://www.youtube.com/watch?v=l4bQSfqZZfQ"
+        }
+      ]
+    },
+    "nh6d9XbtvwBUtVDmEk0i_": {
+      "id": "nh6d9XbtvwBUtVDmEk0i_",
+      "slug": "plugins",
+      "title": "Plugins",
+      "description": "Plugins are self-contained packages of code that extend or modify the functionality of a Rails application. They provide a way to encapsulate reusable features, such as authentication, authorization, or payment processing, and easily integrate them into different Rails projects. Plugins can add models, controllers, views, helpers, and even modify the Rails framework itself.",
+      "resources": []
+    },
+    "TRTR2JyyfqICTm3kbyIgu": {
+      "id": "TRTR2JyyfqICTm3kbyIgu",
+      "slug": "postgresql",
+      "title": "PostgreSQL in Rails",
+      "description": "PostgreSQL is an open-source, object-relational database system known for its reliability, feature robustness, and adherence to standards. It's a popular choice for Rails applications due to its advanced data types, support for complex queries, and strong community support. Rails seamlessly integrates with PostgreSQL through Active Record, providing an abstraction layer for database interactions.",
+      "resources": [
+        {
+          "id": "TRTR2JyyfqICTm3kbyIgu-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated PostgreSQL Roadmap",
+          "url": "https://roadmap.sh/postgresql-dba"
+        },
+        {
+          "id": "TRTR2JyyfqICTm3kbyIgu-res-2",
+          "type": "article",
+          "title": "Configuring a PostgreSQL Database",
+          "url": "https://guides.rubyonrails.org/configuring.html#configuring-a-postgresql-database"
+        },
+        {
+          "id": "TRTR2JyyfqICTm3kbyIgu-res-3",
+          "type": "article",
+          "title": "How To Set Up Ruby on Rails with Postgres",
+          "url": "https://www.digitalocean.com/community/tutorials/how-to-set-up-ruby-on-rails-with-postgres"
+        },
+        {
+          "id": "TRTR2JyyfqICTm3kbyIgu-res-4",
+          "type": "article",
+          "title": "Getting started with Ruby on Rails and Postgres on Supabase",
+          "url": "https://supabase.com/blog/ruby-on-rails-postgres"
+        },
+        {
+          "id": "TRTR2JyyfqICTm3kbyIgu-res-5",
+          "type": "video",
+          "title": "How To Use PostgreSQL with Your Ruby on Rails Application",
+          "url": "https://www.youtube.com/watch?v=lLiEiBzEct8"
+        }
+      ]
+    },
+    "eyeSECF8-wu8EMr5gD7VJ": {
+      "id": "eyeSECF8-wu8EMr5gD7VJ",
+      "slug": "pry",
+      "title": "Pry",
+      "description": "Pry is a powerful Ruby runtime developer console and alternative to `irb`. It allows you to pause your code's execution at any point, inspect variables, step through code line by line, and even modify your code on the fly. This makes it an invaluable tool for understanding and debugging Ruby and Rails applications.",
+      "resources": [
+        {
+          "id": "eyeSECF8-wu8EMr5gD7VJ-res-1",
+          "type": "article",
+          "title": "pry",
+          "url": "https://github.com/pry/pry"
+        },
+        {
+          "id": "eyeSECF8-wu8EMr5gD7VJ-res-2",
+          "type": "article",
+          "title": "How to use Pry to debug Ruby apps",
+          "url": "https://www.honeybadger.io/blog/debugging-ruby-with-pry/"
+        },
+        {
+          "id": "eyeSECF8-wu8EMr5gD7VJ-res-3",
+          "type": "article",
+          "title": "Debugging Ruby Code with Pry",
+          "url": "https://laflamablanc.medium.com/debugging-ruby-code-with-pry-a0bf1f5e97ca"
+        },
+        {
+          "id": "eyeSECF8-wu8EMr5gD7VJ-res-4",
+          "type": "video",
+          "title": "Pry Open Your Rails 7 Code Debug Like a Pro",
+          "url": "https://www.youtube.com/watch?v=yMdV0tpra7c"
+        },
+        {
+          "id": "eyeSECF8-wu8EMr5gD7VJ-res-5",
+          "type": "video",
+          "title": "Ruby on Rails - Railscasts #280 Pry With Rails",
+          "url": "https://www.youtube.com/watch?v=KfFf2-KJNTU"
+        }
+      ]
+    },
+    "rHzhzrwsguJx3Hg5szucY": {
+      "id": "rHzhzrwsguJx3Hg5szucY",
+      "slug": "public",
+      "title": "Public Directory",
+      "description": "The `public` directory in a Ruby on Rails application serves as the root directory for all static assets that are directly accessible by web browsers. It holds files like HTML, CSS, JavaScript, images, and other media that don't require any processing or compilation by Rails before being served to the user. These files are served directly by the web server (like Nginx or Apache) without Rails intervention, making them efficient for delivering static content.",
+      "resources": []
+    },
+    "dTU2RPkJcZaPRuSHPod71": {
+      "id": "dTU2RPkJcZaPRuSHPod71",
+      "slug": "pundit",
+      "title": "Pundit",
+      "description": "Pundit is a Ruby gem that provides a straightforward way to implement authorization in your Ruby on Rails applications. It focuses on defining authorization rules using plain Ruby objects (policies) that determine whether a given user is allowed to perform a specific action on a particular resource. This approach promotes clean, maintainable, and testable authorization logic within your application.",
+      "resources": [
+        {
+          "id": "dTU2RPkJcZaPRuSHPod71-res-1",
+          "type": "article",
+          "title": "pundit",
+          "url": "https://github.com/varvet/pundit"
+        },
+        {
+          "id": "dTU2RPkJcZaPRuSHPod71-res-2",
+          "type": "article",
+          "title": "Mastering Authorization in Rails with Pundit",
+          "url": "https://www.shakacode.com/blog/mastering-authorization-in-rails-with-pundit/"
+        },
+        {
+          "id": "dTU2RPkJcZaPRuSHPod71-res-3",
+          "type": "video",
+          "title": "Pundit Gem For Authorization In Ruby On Rails 7",
+          "url": "https://www.youtube.com/watch?v=SodfIjgcaW8"
+        },
+        {
+          "id": "dTU2RPkJcZaPRuSHPod71-res-4",
+          "type": "video",
+          "title": "Ruby on Rails #49 gem Pundit for Authorization - Complete Guide",
+          "url": "https://www.youtube.com/watch?v=xxkx57-vbQI"
+        }
+      ]
+    },
+    "8EwNQFoZbzf5WtvP4OA4G": {
+      "id": "8EwNQFoZbzf5WtvP4OA4G",
+      "slug": "query-optimization",
+      "title": "Query Optimization",
+      "description": "Query optimization focuses on improving the efficiency of database queries to reduce execution time and resource consumption. This involves techniques like eager loading to minimize the number of queries, using indexes to speed up data retrieval, and writing efficient query conditions to filter data effectively. The goal is to retrieve the necessary data as quickly as possible, improving the overall performance of your Rails application.",
+      "resources": [
+        {
+          "id": "8EwNQFoZbzf5WtvP4OA4G-res-1",
+          "type": "article",
+          "title": "Eager Loading Associations",
+          "url": "https://guides.rubyonrails.org/active_record_querying.html#eager-loading-associations"
+        },
+        {
+          "id": "8EwNQFoZbzf5WtvP4OA4G-res-2",
+          "type": "article",
+          "title": "Optimizing database queries in Rails with Active Record",
+          "url": "https://medium.com/@arnaudetienne/optimizing-database-queries-in-rails-with-active-record-b84295866af0"
+        },
+        {
+          "id": "8EwNQFoZbzf5WtvP4OA4G-res-3",
+          "type": "article",
+          "title": "Active Record Query Optimization Tips: Boost Your Ruby on Rails Application Performance",
+          "url": "https://kinsta.com/blog/active-record-query-optimization/"
+        }
+      ]
+    },
+    "jKADWbGXSL5yGzsLqSJG9": {
+      "id": "jKADWbGXSL5yGzsLqSJG9",
+      "slug": "rails--frontend",
+      "title": "Rails & Frontend",
+      "description": "Rails, while primarily a backend framework, works seamlessly with various frontend technologies to build complete web applications. You can use Rails to handle the server-side logic, data management, and API endpoints, while employing frontend frameworks like React, Vue.js, or even Hotwire for the user interface and interactive elements. Hotwire, in particular, allows you to build modern, reactive UIs by sending HTML over the wire instead of complex JSON, simplifying the development process and leveraging Rails' server-side rendering capabilities. This combination allows developers to create full-stack applications with a clear separation of concerns, where Rails manages the backend and the chosen frontend framework handles the user experience.",
+      "resources": []
+    },
+    "DyrNnHUm4Ws5Ku7AlVnWg": {
+      "id": "DyrNnHUm4Ws5Ku7AlVnWg",
+      "slug": "rails-command-line",
+      "title": "Rails Command Line",
+      "description": "The Rails command line interface (CLI), often accessed via the `rails` command, is a powerful tool for creating, managing, and interacting with Rails applications. It provides a suite of commands to generate code, run tests, manage databases, and perform various other development tasks, streamlining the development process and reducing boilerplate code.",
+      "resources": []
+    },
+    "okQl2NFVACbZJPgh3sD5I": {
+      "id": "okQl2NFVACbZJPgh3sD5I",
+      "slug": "rails-generators",
+      "title": "Rails Generators",
+      "description": "Rails Generators are powerful tools built into the Rails framework that automate the creation of files and directories needed for various parts of your application. They streamline development by providing pre-built templates for models, controllers, views, migrations, and more, reducing boilerplate code and ensuring consistency across your project. Using generators helps you quickly scaffold out the basic structure of your application components, allowing you to focus on the specific logic and functionality you need to implement.",
+      "resources": []
+    },
+    "IjEF4T0vuFNUlA9O0wOFw": {
+      "id": "IjEF4T0vuFNUlA9O0wOFw",
+      "slug": "rails-internationalization",
+      "title": "Rails Internationalization",
+      "description": "Internationalization (I18n) is the process of designing and developing applications that can be adapted to various languages and regions without engineering changes. It involves extracting text and other locale-specific data from the application's code and storing it in separate files, allowing the application to be translated and formatted for different locales. This enables users to interact with the application in their preferred language and cultural context.",
+      "resources": [
+        {
+          "id": "IjEF4T0vuFNUlA9O0wOFw-res-1",
+          "type": "article",
+          "title": "Rails Internationalization (I18n) API",
+          "url": "https://guides.rubyonrails.org/i18n.html"
+        },
+        {
+          "id": "IjEF4T0vuFNUlA9O0wOFw-res-2",
+          "type": "article",
+          "title": "Rails internationalization (I18n): Tutorial on Rails locales & more",
+          "url": "https://lokalise.com/blog/rails-i18n/"
+        },
+        {
+          "id": "IjEF4T0vuFNUlA9O0wOFw-res-3",
+          "type": "article",
+          "title": "A Comprehensive Guide to Rails Internationalization (i18n)",
+          "url": "https://www.honeybadger.io/blog/rails-i18n/"
+        },
+        {
+          "id": "IjEF4T0vuFNUlA9O0wOFw-res-4",
+          "type": "article",
+          "title": "7 Key Best Practices for Rails Internationalization",
+          "url": "https://phrase.com/blog/posts/rails-i18n-best-practices/"
+        },
+        {
+          "id": "IjEF4T0vuFNUlA9O0wOFw-res-5",
+          "type": "video",
+          "title": "Intro To I18n Localizations With Ruby On Rails 7",
+          "url": "https://www.youtube.com/watch?v=gkaxM1AqBss"
+        }
+      ]
+    },
+    "PDxKuQbWhbg0_AewOw9Mm": {
+      "id": "PDxKuQbWhbg0_AewOw9Mm",
+      "slug": "rails-logger",
+      "title": "Rails Logger",
+      "description": "The Rails Logger is a built-in component within Ruby on Rails that provides a standardized way to record events and messages during the execution of an application. It allows developers to track application behavior, diagnose issues, and monitor performance by writing information to various output destinations, such as files or the console. The logger offers different severity levels (e.g., debug, info, warn, error, fatal) to categorize messages based on their importance, enabling developers to filter and prioritize logged information effectively.",
+      "resources": [
+        {
+          "id": "PDxKuQbWhbg0_AewOw9Mm-res-1",
+          "type": "article",
+          "title": "The Logger",
+          "url": "https://guides.rubyonrails.org/debugging_rails_applications.html#the-logger"
+        },
+        {
+          "id": "PDxKuQbWhbg0_AewOw9Mm-res-2",
+          "type": "article",
+          "title": "How to Start Logging With Ruby on Rails",
+          "url": "https://betterstack.com/community/guides/logging/how-to-start-logging-with-ruby-on-rails/#step-6-configuring-logger"
+        },
+        {
+          "id": "PDxKuQbWhbg0_AewOw9Mm-res-3",
+          "type": "video",
+          "title": "Debugging And Logging | Intro To Ruby On Rails 7 Part 24",
+          "url": "https://www.youtube.com/watch?v=9rDK2rbm6DI"
+        }
+      ]
+    },
+    "wszshSvhqtfN829f5InuL": {
+      "id": "wszshSvhqtfN829f5InuL",
+      "slug": "raw-sql",
+      "title": "Raw SQL in Active Record",
+      "description": "Active Record typically provides an abstraction layer for database interactions, allowing you to work with objects and methods instead of writing SQL queries directly. However, sometimes you need more control or access to database-specific features. Raw SQL allows you to bypass Active Record's abstraction and execute SQL queries directly against your database, giving you the flexibility to perform complex operations or optimize performance in specific scenarios.",
+      "resources": [
+        {
+          "id": "wszshSvhqtfN829f5InuL-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated SQL Roadmap",
+          "url": "https://roadmap.sh/sql"
+        },
+        {
+          "id": "wszshSvhqtfN829f5InuL-res-2",
+          "type": "article",
+          "title": "Finding by SQL",
+          "url": "https://guides.rubyonrails.org/active_record_querying.html#finding-by-sql"
+        }
+      ]
+    },
+    "pSdqdRPlLfmIl5X9XF76r": {
+      "id": "pSdqdRPlLfmIl5X9XF76r",
+      "slug": "redirects",
+      "title": "Redirects",
+      "description": "Redirects in web applications are mechanisms to automatically forward a user from one URL to another. This is commonly used for various reasons, such as moving content to a new location, handling outdated URLs, or guiding users through a specific workflow. In Rails, redirects are implemented within controllers to send an HTTP response that instructs the browser to navigate to a different URL.",
+      "resources": []
+    },
+    "WJmDAayQ6SMNuUWsMzhnJ": {
+      "id": "WJmDAayQ6SMNuUWsMzhnJ",
+      "slug": "rendering-views",
+      "title": "Rendering Views",
+      "description": "Rendering views in Ruby on Rails involves generating HTML (or other formats) to be displayed to the user. This process typically uses templates written in ERB or other templating languages, combining data from the controller with the template to produce the final output. Rails provides mechanisms for rendering different types of content, including partials, layouts, and collections, offering flexibility in structuring and organizing the presentation layer of an application.",
+      "resources": [
+        {
+          "id": "WJmDAayQ6SMNuUWsMzhnJ-res-1",
+          "type": "article",
+          "title": "Layouts and Rendering in Rails",
+          "url": "https://guides.rubyonrails.org/layouts_and_rendering.html"
+        }
+      ]
+    },
+    "eYaayU92hNbri3YTdSAbG": {
+      "id": "eYaayU92hNbri3YTdSAbG",
+      "slug": "request-reponse-flow",
+      "title": "Request-Response Flow in Rails Routing",
+      "description": "The request-response flow in Rails describes how a web application handles incoming requests from users and generates appropriate responses. When a user interacts with a Rails application (e.g., clicks a link or submits a form), the request is first received by the Rails router. The router then analyzes the request and determines which controller and action should handle it. The controller action processes the request, interacts with the model if necessary, and renders a view. Finally, the rendered view is sent back to the user as a response.",
+      "resources": []
+    },
+    "NB50RuNBT5Oja2Ry6p892": {
+      "id": "NB50RuNBT5Oja2Ry6p892",
+      "slug": "restful-routes",
+      "title": "RESTful Routes",
+      "description": "RESTful routes provide a standardized way to map HTTP verbs (GET, POST, PUT, DELETE) to controller actions, representing Create, Read, Update, and Delete (CRUD) operations on resources. This convention promotes a clean and predictable URL structure, making applications easier to understand and maintain by aligning routes with the underlying data model. By following REST principles, developers can create well-organized and scalable web applications.",
+      "resources": []
+    },
+    "ftFF3oFfqpKvjQhXk3bWw": {
+      "id": "ftFF3oFfqpKvjQhXk3bWw",
+      "slug": "routing-fundamentals",
+      "title": "Routing Fundamentals",
+      "description": "Routing in a web application is the process of mapping incoming HTTP requests (like GET or POST requests) to specific controller actions. It acts as a traffic director, examining the URL and other request parameters to determine which part of the application should handle the request and generate a response. This mechanism allows you to define how your application responds to different URLs, creating a structured and organized web experience for users.",
+      "resources": []
+    },
+    "Xs9gIVdO9TuZabUapgubJ": {
+      "id": "Xs9gIVdO9TuZabUapgubJ",
+      "slug": "rspec",
+      "title": "RSpec",
+      "description": "RSpec is a testing framework for Ruby. It provides a domain-specific language (DSL) for writing tests that are easy to read and understand. RSpec focuses on behavior-driven development (BDD), allowing developers to describe the desired behavior of their code in a clear and concise manner, leading to more maintainable and reliable applications.",
+      "resources": [
+        {
+          "id": "Xs9gIVdO9TuZabUapgubJ-res-1",
+          "type": "article",
+          "title": "RSpec",
+          "url": "https://rspec.info/"
+        },
+        {
+          "id": "Xs9gIVdO9TuZabUapgubJ-res-2",
+          "type": "article",
+          "title": "rspec-rails",
+          "url": "https://github.com/rspec/rspec-rails"
+        },
+        {
+          "id": "Xs9gIVdO9TuZabUapgubJ-res-3",
+          "type": "article",
+          "title": "Ruby on Rails Testing with RSpec: Writing your First Tests",
+          "url": "https://medium.com/nerd-for-tech/ruby-on-rails-testing-with-rspec-writing-your-first-tests-6330920928fd"
+        },
+        {
+          "id": "Xs9gIVdO9TuZabUapgubJ-res-4",
+          "type": "article",
+          "title": "Getting Started With Testing In Rails (Using Minitest and RSpec)",
+          "url": "https://medium.com/@ethanryan/getting-started-with-testing-in-rails-using-minitest-and-rspec-113fe1f866a"
+        },
+        {
+          "id": "Xs9gIVdO9TuZabUapgubJ-res-5",
+          "type": "article",
+          "title": "Minitest vs. RSpec in Rails",
+          "url": "https://www.honeybadger.io/blog/minitest-rspec-rails/"
+        },
+        {
+          "id": "Xs9gIVdO9TuZabUapgubJ-res-6",
+          "type": "video",
+          "title": "Automated testing with rspec",
+          "url": "https://www.youtube.com/playlist?list=PLS6F722u-R6Ik3fbeLXbSclWkT6Qsp9ng"
+        },
+        {
+          "id": "Xs9gIVdO9TuZabUapgubJ-res-7",
+          "type": "video",
+          "title": "Test Driven RSpec",
+          "url": "https://www.youtube.com/playlist?list=PLr442xinba86s9cCWxoIH_xq5UE9Wwo4Z"
+        }
+      ]
+    },
+    "x4MkSkbLK7aHWUoKuq1j4": {
+      "id": "x4MkSkbLK7aHWUoKuq1j4",
+      "slug": "scopes",
+      "title": "Scopes",
+      "description": "Scopes in Rails models are pre-defined database queries that you can reuse throughout your application. They allow you to encapsulate common query logic, making your code cleaner, more readable, and easier to maintain. Scopes can be simple, like finding all active users, or more complex, involving joins and conditions. They are defined within the model and can be chained together to create more specific queries.",
+      "resources": [
+        {
+          "id": "x4MkSkbLK7aHWUoKuq1j4-res-1",
+          "type": "article",
+          "title": "Scopes",
+          "url": "https://guides.rubyonrails.org/active_record_querying.html#scopes"
+        },
+        {
+          "id": "x4MkSkbLK7aHWUoKuq1j4-res-2",
+          "type": "article",
+          "title": "Scopes",
+          "url": "https://www.theodinproject.com/lessons/ruby-on-rails-active-record-queries#scopes"
+        },
+        {
+          "id": "x4MkSkbLK7aHWUoKuq1j4-res-3",
+          "type": "article",
+          "title": "How to Use Scopes in Ruby on Rails",
+          "url": "https://www.rubyguides.com/2019/10/scopes-in-ruby-on-rails/"
+        },
+        {
+          "id": "x4MkSkbLK7aHWUoKuq1j4-res-4",
+          "type": "article",
+          "title": "ActiveRecord Scopes: Ruby On Rails Best Practices",
+          "url": "https://medium.com/nyc-ruby-on-rails/mastering-activerecord-scopes-5d7082122c0d"
+        },
+        {
+          "id": "x4MkSkbLK7aHWUoKuq1j4-res-5",
+          "type": "video",
+          "title": "Taking A Look At Scopes In Ruby On Rails 7",
+          "url": "https://www.youtube.com/watch?v=nzgf1LRqxvg"
+        },
+        {
+          "id": "x4MkSkbLK7aHWUoKuq1j4-res-6",
+          "type": "video",
+          "title": "How to use Scopes in Ruby on Rails",
+          "url": "https://www.youtube.com/watch?v=_LerTMQW76w"
+        }
+      ]
+    },
+    "YyBmT5CzL-lspStC8aZ_t": {
+      "id": "YyBmT5CzL-lspStC8aZ_t",
+      "slug": "security",
+      "title": "Security",
+      "description": "Security in web applications involves protecting data and functionality from unauthorized access, use, disclosure, disruption, modification, or destruction. It encompasses various practices and techniques to ensure confidentiality, integrity, and availability of the application and its data. This includes addressing vulnerabilities like cross-site scripting (XSS), SQL injection, and authentication bypasses.",
+      "resources": [
+        {
+          "id": "YyBmT5CzL-lspStC8aZ_t-res-1",
+          "type": "article",
+          "title": "Securing Rails Applications",
+          "url": "https://guides.rubyonrails.org/security.html"
+        },
+        {
+          "id": "YyBmT5CzL-lspStC8aZ_t-res-2",
+          "type": "article",
+          "title": "A Complete Guide to Ruby on Rails Security Measures 🛡️",
+          "url": "https://railsdrop.com/2025/05/11/a-complete-guide-to-ruby-on-rails-security-measures/"
+        },
+        {
+          "id": "YyBmT5CzL-lspStC8aZ_t-res-3",
+          "type": "article",
+          "title": "The inadequate guide to Rails security",
+          "url": "https://www.honeybadger.io/blog/ruby-security-tutorial-and-rails-security-guide/"
+        },
+        {
+          "id": "YyBmT5CzL-lspStC8aZ_t-res-4",
+          "type": "article",
+          "title": "Essential Security Best Practices for Ruby on Rails",
+          "url": "https://dev.to/harsh_u115/essential-security-best-practices-for-ruby-on-rails-4d68"
+        },
+        {
+          "id": "YyBmT5CzL-lspStC8aZ_t-res-5",
+          "type": "article",
+          "title": "Securing Ruby on Rails Applications: Best Practices",
+          "url": "https://medium.com/@vaishnaviganeshkar15/securing-ruby-on-rails-applications-best-practices-787f2cc03f02"
+        }
+      ]
+    },
+    "mJ5wZPg770fDlJ-V9x75t": {
+      "id": "mJ5wZPg770fDlJ-V9x75t",
+      "slug": "sessions",
+      "title": "Sessions in Rails Controllers",
+      "description": "Beyond processing requests and rendering views, controllers also provide a mechanism for maintaining user sessions. Sessions allow you to store data related to a specific user across multiple requests, enabling features like login persistence, shopping carts, and personalized experiences. This data is typically stored on the server and associated with a unique session ID that is sent to the client's browser as a cookie.",
+      "resources": [
+        {
+          "id": "mJ5wZPg770fDlJ-V9x75t-res-1",
+          "type": "article",
+          "title": "Session",
+          "url": "https://guides.rubyonrails.org/action_controller_overview.html#session"
+        },
+        {
+          "id": "mJ5wZPg770fDlJ-V9x75t-res-2",
+          "type": "article",
+          "title": "Mastering Sessions and Cookies in Rails: A Comprehensive Guide",
+          "url": "https://medium.com/@carriekarft/mastering-sessions-and-cookies-in-rails-a-comprehensive-guide-0446422d7b22"
+        },
+        {
+          "id": "mJ5wZPg770fDlJ-V9x75t-res-3",
+          "type": "article",
+          "title": "Cookies & Sessions in Rails",
+          "url": "https://dev.to/matthewkohn/cookies-sessions-in-rails-54b8"
+        },
+        {
+          "id": "mJ5wZPg770fDlJ-V9x75t-res-4",
+          "type": "video",
+          "title": "Rails Cookies and Session",
+          "url": "https://www.youtube.com/watch?v=iOR-9fMMmLM"
+        }
+      ]
+    },
+    "4nyrB8-xmd35S6ZNjPX8d": {
+      "id": "4nyrB8-xmd35S6ZNjPX8d",
+      "slug": "setting-up-ruby-on-rails",
+      "title": "Setting up Ruby on Rails",
+      "description": "Setting up Ruby on Rails involves installing the necessary software and configuring your environment to develop and run Rails applications. This typically includes installing Ruby, the Rails gem, a database system (like PostgreSQL or MySQL), and any other dependencies required for your project. Once these components are installed, you can create a new Rails application using the `rails new` command and start building your web application.",
+      "resources": []
+    },
+    "J7eIUewbviWck-lVJ1hre": {
+      "id": "J7eIUewbviWck-lVJ1hre",
+      "slug": "sqlite",
+      "title": "SQLite in Rails",
+      "description": "SQLite is a lightweight, file-based database engine. It requires no separate server process and stores the entire database in a single file on disk. This makes it a convenient choice for development, testing, and small-scale applications where a full-fledged database server isn't necessary. Rails supports SQLite out of the box, making it easy to set up and use.",
+      "resources": [
+        {
+          "id": "J7eIUewbviWck-lVJ1hre-res-1",
+          "type": "article",
+          "title": "Configuring an SQLite3 Database",
+          "url": "https://guides.rubyonrails.org/configuring.html#configuring-an-sqlite3-database"
+        },
+        {
+          "id": "J7eIUewbviWck-lVJ1hre-res-2",
+          "type": "article",
+          "title": "SQLite",
+          "url": "https://www.sqlite.org/index.html"
+        },
+        {
+          "id": "J7eIUewbviWck-lVJ1hre-res-3",
+          "type": "article",
+          "title": "SQLite in Production? Rails 8 Made Me a Believer",
+          "url": "https://bhavyansh001.medium.com/sqlite-in-production-rails-8-made-me-a-believer-28a621db864a"
+        },
+        {
+          "id": "J7eIUewbviWck-lVJ1hre-res-4",
+          "type": "article",
+          "title": "Configuring Rails Applications",
+          "url": "https://edgeguides.rubyonrails.org/configuring.html#locations-for-initialization-code"
+        },
+        {
+          "id": "J7eIUewbviWck-lVJ1hre-res-5",
+          "type": "video",
+          "title": "Stephen Margheim - SQLite on Rails: Supercharging the One-Person Framework - Rails World 2024",
+          "url": "https://www.youtube.com/watch?v=wFUy120Fts8"
+        }
+      ]
+    },
+    "JyARA-iMMw2uEuB_ljFrs": {
+      "id": "JyARA-iMMw2uEuB_ljFrs",
+      "slug": "storage",
+      "title": "Storage in Ruby on Rails",
+      "description": "Rails itself doesn't directly manage file storage; instead, it relies on external services or libraries to handle the actual saving and retrieval of these files. This allows you to store files locally on your server, or more commonly, in cloud storage services like Amazon S3, Google Cloud Storage, or Azure Blob Storage. These services offer scalability, reliability, and often lower costs compared to managing storage yourself.",
+      "resources": [
+        {
+          "id": "JyARA-iMMw2uEuB_ljFrs-res-1",
+          "type": "article",
+          "title": "Active Storage Overview",
+          "url": "https://guides.rubyonrails.org/active_storage_overview.html"
+        },
+        {
+          "id": "JyARA-iMMw2uEuB_ljFrs-res-2",
+          "type": "article",
+          "title": "Using Active Storage for Ruby on Rails",
+          "url": "https://medium.com/@bwrosen20/using-active-storage-for-ruby-on-rails-a84991e45d93"
+        },
+        {
+          "id": "JyARA-iMMw2uEuB_ljFrs-res-3",
+          "type": "video",
+          "title": "Active Storage For File Uploads | Ruby on Rails 7 Tutorial",
+          "url": "https://www.youtube.com/watch?v=jjjAJeWJ2xE"
+        },
+        {
+          "id": "JyARA-iMMw2uEuB_ljFrs-res-4",
+          "type": "video",
+          "title": "Active Storage in Ruby on Rails 5.2",
+          "url": "https://www.youtube.com/playlist?list=PL3mtAHT_eRexVRWcjcqgfTvYQD2scoTlk"
+        }
+      ]
+    },
+    "cUYKqkqvg2u3Z4KOtAE9m": {
+      "id": "cUYKqkqvg2u3Z4KOtAE9m",
+      "slug": "strong-parameters",
+      "title": "Strong Parameters",
+      "description": "Controller parameters are the data sent from a client (like a web browser) to your Rails application, typically through forms or API requests. These parameters are accessible within your controller actions. Strong parameters are a security feature in Rails that helps protect your application from mass assignment vulnerabilities. They work by requiring you to explicitly permit which parameters are allowed to be used when creating or updating database records, effectively filtering out any unexpected or malicious data that might be included in the request.",
+      "resources": [
+        {
+          "id": "cUYKqkqvg2u3Z4KOtAE9m-res-1",
+          "type": "article",
+          "title": "Parameters",
+          "url": "https://guides.rubyonrails.org/action_controller_overview.html#parameters"
+        },
+        {
+          "id": "cUYKqkqvg2u3Z4KOtAE9m-res-2",
+          "type": "article",
+          "title": "Strong Parameters",
+          "url": "https://guides.rubyonrails.org/action_controller_overview.html#strong-parameters"
+        },
+        {
+          "id": "cUYKqkqvg2u3Z4KOtAE9m-res-3",
+          "type": "article",
+          "title": "Rails Params: Where do they come from?",
+          "url": "https://medium.com/launch-school/params-in-rails-where-do-they-come-from-b172cdb46eb4"
+        },
+        {
+          "id": "cUYKqkqvg2u3Z4KOtAE9m-res-4",
+          "type": "article",
+          "title": "How the Rails params hash works",
+          "url": "https://www.honeybadger.io/blog/how-the-rails-params-hash-works/"
+        },
+        {
+          "id": "cUYKqkqvg2u3Z4KOtAE9m-res-5",
+          "type": "video",
+          "title": "Understanding Rails Params & How to Use Them",
+          "url": "https://www.youtube.com/watch?v=01xF2U2oA2M"
+        },
+        {
+          "id": "cUYKqkqvg2u3Z4KOtAE9m-res-6",
+          "type": "video",
+          "title": "Ruby On Rails - Strong Parameters in Your Controllers",
+          "url": "https://www.youtube.com/watch?v=Z8IrqXK86UM"
+        }
+      ]
+    },
+    "qtzX0ZzmWjs-CkHQDhsD1": {
+      "id": "qtzX0ZzmWjs-CkHQDhsD1",
+      "slug": "testing",
+      "title": "Testing",
+      "description": "Testing in software development involves verifying that individual units of code (unit tests) and the application as a whole (integration and system tests) function as expected. It helps ensure code quality, prevents regressions, and facilitates easier refactoring by providing a safety net to catch errors early in the development process. Different types of tests, such as unit, integration, and system tests, focus on different aspects of the application to provide comprehensive coverage.",
+      "resources": [
+        {
+          "id": "qtzX0ZzmWjs-CkHQDhsD1-res-1",
+          "type": "article",
+          "title": "Testing Rails Applications",
+          "url": "https://guides.rubyonrails.org/testing.html"
+        },
+        {
+          "id": "qtzX0ZzmWjs-CkHQDhsD1-res-2",
+          "type": "article",
+          "title": "A journey towards better Ruby on Rails testing practices",
+          "url": "https://thoughtbot.com/blog/a-journey-towards-better-testing-practices"
+        },
+        {
+          "id": "qtzX0ZzmWjs-CkHQDhsD1-res-3",
+          "type": "article",
+          "title": "What are all the Rails testing tools and how do I use them?",
+          "url": "https://www.codewithjason.com/rails-testing-tools/"
+        },
+        {
+          "id": "qtzX0ZzmWjs-CkHQDhsD1-res-4",
+          "type": "video",
+          "title": "Testing in Ruby on Rails Applications (Unit, Integration, & Functional Tests)",
+          "url": "https://www.youtube.com/watch?v=eXmA1vWGDfs"
+        },
+        {
+          "id": "qtzX0ZzmWjs-CkHQDhsD1-res-5",
+          "type": "video",
+          "title": "Testing A Rails App That Uses Devise Sessions | Ruby On Rails 7 Tutorial",
+          "url": "https://www.youtube.com/watch?v=PtGjHGdJQrQ"
+        }
+      ]
+    },
+    "yrW99MwJNCBMinYUXm1B_": {
+      "id": "yrW99MwJNCBMinYUXm1B_",
+      "slug": "transactions",
+      "title": "Transactions",
+      "description": "Transactions are a sequence of operations performed as a single logical unit of work. They ensure data integrity by treating a series of database operations as an \"all or nothing\" proposition. If any operation within the transaction fails, the entire transaction is rolled back, reverting the database to its original state before the transaction began. This prevents partial updates and maintains consistency.",
+      "resources": [
+        {
+          "id": "yrW99MwJNCBMinYUXm1B_-res-1",
+          "type": "article",
+          "title": "Active Record Transactions",
+          "url": "https://api.rubyonrails.org/classes/ActiveRecord/Transactions/ClassMethods.html"
+        },
+        {
+          "id": "yrW99MwJNCBMinYUXm1B_-res-2",
+          "type": "article",
+          "title": "What Is A Transaction?",
+          "url": "https://www.honeybadger.io/blog/database-transactions-rails-activerecord/"
+        },
+        {
+          "id": "yrW99MwJNCBMinYUXm1B_-res-3",
+          "type": "article",
+          "title": "Rails transactions: The Complete Guide",
+          "url": "https://medium.com/@kristenrogers.kr75/rails-transactions-the-complete-guide-7b5c00c604fc"
+        },
+        {
+          "id": "yrW99MwJNCBMinYUXm1B_-res-4",
+          "type": "article",
+          "title": "107.ActiveRecord Transactions in depth",
+          "url": "https://courses.bigbinaryacademy.com/learn-rubyonrails/activerecord-transactions-in-depth/"
+        },
+        {
+          "id": "yrW99MwJNCBMinYUXm1B_-res-5",
+          "type": "article",
+          "title": "5 Tips to Design Ruby on Rails Transactions the Right Way",
+          "url": "https://blog.appsignal.com/2022/03/30/5-tips-to-design-ruby-on-rails-transactions-the-right-way.html"
+        }
+      ]
+    },
+    "UD5BpSz2CRK1_Sl2z67AL": {
+      "id": "UD5BpSz2CRK1_Sl2z67AL",
+      "slug": "validations",
+      "title": "Validations",
+      "description": "Validations are rules that you define for your models to ensure that only valid data is saved into your database. They help maintain data integrity by checking if attributes meet specific criteria, such as presence, format, uniqueness, or custom conditions, before a record is created or updated. If a validation fails, the record will not be saved, and an error message will be added to the object's `errors` collection.",
+      "resources": [
+        {
+          "id": "UD5BpSz2CRK1_Sl2z67AL-res-1",
+          "type": "article",
+          "title": "Active Record Validations",
+          "url": "https://guides.rubyonrails.org/active_record_validations.html"
+        },
+        {
+          "id": "UD5BpSz2CRK1_Sl2z67AL-res-2",
+          "type": "article",
+          "title": "Ruby on Rails - Validation",
+          "url": "https://www.tutorialspoint.com/ruby-on-rails/rails-validation.htm"
+        },
+        {
+          "id": "UD5BpSz2CRK1_Sl2z67AL-res-3",
+          "type": "article",
+          "title": "A Deep Dive into Active Record Validations",
+          "url": "https://www.honeybadger.io/blog/active-record-validations/"
+        },
+        {
+          "id": "UD5BpSz2CRK1_Sl2z67AL-res-4",
+          "type": "video",
+          "title": "Active Record Validations For Beginners | Ruby On Rails 7 Tutorial",
+          "url": "https://www.youtube.com/watch?v=gLRm5UajMiE"
+        },
+        {
+          "id": "UD5BpSz2CRK1_Sl2z67AL-res-5",
+          "type": "video",
+          "title": "Understanding Ruby on Rails ActiveRecord Validations",
+          "url": "https://www.youtube.com/watch?v=c3hoXWO_6ao"
+        }
+      ]
+    },
+    "e7tcUrtjEcFvQNL6PCYE1": {
+      "id": "e7tcUrtjEcFvQNL6PCYE1",
+      "slug": "viewcomponent",
+      "title": "ViewComponent",
+      "description": "ViewComponent is a framework for building reusable, testable & encapsulated UI components in Ruby on Rails. It encourages a component-based architecture within your Rails application, allowing you to define UI elements as Ruby classes with associated templates, similar to components in frameworks like React or Vue. This approach promotes better organization, maintainability, and reusability of your view code.",
+      "resources": [
+        {
+          "id": "e7tcUrtjEcFvQNL6PCYE1-res-1",
+          "type": "article",
+          "title": "ViewComponent",
+          "url": "https://viewcomponent.org/"
+        },
+        {
+          "id": "e7tcUrtjEcFvQNL6PCYE1-res-2",
+          "type": "article",
+          "title": "view_component",
+          "url": "https://github.com/ViewComponent/view_component"
+        },
+        {
+          "id": "e7tcUrtjEcFvQNL6PCYE1-res-3",
+          "type": "article",
+          "title": "Building reusable UI components in Rails with ViewComponent",
+          "url": "https://www.honeybadger.io/blog/rails-viewcomponent/"
+        },
+        {
+          "id": "e7tcUrtjEcFvQNL6PCYE1-res-4",
+          "type": "video",
+          "title": "ViewComponent Crash Course with Ruby on Rails",
+          "url": "https://www.youtube.com/watch?v=Mc19pB784Us"
+        },
+        {
+          "id": "e7tcUrtjEcFvQNL6PCYE1-res-5",
+          "type": "video",
+          "title": "Intro To View Components In Ruby On Rails 7",
+          "url": "https://www.youtube.com/watch?v=z077hg7Zzyk"
+        }
+      ]
+    },
+    "VCufea-9vs4DfzB815IT5": {
+      "id": "VCufea-9vs4DfzB815IT5",
+      "slug": "why-web-frameworks",
+      "title": "Why Web Frameworks?",
+      "description": "Web frameworks provide a structured and efficient way to build web applications by offering pre-built components, tools, and conventions. They handle common tasks like routing, database interaction, and templating, allowing developers to focus on the unique features of their application rather than reinventing the wheel. This leads to faster development, more maintainable code, and improved security.",
+      "resources": []
+    }
+  }
+}

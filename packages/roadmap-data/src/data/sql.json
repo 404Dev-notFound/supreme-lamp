@@ -1,0 +1,3696 @@
+{
+  "slug": "sql",
+  "title": "Sql",
+  "description": "Comprehensive learning curriculum and mastery roadmap for sql.",
+  "category": "skill",
+  "level": "Intermediate",
+  "topicCount": 112,
+  "iconName": "Compass",
+  "nodes": [
+    {
+      "id": "node-6vYFb_D1N_-tLWZftL-Az",
+      "label": "ABS",
+      "topicId": "6vYFb_D1N_-tLWZftL-Az",
+      "level": 1,
+      "position": {
+        "x": 80,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-igg34gLPl3HYVAmRNFGcV",
+      "label": "ACID",
+      "topicId": "igg34gLPl3HYVAmRNFGcV",
+      "level": 1,
+      "position": {
+        "x": 340,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-vTMd0bqz4eTgLnhfgY61h",
+      "label": "Advanced Functions",
+      "topicId": "vTMd0bqz4eTgLnhfgY61h",
+      "level": 1,
+      "position": {
+        "x": 600,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-UDqbT1y-YzBrljfKSz_RG",
+      "label": "Advanced SQL Concepts",
+      "topicId": "UDqbT1y-YzBrljfKSz_RG",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-LX9nzJ4uqznHN4SksoDvr",
+      "label": "Aggregate Queries",
+      "topicId": "LX9nzJ4uqznHN4SksoDvr",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-WjXlO42WL9saDS7RIGapt",
+      "label": "Alter Table",
+      "topicId": "WjXlO42WL9saDS7RIGapt",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-Wou6YXLYUgomvcELh851L",
+      "label": "AVG",
+      "topicId": "Wou6YXLYUgomvcELh851L",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-JDDG4KfhtIlw1rkNCzUli",
+      "label": "Basic SQL Syntax",
+      "topicId": "JDDG4KfhtIlw1rkNCzUli",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-7sTW1vwUhCFOMXYjScVEt",
+      "label": "BEGIN",
+      "topicId": "7sTW1vwUhCFOMXYjScVEt",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-W2ePJHdfEiEJ3ZKoRQKt_",
+      "label": "CASE",
+      "topicId": "W2ePJHdfEiEJ3ZKoRQKt_",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-BAqJQvcguhIhzyII5LRH6",
+      "label": "CEILING",
+      "topicId": "BAqJQvcguhIhzyII5LRH6",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-Q0h9Wfnl_W9ThOkv7Q17A",
+      "label": "CHECK",
+      "topicId": "Q0h9Wfnl_W9ThOkv7Q17A",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-k7lZe4QRt9q4InUImFmvx",
+      "label": "COALESCE",
+      "topicId": "k7lZe4QRt9q4InUImFmvx",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-wmtt-3auWLdQWuVdwZLPd",
+      "label": "Column",
+      "topicId": "wmtt-3auWLdQWuVdwZLPd",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-3cMECz5QPVDOFrk5duObs",
+      "label": "COMMIT",
+      "topicId": "3cMECz5QPVDOFrk5duObs",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-tedQynR0xicVKhuR1oahw",
+      "label": "CTEs (Common Table Expressions)",
+      "topicId": "tedQynR0xicVKhuR1oahw",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-5inpEqafeVCfqsURHzQQg",
+      "label": "CONCAT",
+      "topicId": "5inpEqafeVCfqsURHzQQg",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-JZqS3Xapw6mfSPVgFW7av",
+      "label": "Correlated Subqueries",
+      "topicId": "JZqS3Xapw6mfSPVgFW7av",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-9aHYrOQDkA84tlxcVK5aD",
+      "label": "COUNT",
+      "topicId": "9aHYrOQDkA84tlxcVK5aD",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-epEpBxRosLhuAuKwp823r",
+      "label": "Create Table",
+      "topicId": "epEpBxRosLhuAuKwp823r",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-PcsGK4VBh0zNQIPZvNES4",
+      "label": "Creating Views",
+      "topicId": "PcsGK4VBh0zNQIPZvNES4",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-7ow6tiSSCnTpv_GYQU017",
+      "label": "Cross Join",
+      "topicId": "7ow6tiSSCnTpv_GYQU017",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-qBios3sZVhcJMpXmj9f7B",
+      "label": "Data Constraints",
+      "topicId": "qBios3sZVhcJMpXmj9f7B",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-xPOeXK1EPBNG56vgfG-VV",
+      "label": "Data Definition Language (DDL)",
+      "topicId": "xPOeXK1EPBNG56vgfG-VV",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-R1ktDJpXOz0PTllAcBrdu",
+      "label": "Data Integrity & Security",
+      "topicId": "R1ktDJpXOz0PTllAcBrdu",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-mBQ3Z8GlFcpIena3IB7D_",
+      "label": "Data Integrity Constraints",
+      "topicId": "mBQ3Z8GlFcpIena3IB7D_",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-WMSXi-eez_hHGDM8kUdWz",
+      "label": "Data Manipulation Language (DML)",
+      "topicId": "WMSXi-eez_hHGDM8kUdWz",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-tBzMDfCMh6MIagNaxCzin",
+      "label": "Data Types",
+      "topicId": "tBzMDfCMh6MIagNaxCzin",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-Ivqo2wa-_NhGU3vGd0pUI",
+      "label": "DATE",
+      "topicId": "Ivqo2wa-_NhGU3vGd0pUI",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-1E1WdWOyqxbbdiIbw26dZ",
+      "label": "DATEADD",
+      "topicId": "1E1WdWOyqxbbdiIbw26dZ",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-BJ4fQvagTO0B5UtXblyx8",
+      "label": "DATEPART",
+      "topicId": "BJ4fQvagTO0B5UtXblyx8",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-vhBZqqmUcEon6-Vwvla4q",
+      "label": "DB Security Best Practices",
+      "topicId": "vhBZqqmUcEon6-Vwvla4q",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-ddtVaA4Ls6qRj-7OtTSIH",
+      "label": "DELETE Statement",
+      "topicId": "ddtVaA4Ls6qRj-7OtTSIH",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-zWnvuHJLHr03PWkrW1wZZ",
+      "label": "DELETE Statement in SQL",
+      "topicId": "zWnvuHJLHr03PWkrW1wZZ",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-QM0ltgPu8lLLYc2MsTLj-",
+      "label": "dense_rank",
+      "topicId": "QM0ltgPu8lLLYc2MsTLj-",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-YzJ6QmY2arMfRzMAPaI0T",
+      "label": "Drop Table",
+      "topicId": "YzJ6QmY2arMfRzMAPaI0T",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-MIOuWWcCjLAmgzog2DBC3",
+      "label": "Dropping Views",
+      "topicId": "MIOuWWcCjLAmgzog2DBC3",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-z5Sf0VU14ZCQ80kL1qOqc",
+      "label": "Dynamic SQL",
+      "topicId": "z5Sf0VU14ZCQ80kL1qOqc",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-o2SH4iQn1Ap2yDZ7cVYLO",
+      "label": "FLOOR",
+      "topicId": "o2SH4iQn1Ap2yDZ7cVYLO",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-DHz6sRLYhFeCbAcNJS8hm",
+      "label": "Foreign Key",
+      "topicId": "DHz6sRLYhFeCbAcNJS8hm",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-N1Racr3ZpU320gS545We8",
+      "label": "FROM Clause in SELECT Statements",
+      "topicId": "N1Racr3ZpU320gS545We8",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-aS5zCyJRA779yHF0G2pje",
+      "label": "FULL OUTER JOIN",
+      "topicId": "aS5zCyJRA779yHF0G2pje",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-03qMopxzjx_-dZbYw9b7J",
+      "label": "GRANT and REVOKE",
+      "topicId": "03qMopxzjx_-dZbYw9b7J",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-14TKE6KhrH1yFtHcSZSXq",
+      "label": "GROUP BY",
+      "topicId": "14TKE6KhrH1yFtHcSZSXq",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-Zw8IHfCCMSxmVjx5Ho5ff",
+      "label": "GROUP BY",
+      "topicId": "Zw8IHfCCMSxmVjx5Ho5ff",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-HhICJpCK5__b-itUoEBES",
+      "label": "HAVING",
+      "topicId": "HhICJpCK5__b-itUoEBES",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-ytwCkSMTiTuemE0KVfAfy",
+      "label": "HAVING",
+      "topicId": "ytwCkSMTiTuemE0KVfAfy",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-LcljR70T-OnzSrJJDqOWf",
+      "label": "Indexes",
+      "topicId": "LcljR70T-OnzSrJJDqOWf",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-aaua13CkTxLOYXr8cAgPm",
+      "label": "INNER JOIN",
+      "topicId": "aaua13CkTxLOYXr8cAgPm",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node--Hew0y53ziZK3epQnGA0O",
+      "label": "INSERT",
+      "topicId": "-Hew0y53ziZK3epQnGA0O",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-mPj6BiK5FKKkIQ9WsWEo6",
+      "label": "INSERT Statement",
+      "topicId": "mPj6BiK5FKKkIQ9WsWEo6",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-8V6yw7kLaow-VVcv_K_pL",
+      "label": "JOIN Queries",
+      "topicId": "8V6yw7kLaow-VVcv_K_pL",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-4UQQYbjzwVxZOAxBuXKQS",
+      "label": "JOINs",
+      "topicId": "4UQQYbjzwVxZOAxBuXKQS",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-BcXdxY6bld5c0YNFSKkh-",
+      "label": "lag",
+      "topicId": "BcXdxY6bld5c0YNFSKkh-",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-aJJjaGunRrwyh9MjQfJt-",
+      "label": "lead",
+      "topicId": "aJJjaGunRrwyh9MjQfJt-",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-nhUKKWyBH80nyKfGT8ErC",
+      "label": "Learn the Basics",
+      "topicId": "nhUKKWyBH80nyKfGT8ErC",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-X9cJJ8zLZCF2cOoqxwFfY",
+      "label": "LEFT JOIN",
+      "topicId": "X9cJJ8zLZCF2cOoqxwFfY",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-RH8DLiQpDUWqw3U1522q5",
+      "label": "LENGTH",
+      "topicId": "RH8DLiQpDUWqw3U1522q5",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-knTG6pAq2mYP24WMa29xI",
+      "label": "LOWER",
+      "topicId": "knTG6pAq2mYP24WMa29xI",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-NtxGd6Vx-REBclry7lZuE",
+      "label": "Managing Indexes",
+      "topicId": "NtxGd6Vx-REBclry7lZuE",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-YqDJq3fPxUZlwsdq0kJg7",
+      "label": "MAX",
+      "topicId": "YqDJq3fPxUZlwsdq0kJg7",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-bFEYMlqPZtTUYtDQxqHzT",
+      "label": "MIN",
+      "topicId": "bFEYMlqPZtTUYtDQxqHzT",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-OUw--8zEq6lk5-6oySVHe",
+      "label": "MOD",
+      "topicId": "OUw--8zEq6lk5-6oySVHe",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-3eE-l-P93nOXoWfLr8PSW",
+      "label": "Modifying Views",
+      "topicId": "3eE-l-P93nOXoWfLr8PSW",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-xkPJ2MYiXmzC4yqQWyB_7",
+      "label": "Nested Subqueries",
+      "topicId": "xkPJ2MYiXmzC4yqQWyB_7",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-M4M_-vjM9GNy0NmXZneDA",
+      "label": "NOT NULL Constraint",
+      "topicId": "M4M_-vjM9GNy0NmXZneDA",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-KI6vngoYcHsnpIk8ErhhS",
+      "label": "NULLIF",
+      "topicId": "KI6vngoYcHsnpIk8ErhhS",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-ffwniprGJHZzJ7t3lQcXz",
+      "label": "Operators",
+      "topicId": "ffwniprGJHZzJ7t3lQcXz",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-C0dhS6uLf4TUSfvcWyXhv",
+      "label": "Optimizing Joins",
+      "topicId": "C0dhS6uLf4TUSfvcWyXhv",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-NfCiSPrL4upMssukcw3Kh",
+      "label": "ORDER BY",
+      "topicId": "NfCiSPrL4upMssukcw3Kh",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-4rqCPpTb0dAgpheBKshRG",
+      "label": "Performance Optimization",
+      "topicId": "4rqCPpTb0dAgpheBKshRG",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-nwFaz9i-1s0WVrVaFsoqb",
+      "label": "Pivot / Unpivot Operations",
+      "topicId": "nwFaz9i-1s0WVrVaFsoqb",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-Jlwmyq6CUQeDAlL4dazOP",
+      "label": "Primary Key",
+      "topicId": "Jlwmyq6CUQeDAlL4dazOP",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-C6P69YiFdS-ioPXMNfX07",
+      "label": "Query Analysis Techniques",
+      "topicId": "C6P69YiFdS-ioPXMNfX07",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-Ps9Yv2s-bKvEegGAbPsiA",
+      "label": "Query Optimization",
+      "topicId": "Ps9Yv2s-bKvEegGAbPsiA",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-cucCPw3KfetAP2OMFUs0X",
+      "label": "rank",
+      "topicId": "cucCPw3KfetAP2OMFUs0X",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-fNTb9y3zs1HPYclAmu_Wv",
+      "label": "RDBMS Benefits and Limitations",
+      "topicId": "fNTb9y3zs1HPYclAmu_Wv",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-TjgwabhEtaSoYMLNr6q9l",
+      "label": "Recursive Queries",
+      "topicId": "TjgwabhEtaSoYMLNr6q9l",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-UVTgbZrqpbYl1bQvQejcF",
+      "label": "Reducing Subqueries",
+      "topicId": "UVTgbZrqpbYl1bQvQejcF",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-VNbb3YPc0FtrROylRns8h",
+      "label": "REPLACE",
+      "topicId": "VNbb3YPc0FtrROylRns8h",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-shpgZkh1CLqUwjOaRtAFy",
+      "label": "RIGHT JOIN",
+      "topicId": "shpgZkh1CLqUwjOaRtAFy",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-xbD67KVlt3UhHpKh8HLx8",
+      "label": "ROLLBACK",
+      "topicId": "xbD67KVlt3UhHpKh8HLx8",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-9DntFiZV1AyaRPhYP5q6u",
+      "label": "ROUND",
+      "topicId": "9DntFiZV1AyaRPhYP5q6u",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-aLDl75i8gtLRA2Ud-fMmQ",
+      "label": "Row",
+      "topicId": "aLDl75i8gtLRA2Ud-fMmQ",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-zW27ZHdLwQY-85iqbBKQZ",
+      "label": "Row_number",
+      "topicId": "zW27ZHdLwQY-85iqbBKQZ",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-pJtYvXUo81aZfPuRjIbMq",
+      "label": "SAVEPOINT",
+      "topicId": "pJtYvXUo81aZfPuRjIbMq",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-eXQ-TrTlqL5p2AdGnozkL",
+      "label": "Scalar",
+      "topicId": "eXQ-TrTlqL5p2AdGnozkL",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-i8u8E_sne6XiKJo2FXDog",
+      "label": "Select Statement",
+      "topicId": "i8u8E_sne6XiKJo2FXDog",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-rmqXH29n1oXtZ8tvmcRFn",
+      "label": "SELECT statement",
+      "topicId": "rmqXH29n1oXtZ8tvmcRFn",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-w53CSY53nAAN0ux-XeJ4c",
+      "label": "Selective Projection",
+      "topicId": "w53CSY53nAAN0ux-XeJ4c",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-6qG0AVYd6Y1B8LOSDoMX9",
+      "label": "Self Join",
+      "topicId": "6qG0AVYd6Y1B8LOSDoMX9",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-6yoo7qC6X2jYDIjd3HIm7",
+      "label": "SQL keywords",
+      "topicId": "6yoo7qC6X2jYDIjd3HIm7",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-gx4KaFqKgJX9n9_ZGMqlZ",
+      "label": "SQL vs NoSQL",
+      "topicId": "gx4KaFqKgJX9n9_ZGMqlZ",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-w7FNjdwqjY7X69aJqqBy4",
+      "label": "Stored Procedures and Functions",
+      "topicId": "w7FNjdwqjY7X69aJqqBy4",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5040
+      }
+    },
+    {
+      "id": "node-86iZ8s8EdhSuYwgwAM_EO",
+      "label": "Sub Queries",
+      "topicId": "86iZ8s8EdhSuYwgwAM_EO",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5040
+      }
+    },
+    {
+      "id": "node-PnG_5D6q66NAKxXVOwA6N",
+      "label": "SUBSTRING",
+      "topicId": "PnG_5D6q66NAKxXVOwA6N",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5040
+      }
+    },
+    {
+      "id": "node-w4T3jFb0ilf1KNw-AvRXG",
+      "label": "SUM",
+      "topicId": "w4T3jFb0ilf1KNw-AvRXG",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5200
+      }
+    },
+    {
+      "id": "node-R9WDMRd-3wxsKH97-sT3n",
+      "label": "Table",
+      "topicId": "R9WDMRd-3wxsKH97-sT3n",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5200
+      }
+    },
+    {
+      "id": "node-88KlrMqSza9_YaD7Dv61p",
+      "label": "TIME",
+      "topicId": "88KlrMqSza9_YaD7Dv61p",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5200
+      }
+    },
+    {
+      "id": "node-7hEqkoxkdAWmakGZsMJx-",
+      "label": "TIMESTAMP",
+      "topicId": "7hEqkoxkdAWmakGZsMJx-",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5360
+      }
+    },
+    {
+      "id": "node-ujeq8EIFcrqkBjoFizsJM",
+      "label": "Transaction Isolation Levels",
+      "topicId": "ujeq8EIFcrqkBjoFizsJM",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5360
+      }
+    },
+    {
+      "id": "node-OdaBXz2XBAVLsQ-m7xtAM",
+      "label": "Transactions",
+      "topicId": "OdaBXz2XBAVLsQ-m7xtAM",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5360
+      }
+    },
+    {
+      "id": "node-K5vhqTJrdPK08Txv8zaEj",
+      "label": "Truncate Table",
+      "topicId": "K5vhqTJrdPK08Txv8zaEj",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5520
+      }
+    },
+    {
+      "id": "node-5yGo8i7eplxtXOD_qfzOs",
+      "label": "Unique Constraint",
+      "topicId": "5yGo8i7eplxtXOD_qfzOs",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5520
+      }
+    },
+    {
+      "id": "node-eu9dJFi6gBPMBdy08Y5Bb",
+      "label": "UPDATE Statement",
+      "topicId": "eu9dJFi6gBPMBdy08Y5Bb",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5520
+      }
+    },
+    {
+      "id": "node-KJJ6PYjTnr_3yU2mNPL9v",
+      "label": "UPDATE Statement",
+      "topicId": "KJJ6PYjTnr_3yU2mNPL9v",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5680
+      }
+    },
+    {
+      "id": "node-Othfo7NvTVzfyL906PLM1",
+      "label": "UPPER",
+      "topicId": "Othfo7NvTVzfyL906PLM1",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5680
+      }
+    },
+    {
+      "id": "node-9wOgP0i9G4HSeZGn2Gm7r",
+      "label": "Using Indexes",
+      "topicId": "9wOgP0i9G4HSeZGn2Gm7r",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5680
+      }
+    },
+    {
+      "id": "node-2tyezwOIxV6O84N-Q3Awh",
+      "label": "Views",
+      "topicId": "2tyezwOIxV6O84N-Q3Awh",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5840
+      }
+    },
+    {
+      "id": "node-R9DQNc0AyAQ2HLpP4HOk6",
+      "label": "Relational Databases",
+      "topicId": "R9DQNc0AyAQ2HLpP4HOk6",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5840
+      }
+    },
+    {
+      "id": "node-WhYAy6f7Euk3E49-ot644",
+      "label": "WHERE Clause in SELECT Statements",
+      "topicId": "WhYAy6f7Euk3E49-ot644",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5840
+      }
+    },
+    {
+      "id": "node-tBvXLLp5FKeSSN35Kj1X4",
+      "label": "Window Functions",
+      "topicId": "tBvXLLp5FKeSSN35Kj1X4",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 6000
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-node-6vYFb_D1N_-tLWZftL-Az-node-igg34gLPl3HYVAmRNFGcV",
+      "source": "node-6vYFb_D1N_-tLWZftL-Az",
+      "target": "node-igg34gLPl3HYVAmRNFGcV",
+      "animated": true
+    },
+    {
+      "id": "edge-node-igg34gLPl3HYVAmRNFGcV-node-vTMd0bqz4eTgLnhfgY61h",
+      "source": "node-igg34gLPl3HYVAmRNFGcV",
+      "target": "node-vTMd0bqz4eTgLnhfgY61h",
+      "animated": true
+    },
+    {
+      "id": "edge-node-vTMd0bqz4eTgLnhfgY61h-node-UDqbT1y-YzBrljfKSz_RG",
+      "source": "node-vTMd0bqz4eTgLnhfgY61h",
+      "target": "node-UDqbT1y-YzBrljfKSz_RG",
+      "animated": true
+    },
+    {
+      "id": "edge-node-UDqbT1y-YzBrljfKSz_RG-node-LX9nzJ4uqznHN4SksoDvr",
+      "source": "node-UDqbT1y-YzBrljfKSz_RG",
+      "target": "node-LX9nzJ4uqznHN4SksoDvr",
+      "animated": true
+    },
+    {
+      "id": "edge-node-LX9nzJ4uqznHN4SksoDvr-node-WjXlO42WL9saDS7RIGapt",
+      "source": "node-LX9nzJ4uqznHN4SksoDvr",
+      "target": "node-WjXlO42WL9saDS7RIGapt",
+      "animated": true
+    },
+    {
+      "id": "edge-node-WjXlO42WL9saDS7RIGapt-node-Wou6YXLYUgomvcELh851L",
+      "source": "node-WjXlO42WL9saDS7RIGapt",
+      "target": "node-Wou6YXLYUgomvcELh851L",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Wou6YXLYUgomvcELh851L-node-JDDG4KfhtIlw1rkNCzUli",
+      "source": "node-Wou6YXLYUgomvcELh851L",
+      "target": "node-JDDG4KfhtIlw1rkNCzUli",
+      "animated": true
+    },
+    {
+      "id": "edge-node-JDDG4KfhtIlw1rkNCzUli-node-7sTW1vwUhCFOMXYjScVEt",
+      "source": "node-JDDG4KfhtIlw1rkNCzUli",
+      "target": "node-7sTW1vwUhCFOMXYjScVEt",
+      "animated": true
+    },
+    {
+      "id": "edge-node-7sTW1vwUhCFOMXYjScVEt-node-W2ePJHdfEiEJ3ZKoRQKt_",
+      "source": "node-7sTW1vwUhCFOMXYjScVEt",
+      "target": "node-W2ePJHdfEiEJ3ZKoRQKt_",
+      "animated": true
+    },
+    {
+      "id": "edge-node-W2ePJHdfEiEJ3ZKoRQKt_-node-BAqJQvcguhIhzyII5LRH6",
+      "source": "node-W2ePJHdfEiEJ3ZKoRQKt_",
+      "target": "node-BAqJQvcguhIhzyII5LRH6",
+      "animated": true
+    },
+    {
+      "id": "edge-node-BAqJQvcguhIhzyII5LRH6-node-Q0h9Wfnl_W9ThOkv7Q17A",
+      "source": "node-BAqJQvcguhIhzyII5LRH6",
+      "target": "node-Q0h9Wfnl_W9ThOkv7Q17A",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Q0h9Wfnl_W9ThOkv7Q17A-node-k7lZe4QRt9q4InUImFmvx",
+      "source": "node-Q0h9Wfnl_W9ThOkv7Q17A",
+      "target": "node-k7lZe4QRt9q4InUImFmvx",
+      "animated": true
+    },
+    {
+      "id": "edge-node-k7lZe4QRt9q4InUImFmvx-node-wmtt-3auWLdQWuVdwZLPd",
+      "source": "node-k7lZe4QRt9q4InUImFmvx",
+      "target": "node-wmtt-3auWLdQWuVdwZLPd",
+      "animated": true
+    },
+    {
+      "id": "edge-node-wmtt-3auWLdQWuVdwZLPd-node-3cMECz5QPVDOFrk5duObs",
+      "source": "node-wmtt-3auWLdQWuVdwZLPd",
+      "target": "node-3cMECz5QPVDOFrk5duObs",
+      "animated": true
+    },
+    {
+      "id": "edge-node-3cMECz5QPVDOFrk5duObs-node-tedQynR0xicVKhuR1oahw",
+      "source": "node-3cMECz5QPVDOFrk5duObs",
+      "target": "node-tedQynR0xicVKhuR1oahw",
+      "animated": true
+    },
+    {
+      "id": "edge-node-tedQynR0xicVKhuR1oahw-node-5inpEqafeVCfqsURHzQQg",
+      "source": "node-tedQynR0xicVKhuR1oahw",
+      "target": "node-5inpEqafeVCfqsURHzQQg",
+      "animated": true
+    },
+    {
+      "id": "edge-node-5inpEqafeVCfqsURHzQQg-node-JZqS3Xapw6mfSPVgFW7av",
+      "source": "node-5inpEqafeVCfqsURHzQQg",
+      "target": "node-JZqS3Xapw6mfSPVgFW7av",
+      "animated": true
+    },
+    {
+      "id": "edge-node-JZqS3Xapw6mfSPVgFW7av-node-9aHYrOQDkA84tlxcVK5aD",
+      "source": "node-JZqS3Xapw6mfSPVgFW7av",
+      "target": "node-9aHYrOQDkA84tlxcVK5aD",
+      "animated": true
+    },
+    {
+      "id": "edge-node-9aHYrOQDkA84tlxcVK5aD-node-epEpBxRosLhuAuKwp823r",
+      "source": "node-9aHYrOQDkA84tlxcVK5aD",
+      "target": "node-epEpBxRosLhuAuKwp823r",
+      "animated": true
+    },
+    {
+      "id": "edge-node-epEpBxRosLhuAuKwp823r-node-PcsGK4VBh0zNQIPZvNES4",
+      "source": "node-epEpBxRosLhuAuKwp823r",
+      "target": "node-PcsGK4VBh0zNQIPZvNES4",
+      "animated": true
+    },
+    {
+      "id": "edge-node-PcsGK4VBh0zNQIPZvNES4-node-7ow6tiSSCnTpv_GYQU017",
+      "source": "node-PcsGK4VBh0zNQIPZvNES4",
+      "target": "node-7ow6tiSSCnTpv_GYQU017",
+      "animated": true
+    },
+    {
+      "id": "edge-node-7ow6tiSSCnTpv_GYQU017-node-qBios3sZVhcJMpXmj9f7B",
+      "source": "node-7ow6tiSSCnTpv_GYQU017",
+      "target": "node-qBios3sZVhcJMpXmj9f7B",
+      "animated": true
+    },
+    {
+      "id": "edge-node-qBios3sZVhcJMpXmj9f7B-node-xPOeXK1EPBNG56vgfG-VV",
+      "source": "node-qBios3sZVhcJMpXmj9f7B",
+      "target": "node-xPOeXK1EPBNG56vgfG-VV",
+      "animated": true
+    },
+    {
+      "id": "edge-node-xPOeXK1EPBNG56vgfG-VV-node-R1ktDJpXOz0PTllAcBrdu",
+      "source": "node-xPOeXK1EPBNG56vgfG-VV",
+      "target": "node-R1ktDJpXOz0PTllAcBrdu",
+      "animated": true
+    },
+    {
+      "id": "edge-node-R1ktDJpXOz0PTllAcBrdu-node-mBQ3Z8GlFcpIena3IB7D_",
+      "source": "node-R1ktDJpXOz0PTllAcBrdu",
+      "target": "node-mBQ3Z8GlFcpIena3IB7D_",
+      "animated": true
+    },
+    {
+      "id": "edge-node-mBQ3Z8GlFcpIena3IB7D_-node-WMSXi-eez_hHGDM8kUdWz",
+      "source": "node-mBQ3Z8GlFcpIena3IB7D_",
+      "target": "node-WMSXi-eez_hHGDM8kUdWz",
+      "animated": true
+    },
+    {
+      "id": "edge-node-WMSXi-eez_hHGDM8kUdWz-node-tBzMDfCMh6MIagNaxCzin",
+      "source": "node-WMSXi-eez_hHGDM8kUdWz",
+      "target": "node-tBzMDfCMh6MIagNaxCzin",
+      "animated": true
+    },
+    {
+      "id": "edge-node-tBzMDfCMh6MIagNaxCzin-node-Ivqo2wa-_NhGU3vGd0pUI",
+      "source": "node-tBzMDfCMh6MIagNaxCzin",
+      "target": "node-Ivqo2wa-_NhGU3vGd0pUI",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Ivqo2wa-_NhGU3vGd0pUI-node-1E1WdWOyqxbbdiIbw26dZ",
+      "source": "node-Ivqo2wa-_NhGU3vGd0pUI",
+      "target": "node-1E1WdWOyqxbbdiIbw26dZ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-1E1WdWOyqxbbdiIbw26dZ-node-BJ4fQvagTO0B5UtXblyx8",
+      "source": "node-1E1WdWOyqxbbdiIbw26dZ",
+      "target": "node-BJ4fQvagTO0B5UtXblyx8",
+      "animated": true
+    },
+    {
+      "id": "edge-node-BJ4fQvagTO0B5UtXblyx8-node-vhBZqqmUcEon6-Vwvla4q",
+      "source": "node-BJ4fQvagTO0B5UtXblyx8",
+      "target": "node-vhBZqqmUcEon6-Vwvla4q",
+      "animated": true
+    },
+    {
+      "id": "edge-node-vhBZqqmUcEon6-Vwvla4q-node-ddtVaA4Ls6qRj-7OtTSIH",
+      "source": "node-vhBZqqmUcEon6-Vwvla4q",
+      "target": "node-ddtVaA4Ls6qRj-7OtTSIH",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ddtVaA4Ls6qRj-7OtTSIH-node-zWnvuHJLHr03PWkrW1wZZ",
+      "source": "node-ddtVaA4Ls6qRj-7OtTSIH",
+      "target": "node-zWnvuHJLHr03PWkrW1wZZ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-zWnvuHJLHr03PWkrW1wZZ-node-QM0ltgPu8lLLYc2MsTLj-",
+      "source": "node-zWnvuHJLHr03PWkrW1wZZ",
+      "target": "node-QM0ltgPu8lLLYc2MsTLj-",
+      "animated": true
+    },
+    {
+      "id": "edge-node-QM0ltgPu8lLLYc2MsTLj--node-YzJ6QmY2arMfRzMAPaI0T",
+      "source": "node-QM0ltgPu8lLLYc2MsTLj-",
+      "target": "node-YzJ6QmY2arMfRzMAPaI0T",
+      "animated": true
+    },
+    {
+      "id": "edge-node-YzJ6QmY2arMfRzMAPaI0T-node-MIOuWWcCjLAmgzog2DBC3",
+      "source": "node-YzJ6QmY2arMfRzMAPaI0T",
+      "target": "node-MIOuWWcCjLAmgzog2DBC3",
+      "animated": true
+    },
+    {
+      "id": "edge-node-MIOuWWcCjLAmgzog2DBC3-node-z5Sf0VU14ZCQ80kL1qOqc",
+      "source": "node-MIOuWWcCjLAmgzog2DBC3",
+      "target": "node-z5Sf0VU14ZCQ80kL1qOqc",
+      "animated": true
+    },
+    {
+      "id": "edge-node-z5Sf0VU14ZCQ80kL1qOqc-node-o2SH4iQn1Ap2yDZ7cVYLO",
+      "source": "node-z5Sf0VU14ZCQ80kL1qOqc",
+      "target": "node-o2SH4iQn1Ap2yDZ7cVYLO",
+      "animated": true
+    },
+    {
+      "id": "edge-node-o2SH4iQn1Ap2yDZ7cVYLO-node-DHz6sRLYhFeCbAcNJS8hm",
+      "source": "node-o2SH4iQn1Ap2yDZ7cVYLO",
+      "target": "node-DHz6sRLYhFeCbAcNJS8hm",
+      "animated": true
+    },
+    {
+      "id": "edge-node-DHz6sRLYhFeCbAcNJS8hm-node-N1Racr3ZpU320gS545We8",
+      "source": "node-DHz6sRLYhFeCbAcNJS8hm",
+      "target": "node-N1Racr3ZpU320gS545We8",
+      "animated": true
+    },
+    {
+      "id": "edge-node-N1Racr3ZpU320gS545We8-node-aS5zCyJRA779yHF0G2pje",
+      "source": "node-N1Racr3ZpU320gS545We8",
+      "target": "node-aS5zCyJRA779yHF0G2pje",
+      "animated": true
+    },
+    {
+      "id": "edge-node-aS5zCyJRA779yHF0G2pje-node-03qMopxzjx_-dZbYw9b7J",
+      "source": "node-aS5zCyJRA779yHF0G2pje",
+      "target": "node-03qMopxzjx_-dZbYw9b7J",
+      "animated": true
+    },
+    {
+      "id": "edge-node-03qMopxzjx_-dZbYw9b7J-node-14TKE6KhrH1yFtHcSZSXq",
+      "source": "node-03qMopxzjx_-dZbYw9b7J",
+      "target": "node-14TKE6KhrH1yFtHcSZSXq",
+      "animated": true
+    },
+    {
+      "id": "edge-node-14TKE6KhrH1yFtHcSZSXq-node-Zw8IHfCCMSxmVjx5Ho5ff",
+      "source": "node-14TKE6KhrH1yFtHcSZSXq",
+      "target": "node-Zw8IHfCCMSxmVjx5Ho5ff",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Zw8IHfCCMSxmVjx5Ho5ff-node-HhICJpCK5__b-itUoEBES",
+      "source": "node-Zw8IHfCCMSxmVjx5Ho5ff",
+      "target": "node-HhICJpCK5__b-itUoEBES",
+      "animated": true
+    },
+    {
+      "id": "edge-node-HhICJpCK5__b-itUoEBES-node-ytwCkSMTiTuemE0KVfAfy",
+      "source": "node-HhICJpCK5__b-itUoEBES",
+      "target": "node-ytwCkSMTiTuemE0KVfAfy",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ytwCkSMTiTuemE0KVfAfy-node-LcljR70T-OnzSrJJDqOWf",
+      "source": "node-ytwCkSMTiTuemE0KVfAfy",
+      "target": "node-LcljR70T-OnzSrJJDqOWf",
+      "animated": true
+    },
+    {
+      "id": "edge-node-LcljR70T-OnzSrJJDqOWf-node-aaua13CkTxLOYXr8cAgPm",
+      "source": "node-LcljR70T-OnzSrJJDqOWf",
+      "target": "node-aaua13CkTxLOYXr8cAgPm",
+      "animated": true
+    },
+    {
+      "id": "edge-node-aaua13CkTxLOYXr8cAgPm-node--Hew0y53ziZK3epQnGA0O",
+      "source": "node-aaua13CkTxLOYXr8cAgPm",
+      "target": "node--Hew0y53ziZK3epQnGA0O",
+      "animated": true
+    },
+    {
+      "id": "edge-node--Hew0y53ziZK3epQnGA0O-node-mPj6BiK5FKKkIQ9WsWEo6",
+      "source": "node--Hew0y53ziZK3epQnGA0O",
+      "target": "node-mPj6BiK5FKKkIQ9WsWEo6",
+      "animated": true
+    },
+    {
+      "id": "edge-node-mPj6BiK5FKKkIQ9WsWEo6-node-8V6yw7kLaow-VVcv_K_pL",
+      "source": "node-mPj6BiK5FKKkIQ9WsWEo6",
+      "target": "node-8V6yw7kLaow-VVcv_K_pL",
+      "animated": true
+    },
+    {
+      "id": "edge-node-8V6yw7kLaow-VVcv_K_pL-node-4UQQYbjzwVxZOAxBuXKQS",
+      "source": "node-8V6yw7kLaow-VVcv_K_pL",
+      "target": "node-4UQQYbjzwVxZOAxBuXKQS",
+      "animated": true
+    },
+    {
+      "id": "edge-node-4UQQYbjzwVxZOAxBuXKQS-node-BcXdxY6bld5c0YNFSKkh-",
+      "source": "node-4UQQYbjzwVxZOAxBuXKQS",
+      "target": "node-BcXdxY6bld5c0YNFSKkh-",
+      "animated": true
+    },
+    {
+      "id": "edge-node-BcXdxY6bld5c0YNFSKkh--node-aJJjaGunRrwyh9MjQfJt-",
+      "source": "node-BcXdxY6bld5c0YNFSKkh-",
+      "target": "node-aJJjaGunRrwyh9MjQfJt-",
+      "animated": true
+    },
+    {
+      "id": "edge-node-aJJjaGunRrwyh9MjQfJt--node-nhUKKWyBH80nyKfGT8ErC",
+      "source": "node-aJJjaGunRrwyh9MjQfJt-",
+      "target": "node-nhUKKWyBH80nyKfGT8ErC",
+      "animated": true
+    },
+    {
+      "id": "edge-node-nhUKKWyBH80nyKfGT8ErC-node-X9cJJ8zLZCF2cOoqxwFfY",
+      "source": "node-nhUKKWyBH80nyKfGT8ErC",
+      "target": "node-X9cJJ8zLZCF2cOoqxwFfY",
+      "animated": true
+    },
+    {
+      "id": "edge-node-X9cJJ8zLZCF2cOoqxwFfY-node-RH8DLiQpDUWqw3U1522q5",
+      "source": "node-X9cJJ8zLZCF2cOoqxwFfY",
+      "target": "node-RH8DLiQpDUWqw3U1522q5",
+      "animated": true
+    },
+    {
+      "id": "edge-node-RH8DLiQpDUWqw3U1522q5-node-knTG6pAq2mYP24WMa29xI",
+      "source": "node-RH8DLiQpDUWqw3U1522q5",
+      "target": "node-knTG6pAq2mYP24WMa29xI",
+      "animated": true
+    },
+    {
+      "id": "edge-node-knTG6pAq2mYP24WMa29xI-node-NtxGd6Vx-REBclry7lZuE",
+      "source": "node-knTG6pAq2mYP24WMa29xI",
+      "target": "node-NtxGd6Vx-REBclry7lZuE",
+      "animated": true
+    },
+    {
+      "id": "edge-node-NtxGd6Vx-REBclry7lZuE-node-YqDJq3fPxUZlwsdq0kJg7",
+      "source": "node-NtxGd6Vx-REBclry7lZuE",
+      "target": "node-YqDJq3fPxUZlwsdq0kJg7",
+      "animated": true
+    },
+    {
+      "id": "edge-node-YqDJq3fPxUZlwsdq0kJg7-node-bFEYMlqPZtTUYtDQxqHzT",
+      "source": "node-YqDJq3fPxUZlwsdq0kJg7",
+      "target": "node-bFEYMlqPZtTUYtDQxqHzT",
+      "animated": true
+    },
+    {
+      "id": "edge-node-bFEYMlqPZtTUYtDQxqHzT-node-OUw--8zEq6lk5-6oySVHe",
+      "source": "node-bFEYMlqPZtTUYtDQxqHzT",
+      "target": "node-OUw--8zEq6lk5-6oySVHe",
+      "animated": true
+    },
+    {
+      "id": "edge-node-OUw--8zEq6lk5-6oySVHe-node-3eE-l-P93nOXoWfLr8PSW",
+      "source": "node-OUw--8zEq6lk5-6oySVHe",
+      "target": "node-3eE-l-P93nOXoWfLr8PSW",
+      "animated": true
+    },
+    {
+      "id": "edge-node-3eE-l-P93nOXoWfLr8PSW-node-xkPJ2MYiXmzC4yqQWyB_7",
+      "source": "node-3eE-l-P93nOXoWfLr8PSW",
+      "target": "node-xkPJ2MYiXmzC4yqQWyB_7",
+      "animated": true
+    },
+    {
+      "id": "edge-node-xkPJ2MYiXmzC4yqQWyB_7-node-M4M_-vjM9GNy0NmXZneDA",
+      "source": "node-xkPJ2MYiXmzC4yqQWyB_7",
+      "target": "node-M4M_-vjM9GNy0NmXZneDA",
+      "animated": true
+    },
+    {
+      "id": "edge-node-M4M_-vjM9GNy0NmXZneDA-node-KI6vngoYcHsnpIk8ErhhS",
+      "source": "node-M4M_-vjM9GNy0NmXZneDA",
+      "target": "node-KI6vngoYcHsnpIk8ErhhS",
+      "animated": true
+    },
+    {
+      "id": "edge-node-KI6vngoYcHsnpIk8ErhhS-node-ffwniprGJHZzJ7t3lQcXz",
+      "source": "node-KI6vngoYcHsnpIk8ErhhS",
+      "target": "node-ffwniprGJHZzJ7t3lQcXz",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ffwniprGJHZzJ7t3lQcXz-node-C0dhS6uLf4TUSfvcWyXhv",
+      "source": "node-ffwniprGJHZzJ7t3lQcXz",
+      "target": "node-C0dhS6uLf4TUSfvcWyXhv",
+      "animated": true
+    },
+    {
+      "id": "edge-node-C0dhS6uLf4TUSfvcWyXhv-node-NfCiSPrL4upMssukcw3Kh",
+      "source": "node-C0dhS6uLf4TUSfvcWyXhv",
+      "target": "node-NfCiSPrL4upMssukcw3Kh",
+      "animated": true
+    },
+    {
+      "id": "edge-node-NfCiSPrL4upMssukcw3Kh-node-4rqCPpTb0dAgpheBKshRG",
+      "source": "node-NfCiSPrL4upMssukcw3Kh",
+      "target": "node-4rqCPpTb0dAgpheBKshRG",
+      "animated": true
+    },
+    {
+      "id": "edge-node-4rqCPpTb0dAgpheBKshRG-node-nwFaz9i-1s0WVrVaFsoqb",
+      "source": "node-4rqCPpTb0dAgpheBKshRG",
+      "target": "node-nwFaz9i-1s0WVrVaFsoqb",
+      "animated": true
+    },
+    {
+      "id": "edge-node-nwFaz9i-1s0WVrVaFsoqb-node-Jlwmyq6CUQeDAlL4dazOP",
+      "source": "node-nwFaz9i-1s0WVrVaFsoqb",
+      "target": "node-Jlwmyq6CUQeDAlL4dazOP",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Jlwmyq6CUQeDAlL4dazOP-node-C6P69YiFdS-ioPXMNfX07",
+      "source": "node-Jlwmyq6CUQeDAlL4dazOP",
+      "target": "node-C6P69YiFdS-ioPXMNfX07",
+      "animated": true
+    },
+    {
+      "id": "edge-node-C6P69YiFdS-ioPXMNfX07-node-Ps9Yv2s-bKvEegGAbPsiA",
+      "source": "node-C6P69YiFdS-ioPXMNfX07",
+      "target": "node-Ps9Yv2s-bKvEegGAbPsiA",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Ps9Yv2s-bKvEegGAbPsiA-node-cucCPw3KfetAP2OMFUs0X",
+      "source": "node-Ps9Yv2s-bKvEegGAbPsiA",
+      "target": "node-cucCPw3KfetAP2OMFUs0X",
+      "animated": true
+    },
+    {
+      "id": "edge-node-cucCPw3KfetAP2OMFUs0X-node-fNTb9y3zs1HPYclAmu_Wv",
+      "source": "node-cucCPw3KfetAP2OMFUs0X",
+      "target": "node-fNTb9y3zs1HPYclAmu_Wv",
+      "animated": true
+    },
+    {
+      "id": "edge-node-fNTb9y3zs1HPYclAmu_Wv-node-TjgwabhEtaSoYMLNr6q9l",
+      "source": "node-fNTb9y3zs1HPYclAmu_Wv",
+      "target": "node-TjgwabhEtaSoYMLNr6q9l",
+      "animated": true
+    },
+    {
+      "id": "edge-node-TjgwabhEtaSoYMLNr6q9l-node-UVTgbZrqpbYl1bQvQejcF",
+      "source": "node-TjgwabhEtaSoYMLNr6q9l",
+      "target": "node-UVTgbZrqpbYl1bQvQejcF",
+      "animated": true
+    },
+    {
+      "id": "edge-node-UVTgbZrqpbYl1bQvQejcF-node-VNbb3YPc0FtrROylRns8h",
+      "source": "node-UVTgbZrqpbYl1bQvQejcF",
+      "target": "node-VNbb3YPc0FtrROylRns8h",
+      "animated": true
+    },
+    {
+      "id": "edge-node-VNbb3YPc0FtrROylRns8h-node-shpgZkh1CLqUwjOaRtAFy",
+      "source": "node-VNbb3YPc0FtrROylRns8h",
+      "target": "node-shpgZkh1CLqUwjOaRtAFy",
+      "animated": true
+    },
+    {
+      "id": "edge-node-shpgZkh1CLqUwjOaRtAFy-node-xbD67KVlt3UhHpKh8HLx8",
+      "source": "node-shpgZkh1CLqUwjOaRtAFy",
+      "target": "node-xbD67KVlt3UhHpKh8HLx8",
+      "animated": true
+    },
+    {
+      "id": "edge-node-xbD67KVlt3UhHpKh8HLx8-node-9DntFiZV1AyaRPhYP5q6u",
+      "source": "node-xbD67KVlt3UhHpKh8HLx8",
+      "target": "node-9DntFiZV1AyaRPhYP5q6u",
+      "animated": true
+    },
+    {
+      "id": "edge-node-9DntFiZV1AyaRPhYP5q6u-node-aLDl75i8gtLRA2Ud-fMmQ",
+      "source": "node-9DntFiZV1AyaRPhYP5q6u",
+      "target": "node-aLDl75i8gtLRA2Ud-fMmQ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-aLDl75i8gtLRA2Ud-fMmQ-node-zW27ZHdLwQY-85iqbBKQZ",
+      "source": "node-aLDl75i8gtLRA2Ud-fMmQ",
+      "target": "node-zW27ZHdLwQY-85iqbBKQZ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-zW27ZHdLwQY-85iqbBKQZ-node-pJtYvXUo81aZfPuRjIbMq",
+      "source": "node-zW27ZHdLwQY-85iqbBKQZ",
+      "target": "node-pJtYvXUo81aZfPuRjIbMq",
+      "animated": true
+    },
+    {
+      "id": "edge-node-pJtYvXUo81aZfPuRjIbMq-node-eXQ-TrTlqL5p2AdGnozkL",
+      "source": "node-pJtYvXUo81aZfPuRjIbMq",
+      "target": "node-eXQ-TrTlqL5p2AdGnozkL",
+      "animated": true
+    },
+    {
+      "id": "edge-node-eXQ-TrTlqL5p2AdGnozkL-node-i8u8E_sne6XiKJo2FXDog",
+      "source": "node-eXQ-TrTlqL5p2AdGnozkL",
+      "target": "node-i8u8E_sne6XiKJo2FXDog",
+      "animated": true
+    },
+    {
+      "id": "edge-node-i8u8E_sne6XiKJo2FXDog-node-rmqXH29n1oXtZ8tvmcRFn",
+      "source": "node-i8u8E_sne6XiKJo2FXDog",
+      "target": "node-rmqXH29n1oXtZ8tvmcRFn",
+      "animated": true
+    },
+    {
+      "id": "edge-node-rmqXH29n1oXtZ8tvmcRFn-node-w53CSY53nAAN0ux-XeJ4c",
+      "source": "node-rmqXH29n1oXtZ8tvmcRFn",
+      "target": "node-w53CSY53nAAN0ux-XeJ4c",
+      "animated": true
+    },
+    {
+      "id": "edge-node-w53CSY53nAAN0ux-XeJ4c-node-6qG0AVYd6Y1B8LOSDoMX9",
+      "source": "node-w53CSY53nAAN0ux-XeJ4c",
+      "target": "node-6qG0AVYd6Y1B8LOSDoMX9",
+      "animated": true
+    },
+    {
+      "id": "edge-node-6qG0AVYd6Y1B8LOSDoMX9-node-6yoo7qC6X2jYDIjd3HIm7",
+      "source": "node-6qG0AVYd6Y1B8LOSDoMX9",
+      "target": "node-6yoo7qC6X2jYDIjd3HIm7",
+      "animated": true
+    },
+    {
+      "id": "edge-node-6yoo7qC6X2jYDIjd3HIm7-node-gx4KaFqKgJX9n9_ZGMqlZ",
+      "source": "node-6yoo7qC6X2jYDIjd3HIm7",
+      "target": "node-gx4KaFqKgJX9n9_ZGMqlZ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-gx4KaFqKgJX9n9_ZGMqlZ-node-w7FNjdwqjY7X69aJqqBy4",
+      "source": "node-gx4KaFqKgJX9n9_ZGMqlZ",
+      "target": "node-w7FNjdwqjY7X69aJqqBy4",
+      "animated": true
+    },
+    {
+      "id": "edge-node-w7FNjdwqjY7X69aJqqBy4-node-86iZ8s8EdhSuYwgwAM_EO",
+      "source": "node-w7FNjdwqjY7X69aJqqBy4",
+      "target": "node-86iZ8s8EdhSuYwgwAM_EO",
+      "animated": true
+    },
+    {
+      "id": "edge-node-86iZ8s8EdhSuYwgwAM_EO-node-PnG_5D6q66NAKxXVOwA6N",
+      "source": "node-86iZ8s8EdhSuYwgwAM_EO",
+      "target": "node-PnG_5D6q66NAKxXVOwA6N",
+      "animated": true
+    },
+    {
+      "id": "edge-node-PnG_5D6q66NAKxXVOwA6N-node-w4T3jFb0ilf1KNw-AvRXG",
+      "source": "node-PnG_5D6q66NAKxXVOwA6N",
+      "target": "node-w4T3jFb0ilf1KNw-AvRXG",
+      "animated": true
+    },
+    {
+      "id": "edge-node-w4T3jFb0ilf1KNw-AvRXG-node-R9WDMRd-3wxsKH97-sT3n",
+      "source": "node-w4T3jFb0ilf1KNw-AvRXG",
+      "target": "node-R9WDMRd-3wxsKH97-sT3n",
+      "animated": true
+    },
+    {
+      "id": "edge-node-R9WDMRd-3wxsKH97-sT3n-node-88KlrMqSza9_YaD7Dv61p",
+      "source": "node-R9WDMRd-3wxsKH97-sT3n",
+      "target": "node-88KlrMqSza9_YaD7Dv61p",
+      "animated": true
+    },
+    {
+      "id": "edge-node-88KlrMqSza9_YaD7Dv61p-node-7hEqkoxkdAWmakGZsMJx-",
+      "source": "node-88KlrMqSza9_YaD7Dv61p",
+      "target": "node-7hEqkoxkdAWmakGZsMJx-",
+      "animated": true
+    },
+    {
+      "id": "edge-node-7hEqkoxkdAWmakGZsMJx--node-ujeq8EIFcrqkBjoFizsJM",
+      "source": "node-7hEqkoxkdAWmakGZsMJx-",
+      "target": "node-ujeq8EIFcrqkBjoFizsJM",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ujeq8EIFcrqkBjoFizsJM-node-OdaBXz2XBAVLsQ-m7xtAM",
+      "source": "node-ujeq8EIFcrqkBjoFizsJM",
+      "target": "node-OdaBXz2XBAVLsQ-m7xtAM",
+      "animated": true
+    },
+    {
+      "id": "edge-node-OdaBXz2XBAVLsQ-m7xtAM-node-K5vhqTJrdPK08Txv8zaEj",
+      "source": "node-OdaBXz2XBAVLsQ-m7xtAM",
+      "target": "node-K5vhqTJrdPK08Txv8zaEj",
+      "animated": true
+    },
+    {
+      "id": "edge-node-K5vhqTJrdPK08Txv8zaEj-node-5yGo8i7eplxtXOD_qfzOs",
+      "source": "node-K5vhqTJrdPK08Txv8zaEj",
+      "target": "node-5yGo8i7eplxtXOD_qfzOs",
+      "animated": true
+    },
+    {
+      "id": "edge-node-5yGo8i7eplxtXOD_qfzOs-node-eu9dJFi6gBPMBdy08Y5Bb",
+      "source": "node-5yGo8i7eplxtXOD_qfzOs",
+      "target": "node-eu9dJFi6gBPMBdy08Y5Bb",
+      "animated": true
+    },
+    {
+      "id": "edge-node-eu9dJFi6gBPMBdy08Y5Bb-node-KJJ6PYjTnr_3yU2mNPL9v",
+      "source": "node-eu9dJFi6gBPMBdy08Y5Bb",
+      "target": "node-KJJ6PYjTnr_3yU2mNPL9v",
+      "animated": true
+    },
+    {
+      "id": "edge-node-KJJ6PYjTnr_3yU2mNPL9v-node-Othfo7NvTVzfyL906PLM1",
+      "source": "node-KJJ6PYjTnr_3yU2mNPL9v",
+      "target": "node-Othfo7NvTVzfyL906PLM1",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Othfo7NvTVzfyL906PLM1-node-9wOgP0i9G4HSeZGn2Gm7r",
+      "source": "node-Othfo7NvTVzfyL906PLM1",
+      "target": "node-9wOgP0i9G4HSeZGn2Gm7r",
+      "animated": true
+    },
+    {
+      "id": "edge-node-9wOgP0i9G4HSeZGn2Gm7r-node-2tyezwOIxV6O84N-Q3Awh",
+      "source": "node-9wOgP0i9G4HSeZGn2Gm7r",
+      "target": "node-2tyezwOIxV6O84N-Q3Awh",
+      "animated": true
+    },
+    {
+      "id": "edge-node-2tyezwOIxV6O84N-Q3Awh-node-R9DQNc0AyAQ2HLpP4HOk6",
+      "source": "node-2tyezwOIxV6O84N-Q3Awh",
+      "target": "node-R9DQNc0AyAQ2HLpP4HOk6",
+      "animated": true
+    },
+    {
+      "id": "edge-node-R9DQNc0AyAQ2HLpP4HOk6-node-WhYAy6f7Euk3E49-ot644",
+      "source": "node-R9DQNc0AyAQ2HLpP4HOk6",
+      "target": "node-WhYAy6f7Euk3E49-ot644",
+      "animated": true
+    },
+    {
+      "id": "edge-node-WhYAy6f7Euk3E49-ot644-node-tBvXLLp5FKeSSN35Kj1X4",
+      "source": "node-WhYAy6f7Euk3E49-ot644",
+      "target": "node-tBvXLLp5FKeSSN35Kj1X4",
+      "animated": true
+    }
+  ],
+  "topics": {
+    "6vYFb_D1N_-tLWZftL-Az": {
+      "id": "6vYFb_D1N_-tLWZftL-Az",
+      "slug": "abs",
+      "title": "ABS",
+      "description": "The `ABS()` function in SQL returns the absolute value of a given numeric expression, meaning it converts any negative number to its positive equivalent while leaving positive numbers unchanged. This function is useful when you need to ensure that the result of a calculation or a value stored in a database column is non-negative, such as when calculating distances, differences, or other metrics where only positive values make sense. For example, `SELECT ABS(-5)` would return `5`.",
+      "resources": [
+        {
+          "id": "6vYFb_D1N_-tLWZftL-Az-res-1",
+          "type": "article",
+          "title": "How to compute an absolute value in SQL",
+          "url": "https://www.airops.com/sql-guide/how-to-compute-an-absolute-value-in-sql"
+        },
+        {
+          "id": "6vYFb_D1N_-tLWZftL-Az-res-2",
+          "type": "article",
+          "title": "ABS",
+          "url": "https://www.w3schools.com/sql/func_sqlserver_abs.asp"
+        }
+      ]
+    },
+    "igg34gLPl3HYVAmRNFGcV": {
+      "id": "igg34gLPl3HYVAmRNFGcV",
+      "slug": "acid",
+      "title": "ACID",
+      "description": "ACID are the four properties of relational database systems that help in making sure that we are able to perform the transactions in a reliable manner. It's an acronym which refers to the presence of four properties: atomicity, consistency, isolation and durability",
+      "resources": [
+        {
+          "id": "igg34gLPl3HYVAmRNFGcV-res-1",
+          "type": "article",
+          "title": "What is ACID Compliant Database?",
+          "url": "https://retool.com/blog/whats-an-acid-compliant-database/"
+        },
+        {
+          "id": "igg34gLPl3HYVAmRNFGcV-res-2",
+          "type": "article",
+          "title": "What is ACID Compliance?: Atomicity, Consistency, Isolation",
+          "url": "https://fauna.com/blog/what-is-acid-compliance-atomicity-consistency-isolation"
+        },
+        {
+          "id": "igg34gLPl3HYVAmRNFGcV-res-3",
+          "type": "video",
+          "title": "ACID Explained: Atomic, Consistent, Isolated & Durable",
+          "url": "https://www.youtube.com/watch?v=yaQ5YMWkxq4"
+        }
+      ]
+    },
+    "vTMd0bqz4eTgLnhfgY61h": {
+      "id": "vTMd0bqz4eTgLnhfgY61h",
+      "slug": "advanced-functions",
+      "title": "Advanced Functions",
+      "description": "Advanced functions in SQL go beyond the basic operations like selecting and filtering data. These functions allow you to perform complex calculations, manipulate strings, work with dates, and analyze data in more sophisticated ways. They help you derive insights, transform data, and create more meaningful reports from your database.",
+      "resources": []
+    },
+    "UDqbT1y-YzBrljfKSz_RG": {
+      "id": "UDqbT1y-YzBrljfKSz_RG",
+      "slug": "advanced-sql",
+      "title": "Advanced SQL Concepts",
+      "description": "Advanced SQL concepts encompass a wide range of sophisticated techniques and features that go beyond basic querying and data manipulation. These include complex joins, subqueries, window functions, stored procedures, triggers, and advanced indexing strategies. By mastering these concepts, database professionals can optimize query performance, implement complex business logic, ensure data integrity, and perform advanced data analysis, enabling them to tackle more challenging database management and data processing tasks in large-scale, enterprise-level applications.",
+      "resources": []
+    },
+    "LX9nzJ4uqznHN4SksoDvr": {
+      "id": "LX9nzJ4uqznHN4SksoDvr",
+      "slug": "aggregate-queries",
+      "title": "Aggregate Queries",
+      "description": "Aggregate queries in SQL are used to calculate summary values from multiple rows of a table, reducing the data to a single row based on a specific calculation. These calculations provide insights like totals, averages, and counts. Commonly used aggregate functions include `COUNT()` to count rows, `SUM()` to add values, `AVG()` to calculate the average, `MIN()` to find the minimum value, and `MAX()` to find the maximum value within a group of rows.",
+      "resources": []
+    },
+    "WjXlO42WL9saDS7RIGapt": {
+      "id": "WjXlO42WL9saDS7RIGapt",
+      "slug": "alter-table",
+      "title": "Alter Table",
+      "description": "The `ALTER TABLE` statement in SQL is used to modify the structure of an existing table. This includes adding, dropping, or modifying columns, changing the data type of a column, setting default values, and adding or dropping primary or foreign keys.",
+      "resources": [
+        {
+          "id": "WjXlO42WL9saDS7RIGapt-res-1",
+          "type": "article",
+          "title": "ALTER TABLE Statement",
+          "url": "https://www.techonthenet.com/sql/tables/alter_table.php"
+        },
+        {
+          "id": "WjXlO42WL9saDS7RIGapt-res-2",
+          "type": "article",
+          "title": "ALTER TABLE - PostgreSQL",
+          "url": "https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-alter-table/"
+        }
+      ]
+    },
+    "Wou6YXLYUgomvcELh851L": {
+      "id": "Wou6YXLYUgomvcELh851L",
+      "slug": "avg",
+      "title": "AVG",
+      "description": "The `AVG()` function in SQL is an aggregate function that calculates the average value of a numeric column. It returns the sum of all the values in the column, divided by the count of those values.",
+      "resources": [
+        {
+          "id": "Wou6YXLYUgomvcELh851L-res-1",
+          "type": "article",
+          "title": "AVG",
+          "url": "https://www.sqlshack.com/sql-avg-function-introduction-and-examples/"
+        },
+        {
+          "id": "Wou6YXLYUgomvcELh851L-res-2",
+          "type": "article",
+          "title": "SQL AVG() Function",
+          "url": "https://www.w3schools.com/sql/sql_avg.asp"
+        }
+      ]
+    },
+    "JDDG4KfhtIlw1rkNCzUli": {
+      "id": "JDDG4KfhtIlw1rkNCzUli",
+      "slug": "basic-sql-syntax",
+      "title": "Basic SQL Syntax",
+      "description": "Basic SQL syntax consists of straightforward commands that allow users to interact with a relational database. The core commands include `SELECT` for querying data, `INSERT INTO` for adding new records, `UPDATE` for modifying existing data, and `DELETE` for removing records. Queries can be filtered using `WHERE`, sorted with `ORDER BY`, and data from multiple tables can be combined using `JOIN`. These commands form the foundation of SQL, enabling efficient data manipulation and retrieval within a database.",
+      "resources": [
+        {
+          "id": "JDDG4KfhtIlw1rkNCzUli-res-1",
+          "type": "article",
+          "title": "SQL Tutorial - Mode",
+          "url": "https://mode.com/sql-tutorial/"
+        },
+        {
+          "id": "JDDG4KfhtIlw1rkNCzUli-res-2",
+          "type": "article",
+          "title": "SQL Tutorial",
+          "url": "https://www.sqltutorial.org/"
+        }
+      ]
+    },
+    "7sTW1vwUhCFOMXYjScVEt": {
+      "id": "7sTW1vwUhCFOMXYjScVEt",
+      "slug": "begin",
+      "title": "BEGIN",
+      "description": "`BEGIN` is used in SQL to start a transaction, which is a sequence of one or more SQL operations that are executed as a single unit. A transaction ensures that all operations within it are completed successfully before any changes are committed to the database. If any part of the transaction fails, the `ROLLBACK` command can be used to undo all changes made during the transaction, maintaining the integrity of the database. Once all operations are successfully completed, the `COMMIT` command is used to save the changes. Transactions are crucial for maintaining data consistency and handling errors effectively.",
+      "resources": [
+        {
+          "id": "7sTW1vwUhCFOMXYjScVEt-res-1",
+          "type": "article",
+          "title": "BEGIN...END Statement",
+          "url": "https://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.infocenter.dc00801.1510/html/iqrefso/BABFBJAB.htm"
+        },
+        {
+          "id": "7sTW1vwUhCFOMXYjScVEt-res-2",
+          "type": "article",
+          "title": "SQL 'BEGIN' & 'END' Statements",
+          "url": "https://reintech.io/blog/understanding-sql-begin-end-statements-guide"
+        }
+      ]
+    },
+    "W2ePJHdfEiEJ3ZKoRQKt_": {
+      "id": "W2ePJHdfEiEJ3ZKoRQKt_",
+      "slug": "case",
+      "title": "CASE",
+      "description": "The CASE statement in SQL is used to create conditional logic within a query, allowing you to perform different actions based on specific conditions. It operates like an if-else statement, returning different values depending on the outcome of each condition. The syntax typically involves specifying one or more WHEN conditions, followed by the result for each condition, and an optional ELSE clause for a default outcome if none of the conditions are met.",
+      "resources": [
+        {
+          "id": "W2ePJHdfEiEJ3ZKoRQKt_-res-1",
+          "type": "article",
+          "title": "SQL CASE - Intermediate SQL",
+          "url": "https://mode.com/sql-tutorial/sql-case"
+        }
+      ]
+    },
+    "BAqJQvcguhIhzyII5LRH6": {
+      "id": "BAqJQvcguhIhzyII5LRH6",
+      "slug": "ceiling",
+      "title": "CEILING",
+      "description": "The `CEILING()` function in SQL returns the smallest integer greater than or equal to a given numeric value. It's useful when you need to round up a number to the nearest whole number, regardless of whether the number is already an integer or a decimal. For example, `CEILING(4.2)` would return `5`, and `CEILING(-4.7)` would return `-4`. This function is commonly used in scenarios where rounding up is necessary, such as calculating the number of pages needed to display a certain number of items when each page has a fixed capacity.",
+      "resources": [
+        {
+          "id": "BAqJQvcguhIhzyII5LRH6-res-1",
+          "type": "article",
+          "title": "SQL CEILING",
+          "url": "https://www.w3schools.com/sql/func_sqlserver_ceiling.asp"
+        }
+      ]
+    },
+    "Q0h9Wfnl_W9ThOkv7Q17A": {
+      "id": "Q0h9Wfnl_W9ThOkv7Q17A",
+      "slug": "check",
+      "title": "CHECK",
+      "description": "A `CHECK` constraint in SQL is used to enforce data integrity by specifying a condition that must be true for each row in a table. It allows you to define custom rules or restrictions on the values that can be inserted or updated in one or more columns. `CHECK` constraints help maintain data quality by preventing invalid or inconsistent data from being added to the database, ensuring that only data meeting specified criteria is accepted.",
+      "resources": [
+        {
+          "id": "Q0h9Wfnl_W9ThOkv7Q17A-res-1",
+          "type": "video",
+          "title": "CHECK Constraint",
+          "url": "https://www.youtube.com/watch?v=EeG2boJCXbc"
+        }
+      ]
+    },
+    "k7lZe4QRt9q4InUImFmvx": {
+      "id": "k7lZe4QRt9q4InUImFmvx",
+      "slug": "coalesce",
+      "title": "COALESCE",
+      "description": "`COALESCE` is an SQL function that returns the first non-null value in a list of expressions. It's commonly used to handle null values or provide default values in queries. `COALESCE` evaluates its arguments in order and returns the first non-null result, making it useful for data cleaning, report generation, and simplifying complex conditional logic in SQL statements.",
+      "resources": [
+        {
+          "id": "k7lZe4QRt9q4InUImFmvx-res-1",
+          "type": "article",
+          "title": "How to use the COALESCE function in SQL",
+          "url": "https://learnsql.com/blog/coalesce-function-sql/"
+        },
+        {
+          "id": "k7lZe4QRt9q4InUImFmvx-res-2",
+          "type": "article",
+          "title": "COALESCE - PostgreSQL",
+          "url": "https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-coalesce/"
+        }
+      ]
+    },
+    "wmtt-3auWLdQWuVdwZLPd": {
+      "id": "wmtt-3auWLdQWuVdwZLPd",
+      "slug": "column",
+      "title": "Column",
+      "description": "In SQL, columns are used to categorize the data in a table. A column serves as a structure that stores a specific type of data (ints, str, bool, etc.) in a table. Each column in a table is designed with a type, which configures the data that it can hold. Using the right column types and size can help to maintain data integrity and optimize performance.",
+      "resources": [
+        {
+          "id": "wmtt-3auWLdQWuVdwZLPd-res-1",
+          "type": "article",
+          "title": "Column Types - PostgreSQL",
+          "url": "https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-data-types/"
+        }
+      ]
+    },
+    "3cMECz5QPVDOFrk5duObs": {
+      "id": "3cMECz5QPVDOFrk5duObs",
+      "slug": "commit",
+      "title": "COMMIT",
+      "description": "COMMIT is an SQL command that saves all changes made during a transaction to the database. Until a COMMIT command is issued, all modifications within a transaction are only temporary and visible to the current session. Once COMMIT is executed, the changes become permanent and visible to other users and sessions. This ensures data consistency and durability.",
+      "resources": [
+        {
+          "id": "3cMECz5QPVDOFrk5duObs-res-1",
+          "type": "article",
+          "title": "SQL COMMIT and ROLLBACK",
+          "url": "https://www.digitalocean.com/community/tutorials/sql-commit-sql-rollback"
+        }
+      ]
+    },
+    "tedQynR0xicVKhuR1oahw": {
+      "id": "tedQynR0xicVKhuR1oahw",
+      "slug": "common-table-expressions",
+      "title": "CTEs (Common Table Expressions)",
+      "description": "Common Table Expressions (CTEs) in SQL are named temporary result sets that exist within the scope of a single `SELECT`, `INSERT`, `UPDATE`, `DELETE`, or `MERGE` statement. Defined using the `WITH` clause, CTEs act like virtual tables that can be referenced multiple times within a query. They improve query readability, simplify complex queries by breaking them into manageable parts, and allow for recursive queries. CTEs are particularly useful for hierarchical or graph-like data structures and can enhance query performance in some database systems.",
+      "resources": [
+        {
+          "id": "tedQynR0xicVKhuR1oahw-res-1",
+          "type": "article",
+          "title": "Common Table Expressions (CTEs)",
+          "url": "https://hightouch.com/sql-dictionary/sql-common-table-expression-cte"
+        },
+        {
+          "id": "tedQynR0xicVKhuR1oahw-res-2",
+          "type": "article",
+          "title": "What is a Common Table Expression?",
+          "url": "https://learnsql.com/blog/what-is-common-table-expression/"
+        }
+      ]
+    },
+    "5inpEqafeVCfqsURHzQQg": {
+      "id": "5inpEqafeVCfqsURHzQQg",
+      "slug": "concat",
+      "title": "CONCAT",
+      "description": "`CONCAT` is an SQL function used to combine two or more strings into a single string. It takes multiple input strings as arguments and returns a new string that is the concatenation of all the input strings in the order they were provided. `CONCAT` is commonly used in `SELECT` statements to merge data from multiple columns, create custom output formats, or generate dynamic SQL statements.",
+      "resources": [
+        {
+          "id": "5inpEqafeVCfqsURHzQQg-res-1",
+          "type": "article",
+          "title": "An overview of the CONCAT function in SQL",
+          "url": "https://www.sqlshack.com/an-overview-of-the-concat-function-in-sql-with-examples/"
+        }
+      ]
+    },
+    "JZqS3Xapw6mfSPVgFW7av": {
+      "id": "JZqS3Xapw6mfSPVgFW7av",
+      "slug": "correlated-subqueries",
+      "title": "Correlated Subqueries",
+      "description": "In SQL, a correlated subquery is a subquery that uses values from the outer query in its `WHERE` clause. The correlated subquery is evaluated once for each row processed by the outer query. It exists because it depends on the outer query and it cannot execute independently of the outer query because the subquery is correlated with the outer query as it uses its column in its `WHERE` clause.",
+      "resources": [
+        {
+          "id": "JZqS3Xapw6mfSPVgFW7av-res-1",
+          "type": "article",
+          "title": "Correlated Subqueries",
+          "url": "https://dev.mysql.com/doc/refman/8.4/en/correlated-subqueries.html"
+        },
+        {
+          "id": "JZqS3Xapw6mfSPVgFW7av-res-2",
+          "type": "video",
+          "title": "Intro To Subqueries",
+          "url": "https://www.youtube.com/watch?v=TUxadt94L0M"
+        }
+      ]
+    },
+    "9aHYrOQDkA84tlxcVK5aD": {
+      "id": "9aHYrOQDkA84tlxcVK5aD",
+      "slug": "count",
+      "title": "COUNT",
+      "description": "`COUNT` is an SQL aggregate function that returns the number of rows that match the specified criteria. It can be used to count all rows in a table, non-null values in a specific column, or rows that meet certain conditions when combined with a `WHERE` clause. `COUNT` is often used in data analysis, reporting, and performance optimization queries to determine the size of datasets or the frequency of particular values.",
+      "resources": [
+        {
+          "id": "9aHYrOQDkA84tlxcVK5aD-res-1",
+          "type": "article",
+          "title": "COUNT SQL Function",
+          "url": "https://www.datacamp.com/tutorial/count-sql-function"
+        }
+      ]
+    },
+    "epEpBxRosLhuAuKwp823r": {
+      "id": "epEpBxRosLhuAuKwp823r",
+      "slug": "create-table",
+      "title": "Create Table",
+      "description": "`CREATE TABLE` is an SQL statement used to define and create a new table in a database. It specifies the table name, column names, data types, and optional constraints such as primary keys, foreign keys, and default values. This statement establishes the structure of the table, defining how data will be stored and organized within it. `CREATE TABLE` is a fundamental command in database management, essential for setting up the schema of a database and preparing it to store data.",
+      "resources": [
+        {
+          "id": "epEpBxRosLhuAuKwp823r-res-1",
+          "type": "article",
+          "title": "CREATE TABLE",
+          "url": "https://www.tutorialspoint.com/sql/sql-create-table.htm"
+        },
+        {
+          "id": "epEpBxRosLhuAuKwp823r-res-2",
+          "type": "article",
+          "title": "SQL CREATE TABLE",
+          "url": "https://www.programiz.com/sql/create-table"
+        }
+      ]
+    },
+    "PcsGK4VBh0zNQIPZvNES4": {
+      "id": "PcsGK4VBh0zNQIPZvNES4",
+      "slug": "creating-views",
+      "title": "Creating Views",
+      "description": "Creating views in SQL involves using the `CREATE VIEW` statement to define a virtual table based on the result of a `SELECT` query. Views don't store data themselves but provide a way to present data from one or more tables in a specific format. They can simplify complex queries, enhance data security by restricting access to underlying tables, and provide a consistent interface for querying frequently used data combinations. Views can be queried like regular tables and are often used to encapsulate business logic or present data in a more user-friendly manner.",
+      "resources": [
+        {
+          "id": "PcsGK4VBh0zNQIPZvNES4-res-1",
+          "type": "article",
+          "title": "How to create a view in SQL",
+          "url": "https://www.sqlshack.com/how-to-create-a-view-in-sql-server/"
+        },
+        {
+          "id": "PcsGK4VBh0zNQIPZvNES4-res-2",
+          "type": "video",
+          "title": "SQL Views in 4 minutes",
+          "url": "https://www.youtube.com/watch?v=vLLkNI-vkV8"
+        }
+      ]
+    },
+    "7ow6tiSSCnTpv_GYQU017": {
+      "id": "7ow6tiSSCnTpv_GYQU017",
+      "slug": "cross-join",
+      "title": "Cross Join",
+      "description": "A Cross Join produces a result set that is the number of rows in the first table multiplied by the number of rows in the second table. If a WHERE clause is used in conjunction with a CROSS JOIN, it functions like an INNER JOIN. However, using an INNER JOIN is generally preferred to using a CROSS JOIN with a WHERE clause for readability and performance reasons. It essentially creates all possible combinations of rows from the tables involved.",
+      "resources": [
+        {
+          "id": "7ow6tiSSCnTpv_GYQU017-res-1",
+          "type": "article",
+          "title": "SQL CROSS JOIN With Examples",
+          "url": "https://www.sqlshack.com/sql-cross-join-with-examples/"
+        }
+      ]
+    },
+    "qBios3sZVhcJMpXmj9f7B": {
+      "id": "qBios3sZVhcJMpXmj9f7B",
+      "slug": "data-constraints",
+      "title": "Data Constraints",
+      "description": "Data constraints in SQL are rules applied to columns or tables to enforce data integrity and consistency. They include primary key, foreign key, unique, check, and not null constraints. These constraints define limitations on the data that can be inserted, updated, or deleted in a database, ensuring that the data meets specific criteria and maintains relationships between tables. By implementing data constraints, database designers can prevent invalid data entry, maintain referential integrity, and enforce business rules directly at the database level.",
+      "resources": [
+        {
+          "id": "qBios3sZVhcJMpXmj9f7B-res-1",
+          "type": "article",
+          "title": "SQL Constraints",
+          "url": "https://www.programiz.com/sql/constraints"
+        }
+      ]
+    },
+    "xPOeXK1EPBNG56vgfG-VV": {
+      "id": "xPOeXK1EPBNG56vgfG-VV",
+      "slug": "data-definition-language-ddl",
+      "title": "Data Definition Language (DDL)",
+      "description": "Data Definition Language (DDL) is a subset of SQL used to define and manage the structure of database objects. DDL commands include `CREATE`, `ALTER`, `DROP`, and `TRUNCATE`, which are used to create, modify, delete, and empty database structures such as tables, indexes, views, and schemas. These commands allow database administrators and developers to define the database schema, set up relationships between tables, and manage the overall structure of the database. DDL statements typically result in immediate changes to the database structure and can affect existing data.",
+      "resources": [
+        {
+          "id": "xPOeXK1EPBNG56vgfG-VV-res-1",
+          "type": "article",
+          "title": "Data Definition Language (DDL)",
+          "url": "https://docs.getdbt.com/terms/ddl"
+        },
+        {
+          "id": "xPOeXK1EPBNG56vgfG-VV-res-2",
+          "type": "article",
+          "title": "The Definitive Guide on Data Definition Language",
+          "url": "https://www.dbvis.com/thetable/sql-ddl-the-definitive-guide-on-data-definition-language/"
+        }
+      ]
+    },
+    "R1ktDJpXOz0PTllAcBrdu": {
+      "id": "R1ktDJpXOz0PTllAcBrdu",
+      "slug": "data-integrity--security",
+      "title": "Data Integrity & Security",
+      "description": "Data integrity ensures that the information stored in a database is accurate, consistent, and reliable over its entire lifecycle. Data security involves protecting the database from unauthorized access, modification, or deletion. These two concepts are essential for maintaining the trust and value of any database system, safeguarding against corruption, breaches, and ensuring data is used appropriately.",
+      "resources": []
+    },
+    "mBQ3Z8GlFcpIena3IB7D_": {
+      "id": "mBQ3Z8GlFcpIena3IB7D_",
+      "slug": "data-integrity-constraints",
+      "title": "Data Integrity Constraints",
+      "description": "Data integrity constraints are rules you set up in a database to make sure the data is accurate and reliable. These rules prevent bad data from being entered into tables. Think of them as checks and balances that maintain the quality of your information by enforcing specific criteria like uniqueness, valid ranges, or required values.",
+      "resources": [
+        {
+          "id": "mBQ3Z8GlFcpIena3IB7D_-res-1",
+          "type": "article",
+          "title": "Integrity Constraints in SQL: A Guide With Examples",
+          "url": "https://www.datacamp.com/tutorial/integrity-constraints-sql"
+        },
+        {
+          "id": "mBQ3Z8GlFcpIena3IB7D_-res-2",
+          "type": "article",
+          "title": "Integrity Constraints",
+          "url": "https://dataheadhunters.com/academy/integrity-constraints-ensuring-accuracy-and-consistency-in-your-data/"
+        }
+      ]
+    },
+    "WMSXi-eez_hHGDM8kUdWz": {
+      "id": "WMSXi-eez_hHGDM8kUdWz",
+      "slug": "data-manipulation-language-dml",
+      "title": "Data Manipulation Language (DML)",
+      "description": "Data Manipulation Language (DML) is a subset of SQL used to manage data within database objects. It includes commands like `SELECT`, `INSERT`, `UPDATE`, and `DELETE`, which allow users to retrieve, add, modify, and remove data from tables. DML statements operate on the data itself rather than the database structure, enabling users to interact with the stored information. These commands are essential for day-to-day database operations, data analysis, and maintaining the accuracy and relevance of the data within a database system.",
+      "resources": [
+        {
+          "id": "WMSXi-eez_hHGDM8kUdWz-res-1",
+          "type": "article",
+          "title": "What is DML?",
+          "url": "https://satoricyber.com/glossary/dml-data-manipulation-language"
+        },
+        {
+          "id": "WMSXi-eez_hHGDM8kUdWz-res-2",
+          "type": "article",
+          "title": "What is DML?(Wiki)",
+          "url": "https://en.wikipedia.org/wiki/Data_manipulation_language"
+        },
+        {
+          "id": "WMSXi-eez_hHGDM8kUdWz-res-3",
+          "type": "article",
+          "title": "Difference Between DDL & DML",
+          "url": "https://appmaster.io/blog/difference-between-ddl-and-dml"
+        }
+      ]
+    },
+    "tBzMDfCMh6MIagNaxCzin": {
+      "id": "tBzMDfCMh6MIagNaxCzin",
+      "slug": "data-types",
+      "title": "Data Types",
+      "description": "SQL data types define the kind of values that can be stored in a column and determine how the data is stored, processed, and retrieved. Common data types include numeric types (`INTEGER`, `DECIMAL`), character types (`CHAR`, `VARCHAR`), date and time types (`DATE`, `TIMESTAMP`), binary types (`BLOB`), and boolean types. Each database management system may have its own specific set of data types with slight variations. Choosing the appropriate data type for each column is crucial for optimizing storage, ensuring data integrity, and improving query performance.",
+      "resources": [
+        {
+          "id": "tBzMDfCMh6MIagNaxCzin-res-1",
+          "type": "article",
+          "title": "SQL Data Types",
+          "url": "https://www.digitalocean.com/community/tutorials/sql-data-types"
+        },
+        {
+          "id": "tBzMDfCMh6MIagNaxCzin-res-2",
+          "type": "video",
+          "title": "MySQL 101 - Data Types",
+          "url": "https://www.youtube.com/watch?v=vAiBa69YCnk"
+        }
+      ]
+    },
+    "Ivqo2wa-_NhGU3vGd0pUI": {
+      "id": "Ivqo2wa-_NhGU3vGd0pUI",
+      "slug": "date",
+      "title": "DATE",
+      "description": "The DATE data type in SQL is used to store calendar dates (typically in the format YYYY-MM-DD). It represents a specific day without any time information. DATE columns are commonly used for storing birthdates, event dates, or any other data that requires only day-level precision. SQL provides various functions to manipulate and format DATE values, allowing for date arithmetic, extraction of date components, and comparison between dates. The exact range of valid dates may vary depending on the specific database management system being used.",
+      "resources": [
+        {
+          "id": "Ivqo2wa-_NhGU3vGd0pUI-res-1",
+          "type": "video",
+          "title": "Working with Dates",
+          "url": "https://www.youtube.com/watch?v=XyZ9HwXoR7o"
+        }
+      ]
+    },
+    "1E1WdWOyqxbbdiIbw26dZ": {
+      "id": "1E1WdWOyqxbbdiIbw26dZ",
+      "slug": "dateadd",
+      "title": "DATEADD",
+      "description": "`DATEADD` is an SQL function used to add or subtract a specified time interval to a date or datetime value. It typically takes three arguments: the interval type (e.g., day, month, year), the number of intervals to add or subtract, and the date to modify. This function is useful for date calculations, such as finding future or past dates, calculating durations, or generating date ranges. The exact syntax and name of this function may vary slightly between different database management systems (e.g., `DATEADD` in SQL Server, `DATE_ADD` in MySQL).",
+      "resources": [
+        {
+          "id": "1E1WdWOyqxbbdiIbw26dZ-res-1",
+          "type": "article",
+          "title": "DATEADD",
+          "url": "https://www.mssqltips.com/sqlservertutorial/9380/sql-dateadd-function/"
+        },
+        {
+          "id": "1E1WdWOyqxbbdiIbw26dZ-res-2",
+          "type": "video",
+          "title": "DATEADD Function",
+          "url": "https://www.youtube.com/watch?v=DYCWOzzOycU"
+        }
+      ]
+    },
+    "BJ4fQvagTO0B5UtXblyx8": {
+      "id": "BJ4fQvagTO0B5UtXblyx8",
+      "slug": "datepart",
+      "title": "DATEPART",
+      "description": "`DATEPART` is a useful function in SQL that allows you to extract a specific part of a date or time field. You can use it to get the year, quarter, month, day of the year, day, week, weekday, hour, minute, second, or millisecond from any date or time expression.",
+      "resources": [
+        {
+          "id": "BJ4fQvagTO0B5UtXblyx8-res-1",
+          "type": "article",
+          "title": "SQL DATEPART",
+          "url": "https://hightouch.com/sql-dictionary/sql-datepart"
+        }
+      ]
+    },
+    "vhBZqqmUcEon6-Vwvla4q": {
+      "id": "vhBZqqmUcEon6-Vwvla4q",
+      "slug": "db-security-best-practices",
+      "title": "DB Security Best Practices",
+      "description": "Database security best practices are a collection of methods used to protect sensitive data from unauthorized access, modification, or deletion. They involve implementing access controls based on the least privilege principle, routinely updating systems, using strong passwords, limiting remote access, avoiding the admin account for everyday tasks, encrypting communication, performing regular backups, monitoring and auditing database operations, performing vulnerability scanning, and guarding against SQL injection attacks by using parameterized queries or prepared statements.",
+      "resources": [
+        {
+          "id": "vhBZqqmUcEon6-Vwvla4q-res-1",
+          "type": "article",
+          "title": "What is database security?",
+          "url": "https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-database-security"
+        }
+      ]
+    },
+    "ddtVaA4Ls6qRj-7OtTSIH": {
+      "id": "ddtVaA4Ls6qRj-7OtTSIH",
+      "slug": "delete",
+      "title": "DELETE Statement",
+      "description": "The DELETE statement removes rows from a table. You specify which table to remove data from and can use a WHERE clause to filter which rows should be deleted based on specific conditions. If no WHERE clause is provided, all rows in the table will be deleted.",
+      "resources": [
+        {
+          "id": "ddtVaA4Ls6qRj-7OtTSIH-res-1",
+          "type": "article",
+          "title": "DELETE",
+          "url": "https://www.w3schools.com/sql/sql_delete.asp"
+        }
+      ]
+    },
+    "zWnvuHJLHr03PWkrW1wZZ": {
+      "id": "zWnvuHJLHr03PWkrW1wZZ",
+      "slug": "delete",
+      "title": "DELETE Statement in SQL",
+      "description": "The `DELETE` statement in SQL removes existing records from a table. You specify which table to affect and can optionally include a `WHERE` clause to specify conditions for which rows should be deleted. If no `WHERE` clause is provided, all rows in the table will be deleted. It modifies the data within the database by removing entire rows based on the given criteria.",
+      "resources": [
+        {
+          "id": "zWnvuHJLHr03PWkrW1wZZ-res-1",
+          "type": "article",
+          "title": "DELETE",
+          "url": "https://www.w3schools.com/sql/sql_delete.asp"
+        }
+      ]
+    },
+    "QM0ltgPu8lLLYc2MsTLj-": {
+      "id": "QM0ltgPu8lLLYc2MsTLj-",
+      "slug": "dense_rank",
+      "title": "dense_rank",
+      "description": "`dense_rank` is a window function that assigns a rank to each row within a partition of a result set, based on the order of rows. Unlike the `rank` function, `dense_rank` assigns consecutive ranks without gaps, even when there are ties in the ordering criteria. This means that if two or more rows have the same value for the ordering column(s), they will receive the same rank, and the next rank assigned will be the next consecutive integer, without skipping any numbers.",
+      "resources": [
+        {
+          "id": "QM0ltgPu8lLLYc2MsTLj--res-1",
+          "type": "article",
+          "title": "SQL DENSE_RANK",
+          "url": "https://www.sqltutorial.org/sql-window-functions/sql-dense_rank/"
+        },
+        {
+          "id": "QM0ltgPu8lLLYc2MsTLj--res-2",
+          "type": "article",
+          "title": "Breaking Down DENSE_RANK",
+          "url": "https://www.kdnuggets.com/breaking-down-denserank-a-step-by-step-guide-for-sql-enthusiasts"
+        }
+      ]
+    },
+    "YzJ6QmY2arMfRzMAPaI0T": {
+      "id": "YzJ6QmY2arMfRzMAPaI0T",
+      "slug": "drop-table",
+      "title": "Drop Table",
+      "description": "The `DROP TABLE` statement removes a table and its data entirely from a database. It's a permanent operation; once a table is dropped, its structure and all the data it contained are lost unless you have a backup. This command should be used with caution, as it can have significant consequences for your database.",
+      "resources": [
+        {
+          "id": "YzJ6QmY2arMfRzMAPaI0T-res-1",
+          "type": "article",
+          "title": "Drop a Table",
+          "url": "https://www.coginiti.co/tutorials/beginner/drop-a-table/"
+        }
+      ]
+    },
+    "MIOuWWcCjLAmgzog2DBC3": {
+      "id": "MIOuWWcCjLAmgzog2DBC3",
+      "slug": "dropping-views",
+      "title": "Dropping Views",
+      "description": "Dropping views in SQL involves using the `DROP VIEW` statement to remove an existing view from the database. This operation permanently deletes the view definition, but it doesn't affect the underlying tables from which the view was created. Dropping a view is typically done when the view is no longer needed, needs to be replaced with a different definition, or as part of database maintenance. It's important to note that dropping a view can impact other database objects or applications that depend on it, so caution should be exercised when performing this operation.",
+      "resources": [
+        {
+          "id": "MIOuWWcCjLAmgzog2DBC3-res-1",
+          "type": "article",
+          "title": "DROP VIEW",
+          "url": "https://study.com/academy/lesson/sql-drop-view-tutorial-overview.html"
+        },
+        {
+          "id": "MIOuWWcCjLAmgzog2DBC3-res-2",
+          "type": "article",
+          "title": "DROP or DELETE a View",
+          "url": "https://www.tutorialspoint.com/sql/sql-drop-view.htm"
+        }
+      ]
+    },
+    "z5Sf0VU14ZCQ80kL1qOqc": {
+      "id": "z5Sf0VU14ZCQ80kL1qOqc",
+      "slug": "dynamic-sql",
+      "title": "Dynamic SQL",
+      "description": "Dynamic SQL refers to the ability to construct and execute SQL statements programmatically during runtime. Instead of writing static SQL queries directly into your code, you can build SQL strings based on varying conditions, user inputs, or other dynamic factors. This allows for more flexible and adaptable database interactions, enabling you to generate queries tailored to specific situations that cannot be known in advance.",
+      "resources": [
+        {
+          "id": "z5Sf0VU14ZCQ80kL1qOqc-res-1",
+          "type": "article",
+          "title": "Dynamic SQL in SQL Server",
+          "url": "https://www.sqlshack.com/dynamic-sql-in-sql-server/"
+        },
+        {
+          "id": "z5Sf0VU14ZCQ80kL1qOqc-res-2",
+          "type": "video",
+          "title": "Dynamic SQL",
+          "url": "https://www.youtube.com/watch?v=01LZMCotcpY"
+        }
+      ]
+    },
+    "o2SH4iQn1Ap2yDZ7cVYLO": {
+      "id": "o2SH4iQn1Ap2yDZ7cVYLO",
+      "slug": "floor",
+      "title": "FLOOR",
+      "description": "FLOOR is a numeric function that returns the largest integer value that is less than or equal to a given number. Effectively, it rounds a number *down* to the nearest whole number. For instance, FLOOR(7.9) would return 7, and FLOOR(-7.1) would return -8.",
+      "resources": [
+        {
+          "id": "o2SH4iQn1Ap2yDZ7cVYLO-res-1",
+          "type": "video",
+          "title": "How to Round in SQL",
+          "url": "https://www.youtube.com/watch?v=AUXw2JRwCFY"
+        }
+      ]
+    },
+    "DHz6sRLYhFeCbAcNJS8hm": {
+      "id": "DHz6sRLYhFeCbAcNJS8hm",
+      "slug": "foreign-key",
+      "title": "Foreign Key",
+      "description": "A foreign key in SQL is a column or group of columns in one table that refers to the primary key of another table. It establishes a link between two tables, enforcing referential integrity and maintaining relationships between related data. Foreign keys ensure that values in the referencing table correspond to valid values in the referenced table, preventing orphaned records and maintaining data consistency across tables. They are crucial for implementing relational database designs and supporting complex queries that join multiple tables.",
+      "resources": [
+        {
+          "id": "DHz6sRLYhFeCbAcNJS8hm-res-1",
+          "type": "article",
+          "title": "What is a foreign key?",
+          "url": "https://www.cockroachlabs.com/blog/what-is-a-foreign-key/"
+        },
+        {
+          "id": "DHz6sRLYhFeCbAcNJS8hm-res-2",
+          "type": "video",
+          "title": "Foreign Keys are easy (kind of)",
+          "url": "https://www.youtube.com/watch?v=rFssfx37UJw"
+        }
+      ]
+    },
+    "N1Racr3ZpU320gS545We8": {
+      "id": "N1Racr3ZpU320gS545We8",
+      "slug": "from",
+      "title": "FROM Clause in SELECT Statements",
+      "description": "The `FROM` clause in SQL specifies the table or tables from which you're retrieving data. It tells the database which dataset to look at when executing your query. Without a `FROM` clause, the database doesn't know where the data is coming from, and the `SELECT` statement wouldn't be able to produce any results. Essentially, it's the foundation upon which you build your data retrieval process.",
+      "resources": [
+        {
+          "id": "N1Racr3ZpU320gS545We8-res-1",
+          "type": "video",
+          "title": "How to write basic SQL",
+          "url": "https://www.youtube.com/watch?v=YfTDBA45PHk"
+        }
+      ]
+    },
+    "aS5zCyJRA779yHF0G2pje": {
+      "id": "aS5zCyJRA779yHF0G2pje",
+      "slug": "full-outer-join",
+      "title": "FULL OUTER JOIN",
+      "description": "A `FULL OUTER JOIN` in SQL combines the results of both `LEFT` and `RIGHT OUTER JOIN`s. It returns all rows from both tables, matching records where the join condition is met and including unmatched rows from both tables with `NULL` values in place of missing data. This join type is useful when you need to see all data from both tables, regardless of whether there are matching rows, and is particularly valuable for identifying missing relationships or performing data reconciliation between two tables.",
+      "resources": [
+        {
+          "id": "aS5zCyJRA779yHF0G2pje-res-1",
+          "type": "video",
+          "title": "SQL FULL OUTER JOIN",
+          "url": "https://www.youtube.com/watch?v=XpBkXo3DCEg"
+        }
+      ]
+    },
+    "03qMopxzjx_-dZbYw9b7J": {
+      "id": "03qMopxzjx_-dZbYw9b7J",
+      "slug": "grant-and-revoke",
+      "title": "GRANT and REVOKE",
+      "description": "`GRANT` and `REVOKE` are SQL commands used to manage user permissions in a database. `GRANT` is used to give specific privileges (such as `SELECT`, `INSERT`, `UPDATE`, `DELETE`) on database objects to users or roles, while `REVOKE` is used to remove these privileges. These commands are essential for implementing database security, controlling access to sensitive data, and ensuring that users have appropriate permissions for their roles. By using `GRANT` and `REVOKE`, database administrators can fine-tune access control, adhering to the principle of least privilege in database management.",
+      "resources": [
+        {
+          "id": "03qMopxzjx_-dZbYw9b7J-res-1",
+          "type": "article",
+          "title": "GRANT",
+          "url": "https://www.ibm.com/docs/en/qmf/12.2.0?topic=privileges-sql-grant-statement"
+        },
+        {
+          "id": "03qMopxzjx_-dZbYw9b7J-res-2",
+          "type": "article",
+          "title": "REVOKE",
+          "url": "https://www.ibm.com/docs/en/qmf/12.2.0?topic=privileges-sql-revoke-statement"
+        }
+      ]
+    },
+    "14TKE6KhrH1yFtHcSZSXq": {
+      "id": "14TKE6KhrH1yFtHcSZSXq",
+      "slug": "group-by",
+      "title": "GROUP BY",
+      "description": "`GROUP BY` is an SQL clause used in `SELECT` statements to arrange identical data into groups. It's typically used with aggregate functions (like `COUNT`, `SUM`, `AVG`) to perform calculations on each group of rows. `GROUP BY` collects data across multiple records and groups the results by one or more columns, allowing for analysis of data at a higher level of granularity. This clause is fundamental for generating summary reports, performing data analysis, and creating meaningful aggregations of data in relational databases.",
+      "resources": [
+        {
+          "id": "14TKE6KhrH1yFtHcSZSXq-res-1",
+          "type": "article",
+          "title": "SQL GROUP BY",
+          "url": "https://www.programiz.com/sql/group-by"
+        },
+        {
+          "id": "14TKE6KhrH1yFtHcSZSXq-res-2",
+          "type": "video",
+          "title": "Advanced Aggregate Functions in SQL",
+          "url": "https://www.youtube.com/watch?v=nNrgRVIzeHg"
+        }
+      ]
+    },
+    "Zw8IHfCCMSxmVjx5Ho5ff": {
+      "id": "Zw8IHfCCMSxmVjx5Ho5ff",
+      "slug": "group-by",
+      "title": "GROUP BY",
+      "description": "`GROUP BY` is an SQL clause used in `SELECT` statements to arrange identical data into groups. It's typically used with aggregate functions (like `COUNT`, `SUM`, `AVG`) to perform calculations on each group of rows. `GROUP BY` collects data across multiple records and groups the results by one or more columns, allowing for analysis of data at a higher level of granularity. This clause is fundamental for generating summary reports, performing data analysis, and creating meaningful aggregations of data in relational databases.",
+      "resources": [
+        {
+          "id": "Zw8IHfCCMSxmVjx5Ho5ff-res-1",
+          "type": "article",
+          "title": "SQL GROUP BY",
+          "url": "https://www.programiz.com/sql/group-by"
+        },
+        {
+          "id": "Zw8IHfCCMSxmVjx5Ho5ff-res-2",
+          "type": "video",
+          "title": "Advanced Aggregate Functions in SQL",
+          "url": "https://www.youtube.com/watch?v=nNrgRVIzeHg"
+        }
+      ]
+    },
+    "HhICJpCK5__b-itUoEBES": {
+      "id": "HhICJpCK5__b-itUoEBES",
+      "slug": "having",
+      "title": "HAVING",
+      "description": "The `HAVING` clause in SQL is used to filter the results of aggregate functions. It's similar to the `WHERE` clause, but operates on grouped rows produced by the `GROUP BY` clause. Essentially, `HAVING` allows you to specify conditions that groups must meet to be included in the final result set after aggregation has taken place.",
+      "resources": [
+        {
+          "id": "HhICJpCK5__b-itUoEBES-res-1",
+          "type": "article",
+          "title": "SQL HAVING Clause",
+          "url": "https://www.programiz.com/sql/having"
+        },
+        {
+          "id": "HhICJpCK5__b-itUoEBES-res-2",
+          "type": "video",
+          "title": "HAVING Clause",
+          "url": "https://www.youtube.com/watch?v=tYBOMw7Ob8E"
+        }
+      ]
+    },
+    "ytwCkSMTiTuemE0KVfAfy": {
+      "id": "ytwCkSMTiTuemE0KVfAfy",
+      "slug": "having",
+      "title": "HAVING",
+      "description": "HAVING is a clause in SQL that filters the results of a `GROUP BY` query. It's like a `WHERE` clause, but it operates on groups rather than individual rows. You use `HAVING` to specify conditions that the group must meet to be included in the final result set.",
+      "resources": [
+        {
+          "id": "ytwCkSMTiTuemE0KVfAfy-res-1",
+          "type": "article",
+          "title": "SQL HAVING Clause",
+          "url": "https://www.programiz.com/sql/having"
+        },
+        {
+          "id": "ytwCkSMTiTuemE0KVfAfy-res-2",
+          "type": "video",
+          "title": "HAVING Clause",
+          "url": "https://www.youtube.com/watch?v=tYBOMw7Ob8E"
+        }
+      ]
+    },
+    "LcljR70T-OnzSrJJDqOWf": {
+      "id": "LcljR70T-OnzSrJJDqOWf",
+      "slug": "indexes",
+      "title": "Indexes",
+      "description": "Indexes in SQL are database objects that improve the speed of data retrieval operations on database tables. They work similarly to book indexes, providing a quick lookup mechanism for finding rows with specific column values. Indexes create a separate data structure that allows the database engine to locate data without scanning the entire table. While they speed up `SELECT` queries, indexes can slow down `INSERT`, `UPDATE`, and `DELETE` operations because the index structure must be updated. Proper index design is crucial for optimizing database performance, especially for large tables or frequently queried columns.",
+      "resources": [
+        {
+          "id": "LcljR70T-OnzSrJJDqOWf-res-1",
+          "type": "video",
+          "title": "SQL Indexing Best Practices",
+          "url": "https://www.youtube.com/watch?v=BIlFTFrEFOI"
+        }
+      ]
+    },
+    "aaua13CkTxLOYXr8cAgPm": {
+      "id": "aaua13CkTxLOYXr8cAgPm",
+      "slug": "inner-join",
+      "title": "INNER JOIN",
+      "description": "INNER JOINs combine rows from two or more tables based on a related column.  They return only the rows where there is a match in the specified columns of all tables involved in the join. If there's no matching value in the joined columns, that row is excluded from the result set.",
+      "resources": [
+        {
+          "id": "aaua13CkTxLOYXr8cAgPm-res-1",
+          "type": "article",
+          "title": "SQL INNER JOIN Clause",
+          "url": "https://www.programiz.com/sql/inner-join"
+        }
+      ]
+    },
+    "-Hew0y53ziZK3epQnGA0O": {
+      "id": "-Hew0y53ziZK3epQnGA0O",
+      "slug": "insert",
+      "title": "INSERT",
+      "description": "INSERT is a SQL command used to add new rows of data into a table. It specifies which table to add the data to and provides the values for each column in the new row. You can insert a single row at a time or multiple rows with a single statement.",
+      "resources": [
+        {
+          "id": "-Hew0y53ziZK3epQnGA0O-res-1",
+          "type": "video",
+          "title": "SQL INSERT Statement",
+          "url": "https://www.youtube.com/watch?v=Yp1MKeIG-M4"
+        }
+      ]
+    },
+    "mPj6BiK5FKKkIQ9WsWEo6": {
+      "id": "mPj6BiK5FKKkIQ9WsWEo6",
+      "slug": "insert",
+      "title": "INSERT Statement",
+      "description": "The INSERT statement in SQL is used to add new rows of data into a table. It specifies the table to which you want to add data, and the values you want to insert into each column of that table. You can insert a single row at a time or multiple rows in a single statement. It's a fundamental command for populating your database tables with information.",
+      "resources": [
+        {
+          "id": "mPj6BiK5FKKkIQ9WsWEo6-res-1",
+          "type": "video",
+          "title": "SQL INSERT Statement",
+          "url": "https://www.youtube.com/watch?v=Yp1MKeIG-M4"
+        }
+      ]
+    },
+    "8V6yw7kLaow-VVcv_K_pL": {
+      "id": "8V6yw7kLaow-VVcv_K_pL",
+      "slug": "join-queries",
+      "title": "JOIN Queries",
+      "description": "JOIN queries are used to combine rows from two or more tables based on a related column between them. This allows you to retrieve data from multiple tables in a single query, forming a more comprehensive dataset than you could get from a single table alone. Different types of joins, like INNER, LEFT, RIGHT, and FULL OUTER, determine how rows are included in the result based on whether matching values exist in the related columns.",
+      "resources": [
+        {
+          "id": "8V6yw7kLaow-VVcv_K_pL-res-1",
+          "type": "article",
+          "title": "7 SQL JOIN Examples With Detailed Explanations",
+          "url": "https://learnsql.com/blog/sql-join-examples-with-explanations/"
+        },
+        {
+          "id": "8V6yw7kLaow-VVcv_K_pL-res-2",
+          "type": "video",
+          "title": "Joins are easy",
+          "url": "https://www.youtube.com/watch?v=G3lJAxg1cy8"
+        }
+      ]
+    },
+    "4UQQYbjzwVxZOAxBuXKQS": {
+      "id": "4UQQYbjzwVxZOAxBuXKQS",
+      "slug": "joins",
+      "title": "JOINs",
+      "description": "SQL JOINs let you combine data from two or more tables based on a related column between them.  Think of it as linking information together to get a more complete view. The four most commonly used are: `INNER JOIN`, which returns rows only when there is a match in both tables; `LEFT JOIN`, which returns all rows from the left table and the matched rows from the right table (or NULL if there's no match); `RIGHT JOIN`, which returns all rows from the right table and the matched rows from the left table (or NULL if there's no match); and `FULL OUTER JOIN`, which returns all rows when there is a match in one of the tables.",
+      "resources": [
+        {
+          "id": "4UQQYbjzwVxZOAxBuXKQS-res-1",
+          "type": "article",
+          "title": "SQL JOINs Cheat Sheet",
+          "url": "https://www.datacamp.com/cheat-sheet/sql-joins-cheat-sheet"
+        },
+        {
+          "id": "4UQQYbjzwVxZOAxBuXKQS-res-2",
+          "type": "video",
+          "title": "SQL JOINs Tutorial for beginners",
+          "url": "https://www.youtube.com/watch?v=0OQJDd3QqQM"
+        }
+      ]
+    },
+    "BcXdxY6bld5c0YNFSKkh-": {
+      "id": "BcXdxY6bld5c0YNFSKkh-",
+      "slug": "lag",
+      "title": "lag",
+      "description": "`LAG` is a window function in SQL that provides access to a row at a specified offset prior to the current row within a partition. It allows you to compare the current row's values with previous rows' values without using self-joins. LAG is particularly useful for calculating running differences, identifying trends, or comparing sequential data points in time-series analysis. The function takes the column to offset, the number of rows to offset (default is 1), and an optional default value to return when the offset goes beyond the partition's boundary.",
+      "resources": [
+        {
+          "id": "BcXdxY6bld5c0YNFSKkh--res-1",
+          "type": "article",
+          "title": "Understanding the LAG function in SQL",
+          "url": "https://www.datacamp.com/tutorial/sql-lag"
+        },
+        {
+          "id": "BcXdxY6bld5c0YNFSKkh--res-2",
+          "type": "video",
+          "title": "LAG and LEAD functions",
+          "url": "https://www.youtube.com/watch?v=j2u52RQ0qlw"
+        }
+      ]
+    },
+    "aJJjaGunRrwyh9MjQfJt-": {
+      "id": "aJJjaGunRrwyh9MjQfJt-",
+      "slug": "lead",
+      "title": "lead",
+      "description": "`LEAD` is a window function in SQL that provides access to a row at a specified offset after the current row within a partition. It's the counterpart to the `LAG` function, allowing you to look ahead in your dataset rather than behind. `LEAD` is useful for comparing current values with future values, calculating forward-looking metrics, or analyzing trends in sequential data. Like `LAG`, it takes arguments for the column to offset, the number of rows to look ahead (default is 1), and an optional default value when the offset exceeds the partition's boundary.",
+      "resources": [
+        {
+          "id": "aJJjaGunRrwyh9MjQfJt--res-1",
+          "type": "article",
+          "title": "SQL LEAD",
+          "url": "https://www.codecademy.com/resources/docs/sql/window-functions/lead"
+        },
+        {
+          "id": "aJJjaGunRrwyh9MjQfJt--res-2",
+          "type": "video",
+          "title": "LAG and LEAD Window Functions in SQL",
+          "url": "https://www.youtube.com/watch?v=nHEEyX_yDvo"
+        }
+      ]
+    },
+    "nhUKKWyBH80nyKfGT8ErC": {
+      "id": "nhUKKWyBH80nyKfGT8ErC",
+      "slug": "learn-the-basics",
+      "title": "Learn the Basics",
+      "description": "SQL (Structured Query Language) is a programming language used to manage and manipulate data stored in relational database management systems (RDBMS). It allows you to retrieve, insert, update, and delete data, as well as define database schemas and control access to data. The basic understanding of SQL is foundational to interact with almost any database.",
+      "resources": [
+        {
+          "id": "nhUKKWyBH80nyKfGT8ErC-res-1",
+          "type": "article",
+          "title": "SQL Tutorial - Mode",
+          "url": "https://mode.com/sql-tutorial/"
+        },
+        {
+          "id": "nhUKKWyBH80nyKfGT8ErC-res-2",
+          "type": "article",
+          "title": "SQL Tutorial",
+          "url": "https://www.sqltutorial.org/"
+        }
+      ]
+    },
+    "X9cJJ8zLZCF2cOoqxwFfY": {
+      "id": "X9cJJ8zLZCF2cOoqxwFfY",
+      "slug": "left-join",
+      "title": "LEFT JOIN",
+      "description": "A LEFT JOIN returns all rows from the left table (the table listed before the `LEFT JOIN` keyword) and the matching rows from the right table (the table listed after the `LEFT JOIN` keyword). If there is no match in the right table for a row in the left table, the result will contain `NULL` values for the columns from the right table. Effectively, it ensures all rows from the left table are included in the result set, regardless of whether there's a corresponding row in the right table.",
+      "resources": [
+        {
+          "id": "X9cJJ8zLZCF2cOoqxwFfY-res-1",
+          "type": "video",
+          "title": "SQL LEFT JOIN - SQL Tutorial",
+          "url": "https://www.youtube.com/watch?v=giKwmtsz1U8"
+        }
+      ]
+    },
+    "RH8DLiQpDUWqw3U1522q5": {
+      "id": "RH8DLiQpDUWqw3U1522q5",
+      "slug": "length",
+      "title": "LENGTH",
+      "description": "The `LENGTH` function in SQL returns the number of characters in a string. It's used to measure the size of text data, which can be helpful for data validation, formatting, or analysis. In some database systems, `LENGTH` may count characters differently for multi-byte character sets. Most SQL dialects support `LENGTH`, but some may use alternative names like LEN (in SQL Server) or `CHAR_LENGTH`. This function is particularly useful for enforcing character limits, splitting strings, or identifying anomalies in string data.",
+      "resources": [
+        {
+          "id": "RH8DLiQpDUWqw3U1522q5-res-1",
+          "type": "article",
+          "title": "How to Check the Length of a String in SQL",
+          "url": "https://learnsql.com/cookbook/how-to-check-the-length-of-a-string-in-sql/"
+        },
+        {
+          "id": "RH8DLiQpDUWqw3U1522q5-res-2",
+          "type": "article",
+          "title": "MySQL Length Function",
+          "url": "https://www.w3schools.com/sql/func_mysql_length.asp"
+        }
+      ]
+    },
+    "knTG6pAq2mYP24WMa29xI": {
+      "id": "knTG6pAq2mYP24WMa29xI",
+      "slug": "lower",
+      "title": "LOWER",
+      "description": "The `LOWER` function in SQL converts all characters in a specified string to lowercase. It's a string manipulation function that takes a single argument (the input string) and returns the same string with all alphabetic characters converted to their lowercase equivalents. `LOWER` is useful for standardizing data, making case-insensitive comparisons, or formatting output. It doesn't affect non-alphabetic characters or numbers in the string. `LOWER` is commonly used in data cleaning, search operations, and ensuring consistent data representation across different systems.",
+      "resources": [
+        {
+          "id": "knTG6pAq2mYP24WMa29xI-res-1",
+          "type": "article",
+          "title": "How to change text to lowercase in SQL",
+          "url": "https://learnsql.com/cookbook/how-to-change-text-to-lowercase-in-sql/"
+        },
+        {
+          "id": "knTG6pAq2mYP24WMa29xI-res-2",
+          "type": "article",
+          "title": "LOWER Function",
+          "url": "https://www.w3schools.com/sql/func_sqlserver_lower.asp"
+        }
+      ]
+    },
+    "NtxGd6Vx-REBclry7lZuE": {
+      "id": "NtxGd6Vx-REBclry7lZuE",
+      "slug": "managing-indexes",
+      "title": "Managing Indexes",
+      "description": "Managing indexes in SQL involves creating, modifying, and dropping indexes to optimize database performance. This process includes identifying columns that benefit from indexing (frequently queried or used in JOIN conditions), creating appropriate index types (e.g., single-column, composite, unique), and regularly analyzing index usage and effectiveness. Database administrators must balance the improved query performance that indexes provide against the overhead they introduce for data modification operations. Proper index management also includes periodic maintenance tasks like rebuilding or reorganizing indexes to maintain their efficiency as data changes over time.",
+      "resources": [
+        {
+          "id": "NtxGd6Vx-REBclry7lZuE-res-1",
+          "type": "article",
+          "title": "SQL Server Indexes",
+          "url": "https://www.sqlservercentral.com/articles/introduction-to-indexes"
+        },
+        {
+          "id": "NtxGd6Vx-REBclry7lZuE-res-2",
+          "type": "article",
+          "title": "Optimize index maintenance",
+          "url": "https://learn.microsoft.com/en-us/sql/relational-databases/indexes/reorganize-and-rebuild-indexes?view=sql-server-ver16"
+        }
+      ]
+    },
+    "YqDJq3fPxUZlwsdq0kJg7": {
+      "id": "YqDJq3fPxUZlwsdq0kJg7",
+      "slug": "max",
+      "title": "MAX",
+      "description": "`MAX` is an aggregate function in SQL that returns the highest value in a set of values. It can be used with numeric, date, or string data types, selecting the maximum value from a specified column. `MAX` is often used in combination with `GROUP BY` to find the highest value within each group. This function is useful for various data analysis tasks, such as finding the highest salary, the most recent date, or the alphabetically last name in a dataset.",
+      "resources": [
+        {
+          "id": "YqDJq3fPxUZlwsdq0kJg7-res-1",
+          "type": "article",
+          "title": "MAX",
+          "url": "https://www.techonthenet.com/sql/max.php"
+        },
+        {
+          "id": "YqDJq3fPxUZlwsdq0kJg7-res-2",
+          "type": "video",
+          "title": "Basic Aggregate Functions",
+          "url": "https://www.youtube.com/watch?v=jcoJuc5e3RE"
+        }
+      ]
+    },
+    "bFEYMlqPZtTUYtDQxqHzT": {
+      "id": "bFEYMlqPZtTUYtDQxqHzT",
+      "slug": "min",
+      "title": "MIN",
+      "description": "`MIN` is an aggregate function in SQL that returns the lowest value in a set of values. It works with numeric, date, or string data types, selecting the minimum value from a specified column. Often used in conjunction with `GROUP BY`, `MIN` can find the smallest value within each group. This function is useful for various data analysis tasks, such as identifying the lowest price, earliest date, or alphabetically first name in a dataset.",
+      "resources": [
+        {
+          "id": "bFEYMlqPZtTUYtDQxqHzT-res-1",
+          "type": "article",
+          "title": "SQL MAX & MIN",
+          "url": "https://www.programiz.com/sql/min-and-max"
+        },
+        {
+          "id": "bFEYMlqPZtTUYtDQxqHzT-res-2",
+          "type": "video",
+          "title": "COUNT, SUM, AVG, MIN, MAX (SQL) - Aggregating Data",
+          "url": "https://www.youtube.com/watch?v=muwEdPsx534"
+        }
+      ]
+    },
+    "OUw--8zEq6lk5-6oySVHe": {
+      "id": "OUw--8zEq6lk5-6oySVHe",
+      "slug": "mod",
+      "title": "MOD",
+      "description": "The `MOD` function in SQL calculates the remainder when one number is divided by another. It takes two arguments: the dividend and the divisor. `MOD` returns the remainder of the division operation, which is useful for various mathematical operations, including checking for odd/even numbers, implementing cyclic behaviors, or distributing data evenly. The syntax and exact behavior may vary slightly between different database systems, with some using the % operator instead of the `MOD` keyword.",
+      "resources": [
+        {
+          "id": "OUw--8zEq6lk5-6oySVHe-res-1",
+          "type": "video",
+          "title": "MOD Function in SQL",
+          "url": "https://www.youtube.com/watch?v=f1Rqf7CwjE0"
+        }
+      ]
+    },
+    "3eE-l-P93nOXoWfLr8PSW": {
+      "id": "3eE-l-P93nOXoWfLr8PSW",
+      "slug": "modifying-views",
+      "title": "Modifying Views",
+      "description": "Modifying views in SQL allows you to alter the structure or definition of an existing view without having to drop and recreate it. This can involve changing the columns included in the view, updating the underlying tables or conditions used in the view's query, or renaming the view. Using `ALTER VIEW` simplifies maintenance and allows for adjustments to views as database requirements evolve.",
+      "resources": [
+        {
+          "id": "3eE-l-P93nOXoWfLr8PSW-res-1",
+          "type": "article",
+          "title": "Modify Views in SQL Server",
+          "url": "https://www.sqlshack.com/create-view-sql-modifying-views-in-sql-server/"
+        },
+        {
+          "id": "3eE-l-P93nOXoWfLr8PSW-res-2",
+          "type": "video",
+          "title": "SQL VIEWs in 4 Minutes",
+          "url": "https://www.youtube.com/watch?v=vLLkNI-vkV8"
+        }
+      ]
+    },
+    "xkPJ2MYiXmzC4yqQWyB_7": {
+      "id": "xkPJ2MYiXmzC4yqQWyB_7",
+      "slug": "nested-subqueries",
+      "title": "Nested Subqueries",
+      "description": "Nested subqueries are queries embedded within another SQL query. Think of it as a query inside a query, where the inner query's result is used by the outer query. This allows you to perform more complex data retrieval and filtering operations by breaking down a larger problem into smaller, more manageable steps. Essentially, the outer query depends on the result returned by the inner query to complete its own operation.",
+      "resources": [
+        {
+          "id": "xkPJ2MYiXmzC4yqQWyB_7-res-1",
+          "type": "article",
+          "title": "Nested Subqueries",
+          "url": "https://www.studysmarter.co.uk/explanations/computer-science/databases/nested-subqueries-in-sql/"
+        },
+        {
+          "id": "xkPJ2MYiXmzC4yqQWyB_7-res-2",
+          "type": "video",
+          "title": "MySQL Subqueries",
+          "url": "https://www.youtube.com/watch?v=i5acg3Hvu6g"
+        }
+      ]
+    },
+    "M4M_-vjM9GNy0NmXZneDA": {
+      "id": "M4M_-vjM9GNy0NmXZneDA",
+      "slug": "not-null",
+      "title": "NOT NULL Constraint",
+      "description": "The NOT NULL constraint in SQL ensures that a column does not accept null values. When a column is defined with this constraint, every row in the table must have a value for that specific column. Attempting to insert or update a row with a null value in a NOT NULL column will result in an error, maintaining data integrity by preventing missing or undefined entries.",
+      "resources": [
+        {
+          "id": "M4M_-vjM9GNy0NmXZneDA-res-1",
+          "type": "article",
+          "title": "SQL IS NULL and IS NOT NULL",
+          "url": "https://www.programiz.com/sql/is-null-not-null"
+        },
+        {
+          "id": "M4M_-vjM9GNy0NmXZneDA-res-2",
+          "type": "video",
+          "title": "NOT NULL Constraint",
+          "url": "https://www.youtube.com/watch?v=unzHhq82mKU"
+        }
+      ]
+    },
+    "KI6vngoYcHsnpIk8ErhhS": {
+      "id": "KI6vngoYcHsnpIk8ErhhS",
+      "slug": "nullif",
+      "title": "NULLIF",
+      "description": "`NULLIF` is an SQL function that compares two expressions and returns NULL if they are equal, otherwise it returns the first expression. It's particularly useful for avoiding division by zero errors or for treating specific values as `NULL` in calculations or comparisons. `NULLIF` takes two arguments and is often used in combination with aggregate functions or in `CASE` statements to handle special cases in data processing or reporting.",
+      "resources": [
+        {
+          "id": "KI6vngoYcHsnpIk8ErhhS-res-1",
+          "type": "video",
+          "title": "What is NULLIF in SQL?",
+          "url": "https://www.youtube.com/watch?v=Jaw53T__RRY"
+        }
+      ]
+    },
+    "ffwniprGJHZzJ7t3lQcXz": {
+      "id": "ffwniprGJHZzJ7t3lQcXz",
+      "slug": "operators",
+      "title": "Operators",
+      "description": "SQL operators are symbols or keywords used to perform operations on data within a database. They are essential for constructing queries that filter, compare, and manipulate data. Common types of operators include arithmetic operators (e.g., `+`, `-`, `*`, `/`), which perform mathematical calculations; comparison operators (e.g., `=`, `!=`, `<`, `>`), used to compare values; logical operators (e.g., `AND`, `OR`, `NOT`), which combine multiple conditions in a query; and set operators (e.g., `UNION`, `INTERSECT`, `EXCEPT`), which combine results from multiple queries. These operators enable precise control over data retrieval and modification.",
+      "resources": [
+        {
+          "id": "ffwniprGJHZzJ7t3lQcXz-res-1",
+          "type": "article",
+          "title": "SQL Operators: 6 Different Types",
+          "url": "https://dataengineeracademy.com/blog/sql-operators-6-different-types-code-examples/"
+        }
+      ]
+    },
+    "C0dhS6uLf4TUSfvcWyXhv": {
+      "id": "C0dhS6uLf4TUSfvcWyXhv",
+      "slug": "optimizing-joins",
+      "title": "Optimizing Joins",
+      "description": "Optimizing joins in SQL involves techniques to improve the performance of queries that combine data from multiple tables. Key strategies include using appropriate join types (e.g., `INNER JOIN` for matching rows only, `LEFT JOIN` for all rows from one table), indexing the columns used in join conditions to speed up lookups, and minimizing the data processed by filtering results with `WHERE` clauses before the join. Additionally, reducing the number of joins, avoiding unnecessary columns in the `SELECT` statement, and ensuring that the join conditions are based on indexed and selective columns can significantly enhance query efficiency. Proper join order and using database-specific optimization hints are also important for performance tuning.",
+      "resources": [
+        {
+          "id": "C0dhS6uLf4TUSfvcWyXhv-res-1",
+          "type": "article",
+          "title": "How to Optimize a SQL Query with Multiple Joins",
+          "url": "https://dezbor.com/blog/optimize-sql-query-with-multiple-joins"
+        },
+        {
+          "id": "C0dhS6uLf4TUSfvcWyXhv-res-2",
+          "type": "video",
+          "title": "Secret to optimizing SQL queries",
+          "url": "https://www.youtube.com/watch?v=BHwzDmr6d7s"
+        }
+      ]
+    },
+    "NfCiSPrL4upMssukcw3Kh": {
+      "id": "NfCiSPrL4upMssukcw3Kh",
+      "slug": "order-by",
+      "title": "ORDER BY",
+      "description": "The `ORDER BY` clause in SQL is used to sort the result set of a query by one or more columns. By default, the sorting is in ascending order, but you can specify descending order using the `DESC` keyword. The clause can sort by numeric, date, or text values, and multiple columns can be sorted by listing them in the `ORDER BY` clause, each with its own sorting direction. This clause is crucial for organizing data in a meaningful sequence, such as ordering by a timestamp to show the most recent records first, or alphabetically by name.",
+      "resources": [
+        {
+          "id": "NfCiSPrL4upMssukcw3Kh-res-1",
+          "type": "video",
+          "title": "SQL ORDER BY Sorting Clause",
+          "url": "https://www.youtube.com/watch?v=h_HHTNjAgS8"
+        }
+      ]
+    },
+    "4rqCPpTb0dAgpheBKshRG": {
+      "id": "4rqCPpTb0dAgpheBKshRG",
+      "slug": "performance-optimization",
+      "title": "Performance Optimization",
+      "description": "Performance optimization in SQL focuses on making your queries run faster and more efficiently. This involves techniques like using indexes to speed up data retrieval, rewriting queries for better performance, and understanding how the database engine executes your SQL code. It's about ensuring your database can handle large amounts of data and complex queries without slowing down.",
+      "resources": [
+        {
+          "id": "4rqCPpTb0dAgpheBKshRG-res-1",
+          "type": "article",
+          "title": "Performance Tuning SQL Queries",
+          "url": "https://mode.com/sql-tutorial/sql-performance-tuning"
+        },
+        {
+          "id": "4rqCPpTb0dAgpheBKshRG-res-2",
+          "type": "article",
+          "title": "SQL performance tuning",
+          "url": "https://stackify.com/performance-tuning-in-sql-server-find-slow-queries/"
+        }
+      ]
+    },
+    "nwFaz9i-1s0WVrVaFsoqb": {
+      "id": "nwFaz9i-1s0WVrVaFsoqb",
+      "slug": "pivot--unpivot-operations",
+      "title": "Pivot / Unpivot Operations",
+      "description": "Pivot and unpivot operations transform the structure of data within a table. Pivoting rotates rows into columns, aggregating data based on common values. Conversely, unpivoting transforms columns into rows, often expanding a table's length while reducing its width. These operations are useful for reshaping data for reporting or analysis.",
+      "resources": [
+        {
+          "id": "nwFaz9i-1s0WVrVaFsoqb-res-1",
+          "type": "article",
+          "title": "SQL PIVOT",
+          "url": "https://builtin.com/articles/sql-pivot"
+        },
+        {
+          "id": "nwFaz9i-1s0WVrVaFsoqb-res-2",
+          "type": "article",
+          "title": "SQL UNPIVOT",
+          "url": "https://duckdb.org/docs/sql/statements/unpivot.html"
+        }
+      ]
+    },
+    "Jlwmyq6CUQeDAlL4dazOP": {
+      "id": "Jlwmyq6CUQeDAlL4dazOP",
+      "slug": "primary-key",
+      "title": "Primary Key",
+      "description": "A primary key in SQL is a unique identifier for each record in a database table. It ensures that each row in the table is uniquely identifiable, meaning no two rows can have the same primary key value. A primary key is composed of one or more columns, and it must contain unique values without any `NULL` entries. The primary key enforces entity integrity by preventing duplicate records and ensuring that each record can be precisely located and referenced, often through foreign key relationships in other tables. Using a primary key is fundamental for establishing relationships between tables and maintaining the integrity of the data model.",
+      "resources": [
+        {
+          "id": "Jlwmyq6CUQeDAlL4dazOP-res-1",
+          "type": "article",
+          "title": "SQL Primary Key",
+          "url": "https://www.tutorialspoint.com/sql/sql-primary-key.htm"
+        }
+      ]
+    },
+    "C6P69YiFdS-ioPXMNfX07": {
+      "id": "C6P69YiFdS-ioPXMNfX07",
+      "slug": "query-analysis-techniques",
+      "title": "Query Analysis Techniques",
+      "description": "Understanding how SQL queries are executed is essential for performance tuning. Tools like `EXPLAIN` or `EXPLAIN PLAN` allow you to dissect the execution plan the database uses for a specific query. This plan reveals the order in which tables are accessed, the types of indexes used (or not used), and the estimated cost of each operation, enabling you to identify bottlenecks and optimize the query for faster execution.",
+      "resources": [
+        {
+          "id": "C6P69YiFdS-ioPXMNfX07-res-1",
+          "type": "article",
+          "title": "EXPLAIN",
+          "url": "https://docs.snowflake.com/en/sql-reference/sql/explain"
+        },
+        {
+          "id": "C6P69YiFdS-ioPXMNfX07-res-2",
+          "type": "article",
+          "title": "EXPLAIN PLAN",
+          "url": "https://docs.oracle.com/en/database/oracle/oracle-database/19/sqlrf/EXPLAIN-PLAN.html"
+        }
+      ]
+    },
+    "Ps9Yv2s-bKvEegGAbPsiA": {
+      "id": "Ps9Yv2s-bKvEegGAbPsiA",
+      "slug": "query-optimization",
+      "title": "Query Optimization",
+      "description": "Query optimization is the process of selecting the most efficient way to execute a SQL query. It involves the database management system (DBMS) analyzing different possible execution plans for a query and choosing the one that will return the results fastest, using the least amount of resources. This analysis considers factors like the data volume, index usage, and system resources to find the optimal path.",
+      "resources": [
+        {
+          "id": "Ps9Yv2s-bKvEegGAbPsiA-res-1",
+          "type": "article",
+          "title": "12 Ways to Optimize SQL Queries",
+          "url": "https://www.developernation.net/blog/12-ways-to-optimize-sql-queries-in-database-management/"
+        },
+        {
+          "id": "Ps9Yv2s-bKvEegGAbPsiA-res-2",
+          "type": "video",
+          "title": "SQL Query Optimization",
+          "url": "https://www.youtube.com/watch?v=GA8SaXDLdsY"
+        }
+      ]
+    },
+    "cucCPw3KfetAP2OMFUs0X": {
+      "id": "cucCPw3KfetAP2OMFUs0X",
+      "slug": "rank",
+      "title": "rank",
+      "description": "The `RANK` function in SQL is a window function that assigns a rank to each row within a partition of a result set, based on the order specified by the `ORDER BY` clause. Unlike the `ROW_NUMBER` function, `RANK` allows for the possibility of ties—rows with equal values in the ordering column(s) receive the same rank, and the next rank is skipped accordingly. For example, if two rows share the same rank of 1, the next rank will be 3. This function is useful for scenarios where you need to identify relative positions within groups, such as ranking employees by salary within each department.",
+      "resources": [
+        {
+          "id": "cucCPw3KfetAP2OMFUs0X-res-1",
+          "type": "article",
+          "title": "Overview of SQL RANK Functions",
+          "url": "https://www.sqlshack.com/overview-of-sql-rank-functions/"
+        },
+        {
+          "id": "cucCPw3KfetAP2OMFUs0X-res-2",
+          "type": "video",
+          "title": "RANK, DENSE_RANK, ROW_NUMBER SQL Analytical Functions Simplified",
+          "url": "https://www.youtube.com/watch?v=xMWEVFC4FOk"
+        }
+      ]
+    },
+    "fNTb9y3zs1HPYclAmu_Wv": {
+      "id": "fNTb9y3zs1HPYclAmu_Wv",
+      "slug": "rdbms-benefits-and-limitations",
+      "title": "RDBMS Benefits and Limitations",
+      "description": "Relational Database Management Systems (RDBMS) organize data into tables with rows and columns, establishing relationships between these tables using keys. This structured approach offers benefits like data integrity through constraints and ACID properties (Atomicity, Consistency, Isolation, Durability), ensuring reliable transactions. However, RDBMS can face limitations regarding scalability, especially with massive datasets, and may not be the optimal choice for handling unstructured or semi-structured data due to their rigid schema.",
+      "resources": [
+        {
+          "id": "fNTb9y3zs1HPYclAmu_Wv-res-1",
+          "type": "article",
+          "title": "Advantages and Disadvantages of DBMS",
+          "url": "https://cloud.google.com/learn/what-is-a-relational-database"
+        }
+      ]
+    },
+    "TjgwabhEtaSoYMLNr6q9l": {
+      "id": "TjgwabhEtaSoYMLNr6q9l",
+      "slug": "recursive-queries",
+      "title": "Recursive Queries",
+      "description": "Recursive queries are SQL queries that refer to themselves within their own definition. They're used to process hierarchical or tree-structured data, where relationships exist between rows in the same table, like organizational charts, bill of materials, or social networks. Using `WITH RECURSIVE` clause, these queries iterate through the data until a certain condition is met, allowing you to traverse the hierarchy and extract related information.",
+      "resources": [
+        {
+          "id": "TjgwabhEtaSoYMLNr6q9l-res-1",
+          "type": "article",
+          "title": "Recursive Queries in SQL",
+          "url": "https://codedamn.com/news/sql/recursive-queries-in-sql"
+        },
+        {
+          "id": "TjgwabhEtaSoYMLNr6q9l-res-2",
+          "type": "article",
+          "title": "Recursive SQL Expression Visually Explained",
+          "url": "https://builtin.com/data-science/recursive-sql"
+        }
+      ]
+    },
+    "UVTgbZrqpbYl1bQvQejcF": {
+      "id": "UVTgbZrqpbYl1bQvQejcF",
+      "slug": "reducing-subqueries",
+      "title": "Reducing Subqueries",
+      "description": "Reducing subqueries is a common SQL optimization technique, especially when dealing with complex logic or large datasets. Correlated subqueries, which are evaluated once for each row in the outer query, can degrade the performance. Subqueries can often be replaced with JOIN operations. In cases where subqueries are reused, consider replacing them with Common Table Expressions (CTEs), which offer modularity and avoid repeated executions of the same logic. Limiting the result set returned by subqueries and storing the results of expensive subqueries in temporary tables for reuse can also improve performance. Learn more from the following resources:",
+      "resources": []
+    },
+    "VNbb3YPc0FtrROylRns8h": {
+      "id": "VNbb3YPc0FtrROylRns8h",
+      "slug": "replace",
+      "title": "REPLACE",
+      "description": "The `REPLACE` function in SQL is used to substitute all occurrences of a specified substring within a string with a new substring. It takes three arguments: the original string, the substring to be replaced, and the substring to replace it with. If the specified substring is found in the original string, `REPLACE` returns the modified string with all instances of the old substring replaced by the new one. If the substring is not found, the original string is returned unchanged. This function is particularly useful for data cleaning tasks, such as correcting typos, standardizing formats, or replacing obsolete data.",
+      "resources": [
+        {
+          "id": "VNbb3YPc0FtrROylRns8h-res-1",
+          "type": "article",
+          "title": "How to use the SQL REPLACE Function",
+          "url": "https://www.datacamp.com/tutorial/sql-replace"
+        }
+      ]
+    },
+    "shpgZkh1CLqUwjOaRtAFy": {
+      "id": "shpgZkh1CLqUwjOaRtAFy",
+      "slug": "right-join",
+      "title": "RIGHT JOIN",
+      "description": "A RIGHT JOIN combines rows from two tables based on a related column. It returns all rows from the right table (the table specified after the `RIGHT JOIN` keyword), and the matching rows from the left table. If there's no match in the left table for a row in the right table, `NULL` values are returned for the columns from the left table in the result set.",
+      "resources": [
+        {
+          "id": "shpgZkh1CLqUwjOaRtAFy-res-1",
+          "type": "article",
+          "title": "SQL RIGHT JOIN With Examples",
+          "url": "https://www.programiz.com/sql/right-join"
+        }
+      ]
+    },
+    "xbD67KVlt3UhHpKh8HLx8": {
+      "id": "xbD67KVlt3UhHpKh8HLx8",
+      "slug": "rollback",
+      "title": "ROLLBACK",
+      "description": "`ROLLBACK` is a SQL command used to undo transactions that have not yet been committed to the database. It reverses all changes made within the current transaction, restoring the database to its state before the transaction began. This command is crucial for maintaining data integrity, especially when errors occur during a transaction or when implementing conditional logic in database operations. `ROLLBACK` is an essential part of the ACID (Atomicity, Consistency, Isolation, Durability) properties of database transactions, ensuring that either all changes in a transaction are applied, or none are, thus preserving data consistency.",
+      "resources": [
+        {
+          "id": "xbD67KVlt3UhHpKh8HLx8-res-1",
+          "type": "article",
+          "title": "Difference between COMMIT and ROLLBACK in SQL",
+          "url": "https://byjus.com/gate/difference-between-commit-and-rollback-in-sql/"
+        },
+        {
+          "id": "xbD67KVlt3UhHpKh8HLx8-res-2",
+          "type": "video",
+          "title": "How to undo a mistake a in SQL: Rollback and Commit",
+          "url": "https://www.youtube.com/watch?v=jomsdMLiIZM"
+        }
+      ]
+    },
+    "9DntFiZV1AyaRPhYP5q6u": {
+      "id": "9DntFiZV1AyaRPhYP5q6u",
+      "slug": "round",
+      "title": "ROUND",
+      "description": "The `ROUND` function in SQL is used to round a numeric value to a specified number of decimal places. It takes two arguments: the number to be rounded and the number of decimal places to round to. If the second argument is omitted, the function rounds the number to the nearest whole number. For positive values of the second argument, the number is rounded to the specified decimal places; for negative values, it rounds to the nearest ten, hundred, thousand, etc. The `ROUND` function is useful for formatting numerical data for reporting or ensuring consistent precision in calculations.",
+      "resources": [
+        {
+          "id": "9DntFiZV1AyaRPhYP5q6u-res-1",
+          "type": "article",
+          "title": "What is the SQL ROUND Function and how does it work?",
+          "url": "https://www.datacamp.com/tutorial/mastering-sql-round"
+        }
+      ]
+    },
+    "aLDl75i8gtLRA2Ud-fMmQ": {
+      "id": "aLDl75i8gtLRA2Ud-fMmQ",
+      "slug": "row",
+      "title": "Row",
+      "description": "In SQL, a row (also called a record or tuple) represents a single, implicitly structured data item in a table. Each row contains a set of related data elements corresponding to the table's columns. Rows are fundamental to the relational database model, allowing for the organized storage and retrieval of information. Operations like INSERT, UPDATE, and DELETE typically work at the row level.",
+      "resources": [
+        {
+          "id": "aLDl75i8gtLRA2Ud-fMmQ-res-1",
+          "type": "article",
+          "title": "Row - Database",
+          "url": "https://en.wikipedia.org/wiki/Row_(database"
+        },
+        {
+          "id": "aLDl75i8gtLRA2Ud-fMmQ-res-2",
+          "type": "article",
+          "title": "Database Row: Definition, Examples",
+          "url": "https://www.devx.com/terms/database-row/"
+        }
+      ]
+    },
+    "zW27ZHdLwQY-85iqbBKQZ": {
+      "id": "zW27ZHdLwQY-85iqbBKQZ",
+      "slug": "row_number",
+      "title": "Row_number",
+      "description": "ROW\\_NUMBER() is a SQL window function that assigns a unique, sequential integer to each row within a partition of a result set. It's useful for creating row identifiers, implementing pagination, or finding the nth highest/lowest value in a group. The numbering starts at 1 for each partition and continues sequentially, allowing for versatile data analysis and manipulation tasks.",
+      "resources": [
+        {
+          "id": "zW27ZHdLwQY-85iqbBKQZ-res-1",
+          "type": "article",
+          "title": "SQL ROW_NUMBER",
+          "url": "https://www.sqltutorial.org/sql-window-functions/sql-row_number/"
+        },
+        {
+          "id": "zW27ZHdLwQY-85iqbBKQZ-res-2",
+          "type": "article",
+          "title": "How to Use ROW_NUMBER OVER() in SQL to Rank Data",
+          "url": "https://learnsql.com/blog/row-number-over-in-sql/"
+        }
+      ]
+    },
+    "pJtYvXUo81aZfPuRjIbMq": {
+      "id": "pJtYvXUo81aZfPuRjIbMq",
+      "slug": "savepoint",
+      "title": "SAVEPOINT",
+      "description": "A `SAVEPOINT` in SQL is a point within a transaction that can be referenced later. It allows for more granular control over transactions by creating intermediate points to which you can roll back without affecting the entire transaction. This is particularly useful in complex transactions where you might want to undo part of the work without discarding all changes. `SAVEPOINT` enhances transaction management flexibility.",
+      "resources": [
+        {
+          "id": "pJtYvXUo81aZfPuRjIbMq-res-1",
+          "type": "article",
+          "title": "SQL SAVEPOINT",
+          "url": "https://www.ibm.com/docs/pl/informix-servers/12.10?topic=statements-savepoint-statement"
+        },
+        {
+          "id": "pJtYvXUo81aZfPuRjIbMq-res-2",
+          "type": "video",
+          "title": "DBMS - Save Point",
+          "url": "https://www.youtube.com/watch?v=30ldSUkswGM"
+        }
+      ]
+    },
+    "eXQ-TrTlqL5p2AdGnozkL": {
+      "id": "eXQ-TrTlqL5p2AdGnozkL",
+      "slug": "scalar",
+      "title": "Scalar",
+      "description": "A scalar value is a single data item, as opposed to a set or array of values. Scalar subqueries are queries that return exactly one column and one row, often used in `SELECT` statements, `WHERE` clauses, or as part of expressions. Scalar functions in SQL return a single value based on input parameters. Understanding scalar concepts is crucial for writing efficient and precise SQL queries.",
+      "resources": [
+        {
+          "id": "eXQ-TrTlqL5p2AdGnozkL-res-1",
+          "type": "article",
+          "title": "Creating SQL Scalar Functions",
+          "url": "https://www.ibm.com/docs/en/db2/11.5?topic=functions-creating-sql-scalar"
+        },
+        {
+          "id": "eXQ-TrTlqL5p2AdGnozkL-res-2",
+          "type": "video",
+          "title": "Using Scalar SQL to boost performance",
+          "url": "https://www.youtube.com/watch?v=v8X5FGzzc9A"
+        }
+      ]
+    },
+    "i8u8E_sne6XiKJo2FXDog": {
+      "id": "i8u8E_sne6XiKJo2FXDog",
+      "slug": "select",
+      "title": "Select Statement",
+      "description": "The `SELECT` statement in SQL is used to retrieve data from one or more tables. It allows you to specify which columns you want to see and apply conditions to filter the rows returned. Think of it as a powerful tool to query a database and extract specific information based on your needs.",
+      "resources": []
+    },
+    "rmqXH29n1oXtZ8tvmcRFn": {
+      "id": "rmqXH29n1oXtZ8tvmcRFn",
+      "slug": "select",
+      "title": "SELECT statement",
+      "description": "SELECT is one of the most fundamental SQL commands, used to retrieve data from one or more tables in a database. It allows you to specify which columns to fetch, apply filtering conditions, sort results, and perform various operations on the data. The SELECT statement is versatile, supporting joins, subqueries, aggregations, and more, making it essential for data querying and analysis in relational databases.",
+      "resources": []
+    },
+    "w53CSY53nAAN0ux-XeJ4c": {
+      "id": "w53CSY53nAAN0ux-XeJ4c",
+      "slug": "selective-projection",
+      "title": "Selective Projection",
+      "description": "Selective projection in SQL refers to the practice of choosing only specific columns (attributes) from a table or query result, rather than selecting all available columns. This technique is crucial for optimizing query performance and reducing unnecessary data transfer. By using SELECT with explicitly named columns instead of `SELECT *`, developers can improve query efficiency and clarity, especially when dealing with large tables or complex joins.",
+      "resources": []
+    },
+    "6qG0AVYd6Y1B8LOSDoMX9": {
+      "id": "6qG0AVYd6Y1B8LOSDoMX9",
+      "slug": "self-join",
+      "title": "Self Join",
+      "description": "A self join is a query in SQL that joins a table to itself. This is useful when you want to compare rows within the same table, often based on a hierarchical relationship or other connection between the data points within that table. Think of it as creating two copies of the same table and then joining them based on a shared column, allowing you to relate data from the same source in a new way.",
+      "resources": [
+        {
+          "id": "6qG0AVYd6Y1B8LOSDoMX9-res-1",
+          "type": "article",
+          "title": "Understanding the Self Joins in SQL",
+          "url": "https://www.dbvis.com/thetable/understanding-self-joins-in-sql/"
+        },
+        {
+          "id": "6qG0AVYd6Y1B8LOSDoMX9-res-2",
+          "type": "article",
+          "title": "SQL self joins",
+          "url": "https://www.w3schools.com/sql/sql_join_self.asp"
+        }
+      ]
+    },
+    "6yoo7qC6X2jYDIjd3HIm7": {
+      "id": "6yoo7qC6X2jYDIjd3HIm7",
+      "slug": "sql-keywords",
+      "title": "SQL keywords",
+      "description": "SQL keywords are reserved words that have special meanings within SQL statements. These include commands (like `SELECT`, `INSERT`, `UPDATE`), clauses (such as `WHERE`, `GROUP BY`, `HAVING`), and other syntax elements that form the structure of SQL queries. Understanding SQL keywords is fundamental to writing correct and effective database queries. Keywords are typically case-insensitive but are often written in uppercase by convention for better readability.",
+      "resources": [
+        {
+          "id": "6yoo7qC6X2jYDIjd3HIm7-res-1",
+          "type": "article",
+          "title": "SQL Keywords, Operators and Statements",
+          "url": "https://blog.hubspot.com/website/sql-keywords-operators-statements"
+        }
+      ]
+    },
+    "gx4KaFqKgJX9n9_ZGMqlZ": {
+      "id": "gx4KaFqKgJX9n9_ZGMqlZ",
+      "slug": "sql-vs-nosql-databases",
+      "title": "SQL vs NoSQL",
+      "description": "SQL (relational) and NoSQL (non-relational) databases represent two different approaches to data storage and retrieval. SQL databases use structured schemas and tables, emphasizing data integrity and complex queries through joins. NoSQL databases offer more flexibility in data structures, often sacrificing some consistency for scalability and performance. The choice between SQL and NoSQL depends on factors like data structure, scalability needs, consistency requirements, and the nature of the application.",
+      "resources": [
+        {
+          "id": "gx4KaFqKgJX9n9_ZGMqlZ-res-1",
+          "type": "article",
+          "title": "Understanding SQL vs NoSQL Databases",
+          "url": "https://www.mongodb.com/resources/basics/databases/nosql-explained/nosql-vs-sql"
+        },
+        {
+          "id": "gx4KaFqKgJX9n9_ZGMqlZ-res-2",
+          "type": "video",
+          "title": "SQL vs NoSQL Databases in 4 mins",
+          "url": "https://www.youtube.com/watch?v=_Ss42Vb1SU4"
+        }
+      ]
+    },
+    "w7FNjdwqjY7X69aJqqBy4": {
+      "id": "w7FNjdwqjY7X69aJqqBy4",
+      "slug": "stored-procedures--functions",
+      "title": "Stored Procedures and Functions",
+      "description": "Stored procedures and functions are precompiled database objects that encapsulate a set of SQL statements and logic. Stored procedures can perform complex operations and are typically used for data manipulation, while functions are designed to compute and return values. Both improve performance by reducing network traffic and allowing code reuse. They also enhance security by providing a layer of abstraction between the application and the database.",
+      "resources": [
+        {
+          "id": "w7FNjdwqjY7X69aJqqBy4-res-1",
+          "type": "article",
+          "title": "Stored Procedure vs Functions",
+          "url": "https://www.shiksha.com/online-courses/articles/stored-procedure-vs-function-what-are-the-differences/"
+        }
+      ]
+    },
+    "86iZ8s8EdhSuYwgwAM_EO": {
+      "id": "86iZ8s8EdhSuYwgwAM_EO",
+      "slug": "subqueries",
+      "title": "Sub Queries",
+      "description": "Subqueries, also known as nested queries or inner queries, are SQL queries embedded within another query. They can be used in various parts of SQL statements, such as SELECT, FROM, WHERE, and HAVING clauses. Subqueries allow for complex data retrieval and manipulation by breaking down complex queries into more manageable parts. They're particularly useful for creating dynamic criteria, performing calculations, or comparing sets of results.",
+      "resources": [
+        {
+          "id": "86iZ8s8EdhSuYwgwAM_EO-res-1",
+          "type": "article",
+          "title": "SQL Sub Queries",
+          "url": "https://www.tutorialspoint.com/sql/sql-sub-queries.htm"
+        },
+        {
+          "id": "86iZ8s8EdhSuYwgwAM_EO-res-2",
+          "type": "video",
+          "title": "Advanced SQL Tutorial | Subqueries",
+          "url": "https://www.youtube.com/watch?v=m1KcNV-Zhmc"
+        }
+      ]
+    },
+    "PnG_5D6q66NAKxXVOwA6N": {
+      "id": "PnG_5D6q66NAKxXVOwA6N",
+      "slug": "substring",
+      "title": "SUBSTRING",
+      "description": "SUBSTRING is a SQL function used to extract a portion of a string. It allows you to specify the starting position and length of the substring you want to extract. This function is valuable for data manipulation, parsing, and formatting tasks. The exact syntax may vary slightly between database systems, but the core functionality remains consistent, making it a versatile tool for working with string data in databases.",
+      "resources": [
+        {
+          "id": "PnG_5D6q66NAKxXVOwA6N-res-1",
+          "type": "article",
+          "title": "SQL SUBSTRING",
+          "url": "https://www.w3schools.com/sql/func_sqlserver_substring.asp"
+        },
+        {
+          "id": "PnG_5D6q66NAKxXVOwA6N-res-2",
+          "type": "video",
+          "title": "Advanced SQL Tutorial | String Functions + Use Cases",
+          "url": "https://www.youtube.com/watch?v=GQj6_6V_jVA"
+        }
+      ]
+    },
+    "w4T3jFb0ilf1KNw-AvRXG": {
+      "id": "w4T3jFb0ilf1KNw-AvRXG",
+      "slug": "sum",
+      "title": "SUM",
+      "description": "SUM is an aggregate function in SQL used to calculate the total of a set of values. It's commonly used with numeric columns in combination with GROUP BY clauses to compute totals for different categories or groups within the data. SUM is essential for financial calculations, statistical analysis, and generating summary reports from database tables. It ignores NULL values and can be used in conjunction with other aggregate functions for complex data analysis.",
+      "resources": [
+        {
+          "id": "w4T3jFb0ilf1KNw-AvRXG-res-1",
+          "type": "article",
+          "title": "SQL SUM",
+          "url": "https://www.studysmarter.co.uk/explanations/computer-science/databases/sql-sum/"
+        }
+      ]
+    },
+    "R9WDMRd-3wxsKH97-sT3n": {
+      "id": "R9WDMRd-3wxsKH97-sT3n",
+      "slug": "table",
+      "title": "Table",
+      "description": "A table is a fundamental structure for organizing data in a relational database. It consists of rows (records) and columns (fields), representing a collection of related data entries. Tables define the schema of the data, including data types and constraints. They are the primary objects for storing and retrieving data in SQL databases, and understanding table structure is crucial for effective database design and querying.",
+      "resources": [
+        {
+          "id": "R9WDMRd-3wxsKH97-sT3n-res-1",
+          "type": "article",
+          "title": "Table (Database)",
+          "url": "https://en.wikipedia.org/wiki/Table_(database"
+        },
+        {
+          "id": "R9WDMRd-3wxsKH97-sT3n-res-2",
+          "type": "article",
+          "title": "Introduction to Tables",
+          "url": "https://support.microsoft.com/en-gb/office/introduction-to-tables-78ff21ea-2f76-4fb0-8af6-c318d1ee0ea7"
+        }
+      ]
+    },
+    "88KlrMqSza9_YaD7Dv61p": {
+      "id": "88KlrMqSza9_YaD7Dv61p",
+      "slug": "time",
+      "title": "TIME",
+      "description": "The TIME data type in SQL is used to store time values, typically in the format of hours, minutes, and seconds. It's useful for recording specific times of day without date information. SQL provides various functions for manipulating and comparing TIME values, allowing for time-based calculations and queries. The exact range and precision of TIME can vary between different database management systems. Learn more from the following resources:",
+      "resources": []
+    },
+    "7hEqkoxkdAWmakGZsMJx-": {
+      "id": "7hEqkoxkdAWmakGZsMJx-",
+      "slug": "timestamp",
+      "title": "TIMESTAMP",
+      "description": "A TIMESTAMP is a data type used to store a specific point in time, typically including both date and time components. It often includes fractions of a second (milliseconds or microseconds) for greater precision. It is very common for databases to have a timestamp that automatically updates when a row is updated.",
+      "resources": [
+        {
+          "id": "7hEqkoxkdAWmakGZsMJx--res-1",
+          "type": "article",
+          "title": "Different SQL TimeStamp functions in SQL Server",
+          "url": "https://www.sqlshack.com/different-sql-timestamp-functions-in-sql-server/"
+        }
+      ]
+    },
+    "ujeq8EIFcrqkBjoFizsJM": {
+      "id": "ujeq8EIFcrqkBjoFizsJM",
+      "slug": "transaction-isolation-levels",
+      "title": "Transaction Isolation Levels",
+      "description": "Transaction isolation levels in SQL define the degree to which the operations in one transaction are visible to other concurrent transactions. There are typically four standard levels: Read Uncommitted, Read Committed, Repeatable Read, and Serializable. Each level provides different trade-offs between data consistency and concurrency. Understanding and correctly setting isolation levels is crucial for maintaining data integrity and optimizing performance in multi-user database environments.",
+      "resources": [
+        {
+          "id": "ujeq8EIFcrqkBjoFizsJM-res-1",
+          "type": "article",
+          "title": "Everything you always wanted to know about SQL isolation levels",
+          "url": "https://www.cockroachlabs.com/blog/sql-isolation-levels-explained/"
+        },
+        {
+          "id": "ujeq8EIFcrqkBjoFizsJM-res-2",
+          "type": "article",
+          "title": "Isolation Levels in SQL Server",
+          "url": "https://www.sqlservercentral.com/articles/isolation-levels-in-sql-server"
+        }
+      ]
+    },
+    "OdaBXz2XBAVLsQ-m7xtAM": {
+      "id": "OdaBXz2XBAVLsQ-m7xtAM",
+      "slug": "transactions",
+      "title": "Transactions",
+      "description": "Transactions in SQL are units of work that group one or more database operations into a single, atomic unit. They ensure data integrity by following the ACID properties: Atomicity (all or nothing), Consistency (database remains in a valid state), Isolation (transactions don't interfere with each other), and Durability (committed changes are permanent). Transactions are essential for maintaining data consistency in complex operations and handling concurrent access to the database.",
+      "resources": [
+        {
+          "id": "OdaBXz2XBAVLsQ-m7xtAM-res-1",
+          "type": "article",
+          "title": "Transactions",
+          "url": "https://www.tutorialspoint.com/sql/sql-transactions.htm"
+        },
+        {
+          "id": "OdaBXz2XBAVLsQ-m7xtAM-res-2",
+          "type": "article",
+          "title": "A Guide to ACID Properties in Database Management Systems",
+          "url": "https://www.mongodb.com/resources/basics/databases/acid-transactions"
+        }
+      ]
+    },
+    "K5vhqTJrdPK08Txv8zaEj": {
+      "id": "K5vhqTJrdPK08Txv8zaEj",
+      "slug": "truncate-table",
+      "title": "Truncate Table",
+      "description": "Truncate Table is a command in SQL used to remove all rows from a table.  It's like resetting the table to its initial, empty state.  The table structure itself (columns, data types, constraints) remains intact. `TRUNCATE TABLE` is generally faster than `DELETE` because it deallocates the data pages used by the table, rather than individually logging each row deletion.",
+      "resources": [
+        {
+          "id": "K5vhqTJrdPK08Txv8zaEj-res-1",
+          "type": "article",
+          "title": "TRUNCATE TABLE",
+          "url": "https://www.tutorialspoint.com/sql/sql-truncate-table.htm"
+        },
+        {
+          "id": "K5vhqTJrdPK08Txv8zaEj-res-2",
+          "type": "video",
+          "title": "SQL Tutorial - TRUNCATE TABLE",
+          "url": "https://www.youtube.com/watch?v=zJidbjOQlJM"
+        }
+      ]
+    },
+    "5yGo8i7eplxtXOD_qfzOs": {
+      "id": "5yGo8i7eplxtXOD_qfzOs",
+      "slug": "unique",
+      "title": "Unique Constraint",
+      "description": "A unique constraint ensures that all values in a column (or a group of columns) are different. It prevents duplicate entries, maintaining data integrity by enforcing uniqueness for the specified field(s). This is useful for fields like email addresses or usernames, where each record should have a distinct value.",
+      "resources": [
+        {
+          "id": "5yGo8i7eplxtXOD_qfzOs-res-1",
+          "type": "article",
+          "title": "SQL UNIQUE Constraint",
+          "url": "https://www.w3schools.com/sql/sql_unique.asp"
+        }
+      ]
+    },
+    "eu9dJFi6gBPMBdy08Y5Bb": {
+      "id": "eu9dJFi6gBPMBdy08Y5Bb",
+      "slug": "update",
+      "title": "UPDATE Statement",
+      "description": "The UPDATE statement modifies existing data within a table. It allows you to change the values of one or more columns for specific rows based on a specified condition. You use the `UPDATE` statement to correct errors, reflect changes in data, or apply new information to your database.",
+      "resources": [
+        {
+          "id": "eu9dJFi6gBPMBdy08Y5Bb-res-1",
+          "type": "article",
+          "title": "Efficient column updates in SQL",
+          "url": "https://www.atlassian.com/data/sql/how-to-update-a-column-based-on-a-filter-of-another-column"
+        }
+      ]
+    },
+    "KJJ6PYjTnr_3yU2mNPL9v": {
+      "id": "KJJ6PYjTnr_3yU2mNPL9v",
+      "slug": "update",
+      "title": "UPDATE Statement",
+      "description": "The UPDATE statement modifies existing data within a table. It allows you to change the values of one or more columns in a table, based on specified conditions. You can update a single row or multiple rows, and it's essential for keeping your database information accurate and current.",
+      "resources": [
+        {
+          "id": "KJJ6PYjTnr_3yU2mNPL9v-res-1",
+          "type": "article",
+          "title": "Efficient column updates in SQL",
+          "url": "https://www.atlassian.com/data/sql/how-to-update-a-column-based-on-a-filter-of-another-column"
+        }
+      ]
+    },
+    "Othfo7NvTVzfyL906PLM1": {
+      "id": "Othfo7NvTVzfyL906PLM1",
+      "slug": "upper",
+      "title": "UPPER",
+      "description": "UPPER is a string function that transforms all characters in a given string to uppercase. It accepts a single string or character-based column as an argument and returns a new string where every letter has been converted to its uppercase equivalent. Non-alphabetic characters and already uppercase characters remain unchanged.",
+      "resources": [
+        {
+          "id": "Othfo7NvTVzfyL906PLM1-res-1",
+          "type": "article",
+          "title": "How to Convert a String to Uppercase in SQL",
+          "url": "https://learnsql.com/cookbook/how-to-convert-a-string-to-uppercase-in-sql/"
+        }
+      ]
+    },
+    "9wOgP0i9G4HSeZGn2Gm7r": {
+      "id": "9wOgP0i9G4HSeZGn2Gm7r",
+      "slug": "using-indexes",
+      "title": "Using Indexes",
+      "description": "Indexes in SQL are database objects that improve the speed of data retrieval operations on database tables. They work similarly to an index in a book, allowing the database engine to quickly locate data without scanning the entire table. Proper use of indexes can significantly enhance query performance, especially for large tables. However, they come with trade-offs: while they speed up reads, they can slow down write operations (INSERT, UPDATE, DELETE) as the index also needs to be updated. Common types include B-tree indexes (default in most systems), bitmap indexes, and full-text indexes. Understanding when and how to create indexes is crucial for database optimization. This involves analyzing query patterns, understanding the data distribution, and balancing the needs of different types of operations on the database.",
+      "resources": [
+        {
+          "id": "9wOgP0i9G4HSeZGn2Gm7r-res-1",
+          "type": "article",
+          "title": "What is an index in SQL?",
+          "url": "https://stackoverflow.com/questions/2955459/what-is-an-index-in-sql"
+        },
+        {
+          "id": "9wOgP0i9G4HSeZGn2Gm7r-res-2",
+          "type": "video",
+          "title": "SQL Indexes - Definition, Examples, and Tips",
+          "url": "https://www.youtube.com/watch?v=NZgfYbAmge8"
+        }
+      ]
+    },
+    "2tyezwOIxV6O84N-Q3Awh": {
+      "id": "2tyezwOIxV6O84N-Q3Awh",
+      "slug": "views",
+      "title": "Views",
+      "description": "Views are like virtual tables. Instead of physically storing data, a view's definition is based on a query against one or more tables. When you query a view, the database executes the underlying query defined in the view, and the results are presented as if they were from an actual table. This simplifies complex queries and provides a level of data abstraction and security.",
+      "resources": [
+        {
+          "id": "2tyezwOIxV6O84N-Q3Awh-res-1",
+          "type": "article",
+          "title": "Views in SQL",
+          "url": "https://www.datacamp.com/tutorial/views-in-sql"
+        },
+        {
+          "id": "2tyezwOIxV6O84N-Q3Awh-res-2",
+          "type": "video",
+          "title": "SQL Views Tutorial",
+          "url": "https://www.youtube.com/watch?v=cLSxasHg9WY"
+        }
+      ]
+    },
+    "R9DQNc0AyAQ2HLpP4HOk6": {
+      "id": "R9DQNc0AyAQ2HLpP4HOk6",
+      "slug": "what-are-relational-databases",
+      "title": "Relational Databases",
+      "description": "Relational databases organize data into tables, where each table represents a specific type of entity (like customers or products). These tables are linked together based on relationships between the data, often using shared columns called keys. This structure allows for efficient storage, retrieval, and management of large datasets while ensuring data integrity and consistency.",
+      "resources": [
+        {
+          "id": "R9DQNc0AyAQ2HLpP4HOk6-res-1",
+          "type": "article",
+          "title": "What is a relational database - AWS",
+          "url": "https://aws.amazon.com/relational-database/"
+        },
+        {
+          "id": "R9DQNc0AyAQ2HLpP4HOk6-res-2",
+          "type": "video",
+          "title": "What is a relational database?",
+          "url": "https://www.youtube.com/watch?v=OqjJjpjDRLc"
+        }
+      ]
+    },
+    "WhYAy6f7Euk3E49-ot644": {
+      "id": "WhYAy6f7Euk3E49-ot644",
+      "slug": "where",
+      "title": "WHERE Clause in SELECT Statements",
+      "description": "The WHERE clause is a fundamental part of the SELECT statement in SQL. It filters the rows returned by a query based on a specified condition.  Essentially, it allows you to retrieve only the data that meets certain criteria, enabling you to focus on specific subsets of information within your database tables.",
+      "resources": [
+        {
+          "id": "WhYAy6f7Euk3E49-ot644-res-1",
+          "type": "article",
+          "title": "WHERE Clause",
+          "url": "https://www.w3schools.com/sql/sql_where.asp"
+        },
+        {
+          "id": "WhYAy6f7Euk3E49-ot644-res-2",
+          "type": "video",
+          "title": "How to filter with the WHERE clause in SQL",
+          "url": "https://www.youtube.com/watch?v=4Uv0o8IBqw0"
+        }
+      ]
+    },
+    "tBvXLLp5FKeSSN35Kj1X4": {
+      "id": "tBvXLLp5FKeSSN35Kj1X4",
+      "slug": "window-functions",
+      "title": "Window Functions",
+      "description": "Window functions perform calculations across a set of rows that are related to the current row. Unlike standard aggregate functions that group rows into a single result row, window functions retain the individual rows and add a calculated value for each row based on the window frame. This allows you to perform analyses like calculating running totals, moving averages, or ranking within partitions of data without collapsing the rows.",
+      "resources": [
+        {
+          "id": "tBvXLLp5FKeSSN35Kj1X4-res-1",
+          "type": "article",
+          "title": "SQL Window Functions",
+          "url": "https://mode.com/sql-tutorial/sql-window-functions"
+        },
+        {
+          "id": "tBvXLLp5FKeSSN35Kj1X4-res-2",
+          "type": "video",
+          "title": "SQL Window Functions in 10 Minutes",
+          "url": "https://www.youtube.com/watch?v=y1KCM8vbYe4"
+        }
+      ]
+    }
+  }
+}

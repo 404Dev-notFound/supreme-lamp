@@ -1,0 +1,3381 @@
+{
+  "slug": "python",
+  "title": "Python Developer",
+  "description": "Master Python programming from syntax fundamentals to async workflows and data systems",
+  "category": "skill",
+  "level": "Beginner",
+  "topicCount": 85,
+  "iconName": "Terminal",
+  "nodes": [
+    {
+      "id": "node-IBVAvFtN4mnIPbIuyUvEb",
+      "label": "AIOHTTP",
+      "topicId": "IBVAvFtN4mnIPbIuyUvEb",
+      "level": 1,
+      "position": {
+        "x": 80,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-OPD4WdMO7q4gRZMcRCQh1",
+      "label": "Arrays and Linked lists",
+      "topicId": "OPD4WdMO7q4gRZMcRCQh1",
+      "level": 1,
+      "position": {
+        "x": 340,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-Mow7RvropbC4ZGDpcGZmw",
+      "label": "Asynchrony",
+      "topicId": "Mow7RvropbC4ZGDpcGZmw",
+      "level": 1,
+      "position": {
+        "x": 600,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-6xRncUs3_vxVbDur567QA",
+      "label": "Basic Syntax",
+      "topicId": "6xRncUs3_vxVbDur567QA",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-uJIqgsqUbE62Tyo3K75Qx",
+      "label": "Binary Search Trees",
+      "topicId": "uJIqgsqUbE62Tyo3K75Qx",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-DS6nuAUhUYcqiJDmQisKM",
+      "label": "black",
+      "topicId": "DS6nuAUhUYcqiJDmQisKM",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-08XifLQ20c4FKI_4AWNBQ",
+      "label": "Builtin Modules",
+      "topicId": "08XifLQ20c4FKI_4AWNBQ",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-AqwzR8dZKLQIoj_6KKZ3t",
+      "label": "Classes",
+      "topicId": "AqwzR8dZKLQIoj_6KKZ3t",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-0F0ppU_ClIUKZ23Q6BVZp",
+      "label": "Code Formatting",
+      "topicId": "0F0ppU_ClIUKZ23Q6BVZp",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-__ndo1gcuUUtzmBnMIAbR",
+      "label": "Docstrings and Comments",
+      "topicId": "__ndo1gcuUUtzmBnMIAbR",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-_94NrQ3quc4t_PPOsFSN0",
+      "label": "Common Packages and Modules",
+      "topicId": "_94NrQ3quc4t_PPOsFSN0",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-u4nRzWQ4zhDFMOrZ2I_uJ",
+      "label": "Concurrency",
+      "topicId": "u4nRzWQ4zhDFMOrZ2I_uJ",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-uh67D1u-Iv5cZamRgFEJg",
+      "label": "Conda",
+      "topicId": "uh67D1u-Iv5cZamRgFEJg",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-NP1kjSk0ujU0Gx-ajNHlR",
+      "label": "Conditionals",
+      "topicId": "NP1kjSk0ujU0Gx-ajNHlR",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-KAXF2kUAOvtBZhY8G9rkI",
+      "label": "Context Manager",
+      "topicId": "KAXF2kUAOvtBZhY8G9rkI",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-l7k0qTYe42wYBTlT2-1cy",
+      "label": "Custom Modules",
+      "topicId": "l7k0qTYe42wYBTlT2-1cy",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-VJSIbYJcy2MC6MOFBrqXi",
+      "label": "Data Structures and Algorithms",
+      "topicId": "VJSIbYJcy2MC6MOFBrqXi",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-pIluLJkySqn_gI_GykV6G",
+      "label": "Decorators",
+      "topicId": "pIluLJkySqn_gI_GykV6G",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-bc9CL_HMT-R6nXO1eR-gP",
+      "label": "Dictionaries",
+      "topicId": "bc9CL_HMT-R6nXO1eR-gP",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-x1V8GjdjANTnhP6YXMbgC",
+      "label": "Django",
+      "topicId": "x1V8GjdjANTnhP6YXMbgC",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-aVclygxoA9ePU5IxaORSH",
+      "label": "Doctest",
+      "topicId": "aVclygxoA9ePU5IxaORSH",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-3dC2o3WXdx4plFhDP2Vqk",
+      "label": "Encapsulation",
+      "topicId": "3dC2o3WXdx4plFhDP2Vqk",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-fNTb9y3zs1HPYclAmu_Wv",
+      "label": "Exceptions",
+      "topicId": "fNTb9y3zs1HPYclAmu_Wv",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-XeQSmvAsGSTi8dd7QVHxn",
+      "label": "FastAPI",
+      "topicId": "XeQSmvAsGSTi8dd7QVHxn",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-Nf3kRDSl_vas6QPXG7eVa",
+      "label": "File Handling in Python",
+      "topicId": "Nf3kRDSl_vas6QPXG7eVa",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-HKsGyRzntjh1UbRZSWh_4",
+      "label": "Flask",
+      "topicId": "HKsGyRzntjh1UbRZSWh_4",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node--DJgS6l2qngfwurExlmmT",
+      "label": "Functions",
+      "topicId": "-DJgS6l2qngfwurExlmmT",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-jnLIVRrWxcX3yq3Op91Vr",
+      "label": "Generator Expressions",
+      "topicId": "jnLIVRrWxcX3yq3Op91Vr",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-InUJIGmTnf0X4cSoLuCEQ",
+      "label": "gevent",
+      "topicId": "InUJIGmTnf0X4cSoLuCEQ",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-bS7WeVKm2kEElu3sBKcIC",
+      "label": "GIL",
+      "topicId": "bS7WeVKm2kEElu3sBKcIC",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-bqnwMKY4R0rirup3q_hb_",
+      "label": "Glob Module in Python",
+      "topicId": "bqnwMKY4R0rirup3q_hb_",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-DG4fi1e5ec2BVckPLsTJS",
+      "label": "HashMaps",
+      "topicId": "DG4fi1e5ec2BVckPLsTJS",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-0NlRczh6ZEaFLlT6LORWz",
+      "label": "Heaps, Stacks, and Queues",
+      "topicId": "0NlRczh6ZEaFLlT6LORWz",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-S0FLE70szSVUPI0CDEQK7",
+      "label": "Inheritance",
+      "topicId": "S0FLE70szSVUPI0CDEQK7",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-aB1LSQjDEQb_BxueOcnxU",
+      "label": "Iterators",
+      "topicId": "aB1LSQjDEQb_BxueOcnxU",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-aWHgAk959DPUZL46CeRiI",
+      "label": "Lambdas",
+      "topicId": "aWHgAk959DPUZL46CeRiI",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-0-ShORjGnQlAdcwjtxdEB",
+      "label": "Python Frameworks",
+      "topicId": "0-ShORjGnQlAdcwjtxdEB",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-GISOFMKvnBys0O0IMpz2J",
+      "label": "Python",
+      "topicId": "GISOFMKvnBys0O0IMpz2J",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-4gtmtYWYRWqwLdZRL0XMg",
+      "label": "List Comprehensions",
+      "topicId": "4gtmtYWYRWqwLdZRL0XMg",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-UT_SR7G-LYtzqooWrEtF1",
+      "label": "Lists in Python",
+      "topicId": "UT_SR7G-LYtzqooWrEtF1",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-Dvy7BnNzK55qbh_SgOk8m",
+      "label": "Loops",
+      "topicId": "Dvy7BnNzK55qbh_SgOk8m",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-zAS4YiEJ6VPsyABrkIG8i",
+      "label": "Methods and Dunder Methods",
+      "topicId": "zAS4YiEJ6VPsyABrkIG8i",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-274uk28wzxn6EKWQzLpHs",
+      "label": "Modules",
+      "topicId": "274uk28wzxn6EKWQzLpHs",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-HSY5OUc_M5S6OcFXPRtkx",
+      "label": "Multiprocessing",
+      "topicId": "HSY5OUc_M5S6OcFXPRtkx",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-gIcJ3bUVQXqO1Wx4gUKd5",
+      "label": "mypy",
+      "topicId": "gIcJ3bUVQXqO1Wx4gUKd5",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-P_Di-XPSDITmU3xKQew8G",
+      "label": "OOP",
+      "topicId": "P_Di-XPSDITmU3xKQew8G",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-so95CO6Qw3I0S98ISENS-",
+      "label": "Operators",
+      "topicId": "so95CO6Qw3I0S98ISENS-",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-qeCMw-sJ2FR4UxvU9DDzv",
+      "label": "Package Managers",
+      "topicId": "qeCMw-sJ2FR4UxvU9DDzv",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-4GU5HNi3W8yFkImVY9ZpW",
+      "label": "Paradigms",
+      "topicId": "4GU5HNi3W8yFkImVY9ZpW",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-xDgXISgVUMRHh9hu4h6Hl",
+      "label": "PDM",
+      "topicId": "xDgXISgVUMRHh9hu4h6Hl",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-iVhQnp6hpgVZDNJ0XoVra",
+      "label": "Pip",
+      "topicId": "iVhQnp6hpgVZDNJ0XoVra",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-IWq-tfkz-pSC1ztZl60vM",
+      "label": "pipenv",
+      "topicId": "IWq-tfkz-pSC1ztZl60vM",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-7zcpXN3krnS3tMRWVNIVe",
+      "label": "Plotly Dash",
+      "topicId": "7zcpXN3krnS3tMRWVNIVe",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-uXd2B01GVBEQNXQE8RATT",
+      "label": "Poetry",
+      "topicId": "uXd2B01GVBEQNXQE8RATT",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-W3VALz5evFo1qqkQbMN1R",
+      "label": "Pydantic",
+      "topicId": "W3VALz5evFo1qqkQbMN1R",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-N5VaKMbgQ0V_BC5tadV65",
+      "label": "pyenv",
+      "topicId": "N5VaKMbgQ0V_BC5tadV65",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-1dfOTOGsOk5XE3bnZs8Ht",
+      "label": "PyPI",
+      "topicId": "1dfOTOGsOk5XE3bnZs8Ht",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-GHKAY9gOykEbxkEeR30wL",
+      "label": "pyproject.toml",
+      "topicId": "GHKAY9gOykEbxkEeR30wL",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-DHtskqATeAVKgaazdhXKD",
+      "label": "Pyramid",
+      "topicId": "DHtskqATeAVKgaazdhXKD",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-9mFR_ueXbIB2IrkqU2s85",
+      "label": "pyrefly",
+      "topicId": "9mFR_ueXbIB2IrkqU2s85",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-1q9HWgu9jDTK757hTNOmE",
+      "label": "pyright",
+      "topicId": "1q9HWgu9jDTK757hTNOmE",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-3FDwJpesfelEyJrNWtm0V",
+      "label": "pytest",
+      "topicId": "3FDwJpesfelEyJrNWtm0V",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-kLBgy_nxxjE8SxdVi04bq",
+      "label": "Recursion",
+      "topicId": "kLBgy_nxxjE8SxdVi04bq",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-7t6mJBsaFMWPi7o9fbhhq",
+      "label": "Regular Expressions",
+      "topicId": "7t6mJBsaFMWPi7o9fbhhq",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-6cB0pvUO1-gvCtgqozP-Q",
+      "label": "ruff",
+      "topicId": "6cB0pvUO1-gvCtgqozP-Q",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-9RGpqsj9jHz0_-r7EvRcw",
+      "label": "Sanic",
+      "topicId": "9RGpqsj9jHz0_-r7EvRcw",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-soZFqivM3YBuljeX6PoaX",
+      "label": "Sets",
+      "topicId": "soZFqivM3YBuljeX6PoaX",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-vvTmjcWCVclOPY4f_5uB0",
+      "label": "Sorting Algorithms",
+      "topicId": "vvTmjcWCVclOPY4f_5uB0",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-maYNuTKYyZndxk1z29-UY",
+      "label": "sphinx",
+      "topicId": "maYNuTKYyZndxk1z29-UY",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-1PXApuUpPmJjgi12cmWo4",
+      "label": "Static Typing",
+      "topicId": "1PXApuUpPmJjgi12cmWo4",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-WQOYjuwKIWB2meea4JnsV",
+      "label": "Testing",
+      "topicId": "WQOYjuwKIWB2meea4JnsV",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-UIx0XYaOgXXlYbbQtjiPq",
+      "label": "Threading",
+      "topicId": "UIx0XYaOgXXlYbbQtjiPq",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-zey2C6BdzsHJAlb_K3qrP",
+      "label": "Tornado",
+      "topicId": "zey2C6BdzsHJAlb_K3qrP",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-jPFOiwbqfaGshaGDBWb5x",
+      "label": "Tox",
+      "topicId": "jPFOiwbqfaGshaGDBWb5x",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-i7xIGiXU-k5UIKHIhQPjE",
+      "label": "Tuples",
+      "topicId": "i7xIGiXU-k5UIKHIhQPjE",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-syV0DT_3ITgIFDbwPts8i",
+      "label": "Type Annotations",
+      "topicId": "syV0DT_3ITgIFDbwPts8i",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-R9DQNc0AyAQ2HLpP4HOk6",
+      "label": "Typecasting",
+      "topicId": "R9DQNc0AyAQ2HLpP4HOk6",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-o1wi39VnjnFfWIC8XcuAK",
+      "label": "Typing",
+      "topicId": "o1wi39VnjnFfWIC8XcuAK",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-b4he_RO17C3ScNeUd6v2b",
+      "label": "PyUnit / Unittest",
+      "topicId": "b4he_RO17C3ScNeUd6v2b",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-p3Frfs6oxpuciUzeCEsvb",
+      "label": "uv",
+      "topicId": "p3Frfs6oxpuciUzeCEsvb",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-3RNy7Sp28d-NMx0Yh4bdx",
+      "label": "Variable Scope",
+      "topicId": "3RNy7Sp28d-NMx0Yh4bdx",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-dEFLBGpiH6nbSMeR7ecaT",
+      "label": "Variables",
+      "topicId": "dEFLBGpiH6nbSMeR7ecaT",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-_IXXTSwQOgYzYIUuKVWNE",
+      "label": "virtualenv",
+      "topicId": "_IXXTSwQOgYzYIUuKVWNE",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-Sg5w8zO2Ji-uDJKEoWey9",
+      "label": "Working with Strings",
+      "topicId": "Sg5w8zO2Ji-uDJKEoWey9",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-tsh_vbhzKz1-H9Vh69tsK",
+      "label": "yapf",
+      "topicId": "tsh_vbhzKz1-H9Vh69tsK",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4560
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-node-IBVAvFtN4mnIPbIuyUvEb-node-OPD4WdMO7q4gRZMcRCQh1",
+      "source": "node-IBVAvFtN4mnIPbIuyUvEb",
+      "target": "node-OPD4WdMO7q4gRZMcRCQh1",
+      "animated": true
+    },
+    {
+      "id": "edge-node-OPD4WdMO7q4gRZMcRCQh1-node-Mow7RvropbC4ZGDpcGZmw",
+      "source": "node-OPD4WdMO7q4gRZMcRCQh1",
+      "target": "node-Mow7RvropbC4ZGDpcGZmw",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Mow7RvropbC4ZGDpcGZmw-node-6xRncUs3_vxVbDur567QA",
+      "source": "node-Mow7RvropbC4ZGDpcGZmw",
+      "target": "node-6xRncUs3_vxVbDur567QA",
+      "animated": true
+    },
+    {
+      "id": "edge-node-6xRncUs3_vxVbDur567QA-node-uJIqgsqUbE62Tyo3K75Qx",
+      "source": "node-6xRncUs3_vxVbDur567QA",
+      "target": "node-uJIqgsqUbE62Tyo3K75Qx",
+      "animated": true
+    },
+    {
+      "id": "edge-node-uJIqgsqUbE62Tyo3K75Qx-node-DS6nuAUhUYcqiJDmQisKM",
+      "source": "node-uJIqgsqUbE62Tyo3K75Qx",
+      "target": "node-DS6nuAUhUYcqiJDmQisKM",
+      "animated": true
+    },
+    {
+      "id": "edge-node-DS6nuAUhUYcqiJDmQisKM-node-08XifLQ20c4FKI_4AWNBQ",
+      "source": "node-DS6nuAUhUYcqiJDmQisKM",
+      "target": "node-08XifLQ20c4FKI_4AWNBQ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-08XifLQ20c4FKI_4AWNBQ-node-AqwzR8dZKLQIoj_6KKZ3t",
+      "source": "node-08XifLQ20c4FKI_4AWNBQ",
+      "target": "node-AqwzR8dZKLQIoj_6KKZ3t",
+      "animated": true
+    },
+    {
+      "id": "edge-node-AqwzR8dZKLQIoj_6KKZ3t-node-0F0ppU_ClIUKZ23Q6BVZp",
+      "source": "node-AqwzR8dZKLQIoj_6KKZ3t",
+      "target": "node-0F0ppU_ClIUKZ23Q6BVZp",
+      "animated": true
+    },
+    {
+      "id": "edge-node-0F0ppU_ClIUKZ23Q6BVZp-node-__ndo1gcuUUtzmBnMIAbR",
+      "source": "node-0F0ppU_ClIUKZ23Q6BVZp",
+      "target": "node-__ndo1gcuUUtzmBnMIAbR",
+      "animated": true
+    },
+    {
+      "id": "edge-node-__ndo1gcuUUtzmBnMIAbR-node-_94NrQ3quc4t_PPOsFSN0",
+      "source": "node-__ndo1gcuUUtzmBnMIAbR",
+      "target": "node-_94NrQ3quc4t_PPOsFSN0",
+      "animated": true
+    },
+    {
+      "id": "edge-node-_94NrQ3quc4t_PPOsFSN0-node-u4nRzWQ4zhDFMOrZ2I_uJ",
+      "source": "node-_94NrQ3quc4t_PPOsFSN0",
+      "target": "node-u4nRzWQ4zhDFMOrZ2I_uJ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-u4nRzWQ4zhDFMOrZ2I_uJ-node-uh67D1u-Iv5cZamRgFEJg",
+      "source": "node-u4nRzWQ4zhDFMOrZ2I_uJ",
+      "target": "node-uh67D1u-Iv5cZamRgFEJg",
+      "animated": true
+    },
+    {
+      "id": "edge-node-uh67D1u-Iv5cZamRgFEJg-node-NP1kjSk0ujU0Gx-ajNHlR",
+      "source": "node-uh67D1u-Iv5cZamRgFEJg",
+      "target": "node-NP1kjSk0ujU0Gx-ajNHlR",
+      "animated": true
+    },
+    {
+      "id": "edge-node-NP1kjSk0ujU0Gx-ajNHlR-node-KAXF2kUAOvtBZhY8G9rkI",
+      "source": "node-NP1kjSk0ujU0Gx-ajNHlR",
+      "target": "node-KAXF2kUAOvtBZhY8G9rkI",
+      "animated": true
+    },
+    {
+      "id": "edge-node-KAXF2kUAOvtBZhY8G9rkI-node-l7k0qTYe42wYBTlT2-1cy",
+      "source": "node-KAXF2kUAOvtBZhY8G9rkI",
+      "target": "node-l7k0qTYe42wYBTlT2-1cy",
+      "animated": true
+    },
+    {
+      "id": "edge-node-l7k0qTYe42wYBTlT2-1cy-node-VJSIbYJcy2MC6MOFBrqXi",
+      "source": "node-l7k0qTYe42wYBTlT2-1cy",
+      "target": "node-VJSIbYJcy2MC6MOFBrqXi",
+      "animated": true
+    },
+    {
+      "id": "edge-node-VJSIbYJcy2MC6MOFBrqXi-node-pIluLJkySqn_gI_GykV6G",
+      "source": "node-VJSIbYJcy2MC6MOFBrqXi",
+      "target": "node-pIluLJkySqn_gI_GykV6G",
+      "animated": true
+    },
+    {
+      "id": "edge-node-pIluLJkySqn_gI_GykV6G-node-bc9CL_HMT-R6nXO1eR-gP",
+      "source": "node-pIluLJkySqn_gI_GykV6G",
+      "target": "node-bc9CL_HMT-R6nXO1eR-gP",
+      "animated": true
+    },
+    {
+      "id": "edge-node-bc9CL_HMT-R6nXO1eR-gP-node-x1V8GjdjANTnhP6YXMbgC",
+      "source": "node-bc9CL_HMT-R6nXO1eR-gP",
+      "target": "node-x1V8GjdjANTnhP6YXMbgC",
+      "animated": true
+    },
+    {
+      "id": "edge-node-x1V8GjdjANTnhP6YXMbgC-node-aVclygxoA9ePU5IxaORSH",
+      "source": "node-x1V8GjdjANTnhP6YXMbgC",
+      "target": "node-aVclygxoA9ePU5IxaORSH",
+      "animated": true
+    },
+    {
+      "id": "edge-node-aVclygxoA9ePU5IxaORSH-node-3dC2o3WXdx4plFhDP2Vqk",
+      "source": "node-aVclygxoA9ePU5IxaORSH",
+      "target": "node-3dC2o3WXdx4plFhDP2Vqk",
+      "animated": true
+    },
+    {
+      "id": "edge-node-3dC2o3WXdx4plFhDP2Vqk-node-fNTb9y3zs1HPYclAmu_Wv",
+      "source": "node-3dC2o3WXdx4plFhDP2Vqk",
+      "target": "node-fNTb9y3zs1HPYclAmu_Wv",
+      "animated": true
+    },
+    {
+      "id": "edge-node-fNTb9y3zs1HPYclAmu_Wv-node-XeQSmvAsGSTi8dd7QVHxn",
+      "source": "node-fNTb9y3zs1HPYclAmu_Wv",
+      "target": "node-XeQSmvAsGSTi8dd7QVHxn",
+      "animated": true
+    },
+    {
+      "id": "edge-node-XeQSmvAsGSTi8dd7QVHxn-node-Nf3kRDSl_vas6QPXG7eVa",
+      "source": "node-XeQSmvAsGSTi8dd7QVHxn",
+      "target": "node-Nf3kRDSl_vas6QPXG7eVa",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Nf3kRDSl_vas6QPXG7eVa-node-HKsGyRzntjh1UbRZSWh_4",
+      "source": "node-Nf3kRDSl_vas6QPXG7eVa",
+      "target": "node-HKsGyRzntjh1UbRZSWh_4",
+      "animated": true
+    },
+    {
+      "id": "edge-node-HKsGyRzntjh1UbRZSWh_4-node--DJgS6l2qngfwurExlmmT",
+      "source": "node-HKsGyRzntjh1UbRZSWh_4",
+      "target": "node--DJgS6l2qngfwurExlmmT",
+      "animated": true
+    },
+    {
+      "id": "edge-node--DJgS6l2qngfwurExlmmT-node-jnLIVRrWxcX3yq3Op91Vr",
+      "source": "node--DJgS6l2qngfwurExlmmT",
+      "target": "node-jnLIVRrWxcX3yq3Op91Vr",
+      "animated": true
+    },
+    {
+      "id": "edge-node-jnLIVRrWxcX3yq3Op91Vr-node-InUJIGmTnf0X4cSoLuCEQ",
+      "source": "node-jnLIVRrWxcX3yq3Op91Vr",
+      "target": "node-InUJIGmTnf0X4cSoLuCEQ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-InUJIGmTnf0X4cSoLuCEQ-node-bS7WeVKm2kEElu3sBKcIC",
+      "source": "node-InUJIGmTnf0X4cSoLuCEQ",
+      "target": "node-bS7WeVKm2kEElu3sBKcIC",
+      "animated": true
+    },
+    {
+      "id": "edge-node-bS7WeVKm2kEElu3sBKcIC-node-bqnwMKY4R0rirup3q_hb_",
+      "source": "node-bS7WeVKm2kEElu3sBKcIC",
+      "target": "node-bqnwMKY4R0rirup3q_hb_",
+      "animated": true
+    },
+    {
+      "id": "edge-node-bqnwMKY4R0rirup3q_hb_-node-DG4fi1e5ec2BVckPLsTJS",
+      "source": "node-bqnwMKY4R0rirup3q_hb_",
+      "target": "node-DG4fi1e5ec2BVckPLsTJS",
+      "animated": true
+    },
+    {
+      "id": "edge-node-DG4fi1e5ec2BVckPLsTJS-node-0NlRczh6ZEaFLlT6LORWz",
+      "source": "node-DG4fi1e5ec2BVckPLsTJS",
+      "target": "node-0NlRczh6ZEaFLlT6LORWz",
+      "animated": true
+    },
+    {
+      "id": "edge-node-0NlRczh6ZEaFLlT6LORWz-node-S0FLE70szSVUPI0CDEQK7",
+      "source": "node-0NlRczh6ZEaFLlT6LORWz",
+      "target": "node-S0FLE70szSVUPI0CDEQK7",
+      "animated": true
+    },
+    {
+      "id": "edge-node-S0FLE70szSVUPI0CDEQK7-node-aB1LSQjDEQb_BxueOcnxU",
+      "source": "node-S0FLE70szSVUPI0CDEQK7",
+      "target": "node-aB1LSQjDEQb_BxueOcnxU",
+      "animated": true
+    },
+    {
+      "id": "edge-node-aB1LSQjDEQb_BxueOcnxU-node-aWHgAk959DPUZL46CeRiI",
+      "source": "node-aB1LSQjDEQb_BxueOcnxU",
+      "target": "node-aWHgAk959DPUZL46CeRiI",
+      "animated": true
+    },
+    {
+      "id": "edge-node-aWHgAk959DPUZL46CeRiI-node-0-ShORjGnQlAdcwjtxdEB",
+      "source": "node-aWHgAk959DPUZL46CeRiI",
+      "target": "node-0-ShORjGnQlAdcwjtxdEB",
+      "animated": true
+    },
+    {
+      "id": "edge-node-0-ShORjGnQlAdcwjtxdEB-node-GISOFMKvnBys0O0IMpz2J",
+      "source": "node-0-ShORjGnQlAdcwjtxdEB",
+      "target": "node-GISOFMKvnBys0O0IMpz2J",
+      "animated": true
+    },
+    {
+      "id": "edge-node-GISOFMKvnBys0O0IMpz2J-node-4gtmtYWYRWqwLdZRL0XMg",
+      "source": "node-GISOFMKvnBys0O0IMpz2J",
+      "target": "node-4gtmtYWYRWqwLdZRL0XMg",
+      "animated": true
+    },
+    {
+      "id": "edge-node-4gtmtYWYRWqwLdZRL0XMg-node-UT_SR7G-LYtzqooWrEtF1",
+      "source": "node-4gtmtYWYRWqwLdZRL0XMg",
+      "target": "node-UT_SR7G-LYtzqooWrEtF1",
+      "animated": true
+    },
+    {
+      "id": "edge-node-UT_SR7G-LYtzqooWrEtF1-node-Dvy7BnNzK55qbh_SgOk8m",
+      "source": "node-UT_SR7G-LYtzqooWrEtF1",
+      "target": "node-Dvy7BnNzK55qbh_SgOk8m",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Dvy7BnNzK55qbh_SgOk8m-node-zAS4YiEJ6VPsyABrkIG8i",
+      "source": "node-Dvy7BnNzK55qbh_SgOk8m",
+      "target": "node-zAS4YiEJ6VPsyABrkIG8i",
+      "animated": true
+    },
+    {
+      "id": "edge-node-zAS4YiEJ6VPsyABrkIG8i-node-274uk28wzxn6EKWQzLpHs",
+      "source": "node-zAS4YiEJ6VPsyABrkIG8i",
+      "target": "node-274uk28wzxn6EKWQzLpHs",
+      "animated": true
+    },
+    {
+      "id": "edge-node-274uk28wzxn6EKWQzLpHs-node-HSY5OUc_M5S6OcFXPRtkx",
+      "source": "node-274uk28wzxn6EKWQzLpHs",
+      "target": "node-HSY5OUc_M5S6OcFXPRtkx",
+      "animated": true
+    },
+    {
+      "id": "edge-node-HSY5OUc_M5S6OcFXPRtkx-node-gIcJ3bUVQXqO1Wx4gUKd5",
+      "source": "node-HSY5OUc_M5S6OcFXPRtkx",
+      "target": "node-gIcJ3bUVQXqO1Wx4gUKd5",
+      "animated": true
+    },
+    {
+      "id": "edge-node-gIcJ3bUVQXqO1Wx4gUKd5-node-P_Di-XPSDITmU3xKQew8G",
+      "source": "node-gIcJ3bUVQXqO1Wx4gUKd5",
+      "target": "node-P_Di-XPSDITmU3xKQew8G",
+      "animated": true
+    },
+    {
+      "id": "edge-node-P_Di-XPSDITmU3xKQew8G-node-so95CO6Qw3I0S98ISENS-",
+      "source": "node-P_Di-XPSDITmU3xKQew8G",
+      "target": "node-so95CO6Qw3I0S98ISENS-",
+      "animated": true
+    },
+    {
+      "id": "edge-node-so95CO6Qw3I0S98ISENS--node-qeCMw-sJ2FR4UxvU9DDzv",
+      "source": "node-so95CO6Qw3I0S98ISENS-",
+      "target": "node-qeCMw-sJ2FR4UxvU9DDzv",
+      "animated": true
+    },
+    {
+      "id": "edge-node-qeCMw-sJ2FR4UxvU9DDzv-node-4GU5HNi3W8yFkImVY9ZpW",
+      "source": "node-qeCMw-sJ2FR4UxvU9DDzv",
+      "target": "node-4GU5HNi3W8yFkImVY9ZpW",
+      "animated": true
+    },
+    {
+      "id": "edge-node-4GU5HNi3W8yFkImVY9ZpW-node-xDgXISgVUMRHh9hu4h6Hl",
+      "source": "node-4GU5HNi3W8yFkImVY9ZpW",
+      "target": "node-xDgXISgVUMRHh9hu4h6Hl",
+      "animated": true
+    },
+    {
+      "id": "edge-node-xDgXISgVUMRHh9hu4h6Hl-node-iVhQnp6hpgVZDNJ0XoVra",
+      "source": "node-xDgXISgVUMRHh9hu4h6Hl",
+      "target": "node-iVhQnp6hpgVZDNJ0XoVra",
+      "animated": true
+    },
+    {
+      "id": "edge-node-iVhQnp6hpgVZDNJ0XoVra-node-IWq-tfkz-pSC1ztZl60vM",
+      "source": "node-iVhQnp6hpgVZDNJ0XoVra",
+      "target": "node-IWq-tfkz-pSC1ztZl60vM",
+      "animated": true
+    },
+    {
+      "id": "edge-node-IWq-tfkz-pSC1ztZl60vM-node-7zcpXN3krnS3tMRWVNIVe",
+      "source": "node-IWq-tfkz-pSC1ztZl60vM",
+      "target": "node-7zcpXN3krnS3tMRWVNIVe",
+      "animated": true
+    },
+    {
+      "id": "edge-node-7zcpXN3krnS3tMRWVNIVe-node-uXd2B01GVBEQNXQE8RATT",
+      "source": "node-7zcpXN3krnS3tMRWVNIVe",
+      "target": "node-uXd2B01GVBEQNXQE8RATT",
+      "animated": true
+    },
+    {
+      "id": "edge-node-uXd2B01GVBEQNXQE8RATT-node-W3VALz5evFo1qqkQbMN1R",
+      "source": "node-uXd2B01GVBEQNXQE8RATT",
+      "target": "node-W3VALz5evFo1qqkQbMN1R",
+      "animated": true
+    },
+    {
+      "id": "edge-node-W3VALz5evFo1qqkQbMN1R-node-N5VaKMbgQ0V_BC5tadV65",
+      "source": "node-W3VALz5evFo1qqkQbMN1R",
+      "target": "node-N5VaKMbgQ0V_BC5tadV65",
+      "animated": true
+    },
+    {
+      "id": "edge-node-N5VaKMbgQ0V_BC5tadV65-node-1dfOTOGsOk5XE3bnZs8Ht",
+      "source": "node-N5VaKMbgQ0V_BC5tadV65",
+      "target": "node-1dfOTOGsOk5XE3bnZs8Ht",
+      "animated": true
+    },
+    {
+      "id": "edge-node-1dfOTOGsOk5XE3bnZs8Ht-node-GHKAY9gOykEbxkEeR30wL",
+      "source": "node-1dfOTOGsOk5XE3bnZs8Ht",
+      "target": "node-GHKAY9gOykEbxkEeR30wL",
+      "animated": true
+    },
+    {
+      "id": "edge-node-GHKAY9gOykEbxkEeR30wL-node-DHtskqATeAVKgaazdhXKD",
+      "source": "node-GHKAY9gOykEbxkEeR30wL",
+      "target": "node-DHtskqATeAVKgaazdhXKD",
+      "animated": true
+    },
+    {
+      "id": "edge-node-DHtskqATeAVKgaazdhXKD-node-9mFR_ueXbIB2IrkqU2s85",
+      "source": "node-DHtskqATeAVKgaazdhXKD",
+      "target": "node-9mFR_ueXbIB2IrkqU2s85",
+      "animated": true
+    },
+    {
+      "id": "edge-node-9mFR_ueXbIB2IrkqU2s85-node-1q9HWgu9jDTK757hTNOmE",
+      "source": "node-9mFR_ueXbIB2IrkqU2s85",
+      "target": "node-1q9HWgu9jDTK757hTNOmE",
+      "animated": true
+    },
+    {
+      "id": "edge-node-1q9HWgu9jDTK757hTNOmE-node-3FDwJpesfelEyJrNWtm0V",
+      "source": "node-1q9HWgu9jDTK757hTNOmE",
+      "target": "node-3FDwJpesfelEyJrNWtm0V",
+      "animated": true
+    },
+    {
+      "id": "edge-node-3FDwJpesfelEyJrNWtm0V-node-kLBgy_nxxjE8SxdVi04bq",
+      "source": "node-3FDwJpesfelEyJrNWtm0V",
+      "target": "node-kLBgy_nxxjE8SxdVi04bq",
+      "animated": true
+    },
+    {
+      "id": "edge-node-kLBgy_nxxjE8SxdVi04bq-node-7t6mJBsaFMWPi7o9fbhhq",
+      "source": "node-kLBgy_nxxjE8SxdVi04bq",
+      "target": "node-7t6mJBsaFMWPi7o9fbhhq",
+      "animated": true
+    },
+    {
+      "id": "edge-node-7t6mJBsaFMWPi7o9fbhhq-node-6cB0pvUO1-gvCtgqozP-Q",
+      "source": "node-7t6mJBsaFMWPi7o9fbhhq",
+      "target": "node-6cB0pvUO1-gvCtgqozP-Q",
+      "animated": true
+    },
+    {
+      "id": "edge-node-6cB0pvUO1-gvCtgqozP-Q-node-9RGpqsj9jHz0_-r7EvRcw",
+      "source": "node-6cB0pvUO1-gvCtgqozP-Q",
+      "target": "node-9RGpqsj9jHz0_-r7EvRcw",
+      "animated": true
+    },
+    {
+      "id": "edge-node-9RGpqsj9jHz0_-r7EvRcw-node-soZFqivM3YBuljeX6PoaX",
+      "source": "node-9RGpqsj9jHz0_-r7EvRcw",
+      "target": "node-soZFqivM3YBuljeX6PoaX",
+      "animated": true
+    },
+    {
+      "id": "edge-node-soZFqivM3YBuljeX6PoaX-node-vvTmjcWCVclOPY4f_5uB0",
+      "source": "node-soZFqivM3YBuljeX6PoaX",
+      "target": "node-vvTmjcWCVclOPY4f_5uB0",
+      "animated": true
+    },
+    {
+      "id": "edge-node-vvTmjcWCVclOPY4f_5uB0-node-maYNuTKYyZndxk1z29-UY",
+      "source": "node-vvTmjcWCVclOPY4f_5uB0",
+      "target": "node-maYNuTKYyZndxk1z29-UY",
+      "animated": true
+    },
+    {
+      "id": "edge-node-maYNuTKYyZndxk1z29-UY-node-1PXApuUpPmJjgi12cmWo4",
+      "source": "node-maYNuTKYyZndxk1z29-UY",
+      "target": "node-1PXApuUpPmJjgi12cmWo4",
+      "animated": true
+    },
+    {
+      "id": "edge-node-1PXApuUpPmJjgi12cmWo4-node-WQOYjuwKIWB2meea4JnsV",
+      "source": "node-1PXApuUpPmJjgi12cmWo4",
+      "target": "node-WQOYjuwKIWB2meea4JnsV",
+      "animated": true
+    },
+    {
+      "id": "edge-node-WQOYjuwKIWB2meea4JnsV-node-UIx0XYaOgXXlYbbQtjiPq",
+      "source": "node-WQOYjuwKIWB2meea4JnsV",
+      "target": "node-UIx0XYaOgXXlYbbQtjiPq",
+      "animated": true
+    },
+    {
+      "id": "edge-node-UIx0XYaOgXXlYbbQtjiPq-node-zey2C6BdzsHJAlb_K3qrP",
+      "source": "node-UIx0XYaOgXXlYbbQtjiPq",
+      "target": "node-zey2C6BdzsHJAlb_K3qrP",
+      "animated": true
+    },
+    {
+      "id": "edge-node-zey2C6BdzsHJAlb_K3qrP-node-jPFOiwbqfaGshaGDBWb5x",
+      "source": "node-zey2C6BdzsHJAlb_K3qrP",
+      "target": "node-jPFOiwbqfaGshaGDBWb5x",
+      "animated": true
+    },
+    {
+      "id": "edge-node-jPFOiwbqfaGshaGDBWb5x-node-i7xIGiXU-k5UIKHIhQPjE",
+      "source": "node-jPFOiwbqfaGshaGDBWb5x",
+      "target": "node-i7xIGiXU-k5UIKHIhQPjE",
+      "animated": true
+    },
+    {
+      "id": "edge-node-i7xIGiXU-k5UIKHIhQPjE-node-syV0DT_3ITgIFDbwPts8i",
+      "source": "node-i7xIGiXU-k5UIKHIhQPjE",
+      "target": "node-syV0DT_3ITgIFDbwPts8i",
+      "animated": true
+    },
+    {
+      "id": "edge-node-syV0DT_3ITgIFDbwPts8i-node-R9DQNc0AyAQ2HLpP4HOk6",
+      "source": "node-syV0DT_3ITgIFDbwPts8i",
+      "target": "node-R9DQNc0AyAQ2HLpP4HOk6",
+      "animated": true
+    },
+    {
+      "id": "edge-node-R9DQNc0AyAQ2HLpP4HOk6-node-o1wi39VnjnFfWIC8XcuAK",
+      "source": "node-R9DQNc0AyAQ2HLpP4HOk6",
+      "target": "node-o1wi39VnjnFfWIC8XcuAK",
+      "animated": true
+    },
+    {
+      "id": "edge-node-o1wi39VnjnFfWIC8XcuAK-node-b4he_RO17C3ScNeUd6v2b",
+      "source": "node-o1wi39VnjnFfWIC8XcuAK",
+      "target": "node-b4he_RO17C3ScNeUd6v2b",
+      "animated": true
+    },
+    {
+      "id": "edge-node-b4he_RO17C3ScNeUd6v2b-node-p3Frfs6oxpuciUzeCEsvb",
+      "source": "node-b4he_RO17C3ScNeUd6v2b",
+      "target": "node-p3Frfs6oxpuciUzeCEsvb",
+      "animated": true
+    },
+    {
+      "id": "edge-node-p3Frfs6oxpuciUzeCEsvb-node-3RNy7Sp28d-NMx0Yh4bdx",
+      "source": "node-p3Frfs6oxpuciUzeCEsvb",
+      "target": "node-3RNy7Sp28d-NMx0Yh4bdx",
+      "animated": true
+    },
+    {
+      "id": "edge-node-3RNy7Sp28d-NMx0Yh4bdx-node-dEFLBGpiH6nbSMeR7ecaT",
+      "source": "node-3RNy7Sp28d-NMx0Yh4bdx",
+      "target": "node-dEFLBGpiH6nbSMeR7ecaT",
+      "animated": true
+    },
+    {
+      "id": "edge-node-dEFLBGpiH6nbSMeR7ecaT-node-_IXXTSwQOgYzYIUuKVWNE",
+      "source": "node-dEFLBGpiH6nbSMeR7ecaT",
+      "target": "node-_IXXTSwQOgYzYIUuKVWNE",
+      "animated": true
+    },
+    {
+      "id": "edge-node-_IXXTSwQOgYzYIUuKVWNE-node-Sg5w8zO2Ji-uDJKEoWey9",
+      "source": "node-_IXXTSwQOgYzYIUuKVWNE",
+      "target": "node-Sg5w8zO2Ji-uDJKEoWey9",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Sg5w8zO2Ji-uDJKEoWey9-node-tsh_vbhzKz1-H9Vh69tsK",
+      "source": "node-Sg5w8zO2Ji-uDJKEoWey9",
+      "target": "node-tsh_vbhzKz1-H9Vh69tsK",
+      "animated": true
+    }
+  ],
+  "topics": {
+    "IBVAvFtN4mnIPbIuyUvEb": {
+      "id": "IBVAvFtN4mnIPbIuyUvEb",
+      "slug": "aiohttp",
+      "title": "AIOHTTP",
+      "description": "aiohttp is a Python 3.5+ library that provides a simple and powerful asynchronous HTTP client and server implementation.",
+      "resources": [
+        {
+          "id": "IBVAvFtN4mnIPbIuyUvEb-res-1",
+          "type": "article",
+          "title": "aiohttp docs",
+          "url": "https://docs.aiohttp.org/en/stable/"
+        },
+        {
+          "id": "IBVAvFtN4mnIPbIuyUvEb-res-2",
+          "type": "article",
+          "title": "Creating a RESTful API with Python and aiohttp",
+          "url": "https://tutorialedge.net/python/create-rest-api-python-aiohttp/"
+        },
+        {
+          "id": "IBVAvFtN4mnIPbIuyUvEb-res-3",
+          "type": "video",
+          "title": "Python Asyncio, Requests, Aiohttp | Make faster API Calls",
+          "url": "https://www.youtube.com/watch?v=nFn4_nA_yk8"
+        }
+      ]
+    },
+    "OPD4WdMO7q4gRZMcRCQh1": {
+      "id": "OPD4WdMO7q4gRZMcRCQh1",
+      "slug": "arrays-and-linked-lists",
+      "title": "Arrays and Linked lists",
+      "description": "Arrays store elements in contiguous memory locations, resulting in easily calculable addresses for the elements stored and this allows faster access to an element at a specific index. Linked lists are less rigid in their storage structure and elements are usually not stored in contiguous locations, hence they need to be stored with additional tags giving a reference to the next element. This difference in the data storage scheme decides which data structure would be more suitable for a given situation.",
+      "resources": [
+        {
+          "id": "OPD4WdMO7q4gRZMcRCQh1-res-1",
+          "type": "article",
+          "title": "Arrays in Python",
+          "url": "https://www.edureka.co/blog/arrays-in-python/"
+        },
+        {
+          "id": "OPD4WdMO7q4gRZMcRCQh1-res-2",
+          "type": "article",
+          "title": "Linked List Python",
+          "url": "https://realpython.com/linked-lists-python/"
+        },
+        {
+          "id": "OPD4WdMO7q4gRZMcRCQh1-res-3",
+          "type": "video",
+          "title": "Array Data Structure | Illustrated Data Structures",
+          "url": "https://www.youtube.com/watch?v=QJNwK2uJyGs"
+        },
+        {
+          "id": "OPD4WdMO7q4gRZMcRCQh1-res-4",
+          "type": "video",
+          "title": "Linked List Data Structure | Illustrated Data Structures",
+          "url": "https://www.youtube.com/watch?v=odW9FU8jPRQ"
+        }
+      ]
+    },
+    "Mow7RvropbC4ZGDpcGZmw": {
+      "id": "Mow7RvropbC4ZGDpcGZmw",
+      "slug": "asynchrony",
+      "title": "Asynchrony",
+      "description": "Asynchronous programming, supported by asyncio, allows code to be executed without blocking, using async and await. This is especially useful for I/O tasks such as networking or file manipulation, allowing thousands of connections to be handled without blocking the main thread.",
+      "resources": [
+        {
+          "id": "Mow7RvropbC4ZGDpcGZmw-res-1",
+          "type": "article",
+          "title": "Python AsyncIO library",
+          "url": "https://docs.python.org/3/library/asyncio.html"
+        },
+        {
+          "id": "Mow7RvropbC4ZGDpcGZmw-res-2",
+          "type": "article",
+          "title": "Async IO in Python: A Complete Walkthrough",
+          "url": "https://realpython.com/async-io-python/"
+        }
+      ]
+    },
+    "6xRncUs3_vxVbDur567QA": {
+      "id": "6xRncUs3_vxVbDur567QA",
+      "slug": "basic-syntax",
+      "title": "Basic Syntax",
+      "description": "Setup the environment for python and get started with the basics.",
+      "resources": [
+        {
+          "id": "6xRncUs3_vxVbDur567QA-res-1",
+          "type": "article",
+          "title": "Python Basics",
+          "url": "https://www.tutorialspoint.com/python/python_basic_syntax.htm"
+        },
+        {
+          "id": "6xRncUs3_vxVbDur567QA-res-2",
+          "type": "article",
+          "title": "Learn X in Y Minutes / Python",
+          "url": "https://learnxinyminutes.com/docs/python/"
+        },
+        {
+          "id": "6xRncUs3_vxVbDur567QA-res-3",
+          "type": "video",
+          "title": "Python for Beginners - Learn Python in 1 Hour",
+          "url": "https://www.youtube.com/watch?v=kqtD5dpn9C8"
+        }
+      ]
+    },
+    "uJIqgsqUbE62Tyo3K75Qx": {
+      "id": "uJIqgsqUbE62Tyo3K75Qx",
+      "slug": "binary-search-tree",
+      "title": "Binary Search Trees",
+      "description": "A binary search tree, also called an ordered or sorted binary tree, is a rooted binary tree data structure with the key of each internal node being greater than all the keys in the respective node's left subtree and less than the ones in its right subtree",
+      "resources": [
+        {
+          "id": "uJIqgsqUbE62Tyo3K75Qx-res-1",
+          "type": "article",
+          "title": "Binary search in Python 101: Implementation and use cases",
+          "url": "https://roadmap.sh/python/binary-search"
+        },
+        {
+          "id": "uJIqgsqUbE62Tyo3K75Qx-res-2",
+          "type": "article",
+          "title": "How to Implement Binary Search Tree in Python",
+          "url": "https://web.archive.org/web/20230601181553/https://www.section.io/engineering-education/implementing-binary-search-tree-using-python/"
+        },
+        {
+          "id": "uJIqgsqUbE62Tyo3K75Qx-res-3",
+          "type": "article",
+          "title": "Binary Search Tree in Python",
+          "url": "https://www.pythonforbeginners.com/data-structures/binary-search-tree-in-python"
+        },
+        {
+          "id": "uJIqgsqUbE62Tyo3K75Qx-res-4",
+          "type": "video",
+          "title": "Tree Data Structure | Illustrated Data Structures",
+          "url": "https://www.youtube.com/watch?v=S2W3SXGPVyU"
+        }
+      ]
+    },
+    "DS6nuAUhUYcqiJDmQisKM": {
+      "id": "DS6nuAUhUYcqiJDmQisKM",
+      "slug": "black",
+      "title": "black",
+      "description": "Black is a python code formatter that automatically formats code according to a consistent style. By removing formatting decisions from developers, Black helps maintain uniform codebases, improves readability, and reduces time spent on style discussions during code reviews.",
+      "resources": [
+        {
+          "id": "DS6nuAUhUYcqiJDmQisKM-res-1",
+          "type": "article",
+          "title": "Getting Started with Black",
+          "url": "https://black.readthedocs.io/en/stable/getting_started.html"
+        },
+        {
+          "id": "DS6nuAUhUYcqiJDmQisKM-res-2",
+          "type": "article",
+          "title": "Black Documentation",
+          "url": "https://black.readthedocs.io/en/stable/"
+        }
+      ]
+    },
+    "08XifLQ20c4FKI_4AWNBQ": {
+      "id": "08XifLQ20c4FKI_4AWNBQ",
+      "slug": "builtin",
+      "title": "Builtin Modules",
+      "description": "Python has a rich standard library of built-in modules that provide a wide range of functionality. Some of the most commonly used built-in modules include: sys, os, math, datetime, random, re, itertools, etc.",
+      "resources": [
+        {
+          "id": "08XifLQ20c4FKI_4AWNBQ-res-1",
+          "type": "article",
+          "title": "Python Module Index",
+          "url": "https://docs.python.org/3/py-modindex.html"
+        },
+        {
+          "id": "08XifLQ20c4FKI_4AWNBQ-res-2",
+          "type": "article",
+          "title": "Python Modules",
+          "url": "https://www.digitalocean.com/community/tutorials/python-modules"
+        },
+        {
+          "id": "08XifLQ20c4FKI_4AWNBQ-res-3",
+          "type": "article",
+          "title": "Python - Built-In Modules",
+          "url": "https://www.knowledgehut.com/tutorials/python-tutorial/python-built-in-modules"
+        }
+      ]
+    },
+    "AqwzR8dZKLQIoj_6KKZ3t": {
+      "id": "AqwzR8dZKLQIoj_6KKZ3t",
+      "slug": "classes",
+      "title": "Classes",
+      "description": "A class is a user-defined blueprint or prototype from which objects are created. Classes provide a means of bundling data and functionality together. Creating a new class creates a new type of object, allowing new instances of that type to be made. Each class instance can have attributes attached to it for maintaining its state. Class instances can also have methods (defined by their class) for modifying their state.",
+      "resources": [
+        {
+          "id": "AqwzR8dZKLQIoj_6KKZ3t-res-1",
+          "type": "article",
+          "title": "Classes in Python",
+          "url": "https://docs.python.org/3/tutorial/classes.html"
+        },
+        {
+          "id": "AqwzR8dZKLQIoj_6KKZ3t-res-2",
+          "type": "video",
+          "title": "Python OOP Tutorial",
+          "url": "https://www.youtube.com/watch?v=ZDa-Z5JzLYM&list=PL-osiE80TeTsqhIuOqKhwlXsIBIdSeYtc"
+        }
+      ]
+    },
+    "0F0ppU_ClIUKZ23Q6BVZp": {
+      "id": "0F0ppU_ClIUKZ23Q6BVZp",
+      "slug": "code-formatting",
+      "title": "Code Formatting",
+      "description": "Python code formatting is crucial for maintaining readability, consistency, and reducing errors. Black is a code formatter for Python. It is a tool that automatically formats Python code to adhere to the PEP 8 style guide. It is a great tool to use in your Python projects to ensure that your code is formatted consistently and correctly.",
+      "resources": [
+        {
+          "id": "0F0ppU_ClIUKZ23Q6BVZp-res-1",
+          "type": "article",
+          "title": "Pylint for Python",
+          "url": "https://www.pylint.org/"
+        },
+        {
+          "id": "0F0ppU_ClIUKZ23Q6BVZp-res-2",
+          "type": "article",
+          "title": "Black Documentation",
+          "url": "https://black.readthedocs.io/en/stable/"
+        }
+      ]
+    },
+    "__ndo1gcuUUtzmBnMIAbR": {
+      "id": "__ndo1gcuUUtzmBnMIAbR",
+      "slug": "comments",
+      "title": "Docstrings and Comments",
+      "description": "Docstrings and comments document what code does and why. A docstring is a string literal placed right after a function, class, or module definition, and it becomes accessible through the object's **doc** attribute, which tools use to generate documentation automatically. Comments, marked with #, explain specific lines or blocks of code and are ignored by the interpreter. Docstrings typically describe the purpose, parameters, and return value of a function, while comments clarify tricky logic or note reasons behind a particular implementation choice.",
+      "resources": [
+        {
+          "id": "__ndo1gcuUUtzmBnMIAbR-res-1",
+          "type": "article",
+          "title": "Docstring Conventions",
+          "url": "https://peps.python.org/pep-0257/"
+        },
+        {
+          "id": "__ndo1gcuUUtzmBnMIAbR-res-2",
+          "type": "article",
+          "title": "Python Comments",
+          "url": "https://www.w3schools.com/python/python_comments.asp"
+        }
+      ]
+    },
+    "_94NrQ3quc4t_PPOsFSN0": {
+      "id": "_94NrQ3quc4t_PPOsFSN0",
+      "slug": "common-packages",
+      "title": "Common Packages and Modules",
+      "description": "Python has a rich ecosystem of packages and modules that can be used to get the most out of the language. A package is essentially a directory that contains multiple modules and subpackages. A module is a single file that contains a collection of related functions, classes, and variables. Modules are the basic building blocks of Python code organization. A module can be thought of as a container that holds a set of related code.",
+      "resources": [
+        {
+          "id": "_94NrQ3quc4t_PPOsFSN0-res-1",
+          "type": "article",
+          "title": "requests",
+          "url": "https://docs.python-requests.org/en/latest/"
+        },
+        {
+          "id": "_94NrQ3quc4t_PPOsFSN0-res-2",
+          "type": "article",
+          "title": "pathlib",
+          "url": "https://docs.python.org/3/library/pathlib.html"
+        },
+        {
+          "id": "_94NrQ3quc4t_PPOsFSN0-res-3",
+          "type": "article",
+          "title": "asyncio",
+          "url": "https://docs.python.org/3/library/asyncio.html"
+        },
+        {
+          "id": "_94NrQ3quc4t_PPOsFSN0-res-4",
+          "type": "article",
+          "title": "dataclasses",
+          "url": "https://docs.python.org/3/library/dataclasses.html"
+        },
+        {
+          "id": "_94NrQ3quc4t_PPOsFSN0-res-5",
+          "type": "article",
+          "title": "python-dotenv",
+          "url": "https://pypi.org/project/python-dotenv/"
+        },
+        {
+          "id": "_94NrQ3quc4t_PPOsFSN0-res-6",
+          "type": "article",
+          "title": "numpy",
+          "url": "https://numpy.org/doc/stable/"
+        },
+        {
+          "id": "_94NrQ3quc4t_PPOsFSN0-res-7",
+          "type": "article",
+          "title": "pandas",
+          "url": "https://pandas.pydata.org/docs/"
+        }
+      ]
+    },
+    "u4nRzWQ4zhDFMOrZ2I_uJ": {
+      "id": "u4nRzWQ4zhDFMOrZ2I_uJ",
+      "slug": "concurrency",
+      "title": "Concurrency",
+      "description": "Concurrency in Python allows multiple tasks to be executed simultaneously using different approaches. GIL (Global Interpreter Lock) limits thread execution, making multithreading less efficient for computational tasks, but suitable for I/O. Multiprocessing, using the multiprocessing module, allows multiple cores to be utilized, providing true parallelism. Asynchrony via asyncio is optimal for I/O operations, allowing thousands of connections to be processed simultaneously without blocking. The choice of approach depends on the nature of the task.",
+      "resources": [
+        {
+          "id": "u4nRzWQ4zhDFMOrZ2I_uJ-res-1",
+          "type": "article",
+          "title": "Concurrent Execution",
+          "url": "https://docs.python.org/3/library/concurrency.html"
+        },
+        {
+          "id": "u4nRzWQ4zhDFMOrZ2I_uJ-res-2",
+          "type": "article",
+          "title": "Python Concurrency",
+          "url": "https://realpython.com/python-concurrency/"
+        },
+        {
+          "id": "u4nRzWQ4zhDFMOrZ2I_uJ-res-3",
+          "type": "article",
+          "title": "Python Multithreading: The Most Practical Intro",
+          "url": "https://roadmap.sh/python/multithreading"
+        }
+      ]
+    },
+    "uh67D1u-Iv5cZamRgFEJg": {
+      "id": "uh67D1u-Iv5cZamRgFEJg",
+      "slug": "conda",
+      "title": "Conda",
+      "description": "Conda is an open source package management system and environment management system that runs on Windows, macOS, and Linux. Conda quickly installs, runs and updates packages and their dependencies. Conda easily creates, saves, loads and switches between environments on your local computer. It was created for Python programs, but it can package and distribute software for any language.",
+      "resources": [
+        {
+          "id": "uh67D1u-Iv5cZamRgFEJg-res-1",
+          "type": "article",
+          "title": "Conda Documentation",
+          "url": "https://docs.conda.io/en/latest/"
+        }
+      ]
+    },
+    "NP1kjSk0ujU0Gx-ajNHlR": {
+      "id": "NP1kjSk0ujU0Gx-ajNHlR",
+      "slug": "conditionals",
+      "title": "Conditionals",
+      "description": "Conditional Statements in Python perform different actions depending on whether a specific condition evaluates to true or false. Conditional Statements are handled by _if-elif-else_ statements and MATCH-CASE statements in Python.",
+      "resources": [
+        {
+          "id": "NP1kjSk0ujU0Gx-ajNHlR-res-1",
+          "type": "article",
+          "title": "Conditional Statements in Python",
+          "url": "https://realpython.com/python-conditional-statements/"
+        },
+        {
+          "id": "NP1kjSk0ujU0Gx-ajNHlR-res-2",
+          "type": "article",
+          "title": "Python Conditional Statements",
+          "url": "https://www.guru99.com/if-loop-python-conditional-structures.html"
+        },
+        {
+          "id": "NP1kjSk0ujU0Gx-ajNHlR-res-3",
+          "type": "article",
+          "title": "Python Switch Statement 101: Match-case and alternatives",
+          "url": "https://roadmap.sh/python/switch"
+        },
+        {
+          "id": "NP1kjSk0ujU0Gx-ajNHlR-res-4",
+          "type": "article",
+          "title": "How to Use a Match Statement in Python",
+          "url": "https://learnpython.com/blog/python-match-case-statement/"
+        }
+      ]
+    },
+    "KAXF2kUAOvtBZhY8G9rkI": {
+      "id": "KAXF2kUAOvtBZhY8G9rkI",
+      "slug": "context-manager",
+      "title": "Context Manager",
+      "description": "Context Managers are a construct in Python that allows you to set up context for a block of code, and then automatically clean up or release resources when the block is exited. It is most commonly used with the `with` statement.",
+      "resources": [
+        {
+          "id": "KAXF2kUAOvtBZhY8G9rkI-res-1",
+          "type": "article",
+          "title": "Context Libraries",
+          "url": "https://docs.python.org/3/library/contextlib.html"
+        },
+        {
+          "id": "KAXF2kUAOvtBZhY8G9rkI-res-2",
+          "type": "article",
+          "title": "Context Managers in Python",
+          "url": "https://www.freecodecamp.org/news/context-managers-in-python/"
+        },
+        {
+          "id": "KAXF2kUAOvtBZhY8G9rkI-res-3",
+          "type": "article",
+          "title": "Context Managers",
+          "url": "https://book.pythontips.com/en/latest/context_managers.html"
+        }
+      ]
+    },
+    "l7k0qTYe42wYBTlT2-1cy": {
+      "id": "l7k0qTYe42wYBTlT2-1cy",
+      "slug": "custom",
+      "title": "Custom Modules",
+      "description": "Modules refer to a file containing Python statements and definitions. A file containing Python code, for example: `example.py`, is called a module, and its module name would be example. We use modules to break down large programs into small manageable and organized files. Furthermore, modules provide reusability of code.",
+      "resources": [
+        {
+          "id": "l7k0qTYe42wYBTlT2-1cy-res-1",
+          "type": "article",
+          "title": "Python Modules",
+          "url": "https://docs.python.org/3/tutorial/modules.html"
+        },
+        {
+          "id": "l7k0qTYe42wYBTlT2-1cy-res-2",
+          "type": "article",
+          "title": "Modules in Python",
+          "url": "https://www.programiz.com/python-programming/modules"
+        },
+        {
+          "id": "l7k0qTYe42wYBTlT2-1cy-res-3",
+          "type": "article",
+          "title": "Python Modules and Packages",
+          "url": "https://realpython.com/python-modules-packages/"
+        }
+      ]
+    },
+    "VJSIbYJcy2MC6MOFBrqXi": {
+      "id": "VJSIbYJcy2MC6MOFBrqXi",
+      "slug": "data-structures--algorithms",
+      "title": "Data Structures and Algorithms",
+      "description": "A data structure is a named location that can be used to store and organize data. And, an algorithm is a collection of steps to solve a particular problem. Learning data structures and algorithms allow us to write efficient and optimized computer programs.",
+      "resources": [
+        {
+          "id": "VJSIbYJcy2MC6MOFBrqXi-res-1",
+          "type": "article",
+          "title": "Visit Dedicated DSA Roadmap",
+          "url": "https://roadmap.sh/datastructures-and-algorithms"
+        },
+        {
+          "id": "VJSIbYJcy2MC6MOFBrqXi-res-2",
+          "type": "article",
+          "title": "Learn DS & Algorithms",
+          "url": "https://www.programiz.com/dsa"
+        },
+        {
+          "id": "VJSIbYJcy2MC6MOFBrqXi-res-3",
+          "type": "video",
+          "title": "Data Structures Illustrated",
+          "url": "https://www.youtube.com/playlist?list=PLkZYeFmDuaN2-KUIv-mvbjfKszIGJ4FaY"
+        },
+        {
+          "id": "VJSIbYJcy2MC6MOFBrqXi-res-4",
+          "type": "video",
+          "title": "DSA Python Playlist",
+          "url": "https://www.youtube.com/playlist?list=PLKYEe2WisBTFEr6laH5bR2J19j7sl5O8R"
+        }
+      ]
+    },
+    "pIluLJkySqn_gI_GykV6G": {
+      "id": "pIluLJkySqn_gI_GykV6G",
+      "slug": "decorators",
+      "title": "Decorators",
+      "description": "Decorator is a design pattern in Python that allows a user to add new functionality to an existing object without modifying its structure. Decorators are usually called before the definition of a function you want to decorate.",
+      "resources": [
+        {
+          "id": "pIluLJkySqn_gI_GykV6G-res-1",
+          "type": "article",
+          "title": "Learn Decorators in Python",
+          "url": "https://pythonbasics.org/decorators/"
+        },
+        {
+          "id": "pIluLJkySqn_gI_GykV6G-res-2",
+          "type": "video",
+          "title": "Decorators in Python",
+          "url": "https://www.youtube.com/watch?v=FXUUSfJO_J4"
+        },
+        {
+          "id": "pIluLJkySqn_gI_GykV6G-res-3",
+          "type": "video",
+          "title": "Python Decorators in 1 Minute",
+          "url": "https://www.youtube.com/watch?v=BE-L7xu8pO4"
+        }
+      ]
+    },
+    "bc9CL_HMT-R6nXO1eR-gP": {
+      "id": "bc9CL_HMT-R6nXO1eR-gP",
+      "slug": "dictionaries",
+      "title": "Dictionaries",
+      "description": "In Python, a dictionary is a built-in data type that allows you to store key-value pairs. Each key in the dictionary is unique, and each key is associated with a value. Starting from Python 3.7, dictionaries maintain the order of items as they were added.",
+      "resources": [
+        {
+          "id": "bc9CL_HMT-R6nXO1eR-gP-res-1",
+          "type": "article",
+          "title": "Dictionaries in Python",
+          "url": "https://docs.python.org/3/tutorial/datastructures.html#dictionaries"
+        },
+        {
+          "id": "bc9CL_HMT-R6nXO1eR-gP-res-2",
+          "type": "article",
+          "title": "Dictionaries in Python",
+          "url": "https://realpython.com/python-dicts/"
+        },
+        {
+          "id": "bc9CL_HMT-R6nXO1eR-gP-res-3",
+          "type": "article",
+          "title": "Hashmaps in Python: Master Implementation and Use Cases",
+          "url": "https://roadmap.sh/python/hashmap"
+        },
+        {
+          "id": "bc9CL_HMT-R6nXO1eR-gP-res-4",
+          "type": "article",
+          "title": "Python KeyError Exceptions: Causes and Fixes",
+          "url": "https://roadmap.sh/python/keyerror"
+        }
+      ]
+    },
+    "x1V8GjdjANTnhP6YXMbgC": {
+      "id": "x1V8GjdjANTnhP6YXMbgC",
+      "slug": "django",
+      "title": "Django",
+      "description": "Django is a free and open-source, Python-based web framework that follows the model–template–views architectural pattern. It is maintained by the Django Software Foundation, an independent organization established in the US as a 501 non-profit",
+      "resources": [
+        {
+          "id": "x1V8GjdjANTnhP6YXMbgC-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated Django Roadmap",
+          "url": "https://roadmap.sh/django"
+        },
+        {
+          "id": "x1V8GjdjANTnhP6YXMbgC-res-2",
+          "type": "article",
+          "title": "Getting Started",
+          "url": "https://www.djangoproject.com/start/"
+        },
+        {
+          "id": "x1V8GjdjANTnhP6YXMbgC-res-3",
+          "type": "article",
+          "title": "Is Django Synchronous or Asynchronous?",
+          "url": "https://stackoverflow.com/questions/58548089/django-is-synchronous-or-asynchronous"
+        },
+        {
+          "id": "x1V8GjdjANTnhP6YXMbgC-res-4",
+          "type": "video",
+          "title": "Python Django Tutorial for Beginners",
+          "url": "https://www.youtube.com/watch?v=rHux0gMZ3Eg"
+        }
+      ]
+    },
+    "aVclygxoA9ePU5IxaORSH": {
+      "id": "aVclygxoA9ePU5IxaORSH",
+      "slug": "doctest",
+      "title": "Doctest",
+      "description": "Python’s standard library comes equipped with a test framework module called doctest. The doctest module programmatically searches Python code for pieces of text within comments that look like interactive Python sessions. Then, the module executes those sessions to confirm that the code referenced by a doctest runs as expected.",
+      "resources": [
+        {
+          "id": "aVclygxoA9ePU5IxaORSH-res-1",
+          "type": "article",
+          "title": "Doctest Module",
+          "url": "https://docs.python.org/3/library/doctest.html"
+        },
+        {
+          "id": "aVclygxoA9ePU5IxaORSH-res-2",
+          "type": "article",
+          "title": "How To Write Doctests in Python",
+          "url": "https://www.digitalocean.com/community/tutorials/how-to-write-doctests-in-python"
+        }
+      ]
+    },
+    "3dC2o3WXdx4plFhDP2Vqk": {
+      "id": "3dC2o3WXdx4plFhDP2Vqk",
+      "slug": "encapsulation",
+      "title": "Encapsulation",
+      "description": "Encapsulation is a way to bundle data (attributes) and the methods that operate on that data into a single unit, known as a class. It restricts direct access to some of the object's components and prevents the accidental modification of data. This is achieved by declaring some attributes or methods as private, meaning they can only be accessed from within the class itself.",
+      "resources": [
+        {
+          "id": "3dC2o3WXdx4plFhDP2Vqk-res-1",
+          "type": "article",
+          "title": "Encapsulation in Python: All You Need to Know",
+          "url": "https://roadmap.sh/python/encapsulation"
+        },
+        {
+          "id": "3dC2o3WXdx4plFhDP2Vqk-res-2",
+          "type": "article",
+          "title": "Encapsulation",
+          "url": "https://programming-25.mooc.fi/part-9/3-encapsulation"
+        },
+        {
+          "id": "3dC2o3WXdx4plFhDP2Vqk-res-3",
+          "type": "video",
+          "title": "Encapsulation - Advanced Python Tutorial #5",
+          "url": "https://www.youtube.com/watch?v=dzmYoSzL8ok"
+        }
+      ]
+    },
+    "fNTb9y3zs1HPYclAmu_Wv": {
+      "id": "fNTb9y3zs1HPYclAmu_Wv",
+      "slug": "exceptions",
+      "title": "Exceptions",
+      "description": "Exceptions are runtime errors that occur during program execution in Python. Instead of immediately stopping the program, Python allows developers to handle these errors using `try`, `except`, `else`, and `finally` blocks. Proper exception handling helps manage unexpected situations such as invalid input, missing files, or network failures, improving program reliability and allowing applications to fail gracefully.",
+      "resources": [
+        {
+          "id": "fNTb9y3zs1HPYclAmu_Wv-res-1",
+          "type": "article",
+          "title": "Exceptions Documentation",
+          "url": "https://docs.python.org/3/tutorial/errors.html#exceptions"
+        },
+        {
+          "id": "fNTb9y3zs1HPYclAmu_Wv-res-2",
+          "type": "article",
+          "title": "Python Exceptions: An Introduction",
+          "url": "https://realpython.com/python-exceptions/"
+        },
+        {
+          "id": "fNTb9y3zs1HPYclAmu_Wv-res-3",
+          "type": "article",
+          "title": "Python Exception Handling",
+          "url": "https://www.programiz.com/python-programming/exception-handling"
+        },
+        {
+          "id": "fNTb9y3zs1HPYclAmu_Wv-res-4",
+          "type": "video",
+          "title": "Exception Handling in Python",
+          "url": "https://www.youtube.com/watch?v=V_NXT2-QIlE"
+        }
+      ]
+    },
+    "XeQSmvAsGSTi8dd7QVHxn": {
+      "id": "XeQSmvAsGSTi8dd7QVHxn",
+      "slug": "fast-api",
+      "title": "FastAPI",
+      "description": "FastAPI is a modern Python web framework used for building APIs with high performance and automatic documentation. It leverages Python type hints for request validation, serialization, and editor support, making API development faster and less error-prone. FastAPI is commonly used for backend services, microservices, and machine learning model deployment due to its speed and ease of use.",
+      "resources": [
+        {
+          "id": "XeQSmvAsGSTi8dd7QVHxn-res-1",
+          "type": "article",
+          "title": "FastAPI Documentation",
+          "url": "https://fastapi.tiangolo.com/"
+        },
+        {
+          "id": "XeQSmvAsGSTi8dd7QVHxn-res-2",
+          "type": "video",
+          "title": "Create an API with Fast-API (Full 19 Hour Course)",
+          "url": "https://www.youtube.com/watch?v=0sOvCWFmrtA"
+        }
+      ]
+    },
+    "Nf3kRDSl_vas6QPXG7eVa": {
+      "id": "Nf3kRDSl_vas6QPXG7eVa",
+      "slug": "file-handling",
+      "title": "File Handling in Python",
+      "description": "File handling in Python involves reading data from and writing data to files. It allows programs to interact with files stored on a computer's storage. You can open files in different modes like read, write, or append, and then perform operations like reading the entire file content, reading line by line, or writing new data. A common use case is working with structured data, and Python provides built-in modules like `json` to easily read and write data in JSON format, which is frequently used for data exchange.",
+      "resources": [
+        {
+          "id": "Nf3kRDSl_vas6QPXG7eVa-res-1",
+          "type": "article",
+          "title": "Python File open",
+          "url": "https://www.w3schools.com/python/python_file_handling.asp"
+        },
+        {
+          "id": "Nf3kRDSl_vas6QPXG7eVa-res-2",
+          "type": "article",
+          "title": "Working With Files in Python",
+          "url": "https://realpython.com/working-with-files-in-python/"
+        },
+        {
+          "id": "Nf3kRDSl_vas6QPXG7eVa-res-3",
+          "type": "article",
+          "title": "Working With JSON Data in Python",
+          "url": "https://realpython.com/python-json/"
+        },
+        {
+          "id": "Nf3kRDSl_vas6QPXG7eVa-res-4",
+          "type": "video",
+          "title": "Python File Handling for Beginners",
+          "url": "https://www.youtube.com/watch?v=BRrem1k3904"
+        }
+      ]
+    },
+    "HKsGyRzntjh1UbRZSWh_4": {
+      "id": "HKsGyRzntjh1UbRZSWh_4",
+      "slug": "flask",
+      "title": "Flask",
+      "description": "Flask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries. It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions. Instead, it provides flexibility by requiring you to choose and integrate the best libraries for your project's needs.",
+      "resources": [
+        {
+          "id": "HKsGyRzntjh1UbRZSWh_4-res-1",
+          "type": "article",
+          "title": "Flask Website",
+          "url": "https://flask.palletsprojects.com/"
+        },
+        {
+          "id": "HKsGyRzntjh1UbRZSWh_4-res-2",
+          "type": "article",
+          "title": "Flask Tutorial",
+          "url": "https://flask.palletsprojects.com/en/3.0.x/tutorial/"
+        }
+      ]
+    },
+    "-DJgS6l2qngfwurExlmmT": {
+      "id": "-DJgS6l2qngfwurExlmmT",
+      "slug": "functions-builtin-functions",
+      "title": "Functions",
+      "description": "In programming, a function is a reusable block of code that executes a certain functionality when it is called. Functions are integral parts of every programming language because they help make your code more modular and reusable. In Python, we define a function with the `def` keyword, then write the function identifier (name) followed by parentheses and a colon.",
+      "resources": [
+        {
+          "id": "-DJgS6l2qngfwurExlmmT-res-1",
+          "type": "article",
+          "title": "Built-in Functions in Python",
+          "url": "https://docs.python.org/3/library/functions.html"
+        },
+        {
+          "id": "-DJgS6l2qngfwurExlmmT-res-2",
+          "type": "article",
+          "title": "Defining Python Functions",
+          "url": "https://realpython.com/defining-your-own-python-function/"
+        },
+        {
+          "id": "-DJgS6l2qngfwurExlmmT-res-3",
+          "type": "article",
+          "title": "How to Return Multiple Values in Python (and When to Use Each Method)",
+          "url": "https://roadmap.sh/python/return-multiple-values"
+        },
+        {
+          "id": "-DJgS6l2qngfwurExlmmT-res-4",
+          "type": "article",
+          "title": "Master Python Filter: Syntax, Examples, and Best Practices",
+          "url": "https://roadmap.sh/python/filter"
+        },
+        {
+          "id": "-DJgS6l2qngfwurExlmmT-res-5",
+          "type": "article",
+          "title": "Python reduce(): The Complete Guide (With Examples)",
+          "url": "https://roadmap.sh/python/reduce"
+        }
+      ]
+    },
+    "jnLIVRrWxcX3yq3Op91Vr": {
+      "id": "jnLIVRrWxcX3yq3Op91Vr",
+      "slug": "generator-expressions",
+      "title": "Generator Expressions",
+      "description": "Generator expressions are a concise way to create a generator using a single line of code in Python. They are similar to list comprehensions, but instead of creating a list, they create a generator object that produces the values on-demand, as they are needed. Generator expressions are a useful tool for efficiently producing large sequence of values, as they allow you to create the generator without creating the entire sequence in memory at once. This tends to use less memory, especially for large sequences.",
+      "resources": [
+        {
+          "id": "jnLIVRrWxcX3yq3Op91Vr-res-1",
+          "type": "article",
+          "title": "Python Official Documentation on Generator Expressions",
+          "url": "https://docs.python.org/3/tutorial/classes.html#generator-expressions"
+        },
+        {
+          "id": "jnLIVRrWxcX3yq3Op91Vr-res-2",
+          "type": "article",
+          "title": "Python Generator Expressions",
+          "url": "https://www.pythontutorial.net/advanced-python/python-generator-expressions/"
+        },
+        {
+          "id": "jnLIVRrWxcX3yq3Op91Vr-res-3",
+          "type": "article",
+          "title": "List Comprehensions in Python and Generator Expressions",
+          "url": "https://djangostars.com/blog/list-comprehensions-and-generator-expressions/"
+        }
+      ]
+    },
+    "InUJIGmTnf0X4cSoLuCEQ": {
+      "id": "InUJIGmTnf0X4cSoLuCEQ",
+      "slug": "gevent",
+      "title": "gevent",
+      "description": "gevent is a Python library that provides a high-level interface to the event loop. It is based on non-blocking IO (libevent/libev) and lightweight greenlets. Non-blocking IO means requests waiting for network IO won't block other requests; greenlets mean we can continue to write code in synchronous style.",
+      "resources": [
+        {
+          "id": "InUJIGmTnf0X4cSoLuCEQ-res-1",
+          "type": "article",
+          "title": "gevent Website",
+          "url": "http://www.gevent.org/"
+        },
+        {
+          "id": "InUJIGmTnf0X4cSoLuCEQ-res-2",
+          "type": "article",
+          "title": "gevent/gevent",
+          "url": "https://github.com/gevent/gevent"
+        },
+        {
+          "id": "InUJIGmTnf0X4cSoLuCEQ-res-3",
+          "type": "article",
+          "title": "gevent For the Working Python Developer",
+          "url": "https://sdiehl.github.io/gevent-tutorial/"
+        }
+      ]
+    },
+    "bS7WeVKm2kEElu3sBKcIC": {
+      "id": "bS7WeVKm2kEElu3sBKcIC",
+      "slug": "gil",
+      "title": "GIL",
+      "description": "GIL is a mechanism that allows only one thread to execute Python code at a time. This limitation is related to memory management in CPython and can reduce the efficiency of multithreaded applications on multi-core systems.",
+      "resources": [
+        {
+          "id": "bS7WeVKm2kEElu3sBKcIC-res-1",
+          "type": "article",
+          "title": "What is GIL?",
+          "url": "https://realpython.com/python-gil/"
+        },
+        {
+          "id": "bS7WeVKm2kEElu3sBKcIC-res-2",
+          "type": "article",
+          "title": "Python Multithreading: The Most Practical Intro",
+          "url": "https://roadmap.sh/python/multithreading"
+        }
+      ]
+    },
+    "bqnwMKY4R0rirup3q_hb_": {
+      "id": "bqnwMKY4R0rirup3q_hb_",
+      "slug": "glob",
+      "title": "Glob Module in Python",
+      "description": "The `glob` module in Python is a handy tool for finding files and directories whose names match a specific pattern. It uses Unix shell rules for pattern matching, allowing you to easily search for files with certain extensions, files starting with a particular name, or any other combination of criteria you define using wildcards. The main function in this module, also named `glob`, takes a pattern as input and returns a list of all the pathnames that match it.",
+      "resources": [
+        {
+          "id": "bqnwMKY4R0rirup3q_hb_-res-1",
+          "type": "article",
+          "title": "Python glob Module: File Pattern Matching Explained",
+          "url": "https://roadmap.sh/python/glob"
+        },
+        {
+          "id": "bqnwMKY4R0rirup3q_hb_-res-2",
+          "type": "article",
+          "title": "glob",
+          "url": "https://realpython.com/ref/stdlib/glob/"
+        }
+      ]
+    },
+    "DG4fi1e5ec2BVckPLsTJS": {
+      "id": "DG4fi1e5ec2BVckPLsTJS",
+      "slug": "hashmaps",
+      "title": "HashMaps",
+      "description": "HashMap, HashTable, Map, Dictionary, or Associative are all the names of the same data structure. It is a data structure that implements a set abstract data type, a structure that can map keys to values.",
+      "resources": [
+        {
+          "id": "DG4fi1e5ec2BVckPLsTJS-res-1",
+          "type": "article",
+          "title": "Hashmaps in Python: Master Implementation and Use Cases",
+          "url": "https://roadmap.sh/python/hashmap"
+        },
+        {
+          "id": "DG4fi1e5ec2BVckPLsTJS-res-2",
+          "type": "article",
+          "title": "Build a Hash Table in Python",
+          "url": "https://realpython.com/python-hash-table/"
+        },
+        {
+          "id": "DG4fi1e5ec2BVckPLsTJS-res-3",
+          "type": "article",
+          "title": "Hash Tables and Hashmaps in Python",
+          "url": "https://www.edureka.co/blog/hash-tables-and-hashmaps-in-python/"
+        },
+        {
+          "id": "DG4fi1e5ec2BVckPLsTJS-res-4",
+          "type": "video",
+          "title": "Hash Table Data Structure | Illustrated Data Structures",
+          "url": "https://www.youtube.com/watch?v=jalSiaIi8j4"
+        }
+      ]
+    },
+    "0NlRczh6ZEaFLlT6LORWz": {
+      "id": "0NlRczh6ZEaFLlT6LORWz",
+      "slug": "heaps-stacks-and-queues",
+      "title": "Heaps, Stacks, and Queues",
+      "description": "Heaps, stacks, and queues are fundamental data structures used to organize and manage data efficiently based on specific rules of access. A stack follows the Last-In, First-Out (LIFO) principle, where the last element added is the first one removed, similar to a stack of plates. A queue operates on a First-In, First-Out (FIFO) basis, where the first element added is the first one removed, much like people waiting in a line. A heap is a specialized tree-based structure that maintains a specific order, typically allowing for the quick retrieval of either the smallest or largest element, making it ideal for priority-based tasks.",
+      "resources": [
+        {
+          "id": "0NlRczh6ZEaFLlT6LORWz-res-1",
+          "type": "article",
+          "title": "Heaps, Stacks, Queues",
+          "url": "https://stephanosterburg.gitbook.io/scrapbook/coding/coding-interview/data-structures/heaps-stacks-queues"
+        },
+        {
+          "id": "0NlRczh6ZEaFLlT6LORWz-res-2",
+          "type": "article",
+          "title": "How to Implement Python Stack?",
+          "url": "https://realpython.com/how-to-implement-python-stack/"
+        },
+        {
+          "id": "0NlRczh6ZEaFLlT6LORWz-res-3",
+          "type": "article",
+          "title": "Python Stacks, Queues, and Priority Queues in Practice",
+          "url": "https://realpython.com/queue-in-python/"
+        }
+      ]
+    },
+    "S0FLE70szSVUPI0CDEQK7": {
+      "id": "S0FLE70szSVUPI0CDEQK7",
+      "slug": "inheritance",
+      "title": "Inheritance",
+      "description": "Inheritance is a fundamental concept in object-oriented programming where a new class (the child class or subclass) is derived from an existing class (the parent class or superclass). The child class inherits attributes and methods from the parent class, allowing for code reuse and the creation of hierarchical relationships between classes. This promotes a more organized and maintainable codebase by establishing a clear structure and reducing redundancy.",
+      "resources": [
+        {
+          "id": "S0FLE70szSVUPI0CDEQK7-res-1",
+          "type": "article",
+          "title": "Python Official Documentation on Inheritance",
+          "url": "https://docs.python.org/3/tutorial/classes.html#inheritance"
+        }
+      ]
+    },
+    "aB1LSQjDEQb_BxueOcnxU": {
+      "id": "aB1LSQjDEQb_BxueOcnxU",
+      "slug": "iterators",
+      "title": "Iterators",
+      "description": "An iterator is an object that contains a countable number of values. An iterator is an object that can be iterated upon, meaning that you can traverse through all the values. Technically, in Python, an iterator is an object which implements the iterator protocol, which consist of the methods **iter**() and **next**() .",
+      "resources": [
+        {
+          "id": "aB1LSQjDEQb_BxueOcnxU-res-1",
+          "type": "article",
+          "title": "Python Official Documentation on Iterators",
+          "url": "https://docs.python.org/3/tutorial/classes.html#iterators"
+        },
+        {
+          "id": "aB1LSQjDEQb_BxueOcnxU-res-2",
+          "type": "article",
+          "title": "Python Iterators",
+          "url": "https://www.programiz.com/python-programming/iterator"
+        },
+        {
+          "id": "aB1LSQjDEQb_BxueOcnxU-res-3",
+          "type": "article",
+          "title": "Iterators and Iterables in Python",
+          "url": "https://realpython.com/python-iterators-iterables/"
+        }
+      ]
+    },
+    "aWHgAk959DPUZL46CeRiI": {
+      "id": "aWHgAk959DPUZL46CeRiI",
+      "slug": "lambdas",
+      "title": "Lambdas",
+      "description": "Python Lambda Functions are anonymous function means that the function is without a name. As we already know that the def keyword is used to define a normal function in Python. Similarly, the lambda keyword is used to define an anonymous function in Python.",
+      "resources": [
+        {
+          "id": "aWHgAk959DPUZL46CeRiI-res-1",
+          "type": "article",
+          "title": "How to use Lambda functions",
+          "url": "https://realpython.com/python-lambda/"
+        },
+        {
+          "id": "aWHgAk959DPUZL46CeRiI-res-2",
+          "type": "video",
+          "title": "Python Lambda Functions",
+          "url": "https://www.youtube.com/watch?v=KR22jigJLok"
+        }
+      ]
+    },
+    "0-ShORjGnQlAdcwjtxdEB": {
+      "id": "0-ShORjGnQlAdcwjtxdEB",
+      "slug": "learn-a-framework",
+      "title": "Python Frameworks",
+      "description": "Frameworks automate the common implementation of common solutions which gives the flexibility to the users to focus on the application logic instead of the basic routine processes. Frameworks make the life of web developers easier by giving them a structure for app development. They provide common patterns in a web application that are fast, reliable and easily maintainable.",
+      "resources": [
+        {
+          "id": "0-ShORjGnQlAdcwjtxdEB-res-1",
+          "type": "article",
+          "title": "Pyscript: A Browser-Based Python Framework",
+          "url": "https://thenewstack.io/pyscript-a-browser-based-python-framework/"
+        }
+      ]
+    },
+    "GISOFMKvnBys0O0IMpz2J": {
+      "id": "GISOFMKvnBys0O0IMpz2J",
+      "slug": "learn-the-basics",
+      "title": "Python",
+      "description": "Python is a high-level, interpreted, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. Python is dynamically-typed and garbage-collected.",
+      "resources": [
+        {
+          "id": "GISOFMKvnBys0O0IMpz2J-res-1",
+          "type": "article",
+          "title": "Tutorial Series: How to Code in Python",
+          "url": "https://www.digitalocean.com/community/tutorials/how-to-write-your-first-python-3-program"
+        },
+        {
+          "id": "GISOFMKvnBys0O0IMpz2J-res-2",
+          "type": "article",
+          "title": "Google's Python Class",
+          "url": "https://developers.google.com/edu/python"
+        },
+        {
+          "id": "GISOFMKvnBys0O0IMpz2J-res-3",
+          "type": "video",
+          "title": "Learn Python - Full Course",
+          "url": "https://www.youtube.com/watch?v=4M87qBgpafk"
+        }
+      ]
+    },
+    "4gtmtYWYRWqwLdZRL0XMg": {
+      "id": "4gtmtYWYRWqwLdZRL0XMg",
+      "slug": "list-comprehensions",
+      "title": "List Comprehensions",
+      "description": "List comprehensions are a concise way to create a list using a single line of code in Python. They are a powerful tool for creating and manipulating lists, and they can be used to simplify and shorten code.",
+      "resources": [
+        {
+          "id": "4gtmtYWYRWqwLdZRL0XMg-res-1",
+          "type": "article",
+          "title": "Python List Comprehensions",
+          "url": "https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions"
+        },
+        {
+          "id": "4gtmtYWYRWqwLdZRL0XMg-res-2",
+          "type": "article",
+          "title": "Python List Comprehensions Quiz",
+          "url": "https://realpython.com/quizzes/list-comprehension-python/"
+        }
+      ]
+    },
+    "UT_SR7G-LYtzqooWrEtF1": {
+      "id": "UT_SR7G-LYtzqooWrEtF1",
+      "slug": "lists",
+      "title": "Lists in Python",
+      "description": "Lists are fundamental data structures in Python used to store an ordered collection of items. These items can be of different data types (numbers, strings, or even other lists), and lists are mutable, meaning you can change their contents after they are created by adding, removing, or modifying elements. They are defined using square brackets `[]` and elements are separated by commas.",
+      "resources": [
+        {
+          "id": "UT_SR7G-LYtzqooWrEtF1-res-1",
+          "type": "article",
+          "title": "Python Official Documentation on Listsc",
+          "url": "https://docs.python.org/3/tutorial/introduction.html#lists"
+        },
+        {
+          "id": "UT_SR7G-LYtzqooWrEtF1-res-2",
+          "type": "article",
+          "title": "Python for Beginners: Lists",
+          "url": "https://thenewstack.io/python-for-beginners-lists/"
+        },
+        {
+          "id": "UT_SR7G-LYtzqooWrEtF1-res-3",
+          "type": "article",
+          "title": "Python for Beginners: When and How to Use Tuples",
+          "url": "https://thenewstack.io/python-for-beginners-when-and-how-to-use-tuples/"
+        },
+        {
+          "id": "UT_SR7G-LYtzqooWrEtF1-res-4",
+          "type": "video",
+          "title": "Difference Between List, Tuple, Set and Dictionary in Python",
+          "url": "https://www.youtube.com/watch?v=n0krwG38SHI"
+        }
+      ]
+    },
+    "Dvy7BnNzK55qbh_SgOk8m": {
+      "id": "Dvy7BnNzK55qbh_SgOk8m",
+      "slug": "loops",
+      "title": "Loops",
+      "description": "Loops are programming structures that allow you to execute a block of code repeatedly as long as a specific condition remains true or for a set number of iterations. In Python, the two primary types of loops are `for` loops, which are typically used to iterate over a sequence like a list, tuple, or string, and `while` loops, which continue running until a defined logical condition evaluates to false. These tools are essential for automating repetitive tasks and processing collections of data efficiently within your programs.",
+      "resources": [
+        {
+          "id": "Dvy7BnNzK55qbh_SgOk8m-res-1",
+          "type": "article",
+          "title": "Python \"while\" Loops (Indefinite Iteration)",
+          "url": "https://realpython.com/python-while-loop/"
+        },
+        {
+          "id": "Dvy7BnNzK55qbh_SgOk8m-res-2",
+          "type": "article",
+          "title": "Python \"for\" Loops (Definite Iteration)",
+          "url": "https://realpython.com/python-for-loop/#the-guts-of-the-python-for-loop"
+        },
+        {
+          "id": "Dvy7BnNzK55qbh_SgOk8m-res-3",
+          "type": "video",
+          "title": "Python For Loops",
+          "url": "https://www.youtube.com/watch?v=KWgYha0clzw"
+        }
+      ]
+    },
+    "zAS4YiEJ6VPsyABrkIG8i": {
+      "id": "zAS4YiEJ6VPsyABrkIG8i",
+      "slug": "methods",
+      "title": "Methods and Dunder Methods",
+      "description": "Methods are functions defined within a class that describe the behaviors or actions an object can perform. Dunder methods, short for \"double underscore\" methods, are special built-in methods—such as `__init__` or `__str__`—that allow you to define how your objects interact with Python’s built-in operations and syntax. By implementing these methods, you can customize how objects are initialized, represented as strings, compared, or used with mathematical operators.",
+      "resources": [
+        {
+          "id": "zAS4YiEJ6VPsyABrkIG8i-res-1",
+          "type": "article",
+          "title": "Method vs Function in Python",
+          "url": "https://www.tutorialspoint.com/difference-between-method-and-function-in-python"
+        },
+        {
+          "id": "zAS4YiEJ6VPsyABrkIG8i-res-2",
+          "type": "article",
+          "title": "Python - Magic or Dunder Methods",
+          "url": "https://www.tutorialsteacher.com/python/magic-methods-in-python"
+        }
+      ]
+    },
+    "274uk28wzxn6EKWQzLpHs": {
+      "id": "274uk28wzxn6EKWQzLpHs",
+      "slug": "modules",
+      "title": "Modules",
+      "description": "Modules refer to a file containing Python statements and definitions. A file containing Python code, for example: `example.py`, is called a module, and its module name would be example. We use modules to break down large programs into small manageable and organized files. Furthermore, modules provide reusability of code.",
+      "resources": [
+        {
+          "id": "274uk28wzxn6EKWQzLpHs-res-1",
+          "type": "article",
+          "title": "Python Modules",
+          "url": "https://docs.python.org/3/tutorial/modules.html"
+        },
+        {
+          "id": "274uk28wzxn6EKWQzLpHs-res-2",
+          "type": "article",
+          "title": "Modules in Python",
+          "url": "https://www.programiz.com/python-programming/modules"
+        }
+      ]
+    },
+    "HSY5OUc_M5S6OcFXPRtkx": {
+      "id": "HSY5OUc_M5S6OcFXPRtkx",
+      "slug": "multiprocessing",
+      "title": "Multiprocessing",
+      "description": "Multiprocessing utilizes multiple processes, each with its own GIL. This allows full utilization of multiple processor cores, which is effective for computationally intensive tasks. Python's multiprocessing module supports creating processes and exchanging data between them.",
+      "resources": [
+        {
+          "id": "HSY5OUc_M5S6OcFXPRtkx-res-1",
+          "type": "article",
+          "title": "Python Documentation",
+          "url": "https://docs.python.org/3/library/multiprocessing.html"
+        },
+        {
+          "id": "HSY5OUc_M5S6OcFXPRtkx-res-2",
+          "type": "article",
+          "title": "Python Multithreading: The Most Practical Intro",
+          "url": "https://roadmap.sh/python/multithreading"
+        },
+        {
+          "id": "HSY5OUc_M5S6OcFXPRtkx-res-3",
+          "type": "article",
+          "title": "Multiprocessing in Python with Example",
+          "url": "https://www.digitalocean.com/community/tutorials/python-multiprocessing-example"
+        },
+        {
+          "id": "HSY5OUc_M5S6OcFXPRtkx-res-4",
+          "type": "article",
+          "title": "Multiprocessing in Python",
+          "url": "https://realpython.com/python-multiprocessing/"
+        }
+      ]
+    },
+    "gIcJ3bUVQXqO1Wx4gUKd5": {
+      "id": "gIcJ3bUVQXqO1Wx4gUKd5",
+      "slug": "mypy",
+      "title": "mypy",
+      "description": "mypy is an optional static type checker for Python that aims to combine the benefits of dynamic (or \"duck\") typing and static typing. Mypy combines the expressive power and convenience of Python with a powerful type system and compile-time type checking. Mypy type checks standard Python programs; run them using any Python VM with basically no runtime overhead.",
+      "resources": [
+        {
+          "id": "gIcJ3bUVQXqO1Wx4gUKd5-res-1",
+          "type": "article",
+          "title": "mypy documentation",
+          "url": "https://mypy-lang.org/"
+        },
+        {
+          "id": "gIcJ3bUVQXqO1Wx4gUKd5-res-2",
+          "type": "article",
+          "title": "python/mypy",
+          "url": "https://github.com/python/mypy"
+        }
+      ]
+    },
+    "P_Di-XPSDITmU3xKQew8G": {
+      "id": "P_Di-XPSDITmU3xKQew8G",
+      "slug": "object-oriented-programming",
+      "title": "OOP",
+      "description": "In Python, object-oriented Programming (OOPs) is a programming paradigm that uses objects and classes in programming. It aims to implement real-world entities like inheritance, polymorphism, encapsulation, etc., in programming. The main concept of OOPs is to bind the data and the functions that work on that together as a single unit so that no other part of the code can access this data.",
+      "resources": [
+        {
+          "id": "P_Di-XPSDITmU3xKQew8G-res-1",
+          "type": "article",
+          "title": "Object Oriented Programming in Python",
+          "url": "https://realpython.com/python3-object-oriented-programming/"
+        },
+        {
+          "id": "P_Di-XPSDITmU3xKQew8G-res-2",
+          "type": "video",
+          "title": "Object Oriented Programming (OOP) In Python - Beginner Crash Course",
+          "url": "https://www.youtube.com/watch?v=-pEs-Bss8Wc/"
+        },
+        {
+          "id": "P_Di-XPSDITmU3xKQew8G-res-3",
+          "type": "video",
+          "title": "OOP in Python One Shot",
+          "url": "https://www.youtube.com/watch?v=Ej_02ICOIgs"
+        },
+        {
+          "id": "P_Di-XPSDITmU3xKQew8G-res-4",
+          "type": "video",
+          "title": "Python OOP Tutorial",
+          "url": "https://www.youtube.com/watch?v=IbMDCwVm63M"
+        }
+      ]
+    },
+    "so95CO6Qw3I0S98ISENS-": {
+      "id": "so95CO6Qw3I0S98ISENS-",
+      "slug": "operators",
+      "title": "Operators",
+      "description": "Operators are symbols or keywords that perform operations on values and variables. Python includes several types: arithmetic operators (+, -, \\*, /) for math calculations, comparison operators (==, !=, <, >) for evaluating relationships between values, and logical operators (and, or, not) for combining conditions. There are also assignment operators (=, +=, -=) for storing and updating values, bitwise operators for working with binary data, and membership operators (in, not in) for checking whether a value exists within a sequence like a list or string.",
+      "resources": [
+        {
+          "id": "so95CO6Qw3I0S98ISENS--res-1",
+          "type": "article",
+          "title": "Python Operators",
+          "url": "https://www.w3schools.com/python/python_operators.asp"
+        },
+        {
+          "id": "so95CO6Qw3I0S98ISENS--res-2",
+          "type": "article",
+          "title": "Python Division: Operators, Floor Division, and Examples",
+          "url": "https://roadmap.sh/python/division"
+        },
+        {
+          "id": "so95CO6Qw3I0S98ISENS--res-3",
+          "type": "article",
+          "title": "Python Modulo Operator (%): Complete Guide with Examples",
+          "url": "https://roadmap.sh/python/modulo"
+        },
+        {
+          "id": "so95CO6Qw3I0S98ISENS--res-4",
+          "type": "article",
+          "title": "Python not Operator: The Complete Guide to Logical Negation",
+          "url": "https://roadmap.sh/python/not-operator"
+        },
+        {
+          "id": "so95CO6Qw3I0S98ISENS--res-5",
+          "type": "article",
+          "title": "The or Operator in Python: Complete Guide with Examples",
+          "url": "https://roadmap.sh/python/or"
+        }
+      ]
+    },
+    "qeCMw-sJ2FR4UxvU9DDzv": {
+      "id": "qeCMw-sJ2FR4UxvU9DDzv",
+      "slug": "package-managers",
+      "title": "Package Managers",
+      "description": "Package managers allow you to manage the dependencies (external code written by you or someone else) that your project needs to work correctly. `PyPI` and `Pip` are the most common contenders but there are some other options available as well.",
+      "resources": [
+        {
+          "id": "qeCMw-sJ2FR4UxvU9DDzv-res-1",
+          "type": "article",
+          "title": "pypa/pipx",
+          "url": "https://github.com/pypa/pipx"
+        }
+      ]
+    },
+    "4GU5HNi3W8yFkImVY9ZpW": {
+      "id": "4GU5HNi3W8yFkImVY9ZpW",
+      "slug": "paradigms",
+      "title": "Paradigms",
+      "description": "Paradigms are fundamental styles or approaches to programming that dictate how a developer organizes and executes code. They define the structural logic of a program, offering different ways to solve problems by choosing how to represent data and functions. In Python, these paradigms—such as object-oriented, procedural, and functional programming—can be used individually or combined, allowing developers to choose the most effective strategy for the specific task at hand.",
+      "resources": [
+        {
+          "id": "4GU5HNi3W8yFkImVY9ZpW-res-1",
+          "type": "article",
+          "title": "Python Paradigms",
+          "url": "https://opensource.com/article/19/10/python-programming-paradigms"
+        },
+        {
+          "id": "4GU5HNi3W8yFkImVY9ZpW-res-2",
+          "type": "video",
+          "title": "Learn Functional Programming - Python Course",
+          "url": "https://www.youtube.com/watch?v=5QZYGU0C2OA"
+        }
+      ]
+    },
+    "xDgXISgVUMRHh9hu4h6Hl": {
+      "id": "xDgXISgVUMRHh9hu4h6Hl",
+      "slug": "pdm",
+      "title": "PDM",
+      "description": "PDM is a modern Python package manager that supports PEP 582, which allows packages to be installed in a `__pypackages__` directory instead of the traditional `site-packages` directory. It aims to provide a streamlined and improved experience for managing dependencies, building, and publishing Python projects. PDM also includes features like dependency resolution, virtual environment management, and project scaffolding.",
+      "resources": [
+        {
+          "id": "xDgXISgVUMRHh9hu4h6Hl-res-1",
+          "type": "article",
+          "title": "pdm",
+          "url": "https://pdm-project.org/en/latest/"
+        },
+        {
+          "id": "xDgXISgVUMRHh9hu4h6Hl-res-2",
+          "type": "article",
+          "title": "pdm",
+          "url": "https://github.com/pdm-project/pdm"
+        },
+        {
+          "id": "xDgXISgVUMRHh9hu4h6Hl-res-3",
+          "type": "article",
+          "title": "Introduction to PDM: A Python Project and Dependency Manager",
+          "url": "https://betterstack.com/community/guides/scaling-python/pdm-explained/"
+        }
+      ]
+    },
+    "iVhQnp6hpgVZDNJ0XoVra": {
+      "id": "iVhQnp6hpgVZDNJ0XoVra",
+      "slug": "pip",
+      "title": "Pip",
+      "description": "The standard package manager for Python is pip. It allows you to install and manage packages that aren’t part of the Python standard library.",
+      "resources": [
+        {
+          "id": "iVhQnp6hpgVZDNJ0XoVra-res-1",
+          "type": "article",
+          "title": "pip Documentation",
+          "url": "https://pip.pypa.io/en/stable/installation/"
+        },
+        {
+          "id": "iVhQnp6hpgVZDNJ0XoVra-res-2",
+          "type": "article",
+          "title": "Using Pythons pip to Manage Your Projects Dependencies",
+          "url": "https://realpython.com/what-is-pip/"
+        }
+      ]
+    },
+    "IWq-tfkz-pSC1ztZl60vM": {
+      "id": "IWq-tfkz-pSC1ztZl60vM",
+      "slug": "pipenv",
+      "title": "pipenv",
+      "description": "Pipeline Environment (pipenv) is a tool that aims to bring the best of all packaging worlds (bundled, requirements.txt, [setup.py](https://docs.python.org/3.11/distutils/setupscript.html), setup.cfg, etc.) to the Python world. It automatically creates and manages a virtualenv for your projects, as well as adds/removes packages from your Pipfile as you install/uninstall packages. It also generates the ever-important Pipfile.lock, which is used to produce deterministic builds.",
+      "resources": [
+        {
+          "id": "IWq-tfkz-pSC1ztZl60vM-res-1",
+          "type": "article",
+          "title": "Pipenv Documentation",
+          "url": "https://pipenv.pypa.io/en/latest/"
+        }
+      ]
+    },
+    "7zcpXN3krnS3tMRWVNIVe": {
+      "id": "7zcpXN3krnS3tMRWVNIVe",
+      "slug": "plotly-dash",
+      "title": "Plotly Dash",
+      "description": "Plotly Dash is a Python framework that allows you to build analytical web applications. It's a high-level library that enables you to create interactive, web-based data visualization dashboards without requiring extensive knowledge of web development.",
+      "resources": [
+        {
+          "id": "7zcpXN3krnS3tMRWVNIVe-res-1",
+          "type": "article",
+          "title": "Plotly Dash Documentation",
+          "url": "https://dash.plotly.com/"
+        },
+        {
+          "id": "7zcpXN3krnS3tMRWVNIVe-res-2",
+          "type": "article",
+          "title": "20 Minutes Tutorial",
+          "url": "http://dash.plotly.com/tutorial"
+        }
+      ]
+    },
+    "uXd2B01GVBEQNXQE8RATT": {
+      "id": "uXd2B01GVBEQNXQE8RATT",
+      "slug": "poetry",
+      "title": "Poetry",
+      "description": "Poetry is a dependency management and packaging tool that simplifies the process of handling libraries and project builds in a single configuration file. It manages virtual environments automatically and uses a lock file to ensure that every developer on a project uses the exact same version of every dependency. It provides a unified workflow for managing complex project structures.",
+      "resources": [
+        {
+          "id": "uXd2B01GVBEQNXQE8RATT-res-1",
+          "type": "article",
+          "title": "Poetry Docs",
+          "url": "https://python-poetry.org/docs/"
+        },
+        {
+          "id": "uXd2B01GVBEQNXQE8RATT-res-2",
+          "type": "video",
+          "title": "Python Poetry - Basics",
+          "url": "https://www.youtube.com/watch?v=Ji2XDxmXSOM"
+        }
+      ]
+    },
+    "W3VALz5evFo1qqkQbMN1R": {
+      "id": "W3VALz5evFo1qqkQbMN1R",
+      "slug": "pydantic",
+      "title": "Pydantic",
+      "description": "Pydantic is a Python library for data validation and settings management using Python type annotations. It enforces type hints at runtime and provides clear, user-friendly error messages when data is invalid. Pydantic is widely used in FastAPI for request body parsing, and in CLI and configuration tools for parsing environment variables and config files via `BaseSettings`. At its core, you define a model by subclassing `BaseModel` and annotating fields with types — Pydantic handles all coercion, validation, and serialization automatically.",
+      "resources": [
+        {
+          "id": "W3VALz5evFo1qqkQbMN1R-res-1",
+          "type": "article",
+          "title": "Pydantic Documentation",
+          "url": "https://docs.pydantic.dev/latest/"
+        },
+        {
+          "id": "W3VALz5evFo1qqkQbMN1R-res-2",
+          "type": "article",
+          "title": "Pydantic: Simplifying Data Validation in Python – Real Python",
+          "url": "https://realpython.com/python-pydantic/"
+        },
+        {
+          "id": "W3VALz5evFo1qqkQbMN1R-res-3",
+          "type": "article",
+          "title": "Pydantic V2 Migration Guide",
+          "url": "https://docs.pydantic.dev/latest/migration/"
+        },
+        {
+          "id": "W3VALz5evFo1qqkQbMN1R-res-4",
+          "type": "video",
+          "title": "Pydantic Tutorial – Complete Python Data Validation (ArjanCodes)",
+          "url": "https://www.youtube.com/watch?v=XIdQ6gO3Anc"
+        }
+      ]
+    },
+    "N5VaKMbgQ0V_BC5tadV65": {
+      "id": "N5VaKMbgQ0V_BC5tadV65",
+      "slug": "pyenv",
+      "title": "pyenv",
+      "description": "pyenv is a tool for managing multiple versions of the Python programming language on Unix-like systems. It works by setting environment variables to point to the directory where the desired version of Python is installed. This allows you to switch between different versions of Python without having to modify your system's default Python installation.",
+      "resources": [
+        {
+          "id": "N5VaKMbgQ0V_BC5tadV65-res-1",
+          "type": "article",
+          "title": "pyenv/pyenv",
+          "url": "https://github.com/pyenv/pyenv"
+        }
+      ]
+    },
+    "1dfOTOGsOk5XE3bnZs8Ht": {
+      "id": "1dfOTOGsOk5XE3bnZs8Ht",
+      "slug": "pypi",
+      "title": "PyPI",
+      "description": "PyPI, typically pronounced pie-pee-eye, is a repository containing several hundred thousand packages. These range from trivial Hello, World implementations to advanced deep learning libraries.",
+      "resources": [
+        {
+          "id": "1dfOTOGsOk5XE3bnZs8Ht-res-1",
+          "type": "article",
+          "title": "PyPI Website",
+          "url": "https://pypi.org/"
+        },
+        {
+          "id": "1dfOTOGsOk5XE3bnZs8Ht-res-2",
+          "type": "article",
+          "title": "How to Publish an Open-Source Python Package to PyPI",
+          "url": "https://realpython.com/pypi-publish-python-package/"
+        },
+        {
+          "id": "1dfOTOGsOk5XE3bnZs8Ht-res-3",
+          "type": "video",
+          "title": "Getting Started with Pip and PyPI in Python",
+          "url": "https://www.youtube.com/watch?v=bPSfNKvhooA"
+        }
+      ]
+    },
+    "GHKAY9gOykEbxkEeR30wL": {
+      "id": "GHKAY9gOykEbxkEeR30wL",
+      "slug": "pyprojecttoml",
+      "title": "pyproject.toml",
+      "description": "This file is used to define the project configuration and dependencies. It is a configuration file that contains metadata about the project, such as its name, version, dependencies, and build settings. The `pyproject.toml` file is used by tools like `poetry` and `flit` to manage Python projects and their dependencies.",
+      "resources": [
+        {
+          "id": "GHKAY9gOykEbxkEeR30wL-res-1",
+          "type": "article",
+          "title": "Writing pyproject.toml files",
+          "url": "https://packaging.python.org/en/latest/guides/writing-pyproject-toml/"
+        }
+      ]
+    },
+    "DHtskqATeAVKgaazdhXKD": {
+      "id": "DHtskqATeAVKgaazdhXKD",
+      "slug": "pyramid",
+      "title": "Pyramid",
+      "description": "Pyramid is a general, open source, web application development framework built in python. It allows python developer to create web applications with ease. Pyramid is backed by the enterprise knowledge Management System KARL (a George Soros project).",
+      "resources": [
+        {
+          "id": "DHtskqATeAVKgaazdhXKD-res-1",
+          "type": "article",
+          "title": "Pyramid Website",
+          "url": "https://trypyramid.com/"
+        },
+        {
+          "id": "DHtskqATeAVKgaazdhXKD-res-2",
+          "type": "article",
+          "title": "Pyramid Documentation",
+          "url": "https://trypyramid.com/documentation.html"
+        },
+        {
+          "id": "DHtskqATeAVKgaazdhXKD-res-3",
+          "type": "article",
+          "title": "Pyramid Framework Introduction",
+          "url": "https://www.tutorialspoint.com/python_web_development_libraries/python_web_development_libraries_pyramid_framework.htm"
+        }
+      ]
+    },
+    "9mFR_ueXbIB2IrkqU2s85": {
+      "id": "9mFR_ueXbIB2IrkqU2s85",
+      "slug": "pyre",
+      "title": "pyrefly",
+      "description": "pyrefly is a static type checker for Python. It is a tool that helps you find type errors in your Python code. Pyre is designed to be fast, scalable, and easy to use. It is used at Facebook to help developers catch type errors before they make it to production.",
+      "resources": [
+        {
+          "id": "9mFR_ueXbIB2IrkqU2s85-res-1",
+          "type": "article",
+          "title": "pyrefly Documentation",
+          "url": "https://pyrefly.org"
+        }
+      ]
+    },
+    "1q9HWgu9jDTK757hTNOmE": {
+      "id": "1q9HWgu9jDTK757hTNOmE",
+      "slug": "pyright",
+      "title": "pyright",
+      "description": "pyright is a static type checker for Python. It is a Microsoft product and is written in TypeScript. It is a language server that uses the Language Server Protocol (LSP) to communicate with the editor. It is a good alternative to mypy and pytype.",
+      "resources": [
+        {
+          "id": "1q9HWgu9jDTK757hTNOmE-res-1",
+          "type": "article",
+          "title": "Pyright Documentation",
+          "url": "https://microsoft.github.io/pyright/"
+        }
+      ]
+    },
+    "3FDwJpesfelEyJrNWtm0V": {
+      "id": "3FDwJpesfelEyJrNWtm0V",
+      "slug": "pytest",
+      "title": "pytest",
+      "description": "pytest is a mature full-featured Python testing tool that helps you write better programs.",
+      "resources": [
+        {
+          "id": "3FDwJpesfelEyJrNWtm0V-res-1",
+          "type": "article",
+          "title": "Pytest Docs",
+          "url": "https://docs.pytest.org/"
+        },
+        {
+          "id": "3FDwJpesfelEyJrNWtm0V-res-2",
+          "type": "article",
+          "title": "Pytest Tutorial",
+          "url": "https://www.tutorialspoint.com/pytest/index.htm"
+        },
+        {
+          "id": "3FDwJpesfelEyJrNWtm0V-res-3",
+          "type": "article",
+          "title": "Effective Python Testing With Pytest",
+          "url": "https://realpython.com/pytest-python-testing/"
+        },
+        {
+          "id": "3FDwJpesfelEyJrNWtm0V-res-4",
+          "type": "video",
+          "title": "Pytest Tutorial – How to Test Python Code",
+          "url": "https://www.youtube.com/watch?v=cHYq1MRoyI0"
+        }
+      ]
+    },
+    "kLBgy_nxxjE8SxdVi04bq": {
+      "id": "kLBgy_nxxjE8SxdVi04bq",
+      "slug": "recursion",
+      "title": "Recursion",
+      "description": "Recursion is a method of solving a computational problem where the solution depends on solutions to smaller instances of the same problem. Recursion solves such recursive problems by using functions that call themselves from within their own code.",
+      "resources": [
+        {
+          "id": "kLBgy_nxxjE8SxdVi04bq-res-1",
+          "type": "article",
+          "title": "Recursion in Python: An Introduction",
+          "url": "https://realpython.com/python-recursion/"
+        }
+      ]
+    },
+    "7t6mJBsaFMWPi7o9fbhhq": {
+      "id": "7t6mJBsaFMWPi7o9fbhhq",
+      "slug": "regular-expressions",
+      "title": "Regular Expressions",
+      "description": "A regular expression is a sequence of characters that specifies a search pattern in text. Usually such patterns are used by string-searching algorithms for \"find\" or \"find and replace\" operations on strings, or for input validation.",
+      "resources": [
+        {
+          "id": "7t6mJBsaFMWPi7o9fbhhq-res-1",
+          "type": "article",
+          "title": "Regular Expressions in Python",
+          "url": "https://docs.python.org/3/library/re.html"
+        },
+        {
+          "id": "7t6mJBsaFMWPi7o9fbhhq-res-2",
+          "type": "article",
+          "title": "Python Regular Expressions",
+          "url": "https://developers.google.com/edu/python/regular-expressions"
+        },
+        {
+          "id": "7t6mJBsaFMWPi7o9fbhhq-res-3",
+          "type": "article",
+          "title": "Python - Regular Expressions",
+          "url": "https://www.tutorialspoint.com/python/python_reg_expressions.htm"
+        }
+      ]
+    },
+    "6cB0pvUO1-gvCtgqozP-Q": {
+      "id": "6cB0pvUO1-gvCtgqozP-Q",
+      "slug": "ruff",
+      "title": "ruff",
+      "description": "Ruff is a fast Python linter and code quality tool written in Rust that combines the functionality of multiple linting and formatting tools into a single, high-performance utility. It helps detect errors, enforce coding standards, and improve code quality while running significantly faster than traditional Python linters.",
+      "resources": [
+        {
+          "id": "6cB0pvUO1-gvCtgqozP-Q-res-1",
+          "type": "article",
+          "title": "Ruff documentation",
+          "url": "https://docs.astral.sh/ruff/"
+        }
+      ]
+    },
+    "9RGpqsj9jHz0_-r7EvRcw": {
+      "id": "9RGpqsj9jHz0_-r7EvRcw",
+      "slug": "sanic",
+      "title": "Sanic",
+      "description": "Sanic is a Python 3.8+ web server and web framework designed for speed. It fully supports the `async`/`await` syntax introduced in Python 3.5, allowing you to write non-blocking request handlers that can handle thousands of concurrent connections efficiently. Unlike traditional synchronous frameworks, Sanic uses `uvloop` under the hood for its event loop, making it one of the fastest Python web frameworks available. It supports features like Blueprints for route grouping, WebSockets, middleware, streaming responses, and a built-in static file server, making it a strong choice for building high-performance APIs and real-time applications.",
+      "resources": [
+        {
+          "id": "9RGpqsj9jHz0_-r7EvRcw-res-1",
+          "type": "article",
+          "title": "Sanic Official Website",
+          "url": "https://sanic.dev/en/"
+        },
+        {
+          "id": "9RGpqsj9jHz0_-r7EvRcw-res-2",
+          "type": "article",
+          "title": "Sanic User Guide – Getting Started",
+          "url": "https://sanic.dev/en/guide/getting-started.html"
+        },
+        {
+          "id": "9RGpqsj9jHz0_-r7EvRcw-res-3",
+          "type": "article",
+          "title": "Sanic on GitHub",
+          "url": "https://github.com/sanic-org/sanic"
+        },
+        {
+          "id": "9RGpqsj9jHz0_-r7EvRcw-res-4",
+          "type": "video",
+          "title": "Sanic Python Framework Tutorial (Tech With Tim)",
+          "url": "https://www.youtube.com/watch?v=w4UQkgxKuaI"
+        }
+      ]
+    },
+    "soZFqivM3YBuljeX6PoaX": {
+      "id": "soZFqivM3YBuljeX6PoaX",
+      "slug": "sets",
+      "title": "Sets",
+      "description": "Python Set is an unordered collection of data types that is iterable, mutable, and has no duplicate elements. The order of elements in a set is undefined though it may consist of various elements. The major advantage of using a set, as opposed to a list, is that it has a highly optimized method for checking whether a specific element is contained in the set.",
+      "resources": [
+        {
+          "id": "soZFqivM3YBuljeX6PoaX-res-1",
+          "type": "article",
+          "title": "Python Official Documentation on Sets",
+          "url": "https://docs.python.org/3/tutorial/datastructures.html#sets"
+        },
+        {
+          "id": "soZFqivM3YBuljeX6PoaX-res-2",
+          "type": "article",
+          "title": "An In-Depth Guide to Working with Python Sets",
+          "url": "https://learnpython.com/blog/python-sets/"
+        },
+        {
+          "id": "soZFqivM3YBuljeX6PoaX-res-3",
+          "type": "video",
+          "title": "Python Sets tutorial for Beginners",
+          "url": "https://www.youtube.com/watch?v=t9j8lCUGZXo"
+        }
+      ]
+    },
+    "vvTmjcWCVclOPY4f_5uB0": {
+      "id": "vvTmjcWCVclOPY4f_5uB0",
+      "slug": "sorting-algorithms",
+      "title": "Sorting Algorithms",
+      "description": "Sorting refers to arranging data in a particular format. Sorting algorithm specifies the way to arrange data in a particular order. Most common orders are in numerical or lexicographical order. The importance of sorting lies in the fact that data searching can be optimized to a very high level, if data is stored in a sorted manner.",
+      "resources": [
+        {
+          "id": "vvTmjcWCVclOPY4f_5uB0-res-1",
+          "type": "article",
+          "title": "Sorting Algorithms in Python",
+          "url": "https://realpython.com/sorting-algorithms-python/"
+        },
+        {
+          "id": "vvTmjcWCVclOPY4f_5uB0-res-2",
+          "type": "article",
+          "title": "Python - Sorting Algorithms",
+          "url": "https://www.tutorialspoint.com/python_data_structure/python_sorting_algorithms.htm"
+        }
+      ]
+    },
+    "maYNuTKYyZndxk1z29-UY": {
+      "id": "maYNuTKYyZndxk1z29-UY",
+      "slug": "sphinx",
+      "title": "sphinx",
+      "description": "Sphinx is a tool that makes it easy to create intelligent and beautiful documentation, written by Georg Brandl and licensed under the BSD license.",
+      "resources": [
+        {
+          "id": "maYNuTKYyZndxk1z29-UY-res-1",
+          "type": "article",
+          "title": "Sphinx Website",
+          "url": "https://www.sphinx-doc.org/en/master/"
+        }
+      ]
+    },
+    "1PXApuUpPmJjgi12cmWo4": {
+      "id": "1PXApuUpPmJjgi12cmWo4",
+      "slug": "static-typing",
+      "title": "Static Typing",
+      "description": "Static typing can be a powerful tool to help you catch bugs before they happen. It can also help you understand the code you're working with, and make it easier to maintain and refactor.",
+      "resources": [
+        {
+          "id": "1PXApuUpPmJjgi12cmWo4-res-1",
+          "type": "article",
+          "title": "Static Typing in Python",
+          "url": "https://typing.readthedocs.io/en/latest/index.html"
+        }
+      ]
+    },
+    "WQOYjuwKIWB2meea4JnsV": {
+      "id": "WQOYjuwKIWB2meea4JnsV",
+      "slug": "testing",
+      "title": "Testing",
+      "description": "Testing in programming means checking if your code works as expected. It's a systematic way to find and fix errors (bugs) before your code goes live. Imagine building a beautiful house without checking if the walls are straight or the roof doesn't leak—that's what coding without testing can feel like!",
+      "resources": [
+        {
+          "id": "WQOYjuwKIWB2meea4JnsV-res-1",
+          "type": "article",
+          "title": "Unit Testing in Python",
+          "url": "https://docs.python.org/3/library/unittest.html"
+        },
+        {
+          "id": "WQOYjuwKIWB2meea4JnsV-res-2",
+          "type": "article",
+          "title": "Python Testing Tutorial",
+          "url": "https://realpython.com/python-testing/"
+        }
+      ]
+    },
+    "UIx0XYaOgXXlYbbQtjiPq": {
+      "id": "UIx0XYaOgXXlYbbQtjiPq",
+      "slug": "threading",
+      "title": "Threading",
+      "description": "[Multithreading](https://roadmap.sh/python/multithreading) allows multiple threads within a single process. However, because of GIL, threads cannot run in parallel on different cores, which makes multithreading suitable for I/O tasks (e.g., network requests) but not for computational tasks.",
+      "resources": [
+        {
+          "id": "UIx0XYaOgXXlYbbQtjiPq-res-1",
+          "type": "article",
+          "title": "Python Threading Library",
+          "url": "https://docs.python.org/3/library/threading.html"
+        },
+        {
+          "id": "UIx0XYaOgXXlYbbQtjiPq-res-2",
+          "type": "article",
+          "title": "Python Multithreading: The Most Practical Intro",
+          "url": "https://roadmap.sh/python/multithreading"
+        },
+        {
+          "id": "UIx0XYaOgXXlYbbQtjiPq-res-3",
+          "type": "article",
+          "title": "Introduction to Threading in Python",
+          "url": "https://realpython.com/intro-to-python-threading/"
+        }
+      ]
+    },
+    "zey2C6BdzsHJAlb_K3qrP": {
+      "id": "zey2C6BdzsHJAlb_K3qrP",
+      "slug": "tornado",
+      "title": "Tornado",
+      "description": "Tornado is a scalable, non-blocking web server and web application framework written in Python. It was developed for use by FriendFeed; the company was acquired by Facebook in 2009 and Tornado was open-sourced soon after.",
+      "resources": [
+        {
+          "id": "zey2C6BdzsHJAlb_K3qrP-res-1",
+          "type": "article",
+          "title": "Tornado Website",
+          "url": "https://www.tornadoweb.org/"
+        },
+        {
+          "id": "zey2C6BdzsHJAlb_K3qrP-res-2",
+          "type": "article",
+          "title": "A Step-by-Step Tutorial on Python Tornado",
+          "url": "https://phrase.com/blog/posts/tornado-web-framework-i18n/"
+        },
+        {
+          "id": "zey2C6BdzsHJAlb_K3qrP-res-3",
+          "type": "video",
+          "title": "Tornado Python Framework",
+          "url": "https://www.youtube.com/watch?v=-gJ21qzpieA"
+        }
+      ]
+    },
+    "jPFOiwbqfaGshaGDBWb5x": {
+      "id": "jPFOiwbqfaGshaGDBWb5x",
+      "slug": "tox",
+      "title": "Tox",
+      "description": "Tox is a tool for automating test environment management and testing against multiple interpreter configurations. It is particularly useful for Python codebase that need to support multiple versions of Python.",
+      "resources": [
+        {
+          "id": "jPFOiwbqfaGshaGDBWb5x-res-1",
+          "type": "article",
+          "title": "Tox Documentation",
+          "url": "https://tox.wiki/en/"
+        }
+      ]
+    },
+    "i7xIGiXU-k5UIKHIhQPjE": {
+      "id": "i7xIGiXU-k5UIKHIhQPjE",
+      "slug": "tuples",
+      "title": "Tuples",
+      "description": "A tuple is an ordered and immutable collection of elements in Python. Unlike lists, tuples cannot be modified after creation, making them useful for storing fixed data such as coordinates, configuration values, or records that should remain unchanged. Tuples support indexing, iteration, and unpacking, and because they are immutable, they can also be used as dictionary keys or returned safely from functions as multiple values.",
+      "resources": [
+        {
+          "id": "i7xIGiXU-k5UIKHIhQPjE-res-1",
+          "type": "article",
+          "title": "Tuples Documentation",
+          "url": "https://docs.python.org/3/tutorial/datastructures.html#tuples-and-sequences"
+        },
+        {
+          "id": "i7xIGiXU-k5UIKHIhQPjE-res-2",
+          "type": "article",
+          "title": "When and How to Use Tuples",
+          "url": "https://thenewstack.io/python-for-beginners-when-and-how-to-use-tuples/"
+        },
+        {
+          "id": "i7xIGiXU-k5UIKHIhQPjE-res-3",
+          "type": "article",
+          "title": "Python's tuple Data Type: A Deep Dive With Examples",
+          "url": "https://realpython.com/python-tuple/#getting-started-with-pythons-tuple-data-type"
+        },
+        {
+          "id": "i7xIGiXU-k5UIKHIhQPjE-res-4",
+          "type": "video",
+          "title": "why are Tuples even a thing?",
+          "url": "https://www.youtube.com/watch?v=fR_D_KIAYrE"
+        }
+      ]
+    },
+    "syV0DT_3ITgIFDbwPts8i": {
+      "id": "syV0DT_3ITgIFDbwPts8i",
+      "slug": "type-annot",
+      "title": "Type Annotations",
+      "description": "Type annotations let developers specify the expected data types of variables, function parameters, and return values in Python. The interpreter does not enforce these hints at runtime, but tools like mypy and pyright use them to catch type errors before execution. A function can declare def add(a: int, b: int) -> int: to signal that it expects integers and returns one. Type annotations make code easier to read and help catch bugs early, especially in larger codebases.",
+      "resources": [
+        {
+          "id": "syV0DT_3ITgIFDbwPts8i-res-1",
+          "type": "article",
+          "title": "Type Annotations",
+          "url": "https://typing.python.org/en/latest/spec/annotations.html"
+        },
+        {
+          "id": "syV0DT_3ITgIFDbwPts8i-res-2",
+          "type": "article",
+          "title": "Understanding type annotation in Python",
+          "url": "https://blog.logrocket.com/understanding-type-annotation-python/"
+        }
+      ]
+    },
+    "R9DQNc0AyAQ2HLpP4HOk6": {
+      "id": "R9DQNc0AyAQ2HLpP4HOk6",
+      "slug": "type-casting",
+      "title": "Typecasting",
+      "description": "The process of converting the value of one data type (integer, string, float, etc.) to another data type is called type conversion. Python has two types of type conversion: Implicit and Explicit.",
+      "resources": [
+        {
+          "id": "R9DQNc0AyAQ2HLpP4HOk6-res-1",
+          "type": "article",
+          "title": "Type Conversion and Casting",
+          "url": "https://www.programiz.com/python-programming/type-conversion-and-casting"
+        }
+      ]
+    },
+    "o1wi39VnjnFfWIC8XcuAK": {
+      "id": "o1wi39VnjnFfWIC8XcuAK",
+      "slug": "typing",
+      "title": "Typing",
+      "description": "The `typing` module provides support for type hints in Python, allowing developers to specify expected data types for variables, function parameters, and return values. Type hints improve code readability, enable better editor support and static analysis, and help catch potential bugs early without changing how Python executes programs at runtime.",
+      "resources": [
+        {
+          "id": "o1wi39VnjnFfWIC8XcuAK-res-1",
+          "type": "article",
+          "title": "Typing Module",
+          "url": "https://docs.python.org/3/library/typing.html"
+        }
+      ]
+    },
+    "b4he_RO17C3ScNeUd6v2b": {
+      "id": "b4he_RO17C3ScNeUd6v2b",
+      "slug": "unittest--pyunit",
+      "title": "PyUnit / Unittest",
+      "description": "PyUnit is an easy way to create unit testing programs and UnitTests with Python. (Note that [docs.python.org](http://docs.python.org) uses the name \"unittest\", which is also the module name.)",
+      "resources": [
+        {
+          "id": "b4he_RO17C3ScNeUd6v2b-res-1",
+          "type": "article",
+          "title": "How To Use unittest to Write a Test Case for a Function in Python",
+          "url": "https://www.digitalocean.com/community/tutorials/how-to-use-unittest-to-write-a-test-case-for-a-function-in-python"
+        },
+        {
+          "id": "b4he_RO17C3ScNeUd6v2b-res-2",
+          "type": "article",
+          "title": "A Gentle Introduction to Unit Testing in Python",
+          "url": "https://machinelearningmastery.com/a-gentle-introduction-to-unit-testing-in-python/"
+        }
+      ]
+    },
+    "p3Frfs6oxpuciUzeCEsvb": {
+      "id": "p3Frfs6oxpuciUzeCEsvb",
+      "slug": "uv",
+      "title": "uv",
+      "description": "uv is an \"extremely fast\" python package installer and resolver.",
+      "resources": [
+        {
+          "id": "p3Frfs6oxpuciUzeCEsvb-res-1",
+          "type": "article",
+          "title": "astral-sh/uv",
+          "url": "https://github.com/astral-sh/uv"
+        },
+        {
+          "id": "p3Frfs6oxpuciUzeCEsvb-res-2",
+          "type": "article",
+          "title": "@UV for Python",
+          "url": "https://www.youtube.com/watch?v=qh98qOND6MI&t"
+        }
+      ]
+    },
+    "3RNy7Sp28d-NMx0Yh4bdx": {
+      "id": "3RNy7Sp28d-NMx0Yh4bdx",
+      "slug": "variable-scope",
+      "title": "Variable Scope",
+      "description": "Variable scope refers to the region of a program where a particular variable can be accessed. It determines the visibility and lifetime of a variable. Understanding scope is crucial for avoiding naming conflicts and ensuring that variables are used correctly within different parts of your code.",
+      "resources": [
+        {
+          "id": "3RNy7Sp28d-NMx0Yh4bdx-res-1",
+          "type": "article",
+          "title": "Python Nonlocal Keyword Explained by Our Experts",
+          "url": "https://roadmap.sh/python/nonlocal"
+        },
+        {
+          "id": "3RNy7Sp28d-NMx0Yh4bdx-res-2",
+          "type": "article",
+          "title": "Python Scope",
+          "url": "https://www.w3schools.com/python/python_scope.asp"
+        },
+        {
+          "id": "3RNy7Sp28d-NMx0Yh4bdx-res-3",
+          "type": "video",
+          "title": "Python Tutorial: Variable Scope - Understanding the LEGB rule and global/nonlocal statements",
+          "url": "https://www.youtube.com/watch?v=QVdf0LgmICw"
+        }
+      ]
+    },
+    "dEFLBGpiH6nbSMeR7ecaT": {
+      "id": "dEFLBGpiH6nbSMeR7ecaT",
+      "slug": "variables-and-data-types",
+      "title": "Variables",
+      "description": "Variables are used to store information to be referenced and manipulated in a computer program. They also provide a way of labeling data with a descriptive name, so our programs can be understood more clearly by the reader and ourselves. It is helpful to think of variables as containers that hold information. Their sole purpose is to label and store data in memory. This data can then be used throughout your program.",
+      "resources": [
+        {
+          "id": "dEFLBGpiH6nbSMeR7ecaT-res-1",
+          "type": "article",
+          "title": "Variables in Python",
+          "url": "https://realpython.com/python-variables"
+        },
+        {
+          "id": "dEFLBGpiH6nbSMeR7ecaT-res-2",
+          "type": "article",
+          "title": "Python for Beginners: Data Types",
+          "url": "https://thenewstack.io/python-for-beginners-data-types/"
+        },
+        {
+          "id": "dEFLBGpiH6nbSMeR7ecaT-res-3",
+          "type": "article",
+          "title": "Python Null (None): Guide to Missing Values and NoneType",
+          "url": "https://roadmap.sh/python/null"
+        },
+        {
+          "id": "dEFLBGpiH6nbSMeR7ecaT-res-4",
+          "type": "article",
+          "title": "Python Max Int: Understanding Arbitrary Precision Integers",
+          "url": "https://roadmap.sh/python/max-int"
+        },
+        {
+          "id": "dEFLBGpiH6nbSMeR7ecaT-res-5",
+          "type": "video",
+          "title": "Python Variables and Data Types",
+          "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRhN-sfWgCU1z_Qhakc1AGOn"
+        }
+      ]
+    },
+    "_IXXTSwQOgYzYIUuKVWNE": {
+      "id": "_IXXTSwQOgYzYIUuKVWNE",
+      "slug": "virtualenv",
+      "title": "virtualenv",
+      "description": "`virtualenv` is a tool to create isolated Python environments. It creates a folder which contains all the necessary executables to use the packages that a Python project would need.",
+      "resources": [
+        {
+          "id": "_IXXTSwQOgYzYIUuKVWNE-res-1",
+          "type": "article",
+          "title": "Virtual Environments",
+          "url": "https://virtualenv.pypa.io/en/latest/"
+        }
+      ]
+    },
+    "Sg5w8zO2Ji-uDJKEoWey9": {
+      "id": "Sg5w8zO2Ji-uDJKEoWey9",
+      "slug": "working-with-strings",
+      "title": "Working with Strings",
+      "description": "Strings in Python are sequences of characters used to represent text. You can create them by enclosing characters within single quotes, double quotes, or triple quotes. Once created, strings are immutable, meaning their values cannot be changed directly. Common operations include accessing individual characters using indexing, slicing to extract substrings, concatenating strings using the `+` operator, and using built-in methods to manipulate and format the text they contain.",
+      "resources": [
+        {
+          "id": "Sg5w8zO2Ji-uDJKEoWey9-res-1",
+          "type": "article",
+          "title": "string — Common string operations",
+          "url": "https://docs.python.org/3/library/string.html"
+        },
+        {
+          "id": "Sg5w8zO2Ji-uDJKEoWey9-res-2",
+          "type": "article",
+          "title": "Python Print New Line: Methods, Examples, and Best Practices",
+          "url": "https://roadmap.sh/python/print-new-line"
+        },
+        {
+          "id": "Sg5w8zO2Ji-uDJKEoWey9-res-3",
+          "type": "article",
+          "title": "Python Multiline Strings: The Complete Guide",
+          "url": "https://roadmap.sh/python/multiline-strings"
+        },
+        {
+          "id": "Sg5w8zO2Ji-uDJKEoWey9-res-4",
+          "type": "video",
+          "title": "String methods in Python are easy 〰️",
+          "url": "https://www.youtube.com/watch?v=tb6EYiHtcXU"
+        }
+      ]
+    },
+    "tsh_vbhzKz1-H9Vh69tsK": {
+      "id": "tsh_vbhzKz1-H9Vh69tsK",
+      "slug": "yapf",
+      "title": "yapf",
+      "description": "yapf is a formatter for Python files. It is a tool that automatically formats Python code to conform to the PEP 8 style guide. It is similar to black but has more configuration options.",
+      "resources": [
+        {
+          "id": "tsh_vbhzKz1-H9Vh69tsK-res-1",
+          "type": "article",
+          "title": "google/yapf",
+          "url": "https://github.com/google/yapf"
+        }
+      ]
+    }
+  }
+}

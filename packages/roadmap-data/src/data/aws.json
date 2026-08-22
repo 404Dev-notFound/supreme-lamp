@@ -1,0 +1,3159 @@
+{
+  "slug": "aws",
+  "title": "Aws",
+  "description": "Comprehensive learning curriculum and mastery roadmap for aws.",
+  "category": "skill",
+  "level": "Intermediate",
+  "topicCount": 101,
+  "iconName": "Compass",
+  "nodes": [
+    {
+      "id": "node-AfagmWcllSi81D2XIQz0V",
+      "label": "AMIs",
+      "topicId": "AfagmWcllSi81D2XIQz0V",
+      "level": 1,
+      "position": {
+        "x": 80,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-T0dvezPWX6rAiKweT0TkG",
+      "label": "API Gateway",
+      "topicId": "T0dvezPWX6rAiKweT0TkG",
+      "level": 1,
+      "position": {
+        "x": 340,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-0IMdO7g_5El1elvDXJJ_0",
+      "label": "Assuming Roles",
+      "topicId": "0IMdO7g_5El1elvDXJJ_0",
+      "level": 1,
+      "position": {
+        "x": 600,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-gBKHVG7FvlCEgINKmw00s",
+      "label": "Auto-Scaling Groups",
+      "topicId": "gBKHVG7FvlCEgINKmw00s",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-dOAZG-NbjWiVdPKYEhWxj",
+      "label": "Auto-Scaling",
+      "topicId": "dOAZG-NbjWiVdPKYEhWxj",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-z9R1BWUGalmnw0E7QqiW6",
+      "label": "AWS Global Infrastructure",
+      "topicId": "z9R1BWUGalmnw0E7QqiW6",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-NWvasq-AcwxmOKZPDv3ue",
+      "label": "Backup / Restore",
+      "topicId": "NWvasq-AcwxmOKZPDv3ue",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-tBKc7tHOiJaTmwEl3q--Y",
+      "label": "Backup / Restore",
+      "topicId": "tBKc7tHOiJaTmwEl3q--Y",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-8i6zpjkMC_Pg-tDNmrx4n",
+      "label": "Bucket / Object Lifecycle",
+      "topicId": "8i6zpjkMC_Pg-tDNmrx4n",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-rTgjDj5HqbjRpcJ7PR-EC",
+      "label": "Buckets / Objects",
+      "topicId": "rTgjDj5HqbjRpcJ7PR-EC",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-KtXww9J0znwzTwL7GKfaY",
+      "label": "Capacity Settings",
+      "topicId": "KtXww9J0znwzTwL7GKfaY",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-2hFBv2fhKDYBN-9ITs82J",
+      "label": "CIDR Blocks",
+      "topicId": "2hFBv2fhKDYBN-9ITs82J",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-zFgnu2fL0EUKIMz9tVH1j",
+      "label": "Cloudfront",
+      "topicId": "zFgnu2fL0EUKIMz9tVH1j",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-VAYxwJH10PFjGS8poKd9-",
+      "label": "Cloudwatch",
+      "topicId": "VAYxwJH10PFjGS8poKd9-",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-PphzNicIJawVElmY5rn8f",
+      "label": "Clusters / ECS Container Agents",
+      "topicId": "PphzNicIJawVElmY5rn8f",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-EuOv19jDSj56Cy7PqvtNv",
+      "label": "Cold Start and Limitations",
+      "topicId": "EuOv19jDSj56Cy7PqvtNv",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-4svXYQYmqjUZU39z8OyhD",
+      "label": "Configuration Sets",
+      "topicId": "4svXYQYmqjUZU39z8OyhD",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-_U2bKjxIrAAk7TMrPttpb",
+      "label": "CPU Credits",
+      "topicId": "_U2bKjxIrAAk7TMrPttpb",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-SdCNevKjyhFcreMSWY6BT",
+      "label": "Creating / Invoking Functions",
+      "topicId": "SdCNevKjyhFcreMSWY6BT",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-KWjIAakMIlxn_jso22h0M",
+      "label": "Custom Runtimes",
+      "topicId": "KWjIAakMIlxn_jso22h0M",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-aU1lv80xXNkQTD41Qfln5",
+      "label": "Data Modeling",
+      "topicId": "aU1lv80xXNkQTD41Qfln5",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-l9oq3LiEd8ZrPtupPk-Fn",
+      "label": "DB Instances",
+      "topicId": "l9oq3LiEd8ZrPtupPk-Fn",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-pnX1dfkjS8woWc4KGXlh_",
+      "label": "Dedicated IP",
+      "topicId": "pnX1dfkjS8woWc4KGXlh_",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-fAK7GRKunmoidlD32OBma",
+      "label": "Distributions",
+      "topicId": "fAK7GRKunmoidlD32OBma",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-zwVd1vNm1ks6MdHZoi-5W",
+      "label": "DKIM Setup",
+      "topicId": "zwVd1vNm1ks6MdHZoi-5W",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-yauCWo1VoG-X483-4mfdn",
+      "label": "DynamoDB Local",
+      "topicId": "yauCWo1VoG-X483-4mfdn",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-wGb0TEDnSe_bmv9Krx4qB",
+      "label": "DynamoDB",
+      "topicId": "wGb0TEDnSe_bmv9Krx4qB",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-cL7vis8H5L2vv6LqJ5wvC",
+      "label": "EC2",
+      "topicId": "cL7vis8H5L2vv6LqJ5wvC",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-_c_Wq84yIu4ac7e0RzDtC",
+      "label": "ECR",
+      "topicId": "_c_Wq84yIu4ac7e0RzDtC",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-EqUT0wpdPRDGtGAZ7nneY",
+      "label": "ECS",
+      "topicId": "EqUT0wpdPRDGtGAZ7nneY",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-kvHzEDZQV72AUjqisg8PB",
+      "label": "EKS",
+      "topicId": "kvHzEDZQV72AUjqisg8PB",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-DCvkZSp25pjaimG0THLTu",
+      "label": "Elastic IP",
+      "topicId": "DCvkZSp25pjaimG0THLTu",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-YAZPKMbmrxYNqF6alXMyL",
+      "label": "Elastic Load Balancers",
+      "topicId": "YAZPKMbmrxYNqF6alXMyL",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-9TcYdsdmvKWWHoyE6uNbC",
+      "label": "ElastiCache",
+      "topicId": "9TcYdsdmvKWWHoyE6uNbC",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-0CUfDEMwCwSHVdqkP8lOG",
+      "label": "Event Bridge / Scheduled Execution",
+      "topicId": "0CUfDEMwCwSHVdqkP8lOG",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-tHQ6NRVDPCPEOmzgjQDLX",
+      "label": "Events",
+      "topicId": "tHQ6NRVDPCPEOmzgjQDLX",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-OI8y54RhFpfS_l1L9VTZe",
+      "label": "Fargate",
+      "topicId": "OI8y54RhFpfS_l1L9VTZe",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-0NWTFssjg9SbDXQRkN5kF",
+      "label": "Feedback Handling",
+      "topicId": "0NWTFssjg9SbDXQRkN5kF",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-uo5HIyePegnJooortvWLu",
+      "label": "General Purpose",
+      "topicId": "uo5HIyePegnJooortvWLu",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-IikKYP58sT2H1lM8glm-g",
+      "label": "Glacier",
+      "topicId": "IikKYP58sT2H1lM8glm-g",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-LXG_znJ3XzPAlDxUH2-Xp",
+      "label": "Health checks",
+      "topicId": "LXG_znJ3XzPAlDxUH2-Xp",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-z-o-2cGYSM6KW_CNJyw3p",
+      "label": "Hosted Zones",
+      "topicId": "z-o-2cGYSM6KW_CNJyw3p",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-i4ijY3T5gLgNz0XqRipXe",
+      "label": "IaaS vs PaaS vs SaaS",
+      "topicId": "i4ijY3T5gLgNz0XqRipXe",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-xmKeB4hEi2DunmhAsvS1X",
+      "label": "IAM",
+      "topicId": "xmKeB4hEi2DunmhAsvS1X",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-cwGuOrmbSTcSoH80skLTk",
+      "label": "Identity-Based",
+      "topicId": "cwGuOrmbSTcSoH80skLTk",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-bTCVHXPG-LtaaFmgiB2SL",
+      "label": "Identity Verification",
+      "topicId": "bTCVHXPG-LtaaFmgiB2SL",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-i7X1GfOx5AZYFskepW4Zr",
+      "label": "Instance Profiles",
+      "topicId": "i7X1GfOx5AZYFskepW4Zr",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-VHD2ISW9WoSWjp8Hh6Zft",
+      "label": "Instance Types",
+      "topicId": "VHD2ISW9WoSWjp8Hh6Zft",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-Le8yOJzpzxH1xgd7XEU2B",
+      "label": "Internet Gateway",
+      "topicId": "Le8yOJzpzxH1xgd7XEU2B",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-Dg1v9TV-wGSNLPfAals_y",
+      "label": "Introduction to AWS",
+      "topicId": "Dg1v9TV-wGSNLPfAals_y",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-Py9nst2FDJ1_hoXeX_qSF",
+      "label": "Introduction",
+      "topicId": "Py9nst2FDJ1_hoXeX_qSF",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-hRXbAADgRTXEFwbBXeNu7",
+      "label": "Invalidations",
+      "topicId": "hRXbAADgRTXEFwbBXeNu7",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-wFT-fddGn__DRoqG0joFk",
+      "label": "Keypairs",
+      "topicId": "wFT-fddGn__DRoqG0joFk",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-741vsAPTXJLVUlazFg0q4",
+      "label": "Lambda",
+      "topicId": "741vsAPTXJLVUlazFg0q4",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-5SF5nO94NFDkHY8UJoeAY",
+      "label": "Lambda Edge",
+      "topicId": "5SF5nO94NFDkHY8UJoeAY",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-1r2FL3OEOh0S9ee0OVnrN",
+      "label": "Launch Config / Autoscaling Groups",
+      "topicId": "1r2FL3OEOh0S9ee0OVnrN",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-K0GCk5_HDvP0_ZqsUc3tG",
+      "label": "Launch Templates",
+      "topicId": "K0GCk5_HDvP0_ZqsUc3tG",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-CL93C0NGFQmScVnftnRtO",
+      "label": "Layers",
+      "topicId": "CL93C0NGFQmScVnftnRtO",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-0ctJa-V6aenimSr5h303J",
+      "label": "Limits",
+      "topicId": "0ctJa-V6aenimSr5h303J",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-oC6KIjWAXw0hLl4FwkB9F",
+      "label": "Logs",
+      "topicId": "oC6KIjWAXw0hLl4FwkB9F",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-y0CoNcEFHyz350f7pNddt",
+      "label": "Magnetic",
+      "topicId": "y0CoNcEFHyz350f7pNddt",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-2vQPmVNk1QpMM-15RKG8b",
+      "label": "Metrics",
+      "topicId": "2vQPmVNk1QpMM-15RKG8b",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-6D-gs32jrCyvMVhr9PSAY",
+      "label": "NAT Gateway",
+      "topicId": "6D-gs32jrCyvMVhr9PSAY",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-dO9ZfUyNia7L_fCh4d0n7",
+      "label": "Policies",
+      "topicId": "dO9ZfUyNia7L_fCh4d0n7",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-eQAn3e-k9WNufPqOnwY_K",
+      "label": "Policies",
+      "topicId": "eQAn3e-k9WNufPqOnwY_K",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-oWtWgaFznTPJhQIyfIIQf",
+      "label": "Primary Keys / Secondary Indexes",
+      "topicId": "oWtWgaFznTPJhQIyfIIQf",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-ymuURDwW8JG3NSIXcl0FL",
+      "label": "Private Subnet",
+      "topicId": "ymuURDwW8JG3NSIXcl0FL",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-3l1ji4JToj277vpgONmLw",
+      "label": "Provisioned IOPS",
+      "topicId": "3l1ji4JToj277vpgONmLw",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-ABCH1rATHmecyWHyK3n-m",
+      "label": "Public Subnet",
+      "topicId": "ABCH1rATHmecyWHyK3n-m",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-3hatcMVLDbMuz73uTx-9P",
+      "label": "Public vs Private vs Hybrid Cloud",
+      "topicId": "3hatcMVLDbMuz73uTx-9P",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-8v9T6Y6JC7qaqIgkbT-nr",
+      "label": "Purchasing Options",
+      "topicId": "8v9T6Y6JC7qaqIgkbT-nr",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-PYgs4niQRlLKCBMfM4qf9",
+      "label": "Quotas",
+      "topicId": "PYgs4niQRlLKCBMfM4qf9",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-fkMF-2PQZ00UdwxhQt1ds",
+      "label": "RDS",
+      "topicId": "fkMF-2PQZ00UdwxhQt1ds",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-v_YmmlOk-DkzJ8mI5Ftgr",
+      "label": "Resource-Based",
+      "topicId": "v_YmmlOk-DkzJ8mI5Ftgr",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-7nI202hX41mI5ms9LZonh",
+      "label": "Roles",
+      "topicId": "7nI202hX41mI5ms9LZonh",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-FCdOnwQubhOnCFFnF8uJN",
+      "label": "Route Tables",
+      "topicId": "FCdOnwQubhOnCFFnF8uJN",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-f89qL7Cg9R_LTxBEG4jUK",
+      "label": "Route53",
+      "topicId": "f89qL7Cg9R_LTxBEG4jUK",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-IQhPG1La7dZeSXnX23D1n",
+      "label": "Routing Policies",
+      "topicId": "IQhPG1La7dZeSXnX23D1n",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-JlkLNQ8wRzGkjaootNKOD",
+      "label": "S3-IA",
+      "topicId": "JlkLNQ8wRzGkjaootNKOD",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-PN3xAYfQ-_QgZCRCnsEca",
+      "label": "S3",
+      "topicId": "PN3xAYfQ-_QgZCRCnsEca",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-kG7tlZjv_hJbHGooBkxS0",
+      "label": "Sandbox / Sending Limits",
+      "topicId": "kG7tlZjv_hJbHGooBkxS0",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-fRBaiw8Qx8kapzCphmM4v",
+      "label": "Scaling Policies",
+      "topicId": "fRBaiw8Qx8kapzCphmM4v",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-Cd9gdbkCFdrTLrnJMy5F3",
+      "label": "Security Groups",
+      "topicId": "Cd9gdbkCFdrTLrnJMy5F3",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-Vo_PBfB7LxYL27nBBVoVp",
+      "label": "Sender Reputation",
+      "topicId": "Vo_PBfB7LxYL27nBBVoVp",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-zSiSbIdBgFLBBAnp4I9vX",
+      "label": "Services",
+      "topicId": "zSiSbIdBgFLBBAnp4I9vX",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node--bwXo6xvF1yzyWEm5oZhJ",
+      "label": "SES",
+      "topicId": "-bwXo6xvF1yzyWEm5oZhJ",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-0flGtxZmxQKxO3c3sguwp",
+      "label": "Shared Responsibility Model",
+      "topicId": "0flGtxZmxQKxO3c3sguwp",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-Ll5FPCtkpYq_niJd7WoTC",
+      "label": "Standard",
+      "topicId": "Ll5FPCtkpYq_niJd7WoTC",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-A0u7CJwj5ULAMiAm12vZI",
+      "label": "Storage / Volumes",
+      "topicId": "A0u7CJwj5ULAMiAm12vZI",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-PJaAqax4fABnkObY5UwNp",
+      "label": "Storage Types",
+      "topicId": "PJaAqax4fABnkObY5UwNp",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-Xs057ESpvxXg2r_rDQnOa",
+      "label": "Storage Types",
+      "topicId": "Xs057ESpvxXg2r_rDQnOa",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-0C3GCGdSXozJK2MNeWerg",
+      "label": "Streams",
+      "topicId": "0C3GCGdSXozJK2MNeWerg",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-Y64TE0U20kllmykjdfhHp",
+      "label": "Subnets",
+      "topicId": "Y64TE0U20kllmykjdfhHp",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-DN_iuLo9gYDqU8JleE1WJ",
+      "label": "Tables / Items / Attributes",
+      "topicId": "DN_iuLo9gYDqU8JleE1WJ",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5040
+      }
+    },
+    {
+      "id": "node-1lHXxpoF11yE3rfoQCbTG",
+      "label": "Tasks",
+      "topicId": "1lHXxpoF11yE3rfoQCbTG",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5040
+      }
+    },
+    {
+      "id": "node-ZKjjgXZ89zV2atWcSal-s",
+      "label": "User Data Scripts",
+      "topicId": "ZKjjgXZ89zV2atWcSal-s",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5040
+      }
+    },
+    {
+      "id": "node-Nn2zawk6A31NwZa40jOhX",
+      "label": "Users / User Groups",
+      "topicId": "Nn2zawk6A31NwZa40jOhX",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5200
+      }
+    },
+    {
+      "id": "node-75ZjuGozDfoZPLj32P2t2",
+      "label": "Versioning / Aliases",
+      "topicId": "75ZjuGozDfoZPLj32P2t2",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5200
+      }
+    },
+    {
+      "id": "node-Sv2aT8eI1RvJhvoKVYQEX",
+      "label": "VPC",
+      "topicId": "Sv2aT8eI1RvJhvoKVYQEX",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5200
+      }
+    },
+    {
+      "id": "node-eKuC7VmkGVYFnbC2Rvn8D",
+      "label": "Well Architected Framework",
+      "topicId": "eKuC7VmkGVYFnbC2Rvn8D",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5360
+      }
+    },
+    {
+      "id": "node-74JxgfJ_1qmVNZ_QRp9Ne",
+      "label": "What is Cloud Computing?",
+      "topicId": "74JxgfJ_1qmVNZ_QRp9Ne",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5360
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-node-AfagmWcllSi81D2XIQz0V-node-T0dvezPWX6rAiKweT0TkG",
+      "source": "node-AfagmWcllSi81D2XIQz0V",
+      "target": "node-T0dvezPWX6rAiKweT0TkG",
+      "animated": true
+    },
+    {
+      "id": "edge-node-T0dvezPWX6rAiKweT0TkG-node-0IMdO7g_5El1elvDXJJ_0",
+      "source": "node-T0dvezPWX6rAiKweT0TkG",
+      "target": "node-0IMdO7g_5El1elvDXJJ_0",
+      "animated": true
+    },
+    {
+      "id": "edge-node-0IMdO7g_5El1elvDXJJ_0-node-gBKHVG7FvlCEgINKmw00s",
+      "source": "node-0IMdO7g_5El1elvDXJJ_0",
+      "target": "node-gBKHVG7FvlCEgINKmw00s",
+      "animated": true
+    },
+    {
+      "id": "edge-node-gBKHVG7FvlCEgINKmw00s-node-dOAZG-NbjWiVdPKYEhWxj",
+      "source": "node-gBKHVG7FvlCEgINKmw00s",
+      "target": "node-dOAZG-NbjWiVdPKYEhWxj",
+      "animated": true
+    },
+    {
+      "id": "edge-node-dOAZG-NbjWiVdPKYEhWxj-node-z9R1BWUGalmnw0E7QqiW6",
+      "source": "node-dOAZG-NbjWiVdPKYEhWxj",
+      "target": "node-z9R1BWUGalmnw0E7QqiW6",
+      "animated": true
+    },
+    {
+      "id": "edge-node-z9R1BWUGalmnw0E7QqiW6-node-NWvasq-AcwxmOKZPDv3ue",
+      "source": "node-z9R1BWUGalmnw0E7QqiW6",
+      "target": "node-NWvasq-AcwxmOKZPDv3ue",
+      "animated": true
+    },
+    {
+      "id": "edge-node-NWvasq-AcwxmOKZPDv3ue-node-tBKc7tHOiJaTmwEl3q--Y",
+      "source": "node-NWvasq-AcwxmOKZPDv3ue",
+      "target": "node-tBKc7tHOiJaTmwEl3q--Y",
+      "animated": true
+    },
+    {
+      "id": "edge-node-tBKc7tHOiJaTmwEl3q--Y-node-8i6zpjkMC_Pg-tDNmrx4n",
+      "source": "node-tBKc7tHOiJaTmwEl3q--Y",
+      "target": "node-8i6zpjkMC_Pg-tDNmrx4n",
+      "animated": true
+    },
+    {
+      "id": "edge-node-8i6zpjkMC_Pg-tDNmrx4n-node-rTgjDj5HqbjRpcJ7PR-EC",
+      "source": "node-8i6zpjkMC_Pg-tDNmrx4n",
+      "target": "node-rTgjDj5HqbjRpcJ7PR-EC",
+      "animated": true
+    },
+    {
+      "id": "edge-node-rTgjDj5HqbjRpcJ7PR-EC-node-KtXww9J0znwzTwL7GKfaY",
+      "source": "node-rTgjDj5HqbjRpcJ7PR-EC",
+      "target": "node-KtXww9J0znwzTwL7GKfaY",
+      "animated": true
+    },
+    {
+      "id": "edge-node-KtXww9J0znwzTwL7GKfaY-node-2hFBv2fhKDYBN-9ITs82J",
+      "source": "node-KtXww9J0znwzTwL7GKfaY",
+      "target": "node-2hFBv2fhKDYBN-9ITs82J",
+      "animated": true
+    },
+    {
+      "id": "edge-node-2hFBv2fhKDYBN-9ITs82J-node-zFgnu2fL0EUKIMz9tVH1j",
+      "source": "node-2hFBv2fhKDYBN-9ITs82J",
+      "target": "node-zFgnu2fL0EUKIMz9tVH1j",
+      "animated": true
+    },
+    {
+      "id": "edge-node-zFgnu2fL0EUKIMz9tVH1j-node-VAYxwJH10PFjGS8poKd9-",
+      "source": "node-zFgnu2fL0EUKIMz9tVH1j",
+      "target": "node-VAYxwJH10PFjGS8poKd9-",
+      "animated": true
+    },
+    {
+      "id": "edge-node-VAYxwJH10PFjGS8poKd9--node-PphzNicIJawVElmY5rn8f",
+      "source": "node-VAYxwJH10PFjGS8poKd9-",
+      "target": "node-PphzNicIJawVElmY5rn8f",
+      "animated": true
+    },
+    {
+      "id": "edge-node-PphzNicIJawVElmY5rn8f-node-EuOv19jDSj56Cy7PqvtNv",
+      "source": "node-PphzNicIJawVElmY5rn8f",
+      "target": "node-EuOv19jDSj56Cy7PqvtNv",
+      "animated": true
+    },
+    {
+      "id": "edge-node-EuOv19jDSj56Cy7PqvtNv-node-4svXYQYmqjUZU39z8OyhD",
+      "source": "node-EuOv19jDSj56Cy7PqvtNv",
+      "target": "node-4svXYQYmqjUZU39z8OyhD",
+      "animated": true
+    },
+    {
+      "id": "edge-node-4svXYQYmqjUZU39z8OyhD-node-_U2bKjxIrAAk7TMrPttpb",
+      "source": "node-4svXYQYmqjUZU39z8OyhD",
+      "target": "node-_U2bKjxIrAAk7TMrPttpb",
+      "animated": true
+    },
+    {
+      "id": "edge-node-_U2bKjxIrAAk7TMrPttpb-node-SdCNevKjyhFcreMSWY6BT",
+      "source": "node-_U2bKjxIrAAk7TMrPttpb",
+      "target": "node-SdCNevKjyhFcreMSWY6BT",
+      "animated": true
+    },
+    {
+      "id": "edge-node-SdCNevKjyhFcreMSWY6BT-node-KWjIAakMIlxn_jso22h0M",
+      "source": "node-SdCNevKjyhFcreMSWY6BT",
+      "target": "node-KWjIAakMIlxn_jso22h0M",
+      "animated": true
+    },
+    {
+      "id": "edge-node-KWjIAakMIlxn_jso22h0M-node-aU1lv80xXNkQTD41Qfln5",
+      "source": "node-KWjIAakMIlxn_jso22h0M",
+      "target": "node-aU1lv80xXNkQTD41Qfln5",
+      "animated": true
+    },
+    {
+      "id": "edge-node-aU1lv80xXNkQTD41Qfln5-node-l9oq3LiEd8ZrPtupPk-Fn",
+      "source": "node-aU1lv80xXNkQTD41Qfln5",
+      "target": "node-l9oq3LiEd8ZrPtupPk-Fn",
+      "animated": true
+    },
+    {
+      "id": "edge-node-l9oq3LiEd8ZrPtupPk-Fn-node-pnX1dfkjS8woWc4KGXlh_",
+      "source": "node-l9oq3LiEd8ZrPtupPk-Fn",
+      "target": "node-pnX1dfkjS8woWc4KGXlh_",
+      "animated": true
+    },
+    {
+      "id": "edge-node-pnX1dfkjS8woWc4KGXlh_-node-fAK7GRKunmoidlD32OBma",
+      "source": "node-pnX1dfkjS8woWc4KGXlh_",
+      "target": "node-fAK7GRKunmoidlD32OBma",
+      "animated": true
+    },
+    {
+      "id": "edge-node-fAK7GRKunmoidlD32OBma-node-zwVd1vNm1ks6MdHZoi-5W",
+      "source": "node-fAK7GRKunmoidlD32OBma",
+      "target": "node-zwVd1vNm1ks6MdHZoi-5W",
+      "animated": true
+    },
+    {
+      "id": "edge-node-zwVd1vNm1ks6MdHZoi-5W-node-yauCWo1VoG-X483-4mfdn",
+      "source": "node-zwVd1vNm1ks6MdHZoi-5W",
+      "target": "node-yauCWo1VoG-X483-4mfdn",
+      "animated": true
+    },
+    {
+      "id": "edge-node-yauCWo1VoG-X483-4mfdn-node-wGb0TEDnSe_bmv9Krx4qB",
+      "source": "node-yauCWo1VoG-X483-4mfdn",
+      "target": "node-wGb0TEDnSe_bmv9Krx4qB",
+      "animated": true
+    },
+    {
+      "id": "edge-node-wGb0TEDnSe_bmv9Krx4qB-node-cL7vis8H5L2vv6LqJ5wvC",
+      "source": "node-wGb0TEDnSe_bmv9Krx4qB",
+      "target": "node-cL7vis8H5L2vv6LqJ5wvC",
+      "animated": true
+    },
+    {
+      "id": "edge-node-cL7vis8H5L2vv6LqJ5wvC-node-_c_Wq84yIu4ac7e0RzDtC",
+      "source": "node-cL7vis8H5L2vv6LqJ5wvC",
+      "target": "node-_c_Wq84yIu4ac7e0RzDtC",
+      "animated": true
+    },
+    {
+      "id": "edge-node-_c_Wq84yIu4ac7e0RzDtC-node-EqUT0wpdPRDGtGAZ7nneY",
+      "source": "node-_c_Wq84yIu4ac7e0RzDtC",
+      "target": "node-EqUT0wpdPRDGtGAZ7nneY",
+      "animated": true
+    },
+    {
+      "id": "edge-node-EqUT0wpdPRDGtGAZ7nneY-node-kvHzEDZQV72AUjqisg8PB",
+      "source": "node-EqUT0wpdPRDGtGAZ7nneY",
+      "target": "node-kvHzEDZQV72AUjqisg8PB",
+      "animated": true
+    },
+    {
+      "id": "edge-node-kvHzEDZQV72AUjqisg8PB-node-DCvkZSp25pjaimG0THLTu",
+      "source": "node-kvHzEDZQV72AUjqisg8PB",
+      "target": "node-DCvkZSp25pjaimG0THLTu",
+      "animated": true
+    },
+    {
+      "id": "edge-node-DCvkZSp25pjaimG0THLTu-node-YAZPKMbmrxYNqF6alXMyL",
+      "source": "node-DCvkZSp25pjaimG0THLTu",
+      "target": "node-YAZPKMbmrxYNqF6alXMyL",
+      "animated": true
+    },
+    {
+      "id": "edge-node-YAZPKMbmrxYNqF6alXMyL-node-9TcYdsdmvKWWHoyE6uNbC",
+      "source": "node-YAZPKMbmrxYNqF6alXMyL",
+      "target": "node-9TcYdsdmvKWWHoyE6uNbC",
+      "animated": true
+    },
+    {
+      "id": "edge-node-9TcYdsdmvKWWHoyE6uNbC-node-0CUfDEMwCwSHVdqkP8lOG",
+      "source": "node-9TcYdsdmvKWWHoyE6uNbC",
+      "target": "node-0CUfDEMwCwSHVdqkP8lOG",
+      "animated": true
+    },
+    {
+      "id": "edge-node-0CUfDEMwCwSHVdqkP8lOG-node-tHQ6NRVDPCPEOmzgjQDLX",
+      "source": "node-0CUfDEMwCwSHVdqkP8lOG",
+      "target": "node-tHQ6NRVDPCPEOmzgjQDLX",
+      "animated": true
+    },
+    {
+      "id": "edge-node-tHQ6NRVDPCPEOmzgjQDLX-node-OI8y54RhFpfS_l1L9VTZe",
+      "source": "node-tHQ6NRVDPCPEOmzgjQDLX",
+      "target": "node-OI8y54RhFpfS_l1L9VTZe",
+      "animated": true
+    },
+    {
+      "id": "edge-node-OI8y54RhFpfS_l1L9VTZe-node-0NWTFssjg9SbDXQRkN5kF",
+      "source": "node-OI8y54RhFpfS_l1L9VTZe",
+      "target": "node-0NWTFssjg9SbDXQRkN5kF",
+      "animated": true
+    },
+    {
+      "id": "edge-node-0NWTFssjg9SbDXQRkN5kF-node-uo5HIyePegnJooortvWLu",
+      "source": "node-0NWTFssjg9SbDXQRkN5kF",
+      "target": "node-uo5HIyePegnJooortvWLu",
+      "animated": true
+    },
+    {
+      "id": "edge-node-uo5HIyePegnJooortvWLu-node-IikKYP58sT2H1lM8glm-g",
+      "source": "node-uo5HIyePegnJooortvWLu",
+      "target": "node-IikKYP58sT2H1lM8glm-g",
+      "animated": true
+    },
+    {
+      "id": "edge-node-IikKYP58sT2H1lM8glm-g-node-LXG_znJ3XzPAlDxUH2-Xp",
+      "source": "node-IikKYP58sT2H1lM8glm-g",
+      "target": "node-LXG_znJ3XzPAlDxUH2-Xp",
+      "animated": true
+    },
+    {
+      "id": "edge-node-LXG_znJ3XzPAlDxUH2-Xp-node-z-o-2cGYSM6KW_CNJyw3p",
+      "source": "node-LXG_znJ3XzPAlDxUH2-Xp",
+      "target": "node-z-o-2cGYSM6KW_CNJyw3p",
+      "animated": true
+    },
+    {
+      "id": "edge-node-z-o-2cGYSM6KW_CNJyw3p-node-i4ijY3T5gLgNz0XqRipXe",
+      "source": "node-z-o-2cGYSM6KW_CNJyw3p",
+      "target": "node-i4ijY3T5gLgNz0XqRipXe",
+      "animated": true
+    },
+    {
+      "id": "edge-node-i4ijY3T5gLgNz0XqRipXe-node-xmKeB4hEi2DunmhAsvS1X",
+      "source": "node-i4ijY3T5gLgNz0XqRipXe",
+      "target": "node-xmKeB4hEi2DunmhAsvS1X",
+      "animated": true
+    },
+    {
+      "id": "edge-node-xmKeB4hEi2DunmhAsvS1X-node-cwGuOrmbSTcSoH80skLTk",
+      "source": "node-xmKeB4hEi2DunmhAsvS1X",
+      "target": "node-cwGuOrmbSTcSoH80skLTk",
+      "animated": true
+    },
+    {
+      "id": "edge-node-cwGuOrmbSTcSoH80skLTk-node-bTCVHXPG-LtaaFmgiB2SL",
+      "source": "node-cwGuOrmbSTcSoH80skLTk",
+      "target": "node-bTCVHXPG-LtaaFmgiB2SL",
+      "animated": true
+    },
+    {
+      "id": "edge-node-bTCVHXPG-LtaaFmgiB2SL-node-i7X1GfOx5AZYFskepW4Zr",
+      "source": "node-bTCVHXPG-LtaaFmgiB2SL",
+      "target": "node-i7X1GfOx5AZYFskepW4Zr",
+      "animated": true
+    },
+    {
+      "id": "edge-node-i7X1GfOx5AZYFskepW4Zr-node-VHD2ISW9WoSWjp8Hh6Zft",
+      "source": "node-i7X1GfOx5AZYFskepW4Zr",
+      "target": "node-VHD2ISW9WoSWjp8Hh6Zft",
+      "animated": true
+    },
+    {
+      "id": "edge-node-VHD2ISW9WoSWjp8Hh6Zft-node-Le8yOJzpzxH1xgd7XEU2B",
+      "source": "node-VHD2ISW9WoSWjp8Hh6Zft",
+      "target": "node-Le8yOJzpzxH1xgd7XEU2B",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Le8yOJzpzxH1xgd7XEU2B-node-Dg1v9TV-wGSNLPfAals_y",
+      "source": "node-Le8yOJzpzxH1xgd7XEU2B",
+      "target": "node-Dg1v9TV-wGSNLPfAals_y",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Dg1v9TV-wGSNLPfAals_y-node-Py9nst2FDJ1_hoXeX_qSF",
+      "source": "node-Dg1v9TV-wGSNLPfAals_y",
+      "target": "node-Py9nst2FDJ1_hoXeX_qSF",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Py9nst2FDJ1_hoXeX_qSF-node-hRXbAADgRTXEFwbBXeNu7",
+      "source": "node-Py9nst2FDJ1_hoXeX_qSF",
+      "target": "node-hRXbAADgRTXEFwbBXeNu7",
+      "animated": true
+    },
+    {
+      "id": "edge-node-hRXbAADgRTXEFwbBXeNu7-node-wFT-fddGn__DRoqG0joFk",
+      "source": "node-hRXbAADgRTXEFwbBXeNu7",
+      "target": "node-wFT-fddGn__DRoqG0joFk",
+      "animated": true
+    },
+    {
+      "id": "edge-node-wFT-fddGn__DRoqG0joFk-node-741vsAPTXJLVUlazFg0q4",
+      "source": "node-wFT-fddGn__DRoqG0joFk",
+      "target": "node-741vsAPTXJLVUlazFg0q4",
+      "animated": true
+    },
+    {
+      "id": "edge-node-741vsAPTXJLVUlazFg0q4-node-5SF5nO94NFDkHY8UJoeAY",
+      "source": "node-741vsAPTXJLVUlazFg0q4",
+      "target": "node-5SF5nO94NFDkHY8UJoeAY",
+      "animated": true
+    },
+    {
+      "id": "edge-node-5SF5nO94NFDkHY8UJoeAY-node-1r2FL3OEOh0S9ee0OVnrN",
+      "source": "node-5SF5nO94NFDkHY8UJoeAY",
+      "target": "node-1r2FL3OEOh0S9ee0OVnrN",
+      "animated": true
+    },
+    {
+      "id": "edge-node-1r2FL3OEOh0S9ee0OVnrN-node-K0GCk5_HDvP0_ZqsUc3tG",
+      "source": "node-1r2FL3OEOh0S9ee0OVnrN",
+      "target": "node-K0GCk5_HDvP0_ZqsUc3tG",
+      "animated": true
+    },
+    {
+      "id": "edge-node-K0GCk5_HDvP0_ZqsUc3tG-node-CL93C0NGFQmScVnftnRtO",
+      "source": "node-K0GCk5_HDvP0_ZqsUc3tG",
+      "target": "node-CL93C0NGFQmScVnftnRtO",
+      "animated": true
+    },
+    {
+      "id": "edge-node-CL93C0NGFQmScVnftnRtO-node-0ctJa-V6aenimSr5h303J",
+      "source": "node-CL93C0NGFQmScVnftnRtO",
+      "target": "node-0ctJa-V6aenimSr5h303J",
+      "animated": true
+    },
+    {
+      "id": "edge-node-0ctJa-V6aenimSr5h303J-node-oC6KIjWAXw0hLl4FwkB9F",
+      "source": "node-0ctJa-V6aenimSr5h303J",
+      "target": "node-oC6KIjWAXw0hLl4FwkB9F",
+      "animated": true
+    },
+    {
+      "id": "edge-node-oC6KIjWAXw0hLl4FwkB9F-node-y0CoNcEFHyz350f7pNddt",
+      "source": "node-oC6KIjWAXw0hLl4FwkB9F",
+      "target": "node-y0CoNcEFHyz350f7pNddt",
+      "animated": true
+    },
+    {
+      "id": "edge-node-y0CoNcEFHyz350f7pNddt-node-2vQPmVNk1QpMM-15RKG8b",
+      "source": "node-y0CoNcEFHyz350f7pNddt",
+      "target": "node-2vQPmVNk1QpMM-15RKG8b",
+      "animated": true
+    },
+    {
+      "id": "edge-node-2vQPmVNk1QpMM-15RKG8b-node-6D-gs32jrCyvMVhr9PSAY",
+      "source": "node-2vQPmVNk1QpMM-15RKG8b",
+      "target": "node-6D-gs32jrCyvMVhr9PSAY",
+      "animated": true
+    },
+    {
+      "id": "edge-node-6D-gs32jrCyvMVhr9PSAY-node-dO9ZfUyNia7L_fCh4d0n7",
+      "source": "node-6D-gs32jrCyvMVhr9PSAY",
+      "target": "node-dO9ZfUyNia7L_fCh4d0n7",
+      "animated": true
+    },
+    {
+      "id": "edge-node-dO9ZfUyNia7L_fCh4d0n7-node-eQAn3e-k9WNufPqOnwY_K",
+      "source": "node-dO9ZfUyNia7L_fCh4d0n7",
+      "target": "node-eQAn3e-k9WNufPqOnwY_K",
+      "animated": true
+    },
+    {
+      "id": "edge-node-eQAn3e-k9WNufPqOnwY_K-node-oWtWgaFznTPJhQIyfIIQf",
+      "source": "node-eQAn3e-k9WNufPqOnwY_K",
+      "target": "node-oWtWgaFznTPJhQIyfIIQf",
+      "animated": true
+    },
+    {
+      "id": "edge-node-oWtWgaFznTPJhQIyfIIQf-node-ymuURDwW8JG3NSIXcl0FL",
+      "source": "node-oWtWgaFznTPJhQIyfIIQf",
+      "target": "node-ymuURDwW8JG3NSIXcl0FL",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ymuURDwW8JG3NSIXcl0FL-node-3l1ji4JToj277vpgONmLw",
+      "source": "node-ymuURDwW8JG3NSIXcl0FL",
+      "target": "node-3l1ji4JToj277vpgONmLw",
+      "animated": true
+    },
+    {
+      "id": "edge-node-3l1ji4JToj277vpgONmLw-node-ABCH1rATHmecyWHyK3n-m",
+      "source": "node-3l1ji4JToj277vpgONmLw",
+      "target": "node-ABCH1rATHmecyWHyK3n-m",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ABCH1rATHmecyWHyK3n-m-node-3hatcMVLDbMuz73uTx-9P",
+      "source": "node-ABCH1rATHmecyWHyK3n-m",
+      "target": "node-3hatcMVLDbMuz73uTx-9P",
+      "animated": true
+    },
+    {
+      "id": "edge-node-3hatcMVLDbMuz73uTx-9P-node-8v9T6Y6JC7qaqIgkbT-nr",
+      "source": "node-3hatcMVLDbMuz73uTx-9P",
+      "target": "node-8v9T6Y6JC7qaqIgkbT-nr",
+      "animated": true
+    },
+    {
+      "id": "edge-node-8v9T6Y6JC7qaqIgkbT-nr-node-PYgs4niQRlLKCBMfM4qf9",
+      "source": "node-8v9T6Y6JC7qaqIgkbT-nr",
+      "target": "node-PYgs4niQRlLKCBMfM4qf9",
+      "animated": true
+    },
+    {
+      "id": "edge-node-PYgs4niQRlLKCBMfM4qf9-node-fkMF-2PQZ00UdwxhQt1ds",
+      "source": "node-PYgs4niQRlLKCBMfM4qf9",
+      "target": "node-fkMF-2PQZ00UdwxhQt1ds",
+      "animated": true
+    },
+    {
+      "id": "edge-node-fkMF-2PQZ00UdwxhQt1ds-node-v_YmmlOk-DkzJ8mI5Ftgr",
+      "source": "node-fkMF-2PQZ00UdwxhQt1ds",
+      "target": "node-v_YmmlOk-DkzJ8mI5Ftgr",
+      "animated": true
+    },
+    {
+      "id": "edge-node-v_YmmlOk-DkzJ8mI5Ftgr-node-7nI202hX41mI5ms9LZonh",
+      "source": "node-v_YmmlOk-DkzJ8mI5Ftgr",
+      "target": "node-7nI202hX41mI5ms9LZonh",
+      "animated": true
+    },
+    {
+      "id": "edge-node-7nI202hX41mI5ms9LZonh-node-FCdOnwQubhOnCFFnF8uJN",
+      "source": "node-7nI202hX41mI5ms9LZonh",
+      "target": "node-FCdOnwQubhOnCFFnF8uJN",
+      "animated": true
+    },
+    {
+      "id": "edge-node-FCdOnwQubhOnCFFnF8uJN-node-f89qL7Cg9R_LTxBEG4jUK",
+      "source": "node-FCdOnwQubhOnCFFnF8uJN",
+      "target": "node-f89qL7Cg9R_LTxBEG4jUK",
+      "animated": true
+    },
+    {
+      "id": "edge-node-f89qL7Cg9R_LTxBEG4jUK-node-IQhPG1La7dZeSXnX23D1n",
+      "source": "node-f89qL7Cg9R_LTxBEG4jUK",
+      "target": "node-IQhPG1La7dZeSXnX23D1n",
+      "animated": true
+    },
+    {
+      "id": "edge-node-IQhPG1La7dZeSXnX23D1n-node-JlkLNQ8wRzGkjaootNKOD",
+      "source": "node-IQhPG1La7dZeSXnX23D1n",
+      "target": "node-JlkLNQ8wRzGkjaootNKOD",
+      "animated": true
+    },
+    {
+      "id": "edge-node-JlkLNQ8wRzGkjaootNKOD-node-PN3xAYfQ-_QgZCRCnsEca",
+      "source": "node-JlkLNQ8wRzGkjaootNKOD",
+      "target": "node-PN3xAYfQ-_QgZCRCnsEca",
+      "animated": true
+    },
+    {
+      "id": "edge-node-PN3xAYfQ-_QgZCRCnsEca-node-kG7tlZjv_hJbHGooBkxS0",
+      "source": "node-PN3xAYfQ-_QgZCRCnsEca",
+      "target": "node-kG7tlZjv_hJbHGooBkxS0",
+      "animated": true
+    },
+    {
+      "id": "edge-node-kG7tlZjv_hJbHGooBkxS0-node-fRBaiw8Qx8kapzCphmM4v",
+      "source": "node-kG7tlZjv_hJbHGooBkxS0",
+      "target": "node-fRBaiw8Qx8kapzCphmM4v",
+      "animated": true
+    },
+    {
+      "id": "edge-node-fRBaiw8Qx8kapzCphmM4v-node-Cd9gdbkCFdrTLrnJMy5F3",
+      "source": "node-fRBaiw8Qx8kapzCphmM4v",
+      "target": "node-Cd9gdbkCFdrTLrnJMy5F3",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Cd9gdbkCFdrTLrnJMy5F3-node-Vo_PBfB7LxYL27nBBVoVp",
+      "source": "node-Cd9gdbkCFdrTLrnJMy5F3",
+      "target": "node-Vo_PBfB7LxYL27nBBVoVp",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Vo_PBfB7LxYL27nBBVoVp-node-zSiSbIdBgFLBBAnp4I9vX",
+      "source": "node-Vo_PBfB7LxYL27nBBVoVp",
+      "target": "node-zSiSbIdBgFLBBAnp4I9vX",
+      "animated": true
+    },
+    {
+      "id": "edge-node-zSiSbIdBgFLBBAnp4I9vX-node--bwXo6xvF1yzyWEm5oZhJ",
+      "source": "node-zSiSbIdBgFLBBAnp4I9vX",
+      "target": "node--bwXo6xvF1yzyWEm5oZhJ",
+      "animated": true
+    },
+    {
+      "id": "edge-node--bwXo6xvF1yzyWEm5oZhJ-node-0flGtxZmxQKxO3c3sguwp",
+      "source": "node--bwXo6xvF1yzyWEm5oZhJ",
+      "target": "node-0flGtxZmxQKxO3c3sguwp",
+      "animated": true
+    },
+    {
+      "id": "edge-node-0flGtxZmxQKxO3c3sguwp-node-Ll5FPCtkpYq_niJd7WoTC",
+      "source": "node-0flGtxZmxQKxO3c3sguwp",
+      "target": "node-Ll5FPCtkpYq_niJd7WoTC",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Ll5FPCtkpYq_niJd7WoTC-node-A0u7CJwj5ULAMiAm12vZI",
+      "source": "node-Ll5FPCtkpYq_niJd7WoTC",
+      "target": "node-A0u7CJwj5ULAMiAm12vZI",
+      "animated": true
+    },
+    {
+      "id": "edge-node-A0u7CJwj5ULAMiAm12vZI-node-PJaAqax4fABnkObY5UwNp",
+      "source": "node-A0u7CJwj5ULAMiAm12vZI",
+      "target": "node-PJaAqax4fABnkObY5UwNp",
+      "animated": true
+    },
+    {
+      "id": "edge-node-PJaAqax4fABnkObY5UwNp-node-Xs057ESpvxXg2r_rDQnOa",
+      "source": "node-PJaAqax4fABnkObY5UwNp",
+      "target": "node-Xs057ESpvxXg2r_rDQnOa",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Xs057ESpvxXg2r_rDQnOa-node-0C3GCGdSXozJK2MNeWerg",
+      "source": "node-Xs057ESpvxXg2r_rDQnOa",
+      "target": "node-0C3GCGdSXozJK2MNeWerg",
+      "animated": true
+    },
+    {
+      "id": "edge-node-0C3GCGdSXozJK2MNeWerg-node-Y64TE0U20kllmykjdfhHp",
+      "source": "node-0C3GCGdSXozJK2MNeWerg",
+      "target": "node-Y64TE0U20kllmykjdfhHp",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Y64TE0U20kllmykjdfhHp-node-DN_iuLo9gYDqU8JleE1WJ",
+      "source": "node-Y64TE0U20kllmykjdfhHp",
+      "target": "node-DN_iuLo9gYDqU8JleE1WJ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-DN_iuLo9gYDqU8JleE1WJ-node-1lHXxpoF11yE3rfoQCbTG",
+      "source": "node-DN_iuLo9gYDqU8JleE1WJ",
+      "target": "node-1lHXxpoF11yE3rfoQCbTG",
+      "animated": true
+    },
+    {
+      "id": "edge-node-1lHXxpoF11yE3rfoQCbTG-node-ZKjjgXZ89zV2atWcSal-s",
+      "source": "node-1lHXxpoF11yE3rfoQCbTG",
+      "target": "node-ZKjjgXZ89zV2atWcSal-s",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ZKjjgXZ89zV2atWcSal-s-node-Nn2zawk6A31NwZa40jOhX",
+      "source": "node-ZKjjgXZ89zV2atWcSal-s",
+      "target": "node-Nn2zawk6A31NwZa40jOhX",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Nn2zawk6A31NwZa40jOhX-node-75ZjuGozDfoZPLj32P2t2",
+      "source": "node-Nn2zawk6A31NwZa40jOhX",
+      "target": "node-75ZjuGozDfoZPLj32P2t2",
+      "animated": true
+    },
+    {
+      "id": "edge-node-75ZjuGozDfoZPLj32P2t2-node-Sv2aT8eI1RvJhvoKVYQEX",
+      "source": "node-75ZjuGozDfoZPLj32P2t2",
+      "target": "node-Sv2aT8eI1RvJhvoKVYQEX",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Sv2aT8eI1RvJhvoKVYQEX-node-eKuC7VmkGVYFnbC2Rvn8D",
+      "source": "node-Sv2aT8eI1RvJhvoKVYQEX",
+      "target": "node-eKuC7VmkGVYFnbC2Rvn8D",
+      "animated": true
+    },
+    {
+      "id": "edge-node-eKuC7VmkGVYFnbC2Rvn8D-node-74JxgfJ_1qmVNZ_QRp9Ne",
+      "source": "node-eKuC7VmkGVYFnbC2Rvn8D",
+      "target": "node-74JxgfJ_1qmVNZ_QRp9Ne",
+      "animated": true
+    }
+  ],
+  "topics": {
+    "AfagmWcllSi81D2XIQz0V": {
+      "id": "AfagmWcllSi81D2XIQz0V",
+      "slug": "amis",
+      "title": "AMIs",
+      "description": "Amazon Machine Images (AMIs) are pre-configured templates for EC2 instances. When you launch an instance in EC2, you start with an AMI. An AMI includes details such as the operating system to use, applications to install, and the volume type and size. AMIs can be either public or private — public AMIs are available for anyone to use, while private AMIs are only available to specific AWS accounts. You can create your own custom AMIs, enabling you to quickly start and replicate a known configuration for your EC2 instances.",
+      "resources": [
+        {
+          "id": "AfagmWcllSi81D2XIQz0V-res-1",
+          "type": "article",
+          "title": "AMIs",
+          "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIs.html"
+        }
+      ]
+    },
+    "T0dvezPWX6rAiKweT0TkG": {
+      "id": "T0dvezPWX6rAiKweT0TkG",
+      "slug": "api-gateway",
+      "title": "API Gateway",
+      "description": "AWS API Gateway is a fully-managed service that makes it easy to create, publish, maintain, monitor, and secure APIs at any scale. It acts as a \"front door\" for applications to access data, business logic, or functionality from your backend services, like workloads running on Amazon EC2, AWS Lambda, or any web application. API Gateway handles all the tasks involved in accepting and processing up to hundreds of thousands of concurrent API calls, including traffic management, authorization and access control, throttling, and API version management. It provides robust, native capabilities to deliver the API governance and lifecycle management capabilities your business needs to productize its APIs.",
+      "resources": [
+        {
+          "id": "T0dvezPWX6rAiKweT0TkG-res-1",
+          "type": "article",
+          "title": "AWS API Gateway",
+          "url": "https://aws.amazon.com/api-gateway/"
+        }
+      ]
+    },
+    "0IMdO7g_5El1elvDXJJ_0": {
+      "id": "0IMdO7g_5El1elvDXJJ_0",
+      "slug": "assuming-roles",
+      "title": "Assuming Roles",
+      "description": "Assuming roles in AWS allows one AWS identity to perform actions and access resources in another AWS account, without having to share security credentials. This is achieved using temporary security credentials. You assume a role by calling the `AWS Security Token Service (STS)` AssumeRole APIs, passing the ARN of the role to assume. After successfully assuming a role, STS returns temporary security credentials that you can use to make requests to any AWS service. The assumed role provides specific permissions that determine what the role user can and cannot do. Thus, users can switch between roles using AWS Management Console, AWS CLI, or AWS API.",
+      "resources": [
+        {
+          "id": "0IMdO7g_5El1elvDXJJ_0-res-1",
+          "type": "article",
+          "title": "Assuming Roles",
+          "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_manage-assume.html"
+        }
+      ]
+    },
+    "gBKHVG7FvlCEgINKmw00s": {
+      "id": "gBKHVG7FvlCEgINKmw00s",
+      "slug": "auto-scaling-groups",
+      "title": "Auto-Scaling Groups",
+      "description": "\"Autoscaling Groups\" in AWS, also known as Auto Scaling Groups (ASGs), are the main components used for scaling resources automatically according to your requirements in AWS. They contain a collection of Amazon Elastic Compute Cloud (EC2) instances that are treated as a logical grouping for the purpose of automatic scaling and management. The instances in an ASG are distributed across different availability zones in a region, ensuring a high level of fault tolerance. When defining an ASG, you specify its minimum, maximum, and desired number of EC2 instances. You also have to specify a launch configuration that determines what type of instances should be launched and from which Amazon Machine Image (AMI).",
+      "resources": [
+        {
+          "id": "gBKHVG7FvlCEgINKmw00s-res-1",
+          "type": "article",
+          "title": "Auto Scaling Groups",
+          "url": "https://docs.aws.amazon.com/eks/latest/best-practices/cas.html"
+        }
+      ]
+    },
+    "dOAZG-NbjWiVdPKYEhWxj": {
+      "id": "dOAZG-NbjWiVdPKYEhWxj",
+      "slug": "auto-scaling",
+      "title": "Auto-Scaling",
+      "description": "AWS Auto Scaling is a service that automatically scales resources to meet the demands of your applications. It uses policies, health status, and schedules to determine when to add more instances, ensuring that your application always has the right amount of capacity. AWS Auto Scaling can scale resources across multiple services and manage the scaling process in real time. It optimizes for cost and performance, and with the help of Amazon CloudWatch, it adjusts capacity based on the demand patterns of your workloads.",
+      "resources": [
+        {
+          "id": "dOAZG-NbjWiVdPKYEhWxj-res-1",
+          "type": "article",
+          "title": "AWS Autoscaling",
+          "url": "https://docs.aws.amazon.com/autoscaling/ec2/userguide/what-is-amazon-ec2-auto-scaling.html"
+        }
+      ]
+    },
+    "z9R1BWUGalmnw0E7QqiW6": {
+      "id": "z9R1BWUGalmnw0E7QqiW6",
+      "slug": "aws-global-infrastructure",
+      "title": "AWS Global Infrastructure",
+      "description": "AWS Global Infrastructure refers to the layout of AWS regions and availability zones around the world. A region is a geographical area, each consisting of two or more availability zones (AZs) which are engineered to be isolated from failures in other AZs. AZs provide inexpensive, low-latency network connectivity to other AZs in the same region. In addition to the regions and AZs, AWS also includes edge locations for content delivery and regional edge caches, enhancing user experience by reducing latency. AWS currently operates in many geographic regions around the world.",
+      "resources": [
+        {
+          "id": "z9R1BWUGalmnw0E7QqiW6-res-1",
+          "type": "article",
+          "title": "AWS Global Infrastructure",
+          "url": "https://aws.amazon.com/about-aws/global-infrastructure/?p=ngi&loc=0"
+        },
+        {
+          "id": "z9R1BWUGalmnw0E7QqiW6-res-2",
+          "type": "article",
+          "title": "AWS Regions / Availability Zones",
+          "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html"
+        }
+      ]
+    },
+    "NWvasq-AcwxmOKZPDv3ue": {
+      "id": "NWvasq-AcwxmOKZPDv3ue",
+      "slug": "backup--restore",
+      "title": "Backup / Restore",
+      "description": "In AWS, DynamoDB has built-in support for data backup and restore features. This includes both on-demand and continuous backups. On-demand backups allow you to create complete backups of your tables for long-term retention and archival, helping meet corporate and governmental regulatory requirements. Continuous backups enable you to restore your table data to any point in time in the last 35 days, thus offering protection from accidental writes or deletes. During a restore operation, you can choose to restore the data to a new DynamoDB table or overwrite data in an existing table. These backups include all necessary metadata, including DynamoDB global secondary indexes.",
+      "resources": [
+        {
+          "id": "NWvasq-AcwxmOKZPDv3ue-res-1",
+          "type": "article",
+          "title": "Backup & Restore",
+          "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Backup-and-Restore.html"
+        }
+      ]
+    },
+    "tBKc7tHOiJaTmwEl3q--Y": {
+      "id": "tBKc7tHOiJaTmwEl3q--Y",
+      "slug": "backup--restore",
+      "title": "Backup / Restore",
+      "description": "`Backup Restore` in AWS RDS provides the ability to restore your DB instance to a specific point in time. When you initiate a point-in-time restore, a new DB instance is created and all transactions that occurred after the specified point-in-time are not part of the new DB instance. You can restore up to the last restorable time (typically within the last five minutes) as indicated in the AWS RDS Management Console. The time it takes to create the restore depends on the difference in time between when you initiate the restore and the time you are restoring to. The process happens with no impact on the source database and you can continue using your database during restore.",
+      "resources": [
+        {
+          "id": "tBKc7tHOiJaTmwEl3q--Y-res-1",
+          "type": "article",
+          "title": "Backup & Restore - RDS",
+          "url": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_CommonTasks.BackupRestore.html"
+        }
+      ]
+    },
+    "8i6zpjkMC_Pg-tDNmrx4n": {
+      "id": "8i6zpjkMC_Pg-tDNmrx4n",
+      "slug": "bucket--object-lifecycle",
+      "title": "Bucket / Object Lifecycle",
+      "description": "AWS S3 Lifecycle is a feature within the AWS S3 resources that allows users to manage their objects so that they are automatically transferred to different storage classes or expire at the end of their lifetimes. It facilitates transitioning objects between different storage classes at set times or according to specified conditions, and can also automate the cleanup of expired objects to help reduce storage consumed by obsolete data. A lifecycle can be applied to a bucket or a subset of objects. Note that each transition or expiration activity is a separate action within the lifecycle.",
+      "resources": [
+        {
+          "id": "8i6zpjkMC_Pg-tDNmrx4n-res-1",
+          "type": "article",
+          "title": "Bucket / Object Lifecycle",
+          "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lifecycle-mgmt.html"
+        }
+      ]
+    },
+    "rTgjDj5HqbjRpcJ7PR-EC": {
+      "id": "rTgjDj5HqbjRpcJ7PR-EC",
+      "slug": "buckets--objects",
+      "title": "Buckets / Objects",
+      "description": "In AWS S3, a \"bucket\" is a container for data. It is used to store objects. The objects include files or, more technically, any type of data that can be stored in the form of files. In terms of hierarchy, buckets are at the top level in AWS S3. Inside these buckets, you can store any number of objects. An object consists of a file and optionally any metadata that describes that file. It's important to note that you can also store folders within these buckets and inside these folders, you can again store objects. Object keys are unique within a bucket and they help in identifying and retrieving the object.",
+      "resources": [
+        {
+          "id": "rTgjDj5HqbjRpcJ7PR-EC-res-1",
+          "type": "article",
+          "title": "Bucket / Object",
+          "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html"
+        }
+      ]
+    },
+    "KtXww9J0znwzTwL7GKfaY": {
+      "id": "KtXww9J0znwzTwL7GKfaY",
+      "slug": "capacity-settings",
+      "title": "Capacity Settings",
+      "description": "Amazon DynamoDB capacity settings refer to the read and write capacity of your tables. The read capacity unit is a measure of the number of strong consistent reads per second, while the write capacity unit is a measure of the number of writes per second. You can set up these capacities either as provisioned or on-demand. Provisioned capacity is where you specify the number of reads and writes per second that you expect your application to require. On the other hand, on-demand capacity allows DynamoDB to automatically manage your read and write capacity to meet the needs of your workload.",
+      "resources": [
+        {
+          "id": "KtXww9J0znwzTwL7GKfaY-res-1",
+          "type": "article",
+          "title": "Capacity Settings",
+          "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/capacity-mode.html"
+        }
+      ]
+    },
+    "2hFBv2fhKDYBN-9ITs82J": {
+      "id": "2hFBv2fhKDYBN-9ITs82J",
+      "slug": "cidr-blocks",
+      "title": "CIDR Blocks",
+      "description": "\"CIDR\" stands for Classless Inter-Domain Routing. In AWS VPC, a CIDR block is the IP address block from which private IPv4 addresses and public IPv4 addresses are allocated when you create a VPC. The CIDR block can range from /28 (16 IP addresses) to /16 (65,536 IP addresses). It represents a network segment and is associated with a network boundary. Upon creation, you cannot change the CIDR block of your VPC, but you can add additional CIDR blocks to it if needed. A VPC's CIDR block should not overlap with any of the existing network's CIDR blocks.",
+      "resources": [
+        {
+          "id": "2hFBv2fhKDYBN-9ITs82J-res-1",
+          "type": "article",
+          "title": "cidr.xyz: Interactive CIDR range visualizer",
+          "url": "https://cidr.xyz/"
+        },
+        {
+          "id": "2hFBv2fhKDYBN-9ITs82J-res-2",
+          "type": "article",
+          "title": "VPC - CIRD Blocks",
+          "url": "https://docs.aws.amazon.com/vpc/latest/userguide/vpc-cidr-blocks.html"
+        }
+      ]
+    },
+    "zFgnu2fL0EUKIMz9tVH1j": {
+      "id": "zFgnu2fL0EUKIMz9tVH1j",
+      "slug": "cloudfront",
+      "title": "Cloudfront",
+      "description": "Amazon CloudFront is a fast content delivery network (CDN) service that securely delivers data, videos, applications, and APIs to customers globally with low latency, high transfer speeds all within a developer-friendly environment. It integrates with AWS services including AWS Shield for DDoS mitigation, Amazon S3, Elastic Load Balancing or Amazon EC2 as origins for your applications, and Lambda@Edge to run custom code closer to customers’ users and to customize the user experience. Essentially, it accelerates the distribution of your static and dynamic web content, such as .html, .css, .php, image, and media files, to end users.",
+      "resources": [
+        {
+          "id": "zFgnu2fL0EUKIMz9tVH1j-res-1",
+          "type": "article",
+          "title": "Amazon Cloudfront",
+          "url": "https://aws.amazon.com/cloudfront/"
+        }
+      ]
+    },
+    "VAYxwJH10PFjGS8poKd9-": {
+      "id": "VAYxwJH10PFjGS8poKd9-",
+      "slug": "cloudwatch",
+      "title": "Cloudwatch",
+      "description": "\"Amazon CloudWatch\" is a monitoring service for AWS resources and applications that you run on Amazon Web Services. You can use Amazon CloudWatch to collect and track metrics, collect and monitor log files, and respond to system-wide performance changes. CloudWatch gives system-wide visibility into resource utilization, application performance, and operational health. It utilizes operational data (logs and metrics) to automatically respond to changes in AWS resources. It allows you to work seamlessly with various AWS services like Amazon EC2, Amazon DynamoDB, Amazon S3, Amazon ECS, AWS Lambda, and many more.",
+      "resources": [
+        {
+          "id": "VAYxwJH10PFjGS8poKd9--res-1",
+          "type": "article",
+          "title": "Amazon Cloudwatch",
+          "url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html"
+        }
+      ]
+    },
+    "PphzNicIJawVElmY5rn8f": {
+      "id": "PphzNicIJawVElmY5rn8f",
+      "slug": "clusters--ecs-container-agents",
+      "title": "Clusters / ECS Container Agents",
+      "description": "In AWS, an ECS **Cluster** is a logical grouping of tasks or services. If you run tasks or create services, you do it inside a cluster, so it's a vital building block of the Amazon ECS infrastructure. It serves as a namespace for your tasks and services, as these entities cannot span multiple clusters. The Amazon ECS tasks that run in a cluster are fundamentally distributed across all the Container Instances within an ECS Cluster.",
+      "resources": [
+        {
+          "id": "PphzNicIJawVElmY5rn8f-res-1",
+          "type": "article",
+          "title": "Clusters",
+          "url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/clusters.html"
+        },
+        {
+          "id": "PphzNicIJawVElmY5rn8f-res-2",
+          "type": "article",
+          "title": "ECS Container Agents",
+          "url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-agent-config.html"
+        }
+      ]
+    },
+    "EuOv19jDSj56Cy7PqvtNv": {
+      "id": "EuOv19jDSj56Cy7PqvtNv",
+      "slug": "cold-start-and-limitations",
+      "title": "Cold Start and Limitations",
+      "description": "AWS Lambda's cold start refers to the delay experienced when Lambda invokes a function for the first time or after it has updated its code or dependencies. This happens because Lambda needs to do some initial setup, such as initializing the runtime, before it can execute the function code. This setup process adds to the function's execution time, and is particularly noticeable in situations where low latency is critical. Cold start times also vary based on the memory size, with bigger lambda functions taking longer times to start. Further, unused functions may face a cold start again as AWS may clear out idle resources from time to time.",
+      "resources": [
+        {
+          "id": "EuOv19jDSj56Cy7PqvtNv-res-1",
+          "type": "article",
+          "title": "AWS Cold Start and Limitations",
+          "url": "https://docs.aws.amazon.com/lambda/latest/dg/snapstart.html"
+        }
+      ]
+    },
+    "4svXYQYmqjUZU39z8OyhD": {
+      "id": "4svXYQYmqjUZU39z8OyhD",
+      "slug": "configuration-sets",
+      "title": "Configuration Sets",
+      "description": "Configuration Sets in SES (Simple Email Service) of AWS (Amazon Web Services) allow you to publish email sending events. These sets are used to group together similar rules that you can apply to emails you send using AWS SES. You can apply a configuration set to an email by including it in the headers of the email. It can be used to specify the dedicated sending IP pools, configure the message delivery parameters, and to enable open and click tracking. AWS SES sends information about each email sent with the set to CloudWatch and Kinesis Firehose which can be later utilized for further analysis or to manage your customer interactions more effectively.",
+      "resources": [
+        {
+          "id": "4svXYQYmqjUZU39z8OyhD-res-1",
+          "type": "article",
+          "title": "SES",
+          "url": "https://docs.aws.amazon.com/ses/latest/dg/using-configuration-sets.html"
+        }
+      ]
+    },
+    "_U2bKjxIrAAk7TMrPttpb": {
+      "id": "_U2bKjxIrAAk7TMrPttpb",
+      "slug": "cpu-credits",
+      "title": "CPU Credits",
+      "description": "AWS EC2 instances earn CPU Credits when they are idle and consume CPU credits when they are active. A CPU credit provides the performance of a full CPU core for one minute. T2 and T3 instances accrue CPU Credits and use them to burst beyond their baseline performance. For example, a t2.micro instance receives credits continuously at a rate of 6 CPU Credits per hour. The credit balance of an instance can be saved for up to 7 days. When the instance does not have any CPU credits, it performs at the baseline. It's important to note that CPU credit pricing is different and additional to the instance pricing. AWS also offers Unlimited mode for instances that need to burst beyond the baseline performance for extended periods.",
+      "resources": [
+        {
+          "id": "_U2bKjxIrAAk7TMrPttpb-res-1",
+          "type": "article",
+          "title": "Burstable Performance Instances and CPU Credits",
+          "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/burstable-credits-baseline-concepts.html"
+        },
+        {
+          "id": "_U2bKjxIrAAk7TMrPttpb-res-2",
+          "type": "article",
+          "title": "Explore top posts about Computing",
+          "url": "https://app.daily.dev/tags/computing?ref=roadmapsh"
+        }
+      ]
+    },
+    "SdCNevKjyhFcreMSWY6BT": {
+      "id": "SdCNevKjyhFcreMSWY6BT",
+      "slug": "creating--invoking-functions",
+      "title": "Creating / Invoking Functions",
+      "description": "To create a Lambda function in AWS, navigate to the AWS Management Console, select \"Lambda\" under \"Compute\" and then \"Create function\". Specify the function name, execution role and runtime environment. Once the function is created, you can write or paste the code into the inline editor. To invoke a Lambda function, you can either do it manually, via an API gateway, or schedule it. Manually invoking can be done by selecting your function in the AWS console, then \"Test\", add the event JSON and \"Test\" again. If set up with an API gateway, it'll be triggered when the endpoints are hit. Scheduling involves using AWS Cloudwatch to trigger the functions periodically.",
+      "resources": [
+        {
+          "id": "SdCNevKjyhFcreMSWY6BT-res-1",
+          "type": "article",
+          "title": "Create Your First Lambda Function",
+          "url": "https://docs.aws.amazon.com/lambda/latest/dg/getting-started.html"
+        },
+        {
+          "id": "SdCNevKjyhFcreMSWY6BT-res-2",
+          "type": "video",
+          "title": "First AWS Lambda Function",
+          "url": "https://www.youtube.com/watch?v=e1tkFsFOBHA"
+        }
+      ]
+    },
+    "KWjIAakMIlxn_jso22h0M": {
+      "id": "KWjIAakMIlxn_jso22h0M",
+      "slug": "custom-runtimes",
+      "title": "Custom Runtimes",
+      "description": "AWS Lambda supports several preconfigured runtimes for you to choose from, including Node.js, Java, Ruby, Python, and Go. However, if your preferred programming language or specific language version isn't supported natively, you can use **custom runtimes**. A custom runtime in AWS Lambda is a Linux executable that handles invocations and communicates with the Lambda service. It enables you to use any programming language to handle AWS Lambda events. The runtime is responsible for running the bootstrap, which is an executable file, to start the execution process environment, process incoming requests, and manage interaction between your function code and the infrastructure.",
+      "resources": [
+        {
+          "id": "KWjIAakMIlxn_jso22h0M-res-1",
+          "type": "article",
+          "title": "AWS Lambda Runtimes",
+          "url": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html"
+        }
+      ]
+    },
+    "aU1lv80xXNkQTD41Qfln5": {
+      "id": "aU1lv80xXNkQTD41Qfln5",
+      "slug": "data-modeling",
+      "title": "Data Modeling",
+      "description": "In AWS DynamoDB, data modeling is a process that involves determining how to organize, access, and understand the data stored in a database. This process is crucial as it outlines how data will be stored and accessed across a wide range of databases and applications. The primary components of data modeling in DynamoDB include tables, items, and attributes. Tables are collections of data. Items are individual pieces of data that are stored in a table. Attributes are elements of data that relate to a particular item. DynamoDB uses a NoSQL model which means it’s schema-less, i.e., the data can be structured in any way that your business needs prescribe, and can be changed at any time. This contrasts with traditional relational databases which require pre-defined schemas.",
+      "resources": [
+        {
+          "id": "aU1lv80xXNkQTD41Qfln5-res-1",
+          "type": "article",
+          "title": "Data Modeling",
+          "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/data-modeling.html"
+        }
+      ]
+    },
+    "l9oq3LiEd8ZrPtupPk-Fn": {
+      "id": "l9oq3LiEd8ZrPtupPk-Fn",
+      "slug": "db-instances",
+      "title": "DB Instances",
+      "description": "The term \"DB Instance\" is used within the context of Amazon's Relational Database Service (RDS). A DB Instance is essentially an isolated database environment in the cloud, run within Amazon RDS. A DB Instance can contain multiple user-created databases, and can be accessed using the same tools and applications that you might use with a stand-alone database instance. You can create and manage a DB Instance via the AWS Management Console, the AWS RDS Command Line Interface, or through simple API calls.",
+      "resources": [
+        {
+          "id": "l9oq3LiEd8ZrPtupPk-Fn-res-1",
+          "type": "article",
+          "title": "DB Instances - RDS",
+          "url": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Overview.DBInstance.html"
+        }
+      ]
+    },
+    "pnX1dfkjS8woWc4KGXlh_": {
+      "id": "pnX1dfkjS8woWc4KGXlh_",
+      "slug": "dedicated-ip",
+      "title": "Dedicated IP",
+      "description": "\"Dedicated IP\" in AWS SES (Simple Email Service) refers to a unique IP address that can be used exclusively by a single AWS SES customer for sending emails. When you choose to use a dedicated IP, you get full control over the reputation of that IP address, which is beneficial when sending large volume of emails. AWS can also pool multiple dedicated IPs enabling high volume senders to spread their sending across multiple IPs to maintain their reputation. It is particularly useful for companies that must comply with strict email policies or send significantly large volumes of email.",
+      "resources": [
+        {
+          "id": "pnX1dfkjS8woWc4KGXlh_-res-1",
+          "type": "article",
+          "title": "Dedicated IP",
+          "url": "https://docs.aws.amazon.com/ses/latest/dg/dedicated-ip.html"
+        }
+      ]
+    },
+    "fAK7GRKunmoidlD32OBma": {
+      "id": "fAK7GRKunmoidlD32OBma",
+      "slug": "distributions",
+      "title": "Distributions",
+      "description": "In AWS, a CloudFront \"distribution\" is the globally distributed network system that helps you to accelerate the delivery of your website, API, video content, or other web assets. These distributions are defined by AWS based on the specified configuration settings. It specifies from where CloudFront gets your files that it will distribute, which is primarily your Amazon S3 bucket or an HTTP server. Notably, there are primarily two types of distributions you can create: web distributions, which are typically used for websites, and RTMP distributions, used mainly for media streaming.",
+      "resources": [
+        {
+          "id": "fAK7GRKunmoidlD32OBma-res-1",
+          "type": "article",
+          "title": "Cloudfront Distribution",
+          "url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/distribution-working-with.html"
+        }
+      ]
+    },
+    "zwVd1vNm1ks6MdHZoi-5W": {
+      "id": "zwVd1vNm1ks6MdHZoi-5W",
+      "slug": "dkim-setup",
+      "title": "DKIM Setup",
+      "description": "DKIM (DomainKeys Identified Mail) is a standard that prevents email spoofing. It allows an organization to take responsibility for transmitting a message in a way that can be verified by mailbox providers. This verification is made possible through cryptographic authentication. In Amazon SES, you can setup DKIM by adding a set of three CNAME records to the DNS configuration of your sending domain. Each record maps a fictitious subdomain of your sending domain to a domain maintained by Amazon SES. After you add these records and they propagate through the internet's DNS infrastructure, you can start sending authenticated email from your domain.",
+      "resources": [
+        {
+          "id": "zwVd1vNm1ks6MdHZoi-5W-res-1",
+          "type": "article",
+          "title": "DKIM",
+          "url": "https://dkim.org/"
+        },
+        {
+          "id": "zwVd1vNm1ks6MdHZoi-5W-res-2",
+          "type": "article",
+          "title": "DKIM - Cloudflare",
+          "url": "https://www.cloudflare.com/learning/email-security/dmarc-dkim-spf/"
+        }
+      ]
+    },
+    "yauCWo1VoG-X483-4mfdn": {
+      "id": "yauCWo1VoG-X483-4mfdn",
+      "slug": "dynamodb-local",
+      "title": "DynamoDB Local",
+      "description": "DynamoDB Local is a downloadable version of Amazon DynamoDB that lets you write and test applications without accessing the real AWS services. It mimics the actual DynamoDB service. You can write code while sitting in a place where internet isn't available as you don't need internet connectivity to use DynamoDB Local. It supports the same API as DynamoDB and works with your existing DynamoDB API calls. The data is stored locally in your system, not on a network, and persists between restarts of DynamoDB Local.",
+      "resources": [
+        {
+          "id": "yauCWo1VoG-X483-4mfdn-res-1",
+          "type": "article",
+          "title": "DynamoDB Local",
+          "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.html"
+        }
+      ]
+    },
+    "wGb0TEDnSe_bmv9Krx4qB": {
+      "id": "wGb0TEDnSe_bmv9Krx4qB",
+      "slug": "dynamodb",
+      "title": "DynamoDB",
+      "description": "Amazon DynamoDB is a fully managed NoSQL database solution that provides fast and predictable performance with seamless scalability. It is a key-value and document database that delivers single-digit millisecond performance at any scale. DynamoDB can handle more than 10 trillion requests per day and support peaks of more than 20 million requests per second. It maintains high durability of data via automatic replication across three different zones in an Amazon defined region.",
+      "resources": [
+        {
+          "id": "wGb0TEDnSe_bmv9Krx4qB-res-1",
+          "type": "article",
+          "title": "Amazon DynamoDB",
+          "url": "https://aws.amazon.com/dynamodb/"
+        }
+      ]
+    },
+    "cL7vis8H5L2vv6LqJ5wvC": {
+      "id": "cL7vis8H5L2vv6LqJ5wvC",
+      "slug": "ec2",
+      "title": "EC2",
+      "description": "Amazon Elastic Compute Cloud (EC2) is a web service that provides secure, resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers. EC2’s simple web service interface allows you to obtain and configure capacity with minimal friction. EC2 enables you to scale your compute capacity, develop and deploy applications faster, and run applications on AWS's reliable computing environment. You have the control of your computing resources and can access various configurations of CPU, Memory, Storage, and Networking capacity for your instances.",
+      "resources": [
+        {
+          "id": "cL7vis8H5L2vv6LqJ5wvC-res-1",
+          "type": "article",
+          "title": "EC2 - User Guide",
+          "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html"
+        },
+        {
+          "id": "cL7vis8H5L2vv6LqJ5wvC-res-2",
+          "type": "video",
+          "title": "Introduction to Amazon EC2",
+          "url": "https://www.youtube.com/watch?v=eaicwmnSdCs"
+        }
+      ]
+    },
+    "_c_Wq84yIu4ac7e0RzDtC": {
+      "id": "_c_Wq84yIu4ac7e0RzDtC",
+      "slug": "ecr",
+      "title": "ECR",
+      "description": "AWS Elastic Container Registry (ECR) is a fully-managed Docker container registry that makes it easy for developers to store, manage, and deploy Docker container images. ECR eliminates the need to operate your own container repositories or worry about scaling the underlying infrastructure. ECR hosts your images in a highly available and scalable architecture, allowing you to reliably deploy containers for your applications. Integration with AWS Identity and Access Management (IAM) provides resource-level control of each repository.",
+      "resources": [
+        {
+          "id": "_c_Wq84yIu4ac7e0RzDtC-res-1",
+          "type": "article",
+          "title": "AWS Elastic Container Registry (ECR)",
+          "url": "https://aws.amazon.com/ecr/"
+        },
+        {
+          "id": "_c_Wq84yIu4ac7e0RzDtC-res-2",
+          "type": "article",
+          "title": "Concepts of Amazon ECR",
+          "url": "https://docs.aws.amazon.com/AmazonECR/latest/userguide/concept-and-components.html"
+        }
+      ]
+    },
+    "EqUT0wpdPRDGtGAZ7nneY": {
+      "id": "EqUT0wpdPRDGtGAZ7nneY",
+      "slug": "ecs",
+      "title": "ECS",
+      "description": "Amazon Elastic Container Service (ECS) is a highly scalable, high-performance container orchestration service that supports Docker containers and allows you to easily run and scale containerized applications on AWS. ECS eliminates the need for you to install, operate, and scale your own cluster management infrastructure. With simple API calls, you can launch and stop Docker-enabled applications, query the complete state of your application, and access many familiar features like Amazon EC2 security groups, EBS volumes and IAM roles. ECS also integrates with AWS services like AWS App Mesh for service mesh, Amazon RDS for database services, and AWS Systems Manager for operational control.",
+      "resources": [
+        {
+          "id": "EqUT0wpdPRDGtGAZ7nneY-res-1",
+          "type": "article",
+          "title": "Amazon Elastic Container Service (ECS)",
+          "url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/Welcome.html"
+        }
+      ]
+    },
+    "kvHzEDZQV72AUjqisg8PB": {
+      "id": "kvHzEDZQV72AUjqisg8PB",
+      "slug": "eks",
+      "title": "EKS",
+      "description": "Amazon Elastic Kubernetes Service (EKS) is a managed service that simplifies the deployment, management, and scaling of containerized applications using Kubernetes, an open-source container orchestration platform. EKS manages the Kubernetes control plane for the user, making it easy to run Kubernetes applications without the operational overhead of maintaining the Kubernetes control plane. With EKS, you can leverage AWS services such as Auto Scaling Groups, Elastic Load Balancer, and Route 53 for resilient and scalable application infrastructure. Additionally, EKS can support Spot and On-Demand instances use, and includes integrations with AWS App Mesh service and AWS Fargate for serverless compute.",
+      "resources": [
+        {
+          "id": "kvHzEDZQV72AUjqisg8PB-res-1",
+          "type": "article",
+          "title": "Amazon Elastic Kubernetes Service (EKS)",
+          "url": "https://aws.amazon.com/eks/"
+        },
+        {
+          "id": "kvHzEDZQV72AUjqisg8PB-res-2",
+          "type": "article",
+          "title": "Concepts of Amazon EKS",
+          "url": "https://docs.aws.amazon.com/eks/"
+        }
+      ]
+    },
+    "DCvkZSp25pjaimG0THLTu": {
+      "id": "DCvkZSp25pjaimG0THLTu",
+      "slug": "elastic-ip",
+      "title": "Elastic IP",
+      "description": "\"Elastic IP\" in AWS EC2 is a static IPv4 address designed for dynamic cloud computing. An Elastic IP address is associated with your AWS account not a particular instance, and you control that address until you choose to explicitly release it. Unlike traditional static IP addresses, however, Elastic IP addresses allow you to mask the failure of an instance or software by rapidly remapping the address to another instance in your account.",
+      "resources": [
+        {
+          "id": "DCvkZSp25pjaimG0THLTu-res-1",
+          "type": "article",
+          "title": "Elastic IP Addresses",
+          "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/elastic-ip-addresses-eip.html"
+        }
+      ]
+    },
+    "YAZPKMbmrxYNqF6alXMyL": {
+      "id": "YAZPKMbmrxYNqF6alXMyL",
+      "slug": "elastic-load-balancers",
+      "title": "Elastic Load Balancers",
+      "description": "Elastic Load Balancing (ELB) is a load-balancing service for Amazon Web Services (AWS) deployments. It automatically distributes incoming application traffic and scales resources to meet traffic demands. ELB helps to ensure that the incoming traffic is spread evenly across your Amazon EC2 instances, making your application more highly available and fault-tolerant. It supports routing and load balancing for HTTP/HTTPS, and TCP traffic. There are three types of load balancers that ELB offers - Application Load Balancer (ideal for HTTP and HTTPS traffic), Network Load Balancer (best for TCP traffic where extreme performance is required) and Classic Load Balancer (provides basic load balancing across multiple Amazon EC2 instances).",
+      "resources": [
+        {
+          "id": "YAZPKMbmrxYNqF6alXMyL-res-1",
+          "type": "article",
+          "title": "Elastic Load Balancers",
+          "url": "https://aws.amazon.com/elasticloadbalancing/"
+        }
+      ]
+    },
+    "9TcYdsdmvKWWHoyE6uNbC": {
+      "id": "9TcYdsdmvKWWHoyE6uNbC",
+      "slug": "elasticache",
+      "title": "ElastiCache",
+      "description": "Amazon ElastiCache is a fully managed in-memory data store from Amazon Web Services (AWS). It is designed to speed up dynamic web applications by reducing the latency and throughput constraints associated with disk-based databases. ElastiCache supports two open-source in-memory engines: Memcached and Redis. Redis is commonly used for database caching, session management, messaging, and queueing, while Memcached is typically used for caching smaller, simpler datasets. One of the key features of ElastiCache is its uniform performance and scalability, which enables it to handle large datasets and high-traffic websites.",
+      "resources": [
+        {
+          "id": "9TcYdsdmvKWWHoyE6uNbC-res-1",
+          "type": "article",
+          "title": "Amazon ElastiCache",
+          "url": "https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/WhatIs.html"
+        }
+      ]
+    },
+    "0CUfDEMwCwSHVdqkP8lOG": {
+      "id": "0CUfDEMwCwSHVdqkP8lOG",
+      "slug": "event-bridge--scheduled-execution",
+      "title": "Event Bridge / Scheduled Execution",
+      "description": "Amazon EventBridge is a serverless event bus that makes it easy to connect applications together using data from your own applications, Software-as-a-Service (SaaS) applications, and AWS services. It enables you to build a bridge between your applications, regardless of where they are. With EventBridge, you simply ingest, filter, transform, and deliver events. It simplifies the process of ingesting and delivering events across your application architecture, while also handling event management. EventBridge combines all of the functionality of CloudWatch Events with new and enhanced features.",
+      "resources": [
+        {
+          "id": "0CUfDEMwCwSHVdqkP8lOG-res-1",
+          "type": "article",
+          "title": "Amazon EventBridge",
+          "url": "https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-what-is.html"
+        }
+      ]
+    },
+    "tHQ6NRVDPCPEOmzgjQDLX": {
+      "id": "tHQ6NRVDPCPEOmzgjQDLX",
+      "slug": "events",
+      "title": "Events",
+      "description": "AWS CloudWatch Events is a service that provides a streamlined, systematic method to respond to system-wide changes in your AWS environment. This could range from a simple state change, like an EC2 instance being stopped or started, to a more complex series of conditions. You can set an Event Pattern to monitor AWS resources for specific changes or you can schedule cron jobs. The action resulting from the event pattern can be a Lambda function, SNS notification, or auto-scaling policy amongst other options. Essentially, AWS CloudWatch Events helps you automate your AWS services and respond automatically to system events.",
+      "resources": [
+        {
+          "id": "tHQ6NRVDPCPEOmzgjQDLX-res-1",
+          "type": "article",
+          "title": "Amazon Cloudwatch Events",
+          "url": "https://docs.aws.amazon.com/whitepapers/latest/introduction-devops-aws/cloudwatch-events.html"
+        }
+      ]
+    },
+    "OI8y54RhFpfS_l1L9VTZe": {
+      "id": "OI8y54RhFpfS_l1L9VTZe",
+      "slug": "fargate",
+      "title": "Fargate",
+      "description": "Fargate is a technology used for the deployment of containers in Amazon's Elastic Container Service (ECS). This technology completely removes the need to manage the EC2 instances for your infrastructure; therefore, you would not have to be concerned about selecting the right type of EC2 instances, deciding when to scale your clusters, or optimizing cluster packing. In simple terms, Fargate allows you to focus on designing and building your applications instead of managing the infrastructure.",
+      "resources": [
+        {
+          "id": "OI8y54RhFpfS_l1L9VTZe-res-1",
+          "type": "article",
+          "title": "Amazon Fargate",
+          "url": "https://aws.amazon.com/fargate/"
+        }
+      ]
+    },
+    "0NWTFssjg9SbDXQRkN5kF": {
+      "id": "0NWTFssjg9SbDXQRkN5kF",
+      "slug": "feedback-handling",
+      "title": "Feedback Handling",
+      "description": "AWS Simple Email Service (SES) provides a mechanism for handling bounces, complaints, and delivery notifications. This mechanism is called feedback handling. Bounces occur when an email can't be delivered to a recipient. Complaints happen when a recipient marks an email as spam. Delivery notifications are sent when Amazon SES successfully delivers an email to a recipient's mail server. AWS SES enables you to receive these feedback notifications by email, relayed to an Amazon SNS topic, or through Amazon CloudWatch. The process of deciding on what action to take when your emails bounce or are marked as spam is called feedback handling. AWS SES automatically handles all feedback loop (FBL) complaints for you, but when it comes to bounces, you are given the flexibility to choose how you want your system to respond.",
+      "resources": [
+        {
+          "id": "0NWTFssjg9SbDXQRkN5kF-res-1",
+          "type": "article",
+          "title": "Feedbacks",
+          "url": "https://aws.amazon.com/ses/faqs"
+        }
+      ]
+    },
+    "uo5HIyePegnJooortvWLu": {
+      "id": "uo5HIyePegnJooortvWLu",
+      "slug": "general-purpose",
+      "title": "General Purpose",
+      "description": "General Purpose Storage in AWS refers to Amazon Elastic Block Store (Amazon EBS) volumes designed for a broad range of workloads, including small to medium-sized databases, development and test environments, and boot volumes. The General Purpose SSD (gp2) volumes offer cost-effective storage that is ideal for a broad range of transactional workloads and delivers consistent baseline performance of 3 IOPS/GB to a maximum of 16000 IOPS. Moreover, General Purpose SSD (gp2) volumes also provide the ability to burst to higher levels of performance when needed.",
+      "resources": [
+        {
+          "id": "uo5HIyePegnJooortvWLu-res-1",
+          "type": "article",
+          "title": "General Purpose Storage",
+          "url": "https://aws.amazon.com/ebs/general-purpose/"
+        }
+      ]
+    },
+    "IikKYP58sT2H1lM8glm-g": {
+      "id": "IikKYP58sT2H1lM8glm-g",
+      "slug": "glacier",
+      "title": "Glacier",
+      "description": "AWS Glacier is a secure, durable, and extremely low-cost storage service for data archiving and long-term backup. It is designed to reliably store data for as long as you need. Its main features are optimized for infrequently accessed data where retrieval time of minutes is acceptable. AWS Glacier supports the archiving of data that is not needed in real-time but might be required for future reference or are legally required to be maintained. AWS Glacier is used when there is no immediate need for data and substantial retrieval time is acceptable, due to its low storage cost.",
+      "resources": [
+        {
+          "id": "IikKYP58sT2H1lM8glm-g-res-1",
+          "type": "article",
+          "title": "AWS Glacier",
+          "url": "https://aws.amazon.com/s3/storage-classes/glacier/"
+        }
+      ]
+    },
+    "LXG_znJ3XzPAlDxUH2-Xp": {
+      "id": "LXG_znJ3XzPAlDxUH2-Xp",
+      "slug": "health-checks",
+      "title": "Health checks",
+      "description": "Route53 health checks enable you to monitor the health and performance of your applications, network, and servers. You can create custom health checks that verify the status of specific resources, such as a web server or email server. If the health check fails, Route 53 routes traffic away from the unhealthy resources. Health checks run periodically, at intervals that you specify, to help you detect issues before your end-users do. You can configure alarms to notify you when a resource becomes unhealthy, helping you respond rapidly to potential issues. AWS Route 53 Health Checks also integrates with CloudWatch, providing detailed metrics and graphs for analyzed data.",
+      "resources": [
+        {
+          "id": "LXG_znJ3XzPAlDxUH2-Xp-res-1",
+          "type": "article",
+          "title": "Route53 Health Checks",
+          "url": "https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/welcome-health-checks.html"
+        }
+      ]
+    },
+    "z-o-2cGYSM6KW_CNJyw3p": {
+      "id": "z-o-2cGYSM6KW_CNJyw3p",
+      "slug": "hosted-zones",
+      "title": "Hosted Zones",
+      "description": "A **Hosted Zone** in AWS Route 53 is essentially a container that holds information about how you want to route traffic on the internet for a specific domain, such as example.com. Each hosted zone is associated with a set of DNS records, which control the flow of traffic for that domain. AWS Route 53 automatically creates a record set that includes a name server (NS) record and a start of authority (SOA) record when you create a hosted zone. These records provide necessary information about your domain to the DNS system, establishing the basis for routing traffic for that domain to the appropriate IP address in your AWS environment.",
+      "resources": [
+        {
+          "id": "z-o-2cGYSM6KW_CNJyw3p-res-1",
+          "type": "article",
+          "title": "Hosted Zones",
+          "url": "https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/hosted-zones-working-with.html"
+        }
+      ]
+    },
+    "i4ijY3T5gLgNz0XqRipXe": {
+      "id": "i4ijY3T5gLgNz0XqRipXe",
+      "slug": "iaas-vs-paas-vs-saas",
+      "title": "IaaS vs PaaS vs SaaS",
+      "description": "IaaS, PaaS, and SaaS are three types of cloud service models. **IaaS** or Infrastructure as a Service provides users with a resource-based service via virtualization technology, offering computing infrastructure, physical or (more often) virtual machines and other resources. **PaaS** or Platform as a Service provides runtime environments for developing, testing, and managing applications, it is utilized for software development and offers a platform to developers to build applications and services over the internet. **SaaS** or Software as a Service provides on-demand software accessed via the internet, it delivers a complete software solution that you purchase on a pay-as-you-go basis from a cloud service provider. Learn more from the following resources:",
+      "resources": [
+        {
+          "id": "i4ijY3T5gLgNz0XqRipXe-res-1",
+          "type": "video",
+          "title": "IaaS vs PaaS vs SaaS cloud service models",
+          "url": "https://youtu.be/9CVBohl6w0Q?si=cEDnXpd1sGkpf0K2"
+        },
+        {
+          "id": "i4ijY3T5gLgNz0XqRipXe-res-2",
+          "type": "article",
+          "title": "Types of Cloud Computing",
+          "url": "https://aws.amazon.com/types-of-cloud-computing/?nc1=h_ls"
+        }
+      ]
+    },
+    "xmKeB4hEi2DunmhAsvS1X": {
+      "id": "xmKeB4hEi2DunmhAsvS1X",
+      "slug": "iam",
+      "title": "IAM",
+      "description": "IAM, or Identity and Access Management, in AWS is a service that enables you to manage access to AWS services and resources securely. It allows you to create and manage AWS users and groups, and use permissions to allow and deny their access to AWS resources. The service includes features like shared access to your AWS account, granular permissions, identity federation (including active directory integration), multi-factor authentication (MFA), and providing temporary access for users, among others. IAM is a universal system, meaning it's globally accessible and does not depend on specific regions.",
+      "resources": [
+        {
+          "id": "xmKeB4hEi2DunmhAsvS1X-res-1",
+          "type": "article",
+          "title": "IAM - User Guide",
+          "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html"
+        }
+      ]
+    },
+    "cwGuOrmbSTcSoH80skLTk": {
+      "id": "cwGuOrmbSTcSoH80skLTk",
+      "slug": "identity-based",
+      "title": "Identity-Based",
+      "description": "\"Identity-based policies\" are one of the types of policies you can create in AWS (Amazon Web Services). They are attached directly to an identity (like an IAM user, group, or role) and control what actions that identity can perform, on which resources, and under what conditions. There are two types - inline and managed. Inline policies are created and managed individually, while managed policies are standalone policies that you can attach to multiple identities. This offers a flexible framework for managing permissions across your AWS resources. These policies are written in a language called JSON (JavaScript Object Notation).",
+      "resources": [
+        {
+          "id": "cwGuOrmbSTcSoH80skLTk-res-1",
+          "type": "article",
+          "title": "Identity Based Policies",
+          "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_identity-vs-resource.html"
+        }
+      ]
+    },
+    "bTCVHXPG-LtaaFmgiB2SL": {
+      "id": "bTCVHXPG-LtaaFmgiB2SL",
+      "slug": "identity-verification",
+      "title": "Identity Verification",
+      "description": "Amazon Simple Email Service (SES) requires users to verify their identities to ensure they own the email addresses or domains they plan to use as 'From', 'Source', 'Sender', or 'Return-Path' addresses. The verification process prevents unauthorized use of identities. There are two types of identities to verify, email address, and domain. Verifying an email address allows you to send emails from that address. If you verify a domain, you can send emails from any address on that domain. Moreover, while sending an email, the 'From' or 'Return-Path' address must be a verified email or domain.",
+      "resources": [
+        {
+          "id": "bTCVHXPG-LtaaFmgiB2SL-res-1",
+          "type": "article",
+          "title": "Identity Verification",
+          "url": "https://docs.aws.amazon.com/ses/latest/dg/Welcome.html"
+        }
+      ]
+    },
+    "i7X1GfOx5AZYFskepW4Zr": {
+      "id": "i7X1GfOx5AZYFskepW4Zr",
+      "slug": "instance-profiles",
+      "title": "Instance Profiles",
+      "description": "Instance profiles are AWS IAM entities that you can use to grant permissions to applications running on your EC2 instances. They effectively allow your instances to make secure API requests. An instance profile is essentially a container for an AWS Identity and Access Management (IAM) role that you can use to pass roles to EC2 instances at launch time. Once an IAM role is associated with an instance at launch time, we can't change the role. However, you can modify the permissions policies attached to the role, and the updated permissions do take effect immediately.",
+      "resources": [
+        {
+          "id": "i7X1GfOx5AZYFskepW4Zr-res-1",
+          "type": "article",
+          "title": "Instance Profiles",
+          "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use_switch-role-ec2_instance-profiles.html"
+        }
+      ]
+    },
+    "VHD2ISW9WoSWjp8Hh6Zft": {
+      "id": "VHD2ISW9WoSWjp8Hh6Zft",
+      "slug": "instance-types",
+      "title": "Instance Types",
+      "description": "AWS EC2 instances come in a variety of types optimized to fit different use cases. They are grouped into categories depending on their performance capacity and pricing structure. There are five categories of instance types including General Purpose, Compute Optimized, Memory Optimized, Storage Optimized, and Accelerated Computing instances. Each category is suited best for specific workloads and they consist of different instance types each given a specific name, for example, 't2.micro'. Each instance type has a specific amount of CPU, memory, storage, and network capacity. Understanding the workloads of your applications can help you determine which instance type would be best suited to your needs.",
+      "resources": [
+        {
+          "id": "VHD2ISW9WoSWjp8Hh6Zft-res-1",
+          "type": "article",
+          "title": "AWS EC2 Instance Types",
+          "url": "https://aws.amazon.com/ec2/instance-types"
+        }
+      ]
+    },
+    "Le8yOJzpzxH1xgd7XEU2B": {
+      "id": "Le8yOJzpzxH1xgd7XEU2B",
+      "slug": "internet-gateway",
+      "title": "Internet Gateway",
+      "description": "An **Internet Gateway** is a redundant, horizontally scalable component in AWS that performs bi-directional routing between a VPC and the Internet. It serves two purposes; routing outbound traffic from the VPC to the internet (NAT), and routing inbound traffic from the Internet to the VPC. It's automatically highly available and provides bandwidth and redundancy across all AWS Regions. It becomes associated with a VPC upon creation, and cannot be detached or attached to another VPC once created. Security to and from the Internet Gateway can be controlled using route tables and security groups or network ACLs.",
+      "resources": [
+        {
+          "id": "Le8yOJzpzxH1xgd7XEU2B-res-1",
+          "type": "article",
+          "title": "Internet Gateway",
+          "url": "https://www.cisco.com/c/en/us/products/routers/what-is-a-network-gateway.html"
+        }
+      ]
+    },
+    "Dg1v9TV-wGSNLPfAals_y": {
+      "id": "Dg1v9TV-wGSNLPfAals_y",
+      "slug": "introduction-to-aws",
+      "title": "Introduction to AWS",
+      "description": "AWS (Amazon Web Services) offers a broad set of global cloud-based products including compute, storage, databases, analytics, networking, mobile, developer tools, management tools, IoT, security, and enterprise applications: on-demand, available in seconds, with pay-as-you-go pricing. From data warehousing to deployment tools, directories to content delivery, over 200 AWS services are available. New services can be provisioned quickly, without the upfront fixed expense. This allows enterprises, start-ups, small and medium-sized businesses, and customers in the public sector to access the building blocks they need to respond quickly to changing business requirements. This whitepaper provides you with an overview of the benefits of the AWS Cloud and introduces you to the services that make up the platform. Learn more from the following links:",
+      "resources": [
+        {
+          "id": "Dg1v9TV-wGSNLPfAals_y-res-1",
+          "type": "article",
+          "title": "AWS Documentation",
+          "url": "https://docs.aws.amazon.com/"
+        },
+        {
+          "id": "Dg1v9TV-wGSNLPfAals_y-res-2",
+          "type": "article",
+          "title": "Introduction of AWS",
+          "url": "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/introduction.html"
+        },
+        {
+          "id": "Dg1v9TV-wGSNLPfAals_y-res-3",
+          "type": "video",
+          "title": "AWS Tutorial for Beginners",
+          "url": "https://www.youtube.com/watch?v=zA8guDqfv40"
+        },
+        {
+          "id": "Dg1v9TV-wGSNLPfAals_y-res-4",
+          "type": "article",
+          "title": "Explore top posts about AWS",
+          "url": "https://app.daily.dev/tags/aws?ref=roadmapsh"
+        }
+      ]
+    },
+    "Py9nst2FDJ1_hoXeX_qSF": {
+      "id": "Py9nst2FDJ1_hoXeX_qSF",
+      "slug": "introduction",
+      "title": "Introduction",
+      "description": "AWS (Amazon Web Services) offers a broad set of global cloud-based products including compute, storage, databases, analytics, networking, mobile, developer tools, management tools, IoT, security, and enterprise applications: on-demand, available in seconds, with pay-as-you-go pricing. From data warehousing to deployment tools, directories to content delivery, over 200 AWS services are available. New services can be provisioned quickly, without the upfront fixed expense. This allows enterprises, start-ups, small and medium-sized businesses, and customers in the public sector to access the building blocks they need to respond quickly to changing business requirements. This whitepaper provides you with an overview of the benefits of the AWS Cloud and introduces you to the services that make up the platform. Learn more from the following links:",
+      "resources": [
+        {
+          "id": "Py9nst2FDJ1_hoXeX_qSF-res-1",
+          "type": "article",
+          "title": "AWS Documentation",
+          "url": "https://docs.aws.amazon.com/"
+        },
+        {
+          "id": "Py9nst2FDJ1_hoXeX_qSF-res-2",
+          "type": "article",
+          "title": "Introduction of AWS",
+          "url": "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/introduction.html"
+        },
+        {
+          "id": "Py9nst2FDJ1_hoXeX_qSF-res-3",
+          "type": "article",
+          "title": "How to Create an AWS Account",
+          "url": "https://grapplingdev.com/tutorials/how-to-create-aws-account"
+        },
+        {
+          "id": "Py9nst2FDJ1_hoXeX_qSF-res-4",
+          "type": "video",
+          "title": "AWS Tutorial for Beginners",
+          "url": "https://www.youtube.com/watch?v=zA8guDqfv40"
+        }
+      ]
+    },
+    "hRXbAADgRTXEFwbBXeNu7": {
+      "id": "hRXbAADgRTXEFwbBXeNu7",
+      "slug": "invalidations",
+      "title": "Invalidations",
+      "description": "`Invalidations` in AWS CloudFront is a concept where you remove files (objects) from CloudFront cache before it hits the expiration period. AWS CloudFront, like any other CDN, stores copies of your website’s static files in its cache until and unless it reaches its TTL (time to live) duration. But in some situations, you might want to remove or replace these files. For instance, these could be changes in CSS or JS files. This is where Invalidations come to the scene. With this, you can immediately remove objects or files from edge locations.",
+      "resources": [
+        {
+          "id": "hRXbAADgRTXEFwbBXeNu7-res-1",
+          "type": "article",
+          "title": "Invalidations Cloudfront",
+          "url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Invalidation.html"
+        }
+      ]
+    },
+    "wFT-fddGn__DRoqG0joFk": {
+      "id": "wFT-fddGn__DRoqG0joFk",
+      "slug": "keypairs",
+      "title": "Keypairs",
+      "description": "Key pairs are part of Amazon EC2 and are used to securely log into your instances. A key pair consists of a public key and a private key. Amazon EC2 generates the key pair and gives you the private key, whereas the public key is stored with AWS. When you launch an EC2 instance, you specify the name of the key pair. You can then use the private key to securely connect to your instance. Key pairs are region-specific, meaning you need to create separate key pairs for each region in which you operate your instances.",
+      "resources": [
+        {
+          "id": "wFT-fddGn__DRoqG0joFk-res-1",
+          "type": "article",
+          "title": "EC2 - Keypairs",
+          "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html"
+        }
+      ]
+    },
+    "741vsAPTXJLVUlazFg0q4": {
+      "id": "741vsAPTXJLVUlazFg0q4",
+      "slug": "lambda",
+      "title": "Lambda",
+      "description": "AWS Lambda is a serverless computing service that runs code in response to events and automatically manages the computing resources required by that code. It lets us run applications and services without thinking about servers. You can execute your back-end application code, run code in response to HTTP requests using Amazon API Gateway, or call your functions using API calls made using AWS SDKs. AWS Lambda automatically scales your applications in response to incoming requests. AWS Lambda supports Java, Go, PowerShell, Node.js, C#, Python, and Ruby code, and provides a Runtime API which allows you to use any additional programming languages to author your functions.",
+      "resources": [
+        {
+          "id": "741vsAPTXJLVUlazFg0q4-res-1",
+          "type": "article",
+          "title": "AWS Lambda",
+          "url": "https://docs.aws.amazon.com/lambda/latest/dg/welcome.html"
+        }
+      ]
+    },
+    "5SF5nO94NFDkHY8UJoeAY": {
+      "id": "5SF5nO94NFDkHY8UJoeAY",
+      "slug": "lambdaedge",
+      "title": "Lambda Edge",
+      "description": "Lambda Edge is a feature of AWS Lambda that allows you to run coding functions at AWS edge locations, closest to your customers. This can result in lower latency response times and better customer experiences. It allows you to customize the content that CloudFront delivers, executing the code after the CloudFront response or request. Lambda@Edge scales automatically, from a few requests per day to thousands per second.",
+      "resources": [
+        {
+          "id": "5SF5nO94NFDkHY8UJoeAY-res-1",
+          "type": "article",
+          "title": "AWS Lambda Edge",
+          "url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/lambda-at-the-edge.html"
+        }
+      ]
+    },
+    "1r2FL3OEOh0S9ee0OVnrN": {
+      "id": "1r2FL3OEOh0S9ee0OVnrN",
+      "slug": "launch-config--autoscaling-groups",
+      "title": "Launch Config / Autoscaling Groups",
+      "description": "`Launch Configuration` is a template that an Auto Scaling group uses to launch EC2 instances. When you create a launch configuration, you specify information for the instances such as the ID of the Amazon Machine Image (AMI), the instance type, a key pair, one or more security groups, and a block device mapping. If you've launched an instance before, you can specify the same parameters for your launch configuration. Any parameters that you don't specify are automatically filled in with the default values that are set by the launch wizard.",
+      "resources": [
+        {
+          "id": "1r2FL3OEOh0S9ee0OVnrN-res-1",
+          "type": "article",
+          "title": "Launch Config in EC2",
+          "url": "https://docs.aws.amazon.com/autoscaling/ec2/userguide/launch-configurations.html"
+        }
+      ]
+    },
+    "K0GCk5_HDvP0_ZqsUc3tG": {
+      "id": "K0GCk5_HDvP0_ZqsUc3tG",
+      "slug": "launch-templates",
+      "title": "Launch Templates",
+      "description": "\"Launch Templates\" in AWS Auto Scaling are configurations that an Auto Scaling group uses to launch EC2 instances. They store the configuration information necessary to launch an instance, which includes the ID of the Amazon Machine Image (AMI), the instance type, a key pair, security groups, and the storage configuration. It helps in setting up new instances quickly and prevent configuration inconsistencies across instances. These templates can also be versioned, allowing updates and roll backs to previous configurations.",
+      "resources": [
+        {
+          "id": "K0GCk5_HDvP0_ZqsUc3tG-res-1",
+          "type": "article",
+          "title": "Launch Templates",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-launch-templates-for-amazon-ec2-instances/"
+        }
+      ]
+    },
+    "CL93C0NGFQmScVnftnRtO": {
+      "id": "CL93C0NGFQmScVnftnRtO",
+      "slug": "layers",
+      "title": "Layers",
+      "description": "AWS Lambda layers are distribution mechanisms for libraries, custom runtimes, and other function dependencies. In other words, they are a distribution mechanism for artifacts. The layers can be versioned, and each version is immutable. An AWS Lambda layer is a ZIP archive that contains libraries, a custom runtime, or other dependencies. Lambda functions can be configured to reference these layers. The layer is then extracted to the `/opt` directory in the function execution environment. Each runtime looks for libraries in a different location under the `/opt` folder, depending on the language.",
+      "resources": [
+        {
+          "id": "CL93C0NGFQmScVnftnRtO-res-1",
+          "type": "article",
+          "title": "AWS Lambda Layers",
+          "url": "https://docs.aws.amazon.com/lambda/latest/dg/chapter-layers.html"
+        },
+        {
+          "id": "CL93C0NGFQmScVnftnRtO-res-2",
+          "type": "video",
+          "title": "Create and Use Lambda Layers",
+          "url": "https://www.youtube.com/watch?v=jyuZDkiHe2Q"
+        }
+      ]
+    },
+    "0ctJa-V6aenimSr5h303J": {
+      "id": "0ctJa-V6aenimSr5h303J",
+      "slug": "limits",
+      "title": "Limits",
+      "description": "In terms of DynamoDB, it’s important to be aware of certain limits. There are two types of capacity modes - provisioned and on-demand, with varying read/write capacity units. You have control over the provisioning of throughput for read/write operations. However, there's a maximum limit of 40000 read capacity units and 40000 write capacity units for on-demand mode per table. It's also important to note that the partition key value and sort key value can be a maximum of 2048 bytes and 1024 bytes respectively. Each item, including primary key, can be a maximum of 400KB. The total provisioned throughput for all tables and global secondary indexes in a region cannot exceed 20,000 write capacity units and 20000 read capacity units for on-demand mode. Remember, you can request to increase these limits by reaching out to AWS Support.",
+      "resources": [
+        {
+          "id": "0ctJa-V6aenimSr5h303J-res-1",
+          "type": "article",
+          "title": "Limit Settings",
+          "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ServiceQuotas.html"
+        }
+      ]
+    },
+    "oC6KIjWAXw0hLl4FwkB9F": {
+      "id": "oC6KIjWAXw0hLl4FwkB9F",
+      "slug": "logs",
+      "title": "Logs",
+      "description": "AWS CloudWatch Logs service allows you to monitor, store, and access your log files from Amazon Elastic Compute Cloud (Amazon EC2) instances, AWS CloudTrail, and other sources. It centralizes the logs from all your systems, applications, and AWS services that you use, into a single, highly scalable service. You can then easily view them, search through them, set alarms, and correlate them to other operational data. It also integrates with AWS Lambda, providing the ability to respond quickly to critical operational events.",
+      "resources": [
+        {
+          "id": "oC6KIjWAXw0hLl4FwkB9F-res-1",
+          "type": "article",
+          "title": "Amazon Cloudwatch Logs",
+          "url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/WhatIsCloudWatchLogs.html"
+        }
+      ]
+    },
+    "y0CoNcEFHyz350f7pNddt": {
+      "id": "y0CoNcEFHyz350f7pNddt",
+      "slug": "magnetic",
+      "title": "Magnetic",
+      "description": "\"Magnetic\" in AWS refers to Magnetic storage, also known as Amazon EBS (Elastic Block Store) Magnetic volumes. These storage types are designed for workloads where data is accessed infrequently, and sceneries where the lowest storage cost is important. Magnetic volumes offer cost-effective storage for applications with moderate or bursty I/O requirements. Though magnetic storage provides the lowest cost per gigabyte of all EBS volume types, it has the poorest performance capability and a higher latency compared to solid-state drive storage options.",
+      "resources": [
+        {
+          "id": "y0CoNcEFHyz350f7pNddt-res-1",
+          "type": "article",
+          "title": "Magnetic Storage",
+          "url": "https://aws.amazon.com/ebs/previous-generation/"
+        }
+      ]
+    },
+    "2vQPmVNk1QpMM-15RKG8b": {
+      "id": "2vQPmVNk1QpMM-15RKG8b",
+      "slug": "metrics",
+      "title": "Metrics",
+      "description": "In Amazon CloudWatch, **metrics** are fundamental concepts that you work with. A metric is the fundamental concept in CloudWatch and represents a time-ordered set of data points that are published to CloudWatch. Think of a metric as a variable to monitor, and the data points as representing the values of that variable over time. Metrics are uniquely defined by a name, a namespace, and zero or more dimensions up to 30 dimensions per metric. Every data point must have a timestamp. You can retrieve statistics about those data points as an ordered set of time-series data. CloudWatch provides metrics for every service in AWS. Learn more from the following resources:",
+      "resources": [
+        {
+          "id": "2vQPmVNk1QpMM-15RKG8b-res-1",
+          "type": "article",
+          "title": "CloudWatch Metrics",
+          "url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/publishingMetrics.html"
+        }
+      ]
+    },
+    "6D-gs32jrCyvMVhr9PSAY": {
+      "id": "6D-gs32jrCyvMVhr9PSAY",
+      "slug": "nat-gateway",
+      "title": "NAT Gateway",
+      "description": "AWS NAT Gateway is a managed service that provides source Network Address Translation (NAT) for instances in a private subnet so they can access the internet securely. It's designed to operate automatically, handling bandwidth scaling, failover, and managing carrier IP addresses. With NAT Gateway, instances within a VPC can access the internet for software updates, patches, etc, but inbound traffic from the internet is prevented, helping maintain the security and privacy of the private subnet. NAT Gateway is redundant within the Availability Zone, providing high availability. It supports TCP, UDP, and ICMP protocols, as well as Port Address Translation (PAT).",
+      "resources": [
+        {
+          "id": "6D-gs32jrCyvMVhr9PSAY-res-1",
+          "type": "article",
+          "title": "NAT Gateway",
+          "url": "https://docs.aws.amazon.com/vpc/latest/userguide/vpc-nat-gateway.html"
+        }
+      ]
+    },
+    "dO9ZfUyNia7L_fCh4d0n7": {
+      "id": "dO9ZfUyNia7L_fCh4d0n7",
+      "slug": "policies",
+      "title": "Policies",
+      "description": "Amazon CloudFront works with AWS Identity and Access Management (IAM) and AWS Organizations to provide you with options to implement fine-grained access control over your CloudFront distributions. CloudFront policies allow you to specify the permissions of a resource. You can create a policy to allow an IAM user to create or delete distributions, to allow an AWS account to create a CloudFront origin access identity, or to allow an organization to update the settings for a distribution. You can also use policies to specify which Amazon S3 bucket a CloudFront distribution can access.",
+      "resources": [
+        {
+          "id": "dO9ZfUyNia7L_fCh4d0n7-res-1",
+          "type": "article",
+          "title": "Cloudfront IAM",
+          "url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/security-iam.html"
+        }
+      ]
+    },
+    "eQAn3e-k9WNufPqOnwY_K": {
+      "id": "eQAn3e-k9WNufPqOnwY_K",
+      "slug": "policies",
+      "title": "Policies",
+      "description": "Policies in Amazon IAM (Identity and Access Management) are documents that act as containers for permissions. They are expressed in JSON format in IAM and they define the actions, effects, resources, and optional conditions. There are two types of policies: identity-based policies and resource-based policies. Identity-based policies are attached to an IAM identity, and resource-based policies are attached to a resource. These policies specify what actions are allowed or denied on what resources, under what conditions. They are your primary tool in defining and managing permissions in AWS.",
+      "resources": [
+        {
+          "id": "eQAn3e-k9WNufPqOnwY_K-res-1",
+          "type": "article",
+          "title": "Permissions and Policies",
+          "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction_access-management.html"
+        }
+      ]
+    },
+    "oWtWgaFznTPJhQIyfIIQf": {
+      "id": "oWtWgaFznTPJhQIyfIIQf",
+      "slug": "primary-keys--secondary-indexes",
+      "title": "Primary Keys / Secondary Indexes",
+      "description": "DynamoDB supports two types of primary keys, namely `Partition Key` and `Composite Key` (Partition Key and Sort Key). A `Partition Key`, also known as a hash key, is a simple primary key that has a scalar value (a string, a number, or a binary blob). DynamoDB uses the partition key's value to distribute data across multiple partitions for scalable performance. A `Composite Key` consists of two attributes. The first attribute is the partition key, and the second attribute is the sort key. DynamoDB uses the partition key to spread data across partitions and also uses the sort key to store items in sorted order within those partitions. This sort key provides further granular control over data organization.",
+      "resources": [
+        {
+          "id": "oWtWgaFznTPJhQIyfIIQf-res-1",
+          "type": "article",
+          "title": "Primary Keys / Secondary Indexes",
+          "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/SecondaryIndexes.html"
+        }
+      ]
+    },
+    "ymuURDwW8JG3NSIXcl0FL": {
+      "id": "ymuURDwW8JG3NSIXcl0FL",
+      "slug": "private-subnet",
+      "title": "Private Subnet",
+      "description": "Private subnets in AWS are isolated network segments within your VPC that do not have direct access to the internet. You can use private subnets to run services and applications that should not be directly accessible from the outside world, but still need to communicate with other resources within your VPC. Any instances launched in a private subnet cannot directly send traffic to the internet without routing through a NAT device.",
+      "resources": [
+        {
+          "id": "ymuURDwW8JG3NSIXcl0FL-res-1",
+          "type": "article",
+          "title": "Subnets",
+          "url": "https://docs.aws.amazon.com/vpc/latest/userguide/configure-subnets.html"
+        }
+      ]
+    },
+    "3l1ji4JToj277vpgONmLw": {
+      "id": "3l1ji4JToj277vpgONmLw",
+      "slug": "provisioned-iops",
+      "title": "Provisioned IOPS",
+      "description": "\"Provisioned IOPS\" is a storage option available in Amazon Web Services' (AWS) Elastic Block Store (EBS). This option is designed to deliver fast, predictable, and consistent I/O performance. It allows you to specify an IOPS rate when creating a volume, and AWS will provision that rate of performance, hence the name. It's primarily suitable for databases and workloads that require high IOPS. An EBS volume with provisioned IOPS is backed by solid-state drives (SSDs), and you can specify up to a maximum of 64,000 IOPS per volume.",
+      "resources": [
+        {
+          "id": "3l1ji4JToj277vpgONmLw-res-1",
+          "type": "article",
+          "title": "Provisioned IOPS",
+          "url": "https://docs.aws.amazon.com/ebs/latest/userguide/provisioned-iops.html"
+        }
+      ]
+    },
+    "ABCH1rATHmecyWHyK3n-m": {
+      "id": "ABCH1rATHmecyWHyK3n-m",
+      "slug": "public-subnet",
+      "title": "Public Subnet",
+      "description": "In AWS, a subnet that's designated as `public` is one that has direct access to the Internet. Each subnet that you create runs on its own portion of the AWS network, and you can consider them as logically isolated sections. When a subnet is designated as public, it means an Internet Gateway is attached to it and thus instances within this subnet can easily communicate with the outside net. Each instance that you launch into a public subnet is automatically assigned a private IPv4 address and a public IPv4 address. These addresses don't change and remain with the instance, until it's stopped, terminated or replaced with a different address. This setup allows instances in the public subnet to communicate directly with the internet and other AWS services.",
+      "resources": [
+        {
+          "id": "ABCH1rATHmecyWHyK3n-m-res-1",
+          "type": "article",
+          "title": "Subnets",
+          "url": "https://docs.aws.amazon.com/vpc/latest/userguide/configure-subnets.html"
+        }
+      ]
+    },
+    "3hatcMVLDbMuz73uTx-9P": {
+      "id": "3hatcMVLDbMuz73uTx-9P",
+      "slug": "public-vs-private-vs-hybrid-cloud",
+      "title": "Public vs Private vs Hybrid Cloud",
+      "description": "Amazon Web Services (AWS) offers various cloud-based deployment models to cater to varying business needs, including Public, Private, and Hybrid clouds. A **Public Cloud** is a model where the service provider offers resources, such as applications and storage, available to the general public over the internet. Resources may be free, or sold on a pay-per-usage model. On the other hand, a **Private Cloud** is a type of cloud computing that delivers similar advantages to public cloud, including scalability and self-service, but through a proprietary architecture dedicated to a single organization. Unlike public clouds, which deliver services to multiple organizations, a private cloud is dedicated to the needs and goals of a single entity. Lastly, a **Hybrid Cloud** is a solution that combines a private cloud with one or more public cloud services, with proprietary software enabling communication between each distinct service.",
+      "resources": [
+        {
+          "id": "3hatcMVLDbMuz73uTx-9P-res-1",
+          "type": "article",
+          "title": "Types of Cloud Computing",
+          "url": "https://www.redhat.com/en/topics/cloud-computing/public-cloud-vs-private-cloud-and-hybrid-cloud"
+        },
+        {
+          "id": "3hatcMVLDbMuz73uTx-9P-res-2",
+          "type": "article",
+          "title": "Selecting the right cloud for workloads",
+          "url": "https://docs.aws.amazon.com/whitepapers/latest/public-sector-cloud-transformation/selecting-the-right-cloud-for-workloads-differences-between-public-private-and-hybrid.html"
+        }
+      ]
+    },
+    "8v9T6Y6JC7qaqIgkbT-nr": {
+      "id": "8v9T6Y6JC7qaqIgkbT-nr",
+      "slug": "purchasing-options",
+      "title": "Purchasing Options",
+      "description": "Amazon EC2 provides several purchasing options to fit different workload needs. The **On-Demand** option allows clients to pay for compute capacity per hour with no long-term commitments. **Reserved Instances** provide a significant discount compared to On-Demand pricing and are ideal for applications required steady state usage. **Spot Instances** allow clients to bid for unused Amazon EC2 capacity and can provide significant savings if flexibility is possible in starting and stopping times. **Dedicated Hosts** are physical EC2 servers dedicated to specific clients, suitable for regulatory requirements and licenses which do not support multi-tenant virtualization, and **Savings Plans** offer reduced rates for committing to a consistent amount of usage for 1 or 3 years.",
+      "resources": [
+        {
+          "id": "8v9T6Y6JC7qaqIgkbT-nr-res-1",
+          "type": "article",
+          "title": "Purchasing Options",
+          "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-purchasing-options.html"
+        }
+      ]
+    },
+    "PYgs4niQRlLKCBMfM4qf9": {
+      "id": "PYgs4niQRlLKCBMfM4qf9",
+      "slug": "quotas",
+      "title": "Quotas",
+      "description": "AWS ElastiCache quotas define the limit on the maximum number of clusters, nodes, parameter groups, and subnet groups you can create in an AWS account. These quotas vary by region and can be increased upon request to the AWS Service team. Quotas for ElastiCache are implemented to prevent unintentional overconsumption of resources. It's important to monitor your current usage and understand the quotas of your account to efficiently manage your ElastiCache resources.",
+      "resources": [
+        {
+          "id": "PYgs4niQRlLKCBMfM4qf9-res-1",
+          "type": "article",
+          "title": "Amazon ElastiCache Quotas",
+          "url": "https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/quota-limits.html"
+        }
+      ]
+    },
+    "fkMF-2PQZ00UdwxhQt1ds": {
+      "id": "fkMF-2PQZ00UdwxhQt1ds",
+      "slug": "rds",
+      "title": "RDS",
+      "description": "Amazon RDS (Relational Database Service) is a web service from Amazon Web Services. It's designed to simplify the setup, operation, and scaling of relational databases in the cloud. This service provides cost-efficient, resizable capacity for an industry-standard relational database and manages common database administration tasks. RDS supports six database engines: Amazon Aurora, PostgreSQL, MySQL, MariaDB, Oracle Database, and SQL Server. These engines give you the ability to run instances ranging from 5GB to 6TB of memory, accommodating your specific use case. It also ensures the database is up-to-date with the latest patches, automatically backs up your data and offers encryption at rest and in transit.",
+      "resources": [
+        {
+          "id": "fkMF-2PQZ00UdwxhQt1ds-res-1",
+          "type": "article",
+          "title": "Amazon RDS",
+          "url": "https://aws.amazon.com/rds/"
+        }
+      ]
+    },
+    "v_YmmlOk-DkzJ8mI5Ftgr": {
+      "id": "v_YmmlOk-DkzJ8mI5Ftgr",
+      "slug": "resource-based",
+      "title": "Resource-Based",
+      "description": "Resource-based policies are attached directly to the AWS resources that receive the permissions. The policy then specifies what actions are allowed or denied on that particular resource. In resource-based policies, you include a `Principal` element in the policy to indicate the IAM users or roles that are granted the permissions. While not all AWS services support resource-based policies, common services that do include Amazon S3 for bucket policies, AWS KMS for key policies, and Amazon SNS for topic policies.",
+      "resources": [
+        {
+          "id": "v_YmmlOk-DkzJ8mI5Ftgr-res-1",
+          "type": "article",
+          "title": "Identity Based Policies",
+          "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_identity-vs-resource.html"
+        }
+      ]
+    },
+    "7nI202hX41mI5ms9LZonh": {
+      "id": "7nI202hX41mI5ms9LZonh",
+      "slug": "roles",
+      "title": "Roles",
+      "description": "IAM Roles in AWS are a form of secure access control that do not directly associate with specific users or groups. Instead, trusted entities such as AWS users, applications or services (like EC2) can take on roles to obtain temporary security credentials for making AWS API requests. The structure of roles lets you delegate access with defined permissions, helping to keep your environment secure. Moreover, because roles yield temporary credentials for navigation within AWS, you won't have to deal with long-term keys.",
+      "resources": [
+        {
+          "id": "7nI202hX41mI5ms9LZonh-res-1",
+          "type": "article",
+          "title": "Create Your First Role",
+          "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/getting-started-roles.html"
+        }
+      ]
+    },
+    "FCdOnwQubhOnCFFnF8uJN": {
+      "id": "FCdOnwQubhOnCFFnF8uJN",
+      "slug": "route-tables",
+      "title": "Route Tables",
+      "description": "A _Route Table_ in AWS VPC is a set of rules, called routes, that are used to determine where network traffic is directed. Each subnet in your VPC must be associated with a route table, which controls the traffic for the subnet. By default, your VPC has a main route table that you can modify. You can also create additional custom route tables for your VPC. A subnet can only be associated with one route table at a time, but you can change the association.",
+      "resources": [
+        {
+          "id": "FCdOnwQubhOnCFFnF8uJN-res-1",
+          "type": "article",
+          "title": "Route Tables",
+          "url": "https://docs.aws.amazon.com/quicksight/latest/user/vpc-route-table.html"
+        }
+      ]
+    },
+    "f89qL7Cg9R_LTxBEG4jUK": {
+      "id": "f89qL7Cg9R_LTxBEG4jUK",
+      "slug": "route53",
+      "title": "Route53",
+      "description": "AWS Route 53 is a scalable and highly available domain name system (DNS) service designed to give developers and businesses an extremely reliable and cost-effective way to route users to Internet applications. This DNS service effectively connects user requests to infrastructure running in Amazon Web Services (AWS) – such as an Amazon EC2 instance, an Amazon Elastic Load Balancer, or an Amazon S3 bucket – and can also be used to route users to infrastructure outside of AWS. Route 53 conceals the complexities of the underlying DNS protocol, offering developers an easy-to-use and cost-effective domain registration service. It features domain transfer capabilities, DNS failover, health checks, and customizable TTLs.",
+      "resources": [
+        {
+          "id": "f89qL7Cg9R_LTxBEG4jUK-res-1",
+          "type": "article",
+          "title": "Route53",
+          "url": "https://aws.amazon.com/route53/"
+        }
+      ]
+    },
+    "IQhPG1La7dZeSXnX23D1n": {
+      "id": "IQhPG1La7dZeSXnX23D1n",
+      "slug": "routing-policies",
+      "title": "Routing Policies",
+      "description": "AWS Route 53 provides different routing policies to fit various needs: 1. **Simple Routing Policy**: Used for a single resource that performs a specific function. 2. **Weighted Routing Policy**: Useful if you have multiple resources and you want to direct a certain percentage of traffic to each. 3. **Latency Routing Policy**: Allows to route traffic based on the lowest network latency for your user (i.e., which region will give them the fastest response time). 4. **Failover Routing Policy**: Used when you want to create an active/passive setup. For instance, you might want your primary resource to serve all your traffic, but if it fails, you can reroute traffic to a backup resource. 5. **Geo location Routing Policy**: Routes traffic based on the geographic location of your users. 6. **Geo Proximity Routing Policy (Traffic Flow Only)**: Route traffic based on the geographic location of your resources and, optionally, shift traffic from resources in one location to resources in another. 7. **Multi Value Answer Routing Policy**: Used when you want Route 53 to respond to DNS queries with up to eight healthy records selected at random.",
+      "resources": [
+        {
+          "id": "IQhPG1La7dZeSXnX23D1n-res-1",
+          "type": "article",
+          "title": "Routing Policies",
+          "url": "https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-policy.html"
+        }
+      ]
+    },
+    "JlkLNQ8wRzGkjaootNKOD": {
+      "id": "JlkLNQ8wRzGkjaootNKOD",
+      "slug": "s3-ia",
+      "title": "S3-IA",
+      "description": "Amazon S3 Infrequent Access (S3 IA) is a storage class in Amazon S3 designed for data that is accessed less frequently, but requires rapid access when needed. S3 IA offers the high durability, high throughput, and low latency of Amazon S3 Standard, with a lower cost per GB for storage and a per GB retrieval fee. This makes S3 IA suitable for long-term storage, backups, and as a data store for disaster recovery files.",
+      "resources": [
+        {
+          "id": "JlkLNQ8wRzGkjaootNKOD-res-1",
+          "type": "article",
+          "title": "AWS S3-IA",
+          "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/storage-class-intro.html"
+        }
+      ]
+    },
+    "PN3xAYfQ-_QgZCRCnsEca": {
+      "id": "PN3xAYfQ-_QgZCRCnsEca",
+      "slug": "s3",
+      "title": "S3",
+      "description": "Amazon S3 (Simple Storage Service) is an object storage service offered by Amazon Web Services (AWS). It provides scalable, secure and durable storage on the internet. Designed for storing and retrieving any amount of data from anywhere on the web, it is a key tool for many companies in the field of data storage, including mobile applications, websites, backup and restore, archive, enterprise applications, IoT devices, and big data analytics.",
+      "resources": [
+        {
+          "id": "PN3xAYfQ-_QgZCRCnsEca-res-1",
+          "type": "article",
+          "title": "S3",
+          "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html"
+        }
+      ]
+    },
+    "kG7tlZjv_hJbHGooBkxS0": {
+      "id": "kG7tlZjv_hJbHGooBkxS0",
+      "slug": "sandbox--sending-limits",
+      "title": "Sandbox / Sending Limits",
+      "description": "In AWS SES, when your account is in the sandbox (default mode for all new accounts), you can only send emails to verified email addresses and the maximum send rate is 1 email per second. The maximum sending quota is 200 messages per 24-hour period. To move out of this sandbox environment and increase your sending limits, you will need to request a sending limit increase. This is achieved by submitting an SES Sending Limit Increase case in the AWS Support Center. For more details, one can refer to the AWS SES documentation.",
+      "resources": [
+        {
+          "id": "kG7tlZjv_hJbHGooBkxS0-res-1",
+          "type": "article",
+          "title": "Sandbox / Sending Limits",
+          "url": "https://docs.aws.amazon.com/ses/latest/dg/manage-sending-quotas.html"
+        }
+      ]
+    },
+    "fRBaiw8Qx8kapzCphmM4v": {
+      "id": "fRBaiw8Qx8kapzCphmM4v",
+      "slug": "scaling-policies",
+      "title": "Scaling Policies",
+      "description": "AWS Autoscaling supports various types of scaling policies that control how and when to scale. These include target tracking scaling policies, step scaling policies, and simple scaling policies. Target tracking scaling policies adjust the capacity based on specified dynamic conditions, maintaining the target value for the specified metric. Step scaling policies adjust the capacity based on a set of scaling adjustments, increasing or decreasing the capacity within the constraints of the minimum and maximum capacity. Meanwhile, simple scaling policies increase or decrease the capacity based on a single alarm.",
+      "resources": [
+        {
+          "id": "fRBaiw8Qx8kapzCphmM4v-res-1",
+          "type": "article",
+          "title": "AWS Autoscaling Policy",
+          "url": "https://docs.aws.amazon.com/autoscaling/ec2/userguide/what-is-amazon-ec2-auto-scaling.html"
+        }
+      ]
+    },
+    "Cd9gdbkCFdrTLrnJMy5F3": {
+      "id": "Cd9gdbkCFdrTLrnJMy5F3",
+      "slug": "security-groups",
+      "title": "Security Groups",
+      "description": "Security Groups in AWS act as a virtual firewall for your instance to control inbound and outbound traffic. When you launch an instance in a VPC, you can assign up to five security groups to the instance. Security Groups are stateful — if you send a request from your instance, the response traffic for that request is allowed to flow in regardless of inbound security group rules. You can specify allow rules, but not deny rules. You can specify separate rules for inbound and outbound traffic. Therefore, if you need to allow specific communication between your instances, you'll need to configure both outbound rules for the sender security group and inbound rules for the receiver security group.",
+      "resources": [
+        {
+          "id": "Cd9gdbkCFdrTLrnJMy5F3-res-1",
+          "type": "article",
+          "title": "Security Groups",
+          "url": "https://docs.aws.amazon.com/vpc/latest/userguide/vpc-security-groups.html"
+        }
+      ]
+    },
+    "Vo_PBfB7LxYL27nBBVoVp": {
+      "id": "Vo_PBfB7LxYL27nBBVoVp",
+      "slug": "sender-reputation",
+      "title": "Sender Reputation",
+      "description": "Sender reputation in Amazon Web Services (AWS) Simple Email Service (SES) is essentially a measure of your sending practices and how they align with the expectations of ISPs and email recipients. This reputation is determined by factors such as your email bounce rate, complaints, content quality, email volume, consistency of email sending, etc. Maintaining a good sender reputation is crucial as it impacts your email deliverability rate - i.e., whether your emails land in recipients' inbox or spam folder. AWS SES encourages good sending practices to help sustain a positive sender reputation.",
+      "resources": [
+        {
+          "id": "Vo_PBfB7LxYL27nBBVoVp-res-1",
+          "type": "article",
+          "title": "Sender Reputation",
+          "url": "https://aws.amazon.com/blogs/messaging-and-targeting/the-four-pillars-of-email-reputation/"
+        }
+      ]
+    },
+    "zSiSbIdBgFLBBAnp4I9vX": {
+      "id": "zSiSbIdBgFLBBAnp4I9vX",
+      "slug": "services",
+      "title": "Services",
+      "description": "AWS ECS Services are defined as a set of part or all of your task definitions that run and maintain a specified number of instances of a task definition simultaneously in an Amazon ECS cluster. If any of your tasks should fail or stop for any reason, the Amazon ECS service scheduler launches another instance of your task definition to replace it and maintain the desired count of tasks, ensuring the service's reliability and availability. ECS services can be scaled manually or with automated scaling policies based on CloudWatch alarms. In addition, ECS service scheduling options define how Amazon ECS places and terminates tasks.",
+      "resources": [
+        {
+          "id": "zSiSbIdBgFLBBAnp4I9vX-res-1",
+          "type": "article",
+          "title": "Services in ECS",
+          "url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs_services.html"
+        }
+      ]
+    },
+    "-bwXo6xvF1yzyWEm5oZhJ": {
+      "id": "-bwXo6xvF1yzyWEm5oZhJ",
+      "slug": "ses",
+      "title": "SES",
+      "description": "Amazon Simple Email Service (SES) is a scalable and cost-effective email sending service tailored for marketers, developers, and businesses. It enables users to send notifications, transactional emails, and marketing communications using a highly reliable infrastructure. Amazon SES eliminates the complexity and challenge of building an in-house email solution or licensing, installing, and managing a third-party service. This service can be easily integrated into your existing applications while ensuring your email reaches the recipient's inbox.",
+      "resources": [
+        {
+          "id": "-bwXo6xvF1yzyWEm5oZhJ-res-1",
+          "type": "article",
+          "title": "SES",
+          "url": "https://aws.amazon.com/ses/"
+        }
+      ]
+    },
+    "0flGtxZmxQKxO3c3sguwp": {
+      "id": "0flGtxZmxQKxO3c3sguwp",
+      "slug": "shared-responsibility-model",
+      "title": "Shared Responsibility Model",
+      "description": "In Amazon Web Services (AWS), the concept of 'Shared Responsibility' pertains to the distribution of security and compliance responsibilities between AWS and the user/client. Under this model, AWS is responsible for the security \"of\" the cloud — including the infrastructure, hardware, software, networking, and facilities that run AWS cloud services. On the other hand, the user is responsible for security \"in\" the cloud — this includes managing and configuring the customer-controlled services, protecting account credentials, and securing customer data. This shared model aims to lessen operational burden for users and provide flexible security controls.",
+      "resources": [
+        {
+          "id": "0flGtxZmxQKxO3c3sguwp-res-1",
+          "type": "article",
+          "title": "Shared Responsibility Model",
+          "url": "https://aws.amazon.com/compliance/shared-responsibility-model/"
+        }
+      ]
+    },
+    "Ll5FPCtkpYq_niJd7WoTC": {
+      "id": "Ll5FPCtkpYq_niJd7WoTC",
+      "slug": "standard",
+      "title": "Standard",
+      "description": "Amazon S3 Standard storage is designed for general-purpose storage of frequently accessed data. It provides low latency and high throughput, making it suitable for a wide variety of use cases, including cloud applications, dynamic websites, content distribution, mobile and gaming applications, and big data analytics. S3 Standard offers high durability, availability, and performance object storage for both small and large objects. You have immediate access to your data and can retrieve it at any time, making it a versatile choice for many different AWS workloads.",
+      "resources": [
+        {
+          "id": "Ll5FPCtkpYq_niJd7WoTC-res-1",
+          "type": "article",
+          "title": "AWS S3 Standard",
+          "url": "https://aws.amazon.com/s3/pricing/"
+        }
+      ]
+    },
+    "A0u7CJwj5ULAMiAm12vZI": {
+      "id": "A0u7CJwj5ULAMiAm12vZI",
+      "slug": "storage--volumes",
+      "title": "Storage / Volumes",
+      "description": "In AWS, an `Amazon EBS` (Elastic Block Store) is the storage volume used by EC2 (Elastic Compute Cloud) instances. It is designed for data durability, and Amazon EBS volumes automatically replicate within their Availability Zone to prevent data loss due to failure of any individual component. EBS volumes are attached to an EC2 instance, and appear as a network drive that you can mount and format using the file system of your choice. You can use Amazon EBS as the primary storage for data that requires frequent updates, such as a system drive for an instance or storage for a database application.",
+      "resources": [
+        {
+          "id": "A0u7CJwj5ULAMiAm12vZI-res-1",
+          "type": "article",
+          "title": "Elastic Block Store",
+          "url": "https://docs.aws.amazon.com/ebs/latest/userguide/what-is-ebs.html"
+        }
+      ]
+    },
+    "PJaAqax4fABnkObY5UwNp": {
+      "id": "PJaAqax4fABnkObY5UwNp",
+      "slug": "storage-types",
+      "title": "Storage Types",
+      "description": "Amazon S3 provides three storage classes: S3 Standard, S3 Intelligent-Tiering, and S3 Glacier. `S3 Standard` is designed for frequently accessed data. It delivers low latency and high throughput. `S3 Intelligent-Tiering` is automated storage class that optimizes costs. It moves objects between two access tiers (frequent and infrequent access) based on changing access patterns. `S3 Glacier` is for long-term backup and archives. It has two retrieval modes: Expedited (for quick access) and Bulk (for largest and less time-sensitive retrievals).",
+      "resources": [
+        {
+          "id": "PJaAqax4fABnkObY5UwNp-res-1",
+          "type": "article",
+          "title": "Storage Types",
+          "url": "https://aws.amazon.com/s3/storage-classes/"
+        }
+      ]
+    },
+    "Xs057ESpvxXg2r_rDQnOa": {
+      "id": "Xs057ESpvxXg2r_rDQnOa",
+      "slug": "storage-types",
+      "title": "Storage Types",
+      "description": "AWS RDS offers three types of storage: General Purpose (SSD), Provisioned IOPS (SSD), and Magnetic. General Purpose (SSD) storage delivers a consistent baseline of 3 IOPS/GB and can burst up to 3,000 IOPS. It's suitable for a broad range of database workloads that have moderate I/O requirements. Provisioned IOPS (SSD) storage is designed to meet the needs of I/O-intensive workloads, particularly database workloads that are sensitive to storage performance and consistency. Magnetic storage, the most inexpensive type, is perfect for applications where the lowest storage cost is important and is best for infrequently accessed data.",
+      "resources": [
+        {
+          "id": "Xs057ESpvxXg2r_rDQnOa-res-1",
+          "type": "article",
+          "title": "RDS Storage Types",
+          "url": "https://aws.amazon.com/rds/instance-types/"
+        }
+      ]
+    },
+    "0C3GCGdSXozJK2MNeWerg": {
+      "id": "0C3GCGdSXozJK2MNeWerg",
+      "slug": "streams",
+      "title": "Streams",
+      "description": "AWS DynamoDB Streams is a time-ordered sequence of item-level modifications in any DynamoDB table. When you enable a stream on a table, DynamoDB captures information about every modification to data items in the table. The changes are recorded in near real-time and can be set up to trigger AWS Lambda functions immediately after an event has occurred. With DynamoDB Streams, applications can access this log and view the data modifications in the order they occurred. The stream records item-level data modifications such as `Insert`, `Modify`, and `Remove`. Each stream record is then organized into a stream view type, where applications can access up to 24 hours of data modification history.",
+      "resources": [
+        {
+          "id": "0C3GCGdSXozJK2MNeWerg-res-1",
+          "type": "article",
+          "title": "Streams",
+          "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Streams.Lambda.html"
+        }
+      ]
+    },
+    "Y64TE0U20kllmykjdfhHp": {
+      "id": "Y64TE0U20kllmykjdfhHp",
+      "slug": "subnets",
+      "title": "Subnets",
+      "description": "Subnets or subnetworks in Amazon VPC (Virtual Private Cloud) are divisions of a VPC's IP address range. You can launch Amazon Elastic Compute Cloud (Amazon EC2) instances into a selected subnet. When you create a subnet, you specify the CIDR block for the subnet, which is a subset of the VPC CIDR block. Each subnet must be associated with a route table, which controls the traffic flow between the subnets. There are two types of subnets: public and private. A public subnet is one in which the associated route table directs the subnet to the Internet Gateway (IGW) of the VPC. A private subnet does not have a route to the IGW and hence has no direct route to the internet.",
+      "resources": [
+        {
+          "id": "Y64TE0U20kllmykjdfhHp-res-1",
+          "type": "article",
+          "title": "Subnets",
+          "url": "https://docs.aws.amazon.com/vpc/latest/userguide/configure-subnets.html"
+        }
+      ]
+    },
+    "DN_iuLo9gYDqU8JleE1WJ": {
+      "id": "DN_iuLo9gYDqU8JleE1WJ",
+      "slug": "tables--items--attributes",
+      "title": "Tables / Items / Attributes",
+      "description": "In Amazon DynamoDB, tables are a collection of items. An item is a group of attributes that is identified by a primary key. Items are similar to rows or records in other database systems. Each item in a table is uniquely identifiable by a primary key. This key can be simple (partition key only) or composite (partition key and sort key). Every attribute in an item is a name-value pair. The name of the attribute is a string and the value of an attribute can be of the following types: String, Number, Binary, Boolean, Null, List, Map, String Set, Number Set, and Binary Set.",
+      "resources": [
+        {
+          "id": "DN_iuLo9gYDqU8JleE1WJ-res-1",
+          "type": "article",
+          "title": "Amazon DynamoDB",
+          "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/WorkingWithItems.html"
+        }
+      ]
+    },
+    "1lHXxpoF11yE3rfoQCbTG": {
+      "id": "1lHXxpoF11yE3rfoQCbTG",
+      "slug": "tasks",
+      "title": "Tasks",
+      "description": "Tasks in Amazon ECS are the instantiation of a task definition within a cluster. They can be thought of as the running instance of the definition, the same way an object is an instance of a class in object-oriented programming. A task definition is a text file in JSON format that describes one or more containers, up to a maximum of 10. The task definition parameters specify the container image to use, the amount of CPU and memory to allocate for each container, and the launch type to use for the task, among other options. When a task is launched, it is scheduled on an available container instance within the cluster.",
+      "resources": [
+        {
+          "id": "1lHXxpoF11yE3rfoQCbTG-res-1",
+          "type": "article",
+          "title": "Tasks in ECS",
+          "url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task_definitions.html"
+        }
+      ]
+    },
+    "ZKjjgXZ89zV2atWcSal-s": {
+      "id": "ZKjjgXZ89zV2atWcSal-s",
+      "slug": "user-data-scripts",
+      "title": "User Data Scripts",
+      "description": "\"User Data Scripts\" in EC2 instances are used to perform common automated configuration tasks and even run scripts after the instance starts. These scripts run as the root user, and can be used to install software or download files from an S3 bucket. You can pass up to 16 KB of data to an instance, either as plain text or base64-encoded. The User Data script is executed only one time when the instance is first launched. If you stop and start the instance, the script does not run again. However, it will run on every boot if the instance reboots.",
+      "resources": [
+        {
+          "id": "ZKjjgXZ89zV2atWcSal-s-res-1",
+          "type": "article",
+          "title": "User Data Scripts EC2",
+          "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/user-data.html"
+        }
+      ]
+    },
+    "Nn2zawk6A31NwZa40jOhX": {
+      "id": "Nn2zawk6A31NwZa40jOhX",
+      "slug": "users--user-groups",
+      "title": "Users / User Groups",
+      "description": "In AWS Identity and Access Management (IAM), a **Users Group** is a collection of IAM users. Groups enable you to specify permissions for multiple users, making it easier to manage the permissions for those users. For example, you could have a group called \"Developers\" and give that group the necessary permissions for developing in your environment. If a new developer joins your organization, rather than defining permissions specifically for that user, you can add the user to the \"Developers\" group to assign those permissions. Remember, each AWS IAM user in a group inherits the permission policies attached to the group.",
+      "resources": [
+        {
+          "id": "Nn2zawk6A31NwZa40jOhX-res-1",
+          "type": "article",
+          "title": "IAM - AWS",
+          "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html"
+        }
+      ]
+    },
+    "75ZjuGozDfoZPLj32P2t2": {
+      "id": "75ZjuGozDfoZPLj32P2t2",
+      "slug": "versioning--aliases",
+      "title": "Versioning / Aliases",
+      "description": "In AWS Lambda, **Versioning** provides a way to manage distinct and separate iterations of a Lambda function, enabling both risk reduction and more efficient development cycles. Conversely, an **Alias** is a pointer to a specific Lambda function version. Aliases are mutable; they can be re-associated to a different version, manifesting a form of flexibility. With aliases, one can avoid direct updating of event triggers or downstream services as they can point to an alias and the corresponding version can be updated, hence separating the infrastructure/code changes.",
+      "resources": [
+        {
+          "id": "75ZjuGozDfoZPLj32P2t2-res-1",
+          "type": "article",
+          "title": "AWS Lambda Versioning",
+          "url": "https://docs.aws.amazon.com/lambda/latest/dg/configuration-aliases.html"
+        }
+      ]
+    },
+    "Sv2aT8eI1RvJhvoKVYQEX": {
+      "id": "Sv2aT8eI1RvJhvoKVYQEX",
+      "slug": "vpc",
+      "title": "VPC",
+      "description": "Amazon VPC (Virtual Private Cloud) is a service that lets you launch AWS resources in a logically isolated virtual network that you define. It provides advanced security features such as security groups and network access control lists to enable inbound and outbound filtering at the instance and subnet level. Additionally, you can create a Hardware Virtual Private Network (VPN) connection between your corporate datacenter and your VPC to leverage the AWS cloud as an extension of your corporate datacenter.",
+      "resources": [
+        {
+          "id": "Sv2aT8eI1RvJhvoKVYQEX-res-1",
+          "type": "article",
+          "title": "VPC",
+          "url": "https://aws.amazon.com/vpc/"
+        },
+        {
+          "id": "Sv2aT8eI1RvJhvoKVYQEX-res-2",
+          "type": "video",
+          "title": "AWS VPC Beginner to Advanced uses",
+          "url": "https://www.youtube.com/watch?v=g2JOHLHh4rI"
+        }
+      ]
+    },
+    "eKuC7VmkGVYFnbC2Rvn8D": {
+      "id": "eKuC7VmkGVYFnbC2Rvn8D",
+      "slug": "well-architected-framework",
+      "title": "Well Architected Framework",
+      "description": "AWS Well-Architected Framework is a set of strategic guidelines provided by Amazon Web Services. It is designed to provide high-performing and resilient systems while maintaining cost efficiency. The framework divides the architectural best practices across six pillars which include operational excellence, security, reliability, performance efficiency, cost optimization and the sustainability. With this framework, you can assess and improve your cloud-based architectures and applications by leveraging AWS technologies.",
+      "resources": [
+        {
+          "id": "eKuC7VmkGVYFnbC2Rvn8D-res-1",
+          "type": "article",
+          "title": "AWS Well-Architected",
+          "url": "https://aws.amazon.com/architecture/well-architected"
+        }
+      ]
+    },
+    "74JxgfJ_1qmVNZ_QRp9Ne": {
+      "id": "74JxgfJ_1qmVNZ_QRp9Ne",
+      "slug": "what-is-cloud-computing",
+      "title": "What is Cloud Computing?",
+      "description": "Cloud Computing refers to the delivery of computing services over the internet instead of using local servers. It offers reliable, scalable, and inexpensive cloud computing services which include data storage, databases, applications, analytics, machine learning, and even setting up virtual servers. The biggest names providing cloud computing services are Amazon Web Services (AWS), Microsoft Azure, Google Cloud, and others. The main selling point is that you only pay for the services you use, helping you manage your expenses more effectively.",
+      "resources": [
+        {
+          "id": "74JxgfJ_1qmVNZ_QRp9Ne-res-1",
+          "type": "article",
+          "title": "What is Cloud Computing - IBM",
+          "url": "https://www.ibm.com/topics/cloud-computing"
+        },
+        {
+          "id": "74JxgfJ_1qmVNZ_QRp9Ne-res-2",
+          "type": "article",
+          "title": "Cloud Computing - AWS",
+          "url": "https://aws.amazon.com/what-is-cloud-computing/"
+        }
+      ]
+    }
+  }
+}

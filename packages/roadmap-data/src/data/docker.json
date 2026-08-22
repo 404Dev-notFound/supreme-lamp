@@ -1,0 +1,2240 @@
+{
+  "slug": "docker",
+  "title": "Docker & Containers",
+  "description": "Container basics, multi-stage Dockerfiles, compose setups, and container security",
+  "category": "skill",
+  "level": "Beginner",
+  "topicCount": 56,
+  "iconName": "Box",
+  "nodes": [
+    {
+      "id": "node-EqYWfBL5l5OOquok_OvOW",
+      "label": "Application Architecture",
+      "topicId": "EqYWfBL5l5OOquok_OvOW",
+      "level": 1,
+      "position": {
+        "x": 80,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-3hatcMVLDbMuz73uTx-9P",
+      "label": "Bare Metal vs VM vs Containers",
+      "topicId": "3hatcMVLDbMuz73uTx-9P",
+      "level": 1,
+      "position": {
+        "x": 340,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-kIqx7Inf50mE9W0juwNBz",
+      "label": "Docker Basics",
+      "topicId": "kIqx7Inf50mE9W0juwNBz",
+      "level": 1,
+      "position": {
+        "x": 600,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-wZcCW1ojGzUakHCv2AaI1",
+      "label": "Bind Mounts",
+      "topicId": "wZcCW1ojGzUakHCv2AaI1",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-5OEfBQaYNOCi999x6QUqW",
+      "label": "Building Container Images",
+      "topicId": "5OEfBQaYNOCi999x6QUqW",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-fRl4EfNwlBiidzn3IV34-",
+      "label": "cgroups",
+      "topicId": "fRl4EfNwlBiidzn3IV34-",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-YzpB7rgSR4ueQRLa0bRWa",
+      "label": "Command Line Utilities",
+      "topicId": "YzpB7rgSR4ueQRLa0bRWa",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-3VKPiMfbGBxv9m_SljIQV",
+      "label": "Container Registries",
+      "topicId": "3VKPiMfbGBxv9m_SljIQV",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-78YFahP3Fg-c27reLkuK4",
+      "label": "Container Security",
+      "topicId": "78YFahP3Fg-c27reLkuK4",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-jhwe-xfVc-C7qy8YuS5dZ",
+      "label": "Containers",
+      "topicId": "jhwe-xfVc-C7qy8YuS5dZ",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-oyqw4tr-taZcxt5kREh1g",
+      "label": "Continuous Integration (CI)",
+      "topicId": "oyqw4tr-taZcxt5kREh1g",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-uUPYXmwu27SBPqKZx6U_q",
+      "label": "Data Persistence in Docker",
+      "topicId": "uUPYXmwu27SBPqKZx6U_q",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-jKSE_wKYf4P9wnSh_LkMi",
+      "label": "Using Databases",
+      "topicId": "jKSE_wKYf4P9wnSh_LkMi",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-LiAV9crrTHhLqeZhD25a2",
+      "label": "Debuggers in Docker",
+      "topicId": "LiAV9crrTHhLqeZhD25a2",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-qXOGqORi3EdqwsP9Uhi9m",
+      "label": "Deploying Containers",
+      "topicId": "qXOGqORi3EdqwsP9Uhi9m",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-hHXTth0ZP8O-iMGR9xfu9",
+      "label": "Developer Experience",
+      "topicId": "hHXTth0ZP8O-iMGR9xfu9",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-43drPbTwPqJQPyzwYUdBT",
+      "label": "Docker and OCI",
+      "topicId": "43drPbTwPqJQPyzwYUdBT",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-b-LwyYiegbF0jIrn7HYRv",
+      "label": "Docker CLI",
+      "topicId": "b-LwyYiegbF0jIrn7HYRv",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-jjA9E0J8N2frfeJCNtA1m",
+      "label": "Docker Compose",
+      "topicId": "jjA9E0J8N2frfeJCNtA1m",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-NCdsPRhJy7UtQFNLo1J1f",
+      "label": "Docker Desktop",
+      "topicId": "NCdsPRhJy7UtQFNLo1J1f",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-0NKqLUWtJMlXn-m6wpA6f",
+      "label": "Docker Engine",
+      "topicId": "0NKqLUWtJMlXn-m6wpA6f",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-6eu5NRA1sJuaHTlHtNurc",
+      "label": "Running Containers",
+      "topicId": "6eu5NRA1sJuaHTlHtNurc",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-ks6PFN-0Z9zH7gtWaWgxz",
+      "label": "Docker Swarm",
+      "topicId": "ks6PFN-0Z9zH7gtWaWgxz",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-yGRQcx64S-yBGEoOeMc55",
+      "label": "Dockerfile",
+      "topicId": "yGRQcx64S-yBGEoOeMc55",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-rxVR62_yXIjc-L4GFSV6u",
+      "label": "DockerHub",
+      "topicId": "rxVR62_yXIjc-L4GFSV6u",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-frshJqVMP8D7o_7tMZMPI",
+      "label": "Efficient Layer Caching",
+      "topicId": "frshJqVMP8D7o_7tMZMPI",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-086zZYjtzdCaDHm-MkSqg",
+      "label": "Ephemeral FS",
+      "topicId": "086zZYjtzdCaDHm-MkSqg",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-4p5d3rzCHy4vjg2PRX-2k",
+      "label": "Hot Reloading in Docker",
+      "topicId": "4p5d3rzCHy4vjg2PRX-2k",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-M5UG-ZcyhBPbksZd0ZdNt",
+      "label": "Image Security",
+      "topicId": "M5UG-ZcyhBPbksZd0ZdNt",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node--8wAzF6_3gruiM3VYMvB0",
+      "label": "Reducing Image Size",
+      "topicId": "-8wAzF6_3gruiM3VYMvB0",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-Vs4WQwgJFhA63U9Gf2ym0",
+      "label": "Image Tagging Best Practices",
+      "topicId": "Vs4WQwgJFhA63U9Gf2ym0",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-3Nsg-F3wMKEzEsXw1MBZv",
+      "label": "Docker Images",
+      "topicId": "3Nsg-F3wMKEzEsXw1MBZv",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-01nDXqxVdMv4SeXc0nYHH",
+      "label": "Installation Setup",
+      "topicId": "01nDXqxVdMv4SeXc0nYHH",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-Py9nst2FDJ1_hoXeX_qSF",
+      "label": "What is Docker?",
+      "topicId": "Py9nst2FDJ1_hoXeX_qSF",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-RqXpX2XabtHYVjgg1EZR_",
+      "label": "Kubernetes",
+      "topicId": "RqXpX2XabtHYVjgg1EZR_",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-BvV8VCX39wRB-g8WvGF1g",
+      "label": "What are Namespaces?",
+      "topicId": "BvV8VCX39wRB-g8WvGF1g",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-w5QjzvOaciK2rotOkjvjQ",
+      "label": "Docker Networks",
+      "topicId": "w5QjzvOaciK2rotOkjvjQ",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-r1eJZDZYouUjnGwAtRbyU",
+      "label": "Nomad: Deploying Containers",
+      "topicId": "r1eJZDZYouUjnGwAtRbyU",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-fh5aERX7c-lY9FPsmftoF",
+      "label": "DockerHub Alternatives",
+      "topicId": "fh5aERX7c-lY9FPsmftoF",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-PP_RRBo_pThe2mgf6xzMP",
+      "label": "PaaS Options for Deploying Containers",
+      "topicId": "PP_RRBo_pThe2mgf6xzMP",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-mw-weCutd2ECKlx2DE_ZJ",
+      "label": "Package Managers",
+      "topicId": "mw-weCutd2ECKlx2DE_ZJ",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-XxT9UUjbKW1ARyERSLH_W",
+      "label": "Programming Languages",
+      "topicId": "XxT9UUjbKW1ARyERSLH_W",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-z2eeBXPzo-diQ67Fcfyhc",
+      "label": "Running Containers",
+      "topicId": "z2eeBXPzo-diQ67Fcfyhc",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-mAaEz-bwB5DLaBbOSYGMn",
+      "label": "Runtime Configuration Options",
+      "topicId": "mAaEz-bwB5DLaBbOSYGMn",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-vYug8kcwrMoWf8ft4UDNI",
+      "label": "Runtime Security",
+      "topicId": "vYug8kcwrMoWf8ft4UDNI",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-W5kX5jn49hghRgkEw6_S3",
+      "label": "Shell Commands",
+      "topicId": "W5kX5jn49hghRgkEw6_S3",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-InlMtuaUJ9EXO-OD9x1jj",
+      "label": "Shell Scripting",
+      "topicId": "InlMtuaUJ9EXO-OD9x1jj",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-Kmyo1_Mor9WHLkRhNShRZ",
+      "label": "Tests",
+      "topicId": "Kmyo1_Mor9WHLkRhNShRZ",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-jrH1qE6EnFXL4fTyYU8gR",
+      "label": "Underlying Technologies",
+      "topicId": "jrH1qE6EnFXL4fTyYU8gR",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-vEUfw_vobshuZI0-q8RZo",
+      "label": "Union Filesystems",
+      "topicId": "vEUfw_vobshuZI0-q8RZo",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-uKjB2qntFTpPuYUT9sdxd",
+      "label": "Users / Groups Permissions",
+      "topicId": "uKjB2qntFTpPuYUT9sdxd",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-LShK3-1EGGuXnEvdScFR7",
+      "label": "Using Third Party Images",
+      "topicId": "LShK3-1EGGuXnEvdScFR7",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-woemCQmWTR-hIoWAci3d5",
+      "label": "Volume Mounts",
+      "topicId": "woemCQmWTR-hIoWAci3d5",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-eHtVLB6v3h7hatJb-9cZK",
+      "label": "Docker Volumes",
+      "topicId": "eHtVLB6v3h7hatJb-9cZK",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-74JxgfJ_1qmVNZ_QRp9Ne",
+      "label": "What are Containers?",
+      "topicId": "74JxgfJ_1qmVNZ_QRp9Ne",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-i4ijY3T5gLgNz0XqRipXe",
+      "label": "Need for Containers",
+      "topicId": "i4ijY3T5gLgNz0XqRipXe",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2960
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-node-EqYWfBL5l5OOquok_OvOW-node-3hatcMVLDbMuz73uTx-9P",
+      "source": "node-EqYWfBL5l5OOquok_OvOW",
+      "target": "node-3hatcMVLDbMuz73uTx-9P",
+      "animated": true
+    },
+    {
+      "id": "edge-node-3hatcMVLDbMuz73uTx-9P-node-kIqx7Inf50mE9W0juwNBz",
+      "source": "node-3hatcMVLDbMuz73uTx-9P",
+      "target": "node-kIqx7Inf50mE9W0juwNBz",
+      "animated": true
+    },
+    {
+      "id": "edge-node-kIqx7Inf50mE9W0juwNBz-node-wZcCW1ojGzUakHCv2AaI1",
+      "source": "node-kIqx7Inf50mE9W0juwNBz",
+      "target": "node-wZcCW1ojGzUakHCv2AaI1",
+      "animated": true
+    },
+    {
+      "id": "edge-node-wZcCW1ojGzUakHCv2AaI1-node-5OEfBQaYNOCi999x6QUqW",
+      "source": "node-wZcCW1ojGzUakHCv2AaI1",
+      "target": "node-5OEfBQaYNOCi999x6QUqW",
+      "animated": true
+    },
+    {
+      "id": "edge-node-5OEfBQaYNOCi999x6QUqW-node-fRl4EfNwlBiidzn3IV34-",
+      "source": "node-5OEfBQaYNOCi999x6QUqW",
+      "target": "node-fRl4EfNwlBiidzn3IV34-",
+      "animated": true
+    },
+    {
+      "id": "edge-node-fRl4EfNwlBiidzn3IV34--node-YzpB7rgSR4ueQRLa0bRWa",
+      "source": "node-fRl4EfNwlBiidzn3IV34-",
+      "target": "node-YzpB7rgSR4ueQRLa0bRWa",
+      "animated": true
+    },
+    {
+      "id": "edge-node-YzpB7rgSR4ueQRLa0bRWa-node-3VKPiMfbGBxv9m_SljIQV",
+      "source": "node-YzpB7rgSR4ueQRLa0bRWa",
+      "target": "node-3VKPiMfbGBxv9m_SljIQV",
+      "animated": true
+    },
+    {
+      "id": "edge-node-3VKPiMfbGBxv9m_SljIQV-node-78YFahP3Fg-c27reLkuK4",
+      "source": "node-3VKPiMfbGBxv9m_SljIQV",
+      "target": "node-78YFahP3Fg-c27reLkuK4",
+      "animated": true
+    },
+    {
+      "id": "edge-node-78YFahP3Fg-c27reLkuK4-node-jhwe-xfVc-C7qy8YuS5dZ",
+      "source": "node-78YFahP3Fg-c27reLkuK4",
+      "target": "node-jhwe-xfVc-C7qy8YuS5dZ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-jhwe-xfVc-C7qy8YuS5dZ-node-oyqw4tr-taZcxt5kREh1g",
+      "source": "node-jhwe-xfVc-C7qy8YuS5dZ",
+      "target": "node-oyqw4tr-taZcxt5kREh1g",
+      "animated": true
+    },
+    {
+      "id": "edge-node-oyqw4tr-taZcxt5kREh1g-node-uUPYXmwu27SBPqKZx6U_q",
+      "source": "node-oyqw4tr-taZcxt5kREh1g",
+      "target": "node-uUPYXmwu27SBPqKZx6U_q",
+      "animated": true
+    },
+    {
+      "id": "edge-node-uUPYXmwu27SBPqKZx6U_q-node-jKSE_wKYf4P9wnSh_LkMi",
+      "source": "node-uUPYXmwu27SBPqKZx6U_q",
+      "target": "node-jKSE_wKYf4P9wnSh_LkMi",
+      "animated": true
+    },
+    {
+      "id": "edge-node-jKSE_wKYf4P9wnSh_LkMi-node-LiAV9crrTHhLqeZhD25a2",
+      "source": "node-jKSE_wKYf4P9wnSh_LkMi",
+      "target": "node-LiAV9crrTHhLqeZhD25a2",
+      "animated": true
+    },
+    {
+      "id": "edge-node-LiAV9crrTHhLqeZhD25a2-node-qXOGqORi3EdqwsP9Uhi9m",
+      "source": "node-LiAV9crrTHhLqeZhD25a2",
+      "target": "node-qXOGqORi3EdqwsP9Uhi9m",
+      "animated": true
+    },
+    {
+      "id": "edge-node-qXOGqORi3EdqwsP9Uhi9m-node-hHXTth0ZP8O-iMGR9xfu9",
+      "source": "node-qXOGqORi3EdqwsP9Uhi9m",
+      "target": "node-hHXTth0ZP8O-iMGR9xfu9",
+      "animated": true
+    },
+    {
+      "id": "edge-node-hHXTth0ZP8O-iMGR9xfu9-node-43drPbTwPqJQPyzwYUdBT",
+      "source": "node-hHXTth0ZP8O-iMGR9xfu9",
+      "target": "node-43drPbTwPqJQPyzwYUdBT",
+      "animated": true
+    },
+    {
+      "id": "edge-node-43drPbTwPqJQPyzwYUdBT-node-b-LwyYiegbF0jIrn7HYRv",
+      "source": "node-43drPbTwPqJQPyzwYUdBT",
+      "target": "node-b-LwyYiegbF0jIrn7HYRv",
+      "animated": true
+    },
+    {
+      "id": "edge-node-b-LwyYiegbF0jIrn7HYRv-node-jjA9E0J8N2frfeJCNtA1m",
+      "source": "node-b-LwyYiegbF0jIrn7HYRv",
+      "target": "node-jjA9E0J8N2frfeJCNtA1m",
+      "animated": true
+    },
+    {
+      "id": "edge-node-jjA9E0J8N2frfeJCNtA1m-node-NCdsPRhJy7UtQFNLo1J1f",
+      "source": "node-jjA9E0J8N2frfeJCNtA1m",
+      "target": "node-NCdsPRhJy7UtQFNLo1J1f",
+      "animated": true
+    },
+    {
+      "id": "edge-node-NCdsPRhJy7UtQFNLo1J1f-node-0NKqLUWtJMlXn-m6wpA6f",
+      "source": "node-NCdsPRhJy7UtQFNLo1J1f",
+      "target": "node-0NKqLUWtJMlXn-m6wpA6f",
+      "animated": true
+    },
+    {
+      "id": "edge-node-0NKqLUWtJMlXn-m6wpA6f-node-6eu5NRA1sJuaHTlHtNurc",
+      "source": "node-0NKqLUWtJMlXn-m6wpA6f",
+      "target": "node-6eu5NRA1sJuaHTlHtNurc",
+      "animated": true
+    },
+    {
+      "id": "edge-node-6eu5NRA1sJuaHTlHtNurc-node-ks6PFN-0Z9zH7gtWaWgxz",
+      "source": "node-6eu5NRA1sJuaHTlHtNurc",
+      "target": "node-ks6PFN-0Z9zH7gtWaWgxz",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ks6PFN-0Z9zH7gtWaWgxz-node-yGRQcx64S-yBGEoOeMc55",
+      "source": "node-ks6PFN-0Z9zH7gtWaWgxz",
+      "target": "node-yGRQcx64S-yBGEoOeMc55",
+      "animated": true
+    },
+    {
+      "id": "edge-node-yGRQcx64S-yBGEoOeMc55-node-rxVR62_yXIjc-L4GFSV6u",
+      "source": "node-yGRQcx64S-yBGEoOeMc55",
+      "target": "node-rxVR62_yXIjc-L4GFSV6u",
+      "animated": true
+    },
+    {
+      "id": "edge-node-rxVR62_yXIjc-L4GFSV6u-node-frshJqVMP8D7o_7tMZMPI",
+      "source": "node-rxVR62_yXIjc-L4GFSV6u",
+      "target": "node-frshJqVMP8D7o_7tMZMPI",
+      "animated": true
+    },
+    {
+      "id": "edge-node-frshJqVMP8D7o_7tMZMPI-node-086zZYjtzdCaDHm-MkSqg",
+      "source": "node-frshJqVMP8D7o_7tMZMPI",
+      "target": "node-086zZYjtzdCaDHm-MkSqg",
+      "animated": true
+    },
+    {
+      "id": "edge-node-086zZYjtzdCaDHm-MkSqg-node-4p5d3rzCHy4vjg2PRX-2k",
+      "source": "node-086zZYjtzdCaDHm-MkSqg",
+      "target": "node-4p5d3rzCHy4vjg2PRX-2k",
+      "animated": true
+    },
+    {
+      "id": "edge-node-4p5d3rzCHy4vjg2PRX-2k-node-M5UG-ZcyhBPbksZd0ZdNt",
+      "source": "node-4p5d3rzCHy4vjg2PRX-2k",
+      "target": "node-M5UG-ZcyhBPbksZd0ZdNt",
+      "animated": true
+    },
+    {
+      "id": "edge-node-M5UG-ZcyhBPbksZd0ZdNt-node--8wAzF6_3gruiM3VYMvB0",
+      "source": "node-M5UG-ZcyhBPbksZd0ZdNt",
+      "target": "node--8wAzF6_3gruiM3VYMvB0",
+      "animated": true
+    },
+    {
+      "id": "edge-node--8wAzF6_3gruiM3VYMvB0-node-Vs4WQwgJFhA63U9Gf2ym0",
+      "source": "node--8wAzF6_3gruiM3VYMvB0",
+      "target": "node-Vs4WQwgJFhA63U9Gf2ym0",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Vs4WQwgJFhA63U9Gf2ym0-node-3Nsg-F3wMKEzEsXw1MBZv",
+      "source": "node-Vs4WQwgJFhA63U9Gf2ym0",
+      "target": "node-3Nsg-F3wMKEzEsXw1MBZv",
+      "animated": true
+    },
+    {
+      "id": "edge-node-3Nsg-F3wMKEzEsXw1MBZv-node-01nDXqxVdMv4SeXc0nYHH",
+      "source": "node-3Nsg-F3wMKEzEsXw1MBZv",
+      "target": "node-01nDXqxVdMv4SeXc0nYHH",
+      "animated": true
+    },
+    {
+      "id": "edge-node-01nDXqxVdMv4SeXc0nYHH-node-Py9nst2FDJ1_hoXeX_qSF",
+      "source": "node-01nDXqxVdMv4SeXc0nYHH",
+      "target": "node-Py9nst2FDJ1_hoXeX_qSF",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Py9nst2FDJ1_hoXeX_qSF-node-RqXpX2XabtHYVjgg1EZR_",
+      "source": "node-Py9nst2FDJ1_hoXeX_qSF",
+      "target": "node-RqXpX2XabtHYVjgg1EZR_",
+      "animated": true
+    },
+    {
+      "id": "edge-node-RqXpX2XabtHYVjgg1EZR_-node-BvV8VCX39wRB-g8WvGF1g",
+      "source": "node-RqXpX2XabtHYVjgg1EZR_",
+      "target": "node-BvV8VCX39wRB-g8WvGF1g",
+      "animated": true
+    },
+    {
+      "id": "edge-node-BvV8VCX39wRB-g8WvGF1g-node-w5QjzvOaciK2rotOkjvjQ",
+      "source": "node-BvV8VCX39wRB-g8WvGF1g",
+      "target": "node-w5QjzvOaciK2rotOkjvjQ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-w5QjzvOaciK2rotOkjvjQ-node-r1eJZDZYouUjnGwAtRbyU",
+      "source": "node-w5QjzvOaciK2rotOkjvjQ",
+      "target": "node-r1eJZDZYouUjnGwAtRbyU",
+      "animated": true
+    },
+    {
+      "id": "edge-node-r1eJZDZYouUjnGwAtRbyU-node-fh5aERX7c-lY9FPsmftoF",
+      "source": "node-r1eJZDZYouUjnGwAtRbyU",
+      "target": "node-fh5aERX7c-lY9FPsmftoF",
+      "animated": true
+    },
+    {
+      "id": "edge-node-fh5aERX7c-lY9FPsmftoF-node-PP_RRBo_pThe2mgf6xzMP",
+      "source": "node-fh5aERX7c-lY9FPsmftoF",
+      "target": "node-PP_RRBo_pThe2mgf6xzMP",
+      "animated": true
+    },
+    {
+      "id": "edge-node-PP_RRBo_pThe2mgf6xzMP-node-mw-weCutd2ECKlx2DE_ZJ",
+      "source": "node-PP_RRBo_pThe2mgf6xzMP",
+      "target": "node-mw-weCutd2ECKlx2DE_ZJ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-mw-weCutd2ECKlx2DE_ZJ-node-XxT9UUjbKW1ARyERSLH_W",
+      "source": "node-mw-weCutd2ECKlx2DE_ZJ",
+      "target": "node-XxT9UUjbKW1ARyERSLH_W",
+      "animated": true
+    },
+    {
+      "id": "edge-node-XxT9UUjbKW1ARyERSLH_W-node-z2eeBXPzo-diQ67Fcfyhc",
+      "source": "node-XxT9UUjbKW1ARyERSLH_W",
+      "target": "node-z2eeBXPzo-diQ67Fcfyhc",
+      "animated": true
+    },
+    {
+      "id": "edge-node-z2eeBXPzo-diQ67Fcfyhc-node-mAaEz-bwB5DLaBbOSYGMn",
+      "source": "node-z2eeBXPzo-diQ67Fcfyhc",
+      "target": "node-mAaEz-bwB5DLaBbOSYGMn",
+      "animated": true
+    },
+    {
+      "id": "edge-node-mAaEz-bwB5DLaBbOSYGMn-node-vYug8kcwrMoWf8ft4UDNI",
+      "source": "node-mAaEz-bwB5DLaBbOSYGMn",
+      "target": "node-vYug8kcwrMoWf8ft4UDNI",
+      "animated": true
+    },
+    {
+      "id": "edge-node-vYug8kcwrMoWf8ft4UDNI-node-W5kX5jn49hghRgkEw6_S3",
+      "source": "node-vYug8kcwrMoWf8ft4UDNI",
+      "target": "node-W5kX5jn49hghRgkEw6_S3",
+      "animated": true
+    },
+    {
+      "id": "edge-node-W5kX5jn49hghRgkEw6_S3-node-InlMtuaUJ9EXO-OD9x1jj",
+      "source": "node-W5kX5jn49hghRgkEw6_S3",
+      "target": "node-InlMtuaUJ9EXO-OD9x1jj",
+      "animated": true
+    },
+    {
+      "id": "edge-node-InlMtuaUJ9EXO-OD9x1jj-node-Kmyo1_Mor9WHLkRhNShRZ",
+      "source": "node-InlMtuaUJ9EXO-OD9x1jj",
+      "target": "node-Kmyo1_Mor9WHLkRhNShRZ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Kmyo1_Mor9WHLkRhNShRZ-node-jrH1qE6EnFXL4fTyYU8gR",
+      "source": "node-Kmyo1_Mor9WHLkRhNShRZ",
+      "target": "node-jrH1qE6EnFXL4fTyYU8gR",
+      "animated": true
+    },
+    {
+      "id": "edge-node-jrH1qE6EnFXL4fTyYU8gR-node-vEUfw_vobshuZI0-q8RZo",
+      "source": "node-jrH1qE6EnFXL4fTyYU8gR",
+      "target": "node-vEUfw_vobshuZI0-q8RZo",
+      "animated": true
+    },
+    {
+      "id": "edge-node-vEUfw_vobshuZI0-q8RZo-node-uKjB2qntFTpPuYUT9sdxd",
+      "source": "node-vEUfw_vobshuZI0-q8RZo",
+      "target": "node-uKjB2qntFTpPuYUT9sdxd",
+      "animated": true
+    },
+    {
+      "id": "edge-node-uKjB2qntFTpPuYUT9sdxd-node-LShK3-1EGGuXnEvdScFR7",
+      "source": "node-uKjB2qntFTpPuYUT9sdxd",
+      "target": "node-LShK3-1EGGuXnEvdScFR7",
+      "animated": true
+    },
+    {
+      "id": "edge-node-LShK3-1EGGuXnEvdScFR7-node-woemCQmWTR-hIoWAci3d5",
+      "source": "node-LShK3-1EGGuXnEvdScFR7",
+      "target": "node-woemCQmWTR-hIoWAci3d5",
+      "animated": true
+    },
+    {
+      "id": "edge-node-woemCQmWTR-hIoWAci3d5-node-eHtVLB6v3h7hatJb-9cZK",
+      "source": "node-woemCQmWTR-hIoWAci3d5",
+      "target": "node-eHtVLB6v3h7hatJb-9cZK",
+      "animated": true
+    },
+    {
+      "id": "edge-node-eHtVLB6v3h7hatJb-9cZK-node-74JxgfJ_1qmVNZ_QRp9Ne",
+      "source": "node-eHtVLB6v3h7hatJb-9cZK",
+      "target": "node-74JxgfJ_1qmVNZ_QRp9Ne",
+      "animated": true
+    },
+    {
+      "id": "edge-node-74JxgfJ_1qmVNZ_QRp9Ne-node-i4ijY3T5gLgNz0XqRipXe",
+      "source": "node-74JxgfJ_1qmVNZ_QRp9Ne",
+      "target": "node-i4ijY3T5gLgNz0XqRipXe",
+      "animated": true
+    }
+  ],
+  "topics": {
+    "EqYWfBL5l5OOquok_OvOW": {
+      "id": "EqYWfBL5l5OOquok_OvOW",
+      "slug": "application-architecture",
+      "title": "Application Architecture",
+      "description": "Application architecture in containerized environments focuses on designing applications to leverage containerization benefits. This includes microservices patterns, service decomposition, inter-service communication, data persistence strategies, and designing for scalability and fault tolerance in distributed systems.",
+      "resources": [
+        {
+          "id": "EqYWfBL5l5OOquok_OvOW-res-1",
+          "type": "article",
+          "title": "Docker Application Design Patterns",
+          "url": "https://docs.docker.com/get-started/docker-concepts/building-images/"
+        },
+        {
+          "id": "EqYWfBL5l5OOquok_OvOW-res-2",
+          "type": "article",
+          "title": "Microservices Architecture",
+          "url": "https://microservices.io/"
+        },
+        {
+          "id": "EqYWfBL5l5OOquok_OvOW-res-3",
+          "type": "article",
+          "title": "Container Design Patterns",
+          "url": "https://kubernetes.io/blog/2016/06/container-design-patterns/"
+        },
+        {
+          "id": "EqYWfBL5l5OOquok_OvOW-res-4",
+          "type": "article",
+          "title": "Twelve-Factor App Methodology",
+          "url": "https://12factor.net/"
+        },
+        {
+          "id": "EqYWfBL5l5OOquok_OvOW-res-5",
+          "type": "video",
+          "title": "Microservices vs Monolith Architecture",
+          "url": "https://www.youtube.com/watch?v=GBTdnfD6s5Q"
+        }
+      ]
+    },
+    "3hatcMVLDbMuz73uTx-9P": {
+      "id": "3hatcMVLDbMuz73uTx-9P",
+      "slug": "bare-metal-vs-vms-vs-containers",
+      "title": "Bare Metal vs VM vs Containers",
+      "description": "Bare metal runs applications directly on hardware with maximum performance but limited flexibility. VMs use hypervisors to run multiple OS instances with strong isolation but higher overhead. Containers share the host OS kernel, providing lightweight isolation with better resource efficiency than VMs while maintaining portability.",
+      "resources": [
+        {
+          "id": "3hatcMVLDbMuz73uTx-9P-res-1",
+          "type": "article",
+          "title": "History of Virtualization",
+          "url": "https://courses.devopsdirective.com/docker-beginner-to-pro/lessons/01-history-and-motivation/03-history-of-virtualization"
+        },
+        {
+          "id": "3hatcMVLDbMuz73uTx-9P-res-2",
+          "type": "article",
+          "title": "Bare Metal Machine",
+          "url": "https://glossary.cncf.io/bare-metal-machine/"
+        },
+        {
+          "id": "3hatcMVLDbMuz73uTx-9P-res-3",
+          "type": "article",
+          "title": "What is a Virtual Machine?",
+          "url": "https://azure.microsoft.com/en-au/resources/cloud-computing-dictionary/what-is-a-virtual-machine"
+        }
+      ]
+    },
+    "kIqx7Inf50mE9W0juwNBz": {
+      "id": "kIqx7Inf50mE9W0juwNBz",
+      "slug": "basics-of-docker",
+      "title": "Docker Basics",
+      "description": "Docker is a platform that simplifies building, packaging, and deploying applications in lightweight, portable containers. Key components include Dockerfiles (build instructions), Images (snapshots), and Containers (running instances). Essential commands cover pulling images, building from Dockerfiles, running containers with port mapping, and managing both containers and images. What is a Container? -------------------- A container is a lightweight, standalone, and executable software package that includes all the dependencies (libraries, binaries, and configuration files) required to run an application. Containers isolate applications from their environment, ensuring they work consistently across different systems. Docker Components ----------------- There are three key components in the Docker ecosystem: *   **Dockerfile**: A text file containing instructions (commands) to build a Docker image. *   **Docker Image**: A snapshot of a container, created from a Dockerfile. Images are stored in a registry, like Docker Hub, and can be pulled or pushed to the registry. *   **Docker Container**: A running instance of a Docker image. Docker Commands --------------- Below are some essential Docker commands you'll use frequently: *   `docker pull <image>`: Download an image from a registry, like Docker Hub. *   `docker build -t <image_name> <path>`: Build an image from a Dockerfile, where `<path>` is the directory containing the Dockerfile. *   `docker image ls`: List all images available on your local machine. *   `docker run -d -p <host_port>:<container_port> --name <container_name> <image>`: Run a container from an image, mapping host ports to container ports. *   `docker container ls`: List all running containers. *   `docker container stop <container>`: Stop a running container. *   `docker container rm <container>`: Remove a stopped container. *   `docker image rm <image>`: Remove an image from your local machine.",
+      "resources": []
+    },
+    "wZcCW1ojGzUakHCv2AaI1": {
+      "id": "wZcCW1ojGzUakHCv2AaI1",
+      "slug": "bind-mounts",
+      "title": "Bind Mounts",
+      "description": "Bind mounts have limited functionality compared to volumes. When you use a bind mount, a file or directory on the host machine is mounted into a container. The file or directory is referenced by its absolute path on the host machine. By contrast, when you use a volume, a new directory is created within Docker's storage directory on the host machine, and Docker manages that directory's contents.",
+      "resources": [
+        {
+          "id": "wZcCW1ojGzUakHCv2AaI1-res-1",
+          "type": "article",
+          "title": "Docker Bind Mounts",
+          "url": "https://docs.docker.com/storage/bind-mounts/"
+        }
+      ]
+    },
+    "5OEfBQaYNOCi999x6QUqW": {
+      "id": "5OEfBQaYNOCi999x6QUqW",
+      "slug": "building-container-images",
+      "title": "Building Container Images",
+      "description": "Container images are executable packages that include everything required to run an application: code, runtime, system tools, libraries, and settings. By building custom images, you can deploy applications seamlessly with all their dependencies on any Docker-supported platform. The key component in building a container image is the `Dockerfile`. It is essentially a script containing instructions on how to assemble a Docker image. Each instruction in the Dockerfile creates a new layer in the image, making it easier to track changes and minimize the image size. Here's a simple example of a Dockerfile:",
+      "resources": [
+        {
+          "id": "5OEfBQaYNOCi999x6QUqW-res-1",
+          "type": "article",
+          "title": "Docker Build Overview",
+          "url": "https://docs.docker.com/build/concepts/overview"
+        },
+        {
+          "id": "5OEfBQaYNOCi999x6QUqW-res-2",
+          "type": "article",
+          "title": "Docker Image Builder",
+          "url": "https://docs.docker.com/reference/cli/docker/buildx/build/"
+        },
+        {
+          "id": "5OEfBQaYNOCi999x6QUqW-res-3",
+          "type": "article",
+          "title": "Dockerfile Reference",
+          "url": "https://docs.docker.com/engine/reference/builder/"
+        },
+        {
+          "id": "5OEfBQaYNOCi999x6QUqW-res-4",
+          "type": "article",
+          "title": "Dockerfile Examples",
+          "url": "https://github.com/dockersamples"
+        }
+      ]
+    },
+    "fRl4EfNwlBiidzn3IV34-": {
+      "id": "fRl4EfNwlBiidzn3IV34-",
+      "slug": "cgroups",
+      "title": "cgroups",
+      "description": "cgroups (control groups) are Linux kernel features that limit and manage system resources like CPU, memory, and I/O for process groups. Docker uses cgroups to enforce resource constraints on containers, ensuring predictable performance and preventing containers from consuming excessive system resources.",
+      "resources": [
+        {
+          "id": "fRl4EfNwlBiidzn3IV34--res-1",
+          "type": "article",
+          "title": "Control Groups",
+          "url": "https://www.docker.com/resources/what-container/#control-groups"
+        },
+        {
+          "id": "fRl4EfNwlBiidzn3IV34--res-2",
+          "type": "article",
+          "title": "Control Groups - Medium",
+          "url": "https://medium.com/@furkan.turkal/how-does-docker-actually-work-the-hard-way-a-technical-deep-diving-c5b8ea2f0422"
+        },
+        {
+          "id": "fRl4EfNwlBiidzn3IV34--res-3",
+          "type": "video",
+          "title": "An introduction to cgroups, runc & containerD",
+          "url": "https://www.youtube.com/watch?v=u1LeMndEk70"
+        }
+      ]
+    },
+    "YzpB7rgSR4ueQRLa0bRWa": {
+      "id": "YzpB7rgSR4ueQRLa0bRWa",
+      "slug": "command-line-utilities",
+      "title": "Command Line Utilities",
+      "description": "Docker images can include command line utilities or standalone applications that we can run inside containers.",
+      "resources": [
+        {
+          "id": "YzpB7rgSR4ueQRLa0bRWa-res-1",
+          "type": "article",
+          "title": "Docker Images",
+          "url": "https://docs.docker.com/engine/reference/commandline/images/"
+        },
+        {
+          "id": "YzpB7rgSR4ueQRLa0bRWa-res-2",
+          "type": "article",
+          "title": "Docker Run",
+          "url": "https://docs.docker.com/reference/cli/docker/container/run/"
+        },
+        {
+          "id": "YzpB7rgSR4ueQRLa0bRWa-res-3",
+          "type": "article",
+          "title": "Docker Pull",
+          "url": "https://docs.docker.com/engine/reference/commandline/pull/"
+        }
+      ]
+    },
+    "3VKPiMfbGBxv9m_SljIQV": {
+      "id": "3VKPiMfbGBxv9m_SljIQV",
+      "slug": "container-registries",
+      "title": "Container Registries",
+      "description": "A Container Registry is a centralized storage and distribution system for Docker container images. It allows developers to easily share and deploy applications in the form of these images. Container registries play a crucial role in the deployment of containerized applications, as they provide a fast, reliable, and secure way to distribute container images across various production environments.",
+      "resources": [
+        {
+          "id": "3VKPiMfbGBxv9m_SljIQV-res-1",
+          "type": "article",
+          "title": "Docker Registry",
+          "url": "https://docs.docker.com/registry/"
+        },
+        {
+          "id": "3VKPiMfbGBxv9m_SljIQV-res-2",
+          "type": "article",
+          "title": "Docker Hub",
+          "url": "https://hub.docker.com/"
+        },
+        {
+          "id": "3VKPiMfbGBxv9m_SljIQV-res-3",
+          "type": "article",
+          "title": "Artifact Registry",
+          "url": "https://cloud.google.com/artifact-registry"
+        },
+        {
+          "id": "3VKPiMfbGBxv9m_SljIQV-res-4",
+          "type": "article",
+          "title": "Amazon ECR",
+          "url": "https://aws.amazon.com/ecr/"
+        },
+        {
+          "id": "3VKPiMfbGBxv9m_SljIQV-res-5",
+          "type": "article",
+          "title": "Azure Container Registry",
+          "url": "https://azure.microsoft.com/en-in/products/container-registry"
+        }
+      ]
+    },
+    "78YFahP3Fg-c27reLkuK4": {
+      "id": "78YFahP3Fg-c27reLkuK4",
+      "slug": "container-security",
+      "title": "Container Security",
+      "description": "Container security encompasses a broad set of practices and tools aimed at protecting containerized applications from development through deployment and runtime. It involves securing the container image, ensuring that only trusted and non-vulnerable code is used, implementing strong access controls for container environments, and configuring containers to follow the principle of least privilege. Additionally, it includes monitoring for unexpected behavior, protecting communication between containers, and maintaining the host environment’s security. Effective container security integrates seamlessly into DevSecOps workflows to provide continuous visibility and protection across the container lifecycle without disrupting development speed or agility.",
+      "resources": [
+        {
+          "id": "78YFahP3Fg-c27reLkuK4-res-1",
+          "type": "article",
+          "title": "Docker Security",
+          "url": "https://docs.docker.com/engine/security/"
+        },
+        {
+          "id": "78YFahP3Fg-c27reLkuK4-res-2",
+          "type": "article",
+          "title": "Kubernetes Security Best Practices",
+          "url": "https://www.aquasec.com/cloud-native-academy/kubernetes-in-production/kubernetes-security-best-practices-10-steps-to-securing-k8s/"
+        }
+      ]
+    },
+    "jhwe-xfVc-C7qy8YuS5dZ": {
+      "id": "jhwe-xfVc-C7qy8YuS5dZ",
+      "slug": "containers",
+      "title": "Containers",
+      "description": "Containers are isolated, lightweight environments that run applications using a shared operating system kernel, ensuring consistency and portability across different computing environments. They encapsulate everything needed to run an application, such as code, dependencies, and configurations, making it easy to move and run the containerized application anywhere. Using the Docker CLI, you can create, start, stop, and manage containers with commands like `docker run`, `docker ps` to list running containers, `docker stop` to halt them, and `docker exec` to interact with them in real time. The CLI provides a powerful interface for developers to build, control, and debug containers effortlessly, allowing for streamlined development and operational workflows.",
+      "resources": [
+        {
+          "id": "jhwe-xfVc-C7qy8YuS5dZ-res-1",
+          "type": "article",
+          "title": "Docker CLI Commands",
+          "url": "https://docs.docker.com/engine/reference/commandline/cli/"
+        },
+        {
+          "id": "jhwe-xfVc-C7qy8YuS5dZ-res-2",
+          "type": "article",
+          "title": "Docker CLI Commands Cheat Sheet",
+          "url": "https://docs.docker.com/get-started/docker_cheatsheet.pdf"
+        }
+      ]
+    },
+    "oyqw4tr-taZcxt5kREh1g": {
+      "id": "oyqw4tr-taZcxt5kREh1g",
+      "slug": "continuous-integration",
+      "title": "Continuous Integration (CI)",
+      "description": "Continuous integration is the idea of executing some actions (for example build, test, etc...) automatically as you push code to your version control system. For containers, there are a number of things we may want to do: *   Build the container images *   Execute tests *   Scan container images for vulnerabilities *   Tag images with useful metadata *   Push to a container registry",
+      "resources": [
+        {
+          "id": "oyqw4tr-taZcxt5kREh1g-res-1",
+          "type": "article",
+          "title": "Continuous Integration - Docker",
+          "url": "https://courses.devopsdirective.com/docker-beginner-to-pro/lessons/11-development-workflow/04-continuous-integration-github-actions"
+        },
+        {
+          "id": "oyqw4tr-taZcxt5kREh1g-res-2",
+          "type": "article",
+          "title": "Explore top posts about CI/CD",
+          "url": "https://app.daily.dev/tags/cicd?ref=roadmapsh"
+        }
+      ]
+    },
+    "uUPYXmwu27SBPqKZx6U_q": {
+      "id": "uUPYXmwu27SBPqKZx6U_q",
+      "slug": "data-persistence",
+      "title": "Data Persistence in Docker",
+      "description": "Docker enables you to run containers that are isolated pieces of code, including applications and their dependencies, separated from the host operating system. Containers are ephemeral by default, which means any data stored in the container will be lost once it is terminated. To overcome this problem and retain data across container lifecycle, Docker provides various data persistence methods.",
+      "resources": [
+        {
+          "id": "uUPYXmwu27SBPqKZx6U_q-res-1",
+          "type": "article",
+          "title": "Data Persistence - Docker Documentation",
+          "url": "https://docs.docker.com/get-started/docker-concepts/running-containers/persisting-container-data/"
+        }
+      ]
+    },
+    "jKSE_wKYf4P9wnSh_LkMi": {
+      "id": "jKSE_wKYf4P9wnSh_LkMi",
+      "slug": "databases",
+      "title": "Using Databases",
+      "description": "Running your database in a Docker container can help streamline your development process and ease deployment. Docker Hub provides numerous pre-made images for popular databases such as MySQL, PostgreSQL, and MongoDB.",
+      "resources": [
+        {
+          "id": "jKSE_wKYf4P9wnSh_LkMi-res-1",
+          "type": "article",
+          "title": "Containerized Databases",
+          "url": "https://docs.docker.com/guides/use-case/databases/"
+        },
+        {
+          "id": "jKSE_wKYf4P9wnSh_LkMi-res-2",
+          "type": "video",
+          "title": "How to Setup MySQL Database with Docker",
+          "url": "https://www.youtube.com/watch?v=igc2zsOKPJs"
+        }
+      ]
+    },
+    "LiAV9crrTHhLqeZhD25a2": {
+      "id": "LiAV9crrTHhLqeZhD25a2",
+      "slug": "debuggers",
+      "title": "Debuggers in Docker",
+      "description": "In order to make developing with containers competitive with developing locally, we need the ability to run and attach to debuggers inside the container.",
+      "resources": [
+        {
+          "id": "LiAV9crrTHhLqeZhD25a2-res-1",
+          "type": "article",
+          "title": "Docker Buildx Debug",
+          "url": "https://docs.docker.com/reference/cli/docker/buildx/debug/"
+        },
+        {
+          "id": "LiAV9crrTHhLqeZhD25a2-res-2",
+          "type": "article",
+          "title": "Debuggers in Docker",
+          "url": "https://courses.devopsdirective.com/docker-beginner-to-pro/lessons/11-development-workflow/02-debug-and-test"
+        }
+      ]
+    },
+    "qXOGqORi3EdqwsP9Uhi9m": {
+      "id": "qXOGqORi3EdqwsP9Uhi9m",
+      "slug": "deploying-containers",
+      "title": "Deploying Containers",
+      "description": "Deploying containers is a crucial step in using Docker and containerization to manage applications more efficiently, easily scale, and ensure consistent performance across environments. This topic will give you an overview of how to deploy Docker containers to create and run your applications.",
+      "resources": [
+        {
+          "id": "qXOGqORi3EdqwsP9Uhi9m-res-1",
+          "type": "article",
+          "title": "Docker Deployment",
+          "url": "https://docs.docker.com/guides/orchestration/"
+        },
+        {
+          "id": "qXOGqORi3EdqwsP9Uhi9m-res-2",
+          "type": "article",
+          "title": "Docker Compose",
+          "url": "https://docs.docker.com/compose/"
+        },
+        {
+          "id": "qXOGqORi3EdqwsP9Uhi9m-res-3",
+          "type": "article",
+          "title": "Docker Swarm",
+          "url": "https://docs.docker.com/engine/swarm/"
+        }
+      ]
+    },
+    "hHXTth0ZP8O-iMGR9xfu9": {
+      "id": "hHXTth0ZP8O-iMGR9xfu9",
+      "slug": "developer-experience",
+      "title": "Developer Experience",
+      "description": "Docker significantly enhances the developer experience by providing a consistent, isolated environment for building, testing, and running applications, eliminating the “it works on my machine” problem. With Docker, developers can package their applications and dependencies into portable containers, ensuring consistency across different environments, from local development to staging and production. The simplified setup and reproducibility of environments accelerate onboarding, minimize conflicts, and allow developers to focus on coding rather than troubleshooting configurations. Moreover, tools like Docker Compose enable quick orchestration of complex multi-container applications, making it easier to prototype, iterate, and collaborate, ultimately streamlining the entire development lifecycle.",
+      "resources": [
+        {
+          "id": "hHXTth0ZP8O-iMGR9xfu9-res-1",
+          "type": "article",
+          "title": "Docker Developer Experience",
+          "url": "https://www.docker.com/blog/cto-chat-overcoming-the-developer-experience-gap-feat-redmonk-flow-io/"
+        },
+        {
+          "id": "hHXTth0ZP8O-iMGR9xfu9-res-2",
+          "type": "article",
+          "title": "Developer Experience Wishlist - Docker",
+          "url": "https://courses.devopsdirective.com/docker-beginner-to-pro/lessons/11-development-workflow/00-devx-wishlist#key-devx-features"
+        }
+      ]
+    },
+    "43drPbTwPqJQPyzwYUdBT": {
+      "id": "43drPbTwPqJQPyzwYUdBT",
+      "slug": "docker-and-oci",
+      "title": "Docker and OCI",
+      "description": "The Open Container Initiative (OCI) is a Linux Foundation project which aims at creating industry standards for container formats and runtimes. Its primary goal is to ensure the compatibility and interoperability of container environments through defined technical specifications.",
+      "resources": [
+        {
+          "id": "43drPbTwPqJQPyzwYUdBT-res-1",
+          "type": "article",
+          "title": "Open Container Initiative",
+          "url": "https://opencontainers.org/"
+        },
+        {
+          "id": "43drPbTwPqJQPyzwYUdBT-res-2",
+          "type": "article",
+          "title": "OCI - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Open_Container_Initiative"
+        }
+      ]
+    },
+    "b-LwyYiegbF0jIrn7HYRv": {
+      "id": "b-LwyYiegbF0jIrn7HYRv",
+      "slug": "docker-cli",
+      "title": "Docker CLI",
+      "description": "The Docker Command Line Interface (CLI) is a powerful tool used to interact with the Docker engine, enabling developers and operators to build, manage, and troubleshoot containers and related resources. With a wide range of commands, the Docker CLI provides control over all aspects of Docker, including creating and managing containers (`docker run`, `docker stop`), building images (`docker build`), managing networks (`docker network`), handling storage (`docker volume`), and inspecting system status (`docker ps`, `docker info`). Its intuitive syntax and flexibility allow users to automate complex workflows, streamline development processes, and maintain containerized applications with ease, making it a foundational utility for Docker management and orchestration.",
+      "resources": [
+        {
+          "id": "b-LwyYiegbF0jIrn7HYRv-res-1",
+          "type": "article",
+          "title": "Docker CLI",
+          "url": "https://docs.docker.com/reference/cli/docker/"
+        },
+        {
+          "id": "b-LwyYiegbF0jIrn7HYRv-res-2",
+          "type": "article",
+          "title": "Docker Compose",
+          "url": "https://docs.docker.com/compose/"
+        }
+      ]
+    },
+    "jjA9E0J8N2frfeJCNtA1m": {
+      "id": "jjA9E0J8N2frfeJCNtA1m",
+      "slug": "docker-compose",
+      "title": "Docker Compose",
+      "description": "Docker Compose is a tool for defining and running multi-container applications using a YAML file (`docker-compose.yml`). It describes application services, networks, and volumes, enabling you to create, manage, and run entire containerized applications with single commands for simplified orchestration.",
+      "resources": [
+        {
+          "id": "jjA9E0J8N2frfeJCNtA1m-res-1",
+          "type": "article",
+          "title": "Docker Compose documentation",
+          "url": "https://docs.docker.com/compose/"
+        },
+        {
+          "id": "jjA9E0J8N2frfeJCNtA1m-res-2",
+          "type": "article",
+          "title": "Curated Docker Compose Samples",
+          "url": "https://github.com/docker/awesome-compose?tab=readme-ov-file"
+        },
+        {
+          "id": "jjA9E0J8N2frfeJCNtA1m-res-3",
+          "type": "video",
+          "title": "Docker Compose Tutorial",
+          "url": "https://www.youtube.com/watch?v=DM65_JyGxCo"
+        }
+      ]
+    },
+    "NCdsPRhJy7UtQFNLo1J1f": {
+      "id": "NCdsPRhJy7UtQFNLo1J1f",
+      "slug": "docker-desktop-winmaclinux",
+      "title": "Docker Desktop",
+      "description": "Docker Desktop is a comprehensive development environment for Windows, macOS, and Linux with a GUI. It includes Docker Engine, CLI, Buildx, Extensions, Compose, Kubernetes, and credentials helper, providing everything needed for container development on desktop platforms.",
+      "resources": [
+        {
+          "id": "NCdsPRhJy7UtQFNLo1J1f-res-1",
+          "type": "article",
+          "title": "Docker Desktop Documentation",
+          "url": "https://docs.docker.com/desktop/"
+        },
+        {
+          "id": "NCdsPRhJy7UtQFNLo1J1f-res-2",
+          "type": "article",
+          "title": "Docker Get Started Guide",
+          "url": "https://docs.docker.com/get-started/"
+        },
+        {
+          "id": "NCdsPRhJy7UtQFNLo1J1f-res-3",
+          "type": "article",
+          "title": "Docker Hub",
+          "url": "https://hub.docker.com/"
+        },
+        {
+          "id": "NCdsPRhJy7UtQFNLo1J1f-res-4",
+          "type": "article",
+          "title": "Explore top posts about Docker",
+          "url": "https://app.daily.dev/tags/docker?ref=roadmapsh"
+        }
+      ]
+    },
+    "0NKqLUWtJMlXn-m6wpA6f": {
+      "id": "0NKqLUWtJMlXn-m6wpA6f",
+      "slug": "docker-engine--linux",
+      "title": "Docker Engine",
+      "description": "Docker Engine is the core open-source containerization runtime that creates and manages containers, builds images, and provides the Docker API. It runs on Linux, Windows, and macOS, serving as the foundation for Docker Desktop and standalone Docker installations on servers.",
+      "resources": [
+        {
+          "id": "0NKqLUWtJMlXn-m6wpA6f-res-1",
+          "type": "article",
+          "title": "Docker Engine Installation Guide",
+          "url": "https://docs.docker.com/engine/install/"
+        },
+        {
+          "id": "0NKqLUWtJMlXn-m6wpA6f-res-2",
+          "type": "article",
+          "title": "Docker Engine - Docker Documentation",
+          "url": "https://docs.docker.com/engine/"
+        },
+        {
+          "id": "0NKqLUWtJMlXn-m6wpA6f-res-3",
+          "type": "video",
+          "title": "Docker Engine for Linux Servers Setup and Tips",
+          "url": "https://www.youtube.com/watch?v=YeF7ObTnDwc"
+        },
+        {
+          "id": "0NKqLUWtJMlXn-m6wpA6f-res-4",
+          "type": "article",
+          "title": "Explore top posts about Docker",
+          "url": "https://app.daily.dev/tags/docker?ref=roadmapsh"
+        }
+      ]
+    },
+    "6eu5NRA1sJuaHTlHtNurc": {
+      "id": "6eu5NRA1sJuaHTlHtNurc",
+      "slug": "docker-run",
+      "title": "Running Containers",
+      "description": "The `docker run` command creates and starts a new container from a specified image. It combines `docker create` and `docker start` operations, offering a range of options to customize the container's runtime environment. Users can set environment variables, map ports and volumes, define network connections, and specify resource limits. The command supports detached mode for background execution, interactive mode for shell access, and the ability to override the default command defined in the image. Common flags include `-d` for detached mode, `-p` for port mapping, `-v` for volume mounting, and `--name` for assigning a custom container name. Understanding `docker run` is fundamental to effectively deploying and managing Docker containers.",
+      "resources": [
+        {
+          "id": "6eu5NRA1sJuaHTlHtNurc-res-1",
+          "type": "article",
+          "title": "Docker Run",
+          "url": "https://docs.docker.com/engine/reference/commandline/run/"
+        }
+      ]
+    },
+    "ks6PFN-0Z9zH7gtWaWgxz": {
+      "id": "ks6PFN-0Z9zH7gtWaWgxz",
+      "slug": "docker-swarm",
+      "title": "Docker Swarm",
+      "description": "Docker Swarm is Docker’s native container orchestration tool that allows users to deploy, manage, and scale containers across a cluster of Docker hosts. By transforming a group of Docker nodes into a single, unified cluster, Swarm provides high availability, load balancing, and automated container scheduling using simple declarative commands. With features like service discovery, rolling updates, and integrated security through TLS encryption, Docker Swarm offers an approachable alternative to more complex orchestrators like Kubernetes. Its tight integration with the Docker CLI and ease of setup make it a suitable choice for small to medium-sized deployments where simplicity and straightforward management are priorities.",
+      "resources": [
+        {
+          "id": "ks6PFN-0Z9zH7gtWaWgxz-res-1",
+          "type": "article",
+          "title": "Docker Swarm",
+          "url": "https://docs.docker.com/engine/swarm/"
+        }
+      ]
+    },
+    "yGRQcx64S-yBGEoOeMc55": {
+      "id": "yGRQcx64S-yBGEoOeMc55",
+      "slug": "dockerfiles",
+      "title": "Dockerfile",
+      "description": "A Dockerfile is a text document that contains a list of instructions used by the Docker engine to build an image. Each instruction in the Dockerfile adds a new layer to the image. Docker will build the image based on these instructions, and then you can run containers from the image.",
+      "resources": [
+        {
+          "id": "yGRQcx64S-yBGEoOeMc55-res-1",
+          "type": "article",
+          "title": "Dockerfile Reference",
+          "url": "https://docs.docker.com/engine/reference/builder/"
+        },
+        {
+          "id": "yGRQcx64S-yBGEoOeMc55-res-2",
+          "type": "article",
+          "title": "Dockerfile Best Practices",
+          "url": "https://docs.docker.com/develop/develop-images/dockerfile_best-practices/"
+        },
+        {
+          "id": "yGRQcx64S-yBGEoOeMc55-res-3",
+          "type": "article",
+          "title": "Dockerfile Examples",
+          "url": "https://github.com/dockersamples"
+        }
+      ]
+    },
+    "rxVR62_yXIjc-L4GFSV6u": {
+      "id": "rxVR62_yXIjc-L4GFSV6u",
+      "slug": "dockerhub",
+      "title": "DockerHub",
+      "description": "Docker Hub is a cloud-based registry service that serves as the primary public repository for Docker container images. It allows users to store, share, and distribute Docker images, offering both free public repositories and paid private ones and integrates seamlessly with Docker CLI, enabling easy pushing and pulling of images. It features official images maintained by software vendors, automated builds linked to source code repositories, and webhooks for triggering actions based on repository events.",
+      "resources": [
+        {
+          "id": "rxVR62_yXIjc-L4GFSV6u-res-1",
+          "type": "article",
+          "title": "DockerHub",
+          "url": "https://hub.docker.com/"
+        },
+        {
+          "id": "rxVR62_yXIjc-L4GFSV6u-res-2",
+          "type": "article",
+          "title": "DockerHub Repositories",
+          "url": "https://docs.docker.com/docker-hub/repos/"
+        },
+        {
+          "id": "rxVR62_yXIjc-L4GFSV6u-res-3",
+          "type": "article",
+          "title": "DockerHub Webhooks",
+          "url": "https://docs.docker.com/docker-hub/webhooks/"
+        }
+      ]
+    },
+    "frshJqVMP8D7o_7tMZMPI": {
+      "id": "frshJqVMP8D7o_7tMZMPI",
+      "slug": "efficient-layer-caching",
+      "title": "Efficient Layer Caching",
+      "description": "When building container images, Docker caches the newly created layers. These layers can then be used later on when building other images, reducing the build time and minimizing bandwidth usage. However, to make the most of this caching mechanism, you should be aware of how to efficiently use layer caching. Docker creates a new layer for each instruction (e.g., `RUN`, `COPY`, `ADD`, etc.) in the Dockerfile. If the instruction hasn't changed since the last build, Docker will reuse the existing layer.",
+      "resources": [
+        {
+          "id": "frshJqVMP8D7o_7tMZMPI-res-1",
+          "type": "article",
+          "title": "Docker Layer Caching",
+          "url": "https://docs.docker.com/build/cache/"
+        },
+        {
+          "id": "frshJqVMP8D7o_7tMZMPI-res-2",
+          "type": "video",
+          "title": "Layer Caching",
+          "url": "https://www.youtube.com/watch?v=_nMpndIyaBU"
+        }
+      ]
+    },
+    "086zZYjtzdCaDHm-MkSqg": {
+      "id": "086zZYjtzdCaDHm-MkSqg",
+      "slug": "ephemeral-container-filesystem",
+      "title": "Ephemeral FS",
+      "description": "By default, the storage within a Docker container is ephemeral, meaning that any data changes or modifications made inside a container will only persist until the container is stopped and removed. Once the container is stopped and removed, all the associated data will be lost. This is because Docker containers are designed to be stateless by nature. This temporary or short-lived storage is called the \"ephemeral container file system\". It is an essential feature of Docker, as it enables fast and consistent deployment of applications across different environments without worrying about the state of a container.",
+      "resources": [
+        {
+          "id": "086zZYjtzdCaDHm-MkSqg-res-1",
+          "type": "article",
+          "title": "Data Persistence - Docker Documentation",
+          "url": "https://docs.docker.com/get-started/docker-concepts/running-containers/persisting-container-data/"
+        },
+        {
+          "id": "086zZYjtzdCaDHm-MkSqg-res-2",
+          "type": "video",
+          "title": "Docker Concepts - Persisting container data",
+          "url": "https://www.youtube.com/watch?v=10_2BjqB_Ls"
+        }
+      ]
+    },
+    "4p5d3rzCHy4vjg2PRX-2k": {
+      "id": "4p5d3rzCHy4vjg2PRX-2k",
+      "slug": "hot-reloading",
+      "title": "Hot Reloading in Docker",
+      "description": "Even though we can speed up the image building with layer caching enable, we don't want to have to rebuild our container image with every code change. Instead, we want the state of our application in the container to reflect changes immediately. We can achieve this through a combination of bind mounts and hot reloading utilities!",
+      "resources": [
+        {
+          "id": "4p5d3rzCHy4vjg2PRX-2k-res-1",
+          "type": "article",
+          "title": "Hot Reloading - Docker",
+          "url": "https://courses.devopsdirective.com/docker-beginner-to-pro/lessons/11-development-workflow/01-hot-reloading"
+        }
+      ]
+    },
+    "M5UG-ZcyhBPbksZd0ZdNt": {
+      "id": "M5UG-ZcyhBPbksZd0ZdNt",
+      "slug": "image-security",
+      "title": "Image Security",
+      "description": "Image security is a crucial aspect of deploying Docker containers in your environment. Ensuring the images you use are secure, up to date, and free of vulnerabilities is essential. In this section, we will review best practices and tools for securing and managing your Docker images. When pulling images from public repositories, always use trusted, official images as a starting point for your containerized applications. Official images are vetted by Docker and are regularly updated with security fixes. You can find these images on the Docker Hub or other trusted registries.",
+      "resources": [
+        {
+          "id": "M5UG-ZcyhBPbksZd0ZdNt-res-1",
+          "type": "article",
+          "title": "Docker Content Trust",
+          "url": "https://docs.docker.com/engine/security/trust/content_trust/"
+        },
+        {
+          "id": "M5UG-ZcyhBPbksZd0ZdNt-res-2",
+          "type": "article",
+          "title": "Docker Hub",
+          "url": "https://hub.docker.com/"
+        }
+      ]
+    },
+    "-8wAzF6_3gruiM3VYMvB0": {
+      "id": "-8wAzF6_3gruiM3VYMvB0",
+      "slug": "image-size-and-security",
+      "title": "Reducing Image Size",
+      "description": "Reducing Docker image size is crucial for optimizing storage, transfer speeds, and deployment times. Key strategies include using minimal base images like Alpine Linux, leveraging multi-stage builds to exclude unnecessary build tools, removing unnecessary files and packages, and minimizing the number of layers by combining commands.",
+      "resources": [
+        {
+          "id": "-8wAzF6_3gruiM3VYMvB0-res-1",
+          "type": "article",
+          "title": "Multi-stage builds",
+          "url": "https://docs.docker.com/build/building/multi-stage/"
+        },
+        {
+          "id": "-8wAzF6_3gruiM3VYMvB0-res-2",
+          "type": "article",
+          "title": "Docker Best Practices",
+          "url": "https://docs.docker.com/develop/develop-images/dockerfile_best-practices/"
+        },
+        {
+          "id": "-8wAzF6_3gruiM3VYMvB0-res-3",
+          "type": "article",
+          "title": "Explore top posts about Security",
+          "url": "https://app.daily.dev/tags/security?ref=roadmapsh"
+        }
+      ]
+    },
+    "Vs4WQwgJFhA63U9Gf2ym0": {
+      "id": "Vs4WQwgJFhA63U9Gf2ym0",
+      "slug": "image-tagging-best-practices",
+      "title": "Image Tagging Best Practices",
+      "description": "Docker image tagging best practices center on creating clear, consistent, and informative labels. Adopt semantic versioning for releases, avoid the ambiguous \"latest\" tag in production, and include relevant metadata like build dates or Git commit hashes. Implement a strategy distinguishing between environments, use descriptive tags for variants, and automate tagging in CI/CD pipelines. Regularly clean up old tags and document your conventions to maintain clarity and facilitate team-wide adoption. These practices ensure efficient image management and improve collaboration across your organization.",
+      "resources": [
+        {
+          "id": "Vs4WQwgJFhA63U9Gf2ym0-res-1",
+          "type": "article",
+          "title": "Docker Tags",
+          "url": "https://docs.docker.com/get-started/docker-concepts/building-images/build-tag-and-publish-an-image/"
+        },
+        {
+          "id": "Vs4WQwgJFhA63U9Gf2ym0-res-2",
+          "type": "article",
+          "title": "Docker Image Tagging Best Practices",
+          "url": "https://medium.com/@nirmalkushwah08/docker-image-tagging-strategy-4aa886fb4fcc"
+        },
+        {
+          "id": "Vs4WQwgJFhA63U9Gf2ym0-res-3",
+          "type": "article",
+          "title": "Semantic Versioning",
+          "url": "https://semver.org/"
+        }
+      ]
+    },
+    "3Nsg-F3wMKEzEsXw1MBZv": {
+      "id": "3Nsg-F3wMKEzEsXw1MBZv",
+      "slug": "images",
+      "title": "Docker Images",
+      "description": "Docker images are lightweight, standalone packages containing everything needed to run software: application code, runtime, libraries, and system tools. Built in layers for efficient storage, they serve as blueprints for containers and can be shared through registries like Docker Hub for consistent deployment across environments.",
+      "resources": [
+        {
+          "id": "3Nsg-F3wMKEzEsXw1MBZv-res-1",
+          "type": "article",
+          "title": "What's the Difference Between Docker Images and Containers?",
+          "url": "https://aws.amazon.com/compare/the-difference-between-docker-images-and-containers/"
+        },
+        {
+          "id": "3Nsg-F3wMKEzEsXw1MBZv-res-2",
+          "type": "video",
+          "title": "What is an image?",
+          "url": "https://www.youtube.com/watch?v=NyvT9REqLe4"
+        }
+      ]
+    },
+    "01nDXqxVdMv4SeXc0nYHH": {
+      "id": "01nDXqxVdMv4SeXc0nYHH",
+      "slug": "installation--setup",
+      "title": "Installation Setup",
+      "description": "Docker provides Docker Desktop, a desktop application that simplifies installation and setup with GUI capabilities. Alternatively, you can install Docker Engine for command-line only functionality without graphical interface components.",
+      "resources": [
+        {
+          "id": "01nDXqxVdMv4SeXc0nYHH-res-1",
+          "type": "article",
+          "title": "Docker Desktop website",
+          "url": "https://www.docker.com/products/docker-desktop"
+        },
+        {
+          "id": "01nDXqxVdMv4SeXc0nYHH-res-2",
+          "type": "article",
+          "title": "Docker Engine",
+          "url": "https://docs.docker.com/engine/install/"
+        }
+      ]
+    },
+    "Py9nst2FDJ1_hoXeX_qSF": {
+      "id": "Py9nst2FDJ1_hoXeX_qSF",
+      "slug": "introduction",
+      "title": "What is Docker?",
+      "description": "Docker is an open-source platform that automates application deployment, scaling, and management using lightweight, portable containers. Containers are standalone executable units containing all necessary dependencies, libraries, and configuration files for consistent application execution across various environments.",
+      "resources": [
+        {
+          "id": "Py9nst2FDJ1_hoXeX_qSF-res-1",
+          "type": "article",
+          "title": "Docker",
+          "url": "https://www.docker.com/"
+        },
+        {
+          "id": "Py9nst2FDJ1_hoXeX_qSF-res-2",
+          "type": "article",
+          "title": "Docker Docs",
+          "url": "https://docs.docker.com/"
+        }
+      ]
+    },
+    "RqXpX2XabtHYVjgg1EZR_": {
+      "id": "RqXpX2XabtHYVjgg1EZR_",
+      "slug": "kubernetes",
+      "title": "Kubernetes",
+      "description": "Kubernetes is an open-source container orchestration platform designed to automate the deployment, scaling, and management of containerized applications. It provides a robust framework for handling complex container workloads by organizing containers into logical units called pods, managing service discovery, load balancing, and scaling through declarative configurations. Kubernetes enables teams to deploy containers across clusters of machines, ensuring high availability and fault tolerance through self-healing capabilities like automatic restarts, replacements, and rollback mechanisms. With its extensive ecosystem and flexibility, Kubernetes has become the de facto standard for running large-scale, distributed applications, simplifying operations and improving the reliability of containerized workloads.",
+      "resources": [
+        {
+          "id": "RqXpX2XabtHYVjgg1EZR_-res-1",
+          "type": "article",
+          "title": "Kubernetes",
+          "url": "https://kubernetes.io/"
+        },
+        {
+          "id": "RqXpX2XabtHYVjgg1EZR_-res-2",
+          "type": "article",
+          "title": "Docker Swarm",
+          "url": "https://docs.docker.com/engine/swarm/"
+        }
+      ]
+    },
+    "BvV8VCX39wRB-g8WvGF1g": {
+      "id": "BvV8VCX39wRB-g8WvGF1g",
+      "slug": "namespaces",
+      "title": "What are Namespaces?",
+      "description": "Docker namespaces are a Linux kernel feature that creates isolated environments for containers by providing separate instances of global system resources. Docker uses PID, NET, MNT, UTS, IPC, and USER namespaces to ensure each container believes it has its own unique resources, enabling lightweight, portable, and secure containerization.",
+      "resources": [
+        {
+          "id": "BvV8VCX39wRB-g8WvGF1g-res-1",
+          "type": "article",
+          "title": "Docker Namespaces",
+          "url": "https://docs.docker.com/engine/security/userns-remap/"
+        },
+        {
+          "id": "BvV8VCX39wRB-g8WvGF1g-res-2",
+          "type": "article",
+          "title": "Linux Namespaces",
+          "url": "https://man7.org/linux/man-pages/man7/namespaces.7.html"
+        }
+      ]
+    },
+    "w5QjzvOaciK2rotOkjvjQ": {
+      "id": "w5QjzvOaciK2rotOkjvjQ",
+      "slug": "networks",
+      "title": "Docker Networks",
+      "description": "Docker networks enable containers to communicate with each other and with external systems, providing the necessary connectivity for microservices architectures. By default, Docker offers several network types such as bridge, host, and overlay, each suited for different use cases like isolated environments, high-performance scenarios, or multi-host communication. Using the Docker CLI, you can create, inspect, and manage networks with commands like `docker network create` to define custom networks, `docker network ls` to list existing networks, and `docker network connect` to attach a container to a network. This flexibility allows developers to control how containers interact, ensuring secure and efficient communication across distributed applications.",
+      "resources": [
+        {
+          "id": "w5QjzvOaciK2rotOkjvjQ-res-1",
+          "type": "article",
+          "title": "Docker Networks",
+          "url": "https://docs.docker.com/network/"
+        },
+        {
+          "id": "w5QjzvOaciK2rotOkjvjQ-res-2",
+          "type": "article",
+          "title": "Docker Network Commands",
+          "url": "https://docs.docker.com/engine/reference/commandline/network/"
+        },
+        {
+          "id": "w5QjzvOaciK2rotOkjvjQ-res-3",
+          "type": "video",
+          "title": "Docker Networking",
+          "url": "https://www.youtube.com/watch?v=bKFMS5C4CG0"
+        }
+      ]
+    },
+    "r1eJZDZYouUjnGwAtRbyU": {
+      "id": "r1eJZDZYouUjnGwAtRbyU",
+      "slug": "nomad",
+      "title": "Nomad: Deploying Containers",
+      "description": "Nomad is a cluster manager and scheduler that enables you to deploy, manage and scale your containerized applications. It automatically handles node failures, resource allocation, and container orchestration. Nomad supports running Docker containers as well as other container runtime(s) and non-containerized applications.",
+      "resources": [
+        {
+          "id": "r1eJZDZYouUjnGwAtRbyU-res-1",
+          "type": "article",
+          "title": "Nomad Documentation",
+          "url": "https://www.nomadproject.io/docs"
+        }
+      ]
+    },
+    "fh5aERX7c-lY9FPsmftoF": {
+      "id": "fh5aERX7c-lY9FPsmftoF",
+      "slug": "others-ghcr-ecr-gcr-acr-etc",
+      "title": "DockerHub Alternatives",
+      "description": "Container images can be stored in many different registries, not just Dockerhub. Most major cloud platforms now provide container registries such as \"Artifact Registry\" on Google Cloud Platform, Elastic Container Registry on AWS and Azure Container Registry on Microsoft Azure. GitHub also provides it's own registry which is useful when container builds are included in your GitHub Actions workflow.",
+      "resources": [
+        {
+          "id": "fh5aERX7c-lY9FPsmftoF-res-1",
+          "type": "article",
+          "title": "DockerHub",
+          "url": "https://hub.docker.com/"
+        },
+        {
+          "id": "fh5aERX7c-lY9FPsmftoF-res-2",
+          "type": "article",
+          "title": "Artifact Registry",
+          "url": "https://cloud.google.com/artifact-registry"
+        },
+        {
+          "id": "fh5aERX7c-lY9FPsmftoF-res-3",
+          "type": "article",
+          "title": "Amazon ECR",
+          "url": "https://aws.amazon.com/ecr/"
+        },
+        {
+          "id": "fh5aERX7c-lY9FPsmftoF-res-4",
+          "type": "article",
+          "title": "Azure Container Registry",
+          "url": "https://azure.microsoft.com/en-in/products/container-registry"
+        },
+        {
+          "id": "fh5aERX7c-lY9FPsmftoF-res-5",
+          "type": "article",
+          "title": "GitHub Container Registry",
+          "url": "https://docs.github.com/en/packages/guides/about-github-container-registry"
+        }
+      ]
+    },
+    "PP_RRBo_pThe2mgf6xzMP": {
+      "id": "PP_RRBo_pThe2mgf6xzMP",
+      "slug": "paas-options",
+      "title": "PaaS Options for Deploying Containers",
+      "description": "Platform-as-a-Service (PaaS) options for deploying containers provide a simplified and managed environment where developers can build, deploy, and scale containerized applications without worrying about the underlying infrastructure. Popular PaaS offerings include Google Cloud Run, Azure App Service, AWS Elastic Beanstalk, and Heroku, which abstract away container orchestration complexities while offering automated scaling, easy integration with CI/CD pipelines, and monitoring capabilities. These platforms support rapid development and deployment by allowing teams to focus on application logic rather than server management, providing a seamless way to run containers in production with minimal operational overhead.",
+      "resources": [
+        {
+          "id": "PP_RRBo_pThe2mgf6xzMP-res-1",
+          "type": "article",
+          "title": "PaaS Options for Deploying Containers",
+          "url": "https://www.docker.com/resources/what-container/#paas-options"
+        },
+        {
+          "id": "PP_RRBo_pThe2mgf6xzMP-res-2",
+          "type": "article",
+          "title": "Azure Container Instances",
+          "url": "https://azure.microsoft.com/en-us/services/container-instances/"
+        },
+        {
+          "id": "PP_RRBo_pThe2mgf6xzMP-res-3",
+          "type": "article",
+          "title": "Google Cloud Run",
+          "url": "https://cloud.google.com/run"
+        },
+        {
+          "id": "PP_RRBo_pThe2mgf6xzMP-res-4",
+          "type": "article",
+          "title": "IBM Cloud Code Engine",
+          "url": "https://www.ibm.com/cloud/code-engine"
+        },
+        {
+          "id": "PP_RRBo_pThe2mgf6xzMP-res-5",
+          "type": "article",
+          "title": "Amazon Elastic Container Service",
+          "url": "https://aws.amazon.com/ecs/"
+        }
+      ]
+    },
+    "mw-weCutd2ECKlx2DE_ZJ": {
+      "id": "mw-weCutd2ECKlx2DE_ZJ",
+      "slug": "package-managers",
+      "title": "Package Managers",
+      "description": "Package managers are tools used to install, update, and manage software packages on Linux systems. Since most Docker images are based on Linux distributions, understanding package managers like `apt` (Debian/Ubuntu), `yum`/`dnf` (RHEL/CentOS/Fedora), and `apk` (Alpine Linux) is essential for building Docker images. In a Dockerfile, you typically use `RUN` instructions with package managers to install the dependencies your application needs, and it is a best practice to clean up package caches afterward to keep image sizes small.",
+      "resources": [
+        {
+          "id": "mw-weCutd2ECKlx2DE_ZJ-res-1",
+          "type": "article",
+          "title": "APT Package Manager Guide",
+          "url": "https://ubuntu.com/server/docs/package-management"
+        },
+        {
+          "id": "mw-weCutd2ECKlx2DE_ZJ-res-2",
+          "type": "article",
+          "title": "Alpine Linux Package Management",
+          "url": "https://wiki.alpinelinux.org/wiki/Alpine_Package_Keeper"
+        },
+        {
+          "id": "mw-weCutd2ECKlx2DE_ZJ-res-3",
+          "type": "video",
+          "title": "Linux Package Managers Explained",
+          "url": "https://www.youtube.com/watch?v=-iSMFoPPbKU"
+        },
+        {
+          "id": "mw-weCutd2ECKlx2DE_ZJ-res-4",
+          "type": "article",
+          "title": "Explore top posts about Docker",
+          "url": "https://app.daily.dev/tags/docker?ref=roadmapsh"
+        }
+      ]
+    },
+    "XxT9UUjbKW1ARyERSLH_W": {
+      "id": "XxT9UUjbKW1ARyERSLH_W",
+      "slug": "programming-languages",
+      "title": "Programming Languages",
+      "description": "Having proficiency in at least one programming language is essential before working with Docker, as containers are ultimately used to package and run applications. Whether you work with Python, JavaScript, Go, Java, or any other language, understanding how your application is built, its dependencies, and its runtime requirements directly informs how you write Dockerfiles and structure container images. Knowledge of your language's package management, build tools, and runtime environment helps you create efficient, minimal Docker images tailored to your application's needs.",
+      "resources": [
+        {
+          "id": "XxT9UUjbKW1ARyERSLH_W-res-1",
+          "type": "article",
+          "title": "Python Roadmap",
+          "url": "https://roadmap.sh/python"
+        },
+        {
+          "id": "XxT9UUjbKW1ARyERSLH_W-res-2",
+          "type": "article",
+          "title": "JavaScript Roadmap",
+          "url": "https://roadmap.sh/javascript"
+        },
+        {
+          "id": "XxT9UUjbKW1ARyERSLH_W-res-3",
+          "type": "article",
+          "title": "Java Roadmap",
+          "url": "https://roadmap.sh/java"
+        },
+        {
+          "id": "XxT9UUjbKW1ARyERSLH_W-res-4",
+          "type": "article",
+          "title": "Go Roadmap",
+          "url": "https://roadmap.sh/golang"
+        },
+        {
+          "id": "XxT9UUjbKW1ARyERSLH_W-res-5",
+          "type": "article",
+          "title": "Explore top posts about Docker",
+          "url": "https://app.daily.dev/tags/docker?ref=roadmapsh"
+        }
+      ]
+    },
+    "z2eeBXPzo-diQ67Fcfyhc": {
+      "id": "z2eeBXPzo-diQ67Fcfyhc",
+      "slug": "running-containers",
+      "title": "Running Containers",
+      "description": "The `docker run` command creates and starts containers from images in one step. It combines `docker create` and `docker start` operations, allowing you to execute applications in isolated environments with various configuration options like port mapping, volumes, and environment variables.",
+      "resources": [
+        {
+          "id": "z2eeBXPzo-diQ67Fcfyhc-res-1",
+          "type": "article",
+          "title": "Docker Run",
+          "url": "https://docs.docker.com/engine/reference/commandline/run/"
+        },
+        {
+          "id": "z2eeBXPzo-diQ67Fcfyhc-res-2",
+          "type": "article",
+          "title": "Docker Containers",
+          "url": "https://docs.docker.com/engine/reference/commandline/container/"
+        },
+        {
+          "id": "z2eeBXPzo-diQ67Fcfyhc-res-3",
+          "type": "article",
+          "title": "Docker Exec",
+          "url": "https://docs.docker.com/engine/reference/commandline/exec/"
+        },
+        {
+          "id": "z2eeBXPzo-diQ67Fcfyhc-res-4",
+          "type": "article",
+          "title": "Docker Stop",
+          "url": "https://docs.docker.com/engine/reference/commandline/stop/"
+        }
+      ]
+    },
+    "mAaEz-bwB5DLaBbOSYGMn": {
+      "id": "mAaEz-bwB5DLaBbOSYGMn",
+      "slug": "runtime-configuration-options",
+      "title": "Runtime Configuration Options",
+      "description": "Docker runtime configuration options give you powerful control over your containers' environments. By tweaking resource limits, network settings, security profiles, and logging drivers, you can optimize performance and enhance security. You'll also find options for setting environment variables, mounting volumes, and overriding default behaviors – all crucial for tailoring containers to your specific needs. For more advanced users, there are tools to adjust kernel capabilities and set restart policies. Whether you're using command-line flags or Docker Compose files, these options help ensure your containers run smoothly and consistently, no matter where they're deployed.",
+      "resources": [
+        {
+          "id": "mAaEz-bwB5DLaBbOSYGMn-res-1",
+          "type": "article",
+          "title": "Docker Documentation",
+          "url": "https://docs.docker.com/engine/reference/run/"
+        },
+        {
+          "id": "mAaEz-bwB5DLaBbOSYGMn-res-2",
+          "type": "article",
+          "title": "Docker Runtime Arguments",
+          "url": "https://galea.medium.com/docker-runtime-arguments-604593479f45"
+        }
+      ]
+    },
+    "vYug8kcwrMoWf8ft4UDNI": {
+      "id": "vYug8kcwrMoWf8ft4UDNI",
+      "slug": "runtime-security",
+      "title": "Runtime Security",
+      "description": "Runtime security in Docker focuses on ensuring the safety and integrity of containers during their execution, safeguarding against vulnerabilities and malicious activities that could arise while the containerized application is running. This involves monitoring container behavior for anomalies, implementing access controls to limit permissions, and employing tools to detect and respond to suspicious activity in real time. Effective runtime security also ensures that only verified images are deployed and continuously audits the system to maintain compliance, thereby providing a robust defense layer to prevent exploits and maintain the desired security posture throughout the container lifecycle.",
+      "resources": [
+        {
+          "id": "vYug8kcwrMoWf8ft4UDNI-res-1",
+          "type": "article",
+          "title": "Docker Security",
+          "url": "https://docs.docker.com/engine/security/"
+        },
+        {
+          "id": "vYug8kcwrMoWf8ft4UDNI-res-2",
+          "type": "article",
+          "title": "Docker Security Best Practices",
+          "url": "https://docs.docker.com/build/building/best-practices/"
+        }
+      ]
+    },
+    "W5kX5jn49hghRgkEw6_S3": {
+      "id": "W5kX5jn49hghRgkEw6_S3",
+      "slug": "shell-commands",
+      "title": "Shell Commands",
+      "description": "Shell commands are the fundamental way to interact with Linux-based systems that Docker containers typically run on. Understanding commands like `ls`, `cd`, `cp`, `mv`, `rm`, `chmod`, `chown`, `ps`, `top`, `grep`, `find`, and `cat` is essential for working inside containers, writing Dockerfiles, and debugging running containers. When you use `docker exec` to access a running container or write `RUN` instructions in a Dockerfile, you rely on these shell commands to install dependencies, configure environments, and manage files within the container's filesystem.",
+      "resources": [
+        {
+          "id": "W5kX5jn49hghRgkEw6_S3-res-1",
+          "type": "article",
+          "title": "Linux Command Line Basics",
+          "url": "https://www.freecodecamp.org/news/the-linux-commands-handbook/"
+        },
+        {
+          "id": "W5kX5jn49hghRgkEw6_S3-res-2",
+          "type": "article",
+          "title": "Shell Commands Every Developer Should Know",
+          "url": "https://www.codecademy.com/article/command-line-commands"
+        },
+        {
+          "id": "W5kX5jn49hghRgkEw6_S3-res-3",
+          "type": "video",
+          "title": "Linux Commands for Beginners",
+          "url": "https://www.youtube.com/watch?v=ZtqBQ68cfJc"
+        },
+        {
+          "id": "W5kX5jn49hghRgkEw6_S3-res-4",
+          "type": "article",
+          "title": "Explore top posts about Docker",
+          "url": "https://app.daily.dev/tags/docker?ref=roadmapsh"
+        }
+      ]
+    },
+    "InlMtuaUJ9EXO-OD9x1jj": {
+      "id": "InlMtuaUJ9EXO-OD9x1jj",
+      "slug": "shell-scripting",
+      "title": "Shell Scripting",
+      "description": "Shell scripting involves writing scripts using shell languages like Bash to automate tasks and workflows. In the context of Docker, shell scripts are commonly used in Dockerfiles as part of `RUN` instructions to set up the container environment, install packages, or configure applications. They are also used as entrypoint or startup scripts (via `ENTRYPOINT` or `CMD`) to initialize services when a container starts. Understanding variables, conditionals, loops, and functions in shell scripting helps you write more efficient Dockerfiles and manage complex container setups.",
+      "resources": [
+        {
+          "id": "InlMtuaUJ9EXO-OD9x1jj-res-1",
+          "type": "article",
+          "title": "Shell Scripting Tutorial",
+          "url": "https://www.shellscript.sh/"
+        },
+        {
+          "id": "InlMtuaUJ9EXO-OD9x1jj-res-2",
+          "type": "article",
+          "title": "Bash Scripting Tutorial for Beginners",
+          "url": "https://linuxconfig.org/bash-scripting-tutorial-for-beginners"
+        },
+        {
+          "id": "InlMtuaUJ9EXO-OD9x1jj-res-3",
+          "type": "video",
+          "title": "Bash Scripting Full Course",
+          "url": "https://www.youtube.com/watch?v=tK9Oc6AEnR4"
+        },
+        {
+          "id": "InlMtuaUJ9EXO-OD9x1jj-res-4",
+          "type": "article",
+          "title": "Explore top posts about Docker",
+          "url": "https://app.daily.dev/tags/docker?ref=roadmapsh"
+        }
+      ]
+    },
+    "Kmyo1_Mor9WHLkRhNShRZ": {
+      "id": "Kmyo1_Mor9WHLkRhNShRZ",
+      "slug": "tests",
+      "title": "Tests",
+      "description": "We want to run tests in an environment as similar as possible to production, so it only makes sense to do so inside of our containers! This can include unit tests, integration tests, and end-to-end tests, all run within Docker containers to simulate real-world scenarios while avoiding interference from external dependencies. Using Docker CLI and tools like Docker Compose, you can create isolated testing environments, run tests in parallel, and spin up and tear down the necessary infrastructure automatically.",
+      "resources": [
+        {
+          "id": "Kmyo1_Mor9WHLkRhNShRZ-res-1",
+          "type": "article",
+          "title": "Running Tests - Docker",
+          "url": "https://courses.devopsdirective.com/docker-beginner-to-pro/lessons/11-development-workflow/03-tests"
+        },
+        {
+          "id": "Kmyo1_Mor9WHLkRhNShRZ-res-2",
+          "type": "article",
+          "title": "Explore top posts about Testing",
+          "url": "https://app.daily.dev/tags/testing?ref=roadmapsh"
+        }
+      ]
+    },
+    "jrH1qE6EnFXL4fTyYU8gR": {
+      "id": "jrH1qE6EnFXL4fTyYU8gR",
+      "slug": "underlying-technologies",
+      "title": "Underlying Technologies",
+      "description": "Docker containers use Linux kernel technologies for isolation and resource management: namespaces for process isolation, cgroups for resource limits, and union filesystems for efficient layered storage. These enable lightweight, portable, and secure containers that share the host kernel.",
+      "resources": [
+        {
+          "id": "jrH1qE6EnFXL4fTyYU8gR-res-1",
+          "type": "article",
+          "title": "Underlying Technologies",
+          "url": "https://www.docker.com/resources/what-container/#underlying-technologies"
+        },
+        {
+          "id": "jrH1qE6EnFXL4fTyYU8gR-res-2",
+          "type": "article",
+          "title": "Underlying Technologies - Medium",
+          "url": "https://medium.com/@furkan.turkal/how-does-docker-actually-work-the-hard-way-a-technical-deep-diving-c5b8ea2f0422"
+        },
+        {
+          "id": "jrH1qE6EnFXL4fTyYU8gR-res-3",
+          "type": "video",
+          "title": "Containers - Namespaces, Cgroups and Overlay Filesystem",
+          "url": "https://www.youtube.com/watch?v=wJdDWc6zO4U"
+        }
+      ]
+    },
+    "vEUfw_vobshuZI0-q8RZo": {
+      "id": "vEUfw_vobshuZI0-q8RZo",
+      "slug": "union-filesystems",
+      "title": "Union Filesystems",
+      "description": "Union filesystems (UnionFS) create virtual, layered file structures by overlaying multiple directories without modifying originals. Docker uses this to manage storage efficiently by minimizing duplication and reducing image sizes through layered filesystem approach that keeps directory contents separate while mounted together.",
+      "resources": [
+        {
+          "id": "vEUfw_vobshuZI0-q8RZo-res-1",
+          "type": "article",
+          "title": "AUFS (Advanced Multi-Layered Unification Filesystem)",
+          "url": "http://aufs.sourceforge.net/"
+        },
+        {
+          "id": "vEUfw_vobshuZI0-q8RZo-res-2",
+          "type": "article",
+          "title": "OverlayFS (Overlay Filesystem)",
+          "url": "https://www.kernel.org/doc/html/latest/filesystems/overlayfs.html"
+        },
+        {
+          "id": "vEUfw_vobshuZI0-q8RZo-res-3",
+          "type": "article",
+          "title": "Btrfs (B-Tree Filesystem)",
+          "url": "https://btrfs.readthedocs.io/en/stable/"
+        },
+        {
+          "id": "vEUfw_vobshuZI0-q8RZo-res-4",
+          "type": "article",
+          "title": "ZFS (Z File System)",
+          "url": "https://zfsonlinux.org/"
+        }
+      ]
+    },
+    "uKjB2qntFTpPuYUT9sdxd": {
+      "id": "uKjB2qntFTpPuYUT9sdxd",
+      "slug": "users--groups-permissions",
+      "title": "Users / Groups Permissions",
+      "description": "Linux users, groups, and file permissions control access to files and resources on the system. In Docker, understanding these concepts is important because containers run processes as specific users, and the permissions model determines what files a containerized application can read, write, or execute. By default, containers run as root, which poses security risks, so it is a best practice to create non-root users in your Dockerfile using `RUN useradd` and switch to them with the `USER` instruction. Commands like `chmod`, `chown`, and `chgrp` help you set the correct permissions on files and directories within your container images.",
+      "resources": [
+        {
+          "id": "uKjB2qntFTpPuYUT9sdxd-res-1",
+          "type": "article",
+          "title": "Linux File Permissions Explained",
+          "url": "https://www.redhat.com/en/blog/linux-file-permissions-explained"
+        },
+        {
+          "id": "uKjB2qntFTpPuYUT9sdxd-res-2",
+          "type": "article",
+          "title": "Users and Groups in Linux",
+          "url": "https://wiki.archlinux.org/title/Users_and_groups"
+        },
+        {
+          "id": "uKjB2qntFTpPuYUT9sdxd-res-3",
+          "type": "article",
+          "title": "Dockerfile USER Instruction",
+          "url": "https://docs.docker.com/reference/dockerfile/#user"
+        },
+        {
+          "id": "uKjB2qntFTpPuYUT9sdxd-res-4",
+          "type": "article",
+          "title": "Explore top posts about Docker",
+          "url": "https://app.daily.dev/tags/docker?ref=roadmapsh"
+        }
+      ]
+    },
+    "LShK3-1EGGuXnEvdScFR7": {
+      "id": "LShK3-1EGGuXnEvdScFR7",
+      "slug": "using-3rd-party-container-images",
+      "title": "Using Third Party Images",
+      "description": "Third-party images are pre-built Docker container images that are available on Docker Hub or other container registries. These images are created and maintained by individuals or organizations and can be used as a starting point for your containerized applications.",
+      "resources": [
+        {
+          "id": "LShK3-1EGGuXnEvdScFR7-res-1",
+          "type": "article",
+          "title": "Docker Hub Registry",
+          "url": "https://hub.docker.com/"
+        }
+      ]
+    },
+    "woemCQmWTR-hIoWAci3d5": {
+      "id": "woemCQmWTR-hIoWAci3d5",
+      "slug": "volume-mounts",
+      "title": "Volume Mounts",
+      "description": "Volume mounts are a way to map a folder or file on the host system to a folder or file inside a container. This allows the data to persist outside the container even when the container is removed. Additionally, multiple containers can share the same volume, making data sharing between containers easy.",
+      "resources": [
+        {
+          "id": "woemCQmWTR-hIoWAci3d5-res-1",
+          "type": "article",
+          "title": "Docker Volumes",
+          "url": "https://docs.docker.com/storage/volumes/"
+        },
+        {
+          "id": "woemCQmWTR-hIoWAci3d5-res-2",
+          "type": "article",
+          "title": "Docker Volume Flags",
+          "url": "https://docs.docker.com/storage/bind-mounts/#choose-the--v-or---mount-flag"
+        },
+        {
+          "id": "woemCQmWTR-hIoWAci3d5-res-3",
+          "type": "video",
+          "title": "Docker Volumes explained in 6 minutes",
+          "url": "https://www.youtube.com/watch?v=p2PH_YPCsis"
+        }
+      ]
+    },
+    "eHtVLB6v3h7hatJb-9cZK": {
+      "id": "eHtVLB6v3h7hatJb-9cZK",
+      "slug": "volumes",
+      "title": "Docker Volumes",
+      "description": "Docker volumes are persistent storage solutions used to manage and store data outside the container's filesystem, ensuring data remains intact even if the container is deleted or recreated. They are ideal for storing application data, logs, and configuration files that need to persist across container restarts and updates. With the Docker CLI, you can create and manage volumes using commands like `docker volume create` to define a new volume, `docker volume ls` to list all volumes, and `docker run -v` to mount a volume to a specific container. This approach helps maintain data integrity, simplifies backup processes, and supports data sharing between containers, making volumes a core part of stateful containerized applications.",
+      "resources": [
+        {
+          "id": "eHtVLB6v3h7hatJb-9cZK-res-1",
+          "type": "article",
+          "title": "Docker Volumes",
+          "url": "https://docs.docker.com/storage/volumes/"
+        },
+        {
+          "id": "eHtVLB6v3h7hatJb-9cZK-res-2",
+          "type": "article",
+          "title": "Docker Volume Commands",
+          "url": "https://docs.docker.com/engine/reference/commandline/volume/"
+        }
+      ]
+    },
+    "74JxgfJ_1qmVNZ_QRp9Ne": {
+      "id": "74JxgfJ_1qmVNZ_QRp9Ne",
+      "slug": "what-are-containers",
+      "title": "What are Containers?",
+      "description": "Containers are lightweight, portable, and isolated software environments that package applications with their dependencies for consistent execution across different platforms. They streamline development, deployment, and management while ensuring applications run reliably regardless of underlying infrastructure.",
+      "resources": [
+        {
+          "id": "74JxgfJ_1qmVNZ_QRp9Ne-res-1",
+          "type": "course",
+          "title": "Introduction to Containers - AWS Skill Builder",
+          "url": "https://explore.skillbuilder.aws/learn/course/106/introduction-to-containers"
+        },
+        {
+          "id": "74JxgfJ_1qmVNZ_QRp9Ne-res-2",
+          "type": "article",
+          "title": "What is a Container?",
+          "url": "https://www.docker.com/resources/what-container/"
+        },
+        {
+          "id": "74JxgfJ_1qmVNZ_QRp9Ne-res-3",
+          "type": "article",
+          "title": "Explore top posts about Containers",
+          "url": "https://app.daily.dev/tags/containers?ref=roadmapsh"
+        }
+      ]
+    },
+    "i4ijY3T5gLgNz0XqRipXe": {
+      "id": "i4ijY3T5gLgNz0XqRipXe",
+      "slug": "why-do-we-need-containers",
+      "title": "Need for Containers",
+      "description": "Containers solve environment inconsistency issues when working in teams by standardizing runtime environments. Before containers, significant time was lost configuring local environments to run projects shared by teammates, leading to \"works on my machine\" problems.",
+      "resources": [
+        {
+          "id": "i4ijY3T5gLgNz0XqRipXe-res-1",
+          "type": "article",
+          "title": "Need for Containers",
+          "url": "https://www.redhat.com/en/topics/containers"
+        }
+      ]
+    }
+  }
+}

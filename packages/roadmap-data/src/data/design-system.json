@@ -1,0 +1,3319 @@
+{
+  "slug": "design-system",
+  "title": "Design System",
+  "description": "Comprehensive learning curriculum and mastery roadmap for design-system.",
+  "category": "skill",
+  "level": "Intermediate",
+  "topicCount": 124,
+  "iconName": "Compass",
+  "nodes": [
+    {
+      "id": "node-ILRDAnpfGHCZq-FBlbfDO",
+      "label": "A/B Tests and Experiments",
+      "topicId": "ILRDAnpfGHCZq-FBlbfDO",
+      "level": 1,
+      "position": {
+        "x": 80,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-yhP8EhyCWWRBLkYPyOFeg",
+      "label": "Accessibility Testing",
+      "topicId": "yhP8EhyCWWRBLkYPyOFeg",
+      "level": 1,
+      "position": {
+        "x": 340,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-aLtOGjNFxaRzg0PI-ed99",
+      "label": "Accessibility",
+      "topicId": "aLtOGjNFxaRzg0PI-ed99",
+      "level": 1,
+      "position": {
+        "x": 600,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-DhrnZwQODG0P7D-27_3ec",
+      "label": "Accessibility",
+      "topicId": "DhrnZwQODG0P7D-27_3ec",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-fW0cEy2SB0HDbiF7QA7Ev",
+      "label": "Accessibility",
+      "topicId": "fW0cEy2SB0HDbiF7QA7Ev",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-h3TZY1yBkzLYUK6W7K7xs",
+      "label": "Avatar",
+      "topicId": "h3TZY1yBkzLYUK6W7K7xs",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-_dIMuXWI73ogboGjnLIpT",
+      "label": "Avatar",
+      "topicId": "_dIMuXWI73ogboGjnLIpT",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-LNsXQI8sE_5kzSD_iMLJA",
+      "label": "Badge",
+      "topicId": "LNsXQI8sE_5kzSD_iMLJA",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-UG4AIgJBfZpuhia4Y1K5v",
+      "label": "Badges",
+      "topicId": "UG4AIgJBfZpuhia4Y1K5v",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-kkqRIgdXWaJbX9CjLpwha",
+      "label": "Banner",
+      "topicId": "kkqRIgdXWaJbX9CjLpwha",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-5DUobzueMZbScyTZTHpCS",
+      "label": "Banners",
+      "topicId": "5DUobzueMZbScyTZTHpCS",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-djwnJq9Y_Hx1Ynw01wr_u",
+      "label": "Breakpoints",
+      "topicId": "djwnJq9Y_Hx1Ynw01wr_u",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-LWihkf4q5UawjLd84KQxN",
+      "label": "Button",
+      "topicId": "LWihkf4q5UawjLd84KQxN",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-s6oqvHgwK4Cwyx-JENBbY",
+      "label": "Buttons",
+      "topicId": "s6oqvHgwK4Cwyx-JENBbY",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-rZ7d1C9swiqlRTbdJLZ0R",
+      "label": "Card",
+      "topicId": "rZ7d1C9swiqlRTbdJLZ0R",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-yLLAUGbGUHBTEDkZNK0fm",
+      "label": "Cards",
+      "topicId": "yLLAUGbGUHBTEDkZNK0fm",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-yWEXfjzuzk99dxjZlG4Cq",
+      "label": "Carousel",
+      "topicId": "yWEXfjzuzk99dxjZlG4Cq",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-zEqFAuH9zmKTLwwgx54pW",
+      "label": "Code Style",
+      "topicId": "zEqFAuH9zmKTLwwgx54pW",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-2prUeRYbSJTYjo2quJIKs",
+      "label": "Color",
+      "topicId": "2prUeRYbSJTYjo2quJIKs",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-IVYe8oh1IWbUbxMZRxVQA",
+      "label": "Commit Guidelines",
+      "topicId": "IVYe8oh1IWbUbxMZRxVQA",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-LWrrKrhwXfMDKgbFW5DuO",
+      "label": "Communication Channel",
+      "topicId": "LWrrKrhwXfMDKgbFW5DuO",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-eG8ranXuINtcqWfeMH5GW",
+      "label": "Community Meetings",
+      "topicId": "eG8ranXuINtcqWfeMH5GW",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-G8dOkM_4hP7wPF3QJ8y4g",
+      "label": "Component Analytics",
+      "topicId": "G8dOkM_4hP7wPF3QJ8y4g",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-VeLiPzbGr22_Mh_8T2Gnf",
+      "label": "Component Catalog",
+      "topicId": "VeLiPzbGr22_Mh_8T2Gnf",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-vJ4WytrzY7j10mo8S3O1u",
+      "label": "Component Library",
+      "topicId": "vJ4WytrzY7j10mo8S3O1u",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-97cpJyKBKNAq1P_pQZH-t",
+      "label": "Component",
+      "topicId": "97cpJyKBKNAq1P_pQZH-t",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-TiCNCRpMPgZUhn7JdaIZA",
+      "label": "Contribution Guidelines",
+      "topicId": "TiCNCRpMPgZUhn7JdaIZA",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-xJ1LAAhiZvbZOLRVc1HZa",
+      "label": "Contribution Guidelines",
+      "topicId": "xJ1LAAhiZvbZOLRVc1HZa",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-Hw_LQInG6OtSwDXch3Lvg",
+      "label": "Core Components",
+      "topicId": "Hw_LQInG6OtSwDXch3Lvg",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-JnaNZ9MfMrXQrjW2wABzB",
+      "label": "Design Language",
+      "topicId": "JnaNZ9MfMrXQrjW2wABzB",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-kxUnqpydDwB73IwrCPZM0",
+      "label": "Dark Mode",
+      "topicId": "kxUnqpydDwB73IwrCPZM0",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-a53cl6ZKvYXxG25Ii2_zu",
+      "label": "Design Tokens",
+      "topicId": "a53cl6ZKvYXxG25Ii2_zu",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-ccpT9MPFbc3Ewjm1tFMsZ",
+      "label": "Design Editor",
+      "topicId": "ccpT9MPFbc3Ewjm1tFMsZ",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-fPUuXrlchna3K00KcY4O6",
+      "label": "Design Language",
+      "topicId": "fPUuXrlchna3K00KcY4O6",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-1RJrMVJf_3clM7E5OML-f",
+      "label": "Design Principles",
+      "topicId": "1RJrMVJf_3clM7E5OML-f",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-hauTvrBOAHgrUnO_m_kDM",
+      "label": "Design System Examples",
+      "topicId": "hauTvrBOAHgrUnO_m_kDM",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-J5mU0v491qrm-mr1W3Msd",
+      "label": "Design System vs Component Library",
+      "topicId": "J5mU0v491qrm-mr1W3Msd",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node--b4GjLpL_ppDMJSiChTef",
+      "label": "Documentation",
+      "topicId": "-b4GjLpL_ppDMJSiChTef",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-k1Lwk_b6cLIeyQwc4RUh1",
+      "label": "Documentation",
+      "topicId": "k1Lwk_b6cLIeyQwc4RUh1",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-MtBSvKoyjdLd6DIdolLRi",
+      "label": "Dropdown",
+      "topicId": "MtBSvKoyjdLd6DIdolLRi",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-hzVwLVzAij6TgPTcNHyhv",
+      "label": "Dropdowns",
+      "topicId": "hzVwLVzAij6TgPTcNHyhv",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-8eWhvW2zDIxMGHaXl0Y9i",
+      "label": "Existing Design Analysis",
+      "topicId": "8eWhvW2zDIxMGHaXl0Y9i",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-cpAeotBxN8BCsU9RqTEue",
+      "label": "FAQs",
+      "topicId": "cpAeotBxN8BCsU9RqTEue",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node--6LPUMRm-SqvRVEWPDFl8",
+      "label": "Different File Formats",
+      "topicId": "-6LPUMRm-SqvRVEWPDFl8",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-5LCMzBnnS206t5EtgaUx8",
+      "label": "Forms",
+      "topicId": "5LCMzBnnS206t5EtgaUx8",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-__Pv19gRr2SFknVnfm0Mr",
+      "label": "Functional Colors",
+      "topicId": "__Pv19gRr2SFknVnfm0Mr",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-kifE3JE2immnU1O3-toZf",
+      "label": "Governance",
+      "topicId": "kifE3JE2immnU1O3-toZf",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-6Hmj_TeQ563jshqAAl__I",
+      "label": "Grid Relation",
+      "topicId": "6Hmj_TeQ563jshqAAl__I",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-Zl7MVllzJgObruYtlibKf",
+      "label": "Grid Relation",
+      "topicId": "Zl7MVllzJgObruYtlibKf",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-8f2V-rM7soorTTvNo5Vcx",
+      "label": "Grid",
+      "topicId": "8f2V-rM7soorTTvNo5Vcx",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-eTxhpC3AQIMcUax6WFU9U",
+      "label": "Guidelines",
+      "topicId": "eTxhpC3AQIMcUax6WFU9U",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-Jab5LO0mGhTy1cU61Catu",
+      "label": "Guidelines",
+      "topicId": "Jab5LO0mGhTy1cU61Catu",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-mlBzJ2YvBr9QuOthKdj0p",
+      "label": "Guidelines",
+      "topicId": "mlBzJ2YvBr9QuOthKdj0p",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-XDfxs5cgjSuTEprZi2Z5b",
+      "label": "Guidelines",
+      "topicId": "XDfxs5cgjSuTEprZi2Z5b",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-bzY_iXRnotct_WnNRTlbd",
+      "label": "Icon",
+      "topicId": "bzY_iXRnotct_WnNRTlbd",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-aak3227IDDJMh0MquQX6m",
+      "label": "Icons",
+      "topicId": "aak3227IDDJMh0MquQX6m",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-CnsDoZ3gIaPeNbwHuZXYJ",
+      "label": "Existing Design Process",
+      "topicId": "CnsDoZ3gIaPeNbwHuZXYJ",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-F5_sxUnnGEdgF6BkA5T5x",
+      "label": "Input Checkbox",
+      "topicId": "F5_sxUnnGEdgF6BkA5T5x",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-rN-_plAA5FkcQl03wsL18",
+      "label": "Input Radio",
+      "topicId": "rN-_plAA5FkcQl03wsL18",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-NISeaJUlDtQ0kSuyxmrOT",
+      "label": "Input Switch",
+      "topicId": "NISeaJUlDtQ0kSuyxmrOT",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-hjiJJg4KNr8lyktFQd868",
+      "label": "Input Text",
+      "topicId": "hjiJJg4KNr8lyktFQd868",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-HDf2L4F1f8uUGpVaf7Y7z",
+      "label": "Keywords",
+      "topicId": "HDf2L4F1f8uUGpVaf7Y7z",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-2T7tiM3Ew3H1U5iJR2TDb",
+      "label": "List",
+      "topicId": "2T7tiM3Ew3H1U5iJR2TDb",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-JhnHOMIlU6mQcwvIpErUY",
+      "label": "Loading Indicator",
+      "topicId": "JhnHOMIlU6mQcwvIpErUY",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-xYqDmDpjwkShtL86nt-vY",
+      "label": "Error Logging",
+      "topicId": "xYqDmDpjwkShtL86nt-vY",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-dUaoMARPabiD4DRqdkaer",
+      "label": "Making a Design System",
+      "topicId": "dUaoMARPabiD4DRqdkaer",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-z5gBy7BjlBKwbYbxXtoDA",
+      "label": "From Existing Design",
+      "topicId": "z5gBy7BjlBKwbYbxXtoDA",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node--9I3fTpnQlmcZmIIuQiPe",
+      "label": "From Scratch",
+      "topicId": "-9I3fTpnQlmcZmIIuQiPe",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-bD-DjUbAA6l2eK1R9ITcK",
+      "label": "Microcopy Guidelines",
+      "topicId": "bD-DjUbAA6l2eK1R9ITcK",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-ruPXxVwmD9vSlS7rBZmA-",
+      "label": "Milestones",
+      "topicId": "ruPXxVwmD9vSlS7rBZmA-",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-IjNitkG25vNo30rB4ckNV",
+      "label": "Modal",
+      "topicId": "IjNitkG25vNo30rB4ckNV",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-Wn8CylBz-hyl9-iXcUVTO",
+      "label": "Monochrome Version",
+      "topicId": "Wn8CylBz-hyl9-iXcUVTO",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-wiclAEEYioRgLmXFcKQ4E",
+      "label": "Naming",
+      "topicId": "wiclAEEYioRgLmXFcKQ4E",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-2rlmLn_yQQV-7DpX1qT98",
+      "label": "Need of design system",
+      "topicId": "2rlmLn_yQQV-7DpX1qT98",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-YWoPoO9IW3vLZyxLL2fnT",
+      "label": "Open Hours",
+      "topicId": "YWoPoO9IW3vLZyxLL2fnT",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-Ia1gYzepJOTvTro961eSj",
+      "label": "Other Components",
+      "topicId": "Ia1gYzepJOTvTro961eSj",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-7xPT8rUX3hjSWbxH_FfQs",
+      "label": "Pattern",
+      "topicId": "7xPT8rUX3hjSWbxH_FfQs",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-wFL9axjaPcVvI8XWduxgz",
+      "label": "Performance",
+      "topicId": "wFL9axjaPcVvI8XWduxgz",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-NKm-gXbt5Y7dDwKVkPHjX",
+      "label": "Visual Audit",
+      "topicId": "NKm-gXbt5Y7dDwKVkPHjX",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-4dzoZmkNHPedgLqLy93t8",
+      "label": "Pilot",
+      "topicId": "4dzoZmkNHPedgLqLy93t8",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-7n61402xwhIgJ7dPHg8q7",
+      "label": "Placement Guidance",
+      "topicId": "7n61402xwhIgJ7dPHg8q7",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-uO-2O0Jwh_DxrMAB9wxp1",
+      "label": "Plugins",
+      "topicId": "uO-2O0Jwh_DxrMAB9wxp1",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-wd9ZHZmqV7wbLN-9V4EQy",
+      "label": "Pull Request Templates",
+      "topicId": "wd9ZHZmqV7wbLN-9V4EQy",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-JfXwzkN29UGz17FYHHE3A",
+      "label": "Project Management",
+      "topicId": "JfXwzkN29UGz17FYHHE3A",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-L2NHddsv5RGR_BW0I3f4T",
+      "label": "Readability",
+      "topicId": "L2NHddsv5RGR_BW0I3f4T",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-pRJ9wEPNfFx_6EYB501vk",
+      "label": "Regional Requirements",
+      "topicId": "pRJ9wEPNfFx_6EYB501vk",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-CfWCQNaCJGL-egRhFhc4B",
+      "label": "Release Strategy",
+      "topicId": "CfWCQNaCJGL-egRhFhc4B",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-Y0KxHVrcNGHDao-38Oz3w",
+      "label": "Reserved Icons",
+      "topicId": "Y0KxHVrcNGHDao-38Oz3w",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-8YVCtgYRHR3VcpUJXMVwP",
+      "label": "Responsiveness",
+      "topicId": "8YVCtgYRHR3VcpUJXMVwP",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-gMrX5600JqFDplriq-eU3",
+      "label": "Roadmap",
+      "topicId": "gMrX5600JqFDplriq-eU3",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-n1nUkMqGtPobZPJHCvPsk",
+      "label": "Select",
+      "topicId": "n1nUkMqGtPobZPJHCvPsk",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-ZLt1yJqinC8OSpqucC2dV",
+      "label": "Semantic Versioning",
+      "topicId": "ZLt1yJqinC8OSpqucC2dV",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-5znnOkpf9G9tdiMWB6Rut",
+      "label": "Service and Health Metrics",
+      "topicId": "5znnOkpf9G9tdiMWB6Rut",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-w3LS85eFerscaxb2Xp-dP",
+      "label": "Sizes",
+      "topicId": "w3LS85eFerscaxb2Xp-dP",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5040
+      }
+    },
+    {
+      "id": "node-78RsPhsWpl00AbkwKXUxL",
+      "label": "Sizing",
+      "topicId": "78RsPhsWpl00AbkwKXUxL",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5040
+      }
+    },
+    {
+      "id": "node-FA3JsZgNhKrgNHVtVreol",
+      "label": "Small Use Guidance",
+      "topicId": "FA3JsZgNhKrgNHVtVreol",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5040
+      }
+    },
+    {
+      "id": "node-GtLYBPJjdZwG0qgA7erk7",
+      "label": "Spacing",
+      "topicId": "GtLYBPJjdZwG0qgA7erk7",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5200
+      }
+    },
+    {
+      "id": "node-dXaYOwTAnYSlipNEBSV9l",
+      "label": "Spacing",
+      "topicId": "dXaYOwTAnYSlipNEBSV9l",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5200
+      }
+    },
+    {
+      "id": "node-_3_tFOpQisx6DSP4Yc2E2",
+      "label": "Stakeholders",
+      "topicId": "_3_tFOpQisx6DSP4Yc2E2",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5200
+      }
+    },
+    {
+      "id": "node-SPK1i0XuHpNEWyi1iIxrV",
+      "label": "Style",
+      "topicId": "SPK1i0XuHpNEWyi1iIxrV",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5360
+      }
+    },
+    {
+      "id": "node-1vYR1EMyZhJA-znxnFBBb",
+      "label": "Tabs",
+      "topicId": "1vYR1EMyZhJA-znxnFBBb",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5360
+      }
+    },
+    {
+      "id": "node-de0TKvmFTDmKGZc5X7iFq",
+      "label": "Terminology",
+      "topicId": "de0TKvmFTDmKGZc5X7iFq",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5360
+      }
+    },
+    {
+      "id": "node-Zspu1SsuTE34PVmYePcs4",
+      "label": "Terminology",
+      "topicId": "Zspu1SsuTE34PVmYePcs4",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5520
+      }
+    },
+    {
+      "id": "node-iusI39fxcu2rbMXiosaM6",
+      "label": "Textarea",
+      "topicId": "iusI39fxcu2rbMXiosaM6",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5520
+      }
+    },
+    {
+      "id": "node-i39J0fk4DaPeNFIMbH0ap",
+      "label": "Ticketing",
+      "topicId": "i39J0fk4DaPeNFIMbH0ap",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5520
+      }
+    },
+    {
+      "id": "node--T7uL6a3lJ5-IIcDaG6IN",
+      "label": "Toast",
+      "topicId": "-T7uL6a3lJ5-IIcDaG6IN",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5680
+      }
+    },
+    {
+      "id": "node-jETJVuS_EczJiQASLqaQr",
+      "label": "Token",
+      "topicId": "jETJVuS_EczJiQASLqaQr",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5680
+      }
+    },
+    {
+      "id": "node-fnlVIgsmyxj2UVCCjM-8g",
+      "label": "Tone of Voice",
+      "topicId": "fnlVIgsmyxj2UVCCjM-8g",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5680
+      }
+    },
+    {
+      "id": "node-qiJGYYWL4naJX-MgZA9Ms",
+      "label": "Tooling Analytics",
+      "topicId": "qiJGYYWL4naJX-MgZA9Ms",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5840
+      }
+    },
+    {
+      "id": "node-jggrr5nZOe6FY3ZrZJTOw",
+      "label": "Tooling",
+      "topicId": "jggrr5nZOe6FY3ZrZJTOw",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5840
+      }
+    },
+    {
+      "id": "node-2oCAzsk_y2Y2oHUi467dp",
+      "label": "Tooltip",
+      "topicId": "2oCAzsk_y2Y2oHUi467dp",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5840
+      }
+    },
+    {
+      "id": "node-ODQ8zrHc2rsc8PN-APKvz",
+      "label": "Typography",
+      "topicId": "ODQ8zrHc2rsc8PN-APKvz",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 6000
+      }
+    },
+    {
+      "id": "node-lUObv2N7eH3Jdnwwd5vmI",
+      "label": "UI Kit",
+      "topicId": "lUObv2N7eH3Jdnwwd5vmI",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 6000
+      }
+    },
+    {
+      "id": "node-uvnV1IjE8RV-FKDxHntUU",
+      "label": "Design System Basics",
+      "topicId": "uvnV1IjE8RV-FKDxHntUU",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 6000
+      }
+    },
+    {
+      "id": "node-y8No8I0MltA91j4Q2toT0",
+      "label": "Unit Testing",
+      "topicId": "y8No8I0MltA91j4Q2toT0",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 6160
+      }
+    },
+    {
+      "id": "node-wQbMhC7q3qdKYf_pX5qL4",
+      "label": "Units",
+      "topicId": "wQbMhC7q3qdKYf_pX5qL4",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 6160
+      }
+    },
+    {
+      "id": "node-RmSFwKqL9yXXxGKZusKWX",
+      "label": "Usage Guidance",
+      "topicId": "RmSFwKqL9yXXxGKZusKWX",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 6160
+      }
+    },
+    {
+      "id": "node-PlW8mHnOTyYnbtl0zUSG9",
+      "label": "User Onboarding",
+      "topicId": "PlW8mHnOTyYnbtl0zUSG9",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 6320
+      }
+    },
+    {
+      "id": "node-CYY6nbQiC2pu5ATWmO6wA",
+      "label": "Version Control",
+      "topicId": "CYY6nbQiC2pu5ATWmO6wA",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 6320
+      }
+    },
+    {
+      "id": "node-cMfsRtvzvDZZJ0TqeUOxm",
+      "label": "Vision",
+      "topicId": "cMfsRtvzvDZZJ0TqeUOxm",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 6320
+      }
+    },
+    {
+      "id": "node--MrrapoyFWKhSeE2PZ9mb",
+      "label": "Visual Forms",
+      "topicId": "-MrrapoyFWKhSeE2PZ9mb",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 6480
+      }
+    },
+    {
+      "id": "node-4PrkkoZ5fY-oow0O-bVhu",
+      "label": "What is Design System",
+      "topicId": "4PrkkoZ5fY-oow0O-bVhu",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 6480
+      }
+    },
+    {
+      "id": "node-6r9XbwlBtHmJrhviG2cTD",
+      "label": "Atomic Design",
+      "topicId": "6r9XbwlBtHmJrhviG2cTD",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 6480
+      }
+    },
+    {
+      "id": "node-toyNbBB5tbyiJZkzuklIv",
+      "label": "Writing Guidelines",
+      "topicId": "toyNbBB5tbyiJZkzuklIv",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 6640
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-node-ILRDAnpfGHCZq-FBlbfDO-node-yhP8EhyCWWRBLkYPyOFeg",
+      "source": "node-ILRDAnpfGHCZq-FBlbfDO",
+      "target": "node-yhP8EhyCWWRBLkYPyOFeg",
+      "animated": true
+    },
+    {
+      "id": "edge-node-yhP8EhyCWWRBLkYPyOFeg-node-aLtOGjNFxaRzg0PI-ed99",
+      "source": "node-yhP8EhyCWWRBLkYPyOFeg",
+      "target": "node-aLtOGjNFxaRzg0PI-ed99",
+      "animated": true
+    },
+    {
+      "id": "edge-node-aLtOGjNFxaRzg0PI-ed99-node-DhrnZwQODG0P7D-27_3ec",
+      "source": "node-aLtOGjNFxaRzg0PI-ed99",
+      "target": "node-DhrnZwQODG0P7D-27_3ec",
+      "animated": true
+    },
+    {
+      "id": "edge-node-DhrnZwQODG0P7D-27_3ec-node-fW0cEy2SB0HDbiF7QA7Ev",
+      "source": "node-DhrnZwQODG0P7D-27_3ec",
+      "target": "node-fW0cEy2SB0HDbiF7QA7Ev",
+      "animated": true
+    },
+    {
+      "id": "edge-node-fW0cEy2SB0HDbiF7QA7Ev-node-h3TZY1yBkzLYUK6W7K7xs",
+      "source": "node-fW0cEy2SB0HDbiF7QA7Ev",
+      "target": "node-h3TZY1yBkzLYUK6W7K7xs",
+      "animated": true
+    },
+    {
+      "id": "edge-node-h3TZY1yBkzLYUK6W7K7xs-node-_dIMuXWI73ogboGjnLIpT",
+      "source": "node-h3TZY1yBkzLYUK6W7K7xs",
+      "target": "node-_dIMuXWI73ogboGjnLIpT",
+      "animated": true
+    },
+    {
+      "id": "edge-node-_dIMuXWI73ogboGjnLIpT-node-LNsXQI8sE_5kzSD_iMLJA",
+      "source": "node-_dIMuXWI73ogboGjnLIpT",
+      "target": "node-LNsXQI8sE_5kzSD_iMLJA",
+      "animated": true
+    },
+    {
+      "id": "edge-node-LNsXQI8sE_5kzSD_iMLJA-node-UG4AIgJBfZpuhia4Y1K5v",
+      "source": "node-LNsXQI8sE_5kzSD_iMLJA",
+      "target": "node-UG4AIgJBfZpuhia4Y1K5v",
+      "animated": true
+    },
+    {
+      "id": "edge-node-UG4AIgJBfZpuhia4Y1K5v-node-kkqRIgdXWaJbX9CjLpwha",
+      "source": "node-UG4AIgJBfZpuhia4Y1K5v",
+      "target": "node-kkqRIgdXWaJbX9CjLpwha",
+      "animated": true
+    },
+    {
+      "id": "edge-node-kkqRIgdXWaJbX9CjLpwha-node-5DUobzueMZbScyTZTHpCS",
+      "source": "node-kkqRIgdXWaJbX9CjLpwha",
+      "target": "node-5DUobzueMZbScyTZTHpCS",
+      "animated": true
+    },
+    {
+      "id": "edge-node-5DUobzueMZbScyTZTHpCS-node-djwnJq9Y_Hx1Ynw01wr_u",
+      "source": "node-5DUobzueMZbScyTZTHpCS",
+      "target": "node-djwnJq9Y_Hx1Ynw01wr_u",
+      "animated": true
+    },
+    {
+      "id": "edge-node-djwnJq9Y_Hx1Ynw01wr_u-node-LWihkf4q5UawjLd84KQxN",
+      "source": "node-djwnJq9Y_Hx1Ynw01wr_u",
+      "target": "node-LWihkf4q5UawjLd84KQxN",
+      "animated": true
+    },
+    {
+      "id": "edge-node-LWihkf4q5UawjLd84KQxN-node-s6oqvHgwK4Cwyx-JENBbY",
+      "source": "node-LWihkf4q5UawjLd84KQxN",
+      "target": "node-s6oqvHgwK4Cwyx-JENBbY",
+      "animated": true
+    },
+    {
+      "id": "edge-node-s6oqvHgwK4Cwyx-JENBbY-node-rZ7d1C9swiqlRTbdJLZ0R",
+      "source": "node-s6oqvHgwK4Cwyx-JENBbY",
+      "target": "node-rZ7d1C9swiqlRTbdJLZ0R",
+      "animated": true
+    },
+    {
+      "id": "edge-node-rZ7d1C9swiqlRTbdJLZ0R-node-yLLAUGbGUHBTEDkZNK0fm",
+      "source": "node-rZ7d1C9swiqlRTbdJLZ0R",
+      "target": "node-yLLAUGbGUHBTEDkZNK0fm",
+      "animated": true
+    },
+    {
+      "id": "edge-node-yLLAUGbGUHBTEDkZNK0fm-node-yWEXfjzuzk99dxjZlG4Cq",
+      "source": "node-yLLAUGbGUHBTEDkZNK0fm",
+      "target": "node-yWEXfjzuzk99dxjZlG4Cq",
+      "animated": true
+    },
+    {
+      "id": "edge-node-yWEXfjzuzk99dxjZlG4Cq-node-zEqFAuH9zmKTLwwgx54pW",
+      "source": "node-yWEXfjzuzk99dxjZlG4Cq",
+      "target": "node-zEqFAuH9zmKTLwwgx54pW",
+      "animated": true
+    },
+    {
+      "id": "edge-node-zEqFAuH9zmKTLwwgx54pW-node-2prUeRYbSJTYjo2quJIKs",
+      "source": "node-zEqFAuH9zmKTLwwgx54pW",
+      "target": "node-2prUeRYbSJTYjo2quJIKs",
+      "animated": true
+    },
+    {
+      "id": "edge-node-2prUeRYbSJTYjo2quJIKs-node-IVYe8oh1IWbUbxMZRxVQA",
+      "source": "node-2prUeRYbSJTYjo2quJIKs",
+      "target": "node-IVYe8oh1IWbUbxMZRxVQA",
+      "animated": true
+    },
+    {
+      "id": "edge-node-IVYe8oh1IWbUbxMZRxVQA-node-LWrrKrhwXfMDKgbFW5DuO",
+      "source": "node-IVYe8oh1IWbUbxMZRxVQA",
+      "target": "node-LWrrKrhwXfMDKgbFW5DuO",
+      "animated": true
+    },
+    {
+      "id": "edge-node-LWrrKrhwXfMDKgbFW5DuO-node-eG8ranXuINtcqWfeMH5GW",
+      "source": "node-LWrrKrhwXfMDKgbFW5DuO",
+      "target": "node-eG8ranXuINtcqWfeMH5GW",
+      "animated": true
+    },
+    {
+      "id": "edge-node-eG8ranXuINtcqWfeMH5GW-node-G8dOkM_4hP7wPF3QJ8y4g",
+      "source": "node-eG8ranXuINtcqWfeMH5GW",
+      "target": "node-G8dOkM_4hP7wPF3QJ8y4g",
+      "animated": true
+    },
+    {
+      "id": "edge-node-G8dOkM_4hP7wPF3QJ8y4g-node-VeLiPzbGr22_Mh_8T2Gnf",
+      "source": "node-G8dOkM_4hP7wPF3QJ8y4g",
+      "target": "node-VeLiPzbGr22_Mh_8T2Gnf",
+      "animated": true
+    },
+    {
+      "id": "edge-node-VeLiPzbGr22_Mh_8T2Gnf-node-vJ4WytrzY7j10mo8S3O1u",
+      "source": "node-VeLiPzbGr22_Mh_8T2Gnf",
+      "target": "node-vJ4WytrzY7j10mo8S3O1u",
+      "animated": true
+    },
+    {
+      "id": "edge-node-vJ4WytrzY7j10mo8S3O1u-node-97cpJyKBKNAq1P_pQZH-t",
+      "source": "node-vJ4WytrzY7j10mo8S3O1u",
+      "target": "node-97cpJyKBKNAq1P_pQZH-t",
+      "animated": true
+    },
+    {
+      "id": "edge-node-97cpJyKBKNAq1P_pQZH-t-node-TiCNCRpMPgZUhn7JdaIZA",
+      "source": "node-97cpJyKBKNAq1P_pQZH-t",
+      "target": "node-TiCNCRpMPgZUhn7JdaIZA",
+      "animated": true
+    },
+    {
+      "id": "edge-node-TiCNCRpMPgZUhn7JdaIZA-node-xJ1LAAhiZvbZOLRVc1HZa",
+      "source": "node-TiCNCRpMPgZUhn7JdaIZA",
+      "target": "node-xJ1LAAhiZvbZOLRVc1HZa",
+      "animated": true
+    },
+    {
+      "id": "edge-node-xJ1LAAhiZvbZOLRVc1HZa-node-Hw_LQInG6OtSwDXch3Lvg",
+      "source": "node-xJ1LAAhiZvbZOLRVc1HZa",
+      "target": "node-Hw_LQInG6OtSwDXch3Lvg",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Hw_LQInG6OtSwDXch3Lvg-node-JnaNZ9MfMrXQrjW2wABzB",
+      "source": "node-Hw_LQInG6OtSwDXch3Lvg",
+      "target": "node-JnaNZ9MfMrXQrjW2wABzB",
+      "animated": true
+    },
+    {
+      "id": "edge-node-JnaNZ9MfMrXQrjW2wABzB-node-kxUnqpydDwB73IwrCPZM0",
+      "source": "node-JnaNZ9MfMrXQrjW2wABzB",
+      "target": "node-kxUnqpydDwB73IwrCPZM0",
+      "animated": true
+    },
+    {
+      "id": "edge-node-kxUnqpydDwB73IwrCPZM0-node-a53cl6ZKvYXxG25Ii2_zu",
+      "source": "node-kxUnqpydDwB73IwrCPZM0",
+      "target": "node-a53cl6ZKvYXxG25Ii2_zu",
+      "animated": true
+    },
+    {
+      "id": "edge-node-a53cl6ZKvYXxG25Ii2_zu-node-ccpT9MPFbc3Ewjm1tFMsZ",
+      "source": "node-a53cl6ZKvYXxG25Ii2_zu",
+      "target": "node-ccpT9MPFbc3Ewjm1tFMsZ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ccpT9MPFbc3Ewjm1tFMsZ-node-fPUuXrlchna3K00KcY4O6",
+      "source": "node-ccpT9MPFbc3Ewjm1tFMsZ",
+      "target": "node-fPUuXrlchna3K00KcY4O6",
+      "animated": true
+    },
+    {
+      "id": "edge-node-fPUuXrlchna3K00KcY4O6-node-1RJrMVJf_3clM7E5OML-f",
+      "source": "node-fPUuXrlchna3K00KcY4O6",
+      "target": "node-1RJrMVJf_3clM7E5OML-f",
+      "animated": true
+    },
+    {
+      "id": "edge-node-1RJrMVJf_3clM7E5OML-f-node-hauTvrBOAHgrUnO_m_kDM",
+      "source": "node-1RJrMVJf_3clM7E5OML-f",
+      "target": "node-hauTvrBOAHgrUnO_m_kDM",
+      "animated": true
+    },
+    {
+      "id": "edge-node-hauTvrBOAHgrUnO_m_kDM-node-J5mU0v491qrm-mr1W3Msd",
+      "source": "node-hauTvrBOAHgrUnO_m_kDM",
+      "target": "node-J5mU0v491qrm-mr1W3Msd",
+      "animated": true
+    },
+    {
+      "id": "edge-node-J5mU0v491qrm-mr1W3Msd-node--b4GjLpL_ppDMJSiChTef",
+      "source": "node-J5mU0v491qrm-mr1W3Msd",
+      "target": "node--b4GjLpL_ppDMJSiChTef",
+      "animated": true
+    },
+    {
+      "id": "edge-node--b4GjLpL_ppDMJSiChTef-node-k1Lwk_b6cLIeyQwc4RUh1",
+      "source": "node--b4GjLpL_ppDMJSiChTef",
+      "target": "node-k1Lwk_b6cLIeyQwc4RUh1",
+      "animated": true
+    },
+    {
+      "id": "edge-node-k1Lwk_b6cLIeyQwc4RUh1-node-MtBSvKoyjdLd6DIdolLRi",
+      "source": "node-k1Lwk_b6cLIeyQwc4RUh1",
+      "target": "node-MtBSvKoyjdLd6DIdolLRi",
+      "animated": true
+    },
+    {
+      "id": "edge-node-MtBSvKoyjdLd6DIdolLRi-node-hzVwLVzAij6TgPTcNHyhv",
+      "source": "node-MtBSvKoyjdLd6DIdolLRi",
+      "target": "node-hzVwLVzAij6TgPTcNHyhv",
+      "animated": true
+    },
+    {
+      "id": "edge-node-hzVwLVzAij6TgPTcNHyhv-node-8eWhvW2zDIxMGHaXl0Y9i",
+      "source": "node-hzVwLVzAij6TgPTcNHyhv",
+      "target": "node-8eWhvW2zDIxMGHaXl0Y9i",
+      "animated": true
+    },
+    {
+      "id": "edge-node-8eWhvW2zDIxMGHaXl0Y9i-node-cpAeotBxN8BCsU9RqTEue",
+      "source": "node-8eWhvW2zDIxMGHaXl0Y9i",
+      "target": "node-cpAeotBxN8BCsU9RqTEue",
+      "animated": true
+    },
+    {
+      "id": "edge-node-cpAeotBxN8BCsU9RqTEue-node--6LPUMRm-SqvRVEWPDFl8",
+      "source": "node-cpAeotBxN8BCsU9RqTEue",
+      "target": "node--6LPUMRm-SqvRVEWPDFl8",
+      "animated": true
+    },
+    {
+      "id": "edge-node--6LPUMRm-SqvRVEWPDFl8-node-5LCMzBnnS206t5EtgaUx8",
+      "source": "node--6LPUMRm-SqvRVEWPDFl8",
+      "target": "node-5LCMzBnnS206t5EtgaUx8",
+      "animated": true
+    },
+    {
+      "id": "edge-node-5LCMzBnnS206t5EtgaUx8-node-__Pv19gRr2SFknVnfm0Mr",
+      "source": "node-5LCMzBnnS206t5EtgaUx8",
+      "target": "node-__Pv19gRr2SFknVnfm0Mr",
+      "animated": true
+    },
+    {
+      "id": "edge-node-__Pv19gRr2SFknVnfm0Mr-node-kifE3JE2immnU1O3-toZf",
+      "source": "node-__Pv19gRr2SFknVnfm0Mr",
+      "target": "node-kifE3JE2immnU1O3-toZf",
+      "animated": true
+    },
+    {
+      "id": "edge-node-kifE3JE2immnU1O3-toZf-node-6Hmj_TeQ563jshqAAl__I",
+      "source": "node-kifE3JE2immnU1O3-toZf",
+      "target": "node-6Hmj_TeQ563jshqAAl__I",
+      "animated": true
+    },
+    {
+      "id": "edge-node-6Hmj_TeQ563jshqAAl__I-node-Zl7MVllzJgObruYtlibKf",
+      "source": "node-6Hmj_TeQ563jshqAAl__I",
+      "target": "node-Zl7MVllzJgObruYtlibKf",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Zl7MVllzJgObruYtlibKf-node-8f2V-rM7soorTTvNo5Vcx",
+      "source": "node-Zl7MVllzJgObruYtlibKf",
+      "target": "node-8f2V-rM7soorTTvNo5Vcx",
+      "animated": true
+    },
+    {
+      "id": "edge-node-8f2V-rM7soorTTvNo5Vcx-node-eTxhpC3AQIMcUax6WFU9U",
+      "source": "node-8f2V-rM7soorTTvNo5Vcx",
+      "target": "node-eTxhpC3AQIMcUax6WFU9U",
+      "animated": true
+    },
+    {
+      "id": "edge-node-eTxhpC3AQIMcUax6WFU9U-node-Jab5LO0mGhTy1cU61Catu",
+      "source": "node-eTxhpC3AQIMcUax6WFU9U",
+      "target": "node-Jab5LO0mGhTy1cU61Catu",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Jab5LO0mGhTy1cU61Catu-node-mlBzJ2YvBr9QuOthKdj0p",
+      "source": "node-Jab5LO0mGhTy1cU61Catu",
+      "target": "node-mlBzJ2YvBr9QuOthKdj0p",
+      "animated": true
+    },
+    {
+      "id": "edge-node-mlBzJ2YvBr9QuOthKdj0p-node-XDfxs5cgjSuTEprZi2Z5b",
+      "source": "node-mlBzJ2YvBr9QuOthKdj0p",
+      "target": "node-XDfxs5cgjSuTEprZi2Z5b",
+      "animated": true
+    },
+    {
+      "id": "edge-node-XDfxs5cgjSuTEprZi2Z5b-node-bzY_iXRnotct_WnNRTlbd",
+      "source": "node-XDfxs5cgjSuTEprZi2Z5b",
+      "target": "node-bzY_iXRnotct_WnNRTlbd",
+      "animated": true
+    },
+    {
+      "id": "edge-node-bzY_iXRnotct_WnNRTlbd-node-aak3227IDDJMh0MquQX6m",
+      "source": "node-bzY_iXRnotct_WnNRTlbd",
+      "target": "node-aak3227IDDJMh0MquQX6m",
+      "animated": true
+    },
+    {
+      "id": "edge-node-aak3227IDDJMh0MquQX6m-node-CnsDoZ3gIaPeNbwHuZXYJ",
+      "source": "node-aak3227IDDJMh0MquQX6m",
+      "target": "node-CnsDoZ3gIaPeNbwHuZXYJ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-CnsDoZ3gIaPeNbwHuZXYJ-node-F5_sxUnnGEdgF6BkA5T5x",
+      "source": "node-CnsDoZ3gIaPeNbwHuZXYJ",
+      "target": "node-F5_sxUnnGEdgF6BkA5T5x",
+      "animated": true
+    },
+    {
+      "id": "edge-node-F5_sxUnnGEdgF6BkA5T5x-node-rN-_plAA5FkcQl03wsL18",
+      "source": "node-F5_sxUnnGEdgF6BkA5T5x",
+      "target": "node-rN-_plAA5FkcQl03wsL18",
+      "animated": true
+    },
+    {
+      "id": "edge-node-rN-_plAA5FkcQl03wsL18-node-NISeaJUlDtQ0kSuyxmrOT",
+      "source": "node-rN-_plAA5FkcQl03wsL18",
+      "target": "node-NISeaJUlDtQ0kSuyxmrOT",
+      "animated": true
+    },
+    {
+      "id": "edge-node-NISeaJUlDtQ0kSuyxmrOT-node-hjiJJg4KNr8lyktFQd868",
+      "source": "node-NISeaJUlDtQ0kSuyxmrOT",
+      "target": "node-hjiJJg4KNr8lyktFQd868",
+      "animated": true
+    },
+    {
+      "id": "edge-node-hjiJJg4KNr8lyktFQd868-node-HDf2L4F1f8uUGpVaf7Y7z",
+      "source": "node-hjiJJg4KNr8lyktFQd868",
+      "target": "node-HDf2L4F1f8uUGpVaf7Y7z",
+      "animated": true
+    },
+    {
+      "id": "edge-node-HDf2L4F1f8uUGpVaf7Y7z-node-2T7tiM3Ew3H1U5iJR2TDb",
+      "source": "node-HDf2L4F1f8uUGpVaf7Y7z",
+      "target": "node-2T7tiM3Ew3H1U5iJR2TDb",
+      "animated": true
+    },
+    {
+      "id": "edge-node-2T7tiM3Ew3H1U5iJR2TDb-node-JhnHOMIlU6mQcwvIpErUY",
+      "source": "node-2T7tiM3Ew3H1U5iJR2TDb",
+      "target": "node-JhnHOMIlU6mQcwvIpErUY",
+      "animated": true
+    },
+    {
+      "id": "edge-node-JhnHOMIlU6mQcwvIpErUY-node-xYqDmDpjwkShtL86nt-vY",
+      "source": "node-JhnHOMIlU6mQcwvIpErUY",
+      "target": "node-xYqDmDpjwkShtL86nt-vY",
+      "animated": true
+    },
+    {
+      "id": "edge-node-xYqDmDpjwkShtL86nt-vY-node-dUaoMARPabiD4DRqdkaer",
+      "source": "node-xYqDmDpjwkShtL86nt-vY",
+      "target": "node-dUaoMARPabiD4DRqdkaer",
+      "animated": true
+    },
+    {
+      "id": "edge-node-dUaoMARPabiD4DRqdkaer-node-z5gBy7BjlBKwbYbxXtoDA",
+      "source": "node-dUaoMARPabiD4DRqdkaer",
+      "target": "node-z5gBy7BjlBKwbYbxXtoDA",
+      "animated": true
+    },
+    {
+      "id": "edge-node-z5gBy7BjlBKwbYbxXtoDA-node--9I3fTpnQlmcZmIIuQiPe",
+      "source": "node-z5gBy7BjlBKwbYbxXtoDA",
+      "target": "node--9I3fTpnQlmcZmIIuQiPe",
+      "animated": true
+    },
+    {
+      "id": "edge-node--9I3fTpnQlmcZmIIuQiPe-node-bD-DjUbAA6l2eK1R9ITcK",
+      "source": "node--9I3fTpnQlmcZmIIuQiPe",
+      "target": "node-bD-DjUbAA6l2eK1R9ITcK",
+      "animated": true
+    },
+    {
+      "id": "edge-node-bD-DjUbAA6l2eK1R9ITcK-node-ruPXxVwmD9vSlS7rBZmA-",
+      "source": "node-bD-DjUbAA6l2eK1R9ITcK",
+      "target": "node-ruPXxVwmD9vSlS7rBZmA-",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ruPXxVwmD9vSlS7rBZmA--node-IjNitkG25vNo30rB4ckNV",
+      "source": "node-ruPXxVwmD9vSlS7rBZmA-",
+      "target": "node-IjNitkG25vNo30rB4ckNV",
+      "animated": true
+    },
+    {
+      "id": "edge-node-IjNitkG25vNo30rB4ckNV-node-Wn8CylBz-hyl9-iXcUVTO",
+      "source": "node-IjNitkG25vNo30rB4ckNV",
+      "target": "node-Wn8CylBz-hyl9-iXcUVTO",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Wn8CylBz-hyl9-iXcUVTO-node-wiclAEEYioRgLmXFcKQ4E",
+      "source": "node-Wn8CylBz-hyl9-iXcUVTO",
+      "target": "node-wiclAEEYioRgLmXFcKQ4E",
+      "animated": true
+    },
+    {
+      "id": "edge-node-wiclAEEYioRgLmXFcKQ4E-node-2rlmLn_yQQV-7DpX1qT98",
+      "source": "node-wiclAEEYioRgLmXFcKQ4E",
+      "target": "node-2rlmLn_yQQV-7DpX1qT98",
+      "animated": true
+    },
+    {
+      "id": "edge-node-2rlmLn_yQQV-7DpX1qT98-node-YWoPoO9IW3vLZyxLL2fnT",
+      "source": "node-2rlmLn_yQQV-7DpX1qT98",
+      "target": "node-YWoPoO9IW3vLZyxLL2fnT",
+      "animated": true
+    },
+    {
+      "id": "edge-node-YWoPoO9IW3vLZyxLL2fnT-node-Ia1gYzepJOTvTro961eSj",
+      "source": "node-YWoPoO9IW3vLZyxLL2fnT",
+      "target": "node-Ia1gYzepJOTvTro961eSj",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Ia1gYzepJOTvTro961eSj-node-7xPT8rUX3hjSWbxH_FfQs",
+      "source": "node-Ia1gYzepJOTvTro961eSj",
+      "target": "node-7xPT8rUX3hjSWbxH_FfQs",
+      "animated": true
+    },
+    {
+      "id": "edge-node-7xPT8rUX3hjSWbxH_FfQs-node-wFL9axjaPcVvI8XWduxgz",
+      "source": "node-7xPT8rUX3hjSWbxH_FfQs",
+      "target": "node-wFL9axjaPcVvI8XWduxgz",
+      "animated": true
+    },
+    {
+      "id": "edge-node-wFL9axjaPcVvI8XWduxgz-node-NKm-gXbt5Y7dDwKVkPHjX",
+      "source": "node-wFL9axjaPcVvI8XWduxgz",
+      "target": "node-NKm-gXbt5Y7dDwKVkPHjX",
+      "animated": true
+    },
+    {
+      "id": "edge-node-NKm-gXbt5Y7dDwKVkPHjX-node-4dzoZmkNHPedgLqLy93t8",
+      "source": "node-NKm-gXbt5Y7dDwKVkPHjX",
+      "target": "node-4dzoZmkNHPedgLqLy93t8",
+      "animated": true
+    },
+    {
+      "id": "edge-node-4dzoZmkNHPedgLqLy93t8-node-7n61402xwhIgJ7dPHg8q7",
+      "source": "node-4dzoZmkNHPedgLqLy93t8",
+      "target": "node-7n61402xwhIgJ7dPHg8q7",
+      "animated": true
+    },
+    {
+      "id": "edge-node-7n61402xwhIgJ7dPHg8q7-node-uO-2O0Jwh_DxrMAB9wxp1",
+      "source": "node-7n61402xwhIgJ7dPHg8q7",
+      "target": "node-uO-2O0Jwh_DxrMAB9wxp1",
+      "animated": true
+    },
+    {
+      "id": "edge-node-uO-2O0Jwh_DxrMAB9wxp1-node-wd9ZHZmqV7wbLN-9V4EQy",
+      "source": "node-uO-2O0Jwh_DxrMAB9wxp1",
+      "target": "node-wd9ZHZmqV7wbLN-9V4EQy",
+      "animated": true
+    },
+    {
+      "id": "edge-node-wd9ZHZmqV7wbLN-9V4EQy-node-JfXwzkN29UGz17FYHHE3A",
+      "source": "node-wd9ZHZmqV7wbLN-9V4EQy",
+      "target": "node-JfXwzkN29UGz17FYHHE3A",
+      "animated": true
+    },
+    {
+      "id": "edge-node-JfXwzkN29UGz17FYHHE3A-node-L2NHddsv5RGR_BW0I3f4T",
+      "source": "node-JfXwzkN29UGz17FYHHE3A",
+      "target": "node-L2NHddsv5RGR_BW0I3f4T",
+      "animated": true
+    },
+    {
+      "id": "edge-node-L2NHddsv5RGR_BW0I3f4T-node-pRJ9wEPNfFx_6EYB501vk",
+      "source": "node-L2NHddsv5RGR_BW0I3f4T",
+      "target": "node-pRJ9wEPNfFx_6EYB501vk",
+      "animated": true
+    },
+    {
+      "id": "edge-node-pRJ9wEPNfFx_6EYB501vk-node-CfWCQNaCJGL-egRhFhc4B",
+      "source": "node-pRJ9wEPNfFx_6EYB501vk",
+      "target": "node-CfWCQNaCJGL-egRhFhc4B",
+      "animated": true
+    },
+    {
+      "id": "edge-node-CfWCQNaCJGL-egRhFhc4B-node-Y0KxHVrcNGHDao-38Oz3w",
+      "source": "node-CfWCQNaCJGL-egRhFhc4B",
+      "target": "node-Y0KxHVrcNGHDao-38Oz3w",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Y0KxHVrcNGHDao-38Oz3w-node-8YVCtgYRHR3VcpUJXMVwP",
+      "source": "node-Y0KxHVrcNGHDao-38Oz3w",
+      "target": "node-8YVCtgYRHR3VcpUJXMVwP",
+      "animated": true
+    },
+    {
+      "id": "edge-node-8YVCtgYRHR3VcpUJXMVwP-node-gMrX5600JqFDplriq-eU3",
+      "source": "node-8YVCtgYRHR3VcpUJXMVwP",
+      "target": "node-gMrX5600JqFDplriq-eU3",
+      "animated": true
+    },
+    {
+      "id": "edge-node-gMrX5600JqFDplriq-eU3-node-n1nUkMqGtPobZPJHCvPsk",
+      "source": "node-gMrX5600JqFDplriq-eU3",
+      "target": "node-n1nUkMqGtPobZPJHCvPsk",
+      "animated": true
+    },
+    {
+      "id": "edge-node-n1nUkMqGtPobZPJHCvPsk-node-ZLt1yJqinC8OSpqucC2dV",
+      "source": "node-n1nUkMqGtPobZPJHCvPsk",
+      "target": "node-ZLt1yJqinC8OSpqucC2dV",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ZLt1yJqinC8OSpqucC2dV-node-5znnOkpf9G9tdiMWB6Rut",
+      "source": "node-ZLt1yJqinC8OSpqucC2dV",
+      "target": "node-5znnOkpf9G9tdiMWB6Rut",
+      "animated": true
+    },
+    {
+      "id": "edge-node-5znnOkpf9G9tdiMWB6Rut-node-w3LS85eFerscaxb2Xp-dP",
+      "source": "node-5znnOkpf9G9tdiMWB6Rut",
+      "target": "node-w3LS85eFerscaxb2Xp-dP",
+      "animated": true
+    },
+    {
+      "id": "edge-node-w3LS85eFerscaxb2Xp-dP-node-78RsPhsWpl00AbkwKXUxL",
+      "source": "node-w3LS85eFerscaxb2Xp-dP",
+      "target": "node-78RsPhsWpl00AbkwKXUxL",
+      "animated": true
+    },
+    {
+      "id": "edge-node-78RsPhsWpl00AbkwKXUxL-node-FA3JsZgNhKrgNHVtVreol",
+      "source": "node-78RsPhsWpl00AbkwKXUxL",
+      "target": "node-FA3JsZgNhKrgNHVtVreol",
+      "animated": true
+    },
+    {
+      "id": "edge-node-FA3JsZgNhKrgNHVtVreol-node-GtLYBPJjdZwG0qgA7erk7",
+      "source": "node-FA3JsZgNhKrgNHVtVreol",
+      "target": "node-GtLYBPJjdZwG0qgA7erk7",
+      "animated": true
+    },
+    {
+      "id": "edge-node-GtLYBPJjdZwG0qgA7erk7-node-dXaYOwTAnYSlipNEBSV9l",
+      "source": "node-GtLYBPJjdZwG0qgA7erk7",
+      "target": "node-dXaYOwTAnYSlipNEBSV9l",
+      "animated": true
+    },
+    {
+      "id": "edge-node-dXaYOwTAnYSlipNEBSV9l-node-_3_tFOpQisx6DSP4Yc2E2",
+      "source": "node-dXaYOwTAnYSlipNEBSV9l",
+      "target": "node-_3_tFOpQisx6DSP4Yc2E2",
+      "animated": true
+    },
+    {
+      "id": "edge-node-_3_tFOpQisx6DSP4Yc2E2-node-SPK1i0XuHpNEWyi1iIxrV",
+      "source": "node-_3_tFOpQisx6DSP4Yc2E2",
+      "target": "node-SPK1i0XuHpNEWyi1iIxrV",
+      "animated": true
+    },
+    {
+      "id": "edge-node-SPK1i0XuHpNEWyi1iIxrV-node-1vYR1EMyZhJA-znxnFBBb",
+      "source": "node-SPK1i0XuHpNEWyi1iIxrV",
+      "target": "node-1vYR1EMyZhJA-znxnFBBb",
+      "animated": true
+    },
+    {
+      "id": "edge-node-1vYR1EMyZhJA-znxnFBBb-node-de0TKvmFTDmKGZc5X7iFq",
+      "source": "node-1vYR1EMyZhJA-znxnFBBb",
+      "target": "node-de0TKvmFTDmKGZc5X7iFq",
+      "animated": true
+    },
+    {
+      "id": "edge-node-de0TKvmFTDmKGZc5X7iFq-node-Zspu1SsuTE34PVmYePcs4",
+      "source": "node-de0TKvmFTDmKGZc5X7iFq",
+      "target": "node-Zspu1SsuTE34PVmYePcs4",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Zspu1SsuTE34PVmYePcs4-node-iusI39fxcu2rbMXiosaM6",
+      "source": "node-Zspu1SsuTE34PVmYePcs4",
+      "target": "node-iusI39fxcu2rbMXiosaM6",
+      "animated": true
+    },
+    {
+      "id": "edge-node-iusI39fxcu2rbMXiosaM6-node-i39J0fk4DaPeNFIMbH0ap",
+      "source": "node-iusI39fxcu2rbMXiosaM6",
+      "target": "node-i39J0fk4DaPeNFIMbH0ap",
+      "animated": true
+    },
+    {
+      "id": "edge-node-i39J0fk4DaPeNFIMbH0ap-node--T7uL6a3lJ5-IIcDaG6IN",
+      "source": "node-i39J0fk4DaPeNFIMbH0ap",
+      "target": "node--T7uL6a3lJ5-IIcDaG6IN",
+      "animated": true
+    },
+    {
+      "id": "edge-node--T7uL6a3lJ5-IIcDaG6IN-node-jETJVuS_EczJiQASLqaQr",
+      "source": "node--T7uL6a3lJ5-IIcDaG6IN",
+      "target": "node-jETJVuS_EczJiQASLqaQr",
+      "animated": true
+    },
+    {
+      "id": "edge-node-jETJVuS_EczJiQASLqaQr-node-fnlVIgsmyxj2UVCCjM-8g",
+      "source": "node-jETJVuS_EczJiQASLqaQr",
+      "target": "node-fnlVIgsmyxj2UVCCjM-8g",
+      "animated": true
+    },
+    {
+      "id": "edge-node-fnlVIgsmyxj2UVCCjM-8g-node-qiJGYYWL4naJX-MgZA9Ms",
+      "source": "node-fnlVIgsmyxj2UVCCjM-8g",
+      "target": "node-qiJGYYWL4naJX-MgZA9Ms",
+      "animated": true
+    },
+    {
+      "id": "edge-node-qiJGYYWL4naJX-MgZA9Ms-node-jggrr5nZOe6FY3ZrZJTOw",
+      "source": "node-qiJGYYWL4naJX-MgZA9Ms",
+      "target": "node-jggrr5nZOe6FY3ZrZJTOw",
+      "animated": true
+    },
+    {
+      "id": "edge-node-jggrr5nZOe6FY3ZrZJTOw-node-2oCAzsk_y2Y2oHUi467dp",
+      "source": "node-jggrr5nZOe6FY3ZrZJTOw",
+      "target": "node-2oCAzsk_y2Y2oHUi467dp",
+      "animated": true
+    },
+    {
+      "id": "edge-node-2oCAzsk_y2Y2oHUi467dp-node-ODQ8zrHc2rsc8PN-APKvz",
+      "source": "node-2oCAzsk_y2Y2oHUi467dp",
+      "target": "node-ODQ8zrHc2rsc8PN-APKvz",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ODQ8zrHc2rsc8PN-APKvz-node-lUObv2N7eH3Jdnwwd5vmI",
+      "source": "node-ODQ8zrHc2rsc8PN-APKvz",
+      "target": "node-lUObv2N7eH3Jdnwwd5vmI",
+      "animated": true
+    },
+    {
+      "id": "edge-node-lUObv2N7eH3Jdnwwd5vmI-node-uvnV1IjE8RV-FKDxHntUU",
+      "source": "node-lUObv2N7eH3Jdnwwd5vmI",
+      "target": "node-uvnV1IjE8RV-FKDxHntUU",
+      "animated": true
+    },
+    {
+      "id": "edge-node-uvnV1IjE8RV-FKDxHntUU-node-y8No8I0MltA91j4Q2toT0",
+      "source": "node-uvnV1IjE8RV-FKDxHntUU",
+      "target": "node-y8No8I0MltA91j4Q2toT0",
+      "animated": true
+    },
+    {
+      "id": "edge-node-y8No8I0MltA91j4Q2toT0-node-wQbMhC7q3qdKYf_pX5qL4",
+      "source": "node-y8No8I0MltA91j4Q2toT0",
+      "target": "node-wQbMhC7q3qdKYf_pX5qL4",
+      "animated": true
+    },
+    {
+      "id": "edge-node-wQbMhC7q3qdKYf_pX5qL4-node-RmSFwKqL9yXXxGKZusKWX",
+      "source": "node-wQbMhC7q3qdKYf_pX5qL4",
+      "target": "node-RmSFwKqL9yXXxGKZusKWX",
+      "animated": true
+    },
+    {
+      "id": "edge-node-RmSFwKqL9yXXxGKZusKWX-node-PlW8mHnOTyYnbtl0zUSG9",
+      "source": "node-RmSFwKqL9yXXxGKZusKWX",
+      "target": "node-PlW8mHnOTyYnbtl0zUSG9",
+      "animated": true
+    },
+    {
+      "id": "edge-node-PlW8mHnOTyYnbtl0zUSG9-node-CYY6nbQiC2pu5ATWmO6wA",
+      "source": "node-PlW8mHnOTyYnbtl0zUSG9",
+      "target": "node-CYY6nbQiC2pu5ATWmO6wA",
+      "animated": true
+    },
+    {
+      "id": "edge-node-CYY6nbQiC2pu5ATWmO6wA-node-cMfsRtvzvDZZJ0TqeUOxm",
+      "source": "node-CYY6nbQiC2pu5ATWmO6wA",
+      "target": "node-cMfsRtvzvDZZJ0TqeUOxm",
+      "animated": true
+    },
+    {
+      "id": "edge-node-cMfsRtvzvDZZJ0TqeUOxm-node--MrrapoyFWKhSeE2PZ9mb",
+      "source": "node-cMfsRtvzvDZZJ0TqeUOxm",
+      "target": "node--MrrapoyFWKhSeE2PZ9mb",
+      "animated": true
+    },
+    {
+      "id": "edge-node--MrrapoyFWKhSeE2PZ9mb-node-4PrkkoZ5fY-oow0O-bVhu",
+      "source": "node--MrrapoyFWKhSeE2PZ9mb",
+      "target": "node-4PrkkoZ5fY-oow0O-bVhu",
+      "animated": true
+    },
+    {
+      "id": "edge-node-4PrkkoZ5fY-oow0O-bVhu-node-6r9XbwlBtHmJrhviG2cTD",
+      "source": "node-4PrkkoZ5fY-oow0O-bVhu",
+      "target": "node-6r9XbwlBtHmJrhviG2cTD",
+      "animated": true
+    },
+    {
+      "id": "edge-node-6r9XbwlBtHmJrhviG2cTD-node-toyNbBB5tbyiJZkzuklIv",
+      "source": "node-6r9XbwlBtHmJrhviG2cTD",
+      "target": "node-toyNbBB5tbyiJZkzuklIv",
+      "animated": true
+    }
+  ],
+  "topics": {
+    "ILRDAnpfGHCZq-FBlbfDO": {
+      "id": "ILRDAnpfGHCZq-FBlbfDO",
+      "slug": "ab-tests--experiments",
+      "title": "A/B Tests and Experiments",
+      "description": "Understand how the team implements A/B tests and experiments on different screens and if the new design system should accommodate any necessary requirements.",
+      "resources": []
+    },
+    "yhP8EhyCWWRBLkYPyOFeg": {
+      "id": "yhP8EhyCWWRBLkYPyOFeg",
+      "slug": "accessibility-testing",
+      "title": "Accessibility Testing",
+      "description": "Design systems should cover accessibility as much as possible. Making this automatic reduces the risk of inaccessible components or user flows in the product.",
+      "resources": []
+    },
+    "aLtOGjNFxaRzg0PI-ed99": {
+      "id": "aLtOGjNFxaRzg0PI-ed99",
+      "slug": "accessibility",
+      "title": "Accessibility",
+      "description": "Guidelines for how you approach accessibility and how you leverage colour, hierarchy and assistive technologies to help your users.",
+      "resources": [
+        {
+          "id": "aLtOGjNFxaRzg0PI-ed99-res-1",
+          "type": "article",
+          "title": "Introduction to Web Accessibility",
+          "url": "https://www.w3.org/WAI/fundamentals/accessibility-intro/"
+        },
+        {
+          "id": "aLtOGjNFxaRzg0PI-ed99-res-2",
+          "type": "article",
+          "title": "What is Accessibility? by Mozilla",
+          "url": "https://developer.mozilla.org/en-US/docs/Learn/Accessibility/What_is_accessibility"
+        },
+        {
+          "id": "aLtOGjNFxaRzg0PI-ed99-res-3",
+          "type": "article",
+          "title": "Accessibility Principles",
+          "url": "https://www.w3.org/WAI/fundamentals/accessibility-principles/"
+        },
+        {
+          "id": "aLtOGjNFxaRzg0PI-ed99-res-4",
+          "type": "article",
+          "title": "WebAIMs Website (Web Accessibility In Mind)",
+          "url": "https://webaim.org/"
+        },
+        {
+          "id": "aLtOGjNFxaRzg0PI-ed99-res-5",
+          "type": "article",
+          "title": "WAVE Web Accessibility Evaluation Tool",
+          "url": "https://wave.webaim.org/"
+        },
+        {
+          "id": "aLtOGjNFxaRzg0PI-ed99-res-6",
+          "type": "article",
+          "title": "Explore top posts about Accessibility",
+          "url": "https://app.daily.dev/tags/accessibility?ref=roadmapsh"
+        }
+      ]
+    },
+    "DhrnZwQODG0P7D-27_3ec": {
+      "id": "DhrnZwQODG0P7D-27_3ec",
+      "slug": "accessibility",
+      "title": "Accessibility",
+      "description": "For icons that convey a meaning or serve a function, add the necessary support for screen readers. You can skip this for decorative icons.",
+      "resources": []
+    },
+    "fW0cEy2SB0HDbiF7QA7Ev": {
+      "id": "fW0cEy2SB0HDbiF7QA7Ev",
+      "slug": "accessibility",
+      "title": "Accessibility",
+      "description": "Make sure to have accessible pairings between the main colours in your palette. More importantly, make sure that your background and text colours have at least an AA standard contrast ratio between them.",
+      "resources": []
+    },
+    "h3TZY1yBkzLYUK6W7K7xs": {
+      "id": "h3TZY1yBkzLYUK6W7K7xs",
+      "slug": "avatar",
+      "title": "Avatar",
+      "description": "Avatars are used to show a thumbnail of a user photo or a visual representation of any other type of content. - **Image:** Avatars should mask an image into their shape and work with any image size since they may get this image from unknown data sources. - **Image Fallback:** There should be fallbacks when there’s no image available. This can be done with placeholder images or initials. - **Accessibility:** Always provide a description for screen readers describing what’s displayed on the avatar image instead of just naming its role. - **Sizes:** There are many contexts to use avatars and they all require different sizes for the component. For average projects use at least 2-3 different sizes and make sure there’s at least a small size available. - **Icon:** Avatars can be used with an icon instead of an image to emphasize areas that don’t necessarily have (or need) an image associated with it. - **Background Colors:** When used with icons or text, there has to be a background colour from the design system colour tokens applied to the avatar shape. Make sure that icons and text have enough contrast ratio with the background according to the WCAG AA standard.",
+      "resources": []
+    },
+    "_dIMuXWI73ogboGjnLIpT": {
+      "id": "_dIMuXWI73ogboGjnLIpT",
+      "slug": "avatar",
+      "title": "Avatar",
+      "description": "Avatars represent users or entities in interfaces. They should support multiple shapes (circular, square), various sizes, handle missing images with initials or default icons, include status indicators, maintain image quality standards, ensure accessibility, provide loading states, and support group arrangements with proper interactive feedback.",
+      "resources": []
+    },
+    "LNsXQI8sE_5kzSD_iMLJA": {
+      "id": "LNsXQI8sE_5kzSD_iMLJA",
+      "slug": "badge",
+      "title": "Badge",
+      "description": "Badges are elements that represent the status of an object or user input value. - **Appearance:** Badges may play various roles in your product and having a predefined colour for each role should help users understand their meaning. When changing colours, make sure the text has enough contrast ratio with the background according to the WCAG AA standard. - **Dismissible Action:** Badges can be used as a dynamic way to display selected values and there should be a way to dismiss them.",
+      "resources": []
+    },
+    "UG4AIgJBfZpuhia4Y1K5v": {
+      "id": "UG4AIgJBfZpuhia4Y1K5v",
+      "slug": "badges",
+      "title": "Badges",
+      "description": "Badges are small status indicators that communicate information about objects or actions. Effective design should include numeric indicators for notifications, status badges with distinct colors, category labels, interactive states, multiple sizes, semantic color integration, consistent positioning, content guidelines, and proper accessibility.",
+      "resources": []
+    },
+    "kkqRIgdXWaJbX9CjLpwha": {
+      "id": "kkqRIgdXWaJbX9CjLpwha",
+      "slug": "banner",
+      "title": "Banner",
+      "description": "Banners display an actionable message used as a prominent way of communicating with your users. - **Appearance:** Banners are used to display different types of messages and it’s important to differentiate their visual appearance based on the role they’re playing. If you’re using background colours for role differentiation, make sure there’s enough contrast ratio with the content according to the WCAG AA standard. - **Area for icons or images:** Banners can supplement their message using a supporting icon or image. They shouldn’t be used instead of text content. - **Actions:** Actions in banners should relate to its text and provide a way to react to the message sent to the user. - **Dismissible Action:** Don’t overwhelm the user with banners on the page and include a dismissable action. That may be either a separate close button or one of the actions provided. - **Accessibility:** If a banner dynamically appears on the page, it should be announced to the user by their assistive technology. - **Responsiveness:** Banners should adapt to the viewport size. This usually means that they become full-width for mobile to save some space.",
+      "resources": []
+    },
+    "5DUobzueMZbScyTZTHpCS": {
+      "id": "5DUobzueMZbScyTZTHpCS",
+      "slug": "banners",
+      "title": "Banners",
+      "description": "Banners communicate important information at the top of pages. They should support different message types with distinct visuals, various positioning options, clear dismissal mechanisms, relevant actions, consistent iconography, mobile adaptations, subtle animations, content guidelines, proper accessibility, and stacking rules for multiple banners.",
+      "resources": []
+    },
+    "djwnJq9Y_Hx1Ynw01wr_u": {
+      "id": "djwnJq9Y_Hx1Ynw01wr_u",
+      "slug": "breakpoints",
+      "title": "Breakpoints",
+      "description": "Predefine the screen sizes and orientations your grid will adapt to.",
+      "resources": []
+    },
+    "LWihkf4q5UawjLd84KQxN": {
+      "id": "LWihkf4q5UawjLd84KQxN",
+      "slug": "button",
+      "title": "Button",
+      "description": "Buttons are interactive elements used for single-step actions. - **Hover State:** Clearly show that the button is interactive when it gets hovered with a mouse cursor. - **Active State:** Used when a button gets pressed. The same state can be used to represent the button responsible for toggling another element on the page while that element is visibly opened. - **Focused State:** Used when a button gets selected through keyboard navigation. - **Icon Support:** Icons easily communicate the purpose of the button when used next to its label or can be used without text when there’s not enough space. Make sure that the accessibility label is provided when used with an icon only. - **Disabled:** Visually shows that a button is not interactive and restricts it from being pressed. - **Loading:** Used when users have to wait for the result of their action after they press a button. If a spinner is used to display this state make sure that it’s not changing the original button width or height. - **Full Width:** By default buttons take the width of their content, but they should also come with a full width variant that works well in mobile devices. - **Variants:** When using multiple buttons, there should be a way to differentiate between primary and secondary actions. Buttons may play different roles for the user or be used on different types of surfaces and they have to change the way they look. - **Sizes:** Buttons can be used in different areas of the website and may have multiple predefined sizes. On mobile, tappable areas have to be a minimum of 48px to be accessible according to iOS and Android accessibility guidelines.",
+      "resources": []
+    },
+    "s6oqvHgwK4Cwyx-JENBbY": {
+      "id": "s6oqvHgwK4Cwyx-JENBbY",
+      "slug": "buttons",
+      "title": "Buttons",
+      "description": "Buttons enable user actions and require clear visual hierarchy (primary, secondary, tertiary), comprehensive interactive states, multiple sizes, icon support, content guidelines, minimum 44px touch targets, loading indicators, responsive behavior, proper accessibility with ARIA labels, and subtle animations.",
+      "resources": []
+    },
+    "rZ7d1C9swiqlRTbdJLZ0R": {
+      "id": "rZ7d1C9swiqlRTbdJLZ0R",
+      "slug": "card",
+      "title": "Card",
+      "description": "Cards are used to group information about subjects and their related actions. - **Supports any type of content:** Cards are one of the most used components in the product, so they have to be flexible enough to support any other components placed in them. - **Information structure:** No matter how flexible cards are, it’s important for cards to have a specific structure for its elements for product consistency. - **Supports media sections:** One of the most popular scenarios for using cards is mixing them with media content. The most popular options are having a full-width area on top of the content or full-height area at one of the card’s sides. - **Supplementary actions:** Cards can be used with actions usually placed at the bottom of the card, or the card itself can be tappable and represent an action. - **Responsiveness:** On mobile viewports cards are usually full-width in order to save space for the content.",
+      "resources": []
+    },
+    "yLLAUGbGUHBTEDkZNK0fm": {
+      "id": "yLLAUGbGUHBTEDkZNK0fm",
+      "slug": "cards",
+      "title": "Cards",
+      "description": "Cards are flexible content containers that group related information and actions. They require clear content hierarchy, consistent elevation systems, responsive behavior, distinct interactive states, media support, defined action areas, content variants, loading states, proper accessibility, and consistent spacing aligned with the design system.",
+      "resources": []
+    },
+    "yWEXfjzuzk99dxjZlG4Cq": {
+      "id": "yWEXfjzuzk99dxjZlG4Cq",
+      "slug": "carousel",
+      "title": "Carousel",
+      "description": "Carousels stack the same type of items and allows scrolling through them horizontally. - **Navigation Controls:** Carousels should have easy-to-find navigation controls for scrolling through content. - **Supports any content:** Carousels can be used in different contexts and shouldn’t be limited to a specific child component. In some scenarios you might want items within the same carousel to differ from each other. - **Items width customisation:** For simple products, it might be fine to use multiple predefined sizes for carousel items. For more flexibility, it’s good to provide a way to define a custom width. - **Touch events support:** Carousels should be scrollable on touch devices. Some of the best practices are to use native scrolling and to make sure you’re supporting the same behaviour for all touch devices, not just mobile phones. - **Keyboard navigation:** It should be possible to scroll through content with keyboard arrows when focused on navigation controls. - **Responsiveness:** It’s good practice to hide or reduce the size of navigation controls for mobile viewports to improve the visibility of the content.",
+      "resources": []
+    },
+    "zEqFAuH9zmKTLwwgx54pW": {
+      "id": "zEqFAuH9zmKTLwwgx54pW",
+      "slug": "code-style",
+      "title": "Code Style",
+      "description": "Having a defined code style helps align the way code’s written in the system and increases development velocity. It should be automated with the tools provided for each platform.",
+      "resources": []
+    },
+    "2prUeRYbSJTYjo2quJIKs": {
+      "id": "2prUeRYbSJTYjo2quJIKs",
+      "slug": "color",
+      "title": "Color",
+      "description": "Color establishes brand identity and visual hierarchy in design systems. A comprehensive color system should organize colors logically, meet WCAG accessibility standards, support light/dark themes, create semantic categories, establish systematic naming, balance brand expression with function, and provide multiple formats.",
+      "resources": []
+    },
+    "IVYe8oh1IWbUbxMZRxVQA": {
+      "id": "IVYe8oh1IWbUbxMZRxVQA",
+      "slug": "commit-guidelines",
+      "title": "Commit Guidelines",
+      "description": "Automate the generation of your changelog by adopting a commit message guidelines that categorise and define the changes being made.",
+      "resources": []
+    },
+    "LWrrKrhwXfMDKgbFW5DuO": {
+      "id": "LWrrKrhwXfMDKgbFW5DuO",
+      "slug": "communication-channel",
+      "title": "Communication Channel",
+      "description": "Most product development work happens digitally, so create a digital channel where people can reach out and ask questions.",
+      "resources": []
+    },
+    "eG8ranXuINtcqWfeMH5GW": {
+      "id": "eG8ranXuINtcqWfeMH5GW",
+      "slug": "community-meetings",
+      "title": "Community Meetings",
+      "description": "Arrange community meetings with everyone who uses the design system. Share your knowledge and make proposals to improve the sense of community.",
+      "resources": []
+    },
+    "G8dOkM_4hP7wPF3QJ8y4g": {
+      "id": "G8dOkM_4hP7wPF3QJ8y4g",
+      "slug": "component-analytics",
+      "title": "Component Analytics",
+      "description": "Track the usage of your components. For development you can use built-in tools like Figma’s Design System Analytics. For the end product you can have a separate way of tracking per platform depending on the technology.",
+      "resources": []
+    },
+    "VeLiPzbGr22_Mh_8T2Gnf": {
+      "id": "VeLiPzbGr22_Mh_8T2Gnf",
+      "slug": "component-catalog",
+      "title": "Component Catalog",
+      "description": "Isolate your UI components’ environment outside of your product codebase to make sure they’re not dependent on any global dependencies and can be easily reused.",
+      "resources": []
+    },
+    "vJ4WytrzY7j10mo8S3O1u": {
+      "id": "vJ4WytrzY7j10mo8S3O1u",
+      "slug": "component-library",
+      "title": "Component Library",
+      "description": "A component library is a collection of all the components used in a website, software or app. Some of the common tools to showcase and browse components in a component library include are given below:",
+      "resources": [
+        {
+          "id": "vJ4WytrzY7j10mo8S3O1u-res-1",
+          "type": "article",
+          "title": "Pattern Lab",
+          "url": "https://patternlab.io/"
+        },
+        {
+          "id": "vJ4WytrzY7j10mo8S3O1u-res-2",
+          "type": "article",
+          "title": "Fractal",
+          "url": "https://fractal.build/"
+        },
+        {
+          "id": "vJ4WytrzY7j10mo8S3O1u-res-3",
+          "type": "article",
+          "title": "Storybook",
+          "url": "https://storybook.js.org/"
+        }
+      ]
+    },
+    "97cpJyKBKNAq1P_pQZH-t": {
+      "id": "97cpJyKBKNAq1P_pQZH-t",
+      "slug": "component",
+      "title": "Component",
+      "description": "Components are the reusable building blocks of a design system. Each component meets a specific interaction or UI needs, and is specifically created to work together to create patterns and intuitive user experiences.",
+      "resources": []
+    },
+    "TiCNCRpMPgZUhn7JdaIZA": {
+      "id": "TiCNCRpMPgZUhn7JdaIZA",
+      "slug": "contribution-guidelines",
+      "title": "Contribution Guidelines",
+      "description": "Define the process of contributing to the UI and UX of the design system and document it in a discoverable place to make it easier for everyone to contribute.",
+      "resources": []
+    },
+    "xJ1LAAhiZvbZOLRVc1HZa": {
+      "id": "xJ1LAAhiZvbZOLRVc1HZa",
+      "slug": "contribution-guidelines",
+      "title": "Contribution Guidelines",
+      "description": "Define the process of contributing to the code of the design system. Document everything in a discoverable place to make it easier for everyone to contribute.",
+      "resources": []
+    },
+    "Hw_LQInG6OtSwDXch3Lvg": {
+      "id": "Hw_LQInG6OtSwDXch3Lvg",
+      "slug": "creating-core-components",
+      "title": "Core Components",
+      "description": "Components are the main building blocks for user interfaces. Building a reusable component library enhances your product development workflow by reducing design and tech debt and speeding up the process. Core components can’t be broken down into granular pieces without losing their meaning.",
+      "resources": []
+    },
+    "JnaNZ9MfMrXQrjW2wABzB": {
+      "id": "JnaNZ9MfMrXQrjW2wABzB",
+      "slug": "creating-design-language",
+      "title": "Design Language",
+      "description": "Like any language, a design language is a methodical way of communicating with your audience through your approach to product design. It’s the cornerstone of consistent customer experiences.",
+      "resources": [
+        {
+          "id": "JnaNZ9MfMrXQrjW2wABzB-res-1",
+          "type": "article",
+          "title": "What is a Design Language.. really?",
+          "url": "https://medium.com/thinking-design/what-is-a-design-language-really-cd1ef87be793"
+        },
+        {
+          "id": "JnaNZ9MfMrXQrjW2wABzB-res-2",
+          "type": "article",
+          "title": "How to Develop a Design Language",
+          "url": "https://xd.adobe.com/ideas/principles/web-design/how-to-develop-design-language/"
+        },
+        {
+          "id": "JnaNZ9MfMrXQrjW2wABzB-res-3",
+          "type": "article",
+          "title": "What Actually Constitutes Design Language?",
+          "url": "https://www.uxpin.com/studio/blog/design-language/"
+        },
+        {
+          "id": "JnaNZ9MfMrXQrjW2wABzB-res-4",
+          "type": "article",
+          "title": "Visual Design Language: The Building Blocks Of Design",
+          "url": "https://www.smashingmagazine.com/2020/03/visual-design-language-building-blocks/"
+        }
+      ]
+    },
+    "kxUnqpydDwB73IwrCPZM0": {
+      "id": "kxUnqpydDwB73IwrCPZM0",
+      "slug": "dark-mode",
+      "title": "Dark Mode",
+      "description": "Preparing a dark mode version of your colour palette will allow your design system to adapt to dark mode and respect what your user wants to see.",
+      "resources": []
+    },
+    "a53cl6ZKvYXxG25Ii2_zu": {
+      "id": "a53cl6ZKvYXxG25Ii2_zu",
+      "slug": "defining-design-tokens",
+      "title": "Design Tokens",
+      "description": "Variables that store values for the base layer of your design system, like colour and typography. They’re used in components, so changes on this level will resonate throughout the whole system.",
+      "resources": [
+        {
+          "id": "a53cl6ZKvYXxG25Ii2_zu-res-1",
+          "type": "article",
+          "title": "What Are Design Tokens?",
+          "url": "https://xd.adobe.com/ideas/principles/design-systems/what-are-design-tokens/"
+        }
+      ]
+    },
+    "ccpT9MPFbc3Ewjm1tFMsZ": {
+      "id": "ccpT9MPFbc3Ewjm1tFMsZ",
+      "slug": "design-editor",
+      "title": "Design Editor",
+      "description": "There are many design editors available in the market today with the most popular names being Sketch, Figma and Adobe XD. If you're unsure which route to go down it's often best to speak with your team.",
+      "resources": []
+    },
+    "fPUuXrlchna3K00KcY4O6": {
+      "id": "fPUuXrlchna3K00KcY4O6",
+      "slug": "design-language",
+      "title": "Design Language",
+      "description": "A design language or design vocabulary is an overarching scheme or style that guides the design of a complement of products or architectural settings, creating a coherent design system for styling.",
+      "resources": [
+        {
+          "id": "fPUuXrlchna3K00KcY4O6-res-1",
+          "type": "article",
+          "title": "What is a Design Language.. really?",
+          "url": "https://medium.com/thinking-design/what-is-a-design-language-really-cd1ef87be793"
+        },
+        {
+          "id": "fPUuXrlchna3K00KcY4O6-res-2",
+          "type": "article",
+          "title": "How to Develop a Design Language",
+          "url": "https://xd.adobe.com/ideas/principles/web-design/how-to-develop-design-language/"
+        },
+        {
+          "id": "fPUuXrlchna3K00KcY4O6-res-3",
+          "type": "article",
+          "title": "What Actually Constitutes Design Language?",
+          "url": "https://www.uxpin.com/studio/blog/design-language/"
+        },
+        {
+          "id": "fPUuXrlchna3K00KcY4O6-res-4",
+          "type": "article",
+          "title": "Visual Design Language: The Building Blocks Of Design",
+          "url": "https://www.smashingmagazine.com/2020/03/visual-design-language-building-blocks/"
+        }
+      ]
+    },
+    "1RJrMVJf_3clM7E5OML-f": {
+      "id": "1RJrMVJf_3clM7E5OML-f",
+      "slug": "design-principles",
+      "title": "Design Principles",
+      "description": "The considerations that guide the basis of your practice. They outline how you approach design from a philosophical perspective and help with everyday decisions.",
+      "resources": []
+    },
+    "hauTvrBOAHgrUnO_m_kDM": {
+      "id": "hauTvrBOAHgrUnO_m_kDM",
+      "slug": "design-system-examples",
+      "title": "Design System Examples",
+      "description": "Comprehensive guide and learning curriculum for Design System Examples.",
+      "resources": [
+        {
+          "id": "hauTvrBOAHgrUnO_m_kDM-res-1",
+          "type": "article",
+          "title": "Material Design (Google)",
+          "url": "https://material.io/"
+        },
+        {
+          "id": "hauTvrBOAHgrUnO_m_kDM-res-2",
+          "type": "article",
+          "title": "Carbon Design System (IBM)",
+          "url": "https://carbondesignsystem.com/"
+        },
+        {
+          "id": "hauTvrBOAHgrUnO_m_kDM-res-3",
+          "type": "article",
+          "title": "Atlassian Design System",
+          "url": "https://atlassian.design/"
+        },
+        {
+          "id": "hauTvrBOAHgrUnO_m_kDM-res-4",
+          "type": "article",
+          "title": "Polaris Design System (Shopify)",
+          "url": "https://polaris.shopify.com/"
+        },
+        {
+          "id": "hauTvrBOAHgrUnO_m_kDM-res-5",
+          "type": "article",
+          "title": "Gov.uk Design System",
+          "url": "https://design-system.service.gov.uk/"
+        },
+        {
+          "id": "hauTvrBOAHgrUnO_m_kDM-res-6",
+          "type": "article",
+          "title": "Collection of Open Source Design Systems",
+          "url": "https://github.com/alexpate/awesome-design-systems"
+        }
+      ]
+    },
+    "J5mU0v491qrm-mr1W3Msd": {
+      "id": "J5mU0v491qrm-mr1W3Msd",
+      "slug": "design-system-vs-component-library",
+      "title": "Design System vs Component Library",
+      "description": "A component library is just a collection of visuals i.e. colours, button stylings, fonts, etc. A Design System takes it to the next level by including standards and documentation around the look and usage of each component. The Design System acts as the single source of truth.",
+      "resources": [
+        {
+          "id": "J5mU0v491qrm-mr1W3Msd-res-1",
+          "type": "article",
+          "title": "A Design System: So Much More Than A Component Library",
+          "url": "https://www.architech.ca/a-design-system-so-much-more-than-a-component-library"
+        },
+        {
+          "id": "J5mU0v491qrm-mr1W3Msd-res-2",
+          "type": "article",
+          "title": "Design System vs UI Component Library vs Brand Style Guide",
+          "url": "https://prototype.net/blog/design-system-component-library-style-guide"
+        },
+        {
+          "id": "J5mU0v491qrm-mr1W3Msd-res-3",
+          "type": "article",
+          "title": "Design Systems vs Pattern Libraries vs Style Guides vs Component Libraries",
+          "url": "https://www.uxpin.com/studio/blog/design-systems-vs-pattern-libraries-vs-style-guides-whats-difference/"
+        }
+      ]
+    },
+    "-b4GjLpL_ppDMJSiChTef": {
+      "id": "-b4GjLpL_ppDMJSiChTef",
+      "slug": "documentation",
+      "title": "Documentation",
+      "description": "Organize and document the results of visual audit, design elements, components with variations, states, patterns found, any existing documentation, current design process, and considerations. This documentation will be shared across the team and act as a guide when building the new design system.",
+      "resources": []
+    },
+    "k1Lwk_b6cLIeyQwc4RUh1": {
+      "id": "k1Lwk_b6cLIeyQwc4RUh1",
+      "slug": "documentation",
+      "title": "Documentation",
+      "description": "Having your code documented is key to driving adoption and reducing the load on the contributors.",
+      "resources": []
+    },
+    "MtBSvKoyjdLd6DIdolLRi": {
+      "id": "MtBSvKoyjdLd6DIdolLRi",
+      "slug": "dropdown",
+      "title": "Dropdown",
+      "description": "Dropdowns are used to display a contextual subview with a list of actions or content related to the area where the dropdown is. - **Supports any type of content:** Dropdowns may be used in a lot of contexts like date pickers, language selection or other product features. - **Action Menu:** One of the most used scenarios for dropdowns is providing an action menu for the user, so it’s useful to have this layout defined. - **Focus Trapping:** Once the dropdown’s opened, the focus should work only for elements inside the dropdown. When it’s closed, the focus should move to the dropdown trigger. - **Close Action:** Either some actions inside the dropdown should close it or there should be a separate close button. Also, it’s good practice to close the dropdown when a user clicks outside. - **Keyboard Navigation:** It should be possible to navigate through dropdown children elements with the keyboard and close it with an Esc key. - **Dynamic Position:** Dropdown content should be displayed based on the current position of the trigger element on the screen and always visible to the user. - **Responsiveness:** Dropdown content should be adapted for mobile viewpoints as it may take a lot of space on desktops.",
+      "resources": []
+    },
+    "hzVwLVzAij6TgPTcNHyhv": {
+      "id": "hzVwLVzAij6TgPTcNHyhv",
+      "slug": "dropdowns",
+      "title": "Dropdowns",
+      "description": "Dropdowns reveal option lists when activated to save space. They need clear triggers with visual indicators, organized options with grouping, search/filtering for long lists, multi-select support, smart positioning, full keyboard navigation, loading states, mobile adaptations, proper accessibility, and performance optimization.",
+      "resources": []
+    },
+    "8eWhvW2zDIxMGHaXl0Y9i": {
+      "id": "8eWhvW2zDIxMGHaXl0Y9i",
+      "slug": "existing-design-analysis",
+      "title": "Existing Design Analysis",
+      "description": "First step in creating a design system from an existing design is performing a design analysis and understanding what you will be working with to identify the requirements and prepare a plan. Performing the analysis may consist of: - Understanding the Existing Design Process - Performing Visual Audit - Identifying Design Elements - Identify Common Components - Understanding the A/B Testing and Experimentation Needs - Understanding any Locale or regional requirements (such as LTR/RTL). - Documenting your findings",
+      "resources": []
+    },
+    "cpAeotBxN8BCsU9RqTEue": {
+      "id": "cpAeotBxN8BCsU9RqTEue",
+      "slug": "faqs",
+      "title": "FAQs",
+      "description": "To save everyone time, define which questions are asked frequently by your audience and document them in a discoverable place.",
+      "resources": []
+    },
+    "-6LPUMRm-SqvRVEWPDFl8": {
+      "id": "-6LPUMRm-SqvRVEWPDFl8",
+      "slug": "file-formats",
+      "title": "Different File Formats",
+      "description": "Providing a variety of formats for the vector version of your logo will make it easier for others to work and prevent anyone from redrawing it.",
+      "resources": [
+        {
+          "id": "-6LPUMRm-SqvRVEWPDFl8-res-1",
+          "type": "article",
+          "title": "What is a Vector Logo and Why You Need It",
+          "url": "https://www.renderforest.com/blog/vector-logo"
+        }
+      ]
+    },
+    "5LCMzBnnS206t5EtgaUx8": {
+      "id": "5LCMzBnnS206t5EtgaUx8",
+      "slug": "forms",
+      "title": "Forms",
+      "description": "Forms collect user input and require standardized input components, comprehensive validation systems, effective labeling strategies, consistent layouts, clear error handling, progressive disclosure, required field indicators, auto-complete integration, proper accessibility, and mobile optimization.",
+      "resources": []
+    },
+    "__Pv19gRr2SFknVnfm0Mr": {
+      "id": "__Pv19gRr2SFknVnfm0Mr",
+      "slug": "functional-colors",
+      "title": "Functional Colors",
+      "description": "Besides your brand colours, make sure to have colours defined and made into variables for functions like disabled states, backgrounds, actions and high contrast text.",
+      "resources": []
+    },
+    "kifE3JE2immnU1O3-toZf": {
+      "id": "kifE3JE2immnU1O3-toZf",
+      "slug": "governance",
+      "title": "Governance",
+      "description": "Governance is a framework for clarifying roles, responsibilities, and authority over decisions. Having that clarity ensures that decisions for the design system funnel smoothly through the governance process",
+      "resources": [
+        {
+          "id": "kifE3JE2immnU1O3-toZf-res-1",
+          "type": "article",
+          "title": "Governance is a design system’s friend",
+          "url": "https://zeroheight.com/blog/governance-is-a-design-systems-friend"
+        },
+        {
+          "id": "kifE3JE2immnU1O3-toZf-res-2",
+          "type": "article",
+          "title": "Design System Governance – Scale Your Design",
+          "url": "https://www.uxpin.com/studio/blog/design-system-governance/"
+        },
+        {
+          "id": "kifE3JE2immnU1O3-toZf-res-3",
+          "type": "article",
+          "title": "Governance by design: Building successful design systems",
+          "url": "https://rangle.io/blog/governance-by-design-building-successful-design-systems/"
+        },
+        {
+          "id": "kifE3JE2immnU1O3-toZf-res-4",
+          "type": "article",
+          "title": "Team Models for Scaling a Design System",
+          "url": "https://medium.com/eightshapes-llc/team-models-for-scaling-a-design-system-2cf9d03be6a0"
+        }
+      ]
+    },
+    "6Hmj_TeQ563jshqAAl__I": {
+      "id": "6Hmj_TeQ563jshqAAl__I",
+      "slug": "grid-relation",
+      "title": "Grid Relation",
+      "description": "Draw your icons in a bounding box that plays well with your grid. This makes for a better pairing with other UI elements. A good example of this would be icons with bounding boxes paired with text.",
+      "resources": []
+    },
+    "Zl7MVllzJgObruYtlibKf": {
+      "id": "Zl7MVllzJgObruYtlibKf",
+      "slug": "grid-relation",
+      "title": "Grid Relation",
+      "description": "Font sizes and leading should match your grid to allow better pairing between text and other UI elements. A good example of this is text paired with icons with bounding boxes.",
+      "resources": []
+    },
+    "8f2V-rM7soorTTvNo5Vcx": {
+      "id": "8f2V-rM7soorTTvNo5Vcx",
+      "slug": "grid",
+      "title": "Grid",
+      "description": "Every layout should sit on a grid that brings order and hierarchy to the interface. Define a grid separately for mobile, tablet and desktop devices with columns, gutters, and margins so your interface can adapt to any platform easily.",
+      "resources": []
+    },
+    "eTxhpC3AQIMcUax6WFU9U": {
+      "id": "eTxhpC3AQIMcUax6WFU9U",
+      "slug": "guidelines",
+      "title": "Guidelines",
+      "description": "Provide guidelines on how and when to use icons, what to keep in mind when working with them and how not to use them.",
+      "resources": []
+    },
+    "Jab5LO0mGhTy1cU61Catu": {
+      "id": "Jab5LO0mGhTy1cU61Catu",
+      "slug": "guidelines",
+      "title": "Guidelines",
+      "description": "Provide guidelines on how and when to use the pairings in your typography scale, what to keep in mind when working with them and how not to use them.",
+      "resources": []
+    },
+    "mlBzJ2YvBr9QuOthKdj0p": {
+      "id": "mlBzJ2YvBr9QuOthKdj0p",
+      "slug": "guidelines",
+      "title": "Guidelines",
+      "description": "Design guidelines are sets of recommendations on how to apply design principles to provide a positive user experience. Designers use such guidelines to judge how to adopt principles such as intuitiveness, learnability, efficiency and consistency so they can create compelling designs and meet and exceed user needs.",
+      "resources": [
+        {
+          "id": "mlBzJ2YvBr9QuOthKdj0p-res-1",
+          "type": "article",
+          "title": "Design Guidelines",
+          "url": "https://www.interaction-design.org/literature/topics/design-guidelines"
+        }
+      ]
+    },
+    "XDfxs5cgjSuTEprZi2Z5b": {
+      "id": "XDfxs5cgjSuTEprZi2Z5b",
+      "slug": "guidelines",
+      "title": "Guidelines",
+      "description": "Provide guidelines on how and when to use the colours in your palette, what to keep in mind when working with them and how not to use them.",
+      "resources": []
+    },
+    "bzY_iXRnotct_WnNRTlbd": {
+      "id": "bzY_iXRnotct_WnNRTlbd",
+      "slug": "icon",
+      "title": "Icon",
+      "description": "The icon component is a way to align the way iconography static assets are displayed in the product. - **Sizes:** Icons should have a number of predefined sizes to provide a holistic experience across the product. Typography pairings may be used for these size values to ensure that they are aligned with the text sizes. - **Colors:** Icons should be using values from the design system colour palette. Using parent element text colour for icon fill colour can make this automatic.",
+      "resources": []
+    },
+    "aak3227IDDJMh0MquQX6m": {
+      "id": "aak3227IDDJMh0MquQX6m",
+      "slug": "icons",
+      "title": "Icons",
+      "description": "Icons are visual symbols that communicate meaning quickly. They should maintain consistent style, use a grid system, provide multiple sizes, organize into semantic categories, ensure accessibility, consider cultural neutrality, be available in multiple formats, include interactive states, and follow systematic versioning.",
+      "resources": []
+    },
+    "CnsDoZ3gIaPeNbwHuZXYJ": {
+      "id": "CnsDoZ3gIaPeNbwHuZXYJ",
+      "slug": "identify-existing-design-process",
+      "title": "Existing Design Process",
+      "description": "To better understand the kind of design system you would like to implement, you need to start by reviewing and analyzing the current approach for design at your company. Find the answers to the following questions: - What is the design process that your company follows? - What are the existing tools that your company uses? It’s also recommended to evaluate the level of design maturity of the product teams. This knowledge will help you estimate the time required to introduce the system to your organization.",
+      "resources": []
+    },
+    "F5_sxUnnGEdgF6BkA5T5x": {
+      "id": "F5_sxUnnGEdgF6BkA5T5x",
+      "slug": "input-checkbox",
+      "title": "Input Checkbox",
+      "description": "An input checkbox is a form element used for selecting one or multiple options. - **Checked State:** Used when the checkbox is selected and will use its value for the form submission. - **Disabled State:** Prevents checkbox interactions and removes its value from the form submission. - **Intermediate State:** Used when the checkbox has children selectable elements and only some of them are selected. - **Label:** There should be a text label linked with the checkbox field. Clicking the label should also trigger the checkbox selection. - **Error State:** The error state is used for form validation errors when the error is related to the checkbox field only. Always use a text error along with changing the colour of the field. - **Keyboard State:** Checkbox selections should be triggered with the Space key. Using native elements for this should provide this kind of interaction out of the box. - **Checkbox Group:** Checkboxes can be grouped to work with multiple values at the same time.",
+      "resources": []
+    },
+    "rN-_plAA5FkcQl03wsL18": {
+      "id": "rN-_plAA5FkcQl03wsL18",
+      "slug": "input-radio",
+      "title": "Input Radio",
+      "description": "An input radio is a form element used for selecting one option from a list. - **Checked State:** Used when the radio is selected and will use its value for the form submission. A radio input can’t be unselected by pressing it again. - **Disabled State:** Prevents radio interactions and removes its value from the form submission. - **Label:** There should be a text label linked with the radio field. Clicking the label should also trigger the radio selection. - **Error State:** The error state is used for form validation errors when the error is related to the radio field only. Always use a text error along with changing the colour of the field. - **Keyboard State:** A radio selection should be triggered when the Space key is pressed. Using native elements for this should provide this kind of interaction out of the box. - **Radio Group:** Radio inputs should always be used in a group. If one of them is selected, it can be deselected only by choosing another radio.",
+      "resources": []
+    },
+    "NISeaJUlDtQ0kSuyxmrOT": {
+      "id": "NISeaJUlDtQ0kSuyxmrOT",
+      "slug": "input-switch",
+      "title": "Input Switch",
+      "description": "Input switches toggle the state of a single item. Compared to the input checkbox, their changes usually apply without any additional submission. - **Checked State:** Used when an input switch is turned on. It’s better to provide an additional way to indicate the checked state besides changing its colour when applicable. - **Disabled State:** Prevents interacting with an input switch. - **Label:** There should be a text label linked with the switch field. Clicking the label should also trigger the input selection. - **Keyboard State:** A switch selection should be triggered when the Space key is pressed.",
+      "resources": []
+    },
+    "hjiJJg4KNr8lyktFQd868": {
+      "id": "hjiJJg4KNr8lyktFQd868",
+      "slug": "input-text",
+      "title": "Input Text",
+      "description": "Input text lets users enter and edit text. - **Disabled State:** Prevents input interactions and removes its value from the form submission. - **Placeholder:** When there’s no value entered, show a placeholder with a potential value example. Don’t use placeholders as labels for the inputs. - **Label:** There should be a text label linked with the text field. Clicking the label should move the focus to the field. - **Error State:** The error state is used for form validation errors when the error is related to the text field only. Always use a text error along with changing the colour of the field. - **Focused State:** The focused state should highlight the text field when users start to interact with it. There is always only one focused field in the form. - **Autocomplete:** When applicable, adding support for the HTML autocomplete attribute will allow users to easily enter different data types. - **Icon Support:** Icons are used to describe input methods, express a text field state or provide additional functionality.",
+      "resources": []
+    },
+    "HDf2L4F1f8uUGpVaf7Y7z": {
+      "id": "HDf2L4F1f8uUGpVaf7Y7z",
+      "slug": "keywords",
+      "title": "Keywords",
+      "description": "Adding keywords will improve the discoverability of each icon and provide a better user experience for anyone using your system.",
+      "resources": []
+    },
+    "2T7tiM3Ew3H1U5iJR2TDb": {
+      "id": "2T7tiM3Ew3H1U5iJR2TDb",
+      "slug": "list",
+      "title": "List",
+      "description": "Lists define the layout of the page content or groups of elements stacking them vertically or horizontally. - **Support any type of content:** Lists can be used in any context from page-level layout to managing offsets between granular components. hey should work with any component used inside. - **Horizontal Stacking:** Lists can be used for inline elements and they have to manage how they’re stacked horizontally, including handling offsets between multiple rows of elements. - **Divided Variant:** Lists with dividers are the best practice advised by many platform guidelines (especially on mobile). - **Supports Actionable Content:** Sometimes lists are used for grouping tappable components, where the whole area of the list item should be clickable.",
+      "resources": []
+    },
+    "JhnHOMIlU6mQcwvIpErUY": {
+      "id": "JhnHOMIlU6mQcwvIpErUY",
+      "slug": "loading-indicator",
+      "title": "Loading Indicator",
+      "description": "The loading indicator shows that an operation’s being performed and how long the process will take. - **Linear and non-linear Variants:** Depending on the context and the component it’s used for, the loading indicator can be represented either with linear or with a non-linear (e.g. circular) variant. - **Determinate or indeterminate wait time:** In some cases, the wait time can’t be determined. The loading indicator should be shown until the loading finishes or an error happens. In other cases, it’s better to indicate how much time’s left until the loading is done. - **Light Variant:** The loading indicator should respect its parent element background and provide a variant to be used on darker background colours. - **Reduced Motion:** The loading indicator should be synced with the system motion settings and reduce its animation speed when reduced motion settings are turned on.",
+      "resources": []
+    },
+    "xYqDmDpjwkShtL86nt-vY": {
+      "id": "xYqDmDpjwkShtL86nt-vY",
+      "slug": "logging",
+      "title": "Error Logging",
+      "description": "Implement a way to track and pinpoint component-related outages in your product.",
+      "resources": []
+    },
+    "dUaoMARPabiD4DRqdkaer": {
+      "id": "dUaoMARPabiD4DRqdkaer",
+      "slug": "making-a-design-system",
+      "title": "Making a Design System",
+      "description": "First step in building a design system is identifying [if you even need a design system](https://sparkbox.com/foundry/when_not_to_use_a_design_system).",
+      "resources": [
+        {
+          "id": "dUaoMARPabiD4DRqdkaer-res-1",
+          "type": "video",
+          "title": "Introducing Design Systems Into Chaos - Diana Mounter, GitHub",
+          "url": "https://www.youtube.com/watch?v=FZSi1bK-BRM"
+        },
+        {
+          "id": "dUaoMARPabiD4DRqdkaer-res-2",
+          "type": "video",
+          "title": "Design Systems, when and how much?",
+          "url": "https://www.youtube.com/watch?v=Hx02SaL_IH0"
+        },
+        {
+          "id": "dUaoMARPabiD4DRqdkaer-res-3",
+          "type": "article",
+          "title": "Design Systems: Step-by-Step Guide to Creating Your Own",
+          "url": "https://www.uxpin.com/create-design-system-guide/"
+        },
+        {
+          "id": "dUaoMARPabiD4DRqdkaer-res-4",
+          "type": "article",
+          "title": "Does My Organization Need a Design System?",
+          "url": "https://www.method.com/insights/does-my-organization-need-a-design-system/"
+        },
+        {
+          "id": "dUaoMARPabiD4DRqdkaer-res-5",
+          "type": "video",
+          "title": "Create a Design System with Figma - Full Course",
+          "url": "https://www.youtube.com/watch?v=RYDiDpW2VkM"
+        }
+      ]
+    },
+    "z5gBy7BjlBKwbYbxXtoDA": {
+      "id": "z5gBy7BjlBKwbYbxXtoDA",
+      "slug": "making-it-from-existing-design",
+      "title": "From Existing Design",
+      "description": "If you are creating a Design System from pre-existing product design, there is an additional step to perform the existing design analysis, understand the existing design process, perform a visual audit, identify design elements and components and so on.",
+      "resources": [
+        {
+          "id": "z5gBy7BjlBKwbYbxXtoDA-res-1",
+          "type": "video",
+          "title": "Create a Design System with Figma - Full Course",
+          "url": "https://www.youtube.com/watch?v=RYDiDpW2VkM"
+        }
+      ]
+    },
+    "-9I3fTpnQlmcZmIIuQiPe": {
+      "id": "-9I3fTpnQlmcZmIIuQiPe",
+      "slug": "making-it-from-scratch",
+      "title": "From Scratch",
+      "description": "If you are building a Design System from Scratch, you may skip the \"Existing Design Analysis\" node of the roadmap and start with \"Creating Design Language\".",
+      "resources": [
+        {
+          "id": "-9I3fTpnQlmcZmIIuQiPe-res-1",
+          "type": "video",
+          "title": "Create a Design System with Figma - Full Course",
+          "url": "https://www.youtube.com/watch?v=RYDiDpW2VkM"
+        }
+      ]
+    },
+    "bD-DjUbAA6l2eK1R9ITcK": {
+      "id": "bD-DjUbAA6l2eK1R9ITcK",
+      "slug": "microcopy-guidelines",
+      "title": "Microcopy Guidelines",
+      "description": "The standard way to write for the components in your design system. These take platform conventions and best practices for writing all into consideration.",
+      "resources": []
+    },
+    "ruPXxVwmD9vSlS7rBZmA-": {
+      "id": "ruPXxVwmD9vSlS7rBZmA-",
+      "slug": "milestones",
+      "title": "Milestones",
+      "description": "Define milestones that act as bigger epics in your project management with the help of your roadmap. These will help you understand your progress.",
+      "resources": []
+    },
+    "IjNitkG25vNo30rB4ckNV": {
+      "id": "IjNitkG25vNo30rB4ckNV",
+      "slug": "modal",
+      "title": "Modal",
+      "description": "Modals are containers appearing in front of the main content to provide critical information or an actionable piece of content. - **Supports any type of Content:** Like any other container, modals can be used in different scenarios and you should be able to use it with any other component inside. - **Supplementary Actions:** Since content in the modal may be actionable, it’s important to have an area for action elements. This area is usually located at the bottom of the modal container. - **Close Action:** Modals should provide a clear way to be closed as they’re blocking content when open. This may be either a separate close button or one of the supplementary actions. - **Information Structure:** Even though modals can be used as an empty container for the content, they need a defined information structure to provide a holistic experience. It may include defining how titles and subtitles look by default or where an action element’s area is. - **Keyboard Navigation Support:** It should be possible to close a modal by pressing the Esc key and all the focusable elements inside the modal container should be accessible with keyboard navigation. - **Focus Trapping:** Once a modal is opened, the focus should be moved to the first element inside the modal and should be looped within the modal container. Closing the modal should return the focus to the last focused element on the page.",
+      "resources": []
+    },
+    "Wn8CylBz-hyl9-iXcUVTO": {
+      "id": "Wn8CylBz-hyl9-iXcUVTO",
+      "slug": "monochrome-version",
+      "title": "Monochrome Version",
+      "description": "A monochrome version of your logo that looks good on top of photography or when it’s printed with a poor quality printer.",
+      "resources": []
+    },
+    "wiclAEEYioRgLmXFcKQ4E": {
+      "id": "wiclAEEYioRgLmXFcKQ4E",
+      "slug": "naming",
+      "title": "Naming",
+      "description": "Name your icons based on what they are, not what they represent. For instance, a trash icon should be named trash, not delete. You can still add related keywords to improve discoverability.",
+      "resources": []
+    },
+    "2rlmLn_yQQV-7DpX1qT98": {
+      "id": "2rlmLn_yQQV-7DpX1qT98",
+      "slug": "need-of-design-system",
+      "title": "Need of design system",
+      "description": "Having a solid design system speeds up your work by making the product team more efficient, and it creates consistency and harmony within the product and brand ecosystem. A strong design system takes the burden off individual designers to think through commonly recurring design problems. With a full library of pre-approved elements, designers can focus on bigger problems like creating seamless, intuitive flows that delight users. That kind of efficiency pays huge dividends over time.",
+      "resources": [
+        {
+          "id": "2rlmLn_yQQV-7DpX1qT98-res-1",
+          "type": "video",
+          "title": "Design Systems, when and how much?",
+          "url": "https://www.youtube.com/watch?v=Hx02SaL_IH0"
+        },
+        {
+          "id": "2rlmLn_yQQV-7DpX1qT98-res-2",
+          "type": "article",
+          "title": "Why You Need a Strong Design System (and How to Build One)",
+          "url": "https://www.drawbackwards.com/blog/why-you-need-a-strong-design-system-and-how-to-build-one"
+        },
+        {
+          "id": "2rlmLn_yQQV-7DpX1qT98-res-3",
+          "type": "article",
+          "title": "On Design Systems: Sell The Output, Not The Workflow",
+          "url": "https://www.smashingmagazine.com/2016/05/design-systems-responsive-design-sell-output-not-workflow/"
+        }
+      ]
+    },
+    "YWoPoO9IW3vLZyxLL2fnT": {
+      "id": "YWoPoO9IW3vLZyxLL2fnT",
+      "slug": "open-hours",
+      "title": "Open Hours",
+      "description": "Create open hours in which you can engage your audience in a more private setting where you can discuss things in more detail. You can also use these as peer coding or peer design opportunities.",
+      "resources": []
+    },
+    "Ia1gYzepJOTvTro961eSj": {
+      "id": "Ia1gYzepJOTvTro961eSj",
+      "slug": "other",
+      "title": "Other Components",
+      "description": "Specialized elements beyond core components include badges for notifications, breadcrumbs for navigation, progress indicators, tooltips for help, pagination for browsing, tab systems, accordions for collapsible content, modals for focused interactions, notification systems, and basic data visualization elements.",
+      "resources": []
+    },
+    "7xPT8rUX3hjSWbxH_FfQs": {
+      "id": "7xPT8rUX3hjSWbxH_FfQs",
+      "slug": "pattern",
+      "title": "Pattern",
+      "description": "Patterns are best practice design solutions for specific user-focused tasks and page types. Patterns often use one or more components and explain how to adapt them to the context. Some sample patterns could be user signing in to the application or performing the checkout operation.",
+      "resources": []
+    },
+    "wFL9axjaPcVvI8XWduxgz": {
+      "id": "wFL9axjaPcVvI8XWduxgz",
+      "slug": "performance",
+      "title": "Performance",
+      "description": "Custom fonts need to be downloaded before they can be displayed, especially on the web. Make sure that you have sensible fallbacks and fast loading time for your typography assets. Using system fonts solves this performance problem.",
+      "resources": []
+    },
+    "NKm-gXbt5Y7dDwKVkPHjX": {
+      "id": "NKm-gXbt5Y7dDwKVkPHjX",
+      "slug": "performing-a-visual-audit",
+      "title": "Visual Audit",
+      "description": "Take screenshots of your current product with the help of your team. You can use any presentation software like Google Slides or print and pin them on foam-core boards. Group the screenshots into categories like buttons, navigation, forms, tables, charts, lists etc. Now, review each category to find inconsistencies and note areas for improvement with your team. Use a tool like [CSS Stats](https://cssstats.com/) to see how many unique colors, typefaces you have in your style sheets.",
+      "resources": []
+    },
+    "4dzoZmkNHPedgLqLy93t8": {
+      "id": "4dzoZmkNHPedgLqLy93t8",
+      "slug": "pilot",
+      "title": "Pilot",
+      "description": "Pilots are one of the best ways to put your design system through its paces, especially before the design system even gets to a v1. Like television pilots help test audience reactions to a series concept without investing significant resources to create the whole thing, application pilots are a good foundation for ensuring your design system’s design and code are battle-tested.",
+      "resources": [
+        {
+          "id": "4dzoZmkNHPedgLqLy93t8-res-1",
+          "type": "article",
+          "title": "Design Systems: Pilots & Scorecards",
+          "url": "https://danmall.com/posts/design-systems-pilots-scorecards/"
+        },
+        {
+          "id": "4dzoZmkNHPedgLqLy93t8-res-2",
+          "type": "article",
+          "title": "How to run a design system pilot",
+          "url": "https://university.obvious.in/product-design/design-system/how-to-run-a-design-system-pilot"
+        }
+      ]
+    },
+    "7n61402xwhIgJ7dPHg8q7": {
+      "id": "7n61402xwhIgJ7dPHg8q7",
+      "slug": "placement-guidance",
+      "title": "Placement Guidance",
+      "description": "Logo placement guidance ensures consistent brand representation through clear positioning, sizing, and clearance rules. Effective guidelines should define minimum clearance areas, establish preferred positions for different contexts, provide size specifications, define background treatments, and account for platform-specific requirements.",
+      "resources": []
+    },
+    "uO-2O0Jwh_DxrMAB9wxp1": {
+      "id": "uO-2O0Jwh_DxrMAB9wxp1",
+      "slug": "plugins",
+      "title": "Plugins",
+      "description": "Most popular Design Editors (Sketch and Figma, especially) come with third-party plugin support. Whilst it's best to use the editors in-built tools for laying out your components, plugins can bring in a range of useful data to populate them.",
+      "resources": []
+    },
+    "wd9ZHZmqV7wbLN-9V4EQy": {
+      "id": "wd9ZHZmqV7wbLN-9V4EQy",
+      "slug": "pr-templates",
+      "title": "Pull Request Templates",
+      "description": "Create pull request templates that outline the change being proposed to facilitate productive discussions.",
+      "resources": []
+    },
+    "JfXwzkN29UGz17FYHHE3A": {
+      "id": "JfXwzkN29UGz17FYHHE3A",
+      "slug": "project-management",
+      "title": "Project Management",
+      "description": "Design systems are no different than any other project your team might take on. In order to successfully build and maintain one, you need a clear strategy that’s well executed daily, and you‘ll need to create opportunities for your colleagues to give feedback to help share your design system together.",
+      "resources": []
+    },
+    "L2NHddsv5RGR_BW0I3f4T": {
+      "id": "L2NHddsv5RGR_BW0I3f4T",
+      "slug": "readability",
+      "title": "Readability",
+      "description": "Optimising the letter spacing (tracking), line height (leading) and line length for your typography scale will help with the readability of text.",
+      "resources": []
+    },
+    "pRJ9wEPNfFx_6EYB501vk": {
+      "id": "pRJ9wEPNfFx_6EYB501vk",
+      "slug": "regional-requirements",
+      "title": "Regional Requirements",
+      "description": "Understand any regional requirements such as LTR or any other UX variations that your design system should accommodate.",
+      "resources": []
+    },
+    "CfWCQNaCJGL-egRhFhc4B": {
+      "id": "CfWCQNaCJGL-egRhFhc4B",
+      "slug": "release-strategy",
+      "title": "Release Strategy",
+      "description": "Design system releases should be automated and ideally use scripts ran locally or in remote CI pipelines to prevent broken releases.",
+      "resources": []
+    },
+    "Y0KxHVrcNGHDao-38Oz3w": {
+      "id": "Y0KxHVrcNGHDao-38Oz3w",
+      "slug": "reserved-icons",
+      "title": "Reserved Icons",
+      "description": "Reserving icons that represent common actions will prevent their use in any other context. System icons for navigation or adding and deleting are a good example. This leads to a more intuitive user experience.",
+      "resources": []
+    },
+    "8YVCtgYRHR3VcpUJXMVwP": {
+      "id": "8YVCtgYRHR3VcpUJXMVwP",
+      "slug": "responsiveness",
+      "title": "Responsiveness",
+      "description": "Desktop devices can usually afford to have bigger font sizes compared to mobile devices. Creating a typography scale that adapts to the viewport size will help with a more meaningful hierarchy and layout.",
+      "resources": []
+    },
+    "gMrX5600JqFDplriq-eU3": {
+      "id": "gMrX5600JqFDplriq-eU3",
+      "slug": "roadmap",
+      "title": "Roadmap",
+      "description": "Setting your short and long term vision and mapping things out helps you decide the steps to take, understand your place in the bigger picture and prioritise day-to-day tasks.",
+      "resources": []
+    },
+    "n1nUkMqGtPobZPJHCvPsk": {
+      "id": "n1nUkMqGtPobZPJHCvPsk",
+      "slug": "select",
+      "title": "Select",
+      "description": "Select lets user select a value from a list of values in a form context: - **Disabled State:** Prevents input interactions and removes its value from the form submission. - **Placeholder:** When there’s no value entered, show a placeholder with a potential value example. Don’t use placeholders as labels for the inputs. - **Label:** There should be a text label linked with the text field. Clicking the label should move the focus to the field. - **Error State:** The error state is used for form validation errors when the error is related to the text field only. Always use a text error along with changing the colour of the field. - **Focused State:** The focused state should highlight the text field when users start to interact with it. There is always only one focused field in the form. - **Autocomplete:** When applicable, adding support for the HTML autocomplete attribute will allow users to easily enter different data types. - **Icon Support:** Icons are used to describe input methods, express a text field state or provide additional functionality.",
+      "resources": []
+    },
+    "ZLt1yJqinC8OSpqucC2dV": {
+      "id": "ZLt1yJqinC8OSpqucC2dV",
+      "slug": "semantic-versioning",
+      "title": "Semantic Versioning",
+      "description": "Version your code with semantic versioning that dictates how version numbers are assigned and incremented.",
+      "resources": []
+    },
+    "5znnOkpf9G9tdiMWB6Rut": {
+      "id": "5znnOkpf9G9tdiMWB6Rut",
+      "slug": "service-and-health-metrics",
+      "title": "Service and Health Metrics",
+      "description": "Define service and health metrics for your design system to set a benchmark on how well you’re doing. Common examples can be the number of tickets closed, improvements made or bugs fixed.",
+      "resources": []
+    },
+    "w3LS85eFerscaxb2Xp-dP": {
+      "id": "w3LS85eFerscaxb2Xp-dP",
+      "slug": "sizes",
+      "title": "Sizes",
+      "description": "Provide different sizes for icons that correlate to your grid. Provide a minimum size and remove unnecessary detail for your icons for smaller sizes.",
+      "resources": []
+    },
+    "78RsPhsWpl00AbkwKXUxL": {
+      "id": "78RsPhsWpl00AbkwKXUxL",
+      "slug": "sizing",
+      "title": "Sizing",
+      "description": "Sizing tokens establish consistent dimensions across components and layouts. An effective system should establish a foundational unit, create predefined size variations, ensure minimum accessibility requirements, define standard icon sizes, establish container dimensions, implement fluid sizing, and account for platform-specific requirements.",
+      "resources": []
+    },
+    "FA3JsZgNhKrgNHVtVreol": {
+      "id": "FA3JsZgNhKrgNHVtVreol",
+      "slug": "small-use-guidance",
+      "title": "Small Use Guidance",
+      "description": "Your logo must perform well and be recognisable at all sizes. Tips for using your logo in these cases will minimise the risk of it being misused.",
+      "resources": [
+        {
+          "id": "FA3JsZgNhKrgNHVtVreol-res-1",
+          "type": "article",
+          "title": "Everything You Need to Know About Logo Usage Guidelines",
+          "url": "https://www.tailorbrands.com/blog/logo-usage-guidelines"
+        }
+      ]
+    },
+    "GtLYBPJjdZwG0qgA7erk7": {
+      "id": "GtLYBPJjdZwG0qgA7erk7",
+      "slug": "spaces",
+      "title": "Spacing",
+      "description": "Spacing tokens define white space between elements, creating visual rhythm and clear relationships. An effective system should establish a foundational unit, create systematic scales, define consistent internal spacing, establish layout guidelines, implement fluid spacing, create meaningful categories, and ensure cross-platform consistency.",
+      "resources": []
+    },
+    "dXaYOwTAnYSlipNEBSV9l": {
+      "id": "dXaYOwTAnYSlipNEBSV9l",
+      "slug": "spacking",
+      "title": "Spacing",
+      "description": "Horizontal and vertical rhythm plays a big role in a layout. You should provide easy methods for adding space between interface elements independent of your grid.",
+      "resources": []
+    },
+    "_3_tFOpQisx6DSP4Yc2E2": {
+      "id": "_3_tFOpQisx6DSP4Yc2E2",
+      "slug": "stakeholders-involved-in-building",
+      "title": "Stakeholders",
+      "description": "Building an effective design system is not an individual responsibility, you need more than just designers. Here’s a quick list of the disciplines that can be represented in your team to create an effective design system: - **Designers:** to define the visual elements of the system - **Frontend Developers:** To create modular efficient code - **Accessibility Experts:** Accessibility experts to ensure your system conforms to standards like WCAG - **Performance Experts:** who can ensure your system loads quickly on all devices - **Content Strategists:** who can help the team nail the voice and tone of the system - **Researchers:** who can help you understand customer needs - **Product Managers:** to ensure the system is aligning to customer needs - **Leaders:** (VPs and directors) to champion and align the vision throughout the company including up to executive leadership",
+      "resources": [
+        {
+          "id": "_3_tFOpQisx6DSP4Yc2E2-res-1",
+          "type": "article",
+          "title": "Designing the Design System",
+          "url": "https://www.designbetter.co/design-systems-handbook/designing-design-system"
+        }
+      ]
+    },
+    "SPK1i0XuHpNEWyi1iIxrV": {
+      "id": "SPK1i0XuHpNEWyi1iIxrV",
+      "slug": "style",
+      "title": "Style",
+      "description": "Make sure that your icon family makes visual sense as a whole. Picking an outlined or filled style and sticking with it will lead to better visual consistency and predictability.",
+      "resources": []
+    },
+    "1vYR1EMyZhJA-znxnFBBb": {
+      "id": "1vYR1EMyZhJA-znxnFBBb",
+      "slug": "tabs",
+      "title": "Tabs",
+      "description": "Tabs organise navigation between multiple pages or content sections. - **Active Button State:** There should be a clear differentiation between selected and unselected tab buttons. - **Button Icon Support:** Icons help show the purpose of the tab buttons when used next to its label. - **Equally-sized tab buttons:** Tabs can be used in a relatively small-sized container where you need to switch between a definite number of sections. For such scenarios, it’s better to support a variant where the button’s area is divided equally. - **Keyboard Navigation:** All tab buttons should be focusable and navigation between the tab’s component should be accessible from the keyboard. - **Responsiveness:** If all tabs on mobile don’t fit into the viewport, users should still have access to all tab buttons. Ways to solve this can be making the button area scrollable for mobile or showing a More button containing a dropdown with the rest of the buttons.",
+      "resources": []
+    },
+    "de0TKvmFTDmKGZc5X7iFq": {
+      "id": "de0TKvmFTDmKGZc5X7iFq",
+      "slug": "terminology",
+      "title": "Terminology",
+      "description": "Design systems can be tricky if you don’t know what certain words mean. Have a look at the roadmap nodes as well as follow the link below to read the glossary.",
+      "resources": [
+        {
+          "id": "de0TKvmFTDmKGZc5X7iFq-res-1",
+          "type": "article",
+          "title": "Design Systems Glossary",
+          "url": "https://web.archive.org/web/20220620075140/https://superfriendly.com/design-systems/glossary/"
+        }
+      ]
+    },
+    "Zspu1SsuTE34PVmYePcs4": {
+      "id": "Zspu1SsuTE34PVmYePcs4",
+      "slug": "terminology",
+      "title": "Terminology",
+      "description": "Create the standard terms and phrases that need to be kept the same throughout the user experience, speeding up the design process and unifying your voice.",
+      "resources": []
+    },
+    "iusI39fxcu2rbMXiosaM6": {
+      "id": "iusI39fxcu2rbMXiosaM6",
+      "slug": "textarea",
+      "title": "Textarea",
+      "description": "Text area lets users enter and edit text. - **Disabled State:** Prevents input interactions and removes its value from the form submission. - **Placeholder:** When there’s no value entered, show a placeholder with a potential value example. Don’t use placeholders as labels for the inputs. - **Label:** There should be a text label linked with the text field. Clicking the label should move the focus to the field. - **Error State:** The error state is used for form validation errors when the error is related to the text field only. Always use a text error along with changing the colour of the field. - **Focused State:** The focused state should highlight the text field when users start to interact with it. There is always only one focused field in the form.",
+      "resources": []
+    },
+    "i39J0fk4DaPeNFIMbH0ap": {
+      "id": "i39J0fk4DaPeNFIMbH0ap",
+      "slug": "ticketing",
+      "title": "Ticketing",
+      "description": "Make it easier to track your day-to-day progress by using ticketing software like Jira, Trello or GitHub. This’ll make it easier for others to submit feature proposals or bug reports.",
+      "resources": []
+    },
+    "-T7uL6a3lJ5-IIcDaG6IN": {
+      "id": "-T7uL6a3lJ5-IIcDaG6IN",
+      "slug": "toast",
+      "title": "Toast",
+      "description": "Toasts provide short meaningful feedback messages about the action results. - **Dismissed Automatically:** Toast messages shouldn’t interrupt the user flow, block the screen for a long time or require additional action from the user. - **Action Support:** Besides displaying the message, toasts may also provide an action related to the message like undoing an action. - **Handles Multiple Instances:** Even though it doesn’t happen often, toasts can be called from multiple sources at the same time and all resulting toasts should be queued. It’s good practice not to show all the messages at the same time. - **Accessibility:** Toast messages should be announced by the voice assistive technology and their action should be easily accessible from the keyboard. - **Responsivenss:** Toasts should be aligned with the mobile viewport and their action should be easily reachable for tapping.",
+      "resources": []
+    },
+    "jETJVuS_EczJiQASLqaQr": {
+      "id": "jETJVuS_EczJiQASLqaQr",
+      "slug": "token",
+      "title": "Token",
+      "description": "Design system tokens are the style values of UI elements such as color, typography, spacing, shadows, etc., that are used across products and capable of being converted to a format for any platform (web, mobile, desktop). Tokens are building blocks of the design system—think of them as sub atoms, the smallest pieces of style values that allow designers to create styles for a product.",
+      "resources": [
+        {
+          "id": "jETJVuS_EczJiQASLqaQr-res-1",
+          "type": "article",
+          "title": "What Are Design Tokens?",
+          "url": "https://xd.adobe.com/ideas/principles/design-systems/what-are-design-tokens/"
+        }
+      ]
+    },
+    "fnlVIgsmyxj2UVCCjM-8g": {
+      "id": "fnlVIgsmyxj2UVCCjM-8g",
+      "slug": "tone-of-voice",
+      "title": "Tone of Voice",
+      "description": "A clear tone of voice defines how you speak to your audience at every moment in their journey, helping them get wherever they want to go.",
+      "resources": []
+    },
+    "qiJGYYWL4naJX-MgZA9Ms": {
+      "id": "qiJGYYWL4naJX-MgZA9Ms",
+      "slug": "tooling-analytics",
+      "title": "Tooling Analytics",
+      "description": "Track what tools are being used for your design system. Find out which ones are used the most and which features are the most popular.",
+      "resources": []
+    },
+    "jggrr5nZOe6FY3ZrZJTOw": {
+      "id": "jggrr5nZOe6FY3ZrZJTOw",
+      "slug": "tooling",
+      "title": "Tooling",
+      "description": "Design system tooling encompasses technical infrastructure and workflows. Effective tooling should integrate with design tools, provide component libraries for frameworks, implement token management, utilize documentation platforms, establish automated versioning, create testing infrastructure, and enable collaboration workflows.",
+      "resources": []
+    },
+    "2oCAzsk_y2Y2oHUi467dp": {
+      "id": "2oCAzsk_y2Y2oHUi467dp",
+      "slug": "tooltip",
+      "title": "Tooltip",
+      "description": "Tooltips are desktop-only components that display additional information when hovering over or focusing on an element. - **Keyboard Hover Support:** Tooltips should be accessible when an element is focused using the keyboard. - **Dynamic Positioning:** Tooltip content should be displayed based on the current position of the trigger element on the screen and always visible to the user. - **Hover Timeout:** Having a small timeout before triggering a tooltip will help to prevent occasionally showing tooltips while users move their mouse cursor. - **Light Variant:** The tooltip should respect its parent element background and provide a variant to be used on darker background colours. - **Instant Transition for Element Groups:** If there’s a group of elements using tooltips, hovering over another element while a tooltip’s already active shouldn’t trigger the animation.",
+      "resources": []
+    },
+    "ODQ8zrHc2rsc8PN-APKvz": {
+      "id": "ODQ8zrHc2rsc8PN-APKvz",
+      "slug": "typography",
+      "title": "Typography",
+      "description": "Typography establishes hierarchy, readability, and brand personality. An effective system should develop harmonious scales using mathematical ratios, choose appropriate typefaces, implement fluid typography, establish consistent line-heights, define font weight hierarchy, ensure accessibility compliance, and provide clear usage guidelines.",
+      "resources": []
+    },
+    "lUObv2N7eH3Jdnwwd5vmI": {
+      "id": "lUObv2N7eH3Jdnwwd5vmI",
+      "slug": "ui-kit",
+      "title": "UI Kit",
+      "description": "As it relates to a design system, a UI Kit is a representation of coded components created in a way that designers who don’t know code can create interface mockups. Examples of UI kits are Sketch libraries and [Figma design systems](https://www.figma.com/blog/how-to-build-your-design-system-in-figma/).",
+      "resources": [
+        {
+          "id": "lUObv2N7eH3Jdnwwd5vmI-res-1",
+          "type": "article",
+          "title": "Design System vs UI Kit",
+          "url": "https://uigstudio.com/insights/design-system-vs-ui-kit"
+        },
+        {
+          "id": "lUObv2N7eH3Jdnwwd5vmI-res-2",
+          "type": "article",
+          "title": "Your sketch library is not a design system",
+          "url": "http://bradfrost.com/blog/post/your-sketch-library-is-not-a-design-system/"
+        }
+      ]
+    },
+    "uvnV1IjE8RV-FKDxHntUU": {
+      "id": "uvnV1IjE8RV-FKDxHntUU",
+      "slug": "understand-the-basics",
+      "title": "Design System Basics",
+      "description": "A design system is a set of standards to manage design at scale by reducing redundancy while creating a shared language and visual consistency across different pages and channels.",
+      "resources": [
+        {
+          "id": "uvnV1IjE8RV-FKDxHntUU-res-1",
+          "type": "article",
+          "title": "Design Systems 101",
+          "url": "https://www.nngroup.com/articles/design-systems-101/"
+        },
+        {
+          "id": "uvnV1IjE8RV-FKDxHntUU-res-2",
+          "type": "video",
+          "title": "What is a Design System? Design Systems 101 for Designers",
+          "url": "https://www.youtube.com/watch?v=wc5krC28ynQ"
+        },
+        {
+          "id": "uvnV1IjE8RV-FKDxHntUU-res-3",
+          "type": "article",
+          "title": "How to build your design system",
+          "url": "https://www.figma.com/blog/design-systems-102-how-to-build-your-design-system/"
+        },
+        {
+          "id": "uvnV1IjE8RV-FKDxHntUU-res-4",
+          "type": "article",
+          "title": "Everything you need to know about Design Systems",
+          "url": "https://uxdesign.cc/everything-you-need-to-know-about-design-systems-54b109851969"
+        }
+      ]
+    },
+    "y8No8I0MltA91j4Q2toT0": {
+      "id": "y8No8I0MltA91j4Q2toT0",
+      "slug": "unit-testing",
+      "title": "Unit Testing",
+      "description": "Every part of the design system should be covered with unit tests. Once your system’s adopted, any change in the isolated environment may affect how the product works.",
+      "resources": []
+    },
+    "wQbMhC7q3qdKYf_pX5qL4": {
+      "id": "wQbMhC7q3qdKYf_pX5qL4",
+      "slug": "units",
+      "title": "Units",
+      "description": "Units are the most granular building blocks for layout. Defining a set of values with consistent increments (such as 4, 8, 12 and 16 for a 4-point system) will provide you with the foundation when you’re designing your grid and spacing values.",
+      "resources": []
+    },
+    "RmSFwKqL9yXXxGKZusKWX": {
+      "id": "RmSFwKqL9yXXxGKZusKWX",
+      "slug": "usage-guidance",
+      "title": "Usage Guidance",
+      "description": "Logo usage guidance provides rules for proper implementation to maintain brand consistency. Effective guidance should establish clear examples of proper usage and mistakes to avoid, define logo variations, specify color requirements, prohibit unauthorized alterations, and include approval processes for new contexts.",
+      "resources": [
+        {
+          "id": "RmSFwKqL9yXXxGKZusKWX-res-1",
+          "type": "article",
+          "title": "Logo Usage Best Practices",
+          "url": "https://99designs.com/blog/tips/logo-usage-guidelines/"
+        },
+        {
+          "id": "RmSFwKqL9yXXxGKZusKWX-res-2",
+          "type": "article",
+          "title": "Brand Guidelines Development",
+          "url": "https://designsystem.digital.gov/design-tokens/logo/"
+        },
+        {
+          "id": "RmSFwKqL9yXXxGKZusKWX-res-3",
+          "type": "article",
+          "title": "Trademark and Logo Legal Guidelines",
+          "url": "https://www.uspto.gov/trademarks-getting-started/trademark-basics"
+        },
+        {
+          "id": "RmSFwKqL9yXXxGKZusKWX-res-4",
+          "type": "article",
+          "title": "Brand Identity Protection",
+          "url": "https://www.brandfolder.com/blog/brand-guidelines"
+        },
+        {
+          "id": "RmSFwKqL9yXXxGKZusKWX-res-5",
+          "type": "article",
+          "title": "Explore top posts about Brand Management",
+          "url": "https://app.daily.dev/tags/branding?ref=roadmapsh"
+        }
+      ]
+    },
+    "PlW8mHnOTyYnbtl0zUSG9": {
+      "id": "PlW8mHnOTyYnbtl0zUSG9",
+      "slug": "user-onboarding",
+      "title": "User Onboarding",
+      "description": "How you onboard your users to your product or a new feature and give them a great experience from the start.",
+      "resources": [
+        {
+          "id": "PlW8mHnOTyYnbtl0zUSG9-res-1",
+          "type": "video",
+          "title": "What is user onboarding?",
+          "url": "https://www.youtube.com/watch?v=PatIqbGEQe4"
+        }
+      ]
+    },
+    "CYY6nbQiC2pu5ATWmO6wA": {
+      "id": "CYY6nbQiC2pu5ATWmO6wA",
+      "slug": "version-control",
+      "title": "Version Control",
+      "description": "Having your design versioned with semantic versioning will allow you to easily align design with development, roll back faulty changes and release changes in code and design at the same time.",
+      "resources": []
+    },
+    "cMfsRtvzvDZZJ0TqeUOxm": {
+      "id": "cMfsRtvzvDZZJ0TqeUOxm",
+      "slug": "vision",
+      "title": "Vision",
+      "description": "Brand vision serves as the foundation for design system decisions, providing purpose and direction. An effective vision should articulate organizational purpose, identify core values, visualize future success, prioritize user needs, clarify brand uniqueness, account for cultural considerations, and connect to measurable goals.",
+      "resources": [
+        {
+          "id": "cMfsRtvzvDZZJ0TqeUOxm-res-1",
+          "type": "article",
+          "title": "Creating Brand Vision",
+          "url": "https://www.interaction-design.org/literature/article/branding-in-ux"
+        },
+        {
+          "id": "cMfsRtvzvDZZJ0TqeUOxm-res-2",
+          "type": "article",
+          "title": "Vision-Driven Design Systems",
+          "url": "https://bradfrost.com/blog/post/the-design-system-ecosystem/"
+        },
+        {
+          "id": "cMfsRtvzvDZZJ0TqeUOxm-res-3",
+          "type": "article",
+          "title": "Brand Strategy for Design",
+          "url": "https://alistapart.com/article/creating-a-brand-identity/"
+        },
+        {
+          "id": "cMfsRtvzvDZZJ0TqeUOxm-res-4",
+          "type": "article",
+          "title": "Purpose-Driven Design",
+          "url": "https://designsystem.digital.gov/design-tokens/brand/"
+        },
+        {
+          "id": "cMfsRtvzvDZZJ0TqeUOxm-res-5",
+          "type": "article",
+          "title": "Explore top posts about Brand Strategy",
+          "url": "https://app.daily.dev/tags/branding?ref=roadmapsh"
+        }
+      ]
+    },
+    "-MrrapoyFWKhSeE2PZ9mb": {
+      "id": "-MrrapoyFWKhSeE2PZ9mb",
+      "slug": "visual-forms",
+      "title": "Visual Forms",
+      "description": "Visual forms focus on aesthetic and interactive design aspects of form components. Effective design should establish clear information architecture, create consistent field styling, develop harmonious label positioning, design clear error communication, implement progressive enhancement, prioritize mobile-first design, and ensure cross-platform consistency.",
+      "resources": []
+    },
+    "4PrkkoZ5fY-oow0O-bVhu": {
+      "id": "4PrkkoZ5fY-oow0O-bVhu",
+      "slug": "what-is-a-design-system",
+      "title": "What is Design System",
+      "description": "A Design System is the single source of truth which groups all the elements that will allow the teams to design, realize and develop a product.",
+      "resources": [
+        {
+          "id": "4PrkkoZ5fY-oow0O-bVhu-res-1",
+          "type": "article",
+          "title": "Everything you need to know about Design Systems",
+          "url": "https://uxdesign.cc/everything-you-need-to-know-about-design-systems-54b109851969"
+        },
+        {
+          "id": "4PrkkoZ5fY-oow0O-bVhu-res-2",
+          "type": "article",
+          "title": "Design Systems 101",
+          "url": "https://www.nngroup.com/articles/design-systems-101/"
+        },
+        {
+          "id": "4PrkkoZ5fY-oow0O-bVhu-res-3",
+          "type": "article",
+          "title": "A comprehensive guide to design systems",
+          "url": "https://www.invisionapp.com/inside-design/guide-to-design-systems/"
+        }
+      ]
+    },
+    "6r9XbwlBtHmJrhviG2cTD": {
+      "id": "6r9XbwlBtHmJrhviG2cTD",
+      "slug": "what-is-atomic-design",
+      "title": "Atomic Design",
+      "description": "Atomic design (by Brad Frost) is a mental model to help you think of user interfaces as a cohesive whole and a collection of parts at the same time. Through the comparison to atoms, molecules, and organisms, we can think of the design of our UI as a composition of self-containing modules put together.",
+      "resources": [
+        {
+          "id": "6r9XbwlBtHmJrhviG2cTD-res-1",
+          "type": "article",
+          "title": "Atomic Design Principles & Methodology 101",
+          "url": "https://xd.adobe.com/ideas/process/ui-design/atomic-design-principles-methodology-101/"
+        },
+        {
+          "id": "6r9XbwlBtHmJrhviG2cTD-res-2",
+          "type": "article",
+          "title": "Atomic Design Methodology",
+          "url": "https://atomicdesign.bradfrost.com/chapter-2/"
+        },
+        {
+          "id": "6r9XbwlBtHmJrhviG2cTD-res-3",
+          "type": "article",
+          "title": "Atomic Design and UI Components: Theory to Practice",
+          "url": "https://blog.bitsrc.io/atomic-design-and-ui-components-theory-to-practice-f200db337c24"
+        }
+      ]
+    },
+    "toyNbBB5tbyiJZkzuklIv": {
+      "id": "toyNbBB5tbyiJZkzuklIv",
+      "slug": "writing-guidelines",
+      "title": "Writing Guidelines",
+      "description": "Every consistent experience needs watertight writing. Laying down the foundations for your house style early keeps everything in line with consistent grammar, style choices and action-oriented language to help your design.",
+      "resources": []
+    }
+  }
+}

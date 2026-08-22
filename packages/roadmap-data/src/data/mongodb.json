@@ -1,0 +1,4257 @@
+{
+  "slug": "mongodb",
+  "title": "Mongodb",
+  "description": "Comprehensive learning curriculum and mastery roadmap for mongodb.",
+  "category": "skill",
+  "level": "Intermediate",
+  "topicCount": 106,
+  "iconName": "Compass",
+  "nodes": [
+    {
+      "id": "node-gpihoIJkzSS1WOvmH2ueo",
+      "label": "Aggregation",
+      "topicId": "gpihoIJkzSS1WOvmH2ueo",
+      "level": 1,
+      "position": {
+        "x": 80,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-hPPoO8ysGeEGEQhdveiDO",
+      "label": "$all",
+      "topicId": "hPPoO8ysGeEGEQhdveiDO",
+      "level": 1,
+      "position": {
+        "x": 340,
+        "y": 80
+      }
+    },
+    {
+      "id": "node--62S4wRxHpIM2I59xjGun",
+      "label": "$and",
+      "topicId": "-62S4wRxHpIM2I59xjGun",
+      "level": 1,
+      "position": {
+        "x": 600,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-q6ZKxFcSAQ8bgUdGaDpuu",
+      "label": "Array",
+      "topicId": "q6ZKxFcSAQ8bgUdGaDpuu",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-YidhAuVk_VGukx_FfJSz2",
+      "label": "Atlas Search Indexes",
+      "topicId": "YidhAuVk_VGukx_FfJSz2",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-UM6jH6bAijYS0Hmw87UQ-",
+      "label": "Binary Data",
+      "topicId": "UM6jH6bAijYS0Hmw87UQ-",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-hmo7zCZ1jKgobS5R0eBSD",
+      "label": "Boolean",
+      "topicId": "hmo7zCZ1jKgobS5R0eBSD",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-F4W9XBSbkpzWIrAhRBSRS",
+      "label": "BSON vs JSON",
+      "topicId": "F4W9XBSbkpzWIrAhRBSRS",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-yc2HqhjhIV6UU_2P-ykKB",
+      "label": "bulkWrite() and Related Methods",
+      "topicId": "yc2HqhjhIV6UU_2P-ykKB",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-YJiWemHO1l5q9WhgoHyYd",
+      "label": "Client-Side Field Level Encryption",
+      "topicId": "YJiWemHO1l5q9WhgoHyYd",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-7SGYNo3oHlgm_1cwhWfw7",
+      "label": "Collection Methods",
+      "topicId": "7SGYNo3oHlgm_1cwhWfw7",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-eSb4WAfWxJu6R95pPX6wm",
+      "label": "Compound Indexes",
+      "topicId": "eSb4WAfWxJu6R95pPX6wm",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-hC83jKoO_XFI83WpsdN_Z",
+      "label": "Counting Documents",
+      "topicId": "hC83jKoO_XFI83WpsdN_Z",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-haA1ltV6VzgJVJcJNMK0W",
+      "label": "Creating Indexes",
+      "topicId": "haA1ltV6VzgJVJcJNMK0W",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-K9x7yQP59cB764Q5PqAs_",
+      "label": "Cursors",
+      "topicId": "K9x7yQP59cB764Q5PqAs_",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-_UIfRdlj6BeEESw1FW9RH",
+      "label": "Data Model & Data Types",
+      "topicId": "_UIfRdlj6BeEESw1FW9RH",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-T6cq--pute6-8aG7z6QKN",
+      "label": "Date",
+      "topicId": "T6cq--pute6-8aG7z6QKN",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-OGtR5D_DUCSci1lFBT83z",
+      "label": "Decimal128",
+      "topicId": "OGtR5D_DUCSci1lFBT83z",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-qjoLxSkfKbzG1sZUXnyw9",
+      "label": "delete() and Related Methods",
+      "topicId": "qjoLxSkfKbzG1sZUXnyw9",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-6H2MMnEfS6uHGS-6pFo8u",
+      "label": "Developer Tools",
+      "topicId": "6H2MMnEfS6uHGS-6pFo8u",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-4Cf_wcoByPqpOOpdbAJuq",
+      "label": "Double",
+      "topicId": "4Cf_wcoByPqpOOpdbAJuq",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-kJJ-W6BV1ofIvuFT_PCcz",
+      "label": "Elastic Search",
+      "topicId": "kJJ-W6BV1ofIvuFT_PCcz",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-TJHVY8DRWbDKeT_pIPJay",
+      "label": "$elemMatch",
+      "topicId": "TJHVY8DRWbDKeT_pIPJay",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-6MqhN-PTf1PRzYCTxC8pn",
+      "label": "Embedded Objects & Arrays",
+      "topicId": "6MqhN-PTf1PRzYCTxC8pn",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-iJjqlTgXxHWC-8bh6uCGQ",
+      "label": "Encryption at Rest",
+      "topicId": "iJjqlTgXxHWC-8bh6uCGQ",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-2h8z2mrgRKSLKI-eBc3zM",
+      "label": "$eq",
+      "topicId": "2h8z2mrgRKSLKI-eBc3zM",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-nk0V3o3oKuIb8A0gDECFJ",
+      "label": "$exclude",
+      "topicId": "nk0V3o3oKuIb8A0gDECFJ",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-12kfpSapv2uNxpHzLkFSL",
+      "label": "$exists",
+      "topicId": "12kfpSapv2uNxpHzLkFSL",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-butGgZXGPTZI-sWx24bOr",
+      "label": "Expiring",
+      "topicId": "butGgZXGPTZI-sWx24bOr",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-iMpCEXRDXg0Kq9OFNywbI",
+      "label": "find() and Related Methods",
+      "topicId": "iMpCEXRDXg0Kq9OFNywbI",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-bqXlDnPuMQIKulD9cTvPf",
+      "label": "Geospatial Indexes",
+      "topicId": "bqXlDnPuMQIKulD9cTvPf",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-nz048lC4Q4S7fMVbxLGEk",
+      "label": "$group",
+      "topicId": "nz048lC4Q4S7fMVbxLGEk",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-wbZb0RwmANH4ssF07cAar",
+      "label": "$gt",
+      "topicId": "wbZb0RwmANH4ssF07cAar",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-kV5Tmu9ocDnuPQvkx2W0u",
+      "label": "$gte",
+      "topicId": "kV5Tmu9ocDnuPQvkx2W0u",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-Wd20OKQYYuW_bT6U-yRxT",
+      "label": "$in",
+      "topicId": "Wd20OKQYYuW_bT6U-yRxT",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-sxDyp3bP-YhgmDMVUFTaA",
+      "label": "$include",
+      "topicId": "sxDyp3bP-YhgmDMVUFTaA",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-XjB0uOnsYl4edzZWpQ-nm",
+      "label": "Indexing",
+      "topicId": "XjB0uOnsYl4edzZWpQ-nm",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-mXdn4u5CiQRDE83qMiWZX",
+      "label": "insert() and Related Methods",
+      "topicId": "mXdn4u5CiQRDE83qMiWZX",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-xKFZSKG2GPD-phY2HLMsx",
+      "label": "Int32",
+      "topicId": "xKFZSKG2GPD-phY2HLMsx",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-iJFDFdIN_N4-DlJwrFIiB",
+      "label": "Int64 / Long",
+      "topicId": "iJFDFdIN_N4-DlJwrFIiB",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-UXO5i6nPa5CRW1z7FAn_S",
+      "label": "JavaScript",
+      "topicId": "UXO5i6nPa5CRW1z7FAn_S",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-JAosQ9tFj7y70lGQ0vHzC",
+      "label": "Kafka",
+      "topicId": "JAosQ9tFj7y70lGQ0vHzC",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-YuzMOO7kf2tO6V6WehqF_",
+      "label": "Kerberos Authentication",
+      "topicId": "YuzMOO7kf2tO6V6WehqF_",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-73REfcB_T0yBP-KQ0EYmF",
+      "label": "Language Drivers",
+      "topicId": "73REfcB_T0yBP-KQ0EYmF",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-NoDNdno9UOlMrOC0Wga9E",
+      "label": "LDAP Proxy Auth",
+      "topicId": "NoDNdno9UOlMrOC0Wga9E",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-AzUVaGnGv9uypJ31alR9r",
+      "label": "$limit",
+      "topicId": "AzUVaGnGv9uypJ31alR9r",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-strw_oGTkZEH-o8zA4IRP",
+      "label": "$lookup",
+      "topicId": "strw_oGTkZEH-o8zA4IRP",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-5-MLEEigFPRloN7wLa05T",
+      "label": "$lt",
+      "topicId": "5-MLEEigFPRloN7wLa05T",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-eOfsrmOQI0dJW6HV_myVH",
+      "label": "$lte",
+      "topicId": "eOfsrmOQI0dJW6HV_myVH",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-_c7itVw1R1_UB-NPtL-WI",
+      "label": "$match",
+      "topicId": "_c7itVw1R1_UB-NPtL-WI",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-QF7SL237FyBQdqvKUzop6",
+      "label": "Max Key",
+      "topicId": "QF7SL237FyBQdqvKUzop6",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-jQSMLd6gG158tJDzo1k_1",
+      "label": "Min Key",
+      "topicId": "jQSMLd6gG158tJDzo1k_1",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-w1L-yFBM2AyeNBFyH5skW",
+      "label": "MongoDB Audit",
+      "topicId": "w1L-yFBM2AyeNBFyH5skW",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-z50iixpcCMe9sTh-gwTI3",
+      "label": "MongoDB Basics",
+      "topicId": "z50iixpcCMe9sTh-gwTI3",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-LC923iJhfiUDIs_0-9rc7",
+      "label": "MongoDB Security",
+      "topicId": "LC923iJhfiUDIs_0-9rc7",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-1pCWjSvjvbox5OpyWJ8Kv",
+      "label": "MongoDB Terminology",
+      "topicId": "1pCWjSvjvbox5OpyWJ8Kv",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-xaWDHCkcGm4oovPPxVMB9",
+      "label": "mongodump",
+      "topicId": "xaWDHCkcGm4oovPPxVMB9",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-TKngxMNGMgrdO26D7eeSg",
+      "label": "mongorestore",
+      "topicId": "TKngxMNGMgrdO26D7eeSg",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-Q8dr1JPEnLX0z4DiQwnAz",
+      "label": "$ne",
+      "topicId": "Q8dr1JPEnLX0z4DiQwnAz",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-ZKHUCskdKQf4IaMUTN_e7",
+      "label": "$nin",
+      "topicId": "ZKHUCskdKQf4IaMUTN_e7",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-7xq_mdQOlUTuhfnogOl8h",
+      "label": "$nor",
+      "topicId": "7xq_mdQOlUTuhfnogOl8h",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-qaUj9916Fh4BtiLz_pwQs",
+      "label": "$not",
+      "topicId": "qaUj9916Fh4BtiLz_pwQs",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-g6AKQiFcY_8lsWRbkbZSC",
+      "label": "Null",
+      "topicId": "g6AKQiFcY_8lsWRbkbZSC",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-mxd3-l3-NtPw53dEvhqm4",
+      "label": "ObjectId",
+      "topicId": "mxd3-l3-NtPw53dEvhqm4",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-QcdZKNcCtKls6P4YNXR2W",
+      "label": "Object",
+      "topicId": "QcdZKNcCtKls6P4YNXR2W",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-43BfjlUju-yJaGv-FaJty",
+      "label": "$or",
+      "topicId": "43BfjlUju-yJaGv-FaJty",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-A9W2LsivDc0ialLp83fYP",
+      "label": "Performance Optimization",
+      "topicId": "A9W2LsivDc0ialLp83fYP",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-eDks8Jmsbq3_nHgLydyxP",
+      "label": "Pipelines, Stages and Operators",
+      "topicId": "eDks8Jmsbq3_nHgLydyxP",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-dO2mJejkWBH903LG0dWgN",
+      "label": "$project",
+      "topicId": "dO2mJejkWBH903LG0dWgN",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-gakF5Zfgk7QIgg_UwqG_Y",
+      "label": "$project",
+      "topicId": "gakF5Zfgk7QIgg_UwqG_Y",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-B8SFhoVV8ei1Yz6vl57l_",
+      "label": "Query Operators",
+      "topicId": "B8SFhoVV8ei1Yz6vl57l_",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-4L9UQ4oaaK3wZwOLIMa6T",
+      "label": "Query Optimization",
+      "topicId": "4L9UQ4oaaK3wZwOLIMa6T",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-kG0ZeGatgvC1azZKMQiA_",
+      "label": "Query Optimization",
+      "topicId": "kG0ZeGatgvC1azZKMQiA_",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-LpfuM6SuhlNNjBcHM68ee",
+      "label": "Queryable Encryption",
+      "topicId": "LpfuM6SuhlNNjBcHM68ee",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-thOckmrCJ45NVNPNxm4eg",
+      "label": "Read & Write Concerns",
+      "topicId": "thOckmrCJ45NVNPNxm4eg",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-PmfjHFz-DW69pNh_t13Nm",
+      "label": "$regex",
+      "topicId": "PmfjHFz-DW69pNh_t13Nm",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-z6I9XgIGQYWUd5l9DIZRX",
+      "label": "Regular Expression",
+      "topicId": "z6I9XgIGQYWUd5l9DIZRX",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-QrHT-H12AV4-V-y_nzmNk",
+      "label": "Replica Sets",
+      "topicId": "QrHT-H12AV4-V-y_nzmNk",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-s8El0Q22GD_rOZGlDtkgH",
+      "label": "Retryable Reads / Writes",
+      "topicId": "s8El0Q22GD_rOZGlDtkgH",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-yRJ6jeysFXBpwLEqvrdKk",
+      "label": "Role-based Access Control",
+      "topicId": "yRJ6jeysFXBpwLEqvrdKk",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-cOKQQ7SaiawWF49MdCGTh",
+      "label": "Scaling MongoDB",
+      "topicId": "cOKQQ7SaiawWF49MdCGTh",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-CijW3HCjVRZHQIBsQ9_0H",
+      "label": "Sharded Clusters",
+      "topicId": "CijW3HCjVRZHQIBsQ9_0H",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-SjPzR6JjdBeiqFsrRJPfW",
+      "label": "Single Field Indexes",
+      "topicId": "SjPzR6JjdBeiqFsrRJPfW",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node--VMIkV6S6H1blngxLXk7Y",
+      "label": "$size",
+      "topicId": "-VMIkV6S6H1blngxLXk7Y",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-4CjjGPOy-385Bco_PeQwa",
+      "label": "$skip",
+      "topicId": "4CjjGPOy-385Bco_PeQwa",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-9mmxYBtvPYZlvFjQvE-2N",
+      "label": "$slice",
+      "topicId": "9mmxYBtvPYZlvFjQvE-2N",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-BCWS8uV2pSWe7CX-VlnTg",
+      "label": "$sort",
+      "topicId": "BCWS8uV2pSWe7CX-VlnTg",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-K09-nD6xF5YJUQBBpFXMz",
+      "label": "Spark",
+      "topicId": "K09-nD6xF5YJUQBBpFXMz",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-cMfsRtvzvDZZJ0TqeUOxm",
+      "label": "NoSQL vs SQL",
+      "topicId": "cMfsRtvzvDZZJ0TqeUOxm",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-eU4XCnrf27FO3KCda8QYw",
+      "label": "String",
+      "topicId": "eU4XCnrf27FO3KCda8QYw",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-CfM0iyd2bNRIiDWTUkspd",
+      "label": "$sum",
+      "topicId": "CfM0iyd2bNRIiDWTUkspd",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-XAS4jQlsHkttLDuSSsD2o",
+      "label": "Symbol",
+      "topicId": "XAS4jQlsHkttLDuSSsD2o",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-PV_3TEYdtVZ2VCDZEOsu_",
+      "label": "$text",
+      "topicId": "PV_3TEYdtVZ2VCDZEOsu_",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-zbFH2NRHZEOv5eKLL_HR0",
+      "label": "Timestamp",
+      "topicId": "zbFH2NRHZEOv5eKLL_HR0",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5040
+      }
+    },
+    {
+      "id": "node-5F7zAAnvnVTTnBzOB7TSu",
+      "label": "TLS / SSL Encryption",
+      "topicId": "5F7zAAnvnVTTnBzOB7TSu",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5040
+      }
+    },
+    {
+      "id": "node-aHcmsaqAfG5fC90VV-EHP",
+      "label": "Transactions",
+      "topicId": "aHcmsaqAfG5fC90VV-EHP",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5040
+      }
+    },
+    {
+      "id": "node-iVDxuERBjKMBHueEfqP0x",
+      "label": "Tuning Configuration",
+      "topicId": "iVDxuERBjKMBHueEfqP0x",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5200
+      }
+    },
+    {
+      "id": "node-BxzMbF7cdvGPuy1EcRvWd",
+      "label": "$type",
+      "topicId": "BxzMbF7cdvGPuy1EcRvWd",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5200
+      }
+    },
+    {
+      "id": "node-kx_GOr51UMpdUAnS5u9qZ",
+      "label": "Undefined",
+      "topicId": "kx_GOr51UMpdUAnS5u9qZ",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5200
+      }
+    },
+    {
+      "id": "node-AY-8KJGA9ZA6ay3rbURt3",
+      "label": "$unwind",
+      "topicId": "AY-8KJGA9ZA6ay3rbURt3",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5360
+      }
+    },
+    {
+      "id": "node-liGbnGyQaG-Vqt6cuB91N",
+      "label": "update() and Related Methods",
+      "topicId": "liGbnGyQaG-Vqt6cuB91N",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5360
+      }
+    },
+    {
+      "id": "node-4h8NdcdXmNqJxLkVJqPtX",
+      "label": "validate()",
+      "topicId": "4h8NdcdXmNqJxLkVJqPtX",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5360
+      }
+    },
+    {
+      "id": "node-1UXfFROvcunyhkx0zB_1S",
+      "label": "What is MongoDB Atlas?",
+      "topicId": "1UXfFROvcunyhkx0zB_1S",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5520
+      }
+    },
+    {
+      "id": "node-tJljSlb5S_tZLZhZHHd_I",
+      "label": "What is MongoDB?",
+      "topicId": "tJljSlb5S_tZLZhZHHd_I",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5520
+      }
+    },
+    {
+      "id": "node-qh8MEbXKPVt8mqlarhUj0",
+      "label": "When to use MongoDB?",
+      "topicId": "qh8MEbXKPVt8mqlarhUj0",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5520
+      }
+    },
+    {
+      "id": "node-NV39oWwr7iB_dnlnD_Q6Y",
+      "label": "x.509 Certificate Authentication",
+      "topicId": "NV39oWwr7iB_dnlnD_Q6Y",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5680
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-node-gpihoIJkzSS1WOvmH2ueo-node-hPPoO8ysGeEGEQhdveiDO",
+      "source": "node-gpihoIJkzSS1WOvmH2ueo",
+      "target": "node-hPPoO8ysGeEGEQhdveiDO",
+      "animated": true
+    },
+    {
+      "id": "edge-node-hPPoO8ysGeEGEQhdveiDO-node--62S4wRxHpIM2I59xjGun",
+      "source": "node-hPPoO8ysGeEGEQhdveiDO",
+      "target": "node--62S4wRxHpIM2I59xjGun",
+      "animated": true
+    },
+    {
+      "id": "edge-node--62S4wRxHpIM2I59xjGun-node-q6ZKxFcSAQ8bgUdGaDpuu",
+      "source": "node--62S4wRxHpIM2I59xjGun",
+      "target": "node-q6ZKxFcSAQ8bgUdGaDpuu",
+      "animated": true
+    },
+    {
+      "id": "edge-node-q6ZKxFcSAQ8bgUdGaDpuu-node-YidhAuVk_VGukx_FfJSz2",
+      "source": "node-q6ZKxFcSAQ8bgUdGaDpuu",
+      "target": "node-YidhAuVk_VGukx_FfJSz2",
+      "animated": true
+    },
+    {
+      "id": "edge-node-YidhAuVk_VGukx_FfJSz2-node-UM6jH6bAijYS0Hmw87UQ-",
+      "source": "node-YidhAuVk_VGukx_FfJSz2",
+      "target": "node-UM6jH6bAijYS0Hmw87UQ-",
+      "animated": true
+    },
+    {
+      "id": "edge-node-UM6jH6bAijYS0Hmw87UQ--node-hmo7zCZ1jKgobS5R0eBSD",
+      "source": "node-UM6jH6bAijYS0Hmw87UQ-",
+      "target": "node-hmo7zCZ1jKgobS5R0eBSD",
+      "animated": true
+    },
+    {
+      "id": "edge-node-hmo7zCZ1jKgobS5R0eBSD-node-F4W9XBSbkpzWIrAhRBSRS",
+      "source": "node-hmo7zCZ1jKgobS5R0eBSD",
+      "target": "node-F4W9XBSbkpzWIrAhRBSRS",
+      "animated": true
+    },
+    {
+      "id": "edge-node-F4W9XBSbkpzWIrAhRBSRS-node-yc2HqhjhIV6UU_2P-ykKB",
+      "source": "node-F4W9XBSbkpzWIrAhRBSRS",
+      "target": "node-yc2HqhjhIV6UU_2P-ykKB",
+      "animated": true
+    },
+    {
+      "id": "edge-node-yc2HqhjhIV6UU_2P-ykKB-node-YJiWemHO1l5q9WhgoHyYd",
+      "source": "node-yc2HqhjhIV6UU_2P-ykKB",
+      "target": "node-YJiWemHO1l5q9WhgoHyYd",
+      "animated": true
+    },
+    {
+      "id": "edge-node-YJiWemHO1l5q9WhgoHyYd-node-7SGYNo3oHlgm_1cwhWfw7",
+      "source": "node-YJiWemHO1l5q9WhgoHyYd",
+      "target": "node-7SGYNo3oHlgm_1cwhWfw7",
+      "animated": true
+    },
+    {
+      "id": "edge-node-7SGYNo3oHlgm_1cwhWfw7-node-eSb4WAfWxJu6R95pPX6wm",
+      "source": "node-7SGYNo3oHlgm_1cwhWfw7",
+      "target": "node-eSb4WAfWxJu6R95pPX6wm",
+      "animated": true
+    },
+    {
+      "id": "edge-node-eSb4WAfWxJu6R95pPX6wm-node-hC83jKoO_XFI83WpsdN_Z",
+      "source": "node-eSb4WAfWxJu6R95pPX6wm",
+      "target": "node-hC83jKoO_XFI83WpsdN_Z",
+      "animated": true
+    },
+    {
+      "id": "edge-node-hC83jKoO_XFI83WpsdN_Z-node-haA1ltV6VzgJVJcJNMK0W",
+      "source": "node-hC83jKoO_XFI83WpsdN_Z",
+      "target": "node-haA1ltV6VzgJVJcJNMK0W",
+      "animated": true
+    },
+    {
+      "id": "edge-node-haA1ltV6VzgJVJcJNMK0W-node-K9x7yQP59cB764Q5PqAs_",
+      "source": "node-haA1ltV6VzgJVJcJNMK0W",
+      "target": "node-K9x7yQP59cB764Q5PqAs_",
+      "animated": true
+    },
+    {
+      "id": "edge-node-K9x7yQP59cB764Q5PqAs_-node-_UIfRdlj6BeEESw1FW9RH",
+      "source": "node-K9x7yQP59cB764Q5PqAs_",
+      "target": "node-_UIfRdlj6BeEESw1FW9RH",
+      "animated": true
+    },
+    {
+      "id": "edge-node-_UIfRdlj6BeEESw1FW9RH-node-T6cq--pute6-8aG7z6QKN",
+      "source": "node-_UIfRdlj6BeEESw1FW9RH",
+      "target": "node-T6cq--pute6-8aG7z6QKN",
+      "animated": true
+    },
+    {
+      "id": "edge-node-T6cq--pute6-8aG7z6QKN-node-OGtR5D_DUCSci1lFBT83z",
+      "source": "node-T6cq--pute6-8aG7z6QKN",
+      "target": "node-OGtR5D_DUCSci1lFBT83z",
+      "animated": true
+    },
+    {
+      "id": "edge-node-OGtR5D_DUCSci1lFBT83z-node-qjoLxSkfKbzG1sZUXnyw9",
+      "source": "node-OGtR5D_DUCSci1lFBT83z",
+      "target": "node-qjoLxSkfKbzG1sZUXnyw9",
+      "animated": true
+    },
+    {
+      "id": "edge-node-qjoLxSkfKbzG1sZUXnyw9-node-6H2MMnEfS6uHGS-6pFo8u",
+      "source": "node-qjoLxSkfKbzG1sZUXnyw9",
+      "target": "node-6H2MMnEfS6uHGS-6pFo8u",
+      "animated": true
+    },
+    {
+      "id": "edge-node-6H2MMnEfS6uHGS-6pFo8u-node-4Cf_wcoByPqpOOpdbAJuq",
+      "source": "node-6H2MMnEfS6uHGS-6pFo8u",
+      "target": "node-4Cf_wcoByPqpOOpdbAJuq",
+      "animated": true
+    },
+    {
+      "id": "edge-node-4Cf_wcoByPqpOOpdbAJuq-node-kJJ-W6BV1ofIvuFT_PCcz",
+      "source": "node-4Cf_wcoByPqpOOpdbAJuq",
+      "target": "node-kJJ-W6BV1ofIvuFT_PCcz",
+      "animated": true
+    },
+    {
+      "id": "edge-node-kJJ-W6BV1ofIvuFT_PCcz-node-TJHVY8DRWbDKeT_pIPJay",
+      "source": "node-kJJ-W6BV1ofIvuFT_PCcz",
+      "target": "node-TJHVY8DRWbDKeT_pIPJay",
+      "animated": true
+    },
+    {
+      "id": "edge-node-TJHVY8DRWbDKeT_pIPJay-node-6MqhN-PTf1PRzYCTxC8pn",
+      "source": "node-TJHVY8DRWbDKeT_pIPJay",
+      "target": "node-6MqhN-PTf1PRzYCTxC8pn",
+      "animated": true
+    },
+    {
+      "id": "edge-node-6MqhN-PTf1PRzYCTxC8pn-node-iJjqlTgXxHWC-8bh6uCGQ",
+      "source": "node-6MqhN-PTf1PRzYCTxC8pn",
+      "target": "node-iJjqlTgXxHWC-8bh6uCGQ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-iJjqlTgXxHWC-8bh6uCGQ-node-2h8z2mrgRKSLKI-eBc3zM",
+      "source": "node-iJjqlTgXxHWC-8bh6uCGQ",
+      "target": "node-2h8z2mrgRKSLKI-eBc3zM",
+      "animated": true
+    },
+    {
+      "id": "edge-node-2h8z2mrgRKSLKI-eBc3zM-node-nk0V3o3oKuIb8A0gDECFJ",
+      "source": "node-2h8z2mrgRKSLKI-eBc3zM",
+      "target": "node-nk0V3o3oKuIb8A0gDECFJ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-nk0V3o3oKuIb8A0gDECFJ-node-12kfpSapv2uNxpHzLkFSL",
+      "source": "node-nk0V3o3oKuIb8A0gDECFJ",
+      "target": "node-12kfpSapv2uNxpHzLkFSL",
+      "animated": true
+    },
+    {
+      "id": "edge-node-12kfpSapv2uNxpHzLkFSL-node-butGgZXGPTZI-sWx24bOr",
+      "source": "node-12kfpSapv2uNxpHzLkFSL",
+      "target": "node-butGgZXGPTZI-sWx24bOr",
+      "animated": true
+    },
+    {
+      "id": "edge-node-butGgZXGPTZI-sWx24bOr-node-iMpCEXRDXg0Kq9OFNywbI",
+      "source": "node-butGgZXGPTZI-sWx24bOr",
+      "target": "node-iMpCEXRDXg0Kq9OFNywbI",
+      "animated": true
+    },
+    {
+      "id": "edge-node-iMpCEXRDXg0Kq9OFNywbI-node-bqXlDnPuMQIKulD9cTvPf",
+      "source": "node-iMpCEXRDXg0Kq9OFNywbI",
+      "target": "node-bqXlDnPuMQIKulD9cTvPf",
+      "animated": true
+    },
+    {
+      "id": "edge-node-bqXlDnPuMQIKulD9cTvPf-node-nz048lC4Q4S7fMVbxLGEk",
+      "source": "node-bqXlDnPuMQIKulD9cTvPf",
+      "target": "node-nz048lC4Q4S7fMVbxLGEk",
+      "animated": true
+    },
+    {
+      "id": "edge-node-nz048lC4Q4S7fMVbxLGEk-node-wbZb0RwmANH4ssF07cAar",
+      "source": "node-nz048lC4Q4S7fMVbxLGEk",
+      "target": "node-wbZb0RwmANH4ssF07cAar",
+      "animated": true
+    },
+    {
+      "id": "edge-node-wbZb0RwmANH4ssF07cAar-node-kV5Tmu9ocDnuPQvkx2W0u",
+      "source": "node-wbZb0RwmANH4ssF07cAar",
+      "target": "node-kV5Tmu9ocDnuPQvkx2W0u",
+      "animated": true
+    },
+    {
+      "id": "edge-node-kV5Tmu9ocDnuPQvkx2W0u-node-Wd20OKQYYuW_bT6U-yRxT",
+      "source": "node-kV5Tmu9ocDnuPQvkx2W0u",
+      "target": "node-Wd20OKQYYuW_bT6U-yRxT",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Wd20OKQYYuW_bT6U-yRxT-node-sxDyp3bP-YhgmDMVUFTaA",
+      "source": "node-Wd20OKQYYuW_bT6U-yRxT",
+      "target": "node-sxDyp3bP-YhgmDMVUFTaA",
+      "animated": true
+    },
+    {
+      "id": "edge-node-sxDyp3bP-YhgmDMVUFTaA-node-XjB0uOnsYl4edzZWpQ-nm",
+      "source": "node-sxDyp3bP-YhgmDMVUFTaA",
+      "target": "node-XjB0uOnsYl4edzZWpQ-nm",
+      "animated": true
+    },
+    {
+      "id": "edge-node-XjB0uOnsYl4edzZWpQ-nm-node-mXdn4u5CiQRDE83qMiWZX",
+      "source": "node-XjB0uOnsYl4edzZWpQ-nm",
+      "target": "node-mXdn4u5CiQRDE83qMiWZX",
+      "animated": true
+    },
+    {
+      "id": "edge-node-mXdn4u5CiQRDE83qMiWZX-node-xKFZSKG2GPD-phY2HLMsx",
+      "source": "node-mXdn4u5CiQRDE83qMiWZX",
+      "target": "node-xKFZSKG2GPD-phY2HLMsx",
+      "animated": true
+    },
+    {
+      "id": "edge-node-xKFZSKG2GPD-phY2HLMsx-node-iJFDFdIN_N4-DlJwrFIiB",
+      "source": "node-xKFZSKG2GPD-phY2HLMsx",
+      "target": "node-iJFDFdIN_N4-DlJwrFIiB",
+      "animated": true
+    },
+    {
+      "id": "edge-node-iJFDFdIN_N4-DlJwrFIiB-node-UXO5i6nPa5CRW1z7FAn_S",
+      "source": "node-iJFDFdIN_N4-DlJwrFIiB",
+      "target": "node-UXO5i6nPa5CRW1z7FAn_S",
+      "animated": true
+    },
+    {
+      "id": "edge-node-UXO5i6nPa5CRW1z7FAn_S-node-JAosQ9tFj7y70lGQ0vHzC",
+      "source": "node-UXO5i6nPa5CRW1z7FAn_S",
+      "target": "node-JAosQ9tFj7y70lGQ0vHzC",
+      "animated": true
+    },
+    {
+      "id": "edge-node-JAosQ9tFj7y70lGQ0vHzC-node-YuzMOO7kf2tO6V6WehqF_",
+      "source": "node-JAosQ9tFj7y70lGQ0vHzC",
+      "target": "node-YuzMOO7kf2tO6V6WehqF_",
+      "animated": true
+    },
+    {
+      "id": "edge-node-YuzMOO7kf2tO6V6WehqF_-node-73REfcB_T0yBP-KQ0EYmF",
+      "source": "node-YuzMOO7kf2tO6V6WehqF_",
+      "target": "node-73REfcB_T0yBP-KQ0EYmF",
+      "animated": true
+    },
+    {
+      "id": "edge-node-73REfcB_T0yBP-KQ0EYmF-node-NoDNdno9UOlMrOC0Wga9E",
+      "source": "node-73REfcB_T0yBP-KQ0EYmF",
+      "target": "node-NoDNdno9UOlMrOC0Wga9E",
+      "animated": true
+    },
+    {
+      "id": "edge-node-NoDNdno9UOlMrOC0Wga9E-node-AzUVaGnGv9uypJ31alR9r",
+      "source": "node-NoDNdno9UOlMrOC0Wga9E",
+      "target": "node-AzUVaGnGv9uypJ31alR9r",
+      "animated": true
+    },
+    {
+      "id": "edge-node-AzUVaGnGv9uypJ31alR9r-node-strw_oGTkZEH-o8zA4IRP",
+      "source": "node-AzUVaGnGv9uypJ31alR9r",
+      "target": "node-strw_oGTkZEH-o8zA4IRP",
+      "animated": true
+    },
+    {
+      "id": "edge-node-strw_oGTkZEH-o8zA4IRP-node-5-MLEEigFPRloN7wLa05T",
+      "source": "node-strw_oGTkZEH-o8zA4IRP",
+      "target": "node-5-MLEEigFPRloN7wLa05T",
+      "animated": true
+    },
+    {
+      "id": "edge-node-5-MLEEigFPRloN7wLa05T-node-eOfsrmOQI0dJW6HV_myVH",
+      "source": "node-5-MLEEigFPRloN7wLa05T",
+      "target": "node-eOfsrmOQI0dJW6HV_myVH",
+      "animated": true
+    },
+    {
+      "id": "edge-node-eOfsrmOQI0dJW6HV_myVH-node-_c7itVw1R1_UB-NPtL-WI",
+      "source": "node-eOfsrmOQI0dJW6HV_myVH",
+      "target": "node-_c7itVw1R1_UB-NPtL-WI",
+      "animated": true
+    },
+    {
+      "id": "edge-node-_c7itVw1R1_UB-NPtL-WI-node-QF7SL237FyBQdqvKUzop6",
+      "source": "node-_c7itVw1R1_UB-NPtL-WI",
+      "target": "node-QF7SL237FyBQdqvKUzop6",
+      "animated": true
+    },
+    {
+      "id": "edge-node-QF7SL237FyBQdqvKUzop6-node-jQSMLd6gG158tJDzo1k_1",
+      "source": "node-QF7SL237FyBQdqvKUzop6",
+      "target": "node-jQSMLd6gG158tJDzo1k_1",
+      "animated": true
+    },
+    {
+      "id": "edge-node-jQSMLd6gG158tJDzo1k_1-node-w1L-yFBM2AyeNBFyH5skW",
+      "source": "node-jQSMLd6gG158tJDzo1k_1",
+      "target": "node-w1L-yFBM2AyeNBFyH5skW",
+      "animated": true
+    },
+    {
+      "id": "edge-node-w1L-yFBM2AyeNBFyH5skW-node-z50iixpcCMe9sTh-gwTI3",
+      "source": "node-w1L-yFBM2AyeNBFyH5skW",
+      "target": "node-z50iixpcCMe9sTh-gwTI3",
+      "animated": true
+    },
+    {
+      "id": "edge-node-z50iixpcCMe9sTh-gwTI3-node-LC923iJhfiUDIs_0-9rc7",
+      "source": "node-z50iixpcCMe9sTh-gwTI3",
+      "target": "node-LC923iJhfiUDIs_0-9rc7",
+      "animated": true
+    },
+    {
+      "id": "edge-node-LC923iJhfiUDIs_0-9rc7-node-1pCWjSvjvbox5OpyWJ8Kv",
+      "source": "node-LC923iJhfiUDIs_0-9rc7",
+      "target": "node-1pCWjSvjvbox5OpyWJ8Kv",
+      "animated": true
+    },
+    {
+      "id": "edge-node-1pCWjSvjvbox5OpyWJ8Kv-node-xaWDHCkcGm4oovPPxVMB9",
+      "source": "node-1pCWjSvjvbox5OpyWJ8Kv",
+      "target": "node-xaWDHCkcGm4oovPPxVMB9",
+      "animated": true
+    },
+    {
+      "id": "edge-node-xaWDHCkcGm4oovPPxVMB9-node-TKngxMNGMgrdO26D7eeSg",
+      "source": "node-xaWDHCkcGm4oovPPxVMB9",
+      "target": "node-TKngxMNGMgrdO26D7eeSg",
+      "animated": true
+    },
+    {
+      "id": "edge-node-TKngxMNGMgrdO26D7eeSg-node-Q8dr1JPEnLX0z4DiQwnAz",
+      "source": "node-TKngxMNGMgrdO26D7eeSg",
+      "target": "node-Q8dr1JPEnLX0z4DiQwnAz",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Q8dr1JPEnLX0z4DiQwnAz-node-ZKHUCskdKQf4IaMUTN_e7",
+      "source": "node-Q8dr1JPEnLX0z4DiQwnAz",
+      "target": "node-ZKHUCskdKQf4IaMUTN_e7",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ZKHUCskdKQf4IaMUTN_e7-node-7xq_mdQOlUTuhfnogOl8h",
+      "source": "node-ZKHUCskdKQf4IaMUTN_e7",
+      "target": "node-7xq_mdQOlUTuhfnogOl8h",
+      "animated": true
+    },
+    {
+      "id": "edge-node-7xq_mdQOlUTuhfnogOl8h-node-qaUj9916Fh4BtiLz_pwQs",
+      "source": "node-7xq_mdQOlUTuhfnogOl8h",
+      "target": "node-qaUj9916Fh4BtiLz_pwQs",
+      "animated": true
+    },
+    {
+      "id": "edge-node-qaUj9916Fh4BtiLz_pwQs-node-g6AKQiFcY_8lsWRbkbZSC",
+      "source": "node-qaUj9916Fh4BtiLz_pwQs",
+      "target": "node-g6AKQiFcY_8lsWRbkbZSC",
+      "animated": true
+    },
+    {
+      "id": "edge-node-g6AKQiFcY_8lsWRbkbZSC-node-mxd3-l3-NtPw53dEvhqm4",
+      "source": "node-g6AKQiFcY_8lsWRbkbZSC",
+      "target": "node-mxd3-l3-NtPw53dEvhqm4",
+      "animated": true
+    },
+    {
+      "id": "edge-node-mxd3-l3-NtPw53dEvhqm4-node-QcdZKNcCtKls6P4YNXR2W",
+      "source": "node-mxd3-l3-NtPw53dEvhqm4",
+      "target": "node-QcdZKNcCtKls6P4YNXR2W",
+      "animated": true
+    },
+    {
+      "id": "edge-node-QcdZKNcCtKls6P4YNXR2W-node-43BfjlUju-yJaGv-FaJty",
+      "source": "node-QcdZKNcCtKls6P4YNXR2W",
+      "target": "node-43BfjlUju-yJaGv-FaJty",
+      "animated": true
+    },
+    {
+      "id": "edge-node-43BfjlUju-yJaGv-FaJty-node-A9W2LsivDc0ialLp83fYP",
+      "source": "node-43BfjlUju-yJaGv-FaJty",
+      "target": "node-A9W2LsivDc0ialLp83fYP",
+      "animated": true
+    },
+    {
+      "id": "edge-node-A9W2LsivDc0ialLp83fYP-node-eDks8Jmsbq3_nHgLydyxP",
+      "source": "node-A9W2LsivDc0ialLp83fYP",
+      "target": "node-eDks8Jmsbq3_nHgLydyxP",
+      "animated": true
+    },
+    {
+      "id": "edge-node-eDks8Jmsbq3_nHgLydyxP-node-dO2mJejkWBH903LG0dWgN",
+      "source": "node-eDks8Jmsbq3_nHgLydyxP",
+      "target": "node-dO2mJejkWBH903LG0dWgN",
+      "animated": true
+    },
+    {
+      "id": "edge-node-dO2mJejkWBH903LG0dWgN-node-gakF5Zfgk7QIgg_UwqG_Y",
+      "source": "node-dO2mJejkWBH903LG0dWgN",
+      "target": "node-gakF5Zfgk7QIgg_UwqG_Y",
+      "animated": true
+    },
+    {
+      "id": "edge-node-gakF5Zfgk7QIgg_UwqG_Y-node-B8SFhoVV8ei1Yz6vl57l_",
+      "source": "node-gakF5Zfgk7QIgg_UwqG_Y",
+      "target": "node-B8SFhoVV8ei1Yz6vl57l_",
+      "animated": true
+    },
+    {
+      "id": "edge-node-B8SFhoVV8ei1Yz6vl57l_-node-4L9UQ4oaaK3wZwOLIMa6T",
+      "source": "node-B8SFhoVV8ei1Yz6vl57l_",
+      "target": "node-4L9UQ4oaaK3wZwOLIMa6T",
+      "animated": true
+    },
+    {
+      "id": "edge-node-4L9UQ4oaaK3wZwOLIMa6T-node-kG0ZeGatgvC1azZKMQiA_",
+      "source": "node-4L9UQ4oaaK3wZwOLIMa6T",
+      "target": "node-kG0ZeGatgvC1azZKMQiA_",
+      "animated": true
+    },
+    {
+      "id": "edge-node-kG0ZeGatgvC1azZKMQiA_-node-LpfuM6SuhlNNjBcHM68ee",
+      "source": "node-kG0ZeGatgvC1azZKMQiA_",
+      "target": "node-LpfuM6SuhlNNjBcHM68ee",
+      "animated": true
+    },
+    {
+      "id": "edge-node-LpfuM6SuhlNNjBcHM68ee-node-thOckmrCJ45NVNPNxm4eg",
+      "source": "node-LpfuM6SuhlNNjBcHM68ee",
+      "target": "node-thOckmrCJ45NVNPNxm4eg",
+      "animated": true
+    },
+    {
+      "id": "edge-node-thOckmrCJ45NVNPNxm4eg-node-PmfjHFz-DW69pNh_t13Nm",
+      "source": "node-thOckmrCJ45NVNPNxm4eg",
+      "target": "node-PmfjHFz-DW69pNh_t13Nm",
+      "animated": true
+    },
+    {
+      "id": "edge-node-PmfjHFz-DW69pNh_t13Nm-node-z6I9XgIGQYWUd5l9DIZRX",
+      "source": "node-PmfjHFz-DW69pNh_t13Nm",
+      "target": "node-z6I9XgIGQYWUd5l9DIZRX",
+      "animated": true
+    },
+    {
+      "id": "edge-node-z6I9XgIGQYWUd5l9DIZRX-node-QrHT-H12AV4-V-y_nzmNk",
+      "source": "node-z6I9XgIGQYWUd5l9DIZRX",
+      "target": "node-QrHT-H12AV4-V-y_nzmNk",
+      "animated": true
+    },
+    {
+      "id": "edge-node-QrHT-H12AV4-V-y_nzmNk-node-s8El0Q22GD_rOZGlDtkgH",
+      "source": "node-QrHT-H12AV4-V-y_nzmNk",
+      "target": "node-s8El0Q22GD_rOZGlDtkgH",
+      "animated": true
+    },
+    {
+      "id": "edge-node-s8El0Q22GD_rOZGlDtkgH-node-yRJ6jeysFXBpwLEqvrdKk",
+      "source": "node-s8El0Q22GD_rOZGlDtkgH",
+      "target": "node-yRJ6jeysFXBpwLEqvrdKk",
+      "animated": true
+    },
+    {
+      "id": "edge-node-yRJ6jeysFXBpwLEqvrdKk-node-cOKQQ7SaiawWF49MdCGTh",
+      "source": "node-yRJ6jeysFXBpwLEqvrdKk",
+      "target": "node-cOKQQ7SaiawWF49MdCGTh",
+      "animated": true
+    },
+    {
+      "id": "edge-node-cOKQQ7SaiawWF49MdCGTh-node-CijW3HCjVRZHQIBsQ9_0H",
+      "source": "node-cOKQQ7SaiawWF49MdCGTh",
+      "target": "node-CijW3HCjVRZHQIBsQ9_0H",
+      "animated": true
+    },
+    {
+      "id": "edge-node-CijW3HCjVRZHQIBsQ9_0H-node-SjPzR6JjdBeiqFsrRJPfW",
+      "source": "node-CijW3HCjVRZHQIBsQ9_0H",
+      "target": "node-SjPzR6JjdBeiqFsrRJPfW",
+      "animated": true
+    },
+    {
+      "id": "edge-node-SjPzR6JjdBeiqFsrRJPfW-node--VMIkV6S6H1blngxLXk7Y",
+      "source": "node-SjPzR6JjdBeiqFsrRJPfW",
+      "target": "node--VMIkV6S6H1blngxLXk7Y",
+      "animated": true
+    },
+    {
+      "id": "edge-node--VMIkV6S6H1blngxLXk7Y-node-4CjjGPOy-385Bco_PeQwa",
+      "source": "node--VMIkV6S6H1blngxLXk7Y",
+      "target": "node-4CjjGPOy-385Bco_PeQwa",
+      "animated": true
+    },
+    {
+      "id": "edge-node-4CjjGPOy-385Bco_PeQwa-node-9mmxYBtvPYZlvFjQvE-2N",
+      "source": "node-4CjjGPOy-385Bco_PeQwa",
+      "target": "node-9mmxYBtvPYZlvFjQvE-2N",
+      "animated": true
+    },
+    {
+      "id": "edge-node-9mmxYBtvPYZlvFjQvE-2N-node-BCWS8uV2pSWe7CX-VlnTg",
+      "source": "node-9mmxYBtvPYZlvFjQvE-2N",
+      "target": "node-BCWS8uV2pSWe7CX-VlnTg",
+      "animated": true
+    },
+    {
+      "id": "edge-node-BCWS8uV2pSWe7CX-VlnTg-node-K09-nD6xF5YJUQBBpFXMz",
+      "source": "node-BCWS8uV2pSWe7CX-VlnTg",
+      "target": "node-K09-nD6xF5YJUQBBpFXMz",
+      "animated": true
+    },
+    {
+      "id": "edge-node-K09-nD6xF5YJUQBBpFXMz-node-cMfsRtvzvDZZJ0TqeUOxm",
+      "source": "node-K09-nD6xF5YJUQBBpFXMz",
+      "target": "node-cMfsRtvzvDZZJ0TqeUOxm",
+      "animated": true
+    },
+    {
+      "id": "edge-node-cMfsRtvzvDZZJ0TqeUOxm-node-eU4XCnrf27FO3KCda8QYw",
+      "source": "node-cMfsRtvzvDZZJ0TqeUOxm",
+      "target": "node-eU4XCnrf27FO3KCda8QYw",
+      "animated": true
+    },
+    {
+      "id": "edge-node-eU4XCnrf27FO3KCda8QYw-node-CfM0iyd2bNRIiDWTUkspd",
+      "source": "node-eU4XCnrf27FO3KCda8QYw",
+      "target": "node-CfM0iyd2bNRIiDWTUkspd",
+      "animated": true
+    },
+    {
+      "id": "edge-node-CfM0iyd2bNRIiDWTUkspd-node-XAS4jQlsHkttLDuSSsD2o",
+      "source": "node-CfM0iyd2bNRIiDWTUkspd",
+      "target": "node-XAS4jQlsHkttLDuSSsD2o",
+      "animated": true
+    },
+    {
+      "id": "edge-node-XAS4jQlsHkttLDuSSsD2o-node-PV_3TEYdtVZ2VCDZEOsu_",
+      "source": "node-XAS4jQlsHkttLDuSSsD2o",
+      "target": "node-PV_3TEYdtVZ2VCDZEOsu_",
+      "animated": true
+    },
+    {
+      "id": "edge-node-PV_3TEYdtVZ2VCDZEOsu_-node-zbFH2NRHZEOv5eKLL_HR0",
+      "source": "node-PV_3TEYdtVZ2VCDZEOsu_",
+      "target": "node-zbFH2NRHZEOv5eKLL_HR0",
+      "animated": true
+    },
+    {
+      "id": "edge-node-zbFH2NRHZEOv5eKLL_HR0-node-5F7zAAnvnVTTnBzOB7TSu",
+      "source": "node-zbFH2NRHZEOv5eKLL_HR0",
+      "target": "node-5F7zAAnvnVTTnBzOB7TSu",
+      "animated": true
+    },
+    {
+      "id": "edge-node-5F7zAAnvnVTTnBzOB7TSu-node-aHcmsaqAfG5fC90VV-EHP",
+      "source": "node-5F7zAAnvnVTTnBzOB7TSu",
+      "target": "node-aHcmsaqAfG5fC90VV-EHP",
+      "animated": true
+    },
+    {
+      "id": "edge-node-aHcmsaqAfG5fC90VV-EHP-node-iVDxuERBjKMBHueEfqP0x",
+      "source": "node-aHcmsaqAfG5fC90VV-EHP",
+      "target": "node-iVDxuERBjKMBHueEfqP0x",
+      "animated": true
+    },
+    {
+      "id": "edge-node-iVDxuERBjKMBHueEfqP0x-node-BxzMbF7cdvGPuy1EcRvWd",
+      "source": "node-iVDxuERBjKMBHueEfqP0x",
+      "target": "node-BxzMbF7cdvGPuy1EcRvWd",
+      "animated": true
+    },
+    {
+      "id": "edge-node-BxzMbF7cdvGPuy1EcRvWd-node-kx_GOr51UMpdUAnS5u9qZ",
+      "source": "node-BxzMbF7cdvGPuy1EcRvWd",
+      "target": "node-kx_GOr51UMpdUAnS5u9qZ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-kx_GOr51UMpdUAnS5u9qZ-node-AY-8KJGA9ZA6ay3rbURt3",
+      "source": "node-kx_GOr51UMpdUAnS5u9qZ",
+      "target": "node-AY-8KJGA9ZA6ay3rbURt3",
+      "animated": true
+    },
+    {
+      "id": "edge-node-AY-8KJGA9ZA6ay3rbURt3-node-liGbnGyQaG-Vqt6cuB91N",
+      "source": "node-AY-8KJGA9ZA6ay3rbURt3",
+      "target": "node-liGbnGyQaG-Vqt6cuB91N",
+      "animated": true
+    },
+    {
+      "id": "edge-node-liGbnGyQaG-Vqt6cuB91N-node-4h8NdcdXmNqJxLkVJqPtX",
+      "source": "node-liGbnGyQaG-Vqt6cuB91N",
+      "target": "node-4h8NdcdXmNqJxLkVJqPtX",
+      "animated": true
+    },
+    {
+      "id": "edge-node-4h8NdcdXmNqJxLkVJqPtX-node-1UXfFROvcunyhkx0zB_1S",
+      "source": "node-4h8NdcdXmNqJxLkVJqPtX",
+      "target": "node-1UXfFROvcunyhkx0zB_1S",
+      "animated": true
+    },
+    {
+      "id": "edge-node-1UXfFROvcunyhkx0zB_1S-node-tJljSlb5S_tZLZhZHHd_I",
+      "source": "node-1UXfFROvcunyhkx0zB_1S",
+      "target": "node-tJljSlb5S_tZLZhZHHd_I",
+      "animated": true
+    },
+    {
+      "id": "edge-node-tJljSlb5S_tZLZhZHHd_I-node-qh8MEbXKPVt8mqlarhUj0",
+      "source": "node-tJljSlb5S_tZLZhZHHd_I",
+      "target": "node-qh8MEbXKPVt8mqlarhUj0",
+      "animated": true
+    },
+    {
+      "id": "edge-node-qh8MEbXKPVt8mqlarhUj0-node-NV39oWwr7iB_dnlnD_Q6Y",
+      "source": "node-qh8MEbXKPVt8mqlarhUj0",
+      "target": "node-NV39oWwr7iB_dnlnD_Q6Y",
+      "animated": true
+    }
+  ],
+  "topics": {
+    "gpihoIJkzSS1WOvmH2ueo": {
+      "id": "gpihoIJkzSS1WOvmH2ueo",
+      "slug": "aggregation",
+      "title": "Aggregation",
+      "description": "Aggregation in MongoDB is a powerful framework for data processing and transformation using a pipeline of stages. Each stage performs specific operations like filtering, grouping, sorting, or computing values, allowing complex data analytics and reporting. The aggregation pipeline offers operators for mathematical calculations, string manipulation, date operations, and advanced data transformations.",
+      "resources": [
+        {
+          "id": "gpihoIJkzSS1WOvmH2ueo-res-1",
+          "type": "course",
+          "title": "Fundamentals of Data Transformation Skill Badge",
+          "url": "https://learn.mongodb.com/courses/fundamentals-of-data-transformation"
+        },
+        {
+          "id": "gpihoIJkzSS1WOvmH2ueo-res-2",
+          "type": "article",
+          "title": "Aggregation Operations",
+          "url": "https://www.mongodb.com/docs/manual/aggregation/"
+        },
+        {
+          "id": "gpihoIJkzSS1WOvmH2ueo-res-3",
+          "type": "article",
+          "title": "MongoDB Aggregation Operators",
+          "url": "https://www.mongodb.com/docs/manual/reference/operator/aggregation/"
+        },
+        {
+          "id": "gpihoIJkzSS1WOvmH2ueo-res-4",
+          "type": "article",
+          "title": "How To Use Aggregations in MongoDB",
+          "url": "https://www.digitalocean.com/community/tutorials/how-to-use-aggregations-in-mongodb"
+        }
+      ]
+    },
+    "hPPoO8ysGeEGEQhdveiDO": {
+      "id": "hPPoO8ysGeEGEQhdveiDO",
+      "slug": "all",
+      "title": "$all",
+      "description": "The `$all` operator in MongoDB selects documents where an array field contains all specified elements, regardless of order or additional elements. It's useful for tag-based filtering and ensuring multiple required values exist in arrays. `$all` performs element-wise matching and can work with arrays of different data types, making it essential for multi-criteria array filtering.",
+      "resources": [
+        {
+          "id": "hPPoO8ysGeEGEQhdveiDO-res-1",
+          "type": "article",
+          "title": "$all",
+          "url": "https://www.mongodb.com/docs/manual/reference/operator/query/all/"
+        },
+        {
+          "id": "hPPoO8ysGeEGEQhdveiDO-res-2",
+          "type": "article",
+          "title": "$all and $elemMatch in MongoDB",
+          "url": "https://dev.to/kawsarkabir/all-and-elemmatch-in-mongodb-4od6"
+        }
+      ]
+    },
+    "-62S4wRxHpIM2I59xjGun": {
+      "id": "-62S4wRxHpIM2I59xjGun",
+      "slug": "and",
+      "title": "$and",
+      "description": "The `$and` operator in MongoDB performs logical AND operation on multiple query expressions, returning documents that satisfy all specified conditions. It accepts an array of query expressions and is implicitly used when multiple conditions are provided at the same level. `$and` is explicit when combining complex expressions or when the same field needs multiple conditions.",
+      "resources": [
+        {
+          "id": "-62S4wRxHpIM2I59xjGun-res-1",
+          "type": "article",
+          "title": "$and",
+          "url": "https://www.mongodb.com/docs/manual/reference/operator/query/and/"
+        },
+        {
+          "id": "-62S4wRxHpIM2I59xjGun-res-2",
+          "type": "article",
+          "title": "$and operator",
+          "url": "https://codeforgeek.com/and-operator-in-mongodb/"
+        }
+      ]
+    },
+    "q6ZKxFcSAQ8bgUdGaDpuu": {
+      "id": "q6ZKxFcSAQ8bgUdGaDpuu",
+      "slug": "array",
+      "title": "Array",
+      "description": "Array data type in MongoDB stores ordered lists of values including mixed data types, nested arrays, and embedded documents. Arrays support indexing with multikey indexes, enabling efficient queries on array elements. Special array operators like $push, $pull, $addToSet modify arrays, while query operators like $in, $all, $elemMatch enable sophisticated array querying and element matching capabilities.",
+      "resources": [
+        {
+          "id": "q6ZKxFcSAQ8bgUdGaDpuu-res-1",
+          "type": "article",
+          "title": "Query an Array",
+          "url": "https://www.mongodb.com/docs/manual/tutorial/query-arrays/"
+        },
+        {
+          "id": "q6ZKxFcSAQ8bgUdGaDpuu-res-2",
+          "type": "article",
+          "title": "Mastering the Art of Querying Arrays in MongoDB",
+          "url": "https://medium.com/dataprophet/mastering-the-art-of-querying-arrays-in-mongodb-a-comprehensive-guide-a70b83447be7"
+        }
+      ]
+    },
+    "YidhAuVk_VGukx_FfJSz2": {
+      "id": "YidhAuVk_VGukx_FfJSz2",
+      "slug": "atlas-search-indexes",
+      "title": "Atlas Search Indexes",
+      "description": "Atlas Search indexes in MongoDB Atlas provide full-text search capabilities using Apache Lucene technology. They enable sophisticated text search with relevance scoring, autocomplete, faceted search, and synonyms. These indexes support complex search queries across multiple fields, fuzzy matching, and advanced text analysis features for building modern search experiences in applications.",
+      "resources": [
+        {
+          "id": "YidhAuVk_VGukx_FfJSz2-res-1",
+          "type": "course",
+          "title": "Vector Search Fundamentals Skill Badge",
+          "url": "https://learn.mongodb.com/courses/vector-search-fundamentals"
+        },
+        {
+          "id": "YidhAuVk_VGukx_FfJSz2-res-2",
+          "type": "course",
+          "title": "Search Fundamentals Skill Badge",
+          "url": "https://learn.mongodb.com/courses/search-fundamentals"
+        },
+        {
+          "id": "YidhAuVk_VGukx_FfJSz2-res-3",
+          "type": "article",
+          "title": "Atlas Search Indexes",
+          "url": "https://www.mongodb.com/docs/atlas/atlas-search/manage-indexes/"
+        },
+        {
+          "id": "YidhAuVk_VGukx_FfJSz2-res-4",
+          "type": "article",
+          "title": "Atlas Search Made Easy: A Summary Guide for Developers",
+          "url": "https://medium.com/@sumitkessar/atlas-search-made-easy-a-summary-guide-for-developers-883c27886987"
+        }
+      ]
+    },
+    "UM6jH6bAijYS0Hmw87UQ-": {
+      "id": "UM6jH6bAijYS0Hmw87UQ-",
+      "slug": "binary-data",
+      "title": "Binary Data",
+      "description": "Binary data in MongoDB stores non-textual data like images, files, and encoded content using the BSON Binary data type. It supports various subtypes including generic binary, function code, UUID, and MD5 hashes. Binary data enables efficient storage of multimedia content, encrypted data, and arbitrary byte sequences while maintaining query and indexing capabilities within document structures.",
+      "resources": [
+        {
+          "id": "UM6jH6bAijYS0Hmw87UQ--res-1",
+          "type": "article",
+          "title": "BinData ()",
+          "url": "https://www.mongodb.com/docs/manual/reference/method/bindata/"
+        },
+        {
+          "id": "UM6jH6bAijYS0Hmw87UQ--res-2",
+          "type": "article",
+          "title": "BSON Types",
+          "url": "https://www.mongodb.com/docs/manual/reference/bson-types/"
+        },
+        {
+          "id": "UM6jH6bAijYS0Hmw87UQ--res-3",
+          "type": "article",
+          "title": "Understanding BSON: The Backbone of MongoDB's Data Format",
+          "url": "https://dev.to/abhay_yt_52a8e72b213be229/understanding-bson-the-backbone-of-mongodbs-data-format-11oa"
+        }
+      ]
+    },
+    "hmo7zCZ1jKgobS5R0eBSD": {
+      "id": "hmo7zCZ1jKgobS5R0eBSD",
+      "slug": "boolean",
+      "title": "Boolean",
+      "description": "Boolean data type in MongoDB stores true or false values, representing logical states in documents. Booleans are commonly used for flags, status indicators, and conditional logic in queries and applications. They support direct comparison, logical operations with $and, $or, $not operators, and can be efficiently indexed for fast querying of true/false conditions in large datasets.",
+      "resources": [
+        {
+          "id": "hmo7zCZ1jKgobS5R0eBSD-res-1",
+          "type": "article",
+          "title": "$type",
+          "url": "https://www.mongodb.com/docs/manual/reference/operator/query/type/"
+        },
+        {
+          "id": "hmo7zCZ1jKgobS5R0eBSD-res-2",
+          "type": "article",
+          "title": "How to Index Boolean Values",
+          "url": "https://www.mongodb.com/docs/atlas/atlas-search/field-types/boolean-type/"
+        }
+      ]
+    },
+    "F4W9XBSbkpzWIrAhRBSRS": {
+      "id": "F4W9XBSbkpzWIrAhRBSRS",
+      "slug": "bson-vs-json",
+      "title": "BSON vs JSON",
+      "description": "BSON (Binary JSON) is MongoDB's binary-encoded serialization format that extends JSON with additional data types like dates, binary data, and 64-bit integers. While JSON is human-readable text format, BSON provides faster parsing, compact storage, and native support for MongoDB's rich data types. BSON enables efficient storage and retrieval while maintaining JSON's flexibility and document structure.",
+      "resources": [
+        {
+          "id": "F4W9XBSbkpzWIrAhRBSRS-res-1",
+          "type": "article",
+          "title": "JSON and BSON",
+          "url": "https://www.mongodb.com/resources/basics/json-and-bson"
+        },
+        {
+          "id": "F4W9XBSbkpzWIrAhRBSRS-res-2",
+          "type": "article",
+          "title": "BSON Types",
+          "url": "https://www.mongodb.com/docs/manual/reference/bson-types/"
+        },
+        {
+          "id": "F4W9XBSbkpzWIrAhRBSRS-res-3",
+          "type": "article",
+          "title": "Understanding BSON: The Backbone of MongoDB's Data Format",
+          "url": "https://dev.to/abhay_yt_52a8e72b213be229/understanding-bson-the-backbone-of-mongodbs-data-format-11oa"
+        }
+      ]
+    },
+    "yc2HqhjhIV6UU_2P-ykKB": {
+      "id": "yc2HqhjhIV6UU_2P-ykKB",
+      "slug": "bulkwrite-and-relevant",
+      "title": "bulkWrite() and Related Methods",
+      "description": "`bulkWrite()` in MongoDB performs multiple write operations in a single command, improving performance through reduced network round trips. It supports mixed operations including inserts, updates, deletes, and replaces with options for ordered or unordered execution. Bulk operations provide error handling, write concern configuration, and significant performance benefits for high-volume data manipulation tasks.",
+      "resources": [
+        {
+          "id": "yc2HqhjhIV6UU_2P-ykKB-res-1",
+          "type": "article",
+          "title": "db.collection.bulkWrite()",
+          "url": "https://www.mongodb.com/docs/manual/reference/method/db.collection.bulkwrite/"
+        },
+        {
+          "id": "yc2HqhjhIV6UU_2P-ykKB-res-2",
+          "type": "article",
+          "title": "MongoDB: InsertMany vs BulkWrite",
+          "url": "https://medium.com/@msbytedev/mongodb-insertmany-vs-bulkwrite-2f9da91b544c"
+        }
+      ]
+    },
+    "YJiWemHO1l5q9WhgoHyYd": {
+      "id": "YJiWemHO1l5q9WhgoHyYd",
+      "slug": "client-side-field-level",
+      "title": "Client-Side Field Level Encryption",
+      "description": "Client-Side Field Level Encryption (CSFLE) allows applications to encrypt sensitive data fields before storing them in MongoDB. The database receives only encrypted data and remains unaware of the encryption keys, ensuring zero-trust security. This feature provides deterministic and randomized encryption algorithms, enabling both exact match queries and enhanced security for highly sensitive information.",
+      "resources": [
+        {
+          "id": "YJiWemHO1l5q9WhgoHyYd-res-1",
+          "type": "article",
+          "title": "Client-Side Field Level Encryption",
+          "url": "https://www.mongodb.com/docs/manual/core/csfle/"
+        },
+        {
+          "id": "YJiWemHO1l5q9WhgoHyYd-res-2",
+          "type": "article",
+          "title": "Integrating with MongoDB Client Side Field Level Encryption",
+          "url": "https://mongoosejs.com/docs/field-level-encryption.html"
+        }
+      ]
+    },
+    "7SGYNo3oHlgm_1cwhWfw7": {
+      "id": "7SGYNo3oHlgm_1cwhWfw7",
+      "slug": "collections--methods",
+      "title": "Collection Methods",
+      "description": "Collection methods in MongoDB provide comprehensive operations for data manipulation including CRUD operations (find, insert, update, delete), index management, and administrative functions. Key methods include `createIndex()`, `drop()`, `count()`, `distinct()`, and `bulkWrite()` for batch operations. These methods offer flexible options for data processing, schema validation, and collection maintenance.",
+      "resources": [
+        {
+          "id": "7SGYNo3oHlgm_1cwhWfw7-res-1",
+          "type": "course",
+          "title": "CRUD Operations Skill Badge",
+          "url": "https://learn.mongodb.com/courses/crud-operations-in-mongodb"
+        },
+        {
+          "id": "7SGYNo3oHlgm_1cwhWfw7-res-2",
+          "type": "article",
+          "title": "Collection Methods",
+          "url": "https://www.mongodb.com/docs/manual/reference/method/js-collection/"
+        },
+        {
+          "id": "7SGYNo3oHlgm_1cwhWfw7-res-3",
+          "type": "article",
+          "title": "createIndex",
+          "url": "https://www.mongodb.com/docs/manual/reference/method/db.collection.createindex/"
+        },
+        {
+          "id": "7SGYNo3oHlgm_1cwhWfw7-res-4",
+          "type": "article",
+          "title": "count",
+          "url": "https://www.mongodb.com/docs/manual/reference/method/db.collection.count/"
+        },
+        {
+          "id": "7SGYNo3oHlgm_1cwhWfw7-res-5",
+          "type": "article",
+          "title": "distinct",
+          "url": "https://www.mongodb.com/docs/manual/reference/method/db.collection.distinct/"
+        },
+        {
+          "id": "7SGYNo3oHlgm_1cwhWfw7-res-6",
+          "type": "article",
+          "title": "A Comprehensive Guide to MongoDB Methods",
+          "url": "https://medium.com/@coderwithtools/a-comprehensive-guide-to-mongodb-methods-syntax-and-examples-feee0ac07599"
+        }
+      ]
+    },
+    "eSb4WAfWxJu6R95pPX6wm": {
+      "id": "eSb4WAfWxJu6R95pPX6wm",
+      "slug": "compound",
+      "title": "Compound Indexes",
+      "description": "Compound indexes in MongoDB are built on multiple fields in a specified order, optimizing queries that filter on multiple fields. Field order matters significantly as it determines which queries can efficiently use the index. Compound indexes support prefix patterns, meaning they can optimize queries on any left subset of the indexed fields, making them versatile for various query patterns.",
+      "resources": [
+        {
+          "id": "eSb4WAfWxJu6R95pPX6wm-res-1",
+          "type": "article",
+          "title": "Compound Indexes",
+          "url": "https://www.mongodb.com/docs/manual/core/indexes/index-types/index-compound/"
+        },
+        {
+          "id": "eSb4WAfWxJu6R95pPX6wm-res-2",
+          "type": "article",
+          "title": "Single vs Compound Mongodb Index",
+          "url": "https://medium.com/@rakeebnazar/single-vs-compound-mongodb-index-in-depth-analysis-5319cfdd2ce"
+        }
+      ]
+    },
+    "hC83jKoO_XFI83WpsdN_Z": {
+      "id": "hC83jKoO_XFI83WpsdN_Z",
+      "slug": "counting-documents",
+      "title": "Counting Documents",
+      "description": "Counting documents in MongoDB uses methods like `countDocuments()` for accurate filtered counts and `estimatedDocumentCount()` for fast approximate totals. `countDocuments()` supports query filters and provides precise results but may be slower on large collections. `estimatedDocumentCount()` uses collection metadata for rapid estimates, making it ideal for dashboard metrics and quick statistics.",
+      "resources": [
+        {
+          "id": "hC83jKoO_XFI83WpsdN_Z-res-1",
+          "type": "article",
+          "title": "Counting Documents",
+          "url": "https://www.mongodb.com/docs/manual/reference/method/db.collection.countdocuments/"
+        },
+        {
+          "id": "hC83jKoO_XFI83WpsdN_Z-res-2",
+          "type": "article",
+          "title": "estimatedDocumentCount",
+          "url": "https://www.mongodb.com/docs/manual/reference/method/db.collection.estimateddocumentcount/"
+        }
+      ]
+    },
+    "haA1ltV6VzgJVJcJNMK0W": {
+      "id": "haA1ltV6VzgJVJcJNMK0W",
+      "slug": "creating-indexes",
+      "title": "Creating Indexes",
+      "description": "Creating indexes in MongoDB uses the `createIndex()` method to build data structures that improve query performance. Indexes can be created on single fields, multiple fields (compound), or with special types like text, geospatial, or hashed. Best practices include analyzing query patterns, creating indexes before large data imports, and monitoring index usage to ensure optimal performance without over-indexing.",
+      "resources": [
+        {
+          "id": "haA1ltV6VzgJVJcJNMK0W-res-1",
+          "type": "article",
+          "title": "createIndex",
+          "url": "https://www.mongodb.com/docs/manual/reference/method/db.collection.createindex/"
+        },
+        {
+          "id": "haA1ltV6VzgJVJcJNMK0W-res-2",
+          "type": "article",
+          "title": "Geospatial Queries",
+          "url": "https://www.mongodb.com/docs/manual/geospatial-queries/"
+        },
+        {
+          "id": "haA1ltV6VzgJVJcJNMK0W-res-3",
+          "type": "article",
+          "title": "Single vs Compound Mongodb Index",
+          "url": "https://medium.com/@rakeebnazar/single-vs-compound-mongodb-index-in-depth-analysis-5319cfdd2ce"
+        }
+      ]
+    },
+    "K9x7yQP59cB764Q5PqAs_": {
+      "id": "K9x7yQP59cB764Q5PqAs_",
+      "slug": "cursors",
+      "title": "Cursors",
+      "description": "Cursors in MongoDB are pointers to query result sets that enable efficient iteration through large datasets without loading all documents into memory. They support methods like `hasNext(), next(), forEach(), and limit()` for result manipulation. Cursors automatically handle batching, provide lazy loading of results, and can be configured with timeouts and batch sizes for optimal performance.",
+      "resources": [
+        {
+          "id": "K9x7yQP59cB764Q5PqAs_-res-1",
+          "type": "article",
+          "title": "Cursors",
+          "url": "https://www.mongodb.com/docs/manual/reference/method/js-cursor/"
+        },
+        {
+          "id": "K9x7yQP59cB764Q5PqAs_-res-2",
+          "type": "article",
+          "title": "Understanding Cursor in MongoDB",
+          "url": "https://medium.com/@satyamguptaece/understanding-cursor-in-mongodb-b8a9e1a8cb0c"
+        }
+      ]
+    },
+    "_UIfRdlj6BeEESw1FW9RH": {
+      "id": "_UIfRdlj6BeEESw1FW9RH",
+      "slug": "data-model--data-types",
+      "title": "Data Model & Data Types",
+      "description": "MongoDB uses a flexible document data model storing data in BSON format with rich data types including strings, numbers, dates, arrays, embedded documents, binary data, and ObjectIds. The schema-less design allows varying document structures within collections while maintaining query performance. Documents can contain nested objects and arrays, enabling complex data relationships without traditional table joins.",
+      "resources": [
+        {
+          "id": "_UIfRdlj6BeEESw1FW9RH-res-1",
+          "type": "course",
+          "title": "Relational to Document Model Skill Badge",
+          "url": "https://learn.mongodb.com/courses/relational-to-document-model"
+        },
+        {
+          "id": "_UIfRdlj6BeEESw1FW9RH-res-2",
+          "type": "course",
+          "title": "Schema Design Patterns and Anti-patterns Skill Badge",
+          "url": "https://learn.mongodb.com/courses/schema-design-patterns-and-antipatterns"
+        },
+        {
+          "id": "_UIfRdlj6BeEESw1FW9RH-res-3",
+          "type": "course",
+          "title": "Advanced Schema Patterns and Anti-patterns Skill Badge",
+          "url": "https://learn.mongodb.com/courses/advanced-schema-patterns-and-antipatterns"
+        },
+        {
+          "id": "_UIfRdlj6BeEESw1FW9RH-res-4",
+          "type": "course",
+          "title": "Schema Design Optimization Skill Badge",
+          "url": "https://learn.mongodb.com/courses/schema-design-optimization"
+        },
+        {
+          "id": "_UIfRdlj6BeEESw1FW9RH-res-5",
+          "type": "article",
+          "title": "Data Model",
+          "url": "https://www.mongodb.com/docs/manual/data-modeling/"
+        },
+        {
+          "id": "_UIfRdlj6BeEESw1FW9RH-res-6",
+          "type": "article",
+          "title": "Data Types",
+          "url": "https://www.mongodb.com/docs/mongodb-shell/reference/data-types/"
+        },
+        {
+          "id": "_UIfRdlj6BeEESw1FW9RH-res-7",
+          "type": "article",
+          "title": "A Comprehensive Guide to Data Modeling in MongoDB",
+          "url": "https://medium.com/@skhans/a-comprehensive-guide-to-data-modeling-in-mongodb-b63b2df9d9dd"
+        }
+      ]
+    },
+    "T6cq--pute6-8aG7z6QKN": {
+      "id": "T6cq--pute6-8aG7z6QKN",
+      "slug": "date",
+      "title": "Date",
+      "description": "`Date` data type in MongoDB stores timestamps as 64-bit integers representing milliseconds since Unix epoch (January 1, 1970 UTC). Dates support range queries, sorting, and date arithmetic operations in aggregation pipelines. MongoDB automatically converts JavaScript Date objects and ISO date strings to BSON dates, providing timezone-aware date manipulation and efficient chronological data querying.",
+      "resources": [
+        {
+          "id": "T6cq--pute6-8aG7z6QKN-res-1",
+          "type": "article",
+          "title": "Date and Datetime",
+          "url": "https://www.mongodb.com/docs/manual/reference/method/date/"
+        },
+        {
+          "id": "T6cq--pute6-8aG7z6QKN-res-2",
+          "type": "article",
+          "title": "Data Types",
+          "url": "https://www.mongodb.com/docs/mongodb-shell/reference/data-types/"
+        },
+        {
+          "id": "T6cq--pute6-8aG7z6QKN-res-3",
+          "type": "article",
+          "title": "Working with dates and times in MongoDB",
+          "url": "https://www.prisma.io/dataguide/mongodb/working-with-dates"
+        }
+      ]
+    },
+    "OGtR5D_DUCSci1lFBT83z": {
+      "id": "OGtR5D_DUCSci1lFBT83z",
+      "slug": "decimal128",
+      "title": "Decimal128",
+      "description": "`Decimal128` data type in MongoDB provides exact decimal representation for financial and monetary calculations requiring precision. Based on IEEE 754-2008 standard, it supports 34 decimal digits with exact arithmetic operations. `Decimal128` eliminates floating-point precision errors, making it essential for applications handling currency, accounting, and scientific computations where decimal accuracy is critical.",
+      "resources": [
+        {
+          "id": "OGtR5D_DUCSci1lFBT83z-res-1",
+          "type": "article",
+          "title": "Data Types",
+          "url": "https://www.mongodb.com/docs/mongodb-shell/reference/data-types/#decimal128"
+        },
+        {
+          "id": "OGtR5D_DUCSci1lFBT83z-res-2",
+          "type": "article",
+          "title": "decimal128",
+          "url": "https://pymongo.readthedocs.io/en/stable/api/bson/decimal128.html"
+        }
+      ]
+    },
+    "qjoLxSkfKbzG1sZUXnyw9": {
+      "id": "qjoLxSkfKbzG1sZUXnyw9",
+      "slug": "delete-and-relevant",
+      "title": "delete() and Related Methods",
+      "description": "Delete operations remove documents from MongoDB collections using `deleteOne()` for single document removal and `deleteMany()` for multiple documents. These methods use query filters to specify which documents to delete and support write concerns for reliability. Additional methods include `findOneAndDelete()` for atomic read-and-delete operations and `drop()` for removing entire collections.",
+      "resources": [
+        {
+          "id": "qjoLxSkfKbzG1sZUXnyw9-res-1",
+          "type": "article",
+          "title": "Delete Operations",
+          "url": "https://www.mongodb.com/docs/manual/reference/command/delete/"
+        },
+        {
+          "id": "qjoLxSkfKbzG1sZUXnyw9-res-2",
+          "type": "article",
+          "title": "MongoDB Delete Documents",
+          "url": "https://boxoflearn.com/mongodb-delete-documents/"
+        }
+      ]
+    },
+    "6H2MMnEfS6uHGS-6pFo8u": {
+      "id": "6H2MMnEfS6uHGS-6pFo8u",
+      "slug": "developer-tools",
+      "title": "Developer Tools",
+      "description": "MongoDB developer tools include MongoDB Compass (GUI), MongoDB Shell (mongosh), VS Code extensions, and various language drivers. These tools provide visual database exploration, query building, performance monitoring, and development assistance. Additional tools include MongoDB Atlas for cloud management, migration utilities, and third-party tools for enhanced productivity and database administration.",
+      "resources": [
+        {
+          "id": "6H2MMnEfS6uHGS-6pFo8u-res-1",
+          "type": "article",
+          "title": "MongoDB Compass",
+          "url": "https://www.mongodb.com/try/download/compass"
+        },
+        {
+          "id": "6H2MMnEfS6uHGS-6pFo8u-res-2",
+          "type": "article",
+          "title": "MongoDB Shell",
+          "url": "https://www.mongodb.com/products/tools/shell"
+        },
+        {
+          "id": "6H2MMnEfS6uHGS-6pFo8u-res-3",
+          "type": "article",
+          "title": "MongoDB Developer Tools",
+          "url": "https://www.mongodb.com/products/tools"
+        }
+      ]
+    },
+    "4Cf_wcoByPqpOOpdbAJuq": {
+      "id": "4Cf_wcoByPqpOOpdbAJuq",
+      "slug": "double",
+      "title": "Double",
+      "description": "Double data type in MongoDB stores 64-bit floating-point numbers following IEEE 754 standard, providing high precision for decimal calculations. It's the default numeric type for JavaScript numbers and handles both integers and decimals. Doubles support mathematical operations in queries and aggregation pipelines, though precision limitations may occur with very large numbers or repeated calculations requiring exact decimal representation.",
+      "resources": [
+        {
+          "id": "4Cf_wcoByPqpOOpdbAJuq-res-1",
+          "type": "article",
+          "title": "Double",
+          "url": "https://www.mongodb.com/docs/mongodb-shell/reference/data-types/#double"
+        },
+        {
+          "id": "4Cf_wcoByPqpOOpdbAJuq-res-2",
+          "type": "article",
+          "title": "Double Data Type",
+          "url": "https://www.scaler.com/topics/mongodb-data-types/"
+        }
+      ]
+    },
+    "kJJ-W6BV1ofIvuFT_PCcz": {
+      "id": "kJJ-W6BV1ofIvuFT_PCcz",
+      "slug": "elastic-search",
+      "title": "Elastic Search",
+      "description": "The MongoDB Elasticsearch connector enables seamless integration between MongoDB and Elasticsearch, allowing you to automatically synchronize data from MongoDB collections to Elasticsearch indices for powerful full-text search, analytics, and visualization capabilities. This connector streams data changes in real-time using MongoDB's change streams, transforms documents as needed, and maintains data consistency between the two systems, making it ideal for applications that need both MongoDB's flexible document storage and Elasticsearch's advanced search and aggregation features. It's particularly useful for building search-heavy applications, log analytics systems, and business intelligence dashboards that require complex text search, faceted search, and real-time data analysis capabilities.",
+      "resources": [
+        {
+          "id": "kJJ-W6BV1ofIvuFT_PCcz-res-1",
+          "type": "article",
+          "title": "Elasticsearch: The Official Distributed Search & Analytics Engine",
+          "url": "https://www.elastic.co/elasticsearch"
+        },
+        {
+          "id": "kJJ-W6BV1ofIvuFT_PCcz-res-2",
+          "type": "article",
+          "title": "Elasticsearch vs MongoDB Atlas Search",
+          "url": "https://www.mongodb.com/resources/compare/mongodb-atlas-search-vs-elastic-elasticsearch"
+        },
+        {
+          "id": "kJJ-W6BV1ofIvuFT_PCcz-res-3",
+          "type": "article",
+          "title": "MongoDB vs Elasticsearch",
+          "url": "https://medium.com/@emmaw4430/mongodb-vs-elasticsearch-deciding-the-right-database-solution-for-your-project-c6c8fb89cbfe"
+        }
+      ]
+    },
+    "TJHVY8DRWbDKeT_pIPJay": {
+      "id": "TJHVY8DRWbDKeT_pIPJay",
+      "slug": "elemmatch",
+      "title": "$elemMatch",
+      "description": "The `$elemMatch` operator in MongoDB matches documents containing array elements that satisfy multiple specified criteria within a single array element. It ensures all conditions apply to the same array element rather than different elements. $elemMatch is crucial for querying arrays of embedded documents, complex array filtering, and maintaining logical consistency in multi-condition array queries.",
+      "resources": [
+        {
+          "id": "TJHVY8DRWbDKeT_pIPJay-res-1",
+          "type": "article",
+          "title": "$elemMatch",
+          "url": "https://www.mongodb.com/docs/manual/reference/operator/query/elemmatch/"
+        },
+        {
+          "id": "TJHVY8DRWbDKeT_pIPJay-res-2",
+          "type": "article",
+          "title": "MongoDB $elemMatch Query Operator",
+          "url": "https://codeforgeek.com/elemmatch-in-mongodb/"
+        }
+      ]
+    },
+    "6MqhN-PTf1PRzYCTxC8pn": {
+      "id": "6MqhN-PTf1PRzYCTxC8pn",
+      "slug": "embedded-objects--arrays",
+      "title": "Embedded Objects & Arrays",
+      "description": "Embedded objects and arrays in MongoDB enable storing related data within a single document, eliminating the need for separate collections and joins. This design pattern improves query performance and maintains data locality. Embedded structures support nested queries, array operations, and complex data relationships while maintaining document atomicity and enabling efficient retrieval of complete entities.",
+      "resources": [
+        {
+          "id": "6MqhN-PTf1PRzYCTxC8pn-res-1",
+          "type": "article",
+          "title": "Query an Array of Embedded Documents",
+          "url": "https://www.mongodb.com/docs/manual/tutorial/query-array-of-documents/"
+        },
+        {
+          "id": "6MqhN-PTf1PRzYCTxC8pn-res-2",
+          "type": "article",
+          "title": "Embedding MongoDB Documents For Ease And Performance",
+          "url": "https://www.mongodb.com/resources/products/fundamentals/embedded-mongodb"
+        },
+        {
+          "id": "6MqhN-PTf1PRzYCTxC8pn-res-3",
+          "type": "article",
+          "title": "Embedded Documents in MongoDB",
+          "url": "https://medium.com/@bubu.tripathy/embedded-documents-in-mongodb-793af431846c"
+        }
+      ]
+    },
+    "iJjqlTgXxHWC-8bh6uCGQ": {
+      "id": "iJjqlTgXxHWC-8bh6uCGQ",
+      "slug": "encryption-at-rest",
+      "title": "Encryption at Rest",
+      "description": "Encryption at Rest in MongoDB protects data stored on disk by encrypting database files, indexes, and logs using industry-standard encryption algorithms. This security feature prevents unauthorized access to physical storage media and ensures compliance with data protection regulations. MongoDB supports both enterprise-grade WiredTiger storage engine encryption and file system-level encryption options.",
+      "resources": [
+        {
+          "id": "iJjqlTgXxHWC-8bh6uCGQ-res-1",
+          "type": "article",
+          "title": "Encryption at Rest",
+          "url": "https://www.mongodb.com/docs/manual/core/security-encryption-at-rest/"
+        },
+        {
+          "id": "iJjqlTgXxHWC-8bh6uCGQ-res-2",
+          "type": "article",
+          "title": "Encrypted Fields and Enabled Queries",
+          "url": "https://www.mongodb.com/docs/manual/core/queryable-encryption/fundamentals/encrypt-and-query/"
+        },
+        {
+          "id": "iJjqlTgXxHWC-8bh6uCGQ-res-3",
+          "type": "article",
+          "title": "Encryption at Rest and In Transit in MongoDB",
+          "url": "https://syskool.com/encryption-at-rest-and-in-transit-in-mongodb/"
+        }
+      ]
+    },
+    "2h8z2mrgRKSLKI-eBc3zM": {
+      "id": "2h8z2mrgRKSLKI-eBc3zM",
+      "slug": "eq",
+      "title": "$eq",
+      "description": "The `$eq`operator in MongoDB matches documents where a field value equals a specified value. It performs exact equality comparison and is the default behavior when using field: value syntax. `$eq`supports all BSON data types including nested documents and arrays, enabling precise matching in queries. It's fundamental for filtering documents by specific field values in find operations.",
+      "resources": [
+        {
+          "id": "2h8z2mrgRKSLKI-eBc3zM-res-1",
+          "type": "article",
+          "title": "$eq",
+          "url": "https://www.mongodb.com/docs/manual/reference/operator/query/eq/"
+        },
+        {
+          "id": "2h8z2mrgRKSLKI-eBc3zM-res-2",
+          "type": "article",
+          "title": "MongoDB $eq Aggregation Pipeline Operator",
+          "url": "https://database.guide/mongodb-eq/"
+        }
+      ]
+    },
+    "nk0V3o3oKuIb8A0gDECFJ": {
+      "id": "nk0V3o3oKuIb8A0gDECFJ",
+      "slug": "exclude",
+      "title": "$exclude",
+      "description": "The `$exclude` projection operator in MongoDB is used to explicitly exclude specific fields from query results, allowing you to return all fields of a document except those that are explicitly excluded. When using $exclude, you specify which fields to omit by setting them to 0 or false in the projection document, and all other fields will be automatically included in the result set. This operator is particularly useful when you want to retrieve most of a document's data while excluding sensitive information like passwords, internal metadata, or large fields that are not needed for a particular operation, helping reduce network bandwidth and improve query performance by transferring only the necessary data.",
+      "resources": [
+        {
+          "id": "nk0V3o3oKuIb8A0gDECFJ-res-1",
+          "type": "article",
+          "title": "Include or Exclude Fields in a Wildcard Index",
+          "url": "https://www.mongodb.com/docs/manual/core/indexes/index-types/index-wildcard/create-wildcard-index-multiple-fields/"
+        },
+        {
+          "id": "nk0V3o3oKuIb8A0gDECFJ-res-2",
+          "type": "article",
+          "title": "Project Fields to Return from Query",
+          "url": "https://www.mongodb.com/docs/manual/tutorial/project-fields-from-query-results/"
+        }
+      ]
+    },
+    "12kfpSapv2uNxpHzLkFSL": {
+      "id": "12kfpSapv2uNxpHzLkFSL",
+      "slug": "exists",
+      "title": "$exists",
+      "description": "The `$exists` operator in MongoDB matches documents based on the presence or absence of a specified field. When set to true, it finds documents containing the field regardless of value (including null), and when false, it finds documents missing the field entirely. `$exists` is useful for schema validation, data quality checks, and filtering documents with optional fields.",
+      "resources": [
+        {
+          "id": "12kfpSapv2uNxpHzLkFSL-res-1",
+          "type": "article",
+          "title": "$exists",
+          "url": "https://www.mongodb.com/docs/manual/reference/operator/query/exists/"
+        },
+        {
+          "id": "12kfpSapv2uNxpHzLkFSL-res-2",
+          "type": "article",
+          "title": "MongoDB $exists Operator",
+          "url": "https://sparkbyexamples.com/mongodb/using-mongodb-exists-operator/"
+        }
+      ]
+    },
+    "butGgZXGPTZI-sWx24bOr": {
+      "id": "butGgZXGPTZI-sWx24bOr",
+      "slug": "expiring",
+      "title": "Expiring",
+      "description": "Expiring indexes (TTL - Time To Live) in MongoDB automatically delete documents from a collection after a specified period, making them ideal for managing time-sensitive data like session information, log entries, temporary caches, or any data that becomes obsolete after a certain duration. These indexes are created on date fields and use a background process that runs every 60 seconds to remove expired documents, helping maintain optimal collection size and performance by preventing the accumulation of outdated data. TTL indexes are particularly useful for applications that generate large volumes of transient data, as they provide an automated cleanup mechanism that reduces storage costs and improves query performance without requiring manual intervention or complex application logic to handle data expiration.",
+      "resources": [
+        {
+          "id": "butGgZXGPTZI-sWx24bOr-res-1",
+          "type": "article",
+          "title": "Expire Data from Collections by Setting TTL",
+          "url": "https://www.mongodb.com/docs/manual/tutorial/expire-data/"
+        },
+        {
+          "id": "butGgZXGPTZI-sWx24bOr-res-2",
+          "type": "article",
+          "title": "Understanding TTL in MongoDB",
+          "url": "https://medium.com/@darshitanjaria/understanding-ttl-in-mongodb-automatically-expiring-documents-e8b1defc1158"
+        },
+        {
+          "id": "butGgZXGPTZI-sWx24bOr-res-3",
+          "type": "article",
+          "title": "Understanding MongoDB Indexes and Expiry",
+          "url": "https://stenzr.medium.com/understanding-mongodb-indexes-and-expiry-019831790542"
+        }
+      ]
+    },
+    "iMpCEXRDXg0Kq9OFNywbI": {
+      "id": "iMpCEXRDXg0Kq9OFNywbI",
+      "slug": "find-and-relevant",
+      "title": "find() and Related Methods",
+      "description": "The `find()` method retrieves documents from MongoDB collections using query filters, projections, and modifiers. Related methods include `findOne()` for single documents, `findOneAndUpdate()` for atomic updates, `findOneAndDelete()` for atomic deletions, and cursor methods like `limit(), skip(), sort()` for result manipulation. These methods support complex queries with operators, field projections, and cursor iteration.",
+      "resources": [
+        {
+          "id": "iMpCEXRDXg0Kq9OFNywbI-res-1",
+          "type": "article",
+          "title": "Query Documents",
+          "url": "https://www.mongodb.com/docs/manual/tutorial/query-documents/"
+        },
+        {
+          "id": "iMpCEXRDXg0Kq9OFNywbI-res-2",
+          "type": "article",
+          "title": "find()",
+          "url": "https://www.mongodb.com/docs/manual/reference/method/db.collection.find/"
+        },
+        {
+          "id": "iMpCEXRDXg0Kq9OFNywbI-res-3",
+          "type": "article",
+          "title": "Cursors",
+          "url": "https://www.mongodb.com/docs/manual/reference/method/js-cursor/"
+        },
+        {
+          "id": "iMpCEXRDXg0Kq9OFNywbI-res-4",
+          "type": "article",
+          "title": "findOneAndUpdate()",
+          "url": "https://www.mongodb.com/docs/manual/reference/method/db.collection.findoneandupdate/"
+        },
+        {
+          "id": "iMpCEXRDXg0Kq9OFNywbI-res-5",
+          "type": "article",
+          "title": "A Complete Guide to MongoDB Queries with Examples",
+          "url": "https://dev.to/rajrathod/a-complete-guide-to-mongodb-queries-with-examples-ik4"
+        }
+      ]
+    },
+    "bqXlDnPuMQIKulD9cTvPf": {
+      "id": "bqXlDnPuMQIKulD9cTvPf",
+      "slug": "geospatial-indexes",
+      "title": "Geospatial Indexes",
+      "description": "Geospatial indexes in MongoDB enable efficient querying of geographic coordinate data using 2d, 2dsphere, and geoHaystack index types. They support location-based queries like finding points within a specific distance, polygon intersection, and nearest neighbor searches. These indexes work with GeoJSON objects and legacy coordinate pairs for mapping applications and location services.",
+      "resources": [
+        {
+          "id": "bqXlDnPuMQIKulD9cTvPf-res-1",
+          "type": "article",
+          "title": "Geospatial Queries",
+          "url": "https://www.mongodb.com/docs/manual/geospatial-queries/"
+        },
+        {
+          "id": "bqXlDnPuMQIKulD9cTvPf-res-2",
+          "type": "article",
+          "title": "Geospatial Indexes in MongoDB",
+          "url": "https://netsharpdev.com/2021/09/09/geoindexes-in-mongodb/"
+        },
+        {
+          "id": "bqXlDnPuMQIKulD9cTvPf-res-3",
+          "type": "article",
+          "title": "Geospatial Data in MongoDB: Storage, Indexing, and Queries",
+          "url": "https://medium.com/@AbbasPlusPlus/geospatial-data-in-mongodb-storage-indexing-and-queries-1c6db21b7970"
+        }
+      ]
+    },
+    "nz048lC4Q4S7fMVbxLGEk": {
+      "id": "nz048lC4Q4S7fMVbxLGEk",
+      "slug": "group",
+      "title": "$group",
+      "description": "The `$group` aggregation stage groups documents by specified identifier expressions and applies accumulator operators like `$sum, $avg, $max, $min, and $push`. It's essential for data aggregation, calculating statistics, and creating summary reports. `$group` can group by single or multiple fields and supports complex expressions for dynamic grouping criteria.",
+      "resources": [
+        {
+          "id": "nz048lC4Q4S7fMVbxLGEk-res-1",
+          "type": "article",
+          "title": "Aggregation Operators",
+          "url": "https://www.mongodb.com/docs/manual/reference/operator/aggregation/"
+        },
+        {
+          "id": "nz048lC4Q4S7fMVbxLGEk-res-2",
+          "type": "article",
+          "title": "$group",
+          "url": "https://www.mongodb.com/docs/manual/reference/operator/aggregation/group/"
+        },
+        {
+          "id": "nz048lC4Q4S7fMVbxLGEk-res-3",
+          "type": "article",
+          "title": "MongoDB $group (aggregation) Usage with Examples",
+          "url": "https://sparkbyexamples.com/mongodb/mongodb-group-aggregation/"
+        }
+      ]
+    },
+    "wbZb0RwmANH4ssF07cAar": {
+      "id": "wbZb0RwmANH4ssF07cAar",
+      "slug": "gt",
+      "title": "$gt",
+      "description": "The `$gt` (greater than) operator in MongoDB selects documents where a field value is greater than a specified value. It works with numbers, dates, strings (lexicographically), and other comparable BSON types. `$gt` is essential for range queries, date filtering, and numeric comparisons. Combined with other operators, it enables complex filtering conditions for data analysis and reporting.",
+      "resources": [
+        {
+          "id": "wbZb0RwmANH4ssF07cAar-res-1",
+          "type": "article",
+          "title": "Aggregation Operators",
+          "url": "https://www.mongodb.com/docs/manual/reference/operator/aggregation/"
+        },
+        {
+          "id": "wbZb0RwmANH4ssF07cAar-res-2",
+          "type": "article",
+          "title": "$gt",
+          "url": "https://www.mongodb.com/docs/manual/reference/operator/aggregation/gt/"
+        }
+      ]
+    },
+    "kV5Tmu9ocDnuPQvkx2W0u": {
+      "id": "kV5Tmu9ocDnuPQvkx2W0u",
+      "slug": "gte",
+      "title": "$gte",
+      "description": "The `$gte` (greater than or equal to) operator in MongoDB selects documents where a field value is greater than or equal to a specified value. It provides inclusive comparison for range queries, date boundaries, and numeric filtering. `$gte` is particularly useful for minimum threshold queries, start date filtering, and creating inclusive lower bounds in data selection criteria.",
+      "resources": [
+        {
+          "id": "kV5Tmu9ocDnuPQvkx2W0u-res-1",
+          "type": "article",
+          "title": "Aggregation Operators",
+          "url": "https://www.mongodb.com/docs/manual/reference/operator/aggregation/"
+        },
+        {
+          "id": "kV5Tmu9ocDnuPQvkx2W0u-res-2",
+          "type": "article",
+          "title": "$gte",
+          "url": "https://www.mongodb.com/docs/manual/reference/operator/aggregation/gte/"
+        }
+      ]
+    },
+    "Wd20OKQYYuW_bT6U-yRxT": {
+      "id": "Wd20OKQYYuW_bT6U-yRxT",
+      "slug": "in",
+      "title": "$in",
+      "description": "The `$in` operator in MongoDB selects documents where a field value matches any value in a specified array. It provides efficient multiple value matching without using multiple $or conditions. `$in` supports all BSON data types and is particularly useful for filtering by lists of IDs, categories, or enumerated values, offering better performance than equivalent $or queries.",
+      "resources": [
+        {
+          "id": "Wd20OKQYYuW_bT6U-yRxT-res-1",
+          "type": "article",
+          "title": "Aggregation Operators",
+          "url": "https://www.mongodb.com/docs/manual/reference/operator/aggregation/"
+        },
+        {
+          "id": "Wd20OKQYYuW_bT6U-yRxT-res-2",
+          "type": "article",
+          "title": "$in",
+          "url": "https://www.mongodb.com/docs/manual/reference/operator/aggregation/in/"
+        }
+      ]
+    },
+    "sxDyp3bP-YhgmDMVUFTaA": {
+      "id": "sxDyp3bP-YhgmDMVUFTaA",
+      "slug": "include",
+      "title": "$include",
+      "description": "The `$include` projection operator in MongoDB allows you to explicitly specify which fields should be included in query results, providing precise control over the data returned from the database. When using `$include` (or simply setting fields to 1 or true in a projection document), only the specified fields and the \\_id field (unless explicitly excluded) will be present in the returned documents, which helps reduce network traffic, improve query performance, and enhance security by limiting data exposure. This operator is essential for optimizing applications that only need specific fields from large documents, especially in scenarios where documents contain many fields or large nested objects that would unnecessarily consume bandwidth and processing resources.",
+      "resources": [
+        {
+          "id": "sxDyp3bP-YhgmDMVUFTaA-res-1",
+          "type": "article",
+          "title": "Project Fields to Return from Query",
+          "url": "https://www.mongodb.com/docs/manual/tutorial/project-fields-from-query-results/"
+        },
+        {
+          "id": "sxDyp3bP-YhgmDMVUFTaA-res-2",
+          "type": "article",
+          "title": "$include",
+          "url": "https://www.mongodb.com/docs/manual/core/indexes/index-types/index-wildcard/create-wildcard-index-multiple-fields/"
+        }
+      ]
+    },
+    "XjB0uOnsYl4edzZWpQ-nm": {
+      "id": "XjB0uOnsYl4edzZWpQ-nm",
+      "slug": "indexing",
+      "title": "Indexing",
+      "description": "Indexing in MongoDB creates data structures that improve query performance by creating shortcuts to documents. Indexes are built on specific fields and allow the database to quickly locate data without scanning entire collections. MongoDB supports various index types including single field, compound, multikey, geospatial, text, and hashed indexes to optimize different query patterns and use cases.",
+      "resources": [
+        {
+          "id": "XjB0uOnsYl4edzZWpQ-nm-res-1",
+          "type": "course",
+          "title": "Indexing Design Fundamentals Skill Badge",
+          "url": "https://learn.mongodb.com/courses/indexing-design-fundamentals"
+        },
+        {
+          "id": "XjB0uOnsYl4edzZWpQ-nm-res-2",
+          "type": "article",
+          "title": "Indexing",
+          "url": "https://www.mongodb.com/docs/manual/indexes/"
+        },
+        {
+          "id": "XjB0uOnsYl4edzZWpQ-nm-res-3",
+          "type": "article",
+          "title": "How To Use Indexes in MongoDB",
+          "url": "https://www.digitalocean.com/community/tutorials/how-to-use-indexes-in-mongodb"
+        }
+      ]
+    },
+    "mXdn4u5CiQRDE83qMiWZX": {
+      "id": "mXdn4u5CiQRDE83qMiWZX",
+      "slug": "insert-and-relevant",
+      "title": "insert() and Related Methods",
+      "description": "Insert operations add new documents to MongoDB collections using `insertOne()` for single documents and `insertMany()` for multiple documents. These methods support options like ordered/unordered inserts, write concerns, and automatic ObjectId generation. MongoDB also provides legacy `insert()` method and supports upsert operations through update methods when documents don't exist.",
+      "resources": [
+        {
+          "id": "mXdn4u5CiQRDE83qMiWZX-res-1",
+          "type": "article",
+          "title": "Insert Commands",
+          "url": "https://www.mongodb.com/docs/manual/reference/command/insert/"
+        },
+        {
+          "id": "mXdn4u5CiQRDE83qMiWZX-res-2",
+          "type": "article",
+          "title": "MongoDB CRUD Operations: Insert and Find Documents",
+          "url": "https://learn.mongodb.com/courses/mongodb-crud-operations-insert-and-find-documents"
+        },
+        {
+          "id": "mXdn4u5CiQRDE83qMiWZX-res-3",
+          "type": "article",
+          "title": "A Comprehensive Guide to MongoDB Methods",
+          "url": "https://medium.com/@coderwithtools/a-comprehensive-guide-to-mongodb-methods-syntax-and-examples-feee0ac07599"
+        }
+      ]
+    },
+    "xKFZSKG2GPD-phY2HLMsx": {
+      "id": "xKFZSKG2GPD-phY2HLMsx",
+      "slug": "int32int",
+      "title": "Int32",
+      "description": "Int32 data type in MongoDB stores 32-bit signed integers ranging from -2,147,483,648 to 2,147,483,647. This type provides exact integer representation without floating-point precision issues and takes less storage space than doubles. Int32 is ideal for counters, IDs, and whole numbers where precision is critical and the value range fits within 32-bit limits.",
+      "resources": [
+        {
+          "id": "xKFZSKG2GPD-phY2HLMsx-res-1",
+          "type": "article",
+          "title": "Int32",
+          "url": "https://www.mongodb.com/docs/mongodb-shell/reference/data-types/#int32"
+        },
+        {
+          "id": "xKFZSKG2GPD-phY2HLMsx-res-2",
+          "type": "article",
+          "title": "MongoDB Int32 and Long Data Types",
+          "url": "https://www.slingacademy.com/article/mongodb-int32-and-long-data-types-a-practical-guide-with-examples/"
+        }
+      ]
+    },
+    "iJFDFdIN_N4-DlJwrFIiB": {
+      "id": "iJFDFdIN_N4-DlJwrFIiB",
+      "slug": "int64--long",
+      "title": "Int64 / Long",
+      "description": "Int64 (Long) data type in MongoDB stores 64-bit signed integers with a range from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807. This type handles large integer values that exceed Int32 limits while maintaining exact precision. Long integers are essential for timestamps, large counters, and applications requiring precise integer arithmetic with very large numbers.",
+      "resources": [
+        {
+          "id": "iJFDFdIN_N4-DlJwrFIiB-res-1",
+          "type": "article",
+          "title": "Long",
+          "url": "https://www.mongodb.com/docs/mongodb-shell/reference/data-types/#long"
+        },
+        {
+          "id": "iJFDFdIN_N4-DlJwrFIiB-res-2",
+          "type": "article",
+          "title": "MongoDB Int64",
+          "url": "https://www.tedblob.com/mongodb-query-int64/"
+        },
+        {
+          "id": "iJFDFdIN_N4-DlJwrFIiB-res-3",
+          "type": "article",
+          "title": "@articleIssue with int64 stored in the field _id",
+          "url": "https://www.mongodb.com/community/forums/t/issue-with-int64-stored-in-the-field-id/277905"
+        }
+      ]
+    },
+    "UXO5i6nPa5CRW1z7FAn_S": {
+      "id": "UXO5i6nPa5CRW1z7FAn_S",
+      "slug": "javascript",
+      "title": "JavaScript",
+      "description": "The JavaScript data type in MongoDB allows you to store JavaScript code as BSON values within documents, enabling the execution of server-side JavaScript functions for operations like map-reduce, stored procedures, and complex data transformations. This type can store JavaScript functions or code snippets that can be executed within the MongoDB server environment, making it useful for scenarios where you need to perform complex calculations, business logic, or custom aggregation operations directly on the database server. However, the JavaScript type is primarily legacy functionality and is generally discouraged in modern MongoDB applications due to security concerns and performance implications, with the aggregation framework being the preferred approach for complex data processing tasks that previously required server-side JavaScript execution.",
+      "resources": [
+        {
+          "id": "UXO5i6nPa5CRW1z7FAn_S-res-1",
+          "type": "article",
+          "title": "Javascript Function on Server",
+          "url": "https://www.mongodb.com/docs/manual/tutorial/store-javascript-function-on-server/"
+        },
+        {
+          "id": "UXO5i6nPa5CRW1z7FAn_S-res-2",
+          "type": "article",
+          "title": "Unleash Data Magic with MongoDB Custom JavaScript Functions",
+          "url": "https://thelinuxcode.com/mongodb-custom-function/"
+        }
+      ]
+    },
+    "JAosQ9tFj7y70lGQ0vHzC": {
+      "id": "JAosQ9tFj7y70lGQ0vHzC",
+      "slug": "kafka",
+      "title": "Kafka",
+      "description": "Apache Kafka is a distributed event streaming platform designed for high-throughput, fault-tolerant, and scalable data streaming. It is primarily used for building real-time data pipelines and streaming applications. Kafka allows you to publish and subscribe to streams of records, store those records in a fault-tolerant way, and process them in real-time.",
+      "resources": [
+        {
+          "id": "JAosQ9tFj7y70lGQ0vHzC-res-1",
+          "type": "article",
+          "title": "Kafka Connector v1.15 - MongoDB Docs",
+          "url": "https://www.mongodb.com/docs/kafka-connector/current/"
+        },
+        {
+          "id": "JAosQ9tFj7y70lGQ0vHzC-res-2",
+          "type": "article",
+          "title": "Data Streaming with Apache Kafka & MongoDB",
+          "url": "https://www.mongodb.com/resources/products/integrations/data-streaming-with-apache-kafka-and-mongodb"
+        },
+        {
+          "id": "JAosQ9tFj7y70lGQ0vHzC-res-3",
+          "type": "article",
+          "title": "Unleash Data Magic with MongoDB Custom JavaScript Functions",
+          "url": "https://thelinuxcode.com/mongodb-custom-function/"
+        }
+      ]
+    },
+    "YuzMOO7kf2tO6V6WehqF_": {
+      "id": "YuzMOO7kf2tO6V6WehqF_",
+      "slug": "kerberos-authentication",
+      "title": "Kerberos Authentication",
+      "description": "Kerberos authentication in MongoDB provides enterprise-grade security through ticket-based authentication protocol. It integrates with existing Active Directory or Kerberos infrastructures, allowing centralized user management and single sign-on capabilities. This authentication method eliminates password transmission over networks and provides strong mutual authentication between clients and MongoDB servers using encrypted tickets.",
+      "resources": [
+        {
+          "id": "YuzMOO7kf2tO6V6WehqF_-res-1",
+          "type": "article",
+          "title": "Kerberos Authentication on Self-Managed Deployments",
+          "url": "https://www.mongodb.com/docs/manual/core/kerberos/"
+        },
+        {
+          "id": "YuzMOO7kf2tO6V6WehqF_-res-2",
+          "type": "article",
+          "title": "Configure MongoDB with Kerberos Authentication",
+          "url": "https://hackernoon.com/mongodb-kerberos-a3dfdf322d1c"
+        }
+      ]
+    },
+    "73REfcB_T0yBP-KQ0EYmF": {
+      "id": "73REfcB_T0yBP-KQ0EYmF",
+      "slug": "language-drivers",
+      "title": "Language Drivers",
+      "description": "MongoDB language drivers are official and community-maintained libraries that provide idiomatic APIs for interacting with MongoDB databases from various programming languages including Python (PyMongo), JavaScript/Node.js, Java, C#, Go, PHP, Ruby, and many others. These drivers handle the low-level communication protocols, connection management, authentication, and data serialization between applications and MongoDB servers, while providing language-specific features like object mapping, connection pooling, and async/await support. They abstract away the complexity of the MongoDB wire protocol and BSON encoding, allowing developers to work with MongoDB using familiar programming patterns and data structures native to their chosen language, making database integration seamless and efficient.",
+      "resources": [
+        {
+          "id": "73REfcB_T0yBP-KQ0EYmF-res-1",
+          "type": "article",
+          "title": "Visit Dedicated Python Roadmap",
+          "url": "https://roadmap.sh/python"
+        },
+        {
+          "id": "73REfcB_T0yBP-KQ0EYmF-res-2",
+          "type": "article",
+          "title": "Visit Dedicated JavaScript Roadmap",
+          "url": "https://roadmap.sh/javascript"
+        },
+        {
+          "id": "73REfcB_T0yBP-KQ0EYmF-res-3",
+          "type": "article",
+          "title": "Visit Dedicated Go Roadmap",
+          "url": "https://roadmap.sh/golang"
+        },
+        {
+          "id": "73REfcB_T0yBP-KQ0EYmF-res-4",
+          "type": "article",
+          "title": "Start Developing with MongoDB",
+          "url": "https://www.mongodb.com/docs/drivers/"
+        },
+        {
+          "id": "73REfcB_T0yBP-KQ0EYmF-res-5",
+          "type": "article",
+          "title": "MongoDB Driver Performance in Several Languages",
+          "url": "https://medium.com/clarityai-engineering/mongodb-driver-performance-in-several-languages-888899494b88"
+        }
+      ]
+    },
+    "NoDNdno9UOlMrOC0Wga9E": {
+      "id": "NoDNdno9UOlMrOC0Wga9E",
+      "slug": "ldap-proxy-auth",
+      "title": "LDAP Proxy Auth",
+      "description": "LDAP Proxy Authentication in MongoDB allows the database to authenticate users through an external LDAP (Lightweight Directory Access Protocol) server, enabling organizations to integrate MongoDB with their existing directory services like Active Directory. This authentication method acts as a proxy between MongoDB and the LDAP server, allowing users to authenticate using their corporate credentials while maintaining centralized user management, making it particularly valuable for enterprise environments that need to enforce consistent security policies and user access controls across multiple systems.",
+      "resources": [
+        {
+          "id": "NoDNdno9UOlMrOC0Wga9E-res-1",
+          "type": "article",
+          "title": "Self-Managed LDAP Proxy Authentication",
+          "url": "https://www.mongodb.com/docs/manual/core/security-ldap/"
+        },
+        {
+          "id": "NoDNdno9UOlMrOC0Wga9E-res-2",
+          "type": "article",
+          "title": "LDAP Authorization — MongoDB Manual",
+          "url": "https://www.xuchao.org/docs/mongodb/core/security-ldap-external.html"
+        }
+      ]
+    },
+    "AzUVaGnGv9uypJ31alR9r": {
+      "id": "AzUVaGnGv9uypJ31alR9r",
+      "slug": "limit",
+      "title": "$limit",
+      "description": "The `$limit` aggregation stage restricts the number of documents passed to the next stage in the pipeline. It's commonly used with $sort to get top N results, implement pagination, or reduce data processing overhead. `$limit` is efficient when combined with indexes and should be placed strategically in the pipeline to minimize document processing in subsequent stages.",
+      "resources": [
+        {
+          "id": "AzUVaGnGv9uypJ31alR9r-res-1",
+          "type": "article",
+          "title": "$limit",
+          "url": "https://www.mongodb.com/docs/manual/reference/operator/aggregation/limit/"
+        },
+        {
+          "id": "AzUVaGnGv9uypJ31alR9r-res-2",
+          "type": "article",
+          "title": "Aggregation Operators",
+          "url": "https://www.mongodb.com/docs/manual/reference/operator/aggregation/"
+        }
+      ]
+    },
+    "strw_oGTkZEH-o8zA4IRP": {
+      "id": "strw_oGTkZEH-o8zA4IRP",
+      "slug": "lookup",
+      "title": "$lookup",
+      "description": "The `$lookup` aggregation stage performs left outer joins between collections, similar to SQL JOINs. It adds an array field containing matching documents from the \"joined\" collection based on specified local and foreign fields. `$lookup` supports pipeline-based lookups for complex matching conditions and enables denormalization of related data for efficient querying and reporting.",
+      "resources": [
+        {
+          "id": "strw_oGTkZEH-o8zA4IRP-res-1",
+          "type": "article",
+          "title": "$lookup",
+          "url": "https://www.mongodb.com/docs/manual/reference/operator/aggregation/lookup/"
+        },
+        {
+          "id": "strw_oGTkZEH-o8zA4IRP-res-2",
+          "type": "article",
+          "title": "Aggregation Operators",
+          "url": "https://www.mongodb.com/docs/manual/reference/operator/aggregation/"
+        }
+      ]
+    },
+    "5-MLEEigFPRloN7wLa05T": {
+      "id": "5-MLEEigFPRloN7wLa05T",
+      "slug": "lt",
+      "title": "$lt",
+      "description": "The $lt (less than) operator in MongoDB selects documents where a field value is less than a specified value. It supports comparison operations on numbers, dates, strings, and other ordered BSON types. $lt is commonly used in range queries, date boundaries, and filtering datasets by numeric thresholds. It combines well with $gt to create range-based queries.",
+      "resources": [
+        {
+          "id": "5-MLEEigFPRloN7wLa05T-res-1",
+          "type": "article",
+          "title": "$lt",
+          "url": "https://www.mongodb.com/docs/manual/reference/operator/aggregation/lt/"
+        },
+        {
+          "id": "5-MLEEigFPRloN7wLa05T-res-2",
+          "type": "article",
+          "title": "Aggregation Operators",
+          "url": "https://www.mongodb.com/docs/manual/reference/operator/aggregation/"
+        }
+      ]
+    },
+    "eOfsrmOQI0dJW6HV_myVH": {
+      "id": "eOfsrmOQI0dJW6HV_myVH",
+      "slug": "lte",
+      "title": "$lte",
+      "description": "The `$lte` (less than or equal to) operator in MongoDB selects documents where a field value is less than or equal to a specified value. It provides inclusive upper bound comparison for range queries, end date filtering, and maximum value constraints. `$lte` is essential for creating inclusive upper limits in queries and combining with $gte for complete range specifications.",
+      "resources": [
+        {
+          "id": "eOfsrmOQI0dJW6HV_myVH-res-1",
+          "type": "article",
+          "title": "$lte",
+          "url": "https://www.mongodb.com/docs/manual/reference/operator/aggregation/lte/"
+        },
+        {
+          "id": "eOfsrmOQI0dJW6HV_myVH-res-2",
+          "type": "article",
+          "title": "Aggregation Operators",
+          "url": "https://www.mongodb.com/docs/manual/reference/operator/aggregation/"
+        }
+      ]
+    },
+    "_c7itVw1R1_UB-NPtL-WI": {
+      "id": "_c7itVw1R1_UB-NPtL-WI",
+      "slug": "match",
+      "title": "$match",
+      "description": "The `$match` aggregation stage filters documents in the pipeline, similar to the find() query operation. It should be placed early in the pipeline to reduce document count and improve performance. `$match` supports all query operators and can use indexes when positioned at the beginning of the pipeline, making it essential for efficient data filtering in aggregation workflows.",
+      "resources": [
+        {
+          "id": "_c7itVw1R1_UB-NPtL-WI-res-1",
+          "type": "article",
+          "title": "$match",
+          "url": "https://www.mongodb.com/docs/manual/reference/operator/aggregation/match/"
+        },
+        {
+          "id": "_c7itVw1R1_UB-NPtL-WI-res-2",
+          "type": "article",
+          "title": "Aggregation Operators",
+          "url": "https://www.mongodb.com/docs/manual/reference/operator/aggregation/"
+        },
+        {
+          "id": "_c7itVw1R1_UB-NPtL-WI-res-3",
+          "type": "article",
+          "title": "How to use match inside lookup in Mongo Aggregation",
+          "url": "https://medium.com/@arashramy/how-to-use-match-inside-lookup-in-mongo-aggregation-2431a8920ec6"
+        }
+      ]
+    },
+    "QF7SL237FyBQdqvKUzop6": {
+      "id": "QF7SL237FyBQdqvKUzop6",
+      "slug": "max-key",
+      "title": "Max Key",
+      "description": "MaxKey is the counterpart to MinKey in MongoDB, representing the highest possible value for a field. It is considered to be greater than all other values in the database. MaxKey is particularly useful in scenarios where you need to set an upper bound in queries or sorting operations. For example, when looking for documents with a field that is less than a certain value, using MaxKey allows you to include all documents, as it acts as the largest possible value.",
+      "resources": [
+        {
+          "id": "QF7SL237FyBQdqvKUzop6-res-1",
+          "type": "article",
+          "title": "Multikey Indexes",
+          "url": "https://www.mongodb.com/docs/manual/core/indexes/index-types/index-multikey/"
+        },
+        {
+          "id": "QF7SL237FyBQdqvKUzop6-res-2",
+          "type": "article",
+          "title": "MaxKey Class",
+          "url": "https://mongodb.github.io/node-mongodb-native/4.2/classes/MaxKey.html"
+        },
+        {
+          "id": "QF7SL237FyBQdqvKUzop6-res-3",
+          "type": "article",
+          "title": "MongoDB max() and min() Example",
+          "url": "https://examples.javacodegeeks.com/software-development/mongodb/mongodb-max-and-min-example/"
+        }
+      ]
+    },
+    "jQSMLd6gG158tJDzo1k_1": {
+      "id": "jQSMLd6gG158tJDzo1k_1",
+      "slug": "min-key",
+      "title": "Min Key",
+      "description": "MinKey is a special value in MongoDB that represents the lowest possible value for a field. It is considered to be less than all other values in the database. This makes MinKey useful in queries and sorting operations where you want to establish a lower bound. For instance, when searching for documents with a field that is greater than a certain value, you can use MinKey to ensure that all documents are included, as it effectively acts as the smallest possible value.",
+      "resources": [
+        {
+          "id": "jQSMLd6gG158tJDzo1k_1-res-1",
+          "type": "article",
+          "title": "Multikey Indexes",
+          "url": "https://www.mongodb.com/docs/manual/core/indexes/index-types/index-multikey/"
+        },
+        {
+          "id": "jQSMLd6gG158tJDzo1k_1-res-2",
+          "type": "article",
+          "title": "MinKey Class",
+          "url": "https://mongodb.github.io/node-mongodb-native/4.2/classes/MinKey.html"
+        },
+        {
+          "id": "jQSMLd6gG158tJDzo1k_1-res-3",
+          "type": "article",
+          "title": "MongoDB max() and min() Example",
+          "url": "https://examples.javacodegeeks.com/software-development/mongodb/mongodb-max-and-min-example/"
+        }
+      ]
+    },
+    "w1L-yFBM2AyeNBFyH5skW": {
+      "id": "w1L-yFBM2AyeNBFyH5skW",
+      "slug": "mongodb-audit",
+      "title": "MongoDB Audit",
+      "description": "MongoDB Audit is a security feature that enables comprehensive logging and monitoring of database activities, including authentication attempts, authorization failures, CRUD operations, and administrative actions. It provides detailed audit trails that track who accessed what data, when operations occurred, and whether they succeeded or failed, which is essential for compliance with regulatory requirements like GDPR, HIPAA, or SOX, and helps organizations detect suspicious activities, investigate security incidents, and maintain accountability in their database operations.",
+      "resources": [
+        {
+          "id": "w1L-yFBM2AyeNBFyH5skW-res-1",
+          "type": "article",
+          "title": "Configure Auditing - Database Manual",
+          "url": "https://www.mongodb.com/docs/manual/tutorial/configure-auditing/"
+        },
+        {
+          "id": "w1L-yFBM2AyeNBFyH5skW-res-2",
+          "type": "article",
+          "title": "Auditing and Monitoring MongoDB for Security",
+          "url": "https://medium.com/@platform.engineers/auditing-and-monitoring-mongodb-for-security-0981df3cc22b"
+        },
+        {
+          "id": "w1L-yFBM2AyeNBFyH5skW-res-3",
+          "type": "article",
+          "title": "MongoDB Auditing for Enhanced Security and Compliance",
+          "url": "https://www.mydbops.com/blog/mongodb-auditing-for-enhanced-security-and-compliance"
+        }
+      ]
+    },
+    "z50iixpcCMe9sTh-gwTI3": {
+      "id": "z50iixpcCMe9sTh-gwTI3",
+      "slug": "mongodb-basics",
+      "title": "MongoDB Basics",
+      "description": "MongoDB is a popular NoSQL database that is designed to store and manage large volumes of unstructured or semi-structured data. Unlike traditional relational databases that use tables and rows, MongoDB employs a document-oriented data model, where data is stored in flexible, JSON-like documents called BSON (Binary JSON). This allows for a dynamic schema, meaning that documents within the same collection can have different structures, making it easier to adapt to changing data requirements. MongoDB supports rich query capabilities, including filtering, sorting, and aggregation, enabling developers to perform complex queries efficiently.",
+      "resources": [
+        {
+          "id": "z50iixpcCMe9sTh-gwTI3-res-1",
+          "type": "article",
+          "title": "MongoDB",
+          "url": "https://www.mongodb.com/"
+        },
+        {
+          "id": "z50iixpcCMe9sTh-gwTI3-res-2",
+          "type": "article",
+          "title": "What Is MongoDB?",
+          "url": "https://www.mongodb.com/company/what-is-mongodb"
+        },
+        {
+          "id": "z50iixpcCMe9sTh-gwTI3-res-3",
+          "type": "article",
+          "title": "MongoDB Database Documentation",
+          "url": "https://www.mongodb.com/docs/"
+        }
+      ]
+    },
+    "LC923iJhfiUDIs_0-9rc7": {
+      "id": "LC923iJhfiUDIs_0-9rc7",
+      "slug": "mongodb-security",
+      "title": "MongoDB Security",
+      "description": "MongoDB security encompasses authentication, authorization, encryption, auditing, and network security features. It includes role-based access control (RBAC), field-level security, encryption in transit and at rest, and comprehensive audit logging. MongoDB provides multiple authentication mechanisms including SCRAM, x.509 certificates, LDAP, and Kerberos to secure database access and protect sensitive data from unauthorized access.",
+      "resources": [
+        {
+          "id": "LC923iJhfiUDIs_0-9rc7-res-1",
+          "type": "course",
+          "title": "Secure MongoDB Self-Managed: AuthN and AuthZ Skill Badge",
+          "url": "https://learn.mongodb.com/courses/secure-mongodb-self-managed-authn-and-authz"
+        },
+        {
+          "id": "LC923iJhfiUDIs_0-9rc7-res-2",
+          "type": "article",
+          "title": "MongoDB Security",
+          "url": "https://www.mongodb.com/docs/manual/security/"
+        },
+        {
+          "id": "LC923iJhfiUDIs_0-9rc7-res-3",
+          "type": "article",
+          "title": "MongoDB Database Documentation",
+          "url": "https://www.mongodb.com/docs/"
+        },
+        {
+          "id": "LC923iJhfiUDIs_0-9rc7-res-4",
+          "type": "article",
+          "title": "MongoDB Security: Best Practices to Keep Your Data Safe",
+          "url": "https://www.digitalocean.com/community/tutorial-series/mongodb-security-best-practices-to-keep-your-data-safe"
+        }
+      ]
+    },
+    "1pCWjSvjvbox5OpyWJ8Kv": {
+      "id": "1pCWjSvjvbox5OpyWJ8Kv",
+      "slug": "mongodb-terminology",
+      "title": "MongoDB Terminology",
+      "description": "MongoDB terminology includes key concepts: databases contain collections (equivalent to tables), which store documents (equivalent to rows) composed of field-value pairs. Other terms include indexes for performance optimization, replica sets for high availability, shards for horizontal scaling, aggregation pipelines for data processing, and ObjectIds for unique document identifiers. Understanding these terms is fundamental for MongoDB development.",
+      "resources": [
+        {
+          "id": "1pCWjSvjvbox5OpyWJ8Kv-res-1",
+          "type": "article",
+          "title": "MongoDB Security",
+          "url": "https://www.mongodb.com/docs/manual/security/"
+        },
+        {
+          "id": "1pCWjSvjvbox5OpyWJ8Kv-res-2",
+          "type": "article",
+          "title": "MongoDB Database Documentation",
+          "url": "https://www.mongodb.com/docs/manual/reference/glossary/"
+        },
+        {
+          "id": "1pCWjSvjvbox5OpyWJ8Kv-res-3",
+          "type": "article",
+          "title": "MongoDB Basics: Basic Terminology of Mongo",
+          "url": "https://medium.com/@gurbar.sidhu/mongodb-basics-1f111004e5d3"
+        }
+      ]
+    },
+    "xaWDHCkcGm4oovPPxVMB9": {
+      "id": "xaWDHCkcGm4oovPPxVMB9",
+      "slug": "mongodump",
+      "title": "mongodump",
+      "description": "mongodump is a MongoDB utility that creates binary backups of database content by exporting data in BSON format. It supports selective backup options including specific databases, collections, and query-based filtering. mongodump preserves data types, indexes metadata, and can perform live backups without stopping the database, making it essential for backup strategies and data migration workflows.",
+      "resources": [
+        {
+          "id": "xaWDHCkcGm4oovPPxVMB9-res-1",
+          "type": "article",
+          "title": "mongodump",
+          "url": "https://www.mongodb.com/docs/database-tools/mongodump/"
+        },
+        {
+          "id": "xaWDHCkcGm4oovPPxVMB9-res-2",
+          "type": "article",
+          "title": "How To Use mongodump for MongoDB Backups",
+          "url": "https://www.bmc.com/blogs/mongodb-mongodump/3"
+        }
+      ]
+    },
+    "TKngxMNGMgrdO26D7eeSg": {
+      "id": "TKngxMNGMgrdO26D7eeSg",
+      "slug": "mongorestore",
+      "title": "mongorestore",
+      "description": "mongorestore is a MongoDB utility that restores data from binary BSON dumps created by mongodump. It can restore entire databases, specific collections, or subsets of data with options for data transformation and index rebuilding. mongorestore supports various restore modes including replacement, merge, and upsert operations, making it crucial for disaster recovery and data migration scenarios.",
+      "resources": [
+        {
+          "id": "TKngxMNGMgrdO26D7eeSg-res-1",
+          "type": "article",
+          "title": "mongorestore",
+          "url": "https://www.mongodb.com/docs/database-tools/mongorestore/"
+        },
+        {
+          "id": "TKngxMNGMgrdO26D7eeSg-res-2",
+          "type": "article",
+          "title": "Mongorestore Examples for Restoring MongoDB Backups",
+          "url": "https://www.bmc.com/blogs/mongodb-mongorestore/"
+        }
+      ]
+    },
+    "Q8dr1JPEnLX0z4DiQwnAz": {
+      "id": "Q8dr1JPEnLX0z4DiQwnAz",
+      "slug": "ne",
+      "title": "$ne",
+      "description": "The `$ne` (not equal) operator in MongoDB selects documents where a field value is not equal to a specified value. It performs inverse equality comparison and excludes documents with matching values, including exact matches and type equivalence. `$ne` is fundamental for exclusion filtering, finding outliers, and creating queries that avoid specific values or patterns.",
+      "resources": [
+        {
+          "id": "Q8dr1JPEnLX0z4DiQwnAz-res-1",
+          "type": "article",
+          "title": "$ne",
+          "url": "https://www.mongodb.com/docs/manual/reference/operator/aggregation/ne/"
+        },
+        {
+          "id": "Q8dr1JPEnLX0z4DiQwnAz-res-2",
+          "type": "article",
+          "title": "Aggregation Operators",
+          "url": "https://www.mongodb.com/docs/manual/reference/operator/aggregation/"
+        }
+      ]
+    },
+    "ZKHUCskdKQf4IaMUTN_e7": {
+      "id": "ZKHUCskdKQf4IaMUTN_e7",
+      "slug": "nin",
+      "title": "$nin",
+      "description": "The `$nin` (not in) operator in MongoDB selects documents where a field value does not match any value in a specified array. It's the logical opposite of $in and excludes documents with field values present in the given array. `$nin` is useful for filtering out unwanted values, excluding specific categories, and creating blacklist-style queries.",
+      "resources": [
+        {
+          "id": "ZKHUCskdKQf4IaMUTN_e7-res-1",
+          "type": "article",
+          "title": "$nin",
+          "url": "https://www.mongodb.com/docs/manual/reference/operator/aggregation/nin/"
+        },
+        {
+          "id": "ZKHUCskdKQf4IaMUTN_e7-res-2",
+          "type": "article",
+          "title": "Aggregation Operators",
+          "url": "https://www.mongodb.com/docs/manual/reference/operator/aggregation/"
+        }
+      ]
+    },
+    "7xq_mdQOlUTuhfnogOl8h": {
+      "id": "7xq_mdQOlUTuhfnogOl8h",
+      "slug": "nor",
+      "title": "$nor",
+      "description": "The `$nor` operator in MongoDB performs logical NOR operation, selecting documents that fail to match any of the specified query expressions. It's the inverse of $or and returns documents that don't satisfy any of the given conditions. `$nor` is useful for complex exclusion logic and finding documents that don't match multiple alternative criteria.",
+      "resources": [
+        {
+          "id": "7xq_mdQOlUTuhfnogOl8h-res-1",
+          "type": "article",
+          "title": "$nor",
+          "url": "https://www.mongodb.com/docs/manual/reference/operator/query/nor/"
+        },
+        {
+          "id": "7xq_mdQOlUTuhfnogOl8h-res-2",
+          "type": "article",
+          "title": "Aggregation Operators",
+          "url": "https://www.mongodb.com/docs/manual/reference/operator/aggregation/"
+        }
+      ]
+    },
+    "qaUj9916Fh4BtiLz_pwQs": {
+      "id": "qaUj9916Fh4BtiLz_pwQs",
+      "slug": "not",
+      "title": "$not",
+      "description": "The `$not` operator in MongoDB performs logical negation on a query expression, returning documents that do not match the specified condition. It accepts a single query expression and inverts its result. $not is useful for excluding specific patterns, finding documents that don't meet certain criteria, and creating inverse filters in complex queries.",
+      "resources": [
+        {
+          "id": "qaUj9916Fh4BtiLz_pwQs-res-1",
+          "type": "article",
+          "title": "$not",
+          "url": "https://www.mongodb.com/docs/manual/reference/operator/aggregation/not/"
+        },
+        {
+          "id": "qaUj9916Fh4BtiLz_pwQs-res-2",
+          "type": "article",
+          "title": "Aggregation Operators",
+          "url": "https://www.mongodb.com/docs/manual/reference/operator/aggregation/"
+        }
+      ]
+    },
+    "g6AKQiFcY_8lsWRbkbZSC": {
+      "id": "g6AKQiFcY_8lsWRbkbZSC",
+      "slug": "null",
+      "title": "Null",
+      "description": "Null data type in MongoDB represents absent or undefined values, distinct from empty strings or zero values. Null fields can be queried, indexed, and participate in aggregation operations with special handling. MongoDB treats null values specifically in comparisons and provides the $exists operator to distinguish between null values and missing fields in document structures.",
+      "resources": [
+        {
+          "id": "g6AKQiFcY_8lsWRbkbZSC-res-1",
+          "type": "article",
+          "title": "Query for Null or Missing Fields",
+          "url": "https://www.mongodb.com/docs/manual/tutorial/query-for-null-fields/"
+        },
+        {
+          "id": "g6AKQiFcY_8lsWRbkbZSC-res-2",
+          "type": "article",
+          "title": "Master Null Handling in MongoDB",
+          "url": "https://www.mydbops.com/blog/null-handling-in-mongodb"
+        }
+      ]
+    },
+    "mxd3-l3-NtPw53dEvhqm4": {
+      "id": "mxd3-l3-NtPw53dEvhqm4",
+      "slug": "object-id",
+      "title": "ObjectId",
+      "description": "ObjectId is MongoDB's default primary key type, consisting of a 12-byte identifier that includes timestamp, machine identifier, process ID, and counter components. It ensures uniqueness across distributed systems and provides automatic indexing. ObjectIds are automatically generated when documents are inserted without an explicit `_id` field, enabling efficient sorting by creation time and guaranteed uniqueness across collections.",
+      "resources": [
+        {
+          "id": "mxd3-l3-NtPw53dEvhqm4-res-1",
+          "type": "article",
+          "title": "ObjectId",
+          "url": "https://www.mongodb.com/docs/manual/reference/method/objectid/"
+        },
+        {
+          "id": "mxd3-l3-NtPw53dEvhqm4-res-2",
+          "type": "article",
+          "title": "Usage of ObjectId () in MongoDB with Examples",
+          "url": "https://www.softwaretestinghelp.com/mongodb/objectid-mongodb/"
+        }
+      ]
+    },
+    "QcdZKNcCtKls6P4YNXR2W": {
+      "id": "QcdZKNcCtKls6P4YNXR2W",
+      "slug": "object",
+      "title": "Object",
+      "description": "Object data type is used to store embedded documents, allowing for complex data structures within a single document. This type is essential for organizing related data hierarchically, enabling efficient querying and data manipulation.",
+      "resources": [
+        {
+          "id": "QcdZKNcCtKls6P4YNXR2W-res-1",
+          "type": "article",
+          "title": "Data Types",
+          "url": "https://www.mongodb.com/docs/mongodb-shell/reference/data-types/"
+        },
+        {
+          "id": "QcdZKNcCtKls6P4YNXR2W-res-2",
+          "type": "article",
+          "title": "Object data type in MongoDB",
+          "url": "https://www.slingacademy.com/article/object-data-type-in-mongodb-tutorial-examples/"
+        }
+      ]
+    },
+    "43BfjlUju-yJaGv-FaJty": {
+      "id": "43BfjlUju-yJaGv-FaJty",
+      "slug": "or",
+      "title": "$or",
+      "description": "The `$or` operator in MongoDB performs logical OR operation on multiple query expressions, returning documents that satisfy at least one of the specified conditions. It accepts an array of query expressions and enables alternative matching criteria. `$or` is essential for flexible querying when documents can match any of several different conditions or field combinations.",
+      "resources": [
+        {
+          "id": "43BfjlUju-yJaGv-FaJty-res-1",
+          "type": "article",
+          "title": "$or",
+          "url": "https://www.mongodb.com/docs/manual/reference/operator/aggregation/or/"
+        },
+        {
+          "id": "43BfjlUju-yJaGv-FaJty-res-2",
+          "type": "article",
+          "title": "Aggregation Operators",
+          "url": "https://www.mongodb.com/docs/manual/reference/operator/aggregation/"
+        }
+      ]
+    },
+    "A9W2LsivDc0ialLp83fYP": {
+      "id": "A9W2LsivDc0ialLp83fYP",
+      "slug": "performance-optimization",
+      "title": "Performance Optimization",
+      "description": "Performance optimization in MongoDB involves proper indexing strategies, query optimization, schema design, and hardware configuration. Key techniques include creating appropriate indexes, using explain plans, optimizing aggregation pipelines, proper sharding strategies, and connection pooling. Regular monitoring of query performance, index usage, and database metrics helps identify bottlenecks and improve overall system efficiency.",
+      "resources": [
+        {
+          "id": "A9W2LsivDc0ialLp83fYP-res-1",
+          "type": "course",
+          "title": "MongoDB Monitoring Tooling Skill Badge",
+          "url": "https://learn.mongodb.com/courses/monitoring-tooling"
+        },
+        {
+          "id": "A9W2LsivDc0ialLp83fYP-res-2",
+          "type": "course",
+          "title": "Performance Tools and Techniques Skill Badge",
+          "url": "https://learn.mongodb.com/courses/performance-tools-and-techniques"
+        },
+        {
+          "id": "A9W2LsivDc0ialLp83fYP-res-3",
+          "type": "article",
+          "title": "Comprehensive Guide to Optimising MongoDB Performance",
+          "url": "https://www.mongodb.com/developer/products/mongodb/guide-to-optimizing-mongodb-performance/"
+        },
+        {
+          "id": "A9W2LsivDc0ialLp83fYP-res-4",
+          "type": "article",
+          "title": "How To Optimize MongoDB Performance & Security",
+          "url": "https://medium.com/@noel.benji/how-to-optimize-mongodb-performance-security-6fd3ba1304c1"
+        }
+      ]
+    },
+    "eDks8Jmsbq3_nHgLydyxP": {
+      "id": "eDks8Jmsbq3_nHgLydyxP",
+      "slug": "pipelines-stages-and-operators",
+      "title": "Pipelines, Stages and Operators",
+      "description": "MongoDB aggregation pipelines are composed of sequential stages that process and transform documents, where each stage performs a specific operation using various operators before passing results to the next stage. Stages like `$match` (filtering), `$group` (grouping and aggregating), `$project` (field selection and transformation), `$sort` (ordering), `$lookup` (joins), and `$unwind` (array expansion) can be combined in any order to create complex data processing workflows. Operators within these stages include arithmetic operators ($add, $multiply), comparison operators ($eq, $gt), array operators ($push, $addToSet), date operators ($dateToString, $year), and conditional operators ($cond, $ifNull), providing a powerful and flexible framework for data analysis, reporting, and ETL operations directly within the database.",
+      "resources": [
+        {
+          "id": "eDks8Jmsbq3_nHgLydyxP-res-1",
+          "type": "article",
+          "title": "Aggregation Pipeline",
+          "url": "https://www.mongodb.com/docs/manual/core/aggregation-pipeline/"
+        },
+        {
+          "id": "eDks8Jmsbq3_nHgLydyxP-res-2",
+          "type": "article",
+          "title": "Aggregation Stages",
+          "url": "https://www.mongodb.com/docs/manual/reference/operator/aggregation-pipeline/"
+        },
+        {
+          "id": "eDks8Jmsbq3_nHgLydyxP-res-3",
+          "type": "article",
+          "title": "$project",
+          "url": "https://www.mongodb.com/docs/manual/reference/operator/aggregation/project/"
+        },
+        {
+          "id": "eDks8Jmsbq3_nHgLydyxP-res-4",
+          "type": "article",
+          "title": "$group",
+          "url": "https://www.mongodb.com/docs/manual/reference/operator/aggregation/group/"
+        }
+      ]
+    },
+    "dO2mJejkWBH903LG0dWgN": {
+      "id": "dO2mJejkWBH903LG0dWgN",
+      "slug": "project",
+      "title": "$project",
+      "description": "The `$project` stage in MongoDB aggregation pipelines is used to reshape documents by including, excluding, or transforming fields, allowing you to control exactly which data is passed to subsequent pipeline stages. It can perform field selection (similar to SQL SELECT), create computed fields using expressions, rename fields, nest or flatten document structures, and apply various transformations like mathematical operations, string manipulations, or date formatting.",
+      "resources": [
+        {
+          "id": "dO2mJejkWBH903LG0dWgN-res-1",
+          "type": "article",
+          "title": "Aggregation Pipeline",
+          "url": "https://www.mongodb.com/docs/manual/core/aggregation-pipeline/"
+        },
+        {
+          "id": "dO2mJejkWBH903LG0dWgN-res-2",
+          "type": "article",
+          "title": "$project",
+          "url": "https://www.mongodb.com/docs/manual/reference/operator/aggregation/project/"
+        },
+        {
+          "id": "dO2mJejkWBH903LG0dWgN-res-3",
+          "type": "article",
+          "title": "$group",
+          "url": "https://www.mongodb.com/docs/manual/reference/operator/aggregation/group/"
+        }
+      ]
+    },
+    "gakF5Zfgk7QIgg_UwqG_Y": {
+      "id": "gakF5Zfgk7QIgg_UwqG_Y",
+      "slug": "project",
+      "title": "$project",
+      "description": "The `$project` stage in MongoDB aggregation pipelines is used to reshape documents by including, excluding, or transforming fields, allowing you to control exactly which data is passed to subsequent pipeline stages. It can perform field selection (similar to SQL SELECT), create computed fields using expressions, rename fields, nest or flatten document structures, and apply various transformations like mathematical operations, string manipulations, or date formatting.",
+      "resources": [
+        {
+          "id": "gakF5Zfgk7QIgg_UwqG_Y-res-1",
+          "type": "article",
+          "title": "Aggregation Pipeline",
+          "url": "https://www.mongodb.com/docs/manual/core/aggregation-pipeline/"
+        },
+        {
+          "id": "gakF5Zfgk7QIgg_UwqG_Y-res-2",
+          "type": "article",
+          "title": "$project",
+          "url": "https://www.mongodb.com/docs/manual/reference/operator/aggregation/project/"
+        },
+        {
+          "id": "gakF5Zfgk7QIgg_UwqG_Y-res-3",
+          "type": "article",
+          "title": "$group",
+          "url": "https://www.mongodb.com/docs/manual/reference/operator/aggregation/group/"
+        }
+      ]
+    },
+    "B8SFhoVV8ei1Yz6vl57l_": {
+      "id": "B8SFhoVV8ei1Yz6vl57l_",
+      "slug": "query-operators",
+      "title": "Query Operators",
+      "description": "Query operators in MongoDB enable sophisticated document filtering and selection using comparison, logical, element, evaluation, and array operators. These include equality operators ($eq, $ne), comparison operators ($gt, $lt, $gte, $lte), logical operators ($and, $or, $not), and specialized operators for arrays ($in, $nin, $all) and existence checks ($exists), providing powerful and flexible querying capabilities.",
+      "resources": [
+        {
+          "id": "B8SFhoVV8ei1Yz6vl57l_-res-1",
+          "type": "article",
+          "title": "Query and Projection Operators",
+          "url": "https://www.mongodb.com/docs/manual/reference/operator/query/"
+        },
+        {
+          "id": "B8SFhoVV8ei1Yz6vl57l_-res-2",
+          "type": "article",
+          "title": "$project",
+          "url": "https://www.mongodb.com/docs/manual/reference/operator/aggregation/project/"
+        },
+        {
+          "id": "B8SFhoVV8ei1Yz6vl57l_-res-3",
+          "type": "article",
+          "title": "Aggregation Operators",
+          "url": "https://www.mongodb.com/docs/manual/reference/operator/aggregation/"
+        }
+      ]
+    },
+    "4L9UQ4oaaK3wZwOLIMa6T": {
+      "id": "4L9UQ4oaaK3wZwOLIMa6T",
+      "slug": "query-optimization",
+      "title": "Query Optimization",
+      "description": "Query optimization in MongoDB involves analyzing and improving query performance through various techniques including proper indexing strategies, query plan analysis, and efficient query structure design. It encompasses understanding how MongoDB's query planner works, using tools like `explain()` to analyze query execution, creating appropriate indexes to support common query patterns, avoiding inefficient operations like full collection scans, and structuring queries to take advantage of MongoDB's document model and aggregation framework for optimal performance and resource utilization.",
+      "resources": [
+        {
+          "id": "4L9UQ4oaaK3wZwOLIMa6T-res-1",
+          "type": "course",
+          "title": "Query Optimization Skill Badge",
+          "url": "https://learn.mongodb.com/courses/query-optimization"
+        },
+        {
+          "id": "4L9UQ4oaaK3wZwOLIMa6T-res-2",
+          "type": "article",
+          "title": "Optimize Query Performance",
+          "url": "https://www.mongodb.com/docs/manual/tutorial/optimize-query-performance-with-indexes-and-projections/"
+        }
+      ]
+    },
+    "kG0ZeGatgvC1azZKMQiA_": {
+      "id": "kG0ZeGatgvC1azZKMQiA_",
+      "slug": "query-optimization",
+      "title": "Query Optimization",
+      "description": "Query optimization in MongoDB involves analyzing and improving query performance through various techniques including proper indexing strategies, query plan analysis, and efficient query structure design. It encompasses understanding how MongoDB's query planner works, using tools like `explain()` to analyze query execution, creating appropriate indexes to support common query patterns, avoiding inefficient operations like full collection scans, and structuring queries to take advantage of MongoDB's document model and aggregation framework for optimal performance and resource utilization.",
+      "resources": [
+        {
+          "id": "kG0ZeGatgvC1azZKMQiA_-res-1",
+          "type": "course",
+          "title": "Query Optimization Skill Badge",
+          "url": "https://learn.mongodb.com/courses/query-optimization"
+        },
+        {
+          "id": "kG0ZeGatgvC1azZKMQiA_-res-2",
+          "type": "article",
+          "title": "Optimize Query Performance",
+          "url": "https://www.mongodb.com/docs/manual/tutorial/optimize-query-performance-with-indexes-and-projections/"
+        }
+      ]
+    },
+    "LpfuM6SuhlNNjBcHM68ee": {
+      "id": "LpfuM6SuhlNNjBcHM68ee",
+      "slug": "queryable-encryption",
+      "title": "Queryable Encryption",
+      "description": "Queryable Encryption is MongoDB's advanced security feature that allows you to encrypt sensitive data while still being able to query it efficiently without decrypting the entire dataset. This cryptographic technique enables applications to perform equality queries on encrypted fields using deterministic encryption and range queries using order-preserving encryption, providing a balance between data security and functionality. It's particularly valuable for applications that need to comply with strict data protection regulations while maintaining the ability to search and filter encrypted data, such as healthcare systems handling patient records or financial applications managing sensitive transaction data.",
+      "resources": [
+        {
+          "id": "LpfuM6SuhlNNjBcHM68ee-res-1",
+          "type": "article",
+          "title": "Queryable Encryption",
+          "url": "https://www.mongodb.com/docs/manual/core/queryable-encryption/"
+        },
+        {
+          "id": "LpfuM6SuhlNNjBcHM68ee-res-2",
+          "type": "article",
+          "title": "Queryable Encryption in MongoDB",
+          "url": "https://www.geopits.com/blog/intro-to-queryable-encryption-in-mongodb.html"
+        }
+      ]
+    },
+    "thOckmrCJ45NVNPNxm4eg": {
+      "id": "thOckmrCJ45NVNPNxm4eg",
+      "slug": "read--write-concerns",
+      "title": "Read & Write Concerns",
+      "description": "Read and write concerns in MongoDB control data consistency and acknowledgment levels for operations. Write concerns specify acknowledgment requirements from replica set members, while read concerns determine data consistency guarantees for queries. Options range from unacknowledged writes to majority confirmation, and from local reads to causally consistent reads, balancing performance with data reliability requirements.",
+      "resources": [
+        {
+          "id": "thOckmrCJ45NVNPNxm4eg-res-1",
+          "type": "article",
+          "title": "Read Concerns",
+          "url": "https://www.mongodb.com/docs/manual/reference/read-concern/"
+        },
+        {
+          "id": "thOckmrCJ45NVNPNxm4eg-res-2",
+          "type": "article",
+          "title": "Replication in MongoDB",
+          "url": "https://learn.mongodb.com/learn/course/replication-in-mongodb/lesson-5-read-and-write-concerns-with-mongodb-deployments/learn?client=customer&page=2"
+        },
+        {
+          "id": "thOckmrCJ45NVNPNxm4eg-res-3",
+          "type": "article",
+          "title": "Set Global Read and Write Concerns in MongoDB 4.4",
+          "url": "https://www.mongodb.com/developer/products/mongodb/global-read-write-concerns/"
+        }
+      ]
+    },
+    "PmfjHFz-DW69pNh_t13Nm": {
+      "id": "PmfjHFz-DW69pNh_t13Nm",
+      "slug": "regex",
+      "title": "$regex",
+      "description": "The `$regex` operator in MongoDB provides regular expression pattern matching for string fields. It supports Perl-compatible regular expressions (PCRE) with options for case sensitivity, multiline matching, and extended syntax. `$regex` enables sophisticated text searching, pattern validation, and complex string filtering, though it may impact performance on large datasets without proper indexing.",
+      "resources": [
+        {
+          "id": "PmfjHFz-DW69pNh_t13Nm-res-1",
+          "type": "article",
+          "title": "$regex",
+          "url": "https://www.mongodb.com/docs/manual/reference/operator/query/regex/"
+        },
+        {
+          "id": "PmfjHFz-DW69pNh_t13Nm-res-2",
+          "type": "article",
+          "title": "Mastering Regex in MongoDB: A Beginner's Guide",
+          "url": "https://medium.com/@jaydeepdnai.imscit20/mastering-regex-in-mongodb-a-beginners-guide-886bcb404725"
+        }
+      ]
+    },
+    "z6I9XgIGQYWUd5l9DIZRX": {
+      "id": "z6I9XgIGQYWUd5l9DIZRX",
+      "slug": "regular-expression",
+      "title": "Regular Expression",
+      "description": "Regular expressions in MongoDB are patterns used to match strings within documents in a collection. They are implemented using the Perl Compatible Regular Expressions (PCRE) syntax, allowing for complex string matching capabilities. In MongoDB queries, regular expressions can be utilized with the `$regex` operator to filter documents based on specific string patterns. For example, a query like `{ \"field\": { \"$regex\": \"^abc\" } }` would match documents where the \"field\" starts with \"abc\". Additionally, options such as case insensitivity can be specified using the `$options` operator, enhancing the flexibility of string searches. Regular expressions are particularly useful for tasks like validation, searching, and data extraction within text fields.",
+      "resources": [
+        {
+          "id": "z6I9XgIGQYWUd5l9DIZRX-res-1",
+          "type": "article",
+          "title": "$regex",
+          "url": "https://www.mongodb.com/docs/manual/reference/operator/query/regex/"
+        },
+        {
+          "id": "z6I9XgIGQYWUd5l9DIZRX-res-2",
+          "type": "article",
+          "title": "Mastering Regex in MongoDB: A Beginner's Guide",
+          "url": "https://medium.com/@jaydeepdnai.imscit20/mastering-regex-in-mongodb-a-beginners-guide-886bcb404725"
+        }
+      ]
+    },
+    "QrHT-H12AV4-V-y_nzmNk": {
+      "id": "QrHT-H12AV4-V-y_nzmNk",
+      "slug": "replicasets",
+      "title": "Replica Sets",
+      "description": "Replica Sets in MongoDB provide high availability and data redundancy through a group of mongod instances that maintain identical data copies. The primary node handles write operations while secondary nodes replicate data and can serve read operations. Automatic failover ensures continuous service if the primary becomes unavailable, with secondary nodes electing a new primary to maintain database availability.",
+      "resources": [
+        {
+          "id": "QrHT-H12AV4-V-y_nzmNk-res-1",
+          "type": "course",
+          "title": "Cluster Reliability Skill Badge",
+          "url": "https://learn.mongodb.com/courses/cluster-reliability"
+        },
+        {
+          "id": "QrHT-H12AV4-V-y_nzmNk-res-2",
+          "type": "course",
+          "title": "Data Resilience: Self-Managed Skill Badge",
+          "url": "https://learn.mongodb.com/courses/data-resilience-self-managed"
+        },
+        {
+          "id": "QrHT-H12AV4-V-y_nzmNk-res-3",
+          "type": "article",
+          "title": "Replication",
+          "url": "https://www.mongodb.com/docs/manual/replication/"
+        },
+        {
+          "id": "QrHT-H12AV4-V-y_nzmNk-res-4",
+          "type": "article",
+          "title": "Replication in MongoDB",
+          "url": "https://learn.mongodb.com/learn/course/replication-in-mongodb/lesson-5-read-and-write-concerns-with-mongodb-deployments/learn?client=customer&page=2"
+        },
+        {
+          "id": "QrHT-H12AV4-V-y_nzmNk-res-5",
+          "type": "article",
+          "title": "Replica Sets and Shards in MongoDB: Architecture and Benefits",
+          "url": "https://dev-aditya.medium.com/replica-sets-and-shards-in-mongodb-architecture-and-benefits-a3c83f39e4f0"
+        }
+      ]
+    },
+    "s8El0Q22GD_rOZGlDtkgH": {
+      "id": "s8El0Q22GD_rOZGlDtkgH",
+      "slug": "retryable-reads--writes",
+      "title": "Retryable Reads / Writes",
+      "description": "Retryable reads and writes in MongoDB are client-side features that automatically retry certain database operations when they encounter transient network errors or temporary server unavailability, improving application resilience and user experience. The MongoDB drivers can automatically retry read operations and specific write operations (like inserts, updates, deletes, and findAndModify) exactly once when they fail due to network issues, replica set elections, or other recoverable errors, without requiring changes to application code. This feature is particularly valuable in distributed environments, cloud deployments, and replica set configurations where temporary connectivity issues or failover events are common, as it reduces the likelihood of application errors and provides a better user experience by handling transient failures transparently.",
+      "resources": [
+        {
+          "id": "s8El0Q22GD_rOZGlDtkgH-res-1",
+          "type": "article",
+          "title": "Retryable Reads",
+          "url": "https://www.mongodb.com/docs/manual/core/retryable-writes/"
+        },
+        {
+          "id": "s8El0Q22GD_rOZGlDtkgH-res-2",
+          "type": "article",
+          "title": "Retryable Writes",
+          "url": "https://www.mongodb.com/docs/manual/core/retryable-reads/"
+        }
+      ]
+    },
+    "yRJ6jeysFXBpwLEqvrdKk": {
+      "id": "yRJ6jeysFXBpwLEqvrdKk",
+      "slug": "role-based-access-control",
+      "title": "Role-based Access Control",
+      "description": "Role-Based Access Control (RBAC) in MongoDB is a security framework that manages user permissions by assigning roles that define specific privileges and access levels to database resources. It allows administrators to create custom roles with granular permissions for actions like read, write, or administrative operations on specific databases, collections, or even individual fields, ensuring users only have access to the resources they need for their job functions. This approach simplifies security management by grouping permissions into logical roles rather than managing individual user permissions, making it easier to maintain consistent security policies and comply with the principle of least privilege in enterprise environments.",
+      "resources": [
+        {
+          "id": "yRJ6jeysFXBpwLEqvrdKk-res-1",
+          "type": "article",
+          "title": "Role-Based Access Control",
+          "url": "http://www.mongodb.com/docs/manual/core/authorization/"
+        },
+        {
+          "id": "yRJ6jeysFXBpwLEqvrdKk-res-2",
+          "type": "article",
+          "title": "Understanding MongoDB Role-based Access Control",
+          "url": "https://medium.com/mongodb/understanding-mongodb-role-based-access-control-rbac-in-action-a-step-by-step-guide-8c679241f8b6"
+        }
+      ]
+    },
+    "cOKQQ7SaiawWF49MdCGTh": {
+      "id": "cOKQQ7SaiawWF49MdCGTh",
+      "slug": "scaling-mongodb",
+      "title": "Scaling MongoDB",
+      "description": "Scaling MongoDB involves vertical scaling (upgrading hardware) and horizontal scaling through sharding and replica sets. Horizontal scaling distributes data across multiple servers using shard keys, while replica sets provide high availability and read scaling. Effective scaling strategies include proper shard key selection, monitoring performance metrics, and balancing data distribution for optimal throughput and reliability.",
+      "resources": [
+        {
+          "id": "cOKQQ7SaiawWF49MdCGTh-res-1",
+          "type": "course",
+          "title": "Data Resilience: Atlas Skill Badge",
+          "url": "https://learn.mongodb.com/courses/data-resilience-atlas"
+        },
+        {
+          "id": "cOKQQ7SaiawWF49MdCGTh-res-2",
+          "type": "article",
+          "title": "Scaling",
+          "url": "https://www.mongodb.com/resources/basics/scaling"
+        },
+        {
+          "id": "cOKQQ7SaiawWF49MdCGTh-res-3",
+          "type": "article",
+          "title": "Scalability With MongoDB Atlas",
+          "url": "https://www.mongodb.com/resources/products/capabilities/scalability-with-mongodb-atlas"
+        },
+        {
+          "id": "cOKQQ7SaiawWF49MdCGTh-res-4",
+          "type": "article",
+          "title": "Scaling MongoDB for Larger Datasets",
+          "url": "https://medium.com/mongodb-tutorial/scaling-mongodb-for-larger-datasets-strategies-and-technical-considerations-b9d35243ff49"
+        }
+      ]
+    },
+    "CijW3HCjVRZHQIBsQ9_0H": {
+      "id": "CijW3HCjVRZHQIBsQ9_0H",
+      "slug": "sharded-clusters",
+      "title": "Sharded Clusters",
+      "description": "Sharded Clusters enable horizontal scaling by distributing data across multiple servers based on a shard key. MongoDB automatically partitions collections and balances data distribution across shards, allowing databases to handle massive datasets and high throughput workloads. Sharding includes config servers for metadata management and mongos routers for query distribution across the cluster.",
+      "resources": [
+        {
+          "id": "CijW3HCjVRZHQIBsQ9_0H-res-1",
+          "type": "course",
+          "title": "Sharding Strategies Skill Badge",
+          "url": "https://learn.mongodb.com/courses/sharding-strategies"
+        },
+        {
+          "id": "CijW3HCjVRZHQIBsQ9_0H-res-2",
+          "type": "article",
+          "title": "Deploy a Self-Managed Sharded Cluster",
+          "url": "https://www.mongodb.com/docs/manual/tutorial/deploy-shard-cluster/"
+        },
+        {
+          "id": "CijW3HCjVRZHQIBsQ9_0H-res-3",
+          "type": "article",
+          "title": "Sharding",
+          "url": "https://www.mongodb.com/docs/manual/sharding/"
+        },
+        {
+          "id": "CijW3HCjVRZHQIBsQ9_0H-res-4",
+          "type": "article",
+          "title": "MongoDB Sharding: A Step by Step Guide to Setup A MongoDB Shard Cluster",
+          "url": "https://medium.com/@sanklecha.harsh/mongodb-sharding-a-step-by-step-guide-to-setup-a-mongodb-shard-cluster-98668f53a078"
+        }
+      ]
+    },
+    "SjPzR6JjdBeiqFsrRJPfW": {
+      "id": "SjPzR6JjdBeiqFsrRJPfW",
+      "slug": "single-field",
+      "title": "Single Field Indexes",
+      "description": "Single field indexes in MongoDB are created on individual document fields to optimize queries filtering, sorting, or ranging on that specific field. They can be ascending (1) or descending (-1) and automatically optimize equality, range, and sort operations. Single field indexes are the simplest index type and form the foundation for more complex indexing strategies.",
+      "resources": [
+        {
+          "id": "SjPzR6JjdBeiqFsrRJPfW-res-1",
+          "type": "article",
+          "title": "Single Field Indexes",
+          "url": "https://www.mongodb.com/docs/manual/core/indexes/index-types/index-single/"
+        },
+        {
+          "id": "SjPzR6JjdBeiqFsrRJPfW-res-2",
+          "type": "article",
+          "title": "How to Create Single-Field Indexes in MongoDB for Faster Queries",
+          "url": "https://javascript.plainenglish.io/how-to-create-single-field-indexes-in-mongodb-for-faster-queries-a9b816924b5a"
+        }
+      ]
+    },
+    "-VMIkV6S6H1blngxLXk7Y": {
+      "id": "-VMIkV6S6H1blngxLXk7Y",
+      "slug": "size",
+      "title": "$size",
+      "description": "The `$size` operator in MongoDB matches documents where an array field has exactly the specified number of elements. It only works with arrays and requires an exact count match, not range queries. `$size` is useful for validating array lengths, filtering documents by array dimensions, and ensuring data consistency in array-based document structures.",
+      "resources": [
+        {
+          "id": "-VMIkV6S6H1blngxLXk7Y-res-1",
+          "type": "article",
+          "title": "$size",
+          "url": "https://www.mongodb.com/docs/manual/reference/operator/query/size/"
+        },
+        {
+          "id": "-VMIkV6S6H1blngxLXk7Y-res-2",
+          "type": "article",
+          "title": "5 Ways to Check the Size of a Collection in MongoDB",
+          "url": "https://database.guide/5-ways-to-check-the-size-of-a-collection-in-mongodb/"
+        }
+      ]
+    },
+    "4CjjGPOy-385Bco_PeQwa": {
+      "id": "4CjjGPOy-385Bco_PeQwa",
+      "slug": "skip",
+      "title": "$skip",
+      "description": "The `$skip` aggregation stage skips a specified number of documents before passing the remaining documents to the next pipeline stage. It's commonly used with $limit for pagination implementation, allowing applications to skip previous pages and retrieve specific result sets. `$skip` should be used carefully with large skip values as it can impact performance.",
+      "resources": [
+        {
+          "id": "4CjjGPOy-385Bco_PeQwa-res-1",
+          "type": "article",
+          "title": "$skip",
+          "url": "https://www.mongodb.com/docs/manual/reference/operator/aggregation/skip/"
+        },
+        {
+          "id": "4CjjGPOy-385Bco_PeQwa-res-2",
+          "type": "article",
+          "title": "MongoDB Skip Documents - Syntax & Examples",
+          "url": "https://www.tutorialkart.com/mongodb/mongodb-skip-documents/"
+        }
+      ]
+    },
+    "9mmxYBtvPYZlvFjQvE-2N": {
+      "id": "9mmxYBtvPYZlvFjQvE-2N",
+      "slug": "slice",
+      "title": "$slice",
+      "description": "The `$slice` projection operator in MongoDB returns a subset of array elements from documents. It supports positive values for elements from the beginning, negative values from the end, and skip/limit combinations for pagination within arrays. `$slice` is essential for managing large arrays in documents, implementing array pagination, and reducing network traffic by returning only required array portions.",
+      "resources": [
+        {
+          "id": "9mmxYBtvPYZlvFjQvE-2N-res-1",
+          "type": "article",
+          "title": "$slice",
+          "url": "https://www.mongodb.com/docs/manual/reference/operator/aggregation/slice/"
+        },
+        {
+          "id": "9mmxYBtvPYZlvFjQvE-2N-res-2",
+          "type": "article",
+          "title": "MongoDB slice - Syntax & Examples",
+          "url": "https://database.guide/mongodb-slice/"
+        }
+      ]
+    },
+    "BCWS8uV2pSWe7CX-VlnTg": {
+      "id": "BCWS8uV2pSWe7CX-VlnTg",
+      "slug": "sort",
+      "title": "$sort",
+      "description": "The `$sort` aggregation stage orders documents by specified field values in ascending (1) or descending (-1) order. It can sort by multiple fields with different directions and supports sorting by computed values from previous pipeline stages. Placing `$sort` early in the pipeline can leverage indexes for better performance, while late sorting applies to aggregated results.",
+      "resources": [
+        {
+          "id": "BCWS8uV2pSWe7CX-VlnTg-res-1",
+          "type": "article",
+          "title": "$sort",
+          "url": "https://www.mongodb.com/docs/manual/reference/operator/aggregation/sort/"
+        },
+        {
+          "id": "BCWS8uV2pSWe7CX-VlnTg-res-2",
+          "type": "article",
+          "title": "Sort Records: How to Sort by Date, Name, and More",
+          "url": "https://www.prisma.io/dataguide/mongodb/mongodb-sorting"
+        }
+      ]
+    },
+    "K09-nD6xF5YJUQBBpFXMz": {
+      "id": "K09-nD6xF5YJUQBBpFXMz",
+      "slug": "spark",
+      "title": "Spark",
+      "description": "Spark refers to the integration of Apache Spark, a powerful data processing engine, with MongoDB, a NoSQL database. This integration allows users to perform real-time analytics and data processing on MongoDB data using Spark's capabilities, enabling efficient data manipulation and analysis without the need for extensive ETL processes.",
+      "resources": [
+        {
+          "id": "K09-nD6xF5YJUQBBpFXMz-res-1",
+          "type": "article",
+          "title": "Apache Spark™ - Unified Engine for large-scale data analytics",
+          "url": "https://spark.apache.org/?ref=producthunt"
+        },
+        {
+          "id": "K09-nD6xF5YJUQBBpFXMz-res-2",
+          "type": "article",
+          "title": "MongoDB Connector for Spark",
+          "url": "https://www.mongodb.com/docs/spark-connector/current/"
+        },
+        {
+          "id": "K09-nD6xF5YJUQBBpFXMz-res-3",
+          "type": "article",
+          "title": "MongoDB Configuration with Spark",
+          "url": "https://medium.com/@ahmiihassan354/mongodb-configuration-with-spark-38e3d464d6ffhttps://www.prisma.io/dataguide/mongodb/mongodb-sorting"
+        }
+      ]
+    },
+    "cMfsRtvzvDZZJ0TqeUOxm": {
+      "id": "cMfsRtvzvDZZJ0TqeUOxm",
+      "slug": "sql-vs-nosql",
+      "title": "NoSQL vs SQL",
+      "description": "NoSQL and SQL are two distinct paradigms for managing and storing data in databases. SQL (Structured Query Language) databases are relational and use a structured schema to define data types and relationships, making them ideal for complex queries and transactions. They ensure data integrity and support ACID (Atomicity, Consistency, Isolation, Durability) properties, which are crucial for applications requiring reliable transactions. In contrast, NoSQL databases are non-relational and offer a flexible schema, allowing for the storage of unstructured or semi-structured data.",
+      "resources": [
+        {
+          "id": "cMfsRtvzvDZZJ0TqeUOxm-res-1",
+          "type": "article",
+          "title": "SQL vs NoSQL: What's the Difference?",
+          "url": "https://www.mongodb.com/resources/basics/databases/nosql-explained/nosql-vs-sql"
+        },
+        {
+          "id": "cMfsRtvzvDZZJ0TqeUOxm-res-2",
+          "type": "article",
+          "title": "What is NoSQL? - MongoDB",
+          "url": "https://www.mongodb.com/resources/basics/databases/nosql-explained"
+        },
+        {
+          "id": "cMfsRtvzvDZZJ0TqeUOxm-res-3",
+          "type": "article",
+          "title": "MongoDB vs. PostgreSQL: Key differences and when to use each",
+          "url": "https://roadmap.sh/mongodb/vs-postgresql"
+        },
+        {
+          "id": "cMfsRtvzvDZZJ0TqeUOxm-res-4",
+          "type": "article",
+          "title": "Types of NoSQL Databases: How to Choose the Right One",
+          "url": "https://roadmap.sh/backend/types-of-nosql-databases"
+        }
+      ]
+    },
+    "eU4XCnrf27FO3KCda8QYw": {
+      "id": "eU4XCnrf27FO3KCda8QYw",
+      "slug": "string",
+      "title": "String",
+      "description": "String data type in MongoDB stores UTF-8 encoded text data with no length restrictions within document size limits. Strings support text indexing for search capabilities, regex pattern matching, and various string manipulation operations in aggregation pipelines. MongoDB strings are case-sensitive by default but support collation options for case-insensitive comparisons and locale-specific sorting requirements.",
+      "resources": [
+        {
+          "id": "eU4XCnrf27FO3KCda8QYw-res-1",
+          "type": "article",
+          "title": "String Data Type",
+          "url": "https://www.sqliz.com/mongodb-ref/string/5"
+        },
+        {
+          "id": "eU4XCnrf27FO3KCda8QYw-res-2",
+          "type": "article",
+          "title": "How to Handle Special Characters in MongoDB Connection String",
+          "url": "https://medium.com/@monisykhan/how-to-handle-special-characters-in-mongodb-connection-strings-655967139452"
+        }
+      ]
+    },
+    "CfM0iyd2bNRIiDWTUkspd": {
+      "id": "CfM0iyd2bNRIiDWTUkspd",
+      "slug": "sum",
+      "title": "$sum",
+      "description": "The `$sum` aggregation operator calculates the total sum of numeric values across grouped documents or array elements. It's commonly used with $group to aggregate numeric data, create totals, and perform mathematical operations in aggregation pipelines. `$sum` ignores non-numeric values and can sum field values, literal numbers, or results from expressions, making it essential for financial and statistical calculations.",
+      "resources": [
+        {
+          "id": "CfM0iyd2bNRIiDWTUkspd-res-1",
+          "type": "article",
+          "title": "$sum",
+          "url": "https://www.mongodb.com/docs/manual/reference/operator/aggregation/sum/"
+        },
+        {
+          "id": "CfM0iyd2bNRIiDWTUkspd-res-2",
+          "type": "article",
+          "title": "Aggregation Operators",
+          "url": "https://www.mongodb.com/docs/manual/reference/operator/aggregation/"
+        }
+      ]
+    },
+    "XAS4jQlsHkttLDuSSsD2o": {
+      "id": "XAS4jQlsHkttLDuSSsD2o",
+      "slug": "symbol",
+      "title": "Symbol",
+      "description": "The symbol is often used in the context of BSON (Binary JSON) data types, which allows for the representation of various data structures. While MongoDB does not have a specific \"symbol\" data type like some programming languages, it utilizes BSON to store data efficiently, enabling developers to work with complex data types and structures seamlessly.",
+      "resources": [
+        {
+          "id": "XAS4jQlsHkttLDuSSsD2o-res-1",
+          "type": "article",
+          "title": "Field Names with Periods and Dollar Signs",
+          "url": "https://www.mongodb.com/docs/manual/core/dot-dollar-considerations/"
+        },
+        {
+          "id": "XAS4jQlsHkttLDuSSsD2o-res-2",
+          "type": "article",
+          "title": "Symbols - MongoDB Meta Documents",
+          "url": "https://www.mongodb.com/docs/meta/style-guide/style/symbols/"
+        }
+      ]
+    },
+    "PV_3TEYdtVZ2VCDZEOsu_": {
+      "id": "PV_3TEYdtVZ2VCDZEOsu_",
+      "slug": "text",
+      "title": "$text",
+      "description": "The `$text` operator in MongoDB performs full-text search on fields with text indexes. It supports phrase matching, stemming, stop words, and relevance scoring. `$text` searches across all text-indexed fields simultaneously and provides score-based ranking of results. This operator requires a text index on the collection and enables efficient search functionality for text-heavy applications.",
+      "resources": [
+        {
+          "id": "PV_3TEYdtVZ2VCDZEOsu_-res-1",
+          "type": "article",
+          "title": "$text",
+          "url": "https://www.mongodb.com/docs/manual/reference/operator/query/text/"
+        },
+        {
+          "id": "PV_3TEYdtVZ2VCDZEOsu_-res-2",
+          "type": "article",
+          "title": "Full-Text Search in MongoDB",
+          "url": "https://devforid.medium.com/full-text-search-in-mongodb-655169b59fce"
+        }
+      ]
+    },
+    "zbFH2NRHZEOv5eKLL_HR0": {
+      "id": "zbFH2NRHZEOv5eKLL_HR0",
+      "slug": "timestamp",
+      "title": "Timestamp",
+      "description": "The Timestamp type in MongoDB is a special BSON data type used internally for operations like replication and sharding. It consists of a 32-bit second counter and an incrementing ordinal counter (also 32 bits), representing UTC time accurate to the second. Unlike the Date type, Timestamp values in MongoDB are unique and monotonically increasing, making them ideal for tracking changes and ordering events.",
+      "resources": [
+        {
+          "id": "zbFH2NRHZEOv5eKLL_HR0-res-1",
+          "type": "article",
+          "title": "Timestamp",
+          "url": "https://www.mongodb.com/docs/manual/reference/bson-types/#timestamps"
+        },
+        {
+          "id": "zbFH2NRHZEOv5eKLL_HR0-res-2",
+          "type": "article",
+          "title": "Working with Dates",
+          "url": "https://www.prisma.io/dataguide/mongodb/working-with-dates"
+        }
+      ]
+    },
+    "5F7zAAnvnVTTnBzOB7TSu": {
+      "id": "5F7zAAnvnVTTnBzOB7TSu",
+      "slug": "tls--ssl-encryption",
+      "title": "TLS / SSL Encryption",
+      "description": "TLS/SSL encryption in MongoDB provides secure communication channels between clients and the database server, as well as between replica set members and sharded cluster components, ensuring that data transmitted over networks is protected from eavesdropping and tampering. This transport layer security encrypts all network traffic using industry-standard cryptographic protocols, supports certificate-based authentication for enhanced security, and can be configured for mutual authentication where both client and server verify each other's identities. Implementing TLS/SSL is essential for production deployments, especially in cloud environments or when MongoDB instances communicate across untrusted networks, as it prevents man-in-the-middle attacks and ensures data confidentiality during transmission.",
+      "resources": [
+        {
+          "id": "5F7zAAnvnVTTnBzOB7TSu-res-1",
+          "type": "course",
+          "title": "Networking Security: Self-Managed Skill Badge",
+          "url": "https://learn.mongodb.com/courses/networking-security-self-managed"
+        },
+        {
+          "id": "5F7zAAnvnVTTnBzOB7TSu-res-2",
+          "type": "course",
+          "title": "Networking Security: Atlas Skill Badge",
+          "url": "https://learn.mongodb.com/courses/networking-security-atlas"
+        },
+        {
+          "id": "5F7zAAnvnVTTnBzOB7TSu-res-3",
+          "type": "article",
+          "title": "TLS / SSL Encryption",
+          "url": "https://www.mongodb.com/docs/manual/core/security-transport-encryption/"
+        },
+        {
+          "id": "5F7zAAnvnVTTnBzOB7TSu-res-4",
+          "type": "article",
+          "title": "Configure mongod and mongos for TLS/SSL",
+          "url": "https://www.mongodb.com/docs/manual/tutorial/configure-ssl/"
+        },
+        {
+          "id": "5F7zAAnvnVTTnBzOB7TSu-res-5",
+          "type": "article",
+          "title": "How to Enable TLS/SSL on MongoDB",
+          "url": "https://medium.com/mongoaudit/how-to-enable-tls-ssl-on-mongodb-d973a92cefa6"
+        }
+      ]
+    },
+    "aHcmsaqAfG5fC90VV-EHP": {
+      "id": "aHcmsaqAfG5fC90VV-EHP",
+      "slug": "transactions",
+      "title": "Transactions",
+      "description": "Transactions in MongoDB provide ACID guarantees for multi-document operations, ensuring data consistency across multiple operations. They support read and write operations spanning multiple documents, collections, and databases within a single atomic unit. Transactions use snapshot isolation and optimistic concurrency control, making them essential for applications requiring strict data integrity and consistency.",
+      "resources": [
+        {
+          "id": "aHcmsaqAfG5fC90VV-EHP-res-1",
+          "type": "article",
+          "title": "Transactions",
+          "url": "https://www.mongodb.com/docs/manual/core/transactions/"
+        },
+        {
+          "id": "aHcmsaqAfG5fC90VV-EHP-res-2",
+          "type": "article",
+          "title": "Transactions in MongoDB Basics and Example",
+          "url": "https://medium.com/@vikramgyawali57/transactions-in-mongodb-basics-and-example-4c2d8aab55eb"
+        }
+      ]
+    },
+    "iVDxuERBjKMBHueEfqP0x": {
+      "id": "iVDxuERBjKMBHueEfqP0x",
+      "slug": "tuning-configuration",
+      "title": "Tuning Configuration",
+      "description": "MongoDB tuning configuration involves optimizing various server parameters and settings to maximize performance, efficiency, and resource utilization based on your specific workload patterns and hardware environment. Key configuration areas include memory management (WiredTiger cache size, storage engine settings), connection pooling (maximum connections, timeout values), journaling options, read/write concerns, chunk size for sharded clusters, and operating system-level optimizations like file descriptor limits and memory allocation. Proper tuning requires analyzing metrics like query performance, memory usage, disk I/O patterns, and network throughput to adjust parameters such as index builds, background operations, and replication lag, ensuring your MongoDB deployment can handle peak loads while maintaining optimal response times and resource efficiency.",
+      "resources": [
+        {
+          "id": "iVDxuERBjKMBHueEfqP0x-res-1",
+          "type": "article",
+          "title": "Comprehensive Guide to Optimising MongoDB Performance",
+          "url": "https://www.mongodb.com/developer/products/mongodb/guide-to-optimizing-mongodb-performance/"
+        },
+        {
+          "id": "iVDxuERBjKMBHueEfqP0x-res-2",
+          "type": "article",
+          "title": "Optimizing Performance in MongoDB",
+          "url": "https://medium.com/@halimebardakci/optimizing-performance-in-mongodb-tips-and-tricks-b1d635220eec"
+        },
+        {
+          "id": "iVDxuERBjKMBHueEfqP0x-res-3",
+          "type": "article",
+          "title": "How To Optimize MongoDB Performance & Security",
+          "url": "https://medium.com/@noel.benji/how-to-optimize-mongodb-performance-security-6fd3ba1304c1"
+        }
+      ]
+    },
+    "BxzMbF7cdvGPuy1EcRvWd": {
+      "id": "BxzMbF7cdvGPuy1EcRvWd",
+      "slug": "type",
+      "title": "$type",
+      "description": "The `$type` operator in MongoDB selects documents based on the BSON data type of a specified field. It accepts either BSON type numbers or string aliases like \"string\", \"int\", \"array\", \"object\". `$type` is useful for data validation, schema analysis, and filtering documents by field data types, especially when working with collections containing varied or dynamic schemas.",
+      "resources": [
+        {
+          "id": "BxzMbF7cdvGPuy1EcRvWd-res-1",
+          "type": "article",
+          "title": "$\\\\type",
+          "url": "https://www.mongodb.com/docs/manual/reference/operator/query/type/"
+        },
+        {
+          "id": "BxzMbF7cdvGPuy1EcRvWd-res-2",
+          "type": "article",
+          "title": "Aggregation Operators",
+          "url": "https://www.mongodb.com/docs/manual/reference/operator/aggregation/"
+        },
+        {
+          "id": "BxzMbF7cdvGPuy1EcRvWd-res-3",
+          "type": "article",
+          "title": "BSON Types",
+          "url": "https://www.mongodb.com/docs/manual/reference/bson-types/"
+        }
+      ]
+    },
+    "kx_GOr51UMpdUAnS5u9qZ": {
+      "id": "kx_GOr51UMpdUAnS5u9qZ",
+      "slug": "undefined",
+      "title": "Undefined",
+      "description": "The Undefined type is a BSON data type that represents a value that is not defined. It is primarily used to indicate that a field does not have a value or that a variable has not been assigned a value. However, the Undefined type is rarely used in practice, as it has been deprecated in favor of using `null` to represent the absence of a value. The use of `null` is more common and recommended for indicating missing or non-existent data in documents.",
+      "resources": [
+        {
+          "id": "kx_GOr51UMpdUAnS5u9qZ-res-1",
+          "type": "article",
+          "title": "BSON Types",
+          "url": "https://www.mongodb.com/docs/manual/reference/bson-types/#std-label-bson-types"
+        },
+        {
+          "id": "kx_GOr51UMpdUAnS5u9qZ-res-2",
+          "type": "article",
+          "title": "Query for Null or Missing Fields",
+          "url": "https://www.mongodb.com/docs/manual/tutorial/query-for-null-fields/"
+        },
+        {
+          "id": "kx_GOr51UMpdUAnS5u9qZ-res-3",
+          "type": "article",
+          "title": "Migrate Undefined Data and Queries",
+          "url": "https://www.mongodb.com/docs/manual/reference/bson-types/migrate-undefined/"
+        },
+        {
+          "id": "kx_GOr51UMpdUAnS5u9qZ-res-4",
+          "type": "article",
+          "title": "Master Null Handling in MongoDB",
+          "url": "https://www.mydbops.com/blog/null-handling-in-mongodb"
+        }
+      ]
+    },
+    "AY-8KJGA9ZA6ay3rbURt3": {
+      "id": "AY-8KJGA9ZA6ay3rbURt3",
+      "slug": "unwind",
+      "title": "$unwind",
+      "description": "The `$unwind` aggregation stage deconstructs array fields, creating separate documents for each array element. It's essential for processing documents with embedded arrays by flattening them into individual records. `$unwind` supports options for preserving null/empty arrays and including array indices, enabling detailed analysis of array-based data structures and normalization workflows.",
+      "resources": [
+        {
+          "id": "AY-8KJGA9ZA6ay3rbURt3-res-1",
+          "type": "article",
+          "title": "$unwind",
+          "url": "https://www.mongodb.com/docs/manual/reference/operator/aggregation/unwind/"
+        },
+        {
+          "id": "AY-8KJGA9ZA6ay3rbURt3-res-2",
+          "type": "article",
+          "title": "Advanced Techniques with MongoDB: Mastering Lookup",
+          "url": "https://medium.com/@akshatgupta1903/advanced-techniques-with-mongodb-mastering-lookup-and-unwind-acfc8a8ad5b9"
+        }
+      ]
+    },
+    "liGbnGyQaG-Vqt6cuB91N": {
+      "id": "liGbnGyQaG-Vqt6cuB91N",
+      "slug": "update-and-relevant",
+      "title": "update() and Related Methods",
+      "description": "Update operations modify existing documents using `updateOne()`, `updateMany()`, and `replaceOne()` methods with update operators like `$set`, `$unset`, `$inc`, and `$push`. These methods support upsert operations, array modifications, field updates, and atomic operations. Advanced features include `findOneAndUpdate()` for atomic read-modify-write operations and update pipelines for complex transformations using aggregation operators.",
+      "resources": [
+        {
+          "id": "liGbnGyQaG-Vqt6cuB91N-res-1",
+          "type": "article",
+          "title": "Update Operations",
+          "url": "https://www.mongodb.com/docs/manual/reference/operator/update/"
+        },
+        {
+          "id": "liGbnGyQaG-Vqt6cuB91N-res-2",
+          "type": "article",
+          "title": "Collection Update Methods",
+          "url": "https://www.mongodb.com/docs/manual/reference/method/db.collection.update/"
+        },
+        {
+          "id": "liGbnGyQaG-Vqt6cuB91N-res-3",
+          "type": "article",
+          "title": "How to Update Data in Mongodb in 2025?",
+          "url": "https://dev.to/cristianalex_17/how-to-update-data-in-mongodb-in-2025-3b0a"
+        }
+      ]
+    },
+    "4h8NdcdXmNqJxLkVJqPtX": {
+      "id": "4h8NdcdXmNqJxLkVJqPtX",
+      "slug": "validate",
+      "title": "validate()",
+      "description": "The `validate()` method in MongoDB is a database administration command that checks the integrity and consistency of a collection's data structures, indexes, and storage format, providing detailed information about potential corruption, missing records, or structural issues. This method performs comprehensive validation by examining the collection's namespace, scanning all documents and indexes for consistency, checking BSON document structure validity, and verifying that index entries correctly correspond to their associated documents. The `validate()` operation is crucial for database maintenance and troubleshooting, especially after hardware failures, unexpected shutdowns, or when experiencing unusual query behavior, as it helps identify data corruption early and provides detailed reports that can guide repair operations or data recovery procedures.",
+      "resources": [
+        {
+          "id": "4h8NdcdXmNqJxLkVJqPtX-res-1",
+          "type": "article",
+          "title": "Validate",
+          "url": "https://www.mongodb.com/docs/manual/reference/command/validate/"
+        },
+        {
+          "id": "4h8NdcdXmNqJxLkVJqPtX-res-2",
+          "type": "article",
+          "title": "Real-World Example: MongoDB Data Validation and Sanitization",
+          "url": "https://codezup.com/mongodb-data-validation-sanitization-example/"
+        }
+      ]
+    },
+    "1UXfFROvcunyhkx0zB_1S": {
+      "id": "1UXfFROvcunyhkx0zB_1S",
+      "slug": "what-is-mongodb-atlas",
+      "title": "What is MongoDB Atlas?",
+      "description": "MongoDB Atlas is a fully-managed cloud database service offered by MongoDB that simplifies database management for developers by automating tasks such as provisioning, scaling, and backups. It supports multi-cloud deployments across major providers like AWS, Google Cloud, and Azure, allowing for flexibility and resilience. With integrated data services, real-time insights, and cost efficiency, MongoDB Atlas enables developers to build intelligent applications and manage data seamlessly, empowering them to focus on application development rather than database maintenance.",
+      "resources": [
+        {
+          "id": "1UXfFROvcunyhkx0zB_1S-res-1",
+          "type": "course",
+          "title": "Atlas Essentials Course | MongoDB University",
+          "url": "https://learn.mongodb.com/learning-paths/atlas-essentials"
+        },
+        {
+          "id": "1UXfFROvcunyhkx0zB_1S-res-2",
+          "type": "article",
+          "title": "MongoDB Atlas | The Modern, Multi-Cloud Database",
+          "url": "https://www.mongodb.com/atlas"
+        },
+        {
+          "id": "1UXfFROvcunyhkx0zB_1S-res-3",
+          "type": "article",
+          "title": "What is Atlas?",
+          "url": "https://www.mongodb.com/docs/atlas/"
+        }
+      ]
+    },
+    "tJljSlb5S_tZLZhZHHd_I": {
+      "id": "tJljSlb5S_tZLZhZHHd_I",
+      "slug": "what-is-mongodb",
+      "title": "What is MongoDB?",
+      "description": "MongoDB is a NoSQL, document-oriented database designed for scalability, flexibility, and high performance. It stores data in JSON-like BSON (Binary JSON) format, allowing for the representation of complex data structures and enabling developers to work with unstructured or semi-structured data easily. MongoDB provides a rich query language, supports horizontal scaling through sharding, and offers features like indexing, aggregation, and real-time analytics.",
+      "resources": [
+        {
+          "id": "tJljSlb5S_tZLZhZHHd_I-res-1",
+          "type": "course",
+          "title": "MongoDB Overview Skill Badge",
+          "url": "https://learn.mongodb.com/courses/mongodb-overview"
+        },
+        {
+          "id": "tJljSlb5S_tZLZhZHHd_I-res-2",
+          "type": "article",
+          "title": "MongoDB - The Modern No SQL Database",
+          "url": "https://www.mongodb.com/"
+        },
+        {
+          "id": "tJljSlb5S_tZLZhZHHd_I-res-3",
+          "type": "article",
+          "title": "MongoDB Documentation",
+          "url": "https://www.mongodb.com/docs"
+        },
+        {
+          "id": "tJljSlb5S_tZLZhZHHd_I-res-4",
+          "type": "article",
+          "title": "What is Atlas?",
+          "url": "https://www.mongodb.com/docs/atlas/"
+        }
+      ]
+    },
+    "qh8MEbXKPVt8mqlarhUj0": {
+      "id": "qh8MEbXKPVt8mqlarhUj0",
+      "slug": "when-to-use-mongodb",
+      "title": "When to use MongoDB?",
+      "description": "MongoDB is ideal for applications that require flexible schema design, rapid development cycles, and need to handle large volumes of unstructured or semi-structured data. It's particularly well-suited for content management systems, real-time analytics, IoT applications, mobile app backends, and scenarios where you need to scale horizontally across multiple servers, making it an excellent choice when your data model is likely to evolve frequently or when you're dealing with complex nested data structures that don't fit well into traditional relational database tables.",
+      "resources": [
+        {
+          "id": "qh8MEbXKPVt8mqlarhUj0-res-1",
+          "type": "article",
+          "title": "MongoDB - The Modern No SQL Database",
+          "url": "https://www.mongodb.com/"
+        },
+        {
+          "id": "qh8MEbXKPVt8mqlarhUj0-res-2",
+          "type": "article",
+          "title": "MongoDB Documentation",
+          "url": "https://www.mongodb.com/docs"
+        },
+        {
+          "id": "qh8MEbXKPVt8mqlarhUj0-res-3",
+          "type": "article",
+          "title": "Why Use MongoDB and When to Use It?",
+          "url": "https://www.mongodb.com/resources/products/fundamentals/why-use-mongodb"
+        }
+      ]
+    },
+    "NV39oWwr7iB_dnlnD_Q6Y": {
+      "id": "NV39oWwr7iB_dnlnD_Q6Y",
+      "slug": "x509-certificate-auth",
+      "title": "x.509 Certificate Authentication",
+      "description": "x.509 certificate authentication in MongoDB provides secure, certificate-based client and cluster authentication without passwords. It uses public key infrastructure (PKI) for strong identity verification and supports both client authentication and internal cluster member authentication. This method offers enhanced security through certificate validation, expiration management, and integration with existing PKI infrastructures.",
+      "resources": [
+        {
+          "id": "NV39oWwr7iB_dnlnD_Q6Y-res-1",
+          "type": "article",
+          "title": "Use X.509 Certificates to Authenticate Clients",
+          "url": "https://www.mongodb.com/docs/manual/tutorial/configure-x509-client-authentication/"
+        },
+        {
+          "id": "NV39oWwr7iB_dnlnD_Q6Y-res-2",
+          "type": "article",
+          "title": "Secure MongoDB with X.509 TLS/SSL certificates",
+          "url": "https://medium.com/@studio3t/secure-mongodb-with-x-509-tls-ssl-certificates-42ff4290d9f3"
+        }
+      ]
+    }
+  }
+}

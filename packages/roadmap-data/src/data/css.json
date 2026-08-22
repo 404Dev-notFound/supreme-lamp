@@ -1,0 +1,3961 @@
+{
+  "slug": "css",
+  "title": "Css",
+  "description": "Comprehensive learning curriculum and mastery roadmap for css.",
+  "category": "skill",
+  "level": "Intermediate",
+  "topicCount": 104,
+  "iconName": "Compass",
+  "nodes": [
+    {
+      "id": "node-l7bBJLtKWkrzSfSPkZlBI",
+      "label": "Absolute vs. Relative Units",
+      "topicId": "l7bBJLtKWkrzSfSPkZlBI",
+      "level": 1,
+      "position": {
+        "x": 80,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-7LhPT3h-BEdHSF2iOevVl",
+      "label": "Absolute Positioning",
+      "topicId": "7LhPT3h-BEdHSF2iOevVl",
+      "level": 1,
+      "position": {
+        "x": 340,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-LDIZoK-XgmwqPdLH01vC5",
+      "label": "Accessibility",
+      "topicId": "LDIZoK-XgmwqPdLH01vC5",
+      "level": 1,
+      "position": {
+        "x": 600,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-m6KQMN1XWo4uWqs2F3KXH",
+      "label": "Attribute Selectors",
+      "topicId": "m6KQMN1XWo4uWqs2F3KXH",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-6i0Zl05VMzUsh47cuUH4-",
+      "label": "Background Attachment",
+      "topicId": "6i0Zl05VMzUsh47cuUH4-",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-ATd9RE303X79aAmqvwS08",
+      "label": "Background Color",
+      "topicId": "ATd9RE303X79aAmqvwS08",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-_9QA5_mLJ8_eiQN0ucIkQ",
+      "label": "Background Gradient",
+      "topicId": "_9QA5_mLJ8_eiQN0ucIkQ",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-d-rp-EHKyHnzuIHWHOc7C",
+      "label": "Background Image",
+      "topicId": "d-rp-EHKyHnzuIHWHOc7C",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-BBpeQcb7Y21C7-r3PFIMW",
+      "label": "Background Position",
+      "topicId": "BBpeQcb7Y21C7-r3PFIMW",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-RqyaHX4Krk9e-6Eq9FHnS",
+      "label": "Background",
+      "topicId": "RqyaHX4Krk9e-6Eq9FHnS",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-r28JBMZLEqZMDm-tVDYZk",
+      "label": "BEM",
+      "topicId": "r28JBMZLEqZMDm-tVDYZk",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-uhHBvhgHjmIZDeOEPi_pZ",
+      "label": "Block Display",
+      "topicId": "uhHBvhgHjmIZDeOEPi_pZ",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-tOADYKk7o5cFaMLKxdiYa",
+      "label": "Border",
+      "topicId": "tOADYKk7o5cFaMLKxdiYa",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-AJR5CRYOedHzJ20hROIjo",
+      "label": "Box Model",
+      "topicId": "AJR5CRYOedHzJ20hROIjo",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-jPSQNDH4UpmVoLEf6RIjy",
+      "label": "Box Shadows",
+      "topicId": "jPSQNDH4UpmVoLEf6RIjy",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-Y4ODIPSKsWg0k1K5rHVh7",
+      "label": "Cascading Order",
+      "topicId": "Y4ODIPSKsWg0k1K5rHVh7",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-UojAVB7wZgGhLd9r8ZVYF",
+      "label": "Child Combinator",
+      "topicId": "UojAVB7wZgGhLd9r8ZVYF",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-p3niPUep5J2h4x0tv4CLM",
+      "label": "Class Selectors",
+      "topicId": "p3niPUep5J2h4x0tv4CLM",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-lo6OuD5hsZ7_r01jp-u0U",
+      "label": "Color",
+      "topicId": "lo6OuD5hsZ7_r01jp-u0U",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-8xpK4SVUDvxil_hR-LaJ4",
+      "label": "Combinator Selectors",
+      "topicId": "8xpK4SVUDvxil_hR-LaJ4",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-UKUulhLMTcmwi-jDDoGTp",
+      "label": "Comments",
+      "topicId": "UKUulhLMTcmwi-jDDoGTp",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-IkN7i3ERk_lTOD0mBj3JO",
+      "label": "Container Queries",
+      "topicId": "IkN7i3ERk_lTOD0mBj3JO",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-hq4lsadaQAmTD6vBdmJ_W",
+      "label": "CSS Basics",
+      "topicId": "hq4lsadaQAmTD6vBdmJ_W",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-I1wmKcLyjQUiJXPtsGye7",
+      "label": "CSS Functions",
+      "topicId": "I1wmKcLyjQUiJXPtsGye7",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-UInkC4leVjIsSXPN1y62W",
+      "label": "CSS-in-JS",
+      "topicId": "UInkC4leVjIsSXPN1y62W",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-DjeaAmUlNtNV3f8W0-dKf",
+      "label": "CSS Modules",
+      "topicId": "DjeaAmUlNtNV3f8W0-dKf",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-iLVla2ZPA3WlWFmP2sc6H",
+      "label": "CSS Specificity",
+      "topicId": "iLVla2ZPA3WlWFmP2sc6H",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-ffhmG-be4Ct09eOxwzU9y",
+      "label": "CSS Units",
+      "topicId": "ffhmG-be4Ct09eOxwzU9y",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-WGR5E9CXsZCxIhwZyCSKq",
+      "label": "CSS Variables",
+      "topicId": "WGR5E9CXsZCxIhwZyCSKq",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-9ZUXy6s9IAIEM5GHk_bXR",
+      "label": "CSS",
+      "topicId": "9ZUXy6s9IAIEM5GHk_bXR",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-GULUvSWLu8sPRuH0Xnbi5",
+      "label": "Declaration",
+      "topicId": "GULUvSWLu8sPRuH0Xnbi5",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-HB0GXMRA87a-NWv6JXxWg",
+      "label": "Descendant Combinator",
+      "topicId": "HB0GXMRA87a-NWv6JXxWg",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-ZyqKZMIkQ22ysFqmhL3ZN",
+      "label": "Direction",
+      "topicId": "ZyqKZMIkQ22ysFqmhL3ZN",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-SSAhePvKuRJU4TQw5NuVZ",
+      "label": "Display",
+      "topicId": "SSAhePvKuRJU4TQw5NuVZ",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-FKQcANNYYf-kYQj-kyKL_",
+      "label": "Element Selectors",
+      "topicId": "FKQcANNYYf-kYQj-kyKL_",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-kis-VQIdFVywHhBPr8tLY",
+      "label": "External CSS",
+      "topicId": "kis-VQIdFVywHhBPr8tLY",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-eL0kdDRPnwpCU_FWKDPkD",
+      "label": "Fixed Positioning",
+      "topicId": "eL0kdDRPnwpCU_FWKDPkD",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-Xa8oKhrZ2Y_Fsx3PjdMrt",
+      "label": "Flexbox",
+      "topicId": "Xa8oKhrZ2Y_Fsx3PjdMrt",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node--uEIqIN1xxqlQzOmVgVUc",
+      "label": "Floating Elements",
+      "topicId": "-uEIqIN1xxqlQzOmVgVUc",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-U34z2pZgkH8NqiXMr5iuI",
+      "label": "Flow Layout",
+      "topicId": "U34z2pZgkH8NqiXMr5iuI",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-LZZheBKkxXSVwyW4hSCw5",
+      "label": "Font Families",
+      "topicId": "LZZheBKkxXSVwyW4hSCw5",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-KZ-B_6zH3gkJhFFL_yRSm",
+      "label": "Font Shorthand",
+      "topicId": "KZ-B_6zH3gkJhFFL_yRSm",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-X2aBWF0Dl88M-dULDSL9J",
+      "label": "Font Size",
+      "topicId": "X2aBWF0Dl88M-dULDSL9J",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-Ha84l1MXtbuSrUeQxRq7g",
+      "label": "Font Style",
+      "topicId": "Ha84l1MXtbuSrUeQxRq7g",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-mGYDsQ1QzimmO3U1CnJUu",
+      "label": "Font Variant",
+      "topicId": "mGYDsQ1QzimmO3U1CnJUu",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-jV9oHJdtocQzzALylaFnA",
+      "label": "Font Weight",
+      "topicId": "jV9oHJdtocQzzALylaFnA",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-zW49OvVO-kLh0M4JCE4_w",
+      "label": "Frontend Development",
+      "topicId": "zW49OvVO-kLh0M4JCE4_w",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-1-agoKIdWelaazIOe3haM",
+      "label": "Google Fonts",
+      "topicId": "1-agoKIdWelaazIOe3haM",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-6nemkEmghB_0SWBOHyI7a",
+      "label": "Grid Layout",
+      "topicId": "6nemkEmghB_0SWBOHyI7a",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-TSItk9mQJphdRID9mgGwU",
+      "label": "Grouping Selectors",
+      "topicId": "TSItk9mQJphdRID9mgGwU",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-ZlU2dJj5myMd3hOc4ycOi",
+      "label": "Hex Colors",
+      "topicId": "ZlU2dJj5myMd3hOc4ycOi",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-GA3Rqg75oRZgFYi2ZzLH6",
+      "label": "HSL Colors",
+      "topicId": "GA3Rqg75oRZgFYi2ZzLH6",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-6OjCZPf10yJqNIdFkI4l-",
+      "label": "HTML",
+      "topicId": "6OjCZPf10yJqNIdFkI4l-",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-U6dcnopmzzsppCQ9uy8E-",
+      "label": "ID Selectors",
+      "topicId": "U6dcnopmzzsppCQ9uy8E-",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-kcfgt2pu3MCsgki391tpa",
+      "label": "Images and Filters",
+      "topicId": "kcfgt2pu3MCsgki391tpa",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-cQ4FdKzwvMu5FD0Xk-U73",
+      "label": "Inline-Block",
+      "topicId": "cQ4FdKzwvMu5FD0Xk-U73",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-B0JUjbCN35MMGtFb5sCyB",
+      "label": "Inline CSS",
+      "topicId": "B0JUjbCN35MMGtFb5sCyB",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-Jipq1yvlLNL0TbsVImCDk",
+      "label": "Inline Display",
+      "topicId": "Jipq1yvlLNL0TbsVImCDk",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-gARjh5W-R_93_WeS8xxwe",
+      "label": "Internal CSS",
+      "topicId": "gARjh5W-R_93_WeS8xxwe",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-eR9zEKc2xQtOPNjOgke4_",
+      "label": "CSS",
+      "topicId": "eR9zEKc2xQtOPNjOgke4_",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-J1RsZPDKX-ocDvTh-Bg7N",
+      "label": "JavaScript",
+      "topicId": "J1RsZPDKX-ocDvTh-Bg7N",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-qmKXfmheAvlap45aFrP9m",
+      "label": "Keyframe Animations",
+      "topicId": "qmKXfmheAvlap45aFrP9m",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-aB04IOoWwIxm7BvwfgTYj",
+      "label": "Line Height",
+      "topicId": "aB04IOoWwIxm7BvwfgTYj",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-XuySIveFuvA_FvqDnNPRL",
+      "label": "Lists",
+      "topicId": "XuySIveFuvA_FvqDnNPRL",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-e_m7y5YYPLFbVtoG79DBb",
+      "label": "Margin",
+      "topicId": "e_m7y5YYPLFbVtoG79DBb",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-1-VTjOseACNKca6TU07aM",
+      "label": "Media Queries",
+      "topicId": "1-VTjOseACNKca6TU07aM",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-KoJ7syHd7Y3gyWW93dRnQ",
+      "label": "Multicolumn Layout",
+      "topicId": "KoJ7syHd7Y3gyWW93dRnQ",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-9vVxubL4bB3FPQOPoM0TV",
+      "label": "Named Colors",
+      "topicId": "9vVxubL4bB3FPQOPoM0TV",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-qvOddcSKg21RJBG5XTGfU",
+      "label": "Next Sibling Combinator",
+      "topicId": "qvOddcSKg21RJBG5XTGfU",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-doVYds82d5w1hIc33hkMq",
+      "label": "Display: None",
+      "topicId": "doVYds82d5w1hIc33hkMq",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-gm7kRAgfG3FKJqZhZ3Noj",
+      "label": "Opacity",
+      "topicId": "gm7kRAgfG3FKJqZhZ3Noj",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-EirP1Bs-FGEtPxuY2k7wF",
+      "label": "Outline",
+      "topicId": "EirP1Bs-FGEtPxuY2k7wF",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-qJ3bBc7pNgZQU5I31kqKA",
+      "label": "Padding",
+      "topicId": "qJ3bBc7pNgZQU5I31kqKA",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node--dPxULwMhdnnBoX3givbd",
+      "label": "Performance",
+      "topicId": "-dPxULwMhdnnBoX3givbd",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-un_IujSN8vtDM40OOJC1n",
+      "label": "Position",
+      "topicId": "un_IujSN8vtDM40OOJC1n",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-EOGYRC1TiXOwrR1pjW6Ky",
+      "label": "PostCSS",
+      "topicId": "EOGYRC1TiXOwrR1pjW6Ky",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-awMTGfeQlXQNILvEO8nOJ",
+      "label": "Properties and Values",
+      "topicId": "awMTGfeQlXQNILvEO8nOJ",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-_KdEkwm0GmKHcahivCubL",
+      "label": "Pseudo-Classes",
+      "topicId": "_KdEkwm0GmKHcahivCubL",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-yj2GTGrlDHp9gNd3C476k",
+      "label": "Pseudo-Elements",
+      "topicId": "yj2GTGrlDHp9gNd3C476k",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-Hp51JS9rwAMdWhYnex5NB",
+      "label": "Relative Positioning",
+      "topicId": "Hp51JS9rwAMdWhYnex5NB",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-9XDJcFh7V-7ppAEP_8hJl",
+      "label": "Responsive Typography",
+      "topicId": "9XDJcFh7V-7ppAEP_8hJl",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-74sme3agcXP7TRSGjYcWG",
+      "label": "RGB Colors in CSS",
+      "topicId": "74sme3agcXP7TRSGjYcWG",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-wgopn2aZpRKXKw3PSCvWQ",
+      "label": "rgba and hsla Colors",
+      "topicId": "wgopn2aZpRKXKw3PSCvWQ",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-obhoMq0OIyEolhppby1XM",
+      "label": "CSS Rules",
+      "topicId": "obhoMq0OIyEolhppby1XM",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-1bCeydLILdEKV9NJe83gK",
+      "label": "Sass",
+      "topicId": "1bCeydLILdEKV9NJe83gK",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-v5fDxilI3q2vvt_B4Mxer",
+      "label": "Selector",
+      "topicId": "v5fDxilI3q2vvt_B4Mxer",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-BaIUVApePcGNdYabadnbz",
+      "label": "Simple Selectors",
+      "topicId": "BaIUVApePcGNdYabadnbz",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-qaZfDil0Slda9t-RN0KWH",
+      "label": "Static Positioning",
+      "topicId": "qaZfDil0Slda9t-RN0KWH",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-mJifV0kjJTwkllmZVSqec",
+      "label": "Sticky Positioning",
+      "topicId": "mJifV0kjJTwkllmZVSqec",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-_dWrjp_fK4gmGwiWrgBbb",
+      "label": "Subsequent Sibling Combinator",
+      "topicId": "_dWrjp_fK4gmGwiWrgBbb",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-Q-6tdHPE-xpPGIG8J_Wz7",
+      "label": "Tables",
+      "topicId": "Q-6tdHPE-xpPGIG8J_Wz7",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-SABFbvM47j1cYCyeNfMZR",
+      "label": "Text Alignment",
+      "topicId": "SABFbvM47j1cYCyeNfMZR",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-AUzbo8UwpL-XxvhMCvtoe",
+      "label": "Text Decoration",
+      "topicId": "AUzbo8UwpL-XxvhMCvtoe",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-Mq4Oo9cCWqkPGHkgpNRTz",
+      "label": "Text Shadows",
+      "topicId": "Mq4Oo9cCWqkPGHkgpNRTz",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5040
+      }
+    },
+    {
+      "id": "node-U3oH6TFRezkciuROAU0wd",
+      "label": "Text Spacing",
+      "topicId": "U3oH6TFRezkciuROAU0wd",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5040
+      }
+    },
+    {
+      "id": "node-vo34F_AHkMlyq6uNRPk-1",
+      "label": "Text Styling",
+      "topicId": "vo34F_AHkMlyq6uNRPk-1",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5040
+      }
+    },
+    {
+      "id": "node-v0IUvnrLv3OiBQ-NkM9Lv",
+      "label": "Text Transform",
+      "topicId": "v0IUvnrLv3OiBQ-NkM9Lv",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5200
+      }
+    },
+    {
+      "id": "node-ZwlCU9jE9YBcEOBo0vFqq",
+      "label": "Transforms",
+      "topicId": "ZwlCU9jE9YBcEOBo0vFqq",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5200
+      }
+    },
+    {
+      "id": "node-SNcVcjcvtph3W7KTx1N-v",
+      "label": "Transitions",
+      "topicId": "SNcVcjcvtph3W7KTx1N-v",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5200
+      }
+    },
+    {
+      "id": "node-yRqSmhRwvZXbNXuCNYCzo",
+      "label": "Units with Functions",
+      "topicId": "yRqSmhRwvZXbNXuCNYCzo",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5360
+      }
+    },
+    {
+      "id": "node-4LjxorN5jQnm9ZWKPk-pu",
+      "label": "Universal Selector",
+      "topicId": "4LjxorN5jQnm9ZWKPk-pu",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5360
+      }
+    },
+    {
+      "id": "node-sO-XiY9yJZMedzyR_7Gdq",
+      "label": "Visibility",
+      "topicId": "sO-XiY9yJZMedzyR_7Gdq",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5360
+      }
+    },
+    {
+      "id": "node-quGp1pgbrEH37WA5URb_g",
+      "label": "Width and Height",
+      "topicId": "quGp1pgbrEH37WA5URb_g",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5520
+      }
+    },
+    {
+      "id": "node-xep8iF-7XOYLY2xeblM-A",
+      "label": "Z-Index and Stacking Context",
+      "topicId": "xep8iF-7XOYLY2xeblM-A",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5520
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-node-l7bBJLtKWkrzSfSPkZlBI-node-7LhPT3h-BEdHSF2iOevVl",
+      "source": "node-l7bBJLtKWkrzSfSPkZlBI",
+      "target": "node-7LhPT3h-BEdHSF2iOevVl",
+      "animated": true
+    },
+    {
+      "id": "edge-node-7LhPT3h-BEdHSF2iOevVl-node-LDIZoK-XgmwqPdLH01vC5",
+      "source": "node-7LhPT3h-BEdHSF2iOevVl",
+      "target": "node-LDIZoK-XgmwqPdLH01vC5",
+      "animated": true
+    },
+    {
+      "id": "edge-node-LDIZoK-XgmwqPdLH01vC5-node-m6KQMN1XWo4uWqs2F3KXH",
+      "source": "node-LDIZoK-XgmwqPdLH01vC5",
+      "target": "node-m6KQMN1XWo4uWqs2F3KXH",
+      "animated": true
+    },
+    {
+      "id": "edge-node-m6KQMN1XWo4uWqs2F3KXH-node-6i0Zl05VMzUsh47cuUH4-",
+      "source": "node-m6KQMN1XWo4uWqs2F3KXH",
+      "target": "node-6i0Zl05VMzUsh47cuUH4-",
+      "animated": true
+    },
+    {
+      "id": "edge-node-6i0Zl05VMzUsh47cuUH4--node-ATd9RE303X79aAmqvwS08",
+      "source": "node-6i0Zl05VMzUsh47cuUH4-",
+      "target": "node-ATd9RE303X79aAmqvwS08",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ATd9RE303X79aAmqvwS08-node-_9QA5_mLJ8_eiQN0ucIkQ",
+      "source": "node-ATd9RE303X79aAmqvwS08",
+      "target": "node-_9QA5_mLJ8_eiQN0ucIkQ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-_9QA5_mLJ8_eiQN0ucIkQ-node-d-rp-EHKyHnzuIHWHOc7C",
+      "source": "node-_9QA5_mLJ8_eiQN0ucIkQ",
+      "target": "node-d-rp-EHKyHnzuIHWHOc7C",
+      "animated": true
+    },
+    {
+      "id": "edge-node-d-rp-EHKyHnzuIHWHOc7C-node-BBpeQcb7Y21C7-r3PFIMW",
+      "source": "node-d-rp-EHKyHnzuIHWHOc7C",
+      "target": "node-BBpeQcb7Y21C7-r3PFIMW",
+      "animated": true
+    },
+    {
+      "id": "edge-node-BBpeQcb7Y21C7-r3PFIMW-node-RqyaHX4Krk9e-6Eq9FHnS",
+      "source": "node-BBpeQcb7Y21C7-r3PFIMW",
+      "target": "node-RqyaHX4Krk9e-6Eq9FHnS",
+      "animated": true
+    },
+    {
+      "id": "edge-node-RqyaHX4Krk9e-6Eq9FHnS-node-r28JBMZLEqZMDm-tVDYZk",
+      "source": "node-RqyaHX4Krk9e-6Eq9FHnS",
+      "target": "node-r28JBMZLEqZMDm-tVDYZk",
+      "animated": true
+    },
+    {
+      "id": "edge-node-r28JBMZLEqZMDm-tVDYZk-node-uhHBvhgHjmIZDeOEPi_pZ",
+      "source": "node-r28JBMZLEqZMDm-tVDYZk",
+      "target": "node-uhHBvhgHjmIZDeOEPi_pZ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-uhHBvhgHjmIZDeOEPi_pZ-node-tOADYKk7o5cFaMLKxdiYa",
+      "source": "node-uhHBvhgHjmIZDeOEPi_pZ",
+      "target": "node-tOADYKk7o5cFaMLKxdiYa",
+      "animated": true
+    },
+    {
+      "id": "edge-node-tOADYKk7o5cFaMLKxdiYa-node-AJR5CRYOedHzJ20hROIjo",
+      "source": "node-tOADYKk7o5cFaMLKxdiYa",
+      "target": "node-AJR5CRYOedHzJ20hROIjo",
+      "animated": true
+    },
+    {
+      "id": "edge-node-AJR5CRYOedHzJ20hROIjo-node-jPSQNDH4UpmVoLEf6RIjy",
+      "source": "node-AJR5CRYOedHzJ20hROIjo",
+      "target": "node-jPSQNDH4UpmVoLEf6RIjy",
+      "animated": true
+    },
+    {
+      "id": "edge-node-jPSQNDH4UpmVoLEf6RIjy-node-Y4ODIPSKsWg0k1K5rHVh7",
+      "source": "node-jPSQNDH4UpmVoLEf6RIjy",
+      "target": "node-Y4ODIPSKsWg0k1K5rHVh7",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Y4ODIPSKsWg0k1K5rHVh7-node-UojAVB7wZgGhLd9r8ZVYF",
+      "source": "node-Y4ODIPSKsWg0k1K5rHVh7",
+      "target": "node-UojAVB7wZgGhLd9r8ZVYF",
+      "animated": true
+    },
+    {
+      "id": "edge-node-UojAVB7wZgGhLd9r8ZVYF-node-p3niPUep5J2h4x0tv4CLM",
+      "source": "node-UojAVB7wZgGhLd9r8ZVYF",
+      "target": "node-p3niPUep5J2h4x0tv4CLM",
+      "animated": true
+    },
+    {
+      "id": "edge-node-p3niPUep5J2h4x0tv4CLM-node-lo6OuD5hsZ7_r01jp-u0U",
+      "source": "node-p3niPUep5J2h4x0tv4CLM",
+      "target": "node-lo6OuD5hsZ7_r01jp-u0U",
+      "animated": true
+    },
+    {
+      "id": "edge-node-lo6OuD5hsZ7_r01jp-u0U-node-8xpK4SVUDvxil_hR-LaJ4",
+      "source": "node-lo6OuD5hsZ7_r01jp-u0U",
+      "target": "node-8xpK4SVUDvxil_hR-LaJ4",
+      "animated": true
+    },
+    {
+      "id": "edge-node-8xpK4SVUDvxil_hR-LaJ4-node-UKUulhLMTcmwi-jDDoGTp",
+      "source": "node-8xpK4SVUDvxil_hR-LaJ4",
+      "target": "node-UKUulhLMTcmwi-jDDoGTp",
+      "animated": true
+    },
+    {
+      "id": "edge-node-UKUulhLMTcmwi-jDDoGTp-node-IkN7i3ERk_lTOD0mBj3JO",
+      "source": "node-UKUulhLMTcmwi-jDDoGTp",
+      "target": "node-IkN7i3ERk_lTOD0mBj3JO",
+      "animated": true
+    },
+    {
+      "id": "edge-node-IkN7i3ERk_lTOD0mBj3JO-node-hq4lsadaQAmTD6vBdmJ_W",
+      "source": "node-IkN7i3ERk_lTOD0mBj3JO",
+      "target": "node-hq4lsadaQAmTD6vBdmJ_W",
+      "animated": true
+    },
+    {
+      "id": "edge-node-hq4lsadaQAmTD6vBdmJ_W-node-I1wmKcLyjQUiJXPtsGye7",
+      "source": "node-hq4lsadaQAmTD6vBdmJ_W",
+      "target": "node-I1wmKcLyjQUiJXPtsGye7",
+      "animated": true
+    },
+    {
+      "id": "edge-node-I1wmKcLyjQUiJXPtsGye7-node-UInkC4leVjIsSXPN1y62W",
+      "source": "node-I1wmKcLyjQUiJXPtsGye7",
+      "target": "node-UInkC4leVjIsSXPN1y62W",
+      "animated": true
+    },
+    {
+      "id": "edge-node-UInkC4leVjIsSXPN1y62W-node-DjeaAmUlNtNV3f8W0-dKf",
+      "source": "node-UInkC4leVjIsSXPN1y62W",
+      "target": "node-DjeaAmUlNtNV3f8W0-dKf",
+      "animated": true
+    },
+    {
+      "id": "edge-node-DjeaAmUlNtNV3f8W0-dKf-node-iLVla2ZPA3WlWFmP2sc6H",
+      "source": "node-DjeaAmUlNtNV3f8W0-dKf",
+      "target": "node-iLVla2ZPA3WlWFmP2sc6H",
+      "animated": true
+    },
+    {
+      "id": "edge-node-iLVla2ZPA3WlWFmP2sc6H-node-ffhmG-be4Ct09eOxwzU9y",
+      "source": "node-iLVla2ZPA3WlWFmP2sc6H",
+      "target": "node-ffhmG-be4Ct09eOxwzU9y",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ffhmG-be4Ct09eOxwzU9y-node-WGR5E9CXsZCxIhwZyCSKq",
+      "source": "node-ffhmG-be4Ct09eOxwzU9y",
+      "target": "node-WGR5E9CXsZCxIhwZyCSKq",
+      "animated": true
+    },
+    {
+      "id": "edge-node-WGR5E9CXsZCxIhwZyCSKq-node-9ZUXy6s9IAIEM5GHk_bXR",
+      "source": "node-WGR5E9CXsZCxIhwZyCSKq",
+      "target": "node-9ZUXy6s9IAIEM5GHk_bXR",
+      "animated": true
+    },
+    {
+      "id": "edge-node-9ZUXy6s9IAIEM5GHk_bXR-node-GULUvSWLu8sPRuH0Xnbi5",
+      "source": "node-9ZUXy6s9IAIEM5GHk_bXR",
+      "target": "node-GULUvSWLu8sPRuH0Xnbi5",
+      "animated": true
+    },
+    {
+      "id": "edge-node-GULUvSWLu8sPRuH0Xnbi5-node-HB0GXMRA87a-NWv6JXxWg",
+      "source": "node-GULUvSWLu8sPRuH0Xnbi5",
+      "target": "node-HB0GXMRA87a-NWv6JXxWg",
+      "animated": true
+    },
+    {
+      "id": "edge-node-HB0GXMRA87a-NWv6JXxWg-node-ZyqKZMIkQ22ysFqmhL3ZN",
+      "source": "node-HB0GXMRA87a-NWv6JXxWg",
+      "target": "node-ZyqKZMIkQ22ysFqmhL3ZN",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ZyqKZMIkQ22ysFqmhL3ZN-node-SSAhePvKuRJU4TQw5NuVZ",
+      "source": "node-ZyqKZMIkQ22ysFqmhL3ZN",
+      "target": "node-SSAhePvKuRJU4TQw5NuVZ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-SSAhePvKuRJU4TQw5NuVZ-node-FKQcANNYYf-kYQj-kyKL_",
+      "source": "node-SSAhePvKuRJU4TQw5NuVZ",
+      "target": "node-FKQcANNYYf-kYQj-kyKL_",
+      "animated": true
+    },
+    {
+      "id": "edge-node-FKQcANNYYf-kYQj-kyKL_-node-kis-VQIdFVywHhBPr8tLY",
+      "source": "node-FKQcANNYYf-kYQj-kyKL_",
+      "target": "node-kis-VQIdFVywHhBPr8tLY",
+      "animated": true
+    },
+    {
+      "id": "edge-node-kis-VQIdFVywHhBPr8tLY-node-eL0kdDRPnwpCU_FWKDPkD",
+      "source": "node-kis-VQIdFVywHhBPr8tLY",
+      "target": "node-eL0kdDRPnwpCU_FWKDPkD",
+      "animated": true
+    },
+    {
+      "id": "edge-node-eL0kdDRPnwpCU_FWKDPkD-node-Xa8oKhrZ2Y_Fsx3PjdMrt",
+      "source": "node-eL0kdDRPnwpCU_FWKDPkD",
+      "target": "node-Xa8oKhrZ2Y_Fsx3PjdMrt",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Xa8oKhrZ2Y_Fsx3PjdMrt-node--uEIqIN1xxqlQzOmVgVUc",
+      "source": "node-Xa8oKhrZ2Y_Fsx3PjdMrt",
+      "target": "node--uEIqIN1xxqlQzOmVgVUc",
+      "animated": true
+    },
+    {
+      "id": "edge-node--uEIqIN1xxqlQzOmVgVUc-node-U34z2pZgkH8NqiXMr5iuI",
+      "source": "node--uEIqIN1xxqlQzOmVgVUc",
+      "target": "node-U34z2pZgkH8NqiXMr5iuI",
+      "animated": true
+    },
+    {
+      "id": "edge-node-U34z2pZgkH8NqiXMr5iuI-node-LZZheBKkxXSVwyW4hSCw5",
+      "source": "node-U34z2pZgkH8NqiXMr5iuI",
+      "target": "node-LZZheBKkxXSVwyW4hSCw5",
+      "animated": true
+    },
+    {
+      "id": "edge-node-LZZheBKkxXSVwyW4hSCw5-node-KZ-B_6zH3gkJhFFL_yRSm",
+      "source": "node-LZZheBKkxXSVwyW4hSCw5",
+      "target": "node-KZ-B_6zH3gkJhFFL_yRSm",
+      "animated": true
+    },
+    {
+      "id": "edge-node-KZ-B_6zH3gkJhFFL_yRSm-node-X2aBWF0Dl88M-dULDSL9J",
+      "source": "node-KZ-B_6zH3gkJhFFL_yRSm",
+      "target": "node-X2aBWF0Dl88M-dULDSL9J",
+      "animated": true
+    },
+    {
+      "id": "edge-node-X2aBWF0Dl88M-dULDSL9J-node-Ha84l1MXtbuSrUeQxRq7g",
+      "source": "node-X2aBWF0Dl88M-dULDSL9J",
+      "target": "node-Ha84l1MXtbuSrUeQxRq7g",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Ha84l1MXtbuSrUeQxRq7g-node-mGYDsQ1QzimmO3U1CnJUu",
+      "source": "node-Ha84l1MXtbuSrUeQxRq7g",
+      "target": "node-mGYDsQ1QzimmO3U1CnJUu",
+      "animated": true
+    },
+    {
+      "id": "edge-node-mGYDsQ1QzimmO3U1CnJUu-node-jV9oHJdtocQzzALylaFnA",
+      "source": "node-mGYDsQ1QzimmO3U1CnJUu",
+      "target": "node-jV9oHJdtocQzzALylaFnA",
+      "animated": true
+    },
+    {
+      "id": "edge-node-jV9oHJdtocQzzALylaFnA-node-zW49OvVO-kLh0M4JCE4_w",
+      "source": "node-jV9oHJdtocQzzALylaFnA",
+      "target": "node-zW49OvVO-kLh0M4JCE4_w",
+      "animated": true
+    },
+    {
+      "id": "edge-node-zW49OvVO-kLh0M4JCE4_w-node-1-agoKIdWelaazIOe3haM",
+      "source": "node-zW49OvVO-kLh0M4JCE4_w",
+      "target": "node-1-agoKIdWelaazIOe3haM",
+      "animated": true
+    },
+    {
+      "id": "edge-node-1-agoKIdWelaazIOe3haM-node-6nemkEmghB_0SWBOHyI7a",
+      "source": "node-1-agoKIdWelaazIOe3haM",
+      "target": "node-6nemkEmghB_0SWBOHyI7a",
+      "animated": true
+    },
+    {
+      "id": "edge-node-6nemkEmghB_0SWBOHyI7a-node-TSItk9mQJphdRID9mgGwU",
+      "source": "node-6nemkEmghB_0SWBOHyI7a",
+      "target": "node-TSItk9mQJphdRID9mgGwU",
+      "animated": true
+    },
+    {
+      "id": "edge-node-TSItk9mQJphdRID9mgGwU-node-ZlU2dJj5myMd3hOc4ycOi",
+      "source": "node-TSItk9mQJphdRID9mgGwU",
+      "target": "node-ZlU2dJj5myMd3hOc4ycOi",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ZlU2dJj5myMd3hOc4ycOi-node-GA3Rqg75oRZgFYi2ZzLH6",
+      "source": "node-ZlU2dJj5myMd3hOc4ycOi",
+      "target": "node-GA3Rqg75oRZgFYi2ZzLH6",
+      "animated": true
+    },
+    {
+      "id": "edge-node-GA3Rqg75oRZgFYi2ZzLH6-node-6OjCZPf10yJqNIdFkI4l-",
+      "source": "node-GA3Rqg75oRZgFYi2ZzLH6",
+      "target": "node-6OjCZPf10yJqNIdFkI4l-",
+      "animated": true
+    },
+    {
+      "id": "edge-node-6OjCZPf10yJqNIdFkI4l--node-U6dcnopmzzsppCQ9uy8E-",
+      "source": "node-6OjCZPf10yJqNIdFkI4l-",
+      "target": "node-U6dcnopmzzsppCQ9uy8E-",
+      "animated": true
+    },
+    {
+      "id": "edge-node-U6dcnopmzzsppCQ9uy8E--node-kcfgt2pu3MCsgki391tpa",
+      "source": "node-U6dcnopmzzsppCQ9uy8E-",
+      "target": "node-kcfgt2pu3MCsgki391tpa",
+      "animated": true
+    },
+    {
+      "id": "edge-node-kcfgt2pu3MCsgki391tpa-node-cQ4FdKzwvMu5FD0Xk-U73",
+      "source": "node-kcfgt2pu3MCsgki391tpa",
+      "target": "node-cQ4FdKzwvMu5FD0Xk-U73",
+      "animated": true
+    },
+    {
+      "id": "edge-node-cQ4FdKzwvMu5FD0Xk-U73-node-B0JUjbCN35MMGtFb5sCyB",
+      "source": "node-cQ4FdKzwvMu5FD0Xk-U73",
+      "target": "node-B0JUjbCN35MMGtFb5sCyB",
+      "animated": true
+    },
+    {
+      "id": "edge-node-B0JUjbCN35MMGtFb5sCyB-node-Jipq1yvlLNL0TbsVImCDk",
+      "source": "node-B0JUjbCN35MMGtFb5sCyB",
+      "target": "node-Jipq1yvlLNL0TbsVImCDk",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Jipq1yvlLNL0TbsVImCDk-node-gARjh5W-R_93_WeS8xxwe",
+      "source": "node-Jipq1yvlLNL0TbsVImCDk",
+      "target": "node-gARjh5W-R_93_WeS8xxwe",
+      "animated": true
+    },
+    {
+      "id": "edge-node-gARjh5W-R_93_WeS8xxwe-node-eR9zEKc2xQtOPNjOgke4_",
+      "source": "node-gARjh5W-R_93_WeS8xxwe",
+      "target": "node-eR9zEKc2xQtOPNjOgke4_",
+      "animated": true
+    },
+    {
+      "id": "edge-node-eR9zEKc2xQtOPNjOgke4_-node-J1RsZPDKX-ocDvTh-Bg7N",
+      "source": "node-eR9zEKc2xQtOPNjOgke4_",
+      "target": "node-J1RsZPDKX-ocDvTh-Bg7N",
+      "animated": true
+    },
+    {
+      "id": "edge-node-J1RsZPDKX-ocDvTh-Bg7N-node-qmKXfmheAvlap45aFrP9m",
+      "source": "node-J1RsZPDKX-ocDvTh-Bg7N",
+      "target": "node-qmKXfmheAvlap45aFrP9m",
+      "animated": true
+    },
+    {
+      "id": "edge-node-qmKXfmheAvlap45aFrP9m-node-aB04IOoWwIxm7BvwfgTYj",
+      "source": "node-qmKXfmheAvlap45aFrP9m",
+      "target": "node-aB04IOoWwIxm7BvwfgTYj",
+      "animated": true
+    },
+    {
+      "id": "edge-node-aB04IOoWwIxm7BvwfgTYj-node-XuySIveFuvA_FvqDnNPRL",
+      "source": "node-aB04IOoWwIxm7BvwfgTYj",
+      "target": "node-XuySIveFuvA_FvqDnNPRL",
+      "animated": true
+    },
+    {
+      "id": "edge-node-XuySIveFuvA_FvqDnNPRL-node-e_m7y5YYPLFbVtoG79DBb",
+      "source": "node-XuySIveFuvA_FvqDnNPRL",
+      "target": "node-e_m7y5YYPLFbVtoG79DBb",
+      "animated": true
+    },
+    {
+      "id": "edge-node-e_m7y5YYPLFbVtoG79DBb-node-1-VTjOseACNKca6TU07aM",
+      "source": "node-e_m7y5YYPLFbVtoG79DBb",
+      "target": "node-1-VTjOseACNKca6TU07aM",
+      "animated": true
+    },
+    {
+      "id": "edge-node-1-VTjOseACNKca6TU07aM-node-KoJ7syHd7Y3gyWW93dRnQ",
+      "source": "node-1-VTjOseACNKca6TU07aM",
+      "target": "node-KoJ7syHd7Y3gyWW93dRnQ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-KoJ7syHd7Y3gyWW93dRnQ-node-9vVxubL4bB3FPQOPoM0TV",
+      "source": "node-KoJ7syHd7Y3gyWW93dRnQ",
+      "target": "node-9vVxubL4bB3FPQOPoM0TV",
+      "animated": true
+    },
+    {
+      "id": "edge-node-9vVxubL4bB3FPQOPoM0TV-node-qvOddcSKg21RJBG5XTGfU",
+      "source": "node-9vVxubL4bB3FPQOPoM0TV",
+      "target": "node-qvOddcSKg21RJBG5XTGfU",
+      "animated": true
+    },
+    {
+      "id": "edge-node-qvOddcSKg21RJBG5XTGfU-node-doVYds82d5w1hIc33hkMq",
+      "source": "node-qvOddcSKg21RJBG5XTGfU",
+      "target": "node-doVYds82d5w1hIc33hkMq",
+      "animated": true
+    },
+    {
+      "id": "edge-node-doVYds82d5w1hIc33hkMq-node-gm7kRAgfG3FKJqZhZ3Noj",
+      "source": "node-doVYds82d5w1hIc33hkMq",
+      "target": "node-gm7kRAgfG3FKJqZhZ3Noj",
+      "animated": true
+    },
+    {
+      "id": "edge-node-gm7kRAgfG3FKJqZhZ3Noj-node-EirP1Bs-FGEtPxuY2k7wF",
+      "source": "node-gm7kRAgfG3FKJqZhZ3Noj",
+      "target": "node-EirP1Bs-FGEtPxuY2k7wF",
+      "animated": true
+    },
+    {
+      "id": "edge-node-EirP1Bs-FGEtPxuY2k7wF-node-qJ3bBc7pNgZQU5I31kqKA",
+      "source": "node-EirP1Bs-FGEtPxuY2k7wF",
+      "target": "node-qJ3bBc7pNgZQU5I31kqKA",
+      "animated": true
+    },
+    {
+      "id": "edge-node-qJ3bBc7pNgZQU5I31kqKA-node--dPxULwMhdnnBoX3givbd",
+      "source": "node-qJ3bBc7pNgZQU5I31kqKA",
+      "target": "node--dPxULwMhdnnBoX3givbd",
+      "animated": true
+    },
+    {
+      "id": "edge-node--dPxULwMhdnnBoX3givbd-node-un_IujSN8vtDM40OOJC1n",
+      "source": "node--dPxULwMhdnnBoX3givbd",
+      "target": "node-un_IujSN8vtDM40OOJC1n",
+      "animated": true
+    },
+    {
+      "id": "edge-node-un_IujSN8vtDM40OOJC1n-node-EOGYRC1TiXOwrR1pjW6Ky",
+      "source": "node-un_IujSN8vtDM40OOJC1n",
+      "target": "node-EOGYRC1TiXOwrR1pjW6Ky",
+      "animated": true
+    },
+    {
+      "id": "edge-node-EOGYRC1TiXOwrR1pjW6Ky-node-awMTGfeQlXQNILvEO8nOJ",
+      "source": "node-EOGYRC1TiXOwrR1pjW6Ky",
+      "target": "node-awMTGfeQlXQNILvEO8nOJ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-awMTGfeQlXQNILvEO8nOJ-node-_KdEkwm0GmKHcahivCubL",
+      "source": "node-awMTGfeQlXQNILvEO8nOJ",
+      "target": "node-_KdEkwm0GmKHcahivCubL",
+      "animated": true
+    },
+    {
+      "id": "edge-node-_KdEkwm0GmKHcahivCubL-node-yj2GTGrlDHp9gNd3C476k",
+      "source": "node-_KdEkwm0GmKHcahivCubL",
+      "target": "node-yj2GTGrlDHp9gNd3C476k",
+      "animated": true
+    },
+    {
+      "id": "edge-node-yj2GTGrlDHp9gNd3C476k-node-Hp51JS9rwAMdWhYnex5NB",
+      "source": "node-yj2GTGrlDHp9gNd3C476k",
+      "target": "node-Hp51JS9rwAMdWhYnex5NB",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Hp51JS9rwAMdWhYnex5NB-node-9XDJcFh7V-7ppAEP_8hJl",
+      "source": "node-Hp51JS9rwAMdWhYnex5NB",
+      "target": "node-9XDJcFh7V-7ppAEP_8hJl",
+      "animated": true
+    },
+    {
+      "id": "edge-node-9XDJcFh7V-7ppAEP_8hJl-node-74sme3agcXP7TRSGjYcWG",
+      "source": "node-9XDJcFh7V-7ppAEP_8hJl",
+      "target": "node-74sme3agcXP7TRSGjYcWG",
+      "animated": true
+    },
+    {
+      "id": "edge-node-74sme3agcXP7TRSGjYcWG-node-wgopn2aZpRKXKw3PSCvWQ",
+      "source": "node-74sme3agcXP7TRSGjYcWG",
+      "target": "node-wgopn2aZpRKXKw3PSCvWQ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-wgopn2aZpRKXKw3PSCvWQ-node-obhoMq0OIyEolhppby1XM",
+      "source": "node-wgopn2aZpRKXKw3PSCvWQ",
+      "target": "node-obhoMq0OIyEolhppby1XM",
+      "animated": true
+    },
+    {
+      "id": "edge-node-obhoMq0OIyEolhppby1XM-node-1bCeydLILdEKV9NJe83gK",
+      "source": "node-obhoMq0OIyEolhppby1XM",
+      "target": "node-1bCeydLILdEKV9NJe83gK",
+      "animated": true
+    },
+    {
+      "id": "edge-node-1bCeydLILdEKV9NJe83gK-node-v5fDxilI3q2vvt_B4Mxer",
+      "source": "node-1bCeydLILdEKV9NJe83gK",
+      "target": "node-v5fDxilI3q2vvt_B4Mxer",
+      "animated": true
+    },
+    {
+      "id": "edge-node-v5fDxilI3q2vvt_B4Mxer-node-BaIUVApePcGNdYabadnbz",
+      "source": "node-v5fDxilI3q2vvt_B4Mxer",
+      "target": "node-BaIUVApePcGNdYabadnbz",
+      "animated": true
+    },
+    {
+      "id": "edge-node-BaIUVApePcGNdYabadnbz-node-qaZfDil0Slda9t-RN0KWH",
+      "source": "node-BaIUVApePcGNdYabadnbz",
+      "target": "node-qaZfDil0Slda9t-RN0KWH",
+      "animated": true
+    },
+    {
+      "id": "edge-node-qaZfDil0Slda9t-RN0KWH-node-mJifV0kjJTwkllmZVSqec",
+      "source": "node-qaZfDil0Slda9t-RN0KWH",
+      "target": "node-mJifV0kjJTwkllmZVSqec",
+      "animated": true
+    },
+    {
+      "id": "edge-node-mJifV0kjJTwkllmZVSqec-node-_dWrjp_fK4gmGwiWrgBbb",
+      "source": "node-mJifV0kjJTwkllmZVSqec",
+      "target": "node-_dWrjp_fK4gmGwiWrgBbb",
+      "animated": true
+    },
+    {
+      "id": "edge-node-_dWrjp_fK4gmGwiWrgBbb-node-Q-6tdHPE-xpPGIG8J_Wz7",
+      "source": "node-_dWrjp_fK4gmGwiWrgBbb",
+      "target": "node-Q-6tdHPE-xpPGIG8J_Wz7",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Q-6tdHPE-xpPGIG8J_Wz7-node-SABFbvM47j1cYCyeNfMZR",
+      "source": "node-Q-6tdHPE-xpPGIG8J_Wz7",
+      "target": "node-SABFbvM47j1cYCyeNfMZR",
+      "animated": true
+    },
+    {
+      "id": "edge-node-SABFbvM47j1cYCyeNfMZR-node-AUzbo8UwpL-XxvhMCvtoe",
+      "source": "node-SABFbvM47j1cYCyeNfMZR",
+      "target": "node-AUzbo8UwpL-XxvhMCvtoe",
+      "animated": true
+    },
+    {
+      "id": "edge-node-AUzbo8UwpL-XxvhMCvtoe-node-Mq4Oo9cCWqkPGHkgpNRTz",
+      "source": "node-AUzbo8UwpL-XxvhMCvtoe",
+      "target": "node-Mq4Oo9cCWqkPGHkgpNRTz",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Mq4Oo9cCWqkPGHkgpNRTz-node-U3oH6TFRezkciuROAU0wd",
+      "source": "node-Mq4Oo9cCWqkPGHkgpNRTz",
+      "target": "node-U3oH6TFRezkciuROAU0wd",
+      "animated": true
+    },
+    {
+      "id": "edge-node-U3oH6TFRezkciuROAU0wd-node-vo34F_AHkMlyq6uNRPk-1",
+      "source": "node-U3oH6TFRezkciuROAU0wd",
+      "target": "node-vo34F_AHkMlyq6uNRPk-1",
+      "animated": true
+    },
+    {
+      "id": "edge-node-vo34F_AHkMlyq6uNRPk-1-node-v0IUvnrLv3OiBQ-NkM9Lv",
+      "source": "node-vo34F_AHkMlyq6uNRPk-1",
+      "target": "node-v0IUvnrLv3OiBQ-NkM9Lv",
+      "animated": true
+    },
+    {
+      "id": "edge-node-v0IUvnrLv3OiBQ-NkM9Lv-node-ZwlCU9jE9YBcEOBo0vFqq",
+      "source": "node-v0IUvnrLv3OiBQ-NkM9Lv",
+      "target": "node-ZwlCU9jE9YBcEOBo0vFqq",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ZwlCU9jE9YBcEOBo0vFqq-node-SNcVcjcvtph3W7KTx1N-v",
+      "source": "node-ZwlCU9jE9YBcEOBo0vFqq",
+      "target": "node-SNcVcjcvtph3W7KTx1N-v",
+      "animated": true
+    },
+    {
+      "id": "edge-node-SNcVcjcvtph3W7KTx1N-v-node-yRqSmhRwvZXbNXuCNYCzo",
+      "source": "node-SNcVcjcvtph3W7KTx1N-v",
+      "target": "node-yRqSmhRwvZXbNXuCNYCzo",
+      "animated": true
+    },
+    {
+      "id": "edge-node-yRqSmhRwvZXbNXuCNYCzo-node-4LjxorN5jQnm9ZWKPk-pu",
+      "source": "node-yRqSmhRwvZXbNXuCNYCzo",
+      "target": "node-4LjxorN5jQnm9ZWKPk-pu",
+      "animated": true
+    },
+    {
+      "id": "edge-node-4LjxorN5jQnm9ZWKPk-pu-node-sO-XiY9yJZMedzyR_7Gdq",
+      "source": "node-4LjxorN5jQnm9ZWKPk-pu",
+      "target": "node-sO-XiY9yJZMedzyR_7Gdq",
+      "animated": true
+    },
+    {
+      "id": "edge-node-sO-XiY9yJZMedzyR_7Gdq-node-quGp1pgbrEH37WA5URb_g",
+      "source": "node-sO-XiY9yJZMedzyR_7Gdq",
+      "target": "node-quGp1pgbrEH37WA5URb_g",
+      "animated": true
+    },
+    {
+      "id": "edge-node-quGp1pgbrEH37WA5URb_g-node-xep8iF-7XOYLY2xeblM-A",
+      "source": "node-quGp1pgbrEH37WA5URb_g",
+      "target": "node-xep8iF-7XOYLY2xeblM-A",
+      "animated": true
+    }
+  ],
+  "topics": {
+    "l7bBJLtKWkrzSfSPkZlBI": {
+      "id": "l7bBJLtKWkrzSfSPkZlBI",
+      "slug": "absolute-vs-relative",
+      "title": "Absolute vs. Relative Units",
+      "description": "Absolute units in CSS represent fixed measurements, like pixels (px) or inches (in), and will always render at the same size regardless of screen size or other factors. Relative units, on the other hand, are based on other values, such as the font size of the parent element (em), the viewport width (vw), or the root element's font size (rem), allowing for more flexible and responsive layouts.",
+      "resources": [
+        {
+          "id": "l7bBJLtKWkrzSfSPkZlBI-res-1",
+          "type": "article",
+          "title": "What are Absolute and Relative Units in CSS? Explained with Examples",
+          "url": "https://www.freecodecamp.org/news/absolute-and-relative-css-units"
+        }
+      ]
+    },
+    "7LhPT3h-BEdHSF2iOevVl": {
+      "id": "7LhPT3h-BEdHSF2iOevVl",
+      "slug": "absolute",
+      "title": "Absolute Positioning",
+      "description": "Absolute positioning in CSS allows you to precisely place an element relative to its nearest positioned ancestor (an ancestor with a position value other than `static`). If no such ancestor exists, the element is positioned relative to the initial containing block, which is typically the `<html>` element. Elements with `position: absolute` are removed from the normal document flow, meaning they don't affect the positioning of other elements around them.",
+      "resources": [
+        {
+          "id": "7LhPT3h-BEdHSF2iOevVl-res-1",
+          "type": "video",
+          "title": "CSS position deep dive",
+          "url": "https://www.youtube.com/watch?v=fF_NVrd1s14"
+        }
+      ]
+    },
+    "LDIZoK-XgmwqPdLH01vC5": {
+      "id": "LDIZoK-XgmwqPdLH01vC5",
+      "slug": "accessibility",
+      "title": "Accessibility",
+      "description": "Accessibility in CSS focuses on creating web content that is usable by everyone, regardless of their abilities or disabilities. This involves using semantic HTML, providing alternative text for images, ensuring sufficient color contrast, and designing layouts that are navigable with assistive technologies like screen readers. By following accessibility best practices, developers can build inclusive websites that provide a better experience for all users.",
+      "resources": [
+        {
+          "id": "LDIZoK-XgmwqPdLH01vC5-res-1",
+          "type": "article",
+          "title": "CSS and JavaScript accessibility best practices",
+          "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility/CSS_and_JavaScript"
+        },
+        {
+          "id": "LDIZoK-XgmwqPdLH01vC5-res-2",
+          "type": "article",
+          "title": "CSS Accessibility Styling",
+          "url": "https://www.w3schools.com/css/css_accessibility.asp"
+        },
+        {
+          "id": "LDIZoK-XgmwqPdLH01vC5-res-3",
+          "type": "article",
+          "title": "How to Use CSS to Improve Web Accessibility",
+          "url": "https://www.freecodecamp.org/news/how-to-use-css-to-improve-web-accessibility/"
+        }
+      ]
+    },
+    "m6KQMN1XWo4uWqs2F3KXH": {
+      "id": "m6KQMN1XWo4uWqs2F3KXH",
+      "slug": "attribute-selectors",
+      "title": "Attribute Selectors",
+      "description": "Attribute selectors in CSS target HTML elements based on the presence or value of their attributes. They allow you to style elements more precisely than using just tag names or classes. For example, you can select all elements with a specific attribute, or only those where the attribute's value matches a certain string.",
+      "resources": [
+        {
+          "id": "m6KQMN1XWo4uWqs2F3KXH-res-1",
+          "type": "article",
+          "title": "Attribute Selectors",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors"
+        },
+        {
+          "id": "m6KQMN1XWo4uWqs2F3KXH-res-2",
+          "type": "article",
+          "title": "Attribute Selectors | CSS Tricks",
+          "url": "https://css-tricks.com/almanac/selectors/a/attribute/"
+        },
+        {
+          "id": "m6KQMN1XWo4uWqs2F3KXH-res-3",
+          "type": "video",
+          "title": "Attribute Selectors in detail - CSS Tutorial",
+          "url": "https://www.youtube.com/watch?v=m_upHrxjR8s"
+        }
+      ]
+    },
+    "6i0Zl05VMzUsh47cuUH4-": {
+      "id": "6i0Zl05VMzUsh47cuUH4-",
+      "slug": "background-attachment",
+      "title": "Background Attachment",
+      "description": "Background attachment in CSS controls how a background image behaves when the page is scrolled. It determines whether the background image scrolls along with the content or remains fixed in place. This property is useful for creating visual effects like parallax scrolling or keeping a watermark visible regardless of the user's scroll position.",
+      "resources": [
+        {
+          "id": "6i0Zl05VMzUsh47cuUH4--res-1",
+          "type": "article",
+          "title": "Background Attachment",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/background-attachment"
+        },
+        {
+          "id": "6i0Zl05VMzUsh47cuUH4--res-2",
+          "type": "video",
+          "title": "CSS - Background Attachment - W3Schools.com",
+          "url": "https://www.youtube.com/watch?v=lXs8BRnrW_M"
+        }
+      ]
+    },
+    "ATd9RE303X79aAmqvwS08": {
+      "id": "ATd9RE303X79aAmqvwS08",
+      "slug": "background-color",
+      "title": "Background Color",
+      "description": "Background color in CSS sets the color of an element's background. It fills the entire box of an element, including padding, but not the border or margin. You can specify the color using color names (like \"red\"), hexadecimal values (like \"#FF0000\"), RGB values (like \"rgb(255, 0, 0)\"), or other color formats.",
+      "resources": [
+        {
+          "id": "ATd9RE303X79aAmqvwS08-res-1",
+          "type": "article",
+          "title": "Background Color",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/background-color"
+        },
+        {
+          "id": "ATd9RE303X79aAmqvwS08-res-2",
+          "type": "video",
+          "title": "CSS - Background Colors - W3Schools.com",
+          "url": "https://www.youtube.com/watch?v=-itttmX6HX0&pp=ygUUYmFja2dyb3VuZCBjb2xvciBjc3M%3D"
+        }
+      ]
+    },
+    "_9QA5_mLJ8_eiQN0ucIkQ": {
+      "id": "_9QA5_mLJ8_eiQN0ucIkQ",
+      "slug": "background-gradient",
+      "title": "Background Gradient",
+      "description": "Background gradients in CSS allow you to create smooth transitions between two or more colors for the background of an element. Instead of a solid color, you can define a gradient that blends colors together, adding visual depth and interest to your designs. These gradients can be linear (flowing in a straight line), radial (emanating from a center point), or conic (rotating around a center point).",
+      "resources": [
+        {
+          "id": "_9QA5_mLJ8_eiQN0ucIkQ-res-1",
+          "type": "article",
+          "title": "CSS gradients",
+          "url": "https://www.w3schools.com/css/css3_gradients.asp"
+        },
+        {
+          "id": "_9QA5_mLJ8_eiQN0ucIkQ-res-2",
+          "type": "video",
+          "title": "CSS Gradient Background - One Minute Coding ⏱",
+          "url": "https://www.youtube.com/watch?v=NINIuzyWZ2c"
+        }
+      ]
+    },
+    "d-rp-EHKyHnzuIHWHOc7C": {
+      "id": "d-rp-EHKyHnzuIHWHOc7C",
+      "slug": "background-image",
+      "title": "Background Image",
+      "description": "A background image in CSS lets you add an image to the background of an HTML element. This image can be a simple pattern, a photograph, or any other visual element you want to display behind the content of your element. You can control how the image is positioned, repeated, and sized within the background area.",
+      "resources": [
+        {
+          "id": "d-rp-EHKyHnzuIHWHOc7C-res-1",
+          "type": "article",
+          "title": "MDN – background-image",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/background-image"
+        },
+        {
+          "id": "d-rp-EHKyHnzuIHWHOc7C-res-2",
+          "type": "article",
+          "title": "CSS-Tricks – A Complete Guide to CSS Backgrounds",
+          "url": "https://css-tricks.com/almanac/properties/b/background/"
+        },
+        {
+          "id": "d-rp-EHKyHnzuIHWHOc7C-res-3",
+          "type": "video",
+          "title": "How to include a CSS background image 🏙️",
+          "url": "https://www.youtube.com/watch?v=_oFWg_NlKdo"
+        },
+        {
+          "id": "d-rp-EHKyHnzuIHWHOc7C-res-4",
+          "type": "video",
+          "title": "Background images with HTML & CSS",
+          "url": "https://www.youtube.com/watch?v=zHZRFwWQt2w"
+        }
+      ]
+    },
+    "BBpeQcb7Y21C7-r3PFIMW": {
+      "id": "BBpeQcb7Y21C7-r3PFIMW",
+      "slug": "background-position",
+      "title": "Background Position",
+      "description": "Background position in CSS controls where a background image is placed within its element. It lets you specify the horizontal and vertical placement of the image, using keywords like `top`, `bottom`, `left`, `right`, and `center`, or with numerical values (pixels, percentages, etc.) to fine-tune the exact location. This property is useful for aligning background images in specific ways, creating visual effects, or ensuring that important parts of the image are always visible.",
+      "resources": [
+        {
+          "id": "BBpeQcb7Y21C7-r3PFIMW-res-1",
+          "type": "article",
+          "title": "Background Position",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/background-position"
+        },
+        {
+          "id": "BBpeQcb7Y21C7-r3PFIMW-res-2",
+          "type": "video",
+          "title": "CSS Property : background-position explained !",
+          "url": "https://www.youtube.com/watch?v=S_rcA0JKEaE"
+        }
+      ]
+    },
+    "RqyaHX4Krk9e-6Eq9FHnS": {
+      "id": "RqyaHX4Krk9e-6Eq9FHnS",
+      "slug": "background",
+      "title": "Background",
+      "description": "In CSS, the term \"background\" refers to the properties that control the visual appearance of an element's background. This includes aspects like the background color, image, its positioning, whether it repeats, and its size. These properties allow you to add visual interest and customize the look of your web pages.",
+      "resources": [
+        {
+          "id": "RqyaHX4Krk9e-6Eq9FHnS-res-1",
+          "type": "video",
+          "title": "Learn CSS background in 3 minutes",
+          "url": "https://www.youtube.com/watch?v=YA8ZciJa64k"
+        }
+      ]
+    },
+    "r28JBMZLEqZMDm-tVDYZk": {
+      "id": "r28JBMZLEqZMDm-tVDYZk",
+      "slug": "bem",
+      "title": "BEM",
+      "description": "BEM (Block, Element, Modifier) is a CSS naming convention that helps developers create more modular, reusable, and maintainable code. It structures class names to reflect the relationships between different parts of a user interface. This approach makes it easier to understand the purpose of each CSS rule and how it relates to the HTML structure, leading to more organized and scalable stylesheets.",
+      "resources": [
+        {
+          "id": "r28JBMZLEqZMDm-tVDYZk-res-1",
+          "type": "article",
+          "title": "BEM",
+          "url": "https://getbem.com/"
+        },
+        {
+          "id": "r28JBMZLEqZMDm-tVDYZk-res-2",
+          "type": "article",
+          "title": "BEM 101",
+          "url": "https://css-tricks.com/bem-101/"
+        },
+        {
+          "id": "r28JBMZLEqZMDm-tVDYZk-res-3",
+          "type": "video",
+          "title": "Why I use the BEM naming convention for my CSS",
+          "url": "https://www.youtube.com/watch?v=SLjHSVwXYq4"
+        }
+      ]
+    },
+    "uhHBvhgHjmIZDeOEPi_pZ": {
+      "id": "uhHBvhgHjmIZDeOEPi_pZ",
+      "slug": "block",
+      "title": "Block Display",
+      "description": "The `display: block;` property in CSS makes an element behave like a block-level element. This means it will take up the full width available to it, starting on a new line and pushing subsequent content to a new line as well. Block elements typically define the major structural components of a webpage.",
+      "resources": [
+        {
+          "id": "uhHBvhgHjmIZDeOEPi_pZ-res-1",
+          "type": "video",
+          "title": "Block, Inline, and Inline-Block explained | CSS Tutorial",
+          "url": "https://www.youtube.com/watch?v=x_i2gga-sYg"
+        }
+      ]
+    },
+    "tOADYKk7o5cFaMLKxdiYa": {
+      "id": "tOADYKk7o5cFaMLKxdiYa",
+      "slug": "border",
+      "title": "Border",
+      "description": "In CSS, the `border` property defines the line that surrounds an HTML element's content and padding. It controls the border's style (like solid, dashed, or dotted), width (thickness), and color. You can set all these properties at once using the shorthand `border` property, or individually using `border-style`, `border-width`, and `border-color`.",
+      "resources": [
+        {
+          "id": "tOADYKk7o5cFaMLKxdiYa-res-1",
+          "type": "article",
+          "title": "Border",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/border"
+        },
+        {
+          "id": "tOADYKk7o5cFaMLKxdiYa-res-2",
+          "type": "video",
+          "title": "Learn CSS borders in 4 minutes!",
+          "url": "https://www.youtube.com/watch?v=pkNdQ7TmxIw"
+        }
+      ]
+    },
+    "AJR5CRYOedHzJ20hROIjo": {
+      "id": "AJR5CRYOedHzJ20hROIjo",
+      "slug": "box-model",
+      "title": "Box Model",
+      "description": "The CSS box model describes how elements on a webpage are structured as rectangular boxes. Each box consists of content (text, images, etc.), padding (space around the content), a border (a line around the padding and content), and a margin (space around the border). Understanding the box model is crucial for controlling the size and spacing of elements on a webpage.",
+      "resources": [
+        {
+          "id": "AJR5CRYOedHzJ20hROIjo-res-1",
+          "type": "article",
+          "title": "The box model",
+          "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Box_model"
+        },
+        {
+          "id": "AJR5CRYOedHzJ20hROIjo-res-2",
+          "type": "video",
+          "title": "Learn CSS Box Model In 8 Minutes",
+          "url": "https://www.youtube.com/watch?v=rIO5326FgPE"
+        }
+      ]
+    },
+    "jPSQNDH4UpmVoLEf6RIjy": {
+      "id": "jPSQNDH4UpmVoLEf6RIjy",
+      "slug": "box-shadows",
+      "title": "Box Shadows",
+      "description": "Box shadows in CSS are visual effects that add depth and dimension to elements by creating a shadow around their frames. These shadows can be customized in terms of color, offset (horizontal and vertical distance), blur radius, and spread radius, allowing designers to simulate various lighting conditions and create visually appealing interfaces. Box shadows can be applied to almost any HTML element, enhancing the user experience by highlighting important elements or adding a subtle sense of realism.",
+      "resources": [
+        {
+          "id": "jPSQNDH4UpmVoLEf6RIjy-res-1",
+          "type": "article",
+          "title": "Box Shadows",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow"
+        },
+        {
+          "id": "jPSQNDH4UpmVoLEf6RIjy-res-2",
+          "type": "video",
+          "title": "CSS Box-Shadow tutorial: the basics",
+          "url": "https://www.youtube.com/watch?v=-JNRQ5HjNeI"
+        }
+      ]
+    },
+    "Y4ODIPSKsWg0k1K5rHVh7": {
+      "id": "Y4ODIPSKsWg0k1K5rHVh7",
+      "slug": "cascading-order",
+      "title": "Cascading Order",
+      "description": "Cascading order in CSS determines which styles are applied to an element when multiple conflicting rules target the same element. It's a set of rules that browsers follow to resolve these conflicts, prioritizing styles based on factors like importance, specificity, and source order. Understanding the cascading order is crucial for predicting and controlling how styles are applied to your web pages.",
+      "resources": [
+        {
+          "id": "Y4ODIPSKsWg0k1K5rHVh7-res-1",
+          "type": "article",
+          "title": "Introduction to the CSS cascade",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_cascade/Cascade"
+        },
+        {
+          "id": "Y4ODIPSKsWg0k1K5rHVh7-res-2",
+          "type": "article",
+          "title": "Handling conflicts",
+          "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Handling_conflicts"
+        }
+      ]
+    },
+    "UojAVB7wZgGhLd9r8ZVYF": {
+      "id": "UojAVB7wZgGhLd9r8ZVYF",
+      "slug": "child",
+      "title": "Child Combinator",
+      "description": "The child combinator selector in CSS allows you to target elements that are direct children of a specified parent element. It uses the `>` symbol to denote this direct parent-child relationship. This selector ensures that styles are only applied to elements that are immediately nested within the parent, ignoring any deeper descendants.",
+      "resources": [
+        {
+          "id": "UojAVB7wZgGhLd9r8ZVYF-res-1",
+          "type": "article",
+          "title": "Child combinator",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Child_combinator"
+        },
+        {
+          "id": "UojAVB7wZgGhLd9r8ZVYF-res-2",
+          "type": "article",
+          "title": "Child and Sibling Selectors",
+          "url": "https://css-tricks.com/child-and-sibling-selectors/"
+        }
+      ]
+    },
+    "p3niPUep5J2h4x0tv4CLM": {
+      "id": "p3niPUep5J2h4x0tv4CLM",
+      "slug": "class",
+      "title": "Class Selectors",
+      "description": "Class selectors in CSS are used to select HTML elements based on the `class` attribute. They allow you to apply specific styles to elements that share a common class name. You define a class selector by using a period (`.`) followed by the class name.",
+      "resources": [
+        {
+          "id": "p3niPUep5J2h4x0tv4CLM-res-1",
+          "type": "article",
+          "title": "Class selectors",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors"
+        },
+        {
+          "id": "p3niPUep5J2h4x0tv4CLM-res-2",
+          "type": "article",
+          "title": "The Beginner's Guide to CSS Classes & .class Selectors",
+          "url": "https://blog.hubspot.com/website/what-is-css-class"
+        }
+      ]
+    },
+    "lo6OuD5hsZ7_r01jp-u0U": {
+      "id": "lo6OuD5hsZ7_r01jp-u0U",
+      "slug": "color",
+      "title": "Color",
+      "description": "Color in CSS is used to specify the foreground color of text and other elements. It can be defined using various methods, including named colors (like \"red\" or \"blue\"), hexadecimal values (like \"#FF0000\"), RGB values (like \"rgb(255, 0, 0)\"), RGBA values (which include an alpha channel for transparency), HSL values (hue, saturation, lightness), and HSLA values (which include an alpha channel for HSL).",
+      "resources": [
+        {
+          "id": "lo6OuD5hsZ7_r01jp-u0U-res-1",
+          "type": "article",
+          "title": "Text color",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/color"
+        },
+        {
+          "id": "lo6OuD5hsZ7_r01jp-u0U-res-2",
+          "type": "article",
+          "title": "CSS Font Color – How to Style Text in HTML",
+          "url": "https://www.freecodecamp.org/news/css-font-color-how-to-style-text-in-html/"
+        }
+      ]
+    },
+    "8xpK4SVUDvxil_hR-LaJ4": {
+      "id": "8xpK4SVUDvxil_hR-LaJ4",
+      "slug": "combinator-selectors",
+      "title": "Combinator Selectors",
+      "description": "Combinator selectors in CSS define the relationship between elements based on their position in the document's structure. They allow you to target elements that are descendants, children, adjacent siblings, or general siblings of another element. This provides a powerful way to apply styles based on the HTML hierarchy, going beyond simple class or ID targeting.",
+      "resources": [
+        {
+          "id": "8xpK4SVUDvxil_hR-LaJ4-res-1",
+          "type": "article",
+          "title": "Combinators",
+          "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Combinators"
+        },
+        {
+          "id": "8xpK4SVUDvxil_hR-LaJ4-res-2",
+          "type": "video",
+          "title": "Learn CSS combinators in 4 minutes!",
+          "url": "https://www.youtube.com/watch?v=swZFmJsU54s"
+        }
+      ]
+    },
+    "UKUulhLMTcmwi-jDDoGTp": {
+      "id": "UKUulhLMTcmwi-jDDoGTp",
+      "slug": "comments",
+      "title": "Comments",
+      "description": "Comments in CSS are notes that you add to your code to explain what it does, or to temporarily disable parts of your code. Browsers ignore these comments, so they don't affect how your website looks. You create a CSS comment by starting with `/*` and ending with `*/`.",
+      "resources": [
+        {
+          "id": "UKUulhLMTcmwi-jDDoGTp-res-1",
+          "type": "article",
+          "title": "CSS Comments",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_syntax/Comments"
+        },
+        {
+          "id": "UKUulhLMTcmwi-jDDoGTp-res-2",
+          "type": "video",
+          "title": "HTML & CSS for Absolute Beginners: HTML Comments",
+          "url": "https://www.youtube.com/watch?v=NTlhOJIy8HY"
+        }
+      ]
+    },
+    "IkN7i3ERk_lTOD0mBj3JO": {
+      "id": "IkN7i3ERk_lTOD0mBj3JO",
+      "slug": "container-queries",
+      "title": "Container Queries",
+      "description": "Container Queries are a CSS feature that allows styles to be applied to an element based on the size or other characteristics of its containing element, rather than the viewport. This enables more granular and context-aware styling, where components can adapt their appearance based on the space available within their parent container, leading to more flexible and reusable designs.",
+      "resources": [
+        {
+          "id": "IkN7i3ERk_lTOD0mBj3JO-res-1",
+          "type": "article",
+          "title": "CSS container queries",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_containment/Container_queries"
+        },
+        {
+          "id": "IkN7i3ERk_lTOD0mBj3JO-res-2",
+          "type": "article",
+          "title": "CSS Container Queries Guide",
+          "url": "https://css-tricks.com/css-container-queries/"
+        },
+        {
+          "id": "IkN7i3ERk_lTOD0mBj3JO-res-3",
+          "type": "video",
+          "title": "Master CSS container queries and boost your web design skills!",
+          "url": "https://www.youtube.com/watch?v=8x8lxX5IGHY"
+        }
+      ]
+    },
+    "hq4lsadaQAmTD6vBdmJ_W": {
+      "id": "hq4lsadaQAmTD6vBdmJ_W",
+      "slug": "css-basics",
+      "title": "CSS Basics",
+      "description": "CSS Basics encompass the fundamental building blocks for styling web pages. This includes understanding selectors (how to target specific HTML elements), properties (the visual characteristics you want to change, like color or font size), and values (the specific settings for those properties, such as \"red\" or \"16px\"). Mastering these basics allows you to control the presentation of your website's content.",
+      "resources": []
+    },
+    "I1wmKcLyjQUiJXPtsGye7": {
+      "id": "I1wmKcLyjQUiJXPtsGye7",
+      "slug": "css-functions",
+      "title": "CSS Functions",
+      "description": "CSS functions are pre-defined operations that perform specific tasks within your CSS code. They allow you to manipulate values, perform calculations, and generate dynamic results, making your stylesheets more flexible and powerful. These functions are used within CSS property values to modify or create those values based on certain inputs.",
+      "resources": [
+        {
+          "id": "I1wmKcLyjQUiJXPtsGye7-res-1",
+          "type": "article",
+          "title": "CSS value functions",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Values_and_Units/CSS_Value_Functions"
+        },
+        {
+          "id": "I1wmKcLyjQUiJXPtsGye7-res-2",
+          "type": "article",
+          "title": "Functions",
+          "url": "https://web.dev/learn/css/functions"
+        },
+        {
+          "id": "I1wmKcLyjQUiJXPtsGye7-res-3",
+          "type": "article",
+          "title": "Functions in CSS?!",
+          "url": "https://css-tricks.com/functions-in-css/"
+        },
+        {
+          "id": "I1wmKcLyjQUiJXPtsGye7-res-4",
+          "type": "video",
+          "title": "First look at FUNCTIONS in CSS!!!",
+          "url": "https://www.youtube.com/watch?v=fhuYPNlBkyw"
+        }
+      ]
+    },
+    "UInkC4leVjIsSXPN1y62W": {
+      "id": "UInkC4leVjIsSXPN1y62W",
+      "slug": "css-in-js",
+      "title": "CSS-in-JS",
+      "description": "CSS-in-JS is a technique where CSS styles are written with JavaScript instead of external CSS files. This approach allows you to use JavaScript's capabilities, like variables, logic, and component-based architecture, to manage and apply styles directly within your JavaScript code. It offers benefits such as scoped styling, dynamic styling based on component state, and easier management of complex CSS projects.",
+      "resources": [
+        {
+          "id": "UInkC4leVjIsSXPN1y62W-res-1",
+          "type": "article",
+          "title": "A Thorough Analysis of CSS-in-JS",
+          "url": "http://css-tricks.com/a-thorough-analysis-of-css-in-js/"
+        }
+      ]
+    },
+    "DjeaAmUlNtNV3f8W0-dKf": {
+      "id": "DjeaAmUlNtNV3f8W0-dKf",
+      "slug": "css-modules",
+      "title": "CSS Modules",
+      "description": "CSS Modules are a system where CSS class names and animation names are scoped locally by default. This means that the class names you define in your CSS files are automatically transformed to be unique, preventing naming collisions and making it easier to manage styles in large projects. They offer a way to write modular and reusable CSS, ensuring that styles are applied only to the intended components.",
+      "resources": [
+        {
+          "id": "DjeaAmUlNtNV3f8W0-dKf-res-1",
+          "type": "article",
+          "title": "What are CSS Modules and why do we need them?",
+          "url": "https://css-tricks.com/css-modules-part-1-need/"
+        },
+        {
+          "id": "DjeaAmUlNtNV3f8W0-dKf-res-2",
+          "type": "video",
+          "title": "CSS Modules: Why are they great?",
+          "url": "https://www.youtube.com/watch?v=pKMWU9OrA2s"
+        }
+      ]
+    },
+    "iLVla2ZPA3WlWFmP2sc6H": {
+      "id": "iLVla2ZPA3WlWFmP2sc6H",
+      "slug": "css-specificity",
+      "title": "CSS Specificity",
+      "description": "CSS Specificity is the set of rules that browsers use to determine which CSS declarations apply to an element when multiple conflicting rules exist. It's essentially a weighting system that prioritizes certain CSS selectors over others, ensuring that the most relevant style is applied. Understanding specificity is crucial for controlling how your CSS styles are applied and resolving unexpected styling issues.",
+      "resources": [
+        {
+          "id": "iLVla2ZPA3WlWFmP2sc6H-res-1",
+          "type": "article",
+          "title": "Specificity",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_cascade/Specificity"
+        },
+        {
+          "id": "iLVla2ZPA3WlWFmP2sc6H-res-2",
+          "type": "video",
+          "title": "CSS Specificity explained",
+          "url": "https://www.youtube.com/watch?v=c0kfcP_nD9E"
+        }
+      ]
+    },
+    "ffhmG-be4Ct09eOxwzU9y": {
+      "id": "ffhmG-be4Ct09eOxwzU9y",
+      "slug": "css-units",
+      "title": "CSS Units",
+      "description": "CSS units define the size of elements and properties in a webpage. They specify how measurements like width, height, font size, and margins are interpreted by the browser. These units can be absolute, like pixels (px) or centimeters (cm), or relative, like em, rem, or viewport units (vw, vh), allowing for flexible and responsive layouts that adapt to different screen sizes and resolutions.",
+      "resources": [
+        {
+          "id": "ffhmG-be4Ct09eOxwzU9y-res-1",
+          "type": "article",
+          "title": "CSS Units",
+          "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Values_and_units"
+        },
+        {
+          "id": "ffhmG-be4Ct09eOxwzU9y-res-2",
+          "type": "video",
+          "title": "Learn CSS Units In 8 Minutes",
+          "url": "https://www.youtube.com/watch?v=-GR52czEd-0"
+        }
+      ]
+    },
+    "WGR5E9CXsZCxIhwZyCSKq": {
+      "id": "WGR5E9CXsZCxIhwZyCSKq",
+      "slug": "css-variables",
+      "title": "CSS Variables",
+      "description": "CSS Variables, also known as custom properties, are entities defined by CSS authors that contain specific values to be reused throughout a stylesheet. They allow you to store a value in one place and then reference it in multiple other places, making it easier to maintain and update your CSS code. This promotes consistency and reduces repetition, leading to more efficient and manageable stylesheets.",
+      "resources": [
+        {
+          "id": "WGR5E9CXsZCxIhwZyCSKq-res-1",
+          "type": "article",
+          "title": "Using CSS custom properties (variables)",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_cascading_variables/Using_CSS_custom_properties"
+        },
+        {
+          "id": "WGR5E9CXsZCxIhwZyCSKq-res-2",
+          "type": "article",
+          "title": "How to use CSS variables like a pro",
+          "url": "https://blog.logrocket.com/how-to-use-css-variables/"
+        },
+        {
+          "id": "WGR5E9CXsZCxIhwZyCSKq-res-3",
+          "type": "video",
+          "title": "Learn CSS Variables In 7 Minutes",
+          "url": "https://www.youtube.com/watch?v=5wLrz_zUwoU"
+        }
+      ]
+    },
+    "9ZUXy6s9IAIEM5GHk_bXR": {
+      "id": "9ZUXy6s9IAIEM5GHk_bXR",
+      "slug": "css",
+      "title": "CSS",
+      "description": "CSS (Cascading Style Sheets) is a language used to describe the presentation of a document written in HTML or XML. It controls the layout, colors, fonts, and other visual aspects of web pages, ensuring a consistent and visually appealing user experience across different devices and screen sizes. Essentially, CSS separates the content of a webpage from its design, making websites easier to maintain and update.",
+      "resources": [
+        {
+          "id": "9ZUXy6s9IAIEM5GHk_bXR-res-1",
+          "type": "course",
+          "title": "Responsive Web Design Certification - Co-Learn HTML & CSS with guided projects",
+          "url": "https://www.freecodecamp.org/learn/responsive-web-design-v9/"
+        },
+        {
+          "id": "9ZUXy6s9IAIEM5GHk_bXR-res-2",
+          "type": "course",
+          "title": "Web.dev by Google — Learn CSS",
+          "url": "https://web.dev/learn/css/"
+        },
+        {
+          "id": "9ZUXy6s9IAIEM5GHk_bXR-res-3",
+          "type": "article",
+          "title": "Visit Dedicated JavaScript Roadmap",
+          "url": "https://roadmap.sh/css"
+        },
+        {
+          "id": "9ZUXy6s9IAIEM5GHk_bXR-res-4",
+          "type": "video",
+          "title": "CSS Complete Course",
+          "url": "https://www.youtube.com/watch?v=n4R2E7O-Ngo"
+        },
+        {
+          "id": "9ZUXy6s9IAIEM5GHk_bXR-res-5",
+          "type": "video",
+          "title": "HTML & CSS Full Course - Beginner to Pro",
+          "url": "https://www.youtube.com/watch?v=G3e-cpL7ofc"
+        },
+        {
+          "id": "9ZUXy6s9IAIEM5GHk_bXR-res-6",
+          "type": "article",
+          "title": "Explore top posts about CSS",
+          "url": "https://app.daily.dev/tags/css?ref=roadmapsh"
+        }
+      ]
+    },
+    "GULUvSWLu8sPRuH0Xnbi5": {
+      "id": "GULUvSWLu8sPRuH0Xnbi5",
+      "slug": "declaration",
+      "title": "Declaration",
+      "description": "A declaration in CSS is a single statement that specifies a property you want to style and the value you want to assign to that property. It's the fundamental building block for applying styles to HTML elements. Each declaration consists of a property name (like `color` or `font-size`), followed by a colon (`:`), and then a value (like `red` or `16px`). Declarations are always placed inside a CSS rule set, within the curly braces `{}`.",
+      "resources": [
+        {
+          "id": "GULUvSWLu8sPRuH0Xnbi5-res-1",
+          "type": "article",
+          "title": "Introduction to CSS syntax: declarations, rulesets, and statements",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_syntax/Syntax"
+        }
+      ]
+    },
+    "HB0GXMRA87a-NWv6JXxWg": {
+      "id": "HB0GXMRA87a-NWv6JXxWg",
+      "slug": "descendant",
+      "title": "Descendant Combinator",
+      "description": "The descendant combinator in CSS is a way to select HTML elements that are descendants of another element. It uses a single space (\" \") between two selectors. The selector on the right side of the space will select all elements that are descendants (children, grandchildren, etc.) of the element specified by the selector on the left side.",
+      "resources": [
+        {
+          "id": "HB0GXMRA87a-NWv6JXxWg-res-1",
+          "type": "article",
+          "title": "Descendant combinator",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_combinator"
+        },
+        {
+          "id": "HB0GXMRA87a-NWv6JXxWg-res-2",
+          "type": "article",
+          "title": "Descendant",
+          "url": "https://css-tricks.com/almanac/selectors/d/descendant/"
+        }
+      ]
+    },
+    "ZyqKZMIkQ22ysFqmhL3ZN": {
+      "id": "ZyqKZMIkQ22ysFqmhL3ZN",
+      "slug": "direction",
+      "title": "Direction",
+      "description": "The `direction` property in CSS sets the text direction of block-level elements, influencing how text, table columns, and inline-level boxes flow. While `direction` can be used to switch between left-to-right (LTR) and right-to-left (RTL) layouts, it's generally better to use the HTML `dir` global attribute. The `dir` attribute semantically indicates the document's or element's text direction, providing better accessibility and separation of concerns compared to styling direction with CSS.",
+      "resources": [
+        {
+          "id": "ZyqKZMIkQ22ysFqmhL3ZN-res-1",
+          "type": "article",
+          "title": "CSS Direction",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/direction"
+        },
+        {
+          "id": "ZyqKZMIkQ22ysFqmhL3ZN-res-2",
+          "type": "article",
+          "title": "HTML dir global attribute",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/dir"
+        },
+        {
+          "id": "ZyqKZMIkQ22ysFqmhL3ZN-res-3",
+          "type": "video",
+          "title": "CSS for beginners 60: direction property",
+          "url": "https://www.youtube.com/watch?v=LM0yIWmP62Q"
+        },
+        {
+          "id": "ZyqKZMIkQ22ysFqmhL3ZN-res-4",
+          "type": "video",
+          "title": "HTML Global Attributes - dir Attribute",
+          "url": "https://www.youtube.com/watch?v=6hqHM7Ez_Xg"
+        }
+      ]
+    },
+    "SSAhePvKuRJU4TQw5NuVZ": {
+      "id": "SSAhePvKuRJU4TQw5NuVZ",
+      "slug": "display",
+      "title": "Display",
+      "description": "The `display` property in CSS controls how an element is rendered on a webpage, specifically defining its box type and how it interacts with other elements. It determines whether an element is treated as a block-level element (taking up the full width available), an inline element (flowing within the text), or something else entirely, like a table or a grid container. This property is fundamental for controlling the layout and structure of web pages.",
+      "resources": [
+        {
+          "id": "SSAhePvKuRJU4TQw5NuVZ-res-1",
+          "type": "article",
+          "title": "Display",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/display"
+        },
+        {
+          "id": "SSAhePvKuRJU4TQw5NuVZ-res-2",
+          "type": "video",
+          "title": "Learn CSS display property in 4 minutes!",
+          "url": "https://www.youtube.com/watch?v=9T8uxp5hQ60"
+        }
+      ]
+    },
+    "FKQcANNYYf-kYQj-kyKL_": {
+      "id": "FKQcANNYYf-kYQj-kyKL_",
+      "slug": "element",
+      "title": "Element Selectors",
+      "description": "Element selectors in CSS target HTML elements directly by their tag name. They allow you to apply styles to all occurrences of a specific element, such as all `<p>` (paragraph) or `<h1>` (heading) tags on a webpage. This is the most basic type of selector and provides a straightforward way to style common HTML elements.",
+      "resources": [
+        {
+          "id": "FKQcANNYYf-kYQj-kyKL_-res-1",
+          "type": "article",
+          "title": "CSS selectors",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors"
+        },
+        {
+          "id": "FKQcANNYYf-kYQj-kyKL_-res-2",
+          "type": "article",
+          "title": "CSS Selectors Cheat Sheet",
+          "url": "https://www.sitepoint.com/css-selectors/"
+        }
+      ]
+    },
+    "kis-VQIdFVywHhBPr8tLY": {
+      "id": "kis-VQIdFVywHhBPr8tLY",
+      "slug": "external-css",
+      "title": "External CSS",
+      "description": "External CSS involves writing CSS rules in a separate file (with a `.css` extension) and then linking that file to your HTML document. This approach promotes cleaner code, easier maintenance, and reusability of styles across multiple web pages. By separating the styling from the content, you can modify the look and feel of your website without altering the HTML structure.",
+      "resources": [
+        {
+          "id": "kis-VQIdFVywHhBPr8tLY-res-1",
+          "type": "article",
+          "title": "Types of CSS: inline, external and internal definitions and differences explained",
+          "url": "https://www.hostinger.com/tutorials/difference-between-inline-external-and-internal-css"
+        },
+        {
+          "id": "kis-VQIdFVywHhBPr8tLY-res-2",
+          "type": "video",
+          "title": "External Style Sheets | CSS",
+          "url": "https://www.youtube.com/watch?v=2P_LUPc2HrM"
+        }
+      ]
+    },
+    "eL0kdDRPnwpCU_FWKDPkD": {
+      "id": "eL0kdDRPnwpCU_FWKDPkD",
+      "slug": "fixed",
+      "title": "Fixed Positioning",
+      "description": "Fixed positioning in CSS allows an element to be locked in place relative to the browser window. This means that even when the user scrolls the page, the element remains visible in the same location on the screen. It's often used for navigation bars, footers, or other elements that need to stay persistent.",
+      "resources": [
+        {
+          "id": "eL0kdDRPnwpCU_FWKDPkD-res-1",
+          "type": "article",
+          "title": "CSS position deep dive",
+          "url": "https://www.youtube.com/watch?v=fF_NVrd1s14"
+        }
+      ]
+    },
+    "Xa8oKhrZ2Y_Fsx3PjdMrt": {
+      "id": "Xa8oKhrZ2Y_Fsx3PjdMrt",
+      "slug": "flexbox",
+      "title": "Flexbox",
+      "description": "Flexbox is a CSS layout model that provides an efficient way to arrange, align, and distribute space among items in a container, even when their size is unknown or dynamic. It simplifies the creation of complex layouts by offering powerful tools for controlling the direction, order, size, and alignment of elements within a container. Flexbox is particularly useful for designing responsive and adaptable user interfaces.",
+      "resources": [
+        {
+          "id": "Xa8oKhrZ2Y_Fsx3PjdMrt-res-1",
+          "type": "article",
+          "title": "Flexbox",
+          "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Flexbox"
+        },
+        {
+          "id": "Xa8oKhrZ2Y_Fsx3PjdMrt-res-2",
+          "type": "article",
+          "title": "CSS Flexbox Layout Guide",
+          "url": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/"
+        },
+        {
+          "id": "Xa8oKhrZ2Y_Fsx3PjdMrt-res-3",
+          "type": "video",
+          "title": "Learn CSS Flexbox in 20 Minutes (Course)",
+          "url": "https://www.youtube.com/watch?v=wsTv9y931o8"
+        }
+      ]
+    },
+    "-uEIqIN1xxqlQzOmVgVUc": {
+      "id": "-uEIqIN1xxqlQzOmVgVUc",
+      "slug": "floating-elements",
+      "title": "Floating Elements",
+      "description": "Floating elements in CSS allow you to take an element out of the normal document flow and position it to the left or right of its containing element. Other content will then flow around the floated element. This technique is commonly used to create layouts where text wraps around images or to position elements side-by-side.",
+      "resources": [
+        {
+          "id": "-uEIqIN1xxqlQzOmVgVUc-res-1",
+          "type": "article",
+          "title": "Floating elements",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/float"
+        },
+        {
+          "id": "-uEIqIN1xxqlQzOmVgVUc-res-2",
+          "type": "video",
+          "title": "Learn CSS float in 4 minutes! 🎈",
+          "url": "https://www.youtube.com/watch?v=oJe8G5XT_v4"
+        }
+      ]
+    },
+    "U34z2pZgkH8NqiXMr5iuI": {
+      "id": "U34z2pZgkH8NqiXMr5iuI",
+      "slug": "flow-layout",
+      "title": "Flow Layout",
+      "description": "Flow layout is the default way elements are positioned on a webpage. Elements are displayed one after another, like words in a sentence, following the natural flow of the HTML. Block-level elements take up the full width available and start on a new line, while inline elements flow within the content, only taking up the space they need.",
+      "resources": [
+        {
+          "id": "U34z2pZgkH8NqiXMr5iuI-res-1",
+          "type": "article",
+          "title": "CSS flow layout",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_display/Flow_layout"
+        },
+        {
+          "id": "U34z2pZgkH8NqiXMr5iuI-res-2",
+          "type": "article",
+          "title": "Block and inline layout in normal flow",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_display/Block_and_inline_layout_in_normal_flow"
+        },
+        {
+          "id": "U34z2pZgkH8NqiXMr5iuI-res-3",
+          "type": "article",
+          "title": "Flow layout and writing modes",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_display/Flow_layout_and_writing_modes"
+        },
+        {
+          "id": "U34z2pZgkH8NqiXMr5iuI-res-4",
+          "type": "video",
+          "title": "CSS website layout in 9 minutes! 🗺️",
+          "url": "https://www.youtube.com/watch?v=Hsu8uqQTSV8"
+        }
+      ]
+    },
+    "LZZheBKkxXSVwyW4hSCw5": {
+      "id": "LZZheBKkxXSVwyW4hSCw5",
+      "slug": "font-families",
+      "title": "Font Families",
+      "description": "Font families in CSS are a way to specify the typeface used to display text on a webpage. They allow you to define a prioritized list of fonts, so if the user's computer doesn't have the first font available, the browser will try the next one in the list, and so on. This ensures that text is always displayed in a readable font, even if the preferred font isn't available.",
+      "resources": [
+        {
+          "id": "LZZheBKkxXSVwyW4hSCw5-res-1",
+          "type": "article",
+          "title": "Font Families",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/font-family"
+        },
+        {
+          "id": "LZZheBKkxXSVwyW4hSCw5-res-2",
+          "type": "article",
+          "title": "CSS Fonts",
+          "url": "https://www.w3schools.com/css/css_font.asp"
+        }
+      ]
+    },
+    "KZ-B_6zH3gkJhFFL_yRSm": {
+      "id": "KZ-B_6zH3gkJhFFL_yRSm",
+      "slug": "font-shorthand",
+      "title": "Font Shorthand",
+      "description": "The font shorthand property in CSS provides a way to set multiple font-related properties in a single declaration. Instead of specifying `font-style`, `font-variant`, `font-weight`, `font-size`, `line-height`, and `font-family` individually, you can use the `font` property to define them all at once, making your stylesheets more concise and readable.",
+      "resources": [
+        {
+          "id": "KZ-B_6zH3gkJhFFL_yRSm-res-1",
+          "type": "article",
+          "title": "font shorthand",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/font"
+        }
+      ]
+    },
+    "X2aBWF0Dl88M-dULDSL9J": {
+      "id": "X2aBWF0Dl88M-dULDSL9J",
+      "slug": "font-size",
+      "title": "Font Size",
+      "description": "Font size in CSS determines the size of the text on a webpage. It's a fundamental property that controls the visual prominence and readability of text elements. You can specify font sizes using various units like pixels (px), ems (em), rems (rem), percentages (%), and viewport units (vw, vh). Choosing the right font size is crucial for creating a visually appealing and accessible design.",
+      "resources": [
+        {
+          "id": "X2aBWF0Dl88M-dULDSL9J-res-1",
+          "type": "article",
+          "title": "font-size",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/font-size"
+        },
+        {
+          "id": "X2aBWF0Dl88M-dULDSL9J-res-2",
+          "type": "video",
+          "title": "CSS Tutorial For Beginners - Font Size",
+          "url": "https://www.youtube.com/watch?v=799zrGVpfA8"
+        }
+      ]
+    },
+    "Ha84l1MXtbuSrUeQxRq7g": {
+      "id": "Ha84l1MXtbuSrUeQxRq7g",
+      "slug": "font-style",
+      "title": "Font Style",
+      "description": "Font style in CSS is used to select the appearance of a font, primarily to italicize or oblique text. It allows you to specify whether a font should be displayed in its normal, italic, or oblique version. This property is useful for emphasizing text or creating a visual distinction within a design.",
+      "resources": [
+        {
+          "id": "Ha84l1MXtbuSrUeQxRq7g-res-1",
+          "type": "article",
+          "title": "font-style",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/font-style"
+        }
+      ]
+    },
+    "mGYDsQ1QzimmO3U1CnJUu": {
+      "id": "mGYDsQ1QzimmO3U1CnJUu",
+      "slug": "font-variant",
+      "title": "Font Variant",
+      "description": "Font variant in CSS allows you to control the display of different variations of a font, such as small caps, oldstyle numerals, and alternate glyphs. It provides a way to access OpenType features within a font, enabling richer typographic control beyond basic font styling like size and weight. This property offers a shorthand for setting several more specific font variant properties.",
+      "resources": [
+        {
+          "id": "mGYDsQ1QzimmO3U1CnJUu-res-1",
+          "type": "article",
+          "title": "Font variant",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant"
+        },
+        {
+          "id": "mGYDsQ1QzimmO3U1CnJUu-res-2",
+          "type": "article",
+          "title": "CSS font-variant Property",
+          "url": "https://www.w3schools.com/cssref/pr_font_font-variant.php"
+        }
+      ]
+    },
+    "jV9oHJdtocQzzALylaFnA": {
+      "id": "jV9oHJdtocQzzALylaFnA",
+      "slug": "font-weight",
+      "title": "Font Weight",
+      "description": "Font weight refers to the thickness or boldness of characters in a typeface. In CSS, it's a property that allows you to specify how heavy or light the font should appear. Values can be numeric (like 100, 400, 700) or descriptive (like `normal`, `bold`, `lighter`, `bolder`), offering control over the visual emphasis of text.",
+      "resources": [
+        {
+          "id": "jV9oHJdtocQzzALylaFnA-res-1",
+          "type": "article",
+          "title": "Font Weight",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/font-weight"
+        },
+        {
+          "id": "jV9oHJdtocQzzALylaFnA-res-2",
+          "type": "article",
+          "title": "An Introduction to HTML/CSS Font Weight",
+          "url": "https://www.udacity.com/blog/2021/01/html-css-font-weight.html"
+        },
+        {
+          "id": "jV9oHJdtocQzzALylaFnA-res-3",
+          "type": "article",
+          "title": "CSS font-weight Property",
+          "url": "https://www.w3schools.com/cssref/pr_font_weight.php"
+        },
+        {
+          "id": "jV9oHJdtocQzzALylaFnA-res-4",
+          "type": "video",
+          "title": "CSS Tutorial For Beginners 30 - Font Weight",
+          "url": "https://www.youtube.com/watch?v=qeh4UeaGTnc"
+        }
+      ]
+    },
+    "zW49OvVO-kLh0M4JCE4_w": {
+      "id": "zW49OvVO-kLh0M4JCE4_w",
+      "slug": "frontend-development",
+      "title": "Frontend Development",
+      "description": "Frontend development involves crafting the user interface and user experience of a website or web application. It focuses on the parts of a website that users directly interact with, such as buttons, text, images, and navigation. Frontend developers use languages like HTML, CSS, and JavaScript to build these interactive elements and ensure they function correctly across different browsers and devices.",
+      "resources": [
+        {
+          "id": "zW49OvVO-kLh0M4JCE4_w-res-1",
+          "type": "article",
+          "title": "Visit the dedicated Frontend Roadmap",
+          "url": "https://roadmap.sh/frontend"
+        },
+        {
+          "id": "zW49OvVO-kLh0M4JCE4_w-res-2",
+          "type": "article",
+          "title": "Front-End Development: The Complete Guide",
+          "url": "https://cloudinary.com/guides/front-end-development/front-end-development-the-complete-guide"
+        },
+        {
+          "id": "zW49OvVO-kLh0M4JCE4_w-res-3",
+          "type": "video",
+          "title": "Frontend web development - a complete overview",
+          "url": "https://www.youtube.com/watch?v=WG5ikvJ2TKA"
+        }
+      ]
+    },
+    "1-agoKIdWelaazIOe3haM": {
+      "id": "1-agoKIdWelaazIOe3haM",
+      "slug": "google-fonts",
+      "title": "Google Fonts",
+      "description": "Google Fonts is a free library of over a thousand different font families that you can easily use on your website. Instead of relying on the limited set of fonts that come pre-installed on a user's computer, you can link to Google's servers and use any font they offer. This allows for greater design flexibility and ensures that your website's typography looks consistent across different devices and operating systems.",
+      "resources": [
+        {
+          "id": "1-agoKIdWelaazIOe3haM-res-1",
+          "type": "article",
+          "title": "Using web fonts",
+          "url": "https://fonts.google.com/knowledge/using_type/using_web_fonts"
+        },
+        {
+          "id": "1-agoKIdWelaazIOe3haM-res-2",
+          "type": "article",
+          "title": "CSS Google Fonts",
+          "url": "https://www.w3schools.com/css/css_font_google.asp"
+        },
+        {
+          "id": "1-agoKIdWelaazIOe3haM-res-3",
+          "type": "video",
+          "title": "How to Add Google Fonts to Your Website Including Multiple Fonts",
+          "url": "https://www.youtube.com/watch?v=is9Z5HriVtQ"
+        }
+      ]
+    },
+    "6nemkEmghB_0SWBOHyI7a": {
+      "id": "6nemkEmghB_0SWBOHyI7a",
+      "slug": "grid",
+      "title": "Grid Layout",
+      "description": "Grid Layout is a two-dimensional layout system for CSS, enabling you to control the placement and sizing of elements within a grid container. It divides a webpage into rows and columns, allowing precise positioning of content and creating complex layouts with ease. This method offers flexibility and control over element arrangement, surpassing traditional methods like floats or positioning.",
+      "resources": [
+        {
+          "id": "6nemkEmghB_0SWBOHyI7a-res-1",
+          "type": "article",
+          "title": "CSS Grid Layout",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout"
+        },
+        {
+          "id": "6nemkEmghB_0SWBOHyI7a-res-2",
+          "type": "article",
+          "title": "CSS Grid Layout Guide",
+          "url": "https://css-tricks.com/snippets/css/complete-guide-grid/"
+        },
+        {
+          "id": "6nemkEmghB_0SWBOHyI7a-res-3",
+          "type": "video",
+          "title": "CSS Grid Intro and Basic Layout Tutorial for Beginners",
+          "url": "https://www.youtube.com/watch?v=EaWj2AWI5Es"
+        }
+      ]
+    },
+    "TSItk9mQJphdRID9mgGwU": {
+      "id": "TSItk9mQJphdRID9mgGwU",
+      "slug": "grouping",
+      "title": "Grouping Selectors",
+      "description": "Grouping selectors in CSS allows you to apply the same styles to multiple HTML elements simultaneously. Instead of writing the same CSS rules for each element individually, you can list the selectors separated by commas. This makes your CSS code more concise and easier to maintain, as you only need to define the styles once for all the grouped elements.",
+      "resources": [
+        {
+          "id": "TSItk9mQJphdRID9mgGwU-res-1",
+          "type": "article",
+          "title": "Grouping Multiple CSS Selectors",
+          "url": "https://www.thoughtco.com/grouping-multiple-css-selectors-3467065"
+        },
+        {
+          "id": "TSItk9mQJphdRID9mgGwU-res-2",
+          "type": "article",
+          "title": "Grouping Selectors in CSS",
+          "url": "https://www.tutorialspoint.com/grouping-selectors-in-css"
+        }
+      ]
+    },
+    "ZlU2dJj5myMd3hOc4ycOi": {
+      "id": "ZlU2dJj5myMd3hOc4ycOi",
+      "slug": "hex",
+      "title": "Hex Colors",
+      "description": "Hex colors in CSS are a way to specify colors using hexadecimal values. They use a six-digit code, prefixed with a hash symbol (#), to represent the red, green, and blue components of a color. Each pair of digits represents the intensity of one of these primary colors, ranging from 00 (lowest intensity) to FF (highest intensity). For example, #FF0000 is red, #00FF00 is green, and #0000FF is blue.",
+      "resources": [
+        {
+          "id": "ZlU2dJj5myMd3hOc4ycOi-res-1",
+          "type": "article",
+          "title": "hex color",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/hex-color"
+        },
+        {
+          "id": "ZlU2dJj5myMd3hOc4ycOi-res-2",
+          "type": "video",
+          "title": "CSS - Colors Hex - W3Schools.com",
+          "url": "https://www.youtube.com/watch?v=LLmCr_201GU"
+        }
+      ]
+    },
+    "GA3Rqg75oRZgFYi2ZzLH6": {
+      "id": "GA3Rqg75oRZgFYi2ZzLH6",
+      "slug": "hsl",
+      "title": "HSL Colors",
+      "description": "HSL (Hue, Saturation, Lightness) is a way to define colors in CSS using three components: Hue, which represents the color type on a color wheel (0-360 degrees); Saturation, which indicates the intensity of the color (0-100%); and Lightness, which determines how bright or dark the color is (0-100%). This model offers a more intuitive way to adjust colors compared to RGB, allowing developers to easily create variations of a color by modifying its hue, saturation, or lightness values.",
+      "resources": [
+        {
+          "id": "GA3Rqg75oRZgFYi2ZzLH6-res-1",
+          "type": "article",
+          "title": "hsl function",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/hsl"
+        },
+        {
+          "id": "GA3Rqg75oRZgFYi2ZzLH6-res-2",
+          "type": "article",
+          "title": "CSS HSL Colors",
+          "url": "https://www.w3schools.com/css/css_colors_hsl.asp"
+        },
+        {
+          "id": "GA3Rqg75oRZgFYi2ZzLH6-res-3",
+          "type": "video",
+          "title": "How to Create RELATIVE Colors with hsl(from...) CSS Tutorial",
+          "url": "https://www.youtube.com/watch?v=TI-OVY11HD4"
+        }
+      ]
+    },
+    "6OjCZPf10yJqNIdFkI4l-": {
+      "id": "6OjCZPf10yJqNIdFkI4l-",
+      "slug": "html",
+      "title": "HTML",
+      "description": "HTML (HyperText Markup Language) is the standard markup language for creating web pages. It provides the structure and content of a website, using elements to define headings, paragraphs, images, links, and other components that are displayed in a web browser. HTML forms the foundation upon which CSS and JavaScript build to create visually appealing and interactive web experiences.",
+      "resources": [
+        {
+          "id": "6OjCZPf10yJqNIdFkI4l--res-1",
+          "type": "article",
+          "title": "Visit the dedicated HTML roadmap",
+          "url": "https://roadmap.sh/html"
+        },
+        {
+          "id": "6OjCZPf10yJqNIdFkI4l--res-2",
+          "type": "article",
+          "title": "Responsive Web Design Certification - Co-Learn HTML & CSS with guided projects",
+          "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/"
+        },
+        {
+          "id": "6OjCZPf10yJqNIdFkI4l--res-3",
+          "type": "video",
+          "title": "HTML Full Course for Beginners",
+          "url": "https://www.youtube.com/watch?v=mJgBOIoGihA"
+        },
+        {
+          "id": "6OjCZPf10yJqNIdFkI4l--res-4",
+          "type": "video",
+          "title": "HTML Full Course - Build a Website Tutorial",
+          "url": "https://www.youtube.com/watch?v=pQN-pnXPaVg"
+        },
+        {
+          "id": "6OjCZPf10yJqNIdFkI4l--res-5",
+          "type": "article",
+          "title": "Explore top posts about HTML",
+          "url": "https://app.daily.dev/tags/html?ref=roadmapsh"
+        }
+      ]
+    },
+    "U6dcnopmzzsppCQ9uy8E-": {
+      "id": "U6dcnopmzzsppCQ9uy8E-",
+      "slug": "id",
+      "title": "ID Selectors",
+      "description": "ID selectors in CSS are used to style a single, unique element on a webpage. They target an HTML element based on the value of its `id` attribute. An ID selector is denoted by a hash symbol (`#`) followed by the ID value.",
+      "resources": [
+        {
+          "id": "U6dcnopmzzsppCQ9uy8E--res-1",
+          "type": "article",
+          "title": "ID Selectors",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/ID_selectors"
+        }
+      ]
+    },
+    "kcfgt2pu3MCsgki391tpa": {
+      "id": "kcfgt2pu3MCsgki391tpa",
+      "slug": "images-and-filters",
+      "title": "Images and Filters",
+      "description": "CSS allows you to incorporate images into your web designs and manipulate their appearance. You can use CSS to control image size, positioning, and how they interact with surrounding content. Additionally, CSS filters enable the direct application of visual effects, such as blurring, color adjustments, and transformations, to images, thereby enhancing their aesthetic appeal without requiring external image editing software.",
+      "resources": [
+        {
+          "id": "kcfgt2pu3MCsgki391tpa-res-1",
+          "type": "article",
+          "title": "CSS images",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_images"
+        },
+        {
+          "id": "kcfgt2pu3MCsgki391tpa-res-2",
+          "type": "article",
+          "title": "CSS filter effects",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_filter_effects"
+        },
+        {
+          "id": "kcfgt2pu3MCsgki391tpa-res-3",
+          "type": "video",
+          "title": "Dabbling with CSS Filters and Blending Effects",
+          "url": "https://www.youtube.com/watch?v=-jy7dac750Q"
+        },
+        {
+          "id": "kcfgt2pu3MCsgki391tpa-res-4",
+          "type": "video",
+          "title": "CSS Background Images and Responsive Image Properties for Beginners",
+          "url": "https://www.youtube.com/watch?v=cLyzBfXI0I0"
+        }
+      ]
+    },
+    "cQ4FdKzwvMu5FD0Xk-U73": {
+      "id": "cQ4FdKzwvMu5FD0Xk-U73",
+      "slug": "inline-block",
+      "title": "Inline-Block",
+      "description": "`inline-block` is a value for the CSS `display` property. It allows an element to flow like an inline element (sitting on the same line as other content) but also allows you to set its width and height, similar to a block-level element. This combines the benefits of both `inline` and `block` elements.",
+      "resources": [
+        {
+          "id": "cQ4FdKzwvMu5FD0Xk-U73-res-1",
+          "type": "article",
+          "title": "CSS display: inline-block",
+          "url": "https://www.w3schools.com/css/css_inline-block.asp"
+        },
+        {
+          "id": "cQ4FdKzwvMu5FD0Xk-U73-res-2",
+          "type": "video",
+          "title": "Block, Inline, and Inline-Block explained | CSS Tutorial",
+          "url": "https://www.youtube.com/watch?v=x_i2gga-sYg"
+        }
+      ]
+    },
+    "B0JUjbCN35MMGtFb5sCyB": {
+      "id": "B0JUjbCN35MMGtFb5sCyB",
+      "slug": "inline-css",
+      "title": "Inline CSS",
+      "description": "Inline CSS involves directly embedding CSS styles within HTML elements using the `style` attribute. This method applies styles to individual elements, overriding external stylesheets or embedded styles. While offering quick and localized styling, it's generally discouraged for larger projects due to maintainability issues and separation of concerns.",
+      "resources": [
+        {
+          "id": "B0JUjbCN35MMGtFb5sCyB-res-1",
+          "type": "article",
+          "title": "Inline Style in HTML – CSS Inline Styles",
+          "url": "https://www.freecodecamp.org/news/inline-style-in-html/"
+        }
+      ]
+    },
+    "Jipq1yvlLNL0TbsVImCDk": {
+      "id": "Jipq1yvlLNL0TbsVImCDk",
+      "slug": "inline",
+      "title": "Inline Display",
+      "description": "The `display: inline` property in CSS is used to specify that an element should be displayed as an inline element. Inline elements flow along with the surrounding content, similar to how text flows within a paragraph. They only take up as much width as necessary to contain their content, and the width and height properties do not affect them.",
+      "resources": [
+        {
+          "id": "Jipq1yvlLNL0TbsVImCDk-res-1",
+          "type": "article",
+          "title": "Block and inline layout in normal flow",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_display/Block_and_inline_layout_in_normal_flow"
+        },
+        {
+          "id": "Jipq1yvlLNL0TbsVImCDk-res-2",
+          "type": "video",
+          "title": "Block, Inline, and Inline-Block explained | CSS Tutorial",
+          "url": "https://www.youtube.com/watch?v=x_i2gga-sYg"
+        }
+      ]
+    },
+    "gARjh5W-R_93_WeS8xxwe": {
+      "id": "gARjh5W-R_93_WeS8xxwe",
+      "slug": "internal-css",
+      "title": "Internal CSS",
+      "description": "Internal CSS involves embedding CSS rules directly within an HTML document. This is achieved by using the `<style>` tag, typically placed inside the `<head>` section of the HTML file. The CSS rules defined within the `<style>` tag will then be applied to the elements within that specific HTML document.",
+      "resources": [
+        {
+          "id": "gARjh5W-R_93_WeS8xxwe-res-1",
+          "type": "article",
+          "title": "Internal CSS",
+          "url": "https://codeinstitute.net/global/blog/internal-css/"
+        }
+      ]
+    },
+    "eR9zEKc2xQtOPNjOgke4_": {
+      "id": "eR9zEKc2xQtOPNjOgke4_",
+      "slug": "introduction",
+      "title": "CSS",
+      "description": "CSS (Cascading Style Sheets) is a language used to describe the presentation of a document written in HTML or XML, including colors, layout, and fonts. It allows you to separate the content of your website (HTML) from its visual design, making websites more maintainable and adaptable. CSS uses rules to define how elements should be displayed, targeting specific HTML elements or groups of elements.",
+      "resources": [
+        {
+          "id": "eR9zEKc2xQtOPNjOgke4_-res-1",
+          "type": "course",
+          "title": "CSS Full Course for Beginners",
+          "url": "https://www.youtube.com/watch?v=n4R2E7O-Ngo"
+        },
+        {
+          "id": "eR9zEKc2xQtOPNjOgke4_-res-2",
+          "type": "course",
+          "title": "HTML & CSS Full Course - Beginner to Pro",
+          "url": "https://www.youtube.com/watch?v=G3e-cpL7ofc"
+        },
+        {
+          "id": "eR9zEKc2xQtOPNjOgke4_-res-3",
+          "type": "course",
+          "title": "Responsive Web Design Certification - Co-Learn HTML & CSS with guided projects",
+          "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/"
+        },
+        {
+          "id": "eR9zEKc2xQtOPNjOgke4_-res-4",
+          "type": "article",
+          "title": "Web.dev by Google — Learn CSS",
+          "url": "https://web.dev/learn/css/"
+        },
+        {
+          "id": "eR9zEKc2xQtOPNjOgke4_-res-5",
+          "type": "article",
+          "title": "Explore top posts about CSS",
+          "url": "https://app.daily.dev/tags/css?ref=roadmapsh"
+        }
+      ]
+    },
+    "J1RsZPDKX-ocDvTh-Bg7N": {
+      "id": "J1RsZPDKX-ocDvTh-Bg7N",
+      "slug": "javascript",
+      "title": "JavaScript",
+      "description": "JavaScript is a programming language primarily used to create interactive and dynamic content on websites. It allows developers to add features like animations, form validation, and real-time updates without needing to reload the page. It works alongside HTML and CSS to define the behavior of web pages.",
+      "resources": [
+        {
+          "id": "J1RsZPDKX-ocDvTh-Bg7N-res-1",
+          "type": "article",
+          "title": "Visit Dedicated JavaScript Roadmap",
+          "url": "https://roadmap.sh/javascript"
+        },
+        {
+          "id": "J1RsZPDKX-ocDvTh-Bg7N-res-2",
+          "type": "article",
+          "title": "JavaScript from Beginner to Professional",
+          "url": "https://www.gurukultti.org/admin/notice/javascript.pdf"
+        },
+        {
+          "id": "J1RsZPDKX-ocDvTh-Bg7N-res-3",
+          "type": "article",
+          "title": "The Modern JavaScript Tutorial",
+          "url": "https://javascript.info/"
+        },
+        {
+          "id": "J1RsZPDKX-ocDvTh-Bg7N-res-4",
+          "type": "article",
+          "title": "Build 30 Javascript projects in 30 days",
+          "url": "https://javascript30.com/"
+        },
+        {
+          "id": "J1RsZPDKX-ocDvTh-Bg7N-res-5",
+          "type": "video",
+          "title": "JavaScript Crash Course For Beginners",
+          "url": "https://www.youtube.com/watch?v=hdI2bqOjy3c&t=4s"
+        },
+        {
+          "id": "J1RsZPDKX-ocDvTh-Bg7N-res-6",
+          "type": "article",
+          "title": "Explore top posts about JavaScript",
+          "url": "https://app.daily.dev/tags/javascript?ref=roadmapsh"
+        }
+      ]
+    },
+    "qmKXfmheAvlap45aFrP9m": {
+      "id": "qmKXfmheAvlap45aFrP9m",
+      "slug": "keyframe-animations",
+      "title": "Keyframe Animations",
+      "description": "Keyframe animations in CSS allow you to control the intermediate steps in a CSS animation sequence. Instead of just defining the start and end states, you can specify multiple points (keyframes) along the animation timeline, defining the styles an element should have at each point. This provides granular control over how an element's appearance changes over time, enabling complex and visually appealing animations.",
+      "resources": [
+        {
+          "id": "qmKXfmheAvlap45aFrP9m-res-1",
+          "type": "article",
+          "title": "@keyframes",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes"
+        },
+        {
+          "id": "qmKXfmheAvlap45aFrP9m-res-2",
+          "type": "article",
+          "title": "CSS keyframes",
+          "url": "https://css-tricks.com/almanac/rules/k/keyframes/"
+        },
+        {
+          "id": "qmKXfmheAvlap45aFrP9m-res-3",
+          "type": "video",
+          "title": "Learn CSS Animations in 9 Minutes",
+          "url": "https://www.youtube.com/watch?v=z2LQYsZhsFw"
+        }
+      ]
+    },
+    "aB04IOoWwIxm7BvwfgTYj": {
+      "id": "aB04IOoWwIxm7BvwfgTYj",
+      "slug": "line-height",
+      "title": "Line Height",
+      "description": "Line height in CSS controls the vertical space between lines of text within an element. It essentially defines the distance from the top of one line of text to the top of the next line. A larger line height creates more space, improving readability, while a smaller line height can make text appear cramped.",
+      "resources": [
+        {
+          "id": "aB04IOoWwIxm7BvwfgTYj-res-1",
+          "type": "article",
+          "title": "line-height",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/line-height"
+        },
+        {
+          "id": "aB04IOoWwIxm7BvwfgTYj-res-2",
+          "type": "video",
+          "title": "HTML & CSS for Absolute Beginners: Line height and spacing",
+          "url": "https://www.youtube.com/watch?v=HaTxxAj3cBo"
+        }
+      ]
+    },
+    "XuySIveFuvA_FvqDnNPRL": {
+      "id": "XuySIveFuvA_FvqDnNPRL",
+      "slug": "lists",
+      "title": "Lists",
+      "description": "Lists in CSS are used to style HTML list elements, such as `<ul>` (unordered list), `<ol>` (ordered list), and `<dl>` (definition list). CSS provides properties to control the appearance of list markers (bullets or numbers), their position, and the overall styling of the list items. This allows you to customize the visual presentation of lists beyond the default browser styles.",
+      "resources": [
+        {
+          "id": "XuySIveFuvA_FvqDnNPRL-res-1",
+          "type": "article",
+          "title": "CSS lists and counters",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_lists"
+        },
+        {
+          "id": "XuySIveFuvA_FvqDnNPRL-res-2",
+          "type": "video",
+          "title": "CSS List Styles Tutorial for Beginners",
+          "url": "https://www.youtube.com/watch?v=jcThx0U066w"
+        }
+      ]
+    },
+    "e_m7y5YYPLFbVtoG79DBb": {
+      "id": "e_m7y5YYPLFbVtoG79DBb",
+      "slug": "margin",
+      "title": "Margin",
+      "description": "Margin in CSS defines the space around an HTML element's border. It creates a gap between the element and surrounding elements, controlling the spacing and layout of content on a webpage. Margins can be set on all four sides of an element (top, right, bottom, left) and can have positive or negative values.",
+      "resources": [
+        {
+          "id": "e_m7y5YYPLFbVtoG79DBb-res-1",
+          "type": "article",
+          "title": "Margin",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/margin"
+        },
+        {
+          "id": "e_m7y5YYPLFbVtoG79DBb-res-2",
+          "type": "video",
+          "title": "How CSS Padding and Margin Works",
+          "url": "https://www.youtube.com/watch?v=NZEz4yNITd8"
+        }
+      ]
+    },
+    "1-VTjOseACNKca6TU07aM": {
+      "id": "1-VTjOseACNKca6TU07aM",
+      "slug": "media-queries",
+      "title": "Media Queries",
+      "description": "Media Queries are a powerful feature that allows you to apply different CSS styles based on characteristics of the device or screen being used to view a webpage. This enables you to create responsive designs that adapt to various screen sizes, resolutions, and orientations, ensuring an optimal viewing experience across a wide range of devices, from desktops to smartphones.",
+      "resources": [
+        {
+          "id": "1-VTjOseACNKca6TU07aM-res-1",
+          "type": "article",
+          "title": "CSS media queries",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries"
+        },
+        {
+          "id": "1-VTjOseACNKca6TU07aM-res-2",
+          "type": "article",
+          "title": "CSS Media Queries Guide",
+          "url": "https://css-tricks.com/a-complete-guide-to-css-media-queries/"
+        },
+        {
+          "id": "1-VTjOseACNKca6TU07aM-res-3",
+          "type": "video",
+          "title": "Learn CSS Media Query In 7 Minutes",
+          "url": "https://www.youtube.com/watch?v=yU7jJ3NbPdA"
+        }
+      ]
+    },
+    "KoJ7syHd7Y3gyWW93dRnQ": {
+      "id": "KoJ7syHd7Y3gyWW93dRnQ",
+      "slug": "multicolumn-layout",
+      "title": "Multicolumn Layout",
+      "description": "Multicolumn layout in CSS allows you to divide a block of content into multiple columns, similar to newspaper layouts. This feature enables text and other content to flow automatically from one column to the next, improving readability and making efficient use of screen space, especially for longer articles or lists. You can control the number of columns, the gap between them, and a rule (line) between the columns for visual separation.",
+      "resources": [
+        {
+          "id": "KoJ7syHd7Y3gyWW93dRnQ-res-1",
+          "type": "article",
+          "title": "CSS multi-column layout",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_multicol_layout"
+        },
+        {
+          "id": "KoJ7syHd7Y3gyWW93dRnQ-res-2",
+          "type": "article",
+          "title": "Basic concepts of multi-column layouts",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_multicol_layout/Basic_concepts"
+        },
+        {
+          "id": "KoJ7syHd7Y3gyWW93dRnQ-res-3",
+          "type": "video",
+          "title": "CSS Multi Column",
+          "url": "https://www.youtube.com/watch?v=uwoX1JQcE-w"
+        }
+      ]
+    },
+    "9vVxubL4bB3FPQOPoM0TV": {
+      "id": "9vVxubL4bB3FPQOPoM0TV",
+      "slug": "named-colors",
+      "title": "Named Colors",
+      "description": "Named colors in CSS are predefined color values represented by specific keywords. Instead of using hexadecimal codes or RGB values, you can use names like \"red,\" \"blue,\" \"green,\" or \"black\" to style elements. These names are understood by browsers and directly translate to specific color values, offering a simple and readable way to apply basic colors to your web pages.",
+      "resources": [
+        {
+          "id": "9vVxubL4bB3FPQOPoM0TV-res-1",
+          "type": "article",
+          "title": "Named colors",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/named-color"
+        },
+        {
+          "id": "9vVxubL4bB3FPQOPoM0TV-res-2",
+          "type": "video",
+          "title": "CSS Colors Introduction - Color Names",
+          "url": "https://www.youtube.com/shorts/lopsN9PCauk"
+        }
+      ]
+    },
+    "qvOddcSKg21RJBG5XTGfU": {
+      "id": "qvOddcSKg21RJBG5XTGfU",
+      "slug": "next-sibling",
+      "title": "Next Sibling Combinator",
+      "description": "The next-sibling combinator in CSS (represented by the `+` symbol) selects an element that immediately follows another specific element in the HTML structure. It targets the element that is the very next sibling, meaning it shares the same parent and appears directly after the first element in the source code. This allows you to style elements based on their immediate preceding sibling.",
+      "resources": [
+        {
+          "id": "qvOddcSKg21RJBG5XTGfU-res-1",
+          "type": "article",
+          "title": "Next-sibling combinator",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Next-sibling_combinator"
+        },
+        {
+          "id": "qvOddcSKg21RJBG5XTGfU-res-2",
+          "type": "article",
+          "title": "https://css-tricks.com/child-and-sibling-selectors/",
+          "url": "https://css-tricks.com/child-and-sibling-selectors/"
+        }
+      ]
+    },
+    "doVYds82d5w1hIc33hkMq": {
+      "id": "doVYds82d5w1hIc33hkMq",
+      "slug": "none",
+      "title": "Display: None",
+      "description": "`display: none` is a CSS property value that completely removes an element from the document flow. When applied, the element will not take up any space on the page, and it will not be rendered at all. It's as if the element doesn't exist in the HTML structure for visual purposes.",
+      "resources": [
+        {
+          "id": "doVYds82d5w1hIc33hkMq-res-1",
+          "type": "article",
+          "title": "CSS display:none and visibility:hidden – What's the Difference?",
+          "url": "https://www.freecodecamp.org/news/css-display-none-and-visibility-hidden-the-difference/"
+        },
+        {
+          "id": "doVYds82d5w1hIc33hkMq-res-2",
+          "type": "video",
+          "title": "We can now transition to and from display: none",
+          "url": "https://www.youtube.com/watch?v=vmDEHAzj2XE"
+        }
+      ]
+    },
+    "gm7kRAgfG3FKJqZhZ3Noj": {
+      "id": "gm7kRAgfG3FKJqZhZ3Noj",
+      "slug": "opacity",
+      "title": "Opacity",
+      "description": "Opacity in CSS controls the transparency of an element. It determines how much of the background behind the element is visible. A value of `1` means the element is fully opaque (not transparent), while a value of `0` means it is completely transparent (invisible). Values between `0` and `1` create varying degrees of transparency.",
+      "resources": [
+        {
+          "id": "gm7kRAgfG3FKJqZhZ3Noj-res-1",
+          "type": "article",
+          "title": "Opacity",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/opacity"
+        },
+        {
+          "id": "gm7kRAgfG3FKJqZhZ3Noj-res-2",
+          "type": "video",
+          "title": "CSS Opacity - One Minute Coding",
+          "url": "https://www.youtube.com/watch?v=QdkgbodF71k"
+        }
+      ]
+    },
+    "EirP1Bs-FGEtPxuY2k7wF": {
+      "id": "EirP1Bs-FGEtPxuY2k7wF",
+      "slug": "outline",
+      "title": "Outline",
+      "description": "In CSS, the `outline` property draws a line around an element, outside the border. Unlike borders, outlines don't affect the element's dimensions or position in the layout. They are primarily used for highlighting elements, often for accessibility purposes like indicating focus. You can control the style, color, and width of the outline.",
+      "resources": [
+        {
+          "id": "EirP1Bs-FGEtPxuY2k7wF-res-1",
+          "type": "article",
+          "title": "Outline",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/outline"
+        },
+        {
+          "id": "EirP1Bs-FGEtPxuY2k7wF-res-2",
+          "type": "video",
+          "title": "CSS Outline vs Border - differences, advantages, and disadvantages",
+          "url": "https://www.youtube.com/watch?v=xx_pJ2ouGnc"
+        }
+      ]
+    },
+    "qJ3bBc7pNgZQU5I31kqKA": {
+      "id": "qJ3bBc7pNgZQU5I31kqKA",
+      "slug": "padding",
+      "title": "Padding",
+      "description": "Padding refers to the space between the content of an element (like text or an image) and its border. It essentially creates a cushion around the content within the element's box. You can control the amount of padding on all four sides of an element (top, right, bottom, left) individually or set a uniform padding for all sides.",
+      "resources": [
+        {
+          "id": "qJ3bBc7pNgZQU5I31kqKA-res-1",
+          "type": "article",
+          "title": "Padding",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/padding"
+        },
+        {
+          "id": "qJ3bBc7pNgZQU5I31kqKA-res-2",
+          "type": "video",
+          "title": "How CSS Padding and Margin Works",
+          "url": "https://www.youtube.com/watch?v=NZEz4yNITd8"
+        }
+      ]
+    },
+    "-dPxULwMhdnnBoX3givbd": {
+      "id": "-dPxULwMhdnnBoX3givbd",
+      "slug": "performance",
+      "title": "Performance",
+      "description": "CSS performance refers to how efficiently CSS code is processed and rendered by a browser, impacting the speed and responsiveness of a website. Optimizing CSS for performance involves techniques like minimizing file sizes, reducing the complexity of selectors, and leveraging browser caching to ensure a smooth user experience.",
+      "resources": [
+        {
+          "id": "-dPxULwMhdnnBoX3givbd-res-1",
+          "type": "article",
+          "title": "CSS performance optimization",
+          "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Performance/CSS"
+        },
+        {
+          "id": "-dPxULwMhdnnBoX3givbd-res-2",
+          "type": "article",
+          "title": "How to Optimize Your CSS Code for Faster Web Pages",
+          "url": "https://www.freecodecamp.org/news/how-to-optimize-your-css-code-for-faster-web-pages/"
+        },
+        {
+          "id": "-dPxULwMhdnnBoX3givbd-res-3",
+          "type": "article",
+          "title": "The Complete Guide to Optimizing CSS for Fast Page Loads",
+          "url": "https://www.builder.io/blog/the-complete-guide-to-optimizing-css-for-fast-page-loads"
+        }
+      ]
+    },
+    "un_IujSN8vtDM40OOJC1n": {
+      "id": "un_IujSN8vtDM40OOJC1n",
+      "slug": "position",
+      "title": "Position",
+      "description": "Position in CSS controls how an element is placed within its containing element or the document itself. It allows you to precisely define where an element appears on the page, influencing its relationship with other elements and the overall layout. Different position values offer varying levels of control, from static placement within the normal document flow to fixed positions that remain in place even when the user scrolls.",
+      "resources": [
+        {
+          "id": "un_IujSN8vtDM40OOJC1n-res-1",
+          "type": "article",
+          "title": "Position",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/position"
+        },
+        {
+          "id": "un_IujSN8vtDM40OOJC1n-res-2",
+          "type": "video",
+          "title": "Learn CSS Positions in 4 minutes",
+          "url": "https://www.youtube.com/watch?v=YEmdHbQBCSQ"
+        }
+      ]
+    },
+    "EOGYRC1TiXOwrR1pjW6Ky": {
+      "id": "EOGYRC1TiXOwrR1pjW6Ky",
+      "slug": "postcss",
+      "title": "PostCSS",
+      "description": "PostCSS is a tool that uses JavaScript to transform CSS. It acts as a CSS parser and provides an API to analyze and modify the CSS code. It's often used with plugins to automate tasks like adding vendor prefixes, linting CSS, or supporting future CSS syntax.",
+      "resources": [
+        {
+          "id": "EOGYRC1TiXOwrR1pjW6Ky-res-1",
+          "type": "article",
+          "title": "PostCSS",
+          "url": "https://postcss.org/"
+        },
+        {
+          "id": "EOGYRC1TiXOwrR1pjW6Ky-res-2",
+          "type": "article",
+          "title": "PostCSS",
+          "url": "https://github.com/postcss/postcss"
+        },
+        {
+          "id": "EOGYRC1TiXOwrR1pjW6Ky-res-3",
+          "type": "article",
+          "title": "What is PostCSS? How to Use Plugins to Automate CSS Tasks",
+          "url": "https://www.freecodecamp.org/news/what-is-postcss/"
+        },
+        {
+          "id": "EOGYRC1TiXOwrR1pjW6Ky-res-4",
+          "type": "video",
+          "title": "Learn PostCSS In 15 Minutes",
+          "url": "https://www.youtube.com/watch?v=Kn2SKUOaoT4&t=573s"
+        }
+      ]
+    },
+    "awMTGfeQlXQNILvEO8nOJ": {
+      "id": "awMTGfeQlXQNILvEO8nOJ",
+      "slug": "properties--values",
+      "title": "Properties and Values",
+      "description": "In CSS, properties are like instructions that tell the browser how to style an HTML element. Each property has a value, which specifies the exact styling to apply. For example, the `color` property determines the text color, and its value could be `red`, `#00FF00`, or `rgb(0, 255, 0)`. The combination of a property and its value is called a declaration, and declarations are the building blocks of CSS rules.",
+      "resources": []
+    },
+    "_KdEkwm0GmKHcahivCubL": {
+      "id": "_KdEkwm0GmKHcahivCubL",
+      "slug": "pseudo-classes",
+      "title": "Pseudo-Classes",
+      "description": "Pseudo-classes in CSS are keywords added to selectors that specify a special state of the selected element(s). They let you style an element based on things like user interaction (e.g., hovering), its position in the document structure (e.g., the first child), or other element characteristics (e.g., being checked). They allow you to apply styles to elements dynamically without needing to modify the HTML or use JavaScript.",
+      "resources": [
+        {
+          "id": "_KdEkwm0GmKHcahivCubL-res-1",
+          "type": "article",
+          "title": "Pseudo-classes",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes"
+        },
+        {
+          "id": "_KdEkwm0GmKHcahivCubL-res-2",
+          "type": "article",
+          "title": "CSS Pseudo-classes",
+          "url": "https://www.w3schools.com/css/css_pseudo_classes.asp"
+        },
+        {
+          "id": "_KdEkwm0GmKHcahivCubL-res-3",
+          "type": "video",
+          "title": "Learn CSS pseudo-classes in 7 minutes!",
+          "url": "https://www.youtube.com/watch?v=Nrsy_2ogRfQ"
+        }
+      ]
+    },
+    "yj2GTGrlDHp9gNd3C476k": {
+      "id": "yj2GTGrlDHp9gNd3C476k",
+      "slug": "pseudo-elements",
+      "title": "Pseudo-Elements",
+      "description": "Pseudo-elements in CSS let you style specific parts of an element. They allow you to add styles to elements that don't actually exist in the HTML structure, like the first line of a paragraph or content before or after an element. This is done using double colons (::) followed by the pseudo-element name.",
+      "resources": [
+        {
+          "id": "yj2GTGrlDHp9gNd3C476k-res-1",
+          "type": "article",
+          "title": "Pseudo-elements",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements"
+        },
+        {
+          "id": "yj2GTGrlDHp9gNd3C476k-res-2",
+          "type": "article",
+          "title": "CSS Pseudo-elements",
+          "url": "https://www.w3schools.com/css/css_pseudo_elements.asp"
+        },
+        {
+          "id": "yj2GTGrlDHp9gNd3C476k-res-3",
+          "type": "video",
+          "title": "Learn CSS pseudo-elements in 5 minutes!",
+          "url": "https://www.youtube.com/watch?v=_LxYNxeWpBo"
+        }
+      ]
+    },
+    "Hp51JS9rwAMdWhYnex5NB": {
+      "id": "Hp51JS9rwAMdWhYnex5NB",
+      "slug": "relative",
+      "title": "Relative Positioning",
+      "description": "Relative positioning in CSS allows you to shift an element from its normal position in the document flow. Instead of being fixed in place, the element is moved relative to where it _would_ have been if it were statically positioned. This movement doesn't affect the positioning of other elements around it; they behave as if the element were still in its original location. You specify the amount of movement using the `top`, `right`, `bottom`, and `left` properties.",
+      "resources": [
+        {
+          "id": "Hp51JS9rwAMdWhYnex5NB-res-1",
+          "type": "video",
+          "title": "CSS position deep dive",
+          "url": "https://www.youtube.com/watch?v=fF_NVrd1s14"
+        }
+      ]
+    },
+    "9XDJcFh7V-7ppAEP_8hJl": {
+      "id": "9XDJcFh7V-7ppAEP_8hJl",
+      "slug": "responsive-typography",
+      "title": "Responsive Typography",
+      "description": "Responsive typography is about making the text on a webpage look good and be easily readable on different screen sizes and devices. It involves adjusting font sizes, line heights, letter spacing, and other text properties to ensure optimal readability, whether someone is viewing the site on a large desktop monitor or a small mobile phone. The goal is to create a consistent and pleasant reading experience across all platforms.",
+      "resources": [
+        {
+          "id": "9XDJcFh7V-7ppAEP_8hJl-res-1",
+          "type": "article",
+          "title": "How To Create a Responsive Text",
+          "url": "https://www.w3schools.com/howto/howto_css_responsive_text.asp"
+        },
+        {
+          "id": "9XDJcFh7V-7ppAEP_8hJl-res-2",
+          "type": "article",
+          "title": "The elements of responsive typography",
+          "url": "https://blog.logrocket.com/elements-responsive-typography/"
+        },
+        {
+          "id": "9XDJcFh7V-7ppAEP_8hJl-res-3",
+          "type": "video",
+          "title": "Responsive Typography with CSS Clamp",
+          "url": "https://www.youtube.com/watch?v=erqRw3E-vn4"
+        }
+      ]
+    },
+    "74sme3agcXP7TRSGjYcWG": {
+      "id": "74sme3agcXP7TRSGjYcWG",
+      "slug": "rgb",
+      "title": "RGB Colors in CSS",
+      "description": "RGB in CSS allows you to define colors using the Red, Green, and Blue color model. You specify the intensity of each color component (Red, Green, and Blue) as a value between 0 and 255, or as a percentage from 0% to 100%. By combining different amounts of red, green, and blue, you can create a wide range of colors. For example, `rgb(255, 0, 0)` represents pure red, `rgb(0, 255, 0)` represents pure green, and `rgb(0, 0, 255)` represents pure blue.",
+      "resources": [
+        {
+          "id": "74sme3agcXP7TRSGjYcWG-res-1",
+          "type": "article",
+          "title": "Color",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/color_value"
+        },
+        {
+          "id": "74sme3agcXP7TRSGjYcWG-res-2",
+          "type": "article",
+          "title": "rgb function",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/rgb"
+        },
+        {
+          "id": "74sme3agcXP7TRSGjYcWG-res-3",
+          "type": "article",
+          "title": "CSS RGB Colors",
+          "url": "https://www.w3schools.com/css/css_colors_rgb.asp"
+        },
+        {
+          "id": "74sme3agcXP7TRSGjYcWG-res-4",
+          "type": "video",
+          "title": "CSS - Colors RGB & RGBA - W3Schools.com",
+          "url": "https://www.youtube.com/watch?v=6tbUo6PXc88"
+        }
+      ]
+    },
+    "wgopn2aZpRKXKw3PSCvWQ": {
+      "id": "wgopn2aZpRKXKw3PSCvWQ",
+      "slug": "rgba-hsla",
+      "title": "rgba and hsla Colors",
+      "description": "`rgba` and `hsla` are color models used in CSS to define colors with added transparency. `rgba` represents colors using Red, Green, Blue, and Alpha (transparency) values, while `hsla` uses Hue, Saturation, Lightness, and Alpha values. The alpha value ranges from 0 (fully transparent) to 1 (fully opaque), allowing for semi-transparent colors.",
+      "resources": [
+        {
+          "id": "wgopn2aZpRKXKw3PSCvWQ-res-1",
+          "type": "article",
+          "title": "rgb",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/rgb"
+        },
+        {
+          "id": "wgopn2aZpRKXKw3PSCvWQ-res-2",
+          "type": "article",
+          "title": "hsl",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/hsl"
+        }
+      ]
+    },
+    "obhoMq0OIyEolhppby1XM": {
+      "id": "obhoMq0OIyEolhppby1XM",
+      "slug": "rules",
+      "title": "CSS Rules",
+      "description": "CSS rules are the fundamental building blocks of CSS stylesheets. Each rule specifies how particular HTML elements should be styled. A rule consists of a selector, which identifies the element(s) to be styled, and a declaration block, which contains one or more property-value pairs that define the styles to be applied. These property-value pairs are separated by semicolons and define the visual presentation of the selected elements.",
+      "resources": [
+        {
+          "id": "obhoMq0OIyEolhppby1XM-res-1",
+          "type": "article",
+          "title": "Introduction to CSS syntax: declarations, rulesets, and statements",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_syntax/Syntax"
+        }
+      ]
+    },
+    "1bCeydLILdEKV9NJe83gK": {
+      "id": "1bCeydLILdEKV9NJe83gK",
+      "slug": "sass",
+      "title": "Sass",
+      "description": "Sass (Syntactically Awesome Style Sheets) is a preprocessor scripting language that is compiled into CSS. It extends the capabilities of basic CSS by allowing you to use features like variables, nesting, mixins, functions, and inheritance. This makes CSS more maintainable, organized, and efficient to write.",
+      "resources": [
+        {
+          "id": "1bCeydLILdEKV9NJe83gK-res-1",
+          "type": "article",
+          "title": "Sass",
+          "url": "https://sass-lang.com/"
+        },
+        {
+          "id": "1bCeydLILdEKV9NJe83gK-res-2",
+          "type": "article",
+          "title": "Sass Basics",
+          "url": "https://sass-lang.com/guide/"
+        },
+        {
+          "id": "1bCeydLILdEKV9NJe83gK-res-3",
+          "type": "article",
+          "title": "Sass Tutorial",
+          "url": "https://www.w3schools.com/sass/"
+        },
+        {
+          "id": "1bCeydLILdEKV9NJe83gK-res-4",
+          "type": "video",
+          "title": "Sass Crash Course",
+          "url": "https://www.youtube.com/watch?v=nu5mdN2JIwM"
+        }
+      ]
+    },
+    "v5fDxilI3q2vvt_B4Mxer": {
+      "id": "v5fDxilI3q2vvt_B4Mxer",
+      "slug": "selector",
+      "title": "Selector",
+      "description": "A selector is a fundamental part of a CSS rule. It's essentially a pattern that identifies which HTML elements the rule should be applied to. Selectors can target elements based on their tag name, class, ID, attributes, or their relationship to other elements in the document.",
+      "resources": [
+        {
+          "id": "v5fDxilI3q2vvt_B4Mxer-res-1",
+          "type": "article",
+          "title": "CSS selectors",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors"
+        },
+        {
+          "id": "v5fDxilI3q2vvt_B4Mxer-res-2",
+          "type": "video",
+          "title": "Learn Every CSS Selector In 20 Minutes",
+          "url": "https://www.youtube.com/watch?v=l1mER1bV0N0"
+        }
+      ]
+    },
+    "BaIUVApePcGNdYabadnbz": {
+      "id": "BaIUVApePcGNdYabadnbz",
+      "slug": "simple-selectors",
+      "title": "Simple Selectors",
+      "description": "Simple selectors in CSS are the basic building blocks for targeting HTML elements you want to style. They directly select elements based on their name (like `p` for paragraphs), ID (using `#`), or class (using `.`). These selectors are straightforward and provide a fundamental way to apply styles to specific parts of your webpage.",
+      "resources": [
+        {
+          "id": "BaIUVApePcGNdYabadnbz-res-1",
+          "type": "article",
+          "title": "Basic CSS selectors",
+          "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Basic_selectors"
+        },
+        {
+          "id": "BaIUVApePcGNdYabadnbz-res-2",
+          "type": "video",
+          "title": "CSS - Simple Selectors | W3Schools",
+          "url": "https://www.youtube.com/watch?v=ZNskBxLVOfs"
+        }
+      ]
+    },
+    "qaZfDil0Slda9t-RN0KWH": {
+      "id": "qaZfDil0Slda9t-RN0KWH",
+      "slug": "static",
+      "title": "Static Positioning",
+      "description": "Static positioning is the default way elements are placed on a webpage. Elements with static positioning are rendered in the order they appear in the HTML, following the normal document flow. You can't move them using the `top`, `right`, `bottom`, or `left` properties.",
+      "resources": [
+        {
+          "id": "qaZfDil0Slda9t-RN0KWH-res-1",
+          "type": "article",
+          "title": "CSS position deep dive",
+          "url": "https://www.youtube.com/watch?v=fF_NVrd1s14"
+        }
+      ]
+    },
+    "mJifV0kjJTwkllmZVSqec": {
+      "id": "mJifV0kjJTwkllmZVSqec",
+      "slug": "sticky",
+      "title": "Sticky Positioning",
+      "description": "Sticky positioning in CSS is a hybrid of relative and fixed positioning. An element with `position: sticky;` is initially positioned relatively, but when the user scrolls to a point where the element would normally scroll off-screen, it becomes fixed, sticking to the specified offset (e.g., `top: 0;`) until the containing block's boundary is reached.",
+      "resources": [
+        {
+          "id": "mJifV0kjJTwkllmZVSqec-res-1",
+          "type": "article",
+          "title": "CSS Position Sticky - How It Really Works!",
+          "url": "https://elad.medium.com/css-position-sticky-how-it-really-works-54cd01dc2d46"
+        },
+        {
+          "id": "mJifV0kjJTwkllmZVSqec-res-2",
+          "type": "video",
+          "title": "A couple of cool things you can do with CSS position sticky",
+          "url": "https://www.youtube.com/watch?v=8TyoihVGErI"
+        },
+        {
+          "id": "mJifV0kjJTwkllmZVSqec-res-3",
+          "type": "video",
+          "title": "CSS position deep dive",
+          "url": "https://www.youtube.com/watch?v=fF_NVrd1s14"
+        }
+      ]
+    },
+    "_dWrjp_fK4gmGwiWrgBbb": {
+      "id": "_dWrjp_fK4gmGwiWrgBbb",
+      "slug": "subsequent-sibling",
+      "title": "Subsequent Sibling Combinator",
+      "description": "The subsequent-sibling combinator in CSS is a way to select elements that are siblings (elements sharing the same parent) and appear directly after a specified element. It uses the tilde (~) symbol to denote this relationship. This selector targets all following siblings, not just the immediately adjacent one.",
+      "resources": [
+        {
+          "id": "_dWrjp_fK4gmGwiWrgBbb-res-1",
+          "type": "article",
+          "title": "Subsequent-sibling combinator",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Subsequent-sibling_combinator"
+        }
+      ]
+    },
+    "Q-6tdHPE-xpPGIG8J_Wz7": {
+      "id": "Q-6tdHPE-xpPGIG8J_Wz7",
+      "slug": "tables",
+      "title": "Tables",
+      "description": "Tables in CSS are used to format tabular data on a webpage, arranging information into rows and columns. CSS provides properties to control the appearance of tables, including borders, spacing, alignment, and styling of individual cells, rows, and columns. These properties enable developers to create visually appealing and well-structured tables that present data effectively.",
+      "resources": [
+        {
+          "id": "Q-6tdHPE-xpPGIG8J_Wz7-res-1",
+          "type": "article",
+          "title": "Table",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_table"
+        },
+        {
+          "id": "Q-6tdHPE-xpPGIG8J_Wz7-res-2",
+          "type": "video",
+          "title": "Styling HTML tables with CSS - Web Design/UX Tutorial",
+          "url": "https://www.youtube.com/watch?v=biI9OFH6Nmg"
+        }
+      ]
+    },
+    "SABFbvM47j1cYCyeNfMZR": {
+      "id": "SABFbvM47j1cYCyeNfMZR",
+      "slug": "text-alignment",
+      "title": "Text Alignment",
+      "description": "Text alignment in CSS controls how text is positioned horizontally within its containing element. It determines whether text is aligned to the left, right, center, or justified (spread evenly across the line). This property enhances readability and visual appeal by organizing text in a structured manner.",
+      "resources": [
+        {
+          "id": "SABFbvM47j1cYCyeNfMZR-res-1",
+          "type": "article",
+          "title": "text-align",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/text-align"
+        },
+        {
+          "id": "SABFbvM47j1cYCyeNfMZR-res-2",
+          "type": "article",
+          "title": "text-align | CSS Tricks",
+          "url": "https://css-tricks.com/almanac/properties/t/text-align/"
+        }
+      ]
+    },
+    "AUzbo8UwpL-XxvhMCvtoe": {
+      "id": "AUzbo8UwpL-XxvhMCvtoe",
+      "slug": "text-decoration",
+      "title": "Text Decoration",
+      "description": "Text decoration in CSS refers to the styling applied to text to enhance its appearance or convey specific meanings. It primarily involves adding lines above, below, or through the text. Common decorations include underlines, overlines, and line-throughs, which can be customized with different colors, styles, and thicknesses to achieve various visual effects.",
+      "resources": [
+        {
+          "id": "AUzbo8UwpL-XxvhMCvtoe-res-1",
+          "type": "article",
+          "title": "text-decoration",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration"
+        },
+        {
+          "id": "AUzbo8UwpL-XxvhMCvtoe-res-2",
+          "type": "video",
+          "title": "CSS Tutorial For Beginners - Text Decoration",
+          "url": "https://www.youtube.com/watch?v=dm54To0EOpw"
+        }
+      ]
+    },
+    "Mq4Oo9cCWqkPGHkgpNRTz": {
+      "id": "Mq4Oo9cCWqkPGHkgpNRTz",
+      "slug": "text-shadows",
+      "title": "Text Shadows",
+      "description": "Text shadows in CSS add depth and visual interest to text by creating a blurred, offset copy of the text behind it. This effect is achieved using the `text-shadow` property, which allows you to specify the shadow's horizontal offset, vertical offset, blur radius, and color. Multiple shadows can be applied to a single text element, creating complex and layered effects.",
+      "resources": [
+        {
+          "id": "Mq4Oo9cCWqkPGHkgpNRTz-res-1",
+          "type": "article",
+          "title": "text-shadow",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow"
+        },
+        {
+          "id": "Mq4Oo9cCWqkPGHkgpNRTz-res-2",
+          "type": "video",
+          "title": "Learn CSS shadows in 3 minutes!",
+          "url": "https://www.youtube.com/watch?v=Yqs_61ub1Ng"
+        }
+      ]
+    },
+    "U3oH6TFRezkciuROAU0wd": {
+      "id": "U3oH6TFRezkciuROAU0wd",
+      "slug": "text-spacing",
+      "title": "Text Spacing",
+      "description": "Text spacing in CSS involves adjusting the space between characters, words, and lines of text. This control allows for improved readability and visual appeal by fine-tuning the horizontal and vertical spacing within text elements. Properties like `letter-spacing`, `word-spacing`, and `line-height` are used to manipulate these spaces.",
+      "resources": [
+        {
+          "id": "U3oH6TFRezkciuROAU0wd-res-1",
+          "type": "article",
+          "title": "letter-spacing",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing"
+        },
+        {
+          "id": "U3oH6TFRezkciuROAU0wd-res-2",
+          "type": "article",
+          "title": "word-spacing",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/word-spacing"
+        },
+        {
+          "id": "U3oH6TFRezkciuROAU0wd-res-3",
+          "type": "article",
+          "title": "CSS Text Spacing",
+          "url": "https://www.codeguage.com/v1/courses/css/text-spacing"
+        },
+        {
+          "id": "U3oH6TFRezkciuROAU0wd-res-4",
+          "type": "video",
+          "title": "HTML & CSS for Absolute Beginners: Line height and spacing",
+          "url": "https://www.youtube.com/watch?v=HaTxxAj3cBo"
+        }
+      ]
+    },
+    "vo34F_AHkMlyq6uNRPk-1": {
+      "id": "vo34F_AHkMlyq6uNRPk-1",
+      "slug": "text-styling",
+      "title": "Text Styling",
+      "description": "Text styling in CSS involves controlling the visual appearance of text elements on a webpage. This includes properties that affect the font family, size, weight, color, and style of the text. Additionally, it encompasses properties for text alignment, decoration (like underlines), letter spacing, line height, and text transformations (such as capitalization).",
+      "resources": [
+        {
+          "id": "vo34F_AHkMlyq6uNRPk-1-res-1",
+          "type": "article",
+          "title": "Fundamental text and font styling",
+          "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Text_styling/Fundamentals"
+        },
+        {
+          "id": "vo34F_AHkMlyq6uNRPk-1-res-2",
+          "type": "article",
+          "title": "Styling Text in CSS",
+          "url": "https://pieces.app/blog/styling-text-in-css"
+        },
+        {
+          "id": "vo34F_AHkMlyq6uNRPk-1-res-3",
+          "type": "video",
+          "title": "Beginner’s guide to styling text with CSS",
+          "url": "https://www.youtube.com/watch?v=Y5TYDo9Qcv4"
+        }
+      ]
+    },
+    "v0IUvnrLv3OiBQ-NkM9Lv": {
+      "id": "v0IUvnrLv3OiBQ-NkM9Lv",
+      "slug": "text-transform",
+      "title": "Text Transform",
+      "description": "Text transform in CSS controls the capitalization of text. It allows you to change the case of letters within an element, regardless of how the text is originally written in the HTML. You can transform text to uppercase, lowercase, capitalize (first letter of each word), or keep the original case.",
+      "resources": [
+        {
+          "id": "v0IUvnrLv3OiBQ-NkM9Lv-res-1",
+          "type": "article",
+          "title": "text-transform",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform"
+        },
+        {
+          "id": "v0IUvnrLv3OiBQ-NkM9Lv-res-2",
+          "type": "video",
+          "title": "CSS Tutorial For Beginners - Text Transform",
+          "url": "https://www.youtube.com/watch?v=j0FS2hCoIjs"
+        }
+      ]
+    },
+    "ZwlCU9jE9YBcEOBo0vFqq": {
+      "id": "ZwlCU9jE9YBcEOBo0vFqq",
+      "slug": "transforms",
+      "title": "Transforms",
+      "description": "Transforms in CSS allow you to alter the shape and position of elements in a two-dimensional or three-dimensional space. This includes operations like rotating, scaling, skewing, and translating elements, providing a way to create visually engaging effects and manipulate the layout without affecting the underlying document flow.",
+      "resources": [
+        {
+          "id": "ZwlCU9jE9YBcEOBo0vFqq-res-1",
+          "type": "article",
+          "title": "CSS Animations",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animations"
+        },
+        {
+          "id": "ZwlCU9jE9YBcEOBo0vFqq-res-2",
+          "type": "article",
+          "title": "CSS Transforms",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_transforms"
+        },
+        {
+          "id": "ZwlCU9jE9YBcEOBo0vFqq-res-3",
+          "type": "article",
+          "title": "Transform",
+          "url": "https://css-tricks.com/almanac/properties/t/transform/"
+        },
+        {
+          "id": "ZwlCU9jE9YBcEOBo0vFqq-res-4",
+          "type": "video",
+          "title": "Learn CSS transformations in 9 minutes!",
+          "url": "https://www.youtube.com/watch?v=qdeIy9_fbxE"
+        }
+      ]
+    },
+    "SNcVcjcvtph3W7KTx1N-v": {
+      "id": "SNcVcjcvtph3W7KTx1N-v",
+      "slug": "transitions",
+      "title": "Transitions",
+      "description": "Transitions in CSS allow you to smoothly change property values over a specified duration. Instead of an abrupt change, a transition creates a gradual effect when a CSS property changes, such as when hovering over an element or when a class is added or removed. This adds visual polish and improves the user experience by making interactions feel more fluid and responsive.",
+      "resources": [
+        {
+          "id": "SNcVcjcvtph3W7KTx1N-v-res-1",
+          "type": "article",
+          "title": "CSS transitions",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_transitions"
+        },
+        {
+          "id": "SNcVcjcvtph3W7KTx1N-v-res-2",
+          "type": "article",
+          "title": "Using CSS transitions",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_transitions/Using_CSS_transitions"
+        },
+        {
+          "id": "SNcVcjcvtph3W7KTx1N-v-res-3",
+          "type": "video",
+          "title": "Animating with CSS Transitions - A look at the transition properties",
+          "url": "https://www.youtube.com/watch?v=Nloq6uzF8RQ"
+        }
+      ]
+    },
+    "yRqSmhRwvZXbNXuCNYCzo": {
+      "id": "yRqSmhRwvZXbNXuCNYCzo",
+      "slug": "units-with-functions",
+      "title": "Units with Functions",
+      "description": "Units with functions in CSS allow you to dynamically calculate values for properties using functions like `calc()`, `min()`, `max()`, and `clamp()`. These functions enable you to perform mathematical operations and comparisons directly within your CSS, making your designs more flexible and responsive by adapting to different screen sizes and contexts. This helps in creating more dynamic and adaptable layouts.",
+      "resources": [
+        {
+          "id": "yRqSmhRwvZXbNXuCNYCzo-res-1",
+          "type": "video",
+          "title": "A CSS Unit Deep Dive - Learn CSS Units & When To Use Them",
+          "url": "https://www.youtube.com/watch?v=fzZTvLmmTzM"
+        }
+      ]
+    },
+    "4LjxorN5jQnm9ZWKPk-pu": {
+      "id": "4LjxorN5jQnm9ZWKPk-pu",
+      "slug": "universal",
+      "title": "Universal Selector",
+      "description": "The universal selector in CSS is a simple selector that matches any element on a webpage. Represented by an asterisk (\\*), it applies a specific style to all elements, regardless of their type or position in the document tree. It's often used to reset or normalize styles across different browsers, ensuring a consistent baseline appearance.",
+      "resources": [
+        {
+          "id": "4LjxorN5jQnm9ZWKPk-pu-res-1",
+          "type": "article",
+          "title": "Universal Selectors",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Universal_selectors"
+        },
+        {
+          "id": "4LjxorN5jQnm9ZWKPk-pu-res-2",
+          "type": "video",
+          "title": "CSS Tutorial For Beginners - The Universal Selector",
+          "url": "https://www.youtube.com/watch?v=EO4ToIX-ZQk"
+        }
+      ]
+    },
+    "sO-XiY9yJZMedzyR_7Gdq": {
+      "id": "sO-XiY9yJZMedzyR_7Gdq",
+      "slug": "visibility",
+      "title": "Visibility",
+      "description": "The `visibility` property in CSS controls whether an element is visible or hidden. When an element's visibility is set to `hidden`, it disappears from the page, but the space it would have occupied remains. This is different from `display: none`, which removes the element from the document flow entirely, causing surrounding elements to reflow.",
+      "resources": [
+        {
+          "id": "sO-XiY9yJZMedzyR_7Gdq-res-1",
+          "type": "article",
+          "title": "Visibility",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/visibility"
+        },
+        {
+          "id": "sO-XiY9yJZMedzyR_7Gdq-res-2",
+          "type": "article",
+          "title": "CSS display:none and visibility:hidden – What's the Difference?",
+          "url": "https://www.freecodecamp.org/news/css-display-none-and-visibility-hidden-the-difference/"
+        }
+      ]
+    },
+    "quGp1pgbrEH37WA5URb_g": {
+      "id": "quGp1pgbrEH37WA5URb_g",
+      "slug": "width--height",
+      "title": "Width and Height",
+      "description": "Width and height in CSS define the size of an element's content area. The `width` property sets the horizontal space an element occupies, while the `height` property sets the vertical space. These properties can be specified using various units like pixels, percentages, or keywords like `auto`.",
+      "resources": [
+        {
+          "id": "quGp1pgbrEH37WA5URb_g-res-1",
+          "type": "article",
+          "title": "CSS Width / Height Properties",
+          "url": "https://www.programiz.com/css/width-height"
+        },
+        {
+          "id": "quGp1pgbrEH37WA5URb_g-res-2",
+          "type": "video",
+          "title": "Learn CSS height and width in 6 minutes!",
+          "url": "https://www.youtube.com/watch?v=QctF-i4-GuM"
+        }
+      ]
+    },
+    "xep8iF-7XOYLY2xeblM-A": {
+      "id": "xep8iF-7XOYLY2xeblM-A",
+      "slug": "z-index--stacking-context",
+      "title": "Z-Index and Stacking Context",
+      "description": "Z-index in CSS controls the vertical stacking order of elements that overlap. Elements with a higher z-index value will appear in front of elements with a lower z-index value. Stacking context is a three-dimensional conceptualization of HTML elements along an imaginary z-axis relative to the viewer, which determines the order in which elements appear in front of or behind each other.",
+      "resources": [
+        {
+          "id": "xep8iF-7XOYLY2xeblM-A-res-1",
+          "type": "article",
+          "title": "z-index",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/z-index"
+        },
+        {
+          "id": "xep8iF-7XOYLY2xeblM-A-res-2",
+          "type": "video",
+          "title": "CSS Z Index Property: What is CSS Z-Index, Stacking Order, and Why Your Z-Index Is Not Working?",
+          "url": "https://www.youtube.com/watch?v=vo1JBj-OAa8"
+        }
+      ]
+    }
+  }
+}

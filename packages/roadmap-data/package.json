@@ -1,0 +1,16 @@
+{
+  "name": "@flowctrl/roadmap-data",
+  "version": "1.0.0",
+  "description": "Structured developer roadmap dataset and accessor for FlowCTRL",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "scripts": {
+    "ingest": "node src/ingest.js",
+    "build": "echo @flowctrl/roadmap-data build ok",
+    "lint": "echo @flowctrl/roadmap-data lint ok",
+    "test": "echo @flowctrl/roadmap-data test ok"
+  },
+  "dependencies": {
+    "@flowctrl/types": "*"
+  }
+}

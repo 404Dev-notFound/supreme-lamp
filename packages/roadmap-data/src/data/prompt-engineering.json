@@ -1,0 +1,1647 @@
+{
+  "slug": "prompt-engineering",
+  "title": "Prompt Engineering & In-Context Learning",
+  "description": "Master prompt patterns, few-shot conditioning, CoT reasoning, and evaluation",
+  "category": "skill",
+  "level": "Beginner",
+  "topicCount": 46,
+  "iconName": "Sparkles",
+  "nodes": [
+    {
+      "id": "node-Pw5LWA9vNRY0N2M0FW16f",
+      "label": "Agents",
+      "topicId": "Pw5LWA9vNRY0N2M0FW16f",
+      "level": 1,
+      "position": {
+        "x": 80,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-Wvu9Q_kNhH1_JlOgxAjP6",
+      "label": "AI Red Teaming",
+      "topicId": "Wvu9Q_kNhH1_JlOgxAjP6",
+      "level": 1,
+      "position": {
+        "x": 340,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-Sj1CMZzZp8kF-LuHcd_UU",
+      "label": "AI vs AGI",
+      "topicId": "Sj1CMZzZp8kF-LuHcd_UU",
+      "level": 1,
+      "position": {
+        "x": 600,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-V8pDOwrRKKcHBTd4qlSsH",
+      "label": "Anthropic",
+      "topicId": "V8pDOwrRKKcHBTd4qlSsH",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-diHNCiuKHeMVgvJ4OMwVh",
+      "label": "Automatic Prompt Engineering",
+      "topicId": "diHNCiuKHeMVgvJ4OMwVh",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-P5nDyQbME53DOEfSkcY6I",
+      "label": "Calibrating LLMs",
+      "topicId": "P5nDyQbME53DOEfSkcY6I",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-weRaJxEplhKDyFWSMeoyI",
+      "label": "Chain of Thought (CoT) Prompting",
+      "topicId": "weRaJxEplhKDyFWSMeoyI",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-b-Xtkv6rt8QgzJXSShOX-",
+      "label": "Context Window",
+      "topicId": "b-Xtkv6rt8QgzJXSShOX-",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-5TNK1KcSzh9GTKiEJnM-y",
+      "label": "Contextual Prompting",
+      "topicId": "5TNK1KcSzh9GTKiEJnM-y",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-Ke5GT163k_ek9SzbcbBGE",
+      "label": "Fine-tuning vs Prompt Engineering",
+      "topicId": "Ke5GT163k_ek9SzbcbBGE",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-YIVNjkmTOY61VmL0md9Pj",
+      "label": "Frequency Penalty",
+      "topicId": "YIVNjkmTOY61VmL0md9Pj",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-o-6UKLZ6oCRbAKgRjH2uI",
+      "label": "Google",
+      "topicId": "o-6UKLZ6oCRbAKgRjH2uI",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-SWDa3Su3VS815WQbvvNsa",
+      "label": "Hallucination",
+      "topicId": "SWDa3Su3VS815WQbvvNsa",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-jrH1qE6EnFXL4fTyYU8gR",
+      "label": "Introduction",
+      "topicId": "jrH1qE6EnFXL4fTyYU8gR",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-CvV3GIvQhsTvE-TQjTpIQ",
+      "label": "LLM Self Evaluation",
+      "topicId": "CvV3GIvQhsTvE-TQjTpIQ",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-pamV5Z8DRKk2ioZbg6QVK",
+      "label": "LLM",
+      "topicId": "pamV5Z8DRKk2ioZbg6QVK",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-74JxgfJ_1qmVNZ_QRp9Ne",
+      "label": "LLMs and How They Work",
+      "topicId": "74JxgfJ_1qmVNZ_QRp9Ne",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-vK9Gf8dGu2UvvJJhhuHG9",
+      "label": "Max Tokens",
+      "topicId": "vK9Gf8dGu2UvvJJhhuHG9",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-Td2YzDFT4LPGDw8JMmQSQ",
+      "label": "Meta",
+      "topicId": "Td2YzDFT4LPGDw8JMmQSQ",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-yfsjW1eze8mWT0iHxv078",
+      "label": "Model Weights / Parameters",
+      "topicId": "yfsjW1eze8mWT0iHxv078",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-Iufv_LsgUNls-Alx_Btlh",
+      "label": "One-Shot & Few-Shot Prompting",
+      "topicId": "Iufv_LsgUNls-Alx_Btlh",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-Yb5cQiV2ETxPbBYCLOpt2",
+      "label": "OpenAI",
+      "topicId": "Yb5cQiV2ETxPbBYCLOpt2",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-wSf7Zr8ZYBuKWX0GQX6J3",
+      "label": "Output Control",
+      "topicId": "wSf7Zr8ZYBuKWX0GQX6J3",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-WpO8V5caudySVehOcuDvK",
+      "label": "Presence Penalty",
+      "topicId": "WpO8V5caudySVehOcuDvK",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-0H2keZYD8iTNyBgmNVhto",
+      "label": "Prompt Debiasing",
+      "topicId": "0H2keZYD8iTNyBgmNVhto",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-HOqWHqAkxLX8f2ImSmZE7",
+      "label": "Prompt Ensembling",
+      "topicId": "HOqWHqAkxLX8f2ImSmZE7",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-6W_ONYREbXHwPigoDx1cW",
+      "label": "Prompt Injection",
+      "topicId": "6W_ONYREbXHwPigoDx1cW",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-gxydtFKmnXNY9I5kpTwjP",
+      "label": "RAG",
+      "topicId": "gxydtFKmnXNY9I5kpTwjP",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-8Ks6txRSUfMK7VotSQ4sC",
+      "label": "ReAct Prompting",
+      "topicId": "8Ks6txRSUfMK7VotSQ4sC",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-g8ylIg4Zh567u-E3yVVY4",
+      "label": "Repetition Penalties",
+      "topicId": "g8ylIg4Zh567u-E3yVVY4",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-XHWKGaSRBYT4MsCHwV-iR",
+      "label": "Role Prompting",
+      "topicId": "XHWKGaSRBYT4MsCHwV-iR",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-JgigM7HvmNOuKnp60v1Ce",
+      "label": "Sampling Parameters",
+      "topicId": "JgigM7HvmNOuKnp60v1Ce",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-1EzqCoplXPiHjp9Z-vqn-",
+      "label": "Self-Consistency Prompting",
+      "topicId": "1EzqCoplXPiHjp9Z-vqn-",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-2MboHh8ugkoH8dSd9d4Mk",
+      "label": "Step-Back Prompting",
+      "topicId": "2MboHh8ugkoH8dSd9d4Mk",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-v3CylRlojeltcwnE76j8Q",
+      "label": "Stop Sequences",
+      "topicId": "v3CylRlojeltcwnE76j8Q",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-j-PWO-ZmF9Oi9A5bwMRto",
+      "label": "Structured Outputs",
+      "topicId": "j-PWO-ZmF9Oi9A5bwMRto",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-fWo39-hehRgwmx7CF36mM",
+      "label": "System Prompting",
+      "topicId": "fWo39-hehRgwmx7CF36mM",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-iMwg-I76-Tg5dhu8DGO6U",
+      "label": "Temperature",
+      "topicId": "iMwg-I76-Tg5dhu8DGO6U",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-NPcaSEteeEA5g22wQ7nL_",
+      "label": "Tokens",
+      "topicId": "NPcaSEteeEA5g22wQ7nL_",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-FF8ai1v5GDzxXLQhpwuPj",
+      "label": "Top-K",
+      "topicId": "FF8ai1v5GDzxXLQhpwuPj",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node--G1U1jDN5st1fTUtQmMl1",
+      "label": "Top-P",
+      "topicId": "-G1U1jDN5st1fTUtQmMl1",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-ob9D0W9B9145Da64nbi1M",
+      "label": "Tree of Thoughts (ToT) Prompting",
+      "topicId": "ob9D0W9B9145Da64nbi1M",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-i4ijY3T5gLgNz0XqRipXe",
+      "label": "What is a Prompt?",
+      "topicId": "i4ijY3T5gLgNz0XqRipXe",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-43drPbTwPqJQPyzwYUdBT",
+      "label": "What is Prompt Engineering?",
+      "topicId": "43drPbTwPqJQPyzwYUdBT",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-3wshuH7_DXgbhxsLzzI4D",
+      "label": "xAI",
+      "topicId": "3wshuH7_DXgbhxsLzzI4D",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-GRerL9UXN73TwpCW2eTIE",
+      "label": "Zero-Shot Prompting",
+      "topicId": "GRerL9UXN73TwpCW2eTIE",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2480
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-node-Pw5LWA9vNRY0N2M0FW16f-node-Wvu9Q_kNhH1_JlOgxAjP6",
+      "source": "node-Pw5LWA9vNRY0N2M0FW16f",
+      "target": "node-Wvu9Q_kNhH1_JlOgxAjP6",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Wvu9Q_kNhH1_JlOgxAjP6-node-Sj1CMZzZp8kF-LuHcd_UU",
+      "source": "node-Wvu9Q_kNhH1_JlOgxAjP6",
+      "target": "node-Sj1CMZzZp8kF-LuHcd_UU",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Sj1CMZzZp8kF-LuHcd_UU-node-V8pDOwrRKKcHBTd4qlSsH",
+      "source": "node-Sj1CMZzZp8kF-LuHcd_UU",
+      "target": "node-V8pDOwrRKKcHBTd4qlSsH",
+      "animated": true
+    },
+    {
+      "id": "edge-node-V8pDOwrRKKcHBTd4qlSsH-node-diHNCiuKHeMVgvJ4OMwVh",
+      "source": "node-V8pDOwrRKKcHBTd4qlSsH",
+      "target": "node-diHNCiuKHeMVgvJ4OMwVh",
+      "animated": true
+    },
+    {
+      "id": "edge-node-diHNCiuKHeMVgvJ4OMwVh-node-P5nDyQbME53DOEfSkcY6I",
+      "source": "node-diHNCiuKHeMVgvJ4OMwVh",
+      "target": "node-P5nDyQbME53DOEfSkcY6I",
+      "animated": true
+    },
+    {
+      "id": "edge-node-P5nDyQbME53DOEfSkcY6I-node-weRaJxEplhKDyFWSMeoyI",
+      "source": "node-P5nDyQbME53DOEfSkcY6I",
+      "target": "node-weRaJxEplhKDyFWSMeoyI",
+      "animated": true
+    },
+    {
+      "id": "edge-node-weRaJxEplhKDyFWSMeoyI-node-b-Xtkv6rt8QgzJXSShOX-",
+      "source": "node-weRaJxEplhKDyFWSMeoyI",
+      "target": "node-b-Xtkv6rt8QgzJXSShOX-",
+      "animated": true
+    },
+    {
+      "id": "edge-node-b-Xtkv6rt8QgzJXSShOX--node-5TNK1KcSzh9GTKiEJnM-y",
+      "source": "node-b-Xtkv6rt8QgzJXSShOX-",
+      "target": "node-5TNK1KcSzh9GTKiEJnM-y",
+      "animated": true
+    },
+    {
+      "id": "edge-node-5TNK1KcSzh9GTKiEJnM-y-node-Ke5GT163k_ek9SzbcbBGE",
+      "source": "node-5TNK1KcSzh9GTKiEJnM-y",
+      "target": "node-Ke5GT163k_ek9SzbcbBGE",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Ke5GT163k_ek9SzbcbBGE-node-YIVNjkmTOY61VmL0md9Pj",
+      "source": "node-Ke5GT163k_ek9SzbcbBGE",
+      "target": "node-YIVNjkmTOY61VmL0md9Pj",
+      "animated": true
+    },
+    {
+      "id": "edge-node-YIVNjkmTOY61VmL0md9Pj-node-o-6UKLZ6oCRbAKgRjH2uI",
+      "source": "node-YIVNjkmTOY61VmL0md9Pj",
+      "target": "node-o-6UKLZ6oCRbAKgRjH2uI",
+      "animated": true
+    },
+    {
+      "id": "edge-node-o-6UKLZ6oCRbAKgRjH2uI-node-SWDa3Su3VS815WQbvvNsa",
+      "source": "node-o-6UKLZ6oCRbAKgRjH2uI",
+      "target": "node-SWDa3Su3VS815WQbvvNsa",
+      "animated": true
+    },
+    {
+      "id": "edge-node-SWDa3Su3VS815WQbvvNsa-node-jrH1qE6EnFXL4fTyYU8gR",
+      "source": "node-SWDa3Su3VS815WQbvvNsa",
+      "target": "node-jrH1qE6EnFXL4fTyYU8gR",
+      "animated": true
+    },
+    {
+      "id": "edge-node-jrH1qE6EnFXL4fTyYU8gR-node-CvV3GIvQhsTvE-TQjTpIQ",
+      "source": "node-jrH1qE6EnFXL4fTyYU8gR",
+      "target": "node-CvV3GIvQhsTvE-TQjTpIQ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-CvV3GIvQhsTvE-TQjTpIQ-node-pamV5Z8DRKk2ioZbg6QVK",
+      "source": "node-CvV3GIvQhsTvE-TQjTpIQ",
+      "target": "node-pamV5Z8DRKk2ioZbg6QVK",
+      "animated": true
+    },
+    {
+      "id": "edge-node-pamV5Z8DRKk2ioZbg6QVK-node-74JxgfJ_1qmVNZ_QRp9Ne",
+      "source": "node-pamV5Z8DRKk2ioZbg6QVK",
+      "target": "node-74JxgfJ_1qmVNZ_QRp9Ne",
+      "animated": true
+    },
+    {
+      "id": "edge-node-74JxgfJ_1qmVNZ_QRp9Ne-node-vK9Gf8dGu2UvvJJhhuHG9",
+      "source": "node-74JxgfJ_1qmVNZ_QRp9Ne",
+      "target": "node-vK9Gf8dGu2UvvJJhhuHG9",
+      "animated": true
+    },
+    {
+      "id": "edge-node-vK9Gf8dGu2UvvJJhhuHG9-node-Td2YzDFT4LPGDw8JMmQSQ",
+      "source": "node-vK9Gf8dGu2UvvJJhhuHG9",
+      "target": "node-Td2YzDFT4LPGDw8JMmQSQ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Td2YzDFT4LPGDw8JMmQSQ-node-yfsjW1eze8mWT0iHxv078",
+      "source": "node-Td2YzDFT4LPGDw8JMmQSQ",
+      "target": "node-yfsjW1eze8mWT0iHxv078",
+      "animated": true
+    },
+    {
+      "id": "edge-node-yfsjW1eze8mWT0iHxv078-node-Iufv_LsgUNls-Alx_Btlh",
+      "source": "node-yfsjW1eze8mWT0iHxv078",
+      "target": "node-Iufv_LsgUNls-Alx_Btlh",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Iufv_LsgUNls-Alx_Btlh-node-Yb5cQiV2ETxPbBYCLOpt2",
+      "source": "node-Iufv_LsgUNls-Alx_Btlh",
+      "target": "node-Yb5cQiV2ETxPbBYCLOpt2",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Yb5cQiV2ETxPbBYCLOpt2-node-wSf7Zr8ZYBuKWX0GQX6J3",
+      "source": "node-Yb5cQiV2ETxPbBYCLOpt2",
+      "target": "node-wSf7Zr8ZYBuKWX0GQX6J3",
+      "animated": true
+    },
+    {
+      "id": "edge-node-wSf7Zr8ZYBuKWX0GQX6J3-node-WpO8V5caudySVehOcuDvK",
+      "source": "node-wSf7Zr8ZYBuKWX0GQX6J3",
+      "target": "node-WpO8V5caudySVehOcuDvK",
+      "animated": true
+    },
+    {
+      "id": "edge-node-WpO8V5caudySVehOcuDvK-node-0H2keZYD8iTNyBgmNVhto",
+      "source": "node-WpO8V5caudySVehOcuDvK",
+      "target": "node-0H2keZYD8iTNyBgmNVhto",
+      "animated": true
+    },
+    {
+      "id": "edge-node-0H2keZYD8iTNyBgmNVhto-node-HOqWHqAkxLX8f2ImSmZE7",
+      "source": "node-0H2keZYD8iTNyBgmNVhto",
+      "target": "node-HOqWHqAkxLX8f2ImSmZE7",
+      "animated": true
+    },
+    {
+      "id": "edge-node-HOqWHqAkxLX8f2ImSmZE7-node-6W_ONYREbXHwPigoDx1cW",
+      "source": "node-HOqWHqAkxLX8f2ImSmZE7",
+      "target": "node-6W_ONYREbXHwPigoDx1cW",
+      "animated": true
+    },
+    {
+      "id": "edge-node-6W_ONYREbXHwPigoDx1cW-node-gxydtFKmnXNY9I5kpTwjP",
+      "source": "node-6W_ONYREbXHwPigoDx1cW",
+      "target": "node-gxydtFKmnXNY9I5kpTwjP",
+      "animated": true
+    },
+    {
+      "id": "edge-node-gxydtFKmnXNY9I5kpTwjP-node-8Ks6txRSUfMK7VotSQ4sC",
+      "source": "node-gxydtFKmnXNY9I5kpTwjP",
+      "target": "node-8Ks6txRSUfMK7VotSQ4sC",
+      "animated": true
+    },
+    {
+      "id": "edge-node-8Ks6txRSUfMK7VotSQ4sC-node-g8ylIg4Zh567u-E3yVVY4",
+      "source": "node-8Ks6txRSUfMK7VotSQ4sC",
+      "target": "node-g8ylIg4Zh567u-E3yVVY4",
+      "animated": true
+    },
+    {
+      "id": "edge-node-g8ylIg4Zh567u-E3yVVY4-node-XHWKGaSRBYT4MsCHwV-iR",
+      "source": "node-g8ylIg4Zh567u-E3yVVY4",
+      "target": "node-XHWKGaSRBYT4MsCHwV-iR",
+      "animated": true
+    },
+    {
+      "id": "edge-node-XHWKGaSRBYT4MsCHwV-iR-node-JgigM7HvmNOuKnp60v1Ce",
+      "source": "node-XHWKGaSRBYT4MsCHwV-iR",
+      "target": "node-JgigM7HvmNOuKnp60v1Ce",
+      "animated": true
+    },
+    {
+      "id": "edge-node-JgigM7HvmNOuKnp60v1Ce-node-1EzqCoplXPiHjp9Z-vqn-",
+      "source": "node-JgigM7HvmNOuKnp60v1Ce",
+      "target": "node-1EzqCoplXPiHjp9Z-vqn-",
+      "animated": true
+    },
+    {
+      "id": "edge-node-1EzqCoplXPiHjp9Z-vqn--node-2MboHh8ugkoH8dSd9d4Mk",
+      "source": "node-1EzqCoplXPiHjp9Z-vqn-",
+      "target": "node-2MboHh8ugkoH8dSd9d4Mk",
+      "animated": true
+    },
+    {
+      "id": "edge-node-2MboHh8ugkoH8dSd9d4Mk-node-v3CylRlojeltcwnE76j8Q",
+      "source": "node-2MboHh8ugkoH8dSd9d4Mk",
+      "target": "node-v3CylRlojeltcwnE76j8Q",
+      "animated": true
+    },
+    {
+      "id": "edge-node-v3CylRlojeltcwnE76j8Q-node-j-PWO-ZmF9Oi9A5bwMRto",
+      "source": "node-v3CylRlojeltcwnE76j8Q",
+      "target": "node-j-PWO-ZmF9Oi9A5bwMRto",
+      "animated": true
+    },
+    {
+      "id": "edge-node-j-PWO-ZmF9Oi9A5bwMRto-node-fWo39-hehRgwmx7CF36mM",
+      "source": "node-j-PWO-ZmF9Oi9A5bwMRto",
+      "target": "node-fWo39-hehRgwmx7CF36mM",
+      "animated": true
+    },
+    {
+      "id": "edge-node-fWo39-hehRgwmx7CF36mM-node-iMwg-I76-Tg5dhu8DGO6U",
+      "source": "node-fWo39-hehRgwmx7CF36mM",
+      "target": "node-iMwg-I76-Tg5dhu8DGO6U",
+      "animated": true
+    },
+    {
+      "id": "edge-node-iMwg-I76-Tg5dhu8DGO6U-node-NPcaSEteeEA5g22wQ7nL_",
+      "source": "node-iMwg-I76-Tg5dhu8DGO6U",
+      "target": "node-NPcaSEteeEA5g22wQ7nL_",
+      "animated": true
+    },
+    {
+      "id": "edge-node-NPcaSEteeEA5g22wQ7nL_-node-FF8ai1v5GDzxXLQhpwuPj",
+      "source": "node-NPcaSEteeEA5g22wQ7nL_",
+      "target": "node-FF8ai1v5GDzxXLQhpwuPj",
+      "animated": true
+    },
+    {
+      "id": "edge-node-FF8ai1v5GDzxXLQhpwuPj-node--G1U1jDN5st1fTUtQmMl1",
+      "source": "node-FF8ai1v5GDzxXLQhpwuPj",
+      "target": "node--G1U1jDN5st1fTUtQmMl1",
+      "animated": true
+    },
+    {
+      "id": "edge-node--G1U1jDN5st1fTUtQmMl1-node-ob9D0W9B9145Da64nbi1M",
+      "source": "node--G1U1jDN5st1fTUtQmMl1",
+      "target": "node-ob9D0W9B9145Da64nbi1M",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ob9D0W9B9145Da64nbi1M-node-i4ijY3T5gLgNz0XqRipXe",
+      "source": "node-ob9D0W9B9145Da64nbi1M",
+      "target": "node-i4ijY3T5gLgNz0XqRipXe",
+      "animated": true
+    },
+    {
+      "id": "edge-node-i4ijY3T5gLgNz0XqRipXe-node-43drPbTwPqJQPyzwYUdBT",
+      "source": "node-i4ijY3T5gLgNz0XqRipXe",
+      "target": "node-43drPbTwPqJQPyzwYUdBT",
+      "animated": true
+    },
+    {
+      "id": "edge-node-43drPbTwPqJQPyzwYUdBT-node-3wshuH7_DXgbhxsLzzI4D",
+      "source": "node-43drPbTwPqJQPyzwYUdBT",
+      "target": "node-3wshuH7_DXgbhxsLzzI4D",
+      "animated": true
+    },
+    {
+      "id": "edge-node-3wshuH7_DXgbhxsLzzI4D-node-GRerL9UXN73TwpCW2eTIE",
+      "source": "node-3wshuH7_DXgbhxsLzzI4D",
+      "target": "node-GRerL9UXN73TwpCW2eTIE",
+      "animated": true
+    }
+  ],
+  "topics": {
+    "Pw5LWA9vNRY0N2M0FW16f": {
+      "id": "Pw5LWA9vNRY0N2M0FW16f",
+      "slug": "agents",
+      "title": "Agents",
+      "description": "AI agents are autonomous systems that use LLMs to reason, plan, and take actions to achieve specific goals. They combine language understanding with tool usage, memory, and decision-making to perform complex, multi-step tasks. Agents can interact with external APIs and services while maintaining context across interactions.",
+      "resources": [
+        {
+          "id": "Pw5LWA9vNRY0N2M0FW16f-res-1",
+          "type": "article",
+          "title": "Tool use overview - Anthropic",
+          "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/overview"
+        },
+        {
+          "id": "Pw5LWA9vNRY0N2M0FW16f-res-2",
+          "type": "article",
+          "title": "Introduction to AI Agents - DAIR.AI",
+          "url": "https://www.promptingguide.ai/agents/introduction"
+        }
+      ]
+    },
+    "Wvu9Q_kNhH1_JlOgxAjP6": {
+      "id": "Wvu9Q_kNhH1_JlOgxAjP6",
+      "slug": "ai-red-teaming",
+      "title": "AI Red Teaming",
+      "description": "AI red teaming involves deliberately testing AI systems to find vulnerabilities, biases, or harmful behaviors through adversarial prompting. Teams attempt to make models produce undesired outputs, bypass safety measures, or exhibit problematic behaviors. This process helps identify weaknesses and improve AI safety and robustness before deployment.",
+      "resources": [
+        {
+          "id": "Wvu9Q_kNhH1_JlOgxAjP6-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated AI Red Teaming Roadmap",
+          "url": "https://roadmap.sh/ai-red-teaming"
+        }
+      ]
+    },
+    "Sj1CMZzZp8kF-LuHcd_UU": {
+      "id": "Sj1CMZzZp8kF-LuHcd_UU",
+      "slug": "ai-vs-agi",
+      "title": "AI vs AGI",
+      "description": "AI (Artificial Intelligence) refers to systems that perform specific tasks intelligently, while AGI (Artificial General Intelligence) represents hypothetical AI with human-level reasoning across all domains. Current LLMs are narrow AI - powerful at language tasks but lacking true understanding or general intelligence like AGI would possess.",
+      "resources": [
+        {
+          "id": "Sj1CMZzZp8kF-LuHcd_UU-res-1",
+          "type": "article",
+          "title": "Artificial general intelligence - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Artificial_general_intelligence"
+        }
+      ]
+    },
+    "V8pDOwrRKKcHBTd4qlSsH": {
+      "id": "V8pDOwrRKKcHBTd4qlSsH",
+      "slug": "anthropic",
+      "title": "Anthropic",
+      "description": "Anthropic develops Claude, a family of large language models focused on safety and helpfulness. The current lineup includes Claude Opus 4.7 (most capable, for complex reasoning and agentic coding), Claude Sonnet 4.6 (best speed-intelligence balance), and Claude Haiku 4.5 (fastest, near-frontier intelligence). All models support extended thinking, vision, and 1M token context windows.",
+      "resources": [
+        {
+          "id": "V8pDOwrRKKcHBTd4qlSsH-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated Claude Code Roadmap",
+          "url": "https://roadmap.sh/claude-code"
+        },
+        {
+          "id": "V8pDOwrRKKcHBTd4qlSsH-res-2",
+          "type": "article",
+          "title": "Claude API Documentation",
+          "url": "https://docs.anthropic.com/en/docs/intro"
+        },
+        {
+          "id": "V8pDOwrRKKcHBTd4qlSsH-res-3",
+          "type": "article",
+          "title": "Anthropic Research",
+          "url": "https://www.anthropic.com/research"
+        }
+      ]
+    },
+    "diHNCiuKHeMVgvJ4OMwVh": {
+      "id": "diHNCiuKHeMVgvJ4OMwVh",
+      "slug": "automatic-prompt-engineering",
+      "title": "Automatic Prompt Engineering",
+      "description": "Automatic Prompt Engineering (APE) uses LLMs to generate and optimize prompts automatically, reducing human effort while enhancing model performance. The process involves prompting a model to create multiple prompt variants, evaluating them using metrics like BLEU or ROUGE, then selecting the highest-scoring candidate. For example, generating 10 variants of customer order phrases for chatbot training, then testing and refining the best performers. This iterative approach helps discover effective prompts that humans might not consider, automating the optimization process.",
+      "resources": [
+        {
+          "id": "diHNCiuKHeMVgvJ4OMwVh-res-1",
+          "type": "article",
+          "title": "Automatic Prompt Engineer - DAIR.AI",
+          "url": "https://www.promptingguide.ai/techniques/ape"
+        }
+      ]
+    },
+    "P5nDyQbME53DOEfSkcY6I": {
+      "id": "P5nDyQbME53DOEfSkcY6I",
+      "slug": "calibrating-llms",
+      "title": "Calibrating LLMs",
+      "description": "Calibrating LLMs involves adjusting models so their confidence scores accurately reflect their actual accuracy. Well-calibrated models express appropriate uncertainty - being confident when correct and uncertain when likely wrong. This helps users better trust and interpret model outputs, especially in critical applications where uncertainty awareness is crucial.",
+      "resources": [
+        {
+          "id": "P5nDyQbME53DOEfSkcY6I-res-1",
+          "type": "article",
+          "title": "Calibrating LLMs - LearnPrompting",
+          "url": "https://learnprompting.org/docs/reliability/calibration"
+        }
+      ]
+    },
+    "weRaJxEplhKDyFWSMeoyI": {
+      "id": "weRaJxEplhKDyFWSMeoyI",
+      "slug": "chain-of-thought-cot-prompting",
+      "title": "Chain of Thought (CoT) Prompting",
+      "description": "Chain of Thought prompting improves LLM reasoning by generating intermediate reasoning steps before providing the final answer. Instead of jumping to conclusions, the model \"thinks through\" problems step by step. Simply adding \"Let's think step by step\" to prompts often dramatically improves accuracy on complex reasoning tasks and mathematical problems.",
+      "resources": [
+        {
+          "id": "weRaJxEplhKDyFWSMeoyI-res-1",
+          "type": "article",
+          "title": "Chain-of-Thought Prompting - DAIR.AI",
+          "url": "https://www.promptingguide.ai/techniques/cot"
+        },
+        {
+          "id": "weRaJxEplhKDyFWSMeoyI-res-2",
+          "type": "article",
+          "title": "Chain-of-Thought Prompting - LearnPrompting",
+          "url": "https://learnprompting.org/docs/intermediate/chain_of_thought"
+        },
+        {
+          "id": "weRaJxEplhKDyFWSMeoyI-res-3",
+          "type": "article",
+          "title": "Reasoning LLMs Guide - DAIR.AI",
+          "url": "https://www.promptingguide.ai/guides/reasoning-llms"
+        },
+        {
+          "id": "weRaJxEplhKDyFWSMeoyI-res-4",
+          "type": "video",
+          "title": "Context Engineering vs. Prompt Engineering: Smarter AI with RAG & Agents",
+          "url": "https://youtu.be/vD0E3EUb8-8?si=Y6MCLPzjmhMB4jSu&t=203"
+        }
+      ]
+    },
+    "b-Xtkv6rt8QgzJXSShOX-": {
+      "id": "b-Xtkv6rt8QgzJXSShOX-",
+      "slug": "context-window",
+      "title": "Context Window",
+      "description": "Context window refers to the maximum number of tokens an LLM can process in a single interaction, including both input prompt and generated output. When exceeded, older parts are truncated. Understanding this constraint is crucial for prompt engineering—you must balance providing sufficient context with staying within token limits.",
+      "resources": [
+        {
+          "id": "b-Xtkv6rt8QgzJXSShOX--res-1",
+          "type": "article",
+          "title": "Context windows - Anthropic",
+          "url": "https://platform.claude.com/docs/en/build-with-claude/context-windows"
+        },
+        {
+          "id": "b-Xtkv6rt8QgzJXSShOX--res-2",
+          "type": "article",
+          "title": "What is a context window? - IBM",
+          "url": "https://www.ibm.com/think/topics/context-window"
+        }
+      ]
+    },
+    "5TNK1KcSzh9GTKiEJnM-y": {
+      "id": "5TNK1KcSzh9GTKiEJnM-y",
+      "slug": "contextual-prompting",
+      "title": "Contextual Prompting",
+      "description": "Contextual prompting provides specific background information or situational details relevant to the current task, helping LLMs understand nuances and tailor responses accordingly. Unlike system or role prompts, contextual prompts supply immediate, task-specific information that's dynamic and changes based on the situation. For example: \"Context: You are writing for a blog about retro 80's arcade video games. Suggest 3 topics to write articles about.\" This technique ensures responses are relevant, accurate, and appropriately framed for the specific context provided.",
+      "resources": [
+        {
+          "id": "5TNK1KcSzh9GTKiEJnM-y-res-1",
+          "type": "article",
+          "title": "Prompting Best Practices - Anthropic",
+          "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices"
+        },
+        {
+          "id": "5TNK1KcSzh9GTKiEJnM-y-res-2",
+          "type": "article",
+          "title": "Prompt Structure and Key Parts - LearnPrompting",
+          "url": "https://learnprompting.org/docs/basics/prompt_structure"
+        }
+      ]
+    },
+    "Ke5GT163k_ek9SzbcbBGE": {
+      "id": "Ke5GT163k_ek9SzbcbBGE",
+      "slug": "fine-tuning-vs-prompt-engg",
+      "title": "Fine-tuning vs Prompt Engineering",
+      "description": "Fine-tuning trains models on specific data to specialize behavior, while prompt engineering achieves customization through input design without model modification. Prompt engineering is faster, cheaper, and more accessible. Fine-tuning offers deeper customization but requires significant resources and expertise.",
+      "resources": [
+        {
+          "id": "Ke5GT163k_ek9SzbcbBGE-res-1",
+          "type": "article",
+          "title": "When to use prompt engineering vs. fine-tuning - TechTarget",
+          "url": "https://www.techtarget.com/searchEnterpriseAI/tip/Prompt-engineering-vs-fine-tuning-Whats-the-difference"
+        },
+        {
+          "id": "Ke5GT163k_ek9SzbcbBGE-res-2",
+          "type": "article",
+          "title": "Prompt Engineering vs Fine Tuning: When to Use Each - Codecademy",
+          "url": "https://www.codecademy.com/article/prompt-engineering-vs-fine-tuning"
+        }
+      ]
+    },
+    "YIVNjkmTOY61VmL0md9Pj": {
+      "id": "YIVNjkmTOY61VmL0md9Pj",
+      "slug": "frequency-penalty",
+      "title": "Frequency Penalty",
+      "description": "Frequency penalty reduces token probability based on how frequently they have appeared in the text, with higher penalties for more frequent tokens. This prevents excessive repetition and encourages varied language use. The penalty scales with usage frequency, making overused words less likely to be selected again, improving content diversity.",
+      "resources": [
+        {
+          "id": "YIVNjkmTOY61VmL0md9Pj-res-1",
+          "type": "article",
+          "title": "Frequency Penalty - LLM Parameter Guide - Vellum",
+          "url": "https://www.vellum.ai/llm-parameters/frequency-penalty"
+        }
+      ]
+    },
+    "o-6UKLZ6oCRbAKgRjH2uI": {
+      "id": "o-6UKLZ6oCRbAKgRjH2uI",
+      "slug": "google",
+      "title": "Google",
+      "description": "Google develops Gemini, a family of multimodal AI models. The latest flagship, Gemini 3, supports text, image, video, and audio through the Gemini API and Google AI Studio. Google also offers specialized models including Imagen for image generation, Veo for video, and Lyria 3 for music. Their research has advanced many prompt engineering techniques, including Chain of Thought reasoning.",
+      "resources": [
+        {
+          "id": "o-6UKLZ6oCRbAKgRjH2uI-res-1",
+          "type": "article",
+          "title": "Google AI Studio",
+          "url": "https://ai.google.dev/"
+        },
+        {
+          "id": "o-6UKLZ6oCRbAKgRjH2uI-res-2",
+          "type": "article",
+          "title": "Gemini API Documentation",
+          "url": "https://ai.google.dev/gemini-api/docs"
+        }
+      ]
+    },
+    "SWDa3Su3VS815WQbvvNsa": {
+      "id": "SWDa3Su3VS815WQbvvNsa",
+      "slug": "hallucination",
+      "title": "Hallucination",
+      "description": "Hallucination in LLMs refers to generating plausible-sounding but factually incorrect or fabricated information. This occurs when models fill knowledge gaps or present uncertain information with apparent certainty. Mitigation techniques include requesting sources, asking for confidence levels, providing context, and always verifying critical information independently.",
+      "resources": [
+        {
+          "id": "SWDa3Su3VS815WQbvvNsa-res-1",
+          "type": "article",
+          "title": "Reduce hallucinations - Anthropic",
+          "url": "https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/reduce-hallucinations"
+        },
+        {
+          "id": "SWDa3Su3VS815WQbvvNsa-res-2",
+          "type": "article",
+          "title": "What are AI hallucinations? - IBM",
+          "url": "https://www.ibm.com/think/topics/ai-hallucinations"
+        }
+      ]
+    },
+    "jrH1qE6EnFXL4fTyYU8gR": {
+      "id": "jrH1qE6EnFXL4fTyYU8gR",
+      "slug": "introduction",
+      "title": "Introduction",
+      "description": "Prompt engineering is the practice of designing effective inputs for Large Language Models to achieve desired outputs. This roadmap covers fundamental concepts, core techniques, model parameters, and advanced methods. It's a universal skill accessible to anyone, requiring no programming background, yet crucial for unlocking AI potential across diverse applications and domains.",
+      "resources": [
+        {
+          "id": "jrH1qE6EnFXL4fTyYU8gR-res-1",
+          "type": "article",
+          "title": "What is Generative AI? - LearnPrompting",
+          "url": "https://learnprompting.org/docs/basics/generative_ai"
+        }
+      ]
+    },
+    "CvV3GIvQhsTvE-TQjTpIQ": {
+      "id": "CvV3GIvQhsTvE-TQjTpIQ",
+      "slug": "llm-self-evaluation",
+      "title": "LLM Self Evaluation",
+      "description": "LLM self-evaluation involves prompting models to assess their own outputs for quality, accuracy, or adherence to criteria. This technique can identify errors, rate confidence levels, or check if responses meet specific requirements. Self-evaluation helps improve output quality through iterative refinement and provides valuable feedback for prompt optimization.",
+      "resources": [
+        {
+          "id": "CvV3GIvQhsTvE-TQjTpIQ-res-1",
+          "type": "article",
+          "title": "LLM Self-Evaluation - LearnPrompting",
+          "url": "https://learnprompting.org/docs/reliability/lm_self_eval"
+        }
+      ]
+    },
+    "pamV5Z8DRKk2ioZbg6QVK": {
+      "id": "pamV5Z8DRKk2ioZbg6QVK",
+      "slug": "llm",
+      "title": "LLM",
+      "description": "Large Language Models (LLMs) are AI systems trained on vast text data to understand and generate human-like language. They work as prediction engines, analyzing input and predicting the next most likely token. LLMs perform tasks like text generation, translation, summarization, and Q&A. Understanding token processing is key to effective prompt engineering.",
+      "resources": [
+        {
+          "id": "pamV5Z8DRKk2ioZbg6QVK-res-1",
+          "type": "article",
+          "title": "LLM - Anthropic Glossary",
+          "url": "https://platform.claude.com/docs/en/about-claude/glossary"
+        },
+        {
+          "id": "pamV5Z8DRKk2ioZbg6QVK-res-2",
+          "type": "article",
+          "title": "Differences Between Chatbots and LLMs - LearnPrompting",
+          "url": "https://learnprompting.org/docs/basics/chatbot_basics"
+        }
+      ]
+    },
+    "74JxgfJ_1qmVNZ_QRp9Ne": {
+      "id": "74JxgfJ_1qmVNZ_QRp9Ne",
+      "slug": "llms-and-how-they-work",
+      "title": "LLMs and How They Work",
+      "description": "LLMs function as sophisticated prediction engines that process text sequentially, predicting the next token based on relationships between previous tokens and patterns from training data. They don't predict single tokens directly but generate probability distributions over possible next tokens, which are then sampled using parameters like temperature and top-K. The model repeatedly adds predicted tokens to the sequence, building responses iteratively. This token-by-token prediction process, combined with massive training datasets, enables LLMs to generate coherent, contextually relevant text across diverse applications and domains.",
+      "resources": [
+        {
+          "id": "74JxgfJ_1qmVNZ_QRp9Ne-res-1",
+          "type": "article",
+          "title": "What are large language models (LLMs)? - IBM",
+          "url": "https://www.ibm.com/think/topics/large-language-models"
+        },
+        {
+          "id": "74JxgfJ_1qmVNZ_QRp9Ne-res-2",
+          "type": "article",
+          "title": "Large language model - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Large_language_model"
+        },
+        {
+          "id": "74JxgfJ_1qmVNZ_QRp9Ne-res-3",
+          "type": "article",
+          "title": "How Large Language Models Work: Explained Simply",
+          "url": "https://justainews.com/applications/chatbots-and-virtual-assistants/how-large-language-models-work/"
+        },
+        {
+          "id": "74JxgfJ_1qmVNZ_QRp9Ne-res-4",
+          "type": "video",
+          "title": "How Large Language Models Work",
+          "url": "https://youtu.be/5sLYAQS9sWQ"
+        }
+      ]
+    },
+    "vK9Gf8dGu2UvvJJhhuHG9": {
+      "id": "vK9Gf8dGu2UvvJJhhuHG9",
+      "slug": "max-tokens",
+      "title": "Max Tokens",
+      "description": "Max tokens setting controls the maximum number of tokens an LLM can generate in response, directly impacting computation cost, response time, and energy consumption. Setting lower limits doesn't make models more concise—it simply stops generation when the limit is reached. This parameter is crucial for techniques like ReAct where models might generate unnecessary tokens after the desired response. Balancing max tokens involves considering cost efficiency, response completeness, and application requirements while ensuring critical information isn't truncated.",
+      "resources": [
+        {
+          "id": "vK9Gf8dGu2UvvJJhhuHG9-res-1",
+          "type": "article",
+          "title": "Token Counting - Anthropic",
+          "url": "https://platform.claude.com/docs/en/build-with-claude/token-counting"
+        },
+        {
+          "id": "vK9Gf8dGu2UvvJJhhuHG9-res-2",
+          "type": "article",
+          "title": "Max Tokens - LLM Parameter Guide - Vellum",
+          "url": "https://www.vellum.ai/llm-parameters/max-tokens"
+        }
+      ]
+    },
+    "Td2YzDFT4LPGDw8JMmQSQ": {
+      "id": "Td2YzDFT4LPGDw8JMmQSQ",
+      "slug": "meta",
+      "title": "Meta",
+      "description": "Meta develops the Llama family of open-source large language models. The latest release, Llama 4, comes in Maverick and Scout variants with strong multimodal and long-context capabilities. Llama models are freely available for research and commercial use, providing transparency in training data and architecture without vendor lock-in.",
+      "resources": [
+        {
+          "id": "Td2YzDFT4LPGDw8JMmQSQ-res-1",
+          "type": "article",
+          "title": "Llama",
+          "url": "https://www.llama.com/"
+        },
+        {
+          "id": "Td2YzDFT4LPGDw8JMmQSQ-res-2",
+          "type": "article",
+          "title": "Llama Models (GitHub)",
+          "url": "https://github.com/meta-llama/llama-models"
+        }
+      ]
+    },
+    "yfsjW1eze8mWT0iHxv078": {
+      "id": "yfsjW1eze8mWT0iHxv078",
+      "slug": "model-weights--parameters",
+      "title": "Model Weights / Parameters",
+      "description": "Model weights and parameters are the learned values that define an LLM's behavior and knowledge. Parameters are the trainable variables adjusted during training, while weights represent their final values. Understanding parameter count helps gauge model capabilities - larger models typically have more parameters and better performance but require more computational resources.",
+      "resources": [
+        {
+          "id": "yfsjW1eze8mWT0iHxv078-res-1",
+          "type": "article",
+          "title": "What are LLM parameters? - IBM",
+          "url": "https://www.ibm.com/think/topics/llm-parameters"
+        }
+      ]
+    },
+    "Iufv_LsgUNls-Alx_Btlh": {
+      "id": "Iufv_LsgUNls-Alx_Btlh",
+      "slug": "one-shot--few-shot-prompting",
+      "title": "One-Shot & Few-Shot Prompting",
+      "description": "One-shot provides a single example to guide model behavior, while few-shot includes multiple examples (3-5) to demonstrate desired patterns. Examples show output structure, style, and tone, increasing accuracy and consistency. Use few-shot for complex formatting, specialized tasks, and when zero-shot results are inconsistent.",
+      "resources": [
+        {
+          "id": "Iufv_LsgUNls-Alx_Btlh-res-1",
+          "type": "article",
+          "title": "Few-Shot Prompting - DAIR.AI",
+          "url": "https://www.promptingguide.ai/techniques/fewshot"
+        },
+        {
+          "id": "Iufv_LsgUNls-Alx_Btlh-res-2",
+          "type": "article",
+          "title": "Few-Shot Prompting - LearnPrompting",
+          "url": "https://learnprompting.org/docs/basics/few_shot"
+        },
+        {
+          "id": "Iufv_LsgUNls-Alx_Btlh-res-3",
+          "type": "article",
+          "title": "Few-Shot Introduction - LearnPrompting",
+          "url": "https://learnprompting.org/docs/advanced/few_shot/introduction"
+        },
+        {
+          "id": "Iufv_LsgUNls-Alx_Btlh-res-4",
+          "type": "video",
+          "title": "Context Engineering vs. Prompt Engineering: Smarter AI with RAG & Agents",
+          "url": "https://youtu.be/vD0E3EUb8-8?si=Fi2igdPTBUocqnX7&t=177"
+        }
+      ]
+    },
+    "Yb5cQiV2ETxPbBYCLOpt2": {
+      "id": "Yb5cQiV2ETxPbBYCLOpt2",
+      "slug": "openai",
+      "title": "OpenAI",
+      "description": "OpenAI develops leading language models including GPT-5.4, o3, and Codex, setting industry standards for prompt engineering. Their API provides access to frontier models with configurable parameters, and their Agents SDK enables building autonomous AI systems. The OpenAI Cookbook and platform documentation are key references for prompt engineering best practices.",
+      "resources": [
+        {
+          "id": "Yb5cQiV2ETxPbBYCLOpt2-res-1",
+          "type": "article",
+          "title": "OpenAI API Documentation",
+          "url": "https://developers.openai.com/api/docs"
+        },
+        {
+          "id": "Yb5cQiV2ETxPbBYCLOpt2-res-2",
+          "type": "article",
+          "title": "OpenAI Cookbook (GitHub)",
+          "url": "https://github.com/openai/openai-cookbook"
+        }
+      ]
+    },
+    "wSf7Zr8ZYBuKWX0GQX6J3": {
+      "id": "wSf7Zr8ZYBuKWX0GQX6J3",
+      "slug": "output-control",
+      "title": "Output Control",
+      "description": "Output control encompasses techniques and parameters for managing LLM response characteristics including length, format, style, and content boundaries. Key methods include max tokens for length limits, stop sequences for precise boundaries, temperature for creativity control, and structured output requirements for format consistency. Effective output control combines prompt engineering techniques with model parameters to ensure responses meet specific requirements. This is crucial for production applications where consistent, appropriately formatted outputs are essential for user experience and system integration.",
+      "resources": [
+        {
+          "id": "wSf7Zr8ZYBuKWX0GQX6J3-res-1",
+          "type": "article",
+          "title": "Increase Output Consistency - Anthropic",
+          "url": "https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/increase-consistency"
+        },
+        {
+          "id": "wSf7Zr8ZYBuKWX0GQX6J3-res-2",
+          "type": "article",
+          "title": "General Tips for Designing Prompts - DAIR.AI",
+          "url": "https://www.promptingguide.ai/introduction/tips"
+        }
+      ]
+    },
+    "WpO8V5caudySVehOcuDvK": {
+      "id": "WpO8V5caudySVehOcuDvK",
+      "slug": "presence-penalty",
+      "title": "Presence Penalty",
+      "description": "Presence penalty reduces the likelihood of repeating tokens that have already appeared in the text, encouraging diverse vocabulary usage. Unlike frequency penalty which considers how often tokens appear, presence penalty applies the same penalty to any previously used token, promoting varied content and creativity.",
+      "resources": [
+        {
+          "id": "WpO8V5caudySVehOcuDvK-res-1",
+          "type": "article",
+          "title": "Presence Penalty - LLM Parameter Guide - Vellum",
+          "url": "https://www.vellum.ai/llm-parameters/presence-penalty"
+        }
+      ]
+    },
+    "0H2keZYD8iTNyBgmNVhto": {
+      "id": "0H2keZYD8iTNyBgmNVhto",
+      "slug": "prompt-debiasing",
+      "title": "Prompt Debiasing",
+      "description": "Prompt debiasing involves techniques to reduce unwanted biases in LLM outputs by carefully crafting prompts. This includes using neutral language, diverse examples, and explicit instructions to avoid stereotypes or unfair representations. Effective debiasing helps ensure AI outputs are fairer, inclusive, and more representative across different groups and perspectives.",
+      "resources": [
+        {
+          "id": "0H2keZYD8iTNyBgmNVhto-res-1",
+          "type": "article",
+          "title": "Prompt Debiasing - LearnPrompting",
+          "url": "https://learnprompting.org/docs/reliability/debiasing"
+        }
+      ]
+    },
+    "HOqWHqAkxLX8f2ImSmZE7": {
+      "id": "HOqWHqAkxLX8f2ImSmZE7",
+      "slug": "prompt-ensembling",
+      "title": "Prompt Ensembling",
+      "description": "Prompt ensembling combines multiple different prompts or prompt variations to improve output quality and consistency. This technique involves running the same query with different prompt formulations and aggregating results through voting, averaging, or selection. Ensembling reduces variance and increases reliability by leveraging diverse prompt perspectives.",
+      "resources": [
+        {
+          "id": "HOqWHqAkxLX8f2ImSmZE7-res-1",
+          "type": "article",
+          "title": "Introduction to Ensembling - LearnPrompting",
+          "url": "https://learnprompting.org/docs/advanced/ensembling/introduction"
+        }
+      ]
+    },
+    "6W_ONYREbXHwPigoDx1cW": {
+      "id": "6W_ONYREbXHwPigoDx1cW",
+      "slug": "prompt-injection",
+      "title": "Prompt Injection",
+      "description": "Prompt injection is a security vulnerability where malicious users manipulate LLM inputs to override intended behavior, bypass safety measures, or extract sensitive information. Attackers embed instructions within data to make models ignore original prompts and follow malicious commands. Mitigation requires input sanitization, injection-resistant prompt design, and proper security boundaries.",
+      "resources": [
+        {
+          "id": "6W_ONYREbXHwPigoDx1cW-res-1",
+          "type": "article",
+          "title": "Mitigate jailbreaks and prompt injections - Anthropic",
+          "url": "https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/mitigate-jailbreaks"
+        },
+        {
+          "id": "6W_ONYREbXHwPigoDx1cW-res-2",
+          "type": "article",
+          "title": "LLM01:2025 Prompt Injection - OWASP",
+          "url": "https://genai.owasp.org/llmrisk/llm01-prompt-injection/"
+        },
+        {
+          "id": "6W_ONYREbXHwPigoDx1cW-res-3",
+          "type": "video",
+          "title": "What Is a Prompt Injection Attack?",
+          "url": "https://www.youtube.com/watch?v=jrHRe9lSqqA"
+        }
+      ]
+    },
+    "gxydtFKmnXNY9I5kpTwjP": {
+      "id": "gxydtFKmnXNY9I5kpTwjP",
+      "slug": "rag",
+      "title": "RAG",
+      "description": "Retrieval-Augmented Generation (RAG) combines LLMs with external knowledge retrieval to ground responses in verified, current information. RAG retrieves relevant documents before generating responses, reducing hallucinations and enabling access to information beyond the model's training cutoff. This approach improves accuracy and provides source attribution.",
+      "resources": [
+        {
+          "id": "gxydtFKmnXNY9I5kpTwjP-res-1",
+          "type": "article",
+          "title": "Introduction to RAG - LlamaIndex",
+          "url": "https://developers.llamaindex.ai/python/framework/understanding/rag/"
+        },
+        {
+          "id": "gxydtFKmnXNY9I5kpTwjP-res-2",
+          "type": "article",
+          "title": "Retrieval Augmented Generation (RAG) - DAIR.AI",
+          "url": "https://www.promptingguide.ai/techniques/rag"
+        }
+      ]
+    },
+    "8Ks6txRSUfMK7VotSQ4sC": {
+      "id": "8Ks6txRSUfMK7VotSQ4sC",
+      "slug": "react-prompting",
+      "title": "ReAct Prompting",
+      "description": "ReAct (Reason and Act) prompting enables LLMs to solve complex tasks by combining reasoning with external tool interactions. It follows a thought-action-observation loop: analyze the problem, perform actions using external APIs, review results, and iterate until solved. Useful for research, multi-step problems, and tasks requiring current data.",
+      "resources": [
+        {
+          "id": "8Ks6txRSUfMK7VotSQ4sC-res-1",
+          "type": "article",
+          "title": "ReAct - DAIR.AI",
+          "url": "https://www.promptingguide.ai/techniques/react"
+        },
+        {
+          "id": "8Ks6txRSUfMK7VotSQ4sC-res-2",
+          "type": "article",
+          "title": "ReAct: Synergizing Reasoning and Acting - LearnPrompting",
+          "url": "https://learnprompting.org/docs/techniques/react"
+        },
+        {
+          "id": "8Ks6txRSUfMK7VotSQ4sC-res-3",
+          "type": "video",
+          "title": "4 Methods of Prompt Engineering",
+          "url": "https://youtu.be/vD0E3EUb8-8?si=Y6MCLPzjmhMB4jSu&t=203"
+        }
+      ]
+    },
+    "g8ylIg4Zh567u-E3yVVY4": {
+      "id": "g8ylIg4Zh567u-E3yVVY4",
+      "slug": "repetition-penalties",
+      "title": "Repetition Penalties",
+      "description": "Repetition penalties discourage LLMs from repeating words or phrases by reducing the probability of selecting previously used tokens. This includes frequency penalty (scales with usage count) and presence penalty (applies equally to any used token). These parameters improve output quality by promoting vocabulary diversity and preventing redundant phrasing.",
+      "resources": [
+        {
+          "id": "g8ylIg4Zh567u-E3yVVY4-res-1",
+          "type": "article",
+          "title": "Tips for Writing Better Prompts - LearnPrompting",
+          "url": "https://learnprompting.org/docs/basics/ai_prompt_tips"
+        }
+      ]
+    },
+    "XHWKGaSRBYT4MsCHwV-iR": {
+      "id": "XHWKGaSRBYT4MsCHwV-iR",
+      "slug": "role-prompting",
+      "title": "Role Prompting",
+      "description": "Role prompting assigns a specific character, identity, or professional role to the LLM to generate responses consistent with that role's expertise, personality, and communication style. By establishing roles like \"teacher,\" \"travel guide,\" or \"software engineer,\" you provide the model with appropriate domain knowledge, perspective, and tone for more targeted, natural interactions.",
+      "resources": [
+        {
+          "id": "XHWKGaSRBYT4MsCHwV-iR-res-1",
+          "type": "article",
+          "title": "Assigning Roles to Chatbots - LearnPrompting",
+          "url": "https://learnprompting.org/docs/basics/roles"
+        },
+        {
+          "id": "XHWKGaSRBYT4MsCHwV-iR-res-2",
+          "type": "article",
+          "title": "Role Prompting - LearnPrompting",
+          "url": "https://learnprompting.org/docs/advanced/zero_shot/role_prompting"
+        },
+        {
+          "id": "XHWKGaSRBYT4MsCHwV-iR-res-3",
+          "type": "video",
+          "title": "Context Engineering vs. Prompt Engineering: Smarter AI with RAG & Agents",
+          "url": "https://youtu.be/vD0E3EUb8-8?si=9orzEniOGmRD7g-o&t=136"
+        }
+      ]
+    },
+    "JgigM7HvmNOuKnp60v1Ce": {
+      "id": "JgigM7HvmNOuKnp60v1Ce",
+      "slug": "sampling-parameters",
+      "title": "Sampling Parameters",
+      "description": "Sampling parameters (temperature, top-K, top-P) control how LLMs select tokens from probability distributions, determining output randomness and creativity. These parameters interact: at extreme settings, one can override others (temperature 0 makes top-K/top-P irrelevant). A balanced starting point is temperature 0.2, top-P 0.95, top-K 30 for coherent but creative results. Understanding their interactions is crucial for optimal prompting—use temperature 0 for factual tasks, higher values for creativity, and combine settings strategically based on your specific use case.",
+      "resources": [
+        {
+          "id": "JgigM7HvmNOuKnp60v1Ce-res-1",
+          "type": "article",
+          "title": "LLM Settings (Temperature, Top-K, Top-P) - DAIR.AI",
+          "url": "https://www.promptingguide.ai/introduction/settings"
+        }
+      ]
+    },
+    "1EzqCoplXPiHjp9Z-vqn-": {
+      "id": "1EzqCoplXPiHjp9Z-vqn-",
+      "slug": "self-consistency-prompting",
+      "title": "Self-Consistency Prompting",
+      "description": "Self-consistency prompting generates multiple reasoning paths for the same problem using higher temperature settings, then selects the most commonly occurring answer through majority voting. This technique combines sampling and voting to improve accuracy and provides pseudo-probability of answer correctness. While more expensive due to multiple API calls, it significantly enhances reliability for complex reasoning tasks by reducing the impact of single incorrect reasoning chains and leveraging diverse problem-solving approaches.",
+      "resources": [
+        {
+          "id": "1EzqCoplXPiHjp9Z-vqn--res-1",
+          "type": "article",
+          "title": "Self-Consistency - DAIR.AI",
+          "url": "https://www.promptingguide.ai/techniques/consistency"
+        },
+        {
+          "id": "1EzqCoplXPiHjp9Z-vqn--res-2",
+          "type": "article",
+          "title": "Self-Consistency - LearnPrompting",
+          "url": "https://learnprompting.org/docs/intermediate/self_consistency"
+        }
+      ]
+    },
+    "2MboHh8ugkoH8dSd9d4Mk": {
+      "id": "2MboHh8ugkoH8dSd9d4Mk",
+      "slug": "step-back-prompting",
+      "title": "Step-Back Prompting",
+      "description": "Step-back prompting improves LLM performance by first asking a general question related to the specific task, then using that answer to inform the final response. This technique activates relevant background knowledge before attempting the specific problem. For example, before writing a video game level storyline, first ask \"What are key settings for engaging first-person shooter levels?\" then use those insights to create the specific storyline. This approach reduces biases and improves accuracy by grounding responses in broader principles.",
+      "resources": [
+        {
+          "id": "2MboHh8ugkoH8dSd9d4Mk-res-1",
+          "type": "article",
+          "title": "Step-Back Prompting - LearnPrompting",
+          "url": "https://learnprompting.org/docs/advanced/thought_generation/step_back_prompting"
+        }
+      ]
+    },
+    "v3CylRlojeltcwnE76j8Q": {
+      "id": "v3CylRlojeltcwnE76j8Q",
+      "slug": "stop-sequences",
+      "title": "Stop Sequences",
+      "description": "Stop sequences are specific strings that signal the LLM to stop generating text when encountered, providing precise control over output length and format. Common examples include newlines, periods, or custom markers like \"###\" or \"END\". This parameter is particularly useful for structured outputs, preventing models from generating beyond intended boundaries. Stop sequences are essential for ReAct prompting and other scenarios where you need clean, precisely bounded responses. They offer more control than max tokens by stopping at logical breakpoints rather than arbitrary token limits.",
+      "resources": [
+        {
+          "id": "v3CylRlojeltcwnE76j8Q-res-1",
+          "type": "article",
+          "title": "Handling Stop Reasons - Anthropic",
+          "url": "https://platform.claude.com/docs/en/build-with-claude/handling-stop-reasons"
+        },
+        {
+          "id": "v3CylRlojeltcwnE76j8Q-res-2",
+          "type": "article",
+          "title": "Stop Sequence - LLM Parameter Guide - Vellum",
+          "url": "https://www.vellum.ai/llm-parameters/stop-sequence"
+        }
+      ]
+    },
+    "j-PWO-ZmF9Oi9A5bwMRto": {
+      "id": "j-PWO-ZmF9Oi9A5bwMRto",
+      "slug": "structured-outputs",
+      "title": "Structured Outputs",
+      "description": "Structured outputs involve prompting LLMs to return responses in specific formats like JSON, XML, or other organized structures rather than free-form text. This approach forces models to organize information systematically, reduces hallucinations by imposing format constraints, enables easy programmatic processing, and facilitates integration with applications. For example, requesting movie classification results as JSON with a specified schema ensures consistent, parseable responses. Structured outputs are particularly valuable for data extraction, API integration, and applications requiring reliable data formatting.",
+      "resources": [
+        {
+          "id": "j-PWO-ZmF9Oi9A5bwMRto-res-1",
+          "type": "article",
+          "title": "Structured Output - Google Gemini API",
+          "url": "https://ai.google.dev/gemini-api/docs/structured-output"
+        },
+        {
+          "id": "j-PWO-ZmF9Oi9A5bwMRto-res-2",
+          "type": "article",
+          "title": "Structured Outputs - Anthropic",
+          "url": "https://platform.claude.com/docs/en/build-with-claude/structured-outputs"
+        },
+        {
+          "id": "j-PWO-ZmF9Oi9A5bwMRto-res-3",
+          "type": "article",
+          "title": "Instructor - Structured Output Library",
+          "url": "https://github.com/jxnl/instructor"
+        },
+        {
+          "id": "j-PWO-ZmF9Oi9A5bwMRto-res-4",
+          "type": "article",
+          "title": "Structured Outputs - LLM Parameter Guide - Vellum",
+          "url": "https://www.vellum.ai/llm-parameters/structured-outputs"
+        }
+      ]
+    },
+    "fWo39-hehRgwmx7CF36mM": {
+      "id": "fWo39-hehRgwmx7CF36mM",
+      "slug": "system-prompting",
+      "title": "System Prompting",
+      "description": "System prompting sets the overall context, purpose, and operational guidelines for LLMs. It defines the model's role, behavioral constraints, output format requirements, and safety guardrails. System prompts provide foundational parameters that influence all subsequent interactions, ensuring consistent, controlled, and structured AI responses throughout the session.",
+      "resources": [
+        {
+          "id": "fWo39-hehRgwmx7CF36mM-res-1",
+          "type": "article",
+          "title": "Prompt Engineering Overview - Anthropic",
+          "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview"
+        },
+        {
+          "id": "fWo39-hehRgwmx7CF36mM-res-2",
+          "type": "article",
+          "title": "Instructions - LearnPrompting",
+          "url": "https://learnprompting.org/docs/basics/instructions"
+        }
+      ]
+    },
+    "iMwg-I76-Tg5dhu8DGO6U": {
+      "id": "iMwg-I76-Tg5dhu8DGO6U",
+      "slug": "temperature",
+      "title": "Temperature",
+      "description": "Temperature controls the randomness in token selection during text generation. Lower values (0-0.3) produce deterministic, factual outputs. Medium values (0.5-0.7) balance creativity and coherence. Higher values (0.8-1.0) generate creative, diverse outputs but may be less coherent. Use low temperature for math/facts, high for creative writing.",
+      "resources": [
+        {
+          "id": "iMwg-I76-Tg5dhu8DGO6U-res-1",
+          "type": "article",
+          "title": "What is LLM Temperature? - IBM",
+          "url": "https://www.ibm.com/think/topics/llm-temperature"
+        },
+        {
+          "id": "iMwg-I76-Tg5dhu8DGO6U-res-2",
+          "type": "article",
+          "title": "Temperature - LLM Parameter Guide - Vellum",
+          "url": "https://www.vellum.ai/llm-parameters/temperature"
+        }
+      ]
+    },
+    "NPcaSEteeEA5g22wQ7nL_": {
+      "id": "NPcaSEteeEA5g22wQ7nL_",
+      "slug": "tokens",
+      "title": "Tokens",
+      "description": "Tokens are fundamental units of text that LLMs process, created by breaking down text into smaller components like words, subwords, or characters. Understanding tokens is crucial because models predict the next token in sequences, API costs are based on token count, and models have maximum token limits for input and output.",
+      "resources": [
+        {
+          "id": "NPcaSEteeEA5g22wQ7nL_-res-1",
+          "type": "article",
+          "title": "Understanding tokens - Microsoft Learn",
+          "url": "https://learn.microsoft.com/en-us/dotnet/ai/conceptual/understanding-tokens"
+        },
+        {
+          "id": "NPcaSEteeEA5g22wQ7nL_-res-2",
+          "type": "article",
+          "title": "What Are Tokens in LLMs and Why They Matter - LLM Guides",
+          "url": "https://llmguides.ai/learn/what-are-tokens/"
+        }
+      ]
+    },
+    "FF8ai1v5GDzxXLQhpwuPj": {
+      "id": "FF8ai1v5GDzxXLQhpwuPj",
+      "slug": "top-k",
+      "title": "Top-K",
+      "description": "Top-K restricts token selection to the K most likely tokens from the probability distribution. Low values (1-10) produce conservative, factual outputs. Medium values (20-50) balance creativity and quality. High values (50+) enable diverse, creative outputs. Use low K for technical tasks, high K for creative writing.",
+      "resources": [
+        {
+          "id": "FF8ai1v5GDzxXLQhpwuPj-res-1",
+          "type": "article",
+          "title": "Gemini API Prompting Strategies - Google",
+          "url": "https://ai.google.dev/gemini-api/docs/prompting-strategies"
+        },
+        {
+          "id": "FF8ai1v5GDzxXLQhpwuPj-res-2",
+          "type": "article",
+          "title": "Top K - LLM Parameter Guide - Vellum",
+          "url": "https://www.vellum.ai/llm-parameters/top-k"
+        }
+      ]
+    },
+    "-G1U1jDN5st1fTUtQmMl1": {
+      "id": "-G1U1jDN5st1fTUtQmMl1",
+      "slug": "top-p",
+      "title": "Top-P",
+      "description": "Top-P (nucleus sampling) selects tokens from the smallest set whose cumulative probability exceeds threshold P. Unlike Top-K's fixed number, Top-P dynamically adjusts based on probability distribution. Low values (0.1-0.5) produce focused outputs, medium (0.6-0.9) balance creativity and coherence, high (0.9-0.99) enable creative diversity.",
+      "resources": [
+        {
+          "id": "-G1U1jDN5st1fTUtQmMl1-res-1",
+          "type": "article",
+          "title": "Top P - LLM Parameter Guide - Vellum",
+          "url": "https://www.vellum.ai/llm-parameters/top-p"
+        }
+      ]
+    },
+    "ob9D0W9B9145Da64nbi1M": {
+      "id": "ob9D0W9B9145Da64nbi1M",
+      "slug": "tree-of-thoughts-tot-prompting",
+      "title": "Tree of Thoughts (ToT) Prompting",
+      "description": "Tree of Thoughts (ToT) generalizes Chain of Thought by allowing LLMs to explore multiple reasoning paths simultaneously rather than following a single linear chain. This approach maintains a tree structure where each thought represents a coherent step toward solving a problem, enabling the model to branch out and explore different reasoning directions. ToT is particularly effective for complex tasks requiring exploration and is well-suited for problems that benefit from considering multiple solution approaches before converging on the best answer.",
+      "resources": [
+        {
+          "id": "ob9D0W9B9145Da64nbi1M-res-1",
+          "type": "article",
+          "title": "Tree of Thoughts - DAIR.AI",
+          "url": "https://www.promptingguide.ai/techniques/tot"
+        }
+      ]
+    },
+    "i4ijY3T5gLgNz0XqRipXe": {
+      "id": "i4ijY3T5gLgNz0XqRipXe",
+      "slug": "what-is-a-prompt",
+      "title": "What is a Prompt?",
+      "description": "A prompt is an input provided to a Large Language Model (LLM) to generate a response or prediction. It serves as the instruction or context that guides the AI model's output generation process. Effective prompts are clear, specific, well-structured, and goal-oriented, directly affecting the accuracy and relevance of AI responses.",
+      "resources": [
+        {
+          "id": "i4ijY3T5gLgNz0XqRipXe-res-1",
+          "type": "article",
+          "title": "Basics of Prompting - DAIR.AI",
+          "url": "https://www.promptingguide.ai/introduction/basics"
+        },
+        {
+          "id": "i4ijY3T5gLgNz0XqRipXe-res-2",
+          "type": "article",
+          "title": "Prompt Elements - DAIR.AI",
+          "url": "https://www.promptingguide.ai/introduction/elements"
+        }
+      ]
+    },
+    "43drPbTwPqJQPyzwYUdBT": {
+      "id": "43drPbTwPqJQPyzwYUdBT",
+      "slug": "what-is-prompt-engineering",
+      "title": "What is Prompt Engineering?",
+      "description": "Prompt engineering is the practice of designing effective inputs for large language models to achieve desired outputs. It covers techniques like few-shot prompting, chain-of-thought, and parameter tuning. No programming background is required, making it a universal skill for anyone working with AI.",
+      "resources": [
+        {
+          "id": "43drPbTwPqJQPyzwYUdBT-res-1",
+          "type": "article",
+          "title": "Prompt engineering - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Prompt_engineering"
+        },
+        {
+          "id": "43drPbTwPqJQPyzwYUdBT-res-2",
+          "type": "article",
+          "title": "Introduction to Prompt Engineering - LearnPrompting",
+          "url": "https://learnprompting.org/docs/basics/prompt_engineering"
+        },
+        {
+          "id": "43drPbTwPqJQPyzwYUdBT-res-3",
+          "type": "video",
+          "title": "RAG vs Fine-Tuning vs Prompt Engineering: Optimizing AI Models",
+          "url": "https://youtu.be/zYGDpG-pTho?si=yov4dDrcsHBAkey-&t=522"
+        }
+      ]
+    },
+    "3wshuH7_DXgbhxsLzzI4D": {
+      "id": "3wshuH7_DXgbhxsLzzI4D",
+      "slug": "xai",
+      "title": "xAI",
+      "description": "xAI develops Grok, a conversational AI model with real-time web access and integration with X (Twitter). The latest model, Grok 4.20, features a 2M token context window, agentic tool calling, and industry-leading low hallucination rates. Grok focuses on delivering truthful, unfiltered responses with strict prompt adherence.",
+      "resources": [
+        {
+          "id": "3wshuH7_DXgbhxsLzzI4D-res-1",
+          "type": "article",
+          "title": "xAI Documentation",
+          "url": "https://docs.x.ai/"
+        },
+        {
+          "id": "3wshuH7_DXgbhxsLzzI4D-res-2",
+          "type": "article",
+          "title": "xAI API Console",
+          "url": "https://console.x.ai"
+        }
+      ]
+    },
+    "GRerL9UXN73TwpCW2eTIE": {
+      "id": "GRerL9UXN73TwpCW2eTIE",
+      "slug": "zero-shot-prompting",
+      "title": "Zero-Shot Prompting",
+      "description": "Zero-shot prompting provides only a task description without examples, relying on the model's training patterns. Simply describe the task clearly, provide input data, and optionally specify output format. Works well for simple classification, text generation, and Q&A, but may produce inconsistent results for complex tasks.",
+      "resources": [
+        {
+          "id": "GRerL9UXN73TwpCW2eTIE-res-1",
+          "type": "article",
+          "title": "Zero-Shot Prompting - DAIR.AI",
+          "url": "https://www.promptingguide.ai/techniques/zeroshot"
+        },
+        {
+          "id": "GRerL9UXN73TwpCW2eTIE-res-2",
+          "type": "article",
+          "title": "Introduction to Zero-Shot Techniques - LearnPrompting",
+          "url": "https://learnprompting.org/docs/advanced/zero_shot/introduction"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,4530 @@
+{
+  "slug": "javascript",
+  "title": "Javascript",
+  "description": "Comprehensive learning curriculum and mastery roadmap for javascript.",
+  "category": "skill",
+  "level": "Intermediate",
+  "topicCount": 126,
+  "iconName": "Compass",
+  "nodes": [
+    {
+      "id": "node-lJwcc6JoUIQoiQ6FkV2KW",
+      "label": "===",
+      "topicId": "lJwcc6JoUIQoiQ6FkV2KW",
+      "level": 1,
+      "position": {
+        "x": 80,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-RonBj1htt6jnBt3W7zoTA",
+      "label": "==",
+      "topicId": "RonBj1htt6jnBt3W7zoTA",
+      "level": 1,
+      "position": {
+        "x": 340,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-kvActjpU4FUJdrmuFoFEe",
+      "label": "All about Variables",
+      "topicId": "kvActjpU4FUJdrmuFoFEe",
+      "level": 1,
+      "position": {
+        "x": 600,
+        "y": 80
+      }
+    },
+    {
+      "id": "node--BtF34cEzI6J8sZCDRlRE",
+      "label": "apply",
+      "topicId": "-BtF34cEzI6J8sZCDRlRE",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-QLC7bW-qHskLH2HOA-Sko",
+      "label": "Arguments object",
+      "topicId": "QLC7bW-qHskLH2HOA-Sko",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-0PK1NwlgkNe2Vf-We4uLH",
+      "label": "Arithmetic Operators",
+      "topicId": "0PK1NwlgkNe2Vf-We4uLH",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-NZedBxG9B9TRVOf2QE2yL",
+      "label": "Arrays",
+      "topicId": "NZedBxG9B9TRVOf2QE2yL",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-fr0NChxMXLpJizyMhXcXS",
+      "label": "Arrow Functions",
+      "topicId": "fr0NChxMXLpJizyMhXcXS",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-IvBtUzIGnkgGXrJjqmjf4",
+      "label": "Assignment Operators",
+      "topicId": "IvBtUzIGnkgGXrJjqmjf4",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-Dn872mgexmxoLtbkIgIgz",
+      "label": "Async/Await",
+      "topicId": "Dn872mgexmxoLtbkIgIgz",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-sFOqx6_7poVIVuXhJVY0E",
+      "label": "Asynchronous JavaScript",
+      "topicId": "sFOqx6_7poVIVuXhJVY0E",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-udoz0DZi7f-vm30dSnYKu",
+      "label": "BigInt Operators",
+      "topicId": "udoz0DZi7f-vm30dSnYKu",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-6lUF0neW1piiP1RsaVxEX",
+      "label": "bigint",
+      "topicId": "6lUF0neW1piiP1RsaVxEX",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-dbercnxXVTJXMpYSDNGb2",
+      "label": "bind()",
+      "topicId": "dbercnxXVTJXMpYSDNGb2",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-ghjNJW67Wj5L5QK46xwL-",
+      "label": "Bitwise Operators",
+      "topicId": "ghjNJW67Wj5L5QK46xwL-",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-uqEzHYx13Y2EpvTTRzykn",
+      "label": "Block",
+      "topicId": "uqEzHYx13Y2EpvTTRzykn",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-b1HvkoWA2t4kt8mS6FySm",
+      "label": "boolean",
+      "topicId": "b1HvkoWA2t4kt8mS6FySm",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-4oHFzn7R7xLxfuLpsJjr-",
+      "label": "break / continue",
+      "topicId": "4oHFzn7R7xLxfuLpsJjr-",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-s8wUJivWmetysJ8bt9FBC",
+      "label": "Built in functions",
+      "topicId": "s8wUJivWmetysJ8bt9FBC",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-D95ndkkwmT5X_HqboEn6E",
+      "label": "Built-in Objects",
+      "topicId": "D95ndkkwmT5X_HqboEn6E",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-gsyY3Oa3Jf0W5K_lyqBYO",
+      "label": "call()",
+      "topicId": "gsyY3Oa3Jf0W5K_lyqBYO",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-PJSdqvh5OBwPCNpn3q_S5",
+      "label": "Callback Hell",
+      "topicId": "PJSdqvh5OBwPCNpn3q_S5",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-D8oGY7pdviRByaz6c9sU6",
+      "label": "Callbacks",
+      "topicId": "D8oGY7pdviRByaz6c9sU6",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-F_Lrj0F7UXriqJ0mhwxCy",
+      "label": "Classes",
+      "topicId": "F_Lrj0F7UXriqJ0mhwxCy",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-itS6B12I8I1KNCPvc0KCQ",
+      "label": "Closures",
+      "topicId": "itS6B12I8I1KNCPvc0KCQ",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-6_8EwyZY2jBkZr7xnfRY3",
+      "label": "Comma operators",
+      "topicId": "6_8EwyZY2jBkZr7xnfRY3",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-4EXeGkOpfAViB9Uo4zL6O",
+      "label": "CommonJS",
+      "topicId": "4EXeGkOpfAViB9Uo4zL6O",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node--v4_V4UuoZSgUk2sqOCim",
+      "label": "Comparison Operators",
+      "topicId": "-v4_V4UuoZSgUk2sqOCim",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-640mk-m5mB90Mme-7jcXV",
+      "label": "Conditional Operators",
+      "topicId": "640mk-m5mB90Mme-7jcXV",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-ttCsd2_H2SuRivCjGv1OX",
+      "label": "Conditional statements",
+      "topicId": "ttCsd2_H2SuRivCjGv1OX",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-q85z6x1Lc-yLWepwtIT2_",
+      "label": "[const] keyword",
+      "topicId": "q85z6x1Lc-yLWepwtIT2_",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-3tckJ2Sci7z-sNx9jx9eF",
+      "label": "Control Flow",
+      "topicId": "3tckJ2Sci7z-sNx9jx9eF",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-ADarwihuI2nBq1C3U7-Zr",
+      "label": "Data Structures",
+      "topicId": "ADarwihuI2nBq1C3U7-Zr",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node--jbPPuEXacBR0d0CWPHgd",
+      "label": "Datatypes",
+      "topicId": "-jbPPuEXacBR0d0CWPHgd",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-dhEtcgv7G9fNV-AUNJdWk",
+      "label": "Debugging Issues",
+      "topicId": "dhEtcgv7G9fNV-AUNJdWk",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-BA_ArmZMnVMaL_zl3W3Pt",
+      "label": "Debugging Memory Leaks",
+      "topicId": "BA_ArmZMnVMaL_zl3W3Pt",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-ECxISKUAU7js_JsfSHzud",
+      "label": "Debugging performance",
+      "topicId": "ECxISKUAU7js_JsfSHzud",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-8X8mRl-puL0Lp43dO5mha",
+      "label": "Default Parameters",
+      "topicId": "8X8mRl-puL0Lp43dO5mha",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-bhuGtcyqPFKu-900aESYz",
+      "label": "DOM APIs",
+      "topicId": "bhuGtcyqPFKu-900aESYz",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-57lO_3uxJaWsFXS-0J1AK",
+      "label": "do...while statement",
+      "topicId": "57lO_3uxJaWsFXS-0J1AK",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-23Xa6q5VvRVlzc6Dx8vST",
+      "label": "Equality Comparisons",
+      "topicId": "23Xa6q5VvRVlzc6Dx8vST",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node--z-4VTaC3tOThqChgyoMs",
+      "label": "Error Objects",
+      "topicId": "-z-4VTaC3tOThqChgyoMs",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-jLNmYeo20Mbu4WRvVgvwU",
+      "label": "ESModules",
+      "topicId": "jLNmYeo20Mbu4WRvVgvwU",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-_bs5NNHVdHLWGBmpYwHMi",
+      "label": "Event Loop",
+      "topicId": "_bs5NNHVdHLWGBmpYwHMi",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-34TKGxV9YziOWMh9rT_KE",
+      "label": "Exception Handling",
+      "topicId": "34TKGxV9YziOWMh9rT_KE",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-p2NhSwPYMtRiPRHjPaqmX",
+      "label": "Explicit binding",
+      "topicId": "p2NhSwPYMtRiPRHjPaqmX",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-1xhjrRN-Rfekei2JwwU7Y",
+      "label": "Explicit Type Casting",
+      "topicId": "1xhjrRN-Rfekei2JwwU7Y",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-_6vZa43gWjxO2OcD1iCCQ",
+      "label": "Expressions & Operators",
+      "topicId": "_6vZa43gWjxO2OcD1iCCQ",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-kL5rfWxXe4J44ENru1uJS",
+      "label": "Fetch",
+      "topicId": "kL5rfWxXe4J44ENru1uJS",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-2M211rcaPSWbZ-sPoSEVR",
+      "label": "The for loop",
+      "topicId": "2M211rcaPSWbZ-sPoSEVR",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-cq3vvFZoNnAAZJ6oEBUwb",
+      "label": "for...in loop",
+      "topicId": "cq3vvFZoNnAAZJ6oEBUwb",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-FBz6h_AmTJBXoBN-a38a5",
+      "label": "for...of statement",
+      "topicId": "FBz6h_AmTJBXoBN-a38a5",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-EAN6DCiCfSq04R4vKgZ0q",
+      "label": "Function Borrowing",
+      "topicId": "EAN6DCiCfSq04R4vKgZ0q",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-R1D4fsZliHv7wIo8Tj-kp",
+      "label": "Function Parameters",
+      "topicId": "R1D4fsZliHv7wIo8Tj-kp",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-YMT7O6lrMSMtNo0EnmsnQ",
+      "label": "Function",
+      "topicId": "YMT7O6lrMSMtNo0EnmsnQ",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-k8bJH9qydZm8I9rhH7rXw",
+      "label": "Functions",
+      "topicId": "k8bJH9qydZm8I9rhH7rXw",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-KKyX8N4lTgN0w-Khm6Ztq",
+      "label": "Garbage Collection",
+      "topicId": "KKyX8N4lTgN0w-Khm6Ztq",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-oC4o6GLEES_nUgCJu9Q6I",
+      "label": "Global",
+      "topicId": "oC4o6GLEES_nUgCJu9Q6I",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-l-GKzcsBNA0r6Jax8hwnP",
+      "label": "History of JavaScript",
+      "topicId": "l-GKzcsBNA0r6Jax8hwnP",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-Lb5jLF91WO5V5CWpifciW",
+      "label": "Hoisting",
+      "topicId": "Lb5jLF91WO5V5CWpifciW",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-uXsWIUUxtc4H_iRx3uZv0",
+      "label": "How to run JavaScript",
+      "topicId": "uXsWIUUxtc4H_iRx3uZv0",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-ndbDXAx6bL4lZmpXv16Y_",
+      "label": "if...else",
+      "topicId": "ndbDXAx6bL4lZmpXv16Y_",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-YZlCoPvZuX5MmpLOTj5d4",
+      "label": "IIFEs",
+      "topicId": "YZlCoPvZuX5MmpLOTj5d4",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-pP42K_eH4RCdUdUS8BJlP",
+      "label": "Implicit Type Casting",
+      "topicId": "pP42K_eH4RCdUdUS8BJlP",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-azsXq6Y5iCvQDgTWZpWQ3",
+      "label": "in a method",
+      "topicId": "azsXq6Y5iCvQDgTWZpWQ3",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-3E5MuxPvEJU-dwgTrbQAR",
+      "label": "this in a method",
+      "topicId": "3E5MuxPvEJU-dwgTrbQAR",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-P0190rTm2wLQmCzWOKour",
+      "label": "in arrow functions",
+      "topicId": "P0190rTm2wLQmCzWOKour",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-JVbEBtVrTTFnTF3_yUIAC",
+      "label": "in event handlers",
+      "topicId": "JVbEBtVrTTFnTF3_yUIAC",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-lBOGoHZrmnIRatvryDwTm",
+      "label": "Indexed collections",
+      "topicId": "lBOGoHZrmnIRatvryDwTm",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-6khAD6mzZ9S96JJuC5_j6",
+      "label": "Introduction to JavaScript",
+      "topicId": "6khAD6mzZ9S96JJuC5_j6",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-PLallt_T33W6bUEn0Hc3W",
+      "label": "isLooselyEqual",
+      "topicId": "PLallt_T33W6bUEn0Hc3W",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-pcILon_Jjm2_XS10iUJ0E",
+      "label": "isStrictlyEqual",
+      "topicId": "pcILon_Jjm2_XS10iUJ0E",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-TZ8XGdykSJjKBjX6Nivwo",
+      "label": "Javascript Iterators and Generators",
+      "topicId": "TZ8XGdykSJjKBjX6Nivwo",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-SFPsWnVpZBAw3_re7op4h",
+      "label": "Javascript Versions",
+      "topicId": "SFPsWnVpZBAw3_re7op4h",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-bFNvtHp97OzKnPJgr7WaH",
+      "label": "JSON",
+      "topicId": "bFNvtHp97OzKnPJgr7WaH",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-rhJrrqkRqy2Qw_he4SPGz",
+      "label": "Keyed Collections",
+      "topicId": "rhJrrqkRqy2Qw_he4SPGz",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-kDRa9G3pMp0Cb0mqYUawM",
+      "label": "let",
+      "topicId": "kDRa9G3pMp0Cb0mqYUawM",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-q7b5iMJ1Lfka5A-K-YcaN",
+      "label": "Lexical scoping",
+      "topicId": "q7b5iMJ1Lfka5A-K-YcaN",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-bo4SvzU4BrPl3c99zW7Y5",
+      "label": "Logical Operators",
+      "topicId": "bo4SvzU4BrPl3c99zW7Y5",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-YD-2l_amfqqqCdtc_Zdzo",
+      "label": "Loops and Iterations",
+      "topicId": "YD-2l_amfqqqCdtc_Zdzo",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-Xc0jL4rafpI-ixIaAxo9O",
+      "label": "Map",
+      "topicId": "Xc0jL4rafpI-ixIaAxo9O",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-ZR2WfH1cerA-V_kaPwRvm",
+      "label": "Memory Lifecycle",
+      "topicId": "ZR2WfH1cerA-V_kaPwRvm",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-MatU4SthAAhByJ40XdZQn",
+      "label": "Memory Management",
+      "topicId": "MatU4SthAAhByJ40XdZQn",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-hLnJlwnECFbVMeFpH0M5Q",
+      "label": "Modules",
+      "topicId": "hLnJlwnECFbVMeFpH0M5Q",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-CxyNyFMuTLS3owtRMgClD",
+      "label": "null",
+      "topicId": "CxyNyFMuTLS3owtRMgClD",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-GZ_SXsWmP7AsXRTc4WUMw",
+      "label": "number",
+      "topicId": "GZ_SXsWmP7AsXRTc4WUMw",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-0I6dJE0ygXPGjeRAe8AtT",
+      "label": "Prototypes",
+      "topicId": "0I6dJE0ygXPGjeRAe8AtT",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-xe8HZ8Mt1fK8yJMcDPYHJ",
+      "label": "Object",
+      "topicId": "xe8HZ8Mt1fK8yJMcDPYHJ",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-ATma3bLKdmWY_WTsPIKxh",
+      "label": "Object.is",
+      "topicId": "ATma3bLKdmWY_WTsPIKxh",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-yXSF5gGST7l2X-4z1g0d_",
+      "label": "Promises",
+      "topicId": "yXSF5gGST7l2X-4z1g0d_",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-Xge6eru1hRGobnOEHLZqv",
+      "label": "Prototypal Inheritance",
+      "topicId": "Xge6eru1hRGobnOEHLZqv",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-YJGhhFuWmFvhRKOg6nwON",
+      "label": "Recursion",
+      "topicId": "YJGhhFuWmFvhRKOg6nwON",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node--_6q0bIjQrvAaCWrVkASO",
+      "label": "Rest",
+      "topicId": "-_6q0bIjQrvAaCWrVkASO",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-nfMrC0eoXZl72H4o3VFEP",
+      "label": "SameValue",
+      "topicId": "nfMrC0eoXZl72H4o3VFEP",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5040
+      }
+    },
+    {
+      "id": "node-fL3B2hkTgMb0oEwMiWJtK",
+      "label": "SameValueZero",
+      "topicId": "fL3B2hkTgMb0oEwMiWJtK",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5040
+      }
+    },
+    {
+      "id": "node-ISNzEYtrWe2v0R7Xfl5k-",
+      "label": "Scope & Function Stack",
+      "topicId": "ISNzEYtrWe2v0R7Xfl5k-",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5040
+      }
+    },
+    {
+      "id": "node-sciU68E13mcfL577y6Vim",
+      "label": "Set",
+      "topicId": "sciU68E13mcfL577y6Vim",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5200
+      }
+    },
+    {
+      "id": "node-jaC3XXudd7OBKwwCpoPFf",
+      "label": "setInterval",
+      "topicId": "jaC3XXudd7OBKwwCpoPFf",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5200
+      }
+    },
+    {
+      "id": "node-wXypuqEmFLIubx-QQvDIr",
+      "label": "setTimeout",
+      "topicId": "wXypuqEmFLIubx-QQvDIr",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5200
+      }
+    },
+    {
+      "id": "node-Xw8lb0xCWKmNs4KZfhBUy",
+      "label": "Strict Mode",
+      "topicId": "Xw8lb0xCWKmNs4KZfhBUy",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5360
+      }
+    },
+    {
+      "id": "node-c38b6t5f17Zg2O2yg3eFP",
+      "label": "String Operators",
+      "topicId": "c38b6t5f17Zg2O2yg3eFP",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5360
+      }
+    },
+    {
+      "id": "node-1RcwBHU3jzx0YxxUGZic4",
+      "label": "String",
+      "topicId": "1RcwBHU3jzx0YxxUGZic4",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5360
+      }
+    },
+    {
+      "id": "node-JwLGAuSOTyZ5BHSqeBDU6",
+      "label": "Structured Data",
+      "topicId": "JwLGAuSOTyZ5BHSqeBDU6",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5520
+      }
+    },
+    {
+      "id": "node-H_QlcUlavKKfcNK8CYAvb",
+      "label": "Switch",
+      "topicId": "H_QlcUlavKKfcNK8CYAvb",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5520
+      }
+    },
+    {
+      "id": "node-R6ICrk6vjoBxx5nRGo4Jg",
+      "label": "Symbol",
+      "topicId": "R6ICrk6vjoBxx5nRGo4Jg",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5520
+      }
+    },
+    {
+      "id": "node-ReGIniyLYl5hGExchrJd2",
+      "label": "Throw Statement",
+      "topicId": "ReGIniyLYl5hGExchrJd2",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5680
+      }
+    },
+    {
+      "id": "node-rbjEZe5vxCJ8reI1oZ-jf",
+      "label": "try/catch/finally",
+      "topicId": "rbjEZe5vxCJ8reI1oZ-jf",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5680
+      }
+    },
+    {
+      "id": "node-XPmBieVCXvL3WbWkYRoKr",
+      "label": "Type Casting",
+      "topicId": "XPmBieVCXvL3WbWkYRoKr",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5680
+      }
+    },
+    {
+      "id": "node-_Bo2YZqZ_gY35SLPML4T6",
+      "label": "Type Conversion/Coercion",
+      "topicId": "_Bo2YZqZ_gY35SLPML4T6",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5840
+      }
+    },
+    {
+      "id": "node-8X1mdQ3NDBVOZZWBbAFRE",
+      "label": "Typed Arrays",
+      "topicId": "8X1mdQ3NDBVOZZWBbAFRE",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5840
+      }
+    },
+    {
+      "id": "node-RRACLQ6-aopkxImIp3Toc",
+      "label": "typeof operator",
+      "topicId": "RRACLQ6-aopkxImIp3Toc",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5840
+      }
+    },
+    {
+      "id": "node-k9rSR-YQ8B_iRcXNm2btP",
+      "label": "Unary Operators",
+      "topicId": "k9rSR-YQ8B_iRcXNm2btP",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 6000
+      }
+    },
+    {
+      "id": "node-ZLs0NKM0lrnOy5ATDhlk0",
+      "label": "undefined",
+      "topicId": "ZLs0NKM0lrnOy5ATDhlk0",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 6000
+      }
+    },
+    {
+      "id": "node-rc5WzBBOm2cus-rQl8EOE",
+      "label": "Using Browser DevTools",
+      "topicId": "rc5WzBBOm2cus-rQl8EOE",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 6000
+      }
+    },
+    {
+      "id": "node-qps2Mdm-lwa4Wr0IxKm0C",
+      "label": "using it alone",
+      "topicId": "qps2Mdm-lwa4Wr0IxKm0C",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 6160
+      }
+    },
+    {
+      "id": "node-fm2CuL1IZp3hnrLrPUX7U",
+      "label": "Using (this) keyword",
+      "topicId": "fm2CuL1IZp3hnrLrPUX7U",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 6160
+      }
+    },
+    {
+      "id": "node-JSjeM8qnBg4onXq9mn5gB",
+      "label": "[var] keyword",
+      "topicId": "JSjeM8qnBg4onXq9mn5gB",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 6160
+      }
+    },
+    {
+      "id": "node-BqbAWt--Guqex-rrb4ZUv",
+      "label": "Variable Declarations",
+      "topicId": "BqbAWt--Guqex-rrb4ZUv",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 6320
+      }
+    },
+    {
+      "id": "node-HfieG3v3wnmpZDfNwEJvZ",
+      "label": "Naming Rules",
+      "topicId": "HfieG3v3wnmpZDfNwEJvZ",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 6320
+      }
+    },
+    {
+      "id": "node-7iMJuaB7yKlSIbT4dBe5L",
+      "label": "Variable Scopes",
+      "topicId": "7iMJuaB7yKlSIbT4dBe5L",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 6320
+      }
+    },
+    {
+      "id": "node-6icsjC4aisDgPWasVuCOt",
+      "label": "Weak Map",
+      "topicId": "6icsjC4aisDgPWasVuCOt",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 6480
+      }
+    },
+    {
+      "id": "node-DSFzj61N9ojz29mjExhVa",
+      "label": "Weak Set",
+      "topicId": "DSFzj61N9ojz29mjExhVa",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 6480
+      }
+    },
+    {
+      "id": "node-UBB-8hUcwo4Mfd0cmEcdA",
+      "label": "What is JavaScript",
+      "topicId": "UBB-8hUcwo4Mfd0cmEcdA",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 6480
+      }
+    },
+    {
+      "id": "node-9-MpHmzK_IiCi6IcvAlGM",
+      "label": "while",
+      "topicId": "9-MpHmzK_IiCi6IcvAlGM",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 6640
+      }
+    },
+    {
+      "id": "node-q6vciQb_Jk-Up16Pk5NeE",
+      "label": "Working with APIs",
+      "topicId": "q6vciQb_Jk-Up16Pk5NeE",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 6640
+      }
+    },
+    {
+      "id": "node-LiuhBE7dIlkoWkthSoCsa",
+      "label": "XMLHttpRequest",
+      "topicId": "LiuhBE7dIlkoWkthSoCsa",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 6640
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-node-lJwcc6JoUIQoiQ6FkV2KW-node-RonBj1htt6jnBt3W7zoTA",
+      "source": "node-lJwcc6JoUIQoiQ6FkV2KW",
+      "target": "node-RonBj1htt6jnBt3W7zoTA",
+      "animated": true
+    },
+    {
+      "id": "edge-node-RonBj1htt6jnBt3W7zoTA-node-kvActjpU4FUJdrmuFoFEe",
+      "source": "node-RonBj1htt6jnBt3W7zoTA",
+      "target": "node-kvActjpU4FUJdrmuFoFEe",
+      "animated": true
+    },
+    {
+      "id": "edge-node-kvActjpU4FUJdrmuFoFEe-node--BtF34cEzI6J8sZCDRlRE",
+      "source": "node-kvActjpU4FUJdrmuFoFEe",
+      "target": "node--BtF34cEzI6J8sZCDRlRE",
+      "animated": true
+    },
+    {
+      "id": "edge-node--BtF34cEzI6J8sZCDRlRE-node-QLC7bW-qHskLH2HOA-Sko",
+      "source": "node--BtF34cEzI6J8sZCDRlRE",
+      "target": "node-QLC7bW-qHskLH2HOA-Sko",
+      "animated": true
+    },
+    {
+      "id": "edge-node-QLC7bW-qHskLH2HOA-Sko-node-0PK1NwlgkNe2Vf-We4uLH",
+      "source": "node-QLC7bW-qHskLH2HOA-Sko",
+      "target": "node-0PK1NwlgkNe2Vf-We4uLH",
+      "animated": true
+    },
+    {
+      "id": "edge-node-0PK1NwlgkNe2Vf-We4uLH-node-NZedBxG9B9TRVOf2QE2yL",
+      "source": "node-0PK1NwlgkNe2Vf-We4uLH",
+      "target": "node-NZedBxG9B9TRVOf2QE2yL",
+      "animated": true
+    },
+    {
+      "id": "edge-node-NZedBxG9B9TRVOf2QE2yL-node-fr0NChxMXLpJizyMhXcXS",
+      "source": "node-NZedBxG9B9TRVOf2QE2yL",
+      "target": "node-fr0NChxMXLpJizyMhXcXS",
+      "animated": true
+    },
+    {
+      "id": "edge-node-fr0NChxMXLpJizyMhXcXS-node-IvBtUzIGnkgGXrJjqmjf4",
+      "source": "node-fr0NChxMXLpJizyMhXcXS",
+      "target": "node-IvBtUzIGnkgGXrJjqmjf4",
+      "animated": true
+    },
+    {
+      "id": "edge-node-IvBtUzIGnkgGXrJjqmjf4-node-Dn872mgexmxoLtbkIgIgz",
+      "source": "node-IvBtUzIGnkgGXrJjqmjf4",
+      "target": "node-Dn872mgexmxoLtbkIgIgz",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Dn872mgexmxoLtbkIgIgz-node-sFOqx6_7poVIVuXhJVY0E",
+      "source": "node-Dn872mgexmxoLtbkIgIgz",
+      "target": "node-sFOqx6_7poVIVuXhJVY0E",
+      "animated": true
+    },
+    {
+      "id": "edge-node-sFOqx6_7poVIVuXhJVY0E-node-udoz0DZi7f-vm30dSnYKu",
+      "source": "node-sFOqx6_7poVIVuXhJVY0E",
+      "target": "node-udoz0DZi7f-vm30dSnYKu",
+      "animated": true
+    },
+    {
+      "id": "edge-node-udoz0DZi7f-vm30dSnYKu-node-6lUF0neW1piiP1RsaVxEX",
+      "source": "node-udoz0DZi7f-vm30dSnYKu",
+      "target": "node-6lUF0neW1piiP1RsaVxEX",
+      "animated": true
+    },
+    {
+      "id": "edge-node-6lUF0neW1piiP1RsaVxEX-node-dbercnxXVTJXMpYSDNGb2",
+      "source": "node-6lUF0neW1piiP1RsaVxEX",
+      "target": "node-dbercnxXVTJXMpYSDNGb2",
+      "animated": true
+    },
+    {
+      "id": "edge-node-dbercnxXVTJXMpYSDNGb2-node-ghjNJW67Wj5L5QK46xwL-",
+      "source": "node-dbercnxXVTJXMpYSDNGb2",
+      "target": "node-ghjNJW67Wj5L5QK46xwL-",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ghjNJW67Wj5L5QK46xwL--node-uqEzHYx13Y2EpvTTRzykn",
+      "source": "node-ghjNJW67Wj5L5QK46xwL-",
+      "target": "node-uqEzHYx13Y2EpvTTRzykn",
+      "animated": true
+    },
+    {
+      "id": "edge-node-uqEzHYx13Y2EpvTTRzykn-node-b1HvkoWA2t4kt8mS6FySm",
+      "source": "node-uqEzHYx13Y2EpvTTRzykn",
+      "target": "node-b1HvkoWA2t4kt8mS6FySm",
+      "animated": true
+    },
+    {
+      "id": "edge-node-b1HvkoWA2t4kt8mS6FySm-node-4oHFzn7R7xLxfuLpsJjr-",
+      "source": "node-b1HvkoWA2t4kt8mS6FySm",
+      "target": "node-4oHFzn7R7xLxfuLpsJjr-",
+      "animated": true
+    },
+    {
+      "id": "edge-node-4oHFzn7R7xLxfuLpsJjr--node-s8wUJivWmetysJ8bt9FBC",
+      "source": "node-4oHFzn7R7xLxfuLpsJjr-",
+      "target": "node-s8wUJivWmetysJ8bt9FBC",
+      "animated": true
+    },
+    {
+      "id": "edge-node-s8wUJivWmetysJ8bt9FBC-node-D95ndkkwmT5X_HqboEn6E",
+      "source": "node-s8wUJivWmetysJ8bt9FBC",
+      "target": "node-D95ndkkwmT5X_HqboEn6E",
+      "animated": true
+    },
+    {
+      "id": "edge-node-D95ndkkwmT5X_HqboEn6E-node-gsyY3Oa3Jf0W5K_lyqBYO",
+      "source": "node-D95ndkkwmT5X_HqboEn6E",
+      "target": "node-gsyY3Oa3Jf0W5K_lyqBYO",
+      "animated": true
+    },
+    {
+      "id": "edge-node-gsyY3Oa3Jf0W5K_lyqBYO-node-PJSdqvh5OBwPCNpn3q_S5",
+      "source": "node-gsyY3Oa3Jf0W5K_lyqBYO",
+      "target": "node-PJSdqvh5OBwPCNpn3q_S5",
+      "animated": true
+    },
+    {
+      "id": "edge-node-PJSdqvh5OBwPCNpn3q_S5-node-D8oGY7pdviRByaz6c9sU6",
+      "source": "node-PJSdqvh5OBwPCNpn3q_S5",
+      "target": "node-D8oGY7pdviRByaz6c9sU6",
+      "animated": true
+    },
+    {
+      "id": "edge-node-D8oGY7pdviRByaz6c9sU6-node-F_Lrj0F7UXriqJ0mhwxCy",
+      "source": "node-D8oGY7pdviRByaz6c9sU6",
+      "target": "node-F_Lrj0F7UXriqJ0mhwxCy",
+      "animated": true
+    },
+    {
+      "id": "edge-node-F_Lrj0F7UXriqJ0mhwxCy-node-itS6B12I8I1KNCPvc0KCQ",
+      "source": "node-F_Lrj0F7UXriqJ0mhwxCy",
+      "target": "node-itS6B12I8I1KNCPvc0KCQ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-itS6B12I8I1KNCPvc0KCQ-node-6_8EwyZY2jBkZr7xnfRY3",
+      "source": "node-itS6B12I8I1KNCPvc0KCQ",
+      "target": "node-6_8EwyZY2jBkZr7xnfRY3",
+      "animated": true
+    },
+    {
+      "id": "edge-node-6_8EwyZY2jBkZr7xnfRY3-node-4EXeGkOpfAViB9Uo4zL6O",
+      "source": "node-6_8EwyZY2jBkZr7xnfRY3",
+      "target": "node-4EXeGkOpfAViB9Uo4zL6O",
+      "animated": true
+    },
+    {
+      "id": "edge-node-4EXeGkOpfAViB9Uo4zL6O-node--v4_V4UuoZSgUk2sqOCim",
+      "source": "node-4EXeGkOpfAViB9Uo4zL6O",
+      "target": "node--v4_V4UuoZSgUk2sqOCim",
+      "animated": true
+    },
+    {
+      "id": "edge-node--v4_V4UuoZSgUk2sqOCim-node-640mk-m5mB90Mme-7jcXV",
+      "source": "node--v4_V4UuoZSgUk2sqOCim",
+      "target": "node-640mk-m5mB90Mme-7jcXV",
+      "animated": true
+    },
+    {
+      "id": "edge-node-640mk-m5mB90Mme-7jcXV-node-ttCsd2_H2SuRivCjGv1OX",
+      "source": "node-640mk-m5mB90Mme-7jcXV",
+      "target": "node-ttCsd2_H2SuRivCjGv1OX",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ttCsd2_H2SuRivCjGv1OX-node-q85z6x1Lc-yLWepwtIT2_",
+      "source": "node-ttCsd2_H2SuRivCjGv1OX",
+      "target": "node-q85z6x1Lc-yLWepwtIT2_",
+      "animated": true
+    },
+    {
+      "id": "edge-node-q85z6x1Lc-yLWepwtIT2_-node-3tckJ2Sci7z-sNx9jx9eF",
+      "source": "node-q85z6x1Lc-yLWepwtIT2_",
+      "target": "node-3tckJ2Sci7z-sNx9jx9eF",
+      "animated": true
+    },
+    {
+      "id": "edge-node-3tckJ2Sci7z-sNx9jx9eF-node-ADarwihuI2nBq1C3U7-Zr",
+      "source": "node-3tckJ2Sci7z-sNx9jx9eF",
+      "target": "node-ADarwihuI2nBq1C3U7-Zr",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ADarwihuI2nBq1C3U7-Zr-node--jbPPuEXacBR0d0CWPHgd",
+      "source": "node-ADarwihuI2nBq1C3U7-Zr",
+      "target": "node--jbPPuEXacBR0d0CWPHgd",
+      "animated": true
+    },
+    {
+      "id": "edge-node--jbPPuEXacBR0d0CWPHgd-node-dhEtcgv7G9fNV-AUNJdWk",
+      "source": "node--jbPPuEXacBR0d0CWPHgd",
+      "target": "node-dhEtcgv7G9fNV-AUNJdWk",
+      "animated": true
+    },
+    {
+      "id": "edge-node-dhEtcgv7G9fNV-AUNJdWk-node-BA_ArmZMnVMaL_zl3W3Pt",
+      "source": "node-dhEtcgv7G9fNV-AUNJdWk",
+      "target": "node-BA_ArmZMnVMaL_zl3W3Pt",
+      "animated": true
+    },
+    {
+      "id": "edge-node-BA_ArmZMnVMaL_zl3W3Pt-node-ECxISKUAU7js_JsfSHzud",
+      "source": "node-BA_ArmZMnVMaL_zl3W3Pt",
+      "target": "node-ECxISKUAU7js_JsfSHzud",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ECxISKUAU7js_JsfSHzud-node-8X8mRl-puL0Lp43dO5mha",
+      "source": "node-ECxISKUAU7js_JsfSHzud",
+      "target": "node-8X8mRl-puL0Lp43dO5mha",
+      "animated": true
+    },
+    {
+      "id": "edge-node-8X8mRl-puL0Lp43dO5mha-node-bhuGtcyqPFKu-900aESYz",
+      "source": "node-8X8mRl-puL0Lp43dO5mha",
+      "target": "node-bhuGtcyqPFKu-900aESYz",
+      "animated": true
+    },
+    {
+      "id": "edge-node-bhuGtcyqPFKu-900aESYz-node-57lO_3uxJaWsFXS-0J1AK",
+      "source": "node-bhuGtcyqPFKu-900aESYz",
+      "target": "node-57lO_3uxJaWsFXS-0J1AK",
+      "animated": true
+    },
+    {
+      "id": "edge-node-57lO_3uxJaWsFXS-0J1AK-node-23Xa6q5VvRVlzc6Dx8vST",
+      "source": "node-57lO_3uxJaWsFXS-0J1AK",
+      "target": "node-23Xa6q5VvRVlzc6Dx8vST",
+      "animated": true
+    },
+    {
+      "id": "edge-node-23Xa6q5VvRVlzc6Dx8vST-node--z-4VTaC3tOThqChgyoMs",
+      "source": "node-23Xa6q5VvRVlzc6Dx8vST",
+      "target": "node--z-4VTaC3tOThqChgyoMs",
+      "animated": true
+    },
+    {
+      "id": "edge-node--z-4VTaC3tOThqChgyoMs-node-jLNmYeo20Mbu4WRvVgvwU",
+      "source": "node--z-4VTaC3tOThqChgyoMs",
+      "target": "node-jLNmYeo20Mbu4WRvVgvwU",
+      "animated": true
+    },
+    {
+      "id": "edge-node-jLNmYeo20Mbu4WRvVgvwU-node-_bs5NNHVdHLWGBmpYwHMi",
+      "source": "node-jLNmYeo20Mbu4WRvVgvwU",
+      "target": "node-_bs5NNHVdHLWGBmpYwHMi",
+      "animated": true
+    },
+    {
+      "id": "edge-node-_bs5NNHVdHLWGBmpYwHMi-node-34TKGxV9YziOWMh9rT_KE",
+      "source": "node-_bs5NNHVdHLWGBmpYwHMi",
+      "target": "node-34TKGxV9YziOWMh9rT_KE",
+      "animated": true
+    },
+    {
+      "id": "edge-node-34TKGxV9YziOWMh9rT_KE-node-p2NhSwPYMtRiPRHjPaqmX",
+      "source": "node-34TKGxV9YziOWMh9rT_KE",
+      "target": "node-p2NhSwPYMtRiPRHjPaqmX",
+      "animated": true
+    },
+    {
+      "id": "edge-node-p2NhSwPYMtRiPRHjPaqmX-node-1xhjrRN-Rfekei2JwwU7Y",
+      "source": "node-p2NhSwPYMtRiPRHjPaqmX",
+      "target": "node-1xhjrRN-Rfekei2JwwU7Y",
+      "animated": true
+    },
+    {
+      "id": "edge-node-1xhjrRN-Rfekei2JwwU7Y-node-_6vZa43gWjxO2OcD1iCCQ",
+      "source": "node-1xhjrRN-Rfekei2JwwU7Y",
+      "target": "node-_6vZa43gWjxO2OcD1iCCQ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-_6vZa43gWjxO2OcD1iCCQ-node-kL5rfWxXe4J44ENru1uJS",
+      "source": "node-_6vZa43gWjxO2OcD1iCCQ",
+      "target": "node-kL5rfWxXe4J44ENru1uJS",
+      "animated": true
+    },
+    {
+      "id": "edge-node-kL5rfWxXe4J44ENru1uJS-node-2M211rcaPSWbZ-sPoSEVR",
+      "source": "node-kL5rfWxXe4J44ENru1uJS",
+      "target": "node-2M211rcaPSWbZ-sPoSEVR",
+      "animated": true
+    },
+    {
+      "id": "edge-node-2M211rcaPSWbZ-sPoSEVR-node-cq3vvFZoNnAAZJ6oEBUwb",
+      "source": "node-2M211rcaPSWbZ-sPoSEVR",
+      "target": "node-cq3vvFZoNnAAZJ6oEBUwb",
+      "animated": true
+    },
+    {
+      "id": "edge-node-cq3vvFZoNnAAZJ6oEBUwb-node-FBz6h_AmTJBXoBN-a38a5",
+      "source": "node-cq3vvFZoNnAAZJ6oEBUwb",
+      "target": "node-FBz6h_AmTJBXoBN-a38a5",
+      "animated": true
+    },
+    {
+      "id": "edge-node-FBz6h_AmTJBXoBN-a38a5-node-EAN6DCiCfSq04R4vKgZ0q",
+      "source": "node-FBz6h_AmTJBXoBN-a38a5",
+      "target": "node-EAN6DCiCfSq04R4vKgZ0q",
+      "animated": true
+    },
+    {
+      "id": "edge-node-EAN6DCiCfSq04R4vKgZ0q-node-R1D4fsZliHv7wIo8Tj-kp",
+      "source": "node-EAN6DCiCfSq04R4vKgZ0q",
+      "target": "node-R1D4fsZliHv7wIo8Tj-kp",
+      "animated": true
+    },
+    {
+      "id": "edge-node-R1D4fsZliHv7wIo8Tj-kp-node-YMT7O6lrMSMtNo0EnmsnQ",
+      "source": "node-R1D4fsZliHv7wIo8Tj-kp",
+      "target": "node-YMT7O6lrMSMtNo0EnmsnQ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-YMT7O6lrMSMtNo0EnmsnQ-node-k8bJH9qydZm8I9rhH7rXw",
+      "source": "node-YMT7O6lrMSMtNo0EnmsnQ",
+      "target": "node-k8bJH9qydZm8I9rhH7rXw",
+      "animated": true
+    },
+    {
+      "id": "edge-node-k8bJH9qydZm8I9rhH7rXw-node-KKyX8N4lTgN0w-Khm6Ztq",
+      "source": "node-k8bJH9qydZm8I9rhH7rXw",
+      "target": "node-KKyX8N4lTgN0w-Khm6Ztq",
+      "animated": true
+    },
+    {
+      "id": "edge-node-KKyX8N4lTgN0w-Khm6Ztq-node-oC4o6GLEES_nUgCJu9Q6I",
+      "source": "node-KKyX8N4lTgN0w-Khm6Ztq",
+      "target": "node-oC4o6GLEES_nUgCJu9Q6I",
+      "animated": true
+    },
+    {
+      "id": "edge-node-oC4o6GLEES_nUgCJu9Q6I-node-l-GKzcsBNA0r6Jax8hwnP",
+      "source": "node-oC4o6GLEES_nUgCJu9Q6I",
+      "target": "node-l-GKzcsBNA0r6Jax8hwnP",
+      "animated": true
+    },
+    {
+      "id": "edge-node-l-GKzcsBNA0r6Jax8hwnP-node-Lb5jLF91WO5V5CWpifciW",
+      "source": "node-l-GKzcsBNA0r6Jax8hwnP",
+      "target": "node-Lb5jLF91WO5V5CWpifciW",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Lb5jLF91WO5V5CWpifciW-node-uXsWIUUxtc4H_iRx3uZv0",
+      "source": "node-Lb5jLF91WO5V5CWpifciW",
+      "target": "node-uXsWIUUxtc4H_iRx3uZv0",
+      "animated": true
+    },
+    {
+      "id": "edge-node-uXsWIUUxtc4H_iRx3uZv0-node-ndbDXAx6bL4lZmpXv16Y_",
+      "source": "node-uXsWIUUxtc4H_iRx3uZv0",
+      "target": "node-ndbDXAx6bL4lZmpXv16Y_",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ndbDXAx6bL4lZmpXv16Y_-node-YZlCoPvZuX5MmpLOTj5d4",
+      "source": "node-ndbDXAx6bL4lZmpXv16Y_",
+      "target": "node-YZlCoPvZuX5MmpLOTj5d4",
+      "animated": true
+    },
+    {
+      "id": "edge-node-YZlCoPvZuX5MmpLOTj5d4-node-pP42K_eH4RCdUdUS8BJlP",
+      "source": "node-YZlCoPvZuX5MmpLOTj5d4",
+      "target": "node-pP42K_eH4RCdUdUS8BJlP",
+      "animated": true
+    },
+    {
+      "id": "edge-node-pP42K_eH4RCdUdUS8BJlP-node-azsXq6Y5iCvQDgTWZpWQ3",
+      "source": "node-pP42K_eH4RCdUdUS8BJlP",
+      "target": "node-azsXq6Y5iCvQDgTWZpWQ3",
+      "animated": true
+    },
+    {
+      "id": "edge-node-azsXq6Y5iCvQDgTWZpWQ3-node-3E5MuxPvEJU-dwgTrbQAR",
+      "source": "node-azsXq6Y5iCvQDgTWZpWQ3",
+      "target": "node-3E5MuxPvEJU-dwgTrbQAR",
+      "animated": true
+    },
+    {
+      "id": "edge-node-3E5MuxPvEJU-dwgTrbQAR-node-P0190rTm2wLQmCzWOKour",
+      "source": "node-3E5MuxPvEJU-dwgTrbQAR",
+      "target": "node-P0190rTm2wLQmCzWOKour",
+      "animated": true
+    },
+    {
+      "id": "edge-node-P0190rTm2wLQmCzWOKour-node-JVbEBtVrTTFnTF3_yUIAC",
+      "source": "node-P0190rTm2wLQmCzWOKour",
+      "target": "node-JVbEBtVrTTFnTF3_yUIAC",
+      "animated": true
+    },
+    {
+      "id": "edge-node-JVbEBtVrTTFnTF3_yUIAC-node-lBOGoHZrmnIRatvryDwTm",
+      "source": "node-JVbEBtVrTTFnTF3_yUIAC",
+      "target": "node-lBOGoHZrmnIRatvryDwTm",
+      "animated": true
+    },
+    {
+      "id": "edge-node-lBOGoHZrmnIRatvryDwTm-node-6khAD6mzZ9S96JJuC5_j6",
+      "source": "node-lBOGoHZrmnIRatvryDwTm",
+      "target": "node-6khAD6mzZ9S96JJuC5_j6",
+      "animated": true
+    },
+    {
+      "id": "edge-node-6khAD6mzZ9S96JJuC5_j6-node-PLallt_T33W6bUEn0Hc3W",
+      "source": "node-6khAD6mzZ9S96JJuC5_j6",
+      "target": "node-PLallt_T33W6bUEn0Hc3W",
+      "animated": true
+    },
+    {
+      "id": "edge-node-PLallt_T33W6bUEn0Hc3W-node-pcILon_Jjm2_XS10iUJ0E",
+      "source": "node-PLallt_T33W6bUEn0Hc3W",
+      "target": "node-pcILon_Jjm2_XS10iUJ0E",
+      "animated": true
+    },
+    {
+      "id": "edge-node-pcILon_Jjm2_XS10iUJ0E-node-TZ8XGdykSJjKBjX6Nivwo",
+      "source": "node-pcILon_Jjm2_XS10iUJ0E",
+      "target": "node-TZ8XGdykSJjKBjX6Nivwo",
+      "animated": true
+    },
+    {
+      "id": "edge-node-TZ8XGdykSJjKBjX6Nivwo-node-SFPsWnVpZBAw3_re7op4h",
+      "source": "node-TZ8XGdykSJjKBjX6Nivwo",
+      "target": "node-SFPsWnVpZBAw3_re7op4h",
+      "animated": true
+    },
+    {
+      "id": "edge-node-SFPsWnVpZBAw3_re7op4h-node-bFNvtHp97OzKnPJgr7WaH",
+      "source": "node-SFPsWnVpZBAw3_re7op4h",
+      "target": "node-bFNvtHp97OzKnPJgr7WaH",
+      "animated": true
+    },
+    {
+      "id": "edge-node-bFNvtHp97OzKnPJgr7WaH-node-rhJrrqkRqy2Qw_he4SPGz",
+      "source": "node-bFNvtHp97OzKnPJgr7WaH",
+      "target": "node-rhJrrqkRqy2Qw_he4SPGz",
+      "animated": true
+    },
+    {
+      "id": "edge-node-rhJrrqkRqy2Qw_he4SPGz-node-kDRa9G3pMp0Cb0mqYUawM",
+      "source": "node-rhJrrqkRqy2Qw_he4SPGz",
+      "target": "node-kDRa9G3pMp0Cb0mqYUawM",
+      "animated": true
+    },
+    {
+      "id": "edge-node-kDRa9G3pMp0Cb0mqYUawM-node-q7b5iMJ1Lfka5A-K-YcaN",
+      "source": "node-kDRa9G3pMp0Cb0mqYUawM",
+      "target": "node-q7b5iMJ1Lfka5A-K-YcaN",
+      "animated": true
+    },
+    {
+      "id": "edge-node-q7b5iMJ1Lfka5A-K-YcaN-node-bo4SvzU4BrPl3c99zW7Y5",
+      "source": "node-q7b5iMJ1Lfka5A-K-YcaN",
+      "target": "node-bo4SvzU4BrPl3c99zW7Y5",
+      "animated": true
+    },
+    {
+      "id": "edge-node-bo4SvzU4BrPl3c99zW7Y5-node-YD-2l_amfqqqCdtc_Zdzo",
+      "source": "node-bo4SvzU4BrPl3c99zW7Y5",
+      "target": "node-YD-2l_amfqqqCdtc_Zdzo",
+      "animated": true
+    },
+    {
+      "id": "edge-node-YD-2l_amfqqqCdtc_Zdzo-node-Xc0jL4rafpI-ixIaAxo9O",
+      "source": "node-YD-2l_amfqqqCdtc_Zdzo",
+      "target": "node-Xc0jL4rafpI-ixIaAxo9O",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Xc0jL4rafpI-ixIaAxo9O-node-ZR2WfH1cerA-V_kaPwRvm",
+      "source": "node-Xc0jL4rafpI-ixIaAxo9O",
+      "target": "node-ZR2WfH1cerA-V_kaPwRvm",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ZR2WfH1cerA-V_kaPwRvm-node-MatU4SthAAhByJ40XdZQn",
+      "source": "node-ZR2WfH1cerA-V_kaPwRvm",
+      "target": "node-MatU4SthAAhByJ40XdZQn",
+      "animated": true
+    },
+    {
+      "id": "edge-node-MatU4SthAAhByJ40XdZQn-node-hLnJlwnECFbVMeFpH0M5Q",
+      "source": "node-MatU4SthAAhByJ40XdZQn",
+      "target": "node-hLnJlwnECFbVMeFpH0M5Q",
+      "animated": true
+    },
+    {
+      "id": "edge-node-hLnJlwnECFbVMeFpH0M5Q-node-CxyNyFMuTLS3owtRMgClD",
+      "source": "node-hLnJlwnECFbVMeFpH0M5Q",
+      "target": "node-CxyNyFMuTLS3owtRMgClD",
+      "animated": true
+    },
+    {
+      "id": "edge-node-CxyNyFMuTLS3owtRMgClD-node-GZ_SXsWmP7AsXRTc4WUMw",
+      "source": "node-CxyNyFMuTLS3owtRMgClD",
+      "target": "node-GZ_SXsWmP7AsXRTc4WUMw",
+      "animated": true
+    },
+    {
+      "id": "edge-node-GZ_SXsWmP7AsXRTc4WUMw-node-0I6dJE0ygXPGjeRAe8AtT",
+      "source": "node-GZ_SXsWmP7AsXRTc4WUMw",
+      "target": "node-0I6dJE0ygXPGjeRAe8AtT",
+      "animated": true
+    },
+    {
+      "id": "edge-node-0I6dJE0ygXPGjeRAe8AtT-node-xe8HZ8Mt1fK8yJMcDPYHJ",
+      "source": "node-0I6dJE0ygXPGjeRAe8AtT",
+      "target": "node-xe8HZ8Mt1fK8yJMcDPYHJ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-xe8HZ8Mt1fK8yJMcDPYHJ-node-ATma3bLKdmWY_WTsPIKxh",
+      "source": "node-xe8HZ8Mt1fK8yJMcDPYHJ",
+      "target": "node-ATma3bLKdmWY_WTsPIKxh",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ATma3bLKdmWY_WTsPIKxh-node-yXSF5gGST7l2X-4z1g0d_",
+      "source": "node-ATma3bLKdmWY_WTsPIKxh",
+      "target": "node-yXSF5gGST7l2X-4z1g0d_",
+      "animated": true
+    },
+    {
+      "id": "edge-node-yXSF5gGST7l2X-4z1g0d_-node-Xge6eru1hRGobnOEHLZqv",
+      "source": "node-yXSF5gGST7l2X-4z1g0d_",
+      "target": "node-Xge6eru1hRGobnOEHLZqv",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Xge6eru1hRGobnOEHLZqv-node-YJGhhFuWmFvhRKOg6nwON",
+      "source": "node-Xge6eru1hRGobnOEHLZqv",
+      "target": "node-YJGhhFuWmFvhRKOg6nwON",
+      "animated": true
+    },
+    {
+      "id": "edge-node-YJGhhFuWmFvhRKOg6nwON-node--_6q0bIjQrvAaCWrVkASO",
+      "source": "node-YJGhhFuWmFvhRKOg6nwON",
+      "target": "node--_6q0bIjQrvAaCWrVkASO",
+      "animated": true
+    },
+    {
+      "id": "edge-node--_6q0bIjQrvAaCWrVkASO-node-nfMrC0eoXZl72H4o3VFEP",
+      "source": "node--_6q0bIjQrvAaCWrVkASO",
+      "target": "node-nfMrC0eoXZl72H4o3VFEP",
+      "animated": true
+    },
+    {
+      "id": "edge-node-nfMrC0eoXZl72H4o3VFEP-node-fL3B2hkTgMb0oEwMiWJtK",
+      "source": "node-nfMrC0eoXZl72H4o3VFEP",
+      "target": "node-fL3B2hkTgMb0oEwMiWJtK",
+      "animated": true
+    },
+    {
+      "id": "edge-node-fL3B2hkTgMb0oEwMiWJtK-node-ISNzEYtrWe2v0R7Xfl5k-",
+      "source": "node-fL3B2hkTgMb0oEwMiWJtK",
+      "target": "node-ISNzEYtrWe2v0R7Xfl5k-",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ISNzEYtrWe2v0R7Xfl5k--node-sciU68E13mcfL577y6Vim",
+      "source": "node-ISNzEYtrWe2v0R7Xfl5k-",
+      "target": "node-sciU68E13mcfL577y6Vim",
+      "animated": true
+    },
+    {
+      "id": "edge-node-sciU68E13mcfL577y6Vim-node-jaC3XXudd7OBKwwCpoPFf",
+      "source": "node-sciU68E13mcfL577y6Vim",
+      "target": "node-jaC3XXudd7OBKwwCpoPFf",
+      "animated": true
+    },
+    {
+      "id": "edge-node-jaC3XXudd7OBKwwCpoPFf-node-wXypuqEmFLIubx-QQvDIr",
+      "source": "node-jaC3XXudd7OBKwwCpoPFf",
+      "target": "node-wXypuqEmFLIubx-QQvDIr",
+      "animated": true
+    },
+    {
+      "id": "edge-node-wXypuqEmFLIubx-QQvDIr-node-Xw8lb0xCWKmNs4KZfhBUy",
+      "source": "node-wXypuqEmFLIubx-QQvDIr",
+      "target": "node-Xw8lb0xCWKmNs4KZfhBUy",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Xw8lb0xCWKmNs4KZfhBUy-node-c38b6t5f17Zg2O2yg3eFP",
+      "source": "node-Xw8lb0xCWKmNs4KZfhBUy",
+      "target": "node-c38b6t5f17Zg2O2yg3eFP",
+      "animated": true
+    },
+    {
+      "id": "edge-node-c38b6t5f17Zg2O2yg3eFP-node-1RcwBHU3jzx0YxxUGZic4",
+      "source": "node-c38b6t5f17Zg2O2yg3eFP",
+      "target": "node-1RcwBHU3jzx0YxxUGZic4",
+      "animated": true
+    },
+    {
+      "id": "edge-node-1RcwBHU3jzx0YxxUGZic4-node-JwLGAuSOTyZ5BHSqeBDU6",
+      "source": "node-1RcwBHU3jzx0YxxUGZic4",
+      "target": "node-JwLGAuSOTyZ5BHSqeBDU6",
+      "animated": true
+    },
+    {
+      "id": "edge-node-JwLGAuSOTyZ5BHSqeBDU6-node-H_QlcUlavKKfcNK8CYAvb",
+      "source": "node-JwLGAuSOTyZ5BHSqeBDU6",
+      "target": "node-H_QlcUlavKKfcNK8CYAvb",
+      "animated": true
+    },
+    {
+      "id": "edge-node-H_QlcUlavKKfcNK8CYAvb-node-R6ICrk6vjoBxx5nRGo4Jg",
+      "source": "node-H_QlcUlavKKfcNK8CYAvb",
+      "target": "node-R6ICrk6vjoBxx5nRGo4Jg",
+      "animated": true
+    },
+    {
+      "id": "edge-node-R6ICrk6vjoBxx5nRGo4Jg-node-ReGIniyLYl5hGExchrJd2",
+      "source": "node-R6ICrk6vjoBxx5nRGo4Jg",
+      "target": "node-ReGIniyLYl5hGExchrJd2",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ReGIniyLYl5hGExchrJd2-node-rbjEZe5vxCJ8reI1oZ-jf",
+      "source": "node-ReGIniyLYl5hGExchrJd2",
+      "target": "node-rbjEZe5vxCJ8reI1oZ-jf",
+      "animated": true
+    },
+    {
+      "id": "edge-node-rbjEZe5vxCJ8reI1oZ-jf-node-XPmBieVCXvL3WbWkYRoKr",
+      "source": "node-rbjEZe5vxCJ8reI1oZ-jf",
+      "target": "node-XPmBieVCXvL3WbWkYRoKr",
+      "animated": true
+    },
+    {
+      "id": "edge-node-XPmBieVCXvL3WbWkYRoKr-node-_Bo2YZqZ_gY35SLPML4T6",
+      "source": "node-XPmBieVCXvL3WbWkYRoKr",
+      "target": "node-_Bo2YZqZ_gY35SLPML4T6",
+      "animated": true
+    },
+    {
+      "id": "edge-node-_Bo2YZqZ_gY35SLPML4T6-node-8X1mdQ3NDBVOZZWBbAFRE",
+      "source": "node-_Bo2YZqZ_gY35SLPML4T6",
+      "target": "node-8X1mdQ3NDBVOZZWBbAFRE",
+      "animated": true
+    },
+    {
+      "id": "edge-node-8X1mdQ3NDBVOZZWBbAFRE-node-RRACLQ6-aopkxImIp3Toc",
+      "source": "node-8X1mdQ3NDBVOZZWBbAFRE",
+      "target": "node-RRACLQ6-aopkxImIp3Toc",
+      "animated": true
+    },
+    {
+      "id": "edge-node-RRACLQ6-aopkxImIp3Toc-node-k9rSR-YQ8B_iRcXNm2btP",
+      "source": "node-RRACLQ6-aopkxImIp3Toc",
+      "target": "node-k9rSR-YQ8B_iRcXNm2btP",
+      "animated": true
+    },
+    {
+      "id": "edge-node-k9rSR-YQ8B_iRcXNm2btP-node-ZLs0NKM0lrnOy5ATDhlk0",
+      "source": "node-k9rSR-YQ8B_iRcXNm2btP",
+      "target": "node-ZLs0NKM0lrnOy5ATDhlk0",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ZLs0NKM0lrnOy5ATDhlk0-node-rc5WzBBOm2cus-rQl8EOE",
+      "source": "node-ZLs0NKM0lrnOy5ATDhlk0",
+      "target": "node-rc5WzBBOm2cus-rQl8EOE",
+      "animated": true
+    },
+    {
+      "id": "edge-node-rc5WzBBOm2cus-rQl8EOE-node-qps2Mdm-lwa4Wr0IxKm0C",
+      "source": "node-rc5WzBBOm2cus-rQl8EOE",
+      "target": "node-qps2Mdm-lwa4Wr0IxKm0C",
+      "animated": true
+    },
+    {
+      "id": "edge-node-qps2Mdm-lwa4Wr0IxKm0C-node-fm2CuL1IZp3hnrLrPUX7U",
+      "source": "node-qps2Mdm-lwa4Wr0IxKm0C",
+      "target": "node-fm2CuL1IZp3hnrLrPUX7U",
+      "animated": true
+    },
+    {
+      "id": "edge-node-fm2CuL1IZp3hnrLrPUX7U-node-JSjeM8qnBg4onXq9mn5gB",
+      "source": "node-fm2CuL1IZp3hnrLrPUX7U",
+      "target": "node-JSjeM8qnBg4onXq9mn5gB",
+      "animated": true
+    },
+    {
+      "id": "edge-node-JSjeM8qnBg4onXq9mn5gB-node-BqbAWt--Guqex-rrb4ZUv",
+      "source": "node-JSjeM8qnBg4onXq9mn5gB",
+      "target": "node-BqbAWt--Guqex-rrb4ZUv",
+      "animated": true
+    },
+    {
+      "id": "edge-node-BqbAWt--Guqex-rrb4ZUv-node-HfieG3v3wnmpZDfNwEJvZ",
+      "source": "node-BqbAWt--Guqex-rrb4ZUv",
+      "target": "node-HfieG3v3wnmpZDfNwEJvZ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-HfieG3v3wnmpZDfNwEJvZ-node-7iMJuaB7yKlSIbT4dBe5L",
+      "source": "node-HfieG3v3wnmpZDfNwEJvZ",
+      "target": "node-7iMJuaB7yKlSIbT4dBe5L",
+      "animated": true
+    },
+    {
+      "id": "edge-node-7iMJuaB7yKlSIbT4dBe5L-node-6icsjC4aisDgPWasVuCOt",
+      "source": "node-7iMJuaB7yKlSIbT4dBe5L",
+      "target": "node-6icsjC4aisDgPWasVuCOt",
+      "animated": true
+    },
+    {
+      "id": "edge-node-6icsjC4aisDgPWasVuCOt-node-DSFzj61N9ojz29mjExhVa",
+      "source": "node-6icsjC4aisDgPWasVuCOt",
+      "target": "node-DSFzj61N9ojz29mjExhVa",
+      "animated": true
+    },
+    {
+      "id": "edge-node-DSFzj61N9ojz29mjExhVa-node-UBB-8hUcwo4Mfd0cmEcdA",
+      "source": "node-DSFzj61N9ojz29mjExhVa",
+      "target": "node-UBB-8hUcwo4Mfd0cmEcdA",
+      "animated": true
+    },
+    {
+      "id": "edge-node-UBB-8hUcwo4Mfd0cmEcdA-node-9-MpHmzK_IiCi6IcvAlGM",
+      "source": "node-UBB-8hUcwo4Mfd0cmEcdA",
+      "target": "node-9-MpHmzK_IiCi6IcvAlGM",
+      "animated": true
+    },
+    {
+      "id": "edge-node-9-MpHmzK_IiCi6IcvAlGM-node-q6vciQb_Jk-Up16Pk5NeE",
+      "source": "node-9-MpHmzK_IiCi6IcvAlGM",
+      "target": "node-q6vciQb_Jk-Up16Pk5NeE",
+      "animated": true
+    },
+    {
+      "id": "edge-node-q6vciQb_Jk-Up16Pk5NeE-node-LiuhBE7dIlkoWkthSoCsa",
+      "source": "node-q6vciQb_Jk-Up16Pk5NeE",
+      "target": "node-LiuhBE7dIlkoWkthSoCsa",
+      "animated": true
+    }
+  ],
+  "topics": {
+    "lJwcc6JoUIQoiQ6FkV2KW": {
+      "id": "lJwcc6JoUIQoiQ6FkV2KW",
+      "slug": "@lJwcc6JoUIQoiQ6FkV2KW",
+      "title": "===",
+      "description": "The `===` operator compares two values for equality without type coercion. Both the value and the type must match for the comparison to return `true`. It is the recommended equality operator for most cases because it produces predictable results.",
+      "resources": [
+        {
+          "id": "lJwcc6JoUIQoiQ6FkV2KW-res-1",
+          "type": "article",
+          "title": "Strict equality - MDN",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Strict_equality"
+        }
+      ]
+    },
+    "RonBj1htt6jnBt3W7zoTA": {
+      "id": "RonBj1htt6jnBt3W7zoTA",
+      "slug": "@RonBj1htt6jnBt3W7zoTA",
+      "title": "==",
+      "description": "The `==` operator compares two values for equality after performing type coercion if the types differ. For example, `\"5\" == 5` returns `true` because the string is converted to a number before comparison. This can produce surprising results and is generally avoided in favor of `===`.",
+      "resources": [
+        {
+          "id": "RonBj1htt6jnBt3W7zoTA-res-1",
+          "type": "article",
+          "title": "Equality comparisons and sameness - MDN",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness#same-value_equality_using_object.is"
+        }
+      ]
+    },
+    "kvActjpU4FUJdrmuFoFEe": {
+      "id": "kvActjpU4FUJdrmuFoFEe",
+      "slug": "all-about-variables",
+      "title": "All about Variables",
+      "description": "Variables are named containers for storing data values in a program. In JavaScript, variables are declared using `var`, `let`, or `const`, each with different scoping and reassignment rules. Choosing the right declaration keyword affects how the variable behaves throughout the code.",
+      "resources": [
+        {
+          "id": "kvActjpU4FUJdrmuFoFEe-res-1",
+          "type": "article",
+          "title": "JavaScript Variables",
+          "url": "https://javascript.info/variables"
+        },
+        {
+          "id": "kvActjpU4FUJdrmuFoFEe-res-2",
+          "type": "article",
+          "title": "Storing the information you need — Variables",
+          "url": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables"
+        }
+      ]
+    },
+    "-BtF34cEzI6J8sZCDRlRE": {
+      "id": "-BtF34cEzI6J8sZCDRlRE",
+      "slug": "apply",
+      "title": "apply",
+      "description": "The apply() method of Function instances calls this function with a given this value, and arguments provided as an array (or an array-like object).",
+      "resources": [
+        {
+          "id": "-BtF34cEzI6J8sZCDRlRE-res-1",
+          "type": "article",
+          "title": "apply() - MDN",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply"
+        }
+      ]
+    },
+    "QLC7bW-qHskLH2HOA-Sko": {
+      "id": "QLC7bW-qHskLH2HOA-Sko",
+      "slug": "arguments-object",
+      "title": "Arguments object",
+      "description": "The arguments object is an Array-like object accessible inside functions that contains the values of the arguments passed to that function, available within all non-arrow functions. You can refer to a function's arguments inside that function by using its arguments object. It has entries for each argument the function was called with, with the first entry's index at 0. But, in modern code, rest parameters should be preferred.",
+      "resources": [
+        {
+          "id": "QLC7bW-qHskLH2HOA-Sko-res-1",
+          "type": "article",
+          "title": "The arguments object - MDN Docs",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments"
+        }
+      ]
+    },
+    "0PK1NwlgkNe2Vf-We4uLH": {
+      "id": "0PK1NwlgkNe2Vf-We4uLH",
+      "slug": "arithmetic-operators",
+      "title": "Arithmetic Operators",
+      "description": "Arithmetic operators perform mathematical operations on numbers. They include `+` (addition), `-` (subtraction), `*` (multiplication), `/` (division), `%` (remainder), and `**` (exponentiation). The `+` operator is also used for string concatenation, which can cause issues when operands are mixed types.",
+      "resources": [
+        {
+          "id": "0PK1NwlgkNe2Vf-We4uLH-res-1",
+          "type": "article",
+          "title": "Arithmetic Operators - MDN",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators#arithmetic_operators"
+        },
+        {
+          "id": "0PK1NwlgkNe2Vf-We4uLH-res-2",
+          "type": "article",
+          "title": "Arithmetic Operators - JavaScript.info",
+          "url": "https://javascript.info/operators#maths"
+        }
+      ]
+    },
+    "NZedBxG9B9TRVOf2QE2yL": {
+      "id": "NZedBxG9B9TRVOf2QE2yL",
+      "slug": "arrays",
+      "title": "Arrays",
+      "description": "Arrays are ordered, indexed collections that can hold values of any type. JavaScript arrays are dynamic, meaning they can grow and shrink, and provide a rich set of built-in methods like `map()`, `filter()`, `reduce()`, `push()`, and `pop()`. They are one of the most used data structures in JavaScript.",
+      "resources": [
+        {
+          "id": "NZedBxG9B9TRVOf2QE2yL-res-1",
+          "type": "article",
+          "title": "Working with Arrays in JavaScript",
+          "url": "https://javascript.info/array"
+        },
+        {
+          "id": "NZedBxG9B9TRVOf2QE2yL-res-2",
+          "type": "article",
+          "title": "JavaScript Arrays",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array"
+        },
+        {
+          "id": "NZedBxG9B9TRVOf2QE2yL-res-3",
+          "type": "video",
+          "title": "JavaScript Arrays",
+          "url": "https://www.youtube.com/watch?v=oigfaZ5ApsM"
+        }
+      ]
+    },
+    "fr0NChxMXLpJizyMhXcXS": {
+      "id": "fr0NChxMXLpJizyMhXcXS",
+      "slug": "arrow-functions",
+      "title": "Arrow Functions",
+      "description": "Arrow functions are a concise syntax for writing function expressions introduced in ES6. They use `=>` instead of the `function` keyword and do not have their own `this`, `arguments`, or `super` bindings. They are commonly used for callbacks and short expressions, but are not suitable as object methods or constructors.",
+      "resources": [
+        {
+          "id": "fr0NChxMXLpJizyMhXcXS-res-1",
+          "type": "article",
+          "title": "MDN - Arrow Function Expressions",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions"
+        }
+      ]
+    },
+    "IvBtUzIGnkgGXrJjqmjf4": {
+      "id": "IvBtUzIGnkgGXrJjqmjf4",
+      "slug": "assignment-operators",
+      "title": "Assignment Operators",
+      "description": "An assignment operator assigns a value to its left operand based on the value of its right operand. The simple assignment operator is equal (`=`), which assigns the value of its right operand to its left operand. That is, `x = f()` is an assignment expression that assigns the value of `f()` to `x`.",
+      "resources": [
+        {
+          "id": "IvBtUzIGnkgGXrJjqmjf4-res-1",
+          "type": "article",
+          "title": "Assignment Operators",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#assignment_operators"
+        },
+        {
+          "id": "IvBtUzIGnkgGXrJjqmjf4-res-2",
+          "type": "article",
+          "title": "Basic Operators",
+          "url": "https://javascript.info/operators#assignment"
+        }
+      ]
+    },
+    "Dn872mgexmxoLtbkIgIgz": {
+      "id": "Dn872mgexmxoLtbkIgIgz",
+      "slug": "asyncawait",
+      "title": "Async/Await",
+      "description": "`async/await` is a special syntax to work with promises in a more comfortable fashion. We use `async` keyword to declare a async function that return a Promise, and the `await` keyword makes a function wait for a Promise.",
+      "resources": [
+        {
+          "id": "Dn872mgexmxoLtbkIgIgz-res-1",
+          "type": "article",
+          "title": "Async/await",
+          "url": "https://javascript.info/async-await"
+        },
+        {
+          "id": "Dn872mgexmxoLtbkIgIgz-res-2",
+          "type": "article",
+          "title": "async function",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function"
+        },
+        {
+          "id": "Dn872mgexmxoLtbkIgIgz-res-3",
+          "type": "article",
+          "title": "JavaScript Promises - Chaining",
+          "url": "https://www.codeguage.com/courses/advanced-js/promises-chaining"
+        }
+      ]
+    },
+    "sFOqx6_7poVIVuXhJVY0E": {
+      "id": "sFOqx6_7poVIVuXhJVY0E",
+      "slug": "asynchronous-javascript",
+      "title": "Asynchronous JavaScript",
+      "description": "Asynchronous JavaScript allows code to start long-running operations, like network requests or timers, and continue executing other code while waiting for them to complete. JavaScript is single-threaded, so asynchronous patterns prevent the main thread from blocking. The main mechanisms are callbacks, Promises, and async/await.",
+      "resources": [
+        {
+          "id": "sFOqx6_7poVIVuXhJVY0E-res-1",
+          "type": "article",
+          "title": "Asynchronous JavaScript - MDN",
+          "url": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Introducing"
+        },
+        {
+          "id": "sFOqx6_7poVIVuXhJVY0E-res-2",
+          "type": "video",
+          "title": "What The Hack is Event Loop and Asynchronous JavaScript - JSConf",
+          "url": "https://youtu.be/8aGhZQkoFbQ"
+        },
+        {
+          "id": "sFOqx6_7poVIVuXhJVY0E-res-3",
+          "type": "video",
+          "title": "Asynchronous JavaScript - JavaScript Visualized",
+          "url": "https://youtu.be/eiC58R16hb8"
+        }
+      ]
+    },
+    "udoz0DZi7f-vm30dSnYKu": {
+      "id": "udoz0DZi7f-vm30dSnYKu",
+      "slug": "bigint-operators",
+      "title": "BigInt Operators",
+      "description": "Most operators that can be used with the `Number` data type will also work with `BigInt` values (e.g. arithmetic, comparison, etc.). However, the unsigned right shift `>>>` operator is an exception and is not supported. Similarly, some operators may have slight differences in behaviour (for example, division with `BigInt` will round towards zero).",
+      "resources": [
+        {
+          "id": "udoz0DZi7f-vm30dSnYKu-res-1",
+          "type": "article",
+          "title": "BigInt Operators",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#bigint_operators"
+        }
+      ]
+    },
+    "6lUF0neW1piiP1RsaVxEX": {
+      "id": "6lUF0neW1piiP1RsaVxEX",
+      "slug": "bigint",
+      "title": "bigint",
+      "description": "`BigInt` is a primitive type for representing integers of arbitrary size, beyond the safe integer limit of the `number` type. A BigInt is created by appending `n` to an integer literal or using the `BigInt()` function. It is used when precise integer arithmetic is needed for very large numbers, such as in cryptography or financial calculations.",
+      "resources": [
+        {
+          "id": "6lUF0neW1piiP1RsaVxEX-res-1",
+          "type": "article",
+          "title": "BigInt",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt"
+        },
+        {
+          "id": "6lUF0neW1piiP1RsaVxEX-res-2",
+          "type": "video",
+          "title": "The Whys and Hows Of BigInt",
+          "url": "https://youtu.be/6I650PQfhMg?si=XyVGrmp4KWLRcHVj"
+        }
+      ]
+    },
+    "dbercnxXVTJXMpYSDNGb2": {
+      "id": "dbercnxXVTJXMpYSDNGb2",
+      "slug": "bind",
+      "title": "bind()",
+      "description": "The `bind()` method in JavaScript allows you to create a new function with a specific context and optionally preset arguments. Unlike `call()` or `apply()`, `bind()` does not immediately invoke the function. Instead, it returns a new function that can be called later, either as a regular function or with additional arguments. This is particularly useful when you want to ensure that a function retains a specific context, regardless of how or when it's invoked.",
+      "resources": [
+        {
+          "id": "dbercnxXVTJXMpYSDNGb2-res-1",
+          "type": "article",
+          "title": "bind()",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind"
+        },
+        {
+          "id": "dbercnxXVTJXMpYSDNGb2-res-2",
+          "type": "article",
+          "title": "Function binding",
+          "url": "https://javascript.info/bind"
+        }
+      ]
+    },
+    "ghjNJW67Wj5L5QK46xwL-": {
+      "id": "ghjNJW67Wj5L5QK46xwL-",
+      "slug": "bitwise-operators",
+      "title": "Bitwise Operators",
+      "description": "Bitwise operators treat their operands as 32-bit integers and perform operations at the bit level. They include `&` (AND), `|` (OR), `^` (XOR), `~` (NOT), `<<` (left shift), `>>` (right shift), and `>>>` (unsigned right shift). They are used in low-level programming, flag manipulation, and performance-critical code.",
+      "resources": [
+        {
+          "id": "ghjNJW67Wj5L5QK46xwL--res-1",
+          "type": "article",
+          "title": "Bitwise Operators - MDN",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#bitwise_operators"
+        },
+        {
+          "id": "ghjNJW67Wj5L5QK46xwL--res-2",
+          "type": "article",
+          "title": "Bitwise Operators - JavaScript.info",
+          "url": "https://javascript.info/operators#bitwise-operators"
+        }
+      ]
+    },
+    "uqEzHYx13Y2EpvTTRzykn": {
+      "id": "uqEzHYx13Y2EpvTTRzykn",
+      "slug": "block",
+      "title": "Block",
+      "description": "Block scope limits a variable's visibility to the block of code enclosed in curly braces `{}` where it is declared. Variables declared with `let` and `const` are block-scoped. A variable inside an `if` statement or `for` loop with block scope is not accessible outside that block.",
+      "resources": [
+        {
+          "id": "uqEzHYx13Y2EpvTTRzykn-res-1",
+          "type": "article",
+          "title": "JavaScript Scope",
+          "url": "https://www.w3schools.com/js/js_scope.asp"
+        }
+      ]
+    },
+    "b1HvkoWA2t4kt8mS6FySm": {
+      "id": "b1HvkoWA2t4kt8mS6FySm",
+      "slug": "boolean",
+      "title": "boolean",
+      "description": "A boolean is a primitive type with only two possible values: `true` or `false`. Booleans are used in conditions, comparisons, and logical operations. JavaScript also has truthy and falsy values, where non-boolean values are implicitly converted to `true` or `false` in a boolean context.",
+      "resources": [
+        {
+          "id": "b1HvkoWA2t4kt8mS6FySm-res-1",
+          "type": "article",
+          "title": "JavaScript Boolean",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean"
+        },
+        {
+          "id": "b1HvkoWA2t4kt8mS6FySm-res-2",
+          "type": "video",
+          "title": "Booleans in JavaScript",
+          "url": "https://www.youtube.com/watch?v=B4ZCFdrBmbE"
+        }
+      ]
+    },
+    "4oHFzn7R7xLxfuLpsJjr-": {
+      "id": "4oHFzn7R7xLxfuLpsJjr-",
+      "slug": "break--continue",
+      "title": "break / continue",
+      "description": "`break` exits a loop or switch statement immediately, skipping any remaining iterations. `continue` skips the rest of the current iteration and moves to the next one. Both can be used with labels to control nested loops.",
+      "resources": [
+        {
+          "id": "4oHFzn7R7xLxfuLpsJjr--res-1",
+          "type": "article",
+          "title": "JavaScript MDN Docs - continue statement",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/continue"
+        },
+        {
+          "id": "4oHFzn7R7xLxfuLpsJjr--res-2",
+          "type": "article",
+          "title": "JavaScript MDN Docs - break statement",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/break"
+        }
+      ]
+    },
+    "s8wUJivWmetysJ8bt9FBC": {
+      "id": "s8wUJivWmetysJ8bt9FBC",
+      "slug": "built-in-functions",
+      "title": "Built in functions",
+      "description": "JavaScript offers a variety of built-in functions that simplify common tasks, available globally or within specific objects without requiring explicit definition. Functions like parseInt(), setTimeout(), and Math.random() can be used directly, while objects like Array, String, and Date include built-in methods for efficient data manipulation. Understanding these functions enhances development by leveraging JavaScript’s core features without reinventing the wheel.",
+      "resources": [
+        {
+          "id": "s8wUJivWmetysJ8bt9FBC-res-1",
+          "type": "article",
+          "title": "JavaScript Built-in Functions",
+          "url": "https://www.tutorialspoint.com/javascript/javascript_builtin_functions.htm"
+        },
+        {
+          "id": "s8wUJivWmetysJ8bt9FBC-res-2",
+          "type": "article",
+          "title": "Built-in Methods in Javascript",
+          "url": "https://dev.to/elpepebenitez/built-in-methods-in-javascript-4bll"
+        },
+        {
+          "id": "s8wUJivWmetysJ8bt9FBC-res-3",
+          "type": "article",
+          "title": "Built-in Functions:",
+          "url": "https://www.tutorialride.com/javascript/javascript-built-in-functions.htm"
+        }
+      ]
+    },
+    "D95ndkkwmT5X_HqboEn6E": {
+      "id": "D95ndkkwmT5X_HqboEn6E",
+      "slug": "built-in-objects",
+      "title": "Built-in Objects",
+      "description": "JavaScript provides a set of built-in objects that are available without any imports. These include `Math`, `Date`, `JSON`, `Array`, `RegExp`, `Promise`, and others. They provide standard functionality for common tasks like math operations, date manipulation, and data serialization.",
+      "resources": [
+        {
+          "id": "D95ndkkwmT5X_HqboEn6E-res-1",
+          "type": "article",
+          "title": "Standard built-in objects",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects"
+        },
+        {
+          "id": "D95ndkkwmT5X_HqboEn6E-res-2",
+          "type": "article",
+          "title": "JavaScript Built-in Objects",
+          "url": "https://www.tutorialride.com/javascript/javascript-built-in-objects.htm"
+        }
+      ]
+    },
+    "gsyY3Oa3Jf0W5K_lyqBYO": {
+      "id": "gsyY3Oa3Jf0W5K_lyqBYO",
+      "slug": "call",
+      "title": "call()",
+      "description": "The `call()` method allows you to invoke a function with a given `this` value, and arguments provided individually.",
+      "resources": [
+        {
+          "id": "gsyY3Oa3Jf0W5K_lyqBYO-res-1",
+          "type": "article",
+          "title": "Call Method - MDN Docs",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call"
+        }
+      ]
+    },
+    "PJSdqvh5OBwPCNpn3q_S5": {
+      "id": "PJSdqvh5OBwPCNpn3q_S5",
+      "slug": "callback-hell",
+      "title": "Callback Hell",
+      "description": "The callback hell is when we try to write asynchronous JavaScript in a way where execution happens visually from top to bottom, creating a code that has a pyramid shape with many **})** at the end.",
+      "resources": [
+        {
+          "id": "PJSdqvh5OBwPCNpn3q_S5-res-1",
+          "type": "article",
+          "title": "Callbacks in Callbacks - Pyramid of Doom",
+          "url": "https://javascript.info/callbacks#pyramid-of-doom"
+        }
+      ]
+    },
+    "D8oGY7pdviRByaz6c9sU6": {
+      "id": "D8oGY7pdviRByaz6c9sU6",
+      "slug": "callbacks",
+      "title": "Callbacks",
+      "description": "A callback function is a function passed into another function as an argument, which is then invoked inside the outer function to complete some kind of routine or action.",
+      "resources": [
+        {
+          "id": "D8oGY7pdviRByaz6c9sU6-res-1",
+          "type": "article",
+          "title": "Callbacks in JavaScript",
+          "url": "https://javascript.info/callbacks"
+        },
+        {
+          "id": "D8oGY7pdviRByaz6c9sU6-res-2",
+          "type": "article",
+          "title": "Callback Functions",
+          "url": "https://developer.mozilla.org/en-US/docs/Glossary/Callback_function"
+        }
+      ]
+    },
+    "F_Lrj0F7UXriqJ0mhwxCy": {
+      "id": "F_Lrj0F7UXriqJ0mhwxCy",
+      "slug": "classes",
+      "title": "Classes",
+      "description": "Classes are a template for creating objects. They encapsulate data with code to work on that data. Classes in JS are built on prototypes but have some syntax and semantics that are not shared with ES5 class-like semantics.",
+      "resources": [
+        {
+          "id": "F_Lrj0F7UXriqJ0mhwxCy-res-1",
+          "type": "article",
+          "title": "Classes in JavaScript",
+          "url": "https://javascript.info/classes"
+        },
+        {
+          "id": "F_Lrj0F7UXriqJ0mhwxCy-res-2",
+          "type": "article",
+          "title": "JavaScript Classes",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes"
+        }
+      ]
+    },
+    "itS6B12I8I1KNCPvc0KCQ": {
+      "id": "itS6B12I8I1KNCPvc0KCQ",
+      "slug": "closures",
+      "title": "Closures",
+      "description": "Function closures are one of the most powerful, yet most misunderstood, concepts of JavaScript that are actually really simple to understand. A closure refers to a function along with its lexical environment. It is essentially what allows us to return a function `A`, from another function `B`, that remembers the local variables defined in `B`, even after `B` exits. The idea of closures is employed in nearly every other JavaScript program, hence, it's paramount for a JavaScript developer to know it really well.",
+      "resources": [
+        {
+          "id": "itS6B12I8I1KNCPvc0KCQ-res-1",
+          "type": "article",
+          "title": "JavaScript Closures - The Simplest Explanation",
+          "url": "https://www.codeguage.com/courses/js/functions-closures"
+        },
+        {
+          "id": "itS6B12I8I1KNCPvc0KCQ-res-2",
+          "type": "article",
+          "title": "JavaScript Closures Explained in 3 Minutes",
+          "url": "https://medium.com/learning-new-stuff/javascript-closures-explained-in-3-minutes-5aae8dce2014"
+        }
+      ]
+    },
+    "6_8EwyZY2jBkZr7xnfRY3": {
+      "id": "6_8EwyZY2jBkZr7xnfRY3",
+      "slug": "comma-operators",
+      "title": "Comma operators",
+      "description": "The comma operator (`,`) evaluates each of its operands (from left to right) and returns the value of the last operand. This lets you create a compound expression in which multiple expressions are evaluated, with the compound expression's final value being the value of the rightmost of its member expressions. This is commonly used to provide multiple parameters to a `for` loop.",
+      "resources": [
+        {
+          "id": "6_8EwyZY2jBkZr7xnfRY3-res-1",
+          "type": "article",
+          "title": "Comma operator",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comma_Operator"
+        }
+      ]
+    },
+    "4EXeGkOpfAViB9Uo4zL6O": {
+      "id": "4EXeGkOpfAViB9Uo4zL6O",
+      "slug": "commonjs",
+      "title": "CommonJS",
+      "description": "CommonJS modules are the original way to package JavaScript code for Node.js. Node.js also supports the ESModules standard used by browsers and other JavaScript run-times, but CJS is still widely used in backend Node.js applications. Sometimes these modules will be written with a .cjs extension.",
+      "resources": [
+        {
+          "id": "4EXeGkOpfAViB9Uo4zL6O-res-1",
+          "type": "article",
+          "title": "How the CJS Module System Works",
+          "url": "https://blog.risingstack.com/node-js-at-scale-module-system-commonjs-require/"
+        },
+        {
+          "id": "4EXeGkOpfAViB9Uo4zL6O-res-2",
+          "type": "video",
+          "title": "How to Import and Export Modules in CJS",
+          "url": "https://www.youtube.com/watch?v=XTND4rjATXA"
+        }
+      ]
+    },
+    "-v4_V4UuoZSgUk2sqOCim": {
+      "id": "-v4_V4UuoZSgUk2sqOCim",
+      "slug": "comparison-operators",
+      "title": "Comparison Operators",
+      "description": "Comparison operators are the operators that compare values and return true or false. The operators include: `>`, `<`, `>=`, `<=`, `==`, `===`, `!=` and `!==`",
+      "resources": [
+        {
+          "id": "-v4_V4UuoZSgUk2sqOCim-res-1",
+          "type": "article",
+          "title": "JavaScript MDN Docs",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#comparison_operators"
+        }
+      ]
+    },
+    "640mk-m5mB90Mme-7jcXV": {
+      "id": "640mk-m5mB90Mme-7jcXV",
+      "slug": "conditional-operators",
+      "title": "Conditional Operators",
+      "description": "The conditional (ternary) operator is the only JavaScript operator that takes three operands: `condition ? valueIfTrue : valueIfFalse`. It is a concise alternative to `if...else` for simple conditional assignments or expressions. Nesting ternary operators deeply is discouraged because it reduces readability.",
+      "resources": [
+        {
+          "id": "640mk-m5mB90Mme-7jcXV-res-1",
+          "type": "article",
+          "title": "JavaScript MDN Docs",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#conditional_operator"
+        }
+      ]
+    },
+    "ttCsd2_H2SuRivCjGv1OX": {
+      "id": "ttCsd2_H2SuRivCjGv1OX",
+      "slug": "conditional-statements",
+      "title": "Conditional statements",
+      "description": "When you write code, you often want to perform different actions for different decisions. You can use conditional statements in your code to do this. In JavaScript, we have three conditional statements: `if`, `if...else`, and `switch`.",
+      "resources": [
+        {
+          "id": "ttCsd2_H2SuRivCjGv1OX-res-1",
+          "type": "article",
+          "title": "Making decisions in your code — conditionals",
+          "url": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals"
+        },
+        {
+          "id": "ttCsd2_H2SuRivCjGv1OX-res-2",
+          "type": "article",
+          "title": "Conditional branching: if, ?",
+          "url": "https://javascript.info/ifelse"
+        }
+      ]
+    },
+    "q85z6x1Lc-yLWepwtIT2_": {
+      "id": "q85z6x1Lc-yLWepwtIT2_",
+      "slug": "const",
+      "title": "[const] keyword",
+      "description": "Constants are block-scoped, much like variables declared using the `let` keyword. The value of a constant can't be changed through reassignment (i.e. by using the assignment operator), and it can't be re-declared (i.e. through a variable declaration). However, if a constant is an object or array its properties or items can be updated or removed.",
+      "resources": [
+        {
+          "id": "q85z6x1Lc-yLWepwtIT2_-res-1",
+          "type": "article",
+          "title": "JavaScript Constants - CodeGuage",
+          "url": "https://www.codeguage.com/courses/js/constants"
+        },
+        {
+          "id": "q85z6x1Lc-yLWepwtIT2_-res-2",
+          "type": "article",
+          "title": "const keyword - MDN Docs",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const"
+        },
+        {
+          "id": "q85z6x1Lc-yLWepwtIT2_-res-3",
+          "type": "article",
+          "title": "JavaScript Variables",
+          "url": "https://javascript.info/variables"
+        }
+      ]
+    },
+    "3tckJ2Sci7z-sNx9jx9eF": {
+      "id": "3tckJ2Sci7z-sNx9jx9eF",
+      "slug": "control-flow",
+      "title": "Control Flow",
+      "description": "Control flow refers to the order in which statements are executed in a program. JavaScript provides conditional statements (`if...else`, `switch`) to branch logic, and exception handling (`try/catch/finally`, `throw`) to manage errors. Writing clear control flow makes code easier to follow and debug.",
+      "resources": [
+        {
+          "id": "3tckJ2Sci7z-sNx9jx9eF-res-1",
+          "type": "article",
+          "title": "Control Flow - MDN",
+          "url": "https://developer.mozilla.org/en-US/docs/Glossary/Control_flow"
+        }
+      ]
+    },
+    "ADarwihuI2nBq1C3U7-Zr": {
+      "id": "ADarwihuI2nBq1C3U7-Zr",
+      "slug": "data-structures",
+      "title": "Data Structures",
+      "description": "A Data structure is a format to organize, manage and store data in a way that allows efficient access and modification. JavaScript has primitive (built-in) and non-primitive (not built-in) data structures. Primitive data structures come by default with the programming language and you can implement them out of the box (like arrays and objects). Non-primitive data structures don't come by default and you have to code them up if you want to use them.",
+      "resources": [
+        {
+          "id": "ADarwihuI2nBq1C3U7-Zr-res-1",
+          "type": "video",
+          "title": "Introduction to the Stack Data Structure",
+          "url": "https://youtu.be/4F-BnR2XwqU"
+        },
+        {
+          "id": "ADarwihuI2nBq1C3U7-Zr-res-2",
+          "type": "video",
+          "title": "Intro to Recursion: Anatomy of a Recursive Solution",
+          "url": "https://youtu.be/yBWlPte6FhA"
+        },
+        {
+          "id": "ADarwihuI2nBq1C3U7-Zr-res-3",
+          "type": "video",
+          "title": "Dynamic Programming - Learn to Solve Algorithmic Problems & Coding Challenges",
+          "url": "https://youtu.be/oBt53YbR9Kk"
+        }
+      ]
+    },
+    "-jbPPuEXacBR0d0CWPHgd": {
+      "id": "-jbPPuEXacBR0d0CWPHgd",
+      "slug": "data-types",
+      "title": "Datatypes",
+      "description": "Data type refers to the type of data that a JavaScript variable can hold. There are seven primitive data types in JavaScript (Number, BigInt, String, Boolean, Null, Undefined and Symbol). Objects are non-primitives.",
+      "resources": [
+        {
+          "id": "-jbPPuEXacBR0d0CWPHgd-res-1",
+          "type": "article",
+          "title": "JavaScript Data Types - CodeGuage",
+          "url": "https://www.codeguage.com/courses/js/data-types"
+        },
+        {
+          "id": "-jbPPuEXacBR0d0CWPHgd-res-2",
+          "type": "article",
+          "title": "JavaScript data types and data structures",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures"
+        },
+        {
+          "id": "-jbPPuEXacBR0d0CWPHgd-res-3",
+          "type": "article",
+          "title": "JavaScript Data Types",
+          "url": "https://javascript.info/types"
+        }
+      ]
+    },
+    "dhEtcgv7G9fNV-AUNJdWk": {
+      "id": "dhEtcgv7G9fNV-AUNJdWk",
+      "slug": "debugging-issues",
+      "title": "Debugging Issues",
+      "description": "The browser DevTools debugger allows developers to set breakpoints, step through code, inspect variable values, and trace the call stack. The console allows logging values and evaluating expressions in the current scope. These tools make it possible to understand what code is doing at runtime and identify the source of bugs.",
+      "resources": [
+        {
+          "id": "dhEtcgv7G9fNV-AUNJdWk-res-1",
+          "type": "article",
+          "title": "Debugging JavaScript in the sources panel",
+          "url": "https://developer.chrome.com/docs/devtools/javascript/"
+        }
+      ]
+    },
+    "BA_ArmZMnVMaL_zl3W3Pt": {
+      "id": "BA_ArmZMnVMaL_zl3W3Pt",
+      "slug": "debugging-memory-leaks",
+      "title": "Debugging Memory Leaks",
+      "description": "In JavaScript, memory leaks commonly occur within heap allocated memory, where short lived objects are attached to long lived ones and the Garbage Collector cannot safely de-allocate that memory as it is still referenced from the root set (the global object).",
+      "resources": [
+        {
+          "id": "BA_ArmZMnVMaL_zl3W3Pt-res-1",
+          "type": "article",
+          "title": "Catching memory leaks with Chrome DevTools",
+          "url": "https://medium.com/coding-blocks/catching-memory-leaks-with-chrome-devtools-57b03acb6bb9"
+        },
+        {
+          "id": "BA_ArmZMnVMaL_zl3W3Pt-res-2",
+          "type": "article",
+          "title": "Effective Javascript Debugging",
+          "url": "https://medium.com/swlh/effective-javascript-debugging-memory-leaks-75059b2436f6"
+        },
+        {
+          "id": "BA_ArmZMnVMaL_zl3W3Pt-res-3",
+          "type": "article",
+          "title": "Debugging JavaScript memory leaks",
+          "url": "https://www.debugbear.com/blog/debugging-javascript-memory-leaks"
+        },
+        {
+          "id": "BA_ArmZMnVMaL_zl3W3Pt-res-4",
+          "type": "video",
+          "title": "JavaScript Memory Leaks Visualized and How To Fix Them",
+          "url": "https://youtu.be/IkoGmbNJolo"
+        }
+      ]
+    },
+    "ECxISKUAU7js_JsfSHzud": {
+      "id": "ECxISKUAU7js_JsfSHzud",
+      "slug": "debugging-performance",
+      "title": "Debugging performance",
+      "description": "Enter the dev tools and check out the Lighthouse tab. This is essentially a series of tests that analyses the currently open website on a bunch of metrics related to performance, page speed, accessibility, etc. Feel free to run the tests by clicking the **Analyze Page Load** button (you might want to do this in an incognito tab to avoid errors arising from extensions you're using). Once you have the results, take your time and read through them (and do click through to the reference pages mentioned alongside each test result to know more about it!)",
+      "resources": [
+        {
+          "id": "ECxISKUAU7js_JsfSHzud-res-1",
+          "type": "article",
+          "title": "Analyze runtime performance",
+          "url": "https://developer.chrome.com/docs/devtools/performance"
+        }
+      ]
+    },
+    "8X8mRl-puL0Lp43dO5mha": {
+      "id": "8X8mRl-puL0Lp43dO5mha",
+      "slug": "default-params",
+      "title": "Default Parameters",
+      "description": "Default function parameters allow named parameters to be initialized with default values if no value or `undefined` is passed.",
+      "resources": [
+        {
+          "id": "8X8mRl-puL0Lp43dO5mha-res-1",
+          "type": "article",
+          "title": "Default Parameters - MDN Docs",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters"
+        }
+      ]
+    },
+    "bhuGtcyqPFKu-900aESYz": {
+      "id": "bhuGtcyqPFKu-900aESYz",
+      "slug": "dom-apis",
+      "title": "DOM APIs",
+      "description": "With HTML DOM, JavaScript can access and change all the elements of an HTML document such as its attributes, CSS styles, remove elements, add and create new elements on the page. Web API means application programming interface for the web. All browsers have a set of built-in Web APIs to support complex operations, and to help accessing data. Like Geo-location API, Web Storage, Web History and others.",
+      "resources": [
+        {
+          "id": "bhuGtcyqPFKu-900aESYz-res-1",
+          "type": "article",
+          "title": "DOM- MDN Docs",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model"
+        }
+      ]
+    },
+    "57lO_3uxJaWsFXS-0J1AK": {
+      "id": "57lO_3uxJaWsFXS-0J1AK",
+      "slug": "dowhile",
+      "title": "do...while statement",
+      "description": "The `do...while` statement creates a loop that executes a specified statement until the test condition evaluates to `false`. The condition is evaluated after executing the statement, resulting in the specified statement executing at least once.",
+      "resources": [
+        {
+          "id": "57lO_3uxJaWsFXS-0J1AK-res-1",
+          "type": "article",
+          "title": "do...while - MDN",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/do...while"
+        }
+      ]
+    },
+    "23Xa6q5VvRVlzc6Dx8vST": {
+      "id": "23Xa6q5VvRVlzc6Dx8vST",
+      "slug": "equality-comparisons",
+      "title": "Equality Comparisons",
+      "description": "Comparison operators are used in logical statements to determine equality or difference between variables or values. Comparison operators can be used in conditional statements to compare values and take action depending on the result.",
+      "resources": [
+        {
+          "id": "23Xa6q5VvRVlzc6Dx8vST-res-1",
+          "type": "article",
+          "title": "JavaScript Equality Operators",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators#equality_operators"
+        }
+      ]
+    },
+    "-z-4VTaC3tOThqChgyoMs": {
+      "id": "-z-4VTaC3tOThqChgyoMs",
+      "slug": "error-objects",
+      "title": "Error Objects",
+      "description": "JavaScript provides a set of built-in error types that extend the base `Error` class. These include `TypeError`, `RangeError`, `SyntaxError`, `ReferenceError`, and others. Each has a `message` property and a `stack` trace. Using specific error types makes it easier to catch and handle different failure modes separately.",
+      "resources": [
+        {
+          "id": "-z-4VTaC3tOThqChgyoMs-res-1",
+          "type": "article",
+          "title": "Error Object - MDN",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error"
+        },
+        {
+          "id": "-z-4VTaC3tOThqChgyoMs-res-2",
+          "type": "article",
+          "title": "Control flow & Error handling - MDN",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling"
+        }
+      ]
+    },
+    "jLNmYeo20Mbu4WRvVgvwU": {
+      "id": "jLNmYeo20Mbu4WRvVgvwU",
+      "slug": "esm",
+      "title": "ESModules",
+      "description": "ESModules is a standard that was introduced with ES6 (2015). The idea was to standardize how JS modules work and implement these features in browsers. This standard is widely used with frontend frameworks such as react and can also be used in the backend with Node.js. Sometimes these modules will be written with a .mjs extension.",
+      "resources": [
+        {
+          "id": "jLNmYeo20Mbu4WRvVgvwU-res-1",
+          "type": "article",
+          "title": "Full ESM module overview from MDN",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules"
+        },
+        {
+          "id": "jLNmYeo20Mbu4WRvVgvwU-res-2",
+          "type": "article",
+          "title": "Full ESM module overview from js.info",
+          "url": "https://javascript.info/modules"
+        },
+        {
+          "id": "jLNmYeo20Mbu4WRvVgvwU-res-3",
+          "type": "article",
+          "title": "Node.js documentation for ESModules",
+          "url": "https://nodejs.org/api/esm.html"
+        },
+        {
+          "id": "jLNmYeo20Mbu4WRvVgvwU-res-4",
+          "type": "video",
+          "title": "JavaScript ES6 Modules Simplified",
+          "url": "https://www.youtube.com/watch?v=cRHQNNcYf6s"
+        }
+      ]
+    },
+    "_bs5NNHVdHLWGBmpYwHMi": {
+      "id": "_bs5NNHVdHLWGBmpYwHMi",
+      "slug": "event-loop",
+      "title": "Event Loop",
+      "description": "The Event Loop is one of the most important aspects to understand about Node.js. Why is this so important? Because it explains how Node.js can be asynchronous and have non-blocking I/O, it explains the \"killer feature\" of Node.js, which made it this successful.",
+      "resources": [
+        {
+          "id": "_bs5NNHVdHLWGBmpYwHMi-res-1",
+          "type": "article",
+          "title": "The Node.Js Event Loop",
+          "url": "https://nodejs.org/learn/asynchronous-work/event-loop-timers-and-nexttick"
+        },
+        {
+          "id": "_bs5NNHVdHLWGBmpYwHMi-res-2",
+          "type": "article",
+          "title": "JavaScript Visualized: Event Loop",
+          "url": "https://dev.to/lydiahallie/javascript-visualized-event-loop-3dif"
+        },
+        {
+          "id": "_bs5NNHVdHLWGBmpYwHMi-res-3",
+          "type": "video",
+          "title": "What the heck is the event loop anyway?",
+          "url": "https://www.youtube.com/watch?v=8aGhZQkoFbQ"
+        },
+        {
+          "id": "_bs5NNHVdHLWGBmpYwHMi-res-4",
+          "type": "video",
+          "title": "In the loop: JS conf 2018",
+          "url": "https://www.youtube.com/watch?v=cCOL7MC4Pl0"
+        }
+      ]
+    },
+    "34TKGxV9YziOWMh9rT_KE": {
+      "id": "34TKGxV9YziOWMh9rT_KE",
+      "slug": "exceptional-handling",
+      "title": "Exception Handling",
+      "description": "In JavaScript, all exceptions are simply objects. While the majority of exceptions are implementations of the global Error class, any old object can be thrown. With this in mind, there are two ways to throw an exception: directly via an Error object, and through a custom object. (excerpt from Rollbar)",
+      "resources": [
+        {
+          "id": "34TKGxV9YziOWMh9rT_KE-res-1",
+          "type": "article",
+          "title": "Throwing Exceptions in JavaScript",
+          "url": "https://rollbar.com/guides/javascript/how-to-throw-exceptions-in-javascript"
+        },
+        {
+          "id": "34TKGxV9YziOWMh9rT_KE-res-2",
+          "type": "video",
+          "title": "try, catch, finally, throw (video)",
+          "url": "https://youtu.be/cFTFtuEQ-10"
+        }
+      ]
+    },
+    "p2NhSwPYMtRiPRHjPaqmX": {
+      "id": "p2NhSwPYMtRiPRHjPaqmX",
+      "slug": "explicit-binding",
+      "title": "Explicit binding",
+      "description": "Explicit binding is when you use the `call` or `apply` methods to explicitly set the value of `this` in a function. Explicit Binding can be applied using `call()`, `apply()`, and `bind()`.",
+      "resources": [
+        {
+          "id": "p2NhSwPYMtRiPRHjPaqmX-res-1",
+          "type": "article",
+          "title": "Explicit Binding",
+          "url": "https://medium.com/swlh/javascript-this-ac28f8e0f65d"
+        },
+        {
+          "id": "p2NhSwPYMtRiPRHjPaqmX-res-2",
+          "type": "article",
+          "title": "Explicit Binding rule for this keyword",
+          "url": "https://medium.com/@msinha2801/explicit-binding-rule-for-this-keyword-in-js-712405b0a11"
+        }
+      ]
+    },
+    "1xhjrRN-Rfekei2JwwU7Y": {
+      "id": "1xhjrRN-Rfekei2JwwU7Y",
+      "slug": "explicit-type-casting",
+      "title": "Explicit Type Casting",
+      "description": "Type casting means transferring data from one data type to another by explicitly specifying the type to convert the given data to. Explicit type casting is normally done to make data compatible with other variables. Examples of typecasting methods are `parseInt()`, `parseFloat()`, `toString()`.",
+      "resources": [
+        {
+          "id": "1xhjrRN-Rfekei2JwwU7Y-res-1",
+          "type": "article",
+          "title": "Type Conversion",
+          "url": "https://www.c-sharpcorner.com/article/type-conversions-in-javascript/"
+        },
+        {
+          "id": "1xhjrRN-Rfekei2JwwU7Y-res-2",
+          "type": "article",
+          "title": "Type conversion",
+          "url": "https://developer.mozilla.org/en-US/docs/Glossary/Type_Conversion"
+        },
+        {
+          "id": "1xhjrRN-Rfekei2JwwU7Y-res-3",
+          "type": "video",
+          "title": "Data Type Conversion",
+          "url": "https://youtu.be/VQLYiFqetZM"
+        }
+      ]
+    },
+    "_6vZa43gWjxO2OcD1iCCQ": {
+      "id": "_6vZa43gWjxO2OcD1iCCQ",
+      "slug": "expressions--operators",
+      "title": "Expressions & Operators",
+      "description": "Expressions are combinations of values, variables, and operators that evaluate to a value. Operators perform operations on values and include arithmetic, comparison, logical, assignment, and bitwise operators. Understanding operator precedence and behavior is necessary for writing correct expressions.",
+      "resources": [
+        {
+          "id": "_6vZa43gWjxO2OcD1iCCQ-res-1",
+          "type": "article",
+          "title": "Expressions and operators",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators"
+        }
+      ]
+    },
+    "kL5rfWxXe4J44ENru1uJS": {
+      "id": "kL5rfWxXe4J44ENru1uJS",
+      "slug": "fetch",
+      "title": "Fetch",
+      "description": "The `fetch()` method in JavaScript is used to request to the server and load the information on the webpages. The request can be of any APIs that return the data of the format JSON or XML. This method returns a promise.",
+      "resources": [
+        {
+          "id": "kL5rfWxXe4J44ENru1uJS-res-1",
+          "type": "article",
+          "title": "Fetch MDN Docs",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch"
+        },
+        {
+          "id": "kL5rfWxXe4J44ENru1uJS-res-2",
+          "type": "article",
+          "title": "Network request - Fetch",
+          "url": "https://javascript.info/fetch"
+        },
+        {
+          "id": "kL5rfWxXe4J44ENru1uJS-res-3",
+          "type": "article",
+          "title": "Abort a fetch request manually in JavaScript",
+          "url": "https://www.amitmerchant.com/abort-fetch-request-manually-in-javascript/"
+        }
+      ]
+    },
+    "2M211rcaPSWbZ-sPoSEVR": {
+      "id": "2M211rcaPSWbZ-sPoSEVR",
+      "slug": "for",
+      "title": "The for loop",
+      "description": "The `for` loop is a standard control-flow construct in many programming languages, including JavaScript. It's commonly used to iterate over given sequences or iterate a known number of times and execute a piece of code for each iteration.",
+      "resources": [
+        {
+          "id": "2M211rcaPSWbZ-sPoSEVR-res-1",
+          "type": "article",
+          "title": "JavaScript for Loop - CodeGuage",
+          "url": "https://www.codeguage.com/courses/js/loops-for-loop"
+        },
+        {
+          "id": "2M211rcaPSWbZ-sPoSEVR-res-2",
+          "type": "article",
+          "title": "The for Loop - MDN",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for"
+        }
+      ]
+    },
+    "cq3vvFZoNnAAZJ6oEBUwb": {
+      "id": "cq3vvFZoNnAAZJ6oEBUwb",
+      "slug": "forin-loop",
+      "title": "for...in loop",
+      "description": "The `for...in` loop iterates over the enumerable properties of an object, including inherited ones. It is mainly used for iterating over object keys. It is not recommended for arrays because it iterates over all enumerable properties, not just numeric indexes, and does not guarantee order.",
+      "resources": [
+        {
+          "id": "cq3vvFZoNnAAZJ6oEBUwb-res-1",
+          "type": "article",
+          "title": "for...in statement - MDN",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in"
+        },
+        {
+          "id": "cq3vvFZoNnAAZJ6oEBUwb-res-2",
+          "type": "article",
+          "title": "The for..in loop with examples",
+          "url": "https://javascript.info/object#forin"
+        }
+      ]
+    },
+    "FBz6h_AmTJBXoBN-a38a5": {
+      "id": "FBz6h_AmTJBXoBN-a38a5",
+      "slug": "forof-loop",
+      "title": "for...of statement",
+      "description": "The for...of statement executes a loop that operates on a sequence of values sourced from an iterable object. Iterable objects include instances of built-ins such as Array, String, TypedArray, Map, Set, NodeList (and other DOM collections), and the arguments object, generators produced by generator functions, and user-defined iterables.",
+      "resources": [
+        {
+          "id": "FBz6h_AmTJBXoBN-a38a5-res-1",
+          "type": "article",
+          "title": "for...of statement - MDN",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of"
+        }
+      ]
+    },
+    "EAN6DCiCfSq04R4vKgZ0q": {
+      "id": "EAN6DCiCfSq04R4vKgZ0q",
+      "slug": "function-borrowing",
+      "title": "Function Borrowing",
+      "description": "Function borrowing allows us to use the methods of one object on a different object without having to make a copy of that method and maintain it in two separate places. It is accomplished through the use of `.call()`, `.apply()`, or `.bind()`, all of which exist to explicitly set this on the method we are borrowing.",
+      "resources": [
+        {
+          "id": "EAN6DCiCfSq04R4vKgZ0q-res-1",
+          "type": "article",
+          "title": "Function borrowing",
+          "url": "https://medium.com/@ensallee/function-borrowing-in-javascript-4bd671e9d7b4"
+        },
+        {
+          "id": "EAN6DCiCfSq04R4vKgZ0q-res-2",
+          "type": "article",
+          "title": "When would I use function borrowing",
+          "url": "https://stackoverflow.com/questions/69892281/when-would-i-use-function-borrowing"
+        }
+      ]
+    },
+    "R1D4fsZliHv7wIo8Tj-kp": {
+      "id": "R1D4fsZliHv7wIo8Tj-kp",
+      "slug": "function-parameters",
+      "title": "Function Parameters",
+      "description": "The parameter is the name given to the variable declared inside the definition of a function. There are two special kinds of syntax: default and rest parameters.",
+      "resources": [
+        {
+          "id": "R1D4fsZliHv7wIo8Tj-kp-res-1",
+          "type": "article",
+          "title": "Function Parameters",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions#function_parameters"
+        },
+        {
+          "id": "R1D4fsZliHv7wIo8Tj-kp-res-2",
+          "type": "article",
+          "title": "Unlimited function parameters using Rest",
+          "url": "https://www.amitmerchant.com/unlimited-function-parameters-with-using-rest-in-java-script/"
+        }
+      ]
+    },
+    "YMT7O6lrMSMtNo0EnmsnQ": {
+      "id": "YMT7O6lrMSMtNo0EnmsnQ",
+      "slug": "function",
+      "title": "Function",
+      "description": "Function scope means a variable declared inside a function is only accessible within that function. Variables declared with `var` are function-scoped. Each function call creates a new scope, so variables inside a function do not conflict with variables of the same name in other functions.",
+      "resources": [
+        {
+          "id": "YMT7O6lrMSMtNo0EnmsnQ-res-1",
+          "type": "article",
+          "title": "Function Scope & Block Scope in JS",
+          "url": "https://medium.com/nerd-for-tech/function-scope-block-scope-in-js-d29c8e7cd216"
+        }
+      ]
+    },
+    "k8bJH9qydZm8I9rhH7rXw": {
+      "id": "k8bJH9qydZm8I9rhH7rXw",
+      "slug": "functions",
+      "title": "Functions",
+      "description": "Functions exist so we can reuse code. They are blocks of code that execute whenever they are invoked. Each function is typically written to perform a particular task, like an addition function used to find the sum of two or more numbers. When numbers need to be added anywhere within your code, the addition function can be invoked as many times as necessary.",
+      "resources": [
+        {
+          "id": "k8bJH9qydZm8I9rhH7rXw-res-1",
+          "type": "article",
+          "title": "Functions - MDN Docs",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions"
+        },
+        {
+          "id": "k8bJH9qydZm8I9rhH7rXw-res-2",
+          "type": "article",
+          "title": "JavaScript Functions in Detail - CodeGuage",
+          "url": "https://www.codeguage.com/courses/js/functions-basics"
+        }
+      ]
+    },
+    "KKyX8N4lTgN0w-Khm6Ztq": {
+      "id": "KKyX8N4lTgN0w-Khm6Ztq",
+      "slug": "garbage-collection",
+      "title": "Garbage Collection",
+      "description": "Memory management in JavaScript is performed automatically and invisibly to us. We create primitives, objects, functions… All that takes memory. The main concept of memory management in JavaScript is reachability.",
+      "resources": [
+        {
+          "id": "KKyX8N4lTgN0w-Khm6Ztq-res-1",
+          "type": "article",
+          "title": "JavaScript Garbage Collection",
+          "url": "https://javascript.info/garbage-collection"
+        },
+        {
+          "id": "KKyX8N4lTgN0w-Khm6Ztq-res-2",
+          "type": "article",
+          "title": "Memory Management in JavaScript",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Memory_Management"
+        }
+      ]
+    },
+    "oC4o6GLEES_nUgCJu9Q6I": {
+      "id": "oC4o6GLEES_nUgCJu9Q6I",
+      "slug": "global",
+      "title": "Global",
+      "description": "Global scope refers to variables declared outside any function or block, making them accessible from anywhere in the program. In browsers, global variables become properties of the `window` object. Overusing global variables is discouraged because it increases the risk of naming conflicts and makes code harder to maintain.",
+      "resources": [
+        {
+          "id": "oC4o6GLEES_nUgCJu9Q6I-res-1",
+          "type": "article",
+          "title": "Scope in JavaScript – Global vs Local vs Block Scope Explained",
+          "url": "https://www.freecodecamp.org/news/scope-in-javascript-global-vs-local-vs-block-scope/"
+        }
+      ]
+    },
+    "l-GKzcsBNA0r6Jax8hwnP": {
+      "id": "l-GKzcsBNA0r6Jax8hwnP",
+      "slug": "history-of-javascript",
+      "title": "History of JavaScript",
+      "description": "JavaScript was initially created by Brendan Eich of NetScape and was first announced in a press release by Netscape in 1995. It has a bizarre history of naming; initially, it was named Mocha by the creator, which was later renamed LiveScript. In 1996, about a year later after the release, NetScape decided to rename it to JavaScript with hopes of capitalizing on the Java community (although JavaScript did not have any relationship with Java) and released Netscape 2.0 with the official support of JavaScript.",
+      "resources": [
+        {
+          "id": "l-GKzcsBNA0r6Jax8hwnP-res-1",
+          "type": "article",
+          "title": "Brief History of JavaScript",
+          "url": "https://roadmap.sh/guides/history-of-javascript"
+        },
+        {
+          "id": "l-GKzcsBNA0r6Jax8hwnP-res-2",
+          "type": "article",
+          "title": "The Weird History of JavaScript",
+          "url": "https://dev.to/codediodeio/the-weird-history-of-javascript-2bnb"
+        }
+      ]
+    },
+    "Lb5jLF91WO5V5CWpifciW": {
+      "id": "Lb5jLF91WO5V5CWpifciW",
+      "slug": "hoisting",
+      "title": "Hoisting",
+      "description": "Hoisting is JavaScript's behavior of moving variable and function declarations to the top of their containing scope before code execution. Variables declared with `var` are hoisted and initialized as `undefined`. Function declarations are fully hoisted, meaning they can be called before they appear in the source code. `let` and `const` are hoisted but not initialized, resulting in a temporal dead zone.",
+      "resources": [
+        {
+          "id": "Lb5jLF91WO5V5CWpifciW-res-1",
+          "type": "article",
+          "title": "What is Hoisting - MDN Docs",
+          "url": "https://developer.mozilla.org/en-US/docs/Glossary/Hoisting"
+        },
+        {
+          "id": "Lb5jLF91WO5V5CWpifciW-res-2",
+          "type": "article",
+          "title": "Understanding Hoisting",
+          "url": "https://www.digitalocean.com/community/tutorials/understanding-hoisting-in-javascript"
+        },
+        {
+          "id": "Lb5jLF91WO5V5CWpifciW-res-3",
+          "type": "video",
+          "title": "Learn JavaScript Hoisting In 5 Minutes",
+          "url": "https://www.youtube.com/watch?v=EvfRXyKa_GI"
+        }
+      ]
+    },
+    "uXsWIUUxtc4H_iRx3uZv0": {
+      "id": "uXsWIUUxtc4H_iRx3uZv0",
+      "slug": "how-to-run-javascript",
+      "title": "How to run JavaScript",
+      "description": "JavaScript can be run directly in a browser's developer console, embedded in an HTML page using a `<script>` tag, or executed on the server with Node.js. For development, tools like VS Code with a live server extension or online environments like CodePen and JSFiddle make it easy to write and run JavaScript immediately.",
+      "resources": [
+        {
+          "id": "uXsWIUUxtc4H_iRx3uZv0-res-1",
+          "type": "article",
+          "title": "How To Add JavaScript to HTML",
+          "url": "https://www.digitalocean.com/community/tutorials/how-to-add-javascript-to-html"
+        },
+        {
+          "id": "uXsWIUUxtc4H_iRx3uZv0-res-2",
+          "type": "article",
+          "title": "How To Write Your First JavaScript Program",
+          "url": "https://www.digitalocean.com/community/tutorials/how-to-write-your-first-javascript-program"
+        },
+        {
+          "id": "uXsWIUUxtc4H_iRx3uZv0-res-3",
+          "type": "article",
+          "title": "How To Use the JavaScript Developer Console",
+          "url": "https://www.digitalocean.com/community/tutorials/how-to-use-the-javascript-developer-console"
+        }
+      ]
+    },
+    "ndbDXAx6bL4lZmpXv16Y_": {
+      "id": "ndbDXAx6bL4lZmpXv16Y_",
+      "slug": "ifelse",
+      "title": "if...else",
+      "description": "The `if...else` statement executes a block of code if a condition is true, and an optional `else` block if it is false. Additional conditions can be checked with `else if`. It is the most basic form of conditional logic in JavaScript.",
+      "resources": [
+        {
+          "id": "ndbDXAx6bL4lZmpXv16Y_-res-1",
+          "type": "article",
+          "title": "if...else - MDN docs",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else"
+        },
+        {
+          "id": "ndbDXAx6bL4lZmpXv16Y_-res-2",
+          "type": "article",
+          "title": "Conditional branching: if, ? - javascript.info",
+          "url": "https://javascript.info/ifelse"
+        }
+      ]
+    },
+    "YZlCoPvZuX5MmpLOTj5d4": {
+      "id": "YZlCoPvZuX5MmpLOTj5d4",
+      "slug": "iifes",
+      "title": "IIFEs",
+      "description": "An IIFE (Immediately Invoked Function Expression) is a function that is defined and called at the same time. It is written as `(function() { ... })()` or `(() => { ... })()`. IIFEs are used to create a private scope, avoiding polluting the global namespace, and were common before ES6 modules.",
+      "resources": [
+        {
+          "id": "YZlCoPvZuX5MmpLOTj5d4-res-1",
+          "type": "article",
+          "title": "IIFE — MDN Docs",
+          "url": "https://developer.mozilla.org/en-US/docs/Glossary/IIFE"
+        },
+        {
+          "id": "YZlCoPvZuX5MmpLOTj5d4-res-2",
+          "type": "article",
+          "title": "JavaScript in Plain English - IIFE",
+          "url": "https://javascript.plainenglish.io/https-medium-com-javascript-in-plain-english-stop-feeling-iffy-about-using-an-iife-7b0292aba174"
+        }
+      ]
+    },
+    "pP42K_eH4RCdUdUS8BJlP": {
+      "id": "pP42K_eH4RCdUdUS8BJlP",
+      "slug": "implicit-type-casting",
+      "title": "Implicit Type Casting",
+      "description": "Implicit type conversion happens when the compiler or runtime automatically converts data types. JavaScript is loosely typed language and most of the time operators automatically convert a value to the right type.",
+      "resources": [
+        {
+          "id": "pP42K_eH4RCdUdUS8BJlP-res-1",
+          "type": "article",
+          "title": "TutorialsPoint - JavaScript Tutorials",
+          "url": "https://www.tutorialspoint.com/explain-typecasting-in-javascript"
+        },
+        {
+          "id": "pP42K_eH4RCdUdUS8BJlP-res-2",
+          "type": "article",
+          "title": "What you need to know about JavaScript Implicit Coercion",
+          "url": "https://dev.to/promisetochi/what-you-need-to-know-about-javascripts-implicit-coercion-e23"
+        }
+      ]
+    },
+    "azsXq6Y5iCvQDgTWZpWQ3": {
+      "id": "azsXq6Y5iCvQDgTWZpWQ3",
+      "slug": "in-a-function",
+      "title": "in a method",
+      "description": "When a function is called as a method of an object, `this` refers to the object before the dot. For example, in `user.greet()`, `this` inside `greet` refers to `user`. This is the most intuitive use of `this`.",
+      "resources": []
+    },
+    "3E5MuxPvEJU-dwgTrbQAR": {
+      "id": "3E5MuxPvEJU-dwgTrbQAR",
+      "slug": "in-a-method",
+      "title": "this in a method",
+      "description": "Methods are properties of an object which are functions. The value of this inside a method is equal to the calling object. In simple words, this value is the object “before dot”, the one used to call the method.",
+      "resources": [
+        {
+          "id": "3E5MuxPvEJU-dwgTrbQAR-res-1",
+          "type": "article",
+          "title": "this in methods",
+          "url": "https://javascript.info/object-methods#this-in-methods"
+        }
+      ]
+    },
+    "P0190rTm2wLQmCzWOKour": {
+      "id": "P0190rTm2wLQmCzWOKour",
+      "slug": "in-arrow-functions",
+      "title": "in arrow functions",
+      "description": "Arrow functions do not have their own `this` binding. Instead, they inherit `this` from the lexical scope where they were defined. This makes arrow functions predictable in callbacks and event handlers where regular functions would lose their intended `this` context.",
+      "resources": [
+        {
+          "id": "P0190rTm2wLQmCzWOKour-res-1",
+          "type": "article",
+          "title": "this keyword and arrow function",
+          "url": "https://stackoverflow.com/questions/66518020/javascript-this-keyword-and-arrow-function"
+        }
+      ]
+    },
+    "JVbEBtVrTTFnTF3_yUIAC": {
+      "id": "JVbEBtVrTTFnTF3_yUIAC",
+      "slug": "in-event-handlers",
+      "title": "in event handlers",
+      "description": "In an event handler attached to a DOM element, `this` refers to the element that received the event. For example, in a click handler, `this` is the button or element that was clicked. Arrow functions do not have their own `this`, so they inherit it from the surrounding scope instead.",
+      "resources": []
+    },
+    "lBOGoHZrmnIRatvryDwTm": {
+      "id": "lBOGoHZrmnIRatvryDwTm",
+      "slug": "indexed-collections",
+      "title": "Indexed collections",
+      "description": "Indexed Collections are collections that have numeric indices i.e. the collections of data that are ordered by an index value. In JavaScript, an array is an indexed collection. An array is an ordered set of values that has a numeric index.",
+      "resources": [
+        {
+          "id": "lBOGoHZrmnIRatvryDwTm-res-1",
+          "type": "article",
+          "title": "What is Indexed collections?",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Indexed_collections"
+        },
+        {
+          "id": "lBOGoHZrmnIRatvryDwTm-res-2",
+          "type": "article",
+          "title": "Indexed collections in JavaScript",
+          "url": "https://www.tutorialspoint.com/indexed-collections-in-javascript"
+        },
+        {
+          "id": "lBOGoHZrmnIRatvryDwTm-res-3",
+          "type": "video",
+          "title": "Javascript Arrays",
+          "url": "https://youtu.be/XYq9QpgAx8g"
+        }
+      ]
+    },
+    "6khAD6mzZ9S96JJuC5_j6": {
+      "id": "6khAD6mzZ9S96JJuC5_j6",
+      "slug": "introduction-to-javascript",
+      "title": "Introduction to JavaScript",
+      "description": "JavaScript is a high-level, interpreted programming language created to add interactivity to web pages. It runs in the browser and, with Node.js, on the server as well. JavaScript is the only language that runs natively in web browsers, making it the foundation of frontend web development.",
+      "resources": [
+        {
+          "id": "6khAD6mzZ9S96JJuC5_j6-res-1",
+          "type": "article",
+          "title": "You Don't Know JS Yet (book series)",
+          "url": "https://github.com/getify/You-Dont-Know-JS"
+        },
+        {
+          "id": "6khAD6mzZ9S96JJuC5_j6-res-2",
+          "type": "article",
+          "title": "JavaScript MDN Docs",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+        },
+        {
+          "id": "6khAD6mzZ9S96JJuC5_j6-res-3",
+          "type": "article",
+          "title": "The Modern JavaScript Tutorial",
+          "url": "https://javascript.info/"
+        },
+        {
+          "id": "6khAD6mzZ9S96JJuC5_j6-res-4",
+          "type": "video",
+          "title": "JavaScript Crash Course for Beginners",
+          "url": "https://youtu.be/hdI2bqOjy3c?t=2"
+        }
+      ]
+    },
+    "PLallt_T33W6bUEn0Hc3W": {
+      "id": "PLallt_T33W6bUEn0Hc3W",
+      "slug": "islooselyequal",
+      "title": "isLooselyEqual",
+      "description": "The abstract equality comparison (loose equality) is the algorithm behind the `==` operator. It defines the rules for how values of different types are coerced before comparison. For example, `null == undefined` is `true`, but `null == 0` is `false`. Understanding this algorithm explains many of JavaScript's surprising equality behaviors.",
+      "resources": [
+        {
+          "id": "PLallt_T33W6bUEn0Hc3W-res-1",
+          "type": "article",
+          "title": "Loosely Equality (==) Operator",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Equality"
+        },
+        {
+          "id": "PLallt_T33W6bUEn0Hc3W-res-2",
+          "type": "article",
+          "title": "Comparison - javascript.info",
+          "url": "https://javascript.info/comparison"
+        }
+      ]
+    },
+    "pcILon_Jjm2_XS10iUJ0E": {
+      "id": "pcILon_Jjm2_XS10iUJ0E",
+      "slug": "isstrictlyequal",
+      "title": "isStrictlyEqual",
+      "description": "The strict equality comparison is the algorithm behind the `===` operator. It returns `false` if the types differ, without any coercion. For the same type, it compares values directly, with the exception that `NaN === NaN` is `false`.",
+      "resources": [
+        {
+          "id": "pcILon_Jjm2_XS10iUJ0E-res-1",
+          "type": "article",
+          "title": "Strictly Equality (===) Operator",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Strict_equality"
+        },
+        {
+          "id": "pcILon_Jjm2_XS10iUJ0E-res-2",
+          "type": "article",
+          "title": "Comparison - javascript.info",
+          "url": "https://javascript.info/comparison"
+        }
+      ]
+    },
+    "TZ8XGdykSJjKBjX6Nivwo": {
+      "id": "TZ8XGdykSJjKBjX6Nivwo",
+      "slug": "iterators-and-generators",
+      "title": "Javascript Iterators and Generators",
+      "description": "Iterators and generators, introduced into JavaScript with ECMAScript 6, represent an extremely useful concept related to iteration in the language. Iterators are objects, abiding by the iterator protocol, that allows us to easily iterate over a given sequence in various ways, such as using the `for...of` loop. Generators, on the other hand, allow us to use functions and the `yield` keyword to easily define iterable sequences that are iterators as well.",
+      "resources": [
+        {
+          "id": "TZ8XGdykSJjKBjX6Nivwo-res-1",
+          "type": "article",
+          "title": "Introduction to Iterators - Advanced JavaScript",
+          "url": "https://www.codeguage.com/courses/advanced-js/iteration-introduction"
+        },
+        {
+          "id": "TZ8XGdykSJjKBjX6Nivwo-res-2",
+          "type": "article",
+          "title": "A Detailed Discussion on Iterators - Advanced JavaScript",
+          "url": "https://www.codeguage.com/courses/advanced-js/iteration-iterators"
+        },
+        {
+          "id": "TZ8XGdykSJjKBjX6Nivwo-res-3",
+          "type": "article",
+          "title": "What Exactly Are Generators? - Advanced JavaScript",
+          "url": "https://www.codeguage.com/courses/advanced-js/iteration-generators"
+        }
+      ]
+    },
+    "SFPsWnVpZBAw3_re7op4h": {
+      "id": "SFPsWnVpZBAw3_re7op4h",
+      "slug": "javascript-versions",
+      "title": "Javascript Versions",
+      "description": "JavaScript, invented by Brendan Eich, achieved the status of an ECMA standard in 1997 and adopted the official name ECMAScript. This language has evolved through several versions, namely ES1, ES2, ES3, ES5, and the transformative ES6. These updates have played a crucial role in improving and standardizing JavaScript, making it widely used and valuable in the ever-changing field of web development.",
+      "resources": [
+        {
+          "id": "SFPsWnVpZBAw3_re7op4h-res-1",
+          "type": "article",
+          "title": "JavaScript Versions: How JavaScript has changed over the years",
+          "url": "https://www.educative.io/blog/javascript-versions-history"
+        },
+        {
+          "id": "SFPsWnVpZBAw3_re7op4h-res-2",
+          "type": "article",
+          "title": "Brief History of JavaScript",
+          "url": "https://roadmap.sh/guides/history-of-javascript"
+        }
+      ]
+    },
+    "bFNvtHp97OzKnPJgr7WaH": {
+      "id": "bFNvtHp97OzKnPJgr7WaH",
+      "slug": "json",
+      "title": "JSON",
+      "description": "JavaScript Object Notation (JSON) is a standard text-based format for representing structured data based on JavaScript object syntax. It is commonly used for transmitting data in web applications (e.g., sending some data from the server to the client, so it can be displayed on a web page, or vice versa).",
+      "resources": [
+        {
+          "id": "bFNvtHp97OzKnPJgr7WaH-res-1",
+          "type": "article",
+          "title": "Working with JSON",
+          "url": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON"
+        },
+        {
+          "id": "bFNvtHp97OzKnPJgr7WaH-res-2",
+          "type": "video",
+          "title": "JSON Tutorial for Beginners",
+          "url": "https://www.youtube.com/watch?v=iiADhChRriM"
+        }
+      ]
+    },
+    "rhJrrqkRqy2Qw_he4SPGz": {
+      "id": "rhJrrqkRqy2Qw_he4SPGz",
+      "slug": "keyed-collections",
+      "title": "Keyed Collections",
+      "description": "Keyed collections are data structures that store values indexed by keys. In JavaScript, `Map` and `WeakMap` are keyed collections that allow any value, including objects and functions, to be used as a key. Unlike plain objects, Maps maintain insertion order and provide methods like `get()`, `set()`, and `has()`.",
+      "resources": [
+        {
+          "id": "rhJrrqkRqy2Qw_he4SPGz-res-1",
+          "type": "article",
+          "title": "Keyed collections",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Keyed_collections"
+        },
+        {
+          "id": "rhJrrqkRqy2Qw_he4SPGz-res-2",
+          "type": "article",
+          "title": "ES6 keyed collections- Maps and sets",
+          "url": "https://blog.logrocket.com/es6-keyed-collections-maps-and-sets/"
+        },
+        {
+          "id": "rhJrrqkRqy2Qw_he4SPGz-res-3",
+          "type": "video",
+          "title": "Creating keyed collection",
+          "url": "https://youtu.be/4UqSqF4foy4"
+        }
+      ]
+    },
+    "kDRa9G3pMp0Cb0mqYUawM": {
+      "id": "kDRa9G3pMp0Cb0mqYUawM",
+      "slug": "let",
+      "title": "let",
+      "description": "`let` declares a block-scoped variable that can be reassigned after declaration. Unlike `var`, it is limited to the block, statement, or expression where it is defined. `let` is the standard choice when a variable's value needs to change over time.",
+      "resources": [
+        {
+          "id": "kDRa9G3pMp0Cb0mqYUawM-res-1",
+          "type": "article",
+          "title": "let keyword - MDN Docs",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let"
+        },
+        {
+          "id": "kDRa9G3pMp0Cb0mqYUawM-res-2",
+          "type": "article",
+          "title": "JavaScript Variables",
+          "url": "https://javascript.info/variables"
+        }
+      ]
+    },
+    "q7b5iMJ1Lfka5A-K-YcaN": {
+      "id": "q7b5iMJ1Lfka5A-K-YcaN",
+      "slug": "lexical-scoping",
+      "title": "Lexical scoping",
+      "description": "Before one can make an intuition of closures in JavaScript, it's important to first get the hang of the term '**_lexical environment_**'. In simple words, the lexical environment for a function `f` simply refers to the environment enclosing that function's definition in the source code.",
+      "resources": [
+        {
+          "id": "q7b5iMJ1Lfka5A-K-YcaN-res-1",
+          "type": "article",
+          "title": "What is a lexical environment? - JavaScript - CodeGuage",
+          "url": "https://www.codeguage.com/courses/js/functions-closures#What_is_a_lexical_environment"
+        },
+        {
+          "id": "q7b5iMJ1Lfka5A-K-YcaN-res-2",
+          "type": "article",
+          "title": "Lexical scoping - JavaScript - MDN",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures#lexical_scoping"
+        }
+      ]
+    },
+    "bo4SvzU4BrPl3c99zW7Y5": {
+      "id": "bo4SvzU4BrPl3c99zW7Y5",
+      "slug": "logical-operators",
+      "title": "Logical Operators",
+      "description": "Logical operators combine or invert boolean expressions. The main logical operators are `&&` (AND), `||` (OR), and `!` (NOT). In JavaScript, `&&` and `||` return one of their operands rather than a strict boolean, which makes them useful for short-circuit evaluation and default value patterns.",
+      "resources": [
+        {
+          "id": "bo4SvzU4BrPl3c99zW7Y5-res-1",
+          "type": "article",
+          "title": "Logical Operators - MDN",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators#binary_logical_operators"
+        }
+      ]
+    },
+    "YD-2l_amfqqqCdtc_Zdzo": {
+      "id": "YD-2l_amfqqqCdtc_Zdzo",
+      "slug": "loops-and-iterations",
+      "title": "Loops and Iterations",
+      "description": "Loops and iterations allow code to execute repeatedly based on a condition or over a collection of values. JavaScript provides several loop constructs for different use cases: `while`, `do...while`, `for`, `for...in`, and `for...of`. Choosing the right loop depends on what is being ite",
+      "resources": [
+        {
+          "id": "YD-2l_amfqqqCdtc_Zdzo-res-1",
+          "type": "article",
+          "title": "Loops and iteration",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration"
+        }
+      ]
+    },
+    "Xc0jL4rafpI-ixIaAxo9O": {
+      "id": "Xc0jL4rafpI-ixIaAxo9O",
+      "slug": "map",
+      "title": "Map",
+      "description": "A `Map` is a keyed collection that stores key-value pairs and remembers insertion order. Unlike plain objects, Map keys can be of any type, including objects and functions. Maps are preferred over plain objects when keys are dynamic or when the order of entries matters.",
+      "resources": [
+        {
+          "id": "Xc0jL4rafpI-ixIaAxo9O-res-1",
+          "type": "article",
+          "title": "Map - Keyed Collections",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map"
+        },
+        {
+          "id": "Xc0jL4rafpI-ixIaAxo9O-res-2",
+          "type": "article",
+          "title": "Map Data Type",
+          "url": "https://javascript.info/map-set#map"
+        }
+      ]
+    },
+    "ZR2WfH1cerA-V_kaPwRvm": {
+      "id": "ZR2WfH1cerA-V_kaPwRvm",
+      "slug": "memory-lifecycle",
+      "title": "Memory Lifecycle",
+      "description": "The memory lifecycle has three stages: allocation (memory is reserved when a value is created), use (memory is read and written during execution), and release (memory is freed when it is no longer reachable). In JavaScript, allocation happens implicitly, and release is handled by the garbage collector.",
+      "resources": [
+        {
+          "id": "ZR2WfH1cerA-V_kaPwRvm-res-1",
+          "type": "article",
+          "title": "MDN docs - Memory Management",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Memory_Management"
+        },
+        {
+          "id": "ZR2WfH1cerA-V_kaPwRvm-res-2",
+          "type": "article",
+          "title": "Lifecycle in Memory Management",
+          "url": "https://medium.com/swlh/the-lifecycle-of-memory-in-javascript-5b5bffc5ff4c"
+        }
+      ]
+    },
+    "MatU4SthAAhByJ40XdZQn": {
+      "id": "MatU4SthAAhByJ40XdZQn",
+      "slug": "memory-management",
+      "title": "Memory Management",
+      "description": "Low-level languages like C, have manual memory management primitives such as `malloc()` and `free()`. In contrast, JavaScript automatically allocates memory when objects are created and frees it when they are not used anymore (garbage collection). This automaticity is a potential source of confusion: it can give developers the false impression that they don't need to worry about memory management.",
+      "resources": [
+        {
+          "id": "MatU4SthAAhByJ40XdZQn-res-1",
+          "type": "article",
+          "title": "JavaScript Garbage Collection",
+          "url": "https://javascript.info/garbage-collection"
+        },
+        {
+          "id": "MatU4SthAAhByJ40XdZQn-res-2",
+          "type": "article",
+          "title": "Memory Management in JavaScript",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Memory_Management"
+        }
+      ]
+    },
+    "hLnJlwnECFbVMeFpH0M5Q": {
+      "id": "hLnJlwnECFbVMeFpH0M5Q",
+      "slug": "modules-in-javascript",
+      "title": "Modules",
+      "description": "Modules encapsulate all sorts of code like functions and variables and expose all this to other files. Generally, we use it to break our code into separate files to make it more maintainable. They were introduced into JavaScript with ECMAScript 6.",
+      "resources": [
+        {
+          "id": "hLnJlwnECFbVMeFpH0M5Q-res-1",
+          "type": "article",
+          "title": "Modules, introduction",
+          "url": "https://javascript.info/modules-intro"
+        },
+        {
+          "id": "hLnJlwnECFbVMeFpH0M5Q-res-2",
+          "type": "article",
+          "title": "Export and Import",
+          "url": "https://javascript.info/import-export"
+        },
+        {
+          "id": "hLnJlwnECFbVMeFpH0M5Q-res-3",
+          "type": "article",
+          "title": "Dynamic imports",
+          "url": "https://javascript.info/modules-dynamic-imports"
+        }
+      ]
+    },
+    "CxyNyFMuTLS3owtRMgClD": {
+      "id": "CxyNyFMuTLS3owtRMgClD",
+      "slug": "null",
+      "title": "null",
+      "description": "`null` is a primitive value that explicitly represents the absence of any value or object. It is typically used to indicate that a variable intentionally holds no value. `typeof null` returns `\"object\"`, which is a known quirk of the language from its original implementation.",
+      "resources": [
+        {
+          "id": "CxyNyFMuTLS3owtRMgClD-res-1",
+          "type": "article",
+          "title": "What is null in JavaScript",
+          "url": "https://www.altcademy.com/blog/what-is-null-in-javascript/"
+        },
+        {
+          "id": "CxyNyFMuTLS3owtRMgClD-res-2",
+          "type": "article",
+          "title": "null in JavaScript",
+          "url": "https://masteringjs.io/tutorials/fundamentals/null"
+        }
+      ]
+    },
+    "GZ_SXsWmP7AsXRTc4WUMw": {
+      "id": "GZ_SXsWmP7AsXRTc4WUMw",
+      "slug": "number",
+      "title": "number",
+      "description": "The `number` type represents both integers and floating-point values in JavaScript. It uses the IEEE 754 double-precision format, which means all numbers are stored as floats. Special values include `Infinity`, `-Infinity`, and `NaN` (Not a Number), which result from certain arithmetic operations.",
+      "resources": [
+        {
+          "id": "GZ_SXsWmP7AsXRTc4WUMw-res-1",
+          "type": "article",
+          "title": "Number - JavaScript | MDN",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number"
+        }
+      ]
+    },
+    "0I6dJE0ygXPGjeRAe8AtT": {
+      "id": "0I6dJE0ygXPGjeRAe8AtT",
+      "slug": "object-prototype",
+      "title": "Prototypes",
+      "description": "JavaScript is an object-oriented language built around a prototype model. In JavaScript, every object inherits properties from its prototype, if there are any. A prototype is simply an object from which another object inherits properties. To create complex programs using JavaScript, one has to be proficient in working with prototypes — they form the very core of OOP in the language.",
+      "resources": [
+        {
+          "id": "0I6dJE0ygXPGjeRAe8AtT-res-1",
+          "type": "article",
+          "title": "Prototypes in JavaScript - A Comprehensive Guide",
+          "url": "https://www.codeguage.com/courses/js/objects-prototypes"
+        },
+        {
+          "id": "0I6dJE0ygXPGjeRAe8AtT-res-2",
+          "type": "article",
+          "title": "Prototypes, Inheritance",
+          "url": "https://javascript.info/prototypes"
+        },
+        {
+          "id": "0I6dJE0ygXPGjeRAe8AtT-res-3",
+          "type": "article",
+          "title": "Object prototypes - MDN",
+          "url": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes"
+        },
+        {
+          "id": "0I6dJE0ygXPGjeRAe8AtT-res-4",
+          "type": "video",
+          "title": "Prototype in Javascript - Object Prototype",
+          "url": "https://www.youtube.com/watch?v=583MGxjypgU"
+        }
+      ]
+    },
+    "xe8HZ8Mt1fK8yJMcDPYHJ": {
+      "id": "xe8HZ8Mt1fK8yJMcDPYHJ",
+      "slug": "object",
+      "title": "Object",
+      "description": "JavaScript object is a data structure that allows us to have key-value pairs; so we can have distinct keys and each key is mapped to a value that can be of any JavaScript data type. Comparing it to a real-world object, a pen is an object with several properties such as color, design, the material it is made of, etc. In the same way, JavaScript objects can have properties that define their characteristics.",
+      "resources": [
+        {
+          "id": "xe8HZ8Mt1fK8yJMcDPYHJ-res-1",
+          "type": "article",
+          "title": "Objects",
+          "url": "https://javascript.info/object"
+        },
+        {
+          "id": "xe8HZ8Mt1fK8yJMcDPYHJ-res-2",
+          "type": "article",
+          "title": "Working with Objects",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects"
+        },
+        {
+          "id": "xe8HZ8Mt1fK8yJMcDPYHJ-res-3",
+          "type": "article",
+          "title": "Destructuring Objects",
+          "url": "https://javascript.info/destructuring-assignment"
+        }
+      ]
+    },
+    "ATma3bLKdmWY_WTsPIKxh": {
+      "id": "ATma3bLKdmWY_WTsPIKxh",
+      "slug": "objectis",
+      "title": "Object.is",
+      "description": "`Object.is()` is a method for comparing two values with stricter behavior than `===`. It handles two edge cases differently: `Object.is(NaN, NaN)` returns `true` (while `NaN === NaN` is `false`), and `Object.is(+0, -0)` returns `false` (while `+0 === -0` is `true`). It is useful when exact value identity is needed.",
+      "resources": [
+        {
+          "id": "ATma3bLKdmWY_WTsPIKxh-res-1",
+          "type": "article",
+          "title": "Object.is() - MDN",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is"
+        }
+      ]
+    },
+    "yXSF5gGST7l2X-4z1g0d_": {
+      "id": "yXSF5gGST7l2X-4z1g0d_",
+      "slug": "promises",
+      "title": "Promises",
+      "description": "Promises are a much better way to work with asynchronous code in JavaScript than the old and error-prone callback approach. They were introduced into JavaScript with ECMAScript 6. Using promises, we can manage extremely complex asynchronous code with rigorous error-handling setup, write code in a more or less synchronous style, and keep ourselves from running into the so-called callback hell.",
+      "resources": [
+        {
+          "id": "yXSF5gGST7l2X-4z1g0d_-res-1",
+          "type": "article",
+          "title": "A Detailed Introduction to Promises",
+          "url": "https://www.codeguage.com/courses/advanced-js/promises-introduction"
+        },
+        {
+          "id": "yXSF5gGST7l2X-4z1g0d_-res-2",
+          "type": "video",
+          "title": "JavaScript Promises - Visualized",
+          "url": "https://youtu.be/Xs1EMmBLpn4"
+        }
+      ]
+    },
+    "Xge6eru1hRGobnOEHLZqv": {
+      "id": "Xge6eru1hRGobnOEHLZqv",
+      "slug": "prototypal-inheritance",
+      "title": "Prototypal Inheritance",
+      "description": "The Prototypal Inheritance is a feature in javascript used to add methods and properties in objects. It is a method by which an object can inherit the properties and methods of another object. Traditionally, in order to get and set the Prototype of an object, we use Object.getPrototypeOf and Object.setPrototypeOf.",
+      "resources": [
+        {
+          "id": "Xge6eru1hRGobnOEHLZqv-res-1",
+          "type": "article",
+          "title": "JavaScript MDN Docs",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain"
+        },
+        {
+          "id": "Xge6eru1hRGobnOEHLZqv-res-2",
+          "type": "article",
+          "title": "Prototype Inheritance",
+          "url": "https://javascript.info/prototype-inheritance"
+        }
+      ]
+    },
+    "YJGhhFuWmFvhRKOg6nwON": {
+      "id": "YJGhhFuWmFvhRKOg6nwON",
+      "slug": "recursion",
+      "title": "Recursion",
+      "description": "One of the most powerful and elegant concept of functions, recursion is when a function invokes itself. Such a function is called a **_recursive function_**. As recursion happens, the underlying code of the recursive function gets executed again and again until a terminating condition, called the _base case_, gets fulfilled. As you dive into the world of algorithms, you'll come across recursion in many many instances.",
+      "resources": [
+        {
+          "id": "YJGhhFuWmFvhRKOg6nwON-res-1",
+          "type": "article",
+          "title": "Recursion and Stack",
+          "url": "https://javascript.info/recursion"
+        },
+        {
+          "id": "YJGhhFuWmFvhRKOg6nwON-res-2",
+          "type": "article",
+          "title": "JavaScript Function Recursions - CodeGuage",
+          "url": "https://www.codeguage.com/courses/js/functions-recursions"
+        },
+        {
+          "id": "YJGhhFuWmFvhRKOg6nwON-res-3",
+          "type": "article",
+          "title": "Recursion - MDN",
+          "url": "https://developer.mozilla.org/en-US/docs/Glossary/Recursion"
+        }
+      ]
+    },
+    "-_6q0bIjQrvAaCWrVkASO": {
+      "id": "-_6q0bIjQrvAaCWrVkASO",
+      "slug": "rest",
+      "title": "Rest",
+      "description": "The rest parameter syntax allows a function to accept an indefinite number of arguments as an array. It is defined by prefixing the last parameter with `...`, such as `function sum(...numbers)`. Unlike the `arguments` object, rest parameters are a true array and work with arrow functions.",
+      "resources": [
+        {
+          "id": "-_6q0bIjQrvAaCWrVkASO-res-1",
+          "type": "article",
+          "title": "Rest Parameters - MDN Docs",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters"
+        }
+      ]
+    },
+    "nfMrC0eoXZl72H4o3VFEP": {
+      "id": "nfMrC0eoXZl72H4o3VFEP",
+      "slug": "samevalue",
+      "title": "SameValue",
+      "description": "SameValue is the equality algorithm used by `Object.is()`. It is the strictest equality comparison in JavaScript: it returns `true` only when two values are identical, treating `NaN` as equal to `NaN` and `+0` as not equal to `-0`. It is used in a few specific internal operations.",
+      "resources": [
+        {
+          "id": "nfMrC0eoXZl72H4o3VFEP-res-1",
+          "type": "article",
+          "title": "Same-value equality using Object.is()",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness#same-value_equality_using_object.is"
+        }
+      ]
+    },
+    "fL3B2hkTgMb0oEwMiWJtK": {
+      "id": "fL3B2hkTgMb0oEwMiWJtK",
+      "slug": "samevaluezero",
+      "title": "SameValueZero",
+      "description": "SameValueZero is an equality algorithm used internally by JavaScript in methods like `Array.prototype.includes()` and `Map` key comparison. It behaves like `===` but treats `NaN` as equal to itself. Unlike `SameValue`, it considers `+0` and `-0` as equal.",
+      "resources": [
+        {
+          "id": "fL3B2hkTgMb0oEwMiWJtK-res-1",
+          "type": "article",
+          "title": "Same-value-zero equality",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness#same-value-zero_equality"
+        }
+      ]
+    },
+    "ISNzEYtrWe2v0R7Xfl5k-": {
+      "id": "ISNzEYtrWe2v0R7Xfl5k-",
+      "slug": "scope--function-stack",
+      "title": "Scope & Function Stack",
+      "description": "The function stack (call stack) is the mechanism that tracks the execution of function calls. Each time a function is called, a new frame is pushed onto the stack; when it returns, the frame is popped. Scope determines which variables are accessible at each point in the call stack, and closures preserve access to variables from outer scopes.",
+      "resources": [
+        {
+          "id": "ISNzEYtrWe2v0R7Xfl5k--res-1",
+          "type": "article",
+          "title": "Function stack (call stack) - MDN",
+          "url": "https://developer.mozilla.org/en-US/docs/Glossary/Call_stack"
+        },
+        {
+          "id": "ISNzEYtrWe2v0R7Xfl5k--res-2",
+          "type": "article",
+          "title": "Kinds of Scope - MDN",
+          "url": "https://developer.mozilla.org/en-US/docs/Glossary/Scope"
+        }
+      ]
+    },
+    "sciU68E13mcfL577y6Vim": {
+      "id": "sciU68E13mcfL577y6Vim",
+      "slug": "set",
+      "title": "Set",
+      "description": "A `Set` is a collection of unique values with no duplicates. Values in a Set can be of any type, and the Set maintains insertion order. Sets are useful for deduplicating arrays and checking membership efficiently.",
+      "resources": [
+        {
+          "id": "sciU68E13mcfL577y6Vim-res-1",
+          "type": "article",
+          "title": "Set - JavaScript",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set"
+        }
+      ]
+    },
+    "jaC3XXudd7OBKwwCpoPFf": {
+      "id": "jaC3XXudd7OBKwwCpoPFf",
+      "slug": "setinterval",
+      "title": "setInterval",
+      "description": "`setInterval()` repeatedly executes a function at a specified interval in milliseconds. It continues until `clearInterval()` is called with the returned ID. It is used for polling, animations, and periodic tasks, though `requestAnimationFrame` is preferred for visual updates.",
+      "resources": [
+        {
+          "id": "jaC3XXudd7OBKwwCpoPFf-res-1",
+          "type": "article",
+          "title": "Scheduling: setTimeout and setInterval",
+          "url": "https://javascript.info/settimeout-setinterval"
+        }
+      ]
+    },
+    "wXypuqEmFLIubx-QQvDIr": {
+      "id": "wXypuqEmFLIubx-QQvDIr",
+      "slug": "settimeout",
+      "title": "setTimeout",
+      "description": "`setTimeout()` schedules a function to run after a specified delay in milliseconds. It is asynchronous: the rest of the code continues executing while the timer runs. It returns an ID that can be used with `clearTimeout()` to cancel the scheduled execution.",
+      "resources": [
+        {
+          "id": "wXypuqEmFLIubx-QQvDIr-res-1",
+          "type": "article",
+          "title": "JavaScript MDN Docs",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/setTimeout"
+        },
+        {
+          "id": "wXypuqEmFLIubx-QQvDIr-res-2",
+          "type": "video",
+          "title": "setInterval and setTimeout: timing events",
+          "url": "https://www.youtube.com/watch?v=kOcFZV3c75I"
+        },
+        {
+          "id": "wXypuqEmFLIubx-QQvDIr-res-3",
+          "type": "video",
+          "title": "Learn JavaScript setTimeout() in 6 minutes!",
+          "url": "https://www.youtube.com/watch?v=shWr5DNVeCI"
+        }
+      ]
+    },
+    "Xw8lb0xCWKmNs4KZfhBUy": {
+      "id": "Xw8lb0xCWKmNs4KZfhBUy",
+      "slug": "strict-mode",
+      "title": "Strict Mode",
+      "description": "Strict mode is an opt-in variant of JavaScript that enforces stricter parsing and error handling. It is enabled by adding `\"use strict\"` at the top of a file or function. Strict mode prevents the use of undeclared variables, disallows duplicate parameter names, and makes `this` undefined in functions called without a context, among other restrictions.",
+      "resources": [
+        {
+          "id": "Xw8lb0xCWKmNs4KZfhBUy-res-1",
+          "type": "article",
+          "title": "Strict mode",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode"
+        },
+        {
+          "id": "Xw8lb0xCWKmNs4KZfhBUy-res-2",
+          "type": "article",
+          "title": "Strict mode in JavaScript",
+          "url": "https://javascript.info/strict-mode"
+        }
+      ]
+    },
+    "c38b6t5f17Zg2O2yg3eFP": {
+      "id": "c38b6t5f17Zg2O2yg3eFP",
+      "slug": "string-operators",
+      "title": "String Operators",
+      "description": "In addition to the comparison operators, which can be used on string values, the concatenation operator (`+`) concatenates two string values together, returning another string that is the union of the two operand strings. The shorthand assignment operator `+=` can also be used to concatenate strings.",
+      "resources": [
+        {
+          "id": "c38b6t5f17Zg2O2yg3eFP-res-1",
+          "type": "article",
+          "title": "JavaScript MDN Tutorials",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#string_operators"
+        },
+        {
+          "id": "c38b6t5f17Zg2O2yg3eFP-res-2",
+          "type": "article",
+          "title": "String Concatenation - JavaScript.info",
+          "url": "https://javascript.info/operators#string-concatenation-with-binary"
+        }
+      ]
+    },
+    "1RcwBHU3jzx0YxxUGZic4": {
+      "id": "1RcwBHU3jzx0YxxUGZic4",
+      "slug": "string",
+      "title": "String",
+      "description": "String is a primitive type that holds a sequence of characters. String in Javascript is written within a pair of single quotation marks `''`, double quotation marks `\"\"`, or backticks ` `` ` (template literals). All types of quotes can be used to contain a string but only if the starting quote is the same as the end quote.",
+      "resources": [
+        {
+          "id": "1RcwBHU3jzx0YxxUGZic4-res-1",
+          "type": "article",
+          "title": "String",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String"
+        },
+        {
+          "id": "1RcwBHU3jzx0YxxUGZic4-res-2",
+          "type": "article",
+          "title": "JavaScript Strings",
+          "url": "https://javascript.info/string"
+        }
+      ]
+    },
+    "JwLGAuSOTyZ5BHSqeBDU6": {
+      "id": "JwLGAuSOTyZ5BHSqeBDU6",
+      "slug": "structured-data",
+      "title": "Structured Data",
+      "description": "Structured data refers to data organized in a defined, parseable format. In JavaScript, JSON (JavaScript Object Notation) is the primary format for structured data exchange. It represents data as key-value pairs and arrays and is widely used for API communication and configuration files.",
+      "resources": [
+        {
+          "id": "JwLGAuSOTyZ5BHSqeBDU6-res-1",
+          "type": "article",
+          "title": "Google Developers docs",
+          "url": "https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data"
+        }
+      ]
+    },
+    "H_QlcUlavKKfcNK8CYAvb": {
+      "id": "H_QlcUlavKKfcNK8CYAvb",
+      "slug": "switch",
+      "title": "Switch",
+      "description": "The `switch` statement evaluates an expression and executes the matching `case` block. It is an alternative to a long chain of `if...else if` statements when comparing one value against multiple options. Each `case` should typically end with a `break` to prevent fall-through to the next case.",
+      "resources": [
+        {
+          "id": "H_QlcUlavKKfcNK8CYAvb-res-1",
+          "type": "article",
+          "title": "switch - MDN",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch"
+        },
+        {
+          "id": "H_QlcUlavKKfcNK8CYAvb-res-2",
+          "type": "article",
+          "title": "The switch Statement: Why, What and How - CodeGuage",
+          "url": "https://www.codeguage.com/courses/js/conditions-switch"
+        },
+        {
+          "id": "H_QlcUlavKKfcNK8CYAvb-res-3",
+          "type": "article",
+          "title": "The switch statement - javascript.info",
+          "url": "https://javascript.info/switch"
+        }
+      ]
+    },
+    "R6ICrk6vjoBxx5nRGo4Jg": {
+      "id": "R6ICrk6vjoBxx5nRGo4Jg",
+      "slug": "symbol",
+      "title": "Symbol",
+      "description": "Symbols are a unique and immutable primitive data type in JavaScript, introduced in ECMAScript 6 (ES6). They are often used to create unique property keys for objects, ensuring no property key collisions occur. Each Symbol value is distinct, even when multiple are created with the same description. Symbols can be created using the Symbol() function, and their primary use case is to add hidden or special properties to objects that won’t interfere with other properties or methods.",
+      "resources": [
+        {
+          "id": "R6ICrk6vjoBxx5nRGo4Jg-res-1",
+          "type": "article",
+          "title": "Symbol data type in JavaScript",
+          "url": "https://www.javascripttutorial.net/symbol/"
+        },
+        {
+          "id": "R6ICrk6vjoBxx5nRGo4Jg-res-2",
+          "type": "article",
+          "title": "Symbol type",
+          "url": "https://javascript.info/symbol"
+        },
+        {
+          "id": "R6ICrk6vjoBxx5nRGo4Jg-res-3",
+          "type": "article",
+          "title": "Symbol",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol"
+        },
+        {
+          "id": "R6ICrk6vjoBxx5nRGo4Jg-res-4",
+          "type": "video",
+          "title": "Symbols in Javascript",
+          "url": "https://www.youtube.com/watch?v=E5Bblr-SFbA"
+        }
+      ]
+    },
+    "ReGIniyLYl5hGExchrJd2": {
+      "id": "ReGIniyLYl5hGExchrJd2",
+      "slug": "throw-statement",
+      "title": "Throw Statement",
+      "description": "The throw statement throws a user-defined exception. Execution of the current function will stop (the statements after throw won't be executed), and control will be passed to the first catch block in the call stack. If no catch block exists among caller functions, the program will terminate. (excerpt from MDN)",
+      "resources": [
+        {
+          "id": "ReGIniyLYl5hGExchrJd2-res-1",
+          "type": "article",
+          "title": "JavaScript MDN Docs",
+          "url": "https://developer.mozilla.org/en-us/docs/web/javascript/reference/statements/throw"
+        },
+        {
+          "id": "ReGIniyLYl5hGExchrJd2-res-2",
+          "type": "article",
+          "title": "Error Handling",
+          "url": "https://javascript.info/error-handling"
+        },
+        {
+          "id": "ReGIniyLYl5hGExchrJd2-res-3",
+          "type": "article",
+          "title": "\"Throw\" operator",
+          "url": "https://javascript.info/try-catch#throw-operator"
+        }
+      ]
+    },
+    "rbjEZe5vxCJ8reI1oZ-jf": {
+      "id": "rbjEZe5vxCJ8reI1oZ-jf",
+      "slug": "trycatchfinally",
+      "title": "try/catch/finally",
+      "description": "The `try` block contains code that might throw an error. If an error occurs, execution jumps to the `catch` block, which receives the error object. The `finally` block runs regardless of whether an error was thrown, making it useful for cleanup operations like closing connections.",
+      "resources": [
+        {
+          "id": "rbjEZe5vxCJ8reI1oZ-jf-res-1",
+          "type": "article",
+          "title": "try...catch - JavaScript | MDN",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch"
+        },
+        {
+          "id": "rbjEZe5vxCJ8reI1oZ-jf-res-2",
+          "type": "article",
+          "title": "JavaScript try...catch...finally",
+          "url": "https://www.w3schools.com/jsreF/jsref_try_catch.asp"
+        }
+      ]
+    },
+    "XPmBieVCXvL3WbWkYRoKr": {
+      "id": "XPmBieVCXvL3WbWkYRoKr",
+      "slug": "type-casting",
+      "title": "Type Casting",
+      "description": "Type conversion (or typecasting) means the transfer of data from one data type to another. Implicit conversion happens when the compiler (for compiled languages) or runtime (for script languages like [JavaScript](https://developer.mozilla.org/en-US/docs/Glossary/JavaScript)) automatically converts data types. The source code can also explicitly require a conversion to take place.",
+      "resources": [
+        {
+          "id": "XPmBieVCXvL3WbWkYRoKr-res-1",
+          "type": "article",
+          "title": "Type Conversions",
+          "url": "https://javascript.info/type-conversions"
+        },
+        {
+          "id": "XPmBieVCXvL3WbWkYRoKr-res-2",
+          "type": "article",
+          "title": "Type Casting in JavaScript",
+          "url": "https://www.tutorialspoint.com/type-casting-in-javascript"
+        }
+      ]
+    },
+    "_Bo2YZqZ_gY35SLPML4T6": {
+      "id": "_Bo2YZqZ_gY35SLPML4T6",
+      "slug": "type-conversion-vs-coercion",
+      "title": "Type Conversion/Coercion",
+      "description": "Type coercion is the automatic or implicit conversion of values from one data type to another (such as strings to numbers). Type conversion is similar to type coercion because they convert values from one data type to another with one key difference — type coercion is implicit. In contrast, type conversion can be either implicit or explicit.",
+      "resources": [
+        {
+          "id": "_Bo2YZqZ_gY35SLPML4T6-res-1",
+          "type": "article",
+          "title": "Type Conversion - MDN",
+          "url": "https://developer.mozilla.org/en-US/docs/Glossary/Type_Conversion"
+        },
+        {
+          "id": "_Bo2YZqZ_gY35SLPML4T6-res-2",
+          "type": "article",
+          "title": "Type Coercion - MDN",
+          "url": "https://developer.mozilla.org/en-US/docs/Glossary/Type_coercion"
+        },
+        {
+          "id": "_Bo2YZqZ_gY35SLPML4T6-res-3",
+          "type": "video",
+          "title": "Type Conversion and Coercion video",
+          "url": "https://www.youtube.com/watch?v=jfQyMPzPTjY"
+        }
+      ]
+    },
+    "8X1mdQ3NDBVOZZWBbAFRE": {
+      "id": "8X1mdQ3NDBVOZZWBbAFRE",
+      "slug": "typed-arrays",
+      "title": "Typed Arrays",
+      "description": "Typed Arrays are array-like objects for working with raw binary data of a specific numeric type. Types include `Int8Array`, `Uint8Array`, `Float32Array`, and others, each representing a different size and format. They are used in performance-sensitive contexts such as audio processing, WebGL, and network protocols.",
+      "resources": [
+        {
+          "id": "8X1mdQ3NDBVOZZWBbAFRE-res-1",
+          "type": "article",
+          "title": "JavaScript typed arrays",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays"
+        },
+        {
+          "id": "8X1mdQ3NDBVOZZWBbAFRE-res-2",
+          "type": "video",
+          "title": "Intro to Typed Arrays in JavaScript",
+          "url": "https://www.youtube.com/watch?v=UYkJaW3pmj0"
+        }
+      ]
+    },
+    "RRACLQ6-aopkxImIp3Toc": {
+      "id": "RRACLQ6-aopkxImIp3Toc",
+      "slug": "typeof-operator",
+      "title": "typeof operator",
+      "description": "The `typeof` operator returns a string indicating the type of an operand. It works with primitives and functions but has some quirks, such as returning `\"object\"` for `null`. It is commonly used to check whether a variable is defined or to guard against unexpected types in a function.",
+      "resources": [
+        {
+          "id": "RRACLQ6-aopkxImIp3Toc-res-1",
+          "type": "article",
+          "title": "typeof Reference",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof"
+        }
+      ]
+    },
+    "k9rSR-YQ8B_iRcXNm2btP": {
+      "id": "k9rSR-YQ8B_iRcXNm2btP",
+      "slug": "unary-operators",
+      "title": "Unary Operators",
+      "description": "JavaScript Unary Operators are the special operators that consider a single operand and perform all the types of operations on that single operand. These operators include unary plus, unary minus, prefix increments, postfix increments, prefix decrements, and postfix decrements.",
+      "resources": [
+        {
+          "id": "k9rSR-YQ8B_iRcXNm2btP-res-1",
+          "type": "article",
+          "title": "Unary Operators in JavaScript",
+          "url": "https://www.educba.com/unary-operators-in-javascript/"
+        },
+        {
+          "id": "k9rSR-YQ8B_iRcXNm2btP-res-2",
+          "type": "article",
+          "title": "Unary Operators - MDN",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators#unary_operators"
+        }
+      ]
+    },
+    "ZLs0NKM0lrnOy5ATDhlk0": {
+      "id": "ZLs0NKM0lrnOy5ATDhlk0",
+      "slug": "undefined",
+      "title": "undefined",
+      "description": "`undefined` is the default value of a variable that has been declared but not assigned a value. It is also the return value of functions that do not explicitly return anything. Unlike `null`, which is intentionally empty, `undefined` typically indicates something has not been set.",
+      "resources": [
+        {
+          "id": "ZLs0NKM0lrnOy5ATDhlk0-res-1",
+          "type": "article",
+          "title": "undefined - JavaScript | MDN",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined"
+        },
+        {
+          "id": "ZLs0NKM0lrnOy5ATDhlk0-res-2",
+          "type": "video",
+          "title": "undefined in JS",
+          "url": "https://www.youtube.com/watch?v=B7iF6G3EyIk&list=PLlasXeu85E9cQ32gLCvAvr9vNaUccPVNP&index=8"
+        }
+      ]
+    },
+    "rc5WzBBOm2cus-rQl8EOE": {
+      "id": "rc5WzBBOm2cus-rQl8EOE",
+      "slug": "using-browser-devtools",
+      "title": "Using Browser DevTools",
+      "description": "Browser DevTools are the built-in developer tools available in browsers like Chrome and Firefox. They provide tools for inspecting HTML and CSS, debugging JavaScript, analyzing network requests, profiling performance, and detecting memory leaks. DevTools are the primary environment for diagnosing and fixing issues in web applications.",
+      "resources": [
+        {
+          "id": "rc5WzBBOm2cus-rQl8EOE-res-1",
+          "type": "article",
+          "title": "Official Docs",
+          "url": "https://developer.chrome.com/docs/devtools/"
+        },
+        {
+          "id": "rc5WzBBOm2cus-rQl8EOE-res-2",
+          "type": "article",
+          "title": "Debug JavaScript with Chrome Dev Tools",
+          "url": "https://developer.chrome.com/docs/devtools/javascript/"
+        }
+      ]
+    },
+    "qps2Mdm-lwa4Wr0IxKm0C": {
+      "id": "qps2Mdm-lwa4Wr0IxKm0C",
+      "slug": "using-it-alone",
+      "title": "using it alone",
+      "description": "When `this` is used outside any function, it refers to the global object. In a browser, that is `window`. In Node.js at the top level of a module, `this` refers to `module.exports`. This usage is rarely needed in application code.",
+      "resources": []
+    },
+    "fm2CuL1IZp3hnrLrPUX7U": {
+      "id": "fm2CuL1IZp3hnrLrPUX7U",
+      "slug": "using-this-keyword",
+      "title": "Using (this) keyword",
+      "description": "The `this` keyword refers to the object that is currently executing the code. Its value depends on how and where a function is called, not where it is defined (except in arrow functions). Understanding `this` is one of the more complex aspects of JavaScript.",
+      "resources": [
+        {
+          "id": "fm2CuL1IZp3hnrLrPUX7U-res-1",
+          "type": "article",
+          "title": "This Keyword",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this"
+        }
+      ]
+    },
+    "JSjeM8qnBg4onXq9mn5gB": {
+      "id": "JSjeM8qnBg4onXq9mn5gB",
+      "slug": "var",
+      "title": "[var] keyword",
+      "description": "The var statement declares a function-scoped or globally-scoped variable, optionally initializing it to a value.",
+      "resources": [
+        {
+          "id": "JSjeM8qnBg4onXq9mn5gB-res-1",
+          "type": "article",
+          "title": "var keyword - MDN",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var"
+        },
+        {
+          "id": "JSjeM8qnBg4onXq9mn5gB-res-2",
+          "type": "article",
+          "title": "JavaScript Variables",
+          "url": "https://javascript.info/variables"
+        },
+        {
+          "id": "JSjeM8qnBg4onXq9mn5gB-res-3",
+          "type": "video",
+          "title": "Declaring Variables without Var, Let, Const - What Would Happen?",
+          "url": "https://www.youtube.com/watch?v=6UAKBYpUC-Y"
+        }
+      ]
+    },
+    "BqbAWt--Guqex-rrb4ZUv": {
+      "id": "BqbAWt--Guqex-rrb4ZUv",
+      "slug": "variable-declarations",
+      "title": "Variable Declarations",
+      "description": "Variable declarations introduce a variable name into the current scope. JavaScript provides three ways to declare variables: `var`, `let`, and `const`. The choice between them affects scope, hoisting behavior, and whether the variable can be reassigned.",
+      "resources": [
+        {
+          "id": "BqbAWt--Guqex-rrb4ZUv-res-1",
+          "type": "article",
+          "title": "Storing the information you need — Variables",
+          "url": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables"
+        },
+        {
+          "id": "BqbAWt--Guqex-rrb4ZUv-res-2",
+          "type": "article",
+          "title": "JavaScript Variables - CodeGuage",
+          "url": "https://www.codeguage.com/courses/js/variables"
+        }
+      ]
+    },
+    "HfieG3v3wnmpZDfNwEJvZ": {
+      "id": "HfieG3v3wnmpZDfNwEJvZ",
+      "slug": "variable-naming-rules",
+      "title": "Naming Rules",
+      "description": "A variable name should accurately identify your variable. When you create good variable names, your JavaScript code becomes easier to understand and easier to work with. Properly naming variables is really important. JavaScript also has some rules when it comes to naming variables; read about these rules through the links below.",
+      "resources": [
+        {
+          "id": "HfieG3v3wnmpZDfNwEJvZ-res-1",
+          "type": "article",
+          "title": "JavaScript Variable Naming Tips - CodeGuage",
+          "url": "https://www.codeguage.com/courses/js/variables#Tips_for_naming_variables"
+        },
+        {
+          "id": "HfieG3v3wnmpZDfNwEJvZ-res-2",
+          "type": "article",
+          "title": "Naming JavaScript Variables",
+          "url": "https://www.dummies.com/article/technology/programming-web-design/javascript/naming-javascript-variables-142522/"
+        },
+        {
+          "id": "HfieG3v3wnmpZDfNwEJvZ-res-3",
+          "type": "article",
+          "title": "Google JavaScript Style Guide",
+          "url": "https://google.github.io/styleguide/jsguide.html"
+        }
+      ]
+    },
+    "7iMJuaB7yKlSIbT4dBe5L": {
+      "id": "7iMJuaB7yKlSIbT4dBe5L",
+      "slug": "variable-scopes",
+      "title": "Variable Scopes",
+      "description": "Scope determines where in a program a variable is accessible. JavaScript has three main scope levels: global, function, and block. Understanding scope is important for avoiding naming conflicts and unintended variable access.",
+      "resources": [
+        {
+          "id": "7iMJuaB7yKlSIbT4dBe5L-res-1",
+          "type": "article",
+          "title": "Scope",
+          "url": "https://developer.mozilla.org/en-US/docs/Glossary/Scope"
+        },
+        {
+          "id": "7iMJuaB7yKlSIbT4dBe5L-res-2",
+          "type": "article",
+          "title": "Deep dive into Scope Chains and Closures",
+          "url": "https://www.freecodecamp.org/news/deep-dive-into-scope-chains-and-closures-21ee18b71dd9/"
+        },
+        {
+          "id": "7iMJuaB7yKlSIbT4dBe5L-res-3",
+          "type": "article",
+          "title": "JavaScript Scope",
+          "url": "https://www.w3schools.com/js/js_scope.asp"
+        },
+        {
+          "id": "7iMJuaB7yKlSIbT4dBe5L-res-4",
+          "type": "video",
+          "title": "Understanding Global Local Function Block Scope",
+          "url": "https://www.youtube.com/watch?v=_E96W6ivHng"
+        }
+      ]
+    },
+    "6icsjC4aisDgPWasVuCOt": {
+      "id": "6icsjC4aisDgPWasVuCOt",
+      "slug": "weak-map",
+      "title": "Weak Map",
+      "description": "A `WeakMap` is a collection of key-value pairs where the keys must be objects and are held weakly. If the key object is garbage collected, the entry is automatically removed from the WeakMap. It is used for storing private data associated with objects without preventing garbage collection.",
+      "resources": [
+        {
+          "id": "6icsjC4aisDgPWasVuCOt-res-1",
+          "type": "article",
+          "title": "WeakMap",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap"
+        },
+        {
+          "id": "6icsjC4aisDgPWasVuCOt-res-2",
+          "type": "article",
+          "title": "WeakMap and WeakSet",
+          "url": "https://javascript.info/weakmap-weakset"
+        }
+      ]
+    },
+    "DSFzj61N9ojz29mjExhVa": {
+      "id": "DSFzj61N9ojz29mjExhVa",
+      "slug": "weak-set",
+      "title": "Weak Set",
+      "description": "A `WeakSet` is a collection of objects held with weak references. Unlike a regular Set, it only accepts objects (not primitives), and entries are automatically removed when the object is garbage collected. WeakSet is used when tracking object references without preventing them from being garbage collected.",
+      "resources": [
+        {
+          "id": "DSFzj61N9ojz29mjExhVa-res-1",
+          "type": "article",
+          "title": "WeakSet",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet"
+        },
+        {
+          "id": "DSFzj61N9ojz29mjExhVa-res-2",
+          "type": "article",
+          "title": "WeakMap and WeakSet",
+          "url": "https://javascript.info/weakmap-weakset"
+        }
+      ]
+    },
+    "UBB-8hUcwo4Mfd0cmEcdA": {
+      "id": "UBB-8hUcwo4Mfd0cmEcdA",
+      "slug": "what-is-javascript",
+      "title": "What is JavaScript",
+      "description": "JavaScript is a scripting language used to create dynamic behavior in web applications. It can manipulate HTML and CSS, respond to user events, communicate with servers, and update content without reloading the page. It follows the ECMAScript specification, which defines the language standard.",
+      "resources": [
+        {
+          "id": "UBB-8hUcwo4Mfd0cmEcdA-res-1",
+          "type": "article",
+          "title": "The Modern JavaScript Tutorial",
+          "url": "https://javascript.info/"
+        },
+        {
+          "id": "UBB-8hUcwo4Mfd0cmEcdA-res-2",
+          "type": "article",
+          "title": "A Comprehensive Course on JavaScript with Quizzes and Exercises - CodeGuage",
+          "url": "https://www.codeguage.com/courses/js/"
+        },
+        {
+          "id": "UBB-8hUcwo4Mfd0cmEcdA-res-3",
+          "type": "article",
+          "title": "Exploring JS: JavaScript books for programmers",
+          "url": "https://exploringjs.com/"
+        },
+        {
+          "id": "UBB-8hUcwo4Mfd0cmEcdA-res-4",
+          "type": "video",
+          "title": "Learn JavaScript - Full Course for Beginners",
+          "url": "https://www.youtube.com/watch?v=PkZNo7MFNFg"
+        }
+      ]
+    },
+    "9-MpHmzK_IiCi6IcvAlGM": {
+      "id": "9-MpHmzK_IiCi6IcvAlGM",
+      "slug": "while",
+      "title": "while",
+      "description": "The `while` loop executes a block of code as long as a specified condition is true. The condition is evaluated before each iteration, so if it is false from the start, the body never runs. It is used when the number of iterations is not known in advance.",
+      "resources": [
+        {
+          "id": "9-MpHmzK_IiCi6IcvAlGM-res-1",
+          "type": "article",
+          "title": "While Statement - MDN",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while"
+        },
+        {
+          "id": "9-MpHmzK_IiCi6IcvAlGM-res-2",
+          "type": "article",
+          "title": "The while Loop - CodeGuage",
+          "url": "https://www.codeguage.com/courses/js/loops-while-loop"
+        }
+      ]
+    },
+    "q6vciQb_Jk-Up16Pk5NeE": {
+      "id": "q6vciQb_Jk-Up16Pk5NeE",
+      "slug": "working-with-apis",
+      "title": "Working with APIs",
+      "description": "When working with remote APIs, you need a way to interact with those APIs. Modern JavaScript provides two native ways to send HTTP requests to remote servers, `XMLHttpRequest` and `Fetch`.",
+      "resources": [
+        {
+          "id": "q6vciQb_Jk-Up16Pk5NeE-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated API Design Roadmap",
+          "url": "https://roadmap.sh/api-design"
+        },
+        {
+          "id": "q6vciQb_Jk-Up16Pk5NeE-res-2",
+          "type": "article",
+          "title": "Fetching data from the server",
+          "url": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Fetching_data"
+        },
+        {
+          "id": "q6vciQb_Jk-Up16Pk5NeE-res-3",
+          "type": "article",
+          "title": "XMLHttpRequest",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest"
+        },
+        {
+          "id": "q6vciQb_Jk-Up16Pk5NeE-res-4",
+          "type": "article",
+          "title": "Fetch API",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
+        }
+      ]
+    },
+    "LiuhBE7dIlkoWkthSoCsa": {
+      "id": "LiuhBE7dIlkoWkthSoCsa",
+      "slug": "xmlhttprequest",
+      "title": "XMLHttpRequest",
+      "description": "`XMLHttpRequest` (XHR) is a built-in browser object that can be used to interact with server. XHR allows you to update data without having to reload a web page. Despite the word XML in its name, XHR not only used to retrieve data with XML format, we can use it with any type of data, like JSON, file(s), and much more.",
+      "resources": [
+        {
+          "id": "LiuhBE7dIlkoWkthSoCsa-res-1",
+          "type": "article",
+          "title": "Using XMLHttpRequest",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Using_XMLHttpRequest"
+        },
+        {
+          "id": "LiuhBE7dIlkoWkthSoCsa-res-2",
+          "type": "article",
+          "title": "Network request - XMLHttpRequest",
+          "url": "https://javascript.info/xmlhttprequest"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,2113 @@
+{
+  "slug": "graphql",
+  "title": "Graphql",
+  "description": "Comprehensive learning curriculum and mastery roadmap for graphql.",
+  "category": "skill",
+  "level": "Intermediate",
+  "topicCount": 65,
+  "iconName": "Compass",
+  "nodes": [
+    {
+      "id": "node-B77yLU4SuRChSjEbmYwc-",
+      "label": "Aliases",
+      "topicId": "B77yLU4SuRChSjEbmYwc-",
+      "level": 1,
+      "position": {
+        "x": 80,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-D5O7ky5eXwm_Ys1IcFNaq",
+      "label": "Apollo Client",
+      "topicId": "D5O7ky5eXwm_Ys1IcFNaq",
+      "level": 1,
+      "position": {
+        "x": 340,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-o_VkyoN6DmUUkfl0u0cro",
+      "label": "Apollo Server",
+      "topicId": "o_VkyoN6DmUUkfl0u0cro",
+      "level": 1,
+      "position": {
+        "x": 600,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-A54vi3Ao7fBHyTuqoH_it",
+      "label": "Arguments",
+      "topicId": "A54vi3Ao7fBHyTuqoH_it",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-hrpb108R8Gyu3hhzkMYzL",
+      "label": "Arguments",
+      "topicId": "hrpb108R8Gyu3hhzkMYzL",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-tbDvQBtLRAcD-xYX9V7Va",
+      "label": "Asynchronous",
+      "topicId": "tbDvQBtLRAcD-xYX9V7Va",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-G50ZMlmP7Ru5LcFne5Rhu",
+      "label": "Authorization",
+      "topicId": "G50ZMlmP7Ru5LcFne5Rhu",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-GzwPvLybxTJM96fUhQUOi",
+      "label": "Authorization",
+      "topicId": "GzwPvLybxTJM96fUhQUOi",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-i-zcfN6RNXhA_sb7DcIon",
+      "label": "Authorization",
+      "topicId": "i-zcfN6RNXhA_sb7DcIon",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-v9gVexHfDkpG9z3NL5S-9",
+      "label": "Batching",
+      "topicId": "v9gVexHfDkpG9z3NL5S-9",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-UYwuUVTeurwODV4_Kdt_W",
+      "label": "Caching",
+      "topicId": "UYwuUVTeurwODV4_Kdt_W",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-t6XxFB_lx27kS4FE2_GMH",
+      "label": "Defer & Stream Directives",
+      "topicId": "t6XxFB_lx27kS4FE2_GMH",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-MnmwccPahqPCzOhqjfbsY",
+      "label": "Directives",
+      "topicId": "MnmwccPahqPCzOhqjfbsY",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-wfOsfb0zSAIdNkwFHfBcw",
+      "label": "Enums",
+      "topicId": "wfOsfb0zSAIdNkwFHfBcw",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-kJMyRhasBKfBypent3GxK",
+      "label": "Event-Based Subscriptions",
+      "topicId": "kJMyRhasBKfBypent3GxK",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-72wGg6yP8WnEdmkeKL9vh",
+      "label": "Execution",
+      "topicId": "72wGg6yP8WnEdmkeKL9vh",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-HPdntdgTar1T34CZX8Y6y",
+      "label": "Fields",
+      "topicId": "HPdntdgTar1T34CZX8Y6y",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-Pc9H7AcoqJQkWnuhbytyD",
+      "label": "Fields",
+      "topicId": "Pc9H7AcoqJQkWnuhbytyD",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-CehwjrCG_wbUU-TFNCuJn",
+      "label": "Fragments",
+      "topicId": "CehwjrCG_wbUU-TFNCuJn",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-9nVo95gRNGHGIbaJQPH1x",
+      "label": "GraphQL Go",
+      "topicId": "9nVo95gRNGHGIbaJQPH1x",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-datKo3vPDwXoyVskcrdkc",
+      "label": "GraphQL HTTP",
+      "topicId": "datKo3vPDwXoyVskcrdkc",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-N-vsu-wvOikuoTbzdgX3X",
+      "label": "graphql-http",
+      "topicId": "N-vsu-wvOikuoTbzdgX3X",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-7szipojhVb2VoL3VcS619",
+      "label": "GraphQL Java",
+      "topicId": "7szipojhVb2VoL3VcS619",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-ODQ8zrHc2rsc8PN-APKvz",
+      "label": "GraphQL on the Backend",
+      "topicId": "ODQ8zrHc2rsc8PN-APKvz",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-6r9XbwlBtHmJrhviG2cTD",
+      "label": "GraphQL on the Frontend",
+      "topicId": "6r9XbwlBtHmJrhviG2cTD",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-V3bgswBFr1xames3F8S_V",
+      "label": "GraphQL Over HTTP Spec",
+      "topicId": "V3bgswBFr1xames3F8S_V",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-W_Lg8086ZhrIqtck1sgnb",
+      "label": "GraphQL Queries",
+      "topicId": "W_Lg8086ZhrIqtck1sgnb",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-Gotb1xtxySCVC5MrnkPSs",
+      "label": "GraphQL Yoga",
+      "topicId": "Gotb1xtxySCVC5MrnkPSs",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-jCzrMElTo-c9xGcpPOOPl",
+      "label": "GraphQL.js",
+      "topicId": "jCzrMElTo-c9xGcpPOOPl",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-tc_rjJZrr2x3bp8mcoQ0F",
+      "label": "Interfaces",
+      "topicId": "tc_rjJZrr2x3bp8mcoQ0F",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-JfXwzkN29UGz17FYHHE3A",
+      "label": "GraphQL Introduction",
+      "topicId": "JfXwzkN29UGz17FYHHE3A",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-d2ikbo4sZq7PmaCi5znkd",
+      "label": "Lists",
+      "topicId": "d2ikbo4sZq7PmaCi5znkd",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-sJ1_c3e08aehiqNMbIEEP",
+      "label": "Lists",
+      "topicId": "sJ1_c3e08aehiqNMbIEEP",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-CHdzww8_TNfeM6Bp1oTPI",
+      "label": "Live Queries",
+      "topicId": "CHdzww8_TNfeM6Bp1oTPI",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-iTV2H8clmRTOksul4v38p",
+      "label": "Mercurius",
+      "topicId": "iTV2H8clmRTOksul4v38p",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-AySlY8AyI6jE-cy-qKKOU",
+      "label": "Multiple Mutation Fields",
+      "topicId": "AySlY8AyI6jE-cy-qKKOU",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-jy_91mhFWbpR6sYVbuX1x",
+      "label": "Mutations",
+      "topicId": "jy_91mhFWbpR6sYVbuX1x",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-LX9vZpx7yKlf0iR6AtBWz",
+      "label": "Objects",
+      "topicId": "LX9vZpx7yKlf0iR6AtBWz",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-q9TYEygvUyHourdZIvk8G",
+      "label": "Operation Name",
+      "topicId": "q9TYEygvUyHourdZIvk8G",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-Uf8XxJPs7RzKVhlxiQdbB",
+      "label": "Pagination",
+      "topicId": "Uf8XxJPs7RzKVhlxiQdbB",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-2rlmLn_yQQV-7DpX1qT98",
+      "label": "Problems GraphQL Solves",
+      "topicId": "2rlmLn_yQQV-7DpX1qT98",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-zQHifboRreE4OgJ7GnUlp",
+      "label": "Producing The Result",
+      "topicId": "zQHifboRreE4OgJ7GnUlp",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-2YLm_S1j_832pb1OGSNaM",
+      "label": "Realtime",
+      "topicId": "2YLm_S1j_832pb1OGSNaM",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-Ab_ngkf6bmejvcp9okuw6",
+      "label": "Relay",
+      "topicId": "Ab_ngkf6bmejvcp9okuw6",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-VDur5xYBC0LJtQgDrSEyj",
+      "label": "Resolvers",
+      "topicId": "VDur5xYBC0LJtQgDrSEyj",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-AlJlHZD3_SPoLNaqdM-pB",
+      "label": "Root Fields",
+      "topicId": "AlJlHZD3_SPoLNaqdM-pB",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-QFUOmJlPkkjpcl1vJxg9h",
+      "label": "Scalar Coercion",
+      "topicId": "QFUOmJlPkkjpcl1vJxg9h",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-U-tLelmNQtR-pUq-sxU_2",
+      "label": "Scalars",
+      "topicId": "U-tLelmNQtR-pUq-sxU_2",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-lj1WEh4WbfBsoZFYsi1Yz",
+      "label": "Schema",
+      "topicId": "lj1WEh4WbfBsoZFYsi1Yz",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-inhjhH-7xJyX8o4DQqErF",
+      "label": "Serving over Internet",
+      "topicId": "inhjhH-7xJyX8o4DQqErF",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-A-PQ3_FVuCK3Eud75hsdj",
+      "label": "Specification",
+      "topicId": "A-PQ3_FVuCK3Eud75hsdj",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-O8k-m6s9B_uXkLsXKVFnL",
+      "label": "Specification",
+      "topicId": "O8k-m6s9B_uXkLsXKVFnL",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-IbEqXlGjsyNLKE9dZrPPk",
+      "label": "Subscriptions",
+      "topicId": "IbEqXlGjsyNLKE9dZrPPk",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-uPpsj2kCdgKsJpmTaw86u",
+      "label": "Synchronous",
+      "topicId": "uPpsj2kCdgKsJpmTaw86u",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-J5mU0v491qrm-mr1W3Msd",
+      "label": "Thinking in Graphs",
+      "topicId": "J5mU0v491qrm-mr1W3Msd",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-jpu0_FAlxtD-H80mPcod5",
+      "label": "Type System",
+      "topicId": "jpu0_FAlxtD-H80mPcod5",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-59COH3rerJJzKr6vrj4bF",
+      "label": "Unions",
+      "topicId": "59COH3rerJJzKr6vrj4bF",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-WP0Oo_YMfLBlXqDQQtKes",
+      "label": "URQL",
+      "topicId": "WP0Oo_YMfLBlXqDQQtKes",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-I4wNBXV4xEZ0LWBhv5FwF",
+      "label": "Validation",
+      "topicId": "I4wNBXV4xEZ0LWBhv5FwF",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-iYkHCKTsjtvo40f3eZoet",
+      "label": "Validation",
+      "topicId": "iYkHCKTsjtvo40f3eZoet",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-YZaFEK547FYricfOuANvH",
+      "label": "Variables",
+      "topicId": "YZaFEK547FYricfOuANvH",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-9Q2pGidY-rfkltHq3vChp",
+      "label": "What are Mutations",
+      "topicId": "9Q2pGidY-rfkltHq3vChp",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-2SU4dcaz7zwGsF7g8FjmI",
+      "label": "What are Queries",
+      "topicId": "2SU4dcaz7zwGsF7g8FjmI",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-RlBc-hWEUOPaEQLTgJa-K",
+      "label": "What are Subscriptions",
+      "topicId": "RlBc-hWEUOPaEQLTgJa-K",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-cMfsRtvzvDZZJ0TqeUOxm",
+      "label": "What is GraphQL",
+      "topicId": "cMfsRtvzvDZZJ0TqeUOxm",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3440
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-node-B77yLU4SuRChSjEbmYwc--node-D5O7ky5eXwm_Ys1IcFNaq",
+      "source": "node-B77yLU4SuRChSjEbmYwc-",
+      "target": "node-D5O7ky5eXwm_Ys1IcFNaq",
+      "animated": true
+    },
+    {
+      "id": "edge-node-D5O7ky5eXwm_Ys1IcFNaq-node-o_VkyoN6DmUUkfl0u0cro",
+      "source": "node-D5O7ky5eXwm_Ys1IcFNaq",
+      "target": "node-o_VkyoN6DmUUkfl0u0cro",
+      "animated": true
+    },
+    {
+      "id": "edge-node-o_VkyoN6DmUUkfl0u0cro-node-A54vi3Ao7fBHyTuqoH_it",
+      "source": "node-o_VkyoN6DmUUkfl0u0cro",
+      "target": "node-A54vi3Ao7fBHyTuqoH_it",
+      "animated": true
+    },
+    {
+      "id": "edge-node-A54vi3Ao7fBHyTuqoH_it-node-hrpb108R8Gyu3hhzkMYzL",
+      "source": "node-A54vi3Ao7fBHyTuqoH_it",
+      "target": "node-hrpb108R8Gyu3hhzkMYzL",
+      "animated": true
+    },
+    {
+      "id": "edge-node-hrpb108R8Gyu3hhzkMYzL-node-tbDvQBtLRAcD-xYX9V7Va",
+      "source": "node-hrpb108R8Gyu3hhzkMYzL",
+      "target": "node-tbDvQBtLRAcD-xYX9V7Va",
+      "animated": true
+    },
+    {
+      "id": "edge-node-tbDvQBtLRAcD-xYX9V7Va-node-G50ZMlmP7Ru5LcFne5Rhu",
+      "source": "node-tbDvQBtLRAcD-xYX9V7Va",
+      "target": "node-G50ZMlmP7Ru5LcFne5Rhu",
+      "animated": true
+    },
+    {
+      "id": "edge-node-G50ZMlmP7Ru5LcFne5Rhu-node-GzwPvLybxTJM96fUhQUOi",
+      "source": "node-G50ZMlmP7Ru5LcFne5Rhu",
+      "target": "node-GzwPvLybxTJM96fUhQUOi",
+      "animated": true
+    },
+    {
+      "id": "edge-node-GzwPvLybxTJM96fUhQUOi-node-i-zcfN6RNXhA_sb7DcIon",
+      "source": "node-GzwPvLybxTJM96fUhQUOi",
+      "target": "node-i-zcfN6RNXhA_sb7DcIon",
+      "animated": true
+    },
+    {
+      "id": "edge-node-i-zcfN6RNXhA_sb7DcIon-node-v9gVexHfDkpG9z3NL5S-9",
+      "source": "node-i-zcfN6RNXhA_sb7DcIon",
+      "target": "node-v9gVexHfDkpG9z3NL5S-9",
+      "animated": true
+    },
+    {
+      "id": "edge-node-v9gVexHfDkpG9z3NL5S-9-node-UYwuUVTeurwODV4_Kdt_W",
+      "source": "node-v9gVexHfDkpG9z3NL5S-9",
+      "target": "node-UYwuUVTeurwODV4_Kdt_W",
+      "animated": true
+    },
+    {
+      "id": "edge-node-UYwuUVTeurwODV4_Kdt_W-node-t6XxFB_lx27kS4FE2_GMH",
+      "source": "node-UYwuUVTeurwODV4_Kdt_W",
+      "target": "node-t6XxFB_lx27kS4FE2_GMH",
+      "animated": true
+    },
+    {
+      "id": "edge-node-t6XxFB_lx27kS4FE2_GMH-node-MnmwccPahqPCzOhqjfbsY",
+      "source": "node-t6XxFB_lx27kS4FE2_GMH",
+      "target": "node-MnmwccPahqPCzOhqjfbsY",
+      "animated": true
+    },
+    {
+      "id": "edge-node-MnmwccPahqPCzOhqjfbsY-node-wfOsfb0zSAIdNkwFHfBcw",
+      "source": "node-MnmwccPahqPCzOhqjfbsY",
+      "target": "node-wfOsfb0zSAIdNkwFHfBcw",
+      "animated": true
+    },
+    {
+      "id": "edge-node-wfOsfb0zSAIdNkwFHfBcw-node-kJMyRhasBKfBypent3GxK",
+      "source": "node-wfOsfb0zSAIdNkwFHfBcw",
+      "target": "node-kJMyRhasBKfBypent3GxK",
+      "animated": true
+    },
+    {
+      "id": "edge-node-kJMyRhasBKfBypent3GxK-node-72wGg6yP8WnEdmkeKL9vh",
+      "source": "node-kJMyRhasBKfBypent3GxK",
+      "target": "node-72wGg6yP8WnEdmkeKL9vh",
+      "animated": true
+    },
+    {
+      "id": "edge-node-72wGg6yP8WnEdmkeKL9vh-node-HPdntdgTar1T34CZX8Y6y",
+      "source": "node-72wGg6yP8WnEdmkeKL9vh",
+      "target": "node-HPdntdgTar1T34CZX8Y6y",
+      "animated": true
+    },
+    {
+      "id": "edge-node-HPdntdgTar1T34CZX8Y6y-node-Pc9H7AcoqJQkWnuhbytyD",
+      "source": "node-HPdntdgTar1T34CZX8Y6y",
+      "target": "node-Pc9H7AcoqJQkWnuhbytyD",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Pc9H7AcoqJQkWnuhbytyD-node-CehwjrCG_wbUU-TFNCuJn",
+      "source": "node-Pc9H7AcoqJQkWnuhbytyD",
+      "target": "node-CehwjrCG_wbUU-TFNCuJn",
+      "animated": true
+    },
+    {
+      "id": "edge-node-CehwjrCG_wbUU-TFNCuJn-node-9nVo95gRNGHGIbaJQPH1x",
+      "source": "node-CehwjrCG_wbUU-TFNCuJn",
+      "target": "node-9nVo95gRNGHGIbaJQPH1x",
+      "animated": true
+    },
+    {
+      "id": "edge-node-9nVo95gRNGHGIbaJQPH1x-node-datKo3vPDwXoyVskcrdkc",
+      "source": "node-9nVo95gRNGHGIbaJQPH1x",
+      "target": "node-datKo3vPDwXoyVskcrdkc",
+      "animated": true
+    },
+    {
+      "id": "edge-node-datKo3vPDwXoyVskcrdkc-node-N-vsu-wvOikuoTbzdgX3X",
+      "source": "node-datKo3vPDwXoyVskcrdkc",
+      "target": "node-N-vsu-wvOikuoTbzdgX3X",
+      "animated": true
+    },
+    {
+      "id": "edge-node-N-vsu-wvOikuoTbzdgX3X-node-7szipojhVb2VoL3VcS619",
+      "source": "node-N-vsu-wvOikuoTbzdgX3X",
+      "target": "node-7szipojhVb2VoL3VcS619",
+      "animated": true
+    },
+    {
+      "id": "edge-node-7szipojhVb2VoL3VcS619-node-ODQ8zrHc2rsc8PN-APKvz",
+      "source": "node-7szipojhVb2VoL3VcS619",
+      "target": "node-ODQ8zrHc2rsc8PN-APKvz",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ODQ8zrHc2rsc8PN-APKvz-node-6r9XbwlBtHmJrhviG2cTD",
+      "source": "node-ODQ8zrHc2rsc8PN-APKvz",
+      "target": "node-6r9XbwlBtHmJrhviG2cTD",
+      "animated": true
+    },
+    {
+      "id": "edge-node-6r9XbwlBtHmJrhviG2cTD-node-V3bgswBFr1xames3F8S_V",
+      "source": "node-6r9XbwlBtHmJrhviG2cTD",
+      "target": "node-V3bgswBFr1xames3F8S_V",
+      "animated": true
+    },
+    {
+      "id": "edge-node-V3bgswBFr1xames3F8S_V-node-W_Lg8086ZhrIqtck1sgnb",
+      "source": "node-V3bgswBFr1xames3F8S_V",
+      "target": "node-W_Lg8086ZhrIqtck1sgnb",
+      "animated": true
+    },
+    {
+      "id": "edge-node-W_Lg8086ZhrIqtck1sgnb-node-Gotb1xtxySCVC5MrnkPSs",
+      "source": "node-W_Lg8086ZhrIqtck1sgnb",
+      "target": "node-Gotb1xtxySCVC5MrnkPSs",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Gotb1xtxySCVC5MrnkPSs-node-jCzrMElTo-c9xGcpPOOPl",
+      "source": "node-Gotb1xtxySCVC5MrnkPSs",
+      "target": "node-jCzrMElTo-c9xGcpPOOPl",
+      "animated": true
+    },
+    {
+      "id": "edge-node-jCzrMElTo-c9xGcpPOOPl-node-tc_rjJZrr2x3bp8mcoQ0F",
+      "source": "node-jCzrMElTo-c9xGcpPOOPl",
+      "target": "node-tc_rjJZrr2x3bp8mcoQ0F",
+      "animated": true
+    },
+    {
+      "id": "edge-node-tc_rjJZrr2x3bp8mcoQ0F-node-JfXwzkN29UGz17FYHHE3A",
+      "source": "node-tc_rjJZrr2x3bp8mcoQ0F",
+      "target": "node-JfXwzkN29UGz17FYHHE3A",
+      "animated": true
+    },
+    {
+      "id": "edge-node-JfXwzkN29UGz17FYHHE3A-node-d2ikbo4sZq7PmaCi5znkd",
+      "source": "node-JfXwzkN29UGz17FYHHE3A",
+      "target": "node-d2ikbo4sZq7PmaCi5znkd",
+      "animated": true
+    },
+    {
+      "id": "edge-node-d2ikbo4sZq7PmaCi5znkd-node-sJ1_c3e08aehiqNMbIEEP",
+      "source": "node-d2ikbo4sZq7PmaCi5znkd",
+      "target": "node-sJ1_c3e08aehiqNMbIEEP",
+      "animated": true
+    },
+    {
+      "id": "edge-node-sJ1_c3e08aehiqNMbIEEP-node-CHdzww8_TNfeM6Bp1oTPI",
+      "source": "node-sJ1_c3e08aehiqNMbIEEP",
+      "target": "node-CHdzww8_TNfeM6Bp1oTPI",
+      "animated": true
+    },
+    {
+      "id": "edge-node-CHdzww8_TNfeM6Bp1oTPI-node-iTV2H8clmRTOksul4v38p",
+      "source": "node-CHdzww8_TNfeM6Bp1oTPI",
+      "target": "node-iTV2H8clmRTOksul4v38p",
+      "animated": true
+    },
+    {
+      "id": "edge-node-iTV2H8clmRTOksul4v38p-node-AySlY8AyI6jE-cy-qKKOU",
+      "source": "node-iTV2H8clmRTOksul4v38p",
+      "target": "node-AySlY8AyI6jE-cy-qKKOU",
+      "animated": true
+    },
+    {
+      "id": "edge-node-AySlY8AyI6jE-cy-qKKOU-node-jy_91mhFWbpR6sYVbuX1x",
+      "source": "node-AySlY8AyI6jE-cy-qKKOU",
+      "target": "node-jy_91mhFWbpR6sYVbuX1x",
+      "animated": true
+    },
+    {
+      "id": "edge-node-jy_91mhFWbpR6sYVbuX1x-node-LX9vZpx7yKlf0iR6AtBWz",
+      "source": "node-jy_91mhFWbpR6sYVbuX1x",
+      "target": "node-LX9vZpx7yKlf0iR6AtBWz",
+      "animated": true
+    },
+    {
+      "id": "edge-node-LX9vZpx7yKlf0iR6AtBWz-node-q9TYEygvUyHourdZIvk8G",
+      "source": "node-LX9vZpx7yKlf0iR6AtBWz",
+      "target": "node-q9TYEygvUyHourdZIvk8G",
+      "animated": true
+    },
+    {
+      "id": "edge-node-q9TYEygvUyHourdZIvk8G-node-Uf8XxJPs7RzKVhlxiQdbB",
+      "source": "node-q9TYEygvUyHourdZIvk8G",
+      "target": "node-Uf8XxJPs7RzKVhlxiQdbB",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Uf8XxJPs7RzKVhlxiQdbB-node-2rlmLn_yQQV-7DpX1qT98",
+      "source": "node-Uf8XxJPs7RzKVhlxiQdbB",
+      "target": "node-2rlmLn_yQQV-7DpX1qT98",
+      "animated": true
+    },
+    {
+      "id": "edge-node-2rlmLn_yQQV-7DpX1qT98-node-zQHifboRreE4OgJ7GnUlp",
+      "source": "node-2rlmLn_yQQV-7DpX1qT98",
+      "target": "node-zQHifboRreE4OgJ7GnUlp",
+      "animated": true
+    },
+    {
+      "id": "edge-node-zQHifboRreE4OgJ7GnUlp-node-2YLm_S1j_832pb1OGSNaM",
+      "source": "node-zQHifboRreE4OgJ7GnUlp",
+      "target": "node-2YLm_S1j_832pb1OGSNaM",
+      "animated": true
+    },
+    {
+      "id": "edge-node-2YLm_S1j_832pb1OGSNaM-node-Ab_ngkf6bmejvcp9okuw6",
+      "source": "node-2YLm_S1j_832pb1OGSNaM",
+      "target": "node-Ab_ngkf6bmejvcp9okuw6",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Ab_ngkf6bmejvcp9okuw6-node-VDur5xYBC0LJtQgDrSEyj",
+      "source": "node-Ab_ngkf6bmejvcp9okuw6",
+      "target": "node-VDur5xYBC0LJtQgDrSEyj",
+      "animated": true
+    },
+    {
+      "id": "edge-node-VDur5xYBC0LJtQgDrSEyj-node-AlJlHZD3_SPoLNaqdM-pB",
+      "source": "node-VDur5xYBC0LJtQgDrSEyj",
+      "target": "node-AlJlHZD3_SPoLNaqdM-pB",
+      "animated": true
+    },
+    {
+      "id": "edge-node-AlJlHZD3_SPoLNaqdM-pB-node-QFUOmJlPkkjpcl1vJxg9h",
+      "source": "node-AlJlHZD3_SPoLNaqdM-pB",
+      "target": "node-QFUOmJlPkkjpcl1vJxg9h",
+      "animated": true
+    },
+    {
+      "id": "edge-node-QFUOmJlPkkjpcl1vJxg9h-node-U-tLelmNQtR-pUq-sxU_2",
+      "source": "node-QFUOmJlPkkjpcl1vJxg9h",
+      "target": "node-U-tLelmNQtR-pUq-sxU_2",
+      "animated": true
+    },
+    {
+      "id": "edge-node-U-tLelmNQtR-pUq-sxU_2-node-lj1WEh4WbfBsoZFYsi1Yz",
+      "source": "node-U-tLelmNQtR-pUq-sxU_2",
+      "target": "node-lj1WEh4WbfBsoZFYsi1Yz",
+      "animated": true
+    },
+    {
+      "id": "edge-node-lj1WEh4WbfBsoZFYsi1Yz-node-inhjhH-7xJyX8o4DQqErF",
+      "source": "node-lj1WEh4WbfBsoZFYsi1Yz",
+      "target": "node-inhjhH-7xJyX8o4DQqErF",
+      "animated": true
+    },
+    {
+      "id": "edge-node-inhjhH-7xJyX8o4DQqErF-node-A-PQ3_FVuCK3Eud75hsdj",
+      "source": "node-inhjhH-7xJyX8o4DQqErF",
+      "target": "node-A-PQ3_FVuCK3Eud75hsdj",
+      "animated": true
+    },
+    {
+      "id": "edge-node-A-PQ3_FVuCK3Eud75hsdj-node-O8k-m6s9B_uXkLsXKVFnL",
+      "source": "node-A-PQ3_FVuCK3Eud75hsdj",
+      "target": "node-O8k-m6s9B_uXkLsXKVFnL",
+      "animated": true
+    },
+    {
+      "id": "edge-node-O8k-m6s9B_uXkLsXKVFnL-node-IbEqXlGjsyNLKE9dZrPPk",
+      "source": "node-O8k-m6s9B_uXkLsXKVFnL",
+      "target": "node-IbEqXlGjsyNLKE9dZrPPk",
+      "animated": true
+    },
+    {
+      "id": "edge-node-IbEqXlGjsyNLKE9dZrPPk-node-uPpsj2kCdgKsJpmTaw86u",
+      "source": "node-IbEqXlGjsyNLKE9dZrPPk",
+      "target": "node-uPpsj2kCdgKsJpmTaw86u",
+      "animated": true
+    },
+    {
+      "id": "edge-node-uPpsj2kCdgKsJpmTaw86u-node-J5mU0v491qrm-mr1W3Msd",
+      "source": "node-uPpsj2kCdgKsJpmTaw86u",
+      "target": "node-J5mU0v491qrm-mr1W3Msd",
+      "animated": true
+    },
+    {
+      "id": "edge-node-J5mU0v491qrm-mr1W3Msd-node-jpu0_FAlxtD-H80mPcod5",
+      "source": "node-J5mU0v491qrm-mr1W3Msd",
+      "target": "node-jpu0_FAlxtD-H80mPcod5",
+      "animated": true
+    },
+    {
+      "id": "edge-node-jpu0_FAlxtD-H80mPcod5-node-59COH3rerJJzKr6vrj4bF",
+      "source": "node-jpu0_FAlxtD-H80mPcod5",
+      "target": "node-59COH3rerJJzKr6vrj4bF",
+      "animated": true
+    },
+    {
+      "id": "edge-node-59COH3rerJJzKr6vrj4bF-node-WP0Oo_YMfLBlXqDQQtKes",
+      "source": "node-59COH3rerJJzKr6vrj4bF",
+      "target": "node-WP0Oo_YMfLBlXqDQQtKes",
+      "animated": true
+    },
+    {
+      "id": "edge-node-WP0Oo_YMfLBlXqDQQtKes-node-I4wNBXV4xEZ0LWBhv5FwF",
+      "source": "node-WP0Oo_YMfLBlXqDQQtKes",
+      "target": "node-I4wNBXV4xEZ0LWBhv5FwF",
+      "animated": true
+    },
+    {
+      "id": "edge-node-I4wNBXV4xEZ0LWBhv5FwF-node-iYkHCKTsjtvo40f3eZoet",
+      "source": "node-I4wNBXV4xEZ0LWBhv5FwF",
+      "target": "node-iYkHCKTsjtvo40f3eZoet",
+      "animated": true
+    },
+    {
+      "id": "edge-node-iYkHCKTsjtvo40f3eZoet-node-YZaFEK547FYricfOuANvH",
+      "source": "node-iYkHCKTsjtvo40f3eZoet",
+      "target": "node-YZaFEK547FYricfOuANvH",
+      "animated": true
+    },
+    {
+      "id": "edge-node-YZaFEK547FYricfOuANvH-node-9Q2pGidY-rfkltHq3vChp",
+      "source": "node-YZaFEK547FYricfOuANvH",
+      "target": "node-9Q2pGidY-rfkltHq3vChp",
+      "animated": true
+    },
+    {
+      "id": "edge-node-9Q2pGidY-rfkltHq3vChp-node-2SU4dcaz7zwGsF7g8FjmI",
+      "source": "node-9Q2pGidY-rfkltHq3vChp",
+      "target": "node-2SU4dcaz7zwGsF7g8FjmI",
+      "animated": true
+    },
+    {
+      "id": "edge-node-2SU4dcaz7zwGsF7g8FjmI-node-RlBc-hWEUOPaEQLTgJa-K",
+      "source": "node-2SU4dcaz7zwGsF7g8FjmI",
+      "target": "node-RlBc-hWEUOPaEQLTgJa-K",
+      "animated": true
+    },
+    {
+      "id": "edge-node-RlBc-hWEUOPaEQLTgJa-K-node-cMfsRtvzvDZZJ0TqeUOxm",
+      "source": "node-RlBc-hWEUOPaEQLTgJa-K",
+      "target": "node-cMfsRtvzvDZZJ0TqeUOxm",
+      "animated": true
+    }
+  ],
+  "topics": {
+    "B77yLU4SuRChSjEbmYwc-": {
+      "id": "B77yLU4SuRChSjEbmYwc-",
+      "slug": "aliases",
+      "title": "Aliases",
+      "description": "Aliases in GraphQL rename fields in query responses, useful when requesting the same field multiple times with different arguments or when field names aren't suitable for client usage. They distinguish fields in responses and improve query readability and usability.",
+      "resources": [
+        {
+          "id": "B77yLU4SuRChSjEbmYwc--res-1",
+          "type": "article",
+          "title": "What are GraphQL Aliases?",
+          "url": "https://graphql.org/learn/queries/#aliases"
+        }
+      ]
+    },
+    "D5O7ky5eXwm_Ys1IcFNaq": {
+      "id": "D5O7ky5eXwm_Ys1IcFNaq",
+      "slug": "apollo-client",
+      "title": "Apollo Client",
+      "description": "Apollo Client is a popular GraphQL client library for JavaScript that provides data fetching, caching, and state management. It offers declarative data fetching with React hooks, intelligent caching, optimistic UI updates, and error handling for building efficient GraphQL-powered applications.",
+      "resources": [
+        {
+          "id": "D5O7ky5eXwm_Ys1IcFNaq-res-1",
+          "type": "article",
+          "title": "Why Apollo Client - Frontend?",
+          "url": "https://www.howtographql.com/react-apollo/0-introduction/"
+        },
+        {
+          "id": "D5O7ky5eXwm_Ys1IcFNaq-res-2",
+          "type": "article",
+          "title": "Explore top posts about Apollo",
+          "url": "https://app.daily.dev/tags/apollo?ref=roadmapsh"
+        }
+      ]
+    },
+    "o_VkyoN6DmUUkfl0u0cro": {
+      "id": "o_VkyoN6DmUUkfl0u0cro",
+      "slug": "apollo-server",
+      "title": "Apollo Server",
+      "description": "Apollo Server is a popular open-source library for building GraphQL servers in JavaScript. It provides tools for parsing, validating, executing resolvers, and formatting responses with built-in features for authentication, authorization, data validation, and real-time subscriptions.",
+      "resources": [
+        {
+          "id": "o_VkyoN6DmUUkfl0u0cro-res-1",
+          "type": "article",
+          "title": "Apollo Tutorial - Introduction",
+          "url": "https://www.howtographql.com/react-apollo/0-introduction/"
+        },
+        {
+          "id": "o_VkyoN6DmUUkfl0u0cro-res-2",
+          "type": "article",
+          "title": "Explore top posts about Apollo",
+          "url": "https://app.daily.dev/tags/apollo?ref=roadmapsh"
+        }
+      ]
+    },
+    "A54vi3Ao7fBHyTuqoH_it": {
+      "id": "A54vi3Ao7fBHyTuqoH_it",
+      "slug": "arguments",
+      "title": "Arguments",
+      "description": "Arguments in GraphQL are values passed to fields in queries and mutations to filter or modify returned data. They're defined in the schema with a name, type, and optional default value, enabling dynamic data retrieval.",
+      "resources": [
+        {
+          "id": "A54vi3Ao7fBHyTuqoH_it-res-1",
+          "type": "article",
+          "title": "Get started with Arguments in GraphQL",
+          "url": "https://graphql.org/learn/schema/#arguments"
+        }
+      ]
+    },
+    "hrpb108R8Gyu3hhzkMYzL": {
+      "id": "hrpb108R8Gyu3hhzkMYzL",
+      "slug": "arguments",
+      "title": "Arguments",
+      "description": "Arguments in GraphQL are values passed to fields or directives to specify execution details like filtering, sorting, pagination, or configuration options. They're passed as key-value pairs, can be defined as variables, and may be optional or required depending on the field definition.",
+      "resources": [
+        {
+          "id": "hrpb108R8Gyu3hhzkMYzL-res-1",
+          "type": "article",
+          "title": "GraphQL - Arguments",
+          "url": "https://graphql.org/learn/queries/#arguments"
+        }
+      ]
+    },
+    "tbDvQBtLRAcD-xYX9V7Va": {
+      "id": "tbDvQBtLRAcD-xYX9V7Va",
+      "slug": "asynchronous",
+      "title": "Asynchronous",
+      "description": "Asynchronous resolvers in GraphQL are functions that return promises instead of immediate values. They allow resolvers to wait for external operations like database queries or API calls to complete before returning results, enabling non-blocking execution.",
+      "resources": [
+        {
+          "id": "tbDvQBtLRAcD-xYX9V7Va-res-1",
+          "type": "article",
+          "title": "Get Started with Asynchronous",
+          "url": "https://graphql.org/learn/execution/#asynchronous-resolvers"
+        }
+      ]
+    },
+    "G50ZMlmP7Ru5LcFne5Rhu": {
+      "id": "G50ZMlmP7Ru5LcFne5Rhu",
+      "slug": "authorization",
+      "title": "Authorization",
+      "description": "Authorization in GraphQL controls access to data and operations based on user permissions and roles. It can be implemented at the schema level, field level, or within resolvers, ensuring users only access data they're permitted to see through various authentication and permission strategies. There are several ways to implement authorization in GraphQL: *   Using middleware *   Using schema directives *   Using a data source layer",
+      "resources": [
+        {
+          "id": "G50ZMlmP7Ru5LcFne5Rhu-res-1",
+          "type": "article",
+          "title": "Get Started with Authorization",
+          "url": "https://graphql.org/learn/authorization/"
+        },
+        {
+          "id": "G50ZMlmP7Ru5LcFne5Rhu-res-2",
+          "type": "article",
+          "title": "Explore top posts about Authorization",
+          "url": "https://app.daily.dev/tags/authorization?ref=roadmapsh"
+        }
+      ]
+    },
+    "GzwPvLybxTJM96fUhQUOi": {
+      "id": "GzwPvLybxTJM96fUhQUOi",
+      "slug": "authorization",
+      "title": "Authorization",
+      "description": "Authorization in GraphQL refers to the process of controlling access to specific fields, types, or operations in a GraphQL schema based on user roles or permissions. It allows you to restrict access to certain data or functionality in your application based on the user's role or permissions. There are several ways to implement authorization in GraphQL: *   Using middleware *   Using schema directives *   Using a data source layer",
+      "resources": [
+        {
+          "id": "GzwPvLybxTJM96fUhQUOi-res-1",
+          "type": "article",
+          "title": "Get Started with Authorization",
+          "url": "https://graphql.org/learn/authorization/"
+        },
+        {
+          "id": "GzwPvLybxTJM96fUhQUOi-res-2",
+          "type": "article",
+          "title": "Explore top posts about Authorization",
+          "url": "https://app.daily.dev/tags/authorization?ref=roadmapsh"
+        }
+      ]
+    },
+    "i-zcfN6RNXhA_sb7DcIon": {
+      "id": "i-zcfN6RNXhA_sb7DcIon",
+      "slug": "authorization",
+      "title": "Authorization",
+      "description": "Authorization in GraphQL refers to the process of controlling access to specific fields, types, or operations in a GraphQL schema based on user roles or permissions. It allows you to restrict access to certain data or functionality in your application based on the user's role or permissions. There are several ways to implement authorization in GraphQL: *   Using middleware *   Using schema directives *   Using a data source layer",
+      "resources": [
+        {
+          "id": "i-zcfN6RNXhA_sb7DcIon-res-1",
+          "type": "article",
+          "title": "Get Started with Authorization",
+          "url": "https://graphql.org/learn/authorization/"
+        },
+        {
+          "id": "i-zcfN6RNXhA_sb7DcIon-res-2",
+          "type": "article",
+          "title": "Explore top posts about Authorization",
+          "url": "https://app.daily.dev/tags/authorization?ref=roadmapsh"
+        }
+      ]
+    },
+    "v9gVexHfDkpG9z3NL5S-9": {
+      "id": "v9gVexHfDkpG9z3NL5S-9",
+      "slug": "batching",
+      "title": "Batching",
+      "description": "Batching in GraphQL combines multiple queries into a single request to reduce network overhead and improve performance. DataLoader is a common pattern that batches and caches database requests, preventing N+1 query problems and optimizing data fetching efficiency.",
+      "resources": [
+        {
+          "id": "v9gVexHfDkpG9z3NL5S-9-res-1",
+          "type": "article",
+          "title": "DataLoader",
+          "url": "https://github.com/graphql/dataloader"
+        },
+        {
+          "id": "v9gVexHfDkpG9z3NL5S-9-res-2",
+          "type": "article",
+          "title": "Solving the N+1 Problem",
+          "url": "https://shopify.engineering/solving-the-n-1-problem-for-graphql-through-batching"
+        }
+      ]
+    },
+    "UYwuUVTeurwODV4_Kdt_W": {
+      "id": "UYwuUVTeurwODV4_Kdt_W",
+      "slug": "caching",
+      "title": "Caching",
+      "description": "Caching in GraphQL improves performance by storing query results for reuse. Strategies include HTTP caching, response caching, dataloader for batching requests, and normalized caching at the client level to reduce redundant API calls and improve user experience. There are several types of caching that can be used in GraphQL: *   Client-side caching *   Server-side caching *   CDN caching",
+      "resources": [
+        {
+          "id": "UYwuUVTeurwODV4_Kdt_W-res-1",
+          "type": "article",
+          "title": "Get started with Caching",
+          "url": "https://graphql.org/learn/caching/"
+        }
+      ]
+    },
+    "t6XxFB_lx27kS4FE2_GMH": {
+      "id": "t6XxFB_lx27kS4FE2_GMH",
+      "slug": "defer--stream-directives",
+      "title": "Defer & Stream Directives",
+      "description": "Defer and Stream directives are experimental GraphQL features for incremental data delivery. @defer postpones non-critical fields to improve initial response times, while @stream sends list items progressively, enabling better user experiences with large datasets and slow-loading fields.",
+      "resources": [
+        {
+          "id": "t6XxFB_lx27kS4FE2_GMH-res-1",
+          "type": "article",
+          "title": "Defer and Stream in GraphQL",
+          "url": "https://the-guild.dev/graphql/yoga-server/docs/features/defer-stream"
+        }
+      ]
+    },
+    "MnmwccPahqPCzOhqjfbsY": {
+      "id": "MnmwccPahqPCzOhqjfbsY",
+      "slug": "directives",
+      "title": "Directives",
+      "description": "Directives in GraphQL modify query execution by adding behavior or validation to fields, operations, and fragments. They can take arguments to configure behavior and include built-in directives like @include and @skip, or custom ones defined by developers for specific functionality.",
+      "resources": [
+        {
+          "id": "MnmwccPahqPCzOhqjfbsY-res-1",
+          "type": "article",
+          "title": "Directives in GraphQL",
+          "url": "https://graphql.org/learn/queries/#directives"
+        }
+      ]
+    },
+    "wfOsfb0zSAIdNkwFHfBcw": {
+      "id": "wfOsfb0zSAIdNkwFHfBcw",
+      "slug": "enums",
+      "title": "Enums",
+      "description": "Enums (enumeration types) are special scalars restricted to a particular set of allowed values. They validate arguments against allowed values and communicate through the type system that fields will always be one of a finite set of predefined options.",
+      "resources": [
+        {
+          "id": "wfOsfb0zSAIdNkwFHfBcw-res-1",
+          "type": "article",
+          "title": "What are Enums?",
+          "url": "https://graphql.org/learn/schema/#enumeration-types"
+        }
+      ]
+    },
+    "kJMyRhasBKfBypent3GxK": {
+      "id": "kJMyRhasBKfBypent3GxK",
+      "slug": "event-based-subscriptions",
+      "title": "Event-Based Subscriptions",
+      "description": "Event-based subscriptions in GraphQL provide real-time updates by subscribing to specific events or data changes. Clients maintain persistent connections through WebSockets to receive live updates when subscribed events occur, enabling reactive applications with real-time functionality.",
+      "resources": [
+        {
+          "id": "kJMyRhasBKfBypent3GxK-res-1",
+          "type": "article",
+          "title": "GraphQL Subscriptions Documentation",
+          "url": "https://graphql.org/blog/subscriptions-in-graphql-and-relay/"
+        },
+        {
+          "id": "kJMyRhasBKfBypent3GxK-res-2",
+          "type": "article",
+          "title": "GraphQL Subscriptions",
+          "url": "https://the-guild.dev/blog/subscriptions-and-live-queries-real-time-with-graphql"
+        }
+      ]
+    },
+    "72wGg6yP8WnEdmkeKL9vh": {
+      "id": "72wGg6yP8WnEdmkeKL9vh",
+      "slug": "execution",
+      "title": "Execution",
+      "description": "Execution in GraphQL is the process of running queries or mutations and returning results to clients. The GraphQL engine performs parsing, validation, and data retrieval steps to produce the final response, coordinating resolver functions to fetch data from various sources.",
+      "resources": [
+        {
+          "id": "72wGg6yP8WnEdmkeKL9vh-res-1",
+          "type": "article",
+          "title": "Get Started with Execution in GraphQL",
+          "url": "https://graphql.org/learn/execution/"
+        },
+        {
+          "id": "72wGg6yP8WnEdmkeKL9vh-res-2",
+          "type": "article",
+          "title": "Intro to Execution",
+          "url": "https://graphql.org/graphql-js/execution/"
+        }
+      ]
+    },
+    "HPdntdgTar1T34CZX8Y6y": {
+      "id": "HPdntdgTar1T34CZX8Y6y",
+      "slug": "fields",
+      "title": "Fields",
+      "description": "Fields in GraphQL are units of data that can be queried or manipulated. Each field has a name, type, and optional description, and can return scalar values or objects, enabling complex nested data structures and taking arguments for filtering.",
+      "resources": [
+        {
+          "id": "HPdntdgTar1T34CZX8Y6y-res-1",
+          "type": "article",
+          "title": "GraphQL: Types and Fields",
+          "url": "https://graphql.org/learn/queries/#fields"
+        }
+      ]
+    },
+    "Pc9H7AcoqJQkWnuhbytyD": {
+      "id": "Pc9H7AcoqJQkWnuhbytyD",
+      "slug": "fields",
+      "title": "Fields",
+      "description": "Fields in GraphQL are individual pieces of data that can be queried or modified, representing properties of the requested data. They're defined in the GraphQL schema and serve as building blocks for queries and mutations, specifying what data is available for each type.",
+      "resources": [
+        {
+          "id": "Pc9H7AcoqJQkWnuhbytyD-res-1",
+          "type": "article",
+          "title": "GraphQL: Types and Fields",
+          "url": "https://graphql.org/learn/queries/#fields"
+        }
+      ]
+    },
+    "CehwjrCG_wbUU-TFNCuJn": {
+      "id": "CehwjrCG_wbUU-TFNCuJn",
+      "slug": "fragments",
+      "title": "Fragments",
+      "description": "Fragments in GraphQL are reusable pieces of queries that retrieve specific fields from one or more types. Defined with the \"fragment\" keyword, they promote code reuse, reduce duplication, and make complex queries more maintainable by separating common field selections.",
+      "resources": [
+        {
+          "id": "CehwjrCG_wbUU-TFNCuJn-res-1",
+          "type": "article",
+          "title": "Intro to Fragments in GraphQL",
+          "url": "https://graphql.org/learn/queries/#fragments"
+        }
+      ]
+    },
+    "9nVo95gRNGHGIbaJQPH1x": {
+      "id": "9nVo95gRNGHGIbaJQPH1x",
+      "slug": "graphql-go",
+      "title": "GraphQL Go",
+      "description": "GraphQL Go refers to implementing GraphQL servers and clients using the Go programming language. Popular libraries include graphql-go/graphql for schema-first development and 99designs/gqlgen for code-first generation. Go's strong typing and performance make it excellent for building scalable GraphQL APIs.",
+      "resources": [
+        {
+          "id": "9nVo95gRNGHGIbaJQPH1x-res-1",
+          "type": "article",
+          "title": "graphql-go/graphql",
+          "url": "https://github.com/graphql-go/graphql"
+        },
+        {
+          "id": "9nVo95gRNGHGIbaJQPH1x-res-2",
+          "type": "article",
+          "title": "99designs/gqlgen",
+          "url": "https://github.com/99designs/gqlgen"
+        }
+      ]
+    },
+    "datKo3vPDwXoyVskcrdkc": {
+      "id": "datKo3vPDwXoyVskcrdkc",
+      "slug": "graphql-http",
+      "title": "GraphQL HTTP",
+      "description": "GraphQL HTTP is a specification for serving GraphQL over HTTP protocol. It defines standard methods for sending queries and mutations, primarily using POST requests with JSON payloads in the request body, and receiving results in the response body.",
+      "resources": [
+        {
+          "id": "datKo3vPDwXoyVskcrdkc-res-1",
+          "type": "article",
+          "title": "Overview of GraphQL HTTP",
+          "url": "https://graphql.org/graphql-js/express-graphql/#graphqlhttp"
+        },
+        {
+          "id": "datKo3vPDwXoyVskcrdkc-res-2",
+          "type": "article",
+          "title": "Get Started with GraphQL HTTP",
+          "url": "https://graphql.org/learn/serving-over-http/"
+        },
+        {
+          "id": "datKo3vPDwXoyVskcrdkc-res-3",
+          "type": "article",
+          "title": "Explore top posts about GraphQL",
+          "url": "https://app.daily.dev/tags/graphql?ref=roadmapsh"
+        }
+      ]
+    },
+    "N-vsu-wvOikuoTbzdgX3X": {
+      "id": "N-vsu-wvOikuoTbzdgX3X",
+      "slug": "graphql-http",
+      "title": "graphql-http",
+      "description": "GraphQL over HTTP is a specification that defines how GraphQL queries and mutations should be transported over HTTP. It standardizes request/response formats, HTTP methods, status codes, and headers, ensuring consistent GraphQL API communication across different implementations.",
+      "resources": [
+        {
+          "id": "N-vsu-wvOikuoTbzdgX3X-res-1",
+          "type": "article",
+          "title": "GraphQL over HTTP Specification",
+          "url": "https://graphql.github.io/graphql-over-http/"
+        },
+        {
+          "id": "N-vsu-wvOikuoTbzdgX3X-res-2",
+          "type": "article",
+          "title": "graphql-http Library",
+          "url": "https://github.com/graphql/graphql-http"
+        }
+      ]
+    },
+    "7szipojhVb2VoL3VcS619": {
+      "id": "7szipojhVb2VoL3VcS619",
+      "slug": "graphql-java",
+      "title": "GraphQL Java",
+      "description": "GraphQL Java is a popular library for implementing GraphQL APIs in Java applications. It provides schema-first development capabilities, runtime query execution, and integrates well with Spring Boot and other Java frameworks, making it a solid choice for enterprise GraphQL implementations.",
+      "resources": [
+        {
+          "id": "7szipojhVb2VoL3VcS619-res-1",
+          "type": "article",
+          "title": "GraphQL Java Repository",
+          "url": "https://github.com/graphql-java/graphql-java"
+        },
+        {
+          "id": "7szipojhVb2VoL3VcS619-res-2",
+          "type": "article",
+          "title": "GraphQL Java Documentation",
+          "url": "https://www.graphql-java.com/"
+        }
+      ]
+    },
+    "ODQ8zrHc2rsc8PN-APKvz": {
+      "id": "ODQ8zrHc2rsc8PN-APKvz",
+      "slug": "graphql-on-backend",
+      "title": "GraphQL on the Backend",
+      "description": "GraphQL on the backend involves implementing servers that execute GraphQL queries, mutations, and subscriptions. It includes defining schemas, writing resolvers, handling data sources, implementing authentication/authorization, and optimizing performance through caching and batching strategies.",
+      "resources": [
+        {
+          "id": "ODQ8zrHc2rsc8PN-APKvz-res-1",
+          "type": "article",
+          "title": "How to use GraphQL in Backend?",
+          "url": "https://www.howtographql.com/"
+        },
+        {
+          "id": "ODQ8zrHc2rsc8PN-APKvz-res-2",
+          "type": "article",
+          "title": "Explore top posts about Backend Development",
+          "url": "https://app.daily.dev/tags/backend?ref=roadmapsh"
+        }
+      ]
+    },
+    "6r9XbwlBtHmJrhviG2cTD": {
+      "id": "6r9XbwlBtHmJrhviG2cTD",
+      "slug": "graphql-on-frontend",
+      "title": "GraphQL on the Frontend",
+      "description": "GraphQL on the frontend enables efficient data fetching with clients like Apollo, URQL, or Relay. It provides declarative data requirements, intelligent caching, real-time subscriptions, and type safety, allowing frontend applications to request exactly the data they need in a single query.",
+      "resources": [
+        {
+          "id": "6r9XbwlBtHmJrhviG2cTD-res-1",
+          "type": "article",
+          "title": "Get started with GraphQL on the frontend",
+          "url": "https://www.howtographql.com/react-apollo/0-introduction/"
+        },
+        {
+          "id": "6r9XbwlBtHmJrhviG2cTD-res-2",
+          "type": "article",
+          "title": "Explore top posts about Frontend Development",
+          "url": "https://app.daily.dev/tags/frontend?ref=roadmapsh"
+        }
+      ]
+    },
+    "V3bgswBFr1xames3F8S_V": {
+      "id": "V3bgswBFr1xames3F8S_V",
+      "slug": "graphql-over-http-spec",
+      "title": "GraphQL Over HTTP Spec",
+      "description": "The GraphQL over HTTP specification defines standard practices for serving GraphQL over HTTP, including request/response formats, status codes, and content types. It ensures interoperability between different GraphQL implementations and provides guidance for consistent API behavior across platforms.",
+      "resources": []
+    },
+    "W_Lg8086ZhrIqtck1sgnb": {
+      "id": "W_Lg8086ZhrIqtck1sgnb",
+      "slug": "graphql-queries",
+      "title": "GraphQL Queries",
+      "description": "GraphQL queries are client requests to retrieve specific data from a server. They specify exactly which fields should be returned, using a hierarchical structure that matches the data requirements. Queries are written in GraphQL syntax and executed by the server to fetch the requested data.",
+      "resources": [
+        {
+          "id": "W_Lg8086ZhrIqtck1sgnb-res-1",
+          "type": "article",
+          "title": "What are GraphQL Queries?",
+          "url": "https://graphql.org/learn/queries/"
+        },
+        {
+          "id": "W_Lg8086ZhrIqtck1sgnb-res-2",
+          "type": "article",
+          "title": "Explore top posts about GraphQL",
+          "url": "https://app.daily.dev/tags/graphql?ref=roadmapsh"
+        }
+      ]
+    },
+    "Gotb1xtxySCVC5MrnkPSs": {
+      "id": "Gotb1xtxySCVC5MrnkPSs",
+      "slug": "graphql-yoga",
+      "title": "GraphQL Yoga",
+      "description": "GraphQL Yoga is an open-source GraphQL server library for Node.js built on Express.js. It provides minimal boilerplate setup with built-in authentication, authorization, data validation, and subscription support for real-time updates, making GraphQL server development streamlined.",
+      "resources": [
+        {
+          "id": "Gotb1xtxySCVC5MrnkPSs-res-1",
+          "type": "article",
+          "title": "GraphQL Armor - for Yoga Server 2",
+          "url": "https://the-guild.dev/blog/improved-security-with-graphql-armor-support-for-yoga-server-2"
+        },
+        {
+          "id": "Gotb1xtxySCVC5MrnkPSs-res-2",
+          "type": "article",
+          "title": "Explore top posts about GraphQL",
+          "url": "https://app.daily.dev/tags/graphql?ref=roadmapsh"
+        }
+      ]
+    },
+    "jCzrMElTo-c9xGcpPOOPl": {
+      "id": "jCzrMElTo-c9xGcpPOOPl",
+      "slug": "graphqljs",
+      "title": "GraphQL.js",
+      "description": "GraphQL.js is the reference implementation of GraphQL for JavaScript and Node.js. It provides the core functionality for parsing, validating, and executing GraphQL queries, serving as the foundation for many other GraphQL tools and libraries in the JavaScript ecosystem.",
+      "resources": [
+        {
+          "id": "jCzrMElTo-c9xGcpPOOPl-res-1",
+          "type": "article",
+          "title": "GraphQL.js Repository",
+          "url": "https://github.com/graphql/graphql-js"
+        },
+        {
+          "id": "jCzrMElTo-c9xGcpPOOPl-res-2",
+          "type": "article",
+          "title": "GraphQL.js Documentation",
+          "url": "https://graphql.org/graphql-js/"
+        }
+      ]
+    },
+    "tc_rjJZrr2x3bp8mcoQ0F": {
+      "id": "tc_rjJZrr2x3bp8mcoQ0F",
+      "slug": "interfaces",
+      "title": "Interfaces",
+      "description": "Interfaces in GraphQL define a set of fields that implementing types must include. They enable polymorphism by allowing common field querying across different types that implement the same interface, promoting code reuse and consistent API design.",
+      "resources": [
+        {
+          "id": "tc_rjJZrr2x3bp8mcoQ0F-res-1",
+          "type": "article",
+          "title": "Get started with Interfaces",
+          "url": "https://graphql.org/learn/schema/#interfaces"
+        }
+      ]
+    },
+    "JfXwzkN29UGz17FYHHE3A": {
+      "id": "JfXwzkN29UGz17FYHHE3A",
+      "slug": "introduction",
+      "title": "GraphQL Introduction",
+      "description": "GraphQL is a query language and runtime for APIs that enables clients to request exactly the data they need in a single call. It provides a predictable format, reducing multiple API calls and eliminating over-fetching, making data retrieval more efficient than traditional REST APIs.",
+      "resources": [
+        {
+          "id": "JfXwzkN29UGz17FYHHE3A-res-1",
+          "type": "article",
+          "title": "Introduction to GraphQL",
+          "url": "https://graphql.org/learn/"
+        },
+        {
+          "id": "JfXwzkN29UGz17FYHHE3A-res-2",
+          "type": "article",
+          "title": "Getting started with GraphQL",
+          "url": "https://graphql.org/"
+        },
+        {
+          "id": "JfXwzkN29UGz17FYHHE3A-res-3",
+          "type": "article",
+          "title": "Explore top posts about GraphQL",
+          "url": "https://app.daily.dev/tags/graphql?ref=roadmapsh"
+        }
+      ]
+    },
+    "d2ikbo4sZq7PmaCi5znkd": {
+      "id": "d2ikbo4sZq7PmaCi5znkd",
+      "slug": "lists",
+      "title": "Lists",
+      "description": "Lists in GraphQL represent ordered collections of items, defined using square brackets around the item type. They can contain scalars, objects, or other lists, enabling complex nested data structures and array-based field returns in schemas.",
+      "resources": [
+        {
+          "id": "d2ikbo4sZq7PmaCi5znkd-res-1",
+          "type": "article",
+          "title": "Get started with Lists",
+          "url": "https://graphql.org/learn/schema/#lists-and-non-null"
+        }
+      ]
+    },
+    "sJ1_c3e08aehiqNMbIEEP": {
+      "id": "sJ1_c3e08aehiqNMbIEEP",
+      "slug": "lists",
+      "title": "Lists",
+      "description": "Lists in GraphQL represent ordered collections of items and can be used as return types for fields. They can contain any type of items including scalars and objects, with resolver functions typically returning data as arrays from databases or APIs.",
+      "resources": [
+        {
+          "id": "sJ1_c3e08aehiqNMbIEEP-res-1",
+          "type": "article",
+          "title": "Get started with Lists and Non-Null",
+          "url": "https://graphql.org/learn/schema/#lists-and-non-null"
+        }
+      ]
+    },
+    "CHdzww8_TNfeM6Bp1oTPI": {
+      "id": "CHdzww8_TNfeM6Bp1oTPI",
+      "slug": "live-queries",
+      "title": "Live Queries",
+      "description": "Live Queries automatically update query results when underlying data changes, providing real-time synchronization without manual subscription management. This advanced feature simplifies building reactive applications by maintaining fresh data automatically, though it requires specialized GraphQL implementations.",
+      "resources": [
+        {
+          "id": "CHdzww8_TNfeM6Bp1oTPI-res-1",
+          "type": "article",
+          "title": "GraphQL Live Queries",
+          "url": "https://the-guild.dev/blog/collecting-graphql-live-query-resource-identifier-with-graphql-tools"
+        }
+      ]
+    },
+    "iTV2H8clmRTOksul4v38p": {
+      "id": "iTV2H8clmRTOksul4v38p",
+      "slug": "mercurius",
+      "title": "Mercurius",
+      "description": "Mercurius is a high-performance GraphQL server library for Fastify, offering excellent performance and minimal memory usage. It provides schema-first development, built-in caching, subscriptions support, and integration with Fastify's ecosystem for building fast, scalable GraphQL APIs.",
+      "resources": [
+        {
+          "id": "iTV2H8clmRTOksul4v38p-res-1",
+          "type": "article",
+          "title": "Mercurius Repository",
+          "url": "https://github.com/mercurius-js/mercurius"
+        },
+        {
+          "id": "iTV2H8clmRTOksul4v38p-res-2",
+          "type": "article",
+          "title": "Mercurius Documentation",
+          "url": "https://mercurius.dev/"
+        }
+      ]
+    },
+    "AySlY8AyI6jE-cy-qKKOU": {
+      "id": "AySlY8AyI6jE-cy-qKKOU",
+      "slug": "multiple-fields-in-mutation",
+      "title": "Multiple Mutation Fields",
+      "description": "GraphQL allows multiple mutations in a single query by including multiple mutation fields, a practice often called batching mutations. This approach improves network efficiency by reducing the number of round-trips between the client and server.",
+      "resources": [
+        {
+          "id": "AySlY8AyI6jE-cy-qKKOU-res-1",
+          "type": "article",
+          "title": "Guide to Multiple fields in mutations",
+          "url": "https://graphql.org/learn/mutations/#multiple-fields-in-mutations"
+        }
+      ]
+    },
+    "jy_91mhFWbpR6sYVbuX1x": {
+      "id": "jy_91mhFWbpR6sYVbuX1x",
+      "slug": "mutations",
+      "title": "Mutations",
+      "description": "Mutations in GraphQL are used to modify data on the server, including creating, updating, or deleting records. They're structured like queries but use the \"mutation\" field at the top level and include fields specifying the data to be changed and the operation type.",
+      "resources": [
+        {
+          "id": "jy_91mhFWbpR6sYVbuX1x-res-1",
+          "type": "article",
+          "title": "Getting started with Mutations",
+          "url": "https://graphql.org/learn/queries/#mutations"
+        }
+      ]
+    },
+    "LX9vZpx7yKlf0iR6AtBWz": {
+      "id": "LX9vZpx7yKlf0iR6AtBWz",
+      "slug": "objects",
+      "title": "Objects",
+      "description": "Objects in GraphQL are types that represent groups of fields, defining the structure of queries and mutations. Each field can return scalar values or other objects, enabling complex nested data structures. Objects are defined using the \"type\" keyword followed by the name and field definitions.",
+      "resources": [
+        {
+          "id": "LX9vZpx7yKlf0iR6AtBWz-res-1",
+          "type": "article",
+          "title": "Object Types and Fields",
+          "url": "https://graphql.org/learn/schema/#object-types-and-fields"
+        },
+        {
+          "id": "LX9vZpx7yKlf0iR6AtBWz-res-2",
+          "type": "article",
+          "title": "Object Types",
+          "url": "https://graphql.org/graphql-js/object-types/"
+        }
+      ]
+    },
+    "q9TYEygvUyHourdZIvk8G": {
+      "id": "q9TYEygvUyHourdZIvk8G",
+      "slug": "operation-name",
+      "title": "Operation Name",
+      "description": "Operation names are optional identifiers for GraphQL queries and mutations that help uniquely identify operations in documents with multiple operations. They provide meaningful names for operations, improve debugging, and make error identification easier in complex applications.",
+      "resources": [
+        {
+          "id": "q9TYEygvUyHourdZIvk8G-res-1",
+          "type": "article",
+          "title": "Intro to Operation Name",
+          "url": "https://graphql.org/learn/queries/#operation-name"
+        }
+      ]
+    },
+    "Uf8XxJPs7RzKVhlxiQdbB": {
+      "id": "Uf8XxJPs7RzKVhlxiQdbB",
+      "slug": "pagination",
+      "title": "Pagination",
+      "description": "Pagination in GraphQL handles large datasets by breaking them into smaller chunks. Common approaches include cursor-based pagination (using cursors for stable pagination) and offset-based pagination (using skip/take), with cursor-based being preferred for performance and consistency.",
+      "resources": [
+        {
+          "id": "Uf8XxJPs7RzKVhlxiQdbB-res-1",
+          "type": "article",
+          "title": "Get Started with Pagination",
+          "url": "https://graphql.org/learn/pagination/"
+        }
+      ]
+    },
+    "2rlmLn_yQQV-7DpX1qT98": {
+      "id": "2rlmLn_yQQV-7DpX1qT98",
+      "slug": "problems-graphql-solves",
+      "title": "Problems GraphQL Solves",
+      "description": "GraphQL solves major API problems including over-fetching (getting unnecessary data), under-fetching (multiple requests needed), inefficient versioning, and lack of flexibility. It enables precise data requests, single queries for multiple resources, seamless versioning through schema evolution, and microservice communication through federation.",
+      "resources": []
+    },
+    "zQHifboRreE4OgJ7GnUlp": {
+      "id": "zQHifboRreE4OgJ7GnUlp",
+      "slug": "producing-the-result",
+      "title": "Producing The Result",
+      "description": "Producing the result in GraphQL involves generating the final response to queries and mutations. This process includes parsing the request, validating against the schema, executing resolvers to fetch data, and formatting the response according to the query requirements.",
+      "resources": [
+        {
+          "id": "zQHifboRreE4OgJ7GnUlp-res-1",
+          "type": "article",
+          "title": "Get Started with GraphQL",
+          "url": "https://graphql.org/learn/"
+        }
+      ]
+    },
+    "2YLm_S1j_832pb1OGSNaM": {
+      "id": "2YLm_S1j_832pb1OGSNaM",
+      "slug": "realtime",
+      "title": "Realtime",
+      "description": "Realtime GraphQL enables live data updates through subscriptions, allowing clients to receive instant notifications when data changes. Implemented using WebSockets, Server-Sent Events, or polling, it's essential for chat applications, live feeds, and collaborative tools requiring immediate data synchronization.",
+      "resources": [
+        {
+          "id": "2YLm_S1j_832pb1OGSNaM-res-1",
+          "type": "article",
+          "title": "Get Started with Real Time with GraphQL",
+          "url": "https://the-guild.dev/blog/subscriptions-and-live-queries-real-time-with-graphql"
+        }
+      ]
+    },
+    "Ab_ngkf6bmejvcp9okuw6": {
+      "id": "Ab_ngkf6bmejvcp9okuw6",
+      "slug": "relay",
+      "title": "Relay",
+      "description": "Relay is Facebook's GraphQL client designed for React applications, emphasizing performance and data consistency. It uses a declarative approach with fragments, automatic query optimization, pagination handling, and strict conventions for building scalable, efficient GraphQL applications.",
+      "resources": [
+        {
+          "id": "Ab_ngkf6bmejvcp9okuw6-res-1",
+          "type": "article",
+          "title": "GraphQL Code Generator & Relay Compiler",
+          "url": "https://the-guild.dev/blog/graphql-codegen-relay-compiler"
+        }
+      ]
+    },
+    "VDur5xYBC0LJtQgDrSEyj": {
+      "id": "VDur5xYBC0LJtQgDrSEyj",
+      "slug": "resolvers",
+      "title": "Resolvers",
+      "description": "Resolvers are functions responsible for fetching data for each field in GraphQL queries and mutations. Defined in the schema and executed by the GraphQL server, they retrieve data from databases, APIs, or other sources and return it to clients.",
+      "resources": [
+        {
+          "id": "VDur5xYBC0LJtQgDrSEyj-res-1",
+          "type": "article",
+          "title": "Guide to Resolver",
+          "url": "https://the-guild.dev/blog/better-type-safety-for-resolvers-with-graphql-codegen"
+        }
+      ]
+    },
+    "AlJlHZD3_SPoLNaqdM-pB": {
+      "id": "AlJlHZD3_SPoLNaqdM-pB",
+      "slug": "root-fields",
+      "title": "Root Fields",
+      "description": "Root fields are the top-level fields available to clients in GraphQL queries and mutations. They serve as entry points for client requests, with Query fields for retrieving data and Mutation fields for modifying data on the server.",
+      "resources": [
+        {
+          "id": "AlJlHZD3_SPoLNaqdM-pB-res-1",
+          "type": "article",
+          "title": "Get Started with Root Fields",
+          "url": "https://graphql.org/learn/execution/#root-fields-resolvers"
+        }
+      ]
+    },
+    "QFUOmJlPkkjpcl1vJxg9h": {
+      "id": "QFUOmJlPkkjpcl1vJxg9h",
+      "slug": "scalar-coercion",
+      "title": "Scalar Coercion",
+      "description": "Scalar coercion in GraphQL converts input values from one type to another when they don't match the expected type but can be successfully converted. This process is implemented using custom scalar types with coerce functions that handle the type conversion.",
+      "resources": [
+        {
+          "id": "QFUOmJlPkkjpcl1vJxg9h-res-1",
+          "type": "article",
+          "title": "Get started with Scalar coercion",
+          "url": "https://graphql.org/learn/execution/#scalar-coercion"
+        }
+      ]
+    },
+    "U-tLelmNQtR-pUq-sxU_2": {
+      "id": "U-tLelmNQtR-pUq-sxU_2",
+      "slug": "scalars",
+      "title": "Scalars",
+      "description": "Scalars are \"leaf\" values in GraphQL representing primitive data types. Built-in scalars include String, Int, Float, Boolean, and ID for unique identifiers. Custom scalars can be defined for specific needs like dates, JSON, or large integers, extending the type system beyond basic primitives.",
+      "resources": [
+        {
+          "id": "U-tLelmNQtR-pUq-sxU_2-res-1",
+          "type": "article",
+          "title": "Get started with Scalars in GraphQL",
+          "url": "https://graphql.org/learn/schema/#scalar-types"
+        }
+      ]
+    },
+    "lj1WEh4WbfBsoZFYsi1Yz": {
+      "id": "lj1WEh4WbfBsoZFYsi1Yz",
+      "slug": "schema",
+      "title": "Schema",
+      "description": "A GraphQL schema defines the structure and capabilities of a GraphQL API using Schema Definition Language (SDL). It specifies types, fields, arguments, relationships, and root operations (Query, Mutation, Subscription) that serve as entry points, acting as a contract between client and server.",
+      "resources": [
+        {
+          "id": "lj1WEh4WbfBsoZFYsi1Yz-res-1",
+          "type": "article",
+          "title": "What is Schema?",
+          "url": "https://graphql.org/learn/schema/"
+        }
+      ]
+    },
+    "inhjhH-7xJyX8o4DQqErF": {
+      "id": "inhjhH-7xJyX8o4DQqErF",
+      "slug": "serving-over-internet",
+      "title": "Serving over Internet",
+      "description": "Serving GraphQL over the internet involves making a GraphQL server accessible to clients through a public IP address or domain name. This can be done using reverse proxies, cloud services, or serverless functions to expose the GraphQL endpoint publicly.",
+      "resources": [
+        {
+          "id": "inhjhH-7xJyX8o4DQqErF-res-1",
+          "type": "article",
+          "title": "Introduction to Serving over HTTPs",
+          "url": "https://graphql.org/learn/serving-over-http/"
+        }
+      ]
+    },
+    "A-PQ3_FVuCK3Eud75hsdj": {
+      "id": "A-PQ3_FVuCK3Eud75hsdj",
+      "slug": "specification",
+      "title": "Specification",
+      "description": "The GraphQL specification is the official standard that defines the GraphQL query language, type system, execution algorithm, and validation rules. It ensures consistency across different GraphQL implementations and serves as the authoritative reference for developers building GraphQL services and tools.",
+      "resources": [
+        {
+          "id": "A-PQ3_FVuCK3Eud75hsdj-res-1",
+          "type": "article",
+          "title": "GraphQL Specification",
+          "url": "https://spec.graphql.org/"
+        },
+        {
+          "id": "A-PQ3_FVuCK3Eud75hsdj-res-2",
+          "type": "article",
+          "title": "GraphQL Foundation",
+          "url": "https://foundation.graphql.org/"
+        }
+      ]
+    },
+    "O8k-m6s9B_uXkLsXKVFnL": {
+      "id": "O8k-m6s9B_uXkLsXKVFnL",
+      "slug": "specification",
+      "title": "Specification",
+      "description": "The GraphQL specification defines the core language, type system, execution model, and validation rules for GraphQL. Maintained by the GraphQL Foundation, it provides the technical foundation that all GraphQL implementations must follow to ensure interoperability and consistency across platforms.",
+      "resources": [
+        {
+          "id": "O8k-m6s9B_uXkLsXKVFnL-res-1",
+          "type": "article",
+          "title": "GraphQL Specification",
+          "url": "https://spec.graphql.org/"
+        },
+        {
+          "id": "O8k-m6s9B_uXkLsXKVFnL-res-2",
+          "type": "article",
+          "title": "GraphQL Foundation",
+          "url": "https://foundation.graphql.org/"
+        }
+      ]
+    },
+    "IbEqXlGjsyNLKE9dZrPPk": {
+      "id": "IbEqXlGjsyNLKE9dZrPPk",
+      "slug": "subscriptions",
+      "title": "Subscriptions",
+      "description": "Subscriptions in GraphQL enable real-time updates by allowing clients to subscribe to specific events or data changes on the server. The server maintains an open connection and pushes updates to subscribed clients as soon as events occur or data changes.",
+      "resources": [
+        {
+          "id": "IbEqXlGjsyNLKE9dZrPPk-res-1",
+          "type": "article",
+          "title": "Subscriptions and Live Queries - Real Time with GraphQL",
+          "url": "https://the-guild.dev/blog/subscriptions-and-live-queries-real-time-with-graphql"
+        }
+      ]
+    },
+    "uPpsj2kCdgKsJpmTaw86u": {
+      "id": "uPpsj2kCdgKsJpmTaw86u",
+      "slug": "synchronous",
+      "title": "Synchronous",
+      "description": "Synchronous resolvers in GraphQL execute immediately and return their results directly without waiting for external operations. They complete their execution before returning any value, making them simpler but potentially blocking if they perform complex computations.",
+      "resources": [
+        {
+          "id": "uPpsj2kCdgKsJpmTaw86u-res-1",
+          "type": "article",
+          "title": "GraphQL Execution",
+          "url": "https://graphql.org/learn/execution/"
+        },
+        {
+          "id": "uPpsj2kCdgKsJpmTaw86u-res-2",
+          "type": "article",
+          "title": "Understanding Resolvers",
+          "url": "https://www.apollographql.com/docs/apollo-server/data/resolvers/"
+        }
+      ]
+    },
+    "J5mU0v491qrm-mr1W3Msd": {
+      "id": "J5mU0v491qrm-mr1W3Msd",
+      "slug": "thinking-in-graphs",
+      "title": "Thinking in Graphs",
+      "description": "\"Thinking in Graphs\" is a GraphQL mindset where data is organized as a graph with nodes (objects) and edges (relationships). This approach allows flexible and intuitive querying by following relationships between connected data points, making complex data retrieval more natural and efficient.",
+      "resources": [
+        {
+          "id": "J5mU0v491qrm-mr1W3Msd-res-1",
+          "type": "article",
+          "title": "GraphQL - Thinking in Graphs",
+          "url": "https://graphql.org/learn/thinking-in-graphs/"
+        }
+      ]
+    },
+    "jpu0_FAlxtD-H80mPcod5": {
+      "id": "jpu0_FAlxtD-H80mPcod5",
+      "slug": "type-system",
+      "title": "Type System",
+      "description": "GraphQL is strongly typed with a type system that defines data types available in applications. It includes Scalar, Object, Query, Mutation, and Enum types. The type system defines the schema, acting as a contract between client and server for predictable API interactions.",
+      "resources": [
+        {
+          "id": "jpu0_FAlxtD-H80mPcod5-res-1",
+          "type": "article",
+          "title": "Get started with Type system",
+          "url": "https://graphql.org/learn/schema/#type-system"
+        }
+      ]
+    },
+    "59COH3rerJJzKr6vrj4bF": {
+      "id": "59COH3rerJJzKr6vrj4bF",
+      "slug": "unions",
+      "title": "Unions",
+      "description": "Unions allow fields to return multiple types, enabling different handling for various types in clients. They provide schema flexibility by grouping types together, though they don't allow common field querying across types like interfaces do.",
+      "resources": [
+        {
+          "id": "59COH3rerJJzKr6vrj4bF-res-1",
+          "type": "article",
+          "title": "Get started with Union in GraphQL",
+          "url": "https://graphql.org/learn/schema/#union-types"
+        }
+      ]
+    },
+    "WP0Oo_YMfLBlXqDQQtKes": {
+      "id": "WP0Oo_YMfLBlXqDQQtKes",
+      "slug": "urql",
+      "title": "URQL",
+      "description": "URQL is a lightweight, highly customizable GraphQL client for React, Vue, and Svelte. It provides caching, real-time subscriptions, offline support, and a modular architecture with exchanges for extending functionality, offering an alternative to Apollo Client with better performance.",
+      "resources": [
+        {
+          "id": "WP0Oo_YMfLBlXqDQQtKes-res-1",
+          "type": "article",
+          "title": "urql - Formidable Labs",
+          "url": "https://formidable.com/open-source/urql/"
+        }
+      ]
+    },
+    "I4wNBXV4xEZ0LWBhv5FwF": {
+      "id": "I4wNBXV4xEZ0LWBhv5FwF",
+      "slug": "validation",
+      "title": "Validation",
+      "description": "Validation in GraphQL ensures queries and mutations adhere to schema rules by verifying field access, type correctness, and input constraints. GraphQL servers validate all incoming operations before execution, returning errors for invalid queries with specific details about violations.",
+      "resources": [
+        {
+          "id": "I4wNBXV4xEZ0LWBhv5FwF-res-1",
+          "type": "article",
+          "title": "Get Started with Validation in GraphQL",
+          "url": "https://graphql.org/learn/validation/"
+        }
+      ]
+    },
+    "iYkHCKTsjtvo40f3eZoet": {
+      "id": "iYkHCKTsjtvo40f3eZoet",
+      "slug": "validation",
+      "title": "Validation",
+      "description": "Validation in GraphQL ensures queries and mutations conform to schema rules and constraints. It checks for required fields, correct argument types, and value ranges before execution, preventing invalid operations and improving API reliability.",
+      "resources": [
+        {
+          "id": "iYkHCKTsjtvo40f3eZoet-res-1",
+          "type": "article",
+          "title": "Get Started with Validation in GraphQL",
+          "url": "https://graphql.org/learn/validation/"
+        }
+      ]
+    },
+    "YZaFEK547FYricfOuANvH": {
+      "id": "YZaFEK547FYricfOuANvH",
+      "slug": "variables",
+      "title": "Variables",
+      "description": "Variables in GraphQL pass dynamic values to queries and mutations, making them flexible and reusable. Defined with the $ symbol and a type, their values are passed in a separate JSON object. Variables are type-safe, ensuring values match the defined types.",
+      "resources": [
+        {
+          "id": "YZaFEK547FYricfOuANvH-res-1",
+          "type": "article",
+          "title": "Intro to Variables in GraphQL",
+          "url": "https://graphql.org/learn/queries/#variables"
+        },
+        {
+          "id": "YZaFEK547FYricfOuANvH-res-2",
+          "type": "article",
+          "title": "GraphQL Variables",
+          "url": "https://dgraph.io/docs/graphql/api/variables/"
+        }
+      ]
+    },
+    "9Q2pGidY-rfkltHq3vChp": {
+      "id": "9Q2pGidY-rfkltHq3vChp",
+      "slug": "what-are-mutations",
+      "title": "What are Mutations",
+      "description": "Mutations in GraphQL are operations used to modify data on the server - creating, updating, or deleting records. They're structured like queries but use the \"mutation\" field at the top level and include fields specifying the data to be changed and the operation type.",
+      "resources": [
+        {
+          "id": "9Q2pGidY-rfkltHq3vChp-res-1",
+          "type": "article",
+          "title": "Get started with Mutations",
+          "url": "https://graphql.org/learn/mutations/"
+        }
+      ]
+    },
+    "2SU4dcaz7zwGsF7g8FjmI": {
+      "id": "2SU4dcaz7zwGsF7g8FjmI",
+      "slug": "what-are-queries",
+      "title": "What are Queries",
+      "description": "In GraphQL, queries are client requests to retrieve data from the server. They're structured as hierarchical trees of fields that correspond to the properties of the requested data, allowing clients to specify exactly what data they need in a predictable format.",
+      "resources": [
+        {
+          "id": "2SU4dcaz7zwGsF7g8FjmI-res-1",
+          "type": "article",
+          "title": "Introduction of GraphQL - Query",
+          "url": "https://graphql.org/learn/queries/"
+        }
+      ]
+    },
+    "RlBc-hWEUOPaEQLTgJa-K": {
+      "id": "RlBc-hWEUOPaEQLTgJa-K",
+      "slug": "what-are-subscriptions",
+      "title": "What are Subscriptions",
+      "description": "Subscriptions in GraphQL enable real-time updates by allowing clients to subscribe to specific events or data changes on the server. They're structured like queries with a \"subscription\" field at the top level and push updates to clients as soon as events occur.",
+      "resources": [
+        {
+          "id": "RlBc-hWEUOPaEQLTgJa-K-res-1",
+          "type": "article",
+          "title": "How GraphQL Subscriptions Work?",
+          "url": "https://the-guild.dev/blog/subscriptions-and-live-queries-real-time-with-graphql"
+        }
+      ]
+    },
+    "cMfsRtvzvDZZJ0TqeUOxm": {
+      "id": "cMfsRtvzvDZZJ0TqeUOxm",
+      "slug": "what-is-graphql",
+      "title": "What is GraphQL",
+      "description": "GraphQL is a query language for APIs and server-side runtime that lets clients request exactly the data they need. Unlike REST, it uses a type system to define data structure and allows fetching multiple resources in a single request, reducing over-fetching and under-fetching problems.",
+      "resources": [
+        {
+          "id": "cMfsRtvzvDZZJ0TqeUOxm-res-1",
+          "type": "article",
+          "title": "Introduction to graphQL",
+          "url": "https://graphql.org/learn/"
+        },
+        {
+          "id": "cMfsRtvzvDZZJ0TqeUOxm-res-2",
+          "type": "article",
+          "title": "Tutorial - What is graphQL?",
+          "url": "https://www.howtographql.com/basics/0-introduction/"
+        },
+        {
+          "id": "cMfsRtvzvDZZJ0TqeUOxm-res-3",
+          "type": "article",
+          "title": "Explore top posts about GraphQL",
+          "url": "https://app.daily.dev/tags/graphql?ref=roadmapsh"
+        }
+      ]
+    }
+  }
+}

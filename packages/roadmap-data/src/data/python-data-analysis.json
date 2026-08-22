@@ -1,0 +1,4538 @@
+{
+  "slug": "python-data-analysis",
+  "title": "Python Data Analysis",
+  "description": "Comprehensive learning curriculum and mastery roadmap for python-data-analysis.",
+  "category": "skill",
+  "level": "Intermediate",
+  "topicCount": 113,
+  "iconName": "Compass",
+  "nodes": [
+    {
+      "id": "node-LERo7-ggtfZ-KZyNdBwt6",
+      "label": "Airflow",
+      "topicId": "LERo7-ggtfZ-KZyNdBwt6",
+      "level": 1,
+      "position": {
+        "x": 80,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-9vgD1Sd5B3iRMPLrfMG0C",
+      "label": "Altair",
+      "topicId": "9vgD1Sd5B3iRMPLrfMG0C",
+      "level": 1,
+      "position": {
+        "x": 340,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-10c4tiBOR68J3qa55LcJS",
+      "label": "APIs with requests",
+      "topicId": "10c4tiBOR68J3qa55LcJS",
+      "level": 1,
+      "position": {
+        "x": 600,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-7ukR74cN6lHbvhs4mFn6R",
+      "label": "args & kwargs",
+      "topicId": "7ukR74cN6lHbvhs4mFn6R",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-AAxvIAas2Sdkz9-2uNHXq",
+      "label": "Arithmetic",
+      "topicId": "AAxvIAas2Sdkz9-2uNHXq",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-qOZ-T7zaPjvIT222rSV4o",
+      "label": "Array Operations",
+      "topicId": "qOZ-T7zaPjvIT222rSV4o",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-qiUPTXFgfukxlPhnv76jo",
+      "label": "Arrays & ndarray",
+      "topicId": "qiUPTXFgfukxlPhnv76jo",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-w4K_ffCUbzhGxWyoKsspu",
+      "label": "BeautifulSoup",
+      "topicId": "w4K_ffCUbzhGxWyoKsspu",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-GkxSrpOJx-SWvnDkTPcJt",
+      "label": "Big Data Tools",
+      "topicId": "GkxSrpOJx-SWvnDkTPcJt",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-Ze02ApxTvyQqtB3VYv3d4",
+      "label": "Booleans",
+      "topicId": "Ze02ApxTvyQqtB3VYv3d4",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-ij8PMz519gC9WIxlWGD7B",
+      "label": "Boxplot",
+      "topicId": "ij8PMz519gC9WIxlWGD7B",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-KtV5Jl-hOcUS5L-15BUDD",
+      "label": "Built-in Functions",
+      "topicId": "KtV5Jl-hOcUS5L-15BUDD",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-XI8bvhQ3ugezTu60USUG2",
+      "label": "Casting Types",
+      "topicId": "XI8bvhQ3ugezTu60USUG2",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-Dj8Ar4-NQ5mQQhNHmQJVy",
+      "label": "Categorical Plots",
+      "topicId": "Dj8Ar4-NQ5mQQhNHmQJVy",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-Md0yXC3JTH56Wky5jA8Fk",
+      "label": "Comparison",
+      "topicId": "Md0yXC3JTH56Wky5jA8Fk",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-j1jq5_64lBuYQQjJWKIuI",
+      "label": "conda",
+      "topicId": "j1jq5_64lBuYQQjJWKIuI",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-NP1kjSk0ujU0Gx-ajNHlR",
+      "label": "Conditionals",
+      "topicId": "NP1kjSk0ujU0Gx-ajNHlR",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-YCMSjDjUCnkz2VPXfLxz5",
+      "label": "Correlation & Covariance",
+      "topicId": "YCMSjDjUCnkz2VPXfLxz5",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-PHfLEgeEMChsSOSIgMoWH",
+      "label": "Correlation Matrix",
+      "topicId": "PHfLEgeEMChsSOSIgMoWH",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-7XHYCVpUpvwAtaUBjTa4O",
+      "label": "Cross-tabulation",
+      "topicId": "7XHYCVpUpvwAtaUBjTa4O",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-nDUOJPCEzkCxX8B63HBP3",
+      "label": "CSV",
+      "topicId": "nDUOJPCEzkCxX8B63HBP3",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-j4UHICw-niFv1RRlC-vk1",
+      "label": "Customizing Plots",
+      "topicId": "j4UHICw-niFv1RRlC-vk1",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-JTYST4p4O9RQbCzxsoQhA",
+      "label": "Customizing Plots",
+      "topicId": "JTYST4p4O9RQbCzxsoQhA",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node--dsafcJlA16H_ji0zQvKy",
+      "label": "Dash",
+      "topicId": "-dsafcJlA16H_ji0zQvKy",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-uyhlD_ZBCCd3IvrWZ5mlh",
+      "label": "Dashboards",
+      "topicId": "uyhlD_ZBCCd3IvrWZ5mlh",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-ApowKoA3C1B8oUr4-sltZ",
+      "label": "Dask",
+      "topicId": "ApowKoA3C1B8oUr4-sltZ",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-K53X-NB1S9XXSF6j8q1qu",
+      "label": "Data Cleaning",
+      "topicId": "K53X-NB1S9XXSF6j8q1qu",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-f3YL32h2gbU_G8kkNC3Vc",
+      "label": "Data Pipelines",
+      "topicId": "f3YL32h2gbU_G8kkNC3Vc",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-0XtKHqPS6AfhQvhH5cu7Q",
+      "label": "Defining Functions",
+      "topicId": "0XtKHqPS6AfhQvhH5cu7Q",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-lReYQM-p8rrYcHkaqzbMr",
+      "label": "Dictionaries",
+      "topicId": "lReYQM-p8rrYcHkaqzbMr",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-Xq7Ho2kWg5AtZK0G6z02U",
+      "label": "Distribution plots",
+      "topicId": "Xq7Ho2kWg5AtZK0G6z02U",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-xIS0cJ8ui0siBoZJr3-B_",
+      "label": "Dropping vs. Imputing",
+      "topicId": "xIS0cJ8ui0siBoZJr3-B_",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-a6HiqhsJJijqObw9pNOqb",
+      "label": "DuckDB",
+      "topicId": "a6HiqhsJJijqObw9pNOqb",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-1bHv3_acNts_BeOn3l6DF",
+      "label": "Encoding Categories",
+      "topicId": "1bHv3_acNts_BeOn3l6DF",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-8Z20apU8ugXwdH8rRZAcr",
+      "label": "Environment Setup",
+      "topicId": "8Z20apU8ugXwdH8rRZAcr",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-OwEBYI4u7nb9-UGOR9SQf",
+      "label": "Excel",
+      "topicId": "OwEBYI4u7nb9-UGOR9SQf",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-eObhSoXcbqLdwegzaWmi7",
+      "label": "Exploratory Data Analysis",
+      "topicId": "eObhSoXcbqLdwegzaWmi7",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-wxO7f8wh6JTXHYDiPcbmy",
+      "label": "Filtering & Querying",
+      "topicId": "wxO7f8wh6JTXHYDiPcbmy",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-aLIXcqB258WNrdASuN_7G",
+      "label": "Floats",
+      "topicId": "aLIXcqB258WNrdASuN_7G",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-9mFT0z5yT446_-nGdG492",
+      "label": "Forward / Backward Fill",
+      "topicId": "9mFT0z5yT446_-nGdG492",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-kyrS5ez7_85AnNt8Bojz_",
+      "label": "Functions & Methods",
+      "topicId": "kyrS5ez7_85AnNt8Bojz_",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node--Bxn2sj2NjHLhRZrPIi0n",
+      "label": "GeoPandas",
+      "topicId": "-Bxn2sj2NjHLhRZrPIi0n",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-SWrijRzSZxhnSYDwv1_pH",
+      "label": "Geospatial Analysis",
+      "topicId": "SWrijRzSZxhnSYDwv1_pH",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-c8uLNJMr6UZfvjFwFhxvd",
+      "label": "Google Colab",
+      "topicId": "c8uLNJMr6UZfvjFwFhxvd",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-KnSv5dPToipoz2RF1dDnO",
+      "label": "Groupby & Aggregation",
+      "topicId": "KnSv5dPToipoz2RF1dDnO",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-Bk3z1CHnrnV6ii2Y0BF8G",
+      "label": "Heatmaps",
+      "topicId": "Bk3z1CHnrnV6ii2Y0BF8G",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-oRaag-FOl50NJM0y4joBm",
+      "label": "Histogram",
+      "topicId": "oRaag-FOl50NJM0y4joBm",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-mAOljEWt_0Hb9jLBKuc-H",
+      "label": "Array Operations",
+      "topicId": "mAOljEWt_0Hb9jLBKuc-H",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-PlFcaQsvFSK0Y-LKGu0eH",
+      "label": "Indexing & Slicing",
+      "topicId": "PlFcaQsvFSK0Y-LKGu0eH",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-_-bUq5jtewDmsmnzYw1-q",
+      "label": "Integers",
+      "topicId": "_-bUq5jtewDmsmnzYw1-q",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-ES8zVixZ5wZ0tW6beOWxJ",
+      "label": "Interactive Visualization",
+      "topicId": "ES8zVixZ5wZ0tW6beOWxJ",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-GISOFMKvnBys0O0IMpz2J",
+      "label": "Introduction",
+      "topicId": "GISOFMKvnBys0O0IMpz2J",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-ucEFYVtXIvuYKjudK3pwB",
+      "label": "IQR",
+      "topicId": "ucEFYVtXIvuYKjudK3pwB",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-bcODvfBqCUwLVXa8HKOFB",
+      "label": "isnull, isna",
+      "topicId": "bcODvfBqCUwLVXa8HKOFB",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-VEetEvKGNzAO9QdZY2g86",
+      "label": "JSON",
+      "topicId": "VEetEvKGNzAO9QdZY2g86",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-2m8uQRGaVZUd4mfm7bRou",
+      "label": "JupyterLab",
+      "topicId": "2m8uQRGaVZUd4mfm7bRou",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-AzsZhpK-wuWtafVFJMhdY",
+      "label": "Lambda Functions",
+      "topicId": "AzsZhpK-wuWtafVFJMhdY",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-xHDrwKDE_mrSihCsPQMBF",
+      "label": "Linear Algebra Basics",
+      "topicId": "xHDrwKDE_mrSihCsPQMBF",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-la9oiXURvw6AH-Vuh-WqT",
+      "label": "List Comprehensions",
+      "topicId": "la9oiXURvw6AH-Vuh-WqT",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-F4dp3Ip8G-EI1hprtv3do",
+      "label": "Lists",
+      "topicId": "F4dp3Ip8G-EI1hprtv3do",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-_0K6o-R0F2a9bpEDfRcTi",
+      "label": "Logical",
+      "topicId": "_0K6o-R0F2a9bpEDfRcTi",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-Dvy7BnNzK55qbh_SgOk8m",
+      "label": "Loops",
+      "topicId": "Dvy7BnNzK55qbh_SgOk8m",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-Md9Yq7bwDNo6hO_A9aa9N",
+      "label": "Matplotlib",
+      "topicId": "Md9Yq7bwDNo6hO_A9aa9N",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-DdA2gJKpgOHj9mqZL-c4F",
+      "label": "Mean, Median, Mode",
+      "topicId": "DdA2gJKpgOHj9mqZL-c4F",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-Rq9TFEEJnjEgVa1DiJxFz",
+      "label": "Merging & Joining",
+      "topicId": "Rq9TFEEJnjEgVa1DiJxFz",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-GidLncxwx7d1QzAOfHRLX",
+      "label": "Null Values",
+      "topicId": "GidLncxwx7d1QzAOfHRLX",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-IO-disDSfkPau4Pd_TNwc",
+      "label": "NumPy",
+      "topicId": "IO-disDSfkPau4Pd_TNwc",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-hTAQSe0rHv7fuAMfxJwGp",
+      "label": "OOP for Data Analysis",
+      "topicId": "hTAQSe0rHv7fuAMfxJwGp",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-so95CO6Qw3I0S98ISENS-",
+      "label": "Operators",
+      "topicId": "so95CO6Qw3I0S98ISENS-",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-yRHodYYqdICLZyG3J9qjc",
+      "label": "Pandas String Methods",
+      "topicId": "yRHodYYqdICLZyG3J9qjc",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-bIblb5cVNSZLqSuskmKnP",
+      "label": "Pandas",
+      "topicId": "bIblb5cVNSZLqSuskmKnP",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-cD139cRk1xj2ip-o_078l",
+      "label": "Pandas",
+      "topicId": "cD139cRk1xj2ip-o_078l",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-sBKhhjfFTpbj7TQwVnX7F",
+      "label": "Parquet",
+      "topicId": "sBKhhjfFTpbj7TQwVnX7F",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-L7btVRwvkEVX0K8LxnbqJ",
+      "label": "Parsing Dates",
+      "topicId": "L7btVRwvkEVX0K8LxnbqJ",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-6dJaQRj2zMz00sfTiTdww",
+      "label": "pip",
+      "topicId": "6dJaQRj2zMz00sfTiTdww",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-5HEYmbVJ6Z7lvgqalVjxW",
+      "label": "Plot Categories",
+      "topicId": "5HEYmbVJ6Z7lvgqalVjxW",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-J_u8yvrHEWKKmVsVgPN7L",
+      "label": "Plotly",
+      "topicId": "J_u8yvrHEWKKmVsVgPN7L",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-18eitPvBQKdeM3K33d59g",
+      "label": "Polars",
+      "topicId": "18eitPvBQKdeM3K33d59g",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-EHVXO79NGpLC1i8x4Y7g1",
+      "label": "Power BI / Tableau",
+      "topicId": "EHVXO79NGpLC1i8x4Y7g1",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-icVUQgedEGcaPpJSV8JdI",
+      "label": "Printing Variables",
+      "topicId": "icVUQgedEGcaPpJSV8JdI",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-XTXm8aIDbRkTXoAck_m3I",
+      "label": "PySpark",
+      "topicId": "XTXm8aIDbRkTXoAck_m3I",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-XizmE-QroU4GJbjvqNYxe",
+      "label": "Random Module",
+      "topicId": "XizmE-QroU4GJbjvqNYxe",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-oXhGEIie-MzfUSM2Ng4Zm",
+      "label": "re",
+      "topicId": "oXhGEIie-MzfUSM2Ng4Zm",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-w2j11Jyr_qLP1Y9ST-06O",
+      "label": "Reading Data",
+      "topicId": "w2j11Jyr_qLP1Y9ST-06O",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-34DL5RWQtHkvgVhI9a_ZQ",
+      "label": "Reading Local Files",
+      "topicId": "34DL5RWQtHkvgVhI9a_ZQ",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-w8iQWthKu1w75z36B8Ir3",
+      "label": "Reading Web Data",
+      "topicId": "w8iQWthKu1w75z36B8Ir3",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-PcGJMkmZrl4xc2ADT9dF3",
+      "label": "Regression Plots",
+      "topicId": "PcGJMkmZrl4xc2ADT9dF3",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-ACr__YweG2xOAf56FK8tE",
+      "label": "Reshaping",
+      "topicId": "ACr__YweG2xOAf56FK8tE",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-mElhFGGT2GnLg2AkJFETN",
+      "label": "Saving figures",
+      "topicId": "mElhFGGT2GnLg2AkJFETN",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-4ce2yYLRCSb3azsOMpE-U",
+      "label": "Scatterplot",
+      "topicId": "4ce2yYLRCSb3azsOMpE-U",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-npndQC8OIfP1wwn_iswPy",
+      "label": "Scikit-learn",
+      "topicId": "npndQC8OIfP1wwn_iswPy",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-YxA0ms9vkufKGOguRNK1B",
+      "label": "SciPy",
+      "topicId": "YxA0ms9vkufKGOguRNK1B",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-UImXdBHQKCzp9NdjF9xMi",
+      "label": "scrapy",
+      "topicId": "UImXdBHQKCzp9NdjF9xMi",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-zx7uCaQiCxvXMhm9FG3XG",
+      "label": "Seaborn",
+      "topicId": "zx7uCaQiCxvXMhm9FG3XG",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5040
+      }
+    },
+    {
+      "id": "node-3N5N6qe8JVr0XGOFdn5-8",
+      "label": "Series and DataFrame",
+      "topicId": "3N5N6qe8JVr0XGOFdn5-8",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5040
+      }
+    },
+    {
+      "id": "node-GvV_thqIC0yXyJbJt_Zmu",
+      "label": "Sets",
+      "topicId": "GvV_thqIC0yXyJbJt_Zmu",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5040
+      }
+    },
+    {
+      "id": "node-E_r4BLrSyHkrxpg4HDkUm",
+      "label": "SQL Fundamentals",
+      "topicId": "E_r4BLrSyHkrxpg4HDkUm",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5200
+      }
+    },
+    {
+      "id": "node-k63rFXaVDUX2ZOVI_O9WG",
+      "label": "SQLAlchemy",
+      "topicId": "k63rFXaVDUX2ZOVI_O9WG",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5200
+      }
+    },
+    {
+      "id": "node--RepeaHp66GGuM66k9JHd",
+      "label": "sqlite3",
+      "topicId": "-RepeaHp66GGuM66k9JHd",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5200
+      }
+    },
+    {
+      "id": "node-KLXFKVb-EC5WOigI63y09",
+      "label": "Statistics & ML",
+      "topicId": "KLXFKVb-EC5WOigI63y09",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5360
+      }
+    },
+    {
+      "id": "node-Z-inS5OKdXi6yveKgxMeC",
+      "label": "Streamlit",
+      "topicId": "Z-inS5OKdXi6yveKgxMeC",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5360
+      }
+    },
+    {
+      "id": "node-F-0Rxwu_RcNF_NOoFHoo7",
+      "label": "Strings",
+      "topicId": "F-0Rxwu_RcNF_NOoFHoo7",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5360
+      }
+    },
+    {
+      "id": "node-S1EzGF-CLu7tWDb1V6RQc",
+      "label": "strip, replace, split",
+      "topicId": "S1EzGF-CLu7tWDb1V6RQc",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5520
+      }
+    },
+    {
+      "id": "node-GRg7HyeVuSwkKD5bCOFiY",
+      "label": "Subplots and figures",
+      "topicId": "GRg7HyeVuSwkKD5bCOFiY",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5520
+      }
+    },
+    {
+      "id": "node-olniprgaL7l-9YhwbFfmN",
+      "label": "Tuples",
+      "topicId": "olniprgaL7l-9YhwbFfmN",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5520
+      }
+    },
+    {
+      "id": "node-NjCor7ePiZapd4f6bMZlV",
+      "label": "Type Casting",
+      "topicId": "NjCor7ePiZapd4f6bMZlV",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5680
+      }
+    },
+    {
+      "id": "node-0w4i0aavs0j2hl9Fbqy4Y",
+      "label": "uv",
+      "topicId": "0w4i0aavs0j2hl9Fbqy4Y",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5680
+      }
+    },
+    {
+      "id": "node-nZl1ngETFxKStt0tFvOpR",
+      "label": "Variance & Std. Deviation",
+      "topicId": "nZl1ngETFxKStt0tFvOpR",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5680
+      }
+    },
+    {
+      "id": "node-IL0fFEs4CgK_eBft-SYAl",
+      "label": "virtualenv / venv",
+      "topicId": "IL0fFEs4CgK_eBft-SYAl",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5840
+      }
+    },
+    {
+      "id": "node-UIFNQ9g5fMK-KoZCrqv27",
+      "label": "Visual Inspection",
+      "topicId": "UIFNQ9g5fMK-KoZCrqv27",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5840
+      }
+    },
+    {
+      "id": "node-ObA_xZDY7PxU54NGBwyVI",
+      "label": "VS Code",
+      "topicId": "ObA_xZDY7PxU54NGBwyVI",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5840
+      }
+    },
+    {
+      "id": "node-Sg5w8zO2Ji-uDJKEoWey9",
+      "label": "Working with Strings",
+      "topicId": "Sg5w8zO2Ji-uDJKEoWey9",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 6000
+      }
+    },
+    {
+      "id": "node-2HIeG6ywOA9BkE9W3Gu9v",
+      "label": "Z-score",
+      "topicId": "2HIeG6ywOA9BkE9W3Gu9v",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 6000
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-node-LERo7-ggtfZ-KZyNdBwt6-node-9vgD1Sd5B3iRMPLrfMG0C",
+      "source": "node-LERo7-ggtfZ-KZyNdBwt6",
+      "target": "node-9vgD1Sd5B3iRMPLrfMG0C",
+      "animated": true
+    },
+    {
+      "id": "edge-node-9vgD1Sd5B3iRMPLrfMG0C-node-10c4tiBOR68J3qa55LcJS",
+      "source": "node-9vgD1Sd5B3iRMPLrfMG0C",
+      "target": "node-10c4tiBOR68J3qa55LcJS",
+      "animated": true
+    },
+    {
+      "id": "edge-node-10c4tiBOR68J3qa55LcJS-node-7ukR74cN6lHbvhs4mFn6R",
+      "source": "node-10c4tiBOR68J3qa55LcJS",
+      "target": "node-7ukR74cN6lHbvhs4mFn6R",
+      "animated": true
+    },
+    {
+      "id": "edge-node-7ukR74cN6lHbvhs4mFn6R-node-AAxvIAas2Sdkz9-2uNHXq",
+      "source": "node-7ukR74cN6lHbvhs4mFn6R",
+      "target": "node-AAxvIAas2Sdkz9-2uNHXq",
+      "animated": true
+    },
+    {
+      "id": "edge-node-AAxvIAas2Sdkz9-2uNHXq-node-qOZ-T7zaPjvIT222rSV4o",
+      "source": "node-AAxvIAas2Sdkz9-2uNHXq",
+      "target": "node-qOZ-T7zaPjvIT222rSV4o",
+      "animated": true
+    },
+    {
+      "id": "edge-node-qOZ-T7zaPjvIT222rSV4o-node-qiUPTXFgfukxlPhnv76jo",
+      "source": "node-qOZ-T7zaPjvIT222rSV4o",
+      "target": "node-qiUPTXFgfukxlPhnv76jo",
+      "animated": true
+    },
+    {
+      "id": "edge-node-qiUPTXFgfukxlPhnv76jo-node-w4K_ffCUbzhGxWyoKsspu",
+      "source": "node-qiUPTXFgfukxlPhnv76jo",
+      "target": "node-w4K_ffCUbzhGxWyoKsspu",
+      "animated": true
+    },
+    {
+      "id": "edge-node-w4K_ffCUbzhGxWyoKsspu-node-GkxSrpOJx-SWvnDkTPcJt",
+      "source": "node-w4K_ffCUbzhGxWyoKsspu",
+      "target": "node-GkxSrpOJx-SWvnDkTPcJt",
+      "animated": true
+    },
+    {
+      "id": "edge-node-GkxSrpOJx-SWvnDkTPcJt-node-Ze02ApxTvyQqtB3VYv3d4",
+      "source": "node-GkxSrpOJx-SWvnDkTPcJt",
+      "target": "node-Ze02ApxTvyQqtB3VYv3d4",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Ze02ApxTvyQqtB3VYv3d4-node-ij8PMz519gC9WIxlWGD7B",
+      "source": "node-Ze02ApxTvyQqtB3VYv3d4",
+      "target": "node-ij8PMz519gC9WIxlWGD7B",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ij8PMz519gC9WIxlWGD7B-node-KtV5Jl-hOcUS5L-15BUDD",
+      "source": "node-ij8PMz519gC9WIxlWGD7B",
+      "target": "node-KtV5Jl-hOcUS5L-15BUDD",
+      "animated": true
+    },
+    {
+      "id": "edge-node-KtV5Jl-hOcUS5L-15BUDD-node-XI8bvhQ3ugezTu60USUG2",
+      "source": "node-KtV5Jl-hOcUS5L-15BUDD",
+      "target": "node-XI8bvhQ3ugezTu60USUG2",
+      "animated": true
+    },
+    {
+      "id": "edge-node-XI8bvhQ3ugezTu60USUG2-node-Dj8Ar4-NQ5mQQhNHmQJVy",
+      "source": "node-XI8bvhQ3ugezTu60USUG2",
+      "target": "node-Dj8Ar4-NQ5mQQhNHmQJVy",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Dj8Ar4-NQ5mQQhNHmQJVy-node-Md0yXC3JTH56Wky5jA8Fk",
+      "source": "node-Dj8Ar4-NQ5mQQhNHmQJVy",
+      "target": "node-Md0yXC3JTH56Wky5jA8Fk",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Md0yXC3JTH56Wky5jA8Fk-node-j1jq5_64lBuYQQjJWKIuI",
+      "source": "node-Md0yXC3JTH56Wky5jA8Fk",
+      "target": "node-j1jq5_64lBuYQQjJWKIuI",
+      "animated": true
+    },
+    {
+      "id": "edge-node-j1jq5_64lBuYQQjJWKIuI-node-NP1kjSk0ujU0Gx-ajNHlR",
+      "source": "node-j1jq5_64lBuYQQjJWKIuI",
+      "target": "node-NP1kjSk0ujU0Gx-ajNHlR",
+      "animated": true
+    },
+    {
+      "id": "edge-node-NP1kjSk0ujU0Gx-ajNHlR-node-YCMSjDjUCnkz2VPXfLxz5",
+      "source": "node-NP1kjSk0ujU0Gx-ajNHlR",
+      "target": "node-YCMSjDjUCnkz2VPXfLxz5",
+      "animated": true
+    },
+    {
+      "id": "edge-node-YCMSjDjUCnkz2VPXfLxz5-node-PHfLEgeEMChsSOSIgMoWH",
+      "source": "node-YCMSjDjUCnkz2VPXfLxz5",
+      "target": "node-PHfLEgeEMChsSOSIgMoWH",
+      "animated": true
+    },
+    {
+      "id": "edge-node-PHfLEgeEMChsSOSIgMoWH-node-7XHYCVpUpvwAtaUBjTa4O",
+      "source": "node-PHfLEgeEMChsSOSIgMoWH",
+      "target": "node-7XHYCVpUpvwAtaUBjTa4O",
+      "animated": true
+    },
+    {
+      "id": "edge-node-7XHYCVpUpvwAtaUBjTa4O-node-nDUOJPCEzkCxX8B63HBP3",
+      "source": "node-7XHYCVpUpvwAtaUBjTa4O",
+      "target": "node-nDUOJPCEzkCxX8B63HBP3",
+      "animated": true
+    },
+    {
+      "id": "edge-node-nDUOJPCEzkCxX8B63HBP3-node-j4UHICw-niFv1RRlC-vk1",
+      "source": "node-nDUOJPCEzkCxX8B63HBP3",
+      "target": "node-j4UHICw-niFv1RRlC-vk1",
+      "animated": true
+    },
+    {
+      "id": "edge-node-j4UHICw-niFv1RRlC-vk1-node-JTYST4p4O9RQbCzxsoQhA",
+      "source": "node-j4UHICw-niFv1RRlC-vk1",
+      "target": "node-JTYST4p4O9RQbCzxsoQhA",
+      "animated": true
+    },
+    {
+      "id": "edge-node-JTYST4p4O9RQbCzxsoQhA-node--dsafcJlA16H_ji0zQvKy",
+      "source": "node-JTYST4p4O9RQbCzxsoQhA",
+      "target": "node--dsafcJlA16H_ji0zQvKy",
+      "animated": true
+    },
+    {
+      "id": "edge-node--dsafcJlA16H_ji0zQvKy-node-uyhlD_ZBCCd3IvrWZ5mlh",
+      "source": "node--dsafcJlA16H_ji0zQvKy",
+      "target": "node-uyhlD_ZBCCd3IvrWZ5mlh",
+      "animated": true
+    },
+    {
+      "id": "edge-node-uyhlD_ZBCCd3IvrWZ5mlh-node-ApowKoA3C1B8oUr4-sltZ",
+      "source": "node-uyhlD_ZBCCd3IvrWZ5mlh",
+      "target": "node-ApowKoA3C1B8oUr4-sltZ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ApowKoA3C1B8oUr4-sltZ-node-K53X-NB1S9XXSF6j8q1qu",
+      "source": "node-ApowKoA3C1B8oUr4-sltZ",
+      "target": "node-K53X-NB1S9XXSF6j8q1qu",
+      "animated": true
+    },
+    {
+      "id": "edge-node-K53X-NB1S9XXSF6j8q1qu-node-f3YL32h2gbU_G8kkNC3Vc",
+      "source": "node-K53X-NB1S9XXSF6j8q1qu",
+      "target": "node-f3YL32h2gbU_G8kkNC3Vc",
+      "animated": true
+    },
+    {
+      "id": "edge-node-f3YL32h2gbU_G8kkNC3Vc-node-0XtKHqPS6AfhQvhH5cu7Q",
+      "source": "node-f3YL32h2gbU_G8kkNC3Vc",
+      "target": "node-0XtKHqPS6AfhQvhH5cu7Q",
+      "animated": true
+    },
+    {
+      "id": "edge-node-0XtKHqPS6AfhQvhH5cu7Q-node-lReYQM-p8rrYcHkaqzbMr",
+      "source": "node-0XtKHqPS6AfhQvhH5cu7Q",
+      "target": "node-lReYQM-p8rrYcHkaqzbMr",
+      "animated": true
+    },
+    {
+      "id": "edge-node-lReYQM-p8rrYcHkaqzbMr-node-Xq7Ho2kWg5AtZK0G6z02U",
+      "source": "node-lReYQM-p8rrYcHkaqzbMr",
+      "target": "node-Xq7Ho2kWg5AtZK0G6z02U",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Xq7Ho2kWg5AtZK0G6z02U-node-xIS0cJ8ui0siBoZJr3-B_",
+      "source": "node-Xq7Ho2kWg5AtZK0G6z02U",
+      "target": "node-xIS0cJ8ui0siBoZJr3-B_",
+      "animated": true
+    },
+    {
+      "id": "edge-node-xIS0cJ8ui0siBoZJr3-B_-node-a6HiqhsJJijqObw9pNOqb",
+      "source": "node-xIS0cJ8ui0siBoZJr3-B_",
+      "target": "node-a6HiqhsJJijqObw9pNOqb",
+      "animated": true
+    },
+    {
+      "id": "edge-node-a6HiqhsJJijqObw9pNOqb-node-1bHv3_acNts_BeOn3l6DF",
+      "source": "node-a6HiqhsJJijqObw9pNOqb",
+      "target": "node-1bHv3_acNts_BeOn3l6DF",
+      "animated": true
+    },
+    {
+      "id": "edge-node-1bHv3_acNts_BeOn3l6DF-node-8Z20apU8ugXwdH8rRZAcr",
+      "source": "node-1bHv3_acNts_BeOn3l6DF",
+      "target": "node-8Z20apU8ugXwdH8rRZAcr",
+      "animated": true
+    },
+    {
+      "id": "edge-node-8Z20apU8ugXwdH8rRZAcr-node-OwEBYI4u7nb9-UGOR9SQf",
+      "source": "node-8Z20apU8ugXwdH8rRZAcr",
+      "target": "node-OwEBYI4u7nb9-UGOR9SQf",
+      "animated": true
+    },
+    {
+      "id": "edge-node-OwEBYI4u7nb9-UGOR9SQf-node-eObhSoXcbqLdwegzaWmi7",
+      "source": "node-OwEBYI4u7nb9-UGOR9SQf",
+      "target": "node-eObhSoXcbqLdwegzaWmi7",
+      "animated": true
+    },
+    {
+      "id": "edge-node-eObhSoXcbqLdwegzaWmi7-node-wxO7f8wh6JTXHYDiPcbmy",
+      "source": "node-eObhSoXcbqLdwegzaWmi7",
+      "target": "node-wxO7f8wh6JTXHYDiPcbmy",
+      "animated": true
+    },
+    {
+      "id": "edge-node-wxO7f8wh6JTXHYDiPcbmy-node-aLIXcqB258WNrdASuN_7G",
+      "source": "node-wxO7f8wh6JTXHYDiPcbmy",
+      "target": "node-aLIXcqB258WNrdASuN_7G",
+      "animated": true
+    },
+    {
+      "id": "edge-node-aLIXcqB258WNrdASuN_7G-node-9mFT0z5yT446_-nGdG492",
+      "source": "node-aLIXcqB258WNrdASuN_7G",
+      "target": "node-9mFT0z5yT446_-nGdG492",
+      "animated": true
+    },
+    {
+      "id": "edge-node-9mFT0z5yT446_-nGdG492-node-kyrS5ez7_85AnNt8Bojz_",
+      "source": "node-9mFT0z5yT446_-nGdG492",
+      "target": "node-kyrS5ez7_85AnNt8Bojz_",
+      "animated": true
+    },
+    {
+      "id": "edge-node-kyrS5ez7_85AnNt8Bojz_-node--Bxn2sj2NjHLhRZrPIi0n",
+      "source": "node-kyrS5ez7_85AnNt8Bojz_",
+      "target": "node--Bxn2sj2NjHLhRZrPIi0n",
+      "animated": true
+    },
+    {
+      "id": "edge-node--Bxn2sj2NjHLhRZrPIi0n-node-SWrijRzSZxhnSYDwv1_pH",
+      "source": "node--Bxn2sj2NjHLhRZrPIi0n",
+      "target": "node-SWrijRzSZxhnSYDwv1_pH",
+      "animated": true
+    },
+    {
+      "id": "edge-node-SWrijRzSZxhnSYDwv1_pH-node-c8uLNJMr6UZfvjFwFhxvd",
+      "source": "node-SWrijRzSZxhnSYDwv1_pH",
+      "target": "node-c8uLNJMr6UZfvjFwFhxvd",
+      "animated": true
+    },
+    {
+      "id": "edge-node-c8uLNJMr6UZfvjFwFhxvd-node-KnSv5dPToipoz2RF1dDnO",
+      "source": "node-c8uLNJMr6UZfvjFwFhxvd",
+      "target": "node-KnSv5dPToipoz2RF1dDnO",
+      "animated": true
+    },
+    {
+      "id": "edge-node-KnSv5dPToipoz2RF1dDnO-node-Bk3z1CHnrnV6ii2Y0BF8G",
+      "source": "node-KnSv5dPToipoz2RF1dDnO",
+      "target": "node-Bk3z1CHnrnV6ii2Y0BF8G",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Bk3z1CHnrnV6ii2Y0BF8G-node-oRaag-FOl50NJM0y4joBm",
+      "source": "node-Bk3z1CHnrnV6ii2Y0BF8G",
+      "target": "node-oRaag-FOl50NJM0y4joBm",
+      "animated": true
+    },
+    {
+      "id": "edge-node-oRaag-FOl50NJM0y4joBm-node-mAOljEWt_0Hb9jLBKuc-H",
+      "source": "node-oRaag-FOl50NJM0y4joBm",
+      "target": "node-mAOljEWt_0Hb9jLBKuc-H",
+      "animated": true
+    },
+    {
+      "id": "edge-node-mAOljEWt_0Hb9jLBKuc-H-node-PlFcaQsvFSK0Y-LKGu0eH",
+      "source": "node-mAOljEWt_0Hb9jLBKuc-H",
+      "target": "node-PlFcaQsvFSK0Y-LKGu0eH",
+      "animated": true
+    },
+    {
+      "id": "edge-node-PlFcaQsvFSK0Y-LKGu0eH-node-_-bUq5jtewDmsmnzYw1-q",
+      "source": "node-PlFcaQsvFSK0Y-LKGu0eH",
+      "target": "node-_-bUq5jtewDmsmnzYw1-q",
+      "animated": true
+    },
+    {
+      "id": "edge-node-_-bUq5jtewDmsmnzYw1-q-node-ES8zVixZ5wZ0tW6beOWxJ",
+      "source": "node-_-bUq5jtewDmsmnzYw1-q",
+      "target": "node-ES8zVixZ5wZ0tW6beOWxJ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ES8zVixZ5wZ0tW6beOWxJ-node-GISOFMKvnBys0O0IMpz2J",
+      "source": "node-ES8zVixZ5wZ0tW6beOWxJ",
+      "target": "node-GISOFMKvnBys0O0IMpz2J",
+      "animated": true
+    },
+    {
+      "id": "edge-node-GISOFMKvnBys0O0IMpz2J-node-ucEFYVtXIvuYKjudK3pwB",
+      "source": "node-GISOFMKvnBys0O0IMpz2J",
+      "target": "node-ucEFYVtXIvuYKjudK3pwB",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ucEFYVtXIvuYKjudK3pwB-node-bcODvfBqCUwLVXa8HKOFB",
+      "source": "node-ucEFYVtXIvuYKjudK3pwB",
+      "target": "node-bcODvfBqCUwLVXa8HKOFB",
+      "animated": true
+    },
+    {
+      "id": "edge-node-bcODvfBqCUwLVXa8HKOFB-node-VEetEvKGNzAO9QdZY2g86",
+      "source": "node-bcODvfBqCUwLVXa8HKOFB",
+      "target": "node-VEetEvKGNzAO9QdZY2g86",
+      "animated": true
+    },
+    {
+      "id": "edge-node-VEetEvKGNzAO9QdZY2g86-node-2m8uQRGaVZUd4mfm7bRou",
+      "source": "node-VEetEvKGNzAO9QdZY2g86",
+      "target": "node-2m8uQRGaVZUd4mfm7bRou",
+      "animated": true
+    },
+    {
+      "id": "edge-node-2m8uQRGaVZUd4mfm7bRou-node-AzsZhpK-wuWtafVFJMhdY",
+      "source": "node-2m8uQRGaVZUd4mfm7bRou",
+      "target": "node-AzsZhpK-wuWtafVFJMhdY",
+      "animated": true
+    },
+    {
+      "id": "edge-node-AzsZhpK-wuWtafVFJMhdY-node-xHDrwKDE_mrSihCsPQMBF",
+      "source": "node-AzsZhpK-wuWtafVFJMhdY",
+      "target": "node-xHDrwKDE_mrSihCsPQMBF",
+      "animated": true
+    },
+    {
+      "id": "edge-node-xHDrwKDE_mrSihCsPQMBF-node-la9oiXURvw6AH-Vuh-WqT",
+      "source": "node-xHDrwKDE_mrSihCsPQMBF",
+      "target": "node-la9oiXURvw6AH-Vuh-WqT",
+      "animated": true
+    },
+    {
+      "id": "edge-node-la9oiXURvw6AH-Vuh-WqT-node-F4dp3Ip8G-EI1hprtv3do",
+      "source": "node-la9oiXURvw6AH-Vuh-WqT",
+      "target": "node-F4dp3Ip8G-EI1hprtv3do",
+      "animated": true
+    },
+    {
+      "id": "edge-node-F4dp3Ip8G-EI1hprtv3do-node-_0K6o-R0F2a9bpEDfRcTi",
+      "source": "node-F4dp3Ip8G-EI1hprtv3do",
+      "target": "node-_0K6o-R0F2a9bpEDfRcTi",
+      "animated": true
+    },
+    {
+      "id": "edge-node-_0K6o-R0F2a9bpEDfRcTi-node-Dvy7BnNzK55qbh_SgOk8m",
+      "source": "node-_0K6o-R0F2a9bpEDfRcTi",
+      "target": "node-Dvy7BnNzK55qbh_SgOk8m",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Dvy7BnNzK55qbh_SgOk8m-node-Md9Yq7bwDNo6hO_A9aa9N",
+      "source": "node-Dvy7BnNzK55qbh_SgOk8m",
+      "target": "node-Md9Yq7bwDNo6hO_A9aa9N",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Md9Yq7bwDNo6hO_A9aa9N-node-DdA2gJKpgOHj9mqZL-c4F",
+      "source": "node-Md9Yq7bwDNo6hO_A9aa9N",
+      "target": "node-DdA2gJKpgOHj9mqZL-c4F",
+      "animated": true
+    },
+    {
+      "id": "edge-node-DdA2gJKpgOHj9mqZL-c4F-node-Rq9TFEEJnjEgVa1DiJxFz",
+      "source": "node-DdA2gJKpgOHj9mqZL-c4F",
+      "target": "node-Rq9TFEEJnjEgVa1DiJxFz",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Rq9TFEEJnjEgVa1DiJxFz-node-GidLncxwx7d1QzAOfHRLX",
+      "source": "node-Rq9TFEEJnjEgVa1DiJxFz",
+      "target": "node-GidLncxwx7d1QzAOfHRLX",
+      "animated": true
+    },
+    {
+      "id": "edge-node-GidLncxwx7d1QzAOfHRLX-node-IO-disDSfkPau4Pd_TNwc",
+      "source": "node-GidLncxwx7d1QzAOfHRLX",
+      "target": "node-IO-disDSfkPau4Pd_TNwc",
+      "animated": true
+    },
+    {
+      "id": "edge-node-IO-disDSfkPau4Pd_TNwc-node-hTAQSe0rHv7fuAMfxJwGp",
+      "source": "node-IO-disDSfkPau4Pd_TNwc",
+      "target": "node-hTAQSe0rHv7fuAMfxJwGp",
+      "animated": true
+    },
+    {
+      "id": "edge-node-hTAQSe0rHv7fuAMfxJwGp-node-so95CO6Qw3I0S98ISENS-",
+      "source": "node-hTAQSe0rHv7fuAMfxJwGp",
+      "target": "node-so95CO6Qw3I0S98ISENS-",
+      "animated": true
+    },
+    {
+      "id": "edge-node-so95CO6Qw3I0S98ISENS--node-yRHodYYqdICLZyG3J9qjc",
+      "source": "node-so95CO6Qw3I0S98ISENS-",
+      "target": "node-yRHodYYqdICLZyG3J9qjc",
+      "animated": true
+    },
+    {
+      "id": "edge-node-yRHodYYqdICLZyG3J9qjc-node-bIblb5cVNSZLqSuskmKnP",
+      "source": "node-yRHodYYqdICLZyG3J9qjc",
+      "target": "node-bIblb5cVNSZLqSuskmKnP",
+      "animated": true
+    },
+    {
+      "id": "edge-node-bIblb5cVNSZLqSuskmKnP-node-cD139cRk1xj2ip-o_078l",
+      "source": "node-bIblb5cVNSZLqSuskmKnP",
+      "target": "node-cD139cRk1xj2ip-o_078l",
+      "animated": true
+    },
+    {
+      "id": "edge-node-cD139cRk1xj2ip-o_078l-node-sBKhhjfFTpbj7TQwVnX7F",
+      "source": "node-cD139cRk1xj2ip-o_078l",
+      "target": "node-sBKhhjfFTpbj7TQwVnX7F",
+      "animated": true
+    },
+    {
+      "id": "edge-node-sBKhhjfFTpbj7TQwVnX7F-node-L7btVRwvkEVX0K8LxnbqJ",
+      "source": "node-sBKhhjfFTpbj7TQwVnX7F",
+      "target": "node-L7btVRwvkEVX0K8LxnbqJ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-L7btVRwvkEVX0K8LxnbqJ-node-6dJaQRj2zMz00sfTiTdww",
+      "source": "node-L7btVRwvkEVX0K8LxnbqJ",
+      "target": "node-6dJaQRj2zMz00sfTiTdww",
+      "animated": true
+    },
+    {
+      "id": "edge-node-6dJaQRj2zMz00sfTiTdww-node-5HEYmbVJ6Z7lvgqalVjxW",
+      "source": "node-6dJaQRj2zMz00sfTiTdww",
+      "target": "node-5HEYmbVJ6Z7lvgqalVjxW",
+      "animated": true
+    },
+    {
+      "id": "edge-node-5HEYmbVJ6Z7lvgqalVjxW-node-J_u8yvrHEWKKmVsVgPN7L",
+      "source": "node-5HEYmbVJ6Z7lvgqalVjxW",
+      "target": "node-J_u8yvrHEWKKmVsVgPN7L",
+      "animated": true
+    },
+    {
+      "id": "edge-node-J_u8yvrHEWKKmVsVgPN7L-node-18eitPvBQKdeM3K33d59g",
+      "source": "node-J_u8yvrHEWKKmVsVgPN7L",
+      "target": "node-18eitPvBQKdeM3K33d59g",
+      "animated": true
+    },
+    {
+      "id": "edge-node-18eitPvBQKdeM3K33d59g-node-EHVXO79NGpLC1i8x4Y7g1",
+      "source": "node-18eitPvBQKdeM3K33d59g",
+      "target": "node-EHVXO79NGpLC1i8x4Y7g1",
+      "animated": true
+    },
+    {
+      "id": "edge-node-EHVXO79NGpLC1i8x4Y7g1-node-icVUQgedEGcaPpJSV8JdI",
+      "source": "node-EHVXO79NGpLC1i8x4Y7g1",
+      "target": "node-icVUQgedEGcaPpJSV8JdI",
+      "animated": true
+    },
+    {
+      "id": "edge-node-icVUQgedEGcaPpJSV8JdI-node-XTXm8aIDbRkTXoAck_m3I",
+      "source": "node-icVUQgedEGcaPpJSV8JdI",
+      "target": "node-XTXm8aIDbRkTXoAck_m3I",
+      "animated": true
+    },
+    {
+      "id": "edge-node-XTXm8aIDbRkTXoAck_m3I-node-XizmE-QroU4GJbjvqNYxe",
+      "source": "node-XTXm8aIDbRkTXoAck_m3I",
+      "target": "node-XizmE-QroU4GJbjvqNYxe",
+      "animated": true
+    },
+    {
+      "id": "edge-node-XizmE-QroU4GJbjvqNYxe-node-oXhGEIie-MzfUSM2Ng4Zm",
+      "source": "node-XizmE-QroU4GJbjvqNYxe",
+      "target": "node-oXhGEIie-MzfUSM2Ng4Zm",
+      "animated": true
+    },
+    {
+      "id": "edge-node-oXhGEIie-MzfUSM2Ng4Zm-node-w2j11Jyr_qLP1Y9ST-06O",
+      "source": "node-oXhGEIie-MzfUSM2Ng4Zm",
+      "target": "node-w2j11Jyr_qLP1Y9ST-06O",
+      "animated": true
+    },
+    {
+      "id": "edge-node-w2j11Jyr_qLP1Y9ST-06O-node-34DL5RWQtHkvgVhI9a_ZQ",
+      "source": "node-w2j11Jyr_qLP1Y9ST-06O",
+      "target": "node-34DL5RWQtHkvgVhI9a_ZQ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-34DL5RWQtHkvgVhI9a_ZQ-node-w8iQWthKu1w75z36B8Ir3",
+      "source": "node-34DL5RWQtHkvgVhI9a_ZQ",
+      "target": "node-w8iQWthKu1w75z36B8Ir3",
+      "animated": true
+    },
+    {
+      "id": "edge-node-w8iQWthKu1w75z36B8Ir3-node-PcGJMkmZrl4xc2ADT9dF3",
+      "source": "node-w8iQWthKu1w75z36B8Ir3",
+      "target": "node-PcGJMkmZrl4xc2ADT9dF3",
+      "animated": true
+    },
+    {
+      "id": "edge-node-PcGJMkmZrl4xc2ADT9dF3-node-ACr__YweG2xOAf56FK8tE",
+      "source": "node-PcGJMkmZrl4xc2ADT9dF3",
+      "target": "node-ACr__YweG2xOAf56FK8tE",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ACr__YweG2xOAf56FK8tE-node-mElhFGGT2GnLg2AkJFETN",
+      "source": "node-ACr__YweG2xOAf56FK8tE",
+      "target": "node-mElhFGGT2GnLg2AkJFETN",
+      "animated": true
+    },
+    {
+      "id": "edge-node-mElhFGGT2GnLg2AkJFETN-node-4ce2yYLRCSb3azsOMpE-U",
+      "source": "node-mElhFGGT2GnLg2AkJFETN",
+      "target": "node-4ce2yYLRCSb3azsOMpE-U",
+      "animated": true
+    },
+    {
+      "id": "edge-node-4ce2yYLRCSb3azsOMpE-U-node-npndQC8OIfP1wwn_iswPy",
+      "source": "node-4ce2yYLRCSb3azsOMpE-U",
+      "target": "node-npndQC8OIfP1wwn_iswPy",
+      "animated": true
+    },
+    {
+      "id": "edge-node-npndQC8OIfP1wwn_iswPy-node-YxA0ms9vkufKGOguRNK1B",
+      "source": "node-npndQC8OIfP1wwn_iswPy",
+      "target": "node-YxA0ms9vkufKGOguRNK1B",
+      "animated": true
+    },
+    {
+      "id": "edge-node-YxA0ms9vkufKGOguRNK1B-node-UImXdBHQKCzp9NdjF9xMi",
+      "source": "node-YxA0ms9vkufKGOguRNK1B",
+      "target": "node-UImXdBHQKCzp9NdjF9xMi",
+      "animated": true
+    },
+    {
+      "id": "edge-node-UImXdBHQKCzp9NdjF9xMi-node-zx7uCaQiCxvXMhm9FG3XG",
+      "source": "node-UImXdBHQKCzp9NdjF9xMi",
+      "target": "node-zx7uCaQiCxvXMhm9FG3XG",
+      "animated": true
+    },
+    {
+      "id": "edge-node-zx7uCaQiCxvXMhm9FG3XG-node-3N5N6qe8JVr0XGOFdn5-8",
+      "source": "node-zx7uCaQiCxvXMhm9FG3XG",
+      "target": "node-3N5N6qe8JVr0XGOFdn5-8",
+      "animated": true
+    },
+    {
+      "id": "edge-node-3N5N6qe8JVr0XGOFdn5-8-node-GvV_thqIC0yXyJbJt_Zmu",
+      "source": "node-3N5N6qe8JVr0XGOFdn5-8",
+      "target": "node-GvV_thqIC0yXyJbJt_Zmu",
+      "animated": true
+    },
+    {
+      "id": "edge-node-GvV_thqIC0yXyJbJt_Zmu-node-E_r4BLrSyHkrxpg4HDkUm",
+      "source": "node-GvV_thqIC0yXyJbJt_Zmu",
+      "target": "node-E_r4BLrSyHkrxpg4HDkUm",
+      "animated": true
+    },
+    {
+      "id": "edge-node-E_r4BLrSyHkrxpg4HDkUm-node-k63rFXaVDUX2ZOVI_O9WG",
+      "source": "node-E_r4BLrSyHkrxpg4HDkUm",
+      "target": "node-k63rFXaVDUX2ZOVI_O9WG",
+      "animated": true
+    },
+    {
+      "id": "edge-node-k63rFXaVDUX2ZOVI_O9WG-node--RepeaHp66GGuM66k9JHd",
+      "source": "node-k63rFXaVDUX2ZOVI_O9WG",
+      "target": "node--RepeaHp66GGuM66k9JHd",
+      "animated": true
+    },
+    {
+      "id": "edge-node--RepeaHp66GGuM66k9JHd-node-KLXFKVb-EC5WOigI63y09",
+      "source": "node--RepeaHp66GGuM66k9JHd",
+      "target": "node-KLXFKVb-EC5WOigI63y09",
+      "animated": true
+    },
+    {
+      "id": "edge-node-KLXFKVb-EC5WOigI63y09-node-Z-inS5OKdXi6yveKgxMeC",
+      "source": "node-KLXFKVb-EC5WOigI63y09",
+      "target": "node-Z-inS5OKdXi6yveKgxMeC",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Z-inS5OKdXi6yveKgxMeC-node-F-0Rxwu_RcNF_NOoFHoo7",
+      "source": "node-Z-inS5OKdXi6yveKgxMeC",
+      "target": "node-F-0Rxwu_RcNF_NOoFHoo7",
+      "animated": true
+    },
+    {
+      "id": "edge-node-F-0Rxwu_RcNF_NOoFHoo7-node-S1EzGF-CLu7tWDb1V6RQc",
+      "source": "node-F-0Rxwu_RcNF_NOoFHoo7",
+      "target": "node-S1EzGF-CLu7tWDb1V6RQc",
+      "animated": true
+    },
+    {
+      "id": "edge-node-S1EzGF-CLu7tWDb1V6RQc-node-GRg7HyeVuSwkKD5bCOFiY",
+      "source": "node-S1EzGF-CLu7tWDb1V6RQc",
+      "target": "node-GRg7HyeVuSwkKD5bCOFiY",
+      "animated": true
+    },
+    {
+      "id": "edge-node-GRg7HyeVuSwkKD5bCOFiY-node-olniprgaL7l-9YhwbFfmN",
+      "source": "node-GRg7HyeVuSwkKD5bCOFiY",
+      "target": "node-olniprgaL7l-9YhwbFfmN",
+      "animated": true
+    },
+    {
+      "id": "edge-node-olniprgaL7l-9YhwbFfmN-node-NjCor7ePiZapd4f6bMZlV",
+      "source": "node-olniprgaL7l-9YhwbFfmN",
+      "target": "node-NjCor7ePiZapd4f6bMZlV",
+      "animated": true
+    },
+    {
+      "id": "edge-node-NjCor7ePiZapd4f6bMZlV-node-0w4i0aavs0j2hl9Fbqy4Y",
+      "source": "node-NjCor7ePiZapd4f6bMZlV",
+      "target": "node-0w4i0aavs0j2hl9Fbqy4Y",
+      "animated": true
+    },
+    {
+      "id": "edge-node-0w4i0aavs0j2hl9Fbqy4Y-node-nZl1ngETFxKStt0tFvOpR",
+      "source": "node-0w4i0aavs0j2hl9Fbqy4Y",
+      "target": "node-nZl1ngETFxKStt0tFvOpR",
+      "animated": true
+    },
+    {
+      "id": "edge-node-nZl1ngETFxKStt0tFvOpR-node-IL0fFEs4CgK_eBft-SYAl",
+      "source": "node-nZl1ngETFxKStt0tFvOpR",
+      "target": "node-IL0fFEs4CgK_eBft-SYAl",
+      "animated": true
+    },
+    {
+      "id": "edge-node-IL0fFEs4CgK_eBft-SYAl-node-UIFNQ9g5fMK-KoZCrqv27",
+      "source": "node-IL0fFEs4CgK_eBft-SYAl",
+      "target": "node-UIFNQ9g5fMK-KoZCrqv27",
+      "animated": true
+    },
+    {
+      "id": "edge-node-UIFNQ9g5fMK-KoZCrqv27-node-ObA_xZDY7PxU54NGBwyVI",
+      "source": "node-UIFNQ9g5fMK-KoZCrqv27",
+      "target": "node-ObA_xZDY7PxU54NGBwyVI",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ObA_xZDY7PxU54NGBwyVI-node-Sg5w8zO2Ji-uDJKEoWey9",
+      "source": "node-ObA_xZDY7PxU54NGBwyVI",
+      "target": "node-Sg5w8zO2Ji-uDJKEoWey9",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Sg5w8zO2Ji-uDJKEoWey9-node-2HIeG6ywOA9BkE9W3Gu9v",
+      "source": "node-Sg5w8zO2Ji-uDJKEoWey9",
+      "target": "node-2HIeG6ywOA9BkE9W3Gu9v",
+      "animated": true
+    }
+  ],
+  "topics": {
+    "LERo7-ggtfZ-KZyNdBwt6": {
+      "id": "LERo7-ggtfZ-KZyNdBwt6",
+      "slug": "airflow",
+      "title": "Airflow",
+      "description": "Apache Airflow is an open-source platform for authoring, scheduling, and monitoring data pipelines. Pipelines are defined as DAGs (Directed Acyclic Graphs) in Python, where each node is a task and edges define dependencies. Airflow provides a web UI for monitoring runs, retrying failures, and tracking execution history. It is the standard orchestration tool for production Python data pipelines.",
+      "resources": [
+        {
+          "id": "LERo7-ggtfZ-KZyNdBwt6-res-1",
+          "type": "article",
+          "title": "Airflow 101: Building Your First Workflow",
+          "url": "https://airflow.apache.org/docs/apache-airflow/stable/tutorial/fundamentals.html"
+        },
+        {
+          "id": "LERo7-ggtfZ-KZyNdBwt6-res-2",
+          "type": "article",
+          "title": "Introduction to Apache Airflow",
+          "url": "https://www.dataquest.io/blog/introduction-to-apache-airflow/"
+        },
+        {
+          "id": "LERo7-ggtfZ-KZyNdBwt6-res-3",
+          "type": "video",
+          "title": "Airflow Tutorial For Beginners (2026)",
+          "url": "https://www.youtube.com/watch?v=IiczxlbQb8s"
+        }
+      ]
+    },
+    "9vgD1Sd5B3iRMPLrfMG0C": {
+      "id": "9vgD1Sd5B3iRMPLrfMG0C",
+      "slug": "altair",
+      "title": "Altair",
+      "description": "Altair is a declarative statistical visualization library for Python based on the Vega-Lite grammar. Charts are built by binding data columns to visual channels (x, y, color, size) and specifying the mark type. Altair produces interactive charts by default and generates JSON specifications that render in notebooks and web browsers.",
+      "resources": []
+    },
+    "10c4tiBOR68J3qa55LcJS": {
+      "id": "10c4tiBOR68J3qa55LcJS",
+      "slug": "apis-with-requests",
+      "title": "APIs with requests",
+      "description": "The `requests` library is the standard Python tool for making HTTP requests. It is used to call REST APIs that return JSON or XML data. A typical workflow involves calling `requests.get(url, params=params)`, checking the response status, and parsing the JSON body with `.json()` before loading it into a DataFrame.",
+      "resources": [
+        {
+          "id": "10c4tiBOR68J3qa55LcJS-res-1",
+          "type": "article",
+          "title": "Python Requests Module",
+          "url": "https://www.w3schools.com/python/module_requests.asp"
+        },
+        {
+          "id": "10c4tiBOR68J3qa55LcJS-res-2",
+          "type": "article",
+          "title": "Python's Requests Library (Guide)",
+          "url": "https://realpython.com/python-requests/"
+        },
+        {
+          "id": "10c4tiBOR68J3qa55LcJS-res-3",
+          "type": "video",
+          "title": "Master Python Requests In 15 Minutes. Call Any API",
+          "url": "https://www.youtube.com/watch?v=Xnbef8F_Yfc"
+        }
+      ]
+    },
+    "7ukR74cN6lHbvhs4mFn6R": {
+      "id": "7ukR74cN6lHbvhs4mFn6R",
+      "slug": "args--kwargs",
+      "title": "args & kwargs",
+      "description": "`*args` allows a function to accept any number of positional arguments as a tuple. `**kwargs` allows any number of keyword arguments as a dictionary. They make functions flexible when the number or names of arguments are not known in advance, and are widely used in Python libraries for passing options through layers of function calls.",
+      "resources": [
+        {
+          "id": "7ukR74cN6lHbvhs4mFn6R-res-1",
+          "type": "article",
+          "title": "Args and Kwargs in Python – Function Calling Made Easy",
+          "url": "https://towardsdatascience.com/args-and-kwargs-in-python-function-calling-made-easy-acfe736f988a/"
+        },
+        {
+          "id": "7ukR74cN6lHbvhs4mFn6R-res-2",
+          "type": "article",
+          "title": "Python args & kwargs",
+          "url": "https://www.w3schools.com/python/python_args_kwargs.asp"
+        },
+        {
+          "id": "7ukR74cN6lHbvhs4mFn6R-res-3",
+          "type": "video",
+          "title": "Python *ARGS & **KWARGS are awesome!",
+          "url": "https://www.youtube.com/watch?v=Vh__2V2tXUM"
+        }
+      ]
+    },
+    "AAxvIAas2Sdkz9-2uNHXq": {
+      "id": "AAxvIAas2Sdkz9-2uNHXq",
+      "slug": "arithmetic",
+      "title": "Arithmetic",
+      "description": "Arithmetic operators perform mathematical calculations: `+` (addition), `-` (subtraction), `*` (multiplication), `/` (division), `//` (floor division), `%` (modulo), and `**` (exponentiation). They are used constantly for computing derived columns, normalizing values, and performing aggregations.",
+      "resources": [
+        {
+          "id": "AAxvIAas2Sdkz9-2uNHXq-res-1",
+          "type": "article",
+          "title": "Python Arithmetic Operators",
+          "url": "https://www.w3schools.com/python/python_operators_arithmetic.asp"
+        },
+        {
+          "id": "AAxvIAas2Sdkz9-2uNHXq-res-2",
+          "type": "article",
+          "title": "Python Exponent: 5 Methods for Exponentiation + Applications",
+          "url": "https://roadmap.sh/python/exponent"
+        },
+        {
+          "id": "AAxvIAas2Sdkz9-2uNHXq-res-3",
+          "type": "article",
+          "title": "Python Division: Operators, Floor Division, and Examples",
+          "url": "https://roadmap.sh/python/division"
+        },
+        {
+          "id": "AAxvIAas2Sdkz9-2uNHXq-res-4",
+          "type": "article",
+          "title": "Python Modulo Operator (%): Complete Guide with Examples",
+          "url": "https://roadmap.sh/python/modulo"
+        }
+      ]
+    },
+    "qOZ-T7zaPjvIT222rSV4o": {
+      "id": "qOZ-T7zaPjvIT222rSV4o",
+      "slug": "array-operations",
+      "title": "Array Operations",
+      "description": "NumPy supports a wide range of array operations: element-wise arithmetic, aggregation functions (`sum`, `mean`, `std`, `min`, `max`), reshaping, stacking, and splitting. These operations are vectorized, meaning they apply to the entire array at once without explicit loops, making them highly efficient.",
+      "resources": [
+        {
+          "id": "qOZ-T7zaPjvIT222rSV4o-res-1",
+          "type": "article",
+          "title": "NumPy Arithmetic Array Operations",
+          "url": "https://www.programiz.com/python-programming/numpy/basic-array-operations"
+        },
+        {
+          "id": "qOZ-T7zaPjvIT222rSV4o-res-2",
+          "type": "article",
+          "title": "Doing Math with Arrays",
+          "url": "https://towardsdatascience.com/introducing-numpy-part-4-doing-math-with-arrays-5e77ac595641/"
+        },
+        {
+          "id": "qOZ-T7zaPjvIT222rSV4o-res-3",
+          "type": "video",
+          "title": "Ultimate Guide to NumPy Arrays",
+          "url": "https://www.youtube.com/watch?v=lLRBYKwP8GQ"
+        }
+      ]
+    },
+    "qiUPTXFgfukxlPhnv76jo": {
+      "id": "qiUPTXFgfukxlPhnv76jo",
+      "slug": "arrays--ndarray",
+      "title": "Arrays & ndarray",
+      "description": "The `ndarray` is NumPy's core data structure: a multi-dimensional, homogeneously typed array stored in contiguous memory. It supports element-wise operations, broadcasting, and vectorized computation far faster than Python lists. Understanding ndarray is fundamental to working efficiently with numerical data in Python.",
+      "resources": [
+        {
+          "id": "qiUPTXFgfukxlPhnv76jo-res-1",
+          "type": "article",
+          "title": "NumPy: the absolute basics for beginners",
+          "url": "https://numpy.org/doc/stable/user/absolute_beginners.html"
+        },
+        {
+          "id": "qiUPTXFgfukxlPhnv76jo-res-2",
+          "type": "article",
+          "title": "numpy.array",
+          "url": "https://numpy.org/doc/stable/reference/generated/numpy.array.html"
+        },
+        {
+          "id": "qiUPTXFgfukxlPhnv76jo-res-3",
+          "type": "video",
+          "title": "Ultimate Guide to NumPy Arrays",
+          "url": "https://www.youtube.com/watch?v=lLRBYKwP8GQ&pp=ygUMbnVtcHkgYXJyYXlz"
+        }
+      ]
+    },
+    "w4K_ffCUbzhGxWyoKsspu": {
+      "id": "w4K_ffCUbzhGxWyoKsspu",
+      "slug": "beautifulsoup",
+      "title": "BeautifulSoup",
+      "description": "BeautifulSoup is a Python library for parsing HTML and XML documents. It provides methods for navigating the document tree, searching for elements by tag, class, or attribute, and extracting text and links. BeautifulSoup is used for web scraping when the target website does not provide an API.",
+      "resources": [
+        {
+          "id": "w4K_ffCUbzhGxWyoKsspu-res-1",
+          "type": "article",
+          "title": "Beautiful Soup Documentation",
+          "url": "https://beautiful-soup-4.readthedocs.io/en/latest/"
+        },
+        {
+          "id": "w4K_ffCUbzhGxWyoKsspu-res-2",
+          "type": "article",
+          "title": "Beautiful Soup: Build a Web Scraper With Python",
+          "url": "https://realpython.com/beautiful-soup-web-scraper-python/"
+        },
+        {
+          "id": "w4K_ffCUbzhGxWyoKsspu-res-3",
+          "type": "video",
+          "title": "Web Scraping with Python - Beautiful Soup Crash Course",
+          "url": "https://www.youtube.com/watch?v=XVv6mJpFOb0"
+        }
+      ]
+    },
+    "GkxSrpOJx-SWvnDkTPcJt": {
+      "id": "GkxSrpOJx-SWvnDkTPcJt",
+      "slug": "big-data-tools",
+      "title": "Big Data Tools",
+      "description": "Big data tools process datasets too large to fit in a single machine's memory using distributed or out-of-core computation. Dask and PySpark are the primary Python tools for scaling beyond what Pandas and NumPy can handle. They provide familiar DataFrame-like APIs while distributing computation across cores or clusters.",
+      "resources": [
+        {
+          "id": "GkxSrpOJx-SWvnDkTPcJt-res-1",
+          "type": "article",
+          "title": "4 Types of Big Data Technologies (+ Management Tools)",
+          "url": "https://www.coursera.org/articles/big-data-technologies"
+        }
+      ]
+    },
+    "Ze02ApxTvyQqtB3VYv3d4": {
+      "id": "Ze02ApxTvyQqtB3VYv3d4",
+      "slug": "booleans",
+      "title": "Booleans",
+      "description": "Booleans (`bool`) have two values: `True` and `False`. They are the result of comparison and logical operations and are used to control flow and filter data.",
+      "resources": [
+        {
+          "id": "Ze02ApxTvyQqtB3VYv3d4-res-1",
+          "type": "article",
+          "title": "Built-in Types",
+          "url": "https://docs.python.org/3/library/stdtypes.html"
+        },
+        {
+          "id": "Ze02ApxTvyQqtB3VYv3d4-res-2",
+          "type": "article",
+          "title": "Python Booleans: Use Truth Values in Your Code",
+          "url": "https://realpython.com/ref/builtin-types/str/"
+        }
+      ]
+    },
+    "ij8PMz519gC9WIxlWGD7B": {
+      "id": "ij8PMz519gC9WIxlWGD7B",
+      "slug": "boxplot",
+      "title": "Boxplot",
+      "description": "A box plot displays the five-number summary of a variable: minimum, Q1, median, Q3, and maximum. The box covers the IQR, a line marks the median, and whiskers extend to the data range. Points beyond the whiskers are plotted individually as potential outliers. Box plots are effective for comparing distributions across groups.",
+      "resources": [
+        {
+          "id": "ij8PMz519gC9WIxlWGD7B-res-1",
+          "type": "article",
+          "title": "matplotlib.pyplot.boxplot",
+          "url": "https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.boxplot.html"
+        },
+        {
+          "id": "ij8PMz519gC9WIxlWGD7B-res-2",
+          "type": "article",
+          "title": "Create and customize boxplots with Python’s Matplotlib",
+          "url": "https://towardsdatascience.com/create-and-customize-boxplots-with-pythons-matplotlib-to-get-lots-of-insights-from-your-data-d561c9883643/"
+        },
+        {
+          "id": "ij8PMz519gC9WIxlWGD7B-res-3",
+          "type": "video",
+          "title": "Seaborn boxplot | Box plot explanation, box plot demo, and how to make a box plot in Python seaborn",
+          "url": "https://www.youtube.com/watch?v=Vo-bfTqEFQk"
+        }
+      ]
+    },
+    "KtV5Jl-hOcUS5L-15BUDD": {
+      "id": "KtV5Jl-hOcUS5L-15BUDD",
+      "slug": "built-in-functions",
+      "title": "Built-in Functions",
+      "description": "Python's built-in functions are available without any imports and cover common operations: `len()`, `sum()`, `min()`, `max()`, `sorted()`, `enumerate()`, `zip()`, `map()`, `filter()`, and others. These functions simplify common tasks and are used constantly alongside data analysis libraries.",
+      "resources": [
+        {
+          "id": "KtV5Jl-hOcUS5L-15BUDD-res-1",
+          "type": "article",
+          "title": "Built-in Functions",
+          "url": "https://docs.python.org/3/library/functions.html"
+        },
+        {
+          "id": "KtV5Jl-hOcUS5L-15BUDD-res-2",
+          "type": "article",
+          "title": "Master Python Filter: Syntax, Examples, and Best Practices",
+          "url": "https://roadmap.sh/python/filter"
+        },
+        {
+          "id": "KtV5Jl-hOcUS5L-15BUDD-res-3",
+          "type": "video",
+          "title": "All 71 built-in Python functions",
+          "url": "https://www.youtube.com/watch?v=7Qu_KXc7xSI"
+        }
+      ]
+    },
+    "XI8bvhQ3ugezTu60USUG2": {
+      "id": "XI8bvhQ3ugezTu60USUG2",
+      "slug": "casting-types",
+      "title": "Casting Types",
+      "description": "Casting types in Pandas converts a column from one data type to another using `.astype()`. Common conversions include converting string columns to numeric with `pd.to_numeric()`, converting to datetime with `pd.to_datetime()`, and converting integers to categories. Correct data types are required for accurate calculations and efficient memory use.",
+      "resources": [
+        {
+          "id": "XI8bvhQ3ugezTu60USUG2-res-1",
+          "type": "article",
+          "title": "pandas.DataFrame.astype",
+          "url": "https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.astype.html"
+        },
+        {
+          "id": "XI8bvhQ3ugezTu60USUG2-res-2",
+          "type": "article",
+          "title": "How To Change Column Type in Pandas DataFrames",
+          "url": "https://towardsdatascience.com/how-to-change-column-type-in-pandas-dataframes-d2a5548888f8/"
+        }
+      ]
+    },
+    "Dj8Ar4-NQ5mQQhNHmQJVy": {
+      "id": "Dj8Ar4-NQ5mQQhNHmQJVy",
+      "slug": "categorical-plots",
+      "title": "Categorical Plots",
+      "description": "Seaborn's categorical plots visualize the relationship between a numeric variable and one or more categorical variables. `sns.boxplot()`, `sns.violinplot()`, `sns.barplot()`, `sns.stripplot()`, and `sns.countplot()` cover the main patterns. They are used to compare distributions or averages across groups.",
+      "resources": [
+        {
+          "id": "Dj8Ar4-NQ5mQQhNHmQJVy-res-1",
+          "type": "article",
+          "title": "Visualizing categorical data",
+          "url": "https://seaborn.pydata.org/tutorial/categorical.html"
+        }
+      ]
+    },
+    "Md0yXC3JTH56Wky5jA8Fk": {
+      "id": "Md0yXC3JTH56Wky5jA8Fk",
+      "slug": "comparison",
+      "title": "Comparison",
+      "description": "Comparison operators evaluate the relationship between two values and return a boolean. They include `==`, `!=`, `<`, `>`, `<=`, and `>=`. They form the building blocks of filtering conditions applied to DataFrames and arrays.",
+      "resources": [
+        {
+          "id": "Md0yXC3JTH56Wky5jA8Fk-res-1",
+          "type": "article",
+          "title": "Python Comparison Operators",
+          "url": "https://www.w3schools.com/python/gloss_python_comparison_operators.asp"
+        },
+        {
+          "id": "Md0yXC3JTH56Wky5jA8Fk-res-2",
+          "type": "video",
+          "title": "Comparison Operators in Python",
+          "url": "https://www.youtube.com/watch?v=6ZQtBK-dM9c"
+        }
+      ]
+    },
+    "j1jq5_64lBuYQQjJWKIuI": {
+      "id": "j1jq5_64lBuYQQjJWKIuI",
+      "slug": "conda",
+      "title": "conda",
+      "description": "conda is an open-source package and environment manager included with the Anaconda and Miniconda distributions. It manages both Python packages and non-Python dependencies, making it well suited for scientific computing. conda environments isolate project dependencies and can be exported to `environment.yml` for reproducibility.",
+      "resources": [
+        {
+          "id": "j1jq5_64lBuYQQjJWKIuI-res-1",
+          "type": "article",
+          "title": "Anaconda",
+          "url": "https://www.anaconda.com/"
+        },
+        {
+          "id": "j1jq5_64lBuYQQjJWKIuI-res-2",
+          "type": "video",
+          "title": "Anaconda (Conda) for Python - What & Why?",
+          "url": "https://www.youtube.com/watch?v=23aQdrS58e0"
+        },
+        {
+          "id": "j1jq5_64lBuYQQjJWKIuI-res-3",
+          "type": "video",
+          "title": "Master the basics of Conda environments in Python",
+          "url": "https://www.youtube.com/watch?v=1VVCd0eSkYc"
+        }
+      ]
+    },
+    "NP1kjSk0ujU0Gx-ajNHlR": {
+      "id": "NP1kjSk0ujU0Gx-ajNHlR",
+      "slug": "conditionals",
+      "title": "Conditionals",
+      "description": "Conditionals execute different code paths based on whether a condition is true. Python uses `if`, `elif`, and `else` for this. Python 3.10 introduced `match/case`, a structural pattern matching statement that cleanly handles multiple specific value checks as an alternative to long `elif` chains. They appear in custom functions applied to DataFrames, in filtering logic, and in branching pipeline code.",
+      "resources": [
+        {
+          "id": "NP1kjSk0ujU0Gx-ajNHlR-res-1",
+          "type": "article",
+          "title": "Conditional Statements in Python",
+          "url": "https://realpython.com/python-conditional-statements/"
+        },
+        {
+          "id": "NP1kjSk0ujU0Gx-ajNHlR-res-2",
+          "type": "article",
+          "title": "Python Switch Statement 101: Match-case and alternatives",
+          "url": "https://roadmap.sh/python/switch"
+        },
+        {
+          "id": "NP1kjSk0ujU0Gx-ajNHlR-res-3",
+          "type": "video",
+          "title": "Control Flow in Python - If Elif Else Statements",
+          "url": "https://www.youtube.com/watch?v=Zp5MuPOtsSY"
+        }
+      ]
+    },
+    "YCMSjDjUCnkz2VPXfLxz5": {
+      "id": "YCMSjDjUCnkz2VPXfLxz5",
+      "slug": "correlation--covariance",
+      "title": "Correlation & Covariance",
+      "description": "Correlation measures the strength and direction of the linear relationship between two variables, scaled between −1 and +1. Covariance measures the same relationship but is not normalized, making it harder to interpret across variables with different scales. `df.corr()` and `df.cov()` compute these matrices in Pandas, and heatmaps are used to visualize them.",
+      "resources": [
+        {
+          "id": "YCMSjDjUCnkz2VPXfLxz5-res-1",
+          "type": "article",
+          "title": "Statistics in Python – Understanding Variance, Covariance, and Correlation",
+          "url": "https://towardsdatascience.com/statistics-in-python-understanding-variance-covariance-and-correlation-4729b528db01/"
+        },
+        {
+          "id": "YCMSjDjUCnkz2VPXfLxz5-res-2",
+          "type": "video",
+          "title": "Covariance and Correlation in Probability",
+          "url": "https://www.youtube.com/watch?v=QKPdk57y7Ck"
+        }
+      ]
+    },
+    "PHfLEgeEMChsSOSIgMoWH": {
+      "id": "PHfLEgeEMChsSOSIgMoWH",
+      "slug": "correlation-matrix",
+      "title": "Correlation Matrix",
+      "description": "A correlation matrix shows the pairwise correlation coefficients between all numeric columns in a dataset. It is computed with `df.corr()` and typically visualized as a heatmap using Seaborn. It is a key EDA tool for identifying which features are strongly related, which helps with feature selection and multicollinearity detection.",
+      "resources": [
+        {
+          "id": "PHfLEgeEMChsSOSIgMoWH-res-1",
+          "type": "article",
+          "title": "Correlation Matrix, Demystified",
+          "url": "https://medium.com/data-science/correlation-matrix-demystified-3ae3405c86c1"
+        },
+        {
+          "id": "PHfLEgeEMChsSOSIgMoWH-res-2",
+          "type": "article",
+          "title": "Data Science - Statistics Correlation Matrix",
+          "url": "https://www.w3schools.com/datascience/ds_stat_correlation_matrix.asp"
+        }
+      ]
+    },
+    "7XHYCVpUpvwAtaUBjTa4O": {
+      "id": "7XHYCVpUpvwAtaUBjTa4O",
+      "slug": "cross-tabulation",
+      "title": "Cross-tabulation",
+      "description": "Cross-tabulation (crosstab) counts the frequency of combinations of values across two or more categorical variables. `pd.crosstab()` produces a table of frequencies or proportions. It is used to examine relationships between categorical variables, such as how customer segments differ across product categories.",
+      "resources": [
+        {
+          "id": "7XHYCVpUpvwAtaUBjTa4O-res-1",
+          "type": "article",
+          "title": "pandas.crosstab",
+          "url": "https://pandas.pydata.org/docs/reference/api/pandas.crosstab.html"
+        },
+        {
+          "id": "7XHYCVpUpvwAtaUBjTa4O-res-2",
+          "type": "article",
+          "title": "The Power of Crosstab Function in Pandas",
+          "url": "https://medium.com/geekculture/the-power-of-crosstab-function-in-pandas-for-data-analysis-and-visualization-6c085c269fcd"
+        },
+        {
+          "id": "7XHYCVpUpvwAtaUBjTa4O-res-3",
+          "type": "video",
+          "title": "Python Pandas Tutorial 13. Crosstab",
+          "url": "https://www.youtube.com/watch?v=I_kUj-MfYys"
+        }
+      ]
+    },
+    "nDUOJPCEzkCxX8B63HBP3": {
+      "id": "nDUOJPCEzkCxX8B63HBP3",
+      "slug": "csv",
+      "title": "CSV",
+      "description": "CSV (Comma-Separated Values) is the most common format for tabular data exchange. `pd.read_csv()` loads a CSV file into a DataFrame and accepts dozens of parameters for handling separators, missing values, date parsing, and data types. CSV files are human-readable but lack type information, so columns often need type correction after loading.",
+      "resources": [
+        {
+          "id": "nDUOJPCEzkCxX8B63HBP3-res-1",
+          "type": "article",
+          "title": "pandas.read_csv",
+          "url": "https://pandas.pydata.org/docs/reference/api/pandas.read_csv.html"
+        },
+        {
+          "id": "nDUOJPCEzkCxX8B63HBP3-res-2",
+          "type": "article",
+          "title": "Pandas Read CSV",
+          "url": "https://www.w3schools.com/python/pandas/pandas_csv.asp"
+        },
+        {
+          "id": "nDUOJPCEzkCxX8B63HBP3-res-3",
+          "type": "video",
+          "title": "How to Read a CSV file into a Pandas DataFrame",
+          "url": "https://www.youtube.com/watch?v=4YI9z1qUpew"
+        }
+      ]
+    },
+    "j4UHICw-niFv1RRlC-vk1": {
+      "id": "j4UHICw-niFv1RRlC-vk1",
+      "slug": "customizing-plots",
+      "title": "Customizing Plots",
+      "description": "Seaborn plots are customized through function parameters (palette, hue, size, style) and by accessing the underlying Matplotlib axes after creation. `sns.set_theme()` and `sns.set_style()` change the global appearance. Seaborn's theming system makes it easy to produce clean, publication-ready charts with minimal code.",
+      "resources": [
+        {
+          "id": "j4UHICw-niFv1RRlC-vk1-res-1",
+          "type": "article",
+          "title": "Controlling figure aesthetics",
+          "url": "https://seaborn.pydata.org/tutorial/aesthetics.html"
+        },
+        {
+          "id": "j4UHICw-niFv1RRlC-vk1-res-2",
+          "type": "article",
+          "title": "5 Ways to Transform Your Seaborn Data Visualisations",
+          "url": "https://towardsdatascience.com/5-ways-to-transform-your-seaborn-data-visualisations-1ed2cb484e38/"
+        }
+      ]
+    },
+    "JTYST4p4O9RQbCzxsoQhA": {
+      "id": "JTYST4p4O9RQbCzxsoQhA",
+      "slug": "customizing-plots",
+      "title": "Customizing Plots",
+      "description": "Matplotlib allows extensive customization: titles with `set_title()`, axis labels with `set_xlabel()` / `set_ylabel()`, tick formatting, color palettes, line styles, font sizes, legends, and annotations. Customizing plots ensures they communicate clearly and meet the standards required for reports and presentations.",
+      "resources": [
+        {
+          "id": "JTYST4p4O9RQbCzxsoQhA-res-1",
+          "type": "course",
+          "title": "Advanced Matplotlib: Design & Customize Visualizations",
+          "url": "https://www.coursera.org/learn/advanced-matplotlib-design-customize-visualizations"
+        },
+        {
+          "id": "JTYST4p4O9RQbCzxsoQhA-res-2",
+          "type": "article",
+          "title": "Customizing Plots",
+          "url": "https://apxml.com/courses/intermediate-python-programming-ml/chapter-4-data-visualization-matplotlib-seaborn/matplotlib-customization"
+        },
+        {
+          "id": "JTYST4p4O9RQbCzxsoQhA-res-3",
+          "type": "article",
+          "title": "3 Tricks to Prettify Matplotlib Plots",
+          "url": "https://towardsdatascience.com/3-tricks-to-prettify-matplotlib-plots-d0a73b861c09/"
+        },
+        {
+          "id": "JTYST4p4O9RQbCzxsoQhA-res-4",
+          "type": "video",
+          "title": "Matplotlib customization is easy! 🎨",
+          "url": "https://www.youtube.com/watch?v=hunq_UOdmoo"
+        }
+      ]
+    },
+    "-dsafcJlA16H_ji0zQvKy": {
+      "id": "-dsafcJlA16H_ji0zQvKy",
+      "slug": "dash",
+      "title": "Dash",
+      "description": "Dash is a Python framework for building analytical web applications, developed by Plotly. It combines Plotly charts with reactive UI components and runs as a Flask web server. Dash provides more control and customization than Streamlit and is better suited for production-grade dashboards with complex interactivity.",
+      "resources": [
+        {
+          "id": "-dsafcJlA16H_ji0zQvKy-res-1",
+          "type": "article",
+          "title": "Dash in 20 Minutes",
+          "url": "https://dash.plotly.com/tutorial"
+        },
+        {
+          "id": "-dsafcJlA16H_ji0zQvKy-res-2",
+          "type": "video",
+          "title": "Introduction to Dash Plotly - Data Visualization in Python",
+          "url": "https://www.youtube.com/watch?v=hSPmj7mK6ng"
+        }
+      ]
+    },
+    "uyhlD_ZBCCd3IvrWZ5mlh": {
+      "id": "uyhlD_ZBCCd3IvrWZ5mlh",
+      "slug": "dashboards",
+      "title": "Dashboards",
+      "description": "Dashboards combine multiple visualizations and controls into a single interface for monitoring and exploring data. Python provides several tools for building data dashboards that can be shared as web applications without requiring frontend development skills. The main options are Streamlit, Dash, and connecting to BI tools like Power BI and Tableau.",
+      "resources": [
+        {
+          "id": "uyhlD_ZBCCd3IvrWZ5mlh-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated BI Analyst Roadmap",
+          "url": "https://roadmap.sh/bi-analyst"
+        },
+        {
+          "id": "uyhlD_ZBCCd3IvrWZ5mlh-res-2",
+          "type": "article",
+          "title": "What is a dashboard? A complete overview",
+          "url": "https://www.tableau.com/dashboard/what-is-dashboard"
+        }
+      ]
+    },
+    "ApowKoA3C1B8oUr4-sltZ": {
+      "id": "ApowKoA3C1B8oUr4-sltZ",
+      "slug": "dask",
+      "title": "Dask",
+      "description": "Dask is a parallel computing library for Python that scales Pandas, NumPy, and Scikit-learn to larger-than-memory datasets. It breaks data into chunks and builds a task graph that is executed lazily. Dask DataFrames mirror the Pandas API, making it easy to adapt existing code for larger datasets without switching ecosystems.",
+      "resources": [
+        {
+          "id": "ApowKoA3C1B8oUr4-sltZ-res-1",
+          "type": "article",
+          "title": "Dask Tutorial",
+          "url": "https://tutorial.dask.org/"
+        },
+        {
+          "id": "ApowKoA3C1B8oUr4-sltZ-res-2",
+          "type": "video",
+          "title": "Intro to Dask",
+          "url": "https://www.youtube.com/watch?v=z18qjLu-Mw4&list=PLeDTMczuyDQ8S73cdc0PrnTO80kfzpgz2"
+        }
+      ]
+    },
+    "K53X-NB1S9XXSF6j8q1qu": {
+      "id": "K53X-NB1S9XXSF6j8q1qu",
+      "slug": "data-cleaning",
+      "title": "Data Cleaning",
+      "description": "Data cleaning identifies and resolves quality issues in raw data so it is accurate and consistent enough for analysis. In Python, cleaning is done primarily with Pandas and string processing tools. Common tasks include handling missing values, fixing data types, standardizing text, removing duplicates, and detecting outliers.",
+      "resources": [
+        {
+          "id": "K53X-NB1S9XXSF6j8q1qu-res-1",
+          "type": "article",
+          "title": "Complete Guide to Data Cleaning in Python",
+          "url": "https://www.dataquest.io/guide/data-cleaning-in-python-tutorial/"
+        },
+        {
+          "id": "K53X-NB1S9XXSF6j8q1qu-res-2",
+          "type": "article",
+          "title": "Pandas Data Cleaning",
+          "url": "https://www.w3schools.com/python/pandas/pandas_cleaning.asp"
+        },
+        {
+          "id": "K53X-NB1S9XXSF6j8q1qu-res-3",
+          "type": "video",
+          "title": "Data Cleaning in Pandas | Python Pandas Tutorials",
+          "url": "https://www.youtube.com/watch?v=bDhvCp3_lYw"
+        }
+      ]
+    },
+    "f3YL32h2gbU_G8kkNC3Vc": {
+      "id": "f3YL32h2gbU_G8kkNC3Vc",
+      "slug": "data-pipelines",
+      "title": "Data Pipelines",
+      "description": "Data pipelines automate the sequence of steps that move and transform data from sources to destinations. They encapsulate the full workflow — ingestion, cleaning, transformation, and output — as code. Orchestration tools like Airflow schedule and monitor these pipelines in production, ensuring they run reliably and their failures are caught and handled.",
+      "resources": [
+        {
+          "id": "f3YL32h2gbU_G8kkNC3Vc-res-1",
+          "type": "article",
+          "title": "What is a data pipeline?",
+          "url": "https://www.ibm.com/think/topics/data-pipeline"
+        },
+        {
+          "id": "f3YL32h2gbU_G8kkNC3Vc-res-2",
+          "type": "video",
+          "title": "Data Pipelines Explained",
+          "url": "https://www.youtube.com/watch?v=6kEGUCrBEU0"
+        }
+      ]
+    },
+    "0XtKHqPS6AfhQvhH5cu7Q": {
+      "id": "0XtKHqPS6AfhQvhH5cu7Q",
+      "slug": "defining-functions",
+      "title": "Defining Functions",
+      "description": "User-defined functions are created with the `def` keyword and encapsulate reusable logic. A function takes parameters, executes a body, and returns a value with `return`. Writing well-scoped functions makes analysis code modular, testable, and easier to apply across a dataset using Pandas' `apply()` method.",
+      "resources": [
+        {
+          "id": "0XtKHqPS6AfhQvhH5cu7Q-res-1",
+          "type": "article",
+          "title": "Python Return Multiple Values: 4 Methods & Examples",
+          "url": "https://roadmap.sh/python/return-multiple-values"
+        },
+        {
+          "id": "0XtKHqPS6AfhQvhH5cu7Q-res-2",
+          "type": "video",
+          "title": "Python Functions - Visually Explained",
+          "url": "https://www.youtube.com/watch?v=KW6qncswzHw"
+        }
+      ]
+    },
+    "lReYQM-p8rrYcHkaqzbMr": {
+      "id": "lReYQM-p8rrYcHkaqzbMr",
+      "slug": "dictionaries",
+      "title": "Dictionaries",
+      "description": "Dictionaries store key-value pairs and provide fast lookup by key. They are used extensively in Python for mapping labels to values, building frequency counts, and configuring function arguments.",
+      "resources": [
+        {
+          "id": "lReYQM-p8rrYcHkaqzbMr-res-1",
+          "type": "article",
+          "title": "Dictionaries",
+          "url": "https://docs.python.org/3/tutorial/datastructures.html#dictionaries"
+        },
+        {
+          "id": "lReYQM-p8rrYcHkaqzbMr-res-2",
+          "type": "article",
+          "title": "Hashmaps in Python: Master Implementation and Use Cases",
+          "url": "https://roadmap.sh/python/hashmap"
+        },
+        {
+          "id": "lReYQM-p8rrYcHkaqzbMr-res-3",
+          "type": "article",
+          "title": "Python KeyError Exceptions: Causes and Fixes",
+          "url": "https://roadmap.sh/python/keyerror"
+        },
+        {
+          "id": "lReYQM-p8rrYcHkaqzbMr-res-4",
+          "type": "video",
+          "title": "Python dictionaries are easy 📙",
+          "url": "https://www.youtube.com/watch?v=MZZSMaEAC2g"
+        }
+      ]
+    },
+    "Xq7Ho2kWg5AtZK0G6z02U": {
+      "id": "Xq7Ho2kWg5AtZK0G6z02U",
+      "slug": "distribution-plots",
+      "title": "Distribution plots",
+      "description": "Seaborn's distribution plots visualize the distribution of one or two variables. `sns.histplot()` and `sns.kdeplot()` show the shape of a single variable's distribution. `sns.displot()` combines both. `sns.pairplot()` shows pairwise distributions and relationships across all numeric columns in a DataFrame.",
+      "resources": [
+        {
+          "id": "Xq7Ho2kWg5AtZK0G6z02U-res-1",
+          "type": "article",
+          "title": "Visualizing distributions of data",
+          "url": "https://seaborn.pydata.org/tutorial/distributions.html"
+        }
+      ]
+    },
+    "xIS0cJ8ui0siBoZJr3-B_": {
+      "id": "xIS0cJ8ui0siBoZJr3-B_",
+      "slug": "dropping-vs-imputing",
+      "title": "Dropping vs. Imputing",
+      "description": "When handling missing values, dropping removes rows or columns with `dropna()`, while imputing fills them with a substitute value using `fillna()` or `SimpleImputer` from Scikit-learn. Dropping is appropriate when missing data is rare or random. Imputing is preferred when data is valuable or missing systematically, using the mean, median, mode, or a predicted value.",
+      "resources": [
+        {
+          "id": "xIS0cJ8ui0siBoZJr3-B_-res-1",
+          "type": "article",
+          "title": "pandas.DataFrame.fillna",
+          "url": "https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.fillna.html"
+        },
+        {
+          "id": "xIS0cJ8ui0siBoZJr3-B_-res-2",
+          "type": "article",
+          "title": "Pandas DataFrame fillna() Method",
+          "url": "https://www.w3schools.com/python/pandas/ref_df_fillna.asp"
+        },
+        {
+          "id": "xIS0cJ8ui0siBoZJr3-B_-res-3",
+          "type": "video",
+          "title": "Python Pandas Tutorial 5: Handle Missing Data: fillna, dropna, interpolate",
+          "url": "https://www.youtube.com/watch?v=EaGbS7eWSs0"
+        }
+      ]
+    },
+    "a6HiqhsJJijqObw9pNOqb": {
+      "id": "a6HiqhsJJijqObw9pNOqb",
+      "slug": "duckdb",
+      "title": "DuckDB",
+      "description": "DuckDB is an in-process analytical database designed for fast SQL queries on large datasets stored as files or in memory. It can query CSV, Parquet, and Pandas DataFrames directly with SQL syntax. DuckDB is increasingly used in data analysis workflows as a fast alternative to loading data into a full database system.",
+      "resources": [
+        {
+          "id": "a6HiqhsJJijqObw9pNOqb-res-1",
+          "type": "article",
+          "title": "DuckDB Docs",
+          "url": "https://duckdb.org/docs/current/clients/python/overview"
+        },
+        {
+          "id": "a6HiqhsJJijqObw9pNOqb-res-2",
+          "type": "article",
+          "title": "Introducing DuckDB",
+          "url": "https://realpython.com/python-duckdb/"
+        },
+        {
+          "id": "a6HiqhsJJijqObw9pNOqb-res-3",
+          "type": "video",
+          "title": "Try DuckDB for SQL on Pandas",
+          "url": "https://www.youtube.com/watch?v=8SYQtpSk_OI"
+        }
+      ]
+    },
+    "1bHv3_acNts_BeOn3l6DF": {
+      "id": "1bHv3_acNts_BeOn3l6DF",
+      "slug": "encoding-categories",
+      "title": "Encoding Categories",
+      "description": "Categorical encoding converts text category labels into numerical values that machine learning algorithms can process. Common approaches include label encoding (assigning each category an integer), one-hot encoding (creating binary columns for each category with `pd.get_dummies()`), and ordinal encoding for ordered categories.",
+      "resources": [
+        {
+          "id": "1bHv3_acNts_BeOn3l6DF-res-1",
+          "type": "article",
+          "title": "Categorical data",
+          "url": "https://pandas.pydata.org/docs/user_guide/categorical.html"
+        },
+        {
+          "id": "1bHv3_acNts_BeOn3l6DF-res-2",
+          "type": "article",
+          "title": "Encoding Categorical Variables: One-hot vs Dummy Encoding",
+          "url": "https://towardsdatascience.com/encoding-categorical-variables-one-hot-vs-dummy-encoding-6d5b9c46e2db/"
+        }
+      ]
+    },
+    "8Z20apU8ugXwdH8rRZAcr": {
+      "id": "8Z20apU8ugXwdH8rRZAcr",
+      "slug": "environment-setup",
+      "title": "Environment Setup",
+      "description": "Setting up a proper Python environment for data analysis involves choosing a package manager, managing dependencies, and selecting a development environment. A well-configured environment ensures reproducibility and avoids package conflicts. The main tools are pip and conda for package management, and virtual environments for isolation.",
+      "resources": [
+        {
+          "id": "8Z20apU8ugXwdH8rRZAcr-res-1",
+          "type": "video",
+          "title": "Setting Up A Python Environment for Data Analysis and Machine Learning",
+          "url": "https://www.youtube.com/watch?v=NDFMa5FSQuI"
+        }
+      ]
+    },
+    "OwEBYI4u7nb9-UGOR9SQf": {
+      "id": "OwEBYI4u7nb9-UGOR9SQf",
+      "slug": "excel",
+      "title": "Excel",
+      "description": "Excel files (`.xlsx`, `.xls`) are loaded with `pd.read_excel()`, which supports selecting sheets, skipping rows, and reading specific columns. The `openpyxl` library is required for `.xlsx` files. Excel is common in business environments, and analysts frequently need to read and write it as part of reporting workflows.",
+      "resources": [
+        {
+          "id": "OwEBYI4u7nb9-UGOR9SQf-res-1",
+          "type": "article",
+          "title": "pandas.read_excel",
+          "url": "https://pandas.pydata.org/docs/reference/api/pandas.read_excel.html"
+        },
+        {
+          "id": "OwEBYI4u7nb9-UGOR9SQf-res-2",
+          "type": "article",
+          "title": "Pandas read_excel: Reading Excel Files in Python",
+          "url": "https://www.digitalocean.com/community/tutorials/pandas-read_excel-reading-excel-file-in-python"
+        }
+      ]
+    },
+    "eObhSoXcbqLdwegzaWmi7": {
+      "id": "eObhSoXcbqLdwegzaWmi7",
+      "slug": "exploratory-data-analysis",
+      "title": "Exploratory Data Analysis",
+      "description": "Exploratory Data Analysis (EDA) is the process of examining a dataset to understand its structure, distributions, and relationships before formal modeling. It combines descriptive statistics and visualizations to surface patterns, anomalies, and hypotheses. EDA guides subsequent cleaning decisions and model choices.",
+      "resources": [
+        {
+          "id": "eObhSoXcbqLdwegzaWmi7-res-1",
+          "type": "article",
+          "title": "Exploratory Statistical Data Analysis with a Real Dataset using Pandas",
+          "url": "https://medium.com/data-science/exploratory-statistical-data-analysis-with-a-real-dataset-using-pandas-208007798b92"
+        },
+        {
+          "id": "eObhSoXcbqLdwegzaWmi7-res-2",
+          "type": "article",
+          "title": "Pandas Profiling – Easy Exploratory Data Analysis in Python",
+          "url": "https://towardsdatascience.com/pandas-profiling-easy-exploratory-data-analysis-in-python-65d6d0e23650/"
+        },
+        {
+          "id": "eObhSoXcbqLdwegzaWmi7-res-3",
+          "type": "video",
+          "title": "Exploratory Data Analysis in Pandas | Python Pandas Tutorials",
+          "url": "https://www.youtube.com/watch?v=Liv6eeb1VfE"
+        }
+      ]
+    },
+    "wxO7f8wh6JTXHYDiPcbmy": {
+      "id": "wxO7f8wh6JTXHYDiPcbmy",
+      "slug": "filtering--querying",
+      "title": "Filtering & Querying",
+      "description": "Filtering in Pandas selects rows that meet specified conditions. Boolean masks, the `.query()` method, and `.isin()` are common approaches. Multiple conditions can be combined with `&` (and) and `|` (or), and the `.query()` method allows SQL-like string syntax for readable filtering expressions.",
+      "resources": [
+        {
+          "id": "wxO7f8wh6JTXHYDiPcbmy-res-1",
+          "type": "article",
+          "title": "pandas.DataFrame.query",
+          "url": "https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.query.htmlme.query"
+        },
+        {
+          "id": "wxO7f8wh6JTXHYDiPcbmy-res-2",
+          "type": "article",
+          "title": "How do I select a subset of a DataFrame?",
+          "url": "https://pandas.pydata.org/docs/getting_started/intro_tutorials/03_subset_data.html"
+        },
+        {
+          "id": "wxO7f8wh6JTXHYDiPcbmy-res-3",
+          "type": "article",
+          "title": "10 Elegant Ways to Filter Pandas DataFrames",
+          "url": "https://towardsdatascience.com/stop-writing-messy-boolean-masks-10-elegant-ways-to-filter-pandas-dataframes/"
+        },
+        {
+          "id": "wxO7f8wh6JTXHYDiPcbmy-res-4",
+          "type": "video",
+          "title": "Filtering Columns and Rows in Pandas",
+          "url": "https://www.youtube.com/watch?v=kB7FV-ijdqE"
+        }
+      ]
+    },
+    "aLIXcqB258WNrdASuN_7G": {
+      "id": "aLIXcqB258WNrdASuN_7G",
+      "slug": "floats",
+      "title": "Floats",
+      "description": "Floats (`float`) represent real numbers with a decimal point. Most numerical data in analysis involves floats, including prices, measurements, and probabilities. Floating-point arithmetic has precision limitations that can cause small rounding errors, which are important to be aware of in financial and scientific calculations.",
+      "resources": [
+        {
+          "id": "aLIXcqB258WNrdASuN_7G-res-1",
+          "type": "article",
+          "title": "Built-in Types",
+          "url": "https://docs.python.org/3/library/stdtypes.html"
+        },
+        {
+          "id": "aLIXcqB258WNrdASuN_7G-res-2",
+          "type": "article",
+          "title": "float",
+          "url": "https://realpython.com/ref/builtin-types/float/"
+        }
+      ]
+    },
+    "9mFT0z5yT446_-nGdG492": {
+      "id": "9mFT0z5yT446_-nGdG492",
+      "slug": "forward--backward-fill",
+      "title": "Forward / Backward Fill",
+      "description": "Forward fill (`ffill`) propagates the last valid value forward to fill subsequent missing entries. Backward fill (`bfill`) does the reverse, filling from the next valid value. Both are commonly used for time series data where missing values represent periods where the previous or next observation is the best estimate.",
+      "resources": [
+        {
+          "id": "9mFT0z5yT446_-nGdG492-res-1",
+          "type": "article",
+          "title": "pandas.DataFrame.ffill",
+          "url": "https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.ffill.html"
+        },
+        {
+          "id": "9mFT0z5yT446_-nGdG492-res-2",
+          "type": "article",
+          "title": "pandas.DataFrame.bfill",
+          "url": "https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.bfill.html"
+        },
+        {
+          "id": "9mFT0z5yT446_-nGdG492-res-3",
+          "type": "article",
+          "title": "How to Fill Missing Data with Pandas",
+          "url": "https://towardsdatascience.com/how-to-fill-missing-data-with-pandas-8cb875362a0d/"
+        }
+      ]
+    },
+    "kyrS5ez7_85AnNt8Bojz_": {
+      "id": "kyrS5ez7_85AnNt8Bojz_",
+      "slug": "functions--methods",
+      "title": "Functions & Methods",
+      "description": "Functions are reusable blocks of code that take inputs, perform operations, and return outputs. They encapsulate cleaning steps, transformations, and calculations that need to be applied consistently. Python supports built-in functions, user-defined functions, and anonymous lambda functions.",
+      "resources": [
+        {
+          "id": "kyrS5ez7_85AnNt8Bojz_-res-1",
+          "type": "article",
+          "title": "Python Functions",
+          "url": "https://www.w3schools.com/python/python_functions.asp"
+        },
+        {
+          "id": "kyrS5ez7_85AnNt8Bojz_-res-2",
+          "type": "article",
+          "title": "Python Methods, Functions, & Libraries",
+          "url": "https://mode.com/python-tutorial/python-methods-functions-and-libraries"
+        },
+        {
+          "id": "kyrS5ez7_85AnNt8Bojz_-res-3",
+          "type": "video",
+          "title": "Functions in Python are easy",
+          "url": "https://www.youtube.com/watch?v=89cGQjB5R4M"
+        }
+      ]
+    },
+    "-Bxn2sj2NjHLhRZrPIi0n": {
+      "id": "-Bxn2sj2NjHLhRZrPIi0n",
+      "slug": "geopandas",
+      "title": "GeoPandas",
+      "description": "GeoPandas is an open-source library that extends the capabilities of pandas by allowing spatial operations on geometric types. It simplifies working with geospatial data by enabling the use of familiar data structures like GeoSeries and GeoDataFrame, which store and manipulate vector-based geographic information. Through its integration with libraries like Shapely and PyGEOS, it allows you to perform complex geometric operations such as spatial joins, projections, and distance calculations using straightforward syntax.",
+      "resources": [
+        {
+          "id": "-Bxn2sj2NjHLhRZrPIi0n-res-1",
+          "type": "article",
+          "title": "GeoPandas Docs",
+          "url": "https://geopandas.org/en/stable/docs.html"
+        },
+        {
+          "id": "-Bxn2sj2NjHLhRZrPIi0n-res-2",
+          "type": "article",
+          "title": "Introduction to GeoPandas",
+          "url": "https://geopandas.org/en/stable/getting_started/introduction.html"
+        },
+        {
+          "id": "-Bxn2sj2NjHLhRZrPIi0n-res-3",
+          "type": "video",
+          "title": "Geospatial Python - Full Course for Beginners with Geopandas",
+          "url": "https://www.youtube.com/watch?v=0mWgVVH_dos"
+        }
+      ]
+    },
+    "SWrijRzSZxhnSYDwv1_pH": {
+      "id": "SWrijRzSZxhnSYDwv1_pH",
+      "slug": "geospatial-analysis",
+      "title": "Geospatial Analysis",
+      "description": "Geospatial analysis is the process of gathering, manipulating, and mapping data that is tied to specific geographic locations on the Earth's surface. It involves using tools and libraries to perform spatial operations, such as calculating distances between coordinates, analyzing geographic patterns, or visualizing datasets on interactive maps. By integrating coordinate systems and geometric shapes into data workflows, this analysis allows for a deeper understanding of how physical location influences various trends and phenomena.",
+      "resources": [
+        {
+          "id": "SWrijRzSZxhnSYDwv1_pH-res-1",
+          "type": "article",
+          "title": "Introduction to Python for Geographic Data Analysis",
+          "url": "https://pythongis.org/"
+        },
+        {
+          "id": "SWrijRzSZxhnSYDwv1_pH-res-2",
+          "type": "article",
+          "title": "Spatial analysis with Python",
+          "url": "https://spatial-analytics.readthedocs.io/en/develop/lessons/L1/intro-to-python-geostack.html"
+        },
+        {
+          "id": "SWrijRzSZxhnSYDwv1_pH-res-3",
+          "type": "video",
+          "title": "GeoSpatial Analysis With Python For Beginners",
+          "url": "https://www.youtube.com/watch?v=IRJC67zm6nk"
+        }
+      ]
+    },
+    "c8uLNJMr6UZfvjFwFhxvd": {
+      "id": "c8uLNJMr6UZfvjFwFhxvd",
+      "slug": "google-colab",
+      "title": "Google Colab",
+      "description": "Google Colab is a cloud-hosted Jupyter notebook environment from Google. It requires no local setup and provides free access to GPUs and TPUs, making it popular for machine learning work. Colab notebooks are stored in Google Drive and can be shared like any other document.",
+      "resources": [
+        {
+          "id": "c8uLNJMr6UZfvjFwFhxvd-res-1",
+          "type": "article",
+          "title": "Google Colab",
+          "url": "https://colab.research.google.com/"
+        },
+        {
+          "id": "c8uLNJMr6UZfvjFwFhxvd-res-2",
+          "type": "article",
+          "title": "Python Basics in Colab",
+          "url": "https://colab.research.google.com/github/data-psl/lectures2020/blob/master/notebooks/01_python_basics.ipynb"
+        },
+        {
+          "id": "c8uLNJMr6UZfvjFwFhxvd-res-3",
+          "type": "video",
+          "title": "Google Colab Tutorial for Beginners | Get Started with Google Colab",
+          "url": "https://www.youtube.com/watch?v=RLYoEyIHL6A"
+        }
+      ]
+    },
+    "KnSv5dPToipoz2RF1dDnO": {
+      "id": "KnSv5dPToipoz2RF1dDnO",
+      "slug": "groupby--aggregation",
+      "title": "Groupby & Aggregation",
+      "description": "`groupby()` splits a DataFrame into groups based on one or more columns, applies a function to each group, and combines the results. Common aggregation functions include `sum()`, `mean()`, `count()`, `min()`, `max()`, and custom functions via `agg()`. This split-apply-combine pattern is one of the most powerful features of Pandas.",
+      "resources": [
+        {
+          "id": "KnSv5dPToipoz2RF1dDnO-res-1",
+          "type": "article",
+          "title": "pandas.DataFrame.groupby",
+          "url": "https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.groupby.html"
+        },
+        {
+          "id": "KnSv5dPToipoz2RF1dDnO-res-2",
+          "type": "article",
+          "title": "All About Pandas Groupby Explained with 25 Examples",
+          "url": "https://towardsdatascience.com/all-about-pandas-groupby-explained-with-25-examples-494e04a8ef56/"
+        },
+        {
+          "id": "KnSv5dPToipoz2RF1dDnO-res-3",
+          "type": "video",
+          "title": "Group By and Aggregate Functions in Pandas |",
+          "url": "https://www.youtube.com/watch?v=VRmXto2YA2I"
+        }
+      ]
+    },
+    "Bk3z1CHnrnV6ii2Y0BF8G": {
+      "id": "Bk3z1CHnrnV6ii2Y0BF8G",
+      "slug": "heatmaps",
+      "title": "Heatmaps",
+      "description": "`sns.heatmap()` visualizes matrix-style data using color intensity. It is most commonly used to display correlation matrices and pivot tables. Color maps, annotations, and masking options allow the heatmap to be customized for readability. Heatmaps are an effective way to show patterns across two categorical dimensions.",
+      "resources": [
+        {
+          "id": "Bk3z1CHnrnV6ii2Y0BF8G-res-1",
+          "type": "article",
+          "title": "seaborn.heatmap",
+          "url": "https://seaborn.pydata.org/generated/seaborn.heatmap.html"
+        },
+        {
+          "id": "Bk3z1CHnrnV6ii2Y0BF8G-res-2",
+          "type": "article",
+          "title": "Data Visualization with Seaborn: Heatmaps",
+          "url": "https://medium.com/@1zeyneper/data-visualization-with-seaborn-heatmaps-58abfadd79d5"
+        },
+        {
+          "id": "Bk3z1CHnrnV6ii2Y0BF8G-res-3",
+          "type": "video",
+          "title": "Seaborn heatmap | How to make a heatmap in Python Seaborn and adjust the heatmap style",
+          "url": "https://www.youtube.com/watch?v=0U9cs2V-Mqc"
+        }
+      ]
+    },
+    "oRaag-FOl50NJM0y4joBm": {
+      "id": "oRaag-FOl50NJM0y4joBm",
+      "slug": "histogram",
+      "title": "Histogram",
+      "description": "A histogram groups numeric values into bins and shows the count or frequency of each bin as a bar. It is the primary tool for visualizing the distribution of a single variable: its shape, center, spread, and whether it is skewed or has multiple peaks. `df['col'].hist()` and Matplotlib's `plt.hist()` are the standard ways to create one.",
+      "resources": [
+        {
+          "id": "oRaag-FOl50NJM0y4joBm-res-1",
+          "type": "article",
+          "title": "matplotlib.pyplot.hist",
+          "url": "https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.hist.html"
+        },
+        {
+          "id": "oRaag-FOl50NJM0y4joBm-res-2",
+          "type": "article",
+          "title": "Matplotlib Histograms",
+          "url": "https://www.w3schools.com/PYTHON/matplotlib_histograms.asp"
+        },
+        {
+          "id": "oRaag-FOl50NJM0y4joBm-res-3",
+          "type": "video",
+          "title": "Matplotlib histograms in 6 minutes! 🔔",
+          "url": "https://www.youtube.com/watch?v=2E6fDoz7LuU"
+        }
+      ]
+    },
+    "mAOljEWt_0Hb9jLBKuc-H": {
+      "id": "mAOljEWt_0Hb9jLBKuc-H",
+      "slug": "indexing--slicing",
+      "title": "Array Operations",
+      "description": "NumPy supports a wide range of array operations: element-wise arithmetic, aggregation functions (`sum`, `mean`, `std`, `min`, `max`), reshaping, stacking, and splitting. These operations are vectorized, meaning they apply to the entire array at once without explicit loops, making them highly efficient.",
+      "resources": [
+        {
+          "id": "mAOljEWt_0Hb9jLBKuc-H-res-1",
+          "type": "article",
+          "title": "Indexing on ndarrays",
+          "url": "https://numpy.org/doc/stable/user/basics.indexing.html"
+        },
+        {
+          "id": "mAOljEWt_0Hb9jLBKuc-H-res-2",
+          "type": "article",
+          "title": "NumPy Array Indexing",
+          "url": "https://www.w3schools.com/python/numpy/numpy_array_indexing.asp"
+        },
+        {
+          "id": "mAOljEWt_0Hb9jLBKuc-H-res-3",
+          "type": "article",
+          "title": "NumPy Array Slicing",
+          "url": "https://www.w3schools.com/python/numpy/numpy_array_slicing.asp"
+        },
+        {
+          "id": "mAOljEWt_0Hb9jLBKuc-H-res-4",
+          "type": "article",
+          "title": "Indexing Arrays",
+          "url": "https://towardsdatascience.com/introducing-numpy-part-2-indexing-arrays-5b381b90d1d0/"
+        }
+      ]
+    },
+    "PlFcaQsvFSK0Y-LKGu0eH": {
+      "id": "PlFcaQsvFSK0Y-LKGu0eH",
+      "slug": "indexing--slicing",
+      "title": "Indexing & Slicing",
+      "description": "Pandas provides two primary indexing systems: `.loc[]` for label-based selection and `.iloc[]` for position-based selection. Both work on rows, columns, or both simultaneously. Boolean indexing with a condition (e.g., `df[df['age'] > 30]`) is the most common way to filter rows.",
+      "resources": [
+        {
+          "id": "PlFcaQsvFSK0Y-LKGu0eH-res-1",
+          "type": "article",
+          "title": "pandas.DataFrame.loc",
+          "url": "https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.loc.html"
+        },
+        {
+          "id": "PlFcaQsvFSK0Y-LKGu0eH-res-2",
+          "type": "article",
+          "title": "pandas.DataFrame.iloc",
+          "url": "https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.iloc.html"
+        },
+        {
+          "id": "PlFcaQsvFSK0Y-LKGu0eH-res-3",
+          "type": "article",
+          "title": "Iloc vs Loc in Pandas: A Guide with Examples",
+          "url": "https://www.analyticsvidhya.com/blog/2026/03/iloc-vs-loc-in-pandas/"
+        },
+        {
+          "id": "PlFcaQsvFSK0Y-LKGu0eH-res-4",
+          "type": "video",
+          "title": "Pandas loc and iloc",
+          "url": "https://www.youtube.com/watch?v=naRQyRZrXCE"
+        }
+      ]
+    },
+    "_-bUq5jtewDmsmnzYw1-q": {
+      "id": "_-bUq5jtewDmsmnzYw1-q",
+      "slug": "integers",
+      "title": "Integers",
+      "description": "Integers (`int`) are whole numbers without a decimal point. They appear as counts, indices, IDs, and categorical encodings. Python integers have arbitrary precision, meaning they do not overflow like integers in lower-level languages.",
+      "resources": [
+        {
+          "id": "_-bUq5jtewDmsmnzYw1-q-res-1",
+          "type": "article",
+          "title": "Built-in Types",
+          "url": "https://docs.python.org/3/library/stdtypes.html"
+        },
+        {
+          "id": "_-bUq5jtewDmsmnzYw1-q-res-2",
+          "type": "article",
+          "title": "int",
+          "url": "https://realpython.com/ref/builtin-types/int/"
+        },
+        {
+          "id": "_-bUq5jtewDmsmnzYw1-q-res-3",
+          "type": "article",
+          "title": "\"Python Max Int: Understanding Arbitrary Precision Integers \"",
+          "url": "https://roadmap.sh/python/max-int"
+        }
+      ]
+    },
+    "ES8zVixZ5wZ0tW6beOWxJ": {
+      "id": "ES8zVixZ5wZ0tW6beOWxJ",
+      "slug": "interactive-visualization",
+      "title": "Interactive Visualization",
+      "description": "Interactive visualizations allow users to explore data by hovering, zooming, panning, and filtering directly in the chart. They are more engaging than static plots for dashboards and reports where the audience needs to examine specific data points. Python's main interactive visualization libraries are Plotly and Altair.",
+      "resources": [
+        {
+          "id": "ES8zVixZ5wZ0tW6beOWxJ-res-1",
+          "type": "article",
+          "title": "Top 10 Python Data Visualization Libraries",
+          "url": "https://reflex.dev/blog/top-10-data-visualization-libraries/"
+        },
+        {
+          "id": "ES8zVixZ5wZ0tW6beOWxJ-res-2",
+          "type": "article",
+          "title": "4 Key Players in Python Data Visualization Ecosystem: Matplotlib, Seaborn, Altair, and Plotly",
+          "url": "https://towardsdatascience.com/4-key-players-in-python-data-visualization-ecosystem-matplotlib-seaborn-altair-and-plotly-23ae37a68227/"
+        }
+      ]
+    },
+    "GISOFMKvnBys0O0IMpz2J": {
+      "id": "GISOFMKvnBys0O0IMpz2J",
+      "slug": "introduction",
+      "title": "Introduction",
+      "description": "Python is the dominant language for data analysis due to its readable syntax, rich ecosystem of libraries, and strong community support. Getting started requires understanding the core language features: operators, data types, control flow, and data structures. These fundamentals apply directly to every data manipulation and analysis task that follows.",
+      "resources": [
+        {
+          "id": "GISOFMKvnBys0O0IMpz2J-res-1",
+          "type": "article",
+          "title": "Python for Data Analysis",
+          "url": "https://www.lkhibra.ma/books/Python-for-Data-Analysis.pdf"
+        },
+        {
+          "id": "GISOFMKvnBys0O0IMpz2J-res-2",
+          "type": "article",
+          "title": "What Does a Data Analyst Do?",
+          "url": "https://roadmap.sh/data-analyst/what-does-a-data-analyst-do"
+        },
+        {
+          "id": "GISOFMKvnBys0O0IMpz2J-res-3",
+          "type": "article",
+          "title": "How Long Does It Really Take To Learn Python? My Experience",
+          "url": "https://roadmap.sh/python/how-long-does-it-take-to-learn"
+        },
+        {
+          "id": "GISOFMKvnBys0O0IMpz2J-res-4",
+          "type": "video",
+          "title": "Python for Data Analytics - Full Course for Beginners",
+          "url": "https://www.youtube.com/watch?v=wUSDVGivd-8"
+        }
+      ]
+    },
+    "ucEFYVtXIvuYKjudK3pwB": {
+      "id": "ucEFYVtXIvuYKjudK3pwB",
+      "slug": "iqr",
+      "title": "IQR",
+      "description": "The Interquartile Range (IQR) is the difference between the 75th percentile (Q3) and 25th percentile (Q1) of a dataset. Outliers are commonly defined as values below Q1 − 1.5×IQR or above Q3 + 1.5×IQR. The IQR method is robust to extreme values and is the basis for the box plot's whiskers.",
+      "resources": [
+        {
+          "id": "ucEFYVtXIvuYKjudK3pwB-res-1",
+          "type": "article",
+          "title": "Using Pandas IQR: 3 Essential Steps",
+          "url": "https://medium.com/@heyamit10/using-pandas-iqr-3-essential-steps-f5cf73a390ba"
+        },
+        {
+          "id": "ucEFYVtXIvuYKjudK3pwB-res-2",
+          "type": "article",
+          "title": "How to detect outliers using IQR and Boxplots?",
+          "url": "https://machinelearningplus.com/machine-learning/how-to-detect-outliers-using-iqr-and-boxplots/"
+        },
+        {
+          "id": "ucEFYVtXIvuYKjudK3pwB-res-3",
+          "type": "video",
+          "title": "Outlier detection and removal using IQR",
+          "url": "https://www.youtube.com/watch?v=A3gClkblXK8"
+        }
+      ]
+    },
+    "bcODvfBqCUwLVXa8HKOFB": {
+      "id": "bcODvfBqCUwLVXa8HKOFB",
+      "slug": "isnull-isna",
+      "title": "isnull, isna",
+      "description": "`isnull()` and `isna()` are equivalent Pandas methods that return a boolean DataFrame or Series indicating which values are missing (NaN). They are the first step in assessing data completeness. Combined with `.sum()`, they give a count of missing values per column, and with boolean indexing they select rows with missing data.",
+      "resources": [
+        {
+          "id": "bcODvfBqCUwLVXa8HKOFB-res-1",
+          "type": "article",
+          "title": "Working with missing data",
+          "url": "https://pandas.pydata.org/docs/user_guide/missing_data.html"
+        },
+        {
+          "id": "bcODvfBqCUwLVXa8HKOFB-res-2",
+          "type": "article",
+          "title": "pandas.isnull",
+          "url": "https://pandas.pydata.org/docs/reference/api/pandas.isnull.html"
+        },
+        {
+          "id": "bcODvfBqCUwLVXa8HKOFB-res-3",
+          "type": "article",
+          "title": "pandas.isna",
+          "url": "https://pandas.pydata.org/docs/reference/api/pandas.isna.html"
+        },
+        {
+          "id": "bcODvfBqCUwLVXa8HKOFB-res-4",
+          "type": "article",
+          "title": "Handling Missing Values with Pandas",
+          "url": "https://towardsdatascience.com/handling-missing-values-with-pandas-b876bf6f008f/"
+        }
+      ]
+    },
+    "VEetEvKGNzAO9QdZY2g86": {
+      "id": "VEetEvKGNzAO9QdZY2g86",
+      "slug": "json",
+      "title": "JSON",
+      "description": "JSON (JavaScript Object Notation) is a text format for structured data commonly returned by APIs. `pd.read_json()` converts JSON into a DataFrame, though nested structures often require normalization with `pd.json_normalize()`. JSON is flexible but can be irregular in structure, requiring careful handling of missing fields.",
+      "resources": [
+        {
+          "id": "VEetEvKGNzAO9QdZY2g86-res-1",
+          "type": "article",
+          "title": "pandas.read_json",
+          "url": "https://pandas.pydata.org/docs/reference/api/pandas.read_json.html"
+        },
+        {
+          "id": "VEetEvKGNzAO9QdZY2g86-res-2",
+          "type": "article",
+          "title": "Pandas Read JSON",
+          "url": "https://www.w3schools.com/python/pandas/pandas_json.asp"
+        }
+      ]
+    },
+    "2m8uQRGaVZUd4mfm7bRou": {
+      "id": "2m8uQRGaVZUd4mfm7bRou",
+      "slug": "jupyterlab",
+      "title": "JupyterLab",
+      "description": "JupyterLab is the modern, full-featured successor to the classic Jupyter Notebook interface. It supports notebooks where code, output, and narrative text coexist in a single document, while adding a tabbed layout, a file browser, a terminal, and support for multiple file types side by side. It is the standard environment for exploratory data analysis because results are visible immediately after each cell is run.",
+      "resources": [
+        {
+          "id": "2m8uQRGaVZUd4mfm7bRou-res-1",
+          "type": "article",
+          "title": "Get Started",
+          "url": "https://jupyterlab.readthedocs.io/en/stable/getting_started/overview.html"
+        },
+        {
+          "id": "2m8uQRGaVZUd4mfm7bRou-res-2",
+          "type": "video",
+          "title": "Jupyter Notebook Complete Beginner Guide",
+          "url": "https://www.youtube.com/watch?v=5pf0_bpNbkw"
+        }
+      ]
+    },
+    "AzsZhpK-wuWtafVFJMhdY": {
+      "id": "AzsZhpK-wuWtafVFJMhdY",
+      "slug": "lambda-functions",
+      "title": "Lambda Functions",
+      "description": "Lambda functions are anonymous, single-expression functions defined with the `lambda` keyword. They are used for short, throwaway operations, particularly as arguments to functions like `map()`, `filter()`, and Pandas' `apply()`. For example: `df['col'].apply(lambda x: x * 2)`.",
+      "resources": [
+        {
+          "id": "AzsZhpK-wuWtafVFJMhdY-res-1",
+          "type": "article",
+          "title": "Python Lambda",
+          "url": "https://www.w3schools.com/python/python_lambda.asp"
+        },
+        {
+          "id": "AzsZhpK-wuWtafVFJMhdY-res-2",
+          "type": "video",
+          "title": "Python Lambda Functions Explained",
+          "url": "https://www.youtube.com/watch?v=HQNiSfb795A"
+        }
+      ]
+    },
+    "xHDrwKDE_mrSihCsPQMBF": {
+      "id": "xHDrwKDE_mrSihCsPQMBF",
+      "slug": "linear-algebra-basics",
+      "title": "Linear Algebra Basics",
+      "description": "NumPy provides linear algebra operations, including matrix multiplication (`np.dot`, `@`), matrix inversion, determinants, and eigenvalues. These are used in statistics (covariance matrices), machine learning (feature transformations), and scientific computing. Understanding the basics of matrix operations is useful for reading ML algorithm implementations.",
+      "resources": [
+        {
+          "id": "xHDrwKDE_mrSihCsPQMBF-res-1",
+          "type": "article",
+          "title": "Numpy Linear Algebra",
+          "url": "https://www.programiz.com/python-programming/numpy/linear-algebra"
+        },
+        {
+          "id": "xHDrwKDE_mrSihCsPQMBF-res-2",
+          "type": "video",
+          "title": "Learn NumPy in 1 hour! 🔢",
+          "url": "https://www.youtube.com/watch?v=VXU4LSAQDSc"
+        }
+      ]
+    },
+    "la9oiXURvw6AH-Vuh-WqT": {
+      "id": "la9oiXURvw6AH-Vuh-WqT",
+      "slug": "list-comprehensions",
+      "title": "List Comprehensions",
+      "description": "List comprehensions provide a concise syntax for creating lists by applying an expression to each item in an iterable, optionally filtering with a condition. For example: `[x**2 for x in range(10) if x % 2 == 0]`. They are faster and more readable than equivalent `for` loops for simple transformations.",
+      "resources": [
+        {
+          "id": "la9oiXURvw6AH-Vuh-WqT-res-1",
+          "type": "article",
+          "title": "List Comprehensions",
+          "url": "https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions"
+        },
+        {
+          "id": "la9oiXURvw6AH-Vuh-WqT-res-2",
+          "type": "article",
+          "title": "When to Use a List Comprehension in Python Quiz",
+          "url": "https://realpython.com/quizzes/list-comprehension-python/"
+        },
+        {
+          "id": "la9oiXURvw6AH-Vuh-WqT-res-3",
+          "type": "article",
+          "title": "List Comprehensions in Python",
+          "url": "https://towardsdatascience.com/list-comprehensions-in-python-28d54c9286ca/"
+        }
+      ]
+    },
+    "F4dp3Ip8G-EI1hprtv3do": {
+      "id": "F4dp3Ip8G-EI1hprtv3do",
+      "slug": "lists",
+      "title": "Lists",
+      "description": "Lists are ordered, mutable sequences that can hold elements of any type. They are one of the most used data structures in Python for storing collections of values. Typical uses include holding column names, storing results from loops, and passing multiple values to functions.",
+      "resources": [
+        {
+          "id": "F4dp3Ip8G-EI1hprtv3do-res-1",
+          "type": "article",
+          "title": "List",
+          "url": "https://docs.python.org/3/tutorial/datastructures.html"
+        },
+        {
+          "id": "F4dp3Ip8G-EI1hprtv3do-res-2",
+          "type": "video",
+          "title": "How to Use Lists in Python",
+          "url": "https://www.youtube.com/watch?v=9OeznAkyQz4"
+        }
+      ]
+    },
+    "_0K6o-R0F2a9bpEDfRcTi": {
+      "id": "_0K6o-R0F2a9bpEDfRcTi",
+      "slug": "logical",
+      "title": "Logical",
+      "description": "Logical operators combine boolean expressions. Python uses `and`, `or`, and `not` for this purpose. They are used heavily in data filtering conditions, such as selecting rows where multiple criteria are true simultaneously.",
+      "resources": [
+        {
+          "id": "_0K6o-R0F2a9bpEDfRcTi-res-1",
+          "type": "article",
+          "title": "Python not Operator: The Complete Guide to Logical Negation",
+          "url": "https://roadmap.sh/python/not-operator"
+        },
+        {
+          "id": "_0K6o-R0F2a9bpEDfRcTi-res-2",
+          "type": "article",
+          "title": "The or Operator in Python: Complete Guide with Examples",
+          "url": "https://roadmap.sh/python/or"
+        },
+        {
+          "id": "_0K6o-R0F2a9bpEDfRcTi-res-3",
+          "type": "article",
+          "title": "Python Logical Operators",
+          "url": "https://www.w3schools.com/python/python_if_logical.asp"
+        },
+        {
+          "id": "_0K6o-R0F2a9bpEDfRcTi-res-4",
+          "type": "video",
+          "title": "Logical operators in Python are easy 🔣",
+          "url": "https://www.youtube.com/watch?v=W7luvtXeQTA"
+        }
+      ]
+    },
+    "Dvy7BnNzK55qbh_SgOk8m": {
+      "id": "Dvy7BnNzK55qbh_SgOk8m",
+      "slug": "loops",
+      "title": "Loops",
+      "description": "Loops execute a block of code repeatedly. Python provides `for` loops for iterating over sequences and `while` loops for condition-based repetition. They are used for batch processing files, iterating over grouped data, and automating repetitive tasks, though vectorized operations are preferred for performance.",
+      "resources": [
+        {
+          "id": "Dvy7BnNzK55qbh_SgOk8m-res-1",
+          "type": "article",
+          "title": "Python while Loops: Repeating Tasks Conditionally",
+          "url": "https://realpython.com/python-while-loop/"
+        },
+        {
+          "id": "Dvy7BnNzK55qbh_SgOk8m-res-2",
+          "type": "article",
+          "title": "Python for Loops: The Pythonic Way",
+          "url": "https://realpython.com/python-for-loop/#the-guts-of-the-python-for-loop"
+        },
+        {
+          "id": "Dvy7BnNzK55qbh_SgOk8m-res-3",
+          "type": "article",
+          "title": "Understand Loops in Python with One Article",
+          "url": "https://towardsdatascience.com/understand-loops-in-python-with-one-article-bace2ddba789/"
+        },
+        {
+          "id": "Dvy7BnNzK55qbh_SgOk8m-res-4",
+          "type": "video",
+          "title": "Learn Python for loops in 5 minutes!",
+          "url": "https://www.youtube.com/watch?v=KWgYha0clzw"
+        }
+      ]
+    },
+    "Md9Yq7bwDNo6hO_A9aa9N": {
+      "id": "Md9Yq7bwDNo6hO_A9aa9N",
+      "slug": "matplotlib",
+      "title": "Matplotlib",
+      "description": "Matplotlib is Python's foundational plotting library. It provides a MATLAB-like interface for creating static, animated, and interactive visualizations. While more verbose than higher-level libraries, Matplotlib offers the most control over every aspect of a plot and is the basis for understanding how other Python visualization tools work.",
+      "resources": [
+        {
+          "id": "Md9Yq7bwDNo6hO_A9aa9N-res-1",
+          "type": "article",
+          "title": "Matplotlib Tutorials",
+          "url": "https://matplotlib.org/stable/tutorials/index.html"
+        },
+        {
+          "id": "Md9Yq7bwDNo6hO_A9aa9N-res-2",
+          "type": "article",
+          "title": "Matplotlib Tutorial",
+          "url": "https://www.w3schools.com/python/matplotlib_intro.asp"
+        },
+        {
+          "id": "Md9Yq7bwDNo6hO_A9aa9N-res-3",
+          "type": "video",
+          "title": "Matplotlib Full Python Course - Data Science Fundamentals",
+          "url": "https://www.youtube.com/watch?v=OZOOLe2imFo"
+        }
+      ]
+    },
+    "DdA2gJKpgOHj9mqZL-c4F": {
+      "id": "DdA2gJKpgOHj9mqZL-c4F",
+      "slug": "mean-median-mode",
+      "title": "Mean, Median, Mode",
+      "description": "Mean, median, and mode are measures of central tendency that describe the typical value in a distribution. Pandas computes these with `mean()`, `median()`, and `mode()` on Series or DataFrame columns. Comparing them reveals distribution shape: in a symmetric distribution they are equal; in a skewed one they diverge.",
+      "resources": [
+        {
+          "id": "DdA2gJKpgOHj9mqZL-c4F-res-1",
+          "type": "article",
+          "title": "A Guide to Metrics in Exploratory Data Analysis",
+          "url": "https://towardsdatascience.com/a-guide-to-metrics-in-exploratory-data-analysis-250b33f72297/"
+        },
+        {
+          "id": "DdA2gJKpgOHj9mqZL-c4F-res-2",
+          "type": "article",
+          "title": "Understanding Your Data: The Essentials of Exploratory Data Analysis",
+          "url": "https://dev.to/nderitugichuki/understanding-your-data-the-essentials-of-exploratory-data-analysis-400i"
+        }
+      ]
+    },
+    "Rq9TFEEJnjEgVa1DiJxFz": {
+      "id": "Rq9TFEEJnjEgVa1DiJxFz",
+      "slug": "merging--joining",
+      "title": "Merging & Joining",
+      "description": "Pandas provides `merge()` and `join()` for combining DataFrames based on common columns or indices. Merge supports inner, left, right, and outer joins, mirroring SQL JOIN behavior. `concat()` stacks DataFrames vertically or horizontally. These operations are used to combine data from multiple sources into a single analysis-ready table.",
+      "resources": [
+        {
+          "id": "Rq9TFEEJnjEgVa1DiJxFz-res-1",
+          "type": "article",
+          "title": "Merge, join, concatenate and compare",
+          "url": "https://pandas.pydata.org/docs/user_guide/merging.html"
+        },
+        {
+          "id": "Rq9TFEEJnjEgVa1DiJxFz-res-2",
+          "type": "article",
+          "title": "Combining Data in pandas With merge(), .join(), and concat()",
+          "url": "https://realpython.com/pandas-merge-join-and-concat/"
+        },
+        {
+          "id": "Rq9TFEEJnjEgVa1DiJxFz-res-3",
+          "type": "article",
+          "title": "Pandas: Combining Data",
+          "url": "https://towardsdatascience.com/pandas-combining-data-b190d793b626/"
+        }
+      ]
+    },
+    "GidLncxwx7d1QzAOfHRLX": {
+      "id": "GidLncxwx7d1QzAOfHRLX",
+      "slug": "null",
+      "title": "Null Values",
+      "description": "Null values represent missing or undefined data within a dataset, signaling that a specific observation or entry is absent. In Python, this is typically represented by `None`, while libraries like pandas utilize `NaN` (Not a Number) to denote missing numeric information. Handling these values is a fundamental step in data cleaning, as they must be identified and addressed to ensure that statistical calculations and machine learning models perform accurately.",
+      "resources": [
+        {
+          "id": "GidLncxwx7d1QzAOfHRLX-res-1",
+          "type": "article",
+          "title": "Python Null (None): Guide to Missing Values and NoneType",
+          "url": "https://roadmap.sh/python/null#the-most-common-uses-of-none"
+        },
+        {
+          "id": "GidLncxwx7d1QzAOfHRLX-res-2",
+          "type": "article",
+          "title": "Null in Python: Understanding Python's NoneType Object",
+          "url": "https://realpython.com/null-in-python/"
+        }
+      ]
+    },
+    "IO-disDSfkPau4Pd_TNwc": {
+      "id": "IO-disDSfkPau4Pd_TNwc",
+      "slug": "numpy",
+      "title": "NumPy",
+      "description": "NumPy is the foundational numerical computing library for Python. It provides the `ndarray`, a fast, multi-dimensional array, and a comprehensive library of mathematical functions that operate on arrays without Python loops. NumPy underpins Pandas, Scikit-learn, and most other scientific Python libraries.",
+      "resources": [
+        {
+          "id": "IO-disDSfkPau4Pd_TNwc-res-1",
+          "type": "article",
+          "title": "NumPy quickstart",
+          "url": "https://numpy.org/doc/stable/user/quickstart.html"
+        },
+        {
+          "id": "IO-disDSfkPau4Pd_TNwc-res-2",
+          "type": "article",
+          "title": "NumPy Tutorial",
+          "url": "https://www.w3schools.com/python/numpy/default.asp"
+        },
+        {
+          "id": "IO-disDSfkPau4Pd_TNwc-res-3",
+          "type": "article",
+          "title": "NumPy for Absolute Beginners: A Project-Based Approach to Data Analysis",
+          "url": "https://towardsdatascience.com/numpy-for-absolute-beginners-a-project-based-approach-to-data-analysis/"
+        },
+        {
+          "id": "IO-disDSfkPau4Pd_TNwc-res-4",
+          "type": "video",
+          "title": "Python NumPy Tutorial for Beginners",
+          "url": "https://www.youtube.com/watch?v=QUT1VHiLmmI"
+        }
+      ]
+    },
+    "hTAQSe0rHv7fuAMfxJwGp": {
+      "id": "hTAQSe0rHv7fuAMfxJwGp",
+      "slug": "oop-for-data-analysis",
+      "title": "OOP for Data Analysis",
+      "description": "Object-oriented programming (OOP) organizes code around classes and objects rather than standalone functions and procedures. A class defines a blueprint with attributes (data) and methods (behavior), and objects are instances of that class. For data analysis work, OOP is useful when building reusable data processing components, custom dataset loaders, or analysis pipelines that need to maintain state across multiple steps. Most of the libraries used daily, including Pandas, NumPy, and Scikit-learn, are built around classes, so understanding OOP helps in reading documentation, subclassing existing components, and writing cleaner, more maintainable analysis code.",
+      "resources": [
+        {
+          "id": "hTAQSe0rHv7fuAMfxJwGp-res-1",
+          "type": "article",
+          "title": "Object-Oriented Programming (OOP) in Python",
+          "url": "https://towardsdatascience.com/object-oriented-programming-oop-in-python-56b1f3229c0f/"
+        },
+        {
+          "id": "hTAQSe0rHv7fuAMfxJwGp-res-2",
+          "type": "article",
+          "title": "How data scientists can leverage object oriented programming (OOP)",
+          "url": "https://medium.com/@lawjimmy123/how-data-scientists-can-leverage-object-oriented-programming-oop-design-pattern-to-write-better-699166910882"
+        },
+        {
+          "id": "hTAQSe0rHv7fuAMfxJwGp-res-3",
+          "type": "article",
+          "title": "Object-Oriented Programming (OOP) in Python",
+          "url": "https://realpython.com/python3-object-oriented-programming/"
+        }
+      ]
+    },
+    "so95CO6Qw3I0S98ISENS-": {
+      "id": "so95CO6Qw3I0S98ISENS-",
+      "slug": "operators",
+      "title": "Operators",
+      "description": "Operators are symbols that perform operations on values and variables. Python supports arithmetic, comparison, and logical operators, each serving a different purpose in data analysis code. Understanding how operators work and combine is necessary for writing correct filtering conditions, calculations, and control flow logic.",
+      "resources": [
+        {
+          "id": "so95CO6Qw3I0S98ISENS--res-1",
+          "type": "article",
+          "title": "Python Operators",
+          "url": "https://www.w3schools.com/python/python_operators.asp"
+        },
+        {
+          "id": "so95CO6Qw3I0S98ISENS--res-2",
+          "type": "article",
+          "title": "Python Operators from Scratch!!! – A Beginner’s Guide",
+          "url": "https://towardsdatascience.com/python-operators-from-scratch-a-beginners-guide-8471306f4278/"
+        },
+        {
+          "id": "so95CO6Qw3I0S98ISENS--res-3",
+          "type": "video",
+          "title": "Python Tutorial for Beginners | Operators in Python",
+          "url": "https://www.youtube.com/watch?v=v5MR5JnKcZI"
+        }
+      ]
+    },
+    "yRHodYYqdICLZyG3J9qjc": {
+      "id": "yRHodYYqdICLZyG3J9qjc",
+      "slug": "pandas-string-methods",
+      "title": "Pandas String Methods",
+      "description": "Pandas exposes string methods through the `.str` accessor on Series, allowing vectorized text operations on entire columns. Methods include `.str.strip()`, `.str.lower()`, `.str.contains()`, `.str.replace()`, `.str.split()`, and `.str.extract()`. These methods avoid the need to loop over rows for string cleaning.",
+      "resources": [
+        {
+          "id": "yRHodYYqdICLZyG3J9qjc-res-1",
+          "type": "article",
+          "title": "Working with text data",
+          "url": "https://pandas.pydata.org/docs/user_guide/text.html"
+        },
+        {
+          "id": "yRHodYYqdICLZyG3J9qjc-res-2",
+          "type": "article",
+          "title": "5 Must-Know Pandas Operations on Strings",
+          "url": "https://towardsdatascience.com/5-must-know-pandas-operations-on-strings-4f88ca6b8e25/"
+        },
+        {
+          "id": "yRHodYYqdICLZyG3J9qjc-res-3",
+          "type": "video",
+          "title": "How do I use string methods in pandas?",
+          "url": "https://www.youtube.com/watch?v=bofaC0IckHo"
+        }
+      ]
+    },
+    "bIblb5cVNSZLqSuskmKnP": {
+      "id": "bIblb5cVNSZLqSuskmKnP",
+      "slug": "pandas",
+      "title": "Pandas",
+      "description": "Pandas is the primary data manipulation library for Python. It provides two core data structures: Series (one-dimensional) and DataFrame (two-dimensional tabular data). Pandas supports loading data from many formats, cleaning, transforming, grouping, merging, and exporting data, covering the full data preparation workflow.",
+      "resources": [
+        {
+          "id": "bIblb5cVNSZLqSuskmKnP-res-1",
+          "type": "article",
+          "title": "10 minutes to pandas",
+          "url": "https://pandas.pydata.org/docs/user_guide/10min.html"
+        },
+        {
+          "id": "bIblb5cVNSZLqSuskmKnP-res-2",
+          "type": "article",
+          "title": "Pandas Tutorial",
+          "url": "https://www.w3schools.com/python/pandas/"
+        },
+        {
+          "id": "bIblb5cVNSZLqSuskmKnP-res-3",
+          "type": "video",
+          "title": "Learn Pandas in 1 hour! 🐼",
+          "url": "https://www.youtube.com/watch?v=VXtjG_GzO7Q"
+        }
+      ]
+    },
+    "cD139cRk1xj2ip-o_078l": {
+      "id": "cD139cRk1xj2ip-o_078l",
+      "slug": "pandas",
+      "title": "Pandas",
+      "description": "Pandas integrates with SQL through `pd.read_sql()`, which executes a SQL query against a database connection and returns the result as a DataFrame. This allows analysts to leverage SQL for initial data extraction and filtering while using Pandas for downstream manipulation and analysis.",
+      "resources": [
+        {
+          "id": "cD139cRk1xj2ip-o_078l-res-1",
+          "type": "article",
+          "title": "pandas.read_sql",
+          "url": "https://pandas.pydata.org/docs/reference/api/pandas.read_sql.html"
+        },
+        {
+          "id": "cD139cRk1xj2ip-o_078l-res-2",
+          "type": "video",
+          "title": "Read Write Data From Database (read_sql, to_sql)",
+          "url": "https://www.youtube.com/watch?v=M-4EpNdlSuY"
+        }
+      ]
+    },
+    "sBKhhjfFTpbj7TQwVnX7F": {
+      "id": "sBKhhjfFTpbj7TQwVnX7F",
+      "slug": "parquet",
+      "title": "Parquet",
+      "description": "Parquet is a columnar file format optimized for analytical workloads. It stores data with type information, supports efficient compression, and reads much faster than CSV for large datasets. `pd.read_parquet()` requires the `pyarrow` or `fastparquet` library and is the preferred format for storing processed DataFrames on disk.",
+      "resources": [
+        {
+          "id": "sBKhhjfFTpbj7TQwVnX7F-res-1",
+          "type": "article",
+          "title": "pandas.read_parquet",
+          "url": "https://pandas.pydata.org/docs/reference/api/pandas.read_parquet.html"
+        },
+        {
+          "id": "sBKhhjfFTpbj7TQwVnX7F-res-2",
+          "type": "video",
+          "title": "Reading Parquet Files in Python",
+          "url": "https://www.youtube.com/watch?v=XFO5jdGsMek"
+        }
+      ]
+    },
+    "L7btVRwvkEVX0K8LxnbqJ": {
+      "id": "L7btVRwvkEVX0K8LxnbqJ",
+      "slug": "parsing-dates",
+      "title": "Parsing Dates",
+      "description": "Date columns loaded from CSV are typically read as strings and must be converted to datetime objects for time-based operations. `pd.to_datetime()` parses date strings in many formats and accepts a `format` parameter for custom patterns. Once parsed, datetime columns enable operations like extracting year/month, computing differences, and resampling time series.",
+      "resources": [
+        {
+          "id": "L7btVRwvkEVX0K8LxnbqJ-res-1",
+          "type": "article",
+          "title": "pandas.to_datetime",
+          "url": "https://pandas.pydata.org/docs/reference/api/pandas.to_datetime.html"
+        },
+        {
+          "id": "L7btVRwvkEVX0K8LxnbqJ-res-2",
+          "type": "article",
+          "title": "Working with Dates and Time Series Data",
+          "url": "https://www.youtube.com/watch?v=UFuo7EHI8zc"
+        },
+        {
+          "id": "L7btVRwvkEVX0K8LxnbqJ-res-3",
+          "type": "article",
+          "title": "Dealing with Date and Time in Pandas DataFrames",
+          "url": "https://towardsdatascience.com/dealing-with-date-and-time-in-pandas-dataframes-7d140f711a47/"
+        }
+      ]
+    },
+    "6dJaQRj2zMz00sfTiTdww": {
+      "id": "6dJaQRj2zMz00sfTiTdww",
+      "slug": "pip",
+      "title": "pip",
+      "description": "pip is Python's default package installer. It installs packages from the Python Package Index (PyPI) using `pip install package-name`. Libraries like NumPy, Pandas, Matplotlib, and Scikit-learn are all installed this way. A `requirements.txt` file captures all dependencies for a project.",
+      "resources": [
+        {
+          "id": "6dJaQRj2zMz00sfTiTdww-res-1",
+          "type": "article",
+          "title": "Installing Packages",
+          "url": "https://packaging.python.org/en/latest/tutorials/installing-packages/"
+        },
+        {
+          "id": "6dJaQRj2zMz00sfTiTdww-res-2",
+          "type": "article",
+          "title": "pip",
+          "url": "https://github.com/pypa/pip"
+        },
+        {
+          "id": "6dJaQRj2zMz00sfTiTdww-res-3",
+          "type": "video",
+          "title": "Python pip 🏗️",
+          "url": "https://www.youtube.com/watch?v=9z7gGUbAj5U"
+        }
+      ]
+    },
+    "5HEYmbVJ6Z7lvgqalVjxW": {
+      "id": "5HEYmbVJ6Z7lvgqalVjxW",
+      "slug": "plot-categories",
+      "title": "Plot Categories",
+      "description": "Matplotlib supports a wide range of plot types: line plots (`plot`), bar charts (`bar`, `barh`), scatter plots (`scatter`), histograms (`hist`), box plots (`boxplot`), pie charts (`pie`), and more. Choosing the right plot type depends on the data structure and the relationship being communicated.",
+      "resources": [
+        {
+          "id": "5HEYmbVJ6Z7lvgqalVjxW-res-1",
+          "type": "article",
+          "title": "Plot types",
+          "url": "https://matplotlib.org/stable/plot_types/index.html"
+        },
+        {
+          "id": "5HEYmbVJ6Z7lvgqalVjxW-res-2",
+          "type": "article",
+          "title": "Python Gallery: Matplotlib",
+          "url": "https://python-graph-gallery.com/matplotlib/"
+        },
+        {
+          "id": "5HEYmbVJ6Z7lvgqalVjxW-res-3",
+          "type": "article",
+          "title": "Matplotlib: Part 3. Exploring Different Plot Types",
+          "url": "https://medium.com/@ebimsv/mastering-matplotlib-3-exploring-different-plot-types-bd13d18ff613"
+        }
+      ]
+    },
+    "J_u8yvrHEWKKmVsVgPN7L": {
+      "id": "J_u8yvrHEWKKmVsVgPN7L",
+      "slug": "plotly",
+      "title": "Plotly",
+      "description": "Plotly is a Python library for creating interactive charts and dashboards. It produces web-based visualizations using JavaScript under the hood, with a Python API. Plotly Express provides a high-level interface for common chart types, while the `graph_objects` module offers full control. Plotly integrates with Dash for building full web dashboards.",
+      "resources": [
+        {
+          "id": "J_u8yvrHEWKKmVsVgPN7L-res-1",
+          "type": "article",
+          "title": "Getting Started with Plotly in Python",
+          "url": "https://plotly.com/python/getting-started/"
+        },
+        {
+          "id": "J_u8yvrHEWKKmVsVgPN7L-res-2",
+          "type": "article",
+          "title": "Plotly Python Graphing Library Fundamentals",
+          "url": "https://plotly.com/python/plotly-fundamentals/"
+        },
+        {
+          "id": "J_u8yvrHEWKKmVsVgPN7L-res-3",
+          "type": "video",
+          "title": "Plotly Tutorial - Basics in 7 Minutes!",
+          "url": "https://www.youtube.com/watch?v=PqUaDvbczbI"
+        }
+      ]
+    },
+    "18eitPvBQKdeM3K33d59g": {
+      "id": "18eitPvBQKdeM3K33d59g",
+      "slug": "polars",
+      "title": "Polars",
+      "description": "Polars is a fast DataFrame library for Python written in Rust. It is designed as a high-performance alternative to Pandas, with a more consistent API and significantly better performance on large datasets. Polars uses lazy evaluation and query optimization to process data efficiently without loading everything into memory at once.",
+      "resources": [
+        {
+          "id": "18eitPvBQKdeM3K33d59g-res-1",
+          "type": "article",
+          "title": "Getting started",
+          "url": "https://docs.pola.rs/user-guide/getting-started/"
+        },
+        {
+          "id": "18eitPvBQKdeM3K33d59g-res-2",
+          "type": "video",
+          "title": "Learning the Polars DataFrame Library!",
+          "url": "https://www.youtube.com/watch?v=OTVDmA6CRlQ"
+        }
+      ]
+    },
+    "EHVXO79NGpLC1i8x4Y7g1": {
+      "id": "EHVXO79NGpLC1i8x4Y7g1",
+      "slug": "power-bi--tableau",
+      "title": "Power BI / Tableau",
+      "description": "Power BI and Tableau are enterprise BI platforms for building interactive dashboards and reports. Python integrates with both: Power BI supports Python visuals and data transformation scripts, and Tableau supports Python through TabPy for custom calculations. Analysts who prepare data in Python can visualize and distribute it through these platforms for business audiences.",
+      "resources": [
+        {
+          "id": "EHVXO79NGpLC1i8x4Y7g1-res-1",
+          "type": "video",
+          "title": "Power BI Tutorials for Beginners",
+          "url": "https://www.youtube.com/playlist?list=PLUaB-1hjhk8HqnmK0gQhfmIdCbxwoAoys"
+        },
+        {
+          "id": "EHVXO79NGpLC1i8x4Y7g1-res-2",
+          "type": "video",
+          "title": "Learn Tableau in Under 2 hours",
+          "url": "https://www.youtube.com/watch?v=j8FSP8XuFyk"
+        }
+      ]
+    },
+    "icVUQgedEGcaPpJSV8JdI": {
+      "id": "icVUQgedEGcaPpJSV8JdI",
+      "slug": "printing-variables",
+      "title": "Printing Variables",
+      "description": "Printing variables is done with Python's built-in `print()` function. During analysis, printing intermediate values helps verify that transformations are working as expected. F-strings (`f\"value: {variable}\"`) provide a clean way to format output with variable values embedded in strings.",
+      "resources": [
+        {
+          "id": "icVUQgedEGcaPpJSV8JdI-res-1",
+          "type": "article",
+          "title": "Variables in Python: Usage and Best Practices",
+          "url": "https://realpython.com/python-variables/"
+        },
+        {
+          "id": "icVUQgedEGcaPpJSV8JdI-res-2",
+          "type": "article",
+          "title": "Python Print New Line: Methods, Examples, and Best Practices",
+          "url": "https://roadmap.sh/python/print-new-line"
+        },
+        {
+          "id": "icVUQgedEGcaPpJSV8JdI-res-3",
+          "type": "article",
+          "title": "Python Multiline Strings: The Complete Guide",
+          "url": "https://roadmap.sh/python/multiline-strings"
+        },
+        {
+          "id": "icVUQgedEGcaPpJSV8JdI-res-4",
+          "type": "video",
+          "title": "Data Types & Variables in Python",
+          "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRhN-sfWgCU1z_Qhakc1AGOn"
+        }
+      ]
+    },
+    "XTXm8aIDbRkTXoAck_m3I": {
+      "id": "XTXm8aIDbRkTXoAck_m3I",
+      "slug": "pyspark",
+      "title": "PySpark",
+      "description": "PySpark is the Python API for Apache Spark, the distributed data processing engine. It allows Python code to run Spark jobs on clusters, processing datasets at the scale of terabytes. PySpark provides DataFrame and SQL APIs similar to Pandas and integrates with MLlib for distributed machine learning. It is used when data volume exceeds what Dask or a single machine can handle.",
+      "resources": [
+        {
+          "id": "XTXm8aIDbRkTXoAck_m3I-res-1",
+          "type": "article",
+          "title": "PySpark Tutorials",
+          "url": "https://spark.apache.org/docs/latest/api/python/tutorial/index.html"
+        },
+        {
+          "id": "XTXm8aIDbRkTXoAck_m3I-res-2",
+          "type": "article",
+          "title": "PySpark for Beginners: Beyond the Basics",
+          "url": "https://towardsdatascience.com/pyspark-for-beginners-beyond-the-basics/"
+        },
+        {
+          "id": "XTXm8aIDbRkTXoAck_m3I-res-3",
+          "type": "video",
+          "title": "PySpark Tutorial",
+          "url": "https://www.youtube.com/watch?v=wNRjR6Cds5s&list=PL2IsFZBGM_IHCl9zhRVC1EXTomkEp_1zm"
+        }
+      ]
+    },
+    "XizmE-QroU4GJbjvqNYxe": {
+      "id": "XizmE-QroU4GJbjvqNYxe",
+      "slug": "random-module",
+      "title": "Random Module",
+      "description": "NumPy's `random` module generates pseudorandom numbers and samples. It provides functions for creating random arrays, sampling from distributions (normal, uniform, binomial), and setting a seed for reproducibility. Random number generation is used in simulation, bootstrapping, and initializing machine learning models.",
+      "resources": [
+        {
+          "id": "XizmE-QroU4GJbjvqNYxe-res-1",
+          "type": "article",
+          "title": "Random Numbers in NumPy",
+          "url": "https://www.w3schools.com/python/numpy/numpy_random.asp"
+        },
+        {
+          "id": "XizmE-QroU4GJbjvqNYxe-res-2",
+          "type": "article",
+          "title": "Numpy Random",
+          "url": "https://www.programiz.com/python-programming/numpy/random"
+        },
+        {
+          "id": "XizmE-QroU4GJbjvqNYxe-res-3",
+          "type": "video",
+          "title": "Random numbers in NumPy are easy! 🎲",
+          "url": "https://www.youtube.com/watch?v=Ql5zGPtxlHY&pp=ygUNIG51bXB5IHJhbmRvbQ%3D%3D"
+        }
+      ]
+    },
+    "oXhGEIie-MzfUSM2Ng4Zm": {
+      "id": "oXhGEIie-MzfUSM2Ng4Zm",
+      "slug": "re",
+      "title": "re",
+      "description": "The `re` module provides regular expression support for pattern matching and text manipulation. It is used for extracting structured data from unstructured text, validating formats, and performing complex find-and-replace operations. Key functions include `re.match()`, `re.search()`, `re.findall()`, and `re.sub()`.",
+      "resources": [
+        {
+          "id": "oXhGEIie-MzfUSM2Ng4Zm-res-1",
+          "type": "article",
+          "title": "re — Regular expression operations",
+          "url": "https://docs.python.org/3/library/re.html"
+        },
+        {
+          "id": "oXhGEIie-MzfUSM2Ng4Zm-res-2",
+          "type": "article",
+          "title": "Regular expression HOWTO",
+          "url": "https://docs.python.org/3/howto/regex.html"
+        },
+        {
+          "id": "oXhGEIie-MzfUSM2Ng4Zm-res-3",
+          "type": "article",
+          "title": "Python RegEx",
+          "url": "https://www.w3schools.com/python/python_regex.asp"
+        },
+        {
+          "id": "oXhGEIie-MzfUSM2Ng4Zm-res-4",
+          "type": "video",
+          "title": "Python Tutorial: re Module - How to Write and Match Regular Expressions (Regex)",
+          "url": "https://www.youtube.com/watch?v=K8L6KVGG-7o"
+        }
+      ]
+    },
+    "w2j11Jyr_qLP1Y9ST-06O": {
+      "id": "w2j11Jyr_qLP1Y9ST-06O",
+      "slug": "reading-data",
+      "title": "Reading Data",
+      "description": "Pandas provides functions to load data from many formats: `pd.read_csv()`, `pd.read_excel()`, `pd.read_json()`, `pd.read_parquet()`, `pd.read_sql()`, and others. Each function returns a DataFrame and accepts parameters for handling headers, delimiters, encoding, and data types. Reading data is always the first step in a Pandas workflow.",
+      "resources": [
+        {
+          "id": "w2j11Jyr_qLP1Y9ST-06O-res-1",
+          "type": "article",
+          "title": "How do I read and write tabular data?",
+          "url": "https://pandas.pydata.org/docs/getting_started/intro_tutorials/02_read_write.html"
+        },
+        {
+          "id": "w2j11Jyr_qLP1Y9ST-06O-res-2",
+          "type": "article",
+          "title": "Pandas 101: How to Read Data from Multiple Sources",
+          "url": "https://riyoma.medium.com/pandas-101-how-to-read-data-from-multiple-sources-ba75e5497ad5"
+        },
+        {
+          "id": "w2j11Jyr_qLP1Y9ST-06O-res-3",
+          "type": "video",
+          "title": "Reading in Files in Pandas | Python Pandas Tutorials",
+          "url": "https://www.youtube.com/watch?v=dUpyC40cF6Q"
+        }
+      ]
+    },
+    "34DL5RWQtHkvgVhI9a_ZQ": {
+      "id": "34DL5RWQtHkvgVhI9a_ZQ",
+      "slug": "reading-local-files",
+      "title": "Reading Local Files",
+      "description": "Reading local files loads data stored on disk into Python for analysis. Pandas supports the most common file formats used in data work. The right function to use depends on the file format, and parameters like delimiter, encoding, and header row often need to be specified.",
+      "resources": [
+        {
+          "id": "34DL5RWQtHkvgVhI9a_ZQ-res-1",
+          "type": "article",
+          "title": "pandas: How to Read and Write Files",
+          "url": "https://realpython.com/pandas-read-write-files/"
+        },
+        {
+          "id": "34DL5RWQtHkvgVhI9a_ZQ-res-2",
+          "type": "video",
+          "title": "How to Navigate File Paths: Reading Data With Pandas",
+          "url": "https://www.youtube.com/watch?v=39pwKSJ7T1Y"
+        }
+      ]
+    },
+    "w8iQWthKu1w75z36B8Ir3": {
+      "id": "w8iQWthKu1w75z36B8Ir3",
+      "slug": "reading-web-data",
+      "title": "Reading Web Data",
+      "description": "Reading web data involves fetching data from URLs, REST APIs, and web pages directly into Python. This allows analysis workflows to incorporate live or frequently updated data without manual downloads. The main tools are the `requests` library for APIs and `BeautifulSoup` or `scrapy` for web scraping.",
+      "resources": [
+        {
+          "id": "w8iQWthKu1w75z36B8Ir3-res-1",
+          "type": "article",
+          "title": "An Efficient Way to Read Data from the Web Directly into Python",
+          "url": "https://medium.com/data-science/an-efficient-way-to-read-data-from-the-web-directly-into-python-a526a0b4f4cb"
+        }
+      ]
+    },
+    "PcGJMkmZrl4xc2ADT9dF3": {
+      "id": "PcGJMkmZrl4xc2ADT9dF3",
+      "slug": "regression-plots",
+      "title": "Regression Plots",
+      "description": "Seaborn's regression plots visualize the relationship between two numeric variables with a fitted regression line. `sns.regplot()` plots data points and a linear regression fit with confidence interval. `sns.lmplot()` extends this to support faceting by a categorical variable, enabling comparison across groups.",
+      "resources": [
+        {
+          "id": "PcGJMkmZrl4xc2ADT9dF3-res-1",
+          "type": "article",
+          "title": "Visualizing statistical relationships",
+          "url": "https://seaborn.pydata.org/tutorial/relational.html"
+        },
+        {
+          "id": "PcGJMkmZrl4xc2ADT9dF3-res-2",
+          "type": "article",
+          "title": "Seaborn Relplot in Python: Visualising Relationships in Data",
+          "url": "https://towardsdatascience.com/seaborn-relplot-in-python-visualising-relationships-in-data-ee39138d53aa/"
+        },
+        {
+          "id": "PcGJMkmZrl4xc2ADT9dF3-res-3",
+          "type": "video",
+          "title": "Seaborn scatter plot | How to make and style a scatterplot in Python seaborn",
+          "url": "https://www.youtube.com/watch?v=4yz4cMXCkuw"
+        }
+      ]
+    },
+    "ACr__YweG2xOAf56FK8tE": {
+      "id": "ACr__YweG2xOAf56FK8tE",
+      "slug": "reshaping",
+      "title": "Reshaping",
+      "description": "Reshaping transforms the structure of a DataFrame without changing its data. `pivot()` and `pivot_table()` convert long-format data to wide format. `melt()` does the reverse, converting wide to long. `stack()` and `unstack()` move index levels to columns or vice versa. Reshaping is often needed to prepare data for specific visualizations or models.",
+      "resources": [
+        {
+          "id": "ACr__YweG2xOAf56FK8tE-res-1",
+          "type": "article",
+          "title": "Reshaping and pivot tables",
+          "url": "https://pandas.pydata.org/docs/user_guide/reshaping.html"
+        },
+        {
+          "id": "ACr__YweG2xOAf56FK8tE-res-2",
+          "type": "article",
+          "title": "Reshaping a Pandas Dataframe: Long-to-Wide and Vice Versa",
+          "url": "https://towardsdatascience.com/reshaping-a-pandas-dataframe-long-to-wide-and-vice-versa-517c7f0995ad/"
+        },
+        {
+          "id": "ACr__YweG2xOAf56FK8tE-res-3",
+          "type": "video",
+          "title": "Pandas - Reshape Dataframe",
+          "url": "https://www.youtube.com/watch?v=oY62o-tBHF4&list=PL6icxsSf2sRe2qqFmtZwU_VKChEChzhEP"
+        }
+      ]
+    },
+    "mElhFGGT2GnLg2AkJFETN": {
+      "id": "mElhFGGT2GnLg2AkJFETN",
+      "slug": "saving-figures",
+      "title": "Saving figures",
+      "description": "Figures are saved to disk with `plt.savefig('filename.png', dpi=300, bbox_inches='tight')`. Supported formats include PNG, PDF, SVG, and JPEG. Saving high-resolution figures is important when embedding charts in reports or publications. The `bbox_inches='tight'` parameter prevents axis labels from being cut off.",
+      "resources": [
+        {
+          "id": "mElhFGGT2GnLg2AkJFETN-res-1",
+          "type": "article",
+          "title": "matplotlib.pyplot.savefig",
+          "url": "https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.savefig.html"
+        },
+        {
+          "id": "mElhFGGT2GnLg2AkJFETN-res-2",
+          "type": "video",
+          "title": "How to save a matplotlib figure and fix text cutting off || Matplotlib Tips",
+          "url": "https://www.youtube.com/watch?v=C8MT-A7Mvk4"
+        }
+      ]
+    },
+    "4ce2yYLRCSb3azsOMpE-U": {
+      "id": "4ce2yYLRCSb3azsOMpE-U",
+      "slug": "scatterplot",
+      "title": "Scatterplot",
+      "description": "A scatter plot displays two numeric variables as points on an x-y axis to reveal their relationship. It is used during EDA to detect correlations, clusters, and outliers. A trend line or regression line can be added to show the direction and strength of the linear relationship between the variables.",
+      "resources": [
+        {
+          "id": "4ce2yYLRCSb3azsOMpE-U-res-1",
+          "type": "article",
+          "title": "matplotlib.pyplot.scatter",
+          "url": "https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.scatter.html"
+        },
+        {
+          "id": "4ce2yYLRCSb3azsOMpE-U-res-2",
+          "type": "article",
+          "title": "How to Make a Scatter Plot in Python With plt.scatter()",
+          "url": "https://realpython.com/visualizing-python-plt-scatter/"
+        },
+        {
+          "id": "4ce2yYLRCSb3azsOMpE-U-res-3",
+          "type": "video",
+          "title": "Seaborn scatter plot | How to make and style a scatterplot in Python seaborn",
+          "url": "https://www.youtube.com/watch?v=4yz4cMXCkuw"
+        }
+      ]
+    },
+    "npndQC8OIfP1wwn_iswPy": {
+      "id": "npndQC8OIfP1wwn_iswPy",
+      "slug": "scikit-learn",
+      "title": "Scikit-learn",
+      "description": "Scikit-learn is the standard machine learning library for Python. It provides a consistent API for classification, regression, clustering, dimensionality reduction, model selection, and preprocessing. Models are trained with `.fit()`, used to predict with `.predict()`, and evaluated with a suite of metrics. Scikit-learn also provides tools for pipelines, cross-validation, and hyperparameter tuning.",
+      "resources": [
+        {
+          "id": "npndQC8OIfP1wwn_iswPy-res-1",
+          "type": "article",
+          "title": "Scikit-learn",
+          "url": "https://scikit-learn.org/stable/"
+        },
+        {
+          "id": "npndQC8OIfP1wwn_iswPy-res-2",
+          "type": "video",
+          "title": "Scikit-learn Crash Course - Machine Learning Library for Python",
+          "url": "https://www.youtube.com/watch?v=0B5eIE_1vpU"
+        }
+      ]
+    },
+    "YxA0ms9vkufKGOguRNK1B": {
+      "id": "YxA0ms9vkufKGOguRNK1B",
+      "slug": "scipy",
+      "title": "SciPy",
+      "description": "SciPy is a scientific computing library built on NumPy. It provides modules for statistics (`scipy.stats`), optimization (`scipy.optimize`), linear algebra, signal processing, and numerical integration. `scipy.stats` is used for hypothesis tests (t-tests, chi-square, ANOVA), probability distributions, and descriptive statistics beyond what NumPy provides.",
+      "resources": [
+        {
+          "id": "YxA0ms9vkufKGOguRNK1B-res-1",
+          "type": "article",
+          "title": "SciPy User Guide",
+          "url": "https://docs.scipy.org/doc/scipy/tutorial/"
+        },
+        {
+          "id": "YxA0ms9vkufKGOguRNK1B-res-2",
+          "type": "article",
+          "title": "SciPy Tutorial",
+          "url": "https://www.w3schools.com/python/scipy/index.php"
+        },
+        {
+          "id": "YxA0ms9vkufKGOguRNK1B-res-3",
+          "type": "video",
+          "title": "SciPy Tutorial: For Physicists, Engineers, and Mathematicians",
+          "url": "https://www.youtube.com/watch?v=jmX4FOUEfgU"
+        }
+      ]
+    },
+    "UImXdBHQKCzp9NdjF9xMi": {
+      "id": "UImXdBHQKCzp9NdjF9xMi",
+      "slug": "scrapy",
+      "title": "scrapy",
+      "description": "Scrapy is a Python framework for large-scale web scraping. Unlike BeautifulSoup, which parses individual pages, Scrapy manages the full crawling workflow: following links, handling pagination, managing request queues, and exporting data. It is used when scraping requires collecting data from many pages across a site.",
+      "resources": [
+        {
+          "id": "UImXdBHQKCzp9NdjF9xMi-res-1",
+          "type": "article",
+          "title": "Scrapy Docs",
+          "url": "https://docs.scrapy.org/en/latest/"
+        },
+        {
+          "id": "UImXdBHQKCzp9NdjF9xMi-res-2",
+          "type": "article",
+          "title": "A Minimalist End-to-End Scrapy Tutorial (Part I)",
+          "url": "https://medium.com/data-science/a-minimalist-end-to-end-scrapy-tutorial-part-i-11e350bcdec0"
+        },
+        {
+          "id": "UImXdBHQKCzp9NdjF9xMi-res-3",
+          "type": "video",
+          "title": "Scrapy for Beginners - A Complete How To Example Web Scraping Project",
+          "url": "https://www.youtube.com/watch?v=s4jtkzHhLzY"
+        }
+      ]
+    },
+    "zx7uCaQiCxvXMhm9FG3XG": {
+      "id": "zx7uCaQiCxvXMhm9FG3XG",
+      "slug": "seaborn",
+      "title": "Seaborn",
+      "description": "Seaborn is a Python visualization library built on Matplotlib that provides a higher-level interface for statistical graphics. It handles common plot types with less code and integrates tightly with Pandas DataFrames. Seaborn is particularly strong for visualizing statistical relationships, distributions, and grouped comparisons.",
+      "resources": [
+        {
+          "id": "zx7uCaQiCxvXMhm9FG3XG-res-1",
+          "type": "article",
+          "title": "Seaborn Tutorials",
+          "url": "https://seaborn.pydata.org/tutorial.html"
+        },
+        {
+          "id": "zx7uCaQiCxvXMhm9FG3XG-res-2",
+          "type": "article",
+          "title": "Introduction to Seaborn for dataviz with Python",
+          "url": "https://python-graph-gallery.com/seaborn/"
+        },
+        {
+          "id": "zx7uCaQiCxvXMhm9FG3XG-res-3",
+          "type": "article",
+          "title": "Data Visualisation Tutorial Using Seaborn",
+          "url": "https://towardsdatascience.com/data-visualisation-tutorial-using-seaborn-26e1ef9043db/"
+        },
+        {
+          "id": "zx7uCaQiCxvXMhm9FG3XG-res-4",
+          "type": "video",
+          "title": "Introduction to Seaborn",
+          "url": "https://www.youtube.com/watch?v=vaf4ir8eT38&list=PLtPIclEQf-3cG31dxSMZ8KTcDG7zYng1j"
+        }
+      ]
+    },
+    "3N5N6qe8JVr0XGOFdn5-8": {
+      "id": "3N5N6qe8JVr0XGOFdn5-8",
+      "slug": "series-and-dataframe",
+      "title": "Series and DataFrame",
+      "description": "A Series is a one-dimensional labeled array, analogous to a single column in a spreadsheet. A DataFrame is a two-dimensional table of Series that share an index, analogous to a spreadsheet or SQL table. These two structures are the foundation of all Pandas operations.",
+      "resources": [
+        {
+          "id": "3N5N6qe8JVr0XGOFdn5-8-res-1",
+          "type": "article",
+          "title": "pandas.Series",
+          "url": "https://pandas.pydata.org/docs/reference/api/pandas.Series.html"
+        },
+        {
+          "id": "3N5N6qe8JVr0XGOFdn5-8-res-2",
+          "type": "article",
+          "title": "pandas.DataFrame",
+          "url": "https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html"
+        },
+        {
+          "id": "3N5N6qe8JVr0XGOFdn5-8-res-3",
+          "type": "article",
+          "title": "Pandas Series",
+          "url": "https://www.w3schools.com/python/pandas/pandas_series.asp"
+        },
+        {
+          "id": "3N5N6qe8JVr0XGOFdn5-8-res-4",
+          "type": "article",
+          "title": "Pandas DataFrames",
+          "url": "https://www.w3schools.com/python/pandas/pandas_dataframes.asp"
+        }
+      ]
+    },
+    "GvV_thqIC0yXyJbJt_Zmu": {
+      "id": "GvV_thqIC0yXyJbJt_Zmu",
+      "slug": "sets",
+      "title": "Sets",
+      "description": "Sets are unordered collections of unique values. They support mathematical set operations like union, intersection, and difference. They are useful for finding unique values, checking membership, and comparing two groups of items.",
+      "resources": [
+        {
+          "id": "GvV_thqIC0yXyJbJt_Zmu-res-1",
+          "type": "article",
+          "title": "Sets",
+          "url": "https://docs.python.org/3/tutorial/datastructures.html#sets"
+        },
+        {
+          "id": "GvV_thqIC0yXyJbJt_Zmu-res-2",
+          "type": "video",
+          "title": "What are Sets in Python? Python Tutorial for Absolute Beginners",
+          "url": "https://www.youtube.com/watch?v=t9j8lCUGZXo"
+        }
+      ]
+    },
+    "E_r4BLrSyHkrxpg4HDkUm": {
+      "id": "E_r4BLrSyHkrxpg4HDkUm",
+      "slug": "sql-fundamentals",
+      "title": "SQL Fundamentals",
+      "description": "SQL (Structured Query Language) is the standard language for querying relational databases. Data analysts use SQL to extract, filter, aggregate, and join data from databases before loading it into Python for further analysis. Python provides several libraries for running SQL queries directly from code.",
+      "resources": [
+        {
+          "id": "E_r4BLrSyHkrxpg4HDkUm-res-1",
+          "type": "article",
+          "title": "SQL Tutorial - Mode",
+          "url": "https://www.thoughtspot.com/sql-tutorial"
+        },
+        {
+          "id": "E_r4BLrSyHkrxpg4HDkUm-res-2",
+          "type": "article",
+          "title": "SQL Tutorial",
+          "url": "https://www.sqltutorial.org/"
+        },
+        {
+          "id": "E_r4BLrSyHkrxpg4HDkUm-res-3",
+          "type": "video",
+          "title": "SQL Tutorial - Full Database Course for Beginners",
+          "url": "https://www.youtube.com/watch?v=HXV3zeQKqGY"
+        }
+      ]
+    },
+    "k63rFXaVDUX2ZOVI_O9WG": {
+      "id": "k63rFXaVDUX2ZOVI_O9WG",
+      "slug": "sqlalchemy",
+      "title": "SQLAlchemy",
+      "description": "SQLAlchemy is a Python SQL toolkit and object-relational mapper (ORM) that provides a unified interface for connecting to many database backends including PostgreSQL, MySQL, SQLite, and others. It is used with Pandas via `pd.read_sql()` to load query results directly into DataFrames.",
+      "resources": [
+        {
+          "id": "k63rFXaVDUX2ZOVI_O9WG-res-1",
+          "type": "article",
+          "title": "SQLAlchemy",
+          "url": "https://www.sqlalchemy.org/"
+        },
+        {
+          "id": "k63rFXaVDUX2ZOVI_O9WG-res-2",
+          "type": "article",
+          "title": "Mastering SQLAlchemy: A Comprehensive Guide for Python Developers",
+          "url": "https://medium.com/@ramanbazhanau/mastering-sqlalchemy-a-comprehensive-guide-for-python-developers-ddb3d9f2e829"
+        },
+        {
+          "id": "k63rFXaVDUX2ZOVI_O9WG-res-3",
+          "type": "video",
+          "title": "SQLAlchemy: The BEST SQL Database Library in Python",
+          "url": "https://www.youtube.com/watch?v=aAy-B6KPld8"
+        }
+      ]
+    },
+    "-RepeaHp66GGuM66k9JHd": {
+      "id": "-RepeaHp66GGuM66k9JHd",
+      "slug": "sqlite3",
+      "title": "sqlite3",
+      "description": "`sqlite3` is Python's built-in library for working with SQLite databases. SQLite is a lightweight, file-based relational database that requires no server setup. It is commonly used for local data storage, prototyping, and working with small to medium datasets entirely within Python.",
+      "resources": [
+        {
+          "id": "-RepeaHp66GGuM66k9JHd-res-1",
+          "type": "article",
+          "title": "sqlite3",
+          "url": "https://docs.python.org/3/library/sqlite3.html#sqlite3-tutorial"
+        },
+        {
+          "id": "-RepeaHp66GGuM66k9JHd-res-2",
+          "type": "video",
+          "title": "Sqlite 3 Python Tutorial in 5 minutes",
+          "url": "https://www.youtube.com/watch?v=girsuXz0yA8"
+        }
+      ]
+    },
+    "KLXFKVb-EC5WOigI63y09": {
+      "id": "KLXFKVb-EC5WOigI63y09",
+      "slug": "statistics--ml",
+      "title": "Statistics & ML",
+      "description": "Python has a rich ecosystem of libraries for statistical analysis and machine learning. SciPy extends NumPy with statistical tests, optimization, and signal processing. Scikit-learn provides a consistent API for building, evaluating, and deploying machine learning models. Together they cover the analytical needs of most data analysis work.",
+      "resources": [
+        {
+          "id": "KLXFKVb-EC5WOigI63y09-res-1",
+          "type": "article",
+          "title": "Python Statistics Fundamentals: How to Describe Your Data",
+          "url": "https://realpython.com/python-statistics/"
+        },
+        {
+          "id": "KLXFKVb-EC5WOigI63y09-res-2",
+          "type": "video",
+          "title": "Mastering Probability and Statistics in Python",
+          "url": "https://www.youtube.com/playlist?list=PLVgEzPHodXi1wT9OK8B_W6Hs8Xc-gaG6N"
+        },
+        {
+          "id": "KLXFKVb-EC5WOigI63y09-res-3",
+          "type": "video",
+          "title": "Machine Learning Tutorial Python | Machine Learning For Beginners",
+          "url": "https://www.youtube.com/playlist?list=PLeo1K3hjS3uvCeTYTeyfe0-rN5r8zn9rw"
+        }
+      ]
+    },
+    "Z-inS5OKdXi6yveKgxMeC": {
+      "id": "Z-inS5OKdXi6yveKgxMeC",
+      "slug": "streamlit",
+      "title": "Streamlit",
+      "description": "Streamlit is an open-source Python framework for building interactive data applications with minimal code. A Streamlit app is a Python script where each widget (slider, dropdown, text input) triggers a rerun of the script with the new value. It is popular for rapidly prototyping and sharing data analysis tools and ML demos.",
+      "resources": [
+        {
+          "id": "Z-inS5OKdXi6yveKgxMeC-res-1",
+          "type": "article",
+          "title": "Tutorials",
+          "url": "https://docs.streamlit.io/develop/tutorials"
+        },
+        {
+          "id": "Z-inS5OKdXi6yveKgxMeC-res-2",
+          "type": "article",
+          "title": "Getting Started with Streamlit",
+          "url": "https://www.pythonguis.com/tutorials/getting-started-with-streamlit/"
+        },
+        {
+          "id": "Z-inS5OKdXi6yveKgxMeC-res-3",
+          "type": "video",
+          "title": "Streamlit: The Fastest Way To Build Python Apps?",
+          "url": "https://www.youtube.com/watch?v=D0D4Pa22iG0"
+        }
+      ]
+    },
+    "F-0Rxwu_RcNF_NOoFHoo7": {
+      "id": "F-0Rxwu_RcNF_NOoFHoo7",
+      "slug": "strings",
+      "title": "Strings",
+      "description": "Strings (`str`) represent text data. Column names, categorical values, labels, and file paths are all strings. Python provides extensive string methods for cleaning, parsing, and transforming text data, and the `re` module adds regex-based pattern matching.",
+      "resources": [
+        {
+          "id": "F-0Rxwu_RcNF_NOoFHoo7-res-1",
+          "type": "article",
+          "title": "Built-in Types",
+          "url": "https://docs.python.org/3/library/stdtypes.html"
+        },
+        {
+          "id": "F-0Rxwu_RcNF_NOoFHoo7-res-2",
+          "type": "article",
+          "title": "str",
+          "url": "https://realpython.com/ref/builtin-types/str/"
+        }
+      ]
+    },
+    "S1EzGF-CLu7tWDb1V6RQc": {
+      "id": "S1EzGF-CLu7tWDb1V6RQc",
+      "slug": "strip-replace-split",
+      "title": "strip, replace, split",
+      "description": "`strip()` removes leading and trailing whitespace from a string. `replace()` substitutes one substring with another. `split()` divides a string into a list based on a delimiter. These three methods are among the most used for basic text cleaning, applied either to Python strings directly or through the Pandas `.str` accessor on a column.",
+      "resources": [
+        {
+          "id": "S1EzGF-CLu7tWDb1V6RQc-res-1",
+          "type": "article",
+          "title": "Python String Methods: split, join, replace, strip & More",
+          "url": "https://devnook.dev/cheatsheets/python-string-methods-cheatsheet/"
+        },
+        {
+          "id": "S1EzGF-CLu7tWDb1V6RQc-res-2",
+          "type": "article",
+          "title": "Python String Methods",
+          "url": "https://www.w3schools.com/PYTHON/python_ref_string.asp"
+        }
+      ]
+    },
+    "GRg7HyeVuSwkKD5bCOFiY": {
+      "id": "GRg7HyeVuSwkKD5bCOFiY",
+      "slug": "subplots-and-figures",
+      "title": "Subplots and figures",
+      "description": "Matplotlib's `Figure` is the top-level container, and `Axes` objects are the individual plots within it. `plt.subplots(rows, cols)` creates a grid of axes for displaying multiple plots side by side. Subplots are used to compare distributions across groups or to show multiple related variables in one figure.",
+      "resources": [
+        {
+          "id": "GRg7HyeVuSwkKD5bCOFiY-res-1",
+          "type": "article",
+          "title": "Create multiple subplots using plt.subplots",
+          "url": "https://matplotlib.org/stable/gallery/subplots_axes_and_figures/subplots_demo.html"
+        },
+        {
+          "id": "GRg7HyeVuSwkKD5bCOFiY-res-2",
+          "type": "article",
+          "title": "Matplotlib: Part 4. Subplots, Layouts, and Advanced Customizations",
+          "url": "https://medium.com/@ebimsv/mastering-matplotlib-part-4-subplots-layouts-and-advanced-customizations-2f07c4a99e80"
+        },
+        {
+          "id": "GRg7HyeVuSwkKD5bCOFiY-res-3",
+          "type": "article",
+          "title": "Introduction to Multi-figure Layouts",
+          "url": "https://codesignal.com/learn/courses/customizing-and-styling-plots/lessons/multi-figure-layouts-with-matplotlib"
+        }
+      ]
+    },
+    "olniprgaL7l-9YhwbFfmN": {
+      "id": "olniprgaL7l-9YhwbFfmN",
+      "slug": "tuples",
+      "title": "Tuples",
+      "description": "Tuples are ordered, immutable sequences. Unlike lists, their contents cannot be changed after creation. They are used to represent fixed collections of values, such as coordinate pairs, function return values, and dictionary keys where immutability is required.",
+      "resources": [
+        {
+          "id": "olniprgaL7l-9YhwbFfmN-res-1",
+          "type": "article",
+          "title": "Tuple",
+          "url": "https://docs.python.org/3/tutorial/datastructures.html#tuples-and-sequences"
+        },
+        {
+          "id": "olniprgaL7l-9YhwbFfmN-res-2",
+          "type": "video",
+          "title": "Python Tuples",
+          "url": "https://www.youtube.com/watch?v=w6hL_dszMxk"
+        }
+      ]
+    },
+    "NjCor7ePiZapd4f6bMZlV": {
+      "id": "NjCor7ePiZapd4f6bMZlV",
+      "slug": "type-casting",
+      "title": "Type Casting",
+      "description": "Type casting converts a value from one data type to another using built-in functions like `int()`, `float()`, `str()`, and `bool()`. It is frequently needed when data is loaded with incorrect types, such as numbers stored as strings or booleans stored as integers.",
+      "resources": [
+        {
+          "id": "NjCor7ePiZapd4f6bMZlV-res-1",
+          "type": "article",
+          "title": "Python Type Conversion",
+          "url": "https://www.programiz.com/python-programming/type-conversion-and-casting"
+        },
+        {
+          "id": "NjCor7ePiZapd4f6bMZlV-res-2",
+          "type": "video",
+          "title": "Learn type casting in 7 minutes!",
+          "url": "https://www.youtube.com/watch?v=Qtq83lAoogM"
+        }
+      ]
+    },
+    "0w4i0aavs0j2hl9Fbqy4Y": {
+      "id": "0w4i0aavs0j2hl9Fbqy4Y",
+      "slug": "uv",
+      "title": "uv",
+      "description": "uv is a Python package and project manager written in Rust. It handles dependency installation, virtual environments, Python version management, and project builds in a single tool, replacing the need for separate tools like pip, pip-tools, virtualenv, and pyenv. It resolves and installs packages significantly faster than pip because of its Rust-based resolver and aggressive caching. Developers use it to create isolated environments, lock dependencies for reproducible builds, and run scripts with inline dependency declarations.",
+      "resources": [
+        {
+          "id": "0w4i0aavs0j2hl9Fbqy4Y-res-1",
+          "type": "article",
+          "title": "uv",
+          "url": "https://docs.astral.sh/uv/"
+        },
+        {
+          "id": "0w4i0aavs0j2hl9Fbqy4Y-res-2",
+          "type": "article",
+          "title": "uv vs pip: Managing Python Packages and Dependencies",
+          "url": "https://realpython.com/uv-vs-pip/"
+        },
+        {
+          "id": "0w4i0aavs0j2hl9Fbqy4Y-res-3",
+          "type": "video",
+          "title": "Python Tutorial: UV",
+          "url": "https://www.youtube.com/watch?v=AMdG7IjgSPM"
+        }
+      ]
+    },
+    "nZl1ngETFxKStt0tFvOpR": {
+      "id": "nZl1ngETFxKStt0tFvOpR",
+      "slug": "variance--std-deviation",
+      "title": "Variance & Std. Deviation",
+      "description": "Variance measures the average squared deviation from the mean, and standard deviation is its square root in the original units. Both quantify how spread out data values are. Pandas computes them with `var()` and `std()`. A high standard deviation relative to the mean signals high variability in the data.",
+      "resources": [
+        {
+          "id": "nZl1ngETFxKStt0tFvOpR-res-1",
+          "type": "article",
+          "title": "A Guide to Metrics in Exploratory Data Analysis",
+          "url": "https://towardsdatascience.com/a-guide-to-metrics-in-exploratory-data-analysis-250b33f72297/"
+        },
+        {
+          "id": "nZl1ngETFxKStt0tFvOpR-res-2",
+          "type": "video",
+          "title": "How to Calculate Standard Deviation & Variance in Python",
+          "url": "https://www.youtube.com/watch?v=p4H2b2x_nWc"
+        }
+      ]
+    },
+    "IL0fFEs4CgK_eBft-SYAl": {
+      "id": "IL0fFEs4CgK_eBft-SYAl",
+      "slug": "virtualenv--venv",
+      "title": "virtualenv / venv",
+      "description": "`venv` is Python's built-in tool for creating isolated virtual environments. Each environment has its own Python interpreter and installed packages, preventing conflicts between projects. `virtualenv` is a third-party alternative with additional features. Virtual environments are a best practice for keeping project dependencies separate.",
+      "resources": [
+        {
+          "id": "IL0fFEs4CgK_eBft-SYAl-res-1",
+          "type": "article",
+          "title": "venv — Creation of virtual environments",
+          "url": "https://docs.python.org/3/library/venv.html"
+        },
+        {
+          "id": "IL0fFEs4CgK_eBft-SYAl-res-2",
+          "type": "article",
+          "title": "Python Virtual Environment",
+          "url": "https://www.w3schools.com/python/python_virtualenv.asp"
+        },
+        {
+          "id": "IL0fFEs4CgK_eBft-SYAl-res-3",
+          "type": "video",
+          "title": "Python Virtual Environments - Full Tutorial for Beginners",
+          "url": "https://www.youtube.com/watch?v=Y21OR1OPC9A"
+        }
+      ]
+    },
+    "UIFNQ9g5fMK-KoZCrqv27": {
+      "id": "UIFNQ9g5fMK-KoZCrqv27",
+      "slug": "visual-inspection",
+      "title": "Visual Inspection",
+      "description": "Visual inspection uses charts to identify outliers and anomalies that statistical thresholds might miss. Box plots show the IQR and flag points beyond the whiskers. Scatter plots reveal isolated points far from the main cluster. Histograms expose unusual spikes or gaps. Visual inspection is always a valuable complement to numerical outlier detection.",
+      "resources": [
+        {
+          "id": "UIFNQ9g5fMK-KoZCrqv27-res-1",
+          "type": "article",
+          "title": "Using Boxplot To Identify Outliers For Continuous Variables",
+          "url": "https://yashvaantlakham73.medium.com/26-pandas-data-cleaning-using-boxplot-to-identify-outliers-for-continuous-variables-6ace0e6023dd"
+        },
+        {
+          "id": "UIFNQ9g5fMK-KoZCrqv27-res-2",
+          "type": "article",
+          "title": "5 Powerful Techniques with UDFs for Data Cleaning and 5 Graphical Methods",
+          "url": "https://medium.com/@satyamdatasci/outlier-detection-in-python-5-powerful-techniques-with-udfs-for-data-cleaning-and-5-graphical-db053e7cf9bf"
+        }
+      ]
+    },
+    "ObA_xZDY7PxU54NGBwyVI": {
+      "id": "ObA_xZDY7PxU54NGBwyVI",
+      "slug": "vs-code",
+      "title": "VS Code",
+      "description": "Visual Studio Code is a lightweight, extensible code editor that supports Python development through extensions. With the Python and Jupyter extensions installed, VS Code supports notebooks, debugging, linting, and IntelliSense. It is a popular choice for analysts who want more IDE features than a browser-based notebook provides.",
+      "resources": [
+        {
+          "id": "ObA_xZDY7PxU54NGBwyVI-res-1",
+          "type": "article",
+          "title": "Jupyter Notebooks in VS Code",
+          "url": "https://code.visualstudio.com/docs/datascience/jupyter-notebooks"
+        },
+        {
+          "id": "ObA_xZDY7PxU54NGBwyVI-res-2",
+          "type": "video",
+          "title": "Getting Started with Jupyter Notebooks in VS Code",
+          "url": "https://www.youtube.com/watch?v=suAkMeWJ1yE"
+        }
+      ]
+    },
+    "Sg5w8zO2Ji-uDJKEoWey9": {
+      "id": "Sg5w8zO2Ji-uDJKEoWey9",
+      "slug": "working-with-strings",
+      "title": "Working with Strings",
+      "description": "Python provides a rich set of string methods for manipulating text: `strip()`, `split()`, `replace()`, `upper()`, `lower()`, `startswith()`, `endswith()`, and many more. These methods are applied directly to strings or through Pandas' `.str` accessor for vectorized text cleaning on entire columns.",
+      "resources": [
+        {
+          "id": "Sg5w8zO2Ji-uDJKEoWey9-res-1",
+          "type": "article",
+          "title": "string — Common string operations",
+          "url": "https://docs.python.org/3/library/string.html"
+        },
+        {
+          "id": "Sg5w8zO2Ji-uDJKEoWey9-res-2",
+          "type": "article",
+          "title": "Useful String Methods in Python",
+          "url": "https://towardsdatascience.com/useful-string-methods-in-python-5047ea4d3f90/"
+        },
+        {
+          "id": "Sg5w8zO2Ji-uDJKEoWey9-res-3",
+          "type": "video",
+          "title": "String methods in Python are easy! 〰️",
+          "url": "https://www.youtube.com/watch?v=tb6EYiHtcXU"
+        },
+        {
+          "id": "Sg5w8zO2Ji-uDJKEoWey9-res-4",
+          "type": "video",
+          "title": "Python Tutorial for Beginners 2: Strings",
+          "url": "https://www.youtube.com/watch?v=k9TUPpGqYTo"
+        }
+      ]
+    },
+    "2HIeG6ywOA9BkE9W3Gu9v": {
+      "id": "2HIeG6ywOA9BkE9W3Gu9v",
+      "slug": "z-score",
+      "title": "Z-score",
+      "description": "A Z-score measures how many standard deviations a value is from the mean. Values with a Z-score above 3 or below −3 are commonly flagged as outliers. Z-scores are calculated using `scipy.stats.zscore()` or manually and work best when the data is approximately normally distributed.",
+      "resources": [
+        {
+          "id": "2HIeG6ywOA9BkE9W3Gu9v-res-1",
+          "type": "article",
+          "title": "How to Find Outliers",
+          "url": "https://codingnomads.com/how-to-find-outliers"
+        },
+        {
+          "id": "2HIeG6ywOA9BkE9W3Gu9v-res-2",
+          "type": "video",
+          "title": "Outlier detection and removal: z score, standard deviation",
+          "url": "https://www.youtube.com/watch?v=KFuEAGR3HS4"
+        }
+      ]
+    }
+  }
+}

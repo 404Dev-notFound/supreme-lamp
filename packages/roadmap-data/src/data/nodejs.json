@@ -1,0 +1,4243 @@
+{
+  "slug": "nodejs",
+  "title": "Node.js & Runtime",
+  "description": "Event loop, streams, APIs, Express/Fastify, and microservices architecture",
+  "category": "skill",
+  "level": "Intermediate",
+  "topicCount": 113,
+  "iconName": "FileCode",
+  "nodes": [
+    {
+      "id": "node-812bVEzxwTsYzLG_PmLqN",
+      "label": "--watch",
+      "topicId": "812bVEzxwTsYzLG_PmLqN",
+      "level": 1,
+      "position": {
+        "x": 80,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-do-tdCUfDtiZHBg4ZO3dC",
+      "label": "Assertion Errors",
+      "topicId": "do-tdCUfDtiZHBg4ZO3dC",
+      "level": 1,
+      "position": {
+        "x": 340,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-uE7fvHSTSdebMf5RsNyaY",
+      "label": "Async Programming",
+      "topicId": "uE7fvHSTSdebMf5RsNyaY",
+      "level": 1,
+      "position": {
+        "x": 600,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-a26qNCyMcT5GsVzxeNCLk",
+      "label": "Async/Await",
+      "topicId": "a26qNCyMcT5GsVzxeNCLk",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-BOLiZg8YDKADMwP01U5ph",
+      "label": "Axios",
+      "topicId": "BOLiZg8YDKADMwP01U5ph",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-fFVCb6aZWRHdNDFt5C09R",
+      "label": "Building  Consuming Apis",
+      "topicId": "fFVCb6aZWRHdNDFt5C09R",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-GwInWcbQn18PnzKGXzmln",
+      "label": "Callbacks",
+      "topicId": "GwInWcbQn18PnzKGXzmln",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-wIieXdFtoZWJ-ht8qqWbp",
+      "label": "Stack Trace",
+      "topicId": "wIieXdFtoZWJ-ht8qqWbp",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-V4OWIC1cnw8EFyu26Y_dA",
+      "label": "chalk package",
+      "topicId": "V4OWIC1cnw8EFyu26Y_dA",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-lzPrWD3pxQmpbqgYPL-zW",
+      "label": "Child Process",
+      "topicId": "lzPrWD3pxQmpbqgYPL-zW",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-een1zhvgN_33Cu6OiWtyX",
+      "label": "chokidar",
+      "topicId": "een1zhvgN_33Cu6OiWtyX",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-iW9je5Pq7bjxWZDERv_p5",
+      "label": "cli-progress",
+      "topicId": "iW9je5Pq7bjxWZDERv_p5",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-PkQ_sQ0YFPCZGx4BRgG0t",
+      "label": "Cluster",
+      "topicId": "PkQ_sQ0YFPCZGx4BRgG0t",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-Ce-dP-OXu0mEm30rzp2hW",
+      "label": "Command Line Applications",
+      "topicId": "Ce-dP-OXu0mEm30rzp2hW",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-BxxLQUI7JcQgF6TK3L5uU",
+      "label": "Commander.js",
+      "topicId": "BxxLQUI7JcQgF6TK3L5uU",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-M62lAWBOrTe99TfpFOQ-Y",
+      "label": "Nodejs core modules",
+      "topicId": "M62lAWBOrTe99TfpFOQ-Y",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-mhjswf17nhq075NTYV5gE",
+      "label": "CommonJS vs ESM",
+      "topicId": "mhjswf17nhq075NTYV5gE",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-EEnmOcDKPZzY_O1NwP_5j",
+      "label": "Creating & Importing",
+      "topicId": "EEnmOcDKPZzY_O1NwP_5j",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-Uh9hmEy7o1EJLg4E--ku2",
+      "label": "Creating Packages",
+      "topicId": "Uh9hmEy7o1EJLg4E--ku2",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-3Fh3-V1kCZtlUTvEoloIO",
+      "label": "Cypress",
+      "topicId": "3Fh3-V1kCZtlUTvEoloIO",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-ZLNUuDKhJ03Kw7xMVc7IR",
+      "label": "Debugging",
+      "topicId": "ZLNUuDKhJ03Kw7xMVc7IR",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-fE9C7Resn4EcL-hYHbsaZ",
+      "label": "Dotenv Package",
+      "topicId": "fE9C7Resn4EcL-hYHbsaZ",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-JXQF9H4_N0rM7ZDKcCZNn",
+      "label": "Drizzle",
+      "topicId": "JXQF9H4_N0rM7ZDKcCZNn",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-L-_N7OxxuHCXsdWYBgZGu",
+      "label": "EJS",
+      "topicId": "L-_N7OxxuHCXsdWYBgZGu",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-t_kfKdNSKVBPYQ9zF9VqQ",
+      "label": "Error Handling",
+      "topicId": "t_kfKdNSKVBPYQ9zF9VqQ",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-mKccfWOhC1Aj4VnaOqryA",
+      "label": "ESM",
+      "topicId": "mKccfWOhC1Aj4VnaOqryA",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-bgEHTBYzRDJqZ6gLqLbsz",
+      "label": "Event Emitter",
+      "topicId": "bgEHTBYzRDJqZ6gLqLbsz",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-b679H8gEBuvrHQ8ik7e96",
+      "label": "Event Loop",
+      "topicId": "b679H8gEBuvrHQ8ik7e96",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-XteNExIZN3_g95_dPCopY",
+      "label": "Exiting / Exit Codes",
+      "topicId": "XteNExIZN3_g95_dPCopY",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-1vq_KcYR_pkfp1MtXaL75",
+      "label": "Express.js",
+      "topicId": "1vq_KcYR_pkfp1MtXaL75",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-WkU_rI4i-UmNSxb5F9TI-",
+      "label": "fastify",
+      "topicId": "WkU_rI4i-UmNSxb5F9TI-",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-B_3rTGQxJneMREXoi2gQn",
+      "label": "fetch",
+      "topicId": "B_3rTGQxJneMREXoi2gQn",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-PHLdJylzNZDJBGi8FFsfO",
+      "label": "figlet package",
+      "topicId": "PHLdJylzNZDJBGi8FFsfO",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-zDmWGRrgwq3Gjfkyk6crK",
+      "label": "fs-extra",
+      "topicId": "zDmWGRrgwq3Gjfkyk6crK",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-b1r1X3XCoPSayQjDBcy54",
+      "label": "fs module",
+      "topicId": "b1r1X3XCoPSayQjDBcy54",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-SJ01N7vMZkNiIuMYQhdpj",
+      "label": "Garbage Collection",
+      "topicId": "SJ01N7vMZkNiIuMYQhdpj",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-CWH0ZsxJ8beLvwMYJyH52",
+      "label": "glob",
+      "topicId": "CWH0ZsxJ8beLvwMYJyH52",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-l24OMkPAEDnEDAVAMrMuG",
+      "label": "Global Installation",
+      "topicId": "l24OMkPAEDnEDAVAMrMuG",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-PEGHvFT2Eg-1OyfhxYu22",
+      "label": "global keyword",
+      "topicId": "PEGHvFT2Eg-1OyfhxYu22",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-HYTw74rrd7kkOemCxfT9I",
+      "label": "globby",
+      "topicId": "HYTw74rrd7kkOemCxfT9I",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-6stiDKubT6XVAOGiJ6wsx",
+      "label": "Got",
+      "topicId": "6stiDKubT6XVAOGiJ6wsx",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-3MpxV23lNpuKg0--e_9m7",
+      "label": "Async errors",
+      "topicId": "3MpxV23lNpuKg0--e_9m7",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-Vrcv5px-3fqmyJnQv3WBK",
+      "label": "History of Node.js",
+      "topicId": "Vrcv5px-3fqmyJnQv3WBK",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-Xa-lA1wbZ9JZ_XpXfhhw5",
+      "label": "Hono",
+      "topicId": "Xa-lA1wbZ9JZ_XpXfhhw5",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-Sjc1YDtbzXyLQH711_3nj",
+      "label": "http module",
+      "topicId": "Sjc1YDtbzXyLQH711_3nj",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-WFJJtIqVoBIhK10XY-d7l",
+      "label": "Inquirer Package",
+      "topicId": "WFJJtIqVoBIhK10XY-d7l",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-KDd40JOAvZ8O1mfhTYB3K",
+      "label": "Introduction to Node.js",
+      "topicId": "KDd40JOAvZ8O1mfhTYB3K",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-Wg7KSpAPxjeFMxC6PBnHO",
+      "label": "JavaScript Errors",
+      "topicId": "Wg7KSpAPxjeFMxC6PBnHO",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-5xrbKv2stKPJRv7Vzf9nM",
+      "label": "Jest",
+      "topicId": "5xrbKv2stKPJRv7Vzf9nM",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-7u2WMxjLx3mMtn0cha4M7",
+      "label": "JSON Web Token",
+      "topicId": "7u2WMxjLx3mMtn0cha4M7",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-af7n-J7VvbdpZh9lwA773",
+      "label": "Keep your app running in Production",
+      "topicId": "af7n-J7VvbdpZh9lwA773",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-HDDnt79_PCB5JU-KnHKUh",
+      "label": "Knex",
+      "topicId": "HDDnt79_PCB5JU-KnHKUh",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node--_2letLUta5Ymc5eEOKhn",
+      "label": "Ky",
+      "topicId": "-_2letLUta5Ymc5eEOKhn",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-oYeux7PbveYaVwXRzAg5x",
+      "label": "Local Installation",
+      "topicId": "oYeux7PbveYaVwXRzAg5x",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-b7ZAEqo0ZU6TNf18Bo0mI",
+      "label": "Node.js Logging",
+      "topicId": "b7ZAEqo0ZU6TNf18Bo0mI",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-f2DyjBIglAZ6NoHaRnlzt",
+      "label": "Marko",
+      "topicId": "f2DyjBIglAZ6NoHaRnlzt",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-oU9I7KBZoTSXXFmYscEIq",
+      "label": "Memory Leaks",
+      "topicId": "oU9I7KBZoTSXXFmYscEIq",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-mbGFT6S7mL3bHHEZv0_s2",
+      "label": "Node.js Modules",
+      "topicId": "mbGFT6S7mL3bHHEZv0_s2",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-NDf-o-WECK02mVnZ8IFxy",
+      "label": "Mongoose",
+      "topicId": "NDf-o-WECK02mVnZ8IFxy",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-swp4wBgA7z-sd64VDkMrw",
+      "label": "Keep App Running",
+      "topicId": "swp4wBgA7z-sd64VDkMrw",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-CTHFGgtXFpke4aPhh5vRY",
+      "label": "Morgan",
+      "topicId": "CTHFGgtXFpke4aPhh5vRY",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-5WqLm53CHDT5uBoMH-iPl",
+      "label": "Native Drivers (NoSQL)",
+      "topicId": "5WqLm53CHDT5uBoMH-iPl",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-KpC-QYKalUp7VUvnMKBoW",
+      "label": "Native Drivers (Relational)",
+      "topicId": "KpC-QYKalUp7VUvnMKBoW",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-tGD8XLHnfspfv8CbguGwV",
+      "label": "NestJS",
+      "topicId": "tGD8XLHnfspfv8CbguGwV",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-DcmGcVlEHL4IV7yPMDpVa",
+      "label": "node --inspect",
+      "topicId": "DcmGcVlEHL4IV7yPMDpVa",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-ebVb0anYmbD1Y9ZTFXKFp",
+      "label": "Node.js vs Browser",
+      "topicId": "ebVb0anYmbD1Y9ZTFXKFp",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-2Ym2jMvov0lZ79aJFaw29",
+      "label": "Nodemon",
+      "topicId": "2Ym2jMvov0lZ79aJFaw29",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-oSLpy31XEcA2nRq9ks_LJ",
+      "label": "node:test",
+      "topicId": "oSLpy31XEcA2nRq9ks_LJ",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-WvxCGVKLvTUVEHeOcUQPg",
+      "label": "npm workspaces",
+      "topicId": "WvxCGVKLvTUVEHeOcUQPg",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-jQJ9aOKtg-O-GhWk5OgCK",
+      "label": "npm",
+      "topicId": "jQJ9aOKtg-O-GhWk5OgCK",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-YdpJ-DUo8Q5ATRmF4s4YS",
+      "label": "npx",
+      "topicId": "YdpJ-DUo8Q5ATRmF4s4YS",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-mIyv6S9a5dCHkk-JhhjKV",
+      "label": "Passport js",
+      "topicId": "mIyv6S9a5dCHkk-JhhjKV",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-Blzb-fdQZMu6Xq5JDJW0_",
+      "label": "path module",
+      "topicId": "Blzb-fdQZMu6Xq5JDJW0_",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-Ix-g9pgJjEI04bSfROvlq",
+      "label": "Playwright",
+      "topicId": "Ix-g9pgJjEI04bSfROvlq",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-7WAuMMyelUbgwEHtnMmJv",
+      "label": "Pm2",
+      "topicId": "7WAuMMyelUbgwEHtnMmJv",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-3Qxtf8n6gJYdnRsuqa52Q",
+      "label": "Prisma",
+      "topicId": "3Qxtf8n6gJYdnRsuqa52Q",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-O7Cy2g_GPxKU6vPfEmNyi",
+      "label": "Prisma",
+      "topicId": "O7Cy2g_GPxKU6vPfEmNyi",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-lT2DDRtbFfEjb_cmsQx8i",
+      "label": "process.argv",
+      "topicId": "lT2DDRtbFfEjb_cmsQx8i",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-QT2QE2FLkyUDpwMKYkFQL",
+      "label": "process.cwd()",
+      "topicId": "QT2QE2FLkyUDpwMKYkFQL",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-wthXp2YGg3eTMbxsek77C",
+      "label": "process.env",
+      "topicId": "wthXp2YGg3eTMbxsek77C",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-ATu9-29yJWcDOik5FTOgf",
+      "label": "process.nextTick()",
+      "topicId": "ATu9-29yJWcDOik5FTOgf",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-betuntelnEMSHdatO6VPl",
+      "label": "process.stdin",
+      "topicId": "betuntelnEMSHdatO6VPl",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-QcOqhuKWOUUUBSiu5Oelv",
+      "label": "Promises",
+      "topicId": "QcOqhuKWOUUUBSiu5Oelv",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-xgsKrUdfB0g0DMQCLK3aY",
+      "label": "prompts package",
+      "topicId": "xgsKrUdfB0g0DMQCLK3aY",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-O67e2qyhxP5joR5LGyZ2N",
+      "label": "Pug",
+      "topicId": "O67e2qyhxP5joR5LGyZ2N",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-uPJqdMQQJRkTMMhNORDeH",
+      "label": "Running Node.js Code",
+      "topicId": "uPJqdMQQJRkTMMhNORDeH",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-64pgc7rcgboFcNYuOlX8e",
+      "label": "Running Scripts",
+      "topicId": "64pgc7rcgboFcNYuOlX8e",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-dOlzIXBfAPmbY542lNOe6",
+      "label": "Semantic Versioning",
+      "topicId": "dOlzIXBfAPmbY542lNOe6",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-fOm-ktIaLqrmA0zln0Bga",
+      "label": "Sequelize",
+      "topicId": "fOm-ktIaLqrmA0zln0Bga",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-YvTPpoIiSqjDYi0Q10kWh",
+      "label": "setImmediate",
+      "topicId": "YvTPpoIiSqjDYi0Q10kWh",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-T5I-mFKK6bKzXrzkECI0P",
+      "label": "setInterval",
+      "topicId": "T5I-mFKK6bKzXrzkECI0P",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-W2Dbj4Y78Bgdx7og5xkrg",
+      "label": "setTimeout",
+      "topicId": "W2Dbj4Y78Bgdx7og5xkrg",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-N2vR1_NyDn4rYLXJzxWBZ",
+      "label": "Process stdout",
+      "topicId": "N2vR1_NyDn4rYLXJzxWBZ",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-WrnjjUDXQwwMXQjmgK72U",
+      "label": "Streams",
+      "topicId": "WrnjjUDXQwwMXQjmgK72U",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5040
+      }
+    },
+    {
+      "id": "node-05YY-AhLKzn4Ypr4eow5E",
+      "label": "System Errors",
+      "topicId": "05YY-AhLKzn4Ypr4eow5E",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5040
+      }
+    },
+    {
+      "id": "node-J0ErCAZT5B97ZMogU2JHd",
+      "label": "Template Engines",
+      "topicId": "J0ErCAZT5B97ZMogU2JHd",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5040
+      }
+    },
+    {
+      "id": "node-90NIFfbWjTbyKZKwyJlfI",
+      "label": "Testing",
+      "topicId": "90NIFfbWjTbyKZKwyJlfI",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5200
+      }
+    },
+    {
+      "id": "node-KzUmXkwrmU_ssVBjSHAiY",
+      "label": "Nodejs Threads",
+      "topicId": "KzUmXkwrmU_ssVBjSHAiY",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5200
+      }
+    },
+    {
+      "id": "node-rk5FtAPDi1TpvWd0yBbtl",
+      "label": "TypeORM",
+      "topicId": "rk5FtAPDi1TpvWd0yBbtl",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5200
+      }
+    },
+    {
+      "id": "node-uzOmaTZrHhBxx5plb345Z",
+      "label": "Uncaught Exceptions",
+      "topicId": "uzOmaTZrHhBxx5plb345Z",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5360
+      }
+    },
+    {
+      "id": "node-bYBz12FUiJ1qLgdQSGyGK",
+      "label": "Updating Packages",
+      "topicId": "bYBz12FUiJ1qLgdQSGyGK",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5360
+      }
+    },
+    {
+      "id": "node-wQ4i6_a1EFk9HHc6Sll-3",
+      "label": "User Specified Errors",
+      "topicId": "wQ4i6_a1EFk9HHc6Sll-3",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5360
+      }
+    },
+    {
+      "id": "node-CvkjlOpT34lOHgzQHL40s",
+      "label": "Using APM",
+      "topicId": "CvkjlOpT34lOHgzQHL40s",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5520
+      }
+    },
+    {
+      "id": "node-XEGTeGWw05xWYOfUo3POE",
+      "label": "Using Debugger",
+      "topicId": "XEGTeGWw05xWYOfUo3POE",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5520
+      }
+    },
+    {
+      "id": "node-qjToBaMenW3SDtEfoCbQ6",
+      "label": "Vitest",
+      "topicId": "qjToBaMenW3SDtEfoCbQ6",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5520
+      }
+    },
+    {
+      "id": "node-Mp056kNnwsRWeEXuhGPy-",
+      "label": "What is Node.js?",
+      "topicId": "Mp056kNnwsRWeEXuhGPy-",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5680
+      }
+    },
+    {
+      "id": "node-ex8FOKrUlbu4MuEq2czyW",
+      "label": "Why use Node.js?",
+      "topicId": "ex8FOKrUlbu4MuEq2czyW",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5680
+      }
+    },
+    {
+      "id": "node-Oe9cQCz2lwSaot7miZOta",
+      "label": "Winston",
+      "topicId": "Oe9cQCz2lwSaot7miZOta",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5680
+      }
+    },
+    {
+      "id": "node-bH2Iv3BX0ZiWD3lOmC_m_",
+      "label": "Worker Threads",
+      "topicId": "bH2Iv3BX0ZiWD3lOmC_m_",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5840
+      }
+    },
+    {
+      "id": "node-5l-lZ8gwVLqqAF_n99vIO",
+      "label": "What is Database",
+      "topicId": "5l-lZ8gwVLqqAF_n99vIO",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5840
+      }
+    },
+    {
+      "id": "node-wEK77A6MPQBCBUSJKMiaY",
+      "label": "Working with Files",
+      "topicId": "wEK77A6MPQBCBUSJKMiaY",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5840
+      }
+    },
+    {
+      "id": "node-1AaGG660rvZlNYMOA35qO",
+      "label": "__dirname",
+      "topicId": "1AaGG660rvZlNYMOA35qO",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 6000
+      }
+    },
+    {
+      "id": "node-P2gdwx1qCxvg1Ppfw0aqQ",
+      "label": "__filename",
+      "topicId": "P2gdwx1qCxvg1Ppfw0aqQ",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 6000
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-node-812bVEzxwTsYzLG_PmLqN-node-do-tdCUfDtiZHBg4ZO3dC",
+      "source": "node-812bVEzxwTsYzLG_PmLqN",
+      "target": "node-do-tdCUfDtiZHBg4ZO3dC",
+      "animated": true
+    },
+    {
+      "id": "edge-node-do-tdCUfDtiZHBg4ZO3dC-node-uE7fvHSTSdebMf5RsNyaY",
+      "source": "node-do-tdCUfDtiZHBg4ZO3dC",
+      "target": "node-uE7fvHSTSdebMf5RsNyaY",
+      "animated": true
+    },
+    {
+      "id": "edge-node-uE7fvHSTSdebMf5RsNyaY-node-a26qNCyMcT5GsVzxeNCLk",
+      "source": "node-uE7fvHSTSdebMf5RsNyaY",
+      "target": "node-a26qNCyMcT5GsVzxeNCLk",
+      "animated": true
+    },
+    {
+      "id": "edge-node-a26qNCyMcT5GsVzxeNCLk-node-BOLiZg8YDKADMwP01U5ph",
+      "source": "node-a26qNCyMcT5GsVzxeNCLk",
+      "target": "node-BOLiZg8YDKADMwP01U5ph",
+      "animated": true
+    },
+    {
+      "id": "edge-node-BOLiZg8YDKADMwP01U5ph-node-fFVCb6aZWRHdNDFt5C09R",
+      "source": "node-BOLiZg8YDKADMwP01U5ph",
+      "target": "node-fFVCb6aZWRHdNDFt5C09R",
+      "animated": true
+    },
+    {
+      "id": "edge-node-fFVCb6aZWRHdNDFt5C09R-node-GwInWcbQn18PnzKGXzmln",
+      "source": "node-fFVCb6aZWRHdNDFt5C09R",
+      "target": "node-GwInWcbQn18PnzKGXzmln",
+      "animated": true
+    },
+    {
+      "id": "edge-node-GwInWcbQn18PnzKGXzmln-node-wIieXdFtoZWJ-ht8qqWbp",
+      "source": "node-GwInWcbQn18PnzKGXzmln",
+      "target": "node-wIieXdFtoZWJ-ht8qqWbp",
+      "animated": true
+    },
+    {
+      "id": "edge-node-wIieXdFtoZWJ-ht8qqWbp-node-V4OWIC1cnw8EFyu26Y_dA",
+      "source": "node-wIieXdFtoZWJ-ht8qqWbp",
+      "target": "node-V4OWIC1cnw8EFyu26Y_dA",
+      "animated": true
+    },
+    {
+      "id": "edge-node-V4OWIC1cnw8EFyu26Y_dA-node-lzPrWD3pxQmpbqgYPL-zW",
+      "source": "node-V4OWIC1cnw8EFyu26Y_dA",
+      "target": "node-lzPrWD3pxQmpbqgYPL-zW",
+      "animated": true
+    },
+    {
+      "id": "edge-node-lzPrWD3pxQmpbqgYPL-zW-node-een1zhvgN_33Cu6OiWtyX",
+      "source": "node-lzPrWD3pxQmpbqgYPL-zW",
+      "target": "node-een1zhvgN_33Cu6OiWtyX",
+      "animated": true
+    },
+    {
+      "id": "edge-node-een1zhvgN_33Cu6OiWtyX-node-iW9je5Pq7bjxWZDERv_p5",
+      "source": "node-een1zhvgN_33Cu6OiWtyX",
+      "target": "node-iW9je5Pq7bjxWZDERv_p5",
+      "animated": true
+    },
+    {
+      "id": "edge-node-iW9je5Pq7bjxWZDERv_p5-node-PkQ_sQ0YFPCZGx4BRgG0t",
+      "source": "node-iW9je5Pq7bjxWZDERv_p5",
+      "target": "node-PkQ_sQ0YFPCZGx4BRgG0t",
+      "animated": true
+    },
+    {
+      "id": "edge-node-PkQ_sQ0YFPCZGx4BRgG0t-node-Ce-dP-OXu0mEm30rzp2hW",
+      "source": "node-PkQ_sQ0YFPCZGx4BRgG0t",
+      "target": "node-Ce-dP-OXu0mEm30rzp2hW",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Ce-dP-OXu0mEm30rzp2hW-node-BxxLQUI7JcQgF6TK3L5uU",
+      "source": "node-Ce-dP-OXu0mEm30rzp2hW",
+      "target": "node-BxxLQUI7JcQgF6TK3L5uU",
+      "animated": true
+    },
+    {
+      "id": "edge-node-BxxLQUI7JcQgF6TK3L5uU-node-M62lAWBOrTe99TfpFOQ-Y",
+      "source": "node-BxxLQUI7JcQgF6TK3L5uU",
+      "target": "node-M62lAWBOrTe99TfpFOQ-Y",
+      "animated": true
+    },
+    {
+      "id": "edge-node-M62lAWBOrTe99TfpFOQ-Y-node-mhjswf17nhq075NTYV5gE",
+      "source": "node-M62lAWBOrTe99TfpFOQ-Y",
+      "target": "node-mhjswf17nhq075NTYV5gE",
+      "animated": true
+    },
+    {
+      "id": "edge-node-mhjswf17nhq075NTYV5gE-node-EEnmOcDKPZzY_O1NwP_5j",
+      "source": "node-mhjswf17nhq075NTYV5gE",
+      "target": "node-EEnmOcDKPZzY_O1NwP_5j",
+      "animated": true
+    },
+    {
+      "id": "edge-node-EEnmOcDKPZzY_O1NwP_5j-node-Uh9hmEy7o1EJLg4E--ku2",
+      "source": "node-EEnmOcDKPZzY_O1NwP_5j",
+      "target": "node-Uh9hmEy7o1EJLg4E--ku2",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Uh9hmEy7o1EJLg4E--ku2-node-3Fh3-V1kCZtlUTvEoloIO",
+      "source": "node-Uh9hmEy7o1EJLg4E--ku2",
+      "target": "node-3Fh3-V1kCZtlUTvEoloIO",
+      "animated": true
+    },
+    {
+      "id": "edge-node-3Fh3-V1kCZtlUTvEoloIO-node-ZLNUuDKhJ03Kw7xMVc7IR",
+      "source": "node-3Fh3-V1kCZtlUTvEoloIO",
+      "target": "node-ZLNUuDKhJ03Kw7xMVc7IR",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ZLNUuDKhJ03Kw7xMVc7IR-node-fE9C7Resn4EcL-hYHbsaZ",
+      "source": "node-ZLNUuDKhJ03Kw7xMVc7IR",
+      "target": "node-fE9C7Resn4EcL-hYHbsaZ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-fE9C7Resn4EcL-hYHbsaZ-node-JXQF9H4_N0rM7ZDKcCZNn",
+      "source": "node-fE9C7Resn4EcL-hYHbsaZ",
+      "target": "node-JXQF9H4_N0rM7ZDKcCZNn",
+      "animated": true
+    },
+    {
+      "id": "edge-node-JXQF9H4_N0rM7ZDKcCZNn-node-L-_N7OxxuHCXsdWYBgZGu",
+      "source": "node-JXQF9H4_N0rM7ZDKcCZNn",
+      "target": "node-L-_N7OxxuHCXsdWYBgZGu",
+      "animated": true
+    },
+    {
+      "id": "edge-node-L-_N7OxxuHCXsdWYBgZGu-node-t_kfKdNSKVBPYQ9zF9VqQ",
+      "source": "node-L-_N7OxxuHCXsdWYBgZGu",
+      "target": "node-t_kfKdNSKVBPYQ9zF9VqQ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-t_kfKdNSKVBPYQ9zF9VqQ-node-mKccfWOhC1Aj4VnaOqryA",
+      "source": "node-t_kfKdNSKVBPYQ9zF9VqQ",
+      "target": "node-mKccfWOhC1Aj4VnaOqryA",
+      "animated": true
+    },
+    {
+      "id": "edge-node-mKccfWOhC1Aj4VnaOqryA-node-bgEHTBYzRDJqZ6gLqLbsz",
+      "source": "node-mKccfWOhC1Aj4VnaOqryA",
+      "target": "node-bgEHTBYzRDJqZ6gLqLbsz",
+      "animated": true
+    },
+    {
+      "id": "edge-node-bgEHTBYzRDJqZ6gLqLbsz-node-b679H8gEBuvrHQ8ik7e96",
+      "source": "node-bgEHTBYzRDJqZ6gLqLbsz",
+      "target": "node-b679H8gEBuvrHQ8ik7e96",
+      "animated": true
+    },
+    {
+      "id": "edge-node-b679H8gEBuvrHQ8ik7e96-node-XteNExIZN3_g95_dPCopY",
+      "source": "node-b679H8gEBuvrHQ8ik7e96",
+      "target": "node-XteNExIZN3_g95_dPCopY",
+      "animated": true
+    },
+    {
+      "id": "edge-node-XteNExIZN3_g95_dPCopY-node-1vq_KcYR_pkfp1MtXaL75",
+      "source": "node-XteNExIZN3_g95_dPCopY",
+      "target": "node-1vq_KcYR_pkfp1MtXaL75",
+      "animated": true
+    },
+    {
+      "id": "edge-node-1vq_KcYR_pkfp1MtXaL75-node-WkU_rI4i-UmNSxb5F9TI-",
+      "source": "node-1vq_KcYR_pkfp1MtXaL75",
+      "target": "node-WkU_rI4i-UmNSxb5F9TI-",
+      "animated": true
+    },
+    {
+      "id": "edge-node-WkU_rI4i-UmNSxb5F9TI--node-B_3rTGQxJneMREXoi2gQn",
+      "source": "node-WkU_rI4i-UmNSxb5F9TI-",
+      "target": "node-B_3rTGQxJneMREXoi2gQn",
+      "animated": true
+    },
+    {
+      "id": "edge-node-B_3rTGQxJneMREXoi2gQn-node-PHLdJylzNZDJBGi8FFsfO",
+      "source": "node-B_3rTGQxJneMREXoi2gQn",
+      "target": "node-PHLdJylzNZDJBGi8FFsfO",
+      "animated": true
+    },
+    {
+      "id": "edge-node-PHLdJylzNZDJBGi8FFsfO-node-zDmWGRrgwq3Gjfkyk6crK",
+      "source": "node-PHLdJylzNZDJBGi8FFsfO",
+      "target": "node-zDmWGRrgwq3Gjfkyk6crK",
+      "animated": true
+    },
+    {
+      "id": "edge-node-zDmWGRrgwq3Gjfkyk6crK-node-b1r1X3XCoPSayQjDBcy54",
+      "source": "node-zDmWGRrgwq3Gjfkyk6crK",
+      "target": "node-b1r1X3XCoPSayQjDBcy54",
+      "animated": true
+    },
+    {
+      "id": "edge-node-b1r1X3XCoPSayQjDBcy54-node-SJ01N7vMZkNiIuMYQhdpj",
+      "source": "node-b1r1X3XCoPSayQjDBcy54",
+      "target": "node-SJ01N7vMZkNiIuMYQhdpj",
+      "animated": true
+    },
+    {
+      "id": "edge-node-SJ01N7vMZkNiIuMYQhdpj-node-CWH0ZsxJ8beLvwMYJyH52",
+      "source": "node-SJ01N7vMZkNiIuMYQhdpj",
+      "target": "node-CWH0ZsxJ8beLvwMYJyH52",
+      "animated": true
+    },
+    {
+      "id": "edge-node-CWH0ZsxJ8beLvwMYJyH52-node-l24OMkPAEDnEDAVAMrMuG",
+      "source": "node-CWH0ZsxJ8beLvwMYJyH52",
+      "target": "node-l24OMkPAEDnEDAVAMrMuG",
+      "animated": true
+    },
+    {
+      "id": "edge-node-l24OMkPAEDnEDAVAMrMuG-node-PEGHvFT2Eg-1OyfhxYu22",
+      "source": "node-l24OMkPAEDnEDAVAMrMuG",
+      "target": "node-PEGHvFT2Eg-1OyfhxYu22",
+      "animated": true
+    },
+    {
+      "id": "edge-node-PEGHvFT2Eg-1OyfhxYu22-node-HYTw74rrd7kkOemCxfT9I",
+      "source": "node-PEGHvFT2Eg-1OyfhxYu22",
+      "target": "node-HYTw74rrd7kkOemCxfT9I",
+      "animated": true
+    },
+    {
+      "id": "edge-node-HYTw74rrd7kkOemCxfT9I-node-6stiDKubT6XVAOGiJ6wsx",
+      "source": "node-HYTw74rrd7kkOemCxfT9I",
+      "target": "node-6stiDKubT6XVAOGiJ6wsx",
+      "animated": true
+    },
+    {
+      "id": "edge-node-6stiDKubT6XVAOGiJ6wsx-node-3MpxV23lNpuKg0--e_9m7",
+      "source": "node-6stiDKubT6XVAOGiJ6wsx",
+      "target": "node-3MpxV23lNpuKg0--e_9m7",
+      "animated": true
+    },
+    {
+      "id": "edge-node-3MpxV23lNpuKg0--e_9m7-node-Vrcv5px-3fqmyJnQv3WBK",
+      "source": "node-3MpxV23lNpuKg0--e_9m7",
+      "target": "node-Vrcv5px-3fqmyJnQv3WBK",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Vrcv5px-3fqmyJnQv3WBK-node-Xa-lA1wbZ9JZ_XpXfhhw5",
+      "source": "node-Vrcv5px-3fqmyJnQv3WBK",
+      "target": "node-Xa-lA1wbZ9JZ_XpXfhhw5",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Xa-lA1wbZ9JZ_XpXfhhw5-node-Sjc1YDtbzXyLQH711_3nj",
+      "source": "node-Xa-lA1wbZ9JZ_XpXfhhw5",
+      "target": "node-Sjc1YDtbzXyLQH711_3nj",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Sjc1YDtbzXyLQH711_3nj-node-WFJJtIqVoBIhK10XY-d7l",
+      "source": "node-Sjc1YDtbzXyLQH711_3nj",
+      "target": "node-WFJJtIqVoBIhK10XY-d7l",
+      "animated": true
+    },
+    {
+      "id": "edge-node-WFJJtIqVoBIhK10XY-d7l-node-KDd40JOAvZ8O1mfhTYB3K",
+      "source": "node-WFJJtIqVoBIhK10XY-d7l",
+      "target": "node-KDd40JOAvZ8O1mfhTYB3K",
+      "animated": true
+    },
+    {
+      "id": "edge-node-KDd40JOAvZ8O1mfhTYB3K-node-Wg7KSpAPxjeFMxC6PBnHO",
+      "source": "node-KDd40JOAvZ8O1mfhTYB3K",
+      "target": "node-Wg7KSpAPxjeFMxC6PBnHO",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Wg7KSpAPxjeFMxC6PBnHO-node-5xrbKv2stKPJRv7Vzf9nM",
+      "source": "node-Wg7KSpAPxjeFMxC6PBnHO",
+      "target": "node-5xrbKv2stKPJRv7Vzf9nM",
+      "animated": true
+    },
+    {
+      "id": "edge-node-5xrbKv2stKPJRv7Vzf9nM-node-7u2WMxjLx3mMtn0cha4M7",
+      "source": "node-5xrbKv2stKPJRv7Vzf9nM",
+      "target": "node-7u2WMxjLx3mMtn0cha4M7",
+      "animated": true
+    },
+    {
+      "id": "edge-node-7u2WMxjLx3mMtn0cha4M7-node-af7n-J7VvbdpZh9lwA773",
+      "source": "node-7u2WMxjLx3mMtn0cha4M7",
+      "target": "node-af7n-J7VvbdpZh9lwA773",
+      "animated": true
+    },
+    {
+      "id": "edge-node-af7n-J7VvbdpZh9lwA773-node-HDDnt79_PCB5JU-KnHKUh",
+      "source": "node-af7n-J7VvbdpZh9lwA773",
+      "target": "node-HDDnt79_PCB5JU-KnHKUh",
+      "animated": true
+    },
+    {
+      "id": "edge-node-HDDnt79_PCB5JU-KnHKUh-node--_2letLUta5Ymc5eEOKhn",
+      "source": "node-HDDnt79_PCB5JU-KnHKUh",
+      "target": "node--_2letLUta5Ymc5eEOKhn",
+      "animated": true
+    },
+    {
+      "id": "edge-node--_2letLUta5Ymc5eEOKhn-node-oYeux7PbveYaVwXRzAg5x",
+      "source": "node--_2letLUta5Ymc5eEOKhn",
+      "target": "node-oYeux7PbveYaVwXRzAg5x",
+      "animated": true
+    },
+    {
+      "id": "edge-node-oYeux7PbveYaVwXRzAg5x-node-b7ZAEqo0ZU6TNf18Bo0mI",
+      "source": "node-oYeux7PbveYaVwXRzAg5x",
+      "target": "node-b7ZAEqo0ZU6TNf18Bo0mI",
+      "animated": true
+    },
+    {
+      "id": "edge-node-b7ZAEqo0ZU6TNf18Bo0mI-node-f2DyjBIglAZ6NoHaRnlzt",
+      "source": "node-b7ZAEqo0ZU6TNf18Bo0mI",
+      "target": "node-f2DyjBIglAZ6NoHaRnlzt",
+      "animated": true
+    },
+    {
+      "id": "edge-node-f2DyjBIglAZ6NoHaRnlzt-node-oU9I7KBZoTSXXFmYscEIq",
+      "source": "node-f2DyjBIglAZ6NoHaRnlzt",
+      "target": "node-oU9I7KBZoTSXXFmYscEIq",
+      "animated": true
+    },
+    {
+      "id": "edge-node-oU9I7KBZoTSXXFmYscEIq-node-mbGFT6S7mL3bHHEZv0_s2",
+      "source": "node-oU9I7KBZoTSXXFmYscEIq",
+      "target": "node-mbGFT6S7mL3bHHEZv0_s2",
+      "animated": true
+    },
+    {
+      "id": "edge-node-mbGFT6S7mL3bHHEZv0_s2-node-NDf-o-WECK02mVnZ8IFxy",
+      "source": "node-mbGFT6S7mL3bHHEZv0_s2",
+      "target": "node-NDf-o-WECK02mVnZ8IFxy",
+      "animated": true
+    },
+    {
+      "id": "edge-node-NDf-o-WECK02mVnZ8IFxy-node-swp4wBgA7z-sd64VDkMrw",
+      "source": "node-NDf-o-WECK02mVnZ8IFxy",
+      "target": "node-swp4wBgA7z-sd64VDkMrw",
+      "animated": true
+    },
+    {
+      "id": "edge-node-swp4wBgA7z-sd64VDkMrw-node-CTHFGgtXFpke4aPhh5vRY",
+      "source": "node-swp4wBgA7z-sd64VDkMrw",
+      "target": "node-CTHFGgtXFpke4aPhh5vRY",
+      "animated": true
+    },
+    {
+      "id": "edge-node-CTHFGgtXFpke4aPhh5vRY-node-5WqLm53CHDT5uBoMH-iPl",
+      "source": "node-CTHFGgtXFpke4aPhh5vRY",
+      "target": "node-5WqLm53CHDT5uBoMH-iPl",
+      "animated": true
+    },
+    {
+      "id": "edge-node-5WqLm53CHDT5uBoMH-iPl-node-KpC-QYKalUp7VUvnMKBoW",
+      "source": "node-5WqLm53CHDT5uBoMH-iPl",
+      "target": "node-KpC-QYKalUp7VUvnMKBoW",
+      "animated": true
+    },
+    {
+      "id": "edge-node-KpC-QYKalUp7VUvnMKBoW-node-tGD8XLHnfspfv8CbguGwV",
+      "source": "node-KpC-QYKalUp7VUvnMKBoW",
+      "target": "node-tGD8XLHnfspfv8CbguGwV",
+      "animated": true
+    },
+    {
+      "id": "edge-node-tGD8XLHnfspfv8CbguGwV-node-DcmGcVlEHL4IV7yPMDpVa",
+      "source": "node-tGD8XLHnfspfv8CbguGwV",
+      "target": "node-DcmGcVlEHL4IV7yPMDpVa",
+      "animated": true
+    },
+    {
+      "id": "edge-node-DcmGcVlEHL4IV7yPMDpVa-node-ebVb0anYmbD1Y9ZTFXKFp",
+      "source": "node-DcmGcVlEHL4IV7yPMDpVa",
+      "target": "node-ebVb0anYmbD1Y9ZTFXKFp",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ebVb0anYmbD1Y9ZTFXKFp-node-2Ym2jMvov0lZ79aJFaw29",
+      "source": "node-ebVb0anYmbD1Y9ZTFXKFp",
+      "target": "node-2Ym2jMvov0lZ79aJFaw29",
+      "animated": true
+    },
+    {
+      "id": "edge-node-2Ym2jMvov0lZ79aJFaw29-node-oSLpy31XEcA2nRq9ks_LJ",
+      "source": "node-2Ym2jMvov0lZ79aJFaw29",
+      "target": "node-oSLpy31XEcA2nRq9ks_LJ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-oSLpy31XEcA2nRq9ks_LJ-node-WvxCGVKLvTUVEHeOcUQPg",
+      "source": "node-oSLpy31XEcA2nRq9ks_LJ",
+      "target": "node-WvxCGVKLvTUVEHeOcUQPg",
+      "animated": true
+    },
+    {
+      "id": "edge-node-WvxCGVKLvTUVEHeOcUQPg-node-jQJ9aOKtg-O-GhWk5OgCK",
+      "source": "node-WvxCGVKLvTUVEHeOcUQPg",
+      "target": "node-jQJ9aOKtg-O-GhWk5OgCK",
+      "animated": true
+    },
+    {
+      "id": "edge-node-jQJ9aOKtg-O-GhWk5OgCK-node-YdpJ-DUo8Q5ATRmF4s4YS",
+      "source": "node-jQJ9aOKtg-O-GhWk5OgCK",
+      "target": "node-YdpJ-DUo8Q5ATRmF4s4YS",
+      "animated": true
+    },
+    {
+      "id": "edge-node-YdpJ-DUo8Q5ATRmF4s4YS-node-mIyv6S9a5dCHkk-JhhjKV",
+      "source": "node-YdpJ-DUo8Q5ATRmF4s4YS",
+      "target": "node-mIyv6S9a5dCHkk-JhhjKV",
+      "animated": true
+    },
+    {
+      "id": "edge-node-mIyv6S9a5dCHkk-JhhjKV-node-Blzb-fdQZMu6Xq5JDJW0_",
+      "source": "node-mIyv6S9a5dCHkk-JhhjKV",
+      "target": "node-Blzb-fdQZMu6Xq5JDJW0_",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Blzb-fdQZMu6Xq5JDJW0_-node-Ix-g9pgJjEI04bSfROvlq",
+      "source": "node-Blzb-fdQZMu6Xq5JDJW0_",
+      "target": "node-Ix-g9pgJjEI04bSfROvlq",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Ix-g9pgJjEI04bSfROvlq-node-7WAuMMyelUbgwEHtnMmJv",
+      "source": "node-Ix-g9pgJjEI04bSfROvlq",
+      "target": "node-7WAuMMyelUbgwEHtnMmJv",
+      "animated": true
+    },
+    {
+      "id": "edge-node-7WAuMMyelUbgwEHtnMmJv-node-3Qxtf8n6gJYdnRsuqa52Q",
+      "source": "node-7WAuMMyelUbgwEHtnMmJv",
+      "target": "node-3Qxtf8n6gJYdnRsuqa52Q",
+      "animated": true
+    },
+    {
+      "id": "edge-node-3Qxtf8n6gJYdnRsuqa52Q-node-O7Cy2g_GPxKU6vPfEmNyi",
+      "source": "node-3Qxtf8n6gJYdnRsuqa52Q",
+      "target": "node-O7Cy2g_GPxKU6vPfEmNyi",
+      "animated": true
+    },
+    {
+      "id": "edge-node-O7Cy2g_GPxKU6vPfEmNyi-node-lT2DDRtbFfEjb_cmsQx8i",
+      "source": "node-O7Cy2g_GPxKU6vPfEmNyi",
+      "target": "node-lT2DDRtbFfEjb_cmsQx8i",
+      "animated": true
+    },
+    {
+      "id": "edge-node-lT2DDRtbFfEjb_cmsQx8i-node-QT2QE2FLkyUDpwMKYkFQL",
+      "source": "node-lT2DDRtbFfEjb_cmsQx8i",
+      "target": "node-QT2QE2FLkyUDpwMKYkFQL",
+      "animated": true
+    },
+    {
+      "id": "edge-node-QT2QE2FLkyUDpwMKYkFQL-node-wthXp2YGg3eTMbxsek77C",
+      "source": "node-QT2QE2FLkyUDpwMKYkFQL",
+      "target": "node-wthXp2YGg3eTMbxsek77C",
+      "animated": true
+    },
+    {
+      "id": "edge-node-wthXp2YGg3eTMbxsek77C-node-ATu9-29yJWcDOik5FTOgf",
+      "source": "node-wthXp2YGg3eTMbxsek77C",
+      "target": "node-ATu9-29yJWcDOik5FTOgf",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ATu9-29yJWcDOik5FTOgf-node-betuntelnEMSHdatO6VPl",
+      "source": "node-ATu9-29yJWcDOik5FTOgf",
+      "target": "node-betuntelnEMSHdatO6VPl",
+      "animated": true
+    },
+    {
+      "id": "edge-node-betuntelnEMSHdatO6VPl-node-QcOqhuKWOUUUBSiu5Oelv",
+      "source": "node-betuntelnEMSHdatO6VPl",
+      "target": "node-QcOqhuKWOUUUBSiu5Oelv",
+      "animated": true
+    },
+    {
+      "id": "edge-node-QcOqhuKWOUUUBSiu5Oelv-node-xgsKrUdfB0g0DMQCLK3aY",
+      "source": "node-QcOqhuKWOUUUBSiu5Oelv",
+      "target": "node-xgsKrUdfB0g0DMQCLK3aY",
+      "animated": true
+    },
+    {
+      "id": "edge-node-xgsKrUdfB0g0DMQCLK3aY-node-O67e2qyhxP5joR5LGyZ2N",
+      "source": "node-xgsKrUdfB0g0DMQCLK3aY",
+      "target": "node-O67e2qyhxP5joR5LGyZ2N",
+      "animated": true
+    },
+    {
+      "id": "edge-node-O67e2qyhxP5joR5LGyZ2N-node-uPJqdMQQJRkTMMhNORDeH",
+      "source": "node-O67e2qyhxP5joR5LGyZ2N",
+      "target": "node-uPJqdMQQJRkTMMhNORDeH",
+      "animated": true
+    },
+    {
+      "id": "edge-node-uPJqdMQQJRkTMMhNORDeH-node-64pgc7rcgboFcNYuOlX8e",
+      "source": "node-uPJqdMQQJRkTMMhNORDeH",
+      "target": "node-64pgc7rcgboFcNYuOlX8e",
+      "animated": true
+    },
+    {
+      "id": "edge-node-64pgc7rcgboFcNYuOlX8e-node-dOlzIXBfAPmbY542lNOe6",
+      "source": "node-64pgc7rcgboFcNYuOlX8e",
+      "target": "node-dOlzIXBfAPmbY542lNOe6",
+      "animated": true
+    },
+    {
+      "id": "edge-node-dOlzIXBfAPmbY542lNOe6-node-fOm-ktIaLqrmA0zln0Bga",
+      "source": "node-dOlzIXBfAPmbY542lNOe6",
+      "target": "node-fOm-ktIaLqrmA0zln0Bga",
+      "animated": true
+    },
+    {
+      "id": "edge-node-fOm-ktIaLqrmA0zln0Bga-node-YvTPpoIiSqjDYi0Q10kWh",
+      "source": "node-fOm-ktIaLqrmA0zln0Bga",
+      "target": "node-YvTPpoIiSqjDYi0Q10kWh",
+      "animated": true
+    },
+    {
+      "id": "edge-node-YvTPpoIiSqjDYi0Q10kWh-node-T5I-mFKK6bKzXrzkECI0P",
+      "source": "node-YvTPpoIiSqjDYi0Q10kWh",
+      "target": "node-T5I-mFKK6bKzXrzkECI0P",
+      "animated": true
+    },
+    {
+      "id": "edge-node-T5I-mFKK6bKzXrzkECI0P-node-W2Dbj4Y78Bgdx7og5xkrg",
+      "source": "node-T5I-mFKK6bKzXrzkECI0P",
+      "target": "node-W2Dbj4Y78Bgdx7og5xkrg",
+      "animated": true
+    },
+    {
+      "id": "edge-node-W2Dbj4Y78Bgdx7og5xkrg-node-N2vR1_NyDn4rYLXJzxWBZ",
+      "source": "node-W2Dbj4Y78Bgdx7og5xkrg",
+      "target": "node-N2vR1_NyDn4rYLXJzxWBZ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-N2vR1_NyDn4rYLXJzxWBZ-node-WrnjjUDXQwwMXQjmgK72U",
+      "source": "node-N2vR1_NyDn4rYLXJzxWBZ",
+      "target": "node-WrnjjUDXQwwMXQjmgK72U",
+      "animated": true
+    },
+    {
+      "id": "edge-node-WrnjjUDXQwwMXQjmgK72U-node-05YY-AhLKzn4Ypr4eow5E",
+      "source": "node-WrnjjUDXQwwMXQjmgK72U",
+      "target": "node-05YY-AhLKzn4Ypr4eow5E",
+      "animated": true
+    },
+    {
+      "id": "edge-node-05YY-AhLKzn4Ypr4eow5E-node-J0ErCAZT5B97ZMogU2JHd",
+      "source": "node-05YY-AhLKzn4Ypr4eow5E",
+      "target": "node-J0ErCAZT5B97ZMogU2JHd",
+      "animated": true
+    },
+    {
+      "id": "edge-node-J0ErCAZT5B97ZMogU2JHd-node-90NIFfbWjTbyKZKwyJlfI",
+      "source": "node-J0ErCAZT5B97ZMogU2JHd",
+      "target": "node-90NIFfbWjTbyKZKwyJlfI",
+      "animated": true
+    },
+    {
+      "id": "edge-node-90NIFfbWjTbyKZKwyJlfI-node-KzUmXkwrmU_ssVBjSHAiY",
+      "source": "node-90NIFfbWjTbyKZKwyJlfI",
+      "target": "node-KzUmXkwrmU_ssVBjSHAiY",
+      "animated": true
+    },
+    {
+      "id": "edge-node-KzUmXkwrmU_ssVBjSHAiY-node-rk5FtAPDi1TpvWd0yBbtl",
+      "source": "node-KzUmXkwrmU_ssVBjSHAiY",
+      "target": "node-rk5FtAPDi1TpvWd0yBbtl",
+      "animated": true
+    },
+    {
+      "id": "edge-node-rk5FtAPDi1TpvWd0yBbtl-node-uzOmaTZrHhBxx5plb345Z",
+      "source": "node-rk5FtAPDi1TpvWd0yBbtl",
+      "target": "node-uzOmaTZrHhBxx5plb345Z",
+      "animated": true
+    },
+    {
+      "id": "edge-node-uzOmaTZrHhBxx5plb345Z-node-bYBz12FUiJ1qLgdQSGyGK",
+      "source": "node-uzOmaTZrHhBxx5plb345Z",
+      "target": "node-bYBz12FUiJ1qLgdQSGyGK",
+      "animated": true
+    },
+    {
+      "id": "edge-node-bYBz12FUiJ1qLgdQSGyGK-node-wQ4i6_a1EFk9HHc6Sll-3",
+      "source": "node-bYBz12FUiJ1qLgdQSGyGK",
+      "target": "node-wQ4i6_a1EFk9HHc6Sll-3",
+      "animated": true
+    },
+    {
+      "id": "edge-node-wQ4i6_a1EFk9HHc6Sll-3-node-CvkjlOpT34lOHgzQHL40s",
+      "source": "node-wQ4i6_a1EFk9HHc6Sll-3",
+      "target": "node-CvkjlOpT34lOHgzQHL40s",
+      "animated": true
+    },
+    {
+      "id": "edge-node-CvkjlOpT34lOHgzQHL40s-node-XEGTeGWw05xWYOfUo3POE",
+      "source": "node-CvkjlOpT34lOHgzQHL40s",
+      "target": "node-XEGTeGWw05xWYOfUo3POE",
+      "animated": true
+    },
+    {
+      "id": "edge-node-XEGTeGWw05xWYOfUo3POE-node-qjToBaMenW3SDtEfoCbQ6",
+      "source": "node-XEGTeGWw05xWYOfUo3POE",
+      "target": "node-qjToBaMenW3SDtEfoCbQ6",
+      "animated": true
+    },
+    {
+      "id": "edge-node-qjToBaMenW3SDtEfoCbQ6-node-Mp056kNnwsRWeEXuhGPy-",
+      "source": "node-qjToBaMenW3SDtEfoCbQ6",
+      "target": "node-Mp056kNnwsRWeEXuhGPy-",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Mp056kNnwsRWeEXuhGPy--node-ex8FOKrUlbu4MuEq2czyW",
+      "source": "node-Mp056kNnwsRWeEXuhGPy-",
+      "target": "node-ex8FOKrUlbu4MuEq2czyW",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ex8FOKrUlbu4MuEq2czyW-node-Oe9cQCz2lwSaot7miZOta",
+      "source": "node-ex8FOKrUlbu4MuEq2czyW",
+      "target": "node-Oe9cQCz2lwSaot7miZOta",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Oe9cQCz2lwSaot7miZOta-node-bH2Iv3BX0ZiWD3lOmC_m_",
+      "source": "node-Oe9cQCz2lwSaot7miZOta",
+      "target": "node-bH2Iv3BX0ZiWD3lOmC_m_",
+      "animated": true
+    },
+    {
+      "id": "edge-node-bH2Iv3BX0ZiWD3lOmC_m_-node-5l-lZ8gwVLqqAF_n99vIO",
+      "source": "node-bH2Iv3BX0ZiWD3lOmC_m_",
+      "target": "node-5l-lZ8gwVLqqAF_n99vIO",
+      "animated": true
+    },
+    {
+      "id": "edge-node-5l-lZ8gwVLqqAF_n99vIO-node-wEK77A6MPQBCBUSJKMiaY",
+      "source": "node-5l-lZ8gwVLqqAF_n99vIO",
+      "target": "node-wEK77A6MPQBCBUSJKMiaY",
+      "animated": true
+    },
+    {
+      "id": "edge-node-wEK77A6MPQBCBUSJKMiaY-node-1AaGG660rvZlNYMOA35qO",
+      "source": "node-wEK77A6MPQBCBUSJKMiaY",
+      "target": "node-1AaGG660rvZlNYMOA35qO",
+      "animated": true
+    },
+    {
+      "id": "edge-node-1AaGG660rvZlNYMOA35qO-node-P2gdwx1qCxvg1Ppfw0aqQ",
+      "source": "node-1AaGG660rvZlNYMOA35qO",
+      "target": "node-P2gdwx1qCxvg1Ppfw0aqQ",
+      "animated": true
+    }
+  ],
+  "topics": {
+    "812bVEzxwTsYzLG_PmLqN": {
+      "id": "812bVEzxwTsYzLG_PmLqN",
+      "slug": "--watch",
+      "title": "--watch",
+      "description": "The `--watch` flag in Node.js is a powerful feature introduced in Node.js version 19 that enables automatic reloading of your Node.js application whenever changes are detected in the specified files. Here's How it works: *   You run your Node.js script with the `--watch` flag: `$ node --watch your_script.js` *   Node.js starts watching the specified file (or directory) for changes. *   Whenever a change is detected, Node.js automatically restarts the script",
+      "resources": [
+        {
+          "id": "812bVEzxwTsYzLG_PmLqN-res-1",
+          "type": "article",
+          "title": "Node.js CLI",
+          "url": "https://nodejs.org/api/cli.html"
+        },
+        {
+          "id": "812bVEzxwTsYzLG_PmLqN-res-2",
+          "type": "article",
+          "title": "Node.js --watch Docs",
+          "url": "https://nodejs.org/api/cli.html#--watch"
+        },
+        {
+          "id": "812bVEzxwTsYzLG_PmLqN-res-3",
+          "type": "article",
+          "title": "Medium - Watch Mode",
+          "url": "https://medium.com/@khaled.smq/built-in-nodejs-watch-mode-52ffadaec8a8"
+        }
+      ]
+    },
+    "do-tdCUfDtiZHBg4ZO3dC": {
+      "id": "do-tdCUfDtiZHBg4ZO3dC",
+      "slug": "assertion-errors",
+      "title": "Assertion Errors",
+      "description": "An `AssertionError` in Node.js is an error that is thrown when the `assert` module determines that a given expression is not truthy. The `assert` module is a built-in Node.js module that provides a simple set of assertion tests that can be used to test the behavior of your code.",
+      "resources": [
+        {
+          "id": "do-tdCUfDtiZHBg4ZO3dC-res-1",
+          "type": "article",
+          "title": "Node.js Assert",
+          "url": "https://nodejs.org/api/assert.html#new-assertassertionerroroptions"
+        }
+      ]
+    },
+    "uE7fvHSTSdebMf5RsNyaY": {
+      "id": "uE7fvHSTSdebMf5RsNyaY",
+      "slug": "async-programming",
+      "title": "Async Programming",
+      "description": "Asynchronous code means that things can happen independently of the main program flow, async functions in JavaScript are processed in the background without blocking other requests. It ensures non-blocking code execution. Asynchronous code executes without having any dependency and no order. This improves the system efficiency and throughput. Making web apps requires knowledge of asynchronous concepts since we will be dealing with actions that require some time to get processed.",
+      "resources": [
+        {
+          "id": "uE7fvHSTSdebMf5RsNyaY-res-1",
+          "type": "article",
+          "title": "Introduction to Async JS",
+          "url": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Introducing/"
+        },
+        {
+          "id": "uE7fvHSTSdebMf5RsNyaY-res-2",
+          "type": "video",
+          "title": "Asynchronous Vs Synchronous Programming",
+          "url": "https://www.youtube.com/watch?v=Kpn2ajSa92c"
+        }
+      ]
+    },
+    "a26qNCyMcT5GsVzxeNCLk": {
+      "id": "a26qNCyMcT5GsVzxeNCLk",
+      "slug": "asyncawait",
+      "title": "Async/Await",
+      "description": "Async/Await is a special syntax to work with promises in a more comfortable fashion. It's easy to understand and use. Adding the keyword async before a function ensures that the function returns a promise and the keyword await makes JavaScript wait until that promise settles and returns the result.",
+      "resources": [
+        {
+          "id": "a26qNCyMcT5GsVzxeNCLk-res-1",
+          "type": "article",
+          "title": "Async/Await Documentation",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function"
+        },
+        {
+          "id": "a26qNCyMcT5GsVzxeNCLk-res-2",
+          "type": "article",
+          "title": "More on async await",
+          "url": "https://javascript.info/async-await"
+        },
+        {
+          "id": "a26qNCyMcT5GsVzxeNCLk-res-3",
+          "type": "video",
+          "title": "Using async await",
+          "url": "https://www.youtube.com/watch?v=V_Kr9OSfDeU"
+        }
+      ]
+    },
+    "BOLiZg8YDKADMwP01U5ph": {
+      "id": "BOLiZg8YDKADMwP01U5ph",
+      "slug": "axios",
+      "title": "Axios",
+      "description": "Axios is a promise-based HTTP Client for node.js and the browser. Used for making requests to web servers. On the server-side it uses the native node.js http module, while on the client (browser) it uses XMLHttpRequests.",
+      "resources": [
+        {
+          "id": "BOLiZg8YDKADMwP01U5ph-res-1",
+          "type": "article",
+          "title": "Axios Documentation",
+          "url": "https://axios-http.com/docs/intro"
+        },
+        {
+          "id": "BOLiZg8YDKADMwP01U5ph-res-2",
+          "type": "video",
+          "title": "Axios Tutorial",
+          "url": "https://www.youtube.com/watch?v=6LyagkoRWYA"
+        }
+      ]
+    },
+    "fFVCb6aZWRHdNDFt5C09R": {
+      "id": "fFVCb6aZWRHdNDFt5C09R",
+      "slug": "building--consuming-apis",
+      "title": "Building  Consuming Apis",
+      "description": "Building & Consuming APIs Node.js is commonly used to build HTTP APIs that other clients consume, as well as to consume external APIs from within your application. Building an API involves defining routes, handling requests, and returning responses. Consuming an API involves making HTTP requests and processing the returned data.",
+      "resources": [
+        {
+          "id": "fFVCb6aZWRHdNDFt5C09R-res-1",
+          "type": "article",
+          "title": "What is an API?",
+          "url": "https://aws.amazon.com/what-is/api/"
+        },
+        {
+          "id": "fFVCb6aZWRHdNDFt5C09R-res-2",
+          "type": "video",
+          "title": "What is an API (in 5 minutes)",
+          "url": "https://youtu.be/ByGJQzlzxQg?si=9EB9lgRvEOgt3xPJ"
+        }
+      ]
+    },
+    "GwInWcbQn18PnzKGXzmln": {
+      "id": "GwInWcbQn18PnzKGXzmln",
+      "slug": "callbacks",
+      "title": "Callbacks",
+      "description": "Node.js, being an asynchronous platform, doesn't wait around for things like file I/O to finish - Node.js uses callbacks. A callback is a function called at the completion of a given task; this prevents any blocking, and allows other code to be run in the meantime.",
+      "resources": [
+        {
+          "id": "GwInWcbQn18PnzKGXzmln-res-1",
+          "type": "article",
+          "title": "Asynchronicity in Programming Languages",
+          "url": "https://nodejs.org/en/learn/asynchronous-work/javascript-asynchronous-programming-and-callbacks"
+        },
+        {
+          "id": "GwInWcbQn18PnzKGXzmln-res-2",
+          "type": "article",
+          "title": "What are Callbacks?",
+          "url": "https://developer.mozilla.org/en-US/docs/Glossary/Callback_function"
+        }
+      ]
+    },
+    "wIieXdFtoZWJ-ht8qqWbp": {
+      "id": "wIieXdFtoZWJ-ht8qqWbp",
+      "slug": "callstack--stack-trace",
+      "title": "Stack Trace",
+      "description": "The stack trace is used to trace the active stack frames at a particular instance during the execution of a program. The stack trace is useful while debugging code as it shows the exact point that has caused an error.",
+      "resources": [
+        {
+          "id": "wIieXdFtoZWJ-ht8qqWbp-res-1",
+          "type": "article",
+          "title": "Multiple Ways to Log The Stack Trace in Node.js",
+          "url": "https://www.cloudhadoop.com/nodejs-print-stack-trace-error/"
+        }
+      ]
+    },
+    "V4OWIC1cnw8EFyu26Y_dA": {
+      "id": "V4OWIC1cnw8EFyu26Y_dA",
+      "slug": "chalk-package",
+      "title": "chalk package",
+      "description": "`chalk` is an npm package for styling terminal output with colors and formatting like bold, underline, and italic. It is used to make CLI output more readable by highlighting errors in red, success messages in green, and so on. It works across different terminal environments.",
+      "resources": [
+        {
+          "id": "V4OWIC1cnw8EFyu26Y_dA-res-1",
+          "type": "article",
+          "title": "Chalk Docs",
+          "url": "https://github.com/chalk/chalk#readme"
+        }
+      ]
+    },
+    "lzPrWD3pxQmpbqgYPL-zW": {
+      "id": "lzPrWD3pxQmpbqgYPL-zW",
+      "slug": "child-process",
+      "title": "Child Process",
+      "description": "The child\\_process module gives the node the ability to run the child process, established through IPC (inter-process communication) by accessing operating system commands. The three main methods inside this module are : `child_process.spawn()` `child_process.fork()` `child_process.exec()`",
+      "resources": [
+        {
+          "id": "lzPrWD3pxQmpbqgYPL-zW-res-1",
+          "type": "article",
+          "title": "Child Process Docs",
+          "url": "https://nodejs.org/api/child_process.html#child-process"
+        },
+        {
+          "id": "lzPrWD3pxQmpbqgYPL-zW-res-2",
+          "type": "article",
+          "title": "Securing Node.js Against Command Injection",
+          "url": "https://www.nodejs-security.com/blog/securing-your-nodejs-apps-by-analyzing-real-world-command-injection-examples"
+        }
+      ]
+    },
+    "een1zhvgN_33Cu6OiWtyX": {
+      "id": "een1zhvgN_33Cu6OiWtyX",
+      "slug": "chokidar",
+      "title": "chokidar",
+      "description": "Chokidar is an npm package for watching file system changes. It wraps Node.js's native `fs.watch` and `fs.watchFile` with a more reliable and consistent API. It is widely used in development tools like Webpack and Vite to trigger rebuilds when files change.",
+      "resources": [
+        {
+          "id": "een1zhvgN_33Cu6OiWtyX-res-1",
+          "type": "article",
+          "title": "chokidar",
+          "url": "https://www.npmjs.com/package/chokidar"
+        }
+      ]
+    },
+    "iW9je5Pq7bjxWZDERv_p5": {
+      "id": "iW9je5Pq7bjxWZDERv_p5",
+      "slug": "cli-progress",
+      "title": "cli-progress",
+      "description": "`cli-progress` is an npm package for displaying progress bars in the terminal. It is useful for long-running operations like file downloads, database migrations, or batch processing where you want to show completion percentage. It supports multiple bars and customizable styles.",
+      "resources": [
+        {
+          "id": "iW9je5Pq7bjxWZDERv_p5-res-1",
+          "type": "article",
+          "title": "CLI-Progress Documentation",
+          "url": "https://www.npmjs.com/package/cli-progress"
+        }
+      ]
+    },
+    "PkQ_sQ0YFPCZGx4BRgG0t": {
+      "id": "PkQ_sQ0YFPCZGx4BRgG0t",
+      "slug": "cluster",
+      "title": "Cluster",
+      "description": "The Cluster module allows you to easily create child processes that each runs simultaneously on their own single thread, to handle workloads among their application threads.",
+      "resources": [
+        {
+          "id": "PkQ_sQ0YFPCZGx4BRgG0t-res-1",
+          "type": "article",
+          "title": "Node.js Cluster",
+          "url": "https://nodejs.org/api/cluster.html#cluster"
+        }
+      ]
+    },
+    "Ce-dP-OXu0mEm30rzp2hW": {
+      "id": "Ce-dP-OXu0mEm30rzp2hW",
+      "slug": "command-line-apps",
+      "title": "Command Line Applications",
+      "description": "Command Line Applications are applications that can be run from the command line. They are also called CLI (Command Line Interface) applications. Users can interact with clients entirely by terminal commands. They are very useful for automation and building tools.",
+      "resources": [
+        {
+          "id": "Ce-dP-OXu0mEm30rzp2hW-res-1",
+          "type": "article",
+          "title": "Build a Command Line Application with Node.js",
+          "url": "https://developer.okta.com/blog/2019/06/18/command-line-app-with-nodejs"
+        },
+        {
+          "id": "Ce-dP-OXu0mEm30rzp2hW-res-2",
+          "type": "video",
+          "title": "5-Minute Node.js CLI Project",
+          "url": "https://www.youtube.com/watch?v=_oHByo8tiEY"
+        }
+      ]
+    },
+    "BxxLQUI7JcQgF6TK3L5uU": {
+      "id": "BxxLQUI7JcQgF6TK3L5uU",
+      "slug": "commander",
+      "title": "Commander.js",
+      "description": "Commander is a light-weight, expressive, and powerful command-line framework for node.js. with Commander.js you can create your own command-line interface (CLI).",
+      "resources": [
+        {
+          "id": "BxxLQUI7JcQgF6TK3L5uU-res-1",
+          "type": "article",
+          "title": "commander package",
+          "url": "https://www.npmjs.com/package/commander"
+        }
+      ]
+    },
+    "M62lAWBOrTe99TfpFOQ-Y": {
+      "id": "M62lAWBOrTe99TfpFOQ-Y",
+      "slug": "common-built-in-modules",
+      "title": "Nodejs core modules",
+      "description": "These are the core modules that come with `Node.js` out of the box. This module provides tools or APIs for performing out certain standard `Node.js` operations. like interacting with the file system, url parsing, or logging information to the console.",
+      "resources": [
+        {
+          "id": "M62lAWBOrTe99TfpFOQ-Y-res-1",
+          "type": "article",
+          "title": "fs module",
+          "url": "https://nodejs.org/api/fs.html"
+        },
+        {
+          "id": "M62lAWBOrTe99TfpFOQ-Y-res-2",
+          "type": "article",
+          "title": "url module",
+          "url": "https://nodejs.org/api/url.html"
+        },
+        {
+          "id": "M62lAWBOrTe99TfpFOQ-Y-res-3",
+          "type": "article",
+          "title": "console module",
+          "url": "https://nodejs.org/api/console.html"
+        },
+        {
+          "id": "M62lAWBOrTe99TfpFOQ-Y-res-4",
+          "type": "article",
+          "title": "util module",
+          "url": "https://nodejs.org/api/util.html"
+        },
+        {
+          "id": "M62lAWBOrTe99TfpFOQ-Y-res-5",
+          "type": "article",
+          "title": "events module",
+          "url": "https://nodejs.org/api/events.html"
+        },
+        {
+          "id": "M62lAWBOrTe99TfpFOQ-Y-res-6",
+          "type": "article",
+          "title": "os module",
+          "url": "https://nodejs.org/api/os.html"
+        },
+        {
+          "id": "M62lAWBOrTe99TfpFOQ-Y-res-7",
+          "type": "article",
+          "title": "worker threads module",
+          "url": "https://nodejs.org/api/worker_threads.html"
+        },
+        {
+          "id": "M62lAWBOrTe99TfpFOQ-Y-res-8",
+          "type": "article",
+          "title": "child process module",
+          "url": "https://nodejs.org/api/child_process.html"
+        },
+        {
+          "id": "M62lAWBOrTe99TfpFOQ-Y-res-9",
+          "type": "article",
+          "title": "process object",
+          "url": "https://nodejs.org/api/process.html"
+        },
+        {
+          "id": "M62lAWBOrTe99TfpFOQ-Y-res-10",
+          "type": "article",
+          "title": "crypto module",
+          "url": "https://nodejs.org/api/crypto.html"
+        }
+      ]
+    },
+    "mhjswf17nhq075NTYV5gE": {
+      "id": "mhjswf17nhq075NTYV5gE",
+      "slug": "commonjs",
+      "title": "CommonJS vs ESM",
+      "description": "CommonJS and ES (EcmaScript) are module systems used in Node. CommonJS is the default module system. However, a new module system was recently added to NodeJS - ES modules. CommonJS modules use the require() statement for module imports and module.exports for module exports while it's import and export for ES.",
+      "resources": [
+        {
+          "id": "mhjswf17nhq075NTYV5gE-res-1",
+          "type": "article",
+          "title": "CommonJS vs ESM",
+          "url": "https://blog.logrocket.com/commonjs-vs-es-modules-node-js/"
+        },
+        {
+          "id": "mhjswf17nhq075NTYV5gE-res-2",
+          "type": "article",
+          "title": "Using CommonJS",
+          "url": "https://www.javascripttutorial.net/nodejs-tutorial/nodejs-modules/"
+        },
+        {
+          "id": "mhjswf17nhq075NTYV5gE-res-3",
+          "type": "article",
+          "title": "Using ES Modules",
+          "url": "https://blog.logrocket.com/es-modules-in-node-today/"
+        },
+        {
+          "id": "mhjswf17nhq075NTYV5gE-res-4",
+          "type": "article",
+          "title": "CommonJS vs. ES Modules: Modules and Imports in NodeJS",
+          "url": "https://reflectoring.io/nodejs-modules-imports/"
+        },
+        {
+          "id": "mhjswf17nhq075NTYV5gE-res-5",
+          "type": "video",
+          "title": "Using Modules",
+          "url": "https://www.youtube.com/watch?v=pP4kjXykbio"
+        }
+      ]
+    },
+    "EEnmOcDKPZzY_O1NwP_5j": {
+      "id": "EEnmOcDKPZzY_O1NwP_5j",
+      "slug": "creating--importing",
+      "title": "Creating & Importing",
+      "description": "Creating a module means writing JavaScript in a file and exporting the parts you want to share. Importing means pulling those exports into another file using `require()` in CommonJS or `import` in ESM. This mechanism is how Node.js applications are structured into separate, connected files.",
+      "resources": [
+        {
+          "id": "EEnmOcDKPZzY_O1NwP_5j-res-1",
+          "type": "article",
+          "title": "CommonJS vs ESM in Node.js",
+          "url": "https://blog.logrocket.com/commonjs-vs-es-modules-node-js/"
+        },
+        {
+          "id": "EEnmOcDKPZzY_O1NwP_5j-res-2",
+          "type": "article",
+          "title": "Modules and Imports in Node.js",
+          "url": "https://reflectoring.io/nodejs-modules-imports/"
+        },
+        {
+          "id": "EEnmOcDKPZzY_O1NwP_5j-res-3",
+          "type": "video",
+          "title": "Creating a Module in Node.js",
+          "url": "https://www.youtube.com/watch?v=Cxo4UKpHv5s"
+        }
+      ]
+    },
+    "Uh9hmEy7o1EJLg4E--ku2": {
+      "id": "Uh9hmEy7o1EJLg4E--ku2",
+      "slug": "creating-packages",
+      "title": "Creating Packages",
+      "description": "npm packages allow you to bundle some specific functionality into a reusable package which can then be uploaded to some package registry such as npm or GitHub packages and then be installed and reused in projects using npm.",
+      "resources": [
+        {
+          "id": "Uh9hmEy7o1EJLg4E--ku2-res-1",
+          "type": "article",
+          "title": "Best practices for creating a modern npm package",
+          "url": "https://snyk.io/blog/best-practices-create-modern-npm-package/"
+        }
+      ]
+    },
+    "3Fh3-V1kCZtlUTvEoloIO": {
+      "id": "3Fh3-V1kCZtlUTvEoloIO",
+      "slug": "cypress",
+      "title": "Cypress",
+      "description": "Cypress is an end-to-end testing framework designed for web applications. It runs tests directly in the browser and provides a visual test runner for debugging. It is primarily used for testing user interactions in the browser rather than pure Node.js code.",
+      "resources": [
+        {
+          "id": "3Fh3-V1kCZtlUTvEoloIO-res-1",
+          "type": "article",
+          "title": "Cypress",
+          "url": "https://www.cypress.io/"
+        },
+        {
+          "id": "3Fh3-V1kCZtlUTvEoloIO-res-2",
+          "type": "article",
+          "title": "Cypress Documentation",
+          "url": "https://docs.cypress.io/"
+        }
+      ]
+    },
+    "ZLNUuDKhJ03Kw7xMVc7IR": {
+      "id": "ZLNUuDKhJ03Kw7xMVc7IR",
+      "slug": "debugging",
+      "title": "Debugging",
+      "description": "Debugging is the process of identifying and fixing issues in a Node.js application. Node.js provides built-in debugging capabilities via the `--inspect` flag, which connects to Chrome DevTools. Effective debugging involves using breakpoints, inspecting variables at runtime, and understanding the call stack.",
+      "resources": [
+        {
+          "id": "ZLNUuDKhJ03Kw7xMVc7IR-res-1",
+          "type": "article",
+          "title": "Node.js - Getting Started",
+          "url": "https://nodejs.org/en/learn/getting-started/debugging"
+        },
+        {
+          "id": "ZLNUuDKhJ03Kw7xMVc7IR-res-2",
+          "type": "article",
+          "title": "Wikipedia - What is Debugging?",
+          "url": "https://en.wikipedia.org/wiki/Debugging"
+        }
+      ]
+    },
+    "fE9C7Resn4EcL-hYHbsaZ": {
+      "id": "fE9C7Resn4EcL-hYHbsaZ",
+      "slug": "dotenv-package",
+      "title": "Dotenv Package",
+      "description": "dotenv package `dotenv` is an npm package that loads environment variables from a `.env` file into `process.env`. It is commonly used in development to manage configuration like API keys and database URLs without hardcoding them in source code. The `.env` file should not be committed to version control.",
+      "resources": [
+        {
+          "id": "fE9C7Resn4EcL-hYHbsaZ-res-1",
+          "type": "article",
+          "title": "process.env Documentation",
+          "url": "https://nodejs.org/docs/latest/api/process.html#process_process_env"
+        },
+        {
+          "id": "fE9C7Resn4EcL-hYHbsaZ-res-2",
+          "type": "article",
+          "title": "Dotenv package",
+          "url": "https://www.npmjs.com/package/dotenv"
+        },
+        {
+          "id": "fE9C7Resn4EcL-hYHbsaZ-res-3",
+          "type": "article",
+          "title": "dotenv Docs",
+          "url": "https://github.com/motdotla/dotenv#readme"
+        },
+        {
+          "id": "fE9C7Resn4EcL-hYHbsaZ-res-4",
+          "type": "article",
+          "title": "The Twelve-Factor App Methodology",
+          "url": "https://12factor.net/config"
+        },
+        {
+          "id": "fE9C7Resn4EcL-hYHbsaZ-res-5",
+          "type": "article",
+          "title": "Dotenv tutorial",
+          "url": "https://zetcode.com/javascript/dotenv/"
+        }
+      ]
+    },
+    "JXQF9H4_N0rM7ZDKcCZNn": {
+      "id": "JXQF9H4_N0rM7ZDKcCZNn",
+      "slug": "drizzle",
+      "title": "Drizzle",
+      "description": "Drizzle lets you build your project the way you want, without interfering with your project or structure. Using Drizzle you can define and manage database schemas in TypeScript, access your data in a SQL-like or relational way, and take advantage of opt-in tools to make your developer experience amazing.",
+      "resources": [
+        {
+          "id": "JXQF9H4_N0rM7ZDKcCZNn-res-1",
+          "type": "article",
+          "title": "Drizzle Documentation",
+          "url": "https://orm.drizzle.team/docs/overview"
+        },
+        {
+          "id": "JXQF9H4_N0rM7ZDKcCZNn-res-2",
+          "type": "article",
+          "title": "Drizzle GitHub",
+          "url": "https://github.com/drizzle-team/drizzle-orm"
+        }
+      ]
+    },
+    "L-_N7OxxuHCXsdWYBgZGu": {
+      "id": "L-_N7OxxuHCXsdWYBgZGu",
+      "slug": "ejs",
+      "title": "EJS",
+      "description": "EJS is a template language or engine that allows you to generate HTML markup with pure JavaScript. And this is what makes it perfect for Nodejs applications. In simple words, the EJS template engine helps to embed JavaScript into your HTML template easily.",
+      "resources": [
+        {
+          "id": "L-_N7OxxuHCXsdWYBgZGu-res-1",
+          "type": "article",
+          "title": "EJS Documentation",
+          "url": "https://ejs.co/#docs"
+        },
+        {
+          "id": "L-_N7OxxuHCXsdWYBgZGu-res-2",
+          "type": "article",
+          "title": "EJS Package",
+          "url": "https://www.npmjs.com/package/ejs"
+        },
+        {
+          "id": "L-_N7OxxuHCXsdWYBgZGu-res-3",
+          "type": "article",
+          "title": "Try EJS Online",
+          "url": "https://ionicabizau.github.io/ejs-playground/"
+        },
+        {
+          "id": "L-_N7OxxuHCXsdWYBgZGu-res-4",
+          "type": "article",
+          "title": "How to use EJS",
+          "url": "https://www.digitalocean.com/community/tutorials/how-to-use-ejs-to-template-your-node-application"
+        }
+      ]
+    },
+    "t_kfKdNSKVBPYQ9zF9VqQ": {
+      "id": "t_kfKdNSKVBPYQ9zF9VqQ",
+      "slug": "error-handling",
+      "title": "Error Handling",
+      "description": "Error handling is a way to find bugs and solve them as quickly as humanly possible. The errors in Node.js can be either operation or programmer errors. Read the articles linked below to understand how to handle different types of errors in Node.js",
+      "resources": [
+        {
+          "id": "t_kfKdNSKVBPYQ9zF9VqQ-res-1",
+          "type": "article",
+          "title": "Node.js Error Handling Best Practices",
+          "url": "https://sematext.com/blog/node-js-error-handling"
+        },
+        {
+          "id": "t_kfKdNSKVBPYQ9zF9VqQ-res-2",
+          "type": "article",
+          "title": "Error handling in Node.js",
+          "url": "https://blog.logrocket.com/error-handling-node-js/"
+        }
+      ]
+    },
+    "mKccfWOhC1Aj4VnaOqryA": {
+      "id": "mKccfWOhC1Aj4VnaOqryA",
+      "slug": "esm",
+      "title": "ESM",
+      "description": "ESM (ECMAScript Modules) is a standardized module system in JavaScript that allows for the organized, maintainable, and reusable structuring of code. It uses import and export statements for including and sharing functions, objects, or primitives between files. ESM supports static analysis, enabling better optimization and tooling, and is always in strict mode to reduce common JavaScript issues. Node.js fully supports ESM, which can be used with .mjs file extensions or configured in the package.json for .js files, making it easier to write modular and efficient JavaScript applications.",
+      "resources": [
+        {
+          "id": "mKccfWOhC1Aj4VnaOqryA-res-1",
+          "type": "article",
+          "title": "ESM Documentation",
+          "url": "https://nodejs.org/api/esm.html"
+        }
+      ]
+    },
+    "bgEHTBYzRDJqZ6gLqLbsz": {
+      "id": "bgEHTBYzRDJqZ6gLqLbsz",
+      "slug": "event-emitter",
+      "title": "Event Emitter",
+      "description": "In Node.js, an event can be described simply as a string with a corresponding callback. An event can be \"emitted\" (or, in other words, the corresponding callback be called) multiple times or you can choose to only listen for the first time it is emitted.",
+      "resources": [
+        {
+          "id": "bgEHTBYzRDJqZ6gLqLbsz-res-1",
+          "type": "article",
+          "title": "What are Event Emitters?",
+          "url": "https://nodejs.org/en/learn/asynchronous-work/the-nodejs-event-emitter"
+        },
+        {
+          "id": "bgEHTBYzRDJqZ6gLqLbsz-res-2",
+          "type": "article",
+          "title": "Using Event Emitters in Node.js",
+          "url": "https://www.digitalocean.com/community/tutorials/using-event-emitters-in-node-js"
+        }
+      ]
+    },
+    "b679H8gEBuvrHQ8ik7e96": {
+      "id": "b679H8gEBuvrHQ8ik7e96",
+      "slug": "event-loop",
+      "title": "Event Loop",
+      "description": "The Event Loop is one of the most critical aspects of Node.js. Why is this so important? Because it explains how Node.js can be asynchronous and have non-blocking I/O, it explains the \"killer feature\" of Node.js, which made it this successful.",
+      "resources": [
+        {
+          "id": "b679H8gEBuvrHQ8ik7e96-res-1",
+          "type": "article",
+          "title": "The Node.JS Event Loop",
+          "url": "https://nodejs.org/learn/asynchronous-work/event-loop-timers-and-nexttick"
+        },
+        {
+          "id": "b679H8gEBuvrHQ8ik7e96-res-2",
+          "type": "article",
+          "title": "Don't Block the Event Loop",
+          "url": "https://nodejs.org/learn/asynchronous-work/dont-block-the-event-loop"
+        },
+        {
+          "id": "b679H8gEBuvrHQ8ik7e96-res-3",
+          "type": "article",
+          "title": "JavaScript Visualized: Event Loop",
+          "url": "https://dev.to/lydiahallie/javascript-visualized-event-loop-3dif"
+        },
+        {
+          "id": "b679H8gEBuvrHQ8ik7e96-res-4",
+          "type": "article",
+          "title": "Event Loop in Node.js - Mixu's Node book",
+          "url": "https://book.mixu.net/node/ch2.html#the-event-loop-understanding-how-node-executes-javascript-code"
+        }
+      ]
+    },
+    "XteNExIZN3_g95_dPCopY": {
+      "id": "XteNExIZN3_g95_dPCopY",
+      "slug": "exiting--exit-codes",
+      "title": "Exiting / Exit Codes",
+      "description": "When a Node.js process finishes, it exits with a numeric exit code that signals whether it succeeded or failed. An exit code of `0` means success; any non-zero code indicates an error. You can set the exit code explicitly using `process.exit(code)` or by setting `process.exitCode`.",
+      "resources": [
+        {
+          "id": "XteNExIZN3_g95_dPCopY-res-1",
+          "type": "article",
+          "title": "Exit Documentation",
+          "url": "https://nodejs.org/api/process.html#event-exit"
+        },
+        {
+          "id": "XteNExIZN3_g95_dPCopY-res-2",
+          "type": "article",
+          "title": "How to Exit a Process in Node.js",
+          "url": "https://betterstack.com/community/questions/how-to-exit-in-node-js/"
+        }
+      ]
+    },
+    "1vq_KcYR_pkfp1MtXaL75": {
+      "id": "1vq_KcYR_pkfp1MtXaL75",
+      "slug": "expressjs",
+      "title": "Express.js",
+      "description": "Express.js is the most widely used Node.js web framework. It provides a minimal set of features for routing HTTP requests and adding middleware. Its simplicity and large ecosystem of plugins make it a popular choice for building APIs and web applications of all sizes.",
+      "resources": [
+        {
+          "id": "1vq_KcYR_pkfp1MtXaL75-res-1",
+          "type": "article",
+          "title": "Express.js",
+          "url": "https://expressjs.com/"
+        },
+        {
+          "id": "1vq_KcYR_pkfp1MtXaL75-res-2",
+          "type": "article",
+          "title": "Getting Started Guide",
+          "url": "https://expressjs.com/en/starter/installing.html"
+        },
+        {
+          "id": "1vq_KcYR_pkfp1MtXaL75-res-3",
+          "type": "article",
+          "title": "Express Full Guide",
+          "url": "https://www.tutorialspoint.com/nodejs/nodejs_express_framework.htm"
+        },
+        {
+          "id": "1vq_KcYR_pkfp1MtXaL75-res-4",
+          "type": "article",
+          "title": "Sample Project",
+          "url": "https://auth0.com/blog/create-a-simple-and-stylish-node-express-app/"
+        }
+      ]
+    },
+    "WkU_rI4i-UmNSxb5F9TI-": {
+      "id": "WkU_rI4i-UmNSxb5F9TI-",
+      "slug": "fastify",
+      "title": "fastify",
+      "description": "Fastify is a high-performance web framework for Node.js. It is designed to have low overhead and high throughput, making it one of the fastest Node.js HTTP frameworks available. It includes a built-in schema-based validation and serialization system and has a plugin architecture for extending functionality.",
+      "resources": [
+        {
+          "id": "WkU_rI4i-UmNSxb5F9TI--res-1",
+          "type": "article",
+          "title": "Fastify Documentation",
+          "url": "https://www.fastify.io/docs/latest/"
+        },
+        {
+          "id": "WkU_rI4i-UmNSxb5F9TI--res-2",
+          "type": "video",
+          "title": "Beginner Fastify Tutorial",
+          "url": "https://www.youtube.com/watch?v=Lk-uVEVGxOA"
+        }
+      ]
+    },
+    "B_3rTGQxJneMREXoi2gQn": {
+      "id": "B_3rTGQxJneMREXoi2gQn",
+      "slug": "fetch",
+      "title": "fetch",
+      "description": "The `fetch()` method in JavaScript is used to request to the server and load the information on the webpages. The request can be of any APIs that return the data of the format JSON or XML. This method returns a promise.",
+      "resources": [
+        {
+          "id": "B_3rTGQxJneMREXoi2gQn-res-1",
+          "type": "article",
+          "title": "MDN - Using the Fetch API",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch"
+        },
+        {
+          "id": "B_3rTGQxJneMREXoi2gQn-res-2",
+          "type": "article",
+          "title": "NodeJS globals: fetch",
+          "url": "https://nodejs.org/api/globals.html#fetch"
+        },
+        {
+          "id": "B_3rTGQxJneMREXoi2gQn-res-3",
+          "type": "article",
+          "title": "MDN - Promise",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise"
+        },
+        {
+          "id": "B_3rTGQxJneMREXoi2gQn-res-4",
+          "type": "article",
+          "title": "freeCodeCamp on avoiding callback hell",
+          "url": "https://www.freecodecamp.org/news/how-to-deal-with-nested-callbacks-and-avoid-callback-hell-1bc8dc4a2012/"
+        }
+      ]
+    },
+    "PHLdJylzNZDJBGi8FFsfO": {
+      "id": "PHLdJylzNZDJBGi8FFsfO",
+      "slug": "figlet-package",
+      "title": "figlet package",
+      "description": "`figlet` is an npm package that renders text as ASCII art using large, decorative fonts. It is typically used in CLI tools to display a stylized application name or welcome message at startup. The output is plain text made up of characters arranged to form letters.",
+      "resources": [
+        {
+          "id": "PHLdJylzNZDJBGi8FFsfO-res-1",
+          "type": "article",
+          "title": "figlet",
+          "url": "https://github.com/patorjk/figlet.js"
+        }
+      ]
+    },
+    "zDmWGRrgwq3Gjfkyk6crK": {
+      "id": "zDmWGRrgwq3Gjfkyk6crK",
+      "slug": "fs-extra",
+      "title": "fs-extra",
+      "description": "fs-extra adds file system methods that aren't included in the native fs module and adds promise support to the fs methods. It also uses graceful-fs to prevent EMFILE errors. It should be a drop in replacement for fs.",
+      "resources": [
+        {
+          "id": "zDmWGRrgwq3Gjfkyk6crK-res-1",
+          "type": "article",
+          "title": "fs-extra package",
+          "url": "https://www.npmjs.com/package/fs-extra"
+        },
+        {
+          "id": "zDmWGRrgwq3Gjfkyk6crK-res-2",
+          "type": "article",
+          "title": "fs-extra vs fs",
+          "url": "https://ar.al/2021/03/07/fs-extra-to-fs/"
+        }
+      ]
+    },
+    "b1r1X3XCoPSayQjDBcy54": {
+      "id": "b1r1X3XCoPSayQjDBcy54",
+      "slug": "fs-module",
+      "title": "fs module",
+      "description": "File System or `fs` module is a built in module in Node that enables interacting with the file system using JavaScript. All file system operations have synchronous, callback, and promise-based forms, and are accessible using both CommonJS syntax and ES6 Modules.",
+      "resources": [
+        {
+          "id": "b1r1X3XCoPSayQjDBcy54-res-1",
+          "type": "article",
+          "title": "fs module",
+          "url": "https://nodejs.org/api/fs.html"
+        },
+        {
+          "id": "b1r1X3XCoPSayQjDBcy54-res-2",
+          "type": "video",
+          "title": "Using fs",
+          "url": "https://www.youtube.com/watch?v=ZySsdm576wE"
+        }
+      ]
+    },
+    "SJ01N7vMZkNiIuMYQhdpj": {
+      "id": "SJ01N7vMZkNiIuMYQhdpj",
+      "slug": "garbage-collection",
+      "title": "Garbage Collection",
+      "description": "Memory management in JavaScript is performed automatically and invisibly to us. We create primitives, objects, functions… All that takes memory. The main concept of memory management in JavaScript is reachability.",
+      "resources": [
+        {
+          "id": "SJ01N7vMZkNiIuMYQhdpj-res-1",
+          "type": "article",
+          "title": "JavaScript Garbage Collection",
+          "url": "https://javascript.info/garbage-collection"
+        },
+        {
+          "id": "SJ01N7vMZkNiIuMYQhdpj-res-2",
+          "type": "article",
+          "title": "Memory Management in JavaScript",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Memory_Management"
+        }
+      ]
+    },
+    "CWH0ZsxJ8beLvwMYJyH52": {
+      "id": "CWH0ZsxJ8beLvwMYJyH52",
+      "slug": "glob",
+      "title": "glob",
+      "description": "`glob` is an npm package for matching files using shell-style wildcard patterns. For example, `**/*.js` matches all JavaScript files in all subdirectories. It is used in build tools, test runners, and any script that needs to find files matching a pattern.",
+      "resources": [
+        {
+          "id": "CWH0ZsxJ8beLvwMYJyH52-res-1",
+          "type": "article",
+          "title": "NPM Glob",
+          "url": "https://www.npmjs.com/package/glob"
+        }
+      ]
+    },
+    "l24OMkPAEDnEDAVAMrMuG": {
+      "id": "l24OMkPAEDnEDAVAMrMuG",
+      "slug": "global-installation",
+      "title": "Global Installation",
+      "description": "A global npm installation places a package in a system-wide location, making it available as a command-line tool from any directory. You use it for tools you want to run across multiple projects, like CLI utilities. It is done with the `-g` flag: `npm install -g <package>`.",
+      "resources": [
+        {
+          "id": "l24OMkPAEDnEDAVAMrMuG-res-1",
+          "type": "article",
+          "title": "Downloading and installing packages locally",
+          "url": "https://docs.npmjs.com/downloading-and-installing-packages-locally"
+        },
+        {
+          "id": "l24OMkPAEDnEDAVAMrMuG-res-2",
+          "type": "article",
+          "title": "Downloading and installing packages globally",
+          "url": "https://docs.npmjs.com/downloading-and-installing-packages-globally"
+        },
+        {
+          "id": "l24OMkPAEDnEDAVAMrMuG-res-3",
+          "type": "article",
+          "title": "NPM Install Docs",
+          "url": "https://docs.npmjs.com/cli/commands/npm-install"
+        }
+      ]
+    },
+    "PEGHvFT2Eg-1OyfhxYu22": {
+      "id": "PEGHvFT2Eg-1OyfhxYu22",
+      "slug": "global-keyword",
+      "title": "global keyword",
+      "description": "In browsers, the top-level scope is the global scope, and its global object is called the `window` object. Within the browser, `var something` will define a new global variable inside the `window` object. In Node.js, this is different. The top-level scope is **not** the global scope; `var something` inside a Node.js module will be local to that module.",
+      "resources": [
+        {
+          "id": "PEGHvFT2Eg-1OyfhxYu22-res-1",
+          "type": "article",
+          "title": "global Keyword in Node.js",
+          "url": "https://nodejs.org/api/globals.html#global"
+        },
+        {
+          "id": "PEGHvFT2Eg-1OyfhxYu22-res-2",
+          "type": "article",
+          "title": "What is the 'global' object in NodeJS",
+          "url": "https://stackoverflow.com/questions/43627622/"
+        },
+        {
+          "id": "PEGHvFT2Eg-1OyfhxYu22-res-3",
+          "type": "video",
+          "title": "What is Global Object?",
+          "url": "https://www.youtube.com/watch?v=jn8PZNBmKm0"
+        },
+        {
+          "id": "PEGHvFT2Eg-1OyfhxYu22-res-4",
+          "type": "video",
+          "title": "Global Object in Node",
+          "url": "https://www.youtube.com/watch?v=PY-AycMkEAg"
+        }
+      ]
+    },
+    "HYTw74rrd7kkOemCxfT9I": {
+      "id": "HYTw74rrd7kkOemCxfT9I",
+      "slug": "globby",
+      "title": "globby",
+      "description": "`globby` is a modern alternative to `glob` that supports promises and multiple patterns at once. It builds on top of `fast-glob` and provides a cleaner API. It is used when you need to match files asynchronously or want a more ergonomic interface than the original `glob` package.",
+      "resources": [
+        {
+          "id": "HYTw74rrd7kkOemCxfT9I-res-1",
+          "type": "article",
+          "title": "NPM Globby",
+          "url": "https://www.npmjs.com/package/globby"
+        },
+        {
+          "id": "HYTw74rrd7kkOemCxfT9I-res-2",
+          "type": "article",
+          "title": "GitHub Globby",
+          "url": "https://github.com/sindresorhus/globby"
+        }
+      ]
+    },
+    "6stiDKubT6XVAOGiJ6wsx": {
+      "id": "6stiDKubT6XVAOGiJ6wsx",
+      "slug": "got-package",
+      "title": "Got",
+      "description": "Got is a lighter, human-friendly, and powerful HTTP request library explicitly designed to work with Node.js. It supports pagination, RFC compliant caching, makes an API request again if it fails, supports cookies out of the box, etc.",
+      "resources": [
+        {
+          "id": "6stiDKubT6XVAOGiJ6wsx-res-1",
+          "type": "article",
+          "title": "Got Documentation",
+          "url": "https://www.npmjs.com/package/got"
+        },
+        {
+          "id": "6stiDKubT6XVAOGiJ6wsx-res-2",
+          "type": "article",
+          "title": "How to consume APIs using GOT in Node.js?",
+          "url": "https://rapidapi.com/guides/call-apis-got"
+        }
+      ]
+    },
+    "3MpxV23lNpuKg0--e_9m7": {
+      "id": "3MpxV23lNpuKg0--e_9m7",
+      "slug": "handling-async-errors",
+      "title": "Async errors",
+      "description": "Errors must always be handled. If you are using synchronous programming you could use a try catch. But this does not work if you work asynchronous! Async errors will only be handled inside the callback function!",
+      "resources": [
+        {
+          "id": "3MpxV23lNpuKg0--e_9m7-res-1",
+          "type": "article",
+          "title": "Async Errors",
+          "url": "https://www.mariokandut.com/handling-errors-in-asynchronous-functions-node-js/"
+        }
+      ]
+    },
+    "Vrcv5px-3fqmyJnQv3WBK": {
+      "id": "Vrcv5px-3fqmyJnQv3WBK",
+      "slug": "history-of-nodejs",
+      "title": "History of Node.js",
+      "description": "Node.js was first released in 2009 by Ryan Dahl, who wanted a way to build scalable network applications using JavaScript. The project was eventually forked in 2014 to create io.js, which was later merged back in 2015 under the Node.js Foundation. Since then, it has grown into one of the most widely used server-side runtimes.",
+      "resources": [
+        {
+          "id": "Vrcv5px-3fqmyJnQv3WBK-res-1",
+          "type": "article",
+          "title": "Rising Stack - History of Node.js on a Timeline",
+          "url": "https://blog.risingstack.com/history-of-node-js/"
+        },
+        {
+          "id": "Vrcv5px-3fqmyJnQv3WBK-res-2",
+          "type": "article",
+          "title": "SAP Press - How Did Node.js Come About?",
+          "url": "https://blog.sap-press.com/how-did-node.js-come-about"
+        },
+        {
+          "id": "Vrcv5px-3fqmyJnQv3WBK-res-3",
+          "type": "video",
+          "title": "Node.js: The Documentary | An Origin Story",
+          "url": "https://youtu.be/LB8KwiiUGy0"
+        }
+      ]
+    },
+    "Xa-lA1wbZ9JZ_XpXfhhw5": {
+      "id": "Xa-lA1wbZ9JZ_XpXfhhw5",
+      "slug": "hono",
+      "title": "Hono",
+      "description": "Hono is a lightweight, simple, and fast web framework for Cloudflare Workers, Deno, Bun, and other applications. It is a modern web application that is both fast and flexible. It offers inbuilt support for TypeScript, and easy development in a local environment. Using Hono, It is easy to create publishable web applications with Deno, Bun, and Cloudflare Workers.",
+      "resources": [
+        {
+          "id": "Xa-lA1wbZ9JZ_XpXfhhw5-res-1",
+          "type": "article",
+          "title": "Hono Documentation",
+          "url": "https://hono.dev/docs/"
+        },
+        {
+          "id": "Xa-lA1wbZ9JZ_XpXfhhw5-res-2",
+          "type": "article",
+          "title": "Build a web application with Hono",
+          "url": "https://blog.logrocket.com/build-web-application-hono/"
+        }
+      ]
+    },
+    "Sjc1YDtbzXyLQH711_3nj": {
+      "id": "Sjc1YDtbzXyLQH711_3nj",
+      "slug": "http-module",
+      "title": "http module",
+      "description": "The `http` module is Node.js's built-in module for creating HTTP servers and making HTTP requests. It provides low-level access to the HTTP protocol, giving you full control over request and response handling. Most developers use a framework like Express or a library like Axios on top of it.",
+      "resources": [
+        {
+          "id": "Sjc1YDtbzXyLQH711_3nj-res-1",
+          "type": "article",
+          "title": "Node.js http.get() documentation",
+          "url": "https://nodejs.org/docs/latest-v16.x/api/http.html#httpgeturl-options-callback"
+        },
+        {
+          "id": "Sjc1YDtbzXyLQH711_3nj-res-2",
+          "type": "article",
+          "title": "Node.js http.request() documentation",
+          "url": "https://nodejs.org/docs/latest-v16.x/api/http.html#httprequesturl-options-callback"
+        },
+        {
+          "id": "Sjc1YDtbzXyLQH711_3nj-res-3",
+          "type": "article",
+          "title": "How To Create an HTTP Client with Core HTTP in Node.js",
+          "url": "https://www.digitalocean.com/community/tutorials/how-to-create-an-http-client-with-core-http-in-node-js"
+        }
+      ]
+    },
+    "WFJJtIqVoBIhK10XY-d7l": {
+      "id": "WFJJtIqVoBIhK10XY-d7l",
+      "slug": "inquirer-package",
+      "title": "Inquirer Package",
+      "description": "Inquirer.js is a popular npm package for building rich, interactive command-line interfaces. It supports many input types including text, passwords, lists, checkboxes, and confirmations. It is a good choice for CLIs that require multi-step input flows.",
+      "resources": [
+        {
+          "id": "WFJJtIqVoBIhK10XY-d7l-res-1",
+          "type": "article",
+          "title": "Inquirer",
+          "url": "https://github.com/SBoudrias/Inquirer.js#readme"
+        },
+        {
+          "id": "WFJJtIqVoBIhK10XY-d7l-res-2",
+          "type": "article",
+          "title": "How To Create Interactive Command-line Prompts with Inquirer.js",
+          "url": "https://www.digitalocean.com/community/tutorials/nodejs-interactive-command-line-prompts"
+        },
+        {
+          "id": "WFJJtIqVoBIhK10XY-d7l-res-3",
+          "type": "video",
+          "title": "How to make a CLI in Node.js with Inquirer",
+          "url": "https://www.youtube.com/watch?v=0xjfkl9nODQ"
+        }
+      ]
+    },
+    "KDd40JOAvZ8O1mfhTYB3K": {
+      "id": "KDd40JOAvZ8O1mfhTYB3K",
+      "slug": "introduction-to-nodejs",
+      "title": "Introduction to Node.js",
+      "description": "Node.js is a runtime environment that lets you run JavaScript on the server side. It is built on Chrome's V8 JavaScript engine and uses an event-driven, non-blocking I/O model. It is widely used to build web servers, APIs, and command-line tools.",
+      "resources": [
+        {
+          "id": "KDd40JOAvZ8O1mfhTYB3K-res-1",
+          "type": "article",
+          "title": "Node.js",
+          "url": "https://nodejs.org/en/"
+        },
+        {
+          "id": "KDd40JOAvZ8O1mfhTYB3K-res-2",
+          "type": "article",
+          "title": "Node.js Documentation",
+          "url": "https://nodejs.org/en/docs/"
+        }
+      ]
+    },
+    "Wg7KSpAPxjeFMxC6PBnHO": {
+      "id": "Wg7KSpAPxjeFMxC6PBnHO",
+      "slug": "javascript-errors",
+      "title": "JavaScript Errors",
+      "description": "JavaScript errors are runtime errors thrown by the language itself, such as `TypeError`, `RangeError`, and `ReferenceError`. These occur when code tries to perform an invalid operation, like calling a method on `undefined`. They can be caught using try/catch blocks or error event listeners.",
+      "resources": [
+        {
+          "id": "Wg7KSpAPxjeFMxC6PBnHO-res-1",
+          "type": "article",
+          "title": "JavaScript error reference - MDN",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors"
+        }
+      ]
+    },
+    "5xrbKv2stKPJRv7Vzf9nM": {
+      "id": "5xrbKv2stKPJRv7Vzf9nM",
+      "slug": "jest",
+      "title": "Jest",
+      "description": "Jest is a delightful JavaScript Testing Framework with a focus on simplicity. It works with projects using: Babel, TypeScript, Node, React, Angular, Vue and more!",
+      "resources": [
+        {
+          "id": "5xrbKv2stKPJRv7Vzf9nM-res-1",
+          "type": "article",
+          "title": "Jest",
+          "url": "https://jestjs.io"
+        },
+        {
+          "id": "5xrbKv2stKPJRv7Vzf9nM-res-2",
+          "type": "article",
+          "title": "Jest Documentation",
+          "url": "https://jestjs.io/docs/getting-started"
+        }
+      ]
+    },
+    "7u2WMxjLx3mMtn0cha4M7": {
+      "id": "7u2WMxjLx3mMtn0cha4M7",
+      "slug": "jsonwebtoken",
+      "title": "JSON Web Token",
+      "description": "JWT, or JSON-Web-Token, is an open standard for sharing security information between two parties — a client and a server. Each JWT contains encoded JSON objects, including a set of claims. JWTs are signed using a cryptographic algorithm to ensure that the claims cannot be altered after the token is issued.",
+      "resources": [
+        {
+          "id": "7u2WMxjLx3mMtn0cha4M7-res-1",
+          "type": "article",
+          "title": "JSON Package Documentation",
+          "url": "https://www.npmjs.com/package/jsonwebtoken"
+        },
+        {
+          "id": "7u2WMxjLx3mMtn0cha4M7-res-2",
+          "type": "article",
+          "title": "What is JWT",
+          "url": "https://www.akana.com/blog/what-is-jwt"
+        },
+        {
+          "id": "7u2WMxjLx3mMtn0cha4M7-res-3",
+          "type": "video",
+          "title": "JWT Implementation",
+          "url": "https://www.youtube.com/watch?v=mbsmsi7l3r4"
+        }
+      ]
+    },
+    "af7n-J7VvbdpZh9lwA773": {
+      "id": "af7n-J7VvbdpZh9lwA773",
+      "slug": "keep-app-running",
+      "title": "Keep your app running in Production",
+      "description": "PM2 lets you run your nodejs scripts forever. In the event that your application crashes, PM2 will also restart it for you.",
+      "resources": [
+        {
+          "id": "af7n-J7VvbdpZh9lwA773-res-1",
+          "type": "article",
+          "title": "Running Node.js Apps with PM2 (Complete Guide)",
+          "url": "https://betterstack.com/community/guides/scaling-nodejs/pm2-guide/"
+        }
+      ]
+    },
+    "HDDnt79_PCB5JU-KnHKUh": {
+      "id": "HDDnt79_PCB5JU-KnHKUh",
+      "slug": "knex",
+      "title": "Knex",
+      "description": "Knex.js is a \"batteries included\" SQL query builder for PostgreSQL, CockroachDB, MSSQL, MySQL, MariaDB, SQLite3, Better-SQLite3, Oracle, and Amazon Redshift designed to be flexible, portable, and fun to use.",
+      "resources": [
+        {
+          "id": "HDDnt79_PCB5JU-KnHKUh-res-1",
+          "type": "article",
+          "title": "Knex.js",
+          "url": "https://knexjs.org"
+        }
+      ]
+    },
+    "-_2letLUta5Ymc5eEOKhn": {
+      "id": "-_2letLUta5Ymc5eEOKhn",
+      "slug": "ky",
+      "title": "Ky",
+      "description": "Ky is a tiny and elegant HTTP client based on the browser Fetch API. Ky targets modern browsers and Deno.For older browsers, you will need to transpile and use a fetch polyfill.For Node.js, check out Got.. 1 KB (minified & gzipped), one file, and no dependencies.",
+      "resources": [
+        {
+          "id": "-_2letLUta5Ymc5eEOKhn-res-1",
+          "type": "article",
+          "title": "Ky Package",
+          "url": "https://www.npmjs.com/package/ky/v/0.9.0"
+        },
+        {
+          "id": "-_2letLUta5Ymc5eEOKhn-res-2",
+          "type": "article",
+          "title": "Ky Docs",
+          "url": "https://github.com/sindresorhus/ky"
+        }
+      ]
+    },
+    "oYeux7PbveYaVwXRzAg5x": {
+      "id": "oYeux7PbveYaVwXRzAg5x",
+      "slug": "local-installation",
+      "title": "Local Installation",
+      "description": "Locally installed packages are available only to the project where the packages are installed, while the globally installed packages can be used any where without installing them into a project. Another use case of the global packages is when using CLI tools.",
+      "resources": [
+        {
+          "id": "oYeux7PbveYaVwXRzAg5x-res-1",
+          "type": "article",
+          "title": "Downloading and installing packages locally",
+          "url": "https://docs.npmjs.com/downloading-and-installing-packages-locally"
+        },
+        {
+          "id": "oYeux7PbveYaVwXRzAg5x-res-2",
+          "type": "article",
+          "title": "Downloading and installing packages globally",
+          "url": "https://docs.npmjs.com/downloading-and-installing-packages-globally"
+        }
+      ]
+    },
+    "b7ZAEqo0ZU6TNf18Bo0mI": {
+      "id": "b7ZAEqo0ZU6TNf18Bo0mI",
+      "slug": "logging",
+      "title": "Node.js Logging",
+      "description": "**Logging** is an essential part of understanding the complete application life cycle of the `Node.js` application. We can much more easily and quickly fix errors by looking at logs throughout the development process, from creating to debugging to designing new features. **Error**, **warn**, **info**, and **debug** are the four basic logging levels in `Node.js`. Logging involves persistently collecting information about an application's runtime behaviour.",
+      "resources": [
+        {
+          "id": "b7ZAEqo0ZU6TNf18Bo0mI-res-1",
+          "type": "article",
+          "title": "Node.js Logging",
+          "url": "https://stackify.com/node-js-logging/"
+        },
+        {
+          "id": "b7ZAEqo0ZU6TNf18Bo0mI-res-2",
+          "type": "article",
+          "title": "Logging best practices",
+          "url": "https://blog.appsignal.com/2021/09/01/best-practices-for-logging-in-nodejs.html"
+        },
+        {
+          "id": "b7ZAEqo0ZU6TNf18Bo0mI-res-3",
+          "type": "article",
+          "title": "Logging",
+          "url": "https://stackify.com/node-js-logging/"
+        }
+      ]
+    },
+    "f2DyjBIglAZ6NoHaRnlzt": {
+      "id": "f2DyjBIglAZ6NoHaRnlzt",
+      "slug": "marko",
+      "title": "Marko",
+      "description": "Marko is a fast and lightweight HTML-based templating engine that compiles templates to CommonJS modules and supports streaming, async rendering, and custom tags. It is HTML re-imagined as a language for building dynamic and reactive user interfaces.",
+      "resources": [
+        {
+          "id": "f2DyjBIglAZ6NoHaRnlzt-res-1",
+          "type": "article",
+          "title": "Marko Documentation",
+          "url": "https://markojs.com/docs/guides-overview/"
+        }
+      ]
+    },
+    "oU9I7KBZoTSXXFmYscEIq": {
+      "id": "oU9I7KBZoTSXXFmYscEIq",
+      "slug": "memory-leaks",
+      "title": "Memory Leaks",
+      "description": "Memory leaks are caused when your Node.js app’s CPU and memory usage increases over time for no apparent reason. In simple terms, a Node.js memory leak is an orphan block of memory on the Heap that is no longer used by your app because it has not been released by the garbage collector. It’s a useless block of memory. These blocks can grow over time and lead to your app crashing because it runs out of memory.",
+      "resources": [
+        {
+          "id": "oU9I7KBZoTSXXFmYscEIq-res-1",
+          "type": "article",
+          "title": "Memory Leaks in Node.js",
+          "url": "https://sematext.com/blog/nodejs-memory-leaks/"
+        },
+        {
+          "id": "oU9I7KBZoTSXXFmYscEIq-res-2",
+          "type": "article",
+          "title": "Memory Leaks Causes",
+          "url": "https://sematext.com/blog/nodejs-memory-leaks/#what-causes-them-common-node-js-memory-leaks"
+        },
+        {
+          "id": "oU9I7KBZoTSXXFmYscEIq-res-3",
+          "type": "article",
+          "title": "Memory Leaks Detectors",
+          "url": "https://sematext.com/blog/nodejs-memory-leaks/#node-js-memory-leak-detectors"
+        }
+      ]
+    },
+    "mbGFT6S7mL3bHHEZv0_s2": {
+      "id": "mbGFT6S7mL3bHHEZv0_s2",
+      "slug": "modules",
+      "title": "Node.js Modules",
+      "description": "We split our code into different files to maintain, organize and reuse code whenever possible. A module system allows us to split and include code and import code written by other developers whenever required. In simple terms, a module is nothing but a JavaScript file. Node.js has many built-in modules that are part of the platform and comes with Node.js installation, for example, HTTP, fs, path, and more.",
+      "resources": [
+        {
+          "id": "mbGFT6S7mL3bHHEZv0_s2-res-1",
+          "type": "article",
+          "title": "Modules: CommonJS modules",
+          "url": "https://nodejs.org/api/modules.html#modules-commonjs-modules"
+        },
+        {
+          "id": "mbGFT6S7mL3bHHEZv0_s2-res-2",
+          "type": "article",
+          "title": "CommonJS vs. ES Modules in Node.js",
+          "url": "https://blog.logrocket.com/commonjs-vs-es-modules-node-js/"
+        },
+        {
+          "id": "mbGFT6S7mL3bHHEZv0_s2-res-3",
+          "type": "video",
+          "title": "Modules in Node.js",
+          "url": "https://www.youtube.com/watch?v=9Amxzvq5LY8&"
+        }
+      ]
+    },
+    "NDf-o-WECK02mVnZ8IFxy": {
+      "id": "NDf-o-WECK02mVnZ8IFxy",
+      "slug": "mongoose",
+      "title": "Mongoose",
+      "description": "Mongoose is an Object Data Modeling (ODM) library for MongoDB and Node.js. Mongoose provides a straight-forward, schema-based solution to model your application data. It includes built-in type casting, validation, query building, business logic hooks and more, out of the box.",
+      "resources": [
+        {
+          "id": "NDf-o-WECK02mVnZ8IFxy-res-1",
+          "type": "article",
+          "title": "Mongoose",
+          "url": "https://mongoosejs.com"
+        },
+        {
+          "id": "NDf-o-WECK02mVnZ8IFxy-res-2",
+          "type": "article",
+          "title": "Mongoose Documentation",
+          "url": "https://mongoosejs.com/docs/guide.html"
+        },
+        {
+          "id": "NDf-o-WECK02mVnZ8IFxy-res-3",
+          "type": "article",
+          "title": "Getting Started with MongoDB and Mongoose",
+          "url": "https://www.mongodb.com/developer/languages/javascript/getting-started-with-mongodb-and-mongoose/"
+        }
+      ]
+    },
+    "swp4wBgA7z-sd64VDkMrw": {
+      "id": "swp4wBgA7z-sd64VDkMrw",
+      "slug": "monitor-changes-dev",
+      "title": "Keep App Running",
+      "description": "In Node.js, you need to restart the process to make changes take effect. This adds an extra step to your workflow. You can eliminate this extra step by using `nodemon` to restart the process automatically. Since Node.js 18.11.0, you can run Node with the `--watch` flag to reload your app every time a file is changed. So you don't need to use `nodemon` anymore.",
+      "resources": []
+    },
+    "CTHFGgtXFpke4aPhh5vRY": {
+      "id": "CTHFGgtXFpke4aPhh5vRY",
+      "slug": "morgan",
+      "title": "Morgan",
+      "description": "Morgan is a NodeJS and express.js middleware to log the HTTP request and error, simplifying the debugging process. It provides flexibility in defining the format of log messages and helps override the output destination for your logs.",
+      "resources": [
+        {
+          "id": "CTHFGgtXFpke4aPhh5vRY-res-1",
+          "type": "article",
+          "title": "morgan package",
+          "url": "https://www.npmjs.com/package/morgan"
+        },
+        {
+          "id": "CTHFGgtXFpke4aPhh5vRY-res-2",
+          "type": "article",
+          "title": "How to Use Morgan | DigitalOcean",
+          "url": "https://www.digitalocean.com/community/tutorials/nodejs-getting-started-morgan"
+        }
+      ]
+    },
+    "5WqLm53CHDT5uBoMH-iPl": {
+      "id": "5WqLm53CHDT5uBoMH-iPl",
+      "slug": "native-drivers",
+      "title": "Native Drivers (NoSQL)",
+      "description": "Native database drivers are npm packages provided by database vendors that let Node.js communicate directly with a NoSQL database. For example, the official MongoDB driver connects to MongoDB and lets you run queries against it. Using a native driver gives you full control but requires writing raw query logic yourself.",
+      "resources": [
+        {
+          "id": "5WqLm53CHDT5uBoMH-iPl-res-1",
+          "type": "article",
+          "title": "MongoDB Drivers",
+          "url": "https://www.mongodb.com/docs/drivers/"
+        }
+      ]
+    },
+    "KpC-QYKalUp7VUvnMKBoW": {
+      "id": "KpC-QYKalUp7VUvnMKBoW",
+      "slug": "native-drivers",
+      "title": "Native Drivers (Relational)",
+      "description": "Native drivers for relational databases let Node.js connect to databases like PostgreSQL or MySQL directly. Examples include the `pg` package for PostgreSQL and `mysql2` for MySQL. They give you direct access to the database and let you run raw SQL queries.",
+      "resources": []
+    },
+    "tGD8XLHnfspfv8CbguGwV": {
+      "id": "tGD8XLHnfspfv8CbguGwV",
+      "slug": "nestjs",
+      "title": "NestJS",
+      "description": "NestJS is a framework for building server-side Node.js applications. It uses TypeScript by default and draws heavily from Angular's architecture, using decorators, modules, and dependency injection. It is designed for building scalable, maintainable applications and is well-suited for complex, enterprise-grade APIs.",
+      "resources": [
+        {
+          "id": "tGD8XLHnfspfv8CbguGwV-res-1",
+          "type": "article",
+          "title": "NestJS Documentations",
+          "url": "https://docs.nestjs.com"
+        },
+        {
+          "id": "tGD8XLHnfspfv8CbguGwV-res-2",
+          "type": "video",
+          "title": "Beginner NestJS Tutorial",
+          "url": "https://www.youtube.com/watch?v=GHTA143_b-s"
+        }
+      ]
+    },
+    "DcmGcVlEHL4IV7yPMDpVa": {
+      "id": "DcmGcVlEHL4IV7yPMDpVa",
+      "slug": "node---inspect",
+      "title": "node --inspect",
+      "description": "The `--inspect` flag starts the Node.js process with a debugging interface enabled. You can then connect to it using Chrome DevTools or a compatible IDE like VS Code to set breakpoints, step through code, and inspect variables. Appending `--inspect-brk` pauses execution immediately, letting you debug from the very start of the process.",
+      "resources": [
+        {
+          "id": "DcmGcVlEHL4IV7yPMDpVa-res-1",
+          "type": "article",
+          "title": "Debugging Node.js with Chrome DevTools",
+          "url": "https://medium.com/@paul_irish/debugging-node-js-nightlies-with-chrome-devtools-7c4a1b95ae27"
+        }
+      ]
+    },
+    "ebVb0anYmbD1Y9ZTFXKFp": {
+      "id": "ebVb0anYmbD1Y9ZTFXKFp",
+      "slug": "nodejs-vs-browser",
+      "title": "Node.js vs Browser",
+      "description": "Node.js and the browser both run JavaScript but in different environments with different APIs. The browser provides access to the DOM, window, and browser-specific APIs, while Node.js provides access to the file system, operating system, and network. Code written for one environment does not always work in the other without adjustments.",
+      "resources": [
+        {
+          "id": "ebVb0anYmbD1Y9ZTFXKFp-res-1",
+          "type": "article",
+          "title": "Differences between Node.js and the Browser",
+          "url": "https://nodejs.org/en/learn/getting-started/differences-between-nodejs-and-the-browser/"
+        }
+      ]
+    },
+    "2Ym2jMvov0lZ79aJFaw29": {
+      "id": "2Ym2jMvov0lZ79aJFaw29",
+      "slug": "nodemon",
+      "title": "Nodemon",
+      "description": "In Node.js, you need to restart the process to make changes take effect. This adds an extra step to your workflow. You can eliminate this extra step by using nodemon or PM2 to restart the process automatically. `nodemon` is a command-line interface (CLI) utility developed by rem that wraps your Node app, watches the file system, and automatically restarts the process.",
+      "resources": [
+        {
+          "id": "2Ym2jMvov0lZ79aJFaw29-res-1",
+          "type": "article",
+          "title": "Nodemon",
+          "url": "https://nodemon.io/"
+        },
+        {
+          "id": "2Ym2jMvov0lZ79aJFaw29-res-2",
+          "type": "article",
+          "title": "PM2",
+          "url": "https://pm2.keymetrics.io/docs/usage/quick-start/"
+        },
+        {
+          "id": "2Ym2jMvov0lZ79aJFaw29-res-3",
+          "type": "article",
+          "title": "How To Restart Your Node.js Apps Automatically with nodemon",
+          "url": "https://www.digitalocean.com/community/tutorials/workflow-nodemon"
+        }
+      ]
+    },
+    "oSLpy31XEcA2nRq9ks_LJ": {
+      "id": "oSLpy31XEcA2nRq9ks_LJ",
+      "slug": "nodetest",
+      "title": "node:test",
+      "description": "`node:test` is Node.js's built-in test runner, added in version 18. It provides a simple API for writing and running tests without any additional dependencies. For projects that want minimal tooling, it is a practical alternative to third-party frameworks.",
+      "resources": [
+        {
+          "id": "oSLpy31XEcA2nRq9ks_LJ-res-1",
+          "type": "article",
+          "title": "Test Runner API Docs",
+          "url": "https://nodejs.org/api/test.html"
+        },
+        {
+          "id": "oSLpy31XEcA2nRq9ks_LJ-res-2",
+          "type": "article",
+          "title": "Node.js Test Runner",
+          "url": "https://nodejs.org/en/learn/test-runner/using-test-runner"
+        }
+      ]
+    },
+    "WvxCGVKLvTUVEHeOcUQPg": {
+      "id": "WvxCGVKLvTUVEHeOcUQPg",
+      "slug": "npm-workspaces",
+      "title": "npm workspaces",
+      "description": "npm workspaces allow you to manage multiple packages within a single repository (monorepo). You define workspace packages in the root `package.json`, and npm handles linking them together during installation. This makes it easier to share code between packages and run scripts across the whole project.",
+      "resources": [
+        {
+          "id": "WvxCGVKLvTUVEHeOcUQPg-res-1",
+          "type": "article",
+          "title": "npm workspaces",
+          "url": "https://docs.npmjs.com/cli/using-npm/workspaces"
+        },
+        {
+          "id": "WvxCGVKLvTUVEHeOcUQPg-res-2",
+          "type": "article",
+          "title": "Getting Started with Npm Workspaces",
+          "url": "https://ruanmartinelli.com/blog/npm-7-workspaces-1/"
+        }
+      ]
+    },
+    "jQJ9aOKtg-O-GhWk5OgCK": {
+      "id": "jQJ9aOKtg-O-GhWk5OgCK",
+      "slug": "npm",
+      "title": "npm",
+      "description": "npm (Node Package Manager) is the default package manager for Node.js. It lets you install, update, and manage third-party libraries and tools for your project. npm also provides a registry at npmjs.com where developers publish and share their packages.",
+      "resources": [
+        {
+          "id": "jQJ9aOKtg-O-GhWk5OgCK-res-1",
+          "type": "article",
+          "title": "NPM Documentation",
+          "url": "https://docs.npmjs.com/"
+        },
+        {
+          "id": "jQJ9aOKtg-O-GhWk5OgCK-res-2",
+          "type": "article",
+          "title": "What is npm?",
+          "url": "https://nodejs.org/en/learn/getting-started/an-introduction-to-the-npm-package-manager"
+        },
+        {
+          "id": "jQJ9aOKtg-O-GhWk5OgCK-res-3",
+          "type": "article",
+          "title": "An introduction to the npm package manager",
+          "url": "https://nodejs.org/en/learn/getting-started/an-introduction-to-the-npm-package-manager"
+        },
+        {
+          "id": "jQJ9aOKtg-O-GhWk5OgCK-res-4",
+          "type": "video",
+          "title": "NPM Crash Course",
+          "url": "https://www.youtube.com/watch?v=jHDhaSSKmB0"
+        }
+      ]
+    },
+    "YdpJ-DUo8Q5ATRmF4s4YS": {
+      "id": "YdpJ-DUo8Q5ATRmF4s4YS",
+      "slug": "npx",
+      "title": "npx",
+      "description": "npx is a tool that comes with npm and lets you run Node.js packages without installing them globally. It downloads and executes the package in a temporary environment, which is useful for running CLI tools like scaffolding scripts or code generators. It avoids cluttering your global environment with one-off tools.",
+      "resources": [
+        {
+          "id": "YdpJ-DUo8Q5ATRmF4s4YS-res-1",
+          "type": "article",
+          "title": "npx",
+          "url": "https://docs.npmjs.com/cli/commands/npx/"
+        },
+        {
+          "id": "YdpJ-DUo8Q5ATRmF4s4YS-res-2",
+          "type": "article",
+          "title": "Introduction to the npx Node.js Package Runner",
+          "url": "https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b"
+        }
+      ]
+    },
+    "mIyv6S9a5dCHkk-JhhjKV": {
+      "id": "mIyv6S9a5dCHkk-JhhjKV",
+      "slug": "passportjs",
+      "title": "Passport js",
+      "description": "Passport.js is authentication middleware for Node.js. It makes implementing authentication in express apps really easy and fast. It is extremely flexible and modular. It uses \"strategies\" to support authentication using a username and password, Facebook, Twitter, and a lot of other sites.",
+      "resources": [
+        {
+          "id": "mIyv6S9a5dCHkk-JhhjKV-res-1",
+          "type": "article",
+          "title": "PassportJS",
+          "url": "https://www.passportjs.org/"
+        },
+        {
+          "id": "mIyv6S9a5dCHkk-JhhjKV-res-2",
+          "type": "article",
+          "title": "PassportJS Documentation",
+          "url": "https://www.passportjs.org/docs/"
+        },
+        {
+          "id": "mIyv6S9a5dCHkk-JhhjKV-res-3",
+          "type": "video",
+          "title": "Implementation of OAuth using passportjs",
+          "url": "https://www.youtube.com/watch?v=sakQbeRjgwg&list=PL4cUxeGkcC9jdm7QX143aMLAqyM-jTZ2x"
+        }
+      ]
+    },
+    "Blzb-fdQZMu6Xq5JDJW0_": {
+      "id": "Blzb-fdQZMu6Xq5JDJW0_",
+      "slug": "path-module",
+      "title": "path module",
+      "description": "The `path` module provides utilities for working with file and directory paths. It's built-in to Node.js core and can simply be used by requiring it.",
+      "resources": [
+        {
+          "id": "Blzb-fdQZMu6Xq5JDJW0_-res-1",
+          "type": "article",
+          "title": "Path Documentation",
+          "url": "https://nodejs.org/api/path.html"
+        },
+        {
+          "id": "Blzb-fdQZMu6Xq5JDJW0_-res-2",
+          "type": "article",
+          "title": "Learn Node.js File Paths",
+          "url": "https://nodejs.org/en/learn/manipulating-files/nodejs-file-paths"
+        },
+        {
+          "id": "Blzb-fdQZMu6Xq5JDJW0_-res-3",
+          "type": "video",
+          "title": "Path Module in Node.js",
+          "url": "https://youtu.be/j95Lwxvi9JY"
+        }
+      ]
+    },
+    "Ix-g9pgJjEI04bSfROvlq": {
+      "id": "Ix-g9pgJjEI04bSfROvlq",
+      "slug": "playwright",
+      "title": "Playwright",
+      "description": "Playwright is a browser automation and end-to-end testing tool developed by Microsoft. It supports multiple browsers (Chromium, Firefox, WebKit) and allows you to write tests that simulate real user behavior. It can also be used for scraping and automating web-based workflows.",
+      "resources": [
+        {
+          "id": "Ix-g9pgJjEI04bSfROvlq-res-1",
+          "type": "article",
+          "title": "Playwright",
+          "url": "https://playwright.dev/"
+        },
+        {
+          "id": "Ix-g9pgJjEI04bSfROvlq-res-2",
+          "type": "article",
+          "title": "Playwright Docs",
+          "url": "https://playwright.dev/docs/getting-started-vscode"
+        },
+        {
+          "id": "Ix-g9pgJjEI04bSfROvlq-res-3",
+          "type": "article",
+          "title": "Getting Started with Playwright",
+          "url": "https://learn.microsoft.com/en-us/shows/getting-started-with-end-to-end-testing-with-playwright/"
+        }
+      ]
+    },
+    "7WAuMMyelUbgwEHtnMmJv": {
+      "id": "7WAuMMyelUbgwEHtnMmJv",
+      "slug": "pm2",
+      "title": "Pm2",
+      "description": "PM2 is a production process manager for Node.js applications with a built-in load balancer. It allows you to keep applications alive forever, to reload them without downtime and to facilitate common system admin tasks.",
+      "resources": [
+        {
+          "id": "7WAuMMyelUbgwEHtnMmJv-res-1",
+          "type": "article",
+          "title": "Pm2",
+          "url": "https://pm2.keymetrics.io/"
+        },
+        {
+          "id": "7WAuMMyelUbgwEHtnMmJv-res-2",
+          "type": "article",
+          "title": "Pm2 Documentation",
+          "url": "https://pm2.keymetrics.io/docs/usage/quick-start/"
+        }
+      ]
+    },
+    "3Qxtf8n6gJYdnRsuqa52Q": {
+      "id": "3Qxtf8n6gJYdnRsuqa52Q",
+      "slug": "prisma",
+      "title": "Prisma",
+      "description": "Prisma provides an open source next-generation ORM in the TypeScript ecosystem. It offers a dedicated API for relation filters. It provides an abstraction layer that makes you more productive compared to writing SQL. Prisma currently supports `PostgreSQL`, `MySQL`, `SQL Server`, `SQLite`, `MongoDB` and `CockroachDB`.",
+      "resources": [
+        {
+          "id": "3Qxtf8n6gJYdnRsuqa52Q-res-1",
+          "type": "article",
+          "title": "Prisma",
+          "url": "https://www.prisma.io/"
+        },
+        {
+          "id": "3Qxtf8n6gJYdnRsuqa52Q-res-2",
+          "type": "video",
+          "title": "Prisma & MongoDB Youtube Tutorial",
+          "url": "https://www.youtube.com/watch?v=-7r4whMKt1s"
+        }
+      ]
+    },
+    "O7Cy2g_GPxKU6vPfEmNyi": {
+      "id": "O7Cy2g_GPxKU6vPfEmNyi",
+      "slug": "prisma",
+      "title": "Prisma",
+      "description": "Prisma is an ORM that helps app developers build faster and make fewer errors. Combined with its Data Platform developers gain reliability and visibility when working with databases.",
+      "resources": [
+        {
+          "id": "O7Cy2g_GPxKU6vPfEmNyi-res-1",
+          "type": "article",
+          "title": "Prisma",
+          "url": "https://www.prisma.io/"
+        },
+        {
+          "id": "O7Cy2g_GPxKU6vPfEmNyi-res-2",
+          "type": "article",
+          "title": "Prisma Documentation",
+          "url": "https://www.prisma.io/docs/"
+        }
+      ]
+    },
+    "lT2DDRtbFfEjb_cmsQx8i": {
+      "id": "lT2DDRtbFfEjb_cmsQx8i",
+      "slug": "processargv",
+      "title": "process.argv",
+      "description": "`process.argv` is an array containing the command-line arguments passed to the Node.js process. The first two elements are the path to Node.js and the script file; the remaining elements are the arguments provided by the user. Parsing `process.argv` manually is the lowest-level way to read CLI input.",
+      "resources": [
+        {
+          "id": "lT2DDRtbFfEjb_cmsQx8i-res-1",
+          "type": "article",
+          "title": "process.argv",
+          "url": "https://nodejs.org/docs/latest/api/process.html#processargv"
+        },
+        {
+          "id": "lT2DDRtbFfEjb_cmsQx8i-res-2",
+          "type": "video",
+          "title": "Command Line Arguments - Cave of Programming",
+          "url": "https://youtu.be/nr7i2HOAjeE"
+        }
+      ]
+    },
+    "QT2QE2FLkyUDpwMKYkFQL": {
+      "id": "QT2QE2FLkyUDpwMKYkFQL",
+      "slug": "processcwd",
+      "title": "process.cwd()",
+      "description": "`process.cwd()` returns the current working directory of the Node.js process, which is the directory from which the script was launched. Unlike `__dirname`, it reflects the shell's working directory, not the file's location. It is useful when your application needs to resolve paths relative to where it was started.",
+      "resources": [
+        {
+          "id": "QT2QE2FLkyUDpwMKYkFQL-res-1",
+          "type": "article",
+          "title": "process.cwd()",
+          "url": "https://nodejs.org/api/process.html#processcwd"
+        },
+        {
+          "id": "QT2QE2FLkyUDpwMKYkFQL-res-2",
+          "type": "article",
+          "title": "What's the difference between process.cwd() vs __dirname?",
+          "url": "https://stackoverflow.com/questions/9874382/whats-the-difference-between-process-cwd-vs-dirname"
+        }
+      ]
+    },
+    "wthXp2YGg3eTMbxsek77C": {
+      "id": "wthXp2YGg3eTMbxsek77C",
+      "slug": "processenv",
+      "title": "process.env",
+      "description": "`process.env` is a Node.js object that contains all environment variables available to the current process. These can be set in the shell, in a `.env` file via a library like dotenv, or by the deployment platform. Configuration values like port numbers, API keys, and database URLs are commonly stored and accessed this way.",
+      "resources": [
+        {
+          "id": "wthXp2YGg3eTMbxsek77C-res-1",
+          "type": "article",
+          "title": "Node.js Learn Environment Variables",
+          "url": "https://nodejs.org/en/learn/command-line/how-to-read-environment-variables-from-nodejs"
+        },
+        {
+          "id": "wthXp2YGg3eTMbxsek77C-res-2",
+          "type": "article",
+          "title": "Process.env Node",
+          "url": "https://www.knowledgehut.com/blog/web-development/node-environment-variables"
+        }
+      ]
+    },
+    "ATu9-29yJWcDOik5FTOgf": {
+      "id": "ATu9-29yJWcDOik5FTOgf",
+      "slug": "processnexttick",
+      "title": "process.nextTick()",
+      "description": "Every time the event loop takes a full trip, we call it a tick. When we pass a function to `process.nextTick()`, we instruct the engine to invoke this function at the end of the current operation before the next event loop tick starts.",
+      "resources": [
+        {
+          "id": "ATu9-29yJWcDOik5FTOgf-res-1",
+          "type": "article",
+          "title": "Understanding Process.NextTick()",
+          "url": "https://nodejs.org/en/learn/asynchronous-work/understanding-processnexttick"
+        },
+        {
+          "id": "ATu9-29yJWcDOik5FTOgf-res-2",
+          "type": "video",
+          "title": "The process.nextTick Function",
+          "url": "https://www.youtube.com/watch?v=-niA5XOlCWI"
+        }
+      ]
+    },
+    "betuntelnEMSHdatO6VPl": {
+      "id": "betuntelnEMSHdatO6VPl",
+      "slug": "processstdin",
+      "title": "process.stdin",
+      "description": "`process.stdin` is a stream in Node.js that represents the standard input, typically the keyboard. It allows your Node.js programs to receive text input from the command line. The `readline` module provides a convenient interface for reading input from `process.stdin` line by line, making it easier to handle user input in interactive command-line applications.",
+      "resources": [
+        {
+          "id": "betuntelnEMSHdatO6VPl-res-1",
+          "type": "article",
+          "title": "process.stdin",
+          "url": "https://nodejs.org/api/process.html#processstdin"
+        },
+        {
+          "id": "betuntelnEMSHdatO6VPl-res-2",
+          "type": "article",
+          "title": "Accept input from the command line in Node.js",
+          "url": "https://nodejs.org/en/learn/command-line/accept-input-from-the-command-line-in-nodejs#accept-input-from-the-command-line-in-nodejs"
+        },
+        {
+          "id": "betuntelnEMSHdatO6VPl-res-3",
+          "type": "article",
+          "title": "Node.js Process stdin & stdout",
+          "url": "https://nodecli.com/node-stdin-stdout"
+        }
+      ]
+    },
+    "QcOqhuKWOUUUBSiu5Oelv": {
+      "id": "QcOqhuKWOUUUBSiu5Oelv",
+      "slug": "promises",
+      "title": "Promises",
+      "description": "A promise is an object representing the eventual result of an async operation. It can be in one of three states: pending, fulfilled, or rejected. Promises provide `.then()` and `.catch()` methods for chaining operations, and they are the foundation for `async/await`.",
+      "resources": [
+        {
+          "id": "QcOqhuKWOUUUBSiu5Oelv-res-1",
+          "type": "article",
+          "title": "Promises",
+          "url": "https://www.promisejs.org/"
+        },
+        {
+          "id": "QcOqhuKWOUUUBSiu5Oelv-res-2",
+          "type": "article",
+          "title": "Promise Methods",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise"
+        },
+        {
+          "id": "QcOqhuKWOUUUBSiu5Oelv-res-3",
+          "type": "video",
+          "title": "Asynchronous JavaScript - Promises",
+          "url": "https://www.youtube.com/watch?v=a_8nrslImo4/"
+        }
+      ]
+    },
+    "xgsKrUdfB0g0DMQCLK3aY": {
+      "id": "xgsKrUdfB0g0DMQCLK3aY",
+      "slug": "prompts-package",
+      "title": "prompts package",
+      "description": "`prompts` is a lightweight npm package for building interactive command-line interfaces. It provides a simple API for prompting users with questions and collecting their answers in various formats, like text input, confirmations, and selections. It supports keyboard navigation and works well in scripts that need user input.",
+      "resources": [
+        {
+          "id": "xgsKrUdfB0g0DMQCLK3aY-res-1",
+          "type": "article",
+          "title": "Prompts",
+          "url": "https://www.npmjs.com/package/prompts"
+        }
+      ]
+    },
+    "O67e2qyhxP5joR5LGyZ2N": {
+      "id": "O67e2qyhxP5joR5LGyZ2N",
+      "slug": "pug",
+      "title": "Pug",
+      "description": "Pug is a JavaScript template engine. It is a high-performance template engine heavily influenced by Haml and implemented with JavaScript for Node.js and browsers. Pug was formerly called Jade. Pug is a high-performance template engine heavily influenced by Haml and implemented with JavaScript for Node.js and browsers",
+      "resources": [
+        {
+          "id": "O67e2qyhxP5joR5LGyZ2N-res-1",
+          "type": "article",
+          "title": "Getting started with PugJs",
+          "url": "https://pugjs.org/api/getting-started.html"
+        },
+        {
+          "id": "O67e2qyhxP5joR5LGyZ2N-res-2",
+          "type": "article",
+          "title": "Pug.js tutorial",
+          "url": "https://zetcode.com/javascript/pugjs/"
+        },
+        {
+          "id": "O67e2qyhxP5joR5LGyZ2N-res-3",
+          "type": "video",
+          "title": "Node.js + Express - Tutorial - PugJS Templating Engine",
+          "url": "https://www.youtube.com/watch?v=DSp9ExFw3Ig"
+        }
+      ]
+    },
+    "uPJqdMQQJRkTMMhNORDeH": {
+      "id": "uPJqdMQQJRkTMMhNORDeH",
+      "slug": "running-nodejs-code",
+      "title": "Running Node.js Code",
+      "description": "You can run Node.js code from the terminal using the `node` command followed by a filename. For quick experiments, Node.js also includes a REPL (Read-Eval-Print Loop) that lets you execute JavaScript interactively. Understanding how to run scripts and interpret output is the starting point for working with Node.js.",
+      "resources": [
+        {
+          "id": "uPJqdMQQJRkTMMhNORDeH-res-1",
+          "type": "article",
+          "title": "Run Node.js from Command Line",
+          "url": "https://nodejs.org/en/learn/command-line/run-nodejs-scripts-from-the-command-line/"
+        }
+      ]
+    },
+    "64pgc7rcgboFcNYuOlX8e": {
+      "id": "64pgc7rcgboFcNYuOlX8e",
+      "slug": "running-scripts",
+      "title": "Running Scripts",
+      "description": "In Node.js, npm scripts are used for the purpose of initiating a server, starting the build of a project, and also for running the tests. We can define this scripts in the package.json file of the folder. Also, we can split the huge scripts into many smaller parts if it is needed.",
+      "resources": [
+        {
+          "id": "64pgc7rcgboFcNYuOlX8e-res-1",
+          "type": "article",
+          "title": "Running Scripts",
+          "url": "https://docs.npmjs.com/cli/using-npm/scripts"
+        },
+        {
+          "id": "64pgc7rcgboFcNYuOlX8e-res-2",
+          "type": "article",
+          "title": "Example of Running Scripts",
+          "url": "https://riptutorial.com/node-js/example/4592/running-scripts"
+        }
+      ]
+    },
+    "dOlzIXBfAPmbY542lNOe6": {
+      "id": "dOlzIXBfAPmbY542lNOe6",
+      "slug": "semantic-versioning",
+      "title": "Semantic Versioning",
+      "description": "Semantic versioning (SemVer) is a versioning convention used by npm packages. Version numbers follow the format MAJOR.MINOR.PATCH, where breaking changes increment the major number, new features increment the minor, and bug fixes increment the patch. Understanding SemVer helps you manage dependency updates without introducing breaking changes.",
+      "resources": [
+        {
+          "id": "dOlzIXBfAPmbY542lNOe6-res-1",
+          "type": "article",
+          "title": "Semver.org",
+          "url": "https://semver.org/"
+        },
+        {
+          "id": "dOlzIXBfAPmbY542lNOe6-res-2",
+          "type": "article",
+          "title": "Medium - Understanding Semantic Versioning",
+          "url": "https://medium.com/codex/understanding-semantic-versioning-a-guide-for-developers-dad5f2b70583"
+        },
+        {
+          "id": "dOlzIXBfAPmbY542lNOe6-res-3",
+          "type": "article",
+          "title": "Devopedia - Semver",
+          "url": "https://devopedia.org/semantic-versioning"
+        }
+      ]
+    },
+    "fOm-ktIaLqrmA0zln0Bga": {
+      "id": "fOm-ktIaLqrmA0zln0Bga",
+      "slug": "sequelize",
+      "title": "Sequelize",
+      "description": "Sequelize is a mature ORM for Node.js that supports PostgreSQL, MySQL, MariaDB, SQLite, and MSSQL. It provides model definitions, associations, query building, and migration support. It uses a promise-based API and has been in the ecosystem for many years.",
+      "resources": [
+        {
+          "id": "fOm-ktIaLqrmA0zln0Bga-res-1",
+          "type": "article",
+          "title": "Sequelize",
+          "url": "https://sequelize.org/"
+        },
+        {
+          "id": "fOm-ktIaLqrmA0zln0Bga-res-2",
+          "type": "article",
+          "title": "Sequelize - NPM Package",
+          "url": "https://www.npmjs.com/package/sequelize"
+        },
+        {
+          "id": "fOm-ktIaLqrmA0zln0Bga-res-3",
+          "type": "article",
+          "title": "Sequelize Docs",
+          "url": "https://sequelize.org/docs/v6/getting-started/"
+        },
+        {
+          "id": "fOm-ktIaLqrmA0zln0Bga-res-4",
+          "type": "article",
+          "title": "Getting started with Sequelize",
+          "url": "https://levelup.gitconnected.com/the-ultimate-guide-to-get-started-with-sequelize-orm-238588d3516e"
+        }
+      ]
+    },
+    "YvTPpoIiSqjDYi0Q10kWh": {
+      "id": "YvTPpoIiSqjDYi0Q10kWh",
+      "slug": "setimmediate",
+      "title": "setImmediate",
+      "description": "`setImmediate()` schedules a callback to run in the check phase of the event loop, after I/O events have been processed. It is similar to `setTimeout(fn, 0)` but is guaranteed to run before any timers in some cases. It is used when you want to yield control to the event loop before continuing execution.",
+      "resources": [
+        {
+          "id": "YvTPpoIiSqjDYi0Q10kWh-res-1",
+          "type": "article",
+          "title": "Understanding setImmediate",
+          "url": "https://nodejs.org/en/learn/asynchronous-work/understanding-setimmediate"
+        },
+        {
+          "id": "YvTPpoIiSqjDYi0Q10kWh-res-2",
+          "type": "article",
+          "title": "Understanding setImmediate",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/setImmediate"
+        }
+      ]
+    },
+    "T5I-mFKK6bKzXrzkECI0P": {
+      "id": "T5I-mFKK6bKzXrzkECI0P",
+      "slug": "setinterval",
+      "title": "setInterval",
+      "description": "`setInterval()` repeatedly executes a callback function at a fixed time interval, in milliseconds. It keeps running until cleared with `clearInterval()`. It is commonly used for polling, health checks, or any task that needs to run on a schedule.",
+      "resources": [
+        {
+          "id": "T5I-mFKK6bKzXrzkECI0P-res-1",
+          "type": "article",
+          "title": "Scheduling: setTimeout and setInterval",
+          "url": "https://javascript.info/settimeout-setinterval"
+        }
+      ]
+    },
+    "W2Dbj4Y78Bgdx7og5xkrg": {
+      "id": "W2Dbj4Y78Bgdx7og5xkrg",
+      "slug": "settimeout",
+      "title": "setTimeout",
+      "description": "`setTimeout()` executes a callback function once, after a specified delay in milliseconds. It does not block other code from running while waiting. It is one of the simplest ways to introduce asynchronous behavior in Node.js.",
+      "resources": [
+        {
+          "id": "W2Dbj4Y78Bgdx7og5xkrg-res-1",
+          "type": "article",
+          "title": "JavaScript MDN Docs",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/setTimeout"
+        },
+        {
+          "id": "W2Dbj4Y78Bgdx7og5xkrg-res-2",
+          "type": "video",
+          "title": "setInterval and setTimeout: timing events",
+          "url": "https://www.youtube.com/watch?v=kOcFZV3c75I"
+        },
+        {
+          "id": "W2Dbj4Y78Bgdx7og5xkrg-res-3",
+          "type": "video",
+          "title": "Learn JavaScript setTimeout() in 6 minutes!",
+          "url": "https://www.youtube.com/watch?v=shWr5DNVeCI"
+        }
+      ]
+    },
+    "N2vR1_NyDn4rYLXJzxWBZ": {
+      "id": "N2vR1_NyDn4rYLXJzxWBZ",
+      "slug": "stdout--stderr",
+      "title": "Process stdout",
+      "description": "The `process.stdout` property is an inbuilt application programming interface of the process module which is used to send data out of our program. A Writable Stream to stdout. It implements a `write()` method. `console.log()` prints to the `process.stdout.write()` with formatted output or new line.",
+      "resources": [
+        {
+          "id": "N2vR1_NyDn4rYLXJzxWBZ-res-1",
+          "type": "article",
+          "title": "process.stdout",
+          "url": "https://nodejs.org/api/process.html#processstdout"
+        },
+        {
+          "id": "N2vR1_NyDn4rYLXJzxWBZ-res-2",
+          "type": "article",
+          "title": "process.stdout vs console.log",
+          "url": "https://stackoverflow.com/questions/4976466/difference-between-process-stdout-write-and-console-log-in-node-js/4984464#4984464"
+        }
+      ]
+    },
+    "WrnjjUDXQwwMXQjmgK72U": {
+      "id": "WrnjjUDXQwwMXQjmgK72U",
+      "slug": "streams",
+      "title": "Streams",
+      "description": "Streams in Node.js are objects that let you read or write data in chunks, rather than loading everything into memory at once. They are useful for handling large files, HTTP requests, or any data that comes in over time. There are four types: readable, writable, duplex (both), and transform (modifies data as it passes through).",
+      "resources": [
+        {
+          "id": "WrnjjUDXQwwMXQjmgK72U-res-1",
+          "type": "article",
+          "title": "Stream API Documentation",
+          "url": "https://nodejs.org/api/stream.html"
+        },
+        {
+          "id": "WrnjjUDXQwwMXQjmgK72U-res-2",
+          "type": "article",
+          "title": "Understanding Streams in Node.js",
+          "url": "https://nodesource.com/blog/understanding-streams-in-nodejs"
+        },
+        {
+          "id": "WrnjjUDXQwwMXQjmgK72U-res-3",
+          "type": "video",
+          "title": "Node.js Streams tutorial",
+          "url": "https://www.youtube.com/watch?v=GlybFFMXXmQ"
+        }
+      ]
+    },
+    "05YY-AhLKzn4Ypr4eow5E": {
+      "id": "05YY-AhLKzn4Ypr4eow5E",
+      "slug": "system-errors",
+      "title": "System Errors",
+      "description": "System errors occur when Node.js interacts with the underlying operating system and the operation fails. Examples include trying to read a file that does not exist or a network connection being refused. These errors are instances of the `SystemError` class and include properties like `code` and `syscall` to help identify the cause.",
+      "resources": [
+        {
+          "id": "05YY-AhLKzn4Ypr4eow5E-res-1",
+          "type": "article",
+          "title": "Node.js Errors",
+          "url": "https://nodejs.org/api/errors.html#errors_class_systemerror"
+        },
+        {
+          "id": "05YY-AhLKzn4Ypr4eow5E-res-2",
+          "type": "article",
+          "title": "16 Common Errors in Node.js and How to Fix Them",
+          "url": "https://betterstack.com/community/guides/scaling-nodejs/nodejs-errors/"
+        }
+      ]
+    },
+    "J0ErCAZT5B97ZMogU2JHd": {
+      "id": "J0ErCAZT5B97ZMogU2JHd",
+      "slug": "template-engines",
+      "title": "Template Engines",
+      "description": "Template engines allow you to generate HTML dynamically by combining HTML structure with data. In Node.js, they are used in server-side rendered applications to produce HTML pages on the server before sending them to the client. Common template engines include EJS, Pug, and Marko.",
+      "resources": [
+        {
+          "id": "J0ErCAZT5B97ZMogU2JHd-res-1",
+          "type": "article",
+          "title": "Getting Started with Pug",
+          "url": "https://pugjs.org/api/getting-started.html"
+        },
+        {
+          "id": "J0ErCAZT5B97ZMogU2JHd-res-2",
+          "type": "article",
+          "title": "Handlebars Package",
+          "url": "https://www.npmjs.com/package/handlebars"
+        },
+        {
+          "id": "J0ErCAZT5B97ZMogU2JHd-res-3",
+          "type": "article",
+          "title": "EJS Package",
+          "url": "https://www.npmjs.com/package/ejs"
+        }
+      ]
+    },
+    "90NIFfbWjTbyKZKwyJlfI": {
+      "id": "90NIFfbWjTbyKZKwyJlfI",
+      "slug": "testing",
+      "title": "Testing",
+      "description": "Software testing is the process of verifying that what we create is doing exactly what we expect it to do. The tests are created to prevent bugs and improve code quality. The two most common testing approaches are unit testing and end-to-end testing. In the first, we examine small snippets of code, in the second, we test an entire user flow.",
+      "resources": [
+        {
+          "id": "90NIFfbWjTbyKZKwyJlfI-res-1",
+          "type": "article",
+          "title": "Vitest",
+          "url": "https://vitest.dev/"
+        },
+        {
+          "id": "90NIFfbWjTbyKZKwyJlfI-res-2",
+          "type": "article",
+          "title": "Jest",
+          "url": "https://jest.io"
+        },
+        {
+          "id": "90NIFfbWjTbyKZKwyJlfI-res-3",
+          "type": "article",
+          "title": "Software Testing",
+          "url": "https://en.wikipedia.org/wiki/Software_testing"
+        }
+      ]
+    },
+    "KzUmXkwrmU_ssVBjSHAiY": {
+      "id": "KzUmXkwrmU_ssVBjSHAiY",
+      "slug": "threads",
+      "title": "Nodejs Threads",
+      "description": "Node.js is a single-threaded language and gives us ways to work parallelly to our main process. Taking note of nowadays multicore system single threading is very memory efficient.",
+      "resources": [
+        {
+          "id": "KzUmXkwrmU_ssVBjSHAiY-res-1",
+          "type": "article",
+          "title": "Single Thread vs Child Process vs Worker Threads vs Cluster in Node.js",
+          "url": "https://alvinlal.netlify.app/blog/single-thread-vs-child-process-vs-worker-threads-vs-cluster-in-nodejs"
+        }
+      ]
+    },
+    "rk5FtAPDi1TpvWd0yBbtl": {
+      "id": "rk5FtAPDi1TpvWd0yBbtl",
+      "slug": "typeorm",
+      "title": "TypeORM",
+      "description": "TypeORM is an ORM that can run in NodeJS, Browser, Cordova, PhoneGap, Ionic, React Native, NativeScript, Expo, and Electron platforms and can be used with TypeScript and JavaScript (ES5, ES6, ES7, ES8). Its goal is to always support the latest JavaScript features and provide additional features that help you to develop any kind of application that uses databases - from small applications with a few tables to large scale enterprise applications with multiple databases.",
+      "resources": [
+        {
+          "id": "rk5FtAPDi1TpvWd0yBbtl-res-1",
+          "type": "article",
+          "title": "TypeORM Docs",
+          "url": "https://typeorm.io"
+        },
+        {
+          "id": "rk5FtAPDi1TpvWd0yBbtl-res-2",
+          "type": "video",
+          "title": "TypeORM Crash Course",
+          "url": "https://www.youtube.com/watch?v=JaTbzPcyiOE"
+        }
+      ]
+    },
+    "uzOmaTZrHhBxx5plb345Z": {
+      "id": "uzOmaTZrHhBxx5plb345Z",
+      "slug": "uncaught-exceptions",
+      "title": "Uncaught Exceptions",
+      "description": "An uncaught exception is an error that is not handled anywhere in the application, causing the Node.js process to crash. You can listen for these with the `process.on('uncaughtException', ...)` event, though it should be used carefully and mainly for logging before shutting down gracefully. Relying on it as a catch-all is considered bad practice.",
+      "resources": [
+        {
+          "id": "uzOmaTZrHhBxx5plb345Z-res-1",
+          "type": "article",
+          "title": "Uncaught Exception Error Events",
+          "url": "https://nodejs.org/api/process.html#event-uncaughtexception"
+        },
+        {
+          "id": "uzOmaTZrHhBxx5plb345Z-res-2",
+          "type": "article",
+          "title": "Let It Crash: Best Practices for Handling Node.js Errors on Shutdown",
+          "url": "https://blog.heroku.com/best-practices-nodejs-errors"
+        },
+        {
+          "id": "uzOmaTZrHhBxx5plb345Z-res-3",
+          "type": "article",
+          "title": "Uncaught Exceptions in Node.js",
+          "url": "https://shapeshed.com/uncaught-exceptions-in-node/"
+        }
+      ]
+    },
+    "bYBz12FUiJ1qLgdQSGyGK": {
+      "id": "bYBz12FUiJ1qLgdQSGyGK",
+      "slug": "updating-packages",
+      "title": "Updating Packages",
+      "description": "npm provides various features to help install and maintain the project's dependencies. Dependencies get updates with new features and fixes, so upgrading to a newer version is recommended. We use `npm update` commands for this.",
+      "resources": [
+        {
+          "id": "bYBz12FUiJ1qLgdQSGyGK-res-1",
+          "type": "article",
+          "title": "Updating packages downloaded from the registry",
+          "url": "https://docs.npmjs.com/updating-packages-downloaded-from-the-registry"
+        },
+        {
+          "id": "bYBz12FUiJ1qLgdQSGyGK-res-2",
+          "type": "article",
+          "title": "How to Update Npm Packages Safely With Npm Check Updates",
+          "url": "https://chrispennington.blog/blog/how-to-update-npm-packages-safely-with-npm-check-updates/"
+        },
+        {
+          "id": "bYBz12FUiJ1qLgdQSGyGK-res-3",
+          "type": "video",
+          "title": "How to Update All NPM Dependencies At Once",
+          "url": "https://www.youtube.com/watch?v=Ghdfdq17JAY"
+        }
+      ]
+    },
+    "wQ4i6_a1EFk9HHc6Sll-3": {
+      "id": "wQ4i6_a1EFk9HHc6Sll-3",
+      "slug": "user-specified-errors",
+      "title": "User Specified Errors",
+      "description": "User specified errors can be created by extending the base Error object, a built-in error class. When creating errors in this manner, you should pass a message string that describes the error. This message can be accessed through the message property on the object. The Error object also contains a name and a stack property that indicate the name of the error and the point in the code at which it is created.",
+      "resources": [
+        {
+          "id": "wQ4i6_a1EFk9HHc6Sll-3-res-1",
+          "type": "article",
+          "title": "A Comprehensive Guide To Error Handling In Node.js",
+          "url": "https://www.honeybadger.io/blog/errors-nodejs/"
+        }
+      ]
+    },
+    "CvkjlOpT34lOHgzQHL40s": {
+      "id": "CvkjlOpT34lOHgzQHL40s",
+      "slug": "using-apm",
+      "title": "Using APM",
+      "description": "APM (Application Performance Monitoring) tools provide real-time visibility into the performance of a Node.js application in production. They track metrics like response times, error rates, memory usage, and database query performance. Popular APM tools for Node.js include Datadog, New Relic, and Elastic APM.",
+      "resources": [
+        {
+          "id": "CvkjlOpT34lOHgzQHL40s-res-1",
+          "type": "article",
+          "title": "APM Logs: How to Get Started for Faster Debugging",
+          "url": "https://last9.io/blog/apm-logs-for-faster-debugging/"
+        },
+        {
+          "id": "CvkjlOpT34lOHgzQHL40s-res-2",
+          "type": "article",
+          "title": "Debugging using APM",
+          "url": "https://stackify.com/node-js-debugging-tips/"
+        }
+      ]
+    },
+    "XEGTeGWw05xWYOfUo3POE": {
+      "id": "XEGTeGWw05xWYOfUo3POE",
+      "slug": "using-debugger",
+      "title": "Using Debugger",
+      "description": "Node.js includes a built-in debugger that can be activated with the `--inspect` flag or the `debugger` keyword in code. It lets you pause execution, step through code, and inspect variables at runtime using Chrome DevTools or a compatible IDE. Using a debugger is more efficient than adding `console.log` statements throughout the code.",
+      "resources": [
+        {
+          "id": "XEGTeGWw05xWYOfUo3POE-res-1",
+          "type": "article",
+          "title": "Debugger",
+          "url": "https://nodejs.org/api/debugger.html"
+        },
+        {
+          "id": "XEGTeGWw05xWYOfUo3POE-res-2",
+          "type": "article",
+          "title": "Inspect Docs",
+          "url": "https://nodejs.org/en/learn/getting-started/debugging"
+        },
+        {
+          "id": "XEGTeGWw05xWYOfUo3POE-res-3",
+          "type": "article",
+          "title": "Freecodecamp.org - Debugging",
+          "url": "https://www.freecodecamp.org/news/how-to-debug-node-js-applications/"
+        }
+      ]
+    },
+    "qjToBaMenW3SDtEfoCbQ6": {
+      "id": "qjToBaMenW3SDtEfoCbQ6",
+      "slug": "vitest",
+      "title": "Vitest",
+      "description": "Vitest is a Vite-native unit testing framework that's Jest-compatible. Vitest is a powerful testing library built on top of Vite that is growing in popularity. You can use Vitest for a range of testing needs, such as unit, integration, end-to-end (E2E), snapshot, and performance testing of functions and components. ESM, TypeScript, JSX. Out-of-box ESM, TypeScript and JSX support powered by esbuild. Vitest is free and open source.",
+      "resources": [
+        {
+          "id": "qjToBaMenW3SDtEfoCbQ6-res-1",
+          "type": "article",
+          "title": "Vitest",
+          "url": "https://vitest.dev/"
+        },
+        {
+          "id": "qjToBaMenW3SDtEfoCbQ6-res-2",
+          "type": "article",
+          "title": "Vitest Documentation",
+          "url": "https://vitest.dev/guide/"
+        }
+      ]
+    },
+    "Mp056kNnwsRWeEXuhGPy-": {
+      "id": "Mp056kNnwsRWeEXuhGPy-",
+      "slug": "what-is-nodejs",
+      "title": "What is Node.js?",
+      "description": "Node.js is a cross-platform, open-source JavaScript runtime that executes code outside of a browser. It was created by Ryan Dahl in 2009 to allow JavaScript to be used for server-side scripting. Unlike traditional server environments, Node.js processes requests asynchronously, making it well-suited for I/O-heavy applications.",
+      "resources": [
+        {
+          "id": "Mp056kNnwsRWeEXuhGPy--res-1",
+          "type": "article",
+          "title": "Node.js",
+          "url": "https://nodejs.org/en/about/"
+        },
+        {
+          "id": "Mp056kNnwsRWeEXuhGPy--res-2",
+          "type": "article",
+          "title": "Node.js - Getting Started",
+          "url": "https://nodejs.org/en/learn/getting-started/introduction-to-nodejs"
+        },
+        {
+          "id": "Mp056kNnwsRWeEXuhGPy--res-3",
+          "type": "video",
+          "title": "What is Node.js?",
+          "url": "https://www.youtube.com/watch?v=uVwtVBpw7RQ"
+        },
+        {
+          "id": "Mp056kNnwsRWeEXuhGPy--res-4",
+          "type": "video",
+          "title": "How Node.js Works?",
+          "url": "https://www.youtube.com/watch?v=jOupHNvDIq8"
+        }
+      ]
+    },
+    "ex8FOKrUlbu4MuEq2czyW": {
+      "id": "ex8FOKrUlbu4MuEq2czyW",
+      "slug": "why-use-nodejs",
+      "title": "Why use Node.js?",
+      "description": "Node.js is a good choice when you need high-throughput, real-time applications like chat servers, APIs, or streaming services. Its non-blocking architecture means it can handle many concurrent connections without spawning a new thread for each one. The npm ecosystem also gives access to a large library of reusable packages.",
+      "resources": [
+        {
+          "id": "ex8FOKrUlbu4MuEq2czyW-res-1",
+          "type": "article",
+          "title": "Learn Node.js",
+          "url": "https://nodejs.org/en/learn/getting-started/introduction-to-nodejs"
+        },
+        {
+          "id": "ex8FOKrUlbu4MuEq2czyW-res-2",
+          "type": "article",
+          "title": "Why Choose Node.js?",
+          "url": "https://medium.com/selleo/why-choose-node-js-b0091ad6c3fc"
+        },
+        {
+          "id": "ex8FOKrUlbu4MuEq2czyW-res-3",
+          "type": "article",
+          "title": "5 Reasons to Choose Node.js",
+          "url": "https://www.bitovi.com/blog/5-reasons-to-choose-nodejs"
+        }
+      ]
+    },
+    "Oe9cQCz2lwSaot7miZOta": {
+      "id": "Oe9cQCz2lwSaot7miZOta",
+      "slug": "winston",
+      "title": "Winston",
+      "description": "winston is designed to be a simple and universal logging library with support for multiple transports. A transport is essentially a storage device for your logs. Each winston logger can have multiple transports configured at different levels. For example, one may want error logs to be stored in a persistent remote location (like a database), but all logs output to the console or a local file.",
+      "resources": [
+        {
+          "id": "Oe9cQCz2lwSaot7miZOta-res-1",
+          "type": "article",
+          "title": "winston",
+          "url": "https://github.com/winstonjs/winston?tab=readme-ov-file#readme"
+        },
+        {
+          "id": "Oe9cQCz2lwSaot7miZOta-res-2",
+          "type": "article",
+          "title": "A Complete Guide to Winston Logging in Node.js",
+          "url": "https://betterstack.com/community/guides/logging/how-to-install-setup-and-use-winston-and-morgan-to-log-node-js-applications/"
+        }
+      ]
+    },
+    "bH2Iv3BX0ZiWD3lOmC_m_": {
+      "id": "bH2Iv3BX0ZiWD3lOmC_m_",
+      "slug": "worker-threads",
+      "title": "Worker Threads",
+      "description": "Worker thread is a continuous parallel thread that runs and accepts messages until it is explicitly closed or terminated. With worker threads, we can achieve a much efficient application without creating a deadlock situation. Workers, unlike children's processes, can exchange memory.",
+      "resources": [
+        {
+          "id": "bH2Iv3BX0ZiWD3lOmC_m_-res-1",
+          "type": "article",
+          "title": "Worker Threads",
+          "url": "https://nodejs.org/api/worker_threads.html#worker-threads"
+        }
+      ]
+    },
+    "5l-lZ8gwVLqqAF_n99vIO": {
+      "id": "5l-lZ8gwVLqqAF_n99vIO",
+      "slug": "working-with-databases",
+      "title": "What is Database",
+      "description": "A database is an organized collection of structured information, or data, typically stored electronically in a computer system. A database is usually controlled by a database management system (DBMS).",
+      "resources": [
+        {
+          "id": "5l-lZ8gwVLqqAF_n99vIO-res-1",
+          "type": "article",
+          "title": "What is Database?",
+          "url": "https://en.wikipedia.org/wiki/Database"
+        },
+        {
+          "id": "5l-lZ8gwVLqqAF_n99vIO-res-2",
+          "type": "article",
+          "title": "What is Database - AWS",
+          "url": "https://aws.amazon.com/what-is/database/"
+        }
+      ]
+    },
+    "wEK77A6MPQBCBUSJKMiaY": {
+      "id": "wEK77A6MPQBCBUSJKMiaY",
+      "slug": "working-with-files",
+      "title": "Working with Files",
+      "description": "You can programmatically manipulate files in Node.js with the built-in `fs` module. The name is short for “file system,” and the module contains all the functions you need to read, write, and delete files on the local machine.",
+      "resources": [
+        {
+          "id": "wEK77A6MPQBCBUSJKMiaY-res-1",
+          "type": "article",
+          "title": "File System Module",
+          "url": "https://nodejs.org/docs/latest/api/fs.html"
+        },
+        {
+          "id": "wEK77A6MPQBCBUSJKMiaY-res-2",
+          "type": "article",
+          "title": "How To Work with Files using the fs Module in Node.js",
+          "url": "https://www.digitalocean.com/community/tutorials/how-to-work-with-files-using-the-fs-module-in-node-js"
+        }
+      ]
+    },
+    "1AaGG660rvZlNYMOA35qO": {
+      "id": "1AaGG660rvZlNYMOA35qO",
+      "slug": "__dirname",
+      "title": "__dirname",
+      "description": "The `__dirname` in a node script returns the path of the folder where the current JavaScript file resides. `__filename` and `__dirname` are used to get the filename and directory name of the currently executing file.",
+      "resources": [
+        {
+          "id": "1AaGG660rvZlNYMOA35qO-res-1",
+          "type": "article",
+          "title": "__dirname",
+          "url": "https://nodejs.org/docs/latest/api/modules.html#__dirname"
+        },
+        {
+          "id": "1AaGG660rvZlNYMOA35qO-res-2",
+          "type": "article",
+          "title": "How to use __dirname",
+          "url": "https://www.digitalocean.com/community/tutorials/nodejs-how-to-use__dirname"
+        }
+      ]
+    },
+    "P2gdwx1qCxvg1Ppfw0aqQ": {
+      "id": "P2gdwx1qCxvg1Ppfw0aqQ",
+      "slug": "__filename",
+      "title": "__filename",
+      "description": "The `__filename` in Node.js returns the filename of the executed code. It gives the absolute path of the code file. The following approach covers implementing `__filename` in the Node.js project.",
+      "resources": [
+        {
+          "id": "P2gdwx1qCxvg1Ppfw0aqQ-res-1",
+          "type": "article",
+          "title": "__filename",
+          "url": "https://nodejs.org/docs/latest/api/modules.html#__filename"
+        }
+      ]
+    }
+  }
+}

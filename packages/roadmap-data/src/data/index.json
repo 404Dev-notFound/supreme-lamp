@@ -1,0 +1,830 @@
+[
+  {
+    "slug": "ai-agents",
+    "title": "AI Agents & Autonomous Systems",
+    "description": "Architecture, memory, tools, reasoning frameworks, and multi-agent coordination",
+    "category": "skill",
+    "level": "Advanced",
+    "topicCount": 101,
+    "iconName": "Bot"
+  },
+  {
+    "slug": "ai-data-scientist",
+    "title": "Ai Data Scientist",
+    "description": "Comprehensive learning curriculum and mastery roadmap for ai-data-scientist.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 9,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "ai-engineer",
+    "title": "AI & Prompt Engineer",
+    "description": "Comprehensive roadmap for LLMs, prompt engineering, agentic systems, and AI app development",
+    "category": "role",
+    "level": "Intermediate",
+    "topicCount": 190,
+    "iconName": "Cpu"
+  },
+  {
+    "slug": "ai-product-builder",
+    "title": "Ai Product Builder",
+    "description": "Comprehensive learning curriculum and mastery roadmap for ai-product-builder.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 51,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "ai-red-teaming",
+    "title": "Ai Red Teaming",
+    "description": "Comprehensive learning curriculum and mastery roadmap for ai-red-teaming.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 64,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "android",
+    "title": "Android",
+    "description": "Comprehensive learning curriculum and mastery roadmap for android.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 114,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "angular",
+    "title": "Angular",
+    "description": "Comprehensive learning curriculum and mastery roadmap for angular.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 159,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "api-design",
+    "title": "Api Design",
+    "description": "Comprehensive learning curriculum and mastery roadmap for api-design.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 97,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "aspnet-core",
+    "title": "Aspnet Core",
+    "description": "Comprehensive learning curriculum and mastery roadmap for aspnet-core.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 146,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "aws",
+    "title": "Aws",
+    "description": "Comprehensive learning curriculum and mastery roadmap for aws.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 101,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "backend",
+    "title": "Backend Developer",
+    "description": "Step by step guide to becoming a modern Backend Developer in 2026",
+    "category": "role",
+    "level": "Beginner",
+    "topicCount": 156,
+    "iconName": "Server"
+  },
+  {
+    "slug": "backend-beginner",
+    "title": "Backend Beginner",
+    "description": "Comprehensive learning curriculum and mastery roadmap for backend-beginner.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 27,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "bi-analyst",
+    "title": "Bi Analyst",
+    "description": "Comprehensive learning curriculum and mastery roadmap for bi-analyst.",
+    "category": "role",
+    "level": "Intermediate",
+    "topicCount": 203,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "blockchain",
+    "title": "Blockchain",
+    "description": "Comprehensive learning curriculum and mastery roadmap for blockchain.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 127,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "c",
+    "title": "C",
+    "description": "Comprehensive learning curriculum and mastery roadmap for c.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 145,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "claude-code",
+    "title": "Claude Code",
+    "description": "Comprehensive learning curriculum and mastery roadmap for claude-code.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 112,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "cloudflare",
+    "title": "Cloudflare",
+    "description": "Comprehensive learning curriculum and mastery roadmap for cloudflare.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 97,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "code-review",
+    "title": "Code Review",
+    "description": "Comprehensive learning curriculum and mastery roadmap for code-review.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 6,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "computer-science",
+    "title": "Computer Science",
+    "description": "Comprehensive learning curriculum and mastery roadmap for computer-science.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 188,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "cpp",
+    "title": "Cpp",
+    "description": "Comprehensive learning curriculum and mastery roadmap for cpp.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 127,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "css",
+    "title": "Css",
+    "description": "Comprehensive learning curriculum and mastery roadmap for css.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 104,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "cyber-security",
+    "title": "Cyber Security Specialist",
+    "description": "Threat modeling, penetration testing, network defense, and OWASP security practices",
+    "category": "role",
+    "level": "Advanced",
+    "topicCount": 301,
+    "iconName": "ShieldCheck"
+  },
+  {
+    "slug": "data-analyst",
+    "title": "Data Analyst",
+    "description": "Comprehensive learning curriculum and mastery roadmap for data-analyst.",
+    "category": "role",
+    "level": "Intermediate",
+    "topicCount": 102,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "data-engineer",
+    "title": "Data Engineer",
+    "description": "Comprehensive learning curriculum and mastery roadmap for data-engineer.",
+    "category": "role",
+    "level": "Intermediate",
+    "topicCount": 187,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "datastructures-and-algorithms",
+    "title": "Datastructures And Algorithms",
+    "description": "Comprehensive learning curriculum and mastery roadmap for datastructures-and-algorithms.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 107,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "design-system",
+    "title": "Design System",
+    "description": "Comprehensive learning curriculum and mastery roadmap for design-system.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 124,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "devops",
+    "title": "DevOps & Infrastructure",
+    "description": "CI/CD pipelines, containerization, cloud architectures, and site reliability engineering",
+    "category": "role",
+    "level": "Intermediate",
+    "topicCount": 138,
+    "iconName": "GitBranch"
+  },
+  {
+    "slug": "devops-beginner",
+    "title": "Devops Beginner",
+    "description": "Comprehensive learning curriculum and mastery roadmap for devops-beginner.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 13,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "devrel",
+    "title": "Devrel",
+    "description": "Comprehensive learning curriculum and mastery roadmap for devrel.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 142,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "devsecops",
+    "title": "Devsecops",
+    "description": "Comprehensive learning curriculum and mastery roadmap for devsecops.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 94,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "django",
+    "title": "Django",
+    "description": "Comprehensive learning curriculum and mastery roadmap for django.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 112,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "docker",
+    "title": "Docker & Containers",
+    "description": "Container basics, multi-stage Dockerfiles, compose setups, and container security",
+    "category": "skill",
+    "level": "Beginner",
+    "topicCount": 56,
+    "iconName": "Box"
+  },
+  {
+    "slug": "elasticsearch",
+    "title": "Elasticsearch",
+    "description": "Comprehensive learning curriculum and mastery roadmap for elasticsearch.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 113,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "engineering-manager",
+    "title": "Engineering Manager",
+    "description": "Comprehensive learning curriculum and mastery roadmap for engineering-manager.",
+    "category": "role",
+    "level": "Intermediate",
+    "topicCount": 133,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "flutter",
+    "title": "Flutter",
+    "description": "Comprehensive learning curriculum and mastery roadmap for flutter.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 108,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "forward-deployed-engineer",
+    "title": "Forward Deployed Engineer",
+    "description": "Comprehensive learning curriculum and mastery roadmap for forward-deployed-engineer.",
+    "category": "role",
+    "level": "Intermediate",
+    "topicCount": 96,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "frontend",
+    "title": "Frontend Developer",
+    "description": "Step by step guide to becoming a modern Frontend Developer in 2026",
+    "category": "role",
+    "level": "Beginner",
+    "topicCount": 120,
+    "iconName": "Layout"
+  },
+  {
+    "slug": "frontend-beginner",
+    "title": "Frontend Beginner",
+    "description": "Comprehensive learning curriculum and mastery roadmap for frontend-beginner.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 9,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "full-stack",
+    "title": "Full Stack Developer",
+    "description": "Step by step guide to mastering both frontend and backend development",
+    "category": "role",
+    "level": "Intermediate",
+    "topicCount": 37,
+    "iconName": "Layers"
+  },
+  {
+    "slug": "game-developer",
+    "title": "Game Developer",
+    "description": "Comprehensive learning curriculum and mastery roadmap for game-developer.",
+    "category": "role",
+    "level": "Intermediate",
+    "topicCount": 144,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "git-github",
+    "title": "Git Github",
+    "description": "Comprehensive learning curriculum and mastery roadmap for git-github.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 155,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "git-github-beginner",
+    "title": "Git Github Beginner",
+    "description": "Comprehensive learning curriculum and mastery roadmap for git-github-beginner.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 5,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "golang",
+    "title": "Go (Golang) Developer",
+    "description": "High-concurrency systems, goroutines, channels, microservices, and gRPC in Go",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 172,
+    "iconName": "Zap"
+  },
+  {
+    "slug": "graphql",
+    "title": "Graphql",
+    "description": "Comprehensive learning curriculum and mastery roadmap for graphql.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 65,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "html",
+    "title": "Html",
+    "description": "Comprehensive learning curriculum and mastery roadmap for html.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 88,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "ios",
+    "title": "Ios",
+    "description": "Comprehensive learning curriculum and mastery roadmap for ios.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 170,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "java",
+    "title": "Java",
+    "description": "Comprehensive learning curriculum and mastery roadmap for java.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 86,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "javascript",
+    "title": "Javascript",
+    "description": "Comprehensive learning curriculum and mastery roadmap for javascript.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 126,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "kotlin",
+    "title": "Kotlin",
+    "description": "Comprehensive learning curriculum and mastery roadmap for kotlin.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 153,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "kubernetes",
+    "title": "Kubernetes & Orchestration",
+    "description": "Cluster architecture, pods, services, ingress, Helm charts, and cluster operations",
+    "category": "skill",
+    "level": "Advanced",
+    "topicCount": 67,
+    "iconName": "Network"
+  },
+  {
+    "slug": "laravel",
+    "title": "Laravel",
+    "description": "Comprehensive learning curriculum and mastery roadmap for laravel.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 104,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "leetcode",
+    "title": "Leetcode",
+    "description": "Comprehensive learning curriculum and mastery roadmap for leetcode.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 137,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "linux",
+    "title": "Linux",
+    "description": "Comprehensive learning curriculum and mastery roadmap for linux.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 102,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "machine-learning",
+    "title": "Machine Learning",
+    "description": "Comprehensive learning curriculum and mastery roadmap for machine-learning.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 150,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "mlops",
+    "title": "Mlops",
+    "description": "Comprehensive learning curriculum and mastery roadmap for mlops.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 62,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "mongodb",
+    "title": "Mongodb",
+    "description": "Comprehensive learning curriculum and mastery roadmap for mongodb.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 106,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "network-engineer",
+    "title": "Network Engineer",
+    "description": "Comprehensive learning curriculum and mastery roadmap for network-engineer.",
+    "category": "role",
+    "level": "Intermediate",
+    "topicCount": 196,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "nextjs",
+    "title": "Nextjs",
+    "description": "Comprehensive learning curriculum and mastery roadmap for nextjs.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 94,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "nodejs",
+    "title": "Node.js & Runtime",
+    "description": "Event loop, streams, APIs, Express/Fastify, and microservices architecture",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 113,
+    "iconName": "FileCode"
+  },
+  {
+    "slug": "openclaw",
+    "title": "Openclaw",
+    "description": "Comprehensive learning curriculum and mastery roadmap for openclaw.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 118,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "php",
+    "title": "Php",
+    "description": "Comprehensive learning curriculum and mastery roadmap for php.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 120,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "postgresql-dba",
+    "title": "Postgresql Dba",
+    "description": "Comprehensive learning curriculum and mastery roadmap for postgresql-dba.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 170,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "power-bi",
+    "title": "Power Bi",
+    "description": "Comprehensive learning curriculum and mastery roadmap for power-bi.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 146,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "product-design",
+    "title": "Product Design",
+    "description": "Comprehensive learning curriculum and mastery roadmap for product-design.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 118,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "product-manager",
+    "title": "Product Manager",
+    "description": "Comprehensive learning curriculum and mastery roadmap for product-manager.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 172,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "prompt-engineering",
+    "title": "Prompt Engineering & In-Context Learning",
+    "description": "Master prompt patterns, few-shot conditioning, CoT reasoning, and evaluation",
+    "category": "skill",
+    "level": "Beginner",
+    "topicCount": 46,
+    "iconName": "Sparkles"
+  },
+  {
+    "slug": "python",
+    "title": "Python Developer",
+    "description": "Master Python programming from syntax fundamentals to async workflows and data systems",
+    "category": "skill",
+    "level": "Beginner",
+    "topicCount": 85,
+    "iconName": "Terminal"
+  },
+  {
+    "slug": "python-data-analysis",
+    "title": "Python Data Analysis",
+    "description": "Comprehensive learning curriculum and mastery roadmap for python-data-analysis.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 113,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "qa",
+    "title": "Qa",
+    "description": "Comprehensive learning curriculum and mastery roadmap for qa.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 146,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "r",
+    "title": "R",
+    "description": "Comprehensive learning curriculum and mastery roadmap for r.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 129,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "react",
+    "title": "React & Next.js Ecosystem",
+    "description": "Everything you need to master modern React 19, Server Components, and Next.js",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 80,
+    "iconName": "Code2"
+  },
+  {
+    "slug": "react-native",
+    "title": "React Native",
+    "description": "Comprehensive learning curriculum and mastery roadmap for react-native.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 94,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "redis",
+    "title": "Redis",
+    "description": "Comprehensive learning curriculum and mastery roadmap for redis.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 162,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "ruby",
+    "title": "Ruby",
+    "description": "Comprehensive learning curriculum and mastery roadmap for ruby.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 106,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "ruby-on-rails",
+    "title": "Ruby On Rails",
+    "description": "Comprehensive learning curriculum and mastery roadmap for ruby-on-rails.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 107,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "rust",
+    "title": "Rust",
+    "description": "Comprehensive learning curriculum and mastery roadmap for rust.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 122,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "scala",
+    "title": "Scala",
+    "description": "Comprehensive learning curriculum and mastery roadmap for scala.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 165,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "server-side-game-developer",
+    "title": "Server Side Game Developer",
+    "description": "Comprehensive learning curriculum and mastery roadmap for server-side-game-developer.",
+    "category": "role",
+    "level": "Intermediate",
+    "topicCount": 156,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "shell-bash",
+    "title": "Shell Bash",
+    "description": "Comprehensive learning curriculum and mastery roadmap for shell-bash.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 174,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "software-architect",
+    "title": "Software Architect",
+    "description": "Comprehensive learning curriculum and mastery roadmap for software-architect.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 112,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "software-design-architecture",
+    "title": "Software Design Architecture",
+    "description": "Comprehensive learning curriculum and mastery roadmap for software-design-architecture.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 94,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "spring-boot",
+    "title": "Spring Boot",
+    "description": "Comprehensive learning curriculum and mastery roadmap for spring-boot.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 46,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "sql",
+    "title": "Sql",
+    "description": "Comprehensive learning curriculum and mastery roadmap for sql.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 112,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "swift-ui",
+    "title": "Swift Ui",
+    "description": "Comprehensive learning curriculum and mastery roadmap for swift-ui.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 156,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "system-design",
+    "title": "System Design",
+    "description": "Comprehensive learning curriculum and mastery roadmap for system-design.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 147,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "technical-writer",
+    "title": "Technical Writer",
+    "description": "Comprehensive learning curriculum and mastery roadmap for technical-writer.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 84,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "terraform",
+    "title": "Terraform",
+    "description": "Comprehensive learning curriculum and mastery roadmap for terraform.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 110,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "typescript",
+    "title": "TypeScript Mastery",
+    "description": "Static typing, generics, utility types, module resolution, and type gymnastics",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 93,
+    "iconName": "FileJson"
+  },
+  {
+    "slug": "ux-design",
+    "title": "Ux Design",
+    "description": "Comprehensive learning curriculum and mastery roadmap for ux-design.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 94,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "vibe-coding",
+    "title": "Vibe Coding",
+    "description": "Comprehensive learning curriculum and mastery roadmap for vibe-coding.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 52,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "vue",
+    "title": "Vue",
+    "description": "Comprehensive learning curriculum and mastery roadmap for vue.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 84,
+    "iconName": "Compass"
+  },
+  {
+    "slug": "wordpress",
+    "title": "Wordpress",
+    "description": "Comprehensive learning curriculum and mastery roadmap for wordpress.",
+    "category": "skill",
+    "level": "Intermediate",
+    "topicCount": 115,
+    "iconName": "Compass"
+  }
+]

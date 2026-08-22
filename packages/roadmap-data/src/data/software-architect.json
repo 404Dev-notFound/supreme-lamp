@@ -1,0 +1,4429 @@
+{
+  "slug": "software-architect",
+  "title": "Software Architect",
+  "description": "Comprehensive learning curriculum and mastery roadmap for software-architect.",
+  "category": "skill",
+  "level": "Intermediate",
+  "topicCount": 112,
+  "iconName": "Compass",
+  "nodes": [
+    {
+      "id": "node-bbKEEk7dvfFZBBJaIjm0j",
+      "label": "ACID, CAP Theorem",
+      "topicId": "bbKEEk7dvfFZBBJaIjm0j",
+      "level": 1,
+      "position": {
+        "x": 80,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-AoWO2BIKG5X4JWir6kh5r",
+      "label": "Actors",
+      "topicId": "AoWO2BIKG5X4JWir6kh5r",
+      "level": 1,
+      "position": {
+        "x": 340,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-a0baFv7hVWZGvS5VLh5ig",
+      "label": "Apache spark",
+      "topicId": "a0baFv7hVWZGvS5VLh5ig",
+      "level": 1,
+      "position": {
+        "x": 600,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-Ocn7-ctpnl71ZCZ_uV-uD",
+      "label": "APIs and Integrations",
+      "topicId": "Ocn7-ctpnl71ZCZ_uV-uD",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-Lqe47l4j-C4OwkbkwPYry",
+      "label": "Application Architecture",
+      "topicId": "Lqe47l4j-C4OwkbkwPYry",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-OaLmlfkZid7hKqJ9G8oNV",
+      "label": "Architectures",
+      "topicId": "OaLmlfkZid7hKqJ9G8oNV",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-3bpd0iZTd3G-H8A7yrExY",
+      "label": "Atlassian Tools",
+      "topicId": "3bpd0iZTd3G-H8A7yrExY",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-KiwFXB6yd0go30zAFMTJt",
+      "label": "Auth Strategies",
+      "topicId": "KiwFXB6yd0go30zAFMTJt",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-LQlzVxUxM3haWRwbhYHKY",
+      "label": "Babok",
+      "topicId": "LQlzVxUxM3haWRwbhYHKY",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-otHQ6ye1xgkI1qb4tEHVF",
+      "label": "Balance",
+      "topicId": "otHQ6ye1xgkI1qb4tEHVF",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-DwNda95-fE7LWnDA6u1LU",
+      "label": "BPM BPEL",
+      "topicId": "DwNda95-fE7LWnDA6u1LU",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-isavRe4ANVn77ZX6gNSLH",
+      "label": "CI / CD",
+      "topicId": "isavRe4ANVn77ZX6gNSLH",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-mka_DwiboH5sGFhXhk6ez",
+      "label": "Client-Server Architecture",
+      "topicId": "mka_DwiboH5sGFhXhk6ez",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-CxceVdaNCyKDhs0huDtcL",
+      "label": "Cloud Design Patterns",
+      "topicId": "CxceVdaNCyKDhs0huDtcL",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-C0rKd5Rr27Z1_GleoEZxF",
+      "label": "Cloud Providers",
+      "topicId": "C0rKd5Rr27Z1_GleoEZxF",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-Ac49sOlQKblYK4FZuFHDR",
+      "label": "Communication",
+      "topicId": "Ac49sOlQKblYK4FZuFHDR",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-LSWlk9A3b6hco9Il_elao",
+      "label": "Consult & Coach",
+      "topicId": "LSWlk9A3b6hco9Il_elao",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-l3oeo65FyV5HHvw5n_1wa",
+      "label": "Containers",
+      "topicId": "l3oeo65FyV5HHvw5n_1wa",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-RsnN5bt8OhSMjSFmVgw-X",
+      "label": "CQRS, Eventual Consistency",
+      "topicId": "RsnN5bt8OhSMjSFmVgw-X",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-B5YtP8C1A0jB3MOdg0c_q",
+      "label": "Datawarehouses Principles",
+      "topicId": "B5YtP8C1A0jB3MOdg0c_q",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-IIelzs8XYMPnXabFKRI51",
+      "label": "DDD",
+      "topicId": "IIelzs8XYMPnXabFKRI51",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-MSDo0nPk_ghRYkZS4MAQ_",
+      "label": "Decision Making",
+      "topicId": "MSDo0nPk_ghRYkZS4MAQ_",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-fBd2m8tMJmhuNSaakrpg4",
+      "label": "Design & Architecture",
+      "topicId": "fBd2m8tMJmhuNSaakrpg4",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-j7OP6RD_IAU6HsyiGaynx",
+      "label": "Distributed Systems",
+      "topicId": "j7OP6RD_IAU6HsyiGaynx",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-5D-kbQ520k1D3fCtD01T7",
+      "label": "Documentation",
+      "topicId": "5D-kbQ520k1D3fCtD01T7",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-YfYviOXqGVp9C6DuhqBrn",
+      "label": "EMC and DMS",
+      "topicId": "YfYviOXqGVp9C6DuhqBrn",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-vlW07sc-FQnxPMjDMn8_F",
+      "label": "Enterprise Level Architecture",
+      "topicId": "vlW07sc-FQnxPMjDMn8_F",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-8yALyPVUZPtd7LX3GrO1e",
+      "label": "Enterprise Software",
+      "topicId": "8yALyPVUZPtd7LX3GrO1e",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-fELnBA0eOoE-d9rSmDJ8l",
+      "label": "ESB and SOAP",
+      "topicId": "fELnBA0eOoE-d9rSmDJ8l",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-m0ZYdqPFDoHOPo18wKyvV",
+      "label": "Estimate and Evaluate",
+      "topicId": "m0ZYdqPFDoHOPo18wKyvV",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-JUFE4OQhnXOt1J_MG-Sjf",
+      "label": "ETL Datawarehouses",
+      "topicId": "JUFE4OQhnXOt1J_MG-Sjf",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-Hqk_GGsFi14SI5fgPSoGV",
+      "label": "Firewalls",
+      "topicId": "Hqk_GGsFi14SI5fgPSoGV",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-hjlkxYZS7Zf9En3IUS-Wm",
+      "label": "Architect Frameworks",
+      "topicId": "hjlkxYZS7Zf9En3IUS-Wm",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-6FDGecsHbqY-cm32yTZJa",
+      "label": "Functional Programming",
+      "topicId": "6FDGecsHbqY-cm32yTZJa",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-ZEzYb-i55hBe9kK3bla94",
+      "label": "Git",
+      "topicId": "ZEzYb-i55hBe9kK3bla94",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-PyTuVs08_z4EhLwhTYzFu",
+      "label": "GitHub",
+      "topicId": "PyTuVs08_z4EhLwhTYzFu",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-nKlM9k4qAh4wBFXqM-2kC",
+      "label": "Go",
+      "topicId": "nKlM9k4qAh4wBFXqM-2kC",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-Sp3FdPT4F9YnTGvlE_vyq",
+      "label": "Graphql",
+      "topicId": "Sp3FdPT4F9YnTGvlE_vyq",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-priDGksAvJ05YzakkTFtM",
+      "label": "gRPC",
+      "topicId": "priDGksAvJ05YzakkTFtM",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-92GG4IRZ3FijumC94aL-T",
+      "label": "Spark, Hadoop MapReduce",
+      "topicId": "92GG4IRZ3FijumC94aL-T",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-I_VjjmMK52_tS8qjQUspN",
+      "label": "Hadoop",
+      "topicId": "I_VjjmMK52_tS8qjQUspN",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-7tBAD0ox9hTK4D483GTRo",
+      "label": "Hashing Algorithms",
+      "topicId": "7tBAD0ox9hTK4D483GTRo",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-77KvWCA1oHSGgDKBTwjv7",
+      "label": "How to Code",
+      "topicId": "77KvWCA1oHSGgDKBTwjv7",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-Nq6o6Ty8VyNRsvg-UWp7D",
+      "label": "HTTP, HTTPS",
+      "topicId": "Nq6o6Ty8VyNRsvg-UWp7D",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-wFu9VO48EYbIQrsM8YUCj",
+      "label": "Iaf",
+      "topicId": "wFu9VO48EYbIQrsM8YUCj",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-5EVecZmvor09LjD7WR_Y9",
+      "label": "IBM BPM",
+      "topicId": "5EVecZmvor09LjD7WR_Y9",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-lBtlDFPEQvQ_xtLtehU0S",
+      "label": "Important Skills to Learn",
+      "topicId": "lBtlDFPEQvQ_xtLtehU0S",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-igf9yp1lRdAlN5gyQ8HHC",
+      "label": "Infrastructure as Code",
+      "topicId": "igf9yp1lRdAlN5gyQ8HHC",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-Rq1Wi-cHjS54SYo-Btp-e",
+      "label": "ITIL",
+      "topicId": "Rq1Wi-cHjS54SYo-Btp-e",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-a5DB_hsD4bAf8BtHNFNPo",
+      "label": "Java/Kotlin/Scala",
+      "topicId": "a5DB_hsD4bAf8BtHNFNPo",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-bhP5gMpRVebSFpCeHVXBj",
+      "label": "JavaScript / TypeScript",
+      "topicId": "bhP5gMpRVebSFpCeHVXBj",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-O7H6dt3Z7EKohxfJzwbPM",
+      "label": "Kanban",
+      "topicId": "O7H6dt3Z7EKohxfJzwbPM",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-05hLO2_A8Tr6cLJGFRhOh",
+      "label": "Layered Architecture",
+      "topicId": "05hLO2_A8Tr6cLJGFRhOh",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-qwpsGRFgzAYstM7bJA2ZJ",
+      "label": "Less",
+      "topicId": "qwpsGRFgzAYstM7bJA2ZJ",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-2sR4KULvAUUoOtopvsEBs",
+      "label": "Levels of Architecture",
+      "topicId": "2sR4KULvAUUoOtopvsEBs",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-XnvlRrOhdoMsiGwGEhBro",
+      "label": "Linux / Unix",
+      "topicId": "XnvlRrOhdoMsiGwGEhBro",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-UyIwiIiKaa6LTQaqzbCam",
+      "label": "Management",
+      "topicId": "UyIwiIiKaa6LTQaqzbCam",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-YW6j3Sg511dXToTcwSnOS",
+      "label": "Marketing Skills",
+      "topicId": "YW6j3Sg511dXToTcwSnOS",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-4NVdEbmpQVHpBc7582S6E",
+      "label": "Messaging queues",
+      "topicId": "4NVdEbmpQVHpBc7582S6E",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-vpko5Kyf6BZ5MHpxXOKaf",
+      "label": "Microfrontends",
+      "topicId": "vpko5Kyf6BZ5MHpxXOKaf",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-b6lCGw82qKpUmsxe1r1f5",
+      "label": "Microservices",
+      "topicId": "b6lCGw82qKpUmsxe1r1f5",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-gdtI0H_PzzTj_aFQn_NeA",
+      "label": "MS Dynamics",
+      "topicId": "gdtI0H_PzzTj_aFQn_NeA",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-jj5otph6mEYiR-oU5WVtT",
+      "label": "MVC, MVP, MVVM",
+      "topicId": "jj5otph6mEYiR-oU5WVtT",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-D1IXOBUrrXf5bXhVu9cmI",
+      "label": ".NET Framework Based",
+      "topicId": "D1IXOBUrrXf5bXhVu9cmI",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-cBWJ6Duw99tSKr7U6OW3A",
+      "label": "Networks",
+      "topicId": "cBWJ6Duw99tSKr7U6OW3A",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-57liQPaPyVpE-mdLnsbi0",
+      "label": "Nosql databases",
+      "topicId": "57liQPaPyVpE-mdLnsbi0",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-AMDLJ_Bup-AY1chl_taV3",
+      "label": "OOP",
+      "topicId": "AMDLJ_Bup-AY1chl_taV3",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-EdJhuNhMSWjeVxGW-RZtL",
+      "label": "Operations Knowledge",
+      "topicId": "EdJhuNhMSWjeVxGW-RZtL",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-Mt5W1IvuHevNXVRlh7z26",
+      "label": "OSI and TCP/IP Models",
+      "topicId": "Mt5W1IvuHevNXVRlh7z26",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-KhqUK-7jdClu9M2Pq7x--",
+      "label": "OWASP",
+      "topicId": "KhqUK-7jdClu9M2Pq7x--",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-_U0VoTkqM1d6NR13p5azS",
+      "label": "Patterns and design principles",
+      "topicId": "_U0VoTkqM1d6NR13p5azS",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-OpL2EqvHbUmFgnpuhtZPr",
+      "label": "PKI",
+      "topicId": "OpL2EqvHbUmFgnpuhtZPr",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-hRug9yJKYacB9X_2cUalR",
+      "label": "PMI",
+      "topicId": "hRug9yJKYacB9X_2cUalR",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-SJ5lrlvyXgtAwOx4wvT2W",
+      "label": "Prince2",
+      "topicId": "SJ5lrlvyXgtAwOx4wvT2W",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-uoDtVFThaV6OMK2wXGfP5",
+      "label": "Programming Languages",
+      "topicId": "uoDtVFThaV6OMK2wXGfP5",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-6_EOmU5GYGDGzmNoLY8cB",
+      "label": "Proxies",
+      "topicId": "6_EOmU5GYGDGzmNoLY8cB",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-j2Ph2QcKwmKlbaMHz1l_i",
+      "label": "Python",
+      "topicId": "j2Ph2QcKwmKlbaMHz1l_i",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-mCiYCbKIOVU34qil_q7Hg",
+      "label": "React, Vue, Angular",
+      "topicId": "mCiYCbKIOVU34qil_q7Hg",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-C0g_kQFlte5siHMHwlHQb",
+      "label": "Reactive Programming",
+      "topicId": "C0g_kQFlte5siHMHwlHQb",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-rUxbG2S2nJuA1YVY6sjiX",
+      "label": "Responsibilities",
+      "topicId": "rUxbG2S2nJuA1YVY6sjiX",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-Ss43xwK1ydEToj6XmmCt7",
+      "label": "REST",
+      "topicId": "Ss43xwK1ydEToj6XmmCt7",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-U_Hmzfjjs1jVtu2CZ0TlG",
+      "label": "Ruby",
+      "topicId": "U_Hmzfjjs1jVtu2CZ0TlG",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-7rudOREGG-TTkCosU0hNw",
+      "label": "RUP",
+      "topicId": "7rudOREGG-TTkCosU0hNw",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-Bg7ru1q1j6pNB43HGxnHT",
+      "label": "SAFe",
+      "topicId": "Bg7ru1q1j6pNB43HGxnHT",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-mOXyzdNn8W-9R99ffcnor",
+      "label": "Salesforce",
+      "topicId": "mOXyzdNn8W-9R99ffcnor",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-TxWAznp1tUtZ1MvThf9M1",
+      "label": "SAP ERP, HANA, Business Objects",
+      "topicId": "TxWAznp1tUtZ1MvThf9M1",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-PKqwKvoffm0unwcFwpojk",
+      "label": "Scrum",
+      "topicId": "PKqwKvoffm0unwcFwpojk",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-IzFTn5-tQuF_Z0cG_w6CW",
+      "label": "Security",
+      "topicId": "IzFTn5-tQuF_Z0cG_w6CW",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-WoXoVwkSqXTP5U8HtyJOL",
+      "label": "Serverless Concepts",
+      "topicId": "WoXoVwkSqXTP5U8HtyJOL",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-FAXKxl3fWUFShYmoCsInZ",
+      "label": "Serverless",
+      "topicId": "FAXKxl3fWUFShYmoCsInZ",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-OErbfM-H3laFm47GCHNPI",
+      "label": "Service Mesh",
+      "topicId": "OErbfM-H3laFm47GCHNPI",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-6uvmMgvOwGyuLC5TOhjFu",
+      "label": "Service oriented",
+      "topicId": "6uvmMgvOwGyuLC5TOhjFu",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-lrtgF1RTaS4TCKww0aY6C",
+      "label": "Simplifying Things",
+      "topicId": "lrtgF1RTaS4TCKww0aY6C",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-CYnUg_okOcRrD7fSllxLW",
+      "label": "Slack",
+      "topicId": "CYnUg_okOcRrD7fSllxLW",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5040
+      }
+    },
+    {
+      "id": "node-QNG-KP01WQnq8o1-In1-n",
+      "label": "SOLID",
+      "topicId": "QNG-KP01WQnq8o1-In1-n",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5040
+      }
+    },
+    {
+      "id": "node-uGs-9xE3DMJxKhenltbFK",
+      "label": "Solution Architecture",
+      "topicId": "uGs-9xE3DMJxKhenltbFK",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5040
+      }
+    },
+    {
+      "id": "node-ulwgDCQi_BYx5lmll7pzU",
+      "label": "SPA vs SSG vs SSR",
+      "topicId": "ulwgDCQi_BYx5lmll7pzU",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5200
+      }
+    },
+    {
+      "id": "node-n5AcBt_u8qtTe3PP9svPZ",
+      "label": "Sql databases",
+      "topicId": "n5AcBt_u8qtTe3PP9svPZ",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5200
+      }
+    },
+    {
+      "id": "node-UCCT7-E_QUKPg3jAsjobx",
+      "label": "TCP/IP Model",
+      "topicId": "UCCT7-E_QUKPg3jAsjobx",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5200
+      }
+    },
+    {
+      "id": "node-DnP66pjK3b8tCtYr05n2G",
+      "label": "Test Driven Development",
+      "topicId": "DnP66pjK3b8tCtYr05n2G",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5360
+      }
+    },
+    {
+      "id": "node-hFx3mLqh5omNxqI9lfaAQ",
+      "label": "Technical Skills",
+      "topicId": "hFx3mLqh5omNxqI9lfaAQ",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5360
+      }
+    },
+    {
+      "id": "node-5TDTU22Fla2mRr6JeOcaY",
+      "label": "Togaf",
+      "topicId": "5TDTU22Fla2mRr6JeOcaY",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5360
+      }
+    },
+    {
+      "id": "node-SuMhTyaBS9vwASxAt39DH",
+      "label": "Architect Tools",
+      "topicId": "SuMhTyaBS9vwASxAt39DH",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5520
+      }
+    },
+    {
+      "id": "node-a6joS9WXg-rbw29_KfBd9",
+      "label": "Trello",
+      "topicId": "a6joS9WXg-rbw29_KfBd9",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5520
+      }
+    },
+    {
+      "id": "node-8FTKnAKNL9LnZBrw9YXqK",
+      "label": "UML",
+      "topicId": "8FTKnAKNL9LnZBrw9YXqK",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5520
+      }
+    },
+    {
+      "id": "node-4zicbh7Wg2lmKSRhb6E-L",
+      "label": "Understand the Basics",
+      "topicId": "4zicbh7Wg2lmKSRhb6E-L",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5680
+      }
+    },
+    {
+      "id": "node-s0RvufK2PLMXtlsn2KAUN",
+      "label": "W3c and WHATWG Standards",
+      "topicId": "s0RvufK2PLMXtlsn2KAUN",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5680
+      }
+    },
+    {
+      "id": "node-j9Y2YbBKi3clO_sZ2L_hQ",
+      "label": "Web and Mobile",
+      "topicId": "j9Y2YbBKi3clO_sZ2L_hQ",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5680
+      }
+    },
+    {
+      "id": "node-eG38hT0rotYJ3G-t9df9R",
+      "label": "What is a Software Architect",
+      "topicId": "eG38hT0rotYJ3G-t9df9R",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5840
+      }
+    },
+    {
+      "id": "node-EGG99VA-PEdWdVxNDLtG_",
+      "label": "What is Software Architecture",
+      "topicId": "EGG99VA-PEdWdVxNDLtG_",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5840
+      }
+    },
+    {
+      "id": "node-YCJYRA3b-YSm8vKmGUFk5",
+      "label": "Working with Databases",
+      "topicId": "YCJYRA3b-YSm8vKmGUFk5",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5840
+      }
+    },
+    {
+      "id": "node-7fL9lSu4BD1wRjnZy9tM9",
+      "label": "Extreme Programming (XP)",
+      "topicId": "7fL9lSu4BD1wRjnZy9tM9",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 6000
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-node-bbKEEk7dvfFZBBJaIjm0j-node-AoWO2BIKG5X4JWir6kh5r",
+      "source": "node-bbKEEk7dvfFZBBJaIjm0j",
+      "target": "node-AoWO2BIKG5X4JWir6kh5r",
+      "animated": true
+    },
+    {
+      "id": "edge-node-AoWO2BIKG5X4JWir6kh5r-node-a0baFv7hVWZGvS5VLh5ig",
+      "source": "node-AoWO2BIKG5X4JWir6kh5r",
+      "target": "node-a0baFv7hVWZGvS5VLh5ig",
+      "animated": true
+    },
+    {
+      "id": "edge-node-a0baFv7hVWZGvS5VLh5ig-node-Ocn7-ctpnl71ZCZ_uV-uD",
+      "source": "node-a0baFv7hVWZGvS5VLh5ig",
+      "target": "node-Ocn7-ctpnl71ZCZ_uV-uD",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Ocn7-ctpnl71ZCZ_uV-uD-node-Lqe47l4j-C4OwkbkwPYry",
+      "source": "node-Ocn7-ctpnl71ZCZ_uV-uD",
+      "target": "node-Lqe47l4j-C4OwkbkwPYry",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Lqe47l4j-C4OwkbkwPYry-node-OaLmlfkZid7hKqJ9G8oNV",
+      "source": "node-Lqe47l4j-C4OwkbkwPYry",
+      "target": "node-OaLmlfkZid7hKqJ9G8oNV",
+      "animated": true
+    },
+    {
+      "id": "edge-node-OaLmlfkZid7hKqJ9G8oNV-node-3bpd0iZTd3G-H8A7yrExY",
+      "source": "node-OaLmlfkZid7hKqJ9G8oNV",
+      "target": "node-3bpd0iZTd3G-H8A7yrExY",
+      "animated": true
+    },
+    {
+      "id": "edge-node-3bpd0iZTd3G-H8A7yrExY-node-KiwFXB6yd0go30zAFMTJt",
+      "source": "node-3bpd0iZTd3G-H8A7yrExY",
+      "target": "node-KiwFXB6yd0go30zAFMTJt",
+      "animated": true
+    },
+    {
+      "id": "edge-node-KiwFXB6yd0go30zAFMTJt-node-LQlzVxUxM3haWRwbhYHKY",
+      "source": "node-KiwFXB6yd0go30zAFMTJt",
+      "target": "node-LQlzVxUxM3haWRwbhYHKY",
+      "animated": true
+    },
+    {
+      "id": "edge-node-LQlzVxUxM3haWRwbhYHKY-node-otHQ6ye1xgkI1qb4tEHVF",
+      "source": "node-LQlzVxUxM3haWRwbhYHKY",
+      "target": "node-otHQ6ye1xgkI1qb4tEHVF",
+      "animated": true
+    },
+    {
+      "id": "edge-node-otHQ6ye1xgkI1qb4tEHVF-node-DwNda95-fE7LWnDA6u1LU",
+      "source": "node-otHQ6ye1xgkI1qb4tEHVF",
+      "target": "node-DwNda95-fE7LWnDA6u1LU",
+      "animated": true
+    },
+    {
+      "id": "edge-node-DwNda95-fE7LWnDA6u1LU-node-isavRe4ANVn77ZX6gNSLH",
+      "source": "node-DwNda95-fE7LWnDA6u1LU",
+      "target": "node-isavRe4ANVn77ZX6gNSLH",
+      "animated": true
+    },
+    {
+      "id": "edge-node-isavRe4ANVn77ZX6gNSLH-node-mka_DwiboH5sGFhXhk6ez",
+      "source": "node-isavRe4ANVn77ZX6gNSLH",
+      "target": "node-mka_DwiboH5sGFhXhk6ez",
+      "animated": true
+    },
+    {
+      "id": "edge-node-mka_DwiboH5sGFhXhk6ez-node-CxceVdaNCyKDhs0huDtcL",
+      "source": "node-mka_DwiboH5sGFhXhk6ez",
+      "target": "node-CxceVdaNCyKDhs0huDtcL",
+      "animated": true
+    },
+    {
+      "id": "edge-node-CxceVdaNCyKDhs0huDtcL-node-C0rKd5Rr27Z1_GleoEZxF",
+      "source": "node-CxceVdaNCyKDhs0huDtcL",
+      "target": "node-C0rKd5Rr27Z1_GleoEZxF",
+      "animated": true
+    },
+    {
+      "id": "edge-node-C0rKd5Rr27Z1_GleoEZxF-node-Ac49sOlQKblYK4FZuFHDR",
+      "source": "node-C0rKd5Rr27Z1_GleoEZxF",
+      "target": "node-Ac49sOlQKblYK4FZuFHDR",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Ac49sOlQKblYK4FZuFHDR-node-LSWlk9A3b6hco9Il_elao",
+      "source": "node-Ac49sOlQKblYK4FZuFHDR",
+      "target": "node-LSWlk9A3b6hco9Il_elao",
+      "animated": true
+    },
+    {
+      "id": "edge-node-LSWlk9A3b6hco9Il_elao-node-l3oeo65FyV5HHvw5n_1wa",
+      "source": "node-LSWlk9A3b6hco9Il_elao",
+      "target": "node-l3oeo65FyV5HHvw5n_1wa",
+      "animated": true
+    },
+    {
+      "id": "edge-node-l3oeo65FyV5HHvw5n_1wa-node-RsnN5bt8OhSMjSFmVgw-X",
+      "source": "node-l3oeo65FyV5HHvw5n_1wa",
+      "target": "node-RsnN5bt8OhSMjSFmVgw-X",
+      "animated": true
+    },
+    {
+      "id": "edge-node-RsnN5bt8OhSMjSFmVgw-X-node-B5YtP8C1A0jB3MOdg0c_q",
+      "source": "node-RsnN5bt8OhSMjSFmVgw-X",
+      "target": "node-B5YtP8C1A0jB3MOdg0c_q",
+      "animated": true
+    },
+    {
+      "id": "edge-node-B5YtP8C1A0jB3MOdg0c_q-node-IIelzs8XYMPnXabFKRI51",
+      "source": "node-B5YtP8C1A0jB3MOdg0c_q",
+      "target": "node-IIelzs8XYMPnXabFKRI51",
+      "animated": true
+    },
+    {
+      "id": "edge-node-IIelzs8XYMPnXabFKRI51-node-MSDo0nPk_ghRYkZS4MAQ_",
+      "source": "node-IIelzs8XYMPnXabFKRI51",
+      "target": "node-MSDo0nPk_ghRYkZS4MAQ_",
+      "animated": true
+    },
+    {
+      "id": "edge-node-MSDo0nPk_ghRYkZS4MAQ_-node-fBd2m8tMJmhuNSaakrpg4",
+      "source": "node-MSDo0nPk_ghRYkZS4MAQ_",
+      "target": "node-fBd2m8tMJmhuNSaakrpg4",
+      "animated": true
+    },
+    {
+      "id": "edge-node-fBd2m8tMJmhuNSaakrpg4-node-j7OP6RD_IAU6HsyiGaynx",
+      "source": "node-fBd2m8tMJmhuNSaakrpg4",
+      "target": "node-j7OP6RD_IAU6HsyiGaynx",
+      "animated": true
+    },
+    {
+      "id": "edge-node-j7OP6RD_IAU6HsyiGaynx-node-5D-kbQ520k1D3fCtD01T7",
+      "source": "node-j7OP6RD_IAU6HsyiGaynx",
+      "target": "node-5D-kbQ520k1D3fCtD01T7",
+      "animated": true
+    },
+    {
+      "id": "edge-node-5D-kbQ520k1D3fCtD01T7-node-YfYviOXqGVp9C6DuhqBrn",
+      "source": "node-5D-kbQ520k1D3fCtD01T7",
+      "target": "node-YfYviOXqGVp9C6DuhqBrn",
+      "animated": true
+    },
+    {
+      "id": "edge-node-YfYviOXqGVp9C6DuhqBrn-node-vlW07sc-FQnxPMjDMn8_F",
+      "source": "node-YfYviOXqGVp9C6DuhqBrn",
+      "target": "node-vlW07sc-FQnxPMjDMn8_F",
+      "animated": true
+    },
+    {
+      "id": "edge-node-vlW07sc-FQnxPMjDMn8_F-node-8yALyPVUZPtd7LX3GrO1e",
+      "source": "node-vlW07sc-FQnxPMjDMn8_F",
+      "target": "node-8yALyPVUZPtd7LX3GrO1e",
+      "animated": true
+    },
+    {
+      "id": "edge-node-8yALyPVUZPtd7LX3GrO1e-node-fELnBA0eOoE-d9rSmDJ8l",
+      "source": "node-8yALyPVUZPtd7LX3GrO1e",
+      "target": "node-fELnBA0eOoE-d9rSmDJ8l",
+      "animated": true
+    },
+    {
+      "id": "edge-node-fELnBA0eOoE-d9rSmDJ8l-node-m0ZYdqPFDoHOPo18wKyvV",
+      "source": "node-fELnBA0eOoE-d9rSmDJ8l",
+      "target": "node-m0ZYdqPFDoHOPo18wKyvV",
+      "animated": true
+    },
+    {
+      "id": "edge-node-m0ZYdqPFDoHOPo18wKyvV-node-JUFE4OQhnXOt1J_MG-Sjf",
+      "source": "node-m0ZYdqPFDoHOPo18wKyvV",
+      "target": "node-JUFE4OQhnXOt1J_MG-Sjf",
+      "animated": true
+    },
+    {
+      "id": "edge-node-JUFE4OQhnXOt1J_MG-Sjf-node-Hqk_GGsFi14SI5fgPSoGV",
+      "source": "node-JUFE4OQhnXOt1J_MG-Sjf",
+      "target": "node-Hqk_GGsFi14SI5fgPSoGV",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Hqk_GGsFi14SI5fgPSoGV-node-hjlkxYZS7Zf9En3IUS-Wm",
+      "source": "node-Hqk_GGsFi14SI5fgPSoGV",
+      "target": "node-hjlkxYZS7Zf9En3IUS-Wm",
+      "animated": true
+    },
+    {
+      "id": "edge-node-hjlkxYZS7Zf9En3IUS-Wm-node-6FDGecsHbqY-cm32yTZJa",
+      "source": "node-hjlkxYZS7Zf9En3IUS-Wm",
+      "target": "node-6FDGecsHbqY-cm32yTZJa",
+      "animated": true
+    },
+    {
+      "id": "edge-node-6FDGecsHbqY-cm32yTZJa-node-ZEzYb-i55hBe9kK3bla94",
+      "source": "node-6FDGecsHbqY-cm32yTZJa",
+      "target": "node-ZEzYb-i55hBe9kK3bla94",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ZEzYb-i55hBe9kK3bla94-node-PyTuVs08_z4EhLwhTYzFu",
+      "source": "node-ZEzYb-i55hBe9kK3bla94",
+      "target": "node-PyTuVs08_z4EhLwhTYzFu",
+      "animated": true
+    },
+    {
+      "id": "edge-node-PyTuVs08_z4EhLwhTYzFu-node-nKlM9k4qAh4wBFXqM-2kC",
+      "source": "node-PyTuVs08_z4EhLwhTYzFu",
+      "target": "node-nKlM9k4qAh4wBFXqM-2kC",
+      "animated": true
+    },
+    {
+      "id": "edge-node-nKlM9k4qAh4wBFXqM-2kC-node-Sp3FdPT4F9YnTGvlE_vyq",
+      "source": "node-nKlM9k4qAh4wBFXqM-2kC",
+      "target": "node-Sp3FdPT4F9YnTGvlE_vyq",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Sp3FdPT4F9YnTGvlE_vyq-node-priDGksAvJ05YzakkTFtM",
+      "source": "node-Sp3FdPT4F9YnTGvlE_vyq",
+      "target": "node-priDGksAvJ05YzakkTFtM",
+      "animated": true
+    },
+    {
+      "id": "edge-node-priDGksAvJ05YzakkTFtM-node-92GG4IRZ3FijumC94aL-T",
+      "source": "node-priDGksAvJ05YzakkTFtM",
+      "target": "node-92GG4IRZ3FijumC94aL-T",
+      "animated": true
+    },
+    {
+      "id": "edge-node-92GG4IRZ3FijumC94aL-T-node-I_VjjmMK52_tS8qjQUspN",
+      "source": "node-92GG4IRZ3FijumC94aL-T",
+      "target": "node-I_VjjmMK52_tS8qjQUspN",
+      "animated": true
+    },
+    {
+      "id": "edge-node-I_VjjmMK52_tS8qjQUspN-node-7tBAD0ox9hTK4D483GTRo",
+      "source": "node-I_VjjmMK52_tS8qjQUspN",
+      "target": "node-7tBAD0ox9hTK4D483GTRo",
+      "animated": true
+    },
+    {
+      "id": "edge-node-7tBAD0ox9hTK4D483GTRo-node-77KvWCA1oHSGgDKBTwjv7",
+      "source": "node-7tBAD0ox9hTK4D483GTRo",
+      "target": "node-77KvWCA1oHSGgDKBTwjv7",
+      "animated": true
+    },
+    {
+      "id": "edge-node-77KvWCA1oHSGgDKBTwjv7-node-Nq6o6Ty8VyNRsvg-UWp7D",
+      "source": "node-77KvWCA1oHSGgDKBTwjv7",
+      "target": "node-Nq6o6Ty8VyNRsvg-UWp7D",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Nq6o6Ty8VyNRsvg-UWp7D-node-wFu9VO48EYbIQrsM8YUCj",
+      "source": "node-Nq6o6Ty8VyNRsvg-UWp7D",
+      "target": "node-wFu9VO48EYbIQrsM8YUCj",
+      "animated": true
+    },
+    {
+      "id": "edge-node-wFu9VO48EYbIQrsM8YUCj-node-5EVecZmvor09LjD7WR_Y9",
+      "source": "node-wFu9VO48EYbIQrsM8YUCj",
+      "target": "node-5EVecZmvor09LjD7WR_Y9",
+      "animated": true
+    },
+    {
+      "id": "edge-node-5EVecZmvor09LjD7WR_Y9-node-lBtlDFPEQvQ_xtLtehU0S",
+      "source": "node-5EVecZmvor09LjD7WR_Y9",
+      "target": "node-lBtlDFPEQvQ_xtLtehU0S",
+      "animated": true
+    },
+    {
+      "id": "edge-node-lBtlDFPEQvQ_xtLtehU0S-node-igf9yp1lRdAlN5gyQ8HHC",
+      "source": "node-lBtlDFPEQvQ_xtLtehU0S",
+      "target": "node-igf9yp1lRdAlN5gyQ8HHC",
+      "animated": true
+    },
+    {
+      "id": "edge-node-igf9yp1lRdAlN5gyQ8HHC-node-Rq1Wi-cHjS54SYo-Btp-e",
+      "source": "node-igf9yp1lRdAlN5gyQ8HHC",
+      "target": "node-Rq1Wi-cHjS54SYo-Btp-e",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Rq1Wi-cHjS54SYo-Btp-e-node-a5DB_hsD4bAf8BtHNFNPo",
+      "source": "node-Rq1Wi-cHjS54SYo-Btp-e",
+      "target": "node-a5DB_hsD4bAf8BtHNFNPo",
+      "animated": true
+    },
+    {
+      "id": "edge-node-a5DB_hsD4bAf8BtHNFNPo-node-bhP5gMpRVebSFpCeHVXBj",
+      "source": "node-a5DB_hsD4bAf8BtHNFNPo",
+      "target": "node-bhP5gMpRVebSFpCeHVXBj",
+      "animated": true
+    },
+    {
+      "id": "edge-node-bhP5gMpRVebSFpCeHVXBj-node-O7H6dt3Z7EKohxfJzwbPM",
+      "source": "node-bhP5gMpRVebSFpCeHVXBj",
+      "target": "node-O7H6dt3Z7EKohxfJzwbPM",
+      "animated": true
+    },
+    {
+      "id": "edge-node-O7H6dt3Z7EKohxfJzwbPM-node-05hLO2_A8Tr6cLJGFRhOh",
+      "source": "node-O7H6dt3Z7EKohxfJzwbPM",
+      "target": "node-05hLO2_A8Tr6cLJGFRhOh",
+      "animated": true
+    },
+    {
+      "id": "edge-node-05hLO2_A8Tr6cLJGFRhOh-node-qwpsGRFgzAYstM7bJA2ZJ",
+      "source": "node-05hLO2_A8Tr6cLJGFRhOh",
+      "target": "node-qwpsGRFgzAYstM7bJA2ZJ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-qwpsGRFgzAYstM7bJA2ZJ-node-2sR4KULvAUUoOtopvsEBs",
+      "source": "node-qwpsGRFgzAYstM7bJA2ZJ",
+      "target": "node-2sR4KULvAUUoOtopvsEBs",
+      "animated": true
+    },
+    {
+      "id": "edge-node-2sR4KULvAUUoOtopvsEBs-node-XnvlRrOhdoMsiGwGEhBro",
+      "source": "node-2sR4KULvAUUoOtopvsEBs",
+      "target": "node-XnvlRrOhdoMsiGwGEhBro",
+      "animated": true
+    },
+    {
+      "id": "edge-node-XnvlRrOhdoMsiGwGEhBro-node-UyIwiIiKaa6LTQaqzbCam",
+      "source": "node-XnvlRrOhdoMsiGwGEhBro",
+      "target": "node-UyIwiIiKaa6LTQaqzbCam",
+      "animated": true
+    },
+    {
+      "id": "edge-node-UyIwiIiKaa6LTQaqzbCam-node-YW6j3Sg511dXToTcwSnOS",
+      "source": "node-UyIwiIiKaa6LTQaqzbCam",
+      "target": "node-YW6j3Sg511dXToTcwSnOS",
+      "animated": true
+    },
+    {
+      "id": "edge-node-YW6j3Sg511dXToTcwSnOS-node-4NVdEbmpQVHpBc7582S6E",
+      "source": "node-YW6j3Sg511dXToTcwSnOS",
+      "target": "node-4NVdEbmpQVHpBc7582S6E",
+      "animated": true
+    },
+    {
+      "id": "edge-node-4NVdEbmpQVHpBc7582S6E-node-vpko5Kyf6BZ5MHpxXOKaf",
+      "source": "node-4NVdEbmpQVHpBc7582S6E",
+      "target": "node-vpko5Kyf6BZ5MHpxXOKaf",
+      "animated": true
+    },
+    {
+      "id": "edge-node-vpko5Kyf6BZ5MHpxXOKaf-node-b6lCGw82qKpUmsxe1r1f5",
+      "source": "node-vpko5Kyf6BZ5MHpxXOKaf",
+      "target": "node-b6lCGw82qKpUmsxe1r1f5",
+      "animated": true
+    },
+    {
+      "id": "edge-node-b6lCGw82qKpUmsxe1r1f5-node-gdtI0H_PzzTj_aFQn_NeA",
+      "source": "node-b6lCGw82qKpUmsxe1r1f5",
+      "target": "node-gdtI0H_PzzTj_aFQn_NeA",
+      "animated": true
+    },
+    {
+      "id": "edge-node-gdtI0H_PzzTj_aFQn_NeA-node-jj5otph6mEYiR-oU5WVtT",
+      "source": "node-gdtI0H_PzzTj_aFQn_NeA",
+      "target": "node-jj5otph6mEYiR-oU5WVtT",
+      "animated": true
+    },
+    {
+      "id": "edge-node-jj5otph6mEYiR-oU5WVtT-node-D1IXOBUrrXf5bXhVu9cmI",
+      "source": "node-jj5otph6mEYiR-oU5WVtT",
+      "target": "node-D1IXOBUrrXf5bXhVu9cmI",
+      "animated": true
+    },
+    {
+      "id": "edge-node-D1IXOBUrrXf5bXhVu9cmI-node-cBWJ6Duw99tSKr7U6OW3A",
+      "source": "node-D1IXOBUrrXf5bXhVu9cmI",
+      "target": "node-cBWJ6Duw99tSKr7U6OW3A",
+      "animated": true
+    },
+    {
+      "id": "edge-node-cBWJ6Duw99tSKr7U6OW3A-node-57liQPaPyVpE-mdLnsbi0",
+      "source": "node-cBWJ6Duw99tSKr7U6OW3A",
+      "target": "node-57liQPaPyVpE-mdLnsbi0",
+      "animated": true
+    },
+    {
+      "id": "edge-node-57liQPaPyVpE-mdLnsbi0-node-AMDLJ_Bup-AY1chl_taV3",
+      "source": "node-57liQPaPyVpE-mdLnsbi0",
+      "target": "node-AMDLJ_Bup-AY1chl_taV3",
+      "animated": true
+    },
+    {
+      "id": "edge-node-AMDLJ_Bup-AY1chl_taV3-node-EdJhuNhMSWjeVxGW-RZtL",
+      "source": "node-AMDLJ_Bup-AY1chl_taV3",
+      "target": "node-EdJhuNhMSWjeVxGW-RZtL",
+      "animated": true
+    },
+    {
+      "id": "edge-node-EdJhuNhMSWjeVxGW-RZtL-node-Mt5W1IvuHevNXVRlh7z26",
+      "source": "node-EdJhuNhMSWjeVxGW-RZtL",
+      "target": "node-Mt5W1IvuHevNXVRlh7z26",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Mt5W1IvuHevNXVRlh7z26-node-KhqUK-7jdClu9M2Pq7x--",
+      "source": "node-Mt5W1IvuHevNXVRlh7z26",
+      "target": "node-KhqUK-7jdClu9M2Pq7x--",
+      "animated": true
+    },
+    {
+      "id": "edge-node-KhqUK-7jdClu9M2Pq7x---node-_U0VoTkqM1d6NR13p5azS",
+      "source": "node-KhqUK-7jdClu9M2Pq7x--",
+      "target": "node-_U0VoTkqM1d6NR13p5azS",
+      "animated": true
+    },
+    {
+      "id": "edge-node-_U0VoTkqM1d6NR13p5azS-node-OpL2EqvHbUmFgnpuhtZPr",
+      "source": "node-_U0VoTkqM1d6NR13p5azS",
+      "target": "node-OpL2EqvHbUmFgnpuhtZPr",
+      "animated": true
+    },
+    {
+      "id": "edge-node-OpL2EqvHbUmFgnpuhtZPr-node-hRug9yJKYacB9X_2cUalR",
+      "source": "node-OpL2EqvHbUmFgnpuhtZPr",
+      "target": "node-hRug9yJKYacB9X_2cUalR",
+      "animated": true
+    },
+    {
+      "id": "edge-node-hRug9yJKYacB9X_2cUalR-node-SJ5lrlvyXgtAwOx4wvT2W",
+      "source": "node-hRug9yJKYacB9X_2cUalR",
+      "target": "node-SJ5lrlvyXgtAwOx4wvT2W",
+      "animated": true
+    },
+    {
+      "id": "edge-node-SJ5lrlvyXgtAwOx4wvT2W-node-uoDtVFThaV6OMK2wXGfP5",
+      "source": "node-SJ5lrlvyXgtAwOx4wvT2W",
+      "target": "node-uoDtVFThaV6OMK2wXGfP5",
+      "animated": true
+    },
+    {
+      "id": "edge-node-uoDtVFThaV6OMK2wXGfP5-node-6_EOmU5GYGDGzmNoLY8cB",
+      "source": "node-uoDtVFThaV6OMK2wXGfP5",
+      "target": "node-6_EOmU5GYGDGzmNoLY8cB",
+      "animated": true
+    },
+    {
+      "id": "edge-node-6_EOmU5GYGDGzmNoLY8cB-node-j2Ph2QcKwmKlbaMHz1l_i",
+      "source": "node-6_EOmU5GYGDGzmNoLY8cB",
+      "target": "node-j2Ph2QcKwmKlbaMHz1l_i",
+      "animated": true
+    },
+    {
+      "id": "edge-node-j2Ph2QcKwmKlbaMHz1l_i-node-mCiYCbKIOVU34qil_q7Hg",
+      "source": "node-j2Ph2QcKwmKlbaMHz1l_i",
+      "target": "node-mCiYCbKIOVU34qil_q7Hg",
+      "animated": true
+    },
+    {
+      "id": "edge-node-mCiYCbKIOVU34qil_q7Hg-node-C0g_kQFlte5siHMHwlHQb",
+      "source": "node-mCiYCbKIOVU34qil_q7Hg",
+      "target": "node-C0g_kQFlte5siHMHwlHQb",
+      "animated": true
+    },
+    {
+      "id": "edge-node-C0g_kQFlte5siHMHwlHQb-node-rUxbG2S2nJuA1YVY6sjiX",
+      "source": "node-C0g_kQFlte5siHMHwlHQb",
+      "target": "node-rUxbG2S2nJuA1YVY6sjiX",
+      "animated": true
+    },
+    {
+      "id": "edge-node-rUxbG2S2nJuA1YVY6sjiX-node-Ss43xwK1ydEToj6XmmCt7",
+      "source": "node-rUxbG2S2nJuA1YVY6sjiX",
+      "target": "node-Ss43xwK1ydEToj6XmmCt7",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Ss43xwK1ydEToj6XmmCt7-node-U_Hmzfjjs1jVtu2CZ0TlG",
+      "source": "node-Ss43xwK1ydEToj6XmmCt7",
+      "target": "node-U_Hmzfjjs1jVtu2CZ0TlG",
+      "animated": true
+    },
+    {
+      "id": "edge-node-U_Hmzfjjs1jVtu2CZ0TlG-node-7rudOREGG-TTkCosU0hNw",
+      "source": "node-U_Hmzfjjs1jVtu2CZ0TlG",
+      "target": "node-7rudOREGG-TTkCosU0hNw",
+      "animated": true
+    },
+    {
+      "id": "edge-node-7rudOREGG-TTkCosU0hNw-node-Bg7ru1q1j6pNB43HGxnHT",
+      "source": "node-7rudOREGG-TTkCosU0hNw",
+      "target": "node-Bg7ru1q1j6pNB43HGxnHT",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Bg7ru1q1j6pNB43HGxnHT-node-mOXyzdNn8W-9R99ffcnor",
+      "source": "node-Bg7ru1q1j6pNB43HGxnHT",
+      "target": "node-mOXyzdNn8W-9R99ffcnor",
+      "animated": true
+    },
+    {
+      "id": "edge-node-mOXyzdNn8W-9R99ffcnor-node-TxWAznp1tUtZ1MvThf9M1",
+      "source": "node-mOXyzdNn8W-9R99ffcnor",
+      "target": "node-TxWAznp1tUtZ1MvThf9M1",
+      "animated": true
+    },
+    {
+      "id": "edge-node-TxWAznp1tUtZ1MvThf9M1-node-PKqwKvoffm0unwcFwpojk",
+      "source": "node-TxWAznp1tUtZ1MvThf9M1",
+      "target": "node-PKqwKvoffm0unwcFwpojk",
+      "animated": true
+    },
+    {
+      "id": "edge-node-PKqwKvoffm0unwcFwpojk-node-IzFTn5-tQuF_Z0cG_w6CW",
+      "source": "node-PKqwKvoffm0unwcFwpojk",
+      "target": "node-IzFTn5-tQuF_Z0cG_w6CW",
+      "animated": true
+    },
+    {
+      "id": "edge-node-IzFTn5-tQuF_Z0cG_w6CW-node-WoXoVwkSqXTP5U8HtyJOL",
+      "source": "node-IzFTn5-tQuF_Z0cG_w6CW",
+      "target": "node-WoXoVwkSqXTP5U8HtyJOL",
+      "animated": true
+    },
+    {
+      "id": "edge-node-WoXoVwkSqXTP5U8HtyJOL-node-FAXKxl3fWUFShYmoCsInZ",
+      "source": "node-WoXoVwkSqXTP5U8HtyJOL",
+      "target": "node-FAXKxl3fWUFShYmoCsInZ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-FAXKxl3fWUFShYmoCsInZ-node-OErbfM-H3laFm47GCHNPI",
+      "source": "node-FAXKxl3fWUFShYmoCsInZ",
+      "target": "node-OErbfM-H3laFm47GCHNPI",
+      "animated": true
+    },
+    {
+      "id": "edge-node-OErbfM-H3laFm47GCHNPI-node-6uvmMgvOwGyuLC5TOhjFu",
+      "source": "node-OErbfM-H3laFm47GCHNPI",
+      "target": "node-6uvmMgvOwGyuLC5TOhjFu",
+      "animated": true
+    },
+    {
+      "id": "edge-node-6uvmMgvOwGyuLC5TOhjFu-node-lrtgF1RTaS4TCKww0aY6C",
+      "source": "node-6uvmMgvOwGyuLC5TOhjFu",
+      "target": "node-lrtgF1RTaS4TCKww0aY6C",
+      "animated": true
+    },
+    {
+      "id": "edge-node-lrtgF1RTaS4TCKww0aY6C-node-CYnUg_okOcRrD7fSllxLW",
+      "source": "node-lrtgF1RTaS4TCKww0aY6C",
+      "target": "node-CYnUg_okOcRrD7fSllxLW",
+      "animated": true
+    },
+    {
+      "id": "edge-node-CYnUg_okOcRrD7fSllxLW-node-QNG-KP01WQnq8o1-In1-n",
+      "source": "node-CYnUg_okOcRrD7fSllxLW",
+      "target": "node-QNG-KP01WQnq8o1-In1-n",
+      "animated": true
+    },
+    {
+      "id": "edge-node-QNG-KP01WQnq8o1-In1-n-node-uGs-9xE3DMJxKhenltbFK",
+      "source": "node-QNG-KP01WQnq8o1-In1-n",
+      "target": "node-uGs-9xE3DMJxKhenltbFK",
+      "animated": true
+    },
+    {
+      "id": "edge-node-uGs-9xE3DMJxKhenltbFK-node-ulwgDCQi_BYx5lmll7pzU",
+      "source": "node-uGs-9xE3DMJxKhenltbFK",
+      "target": "node-ulwgDCQi_BYx5lmll7pzU",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ulwgDCQi_BYx5lmll7pzU-node-n5AcBt_u8qtTe3PP9svPZ",
+      "source": "node-ulwgDCQi_BYx5lmll7pzU",
+      "target": "node-n5AcBt_u8qtTe3PP9svPZ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-n5AcBt_u8qtTe3PP9svPZ-node-UCCT7-E_QUKPg3jAsjobx",
+      "source": "node-n5AcBt_u8qtTe3PP9svPZ",
+      "target": "node-UCCT7-E_QUKPg3jAsjobx",
+      "animated": true
+    },
+    {
+      "id": "edge-node-UCCT7-E_QUKPg3jAsjobx-node-DnP66pjK3b8tCtYr05n2G",
+      "source": "node-UCCT7-E_QUKPg3jAsjobx",
+      "target": "node-DnP66pjK3b8tCtYr05n2G",
+      "animated": true
+    },
+    {
+      "id": "edge-node-DnP66pjK3b8tCtYr05n2G-node-hFx3mLqh5omNxqI9lfaAQ",
+      "source": "node-DnP66pjK3b8tCtYr05n2G",
+      "target": "node-hFx3mLqh5omNxqI9lfaAQ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-hFx3mLqh5omNxqI9lfaAQ-node-5TDTU22Fla2mRr6JeOcaY",
+      "source": "node-hFx3mLqh5omNxqI9lfaAQ",
+      "target": "node-5TDTU22Fla2mRr6JeOcaY",
+      "animated": true
+    },
+    {
+      "id": "edge-node-5TDTU22Fla2mRr6JeOcaY-node-SuMhTyaBS9vwASxAt39DH",
+      "source": "node-5TDTU22Fla2mRr6JeOcaY",
+      "target": "node-SuMhTyaBS9vwASxAt39DH",
+      "animated": true
+    },
+    {
+      "id": "edge-node-SuMhTyaBS9vwASxAt39DH-node-a6joS9WXg-rbw29_KfBd9",
+      "source": "node-SuMhTyaBS9vwASxAt39DH",
+      "target": "node-a6joS9WXg-rbw29_KfBd9",
+      "animated": true
+    },
+    {
+      "id": "edge-node-a6joS9WXg-rbw29_KfBd9-node-8FTKnAKNL9LnZBrw9YXqK",
+      "source": "node-a6joS9WXg-rbw29_KfBd9",
+      "target": "node-8FTKnAKNL9LnZBrw9YXqK",
+      "animated": true
+    },
+    {
+      "id": "edge-node-8FTKnAKNL9LnZBrw9YXqK-node-4zicbh7Wg2lmKSRhb6E-L",
+      "source": "node-8FTKnAKNL9LnZBrw9YXqK",
+      "target": "node-4zicbh7Wg2lmKSRhb6E-L",
+      "animated": true
+    },
+    {
+      "id": "edge-node-4zicbh7Wg2lmKSRhb6E-L-node-s0RvufK2PLMXtlsn2KAUN",
+      "source": "node-4zicbh7Wg2lmKSRhb6E-L",
+      "target": "node-s0RvufK2PLMXtlsn2KAUN",
+      "animated": true
+    },
+    {
+      "id": "edge-node-s0RvufK2PLMXtlsn2KAUN-node-j9Y2YbBKi3clO_sZ2L_hQ",
+      "source": "node-s0RvufK2PLMXtlsn2KAUN",
+      "target": "node-j9Y2YbBKi3clO_sZ2L_hQ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-j9Y2YbBKi3clO_sZ2L_hQ-node-eG38hT0rotYJ3G-t9df9R",
+      "source": "node-j9Y2YbBKi3clO_sZ2L_hQ",
+      "target": "node-eG38hT0rotYJ3G-t9df9R",
+      "animated": true
+    },
+    {
+      "id": "edge-node-eG38hT0rotYJ3G-t9df9R-node-EGG99VA-PEdWdVxNDLtG_",
+      "source": "node-eG38hT0rotYJ3G-t9df9R",
+      "target": "node-EGG99VA-PEdWdVxNDLtG_",
+      "animated": true
+    },
+    {
+      "id": "edge-node-EGG99VA-PEdWdVxNDLtG_-node-YCJYRA3b-YSm8vKmGUFk5",
+      "source": "node-EGG99VA-PEdWdVxNDLtG_",
+      "target": "node-YCJYRA3b-YSm8vKmGUFk5",
+      "animated": true
+    },
+    {
+      "id": "edge-node-YCJYRA3b-YSm8vKmGUFk5-node-7fL9lSu4BD1wRjnZy9tM9",
+      "source": "node-YCJYRA3b-YSm8vKmGUFk5",
+      "target": "node-7fL9lSu4BD1wRjnZy9tM9",
+      "animated": true
+    }
+  ],
+  "topics": {
+    "bbKEEk7dvfFZBBJaIjm0j": {
+      "id": "bbKEEk7dvfFZBBJaIjm0j",
+      "slug": "acid-cap-theorem",
+      "title": "ACID, CAP Theorem",
+      "description": "ACID describes the guarantees a database transaction provides: atomicity, consistency, isolation, and durability, ensuring reliable operations even under failure. The CAP theorem states that a distributed system can only guarantee two of three properties at once: consistency, availability, and partition tolerance. Architects use both concepts to reason about the trade offs involved in choosing databases and designing distributed systems.",
+      "resources": [
+        {
+          "id": "bbKEEk7dvfFZBBJaIjm0j-res-1",
+          "type": "article",
+          "title": "What is CAP Theorem?",
+          "url": "https://www.bmc.com/blogs/cap-theorem/"
+        },
+        {
+          "id": "bbKEEk7dvfFZBBJaIjm0j-res-2",
+          "type": "article",
+          "title": "CAP Theorem - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/CAP_theorem"
+        },
+        {
+          "id": "bbKEEk7dvfFZBBJaIjm0j-res-3",
+          "type": "article",
+          "title": "An Illustrated Proof of the CAP Theorem",
+          "url": "https://mwhittaker.github.io/blog/an_illustrated_proof_of_the_cap_theorem/"
+        },
+        {
+          "id": "bbKEEk7dvfFZBBJaIjm0j-res-4",
+          "type": "article",
+          "title": "CAP Theorem and its applications in NoSQL Databases",
+          "url": "https://www.ibm.com/uk-en/cloud/learn/cap-theorem"
+        },
+        {
+          "id": "bbKEEk7dvfFZBBJaIjm0j-res-5",
+          "type": "article",
+          "title": "ACID - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/ACID"
+        },
+        {
+          "id": "bbKEEk7dvfFZBBJaIjm0j-res-6",
+          "type": "video",
+          "title": "What is CAP Theorem?",
+          "url": "https://www.youtube.com/watch?v=_RbsFXWRZ10"
+        }
+      ]
+    },
+    "AoWO2BIKG5X4JWir6kh5r": {
+      "id": "AoWO2BIKG5X4JWir6kh5r",
+      "slug": "actors",
+      "title": "Actors",
+      "description": "Actor Model is a model that represents actors as the basic unit of a system, they can only communicate through messages and have their own private state, and they can also manage other actors, resulting in an encapsulated and fault-tolerant system.",
+      "resources": [
+        {
+          "id": "AoWO2BIKG5X4JWir6kh5r-res-1",
+          "type": "article",
+          "title": "The actor model in 10 minutes",
+          "url": "https://www.brianstorti.com/the-actor-model/"
+        },
+        {
+          "id": "AoWO2BIKG5X4JWir6kh5r-res-2",
+          "type": "video",
+          "title": "Actor Model Explained",
+          "url": "https://www.youtube.com/watch?v=ELwEdb_pD0k"
+        }
+      ]
+    },
+    "a0baFv7hVWZGvS5VLh5ig": {
+      "id": "a0baFv7hVWZGvS5VLh5ig",
+      "slug": "apache-spark",
+      "title": "Apache spark",
+      "description": "Apache Spark is a distributed data processing engine that performs computations in memory, making it significantly faster than earlier tools like MapReduce for many workloads. It supports batch processing, streaming, machine learning, and graph processing through a single unified framework. Architects often choose Spark for large scale analytics pipelines that need both speed and flexibility.",
+      "resources": [
+        {
+          "id": "a0baFv7hVWZGvS5VLh5ig-res-1",
+          "type": "article",
+          "title": "Apache Spark",
+          "url": "https://spark.apache.org/"
+        }
+      ]
+    },
+    "Ocn7-ctpnl71ZCZ_uV-uD": {
+      "id": "Ocn7-ctpnl71ZCZ_uV-uD",
+      "slug": "apis--integrations",
+      "title": "APIs and Integrations",
+      "description": "APIs and integrations define how different systems and services communicate with each other, whether within a company or across organizations. Choosing the right integration style, protocol, and data format affects performance, flexibility, and how easily new systems can be connected later. This is a core concern in almost every modern architecture, since few systems operate in isolation.",
+      "resources": [
+        {
+          "id": "Ocn7-ctpnl71ZCZ_uV-uD-res-1",
+          "type": "article",
+          "title": "What is API Integration",
+          "url": "https://www.ibm.com/topics/api-integration"
+        },
+        {
+          "id": "Ocn7-ctpnl71ZCZ_uV-uD-res-2",
+          "type": "article",
+          "title": "API Integration - Postman",
+          "url": "https://www.postman.com/api-platform/api-integration/"
+        },
+        {
+          "id": "Ocn7-ctpnl71ZCZ_uV-uD-res-3",
+          "type": "article",
+          "title": "API First Integration",
+          "url": "https://www.infoq.com/articles/api-first-integration/"
+        }
+      ]
+    },
+    "Lqe47l4j-C4OwkbkwPYry": {
+      "id": "Lqe47l4j-C4OwkbkwPYry",
+      "slug": "application-architecture",
+      "title": "Application Architecture",
+      "description": "Application architecture focuses on the internal structure of a single software application: its modules, layers, and the patterns used to organize code. It determines how the application handles concerns like data access, business logic, and user interface separation. Decisions made here affect how easy the application is to test, extend, and maintain over time.",
+      "resources": [
+        {
+          "id": "Lqe47l4j-C4OwkbkwPYry-res-1",
+          "type": "article",
+          "title": "Application Architecture",
+          "url": "https://www.codesee.io/learning-center/application-architecture"
+        }
+      ]
+    },
+    "OaLmlfkZid7hKqJ9G8oNV": {
+      "id": "OaLmlfkZid7hKqJ9G8oNV",
+      "slug": "architecture",
+      "title": "Architectures",
+      "description": "Architecture refers to the approach of designing and implementing software architecture with a focus on the tools and technologies that will be used during the development process. This perspective emphasizes that the selection of tools can significantly influence architectural decisions and the overall design of the system.",
+      "resources": []
+    },
+    "3bpd0iZTd3G-H8A7yrExY": {
+      "id": "3bpd0iZTd3G-H8A7yrExY",
+      "slug": "atlassian-tools",
+      "title": "Atlassian Tools",
+      "description": "Atlassian tools, including Jira and Confluence, support project tracking and documentation for software teams at scale. Jira manages tasks, sprints, and issues in agile workflows, while Confluence stores documentation and design discussions. Many enterprise teams standardize on these tools for both day to day work tracking and long term knowledge management.",
+      "resources": [
+        {
+          "id": "3bpd0iZTd3G-H8A7yrExY-res-1",
+          "type": "article",
+          "title": "Jira Service Desk",
+          "url": "https://www.atlassian.com/software/jira/service-management/features/service-desk"
+        },
+        {
+          "id": "3bpd0iZTd3G-H8A7yrExY-res-2",
+          "type": "article",
+          "title": "Jira Core",
+          "url": "https://www.atlassian.com/software/jira/work-management"
+        },
+        {
+          "id": "3bpd0iZTd3G-H8A7yrExY-res-3",
+          "type": "article",
+          "title": "Confluence",
+          "url": "https://www.atlassian.com/wac/software/confluence?"
+        },
+        {
+          "id": "3bpd0iZTd3G-H8A7yrExY-res-4",
+          "type": "article",
+          "title": "Bitbucket",
+          "url": "https://bitbucket.org/product/"
+        },
+        {
+          "id": "3bpd0iZTd3G-H8A7yrExY-res-5",
+          "type": "article",
+          "title": "Statuspage",
+          "url": "https://www.atlassian.com/software/statuspage"
+        },
+        {
+          "id": "3bpd0iZTd3G-H8A7yrExY-res-6",
+          "type": "article",
+          "title": "Opsgenie",
+          "url": "https://www.atlassian.com/software/opsgenie"
+        },
+        {
+          "id": "3bpd0iZTd3G-H8A7yrExY-res-7",
+          "type": "article",
+          "title": "Advanced Roadmaps for Jira",
+          "url": "https://www.atlassian.com/software/jira/features/roadmaps"
+        },
+        {
+          "id": "3bpd0iZTd3G-H8A7yrExY-res-8",
+          "type": "article",
+          "title": "Jira Align",
+          "url": "https://www.atlassian.com/software/jira/align"
+        }
+      ]
+    },
+    "KiwFXB6yd0go30zAFMTJt": {
+      "id": "KiwFXB6yd0go30zAFMTJt",
+      "slug": "auth-strategies",
+      "title": "Auth Strategies",
+      "description": "Authentication and authorization strategies determine how a system verifies who a user is and what they are allowed to do. Common approaches include session based authentication, token based methods like JWT, and protocols like OAuth for delegated access. Choosing the right strategy affects both security and how easily a system integrates with other services.",
+      "resources": [
+        {
+          "id": "KiwFXB6yd0go30zAFMTJt-res-1",
+          "type": "article",
+          "title": "JSON Web Token - Handbook",
+          "url": "https://auth0.com/resources/ebooks/jwt-handbook"
+        },
+        {
+          "id": "KiwFXB6yd0go30zAFMTJt-res-2",
+          "type": "article",
+          "title": "Authentication vs Authorization",
+          "url": "https://www.cerbos.dev/blog/authentication-vs-authorization"
+        },
+        {
+          "id": "KiwFXB6yd0go30zAFMTJt-res-3",
+          "type": "video",
+          "title": "SAML Overview",
+          "url": "https://www.youtube.com/watch?v=i8wFExDSZv0"
+        },
+        {
+          "id": "KiwFXB6yd0go30zAFMTJt-res-4",
+          "type": "video",
+          "title": "A Developers Guide to SAML",
+          "url": "https://www.youtube.com/watch?v=l-6QSEqDJPo"
+        },
+        {
+          "id": "KiwFXB6yd0go30zAFMTJt-res-5",
+          "type": "video",
+          "title": "SAML 2.0: Technical Overview",
+          "url": "https://www.youtube.com/watch?v=SvppXbpv-5k"
+        },
+        {
+          "id": "KiwFXB6yd0go30zAFMTJt-res-6",
+          "type": "video",
+          "title": "An Illustrated Guide to OAuth and OpenID Connect",
+          "url": "https://www.youtube.com/watch?v=t18YB3xDfXI"
+        },
+        {
+          "id": "KiwFXB6yd0go30zAFMTJt-res-7",
+          "type": "video",
+          "title": "OAuth 2.0 & OpenID Connect (OIDC): Technical Overview",
+          "url": "https://www.youtube.com/watch?v=rTzlF-U9Y6Y"
+        }
+      ]
+    },
+    "LQlzVxUxM3haWRwbhYHKY": {
+      "id": "LQlzVxUxM3haWRwbhYHKY",
+      "slug": "babok",
+      "title": "Babok",
+      "description": "The guide to the Business Analysis Body of Knowledge (BABOK Guide) is a book from the International Institute of Business Analysis (IIBA) that provides business analysts (BAs) with strategies for using data to improve an organization's workflow processes, technology, products and services.",
+      "resources": [
+        {
+          "id": "LQlzVxUxM3haWRwbhYHKY-res-1",
+          "type": "article",
+          "title": "Babok",
+          "url": "https://www.iiba.org/career-resources/a-business-analysis-professionals-foundation-for-success/babok/"
+        },
+        {
+          "id": "LQlzVxUxM3haWRwbhYHKY-res-2",
+          "type": "article",
+          "title": "A Guide to the Business Analysis Body of Knowledge",
+          "url": "https://en.wikipedia.org/wiki/A_Guide_to_the_Business_Analysis_Body_of_Knowledge"
+        }
+      ]
+    },
+    "otHQ6ye1xgkI1qb4tEHVF": {
+      "id": "otHQ6ye1xgkI1qb4tEHVF",
+      "slug": "balance",
+      "title": "Balance",
+      "description": "Balance refers to weighing competing priorities such as speed versus quality, or innovation versus stability. An architect regularly makes trade offs between what is technically ideal and what is practical given time and budget constraints. Finding the right balance keeps a project moving without accumulating excessive technical debt.",
+      "resources": [
+        {
+          "id": "otHQ6ye1xgkI1qb4tEHVF-res-1",
+          "type": "article",
+          "title": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Balance_(architecture"
+        }
+      ]
+    },
+    "DwNda95-fE7LWnDA6u1LU": {
+      "id": "DwNda95-fE7LWnDA6u1LU",
+      "slug": "bpm-bpel",
+      "title": "BPM BPEL",
+      "description": "Business process management describes methodologies and tools for modeling, automating, and optimizing business processes across an organization. BPEL, the Business Process Execution Language, is an XML based language used to define and orchestrate these processes, often within service oriented architectures. Architects working on enterprise workflow automation need to understand how BPM tools coordinate multiple systems to complete a business process.",
+      "resources": [
+        {
+          "id": "DwNda95-fE7LWnDA6u1LU-res-1",
+          "type": "article",
+          "title": "What is BPM?",
+          "url": "https://www.redhat.com/en/topics/automation/what-is-business-process-management"
+        },
+        {
+          "id": "DwNda95-fE7LWnDA6u1LU-res-2",
+          "type": "article",
+          "title": "BPEL described",
+          "url": "https://www.ibm.com/docs/en/baw/19.x?topic=SS8JB4_19.x/com.ibm.wbpm.wid.main.doc/prodoverview/topics/cbpelproc.html"
+        },
+        {
+          "id": "DwNda95-fE7LWnDA6u1LU-res-3",
+          "type": "video",
+          "title": "BPM vs BPEL",
+          "url": "https://www.youtube.com/watch?v=V6nr5dnb1JQ"
+        }
+      ]
+    },
+    "isavRe4ANVn77ZX6gNSLH": {
+      "id": "isavRe4ANVn77ZX6gNSLH",
+      "slug": "ci--cd",
+      "title": "CI / CD",
+      "description": "CI/CD is a method to frequently deliver apps to customers by introducing automation into the stages of app development. The main concepts attributed to CI/CD are continuous integration, continuous delivery, and continuous deployment. CI/CD is a solution to the problems integrating new code can cause for development and operations teams (AKA \"integration hell\").",
+      "resources": [
+        {
+          "id": "isavRe4ANVn77ZX6gNSLH-res-1",
+          "type": "article",
+          "title": "CI/CID - GitHub",
+          "url": "https://github.com/resources/articles/devops/ci-cd"
+        },
+        {
+          "id": "isavRe4ANVn77ZX6gNSLH-res-2",
+          "type": "article",
+          "title": "What is CI/CD? - Redhat",
+          "url": "https://www.redhat.com/en/topics/devops/what-is-ci-cd"
+        },
+        {
+          "id": "isavRe4ANVn77ZX6gNSLH-res-3",
+          "type": "article",
+          "title": "Continuous Integration and Continuous Delivery Explained",
+          "url": "https://www.infoworld.com/article/3271126/what-is-cicd-continuous-integration-and-continuous-delivery-explained.html"
+        },
+        {
+          "id": "isavRe4ANVn77ZX6gNSLH-res-4",
+          "type": "article",
+          "title": "Explore top posts about CI/CD",
+          "url": "https://app.daily.dev/tags/cicd?ref=roadmapsh"
+        }
+      ]
+    },
+    "mka_DwiboH5sGFhXhk6ez": {
+      "id": "mka_DwiboH5sGFhXhk6ez",
+      "slug": "client--server",
+      "title": "Client-Server Architecture",
+      "description": "Client-server architecture is a computing model that separates tasks or workloads between service providers (servers) and service requesters (clients). This architecture is widely used in networked applications, including web applications, where clients interact with servers to access resources, services, and data.",
+      "resources": [
+        {
+          "id": "mka_DwiboH5sGFhXhk6ez-res-1",
+          "type": "article",
+          "title": "What is Client-Server Architecture",
+          "url": "https://www.simplilearn.com/what-is-client-server-architecture-article"
+        }
+      ]
+    },
+    "CxceVdaNCyKDhs0huDtcL": {
+      "id": "CxceVdaNCyKDhs0huDtcL",
+      "slug": "cloud-design-patterns",
+      "title": "Cloud Design Patterns",
+      "description": "These design patterns are useful for building reliable, scalable, secure applications in the cloud. The cloud design patterns where each pattern describes the problem that the pattern addresses, considerations for applying the pattern, and an example based on Microsoft Azure. Most patterns include code samples or snippets that show how to implement the pattern on Azure. However, most patterns are relevant to any distributed system, whether hosted on Azure or other cloud platforms.",
+      "resources": [
+        {
+          "id": "CxceVdaNCyKDhs0huDtcL-res-1",
+          "type": "article",
+          "title": "Cloud Design Patterns",
+          "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/"
+        },
+        {
+          "id": "CxceVdaNCyKDhs0huDtcL-res-2",
+          "type": "article",
+          "title": "Explore top posts about Cloud",
+          "url": "https://app.daily.dev/tags/cloud?ref=roadmapsh"
+        }
+      ]
+    },
+    "C0rKd5Rr27Z1_GleoEZxF": {
+      "id": "C0rKd5Rr27Z1_GleoEZxF",
+      "slug": "cloud-providers",
+      "title": "Cloud Providers",
+      "description": "Cloud providers provide a layer of APIs to abstract infrastructure and provision it based on security and billing boundaries. The cloud runs on servers in data centers, but the abstractions cleverly give the appearance of interacting with a single “platform” or large application. The ability to quickly provision, configure, and secure resources with cloud providers has been key to both the tremendous success and complexity of modern DevOps.",
+      "resources": [
+        {
+          "id": "C0rKd5Rr27Z1_GleoEZxF-res-1",
+          "type": "article",
+          "title": "Cloud Service Provider",
+          "url": "https://www.techtarget.com/searchitchannel/definition/cloud-service-provider-cloud-provider"
+        },
+        {
+          "id": "C0rKd5Rr27Z1_GleoEZxF-res-2",
+          "type": "article",
+          "title": "What are Cloud Providers?",
+          "url": "https://www.redhat.com/en/topics/cloud-computing/what-are-cloud-providers"
+        },
+        {
+          "id": "C0rKd5Rr27Z1_GleoEZxF-res-3",
+          "type": "article",
+          "title": "Explore top posts about Cloud",
+          "url": "https://app.daily.dev/tags/cloud?ref=roadmapsh"
+        }
+      ]
+    },
+    "Ac49sOlQKblYK4FZuFHDR": {
+      "id": "Ac49sOlQKblYK4FZuFHDR",
+      "slug": "communication",
+      "title": "Communication",
+      "description": "Communication is central to the architect role, since decisions need to be explained to developers, managers, and other stakeholders with different levels of technical understanding. An architect translates business goals into technical direction and also feeds technical constraints back into business conversations. Without strong communication, even a well designed architecture can fail to be adopted correctly by the team.",
+      "resources": [
+        {
+          "id": "Ac49sOlQKblYK4FZuFHDR-res-1",
+          "type": "article",
+          "title": "Communication Skills",
+          "url": "https://en.wikipedia.org/wiki/Communication"
+        }
+      ]
+    },
+    "LSWlk9A3b6hco9Il_elao": {
+      "id": "LSWlk9A3b6hco9Il_elao",
+      "slug": "consult--coach",
+      "title": "Consult & Coach",
+      "description": "Consulting and coaching means guiding developers and teams toward better technical practices without necessarily writing the code themselves. Architects often review designs, answer technical questions, and mentor less experienced engineers on patterns and standards. This skill turns an architect's individual knowledge into improvements across the whole team.",
+      "resources": [
+        {
+          "id": "LSWlk9A3b6hco9Il_elao-res-1",
+          "type": "article",
+          "title": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Consulting"
+        }
+      ]
+    },
+    "l3oeo65FyV5HHvw5n_1wa": {
+      "id": "l3oeo65FyV5HHvw5n_1wa",
+      "slug": "containers",
+      "title": "Containers",
+      "description": "Containers are a construct in which cgroups, namespaces, and chroot are used to fully encapsulate and isolate a process. This encapsulated process, called a container image, shares the kernel of the host with other containers, allowing containers to be significantly smaller and faster than virtual machines. These images are designed for portability, allowing for full local testing of a static image, and easy deployment to a container management platform.",
+      "resources": [
+        {
+          "id": "l3oeo65FyV5HHvw5n_1wa-res-1",
+          "type": "article",
+          "title": "cgroups",
+          "url": "https://en.wikipedia.org/wiki/Cgroups"
+        },
+        {
+          "id": "l3oeo65FyV5HHvw5n_1wa-res-2",
+          "type": "article",
+          "title": "namespaces",
+          "url": "https://en.wikipedia.org/wiki/Linux_namespaces"
+        },
+        {
+          "id": "l3oeo65FyV5HHvw5n_1wa-res-3",
+          "type": "article",
+          "title": "chroot",
+          "url": "https://en.wikipedia.org/wiki/Chroot"
+        },
+        {
+          "id": "l3oeo65FyV5HHvw5n_1wa-res-4",
+          "type": "article",
+          "title": "What are Containers?",
+          "url": "https://cloud.google.com/learn/what-are-containers"
+        },
+        {
+          "id": "l3oeo65FyV5HHvw5n_1wa-res-5",
+          "type": "article",
+          "title": "What is a Container?",
+          "url": "https://www.docker.com/resources/what-container/"
+        },
+        {
+          "id": "l3oeo65FyV5HHvw5n_1wa-res-6",
+          "type": "article",
+          "title": "Articles about Containers - The New Stack",
+          "url": "https://thenewstack.io/category/containers/"
+        },
+        {
+          "id": "l3oeo65FyV5HHvw5n_1wa-res-7",
+          "type": "video",
+          "title": "What are Containers?",
+          "url": "https://www.youtube.com/playlist?list=PLawsLZMfND4nz-WDBZIj8-nbzGFD4S9oz"
+        },
+        {
+          "id": "l3oeo65FyV5HHvw5n_1wa-res-8",
+          "type": "article",
+          "title": "Explore top posts about Containers",
+          "url": "https://app.daily.dev/tags/containers?ref=roadmapsh"
+        }
+      ]
+    },
+    "RsnN5bt8OhSMjSFmVgw-X": {
+      "id": "RsnN5bt8OhSMjSFmVgw-X",
+      "slug": "cqrs-eventual-consistency",
+      "title": "CQRS, Eventual Consistency",
+      "description": "CQRS, or Command Query Responsibility Segregation, separates the operations that change data from the operations that read data, often using different models for each. This separation pairs naturally with eventual consistency, where updates propagate across a system over time instead of instantly. These patterns are common in distributed systems where strict, immediate consistency would hurt performance or scalability.",
+      "resources": [
+        {
+          "id": "RsnN5bt8OhSMjSFmVgw-X-res-1",
+          "type": "article",
+          "title": "CQRS",
+          "url": "https://martinfowler.com/bliki/CQRS.html"
+        },
+        {
+          "id": "RsnN5bt8OhSMjSFmVgw-X-res-2",
+          "type": "article",
+          "title": "Introduction to CQRS",
+          "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/cqrs"
+        }
+      ]
+    },
+    "B5YtP8C1A0jB3MOdg0c_q": {
+      "id": "B5YtP8C1A0jB3MOdg0c_q",
+      "slug": "datawarehouse-principles",
+      "title": "Datawarehouses Principles",
+      "description": "Data warehouse principles cover how to design storage systems optimized for analytical queries rather than transactional workloads. This includes concepts like star and snowflake schemas, fact and dimension tables, and strategies for handling historical data changes. Understanding these principles helps an architect design systems that support reliable reporting and business intelligence.",
+      "resources": [
+        {
+          "id": "B5YtP8C1A0jB3MOdg0c_q-res-1",
+          "type": "article",
+          "title": "Toptal Developers Website",
+          "url": "https://www.toptal.com/data-science/data-warehouse-concepts-principles"
+        }
+      ]
+    },
+    "IIelzs8XYMPnXabFKRI51": {
+      "id": "IIelzs8XYMPnXabFKRI51",
+      "slug": "ddd",
+      "title": "DDD",
+      "description": "Domain driven design structures software around the business domain it serves, using a shared language between developers and domain experts called the ubiquitous language. It introduces concepts like bounded contexts and aggregates to manage complexity in large systems. DDD is especially useful when building software for complex business domains where getting the model right matters more than technical novelty.",
+      "resources": [
+        {
+          "id": "IIelzs8XYMPnXabFKRI51-res-1",
+          "type": "article",
+          "title": "DDD Starter Modelling Process",
+          "url": "https://github.com/ddd-crew/ddd-starter-modelling-process/"
+        },
+        {
+          "id": "IIelzs8XYMPnXabFKRI51-res-2",
+          "type": "article",
+          "title": "Domain Driven Design Quickly",
+          "url": "https://web.archive.org/web/20230606035225/https://matfrs2.github.io/RS2/predavanja/literatura/Avram%20A,%20Marinescu%20F.%20-%20Domain%20Driven%20Design%20Quickly.pdf"
+        },
+        {
+          "id": "IIelzs8XYMPnXabFKRI51-res-3",
+          "type": "article",
+          "title": "Explore top posts about Architecture",
+          "url": "https://app.daily.dev/tags/architecture?ref=roadmapsh"
+        }
+      ]
+    },
+    "MSDo0nPk_ghRYkZS4MAQ_": {
+      "id": "MSDo0nPk_ghRYkZS4MAQ_",
+      "slug": "decision-making",
+      "title": "Decision Making",
+      "description": "Decision making covers evaluating trade offs and choosing a direction when there is no single obviously correct answer. Architects constantly weigh factors like cost, performance, team skill, and time to market when picking a technology or pattern. Good decision making relies on gathering enough information without getting stuck waiting for a perfect answer that may never come.",
+      "resources": [
+        {
+          "id": "MSDo0nPk_ghRYkZS4MAQ_-res-1",
+          "type": "article",
+          "title": "Decision Making - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Decision-making"
+        }
+      ]
+    },
+    "fBd2m8tMJmhuNSaakrpg4": {
+      "id": "fBd2m8tMJmhuNSaakrpg4",
+      "slug": "design--architecture",
+      "title": "Design & Architecture",
+      "description": "This skill covers applying design principles and architectural patterns to real systems, not just knowing them in theory. It means knowing when to use a microservices approach versus a monolith, or when a simple layered design is enough. Strong design and architecture skills come from experience applying patterns across different kinds of projects and learning from what worked and what did not.",
+      "resources": [
+        {
+          "id": "fBd2m8tMJmhuNSaakrpg4-res-1",
+          "type": "article",
+          "title": "Visit Dedicated Software Design Roadmap",
+          "url": "https://roadmap.sh/software-design-architecture"
+        },
+        {
+          "id": "fBd2m8tMJmhuNSaakrpg4-res-2",
+          "type": "article",
+          "title": "Design Patterns for Humans",
+          "url": "https://github.com/nilbuild/design-patterns-for-humans"
+        }
+      ]
+    },
+    "j7OP6RD_IAU6HsyiGaynx": {
+      "id": "j7OP6RD_IAU6HsyiGaynx",
+      "slug": "distributed-systems",
+      "title": "Distributed Systems",
+      "description": "Distributed systems consist of multiple independent components running on different machines that communicate over a network to work as a single system. They introduce challenges like network latency, partial failures, and data consistency that do not exist in single machine applications. Architects designing distributed systems need to plan for failure as a normal condition rather than an exception.",
+      "resources": [
+        {
+          "id": "j7OP6RD_IAU6HsyiGaynx-res-1",
+          "type": "article",
+          "title": "Free Distributed Systems book from Maarten van Steen",
+          "url": "https://www.distributed-systems.net/index.php/books/ds3/"
+        },
+        {
+          "id": "j7OP6RD_IAU6HsyiGaynx-res-2",
+          "type": "article",
+          "title": "Distributed Architectures",
+          "url": "https://estuary.dev/distributed-architecture/"
+        },
+        {
+          "id": "j7OP6RD_IAU6HsyiGaynx-res-3",
+          "type": "article",
+          "title": "Explore top posts about Architecture",
+          "url": "https://app.daily.dev/tags/architecture?ref=roadmapsh"
+        }
+      ]
+    },
+    "5D-kbQ520k1D3fCtD01T7": {
+      "id": "5D-kbQ520k1D3fCtD01T7",
+      "slug": "documentation",
+      "title": "Documentation",
+      "description": "Architectural documentation is sometimes more and sometimes less important. Important documents are for example architectural decisions or code guidelines. Initial documentation is often required before coding starts and need to be refined continuously. Other documentation can be automatically generated as code can also be documentation, e.g. UML class diagrams.",
+      "resources": [
+        {
+          "id": "5D-kbQ520k1D3fCtD01T7-res-1",
+          "type": "article",
+          "title": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Documentation"
+        },
+        {
+          "id": "5D-kbQ520k1D3fCtD01T7-res-2",
+          "type": "article",
+          "title": "The Ultimate Guide To Software Architecture Documentation",
+          "url": "https://www.workingsoftware.dev/software-architecture-documentation-the-ultimate-guide/"
+        }
+      ]
+    },
+    "YfYviOXqGVp9C6DuhqBrn": {
+      "id": "YfYviOXqGVp9C6DuhqBrn",
+      "slug": "emc-dms",
+      "title": "EMC and DMS",
+      "description": "EMC's document management systems provide enterprise level tools for storing, organizing, and controlling access to documents and records at scale. These systems focus on compliance, versioning, and retention policies important for regulated industries. Architects integrating with EMC DMS need to understand how document workflows and metadata fit into a broader enterprise system.",
+      "resources": [
+        {
+          "id": "YfYviOXqGVp9C6DuhqBrn-res-1",
+          "type": "article",
+          "title": "DMS",
+          "url": "https://www.opentext.com/products/documentum-content-management"
+        },
+        {
+          "id": "YfYviOXqGVp9C6DuhqBrn-res-2",
+          "type": "article",
+          "title": "EMC Software",
+          "url": "https://www.spiceworks.com/collaboration/content-collaboration/articles/top-10-enterprise-content-management-software-systems/"
+        }
+      ]
+    },
+    "vlW07sc-FQnxPMjDMn8_F": {
+      "id": "vlW07sc-FQnxPMjDMn8_F",
+      "slug": "enterprise-architecture",
+      "title": "Enterprise Level Architecture",
+      "description": "The highest level of architecture. Focus on multiple solutions. High level, abstract design, which needs to be detailed out by solution or application architects. Communication is across the organization.",
+      "resources": [
+        {
+          "id": "vlW07sc-FQnxPMjDMn8_F-res-1",
+          "type": "article",
+          "title": "Enterprise Software Architecture",
+          "url": "https://medium.com/@hsienwei/enterprise-software-architecture-957288829daa"
+        },
+        {
+          "id": "vlW07sc-FQnxPMjDMn8_F-res-2",
+          "type": "article",
+          "title": "Enterprise Architect vs Software Architect",
+          "url": "https://www.linkedin.com/pulse/enterprise-architect-vs-software-who-you-luigi-saggese/"
+        },
+        {
+          "id": "vlW07sc-FQnxPMjDMn8_F-res-3",
+          "type": "article",
+          "title": "Explore top posts about Architecture",
+          "url": "https://app.daily.dev/tags/architecture?ref=roadmapsh"
+        }
+      ]
+    },
+    "8yALyPVUZPtd7LX3GrO1e": {
+      "id": "8yALyPVUZPtd7LX3GrO1e",
+      "slug": "enterprise-software",
+      "title": "Enterprise Software",
+      "description": "Enterprise software refers to software applications that are designed to meet the needs of large organizations or enterprises. These applications are typically complex, scalable, and capable of integrating with other systems to support a wide range of business functions. Enterprise software is used to improve efficiency, streamline processes, and enhance productivity across various departments within an organization.",
+      "resources": [
+        {
+          "id": "8yALyPVUZPtd7LX3GrO1e-res-1",
+          "type": "article",
+          "title": "Enterprise Software",
+          "url": "https://en.wikipedia.org/wiki/Enterprise_software"
+        }
+      ]
+    },
+    "fELnBA0eOoE-d9rSmDJ8l": {
+      "id": "fELnBA0eOoE-d9rSmDJ8l",
+      "slug": "esb-soap",
+      "title": "ESB and SOAP",
+      "description": "ESB (Enterprise Service Bus) and SOAP (Simple Object Access Protocol) are two technologies that enable communication between different systems. ESB is a software architecture that allows for the integration of various systems, such as databases, web services, and mobile applications. SOAP is a messaging protocol that enables the exchange of structured data between systems over the internet.",
+      "resources": [
+        {
+          "id": "fELnBA0eOoE-d9rSmDJ8l-res-1",
+          "type": "article",
+          "title": "Understanding SOAP: The Old Guard of Web Services",
+          "url": "https://mariomthree.medium.com/understanding-soap-the-old-guard-of-web-services-6ca89d8ec312"
+        },
+        {
+          "id": "fELnBA0eOoE-d9rSmDJ8l-res-2",
+          "type": "article",
+          "title": "Enterprise Service Bus",
+          "url": "https://en.wikipedia.org/wiki/Enterprise_service_bus"
+        },
+        {
+          "id": "fELnBA0eOoE-d9rSmDJ8l-res-3",
+          "type": "article",
+          "title": "ESB - IBM",
+          "url": "https://www.ibm.com/topics/esb"
+        }
+      ]
+    },
+    "m0ZYdqPFDoHOPo18wKyvV": {
+      "id": "m0ZYdqPFDoHOPo18wKyvV",
+      "slug": "estimate-and-evaluate",
+      "title": "Estimate and Evaluate",
+      "description": "Estimating and evaluating involves judging the time, cost, and effort a technical solution will require, as well as assessing whether an existing system meets its goals. Architects use this skill when planning new projects and when reviewing whether current systems are still fit for purpose. Accurate estimates depend on experience and an honest understanding of a team's capabilities.",
+      "resources": [
+        {
+          "id": "m0ZYdqPFDoHOPo18wKyvV-res-1",
+          "type": "article",
+          "title": "Evaluating Software Architectures",
+          "url": "https://medium.com/oolooroo/evaluating-digital-architectures-a-deep-dive-into-modern-software-systems-analysis-dff3b0d2da8f"
+        },
+        {
+          "id": "m0ZYdqPFDoHOPo18wKyvV-res-2",
+          "type": "article",
+          "title": "How to Evaluate Software Architecture: Methods and Tools",
+          "url": "https://www.linkedin.com/advice/0/what-most-common-software-architecture-evaluation"
+        }
+      ]
+    },
+    "JUFE4OQhnXOt1J_MG-Sjf": {
+      "id": "JUFE4OQhnXOt1J_MG-Sjf",
+      "slug": "etl-datawarehouses",
+      "title": "ETL Datawarehouses",
+      "description": "ETL (Extract, Transform, Load) is a key process in data warehousing, enabling the integration of data from multiple sources into a centralized database. The process begins by **extracting** data from original sources, followed by **transforming** it to ensure quality, deduplication, and combination, and finally **loading** it into the target database. ETL tools streamline this process, allowing companies to consolidate diverse data types and ensure seamless integration for effective data analysis and decision-making.",
+      "resources": [
+        {
+          "id": "JUFE4OQhnXOt1J_MG-Sjf-res-1",
+          "type": "article",
+          "title": "What is ETL?",
+          "url": "https://www.snowflake.com/guides/what-etl"
+        },
+        {
+          "id": "JUFE4OQhnXOt1J_MG-Sjf-res-2",
+          "type": "video",
+          "title": "ETL Explained",
+          "url": "https://www.youtube.com/watch?v=OW5OgsLpDCQ"
+        },
+        {
+          "id": "JUFE4OQhnXOt1J_MG-Sjf-res-3",
+          "type": "article",
+          "title": "Explore top posts about ETL",
+          "url": "https://app.daily.dev/tags/etl?ref=roadmapsh"
+        }
+      ]
+    },
+    "Hqk_GGsFi14SI5fgPSoGV": {
+      "id": "Hqk_GGsFi14SI5fgPSoGV",
+      "slug": "firewalls",
+      "title": "Firewalls",
+      "description": "A Firewall is a network security device that monitors and filters incoming and outgoing network traffic based on an organization's previously established security policies. Firewalls usually sit between a trusted network and an untrusted network; oftentimes the untrusted network is the Internet. For example, office networks often use a firewall to protect their network from online threats.",
+      "resources": [
+        {
+          "id": "Hqk_GGsFi14SI5fgPSoGV-res-1",
+          "type": "article",
+          "title": "What is a Firewall? - Cloudflare",
+          "url": "https://www.cloudflare.com/learning/security/what-is-a-firewall/"
+        },
+        {
+          "id": "Hqk_GGsFi14SI5fgPSoGV-res-2",
+          "type": "article",
+          "title": "Firewall - Cisco",
+          "url": "https://www.cisco.com/site/us/en/learn/topics/security/what-is-a-firewall.html"
+        }
+      ]
+    },
+    "hjlkxYZS7Zf9En3IUS-Wm": {
+      "id": "hjlkxYZS7Zf9En3IUS-Wm",
+      "slug": "frameworks",
+      "title": "Architect Frameworks",
+      "description": "This section covers frameworks and methodologies used specifically for enterprise architecture modeling and business analysis, distinct from software development frameworks. They provide structured approaches for documenting and communicating architecture at an organizational level. Familiarity with these frameworks matters most for architects working in large, formally structured enterprises.",
+      "resources": [
+        {
+          "id": "hjlkxYZS7Zf9En3IUS-Wm-res-1",
+          "type": "article",
+          "title": "Architect Frameworks",
+          "url": "https://www.techtarget.com/searchapparchitecture/definition/enterprise-architecture-framework"
+        },
+        {
+          "id": "hjlkxYZS7Zf9En3IUS-Wm-res-2",
+          "type": "article",
+          "title": "Common Software Architecture Frameworks",
+          "url": "https://medium.com/@publicapplicationcenter/tutorial-notes-common-software-architecture-frameworks-1a9915e1d806"
+        }
+      ]
+    },
+    "6FDGecsHbqY-cm32yTZJa": {
+      "id": "6FDGecsHbqY-cm32yTZJa",
+      "slug": "functional-programming",
+      "title": "Functional Programming",
+      "description": "Functional programming treats computation as the evaluation of pure functions, avoiding shared state and mutable data where possible. This style makes code easier to test and reason about, since functions with no side effects behave predictably given the same input. Concepts from functional programming, like immutability and pure functions, increasingly appear even in languages that are not purely functional.",
+      "resources": [
+        {
+          "id": "6FDGecsHbqY-cm32yTZJa-res-1",
+          "type": "article",
+          "title": "Functional Programming",
+          "url": "https://en.wikipedia.org/wiki/Functional_programming"
+        },
+        {
+          "id": "6FDGecsHbqY-cm32yTZJa-res-2",
+          "type": "article",
+          "title": "Functional Programming with JavaScript",
+          "url": "https://www.telerik.com/blogs/functional-programming-javascript"
+        },
+        {
+          "id": "6FDGecsHbqY-cm32yTZJa-res-3",
+          "type": "video",
+          "title": "Learning Functional Programming",
+          "url": "https://youtube.com/watch?v=e-5obm1G_FY"
+        }
+      ]
+    },
+    "ZEzYb-i55hBe9kK3bla94": {
+      "id": "ZEzYb-i55hBe9kK3bla94",
+      "slug": "git",
+      "title": "Git",
+      "description": "Git is a distributed version control system that tracks changes to code over time and allows multiple developers to work on the same project without overwriting each other's work. It supports branching and merging workflows that let teams develop features in isolation before combining them. Almost every modern software project relies on Git as its foundation for source control.",
+      "resources": [
+        {
+          "id": "ZEzYb-i55hBe9kK3bla94-res-1",
+          "type": "article",
+          "title": "Visit Dedicated Git & GitHub Roadmap",
+          "url": "https://roadmap.sh/git-github"
+        },
+        {
+          "id": "ZEzYb-i55hBe9kK3bla94-res-2",
+          "type": "course",
+          "title": "Why use Git? (Interactive Lesson)",
+          "url": "https://inter-git.com/lessons/introduction"
+        },
+        {
+          "id": "ZEzYb-i55hBe9kK3bla94-res-3",
+          "type": "article",
+          "title": "Git by Example - Learn Version Control with Bite-sized Lessons",
+          "url": "https://antonz.org/git-by-example/"
+        },
+        {
+          "id": "ZEzYb-i55hBe9kK3bla94-res-4",
+          "type": "article",
+          "title": "Tutorial: Git for Absolutely Everyone",
+          "url": "https://thenewstack.io/tutorial-git-for-absolutely-everyone/"
+        },
+        {
+          "id": "ZEzYb-i55hBe9kK3bla94-res-5",
+          "type": "video",
+          "title": "Git & GitHub Crash Course For Beginners",
+          "url": "https://www.youtube.com/watch?v=SWYqp7iY_Tc"
+        }
+      ]
+    },
+    "PyTuVs08_z4EhLwhTYzFu": {
+      "id": "PyTuVs08_z4EhLwhTYzFu",
+      "slug": "github",
+      "title": "GitHub",
+      "description": "GitHub has become a central hub for open-source projects and is widely used by developers, companies, and organizations for both private and public repositories. It was acquired by Microsoft in 2018 but continues to operate as a relatively independent entity. GitHub's popularity has made it an essential tool in modern software development workflows and a key platform for showcasing coding projects and contributing to open-source software.",
+      "resources": [
+        {
+          "id": "PyTuVs08_z4EhLwhTYzFu-res-1",
+          "type": "article",
+          "title": "Visit Dedicated Git & GitHub Roadmap",
+          "url": "https://roadmap.sh/git-github"
+        },
+        {
+          "id": "PyTuVs08_z4EhLwhTYzFu-res-2",
+          "type": "article",
+          "title": "GitHub",
+          "url": "https://github.com"
+        },
+        {
+          "id": "PyTuVs08_z4EhLwhTYzFu-res-3",
+          "type": "article",
+          "title": "GitHub: Quickstart",
+          "url": "https://docs.github.com/en/get-started/quickstart/hello-world"
+        },
+        {
+          "id": "PyTuVs08_z4EhLwhTYzFu-res-4",
+          "type": "article",
+          "title": "GitHub Documentation",
+          "url": "https://docs.github.com/en/get-started/quickstart"
+        },
+        {
+          "id": "PyTuVs08_z4EhLwhTYzFu-res-5",
+          "type": "article",
+          "title": "Learn GitHub by doing",
+          "url": "https://skills.github.com/"
+        },
+        {
+          "id": "PyTuVs08_z4EhLwhTYzFu-res-6",
+          "type": "video",
+          "title": "What is GitHub?",
+          "url": "https://www.youtube.com/watch?v=w3jLJU7DT5E"
+        },
+        {
+          "id": "PyTuVs08_z4EhLwhTYzFu-res-7",
+          "type": "article",
+          "title": "Explore top posts about GitHub",
+          "url": "https://app.daily.dev/tags/github?ref=roadmapsh"
+        }
+      ]
+    },
+    "nKlM9k4qAh4wBFXqM-2kC": {
+      "id": "nKlM9k4qAh4wBFXqM-2kC",
+      "slug": "go",
+      "title": "Go",
+      "description": "Go is an open source programming language supported by Google. Go can be used to write cloud services, CLI tools, used for API development, and much more.",
+      "resources": [
+        {
+          "id": "nKlM9k4qAh4wBFXqM-2kC-res-1",
+          "type": "article",
+          "title": "Visit Dedicated Go Roadmap",
+          "url": "https://roadmap.sh/golang"
+        },
+        {
+          "id": "nKlM9k4qAh4wBFXqM-2kC-res-2",
+          "type": "article",
+          "title": "A Tour of Go – Go Basics",
+          "url": "https://go.dev/tour/welcome/1"
+        },
+        {
+          "id": "nKlM9k4qAh4wBFXqM-2kC-res-3",
+          "type": "article",
+          "title": "Go Reference Documentation",
+          "url": "https://go.dev/doc/"
+        },
+        {
+          "id": "nKlM9k4qAh4wBFXqM-2kC-res-4",
+          "type": "article",
+          "title": "Go by Example - annotated example programs",
+          "url": "https://gobyexample.com/"
+        }
+      ]
+    },
+    "Sp3FdPT4F9YnTGvlE_vyq": {
+      "id": "Sp3FdPT4F9YnTGvlE_vyq",
+      "slug": "graphql",
+      "title": "Graphql",
+      "description": "GraphQL is a query language and runtime for APIs, developed by Facebook. GraphQL's flexibility and efficiency make it popular for building complex applications, especially those with diverse client requirements. It's particularly useful for mobile applications where bandwidth efficiency is crucial. While it requires a paradigm shift from REST, many developers and organizations find GraphQL's benefits outweigh the learning curve, especially for large-scale or rapidly evolving APIs.",
+      "resources": [
+        {
+          "id": "Sp3FdPT4F9YnTGvlE_vyq-res-1",
+          "type": "article",
+          "title": "Visit Dedicated GraphQL Roadmap",
+          "url": "https://roadmap.sh/graphql"
+        },
+        {
+          "id": "Sp3FdPT4F9YnTGvlE_vyq-res-2",
+          "type": "article",
+          "title": "Introduction to GraphQL",
+          "url": "https://graphql.org/learn/"
+        },
+        {
+          "id": "Sp3FdPT4F9YnTGvlE_vyq-res-3",
+          "type": "article",
+          "title": "Introduction to GraphQL",
+          "url": "https://thenewstack.io/introduction-to-graphql/"
+        },
+        {
+          "id": "Sp3FdPT4F9YnTGvlE_vyq-res-4",
+          "type": "article",
+          "title": "How to Execute a Simple GraphQL Query",
+          "url": "https://thenewstack.io/how-to-execute-a-simple-graphql-query/"
+        },
+        {
+          "id": "Sp3FdPT4F9YnTGvlE_vyq-res-5",
+          "type": "video",
+          "title": "GraphQL Course for Beginners",
+          "url": "https://www.youtube.com/watch?v=ed8SzALpx1Q"
+        }
+      ]
+    },
+    "priDGksAvJ05YzakkTFtM": {
+      "id": "priDGksAvJ05YzakkTFtM",
+      "slug": "grpc",
+      "title": "gRPC",
+      "description": "gRPC is a high performance remote procedure call framework that uses HTTP/2 and Protocol Buffers to enable fast, efficient communication between services. It supports streaming and strongly typed contracts, making it a common choice for internal service to service communication in microservices architectures. Compared to REST, gRPC generally offers better performance but is less human readable and less suited to public facing APIs.",
+      "resources": [
+        {
+          "id": "priDGksAvJ05YzakkTFtM-res-1",
+          "type": "article",
+          "title": "gRPC Website",
+          "url": "https://grpc.io/"
+        },
+        {
+          "id": "priDGksAvJ05YzakkTFtM-res-2",
+          "type": "article",
+          "title": "gRPC Introduction",
+          "url": "https://grpc.io/docs/what-is-grpc/introduction/"
+        },
+        {
+          "id": "priDGksAvJ05YzakkTFtM-res-3",
+          "type": "article",
+          "title": "gRPC Core Concepts",
+          "url": "https://grpc.io/docs/what-is-grpc/core-concepts/"
+        },
+        {
+          "id": "priDGksAvJ05YzakkTFtM-res-4",
+          "type": "video",
+          "title": "Stephane Maarek - gRPC Introduction",
+          "url": "https://youtu.be/XRXTsQwyZSU"
+        }
+      ]
+    },
+    "92GG4IRZ3FijumC94aL-T": {
+      "id": "92GG4IRZ3FijumC94aL-T",
+      "slug": "hadoop-spark-mapreduce",
+      "title": "Spark, Hadoop MapReduce",
+      "description": "Hadoop, Spark, and MapReduce are frameworks for processing large datasets across clusters of machines. MapReduce, the original model, splits processing into map and reduce steps distributed across nodes, while Spark improves on this with in memory processing for much faster performance. Architects consider these tools when a system needs to process data at a scale that a single machine cannot handle.",
+      "resources": [
+        {
+          "id": "92GG4IRZ3FijumC94aL-T-res-1",
+          "type": "article",
+          "title": "Apache Spark",
+          "url": "https://spark.apache.org/"
+        },
+        {
+          "id": "92GG4IRZ3FijumC94aL-T-res-2",
+          "type": "article",
+          "title": "Spark vs Hadoop MapReduce",
+          "url": "https://www.integrate.io/blog/apache-spark-vs-hadoop-mapreduce"
+        },
+        {
+          "id": "92GG4IRZ3FijumC94aL-T-res-3",
+          "type": "video",
+          "title": "Hadoop explained in 5 minutes",
+          "url": "https://www.youtube.com/watch?v=aReuLtY0YMI"
+        },
+        {
+          "id": "92GG4IRZ3FijumC94aL-T-res-4",
+          "type": "article",
+          "title": "Explore top posts about Apache Spark",
+          "url": "https://app.daily.dev/tags/spark?ref=roadmapsh"
+        }
+      ]
+    },
+    "I_VjjmMK52_tS8qjQUspN": {
+      "id": "I_VjjmMK52_tS8qjQUspN",
+      "slug": "hadoop",
+      "title": "Hadoop",
+      "description": "Hadoop is an open source framework for distributed storage and processing of large datasets across clusters of commodity hardware. Its core components include HDFS for storage and MapReduce for processing, though many projects now pair Hadoop's storage with faster engines like Spark. It remains common in enterprises with established big data infrastructure built around it.",
+      "resources": [
+        {
+          "id": "I_VjjmMK52_tS8qjQUspN-res-1",
+          "type": "article",
+          "title": "Apache Hadoop",
+          "url": "https://hadoop.apache.org/"
+        },
+        {
+          "id": "I_VjjmMK52_tS8qjQUspN-res-2",
+          "type": "article",
+          "title": "Apache Hadoop - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Apache_Hadoop"
+        },
+        {
+          "id": "I_VjjmMK52_tS8qjQUspN-res-3",
+          "type": "article",
+          "title": "Explore top posts about Apache Hadoop",
+          "url": "https://app.daily.dev/tags/apache-hadoop?ref=roadmapsh"
+        }
+      ]
+    },
+    "7tBAD0ox9hTK4D483GTRo": {
+      "id": "7tBAD0ox9hTK4D483GTRo",
+      "slug": "hashing-algorithms",
+      "title": "Hashing Algorithms",
+      "description": "Hashing algorithms are used to generate a unique value for a given input. This value is called a hash. Hashing algorithms are used to verify the integrity of data, to store passwords, and to generate unique identifiers for data.",
+      "resources": [
+        {
+          "id": "7tBAD0ox9hTK4D483GTRo-res-1",
+          "type": "article",
+          "title": "What is Hashing?",
+          "url": "https://www.codecademy.com/resources/blog/what-is-hashing/"
+        },
+        {
+          "id": "7tBAD0ox9hTK4D483GTRo-res-2",
+          "type": "video",
+          "title": "Hashing Algorithms and Security - Computerphile",
+          "url": "https://www.youtube.com/watch?v=b4b8ktEV4Bg"
+        },
+        {
+          "id": "7tBAD0ox9hTK4D483GTRo-res-3",
+          "type": "video",
+          "title": "Top Hashing Algorithms In Cryptography | MD5 and SHA 256 Algorithms Explained | Simplilearn",
+          "url": "https://www.youtube.com/watch?v=Plp4F3ZfC7A"
+        },
+        {
+          "id": "7tBAD0ox9hTK4D483GTRo-res-4",
+          "type": "video",
+          "title": "SHA: Secure Hashing Algorithm - Computerphile",
+          "url": "https://www.youtube.com/watch?v=DMtFhACPnTY"
+        }
+      ]
+    },
+    "77KvWCA1oHSGgDKBTwjv7": {
+      "id": "77KvWCA1oHSGgDKBTwjv7",
+      "slug": "how-to-code",
+      "title": "How to Code",
+      "description": "An architect needs strong coding skills to design realistic solutions and earn credibility with the development team. Writing code themselves helps them understand the practical constraints of the technologies they choose and spot problems before they become costly. Staying hands on also keeps their architectural decisions grounded in real implementation experience rather than theory alone.",
+      "resources": [
+        {
+          "id": "77KvWCA1oHSGgDKBTwjv7-res-1",
+          "type": "article",
+          "title": "How to Code – Coding for Beginners and How to Learn Programming for Free",
+          "url": "https://www.freecodecamp.org/news/how-to-code-coding-for-beginners-and-how-to-learn-programming-for-free/"
+        },
+        {
+          "id": "77KvWCA1oHSGgDKBTwjv7-res-2",
+          "type": "article",
+          "title": "Technology Radar",
+          "url": "https://www.thoughtworks.com/radar"
+        },
+        {
+          "id": "77KvWCA1oHSGgDKBTwjv7-res-3",
+          "type": "video",
+          "title": "coding is easy, actually",
+          "url": "https://www.youtube.com/watch?v=qkFYqY3vr84"
+        }
+      ]
+    },
+    "Nq6o6Ty8VyNRsvg-UWp7D": {
+      "id": "Nq6o6Ty8VyNRsvg-UWp7D",
+      "slug": "http-https",
+      "title": "HTTP, HTTPS",
+      "description": "HTTP is the protocol that underlies most communication on the web, defining how clients and servers exchange requests and responses. HTTPS adds encryption on top of HTTP using TLS, protecting data in transit from being read or altered by third parties. Nearly every modern web architecture relies on a solid understanding of how these protocols handle requests, headers, and status codes.",
+      "resources": [
+        {
+          "id": "Nq6o6Ty8VyNRsvg-UWp7D-res-1",
+          "type": "article",
+          "title": "What is HTTPS?",
+          "url": "https://www.cloudflare.com/en-gb/learning/ssl/what-is-https/"
+        },
+        {
+          "id": "Nq6o6Ty8VyNRsvg-UWp7D-res-2",
+          "type": "article",
+          "title": "What is HTTP?",
+          "url": "https://www.cloudflare.com/en-gb/learning/ddos/glossary/hypertext-transfer-protocol-http/"
+        },
+        {
+          "id": "Nq6o6Ty8VyNRsvg-UWp7D-res-3",
+          "type": "article",
+          "title": "Overview of HTTP",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview"
+        },
+        {
+          "id": "Nq6o6Ty8VyNRsvg-UWp7D-res-4",
+          "type": "article",
+          "title": "Everything you need to know about HTTP",
+          "url": "https://cs.fyi/guide/http-in-depth"
+        },
+        {
+          "id": "Nq6o6Ty8VyNRsvg-UWp7D-res-5",
+          "type": "article",
+          "title": "HTTP/3 From A To Z: Core Concepts",
+          "url": "https://www.smashingmagazine.com/2021/08/http3-core-concepts-part1/"
+        },
+        {
+          "id": "Nq6o6Ty8VyNRsvg-UWp7D-res-6",
+          "type": "article",
+          "title": "Why HTTPS Matters",
+          "url": "https://developers.google.com/web/fundamentals/security/encrypt-in-transit/why-https"
+        },
+        {
+          "id": "Nq6o6Ty8VyNRsvg-UWp7D-res-7",
+          "type": "article",
+          "title": "Enabling HTTPS on Your Servers",
+          "url": "https://developers.google.com/web/fundamentals/security/encrypt-in-transit/enable-https"
+        },
+        {
+          "id": "Nq6o6Ty8VyNRsvg-UWp7D-res-8",
+          "type": "video",
+          "title": "HTTP Crash Course & Exploration",
+          "url": "https://www.youtube.com/watch?v=iYM2zFP3Zn0"
+        }
+      ]
+    },
+    "wFu9VO48EYbIQrsM8YUCj": {
+      "id": "wFu9VO48EYbIQrsM8YUCj",
+      "slug": "iaf",
+      "title": "Iaf",
+      "description": "The Integrated Architecture Framework is a methodology for enterprise architecture that structures architecture work across business, information, and technology domains. It provides a consistent way to model how different aspects of an organization's architecture relate to each other. Architects use frameworks like IAF when working in organizations that require formal architecture governance.",
+      "resources": [
+        {
+          "id": "wFu9VO48EYbIQrsM8YUCj-res-1",
+          "type": "article",
+          "title": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Integrated_Architecture_Framework"
+        },
+        {
+          "id": "wFu9VO48EYbIQrsM8YUCj-res-2",
+          "type": "article",
+          "title": "IAF PDF",
+          "url": "https://www.capgemini.com/wp-content/uploads/2018/03/architecture-for-the-information-age.pdf"
+        }
+      ]
+    },
+    "5EVecZmvor09LjD7WR_Y9": {
+      "id": "5EVecZmvor09LjD7WR_Y9",
+      "slug": "ibm-bpm",
+      "title": "IBM BPM",
+      "description": "IBM Business Process Manager is a platform for modeling, automating, and monitoring business processes within an organization. It provides tools for both business analysts and developers to design workflows and integrate them with existing enterprise systems. Architects encounter IBM BPM in enterprises that have standardized on IBM's middleware stack for process automation.",
+      "resources": [
+        {
+          "id": "5EVecZmvor09LjD7WR_Y9-res-1",
+          "type": "article",
+          "title": "Overview BPM",
+          "url": "https://www.ibm.com/docs/en/bpm/8.5.5?topic=manager-business-process-overview"
+        },
+        {
+          "id": "5EVecZmvor09LjD7WR_Y9-res-2",
+          "type": "video",
+          "title": "BPM Demo",
+          "url": "https://www.youtube.com/watch?v=6yn4nCWMNLI"
+        },
+        {
+          "id": "5EVecZmvor09LjD7WR_Y9-res-3",
+          "type": "article",
+          "title": "Explore top posts about IBM",
+          "url": "https://app.daily.dev/tags/ibm?ref=roadmapsh"
+        }
+      ]
+    },
+    "lBtlDFPEQvQ_xtLtehU0S": {
+      "id": "lBtlDFPEQvQ_xtLtehU0S",
+      "slug": "important-skills-to-learn",
+      "title": "Important Skills to Learn",
+      "description": "Beyond technical knowledge, a software architect needs skills like clear communication, sound decision making, and the ability to simplify complex problems. These skills help them lead teams, justify technical choices to non technical stakeholders, and keep projects moving forward. Building these skills alongside technical expertise is what separates a senior developer from an effective architect.",
+      "resources": []
+    },
+    "igf9yp1lRdAlN5gyQ8HHC": {
+      "id": "igf9yp1lRdAlN5gyQ8HHC",
+      "slug": "infrastructure-as-code",
+      "title": "Infrastructure as Code",
+      "description": "Infrastructure as code manages servers, networks, and other infrastructure through machine readable configuration files instead of manual setup. Tools like Terraform or CloudFormation let teams version, review, and repeat infrastructure changes just like application code. Architects rely on this approach to ensure environments are consistent and reproducible across development, testing, and production.",
+      "resources": [
+        {
+          "id": "igf9yp1lRdAlN5gyQ8HHC-res-1",
+          "type": "article",
+          "title": "What is Infrastructure as Code",
+          "url": "https://www.redhat.com/en/topics/automation/what-is-infrastructure-as-code-iac"
+        },
+        {
+          "id": "igf9yp1lRdAlN5gyQ8HHC-res-2",
+          "type": "article",
+          "title": "GUIs, CLI, APIs: Learn Basic Terms of Infrastructure-as-Code",
+          "url": "https://thenewstack.io/guis-cli-apis-learn-basic-terms-of-infrastructure-as-code/"
+        },
+        {
+          "id": "igf9yp1lRdAlN5gyQ8HHC-res-3",
+          "type": "video",
+          "title": "What is Infrastructure as Code?",
+          "url": "https://www.youtube.com/watch?v=zWw2wuiKd5o"
+        },
+        {
+          "id": "igf9yp1lRdAlN5gyQ8HHC-res-4",
+          "type": "video",
+          "title": "What is Infrastructure as Code? Difference of Infrastructure as Code Tools",
+          "url": "https://www.youtube.com/watch?v=POPP2WTJ8es"
+        },
+        {
+          "id": "igf9yp1lRdAlN5gyQ8HHC-res-5",
+          "type": "video",
+          "title": "Introduction to Infrastructure as Code",
+          "url": "https://www.youtube.com/watch?v=zWw2wuiKd5o"
+        },
+        {
+          "id": "igf9yp1lRdAlN5gyQ8HHC-res-6",
+          "type": "article",
+          "title": "Explore top posts about Infrastructure",
+          "url": "https://app.daily.dev/tags/infrastructure?ref=roadmapsh"
+        }
+      ]
+    },
+    "Rq1Wi-cHjS54SYo-Btp-e": {
+      "id": "Rq1Wi-cHjS54SYo-Btp-e",
+      "slug": "itil",
+      "title": "ITIL",
+      "description": "ITIL is a framework for IT service management, focused on aligning IT services with the needs of the business through defined processes like incident, change, and problem management. It is commonly adopted in enterprises that need consistent, auditable processes for running IT operations. Architects benefit from understanding ITIL when their systems must integrate with an organization's existing service management practices.",
+      "resources": [
+        {
+          "id": "Rq1Wi-cHjS54SYo-Btp-e-res-1",
+          "type": "article",
+          "title": "ITIL Documentation",
+          "url": "https://www.axelos.com/certifications/itil-service-management/itil-4-foundation"
+        },
+        {
+          "id": "Rq1Wi-cHjS54SYo-Btp-e-res-2",
+          "type": "video",
+          "title": "What is ITIL?",
+          "url": "https://www.youtube.com/watch?v=wgnpfMK8vDk"
+        }
+      ]
+    },
+    "a5DB_hsD4bAf8BtHNFNPo": {
+      "id": "a5DB_hsD4bAf8BtHNFNPo",
+      "slug": "java--kotlin--scala--swift",
+      "title": "Java/Kotlin/Scala",
+      "description": "*   **Java**: Java is a widely-used, object-oriented programming language known for its platform independence, reliability, and scalability. It’s commonly used for building large-scale enterprise applications, Android development, and web services. Java’s extensive libraries, frameworks, and strong community support make it a popular choice for developers. *   **Scala**: Scala is a statically-typed programming language that combines object-oriented and functional programming paradigms. It runs on the Java Virtual Machine (JVM) and is known for its concise syntax, expressive power, and compatibility with Java. Scala is often used in data engineering, backend services, and applications requiring high concurrency. *   **Kotlin**: Kotlin is a modern, statically-typed programming language designed to be fully interoperable with Java while offering more concise and expressive syntax. It is particularly popular for Android development due to its simplicity and safety features, such as null safety, and is gaining traction in backend development as well.",
+      "resources": [
+        {
+          "id": "a5DB_hsD4bAf8BtHNFNPo-res-1",
+          "type": "article",
+          "title": "Visit Dedicated Java Roadmap",
+          "url": "https://roadmap.sh/java"
+        },
+        {
+          "id": "a5DB_hsD4bAf8BtHNFNPo-res-2",
+          "type": "article",
+          "title": "Visit Dedicated Kotlin Roadmap",
+          "url": "https://roadmap.sh/kotlin"
+        },
+        {
+          "id": "a5DB_hsD4bAf8BtHNFNPo-res-3",
+          "type": "article",
+          "title": "Java",
+          "url": "https://www.java.com/"
+        },
+        {
+          "id": "a5DB_hsD4bAf8BtHNFNPo-res-4",
+          "type": "article",
+          "title": "Kotlin",
+          "url": "https://kotlinlang.org/"
+        },
+        {
+          "id": "a5DB_hsD4bAf8BtHNFNPo-res-5",
+          "type": "article",
+          "title": "Scala Documentation",
+          "url": "https://docs.scala-lang.org/"
+        },
+        {
+          "id": "a5DB_hsD4bAf8BtHNFNPo-res-6",
+          "type": "article",
+          "title": "Swift Docs",
+          "url": "https://docs.swift.org/swift-book/documentation/the-swift-programming-language/guidedtour"
+        }
+      ]
+    },
+    "bhP5gMpRVebSFpCeHVXBj": {
+      "id": "bhP5gMpRVebSFpCeHVXBj",
+      "slug": "javascript--typescript",
+      "title": "JavaScript / TypeScript",
+      "description": "JavaScript is the primary language of the web, running in browsers and, through Node.js, on servers as well. TypeScript adds static typing on top of JavaScript, catching errors earlier and making large codebases easier to maintain. Architects working on web or full stack projects need to understand both languages to evaluate frontend and backend technology choices.",
+      "resources": [
+        {
+          "id": "bhP5gMpRVebSFpCeHVXBj-res-1",
+          "type": "article",
+          "title": "Visit Dedicated JavaScript Roadmap",
+          "url": "https://roadmap.sh/javascript"
+        },
+        {
+          "id": "bhP5gMpRVebSFpCeHVXBj-res-2",
+          "type": "article",
+          "title": "Visit Dedicated TypedScript Roadmap",
+          "url": "https://roadmap.sh/typescript"
+        },
+        {
+          "id": "bhP5gMpRVebSFpCeHVXBj-res-3",
+          "type": "article",
+          "title": "The Modern JavaScript Tutorial",
+          "url": "https://javascript.info/"
+        }
+      ]
+    },
+    "O7H6dt3Z7EKohxfJzwbPM": {
+      "id": "O7H6dt3Z7EKohxfJzwbPM",
+      "slug": "kanban",
+      "title": "Kanban",
+      "description": "Kanban is an agile method that visualizes work on a board with columns representing stages, helping teams manage flow and limit work in progress. It focuses on continuous delivery rather than fixed length iterations, making it flexible for teams with varying or unpredictable workloads. Architects use Kanban boards to track technical tasks and see bottlenecks in a team's workflow.",
+      "resources": [
+        {
+          "id": "O7H6dt3Z7EKohxfJzwbPM-res-1",
+          "type": "article",
+          "title": "What Is Kanban? A Simple Guide to Improve Efficiency.",
+          "url": "https://businessmap.io/kanban-resources/getting-started/what-is-kanban"
+        },
+        {
+          "id": "O7H6dt3Z7EKohxfJzwbPM-res-2",
+          "type": "article",
+          "title": "Kanban Methodology: The Simplest Agile Framework",
+          "url": "https://kissflow.com/project/agile/kanban-methodology/"
+        },
+        {
+          "id": "O7H6dt3Z7EKohxfJzwbPM-res-3",
+          "type": "article",
+          "title": "What is Kanban Methodology? The Ultimate Guide",
+          "url": "https://www.wrike.com/kanban-guide/what-is-kanban/"
+        }
+      ]
+    },
+    "05hLO2_A8Tr6cLJGFRhOh": {
+      "id": "05hLO2_A8Tr6cLJGFRhOh",
+      "slug": "layered",
+      "title": "Layered Architecture",
+      "description": "Layered architecture organizes a system into horizontal layers, such as presentation, business logic, and data access, where each layer only communicates with the ones directly above or below it. This separation makes it easier to change one layer without affecting the others, such as swapping a database without touching business rules. It is one of the oldest and most widely understood architectural styles.",
+      "resources": [
+        {
+          "id": "05hLO2_A8Tr6cLJGFRhOh-res-1",
+          "type": "article",
+          "title": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Layered_architecture"
+        }
+      ]
+    },
+    "qwpsGRFgzAYstM7bJA2ZJ": {
+      "id": "qwpsGRFgzAYstM7bJA2ZJ",
+      "slug": "less",
+      "title": "Less",
+      "description": "**LeSS** (Large-Scale-Scrum) is an agile framework designed to scale Scrum across multiple teams working on a single product. It adheres to Scrum's principles, emphasizing simplicity and continuous improvement. LeSS encourages coordination between teams by using a single backlog and a common Product Owner. Each team is responsible for parts of the product, but they collaborate in its joint development, with frequent feedback loops to adjust project direction. Its goal is to minimize bureaucracy and maximize value delivery in an agile and efficient way.",
+      "resources": [
+        {
+          "id": "qwpsGRFgzAYstM7bJA2ZJ-res-1",
+          "type": "article",
+          "title": "LeSS Framework",
+          "url": "https://less.works/less/framework"
+        },
+        {
+          "id": "qwpsGRFgzAYstM7bJA2ZJ-res-2",
+          "type": "video",
+          "title": "Introduction to LeSS",
+          "url": "https://www.youtube.com/watch?v=1BZf_Oa7W94"
+        }
+      ]
+    },
+    "2sR4KULvAUUoOtopvsEBs": {
+      "id": "2sR4KULvAUUoOtopvsEBs",
+      "slug": "levels-of-architecture",
+      "title": "Levels of Architecture",
+      "description": "Architecture can be described at different levels of scope, ranging from a single application to an entire organization. Application architecture deals with the internals of one system, solution architecture connects several systems to solve a business problem, and enterprise architecture aligns technology strategy across a whole company. Each level requires a different set of concerns and a different audience.",
+      "resources": []
+    },
+    "XnvlRrOhdoMsiGwGEhBro": {
+      "id": "XnvlRrOhdoMsiGwGEhBro",
+      "slug": "linux--unix",
+      "title": "Linux / Unix",
+      "description": "Knowledge of UNIX is a must for almost all kind of development as most of the codes that you write is most likely going to be finally deployed on a UNIX/Linux machine. Linux has been the backbone of the free and open source software movement, providing a simple and elegant operating system for almost all your needs.",
+      "resources": [
+        {
+          "id": "XnvlRrOhdoMsiGwGEhBro-res-1",
+          "type": "article",
+          "title": "Visit Dedicated Linux Roadmap",
+          "url": "https://roadmap.sh/linux"
+        },
+        {
+          "id": "XnvlRrOhdoMsiGwGEhBro-res-2",
+          "type": "course",
+          "title": "Coursera - Unix Courses",
+          "url": "https://www.coursera.org/courses?query=unix"
+        },
+        {
+          "id": "XnvlRrOhdoMsiGwGEhBro-res-3",
+          "type": "article",
+          "title": "Unix & Linux Tutorial",
+          "url": "https://www.tutorialspoint.com/unix/index.htm"
+        },
+        {
+          "id": "XnvlRrOhdoMsiGwGEhBro-res-4",
+          "type": "article",
+          "title": "Linux Basics",
+          "url": "https://dev.to/rudrakshi99/linux-basics-2onj"
+        },
+        {
+          "id": "XnvlRrOhdoMsiGwGEhBro-res-5",
+          "type": "video",
+          "title": "Linux Operating System - Crash Course",
+          "url": "https://www.youtube.com/watch?v=ROjZy1WbCIA"
+        }
+      ]
+    },
+    "UyIwiIiKaa6LTQaqzbCam": {
+      "id": "UyIwiIiKaa6LTQaqzbCam",
+      "slug": "management",
+      "title": "Management",
+      "description": "Management covers the certifications, methodologies, and organizational practices an architect encounters when working within structured project and process frameworks. This includes formal project management certifications as well as agile methodologies used to organize team work. Knowledge here helps an architect operate effectively within an organization's existing processes.",
+      "resources": [
+        {
+          "id": "UyIwiIiKaa6LTQaqzbCam-res-1",
+          "type": "article",
+          "title": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Management"
+        }
+      ]
+    },
+    "YW6j3Sg511dXToTcwSnOS": {
+      "id": "YW6j3Sg511dXToTcwSnOS",
+      "slug": "marketing-skills",
+      "title": "Marketing Skills",
+      "description": "Marketing skills help an architect present and sell technical ideas internally, convincing stakeholders and teams to adopt a proposed direction. This includes framing technical benefits in terms that matter to business decision makers, such as cost savings or reduced risk. Even the best architectural design needs buy in to actually get implemented.",
+      "resources": [
+        {
+          "id": "YW6j3Sg511dXToTcwSnOS-res-1",
+          "type": "article",
+          "title": "Marketing Skills for Architects",
+          "url": "https://openasset.com/blog/marketing-for-architects/"
+        }
+      ]
+    },
+    "4NVdEbmpQVHpBc7582S6E": {
+      "id": "4NVdEbmpQVHpBc7582S6E",
+      "slug": "messaging-queues",
+      "title": "Messaging queues",
+      "description": "Message queuing makes it possible for applications to communicate asynchronously, by sending messages to each other via a queue. A message queue provides temporary storage between the sender and the receiver so that the sender can keep operating without interruption when the destination program is busy or not connected.",
+      "resources": [
+        {
+          "id": "4NVdEbmpQVHpBc7582S6E-res-1",
+          "type": "article",
+          "title": "Messaging Queues",
+          "url": "https://aws.amazon.com/message-queue/"
+        },
+        {
+          "id": "4NVdEbmpQVHpBc7582S6E-res-2",
+          "type": "article",
+          "title": "Messaging Queues Tutorial",
+          "url": "https://www.tutorialspoint.com/inter_process_communication/inter_process_communication_message_queues.htm"
+        }
+      ]
+    },
+    "vpko5Kyf6BZ5MHpxXOKaf": {
+      "id": "vpko5Kyf6BZ5MHpxXOKaf",
+      "slug": "microfrontends",
+      "title": "Microfrontends",
+      "description": "Microfrontends is an architectural style where independently deliverable frontend applications built by different teams using different technologies are composed into a greater whole. Simply, a Micro-Frontend is a portion of a webpage (not the entire page). There is a “Host” or a “Container” page in the Micro-Frontend Architecture page that can host one or more Micro-Frontends.",
+      "resources": [
+        {
+          "id": "vpko5Kyf6BZ5MHpxXOKaf-res-1",
+          "type": "article",
+          "title": "Micro Frontends",
+          "url": "https://micro-frontends.org/"
+        },
+        {
+          "id": "vpko5Kyf6BZ5MHpxXOKaf-res-2",
+          "type": "video",
+          "title": "Micro-Frontends Course - Beginner to Expert",
+          "url": "https://www.youtube.com/watch?v=lKKsjpH09dU"
+        }
+      ]
+    },
+    "b6lCGw82qKpUmsxe1r1f5": {
+      "id": "b6lCGw82qKpUmsxe1r1f5",
+      "slug": "microservices",
+      "title": "Microservices",
+      "description": "Microservice architecture is a pattern in which highly cohesive, loosely coupled services are separately developed, maintained, and deployed. Each component handles an individual function, and when combined, the application handles an overall business function.",
+      "resources": [
+        {
+          "id": "b6lCGw82qKpUmsxe1r1f5-res-1",
+          "type": "article",
+          "title": "Pattern: Microservice Architecture",
+          "url": "https://microservices.io/patterns/microservices.html"
+        },
+        {
+          "id": "b6lCGw82qKpUmsxe1r1f5-res-2",
+          "type": "article",
+          "title": "What is Microservices?",
+          "url": "https://smartbear.com/solutions/microservices/"
+        },
+        {
+          "id": "b6lCGw82qKpUmsxe1r1f5-res-3",
+          "type": "article",
+          "title": "Microservices 101",
+          "url": "https://thenewstack.io/microservices-101/"
+        },
+        {
+          "id": "b6lCGw82qKpUmsxe1r1f5-res-4",
+          "type": "article",
+          "title": "Primer: Microservices Explained",
+          "url": "https://thenewstack.io/primer-microservices-explained/"
+        },
+        {
+          "id": "b6lCGw82qKpUmsxe1r1f5-res-5",
+          "type": "article",
+          "title": "Articles about Microservices",
+          "url": "https://thenewstack.io/category/microservices/"
+        }
+      ]
+    },
+    "gdtI0H_PzzTj_aFQn_NeA": {
+      "id": "gdtI0H_PzzTj_aFQn_NeA",
+      "slug": "ms-dynamics",
+      "title": "MS Dynamics",
+      "description": "Microsoft Dynamics is a suite of enterprise resource planning and customer relationship management applications used to manage business processes like sales, finance, and operations. It integrates closely with other Microsoft products, making it a common choice for organizations already invested in the Microsoft ecosystem. Architects working with Dynamics need to understand its data model and integration options when connecting it to other systems.",
+      "resources": [
+        {
+          "id": "gdtI0H_PzzTj_aFQn_NeA-res-1",
+          "type": "article",
+          "title": "Everything you ever wanted to know about Microsoft Dynamics",
+          "url": "https://www.nigelfrank.com/insights/everything-you-ever-wanted-to-know-about-dynamics-crm"
+        },
+        {
+          "id": "gdtI0H_PzzTj_aFQn_NeA-res-2",
+          "type": "video",
+          "title": "What is Microsoft Dynamics?",
+          "url": "https://www.youtube.com/watch?v=ogfclHWgqgE"
+        }
+      ]
+    },
+    "jj5otph6mEYiR-oU5WVtT": {
+      "id": "jj5otph6mEYiR-oU5WVtT",
+      "slug": "mvc-mvp-mvvm",
+      "title": "MVC, MVP, MVVM",
+      "description": "MVC, MVP, and MVVM are patterns for separating an application's data, logic, and user interface into distinct layers. MVC splits responsibilities between model, view, and controller, MVP replaces the controller with a presenter that handles view logic, and MVVM introduces a view model that binds data to the view automatically. Choosing between them depends on the platform and how much automatic data binding a framework supports.",
+      "resources": [
+        {
+          "id": "jj5otph6mEYiR-oU5WVtT-res-1",
+          "type": "article",
+          "title": "MVC, MVP and MVVM Design Pattern",
+          "url": "https://medium.com/@ankit.sinhal/mvc-mvp-and-mvvm-design-pattern-6e169567bbad"
+        },
+        {
+          "id": "jj5otph6mEYiR-oU5WVtT-res-2",
+          "type": "article",
+          "title": "Explore top posts about General Programming",
+          "url": "https://app.daily.dev/tags/general-programming?ref=roadmapsh"
+        }
+      ]
+    },
+    "D1IXOBUrrXf5bXhVu9cmI": {
+      "id": "D1IXOBUrrXf5bXhVu9cmI",
+      "slug": "net-framework-based",
+      "title": ".NET Framework Based",
+      "description": "The .NET ecosystem, built around languages like C#, is widely used for enterprise applications, especially in Windows centric environments. It provides a large set of libraries and tools for building web, desktop, and cloud applications. An architect working in enterprise settings often needs to understand .NET's strengths around tooling, performance, and integration with Microsoft infrastructure.",
+      "resources": [
+        {
+          "id": "D1IXOBUrrXf5bXhVu9cmI-res-1",
+          "type": "article",
+          "title": ".NET Website",
+          "url": "https://dotnet.microsoft.com/en-us/"
+        },
+        {
+          "id": "D1IXOBUrrXf5bXhVu9cmI-res-2",
+          "type": "article",
+          "title": "What is .NET?",
+          "url": "https://dotnet.microsoft.com/en-us/learn/dotnet/what-is-dotnet"
+        },
+        {
+          "id": "D1IXOBUrrXf5bXhVu9cmI-res-3",
+          "type": "article",
+          "title": "Why Choose .NET?",
+          "url": "https://dotnet.microsoft.com/en-us/platform/why-choose-dotnet"
+        },
+        {
+          "id": "D1IXOBUrrXf5bXhVu9cmI-res-4",
+          "type": "article",
+          "title": "C# Documentation",
+          "url": "https://learn.microsoft.com/en-us/dotnet/csharp/?WT.mc_id=dotnet-35129-website"
+        },
+        {
+          "id": "D1IXOBUrrXf5bXhVu9cmI-res-5",
+          "type": "article",
+          "title": "F# Documentation",
+          "url": "https://learn.microsoft.com/en-us/dotnet/fsharp/?WT.mc_id=dotnet-35129-website"
+        },
+        {
+          "id": "D1IXOBUrrXf5bXhVu9cmI-res-6",
+          "type": "article",
+          "title": "Visual Basic Documentation",
+          "url": "https://learn.microsoft.com/en-us/dotnet/visual-basic/?WT.mc_id=dotnet-35129-website"
+        }
+      ]
+    },
+    "cBWJ6Duw99tSKr7U6OW3A": {
+      "id": "cBWJ6Duw99tSKr7U6OW3A",
+      "slug": "networks",
+      "title": "Networks",
+      "description": "A computer network is a set of computers sharing resources located on or provided by network nodes. Computers use common communication protocols over digital interconnections to communicate with each other. These interconnections are made up of telecommunication network technologies based on physically wired, optical, and wireless radio-frequency methods that may be arranged in a variety of network topologies.",
+      "resources": [
+        {
+          "id": "cBWJ6Duw99tSKr7U6OW3A-res-1",
+          "type": "article",
+          "title": "Networking - IBM",
+          "url": "https://www.ibm.com/topics/networking"
+        },
+        {
+          "id": "cBWJ6Duw99tSKr7U6OW3A-res-2",
+          "type": "article",
+          "title": "Networking - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Networking"
+        },
+        {
+          "id": "cBWJ6Duw99tSKr7U6OW3A-res-3",
+          "type": "article",
+          "title": "Networking Basics",
+          "url": "https://www.cisco.com/c/en/us/solutions/small-business/resource-center/networking/networking-basics.html"
+        }
+      ]
+    },
+    "57liQPaPyVpE-mdLnsbi0": {
+      "id": "57liQPaPyVpE-mdLnsbi0",
+      "slug": "nosql-databases",
+      "title": "Nosql databases",
+      "description": "NoSQL databases store data in flexible formats like documents, key value pairs, or graphs, without requiring a fixed schema. They often trade strict consistency for better scalability and performance, making them suitable for large scale or rapidly changing data. Architects choose NoSQL databases when the data model does not fit neatly into relational tables or when horizontal scaling is a priority.",
+      "resources": [
+        {
+          "id": "57liQPaPyVpE-mdLnsbi0-res-1",
+          "type": "article",
+          "title": "NoSQL Database - AWS",
+          "url": "https://aws.amazon.com/nosql/"
+        },
+        {
+          "id": "57liQPaPyVpE-mdLnsbi0-res-2",
+          "type": "article",
+          "title": "NoSQL Databases",
+          "url": "https://www.mongodb.com/resources/basics/databases/nosql-explained"
+        }
+      ]
+    },
+    "AMDLJ_Bup-AY1chl_taV3": {
+      "id": "AMDLJ_Bup-AY1chl_taV3",
+      "slug": "oop",
+      "title": "OOP",
+      "description": "Object oriented programming organizes code around objects that combine data and behavior, using concepts like encapsulation, inheritance, and polymorphism. It helps model real world entities and relationships in a way that keeps related code together and reusable. Most enterprise architecture patterns and languages rely on object oriented principles as a foundation.",
+      "resources": [
+        {
+          "id": "AMDLJ_Bup-AY1chl_taV3-res-1",
+          "type": "article",
+          "title": "OOP - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Object-oriented_programming"
+        },
+        {
+          "id": "AMDLJ_Bup-AY1chl_taV3-res-2",
+          "type": "article",
+          "title": "Basic Concepts of Object-Oriented Programming",
+          "url": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_programming"
+        },
+        {
+          "id": "AMDLJ_Bup-AY1chl_taV3-res-3",
+          "type": "video",
+          "title": "FreeCodeCamp - (OOP) in C++",
+          "url": "https://www.youtube.com/watch?v=wN0x9eZLix4"
+        },
+        {
+          "id": "AMDLJ_Bup-AY1chl_taV3-res-4",
+          "type": "video",
+          "title": "FreeCodeCamp - (OPP) in Python",
+          "url": "https://www.youtube.com/watch?v=Ej_02ICOIgs"
+        }
+      ]
+    },
+    "EdJhuNhMSWjeVxGW-RZtL": {
+      "id": "EdJhuNhMSWjeVxGW-RZtL",
+      "slug": "operations-knowledge",
+      "title": "Operations Knowledge",
+      "description": "Operational knowledge refers to the understanding and insights that software architects need to effectively design, implement, and manage software systems throughout their lifecycle. This knowledge encompasses various aspects of software development, deployment, and maintenance, and it is crucial for ensuring that systems operate efficiently, reliably, and securely.",
+      "resources": []
+    },
+    "Mt5W1IvuHevNXVRlh7z26": {
+      "id": "Mt5W1IvuHevNXVRlh7z26",
+      "slug": "osi",
+      "title": "OSI and TCP/IP Models",
+      "description": "The OSI and TCP/IP model is used to help the developer to design their system for interoperability. The OSI model has 7 layers while the TCP/IP model has a more summarized form of the OSI model only consisting 4 layers. This is important if you're trying to design a system to communicate with other systems.",
+      "resources": [
+        {
+          "id": "Mt5W1IvuHevNXVRlh7z26-res-1",
+          "type": "article",
+          "title": "Cloudflare - What is the OSI model",
+          "url": "https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/"
+        }
+      ]
+    },
+    "KhqUK-7jdClu9M2Pq7x--": {
+      "id": "KhqUK-7jdClu9M2Pq7x--",
+      "slug": "owasp",
+      "title": "OWASP",
+      "description": "OWASP or Open Web Application Security Project is an online community that produces freely-available articles, methodologies, documentation, tools, and technologies in the field of web application security.",
+      "resources": [
+        {
+          "id": "KhqUK-7jdClu9M2Pq7x---res-1",
+          "type": "article",
+          "title": "OWASP Web Application Security Testing Checklist",
+          "url": "https://github.com/0xRadi/OWASP-Web-Checklist"
+        },
+        {
+          "id": "KhqUK-7jdClu9M2Pq7x---res-2",
+          "type": "article",
+          "title": "Wikipedia - OWASP",
+          "url": "https://en.wikipedia.org/wiki/OWASP"
+        },
+        {
+          "id": "KhqUK-7jdClu9M2Pq7x---res-3",
+          "type": "article",
+          "title": "OWASP Top 10 Security Risks",
+          "url": "https://sucuri.net/guides/owasp-top-10-security-vulnerabilities-2021/"
+        },
+        {
+          "id": "KhqUK-7jdClu9M2Pq7x---res-4",
+          "type": "article",
+          "title": "OWASP Cheatsheets",
+          "url": "https://cheatsheetseries.owasp.org/cheatsheets/AJAX_Security_Cheat_Sheet.html"
+        }
+      ]
+    },
+    "_U0VoTkqM1d6NR13p5azS": {
+      "id": "_U0VoTkqM1d6NR13p5azS",
+      "slug": "patterns--design-principles",
+      "title": "Patterns and design principles",
+      "description": "In the realm of software architecture, patterns and design principles are foundational tools that enable architects to create robust, scalable, and maintainable systems. They offer proven solutions to common problems and guide decision-making throughout the software development lifecycle. Understanding these concepts is essential for anyone following a software architect roadmap, as they bridge the gap between high-level architecture and practical implementation.",
+      "resources": []
+    },
+    "OpL2EqvHbUmFgnpuhtZPr": {
+      "id": "OpL2EqvHbUmFgnpuhtZPr",
+      "slug": "pki",
+      "title": "PKI",
+      "description": "A public key infrastructure (PKI) is a set of roles, policies, hardware, software, and procedures to create, manage, distribute, use, store and revoke digital certificates and public-key encryption. The purpose of a PKI is to facilitate the secure electronic transfer of information for a range of network activities such as e-commerce, internet banking, and confidential email. It is required for activities where simple passwords are an inadequate authentication method, and the more rigorous proof is required to confirm the identity of the parties involved in the communication and to validate the information being transferred.",
+      "resources": [
+        {
+          "id": "OpL2EqvHbUmFgnpuhtZPr-res-1",
+          "type": "article",
+          "title": "PKI - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Public_key_infrastructure"
+        },
+        {
+          "id": "OpL2EqvHbUmFgnpuhtZPr-res-2",
+          "type": "article",
+          "title": "PKI - DoD Cyber Exchange",
+          "url": "https://public.cyber.mil/pki-pke/"
+        }
+      ]
+    },
+    "hRug9yJKYacB9X_2cUalR": {
+      "id": "hRug9yJKYacB9X_2cUalR",
+      "slug": "pmi",
+      "title": "PMI",
+      "description": "The PMI certification (Project Management Institute) is an internationally recognized credential in project management. The most well-known is the PMP® (Project Management Professional), which validates the skills and knowledge of professionals to manage projects effectively by applying best practices and standards defined in the PMBOK® (Project Management Body of Knowledge) guide.",
+      "resources": [
+        {
+          "id": "hRug9yJKYacB9X_2cUalR-res-1",
+          "type": "article",
+          "title": "Project Management Institute",
+          "url": "https://www.pmi.org/"
+        }
+      ]
+    },
+    "SJ5lrlvyXgtAwOx4wvT2W": {
+      "id": "SJ5lrlvyXgtAwOx4wvT2W",
+      "slug": "prince2",
+      "title": "Prince2",
+      "description": "Prince2 is a structured project management method and practitioner certification programme. Prince2 emphasizes dividing projects into manageable and controllable stages. It is adopted in many countries worldwide, including the UK, Western European countries, and Australia.",
+      "resources": [
+        {
+          "id": "SJ5lrlvyXgtAwOx4wvT2W-res-1",
+          "type": "course",
+          "title": "Prince2 Project Management Course",
+          "url": "https://www.simplilearn.com/project-management/prince2-foundation-and-practitioner-certification-training"
+        },
+        {
+          "id": "SJ5lrlvyXgtAwOx4wvT2W-res-2",
+          "type": "article",
+          "title": "Prince2 Certification",
+          "url": "https://www.axelos.com/certifications/propath/prince2-project-management"
+        }
+      ]
+    },
+    "uoDtVFThaV6OMK2wXGfP5": {
+      "id": "uoDtVFThaV6OMK2wXGfP5",
+      "slug": "programming-languages",
+      "title": "Programming Languages",
+      "description": "A programming language is a system of notation for writing computer programs. Programming languages are described in terms of their syntax and semantics, usually defined by a formal language. Languages usually provide features such as a type system, variables, and mechanisms for error handling.",
+      "resources": [
+        {
+          "id": "uoDtVFThaV6OMK2wXGfP5-res-1",
+          "type": "article",
+          "title": "Programming Language",
+          "url": "https://en.wikipedia.org/wiki/Programming_language"
+        }
+      ]
+    },
+    "6_EOmU5GYGDGzmNoLY8cB": {
+      "id": "6_EOmU5GYGDGzmNoLY8cB",
+      "slug": "proxies",
+      "title": "Proxies",
+      "description": "A proxy is an intermediary server that sits between a client and a destination server, forwarding requests and often adding functionality like caching, load balancing, or filtering. Reverse proxies sit in front of backend servers to distribute traffic and hide internal infrastructure, while forward proxies sit in front of clients. Architects use proxies to improve performance, security, and manageability of network traffic.",
+      "resources": [
+        {
+          "id": "6_EOmU5GYGDGzmNoLY8cB-res-1",
+          "type": "article",
+          "title": "Proxy Server",
+          "url": "https://en.wikipedia.org/wiki/Proxy_server"
+        }
+      ]
+    },
+    "j2Ph2QcKwmKlbaMHz1l_i": {
+      "id": "j2Ph2QcKwmKlbaMHz1l_i",
+      "slug": "python",
+      "title": "Python",
+      "description": "Python is a multi-paradigm language. Being an interpreted language, code is executed as soon as it is written and the Python syntax allows for writing code in functional, procedural or object-oriented programmatic ways. Python is frequently recommended as the first language new coders should learn, because of its focus on readability, consistency, and ease of use. This comes with some downsides, as the language is not especially performant in most production tasks.",
+      "resources": [
+        {
+          "id": "j2Ph2QcKwmKlbaMHz1l_i-res-1",
+          "type": "article",
+          "title": "Visit Dedicated Python Roadmap",
+          "url": "https://roadmap.sh/python"
+        },
+        {
+          "id": "j2Ph2QcKwmKlbaMHz1l_i-res-2",
+          "type": "article",
+          "title": "Python Website",
+          "url": "https://www.python.org/"
+        },
+        {
+          "id": "j2Ph2QcKwmKlbaMHz1l_i-res-3",
+          "type": "article",
+          "title": "Python Getting Started",
+          "url": "https://www.python.org/about/gettingstarted/"
+        },
+        {
+          "id": "j2Ph2QcKwmKlbaMHz1l_i-res-4",
+          "type": "article",
+          "title": "Automate the Boring Stuff",
+          "url": "https://automatetheboringstuff.com/"
+        },
+        {
+          "id": "j2Ph2QcKwmKlbaMHz1l_i-res-5",
+          "type": "article",
+          "title": "Python Crash Course",
+          "url": "https://ehmatthes.github.io/pcc/"
+        }
+      ]
+    },
+    "mCiYCbKIOVU34qil_q7Hg": {
+      "id": "mCiYCbKIOVU34qil_q7Hg",
+      "slug": "react-vue-angular",
+      "title": "React, Vue, Angular",
+      "description": "React, Vue, and Angular are popular JavaScript frameworks and libraries for building interactive web user interfaces through reusable components. React focuses on a flexible component model with a large ecosystem, Vue emphasizes simplicity and gradual adoption, and Angular provides a more complete, opinionated framework out of the box. An architect chooses between them based on team experience, project scale, and how much structure the framework should enforce.",
+      "resources": [
+        {
+          "id": "mCiYCbKIOVU34qil_q7Hg-res-1",
+          "type": "article",
+          "title": "Visit Dedicated React Roadmap",
+          "url": "https://roadmap.sh/react"
+        },
+        {
+          "id": "mCiYCbKIOVU34qil_q7Hg-res-2",
+          "type": "article",
+          "title": "Visit Dedicated Vue Roadmap",
+          "url": "https://roadmap.sh/vue"
+        },
+        {
+          "id": "mCiYCbKIOVU34qil_q7Hg-res-3",
+          "type": "article",
+          "title": "Visit Dedicated Angular Roadmap",
+          "url": "https://roadmap.sh/angular"
+        }
+      ]
+    },
+    "C0g_kQFlte5siHMHwlHQb": {
+      "id": "C0g_kQFlte5siHMHwlHQb",
+      "slug": "reactive-programming",
+      "title": "Reactive Programming",
+      "description": "Reactive programming describes a design paradigm that relies on asynchronous programming logic to handle real-time updates to otherwise static content. It provides an efficient means -- the use of automated data streams -- to handle data updates to content whenever a user makes an inquiry.",
+      "resources": [
+        {
+          "id": "C0g_kQFlte5siHMHwlHQb-res-1",
+          "type": "article",
+          "title": "What is Reactive Programming?",
+          "url": "https://www.techtarget.com/searchapparchitecture/definition/reactive-programming"
+        }
+      ]
+    },
+    "rUxbG2S2nJuA1YVY6sjiX": {
+      "id": "rUxbG2S2nJuA1YVY6sjiX",
+      "slug": "responsibilities",
+      "title": "Responsibilities",
+      "description": "A software architect's responsibilities include defining system structure, choosing technologies, setting technical standards, and reviewing code for architectural consistency. They also assess risks, plan for scalability, and mentor developers on best practices. Beyond technical work, they communicate decisions to stakeholders and balance competing demands like cost, time, and quality.",
+      "resources": [
+        {
+          "id": "rUxbG2S2nJuA1YVY6sjiX-res-1",
+          "type": "article",
+          "title": "Software Architect",
+          "url": "https://en.wikipedia.org/wiki/Software_architect"
+        }
+      ]
+    },
+    "Ss43xwK1ydEToj6XmmCt7": {
+      "id": "Ss43xwK1ydEToj6XmmCt7",
+      "slug": "rest",
+      "title": "REST",
+      "description": "REST is an architectural style for designing APIs around resources, identified by URLs and manipulated through standard HTTP methods like GET, POST, and DELETE. Its simplicity and reliance on existing web standards have made it the most common approach for building public and internal APIs. Architects favor REST when they need a widely understood, easy to consume interface.",
+      "resources": [
+        {
+          "id": "Ss43xwK1ydEToj6XmmCt7-res-1",
+          "type": "article",
+          "title": "What is a REST API?",
+          "url": "https://www.redhat.com/en/topics/api/what-is-a-rest-api"
+        },
+        {
+          "id": "Ss43xwK1ydEToj6XmmCt7-res-2",
+          "type": "article",
+          "title": "Roy Fieldings dissertation chapter, Representational State Transfer (REST)",
+          "url": "https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm"
+        },
+        {
+          "id": "Ss43xwK1ydEToj6XmmCt7-res-3",
+          "type": "article",
+          "title": "Learn REST: A RESTful Tutorial",
+          "url": "https://restapitutorial.com/"
+        },
+        {
+          "id": "Ss43xwK1ydEToj6XmmCt7-res-4",
+          "type": "article",
+          "title": "Explore top posts about REST API",
+          "url": "https://app.daily.dev/tags/rest-api?ref=roadmapsh"
+        }
+      ]
+    },
+    "U_Hmzfjjs1jVtu2CZ0TlG": {
+      "id": "U_Hmzfjjs1jVtu2CZ0TlG",
+      "slug": "ruby",
+      "title": "Ruby",
+      "description": "Ruby is a high-level, interpreted programming language that blends Perl, Smalltalk, Eiffel, Ada, and Lisp. Ruby focuses on simplicity and productivity along with a syntax that reads and writes naturally. Ruby supports procedural, object-oriented and functional programming and is dynamically typed.",
+      "resources": [
+        {
+          "id": "U_Hmzfjjs1jVtu2CZ0TlG-res-1",
+          "type": "article",
+          "title": "Ruby",
+          "url": "https://www.ruby-lang.org/en/"
+        },
+        {
+          "id": "U_Hmzfjjs1jVtu2CZ0TlG-res-2",
+          "type": "article",
+          "title": "Learn Ruby in 20 minutes",
+          "url": "https://www.ruby-lang.org/en/documentation/quickstart/"
+        }
+      ]
+    },
+    "7rudOREGG-TTkCosU0hNw": {
+      "id": "7rudOREGG-TTkCosU0hNw",
+      "slug": "rup",
+      "title": "RUP",
+      "description": "The RUP (**Rational Unified Process**) is not a widely recognized certification like PMP or Scrum, but rather a software development framework created by Rational Software (now IBM). It follows an iterative and incremental approach to project development, based on best practices for delivering high-quality software on time and within budget.",
+      "resources": [
+        {
+          "id": "7rudOREGG-TTkCosU0hNw-res-1",
+          "type": "article",
+          "title": "IBM Certified Solution Designer RUP",
+          "url": "https://www.ibm.com/training/certification/ibm-certified-solution-designer-ibm-rational-unified-process-v70-38008003"
+        }
+      ]
+    },
+    "Bg7ru1q1j6pNB43HGxnHT": {
+      "id": "Bg7ru1q1j6pNB43HGxnHT",
+      "slug": "safe",
+      "title": "SAFe",
+      "description": "**SAFe** is an agile framework designed to scale agile practices in large and complex organizations. Unlike LeSS, SAFe is more structured and provides a formal approach to coordinating multiple teams, programs, and portfolios. It incorporates elements of `Lean`, `DevOps`, and `agile principles`, and defines additional roles, ceremonies, and artifacts to align teams' goals with the business strategy. SAFe enables **large-scale planning**, **continuous delivery**, and **improvement of organizational efficiency**, offering a comprehensive framework for agile transformation at the corporate level.",
+      "resources": [
+        {
+          "id": "Bg7ru1q1j6pNB43HGxnHT-res-1",
+          "type": "article",
+          "title": "SAFe 6.0",
+          "url": "https://scaledagileframework.com/SAFE"
+        },
+        {
+          "id": "Bg7ru1q1j6pNB43HGxnHT-res-2",
+          "type": "video",
+          "title": "SAFe explained in five minutes",
+          "url": "https://www.youtube.com/watch?v=aW2m-BtCJyE&t=2s"
+        }
+      ]
+    },
+    "mOXyzdNn8W-9R99ffcnor": {
+      "id": "mOXyzdNn8W-9R99ffcnor",
+      "slug": "salesforce",
+      "title": "Salesforce",
+      "description": "Salesforce is a widely used cloud based customer relationship management platform that also supports custom application development through its Apex language and Lightning platform. Many organizations extend Salesforce beyond CRM into custom business applications built on top of its platform. Architects need to understand Salesforce's data model, API options, and platform limits when integrating it with other enterprise systems.",
+      "resources": [
+        {
+          "id": "mOXyzdNn8W-9R99ffcnor-res-1",
+          "type": "article",
+          "title": "What is Salesforce and what is it used for?",
+          "url": "https://ascendix.com/blog/what-is-salesforce-what-salesforce-is-used-for/"
+        },
+        {
+          "id": "mOXyzdNn8W-9R99ffcnor-res-2",
+          "type": "video",
+          "title": "What is Salesforce?",
+          "url": "https://www.youtube.com/watch?v=xx2sK-QiBjw"
+        },
+        {
+          "id": "mOXyzdNn8W-9R99ffcnor-res-3",
+          "type": "article",
+          "title": "Explore top posts about Salesforce",
+          "url": "https://app.daily.dev/tags/salesforce?ref=roadmapsh"
+        }
+      ]
+    },
+    "TxWAznp1tUtZ1MvThf9M1": {
+      "id": "TxWAznp1tUtZ1MvThf9M1",
+      "slug": "sap-erp-hana-business-objects",
+      "title": "SAP ERP, HANA, Business Objects",
+      "description": "SAP ERP is a widely used enterprise resource planning system that manages core business processes across large organizations, from finance to supply chain. SAP HANA is an in memory database platform that powers faster processing for SAP applications, and SAP Business Objects provides business intelligence and reporting on top of that data. Architects in large enterprises often need to design integrations that connect custom systems to this SAP landscape.",
+      "resources": [
+        {
+          "id": "TxWAznp1tUtZ1MvThf9M1-res-1",
+          "type": "article",
+          "title": "SAP",
+          "url": "https://www.sap.com/"
+        }
+      ]
+    },
+    "PKqwKvoffm0unwcFwpojk": {
+      "id": "PKqwKvoffm0unwcFwpojk",
+      "slug": "scrum",
+      "title": "Scrum",
+      "description": "Scrum is an agile framework that organizes work into fixed length iterations called sprints, with defined roles like product owner and scrum master guiding the process. It includes regular ceremonies such as sprint planning, daily standups, and retrospectives to keep the team aligned and improve over time. It is one of the most widely adopted agile methodologies in software development.",
+      "resources": [
+        {
+          "id": "PKqwKvoffm0unwcFwpojk-res-1",
+          "type": "article",
+          "title": "What is Scrum and How to Get Started",
+          "url": "https://www.atlassian.com/agile/scrum."
+        },
+        {
+          "id": "PKqwKvoffm0unwcFwpojk-res-2",
+          "type": "article",
+          "title": "Scrum Methodology: The Complete Guide & Best Practices",
+          "url": "https://thedigitalprojectmanager.com/projects/pm-methodology/scrum-methodology-complete-guide/"
+        },
+        {
+          "id": "PKqwKvoffm0unwcFwpojk-res-3",
+          "type": "article",
+          "title": "Essential Topics for the Scrum Product Owner",
+          "url": "https://www.scrum.org/resources/blog/essential-topics-scrum-product-owner"
+        },
+        {
+          "id": "PKqwKvoffm0unwcFwpojk-res-4",
+          "type": "article",
+          "title": "Scrum • Topics - Thriving Technologist",
+          "url": "https://thrivingtechnologist.com/topics/scrum/"
+        }
+      ]
+    },
+    "IzFTn5-tQuF_Z0cG_w6CW": {
+      "id": "IzFTn5-tQuF_Z0cG_w6CW",
+      "slug": "security",
+      "title": "Security",
+      "description": "Security is a broad field that encompasses various measures and practices designed to protect information, systems, and networks from unauthorized access, damage, or theft. It is essential in safeguarding sensitive data and maintaining the integrity and availability of resources.",
+      "resources": [
+        {
+          "id": "IzFTn5-tQuF_Z0cG_w6CW-res-1",
+          "type": "article",
+          "title": "Security - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Security"
+        },
+        {
+          "id": "IzFTn5-tQuF_Z0cG_w6CW-res-2",
+          "type": "article",
+          "title": "Architect Security",
+          "url": "https://aws.amazon.com/blogs/architecture/lets-architect-security-in-software-architectures/"
+        }
+      ]
+    },
+    "WoXoVwkSqXTP5U8HtyJOL": {
+      "id": "WoXoVwkSqXTP5U8HtyJOL",
+      "slug": "serverless-concepts",
+      "title": "Serverless Concepts",
+      "description": "Serverless is a cloud-native development model that allows developers to build and run applications without having to manage servers. There are still servers in serverless, but they are abstracted away from app development. A cloud provider handles the routine work of provisioning, maintaining, and scaling the server infrastructure. Developers can simply package their code in containers for deployment.",
+      "resources": [
+        {
+          "id": "WoXoVwkSqXTP5U8HtyJOL-res-1",
+          "type": "article",
+          "title": "What is Serverless?",
+          "url": "https://www.redhat.com/en/topics/cloud-native-apps/what-is-serverless"
+        },
+        {
+          "id": "WoXoVwkSqXTP5U8HtyJOL-res-2",
+          "type": "article",
+          "title": "What is Serverless Computing?",
+          "url": "https://www.cloudflare.com/learning/serverless/what-is-serverless/"
+        },
+        {
+          "id": "WoXoVwkSqXTP5U8HtyJOL-res-3",
+          "type": "article",
+          "title": "Serverless on AWS",
+          "url": "https://aws.amazon.com/serverless/"
+        },
+        {
+          "id": "WoXoVwkSqXTP5U8HtyJOL-res-4",
+          "type": "article",
+          "title": "Explore top posts about Serverless",
+          "url": "https://app.daily.dev/tags/serverless?ref=roadmapsh"
+        }
+      ]
+    },
+    "FAXKxl3fWUFShYmoCsInZ": {
+      "id": "FAXKxl3fWUFShYmoCsInZ",
+      "slug": "serverless",
+      "title": "Serverless",
+      "description": "Serverless architecture (also known as serverless computing or function as a service, FaaS) is a software design pattern where applications are hosted by a third-party service, eliminating the need for server software and hardware management by the developer. Applications are broken up into individual functions that can be invoked and scaled individually.",
+      "resources": [
+        {
+          "id": "FAXKxl3fWUFShYmoCsInZ-res-1",
+          "type": "article",
+          "title": "Serverless Architectures By AWS",
+          "url": "https://aws.amazon.com/lambda/serverless-architectures-learn-more/"
+        },
+        {
+          "id": "FAXKxl3fWUFShYmoCsInZ-res-2",
+          "type": "article",
+          "title": "Serverless in Detail",
+          "url": "https://martinfowler.com/articles/serverless.html"
+        }
+      ]
+    },
+    "OErbfM-H3laFm47GCHNPI": {
+      "id": "OErbfM-H3laFm47GCHNPI",
+      "slug": "service-mesh",
+      "title": "Service Mesh",
+      "description": "A Service Mesh is a dedicated infrastructure layer for handling service-to-service communication. It’s responsible for the reliable delivery of requests through the complex topology of services that comprise a modern, cloud native application. In layman's terms, it's a tool which helps you to control how different services communicate with each other.",
+      "resources": [
+        {
+          "id": "OErbfM-H3laFm47GCHNPI-res-1",
+          "type": "article",
+          "title": "Red Hat - What is a Service Mesh?",
+          "url": "https://www.redhat.com/en/topics/microservices/what-is-a-service-mesh"
+        },
+        {
+          "id": "OErbfM-H3laFm47GCHNPI-res-2",
+          "type": "article",
+          "title": "Kubernetes Service Mesh - Blog Post",
+          "url": "https://platform9.com/blog/kubernetes-service-mesh-a-comparison-of-istio-linkerd-and-consul/"
+        },
+        {
+          "id": "OErbfM-H3laFm47GCHNPI-res-3",
+          "type": "video",
+          "title": "Service Mesh explained in 15 Minutes",
+          "url": "https://youtu.be/16fgzklcF7Y"
+        },
+        {
+          "id": "OErbfM-H3laFm47GCHNPI-res-4",
+          "type": "article",
+          "title": "Explore top posts about Service Mesh",
+          "url": "https://app.daily.dev/tags/service-mesh?ref=roadmapsh"
+        }
+      ]
+    },
+    "6uvmMgvOwGyuLC5TOhjFu": {
+      "id": "6uvmMgvOwGyuLC5TOhjFu",
+      "slug": "service-oriented",
+      "title": "Service oriented",
+      "description": "Service oriented architecture structures a system as a set of loosely coupled services that communicate through well defined interfaces, often using standards like SOAP. It predates microservices and shares similar goals of modularity and reuse, but typically involves heavier middleware like an enterprise service bus. Many large enterprises still run service oriented systems built before microservices became common.",
+      "resources": [
+        {
+          "id": "6uvmMgvOwGyuLC5TOhjFu-res-1",
+          "type": "article",
+          "title": "SOA Architecture By AWS",
+          "url": "https://aws.amazon.com/what-is/service-oriented-architecture/"
+        }
+      ]
+    },
+    "lrtgF1RTaS4TCKww0aY6C": {
+      "id": "lrtgF1RTaS4TCKww0aY6C",
+      "slug": "simplifying-things",
+      "title": "Simplifying Things",
+      "description": "Simplifying things means reducing complex problems and systems into clear, manageable parts that others can understand and act on. Architects often deal with many moving pieces, and the ability to cut through unnecessary complexity leads to designs that are easier to build, test, and maintain. This skill also helps when explaining technical decisions to people without a deep technical background.",
+      "resources": [
+        {
+          "id": "lrtgF1RTaS4TCKww0aY6C-res-1",
+          "type": "article",
+          "title": "Simplifying Things",
+          "url": "https://www.infoq.com/articles/driving-architectural-simplicity/"
+        }
+      ]
+    },
+    "CYnUg_okOcRrD7fSllxLW": {
+      "id": "CYnUg_okOcRrD7fSllxLW",
+      "slug": "slack",
+      "title": "Slack",
+      "description": "Slack is a messaging app for business that connects people to the information that they need. By bringing people together to work as one unified team, Slack transforms the way that organisations communicate.",
+      "resources": [
+        {
+          "id": "CYnUg_okOcRrD7fSllxLW-res-1",
+          "type": "article",
+          "title": "Slack",
+          "url": "https://slack.com"
+        },
+        {
+          "id": "CYnUg_okOcRrD7fSllxLW-res-2",
+          "type": "article",
+          "title": "Getting Started with Slack",
+          "url": "https://slack.com/intl/en-in/help/categories/360000049043"
+        },
+        {
+          "id": "CYnUg_okOcRrD7fSllxLW-res-3",
+          "type": "video",
+          "title": "What is Slack?",
+          "url": "https://www.youtube.com/watch?v=q19RtuCHt1Q"
+        },
+        {
+          "id": "CYnUg_okOcRrD7fSllxLW-res-4",
+          "type": "article",
+          "title": "Explore top posts about Slack",
+          "url": "https://app.daily.dev/tags/slack?ref=roadmapsh"
+        }
+      ]
+    },
+    "QNG-KP01WQnq8o1-In1-n": {
+      "id": "QNG-KP01WQnq8o1-In1-n",
+      "slug": "solid",
+      "title": "SOLID",
+      "description": "SOLID is a set of five object oriented design principles: single responsibility, open closed, Liskov substitution, interface segregation, and dependency inversion. Following these principles leads to code that is easier to extend, test, and maintain as a system grows. Architects use SOLID as a checklist when reviewing designs for long term maintainability.",
+      "resources": [
+        {
+          "id": "QNG-KP01WQnq8o1-In1-n-res-1",
+          "type": "article",
+          "title": "SOLID Principles",
+          "url": "https://www.baeldung.com/solid-principles"
+        },
+        {
+          "id": "QNG-KP01WQnq8o1-In1-n-res-2",
+          "type": "article",
+          "title": "SOLID: The First 5 Principles of Object Oriented Design",
+          "url": "https://www.digitalocean.com/community/conceptual_articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design"
+        }
+      ]
+    },
+    "uGs-9xE3DMJxKhenltbFK": {
+      "id": "uGs-9xE3DMJxKhenltbFK",
+      "slug": "solution-architecture",
+      "title": "Solution Architecture",
+      "description": "Solution architecture designs how multiple applications and systems work together to satisfy a specific business need. It sits between application architecture and enterprise architecture, dealing with integration points, data flow, and technology choices across several components. A solution architect often works closely with project stakeholders to make sure the combined systems meet both technical and business goals.",
+      "resources": [
+        {
+          "id": "uGs-9xE3DMJxKhenltbFK-res-1",
+          "type": "article",
+          "title": "Solution Architecture",
+          "url": "https://www.leanix.net/en/wiki/it-architecture/solution-architecture"
+        }
+      ]
+    },
+    "ulwgDCQi_BYx5lmll7pzU": {
+      "id": "ulwgDCQi_BYx5lmll7pzU",
+      "slug": "spa-ssr-ssg",
+      "title": "SPA vs SSG vs SSR",
+      "description": "Single page applications load once and update content dynamically without full page reloads, giving a smooth user experience but sometimes at the cost of slower initial load and weaker search engine visibility. Server side rendering generates HTML on the server for each request, improving initial load time and SEO. Static site generation pre builds pages at build time, offering the fastest performance for content that does not change often. Architects choose between these rendering strategies based on performance needs, content type, and SEO requirements.",
+      "resources": [
+        {
+          "id": "ulwgDCQi_BYx5lmll7pzU-res-1",
+          "type": "article",
+          "title": "Web Design Patterns — SSR, SSG, and SPA",
+          "url": "https://medium.com/codex/web-design-patterns-ssr-ssg-and-spa-fadad7673dfe"
+        },
+        {
+          "id": "ulwgDCQi_BYx5lmll7pzU-res-2",
+          "type": "article",
+          "title": "Rendering on the Web",
+          "url": "https://web.dev/rendering-on-the-web/"
+        }
+      ]
+    },
+    "n5AcBt_u8qtTe3PP9svPZ": {
+      "id": "n5AcBt_u8qtTe3PP9svPZ",
+      "slug": "sql-databases",
+      "title": "Sql databases",
+      "description": "SQL stands for Structured Query Language. It's used for relational databases. A SQL database is a collection of tables that stores a specific set of structured data. Examples of SQL Databases includes MariaDB, MySQL and PostgreSQL.",
+      "resources": [
+        {
+          "id": "n5AcBt_u8qtTe3PP9svPZ-res-1",
+          "type": "article",
+          "title": "Visit Dedicated SQL Roadmap",
+          "url": "https://roadmap.sh/sql"
+        },
+        {
+          "id": "n5AcBt_u8qtTe3PP9svPZ-res-2",
+          "type": "article",
+          "title": "What is SQL? - AWS",
+          "url": "https://aws.amazon.com/what-is/sql/"
+        },
+        {
+          "id": "n5AcBt_u8qtTe3PP9svPZ-res-3",
+          "type": "article",
+          "title": "SQL Databases",
+          "url": "https://www.openlogic.com/blog/what-sql-database"
+        },
+        {
+          "id": "n5AcBt_u8qtTe3PP9svPZ-res-4",
+          "type": "article",
+          "title": "Explore top posts about SQL",
+          "url": "https://app.daily.dev/tags/sql?ref=roadmapsh"
+        }
+      ]
+    },
+    "UCCT7-E_QUKPg3jAsjobx": {
+      "id": "UCCT7-E_QUKPg3jAsjobx",
+      "slug": "tcpip-model",
+      "title": "TCP/IP Model",
+      "description": "The TCP/IP model is the practical, four layer framework that actually underlies how the internet works, covering link, internet, transport, and application layers. It is simpler than the OSI model and maps more directly to real protocols like IP, TCP, and HTTP. Understanding TCP/IP helps an architect reason about how data actually travels between systems over the internet.",
+      "resources": [
+        {
+          "id": "UCCT7-E_QUKPg3jAsjobx-res-1",
+          "type": "article",
+          "title": "What is Transmission Control Protocol TCP/IP? - Fortinet",
+          "url": "https://www.fortinet.com/resources/cyberglossary/tcp-ip#:~:text=The%20TCP%2FIP%20model%20defines,exchanged%20and%20organized%20over%20networks."
+        },
+        {
+          "id": "UCCT7-E_QUKPg3jAsjobx-res-2",
+          "type": "article",
+          "title": "What is TCP/IP and How Does it Work?",
+          "url": "https://www.techtarget.com/searchnetworking/definition/TCP-IP"
+        }
+      ]
+    },
+    "DnP66pjK3b8tCtYr05n2G": {
+      "id": "DnP66pjK3b8tCtYr05n2G",
+      "slug": "tdd",
+      "title": "Test Driven Development",
+      "description": "Test driven development (TDD) is the process of writing tests for software's requirements which will fail until the software is developed to meet those requirements. Once those tests pass, then the cycle repeats to refactor code or develop another feature/requirement. In theory, this ensures that software is written to meet requirements in the simplest form, and avoids code defects.",
+      "resources": [
+        {
+          "id": "DnP66pjK3b8tCtYr05n2G-res-1",
+          "type": "article",
+          "title": "What is Test Driven Development (TDD)?",
+          "url": "https://www.guru99.com/test-driven-development.html"
+        },
+        {
+          "id": "DnP66pjK3b8tCtYr05n2G-res-2",
+          "type": "article",
+          "title": "Test-driven development",
+          "url": "https://www.ibm.com/garage/method/practices/code/practice_test_driven_development/"
+        },
+        {
+          "id": "DnP66pjK3b8tCtYr05n2G-res-3",
+          "type": "video",
+          "title": "Agile in Practice: Test Driven Development",
+          "url": "https://youtu.be/uGaNkTahrIw"
+        },
+        {
+          "id": "DnP66pjK3b8tCtYr05n2G-res-4",
+          "type": "article",
+          "title": "Explore top posts about TDD",
+          "url": "https://app.daily.dev/tags/tdd?ref=roadmapsh"
+        }
+      ]
+    },
+    "hFx3mLqh5omNxqI9lfaAQ": {
+      "id": "hFx3mLqh5omNxqI9lfaAQ",
+      "slug": "technical-skills",
+      "title": "Technical Skills",
+      "description": "Technical skills cover the practical, hands on knowledge an architect needs, including programming languages, design patterns, tools, and infrastructure concepts. These skills give an architect the credibility and depth needed to make informed decisions rather than relying only on theory. The following sections break this knowledge down into specific areas like languages, patterns, and tools.",
+      "resources": []
+    },
+    "5TDTU22Fla2mRr6JeOcaY": {
+      "id": "5TDTU22Fla2mRr6JeOcaY",
+      "slug": "togaf",
+      "title": "Togaf",
+      "description": "TOGAF, The Open Group Architecture Framework, is one of the most widely used frameworks for developing and managing enterprise architecture. It defines a structured process, called the Architecture Development Method, for creating and maintaining architecture that aligns with business goals. Large organizations often adopt TOGAF to bring consistency to how architecture decisions are made and documented across teams.",
+      "resources": [
+        {
+          "id": "5TDTU22Fla2mRr6JeOcaY-res-1",
+          "type": "article",
+          "title": "Togaf",
+          "url": "https://www.opengroup.org/togaf"
+        },
+        {
+          "id": "5TDTU22Fla2mRr6JeOcaY-res-2",
+          "type": "article",
+          "title": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The_Open_Group_Architecture_Framework"
+        }
+      ]
+    },
+    "SuMhTyaBS9vwASxAt39DH": {
+      "id": "SuMhTyaBS9vwASxAt39DH",
+      "slug": "tools",
+      "title": "Architect Tools",
+      "description": "Architect tools are software tools that help architects to design, document, and manage software architectures. These tools can be used to create architecture diagrams, generate code, and automate the software development process.",
+      "resources": []
+    },
+    "a6joS9WXg-rbw29_KfBd9": {
+      "id": "a6joS9WXg-rbw29_KfBd9",
+      "slug": "trello",
+      "title": "Trello",
+      "description": "Trello is a visual project management tool based on boards, lists, and cards that represent tasks moving through stages of work. Its simplicity makes it popular for smaller teams or lightweight project tracking compared to more complex tools. Architects may use it to track technical debt items or smaller initiatives outside a full project management system.",
+      "resources": [
+        {
+          "id": "a6joS9WXg-rbw29_KfBd9-res-1",
+          "type": "article",
+          "title": "Trello",
+          "url": "https://trello.com"
+        },
+        {
+          "id": "a6joS9WXg-rbw29_KfBd9-res-2",
+          "type": "article",
+          "title": "Trello Guide",
+          "url": "https://trello.com/guide"
+        },
+        {
+          "id": "a6joS9WXg-rbw29_KfBd9-res-3",
+          "type": "video",
+          "title": "A Tour Of Trello",
+          "url": "https://www.youtube.com/watch?v=AyfupeWS0yY"
+        }
+      ]
+    },
+    "8FTKnAKNL9LnZBrw9YXqK": {
+      "id": "8FTKnAKNL9LnZBrw9YXqK",
+      "slug": "uml",
+      "title": "UML",
+      "description": "The Unified Modeling Language is a standardized set of diagram types used to visualize the design of a system, including class diagrams, sequence diagrams, and use case diagrams. It gives architects and developers a common visual language for describing structure and behavior before or during implementation. While not every team uses UML formally, understanding its notation helps when reading architecture documentation.",
+      "resources": [
+        {
+          "id": "8FTKnAKNL9LnZBrw9YXqK-res-1",
+          "type": "article",
+          "title": "UML Website",
+          "url": "https://www.uml.org"
+        },
+        {
+          "id": "8FTKnAKNL9LnZBrw9YXqK-res-2",
+          "type": "article",
+          "title": "UML Pattern - IBM",
+          "url": "https://www.ibm.com/docs/en/rational-soft-arch/9.6.1?topic=files-uml-pattern-frameworks"
+        },
+        {
+          "id": "8FTKnAKNL9LnZBrw9YXqK-res-3",
+          "type": "article",
+          "title": "The Unified Modeling Language Reference Manual (Second Edition)",
+          "url": "https://personal.utdallas.edu/~chung/Fujitsu/UML_2.0/Rumbaugh--UML_2.0_Reference_CD.pdf"
+        },
+        {
+          "id": "8FTKnAKNL9LnZBrw9YXqK-res-4",
+          "type": "article",
+          "title": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Unified_Modeling_Language"
+        }
+      ]
+    },
+    "4zicbh7Wg2lmKSRhb6E-L": {
+      "id": "4zicbh7Wg2lmKSRhb6E-L",
+      "slug": "understand-the-basics",
+      "title": "Understand the Basics",
+      "description": "Understanding the basics means knowing what software architecture is, what a software architect does, and how architectural decisions are structured across different levels of a system. It covers the terminology and mental models an architect uses before diving into any specific pattern or tool. This foundation shapes how later, more technical topics fit into the bigger picture.",
+      "resources": []
+    },
+    "s0RvufK2PLMXtlsn2KAUN": {
+      "id": "s0RvufK2PLMXtlsn2KAUN",
+      "slug": "w3c-and-whatwg",
+      "title": "W3c and WHATWG Standards",
+      "description": "The W3C and WHATWG are the organizations responsible for defining and maintaining web standards like HTML, CSS, and related specifications. The W3C historically focused on formal standardization, while WHATWG, formed by browser vendors, drives the living standard for HTML used by modern browsers today. Understanding these standards bodies helps an architect know where to look for authoritative guidance on how web technologies should behave.",
+      "resources": [
+        {
+          "id": "s0RvufK2PLMXtlsn2KAUN-res-1",
+          "type": "article",
+          "title": "W3C Standards",
+          "url": "https://www.w3.org/standards/"
+        },
+        {
+          "id": "s0RvufK2PLMXtlsn2KAUN-res-2",
+          "type": "article",
+          "title": "WHATWG Standards",
+          "url": "https://spec.whatwg.org/"
+        }
+      ]
+    },
+    "j9Y2YbBKi3clO_sZ2L_hQ": {
+      "id": "j9Y2YbBKi3clO_sZ2L_hQ",
+      "slug": "web-mobile",
+      "title": "Web and Mobile",
+      "description": "This section covers concepts and technologies specific to building web and mobile user facing applications. It includes frontend frameworks, rendering strategies, and programming paradigms that shape how these applications are structured. An architect working on user facing products needs to understand these choices even if they are not writing the frontend code themselves.",
+      "resources": [
+        {
+          "id": "j9Y2YbBKi3clO_sZ2L_hQ-res-1",
+          "type": "article",
+          "title": "Web vs Mobile",
+          "url": "https://buildfire.com/difference-between-web-app-and-mobile-app/"
+        }
+      ]
+    },
+    "eG38hT0rotYJ3G-t9df9R": {
+      "id": "eG38hT0rotYJ3G-t9df9R",
+      "slug": "what-is-a-software-architect",
+      "title": "What is a Software Architect",
+      "description": "A software architect is the person responsible for making high level technical decisions on a project, including choosing technologies, defining system structure, and setting coding standards. They act as a bridge between business requirements and the engineering team, translating goals into a technical roadmap. The role combines deep technical knowledge with communication skills, since decisions need to be explained to both developers and stakeholders.",
+      "resources": [
+        {
+          "id": "eG38hT0rotYJ3G-t9df9R-res-1",
+          "type": "article",
+          "title": "12 Skills a Software Architect Needs",
+          "url": "https://www.redhat.com/architect/what-is-software-architect"
+        }
+      ]
+    },
+    "EGG99VA-PEdWdVxNDLtG_": {
+      "id": "EGG99VA-PEdWdVxNDLtG_",
+      "slug": "what-is-software-architecture",
+      "title": "What is Software Architecture",
+      "description": "Software architecture is the high level structure of a software system: how it is divided into components, how those components interact, and the principles that guide their design. It defines the technical decisions that are hard to change later, such as how data flows between services or which technology stack underpins the system. Good architecture balances functional requirements with qualities like performance, scalability, and maintainability.",
+      "resources": [
+        {
+          "id": "EGG99VA-PEdWdVxNDLtG_-res-1",
+          "type": "article",
+          "title": "What is Software Architecture in Software Engineering?",
+          "url": "https://www.computer.org/resources/software-architecture"
+        },
+        {
+          "id": "EGG99VA-PEdWdVxNDLtG_-res-2",
+          "type": "article",
+          "title": "Software Architecture: It might not be what you think it is",
+          "url": "https://www.infoq.com/articles/what-software-architecture/"
+        }
+      ]
+    },
+    "YCJYRA3b-YSm8vKmGUFk5": {
+      "id": "YCJYRA3b-YSm8vKmGUFk5",
+      "slug": "working-with-data",
+      "title": "Working with Databases",
+      "description": "Working with data covers the tools and concepts an architect needs to design systems that store, process, and analyze large amounts of information. This includes choosing between database types, understanding data processing frameworks, and knowing how analytics fits into a broader system. Data heavy systems often require different architectural trade offs than typical transactional applications.",
+      "resources": [
+        {
+          "id": "YCJYRA3b-YSm8vKmGUFk5-res-1",
+          "type": "article",
+          "title": "Introduction to Databases",
+          "url": "https://www.digitalocean.com/community/conceptual-articles/an-introduction-to-databases"
+        }
+      ]
+    },
+    "7fL9lSu4BD1wRjnZy9tM9": {
+      "id": "7fL9lSu4BD1wRjnZy9tM9",
+      "slug": "xp",
+      "title": "Extreme Programming (XP)",
+      "description": "Extreme Programming is an agile methodology that emphasizes technical practices like pair programming, test driven development, and continuous integration to improve software quality. It focuses heavily on engineering discipline alongside the process and collaboration elements found in other agile frameworks. Architects who value technical excellence often draw on XP practices even when a team formally follows a different methodology.",
+      "resources": [
+        {
+          "id": "7fL9lSu4BD1wRjnZy9tM9-res-1",
+          "type": "article",
+          "title": "What is Extreme Programming (XP)?",
+          "url": "https://www.agilealliance.org/glossary/xp/"
+        },
+        {
+          "id": "7fL9lSu4BD1wRjnZy9tM9-res-2",
+          "type": "article",
+          "title": "It's Values, Principles, And Practices",
+          "url": "https://www.nimblework.com/agile/extreme-programming-xp/"
+        },
+        {
+          "id": "7fL9lSu4BD1wRjnZy9tM9-res-3",
+          "type": "article",
+          "title": "Extreme Programming (XP)",
+          "url": "https://scrum-master.org/en/extreme-programming-xp-a-beginners-guide-to-the-agile-method/"
+        }
+      ]
+    }
+  }
+}

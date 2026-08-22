@@ -1,0 +1,3952 @@
+{
+  "slug": "cpp",
+  "title": "Cpp",
+  "description": "Comprehensive learning curriculum and mastery roadmap for cpp.",
+  "category": "skill",
+  "level": "Intermediate",
+  "topicCount": 127,
+  "iconName": "Compass",
+  "nodes": [
+    {
+      "id": "node-y4-P4UNC--rE1vni8HdTn",
+      "label": "Access Violations",
+      "topicId": "y4-P4UNC--rE1vni8HdTn",
+      "level": 1,
+      "position": {
+        "x": 80,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-whyj6Z4RXFsVQYRfYYn7B",
+      "label": "STL Algorithms",
+      "topicId": "whyj6Z4RXFsVQYRfYYn7B",
+      "level": 1,
+      "position": {
+        "x": 340,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-YSWN7nS8vA9nMldSUrZRT",
+      "label": "Argument Dependent Lookup (ADL)",
+      "topicId": "YSWN7nS8vA9nMldSUrZRT",
+      "level": 1,
+      "position": {
+        "x": 600,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-8aOSpZLWwZv_BEYiurhyR",
+      "label": "Arithmetic Operators",
+      "topicId": "8aOSpZLWwZv_BEYiurhyR",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-CG01PTVgHtjfKvsJkJLGl",
+      "label": "Auto Type Deduction",
+      "topicId": "CG01PTVgHtjfKvsJkJLGl",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-kl2JI_Wl47c5r8SYzxvCq",
+      "label": "Basic Operations",
+      "topicId": "kl2JI_Wl47c5r8SYzxvCq",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-zE4iPSq2KsrDSByQ0sGK_",
+      "label": "Bitwise Operators",
+      "topicId": "zE4iPSq2KsrDSByQ0sGK_",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-1d7h5P1Q0RVHryKPVogQy",
+      "label": "Boost",
+      "topicId": "1d7h5P1Q0RVHryKPVogQy",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-jVXFCo6puMxJ_ifn_uwim",
+      "label": "Build Systems",
+      "topicId": "jVXFCo6puMxJ_ifn_uwim",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-PPg0V5EzGBeJsysg1215V",
+      "label": "C++11",
+      "topicId": "PPg0V5EzGBeJsysg1215V",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-T6rCTv9Dxkm-tEA-l9XEv",
+      "label": "C++11 and C++14",
+      "topicId": "T6rCTv9Dxkm-tEA-l9XEv",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-R2-qWGUxsTOeSHRuUzhd2",
+      "label": "C++17",
+      "topicId": "R2-qWGUxsTOeSHRuUzhd2",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 560
+      }
+    },
+    {
+      "id": "node-o3no4a5_iMFzEAGs56-BJ",
+      "label": "C++20",
+      "topicId": "o3no4a5_iMFzEAGs56-BJ",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-sxbbKtg7kMNbkx7fXhjR9",
+      "label": "C++23",
+      "topicId": "sxbbKtg7kMNbkx7fXhjR9",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-2Ag0t3LPryTF8khHLRfy-",
+      "label": "C vs C++",
+      "topicId": "2Ag0t3LPryTF8khHLRfy-",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 720
+      }
+    },
+    {
+      "id": "node-s13jQuaC6gw0Lab3Cbyy6",
+      "label": "Catch2",
+      "topicId": "s13jQuaC6gw0Lab3Cbyy6",
+      "level": 3,
+      "position": {
+        "x": 80,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-ysnXvSHGBMMozBJyXpHl5",
+      "label": "CMake",
+      "topicId": "ysnXvSHGBMMozBJyXpHl5",
+      "level": 3,
+      "position": {
+        "x": 340,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-ew0AfyadpXPRO0ZY3Z19k",
+      "label": "Code Editors / IDEs",
+      "topicId": "ew0AfyadpXPRO0ZY3Z19k",
+      "level": 3,
+      "position": {
+        "x": 600,
+        "y": 880
+      }
+    },
+    {
+      "id": "node-DVckzBUMgk_lWThVkLyAT",
+      "label": "Compiler Stages",
+      "topicId": "DVckzBUMgk_lWThVkLyAT",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-hSG6Aux39X0cXi6ADy2al",
+      "label": "Compilers and Features",
+      "topicId": "hSG6Aux39X0cXi6ADy2al",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-FTMHsUiE8isD_OVZr62Xc",
+      "label": "Compilers",
+      "topicId": "FTMHsUiE8isD_OVZr62Xc",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1040
+      }
+    },
+    {
+      "id": "node-ky_UqizToTZHC_b77qFi2",
+      "label": "Conan",
+      "topicId": "ky_UqizToTZHC_b77qFi2",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-5g22glc97siQOcTkHbwan",
+      "label": "const_cast",
+      "topicId": "5g22glc97siQOcTkHbwan",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-1pydf-SR0QUfVNuBEyvzc",
+      "label": "C++ Containers",
+      "topicId": "1pydf-SR0QUfVNuBEyvzc",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1200
+      }
+    },
+    {
+      "id": "node-s5Gs4yF9TPh-psYmtPzks",
+      "label": "Control Flow & Statements",
+      "topicId": "s5Gs4yF9TPh-psYmtPzks",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-lxAzI42jQdaofzQ5MXebG",
+      "label": "Copy and Swap",
+      "topicId": "lxAzI42jQdaofzQ5MXebG",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-O2Du5gHHxFxAI2u5uO8wu",
+      "label": "Copy on Write",
+      "topicId": "O2Du5gHHxFxAI2u5uO8wu",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1360
+      }
+    },
+    {
+      "id": "node-ttt-yeIi4BPWrgvW324W7",
+      "label": "CRTP",
+      "topicId": "ttt-yeIi4BPWrgvW324W7",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-MwznA4qfpNlv6sqSNjPZi",
+      "label": "Data Types",
+      "topicId": "MwznA4qfpNlv6sqSNjPZi",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-yGvE6eHKlPMBB6rde0llR",
+      "label": "Date / Time",
+      "topicId": "yGvE6eHKlPMBB6rde0llR",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1520
+      }
+    },
+    {
+      "id": "node-qmHs6_BzND_xpMmls5YUH",
+      "label": "Debuggers",
+      "topicId": "qmHs6_BzND_xpMmls5YUH",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-sR_FxGZHoMCV9Iv7z2_SX",
+      "label": "Debugging Symbols",
+      "topicId": "sR_FxGZHoMCV9Iv7z2_SX",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-ofwdZm05AUqCIWmfgGHk8",
+      "label": "Diamond Inheritance",
+      "topicId": "ofwdZm05AUqCIWmfgGHk8",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1680
+      }
+    },
+    {
+      "id": "node-7h1VivjCPDwriL7FirtFv",
+      "label": "Dynamic Polymorphism",
+      "topicId": "7h1VivjCPDwriL7FirtFv",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-i0EAFEUB-F0wBJWOtrl1A",
+      "label": "Dynamic Typing",
+      "topicId": "i0EAFEUB-F0wBJWOtrl1A",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-4BdFcuQ5KNW94cu2jz-vE",
+      "label": "Dynamic Cast",
+      "topicId": "4BdFcuQ5KNW94cu2jz-vE",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 1840
+      }
+    },
+    {
+      "id": "node-YvmjrZSAOmjhVPo05MJqN",
+      "label": "Erase-Remove",
+      "topicId": "YvmjrZSAOmjhVPo05MJqN",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-B2SGBENzUMl0SAjG4j91V",
+      "label": "Exception Handling",
+      "topicId": "B2SGBENzUMl0SAjG4j91V",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-NJud5SXBAUZ6Sr78kZ7jx",
+      "label": "Exceptions",
+      "topicId": "NJud5SXBAUZ6Sr78kZ7jx",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2000
+      }
+    },
+    {
+      "id": "node-oWygnpwHq2poXQMTTSCpl",
+      "label": "Exit Codes",
+      "topicId": "oWygnpwHq2poXQMTTSCpl",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-1CqQgmHDeo1HlPdpUJS7H",
+      "label": "fmt",
+      "topicId": "1CqQgmHDeo1HlPdpUJS7H",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-_IP_e1K9LhNHilYTDh7L5",
+      "label": "Loops",
+      "topicId": "_IP_e1K9LhNHilYTDh7L5",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2160
+      }
+    },
+    {
+      "id": "node-ZHjU60uzJTezADRhDTESG",
+      "label": "Forward Declaration",
+      "topicId": "ZHjU60uzJTezADRhDTESG",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-6hTcmJwNnQstbWWzNCfTe",
+      "label": "Full Template Specialization",
+      "topicId": "6hTcmJwNnQstbWWzNCfTe",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-sgfqb22sdN4VRJYkhAVaf",
+      "label": "Function Overloading",
+      "topicId": "sgfqb22sdN4VRJYkhAVaf",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2320
+      }
+    },
+    {
+      "id": "node-oYi3YOc1GC2Nfp71VOkJt",
+      "label": "Functions",
+      "topicId": "oYi3YOc1GC2Nfp71VOkJt",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-BmWsoL9c_Aag5nVlMsKm2",
+      "label": "GDB: GNU Debugger",
+      "topicId": "BmWsoL9c_Aag5nVlMsKm2",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-621J9W4xCofumNZGo4TZT",
+      "label": "gRPC",
+      "topicId": "621J9W4xCofumNZGo4TZT",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2480
+      }
+    },
+    {
+      "id": "node-MrAM-viRaF8DSxB6sVdD9",
+      "label": "Google Test and Google Mock",
+      "topicId": "MrAM-viRaF8DSxB6sVdD9",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-CK7yf8Bo7kfbV6x2tZTrh",
+      "label": "Headers / CPP Files",
+      "topicId": "CK7yf8Bo7kfbV6x2tZTrh",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-fb3bnfKXjSIjPAk4b95lg",
+      "label": "C++ Idioms",
+      "topicId": "fb3bnfKXjSIjPAk4b95lg",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2640
+      }
+    },
+    {
+      "id": "node-bjpFWxiCKGz28E-ukhZBp",
+      "label": "Conditional Statements and Unconditional Jump",
+      "topicId": "bjpFWxiCKGz28E-ukhZBp",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-0J_ltQEJh2g28OE2ZEYJj",
+      "label": "Installing C++",
+      "topicId": "0J_ltQEJh2g28OE2ZEYJj",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-NvODRFR0DLINB0RlPSsvt",
+      "label": "Introduction to Language",
+      "topicId": "NvODRFR0DLINB0RlPSsvt",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2800
+      }
+    },
+    {
+      "id": "node-VeVxZ230xkesQsIDig8zQ",
+      "label": "iostream",
+      "topicId": "VeVxZ230xkesQsIDig8zQ",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-Ebu8gzbyyXEeJryeE0SpG",
+      "label": "Iterators",
+      "topicId": "Ebu8gzbyyXEeJryeE0SpG",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node-xjiFBVe-VGqCqWfkPVGKf",
+      "label": "Lambdas",
+      "topicId": "xjiFBVe-VGqCqWfkPVGKf",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 2960
+      }
+    },
+    {
+      "id": "node--6fwJQOfsorgHkoQGp4T3",
+      "label": "Language Concepts",
+      "topicId": "-6fwJQOfsorgHkoQGp4T3",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-5mNqH_AEiLxUmgurNW1Fq",
+      "label": "Library Inclusion",
+      "topicId": "5mNqH_AEiLxUmgurNW1Fq",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-sLVs95EOeHZldoKY0L_dH",
+      "label": "Licensing",
+      "topicId": "sLVs95EOeHZldoKY0L_dH",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3120
+      }
+    },
+    {
+      "id": "node-9aA_-IfQ9WmbPgwic0mFN",
+      "label": "Lifetime of Objects",
+      "topicId": "9aA_-IfQ9WmbPgwic0mFN",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-Y9gq8WkDA_XGe68JkY2UZ",
+      "label": "Logical Operators",
+      "topicId": "Y9gq8WkDA_XGe68JkY2UZ",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-zKdlfZTRHwjtmRUGW9z9-",
+      "label": "C++ Macros",
+      "topicId": "zKdlfZTRHwjtmRUGW9z9-",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3280
+      }
+    },
+    {
+      "id": "node-t6rZLH7l8JQm99ax_fEJ9",
+      "label": "Makefile",
+      "topicId": "t6rZLH7l8JQm99ax_fEJ9",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-6w0WExQ4lGIGgok6Thq0s",
+      "label": "Memory Leakage",
+      "topicId": "6w0WExQ4lGIGgok6Thq0s",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-mSFwsTYvmg-GwG4_DEIEf",
+      "label": "Memory Model",
+      "topicId": "mSFwsTYvmg-GwG4_DEIEf",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3440
+      }
+    },
+    {
+      "id": "node-WjHpueZDK-d3oDNMVZi9w",
+      "label": "Multiple Inheritance",
+      "topicId": "WjHpueZDK-d3oDNMVZi9w",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-OXQUPqxzs1-giAACwl3X1",
+      "label": "Multithreading",
+      "topicId": "OXQUPqxzs1-giAACwl3X1",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-Lt7ss59KZw9Jwqj234jm2",
+      "label": "Name Mangling",
+      "topicId": "Lt7ss59KZw9Jwqj234jm2",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3600
+      }
+    },
+    {
+      "id": "node-iIdC7V8sojwyEqK1xMuHn",
+      "label": "Namespaces",
+      "topicId": "iIdC7V8sojwyEqK1xMuHn",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-Gld0nRs0sM8kRe8XmYolu",
+      "label": "New/Delete Operators",
+      "topicId": "Gld0nRs0sM8kRe8XmYolu",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-HkUCD5A_M9bJxJRElkK0x",
+      "label": "Ninja",
+      "topicId": "HkUCD5A_M9bJxJRElkK0x",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3760
+      }
+    },
+    {
+      "id": "node-xjUaIp8gGxkN-cp8emJ2M",
+      "label": "Non-Copyable / Non-Moveable",
+      "topicId": "xjUaIp8gGxkN-cp8emJ2M",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-g0s0F4mLV16eNvMBflN2e",
+      "label": "NuGet",
+      "topicId": "g0s0F4mLV16eNvMBflN2e",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-b3-QYKNcW3LYCNOza3Olf",
+      "label": "Object-Oriented Programming (OOP)",
+      "topicId": "b3-QYKNcW3LYCNOza3Olf",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 3920
+      }
+    },
+    {
+      "id": "node-GGZJaYpRENaqloJzt0VtY",
+      "label": "OpenCL",
+      "topicId": "GGZJaYpRENaqloJzt0VtY",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-Eq3TKSFJ2F2mrTHAaU2J4",
+      "label": "OpenCV",
+      "topicId": "Eq3TKSFJ2F2mrTHAaU2J4",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-llCBeut_uc9IAe2oi4KZ9",
+      "label": "Operator Overloading in C++",
+      "topicId": "llCBeut_uc9IAe2oi4KZ9",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4080
+      }
+    },
+    {
+      "id": "node-O0lVEMTAV1pq9sYCKQvh_",
+      "label": "Orbit Profiler",
+      "topicId": "O0lVEMTAV1pq9sYCKQvh_",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-h29eJG1hWHa7vMhSqtfV2",
+      "label": "Package Managers",
+      "topicId": "h29eJG1hWHa7vMhSqtfV2",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-1NYJtbdcdOB4-vIrnq4yX",
+      "label": "Partial Template Specialization",
+      "topicId": "1NYJtbdcdOB4-vIrnq4yX",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4240
+      }
+    },
+    {
+      "id": "node-MEoWt8NKjPLVTeGgYf3cR",
+      "label": "Pimpl Idiom",
+      "topicId": "MEoWt8NKjPLVTeGgYf3cR",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-nOkniNXfXwPPlOEJHJoGl",
+      "label": "POCO",
+      "topicId": "nOkniNXfXwPPlOEJHJoGl",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-DWw8NxkLpIpiOSUaZZ1oA",
+      "label": "Pointers and References",
+      "topicId": "DWw8NxkLpIpiOSUaZZ1oA",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4400
+      }
+    },
+    {
+      "id": "node-jpMCIWQko7p3ndezYHL4D",
+      "label": "Protobuf",
+      "topicId": "jpMCIWQko7p3ndezYHL4D",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-tEkvlJPAkD5fji-MMODL7",
+      "label": "pybind11",
+      "topicId": "tEkvlJPAkD5fji-MMODL7",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-88pr5aN7cctZfDVVo-2ns",
+      "label": "PyTorch C++",
+      "topicId": "88pr5aN7cctZfDVVo-2ns",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4560
+      }
+    },
+    {
+      "id": "node-gAZ9Dqgj1_UkaLzVgzx1t",
+      "label": "Qt",
+      "topicId": "gAZ9Dqgj1_UkaLzVgzx1t",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-OmHDlLxCnH8RDdu5vx9fl",
+      "label": "RAII",
+      "topicId": "OmHDlLxCnH8RDdu5vx9fl",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-et-dXKPYuyVW6eV2K3CM8",
+      "label": "Ranges v3",
+      "topicId": "et-dXKPYuyVW6eV2K3CM8",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4720
+      }
+    },
+    {
+      "id": "node-uEGEmbxegATIrvGfobJb9",
+      "label": "Raw Pointers",
+      "topicId": "uEGEmbxegATIrvGfobJb9",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-uUzRKa9wGzdUwwmAg3FWr",
+      "label": "References",
+      "topicId": "uUzRKa9wGzdUwwmAg3FWr",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-ZMyFDJrpCauGrY5NZkOwg",
+      "label": "reinterpret_cast",
+      "topicId": "ZMyFDJrpCauGrY5NZkOwg",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 4880
+      }
+    },
+    {
+      "id": "node-r0yD1gfn03wTpEBi6zNsu",
+      "label": "Run-Time Type Identification (RTTI)",
+      "topicId": "r0yD1gfn03wTpEBi6zNsu",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5040
+      }
+    },
+    {
+      "id": "node-7sdEzZCIoarzznwO4XcCv",
+      "label": "Rule of Zero, Five, Three",
+      "topicId": "7sdEzZCIoarzznwO4XcCv",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5040
+      }
+    },
+    {
+      "id": "node-SEq0D2Zg5WTsIDtd1hW9f",
+      "label": "Running Your First Program",
+      "topicId": "SEq0D2Zg5WTsIDtd1hW9f",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5040
+      }
+    },
+    {
+      "id": "node-dKCYmxDNZubCVcR5rf8b-",
+      "label": "Scope",
+      "topicId": "dKCYmxDNZubCVcR5rf8b-",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5200
+      }
+    },
+    {
+      "id": "node-Zc_TTzmM36yWsu3GvOy9x",
+      "label": "Setting up your Environment",
+      "topicId": "Zc_TTzmM36yWsu3GvOy9x",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5200
+      }
+    },
+    {
+      "id": "node-3C5UfejDX-1Z8ZF6C53xD",
+      "label": "SFINAE (Substitution Failure Is Not An Error)",
+      "topicId": "3C5UfejDX-1Z8ZF6C53xD",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5200
+      }
+    },
+    {
+      "id": "node-b5jZIZD_U_CPg-_bdndjz",
+      "label": "shared_ptr",
+      "topicId": "b5jZIZD_U_CPg-_bdndjz",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5360
+      }
+    },
+    {
+      "id": "node-ulvwm4rRPgkpgaqGgyH5a",
+      "label": "Smart Pointers",
+      "topicId": "ulvwm4rRPgkpgaqGgyH5a",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5360
+      }
+    },
+    {
+      "id": "node-3ehBc2sKVlPj7dn4RVZCH",
+      "label": "Spack",
+      "topicId": "3ehBc2sKVlPj7dn4RVZCH",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5360
+      }
+    },
+    {
+      "id": "node-q64qFxoCrR38RPsN2lC8x",
+      "label": "spdlog",
+      "topicId": "q64qFxoCrR38RPsN2lC8x",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5520
+      }
+    },
+    {
+      "id": "node-DHdNBP7_ixjr6h-dIQ7g6",
+      "label": "C++ Standard Library and STL",
+      "topicId": "DHdNBP7_ixjr6h-dIQ7g6",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5520
+      }
+    },
+    {
+      "id": "node-vvE1aUsWbF1OFcmMUHbJa",
+      "label": "C++ Standards",
+      "topicId": "vvE1aUsWbF1OFcmMUHbJa",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5520
+      }
+    },
+    {
+      "id": "node-obZIxRp0eMWdG7gplNIBc",
+      "label": "Static Polymorphism",
+      "topicId": "obZIxRp0eMWdG7gplNIBc",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5680
+      }
+    },
+    {
+      "id": "node-f1djN0GxoeVPr_0cl6vMq",
+      "label": "Static Typing",
+      "topicId": "f1djN0GxoeVPr_0cl6vMq",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5680
+      }
+    },
+    {
+      "id": "node-_XB2Imyf23-6AOeoNLhYQ",
+      "label": "static_cast",
+      "topicId": "_XB2Imyf23-6AOeoNLhYQ",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5680
+      }
+    },
+    {
+      "id": "node-CMlWNQwpywNhO9B6Yj6Me",
+      "label": "Structures and Classes",
+      "topicId": "CMlWNQwpywNhO9B6Yj6Me",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 5840
+      }
+    },
+    {
+      "id": "node-Zw2AOTK5uc9BoKEpY7W1C",
+      "label": "Structuring Codebase",
+      "topicId": "Zw2AOTK5uc9BoKEpY7W1C",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 5840
+      }
+    },
+    {
+      "id": "node-sObOuccY0PDeGG-9GrFDF",
+      "label": "Template Specialization",
+      "topicId": "sObOuccY0PDeGG-9GrFDF",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 5840
+      }
+    },
+    {
+      "id": "node--6AOrbuOE7DJCmxlcgCay",
+      "label": "C++ Templates",
+      "topicId": "-6AOrbuOE7DJCmxlcgCay",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 6000
+      }
+    },
+    {
+      "id": "node-j_eNHhs0J08Dt7HVbo4Q2",
+      "label": "Tensorflow",
+      "topicId": "j_eNHhs0J08Dt7HVbo4Q2",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 6000
+      }
+    },
+    {
+      "id": "node-PiMhw1oP9-NZEa6I9u4lX",
+      "label": "Type Casting",
+      "topicId": "PiMhw1oP9-NZEa6I9u4lX",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 6000
+      }
+    },
+    {
+      "id": "node-WptReUOwVth3C9-AVmMHF",
+      "label": "Type Traits",
+      "topicId": "WptReUOwVth3C9-AVmMHF",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 6160
+      }
+    },
+    {
+      "id": "node-IDOlquv6jlfecwQoBwkGZ",
+      "label": "Undefined Behavior (UB)",
+      "topicId": "IDOlquv6jlfecwQoBwkGZ",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 6160
+      }
+    },
+    {
+      "id": "node-VtPb8-AJKzhTB0QbMtoU4",
+      "label": "Understanding Debugger Messages",
+      "topicId": "VtPb8-AJKzhTB0QbMtoU4",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 6160
+      }
+    },
+    {
+      "id": "node-k9c5seRkhgm_yHPpiz2X0",
+      "label": "unique_ptr",
+      "topicId": "k9c5seRkhgm_yHPpiz2X0",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 6320
+      }
+    },
+    {
+      "id": "node-w4EIf58KP-Pq-yc0HlGxc",
+      "label": "Variadic Templates",
+      "topicId": "w4EIf58KP-Pq-yc0HlGxc",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 6320
+      }
+    },
+    {
+      "id": "node-PKG5pACLfRS2ogfzBX47_",
+      "label": "vcpkg",
+      "topicId": "PKG5pACLfRS2ogfzBX47_",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 6320
+      }
+    },
+    {
+      "id": "node-hNBErGNiegLsUJn_vgcOR",
+      "label": "Virtual Methods",
+      "topicId": "hNBErGNiegLsUJn_vgcOR",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 6480
+      }
+    },
+    {
+      "id": "node-s99ImazcwCgAESxZd8ksa",
+      "label": "Virtual Tables",
+      "topicId": "s99ImazcwCgAESxZd8ksa",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 6480
+      }
+    },
+    {
+      "id": "node-vUwSS-uX36OWZouO0wOcy",
+      "label": "weak_ptr",
+      "topicId": "vUwSS-uX36OWZouO0wOcy",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 6480
+      }
+    },
+    {
+      "id": "node-x_28LiDVshqWns_aIBsdx",
+      "label": "What is C++?",
+      "topicId": "x_28LiDVshqWns_aIBsdx",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 6640
+      }
+    },
+    {
+      "id": "node-tl6VCQ5IEGDVyFcgj7jDm",
+      "label": "Why Use C++",
+      "topicId": "tl6VCQ5IEGDVyFcgj7jDm",
+      "level": 4,
+      "position": {
+        "x": 340,
+        "y": 6640
+      }
+    },
+    {
+      "id": "node-y8VCbGDUco9bzGRfIBD8R",
+      "label": "WinDbg",
+      "topicId": "y8VCbGDUco9bzGRfIBD8R",
+      "level": 4,
+      "position": {
+        "x": 600,
+        "y": 6640
+      }
+    },
+    {
+      "id": "node-4kkX5g_-plX9zVqr0ZoiR",
+      "label": "Working with Libraries",
+      "topicId": "4kkX5g_-plX9zVqr0ZoiR",
+      "level": 4,
+      "position": {
+        "x": 80,
+        "y": 6800
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-node-y4-P4UNC--rE1vni8HdTn-node-whyj6Z4RXFsVQYRfYYn7B",
+      "source": "node-y4-P4UNC--rE1vni8HdTn",
+      "target": "node-whyj6Z4RXFsVQYRfYYn7B",
+      "animated": true
+    },
+    {
+      "id": "edge-node-whyj6Z4RXFsVQYRfYYn7B-node-YSWN7nS8vA9nMldSUrZRT",
+      "source": "node-whyj6Z4RXFsVQYRfYYn7B",
+      "target": "node-YSWN7nS8vA9nMldSUrZRT",
+      "animated": true
+    },
+    {
+      "id": "edge-node-YSWN7nS8vA9nMldSUrZRT-node-8aOSpZLWwZv_BEYiurhyR",
+      "source": "node-YSWN7nS8vA9nMldSUrZRT",
+      "target": "node-8aOSpZLWwZv_BEYiurhyR",
+      "animated": true
+    },
+    {
+      "id": "edge-node-8aOSpZLWwZv_BEYiurhyR-node-CG01PTVgHtjfKvsJkJLGl",
+      "source": "node-8aOSpZLWwZv_BEYiurhyR",
+      "target": "node-CG01PTVgHtjfKvsJkJLGl",
+      "animated": true
+    },
+    {
+      "id": "edge-node-CG01PTVgHtjfKvsJkJLGl-node-kl2JI_Wl47c5r8SYzxvCq",
+      "source": "node-CG01PTVgHtjfKvsJkJLGl",
+      "target": "node-kl2JI_Wl47c5r8SYzxvCq",
+      "animated": true
+    },
+    {
+      "id": "edge-node-kl2JI_Wl47c5r8SYzxvCq-node-zE4iPSq2KsrDSByQ0sGK_",
+      "source": "node-kl2JI_Wl47c5r8SYzxvCq",
+      "target": "node-zE4iPSq2KsrDSByQ0sGK_",
+      "animated": true
+    },
+    {
+      "id": "edge-node-zE4iPSq2KsrDSByQ0sGK_-node-1d7h5P1Q0RVHryKPVogQy",
+      "source": "node-zE4iPSq2KsrDSByQ0sGK_",
+      "target": "node-1d7h5P1Q0RVHryKPVogQy",
+      "animated": true
+    },
+    {
+      "id": "edge-node-1d7h5P1Q0RVHryKPVogQy-node-jVXFCo6puMxJ_ifn_uwim",
+      "source": "node-1d7h5P1Q0RVHryKPVogQy",
+      "target": "node-jVXFCo6puMxJ_ifn_uwim",
+      "animated": true
+    },
+    {
+      "id": "edge-node-jVXFCo6puMxJ_ifn_uwim-node-PPg0V5EzGBeJsysg1215V",
+      "source": "node-jVXFCo6puMxJ_ifn_uwim",
+      "target": "node-PPg0V5EzGBeJsysg1215V",
+      "animated": true
+    },
+    {
+      "id": "edge-node-PPg0V5EzGBeJsysg1215V-node-T6rCTv9Dxkm-tEA-l9XEv",
+      "source": "node-PPg0V5EzGBeJsysg1215V",
+      "target": "node-T6rCTv9Dxkm-tEA-l9XEv",
+      "animated": true
+    },
+    {
+      "id": "edge-node-T6rCTv9Dxkm-tEA-l9XEv-node-R2-qWGUxsTOeSHRuUzhd2",
+      "source": "node-T6rCTv9Dxkm-tEA-l9XEv",
+      "target": "node-R2-qWGUxsTOeSHRuUzhd2",
+      "animated": true
+    },
+    {
+      "id": "edge-node-R2-qWGUxsTOeSHRuUzhd2-node-o3no4a5_iMFzEAGs56-BJ",
+      "source": "node-R2-qWGUxsTOeSHRuUzhd2",
+      "target": "node-o3no4a5_iMFzEAGs56-BJ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-o3no4a5_iMFzEAGs56-BJ-node-sxbbKtg7kMNbkx7fXhjR9",
+      "source": "node-o3no4a5_iMFzEAGs56-BJ",
+      "target": "node-sxbbKtg7kMNbkx7fXhjR9",
+      "animated": true
+    },
+    {
+      "id": "edge-node-sxbbKtg7kMNbkx7fXhjR9-node-2Ag0t3LPryTF8khHLRfy-",
+      "source": "node-sxbbKtg7kMNbkx7fXhjR9",
+      "target": "node-2Ag0t3LPryTF8khHLRfy-",
+      "animated": true
+    },
+    {
+      "id": "edge-node-2Ag0t3LPryTF8khHLRfy--node-s13jQuaC6gw0Lab3Cbyy6",
+      "source": "node-2Ag0t3LPryTF8khHLRfy-",
+      "target": "node-s13jQuaC6gw0Lab3Cbyy6",
+      "animated": true
+    },
+    {
+      "id": "edge-node-s13jQuaC6gw0Lab3Cbyy6-node-ysnXvSHGBMMozBJyXpHl5",
+      "source": "node-s13jQuaC6gw0Lab3Cbyy6",
+      "target": "node-ysnXvSHGBMMozBJyXpHl5",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ysnXvSHGBMMozBJyXpHl5-node-ew0AfyadpXPRO0ZY3Z19k",
+      "source": "node-ysnXvSHGBMMozBJyXpHl5",
+      "target": "node-ew0AfyadpXPRO0ZY3Z19k",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ew0AfyadpXPRO0ZY3Z19k-node-DVckzBUMgk_lWThVkLyAT",
+      "source": "node-ew0AfyadpXPRO0ZY3Z19k",
+      "target": "node-DVckzBUMgk_lWThVkLyAT",
+      "animated": true
+    },
+    {
+      "id": "edge-node-DVckzBUMgk_lWThVkLyAT-node-hSG6Aux39X0cXi6ADy2al",
+      "source": "node-DVckzBUMgk_lWThVkLyAT",
+      "target": "node-hSG6Aux39X0cXi6ADy2al",
+      "animated": true
+    },
+    {
+      "id": "edge-node-hSG6Aux39X0cXi6ADy2al-node-FTMHsUiE8isD_OVZr62Xc",
+      "source": "node-hSG6Aux39X0cXi6ADy2al",
+      "target": "node-FTMHsUiE8isD_OVZr62Xc",
+      "animated": true
+    },
+    {
+      "id": "edge-node-FTMHsUiE8isD_OVZr62Xc-node-ky_UqizToTZHC_b77qFi2",
+      "source": "node-FTMHsUiE8isD_OVZr62Xc",
+      "target": "node-ky_UqizToTZHC_b77qFi2",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ky_UqizToTZHC_b77qFi2-node-5g22glc97siQOcTkHbwan",
+      "source": "node-ky_UqizToTZHC_b77qFi2",
+      "target": "node-5g22glc97siQOcTkHbwan",
+      "animated": true
+    },
+    {
+      "id": "edge-node-5g22glc97siQOcTkHbwan-node-1pydf-SR0QUfVNuBEyvzc",
+      "source": "node-5g22glc97siQOcTkHbwan",
+      "target": "node-1pydf-SR0QUfVNuBEyvzc",
+      "animated": true
+    },
+    {
+      "id": "edge-node-1pydf-SR0QUfVNuBEyvzc-node-s5Gs4yF9TPh-psYmtPzks",
+      "source": "node-1pydf-SR0QUfVNuBEyvzc",
+      "target": "node-s5Gs4yF9TPh-psYmtPzks",
+      "animated": true
+    },
+    {
+      "id": "edge-node-s5Gs4yF9TPh-psYmtPzks-node-lxAzI42jQdaofzQ5MXebG",
+      "source": "node-s5Gs4yF9TPh-psYmtPzks",
+      "target": "node-lxAzI42jQdaofzQ5MXebG",
+      "animated": true
+    },
+    {
+      "id": "edge-node-lxAzI42jQdaofzQ5MXebG-node-O2Du5gHHxFxAI2u5uO8wu",
+      "source": "node-lxAzI42jQdaofzQ5MXebG",
+      "target": "node-O2Du5gHHxFxAI2u5uO8wu",
+      "animated": true
+    },
+    {
+      "id": "edge-node-O2Du5gHHxFxAI2u5uO8wu-node-ttt-yeIi4BPWrgvW324W7",
+      "source": "node-O2Du5gHHxFxAI2u5uO8wu",
+      "target": "node-ttt-yeIi4BPWrgvW324W7",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ttt-yeIi4BPWrgvW324W7-node-MwznA4qfpNlv6sqSNjPZi",
+      "source": "node-ttt-yeIi4BPWrgvW324W7",
+      "target": "node-MwznA4qfpNlv6sqSNjPZi",
+      "animated": true
+    },
+    {
+      "id": "edge-node-MwznA4qfpNlv6sqSNjPZi-node-yGvE6eHKlPMBB6rde0llR",
+      "source": "node-MwznA4qfpNlv6sqSNjPZi",
+      "target": "node-yGvE6eHKlPMBB6rde0llR",
+      "animated": true
+    },
+    {
+      "id": "edge-node-yGvE6eHKlPMBB6rde0llR-node-qmHs6_BzND_xpMmls5YUH",
+      "source": "node-yGvE6eHKlPMBB6rde0llR",
+      "target": "node-qmHs6_BzND_xpMmls5YUH",
+      "animated": true
+    },
+    {
+      "id": "edge-node-qmHs6_BzND_xpMmls5YUH-node-sR_FxGZHoMCV9Iv7z2_SX",
+      "source": "node-qmHs6_BzND_xpMmls5YUH",
+      "target": "node-sR_FxGZHoMCV9Iv7z2_SX",
+      "animated": true
+    },
+    {
+      "id": "edge-node-sR_FxGZHoMCV9Iv7z2_SX-node-ofwdZm05AUqCIWmfgGHk8",
+      "source": "node-sR_FxGZHoMCV9Iv7z2_SX",
+      "target": "node-ofwdZm05AUqCIWmfgGHk8",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ofwdZm05AUqCIWmfgGHk8-node-7h1VivjCPDwriL7FirtFv",
+      "source": "node-ofwdZm05AUqCIWmfgGHk8",
+      "target": "node-7h1VivjCPDwriL7FirtFv",
+      "animated": true
+    },
+    {
+      "id": "edge-node-7h1VivjCPDwriL7FirtFv-node-i0EAFEUB-F0wBJWOtrl1A",
+      "source": "node-7h1VivjCPDwriL7FirtFv",
+      "target": "node-i0EAFEUB-F0wBJWOtrl1A",
+      "animated": true
+    },
+    {
+      "id": "edge-node-i0EAFEUB-F0wBJWOtrl1A-node-4BdFcuQ5KNW94cu2jz-vE",
+      "source": "node-i0EAFEUB-F0wBJWOtrl1A",
+      "target": "node-4BdFcuQ5KNW94cu2jz-vE",
+      "animated": true
+    },
+    {
+      "id": "edge-node-4BdFcuQ5KNW94cu2jz-vE-node-YvmjrZSAOmjhVPo05MJqN",
+      "source": "node-4BdFcuQ5KNW94cu2jz-vE",
+      "target": "node-YvmjrZSAOmjhVPo05MJqN",
+      "animated": true
+    },
+    {
+      "id": "edge-node-YvmjrZSAOmjhVPo05MJqN-node-B2SGBENzUMl0SAjG4j91V",
+      "source": "node-YvmjrZSAOmjhVPo05MJqN",
+      "target": "node-B2SGBENzUMl0SAjG4j91V",
+      "animated": true
+    },
+    {
+      "id": "edge-node-B2SGBENzUMl0SAjG4j91V-node-NJud5SXBAUZ6Sr78kZ7jx",
+      "source": "node-B2SGBENzUMl0SAjG4j91V",
+      "target": "node-NJud5SXBAUZ6Sr78kZ7jx",
+      "animated": true
+    },
+    {
+      "id": "edge-node-NJud5SXBAUZ6Sr78kZ7jx-node-oWygnpwHq2poXQMTTSCpl",
+      "source": "node-NJud5SXBAUZ6Sr78kZ7jx",
+      "target": "node-oWygnpwHq2poXQMTTSCpl",
+      "animated": true
+    },
+    {
+      "id": "edge-node-oWygnpwHq2poXQMTTSCpl-node-1CqQgmHDeo1HlPdpUJS7H",
+      "source": "node-oWygnpwHq2poXQMTTSCpl",
+      "target": "node-1CqQgmHDeo1HlPdpUJS7H",
+      "animated": true
+    },
+    {
+      "id": "edge-node-1CqQgmHDeo1HlPdpUJS7H-node-_IP_e1K9LhNHilYTDh7L5",
+      "source": "node-1CqQgmHDeo1HlPdpUJS7H",
+      "target": "node-_IP_e1K9LhNHilYTDh7L5",
+      "animated": true
+    },
+    {
+      "id": "edge-node-_IP_e1K9LhNHilYTDh7L5-node-ZHjU60uzJTezADRhDTESG",
+      "source": "node-_IP_e1K9LhNHilYTDh7L5",
+      "target": "node-ZHjU60uzJTezADRhDTESG",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ZHjU60uzJTezADRhDTESG-node-6hTcmJwNnQstbWWzNCfTe",
+      "source": "node-ZHjU60uzJTezADRhDTESG",
+      "target": "node-6hTcmJwNnQstbWWzNCfTe",
+      "animated": true
+    },
+    {
+      "id": "edge-node-6hTcmJwNnQstbWWzNCfTe-node-sgfqb22sdN4VRJYkhAVaf",
+      "source": "node-6hTcmJwNnQstbWWzNCfTe",
+      "target": "node-sgfqb22sdN4VRJYkhAVaf",
+      "animated": true
+    },
+    {
+      "id": "edge-node-sgfqb22sdN4VRJYkhAVaf-node-oYi3YOc1GC2Nfp71VOkJt",
+      "source": "node-sgfqb22sdN4VRJYkhAVaf",
+      "target": "node-oYi3YOc1GC2Nfp71VOkJt",
+      "animated": true
+    },
+    {
+      "id": "edge-node-oYi3YOc1GC2Nfp71VOkJt-node-BmWsoL9c_Aag5nVlMsKm2",
+      "source": "node-oYi3YOc1GC2Nfp71VOkJt",
+      "target": "node-BmWsoL9c_Aag5nVlMsKm2",
+      "animated": true
+    },
+    {
+      "id": "edge-node-BmWsoL9c_Aag5nVlMsKm2-node-621J9W4xCofumNZGo4TZT",
+      "source": "node-BmWsoL9c_Aag5nVlMsKm2",
+      "target": "node-621J9W4xCofumNZGo4TZT",
+      "animated": true
+    },
+    {
+      "id": "edge-node-621J9W4xCofumNZGo4TZT-node-MrAM-viRaF8DSxB6sVdD9",
+      "source": "node-621J9W4xCofumNZGo4TZT",
+      "target": "node-MrAM-viRaF8DSxB6sVdD9",
+      "animated": true
+    },
+    {
+      "id": "edge-node-MrAM-viRaF8DSxB6sVdD9-node-CK7yf8Bo7kfbV6x2tZTrh",
+      "source": "node-MrAM-viRaF8DSxB6sVdD9",
+      "target": "node-CK7yf8Bo7kfbV6x2tZTrh",
+      "animated": true
+    },
+    {
+      "id": "edge-node-CK7yf8Bo7kfbV6x2tZTrh-node-fb3bnfKXjSIjPAk4b95lg",
+      "source": "node-CK7yf8Bo7kfbV6x2tZTrh",
+      "target": "node-fb3bnfKXjSIjPAk4b95lg",
+      "animated": true
+    },
+    {
+      "id": "edge-node-fb3bnfKXjSIjPAk4b95lg-node-bjpFWxiCKGz28E-ukhZBp",
+      "source": "node-fb3bnfKXjSIjPAk4b95lg",
+      "target": "node-bjpFWxiCKGz28E-ukhZBp",
+      "animated": true
+    },
+    {
+      "id": "edge-node-bjpFWxiCKGz28E-ukhZBp-node-0J_ltQEJh2g28OE2ZEYJj",
+      "source": "node-bjpFWxiCKGz28E-ukhZBp",
+      "target": "node-0J_ltQEJh2g28OE2ZEYJj",
+      "animated": true
+    },
+    {
+      "id": "edge-node-0J_ltQEJh2g28OE2ZEYJj-node-NvODRFR0DLINB0RlPSsvt",
+      "source": "node-0J_ltQEJh2g28OE2ZEYJj",
+      "target": "node-NvODRFR0DLINB0RlPSsvt",
+      "animated": true
+    },
+    {
+      "id": "edge-node-NvODRFR0DLINB0RlPSsvt-node-VeVxZ230xkesQsIDig8zQ",
+      "source": "node-NvODRFR0DLINB0RlPSsvt",
+      "target": "node-VeVxZ230xkesQsIDig8zQ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-VeVxZ230xkesQsIDig8zQ-node-Ebu8gzbyyXEeJryeE0SpG",
+      "source": "node-VeVxZ230xkesQsIDig8zQ",
+      "target": "node-Ebu8gzbyyXEeJryeE0SpG",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Ebu8gzbyyXEeJryeE0SpG-node-xjiFBVe-VGqCqWfkPVGKf",
+      "source": "node-Ebu8gzbyyXEeJryeE0SpG",
+      "target": "node-xjiFBVe-VGqCqWfkPVGKf",
+      "animated": true
+    },
+    {
+      "id": "edge-node-xjiFBVe-VGqCqWfkPVGKf-node--6fwJQOfsorgHkoQGp4T3",
+      "source": "node-xjiFBVe-VGqCqWfkPVGKf",
+      "target": "node--6fwJQOfsorgHkoQGp4T3",
+      "animated": true
+    },
+    {
+      "id": "edge-node--6fwJQOfsorgHkoQGp4T3-node-5mNqH_AEiLxUmgurNW1Fq",
+      "source": "node--6fwJQOfsorgHkoQGp4T3",
+      "target": "node-5mNqH_AEiLxUmgurNW1Fq",
+      "animated": true
+    },
+    {
+      "id": "edge-node-5mNqH_AEiLxUmgurNW1Fq-node-sLVs95EOeHZldoKY0L_dH",
+      "source": "node-5mNqH_AEiLxUmgurNW1Fq",
+      "target": "node-sLVs95EOeHZldoKY0L_dH",
+      "animated": true
+    },
+    {
+      "id": "edge-node-sLVs95EOeHZldoKY0L_dH-node-9aA_-IfQ9WmbPgwic0mFN",
+      "source": "node-sLVs95EOeHZldoKY0L_dH",
+      "target": "node-9aA_-IfQ9WmbPgwic0mFN",
+      "animated": true
+    },
+    {
+      "id": "edge-node-9aA_-IfQ9WmbPgwic0mFN-node-Y9gq8WkDA_XGe68JkY2UZ",
+      "source": "node-9aA_-IfQ9WmbPgwic0mFN",
+      "target": "node-Y9gq8WkDA_XGe68JkY2UZ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Y9gq8WkDA_XGe68JkY2UZ-node-zKdlfZTRHwjtmRUGW9z9-",
+      "source": "node-Y9gq8WkDA_XGe68JkY2UZ",
+      "target": "node-zKdlfZTRHwjtmRUGW9z9-",
+      "animated": true
+    },
+    {
+      "id": "edge-node-zKdlfZTRHwjtmRUGW9z9--node-t6rZLH7l8JQm99ax_fEJ9",
+      "source": "node-zKdlfZTRHwjtmRUGW9z9-",
+      "target": "node-t6rZLH7l8JQm99ax_fEJ9",
+      "animated": true
+    },
+    {
+      "id": "edge-node-t6rZLH7l8JQm99ax_fEJ9-node-6w0WExQ4lGIGgok6Thq0s",
+      "source": "node-t6rZLH7l8JQm99ax_fEJ9",
+      "target": "node-6w0WExQ4lGIGgok6Thq0s",
+      "animated": true
+    },
+    {
+      "id": "edge-node-6w0WExQ4lGIGgok6Thq0s-node-mSFwsTYvmg-GwG4_DEIEf",
+      "source": "node-6w0WExQ4lGIGgok6Thq0s",
+      "target": "node-mSFwsTYvmg-GwG4_DEIEf",
+      "animated": true
+    },
+    {
+      "id": "edge-node-mSFwsTYvmg-GwG4_DEIEf-node-WjHpueZDK-d3oDNMVZi9w",
+      "source": "node-mSFwsTYvmg-GwG4_DEIEf",
+      "target": "node-WjHpueZDK-d3oDNMVZi9w",
+      "animated": true
+    },
+    {
+      "id": "edge-node-WjHpueZDK-d3oDNMVZi9w-node-OXQUPqxzs1-giAACwl3X1",
+      "source": "node-WjHpueZDK-d3oDNMVZi9w",
+      "target": "node-OXQUPqxzs1-giAACwl3X1",
+      "animated": true
+    },
+    {
+      "id": "edge-node-OXQUPqxzs1-giAACwl3X1-node-Lt7ss59KZw9Jwqj234jm2",
+      "source": "node-OXQUPqxzs1-giAACwl3X1",
+      "target": "node-Lt7ss59KZw9Jwqj234jm2",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Lt7ss59KZw9Jwqj234jm2-node-iIdC7V8sojwyEqK1xMuHn",
+      "source": "node-Lt7ss59KZw9Jwqj234jm2",
+      "target": "node-iIdC7V8sojwyEqK1xMuHn",
+      "animated": true
+    },
+    {
+      "id": "edge-node-iIdC7V8sojwyEqK1xMuHn-node-Gld0nRs0sM8kRe8XmYolu",
+      "source": "node-iIdC7V8sojwyEqK1xMuHn",
+      "target": "node-Gld0nRs0sM8kRe8XmYolu",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Gld0nRs0sM8kRe8XmYolu-node-HkUCD5A_M9bJxJRElkK0x",
+      "source": "node-Gld0nRs0sM8kRe8XmYolu",
+      "target": "node-HkUCD5A_M9bJxJRElkK0x",
+      "animated": true
+    },
+    {
+      "id": "edge-node-HkUCD5A_M9bJxJRElkK0x-node-xjUaIp8gGxkN-cp8emJ2M",
+      "source": "node-HkUCD5A_M9bJxJRElkK0x",
+      "target": "node-xjUaIp8gGxkN-cp8emJ2M",
+      "animated": true
+    },
+    {
+      "id": "edge-node-xjUaIp8gGxkN-cp8emJ2M-node-g0s0F4mLV16eNvMBflN2e",
+      "source": "node-xjUaIp8gGxkN-cp8emJ2M",
+      "target": "node-g0s0F4mLV16eNvMBflN2e",
+      "animated": true
+    },
+    {
+      "id": "edge-node-g0s0F4mLV16eNvMBflN2e-node-b3-QYKNcW3LYCNOza3Olf",
+      "source": "node-g0s0F4mLV16eNvMBflN2e",
+      "target": "node-b3-QYKNcW3LYCNOza3Olf",
+      "animated": true
+    },
+    {
+      "id": "edge-node-b3-QYKNcW3LYCNOza3Olf-node-GGZJaYpRENaqloJzt0VtY",
+      "source": "node-b3-QYKNcW3LYCNOza3Olf",
+      "target": "node-GGZJaYpRENaqloJzt0VtY",
+      "animated": true
+    },
+    {
+      "id": "edge-node-GGZJaYpRENaqloJzt0VtY-node-Eq3TKSFJ2F2mrTHAaU2J4",
+      "source": "node-GGZJaYpRENaqloJzt0VtY",
+      "target": "node-Eq3TKSFJ2F2mrTHAaU2J4",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Eq3TKSFJ2F2mrTHAaU2J4-node-llCBeut_uc9IAe2oi4KZ9",
+      "source": "node-Eq3TKSFJ2F2mrTHAaU2J4",
+      "target": "node-llCBeut_uc9IAe2oi4KZ9",
+      "animated": true
+    },
+    {
+      "id": "edge-node-llCBeut_uc9IAe2oi4KZ9-node-O0lVEMTAV1pq9sYCKQvh_",
+      "source": "node-llCBeut_uc9IAe2oi4KZ9",
+      "target": "node-O0lVEMTAV1pq9sYCKQvh_",
+      "animated": true
+    },
+    {
+      "id": "edge-node-O0lVEMTAV1pq9sYCKQvh_-node-h29eJG1hWHa7vMhSqtfV2",
+      "source": "node-O0lVEMTAV1pq9sYCKQvh_",
+      "target": "node-h29eJG1hWHa7vMhSqtfV2",
+      "animated": true
+    },
+    {
+      "id": "edge-node-h29eJG1hWHa7vMhSqtfV2-node-1NYJtbdcdOB4-vIrnq4yX",
+      "source": "node-h29eJG1hWHa7vMhSqtfV2",
+      "target": "node-1NYJtbdcdOB4-vIrnq4yX",
+      "animated": true
+    },
+    {
+      "id": "edge-node-1NYJtbdcdOB4-vIrnq4yX-node-MEoWt8NKjPLVTeGgYf3cR",
+      "source": "node-1NYJtbdcdOB4-vIrnq4yX",
+      "target": "node-MEoWt8NKjPLVTeGgYf3cR",
+      "animated": true
+    },
+    {
+      "id": "edge-node-MEoWt8NKjPLVTeGgYf3cR-node-nOkniNXfXwPPlOEJHJoGl",
+      "source": "node-MEoWt8NKjPLVTeGgYf3cR",
+      "target": "node-nOkniNXfXwPPlOEJHJoGl",
+      "animated": true
+    },
+    {
+      "id": "edge-node-nOkniNXfXwPPlOEJHJoGl-node-DWw8NxkLpIpiOSUaZZ1oA",
+      "source": "node-nOkniNXfXwPPlOEJHJoGl",
+      "target": "node-DWw8NxkLpIpiOSUaZZ1oA",
+      "animated": true
+    },
+    {
+      "id": "edge-node-DWw8NxkLpIpiOSUaZZ1oA-node-jpMCIWQko7p3ndezYHL4D",
+      "source": "node-DWw8NxkLpIpiOSUaZZ1oA",
+      "target": "node-jpMCIWQko7p3ndezYHL4D",
+      "animated": true
+    },
+    {
+      "id": "edge-node-jpMCIWQko7p3ndezYHL4D-node-tEkvlJPAkD5fji-MMODL7",
+      "source": "node-jpMCIWQko7p3ndezYHL4D",
+      "target": "node-tEkvlJPAkD5fji-MMODL7",
+      "animated": true
+    },
+    {
+      "id": "edge-node-tEkvlJPAkD5fji-MMODL7-node-88pr5aN7cctZfDVVo-2ns",
+      "source": "node-tEkvlJPAkD5fji-MMODL7",
+      "target": "node-88pr5aN7cctZfDVVo-2ns",
+      "animated": true
+    },
+    {
+      "id": "edge-node-88pr5aN7cctZfDVVo-2ns-node-gAZ9Dqgj1_UkaLzVgzx1t",
+      "source": "node-88pr5aN7cctZfDVVo-2ns",
+      "target": "node-gAZ9Dqgj1_UkaLzVgzx1t",
+      "animated": true
+    },
+    {
+      "id": "edge-node-gAZ9Dqgj1_UkaLzVgzx1t-node-OmHDlLxCnH8RDdu5vx9fl",
+      "source": "node-gAZ9Dqgj1_UkaLzVgzx1t",
+      "target": "node-OmHDlLxCnH8RDdu5vx9fl",
+      "animated": true
+    },
+    {
+      "id": "edge-node-OmHDlLxCnH8RDdu5vx9fl-node-et-dXKPYuyVW6eV2K3CM8",
+      "source": "node-OmHDlLxCnH8RDdu5vx9fl",
+      "target": "node-et-dXKPYuyVW6eV2K3CM8",
+      "animated": true
+    },
+    {
+      "id": "edge-node-et-dXKPYuyVW6eV2K3CM8-node-uEGEmbxegATIrvGfobJb9",
+      "source": "node-et-dXKPYuyVW6eV2K3CM8",
+      "target": "node-uEGEmbxegATIrvGfobJb9",
+      "animated": true
+    },
+    {
+      "id": "edge-node-uEGEmbxegATIrvGfobJb9-node-uUzRKa9wGzdUwwmAg3FWr",
+      "source": "node-uEGEmbxegATIrvGfobJb9",
+      "target": "node-uUzRKa9wGzdUwwmAg3FWr",
+      "animated": true
+    },
+    {
+      "id": "edge-node-uUzRKa9wGzdUwwmAg3FWr-node-ZMyFDJrpCauGrY5NZkOwg",
+      "source": "node-uUzRKa9wGzdUwwmAg3FWr",
+      "target": "node-ZMyFDJrpCauGrY5NZkOwg",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ZMyFDJrpCauGrY5NZkOwg-node-r0yD1gfn03wTpEBi6zNsu",
+      "source": "node-ZMyFDJrpCauGrY5NZkOwg",
+      "target": "node-r0yD1gfn03wTpEBi6zNsu",
+      "animated": true
+    },
+    {
+      "id": "edge-node-r0yD1gfn03wTpEBi6zNsu-node-7sdEzZCIoarzznwO4XcCv",
+      "source": "node-r0yD1gfn03wTpEBi6zNsu",
+      "target": "node-7sdEzZCIoarzznwO4XcCv",
+      "animated": true
+    },
+    {
+      "id": "edge-node-7sdEzZCIoarzznwO4XcCv-node-SEq0D2Zg5WTsIDtd1hW9f",
+      "source": "node-7sdEzZCIoarzznwO4XcCv",
+      "target": "node-SEq0D2Zg5WTsIDtd1hW9f",
+      "animated": true
+    },
+    {
+      "id": "edge-node-SEq0D2Zg5WTsIDtd1hW9f-node-dKCYmxDNZubCVcR5rf8b-",
+      "source": "node-SEq0D2Zg5WTsIDtd1hW9f",
+      "target": "node-dKCYmxDNZubCVcR5rf8b-",
+      "animated": true
+    },
+    {
+      "id": "edge-node-dKCYmxDNZubCVcR5rf8b--node-Zc_TTzmM36yWsu3GvOy9x",
+      "source": "node-dKCYmxDNZubCVcR5rf8b-",
+      "target": "node-Zc_TTzmM36yWsu3GvOy9x",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Zc_TTzmM36yWsu3GvOy9x-node-3C5UfejDX-1Z8ZF6C53xD",
+      "source": "node-Zc_TTzmM36yWsu3GvOy9x",
+      "target": "node-3C5UfejDX-1Z8ZF6C53xD",
+      "animated": true
+    },
+    {
+      "id": "edge-node-3C5UfejDX-1Z8ZF6C53xD-node-b5jZIZD_U_CPg-_bdndjz",
+      "source": "node-3C5UfejDX-1Z8ZF6C53xD",
+      "target": "node-b5jZIZD_U_CPg-_bdndjz",
+      "animated": true
+    },
+    {
+      "id": "edge-node-b5jZIZD_U_CPg-_bdndjz-node-ulvwm4rRPgkpgaqGgyH5a",
+      "source": "node-b5jZIZD_U_CPg-_bdndjz",
+      "target": "node-ulvwm4rRPgkpgaqGgyH5a",
+      "animated": true
+    },
+    {
+      "id": "edge-node-ulvwm4rRPgkpgaqGgyH5a-node-3ehBc2sKVlPj7dn4RVZCH",
+      "source": "node-ulvwm4rRPgkpgaqGgyH5a",
+      "target": "node-3ehBc2sKVlPj7dn4RVZCH",
+      "animated": true
+    },
+    {
+      "id": "edge-node-3ehBc2sKVlPj7dn4RVZCH-node-q64qFxoCrR38RPsN2lC8x",
+      "source": "node-3ehBc2sKVlPj7dn4RVZCH",
+      "target": "node-q64qFxoCrR38RPsN2lC8x",
+      "animated": true
+    },
+    {
+      "id": "edge-node-q64qFxoCrR38RPsN2lC8x-node-DHdNBP7_ixjr6h-dIQ7g6",
+      "source": "node-q64qFxoCrR38RPsN2lC8x",
+      "target": "node-DHdNBP7_ixjr6h-dIQ7g6",
+      "animated": true
+    },
+    {
+      "id": "edge-node-DHdNBP7_ixjr6h-dIQ7g6-node-vvE1aUsWbF1OFcmMUHbJa",
+      "source": "node-DHdNBP7_ixjr6h-dIQ7g6",
+      "target": "node-vvE1aUsWbF1OFcmMUHbJa",
+      "animated": true
+    },
+    {
+      "id": "edge-node-vvE1aUsWbF1OFcmMUHbJa-node-obZIxRp0eMWdG7gplNIBc",
+      "source": "node-vvE1aUsWbF1OFcmMUHbJa",
+      "target": "node-obZIxRp0eMWdG7gplNIBc",
+      "animated": true
+    },
+    {
+      "id": "edge-node-obZIxRp0eMWdG7gplNIBc-node-f1djN0GxoeVPr_0cl6vMq",
+      "source": "node-obZIxRp0eMWdG7gplNIBc",
+      "target": "node-f1djN0GxoeVPr_0cl6vMq",
+      "animated": true
+    },
+    {
+      "id": "edge-node-f1djN0GxoeVPr_0cl6vMq-node-_XB2Imyf23-6AOeoNLhYQ",
+      "source": "node-f1djN0GxoeVPr_0cl6vMq",
+      "target": "node-_XB2Imyf23-6AOeoNLhYQ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-_XB2Imyf23-6AOeoNLhYQ-node-CMlWNQwpywNhO9B6Yj6Me",
+      "source": "node-_XB2Imyf23-6AOeoNLhYQ",
+      "target": "node-CMlWNQwpywNhO9B6Yj6Me",
+      "animated": true
+    },
+    {
+      "id": "edge-node-CMlWNQwpywNhO9B6Yj6Me-node-Zw2AOTK5uc9BoKEpY7W1C",
+      "source": "node-CMlWNQwpywNhO9B6Yj6Me",
+      "target": "node-Zw2AOTK5uc9BoKEpY7W1C",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Zw2AOTK5uc9BoKEpY7W1C-node-sObOuccY0PDeGG-9GrFDF",
+      "source": "node-Zw2AOTK5uc9BoKEpY7W1C",
+      "target": "node-sObOuccY0PDeGG-9GrFDF",
+      "animated": true
+    },
+    {
+      "id": "edge-node-sObOuccY0PDeGG-9GrFDF-node--6AOrbuOE7DJCmxlcgCay",
+      "source": "node-sObOuccY0PDeGG-9GrFDF",
+      "target": "node--6AOrbuOE7DJCmxlcgCay",
+      "animated": true
+    },
+    {
+      "id": "edge-node--6AOrbuOE7DJCmxlcgCay-node-j_eNHhs0J08Dt7HVbo4Q2",
+      "source": "node--6AOrbuOE7DJCmxlcgCay",
+      "target": "node-j_eNHhs0J08Dt7HVbo4Q2",
+      "animated": true
+    },
+    {
+      "id": "edge-node-j_eNHhs0J08Dt7HVbo4Q2-node-PiMhw1oP9-NZEa6I9u4lX",
+      "source": "node-j_eNHhs0J08Dt7HVbo4Q2",
+      "target": "node-PiMhw1oP9-NZEa6I9u4lX",
+      "animated": true
+    },
+    {
+      "id": "edge-node-PiMhw1oP9-NZEa6I9u4lX-node-WptReUOwVth3C9-AVmMHF",
+      "source": "node-PiMhw1oP9-NZEa6I9u4lX",
+      "target": "node-WptReUOwVth3C9-AVmMHF",
+      "animated": true
+    },
+    {
+      "id": "edge-node-WptReUOwVth3C9-AVmMHF-node-IDOlquv6jlfecwQoBwkGZ",
+      "source": "node-WptReUOwVth3C9-AVmMHF",
+      "target": "node-IDOlquv6jlfecwQoBwkGZ",
+      "animated": true
+    },
+    {
+      "id": "edge-node-IDOlquv6jlfecwQoBwkGZ-node-VtPb8-AJKzhTB0QbMtoU4",
+      "source": "node-IDOlquv6jlfecwQoBwkGZ",
+      "target": "node-VtPb8-AJKzhTB0QbMtoU4",
+      "animated": true
+    },
+    {
+      "id": "edge-node-VtPb8-AJKzhTB0QbMtoU4-node-k9c5seRkhgm_yHPpiz2X0",
+      "source": "node-VtPb8-AJKzhTB0QbMtoU4",
+      "target": "node-k9c5seRkhgm_yHPpiz2X0",
+      "animated": true
+    },
+    {
+      "id": "edge-node-k9c5seRkhgm_yHPpiz2X0-node-w4EIf58KP-Pq-yc0HlGxc",
+      "source": "node-k9c5seRkhgm_yHPpiz2X0",
+      "target": "node-w4EIf58KP-Pq-yc0HlGxc",
+      "animated": true
+    },
+    {
+      "id": "edge-node-w4EIf58KP-Pq-yc0HlGxc-node-PKG5pACLfRS2ogfzBX47_",
+      "source": "node-w4EIf58KP-Pq-yc0HlGxc",
+      "target": "node-PKG5pACLfRS2ogfzBX47_",
+      "animated": true
+    },
+    {
+      "id": "edge-node-PKG5pACLfRS2ogfzBX47_-node-hNBErGNiegLsUJn_vgcOR",
+      "source": "node-PKG5pACLfRS2ogfzBX47_",
+      "target": "node-hNBErGNiegLsUJn_vgcOR",
+      "animated": true
+    },
+    {
+      "id": "edge-node-hNBErGNiegLsUJn_vgcOR-node-s99ImazcwCgAESxZd8ksa",
+      "source": "node-hNBErGNiegLsUJn_vgcOR",
+      "target": "node-s99ImazcwCgAESxZd8ksa",
+      "animated": true
+    },
+    {
+      "id": "edge-node-s99ImazcwCgAESxZd8ksa-node-vUwSS-uX36OWZouO0wOcy",
+      "source": "node-s99ImazcwCgAESxZd8ksa",
+      "target": "node-vUwSS-uX36OWZouO0wOcy",
+      "animated": true
+    },
+    {
+      "id": "edge-node-vUwSS-uX36OWZouO0wOcy-node-x_28LiDVshqWns_aIBsdx",
+      "source": "node-vUwSS-uX36OWZouO0wOcy",
+      "target": "node-x_28LiDVshqWns_aIBsdx",
+      "animated": true
+    },
+    {
+      "id": "edge-node-x_28LiDVshqWns_aIBsdx-node-tl6VCQ5IEGDVyFcgj7jDm",
+      "source": "node-x_28LiDVshqWns_aIBsdx",
+      "target": "node-tl6VCQ5IEGDVyFcgj7jDm",
+      "animated": true
+    },
+    {
+      "id": "edge-node-tl6VCQ5IEGDVyFcgj7jDm-node-y8VCbGDUco9bzGRfIBD8R",
+      "source": "node-tl6VCQ5IEGDVyFcgj7jDm",
+      "target": "node-y8VCbGDUco9bzGRfIBD8R",
+      "animated": true
+    },
+    {
+      "id": "edge-node-y8VCbGDUco9bzGRfIBD8R-node-4kkX5g_-plX9zVqr0ZoiR",
+      "source": "node-y8VCbGDUco9bzGRfIBD8R",
+      "target": "node-4kkX5g_-plX9zVqr0ZoiR",
+      "animated": true
+    }
+  ],
+  "topics": {
+    "y4-P4UNC--rE1vni8HdTn": {
+      "id": "y4-P4UNC--rE1vni8HdTn",
+      "slug": "access-violations",
+      "title": "Access Violations",
+      "description": "An access violation occurs when a program tries to read from or write to a memory location that it doesn't have permission to access. This is a common error in C++ that can arise from issues like dereferencing null or invalid pointers, accessing arrays beyond their bounds, or attempting to use memory that has already been freed. Debugging tools such as debuggers, static analyzers (like those in Visual Studio), and runtime memory error detectors (such as Valgrind or AddressSanitizer) are essential for identifying and resolving these violations by pinpointing the offending code.",
+      "resources": []
+    },
+    "whyj6Z4RXFsVQYRfYYn7B": {
+      "id": "whyj6Z4RXFsVQYRfYYn7B",
+      "slug": "algorithms",
+      "title": "STL Algorithms",
+      "description": "The C++ Standard Template Library (STL) offers a rich collection of generic algorithms that operate on various container types. These algorithms, found primarily in the `<algorithm>` header, provide functionalities for common tasks like sorting, searching, and sequence manipulation. They promote code reusability and efficiency by working independently of the specific data structures they operate on.",
+      "resources": []
+    },
+    "YSWN7nS8vA9nMldSUrZRT": {
+      "id": "YSWN7nS8vA9nMldSUrZRT",
+      "slug": "argument-dependent-lookup-adl",
+      "title": "Argument Dependent Lookup (ADL)",
+      "description": "Argument Dependent Lookup (ADL), also known as Koenig Lookup, is a feature in C++ that extends the function lookup process by allowing the compiler to search for functions in the namespaces of the function arguments' types. This is especially useful when working with overloaded operators and functions defined within namespaces, enabling more intuitive and concise code by automatically finding the appropriate function based on the argument types, even if it's not explicitly qualified.",
+      "resources": [
+        {
+          "id": "YSWN7nS8vA9nMldSUrZRT-res-1",
+          "type": "article",
+          "title": "Argument Dependent Lookup (ADL)",
+          "url": "https://en.cppreference.com/w/cpp/language/adl.html"
+        },
+        {
+          "id": "YSWN7nS8vA9nMldSUrZRT-res-2",
+          "type": "video",
+          "title": "C++ Weekly - Ep 160 - Argument Dependent Lookup (ADL)",
+          "url": "https://backoffice.roadmap.sh/tree/cpp"
+        }
+      ]
+    },
+    "8aOSpZLWwZv_BEYiurhyR": {
+      "id": "8aOSpZLWwZv_BEYiurhyR",
+      "slug": "arithmetic-operators",
+      "title": "Arithmetic Operators",
+      "description": "Arithmetic operators are fundamental building blocks in C++ programming, allowing you to perform mathematical calculations directly within your code. These operators work on numeric data types such as integers and floating-point numbers, enabling addition (+), subtraction (-), multiplication (\\*), division (/), and modulus (%) operations. Furthermore, increment (++) and decrement (--) operators provide concise ways to increase or decrease variable values by one.",
+      "resources": [
+        {
+          "id": "8aOSpZLWwZv_BEYiurhyR-res-1",
+          "type": "article",
+          "title": "Arithmetic Operators",
+          "url": "https://www.w3schools.com/cpp/cpp_operators_arithmetic.asp"
+        }
+      ]
+    },
+    "CG01PTVgHtjfKvsJkJLGl": {
+      "id": "CG01PTVgHtjfKvsJkJLGl",
+      "slug": "auto-automatic-type-deduction",
+      "title": "Auto Type Deduction",
+      "description": "`auto` is a keyword in C++ introduced in C++11 that enables automatic type deduction. It allows the compiler to infer the data type of a variable from its initialization expression at compile time. This simplifies code by reducing the need to explicitly declare types, particularly when dealing with complex or less predictable types, leading to cleaner and more maintainable code. In C++14, `auto` can also be used to deduce function return types based on the return expression.",
+      "resources": [
+        {
+          "id": "CG01PTVgHtjfKvsJkJLGl-res-1",
+          "type": "article",
+          "title": "Automatic Type Deduction: auto",
+          "url": "https://www.educative.io/courses/cpp-fundamentals-for-professionals/automatic-type-deduction-auto"
+        },
+        {
+          "id": "CG01PTVgHtjfKvsJkJLGl-res-2",
+          "type": "video",
+          "title": "The \"auto\" keyword in C++",
+          "url": "https://www.youtube.com/watch?v=2vOPEuiGXVo"
+        }
+      ]
+    },
+    "kl2JI_Wl47c5r8SYzxvCq": {
+      "id": "kl2JI_Wl47c5r8SYzxvCq",
+      "slug": "basic-operations",
+      "title": "Basic Operations",
+      "description": "Understanding fundamental operations is crucial for any C++ developer. This foundational knowledge includes arithmetic operations such as addition, subtraction, multiplication, and division, as well as comparison operations (e.g., equal to, not equal to, greater than) used in conditional logic. Mastering these operations forms the bedrock upon which more complex algorithms and data structures are built.",
+      "resources": []
+    },
+    "zE4iPSq2KsrDSByQ0sGK_": {
+      "id": "zE4iPSq2KsrDSByQ0sGK_",
+      "slug": "bitwise-operators",
+      "title": "Bitwise Operators",
+      "description": "Bitwise operators in C++ allow direct manipulation of individual bits within integer data types. These operators work by treating values as sequences of bits and performing operations at the bit level. Common bitwise operators include AND (&), OR (|), XOR (^), NOT (~), left shift (<<), and right shift (>>). They are utilized for tasks such as setting, clearing, or toggling specific bits, optimizing performance in certain algorithms, and low-level system programming.",
+      "resources": [
+        {
+          "id": "zE4iPSq2KsrDSByQ0sGK_-res-1",
+          "type": "video",
+          "title": "Intro to Binary and Bitwise Operators in C++",
+          "url": "https://youtu.be/KXwRt7og0gI"
+        },
+        {
+          "id": "zE4iPSq2KsrDSByQ0sGK_-res-2",
+          "type": "video",
+          "title": "Bitwise AND (&), OR (|), XOR (^) and NOT (~) in C++",
+          "url": "https://youtu.be/HoQhw6_1NAA"
+        }
+      ]
+    },
+    "1d7h5P1Q0RVHryKPVogQy": {
+      "id": "1d7h5P1Q0RVHryKPVogQy",
+      "slug": "boost",
+      "title": "Boost",
+      "description": "Boost is a set of peer-reviewed, portable C++ source libraries. It provides a wide range of utilities and tools that can significantly enhance your C++ development, covering areas like data structures, algorithms, mathematical functions, concurrency, and more. Boost libraries are designed to integrate well with the C++ Standard Library and often serve as incubators for features that eventually make their way into the standard.",
+      "resources": [
+        {
+          "id": "1d7h5P1Q0RVHryKPVogQy-res-1",
+          "type": "article",
+          "title": "Boost Libraries",
+          "url": "https://www.boost.org/"
+        }
+      ]
+    },
+    "jVXFCo6puMxJ_ifn_uwim": {
+      "id": "jVXFCo6puMxJ_ifn_uwim",
+      "slug": "build-systems",
+      "title": "Build Systems",
+      "description": "Build systems in C++ automate the compilation, linking, and execution of source code, managing the complexity of the build process to produce executables or libraries. Common examples include GNU Make, which uses Makefiles to track dependencies and timestamps, and CMake, a cross-platform system that generates build files for various platforms. Autotools is another option for creating portable software across different Unix-based systems. SCons leverages Python for more expressive build scripts, while Ninja focuses on speed by efficiently building targets specified in a simple text file. Each system offers different approaches to streamlining the software construction process.",
+      "resources": []
+    },
+    "PPg0V5EzGBeJsysg1215V": {
+      "id": "PPg0V5EzGBeJsysg1215V",
+      "slug": "c-0x",
+      "title": "C++11",
+      "description": "C++11, formerly known as C++0x, represents a significant evolution of the C++ language standard, finalized in 2011. This version introduced features like automatic type inference with `auto`, simplified container iteration using range-based for loops, the ability to create anonymous functions via lambda expressions, and a safer way to represent null pointers using `nullptr`. Furthermore, C++11 optimized temporary object handling through rvalue references and move semantics, enabled templates to accept a variable number of arguments with variadic templates, facilitated compile-time assertions via static assertions, and integrated thread support for concurrent programming.",
+      "resources": []
+    },
+    "T6rCTv9Dxkm-tEA-l9XEv": {
+      "id": "T6rCTv9Dxkm-tEA-l9XEv",
+      "slug": "c-11--14",
+      "title": "C++11 and C++14",
+      "description": "C++11 and C++14 are significant updates to the C++ language, introducing features to enhance its power and usability. C++11 brought in features like `auto` for type inference, range-based for loops for simpler iteration, lambda functions for creating anonymous functions, `nullptr` for safer null pointer representation, and a standard thread support library. Building upon this, C++14 refined these features and added new capabilities, including generic lambdas, binary literals, `decltype(auto)` for precise type deduction, and variable templates. These standards made C++ more modern, expressive, and efficient.",
+      "resources": []
+    },
+    "R2-qWGUxsTOeSHRuUzhd2": {
+      "id": "R2-qWGUxsTOeSHRuUzhd2",
+      "slug": "c-17",
+      "title": "C++17",
+      "description": "C++17 is a significant update to the C++ language, offering new features and enhancements that improve code expressiveness and efficiency. This version introduces features such as structured bindings for easier data unpacking, `if` and `constexpr if` statements for compile-time conditional logic, and inline variables for simplified header usage. Furthermore, C++17 incorporates the `std::filesystem` library for file system operations, as well as `std::string_view`, `std::any`, `std::optional`, and `std::variant` for enhanced data handling, alongside parallel algorithms to boost performance.",
+      "resources": []
+    },
+    "o3no4a5_iMFzEAGs56-BJ": {
+      "id": "o3no4a5_iMFzEAGs56-BJ",
+      "slug": "c-20",
+      "title": "C++20",
+      "description": "C++20 represents a significant evolution of the C++ language, introducing key features aimed at improving code clarity, efficiency, and concurrency. Highlights include Concepts, which enforce constraints on template parameters for better error messages; Ranges, a new way to work with sequences of values enhancing standard library algorithms; Coroutines, for writing asynchronous code with improved readability; and enhancements to compile-time evaluation with `constexpr` and `consteval`. These additions, along with other library improvements, empower developers to create more expressive, robust, and high-performance applications.",
+      "resources": []
+    },
+    "sxbbKtg7kMNbkx7fXhjR9": {
+      "id": "sxbbKtg7kMNbkx7fXhjR9",
+      "slug": "c-23",
+      "title": "C++23",
+      "description": "C++23 is the latest version of the C++ standard, building upon previous iterations to introduce new features, library enhancements, and language improvements. It aims to simplify development, improve performance, and provide more modern tools for C++ programmers. This standard incorporates features like `std::expected`, stackable coroutines, and improvements to the standard library, making C++ more robust and expressive.",
+      "resources": [
+        {
+          "id": "sxbbKtg7kMNbkx7fXhjR9-res-1",
+          "type": "article",
+          "title": "The Standard",
+          "url": "https://isocpp.org/std/the-standard"
+        },
+        {
+          "id": "sxbbKtg7kMNbkx7fXhjR9-res-2",
+          "type": "article",
+          "title": "C++23",
+          "url": "https://en.wikipedia.org/wiki/C%2B%2B23"
+        },
+        {
+          "id": "sxbbKtg7kMNbkx7fXhjR9-res-3",
+          "type": "article",
+          "title": "Overview of New Features in C++23",
+          "url": "https://medium.com/@threehappyer/overview-of-new-features-in-c-23-68c5bc668958"
+        },
+        {
+          "id": "sxbbKtg7kMNbkx7fXhjR9-res-4",
+          "type": "video",
+          "title": "C++23: An Overview of Almost All New and Updated Features - Marc Gregoire - CppCon 2023",
+          "url": "https://www.youtube.com/watch?v=Cttb8vMuq-Y"
+        }
+      ]
+    },
+    "2Ag0t3LPryTF8khHLRfy-": {
+      "id": "2Ag0t3LPryTF8khHLRfy-",
+      "slug": "c-vs-c",
+      "title": "C vs C++",
+      "description": "C and C++ are both programming languages, with C++ evolving from C. C is a procedural language focused on structured programming using functions. C++ expands upon C by adding object-oriented programming (OOP) features like classes, inheritance, and polymorphism, enabling more complex and modular software design. C++ also introduces features like operator overloading, templates, and exception handling, offering greater flexibility and abstraction compared to C.",
+      "resources": [
+        {
+          "id": "2Ag0t3LPryTF8khHLRfy--res-1",
+          "type": "article",
+          "title": "C++ vs. C: When (and when not) to use each language",
+          "url": "https://roadmap.sh/cpp/vs-c"
+        }
+      ]
+    },
+    "s13jQuaC6gw0Lab3Cbyy6": {
+      "id": "s13jQuaC6gw0Lab3Cbyy6",
+      "slug": "catch2",
+      "title": "Catch2",
+      "description": "Catch2 is a modern, C++-native, header-only framework for writing unit tests, benchmarks, and even simple command-line applications. It provides a simple and expressive syntax for defining test cases, assertions, and sections, making it easy to write and maintain comprehensive tests for your C++ code. It supports features like test case discovery, parameterized tests, and integration with various IDEs and build systems.",
+      "resources": [
+        {
+          "id": "s13jQuaC6gw0Lab3Cbyy6-res-1",
+          "type": "article",
+          "title": "Catch2",
+          "url": "https://catch2.org/"
+        },
+        {
+          "id": "s13jQuaC6gw0Lab3Cbyy6-res-2",
+          "type": "article",
+          "title": "Catch2",
+          "url": "https://github.com/catchorg/Catch2"
+        }
+      ]
+    },
+    "ysnXvSHGBMMozBJyXpHl5": {
+      "id": "ysnXvSHGBMMozBJyXpHl5",
+      "slug": "cmake",
+      "title": "CMake",
+      "description": "CMake is a cross-platform build system generator. It uses configuration files (CMakeLists.txt) to describe the build process and generates native build files like Makefiles or project files for IDEs like Visual Studio. CMake simplifies the build process, especially for complex projects, by abstracting the underlying build tools and providing a consistent interface across different platforms and compilers. It manages dependencies, specifies compiler flags, and handles the overall structure of your project's build process without actually building the project itself.",
+      "resources": [
+        {
+          "id": "ysnXvSHGBMMozBJyXpHl5-res-1",
+          "type": "article",
+          "title": "CMAKE Tutorial",
+          "url": "https://cmake.org/cmake/help/latest/guide/tutorial/index.html"
+        },
+        {
+          "id": "ysnXvSHGBMMozBJyXpHl5-res-2",
+          "type": "video",
+          "title": "CMake, How it Works (At Three Different Levels)",
+          "url": "https://www.youtube.com/watch?v=SDX0oYqdv_g"
+        }
+      ]
+    },
+    "ew0AfyadpXPRO0ZY3Z19k": {
+      "id": "ew0AfyadpXPRO0ZY3Z19k",
+      "slug": "code-editors--ides",
+      "title": "Code Editors / IDEs",
+      "description": "Choosing the right code editor or IDE is a crucial first step for any C++ developer. These tools provide a platform for writing, editing, and managing your code, often including features like syntax highlighting, code completion, debugging tools, and build automation. Popular options range from lightweight and customizable editors like Visual Studio Code and Sublime Text, to more comprehensive IDEs like Visual Studio and CLion, each with its own strengths and features. Selecting the best one for you often comes down to personal preference and your specific development needs.",
+      "resources": [
+        {
+          "id": "ew0AfyadpXPRO0ZY3Z19k-res-1",
+          "type": "article",
+          "title": "Using C++ on Linux in VSCode",
+          "url": "https://code.visualstudio.com/docs/cpp/config-linux"
+        },
+        {
+          "id": "ew0AfyadpXPRO0ZY3Z19k-res-2",
+          "type": "article",
+          "title": "Explore top posts about General Programming",
+          "url": "https://app.daily.dev/tags/general-programming?ref=roadmapsh"
+        }
+      ]
+    },
+    "DVckzBUMgk_lWThVkLyAT": {
+      "id": "DVckzBUMgk_lWThVkLyAT",
+      "slug": "compiler-stages",
+      "title": "Compiler Stages",
+      "description": "The compilation process in C++ transforms human-readable source code into an executable program through four distinct stages. These stages are: Preprocessing, which handles directives like `#include` and macro replacements; Compilation, where the preprocessed code is translated into assembly language; Assembly, which converts the assembly code into object code; and Linking, where object code is combined with libraries to create the final executable. Each stage performs a specific set of tasks to ensure the code is properly transformed for execution on the target platform.",
+      "resources": []
+    },
+    "hSG6Aux39X0cXi6ADy2al": {
+      "id": "hSG6Aux39X0cXi6ADy2al",
+      "slug": "compilers-and-features",
+      "title": "Compilers and Features",
+      "description": "C++ compilers translate human-readable C++ code into machine-executable code. They offer various features, including optimization techniques to improve program performance by eliminating redundancies and restructuring code, debugging information generation to aid in troubleshooting, and warning systems to flag potentially problematic code. Popular compilers include GCC, a versatile open-source option; Clang, known for its compatibility and diagnostics; Microsoft Visual C++, integrated within the Visual Studio IDE; and the Intel C++ Compiler, part of the Intel Parallel Studio XE suite. Familiarizing yourself with your chosen compiler's documentation is essential to fully leverage its capabilities.",
+      "resources": []
+    },
+    "FTMHsUiE8isD_OVZr62Xc": {
+      "id": "FTMHsUiE8isD_OVZr62Xc",
+      "slug": "compilers",
+      "title": "Compilers",
+      "description": "A compiler is a program that translates source code from one programming language into another, often machine code, enabling a computer to execute the instructions. In C++, compilers take your human-readable code and convert it into an executable program. Popular options include GCC, Clang, MSVC, and ICC, each with its own strengths in terms of platform support, optimization, and diagnostics. Compilers work with linkers and standard libraries to produce the final executable, combining compiled code and providing common functionalities.",
+      "resources": []
+    },
+    "ky_UqizToTZHC_b77qFi2": {
+      "id": "ky_UqizToTZHC_b77qFi2",
+      "slug": "conan",
+      "title": "Conan",
+      "description": "Conan is a package manager specifically designed for C and C++ projects. It helps developers manage dependencies, build configurations, and share pre-built libraries across different platforms and build systems like CMake and Visual Studio. Using Conan, you can easily declare project dependencies, fetch them from remote repositories, and integrate them into your build process, simplifying the overall dependency management workflow.",
+      "resources": [
+        {
+          "id": "ky_UqizToTZHC_b77qFi2-res-1",
+          "type": "article",
+          "title": "conan",
+          "url": "https://github.com/conan-io/conan"
+        },
+        {
+          "id": "ky_UqizToTZHC_b77qFi2-res-2",
+          "type": "article",
+          "title": "A Beginner’s Guide to Conan 2: C and C++ Package Manager",
+          "url": "https://medium.com/@milan.pultar/a-beginners-guide-to-conan-2-c-and-c-package-manager-b0cbc1f99175"
+        },
+        {
+          "id": "ky_UqizToTZHC_b77qFi2-res-3",
+          "type": "video",
+          "title": "Introduction to Conan 2 - The Best C++ Package Manager?",
+          "url": "https://www.youtube.com/watch?v=U-_RbUqDSTc"
+        }
+      ]
+    },
+    "5g22glc97siQOcTkHbwan": {
+      "id": "5g22glc97siQOcTkHbwan",
+      "slug": "const_cast",
+      "title": "const_cast",
+      "description": "`const_cast` is a C++ casting operator that allows you to explicitly add or remove the `const` or `volatile` qualifier from a variable's type. This essentially enables you to modify an object that was initially declared as `const` or pass a `const` object to a function that expects a non-`const` argument. It's a powerful tool but should be used with caution, as modifying a truly `const` object directly can lead to undefined behavior.",
+      "resources": []
+    },
+    "1pydf-SR0QUfVNuBEyvzc": {
+      "id": "1pydf-SR0QUfVNuBEyvzc",
+      "slug": "containers",
+      "title": "C++ Containers",
+      "description": "C++ Containers are a part of the Standard Template Library (STL) that provide data structures to store and organize data. There are several types of containers, each with its own characteristics and use cases. Here, we discuss some of the commonly used containers: 1\\. Vector ---------- Vectors are dynamic arrays that can resize themselves as needed. They store elements in a contiguous memory location, allowing fast random access using indices. Example ------- #include <iostream> #include <vector> int main() { std::vector<int> vec = {1, 2, 3, 4, 5}; vec.push_back(6); // Add an element to the end std::cout << \"Vector contains:\"; for (int x : vec) { std::cout << ' ' << x; } std::cout << '\\n'; } 2\\. List -------- A list is a doubly-linked list that allows elements to be inserted or removed from any position in constant time. It does not support random access. Lists are better than vectors for scenarios where you need to insert or remove elements in the middle frequently. Example ------- #include <iostream> #include <list> int main() { std::list<int> lst = {1, 2, 3, 4, 5}; lst.push_back(6); // Add an element to the end std::cout << \"List contains:\"; for (int x : lst) { std::cout << ' ' << x; } std::cout << '\\n'; } 3\\. Map ------- A map is an associative container that stores key-value pairs. It supports the retrieval of values based on their keys. The keys are sorted in ascending order by default. Example ------- #include <iostream> #include <map> int main() { std::map<std::string, int> m; m[\"one\"] = 1; m[\"two\"] = 2; std::cout << \"Map contains:\\n\"; for (const auto &pair : m) { std::cout << pair.first << \": \" << pair.second << '\\n'; } } 4\\. Unordered\\_map ------------------ Similar to a map, an unordered map stores key-value pairs, but it is implemented using a hash table. This means unordered\\_map has faster average-case performance compared to map, since it does not maintain sorted order. However, worst-case performance can be worse than map. Example ------- #include <iostream> #include <unordered_map> int main() { std::unordered_map<std::string, int> um; um[\"one\"] = 1; um[\"two\"] = 2; std::cout << \"Unordered map contains:\\n\"; for (const auto &pair : um) { std::cout << pair.first << \": \" << pair.second << '\\n'; } } These are just a few examples of C++ containers. There are other container types, such as `set`, `multiset`, `deque`, `stack`, `queue`, and `priority_queue`. Each container has its own use cases and unique characteristics. Learning about these containers and when to use them can greatly improve your efficiency and effectiveness in using C++.",
+      "resources": []
+    },
+    "s5Gs4yF9TPh-psYmtPzks": {
+      "id": "s5Gs4yF9TPh-psYmtPzks",
+      "slug": "control-flow--statements",
+      "title": "Control Flow & Statements",
+      "description": "Control flow in C++ dictates the order in which statements are executed. It allows programs to make decisions, repeat actions, and execute different code blocks based on conditions. Statements like `if`, `else if`, and `else` enable conditional execution, while loops such as `for`, `while`, and `do-while` facilitate repetition. `switch` statements offer a multi-way branching mechanism based on the value of an expression. These constructs are fundamental for creating programs that respond dynamically to input and perform complex tasks.",
+      "resources": []
+    },
+    "lxAzI42jQdaofzQ5MXebG": {
+      "id": "lxAzI42jQdaofzQ5MXebG",
+      "slug": "copy-and-swap",
+      "title": "Copy and Swap",
+      "description": "Copy and Swap is a C++ idiom used to implement the assignment operator in a safe and efficient manner. It works by creating a copy of the right-hand side object, then swapping the internal state of the copy with the object being assigned to. The temporary copy, now holding the original state, is then destroyed when the function exits, ensuring proper resource management and exception safety. This leverages existing copy constructors and swap functions, leading to cleaner and more robust code.",
+      "resources": [
+        {
+          "id": "lxAzI42jQdaofzQ5MXebG-res-1",
+          "type": "video",
+          "title": "Copying and Copy Constructors in C++",
+          "url": "https://www.youtube.com/watch?v=BvR1Pgzzr38"
+        }
+      ]
+    },
+    "O2Du5gHHxFxAI2u5uO8wu": {
+      "id": "O2Du5gHHxFxAI2u5uO8wu",
+      "slug": "copy-on-write",
+      "title": "Copy on Write",
+      "description": "The Copy-on-Write (CoW) idiom is an optimization technique used to defer or eliminate the cost of copying resources until the first write operation. Instead of creating a new copy of an object immediately, the original object and the \"copy\" share the same underlying resource. Only when one of the objects attempts to modify the shared resource is a true copy created. This can significantly improve performance by avoiding unnecessary copying, especially for large objects.",
+      "resources": []
+    },
+    "ttt-yeIi4BPWrgvW324W7": {
+      "id": "ttt-yeIi4BPWrgvW324W7",
+      "slug": "crtp",
+      "title": "CRTP",
+      "description": "The Curiously Recurring Template Pattern (CRTP) is a C++ idiom where a class template inherits from its own specialization. This technique achieves static polymorphism, offering an alternative to runtime polymorphism using virtual functions. CRTP allows customization of base class behavior without virtual function call overhead, enabling compile-time polymorphism for improved performance. It's useful when you need to extend or modify functionality in derived classes while maintaining efficiency by avoiding the runtime cost associated with virtual functions.",
+      "resources": [
+        {
+          "id": "ttt-yeIi4BPWrgvW324W7-res-1",
+          "type": "article",
+          "title": "CRTP (Curiously Recurring Template Pattern) in C++",
+          "url": "https://medium.com/@sagar.necindia/crtp-curiously-recurring-template-pattern-in-c-90981941bf38"
+        },
+        {
+          "id": "ttt-yeIi4BPWrgvW324W7-res-2",
+          "type": "video",
+          "title": "C++ Tutorial: How to use CRTP to speed up your code",
+          "url": "https://www.youtube.com/watch?v=Srx4eiBdpdQ"
+        }
+      ]
+    },
+    "MwznA4qfpNlv6sqSNjPZi": {
+      "id": "MwznA4qfpNlv6sqSNjPZi",
+      "slug": "data-types",
+      "title": "Data Types",
+      "description": "Data types in C++ categorize the kind of values a variable can hold, influencing memory usage and allowable operations. C++ offers fundamental types like `int` for integers, `float` and `double` for floating-point numbers, `char` for single characters, and `bool` for logical values. Beyond these basics, derived types such as arrays, pointers, and references provide more complex data handling capabilities. Finally, users can define their own types using structures, classes, and unions to create custom data organizations.",
+      "resources": [
+        {
+          "id": "MwznA4qfpNlv6sqSNjPZi-res-1",
+          "type": "article",
+          "title": "Data Types",
+          "url": "https://www.w3schools.com/cpp/cpp_data_types.asp"
+        }
+      ]
+    },
+    "yGvE6eHKlPMBB6rde0llR": {
+      "id": "yGvE6eHKlPMBB6rde0llR",
+      "slug": "date--time",
+      "title": "Date / Time",
+      "description": "The C++ `chrono` library, part of the Standard Template Library (STL), offers tools for handling dates and times. It allows you to represent time spans as `durations` (e.g., seconds, minutes, hours), specific moments as `time_points` based on clocks, and access the current time using different `clock` types like `system_clock`, `steady_clock`, and `high_resolution_clock`. You can also convert `time_points` to calendar time for human-readable formats.",
+      "resources": []
+    },
+    "qmHs6_BzND_xpMmls5YUH": {
+      "id": "qmHs6_BzND_xpMmls5YUH",
+      "slug": "debuggers",
+      "title": "Debuggers",
+      "description": "Debuggers are indispensable tools in C++ development, enabling developers to identify, analyze, and resolve defects within their code. These tools allow you to step through your code, inspect variables, and understand the program's execution flow, ultimately leading to more robust and reliable software. Several options are available, including GDB (GNU Debugger), LLDB, Microsoft Visual Studio Debugger, Intel Debugger (IDB), and TotalView Debugger, each offering unique features and catering to different development environments and application types.",
+      "resources": []
+    },
+    "sR_FxGZHoMCV9Iv7z2_SX": {
+      "id": "sR_FxGZHoMCV9Iv7z2_SX",
+      "slug": "debugging-symbols",
+      "title": "Debugging Symbols",
+      "description": "Debugging symbols are essential for effective debugging in C++. They provide debuggers with information about the program's structure, source code relationships, and variable representations, allowing developers to step through code, inspect variables, and understand the program's behavior. These symbols can be embedded directly within the compiled binary (internal) or stored in separate files (external), such as `.pdb` on Windows or `.dSYM` on macOS. Tools like `g++` offer flags like `-g` (for internal symbols) and `-gsplit-dwarf` (for external symbols) to generate these symbols during compilation, while the `strip` command can be used to remove internal symbols from production binaries.",
+      "resources": []
+    },
+    "ofwdZm05AUqCIWmfgGHk8": {
+      "id": "ofwdZm05AUqCIWmfgGHk8",
+      "slug": "diamond-inheritance",
+      "title": "Diamond Inheritance",
+      "description": "Diamond inheritance arises in C++ when a class inherits from multiple classes that, in turn, inherit from a common base class, creating a diamond-shaped hierarchy. This can lead to ambiguity because the derived class inherits multiple copies of the base class's members. To resolve this issue, virtual inheritance is used, ensuring only one instance of the base class exists in the final derived class, eliminating ambiguity and ensuring proper member access.",
+      "resources": [
+        {
+          "id": "ofwdZm05AUqCIWmfgGHk8-res-1",
+          "type": "article",
+          "title": "Understanding Virtual Inheritance and the Diamond Problem in C++",
+          "url": "https://medium.com/@antilogatharv/understanding-virtual-inheritance-and-the-diamond-problem-in-c-da7c63d76723"
+        }
+      ]
+    },
+    "7h1VivjCPDwriL7FirtFv": {
+      "id": "7h1VivjCPDwriL7FirtFv",
+      "slug": "dynamic-polymorphism",
+      "title": "Dynamic Polymorphism",
+      "description": "Dynamic polymorphism is a feature in C++ that allows objects of different classes to be treated as objects of a common type. This is achieved through virtual functions, where a derived class can override a function defined in its base class. When a virtual function is called through a base class pointer or reference, the correct function implementation for the derived class object is executed at runtime, enabling flexible and extensible code.",
+      "resources": [
+        {
+          "id": "7h1VivjCPDwriL7FirtFv-res-1",
+          "type": "article",
+          "title": "Understanding Dynamic Polymorphism in C++",
+          "url": "https://hackernoon.com/understanding-dynamic-polymorphism-in-c"
+        },
+        {
+          "id": "7h1VivjCPDwriL7FirtFv-res-2",
+          "type": "video",
+          "title": "Dynamic Binding (Polymorphism) With The Virtual Keyword | C++ Tutorial",
+          "url": "https://www.youtube.com/watch?v=-FUhG98hdLI"
+        }
+      ]
+    },
+    "i0EAFEUB-F0wBJWOtrl1A": {
+      "id": "i0EAFEUB-F0wBJWOtrl1A",
+      "slug": "dynamic-typing",
+      "title": "Dynamic Typing",
+      "description": "While C++ is fundamentally a statically-typed language where data types are checked at compile time, it provides mechanisms to achieve a degree of dynamic typing. This involves determining the data types of variables during runtime, primarily through the use of `void*` pointers, which can point to any data type (requiring explicit casting), and the `std::any` class (introduced in C++17), a type-safe container capable of holding values of any type. Both approaches enable flexibility but require careful consideration due to potential runtime overhead and type-related errors.",
+      "resources": [
+        {
+          "id": "i0EAFEUB-F0wBJWOtrl1A-res-1",
+          "type": "article",
+          "title": "Dynamic Typing in C++",
+          "url": "https://codesignal.com/learn/courses/advanced-functional-programming-techniques/lessons/dynamic-type-declaration-in-cpp"
+        },
+        {
+          "id": "i0EAFEUB-F0wBJWOtrl1A-res-2",
+          "type": "video",
+          "title": "Static vs Dynamic Typing",
+          "url": "https://www.youtube.com/watch?v=GqXpFycPWLE"
+        }
+      ]
+    },
+    "4BdFcuQ5KNW94cu2jz-vE": {
+      "id": "4BdFcuQ5KNW94cu2jz-vE",
+      "slug": "dynamic_cast",
+      "title": "Dynamic Cast",
+      "description": "`dynamic_cast` is a C++ casting operator primarily used within polymorphic class hierarchies to safely convert pointers or references from a base class to a derived class. Unlike static casts, it performs a runtime check to ensure the validity of the conversion. If the object being cast is not actually an instance of the target derived class, `dynamic_cast` returns a null pointer (for pointer casts) or throws a `std::bad_cast` exception (for reference casts), preventing undefined behavior and enabling safer downcasting.",
+      "resources": []
+    },
+    "YvmjrZSAOmjhVPo05MJqN": {
+      "id": "YvmjrZSAOmjhVPo05MJqN",
+      "slug": "erase-remove",
+      "title": "Erase-Remove",
+      "description": "The Erase-Remove idiom is a common C++ technique used to efficiently remove elements from a container (like `std::vector`, `std::list`, etc.). It involves using `std::remove` (or `std::remove_if`) to move the elements to be removed to the end of the container, followed by using the container's `erase()` method to actually remove those elements, effectively shrinking the container.",
+      "resources": [
+        {
+          "id": "YvmjrZSAOmjhVPo05MJqN-res-1",
+          "type": "article",
+          "title": "std::remove, std::remove_if",
+          "url": "https://en.cppreference.com/w/cpp/algorithm/remove.html"
+        },
+        {
+          "id": "YvmjrZSAOmjhVPo05MJqN-res-2",
+          "type": "video",
+          "title": "C++ STL algorithm - erase-remove idiom -- std::remove(_if, _copy_if) | Modern Cpp Series Ep. 154",
+          "url": "https://www.youtube.com/watch?v=btyuTSb_238"
+        }
+      ]
+    },
+    "B2SGBENzUMl0SAjG4j91V": {
+      "id": "B2SGBENzUMl0SAjG4j91V",
+      "slug": "exception-handling",
+      "title": "Exception Handling",
+      "description": "Exception handling in C++ is a mechanism for managing runtime errors and unexpected events, preventing abrupt program termination. It uses `try`, `catch`, and `throw` keywords to monitor code blocks for exceptions, handle specific exception types, and signal error conditions, respectively. The `noexcept` specifier ensures a function doesn't throw exceptions. Standard exception classes in `<stdexcept>`, like `std::exception`, `std::logic_error`, and `std::runtime_error`, offer a structured approach to representing and handling various error types.",
+      "resources": [
+        {
+          "id": "B2SGBENzUMl0SAjG4j91V-res-1",
+          "type": "article",
+          "title": "Exception Handling",
+          "url": "https://www.w3schools.com/cpp/cpp_exceptions.asp"
+        },
+        {
+          "id": "B2SGBENzUMl0SAjG4j91V-res-2",
+          "type": "video",
+          "title": "Exception handling in C++ (How to handle errors in your program?)",
+          "url": "https://www.youtube.com/watch?v=kjEhqgmEiWY"
+        }
+      ]
+    },
+    "NJud5SXBAUZ6Sr78kZ7jx": {
+      "id": "NJud5SXBAUZ6Sr78kZ7jx",
+      "slug": "exceptions",
+      "title": "Exceptions",
+      "description": "Exception handling in C++ provides a mechanism to manage runtime errors, ensuring program stability. This is achieved using `try`, `catch`, and `throw` blocks. The `try` block encloses code that might generate an exception. If an error occurs, a `throw` statement creates an exception object, which is then caught and handled by an appropriate `catch` block designed to deal with that specific exception type, thus preventing program termination.",
+      "resources": []
+    },
+    "oWygnpwHq2poXQMTTSCpl": {
+      "id": "oWygnpwHq2poXQMTTSCpl",
+      "slug": "exit-codes",
+      "title": "Exit Codes",
+      "description": "Exit codes are numerical values returned by a program to the operating system upon completion, signaling whether the execution was successful or encountered errors. A return value of 0 typically indicates success, while non-zero values denote failure, with the specific meaning of each non-zero code being application-dependent. In C++, you can specify the exit code using the `return` statement within the `main` function or by calling the `exit()` function from the `<cstdlib>` header.",
+      "resources": []
+    },
+    "1CqQgmHDeo1HlPdpUJS7H": {
+      "id": "1CqQgmHDeo1HlPdpUJS7H",
+      "slug": "fmt",
+      "title": "fmt",
+      "description": "`fmt` is a modern formatting library for C++. It provides a simple and efficient way to format text, similar to Python's `str.format()` or C#'s `string.Format()`. It offers compile-time checks for format string correctness and generally results in faster and safer string formatting compared to traditional methods like `printf`.",
+      "resources": [
+        {
+          "id": "1CqQgmHDeo1HlPdpUJS7H-res-1",
+          "type": "article",
+          "title": "fmt",
+          "url": "https://fmt.dev/12.0/"
+        },
+        {
+          "id": "1CqQgmHDeo1HlPdpUJS7H-res-2",
+          "type": "article",
+          "title": "fmt",
+          "url": "https://github.com/fmtlib/fmt"
+        }
+      ]
+    },
+    "_IP_e1K9LhNHilYTDh7L5": {
+      "id": "_IP_e1K9LhNHilYTDh7L5",
+      "slug": "for--while--do-while-loops",
+      "title": "Loops",
+      "description": "Loops are fundamental control flow structures that enable the repetition of code blocks based on a condition. C++ provides three primary loop types: `for`, `while`, and `do-while`. The `for` loop is ideal when the number of iterations is known beforehand, while the `while` loop continues execution as long as a specified condition remains true. The `do-while` loop is similar to the `while` loop, but guarantees at least one execution of the code block, as the condition is checked at the end of the loop.",
+      "resources": [
+        {
+          "id": "_IP_e1K9LhNHilYTDh7L5-res-1",
+          "type": "article",
+          "title": "C++ For Loop",
+          "url": "https://www.w3schools.com/cpp/cpp_for_loop.asp"
+        },
+        {
+          "id": "_IP_e1K9LhNHilYTDh7L5-res-2",
+          "type": "article",
+          "title": "C++ While Loop",
+          "url": "http://w3schools.com/cpp/cpp_while_loop.asp"
+        },
+        {
+          "id": "_IP_e1K9LhNHilYTDh7L5-res-3",
+          "type": "article",
+          "title": "C++ Do While Loop",
+          "url": "https://www.w3schools.com/cpp/cpp_do_while_loop.asp"
+        }
+      ]
+    },
+    "ZHjU60uzJTezADRhDTESG": {
+      "id": "ZHjU60uzJTezADRhDTESG",
+      "slug": "forward-declaration",
+      "title": "Forward Declaration",
+      "description": "Forward declaration is declaring an identifier (like a class, function, or variable) to the compiler before its full definition is provided. This informs the compiler about the existence and type of the identifier, allowing it to be used in limited contexts, such as pointer or reference usage, without requiring the full definition to be immediately available. This technique helps to manage dependencies, reduce compilation times, and resolve circular dependencies between different parts of a codebase.",
+      "resources": []
+    },
+    "6hTcmJwNnQstbWWzNCfTe": {
+      "id": "6hTcmJwNnQstbWWzNCfTe",
+      "slug": "full-template-specialization",
+      "title": "Full Template Specialization",
+      "description": "Full template specialization in C++ provides a way to define specific implementations of a template (class or function) for particular types. This allows you to customize the behavior of a template when it's instantiated with a specific set of template arguments, enabling optimized code or special handling for certain types while the generic template handles other cases. This involves creating a specialized version of the template for a specific type or set of types.",
+      "resources": []
+    },
+    "sgfqb22sdN4VRJYkhAVaf": {
+      "id": "sgfqb22sdN4VRJYkhAVaf",
+      "slug": "function-overloading",
+      "title": "Function Overloading",
+      "description": "Function overloading in C++ allows multiple functions to share the same name, provided they differ in the number or types of parameters. This facilitates compile-time polymorphism, enhancing code readability and maintainability by enabling functions to perform similar operations on different data types or argument counts.",
+      "resources": [
+        {
+          "id": "sgfqb22sdN4VRJYkhAVaf-res-1",
+          "type": "article",
+          "title": "Function Overloading - Microsoft Learn",
+          "url": "https://learn.microsoft.com/en-us/cpp/cpp/function-overloading"
+        }
+      ]
+    },
+    "oYi3YOc1GC2Nfp71VOkJt": {
+      "id": "oYi3YOc1GC2Nfp71VOkJt",
+      "slug": "functions",
+      "title": "Functions",
+      "description": "Functions in C++ are self-contained blocks of code designed to perform specific tasks, promoting code reusability and modularity. They come in two main types: standard library functions (pre-built functions like `sort()` and `sqrt()`) and user-defined functions (created by the programmer). Defining a function involves specifying its return type, name, and a list of parameters it accepts. To use a function before its definition, a function prototype can be declared, informing the compiler about the function's signature.",
+      "resources": [
+        {
+          "id": "oYi3YOc1GC2Nfp71VOkJt-res-1",
+          "type": "article",
+          "title": "C++ Functions",
+          "url": "https://www.w3schools.com/cpp/cpp_functions.asp"
+        },
+        {
+          "id": "oYi3YOc1GC2Nfp71VOkJt-res-2",
+          "type": "article",
+          "title": "introduction to functions in c++",
+          "url": "https://www.learncpp.com/cpp-tutorial/introduction-to-functions/"
+        },
+        {
+          "id": "oYi3YOc1GC2Nfp71VOkJt-res-3",
+          "type": "video",
+          "title": "Learn C++ With Me #20 - Functions",
+          "url": "https://www.youtube.com/watch?v=C83tPpvxIJA"
+        }
+      ]
+    },
+    "BmWsoL9c_Aag5nVlMsKm2": {
+      "id": "BmWsoL9c_Aag5nVlMsKm2",
+      "slug": "gdb",
+      "title": "GDB: GNU Debugger",
+      "description": "GDB, the GNU Project Debugger, is a command-line tool essential for debugging C and C++ programs. It allows developers to examine a program's execution, set breakpoints, step through code, inspect variables, and analyze call stacks to identify and fix bugs. By using GDB, developers gain deep insight into the runtime behavior of their programs, making it an indispensable part of the C++ development workflow.",
+      "resources": [
+        {
+          "id": "BmWsoL9c_Aag5nVlMsKm2-res-1",
+          "type": "video",
+          "title": "GDB is REALLY easy! Find Bugs in Your Code with Only A Few Commands",
+          "url": "https://www.youtube.com/watch?v=Dq8l1_-QgAc"
+        }
+      ]
+    },
+    "621J9W4xCofumNZGo4TZT": {
+      "id": "621J9W4xCofumNZGo4TZT",
+      "slug": "grpc",
+      "title": "gRPC",
+      "description": "gRPC is a high-performance, open-source framework developed by Google for building remote procedure calls (RPCs). It uses Protocol Buffers as its Interface Definition Language (IDL) and relies on HTTP/2 for transport. gRPC enables client applications to directly call methods on a server application on a different machine as if it were a local object, making it easier to create distributed applications and microservices.",
+      "resources": [
+        {
+          "id": "621J9W4xCofumNZGo4TZT-res-1",
+          "type": "article",
+          "title": "Quick start",
+          "url": "https://grpc.io/docs/languages/cpp/quickstart/"
+        },
+        {
+          "id": "621J9W4xCofumNZGo4TZT-res-2",
+          "type": "article",
+          "title": "Basic Tutorial",
+          "url": "https://grpc.io/docs/languages/cpp/basics/"
+        },
+        {
+          "id": "621J9W4xCofumNZGo4TZT-res-3",
+          "type": "article",
+          "title": "grpc",
+          "url": "https://github.com/grpc/grpc"
+        }
+      ]
+    },
+    "MrAM-viRaF8DSxB6sVdD9": {
+      "id": "MrAM-viRaF8DSxB6sVdD9",
+      "slug": "gtest--gmock",
+      "title": "Google Test and Google Mock",
+      "description": "Google Test and Google Mock are open-source C++ unit testing frameworks developed by Google. Google Test is a standalone framework for writing and running unit tests, while Google Mock extends it with powerful mocking capabilities. GMock is especially useful for testing components that interact with external or third-party utilities.",
+      "resources": [
+        {
+          "id": "MrAM-viRaF8DSxB6sVdD9-res-1",
+          "type": "article",
+          "title": "Google test github pages",
+          "url": "https://google.github.io/googletest/"
+        },
+        {
+          "id": "MrAM-viRaF8DSxB6sVdD9-res-2",
+          "type": "video",
+          "title": "Google C++ Testing, GTest, GMock Framework playlist",
+          "url": "https://youtube.com/playlist?list=PL_dsdStdDXbo-zApdWB5XiF2aWpsqzV55&si=TR8ESbH1-epTl6VM"
+        },
+        {
+          "id": "MrAM-viRaF8DSxB6sVdD9-res-3",
+          "type": "video",
+          "title": "Back to Basics: Unit Testing in C++ - Dave Steffen - CppCon 2024",
+          "url": "https://youtu.be/MwoAM3sznS0?si=pumn99IobfU4AZ1I"
+        }
+      ]
+    },
+    "CK7yf8Bo7kfbV6x2tZTrh": {
+      "id": "CK7yf8Bo7kfbV6x2tZTrh",
+      "slug": "headers--cpp-files",
+      "title": "Headers / CPP Files",
+      "description": "In C++, organizing code effectively involves splitting programs into header and source files. Header files (with extensions like `.h` or `.hpp`) declare interfaces such as classes, functions, and variables, acting as blueprints for other parts of the code. Source files (with the `.cpp` extension) then implement the functionality declared in the headers. This separation supports modularity, reduces compilation times through separate compilation, and enhances code readability and maintainability by clearly defining interfaces and implementations.",
+      "resources": [
+        {
+          "id": "CK7yf8Bo7kfbV6x2tZTrh-res-1",
+          "type": "article",
+          "title": "Header files (C++)",
+          "url": "https://learn.microsoft.com/en-us/cpp/cpp/header-files-cpp?view=msvc-170"
+        },
+        {
+          "id": "CK7yf8Bo7kfbV6x2tZTrh-res-2",
+          "type": "video",
+          "title": "What are header files in C++ ( PROGRAMMING TUTORIAL for beginners)",
+          "url": "https://www.youtube.com/watch?v=qaGzc56Rekg"
+        }
+      ]
+    },
+    "fb3bnfKXjSIjPAk4b95lg": {
+      "id": "fb3bnfKXjSIjPAk4b95lg",
+      "slug": "idioms",
+      "title": "C++ Idioms",
+      "description": "C++ idioms are established patterns and techniques used by developers to solve common programming challenges in a standardized and effective manner. These idioms promote code that is more efficient, maintainable, and less prone to errors by leveraging the features and principles of C++. Examples include Resource Acquisition Is Initialization (RAII) for managing resources, the Rule of Five for proper object lifecycle management, the PImpl idiom for hiding implementation details, and the Non-Virtual Interface (NVI) pattern for controlling inheritance behavior. Understanding and applying these idioms is crucial for writing robust and high-quality C++ code.",
+      "resources": [
+        {
+          "id": "fb3bnfKXjSIjPAk4b95lg-res-1",
+          "type": "article",
+          "title": "Idioms",
+          "url": "https://medium.com/@amalpp42/idioms-in-c-f6b1c19fa605"
+        }
+      ]
+    },
+    "bjpFWxiCKGz28E-ukhZBp": {
+      "id": "bjpFWxiCKGz28E-ukhZBp",
+      "slug": "if-else--switch--goto",
+      "title": "Conditional Statements and Unconditional Jump",
+      "description": "`if-else`, `switch`, and `goto` are fundamental control flow mechanisms in C++. `if-else` constructs enable programs to execute different code blocks based on boolean conditions. The `switch` statement provides a way to efficiently handle multiple possible values of a single variable. The `goto` statement allows for an unconditional jump to a labeled point in the code, but its use is generally discouraged due to potential impacts on code readability and maintainability.",
+      "resources": [
+        {
+          "id": "bjpFWxiCKGz28E-ukhZBp-res-1",
+          "type": "video",
+          "title": "The 'if-else' Statement in C++",
+          "url": "https://www.youtube.com/watch?v=9-BjXs1vMSc"
+        },
+        {
+          "id": "bjpFWxiCKGz28E-ukhZBp-res-2",
+          "type": "video",
+          "title": "Learn C++ With Me - Switch Statement",
+          "url": "https://www.youtube.com/watch?v=uOlLs1OYSSI"
+        },
+        {
+          "id": "bjpFWxiCKGz28E-ukhZBp-res-3",
+          "type": "video",
+          "title": "Why is it illegal to use \"goto\"?",
+          "url": "https://youtu.be/AKJhThyTmQw?si=gjEqAsDZVMDGVAT2"
+        }
+      ]
+    },
+    "0J_ltQEJh2g28OE2ZEYJj": {
+      "id": "0J_ltQEJh2g28OE2ZEYJj",
+      "slug": "installing-c",
+      "title": "Installing C++",
+      "description": "To use C++, you need to set up the necessary tools on your system to compile and run C++ code. This typically includes a compiler (like GCC or Clang), a build system (like Make or CMake), and an Integrated Development Environment (IDE) or text editor for writing code. The specific steps vary depending on your operating system (Windows, macOS, or Linux).",
+      "resources": []
+    },
+    "NvODRFR0DLINB0RlPSsvt": {
+      "id": "NvODRFR0DLINB0RlPSsvt",
+      "slug": "introduction-to-language",
+      "title": "Introduction to Language",
+      "description": "C++ is a general-purpose programming language known for its performance, efficiency, and control over hardware. It supports both procedural and object-oriented programming paradigms, making it versatile for a wide range of applications, from system programming to game development. C++ builds upon the C language, adding features like classes, templates, and exception handling.",
+      "resources": [
+        {
+          "id": "NvODRFR0DLINB0RlPSsvt-res-1",
+          "type": "article",
+          "title": "Learn C++",
+          "url": "https://www.learncpp.com/"
+        },
+        {
+          "id": "NvODRFR0DLINB0RlPSsvt-res-2",
+          "type": "article",
+          "title": "Get Started with CPP!",
+          "url": "https://isocpp.org/get-started"
+        },
+        {
+          "id": "NvODRFR0DLINB0RlPSsvt-res-3",
+          "type": "video",
+          "title": "C++ Full Course by freeCodeCamp",
+          "url": "https://youtu.be/vLnPwxZdW4Y"
+        },
+        {
+          "id": "NvODRFR0DLINB0RlPSsvt-res-4",
+          "type": "video",
+          "title": "C++ Programming Course - Beginner to Advanced",
+          "url": "https://www.youtube.com/watch?v=8jLOx1hD3_o"
+        },
+        {
+          "id": "NvODRFR0DLINB0RlPSsvt-res-5",
+          "type": "course",
+          "title": "Modern Cpp Series By Mike Shah",
+          "url": "https://courses.mshah.io/courses/cpp-programming-language"
+        }
+      ]
+    },
+    "VeVxZ230xkesQsIDig8zQ": {
+      "id": "VeVxZ230xkesQsIDig8zQ",
+      "slug": "iostream",
+      "title": "iostream",
+      "description": "`iostream` is a fundamental header in the C++ Standard Library that handles input and output (I/O) operations. It provides classes like `istream` for input, `ostream` for output, and `iostream` for combined I/O. `cin`, `cout`, `cerr`, and `clog` are predefined objects within `iostream` for standard input, standard output, standard error output, and buffered logging, respectively. Use the `#include <iostream>` directive to incorporate this functionality into your programs.",
+      "resources": []
+    },
+    "Ebu8gzbyyXEeJryeE0SpG": {
+      "id": "Ebu8gzbyyXEeJryeE0SpG",
+      "slug": "iterators",
+      "title": "Iterators",
+      "description": "Iterators in C++'s Standard Template Library (STL) are essential tools for traversing and accessing elements within containers like vectors, lists, and arrays. They act as generalized pointers, offering a way to interact with container elements without needing to know the container's underlying implementation. C++ provides different iterator types, including input, output, forward, bidirectional, reverse, and random access iterators, each with specific capabilities for reading, writing, and navigating through container elements. For most use cases, you would use `auto` keyword with `begin()` and `end()` methods to work with iterators. C++ algorithms often leverage iterators for tasks such as searching and sorting.",
+      "resources": []
+    },
+    "xjiFBVe-VGqCqWfkPVGKf": {
+      "id": "xjiFBVe-VGqCqWfkPVGKf",
+      "slug": "lambdas",
+      "title": "Lambdas",
+      "description": "Lambdas, also known as lambda expressions, are a concise way to define anonymous functions directly within the code where they are needed. They are essentially nameless functions that can capture variables from the surrounding scope. Lambdas are particularly useful for short, self-contained operations, making code more readable and efficient by eliminating the need to define separate named functions for simple tasks, often used with algorithms like `std::sort` or `std::for_each`.",
+      "resources": [
+        {
+          "id": "xjiFBVe-VGqCqWfkPVGKf-res-1",
+          "type": "article",
+          "title": "Lambda Expressions",
+          "url": "https://en.cppreference.com/w/cpp/language/lambda"
+        },
+        {
+          "id": "xjiFBVe-VGqCqWfkPVGKf-res-2",
+          "type": "video",
+          "title": "Lambdas in C++",
+          "url": "https://youtu.be/MH8mLFqj-n8"
+        },
+        {
+          "id": "xjiFBVe-VGqCqWfkPVGKf-res-3",
+          "type": "article",
+          "title": "Explore top posts about AWS Lambda",
+          "url": "https://app.daily.dev/tags/aws-lambda?ref=roadmapsh"
+        }
+      ]
+    },
+    "-6fwJQOfsorgHkoQGp4T3": {
+      "id": "-6fwJQOfsorgHkoQGp4T3",
+      "slug": "language-concepts",
+      "title": "Language Concepts",
+      "description": "C++'s foundation rests on several core language concepts that enable the creation of efficient and robust applications. These concepts encompass fundamental building blocks like variables and data types for storing information, control structures for managing program flow with conditionals and loops, and functions for modularizing code into reusable blocks. Furthermore, C++ provides data structures such as arrays and vectors for managing collections of data, powerful memory manipulation through pointers, and object-oriented programming features via structures and classes, supporting inheritance and polymorphism. Finally, exception handling allows for graceful recovery from runtime errors, creating a well-rounded and reliable programming experience.",
+      "resources": []
+    },
+    "5mNqH_AEiLxUmgurNW1Fq": {
+      "id": "5mNqH_AEiLxUmgurNW1Fq",
+      "slug": "library-inclusion",
+      "title": "Library Inclusion",
+      "description": "In C++, library inclusion is the process of making external code available to your program. This is achieved primarily through the `#include` preprocessor directive, which allows you to incorporate header files containing declarations of functions, classes, and other entities. Header files from the standard library are included using angle brackets (`<iostream>`), while user-defined or third-party headers are included using double quotes (`\"myheader.h\"`). While less common, source files can also be included, though this practice is generally discouraged due to potential issues with multiple definitions and longer compile times.",
+      "resources": []
+    },
+    "sLVs95EOeHZldoKY0L_dH": {
+      "id": "sLVs95EOeHZldoKY0L_dH",
+      "slug": "licensing",
+      "title": "Licensing",
+      "description": "Licensing governs how you can use, modify, and distribute software libraries, particularly crucial when integrating third-party code into your C++ projects. Common open-source licenses like MIT, GPL, and Apache 2.0 each provide different levels of freedom and obligations. The MIT License is permissive, allowing almost any use with minimal requirements. The GPL is copyleft, requiring that modifications and derivative works also be licensed under GPL. The Apache License 2.0 is permissive, but includes terms relating to patents and requires documentation of modifications. Understanding and adhering to these licenses is essential to avoid legal issues.",
+      "resources": []
+    },
+    "9aA_-IfQ9WmbPgwic0mFN": {
+      "id": "9aA_-IfQ9WmbPgwic0mFN",
+      "slug": "lifetime-of-objects",
+      "title": "Lifetime of Objects",
+      "description": "Object lifetime in C++ dictates when an object comes into existence and when it ceases to exist. This crucial concept influences memory management and program correctness. C++ defines four storage durations: static (exists for the program's duration), thread (exists for a thread's duration), automatic (exists within a scope), and dynamic (controlled by `new` and `delete`). Managing object lifetimes effectively, especially dynamic objects, is essential for preventing memory leaks and ensuring stable application behavior.",
+      "resources": [
+        {
+          "id": "9aA_-IfQ9WmbPgwic0mFN-res-1",
+          "type": "article",
+          "title": "Lifetime",
+          "url": "https://en.cppreference.com/w/cpp/language/lifetime.html"
+        },
+        {
+          "id": "9aA_-IfQ9WmbPgwic0mFN-res-2",
+          "type": "article",
+          "title": "Object Lifetime in C++ (Stack/Scope Lifetimes)",
+          "url": "http://youtube.com/watch?v=iNuTwvD6ciI"
+        }
+      ]
+    },
+    "Y9gq8WkDA_XGe68JkY2UZ": {
+      "id": "Y9gq8WkDA_XGe68JkY2UZ",
+      "slug": "logical-operators",
+      "title": "Logical Operators",
+      "description": "Logical operators in C++ allow you to combine or modify boolean expressions, resulting in a final boolean value of either true (1) or false (0). These operators are crucial for controlling the flow of your program based on multiple conditions. C++ provides three main logical operators: AND (`&&`), which returns true only if both operands are true; OR (`||`), which returns true if at least one operand is true; and NOT (`!`), which reverses the boolean value of its operand. They enable you to create complex conditional statements.",
+      "resources": [
+        {
+          "id": "Y9gq8WkDA_XGe68JkY2UZ-res-1",
+          "type": "article",
+          "title": "Logical Operators",
+          "url": "https://www.w3schools.com/cpp/cpp_operators_logical.asp"
+        }
+      ]
+    },
+    "zKdlfZTRHwjtmRUGW9z9-": {
+      "id": "zKdlfZTRHwjtmRUGW9z9-",
+      "slug": "macros",
+      "title": "C++ Macros",
+      "description": "Macros in C++ are preprocessing directives that instruct the preprocessor to perform text substitutions before compilation. Defined using `#define`, they enable you to create symbolic constants, function-like constructs, and control conditional compilation. Macros can help in code optimization and customization, but it's essential to use them judiciously due to potential debugging and scope issues.",
+      "resources": [
+        {
+          "id": "zKdlfZTRHwjtmRUGW9z9--res-1",
+          "type": "article",
+          "title": "Macros in C++",
+          "url": "https://www.youtube.com/watch?v=j3mYki1SrKE"
+        },
+        {
+          "id": "zKdlfZTRHwjtmRUGW9z9--res-2",
+          "type": "video",
+          "title": "C++ Macros",
+          "url": "https://www.codecademy.com/resources/docs/cpp/macros"
+        }
+      ]
+    },
+    "t6rZLH7l8JQm99ax_fEJ9": {
+      "id": "t6rZLH7l8JQm99ax_fEJ9",
+      "slug": "makefile",
+      "title": "Makefile",
+      "description": "A Makefile is a configuration file used by the `make` utility to automate the process of compiling and linking code in a project. It defines a set of rules and dependencies that specify how to build the final executable or library from source code. It consists of variables, rules with targets, prerequisites, recipes, and phony targets, which do not represent actual files, but execute related actions. Makefiles streamline the build process, reducing errors and ensuring consistency by specifying dependencies between source files and the commands to generate output files, such as object files and executables.",
+      "resources": []
+    },
+    "6w0WExQ4lGIGgok6Thq0s": {
+      "id": "6w0WExQ4lGIGgok6Thq0s",
+      "slug": "memory-leakage",
+      "title": "Memory Leakage",
+      "description": "Memory leakage occurs when dynamically allocated memory is no longer accessible by the program, but the program fails to release it back to the operating system. This results in the memory being unusable by other parts of the program or other applications, gradually reducing the available memory and potentially leading to performance degradation or even program crashes.",
+      "resources": []
+    },
+    "mSFwsTYvmg-GwG4_DEIEf": {
+      "id": "mSFwsTYvmg-GwG4_DEIEf",
+      "slug": "memory-model",
+      "title": "Memory Model",
+      "description": "The C++ memory model defines how a program organizes and manages memory during execution. It divides memory into different segments, each serving a specific purpose: the stack for function calls and local variables, the heap for dynamic memory allocation, the data segment for global and static variables, and the code segment for executable instructions. Understanding this model is crucial for writing efficient and bug-free C++ code, especially when dealing with memory management and resource allocation.",
+      "resources": [
+        {
+          "id": "mSFwsTYvmg-GwG4_DEIEf-res-1",
+          "type": "video",
+          "title": "Memory Segments in C/C++",
+          "url": "https://www.youtube.com/watch?v=2htbIR2QpaM"
+        }
+      ]
+    },
+    "WjHpueZDK-d3oDNMVZi9w": {
+      "id": "WjHpueZDK-d3oDNMVZi9w",
+      "slug": "multiple-inheritance",
+      "title": "Multiple Inheritance",
+      "description": "Multiple inheritance in C++ allows a class to inherit from multiple base classes, combining their properties and behaviors into a single derived class. This means a class can inherit data members and member functions from several parent classes, offering a way to create more complex and specialized classes. However, it's essential to use multiple inheritance carefully, as it can introduce complexities like ambiguity and the diamond problem, requiring a good understanding of class hierarchies and potential conflict resolution.",
+      "resources": [
+        {
+          "id": "WjHpueZDK-d3oDNMVZi9w-res-1",
+          "type": "article",
+          "title": "Multiple Inheritance",
+          "url": "https://www.w3schools.com/cpp/cpp_inheritance_multiple.asp"
+        },
+        {
+          "id": "WjHpueZDK-d3oDNMVZi9w-res-2",
+          "type": "video",
+          "title": "Multiple Inheritance Deep Dive | C++ Tutorial",
+          "url": "https://www.youtube.com/watch?v=sswTE0u0r7g"
+        }
+      ]
+    },
+    "OXQUPqxzs1-giAACwl3X1": {
+      "id": "OXQUPqxzs1-giAACwl3X1",
+      "slug": "multithreading",
+      "title": "Multithreading",
+      "description": "Multithreading allows concurrent execution of multiple threads within a single process, enhancing application performance by enabling parallel task execution. C++ provides multithreading support through the `<thread>` library (introduced in C++11), enabling thread creation, argument passing, and synchronization mechanisms like mutexes and locks to manage shared resource access and prevent data races. This introduction covers basic thread creation, passing arguments to threads, and using mutexes for thread synchronization; more advanced topics such as thread pools, condition variables, and atomic operations, exist for advanced synchronization and performance tuning.",
+      "resources": [
+        {
+          "id": "OXQUPqxzs1-giAACwl3X1-res-1",
+          "type": "video",
+          "title": "Build your first multithreaded application - Introduction to multithreading in modern C++",
+          "url": "https://www.youtube.com/watch?v=xPqnoB2hjjA"
+        }
+      ]
+    },
+    "Lt7ss59KZw9Jwqj234jm2": {
+      "id": "Lt7ss59KZw9Jwqj234jm2",
+      "slug": "name-mangling",
+      "title": "Name Mangling",
+      "description": "Name mangling, also known as name decoration, is a technique compilers use to encode extra information like scope, type, and linkage into identifier names (like function and variable names). This allows C++ to support function overloading, where multiple functions can share the same name but have different parameters. The compiler generates a mangled name based on these details, though the exact mangling rules vary between compilers and platforms. Tools like `c++filt` can demangle these names back to their original form, which is useful for debugging. While you usually don't need to understand the details of name mangling, it can be important when working with external libraries or linking object files from different compilers.",
+      "resources": [
+        {
+          "id": "Lt7ss59KZw9Jwqj234jm2-res-1",
+          "type": "article",
+          "title": "C++ Name Mangling",
+          "url": "https://medium.com/@abhishek.ec/c-name-mangling-ce3d0fedf88d"
+        },
+        {
+          "id": "Lt7ss59KZw9Jwqj234jm2-res-2",
+          "type": "video",
+          "title": "Name Mangling In C++",
+          "url": "https://www.youtube.com/watch?v=FUIle4Ghasw"
+        }
+      ]
+    },
+    "iIdC7V8sojwyEqK1xMuHn": {
+      "id": "iIdC7V8sojwyEqK1xMuHn",
+      "slug": "namespaces",
+      "title": "Namespaces",
+      "description": "Namespaces in C++ provide a way to organize code into logical groups, preventing naming conflicts when using code from different libraries or parts of a large project. They act as containers for variables, functions, classes, and even other namespaces. You can access elements within a namespace using the scope resolution operator `::`, nest namespaces for further organization, and selectively import elements or entire namespaces into the current scope using the `using` keyword to simplify code while being mindful of potential name collisions.",
+      "resources": [
+        {
+          "id": "iIdC7V8sojwyEqK1xMuHn-res-1",
+          "type": "article",
+          "title": "Namespaces",
+          "url": "https://learn.microsoft.com/en-us/cpp/cpp/namespaces-cpp?view=msvc-170"
+        },
+        {
+          "id": "iIdC7V8sojwyEqK1xMuHn-res-2",
+          "type": "video",
+          "title": "What are C++ namespaces? 📛",
+          "url": "https://www.youtube.com/watch?v=2lcIKzFHjSM"
+        }
+      ]
+    },
+    "Gld0nRs0sM8kRe8XmYolu": {
+      "id": "Gld0nRs0sM8kRe8XmYolu",
+      "slug": "newdelete-operators",
+      "title": "New/Delete Operators",
+      "description": "The `new` and `delete` operators in C++ are used for dynamic memory allocation and deallocation. `new` allocates a block of memory on the heap and returns a pointer to the beginning of that block. `delete` then releases the memory block previously allocated by `new`, making it available for other uses. Proper use of `new` and `delete` is crucial to prevent memory leaks.",
+      "resources": []
+    },
+    "HkUCD5A_M9bJxJRElkK0x": {
+      "id": "HkUCD5A_M9bJxJRElkK0x",
+      "slug": "ninja",
+      "title": "Ninja",
+      "description": "Ninja is a small, fast build system designed for speed and efficiency. Instead of directly interpreting project structure, it executes pre-generated build plans. This allows it to build only what's necessary, leading to significantly faster build times, particularly in large projects. It's commonly used with meta-build systems like CMake, which generate the `build.ninja` files that Ninja then uses to perform the actual build process.",
+      "resources": [
+        {
+          "id": "HkUCD5A_M9bJxJRElkK0x-res-1",
+          "type": "article",
+          "title": "Ninja",
+          "url": "https://ninja-build.org/manual.html"
+        },
+        {
+          "id": "HkUCD5A_M9bJxJRElkK0x-res-2",
+          "type": "video",
+          "title": "CMake vs Ninja - a real-life comparison with actual code",
+          "url": "https://www.youtube.com/watch?v=AkGt0fsQ17o"
+        }
+      ]
+    },
+    "xjUaIp8gGxkN-cp8emJ2M": {
+      "id": "xjUaIp8gGxkN-cp8emJ2M",
+      "slug": "non-copyable--non-moveable",
+      "title": "Non-Copyable / Non-Moveable",
+      "description": "The non-copyable/non-moveable idiom in C++ prevents objects of a class from being copied or moved. This is achieved by deleting the copy constructor, copy assignment operator, move constructor, and move assignment operator. It's useful for classes that manage exclusive resources, ensuring that only one instance controls the resource at a time, preventing issues like resource duplication or double deletion. By disabling copying and moving, you enforce a unique ownership model for instances of the class.",
+      "resources": [
+        {
+          "id": "xjUaIp8gGxkN-cp8emJ2M-res-1",
+          "type": "article",
+          "title": "Dealing with non-copyable objects - (C++ Tutorial)",
+          "url": "https://dev.to/dabretema/the-day-i-forbade-copy-semantics-to-an-object-nkl"
+        }
+      ]
+    },
+    "g0s0F4mLV16eNvMBflN2e": {
+      "id": "g0s0F4mLV16eNvMBflN2e",
+      "slug": "nuget",
+      "title": "NuGet",
+      "description": "NuGet is a package manager initially designed for the .NET ecosystem, but it also extends its functionality to C++ projects through the `PackageReference` format. It simplifies the process of adding, updating, and managing external libraries and dependencies within your C++ projects, whether you're using Visual Studio's GUI, its integrated command-line tools, or the standalone `nuget.exe` executable. With NuGet, managing dependencies becomes more streamlined and efficient, allowing you to focus on your core C++ code.",
+      "resources": [
+        {
+          "id": "g0s0F4mLV16eNvMBflN2e-res-1",
+          "type": "article",
+          "title": "Creating Cross-Platform NuGet Package To Wrap Native C++ Libraries",
+          "url": "https://medium.com/@yooonatan/creating-cross-platform-nuget-package-to-wrap-native-c-libraries-b2ee71c34164"
+        }
+      ]
+    },
+    "b3-QYKNcW3LYCNOza3Olf": {
+      "id": "b3-QYKNcW3LYCNOza3Olf",
+      "slug": "object-oriented-programming",
+      "title": "Object-Oriented Programming (OOP)",
+      "description": "Object-oriented programming is a style of programming centered around \"objects,\" which combine data (attributes) and functions (methods) that operate on that data. OOP enables you to create modular, reusable, and maintainable code by organizing your programs around these objects and their interactions. Key concepts in OOP include classes (blueprints for objects), encapsulation (bundling data and methods), inheritance (creating new classes from existing ones), and polymorphism (using a single interface for different types).",
+      "resources": [
+        {
+          "id": "b3-QYKNcW3LYCNOza3Olf-res-1",
+          "type": "article",
+          "title": "C++ OOP",
+          "url": "https://www.w3schools.com/cpp/cpp_oop.asp"
+        },
+        {
+          "id": "b3-QYKNcW3LYCNOza3Olf-res-2",
+          "type": "video",
+          "title": "Object Oriented Programming (OOP) in C++ Course",
+          "url": "https://www.youtube.com/watch?v=wN0x9eZLix4"
+        }
+      ]
+    },
+    "GGZJaYpRENaqloJzt0VtY": {
+      "id": "GGZJaYpRENaqloJzt0VtY",
+      "slug": "opencl",
+      "title": "OpenCL",
+      "description": "OpenCL (Open Computing Language) is a framework for writing programs that execute across heterogeneous platforms consisting of CPUs, GPUs, and other processors. It allows developers to harness the parallel processing power of different types of hardware using a unified API, enabling acceleration of computationally intensive tasks. With OpenCL, you can write code that can run on a variety of devices, making it a versatile tool for parallel programming.",
+      "resources": [
+        {
+          "id": "GGZJaYpRENaqloJzt0VtY-res-1",
+          "type": "article",
+          "title": "Introduction",
+          "url": "https://github.khronos.org/OpenCL-CLHPP/"
+        },
+        {
+          "id": "GGZJaYpRENaqloJzt0VtY-res-2",
+          "type": "article",
+          "title": "Basic examples of OpenCL with the C++ API",
+          "url": "https://github.com/Dakkers/OpenCL-examples"
+        }
+      ]
+    },
+    "Eq3TKSFJ2F2mrTHAaU2J4": {
+      "id": "Eq3TKSFJ2F2mrTHAaU2J4",
+      "slug": "opencv",
+      "title": "OpenCV",
+      "description": "OpenCV (Open Source Computer Vision Library) is a comprehensive collection of programming functions primarily aimed at real-time computer vision. It encompasses a vast array of algorithms for image processing, object detection, video analysis, and machine learning, providing developers with tools to analyze and manipulate visual data.",
+      "resources": [
+        {
+          "id": "Eq3TKSFJ2F2mrTHAaU2J4-res-1",
+          "type": "article",
+          "title": "OpenCV",
+          "url": "https://opencv.org/"
+        },
+        {
+          "id": "Eq3TKSFJ2F2mrTHAaU2J4-res-2",
+          "type": "video",
+          "title": "Setup OpenCV in Visual Studio 2022 for C/C++ Development",
+          "url": "https://www.youtube.com/watch?v=unSce_GPwto"
+        }
+      ]
+    },
+    "llCBeut_uc9IAe2oi4KZ9": {
+      "id": "llCBeut_uc9IAe2oi4KZ9",
+      "slug": "operator-overloading",
+      "title": "Operator Overloading in C++",
+      "description": "Comprehensive guide and learning curriculum for Operator Overloading in C++.",
+      "resources": [
+        {
+          "id": "llCBeut_uc9IAe2oi4KZ9-res-1",
+          "type": "article",
+          "title": "Operator Overloading - Microsoft Learn",
+          "url": "https://learn.microsoft.com/en-us/cpp/cpp/operator-overloading"
+        },
+        {
+          "id": "llCBeut_uc9IAe2oi4KZ9-res-2",
+          "type": "article",
+          "title": "operator overloading - cppreference.com",
+          "url": "https://en.cppreference.com/w/cpp/language/operators"
+        }
+      ]
+    },
+    "O0lVEMTAV1pq9sYCKQvh_": {
+      "id": "O0lVEMTAV1pq9sYCKQvh_",
+      "slug": "orbit-profiler",
+      "title": "Orbit Profiler",
+      "description": "Orbit Profiler is a performance analysis tool designed to help developers identify bottlenecks and optimize the performance of their applications. It provides detailed insights into CPU usage, memory allocation, and other performance metrics through sampling and tracing. This helps pinpoint areas where code can be made more efficient.",
+      "resources": [
+        {
+          "id": "O0lVEMTAV1pq9sYCKQvh_-res-1",
+          "type": "article",
+          "title": "ORBIT PROFILER",
+          "url": "https://orbitprofiler.com/"
+        }
+      ]
+    },
+    "h29eJG1hWHa7vMhSqtfV2": {
+      "id": "h29eJG1hWHa7vMhSqtfV2",
+      "slug": "package-managers",
+      "title": "Package Managers",
+      "description": "Package managers are essential tools that streamline the process of incorporating external libraries and dependencies into C++ projects. They automate the tasks of installing, updating, and managing these components, simplifying development and promoting code reuse. Popular options in the C++ ecosystem include Conan, a decentralized, cross-platform solution; vcpkg, a package manager developed by Microsoft; and cppan, which is now part of the build2 build toolchain. These tools help developers efficiently manage dependencies, improving code quality and accelerating development.",
+      "resources": []
+    },
+    "1NYJtbdcdOB4-vIrnq4yX": {
+      "id": "1NYJtbdcdOB4-vIrnq4yX",
+      "slug": "partial-template-specialization",
+      "title": "Partial Template Specialization",
+      "description": "Partial template specialization in C++ allows you to create specialized versions of a template for specific subsets of types. This is achieved by providing a new template definition that is selected by the compiler when the template arguments match the specified criteria. It offers a way to customize template behavior for certain type categories, like pointers or specific data types, without needing complete specializations for every possible type.",
+      "resources": []
+    },
+    "MEoWt8NKjPLVTeGgYf3cR": {
+      "id": "MEoWt8NKjPLVTeGgYf3cR",
+      "slug": "pimpl",
+      "title": "Pimpl Idiom",
+      "description": "The Pimpl (Pointer to Implementation) idiom is a C++ technique used to hide the implementation details of a class. This is achieved by declaring a private implementation class and holding a pointer to it within the main class. The public interface remains clean, and compile-time dependencies are significantly reduced. This promotes better code organization, reduces recompilation times, and improves binary compatibility.",
+      "resources": [
+        {
+          "id": "MEoWt8NKjPLVTeGgYf3cR-res-1",
+          "type": "article",
+          "title": "Pointer To Implementation(PIMPL) Idiom By Using Smart Pointer in C++",
+          "url": "https://cengizhanvarli.medium.com/pointer-to-implementation-pimpl-idiom-by-using-smart-pointer-in-c-07dcd535d0ce"
+        },
+        {
+          "id": "MEoWt8NKjPLVTeGgYf3cR-res-2",
+          "type": "video",
+          "title": "Classes Part 30 - pIMPL (pointer to implementation) - More Stable APIs| Modern Cpp Series Ep. 67",
+          "url": "https://www.youtube.com/watch?v=3mFpXNEB_AA"
+        }
+      ]
+    },
+    "nOkniNXfXwPPlOEJHJoGl": {
+      "id": "nOkniNXfXwPPlOEJHJoGl",
+      "slug": "poco",
+      "title": "POCO",
+      "description": "POCO (Portable Components) is a C++ class library that simplifies network-centric, portable applications. It offers a comprehensive set of tools and components for tasks such as networking, data processing, and basic utilities. POCO focuses on being modular and cross-platform.",
+      "resources": [
+        {
+          "id": "nOkniNXfXwPPlOEJHJoGl-res-1",
+          "type": "article",
+          "title": "POCO Docs",
+          "url": "https://pocoproject.org/documentation.html"
+        },
+        {
+          "id": "nOkniNXfXwPPlOEJHJoGl-res-2",
+          "type": "video",
+          "title": "Writing a Network Client with POCO",
+          "url": "https://www.youtube.com/watch?v=rRR9RTUEn4k"
+        }
+      ]
+    },
+    "DWw8NxkLpIpiOSUaZZ1oA": {
+      "id": "DWw8NxkLpIpiOSUaZZ1oA",
+      "slug": "pointers-and-references",
+      "title": "Pointers and References",
+      "description": "Pointers and references are fundamental concepts in C++ that allow indirect access to variables. A pointer stores the memory address of another variable, enabling dynamic memory management and manipulation. A reference, on the other hand, acts as an alias for an existing variable, providing a direct way to access and modify its value. Understanding the difference between pointers and references, including constant pointers and pointers to constants, is crucial for writing efficient and safe C++ code.",
+      "resources": [
+        {
+          "id": "DWw8NxkLpIpiOSUaZZ1oA-res-1",
+          "type": "article",
+          "title": "C++ Pointers",
+          "url": "https://www.youtube.com/watch?v=slzcWKWCMBg"
+        },
+        {
+          "id": "DWw8NxkLpIpiOSUaZZ1oA-res-2",
+          "type": "article",
+          "title": "Function Pointer in C++",
+          "url": "https://www.scaler.com/topics/cpp/function-pointer-cpp/"
+        },
+        {
+          "id": "DWw8NxkLpIpiOSUaZZ1oA-res-3",
+          "type": "video",
+          "title": "C++ pointers explained easy 👈",
+          "url": "https://www.youtube.com/watch?v=slzcWKWCMBg"
+        }
+      ]
+    },
+    "jpMCIWQko7p3ndezYHL4D": {
+      "id": "jpMCIWQko7p3ndezYHL4D",
+      "slug": "protobuf",
+      "title": "Protobuf",
+      "description": "Protobuf (Protocol Buffers) is a language-neutral, platform-neutral, extensible mechanism for serializing structured data. You define how you want your data to be structured once, then you can use special generated source code to easily write and read your structured data to and from a variety of data streams, using a variety of languages. Think of it as a more efficient and flexible alternative to XML or JSON.",
+      "resources": [
+        {
+          "id": "jpMCIWQko7p3ndezYHL4D-res-1",
+          "type": "article",
+          "title": "protobuf",
+          "url": "https://github.com/protocolbuffers/protobuf"
+        },
+        {
+          "id": "jpMCIWQko7p3ndezYHL4D-res-2",
+          "type": "article",
+          "title": "Protocol Buffer Basics: C++",
+          "url": "https://protobuf.dev/getting-started/cpptutorial/"
+        }
+      ]
+    },
+    "tEkvlJPAkD5fji-MMODL7": {
+      "id": "tEkvlJPAkD5fji-MMODL7",
+      "slug": "pybind11",
+      "title": "pybind11",
+      "description": "pybind11 is a lightweight header-only library that allows you to create Python bindings for your existing C++ code. It essentially lets you expose C++ functions, classes, and data structures to Python, enabling seamless interoperability between the two languages. This allows you to leverage the performance of C++ while utilizing the flexibility and ease of use of Python.",
+      "resources": [
+        {
+          "id": "tEkvlJPAkD5fji-MMODL7-res-1",
+          "type": "article",
+          "title": "pybind11",
+          "url": "https://github.com/pybind/pybind11"
+        },
+        {
+          "id": "tEkvlJPAkD5fji-MMODL7-res-2",
+          "type": "article",
+          "title": "Pybind11 Tutorial: Binding C++ Code to Python",
+          "url": "https://medium.com/@ahmedfgad/pybind11-tutorial-binding-c-code-to-python-337da23685dc"
+        }
+      ]
+    },
+    "88pr5aN7cctZfDVVo-2ns": {
+      "id": "88pr5aN7cctZfDVVo-2ns",
+      "slug": "pytorch-c",
+      "title": "PyTorch C++",
+      "description": "PyTorch C++ provides a front-end for the PyTorch machine learning framework, allowing you to build and deploy models using C++ instead of Python. This enables you to leverage the performance and control of C++ for computationally intensive tasks, especially in production environments where low latency and resource efficiency are critical. It involves using a C++ API to define and execute PyTorch operations.",
+      "resources": [
+        {
+          "id": "88pr5aN7cctZfDVVo-2ns-res-1",
+          "type": "article",
+          "title": "PyTorch C++ API",
+          "url": "https://docs.pytorch.org/cppdocs/"
+        },
+        {
+          "id": "88pr5aN7cctZfDVVo-2ns-res-2",
+          "type": "article",
+          "title": "LibTorch: The C++ Powerhouse Driving PyTorch",
+          "url": "https://medium.com/@pouyahallaj/libtorch-the-c-powerhouse-driving-pytorch-ee0d4f7b8743"
+        }
+      ]
+    },
+    "gAZ9Dqgj1_UkaLzVgzx1t": {
+      "id": "gAZ9Dqgj1_UkaLzVgzx1t",
+      "slug": "qt",
+      "title": "Qt",
+      "description": "Qt is a cross-platform application development framework widely used for creating graphical user interfaces (GUIs) and applications that run on various operating systems, such as Windows, macOS, Linux, and embedded systems. It provides a set of tools and libraries that simplify the development process, offering features like widgets, networking, database access, and multimedia support. Qt uses C++ as its primary programming language, extending it with its own meta-object compiler (moc) and signal/slot mechanism for event handling.",
+      "resources": [
+        {
+          "id": "gAZ9Dqgj1_UkaLzVgzx1t-res-1",
+          "type": "article",
+          "title": "Qt for Beginners",
+          "url": "https://wiki.qt.io/Qt_for_Beginners"
+        }
+      ]
+    },
+    "OmHDlLxCnH8RDdu5vx9fl": {
+      "id": "OmHDlLxCnH8RDdu5vx9fl",
+      "slug": "raii",
+      "title": "RAII",
+      "description": "RAII (Resource Acquisition Is Initialization) is a C++ idiom that ties the management of resources to the lifetime of objects. Resources are acquired during object construction and automatically released when the object is destroyed, typically in the destructor. This ensures resources are properly managed, even in the face of exceptions, preventing leaks and simplifying code by automating resource cleanup.",
+      "resources": [
+        {
+          "id": "OmHDlLxCnH8RDdu5vx9fl-res-1",
+          "type": "article",
+          "title": "RAII",
+          "url": "https://en.cppreference.com/w/cpp/language/raii.html"
+        },
+        {
+          "id": "OmHDlLxCnH8RDdu5vx9fl-res-2",
+          "type": "video",
+          "title": "What is RAII (Resource Acquisition Is Initialization)?",
+          "url": "https://www.youtube.com/watch?v=q6dVKMgeEkk"
+        }
+      ]
+    },
+    "et-dXKPYuyVW6eV2K3CM8": {
+      "id": "et-dXKPYuyVW6eV2K3CM8",
+      "slug": "ranges_v3",
+      "title": "Ranges v3",
+      "description": "Ranges v3 is a modern C++ library that provides tools for working with sequences of elements in a more composable and expressive way. It introduces concepts like views and algorithms that operate on ranges, allowing you to chain operations together to process data efficiently and elegantly without relying heavily on iterators. Ranges v3 simplifies common data manipulation tasks such as filtering, transforming, and sorting by offering a higher-level abstraction over traditional iterator-based code.",
+      "resources": [
+        {
+          "id": "et-dXKPYuyVW6eV2K3CM8-res-1",
+          "type": "article",
+          "title": "range-v3",
+          "url": "https://github.com/ericniebler/range-v3"
+        },
+        {
+          "id": "et-dXKPYuyVW6eV2K3CM8-res-2",
+          "type": "article",
+          "title": "A GentleIntroductiontoRangesv3",
+          "url": "https://www.daixtrose.de/talks/gentle-intro-to-ranges/talk/A%20Gentle%20Introduction%20to%20Ranges%20v3.pdf"
+        }
+      ]
+    },
+    "uEGEmbxegATIrvGfobJb9": {
+      "id": "uEGEmbxegATIrvGfobJb9",
+      "slug": "raw-pointers",
+      "title": "Raw Pointers",
+      "description": "Raw pointers are variables that store the memory address of another variable. They directly hold the location in memory where a value is stored, allowing you to access and manipulate that value. Using raw pointers requires careful memory management as you are responsible for allocating and deallocating the memory they point to.",
+      "resources": [
+        {
+          "id": "uEGEmbxegATIrvGfobJb9-res-1",
+          "type": "article",
+          "title": "Raw pointers (C++)",
+          "url": "https://learn.microsoft.com/en-us/cpp/cpp/raw-pointers?view=msvc-170"
+        }
+      ]
+    },
+    "uUzRKa9wGzdUwwmAg3FWr": {
+      "id": "uUzRKa9wGzdUwwmAg3FWr",
+      "slug": "references",
+      "title": "References",
+      "description": "In C++, a reference is an alias for an existing variable. It provides an alternative name to access the same memory location. References are similar to pointers in some ways, but they have key differences: a reference must be initialized when it's created, and once initialized, it cannot be changed to refer to a different variable. References are commonly used to pass arguments to functions by reference, allowing the function to modify the original variable.",
+      "resources": [
+        {
+          "id": "uUzRKa9wGzdUwwmAg3FWr-res-1",
+          "type": "article",
+          "title": "References",
+          "url": "https://en.cppreference.com/w/cpp/language/reference"
+        },
+        {
+          "id": "uUzRKa9wGzdUwwmAg3FWr-res-2",
+          "type": "article",
+          "title": "C++ References",
+          "url": "https://www.w3schools.com/cpp/cpp_references.asp"
+        },
+        {
+          "id": "uUzRKa9wGzdUwwmAg3FWr-res-3",
+          "type": "video",
+          "title": "REFERENCES in C++",
+          "url": "https://www.youtube.com/watch?v=IzoFn3dfsPA"
+        }
+      ]
+    },
+    "ZMyFDJrpCauGrY5NZkOwg": {
+      "id": "ZMyFDJrpCauGrY5NZkOwg",
+      "slug": "reinterpret_cast",
+      "title": "reinterpret_cast",
+      "description": "`reinterpret_cast` is a powerful but potentially dangerous type of casting operator in C++. It allows you to convert between unrelated pointer types, integer types, or between pointers and integers. Unlike other casts, it doesn't perform any type checking or data conversion. Its primary function is to reinterpret the bit pattern of an expression as a different type, making it useful for low-level operations, but also requiring extreme caution to avoid undefined behavior. Use it only when absolutely necessary and understand the underlying memory layout involved.",
+      "resources": []
+    },
+    "r0yD1gfn03wTpEBi6zNsu": {
+      "id": "r0yD1gfn03wTpEBi6zNsu",
+      "slug": "rtti",
+      "title": "Run-Time Type Identification (RTTI)",
+      "description": "Run-Time Type Identification (RTTI) in C++ allows you to determine the type of an object during program execution. This is particularly useful when working with polymorphism and inheritance. C++ provides two primary mechanisms for RTTI: the `typeid` operator, which retrieves type information, and the `dynamic_cast` operator, which safely converts pointers or references between types at runtime, handling potential casting failures gracefully. While powerful, be mindful that RTTI can introduce some performance overhead due to the runtime checks involved.",
+      "resources": [
+        {
+          "id": "r0yD1gfn03wTpEBi6zNsu-res-1",
+          "type": "article",
+          "title": "What Is Runtime Type Identification (RTTI) in C++?",
+          "url": "https://www.codeguru.com/cplusplus/what-is-runtime-type-identification-rtti-in-c/"
+        },
+        {
+          "id": "r0yD1gfn03wTpEBi6zNsu-res-2",
+          "type": "video",
+          "title": "Dynamic cast c++ Runtime Type Identification example why we use dynamic cast - RTTI",
+          "url": "https://www.youtube.com/watch?v=2PXN7Zk9v80"
+        }
+      ]
+    },
+    "7sdEzZCIoarzznwO4XcCv": {
+      "id": "7sdEzZCIoarzznwO4XcCv",
+      "slug": "rule-of-zero-five-three",
+      "title": "Rule of Zero, Five, Three",
+      "description": "The Rule of Zero, Three, and Five are guidelines for managing resources within C++ classes and structs. The Rule of Zero suggests letting the compiler handle resource management if your class doesn't explicitly manage any. If your class manages resources, pre-C++11 it adhered to the Rule of Three, requiring you to define a destructor, copy constructor, and copy assignment operator. Modern C++ with move semantics extends this to the Rule of Five, which adds a move constructor and move assignment operator to efficiently transfer ownership of resources.",
+      "resources": [
+        {
+          "id": "7sdEzZCIoarzznwO4XcCv-res-1",
+          "type": "article",
+          "title": "The rule of three/five/zero",
+          "url": "https://en.cppreference.com/w/cpp/language/rule_of_three.html"
+        },
+        {
+          "id": "7sdEzZCIoarzznwO4XcCv-res-2",
+          "type": "article",
+          "title": "The Rule of 0/3/5",
+          "url": "https://medium.com/@Farhan11637/the-rule-of-0-3-5-2e608a717811"
+        }
+      ]
+    },
+    "SEq0D2Zg5WTsIDtd1hW9f": {
+      "id": "SEq0D2Zg5WTsIDtd1hW9f",
+      "slug": "running-your-first-program",
+      "title": "Running Your First Program",
+      "description": "This involves configuring your system to compile and execute C++ code. You'll need a compiler (like GCC or Clang), an IDE or text editor for writing code, and potentially a build system to manage the compilation process. A basic \"Hello, World!\" program is typically used to verify the setup and demonstrate the fundamental syntax.",
+      "resources": [
+        {
+          "id": "SEq0D2Zg5WTsIDtd1hW9f-res-1",
+          "type": "article",
+          "title": "Get Started With C++",
+          "url": "https://www.w3schools.com/cpp/cpp_getstarted.asp"
+        }
+      ]
+    },
+    "dKCYmxDNZubCVcR5rf8b-": {
+      "id": "dKCYmxDNZubCVcR5rf8b-",
+      "slug": "scope",
+      "title": "Scope",
+      "description": "Scope in C++ defines the visibility and lifetime of variables, functions, and other identifiers within a program. It dictates where these entities can be accessed and how long they persist in memory. C++ employs several types of scope, including global scope (accessible program-wide), local scope (confined to a function or block), namespace scope (organized within named groups), and class scope (specific to class members). Understanding scope is vital for preventing naming conflicts and managing the lifespan of objects, thus contributing to cleaner and more maintainable code.",
+      "resources": [
+        {
+          "id": "dKCYmxDNZubCVcR5rf8b--res-1",
+          "type": "article",
+          "title": "C++ Variable Scope",
+          "url": "https://www.w3schools.com/cpp/cpp_scope.asp"
+        }
+      ]
+    },
+    "Zc_TTzmM36yWsu3GvOy9x": {
+      "id": "Zc_TTzmM36yWsu3GvOy9x",
+      "slug": "setting-up-your-environment",
+      "title": "Setting up your Environment",
+      "description": "Setting up your environment in C++ involves configuring your computer with the necessary tools and software to write, compile, and run C++ programs. This typically includes installing a C++ compiler (like GCC or Clang), an integrated development environment (IDE) or text editor, and potentially a build system for managing larger projects. Proper setup is key to a smooth and efficient development workflow.",
+      "resources": [
+        {
+          "id": "Zc_TTzmM36yWsu3GvOy9x-res-1",
+          "type": "article",
+          "title": "C++ Getting Started",
+          "url": "https://www.w3schools.com/cpp/cpp_getstarted.asp"
+        },
+        {
+          "id": "Zc_TTzmM36yWsu3GvOy9x-res-2",
+          "type": "video",
+          "title": "How to set up C++ in Visual Studio Code",
+          "url": "https://www.youtube.com/watch?v=DMWD7wfhgNY"
+        }
+      ]
+    },
+    "3C5UfejDX-1Z8ZF6C53xD": {
+      "id": "3C5UfejDX-1Z8ZF6C53xD",
+      "slug": "sfinae",
+      "title": "SFINAE (Substitution Failure Is Not An Error)",
+      "description": "SFINAE is a core principle in C++ template metaprogramming that enables the compiler to choose the most suitable function or class template specialization during compilation. It leverages the idea that when the compiler attempts to substitute template arguments into a template and the substitution results in an invalid type or expression, this failure is not immediately treated as a compilation error. Instead, the compiler silently discards that specialization and continues searching for other viable options, thus allowing for conditional compilation based on type traits and other compile-time properties.",
+      "resources": []
+    },
+    "b5jZIZD_U_CPg-_bdndjz": {
+      "id": "b5jZIZD_U_CPg-_bdndjz",
+      "slug": "shared_ptr",
+      "title": "shared_ptr",
+      "description": "`shared_ptr` is a smart pointer in C++ that manages dynamically allocated memory. It enables multiple pointers to safely own and share the same object. When the last `shared_ptr` pointing to an object goes out of scope, the managed object is automatically deleted, preventing memory leaks. It achieves this by maintaining a reference count that tracks the number of `shared_ptr` instances pointing to the same memory location.",
+      "resources": []
+    },
+    "ulvwm4rRPgkpgaqGgyH5a": {
+      "id": "ulvwm4rRPgkpgaqGgyH5a",
+      "slug": "smart-pointers",
+      "title": "Smart Pointers",
+      "description": "Smart pointers are classes that behave like regular pointers but provide automatic memory management. They help prevent memory leaks by automatically deallocating the memory they point to when they are no longer needed. This is achieved through techniques like reference counting and RAII (Resource Acquisition Is Initialization). Essentially, they encapsulate a raw pointer and ensure that the memory it points to is freed when the smart pointer goes out of scope or is reset.",
+      "resources": [
+        {
+          "id": "ulvwm4rRPgkpgaqGgyH5a-res-1",
+          "type": "article",
+          "title": "Smart Pointers",
+          "url": "https://en.cppreference.com/book/intro/smart_pointers"
+        },
+        {
+          "id": "ulvwm4rRPgkpgaqGgyH5a-res-2",
+          "type": "video",
+          "title": "SMART POINTERS in C++ (std::unique_ptr, std::shared_ptr, std::weak_ptr)",
+          "url": "https://www.youtube.com/watch?v=UOB7-B2MfwA"
+        }
+      ]
+    },
+    "3ehBc2sKVlPj7dn4RVZCH": {
+      "id": "3ehBc2sKVlPj7dn4RVZCH",
+      "slug": "spack",
+      "title": "Spack",
+      "description": "Spack is a package manager designed for flexibility and support for multiple versions, configurations, platforms, and compilers, making it especially useful in High Performance Computing (HPC) environments. It automates the process of installing and managing dependencies, enabling users to build complex software stacks with fine-grained control over their components. Spack supports a variety of platforms, including Linux, macOS, and supercomputers, along with compilers like GCC, Clang, and Intel. Its key features include multi-version support, compiler support, platform support, and automatic dependency management.",
+      "resources": [
+        {
+          "id": "3ehBc2sKVlPj7dn4RVZCH-res-1",
+          "type": "article",
+          "title": "Spack",
+          "url": "https://spack.io/"
+        },
+        {
+          "id": "3ehBc2sKVlPj7dn4RVZCH-res-2",
+          "type": "article",
+          "title": "spack",
+          "url": "https://github.com/spack/spack"
+        },
+        {
+          "id": "3ehBc2sKVlPj7dn4RVZCH-res-3",
+          "type": "video",
+          "title": "Tutorials 2025: Spack, Part 1 (Basics, Environments, Configuration)",
+          "url": "https://www.youtube.com/watch?v=Uoi3-_xMPtk"
+        }
+      ]
+    },
+    "q64qFxoCrR38RPsN2lC8x": {
+      "id": "q64qFxoCrR38RPsN2lC8x",
+      "slug": "spdlog",
+      "title": "spdlog",
+      "description": "spdlog is a fast and cross-platform C++ logging library. It provides a simple interface for writing log messages to different destinations such as the console, files, or custom sinks. It supports various log levels, formatting options, and asynchronous logging, making it suitable for projects that require efficient and flexible logging capabilities.",
+      "resources": [
+        {
+          "id": "q64qFxoCrR38RPsN2lC8x-res-1",
+          "type": "article",
+          "title": "spdlog",
+          "url": "https://github.com/gabime/spdlog"
+        }
+      ]
+    },
+    "DHdNBP7_ixjr6h-dIQ7g6": {
+      "id": "DHdNBP7_ixjr6h-dIQ7g6",
+      "slug": "standard-library--stl",
+      "title": "C++ Standard Library and STL",
+      "description": "The C++ Standard Library is a comprehensive collection of classes and functions, extending the core language with ready-to-use tools for common programming tasks. A crucial part of the Standard Library is the Standard Template Library (STL), which offers pre-built, templatized components like containers (vectors, lists, maps), algorithms (sorting, searching), and iterators to work with those containers. The STL promotes code reuse and efficiency by providing generic implementations that can work with various data types, saving developers significant time and effort.",
+      "resources": [
+        {
+          "id": "DHdNBP7_ixjr6h-dIQ7g6-res-1",
+          "type": "article",
+          "title": "Mastering STL in C++23: New Features, Updates, and Best Practices",
+          "url": "https://simplifycpp.org/books/Mastering_STL.pdf"
+        },
+        {
+          "id": "DHdNBP7_ixjr6h-dIQ7g6-res-2",
+          "type": "video",
+          "title": "C++ Standard Template Library (STL) Short Overview",
+          "url": "https://www.youtube.com/watch?v=Id6ZEb_Lg58"
+        }
+      ]
+    },
+    "vvE1aUsWbF1OFcmMUHbJa": {
+      "id": "vvE1aUsWbF1OFcmMUHbJa",
+      "slug": "standards",
+      "title": "C++ Standards",
+      "description": "C++ standards are sets of rules and guidelines that define the C++ programming language. These standards ensure consistency and portability across different compilers and platforms. Each standard introduces new features, improvements, and sometimes deprecates older functionalities. The current standard is C++23.",
+      "resources": []
+    },
+    "obZIxRp0eMWdG7gplNIBc": {
+      "id": "obZIxRp0eMWdG7gplNIBc",
+      "slug": "static-polymorphism",
+      "title": "Static Polymorphism",
+      "description": "Static polymorphism, also known as compile-time polymorphism, enables the execution of different code depending on the type of data it's handling, but this determination happens at compile time. In C++, static polymorphism is primarily achieved through function overloading, which allows defining multiple functions with the same name but different parameter lists, and templates, which facilitate writing generic functions and classes that operate on various data types without runtime overhead.",
+      "resources": [
+        {
+          "id": "obZIxRp0eMWdG7gplNIBc-res-1",
+          "type": "article",
+          "title": "Static Polymorphism in C++",
+          "url": "https://medium.com/@kateolenya/static-polymorphism-in-c-9e1ae27a945b"
+        },
+        {
+          "id": "obZIxRp0eMWdG7gplNIBc-res-2",
+          "type": "video",
+          "title": "Advanced C++: Static Polymorphism",
+          "url": "https://www.youtube.com/watch?v=-WV9vWjhI3g"
+        }
+      ]
+    },
+    "f1djN0GxoeVPr_0cl6vMq": {
+      "id": "f1djN0GxoeVPr_0cl6vMq",
+      "slug": "static-typing",
+      "title": "Static Typing",
+      "description": "Static typing, as implemented in C++, is a system where the data type of a variable is known and checked at compile time, before the program runs. This means each variable is declared with a specific type (like `int`, `double`, or `char`), and the compiler enforces that only values of that type are assigned to it. While C++ allows for type conversion, attempting to assign an incompatible type will result in either an implicit conversion (if possible) or a compilation error, ensuring type safety and helping catch errors early in the development process.",
+      "resources": [
+        {
+          "id": "f1djN0GxoeVPr_0cl6vMq-res-1",
+          "type": "article",
+          "title": "Type-Coversion",
+          "url": "https://www.programiz.com/cpp-programming/type-conversion"
+        },
+        {
+          "id": "f1djN0GxoeVPr_0cl6vMq-res-2",
+          "type": "article",
+          "title": "Static Vs Dynamic",
+          "url": "https://www.techtarget.com/searchapparchitecture/tip/Static-vs-dynamic-typing-The-details-and-differences"
+        }
+      ]
+    },
+    "_XB2Imyf23-6AOeoNLhYQ": {
+      "id": "_XB2Imyf23-6AOeoNLhYQ",
+      "slug": "static_cast",
+      "title": "static_cast",
+      "description": "`static_cast` is a C++ casting operator primarily used for performing conversions between related types at compile time. This includes converting between primitive data types like `int` and `float`, and upcasting or downcasting within inheritance hierarchies. It offers a level of type safety over C-style casts by performing checks to ensure the conversion is valid, preventing potentially unsafe reinterpretation of data and allowing for more predictable behavior.",
+      "resources": []
+    },
+    "CMlWNQwpywNhO9B6Yj6Me": {
+      "id": "CMlWNQwpywNhO9B6Yj6Me",
+      "slug": "structures-and-classes",
+      "title": "Structures and Classes",
+      "description": "Structures and classes in C++ are blueprints for creating user-defined data types. They allow you to group variables (members) of different data types under a single name, enabling you to represent complex entities. The key distinction lies in their default access control: structure members are public by default, while class members are private, influencing how their data is accessed and manipulated.",
+      "resources": [
+        {
+          "id": "CMlWNQwpywNhO9B6Yj6Me-res-1",
+          "type": "article",
+          "title": "Clases y structs (C++)",
+          "url": "https://learn.microsoft.com/es-es/cpp/cpp/classes-and-structs-cpp?view=msvc-170"
+        },
+        {
+          "id": "CMlWNQwpywNhO9B6Yj6Me-res-2",
+          "type": "video",
+          "title": "CLASSES vs STRUCTS in C++",
+          "url": "https://www.youtube.com/watch?v=fLgTtaqqJp0"
+        }
+      ]
+    },
+    "Zw2AOTK5uc9BoKEpY7W1C": {
+      "id": "Zw2AOTK5uc9BoKEpY7W1C",
+      "slug": "structuring-codebase",
+      "title": "Structuring Codebase",
+      "description": "Structuring your codebase involves organizing and modularizing code for better maintainability, efficiency, and readability. This enhances collaboration, simplifies feature addition, and accelerates debugging. In C++, techniques like namespaces, include guards, header/source file separation, and consistent code formatting are vital for effective codebase structure.",
+      "resources": []
+    },
+    "sObOuccY0PDeGG-9GrFDF": {
+      "id": "sObOuccY0PDeGG-9GrFDF",
+      "slug": "template-specialization",
+      "title": "Template Specialization",
+      "description": "Template specialization in C++ allows you to provide custom implementations of templates for specific types or type patterns. This becomes useful when the generic template implementation doesn't suit a particular type, requiring tailored logic for optimization or specific behavior. Template specialization comes in two primary forms: full specialization, where a completely new implementation is defined for a specific type, and partial specialization, where a more specialized implementation is provided for a subset of types matching a given pattern.",
+      "resources": []
+    },
+    "-6AOrbuOE7DJCmxlcgCay": {
+      "id": "-6AOrbuOE7DJCmxlcgCay",
+      "slug": "templates",
+      "title": "C++ Templates",
+      "description": "C++ Templates provide a way to write generic code by allowing functions and classes to operate with different data types without being rewritten for each type. This is achieved by using type parameters or placeholders that are later replaced with actual data types when the template is instantiated, promoting code reuse and flexibility. Templates can be specialized to provide custom behavior for specific data types.",
+      "resources": [
+        {
+          "id": "-6AOrbuOE7DJCmxlcgCay-res-1",
+          "type": "article",
+          "title": "Templates",
+          "url": "https://en.cppreference.com/w/cpp/language/templates.html"
+        },
+        {
+          "id": "-6AOrbuOE7DJCmxlcgCay-res-2",
+          "type": "article",
+          "title": "C++ Templates",
+          "url": "https://www.w3schools.com/cpp/cpp_templates.asp"
+        },
+        {
+          "id": "-6AOrbuOE7DJCmxlcgCay-res-3",
+          "type": "video",
+          "title": "Templates in C++",
+          "url": "https://www.youtube.com/watch?v=I-hZkUa9mIs"
+        }
+      ]
+    },
+    "j_eNHhs0J08Dt7HVbo4Q2": {
+      "id": "j_eNHhs0J08Dt7HVbo4Q2",
+      "slug": "tensorflow",
+      "title": "Tensorflow",
+      "description": "TensorFlow is an open-source software library developed by Google, primarily used for numerical computation and large-scale machine learning. It allows developers to create and train machine learning models using a variety of tools, libraries, and community resources. TensorFlow focuses on deep learning tasks like image recognition, natural language processing, and time series analysis.",
+      "resources": [
+        {
+          "id": "j_eNHhs0J08Dt7HVbo4Q2-res-1",
+          "type": "article",
+          "title": "Tensor Flow",
+          "url": "https://github.com/tensorflow/tensorflow"
+        },
+        {
+          "id": "j_eNHhs0J08Dt7HVbo4Q2-res-2",
+          "type": "article",
+          "title": "How to Deploy Tensorflow Models in C++ in 3 different ways",
+          "url": "https://towardsdatascience.com/how-to-deploy-tensorflow-models-in-c-in-3-different-ways-f7e25046be29/?utm_source=roadmap&utm_medium=Referral&utm_campaign=TDS+roadmap+integration"
+        },
+        {
+          "id": "j_eNHhs0J08Dt7HVbo4Q2-res-3",
+          "type": "video",
+          "title": "TensorFlow in 100 Seconds",
+          "url": "https://www.youtube.com/watch?v=i8NETqtGHms"
+        }
+      ]
+    },
+    "PiMhw1oP9-NZEa6I9u4lX": {
+      "id": "PiMhw1oP9-NZEa6I9u4lX",
+      "slug": "type-casting",
+      "title": "Type Casting",
+      "description": "Type casting in C++ involves converting a variable's data type to another. C++ provides several casting methods: C-style casting (inherited from C), `static_cast` (for explicit conversions at compile time), `dynamic_cast` (for safe downcasting in class hierarchies), `reinterpret_cast` (for low-level bitwise reinterpretation), and `const_cast` (to modify the constness of variables). Choosing the appropriate cast is crucial for safe and efficient code execution.",
+      "resources": [
+        {
+          "id": "PiMhw1oP9-NZEa6I9u4lX-res-1",
+          "type": "article",
+          "title": "Type Casting",
+          "url": "https://www.w3schools.com/cpp//cpp_type_casting.asp"
+        },
+        {
+          "id": "PiMhw1oP9-NZEa6I9u4lX-res-2",
+          "type": "video",
+          "title": "Casting in C++",
+          "url": "https://youtu.be/pWZS1MtxI-A"
+        }
+      ]
+    },
+    "WptReUOwVth3C9-AVmMHF": {
+      "id": "WptReUOwVth3C9-AVmMHF",
+      "slug": "type-traits",
+      "title": "Type Traits",
+      "description": "Type traits in C++ are a powerful set of tools, implemented as template classes, found in the `<type_traits>` header. They provide a mechanism to inspect and query the properties of types at compile time, such as whether a type is a pointer, arithmetic type, or function. This allows you to write generic code that adapts its behavior based on the characteristics of the types it's working with, enabling compile-time branching and more robust template metaprogramming.",
+      "resources": []
+    },
+    "IDOlquv6jlfecwQoBwkGZ": {
+      "id": "IDOlquv6jlfecwQoBwkGZ",
+      "slug": "undefined-behavior-ub",
+      "title": "Undefined Behavior (UB)",
+      "description": "Undefined behavior in C++ arises when a program violates the rules defined by the C++ standard, leading to unpredictable and unspecified outcomes. This can stem from actions such as accessing uninitialized variables, dereferencing null pointers, performing out-of-bounds memory access, or dividing by zero. The compiler is free to interpret such situations in any manner, potentially resulting in crashes, incorrect results, or even security vulnerabilities, making its avoidance a critical aspect of writing robust and reliable C++ code.",
+      "resources": [
+        {
+          "id": "IDOlquv6jlfecwQoBwkGZ-res-1",
+          "type": "article",
+          "title": "Undefined Behavior (UB)",
+          "url": "https://en.cppreference.com/w/cpp/language/ub.html"
+        }
+      ]
+    },
+    "VtPb8-AJKzhTB0QbMtoU4": {
+      "id": "VtPb8-AJKzhTB0QbMtoU4",
+      "slug": "understanding-debugger-messages",
+      "title": "Understanding Debugger Messages",
+      "description": "Debugger messages are notifications from a debugger that aid in identifying issues within C++ code. These messages manifest as warnings, errors, or informational outputs, offering insight into the program's state and specific problems encountered during debugging. Error messages flag code issues preventing compilation or execution, while warnings highlight potential problems. Informational messages provide general information about the program's execution, such as breakpoints, watchpoints, variable values, and the call stack.",
+      "resources": []
+    },
+    "k9c5seRkhgm_yHPpiz2X0": {
+      "id": "k9c5seRkhgm_yHPpiz2X0",
+      "slug": "unique_ptr",
+      "title": "unique_ptr",
+      "description": "`unique_ptr` is a smart pointer in C++ that provides exclusive ownership of a dynamically allocated object. It ensures that only one `unique_ptr` can point to a given object at any time, preventing memory leaks by automatically deleting the managed object when the `unique_ptr` goes out of scope or is explicitly reset. Ownership can be transferred to another `unique_ptr` using `std::move`, but copying is disallowed to enforce the single-ownership principle.",
+      "resources": [
+        {
+          "id": "k9c5seRkhgm_yHPpiz2X0-res-1",
+          "type": "article",
+          "title": "std::unique_ptr - Detailed Reference",
+          "url": "https://en.cppreference.com/w/cpp/memory/unique_ptr"
+        },
+        {
+          "id": "k9c5seRkhgm_yHPpiz2X0-res-2",
+          "type": "article",
+          "title": "Smart Pointers – unique_ptr",
+          "url": "https://www.learncpp.com/cpp-tutorial/stdunique_ptr/"
+        },
+        {
+          "id": "k9c5seRkhgm_yHPpiz2X0-res-3",
+          "type": "video",
+          "title": "When should you use std::unique_ptr? - StackOverflow Discussion",
+          "url": "https://stackoverflow.com/questions/13782051/when-should-you-use-stdunique-ptr"
+        }
+      ]
+    },
+    "w4EIf58KP-Pq-yc0HlGxc": {
+      "id": "w4EIf58KP-Pq-yc0HlGxc",
+      "slug": "variadic-templates",
+      "title": "Variadic Templates",
+      "description": "Variadic templates, introduced in C++11, provide a way to create templates that can accept a variable number of arguments. Using the ellipsis (`...`) notation, you can define parameter packs that represent zero or more arguments of potentially different types. This allows for the creation of functions and classes that can operate on varying numbers of inputs, enhancing code flexibility and reusability, as demonstrated by use cases such as summing multiple arguments or creating tuple-like structures.",
+      "resources": []
+    },
+    "PKG5pACLfRS2ogfzBX47_": {
+      "id": "PKG5pACLfRS2ogfzBX47_",
+      "slug": "vcpkg",
+      "title": "vcpkg",
+      "description": "`vcpkg` is an open-source, cross-platform package manager for C and C++ libraries that simplifies the acquisition and building of dependencies. Supporting Windows, Linux, and macOS, it streamlines the integration of external libraries into your projects through search, installation, and removal commands. It also offers integration with Visual Studio for Windows-based development, making dependency management more efficient.",
+      "resources": [
+        {
+          "id": "PKG5pACLfRS2ogfzBX47_-res-1",
+          "type": "article",
+          "title": "vcpkg Docs",
+          "url": "https://learn.microsoft.com/en-gb/vcpkg/"
+        },
+        {
+          "id": "PKG5pACLfRS2ogfzBX47_-res-2",
+          "type": "video",
+          "title": "vcpkg Crash Course | Visual Studio 2022 | C++ libraries simplified!",
+          "url": "https://www.youtube.com/watch?v=0h1lC3QHLHU"
+        }
+      ]
+    },
+    "hNBErGNiegLsUJn_vgcOR": {
+      "id": "hNBErGNiegLsUJn_vgcOR",
+      "slug": "virtual-methods",
+      "title": "Virtual Methods",
+      "description": "Virtual methods are the cornerstone of dynamic polymorphism in C++ classes. They enable a derived class to provide its own specific implementation of a function that is already defined in a base class. When you call a virtual function through a base class pointer or reference, the runtime determines which version of the function to execute based on the actual type of the object being pointed to, not the type of the pointer or reference itself. This mechanism, known as dynamic dispatch, allows for flexible and extensible code where behavior can be tailored at runtime.",
+      "resources": [
+        {
+          "id": "hNBErGNiegLsUJn_vgcOR-res-1",
+          "type": "article",
+          "title": "C++ Virtual Functions Documentation",
+          "url": "https://en.cppreference.com/w/cpp/language/virtual"
+        },
+        {
+          "id": "hNBErGNiegLsUJn_vgcOR-res-2",
+          "type": "video",
+          "title": "Virtual Functions Explained (YouTube)",
+          "url": "https://www.youtube.com/watch?v=oIV2KchSyGQ&ab_channel=TheCherno"
+        }
+      ]
+    },
+    "s99ImazcwCgAESxZd8ksa": {
+      "id": "s99ImazcwCgAESxZd8ksa",
+      "slug": "virtual-tables",
+      "title": "Virtual Tables",
+      "description": "Virtual tables (vtables) are compiler-generated lookup tables used in C++ to implement dynamic polymorphism, especially with virtual functions. Each class that declares or inherits virtual functions has a vtable, which contains pointers to the most derived versions of those virtual functions for that class. When a virtual function is called through a pointer or reference to a base class, the vtable is consulted at runtime to determine the actual function to execute based on the object's dynamic type.",
+      "resources": [
+        {
+          "id": "s99ImazcwCgAESxZd8ksa-res-1",
+          "type": "article",
+          "title": "Understanding Virtual Tables in C++",
+          "url": "https://pabloariasal.github.io/2017/06/10/understanding-virtual-tables/"
+        },
+        {
+          "id": "s99ImazcwCgAESxZd8ksa-res-2",
+          "type": "video",
+          "title": "Classes part 18 - Understanding the vtable (Popular interview question) | Modern Cpp Series Ep. 54",
+          "url": "https://www.youtube.com/watch?v=hS7kPtVB1vI"
+        }
+      ]
+    },
+    "vUwSS-uX36OWZouO0wOcy": {
+      "id": "vUwSS-uX36OWZouO0wOcy",
+      "slug": "weak_ptr",
+      "title": "weak_ptr",
+      "description": "`weak_ptr` is a smart pointer in C++ that holds a non-owning reference to an object managed by a `shared_ptr`. It doesn't participate in the object's ownership count, meaning that it doesn't prevent the object from being destroyed if the `shared_ptr`s owning the object go out of scope. Its primary use is to detect if the object managed by the `shared_ptr` still exists. You can obtain a `shared_ptr` from a `weak_ptr` using `lock()`, but this might return an empty `shared_ptr` if the object has already been destroyed.",
+      "resources": []
+    },
+    "x_28LiDVshqWns_aIBsdx": {
+      "id": "x_28LiDVshqWns_aIBsdx",
+      "slug": "what-is-c",
+      "title": "What is C++?",
+      "description": "C++ is a powerful, general-purpose programming language. It is an extension of the C language, adding features like object-oriented programming, which allows you to structure code into reusable components. C++ is known for its high performance, efficiency, and control over system resources, making it suitable for a wide range of applications, including game development, operating systems, and high-performance computing.",
+      "resources": [
+        {
+          "id": "x_28LiDVshqWns_aIBsdx-res-1",
+          "type": "article",
+          "title": "Learn C++",
+          "url": "https://www.learncpp.com/"
+        },
+        {
+          "id": "x_28LiDVshqWns_aIBsdx-res-2",
+          "type": "video",
+          "title": "C++ Tutorial for Beginners - Full Course",
+          "url": "https://youtu.be/vLnPwxZdW4Y"
+        },
+        {
+          "id": "x_28LiDVshqWns_aIBsdx-res-3",
+          "type": "article",
+          "title": "Explore top posts about C++",
+          "url": "https://app.daily.dev/tags/c++?ref=roadmapsh"
+        }
+      ]
+    },
+    "tl6VCQ5IEGDVyFcgj7jDm": {
+      "id": "tl6VCQ5IEGDVyFcgj7jDm",
+      "slug": "why-use-c",
+      "title": "Why Use C++",
+      "description": "C++ is a powerful, general-purpose programming language known for its performance and control over system resources. It combines high-level and low-level features, allowing developers to write efficient code for a wide range of applications. This includes operating systems, game development, embedded systems, high-performance computing, and more.",
+      "resources": []
+    },
+    "y8VCbGDUco9bzGRfIBD8R": {
+      "id": "y8VCbGDUco9bzGRfIBD8R",
+      "slug": "windbg",
+      "title": "WinDbg",
+      "description": "WinDbg, a debugger included in the Microsoft Windows SDK, is a powerful tool for analyzing and debugging Windows applications, both in user mode and kernel mode. It offers a graphical interface and a comprehensive set of features for tasks like analyzing crash dumps, setting breakpoints, and stepping through code execution to identify and resolve issues in your C++ programs. Familiarity with WinDbg enables developers to delve deep into the runtime behavior of their applications and pinpoint the root cause of bugs.",
+      "resources": [
+        {
+          "id": "y8VCbGDUco9bzGRfIBD8R-res-1",
+          "type": "video",
+          "title": "Debugging C/C++ Programs from Scratch with WinDbg: A Beginner's Guide",
+          "url": "https://www.youtube.com/watch?v=AgtgZDsADUI"
+        }
+      ]
+    },
+    "4kkX5g_-plX9zVqr0ZoiR": {
+      "id": "4kkX5g_-plX9zVqr0ZoiR",
+      "slug": "working-with-libraries",
+      "title": "Working with Libraries",
+      "description": "Libraries in C++ are collections of pre-written code designed to be reused in different programs, offering functionalities like specialized algorithms, data structures, or system interfaces. These libraries come in two main types: static libraries, which are linked directly into your executable at compile time, and dynamic libraries, which are loaded at runtime. Utilizing libraries involves including their header files in your source code and linking them during compilation, allowing you to extend the capabilities of your C++ programs without rewriting common functionalities from scratch.",
+      "resources": []
+    }
+  }
+}

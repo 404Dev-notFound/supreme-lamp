@@ -1,0 +1,344 @@
+{
+  "slug": "ai-data-scientist",
+  "title": "Ai Data Scientist",
+  "description": "Comprehensive learning curriculum and mastery roadmap for ai-data-scientist.",
+  "category": "skill",
+  "level": "Intermediate",
+  "topicCount": 9,
+  "iconName": "Compass",
+  "nodes": [
+    {
+      "id": "node-XLDWuSt4tI4gnmqMFdpmy",
+      "label": "Coding",
+      "topicId": "XLDWuSt4tI4gnmqMFdpmy",
+      "level": 1,
+      "position": {
+        "x": 80,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-cjvVLN0XjrKPn6o20oMmc",
+      "label": "Deep Learning",
+      "topicId": "cjvVLN0XjrKPn6o20oMmc",
+      "level": 1,
+      "position": {
+        "x": 340,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-Gd2egqKZPnbPW1W2jw4j8",
+      "label": "Econometrics",
+      "topicId": "Gd2egqKZPnbPW1W2jw4j8",
+      "level": 1,
+      "position": {
+        "x": 600,
+        "y": 80
+      }
+    },
+    {
+      "id": "node-l1027SBZxTHKzqWw98Ee-",
+      "label": "Exploratory Data Analysis",
+      "topicId": "l1027SBZxTHKzqWw98Ee-",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-index.md",
+      "label": "Index.md",
+      "topicId": "index.md",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-kBdt_t2SvVsY3blfubWIz",
+      "label": "Machine Learning",
+      "topicId": "kBdt_t2SvVsY3blfubWIz",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 240
+      }
+    },
+    {
+      "id": "node-aStaDENn5PhEa-cFvNzXa",
+      "label": "Mathematics",
+      "topicId": "aStaDENn5PhEa-cFvNzXa",
+      "level": 2,
+      "position": {
+        "x": 80,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-Qa85hEVe2kz62k9Pj4QCA",
+      "label": "MLOps",
+      "topicId": "Qa85hEVe2kz62k9Pj4QCA",
+      "level": 2,
+      "position": {
+        "x": 340,
+        "y": 400
+      }
+    },
+    {
+      "id": "node-4WZL_fzJ3cZdWLLDoWN8D",
+      "label": "Statistics",
+      "topicId": "4WZL_fzJ3cZdWLLDoWN8D",
+      "level": 2,
+      "position": {
+        "x": 600,
+        "y": 400
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-node-XLDWuSt4tI4gnmqMFdpmy-node-cjvVLN0XjrKPn6o20oMmc",
+      "source": "node-XLDWuSt4tI4gnmqMFdpmy",
+      "target": "node-cjvVLN0XjrKPn6o20oMmc",
+      "animated": true
+    },
+    {
+      "id": "edge-node-cjvVLN0XjrKPn6o20oMmc-node-Gd2egqKZPnbPW1W2jw4j8",
+      "source": "node-cjvVLN0XjrKPn6o20oMmc",
+      "target": "node-Gd2egqKZPnbPW1W2jw4j8",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Gd2egqKZPnbPW1W2jw4j8-node-l1027SBZxTHKzqWw98Ee-",
+      "source": "node-Gd2egqKZPnbPW1W2jw4j8",
+      "target": "node-l1027SBZxTHKzqWw98Ee-",
+      "animated": true
+    },
+    {
+      "id": "edge-node-l1027SBZxTHKzqWw98Ee--node-index.md",
+      "source": "node-l1027SBZxTHKzqWw98Ee-",
+      "target": "node-index.md",
+      "animated": true
+    },
+    {
+      "id": "edge-node-index.md-node-kBdt_t2SvVsY3blfubWIz",
+      "source": "node-index.md",
+      "target": "node-kBdt_t2SvVsY3blfubWIz",
+      "animated": true
+    },
+    {
+      "id": "edge-node-kBdt_t2SvVsY3blfubWIz-node-aStaDENn5PhEa-cFvNzXa",
+      "source": "node-kBdt_t2SvVsY3blfubWIz",
+      "target": "node-aStaDENn5PhEa-cFvNzXa",
+      "animated": true
+    },
+    {
+      "id": "edge-node-aStaDENn5PhEa-cFvNzXa-node-Qa85hEVe2kz62k9Pj4QCA",
+      "source": "node-aStaDENn5PhEa-cFvNzXa",
+      "target": "node-Qa85hEVe2kz62k9Pj4QCA",
+      "animated": true
+    },
+    {
+      "id": "edge-node-Qa85hEVe2kz62k9Pj4QCA-node-4WZL_fzJ3cZdWLLDoWN8D",
+      "source": "node-Qa85hEVe2kz62k9Pj4QCA",
+      "target": "node-4WZL_fzJ3cZdWLLDoWN8D",
+      "animated": true
+    }
+  ],
+  "topics": {
+    "XLDWuSt4tI4gnmqMFdpmy": {
+      "id": "XLDWuSt4tI4gnmqMFdpmy",
+      "slug": "coding",
+      "title": "Coding",
+      "description": "Programming is a fundamental skill for data scientists. You need to be able to write code to manipulate data, build models, and deploy solutions. The most common programming languages used in data science are Python and R. Python is a general-purpose programming language that is easy to learn and has a large number of libraries for data manipulation and machine learning. R is a programming language and free software environment for statistical computing and graphics. It is widely used for statistical analysis and data visualization.",
+      "resources": [
+        {
+          "id": "XLDWuSt4tI4gnmqMFdpmy-res-1",
+          "type": "article",
+          "title": "The Python Tutorial",
+          "url": "https://docs.python.org/3/tutorial/"
+        },
+        {
+          "id": "XLDWuSt4tI4gnmqMFdpmy-res-2",
+          "type": "article",
+          "title": "The R Manuals (CRAN)",
+          "url": "https://cran.r-project.org/manuals.html"
+        },
+        {
+          "id": "XLDWuSt4tI4gnmqMFdpmy-res-3",
+          "type": "course",
+          "title": "Python for Data Science, AI & Development",
+          "url": "https://www.coursera.org/learn/python-for-applied-data-science-ai"
+        },
+        {
+          "id": "XLDWuSt4tI4gnmqMFdpmy-res-4",
+          "type": "course",
+          "title": "Kaggle Learn: Python",
+          "url": "https://www.kaggle.com/learn/python"
+        },
+        {
+          "id": "XLDWuSt4tI4gnmqMFdpmy-res-5",
+          "type": "article",
+          "title": "Introduction to Data Science with Python (Harvard)",
+          "url": "https://pll.harvard.edu/course/introduction-data-science-python"
+        }
+      ]
+    },
+    "cjvVLN0XjrKPn6o20oMmc": {
+      "id": "cjvVLN0XjrKPn6o20oMmc",
+      "slug": "deep-learning",
+      "title": "Deep Learning",
+      "description": "Deep Learning is a subset of machine learning that uses artificial neural networks with multiple layers (hence \"deep\") to analyze data and learn complex patterns. These networks are inspired by the structure and function of the human brain, and they are particularly effective at tasks like image recognition, natural language processing, and speech recognition. By processing data through these layers, deep learning models can automatically extract features and make predictions with high accuracy.",
+      "resources": [
+        {
+          "id": "cjvVLN0XjrKPn6o20oMmc-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated Machine Learning Roadmap",
+          "url": "https://roadmap.sh/machine-learning"
+        }
+      ]
+    },
+    "Gd2egqKZPnbPW1W2jw4j8": {
+      "id": "Gd2egqKZPnbPW1W2jw4j8",
+      "slug": "econometrics",
+      "title": "Econometrics",
+      "description": "Econometrics is the application of statistical methods to economic data. It is a branch of economics that aims to give empirical content to economic relations. More precisely, it is \"the quantitative analysis of actual economic phenomena based on the concurrent development of theory and observation, related by appropriate methods of inference.\" Econometrics can be described as something that allows economists \"to sift through mountains of data to extract simple relationships.\"",
+      "resources": [
+        {
+          "id": "Gd2egqKZPnbPW1W2jw4j8-res-1",
+          "type": "article",
+          "title": "Econometrics (MIT OpenCourseWare)",
+          "url": "https://ocw.mit.edu/courses/14-382-econometrics-spring-2017/"
+        },
+        {
+          "id": "Gd2egqKZPnbPW1W2jw4j8-res-2",
+          "type": "course",
+          "title": "Econometrics: Methods and Applications",
+          "url": "https://www.coursera.org/learn/erasmus-econometrics"
+        },
+        {
+          "id": "Gd2egqKZPnbPW1W2jw4j8-res-3",
+          "type": "article",
+          "title": "Lecture Notes and Short Texts in Econometrics",
+          "url": "https://economicsnetwork.ac.uk/teaching/Lecture%20Notes%20and%20Short%20Texts/Econometrics"
+        }
+      ]
+    },
+    "l1027SBZxTHKzqWw98Ee-": {
+      "id": "l1027SBZxTHKzqWw98Ee-",
+      "slug": "exploratory-data-analysis",
+      "title": "Exploratory Data Analysis",
+      "description": "Exploratory Data Analysis (EDA) is an approach to analyzing data sets to summarize their main characteristics, often with visual methods. EDA is used to understand what the data can tell us beyond the formal modeling or hypothesis testing task. It is a crucial step in the data analysis process.",
+      "resources": [
+        {
+          "id": "l1027SBZxTHKzqWw98Ee--res-1",
+          "type": "article",
+          "title": "pandas User Guide: Essential Basic Functionality",
+          "url": "https://pandas.pydata.org/docs/user_guide/basics.html"
+        },
+        {
+          "id": "l1027SBZxTHKzqWw98Ee--res-2",
+          "type": "course",
+          "title": "Exploratory Data Analysis with Python and Pandas",
+          "url": "https://www.coursera.org/projects/exploratory-data-analysis-python-pandas"
+        },
+        {
+          "id": "l1027SBZxTHKzqWw98Ee--res-3",
+          "type": "article",
+          "title": "Exploratory Data Analysis in Python",
+          "url": "https://towardsdatascience.com/exploratory-data-analysis-in-python-c9a77dfa39ce/"
+        },
+        {
+          "id": "l1027SBZxTHKzqWw98Ee--res-4",
+          "type": "article",
+          "title": "Step-by-Step Exploratory Data Analysis (EDA) using Python",
+          "url": "https://www.analyticsvidhya.com/blog/2022/07/step-by-step-exploratory-data-analysis-eda-using-python/"
+        }
+      ]
+    },
+    "index.md": {
+      "id": "index.md",
+      "slug": "index.md",
+      "title": "Index.md",
+      "description": "#",
+      "resources": []
+    },
+    "kBdt_t2SvVsY3blfubWIz": {
+      "id": "kBdt_t2SvVsY3blfubWIz",
+      "slug": "machine-learning",
+      "title": "Machine Learning",
+      "description": "Machine learning involves creating algorithms that allow computer systems to learn from data without being explicitly programmed. These algorithms identify patterns, make predictions, and improve their performance over time through experience. The learning process can be supervised, unsupervised, or reinforcement-based, depending on the type of data and the desired outcome.",
+      "resources": [
+        {
+          "id": "kBdt_t2SvVsY3blfubWIz-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated Machine Learning Roadmap",
+          "url": "https://roadmap.sh/machine-learning"
+        }
+      ]
+    },
+    "aStaDENn5PhEa-cFvNzXa": {
+      "id": "aStaDENn5PhEa-cFvNzXa",
+      "slug": "mathematics",
+      "title": "Mathematics",
+      "description": "Mathematics provides the foundational language and tools for understanding and building algorithms. It encompasses concepts like linear algebra (for manipulating data), calculus (for optimization), probability and statistics (for understanding uncertainty and drawing inferences), and discrete mathematics (for reasoning about data structures and algorithms). These mathematical principles enable the development, analysis, and interpretation of models used in artificial intelligence and data science.",
+      "resources": [
+        {
+          "id": "aStaDENn5PhEa-cFvNzXa-res-1",
+          "type": "article",
+          "title": "Linear Algebra Done Right - Sheldon Axler",
+          "url": "https://linear.axler.net/LADR4e.pdf"
+        }
+      ]
+    },
+    "Qa85hEVe2kz62k9Pj4QCA": {
+      "id": "Qa85hEVe2kz62k9Pj4QCA",
+      "slug": "mlops",
+      "title": "MLOps",
+      "description": "MLOps is a practice for collaboration and communication between data scientists and operations professionals to help manage the production ML lifecycle. It is a set of best practices that aims to automate the ML lifecycle, including training, deployment, and monitoring. MLOps helps organizations to scale ML models and deliver business value faster.",
+      "resources": [
+        {
+          "id": "Qa85hEVe2kz62k9Pj4QCA-res-1",
+          "type": "article",
+          "title": "Visit the Dedicated MLOps Roadmap",
+          "url": "https://roadmap.sh/mlops"
+        }
+      ]
+    },
+    "4WZL_fzJ3cZdWLLDoWN8D": {
+      "id": "4WZL_fzJ3cZdWLLDoWN8D",
+      "slug": "statistics",
+      "title": "Statistics",
+      "description": "Statistics is the science of collecting, analyzing, interpreting, presenting, and organizing data. It is a branch of mathematics that deals with the collection, analysis, interpretation, presentation, and organization of data. It is used in a wide range of fields, including science, engineering, medicine, and social science. Statistics is used to make informed decisions, to predict future events, and to test hypotheses. It is also used to summarize data, to describe relationships between variables, and to make inferences about populations based on samples.",
+      "resources": [
+        {
+          "id": "4WZL_fzJ3cZdWLLDoWN8D-res-1",
+          "type": "course",
+          "title": "Statistics and Probability (Khan Academy)",
+          "url": "https://www.khanacademy.org/math/statistics-probability"
+        },
+        {
+          "id": "4WZL_fzJ3cZdWLLDoWN8D-res-2",
+          "type": "article",
+          "title": "OpenIntro Statistics (free textbook)",
+          "url": "https://www.openintro.org/book/os/"
+        },
+        {
+          "id": "4WZL_fzJ3cZdWLLDoWN8D-res-3",
+          "type": "course",
+          "title": "Statistics with Python Specialization",
+          "url": "https://www.coursera.org/specializations/statistics-with-python"
+        },
+        {
+          "id": "4WZL_fzJ3cZdWLLDoWN8D-res-4",
+          "type": "video",
+          "title": "StatQuest with Josh Starmer",
+          "url": "https://www.youtube.com/@statquest"
+        }
+      ]
+    }
+  }
+}
