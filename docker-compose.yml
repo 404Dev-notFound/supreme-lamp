@@ -1,69 +1,23 @@
-version: '3.8'
-
 services:
-  frontend:
-    build:
-      context: ./apps/frontend
-      dockerfile: Dockerfile
-    ports:
-      - "3000:3000"
-    environment:
-      - NEXT_PUBLIC_API_URL=http://localhost:5000/api
-    depends_on:
-      - backend
-    networks:
-      - flowctrl-network
-
-  backend:
-    build:
-      context: .
-      dockerfile: ./apps/backend/Dockerfile
-    ports:
-      - "5000:5000"
-    environment:
-      - DATABASE_URL=postgresql://postgres:postgres@db:5432/flowctrl?schema=public
-      - PORT=5000
-    depends_on:
-      - db
-    networks:
-      - flowctrl-network
-
-  resume-backend:
-    build:
-      context: ./apps/resume-screener-backend
-      dockerfile: Dockerfile
-    ports:
-      - "5001:5001"
-    environment:
-      - PORT=5001
-    networks:
-      - flowctrl-network
-
-  mental-health-backend:
-    build:
-      context: ./apps/mental-health-backend
-      dockerfile: Dockerfile
-    ports:
-      - "5002:5002"
-    networks:
-      - flowctrl-network
-
   db:
-    image: postgres:15-alpine
+    image: postgres:16-alpine
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgrespassword9555
+      POSTGRES_DB: flowCTRL
     ports:
       - "5432:5432"
-    environment:
-      - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=postgres
-      - POSTGRES_DB=flowctrl
     volumes:
-      - postgres_data:/var/lib/postgresql/data
-    networks:
-      - flowctrl-network
+      - flowctrl_postgres_data:/var/lib/postgresql/data
 
-networks:
-  flowctrl-network:
-    driver: bridge
+  adminer:
+    image: adminer:latest
+    restart: always
+    ports:
+      - "8080:8080"
+    depends_on:
+      - db
 
 volumes:
-  postgres_data:
+  flowctrl_postgres_data:
