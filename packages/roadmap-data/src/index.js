@@ -27,7 +27,7 @@ function searchRoadmaps(query) {
       r.title.toLowerCase().includes(q) ||
       r.description.toLowerCase().includes(q) ||
       r.slug.toLowerCase().includes(q) ||
-      r.category.toLowerCase().includes(q)
+      r.category.toLowerCase().includes(q),
   );
 }
 

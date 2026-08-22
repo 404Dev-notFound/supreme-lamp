@@ -22,7 +22,7 @@ export function getRoadmapBySlug(slug: string): RoadmapDetail | null {
 
 export function getTopicDetail(
   slug: string,
-  topicId: string
+  topicId: string,
 ): RoadmapTopic | null {
   const roadmap = getRoadmapBySlug(slug);
   if (!roadmap || !roadmap.topics) return null;
@@ -38,7 +38,7 @@ export function searchRoadmaps(query: string): RoadmapTrackSummary[] {
       r.title.toLowerCase().includes(q) ||
       r.description.toLowerCase().includes(q) ||
       r.slug.toLowerCase().includes(q) ||
-      r.category.toLowerCase().includes(q)
+      r.category.toLowerCase().includes(q),
   );
 }
 
