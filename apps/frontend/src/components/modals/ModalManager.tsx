@@ -1,6 +1,7 @@
 // src/components/modals/ModalManager.tsx
 "use client";
 import { useRouter, useSearchParams, usePathname } from "next/navigation";
+import { Suspense } from "react";
 import GlassModal from "./GlassModal";
 import SignInForm from "./SignInForm";
 import SignUpForm from "./SignUpForm";
@@ -8,7 +9,7 @@ import ForgotPasswordForm from "./ForgotPasswordForm";
 import ProfileView from "./ProfileView";
 import EditProfileForm from "./EditProfileForm";
 
-export default function ModalManager() {
+function ModalManagerContent() {
   const router = useRouter();
   const pathname = usePathname();
   const searchParams = useSearchParams();
@@ -51,8 +52,20 @@ export default function ModalManager() {
   };
 
   return (
-    <GlassModal isOpen={true} onClose={closeModal} title={titleMap[modal] ?? ""}>
+    <GlassModal
+      isOpen={true}
+      onClose={closeModal}
+      title={titleMap[modal] ?? ""}
+    >
       {renderContent()}
     </GlassModal>
+  );
+}
+
+export default function ModalManager() {
+  return (
+    <Suspense fallback={null}>
+      <ModalManagerContent />
+    </Suspense>
   );
 }

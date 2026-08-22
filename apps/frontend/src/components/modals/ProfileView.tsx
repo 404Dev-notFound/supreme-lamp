@@ -7,14 +7,14 @@ interface ProfileViewProps {
 }
 
 export default function ProfileView({ onClose }: ProfileViewProps) {
-  const [profile, setProfile] = useState<any>(null);
+  const [profile, setProfile] = useState<Record<string, unknown> | null>(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     // Placeholder fetch – replace with real API as needed
     fetch("/api/user/profile")
-      .then(res => res.json())
-      .then(data => {
+      .then((res) => res.json())
+      .then((data) => {
         setProfile(data);
         setLoading(false);
       })

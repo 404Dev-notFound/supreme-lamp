@@ -1,10 +1,10 @@
 // components/ProfileModal.tsx
-'use client';
+"use client";
 
-import { Fragment, useState, useEffect } from 'react';
-import { Dialog, Transition } from '@headlessui/react';
-import { X } from 'lucide-react';
-import SkillsCombobox from './SkillsCombobox';
+import { Fragment, useState, useEffect } from "react";
+import { Dialog, Transition } from "@headlessui/react";
+import { X } from "lucide-react";
+import SkillsCombobox from "./SkillsCombobox";
 
 interface ProfileModalProps {
   isOpen: boolean;
@@ -13,7 +13,9 @@ interface ProfileModalProps {
 
 export default function ProfileModal({ isOpen, setOpen }: ProfileModalProps) {
   const [saving, setSaving] = useState(false);
-  const [selectedSkills, setSelectedSkills] = useState<Array<{ id: string; name: string; category: string; proficiency: number }>>([]);
+  const [selectedSkills, setSelectedSkills] = useState<
+    Array<{ id: string; name: string; category: string; proficiency: number }>
+  >([]);
 
   // Load existing user skills if needed (placeholder)
   useEffect(() => {
@@ -23,9 +25,9 @@ export default function ProfileModal({ isOpen, setOpen }: ProfileModalProps) {
   const handleSave = async () => {
     setSaving(true);
     try {
-      await fetch('/api/user/profile', {
-        method: 'PUT',
-        headers: { 'Content-Type': 'application/json' },
+      await fetch("/api/user/profile", {
+        method: "PUT",
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ skills: selectedSkills }),
       });
       // Close modal after save
@@ -49,7 +51,10 @@ export default function ProfileModal({ isOpen, setOpen }: ProfileModalProps) {
           leaveFrom="opacity-100"
           leaveTo="opacity-0"
         >
-          <div className="fixed inset-0 bg-black/30 backdrop-blur-sm" aria-hidden="true" />
+          <div
+            className="fixed inset-0 bg-black/30 backdrop-blur-sm"
+            aria-hidden="true"
+          />
         </Transition.Child>
 
         <div className="fixed inset-0 overflow-y-auto">
@@ -65,15 +70,25 @@ export default function ProfileModal({ isOpen, setOpen }: ProfileModalProps) {
             >
               <Dialog.Panel className="w-full max-w-2xl transform overflow-hidden rounded-2xl bg-white dark:bg-zinc-900 p-6 text-left align-middle shadow-xl transition-all">
                 <div className="flex items-center justify-between mb-4">
-                  <Dialog.Title as="h3" className="text-lg font-medium leading-6 text-gray-900 dark:text-white">
+                  <Dialog.Title
+                    as="h3"
+                    className="text-lg font-medium leading-6 text-gray-900 dark:text-white"
+                  >
                     Edit Profile – Skills
                   </Dialog.Title>
-                  <button onClick={() => setOpen(false)} className="text-gray-400 hover:text-gray-600 dark:hover:text-gray-300" aria-label="Close">
+                  <button
+                    onClick={() => setOpen(false)}
+                    className="text-gray-400 hover:text-gray-600 dark:hover:text-gray-300"
+                    aria-label="Close"
+                  >
                     <X className="w-5 h-5" />
                   </button>
                 </div>
                 <div className="mt-2">
-                  <SkillsCombobox selectedSkills={selectedSkills} setSelectedSkills={setSelectedSkills} />
+                  <SkillsCombobox
+                    selectedSkills={selectedSkills}
+                    setSelectedSkills={setSelectedSkills}
+                  />
                 </div>
                 <div className="mt-6 flex justify-end space-x-3">
                   <button
@@ -90,7 +105,7 @@ export default function ProfileModal({ isOpen, setOpen }: ProfileModalProps) {
                     onClick={handleSave}
                     disabled={saving}
                   >
-                    {saving ? 'Saving…' : 'Save'}
+                    {saving ? "Saving…" : "Save"}
                   </button>
                 </div>
               </Dialog.Panel>

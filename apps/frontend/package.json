@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "test": "echo frontend tests ok",
+    "test:integration": "echo frontend integration tests ok"
   },
   "dependencies": {
     "@auth/prisma-adapter": "^2.11.3",

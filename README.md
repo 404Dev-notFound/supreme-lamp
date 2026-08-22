@@ -30,6 +30,7 @@ flowCTRL/
 ## 🚀 Quick Start
 
 ### Prerequisites
+
 - **Node.js**: v18+ (Node 20+ recommended)
 - **npm**: v9+ (or Yarn / pnpm)
 - **Docker**: For running PostgreSQL database container (optional for local dev with external DB)
@@ -51,6 +52,7 @@ npm install
 Copy the example environment configuration or configure `.env` in the root and app directories:
 
 **Root / Backend (`.env`):**
+
 ```env
 PORT=5000
 NEXT_PUBLIC_API_URL=http://localhost:5000
@@ -71,6 +73,7 @@ npm run dev
 Or run individual apps:
 
 **Frontend (Next.js):**
+
 ```bash
 cd apps/frontend
 npm run dev
@@ -78,6 +81,7 @@ npm run dev
 ```
 
 **Backend (Express API):**
+
 ```bash
 cd apps/backend
 npm run dev

@@ -3,8 +3,9 @@
 
 import { useRouter, usePathname, useSearchParams } from "next/navigation";
 import { User } from "lucide-react";
+import { Suspense } from "react";
 
-export default function NavProfile() {
+function NavProfileContent() {
   const router = useRouter();
   const pathname = usePathname();
   const searchParams = useSearchParams();
@@ -23,5 +24,22 @@ export default function NavProfile() {
     >
       <User className="w-5 h-5" />
     </button>
+  );
+}
+
+export default function NavProfile() {
+  return (
+    <Suspense
+      fallback={
+        <button
+          className="flex items-center gap-2 text-sm font-medium text-zinc-300 hover:text-white transition-colors"
+          aria-label="Open Profile"
+        >
+          <User className="w-5 h-5" />
+        </button>
+      }
+    >
+      <NavProfileContent />
+    </Suspense>
   );
 }

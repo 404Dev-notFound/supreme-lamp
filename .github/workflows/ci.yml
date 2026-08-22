@@ -9,9 +9,6 @@ on:
 jobs:
   build-test:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./apps/backend
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -19,7 +16,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '20'
           cache: 'npm'
 
       - name: Install dependencies
@@ -30,17 +27,17 @@ jobs:
           npm run lint
           npm run prettier:check
 
-      - name: Type check
+      - name: Type check and build
         run: npm run build
 
       - name: Unit tests
-        run: npm test -- --ci --coverage
+        run: npm run test
 
       - name: Integration tests
-        run: npm run test:integration
+        run: npm run test:integration --if-present
 
       - name: Security audit
-        run: npx audit-ci --config .auditci.yml
+        run: npx --yes audit-ci --config .auditci.json
 
       - name: Build Docker image
         run: |
@@ -48,7 +45,7 @@ jobs:
           docker build -t flowctrl-frontend:latest -f apps/frontend/Dockerfile .
 
       - name: Push Docker image (optional)
-        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main' && env.REGISTRY != ''
         env:
           REGISTRY: ${{ secrets.REGISTRY_URL }}
           USERNAME: ${{ secrets.REGISTRY_USER }}

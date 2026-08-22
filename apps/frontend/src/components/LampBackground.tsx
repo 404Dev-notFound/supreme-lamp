@@ -115,7 +115,7 @@ const LampBackground: React.FC = () => {
     document.body.appendChild(script);
     return () => {
       // Cleanup: remove the canvas and script
-      const container = document.getElementById('lamp-bg');
+      const container = document.getElementById("lamp-bg");
       while (container?.firstChild) {
         container.removeChild(container.firstChild);
       }
@@ -124,15 +124,18 @@ const LampBackground: React.FC = () => {
   }, []);
 
   return (
-    <div id="lamp-bg" style={{
-      position: "fixed",
-      top: 0,
-      left: 0,
-      width: "100%",
-      height: "100%",
-      zIndex: -1,
-      pointerEvents: "none",
-    }} />
+    <div
+      id="lamp-bg"
+      style={{
+        position: "fixed",
+        top: 0,
+        left: 0,
+        width: "100%",
+        height: "100%",
+        zIndex: -1,
+        pointerEvents: "none",
+      }}
+    />
   );
 };
 

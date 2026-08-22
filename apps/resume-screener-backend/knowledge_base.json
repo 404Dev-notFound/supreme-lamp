@@ -1,51 +1,223 @@
 [
-  {"id": "af01", "category": "ATS_FORMATTING", "text": "ATS (Applicant Tracking System) parsers frequently fail on resumes that use multi-column layouts, text boxes, tables, or headers/footers to hold key information, because the parser reads left-to-right and can scramble the true reading order or drop the content entirely."},
-  {"id": "af02", "category": "ATS_FORMATTING", "text": "Resumes saved as images, scanned PDFs, or PDFs built from design tools that flatten text into vector shapes cannot be parsed at all by most ATS software, resulting in an empty or near-empty extracted profile."},
-  {"id": "af03", "category": "ATS_FORMATTING", "text": "Standard, ATS-friendly section headers such as 'Experience', 'Education', 'Skills', and 'Projects' are recognized far more reliably than creative alternatives like 'My Journey' or 'What I Bring', which many parsers fail to map to the correct field."},
-  {"id": "af04", "category": "ATS_FORMATTING", "text": "Fancy bullet glyphs, icons, or graphics used as bullet points (arrows, checkmarks, emoji) can render as garbled characters or be stripped out entirely by ATS text extraction, so simple round or square bullets are safer."},
-  {"id": "af05", "category": "ATS_FORMATTING", "text": "Embedding contact information (name, phone, email) inside a header or footer region of a document is a common cause of ATS systems failing to capture the candidate's contact details, since many parsers ignore header/footer text."},
-  {"id": "af06", "category": "ATS_FORMATTING", "text": "Non-standard fonts, especially decorative or script fonts, and font sizes below 10pt reduce both machine parseability and human readability; 10-12pt for body text in a standard font (Calibri, Arial, Garamond, Georgia) is the safe range."},
-  {"id": "af07", "category": "ATS_FORMATTING", "text": "A resume that exceeds two pages for someone with under 10 years of experience is generally considered too long by recruiters, who spend on average only six to eight seconds on an initial resume scan."},
-  {"id": "af08", "category": "ATS_FORMATTING", "text": "Inconsistent formatting -- mixed date formats, uneven spacing, inconsistent bullet indentation, or a mix of font sizes across similar-level headings -- signals carelessness to a human reviewer even when the content itself is strong."},
-  {"id": "af09", "category": "ATS_FORMATTING", "text": "Filenames like 'Resume_final_v3_USE_THIS_ONE.pdf' look unprofessional in an inbox; a clean filename such as 'FirstName_LastName_Resume.pdf' is recommended."},
-  {"id": "af10", "category": "ATS_FORMATTING", "text": "Including a photo, age, marital status, or a full home address on a resume is unnecessary in most English-speaking hiring markets, can trigger unconscious bias, and in some regions raises legal/compliance concerns for the employer."},
+  {
+    "id": "af01",
+    "category": "ATS_FORMATTING",
+    "text": "ATS (Applicant Tracking System) parsers frequently fail on resumes that use multi-column layouts, text boxes, tables, or headers/footers to hold key information, because the parser reads left-to-right and can scramble the true reading order or drop the content entirely."
+  },
+  {
+    "id": "af02",
+    "category": "ATS_FORMATTING",
+    "text": "Resumes saved as images, scanned PDFs, or PDFs built from design tools that flatten text into vector shapes cannot be parsed at all by most ATS software, resulting in an empty or near-empty extracted profile."
+  },
+  {
+    "id": "af03",
+    "category": "ATS_FORMATTING",
+    "text": "Standard, ATS-friendly section headers such as 'Experience', 'Education', 'Skills', and 'Projects' are recognized far more reliably than creative alternatives like 'My Journey' or 'What I Bring', which many parsers fail to map to the correct field."
+  },
+  {
+    "id": "af04",
+    "category": "ATS_FORMATTING",
+    "text": "Fancy bullet glyphs, icons, or graphics used as bullet points (arrows, checkmarks, emoji) can render as garbled characters or be stripped out entirely by ATS text extraction, so simple round or square bullets are safer."
+  },
+  {
+    "id": "af05",
+    "category": "ATS_FORMATTING",
+    "text": "Embedding contact information (name, phone, email) inside a header or footer region of a document is a common cause of ATS systems failing to capture the candidate's contact details, since many parsers ignore header/footer text."
+  },
+  {
+    "id": "af06",
+    "category": "ATS_FORMATTING",
+    "text": "Non-standard fonts, especially decorative or script fonts, and font sizes below 10pt reduce both machine parseability and human readability; 10-12pt for body text in a standard font (Calibri, Arial, Garamond, Georgia) is the safe range."
+  },
+  {
+    "id": "af07",
+    "category": "ATS_FORMATTING",
+    "text": "A resume that exceeds two pages for someone with under 10 years of experience is generally considered too long by recruiters, who spend on average only six to eight seconds on an initial resume scan."
+  },
+  {
+    "id": "af08",
+    "category": "ATS_FORMATTING",
+    "text": "Inconsistent formatting -- mixed date formats, uneven spacing, inconsistent bullet indentation, or a mix of font sizes across similar-level headings -- signals carelessness to a human reviewer even when the content itself is strong."
+  },
+  {
+    "id": "af09",
+    "category": "ATS_FORMATTING",
+    "text": "Filenames like 'Resume_final_v3_USE_THIS_ONE.pdf' look unprofessional in an inbox; a clean filename such as 'FirstName_LastName_Resume.pdf' is recommended."
+  },
+  {
+    "id": "af10",
+    "category": "ATS_FORMATTING",
+    "text": "Including a photo, age, marital status, or a full home address on a resume is unnecessary in most English-speaking hiring markets, can trigger unconscious bias, and in some regions raises legal/compliance concerns for the employer."
+  },
 
-  {"id": "ci01", "category": "CONTENT_IMPACT", "text": "Bullet points that describe responsibilities ('Responsible for managing a team') are weaker than bullet points that describe quantified outcomes ('Led a team of 6 engineers, cutting release cycle time by 35%'), because outcomes prove impact rather than just presence."},
-  {"id": "ci02", "category": "CONTENT_IMPACT", "text": "Every experience bullet should ideally start with a strong past-tense action verb (Built, Led, Reduced, Launched, Negotiated) rather than passive phrasing like 'Was responsible for' or 'Helped with', since action verbs read as ownership."},
-  {"id": "ci03", "category": "CONTENT_IMPACT", "text": "Quantifying results with numbers, percentages, dollar amounts, or time saved (e.g. 'reduced page load time by 40%', 'managed a $2M budget', 'onboarded 200+ users in 3 months') is one of the highest-value signals recruiters look for, because it turns a vague claim into evidence."},
-  {"id": "ci04", "category": "CONTENT_IMPACT", "text": "Resumes with zero quantified metrics across all bullet points -- no numbers, percentages, or scale indicators anywhere -- read as generic and make it hard for a reviewer to differentiate genuine impact from busywork."},
-  {"id": "ci05", "category": "CONTENT_IMPACT", "text": "Generic, unverifiable buzzwords such as 'hardworking', 'team player', 'go-getter', 'detail-oriented', or 'passionate' used without supporting evidence add little value and are heavily overused across resumes, making them background noise to reviewers."},
-  {"id": "ci06", "category": "CONTENT_IMPACT", "text": "A resume tailored to the specific job description -- mirroring key required skills and terminology from the posting -- consistently scores higher in both ATS keyword matching and recruiter relevance judgment than a generic one-size-fits-all resume."},
-  {"id": "ci07", "category": "CONTENT_IMPACT", "text": "Listing duties without outcomes ('Wrote code', 'Attended meetings', 'Used Excel') fails to differentiate a candidate from any other person who held the same job title; the bar is showing what changed because you did the work."},
-  {"id": "ci08", "category": "CONTENT_IMPACT", "text": "A resume summary or objective statement placed at the top should be 2-4 concise sentences focused on the value the candidate brings, not a vague autobiography like 'Seeking a challenging position where I can grow'."},
-  {"id": "ci09", "category": "CONTENT_IMPACT", "text": "Long, dense paragraphs of prose instead of scannable bullet points slow a reviewer down; recruiters scan resumes rather than read them line by line, so bulleted, front-loaded information is strongly preferred."},
-  {"id": "ci10", "category": "CONTENT_IMPACT", "text": "Repeating the same action verb (e.g. 'Managed') at the start of every bullet across the whole resume makes the writing feel repetitive and can suggest limited range of contribution."},
+  {
+    "id": "ci01",
+    "category": "CONTENT_IMPACT",
+    "text": "Bullet points that describe responsibilities ('Responsible for managing a team') are weaker than bullet points that describe quantified outcomes ('Led a team of 6 engineers, cutting release cycle time by 35%'), because outcomes prove impact rather than just presence."
+  },
+  {
+    "id": "ci02",
+    "category": "CONTENT_IMPACT",
+    "text": "Every experience bullet should ideally start with a strong past-tense action verb (Built, Led, Reduced, Launched, Negotiated) rather than passive phrasing like 'Was responsible for' or 'Helped with', since action verbs read as ownership."
+  },
+  {
+    "id": "ci03",
+    "category": "CONTENT_IMPACT",
+    "text": "Quantifying results with numbers, percentages, dollar amounts, or time saved (e.g. 'reduced page load time by 40%', 'managed a $2M budget', 'onboarded 200+ users in 3 months') is one of the highest-value signals recruiters look for, because it turns a vague claim into evidence."
+  },
+  {
+    "id": "ci04",
+    "category": "CONTENT_IMPACT",
+    "text": "Resumes with zero quantified metrics across all bullet points -- no numbers, percentages, or scale indicators anywhere -- read as generic and make it hard for a reviewer to differentiate genuine impact from busywork."
+  },
+  {
+    "id": "ci05",
+    "category": "CONTENT_IMPACT",
+    "text": "Generic, unverifiable buzzwords such as 'hardworking', 'team player', 'go-getter', 'detail-oriented', or 'passionate' used without supporting evidence add little value and are heavily overused across resumes, making them background noise to reviewers."
+  },
+  {
+    "id": "ci06",
+    "category": "CONTENT_IMPACT",
+    "text": "A resume tailored to the specific job description -- mirroring key required skills and terminology from the posting -- consistently scores higher in both ATS keyword matching and recruiter relevance judgment than a generic one-size-fits-all resume."
+  },
+  {
+    "id": "ci07",
+    "category": "CONTENT_IMPACT",
+    "text": "Listing duties without outcomes ('Wrote code', 'Attended meetings', 'Used Excel') fails to differentiate a candidate from any other person who held the same job title; the bar is showing what changed because you did the work."
+  },
+  {
+    "id": "ci08",
+    "category": "CONTENT_IMPACT",
+    "text": "A resume summary or objective statement placed at the top should be 2-4 concise sentences focused on the value the candidate brings, not a vague autobiography like 'Seeking a challenging position where I can grow'."
+  },
+  {
+    "id": "ci09",
+    "category": "CONTENT_IMPACT",
+    "text": "Long, dense paragraphs of prose instead of scannable bullet points slow a reviewer down; recruiters scan resumes rather than read them line by line, so bulleted, front-loaded information is strongly preferred."
+  },
+  {
+    "id": "ci10",
+    "category": "CONTENT_IMPACT",
+    "text": "Repeating the same action verb (e.g. 'Managed') at the start of every bullet across the whole resume makes the writing feel repetitive and can suggest limited range of contribution."
+  },
 
-  {"id": "sk01", "category": "SKILLS", "text": "A skills section that is a wall of every tool the candidate has ever touched, with no distinction between proficiency levels or relevance to the target role, dilutes the signal of the skills that actually matter for the job."},
-  {"id": "sk02", "category": "SKILLS", "text": "Matching the exact keyword phrasing used in the job description (e.g. 'React.js' vs 'React', 'Machine Learning' vs 'ML') materially affects ATS keyword-matching scores, since many systems do literal or near-literal string matching."},
-  {"id": "sk03", "category": "SKILLS", "text": "Listing outdated or irrelevant technologies (e.g. Flash, jQuery-only experience for a modern frontend role) without more current, relevant skills can make a candidate look behind the curve for the role they are applying to."},
-  {"id": "sk04", "category": "SKILLS", "text": "Claiming proficiency in a skill that is never referenced anywhere else in the resume's experience section is a red flag to reviewers, who often cross-check that listed skills actually show up in real project or work context."},
-  {"id": "sk05", "category": "SKILLS", "text": "Grouping skills into clear subcategories (Languages, Frameworks, Tools, Cloud/DevOps, Soft Skills) is easier to scan than one long undifferentiated list and helps both human reviewers and keyword-matching parsers."},
+  {
+    "id": "sk01",
+    "category": "SKILLS",
+    "text": "A skills section that is a wall of every tool the candidate has ever touched, with no distinction between proficiency levels or relevance to the target role, dilutes the signal of the skills that actually matter for the job."
+  },
+  {
+    "id": "sk02",
+    "category": "SKILLS",
+    "text": "Matching the exact keyword phrasing used in the job description (e.g. 'React.js' vs 'React', 'Machine Learning' vs 'ML') materially affects ATS keyword-matching scores, since many systems do literal or near-literal string matching."
+  },
+  {
+    "id": "sk03",
+    "category": "SKILLS",
+    "text": "Listing outdated or irrelevant technologies (e.g. Flash, jQuery-only experience for a modern frontend role) without more current, relevant skills can make a candidate look behind the curve for the role they are applying to."
+  },
+  {
+    "id": "sk04",
+    "category": "SKILLS",
+    "text": "Claiming proficiency in a skill that is never referenced anywhere else in the resume's experience section is a red flag to reviewers, who often cross-check that listed skills actually show up in real project or work context."
+  },
+  {
+    "id": "sk05",
+    "category": "SKILLS",
+    "text": "Grouping skills into clear subcategories (Languages, Frameworks, Tools, Cloud/DevOps, Soft Skills) is easier to scan than one long undifferentiated list and helps both human reviewers and keyword-matching parsers."
+  },
 
-  {"id": "ex01", "category": "EXPERIENCE", "text": "Unexplained employment gaps longer than six months, with no context given (career break, education, caregiving, layoffs), often prompt a recruiter to deprioritize the resume in favor of one with a clearer timeline, even when the gap has a legitimate reason."},
-  {"id": "ex02", "category": "EXPERIENCE", "text": "Job-hopping patterns -- multiple roles held for less than a year each without explanation -- can raise retention concerns for a hiring manager, though this is judged differently across industries like consulting or contracting."},
-  {"id": "ex03", "category": "EXPERIENCE", "text": "Experience entries should be listed in reverse-chronological order (most recent first) since that is both the ATS-parsing convention and the order recruiters expect when scanning career progression."},
-  {"id": "ex04", "category": "EXPERIENCE", "text": "Each experience entry should clearly show company name, job title, location, and start/end dates (month and year) in a consistent format; missing dates or only listing years (no months) can look like an attempt to obscure gaps."},
-  {"id": "ex05", "category": "EXPERIENCE", "text": "For internships or entry-level candidates, listing relevant academic projects, hackathons, or open-source contributions with concrete outcomes can substitute effectively for limited professional experience."},
-  {"id": "ex06", "category": "EXPERIENCE", "text": "A resume with no visible career progression -- same title and same scope of responsibility across many years at the same or different companies -- can read as stagnation to a reviewer unless the field itself is non-hierarchical by nature."},
+  {
+    "id": "ex01",
+    "category": "EXPERIENCE",
+    "text": "Unexplained employment gaps longer than six months, with no context given (career break, education, caregiving, layoffs), often prompt a recruiter to deprioritize the resume in favor of one with a clearer timeline, even when the gap has a legitimate reason."
+  },
+  {
+    "id": "ex02",
+    "category": "EXPERIENCE",
+    "text": "Job-hopping patterns -- multiple roles held for less than a year each without explanation -- can raise retention concerns for a hiring manager, though this is judged differently across industries like consulting or contracting."
+  },
+  {
+    "id": "ex03",
+    "category": "EXPERIENCE",
+    "text": "Experience entries should be listed in reverse-chronological order (most recent first) since that is both the ATS-parsing convention and the order recruiters expect when scanning career progression."
+  },
+  {
+    "id": "ex04",
+    "category": "EXPERIENCE",
+    "text": "Each experience entry should clearly show company name, job title, location, and start/end dates (month and year) in a consistent format; missing dates or only listing years (no months) can look like an attempt to obscure gaps."
+  },
+  {
+    "id": "ex05",
+    "category": "EXPERIENCE",
+    "text": "For internships or entry-level candidates, listing relevant academic projects, hackathons, or open-source contributions with concrete outcomes can substitute effectively for limited professional experience."
+  },
+  {
+    "id": "ex06",
+    "category": "EXPERIENCE",
+    "text": "A resume with no visible career progression -- same title and same scope of responsibility across many years at the same or different companies -- can read as stagnation to a reviewer unless the field itself is non-hierarchical by nature."
+  },
 
-  {"id": "ed01", "category": "EDUCATION", "text": "Education should list degree, institution, and graduation year; including GPA is optional and generally only worth including if it is 3.5/4.0 or higher, or if the candidate is a recent graduate with limited work history."},
-  {"id": "ed02", "category": "EDUCATION", "text": "For candidates with 5+ years of professional experience, education is conventionally placed after the experience section rather than before it, since work history becomes the primary signal at that career stage."},
-  {"id": "ed03", "category": "EDUCATION", "text": "Listing high school education is unnecessary once a candidate has a college degree or several years of relevant work experience, as it adds no value and consumes limited space."},
+  {
+    "id": "ed01",
+    "category": "EDUCATION",
+    "text": "Education should list degree, institution, and graduation year; including GPA is optional and generally only worth including if it is 3.5/4.0 or higher, or if the candidate is a recent graduate with limited work history."
+  },
+  {
+    "id": "ed02",
+    "category": "EDUCATION",
+    "text": "For candidates with 5+ years of professional experience, education is conventionally placed after the experience section rather than before it, since work history becomes the primary signal at that career stage."
+  },
+  {
+    "id": "ed03",
+    "category": "EDUCATION",
+    "text": "Listing high school education is unnecessary once a candidate has a college degree or several years of relevant work experience, as it adds no value and consumes limited space."
+  },
 
-  {"id": "rf01", "category": "RED_FLAGS", "text": "Spelling and grammar errors on a resume are one of the fastest ways to get rejected; studies of recruiter behavior consistently show typos are read as a lack of attention to detail, regardless of the strength of the underlying experience."},
-  {"id": "rf02", "category": "RED_FLAGS", "text": "An unprofessional email address (e.g. 'coolguy1999@...' or 'partyanimal@...') undermines credibility before the content is even read; a simple firstname.lastname@domain format is the standard."},
-  {"id": "rf03", "category": "RED_FLAGS", "text": "Inconsistent tense usage -- mixing past tense for current roles and present tense for past roles, or switching within the same bullet list -- reads as a proofreading failure."},
-  {"id": "rf04", "category": "RED_FLAGS", "text": "Including personal information irrelevant to job performance (religion, political affiliation, unrelated hobbies unless they demonstrate a real transferable skill) is generally discouraged and can appear unprofessional or, in some jurisdictions, risk introducing bias into the hiring process."},
-  {"id": "rf05", "category": "RED_FLAGS", "text": "Vague or missing dates, unexplained title changes without context, or inconsistent company names for what appears to be the same employer are treated by experienced recruiters as verification red flags worth a closer look."},
-  {"id": "rf06", "category": "RED_FLAGS", "text": "Exaggerated or unverifiable claims (e.g. 'increased revenue by 500%' with no context of scale or role) can backfire in an interview when the candidate cannot substantiate the number, and experienced interviewers routinely probe big claims for specifics."},
+  {
+    "id": "rf01",
+    "category": "RED_FLAGS",
+    "text": "Spelling and grammar errors on a resume are one of the fastest ways to get rejected; studies of recruiter behavior consistently show typos are read as a lack of attention to detail, regardless of the strength of the underlying experience."
+  },
+  {
+    "id": "rf02",
+    "category": "RED_FLAGS",
+    "text": "An unprofessional email address (e.g. 'coolguy1999@...' or 'partyanimal@...') undermines credibility before the content is even read; a simple firstname.lastname@domain format is the standard."
+  },
+  {
+    "id": "rf03",
+    "category": "RED_FLAGS",
+    "text": "Inconsistent tense usage -- mixing past tense for current roles and present tense for past roles, or switching within the same bullet list -- reads as a proofreading failure."
+  },
+  {
+    "id": "rf04",
+    "category": "RED_FLAGS",
+    "text": "Including personal information irrelevant to job performance (religion, political affiliation, unrelated hobbies unless they demonstrate a real transferable skill) is generally discouraged and can appear unprofessional or, in some jurisdictions, risk introducing bias into the hiring process."
+  },
+  {
+    "id": "rf05",
+    "category": "RED_FLAGS",
+    "text": "Vague or missing dates, unexplained title changes without context, or inconsistent company names for what appears to be the same employer are treated by experienced recruiters as verification red flags worth a closer look."
+  },
+  {
+    "id": "rf06",
+    "category": "RED_FLAGS",
+    "text": "Exaggerated or unverifiable claims (e.g. 'increased revenue by 500%' with no context of scale or role) can backfire in an interview when the candidate cannot substantiate the number, and experienced interviewers routinely probe big claims for specifics."
+  },
 
-  {"id": "sc01", "category": "SUMMARY_CONTACT", "text": "Essential contact information -- full name, phone number, professional email, city/region, and a LinkedIn or portfolio URL if relevant -- should be immediately visible at the top of the resume in plain, parseable text, not embedded in an image or icon-only format."},
-  {"id": "sc02", "category": "SUMMARY_CONTACT", "text": "A resume with no LinkedIn URL or portfolio link for roles where a portfolio is standard practice (design, engineering, writing) is a missed opportunity to provide additional verifiable evidence of skill."},
-  {"id": "sc03", "category": "SUMMARY_CONTACT", "text": "For technical or portfolio-driven roles, a link to a GitHub profile, personal website, or live project demo carries significant weight because it lets a reviewer verify claimed skills directly rather than taking them on faith."}
+  {
+    "id": "sc01",
+    "category": "SUMMARY_CONTACT",
+    "text": "Essential contact information -- full name, phone number, professional email, city/region, and a LinkedIn or portfolio URL if relevant -- should be immediately visible at the top of the resume in plain, parseable text, not embedded in an image or icon-only format."
+  },
+  {
+    "id": "sc02",
+    "category": "SUMMARY_CONTACT",
+    "text": "A resume with no LinkedIn URL or portfolio link for roles where a portfolio is standard practice (design, engineering, writing) is a missed opportunity to provide additional verifiable evidence of skill."
+  },
+  {
+    "id": "sc03",
+    "category": "SUMMARY_CONTACT",
+    "text": "For technical or portfolio-driven roles, a link to a GitHub profile, personal website, or live project demo carries significant weight because it lets a reviewer verify claimed skills directly rather than taking them on faith."
+  }
 ]

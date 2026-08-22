@@ -1,7 +1,6 @@
 // src/components/modals/SignUpForm.tsx
 "use client";
 import { useState } from "react";
-import { X } from "lucide-react";
 
 interface SignUpFormProps {
   onClose: () => void;
@@ -34,7 +33,7 @@ export default function SignUpForm({ onClose }: SignUpFormProps) {
         type="text"
         placeholder="Name"
         value={name}
-        onChange={e => setName(e.target.value)}
+        onChange={(e) => setName(e.target.value)}
         required
         className="w-full rounded border border-gray-300 px-3 py-2 bg-white/5 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-primary"
       />
@@ -42,7 +41,7 @@ export default function SignUpForm({ onClose }: SignUpFormProps) {
         type="email"
         placeholder="Email"
         value={email}
-        onChange={e => setEmail(e.target.value)}
+        onChange={(e) => setEmail(e.target.value)}
         required
         className="w-full rounded border border-gray-300 px-3 py-2 bg-white/5 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-primary"
       />
@@ -50,7 +49,7 @@ export default function SignUpForm({ onClose }: SignUpFormProps) {
         type="password"
         placeholder="Password"
         value={password}
-        onChange={e => setPassword(e.target.value)}
+        onChange={(e) => setPassword(e.target.value)}
         required
         className="w-full rounded border border-gray-300 px-3 py-2 bg-white/5 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-primary"
       />

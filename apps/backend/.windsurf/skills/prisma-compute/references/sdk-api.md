@@ -29,11 +29,11 @@ Use this import in `prisma.compute.ts` for type checking. The helper is an ident
 Create an authenticated Management API client:
 
 ```typescript
-import { createManagementApiClient } from "@prisma/management-api-sdk"
+import { createManagementApiClient } from "@prisma/management-api-sdk";
 
 const apiClient = createManagementApiClient({
   token: process.env.PRISMA_API_TOKEN,
-})
+});
 ```
 
 Token naming differs by surface. `@prisma/cli app ...` uses `PRISMA_SERVICE_TOKEN` for non-interactive service-token auth. The SDK examples here use `PRISMA_API_TOKEN` as an application convention for passing a token into `createManagementApiClient`; the SDK itself only receives the `token` string.
@@ -41,11 +41,11 @@ Token naming differs by surface. `@prisma/cli app ...` uses `PRISMA_SERVICE_TOKE
 Deploy a prebuilt artifact:
 
 ```typescript
-import { ComputeClient, PreBuilt } from "@prisma/compute-sdk"
+import { ComputeClient, PreBuilt } from "@prisma/compute-sdk";
 
-const compute = new ComputeClient(apiClient)
-const databaseUrl = process.env.DATABASE_URL
-if (!databaseUrl) throw new Error("DATABASE_URL is required")
+const compute = new ComputeClient(apiClient);
+const databaseUrl = process.env.DATABASE_URL;
+if (!databaseUrl) throw new Error("DATABASE_URL is required");
 
 const result = await compute.deploy({
   strategy: new PreBuilt({
@@ -57,12 +57,12 @@ const result = await compute.deploy({
   region: "us-east-1",
   envVars: { DATABASE_URL: databaseUrl },
   portMapping: { http: 3000 },
-})
+});
 
 if (result.isOk()) {
-  console.log(result.value.deploymentEndpointDomain)
+  console.log(result.value.deploymentEndpointDomain);
 } else {
-  console.error(result.error.message)
+  console.error(result.error.message);
 }
 ```
 

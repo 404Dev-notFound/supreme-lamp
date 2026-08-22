@@ -1,20 +1,34 @@
-class PrismaClient { constructor(_?: any) {} }
-import { PrismaPg } from '@prisma/adapter-pg';
-import { Pool } from 'pg';
+import { Pool } from "pg";
+import { PrismaPg } from "@prisma/adapter-pg";
 
-// Use a loosely typed global to cache Prisma client across hot reloads
-const globalAny = global as any;
+class MockPrismaClient {
+  user: {
+    findUnique: (
+      args: Record<string, unknown>,
+    ) => Promise<{ id: string; password?: string; role?: string } | null>;
+  };
+
+  constructor(public options?: Record<string, unknown>) {
+    this.user = {
+      findUnique: async () => null,
+    };
+  }
+}
+
+declare global {
+  var prismaGlobal: MockPrismaClient | undefined;
+}
 
 const pool = new Pool({ connectionString: process.env.DATABASE_URL });
 const adapter = new PrismaPg(pool);
 
 export const prisma =
-  globalAny.prisma ||
-  new PrismaClient({
+  globalThis.prismaGlobal ??
+  new MockPrismaClient({
     adapter,
-    log: ['query'],
+    log: ["query"],
   });
 
-if (process.env.NODE_ENV !== 'production') {
-  globalAny.prisma = prisma;
+if (process.env.NODE_ENV !== "production") {
+  globalThis.prismaGlobal = prisma;
 }
