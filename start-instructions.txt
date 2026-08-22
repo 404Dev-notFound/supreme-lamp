@@ -1,0 +1,131 @@
+==============================================================================
+ FlowCTRL - Local Development Quickstart Guide
+==============================================================================
+
+Welcome to FlowCTRL! Follow these step-by-step instructions to run the entire
+FlowCTRL application stack (PostgreSQL database, Adminer, Express backend API, 
+and Next.js frontend) locally on your machine.
+
+------------------------------------------------------------------------------
+ 0. Prerequisites
+------------------------------------------------------------------------------
+- Node.js: v18+ or v20+ installed
+- Docker & Docker Desktop: Installed and RUNNING
+- Terminal: Open PowerShell, CMD, or Bash in the FlowCTRL project root:
+  c:\Users\Dell\Downloads\overall\dev\obsidian\projects and it's code\flowCTRL
+
+First, ensure monorepo dependencies are installed:
+  npm install
+
+------------------------------------------------------------------------------
+ 1. Start Database Services (PostgreSQL & Adminer)
+------------------------------------------------------------------------------
+Start the containerized PostgreSQL database and Adminer web interface:
+
+  docker compose up -d
+
+Verify that both containers are up and running:
+
+  docker compose ps
+
+You should see both the `db` and `adminer` services with `Up` or `running` status.
+
+------------------------------------------------------------------------------
+ 2. Database Connection & Adminer Management
+------------------------------------------------------------------------------
+PostgreSQL Database:
+- Host / Port: localhost:5432
+- Database Name: flowCTRL
+- Database User: postgres
+- Database Password: postgrespassword9555
+- Connection URL:
+  postgresql://postgres:postgrespassword9555@localhost:5432/flowCTRL
+
+Adminer Database Management Web UI:
+- Open your browser at: http://localhost:8080
+- Login credentials (connecting within Docker network):
+    System:   PostgreSQL
+    Server:   db
+    Username: postgres
+    Password: postgrespassword9555
+    Database: flowCTRL
+
+------------------------------------------------------------------------------
+ 3. Prisma Database Setup (Client & Schema Migration)
+------------------------------------------------------------------------------
+With PostgreSQL running, generate the Prisma Client and synchronize the schema:
+
+1. Navigate to the backend directory:
+   cd apps/backend
+
+2. Generate the Prisma Client:
+   npx prisma generate
+
+3. Push / apply the schema to your PostgreSQL database:
+   npx prisma db push
+
+4. (Optional) Inspect your database models using Prisma Studio:
+   npx prisma studio
+   -> Opens Prisma Studio at http://localhost:5555
+
+------------------------------------------------------------------------------
+ 4. Start the Backend API (Express + TypeScript)
+------------------------------------------------------------------------------
+The FlowCTRL backend is built with Express, TypeScript, and OpenTelemetry.
+
+1. Open a new terminal window in the backend directory:
+   cd apps/backend
+
+2. Start the backend development server:
+   npm run dev
+
+3. Verify the backend is running:
+   - Server URL: http://localhost:5000
+   - Health Check: http://localhost:5000/api/health (returns { "status": "ok" })
+
+------------------------------------------------------------------------------
+ 5. Start the Frontend Application (Next.js App Router)
+------------------------------------------------------------------------------
+The FlowCTRL frontend is built with Next.js 16 (App Router), React 19, and Tailwind CSS.
+
+1. Open a new terminal window in the frontend directory:
+   cd apps/frontend
+
+2. Start the frontend development server:
+   npm run dev
+
+3. Open your browser and navigate to:
+   http://localhost:3000
+
+------------------------------------------------------------------------------
+ 6. Alternative: Full-Stack Monorepo Startup (Turborepo)
+------------------------------------------------------------------------------
+You can also run both the backend and frontend simultaneously with a single 
+command from the project root using Turborepo:
+
+1. From the project root (`flowCTRL`):
+   npm run dev
+
+Turborepo will automatically launch the backend on port 5000 and the frontend on 
+port 3000 in parallel with coordinated logging.
+
+------------------------------------------------------------------------------
+ 7. Service URLs Summary
+------------------------------------------------------------------------------
+- Frontend Application:         http://localhost:3000
+- Backend API:                  http://localhost:5000
+- Backend Health Check:         http://localhost:5000/api/health
+- Database Management (Adminer):http://localhost:8080
+- Prisma Studio (optional):     http://localhost:5555
+- Resume Screener API (opt):    http://localhost:5001
+- Mental Health API (opt):      http://localhost:5002
+
+------------------------------------------------------------------------------
+ 8. Stopping the Services
+------------------------------------------------------------------------------
+- To stop the dev servers: Press `Ctrl + C` in the running terminal windows.
+- To stop the database containers:
+    docker compose down
+- To stop and wipe the database volume:
+    docker compose down -v
+==============================================================================
