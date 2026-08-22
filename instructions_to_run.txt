@@ -1,0 +1,284 @@
+apps frontend 
+npm run dev 
+
+apps backend 
+node server.js
+
+
+
+
+
+
+
+
+
+
+
+# 1️⃣ go to project
+cd "C:\Users\Dell\Downloads\overall\dev\obsidian\projects and it's code\flowCTRL"
+
+# 2️⃣ build & run
+docker compose up -d --build
+
+# 3️⃣ check status
+docker compose ps
+
+# 4️⃣ view logs (optional)
+docker compose logs -f           # all services
+docker compose logs -f backend   # single service
+
+# 5️⃣ open UI
+#    → http://localhost:3000
+
+# 6️⃣ inspect DB (optional)
+docker exec -it flowctrl-db psql -U postgres -d flowctrl
+
+# 7️⃣ stop & clean
+docker compose down
+# docker compose down -v   # removes DB volume as well
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+To run flowCTRL locally on your machine, follow these steps:
+C:\Users\Dell\Downloads\overall\dev\obsidian\projects and it's code\flowCTRL\apps\backend
+1. Open a terminal in the root folder of the project (`flowCTRL`).
+
+2. Install the dependencies for the entire monorepo:
+   npm install
+
+   (This will also install backend dependencies. If you encounter missing packages, you can manually install them, e.g.)
+   npm install helmet @types/helmet morgan @types/morgan
+
+3. Run the development server using Turborepo (this will start both the frontend and backend when the backend is ready):
+   npm run dev
+
+4. Open your browser and navigate to:
+   http://localhost:3000 (Frontend)cd 
+
+5. If you want to build the project for production, run:
+   npm run build
+
+Note: Ensure you have Node.js (v18+) installed on your machine. Docker will be required later when we set up the database.
+
+http://localhost:5000/api/health
+
+
+
+
+
+
+
+
+
+
+
+Backend API (Express)	5000	http://localhost:5000/
+Backend Health‑check	5000	http://localhost:5000/api/health
+Frontend (Next.js dev server)	3000 (default for next dev)	http://localhost:3000/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+How to run FlowCTRL locally (backend + frontend)
+Below are the exact folder paths (absolute for your machine) and the commands you need to execute, in the order they should be run.
+
+1️⃣ Clone / open the repository
+Your project lives in
+
+c:/Users/Dell/Downloads/overall/dev/obsidian/projects and it's code/flowCTRL
+Open a terminal (PowerShell or CMD) inside this folder:
+
+powershell
+
+
+cd "c:/Users/Dell/Downloads/overall/dev/obsidian/projects and it's code/flowCTRL"
+2️⃣ Install root‑level dependencies (optional but recommended)
+The repository contains a top‑level package-lock.json that is only used for the monorepo tooling. Run once:
+
+powershell
+
+
+npm ci   # or `npm install` if you prefer
+3️⃣ Set up environment variables
+Both apps read a .env file at the repo root (the backend also reads .env in its own folder).
+Create it now (you can copy the example if one exists):
+
+powershell
+
+
+# repository root
+New-Item -Path . -Name ".env" -ItemType File -Force
+Add at least the following variables (replace the values with whatever you need for local dev):
+
+dotenv
+
+
+# .env   (repo root)
+PORT=5000                     # backend HTTP port
+NEXT_PUBLIC_API_URL=http://localhost:5000   # URL the frontend will call
+# (any other secrets you need, e.g. JWT secret, DB connection string, etc.)
+Tip – the backend also loads .env from apps/backend/, so you can place the same file there if you prefer:
+
+powershell
+
+
+Copy-Item .\.env .\apps\backend\.env -Force
+4️⃣ Install backend dependencies
+powershell
+
+
+cd apps/backend
+npm ci
+5️⃣ Run the backend (development mode)
+powershell
+
+
+npm run dev
+You should see something like:
+
+
+
+> backend@1.0.0 dev
+> ts-node src/index.ts
+OpenTelemetry initialized
+Server is running on port 5000
+GET / 200 …
+The backend now listens on http://localhost:5000 and exposes routes such as /api/health.
+
+6️⃣ Install frontend dependencies
+Open a second terminal (so the backend can keep running) and run:
+
+powershell
+
+
+cd "c:/Users/Dell/Downloads/overall/dev/obsidian/projects and it's code/flowCTRL/apps/frontend"
+npm ci
+7️⃣ Run the frontend (development mode)
+powershell
+
+
+npm run dev
+You’ll get the familiar Next.js output:
+
+
+
+> frontend@0.1.0 dev
+> next dev
+▲ Next.js 16.2.12 (Turbopack)
+- Local:  http://localhost:3000
+- Network: http://192.168.64.1:3000
+✓ Ready in …
+Open http://localhost:3000 (or the network URL above) in a browser – the UI should load and call the backend at http://localhost:5000 (thanks to NEXT_PUBLIC_API_URL).
+
+8️⃣ (Optional) Allow the network URL in development
+If you access the app from another device on the same LAN, you’ll see a warning about cross‑origin dev resources. Add the host to next.config.ts once, then restart the frontend:
+
+ts
+
+
+// apps/frontend/next.config.ts
+import type { NextConfig } from 'next';
+const nextConfig: NextConfig = {
+  allowedDevOrigins: ['192.168.64.1'], // add any other IPs you need
+};
+export default nextConfig;
+9️⃣ Stopping the servers
+Press Ctrl +C in each terminal to stop the backend and frontend respectively.
+Quick‑reference cheat‑sheet
+Service	Folder (absolute)	Install command	Run command
+Backend	c:/Users/Dell/Downloads/overall/dev/obsidian/projects and it's code/flowCTRL/apps/backend	npm ci	npm run dev
+Frontend	c:/Users/Dell/Downloads/overall/dev/obsidian/projects and it's code/flowCTRL/apps/frontend	npm ci	npm run dev
+What you’ll see after everything is up
+Backend: http://localhost:5000/api/health → { "status":"ok" } (JSON)
+Frontend: Home page rendered at http://localhost:3000 (styled with Tailwind, uses the OpenTelemetry‑instrumented API behind the scenes).
+That’s all you need to start the application locally on your machine. 🎉 Feel free to ask if you hit any hiccups!
+

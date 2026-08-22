@@ -1,0 +1,9 @@
+{
+  "name": "@flowctrl/types",
+  "version": "1.0.0",
+  "description": "Shared types and schemas for flowCTRL",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

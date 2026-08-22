@@ -1,0 +1,16 @@
+[
+  {
+    "id": "user_001",
+    "username": "alice",
+    "email": "alice@example.com",
+    "createdAt": "2024-01-15T08:30:00Z",
+    "roleId": "role_001"
+  },
+  {
+    "id": "user_002",
+    "username": "bob",
+    "email": "bob@example.com",
+    "createdAt": "2024-02-20T12:45:00Z",
+    "roleId": "role_002"
+  }
+]

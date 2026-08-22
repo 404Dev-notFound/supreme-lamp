@@ -1,0 +1,92 @@
+flowCTRL (fC) — Master Product Prompt Specification
+
+Project Name: flowCTRL (fC)
+
+Tagline: Control over your career.
+
+Objective: Build a complete, production-ready, premium SaaS web
+application named flowCTRL (short: fC). The platform is an all-in-one
+career ecosystem that bridges the gap between skills and opportunities
+for students, freshers, professionals, career switchers, and self-taught
+learners.
+
+Core Mission: Bridge the gap between skills and opportunities while
+helping users discover, plan, build, and grow their careers.
+
+Brand: - Obsidian + GitHub + Notion inspired (unique identity) -
+Monochrome theme with one accent color - System theme + manual toggle -
+fC monogram + flowCTRL wordmark - Plain background layer reserved for
+future custom background asset
+
+Core Features: - Career Path Finder - Skill Gap Analyzer - Roadmap
+Generator - Portfolio Builder - Resume Analyzer - Career Mentor - Job &
+Internship Matcher - Mock Interviews - ATS Resume Checker - Learning
+Hub - Certifications Tracker - Progress Dashboard - Community &
+Networking - Projects Recommendation - Salary Insights
+
+Landing Page: Hero, Features, How it Works, Why flowCTRL, Career
+Categories, Mentor Section, Companies We Target (rotating logo marquee),
+Testimonials, Statistics, Pricing, FAQ, CTA, Footer.
+
+Mentors: Support all mentor types (industry professionals, founders,
+MAANG, recruiters, HR, alumni, coaches, OSS maintainers, PMs, designers,
+freelancers). Include mentor directory and Become a Mentor application.
+
+Community: Forums, Study Groups, Collaboration, Hackathons, Events, Q&A,
+Networking, Team Finder, Leaderboards, Badges, Referrals, Public
+Profiles. Every major action should use a premium modal/popup.
+
+Authentication: Email/Password, Google OAuth, GitHub OAuth.
+
+Roles: Guest, User, Mentor, Recruiter, Company Representative, Admin,
+Super Admin. Use one unified dashboard with backend RBAC controlling
+visibility and permissions.
+
+Dashboard: Role-aware modules plus a fixed Activity History timeline.
+
+Companies: Include major global companies with rotating logos and
+company detail popups.
+
+Industries: Startups, R&D, Product-Based, Service-Based, Big Tech, Big
+4, BFSI, Consulting, Government, Defence, Core Engineering,
+Semiconductor, Telecom, Healthcare, Automotive, E-commerce, Gaming,
+EdTech, FinTech, SaaS, AI Labs.
+
+Profiles: Complete public/private profiles with resume, portfolio,
+projects, skills, certifications, achievements, social links, analytics,
+settings, and activity.
+
+Future Plans: Provide a polished roadmap page with Planned, In Progress,
+and Coming Soon sections for AI capabilities and future platform
+features.
+
+Admin Panel: Manage users, mentors, recruiters, companies, industries,
+careers, skills, roadmaps, certifications, jobs, community, projects,
+events, blogs, FAQs, notifications, reports, RBAC, branding, homepage
+content, support, announcements, feedback, bug reports, and roadmap.
+Exclude backend/API infrastructure controls.
+
+Premium SaaS Expectations: Include onboarding, command palette, global
+search, notifications, inbox, documentation, changelog, roadmap, status
+page, help center, keyboard shortcuts, accessibility, offline states,
+skeletons, error states, success states, gamification, achievements,
+streaks, reusable modal system, reusable drawer system, confirmation
+dialogs, responsive layouts, micro-interactions, smooth animations, and
+meaningful navigation for every action.
+
+Tech Stack: Frontend: - React 19 (without Vite) - TypeScript - React
+Router - Tailwind CSS - shadcn/ui - Radix UI - Framer Motion - Lucide
+Icons - Zustand - TanStack Query - React Hook Form - Zod - Recharts
+
+Backend: - Node.js - Express - TypeScript
+
+Database: - PostgreSQL - Prisma ORM
+
+Infrastructure: - Docker - Docker Compose - Separate containers for
+frontend, backend, PostgreSQL.
+
+Constraints: - Do not use Vite. - Structure as a scalable professional
+monorepo. - Configure Prisma migrations and seed. - Backend should be
+integration-ready. - Never leave pages empty; use realistic sample
+content. - Features not yet implemented should open premium Coming Soon
+modals. - Build as a production-ready SaaS, not a college project.

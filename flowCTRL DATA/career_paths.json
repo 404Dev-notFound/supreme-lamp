@@ -1,0 +1,9 @@
+[
+  {
+    "id": "career_path_001",
+    "title": "Data Scientist",
+    "description": "Path from junior analyst to senior data scientist.",
+    "steps": ["skill_002", "skill_003", "skill_004"],
+    "createdAt": "2024-02-10T08:00:00Z"
+  }
+]

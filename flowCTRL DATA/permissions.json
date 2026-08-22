@@ -1,0 +1,14 @@
+[
+  {
+    "id": "perm_001",
+    "name": "READ_ALL",
+    "description": "Read access to all resources",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "perm_002",
+    "name": "WRITE_ALL",
+    "description": "Write access to all resources",
+    "createdAt": "2024-01-01T00:00:00Z"
+  }
+]

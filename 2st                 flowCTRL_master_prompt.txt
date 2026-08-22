@@ -1,0 +1,940 @@
+MASTER PRODUCT DEVELOPMENT PROMPT
+
+Project Name:
+flowCTRL (fC)
+
+Tagline:
+"Control over your career."
+
+Product Category:
+Premium Career Intelligence + Opportunity Management SaaS Platform
+
+Vision:
+Build flowCTRL (fC) as a production-grade, premium SaaS ecosystem that helps students, fresh graduates, working professionals, career switchers, and self-taught developers take complete control over their career journey.
+
+The platform should act as a centralized career operating system where users can:
+
+- Discover suitable career paths
+- Understand required skills
+- Analyze their current skill gaps
+- Generate personalized learning roadmaps
+- Build professional portfolios
+- Improve resumes
+- Prepare for interviews
+- Find jobs and internships
+- Connect with mentors
+- Join communities
+- Track growth and achievements
+
+The core mission is:
+
+"Bridge the gap between skills and opportunities while helping people discover, build, and accelerate their careers."
+
+
+==================================================
+BRAND IDENTITY
+==================================================
+
+Brand Name:
+flowCTRL
+
+Short Name:
+fC
+
+Design Inspiration:
+
+Take inspiration from:
+
+- Obsidian
+- GitHub
+- Notion
+- Linear
+- Vercel
+
+Create a unique identity. Do not copy existing designs.
+
+Visual Direction:
+
+- Premium developer-first SaaS aesthetic
+- Minimal
+- Professional
+- Modern
+- Gen-Z friendly
+- Technical but approachable
+
+Theme:
+
+Primary:
+Monochrome system
+
+Colors:
+
+- Black
+- White
+- Gray shades
+
+Accent:
+
+- One customizable accent color
+
+Support:
+
+- System theme detection
+- Manual dark/light mode switch
+
+Logo:
+
+Create:
+
+1. fC monogram
+2. flowCTRL wordmark
+
+Background:
+
+Keep a clean plain background layer.
+
+Reserve this layer for future custom background assets.
+
+
+==================================================
+APPLICATION REQUIREMENTS
+==================================================
+
+Build a complete multi-page SaaS application.
+
+This should NOT be:
+
+- A landing page only
+- A college project
+- A static UI demo
+
+It must feel like a real startup product.
+
+Every:
+
+- Button
+- Card
+- Navigation item
+- CTA
+- Menu option
+- Dashboard action
+
+must have meaningful behavior.
+
+If functionality is not implemented:
+
+Open a premium Coming Soon modal.
+
+
+==================================================
+CORE PRODUCT MODULES
+==================================================
+
+
+1. Career Path Finder
+
+Purpose:
+
+Help users discover suitable career directions.
+
+Features:
+
+- Interest analysis
+- Skill analysis
+- Personality-based suggestions
+- Industry recommendations
+- Career comparison
+- Required skills
+- Salary insights
+- Future growth information
+
+
+Career examples:
+
+- Software Engineer
+- AI Engineer
+- Data Scientist
+- Product Manager
+- Cybersecurity Engineer
+- Cloud Engineer
+- Designer
+- Founder
+- Research Scientist
+
+
+--------------------------------------------------
+
+
+2. Skill Gap Analyzer
+
+Purpose:
+
+Analyze user's current skills compared to target careers.
+
+Features:
+
+- Current skill assessment
+- Missing skill detection
+- Priority ranking
+- Recommended learning resources
+- Progress tracking
+
+
+--------------------------------------------------
+
+
+3. Roadmap Generator
+
+Purpose:
+
+Generate personalized career roadmaps.
+
+Include:
+
+- Beginner roadmap
+- Intermediate roadmap
+- Advanced roadmap
+
+Roadmap elements:
+
+- Skills
+- Projects
+- Courses
+- Certifications
+- Milestones
+- Timeline
+
+
+--------------------------------------------------
+
+
+4. Portfolio Builder
+
+Features:
+
+Users can create:
+
+- Developer portfolio
+- Designer portfolio
+- Product portfolio
+- Research portfolio
+
+Include:
+
+- Templates
+- Projects
+- Achievements
+- GitHub integration
+- Live preview
+
+
+--------------------------------------------------
+
+
+5. Resume Analyzer
+
+Features:
+
+- Resume upload
+- AI analysis simulation
+- Score
+- Suggestions
+- Missing keywords
+- Improvement checklist
+
+
+--------------------------------------------------
+
+
+6. Career Mentor
+
+Complete mentor ecosystem.
+
+Support mentor categories:
+
+- Industry Professionals
+- Founders
+- MAANG Engineers
+- Recruiters
+- HR Professionals
+- Alumni
+- Career Coaches
+- Open Source Maintainers
+- Product Managers
+- Designers
+- Freelancers
+
+
+Features:
+
+- Mentor directory
+- Mentor profiles
+- Search/filter
+- Availability
+- Reviews
+- Become a Mentor application
+
+
+--------------------------------------------------
+
+
+7. Job & Internship Matcher
+
+Features:
+
+- Personalized recommendations
+- Skill matching
+- Company matching
+- Saved opportunities
+- Application tracking
+
+
+--------------------------------------------------
+
+
+8. Mock Interviews
+
+Support:
+
+- Technical interviews
+- HR interviews
+- System design
+- Behavioral rounds
+
+
+Features:
+
+- Practice sessions
+- Feedback
+- Score tracking
+
+
+--------------------------------------------------
+
+
+9. ATS Resume Checker
+
+Features:
+
+- ATS score
+- Keyword matching
+- Formatting analysis
+- Improvement suggestions
+
+
+--------------------------------------------------
+
+
+10. Learning Hub
+
+Features:
+
+- Courses
+- Tutorials
+- Resources
+- Learning paths
+- Bookmarks
+
+
+--------------------------------------------------
+
+
+11. Certifications Tracker
+
+Track:
+
+- Completed certifications
+- Upcoming certifications
+- Expiry dates
+- Providers
+
+
+--------------------------------------------------
+
+
+12. Progress Dashboard
+
+Include:
+
+- Skill growth
+- Roadmap progress
+- Applications
+- Achievements
+- Streaks
+- Activity history
+
+
+--------------------------------------------------
+
+
+13. Community & Networking
+
+Features:
+
+- Forums
+- Study groups
+- Collaboration spaces
+- Hackathons
+- Events
+- Q&A
+- Team finder
+- Networking
+- Leaderboards
+- Badges
+- Referrals
+- Public profiles
+
+
+Every major action should use premium:
+
+- Modal
+- Drawer
+- Confirmation dialog
+
+
+--------------------------------------------------
+
+
+14. Project Recommendation Engine
+
+Features:
+
+Recommend projects based on:
+
+- Career goal
+- Current skills
+- Experience level
+
+Include:
+
+- Project difficulty
+- Required stack
+- Expected outcome
+
+
+--------------------------------------------------
+
+
+15. Salary Insights
+
+Features:
+
+- Career salary ranges
+- Industry comparison
+- Experience comparison
+- Location comparison
+
+
+==================================================
+LANDING PAGE STRUCTURE
+==================================================
+
+Create a premium marketing website.
+
+
+Sections:
+
+1. Hero Section
+
+Include:
+
+Headline:
+
+"Control over your career."
+
+Supporting text:
+
+Career intelligence platform connecting skills, opportunities, mentors, and growth.
+
+CTA:
+
+- Start Your Journey
+- Explore Careers
+
+
+2. Features Section
+
+Show all major modules.
+
+
+3. How It Works
+
+Steps:
+
+Discover → Plan → Build → Grow
+
+
+4. Why flowCTRL
+
+Highlight:
+
+- Personalized growth
+- AI-powered guidance
+- Real mentors
+- Career clarity
+
+
+5. Career Categories
+
+Display industries and roles.
+
+
+6. Mentor Section
+
+
+7. Companies We Target
+
+Create rotating logo marquee.
+
+Include companies from:
+
+- Big Tech
+- Startups
+- Product companies
+- Consulting
+- Finance
+
+
+Clicking company:
+
+Open company detail popup.
+
+
+8. Testimonials
+
+
+9. Statistics
+
+
+10. Pricing
+
+
+11. FAQ
+
+
+12. Final CTA
+
+
+13. Footer
+
+
+==================================================
+CAREER INDUSTRIES
+==================================================
+
+Create industry pages/cards for:
+
+
+- Startups
+- Research & Development
+- Product-Based Companies
+- Service-Based Companies
+- Big Tech
+- Big 4
+- BFSI
+- Consulting
+- Government
+- Defence
+- Core Engineering
+- Semiconductor
+- Telecom
+- Healthcare
+- Automotive
+- E-commerce
+- Gaming
+- EdTech
+- FinTech
+- SaaS
+- AI Labs
+
+
+==================================================
+AUTHENTICATION
+==================================================
+
+Implement authentication architecture.
+
+Methods:
+
+- Email/password
+- Google OAuth
+- GitHub OAuth
+
+
+==================================================
+USER ROLES
+==================================================
+
+Implement RBAC system.
+
+
+Roles:
+
+1. Guest
+
+2. User
+
+3. Mentor
+
+4. Recruiter
+
+5. Company Representative
+
+6. Admin
+
+7. Super Admin
+
+
+Use one unified dashboard.
+
+Visibility and permissions should be controlled by backend RBAC.
+
+
+==================================================
+DASHBOARD
+==================================================
+
+Create role-aware dashboard.
+
+Include:
+
+- Personalized overview
+- Quick actions
+- Analytics
+- Notifications
+- Recommendations
+- Activity timeline
+
+
+Activity History should always remain visible.
+
+
+==================================================
+PROFILE SYSTEM
+==================================================
+
+Create complete profiles.
+
+
+Profile includes:
+
+- Personal information
+- Resume
+- Portfolio
+- Projects
+- Skills
+- Certifications
+- Achievements
+- Social links
+- Analytics
+- Privacy settings
+- Activity history
+
+
+Support:
+
+Public profile
+Private profile
+
+
+==================================================
+FUTURE ROADMAP PAGE
+==================================================
+
+Create polished roadmap page.
+
+Sections:
+
+1. Planned
+
+2. In Progress
+
+3. Coming Soon
+
+
+Include upcoming:
+
+- AI Career Coach
+- AI Interview Simulator
+- AI Resume Builder
+- Advanced Skill Intelligence
+- Career Prediction Engine
+- Company Matching AI
+- Automated Portfolio Generation
+- Mentor AI Assistant
+
+
+Future items should have premium cards.
+
+
+==================================================
+ADMIN PANEL
+==================================================
+
+Create complete CMS-style admin panel.
+
+
+Manage:
+
+Users
+
+Mentors
+
+Recruiters
+
+Companies
+
+Industries
+
+Careers
+
+Skills
+
+Roadmaps
+
+Certifications
+
+Jobs
+
+Community
+
+Projects
+
+Events
+
+Blogs
+
+FAQs
+
+Notifications
+
+Reports
+
+RBAC
+
+Branding
+
+Homepage content
+
+Support tickets
+
+Announcements
+
+Feedback
+
+Bug reports
+
+Roadmap management
+
+
+Do NOT include:
+
+- Backend infrastructure controls
+- Server management
+- Database controls
+
+
+==================================================
+PREMIUM SAAS EXPERIENCE
+==================================================
+
+Implement:
+
+
+Navigation:
+
+- Command palette
+- Global search
+- Keyboard shortcuts
+
+
+Communication:
+
+- Notifications
+- Inbox
+
+
+Product:
+
+- Documentation
+- Changelog
+- Roadmap
+- Status page
+- Help center
+
+
+UX:
+
+- Accessibility
+- Offline states
+- Loading skeletons
+- Empty states
+- Error states
+- Success states
+
+
+Engagement:
+
+- Gamification
+- Achievements
+- Streaks
+- Leaderboards
+
+
+Components:
+
+Create reusable:
+
+- Modal system
+- Drawer system
+- Confirmation dialogs
+- Toast notifications
+
+
+Animations:
+
+Use:
+
+- Smooth transitions
+- Micro interactions
+- Premium motion design
+
+
+==================================================
+TECH STACK
+==================================================
+
+
+Frontend:
+
+- React 19
+- TypeScript
+- React Router
+- Tailwind CSS
+- shadcn/ui
+- Radix UI
+- Framer Motion
+- Lucide Icons
+- Zustand
+- TanStack Query
+- React Hook Form
+- Zod
+- Recharts
+
+
+Important:
+
+DO NOT USE VITE.
+
+
+Structure frontend professionally without Vite.
+
+
+--------------------------------------------------
+
+
+Backend:
+
+- Node.js
+- Express
+- TypeScript
+
+
+Database:
+
+- PostgreSQL
+- Prisma ORM
+
+
+Infrastructure:
+
+Docker based architecture.
+
+
+Create separate containers:
+
+1. Frontend
+
+2. Backend
+
+3. PostgreSQL Database
+
+
+Use:
+
+- Docker Compose
+- Prisma migrations
+- Prisma seed
+
+
+==================================================
+PROJECT STRUCTURE
+==================================================
+
+Create scalable professional monorepo.
+
+
+Example:
+
+flowCTRL/
+
+├── apps/
+
+│   ├── frontend/
+
+│   └── backend/
+
+
+├── packages/
+
+│   ├── ui/
+
+│   ├── config/
+
+│   └── types/
+
+
+├── docker-compose.yml
+
+├── README.md
+
+
+==================================================
+FINAL QUALITY EXPECTATION
+==================================================
+
+The final product must look and feel like:
+
+- A funded startup SaaS
+- A YC-level product
+- Enterprise-ready platform
+
+
+Do not create:
+
+- Empty pages
+- Placeholder layouts
+- Generic dashboards
+- College project UI
+
+
+Use realistic:
+
+- Data
+- Profiles
+- Companies
+- Careers
+- Roadmaps
+- Testimonials
+- Jobs
+- Mentors
+
+
+Every unfinished feature must open:
+
+Premium Coming Soon experience.
+
+
+Build flowCTRL:
+
+"The operating system for career growth."

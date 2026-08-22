@@ -1,0 +1,12 @@
+[
+  {
+    "id": "internship_001",
+    "companyId": "company_001",
+    "title": "Software Engineering Intern",
+    "description": "Assist in building frontend components.",
+    "location": "Remote",
+    "startDate": "2024-06-01",
+    "endDate": "2024-08-31",
+    "createdAt": "2024-04-15T10:00:00Z"
+  }
+]

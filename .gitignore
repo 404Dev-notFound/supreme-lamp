@@ -1,0 +1,110 @@
+# Dependencies
+node_modules/
+**/node_modules/
+.pnp
+.pnp.js
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# Next.js / Build Outputs
+.next/
+**/.next/
+out/
+**/out/
+build/
+**/build/
+dist/
+**/dist/
+*.tsbuildinfo
+next-env.d.ts
+
+# Turborepo
+.turbo/
+**/.turbo/
+
+# Environment Variables & Secrets
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+!.env-example
+!**/.env.example
+!**/.env-example
+*.pem
+*.key
+*.cert
+*.crt
+*.p12
+*.pfx
+credentials.json
+
+# Logs
+*.log
+**/*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+lerna-debug.log*
+logs/
+**/logs/
+
+# Testing & Coverage
+coverage/
+**/coverage/
+.nyc_output/
+.pytest_cache/
+**/.pytest_cache/
+.mypy_cache/
+**/.mypy_cache/
+
+# Python & Virtual Environments
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+**/.venv/
+venv/
+**/venv/
+env/
+**/env/
+*.egg-info/
+
+# Databases & Prisma Generated Client
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+**/src/generated/prisma/
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# JobRadar specific runtime / large caches
+JobRadar/backend/data/*.db
+JobRadar/backend/data/*.db-shm
+JobRadar/backend/data/*.db-wal
+JobRadar/backend/data/*.bak
+JobRadar/backend/data/*.bak.*
+JobRadar/backend/data/browser_sessions/
+JobRadar/backend/data/validation_reports/
+JobRadar/backend/data/_secrets/
+JobRadar/backend/data/intel_cache/
+JobRadar/backend/data/_intel_cache/
+JobRadar/backend/data/_score_cache/
+JobRadar/backend/data/narrative_cache/
+JobRadar/backend/scripts/_out/
+JobRadar/docs/_private/
+JobRadar/backend/data/_private/

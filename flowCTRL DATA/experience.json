@@ -1,0 +1,20 @@
+[
+  {
+    "id": "experience_001",
+    "userId": "user_001",
+    "company": "TechNova",
+    "title": "Frontend Engineer",
+    "startDate": "2022-06-01",
+    "endDate": "2024-05-31",
+    "description": "Built and maintained UI components using React and TypeScript."
+  },
+  {
+    "id": "experience_002",
+    "userId": "user_002",
+    "company": "HealthBridge",
+    "title": "Data Analyst",
+    "startDate": "2021-03-01",
+    "endDate": "2023-12-31",
+    "description": "Performed ETL and statistical analysis on healthcare datasets."
+  }
+]

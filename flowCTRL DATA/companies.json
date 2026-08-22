@@ -1,0 +1,18 @@
+[
+  {
+    "id": "company_001",
+    "name": "TechNova",
+    "industryId": "industry_001",
+    "location": "San Francisco, CA",
+    "website": "https://technova.example.com",
+    "createdAt": "2024-01-05T10:00:00Z"
+  },
+  {
+    "id": "company_002",
+    "name": "HealthBridge",
+    "industryId": "industry_002",
+    "location": "Boston, MA",
+    "website": "https://healthbridge.example.com",
+    "createdAt": "2024-01-07T12:30:00Z"
+  }
+]

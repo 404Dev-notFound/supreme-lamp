@@ -1,0 +1,402 @@
+[
+  {
+    "id": "skill_gap_001",
+    "userId": "user_001",
+    "skillId": "skill_html_css",
+    "currentLevel": 3,
+    "desiredLevel": 5,
+    "createdAt": "2024-01-20T11:00:00Z"
+  },
+  {
+    "id": "skill_gap_002",
+    "userId": "user_001",
+    "skillId": "skill_javascript",
+    "currentLevel": 2,
+    "desiredLevel": 5,
+    "createdAt": "2024-01-20T11:05:00Z"
+  },
+  {
+    "id": "skill_gap_003",
+    "userId": "user_001",
+    "skillId": "skill_react",
+    "currentLevel": 2,
+    "desiredLevel": 5,
+    "createdAt": "2024-01-20T11:10:00Z"
+  },
+  {
+    "id": "skill_gap_004",
+    "userId": "user_001",
+    "skillId": "skill_nodejs",
+    "currentLevel": 1,
+    "desiredLevel": 5,
+    "createdAt": "2024-01-20T11:15:00Z"
+  },
+  {
+    "id": "skill_gap_005",
+    "userId": "user_001",
+    "skillId": "skill_product_thinking",
+    "currentLevel": 2,
+    "desiredLevel": 4,
+    "createdAt": "2024-01-20T11:20:00Z"
+  },
+  {
+    "id": "skill_gap_006",
+    "userId": "user_001",
+    "skillId": "skill_cpp",
+    "currentLevel": 2,
+    "desiredLevel": 5,
+    "createdAt": "2024-01-20T11:25:00Z"
+  },
+  {
+    "id": "skill_gap_007",
+    "userId": "user_001",
+    "skillId": "skill_python",
+    "currentLevel": 3,
+    "desiredLevel": 5,
+    "createdAt": "2024-01-20T11:30:00Z"
+  },
+  {
+    "id": "skill_gap_008",
+    "userId": "user_001",
+    "skillId": "skill_algorithms",
+    "currentLevel": 2,
+    "desiredLevel": 5,
+    "createdAt": "2024-01-20T11:35:00Z"
+  },
+  {
+    "id": "skill_gap_009",
+    "userId": "user_001",
+    "skillId": "skill_research_methods",
+    "currentLevel": 1,
+    "desiredLevel": 4,
+    "createdAt": "2024-01-20T11:40:00Z"
+  },
+  {
+    "id": "skill_gap_010",
+    "userId": "user_001",
+    "skillId": "skill_publication",
+    "currentLevel": 1,
+    "desiredLevel": 3,
+    "createdAt": "2024-01-20T11:45:00Z"
+  },
+  {
+    "id": "skill_gap_011",
+    "userId": "user_001",
+    "skillId": "skill_dsa",
+    "currentLevel": 2,
+    "desiredLevel": 5,
+    "createdAt": "2024-01-20T11:50:00Z"
+  },
+  {
+    "id": "skill_gap_012",
+    "userId": "user_001",
+    "skillId": "skill_system_design",
+    "currentLevel": 1,
+    "desiredLevel": 5,
+    "createdAt": "2024-01-20T11:55:00Z"
+  },
+  {
+    "id": "skill_gap_013",
+    "userId": "user_001",
+    "skillId": "skill_backend",
+    "currentLevel": 2,
+    "desiredLevel": 5,
+    "createdAt": "2024-01-20T12:00:00Z"
+  },
+  {
+    "id": "skill_gap_014",
+    "userId": "user_001",
+    "skillId": "skill_sql",
+    "currentLevel": 3,
+    "desiredLevel": 5,
+    "createdAt": "2024-01-20T12:05:00Z"
+  },
+  {
+    "id": "skill_gap_015",
+    "userId": "user_001",
+    "skillId": "skill_git",
+    "currentLevel": 4,
+    "desiredLevel": 5,
+    "createdAt": "2024-01-20T12:10:00Z"
+  },
+  {
+    "id": "skill_gap_016",
+    "userId": "user_001",
+    "skillId": "skill_java",
+    "currentLevel": 2,
+    "desiredLevel": 5,
+    "createdAt": "2024-01-20T12:15:00Z"
+  },
+  {
+    "id": "skill_gap_017",
+    "userId": "user_001",
+    "skillId": "skill_cloud_basics",
+    "currentLevel": 1,
+    "desiredLevel": 4,
+    "createdAt": "2024-01-20T12:20:00Z"
+  },
+  {
+    "id": "skill_gap_018",
+    "userId": "user_001",
+    "skillId": "skill_api_development",
+    "currentLevel": 2,
+    "desiredLevel": 5,
+    "createdAt": "2024-01-20T12:25:00Z"
+  },
+  {
+    "id": "skill_gap_019",
+    "userId": "user_001",
+    "skillId": "skill_client_communication",
+    "currentLevel": 2,
+    "desiredLevel": 4,
+    "createdAt": "2024-01-20T12:30:00Z"
+  },
+  {
+    "id": "skill_gap_020",
+    "userId": "user_001",
+    "skillId": "skill_distributed_systems",
+    "currentLevel": 1,
+    "desiredLevel": 5,
+    "createdAt": "2024-01-20T12:35:00Z"
+  },
+  {
+    "id": "skill_gap_021",
+    "userId": "user_001",
+    "skillId": "skill_linux",
+    "currentLevel": 2,
+    "desiredLevel": 4,
+    "createdAt": "2024-01-20T12:40:00Z"
+  },
+  {
+    "id": "skill_gap_022",
+    "userId": "user_001",
+    "skillId": "skill_problem_solving",
+    "currentLevel": 3,
+    "desiredLevel": 5,
+    "createdAt": "2024-01-20T12:45:00Z"
+  },
+  {
+    "id": "skill_gap_023",
+    "userId": "user_001",
+    "skillId": "skill_business_analysis",
+    "currentLevel": 1,
+    "desiredLevel": 4,
+    "createdAt": "2024-01-20T12:50:00Z"
+  },
+  {
+    "id": "skill_gap_024",
+    "userId": "user_001",
+    "skillId": "skill_excel",
+    "currentLevel": 3,
+    "desiredLevel": 5,
+    "createdAt": "2024-01-20T12:55:00Z"
+  },
+  {
+    "id": "skill_gap_025",
+    "userId": "user_001",
+    "skillId": "skill_powerbi",
+    "currentLevel": 2,
+    "desiredLevel": 4,
+    "createdAt": "2024-01-20T13:00:00Z"
+  },
+  {
+    "id": "skill_gap_026",
+    "userId": "user_001",
+    "skillId": "skill_consulting",
+    "currentLevel": 1,
+    "desiredLevel": 4,
+    "createdAt": "2024-01-20T13:05:00Z"
+  },
+  {
+    "id": "skill_gap_027",
+    "userId": "user_001",
+    "skillId": "skill_presentation",
+    "currentLevel": 2,
+    "desiredLevel": 4,
+    "createdAt": "2024-01-20T13:10:00Z"
+  },
+  {
+    "id": "skill_gap_028",
+    "userId": "user_001",
+    "skillId": "skill_finance_basics",
+    "currentLevel": 1,
+    "desiredLevel": 4,
+    "createdAt": "2024-01-20T13:15:00Z"
+  },
+  {
+    "id": "skill_gap_029",
+    "userId": "user_001",
+    "skillId": "skill_security",
+    "currentLevel": 2,
+    "desiredLevel": 5,
+    "createdAt": "2024-01-20T13:20:00Z"
+  },
+  {
+    "id": "skill_gap_030",
+    "userId": "user_001",
+    "skillId": "skill_microservices",
+    "currentLevel": 1,
+    "desiredLevel": 5,
+    "createdAt": "2024-01-20T13:25:00Z"
+  },
+  {
+    "id": "skill_gap_031",
+    "userId": "user_001",
+    "skillId": "skill_data_analysis",
+    "currentLevel": 2,
+    "desiredLevel": 5,
+    "createdAt": "2024-01-20T13:30:00Z"
+  },
+  {
+    "id": "skill_gap_032",
+    "userId": "user_001",
+    "skillId": "skill_business_strategy",
+    "currentLevel": 1,
+    "desiredLevel": 4,
+    "createdAt": "2024-01-20T13:35:00Z"
+  },
+  {
+    "id": "skill_gap_033",
+    "userId": "user_001",
+    "skillId": "skill_stakeholder_management",
+    "currentLevel": 2,
+    "desiredLevel": 4,
+    "createdAt": "2024-01-20T13:40:00Z"
+  },
+  {
+    "id": "skill_gap_034",
+    "userId": "user_001",
+    "skillId": "skill_c",
+    "currentLevel": 3,
+    "desiredLevel": 5,
+    "createdAt": "2024-01-20T13:45:00Z"
+  },
+  {
+    "id": "skill_gap_035",
+    "userId": "user_001",
+    "skillId": "skill_operating_systems",
+    "currentLevel": 2,
+    "desiredLevel": 5,
+    "createdAt": "2024-01-20T13:50:00Z"
+  },
+  {
+    "id": "skill_gap_036",
+    "userId": "user_001",
+    "skillId": "skill_networking",
+    "currentLevel": 2,
+    "desiredLevel": 5,
+    "createdAt": "2024-01-20T13:55:00Z"
+  },
+  {
+    "id": "skill_gap_037",
+    "userId": "user_001",
+    "skillId": "skill_database",
+    "currentLevel": 3,
+    "desiredLevel": 5,
+    "createdAt": "2024-01-20T14:00:00Z"
+  },
+  {
+    "id": "skill_gap_038",
+    "userId": "user_001",
+    "skillId": "skill_system_programming",
+    "currentLevel": 1,
+    "desiredLevel": 4,
+    "createdAt": "2024-01-20T14:05:00Z"
+  },
+  {
+    "id": "skill_gap_039",
+    "userId": "user_001",
+    "skillId": "skill_embedded_systems",
+    "currentLevel": 1,
+    "desiredLevel": 5,
+    "createdAt": "2024-01-20T14:10:00Z"
+  },
+  {
+    "id": "skill_gap_040",
+    "userId": "user_001",
+    "skillId": "skill_real_time_os",
+    "currentLevel": 1,
+    "desiredLevel": 4,
+    "createdAt": "2024-01-20T14:15:00Z"
+  },
+  {
+    "id": "skill_gap_041",
+    "userId": "user_001",
+    "skillId": "skill_control_systems",
+    "currentLevel": 1,
+    "desiredLevel": 4,
+    "createdAt": "2024-01-20T14:20:00Z"
+  },
+  {
+    "id": "skill_gap_042",
+    "userId": "user_001",
+    "skillId": "skill_cad",
+    "currentLevel": 1,
+    "desiredLevel": 4,
+    "createdAt": "2024-01-20T14:25:00Z"
+  },
+  {
+    "id": "skill_gap_043",
+    "userId": "user_001",
+    "skillId": "skill_simulation",
+    "currentLevel": 1,
+    "desiredLevel": 4,
+    "createdAt": "2024-01-20T14:30:00Z"
+  },
+  {
+    "id": "skill_gap_044",
+    "userId": "user_001",
+    "skillId": "skill_iot",
+    "currentLevel": 2,
+    "desiredLevel": 4,
+    "createdAt": "2024-01-20T14:35:00Z"
+  },
+  {
+    "id": "skill_gap_045",
+    "userId": "user_001",
+    "skillId": "skill_automation",
+    "currentLevel": 2,
+    "desiredLevel": 5,
+    "createdAt": "2024-01-20T14:40:00Z"
+  },
+  {
+    "id": "skill_gap_046",
+    "userId": "user_001",
+    "skillId": "skill_digital_electronics",
+    "currentLevel": 2,
+    "desiredLevel": 5,
+    "createdAt": "2024-01-20T14:45:00Z"
+  },
+  {
+    "id": "skill_gap_047",
+    "userId": "user_001",
+    "skillId": "skill_verilog",
+    "currentLevel": 1,
+    "desiredLevel": 5,
+    "createdAt": "2024-01-20T14:50:00Z"
+  },
+  {
+    "id": "skill_gap_048",
+    "userId": "user_001",
+    "skillId": "skill_vlsi",
+    "currentLevel": 1,
+    "desiredLevel": 5,
+    "createdAt": "2024-01-20T14:55:00Z"
+  },
+  {
+    "id": "skill_gap_049",
+    "userId": "user_001",
+    "skillId": "skill_fpga",
+    "currentLevel": 1,
+    "desiredLevel": 4,
+    "createdAt": "2024-01-20T15:00:00Z"
+  },
+  {
+    "id": "skill_gap_050",
+    "userId": "user_001",
+    "skillId": "skill_chip_design",
+    "currentLevel": 1,
+    "desiredLevel": 4,
+    "createdAt": "2024-01-20T15:05:00Z"
+  }
+]

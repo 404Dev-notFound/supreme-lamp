@@ -1,0 +1,17 @@
+[
+  {
+    "id": "cat_001",
+    "name": "Programming",
+    "description": "Core programming language and development skills"
+  },
+  {
+    "id": "cat_002",
+    "name": "Data Science",
+    "description": "Data analysis, machine learning, statistics"
+  },
+  {
+    "id": "cat_003",
+    "name": "Product Management",
+    "description": "Roadmapping, stakeholder alignment, market analysis"
+  }
+]

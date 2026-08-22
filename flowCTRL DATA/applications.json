@@ -1,0 +1,18 @@
+[
+  {
+    "id": "application_001",
+    "jobId": "job_001",
+    "userId": "user_001",
+    "coverLetter": "I am excited to contribute...",
+    "status": "PENDING",
+    "appliedAt": "2024-03-02T10:15:00Z"
+  },
+  {
+    "id": "application_002",
+    "jobId": "job_002",
+    "userId": "user_002",
+    "coverLetter": "My data analysis background...",
+    "status": "PENDING",
+    "appliedAt": "2024-03-06T14:30:00Z"
+  }
+]

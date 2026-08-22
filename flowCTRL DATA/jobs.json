@@ -1,0 +1,20 @@
+[
+  {
+    "id": "job_001",
+    "companyId": "company_001",
+    "title": "Frontend Engineer",
+    "description": "Develop and maintain UI components.",
+    "location": "Remote",
+    "salary": 95000,
+    "postedAt": "2024-03-01T09:00:00Z"
+  },
+  {
+    "id": "job_002",
+    "companyId": "company_002",
+    "title": "Data Analyst",
+    "description": "Analyze health datasets.",
+    "location": "Boston, MA",
+    "salary": 85000,
+    "postedAt": "2024-03-05T11:30:00Z"
+  }
+]

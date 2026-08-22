@@ -1,0 +1,21 @@
+What we are going to build next:
+
+1. UI/UX Design System Setup
+   - Set up shadcn/ui components (sidebar, header, buttons, inputs).
+   - Configure Tailwind CSS with the brand colors and typography (Inter & Outfit fonts).
+   - Integrate `ui-skills` for advanced design patterns and micro-animations.
+
+2. Landing Page & Authentication
+   - Build a highly aesthetic landing page outlining the Career OS features.
+   - Implement Auth.js with Google, GitHub, and Email/Password providers.
+   - Create a premium onboarding flow for new users.
+
+3. Backend Initialization
+   - Initialize the Node.js/Express backend inside `apps/backend`.
+   - Set up Prisma ORM with PostgreSQL.
+   - Design the initial database schema (Users, Skills, Roadmaps, etc.).
+
+4. Core Features
+   - Develop the 'Career Roadmap' generator.
+   - Build the 'Skills Gap Analysis' dashboard.
+   - Implement the 'Opportunities Matcher'.

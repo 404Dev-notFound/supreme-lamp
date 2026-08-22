@@ -1,0 +1,50 @@
+# Global / Workspace Dev Dependencies
+turbo
+typescript
+prettier
+@types/node
+eslint
+
+# Frontend (Next.js) Dependencies
+next
+react
+react-dom
+next-auth
+zustand
+@tanstack/react-query
+react-hook-form
+zod
+lucide-react
+recharts
+framer-motion
+clsx
+tailwind-merge
+@radix-ui/react-slot
+# ... and other Radix UI primitives as needed
+
+# Frontend Dev Dependencies
+tailwindcss
+postcss
+autoprefixer
+eslint-config-next
+@types/react
+@types/react-dom
+
+# Backend (Express) Dependencies
+express
+cors
+dotenv
+helmet
+morgan
+zod
+
+# Backend Dev Dependencies
+typescript
+ts-node-dev
+@types/express
+@types/cors
+@types/morgan
+
+# Database / ORM Dependencies
+prisma
+@prisma/client

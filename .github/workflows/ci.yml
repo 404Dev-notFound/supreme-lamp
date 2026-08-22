@@ -1,0 +1,61 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build-test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./apps/backend
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Lint and format check
+        run: |
+          npm run lint
+          npm run prettier:check
+
+      - name: Type check
+        run: npm run build
+
+      - name: Unit tests
+        run: npm test -- --ci --coverage
+
+      - name: Integration tests
+        run: npm run test:integration
+
+      - name: Security audit
+        run: npx audit-ci --config .auditci.yml
+
+      - name: Build Docker image
+        run: |
+          docker build -t flowctrl-backend:latest -f apps/backend/Dockerfile .
+          docker build -t flowctrl-frontend:latest -f apps/frontend/Dockerfile .
+
+      - name: Push Docker image (optional)
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        env:
+          REGISTRY: ${{ secrets.REGISTRY_URL }}
+          USERNAME: ${{ secrets.REGISTRY_USER }}
+          PASSWORD: ${{ secrets.REGISTRY_PASS }}
+        run: |
+          echo "$PASSWORD" | docker login $REGISTRY -u $USERNAME --password-stdin
+          docker tag flowctrl-backend:latest $REGISTRY/flowctrl-backend:latest
+          docker push $REGISTRY/flowctrl-backend:latest
+          docker tag flowctrl-frontend:latest $REGISTRY/flowctrl-frontend:latest
+          docker push $REGISTRY/flowctrl-frontend:latest

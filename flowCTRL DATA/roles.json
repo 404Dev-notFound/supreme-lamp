@@ -1,0 +1,14 @@
+[
+  {
+    "id": "role_001",
+    "name": "Admin",
+    "description": "Full access to all resources",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "role_002",
+    "name": "User",
+    "description": "Standard user permissions",
+    "createdAt": "2024-01-01T00:00:00Z"
+  }
+]

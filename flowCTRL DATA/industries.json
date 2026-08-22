@@ -1,0 +1,14 @@
+[
+  {
+    "id": "industry_001",
+    "name": "Information Technology",
+    "description": "Technology and software services",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "industry_002",
+    "name": "Healthcare",
+    "description": "Medical services and biotech",
+    "createdAt": "2024-01-01T00:00:00Z"
+  }
+]
