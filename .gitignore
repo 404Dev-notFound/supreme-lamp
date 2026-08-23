@@ -89,6 +89,8 @@ env/
 # OS & Editor
 .DS_Store
 Thumbs.db
+Screenshot*.png
+*.png.bak
 .idea/
 .vscode/*
 !.vscode/settings.json

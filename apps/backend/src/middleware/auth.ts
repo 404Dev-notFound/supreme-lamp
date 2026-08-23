@@ -9,7 +9,16 @@ export const requireAuth = async (
   next: NextFunction,
 ) => {
   try {
-    const token = await getToken({ req, secret });
+    let token = await getToken({ req, secret });
+
+    // Fallback: check Authorization header if raw Bearer token was passed
+    if (!token && req.headers.authorization?.startsWith("Bearer ")) {
+      const rawToken = req.headers.authorization.split(" ")[1];
+      try {
+        const jwt = require("jsonwebtoken");
+        token = jwt.verify(rawToken, secret);
+      } catch {}
+    }
 
     if (!token) {
       return res

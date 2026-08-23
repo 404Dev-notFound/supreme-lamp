@@ -18,6 +18,8 @@ const outfit = Outfit({
   subsets: ["latin"],
 });
 
+import AuthProvider from "@/components/AuthProvider";
+
 export const metadata: Metadata = {
   title: "flowCTRL | Career Operating System",
   description:
@@ -47,10 +49,12 @@ export default function RootLayout({
             loading="lazy"
           />
         </div>
-        {children}
-        <Suspense fallback={null}>
-          <ModalManager />
-        </Suspense>
+        <AuthProvider>
+          {children}
+          <Suspense fallback={null}>
+            <ModalManager />
+          </Suspense>
+        </AuthProvider>
       </body>
     </html>
   );

@@ -1,9 +1,49 @@
+export type UserRole =
+  | "GUEST"
+  | "USER"
+  | "MENTOR"
+  | "RECRUITER"
+  | "COMPANY_REP"
+  | "ADMIN"
+  | "SUPER_ADMIN";
+
 export interface User {
   id: string;
   name?: string | null;
   email?: string | null;
   image?: string | null;
-  role?: string | null;
+  role?: UserRole | string;
+  headline?: string | null;
+  bio?: string | null;
+  location?: string | null;
+  createdAt?: string | Date;
+  updatedAt?: string | Date;
+}
+
+export interface UserSkill {
+  id: string;
+  userId: string;
+  skillId: string;
+  proficiency: number; // 1 to 5
+  skill?: Skill;
+}
+
+export interface UserProfileResponse {
+  id: string;
+  name: string | null;
+  email: string | null;
+  image: string | null;
+  role: UserRole | string;
+  headline: string | null;
+  bio: string | null;
+  location: string | null;
+  createdAt: string | Date;
+  skills: Array<{
+    id: string;
+    name: string;
+    category: string;
+    proficiency: number;
+  }>;
 }
 
 export interface Skill {

@@ -45,24 +45,24 @@ export default function GlassModal({
               leaveFrom="opacity-100 scale-100"
               leaveTo="opacity-0 scale-95"
             >
-              <Dialog.Panel className="w-full max-w-lg transform overflow-hidden rounded-2xl bg-white dark:bg-zinc-900 bg-opacity-10 backdrop-blur-xl border border-white/20 shadow-xl transition-all">
-                <div className="flex items-center justify-between p-4 border-b border-white/10">
+              <Dialog.Panel className="w-full max-w-lg transform overflow-hidden rounded-3xl bg-zinc-950/85 backdrop-blur-2xl border border-white/15 shadow-2xl shadow-black/80 transition-all text-left">
+                <div className="flex items-center justify-between px-6 py-4 border-b border-white/10">
                   <Dialog.Title
                     as="h3"
-                    className="text-lg font-medium text-gray-900 dark:text-gray-100"
+                    className="text-base font-bold text-zinc-100 tracking-tight"
                   >
                     {title ?? ""}
                   </Dialog.Title>
                   <button
                     type="button"
-                    className="text-gray-400 hover:text-gray-600 dark:hover:text-gray-300"
+                    className="p-1 rounded-full text-zinc-400 hover:text-white hover:bg-white/10 transition-colors cursor-pointer"
                     onClick={onClose}
                     aria-label="Close"
                   >
-                    <X className="h-5 w-5" />
+                    <X className="h-4 w-4" />
                   </button>
                 </div>
-                <div className="p-4">{children}</div>
+                <div className="p-6">{children}</div>
               </Dialog.Panel>
             </Transition.Child>
           </div>

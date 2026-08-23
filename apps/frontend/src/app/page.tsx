@@ -52,19 +52,7 @@ export default function LandingPage() {
             Pricing
           </Link>
         </div>
-        <div className="flex items-center gap-4">
-          <Link
-            href="?modal=signin"
-            className="text-sm font-medium text-zinc-300 hover:text-white transition-colors"
-          >
-            Log in
-          </Link>
-          <Link
-            href="?modal=signup"
-            className="text-sm font-medium bg-white text-black px-4 py-2 rounded-full hover:bg-zinc-200 transition-colors"
-          >
-            Get Started
-          </Link>
+        <div className="flex items-center gap-3">
           <NavProfile />
         </div>
       </nav>
