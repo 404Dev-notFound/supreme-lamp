@@ -19,11 +19,7 @@ interface SkillItem {
   proficiency: number;
 }
 
-export default function EditProfileForm({
-  onClose,
-}: {
-  onClose?: () => void;
-}) {
+export default function EditProfileForm({ onClose }: { onClose?: () => void }) {
   const [name, setName] = useState("");
   const [headline, setHeadline] = useState("");
   const [bio, setBio] = useState("");

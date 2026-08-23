@@ -2,13 +2,7 @@
 
 import { useRouter, usePathname, useSearchParams } from "next/navigation";
 import { useSession, signOut } from "next-auth/react";
-import {
-  LogIn,
-  LogOut,
-  Sparkles,
-  ChevronDown,
-  UserCheck,
-} from "lucide-react";
+import { LogIn, LogOut, Sparkles, ChevronDown, UserCheck } from "lucide-react";
 import { Suspense, useState, useRef, useEffect } from "react";
 
 function NavProfileContent() {

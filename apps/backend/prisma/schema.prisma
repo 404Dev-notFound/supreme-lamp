@@ -16,6 +16,60 @@ enum Role {
   SUPER_ADMIN
 }
 
+enum WorkMode {
+  REMOTE
+  HYBRID
+  ONSITE
+}
+
+enum ApplicationStatus {
+  APPLIED
+  SCREENING
+  INTERVIEWING
+  OFFERED
+  REJECTED
+  WITHDRAWN
+}
+
+// ==========================================
+// 1. IDENTITY & AUTHENTICATION MODELS
+// ==========================================
+
+model User {
+  id            String    @id @default(cuid())
+  name          String?
+  email         String?   @unique
+  emailVerified DateTime?
+  image         String?
+  password      String?
+  role          Role      @default(USER)
+  
+  // Profile Attributes
+  headline      String?
+  bio           String?   @db.Text
+  location      String?
+  
+  createdAt     DateTime       @default(now())
+  updatedAt     DateTime       @updatedAt
+  
+  // NextAuth & Identity Relations
+  accounts      Account[]
+  sessions      Session[]
+  securityLogs  SecurityLog[]
+
+  // User-Owned Data Relations
+  userSkills      UserSkill[]
+  roadmaps        Roadmap[]
+  mentorProfile   MentorProfile?
+  resumes         Resume[]
+  resumeAnalyses  ResumeAnalysis[]
+  savedJobs       SavedJob[]
+  jobApplications JobApplication[]
+
+  @@index([email])
+  @@index([role])
+}
+
 model Account {
   id                String  @id @default(cuid())
   userId            String
@@ -33,6 +87,7 @@ model Account {
   user User @relation(fields: [userId], references: [id], onDelete: Cascade)
 
   @@unique([provider, providerAccountId])
+  @@index([userId])
 }
 
 model Session {
@@ -41,31 +96,8 @@ model Session {
   userId       String
   expires      DateTime
   user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
-}
 
-model User {
-  id            String    @id @default(cuid())
-  name          String?
-  email         String?   @unique
-  emailVerified DateTime?
-  image         String?
-  password      String?
-  role          Role      @default(USER)
-  
-  // Profile Information
-  headline      String?
-  bio           String?   @db.Text
-  location      String?
-  
-  createdAt     DateTime       @default(now())
-  updatedAt     DateTime       @updatedAt
-  
-  accounts      Account[]
-  sessions      Session[]
-  userSkills    UserSkill[]
-  roadmaps      Roadmap[]
-  mentorProfile MentorProfile?
-  securityLogs  SecurityLog[]
+  @@index([userId])
 }
 
 model VerificationToken {
@@ -74,63 +106,6 @@ model VerificationToken {
   expires    DateTime
 
   @@unique([identifier, token])
-}
-
-model Skill {
-  id          String      @id @default(cuid())
-  name        String      @unique
-  category    String
-  userSkills  UserSkill[]
-}
-
-model UserSkill {
-  id          String   @id @default(cuid())
-  userId      String
-  skillId     String
-  proficiency Int      // 1 to 5 scale
-  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
-  skill       Skill    @relation(fields: [skillId], references: [id], onDelete: Cascade)
-
-  @@unique([userId, skillId])
-}
-
-model Roadmap {
-  id          String         @id @default(cuid())
-  title       String
-  description String?        @db.Text
-  userId      String
-  user        User           @relation(fields: [userId], references: [id], onDelete: Cascade)
-  phases      RoadmapPhase[]
-  createdAt   DateTime       @default(now())
-  updatedAt   DateTime       @updatedAt
-}
-
-model RoadmapPhase {
-  id          String        @id @default(cuid())
-  title       String
-  order       Int
-  roadmapId   String
-  roadmap     Roadmap       @relation(fields: [roadmapId], references: [id], onDelete: Cascade)
-  tasks       RoadmapTask[]
-}
-
-model RoadmapTask {
-  id             String       @id @default(cuid())
-  title          String
-  description    String?      @db.Text
-  completed      Boolean      @default(false)
-  roadmapPhaseId String
-  phase          RoadmapPhase @relation(fields: [roadmapPhaseId], references: [id], onDelete: Cascade)
-}
-
-model MentorProfile {
-  id             String  @id @default(cuid())
-  userId         String  @unique
-  user           User    @relation(fields: [userId], references: [id], onDelete: Cascade)
-  expertise      String
-  yearsOfExp     Int
-  hourlyRate     Float?
-  isAvailable    Boolean @default(true)
 }
 
 model SecurityLog {
@@ -142,4 +117,271 @@ model SecurityLog {
   createdAt DateTime @default(now())
 
   user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@index([eventType])
+  @@index([createdAt])
+}
+
+// ==========================================
+// 2. SKILLS & CATEGORIES (SHARED CATALOG & USER RELATIONS)
+// ==========================================
+
+model Category {
+  id          String   @id @default(cuid())
+  name        String   @unique
+  slug        String   @unique
+  description String?  @db.Text
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  skills Skill[]
+}
+
+model CareerPath {
+  id          String   @id @default(cuid())
+  title       String   @unique
+  slug        String   @unique
+  description String?  @db.Text
+  level       String   @default("Mid-Level") // Beginner, Mid-Level, Senior, Lead
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model Skill {
+  id          String      @id @default(cuid())
+  name        String      @unique
+  category    String
+  categoryId  String?
+  description String?     @db.Text
+  createdAt   DateTime    @default(now())
+  updatedAt   DateTime    @updatedAt
+
+  categoryRef Category?   @relation(fields: [categoryId], references: [id], onDelete: SetNull)
+  userSkills  UserSkill[]
+  jobSkills   JobSkill[]
+
+  @@index([category])
+  @@index([categoryId])
+}
+
+model UserSkill {
+  id          String   @id @default(cuid())
+  userId      String
+  skillId     String
+  proficiency Int      @default(3) // 1 to 5 scale
+  isVerified  Boolean  @default(false)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  user  User  @relation(fields: [userId], references: [id], onDelete: Cascade)
+  skill Skill @relation(fields: [skillId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, skillId])
+  @@index([userId])
+  @@index([skillId])
+}
+
+// ==========================================
+// 3. ROADMAPS & LEARNING TRACKS
+// ==========================================
+
+model Roadmap {
+  id          String         @id @default(cuid())
+  title       String
+  description String?        @db.Text
+  category    String         @default("role") // role, skill, best-practice
+  slug        String?
+  isPublic    Boolean        @default(false)
+  userId      String
+  createdAt   DateTime       @default(now())
+  updatedAt   DateTime       @updatedAt
+
+  user   User           @relation(fields: [userId], references: [id], onDelete: Cascade)
+  phases RoadmapPhase[]
+
+  @@index([userId])
+  @@index([isPublic])
+}
+
+model RoadmapPhase {
+  id          String        @id @default(cuid())
+  title       String
+  order       Int
+  roadmapId   String
+  createdAt   DateTime      @default(now())
+  updatedAt   DateTime      @updatedAt
+
+  roadmap Roadmap       @relation(fields: [roadmapId], references: [id], onDelete: Cascade)
+  tasks   RoadmapTask[]
+
+  @@index([roadmapId])
+}
+
+model RoadmapTask {
+  id             String       @id @default(cuid())
+  title          String
+  description    String?      @db.Text
+  completed      Boolean      @default(false)
+  order          Int          @default(0)
+  roadmapPhaseId String
+  createdAt      DateTime     @default(now())
+  updatedAt      DateTime     @updatedAt
+
+  phase RoadmapPhase @relation(fields: [roadmapPhaseId], references: [id], onDelete: Cascade)
+
+  @@index([roadmapPhaseId])
+}
+
+// ==========================================
+// 4. RESUMES & ATS ANALYSIS
+// ==========================================
+
+model Resume {
+  id        String   @id @default(cuid())
+  userId    String?
+  fileName  String
+  fileSize  Int
+  fileUrl   String?
+  mimeType  String   @default("application/pdf")
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  user            User?            @relation(fields: [userId], references: [id], onDelete: Cascade)
+  analyses        ResumeAnalysis[]
+  jobApplications JobApplication[]
+
+  @@index([userId])
+}
+
+model ResumeAnalysis {
+  id              String   @id @default(cuid())
+  resumeId        String?
+  userId          String?
+  overallScore    Int
+  verdict         String
+  verdictReason   String?  @db.Text
+  atsScore        Int?
+  atsIssues       Json?
+  topFixes        Json?
+  strengths       Json?
+  flaws           Json?
+  sectionFeedback Json?
+  createdAt       DateTime @default(now())
+
+  user   User?   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  resume Resume? @relation(fields: [resumeId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@index([resumeId])
+  @@index([createdAt])
+}
+
+// ==========================================
+// 5. COMPANIES, JOBS & APPLICATIONS
+// ==========================================
+
+model Company {
+  id          String   @id @default(cuid())
+  name        String   @unique
+  logo        String?
+  website     String?
+  location    String?
+  description String?  @db.Text
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  jobs Job[]
+}
+
+model Job {
+  id          String    @id @default(cuid())
+  title       String
+  companyId   String
+  location    String
+  workMode    WorkMode  @default(REMOTE)
+  salaryMin   Int?
+  salaryMax   Int?
+  currency    String    @default("USD")
+  description String?   @db.Text
+  applyUrl    String?
+  isFeatured  Boolean   @default(false)
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+
+  company      Company          @relation(fields: [companyId], references: [id], onDelete: Cascade)
+  jobSkills    JobSkill[]
+  savedJobs    SavedJob[]
+  applications JobApplication[]
+
+  @@index([companyId])
+  @@index([workMode])
+  @@index([location])
+}
+
+model JobSkill {
+  id         String   @id @default(cuid())
+  jobId      String
+  skillId    String
+  isRequired Boolean  @default(true)
+  createdAt  DateTime @default(now())
+
+  job   Job   @relation(fields: [jobId], references: [id], onDelete: Cascade)
+  skill Skill @relation(fields: [skillId], references: [id], onDelete: Cascade)
+
+  @@unique([jobId, skillId])
+  @@index([jobId])
+  @@index([skillId])
+}
+
+model SavedJob {
+  id        String   @id @default(cuid())
+  userId    String
+  jobId     String
+  createdAt DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  job  Job  @relation(fields: [jobId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, jobId])
+  @@index([userId])
+  @@index([jobId])
+}
+
+model JobApplication {
+  id        String            @id @default(cuid())
+  userId    String
+  jobId     String
+  resumeId  String?
+  status    ApplicationStatus @default(APPLIED)
+  notes     String?           @db.Text
+  appliedAt DateTime          @default(now())
+  updatedAt DateTime          @updatedAt
+
+  user   User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  job    Job     @relation(fields: [jobId], references: [id], onDelete: Cascade)
+  resume Resume? @relation(fields: [resumeId], references: [id], onDelete: SetNull)
+
+  @@index([userId])
+  @@index([jobId])
+  @@index([status])
+}
+
+// ==========================================
+// 6. MENTORSHIP
+// ==========================================
+
+model MentorProfile {
+  id          String   @id @default(cuid())
+  userId      String   @unique
+  expertise   String
+  yearsOfExp  Int
+  hourlyRate  Float?
+  isAvailable Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
 }
