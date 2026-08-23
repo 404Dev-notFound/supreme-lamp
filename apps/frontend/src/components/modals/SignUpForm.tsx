@@ -3,7 +3,15 @@
 import { useState } from "react";
 import { signIn } from "next-auth/react";
 import { useRouter } from "next/navigation";
-import { User, Lock, Mail, AlertCircle, ArrowRight, Loader2, CheckCircle2 } from "lucide-react";
+import {
+  User,
+  Lock,
+  Mail,
+  AlertCircle,
+  ArrowRight,
+  Loader2,
+  CheckCircle2,
+} from "lucide-react";
 
 interface SignUpFormProps {
   onClose: () => void;
@@ -76,7 +84,9 @@ export default function SignUpForm({ onClose }: SignUpFormProps) {
         router.refresh();
       }
     } catch (err: unknown) {
-      setError(err instanceof Error ? err.message : "An unexpected error occurred.");
+      setError(
+        err instanceof Error ? err.message : "An unexpected error occurred.",
+      );
     } finally {
       setLoading(false);
     }

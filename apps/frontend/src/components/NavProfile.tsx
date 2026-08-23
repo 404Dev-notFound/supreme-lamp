@@ -2,7 +2,13 @@
 
 import { useRouter, usePathname, useSearchParams } from "next/navigation";
 import { useSession, signOut } from "next-auth/react";
-import { User, LogIn, LogOut, Sparkles, ChevronDown, UserCheck } from "lucide-react";
+import {
+  LogIn,
+  LogOut,
+  Sparkles,
+  ChevronDown,
+  UserCheck,
+} from "lucide-react";
 import { Suspense, useState, useRef, useEffect } from "react";
 
 function NavProfileContent() {
@@ -34,14 +40,13 @@ function NavProfileContent() {
   };
 
   if (status === "loading") {
-    return (
-      <div className="w-8 h-8 rounded-full bg-white/10 animate-pulse" />
-    );
+    return <div className="w-8 h-8 rounded-full bg-white/10 animate-pulse" />;
   }
 
   // Authenticated State
   if (session?.user) {
-    const displayName = session.user.name || session.user.email?.split("@")[0] || "User";
+    const displayName =
+      session.user.name || session.user.email?.split("@")[0] || "User";
     const initials = displayName
       .split(" ")
       .map((n) => n[0])
@@ -49,7 +54,7 @@ function NavProfileContent() {
       .substring(0, 2)
       .toUpperCase();
 
-    const role = (session.user as any).role || "USER";
+    const role = (session.user as { role?: string }).role || "USER";
 
     return (
       <div className="relative" ref={dropdownRef}>
@@ -61,15 +66,21 @@ function NavProfileContent() {
           <div className="w-6 h-6 rounded-full bg-primary/20 text-primary border border-primary/30 flex items-center justify-center font-bold text-[10px]">
             {initials}
           </div>
-          <span className="max-w-[100px] truncate hidden sm:inline">{displayName}</span>
+          <span className="max-w-[100px] truncate hidden sm:inline">
+            {displayName}
+          </span>
           <ChevronDown className="w-3 h-3 text-zinc-400" />
         </button>
 
         {dropdownOpen && (
           <div className="absolute right-0 mt-2 w-56 rounded-2xl bg-zinc-950/90 backdrop-blur-xl border border-white/10 shadow-2xl p-2 text-xs text-zinc-300 z-50 animate-in fade-in zoom-in-95 duration-150">
             <div className="px-3 py-2 border-b border-white/10 mb-1">
-              <p className="font-semibold text-zinc-100 truncate">{displayName}</p>
-              <p className="text-[11px] text-zinc-500 truncate">{session.user.email}</p>
+              <p className="font-semibold text-zinc-100 truncate">
+                {displayName}
+              </p>
+              <p className="text-[11px] text-zinc-500 truncate">
+                {session.user.email}
+              </p>
               <span className="inline-block mt-1 px-1.5 py-0.5 rounded text-[9px] uppercase font-bold tracking-wider bg-primary/20 text-primary border border-primary/20">
                 {role}
               </span>

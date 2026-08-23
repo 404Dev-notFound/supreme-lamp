@@ -1,9 +1,8 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { signOut, useSession } from "next-auth/react";
+import { signOut } from "next-auth/react";
 import {
-  User,
   Mail,
   MapPin,
   Briefcase,
@@ -11,7 +10,6 @@ import {
   LogOut,
   Edit3,
   Loader2,
-  Sparkles,
   Award,
 } from "lucide-react";
 
@@ -39,7 +37,6 @@ interface ProfileViewProps {
 }
 
 export default function ProfileView({ onClose }: ProfileViewProps) {
-  const { data: session } = useSession();
   const [profile, setProfile] = useState<ProfileData | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -86,7 +83,9 @@ export default function ProfileView({ onClose }: ProfileViewProps) {
   if (error || !profile) {
     return (
       <div className="py-8 text-center space-y-4">
-        <p className="text-sm text-red-400">{error || "Please sign in to view your profile."}</p>
+        <p className="text-sm text-red-400">
+          {error || "Please sign in to view your profile."}
+        </p>
         <button
           onClick={onClose}
           className="px-4 py-2 rounded-xl bg-white/10 text-xs font-medium text-zinc-300 hover:bg-white/20 transition-colors"
@@ -187,7 +186,9 @@ export default function ProfileView({ onClose }: ProfileViewProps) {
                 className="p-2.5 rounded-xl bg-white/5 border border-white/5 flex flex-col gap-1.5"
               >
                 <div className="flex items-center justify-between text-xs">
-                  <span className="font-medium text-zinc-200">{skill.name}</span>
+                  <span className="font-medium text-zinc-200">
+                    {skill.name}
+                  </span>
                   <span className="text-[10px] text-primary font-bold">
                     Level {skill.proficiency}/5
                   </span>
@@ -203,7 +204,8 @@ export default function ProfileView({ onClose }: ProfileViewProps) {
           </div>
         ) : (
           <div className="p-4 rounded-xl bg-white/5 border border-dashed border-white/10 text-center text-xs text-zinc-500">
-            No skills added yet. Click &quot;Edit Profile&quot; to configure your skill stack.
+            No skills added yet. Click &quot;Edit Profile&quot; to configure
+            your skill stack.
           </div>
         )}
       </div>

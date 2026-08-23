@@ -1,13 +1,19 @@
 "use client";
 
 import { useState } from "react";
-import { Mail, ArrowRight, ArrowLeft, Loader2, CheckCircle2 } from "lucide-react";
+import {
+  Mail,
+  ArrowRight,
+  ArrowLeft,
+  Loader2,
+  CheckCircle2,
+} from "lucide-react";
 
-interface ForgotPasswordFormProps {
-  onClose: () => void;
-}
-
-export default function ForgotPasswordForm({ onClose }: ForgotPasswordFormProps) {
+export default function ForgotPasswordForm({
+  onClose,
+}: {
+  onClose?: () => void;
+}) {
   const [email, setEmail] = useState("");
   const [loading, setLoading] = useState(false);
   const [submitted, setSubmitted] = useState(false);
@@ -40,7 +46,9 @@ export default function ForgotPasswordForm({ onClose }: ForgotPasswordFormProps)
             Check your inbox
           </h4>
           <p className="text-xs text-zinc-400 max-w-xs mx-auto">
-            If an account is associated with <span className="text-zinc-200">{email}</span>, password reset instructions have been sent.
+            If an account is associated with{" "}
+            <span className="text-zinc-200">{email}</span>, password reset
+            instructions have been sent.
           </p>
         </div>
         <button
@@ -57,7 +65,8 @@ export default function ForgotPasswordForm({ onClose }: ForgotPasswordFormProps)
   return (
     <form onSubmit={handleSubmit} className="space-y-4">
       <p className="text-xs text-zinc-400 leading-relaxed">
-        Enter the email address associated with your flowCTRL account and we will send you a link to reset your credentials.
+        Enter the email address associated with your flowCTRL account and we
+        will send you a link to reset your credentials.
       </p>
 
       <div>
@@ -80,7 +89,7 @@ export default function ForgotPasswordForm({ onClose }: ForgotPasswordFormProps)
       <div className="flex items-center justify-between pt-2">
         <button
           type="button"
-          onClick={() => switchModal("signin")}
+          onClick={() => (onClose ? onClose() : switchModal("signin"))}
           className="flex items-center gap-1 text-xs text-zinc-400 hover:text-white transition-colors"
         >
           <ArrowLeft className="w-3.5 h-3.5" /> Back

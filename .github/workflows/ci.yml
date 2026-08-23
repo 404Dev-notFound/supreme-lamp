@@ -22,12 +22,18 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Generate Prisma client
+        run: npx prisma generate --schema=apps/backend/prisma/schema.prisma
+
       - name: Lint and format check
         run: |
           npm run lint
           npm run prettier:check
 
       - name: Type check and build
+        env:
+          NEXTAUTH_SECRET: "ci-build-temporary-secret-key-32-chars-minimum"
+          DATABASE_URL: "postgresql://postgres:postgres@localhost:5432/flowctrl?schema=public"
         run: npm run build
 
       - name: Unit tests

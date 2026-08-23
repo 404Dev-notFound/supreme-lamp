@@ -17,7 +17,11 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    if (!email || typeof email !== "string" || !EMAIL_REGEX.test(email.trim())) {
+    if (
+      !email ||
+      typeof email !== "string" ||
+      !EMAIL_REGEX.test(email.trim())
+    ) {
       return NextResponse.json(
         { error: "Please provide a valid email address." },
         { status: 400 },
@@ -92,10 +96,9 @@ export async function POST(req: NextRequest) {
   } catch (error: unknown) {
     console.error("Registration error:", error);
     const errorMessage =
-      error instanceof Error ? error.message : "An error occurred while creating your account. Please try again.";
-    return NextResponse.json(
-      { error: errorMessage },
-      { status: 500 },
-    );
+      error instanceof Error
+        ? error.message
+        : "An error occurred while creating your account. Please try again.";
+    return NextResponse.json({ error: errorMessage }, { status: 500 });
   }
 }

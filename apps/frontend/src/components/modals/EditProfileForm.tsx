@@ -5,13 +5,11 @@ import {
   User,
   MapPin,
   Briefcase,
-  AlignLeft,
   Plus,
   Trash2,
   Save,
   Loader2,
   AlertCircle,
-  X,
 } from "lucide-react";
 
 interface SkillItem {
@@ -21,11 +19,11 @@ interface SkillItem {
   proficiency: number;
 }
 
-interface EditProfileFormProps {
-  onClose: () => void;
-}
-
-export default function EditProfileForm({ onClose }: EditProfileFormProps) {
+export default function EditProfileForm({
+  onClose,
+}: {
+  onClose?: () => void;
+}) {
   const [name, setName] = useState("");
   const [headline, setHeadline] = useState("");
   const [bio, setBio] = useState("");
@@ -94,7 +92,9 @@ export default function EditProfileForm({ onClose }: EditProfileFormProps) {
 
   const handleProficiencyChange = (skillName: string, level: number) => {
     setSkills(
-      skills.map((s) => (s.name === skillName ? { ...s, proficiency: level } : s)),
+      skills.map((s) =>
+        s.name === skillName ? { ...s, proficiency: level } : s,
+      ),
     );
   };
 
@@ -325,9 +325,13 @@ export default function EditProfileForm({ onClose }: EditProfileFormProps) {
         <button
           type="button"
           onClick={() => {
-            const url = new URL(window.location.href);
-            url.searchParams.set("modal", "profile");
-            window.history.replaceState(null, "", url.toString());
+            if (onClose) {
+              onClose();
+            } else {
+              const url = new URL(window.location.href);
+              url.searchParams.set("modal", "profile");
+              window.history.replaceState(null, "", url.toString());
+            }
           }}
           disabled={saving}
           className="px-4 py-2 rounded-xl bg-white/5 text-xs text-zinc-400 hover:bg-white/10 hover:text-white transition-colors cursor-pointer"

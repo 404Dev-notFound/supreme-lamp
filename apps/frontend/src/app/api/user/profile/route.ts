@@ -94,7 +94,7 @@ export async function PUT(req: NextRequest) {
     const { name, headline, bio, location, skills } = body;
 
     // Update User Profile data (strictly enforcing user ownership)
-    const updatedUser = await prisma.user.update({
+    await prisma.user.update({
       where: { id: user.id },
       data: {
         name: typeof name === "string" ? name.trim() : undefined,
