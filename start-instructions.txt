@@ -35,20 +35,20 @@ You should see both the `db` and `adminer` services with `Up` or `running` statu
 ------------------------------------------------------------------------------
 PostgreSQL Database:
 - Host / Port: localhost:5432
-- Database Name: flowCTRL
-- Database User: postgres
-- Database Password: postgrespassword9555
-- Connection URL:
-  postgresql://postgres:postgrespassword9555@localhost:5432/flowCTRL
+- Database Name: Configured in .env (POSTGRES_DB)
+- Database User: Configured in .env (POSTGRES_USER)
+- Database Password: Configured in .env (POSTGRES_PASSWORD)
+- Connection URL: Configured in .env (DATABASE_URL)
+  Format: postgresql://<POSTGRES_USER>:<POSTGRES_PASSWORD>@localhost:5432/<POSTGRES_DB>
 
 Adminer Database Management Web UI:
 - Open your browser at: http://localhost:8080
-- Login credentials (connecting within Docker network):
+- Login credentials (connecting within Docker network, using values configured in .env):
     System:   PostgreSQL
     Server:   db
-    Username: postgres
-    Password: postgrespassword9555
-    Database: flowCTRL
+    Username: <POSTGRES_USER from .env>
+    Password: <POSTGRES_PASSWORD from .env>
+    Database: <POSTGRES_DB from .env>
 
 ------------------------------------------------------------------------------
  3. Prisma Database Setup (Client & Schema Migration)

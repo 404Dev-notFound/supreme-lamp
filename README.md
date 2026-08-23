@@ -57,7 +57,7 @@ Copy the example environment configuration or configure `.env` in the root and a
 PORT=5000
 NEXT_PUBLIC_API_URL=http://localhost:5000
 # Database connection string
-DATABASE_URL=postgresql://postgres:postgres@localhost:5432/flowctrl
+DATABASE_URL=postgresql://<POSTGRES_USER>:<POSTGRES_PASSWORD>@localhost:5432/<POSTGRES_DB>
 ```
 
 ---

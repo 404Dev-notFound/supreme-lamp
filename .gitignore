@@ -27,8 +27,12 @@ next-env.d.ts
 # Environment Variables & Secrets
 .env
 .env.*
+.env.local
+.env*.local
 **/.env
 **/.env.*
+**/.env.local
+**/.env*.local
 !.env.example
 !.env-example
 !**/.env.example
