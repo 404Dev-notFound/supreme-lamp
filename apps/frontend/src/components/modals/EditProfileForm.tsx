@@ -10,6 +10,7 @@ import {
   Save,
   Loader2,
   AlertCircle,
+  Sparkles,
 } from "lucide-react";
 
 interface SkillItem {
@@ -18,6 +19,21 @@ interface SkillItem {
   category: string;
   proficiency: number;
 }
+
+const POPULAR_SKILLS = [
+  { name: "TypeScript", category: "Languages" },
+  { name: "React", category: "Frontend" },
+  { name: "Next.js", category: "Frontend" },
+  { name: "Node.js", category: "Backend" },
+  { name: "Python", category: "Languages" },
+  { name: "PostgreSQL", category: "Database" },
+  { name: "Docker", category: "DevOps" },
+  { name: "GraphQL", category: "Backend" },
+  { name: "Tailwind CSS", category: "Frontend" },
+  { name: "Redis", category: "Database" },
+  { name: "AWS", category: "DevOps" },
+  { name: "Git", category: "DevOps" },
+];
 
 export default function EditProfileForm({ onClose }: { onClose?: () => void }) {
   const [name, setName] = useState("");
@@ -56,8 +72,8 @@ export default function EditProfileForm({ onClose }: { onClose?: () => void }) {
     loadCurrentProfile();
   }, []);
 
-  const handleAddSkill = (e: React.FormEvent) => {
-    e.preventDefault();
+  const handleAddSkill = (e?: React.FormEvent) => {
+    if (e) e.preventDefault();
     if (!newSkillName.trim()) return;
 
     if (
@@ -80,6 +96,25 @@ export default function EditProfileForm({ onClose }: { onClose?: () => void }) {
 
     setNewSkillName("");
     setError(null);
+  };
+
+  const handleAddQuickSkill = (quickSkill: {
+    name: string;
+    category: string;
+  }) => {
+    if (
+      skills.some((s) => s.name.toLowerCase() === quickSkill.name.toLowerCase())
+    ) {
+      return;
+    }
+    setSkills([
+      ...skills,
+      {
+        name: quickSkill.name,
+        category: quickSkill.category,
+        proficiency: 4,
+      },
+    ]);
   };
 
   const handleRemoveSkill = (skillNameToRemove: string) => {
@@ -222,18 +257,50 @@ export default function EditProfileForm({ onClose }: { onClose?: () => void }) {
       </div>
 
       {/* Skills Manager */}
-      <div className="space-y-2 pt-2 border-t border-white/10">
-        <label className="block text-xs font-semibold text-zinc-200">
-          My Skills & Proficiency
-        </label>
+      <div className="space-y-2.5 pt-2 border-t border-white/10">
+        <div className="flex items-center justify-between">
+          <label className="block text-xs font-semibold text-zinc-200">
+            My Skills & Proficiency
+          </label>
+          <span className="text-[10px] text-zinc-500">
+            {skills.length} selected
+          </span>
+        </div>
 
-        {/* Add Skill Row */}
-        <div className="flex flex-col sm:flex-row items-center gap-2">
+        {/* Quick Suggestion Chips */}
+        <div className="flex items-center gap-1.5 flex-wrap">
+          <span className="text-[10px] text-zinc-500 flex items-center gap-1">
+            <Sparkles className="w-3 h-3 text-amber-400" /> Quick Add:
+          </span>
+          {POPULAR_SKILLS.map((qs) => {
+            const isAdded = skills.some(
+              (s) => s.name.toLowerCase() === qs.name.toLowerCase(),
+            );
+            return (
+              <button
+                key={qs.name}
+                type="button"
+                onClick={() => handleAddQuickSkill(qs)}
+                disabled={isAdded}
+                className={`text-[10px] px-2 py-0.5 rounded-md border transition-all cursor-pointer ${
+                  isAdded
+                    ? "bg-white/5 border-white/5 text-zinc-600 cursor-not-allowed"
+                    : "bg-white/5 border-white/10 text-zinc-300 hover:bg-primary/20 hover:text-primary hover:border-primary/30"
+                }`}
+              >
+                {isAdded ? `✓ ${qs.name}` : `+ ${qs.name}`}
+              </button>
+            );
+          })}
+        </div>
+
+        {/* Add Custom Skill Row */}
+        <div className="flex flex-col sm:flex-row items-center gap-2 pt-1">
           <input
             type="text"
             value={newSkillName}
             onChange={(e) => setNewSkillName(e.target.value)}
-            placeholder="Skill name (e.g. TypeScript)"
+            placeholder="Custom skill name (e.g. Rust)"
             className="flex-1 w-full bg-white/5 border border-white/10 rounded-xl px-3 py-2 text-xs text-zinc-100 placeholder:text-zinc-600 focus:outline-none focus:border-primary/50"
           />
           <select
@@ -261,15 +328,15 @@ export default function EditProfileForm({ onClose }: { onClose?: () => void }) {
           </select>
           <button
             type="button"
-            onClick={handleAddSkill}
-            className="w-full sm:w-auto p-2 bg-primary/20 hover:bg-primary/30 text-primary border border-primary/20 rounded-xl text-xs flex items-center justify-center gap-1 font-medium transition-colors cursor-pointer"
+            onClick={() => handleAddSkill()}
+            className="w-full sm:w-auto px-3 py-2 bg-primary/20 hover:bg-primary/30 text-primary border border-primary/20 rounded-xl text-xs flex items-center justify-center gap-1 font-medium transition-colors cursor-pointer"
           >
             <Plus className="w-4 h-4" /> Add
           </button>
         </div>
 
         {/* Selected Skills List */}
-        <div className="space-y-1.5 max-h-36 overflow-y-auto custom-scrollbar pr-1 pt-1">
+        <div className="space-y-1.5 max-h-40 overflow-y-auto custom-scrollbar pr-1 pt-1">
           {skills.map((skill) => (
             <div
               key={skill.name}
@@ -310,7 +377,8 @@ export default function EditProfileForm({ onClose }: { onClose?: () => void }) {
           ))}
           {skills.length === 0 && (
             <p className="text-center text-xs text-zinc-500 py-3">
-              No skills selected. Use the fields above to add your skills.
+              No skills selected yet. Click the quick-add buttons above or add
+              custom skills.
             </p>
           )}
         </div>

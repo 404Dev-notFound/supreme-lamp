@@ -14,8 +14,10 @@ export async function GET() {
       );
     }
 
+    const email = session.user.email.toLowerCase().trim();
+
     const user = await prisma.user.findUnique({
-      where: { email: session.user.email.toLowerCase() },
+      where: { email },
       include: {
         userSkills: {
           include: { skill: true },
@@ -37,7 +39,7 @@ export async function GET() {
 
     return NextResponse.json({
       id: user.id,
-      name: user.name,
+      name: user.name || "",
       email: user.email,
       role: user.role,
       image: user.image,
@@ -45,14 +47,14 @@ export async function GET() {
       bio: user.bio || "",
       location: user.location || "",
       createdAt: user.createdAt,
-      skills: user.userSkills.map((us) => ({
+      skills: (user.userSkills || []).map((us) => ({
         id: us.skillId,
         userSkillId: us.id,
         name: us.skill.name,
         category: us.skill.category,
         proficiency: us.proficiency,
       })),
-      roadmaps: user.roadmaps.map((r) => ({
+      roadmaps: (user.roadmaps || []).map((r) => ({
         id: r.id,
         title: r.title,
         description: r.description,
@@ -79,8 +81,10 @@ export async function PUT(req: NextRequest) {
       );
     }
 
+    const email = session.user.email.toLowerCase().trim();
+
     const user = await prisma.user.findUnique({
-      where: { email: session.user.email.toLowerCase() },
+      where: { email },
     });
 
     if (!user) {
@@ -90,59 +94,92 @@ export async function PUT(req: NextRequest) {
       );
     }
 
-    const body = await req.json();
+    const body = await req.json().catch(() => ({}));
     const { name, headline, bio, location, skills } = body;
 
-    // Update User Profile data (strictly enforcing user ownership)
-    await prisma.user.update({
-      where: { id: user.id },
-      data: {
-        name: typeof name === "string" ? name.trim() : undefined,
-        headline: typeof headline === "string" ? headline.trim() : undefined,
-        bio: typeof bio === "string" ? bio.trim() : undefined,
-        location: typeof location === "string" ? location.trim() : undefined,
-      },
-    });
+    // Process and deduplicate skills to prevent unique constraint conflicts
+    interface CleanSkill {
+      name: string;
+      category: string;
+      proficiency: number;
+    }
 
-    // If skills are updated, sync user-owned skills
+    const cleanSkills: CleanSkill[] = [];
     if (Array.isArray(skills)) {
-      // Remove existing UserSkill associations for this user
-      await prisma.userSkill.deleteMany({
-        where: { userId: user.id },
-      });
-
-      // Insert new/updated skills
+      const seen = new Set<string>();
       for (const item of skills) {
-        if (!item.name || typeof item.name !== "string") continue;
+        if (!item || typeof item.name !== "string") continue;
         const skillName = item.name.trim();
-        const skillCategory = (item.category || "General").trim();
-        const proficiency = Math.min(
-          5,
-          Math.max(1, parseInt(item.proficiency, 10) || 3),
-        );
+        if (!skillName) continue;
+        const lower = skillName.toLowerCase();
+        if (seen.has(lower)) continue;
+        seen.add(lower);
 
-        // Upsert global catalog skill
-        const catalogSkill = await prisma.skill.upsert({
-          where: { name: skillName },
-          update: {},
-          create: {
-            name: skillName,
-            category: skillCategory,
-          },
-        });
+        const skillCategory =
+          typeof item.category === "string" && item.category.trim()
+            ? item.category.trim()
+            : "General";
 
-        // Create user-specific skill ownership record
-        await prisma.userSkill.create({
-          data: {
-            userId: user.id,
-            skillId: catalogSkill.id,
-            proficiency,
-          },
+        const rawProf =
+          typeof item.proficiency === "number"
+            ? item.proficiency
+            : parseInt(String(item.proficiency), 10);
+
+        const proficiency = isNaN(rawProf)
+          ? 3
+          : Math.min(5, Math.max(1, rawProf));
+
+        cleanSkills.push({
+          name: skillName,
+          category: skillCategory,
+          proficiency,
         });
       }
     }
 
-    // Retrieve fresh profile with relations
+    // Execute atomic profile update in transaction
+    await prisma.$transaction(async (tx) => {
+      // 1. Update basic user details
+      await tx.user.update({
+        where: { id: user.id },
+        data: {
+          name: typeof name === "string" ? name.trim() : undefined,
+          headline: typeof headline === "string" ? headline.trim() : undefined,
+          bio: typeof bio === "string" ? bio.trim() : undefined,
+          location: typeof location === "string" ? location.trim() : undefined,
+        },
+      });
+
+      // 2. Synchronize user skills
+      if (Array.isArray(skills)) {
+        // Clear old user skills
+        await tx.userSkill.deleteMany({
+          where: { userId: user.id },
+        });
+
+        // Insert new user skills with catalog lookup
+        for (const s of cleanSkills) {
+          const catalogSkill = await tx.skill.upsert({
+            where: { name: s.name },
+            update: { category: s.category },
+            create: {
+              name: s.name,
+              category: s.category,
+            },
+          });
+
+          await tx.userSkill.create({
+            data: {
+              userId: user.id,
+              skillId: catalogSkill.id,
+              proficiency: s.proficiency,
+            },
+          });
+        }
+      }
+    });
+
+    // 3. Return fresh profile with populated skills
     const freshProfile = await prisma.user.findUnique({
       where: { id: user.id },
       include: {
@@ -158,14 +195,15 @@ export async function PUT(req: NextRequest) {
       message: "Profile updated successfully.",
       profile: {
         id: freshProfile?.id,
-        name: freshProfile?.name,
+        name: freshProfile?.name || "",
         email: freshProfile?.email,
         role: freshProfile?.role,
-        headline: freshProfile?.headline,
-        bio: freshProfile?.bio,
-        location: freshProfile?.location,
-        skills: freshProfile?.userSkills.map((us) => ({
+        headline: freshProfile?.headline || "",
+        bio: freshProfile?.bio || "",
+        location: freshProfile?.location || "",
+        skills: (freshProfile?.userSkills || []).map((us) => ({
           id: us.skillId,
+          userSkillId: us.id,
           name: us.skill.name,
           category: us.skill.category,
           proficiency: us.proficiency,
@@ -175,7 +213,11 @@ export async function PUT(req: NextRequest) {
   } catch (error) {
     console.error("Update profile error:", error);
     return NextResponse.json(
-      { error: "Failed to update profile data." },
+      {
+        error:
+          "Failed to update profile data: " +
+          (error instanceof Error ? error.message : "Unknown error"),
+      },
       { status: 500 },
     );
   }
