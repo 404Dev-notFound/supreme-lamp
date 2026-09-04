@@ -5,6 +5,9 @@ const morgan = require("morgan");
 const dotenv = require("dotenv");
 const { initTelemetry } = require("./telemetry");
 const { roadmapsRouter } = require("./routes/roadmaps");
+const { usersRouter } = require("./routes/users");
+const { authRouter } = require("./routes/auth");
+const { csrfProtection } = require("./middleware/csrf");
 const { requireAuth, requireRole } = require("./middleware/auth");
 const { errorHandler, notFoundHandler } = require("./middleware/errorHandler");
 
@@ -16,12 +19,45 @@ const PORT = process.env.PORT || 5000;
 
 // Security & Parsing Middleware
 app.use(helmet());
-app.use(cors());
+
+// Secure Origin & Credentials Allowlist CORS Configuration
+const allowedOrigins = [
+  "http://localhost:3000",
+  "http://localhost:5000",
+  "http://127.0.0.1:3000",
+  "http://127.0.0.1:5000",
+  process.env.APP_URL,
+  process.env.FRONTEND_URL,
+  process.env.NEXTAUTH_URL,
+].filter(Boolean);
+
+app.use(
+  cors({
+    origin: (origin, callback) => {
+      if (!origin || allowedOrigins.includes(origin)) {
+        return callback(null, true);
+      }
+      return callback(new Error("CORS policy violation: Origin not allowed."));
+    },
+    credentials: true,
+    methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
+    allowedHeaders: [
+      "Content-Type",
+      "Authorization",
+      "x-flowctrl-csrf",
+      "x-requested-with",
+    ],
+  }),
+);
+
 if (process.env.NODE_ENV !== "test") {
   app.use(morgan("dev"));
 }
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+
+// CSRF Protection for state-changing requests
+app.use("/api", csrfProtection);
 
 // Health Check Routes
 app.get("/", (req, res) => {
@@ -31,6 +67,12 @@ app.get("/", (req, res) => {
 app.get("/api/health", (req, res) => {
   res.status(200).json({ status: "ok", message: "flowCTRL API is running" });
 });
+
+// Authentication & Session Routes
+app.use("/api/auth", authRouter);
+
+// User & Profile Routes
+app.use("/api/users", usersRouter);
 
 // Roadmap Routes
 app.use("/api/roadmaps", roadmapsRouter);

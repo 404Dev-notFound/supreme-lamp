@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import { signIn } from "next-auth/react";
 import { useRouter } from "next/navigation";
 import { Lock, Mail, AlertCircle, ArrowRight, Loader2 } from "lucide-react";
+import { api } from "@/lib/api";
 
 export default function SignInForm({ onClose }) {
   const router = useRouter();
@@ -17,22 +18,26 @@ export default function SignInForm({ onClose }) {
     setLoading(true);
     setError(null);
 
+    const normalizedEmail = email.trim().toLowerCase();
+
     try {
-      const result = await signIn("credentials", {
-        redirect: false,
-        email: email.trim().toLowerCase(),
+      // 1. Establish HTTP-Only cookie session via centralized auth API
+      await api.auth.login({
+        email: normalizedEmail,
         password,
       });
 
-      if (result?.error) {
-        setError(result.error);
-        setLoading(false);
-      } else {
-        onClose();
-        router.refresh();
-      }
-    } catch {
-      setError("An unexpected error occurred. Please try again.");
+      // 2. Synchronize NextAuth client session
+      await signIn("credentials", {
+        redirect: false,
+        email: normalizedEmail,
+        password,
+      });
+
+      onClose();
+      router.refresh();
+    } catch (err) {
+      setError(err?.message || "Invalid email or password.");
       setLoading(false);
     }
   };

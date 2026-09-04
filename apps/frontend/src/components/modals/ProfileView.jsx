@@ -10,13 +10,27 @@ import {
   LogOut,
   Edit3,
   Award,
+  Globe,
+  Github,
+  Linkedin,
+  Shield,
+  Settings,
 } from "lucide-react";
 import ProfileSkeleton from "../skeletons/ProfileSkeleton";
+
+function TwitterIcon(props) {
+  return (
+    <svg viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" {...props}>
+      <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+    </svg>
+  );
+}
 
 export default function ProfileView({ onClose }) {
   const [profile, setProfile] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [avatarError, setAvatarError] = useState(false);
 
   useEffect(() => {
     async function loadProfile() {
@@ -68,7 +82,7 @@ export default function ProfileView({ onClose }) {
     );
   }
 
-  const initials = (profile.name || profile.email || "U")
+  const initials = (profile.displayName || profile.name || profile.email || "U")
     .split(" ")
     .map((n) => n[0])
     .join("")
@@ -82,21 +96,32 @@ export default function ProfileView({ onClose }) {
       })
     : "Recently";
 
+  const hasAvatar = (profile.avatarUrl || profile.image) && !avatarError;
+
   return (
-    <div className="space-y-6">
+    <div className="space-y-5">
       {/* Header Banner & Avatar */}
       <div className="flex items-start gap-4">
-        <div className="relative">
-          <div className="w-16 h-16 rounded-2xl bg-gradient-to-tr from-primary/30 to-amber-400/20 border border-primary/30 flex items-center justify-center text-primary font-bold text-xl shadow-lg shadow-primary/10">
-            {initials}
-          </div>
-          <div className="absolute -bottom-1 -right-1 w-5 h-5 rounded-full bg-green-500 border-2 border-zinc-900" />
+        <div className="relative shrink-0">
+          {hasAvatar ? (
+            <img
+              src={profile.avatarUrl || profile.image}
+              alt={profile.displayName || profile.name}
+              onError={() => setAvatarError(true)}
+              className="w-16 h-16 rounded-2xl object-cover border border-primary/30 shadow-lg shadow-primary/10"
+            />
+          ) : (
+            <div className="w-16 h-16 rounded-2xl bg-gradient-to-tr from-primary/30 to-amber-400/20 border border-primary/30 flex items-center justify-center text-primary font-bold text-xl shadow-lg shadow-primary/10">
+              {initials}
+            </div>
+          )}
+          <div className="absolute -bottom-1 -right-1 w-4 h-4 rounded-full bg-green-500 border-2 border-zinc-900" />
         </div>
 
         <div className="flex-1 min-w-0">
           <div className="flex items-center gap-2 flex-wrap">
             <h3 className="text-lg font-bold text-zinc-100 truncate">
-              {profile.name || "FlowCTRL Engineer"}
+              {profile.displayName || profile.name || "FlowCTRL Engineer"}
             </h3>
             <span className="px-2 py-0.5 rounded-full text-[10px] uppercase font-bold tracking-wider bg-primary/20 text-primary border border-primary/20">
               {profile.role || "USER"}
@@ -128,15 +153,64 @@ export default function ProfileView({ onClose }) {
       <div className="grid grid-cols-2 gap-2 text-xs text-zinc-400">
         {profile.location && (
           <div className="flex items-center gap-2 p-2.5 rounded-lg bg-white/5">
-            <MapPin className="w-3.5 h-3.5 text-zinc-500" />
+            <MapPin className="w-3.5 h-3.5 text-zinc-500 shrink-0" />
             <span className="truncate">{profile.location}</span>
           </div>
         )}
         <div className="flex items-center gap-2 p-2.5 rounded-lg bg-white/5">
-          <Calendar className="w-3.5 h-3.5 text-zinc-500" />
+          <Calendar className="w-3.5 h-3.5 text-zinc-500 shrink-0" />
           <span>Joined {joinedDate}</span>
         </div>
       </div>
+
+      {/* Portfolio & Social Presence */}
+      {(profile.websiteUrl ||
+        profile.githubUrl ||
+        profile.linkedinUrl ||
+        profile.twitterUrl) && (
+        <div className="flex items-center gap-2 flex-wrap text-xs">
+          {profile.websiteUrl && (
+            <a
+              href={profile.websiteUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-white/5 hover:bg-white/10 text-primary border border-white/10 transition-colors"
+            >
+              <Globe className="w-3.5 h-3.5" /> Website
+            </a>
+          )}
+          {profile.githubUrl && (
+            <a
+              href={profile.githubUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-white/5 hover:bg-white/10 text-zinc-200 border border-white/10 transition-colors"
+            >
+              <Github className="w-3.5 h-3.5" /> GitHub
+            </a>
+          )}
+          {profile.linkedinUrl && (
+            <a
+              href={profile.linkedinUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-white/5 hover:bg-white/10 text-blue-400 border border-white/10 transition-colors"
+            >
+              <Linkedin className="w-3.5 h-3.5" /> LinkedIn
+            </a>
+          )}
+          {profile.twitterUrl && (
+            <a
+              href={profile.twitterUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-white/5 hover:bg-white/10 text-sky-400 border border-white/10 transition-colors"
+            >
+              <Twitter className="w-3.5 h-3.5" /> Twitter
+            </a>
+          )}
+        </div>
+      )}
 
       {/* Acquired Skills */}
       <div className="space-y-2.5">
@@ -151,55 +225,75 @@ export default function ProfileView({ onClose }) {
         </div>
 
         {profile.skills && profile.skills.length > 0 ? (
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 max-h-40 overflow-y-auto custom-scrollbar pr-1">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 max-h-36 overflow-y-auto pr-1">
             {profile.skills.map((skill) => (
               <div
                 key={skill.id || skill.name}
-                className="p-2.5 rounded-xl bg-white/5 border border-white/5 flex flex-col gap-1.5"
+                className="p-2 rounded-xl bg-white/5 border border-white/5 flex items-center justify-between text-xs"
               >
-                <div className="flex items-center justify-between text-xs">
+                <div className="flex items-center gap-1.5 truncate">
                   <span className="font-medium text-zinc-200 truncate">
                     {skill.name}
                   </span>
-                  <span className="text-[10px] text-primary font-bold">
-                    Level {skill.proficiency}/5
+                  <span className="text-[10px] text-zinc-500">
+                    ({skill.category})
                   </span>
                 </div>
-                <div className="w-full bg-white/10 h-1.5 rounded-full overflow-hidden">
-                  <div
-                    className="bg-gradient-to-r from-orange-400 to-amber-300 h-full rounded-full transition-all"
-                    style={{ width: `${(skill.proficiency / 5) * 100}%` }}
-                  />
+                <div className="flex items-center gap-1 shrink-0">
+                  {[1, 2, 3, 4, 5].map((lvl) => (
+                    <div
+                      key={lvl}
+                      className={`w-1.5 h-1.5 rounded-full ${
+                        skill.proficiency >= lvl ? "bg-primary" : "bg-white/10"
+                      }`}
+                    />
+                  ))}
                 </div>
               </div>
             ))}
           </div>
         ) : (
-          <div className="p-4 rounded-xl bg-white/5 border border-dashed border-white/10 text-center text-xs text-zinc-500">
-            No skills added yet. Click &quot;Edit Profile&quot; to configure
-            your skill stack.
-          </div>
+          <p className="text-xs text-zinc-500 italic py-2">
+            No skills highlighted yet. Click Edit Profile to add skills.
+          </p>
         )}
       </div>
 
-      {/* Footer Actions */}
-      <div className="flex items-center justify-between pt-2 border-t border-white/10">
+      {/* Navigation Quick Actions */}
+      <div className="pt-3 border-t border-white/10 grid grid-cols-3 gap-2 text-xs">
         <button
-          type="button"
-          onClick={handleSignOut}
-          className="flex items-center gap-1.5 text-xs text-red-400 hover:text-red-300 font-medium py-2 px-3 rounded-lg hover:bg-red-500/10 transition-colors cursor-pointer"
+          onClick={() => switchModal("edit-profile")}
+          className="py-2 px-3 rounded-xl bg-white/5 hover:bg-white/10 text-zinc-200 border border-white/10 flex items-center justify-center gap-1.5 transition-colors cursor-pointer"
         >
-          <LogOut className="w-3.5 h-3.5" />
-          Sign Out
+          <Edit3 className="w-3.5 h-3.5 text-amber-400" />
+          Edit
         </button>
 
         <button
-          type="button"
-          onClick={() => switchModal("edit-profile")}
-          className="flex items-center gap-1.5 text-xs font-semibold py-2 px-4 rounded-xl bg-primary text-primary-foreground hover:opacity-90 transition-opacity cursor-pointer shadow-lg shadow-primary/20"
+          onClick={() => switchModal("security")}
+          className="py-2 px-3 rounded-xl bg-white/5 hover:bg-white/10 text-zinc-200 border border-white/10 flex items-center justify-center gap-1.5 transition-colors cursor-pointer"
         >
-          <Edit3 className="w-3.5 h-3.5" />
-          Edit Profile
+          <Shield className="w-3.5 h-3.5 text-blue-400" />
+          Security
+        </button>
+
+        <button
+          onClick={() => switchModal("settings")}
+          className="py-2 px-3 rounded-xl bg-white/5 hover:bg-white/10 text-zinc-200 border border-white/10 flex items-center justify-center gap-1.5 transition-colors cursor-pointer"
+        >
+          <Settings className="w-3.5 h-3.5 text-zinc-400" />
+          Settings
+        </button>
+      </div>
+
+      {/* Logout Action */}
+      <div className="pt-1 flex justify-end">
+        <button
+          onClick={handleSignOut}
+          className="flex items-center gap-1.5 text-xs text-red-400 hover:text-red-300 transition-colors cursor-pointer py-1"
+        >
+          <LogOut className="w-3.5 h-3.5" />
+          Sign Out of flowCTRL
         </button>
       </div>
     </div>

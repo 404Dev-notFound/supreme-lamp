@@ -58,45 +58,70 @@ export async function POST(req) {
 
     // Securely hash password
     const hashedPassword = await bcrypt.hash(password, 10);
+    const trimmedName = name.trim();
 
-    // Create user in PostgreSQL database via Prisma
-    const user = await prisma.user.create({
-      data: {
-        name: name.trim(),
-        email: normalizedEmail,
-        password: hashedPassword,
-        role: "USER",
-      },
+    // Create user with profile and preferences atomically in PostgreSQL
+    const user = await prisma.$transaction(async (tx) => {
+      const newUser = await tx.user.create({
+        data: {
+          name: trimmedName,
+          email: normalizedEmail,
+          password: hashedPassword,
+          role: "USER",
+          status: "ACTIVE",
+          profile: {
+            create: {
+              displayName: trimmedName,
+              headline: "Software Engineer",
+              bio: "",
+              location: "",
+            },
+          },
+          preferences: {
+            create: {
+              theme: "dark",
+              emailNotifications: true,
+              weeklyDigest: true,
+              jobAlerts: true,
+              profileVisibility: "PUBLIC",
+              careerGoalVisibility: true,
+            },
+          },
+        },
+        include: {
+          profile: true,
+          preferences: true,
+        },
+      });
+
+      await tx.securityLog.create({
+        data: {
+          userId: newUser.id,
+          eventType: "register_success",
+          ipAddress: req.headers.get("x-forwarded-for") || "127.0.0.1",
+          userAgent: req.headers.get("user-agent") || "Web Client",
+        },
+      });
+
+      return newUser;
     });
 
-    // Record audit log safely
-    try {
-      if (prisma.securityLog) {
-        await prisma.securityLog.create({
-          data: {
-            userId: user.id,
-            eventType: "register_success",
-          },
-        });
-      }
-    } catch {
-      // Non-blocking log creation
-    }
-
     // Return safe user payload (excluding password hash)
-    return NextResponse.json(
+    const response = NextResponse.json(
       {
         success: true,
         message: "Account created successfully.",
         user: {
           id: user.id,
-          name: user.name,
+          name: user.profile?.displayName || user.name,
           email: user.email,
           role: user.role,
         },
       },
       { status: 201 },
     );
+    response.headers.set("Cache-Control", "no-store, max-age=0");
+    return response;
   } catch (error) {
     console.error("Registration error:", error);
     const errorMessage =

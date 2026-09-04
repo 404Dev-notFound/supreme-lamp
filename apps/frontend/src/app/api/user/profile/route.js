@@ -2,7 +2,16 @@ import { NextResponse } from "next/server";
 import { getServerSession } from "next-auth/next";
 import { authOptions } from "@/lib/auth";
 import { prisma } from "@/lib/prisma";
+import {
+  sanitizeSelfProfile,
+  validateProfileUpdate,
+} from "@/lib/profileValidation";
 
+/**
+ * GET /api/user/profile
+ * Returns authenticated user's profile, skills, preferences, and roadmaps.
+ * Enforces server-side identity (never trusts client-supplied user IDs).
+ */
 export async function GET() {
   try {
     const session = await getServerSession(authOptions);
@@ -19,6 +28,8 @@ export async function GET() {
     const user = await prisma.user.findUnique({
       where: { email },
       include: {
+        profile: true,
+        preferences: true,
         userSkills: {
           include: { skill: true },
           orderBy: { proficiency: "desc" },
@@ -37,30 +48,13 @@ export async function GET() {
       );
     }
 
-    return NextResponse.json({
-      id: user.id,
-      name: user.name || "",
-      email: user.email,
-      role: user.role,
-      image: user.image,
-      headline: user.headline || "",
-      bio: user.bio || "",
-      location: user.location || "",
-      createdAt: user.createdAt,
-      skills: (user.userSkills || []).map((us) => ({
-        id: us.skillId,
-        userSkillId: us.id,
-        name: us.skill.name,
-        category: us.skill.category,
-        proficiency: us.proficiency,
-      })),
-      roadmaps: (user.roadmaps || []).map((r) => ({
-        id: r.id,
-        title: r.title,
-        description: r.description,
-        updatedAt: r.updatedAt,
-      })),
-    });
+    const safeProfile = sanitizeSelfProfile(user);
+    const response = NextResponse.json(safeProfile);
+    response.headers.set(
+      "Cache-Control",
+      "private, no-cache, no-store, must-revalidate",
+    );
+    return response;
   } catch (error) {
     console.error("Fetch profile error:", error);
     return NextResponse.json(
@@ -70,6 +64,11 @@ export async function GET() {
   }
 }
 
+/**
+ * PUT /api/user/profile
+ * Updates authenticated user's profile and skills with strict mass-assignment protection.
+ * Executes atomically in a database transaction.
+ */
 export async function PUT(req) {
   try {
     const session = await getServerSession(authOptions);
@@ -94,65 +93,79 @@ export async function PUT(req) {
       );
     }
 
-    const body = await req.json().catch(() => ({}));
-    const { name, headline, bio, location, skills } = body;
+    const rawBody = await req.json().catch(() => ({}));
 
-    // Process and deduplicate skills to prevent unique constraint conflicts
-    const cleanSkills = [];
-    if (Array.isArray(skills)) {
-      const seen = new Set();
-      for (const item of skills) {
-        if (!item || typeof item.name !== "string") continue;
-        const skillName = item.name.trim();
-        if (!skillName) continue;
-        const lower = skillName.toLowerCase();
-        if (seen.has(lower)) continue;
-        seen.add(lower);
-
-        const skillCategory =
-          typeof item.category === "string" && item.category.trim()
-            ? item.category.trim()
-            : "General";
-
-        const rawProf =
-          typeof item.proficiency === "number"
-            ? item.proficiency
-            : parseInt(String(item.proficiency), 10);
-
-        const proficiency = isNaN(rawProf)
-          ? 3
-          : Math.min(5, Math.max(1, rawProf));
-
-        cleanSkills.push({
-          name: skillName,
-          category: skillCategory,
-          proficiency,
-        });
-      }
+    // Mass-assignment & field validation
+    let validated;
+    try {
+      validated = validateProfileUpdate(rawBody);
+    } catch (valErr) {
+      return NextResponse.json({ error: valErr.message }, { status: 400 });
     }
 
-    // Execute atomic profile update in transaction
+    const {
+      displayName,
+      name,
+      headline,
+      bio,
+      location,
+      avatarUrl,
+      websiteUrl,
+      githubUrl,
+      linkedinUrl,
+      twitterUrl,
+      skills,
+    } = validated;
+
+    // Execute atomic update across User, UserProfile, and UserSkills in transaction
     await prisma.$transaction(async (tx) => {
-      // 1. Update basic user details
+      // 1. Update core User record
       await tx.user.update({
         where: { id: user.id },
         data: {
-          name: typeof name === "string" ? name.trim() : undefined,
-          headline: typeof headline === "string" ? headline.trim() : undefined,
-          bio: typeof bio === "string" ? bio.trim() : undefined,
-          location: typeof location === "string" ? location.trim() : undefined,
+          name: displayName || name || undefined,
+          image: avatarUrl !== undefined ? avatarUrl : undefined,
+          headline: headline !== undefined ? headline : undefined,
+          bio: bio !== undefined ? bio : undefined,
+          location: location !== undefined ? location : undefined,
         },
       });
 
-      // 2. Synchronize user skills
+      // 2. Upsert UserProfile record
+      await tx.userProfile.upsert({
+        where: { userId: user.id },
+        update: {
+          displayName: displayName || name || undefined,
+          headline: headline !== undefined ? headline : undefined,
+          bio: bio !== undefined ? bio : undefined,
+          location: location !== undefined ? location : undefined,
+          avatarUrl: avatarUrl !== undefined ? avatarUrl : undefined,
+          websiteUrl: websiteUrl !== undefined ? websiteUrl : undefined,
+          githubUrl: githubUrl !== undefined ? githubUrl : undefined,
+          linkedinUrl: linkedinUrl !== undefined ? linkedinUrl : undefined,
+          twitterUrl: twitterUrl !== undefined ? twitterUrl : undefined,
+        },
+        create: {
+          userId: user.id,
+          displayName: displayName || name || user.name || "FlowCTRL User",
+          headline: headline || "",
+          bio: bio || "",
+          location: location || "",
+          avatarUrl: avatarUrl || "",
+          websiteUrl: websiteUrl || "",
+          githubUrl: githubUrl || "",
+          linkedinUrl: linkedinUrl || "",
+          twitterUrl: twitterUrl || "",
+        },
+      });
+
+      // 3. Synchronize user skills if provided
       if (Array.isArray(skills)) {
-        // Clear old user skills
         await tx.userSkill.deleteMany({
           where: { userId: user.id },
         });
 
-        // Insert new user skills with catalog lookup
-        for (const s of cleanSkills) {
+        for (const s of skills) {
           const catalogSkill = await tx.skill.upsert({
             where: { name: s.name },
             update: { category: s.category },
@@ -173,37 +186,34 @@ export async function PUT(req) {
       }
     });
 
-    // 3. Return fresh profile with populated skills
-    const freshProfile = await prisma.user.findUnique({
+    // 4. Fetch fresh updated profile
+    const updatedUser = await prisma.user.findUnique({
       where: { id: user.id },
       include: {
+        profile: true,
+        preferences: true,
         userSkills: {
           include: { skill: true },
           orderBy: { proficiency: "desc" },
         },
+        roadmaps: {
+          take: 5,
+          orderBy: { updatedAt: "desc" },
+        },
       },
     });
 
-    return NextResponse.json({
+    const safeProfile = sanitizeSelfProfile(updatedUser);
+    const response = NextResponse.json({
       success: true,
       message: "Profile updated successfully.",
-      profile: {
-        id: freshProfile?.id,
-        name: freshProfile?.name || "",
-        email: freshProfile?.email,
-        role: freshProfile?.role,
-        headline: freshProfile?.headline || "",
-        bio: freshProfile?.bio || "",
-        location: freshProfile?.location || "",
-        skills: (freshProfile?.userSkills || []).map((us) => ({
-          id: us.skillId,
-          userSkillId: us.id,
-          name: us.skill.name,
-          category: us.skill.category,
-          proficiency: us.proficiency,
-        })),
-      },
+      profile: safeProfile,
     });
+    response.headers.set(
+      "Cache-Control",
+      "private, no-cache, no-store, must-revalidate",
+    );
+    return response;
   } catch (error) {
     console.error("Update profile error:", error);
     return NextResponse.json(

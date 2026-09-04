@@ -11,7 +11,19 @@ import {
   Loader2,
   AlertCircle,
   Sparkles,
+  Link as LinkIcon,
+  Globe,
+  Github,
+  Linkedin,
 } from "lucide-react";
+
+function TwitterIcon(props) {
+  return (
+    <svg viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" {...props}>
+      <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+    </svg>
+  );
+}
 
 const POPULAR_SKILLS = [
   { name: "TypeScript", category: "Languages" },
@@ -33,6 +45,12 @@ export default function EditProfileForm({ onClose }) {
   const [headline, setHeadline] = useState("");
   const [bio, setBio] = useState("");
   const [location, setLocation] = useState("");
+  const [avatarUrl, setAvatarUrl] = useState("");
+  const [websiteUrl, setWebsiteUrl] = useState("");
+  const [githubUrl, setGithubUrl] = useState("");
+  const [linkedinUrl, setLinkedinUrl] = useState("");
+  const [twitterUrl, setTwitterUrl] = useState("");
+
   const [skills, setSkills] = useState([]);
   const [newSkillName, setNewSkillName] = useState("");
   const [newSkillCategory, setNewSkillCategory] = useState("Frontend");
@@ -49,10 +67,15 @@ export default function EditProfileForm({ onClose }) {
         const res = await fetch("/api/user/profile");
         if (res.ok) {
           const data = await res.json();
-          setName(data.name || "");
+          setName(data.displayName || data.name || "");
           setHeadline(data.headline || "");
           setBio(data.bio || "");
           setLocation(data.location || "");
+          setAvatarUrl(data.avatarUrl || data.image || "");
+          setWebsiteUrl(data.websiteUrl || "");
+          setGithubUrl(data.githubUrl || "");
+          setLinkedinUrl(data.linkedinUrl || "");
+          setTwitterUrl(data.twitterUrl || "");
           setSkills(data.skills || []);
         }
       } catch {
@@ -133,6 +156,11 @@ export default function EditProfileForm({ onClose }) {
           headline: headline.trim(),
           bio: bio.trim(),
           location: location.trim(),
+          avatarUrl: avatarUrl.trim(),
+          websiteUrl: websiteUrl.trim(),
+          githubUrl: githubUrl.trim(),
+          linkedinUrl: linkedinUrl.trim(),
+          twitterUrl: twitterUrl.trim(),
           skills,
         }),
       });
@@ -145,7 +173,6 @@ export default function EditProfileForm({ onClose }) {
 
       setSuccess(true);
       setTimeout(() => {
-        // Return to profile modal
         const url = new URL(window.location.href);
         url.searchParams.set("modal", "profile");
         window.history.replaceState(null, "", url.toString());
@@ -180,6 +207,7 @@ export default function EditProfileForm({ onClose }) {
         </div>
       )}
 
+      {/* Section 1: Basic Details */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
         <div>
           <label className="block text-xs font-medium text-zinc-400 mb-1">
@@ -215,19 +243,37 @@ export default function EditProfileForm({ onClose }) {
         </div>
       </div>
 
-      <div>
-        <label className="block text-xs font-medium text-zinc-400 mb-1">
-          Professional Headline
-        </label>
-        <div className="relative">
-          <Briefcase className="w-4 h-4 text-zinc-500 absolute left-3 top-1/2 -translate-y-1/2" />
-          <input
-            type="text"
-            value={headline}
-            onChange={(e) => setHeadline(e.target.value)}
-            placeholder="e.g. Senior Full-Stack Engineer | Next.js & Distributed Systems"
-            className="w-full bg-white/5 border border-white/10 rounded-xl pl-9 pr-3 py-2 text-xs text-zinc-100 placeholder:text-zinc-600 focus:outline-none focus:border-primary/50"
-          />
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+        <div>
+          <label className="block text-xs font-medium text-zinc-400 mb-1">
+            Professional Headline
+          </label>
+          <div className="relative">
+            <Briefcase className="w-4 h-4 text-zinc-500 absolute left-3 top-1/2 -translate-y-1/2" />
+            <input
+              type="text"
+              value={headline}
+              onChange={(e) => setHeadline(e.target.value)}
+              placeholder="e.g. Senior Full-Stack Engineer"
+              className="w-full bg-white/5 border border-white/10 rounded-xl pl-9 pr-3 py-2 text-xs text-zinc-100 placeholder:text-zinc-600 focus:outline-none focus:border-primary/50"
+            />
+          </div>
+        </div>
+
+        <div>
+          <label className="block text-xs font-medium text-zinc-400 mb-1">
+            Avatar Image URL
+          </label>
+          <div className="relative">
+            <LinkIcon className="w-4 h-4 text-zinc-500 absolute left-3 top-1/2 -translate-y-1/2" />
+            <input
+              type="url"
+              value={avatarUrl}
+              onChange={(e) => setAvatarUrl(e.target.value)}
+              placeholder="https://images.unsplash.com/..."
+              className="w-full bg-white/5 border border-white/10 rounded-xl pl-9 pr-3 py-2 text-xs text-zinc-100 placeholder:text-zinc-600 focus:outline-none focus:border-primary/50"
+            />
+          </div>
         </div>
       </div>
 
@@ -240,13 +286,62 @@ export default function EditProfileForm({ onClose }) {
             value={bio}
             onChange={(e) => setBio(e.target.value)}
             placeholder="Brief introduction, engineering interests, and career goals..."
-            rows={3}
+            rows={2}
             className="w-full bg-white/5 border border-white/10 rounded-xl p-3 text-xs text-zinc-100 placeholder:text-zinc-600 focus:outline-none focus:border-primary/50 resize-none"
           />
         </div>
       </div>
 
-      {/* Skills Manager */}
+      {/* Section 2: Portfolio & Social Links */}
+      <div className="space-y-2.5 pt-2 border-t border-white/10">
+        <label className="block text-xs font-semibold text-zinc-200">
+          Portfolio & Social Presence
+        </label>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+          <div className="relative">
+            <Globe className="w-3.5 h-3.5 text-zinc-500 absolute left-3 top-1/2 -translate-y-1/2" />
+            <input
+              type="url"
+              value={websiteUrl}
+              onChange={(e) => setWebsiteUrl(e.target.value)}
+              placeholder="https://yourportfolio.dev"
+              className="w-full bg-white/5 border border-white/10 rounded-xl pl-9 pr-3 py-1.5 text-xs text-zinc-100 placeholder:text-zinc-600 focus:outline-none focus:border-primary/50"
+            />
+          </div>
+          <div className="relative">
+            <Github className="w-3.5 h-3.5 text-zinc-500 absolute left-3 top-1/2 -translate-y-1/2" />
+            <input
+              type="url"
+              value={githubUrl}
+              onChange={(e) => setGithubUrl(e.target.value)}
+              placeholder="https://github.com/username"
+              className="w-full bg-white/5 border border-white/10 rounded-xl pl-9 pr-3 py-1.5 text-xs text-zinc-100 placeholder:text-zinc-600 focus:outline-none focus:border-primary/50"
+            />
+          </div>
+          <div className="relative">
+            <Linkedin className="w-3.5 h-3.5 text-zinc-500 absolute left-3 top-1/2 -translate-y-1/2" />
+            <input
+              type="url"
+              value={linkedinUrl}
+              onChange={(e) => setLinkedinUrl(e.target.value)}
+              placeholder="https://linkedin.com/in/username"
+              className="w-full bg-white/5 border border-white/10 rounded-xl pl-9 pr-3 py-1.5 text-xs text-zinc-100 placeholder:text-zinc-600 focus:outline-none focus:border-primary/50"
+            />
+          </div>
+          <div className="relative">
+            <TwitterIcon className="w-3.5 h-3.5 text-zinc-500 absolute left-3 top-1/2 -translate-y-1/2" />
+            <input
+              type="url"
+              value={twitterUrl}
+              onChange={(e) => setTwitterUrl(e.target.value)}
+              placeholder="https://x.com/username"
+              className="w-full bg-white/5 border border-white/10 rounded-xl pl-9 pr-3 py-1.5 text-xs text-zinc-100 placeholder:text-zinc-600 focus:outline-none focus:border-primary/50"
+            />
+          </div>
+        </div>
+      </div>
+
+      {/* Section 3: Skills Manager */}
       <div className="space-y-2.5 pt-2 border-t border-white/10">
         <div className="flex items-center justify-between">
           <label className="block text-xs font-semibold text-zinc-200">
@@ -298,39 +393,29 @@ export default function EditProfileForm({ onClose }) {
             onChange={(e) => setNewSkillCategory(e.target.value)}
             className="w-full sm:w-32 bg-zinc-900 border border-white/10 rounded-xl px-2.5 py-2 text-xs text-zinc-300 focus:outline-none"
           >
+            <option value="Languages">Languages</option>
             <option value="Frontend">Frontend</option>
             <option value="Backend">Backend</option>
             <option value="Database">Database</option>
             <option value="DevOps">DevOps</option>
-            <option value="AI/ML">AI / ML</option>
-            <option value="Languages">Languages</option>
-          </select>
-          <select
-            value={newSkillProficiency}
-            onChange={(e) => setNewSkillProficiency(Number(e.target.value))}
-            className="w-full sm:w-28 bg-zinc-900 border border-white/10 rounded-xl px-2.5 py-2 text-xs text-zinc-300 focus:outline-none"
-          >
-            <option value={1}>L1 - Beginner</option>
-            <option value={2}>L2 - Basic</option>
-            <option value={3}>L3 - Intermediate</option>
-            <option value={4}>L4 - Advanced</option>
-            <option value={5}>L5 - Expert</option>
+            <option value="AI / ML">AI / ML</option>
+            <option value="Security">Security</option>
           </select>
           <button
             type="button"
-            onClick={() => handleAddSkill()}
-            className="w-full sm:w-auto px-3 py-2 bg-primary/20 hover:bg-primary/30 text-primary border border-primary/20 rounded-xl text-xs flex items-center justify-center gap-1 font-medium transition-colors cursor-pointer"
+            onClick={handleAddSkill}
+            className="w-full sm:w-auto px-3.5 py-2 rounded-xl bg-white/10 text-xs font-semibold hover:bg-white/20 transition-colors flex items-center justify-center gap-1 cursor-pointer shrink-0"
           >
-            <Plus className="w-4 h-4" /> Add
+            <Plus className="w-3.5 h-3.5" /> Add
           </button>
         </div>
 
-        {/* Selected Skills List */}
-        <div className="space-y-1.5 max-h-40 overflow-y-auto custom-scrollbar pr-1 pt-1">
+        {/* Skills List with Proficiency selector */}
+        <div className="space-y-1.5 max-h-44 overflow-y-auto pr-1">
           {skills.map((skill) => (
             <div
               key={skill.name}
-              className="flex items-center justify-between p-2 rounded-lg bg-white/5 border border-white/5 text-xs"
+              className="flex items-center justify-between p-2 rounded-xl bg-white/5 border border-white/5 text-xs"
             >
               <div className="flex items-center gap-2">
                 <span className="font-medium text-zinc-200">{skill.name}</span>
@@ -344,8 +429,10 @@ export default function EditProfileForm({ onClose }) {
                     <button
                       key={lvl}
                       type="button"
-                      onClick={() => handleProficiencyChange(skill.name, lvl)}
-                      className={`w-4 h-4 rounded-full text-[9px] font-bold flex items-center justify-center transition-colors ${
+                      onClick={() =>
+                        handleProficiencyChange(skill.name, lvl)
+                      }
+                      className={`w-5 h-5 rounded text-[10px] font-bold flex items-center justify-center transition-colors cursor-pointer ${
                         skill.proficiency >= lvl
                           ? "bg-primary text-primary-foreground"
                           : "bg-white/10 text-zinc-500 hover:bg-white/20"

@@ -8,7 +8,7 @@
     "build": "echo backend ready",
     "start": "node src/index.js",
     "lint": "echo backend lint ok",
-    "test": "node --test src/health.test.js src/routes/roadmaps.test.js",
+    "test": "node --test src/health.test.js src/routes/roadmaps.test.js src/routes/users.test.js src/routes/auth.test.js",
     "test:integration": "node -e \"console.log('Backend integration tests passed')\""
   },
   "devDependencies": {

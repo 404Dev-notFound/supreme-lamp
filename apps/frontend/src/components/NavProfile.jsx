@@ -3,7 +3,16 @@
 import React, { Suspense, useState, useRef, useEffect } from "react";
 import { useRouter, usePathname, useSearchParams } from "next/navigation";
 import { useSession, signOut } from "next-auth/react";
-import { LogIn, LogOut, Sparkles, ChevronDown, UserCheck } from "lucide-react";
+import {
+  LogIn,
+  LogOut,
+  Sparkles,
+  ChevronDown,
+  UserCheck,
+  Shield,
+  Settings,
+} from "lucide-react";
+import { api } from "@/lib/api";
 
 function NavProfileContent() {
   const router = useRouter();
@@ -93,11 +102,32 @@ function NavProfileContent() {
               Edit Profile & Skills
             </button>
 
+            <button
+              onClick={() => openModal("security")}
+              className="w-full flex items-center gap-2 px-3 py-2 rounded-xl hover:bg-white/10 text-left transition-colors cursor-pointer text-zinc-200"
+            >
+              <Shield className="w-3.5 h-3.5 text-blue-400" />
+              Security Center
+            </button>
+
+            <button
+              onClick={() => openModal("settings")}
+              className="w-full flex items-center gap-2 px-3 py-2 rounded-xl hover:bg-white/10 text-left transition-colors cursor-pointer text-zinc-200"
+            >
+              <Settings className="w-3.5 h-3.5 text-zinc-400" />
+              Settings & Preferences
+            </button>
+
             <div className="border-t border-white/10 my-1" />
 
             <button
-              onClick={() => {
+              onClick={async () => {
                 setDropdownOpen(false);
+                try {
+                  await api.auth.logout();
+                } catch {
+                  // Fallback
+                }
                 signOut({ callbackUrl: "/" });
               }}
               className="w-full flex items-center gap-2 px-3 py-2 rounded-xl hover:bg-red-500/10 text-red-400 text-left transition-colors cursor-pointer"

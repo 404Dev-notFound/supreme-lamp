@@ -8,6 +8,8 @@ import SignUpForm from "./SignUpForm";
 import ForgotPasswordForm from "./ForgotPasswordForm";
 import ProfileView from "./ProfileView";
 import EditProfileForm from "./EditProfileForm";
+import SecurityModal from "./SecurityModal";
+import SettingsModal from "./SettingsModal";
 
 function ModalManagerContent() {
   const router = useRouter();
@@ -39,6 +41,10 @@ function ModalManagerContent() {
         return <ProfileView onClose={closeModal} />;
       case "edit-profile":
         return <EditProfileForm onClose={closeModal} />;
+      case "security":
+        return <SecurityModal onClose={closeModal} />;
+      case "settings":
+        return <SettingsModal onClose={closeModal} />;
       default:
         return null;
     }
@@ -50,6 +56,8 @@ function ModalManagerContent() {
     forgot: "Forgot Password",
     profile: "My Profile",
     "edit-profile": "Edit Profile",
+    security: "Security Center",
+    settings: "Settings & Preferences",
   };
 
   return (

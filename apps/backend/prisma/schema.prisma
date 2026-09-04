@@ -43,8 +43,9 @@ model User {
   image         String?
   password      String?
   role          Role      @default(USER)
+  status        String    @default("ACTIVE") // ACTIVE, SUSPENDED, DEACTIVATED
   
-  // Profile Attributes
+  // Legacy / Direct Profile Attributes (Preserved for backward compatibility)
   headline      String?
   bio           String?   @db.Text
   location      String?
@@ -52,6 +53,11 @@ model User {
   createdAt     DateTime       @default(now())
   updatedAt     DateTime       @updatedAt
   
+  // Relational User Account Architecture
+  profile         UserProfile?
+  preferences     UserPreference?
+  userSessions    UserSession[]
+
   // NextAuth & Identity Relations
   accounts      Account[]
   sessions      Session[]
@@ -68,6 +74,40 @@ model User {
 
   @@index([email])
   @@index([role])
+}
+
+model UserProfile {
+  userId      String   @id
+  displayName String?
+  firstName   String?
+  lastName    String?
+  headline    String?
+  bio         String?  @db.Text
+  avatarUrl   String?
+  location    String?
+  websiteUrl  String?
+  githubUrl   String?
+  linkedinUrl String?
+  twitterUrl  String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model UserPreference {
+  userId               String   @id
+  theme                String   @default("dark") // dark, light, system
+  emailNotifications   Boolean  @default(true)
+  weeklyDigest         Boolean  @default(true)
+  jobAlerts            Boolean  @default(true)
+  profileVisibility    String   @default("PUBLIC") // PUBLIC, PRIVATE, RECRUITERS_ONLY
+  careerGoalVisibility Boolean  @default(true)
+  customSettings       Json?    @default("{}")
+  createdAt            DateTime @default(now())
+  updatedAt            DateTime @updatedAt
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
 }
 
 model Account {
@@ -100,6 +140,28 @@ model Session {
   @@index([userId])
 }
 
+model UserSession {
+  id           String    @id @default(cuid())
+  userId       String
+  sessionToken String    @unique
+  ipAddress    String?
+  userAgent    String?
+  deviceType   String?   @default("Desktop") // Desktop, Mobile, Tablet, Unknown
+  browser      String?
+  os           String?
+  revokedAt    DateTime?
+  lastActiveAt DateTime  @default(now())
+  expiresAt    DateTime
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime  @default(now()) @updatedAt
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@index([expiresAt])
+  @@index([revokedAt])
+}
+
 model VerificationToken {
   identifier String
   token      String   @unique
@@ -111,9 +173,10 @@ model VerificationToken {
 model SecurityLog {
   id        String   @id @default(cuid())
   userId    String
-  eventType String   // login_success, failed_login, register_success, password_change, logout
+  eventType String   // login_success, failed_login, register_success, password_change, session_revoked, logout
   ipAddress String?
   userAgent String?
+  details   Json?
   createdAt DateTime @default(now())
 
   user User @relation(fields: [userId], references: [id], onDelete: Cascade)

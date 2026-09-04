@@ -12,6 +12,7 @@ import {
   Loader2,
   CheckCircle2,
 } from "lucide-react";
+import { api } from "@/lib/api";
 
 export default function SignUpForm({ onClose }) {
   const router = useRouter();
@@ -45,33 +46,25 @@ export default function SignUpForm({ onClose }) {
     setLoading(true);
 
     try {
-      // 1. Call registration API
-      const res = await fetch("/api/auth/register", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          name: name.trim(),
-          email: email.trim().toLowerCase(),
-          password,
-          confirmPassword,
-        }),
+      const normalizedEmail = email.trim().toLowerCase();
+
+      // 1. Call cookie-based signup API to register and set HTTP-only cookie
+      await api.auth.signup({
+        name: name.trim(),
+        email: normalizedEmail,
+        password,
+        confirmPassword,
       });
 
-      const data = await res.json();
-
-      if (!res.ok) {
-        throw new Error(data.error || "Failed to register account.");
-      }
-
-      // 2. Automatically log in the user upon successful registration
+      // 2. Synchronize NextAuth client session
       const loginResult = await signIn("credentials", {
         redirect: false,
-        email: email.trim().toLowerCase(),
+        email: normalizedEmail,
         password,
       });
 
       if (loginResult?.error) {
-        // In case automatic login fails, switch to signin modal
+        // Fallback: switch to signin modal
         const url = new URL(window.location.href);
         url.searchParams.set("modal", "signin");
         window.history.replaceState(null, "", url.toString());

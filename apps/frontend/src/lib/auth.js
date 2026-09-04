@@ -25,6 +25,9 @@ if (process.env.GITHUB_CLIENT_ID && process.env.GITHUB_CLIENT_SECRET) {
   );
 }
 
+// Timing-attack mitigation decoy hash
+const DUMMY_BCRYPT_HASH = "$2a$10$N9qo8uLOickgx2ZMRZoMyeIjZAgcfl7p92ldGxad68LJZdL17lhWy";
+
 providers.push(
   CredentialsProvider({
     name: "credentials",
@@ -43,9 +46,14 @@ providers.push(
         where: {
           email: normalizedEmail,
         },
+        include: {
+          profile: true,
+        },
       });
 
       if (!user || !user.password) {
+        // Timing-attack mitigation: perform constant-time dummy comparison
+        await bcrypt.compare(credentials.password, DUMMY_BCRYPT_HASH);
         throw new Error("Invalid email or password.");
       }
 
@@ -69,7 +77,7 @@ providers.push(
         throw new Error("Invalid email or password.");
       }
 
-      // Record security log for successful login
+      // Record security log for successful login & track active session
       try {
         await prisma.securityLog.create({
           data: {
@@ -77,16 +85,46 @@ providers.push(
             eventType: "login_success",
           },
         });
-      } catch {
-        // Non-blocking log creation
+
+        // Ensure user profile exists
+        if (!user.profile) {
+          await prisma.userProfile.create({
+            data: {
+              userId: user.id,
+              displayName: user.name || "FlowCTRL User",
+              headline: user.headline || "",
+              bio: user.bio || "",
+              location: user.location || "",
+            },
+          });
+        }
+
+        // Register active device session (30-day expiry)
+        const expiresAt = new Date(Date.now() + 30 * 24 * 60 * 60 * 1000);
+        const sessionToken = `sess_${user.id}_${Date.now()}`;
+        await prisma.userSession.create({
+          data: {
+            userId: user.id,
+            sessionToken,
+            ipAddress: "127.0.0.1",
+            userAgent: "FlowCTRL Web Client",
+            deviceType: "Desktop",
+            browser: "Web Browser",
+            os: "Windows",
+            expiresAt,
+          },
+        });
+      } catch (err) {
+        // Non-blocking log and session registration
+        console.warn("[Auth Post-Login Error]:", err.message);
       }
 
       return {
         id: user.id,
-        name: user.name,
+        name: user.profile?.displayName || user.name,
         email: user.email,
         role: user.role,
-        image: user.image,
+        image: user.profile?.avatarUrl || user.image,
       };
     },
   }),
