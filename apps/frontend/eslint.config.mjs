@@ -1,18 +1,30 @@
+import js from "@eslint/js";
 import { defineConfig, globalIgnores } from "eslint/config";
-import nextVitals from "eslint-config-next/core-web-vitals";
-import nextTs from "eslint-config-next/typescript";
 
-const eslintConfig = defineConfig([
-  ...nextVitals,
-  ...nextTs,
-  // Override default ignores of eslint-config-next.
+export default defineConfig([
   globalIgnores([
-    // Default ignores of eslint-config-next:
     ".next/**",
     "out/**",
     "build/**",
-    "next-env.d.ts",
+    "public/**",
+    "node_modules/**",
   ]),
+  js.configs.recommended,
+  {
+    files: ["**/*.{js,jsx,mjs}"],
+    languageOptions: {
+      ecmaVersion: "latest",
+      sourceType: "module",
+      parserOptions: {
+        ecmaFeatures: {
+          jsx: true,
+        },
+      },
+    },
+    rules: {
+      "no-unused-vars": ["warn", { argsIgnorePattern: "^_", varsIgnorePattern: "^(React|_)" }],
+      "no-empty": ["error", { allowEmptyCatch: true }],
+      "no-undef": "off",
+    },
+  },
 ]);
-
-export default eslintConfig;

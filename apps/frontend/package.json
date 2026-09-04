@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint",
+    "lint": "eslint .",
     "test": "echo frontend tests ok",
     "test:integration": "echo frontend integration tests ok"
   },
@@ -19,7 +19,6 @@
     "@prisma/adapter-pg": "^7.9.1",
     "@prisma/client": "^7.9.1",
     "@radix-ui/react-slot": "^1.2.3",
-    "@types/pg": "^8.20.4",
     "bcrypt": "^6.0.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
@@ -37,13 +36,9 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
-    "@types/bcrypt": "^6.0.0",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
+    "@types/node": "26.4.1",
     "eslint": "^9",
     "eslint-config-next": "16.2.12",
-    "tailwindcss": "^4",
-    "typescript": "^5"
+    "tailwindcss": "^4"
   }
 }

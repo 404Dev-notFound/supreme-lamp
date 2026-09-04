@@ -1,9 +1,8 @@
 {
   "name": "@flowctrl/types",
   "version": "1.0.0",
-  "description": "Shared types and schemas for flowCTRL",
+  "description": "Shared constants, schemas, and enums for flowCTRL",
   "main": "index.js",
-  "types": "index.ts",
   "scripts": {
     "build": "echo @flowctrl/types ready",
     "lint": "echo @flowctrl/types lint ok",
