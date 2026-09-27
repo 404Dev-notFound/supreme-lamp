@@ -85,7 +85,7 @@ export default function LandingPage() {
         <div className="flex flex-col sm:flex-row items-center gap-4">
           <DevRoadmapButton size="md" variant="glow" />
           <Link
-            href="/signup"
+            href="?modal=signup"
             className="flex items-center gap-2 bg-white text-black px-6 py-3 rounded-full font-medium hover:bg-zinc-200 transition-all text-sm"
           >
             Start your journey <ArrowRight className="w-4 h-4" />
@@ -249,7 +249,7 @@ export default function LandingPage() {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
-              href="/signup"
+              href="?modal=signup"
               className="inline-flex items-center gap-2 bg-white text-black px-8 py-4 rounded-full font-semibold hover:scale-105 transition-transform"
             >
               Create your free account

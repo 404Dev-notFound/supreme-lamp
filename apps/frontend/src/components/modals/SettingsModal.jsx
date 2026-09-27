@@ -2,7 +2,6 @@
 
 import React, { useState, useEffect } from "react";
 import {
-  Settings,
   Bell,
   Eye,
   Sun,
@@ -41,7 +40,7 @@ export default function SettingsModal({ onClose }) {
           setProfileVisibility(data.profileVisibility || "PUBLIC");
           setCareerGoalVisibility(data.careerGoalVisibility ?? true);
         }
-      } catch (err) {
+      } catch {
         setError("Failed to load user preferences.");
       } finally {
         setLoading(false);

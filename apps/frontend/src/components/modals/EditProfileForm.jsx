@@ -68,7 +68,7 @@ export default function EditProfileForm({ onClose }) {
   const [skills, setSkills] = useState([]);
   const [newSkillName, setNewSkillName] = useState("");
   const [newSkillCategory, setNewSkillCategory] = useState("Frontend");
-  const [newSkillProficiency, setNewSkillProficiency] = useState(3);
+  const newSkillProficiency = 3;
 
   const [loading, setLoading] = useState(true);
   const [saving, setSaving] = useState(false);

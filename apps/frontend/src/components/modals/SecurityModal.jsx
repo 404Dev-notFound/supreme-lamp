@@ -16,7 +16,7 @@ import {
   Clock,
 } from "lucide-react";
 
-export default function SecurityModal({ onClose }) {
+export default function SecurityModal({ onClose: _onClose }) {
   const [sessions, setSessions] = useState([]);
   const [securityLogs, setSecurityLogs] = useState([]);
   const [loadingSessions, setLoadingSessions] = useState(true);

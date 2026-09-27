@@ -220,7 +220,7 @@ export default function ProfileView({ onClose }) {
               rel="noopener noreferrer"
               className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-white/5 hover:bg-white/10 text-sky-400 border border-white/10 transition-colors"
             >
-              <Twitter className="w-3.5 h-3.5" /> Twitter
+              <TwitterIcon className="w-3.5 h-3.5" /> Twitter
             </a>
           )}
         </div>

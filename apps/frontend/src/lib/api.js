@@ -125,6 +125,23 @@ export const api = {
     revokeSession: (sessionId) => api.delete(`/api/user/security/sessions/${sessionId}`),
     revokeAllSessions: () => api.post("/api/user/security/sessions/revoke-all"),
   },
+
+  // Centralized Roadmaps API Methods
+  roadmaps: {
+    getAll: (params = {}) => {
+      const q = new URLSearchParams(params).toString();
+      return api.get(`/api/roadmaps${q ? `?${q}` : ""}`);
+    },
+    getBySlug: (slug) => api.get(`/api/roadmaps/${slug}`),
+  },
+
+  // Centralized Job Matcher API Methods
+  jobMatcher: {
+    getMatches: (params = {}) => {
+      const q = new URLSearchParams(params).toString();
+      return api.get(`/api/job-matcher${q ? `?${q}` : ""}`);
+    },
+  },
 };
 
 export { ApiError };
