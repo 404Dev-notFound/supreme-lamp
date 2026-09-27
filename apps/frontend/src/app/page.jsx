@@ -107,9 +107,9 @@ export default function LandingPage() {
             <div className="w-3 h-3 rounded-full bg-red-500/80" />
             <div className="w-3 h-3 rounded-full bg-yellow-500/80" />
             <div className="w-3 h-3 rounded-full bg-green-500/80" />
-            <div className="absolute left-1/2 -translate-x-1/2 flex items-center bg-white/5 border border-white/10 rounded-md px-3 py-1 text-xs text-zinc-400 font-medium tracking-wide w-64 justify-center shadow-inner">
+            <div className="absolute left-1/2 -translate-x-1/2 flex items-center bg-white/5 border border-white/10 rounded-md px-3 py-1 text-xs text-zinc-400 font-medium tracking-wide w-80 justify-center shadow-inner">
               <span className="opacity-50 mr-1">🔒</span>{" "}
-              localhost:3000/wellbeing
+              https://fluffy-spoon-score.vercel.app/
             </div>
           </div>
           {/* Embedded Mental Health App */}
