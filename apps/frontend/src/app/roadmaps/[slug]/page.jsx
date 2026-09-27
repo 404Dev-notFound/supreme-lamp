@@ -91,19 +91,25 @@ export default function RoadmapDetailPage({ params }) {
     <div className="min-h-screen text-zinc-100 font-sans selection:bg-primary/30 pb-24">
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 z-40 flex items-center justify-between px-6 py-4 glass border-b border-white/10">
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-3">
           <Link
-            href="/roadmaps"
-            aria-label="Back to Roadmaps Catalog"
-            className="p-2 rounded-full glass hover:bg-white/10 transition-colors text-zinc-400 hover:text-white"
+            href="/"
+            className="flex items-center gap-2 hover:opacity-80 transition-opacity"
+            aria-label="flowCTRL Home"
           >
-            <ArrowLeft className="w-4 h-4" />
-          </Link>
-          <div className="flex items-center gap-2">
-            <span className="font-semibold text-lg tracking-tight text-white">
-              {roadmap.title}
+            <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center shadow-lg shadow-primary/20">
+              <span className="font-bold text-primary-foreground tracking-tighter">
+                fC
+              </span>
+            </div>
+            <span className="font-semibold text-lg tracking-tight text-white hidden sm:inline">
+              flowCTRL
             </span>
-          </div>
+          </Link>
+          <span className="text-zinc-500 mx-1">/</span>
+          <span className="font-semibold text-lg tracking-tight text-white truncate max-w-[200px] sm:max-w-md">
+            {roadmap.title}
+          </span>
         </div>
 
         <div className="flex items-center gap-4">

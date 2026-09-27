@@ -25,14 +25,17 @@ export default function LandingPage() {
     <div className="min-h-screen text-zinc-100 font-sans selection:bg-primary/30">
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 py-4 glass border-b border-white/10">
-        <div className="flex items-center gap-2">
+        <Link
+          href="/"
+          className="flex items-center gap-2 hover:opacity-80 transition-opacity"
+        >
           <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center shadow-lg shadow-primary/20">
             <span className="font-bold text-primary-foreground tracking-tighter">
               fC
             </span>
           </div>
           <span className="font-semibold text-lg tracking-tight">flowCTRL</span>
-        </div>
+        </Link>
         <div className="hidden md:flex items-center gap-8 text-sm font-medium text-zinc-400">
           <Link
             href="/roadmaps"
@@ -273,12 +276,15 @@ export default function LandingPage() {
         <div className="absolute inset-0 bg-background/80 pointer-events-none" />
         <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8 mb-12 relative z-10">
           <div>
-            <div className="flex items-center gap-2 mb-6">
+            <Link
+              href="/"
+              className="flex items-center gap-2 mb-6 hover:opacity-80 transition-opacity inline-flex"
+            >
               <div className="w-6 h-6 rounded bg-primary flex items-center justify-center text-xs font-bold text-primary-foreground">
                 fC
               </div>
               <span className="font-semibold tracking-tight">flowCTRL</span>
-            </div>
+            </Link>
             <p className="text-zinc-500 text-sm">
               The Career Operating System.
             </p>
