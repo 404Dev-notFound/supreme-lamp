@@ -24,6 +24,39 @@ function getCookie(name) {
   return match ? decodeURIComponent(match[3]) : null;
 }
 
+// Client-side in-memory cache for GET requests with TTL
+const clientCache = new Map();
+const DEFAULT_CACHE_TTL_MS = 60 * 1000; // 1 minute
+
+function getCached(key) {
+  if (typeof window === "undefined") return null;
+  const entry = clientCache.get(key);
+  if (!entry) return null;
+  if (Date.now() > entry.expiry) {
+    clientCache.delete(key);
+    return null;
+  }
+  return entry.data;
+}
+
+function setCache(key, data, ttlMs = DEFAULT_CACHE_TTL_MS) {
+  if (typeof window === "undefined" || !data) return;
+  clientCache.set(key, { data, expiry: Date.now() + ttlMs });
+}
+
+export function clearClientCache(prefix = "") {
+  if (typeof window === "undefined") return;
+  if (!prefix) {
+    clientCache.clear();
+    return;
+  }
+  for (const key of clientCache.keys()) {
+    if (key.startsWith(prefix)) {
+      clientCache.delete(key);
+    }
+  }
+}
+
 /**
  * Core centralized request utility
  */
@@ -32,8 +65,21 @@ async function request(endpoint, options = {}) {
     method = "GET",
     body,
     headers = {},
+    skipCache = false,
+    ttlMs = DEFAULT_CACHE_TTL_MS,
     ...customConfig
   } = options;
+
+  const isGet = method.toUpperCase() === "GET";
+  const cacheKey = `${method}:${endpoint}`;
+
+  // Check client-side cache for idempotent GET requests
+  if (isGet && !skipCache) {
+    const cached = getCached(cacheKey);
+    if (cached !== null) {
+      return cached;
+    }
+  }
 
   const defaultHeaders = {
     Accept: "application/json",
@@ -95,6 +141,14 @@ async function request(endpoint, options = {}) {
     throw new ApiError(errorMessage, response.status, errorCode, details);
   }
 
+  // Cache successful GET responses in memory
+  if (isGet && !skipCache) {
+    setCache(cacheKey, data, ttlMs);
+  } else if (isMutating) {
+    // Invalidate client cache on state mutation
+    clearClientCache();
+  }
+
   return data;
 }
 
@@ -104,6 +158,7 @@ export const api = {
   put: (url, body, options = {}) => request(url, { method: "PUT", body, ...options }),
   patch: (url, body, options = {}) => request(url, { method: "PATCH", body, ...options }),
   delete: (url, options = {}) => request(url, { method: "DELETE", ...options }),
+  clearCache: clearClientCache,
 
   // Centralized Auth API Methods
   auth: {
