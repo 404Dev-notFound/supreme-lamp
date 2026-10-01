@@ -4,12 +4,14 @@ import React, { useState, useMemo } from "react";
 import Link from "next/link";
 import { Compass, Search, Sparkles, ArrowLeft } from "lucide-react";
 import DevRoadmapCard from "../../components/roadmap/DevRoadmapCard";
+import ResumeScreenerModal from "../../components/modals/ResumeScreenerModal";
 import NavProfile from "../../components/NavProfile";
 import { getAllRoadmaps } from "@flowctrl/roadmap-data";
 
 export default function RoadmapsCatalogPage() {
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("all");
+  const [isResumeScreenerOpen, setResumeScreenerOpen] = useState(false);
 
   const roadmaps = useMemo(() => {
     return getAllRoadmaps();
@@ -81,12 +83,13 @@ export default function RoadmapsCatalogPage() {
         </div>
 
         <div className="flex items-center gap-4">
-          <Link
-            href="/resume-screener"
-            className="text-sm font-medium text-zinc-400 hover:text-white transition-colors hidden sm:inline"
+          <button
+            type="button"
+            onClick={() => setResumeScreenerOpen(true)}
+            className="text-sm font-medium text-zinc-400 hover:text-white transition-colors hidden sm:inline cursor-pointer"
           >
             Resume Screener
-          </Link>
+          </button>
           <NavProfile />
         </div>
       </nav>
@@ -172,6 +175,11 @@ export default function RoadmapsCatalogPage() {
           </div>
         )}
       </section>
+
+      <ResumeScreenerModal
+        isOpen={isResumeScreenerOpen}
+        onClose={() => setResumeScreenerOpen(false)}
+      />
     </div>
   );
 }

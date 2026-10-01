@@ -1,0 +1,53 @@
+ATS Resume Analysis (Resume Screener) — https://ats-resume-analysis.netlify.app
+Mental Health Score (Fluffy Spoon) — https://fluffy-spoon-score.vercel.app
+FlowCTRL — https://flowctrl.dev
+Google Identity / OAuth — https://accounts.google.com
+Google Cloud Console — https://console.cloud.google.com
+GitHub — https://github.com
+LinkedIn — https://www.linkedin.com
+X (Twitter) — https://x.com
+roadmap.sh — https://roadmap.sh
+OpenAI — https://openai.com
+Anthropic Claude — https://www.anthropic.com
+Google Gemini — https://gemini.google.com
+Unsplash — https://images.unsplash.com
+Unpkg — https://unpkg.com
+Google Fonts — https://fonts.google.com
+PostgreSQL — https://www.postgresql.org
+Prisma — https://www.prisma.io
+OpenTelemetry — https://opentelemetry.io
+Jaeger Tracing — https://www.jaegertracing.io
+Prometheus — https://prometheus.io
+Docker Hub — https://hub.docker.com
+Adminer — https://www.adminer.org
+Vercel — https://vercel.com
+Netlify — https://www.netlify.com
+npm Registry — https://registry.npmjs.org
+Turborepo / Turbopack — https://turbo.build
+Next.js — https://nextjs.org
+NextAuth.js — https://next-auth.js.org
+Tailwind CSS — https://tailwindcss.com
+Lucide Icons — https://lucide.dev
+Three.js — https://threejs.org
+Framer Motion — https://www.framer.com/motion
+React Flow — https://reactflow.dev
+Stripe — https://stripe.com
+Datadog — https://www.datadoghq.com
+Linear — https://linear.app
+Feishu / Lark Open Platform — https://open.feishu.cn
+Xiaomi MiMo AI — https://api.xiaomimimo.com
+OpenCode AI — https://opencode.ai
+Web Scraping Dev API — https://api.web-scraping.dev
+Apple Podcasts — https://podcasts.apple.com
+Xiaoyuzhou FM — https://www.xiaoyuzhoufm.com
+Xiaohongshu (RED) — https://www.xiaohongshu.com
+Nowcoder — https://www.nowcoder.com
+Zhiye (Beisen ATS) — https://www.zhiye.com
+Hotjob (Dayee ATS) — https://www.hotjob.cn
+Tupu360 ATS — https://www.tupu360.com
+Tencent Cloud Mirrors — https://mirrors.tencent.com
+Discord — https://discord.com
+Placehold.co — https://placehold.co
+Polar — https://polar.sh
+ripgrep — https://github.com/BurntSushi/ripgrep
+fd — https://github.com/sharkdp/fd

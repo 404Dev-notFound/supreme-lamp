@@ -114,3 +114,6 @@ JobRadar/backend/data/narrative_cache/
 JobRadar/backend/scripts/_out/
 JobRadar/docs/_private/
 JobRadar/backend/data/_private/
+
+# Scratch & Temporary
+scratch/

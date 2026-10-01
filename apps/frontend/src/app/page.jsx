@@ -11,8 +11,10 @@ import {
   BookOpen,
   Target,
   CheckCircle2,
+  FileText,
 } from "lucide-react";
 import JobMatcherModal from "../components/JobMatcherModal";
+import ResumeScreenerModal from "../components/modals/ResumeScreenerModal";
 import NavProfile from "../components/NavProfile";
 import WellbeingEmbed from "../components/WellbeingEmbed";
 import CompanyMarquee from "../components/CompanyMarquee";
@@ -20,6 +22,7 @@ import DevRoadmapButton from "../components/roadmap/DevRoadmapButton";
 
 export default function LandingPage() {
   const [isJobMatcherOpen, setJobMatcherOpen] = useState(false);
+  const [isResumeScreenerOpen, setResumeScreenerOpen] = useState(false);
 
   return (
     <div className="min-h-screen text-zinc-100 font-sans selection:bg-primary/30">
@@ -47,12 +50,13 @@ export default function LandingPage() {
           <Link href="#features" className="hover:text-white transition-colors">
             Features
           </Link>
-          <Link
-            href="/resume-screener"
-            className="hover:text-white transition-colors"
+          <button
+            type="button"
+            onClick={() => setResumeScreenerOpen(true)}
+            className="hover:text-white transition-colors cursor-pointer text-sm font-medium text-zinc-400"
           >
             Resume Screener
-          </Link>
+          </button>
           <Link href="#pricing" className="hover:text-white transition-colors">
             Pricing
           </Link>
@@ -93,12 +97,14 @@ export default function LandingPage() {
           >
             Start your journey <ArrowRight className="w-4 h-4" />
           </Link>
-          <Link
-            href="/resume-screener"
-            className="flex items-center gap-2 px-6 py-3 rounded-full font-medium text-zinc-300 hover:text-white hover:bg-white/5 transition-all text-sm"
+          <button
+            type="button"
+            onClick={() => setResumeScreenerOpen(true)}
+            className="flex items-center gap-2 px-6 py-3 rounded-full font-medium text-zinc-300 hover:text-white hover:bg-white/5 transition-all text-sm cursor-pointer"
           >
+            <FileText className="w-4 h-4 text-emerald-400" />
             Resume Screener
-          </Link>
+          </button>
         </div>
       </section>
 
@@ -211,6 +217,13 @@ export default function LandingPage() {
                 Ensure your resume passes automated filters before it even
                 reaches human eyes.
               </p>
+              <button
+                type="button"
+                onClick={() => setResumeScreenerOpen(true)}
+                className="inline-flex mt-4 px-4 py-2 bg-yellow-500/20 text-yellow-300 border border-yellow-500/30 rounded-md hover:bg-yellow-500/30 cursor-pointer text-xs font-semibold items-center gap-1.5 transition-colors"
+              >
+                Scan Resume
+              </button>
             </div>
 
             {/* Feature 6 */}
@@ -307,12 +320,13 @@ export default function LandingPage() {
                 </Link>
               </li>
               <li>
-                <Link
-                  href="/resume-screener"
-                  className="hover:text-white transition-colors"
+                <button
+                  type="button"
+                  onClick={() => setResumeScreenerOpen(true)}
+                  className="hover:text-white transition-colors cursor-pointer text-left"
                 >
                   Resume Screener
-                </Link>
+                </button>
               </li>
               <li>
                 <Link
@@ -394,6 +408,10 @@ export default function LandingPage() {
       </footer>
 
       <JobMatcherModal isOpen={isJobMatcherOpen} setOpen={setJobMatcherOpen} />
+      <ResumeScreenerModal
+        isOpen={isResumeScreenerOpen}
+        onClose={() => setResumeScreenerOpen(false)}
+      />
     </div>
   );
 }

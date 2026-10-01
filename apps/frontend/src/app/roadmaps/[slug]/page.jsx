@@ -5,6 +5,7 @@ import Link from "next/link";
 import { ArrowLeft, Compass, CheckCircle2, BookOpen } from "lucide-react";
 import DevRoadmapGraph from "../../../components/roadmap/DevRoadmapGraph";
 import DevRoadmapTopicDrawer from "../../../components/roadmap/DevRoadmapTopicDrawer";
+import ResumeScreenerModal from "../../../components/modals/ResumeScreenerModal";
 import NavProfile from "../../../components/NavProfile";
 import { getRoadmapBySlug } from "@flowctrl/roadmap-data";
 
@@ -18,6 +19,7 @@ export default function RoadmapDetailPage({ params }) {
 
   const [selectedTopic, setSelectedTopic] = useState(null);
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
+  const [isResumeScreenerOpen, setResumeScreenerOpen] = useState(false);
 
   const [completedTopics, setCompletedTopics] = useState(() => {
     if (typeof window !== "undefined" && slug) {
@@ -113,12 +115,13 @@ export default function RoadmapDetailPage({ params }) {
         </div>
 
         <div className="flex items-center gap-4">
-          <Link
-            href="/resume-screener"
-            className="text-sm font-medium text-zinc-400 hover:text-white transition-colors hidden md:inline"
+          <button
+            type="button"
+            onClick={() => setResumeScreenerOpen(true)}
+            className="text-sm font-medium text-zinc-400 hover:text-white transition-colors hidden md:inline cursor-pointer"
           >
             Resume Screener
-          </Link>
+          </button>
           <NavProfile />
         </div>
       </nav>
@@ -203,6 +206,11 @@ export default function RoadmapDetailPage({ params }) {
         }
         onToggleComplete={handleToggleComplete}
         roadmapSlug={slug}
+      />
+
+      <ResumeScreenerModal
+        isOpen={isResumeScreenerOpen}
+        onClose={() => setResumeScreenerOpen(false)}
       />
     </div>
   );

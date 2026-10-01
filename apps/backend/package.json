@@ -31,7 +31,11 @@
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "helmet": "^8.3.0",
+    "jsonwebtoken": "^9.0.2",
     "morgan": "^1.11.0",
-    "next-auth": "^4.24.15"
+    "next-auth": "^4.24.15",
+    "pg": "^8.22.0",
+    "@prisma/adapter-pg": "^7.9.1",
+    "@prisma/client": "^7.9.1"
   }
 }

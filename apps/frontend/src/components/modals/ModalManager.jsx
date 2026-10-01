@@ -10,6 +10,7 @@ import ProfileView from "./ProfileView";
 import EditProfileForm from "./EditProfileForm";
 import SecurityModal from "./SecurityModal";
 import SettingsModal from "./SettingsModal";
+import ResumeScreenerModal from "./ResumeScreenerModal";
 
 function ModalManagerContent() {
   const router = useRouter();
@@ -24,10 +25,20 @@ function ModalManagerContent() {
     params.delete("modal");
     const newSearch = params.toString();
     const href = `${pathname}${newSearch ? `?${newSearch}` : ""}`;
-    router.replace(href);
+    try {
+      router.replace(href);
+    } catch {
+      if (typeof window !== "undefined") {
+        window.history.replaceState(null, "", href);
+      }
+    }
   };
 
   if (!modal) return null;
+
+  if (modal === "resume-screener") {
+    return <ResumeScreenerModal isOpen={true} onClose={closeModal} />;
+  }
 
   const renderContent = () => {
     switch (modal) {
