@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import { ArrowLeft, ExternalLink, FileText, Sparkles } from "lucide-react";
 import NavProfile from "@/components/NavProfile";
+import Footer from "@/components/Footer";
 
 const EXTERNAL_URL = "https://ats-resume-analysis.netlify.app";
 
@@ -77,8 +78,9 @@ export default function ResumeScreenerPage() {
                 ATS Resume Analysis & Scoring
               </h1>
               <p className="text-sm text-zinc-400 max-w-2xl">
-                Upload your resume to evaluate ATS compatibility, keyword matching,
-                formatting flaws, and get actionable recruiter insights.
+                Upload your resume to evaluate ATS compatibility, keyword
+                matching, formatting flaws, and get actionable recruiter
+                insights.
               </p>
             </div>
 
@@ -157,7 +159,9 @@ export default function ResumeScreenerPage() {
           {/* Bottom Bar */}
           <div className="px-4 py-2 border-t border-white/5 bg-zinc-900/60 flex items-center justify-between text-xs text-zinc-400 shrink-0">
             <span>
-              External tool: <strong className="text-zinc-200">ATS Resume Analysis</strong> • Screen resumes, analyze formatting, and view score breakdown
+              External tool:{" "}
+              <strong className="text-zinc-200">ATS Resume Analysis</strong> •
+              Screen resumes, analyze formatting, and view score breakdown
             </span>
             <a
               href={EXTERNAL_URL}
@@ -170,6 +174,8 @@ export default function ResumeScreenerPage() {
           </div>
         </div>
       </main>
+
+      <Footer />
     </div>
   );
 }

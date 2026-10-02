@@ -7,6 +7,7 @@ import DevRoadmapGraph from "../../../components/roadmap/DevRoadmapGraph";
 import DevRoadmapTopicDrawer from "../../../components/roadmap/DevRoadmapTopicDrawer";
 import ResumeScreenerModal from "../../../components/modals/ResumeScreenerModal";
 import NavProfile from "../../../components/NavProfile";
+import Footer from "../../../components/Footer";
 import { getRoadmapBySlug } from "@flowctrl/roadmap-data";
 
 export default function RoadmapDetailPage({ params }) {
@@ -195,6 +196,8 @@ export default function RoadmapDetailPage({ params }) {
           completedTopics={completedTopics}
         />
       </main>
+
+      <Footer />
 
       {/* Topic Detail Drawer */}
       <DevRoadmapTopicDrawer

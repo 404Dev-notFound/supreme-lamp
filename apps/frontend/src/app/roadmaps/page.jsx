@@ -6,6 +6,7 @@ import { Compass, Search, Sparkles, ArrowLeft } from "lucide-react";
 import DevRoadmapCard from "../../components/roadmap/DevRoadmapCard";
 import ResumeScreenerModal from "../../components/modals/ResumeScreenerModal";
 import NavProfile from "../../components/NavProfile";
+import Footer from "../../components/Footer";
 import { getAllRoadmaps } from "@flowctrl/roadmap-data";
 
 export default function RoadmapsCatalogPage() {
@@ -175,6 +176,8 @@ export default function RoadmapsCatalogPage() {
           </div>
         )}
       </section>
+
+      <Footer />
 
       <ResumeScreenerModal
         isOpen={isResumeScreenerOpen}

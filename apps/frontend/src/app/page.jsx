@@ -19,6 +19,7 @@ import NavProfile from "../components/NavProfile";
 import WellbeingEmbed from "../components/WellbeingEmbed";
 import CompanyMarquee from "../components/CompanyMarquee";
 import DevRoadmapButton from "../components/roadmap/DevRoadmapButton";
+import Footer from "../components/Footer";
 
 export default function LandingPage() {
   const [isJobMatcherOpen, setJobMatcherOpen] = useState(false);
@@ -285,127 +286,7 @@ export default function LandingPage() {
       </section>
 
       {/* Footer */}
-      <footer className="border-t border-white/10 py-12 px-6 glass relative">
-        <div className="absolute inset-0 bg-background/80 pointer-events-none" />
-        <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8 mb-12 relative z-10">
-          <div>
-            <Link
-              href="/"
-              className="flex items-center gap-2 mb-6 hover:opacity-80 transition-opacity inline-flex"
-            >
-              <div className="w-6 h-6 rounded bg-primary flex items-center justify-center text-xs font-bold text-primary-foreground">
-                fC
-              </div>
-              <span className="font-semibold tracking-tight">flowCTRL</span>
-            </Link>
-            <p className="text-zinc-500 text-sm">
-              The Career Operating System.
-            </p>
-          </div>
-
-          <div>
-            <h4 className="font-semibold mb-4">Product</h4>
-            <ul className="space-y-2 text-sm text-zinc-500">
-              <li>
-                <Link
-                  href="/roadmaps"
-                  className="hover:text-white transition-colors"
-                >
-                  Interactive Dev Roadmaps
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="hover:text-white transition-colors">
-                  Skill Gap Analyzer
-                </Link>
-              </li>
-              <li>
-                <button
-                  type="button"
-                  onClick={() => setResumeScreenerOpen(true)}
-                  className="hover:text-white transition-colors cursor-pointer text-left"
-                >
-                  Resume Screener
-                </button>
-              </li>
-              <li>
-                <Link
-                  href="#pricing"
-                  className="hover:text-white transition-colors"
-                >
-                  Pricing
-                </Link>
-              </li>
-            </ul>
-          </div>
-
-          <div>
-            <h4 className="font-semibold mb-4">Community</h4>
-            <ul className="space-y-2 text-sm text-zinc-500">
-              <li>
-                <Link href="#" className="hover:text-white transition-colors">
-                  Mentors
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="hover:text-white transition-colors">
-                  Events
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="hover:text-white transition-colors">
-                  Discord
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="hover:text-white transition-colors">
-                  Blog
-                </Link>
-              </li>
-            </ul>
-          </div>
-
-          <div>
-            <h4 className="font-semibold mb-4">Company</h4>
-            <ul className="space-y-2 text-sm text-zinc-500">
-              <li>
-                <Link href="#" className="hover:text-white transition-colors">
-                  About
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="hover:text-white transition-colors">
-                  Careers
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="hover:text-white transition-colors">
-                  Legal
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="hover:text-white transition-colors">
-                  Contact
-                </Link>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div className="max-w-7xl mx-auto pt-8 border-t border-white/10 text-sm text-zinc-500 flex flex-col md:flex-row justify-between items-center relative z-10">
-          <p>© 2026 flowCTRL Inc. All rights reserved.</p>
-          <div className="flex gap-4 mt-4 md:mt-0">
-            <Link href="#" className="hover:text-zinc-300">
-              Twitter
-            </Link>
-            <Link href="#" className="hover:text-zinc-300">
-              GitHub
-            </Link>
-            <Link href="#" className="hover:text-zinc-300">
-              LinkedIn
-            </Link>
-          </div>
-        </div>
-      </footer>
+      <Footer />
 
       <JobMatcherModal isOpen={isJobMatcherOpen} setOpen={setJobMatcherOpen} />
       <ResumeScreenerModal
