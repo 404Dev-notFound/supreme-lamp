@@ -85,7 +85,7 @@ export default function JobMatcherModal({ isOpen, setOpen }) {
                   </h4>
                   <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 text-xs text-zinc-300">
                     <div>
-                      <span className="text-zinc-500 block mb-0.5">
+                      <span className="text-zinc-400 block mb-0.5">
                         Target Role
                       </span>
                       <strong className="text-white text-sm">
@@ -93,19 +93,19 @@ export default function JobMatcherModal({ isOpen, setOpen }) {
                       </strong>
                     </div>
                     <div>
-                      <span className="text-zinc-500 block mb-0.5">
+                      <span className="text-zinc-400 block mb-0.5">
                         Experience
                       </span>
                       <strong className="text-white text-sm">3 years</strong>
                     </div>
                     <div>
-                      <span className="text-zinc-500 block mb-0.5">
+                      <span className="text-zinc-400 block mb-0.5">
                         Readiness Score
                       </span>
                       <strong className="text-amber-400 text-sm">78%</strong>
                     </div>
                     <div>
-                      <span className="text-zinc-500 block mb-0.5">
+                      <span className="text-zinc-400 block mb-0.5">
                         Target Industry
                       </span>
                       <strong className="text-white text-sm">
@@ -119,7 +119,7 @@ export default function JobMatcherModal({ isOpen, setOpen }) {
                 <section className="mb-6 flex flex-wrap items-center justify-between gap-3">
                   <div className="flex items-center gap-2">
                     <button className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl glass border border-white/10 text-xs font-medium text-zinc-300 hover:text-white transition-colors cursor-pointer">
-                      <Filter className="w-3.5 h-3.5 text-zinc-400" /> Filters
+                      <Filter className="w-3.5 h-3.5 text-zinc-300" /> Filters
                     </button>
                   </div>
                   <select
@@ -146,11 +146,11 @@ export default function JobMatcherModal({ isOpen, setOpen }) {
 
                   {!loading && !error && (!jobs || jobs.length === 0) && (
                     <div className="text-center py-12 glass-card rounded-2xl border border-white/10">
-                      <Building2 className="w-10 h-10 text-zinc-600 mx-auto mb-2" />
+                      <Building2 className="w-10 h-10 text-zinc-400 mx-auto mb-2" />
                       <p className="text-sm font-medium text-white mb-1">
                         No job matches found for current criteria
                       </p>
-                      <p className="text-xs text-zinc-400 max-w-xs mx-auto">
+                      <p className="text-xs text-zinc-300 max-w-xs mx-auto">
                         Try broadening your skill profile or filter settings.
                       </p>
                     </div>
@@ -180,7 +180,7 @@ export default function JobMatcherModal({ isOpen, setOpen }) {
                                 <h5 className="font-semibold text-white text-sm truncate group-hover:text-amber-300 transition-colors">
                                   {job.title}
                                 </h5>
-                                <p className="text-xs text-zinc-400 truncate">
+                                <p className="text-xs text-zinc-300 truncate">
                                   {job.company?.name} • {job.location} (
                                   {job.workMode})
                                 </p>
@@ -200,7 +200,7 @@ export default function JobMatcherModal({ isOpen, setOpen }) {
                               {(job.missingSkills || []).map((s) => (
                                 <span
                                   key={s}
-                                  className="px-2 py-0.5 text-[10px] font-medium bg-white/5 border border-white/10 text-zinc-500 line-through rounded-full"
+                                  className="px-2 py-0.5 text-[10px] font-medium bg-white/5 border border-white/10 text-zinc-400 line-through rounded-full"
                                 >
                                   {s}
                                 </span>
@@ -208,7 +208,7 @@ export default function JobMatcherModal({ isOpen, setOpen }) {
                             </div>
                           </div>
 
-                          <div className="pt-4 mt-2 border-t border-white/5 flex items-center justify-between">
+                          <div className="pt-4 mt-2 border-t border-white/10 flex items-center justify-between">
                             <span className="text-xs font-bold text-amber-300">
                               {job.matchPercent}% Match
                             </span>
@@ -216,7 +216,7 @@ export default function JobMatcherModal({ isOpen, setOpen }) {
                               <Link
                                 href="/roadmaps"
                                 onClick={() => setOpen(false)}
-                                className="text-xs text-zinc-400 hover:text-white transition-colors"
+                                className="text-xs text-zinc-300 hover:text-white transition-colors"
                               >
                                 Roadmap
                               </Link>

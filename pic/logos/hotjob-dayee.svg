@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="hj-grad" x1="0" y1="0" x2="128" y2="128" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF5722"/>
+      <stop offset="1" stop-color="#D84315"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="url(#hj-grad)"/>
+  <path d="M64 28C64 28 44 48 44 68C44 79 53 88 64 88C75 88 84 79 84 68C84 48 64 28 64 28Z" fill="#FFFFFF"/>
+  <path d="M64 48C64 48 54 60 54 70C54 75.5 58.5 80 64 80C69.5 80 74 75.5 74 70C74 60 64 48 64 48Z" fill="#FF5722"/>
+  <circle cx="64" cy="72" r="4" fill="#FFD54F"/>
+</svg>

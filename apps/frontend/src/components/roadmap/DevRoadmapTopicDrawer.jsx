@@ -104,18 +104,18 @@ export default function DevRoadmapTopicDrawer({
           </div>
 
           {/* Description */}
-          <div className="mt-6 text-sm md:text-base text-zinc-300 leading-relaxed bg-white/5 p-5 rounded-xl border border-white/5">
+          <div className="mt-6 text-sm md:text-base text-zinc-200 leading-relaxed bg-white/5 p-5 rounded-xl border border-white/10 font-normal">
             {topic.description}
           </div>
 
           {/* Learning Resources */}
           <div className="mt-8">
             <div className="flex items-center justify-between mb-4">
-              <h3 className="text-sm font-bold uppercase tracking-wider text-zinc-400 flex items-center gap-2">
+              <h3 className="text-sm font-bold uppercase tracking-wider text-zinc-300 flex items-center gap-2">
                 <Sparkles className="w-4 h-4 text-orange-400" />
                 Handpicked Learning Resources
               </h3>
-              <span className="text-xs text-zinc-500">
+              <span className="text-xs text-zinc-400 font-medium">
                 {topic.resources?.length || 0} available
               </span>
             </div>
@@ -128,27 +128,27 @@ export default function DevRoadmapTopicDrawer({
                     href={res.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center justify-between p-3.5 rounded-xl bg-zinc-900/80 border border-white/10 hover:border-orange-500/40 hover:bg-white/5 transition-all group"
+                    className="flex items-center justify-between p-3.5 rounded-xl bg-zinc-900/90 border border-white/15 hover:border-orange-500/50 hover:bg-zinc-800/90 transition-all group shadow-md"
                   >
                     <div className="flex items-center gap-3 pr-4">
                       <div className="w-8 h-8 rounded-lg bg-white/5 flex items-center justify-center">
                         {getResourceIcon(res.type)}
                       </div>
                       <div>
-                        <p className="text-sm font-medium text-zinc-200 group-hover:text-amber-300 transition-colors line-clamp-1">
+                        <p className="text-sm font-medium text-zinc-100 group-hover:text-amber-300 transition-colors line-clamp-1">
                           {res.title}
                         </p>
-                        <span className="text-[11px] capitalize text-zinc-500">
+                        <span className="text-[11px] capitalize text-zinc-400 font-medium">
                           {res.type}
                         </span>
                       </div>
                     </div>
-                    <ExternalLink className="w-4 h-4 text-zinc-500 group-hover:text-orange-400 group-hover:translate-x-0.5 transition-all shrink-0" />
+                    <ExternalLink className="w-4 h-4 text-zinc-400 group-hover:text-orange-400 group-hover:translate-x-0.5 transition-all shrink-0" />
                   </a>
                 ))}
               </div>
             ) : (
-              <p className="text-xs text-zinc-500 italic py-4">
+              <p className="text-xs text-zinc-400 py-4">
                 No direct resource links attached. Refer to official community
                 documentation.
               </p>
@@ -157,13 +157,13 @@ export default function DevRoadmapTopicDrawer({
         </div>
 
         {/* Footer info & attribution */}
-        <div className="mt-10 pt-6 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-zinc-500">
+        <div className="mt-10 pt-6 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-zinc-400">
           <span>FlowCTRL Career Engine</span>
           <a
             href={`https://roadmap.sh/${roadmapSlug}`}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-1 text-orange-400/80 hover:text-orange-300 transition-colors"
+            className="flex items-center gap-1 text-orange-400 hover:text-orange-300 font-medium transition-colors"
           >
             Original Curriculum at roadmap.sh{" "}
             <ExternalLink className="w-3 h-3" />

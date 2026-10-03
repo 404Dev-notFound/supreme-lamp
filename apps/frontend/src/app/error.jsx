@@ -19,7 +19,7 @@ export default function Error({ error, reset }) {
         <h1 className="text-2xl font-bold text-white mb-2">
           Something went wrong
         </h1>
-        <p className="text-sm text-zinc-400 mb-6 leading-relaxed">
+        <p className="text-sm text-zinc-300 mb-6 leading-relaxed font-normal">
           {error?.message ||
             "We encountered an unexpected error while loading this page."}
         </p>

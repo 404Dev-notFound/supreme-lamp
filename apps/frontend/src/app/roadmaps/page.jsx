@@ -63,7 +63,7 @@ export default function RoadmapsCatalogPage() {
           <Link
             href="/"
             aria-label="Back to Home"
-            className="p-2 rounded-full glass hover:bg-white/10 transition-colors text-zinc-400 hover:text-white"
+            className="p-2 rounded-full glass hover:bg-white/10 transition-colors text-zinc-300 hover:text-white"
           >
             <ArrowLeft className="w-4 h-4" />
           </Link>
@@ -87,7 +87,7 @@ export default function RoadmapsCatalogPage() {
           <button
             type="button"
             onClick={() => setResumeScreenerOpen(true)}
-            className="text-sm font-medium text-zinc-400 hover:text-white transition-colors hidden sm:inline cursor-pointer"
+            className="text-sm font-medium text-zinc-300 hover:text-white transition-colors hidden sm:inline cursor-pointer"
           >
             Resume Screener
           </button>
@@ -99,7 +99,7 @@ export default function RoadmapsCatalogPage() {
       <section className="relative pt-36 pb-12 px-6 max-w-7xl mx-auto flex flex-col items-center text-center">
         <div className="absolute top-1/3 left-1/2 -translate-x-1/2 w-[600px] h-[300px] bg-orange-500/10 rounded-full blur-[100px] pointer-events-none" />
 
-        <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-orange-500/10 border border-orange-500/30 text-amber-300 text-xs font-semibold mb-6 glass">
+        <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-orange-500/20 border border-orange-500/40 text-amber-200 text-xs font-bold mb-6 glass">
           <Sparkles className="w-3.5 h-3.5 text-orange-400" />
           Structured Career Roadmaps & Learning Guides
         </div>
@@ -111,7 +111,7 @@ export default function RoadmapsCatalogPage() {
           </span>
         </h1>
 
-        <p className="text-base md:text-lg text-zinc-400 max-w-2xl mb-10 leading-relaxed">
+        <p className="text-base md:text-lg text-zinc-300 max-w-2xl mb-10 leading-relaxed font-normal">
           Explore interactive curriculum graphs, handpicked community resources,
           and track your progression across modern software engineering and AI
           tracks.
@@ -120,13 +120,13 @@ export default function RoadmapsCatalogPage() {
         {/* Search & Filter Bar */}
         <div className="w-full max-w-3xl flex flex-col sm:flex-row items-center gap-3">
           <div className="relative w-full">
-            <Search className="w-4 h-4 text-zinc-400 absolute left-4 top-1/2 -translate-y-1/2" />
+            <Search className="w-4 h-4 text-zinc-300 absolute left-4 top-1/2 -translate-y-1/2" />
             <input
               type="text"
               placeholder="Search by role, framework, skill or keyword (e.g. AI, React, Docker)..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              className="w-full pl-11 pr-4 py-3.5 rounded-2xl glass-card border border-white/10 text-white placeholder:text-zinc-500 focus:outline-none focus:border-orange-500/50 text-sm shadow-xl"
+              className="w-full pl-11 pr-4 py-3.5 rounded-2xl bg-zinc-900/80 border border-white/15 text-white placeholder:text-zinc-400 focus:outline-none focus:border-orange-500/60 text-sm shadow-xl backdrop-blur-md"
             />
           </div>
         </div>
@@ -139,8 +139,8 @@ export default function RoadmapsCatalogPage() {
               onClick={() => setSelectedCategory(cat.id)}
               className={`px-4 py-1.5 rounded-full text-xs font-medium transition-all cursor-pointer ${
                 selectedCategory === cat.id
-                  ? "bg-orange-500/20 text-amber-300 border border-orange-500/40 shadow-md shadow-orange-500/10"
-                  : "glass border border-white/5 text-zinc-400 hover:text-white hover:border-white/20"
+                  ? "bg-orange-500/25 text-amber-200 border border-orange-500/40 shadow-md shadow-orange-500/10 font-semibold"
+                  : "bg-zinc-900/70 border border-white/15 text-zinc-300 hover:text-white hover:border-orange-500/40 hover:bg-zinc-800/80"
               }`}
             >
               {cat.label}
@@ -152,18 +152,18 @@ export default function RoadmapsCatalogPage() {
       {/* Roadmaps Grid */}
       <section className="max-w-7xl mx-auto px-6 mt-8">
         <div className="flex items-center justify-between mb-6">
-          <h2 className="text-sm font-semibold uppercase tracking-wider text-zinc-400">
+          <h2 className="text-sm font-semibold uppercase tracking-wider text-zinc-300">
             Available Learning Paths ({filteredRoadmaps.length})
           </h2>
         </div>
 
         {filteredRoadmaps.length === 0 ? (
-          <div className="text-center py-20 glass-card rounded-2xl border border-white/10">
-            <Compass className="w-12 h-12 text-zinc-600 mx-auto mb-3 animate-pulse" />
+          <div className="text-center py-20 glass-card border border-white/10">
+            <Compass className="w-12 h-12 text-orange-400 mx-auto mb-3 animate-pulse" />
             <h3 className="text-lg font-bold text-white mb-1">
               No matching roadmaps found
             </h3>
-            <p className="text-sm text-zinc-400 max-w-sm mx-auto">
+            <p className="text-sm text-zinc-300 max-w-sm mx-auto">
               Try searching with different keywords like &quot;Frontend&quot;,
               &quot;AI&quot;, or &quot;Python&quot;.
             </p>

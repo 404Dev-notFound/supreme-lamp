@@ -88,12 +88,12 @@ export default function Footer() {
                     Ecosystem v{APP_VERSION}
                   </span>
                 </div>
-                <span className="text-xs text-zinc-400 font-medium">
+                <span className="text-xs text-zinc-300 font-medium">
                   The Career Operating System
                 </span>
               </div>
             </Link>
-            <p className="text-sm text-zinc-400 max-w-xl leading-relaxed">
+            <p className="text-sm text-zinc-300 max-w-xl leading-relaxed">
               Empowering engineers and ambitious talent to systematically bridge
               skill gaps, master interactive roadmaps, and build verified
               careers.
@@ -113,7 +113,7 @@ export default function Footer() {
             </div>
 
             <div className="flex items-center gap-2 px-3.5 py-2 rounded-xl bg-white/5 border border-white/10 backdrop-blur-md">
-              <span className="text-zinc-400">Architect:</span>
+              <span className="text-zinc-300">Architect:</span>
               <a
                 href={DEVELOPER_INFO.mailto}
                 className="text-amber-300 hover:text-amber-200 font-semibold hover:underline inline-flex items-center gap-1 transition-colors"
@@ -124,7 +124,7 @@ export default function Footer() {
               </a>
             </div>
 
-            <div className="px-3.5 py-2 rounded-xl bg-white/5 border border-white/10 text-zinc-400 font-mono">
+            <div className="px-3.5 py-2 rounded-xl bg-white/5 border border-white/10 text-zinc-300 font-mono">
               Version {APP_VERSION}
             </div>
           </div>
@@ -140,7 +140,7 @@ export default function Footer() {
                 flowCTRL Ecosystem
               </h3>
             </div>
-            <p className="text-xs text-zinc-400">
+            <p className="text-xs text-zinc-300">
               Integrated platforms, companion products, and developer toolkits.
             </p>
             <ul className="space-y-3 text-sm">
@@ -158,11 +158,11 @@ export default function Footer() {
                           {prod.name}
                           <ExternalLink className="w-3 h-3 opacity-60 group-hover:opacity-100 transition-opacity" />
                         </span>
-                        <span className="text-[10px] px-2 py-0.5 rounded-md bg-white/5 text-zinc-400 border border-white/5 group-hover:border-amber-500/30 group-hover:text-amber-300">
+                        <span className="text-[10px] px-2 py-0.5 rounded-md bg-white/5 text-zinc-300 border border-white/10 group-hover:border-amber-500/30 group-hover:text-amber-300">
                           {prod.badge}
                         </span>
                       </div>
-                      <span className="text-xs text-zinc-500 mt-0.5 line-clamp-1 group-hover:text-zinc-400">
+                      <span className="text-xs text-zinc-400 mt-0.5 line-clamp-1 group-hover:text-zinc-200">
                         {prod.tagline}
                       </span>
                     </a>
@@ -175,11 +175,11 @@ export default function Footer() {
                         <span className="font-medium text-zinc-200 group-hover:text-amber-300 transition-colors">
                           {prod.name}
                         </span>
-                        <span className="text-[10px] px-2 py-0.5 rounded-md bg-white/5 text-zinc-400 border border-white/5 group-hover:border-amber-500/30 group-hover:text-amber-300">
+                        <span className="text-[10px] px-2 py-0.5 rounded-md bg-white/5 text-zinc-300 border border-white/10 group-hover:border-amber-500/30 group-hover:text-amber-300">
                           {prod.badge}
                         </span>
                       </div>
-                      <span className="text-xs text-zinc-500 mt-0.5 line-clamp-1 group-hover:text-zinc-400">
+                      <span className="text-xs text-zinc-400 mt-0.5 line-clamp-1 group-hover:text-zinc-200">
                         {prod.tagline}
                       </span>
                     </Link>
@@ -197,7 +197,7 @@ export default function Footer() {
                 Product & Features
               </h3>
             </div>
-            <p className="text-xs text-zinc-400">
+            <p className="text-xs text-zinc-300">
               Skill graph tools, AI intelligence, and career accelerator
               engines.
             </p>
@@ -206,7 +206,7 @@ export default function Footer() {
                 <li key={item.label}>
                   <Link
                     href={item.href}
-                    className="text-zinc-400 hover:text-white transition-colors flex items-center justify-between py-1 hover:translate-x-1 duration-200"
+                    className="text-zinc-300 hover:text-white transition-colors flex items-center justify-between py-1 hover:translate-x-1 duration-200"
                   >
                     <span>{item.label}</span>
                   </Link>
@@ -223,7 +223,7 @@ export default function Footer() {
                 Legal & Governance
               </h3>
             </div>
-            <p className="text-xs text-zinc-400">
+            <p className="text-xs text-zinc-300">
               Terms of service, zero-exposure privacy, and collaboration
               agreements.
             </p>
@@ -234,13 +234,13 @@ export default function Footer() {
                     href={link.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-zinc-400 hover:text-white transition-colors flex items-center justify-between py-1 group"
+                    className="text-zinc-300 hover:text-white transition-colors flex items-center justify-between py-1 group"
                     title={link.description}
                   >
-                    <span className="group-hover:text-zinc-200 transition-colors">
+                    <span className="group-hover:text-zinc-100 transition-colors">
                       {link.title}
                     </span>
-                    <ExternalLink className="w-3 h-3 opacity-40 group-hover:opacity-100 transition-opacity" />
+                    <ExternalLink className="w-3 h-3 opacity-60 group-hover:opacity-100 transition-opacity" />
                   </a>
                 </li>
               ))}
@@ -255,12 +255,12 @@ export default function Footer() {
                 Developer & Community
               </h3>
             </div>
-            <p className="text-xs text-zinc-400">
+            <p className="text-xs text-zinc-300">
               Created with devotion by Scripted by Dev. Join our global guilds.
             </p>
 
             <div className="p-3.5 rounded-2xl bg-white/5 border border-white/10 space-y-3">
-              <div className="text-xs text-zinc-400">
+              <div className="text-xs text-zinc-300">
                 Lead Creator & Architect
               </div>
               <div className="font-medium text-white text-sm">
@@ -276,7 +276,7 @@ export default function Footer() {
             </div>
 
             <div className="space-y-2 pt-2">
-              <span className="text-xs font-semibold uppercase tracking-wider text-zinc-500">
+              <span className="text-xs font-semibold uppercase tracking-wider text-zinc-400">
                 Social Networks
               </span>
               <div className="grid grid-cols-2 gap-2">
@@ -289,7 +289,7 @@ export default function Footer() {
                     className="flex items-center gap-2 px-3 py-2 rounded-xl bg-white/5 hover:bg-white/10 border border-white/5 hover:border-white/15 text-xs text-zinc-300 hover:text-white transition-all shadow-sm"
                   >
                     <span>{social.name}</span>
-                    <ExternalLink className="w-3 h-3 opacity-50 ml-auto" />
+                    <ExternalLink className="w-3 h-3 opacity-60 ml-auto" />
                   </a>
                 ))}
               </div>
@@ -313,7 +313,7 @@ export default function Footer() {
                   Resources & Technologies Used ({allResources.length})
                 </h3>
               </div>
-              <p className="text-xs text-zinc-400">
+              <p className="text-xs text-zinc-300">
                 The comprehensive open-source libraries, cloud platforms, AI
                 services, and tooling integrated into flowCTRL.
               </p>
@@ -355,7 +355,7 @@ export default function Footer() {
                     className={`px-3 py-1.5 rounded-lg font-medium transition-all cursor-pointer ${
                       selectedCategory === "all"
                         ? "bg-primary text-primary-foreground font-semibold shadow-sm"
-                        : "bg-white/5 text-zinc-400 hover:text-white hover:bg-white/10"
+                        : "bg-white/5 text-zinc-300 hover:text-white hover:bg-white/10"
                     }`}
                   >
                     All ({allResources.length})
@@ -368,7 +368,7 @@ export default function Footer() {
                       className={`px-3 py-1.5 rounded-lg font-medium transition-all cursor-pointer ${
                         selectedCategory === cat.id
                           ? "bg-primary text-primary-foreground font-semibold shadow-sm"
-                          : "bg-white/5 text-zinc-400 hover:text-white hover:bg-white/10"
+                          : "bg-white/5 text-zinc-300 hover:text-white hover:bg-white/10"
                       }`}
                     >
                       {cat.name} ({cat.items.length})
@@ -378,19 +378,19 @@ export default function Footer() {
 
                 {/* Search Input */}
                 <div className="relative w-full lg:w-72">
-                  <Search className="w-3.5 h-3.5 text-zinc-500 absolute left-3 top-1/2 -translate-y-1/2" />
+                  <Search className="w-3.5 h-3.5 text-zinc-400 absolute left-3 top-1/2 -translate-y-1/2" />
                   <input
                     type="text"
                     value={resourceSearch}
                     onChange={(e) => setResourceSearch(e.target.value)}
                     placeholder="Search frameworks, APIs..."
-                    className="w-full bg-white/5 border border-white/10 rounded-xl pl-9 pr-3.5 py-1.5 text-xs text-zinc-100 placeholder:text-zinc-500 focus:outline-none focus:border-primary/50 transition-colors"
+                    className="w-full bg-white/5 border border-white/10 rounded-xl pl-9 pr-3.5 py-1.5 text-xs text-zinc-100 placeholder:text-zinc-400 focus:outline-none focus:border-primary/50 transition-colors"
                   />
                   {resourceSearch && (
                     <button
                       type="button"
                       onClick={() => setResourceSearch("")}
-                      className="absolute right-3 top-1/2 -translate-y-1/2 text-xs text-zinc-500 hover:text-white cursor-pointer"
+                      className="absolute right-3 top-1/2 -translate-y-1/2 text-xs text-zinc-400 hover:text-white cursor-pointer"
                     >
                       ✕
                     </button>
@@ -400,7 +400,7 @@ export default function Footer() {
 
               {/* Grid of Resource Cards */}
               {filteredResources.length === 0 ? (
-                <div className="text-center py-12 text-zinc-500 text-xs">
+                <div className="text-center py-12 text-zinc-400 text-xs">
                   No matching resources found for &quot;{resourceSearch}&quot;.
                 </div>
               ) : (
@@ -418,17 +418,17 @@ export default function Footer() {
                           <span className="font-semibold text-xs text-zinc-200 group-hover:text-amber-300 transition-colors line-clamp-1">
                             {item.name}
                           </span>
-                          <ExternalLink className="w-3 h-3 text-zinc-500 group-hover:text-amber-300 transition-colors shrink-0" />
+                          <ExternalLink className="w-3 h-3 text-zinc-400 group-hover:text-amber-300 transition-colors shrink-0" />
                         </div>
-                        <p className="text-[11px] text-zinc-400 line-clamp-2 leading-relaxed">
+                        <p className="text-[11px] text-zinc-300 line-clamp-2 leading-relaxed">
                           {item.description}
                         </p>
                       </div>
-                      <div className="mt-2.5 pt-2 border-t border-white/5 flex items-center justify-between text-[10px] text-zinc-500">
+                      <div className="mt-2.5 pt-2 border-t border-white/5 flex items-center justify-between text-[10px] text-zinc-300">
                         <span className="truncate max-w-[150px]">
                           {item.category}
                         </span>
-                        <span className="text-orange-400/80 group-hover:text-orange-300 font-mono">
+                        <span className="text-orange-400/90 group-hover:text-orange-300 font-mono">
                           external ↗
                         </span>
                       </div>
@@ -441,28 +441,28 @@ export default function Footer() {
         </section>
 
         {/* Bottom Bar: Copyright, Attribution & Legal Status */}
-        <div className="pt-8 border-t border-white/10 text-xs text-zinc-500 flex flex-col md:flex-row justify-between items-center gap-4">
+        <div className="pt-8 border-t border-white/10 text-xs text-zinc-300 flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-4 text-center sm:text-left">
-            <p className="font-medium text-zinc-400">{COPYRIGHT_NOTICE}</p>
-            <span className="hidden sm:inline text-zinc-600">|</span>
-            <div className="flex items-center gap-1.5 text-zinc-400">
+            <p className="font-medium text-zinc-300">{COPYRIGHT_NOTICE}</p>
+            <span className="hidden sm:inline text-zinc-500">|</span>
+            <div className="flex items-center gap-1.5 text-zinc-300">
               <span>Scripted by</span>
               <a
                 href={DEVELOPER_INFO.mailto}
-                className="text-zinc-300 hover:text-amber-300 font-semibold underline decoration-white/20 hover:decoration-amber-300 transition-colors"
+                className="text-zinc-200 hover:text-amber-300 font-semibold underline decoration-white/20 hover:decoration-amber-300 transition-colors"
               >
                 {DEVELOPER_INFO.name}
               </a>
             </div>
           </div>
 
-          <div className="flex items-center gap-4 text-zinc-400">
+          <div className="flex items-center gap-4 text-zinc-300">
             <span className="flex items-center gap-1 text-[11px]">
               <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400" />
               Zero-Exposure Certified
             </span>
-            <span className="text-zinc-600">|</span>
-            <span className="font-mono text-[11px] text-zinc-400">
+            <span className="text-zinc-500">|</span>
+            <span className="font-mono text-[11px] text-zinc-300">
               Build v{APP_VERSION}
             </span>
           </div>

@@ -66,11 +66,11 @@ export default function RoadmapDetailPage({ params }) {
   if (!roadmap) {
     return (
       <div className="min-h-screen text-zinc-100 flex flex-col items-center justify-center p-6 text-center">
-        <Compass className="w-16 h-16 text-zinc-600 mb-4 animate-spin" />
+        <Compass className="w-16 h-16 text-orange-400 mb-4 animate-spin" />
         <h1 className="text-2xl font-bold text-white mb-2">
           Roadmap Not Found
         </h1>
-        <p className="text-sm text-zinc-400 mb-6 max-w-sm">
+        <p className="text-sm text-zinc-300 mb-6 max-w-sm">
           The roadmap path &apos;{slug}&apos; could not be located in FlowCTRL
           curriculum.
         </p>
@@ -109,7 +109,7 @@ export default function RoadmapDetailPage({ params }) {
               flowCTRL
             </span>
           </Link>
-          <span className="text-zinc-500 mx-1">/</span>
+          <span className="text-zinc-400 mx-1">/</span>
           <span className="font-semibold text-lg tracking-tight text-white truncate max-w-[200px] sm:max-w-md">
             {roadmap.title}
           </span>
@@ -119,7 +119,7 @@ export default function RoadmapDetailPage({ params }) {
           <button
             type="button"
             onClick={() => setResumeScreenerOpen(true)}
-            className="text-sm font-medium text-zinc-400 hover:text-white transition-colors hidden md:inline cursor-pointer"
+            className="text-sm font-medium text-zinc-300 hover:text-white transition-colors hidden md:inline cursor-pointer"
           >
             Resume Screener
           </button>
@@ -130,20 +130,20 @@ export default function RoadmapDetailPage({ params }) {
       {/* Main Container */}
       <main className="max-w-7xl mx-auto px-6 pt-28">
         {/* Track Overview Header Card */}
-        <div className="p-6 md:p-8 rounded-3xl glass-card border border-white/10 mb-8 relative overflow-hidden">
+        <div className="p-6 md:p-8 rounded-3xl glass-card border border-white/15 mb-8 relative overflow-hidden">
           <div className="absolute top-0 right-0 w-96 h-96 bg-orange-500/10 rounded-full blur-3xl pointer-events-none" />
 
           <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-6 relative z-10">
             <div className="max-w-2xl">
               <div className="flex flex-wrap items-center gap-2.5 mb-3">
-                <span className="text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full bg-orange-500/10 border border-orange-500/30 text-amber-300">
+                <span className="text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full bg-orange-500/20 border border-orange-500/40 text-amber-200">
                   {roadmap.category} Track
                 </span>
-                <span className="text-xs font-medium px-3 py-1 rounded-full bg-white/5 border border-white/10 text-zinc-300">
+                <span className="text-xs font-medium px-3 py-1 rounded-full bg-white/10 border border-white/15 text-zinc-200">
                   {roadmap.level}
                 </span>
-                <span className="text-xs font-medium px-3 py-1 rounded-full bg-white/5 border border-white/10 text-zinc-400 flex items-center gap-1.5">
-                  <BookOpen className="w-3.5 h-3.5 text-zinc-500" />
+                <span className="text-xs font-medium px-3 py-1 rounded-full bg-white/10 border border-white/15 text-zinc-200 flex items-center gap-1.5">
+                  <BookOpen className="w-3.5 h-3.5 text-zinc-400" />
                   {totalTopicsCount} Topics
                 </span>
               </div>
@@ -152,15 +152,15 @@ export default function RoadmapDetailPage({ params }) {
                 {roadmap.title}
               </h1>
 
-              <p className="text-sm md:text-base text-zinc-300 leading-relaxed">
+              <p className="text-sm md:text-base text-zinc-200 leading-relaxed font-normal">
                 {roadmap.description}
               </p>
             </div>
 
             {/* Progress Tracker Card */}
-            <div className="p-5 rounded-2xl glass border border-white/10 min-w-[280px] shrink-0">
+            <div className="p-5 rounded-2xl bg-zinc-900/85 border border-white/15 min-w-[280px] shrink-0 shadow-xl backdrop-blur-md">
               <div className="flex items-center justify-between gap-4 mb-2">
-                <span className="text-xs uppercase font-bold text-zinc-400">
+                <span className="text-xs uppercase font-bold text-zinc-300">
                   Curriculum Progress
                 </span>
                 <span className="text-sm font-bold text-amber-300">
@@ -176,12 +176,12 @@ export default function RoadmapDetailPage({ params }) {
                 />
               </div>
 
-              <div className="flex items-center justify-between text-xs text-zinc-400">
+              <div className="flex items-center justify-between text-xs text-zinc-300">
                 <span>
                   <strong className="text-white">{completedCount}</strong> of{" "}
                   {totalTopicsCount} mastered
                 </span>
-                <span className="text-emerald-400 font-medium flex items-center gap-1">
+                <span className="text-emerald-400 font-semibold flex items-center gap-1">
                   <CheckCircle2 className="w-3.5 h-3.5" /> Tracked
                 </span>
               </div>

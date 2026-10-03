@@ -30,7 +30,7 @@ export default function ResumeScreenerPage() {
               flowCTRL
             </span>
           </Link>
-          <span className="text-zinc-500 mx-1">/</span>
+          <span className="text-zinc-400 mx-1">/</span>
           <span className="font-semibold text-lg tracking-tight text-white truncate max-w-[200px] sm:max-w-md">
             Resume Screener
           </span>
@@ -39,7 +39,7 @@ export default function ResumeScreenerPage() {
         <div className="flex items-center gap-4">
           <Link
             href="/roadmaps"
-            className="text-sm font-medium text-zinc-400 hover:text-white transition-colors hidden sm:inline"
+            className="text-sm font-medium text-zinc-300 hover:text-white transition-colors hidden sm:inline"
           >
             Roadmaps
           </Link>
@@ -77,7 +77,7 @@ export default function ResumeScreenerPage() {
               <h1 className="text-2xl sm:text-3xl font-bold tracking-tight text-white mb-1">
                 ATS Resume Analysis & Scoring
               </h1>
-              <p className="text-sm text-zinc-400 max-w-2xl">
+              <p className="text-sm text-zinc-300 max-w-2xl font-normal leading-relaxed">
                 Upload your resume to evaluate ATS compatibility, keyword
                 matching, formatting flaws, and get actionable recruiter
                 insights.
@@ -113,13 +113,13 @@ export default function ResumeScreenerPage() {
               <div className="w-3 h-3 rounded-full bg-red-500/80" />
               <div className="w-3 h-3 rounded-full bg-yellow-500/80" />
               <div className="w-3 h-3 rounded-full bg-green-500/80" />
-              <span className="ml-2 text-xs text-zinc-400 font-medium hidden sm:inline flex items-center gap-1">
+              <span className="ml-2 text-xs text-zinc-300 font-medium hidden sm:inline flex items-center gap-1">
                 <FileText className="w-3.5 h-3.5 text-orange-400" />
                 ATS Resume Screener
               </span>
             </div>
 
-            <div className="flex items-center bg-white/5 border border-white/10 rounded-md px-3 py-1 text-xs text-zinc-400 font-medium tracking-wide justify-center shadow-inner max-w-sm truncate">
+            <div className="flex items-center bg-white/5 border border-white/10 rounded-md px-3 py-1 text-xs text-zinc-300 font-medium tracking-wide justify-center shadow-inner max-w-sm truncate">
               <span className="opacity-50 mr-1.5">🔒</span>
               {EXTERNAL_URL}
             </div>
@@ -140,7 +140,7 @@ export default function ResumeScreenerPage() {
             {iframeLoading && (
               <div className="absolute inset-0 flex flex-col items-center justify-center gap-3 bg-zinc-950 z-10">
                 <div className="w-8 h-8 rounded-full border-2 border-orange-500 border-t-transparent animate-spin" />
-                <p className="text-xs text-zinc-400 font-medium">
+                <p className="text-xs text-zinc-300 font-medium">
                   Loading ATS Resume Screener...
                 </p>
               </div>
@@ -157,10 +157,10 @@ export default function ResumeScreenerPage() {
           </div>
 
           {/* Bottom Bar */}
-          <div className="px-4 py-2 border-t border-white/5 bg-zinc-900/60 flex items-center justify-between text-xs text-zinc-400 shrink-0">
+          <div className="px-4 py-2 border-t border-white/5 bg-zinc-900/60 flex items-center justify-between text-xs text-zinc-300 shrink-0">
             <span>
               External tool:{" "}
-              <strong className="text-zinc-200">ATS Resume Analysis</strong> •
+              <strong className="text-white font-semibold">ATS Resume Analysis</strong> •
               Screen resumes, analyze formatting, and view score breakdown
             </span>
             <a

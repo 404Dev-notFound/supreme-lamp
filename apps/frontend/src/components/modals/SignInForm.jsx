@@ -63,25 +63,25 @@ export default function SignInForm({ onClose }) {
 
       <form onSubmit={handleSubmit} className="space-y-4">
         <div>
-          <label className="block text-xs font-medium text-zinc-400 mb-1.5">
+          <label className="block text-xs font-medium text-zinc-300 mb-1.5">
             Email Address
           </label>
           <div className="relative">
-            <Mail className="w-4 h-4 text-zinc-500 absolute left-3.5 top-1/2 -translate-y-1/2" />
+            <Mail className="w-4 h-4 text-zinc-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
             <input
               type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               placeholder="you@domain.com"
               required
-              className="w-full bg-white/5 border border-white/10 rounded-xl pl-10 pr-3.5 py-2.5 text-sm text-zinc-100 placeholder:text-zinc-600 focus:outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/50 transition-colors"
+              className="w-full bg-white/5 border border-white/10 rounded-xl pl-10 pr-3.5 py-2.5 text-sm text-zinc-100 placeholder:text-zinc-400 focus:outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/50 transition-colors"
             />
           </div>
         </div>
 
         <div>
           <div className="flex items-center justify-between mb-1.5">
-            <label className="block text-xs font-medium text-zinc-400">
+            <label className="block text-xs font-medium text-zinc-300">
               Password
             </label>
             <button
@@ -93,14 +93,14 @@ export default function SignInForm({ onClose }) {
             </button>
           </div>
           <div className="relative">
-            <Lock className="w-4 h-4 text-zinc-500 absolute left-3.5 top-1/2 -translate-y-1/2" />
+            <Lock className="w-4 h-4 text-zinc-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
             <input
               type="password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               placeholder="••••••••"
               required
-              className="w-full bg-white/5 border border-white/10 rounded-xl pl-10 pr-3.5 py-2.5 text-sm text-zinc-100 placeholder:text-zinc-600 focus:outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/50 transition-colors"
+              className="w-full bg-white/5 border border-white/10 rounded-xl pl-10 pr-3.5 py-2.5 text-sm text-zinc-100 placeholder:text-zinc-400 focus:outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/50 transition-colors"
             />
           </div>
         </div>
@@ -126,7 +126,7 @@ export default function SignInForm({ onClose }) {
 
       <div className="relative flex items-center justify-center my-4">
         <div className="border-t border-white/10 w-full" />
-        <span className="bg-zinc-900 px-3 text-[11px] uppercase tracking-wider text-zinc-500 absolute">
+        <span className="bg-zinc-900 px-3 text-[11px] uppercase tracking-wider text-zinc-400 absolute">
           or continue with
         </span>
       </div>
@@ -175,7 +175,7 @@ export default function SignInForm({ onClose }) {
       </div>
 
       <div className="text-center pt-2">
-        <p className="text-xs text-zinc-400">
+        <p className="text-xs text-zinc-300">
           Don&apos;t have an account yet?{" "}
           <button
             type="button"

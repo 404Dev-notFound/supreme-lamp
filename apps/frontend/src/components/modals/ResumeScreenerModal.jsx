@@ -100,7 +100,7 @@ export default function ResumeScreenerModal({ isOpen, onClose }) {
                   {iframeLoading && (
                     <div className="absolute inset-0 flex flex-col items-center justify-center gap-3 bg-zinc-950 z-10">
                       <div className="w-8 h-8 rounded-full border-2 border-orange-500 border-t-transparent animate-spin" />
-                      <p className="text-xs text-zinc-400 font-medium">
+                      <p className="text-xs text-zinc-300 font-medium">
                         Loading ATS Resume Screener...
                       </p>
                     </div>
@@ -117,7 +117,7 @@ export default function ResumeScreenerModal({ isOpen, onClose }) {
                 </div>
 
                 {/* Footer Bar */}
-                <div className="px-4 sm:px-6 py-2 border-t border-white/5 bg-zinc-900/40 flex flex-wrap items-center justify-between gap-2 text-xs text-zinc-400 shrink-0">
+                <div className="px-4 sm:px-6 py-2 border-t border-white/5 bg-zinc-900/40 flex flex-wrap items-center justify-between gap-2 text-xs text-zinc-300 shrink-0">
                   <span className="truncate">
                     ATS Resume Analysis • PDF resume screening, keyword matching, and recruiter scoring
                   </span>

@@ -78,7 +78,7 @@ function NavProfileContent() {
               <p className="font-semibold text-zinc-100 truncate">
                 {displayName}
               </p>
-              <p className="text-[11px] text-zinc-500 truncate">
+              <p className="text-[11px] text-zinc-400 truncate">
                 {session.user.email}
               </p>
               <span className="inline-block mt-1 px-1.5 py-0.5 rounded text-[9px] uppercase font-bold tracking-wider bg-orange-500/20 text-orange-400 border border-orange-500/20">

@@ -28,6 +28,7 @@ export default function RootLayout({ children }) {
     <html
       lang="en"
       className={cn(
+        "dark",
         "h-full",
         "antialiased",
         inter.variable,
@@ -43,6 +44,7 @@ export default function RootLayout({ children }) {
             className="w-full h-full border-0"
             loading="lazy"
           />
+          <div className="absolute inset-0 bg-black/40 pointer-events-none" />
         </div>
         <AuthProvider>
           {children}

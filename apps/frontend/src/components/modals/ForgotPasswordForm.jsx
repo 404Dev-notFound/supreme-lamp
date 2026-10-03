@@ -60,24 +60,24 @@ export default function ForgotPasswordForm({ onClose }) {
 
   return (
     <form onSubmit={handleSubmit} className="space-y-4">
-      <p className="text-xs text-zinc-400 leading-relaxed">
+      <p className="text-xs text-zinc-300 leading-relaxed font-normal">
         Enter the email address associated with your flowCTRL account and we
         will send you a link to reset your credentials.
       </p>
 
       <div>
-        <label className="block text-xs font-medium text-zinc-400 mb-1.5">
+        <label className="block text-xs font-medium text-zinc-300 mb-1.5">
           Email Address
         </label>
         <div className="relative">
-          <Mail className="w-4 h-4 text-zinc-500 absolute left-3.5 top-1/2 -translate-y-1/2" />
+          <Mail className="w-4 h-4 text-zinc-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
           <input
             type="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             placeholder="you@domain.com"
             required
-            className="w-full bg-white/5 border border-white/10 rounded-xl pl-10 pr-3.5 py-2.5 text-sm text-zinc-100 placeholder:text-zinc-600 focus:outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/50 transition-colors"
+            className="w-full bg-white/5 border border-white/10 rounded-xl pl-10 pr-3.5 py-2.5 text-sm text-zinc-100 placeholder:text-zinc-400 focus:outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/50 transition-colors"
           />
         </div>
       </div>
@@ -86,7 +86,7 @@ export default function ForgotPasswordForm({ onClose }) {
         <button
           type="button"
           onClick={() => (onClose ? onClose() : switchModal("signin"))}
-          className="flex items-center gap-1 text-xs text-zinc-400 hover:text-white transition-colors cursor-pointer"
+          className="flex items-center gap-1 text-xs text-zinc-300 hover:text-white transition-colors cursor-pointer"
         >
           <ArrowLeft className="w-3.5 h-3.5" /> Back
         </button>

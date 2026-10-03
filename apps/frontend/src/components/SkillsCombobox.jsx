@@ -97,7 +97,7 @@ export default function SkillsCombobox({
       >
         <div className="relative">
           <Combobox.Input
-            className="w-full rounded-xl border border-white/10 glass bg-white/5 py-2.5 pl-3 pr-10 text-sm leading-5 text-white placeholder-zinc-500 focus:outline-none focus:border-orange-500/50"
+            className="w-full rounded-xl border border-white/10 glass bg-white/5 py-2.5 pl-3 pr-10 text-sm leading-5 text-white placeholder-zinc-400 focus:outline-none focus:border-orange-500/50"
             placeholder="Search skills (e.g. React, Python, Docker)..."
             onChange={(e) => setQuery(e.target.value)}
           />
@@ -117,7 +117,7 @@ export default function SkillsCombobox({
               {Object.entries(groupedSkills).map(([category, skills]) => (
                 <div key={category}>
                   {/* Category Header */}
-                  <div className="px-3 py-1 text-[11px] font-bold uppercase tracking-wider text-zinc-400 bg-white/5">
+                  <div className="px-3 py-1 text-[11px] font-bold uppercase tracking-wider text-zinc-300 bg-white/5">
                     {category}
                   </div>
                   {skills.map((skill) => (

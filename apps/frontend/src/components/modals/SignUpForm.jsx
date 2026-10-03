@@ -98,45 +98,45 @@ export default function SignUpForm({ onClose }) {
 
       <form onSubmit={handleSubmit} className="space-y-3.5">
         <div>
-          <label className="block text-xs font-medium text-zinc-400 mb-1.5">
+          <label className="block text-xs font-medium text-zinc-300 mb-1.5">
             Full Name
           </label>
           <div className="relative">
-            <User className="w-4 h-4 text-zinc-500 absolute left-3.5 top-1/2 -translate-y-1/2" />
+            <User className="w-4 h-4 text-zinc-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
             <input
               type="text"
               value={name}
               onChange={(e) => setName(e.target.value)}
               placeholder="Alex Johnson"
               required
-              className="w-full bg-white/5 border border-white/10 rounded-xl pl-10 pr-3.5 py-2.5 text-sm text-zinc-100 placeholder:text-zinc-600 focus:outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/50 transition-colors"
+              className="w-full bg-white/5 border border-white/10 rounded-xl pl-10 pr-3.5 py-2.5 text-sm text-zinc-100 placeholder:text-zinc-400 focus:outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/50 transition-colors"
             />
           </div>
         </div>
 
         <div>
-          <label className="block text-xs font-medium text-zinc-400 mb-1.5">
+          <label className="block text-xs font-medium text-zinc-300 mb-1.5">
             Email Address
           </label>
           <div className="relative">
-            <Mail className="w-4 h-4 text-zinc-500 absolute left-3.5 top-1/2 -translate-y-1/2" />
+            <Mail className="w-4 h-4 text-zinc-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
             <input
               type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               placeholder="you@domain.com"
               required
-              className="w-full bg-white/5 border border-white/10 rounded-xl pl-10 pr-3.5 py-2.5 text-sm text-zinc-100 placeholder:text-zinc-600 focus:outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/50 transition-colors"
+              className="w-full bg-white/5 border border-white/10 rounded-xl pl-10 pr-3.5 py-2.5 text-sm text-zinc-100 placeholder:text-zinc-400 focus:outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/50 transition-colors"
             />
           </div>
         </div>
 
         <div>
-          <label className="block text-xs font-medium text-zinc-400 mb-1.5">
+          <label className="block text-xs font-medium text-zinc-300 mb-1.5">
             Password (minimum 8 characters)
           </label>
           <div className="relative">
-            <Lock className="w-4 h-4 text-zinc-500 absolute left-3.5 top-1/2 -translate-y-1/2" />
+            <Lock className="w-4 h-4 text-zinc-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
             <input
               type="password"
               value={password}
@@ -144,17 +144,17 @@ export default function SignUpForm({ onClose }) {
               placeholder="••••••••"
               required
               minLength={8}
-              className="w-full bg-white/5 border border-white/10 rounded-xl pl-10 pr-3.5 py-2.5 text-sm text-zinc-100 placeholder:text-zinc-600 focus:outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/50 transition-colors"
+              className="w-full bg-white/5 border border-white/10 rounded-xl pl-10 pr-3.5 py-2.5 text-sm text-zinc-100 placeholder:text-zinc-400 focus:outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/50 transition-colors"
             />
           </div>
         </div>
 
         <div>
-          <label className="block text-xs font-medium text-zinc-400 mb-1.5">
+          <label className="block text-xs font-medium text-zinc-300 mb-1.5">
             Confirm Password
           </label>
           <div className="relative">
-            <CheckCircle2 className="w-4 h-4 text-zinc-500 absolute left-3.5 top-1/2 -translate-y-1/2" />
+            <CheckCircle2 className="w-4 h-4 text-zinc-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
             <input
               type="password"
               value={confirmPassword}
@@ -162,7 +162,7 @@ export default function SignUpForm({ onClose }) {
               placeholder="••••••••"
               required
               minLength={8}
-              className="w-full bg-white/5 border border-white/10 rounded-xl pl-10 pr-3.5 py-2.5 text-sm text-zinc-100 placeholder:text-zinc-600 focus:outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/50 transition-colors"
+              className="w-full bg-white/5 border border-white/10 rounded-xl pl-10 pr-3.5 py-2.5 text-sm text-zinc-100 placeholder:text-zinc-400 focus:outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/50 transition-colors"
             />
           </div>
         </div>
@@ -187,7 +187,7 @@ export default function SignUpForm({ onClose }) {
       </form>
 
       <div className="text-center pt-2">
-        <p className="text-xs text-zinc-400">
+        <p className="text-xs text-zinc-300">
           Already have an account?{" "}
           <button
             type="button"

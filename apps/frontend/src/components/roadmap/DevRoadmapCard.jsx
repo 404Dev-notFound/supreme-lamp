@@ -46,24 +46,24 @@ export default function DevRoadmapCard({ roadmap }) {
 
   const categoryColor =
     {
-      role: "border-blue-500/30 text-blue-400 bg-blue-500/10",
-      skill: "border-purple-500/30 text-purple-400 bg-purple-500/10",
+      role: "border-blue-400/40 text-blue-300 bg-blue-500/15",
+      skill: "border-purple-400/40 text-purple-300 bg-purple-500/15",
       "best-practice":
-        "border-emerald-500/30 text-emerald-400 bg-emerald-500/10",
+        "border-emerald-400/40 text-emerald-300 bg-emerald-500/15",
     }[roadmap.category || "skill"] ||
-    "border-zinc-500/30 text-zinc-400 bg-zinc-500/10";
+    "border-zinc-400/40 text-zinc-300 bg-zinc-500/15";
 
   const levelColor =
     {
-      Beginner: "text-emerald-400",
-      Intermediate: "text-amber-400",
-      Advanced: "text-rose-400",
-    }[roadmap.level || "Intermediate"] || "text-amber-400";
+      Beginner: "text-emerald-300 font-medium",
+      Intermediate: "text-amber-300 font-medium",
+      Advanced: "text-rose-300 font-medium",
+    }[roadmap.level || "Intermediate"] || "text-amber-300 font-medium";
 
   return (
     <Link
       href={`/roadmaps/${roadmap.slug}`}
-      className="group relative flex flex-col justify-between p-6 rounded-2xl glass-card border border-white/10 hover:border-orange-500/40 transition-all duration-300 hover:shadow-xl hover:shadow-orange-500/5 hover:-translate-y-1 overflow-hidden"
+      className="group relative flex flex-col justify-between p-6 rounded-2xl glass-card border border-white/15 hover:border-orange-500/40 transition-all duration-300 hover:shadow-xl hover:shadow-orange-500/5 hover:-translate-y-1 overflow-hidden"
     >
       <div className="absolute top-0 right-0 w-32 h-32 bg-orange-500/5 rounded-full blur-2xl group-hover:bg-orange-500/15 transition-all duration-500 pointer-events-none" />
 
@@ -85,19 +85,19 @@ export default function DevRoadmapCard({ roadmap }) {
           {roadmap.title}
         </h3>
 
-        <p className="text-sm text-zinc-400 line-clamp-2 mb-6 leading-relaxed">
+        <p className="text-sm text-zinc-300 line-clamp-2 mb-6 leading-relaxed font-normal">
           {roadmap.description}
         </p>
       </div>
 
-      <div className="pt-4 border-t border-white/5 flex items-center justify-between text-xs text-zinc-400">
+      <div className="pt-4 border-t border-white/10 flex items-center justify-between text-xs text-zinc-300">
         <div className="flex items-center gap-3">
           <span className="flex items-center gap-1">
-            <BookOpen className="w-3.5 h-3.5 text-zinc-500" />
-            <strong className="text-zinc-200">{roadmap.topicCount}</strong>{" "}
+            <BookOpen className="w-3.5 h-3.5 text-zinc-400" />
+            <strong className="text-white font-semibold">{roadmap.topicCount}</strong>{" "}
             topics
           </span>
-          <span className="text-zinc-600">•</span>
+          <span className="text-zinc-400">•</span>
           <span className={levelColor}>{roadmap.level}</span>
         </div>
 

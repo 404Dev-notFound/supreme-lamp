@@ -142,13 +142,13 @@ export default function ProfileView({ onClose }) {
             </span>
           </div>
 
-          <p className="text-xs text-zinc-400 flex items-center gap-1.5 mt-0.5 truncate">
-            <Mail className="w-3.5 h-3.5 text-zinc-500 shrink-0" />
+          <p className="text-xs text-zinc-300 flex items-center gap-1.5 mt-0.5 truncate">
+            <Mail className="w-3.5 h-3.5 text-zinc-400 shrink-0" />
             {profile.email}
           </p>
 
           {profile.headline && (
-            <p className="text-xs text-zinc-300 flex items-center gap-1.5 mt-1.5 font-medium">
+            <p className="text-xs text-zinc-200 flex items-center gap-1.5 mt-1.5 font-medium">
               <Briefcase className="w-3.5 h-3.5 text-orange-400 shrink-0" />
               {profile.headline}
             </p>
@@ -158,21 +158,21 @@ export default function ProfileView({ onClose }) {
 
       {/* Bio / Summary */}
       {profile.bio && (
-        <div className="p-3.5 rounded-xl bg-white/5 border border-white/5 text-xs text-zinc-300 leading-relaxed">
+        <div className="p-3.5 rounded-xl bg-white/5 border border-white/5 text-xs text-zinc-200 leading-relaxed">
           {profile.bio}
         </div>
       )}
 
       {/* Meta details */}
-      <div className="grid grid-cols-2 gap-2 text-xs text-zinc-400">
+      <div className="grid grid-cols-2 gap-2 text-xs text-zinc-300">
         {profile.location && (
           <div className="flex items-center gap-2 p-2.5 rounded-lg bg-white/5">
-            <MapPin className="w-3.5 h-3.5 text-zinc-500 shrink-0" />
+            <MapPin className="w-3.5 h-3.5 text-zinc-400 shrink-0" />
             <span className="truncate">{profile.location}</span>
           </div>
         )}
         <div className="flex items-center gap-2 p-2.5 rounded-lg bg-white/5">
-          <Calendar className="w-3.5 h-3.5 text-zinc-500 shrink-0" />
+          <Calendar className="w-3.5 h-3.5 text-zinc-400 shrink-0" />
           <span>Joined {joinedDate}</span>
         </div>
       </div>
@@ -233,7 +233,7 @@ export default function ProfileView({ onClose }) {
             <Award className="w-3.5 h-3.5 text-amber-400" />
             Verified & Selected Skills
           </h4>
-          <span className="text-[11px] text-zinc-500">
+          <span className="text-[11px] text-zinc-400">
             {profile.skills?.length || 0} skills
           </span>
         </div>
@@ -249,7 +249,7 @@ export default function ProfileView({ onClose }) {
                   <span className="font-medium text-zinc-200 truncate">
                     {skill.name}
                   </span>
-                  <span className="text-[10px] text-zinc-500">
+                  <span className="text-[10px] text-zinc-400">
                     ({skill.category})
                   </span>
                 </div>
@@ -267,7 +267,7 @@ export default function ProfileView({ onClose }) {
             ))}
           </div>
         ) : (
-          <p className="text-xs text-zinc-500 italic py-2">
+          <p className="text-xs text-zinc-400 italic py-2">
             No skills highlighted yet. Click Edit Profile to add skills.
           </p>
         )}

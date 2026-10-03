@@ -62,16 +62,16 @@ export default function DevRoadmapGraph({
   return (
     <div className="w-full rounded-2xl glass-card border border-white/10 overflow-hidden flex flex-col">
       {/* Graph Toolbar */}
-      <div className="p-4 border-b border-white/10 flex flex-wrap items-center justify-between gap-4 glass bg-zinc-950/40">
+      <div className="p-4 border-b border-white/10 flex flex-wrap items-center justify-between gap-4 glass bg-zinc-950/60">
         <div className="flex items-center gap-3 flex-1 max-w-md">
           <div className="relative w-full">
-            <Search className="w-4 h-4 text-zinc-400 absolute left-3 top-1/2 -translate-y-1/2" />
+            <Search className="w-4 h-4 text-zinc-300 absolute left-3 top-1/2 -translate-y-1/2" />
             <input
               type="text"
               placeholder="Search concepts in this roadmap..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              className="w-full pl-9 pr-4 py-2 text-xs rounded-xl bg-white/5 border border-white/10 text-white placeholder:text-zinc-500 focus:outline-none focus:border-orange-500/50"
+              className="w-full pl-9 pr-4 py-2 text-xs rounded-xl bg-zinc-900/80 border border-white/15 text-white placeholder:text-zinc-400 focus:outline-none focus:border-orange-500/60"
             />
           </div>
         </div>
@@ -82,10 +82,10 @@ export default function DevRoadmapGraph({
             <button
               onClick={() => setViewMode("graph")}
               aria-label="Interactive Graph View"
-              className={`flex items-center gap-1.5 px-3 py-1 rounded-lg text-xs font-medium transition-colors cursor-pointer ${
+              className={`flex items-center gap-1.5 px-3 py-1 rounded-lg text-xs font-semibold transition-colors cursor-pointer ${
                 viewMode === "graph"
-                  ? "bg-orange-500/20 text-amber-300 border border-orange-500/30"
-                  : "text-zinc-400 hover:text-white"
+                  ? "bg-orange-500/25 text-amber-200 border border-orange-500/40 shadow-sm"
+                  : "text-zinc-300 hover:text-white"
               }`}
             >
               <NetworkIcon className="w-3.5 h-3.5" />
@@ -94,10 +94,10 @@ export default function DevRoadmapGraph({
             <button
               onClick={() => setViewMode("list")}
               aria-label="List Curriculum View"
-              className={`flex items-center gap-1.5 px-3 py-1 rounded-lg text-xs font-medium transition-colors cursor-pointer ${
+              className={`flex items-center gap-1.5 px-3 py-1 rounded-lg text-xs font-semibold transition-colors cursor-pointer ${
                 viewMode === "list"
-                  ? "bg-orange-500/20 text-amber-300 border border-orange-500/30"
-                  : "text-zinc-400 hover:text-white"
+                  ? "bg-orange-500/25 text-amber-200 border border-orange-500/40 shadow-sm"
+                  : "text-zinc-300 hover:text-white"
               }`}
             >
               <LayoutGrid className="w-3.5 h-3.5" />
@@ -107,7 +107,7 @@ export default function DevRoadmapGraph({
 
           {/* Zoom Controls (Graph mode only) */}
           {viewMode === "graph" && (
-            <div className="hidden sm:flex items-center gap-1 p-1 rounded-xl bg-white/5 border border-white/10 text-zinc-400">
+            <div className="hidden sm:flex items-center gap-1 p-1 rounded-xl bg-white/5 border border-white/10 text-zinc-300">
               <button
                 onClick={handleZoomIn}
                 aria-label="Zoom In"
@@ -136,7 +136,7 @@ export default function DevRoadmapGraph({
 
       {/* Main Canvas Area */}
       {viewMode === "graph" ? (
-        <div className="relative w-full min-h-[600px] overflow-auto bg-zinc-950/60 p-8 flex flex-col items-center">
+        <div className="relative w-full min-h-[600px] overflow-auto bg-zinc-950/75 p-8 flex flex-col items-center">
           {/* Subtle Canvas Dot Grid Background */}
           <div
             className="absolute inset-0 opacity-20 pointer-events-none"
@@ -159,7 +159,7 @@ export default function DevRoadmapGraph({
                   className="w-full flex flex-col items-center gap-4 relative"
                 >
                   {/* Phase Header Tag */}
-                  <div className="inline-flex items-center gap-2 px-4 py-1 rounded-full bg-orange-500/10 border border-orange-500/30 text-amber-300 text-xs font-semibold tracking-wide uppercase shadow-lg shadow-orange-500/5">
+                  <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-orange-500/15 border border-orange-500/40 text-amber-200 text-xs font-bold tracking-wide uppercase shadow-lg shadow-orange-500/10">
                     <Sparkles className="w-3.5 h-3.5 text-orange-400" />
                     {levelNames[lvl] || `Phase ${lvl}`}
                   </div>
@@ -181,29 +181,29 @@ export default function DevRoadmapGraph({
                           onClick={() => topic && onSelectTopic(topic)}
                           className={`group relative flex items-center justify-between gap-3 p-4 rounded-xl text-left transition-all duration-200 cursor-pointer w-64 ${
                             isCompleted
-                              ? "bg-emerald-950/40 border-emerald-500/40 text-white shadow-lg shadow-emerald-500/5"
+                              ? "bg-emerald-950/70 border-emerald-500/40 text-white shadow-lg shadow-emerald-500/10"
                               : isMatched
-                                ? "glass-card border-white/10 hover:border-orange-500/50 hover:bg-white/10 text-zinc-200 hover:text-white hover:scale-[1.02]"
-                                : "opacity-40 glass border-white/5 text-zinc-500"
+                                ? "bg-zinc-900/90 border-white/15 hover:border-orange-500/50 hover:bg-zinc-800/95 text-zinc-100 hover:text-white hover:scale-[1.02] shadow-md backdrop-blur-md"
+                                : "opacity-40 bg-zinc-900/50 border-white/10 text-zinc-400"
                           } border`}
                         >
                           <div className="flex items-center gap-3 overflow-hidden">
                             {isCompleted ? (
                               <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />
                             ) : (
-                              <Circle className="w-4 h-4 text-zinc-500 group-hover:text-orange-400 shrink-0" />
+                              <Circle className="w-4 h-4 text-zinc-400 group-hover:text-orange-400 shrink-0" />
                             )}
                             <div className="overflow-hidden">
-                              <p className="text-xs font-bold truncate group-hover:text-amber-300">
+                              <p className="text-xs font-bold truncate text-zinc-100 group-hover:text-amber-300">
                                 {node.label}
                               </p>
-                              <span className="text-[10px] text-zinc-500 block">
+                              <span className="text-[11px] text-zinc-400 font-medium block">
                                 {topic?.resources?.length || 0} resources
                               </span>
                             </div>
                           </div>
 
-                          <ChevronRight className="w-4 h-4 text-zinc-500 group-hover:text-orange-400 group-hover:translate-x-0.5 transition-transform shrink-0" />
+                          <ChevronRight className="w-4 h-4 text-zinc-400 group-hover:text-orange-400 group-hover:translate-x-0.5 transition-transform shrink-0" />
                         </button>
                       );
                     })}
@@ -220,9 +220,9 @@ export default function DevRoadmapGraph({
         </div>
       ) : (
         /* Detailed List / Curriculum View */
-        <div className="p-6 md:p-8 space-y-4 max-h-[800px] overflow-y-auto">
+        <div className="p-6 md:p-8 space-y-4 max-h-[800px] overflow-y-auto bg-zinc-950/75">
           {filteredNodes.length === 0 ? (
-            <div className="text-center py-12 text-zinc-500 text-sm">
+            <div className="text-center py-12 text-zinc-400 text-sm font-medium">
               No matching topics found for &quot;{searchQuery}&quot;.
             </div>
           ) : (
@@ -233,30 +233,30 @@ export default function DevRoadmapGraph({
                 <div
                   key={node.id}
                   onClick={() => topic && onSelectTopic(topic)}
-                  className="flex items-start justify-between gap-4 p-4 rounded-xl glass border border-white/10 hover:border-orange-500/40 hover:bg-white/5 transition-all cursor-pointer group"
+                  className="flex items-start justify-between gap-4 p-4 rounded-xl bg-zinc-900/90 hover:bg-zinc-800/95 border border-white/15 hover:border-orange-500/50 backdrop-blur-md transition-all cursor-pointer group shadow-lg"
                 >
                   <div className="flex items-start gap-4">
                     <div className="pt-0.5">
                       {isCompleted ? (
                         <CheckCircle2 className="w-5 h-5 text-emerald-400" />
                       ) : (
-                        <span className="flex items-center justify-center w-5 h-5 rounded-full border border-white/20 text-[10px] font-bold text-zinc-400">
+                        <span className="flex items-center justify-center w-5 h-5 rounded-full border border-white/25 text-[11px] font-bold text-zinc-300 bg-white/5">
                           {index + 1}
                         </span>
                       )}
                     </div>
 
                     <div>
-                      <h4 className="text-sm font-bold text-white group-hover:text-amber-300 transition-colors">
+                      <h4 className="text-sm md:text-base font-bold text-white group-hover:text-amber-300 transition-colors tracking-tight">
                         {node.label}
                       </h4>
-                      <p className="text-xs text-zinc-400 line-clamp-2 mt-1 leading-relaxed">
+                      <p className="text-xs md:text-sm text-zinc-300 line-clamp-2 mt-1 leading-relaxed font-normal">
                         {topic?.description}
                       </p>
                     </div>
                   </div>
 
-                  <div className="flex items-center gap-2 shrink-0 pt-0.5 text-xs text-orange-400 font-medium group-hover:text-amber-300">
+                  <div className="flex items-center gap-2 shrink-0 pt-0.5 text-xs text-orange-400 font-semibold group-hover:text-amber-300">
                     <span className="hidden sm:inline">
                       {topic?.resources?.length || 0} links
                     </span>

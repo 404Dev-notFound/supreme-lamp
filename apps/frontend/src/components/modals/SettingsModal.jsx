@@ -84,14 +84,14 @@ export default function SettingsModal({ onClose }) {
   if (loading) {
     return (
       <div className="py-12 flex flex-col items-center justify-center gap-3">
-        <Loader2 className="w-6 h-6 animate-spin text-zinc-400" />
-        <p className="text-xs text-zinc-500">Loading your preferences...</p>
+        <Loader2 className="w-6 h-6 animate-spin text-zinc-300" />
+        <p className="text-xs text-zinc-300">Loading your preferences...</p>
       </div>
     );
   }
 
   return (
-    <form onSubmit={handleSave} className="space-y-6 text-zinc-200">
+    <form onSubmit={handleSave} className="space-y-6 text-zinc-100">
       {error && (
         <div className="p-3 rounded-xl bg-red-500/10 border border-red-500/20 text-red-400 text-xs flex items-center gap-2">
           <AlertCircle className="w-4 h-4 shrink-0" />
@@ -110,7 +110,7 @@ export default function SettingsModal({ onClose }) {
       <div className="space-y-3">
         <div className="flex items-center gap-2">
           <Sun className="w-4 h-4 text-amber-400" />
-          <h3 className="text-xs font-bold uppercase tracking-wider text-zinc-400">
+          <h3 className="text-xs font-bold uppercase tracking-wider text-zinc-300">
             Appearance & Interface Theme
           </h3>
         </div>
@@ -131,7 +131,7 @@ export default function SettingsModal({ onClose }) {
                 className={`p-3 rounded-xl border text-xs font-medium flex flex-col items-center gap-1.5 transition-all cursor-pointer ${
                   isSelected
                     ? "bg-white/10 border-white/30 text-white shadow-lg shadow-white/5"
-                    : "bg-white/5 border-white/10 text-zinc-400 hover:text-zinc-200 hover:bg-white/10"
+                    : "bg-white/5 border-white/10 text-zinc-300 hover:text-white hover:bg-white/10"
                 }`}
               >
                 <IconComp className="w-4 h-4" />
@@ -146,7 +146,7 @@ export default function SettingsModal({ onClose }) {
       <div className="pt-3 border-t border-white/10 space-y-3">
         <div className="flex items-center gap-2">
           <Bell className="w-4 h-4 text-purple-400" />
-          <h3 className="text-xs font-bold uppercase tracking-wider text-zinc-400">
+          <h3 className="text-xs font-bold uppercase tracking-wider text-zinc-300">
             Notification Settings
           </h3>
         </div>
@@ -154,8 +154,8 @@ export default function SettingsModal({ onClose }) {
         <div className="space-y-2 text-xs">
           <label className="flex items-center justify-between p-3 rounded-xl bg-white/5 border border-white/10 cursor-pointer hover:bg-white/10 transition-colors">
             <div>
-              <p className="font-semibold text-zinc-200">Email Notifications</p>
-              <p className="text-[11px] text-zinc-400">Receive important career and roadmap updates</p>
+              <p className="font-semibold text-zinc-100">Email Notifications</p>
+              <p className="text-[11px] text-zinc-300">Receive important career and roadmap updates</p>
             </div>
             <input
               type="checkbox"
@@ -167,8 +167,8 @@ export default function SettingsModal({ onClose }) {
 
           <label className="flex items-center justify-between p-3 rounded-xl bg-white/5 border border-white/10 cursor-pointer hover:bg-white/10 transition-colors">
             <div>
-              <p className="font-semibold text-zinc-200">Weekly Skill Progress Digest</p>
-              <p className="text-[11px] text-zinc-400">Summary of weekly milestones and roadmap progress</p>
+              <p className="font-semibold text-zinc-100">Weekly Skill Progress Digest</p>
+              <p className="text-[11px] text-zinc-300">Summary of weekly milestones and roadmap progress</p>
             </div>
             <input
               type="checkbox"
@@ -180,8 +180,8 @@ export default function SettingsModal({ onClose }) {
 
           <label className="flex items-center justify-between p-3 rounded-xl bg-white/5 border border-white/10 cursor-pointer hover:bg-white/10 transition-colors">
             <div>
-              <p className="font-semibold text-zinc-200">Job Match Alerts</p>
-              <p className="text-[11px] text-zinc-400">Notified when high-affinity job matches appear</p>
+              <p className="font-semibold text-zinc-100">Job Match Alerts</p>
+              <p className="text-[11px] text-zinc-300">Notified when high-affinity job matches appear</p>
             </div>
             <input
               type="checkbox"
@@ -197,14 +197,14 @@ export default function SettingsModal({ onClose }) {
       <div className="pt-3 border-t border-white/10 space-y-3">
         <div className="flex items-center gap-2">
           <Eye className="w-4 h-4 text-emerald-400" />
-          <h3 className="text-xs font-bold uppercase tracking-wider text-zinc-400">
+          <h3 className="text-xs font-bold uppercase tracking-wider text-zinc-300">
             Privacy & Profile Visibility
           </h3>
         </div>
 
         <div className="space-y-3 text-xs">
           <div>
-            <label className="block text-[11px] font-medium text-zinc-400 mb-1.5">
+            <label className="block text-[11px] font-medium text-zinc-300 mb-1.5">
               Public Profile Status
             </label>
             <select
@@ -220,8 +220,8 @@ export default function SettingsModal({ onClose }) {
 
           <label className="flex items-center justify-between p-3 rounded-xl bg-white/5 border border-white/10 cursor-pointer hover:bg-white/10 transition-colors">
             <div>
-              <p className="font-semibold text-zinc-200">Display Career Goals on Public Profile</p>
-              <p className="text-[11px] text-zinc-400">Show your target role and active roadmap completion %</p>
+              <p className="font-semibold text-zinc-100">Display Career Goals on Public Profile</p>
+              <p className="text-[11px] text-zinc-300">Show your target role and active roadmap completion %</p>
             </div>
             <input
               type="checkbox"

@@ -1,169 +1,167 @@
 "use client";
 
-import React, { useState } from "react";
+import React from "react";
 
-const companies = [
-  "Google",
-  "Microsoft",
-  "Amazon",
-  "Meta",
-  "Netflix",
-  "Stripe",
-  "Apple",
-  "NVIDIA",
-  "Adobe",
-  "Salesforce",
-  "IBM",
-  "Oracle",
-  "Deloitte",
-  "Goldman Sachs",
-  "JPMorgan Chase",
-  "Accenture",
-  "Uber",
-  "Airbnb",
-  "Spotify",
-  "PayPal",
+const LOGOS = [
+  { name: "Google", src: "/logos/google.svg" },
+  { name: "OpenAI", src: "/logos/openai.svg" },
+  { name: "GitHub", src: "/logos/github.svg" },
+  { name: "Stripe", src: "/logos/stripe.svg" },
+  { name: "Anthropic", src: "/logos/anthropic-claude.svg" },
+  { name: "Docker", src: "/logos/docker.svg" },
+  { name: "Linear", src: "/logos/linear.svg" },
+  { name: "Vercel", src: "/logos/vercel.svg" },
+  { name: "LinkedIn", src: "/logos/linkedin.svg" },
+  { name: "Datadog", src: "/logos/datadog.svg" },
+  { name: "Next.js", src: "/logos/nextjs.svg" },
+  { name: "Tailwind CSS", src: "/logos/tailwindcss.svg" },
+  { name: "Discord", src: "/logos/discord.svg" },
+  { name: "PostgreSQL", src: "/logos/postgresql.svg" },
+  { name: "Xiaomi", src: "/logos/xiaomi.svg" },
+  { name: "Google Cloud", src: "/logos/google-cloud.svg" },
+  { name: "Tencent Cloud", src: "/logos/tencent-cloud.svg" },
+  { name: "X", src: "/logos/x-twitter.svg" },
 ];
 
-// Helper to duplicate items for seamless looping
-function duplicate(array) {
-  return [...array, ...array];
-}
-
-const row0 = duplicate(companies);
-const row1 = duplicate([...companies.slice(5), ...companies.slice(0, 5)]);
-const row2 = duplicate([...companies.slice(10), ...companies.slice(0, 10)]);
-const row3 = duplicate([...companies.slice(15), ...companies.slice(0, 15)]);
-
 export default function CompanyMarquee() {
-  const [hoveredRow, setHoveredRow] = useState(null);
-  const [hoveredName, setHoveredName] = useState(null);
-
-  const handleMouseEnter = (row, name) => {
-    setHoveredRow(row);
-    setHoveredName(name);
-  };
-  const handleMouseLeave = () => {
-    setHoveredRow(null);
-    setHoveredName(null);
-  };
-
   return (
     <section className="py-24 overflow-hidden relative bg-black/30 border-y border-white/10">
-      <div className="max-w-7xl mx-auto px-6 space-y-6">
-        {/* Row 1 - slightly higher */}
-        <div className="overflow-hidden whitespace-nowrap mb-2">
-          <div
-            className={`inline-block marquee-inner ${hoveredRow === 0 ? "paused" : ""}`}
-            style={{ animation: "marquee1 30s linear infinite" }}
-          >
-            {row0.map((c, i) => (
-              <span
-                key={`row0-${i}`}
-                className={`text-xl text-white/90 mx-4 transition-all duration-300 ${hoveredRow === 0 && hoveredName === c ? "scale-110 text-amber-400" : ""}`}
-                onMouseEnter={() => handleMouseEnter(0, c)}
-                onMouseLeave={handleMouseLeave}
-              >
-                {c}
-              </span>
+      <div className="w-full relative marquee-mask">
+        <div className="marquee-track">
+          {/* Primary logo set */}
+          <div className="marquee-group">
+            {LOGOS.map((logo, index) => (
+              <div key={`logo-primary-${index}`} className="marquee-item">
+                <img
+                  src={logo.src}
+                  alt={`${logo.name} logo`}
+                  title={logo.name}
+                  loading="lazy"
+                  className="marquee-logo"
+                />
+              </div>
             ))}
           </div>
-        </div>
-        {/* Row 2 - staggered lower */}
-        <div className="overflow-hidden whitespace-nowrap mb-2">
-          <div
-            className={`inline-block marquee-inner ${hoveredRow === 1 ? "paused" : ""}`}
-            style={{ animation: "marquee2 45s linear infinite" }}
-          >
-            {row1.map((c, i) => (
-              <span
-                key={`row1-${i}`}
-                className={`text-lg text-white/80 mx-4 transition-all duration-300 ${hoveredRow === 1 && hoveredName === c ? "scale-110 text-amber-400" : ""}`}
-                onMouseEnter={() => handleMouseEnter(1, c)}
-                onMouseLeave={handleMouseLeave}
-              >
-                {c}
-              </span>
-            ))}
-          </div>
-        </div>
-        {/* Row 3 - staggered higher */}
-        <div className="overflow-hidden whitespace-nowrap mb-2">
-          <div
-            className={`inline-block marquee-inner ${hoveredRow === 2 ? "paused" : ""}`}
-            style={{ animation: "marquee3 60s linear infinite" }}
-          >
-            {row2.map((c, i) => (
-              <span
-                key={`row2-${i}`}
-                className={`text-lg text-white/70 mx-4 transition-all duration-300 ${hoveredRow === 2 && hoveredName === c ? "scale-110 text-amber-400" : ""}`}
-                onMouseEnter={() => handleMouseEnter(2, c)}
-                onMouseLeave={handleMouseLeave}
-              >
-                {c}
-              </span>
-            ))}
-          </div>
-        </div>
-        {/* Row 4 - staggered lower */}
-        <div className="overflow-hidden whitespace-nowrap">
-          <div
-            className={`inline-block marquee-inner ${hoveredRow === 3 ? "paused" : ""}`}
-            style={{ animation: "marquee4 75s linear infinite" }}
-          >
-            {row3.map((c, i) => (
-              <span
-                key={`row3-${i}`}
-                className={`text-lg text-white/60 mx-4 transition-all duration-300 ${hoveredRow === 3 && hoveredName === c ? "scale-110 text-amber-400" : ""}`}
-                onMouseEnter={() => handleMouseEnter(3, c)}
-                onMouseLeave={handleMouseLeave}
-              >
-                {c}
-              </span>
+
+          {/* Duplicated logo set for seamless infinite loop */}
+          <div className="marquee-group" aria-hidden="true">
+            {LOGOS.map((logo, index) => (
+              <div key={`logo-clone-${index}`} className="marquee-item">
+                <img
+                  src={logo.src}
+                  alt=""
+                  title={logo.name}
+                  loading="lazy"
+                  className="marquee-logo"
+                />
+              </div>
             ))}
           </div>
         </div>
       </div>
-      <style jsx>{`
-        .marquee-inner {
+
+      <style dangerouslySetInnerHTML={{ __html: `
+        .marquee-mask {
+          overflow: hidden;
+          width: 100%;
+          mask-image: linear-gradient(
+            to right,
+            transparent 0%,
+            black 6%,
+            black 94%,
+            transparent 100%
+          );
+          -webkit-mask-image: linear-gradient(
+            to right,
+            transparent 0%,
+            black 6%,
+            black 94%,
+            transparent 100%
+          );
+        }
+
+        .marquee-track {
+          display: flex;
+          width: max-content;
           will-change: transform;
+          animation: marquee-scroll 36s linear infinite;
         }
-        .marquee-inner.paused {
-          animation-play-state: paused !important;
+
+        .marquee-group {
+          display: flex;
+          align-items: center;
+          flex-shrink: 0;
         }
-        @keyframes marquee1 {
+
+        .marquee-item {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-shrink: 0;
+          width: 130px;
+          padding: 0 16px;
+        }
+
+        @media (min-width: 640px) {
+          .marquee-item {
+            width: 145px;
+            padding: 0 20px;
+          }
+        }
+
+        @media (min-width: 768px) {
+          .marquee-item {
+            width: 160px;
+            padding: 0 22px;
+          }
+        }
+
+        @media (min-width: 1024px) {
+          .marquee-item {
+            width: 175px;
+            padding: 0 26px;
+          }
+        }
+
+        @media (min-width: 1280px) {
+          .marquee-item {
+            width: 180px;
+            padding: 0 28px;
+          }
+        }
+
+        .marquee-logo {
+          height: 28px;
+          width: auto;
+          max-width: 100px;
+          object-fit: contain;
+          filter: brightness(0) invert(1);
+          opacity: 0.6;
+          transition: opacity 0.25s ease, transform 0.25s ease;
+          user-select: none;
+        }
+
+        @media (min-width: 768px) {
+          .marquee-logo {
+            height: 32px;
+            max-width: 120px;
+          }
+        }
+
+        .marquee-item:hover .marquee-logo {
+          opacity: 0.95;
+          transform: scale(1.05);
+        }
+
+        @keyframes marquee-scroll {
           0% {
-            transform: translateX(0);
+            transform: translate3d(0, 0, 0);
           }
           100% {
-            transform: translateX(-50%);
+            transform: translate3d(-50%, 0, 0);
           }
         }
-        @keyframes marquee2 {
-          0% {
-            transform: translateX(0);
-          }
-          100% {
-            transform: translateX(-50%);
-          }
-        }
-        @keyframes marquee3 {
-          0% {
-            transform: translateX(0);
-          }
-          100% {
-            transform: translateX(-50%);
-          }
-        }
-        @keyframes marquee4 {
-          0% {
-            transform: translateX(0);
-          }
-          100% {
-            transform: translateX(-50%);
-          }
-        }
-      `}</style>
+      `}} />
     </section>
   );
 }
