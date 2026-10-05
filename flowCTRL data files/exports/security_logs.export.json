@@ -1,0 +1,186 @@
+[
+  {
+    "id": "cmuvfv9ol000318971kfq4l7b",
+    "userId": "usr_seed_recruiter",
+    "eventType": "seed_initialized",
+    "ipAddress": "127.0.0.1",
+    "userAgent": "flowCTRL Seeder",
+    "details": {
+      "role": "RECRUITER"
+    },
+    "createdAt": "2026-10-05T16:03:04.769Z"
+  },
+  {
+    "id": "cmuvfv9o500021897082tbgcg",
+    "userId": "usr_seed_mentor",
+    "eventType": "seed_initialized",
+    "ipAddress": "127.0.0.1",
+    "userAgent": "flowCTRL Seeder",
+    "details": {
+      "role": "MENTOR"
+    },
+    "createdAt": "2026-10-05T16:03:04.752Z"
+  },
+  {
+    "id": "cmuvfv9no00011897rynvbha2",
+    "userId": "usr_seed_alex",
+    "eventType": "seed_initialized",
+    "ipAddress": "127.0.0.1",
+    "userAgent": "flowCTRL Seeder",
+    "details": {
+      "role": "USER"
+    },
+    "createdAt": "2026-10-05T16:03:04.735Z"
+  },
+  {
+    "id": "cmuvfv9n200001897vz9ehr0p",
+    "userId": "usr_seed_admin",
+    "eventType": "seed_initialized",
+    "ipAddress": "127.0.0.1",
+    "userAgent": "flowCTRL Seeder",
+    "details": {
+      "role": "ADMIN"
+    },
+    "createdAt": "2026-10-05T16:03:04.710Z"
+  },
+  {
+    "id": "cmuvfncks00060s97kxn3uii4",
+    "userId": "cmuvfnckj00050s97stfq0xfc",
+    "eventType": "register_success",
+    "ipAddress": "::1",
+    "userAgent": "node",
+    "details": {
+      "method": "credentials"
+    },
+    "createdAt": "2026-10-05T15:56:55.276Z"
+  },
+  {
+    "id": "cmuvflp7q00030s9736xk66iu",
+    "userId": "cmuvflp3s00000s97dq1wqra0",
+    "eventType": "login_success",
+    "ipAddress": "::1",
+    "userAgent": "node",
+    "details": null,
+    "createdAt": "2026-10-05T15:55:38.342Z"
+  },
+  {
+    "id": "cmuvflp4c00010s977xbd49ww",
+    "userId": "cmuvflp3s00000s97dq1wqra0",
+    "eventType": "register_success",
+    "ipAddress": "::1",
+    "userAgent": "node",
+    "details": {
+      "method": "credentials"
+    },
+    "createdAt": "2026-10-05T15:55:38.220Z"
+  },
+  {
+    "id": "cmuvfhzbw0001k497ra7xqm91",
+    "userId": "cmuvfhzbd0000k4971t86oien",
+    "eventType": "register_success",
+    "ipAddress": "::1",
+    "userAgent": "node",
+    "details": {
+      "method": "credentials"
+    },
+    "createdAt": "2026-10-05T15:52:44.828Z"
+  },
+  {
+    "id": "cmuvfcr6o0009g097888ve132",
+    "userId": "cmuvfcr310006g0978bb9jye5",
+    "eventType": "login_success",
+    "ipAddress": "::1",
+    "userAgent": "node",
+    "details": null,
+    "createdAt": "2026-10-05T15:48:40.992Z"
+  },
+  {
+    "id": "cmuvfcr380007g097o3p3rq9h",
+    "userId": "cmuvfcr310006g0978bb9jye5",
+    "eventType": "register_success",
+    "ipAddress": "::1",
+    "userAgent": "node",
+    "details": {
+      "method": "credentials"
+    },
+    "createdAt": "2026-10-05T15:48:40.868Z"
+  },
+  {
+    "id": "cmuvfcjs20005g0971x1xfdsj",
+    "userId": "cmuvfcjko0000g097udhstn3w",
+    "eventType": "failed_login",
+    "ipAddress": "::1",
+    "userAgent": "node",
+    "details": null,
+    "createdAt": "2026-10-05T15:48:31.394Z"
+  },
+  {
+    "id": "cmuvfcjov0003g097ulr4lrf1",
+    "userId": "cmuvfcjko0000g097udhstn3w",
+    "eventType": "login_success",
+    "ipAddress": "::1",
+    "userAgent": "node",
+    "details": null,
+    "createdAt": "2026-10-05T15:48:31.279Z"
+  },
+  {
+    "id": "cmuvfcjle0001g097mnpzj7qq",
+    "userId": "cmuvfcjko0000g097udhstn3w",
+    "eventType": "register_success",
+    "ipAddress": "::1",
+    "userAgent": "node",
+    "details": {
+      "method": "credentials"
+    },
+    "createdAt": "2026-10-05T15:48:31.154Z"
+  },
+  {
+    "id": "cmtnegkxg0006zg979oobyj9d",
+    "userId": "cmtnegk110000zg972owa6a5r",
+    "eventType": "password_changed",
+    "ipAddress": "203.0.113.195",
+    "userAgent": null,
+    "details": {
+      "reason": "user_initiated"
+    },
+    "createdAt": "2026-09-04T20:21:48.148Z"
+  },
+  {
+    "id": "cmtnegk380001zg97whp6qdru",
+    "userId": "cmtnegk110000zg972owa6a5r",
+    "eventType": "user_registered",
+    "ipAddress": "192.168.1.100",
+    "userAgent": "Mozilla/5.0 TestSuite/1.0",
+    "details": {
+      "method": "credentials"
+    },
+    "createdAt": "2026-09-04T20:21:47.060Z"
+  },
+  {
+    "id": "cmt6hoju90005fc97z54x86pu",
+    "userId": "cmt6gjqp90000fc97jedtb3ze",
+    "eventType": "login_success",
+    "ipAddress": null,
+    "userAgent": null,
+    "details": null,
+    "createdAt": "2026-08-24T00:19:53.841Z"
+  },
+  {
+    "id": "cmt6gjtvp0002fc976qnzv8w1",
+    "userId": "cmt6gjqp90000fc97jedtb3ze",
+    "eventType": "login_success",
+    "ipAddress": null,
+    "userAgent": null,
+    "details": null,
+    "createdAt": "2026-08-23T23:48:13.957Z"
+  },
+  {
+    "id": "cmt6gjqwi0001fc97yzonljbg",
+    "userId": "cmt6gjqp90000fc97jedtb3ze",
+    "eventType": "register_success",
+    "ipAddress": null,
+    "userAgent": null,
+    "details": null,
+    "createdAt": "2026-08-23T23:48:10.098Z"
+  }
+]

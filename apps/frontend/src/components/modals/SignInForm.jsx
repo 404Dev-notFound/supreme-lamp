@@ -1,49 +1,69 @@
 "use client";
 
 import React, { useState } from "react";
-import { signIn } from "next-auth/react";
+import { signIn as nextAuthSignIn } from "next-auth/react";
 import { useRouter } from "next/navigation";
 import { Lock, Mail, AlertCircle, ArrowRight, Loader2 } from "lucide-react";
-import { api } from "@/lib/api";
+import { useAuth } from "@/hooks/useAuth";
 
 export default function SignInForm({ onClose }) {
   const router = useRouter();
+  const { signIn } = useAuth();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [rememberMe, setRememberMe] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+    // Client-side validation
+    const normalizedEmail = email.trim().toLowerCase();
+    if (!normalizedEmail) {
+      setError("Email address is required.");
+      return;
+    }
+    if (!password) {
+      setError("Password is required.");
+      return;
+    }
+
     setLoading(true);
     setError(null);
 
-    const normalizedEmail = email.trim().toLowerCase();
-
     try {
-      // 1. Establish HTTP-Only cookie session via centralized auth API
-      await api.auth.login({
+      // 1. Establish verified HTTP-Only session via real Backend API
+      await signIn({
         email: normalizedEmail,
         password,
       });
 
-      // 2. Synchronize NextAuth client session
-      await signIn("credentials", {
-        redirect: false,
-        email: normalizedEmail,
-        password,
-      });
+      // 2. Synchronize NextAuth client session in background if active
+      try {
+        await nextAuthSignIn("credentials", {
+          redirect: false,
+          email: normalizedEmail,
+          password,
+        });
+      } catch {
+        // Fallback silently if NextAuth route is inactive
+      }
 
       onClose();
       router.refresh();
     } catch (err) {
-      setError(err?.message || "Invalid email or password.");
+      setError(
+        err?.message ||
+          "Invalid email or password. Please check your credentials.",
+      );
+    } finally {
       setLoading(false);
     }
   };
 
   const handleOAuth = (provider) => {
-    signIn(provider, { callbackUrl: "/" });
+    nextAuthSignIn(provider, { callbackUrl: "/" });
   };
 
   const switchModal = (target) => {
@@ -71,10 +91,12 @@ export default function SignInForm({ onClose }) {
             <input
               type="email"
               value={email}
+              disabled={loading}
               onChange={(e) => setEmail(e.target.value)}
               placeholder="you@domain.com"
               required
-              className="w-full bg-white/5 border border-white/10 rounded-xl pl-10 pr-3.5 py-2.5 text-sm text-zinc-100 placeholder:text-zinc-400 focus:outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/50 transition-colors"
+              autoComplete="email"
+              className="w-full bg-white/5 border border-white/10 rounded-xl pl-10 pr-3.5 py-2.5 text-sm text-zinc-100 placeholder:text-zinc-400 focus:outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/50 transition-colors disabled:opacity-50"
             />
           </div>
         </div>
@@ -86,8 +108,9 @@ export default function SignInForm({ onClose }) {
             </label>
             <button
               type="button"
+              disabled={loading}
               onClick={() => switchModal("forgot")}
-              className="text-xs text-primary hover:underline cursor-pointer"
+              className="text-xs text-primary hover:underline cursor-pointer disabled:opacity-50"
             >
               Forgot password?
             </button>
@@ -97,12 +120,27 @@ export default function SignInForm({ onClose }) {
             <input
               type="password"
               value={password}
+              disabled={loading}
               onChange={(e) => setPassword(e.target.value)}
               placeholder="••••••••"
               required
-              className="w-full bg-white/5 border border-white/10 rounded-xl pl-10 pr-3.5 py-2.5 text-sm text-zinc-100 placeholder:text-zinc-400 focus:outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/50 transition-colors"
+              autoComplete="current-password"
+              className="w-full bg-white/5 border border-white/10 rounded-xl pl-10 pr-3.5 py-2.5 text-sm text-zinc-100 placeholder:text-zinc-400 focus:outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/50 transition-colors disabled:opacity-50"
             />
           </div>
+        </div>
+
+        <div className="flex items-center justify-between pt-1">
+          <label className="flex items-center gap-2 text-xs text-zinc-400 cursor-pointer select-none">
+            <input
+              type="checkbox"
+              checked={rememberMe}
+              disabled={loading}
+              onChange={(e) => setRememberMe(e.target.checked)}
+              className="rounded bg-white/5 border-white/20 text-primary focus:ring-primary/50 w-3.5 h-3.5"
+            />
+            <span>Remember me</span>
+          </label>
         </div>
 
         <button
@@ -134,8 +172,9 @@ export default function SignInForm({ onClose }) {
       <div className="grid grid-cols-2 gap-3">
         <button
           type="button"
+          disabled={loading}
           onClick={() => handleOAuth("google")}
-          className="flex items-center justify-center gap-2 py-2.5 px-4 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 text-xs font-medium text-zinc-300 transition-colors cursor-pointer"
+          className="flex items-center justify-center gap-2 py-2.5 px-4 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 text-xs font-medium text-zinc-300 transition-colors cursor-pointer disabled:opacity-50"
         >
           <svg className="w-4 h-4" viewBox="0 0 24 24">
             <path
@@ -160,8 +199,9 @@ export default function SignInForm({ onClose }) {
 
         <button
           type="button"
+          disabled={loading}
           onClick={() => handleOAuth("github")}
-          className="flex items-center justify-center gap-2 py-2.5 px-4 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 text-xs font-medium text-zinc-300 transition-colors cursor-pointer"
+          className="flex items-center justify-center gap-2 py-2.5 px-4 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 text-xs font-medium text-zinc-300 transition-colors cursor-pointer disabled:opacity-50"
         >
           <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
             <path
@@ -179,8 +219,9 @@ export default function SignInForm({ onClose }) {
           Don&apos;t have an account yet?{" "}
           <button
             type="button"
+            disabled={loading}
             onClick={() => switchModal("signup")}
-            className="text-primary font-semibold hover:underline cursor-pointer"
+            className="text-primary font-semibold hover:underline cursor-pointer disabled:opacity-50"
           >
             Create one for free
           </button>

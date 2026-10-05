@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { signIn } from "next-auth/react";
+import { signIn as nextAuthSignIn } from "next-auth/react";
 import { useRouter } from "next/navigation";
 import {
   User,
@@ -12,10 +12,11 @@ import {
   Loader2,
   CheckCircle2,
 } from "lucide-react";
-import { api } from "@/lib/api";
+import { useAuth } from "@/hooks/useAuth";
 
 export default function SignUpForm({ onClose }) {
   const router = useRouter();
+  const { signUp } = useAuth();
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -28,8 +29,16 @@ export default function SignUpForm({ onClose }) {
     setError(null);
 
     // Client-side validation
-    if (name.trim().length < 2) {
+    const trimmedName = name.trim();
+    if (trimmedName.length < 2) {
       setError("Please enter a name with at least 2 characters.");
+      return;
+    }
+
+    const normalizedEmail = email.trim().toLowerCase();
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(normalizedEmail)) {
+      setError("Please provide a valid email address.");
       return;
     }
 
@@ -46,32 +55,27 @@ export default function SignUpForm({ onClose }) {
     setLoading(true);
 
     try {
-      const normalizedEmail = email.trim().toLowerCase();
-
-      // 1. Call cookie-based signup API to register and set HTTP-only cookie
-      await api.auth.signup({
-        name: name.trim(),
+      // 1. Call real backend API via centralized Auth hook
+      await signUp({
+        name: trimmedName,
         email: normalizedEmail,
         password,
         confirmPassword,
       });
 
-      // 2. Synchronize NextAuth client session
-      const loginResult = await signIn("credentials", {
-        redirect: false,
-        email: normalizedEmail,
-        password,
-      });
-
-      if (loginResult?.error) {
-        // Fallback: switch to signin modal
-        const url = new URL(window.location.href);
-        url.searchParams.set("modal", "signin");
-        window.history.replaceState(null, "", url.toString());
-      } else {
-        onClose();
-        router.refresh();
+      // 2. Synchronize NextAuth client session in background if active
+      try {
+        await nextAuthSignIn("credentials", {
+          redirect: false,
+          email: normalizedEmail,
+          password,
+        });
+      } catch {
+        // Fallback silently if NextAuth route is inactive
       }
+
+      onClose();
+      router.refresh();
     } catch (err) {
       setError(
         err?.message || "An unexpected error occurred. Please try again.",
@@ -106,10 +110,12 @@ export default function SignUpForm({ onClose }) {
             <input
               type="text"
               value={name}
+              disabled={loading}
               onChange={(e) => setName(e.target.value)}
               placeholder="Alex Johnson"
               required
-              className="w-full bg-white/5 border border-white/10 rounded-xl pl-10 pr-3.5 py-2.5 text-sm text-zinc-100 placeholder:text-zinc-400 focus:outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/50 transition-colors"
+              autoComplete="name"
+              className="w-full bg-white/5 border border-white/10 rounded-xl pl-10 pr-3.5 py-2.5 text-sm text-zinc-100 placeholder:text-zinc-400 focus:outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/50 transition-colors disabled:opacity-50"
             />
           </div>
         </div>
@@ -123,10 +129,12 @@ export default function SignUpForm({ onClose }) {
             <input
               type="email"
               value={email}
+              disabled={loading}
               onChange={(e) => setEmail(e.target.value)}
               placeholder="you@domain.com"
               required
-              className="w-full bg-white/5 border border-white/10 rounded-xl pl-10 pr-3.5 py-2.5 text-sm text-zinc-100 placeholder:text-zinc-400 focus:outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/50 transition-colors"
+              autoComplete="email"
+              className="w-full bg-white/5 border border-white/10 rounded-xl pl-10 pr-3.5 py-2.5 text-sm text-zinc-100 placeholder:text-zinc-400 focus:outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/50 transition-colors disabled:opacity-50"
             />
           </div>
         </div>
@@ -140,11 +148,13 @@ export default function SignUpForm({ onClose }) {
             <input
               type="password"
               value={password}
+              disabled={loading}
               onChange={(e) => setPassword(e.target.value)}
               placeholder="••••••••"
               required
               minLength={8}
-              className="w-full bg-white/5 border border-white/10 rounded-xl pl-10 pr-3.5 py-2.5 text-sm text-zinc-100 placeholder:text-zinc-400 focus:outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/50 transition-colors"
+              autoComplete="new-password"
+              className="w-full bg-white/5 border border-white/10 rounded-xl pl-10 pr-3.5 py-2.5 text-sm text-zinc-100 placeholder:text-zinc-400 focus:outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/50 transition-colors disabled:opacity-50"
             />
           </div>
         </div>
@@ -158,11 +168,13 @@ export default function SignUpForm({ onClose }) {
             <input
               type="password"
               value={confirmPassword}
+              disabled={loading}
               onChange={(e) => setConfirmPassword(e.target.value)}
               placeholder="••••••••"
               required
               minLength={8}
-              className="w-full bg-white/5 border border-white/10 rounded-xl pl-10 pr-3.5 py-2.5 text-sm text-zinc-100 placeholder:text-zinc-400 focus:outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/50 transition-colors"
+              autoComplete="new-password"
+              className="w-full bg-white/5 border border-white/10 rounded-xl pl-10 pr-3.5 py-2.5 text-sm text-zinc-100 placeholder:text-zinc-400 focus:outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/50 transition-colors disabled:opacity-50"
             />
           </div>
         </div>
@@ -191,8 +203,9 @@ export default function SignUpForm({ onClose }) {
           Already have an account?{" "}
           <button
             type="button"
+            disabled={loading}
             onClick={() => switchModal("signin")}
-            className="text-primary font-semibold hover:underline cursor-pointer"
+            className="text-primary font-semibold hover:underline cursor-pointer disabled:opacity-50"
           >
             Sign in
           </button>

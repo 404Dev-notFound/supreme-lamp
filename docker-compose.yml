@@ -1,15 +1,66 @@
 services:
-  db:
+  postgres:
     image: postgres:16-alpine
     restart: always
     environment:
       POSTGRES_USER: ${POSTGRES_USER:-postgres}
-      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgrespassword9555}
       POSTGRES_DB: ${POSTGRES_DB:-flowCTRL}
     ports:
       - "5432:5432"
     volumes:
       - flowctrl_postgres_data:/var/lib/postgresql/data
+      - ./flowCTRL data files/docker/init-db.sql:/docker-entrypoint-initdb.d/init-db.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-postgres} -d ${POSTGRES_DB:-flowCTRL}"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build:
+      context: .
+      dockerfile: apps/backend/Dockerfile
+    restart: always
+    environment:
+      PORT: 5000
+      NODE_ENV: production
+      DATABASE_URL: postgresql://${POSTGRES_USER:-postgres}:${POSTGRES_PASSWORD:-postgrespassword9555}@postgres:5432/${POSTGRES_DB:-flowCTRL}
+      JWT_SECRET: ${JWT_SECRET:-915b693d6ec72978dff75123dc5380fa57818c203cc7a1676d79aee95818235eb50d1d5c65db85e60d9954ee6c2eddb8}
+      NEXTAUTH_SECRET: ${NEXTAUTH_SECRET:-915b693d6ec72978dff75123dc5380fa57818c203cc7a1676d79aee95818235eb50d1d5c65db85e60d9954ee6c2eddb8}
+      COOKIE_SECURE: "false"
+      CORS_ORIGIN: http://localhost:3000
+    ports:
+      - "5000:5000"
+    command: sh -c "npx prisma db push --schema=\"flowCTRL data files/prisma/schema.prisma\" && npm start --workspace=backend"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD-SHELL", "wget --no-verbose --tries=1 --spider http://127.0.0.1:5000/api/health || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+
+  frontend:
+    build:
+      context: .
+      dockerfile: apps/frontend/Dockerfile
+    restart: always
+    environment:
+      PORT: 3000
+      NODE_ENV: production
+      NEXT_PUBLIC_API_URL: http://localhost:5000
+      INTERNAL_BACKEND_URL: http://backend:5000
+      DATABASE_URL: postgresql://${POSTGRES_USER:-postgres}:${POSTGRES_PASSWORD:-postgrespassword9555}@postgres:5432/${POSTGRES_DB:-flowCTRL}
+      NEXTAUTH_URL: http://localhost:3000
+      NEXTAUTH_SECRET: ${NEXTAUTH_SECRET:-915b693d6ec72978dff75123dc5380fa57818c203cc7a1676d79aee95818235eb50d1d5c65db85e60d9954ee6c2eddb8}
+    ports:
+      - "3000:3000"
+    depends_on:
+      backend:
+        condition: service_healthy
 
   adminer:
     image: adminer:latest
@@ -17,7 +68,7 @@ services:
     ports:
       - "8080:8080"
     depends_on:
-      - db
+      - postgres
 
 volumes:
   flowctrl_postgres_data:

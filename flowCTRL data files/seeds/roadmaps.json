@@ -1,0 +1,734 @@
+[
+  {
+    "id": "roadmap_001",
+    "userId": "user_001",
+    "title": "Full‑Stack Engineer Path",
+    "steps": [
+      {
+        "step": 1,
+        "skillId": "skill_001",
+        "targetLevel": 3
+      },
+      {
+        "step": 2,
+        "skillId": "skill_002",
+        "targetLevel": 4
+      }
+    ],
+    "createdAt": "2024-02-01T09:00:00Z"
+  },
+  {
+    "id": "roadmap_001",
+    "userId": "user_001",
+    "title": "Startup Software Engineer Path",
+    "industry": "Startups",
+    "steps": [
+      {
+        "step": 1,
+        "skillId": "skill_html_css",
+        "targetLevel": 3
+      },
+      {
+        "step": 2,
+        "skillId": "skill_javascript",
+        "targetLevel": 4
+      },
+      {
+        "step": 3,
+        "skillId": "skill_react",
+        "targetLevel": 4
+      },
+      {
+        "step": 4,
+        "skillId": "skill_nodejs",
+        "targetLevel": 3
+      },
+      {
+        "step": 5,
+        "skillId": "skill_product_thinking",
+        "targetLevel": 3
+      }
+    ],
+    "createdAt": "2024-02-01T09:00:00Z"
+  },
+  {
+    "id": "roadmap_002",
+    "userId": "user_001",
+    "title": "Research Engineer Path",
+    "industry": "Research & Development (R&D)",
+    "steps": [
+      {
+        "step": 1,
+        "skillId": "skill_cpp",
+        "targetLevel": 4
+      },
+      {
+        "step": 2,
+        "skillId": "skill_python",
+        "targetLevel": 4
+      },
+      {
+        "step": 3,
+        "skillId": "skill_algorithms",
+        "targetLevel": 5
+      },
+      {
+        "step": 4,
+        "skillId": "skill_research_methods",
+        "targetLevel": 4
+      },
+      {
+        "step": 5,
+        "skillId": "skill_publication",
+        "targetLevel": 3
+      }
+    ],
+    "createdAt": "2024-02-03T10:30:00Z"
+  },
+  {
+    "id": "roadmap_003",
+    "userId": "user_001",
+    "title": "Product Company Software Engineer",
+    "industry": "Product-Based Companies",
+    "steps": [
+      {
+        "step": 1,
+        "skillId": "skill_dsa",
+        "targetLevel": 5
+      },
+      {
+        "step": 2,
+        "skillId": "skill_system_design",
+        "targetLevel": 4
+      },
+      {
+        "step": 3,
+        "skillId": "skill_backend",
+        "targetLevel": 4
+      },
+      {
+        "step": 4,
+        "skillId": "skill_sql",
+        "targetLevel": 4
+      },
+      {
+        "step": 5,
+        "skillId": "skill_git",
+        "targetLevel": 4
+      }
+    ],
+    "createdAt": "2024-02-05T12:00:00Z"
+  },
+  {
+    "id": "roadmap_004",
+    "userId": "user_001",
+    "title": "Service-Based Company Developer",
+    "industry": "Service-Based Companies",
+    "steps": [
+      {
+        "step": 1,
+        "skillId": "skill_java",
+        "targetLevel": 4
+      },
+      {
+        "step": 2,
+        "skillId": "skill_sql",
+        "targetLevel": 3
+      },
+      {
+        "step": 3,
+        "skillId": "skill_cloud_basics",
+        "targetLevel": 3
+      },
+      {
+        "step": 4,
+        "skillId": "skill_api_development",
+        "targetLevel": 4
+      },
+      {
+        "step": 5,
+        "skillId": "skill_client_communication",
+        "targetLevel": 3
+      }
+    ],
+    "createdAt": "2024-02-08T08:45:00Z"
+  },
+  {
+    "id": "roadmap_005",
+    "userId": "user_001",
+    "title": "Big Tech Software Engineer",
+    "industry": "Big Tech",
+    "steps": [
+      {
+        "step": 1,
+        "skillId": "skill_dsa",
+        "targetLevel": 5
+      },
+      {
+        "step": 2,
+        "skillId": "skill_system_design",
+        "targetLevel": 5
+      },
+      {
+        "step": 3,
+        "skillId": "skill_distributed_systems",
+        "targetLevel": 4
+      },
+      {
+        "step": 4,
+        "skillId": "skill_linux",
+        "targetLevel": 4
+      },
+      {
+        "step": 5,
+        "skillId": "skill_problem_solving",
+        "targetLevel": 5
+      }
+    ],
+    "createdAt": "2024-02-10T09:30:00Z"
+  },
+  {
+    "id": "roadmap_006",
+    "userId": "user_001",
+    "title": "Big 4 Technology Consultant",
+    "industry": "Big 4",
+    "steps": [
+      {
+        "step": 1,
+        "skillId": "skill_business_analysis",
+        "targetLevel": 4
+      },
+      {
+        "step": 2,
+        "skillId": "skill_excel",
+        "targetLevel": 4
+      },
+      {
+        "step": 3,
+        "skillId": "skill_powerbi",
+        "targetLevel": 4
+      },
+      {
+        "step": 4,
+        "skillId": "skill_consulting",
+        "targetLevel": 4
+      },
+      {
+        "step": 5,
+        "skillId": "skill_presentation",
+        "targetLevel": 4
+      }
+    ],
+    "createdAt": "2024-02-12T11:15:00Z"
+  },
+  {
+    "id": "roadmap_007",
+    "userId": "user_001",
+    "title": "Banking Software Engineer",
+    "industry": "Banking & Financial Services",
+    "steps": [
+      {
+        "step": 1,
+        "skillId": "skill_java",
+        "targetLevel": 4
+      },
+      {
+        "step": 2,
+        "skillId": "skill_sql",
+        "targetLevel": 4
+      },
+      {
+        "step": 3,
+        "skillId": "skill_finance_basics",
+        "targetLevel": 3
+      },
+      {
+        "step": 4,
+        "skillId": "skill_security",
+        "targetLevel": 4
+      },
+      {
+        "step": 5,
+        "skillId": "skill_microservices",
+        "targetLevel": 4
+      }
+    ],
+    "createdAt": "2024-02-14T09:20:00Z"
+  },
+  {
+    "id": "roadmap_008",
+    "userId": "user_001",
+    "title": "Technology Consultant",
+    "industry": "Consulting",
+    "steps": [
+      {
+        "step": 1,
+        "skillId": "skill_problem_solving",
+        "targetLevel": 4
+      },
+      {
+        "step": 2,
+        "skillId": "skill_data_analysis",
+        "targetLevel": 4
+      },
+      {
+        "step": 3,
+        "skillId": "skill_business_strategy",
+        "targetLevel": 3
+      },
+      {
+        "step": 4,
+        "skillId": "skill_presentation",
+        "targetLevel": 4
+      },
+      {
+        "step": 5,
+        "skillId": "skill_stakeholder_management",
+        "targetLevel": 3
+      }
+    ],
+    "createdAt": "2024-02-16T13:00:00Z"
+  },
+  {
+    "id": "roadmap_009",
+    "userId": "user_001",
+    "title": "PSU Software Engineer",
+    "industry": "Government (PSUs)",
+    "steps": [
+      {
+        "step": 1,
+        "skillId": "skill_c",
+        "targetLevel": 4
+      },
+      {
+        "step": 2,
+        "skillId": "skill_operating_systems",
+        "targetLevel": 4
+      },
+      {
+        "step": 3,
+        "skillId": "skill_networking",
+        "targetLevel": 4
+      },
+      {
+        "step": 4,
+        "skillId": "skill_database",
+        "targetLevel": 3
+      },
+      {
+        "step": 5,
+        "skillId": "skill_system_programming",
+        "targetLevel": 4
+      }
+    ],
+    "createdAt": "2024-02-18T08:00:00Z"
+  },
+  {
+    "id": "roadmap_010",
+    "userId": "user_001",
+    "title": "Defence Software Engineer",
+    "industry": "Defence & Aerospace",
+    "steps": [
+      {
+        "step": 1,
+        "skillId": "skill_cpp",
+        "targetLevel": 5
+      },
+      {
+        "step": 2,
+        "skillId": "skill_embedded_systems",
+        "targetLevel": 4
+      },
+      {
+        "step": 3,
+        "skillId": "skill_real_time_os",
+        "targetLevel": 4
+      },
+      {
+        "step": 4,
+        "skillId": "skill_control_systems",
+        "targetLevel": 3
+      },
+      {
+        "step": 5,
+        "skillId": "skill_security",
+        "targetLevel": 4
+      }
+    ],
+    "createdAt": "2024-02-20T09:00:00Z"
+  },
+  {
+    "id": "roadmap_011",
+    "userId": "user_001",
+    "title": "Core Engineering Digital Engineer",
+    "industry": "Core Engineering",
+    "steps": [
+      {
+        "step": 1,
+        "skillId": "skill_cad",
+        "targetLevel": 4
+      },
+      {
+        "step": 2,
+        "skillId": "skill_simulation",
+        "targetLevel": 4
+      },
+      {
+        "step": 3,
+        "skillId": "skill_programming",
+        "targetLevel": 3
+      },
+      {
+        "step": 4,
+        "skillId": "skill_iot",
+        "targetLevel": 3
+      },
+      {
+        "step": 5,
+        "skillId": "skill_automation",
+        "targetLevel": 4
+      }
+    ],
+    "createdAt": "2024-02-22T10:00:00Z"
+  },
+  {
+    "id": "roadmap_012",
+    "userId": "user_001",
+    "title": "Semiconductor Engineer",
+    "industry": "Semiconductor",
+    "steps": [
+      {
+        "step": 1,
+        "skillId": "skill_digital_electronics",
+        "targetLevel": 5
+      },
+      {
+        "step": 2,
+        "skillId": "skill_verilog",
+        "targetLevel": 4
+      },
+      {
+        "step": 3,
+        "skillId": "skill_vlsi",
+        "targetLevel": 5
+      },
+      {
+        "step": 4,
+        "skillId": "skill_fpga",
+        "targetLevel": 4
+      },
+      {
+        "step": 5,
+        "skillId": "skill_chip_design",
+        "targetLevel": 4
+      }
+    ],
+    "createdAt": "2024-02-24T09:30:00Z"
+  },
+  {
+    "id": "roadmap_013",
+    "userId": "user_001",
+    "title": "Telecom Network Engineer",
+    "industry": "Telecom",
+    "steps": [
+      {
+        "step": 1,
+        "skillId": "skill_networking",
+        "targetLevel": 5
+      },
+      {
+        "step": 2,
+        "skillId": "skill_5g",
+        "targetLevel": 4
+      },
+      {
+        "step": 3,
+        "skillId": "skill_linux",
+        "targetLevel": 3
+      },
+      {
+        "step": 4,
+        "skillId": "skill_cloud",
+        "targetLevel": 3
+      },
+      {
+        "step": 5,
+        "skillId": "skill_network_security",
+        "targetLevel": 4
+      }
+    ],
+    "createdAt": "2024-02-26T08:30:00Z"
+  },
+  {
+    "id": "roadmap_014",
+    "userId": "user_001",
+    "title": "Healthcare Software Engineer",
+    "industry": "Healthcare & Pharma Tech",
+    "steps": [
+      {
+        "step": 1,
+        "skillId": "skill_python",
+        "targetLevel": 4
+      },
+      {
+        "step": 2,
+        "skillId": "skill_healthcare_data",
+        "targetLevel": 3
+      },
+      {
+        "step": 3,
+        "skillId": "skill_machine_learning",
+        "targetLevel": 4
+      },
+      {
+        "step": 4,
+        "skillId": "skill_security",
+        "targetLevel": 4
+      },
+      {
+        "step": 5,
+        "skillId": "skill_cloud",
+        "targetLevel": 3
+      }
+    ],
+    "createdAt": "2024-02-28T09:15:00Z"
+  },
+  {
+    "id": "roadmap_015",
+    "userId": "user_001",
+    "title": "Automotive Software Engineer",
+    "industry": "Automotive",
+    "steps": [
+      {
+        "step": 1,
+        "skillId": "skill_cpp",
+        "targetLevel": 5
+      },
+      {
+        "step": 2,
+        "skillId": "skill_autosar",
+        "targetLevel": 4
+      },
+      {
+        "step": 3,
+        "skillId": "skill_embedded_systems",
+        "targetLevel": 4
+      },
+      {
+        "step": 4,
+        "skillId": "skill_can_protocol",
+        "targetLevel": 3
+      },
+      {
+        "step": 5,
+        "skillId": "skill_testing",
+        "targetLevel": 4
+      }
+    ],
+    "createdAt": "2024-03-01T09:00:00Z"
+  },
+  {
+    "id": "roadmap_016",
+    "userId": "user_001",
+    "title": "E-commerce Backend Engineer",
+    "industry": "E-commerce",
+    "steps": [
+      {
+        "step": 1,
+        "skillId": "skill_backend",
+        "targetLevel": 4
+      },
+      {
+        "step": 2,
+        "skillId": "skill_microservices",
+        "targetLevel": 4
+      },
+      {
+        "step": 3,
+        "skillId": "skill_redis",
+        "targetLevel": 3
+      },
+      {
+        "step": 4,
+        "skillId": "skill_system_design",
+        "targetLevel": 4
+      },
+      {
+        "step": 5,
+        "skillId": "skill_cloud",
+        "targetLevel": 4
+      }
+    ],
+    "createdAt": "2024-03-03T10:00:00Z"
+  },
+  {
+    "id": "roadmap_017",
+    "userId": "user_001",
+    "title": "Game Developer Path",
+    "industry": "Gaming",
+    "steps": [
+      {
+        "step": 1,
+        "skillId": "skill_cpp",
+        "targetLevel": 4
+      },
+      {
+        "step": 2,
+        "skillId": "skill_unity",
+        "targetLevel": 4
+      },
+      {
+        "step": 3,
+        "skillId": "skill_unreal",
+        "targetLevel": 3
+      },
+      {
+        "step": 4,
+        "skillId": "skill_graphics",
+        "targetLevel": 4
+      },
+      {
+        "step": 5,
+        "skillId": "skill_game_design",
+        "targetLevel": 4
+      }
+    ],
+    "createdAt": "2024-03-05T08:45:00Z"
+  },
+  {
+    "id": "roadmap_018",
+    "userId": "user_001",
+    "title": "EdTech Platform Engineer",
+    "industry": "EdTech",
+    "steps": [
+      {
+        "step": 1,
+        "skillId": "skill_react",
+        "targetLevel": 4
+      },
+      {
+        "step": 2,
+        "skillId": "skill_nodejs",
+        "targetLevel": 4
+      },
+      {
+        "step": 3,
+        "skillId": "skill_database",
+        "targetLevel": 3
+      },
+      {
+        "step": 4,
+        "skillId": "skill_ux",
+        "targetLevel": 3
+      },
+      {
+        "step": 5,
+        "skillId": "skill_cloud",
+        "targetLevel": 3
+      }
+    ],
+    "createdAt": "2024-03-07T09:20:00Z"
+  },
+  {
+    "id": "roadmap_019",
+    "userId": "user_001",
+    "title": "FinTech Software Engineer",
+    "industry": "FinTech",
+    "steps": [
+      {
+        "step": 1,
+        "skillId": "skill_java",
+        "targetLevel": 4
+      },
+      {
+        "step": 2,
+        "skillId": "skill_microservices",
+        "targetLevel": 4
+      },
+      {
+        "step": 3,
+        "skillId": "skill_finance_basics",
+        "targetLevel": 4
+      },
+      {
+        "step": 4,
+        "skillId": "skill_security",
+        "targetLevel": 5
+      },
+      {
+        "step": 5,
+        "skillId": "skill_cloud",
+        "targetLevel": 4
+      }
+    ],
+    "createdAt": "2024-03-09T10:10:00Z"
+  },
+  {
+    "id": "roadmap_020",
+    "userId": "user_001",
+    "title": "SaaS Full-Stack Engineer",
+    "industry": "SaaS",
+    "steps": [
+      {
+        "step": 1,
+        "skillId": "skill_react",
+        "targetLevel": 4
+      },
+      {
+        "step": 2,
+        "skillId": "skill_nodejs",
+        "targetLevel": 4
+      },
+      {
+        "step": 3,
+        "skillId": "skill_postgresql",
+        "targetLevel": 4
+      },
+      {
+        "step": 4,
+        "skillId": "skill_docker",
+        "targetLevel": 4
+      },
+      {
+        "step": 5,
+        "skillId": "skill_system_design",
+        "targetLevel": 4
+      }
+    ],
+    "createdAt": "2024-03-11T09:00:00Z"
+  },
+  {
+    "id": "roadmap_021",
+    "userId": "user_001",
+    "title": "AI Research Engineer",
+    "industry": "AI & Research Labs",
+    "steps": [
+      {
+        "step": 1,
+        "skillId": "skill_python",
+        "targetLevel": 5
+      },
+      {
+        "step": 2,
+        "skillId": "skill_machine_learning",
+        "targetLevel": 5
+      },
+      {
+        "step": 3,
+        "skillId": "skill_deep_learning",
+        "targetLevel": 5
+      },
+      {
+        "step": 4,
+        "skillId": "skill_pytorch",
+        "targetLevel": 4
+      },
+      {
+        "step": 5,
+        "skillId": "skill_research_methods",
+        "targetLevel": 4
+      }
+    ],
+    "createdAt": "2024-03-13T08:30:00Z"
+  }
+]

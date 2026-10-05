@@ -2,7 +2,7 @@
 
 import React, { Suspense, useState, useRef, useEffect } from "react";
 import { useRouter, usePathname, useSearchParams } from "next/navigation";
-import { useSession, signOut } from "next-auth/react";
+import { useSession, signOut as nextAuthSignOut } from "next-auth/react";
 import {
   LogIn,
   LogOut,
@@ -12,13 +12,16 @@ import {
   Shield,
   Settings,
 } from "lucide-react";
-import { api } from "@/lib/api";
+import { useAuth } from "@/hooks/useAuth";
 
 function NavProfileContent() {
   const router = useRouter();
   const pathname = usePathname();
   const searchParams = useSearchParams();
-  const { data: session, status } = useSession();
+
+  const { user: authUser, status: authStatus, signOut: authSignOut } = useAuth();
+  const { data: nextSession, status: nextStatus } = useSession();
+
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const dropdownRef = useRef(null);
 
@@ -39,14 +42,17 @@ function NavProfileContent() {
     router.replace(`${pathname}?${params.toString()}`);
   };
 
-  if (status === "loading") {
+  const currentUser = authUser || nextSession?.user;
+  const isLoading = authStatus === "loading" && !currentUser;
+
+  if (isLoading) {
     return <div className="w-8 h-8 rounded-full bg-white/10 animate-pulse" />;
   }
 
   // Authenticated State
-  if (session?.user) {
+  if (currentUser) {
     const displayName =
-      session.user.name || session.user.email?.split("@")[0] || "User";
+      currentUser.name || currentUser.email?.split("@")[0] || "User";
     const initials = displayName
       .split(" ")
       .map((n) => n[0])
@@ -54,7 +60,7 @@ function NavProfileContent() {
       .substring(0, 2)
       .toUpperCase();
 
-    const role = session.user.role || "USER";
+    const role = currentUser.role || "USER";
 
     return (
       <div className="relative" ref={dropdownRef}>
@@ -79,7 +85,7 @@ function NavProfileContent() {
                 {displayName}
               </p>
               <p className="text-[11px] text-zinc-400 truncate">
-                {session.user.email}
+                {currentUser.email}
               </p>
               <span className="inline-block mt-1 px-1.5 py-0.5 rounded text-[9px] uppercase font-bold tracking-wider bg-orange-500/20 text-orange-400 border border-orange-500/20">
                 {role}
@@ -124,11 +130,15 @@ function NavProfileContent() {
               onClick={async () => {
                 setDropdownOpen(false);
                 try {
-                  await api.auth.logout();
+                  await authSignOut();
                 } catch {
                   // Fallback
                 }
-                signOut({ callbackUrl: "/" });
+                try {
+                  nextAuthSignOut({ callbackUrl: "/" });
+                } catch {
+                  // Fallback
+                }
               }}
               className="w-full flex items-center gap-2 px-3 py-2 rounded-xl hover:bg-red-500/10 text-red-400 text-left transition-colors cursor-pointer"
             >

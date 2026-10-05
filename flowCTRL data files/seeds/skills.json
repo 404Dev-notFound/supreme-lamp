@@ -1,0 +1,1836 @@
+[
+  {
+    "id": "skill_001",
+    "name": "Python Programming",
+    "category": "Programming",
+    "description": "Fundamental Python language skills.",
+    "createdAt": "2024-01-10T09:00:00Z"
+  },
+  {
+    "id": "skill_002",
+    "name": "Data Analysis",
+    "category": "Data Science",
+    "description": "Analyzing datasets with pandas and numpy.",
+    "createdAt": "2024-01-12T10:30:00Z"
+  },
+  {
+    "id": "skill_003",
+    "name": "HTML",
+    "category": "Frontend Development",
+    "description": "Build semantic and accessible web page structures.",
+    "createdAt": "2024-01-10T09:10:00Z"
+  },
+  {
+    "id": "skill_004",
+    "name": "CSS",
+    "category": "Frontend Development",
+    "description": "Style responsive and modern user interfaces.",
+    "createdAt": "2024-01-10T09:15:00Z"
+  },
+  {
+    "id": "skill_005",
+    "name": "JavaScript",
+    "category": "Frontend Development",
+    "description": "Develop interactive web applications using JavaScript.",
+    "createdAt": "2024-01-10T09:20:00Z"
+  },
+  {
+    "id": "skill_006",
+    "name": "TypeScript",
+    "category": "Frontend Development",
+    "description": "Build scalable applications with typed JavaScript.",
+    "createdAt": "2024-01-10T09:25:00Z"
+  },
+  {
+    "id": "skill_007",
+    "name": "React",
+    "category": "Frontend Development",
+    "description": "Create modern component-based user interfaces.",
+    "createdAt": "2024-01-10T09:30:00Z"
+  },
+  {
+    "id": "skill_008",
+    "name": "Next.js",
+    "category": "Frontend Development",
+    "description": "Build full-stack React applications with server-side rendering.",
+    "createdAt": "2024-01-10T09:35:00Z"
+  },
+  {
+    "id": "skill_009",
+    "name": "Tailwind CSS",
+    "category": "Frontend Development",
+    "description": "Build responsive interfaces using utility-first CSS.",
+    "createdAt": "2024-01-10T09:40:00Z"
+  },
+  {
+    "id": "skill_010",
+    "name": "Bootstrap",
+    "category": "Frontend Development",
+    "description": "Develop responsive layouts with Bootstrap components.",
+    "createdAt": "2024-01-10T09:45:00Z"
+  },
+  {
+    "id": "skill_011",
+    "name": "Redux",
+    "category": "Frontend Development",
+    "description": "Manage application state in React applications.",
+    "createdAt": "2024-01-10T09:50:00Z"
+  },
+  {
+    "id": "skill_012",
+    "name": "Framer Motion",
+    "category": "Frontend Development",
+    "description": "Create smooth animations and page transitions.",
+    "createdAt": "2024-01-10T09:55:00Z"
+  },
+  {
+    "id": "skill_013",
+    "name": "Node.js",
+    "category": "Backend Development",
+    "description": "Develop scalable server-side JavaScript applications.",
+    "createdAt": "2024-01-10T10:00:00Z"
+  },
+  {
+    "id": "skill_014",
+    "name": "Express.js",
+    "category": "Backend Development",
+    "description": "Build RESTful APIs and backend services with Express.",
+    "createdAt": "2024-01-10T10:05:00Z"
+  },
+  {
+    "id": "skill_015",
+    "name": "REST API Development",
+    "category": "Backend Development",
+    "description": "Design and develop RESTful web services.",
+    "createdAt": "2024-01-10T10:10:00Z"
+  },
+  {
+    "id": "skill_016",
+    "name": "GraphQL",
+    "category": "Backend Development",
+    "description": "Build flexible APIs using GraphQL.",
+    "createdAt": "2024-01-10T10:15:00Z"
+  },
+  {
+    "id": "skill_017",
+    "name": "MongoDB",
+    "category": "Database",
+    "description": "Store and manage NoSQL data efficiently.",
+    "createdAt": "2024-01-10T10:20:00Z"
+  },
+  {
+    "id": "skill_018",
+    "name": "PostgreSQL",
+    "category": "Database",
+    "description": "Design and manage relational databases using PostgreSQL.",
+    "createdAt": "2024-01-10T10:25:00Z"
+  },
+  {
+    "id": "skill_019",
+    "name": "MySQL",
+    "category": "Database",
+    "description": "Work with relational databases using MySQL.",
+    "createdAt": "2024-01-10T10:30:00Z"
+  },
+  {
+    "id": "skill_020",
+    "name": "Prisma ORM",
+    "category": "Backend Development",
+    "description": "Model and query databases using Prisma ORM.",
+    "createdAt": "2024-01-10T10:35:00Z"
+  },
+  {
+    "id": "skill_021",
+    "name": "Git",
+    "category": "Developer Tools",
+    "description": "Track source code changes using Git version control.",
+    "createdAt": "2024-01-10T10:40:00Z"
+  },
+  {
+    "id": "skill_022",
+    "name": "GitHub",
+    "category": "Developer Tools",
+    "description": "Collaborate on projects and manage repositories using GitHub.",
+    "createdAt": "2024-01-10T10:45:00Z"
+  },
+  {
+    "id": "skill_023",
+    "name": "Python",
+    "category": "Programming Languages",
+    "description": "Develop applications, automation scripts, and AI solutions using Python.",
+    "createdAt": "2024-01-10T10:50:00Z"
+  },
+  {
+    "id": "skill_024",
+    "name": "Java",
+    "category": "Programming Languages",
+    "description": "Build enterprise-grade applications using Java.",
+    "createdAt": "2024-01-10T10:55:00Z"
+  },
+  {
+    "id": "skill_025",
+    "name": "C++",
+    "category": "Programming Languages",
+    "description": "Develop high-performance software and system-level applications.",
+    "createdAt": "2024-01-10T11:00:00Z"
+  },
+  {
+    "id": "skill_026",
+    "name": "C",
+    "category": "Programming Languages",
+    "description": "Write efficient low-level and embedded system programs.",
+    "createdAt": "2024-01-10T11:05:00Z"
+  },
+  {
+    "id": "skill_027",
+    "name": "Go",
+    "category": "Programming Languages",
+    "description": "Build scalable backend services using Go.",
+    "createdAt": "2024-01-10T11:10:00Z"
+  },
+  {
+    "id": "skill_028",
+    "name": "Rust",
+    "category": "Programming Languages",
+    "description": "Develop memory-safe and high-performance systems software.",
+    "createdAt": "2024-01-10T11:15:00Z"
+  },
+  {
+    "id": "skill_029",
+    "name": "Kotlin",
+    "category": "Programming Languages",
+    "description": "Develop modern Android applications using Kotlin.",
+    "createdAt": "2024-01-10T11:20:00Z"
+  },
+  {
+    "id": "skill_030",
+    "name": "Swift",
+    "category": "Programming Languages",
+    "description": "Build native iOS applications using Swift.",
+    "createdAt": "2024-01-10T11:25:00Z"
+  },
+  {
+    "id": "skill_031",
+    "name": "PHP",
+    "category": "Programming Languages",
+    "description": "Develop dynamic web applications using PHP.",
+    "createdAt": "2024-01-10T11:30:00Z"
+  },
+  {
+    "id": "skill_032",
+    "name": "C#",
+    "category": "Programming Languages",
+    "description": "Build desktop, web, and game applications using C#.",
+    "createdAt": "2024-01-10T11:35:00Z"
+  },
+  {
+    "id": "skill_033",
+    "name": "Linux",
+    "category": "Operating Systems",
+    "description": "Manage Linux systems and command-line environments.",
+    "createdAt": "2024-01-10T11:40:00Z"
+  },
+  {
+    "id": "skill_034",
+    "name": "Docker",
+    "category": "DevOps",
+    "description": "Containerize applications for development and deployment.",
+    "createdAt": "2024-01-10T11:45:00Z"
+  },
+  {
+    "id": "skill_035",
+    "name": "Docker Compose",
+    "category": "DevOps",
+    "description": "Manage multi-container applications with Docker Compose.",
+    "createdAt": "2024-01-10T11:50:00Z"
+  },
+  {
+    "id": "skill_036",
+    "name": "Kubernetes",
+    "category": "DevOps",
+    "description": "Deploy, scale, and manage containerized applications.",
+    "createdAt": "2024-01-10T11:55:00Z"
+  },
+  {
+    "id": "skill_037",
+    "name": "GitHub Actions",
+    "category": "DevOps",
+    "description": "Automate build, test, and deployment workflows.",
+    "createdAt": "2024-01-10T12:00:00Z"
+  },
+  {
+    "id": "skill_038",
+    "name": "CI/CD",
+    "category": "DevOps",
+    "description": "Implement continuous integration and deployment pipelines.",
+    "createdAt": "2024-01-10T12:05:00Z"
+  },
+  {
+    "id": "skill_039",
+    "name": "AWS",
+    "category": "Cloud Computing",
+    "description": "Build and deploy cloud-native applications on Amazon Web Services.",
+    "createdAt": "2024-01-10T12:10:00Z"
+  },
+  {
+    "id": "skill_040",
+    "name": "Microsoft Azure",
+    "category": "Cloud Computing",
+    "description": "Develop and manage cloud solutions using Azure.",
+    "createdAt": "2024-01-10T12:15:00Z"
+  },
+  {
+    "id": "skill_041",
+    "name": "Google Cloud Platform",
+    "category": "Cloud Computing",
+    "description": "Deploy scalable applications using Google Cloud Platform.",
+    "createdAt": "2024-01-10T12:20:00Z"
+  },
+  {
+    "id": "skill_042",
+    "name": "Firebase",
+    "category": "Cloud Computing",
+    "description": "Build full-stack applications using Firebase services.",
+    "createdAt": "2024-01-10T12:25:00Z"
+  },
+  {
+    "id": "skill_043",
+    "name": "Data Structures",
+    "category": "Computer Science Fundamentals",
+    "description": "Understand and implement linear and non-linear data structures.",
+    "createdAt": "2024-01-10T12:30:00Z"
+  },
+  {
+    "id": "skill_044",
+    "name": "Algorithms",
+    "category": "Computer Science Fundamentals",
+    "description": "Design efficient algorithms for solving computational problems.",
+    "createdAt": "2024-01-10T12:35:00Z"
+  },
+  {
+    "id": "skill_045",
+    "name": "Object-Oriented Programming (OOP)",
+    "category": "Computer Science Fundamentals",
+    "description": "Apply object-oriented principles to software development.",
+    "createdAt": "2024-01-10T12:40:00Z"
+  },
+  {
+    "id": "skill_046",
+    "name": "Database Management Systems (DBMS)",
+    "category": "Computer Science Fundamentals",
+    "description": "Understand database concepts, normalization, and transactions.",
+    "createdAt": "2024-01-10T12:45:00Z"
+  },
+  {
+    "id": "skill_047",
+    "name": "Operating Systems",
+    "category": "Computer Science Fundamentals",
+    "description": "Learn process management, memory management, and scheduling.",
+    "createdAt": "2024-01-10T12:50:00Z"
+  },
+  {
+    "id": "skill_048",
+    "name": "Computer Networks",
+    "category": "Computer Science Fundamentals",
+    "description": "Understand networking protocols, routing, and communication.",
+    "createdAt": "2024-01-10T12:55:00Z"
+  },
+  {
+    "id": "skill_049",
+    "name": "System Design",
+    "category": "Software Architecture",
+    "description": "Design scalable, distributed, and reliable software systems.",
+    "createdAt": "2024-01-10T13:00:00Z"
+  },
+  {
+    "id": "skill_050",
+    "name": "Software Engineering",
+    "category": "Software Development",
+    "description": "Apply engineering principles throughout the software lifecycle.",
+    "createdAt": "2024-01-10T13:05:00Z"
+  },
+  {
+    "id": "skill_051",
+    "name": "Design Patterns",
+    "category": "Software Architecture",
+    "description": "Use reusable software design solutions for common problems.",
+    "createdAt": "2024-01-10T13:10:00Z"
+  },
+  {
+    "id": "skill_052",
+    "name": "Problem Solving",
+    "category": "Computer Science Fundamentals",
+    "description": "Develop logical and analytical thinking to solve coding problems.",
+    "createdAt": "2024-01-10T13:15:00Z"
+  },
+  {
+    "id": "skill_053",
+    "name": "Competitive Programming",
+    "category": "Programming",
+    "description": "Solve algorithmic challenges under time constraints.",
+    "createdAt": "2024-01-10T13:20:00Z"
+  },
+  {
+    "id": "skill_054",
+    "name": "SQL",
+    "category": "Database",
+    "description": "Query and manage relational databases using SQL.",
+    "createdAt": "2024-01-10T13:25:00Z"
+  },
+  {
+    "id": "skill_055",
+    "name": "NoSQL Databases",
+    "category": "Database",
+    "description": "Work with document, key-value, and distributed databases.",
+    "createdAt": "2024-01-10T13:30:00Z"
+  },
+  {
+    "id": "skill_056",
+    "name": "Redis",
+    "category": "Database",
+    "description": "Use Redis for caching, messaging, and high-speed data storage.",
+    "createdAt": "2024-01-10T13:35:00Z"
+  },
+  {
+    "id": "skill_057",
+    "name": "Authentication & Authorization",
+    "category": "Backend Development",
+    "description": "Implement secure authentication and role-based access control.",
+    "createdAt": "2024-01-10T13:40:00Z"
+  },
+  {
+    "id": "skill_058",
+    "name": "JWT Authentication",
+    "category": "Backend Development",
+    "description": "Secure APIs using JSON Web Tokens.",
+    "createdAt": "2024-01-10T13:45:00Z"
+  },
+  {
+    "id": "skill_059",
+    "name": "OAuth 2.0",
+    "category": "Backend Development",
+    "description": "Integrate secure third-party authentication providers.",
+    "createdAt": "2024-01-10T13:50:00Z"
+  },
+  {
+    "id": "skill_060",
+    "name": "Web Security",
+    "category": "Cybersecurity",
+    "description": "Protect web applications against common security vulnerabilities.",
+    "createdAt": "2024-01-10T13:55:00Z"
+  },
+  {
+    "id": "skill_061",
+    "name": "API Testing",
+    "category": "Backend Development",
+    "description": "Test REST and GraphQL APIs using modern testing tools.",
+    "createdAt": "2024-01-10T14:00:00Z"
+  },
+  {
+    "id": "skill_062",
+    "name": "Unit Testing",
+    "category": "Software Testing",
+    "description": "Write automated tests to ensure code quality and reliability.",
+    "createdAt": "2024-01-10T14:05:00Z"
+  },
+  {
+    "id": "skill_063",
+    "name": "Artificial Intelligence",
+    "category": "Artificial Intelligence",
+    "description": "Understand the fundamentals of intelligent systems and AI techniques.",
+    "createdAt": "2024-01-10T14:10:00Z"
+  },
+  {
+    "id": "skill_064",
+    "name": "Machine Learning",
+    "category": "Artificial Intelligence",
+    "description": "Build predictive models using supervised and unsupervised learning.",
+    "createdAt": "2024-01-10T14:15:00Z"
+  },
+  {
+    "id": "skill_065",
+    "name": "Deep Learning",
+    "category": "Artificial Intelligence",
+    "description": "Develop neural network models for complex learning tasks.",
+    "createdAt": "2024-01-10T14:20:00Z"
+  },
+  {
+    "id": "skill_066",
+    "name": "Data Science",
+    "category": "Data Science",
+    "description": "Extract insights from structured and unstructured data.",
+    "createdAt": "2024-01-10T14:25:00Z"
+  },
+  {
+    "id": "skill_067",
+    "name": "Data Analysis",
+    "category": "Data Science",
+    "description": "Analyze datasets using statistical and computational techniques.",
+    "createdAt": "2024-01-10T14:30:00Z"
+  },
+  {
+    "id": "skill_068",
+    "name": "NumPy",
+    "category": "Data Science",
+    "description": "Perform efficient numerical computing with NumPy.",
+    "createdAt": "2024-01-10T14:35:00Z"
+  },
+  {
+    "id": "skill_069",
+    "name": "Pandas",
+    "category": "Data Science",
+    "description": "Manipulate, clean, and analyze datasets using Pandas.",
+    "createdAt": "2024-01-10T14:40:00Z"
+  },
+  {
+    "id": "skill_070",
+    "name": "Matplotlib",
+    "category": "Data Visualization",
+    "description": "Create data visualizations and analytical charts.",
+    "createdAt": "2024-01-10T14:45:00Z"
+  },
+  {
+    "id": "skill_071",
+    "name": "Scikit-learn",
+    "category": "Machine Learning",
+    "description": "Build machine learning models using Scikit-learn.",
+    "createdAt": "2024-01-10T14:50:00Z"
+  },
+  {
+    "id": "skill_072",
+    "name": "TensorFlow",
+    "category": "Deep Learning",
+    "description": "Develop deep learning models using TensorFlow.",
+    "createdAt": "2024-01-10T14:55:00Z"
+  },
+  {
+    "id": "skill_073",
+    "name": "PyTorch",
+    "category": "Deep Learning",
+    "description": "Train and deploy neural network models with PyTorch.",
+    "createdAt": "2024-01-10T15:00:00Z"
+  },
+  {
+    "id": "skill_074",
+    "name": "Computer Vision",
+    "category": "Artificial Intelligence",
+    "description": "Develop systems that analyze and interpret images and videos.",
+    "createdAt": "2024-01-10T15:05:00Z"
+  },
+  {
+    "id": "skill_075",
+    "name": "Natural Language Processing (NLP)",
+    "category": "Artificial Intelligence",
+    "description": "Build applications that understand and generate human language.",
+    "createdAt": "2024-01-10T15:10:00Z"
+  },
+  {
+    "id": "skill_076",
+    "name": "Generative AI",
+    "category": "Artificial Intelligence",
+    "description": "Create AI systems capable of generating text, images, audio, and code.",
+    "createdAt": "2024-01-10T15:15:00Z"
+  },
+  {
+    "id": "skill_077",
+    "name": "Large Language Models (LLMs)",
+    "category": "Artificial Intelligence",
+    "description": "Work with transformer-based language models and applications.",
+    "createdAt": "2024-01-10T15:20:00Z"
+  },
+  {
+    "id": "skill_078",
+    "name": "Prompt Engineering",
+    "category": "Artificial Intelligence",
+    "description": "Design effective prompts for AI and language models.",
+    "createdAt": "2024-01-10T15:25:00Z"
+  },
+  {
+    "id": "skill_079",
+    "name": "MLOps",
+    "category": "Machine Learning",
+    "description": "Deploy, monitor, and manage machine learning models in production.",
+    "createdAt": "2024-01-10T15:30:00Z"
+  },
+  {
+    "id": "skill_080",
+    "name": "Feature Engineering",
+    "category": "Machine Learning",
+    "description": "Create meaningful input features to improve model performance.",
+    "createdAt": "2024-01-10T15:35:00Z"
+  },
+  {
+    "id": "skill_081",
+    "name": "Model Deployment",
+    "category": "Machine Learning",
+    "description": "Deploy machine learning models as scalable production services.",
+    "createdAt": "2024-01-10T15:40:00Z"
+  },
+  {
+    "id": "skill_082",
+    "name": "Statistics",
+    "category": "Data Science",
+    "description": "Apply statistical concepts for data analysis and machine learning.",
+    "createdAt": "2024-01-10T15:45:00Z"
+  },
+  {
+    "id": "skill_083",
+    "name": "Cybersecurity Fundamentals",
+    "category": "Cybersecurity",
+    "description": "Understand the core principles of information and network security.",
+    "createdAt": "2024-01-10T15:50:00Z"
+  },
+  {
+    "id": "skill_084",
+    "name": "Ethical Hacking",
+    "category": "Cybersecurity",
+    "description": "Identify and assess vulnerabilities using ethical hacking techniques.",
+    "createdAt": "2024-01-10T15:55:00Z"
+  },
+  {
+    "id": "skill_085",
+    "name": "Penetration Testing",
+    "category": "Cybersecurity",
+    "description": "Perform authorized security testing on systems and applications.",
+    "createdAt": "2024-01-10T16:00:00Z"
+  },
+  {
+    "id": "skill_086",
+    "name": "Network Security",
+    "category": "Cybersecurity",
+    "description": "Secure enterprise networks using industry-standard practices.",
+    "createdAt": "2024-01-10T16:05:00Z"
+  },
+  {
+    "id": "skill_087",
+    "name": "Application Security",
+    "category": "Cybersecurity",
+    "description": "Protect web and mobile applications from security threats.",
+    "createdAt": "2024-01-10T16:10:00Z"
+  },
+  {
+    "id": "skill_088",
+    "name": "Cloud Security",
+    "category": "Cybersecurity",
+    "description": "Secure cloud infrastructure and cloud-native applications.",
+    "createdAt": "2024-01-10T16:15:00Z"
+  },
+  {
+    "id": "skill_089",
+    "name": "Identity & Access Management (IAM)",
+    "category": "Cybersecurity",
+    "description": "Manage user identities, authentication, and authorization.",
+    "createdAt": "2024-01-10T16:20:00Z"
+  },
+  {
+    "id": "skill_090",
+    "name": "Cryptography",
+    "category": "Cybersecurity",
+    "description": "Apply encryption techniques to secure digital information.",
+    "createdAt": "2024-01-10T16:25:00Z"
+  },
+  {
+    "id": "skill_091",
+    "name": "Digital Forensics",
+    "category": "Cybersecurity",
+    "description": "Investigate and analyze digital evidence after security incidents.",
+    "createdAt": "2024-01-10T16:30:00Z"
+  },
+  {
+    "id": "skill_092",
+    "name": "Incident Response",
+    "category": "Cybersecurity",
+    "description": "Respond to and recover from cybersecurity incidents.",
+    "createdAt": "2024-01-10T16:35:00Z"
+  },
+  {
+    "id": "skill_093",
+    "name": "Security Information and Event Management (SIEM)",
+    "category": "Cybersecurity",
+    "description": "Monitor and analyze security events using SIEM platforms.",
+    "createdAt": "2024-01-10T16:40:00Z"
+  },
+  {
+    "id": "skill_094",
+    "name": "DevSecOps",
+    "category": "Cybersecurity",
+    "description": "Integrate security practices into DevOps workflows.",
+    "createdAt": "2024-01-10T16:45:00Z"
+  },
+  {
+    "id": "skill_095",
+    "name": "Vulnerability Assessment",
+    "category": "Cybersecurity",
+    "description": "Identify, classify, and prioritize security vulnerabilities.",
+    "createdAt": "2024-01-10T16:50:00Z"
+  },
+  {
+    "id": "skill_096",
+    "name": "Malware Analysis",
+    "category": "Cybersecurity",
+    "description": "Analyze malicious software to understand its behavior and impact.",
+    "createdAt": "2024-01-10T16:55:00Z"
+  },
+  {
+    "id": "skill_097",
+    "name": "Blockchain Fundamentals",
+    "category": "Blockchain",
+    "description": "Understand decentralized ledger technology and blockchain concepts.",
+    "createdAt": "2024-01-10T17:00:00Z"
+  },
+  {
+    "id": "skill_098",
+    "name": "Smart Contracts",
+    "category": "Blockchain",
+    "description": "Develop decentralized applications using smart contracts.",
+    "createdAt": "2024-01-10T17:05:00Z"
+  },
+  {
+    "id": "skill_099",
+    "name": "Solidity",
+    "category": "Blockchain",
+    "description": "Write secure smart contracts for Ethereum-based applications.",
+    "createdAt": "2024-01-10T17:10:00Z"
+  },
+  {
+    "id": "skill_100",
+    "name": "Web3 Development",
+    "category": "Blockchain",
+    "description": "Build decentralized applications using Web3 technologies.",
+    "createdAt": "2024-01-10T17:15:00Z"
+  },
+  {
+    "id": "skill_101",
+    "name": "Security Operations Center (SOC)",
+    "category": "Cybersecurity",
+    "description": "Monitor, detect, and respond to security threats in SOC environments.",
+    "createdAt": "2024-01-10T17:20:00Z"
+  },
+  {
+    "id": "skill_102",
+    "name": "Risk Management",
+    "category": "Cybersecurity",
+    "description": "Assess and mitigate organizational cybersecurity risks.",
+    "createdAt": "2024-01-10T17:25:00Z"
+  },
+  {
+    "id": "skill_083",
+    "name": "Cybersecurity Fundamentals",
+    "category": "Cybersecurity",
+    "description": "Understand the core principles of information and network security.",
+    "createdAt": "2024-01-10T15:50:00Z"
+  },
+  {
+    "id": "skill_084",
+    "name": "Ethical Hacking",
+    "category": "Cybersecurity",
+    "description": "Identify and assess vulnerabilities using ethical hacking techniques.",
+    "createdAt": "2024-01-10T15:55:00Z"
+  },
+  {
+    "id": "skill_085",
+    "name": "Penetration Testing",
+    "category": "Cybersecurity",
+    "description": "Perform authorized security testing on systems and applications.",
+    "createdAt": "2024-01-10T16:00:00Z"
+  },
+  {
+    "id": "skill_086",
+    "name": "Network Security",
+    "category": "Cybersecurity",
+    "description": "Secure enterprise networks using industry-standard practices.",
+    "createdAt": "2024-01-10T16:05:00Z"
+  },
+  {
+    "id": "skill_087",
+    "name": "Application Security",
+    "category": "Cybersecurity",
+    "description": "Protect web and mobile applications from security threats.",
+    "createdAt": "2024-01-10T16:10:00Z"
+  },
+  {
+    "id": "skill_088",
+    "name": "Cloud Security",
+    "category": "Cybersecurity",
+    "description": "Secure cloud infrastructure and cloud-native applications.",
+    "createdAt": "2024-01-10T16:15:00Z"
+  },
+  {
+    "id": "skill_089",
+    "name": "Identity & Access Management (IAM)",
+    "category": "Cybersecurity",
+    "description": "Manage user identities, authentication, and authorization.",
+    "createdAt": "2024-01-10T16:20:00Z"
+  },
+  {
+    "id": "skill_090",
+    "name": "Cryptography",
+    "category": "Cybersecurity",
+    "description": "Apply encryption techniques to secure digital information.",
+    "createdAt": "2024-01-10T16:25:00Z"
+  },
+  {
+    "id": "skill_091",
+    "name": "Digital Forensics",
+    "category": "Cybersecurity",
+    "description": "Investigate and analyze digital evidence after security incidents.",
+    "createdAt": "2024-01-10T16:30:00Z"
+  },
+  {
+    "id": "skill_092",
+    "name": "Incident Response",
+    "category": "Cybersecurity",
+    "description": "Respond to and recover from cybersecurity incidents.",
+    "createdAt": "2024-01-10T16:35:00Z"
+  },
+  {
+    "id": "skill_093",
+    "name": "Security Information and Event Management (SIEM)",
+    "category": "Cybersecurity",
+    "description": "Monitor and analyze security events using SIEM platforms.",
+    "createdAt": "2024-01-10T16:40:00Z"
+  },
+  {
+    "id": "skill_094",
+    "name": "DevSecOps",
+    "category": "Cybersecurity",
+    "description": "Integrate security practices into DevOps workflows.",
+    "createdAt": "2024-01-10T16:45:00Z"
+  },
+  {
+    "id": "skill_095",
+    "name": "Vulnerability Assessment",
+    "category": "Cybersecurity",
+    "description": "Identify, classify, and prioritize security vulnerabilities.",
+    "createdAt": "2024-01-10T16:50:00Z"
+  },
+  {
+    "id": "skill_096",
+    "name": "Malware Analysis",
+    "category": "Cybersecurity",
+    "description": "Analyze malicious software to understand its behavior and impact.",
+    "createdAt": "2024-01-10T16:55:00Z"
+  },
+  {
+    "id": "skill_097",
+    "name": "Blockchain Fundamentals",
+    "category": "Blockchain",
+    "description": "Understand decentralized ledger technology and blockchain concepts.",
+    "createdAt": "2024-01-10T17:00:00Z"
+  },
+  {
+    "id": "skill_098",
+    "name": "Smart Contracts",
+    "category": "Blockchain",
+    "description": "Develop decentralized applications using smart contracts.",
+    "createdAt": "2024-01-10T17:05:00Z"
+  },
+  {
+    "id": "skill_099",
+    "name": "Solidity",
+    "category": "Blockchain",
+    "description": "Write secure smart contracts for Ethereum-based applications.",
+    "createdAt": "2024-01-10T17:10:00Z"
+  },
+  {
+    "id": "skill_100",
+    "name": "Web3 Development",
+    "category": "Blockchain",
+    "description": "Build decentralized applications using Web3 technologies.",
+    "createdAt": "2024-01-10T17:15:00Z"
+  },
+  {
+    "id": "skill_101",
+    "name": "Security Operations Center (SOC)",
+    "category": "Cybersecurity",
+    "description": "Monitor, detect, and respond to security threats in SOC environments.",
+    "createdAt": "2024-01-10T17:20:00Z"
+  },
+  {
+    "id": "skill_102",
+    "name": "Risk Management",
+    "category": "Cybersecurity",
+    "description": "Assess and mitigate organizational cybersecurity risks.",
+    "createdAt": "2024-01-10T17:25:00Z"
+  },
+  {
+    "id": "skill_103",
+    "name": "UI Design",
+    "category": "UI/UX Design",
+    "description": "Design visually appealing and intuitive user interfaces.",
+    "createdAt": "2024-01-10T17:30:00Z"
+  },
+  {
+    "id": "skill_104",
+    "name": "UX Design",
+    "category": "UI/UX Design",
+    "description": "Create seamless and user-centered digital experiences.",
+    "createdAt": "2024-01-10T17:35:00Z"
+  },
+  {
+    "id": "skill_105",
+    "name": "Figma",
+    "category": "UI/UX Design",
+    "description": "Design interfaces, prototypes, and collaborative design systems using Figma.",
+    "createdAt": "2024-01-10T17:40:00Z"
+  },
+  {
+    "id": "skill_106",
+    "name": "Adobe XD",
+    "category": "UI/UX Design",
+    "description": "Create interactive UI prototypes and wireframes.",
+    "createdAt": "2024-01-10T17:45:00Z"
+  },
+  {
+    "id": "skill_107",
+    "name": "Sketch",
+    "category": "UI/UX Design",
+    "description": "Design digital products and reusable UI components.",
+    "createdAt": "2024-01-10T17:50:00Z"
+  },
+  {
+    "id": "skill_108",
+    "name": "Wireframing",
+    "category": "UI/UX Design",
+    "description": "Create low-fidelity layouts to plan user interfaces.",
+    "createdAt": "2024-01-10T17:55:00Z"
+  },
+  {
+    "id": "skill_109",
+    "name": "Prototyping",
+    "category": "UI/UX Design",
+    "description": "Build interactive prototypes for testing and validation.",
+    "createdAt": "2024-01-10T18:00:00Z"
+  },
+  {
+    "id": "skill_110",
+    "name": "User Research",
+    "category": "UI/UX Design",
+    "description": "Conduct research to understand user needs and behaviors.",
+    "createdAt": "2024-01-10T18:05:00Z"
+  },
+  {
+    "id": "skill_111",
+    "name": "Usability Testing",
+    "category": "UI/UX Design",
+    "description": "Evaluate products by observing real users completing tasks.",
+    "createdAt": "2024-01-10T18:10:00Z"
+  },
+  {
+    "id": "skill_112",
+    "name": "Information Architecture",
+    "category": "UI/UX Design",
+    "description": "Organize content and navigation for optimal usability.",
+    "createdAt": "2024-01-10T18:15:00Z"
+  },
+  {
+    "id": "skill_113",
+    "name": "Interaction Design",
+    "category": "UI/UX Design",
+    "description": "Design meaningful interactions between users and products.",
+    "createdAt": "2024-01-10T18:20:00Z"
+  },
+  {
+    "id": "skill_114",
+    "name": "Design Systems",
+    "category": "UI/UX Design",
+    "description": "Create reusable components and design standards for products.",
+    "createdAt": "2024-01-10T18:25:00Z"
+  },
+  {
+    "id": "skill_115",
+    "name": "Accessibility (WCAG)",
+    "category": "UI/UX Design",
+    "description": "Design inclusive digital experiences that meet accessibility standards.",
+    "createdAt": "2024-01-10T18:30:00Z"
+  },
+  {
+    "id": "skill_116",
+    "name": "Responsive Design",
+    "category": "UI/UX Design",
+    "description": "Design interfaces that adapt seamlessly across devices.",
+    "createdAt": "2024-01-10T18:35:00Z"
+  },
+  {
+    "id": "skill_117",
+    "name": "Motion Design",
+    "category": "UI/UX Design",
+    "description": "Create animations that improve usability and user engagement.",
+    "createdAt": "2024-01-10T18:40:00Z"
+  },
+  {
+    "id": "skill_118",
+    "name": "Graphic Design",
+    "category": "Design",
+    "description": "Create visual assets for digital and print media.",
+    "createdAt": "2024-01-10T18:45:00Z"
+  },
+  {
+    "id": "skill_119",
+    "name": "Adobe Photoshop",
+    "category": "Design",
+    "description": "Edit and create raster graphics for digital products.",
+    "createdAt": "2024-01-10T18:50:00Z"
+  },
+  {
+    "id": "skill_120",
+    "name": "Adobe Illustrator",
+    "category": "Design",
+    "description": "Design vector graphics, icons, and branding assets.",
+    "createdAt": "2024-01-10T18:55:00Z"
+  },
+  {
+    "id": "skill_121",
+    "name": "Brand Identity Design",
+    "category": "Design",
+    "description": "Develop consistent visual identities for products and organizations.",
+    "createdAt": "2024-01-10T19:00:00Z"
+  },
+  {
+    "id": "skill_122",
+    "name": "Typography",
+    "category": "Design",
+    "description": "Apply typography principles to improve readability and visual hierarchy.",
+    "createdAt": "2024-01-10T19:05:00Z"
+  },
+  {
+    "id": "skill_123",
+    "name": "Product Management",
+    "category": "Product & Business",
+    "description": "Lead the strategy, development, and lifecycle of digital products.",
+    "createdAt": "2024-01-10T19:10:00Z"
+  },
+  {
+    "id": "skill_124",
+    "name": "Product Strategy",
+    "category": "Product & Business",
+    "description": "Define product vision, roadmap, and long-term business goals.",
+    "createdAt": "2024-01-10T19:15:00Z"
+  },
+  {
+    "id": "skill_125",
+    "name": "Business Analysis",
+    "category": "Product & Business",
+    "description": "Analyze business requirements and translate them into technical solutions.",
+    "createdAt": "2024-01-10T19:20:00Z"
+  },
+  {
+    "id": "skill_126",
+    "name": "Market Research",
+    "category": "Product & Business",
+    "description": "Study market trends, competitors, and customer behavior.",
+    "createdAt": "2024-01-10T19:25:00Z"
+  },
+  {
+    "id": "skill_127",
+    "name": "Business Strategy",
+    "category": "Product & Business",
+    "description": "Develop strategies to achieve organizational objectives and growth.",
+    "createdAt": "2024-01-10T19:30:00Z"
+  },
+  {
+    "id": "skill_128",
+    "name": "Agile Methodology",
+    "category": "Project Management",
+    "description": "Manage projects using Agile principles and iterative development.",
+    "createdAt": "2024-01-10T19:35:00Z"
+  },
+  {
+    "id": "skill_129",
+    "name": "Scrum",
+    "category": "Project Management",
+    "description": "Apply Scrum practices for effective software development teams.",
+    "createdAt": "2024-01-10T19:40:00Z"
+  },
+  {
+    "id": "skill_130",
+    "name": "Kanban",
+    "category": "Project Management",
+    "description": "Manage workflows and improve team productivity using Kanban.",
+    "createdAt": "2024-01-10T19:45:00Z"
+  },
+  {
+    "id": "skill_131",
+    "name": "Project Management",
+    "category": "Project Management",
+    "description": "Plan, execute, monitor, and deliver successful projects.",
+    "createdAt": "2024-01-10T19:50:00Z"
+  },
+  {
+    "id": "skill_132",
+    "name": "Risk Management",
+    "category": "Project Management",
+    "description": "Identify, assess, and mitigate project and business risks.",
+    "createdAt": "2024-01-10T19:55:00Z"
+  },
+  {
+    "id": "skill_133",
+    "name": "Stakeholder Management",
+    "category": "Business",
+    "description": "Manage relationships with clients, teams, and business stakeholders.",
+    "createdAt": "2024-01-10T20:00:00Z"
+  },
+  {
+    "id": "skill_134",
+    "name": "Communication Skills",
+    "category": "Professional Skills",
+    "description": "Communicate ideas effectively in written and verbal formats.",
+    "createdAt": "2024-01-10T20:05:00Z"
+  },
+  {
+    "id": "skill_135",
+    "name": "Presentation Skills",
+    "category": "Professional Skills",
+    "description": "Deliver engaging and impactful presentations to audiences.",
+    "createdAt": "2024-01-10T20:10:00Z"
+  },
+  {
+    "id": "skill_136",
+    "name": "Leadership",
+    "category": "Professional Skills",
+    "description": "Lead teams, make decisions, and drive organizational success.",
+    "createdAt": "2024-01-10T20:15:00Z"
+  },
+  {
+    "id": "skill_137",
+    "name": "Negotiation",
+    "category": "Professional Skills",
+    "description": "Reach mutually beneficial agreements through effective negotiation.",
+    "createdAt": "2024-01-10T20:20:00Z"
+  },
+  {
+    "id": "skill_138",
+    "name": "Critical Thinking",
+    "category": "Professional Skills",
+    "description": "Analyze problems objectively and make informed decisions.",
+    "createdAt": "2024-01-10T20:25:00Z"
+  },
+  {
+    "id": "skill_139",
+    "name": "Time Management",
+    "category": "Professional Skills",
+    "description": "Prioritize tasks and manage time efficiently to improve productivity.",
+    "createdAt": "2024-01-10T20:30:00Z"
+  },
+  {
+    "id": "skill_140",
+    "name": "Entrepreneurship",
+    "category": "Startup",
+    "description": "Build, launch, and scale innovative businesses and startups.",
+    "createdAt": "2024-01-10T20:35:00Z"
+  },
+  {
+    "id": "skill_141",
+    "name": "Startup Fundamentals",
+    "category": "Startup",
+    "description": "Understand startup ecosystems, fundraising, and growth strategies.",
+    "createdAt": "2024-01-10T20:40:00Z"
+  },
+  {
+    "id": "skill_142",
+    "name": "Innovation Management",
+    "category": "Startup",
+    "description": "Drive innovation through experimentation, validation, and continuous improvement.",
+    "createdAt": "2024-01-10T20:45:00Z"
+  },
+  {
+    "id": "skill_143",
+    "name": "Android Development",
+    "category": "Mobile Development",
+    "description": "Build native Android applications using modern development tools.",
+    "createdAt": "2024-01-10T20:50:00Z"
+  },
+  {
+    "id": "skill_144",
+    "name": "iOS Development",
+    "category": "Mobile Development",
+    "description": "Develop native iOS applications using Apple's ecosystem.",
+    "createdAt": "2024-01-10T20:55:00Z"
+  },
+  {
+    "id": "skill_145",
+    "name": "Flutter",
+    "category": "Mobile Development",
+    "description": "Build cross-platform mobile applications using Flutter.",
+    "createdAt": "2024-01-10T21:00:00Z"
+  },
+  {
+    "id": "skill_146",
+    "name": "React Native",
+    "category": "Mobile Development",
+    "description": "Create cross-platform mobile applications using React Native.",
+    "createdAt": "2024-01-10T21:05:00Z"
+  },
+  {
+    "id": "skill_147",
+    "name": "Jetpack Compose",
+    "category": "Mobile Development",
+    "description": "Develop modern Android user interfaces using Jetpack Compose.",
+    "createdAt": "2024-01-10T21:10:00Z"
+  },
+  {
+    "id": "skill_148",
+    "name": "SwiftUI",
+    "category": "Mobile Development",
+    "description": "Build declarative user interfaces for Apple platforms using SwiftUI.",
+    "createdAt": "2024-01-10T21:15:00Z"
+  },
+  {
+    "id": "skill_149",
+    "name": "Android SDK",
+    "category": "Mobile Development",
+    "description": "Develop Android applications using the Android SDK.",
+    "createdAt": "2024-01-10T21:20:00Z"
+  },
+  {
+    "id": "skill_150",
+    "name": "Firebase Authentication",
+    "category": "Mobile Development",
+    "description": "Implement secure authentication in mobile applications using Firebase.",
+    "createdAt": "2024-01-10T21:25:00Z"
+  },
+  {
+    "id": "skill_151",
+    "name": "Push Notifications",
+    "category": "Mobile Development",
+    "description": "Implement real-time push notifications for mobile applications.",
+    "createdAt": "2024-01-10T21:30:00Z"
+  },
+  {
+    "id": "skill_152",
+    "name": "Mobile UI Design",
+    "category": "Mobile Development",
+    "description": "Design responsive and user-friendly mobile application interfaces.",
+    "createdAt": "2024-01-10T21:35:00Z"
+  },
+  {
+    "id": "skill_153",
+    "name": "Cross-Platform Development",
+    "category": "Mobile Development",
+    "description": "Develop applications that run on multiple mobile platforms.",
+    "createdAt": "2024-01-10T21:40:00Z"
+  },
+  {
+    "id": "skill_154",
+    "name": "Progressive Web Apps (PWA)",
+    "category": "Web Development",
+    "description": "Build installable and offline-capable web applications.",
+    "createdAt": "2024-01-10T21:45:00Z"
+  },
+  {
+    "id": "skill_155",
+    "name": "App Performance Optimization",
+    "category": "Mobile Development",
+    "description": "Improve application speed, responsiveness, and efficiency.",
+    "createdAt": "2024-01-10T21:50:00Z"
+  },
+  {
+    "id": "skill_156",
+    "name": "Mobile Testing",
+    "category": "Mobile Development",
+    "description": "Test mobile applications for functionality, performance, and usability.",
+    "createdAt": "2024-01-10T21:55:00Z"
+  },
+  {
+    "id": "skill_157",
+    "name": "App Store Deployment",
+    "category": "Mobile Development",
+    "description": "Publish and maintain applications on the Google Play Store and Apple App Store.",
+    "createdAt": "2024-01-10T22:00:00Z"
+  },
+  {
+    "id": "skill_158",
+    "name": "Mobile Security",
+    "category": "Mobile Development",
+    "description": "Protect mobile applications against common security threats.",
+    "createdAt": "2024-01-10T22:05:00Z"
+  },
+  {
+    "id": "skill_159",
+    "name": "Offline Data Synchronization",
+    "category": "Mobile Development",
+    "description": "Enable offline-first experiences with local data synchronization.",
+    "createdAt": "2024-01-10T22:10:00Z"
+  },
+  {
+    "id": "skill_160",
+    "name": "Location Services",
+    "category": "Mobile Development",
+    "description": "Integrate GPS and location-based services into mobile applications.",
+    "createdAt": "2024-01-10T22:15:00Z"
+  },
+  {
+    "id": "skill_161",
+    "name": "Camera & Media APIs",
+    "category": "Mobile Development",
+    "description": "Use device camera, gallery, and media capabilities within applications.",
+    "createdAt": "2024-01-10T22:20:00Z"
+  },
+  {
+    "id": "skill_162",
+    "name": "Mobile Architecture",
+    "category": "Mobile Development",
+    "description": "Design scalable and maintainable architectures for mobile applications.",
+    "createdAt": "2024-01-10T22:25:00Z"
+  },
+  {
+    "id": "skill_163",
+    "name": "Game Development",
+    "category": "Game Development",
+    "description": "Develop 2D and 3D games for desktop, mobile, and console platforms.",
+    "createdAt": "2024-01-10T22:30:00Z"
+  },
+  {
+    "id": "skill_164",
+    "name": "Unity",
+    "category": "Game Development",
+    "description": "Build interactive games and simulations using the Unity engine.",
+    "createdAt": "2024-01-10T22:35:00Z"
+  },
+  {
+    "id": "skill_165",
+    "name": "Unreal Engine",
+    "category": "Game Development",
+    "description": "Create high-quality 3D games and real-time experiences using Unreal Engine.",
+    "createdAt": "2024-01-10T22:40:00Z"
+  },
+  {
+    "id": "skill_166",
+    "name": "AR Development",
+    "category": "Extended Reality (XR)",
+    "description": "Develop augmented reality experiences for mobile and wearable devices.",
+    "createdAt": "2024-01-10T22:45:00Z"
+  },
+  {
+    "id": "skill_167",
+    "name": "VR Development",
+    "category": "Extended Reality (XR)",
+    "description": "Build immersive virtual reality applications and simulations.",
+    "createdAt": "2024-01-10T22:50:00Z"
+  },
+  {
+    "id": "skill_168",
+    "name": "Computer Graphics",
+    "category": "Graphics",
+    "description": "Understand rendering, shading, and graphical programming concepts.",
+    "createdAt": "2024-01-10T22:55:00Z"
+  },
+  {
+    "id": "skill_169",
+    "name": "IoT Development",
+    "category": "Internet of Things",
+    "description": "Build connected smart devices and IoT solutions.",
+    "createdAt": "2024-01-10T23:00:00Z"
+  },
+  {
+    "id": "skill_170",
+    "name": "Embedded Systems",
+    "category": "Embedded Systems",
+    "description": "Develop firmware and software for embedded hardware platforms.",
+    "createdAt": "2024-01-10T23:05:00Z"
+  },
+  {
+    "id": "skill_171",
+    "name": "Arduino",
+    "category": "Embedded Systems",
+    "description": "Prototype embedded systems and automation projects using Arduino.",
+    "createdAt": "2024-01-10T23:10:00Z"
+  },
+  {
+    "id": "skill_172",
+    "name": "Raspberry Pi",
+    "category": "Embedded Systems",
+    "description": "Develop Linux-based embedded applications using Raspberry Pi.",
+    "createdAt": "2024-01-10T23:15:00Z"
+  },
+  {
+    "id": "skill_173",
+    "name": "ESP32 & ESP8266",
+    "category": "Internet of Things",
+    "description": "Build Wi-Fi and Bluetooth enabled IoT applications.",
+    "createdAt": "2024-01-10T23:20:00Z"
+  },
+  {
+    "id": "skill_174",
+    "name": "Robotics",
+    "category": "Robotics",
+    "description": "Design and program robotic systems for automation and research.",
+    "createdAt": "2024-01-10T23:25:00Z"
+  },
+  {
+    "id": "skill_175",
+    "name": "Robot Operating System (ROS)",
+    "category": "Robotics",
+    "description": "Develop robotic applications using the Robot Operating System framework.",
+    "createdAt": "2024-01-10T23:30:00Z"
+  },
+  {
+    "id": "skill_176",
+    "name": "Drone Technology",
+    "category": "Robotics",
+    "description": "Design, control, and develop autonomous drone systems.",
+    "createdAt": "2024-01-10T23:35:00Z"
+  },
+  {
+    "id": "skill_177",
+    "name": "PCB Design",
+    "category": "Electronics",
+    "description": "Design printed circuit boards for electronic systems.",
+    "createdAt": "2024-01-10T23:40:00Z"
+  },
+  {
+    "id": "skill_178",
+    "name": "FPGA Development",
+    "category": "Semiconductor",
+    "description": "Develop programmable digital hardware using FPGA platforms.",
+    "createdAt": "2024-01-10T23:45:00Z"
+  },
+  {
+    "id": "skill_179",
+    "name": "VLSI Design",
+    "category": "Semiconductor",
+    "description": "Design and verify integrated circuits using VLSI methodologies.",
+    "createdAt": "2024-01-10T23:50:00Z"
+  },
+  {
+    "id": "skill_180",
+    "name": "Microcontrollers",
+    "category": "Embedded Systems",
+    "description": "Program and interface microcontrollers for embedded applications.",
+    "createdAt": "2024-01-10T23:55:00Z"
+  },
+  {
+    "id": "skill_181",
+    "name": "Industrial Automation",
+    "category": "Automation",
+    "description": "Develop automated systems for manufacturing and industrial processes.",
+    "createdAt": "2024-01-11T00:00:00Z"
+  },
+  {
+    "id": "skill_182",
+    "name": "Computer-Aided Design (CAD)",
+    "category": "Engineering",
+    "description": "Create engineering designs and technical drawings using CAD software.",
+    "createdAt": "2024-01-11T00:05:00Z"
+  },
+  {
+    "id": "skill_183",
+    "name": "Financial Analysis",
+    "category": "Finance",
+    "description": "Analyze financial statements, business performance, and investment opportunities.",
+    "createdAt": "2024-01-11T00:10:00Z"
+  },
+  {
+    "id": "skill_184",
+    "name": "Financial Modeling",
+    "category": "Finance",
+    "description": "Build financial models for forecasting, valuation, and business planning.",
+    "createdAt": "2024-01-11T00:15:00Z"
+  },
+  {
+    "id": "skill_185",
+    "name": "Investment Analysis",
+    "category": "Finance",
+    "description": "Evaluate investment opportunities using financial and market data.",
+    "createdAt": "2024-01-11T00:20:00Z"
+  },
+  {
+    "id": "skill_186",
+    "name": "Business Consulting",
+    "category": "Consulting",
+    "description": "Provide strategic recommendations to improve business performance.",
+    "createdAt": "2024-01-11T00:25:00Z"
+  },
+  {
+    "id": "skill_187",
+    "name": "Management Consulting",
+    "category": "Consulting",
+    "description": "Solve organizational challenges through strategic planning and execution.",
+    "createdAt": "2024-01-11T00:30:00Z"
+  },
+  {
+    "id": "skill_188",
+    "name": "Business Intelligence",
+    "category": "Data & Analytics",
+    "description": "Transform business data into actionable insights for decision-making.",
+    "createdAt": "2024-01-11T00:35:00Z"
+  },
+  {
+    "id": "skill_189",
+    "name": "Data Engineering",
+    "category": "Data Engineering",
+    "description": "Build scalable data pipelines and processing systems.",
+    "createdAt": "2024-01-11T00:40:00Z"
+  },
+  {
+    "id": "skill_190",
+    "name": "Apache Spark",
+    "category": "Data Engineering",
+    "description": "Process and analyze large-scale datasets using Apache Spark.",
+    "createdAt": "2024-01-11T00:45:00Z"
+  },
+  {
+    "id": "skill_191",
+    "name": "Cloud Architecture",
+    "category": "Cloud Computing",
+    "description": "Design scalable, secure, and resilient cloud infrastructure.",
+    "createdAt": "2024-01-11T00:50:00Z"
+  },
+  {
+    "id": "skill_192",
+    "name": "Site Reliability Engineering (SRE)",
+    "category": "Cloud Computing",
+    "description": "Ensure reliability, scalability, and performance of production systems.",
+    "createdAt": "2024-01-11T00:55:00Z"
+  },
+  {
+    "id": "skill_193",
+    "name": "Healthcare Informatics",
+    "category": "Healthcare Technology",
+    "description": "Manage and analyze healthcare information systems and data.",
+    "createdAt": "2024-01-11T01:00:00Z"
+  },
+  {
+    "id": "skill_194",
+    "name": "Medical Imaging",
+    "category": "Healthcare Technology",
+    "description": "Work with digital imaging technologies used in healthcare.",
+    "createdAt": "2024-01-11T01:05:00Z"
+  },
+  {
+    "id": "skill_195",
+    "name": "Automotive Software Development",
+    "category": "Automotive",
+    "description": "Develop software systems for connected and autonomous vehicles.",
+    "createdAt": "2024-01-11T01:10:00Z"
+  },
+  {
+    "id": "skill_196",
+    "name": "AUTOSAR",
+    "category": "Automotive",
+    "description": "Develop standardized automotive software architectures using AUTOSAR.",
+    "createdAt": "2024-01-11T01:15:00Z"
+  },
+  {
+    "id": "skill_197",
+    "name": "Telecommunication Systems",
+    "category": "Telecommunications",
+    "description": "Understand modern communication networks and telecom infrastructure.",
+    "createdAt": "2024-01-11T01:20:00Z"
+  },
+  {
+    "id": "skill_198",
+    "name": "5G Technologies",
+    "category": "Telecommunications",
+    "description": "Understand the architecture and applications of 5G communication systems.",
+    "createdAt": "2024-01-11T01:25:00Z"
+  },
+  {
+    "id": "skill_199",
+    "name": "Semiconductor Manufacturing",
+    "category": "Semiconductor",
+    "description": "Understand semiconductor fabrication and chip manufacturing processes.",
+    "createdAt": "2024-01-11T01:30:00Z"
+  },
+  {
+    "id": "skill_200",
+    "name": "Electronic Circuit Design",
+    "category": "Electronics",
+    "description": "Design analog and digital electronic circuits for embedded systems.",
+    "createdAt": "2024-01-11T01:35:00Z"
+  },
+  {
+    "id": "skill_201",
+    "name": "Research Methodology",
+    "category": "Research & Development",
+    "description": "Conduct systematic research using scientific methods and experimental design.",
+    "createdAt": "2024-01-11T01:40:00Z"
+  },
+  {
+    "id": "skill_202",
+    "name": "Technical Documentation",
+    "category": "Professional Skills",
+    "description": "Create clear, structured, and maintainable technical documentation.",
+    "createdAt": "2024-01-11T01:45:00Z"
+  },
+  {
+    "id": "skill_203",
+    "name": "Resume Writing",
+    "category": "Career Development",
+    "description": "Create professional resumes tailored to specific job roles.",
+    "createdAt": "2024-01-11T01:50:00Z"
+  },
+  {
+    "id": "skill_204",
+    "name": "ATS Resume Optimization",
+    "category": "Career Development",
+    "description": "Optimize resumes to improve compatibility with Applicant Tracking Systems.",
+    "createdAt": "2024-01-11T01:55:00Z"
+  },
+  {
+    "id": "skill_205",
+    "name": "Cover Letter Writing",
+    "category": "Career Development",
+    "description": "Write compelling cover letters tailored to employers and job roles.",
+    "createdAt": "2024-01-11T02:00:00Z"
+  },
+  {
+    "id": "skill_206",
+    "name": "LinkedIn Optimization",
+    "category": "Career Development",
+    "description": "Build a professional LinkedIn profile that attracts recruiters.",
+    "createdAt": "2024-01-11T02:05:00Z"
+  },
+  {
+    "id": "skill_207",
+    "name": "Portfolio Development",
+    "category": "Career Development",
+    "description": "Create a professional portfolio showcasing projects and achievements.",
+    "createdAt": "2024-01-11T02:10:00Z"
+  },
+  {
+    "id": "skill_208",
+    "name": "Technical Interview Preparation",
+    "category": "Career Development",
+    "description": "Prepare for coding and technical interviews using structured practice.",
+    "createdAt": "2024-01-11T02:15:00Z"
+  },
+  {
+    "id": "skill_209",
+    "name": "Behavioral Interview Preparation",
+    "category": "Career Development",
+    "description": "Prepare for HR and behavioral interviews using structured responses.",
+    "createdAt": "2024-01-11T02:20:00Z"
+  },
+  {
+    "id": "skill_210",
+    "name": "Mock Interviews",
+    "category": "Career Development",
+    "description": "Practice interviews through realistic simulations and feedback.",
+    "createdAt": "2024-01-11T02:25:00Z"
+  },
+  {
+    "id": "skill_211",
+    "name": "Salary Negotiation",
+    "category": "Career Development",
+    "description": "Negotiate compensation confidently during job offers.",
+    "createdAt": "2024-01-11T02:30:00Z"
+  },
+  {
+    "id": "skill_212",
+    "name": "Networking",
+    "category": "Career Development",
+    "description": "Build meaningful professional relationships to advance your career.",
+    "createdAt": "2024-01-11T02:35:00Z"
+  },
+  {
+    "id": "skill_213",
+    "name": "Personal Branding",
+    "category": "Career Development",
+    "description": "Develop a strong professional identity across online and offline platforms.",
+    "createdAt": "2024-01-11T02:40:00Z"
+  },
+  {
+    "id": "skill_214",
+    "name": "Public Speaking",
+    "category": "Professional Skills",
+    "description": "Communicate ideas confidently to audiences of all sizes.",
+    "createdAt": "2024-01-11T02:45:00Z"
+  },
+  {
+    "id": "skill_215",
+    "name": "Technical Writing",
+    "category": "Professional Skills",
+    "description": "Write clear documentation, tutorials, and technical articles.",
+    "createdAt": "2024-01-11T02:50:00Z"
+  },
+  {
+    "id": "skill_216",
+    "name": "Open Source Contribution",
+    "category": "Open Source",
+    "description": "Contribute to open-source projects through code, documentation, and reviews.",
+    "createdAt": "2024-01-11T02:55:00Z"
+  },
+  {
+    "id": "skill_217",
+    "name": "Code Review",
+    "category": "Software Development",
+    "description": "Review code to improve quality, maintainability, and performance.",
+    "createdAt": "2024-01-11T03:00:00Z"
+  },
+  {
+    "id": "skill_218",
+    "name": "Mentoring",
+    "category": "Professional Skills",
+    "description": "Guide and support learners and junior professionals in their growth.",
+    "createdAt": "2024-01-11T03:05:00Z"
+  },
+  {
+    "id": "skill_219",
+    "name": "Teaching",
+    "category": "Professional Skills",
+    "description": "Design and deliver educational content effectively.",
+    "createdAt": "2024-01-11T03:10:00Z"
+  },
+  {
+    "id": "skill_220",
+    "name": "Community Building",
+    "category": "Professional Skills",
+    "description": "Build and manage thriving professional and technical communities.",
+    "createdAt": "2024-01-11T03:15:00Z"
+  },
+  {
+    "id": "skill_221",
+    "name": "Freelancing",
+    "category": "Business",
+    "description": "Manage freelance projects, clients, contracts, and payments.",
+    "createdAt": "2024-01-11T03:20:00Z"
+  },
+  {
+    "id": "skill_222",
+    "name": "Client Communication",
+    "category": "Business",
+    "description": "Communicate professionally with clients to build long-term relationships.",
+    "createdAt": "2024-01-11T03:25:00Z"
+  },
+  {
+    "id": "skill_223",
+    "name": "Jenkins",
+    "category": "DevOps",
+    "description": "Automate software build, testing, and deployment pipelines using Jenkins.",
+    "createdAt": "2024-01-11T03:30:00Z"
+  },
+  {
+    "id": "skill_224",
+    "name": "Terraform",
+    "category": "DevOps",
+    "description": "Provision and manage cloud infrastructure using Infrastructure as Code.",
+    "createdAt": "2024-01-11T03:35:00Z"
+  },
+  {
+    "id": "skill_225",
+    "name": "Ansible",
+    "category": "DevOps",
+    "description": "Automate configuration management and application deployment.",
+    "createdAt": "2024-01-11T03:40:00Z"
+  },
+  {
+    "id": "skill_226",
+    "name": "Helm",
+    "category": "DevOps",
+    "description": "Package, deploy, and manage Kubernetes applications using Helm charts.",
+    "createdAt": "2024-01-11T03:45:00Z"
+  },
+  {
+    "id": "skill_227",
+    "name": "Nginx",
+    "category": "DevOps",
+    "description": "Configure high-performance web servers, reverse proxies, and load balancers.",
+    "createdAt": "2024-01-11T03:50:00Z"
+  },
+  {
+    "id": "skill_228",
+    "name": "Apache HTTP Server",
+    "category": "DevOps",
+    "description": "Deploy and manage web applications using Apache HTTP Server.",
+    "createdAt": "2024-01-11T03:55:00Z"
+  },
+  {
+    "id": "skill_229",
+    "name": "Prometheus",
+    "category": "Monitoring & Observability",
+    "description": "Collect and monitor metrics for applications and infrastructure.",
+    "createdAt": "2024-01-11T04:00:00Z"
+  },
+  {
+    "id": "skill_230",
+    "name": "Grafana",
+    "category": "Monitoring & Observability",
+    "description": "Visualize metrics and create monitoring dashboards using Grafana.",
+    "createdAt": "2024-01-11T04:05:00Z"
+  },
+  {
+    "id": "skill_231",
+    "name": "ELK Stack",
+    "category": "Monitoring & Observability",
+    "description": "Centralize logging and analytics using Elasticsearch, Logstash, and Kibana.",
+    "createdAt": "2024-01-11T04:10:00Z"
+  },
+  {
+    "id": "skill_232",
+    "name": "Kafka",
+    "category": "Data Engineering",
+    "description": "Build scalable real-time event streaming applications using Apache Kafka.",
+    "createdAt": "2024-01-11T04:15:00Z"
+  },
+  {
+    "id": "skill_233",
+    "name": "RabbitMQ",
+    "category": "Backend Development",
+    "description": "Implement asynchronous messaging and distributed communication.",
+    "createdAt": "2024-01-11T04:20:00Z"
+  },
+  {
+    "id": "skill_234",
+    "name": "Microservices Architecture",
+    "category": "Software Architecture",
+    "description": "Design scalable systems using independently deployable services.",
+    "createdAt": "2024-01-11T04:25:00Z"
+  },
+  {
+    "id": "skill_235",
+    "name": "Service Mesh",
+    "category": "Cloud Computing",
+    "description": "Manage secure communication between microservices using service mesh technologies.",
+    "createdAt": "2024-01-11T04:30:00Z"
+  },
+  {
+    "id": "skill_236",
+    "name": "Istio",
+    "category": "Cloud Computing",
+    "description": "Secure, monitor, and manage microservices using Istio.",
+    "createdAt": "2024-01-11T04:35:00Z"
+  },
+  {
+    "id": "skill_237",
+    "name": "Load Balancing",
+    "category": "Cloud Computing",
+    "description": "Distribute application traffic across multiple servers efficiently.",
+    "createdAt": "2024-01-11T04:40:00Z"
+  },
+  {
+    "id": "skill_238",
+    "name": "Infrastructure as Code (IaC)",
+    "category": "DevOps",
+    "description": "Manage infrastructure through version-controlled configuration files.",
+    "createdAt": "2024-01-11T04:45:00Z"
+  },
+  {
+    "id": "skill_239",
+    "name": "Container Orchestration",
+    "category": "DevOps",
+    "description": "Deploy, scale, and manage containerized workloads across clusters.",
+    "createdAt": "2024-01-11T04:50:00Z"
+  },
+  {
+    "id": "skill_240",
+    "name": "Monitoring & Logging",
+    "category": "Monitoring & Observability",
+    "description": "Monitor application health and analyze logs for troubleshooting.",
+    "createdAt": "2024-01-11T04:55:00Z"
+  },
+  {
+    "id": "skill_241",
+    "name": "Performance Optimization",
+    "category": "Software Engineering",
+    "description": "Improve application performance, scalability, and resource utilization.",
+    "createdAt": "2024-01-11T05:00:00Z"
+  },
+  {
+    "id": "skill_242",
+    "name": "High Availability Systems",
+    "category": "Cloud Computing",
+    "description": "Design fault-tolerant systems that minimize downtime and ensure reliability.",
+    "createdAt": "2024-01-11T05:05:00Z"
+  }
+]

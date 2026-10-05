@@ -1,0 +1,46 @@
+[
+  {
+    "id": "usr_seed_admin",
+    "name": "System Administrator",
+    "email": "admin@flowctrl.dev",
+    "role": "ADMIN",
+    "status": "ACTIVE",
+    "headline": "Core Platform Administrator",
+    "bio": "Overseeing flowCTRL security and infrastructure.",
+    "location": "Global",
+    "theme": "dark"
+  },
+  {
+    "id": "usr_seed_alex",
+    "name": "Alex Johnson",
+    "email": "alex@flowctrl.dev",
+    "role": "USER",
+    "status": "ACTIVE",
+    "headline": "Senior Full-Stack Engineer",
+    "bio": "Building scalable distributed web applications with flowCTRL.",
+    "location": "San Francisco, CA",
+    "theme": "dark"
+  },
+  {
+    "id": "usr_seed_mentor",
+    "name": "Sarah Lin",
+    "email": "mentor@flowctrl.dev",
+    "role": "MENTOR",
+    "status": "ACTIVE",
+    "headline": "Staff AI Engineer & Tech Lead",
+    "bio": "Guiding aspiring engineers in systems design and cloud architectures.",
+    "location": "Seattle, WA",
+    "theme": "dark"
+  },
+  {
+    "id": "usr_seed_recruiter",
+    "name": "Marcus Vance",
+    "email": "recruiter@flowctrl.dev",
+    "role": "RECRUITER",
+    "status": "ACTIVE",
+    "headline": "Technical Talent Partner",
+    "bio": "Connecting elite engineers with top-tier technology teams.",
+    "location": "New York, NY",
+    "theme": "dark"
+  }
+]

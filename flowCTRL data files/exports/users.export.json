@@ -1,0 +1,233 @@
+[
+  {
+    "id": "cmt6gjqp90000fc97jedtb3ze",
+    "name": "dev",
+    "email": "dev@gmail.com",
+    "role": "USER",
+    "status": "ACTIVE",
+    "createdAt": "2026-08-23T23:48:09.839Z",
+    "updatedAt": "2026-08-23T23:56:51.254Z",
+    "profile": null,
+    "preferences": null
+  },
+  {
+    "id": "cmtnegk110000zg972owa6a5r",
+    "name": "Alice Architect",
+    "email": "alice_1788553306267@testflowctrl.dev",
+    "role": "USER",
+    "status": "ACTIVE",
+    "createdAt": "2026-09-04T20:21:46.981Z",
+    "updatedAt": "2026-09-04T20:21:48.146Z",
+    "profile": {
+      "displayName": "Alice Architect",
+      "headline": "Distributed Systems Lead",
+      "bio": "Specializing in high-throughput data streams and zero-trust security.",
+      "location": "San Francisco, CA"
+    },
+    "preferences": {
+      "theme": "dark",
+      "emailNotifications": true,
+      "profileVisibility": "PUBLIC"
+    }
+  },
+  {
+    "id": "cmtnegk4u0002zg97qdi0bb1t",
+    "name": "Bob Security",
+    "email": "bob_1788553306267@testflowctrl.dev",
+    "role": "USER",
+    "status": "ACTIVE",
+    "createdAt": "2026-09-04T20:21:47.118Z",
+    "updatedAt": "2026-09-04T20:21:47.118Z",
+    "profile": {
+      "displayName": "Bob Security",
+      "headline": "Cloud SecOps",
+      "bio": null,
+      "location": null
+    },
+    "preferences": {
+      "theme": "system",
+      "emailNotifications": true,
+      "profileVisibility": "PRIVATE"
+    }
+  },
+  {
+    "id": "cmuvfcjko0000g097udhstn3w",
+    "name": "Alex Flow",
+    "email": "user_1791215310705@flowctrl.dev",
+    "role": "USER",
+    "status": "ACTIVE",
+    "createdAt": "2026-10-05T15:48:31.129Z",
+    "updatedAt": "2026-10-05T15:48:31.129Z",
+    "profile": {
+      "displayName": "Alex Flow",
+      "headline": "",
+      "bio": "",
+      "location": ""
+    },
+    "preferences": {
+      "theme": "dark",
+      "emailNotifications": true,
+      "profileVisibility": "PUBLIC"
+    }
+  },
+  {
+    "id": "cmuvfcr310006g0978bb9jye5",
+    "name": "Proxy Tester",
+    "email": "proxy_1791215320638@flowctrl.dev",
+    "role": "USER",
+    "status": "ACTIVE",
+    "createdAt": "2026-10-05T15:48:40.861Z",
+    "updatedAt": "2026-10-05T15:48:40.861Z",
+    "profile": {
+      "displayName": "Proxy Tester",
+      "headline": "",
+      "bio": "",
+      "location": ""
+    },
+    "preferences": {
+      "theme": "dark",
+      "emailNotifications": true,
+      "profileVisibility": "PUBLIC"
+    }
+  },
+  {
+    "id": "cmuvfhzbd0000k4971t86oien",
+    "name": "CodeCollab User",
+    "email": "cc_user_1791215564463@flowctrl.dev",
+    "role": "USER",
+    "status": "ACTIVE",
+    "createdAt": "2026-10-05T15:52:44.810Z",
+    "updatedAt": "2026-10-05T15:52:44.810Z",
+    "profile": {
+      "displayName": "CodeCollab User",
+      "headline": "",
+      "bio": "",
+      "location": ""
+    },
+    "preferences": {
+      "theme": "dark",
+      "emailNotifications": true,
+      "profileVisibility": "PUBLIC"
+    }
+  },
+  {
+    "id": "cmuvflp3s00000s97dq1wqra0",
+    "name": "FlowCTRL Core User",
+    "email": "flowctrl_user_1791215737850@flowctrl.dev",
+    "role": "USER",
+    "status": "ACTIVE",
+    "createdAt": "2026-10-05T15:55:38.200Z",
+    "updatedAt": "2026-10-05T15:55:38.200Z",
+    "profile": {
+      "displayName": "FlowCTRL Core User",
+      "headline": "",
+      "bio": "",
+      "location": ""
+    },
+    "preferences": {
+      "theme": "dark",
+      "emailNotifications": true,
+      "profileVisibility": "PUBLIC"
+    }
+  },
+  {
+    "id": "cmuvfnckj00050s97stfq0xfc",
+    "name": "Verify User",
+    "email": "check_1791215815122@flowctrl.dev",
+    "role": "USER",
+    "status": "ACTIVE",
+    "createdAt": "2026-10-05T15:56:55.267Z",
+    "updatedAt": "2026-10-05T15:56:55.267Z",
+    "profile": {
+      "displayName": "Verify User",
+      "headline": "",
+      "bio": "",
+      "location": ""
+    },
+    "preferences": {
+      "theme": "dark",
+      "emailNotifications": true,
+      "profileVisibility": "PUBLIC"
+    }
+  },
+  {
+    "id": "usr_seed_admin",
+    "name": "System Administrator",
+    "email": "admin@flowctrl.dev",
+    "role": "ADMIN",
+    "status": "ACTIVE",
+    "createdAt": "2026-10-05T16:03:04.710Z",
+    "updatedAt": "2026-10-05T16:03:04.710Z",
+    "profile": {
+      "displayName": "System Administrator",
+      "headline": "Core Platform Administrator",
+      "bio": "Overseeing flowCTRL security and infrastructure.",
+      "location": "Global"
+    },
+    "preferences": {
+      "theme": "dark",
+      "emailNotifications": true,
+      "profileVisibility": "PUBLIC"
+    }
+  },
+  {
+    "id": "usr_seed_alex",
+    "name": "Alex Johnson",
+    "email": "alex@flowctrl.dev",
+    "role": "USER",
+    "status": "ACTIVE",
+    "createdAt": "2026-10-05T16:03:04.735Z",
+    "updatedAt": "2026-10-05T16:03:04.735Z",
+    "profile": {
+      "displayName": "Alex Johnson",
+      "headline": "Senior Full-Stack Engineer",
+      "bio": "Building scalable distributed web applications with flowCTRL.",
+      "location": "San Francisco, CA"
+    },
+    "preferences": {
+      "theme": "dark",
+      "emailNotifications": true,
+      "profileVisibility": "PUBLIC"
+    }
+  },
+  {
+    "id": "usr_seed_mentor",
+    "name": "Sarah Lin",
+    "email": "mentor@flowctrl.dev",
+    "role": "MENTOR",
+    "status": "ACTIVE",
+    "createdAt": "2026-10-05T16:03:04.752Z",
+    "updatedAt": "2026-10-05T16:03:04.752Z",
+    "profile": {
+      "displayName": "Sarah Lin",
+      "headline": "Staff AI Engineer & Tech Lead",
+      "bio": "Guiding aspiring engineers in systems design and cloud architectures.",
+      "location": "Seattle, WA"
+    },
+    "preferences": {
+      "theme": "dark",
+      "emailNotifications": true,
+      "profileVisibility": "PUBLIC"
+    }
+  },
+  {
+    "id": "usr_seed_recruiter",
+    "name": "Marcus Vance",
+    "email": "recruiter@flowctrl.dev",
+    "role": "RECRUITER",
+    "status": "ACTIVE",
+    "createdAt": "2026-10-05T16:03:04.769Z",
+    "updatedAt": "2026-10-05T16:03:04.769Z",
+    "profile": {
+      "displayName": "Marcus Vance",
+      "headline": "Technical Talent Partner",
+      "bio": "Connecting elite engineers with top-tier technology teams.",
+      "location": "New York, NY"
+    },
+    "preferences": {
+      "theme": "dark",
+      "emailNotifications": true,
+      "profileVisibility": "PUBLIC"
+    }
+  }
+]
