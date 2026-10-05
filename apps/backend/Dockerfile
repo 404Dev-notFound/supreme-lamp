@@ -13,8 +13,13 @@ RUN npm ci
 
 COPY . .
 
-RUN npx prisma generate --schema=apps/backend/prisma/schema.prisma
+# Generate Prisma client using centralized schema
+RUN npx prisma generate --schema="flowCTRL data files/prisma/schema.prisma"
 RUN npm run build --workspace=backend
+
+# Run container as unprivileged node user
+RUN chown -R node:node /app
+USER node
 
 EXPOSE 5000
 CMD ["npm", "start", "--workspace=backend"]

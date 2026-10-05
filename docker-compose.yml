@@ -2,12 +2,15 @@ services:
   postgres:
     image: postgres:16-alpine
     restart: always
+    security_opt:
+      - "no-new-privileges:true"
     environment:
       POSTGRES_USER: ${POSTGRES_USER:-postgres}
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgrespassword9555}
       POSTGRES_DB: ${POSTGRES_DB:-flowCTRL}
     ports:
-      - "5432:5432"
+      # Bind strictly to local loopback interface - never expose database to 0.0.0.0 public interface
+      - "127.0.0.1:5432:5432"
     volumes:
       - flowctrl_postgres_data:/var/lib/postgresql/data
       - ./flowCTRL data files/docker/init-db.sql:/docker-entrypoint-initdb.d/init-db.sql:ro
@@ -16,12 +19,16 @@ services:
       interval: 5s
       timeout: 5s
       retries: 5
+    networks:
+      - flowctrl_internal
 
   backend:
     build:
       context: .
       dockerfile: apps/backend/Dockerfile
     restart: always
+    security_opt:
+      - "no-new-privileges:true"
     environment:
       PORT: 5000
       NODE_ENV: production
@@ -31,7 +38,7 @@ services:
       COOKIE_SECURE: "false"
       CORS_ORIGIN: http://localhost:3000
     ports:
-      - "5000:5000"
+      - "127.0.0.1:5000:5000"
     command: sh -c "npx prisma db push --schema=\"flowCTRL data files/prisma/schema.prisma\" && npm start --workspace=backend"
     depends_on:
       postgres:
@@ -42,12 +49,16 @@ services:
       timeout: 5s
       retries: 5
       start_period: 10s
+    networks:
+      - flowctrl_internal
 
   frontend:
     build:
       context: .
       dockerfile: apps/frontend/Dockerfile
     restart: always
+    security_opt:
+      - "no-new-privileges:true"
     environment:
       PORT: 3000
       NODE_ENV: production
@@ -61,14 +72,25 @@ services:
     depends_on:
       backend:
         condition: service_healthy
+    networks:
+      - flowctrl_internal
 
   adminer:
     image: adminer:latest
     restart: always
+    profiles:
+      - debug
     ports:
-      - "8080:8080"
+      # Bind strictly to loopback and gate behind debug profile
+      - "127.0.0.1:8080:8080"
     depends_on:
       - postgres
+    networks:
+      - flowctrl_internal
+
+networks:
+  flowctrl_internal:
+    driver: bridge
 
 volumes:
   flowctrl_postgres_data:

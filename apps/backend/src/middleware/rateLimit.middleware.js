@@ -1,12 +1,13 @@
 /**
- * Centralized sliding-window rate limiter for sensitive authentication routes
- * Mitigates brute-force attacks and credential stuffing.
+ * Centralized sliding-window rate limiter for production endpoints
+ * Mitigates brute-force attacks, credential stuffing, scraping, and resource exhaustion.
  */
 
 function createRateLimiter({
   windowMs = 15 * 60 * 1000,
   max = 15,
-  message = "Too many authentication attempts. Please wait 15 minutes before trying again.",
+  message = "Too many requests. Please try again later.",
+  keyGenerator = null,
 } = {}) {
   const hits = new Map();
 
@@ -21,19 +22,22 @@ function createRateLimiter({
   }, 5 * 60 * 1000).unref();
 
   return (req, res, next) => {
-    // In test environment, skip throttling for deterministic runs
-    if (process.env.NODE_ENV === "test") {
+    // In test environment, skip throttling unless explicitly tested
+    if (process.env.NODE_ENV === "test" && !req.headers["x-test-rate-limit"]) {
       return next();
     }
 
     const ip =
+      req.ip ||
       req.headers["x-forwarded-for"]?.split(",")[0]?.trim() ||
       req.socket?.remoteAddress ||
       "127.0.0.1";
 
-    const key = `${req.baseUrl || ""}${req.path}:${ip}`;
-    const now = Date.now();
+    const key = keyGenerator
+      ? keyGenerator(req, ip)
+      : `${req.baseUrl || ""}${req.path}:${ip}`;
 
+    const now = Date.now();
     const record = hits.get(key) || { count: 0, resetTime: now + windowMs };
 
     if (now > record.resetTime) {
@@ -60,13 +64,37 @@ function createRateLimiter({
   };
 }
 
+/**
+ * Strict limiter for sensitive authentication endpoints (signup, signin, change-password)
+ */
 const authRateLimiter = createRateLimiter({
   windowMs: 15 * 60 * 1000,
   max: 15,
   message: "Too many authentication attempts. Please wait 15 minutes before trying again.",
 });
 
+/**
+ * Global rate limiter for standard public API endpoints to prevent scraping and DoS
+ */
+const globalApiRateLimiter = createRateLimiter({
+  windowMs: 15 * 60 * 1000,
+  max: 300,
+  message: "Too many requests to flowCTRL API. Please slow down and try again later.",
+  keyGenerator: (req, ip) => `global:${ip}`,
+});
+
+/**
+ * Mutation rate limiter for user profile and session updates
+ */
+const userMutationRateLimiter = createRateLimiter({
+  windowMs: 15 * 60 * 1000,
+  max: 60,
+  message: "Too many account modification requests. Please wait a few minutes before trying again.",
+});
+
 module.exports = {
   createRateLimiter,
   authRateLimiter,
+  globalApiRateLimiter,
+  userMutationRateLimiter,
 };

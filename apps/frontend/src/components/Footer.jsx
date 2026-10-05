@@ -204,12 +204,24 @@ export default function Footer() {
             <ul className="space-y-2 text-sm">
               {PRODUCT_LINKS.map((item) => (
                 <li key={item.label}>
-                  <Link
-                    href={item.href}
-                    className="text-zinc-300 hover:text-white transition-colors flex items-center justify-between py-1 hover:translate-x-1 duration-200"
-                  >
-                    <span>{item.label}</span>
-                  </Link>
+                  {item.isExternal ? (
+                    <a
+                      href={item.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-zinc-300 hover:text-white transition-colors flex items-center justify-between py-1 hover:translate-x-1 duration-200 group"
+                    >
+                      <span>{item.label}</span>
+                      <ExternalLink className="w-3 h-3 opacity-60 group-hover:opacity-100 transition-opacity" />
+                    </a>
+                  ) : (
+                    <Link
+                      href={item.href}
+                      className="text-zinc-300 hover:text-white transition-colors flex items-center justify-between py-1 hover:translate-x-1 duration-200"
+                    >
+                      <span>{item.label}</span>
+                    </Link>
+                  )}
                 </li>
               ))}
             </ul>
@@ -230,18 +242,33 @@ export default function Footer() {
             <ul className="space-y-2 text-sm">
               {LEGAL_LINKS.map((link) => (
                 <li key={link.title}>
-                  <a
-                    href={link.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-zinc-300 hover:text-white transition-colors flex items-center justify-between py-1 group"
-                    title={link.description}
-                  >
-                    <span className="group-hover:text-zinc-100 transition-colors">
-                      {link.title}
-                    </span>
-                    <ExternalLink className="w-3 h-3 opacity-60 group-hover:opacity-100 transition-opacity" />
-                  </a>
+                  {link.isExternal ? (
+                    <a
+                      href={link.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-zinc-300 hover:text-white transition-colors flex items-center justify-between py-1 group"
+                      title={link.description}
+                    >
+                      <span className="group-hover:text-zinc-100 transition-colors">
+                        {link.title}
+                      </span>
+                      <ExternalLink className="w-3 h-3 opacity-60 group-hover:opacity-100 transition-opacity" />
+                    </a>
+                  ) : (
+                    <Link
+                      href={link.href}
+                      className="text-zinc-300 hover:text-amber-300 transition-colors flex items-center justify-between py-1 group"
+                      title={link.description}
+                    >
+                      <span className="group-hover:text-amber-300 transition-colors font-medium">
+                        {link.title}
+                      </span>
+                      <span className="text-[10px] px-1.5 py-0.5 rounded bg-amber-500/10 text-amber-400 border border-amber-500/20">
+                        Form
+                      </span>
+                    </Link>
+                  )}
                 </li>
               ))}
             </ul>

@@ -8,11 +8,10 @@
     "build": "echo backend ready",
     "start": "node src/index.js",
     "lint": "echo backend lint ok",
-    "test": "node --test src/health.test.js src/routes/roadmaps.test.js src/routes/users.test.js src/routes/auth.test.js",
+    "test": "node --test src/health.test.js src/routes/roadmaps.test.js src/routes/users.test.js src/routes/auth.test.js src/security.hardening.test.js",
     "test:integration": "node -e \"console.log('Backend integration tests passed')\""
   },
   "devDependencies": {
-    "clinic": "^13.0.0",
     "prisma": "^7.9.1"
   },
   "dependencies": {

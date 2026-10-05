@@ -2,11 +2,112 @@
  * Security and Validation Utilities for flowCTRL Express Backend
  */
 
-const DANGEROUS_SCHEMES = ["javascript:", "data:", "vbscript:", "file:"];
+const DANGEROUS_SCHEMES = [
+  "javascript:",
+  "data:",
+  "vbscript:",
+  "file:",
+  "blob:",
+  "livescript:",
+  "mocha:",
+];
+
+/**
+ * Checks if a hostname or IP address resolves to a private, loopback, or cloud-metadata network.
+ * Comprehensive protection against Server-Side Request Forgery (SSRF).
+ */
+function isPrivateOrReservedHost(hostname) {
+  if (!hostname || typeof hostname !== "string") return true;
+
+  const cleanHost = hostname.trim().toLowerCase().replace(/^\[|\]$/g, "");
+
+  // Known local/internal domain names
+  if (
+    cleanHost === "localhost" ||
+    cleanHost.endsWith(".localhost") ||
+    cleanHost.endsWith(".local") ||
+    cleanHost.endsWith(".internal") ||
+    cleanHost.endsWith(".lan") ||
+    cleanHost === "metadata.google.internal"
+  ) {
+    return true;
+  }
+
+  // IPv6 checks
+  if (
+    cleanHost === "::1" ||
+    cleanHost === "::" ||
+    cleanHost.startsWith("fe80:") || // link-local
+    cleanHost.startsWith("fc00:") || // unique local
+    cleanHost.startsWith("fd00:") || // unique local
+    cleanHost.startsWith("::ffff:") // IPv4 mapped
+  ) {
+    return true;
+  }
+
+  // Check numeric representations (decimal IP, hex IP)
+  let ipCandidate = cleanHost;
+  if (/^\d+$/.test(cleanHost)) {
+    const num = parseInt(cleanHost, 10);
+    if (num >= 0 && num <= 4294967295) {
+      ipCandidate = [
+        (num >>> 24) & 255,
+        (num >>> 16) & 255,
+        (num >>> 8) & 255,
+        num & 255,
+      ].join(".");
+    }
+  } else if (/^0x[0-9a-f]+$/i.test(cleanHost)) {
+    const num = parseInt(cleanHost, 16);
+    if (num >= 0 && num <= 4294967295) {
+      ipCandidate = [
+        (num >>> 24) & 255,
+        (num >>> 16) & 255,
+        (num >>> 8) & 255,
+        num & 255,
+      ].join(".");
+    }
+  }
+
+  // IPv4 Octet checks
+  const ipv4Match = ipCandidate.match(/^(\d{1,3})\.(\d{1,3})\.(\d{1,3})\.(\d{1,3})$/);
+  if (ipv4Match) {
+    const [, a, b, c, d] = ipv4Match.map(Number);
+    if (a > 255 || b > 255 || c > 255 || d > 255) return true;
+
+    // 0.0.0.0/8 (Broadcast/Current)
+    if (a === 0) return true;
+    // 10.0.0.0/8 (RFC 1918 Private)
+    if (a === 10) return true;
+    // 127.0.0.0/8 (Loopback)
+    if (a === 127) return true;
+    // 169.254.0.0/16 (Link-local / AWS & GCP Cloud Metadata: 169.254.169.254)
+    if (a === 169 && b === 254) return true;
+    // 172.16.0.0/12 (RFC 1918 Private)
+    if (a === 172 && b >= 16 && b <= 31) return true;
+    // 192.168.0.0/16 (RFC 1918 Private)
+    if (a === 192 && b === 168) return true;
+    // 100.64.0.0/10 (Shared Carrier NAT)
+    if (a === 100 && b >= 64 && b <= 127) return true;
+    // 224.0.0.0/4 (Multicast) & 240.0.0.0/4 (Reserved)
+    if (a >= 224) return true;
+  }
+
+  return false;
+}
 
 function containsDangerousScheme(url) {
   if (!url || typeof url !== "string") return false;
-  const normalized = url.trim().toLowerCase().replace(/[\x00-\x20\s]/g, "");
+  // Decode percent-encoded schemes to prevent %6a%61%76%61%73%63%72%69%70%74 bypasses
+  let decoded = url;
+  try {
+    decoded = decodeURIComponent(url);
+  } catch {
+    decoded = url.replace(/%([0-9a-f]{2})/gi, (_, hex) =>
+      String.fromCharCode(parseInt(hex, 16)),
+    );
+  }
+  const normalized = decoded.trim().toLowerCase().replace(/[\x00-\x20\s\u200B-\u200D\uFEFF]/g, "");
   return DANGEROUS_SCHEMES.some((scheme) => normalized.startsWith(scheme));
 }
 
@@ -24,7 +125,9 @@ function isSafeUrl(url) {
   }
 }
 
-function validateUrl(url, fieldName = "URL") {
+function validateUrl(url, fieldName = "URL", options = {}) {
+  const { allowPrivate = true } = options;
+
   if (!url || typeof url !== "string" || !url.trim()) {
     return { isValid: true, sanitized: null };
   }
@@ -46,6 +149,15 @@ function validateUrl(url, fieldName = "URL") {
         error: `${fieldName} must use an http: or https: protocol.`,
       };
     }
+
+    // SSRF Check: block private and cloud metadata addresses if allowPrivate is explicitly false
+    if (!allowPrivate && isPrivateOrReservedHost(parsed.hostname)) {
+      return {
+        isValid: false,
+        error: `${fieldName} points to a restricted or private internal address (SSRF protection).`,
+      };
+    }
+
     return { isValid: true, sanitized: parsed.href };
   } catch {
     return {
@@ -251,6 +363,7 @@ function maskIpAddress(ip) {
 module.exports = {
   isSafeUrl,
   validateUrl,
+  isPrivateOrReservedHost,
   validateProfileUpdate,
   sanitizeSelfProfile,
   sanitizePublicProfile,

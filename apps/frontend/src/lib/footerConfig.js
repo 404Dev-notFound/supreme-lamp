@@ -63,29 +63,30 @@ export const ECOSYSTEM_PRODUCTS = [
     officialUrl: "https://fluffy-spoon-score.vercel.app",
   },
   {
-    name: "Interactive Dev Roadmaps",
-    shortName: "RDM",
-    tagline: "90+ Career Roles & Framework Learning Graphs",
+    name: "404 Community",
+    shortName: "404",
+    tagline: "From Error to Execution — Offline Tech Guild",
     description:
-      "Comprehensive visual learning paths across Frontend, Backend, AI, and DevOps.",
-    href: "/roadmaps",
+      "Offline student project incubation, collaborative coding sprints, and peer mentorship.",
+    href: "/community-agreement",
     isExternal: false,
-    badge: "90+ Tracks",
-    officialUrl: "https://roadmap.sh",
+    badge: "Offline Guild",
+    officialUrl: "https://flowctrl.dev/community-agreement",
   },
 ];
 
 /**
  * Legal & Governance Links
+ * Cleaned and de-duplicated: Separate FlowCTRL Terms from 404 Community Agreement.
  */
 export const LEGAL_LINKS = [
   {
-    title: "Terms & Conditions",
-    label: "Platform Terms & Conditions",
+    title: "flowCTRL Terms & Conditions",
+    label: "flowCTRL Terms & Conditions",
     href: "https://opensource-projects.netlify.app/#terms",
     isExternal: true,
     description:
-      "General terms of service, acceptable use, and member responsibilities.",
+      "Career intelligence, roadmap services, and platform terms of service.",
   },
   {
     title: "Privacy Policy",
@@ -96,28 +97,12 @@ export const LEGAL_LINKS = [
       "Zero-email exposure architecture, cryptographic tokens, and data protection.",
   },
   {
-    title: "CodeCollab Terms & Conditions",
-    label: "CodeCollab Terms & Conditions",
-    href: "https://opensource-projects.netlify.app/#terms",
-    isExternal: true,
+    title: "404 Agreement Form",
+    label: "404 Agreement Form",
+    href: "/community-agreement",
+    isExternal: false,
     description:
-      "Project registration, licensing, and collaborative workspace governance.",
-  },
-  {
-    title: "flowCTRL Terms & Conditions",
-    label: "flowCTRL Terms & Conditions",
-    href: "https://opensource-projects.netlify.app/#terms",
-    isExternal: true,
-    description:
-      "Career intelligence, roadmap services, and subscription terms.",
-  },
-  {
-    title: "404 Community Collaboration Agreement",
-    label: "404 Community / Project Collaboration Agreement",
-    href: "https://opensource-projects.netlify.app/#terms",
-    isExternal: true,
-    description:
-      "Open-source collaboration terms, code of conduct, and contribution guidelines.",
+      "Official offline project collaboration agreement for 404 Community (From Error to Execution).",
   },
   {
     title: "Security & Responsible Disclosure",
@@ -127,35 +112,22 @@ export const LEGAL_LINKS = [
     description:
       "Security architecture, vulnerability reporting procedures, and audit logs.",
   },
-  {
-    title: "Cookie & Data Policy",
-    label: "Cookie & Data Retention Standards",
-    href: "https://opensource-projects.netlify.app/#privacy",
-    isExternal: true,
-    description:
-      "Session cookies, SameSite restrictions, and local storage standards.",
-  },
-  {
-    title: "Platform Disclaimer",
-    label: "Platform Disclaimer",
-    href: "https://opensource-projects.netlify.app/#terms",
-    isExternal: true,
-    description:
-      "Service warranties, availability statements, and third-party disclaimers.",
-  },
 ];
 
 /**
  * Core Product & Navigation Links
+ * Cleaned and de-duplicated: Unique feature entries without pricing.
  */
 export const PRODUCT_LINKS = [
   { label: "Interactive Dev Roadmaps", href: "/roadmaps", isExternal: false },
-  { label: "Skill Gap Analyzer", href: "/#features", isExternal: false },
   { label: "ATS Resume Checker", href: "/resume-screener", isExternal: false },
-  { label: "1-on-1 Mentorship", href: "/#features", isExternal: false },
-  { label: "Portfolio Builder", href: "/#features", isExternal: false },
-  { label: "Job Matcher", href: "/#features", isExternal: false },
-  { label: "Pricing & Plans", href: "/#pricing", isExternal: false },
+  { label: "Skill Gap Analyzer", href: "/#features", isExternal: false },
+  { label: "AI Job Matcher", href: "/#features", isExternal: false },
+  {
+    label: "Developer Wellbeing Score",
+    href: "https://fluffy-spoon-score.vercel.app",
+    isExternal: true,
+  },
 ];
 
 /**

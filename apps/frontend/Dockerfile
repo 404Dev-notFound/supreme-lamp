@@ -10,7 +10,7 @@ COPY packages/roadmap-data/package.json* ./packages/roadmap-data/
 COPY turbo.json* ./
 RUN npm ci
 COPY . .
-RUN npx prisma generate --schema=apps/backend/prisma/schema.prisma
+RUN npx prisma generate --schema="flowCTRL data files/prisma/schema.prisma"
 RUN npm run build --workspace=frontend
 
 FROM base AS runner
@@ -21,6 +21,9 @@ COPY --from=builder /app/apps/frontend/.next ./apps/frontend/.next
 COPY --from=builder /app/node_modules ./node_modules
 COPY --from=builder /app/package.json ./package.json
 COPY --from=builder /app/apps/frontend/package.json ./apps/frontend/package.json
+
+RUN chown -R node:node /app
+USER node
 
 EXPOSE 3000
 ENV PORT=3000

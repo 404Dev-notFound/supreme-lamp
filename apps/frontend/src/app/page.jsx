@@ -10,7 +10,6 @@ import {
   Code,
   BookOpen,
   Target,
-  CheckCircle2,
   FileText,
 } from "lucide-react";
 import JobMatcherModal from "../components/JobMatcherModal";
@@ -58,9 +57,6 @@ export default function LandingPage() {
           >
             Resume Screener
           </button>
-          <Link href="#pricing" className="hover:text-white transition-colors">
-            Pricing
-          </Link>
         </div>
         <div className="flex items-center gap-3">
           <NavProfile />
@@ -272,15 +268,6 @@ export default function LandingPage() {
               Create your free account
             </Link>
             <DevRoadmapButton variant="glow" size="lg" />
-          </div>
-
-          <div className="mt-8 flex items-center justify-center gap-6 text-sm text-zinc-300">
-            <span className="flex items-center gap-2">
-              <CheckCircle2 className="w-4 h-4 text-emerald-400" /> No credit card required
-            </span>
-            <span className="flex items-center gap-2">
-              <CheckCircle2 className="w-4 h-4 text-emerald-400" /> 14-day premium trial
-            </span>
           </div>
         </div>
       </section>
