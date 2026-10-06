@@ -5,13 +5,13 @@ const { prisma } = require("../../apps/backend/src/lib/prisma");
 const EXPORTS_DIR = path.resolve(__dirname, "../exports");
 
 async function exportData() {
-  console.log("📦 Exporting flowCTRL user and session data to 'flowCTRL data files/exports'...");
+  console.log("📦 Exporting flowCTRL database records to 'flowCTRL data files/exports'...");
 
   if (!fs.existsSync(EXPORTS_DIR)) {
     fs.mkdirSync(EXPORTS_DIR, { recursive: true });
   }
 
-  // 1. Export Users (sanitized, excluding passwords and hashes)
+  // 1. Export Users (sanitized, strictly excluding passwords and hashes)
   const users = await prisma.user.findMany({
     select: {
       id: true,
@@ -44,7 +44,35 @@ async function exportData() {
   fs.writeFileSync(usersPath, JSON.stringify(users, null, 2), "utf-8");
   console.log(`✅ Exported ${users.length} users to: ${usersPath}`);
 
-  // 2. Export Security and Session Logs
+  // 2. Export Projects & Issues
+  const projects = await prisma.project.findMany({
+    include: {
+      issues: {
+        orderBy: { createdAt: "asc" },
+      },
+      members: {
+        select: {
+          userId: true,
+          projectRole: true,
+          joinedAt: true,
+        },
+      },
+      owner: {
+        select: {
+          id: true,
+          name: true,
+          email: true,
+        },
+      },
+    },
+    orderBy: { createdAt: "asc" },
+  });
+
+  const projectsPath = path.join(EXPORTS_DIR, "projects.export.json");
+  fs.writeFileSync(projectsPath, JSON.stringify(projects, null, 2), "utf-8");
+  console.log(`✅ Exported ${projects.length} projects to: ${projectsPath}`);
+
+  // 3. Export Security and Session Logs
   const logs = await prisma.securityLog.findMany({
     take: 100,
     orderBy: { createdAt: "desc" },

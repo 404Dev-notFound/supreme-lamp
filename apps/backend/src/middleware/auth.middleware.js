@@ -115,7 +115,65 @@ const requireRole = (allowedRoles = []) => {
   };
 };
 
+/**
+ * Optional Authentication Middleware
+ * Populates req.user if valid session/token exists, but does not block if not authenticated.
+ */
+const optionalAuth = async (req, res, next) => {
+  try {
+    const cookies = parseCookies(req.headers.cookie);
+    const sessionToken = cookies[SESSION_COOKIE_NAME];
+
+    if (sessionToken) {
+      const validation = await validateSessionToken(sessionToken);
+      if (validation.valid && validation.user) {
+        req.user = {
+          id: validation.user.id,
+          email: validation.user.email,
+          role: validation.user.role,
+          name: validation.user.name,
+        };
+        req.session = validation.session;
+        return next();
+      }
+    }
+
+    const authHeader = req.headers.authorization;
+    if (authHeader && authHeader.startsWith("Bearer ")) {
+      const token = authHeader.split(" ")[1];
+      try {
+        const decoded = jwt.verify(token, config.jwt.secret);
+        const userId = decoded.id || decoded.sub || decoded.userId;
+
+        if (userId) {
+          const user = await prisma.user.findUnique({
+            where: { id: userId },
+            select: { id: true, email: true, role: true, name: true, status: true },
+          });
+
+          if (user && user.status === "ACTIVE") {
+            req.user = {
+              id: user.id,
+              email: user.email,
+              role: user.role,
+              name: user.name,
+            };
+            return next();
+          }
+        }
+      } catch {
+        // Ignore token errors in optional path
+      }
+    }
+
+    return next();
+  } catch {
+    return next();
+  }
+};
+
 module.exports = {
   requireAuth,
   requireRole,
+  optionalAuth,
 };

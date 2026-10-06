@@ -7,6 +7,7 @@ const { initTelemetry } = require("./telemetry");
 const { authRouter } = require("./routes/auth.routes");
 const { usersRouter } = require("./routes/users");
 const { roadmapsRouter } = require("./routes/roadmaps");
+const { projectsRouter } = require("./routes/projects.routes");
 const { csrfProtection } = require("./middleware/csrf");
 const { requireAuth, requireRole } = require("./middleware/auth.middleware");
 const {
@@ -149,7 +150,10 @@ app.use("/api/users", usersRouter);
 // 16. Roadmaps Catalog & Progress Routes
 app.use("/api/roadmaps", roadmapsRouter);
 
-// 17. Protected Mission Control Route
+// 17. Projects & Collaboration Routes (PostgreSQL Real-time Persistence)
+app.use("/api/projects", projectsRouter);
+
+// 18. Protected Mission Control Route
 app.get("/api/dashboard", requireAuth, (req, res) => {
   res.setHeader("Cache-Control", "no-store, max-age=0");
   res.status(200).json({

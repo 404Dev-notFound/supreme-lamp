@@ -8,7 +8,6 @@ import {
   ChevronDown,
   ChevronUp,
   Layers,
-  Sparkles,
   Shield,
   Code2,
   Cpu,
@@ -21,7 +20,6 @@ import {
   DEVELOPER_INFO,
   ECOSYSTEM_PRODUCTS,
   LEGAL_LINKS,
-  PRODUCT_LINKS,
   SOCIAL_LINKS,
   RESOURCE_CATEGORIES,
 } from "@/lib/footerConfig";
@@ -130,8 +128,8 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Core Navigation Grid: 4 Columns */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+        {/* Core Navigation Grid: 3 Columns */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
           {/* Column 1: flowCTRL Ecosystem */}
           <div className="space-y-4">
             <div className="flex items-center gap-2">
@@ -189,45 +187,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Column 2: Product & Capabilities */}
-          <div className="space-y-4">
-            <div className="flex items-center gap-2">
-              <Sparkles className="w-4 h-4 text-amber-400" />
-              <h3 className="font-semibold text-sm tracking-wider uppercase text-zinc-200">
-                Product & Features
-              </h3>
-            </div>
-            <p className="text-xs text-zinc-300">
-              Skill graph tools, AI intelligence, and career accelerator
-              engines.
-            </p>
-            <ul className="space-y-2 text-sm">
-              {PRODUCT_LINKS.map((item) => (
-                <li key={item.label}>
-                  {item.isExternal ? (
-                    <a
-                      href={item.href}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-zinc-300 hover:text-white transition-colors flex items-center justify-between py-1 hover:translate-x-1 duration-200 group"
-                    >
-                      <span>{item.label}</span>
-                      <ExternalLink className="w-3 h-3 opacity-60 group-hover:opacity-100 transition-opacity" />
-                    </a>
-                  ) : (
-                    <Link
-                      href={item.href}
-                      className="text-zinc-300 hover:text-white transition-colors flex items-center justify-between py-1 hover:translate-x-1 duration-200"
-                    >
-                      <span>{item.label}</span>
-                    </Link>
-                  )}
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Column 3: Legal & Governance */}
+          {/* Column 2: Legal & Governance */}
           <div className="space-y-4">
             <div className="flex items-center gap-2">
               <Shield className="w-4 h-4 text-blue-400" />
@@ -274,7 +234,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Column 4: Developer & Community */}
+          {/* Column 3: Developer & Community */}
           <div className="space-y-4">
             <div className="flex items-center gap-2">
               <Code2 className="w-4 h-4 text-emerald-400" />

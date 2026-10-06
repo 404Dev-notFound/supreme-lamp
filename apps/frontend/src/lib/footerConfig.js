@@ -114,21 +114,6 @@ export const LEGAL_LINKS = [
   },
 ];
 
-/**
- * Core Product & Navigation Links
- * Cleaned and de-duplicated: Unique feature entries without pricing.
- */
-export const PRODUCT_LINKS = [
-  { label: "Interactive Dev Roadmaps", href: "/roadmaps", isExternal: false },
-  { label: "ATS Resume Checker", href: "/resume-screener", isExternal: false },
-  { label: "Skill Gap Analyzer", href: "/#features", isExternal: false },
-  { label: "AI Job Matcher", href: "/#features", isExternal: false },
-  {
-    label: "Developer Wellbeing Score",
-    href: "https://fluffy-spoon-score.vercel.app",
-    isExternal: true,
-  },
-];
 
 /**
  * Social & Community Links

@@ -11,6 +11,7 @@ import {
   BookOpen,
   Target,
   FileText,
+  ExternalLink,
 } from "lucide-react";
 import JobMatcherModal from "../components/JobMatcherModal";
 import ResumeScreenerModal from "../components/modals/ResumeScreenerModal";
@@ -109,14 +110,34 @@ export default function LandingPage() {
       <section className="px-6 pb-32 max-w-6xl mx-auto relative z-10">
         <div className="aspect-[16/9] w-full glass-card rounded-2xl flex flex-col overflow-hidden">
           {/* Fake Window Header */}
-          <div className="h-12 border-b border-white/10 flex items-center px-4 gap-2 glass shrink-0 relative">
-            <div className="w-3 h-3 rounded-full bg-red-500/80" />
-            <div className="w-3 h-3 rounded-full bg-yellow-500/80" />
-            <div className="w-3 h-3 rounded-full bg-green-500/80" />
-            <div className="absolute left-1/2 -translate-x-1/2 flex items-center bg-white/5 border border-white/10 rounded-md px-3 py-1 text-xs text-zinc-300 font-medium tracking-wide w-80 justify-center shadow-inner">
-              <span className="opacity-50 mr-1">🔒</span>{" "}
-              https://fluffy-spoon-score.vercel.app/
+          <div className="h-12 border-b border-white/10 flex items-center justify-between px-4 gap-2 glass shrink-0 relative">
+            <div className="flex items-center gap-2">
+              <div className="w-3 h-3 rounded-full bg-red-500/80" />
+              <div className="w-3 h-3 rounded-full bg-yellow-500/80" />
+              <div className="w-3 h-3 rounded-full bg-green-500/80" />
             </div>
+            <a
+              href="https://fluffy-spoon-score.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hidden sm:flex absolute left-1/2 -translate-x-1/2 items-center bg-white/5 hover:bg-white/10 border border-white/10 hover:border-white/20 transition-all rounded-md px-3 py-1 text-xs text-zinc-300 hover:text-white font-medium tracking-wide w-72 md:w-80 justify-center shadow-inner cursor-pointer group"
+              title="Open https://fluffy-spoon-score.vercel.app/ in a new tab"
+            >
+              <span className="opacity-50 mr-1.5">🔒</span>
+              <span className="truncate">https://fluffy-spoon-score.vercel.app/</span>
+              <ExternalLink className="w-3 h-3 ml-2 opacity-50 group-hover:opacity-100 transition-opacity" />
+            </a>
+            <a
+              href="https://fluffy-spoon-score.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              id="visit-website-preview-btn"
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold bg-emerald-500/15 text-emerald-400 hover:bg-emerald-500/25 border border-emerald-500/30 hover:border-emerald-500/50 transition-all shadow-sm hover:scale-[1.02] active:scale-[0.98] cursor-pointer ml-auto sm:ml-0 z-10"
+              title="Visit Website (opens in new tab)"
+            >
+              <span>Visit Website</span>
+              <ExternalLink className="w-3.5 h-3.5" />
+            </a>
           </div>
           {/* Embedded Mental Health App */}
           <div className="flex-1 relative overflow-hidden bg-background/50">

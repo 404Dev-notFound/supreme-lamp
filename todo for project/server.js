@@ -15,6 +15,8 @@ const GOOGLE_CLIENT_ID = process.env.GOOGLE_CLIENT_ID;
 const oauthClient = new OAuth2Client(GOOGLE_CLIENT_ID);
 const fs = require('fs/promises');
 const path = require('path');
+const { PrismaClient } = require('@prisma/client');
+const prisma = new PrismaClient();
 // In‑memory store for valid refresh tokens
 const refreshTokenStore = new Map();
 
@@ -60,38 +62,39 @@ const getFilePath = (table) => path.join(DATA_DIR, `${table}.json`);
  */
 app.post('/api/auth/signup', async (req, res) => {
       try {
-        const filePath = getFilePath('users');
-        let users = [];
-
-        try {
-          const data = await fs.readFile(filePath, 'utf-8');
-          users = JSON.parse(data);
-        } catch { /* file may not exist yet */ }
-
         const { email, password, name } = req.body;
-        if (users.find(u => u.email === email)) {
+        if (!email || !password) {
+          return res.status(400).json({ error: 'Email and password are required' });
+        }
+
+        const normalizedEmail = email.trim().toLowerCase();
+        const existing = await prisma.user.findUnique({
+          where: { email: normalizedEmail }
+        });
+        if (existing) {
           return res.status(400).json({ error: 'Mail existed already' });
         }
 
         const bcrypt = require('bcryptjs');
         const hashedPassword = await bcrypt.hash(password, 10);
 
-        const newUser = {
-          id: Date.now().toString(),
-          createdAt: new Date().toISOString(),
-          name,
-          email,
-          password: hashedPassword,
-          role: 'user',
-          progress: 0,
-          potion: 0
-        };
-
-        users.push(newUser);
-        await fs.writeFile(filePath, JSON.stringify(users, null, 2));
+        const newUser = await prisma.user.create({
+          data: {
+            name: name || 'flowCTRL User',
+            email: normalizedEmail,
+            password: hashedPassword,
+            role: 'USER',
+            status: 'ACTIVE',
+            profile: {
+              create: {
+                displayName: name || 'flowCTRL User'
+              }
+            }
+          }
+        });
 
         // Generate tokens for immediate login after signup
-        const token = jwt.sign({ id: newUser.id, email: newUser.email, role: newUser.role || 'user' }, JWT_SECRET, { expiresIn: '1h' });
+        const token = jwt.sign({ id: newUser.id, email: newUser.email, role: newUser.role || 'USER' }, JWT_SECRET, { expiresIn: '1h' });
         const refreshToken = uuidv4();
         refreshTokenStore.set(refreshToken, newUser.id);
 
@@ -105,17 +108,21 @@ app.post('/api/auth/signup', async (req, res) => {
 
     /*
  * User login endpoint.
- * Validates credentials, issues JWT and refresh token.
+ * Validates credentials against PostgreSQL via Prisma.
  */
 app.post('/api/auth/login', async (req, res) => {
         try {
-            const filePath = getFilePath('users');
-            const data = await fs.readFile(filePath, 'utf-8');
-            const users = JSON.parse(data);
-
             const { email, password } = req.body;
-            const user = users.find(u => u.email === email);
-            if (!user) {
+            if (!email || !password) {
+                return res.status(400).json({ error: 'Email and password are required' });
+            }
+
+            const normalizedEmail = email.trim().toLowerCase();
+            const user = await prisma.user.findUnique({
+                where: { email: normalizedEmail }
+            });
+
+            if (!user || !user.password) {
                 return res.status(401).json({ error: 'Invalid email or password' });
             }
 
@@ -126,10 +133,8 @@ app.post('/api/auth/login', async (req, res) => {
             }
 
             const { password: _, ...userWithoutPassword } = user;
-            // Generate access JWT (valid 1h) and refresh token
-            const token = jwt.sign({ id: user.id, email: user.email, role: user.role || 'user' }, JWT_SECRET, { expiresIn: '1h' });
+            const token = jwt.sign({ id: user.id, email: user.email, role: user.role || 'USER' }, JWT_SECRET, { expiresIn: '1h' });
             const refreshToken = uuidv4();
-            // Store refresh token in memory linked to user id
             refreshTokenStore.set(refreshToken, user.id);
             res.json({ ...userWithoutPassword, token, refreshToken });
         } catch (error) {
@@ -167,39 +172,22 @@ app.get('/api/projects', async (req, res) => {
 // Sanitized users list endpoint for Assignee picker and profiles
 app.get('/api/users', async (req, res) => {
     try {
-        const filePath = getFilePath('users');
-        let users = [];
-        try {
-            const data = await fs.readFile(filePath, 'utf-8');
-            users = JSON.parse(data);
-        } catch { }
-        
-        // Strip sensitive password hashes
-        const sanitized = users.map(u => {
-            const { password, passwordHash, ...safeUser } = u;
-            return safeUser;
+        const users = await prisma.user.findMany({
+            select: {
+                id: true,
+                name: true,
+                email: true,
+                role: true,
+                status: true,
+                image: true
+            }
         });
-        res.json(sanitized);
+        res.json(users);
     } catch (error) {
-        console.error('Error fetching users:', error);
+        console.error('Error fetching users from Prisma:', error);
         res.status(500).json({ error: 'Failed to fetch users' });
     }
 });
-
-app.get('/api/:table', async (req, res) => {
-    try {
-        const filePath = getFilePath(req.params.table);
-        try { await fs.access(filePath); } catch { return res.json([]); }
-        const data = await fs.readFile(filePath, 'utf-8');
-        res.json(JSON.parse(data));
-    } catch (error) {
-        console.error(`Error reading ${req.params.table}:`, error);
-        res.status(500).json({ error: 'Failed to read data' });
-    }
-});
-
-const { PrismaClient } = require('@prisma/client');
-const prisma = new PrismaClient();
 
 // Write project data to Prisma PostgreSQL (protected)
 app.post('/api/projects', authMiddleware, async (req, res) => {
@@ -222,8 +210,7 @@ app.post('/api/projects', authMiddleware, async (req, res) => {
                 githubUrl: githubUrl || '',
                 isPinned: isPinned === 'on' || isPinned === true,
                 isDemo: isDemo === 'on' || isDemo === true,
-                // ownerId left null — users currently live in JSON files, not the Prisma User table
-                ownerId: null
+                ownerId: req.user ? req.user.id : null
             }
         });
         

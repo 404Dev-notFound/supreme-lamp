@@ -309,23 +309,37 @@ export default function DashboardPage() {
                 Mental Health Radar
               </h2>
               <a
-                href="https://fluffy-spoon-score.vercel.app"
+                href="https://fluffy-spoon-score.vercel.app/"
                 target="_blank"
-                rel="noreferrer"
-                className="text-xs font-semibold text-zinc-400 hover:text-white flex items-center gap-1"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold bg-emerald-500/15 text-emerald-400 hover:bg-emerald-500/25 border border-emerald-500/30 hover:border-emerald-500/50 transition-all shadow-sm hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
+                title="Visit Website (opens in a new tab)"
               >
-                Open <ExternalLink className="w-3 h-3" />
+                <span>Visit Website</span>
+                <ExternalLink className="w-3.5 h-3.5" />
               </a>
             </div>
 
             <div className="aspect-[4/3] rounded-2xl glass-card border border-white/10 overflow-hidden flex flex-col bg-zinc-950/80">
-              <div className="h-9 border-b border-white/10 flex items-center px-3 gap-2 bg-white/5 shrink-0">
-                <div className="w-2.5 h-2.5 rounded-full bg-red-500/80" />
-                <div className="w-2.5 h-2.5 rounded-full bg-yellow-500/80" />
-                <div className="w-2.5 h-2.5 rounded-full bg-green-500/80" />
-                <span className="text-[10px] text-zinc-400 ml-2 truncate font-mono">
-                  fluffy-spoon-score.vercel.app
-                </span>
+              <div className="h-9 border-b border-white/10 flex items-center justify-between px-3 gap-2 bg-white/5 shrink-0">
+                <div className="flex items-center gap-2">
+                  <div className="w-2.5 h-2.5 rounded-full bg-red-500/80" />
+                  <div className="w-2.5 h-2.5 rounded-full bg-yellow-500/80" />
+                  <div className="w-2.5 h-2.5 rounded-full bg-green-500/80" />
+                  <span className="text-[10px] text-zinc-400 ml-2 truncate font-mono">
+                    fluffy-spoon-score.vercel.app
+                  </span>
+                </div>
+                <a
+                  href="https://fluffy-spoon-score.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[11px] text-zinc-400 hover:text-emerald-400 font-medium inline-flex items-center gap-1 transition-colors"
+                  title="Visit Website in new tab"
+                >
+                  <span>Visit Website</span>
+                  <ExternalLink className="w-3 h-3" />
+                </a>
               </div>
               <div className="flex-1 relative overflow-hidden">
                 <WellbeingEmbed />

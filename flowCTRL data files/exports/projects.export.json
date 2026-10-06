@@ -1,0 +1,159 @@
+[
+  {
+    "id": "prj_flowctrl_platform",
+    "title": "flowCTRL Core Platform",
+    "category": "Full-Stack Web",
+    "difficulty": "Advanced",
+    "techStack": [
+      "Node.js",
+      "Express",
+      "Next.js",
+      "PostgreSQL",
+      "Prisma",
+      "Docker"
+    ],
+    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80",
+    "description": "Unified developer career accelerator and interactive learning environment with real-time PostgreSQL persistence.",
+    "githubUrl": "https://github.com/flowctrl/flowctrl",
+    "isPinned": true,
+    "isDemo": false,
+    "createdAt": "2026-10-06T17:11:49.825Z",
+    "updatedAt": "2026-10-06T17:11:49.825Z",
+    "ownerId": "usr_seed_admin",
+    "issues": [
+      {
+        "id": "iss_fc_001",
+        "title": "Real-time PostgreSQL Data Persistence",
+        "description": "Persist all user signup, authentication, profile, and project mutations immediately in PostgreSQL via Prisma.",
+        "status": "DONE",
+        "priority": "HIGH",
+        "tags": [
+          "database",
+          "prisma",
+          "security",
+          "docker"
+        ],
+        "createdAt": "2026-10-06T17:11:49.841Z",
+        "updatedAt": "2026-10-06T17:11:49.841Z",
+        "projectId": "prj_flowctrl_platform",
+        "creatorId": "usr_seed_admin",
+        "assigneeId": null
+      },
+      {
+        "id": "iss_fc_002",
+        "title": "Transactional Integrity & Concurrency Safeguards",
+        "description": "Ensure atomic commits across related models to prevent race conditions and partial writes.",
+        "status": "IN_PROGRESS",
+        "priority": "HIGH",
+        "tags": [
+          "transactions",
+          "acid",
+          "reliability"
+        ],
+        "createdAt": "2026-10-06T17:11:49.846Z",
+        "updatedAt": "2026-10-06T17:11:49.846Z",
+        "projectId": "prj_flowctrl_platform",
+        "creatorId": "usr_seed_admin",
+        "assigneeId": null
+      },
+      {
+        "id": "iss_fc_003",
+        "title": "Docker Persistent Volume Lifecycle Verification",
+        "description": "Validate data retention across container tear-down, service restarts, and host reboots.",
+        "status": "TODO",
+        "priority": "MEDIUM",
+        "tags": [
+          "devops",
+          "docker",
+          "storage"
+        ],
+        "createdAt": "2026-10-06T17:11:49.849Z",
+        "updatedAt": "2026-10-06T17:11:49.849Z",
+        "projectId": "prj_flowctrl_platform",
+        "creatorId": "usr_seed_admin",
+        "assigneeId": null
+      }
+    ],
+    "members": [
+      {
+        "userId": "usr_seed_admin",
+        "projectRole": "owner",
+        "joinedAt": "2026-10-06T17:11:49.825Z"
+      }
+    ],
+    "owner": {
+      "id": "usr_seed_admin",
+      "name": "System Administrator",
+      "email": "admin@flowctrl.dev"
+    }
+  },
+  {
+    "id": "prj_cloud_orchestrator",
+    "title": "Distributed Cloud Orchestrator",
+    "category": "DevOps & Cloud",
+    "difficulty": "Advanced",
+    "techStack": [
+      "Go",
+      "Docker",
+      "Kubernetes",
+      "PostgreSQL",
+      "gRPC"
+    ],
+    "image": "https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?auto=format&fit=crop&w=800&q=80",
+    "description": "High-throughput cluster orchestration controller managing microservices across distributed nodes.",
+    "githubUrl": "https://github.com/flowctrl/cloud-orchestrator",
+    "isPinned": false,
+    "isDemo": true,
+    "createdAt": "2026-10-06T17:11:49.854Z",
+    "updatedAt": "2026-10-06T17:11:49.854Z",
+    "ownerId": "usr_seed_alex",
+    "issues": [
+      {
+        "id": "iss_co_001",
+        "title": "Cluster Health Telemetry Exporter",
+        "description": "Implement node heartbeat probe and stream telemetry metrics into PostgreSQL.",
+        "status": "TODO",
+        "priority": "URGENT",
+        "tags": [
+          "telemetry",
+          "observability",
+          "metrics"
+        ],
+        "createdAt": "2026-10-06T17:11:49.860Z",
+        "updatedAt": "2026-10-06T17:11:49.860Z",
+        "projectId": "prj_cloud_orchestrator",
+        "creatorId": "usr_seed_alex",
+        "assigneeId": null
+      },
+      {
+        "id": "iss_co_002",
+        "title": "Service Mesh Automated TLS Rotation",
+        "description": "Automate certificate provisioning and mutual TLS verification between internal services.",
+        "status": "TODO",
+        "priority": "MEDIUM",
+        "tags": [
+          "security",
+          "networking",
+          "tls"
+        ],
+        "createdAt": "2026-10-06T17:11:49.864Z",
+        "updatedAt": "2026-10-06T17:11:49.864Z",
+        "projectId": "prj_cloud_orchestrator",
+        "creatorId": "usr_seed_alex",
+        "assigneeId": null
+      }
+    ],
+    "members": [
+      {
+        "userId": "usr_seed_alex",
+        "projectRole": "owner",
+        "joinedAt": "2026-10-06T17:11:49.854Z"
+      }
+    ],
+    "owner": {
+      "id": "usr_seed_alex",
+      "name": "Alex Johnson",
+      "email": "alex@flowctrl.dev"
+    }
+  }
+]

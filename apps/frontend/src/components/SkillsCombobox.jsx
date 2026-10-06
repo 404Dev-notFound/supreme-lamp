@@ -3,7 +3,7 @@
 import React, { useState, useMemo, Fragment } from "react";
 import { Combobox, Transition } from "@headlessui/react";
 import { Check, X } from "lucide-react";
-import skillsData from "../../../../flowCTRL DATA/skills.json";
+import skillsData from "../../../../flowCTRL data files/seeds/skills.json";
 
 export default function SkillsCombobox({
   selectedSkills = [],

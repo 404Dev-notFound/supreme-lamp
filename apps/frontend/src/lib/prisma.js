@@ -4,7 +4,7 @@ import { Pool } from "pg";
 
 const connectionString =
   process.env.DATABASE_URL ||
-  "postgresql://postgres:postgres@localhost:5432/flowctrl?schema=public";
+  "postgresql://postgres:postgrespassword9555@localhost:5432/flowCTRL";
 
 const pool = new Pool({ connectionString });
 const adapter = new PrismaPg(pool);

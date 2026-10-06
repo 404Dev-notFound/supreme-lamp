@@ -9,10 +9,11 @@ Centralized storage and configuration hub for **flowCTRL** authentication, Postg
 ```text
 flowCTRL data files/
 ├── prisma/
-│   ├── schema.prisma              # Centralized Prisma schema (Users, Sessions, SecurityLogs, Roadmaps)
+│   ├── schema.prisma              # Centralized Prisma schema (Users, Sessions, Projects, Issues, Roadmaps)
 │   └── migrations/                # Database versioned migrations
 ├── seeds/
 │   ├── users.seed.json            # Seed accounts (Admin, standard users, mentors, recruiters)
+│   ├── projects.seed.json         # Curated starter projects and task issues
 │   ├── roles.json                 # Role hierarchy and permission definitions
 │   ├── categories.json            # Career & domain catalog
 │   ├── skills.json                # Verified skills catalog
@@ -21,11 +22,12 @@ flowCTRL data files/
 │   └── init-db.sql                # PostgreSQL container initialization SQL script
 ├── exports/
 │   ├── users.export.json          # Sanitized user snapshots (excluding passwords/hashes)
+│   ├── projects.export.json       # Exported projects and tasks snapshot
 │   └── security_logs.export.json  # Exported security events & session audit trail
 ├── scripts/
-│   ├── seed.js                    # Database seeder (idempotent upsert via Prisma)
-│   └── export-data.js             # Automated user & session export utility
-└── README.md                      # Documentation (this file)
+│   ├── seed.js                    # Database seeder (idempotent upsert via Prisma into PostgreSQL)
+│   └── export-data.js             # Automated safe data export utility
+└── README.md                      # Architecture & persistence documentation
 ```
 
 ---
