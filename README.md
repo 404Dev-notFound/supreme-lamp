@@ -12,9 +12,7 @@ This monorepo is structured as follows:
 flowCTRL/
 ├── apps/
 │   ├── frontend/                 # Next.js (Turbopack, Tailwind CSS) web application
-│   ├── backend/                  # Node.js / Express API with OpenTelemetry & Prisma
-│   ├── mental-health-backend/    # Specialized mental-health services
-│   └── resume-screener-backend/  # AI resume screening and evaluation service
+│   └── backend/                  # Node.js / Express API with OpenTelemetry & Prisma
 ├── packages/
 │   └── types/                    # Shared TypeScript interfaces and type definitions
 ├── JobRadar/                     # Job intelligence, radar & resume copilot engine
