@@ -194,6 +194,34 @@ async function changePassword(req, res, next) {
   }
 }
 
+async function forgotPassword(req, res, next) {
+  try {
+    const { email } = req.validatedBody || req.body;
+    const result = await authService.forgotPassword(email, req);
+    res.setHeader("Cache-Control", "no-store, max-age=0");
+    return res.status(200).json({
+      success: true,
+      message: result.message,
+    });
+  } catch (error) {
+    next(error);
+  }
+}
+
+async function resetPassword(req, res, next) {
+  try {
+    const { token, newPassword } = req.validatedBody || req.body;
+    const result = await authService.resetPassword(token, newPassword, req);
+    res.setHeader("Cache-Control", "no-store, max-age=0");
+    return res.status(200).json({
+      success: true,
+      message: result.message,
+    });
+  } catch (error) {
+    next(error);
+  }
+}
+
 module.exports = {
   signup,
   signin,
@@ -201,4 +229,6 @@ module.exports = {
   logout,
   logoutAll,
   changePassword,
+  forgotPassword,
+  resetPassword,
 };

@@ -1,13 +1,25 @@
+const fs = require("fs");
+const path = require("path");
 const express = require("express");
 const cors = require("cors");
 const helmet = require("helmet");
 const morgan = require("morgan");
 const config = require("./config");
+const { prisma } = require("./lib/prisma");
 const { initTelemetry } = require("./telemetry");
+const { requestIdMiddleware } = require("./middleware/requestId.middleware");
 const { authRouter } = require("./routes/auth.routes");
 const { usersRouter } = require("./routes/users");
 const { roadmapsRouter } = require("./routes/roadmaps");
+const { roadmapProgressRouter } = require("./routes/roadmapProgress.routes");
 const { projectsRouter } = require("./routes/projects.routes");
+const { jobsRouter } = require("./routes/jobs.routes");
+const { mentorsRouter } = require("./routes/mentors.routes");
+const { resumesRouter } = require("./routes/resumes.routes");
+const { catalogRouter } = require("./routes/catalog.routes");
+const { notificationsRouter } = require("./routes/notifications.routes");
+const { adminRouter } = require("./routes/admin.routes");
+const { gatewayRouter } = require("./routes/gateway.routes");
 const { csrfProtection } = require("./middleware/csrf");
 const { requireAuth, requireRole } = require("./middleware/auth.middleware");
 const {
@@ -34,10 +46,13 @@ app.set("trust proxy", 1);
 // 2. Disable X-Powered-By header to prevent technology fingerprinting
 app.disable("x-powered-by");
 
-// 3. Host Header Injection Defense
+// 3. Request ID Middleware for distributed tracing & structured logs
+app.use(requestIdMiddleware);
+
+// 4. Host Header Injection Defense
 app.use(hostHeaderGuard);
 
-// 4. Production-grade Helmet Security Headers Configuration
+// 5. Production-grade Helmet Security Headers Configuration
 app.use(
   helmet({
     contentSecurityPolicy: {
@@ -76,7 +91,7 @@ app.use(
   }),
 );
 
-// 5. Strict Cross-Origin Resource Sharing (CORS)
+// 6. Strict Cross-Origin Resource Sharing (CORS)
 app.use(
   cors({
     origin: (origin, callback) => {
@@ -101,59 +116,131 @@ app.use(
       "x-flowctrl-csrf",
       "x-requested-with",
       "x-test-rate-limit",
+      "x-request-id",
     ],
     maxAge: 86400, // 24 hours preflight cache
   }),
 );
 
-// 6. Slowloris & Request Timeout Guard (15 seconds)
+// 7. Slowloris & Request Timeout Guard (15 seconds)
 app.use(requestTimeoutGuard(15000));
 
-// 7. HTTP Logging (disabled during automated test runs)
+// 8. HTTP Logging (disabled during automated test runs)
 if (!config.isTest) {
   app.use(morgan("combined"));
 }
 
-// 8. Strict Request Body Parsing with 500KB limits to prevent resource exhaustion / DoS
+// 9. Strict Request Body Parsing with 500KB limits to prevent resource exhaustion / DoS
 app.use(express.json({ limit: "500kb", strict: true }));
 app.use(express.urlencoded({ extended: false, limit: "500kb" }));
 
-// 9. Prototype Pollution & Null-Byte Guard
+// 10. Prototype Pollution & Null-Byte Guard
 app.use(prototypePollutionGuard);
 
-// 10. HTTP Parameter Pollution (HPP) Guard
+// 11. HTTP Parameter Pollution (HPP) Guard
 app.use(hppGuard({ whitelist: ["skills", "tags", "categories"] }));
 
-// 11. Global API Rate Limiter
+// 12. Global API Rate Limiter
 app.use("/api", globalApiRateLimiter);
 
-// 12. Double-submit CSRF Protection on state-mutating API requests
+// 13. Double-submit CSRF Protection on state-mutating API requests
 app.use("/api", csrfProtection);
 
-// 13. Health Check Routes
+// 14. Root & Health Check Routes
 app.get("/", (req, res) => {
   res.setHeader("Cache-Control", "no-store, max-age=0");
   res.status(200).json({ status: "ok", message: "Welcome to flowCTRL API" });
 });
 
-app.get("/api/health", (req, res) => {
+const handleHealth = (req, res) => {
   res.setHeader("Cache-Control", "no-store, max-age=0");
-  res.status(200).json({ status: "ok", message: "flowCTRL API is running" });
+  res.status(200).json({
+    status: "ok",
+    message: "flowCTRL API is running",
+    uptime: Math.floor(process.uptime()),
+    timestamp: new Date().toISOString(),
+  });
+};
+
+app.get("/health", handleHealth);
+app.get("/api/health", handleHealth);
+
+// 15. Readiness Probe (checks database connection)
+const handleReady = async (req, res) => {
+  res.setHeader("Cache-Control", "no-store, max-age=0");
+  try {
+    await prisma.$queryRaw`SELECT 1`;
+    return res.status(200).json({
+      status: "ready",
+      database: "connected",
+      memoryUsage: Math.round(process.memoryUsage().heapUsed / 1024 / 1024) + "MB",
+    });
+  } catch (err) {
+    return res.status(503).json({
+      status: "not_ready",
+      database: "disconnected",
+      error: "Database connectivity check failed.",
+    });
+  }
+};
+
+app.get("/ready", handleReady);
+app.get("/api/ready", handleReady);
+
+// 16. OpenAPI Documentation Route
+const openapiSpecPath = path.resolve(__dirname, "./docs/openapi.json");
+app.get("/api/docs/openapi.json", (req, res) => {
+  if (fs.existsSync(openapiSpecPath)) {
+    res.setHeader("Content-Type", "application/json");
+    res.sendFile(openapiSpecPath);
+  } else {
+    res.status(404).json({ error: "Documentation not found" });
+  }
 });
 
-// 14. Authentication & Identity Routes
+app.get("/api/docs", (req, res) => {
+  res.setHeader("Cache-Control", "public, max-age=3600");
+  res.status(200).json({
+    message: "flowCTRL API Documentation",
+    specUrl: "/api/docs/openapi.json",
+  });
+});
+
+// 17. Authentication & Identity Routes
 app.use("/api/auth", authRouter);
 
-// 15. User & Profile Management Routes
+// 18. User & Profile Management Routes
 app.use("/api/users", usersRouter);
 
-// 16. Roadmaps Catalog & Progress Routes
+// 19. Roadmaps Catalog & Progress Routes
 app.use("/api/roadmaps", roadmapsRouter);
+app.use("/api/roadmaps", roadmapProgressRouter);
 
-// 17. Projects & Collaboration Routes (PostgreSQL Real-time Persistence)
+// 20. Projects & Collaboration Routes
 app.use("/api/projects", projectsRouter);
 
-// 18. Protected Mission Control Route
+// 21. Jobs, Companies & Applications Routes
+app.use("/api/jobs", jobsRouter);
+
+// 22. Mentors & Mentorship Routes
+app.use("/api/mentors", mentorsRouter);
+
+// 23. Resumes & ATS Analysis Routes
+app.use("/api/resumes", resumesRouter);
+
+// 24. Skills, Categories & Career Paths Catalog
+app.use("/api/catalog", catalogRouter);
+
+// 25. Notifications Routes
+app.use("/api/notifications", notificationsRouter);
+
+// 26. Admin Management Routes
+app.use("/api/admin", adminRouter);
+
+// 27. Internal Microservice Gateway Routes
+app.use("/api/services", gatewayRouter);
+
+// 28. Protected Mission Control Dashboard Route
 app.get("/api/dashboard", requireAuth, (req, res) => {
   res.setHeader("Cache-Control", "no-store, max-age=0");
   res.status(200).json({
@@ -162,21 +249,7 @@ app.get("/api/dashboard", requireAuth, (req, res) => {
   });
 });
 
-// 18. Protected Admin Panel Route
-app.get(
-  "/api/admin",
-  requireAuth,
-  requireRole(["ADMIN", "SUPER_ADMIN"]),
-  (req, res) => {
-    res.setHeader("Cache-Control", "no-store, max-age=0");
-    res.status(200).json({
-      message: "Welcome to the Admin Panel",
-      user: req.user,
-    });
-  },
-);
-
-// 19. 404 & Centralized Error Handlers
+// 29. 404 & Centralized Error Handlers
 app.use(notFoundHandler);
 app.use(errorHandler);
 

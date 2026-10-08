@@ -333,6 +333,122 @@ async function changePassword(
   };
 }
 
+/**
+ * Request password reset token (resists user enumeration)
+ */
+async function forgotPassword(email, req = null) {
+  const normalizedEmail = String(email).trim().toLowerCase();
+
+  const user = await prisma.user.findUnique({
+    where: { email: normalizedEmail },
+    select: { id: true, email: true },
+  });
+
+  if (user) {
+    const crypto = require("crypto");
+    const rawToken = crypto.randomBytes(32).toString("hex");
+    const expires = new Date(Date.now() + 60 * 60 * 1000); // 1 hour
+
+    await prisma.verificationToken.upsert({
+      where: { identifier_token: { identifier: `reset:${normalizedEmail}`, token: rawToken } },
+      create: {
+        identifier: `reset:${normalizedEmail}`,
+        token: rawToken,
+        expires,
+      },
+      update: {
+        token: rawToken,
+        expires,
+      },
+    });
+
+    const ipAddress =
+      req?.headers?.["x-forwarded-for"]?.split(",")[0]?.trim() ||
+      req?.socket?.remoteAddress ||
+      "127.0.0.1";
+
+    prisma.securityLog
+      .create({
+        data: {
+          userId: user.id,
+          eventType: "password_reset_requested",
+          ipAddress,
+          userAgent: req?.headers?.["user-agent"] || "Web Client",
+        },
+      })
+      .catch(() => {});
+  }
+
+  // Consistent message returned whether email exists or not (User Enumeration Defense)
+  return {
+    message: "If an account with this email exists, password reset instructions have been generated.",
+  };
+}
+
+/**
+ * Reset password using valid verification token
+ */
+async function resetPassword(token, newPassword, req = null) {
+  if (!token) {
+    throw new AuthError("Password reset token is required.", 400, "INVALID_TOKEN");
+  }
+
+  const record = await prisma.verificationToken.findFirst({
+    where: {
+      token,
+      identifier: { startsWith: "reset:" },
+    },
+  });
+
+  if (!record || record.expires < new Date()) {
+    throw new AuthError("Password reset link is invalid or has expired.", 400, "EXPIRED_TOKEN");
+  }
+
+  const email = record.identifier.replace(/^reset:/, "");
+  const user = await prisma.user.findUnique({
+    where: { email },
+  });
+
+  if (!user) {
+    throw new AuthError("User associated with this reset link not found.", 404, "USER_NOT_FOUND");
+  }
+
+  const newHash = await bcrypt.hash(String(newPassword), BCRYPT_SALT_ROUNDS);
+
+  // Atomic password update + revoke all prior sessions + consume token
+  await prisma.$transaction([
+    prisma.user.update({
+      where: { id: user.id },
+      data: { password: newHash },
+    }),
+    prisma.verificationToken.deleteMany({
+      where: { identifier: record.identifier },
+    }),
+  ]);
+
+  await revokeAllUserSessions(user.id);
+
+  const ipAddress =
+    req?.headers?.["x-forwarded-for"]?.split(",")[0]?.trim() ||
+    req?.socket?.remoteAddress ||
+    "127.0.0.1";
+
+  prisma.securityLog
+    .create({
+      data: {
+        userId: user.id,
+        eventType: "password_reset_completed",
+        ipAddress,
+        userAgent: req?.headers?.["user-agent"] || "Web Client",
+      },
+    })
+    .catch(() => {});
+
+  return {
+    message: "Password has been successfully reset. Please sign in with your new password.",
+  };
+}
+
 module.exports = {
   signup,
   signin,
@@ -340,5 +456,7 @@ module.exports = {
   logout,
   logoutAll,
   changePassword,
+  forgotPassword,
+  resetPassword,
   AuthError,
 };

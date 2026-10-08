@@ -7,6 +7,8 @@ const {
   validateSignup,
   validateSignin,
   validateChangePassword,
+  validateForgotPassword,
+  validateResetPassword,
 } = require("../validators/auth.validator");
 
 const router = Router();
@@ -37,6 +39,22 @@ router.post(
   authRateLimiter,
   validate(validateSignin),
   authController.signin,
+);
+
+// POST /api/auth/forgot-password - Dispatch password reset token
+router.post(
+  "/forgot-password",
+  authRateLimiter,
+  validate(validateForgotPassword),
+  authController.forgotPassword,
+);
+
+// POST /api/auth/reset-password - Reset password using verified token
+router.post(
+  "/reset-password",
+  authRateLimiter,
+  validate(validateResetPassword),
+  authController.resetPassword,
 );
 
 // GET /api/auth/me - Retrieve current session and user context

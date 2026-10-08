@@ -129,9 +129,65 @@ function validateChangePassword(data = {}) {
   };
 }
 
+function validateForgotPassword(data = {}) {
+  const errors = [];
+  const { email } = data;
+
+  if (!email || typeof email !== "string") {
+    errors.push("Email address is required.");
+  } else {
+    const normalized = normalizeEmail(email);
+    if (!EMAIL_REGEX.test(normalized)) {
+      errors.push("Please provide a valid email address.");
+    }
+  }
+
+  return {
+    isValid: errors.length === 0,
+    errors,
+    sanitized: {
+      email: normalizeEmail(email),
+    },
+  };
+}
+
+function validateResetPassword(data = {}) {
+  const errors = [];
+  const { token, newPassword, confirmPassword } = data;
+
+  if (!token || typeof token !== "string" || !token.trim()) {
+    errors.push("Password reset token is required.");
+  }
+
+  if (!newPassword || typeof newPassword !== "string") {
+    errors.push("New password is required.");
+  } else {
+    if (newPassword.length < 8) {
+      errors.push("New password must be at least 8 characters long.");
+    } else if (newPassword.length > 128) {
+      errors.push("New password must not exceed 128 characters.");
+    }
+  }
+
+  if (confirmPassword !== undefined && newPassword !== confirmPassword) {
+    errors.push("Passwords do not match.");
+  }
+
+  return {
+    isValid: errors.length === 0,
+    errors,
+    sanitized: {
+      token: token ? String(token).trim() : "",
+      newPassword: typeof newPassword === "string" ? newPassword : "",
+    },
+  };
+}
+
 module.exports = {
   validateSignup,
   validateSignin,
   validateChangePassword,
+  validateForgotPassword,
+  validateResetPassword,
   normalizeEmail,
 };

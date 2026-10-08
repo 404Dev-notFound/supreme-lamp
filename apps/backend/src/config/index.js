@@ -3,6 +3,23 @@ const dotenv = require("dotenv");
 // Load .env variables
 dotenv.config();
 
+const INSECURE_DEFAULT_SECRETS = [
+  "super-secret-key-please-change_yes-sir-i-have-changed-it",
+  "super-secret-refresh-key-please-change",
+  "915b693d6ec72978dff75123dc5380fa57818c203cc7a1676d79aee95818235eb50d1d5c65db85e60d9954ee6c2eddb8",
+];
+
+const resolvedJwtSecret = process.env.JWT_SECRET || process.env.NEXTAUTH_SECRET;
+const resolvedRefreshSecret = process.env.JWT_REFRESH_SECRET;
+
+if (process.env.NODE_ENV === "production") {
+  if (!resolvedJwtSecret || INSECURE_DEFAULT_SECRETS.includes(resolvedJwtSecret)) {
+    throw new Error(
+      "FATAL SECURITY CONFIGURATION: In production, JWT_SECRET / NEXTAUTH_SECRET must be set to a strong, uncommitted secret value.",
+    );
+  }
+}
+
 const config = {
   env: process.env.NODE_ENV || "development",
   isProduction: process.env.NODE_ENV === "production",
@@ -17,11 +34,10 @@ const config = {
 
   jwt: {
     secret:
-      process.env.JWT_SECRET ||
-      process.env.NEXTAUTH_SECRET ||
+      resolvedJwtSecret ||
       "super-secret-key-please-change_yes-sir-i-have-changed-it",
     refreshSecret:
-      process.env.JWT_REFRESH_SECRET ||
+      resolvedRefreshSecret ||
       "super-secret-refresh-key-please-change",
     expiresIn: "15m",
     refreshExpiresIn: "30d",

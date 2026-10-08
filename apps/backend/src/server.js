@@ -1,7 +1,14 @@
+const http = require("http");
 const { app } = require("./app");
 const config = require("./config");
+const { initSocket } = require("./realtime/socket");
 
-const server = app.listen(config.port, () => {
+const server = http.createServer(app);
+
+// Initialize real-time Socket.IO server
+initSocket(server);
+
+server.listen(config.port, () => {
   console.log(`Server is running on port ${config.port}`);
 });
 

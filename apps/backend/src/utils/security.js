@@ -256,7 +256,7 @@ function validateProfileUpdate(body) {
 
   for (const { key, label } of urlFields) {
     if (sanitized[key]) {
-      const urlCheck = validateUrl(sanitized[key], label);
+      const urlCheck = validateUrl(sanitized[key], label, { allowPrivate: false });
       if (!urlCheck.isValid) {
         errors.push(urlCheck.error);
       } else {

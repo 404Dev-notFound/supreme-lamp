@@ -78,6 +78,11 @@ model User {
   createdIssues   Issue[]          @relation("IssueCreator")
   assignedIssues  Issue[]          @relation("IssueAssignee")
 
+  // Notifications & Progress
+  notifications   Notification[]
+  roadmapProgress UserRoadmapProgress[]
+  auditLogs       AuditLog[]
+
   @@index([email])
   @@index([role])
 }
@@ -312,6 +317,7 @@ model Resume {
   fileName  String
   fileSize  Int
   fileUrl   String?
+  storageKey String?
   mimeType  String   @default("application/pdf")
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
@@ -357,6 +363,7 @@ model Company {
   website     String?
   location    String?
   description String?  @db.Text
+  isVerified  Boolean  @default(false)
   createdAt   DateTime @default(now())
   updatedAt   DateTime @updatedAt
 
@@ -375,6 +382,7 @@ model Job {
   description String?   @db.Text
   applyUrl    String?
   isFeatured  Boolean   @default(false)
+  isActive    Boolean   @default(true)
   createdAt   DateTime  @default(now())
   updatedAt   DateTime  @updatedAt
 
@@ -534,5 +542,65 @@ model Issue {
   @@index([assigneeId])
   @@index([status])
   @@index([priority])
+}
+
+// ==========================================
+// 8. NOTIFICATIONS & AUDITING
+// ==========================================
+
+model Notification {
+  id        String    @id @default(cuid())
+  userId    String
+  title     String
+  message   String    @db.Text
+  type      String    @default("info") // info, success, warning, alert, project, job
+  link      String?
+  read      Boolean   @default(false)
+  readAt    DateTime?
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@index([read])
+  @@index([createdAt])
+}
+
+model UserRoadmapProgress {
+  id              String   @id @default(cuid())
+  userId          String
+  roadmapSlug     String
+  completedTopics String[]
+  currentTopic    String?
+  progressPercent Int      @default(0)
+  lastActivityAt  DateTime @default(now())
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, roadmapSlug])
+  @@index([userId])
+  @@index([roadmapSlug])
+}
+
+model AuditLog {
+  id         String   @id @default(cuid())
+  userId     String?
+  action     String
+  targetType String
+  targetId   String?
+  ipAddress  String?
+  userAgent  String?
+  details    Json?
+  createdAt  DateTime @default(now())
+
+  user User? @relation(fields: [userId], references: [id], onDelete: SetNull)
+
+  @@index([userId])
+  @@index([action])
+  @@index([targetType])
+  @@index([createdAt])
 }
 

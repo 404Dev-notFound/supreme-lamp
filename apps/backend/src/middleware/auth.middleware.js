@@ -45,7 +45,9 @@ const requireAuth = async (req, res, next) => {
     if (authHeader && authHeader.startsWith("Bearer ")) {
       const token = authHeader.split(" ")[1];
       try {
-        const decoded = jwt.verify(token, config.jwt.secret);
+        const decoded = jwt.verify(token, config.jwt.secret, {
+          algorithms: ["HS256"],
+        });
         const userId = decoded.id || decoded.sub || decoded.userId;
 
         if (userId) {
@@ -142,7 +144,9 @@ const optionalAuth = async (req, res, next) => {
     if (authHeader && authHeader.startsWith("Bearer ")) {
       const token = authHeader.split(" ")[1];
       try {
-        const decoded = jwt.verify(token, config.jwt.secret);
+        const decoded = jwt.verify(token, config.jwt.secret, {
+          algorithms: ["HS256"],
+        });
         const userId = decoded.id || decoded.sub || decoded.userId;
 
         if (userId) {

@@ -1,7 +1,9 @@
 const { Router } = require("express");
+const multer = require("multer");
 const { prisma } = require("../db");
 const { requireAuth } = require("../middleware/auth.middleware");
 const { userMutationRateLimiter } = require("../middleware/rateLimit.middleware");
+const storageService = require("../services/storage.service");
 const {
   validateProfileUpdate,
   sanitizeSelfProfile,
@@ -11,6 +13,18 @@ const {
 
 const router = Router();
 const SAFE_ID_REGEX = /^[a-zA-Z0-9_-]{1,128}$/;
+
+const avatarUpload = multer({
+  storage: multer.memoryStorage(),
+  limits: { fileSize: 4 * 1024 * 1024 }, // 4MB
+  fileFilter: (req, file, cb) => {
+    if (["image/png", "image/jpeg", "image/webp"].includes(file.mimetype)) {
+      cb(null, true);
+    } else {
+      cb(new Error("Only PNG, JPEG, and WebP image files are allowed for avatars."), false);
+    }
+  },
+});
 
 // GET /api/users/profile - Get authenticated user's full profile
 router.get("/profile", requireAuth, async (req, res, next) => {
@@ -349,6 +363,96 @@ router.get("/:id", async (req, res, next) => {
       success: true,
       data: sanitizePublicProfile(targetUser),
     });
+  } catch (error) {
+    next(error);
+  }
+});
+
+// POST /api/users/avatar - Upload and persist user avatar image
+router.post(
+  "/avatar",
+  requireAuth,
+  userMutationRateLimiter,
+  avatarUpload.single("avatar"),
+  async (req, res, next) => {
+    try {
+      if (!req.file) {
+        return res.status(400).json({
+          success: false,
+          code: "NO_FILE_UPLOADED",
+          error: "Please provide an image file (PNG, JPEG, or WebP).",
+        });
+      }
+
+      const userId = req.user.id;
+      const stored = await storageService.storeFile({
+        buffer: req.file.buffer,
+        originalFilename: req.file.originalname,
+        mimeType: req.file.mimetype,
+        category: "avatar",
+      });
+
+      const avatarEndpointUrl = `/api/users/avatar/${path.basename(stored.storageKey)}`;
+
+      await prisma.$transaction([
+        prisma.user.update({
+          where: { id: userId },
+          data: { image: avatarEndpointUrl },
+        }),
+        prisma.userProfile.upsert({
+          where: { userId },
+          create: { userId, avatarUrl: avatarEndpointUrl },
+          update: { avatarUrl: avatarEndpointUrl },
+        }),
+      ]);
+
+      return res.status(200).json({
+        success: true,
+        message: "Avatar uploaded successfully.",
+        data: {
+          avatarUrl: avatarEndpointUrl,
+        },
+      });
+    } catch (error) {
+      next(error);
+    }
+  },
+);
+
+// GET /api/users/avatar/:avatarId - Stream avatar image with strict path validation
+router.get("/avatar/:avatarId", async (req, res, next) => {
+  try {
+    const { avatarId } = req.params;
+    if (!avatarId || !SAFE_ID_REGEX.test(avatarId.replace(/\.[^.]+$/, ""))) {
+      return res.status(400).json({
+        success: false,
+        code: "INVALID_IDENTIFIER",
+        error: "Invalid avatar identifier.",
+      });
+    }
+
+    const storageKey = `avatar/${avatarId}`;
+    if (!storageService.fileExists(storageKey)) {
+      return res.status(404).json({
+        success: false,
+        code: "AVATAR_NOT_FOUND",
+        error: "Avatar not found.",
+      });
+    }
+
+    const ext = path.extname(avatarId).toLowerCase();
+    const mimeMap = {
+      ".png": "image/png",
+      ".jpg": "image/jpeg",
+      ".jpeg": "image/jpeg",
+      ".webp": "image/webp",
+    };
+
+    res.setHeader("Content-Type", mimeMap[ext] || "application/octet-stream");
+    res.setHeader("Cache-Control", "public, max-age=86400, s-maxage=604800");
+
+    const stream = storageService.getReadStream(storageKey);
+    stream.pipe(res);
   } catch (error) {
     next(error);
   }
