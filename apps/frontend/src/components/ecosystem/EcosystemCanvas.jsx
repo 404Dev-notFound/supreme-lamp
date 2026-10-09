@@ -10,11 +10,15 @@ import {
   ZoomIn,
   ZoomOut,
   RotateCcw,
+  Sparkles,
+  Compass,
+  Layers,
 } from "lucide-react";
 import {
   ECOSYSTEM_PROJECTS,
   ECOSYSTEM_CONNECTIONS,
 } from "../../lib/ecosystemData";
+import RoadmapCanvasView from "../roadmap/RoadmapCanvasView";
 
 const PROJECT_ICONS = {
   flowctrl: Cpu,
@@ -24,7 +28,16 @@ const PROJECT_ICONS = {
   "resume-screener": FileCheck,
 };
 
-export default function EcosystemCanvas({ activeProjectId, onSelectProject }) {
+export default function EcosystemCanvas({
+  activeProjectId,
+  onSelectProject,
+  viewMode = "roadmap",
+  onViewModeChange,
+  roadmapData = null,
+  activeStepId = null,
+  onSelectStep = () => {},
+  stepProgress = {},
+}) {
   const containerRef = useRef(null);
 
   // Pan & Zoom state
@@ -35,22 +48,27 @@ export default function EcosystemCanvas({ activeProjectId, onSelectProject }) {
   const [hoveredProjectId, setHoveredProjectId] = useState(null);
   const [hoveredConnId, setHoveredConnId] = useState(null);
 
-  // Auto-center canvas on mount
+  // Auto-center canvas on mount or view mode change
   useEffect(() => {
     if (containerRef.current) {
       const { clientWidth, clientHeight } = containerRef.current;
-      // Virtual canvas coordinates: width 1100, height 760. Center is (550, 380).
-      const initialScale = Math.min(
-        Math.max(clientWidth / 1200, 0.65),
-        1.05
-      );
-      setScale(initialScale);
-      setPan({
-        x: (clientWidth - 1100 * initialScale) / 2,
-        y: (clientHeight - 760 * initialScale) / 2,
-      });
+      if (viewMode === "roadmap") {
+        setScale(0.85);
+        setPan({ x: 30, y: 30 });
+      } else {
+        // Virtual canvas coordinates: width 1100, height 760. Center is (550, 380).
+        const initialScale = Math.min(
+          Math.max(clientWidth / 1200, 0.65),
+          1.05
+        );
+        setScale(initialScale);
+        setPan({
+          x: (clientWidth - 1100 * initialScale) / 2,
+          y: (clientHeight - 760 * initialScale) / 2,
+        });
+      }
     }
-  }, []);
+  }, [viewMode, roadmapData?.id]);
 
   // Quick lookup map
   const projectMap = useMemo(() => {
@@ -86,15 +104,20 @@ export default function EcosystemCanvas({ activeProjectId, onSelectProject }) {
   const handleResetZoom = () => {
     if (containerRef.current) {
       const { clientWidth, clientHeight } = containerRef.current;
-      const initialScale = Math.min(
-        Math.max(clientWidth / 1200, 0.65),
-        1.05
-      );
-      setScale(initialScale);
-      setPan({
-        x: (clientWidth - 1100 * initialScale) / 2,
-        y: (clientHeight - 760 * initialScale) / 2,
-      });
+      if (viewMode === "roadmap") {
+        setScale(0.85);
+        setPan({ x: 30, y: 30 });
+      } else {
+        const initialScale = Math.min(
+          Math.max(clientWidth / 1200, 0.65),
+          1.05
+        );
+        setScale(initialScale);
+        setPan({
+          x: (clientWidth - 1100 * initialScale) / 2,
+          y: (clientHeight - 760 * initialScale) / 2,
+        });
+      }
     }
   };
 
@@ -137,20 +160,49 @@ export default function EcosystemCanvas({ activeProjectId, onSelectProject }) {
           }}
         />
 
-        {/* HUD Sub-system Watermarks */}
-        <div className="absolute top-4 left-4 font-mono text-[10px] text-zinc-500 flex items-center gap-2">
-          <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-          <span>FLOWCTRL_ECOSYSTEM: 5_NODES_SYMMETRICAL</span>
-        </div>
-
-        <div className="absolute top-4 right-4 font-mono text-[10px] text-zinc-500 hidden sm:flex items-center gap-2">
-          <span>CENTER_COORDINATES: [550, 380]</span>
-          <span className="text-zinc-600">|</span>
-          <span className="text-orange-400 font-bold">ROBOTIC_CORE: ACTIVE</span>
-        </div>
-
         <div className="absolute bottom-4 left-4 font-mono text-[10px] text-zinc-600 hidden md:block">
           [DRAG TO PAN] • [SCROLL TO ZOOM] • [CLICK NODE TO FOCUS]
+        </div>
+      </div>
+
+      {/* Top HUD Bar with Mode Switcher & Subsystem Tag */}
+      <div className="absolute top-4 left-4 right-4 z-40 flex items-center justify-between pointer-events-none">
+        {/* Left Subsystem Tag */}
+        <div className="font-mono text-[10px] text-zinc-400 flex items-center gap-2 bg-zinc-950/80 px-3 py-1.5 rounded-xl border border-white/10 backdrop-blur-md pointer-events-auto shadow-lg">
+          <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+          <span>
+            {viewMode === "roadmap"
+              ? "FLOWCTRL_RAG: INTERACTIVE_CAREER_ROADMAP"
+              : "FLOWCTRL_ECOSYSTEM: 5_NODES_SYMMETRICAL"}
+          </span>
+        </div>
+
+        {/* Right Mode Switcher */}
+        <div className="flex items-center gap-1 p-1 rounded-xl bg-zinc-950/90 border border-white/15 backdrop-blur-md shadow-2xl pointer-events-auto">
+          <button
+            type="button"
+            onClick={() => onViewModeChange && onViewModeChange("roadmap")}
+            className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold transition-all cursor-pointer ${
+              viewMode === "roadmap"
+                ? "bg-gradient-to-r from-orange-500 to-amber-500 text-white shadow-md shadow-orange-500/25"
+                : "text-zinc-400 hover:text-white hover:bg-white/5"
+            }`}
+          >
+            <Sparkles className="w-3.5 h-3.5 text-amber-200" />
+            <span>AI Roadmap</span>
+          </button>
+          <button
+            type="button"
+            onClick={() => onViewModeChange && onViewModeChange("ecosystem")}
+            className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold transition-all cursor-pointer ${
+              viewMode === "ecosystem"
+                ? "bg-gradient-to-r from-orange-500 to-amber-500 text-white shadow-md shadow-orange-500/25"
+                : "text-zinc-400 hover:text-white hover:bg-white/5"
+            }`}
+          >
+            <Compass className="w-3.5 h-3.5" />
+            <span>5-Project Ecosystem</span>
+          </button>
         </div>
       </div>
 
@@ -161,11 +213,23 @@ export default function EcosystemCanvas({ activeProjectId, onSelectProject }) {
           transform: `translate(${pan.x}px, ${pan.y}px) scale(${scale})`,
         }}
       >
-        {/* SVG Animated Connections Layer */}
-        <svg
-          className="absolute inset-0 w-[1100px] h-[760px] pointer-events-none overflow-visible"
-          viewBox="0 0 1100 760"
-        >
+        {viewMode === "roadmap" ? (
+          <RoadmapCanvasView
+            roadmapData={roadmapData}
+            activeStepId={activeStepId}
+            onSelectStep={onSelectStep}
+            stepProgress={stepProgress}
+            onSwitchToEcosystem={() =>
+              onViewModeChange && onViewModeChange("ecosystem")
+            }
+          />
+        ) : (
+          <>
+            {/* SVG Animated Connections Layer */}
+            <svg
+              className="absolute inset-0 w-[1100px] h-[760px] pointer-events-none overflow-visible"
+              viewBox="0 0 1100 760"
+            >
           <defs>
             {/* Glowing filter */}
             <filter id="neon-trace-glow" x="-20%" y="-20%" width="140%" height="140%">
@@ -506,7 +570,9 @@ export default function EcosystemCanvas({ activeProjectId, onSelectProject }) {
             </div>
           );
         })}
-      </div>
+        </>
+      )}
+    </div>
 
       {/* Minimal Unobtrusive Zoom Controls */}
       <div className="absolute bottom-4 right-4 z-30 flex items-center gap-1 p-1 rounded-xl bg-zinc-950/80 border border-white/10 glass shadow-lg">

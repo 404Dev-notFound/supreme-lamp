@@ -10,6 +10,7 @@ from .schemas import (
     RecommendationResponse,
     QueryResultItem,
     QueryResponse,
+    PersonalizedRoadmapResponse,
 )
 from .embeddings import get_embeddings_model
 from .vector_store import JSONVectorStore
@@ -17,6 +18,7 @@ from .document_processor import DocumentProcessor
 from .retriever import FlowCTRLRetriever
 from .skill_analyzer import SkillGapAnalyzer
 from .generator import RoadmapGenerator
+from .roadmap_catalog import RoadmapCatalog
 
 class RAGPipeline:
     """
@@ -25,6 +27,7 @@ class RAGPipeline:
     - Skill Gap Analysis
     - Hybrid Retrieval
     - Grounded Generation
+    - Full 92+ Roadmap Catalog Search & Course Retrieval
     """
     def __init__(self):
         self.embeddings = get_embeddings_model()
@@ -38,6 +41,7 @@ class RAGPipeline:
         )
         self.skill_analyzer = SkillGapAnalyzer()
         self.generator = RoadmapGenerator()
+        self.catalog = RoadmapCatalog()
 
         # Load existing index or build from documents
         self.initialize_index()
@@ -159,3 +163,15 @@ class RAGPipeline:
             ))
 
         return QueryResponse(query=query, results=items, count=len(items))
+
+    def generate_roadmap_from_query(
+        self,
+        query: str,
+        experience_level: str = "Beginner",
+        goals: Optional[List[str]] = None,
+    ) -> PersonalizedRoadmapResponse:
+        return self.catalog.generate_personalized_roadmap(
+            query=query,
+            experience_level=experience_level,
+            goals=goals,
+        )

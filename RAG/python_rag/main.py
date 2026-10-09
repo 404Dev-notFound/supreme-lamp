@@ -9,6 +9,8 @@ from .schemas import (
     SkillAssessmentRequest,
     SkillAssessmentResponse,
     RoadmapResponse,
+    RoadmapQueryRequest,
+    PersonalizedRoadmapResponse,
     RecommendationRequest,
     RecommendationResponse,
     QueryRequest,
@@ -100,6 +102,27 @@ async def generate_roadmap(profile: UserProfile):
         raise HTTPException(
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
             detail=f"Roadmap generation failed: {str(e)}",
+        )
+
+@app.post("/api/rag/generate-roadmap", response_model=PersonalizedRoadmapResponse)
+async def generate_personalized_roadmap(req: RoadmapQueryRequest):
+    try:
+        if not req.query or not req.query.strip():
+            raise HTTPException(
+                status_code=status.HTTP_400_BAD_REQUEST,
+                detail="query cannot be empty. Describe what you want to learn or become.",
+            )
+        return rag_pipeline.generate_roadmap_from_query(
+            query=req.query.strip(),
+            experience_level=req.experienceLevel or "Beginner",
+            goals=req.goals or [],
+        )
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=f"Personalized roadmap generation failed: {str(e)}",
         )
 
 @app.post("/api/rag/recommendations", response_model=RecommendationResponse)

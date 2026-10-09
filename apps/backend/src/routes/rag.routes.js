@@ -1,32 +1,40 @@
 const { Router } = require("express");
 const ragController = require("../controllers/rag.controller");
-const { requireAuth } = require("../middleware/auth.middleware");
+const { requireAuth, optionalAuth } = require("../middleware/auth.middleware");
 
 const router = Router();
 
-// All RAG routes strictly require authenticated sessions (never trust client IDs)
+// 1. Natural Language Roadmap Generation from Search Bar (Open to both guests & authenticated users)
+router.post("/generate-roadmap", optionalAuth, ragController.generateRoadmapFromQuery);
+
+// 2. Step progress update (persists for authenticated users, responds gracefully for guests)
+router.post("/progress/step", optionalAuth, ragController.updateStepStatus);
+
+// 3. Generation endpoint with optionalAuth (if body contains query or profile)
+router.post("/generate", optionalAuth, ragController.generateRoadmap);
+
+// All subsequent RAG profile & dashboard routes require authenticated sessions
 router.use(requireAuth);
 
-// 1. Career Goal Questionnaire & Profile
+// 4. Career Goal Questionnaire & Profile
 router.get("/profile", ragController.getProfile);
 router.post("/profile", ragController.saveProfile);
 
-// 2. User Skill Assessment & Gaps
+// 5. User Skill Assessment & Gaps
 router.post("/skill-assessment", ragController.assessSkills);
 router.get("/skill-gaps", ragController.getSkillGaps);
 
-// 3. Personalized Roadmap Generation & Retrieval
-router.post("/generate", ragController.generateRoadmap);
+// 6. Active Roadmap Retrieval
 router.get("/roadmap", ragController.getRoadmap);
 
-// 4. Adaptive Dynamic Recommendations
+// 7. Adaptive Dynamic Recommendations
 router.get("/recommendations", ragController.getRecommendations);
 router.post("/recommendations/refresh", ragController.getRecommendations);
 
-// 5. Progress Tracking & Topic Progress Toggle
+// 8. Progress Tracking & Topic Progress Toggle
 router.post("/progress/toggle", ragController.toggleTopicProgress);
 
-// 6. Mission Control / Dashboard Progress Integration
+// 9. Mission Control / Dashboard Progress Integration
 router.get("/dashboard", ragController.getDashboard);
 
 module.exports = { ragRouter: router };

@@ -34,6 +34,7 @@ async function getUserRagData(userId) {
         profile: cs.ragProfile || cs.profile || mem.profile || null,
         activeRoadmap: cs.ragActiveRoadmap || cs.activeRoadmap || mem.activeRoadmap || null,
         completedTopics: cs.ragCompletedTopics || cs.completedTopics || mem.completedTopics || [],
+        stepProgress: cs.ragStepProgress || cs.stepProgress || mem.stepProgress || {},
       };
     }
   } catch (err) {
@@ -45,6 +46,7 @@ async function getUserRagData(userId) {
     profile: mem.profile || null,
     activeRoadmap: mem.activeRoadmap || null,
     completedTopics: mem.completedTopics || [],
+    stepProgress: mem.stepProgress || {},
   };
 }
 
@@ -57,6 +59,7 @@ async function updateUserRagData(userId, updates = {}) {
     profile: updates.ragProfile !== undefined ? updates.ragProfile : (updates.profile !== undefined ? updates.profile : current.profile),
     activeRoadmap: updates.ragActiveRoadmap !== undefined ? updates.ragActiveRoadmap : (updates.activeRoadmap !== undefined ? updates.activeRoadmap : current.activeRoadmap),
     completedTopics: updates.ragCompletedTopics !== undefined ? updates.ragCompletedTopics : (updates.completedTopics !== undefined ? updates.completedTopics : current.completedTopics),
+    stepProgress: updates.ragStepProgress !== undefined ? updates.ragStepProgress : (updates.stepProgress !== undefined ? updates.stepProgress : current.stepProgress),
   };
   ragMemoryCache.set(userId, nextData);
 
@@ -74,6 +77,7 @@ async function updateUserRagData(userId, updates = {}) {
       ragProfile: nextData.profile,
       ragActiveRoadmap: nextData.activeRoadmap,
       ragCompletedTopics: nextData.completedTopics,
+      ragStepProgress: nextData.stepProgress,
     };
 
     await prisma.userPreference.upsert({
@@ -197,13 +201,131 @@ async function assessSkills(req, res, next) {
 }
 
 /**
+ * 4. POST /api/rag/generate-roadmap - Generate personalized roadmap from natural language query
+ */
+async function generateRoadmapFromQuery(req, res, next) {
+  try {
+    const { query, experienceLevel, goals } = req.body || {};
+    if (!query || typeof query !== "string" || !query.trim()) {
+      return errorResponse(res, {
+        statusCode: 400,
+        message: "Please enter a valid career goal, skill, or learning objective.",
+        req,
+      });
+    }
+
+    const payload = {
+      query: query.trim(),
+      experienceLevel: experienceLevel || "Beginner",
+      goals: Array.isArray(goals) ? goals : [],
+    };
+
+    // Forward to Python LangChain RAG microservice
+    let roadmap = await callPythonRAG("/api/rag/generate-roadmap", payload);
+
+    if (!roadmap) {
+      // Fallback: If python microservice temporarily unavailable, use JS roadmapGenerator
+      const mockProfile = {
+        targetRole: query.trim(),
+        experienceLevel: experienceLevel || "Beginner",
+        careerGoals: goals || [],
+      };
+      roadmap = await roadmapGenerator.generateRoadmap(mockProfile);
+    }
+
+    // Persist for authenticated user if session exists
+    if (req.user && req.user.id) {
+      await updateUserRagData(req.user.id, {
+        ragActiveRoadmap: roadmap,
+      });
+    }
+
+    return successResponse(res, {
+      data: roadmap,
+      message: "Personalized roadmap generated successfully.",
+      statusCode: 200,
+      req,
+    });
+  } catch (err) {
+    next(err);
+  }
+}
+
+/**
+ * POST /api/rag/progress/step - Update status of a specific roadmap step (not_started, in_progress, completed)
+ */
+async function updateStepStatus(req, res, next) {
+  try {
+    const { stepId, status, roadmapId } = req.body || {};
+    if (!stepId || !status) {
+      return errorResponse(res, {
+        statusCode: 400,
+        message: "stepId and status are required.",
+        req,
+      });
+    }
+
+    const validStatuses = ["not_started", "in_progress", "completed"];
+    if (!validStatuses.includes(status)) {
+      return errorResponse(res, {
+        statusCode: 400,
+        message: `Invalid status. Must be one of: ${validStatuses.join(", ")}`,
+        req,
+      });
+    }
+
+    if (req.user && req.user.id) {
+      const data = await getUserRagData(req.user.id);
+      const currentProgress = { ...(data.stepProgress || {}) };
+      currentProgress[stepId] = status;
+
+      let completedTopics = [...(data.completedTopics || [])];
+      if (status === "completed" && !completedTopics.includes(stepId)) {
+        completedTopics.push(stepId);
+      } else if (status !== "completed") {
+        completedTopics = completedTopics.filter((id) => id !== stepId);
+      }
+
+      await updateUserRagData(req.user.id, {
+        ragStepProgress: currentProgress,
+        ragCompletedTopics: completedTopics,
+      });
+
+      return successResponse(res, {
+        data: {
+          stepId,
+          status,
+          completedCount: completedTopics.length,
+          stepProgress: currentProgress,
+        },
+        message: "Step progress saved to account.",
+        req,
+      });
+    }
+
+    return successResponse(res, {
+      data: { stepId, status },
+      message: "Step progress updated.",
+      req,
+    });
+  } catch (err) {
+    next(err);
+  }
+}
+
+/**
  * 4. POST /api/rag/generate - Generate personalized RAG learning roadmap
  */
 async function generateRoadmap(req, res, next) {
   try {
-    const { profile: savedProfile } = await getUserRagData(req.user.id);
+    // If request body specifies a natural language query, delegate to generateRoadmapFromQuery
+    if (req.body && req.body.query) {
+      return generateRoadmapFromQuery(req, res, next);
+    }
+
+    const { profile: savedProfile } = req.user?.id ? await getUserRagData(req.user.id) : {};
     const profile = req.body && req.body.targetRole
-      ? UserProfileMapper.mapProfile({ ...req.body, userId: req.user.id })
+      ? UserProfileMapper.mapProfile({ ...req.body, userId: req.user?.id })
       : savedProfile;
 
     if (!profile) {
@@ -219,33 +341,35 @@ async function generateRoadmap(req, res, next) {
     const roadmap = pyRoadmap || await roadmapGenerator.generateRoadmap(profile);
 
     // Persist active roadmap for authenticated user
-    await updateUserRagData(req.user.id, {
-      ragActiveRoadmap: roadmap,
-      ragProfile: profile,
-    });
+    if (req.user?.id) {
+      await updateUserRagData(req.user.id, {
+        ragActiveRoadmap: roadmap,
+        ragProfile: profile,
+      });
 
-    // Also attempt synchronization into Prisma userRoadmapProgress
-    try {
-      await prisma.userRoadmapProgress.upsert({
-        where: {
-          userId_roadmapSlug: {
+      // Also attempt synchronization into Prisma userRoadmapProgress
+      try {
+        await prisma.userRoadmapProgress.upsert({
+          where: {
+            userId_roadmapSlug: {
+              userId: req.user.id,
+              roadmapSlug: roadmap.id || `roadmap_${roadmap.targetRole || "career"}`,
+            },
+          },
+          create: {
             userId: req.user.id,
             roadmapSlug: roadmap.id || `roadmap_${roadmap.targetRole || "career"}`,
+            completedTopics: [],
+            progressPercent: 0,
+            lastActivityAt: new Date(),
           },
-        },
-        create: {
-          userId: req.user.id,
-          roadmapSlug: roadmap.id || `roadmap_${roadmap.targetRole || "career"}`,
-          completedTopics: [],
-          progressPercent: 0,
-          lastActivityAt: new Date(),
-        },
-        update: {
-          lastActivityAt: new Date(),
-        },
-      });
-    } catch (dbErr) {
-      // Ignored for unseeded test users
+          update: {
+            lastActivityAt: new Date(),
+          },
+        });
+      } catch (dbErr) {
+        // Ignored for unseeded test users
+      }
     }
 
     return successResponse(res, {
@@ -448,6 +572,8 @@ module.exports = {
   saveProfile,
   assessSkills,
   generateRoadmap,
+  generateRoadmapFromQuery,
+  updateStepStatus,
   getRoadmap,
   getRecommendations,
   toggleTopicProgress,

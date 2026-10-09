@@ -120,7 +120,11 @@ async function request(endpoint, options = {}) {
 
   // Resolve target URL: send /api/ requests to backend URL if not absolute
   let targetUrl = endpoint;
-  if (endpoint.startsWith("/api/auth") || endpoint.startsWith("/api/roadmaps")) {
+  if (
+    endpoint.startsWith("/api/auth") ||
+    endpoint.startsWith("/api/roadmaps") ||
+    endpoint.startsWith("/api/rag")
+  ) {
     targetUrl = `${BACKEND_URL}${endpoint}`;
   }
 
@@ -207,6 +211,15 @@ export const api = {
       const q = new URLSearchParams(params).toString();
       return api.get(`/api/job-matcher${q ? `?${q}` : ""}`);
     },
+  },
+
+  // Centralized RAG Career Roadmap API Methods
+  rag: {
+    generateRoadmap: (queryData) => api.post("/api/rag/generate-roadmap", queryData),
+    updateStepProgress: (progressData) => api.post("/api/rag/progress/step", progressData),
+    getProfile: () => api.get("/api/rag/profile"),
+    getRoadmap: () => api.get("/api/rag/roadmap"),
+    getRecommendations: () => api.get("/api/rag/recommendations"),
   },
 };
 

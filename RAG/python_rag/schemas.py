@@ -63,6 +63,47 @@ class RoadmapResponse(BaseModel):
     stages: List[RoadmapStage]
     provenance: Optional[Dict[str, Any]] = None
 
+# New Comprehensive Roadmap Query & Step Models
+class RoadmapQueryRequest(BaseModel):
+    query: str = Field(..., description="Natural language search query for career goal, skill or technology")
+    experienceLevel: Optional[str] = Field("Beginner", description="Beginner | Intermediate | Advanced")
+    goals: Optional[List[str]] = Field(default_factory=list, description="Optional specific goals or target skills")
+
+class RoadmapStep(BaseModel):
+    id: str
+    topic: str
+    stageName: str
+    stageIndex: int
+    stepIndex: int
+    whyItMatters: str
+    whatYouWillLearn: str
+    prerequisites: List[str] = Field(default_factory=list)
+    difficulty: str = "Beginner"
+    estimatedEffort: str = "15 hours (1-2 weeks)"
+    recommendedCourses: List[Dict[str, Any]] = Field(default_factory=list)
+    referenceLinks: List[str] = Field(default_factory=list)
+    practicalApplication: str
+    completionCriteria: str
+    nextStep: str
+    status: str = "not_started"
+
+class RoadmapEdge(BaseModel):
+    source: str
+    target: str
+    label: Optional[str] = None
+
+class PersonalizedRoadmapResponse(BaseModel):
+    id: str
+    roadmapTitle: str
+    userGoal: str
+    targetRole: str
+    summary: str
+    estimatedTotalWeeks: int
+    stages: List[Dict[str, Any]]
+    steps: List[RoadmapStep]
+    edges: List[RoadmapEdge]
+    provenance: Dict[str, Any]
+
 class RecommendationItem(BaseModel):
     topic: str
     reason: str
