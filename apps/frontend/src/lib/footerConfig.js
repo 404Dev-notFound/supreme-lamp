@@ -29,6 +29,17 @@ export const ECOSYSTEM_PRODUCTS = [
     officialUrl: "https://flowctrl.dev",
   },
   {
+    name: "Ecosystem Architecture",
+    shortName: "ECO",
+    tagline: "Robotic Architecture Explorer & Project Network",
+    description:
+      "Interactive command-center visualizing all 5 ecosystem projects, RAG memory, and telemetry.",
+    href: "/ecosystem",
+    isExternal: false,
+    badge: "Interactive Hub",
+    officialUrl: "https://flowctrl.dev/ecosystem",
+  },
+  {
     name: "CodeCollab",
     shortName: "CC",
     tagline: "Collaborative Open-Source Development Platform",

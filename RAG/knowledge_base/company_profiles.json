@@ -1,0 +1,112 @@
+[
+  {
+    "companyType": "Product-based company",
+    "description": "Tech companies building their own proprietary software products (e.g. FAANG, Tier-1 tech, Unicorns).",
+    "primaryFocus": ["Data Structures & Algorithms", "System Design & Scalability", "Clean Code Architecture", "High Reliability", "Deep Core Fundamentals"],
+    "interviewStyle": ["Algorithmic coding rounds (LeetCode medium/hard)", "High-level and Low-level System Design", "Behavioral leadership principles"],
+    "roadmapEmphasis": {
+      "priorityTopics": ["System Design", "Concurrency & Multithreading", "Database Internals & Indexing", "Distributed Caching", "API Rate Limiting & Resiliency"],
+      "projectExpectations": "Highly scalable, production-grade applications with load testing, CI/CD, and performance metrics.",
+      "interviewPrepWeight": "High (DSA & System Design rounds are mandatory)"
+    }
+  },
+  {
+    "companyType": "Startup",
+    "description": "Fast-paced, venture-backed or bootstrapped companies building high-velocity MVPs and scaling products.",
+    "primaryFocus": ["Rapid Prototyping", "Full-stack Adaptability", "Autonomous Problem Solving", "Modern Tooling & Frameworks", "Ownership & Product Sense"],
+    "interviewStyle": ["Take-home practical project", "Pair programming on real-world codebases", "Product and culture-fit discussions"],
+    "roadmapEmphasis": {
+      "priorityTopics": ["Full-Stack Frameworks (Next.js/Node.js)", "Rapid Deployment (Docker/Vercel/Supabase)", "Third-party API Integrations (Stripe, OpenAI, Auth)", "Practical Debugging"],
+      "projectExpectations": "End-to-end working software with active users, clean UX, and rapid iteration capabilities.",
+      "interviewPrepWeight": "Medium (Practical technical demonstration over pure theoretical DSA)"
+    }
+  },
+  {
+    "companyType": "Service-based company",
+    "description": "Consultancies and IT services delivering digital transformation, outsourced software, and enterprise client projects.",
+    "primaryFocus": ["Enterprise Tech Stacks (Java Spring, .NET, Angular)", "Agile/Scrum Methodologies", "Client Communication", "Code Maintainability", "Industry Standards"],
+    "interviewStyle": ["Fundamental language assessments", "Framework-specific technical questions", "Scenario-based client communication evaluations"],
+    "roadmapEmphasis": {
+      "priorityTopics": ["Object-Oriented Design (OOP)", "Enterprise Databases (SQL Server/Oracle/Postgres)", "API Standards", "Version Control & Documentation"],
+      "projectExpectations": "Well-documented enterprise CRUD applications following standardized architectural patterns.",
+      "interviewPrepWeight": "Medium (Language fundamentals and enterprise framework trivia)"
+    }
+  },
+  {
+    "companyType": "R&D",
+    "description": "Corporate research and development labs innovating on cutting-edge algorithms, hardware-software integration, and proprietary patents.",
+    "primaryFocus": ["Algorithm Optimization", "Benchmarking & Empirical Measurement", "Low-level Systems Programming", "Patent-grade Novelty", "Applied Mathematics"],
+    "interviewStyle": ["Deep technical domain interviews", "Paper presentations", "Technical problem solving from first principles"],
+    "roadmapEmphasis": {
+      "priorityTopics": ["C++/Rust/Python internals", "Mathematical Modeling", "Performance Profiling & Memory Analysis", "Novel Architecture Evaluation"],
+      "projectExpectations": "Experimental prototypes, benchmark comparison suites, and published technical papers or technical whitepapers.",
+      "interviewPrepWeight": "High (Domain theory and mathematical proof capability)"
+    }
+  },
+  {
+    "companyType": "Research",
+    "description": "Scientific institutions and research laboratories pushing the frontiers of computer science, AI, and computing.",
+    "primaryFocus": ["Theoretical Computer Science", "Mathematical Rigor", "Reproducible Research", "Literature Review", "Empirical Validation"],
+    "interviewStyle": ["Research proposal defense", "Peer-reviewed paper discussions", "Deep theoretical mathematics"],
+    "roadmapEmphasis": {
+      "priorityTopics": ["Discrete Math & Probability", "PyTorch/JAX implementation from scratch", "Statistical Validation", "Research Paper Writing"],
+      "projectExpectations": "Reproductions of state-of-the-art papers with experimental evaluation charts.",
+      "interviewPrepWeight": "High (Theoretical and analytical mastery)"
+    }
+  },
+  {
+    "companyType": "Academia",
+    "description": "Universities and academic departments focusing on teaching, fundamental research, and pedagogical development.",
+    "primaryFocus": ["Pedagogy", "Computer Science Foundations", "Curriculum Design", "Mentorship", "Grants & Publication"],
+    "interviewStyle": ["Teaching demo lectures", "Academic tenure committee interviews", "Research vision talks"],
+    "roadmapEmphasis": {
+      "priorityTopics": ["Foundational Theory of Computation", "Operating Systems & Compilers", "Algorithms & Complexity Theory"],
+      "projectExpectations": "Educational materials, open-source pedagogical software, and academic publications.",
+      "interviewPrepWeight": "High (Academic presentation and pedagogy)"
+    }
+  },
+  {
+    "companyType": "Freelancing",
+    "description": "Independent software contractors, agency specialists, and solo digital service providers.",
+    "primaryFocus": ["Client Project Delivery", "Scope Estimation", "Modern Web/Mobile Frameworks", "Payment Integration", "Communication & Contracts"],
+    "interviewStyle": ["Client proposal pitches", "Portfolio reviews", "Past client testimonials"],
+    "roadmapEmphasis": {
+      "priorityTopics": ["Headless CMS & E-commerce", "Stripe/PayPal billing flows", "SEO & Web Vitals", "Rapid Prototyping", "Freelance Business Operations"],
+      "projectExpectations": "Polished, live client sites or SaaS products with seamless responsive design and active payment gateways.",
+      "interviewPrepWeight": "Low (Portfolio and client conversion over algorithmic interviews)"
+    }
+  },
+  {
+    "companyType": "Open-source",
+    "description": "Foundations, open-core companies, and community projects developing public software infrastructure.",
+    "primaryFocus": ["Public Git Collaboration", "RFC & Design Doc Writing", "Automated Test Suites", "Backward Compatibility", "Community Code Reviews"],
+    "interviewStyle": ["Evaluation of public GitHub contributions", "Open-source PR walkthroughs", "Community consensus discussion"],
+    "roadmapEmphasis": {
+      "priorityTopics": ["Git advanced branching & rebase", "Unit & Integration Testing (Jest/Vitest/Pytest)", "Documentation & Contributor Guides", "SemVer & Package Publishing"],
+      "projectExpectations": "Active open-source libraries or meaningful merged PRs to recognized community repositories.",
+      "interviewPrepWeight": "Low (GitHub track record is the resume)"
+    }
+  },
+  {
+    "companyType": "Entrepreneurship",
+    "description": "Founders and builders creating independent SaaS products, tech startups, and digital businesses.",
+    "primaryFocus": ["Product-Market Fit", "Rapid Feature Delivery", "Security & Payments", "Customer Analytics", "Lean Architecture"],
+    "interviewStyle": ["Investor pitch deck", "Customer acquisition interviews", "Unit economics analysis"],
+    "roadmapEmphasis": {
+      "priorityTopics": ["Full-Stack Next.js / Supabase / Prisma", "Stripe Billing & Subscriptions", "Analytics (PostHog/Mixpanel)", "Transactional Email & Auth"],
+      "projectExpectations": "A monetizable MVP launched publicly with registered users and working checkout.",
+      "interviewPrepWeight": "Low (Product traction over interview trivia)"
+    }
+  },
+  {
+    "companyType": "Government / public-sector technology roles",
+    "description": "Government agencies, municipal tech departments, defense contractors, and civil services.",
+    "primaryFocus": ["Security Compliance (FedRAMP/NIST)", "Accessibility (WCAG/Section 508)", "Audit Trails", "Data Sovereignty", "Long-term Stability"],
+    "interviewStyle": ["Civil service aptitude examinations", "Security clearance background checks", "Panel technical interviews"],
+    "roadmapEmphasis": {
+      "priorityTopics": ["Security Compliance & Auditing", "Database Backups & Redundancy", "Web Accessibility Standards", "Strict Documentation"],
+      "projectExpectations": "Secure, highly compliant applications featuring multi-factor authentication, audit logging, and accessibility compliance.",
+      "interviewPrepWeight": "Medium (Standardized evaluations and regulatory awareness)"
+    }
+  }
+]

@@ -1,0 +1,201 @@
+{
+  "domain": "AI/ML",
+  "careerPath": "AI & Machine Learning Engineering",
+  "targetRoles": ["Machine Learning Engineer", "AI Engineer", "LLM Systems Engineer"],
+  "stages": [
+    {
+      "stageName": "Foundation",
+      "stageDescription": "Python programming, linear algebra, vector calculus, and data manipulation.",
+      "items": [
+        {
+          "topic": "Python for AI & Scientific Computing",
+          "whyRecommended": "Foundational programming environment for modern deep learning, LLMs, and data pipelines.",
+          "difficulty": "Beginner",
+          "prerequisites": [],
+          "estimatedEffort": "15 hours (1-2 weeks)",
+          "skills": ["Python", "NumPy", "Pandas"],
+          "recommendedResources": [
+            {
+              "title": "Python for Data Analysis by Wes McKinney",
+              "type": "article",
+              "url": "https://wesmckinney.com/book/"
+            }
+          ],
+          "practiceTasks": ["Implement matrix multiplication and vector projection using raw NumPy arrays"],
+          "projectApplication": "Exploratory Data Analysis toolkit analyzing multi-dimensional tabular datasets",
+          "completionCriteria": "Understand broadcasting, vectorization, and pandas aggregation operations",
+          "nextRecommendedStep": "Classical Machine Learning with Scikit-Learn"
+        }
+      ]
+    },
+    {
+      "stageName": "Core Skills",
+      "stageDescription": "Feature engineering, classical algorithms, neural networks, and model evaluation metrics.",
+      "items": [
+        {
+          "topic": "Machine Learning Foundations & Scikit-Learn",
+          "whyRecommended": "Teaches fundamental statistical modeling, bias-variance tradeoff, cross-validation, and metrics.",
+          "difficulty": "Intermediate",
+          "prerequisites": ["Python"],
+          "estimatedEffort": "20 hours (2 weeks)",
+          "skills": ["Scikit-Learn", "Machine Learning"],
+          "recommendedResources": [
+            {
+              "title": "Scikit-Learn User Guide",
+              "type": "documentation",
+              "url": "https://scikit-learn.org/stable/user_guide.html"
+            }
+          ],
+          "practiceTasks": ["Train classification and regression models; evaluate ROC-AUC, F1, and Precision-Recall curves"],
+          "projectApplication": "Customer churn predictor with automated feature scaling and hyperparameter tuning",
+          "completionCriteria": "Correctly diagnose overfitting/underfitting and apply regularization (L1/L2)",
+          "nextRecommendedStep": "Deep Learning & PyTorch"
+        }
+      ]
+    },
+    {
+      "stageName": "Intermediate Skills",
+      "stageDescription": "Deep learning architectures, PyTorch, Transformers, embeddings, and vector databases.",
+      "items": [
+        {
+          "topic": "Deep Learning with PyTorch & Hugging Face",
+          "whyRecommended": "State-of-the-art framework for neural networks, backpropagation, and transformer models.",
+          "difficulty": "Intermediate",
+          "prerequisites": ["Scikit-Learn", "Python"],
+          "estimatedEffort": "25 hours (2-3 weeks)",
+          "skills": ["PyTorch", "Transformers", "NLP"],
+          "recommendedResources": [
+            {
+              "title": "Deep Learning with PyTorch: A 60 Minute Blitz",
+              "type": "documentation",
+              "url": "https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html"
+            }
+          ],
+          "practiceTasks": ["Build a neural network classifier using PyTorch DataLoader and autograd engine"],
+          "projectApplication": "Text classification pipeline fine-tuning a BERT model on sentiment analysis",
+          "completionCriteria": "Model reaches >85% accuracy on test split without data leakage",
+          "nextRecommendedStep": "Vector Databases & RAG Architecture"
+        },
+        {
+          "topic": "Vector Databases & RAG Pipelines",
+          "whyRecommended": "Core production pattern for grounding Large Language Models with private enterprise context.",
+          "difficulty": "Intermediate",
+          "prerequisites": ["Python", "Transformers"],
+          "estimatedEffort": "20 hours (2 weeks)",
+          "skills": ["Vector DB", "Embeddings", "RAG"],
+          "recommendedResources": [
+            {
+              "title": "Pinecone Learning Center - Vector Embeddings for Developers",
+              "type": "article",
+              "url": "https://www.pinecone.io/learn/vector-embeddings-for-developers/"
+            }
+          ],
+          "practiceTasks": ["Implement semantic chunking, cosine similarity search, and hybrid reciprocal rank fusion"],
+          "projectApplication": "Context-aware question-answering assistant over custom technical documentation",
+          "completionCriteria": "Zero hallucinations on queries with out-of-domain knowledge; fallback triggers accurately",
+          "nextRecommendedStep": "Agentic Reasoning & Multi-Agent Systems"
+        }
+      ]
+    },
+    {
+      "stageName": "Advanced Skills",
+      "stageDescription": "Model quantization (GGUF/AWQ), fine-tuning (LoRA), LLM evaluation, and agentic workflows.",
+      "items": [
+        {
+          "topic": "Fine-Tuning & Autonomous Agentic Systems",
+          "whyRecommended": "Demanded by frontier AI startups and Tier-1 enterprises building domain-specialized agents.",
+          "difficulty": "Advanced",
+          "prerequisites": ["PyTorch", "RAG"],
+          "estimatedEffort": "30 hours (3 weeks)",
+          "skills": ["LoRA", "Agents", "vLLM"],
+          "recommendedResources": [
+            {
+              "title": "Hugging Face PEFT Documentation (Parameter-Efficient Fine-Tuning)",
+              "type": "documentation",
+              "url": "https://huggingface.co/docs/peft"
+            }
+          ],
+          "practiceTasks": ["Fine-tune a 7B parameter open-weights model using QLoRA on instruction datasets", "Build a ReAct agent with tools"],
+          "projectApplication": "Autonomous coding assistant that runs code, parses terminal errors, and iterates fixes",
+          "completionCriteria": "Successful evaluation benchmark on held-out tasks showing improved task accuracy",
+          "nextRecommendedStep": "AI Capstone Project"
+        }
+      ]
+    },
+    {
+      "stageName": "Projects",
+      "stageDescription": "Full-stack AI applications with low-latency model inference, streaming tokens, and evaluation.",
+      "items": [
+        {
+          "topic": "Capstone: Production Multimodal AI Assistant with RAG & Tool Execution",
+          "whyRecommended": "Serves as undeniable empirical proof of AI engineering competency on resumes.",
+          "difficulty": "Advanced",
+          "prerequisites": ["RAG", "Agents", "FastAPI"],
+          "estimatedEffort": "40 hours (4 weeks)",
+          "skills": ["Python", "FastAPI", "React", "Vector DB"],
+          "recommendedResources": [
+            {
+              "title": "vLLM Production Deployment Guide",
+              "type": "documentation",
+              "url": "https://docs.vllm.ai/"
+            }
+          ],
+          "practiceTasks": ["Deploy containerized inference server with streaming SSE endpoints and token metrics"],
+          "projectApplication": "Complete AI-powered research assistant with document uploads, citations, and export",
+          "completionCriteria": "P95 latency under 800ms to first token; verified accuracy on automated evaluation dataset",
+          "nextRecommendedStep": "AI Interview Preparation"
+        }
+      ]
+    },
+    {
+      "stageName": "Interview Preparation",
+      "stageDescription": "ML theory, backpropagation mathematics, model scaling laws, and system design for ML.",
+      "items": [
+        {
+          "topic": "Machine Learning System Design & Theoretical Q&A",
+          "whyRecommended": "Required for FAANG/frontier AI interview loops.",
+          "difficulty": "Advanced",
+          "prerequisites": ["System Design", "Machine Learning"],
+          "estimatedEffort": "20 hours (2 weeks)",
+          "skills": ["ML System Design", "Algorithms"],
+          "recommendedResources": [
+            {
+              "title": "Machine Learning System Design by Chip Huyen",
+              "type": "article",
+              "url": "https://huyenchip.com/2021/04/18/real-time-machine-learning.html"
+            }
+          ],
+          "practiceTasks": ["Design recommendation systems (TikTok/YouTube) and real-time fraud detection pipelines"],
+          "projectApplication": "Comprehensive design document covering data ingestion, training pipelines, and online inference",
+          "completionCriteria": "Explain quantization tradeoffs, attention mechanism complexity (O(N^2) vs FlashAttention)",
+          "nextRecommendedStep": "Career Preparation"
+        }
+      ]
+    },
+    {
+      "stageName": "Career Preparation",
+      "stageDescription": "Hugging Face model cards, technical blog writing, and open-source contributions.",
+      "items": [
+        {
+          "topic": "Open-Source AI Contributions & Model Publishing",
+          "whyRecommended": "High impact visibility within the global AI engineering community.",
+          "difficulty": "Intermediate",
+          "prerequisites": [],
+          "estimatedEffort": "10 hours (1 week)",
+          "skills": ["Hugging Face", "Technical Writing"],
+          "recommendedResources": [
+            {
+              "title": "Hugging Face Model Card Guide",
+              "type": "documentation",
+              "url": "https://huggingface.co/docs/hub/model-cards"
+            }
+          ],
+          "practiceTasks": ["Publish fine-tuned weights or datasets on Hugging Face Hub with comprehensive model cards"],
+          "projectApplication": "Public repository with reproducibility scripts and live Gradio/HuggingFace Space demo",
+          "completionCriteria": "Live Space demo with >100 community runs or community stars",
+          "nextRecommendedStep": "AI Industry Placement"
+        }
+      ]
+    }
+  ]
+}

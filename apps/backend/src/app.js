@@ -20,6 +20,7 @@ const { catalogRouter } = require("./routes/catalog.routes");
 const { notificationsRouter } = require("./routes/notifications.routes");
 const { adminRouter } = require("./routes/admin.routes");
 const { gatewayRouter } = require("./routes/gateway.routes");
+const { ragRouter } = require("./routes/rag.routes");
 const { csrfProtection } = require("./middleware/csrf");
 const { requireAuth, requireRole } = require("./middleware/auth.middleware");
 const {
@@ -240,7 +241,10 @@ app.use("/api/admin", adminRouter);
 // 27. Internal Microservice Gateway Routes
 app.use("/api/services", gatewayRouter);
 
-// 28. Protected Mission Control Dashboard Route
+// 28. RAG Personalized Roadmap & Recommendation Routes
+app.use("/api/rag", ragRouter);
+
+// 29. Protected Mission Control Dashboard Route
 app.get("/api/dashboard", requireAuth, (req, res) => {
   res.setHeader("Cache-Control", "no-store, max-age=0");
   res.status(200).json({

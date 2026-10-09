@@ -1,0 +1,187 @@
+{
+  "domain": "Cybersecurity",
+  "careerPath": "Cybersecurity & Information Security",
+  "targetRoles": ["Security Analyst", "Penetration Tester", "Application Security Engineer", "SOC Analyst"],
+  "stages": [
+    {
+      "stageName": "Foundation",
+      "stageDescription": "Networking, TCP/IP, OSI model, packet inspection, and Linux systems security.",
+      "items": [
+        {
+          "topic": "Networking Protocols & Packet Analysis",
+          "whyRecommended": "Essential to understand how data moves across networks and how exploits are delivered.",
+          "difficulty": "Beginner",
+          "prerequisites": [],
+          "estimatedEffort": "15 hours (1-2 weeks)",
+          "skills": ["Networking", "Wireshark", "TCP/IP"],
+          "recommendedResources": [
+            {
+              "title": "Wireshark User's Guide",
+              "type": "documentation",
+              "url": "https://www.wireshark.org/docs/"
+            }
+          ],
+          "practiceTasks": ["Capture network traffic and analyze TCP three-way handshake, DNS queries, and TLS handshakes"],
+          "projectApplication": "Network anomaly detection script flagging abnormal port scans or SYN floods",
+          "completionCriteria": "Explain IP addressing, subnetting, CIDR, and transport vs application layer security",
+          "nextRecommendedStep": "Linux Hardening & OS Security"
+        }
+      ]
+    },
+    {
+      "stageName": "Core Skills",
+      "stageDescription": "Application vulnerabilities, OWASP Top 10, cryptography, and penetration testing tools.",
+      "items": [
+        {
+          "topic": "OWASP Top 10 & Web Application Security",
+          "whyRecommended": "Covers the most critical risks to web applications including SQLi, XSS, Broken Auth, and SSRF.",
+          "difficulty": "Intermediate",
+          "prerequisites": ["Networking"],
+          "estimatedEffort": "20 hours (2 weeks)",
+          "skills": ["OWASP", "Burp Suite", "AppSec"],
+          "recommendedResources": [
+            {
+              "title": "OWASP Top 10 Official Document",
+              "type": "documentation",
+              "url": "https://owasp.org/www-project-top-ten/"
+            },
+            {
+              "title": "PortSwigger Web Security Academy",
+              "type": "article",
+              "url": "https://portswigger.net/web-security"
+            }
+          ],
+          "practiceTasks": ["Solve PortSwigger Academy labs on SQL Injection, Cross-Site Scripting, and IDOR"],
+          "projectApplication": "Security vulnerability audit report identifying and remediating flaws in a target application",
+          "completionCriteria": "Demonstrate understanding of root causes and defensive controls (sanitization, CSP, parameterized queries)",
+          "nextRecommendedStep": "Defensive Security & SIEM Operations"
+        }
+      ]
+    },
+    {
+      "stageName": "Intermediate Skills",
+      "stageDescription": "SIEM log monitoring, threat hunting, vulnerability scanning, and incident response.",
+      "items": [
+        {
+          "topic": "Defensive Security, Log Analysis & SIEM",
+          "whyRecommended": "Core responsibility for SOC analysts protecting organizations from ongoing intrusions.",
+          "difficulty": "Intermediate",
+          "prerequisites": ["OWASP"],
+          "estimatedEffort": "20 hours (2 weeks)",
+          "skills": ["SIEM", "Splunk", "Incident Response"],
+          "recommendedResources": [
+            {
+              "title": "NIST Computer Security Incident Handling Guide (SP 800-61)",
+              "type": "documentation",
+              "url": "https://csrc.nist.gov/publications/detail/sp/800-61/rev-2/final"
+            }
+          ],
+          "practiceTasks": ["Set up Wazuh/Splunk and write search queries to detect brute-force attacks and privilege escalation"],
+          "projectApplication": "Automated incident response playbook that isolates compromised IPs automatically",
+          "completionCriteria": "Detect simulated credential stuffing attack in real-time logs within 3 minutes",
+          "nextRecommendedStep": "Cloud Security & DevSecOps"
+        }
+      ]
+    },
+    {
+      "stageName": "Advanced Skills",
+      "stageDescription": "Cloud security posture, identity governance, exploit development, and zero-trust architecture.",
+      "items": [
+        {
+          "topic": "Cloud Security & Zero-Trust Architecture",
+          "whyRecommended": "Crucial for safeguarding modern cloud-native environments and SaaS platforms.",
+          "difficulty": "Advanced",
+          "prerequisites": ["Defensive Security"],
+          "estimatedEffort": "25 hours (2-3 weeks)",
+          "skills": ["Cloud Security", "Zero Trust", "IAM"],
+          "recommendedResources": [
+            {
+              "title": "NIST Zero Trust Architecture (SP 800-207)",
+              "type": "documentation",
+              "url": "https://csrc.nist.gov/publications/detail/sp/800-207/final"
+            }
+          ],
+          "practiceTasks": ["Implement least-privilege IAM policies, AWS KMS key rotation, and audit logging with CloudTrail"],
+          "projectApplication": "Comprehensive cloud security baseline automated check using open-source compliance tools",
+          "completionCriteria": "Audit score reaches 100% compliance against CIS Benchmarks",
+          "nextRecommendedStep": "Security Capstone Project"
+        }
+      ]
+    },
+    {
+      "stageName": "Projects",
+      "stageDescription": "End-to-end security audit and hardened infrastructure deployment.",
+      "items": [
+        {
+          "topic": "Capstone: Full Application Penetration Test & Security Hardening",
+          "whyRecommended": "Shows comprehensive offensive and defensive acumen to prospective employers.",
+          "difficulty": "Advanced",
+          "prerequisites": ["OWASP", "Cloud Security"],
+          "estimatedEffort": "35 hours (3 weeks)",
+          "skills": ["Penetration Testing", "Remediation", "Security Auditing"],
+          "recommendedResources": [
+            {
+              "title": "OWASP Testing Guide (WSTG)",
+              "type": "documentation",
+              "url": "https://owasp.org/www-project-web-security-testing-guide/"
+            }
+          ],
+          "practiceTasks": ["Perform full manual code audit and automated scanning on a full-stack web application"],
+          "projectApplication": "Formal executive vulnerability assessment report with CVSS scoring and verified code fixes",
+          "completionCriteria": "Document 5 confirmed vulnerabilities, reproduce them with PoC exploits, and verify fixes",
+          "nextRecommendedStep": "Cybersecurity Interview Preparation"
+        }
+      ]
+    },
+    {
+      "stageName": "Interview Preparation",
+      "stageDescription": "Scenario-based incident response questions, threat modeling, and technical certifications.",
+      "items": [
+        {
+          "topic": "Threat Modeling & Scenario Security Interviews",
+          "whyRecommended": "Evaluates methodical thinking, threat actor motivation analysis, and risk mitigation.",
+          "difficulty": "Advanced",
+          "prerequisites": ["AppSec"],
+          "estimatedEffort": "15 hours (1-2 weeks)",
+          "skills": ["STRIDE", "Threat Modeling"],
+          "recommendedResources": [
+            {
+              "title": "OWASP Threat Dragon & STRIDE Methodology",
+              "type": "article",
+              "url": "https://owasp.org/www-community/Threat_Modeling"
+            }
+          ],
+          "practiceTasks": ["Conduct STRIDE threat model on microservice payment processing architecture"],
+          "projectApplication": "Formal data flow diagram with documented attack surface mitigations",
+          "completionCriteria": "Fluently walk through incident containment, eradication, and recovery steps",
+          "nextRecommendedStep": "Career Placement"
+        }
+      ]
+    },
+    {
+      "stageName": "Career Preparation",
+      "stageDescription": "Security certification roadmap (Security+, CEH, OSCP) and ethical disclosure guidelines.",
+      "items": [
+        {
+          "topic": "Security Certifications & Responsible Disclosure Portfolio",
+          "whyRecommended": "Industry recognized certifications validate technical integrity.",
+          "difficulty": "Intermediate",
+          "prerequisites": [],
+          "estimatedEffort": "10 hours (1 week)",
+          "skills": ["Certifications", "Ethics"],
+          "recommendedResources": [
+            {
+              "title": "CompTIA Security+ Exam Objectives",
+              "type": "documentation",
+              "url": "https://www.comptia.org/certifications/security"
+            }
+          ],
+          "practiceTasks": ["Review bug bounty platforms (HackerOne/Bugcrowd) rules of engagement"],
+          "projectApplication": "Curated security research portfolio with write-ups of CTF challenges and patched CVEs",
+          "completionCriteria": "Published CTF write-ups demonstrating clear technical methodology",
+          "nextRecommendedStep": "Security Career Placement"
+        }
+      ]
+    }
+  ]
+}

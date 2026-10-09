@@ -11,6 +11,7 @@ import EditProfileForm from "./EditProfileForm";
 import SecurityModal from "./SecurityModal";
 import SettingsModal from "./SettingsModal";
 import ResumeScreenerModal from "./ResumeScreenerModal";
+import MentalHealthScoreModal from "./MentalHealthScoreModal";
 
 function ModalManagerContent() {
   const router = useRouter();
@@ -38,6 +39,10 @@ function ModalManagerContent() {
 
   if (modal === "resume-screener") {
     return <ResumeScreenerModal isOpen={true} onClose={closeModal} />;
+  }
+
+  if (modal === "mental-health-score" || modal === "mental-health") {
+    return <MentalHealthScoreModal isOpen={true} onClose={closeModal} />;
   }
 
   const renderContent = () => {

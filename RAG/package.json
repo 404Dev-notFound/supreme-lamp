@@ -1,0 +1,20 @@
+{
+  "name": "@flowctrl/rag",
+  "version": "1.0.0",
+  "description": "Production-ready RAG-based Personalized Roadmap Generator and Recommendation Engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "ingest": "node scripts/ingest.js",
+    "reindex": "node scripts/reindex.js"
+  },
+  "keywords": [
+    "rag",
+    "retrieval-augmented-generation",
+    "career-roadmap",
+    "recommendation-engine",
+    "vector-search"
+  ],
+  "author": "flowCTRL Team",
+  "license": "MIT"
+}

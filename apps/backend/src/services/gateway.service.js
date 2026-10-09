@@ -86,6 +86,9 @@ function getScoreInterpretation(score) {
   };
 }
 
+const RAG_SERVICE_URL =
+  process.env.RAG_SERVICE_URL || "http://127.0.0.1:8001";
+
 /**
  * Probe health of auxiliary internal microservices
  */
@@ -93,6 +96,7 @@ async function checkServicesHealth() {
   const services = {
     mentalHealth: { status: "unknown" },
     resumeScreener: { status: "unknown" },
+    ragService: { status: "unknown" },
   };
 
   // Check Mental Health
@@ -115,6 +119,17 @@ async function checkServicesHealth() {
     services.resumeScreener.status = rsResp.ok ? "healthy" : "degraded";
   } catch {
     services.resumeScreener.status = "offline";
+  }
+
+  // Check Python LangChain RAG Service
+  try {
+    const ragCtrl = new AbortController();
+    const ragTimeout = setTimeout(() => ragCtrl.abort(), 3000);
+    const ragResp = await fetch(`${RAG_SERVICE_URL}/health`, { signal: ragCtrl.signal });
+    clearTimeout(ragTimeout);
+    services.ragService.status = ragResp.ok ? "healthy" : "degraded";
+  } catch {
+    services.ragService.status = "offline";
   }
 
   return services;
