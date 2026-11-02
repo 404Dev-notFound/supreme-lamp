@@ -6,6 +6,7 @@ const {
   getTopicDetail,
   searchRoadmaps,
 } = require("@flowctrl/roadmap-data");
+const roadmapsService = require("../services/roadmaps.service");
 
 test("Roadmaps data layer loads index properly", () => {
   const roadmaps = getAllRoadmaps();
@@ -50,3 +51,44 @@ test("Search filtering finds relevant roadmaps", () => {
     ),
   );
 });
+
+test("Roadmaps Service pins Premium Roadmaps at the top of the catalog", async () => {
+  const all = await roadmapsService.getAllRoadmaps();
+  assert.ok(all.length >= 6, "Expected at least 6 roadmaps in total");
+
+  // First 6 entries must be pinned premium tracks
+  const topSix = all.slice(0, 6);
+  for (const track of topSix) {
+    assert.equal(track.isPremium, true, `Track ${track.slug} should be premium`);
+    assert.equal(track.isPinned, true, `Track ${track.slug} should be pinned`);
+    assert.equal(track.badge, "PREMIUM");
+  }
+
+  // Follow-up entries should be non-pinned free roadmaps
+  const remainder = all.slice(6);
+  assert.ok(remainder.length > 0);
+  assert.equal(remainder[0].isPinned, false);
+  assert.equal(remainder[0].isPremium, false);
+});
+
+test("Roadmaps Service category filtering supports 'premium'", async () => {
+  const premiumTracks = await roadmapsService.getAllRoadmaps({ category: "premium" });
+  assert.ok(premiumTracks.length >= 6);
+  for (const t of premiumTracks) {
+    assert.equal(t.isPremium, true);
+    assert.equal(t.isPinned, true);
+  }
+});
+
+test("Roadmaps Service getRoadmapBySlug returns isPinned flag", async () => {
+  const premiumRoadmap = await roadmapsService.getRoadmapBySlug("distributed-systems-architecture");
+  assert.ok(premiumRoadmap);
+  assert.equal(premiumRoadmap.isPinned, true);
+  assert.equal(premiumRoadmap.isPremium, true);
+
+  const freeRoadmap = await roadmapsService.getRoadmapBySlug("frontend");
+  assert.ok(freeRoadmap);
+  assert.equal(freeRoadmap.isPinned, false);
+  assert.equal(freeRoadmap.isPremium, false);
+});
+

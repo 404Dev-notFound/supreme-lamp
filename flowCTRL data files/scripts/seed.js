@@ -538,6 +538,7 @@ async function seedPremiumResources() {
         content: r.content || {},
         isActive: true,
         isFeatured: r.isFeatured || false,
+        isPinned: r.isPinned !== undefined ? r.isPinned : true,
         sortOrder: r.sortOrder || 0,
       },
       create: {
@@ -556,6 +557,7 @@ async function seedPremiumResources() {
         content: r.content || {},
         isActive: true,
         isFeatured: r.isFeatured || false,
+        isPinned: r.isPinned !== undefined ? r.isPinned : true,
         sortOrder: r.sortOrder || 0,
       },
     });

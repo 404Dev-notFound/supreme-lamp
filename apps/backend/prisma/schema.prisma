@@ -739,6 +739,7 @@ model PremiumResource {
   content        Json?    // modules, chapters, detailed curated resource guides
   isActive       Boolean  @default(true)
   isFeatured     Boolean  @default(false)
+  isPinned       Boolean  @default(true)
   sortOrder      Int      @default(0)
   createdAt      DateTime @default(now())
   updatedAt      DateTime @updatedAt
@@ -748,6 +749,7 @@ model PremiumResource {
   @@index([slug])
   @@index([accessLevel])
   @@index([isActive])
+  @@index([isPinned])
   @@index([categoryId])
   @@index([categorySlug])
 }

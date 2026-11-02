@@ -16,12 +16,13 @@ class RoadmapsService {
       accessLevel: "FREE",
       isPremium: false,
       isLocked: false,
+      isPinned: false,
     }));
 
     // Fetch active premium resources from PostgreSQL
     try {
       const premiumWhere = { isActive: true };
-      if (category && category !== "all") {
+      if (category && category !== "all" && category.toLowerCase() !== "premium") {
         premiumWhere.categorySlug = category;
       }
       if (level) {
@@ -30,7 +31,7 @@ class RoadmapsService {
 
       const premiumResources = await prisma.premiumResource.findMany({
         where: premiumWhere,
-        orderBy: [{ sortOrder: "asc" }, { createdAt: "asc" }],
+        orderBy: [{ isPinned: "desc" }, { sortOrder: "asc" }, { createdAt: "asc" }],
       });
 
       const premiumMapped = premiumResources.map((p) => {
@@ -47,6 +48,8 @@ class RoadmapsService {
           accessLevel: "PREMIUM",
           isPremium: true,
           isLocked,
+          isPinned: p.isPinned !== false,
+          sortOrder: p.sortOrder,
           isFeatured: p.isFeatured,
           estimatedHours: p.estimatedHours,
         };
@@ -63,15 +66,20 @@ class RoadmapsService {
         );
       }
 
-      results = [...results, ...filteredPremium];
+      // Pin premium roadmaps ahead of standard roadmaps
+      results = [...filteredPremium, ...results];
     } catch (e) {
       console.warn("Could not fetch premium resources from DB:", e.message);
     }
 
     if (category && category !== "all") {
-      results = results.filter(
-        (r) => r.category && r.category.toLowerCase() === category.toLowerCase(),
-      );
+      if (category.toLowerCase() === "premium") {
+        results = results.filter((r) => r.isPremium);
+      } else {
+        results = results.filter(
+          (r) => r.category && r.category.toLowerCase() === category.toLowerCase(),
+        );
+      }
     }
 
     if (level) {
@@ -92,6 +100,7 @@ class RoadmapsService {
         accessLevel: "FREE",
         isPremium: false,
         isLocked: false,
+        isPinned: false,
       };
     }
 
@@ -116,6 +125,8 @@ class RoadmapsService {
             accessLevel: "PREMIUM",
             isPremium: true,
             isLocked: true,
+            isPinned: premiumResource.isPinned !== false,
+            sortOrder: premiumResource.sortOrder,
             preview: {
               overview:
                 premiumResource.content?.overview || premiumResource.description,
@@ -166,6 +177,8 @@ class RoadmapsService {
           accessLevel: "PREMIUM",
           isPremium: true,
           isLocked: false,
+          isPinned: premiumResource.isPinned !== false,
+          sortOrder: premiumResource.sortOrder,
           nodes,
           topics,
           content: premiumResource.content,

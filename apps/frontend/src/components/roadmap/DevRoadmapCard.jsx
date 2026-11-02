@@ -20,6 +20,7 @@ import {
   Lock,
   Binary,
   Database,
+  Pin,
 } from "lucide-react";
 
 const ICON_MAP = {
@@ -116,7 +117,13 @@ export default function DevRoadmapCard({ roadmap, onLockedClick = null }) {
             <IconComponent className="w-5 h-5" />
           </div>
 
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-1.5 flex-wrap justify-end">
+            {roadmap.isPinned && (
+              <span className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full border border-amber-500/50 text-amber-200 bg-amber-500/20 flex items-center gap-1 shadow-sm shadow-amber-500/10">
+                <Pin className="w-2.5 h-2.5 text-amber-400 rotate-45" />
+                PINNED
+              </span>
+            )}
             {isPremiumTrack && (
               <span className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full border border-orange-500/40 text-amber-300 bg-orange-500/20 flex items-center gap-1">
                 <Sparkles className="w-2.5 h-2.5 text-orange-400" />
