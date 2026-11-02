@@ -30,6 +30,10 @@ const {
   globalApiRateLimiter,
 } = require("./middleware/rateLimit.middleware");
 const {
+  getRedisHealthReport,
+  isRedisAvailable,
+} = require("./lib/redis");
+const {
   prototypePollutionGuard,
   hppGuard,
   hostHeaderGuard,
@@ -159,25 +163,43 @@ app.get("/", (req, res) => {
 
 const handleHealth = (req, res) => {
   res.setHeader("Cache-Control", "no-store, max-age=0");
+  const redisAvailable = isRedisAvailable();
   res.status(200).json({
-    status: "ok",
-    message: "flowCTRL API is running",
+    status: redisAvailable ? "healthy" : "degraded",
+    message: redisAvailable
+      ? "flowCTRL API is running"
+      : "flowCTRL API is running in resilient degraded mode (Redis offline)",
     uptime: Math.floor(process.uptime()),
     timestamp: new Date().toISOString(),
+    redis: redisAvailable ? "connected" : "degraded_fallback",
+    degraded: !redisAvailable,
   });
 };
 
 app.get("/health", handleHealth);
 app.get("/api/health", handleHealth);
 
+// Dedicated Redis Observability & Cache Health Diagnostic Route
+app.get("/api/health/redis", async (req, res) => {
+  res.setHeader("Cache-Control", "no-store, max-age=0");
+  const report = await getRedisHealthReport();
+  return res.status(200).json({
+    success: true,
+    data: report,
+  });
+});
+
 // 15. Readiness Probe (checks database connection)
 const handleReady = async (req, res) => {
   res.setHeader("Cache-Control", "no-store, max-age=0");
   try {
     await prisma.$queryRaw`SELECT 1`;
+    const redisAvailable = isRedisAvailable();
     return res.status(200).json({
       status: "ready",
       database: "connected",
+      redis: redisAvailable ? "connected" : "degraded_fallback",
+      degraded: !redisAvailable,
       memoryUsage: Math.round(process.memoryUsage().heapUsed / 1024 / 1024) + "MB",
     });
   } catch (err) {

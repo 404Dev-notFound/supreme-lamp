@@ -1415,6 +1415,8 @@ Columns:
                     Whether the track is live in the catalog.
   • isFeatured     : Boolean  | NOT NULL | Default: false
                     Promotional feature flag.
+  • isPinned       : Boolean  | NOT NULL | Default: true
+                    Pinned display flag ensuring priority display at the top of the Roadmaps catalog.
   • sortOrder      : Int      | NOT NULL | Default: 0
                     Sorting sequence order.
   • createdAt      : DateTime | NOT NULL | Default: now()
@@ -1426,6 +1428,7 @@ Indexes & Constraints:
   • Index       : `@@index([slug])`
   • Index       : `@@index([accessLevel])`
   • Index       : `@@index([isActive])`
+  • Index       : `@@index([isPinned])`
   • Index       : `@@index([categoryId])`
   • Index       : `@@index([categorySlug])`
   • Foreign Key : `categoryId` -> `ResourceCategory.id` (ON DELETE SET NULL)
@@ -1601,10 +1604,13 @@ Execution Command:          $ node "flowCTRL data files/scripts/seed.js"
 ====================================================================================================
 9. ENTERPRISE MIGRATION & DISASTER RECOVERY PROTOCOL
 ====================================================================================================
-9.1 Version-Controlled Migration Directory:
+9.1 Version-Controlled Migration Directories:
   `flowCTRL data files/prisma/migrations/20261102_enterprise_db_audit_optimization/`
   - `migration.sql` : Transactional DDL applying DECIMAL(10,2) conversions and 10 query/FK indexes.
   - `rollback.sql`  : Disaster recovery reversal script reverting schema to previous state.
+
+  `flowCTRL data files/prisma/migrations/20261103_pin_premium_roadmaps/`
+  - `migration.sql` : Transactional DDL adding `isPinned` column and index on `PremiumResource`.
 
 9.2 Full Database Backup Snapshot:
   - Path: `flowCTRL data files/backups/pre_audit_backup_20261102.sql`

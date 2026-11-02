@@ -2,6 +2,7 @@ const fs = require("fs");
 const { prisma } = require("../lib/prisma");
 const storageService = require("./storage.service");
 const { recordAuditLog } = require("./audit.service");
+const { queues } = require("../lib/redis");
 
 class ResumeError extends Error {
   constructor(message, statusCode = 400, code = "RESUME_ERROR") {
@@ -309,6 +310,24 @@ async function listResumeAnalyses({ resumeId, userId, userRole }) {
   });
 }
 
+/**
+ * Enqueue resume analysis into background BullMQ processing queue
+ */
+async function enqueueResumeAnalysis({ resumeId, userId, userRole, isUrgent = false }) {
+  return queues.dispatch.dispatchResumeAnalysis({
+    resumeId,
+    userId,
+    userRole,
+    isUrgent,
+  });
+}
+
+// Register background BullMQ worker for asynchronous resume ATS evaluation
+queues.registerWorker(queues.QUEUE_NAMES.RESUME_ANALYSIS, async (job) => {
+  const { resumeId, userId, userRole } = job.data;
+  return analyzeResume({ resumeId, userId, userRole });
+});
+
 module.exports = {
   uploadResume,
   listUserResumes,
@@ -316,6 +335,7 @@ module.exports = {
   getResumeFileStream,
   deleteResume,
   analyzeResume,
+  enqueueResumeAnalysis,
   listResumeAnalyses,
   ResumeError,
 };

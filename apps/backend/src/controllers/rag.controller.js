@@ -1,6 +1,7 @@
 const path = require("path");
 const { prisma } = require("../lib/prisma");
 const { successResponse, errorResponse } = require("../utils/response");
+const { cache, buildKey, REDIS_CONFIG } = require("../lib/redis");
 
 // Import RAG System modules cleanly from root RAG/ folder
 const {
@@ -22,6 +23,15 @@ const ragMemoryCache = new Map();
  * Helper to retrieve user's saved RAG profile & roadmap from PostgreSQL with fallback
  */
 async function getUserRagData(userId) {
+  const cacheKey = buildKey(REDIS_CONFIG.namespaces.RAG, "user", userId);
+
+  // 1. Check Redis cache first
+  const cached = await cache.get(cacheKey);
+  if (cached && typeof cached === "object") {
+    return cached;
+  }
+
+  // 2. Read from PostgreSQL
   try {
     const pref = await prisma.userPreference.findUnique({
       where: { userId },
@@ -30,24 +40,28 @@ async function getUserRagData(userId) {
     if (pref && pref.customSettings && typeof pref.customSettings === "object") {
       const cs = pref.customSettings;
       const mem = ragMemoryCache.get(userId) || {};
-      return {
+      const data = {
         profile: cs.ragProfile || cs.profile || mem.profile || null,
         activeRoadmap: cs.ragActiveRoadmap || cs.activeRoadmap || mem.activeRoadmap || null,
         completedTopics: cs.ragCompletedTopics || cs.completedTopics || mem.completedTopics || [],
         stepProgress: cs.ragStepProgress || cs.stepProgress || mem.stepProgress || {},
       };
+      await cache.set(cacheKey, data, REDIS_CONFIG.ttl.RAG_USER_DATA);
+      return data;
     }
   } catch (err) {
     // In unit tests without seeded database user, fall back to memory store
   }
 
   const mem = ragMemoryCache.get(userId) || {};
-  return {
+  const fallbackData = {
     profile: mem.profile || null,
     activeRoadmap: mem.activeRoadmap || null,
     completedTopics: mem.completedTopics || [],
     stepProgress: mem.stepProgress || {},
   };
+  await cache.set(cacheKey, fallbackData, REDIS_CONFIG.ttl.RAG_USER_DATA);
+  return fallbackData;
 }
 
 /**
@@ -62,6 +76,9 @@ async function updateUserRagData(userId, updates = {}) {
     stepProgress: updates.ragStepProgress !== undefined ? updates.ragStepProgress : (updates.stepProgress !== undefined ? updates.stepProgress : current.stepProgress),
   };
   ragMemoryCache.set(userId, nextData);
+
+  const cacheKey = buildKey(REDIS_CONFIG.namespaces.RAG, "user", userId);
+  await cache.set(cacheKey, nextData, REDIS_CONFIG.ttl.RAG_USER_DATA);
 
   try {
     const pref = await prisma.userPreference.findUnique({

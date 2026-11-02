@@ -1,5 +1,6 @@
 const { prisma } = require("../lib/prisma");
 const { recordAuditLog } = require("./audit.service");
+const { cache, buildKey, REDIS_CONFIG } = require("../lib/redis");
 
 class JobError extends Error {
   constructor(message, statusCode = 400, code = "JOB_ERROR") {
@@ -29,126 +30,146 @@ async function listJobs({
   const safeLimit = Math.min(100, Math.max(1, parseInt(limit, 10) || 20));
   const skip = (safePage - 1) * safeLimit;
 
-  const where = {
-    isActive: true,
-  };
+  const cacheKey = buildKey(
+    REDIS_CONFIG.namespaces.JOBS,
+    "list",
+    `${safePage}:${safeLimit}:${search || ""}:${workMode || ""}:${location || ""}:${companyId || ""}:${isFeatured}:${sort}`
+  );
 
-  if (companyId) {
-    where.companyId = companyId;
-  }
+  return cache.getOrSet(
+    cacheKey,
+    async () => {
+      const where = {
+        isActive: true,
+      };
 
-  if (workMode) {
-    where.workMode = workMode;
-  }
+      if (companyId) {
+        where.companyId = companyId;
+      }
 
-  if (isFeatured !== null) {
-    where.isFeatured = Boolean(isFeatured);
-  }
+      if (workMode) {
+        where.workMode = workMode;
+      }
 
-  if (location && typeof location === "string" && location.trim()) {
-    where.location = {
-      contains: location.trim(),
-      mode: "insensitive",
-    };
-  }
+      if (isFeatured !== null) {
+        where.isFeatured = Boolean(isFeatured);
+      }
 
-  if (search && typeof search === "string" && search.trim()) {
-    const q = search.trim().slice(0, 100);
-    where.OR = [
-      { title: { contains: q, mode: "insensitive" } },
-      { description: { contains: q, mode: "insensitive" } },
-      { company: { name: { contains: q, mode: "insensitive" } } },
-    ];
-  }
+      if (location && typeof location === "string" && location.trim()) {
+        where.location = {
+          contains: location.trim(),
+          mode: "insensitive",
+        };
+      }
 
-  if (minSalary !== null && !isNaN(minSalary)) {
-    where.salaryMin = { gte: parseInt(minSalary, 10) };
-  }
+      if (search && typeof search === "string" && search.trim()) {
+        const q = search.trim().slice(0, 100);
+        where.OR = [
+          { title: { contains: q, mode: "insensitive" } },
+          { description: { contains: q, mode: "insensitive" } },
+          { company: { name: { contains: q, mode: "insensitive" } } },
+        ];
+      }
 
-  if (maxSalary !== null && !isNaN(maxSalary)) {
-    where.salaryMax = { lte: parseInt(maxSalary, 10) };
-  }
+      if (minSalary !== null && !isNaN(minSalary)) {
+        where.salaryMin = { gte: parseInt(minSalary, 10) };
+      }
 
-  let orderBy = [{ isFeatured: "desc" }, { createdAt: "desc" }];
-  if (sort === "salary_high") {
-    orderBy = [{ salaryMax: "desc" }, { createdAt: "desc" }];
-  } else if (sort === "oldest") {
-    orderBy = [{ createdAt: "asc" }];
-  }
+      if (maxSalary !== null && !isNaN(maxSalary)) {
+        where.salaryMax = { lte: parseInt(maxSalary, 10) };
+      }
 
-  const [total, jobs] = await prisma.$transaction([
-    prisma.job.count({ where }),
-    prisma.job.findMany({
-      where,
-      skip,
-      take: safeLimit,
-      orderBy,
-      include: {
-        company: {
-          select: {
-            id: true,
-            name: true,
-            logo: true,
-            website: true,
-            location: true,
-            isVerified: true,
-          },
-        },
-        jobSkills: {
+      let orderBy = [{ isFeatured: "desc" }, { createdAt: "desc" }];
+      if (sort === "salary_high") {
+        orderBy = [{ salaryMax: "desc" }, { createdAt: "desc" }];
+      } else if (sort === "oldest") {
+        orderBy = [{ createdAt: "asc" }];
+      }
+
+      const [total, jobs] = await prisma.$transaction([
+        prisma.job.count({ where }),
+        prisma.job.findMany({
+          where,
+          skip,
+          take: safeLimit,
+          orderBy,
           include: {
-            skill: {
-              select: { id: true, name: true, category: true },
+            company: {
+              select: {
+                id: true,
+                name: true,
+                logo: true,
+                website: true,
+                location: true,
+                isVerified: true,
+              },
+            },
+            jobSkills: {
+              include: {
+                skill: {
+                  select: { id: true, name: true, category: true },
+                },
+              },
+            },
+            _count: {
+              select: {
+                applications: true,
+                savedJobs: true,
+              },
             },
           },
-        },
-        _count: {
-          select: {
-            applications: true,
-            savedJobs: true,
-          },
-        },
-      },
-    }),
-  ]);
+        }),
+      ]);
 
-  return {
-    jobs,
-    pagination: {
-      page: safePage,
-      limit: safeLimit,
-      total,
-      totalPages: Math.ceil(total / safeLimit),
+      return {
+        jobs,
+        pagination: {
+          page: safePage,
+          limit: safeLimit,
+          total,
+          totalPages: Math.ceil(total / safeLimit),
+        },
+      };
     },
-  };
+    REDIS_CONFIG.ttl.JOBS_LIST
+  );
 }
 
 /**
  * Get single job by ID
  */
 async function getJobById(id) {
-  const job = await prisma.job.findUnique({
-    where: { id },
-    include: {
-      company: true,
-      jobSkills: {
+  const cacheKey = buildKey(REDIS_CONFIG.namespaces.JOBS, "detail", id);
+
+  return cache.getOrSet(
+    cacheKey,
+    async () => {
+      const job = await prisma.job.findUnique({
+        where: { id },
         include: {
-          skill: true,
+          company: true,
+          jobSkills: {
+            include: {
+              skill: true,
+            },
+          },
+          _count: {
+            select: {
+              applications: true,
+              savedJobs: true,
+            },
+          },
         },
-      },
-      _count: {
-        select: {
-          applications: true,
-          savedJobs: true,
-        },
-      },
+      });
+
+      if (!job || !job.isActive) {
+        throw new JobError("Job not found or no longer active.", 404, "JOB_NOT_FOUND");
+      }
+
+      return job;
     },
-  });
-
-  if (!job || !job.isActive) {
-    throw new JobError("Job not found or no longer active.", 404, "JOB_NOT_FOUND");
-  }
-
-  return job;
+    REDIS_CONFIG.ttl.JOB_DETAIL
+  );
 }
 
 /**

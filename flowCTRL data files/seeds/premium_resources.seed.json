@@ -11,6 +11,7 @@
     "estimatedHours": 45,
     "topicsCount": 12,
     "isFeatured": true,
+    "isPinned": true,
     "sortOrder": 1,
     "content": {
       "overview": "An exhaustive engineering curriculum covering the theory, mechanics, and real-world implementation of planetary-scale distributed systems.",
@@ -93,6 +94,7 @@
     "estimatedHours": 50,
     "topicsCount": 14,
     "isFeatured": true,
+    "isPinned": true,
     "sortOrder": 2,
     "content": {
       "overview": "Professional offensive cybersecurity blueprint focused on practical vulnerability research, active defense evasion, and systematic red team operations.",
@@ -166,6 +168,7 @@
     "estimatedHours": 40,
     "topicsCount": 11,
     "isFeatured": true,
+    "isPinned": true,
     "sortOrder": 3,
     "content": {
       "overview": "From single-turn LLM prompts to fully autonomous self-correcting agent systems with cognitive memory architectures and tool orchestration.",
@@ -239,6 +242,7 @@
     "estimatedHours": 40,
     "topicsCount": 10,
     "isFeatured": false,
+    "isPinned": true,
     "sortOrder": 4,
     "content": {
       "overview": "Professional cloud-native guide for senior SREs and platform engineers designing resilient multi-tenant Kubernetes platforms.",
@@ -289,6 +293,7 @@
     "estimatedHours": 35,
     "topicsCount": 9,
     "isFeatured": false,
+    "isPinned": true,
     "sortOrder": 5,
     "content": {
       "overview": "Modern applied cryptographic techniques for software engineers building secure communications, privacy-preserving proofs, and distributed ledgers.",
@@ -339,6 +344,7 @@
     "estimatedHours": 40,
     "topicsCount": 10,
     "isFeatured": false,
+    "isPinned": true,
     "sortOrder": 6,
     "content": {
       "overview": "Deep technical inspection of how database engines store, index, buffer, and execute queries across disk and memory hierarchies.",

@@ -1,4 +1,5 @@
 const { prisma } = require("../lib/prisma");
+const { cache, buildKey, REDIS_CONFIG } = require("../lib/redis");
 
 class CatalogError extends Error {
   constructor(message, statusCode = 400, code = "CATALOG_ERROR") {
@@ -13,12 +14,20 @@ class CatalogError extends Error {
  * List Categories
  */
 async function listCategories() {
-  return prisma.category.findMany({
-    orderBy: { name: "asc" },
-    include: {
-      _count: { select: { skills: true } },
+  const cacheKey = buildKey(REDIS_CONFIG.namespaces.CATALOG, "categories", "all");
+
+  return cache.getOrSet(
+    cacheKey,
+    async () => {
+      return prisma.category.findMany({
+        orderBy: { name: "asc" },
+        include: {
+          _count: { select: { skills: true } },
+        },
+      });
     },
-  });
+    REDIS_CONFIG.ttl.CATALOG_SKILLS
+  );
 }
 
 /**
@@ -29,34 +38,46 @@ async function listSkills({ category = "", search = "", page = 1, limit = 50 } =
   const safeLimit = Math.min(100, Math.max(1, parseInt(limit, 10) || 50));
   const skip = (safePage - 1) * safeLimit;
 
-  const where = {};
-  if (category && typeof category === "string" && category.trim()) {
-    where.category = { equals: category.trim(), mode: "insensitive" };
-  }
+  const cacheKey = buildKey(
+    REDIS_CONFIG.namespaces.CATALOG,
+    "skills",
+    `${category || "all"}:${search || "all"}:${safePage}:${safeLimit}`
+  );
 
-  if (search && typeof search === "string" && search.trim()) {
-    where.name = { contains: search.trim(), mode: "insensitive" };
-  }
+  return cache.getOrSet(
+    cacheKey,
+    async () => {
+      const where = {};
+      if (category && typeof category === "string" && category.trim()) {
+        where.category = { equals: category.trim(), mode: "insensitive" };
+      }
 
-  const [total, skills] = await prisma.$transaction([
-    prisma.skill.count({ where }),
-    prisma.skill.findMany({
-      where,
-      skip,
-      take: safeLimit,
-      orderBy: { name: "asc" },
-    }),
-  ]);
+      if (search && typeof search === "string" && search.trim()) {
+        where.name = { contains: search.trim(), mode: "insensitive" };
+      }
 
-  return {
-    skills,
-    pagination: {
-      page: safePage,
-      limit: safeLimit,
-      total,
-      totalPages: Math.ceil(total / safeLimit),
+      const [total, skills] = await prisma.$transaction([
+        prisma.skill.count({ where }),
+        prisma.skill.findMany({
+          where,
+          skip,
+          take: safeLimit,
+          orderBy: { name: "asc" },
+        }),
+      ]);
+
+      return {
+        skills,
+        pagination: {
+          page: safePage,
+          limit: safeLimit,
+          total,
+          totalPages: Math.ceil(total / safeLimit),
+        },
+      };
     },
-  };
+    REDIS_CONFIG.ttl.CATALOG_SKILLS
+  );
 }
 
 /**

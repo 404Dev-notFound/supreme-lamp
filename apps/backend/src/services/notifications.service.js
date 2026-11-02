@@ -1,4 +1,5 @@
 const { prisma } = require("../lib/prisma");
+const { queues } = require("../lib/redis");
 
 class NotificationError extends Error {
   constructor(message, statusCode = 400, code = "NOTIFICATION_ERROR") {
@@ -121,11 +122,25 @@ async function createNotification({
   });
 }
 
+/**
+ * Enqueue notification into background BullMQ processing queue
+ */
+async function enqueueNotification(payload) {
+  return queues.dispatch.dispatchNotification(payload);
+}
+
+// Register background BullMQ worker for asynchronous notification delivery
+queues.registerWorker(queues.QUEUE_NAMES.NOTIFICATIONS, async (job) => {
+  const { userId, title, message, type, link } = job.data;
+  return createNotification({ userId, title, message, type, link });
+});
+
 module.exports = {
   listNotifications,
   markAsRead,
   markAllAsRead,
   deleteNotification,
   createNotification,
+  enqueueNotification,
   NotificationError,
 };
