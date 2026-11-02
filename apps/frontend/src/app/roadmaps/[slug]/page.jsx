@@ -6,6 +6,7 @@ import { useRouter, usePathname, useSearchParams } from "next/navigation";
 import {
   ArrowLeft,
   Compass,
+  Hammer,
   CheckCircle2,
   BookOpen,
   Lock,
@@ -213,6 +214,13 @@ export default function RoadmapDetailPage({ params }) {
         </div>
 
         <div className="flex items-center gap-4">
+          <Link
+            href="/project-tutorials"
+            className="text-sm font-medium text-zinc-300 hover:text-orange-400 transition-colors hidden md:flex items-center gap-1.5"
+          >
+            <Hammer className="w-4 h-4 text-orange-400" />
+            Project Tutorials
+          </Link>
           <button
             type="button"
             onClick={() => setResumeScreenerOpen(true)}

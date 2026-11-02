@@ -24,6 +24,7 @@ const { premiumResourcesRouter } = require("./routes/premiumResources.routes");
 const { adminRouter } = require("./routes/admin.routes");
 const { gatewayRouter } = require("./routes/gateway.routes");
 const { ragRouter } = require("./routes/rag.routes");
+const { projectTutorialsRouter } = require("./routes/projectTutorials.routes");
 const { csrfProtection } = require("./middleware/csrf");
 const { requireAuth, requireRole } = require("./middleware/auth.middleware");
 const {
@@ -275,6 +276,9 @@ app.use("/api/services", gatewayRouter);
 
 // 30. RAG Personalized Roadmap & Recommendation Routes
 app.use("/api/rag", ragRouter);
+
+// 31. Project-Building Tutorials Discovery & Progress Routes
+app.use("/api/project-tutorials", projectTutorialsRouter);
 
 // 31. Protected Mission Control Dashboard Route
 app.get("/api/dashboard", requireAuth, (req, res) => {

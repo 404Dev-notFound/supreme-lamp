@@ -38,6 +38,12 @@ export default function ResumeScreenerPage() {
 
         <div className="flex items-center gap-4">
           <Link
+            href="/project-tutorials"
+            className="text-sm font-medium text-zinc-300 hover:text-white transition-colors hidden sm:inline"
+          >
+            Project Tutorials
+          </Link>
+          <Link
             href="/roadmaps"
             className="text-sm font-medium text-zinc-300 hover:text-white transition-colors hidden sm:inline"
           >

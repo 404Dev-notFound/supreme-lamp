@@ -9,6 +9,7 @@ import {
   FileCheck,
   HeartPulse,
   Compass,
+  Hammer,
   ExternalLink,
   CheckCircle2,
   Sparkles,
@@ -196,6 +197,13 @@ export default function EcosystemPage() {
         </Link>
 
         <div className="hidden md:flex items-center gap-8 text-sm font-medium text-zinc-300">
+          <Link
+            href="/project-tutorials"
+            className="hover:text-amber-300 transition-colors flex items-center gap-1.5 text-zinc-300"
+          >
+            <Hammer className="w-4 h-4 text-orange-400" />
+            Project Tutorials
+          </Link>
           <Link
             href="/roadmaps"
             className="hover:text-amber-300 transition-colors flex items-center gap-1.5 text-zinc-300"

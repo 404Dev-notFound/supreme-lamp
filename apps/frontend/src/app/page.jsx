@@ -6,6 +6,7 @@ import {
   ArrowRight,
   BarChart,
   Compass,
+  Hammer,
   Cpu,
   Users,
   Code,
@@ -44,6 +45,13 @@ export default function LandingPage() {
           <span className="font-semibold text-lg tracking-tight">flowCTRL</span>
         </Link>
         <div className="hidden md:flex items-center gap-8 text-sm font-medium text-zinc-300">
+          <Link
+            href="/project-tutorials"
+            className="hover:text-amber-300 transition-colors flex items-center gap-1.5 text-zinc-300"
+          >
+            <Hammer className="w-4 h-4 text-orange-400" />
+            Project Tutorials
+          </Link>
           <Link
             href="/roadmaps"
             className="hover:text-amber-300 transition-colors flex items-center gap-1.5 text-zinc-200"
@@ -111,6 +119,13 @@ export default function LandingPage() {
             className="flex items-center gap-2 bg-white text-black px-6 py-3 rounded-full font-medium hover:bg-zinc-200 transition-all text-sm"
           >
             Start your journey <ArrowRight className="w-4 h-4" />
+          </Link>
+          <Link
+            href="/project-tutorials"
+            className="flex items-center gap-2 px-6 py-3 rounded-full font-medium text-zinc-300 hover:text-white hover:bg-white/5 transition-all text-sm cursor-pointer"
+          >
+            <Hammer className="w-4 h-4 text-orange-400" />
+            Project Tutorials
           </Link>
           <button
             type="button"

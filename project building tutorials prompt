@@ -1,0 +1,841 @@
+# MASTER IMPLEMENTATION PROMPT — PROJECT-BUILDING TUTORIALS
+
+Act as a principal software architect, senior full-stack engineer, database architect, UI/UX engineer, and technical content engineer.
+
+Your task is to build a complete, production-ready feature called **Project-Building Tutorials** inside the existing flowCTRL platform.
+
+This must be a fully independent feature, just like Resume Screener and Mental Health Score, with its own dedicated navigation button, page, backend integration, database structure, and user experience.
+
+Do not treat this as a simple collection of GitHub links. Build a structured project-based learning experience where users can discover projects, understand how they work, follow implementation steps, and build them independently.
+
+---
+
+# 1. WORKSPACE RESTRICTIONS — STRICT
+
+Main workspace:
+
+`D:\overall\dev\obsidian\projects and it's code\`
+
+### Primary implementation directory
+
+`D:\overall\dev\obsidian\projects and it's code\flowCTRL\`
+
+### Reference repository
+
+`D:\overall\dev\obsidian\projects and it's code\build-your-own-x\`
+
+### Rules
+
+* Read and analyze the Build Your Own X repository.
+* Use it as the primary reference for discovering project-building tutorials and learning resources.
+* You may inspect its directory structure, README, documentation, links, project categories, and license.
+* The reference repository is strictly READ-ONLY.
+* All implementation, code changes, documentation, assets, dependencies, migrations, and tests must remain inside `flowCTRL`.
+* Never modify, rename, move, delete, or install anything in the reference repository.
+* Never modify anything outside the `flowCTRL` directory.
+* Do not create or switch Git branches without asking for explicit permission first.
+* Do not merge branches without explicit permission.
+* Do not modify unrelated projects or existing features.
+
+If a requirement cannot be completed within these boundaries, stop and report the limitation.
+
+---
+
+# 2. FEATURE OBJECTIVE
+
+Create a dedicated flowCTRL feature:
+
+**Project-Building Tutorials**
+
+Purpose:
+
+Help developers learn by building real projects instead of only consuming theoretical tutorials.
+
+Users should be able to:
+
+1. Discover different project-building tutorials.
+2. Search for projects by name, technology, programming language, and category.
+3. Explore detailed project explanations.
+4. Understand what they will build and why.
+5. Follow structured, step-by-step building instructions.
+6. Access relevant documentation, GitHub repositories, and external learning resources.
+7. Understand the technologies and concepts involved.
+8. Track their project-building progress.
+9. Mark individual steps as completed.
+10. Resume unfinished projects whenever they return.
+
+The feature should make project-based learning a core part of flowCTRL.
+
+---
+
+# 3. REPOSITORY ANALYSIS AND CONTENT EXTRACTION
+
+Before writing implementation code, thoroughly inspect:
+
+`D:\overall\dev\obsidian\projects and it's code\build-your-own-x\`
+
+Analyze:
+
+* Repository README.
+* Project categories.
+* Programming languages.
+* Project titles and descriptions.
+* Tutorial references.
+* GitHub links.
+* Documentation links.
+* External learning resources.
+* Project difficulty where available.
+* Prerequisites where available.
+* Repository license and attribution requirements.
+
+### Content extraction requirements
+
+Build a structured catalog from the available repository content.
+
+Organize projects into meaningful categories, for example:
+
+* Web Development
+* Backend Development
+* Frontend Development
+* Programming Languages
+* Operating Systems
+* Databases
+* Networking
+* Compilers and Interpreters
+* Artificial Intelligence and Machine Learning
+* Developer Tools
+* Cybersecurity
+* Computer Science Fundamentals
+* Game Development
+* Systems Programming
+
+These are suggested categories, not mandatory assumptions. Use the actual repository content to determine the final structure.
+
+### Important content rules
+
+* Do not blindly copy the repository README into flowCTRL.
+* Do not reproduce large portions of third-party tutorials.
+* Create structured, independently written explanations and learning instructions.
+* Preserve original external tutorial and documentation links.
+* Validate links where possible.
+* Never invent a tutorial, repository, author, documentation page, or external reference.
+* Do not present an external tutorial as original flowCTRL content.
+* Maintain source provenance internally.
+* Inspect the repository license and comply with its attribution and redistribution requirements.
+* Do not remove legally required attribution.
+* Where information is unavailable, represent it as unavailable instead of fabricating it.
+
+The repository should serve as the initial knowledge source. Structure the extracted content so additional tutorials and learning resources can be added later without redesigning the system.
+
+---
+
+# 4. DEDICATED NAVIGATION BUTTON
+
+Add a separate navigation button:
+
+**Project Tutorials**
+
+This must be a standalone feature alongside existing flowCTRL features such as:
+
+* Resume Screener
+* Mental Health Score
+* Roadmaps
+* Other existing platform modules
+
+Requirements:
+
+* Add it to the appropriate existing navigation/sidebar/dashboard structure.
+* Use a suitable project-building icon from the project's existing icon library.
+* Follow existing navigation conventions.
+* Give it a dedicated route and page.
+* Ensure the button works across desktop and mobile layouts.
+* Apply consistent active, hover, focus, and disabled states.
+* Do not modify the existing functionality or navigation behavior of other features.
+
+Do not hide this feature inside the Roadmaps section. It must have its own identity and entry point.
+
+---
+
+# 5. PROJECT TUTORIALS LANDING PAGE
+
+Create a polished landing page for Project-Building Tutorials.
+
+### Header section
+
+Include:
+
+* Feature title.
+* Short explanation of project-based learning.
+* Search bar.
+* Project/category discovery controls.
+* A clear visual distinction between browsing and continuing an existing project.
+
+### Search functionality
+
+Users should be able to search by:
+
+* Project name.
+* Programming language.
+* Technology/framework.
+* Project category.
+* Project concept.
+* Related keywords.
+
+Search should return relevant results without requiring exact title matching.
+
+Implement search through the backend and database. Do not build a frontend-only filtering system that becomes disconnected from the actual catalog.
+
+### Filters
+
+Provide useful filters:
+
+* Category.
+* Programming language.
+* Technology.
+* Difficulty.
+* Project type.
+* Estimated duration, where reliable data exists.
+
+Allow users to combine filters.
+
+Include:
+
+* Clear filters.
+* Empty search state.
+* No-results state.
+* Loading state.
+* Error state.
+
+### Project cards
+
+Each project card should show relevant information:
+
+* Project title.
+* Short description.
+* Category.
+* Primary programming language.
+* Technology stack.
+* Difficulty level.
+* Estimated time, if available.
+* Number of building steps, if available.
+* User progress, when authenticated.
+
+Include a clear **Explore Project** action.
+
+Use actual catalog data, not hardcoded demonstration cards.
+
+---
+
+# 6. PROJECT DETAIL PAGE
+
+Every project must have its own detailed page.
+
+Suggested route:
+
+`/project-tutorials/[slug]`
+
+The page should contain:
+
+### A. Project Overview
+
+* Project title.
+* Description.
+* What the user will build.
+* Why this project is useful.
+* Real-world applications.
+* Expected final outcome.
+
+### B. Technical Information
+
+* Programming language.
+* Frameworks and libraries.
+* Technologies.
+* Tools required.
+* Prerequisites.
+* Difficulty level.
+* Estimated duration, when available.
+
+### C. Learning Outcomes
+
+Explain what the user will understand after completing the project.
+
+For example:
+
+* Understanding HTTP request handling.
+* Learning database operations.
+* Understanding how an interpreter works.
+* Implementing authentication.
+* Learning memory management.
+
+Learning outcomes must be relevant to the actual project.
+
+### D. Project Resources
+
+Provide verified references such as:
+
+* Original tutorial.
+* Relevant GitHub repository.
+* Official documentation.
+* Language documentation.
+* Framework documentation.
+* Additional learning resources.
+
+All external references must be clickable and open correctly.
+
+### E. Project Building Instructions
+
+This is the most important part.
+
+Every project should have a structured building workflow.
+
+Where source material supports it, divide the project into meaningful stages:
+
+1. Understand the project.
+2. Understand prerequisites.
+3. Set up the development environment.
+4. Initialize the project.
+5. Build the core functionality.
+6. Implement additional features.
+7. Test the implementation.
+8. Debug and improve.
+9. Complete and review the project.
+
+Do not force identical steps onto every project. Each tutorial should have a workflow appropriate to its actual technical requirements.
+
+---
+
+# 7. INTERACTIVE PROJECT-BUILDING WORKSPACE
+
+Create an interactive learning experience inside each project.
+
+The user should not have to read a long static article from beginning to end.
+
+### Step-based interface
+
+Display project-building steps in a structured layout.
+
+Each step should include:
+
+* Step title.
+* Detailed explanation.
+* Objective.
+* Why this step is necessary.
+* Required concepts.
+* Implementation guidance.
+* Relevant code examples, where appropriate and supported.
+* Documentation/reference links.
+* Expected result.
+* Completion status.
+
+### Progress tracking
+
+Allow authenticated users to:
+
+* Start a project.
+* Mark a step as completed.
+* Undo completion.
+* Continue from the last completed step.
+* View total project progress.
+* Resume the project later.
+* Mark a project as completed.
+
+Progress must be stored in PostgreSQL and associated with the authenticated user.
+
+Do not rely on localStorage as the primary progress database.
+
+### Learning experience
+
+The interface should clearly distinguish:
+
+* Not Started.
+* In Progress.
+* Completed.
+
+Show a progress indicator.
+
+Make navigation between steps easy.
+
+Preserve progress after refresh, logout/login, and across devices.
+
+---
+
+# 8. DATABASE DESIGN AND BACKEND INTEGRATION
+
+First inspect the existing Prisma schema and backend architecture.
+
+Design the database around the existing flowCTRL conventions.
+
+Potential entities may include:
+
+* ProjectTutorial
+* ProjectCategory
+* ProjectTechnology
+* ProjectStep
+* ProjectResource
+* UserProjectProgress
+* UserProjectStepProgress
+* ProjectBookmark
+
+These are conceptual suggestions. Reuse existing models where appropriate and avoid unnecessary duplication.
+
+### Database requirements
+
+* Correct relationships and foreign keys.
+* Appropriate unique constraints.
+* Useful indexes for search and filtering.
+* Proper cascade/restrict behavior.
+* User-specific progress.
+* Slug uniqueness.
+* Support for future catalog expansion.
+* Safe and version-controlled Prisma migrations.
+
+Do not delete or restructure unrelated database models.
+
+### Backend requirements
+
+Create clean, reusable backend services and API endpoints for:
+
+* Listing projects.
+* Searching projects.
+* Filtering projects.
+* Fetching project details.
+* Fetching project steps.
+* Fetching project resources.
+* Starting a project.
+* Updating step progress.
+* Fetching user progress.
+* Bookmarking projects, if implemented.
+* Completing projects.
+
+Requirements:
+
+* Validate all incoming data.
+* Enforce authentication where necessary.
+* Enforce ownership of user progress.
+* Prevent users from modifying another user's progress.
+* Use pagination for large catalogs.
+* Use appropriate error handling.
+* Follow existing response conventions.
+* Use Redis caching where appropriate, following the existing Redis architecture.
+* Invalidate relevant cache entries after catalog or progress changes.
+* Never cache private user progress in a shared cache key.
+
+PostgreSQL remains the source of truth.
+
+---
+
+# 9. REDIS INTEGRATION
+
+flowCTRL already has a centralized Redis infrastructure with separate cache and queue instances.
+
+Use the existing infrastructure.
+
+Do not create another Redis client or duplicate Redis architecture.
+
+Potential use cases:
+
+* Cache project catalog responses.
+* Cache project details.
+* Cache categories and technology filters.
+* Cache frequently accessed public tutorial data.
+* Reduce repeated database queries.
+
+Requirements:
+
+* Appropriate TTLs.
+* Clear cache namespaces.
+* Cache invalidation after content updates.
+* No cross-user data leakage.
+* No caching of sensitive user progress in shared keys.
+* Graceful handling of Redis unavailability.
+
+Do not introduce BullMQ jobs unless the feature genuinely requires background processing.
+
+---
+
+# 10. UI/UX AND DESIGN REQUIREMENTS
+
+The feature must look like a native part of flowCTRL.
+
+Design direction:
+
+* Clean.
+* Modern.
+* Professional.
+* Developer-focused.
+* Minimal.
+* Responsive.
+* Consistent with the existing platform.
+
+### Strict design rules
+
+* No unnecessary gradients.
+* Avoid excessive animations.
+* Avoid cluttered layouts.
+* Maintain proper spacing and typography.
+* Use existing design tokens and components.
+* Follow the existing dark/light theme behavior.
+* Use consistent cards, buttons, badges, and progress indicators.
+* Provide accessible contrast.
+* Support keyboard navigation.
+* Include proper loading skeletons and empty states.
+
+Do not redesign the entire flowCTRL application.
+
+Only build the required feature and the minimal navigation integration.
+
+---
+
+# 11. CONTENT MANAGEMENT AND FUTURE EXPANSION
+
+Build the catalog so new project tutorials can be added without changing the application architecture.
+
+The data model should support:
+
+* Multiple categories.
+* Multiple technologies per project.
+* Multiple resources per project.
+* Multiple building steps.
+* Difficulty levels.
+* External references.
+* Source provenance.
+* Published/draft status.
+* Future tutorial additions.
+
+Keep the initial catalog based on the inspected Build Your Own X repository.
+
+Do not fabricate a large catalog simply to make the page look populated.
+
+If additional projects are needed later, the architecture should support adding them through a controlled content-management or seeding workflow.
+
+---
+
+# 12. SECURITY REQUIREMENTS
+
+Perform a security review of the complete feature.
+
+Check:
+
+* Authentication and authorization.
+* IDOR vulnerabilities.
+* User progress ownership.
+* Input validation.
+* SQL injection prevention through safe Prisma usage.
+* XSS prevention.
+* Unsafe external URLs.
+* API rate limiting.
+* Search abuse.
+* Sensitive information exposure.
+* Cache isolation.
+* Unauthorized catalog modification.
+
+Only authorized administrative roles should be able to create, edit, publish, or delete tutorial content.
+
+Regular users should only be able to manage their own progress and bookmarks.
+
+---
+
+# 13. TESTING AND VERIFICATION
+
+Do not consider the feature complete merely because the UI renders.
+
+### Frontend testing
+
+Verify:
+
+* Navigation button.
+* Landing page.
+* Search.
+* Combined filters.
+* Project cards.
+* Project detail pages.
+* Step navigation.
+* Progress indicators.
+* Responsive layouts.
+* Loading and error states.
+* Empty states.
+
+### Backend testing
+
+Verify:
+
+* Project listing.
+* Search and filtering.
+* Pagination.
+* Project details.
+* Step retrieval.
+* Authentication.
+* Authorization.
+* Progress creation.
+* Progress updates.
+* Ownership protection.
+* Invalid request handling.
+
+### Database testing
+
+Verify:
+
+* Relationships.
+* Unique constraints.
+* Foreign keys.
+* Data persistence.
+* User-specific progress.
+* Migration safety.
+
+### Redis testing
+
+Verify:
+
+* Cache hits and misses.
+* Cache invalidation.
+* Redis failure behavior.
+* User-data isolation.
+
+### End-to-end testing
+
+Test the complete workflow:
+
+1. User opens Project Tutorials.
+2. User searches for a project.
+3. User filters the results.
+4. User opens a project.
+5. User reviews its overview and prerequisites.
+6. User starts building the project.
+7. User completes individual steps.
+8. User refreshes the page.
+9. User logs out and logs back in.
+10. User resumes the project.
+11. User completes the project.
+12. Progress remains correctly stored in PostgreSQL.
+
+Run existing backend tests and frontend build/tests after implementation.
+
+Do not break existing Resume Screener, Mental Health Score, Roadmaps, authentication, membership, or other platform functionality.
+
+---
+
+# 14. DOCUMENTATION
+
+Create feature documentation inside the `flowCTRL` directory.
+
+Document:
+
+* Feature architecture.
+* Repository analysis and content extraction.
+* Content structure.
+* Database models and relationships.
+* API endpoints.
+* Frontend routes and components.
+* Search and filtering.
+* Progress tracking.
+* Redis integration.
+* Security decisions.
+* Testing procedures.
+* How to add future tutorials.
+
+Keep documentation synchronized with the actual implementation.
+
+---
+
+# 15. IMPLEMENTATION APPROACH
+
+Follow this sequence.
+
+### Phase 1 — Existing Codebase Audit
+
+Inspect:
+
+* Frontend architecture.
+* Navigation.
+* Routing.
+* Existing feature patterns.
+* Backend architecture.
+* Authentication.
+* Prisma schema.
+* Redis implementation.
+* Testing setup.
+* Existing UI components.
+
+Also inspect the Build Your Own X repository and its license.
+
+Do not start implementation before understanding the existing architecture.
+
+### Phase 2 — Architecture Design
+
+Prepare a clear implementation plan covering:
+
+* Content extraction.
+* Data structure.
+* Database design.
+* Backend APIs.
+* Frontend routes.
+* Search and filtering.
+* Progress tracking.
+* Redis integration.
+* Security.
+* Testing.
+
+Ensure the design fits existing flowCTRL architecture.
+
+### Phase 3 — Content Preparation
+
+Extract and structure the available project catalog.
+
+Validate the source links and organize the content.
+
+Prepare clean, structured initial data.
+
+### Phase 4 — Backend and Database
+
+Implement the necessary Prisma models, migrations, services, and APIs.
+
+Ensure all relationships and data flows work correctly.
+
+### Phase 5 — Frontend
+
+Build:
+
+* Dedicated navigation button.
+* Project Tutorials landing page.
+* Search and filters.
+* Project cards.
+* Project detail pages.
+* Interactive building workspace.
+* Progress tracking interface.
+
+### Phase 6 — Integration
+
+Connect all frontend components to the actual backend APIs and PostgreSQL database.
+
+Integrate Redis through the existing centralized infrastructure.
+
+Remove temporary mocks and disconnected implementations before completion.
+
+### Phase 7 — Testing and Security
+
+Run all relevant tests and verify the complete end-to-end workflow.
+
+Fix issues through clean, coherent implementations rather than scattered patches.
+
+### Phase 8 — Final Audit
+
+Review the entire implementation.
+
+Verify that:
+
+* Every component is connected.
+* Every API is functional.
+* Every database relationship works.
+* Search uses actual catalog data.
+* Project steps load correctly.
+* User progress persists.
+* Redis caching works correctly.
+* Authorization is enforced.
+* Existing features remain functional.
+* Documentation matches the code.
+
+---
+
+# 16. STRICT ENGINEERING RULES
+
+1. No patchwork implementations.
+2. No duplicate components, APIs, services, or Redis clients.
+3. No unnecessary dependencies.
+4. No hardcoded fake project data in production.
+5. No disconnected frontend components.
+6. No mock APIs left in the completed feature.
+7. No fake progress tracking.
+8. No broken or fabricated external links.
+9. No destructive database operations.
+10. No unrelated refactoring.
+11. No changes outside the flowCTRL directory.
+12. No Git branch creation or switching without explicit permission.
+13. Preserve all existing flowCTRL features.
+14. Follow existing project conventions wherever possible.
+15. Prefer reusable, maintainable, type-safe implementations.
+16. Never claim a test passed unless it was actually executed.
+17. Clearly report any environment-dependent verification that could not be completed.
+
+If an existing implementation already satisfies a requirement, reuse it instead of rebuilding it.
+
+Do not rewrite working architecture simply to introduce a different pattern.
+
+---
+
+# 17. FINAL DELIVERABLE AND REPORT
+
+After completing the implementation, provide a detailed engineering report containing:
+
+### Feature Summary
+
+What was built and how users access it.
+
+### Repository Analysis
+
+* Number of projects discovered.
+* Categories identified.
+* Programming languages covered.
+* Number of valid external references.
+* Any unavailable or invalid source links.
+
+### Frontend
+
+* New routes.
+* Components.
+* Navigation integration.
+* Search and filtering.
+* Responsive behavior.
+
+### Backend
+
+* New APIs.
+* Services.
+* Authentication and authorization.
+
+### Database
+
+* New models.
+* Relationships.
+* Migrations.
+* Indexes.
+
+### Redis
+
+* Cache namespaces.
+* TTLs.
+* Invalidation strategy.
+* Failure handling.
+
+### Security
+
+* Security checks performed.
+* Authorization verification.
+* Issues discovered and resolved.
+
+### Testing
+
+* Backend test results.
+* Frontend test/build results.
+* Database tests.
+* Redis tests.
+* End-to-end test results.
+
+### Files Changed
+
+List all created, modified, and deleted files.
+
+### Remaining Limitations
+
+Clearly disclose anything not implemented or not verified.
+
+---
+
+# FINAL OBJECTIVE
+
+Build Project-Building Tutorials as a complete, independent, production-ready feature of flowCTRL.
+
+The experience should allow developers to discover a project, understand its concepts, access relevant resources, follow structured implementation instructions, and track their progress until completion.
+
+Treat this as a core flowCTRL product feature, not a temporary page or a collection of external links.
+
+**Analyze first. Architect properly. Implement cleanly. Integrate completely. Test thoroughly. Report honestly.**

@@ -3,7 +3,7 @@
 import React, { useState, useMemo, useEffect } from "react";
 import Link from "next/link";
 import { useRouter, usePathname, useSearchParams } from "next/navigation";
-import { Compass, Search, Sparkles, ArrowLeft, Lock } from "lucide-react";
+import { Compass, Search, Sparkles, ArrowLeft, Lock, Hammer } from "lucide-react";
 import DevRoadmapCard from "../../components/roadmap/DevRoadmapCard";
 import PremiumAccessPopup from "../../components/roadmap/PremiumAccessPopup";
 import UpgradeMembershipModal from "../../components/modals/UpgradeMembershipModal";
@@ -190,6 +190,13 @@ export default function RoadmapsCatalogPage() {
         </div>
 
         <div className="flex items-center gap-4">
+          <Link
+            href="/project-tutorials"
+            className="text-sm font-medium text-zinc-300 hover:text-orange-400 transition-colors hidden sm:flex items-center gap-1.5"
+          >
+            <Hammer className="w-4 h-4 text-orange-400" />
+            Project Tutorials
+          </Link>
           <button
             type="button"
             onClick={() => setResumeScreenerOpen(true)}

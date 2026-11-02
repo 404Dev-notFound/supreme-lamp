@@ -14,11 +14,11 @@ const REDIS_CONFIG = {
   keyPrefix: process.env.REDIS_KEY_PREFIX || "fc:",
 
   // Dedicated Queue Redis instance parameters (for BullMQ background processing isolation)
-  // When running separated instances, queue connects to redis-queue:6379 with noeviction policy
+  // When running separated instances, queue connects to redis-queue:6380 with noeviction policy
   queue: {
     url: process.env.REDIS_QUEUE_URL || process.env.REDIS_URL || null,
     host: process.env.REDIS_QUEUE_HOST || process.env.REDIS_HOST || "localhost",
-    port: parseInt(process.env.REDIS_QUEUE_PORT || (process.env.REDIS_QUEUE_URL ? "6379" : process.env.REDIS_PORT || "6379"), 10),
+    port: parseInt(process.env.REDIS_QUEUE_PORT || (process.env.REDIS_QUEUE_URL ? "6380" : "6380"), 10),
     password: process.env.REDIS_QUEUE_PASSWORD || process.env.REDIS_PASSWORD || undefined,
     db: parseInt(process.env.REDIS_QUEUE_DB || "0", 10),
   },
@@ -44,6 +44,8 @@ const REDIS_CONFIG = {
     ROADMAP_DETAIL: 3600,   // 1 hour - roadmap graph structure & topics
     PREMIUM_CATALOG: 3600,  // 1 hour - premium curriculum catalog
     PREMIUM_DETAIL: 1800,   // 30 minutes - premium resource detail & modules
+    PROJECT_TUTORIALS_CATALOG: 1800, // 30 minutes - public project tutorials catalog
+    PROJECT_TUTORIALS_DETAIL: 1800,  // 30 minutes - project tutorial details & steps
     DASHBOARD_STATS: 60,    // 1 minute - mission control aggregated metrics
     JOBS_LIST: 300,         // 5 minutes - job search listings & filters
     JOB_DETAIL: 600,        // 10 minutes - single job posting detail
@@ -58,6 +60,7 @@ const REDIS_CONFIG = {
   namespaces: {
     ROADMAPS: "roadmaps",
     PREMIUM: "premium",
+    PROJECT_TUTORIALS: "project_tutorials",
     JOBS: "jobs",
     STATS: "stats",
     SESSION: "session",

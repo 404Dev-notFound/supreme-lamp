@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import {
   Compass,
+  Hammer,
   ArrowRight,
   Sparkles,
   BarChart3,
@@ -58,6 +59,13 @@ export default function DashboardPage() {
             >
               <BarChart3 className="w-4 h-4 text-orange-400" />
               Mission Control
+            </Link>
+            <Link
+              href="/project-tutorials"
+              className="hover:text-amber-300 transition-colors flex items-center gap-1.5 text-zinc-300"
+            >
+              <Hammer className="w-4 h-4 text-orange-400" />
+              Project Tutorials
             </Link>
             <Link
               href="/roadmaps"

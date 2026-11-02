@@ -52,6 +52,17 @@ export const ECOSYSTEM_PRODUCTS = [
     repoUrl: "https://github.com/404Dev-notFound/jubilant-octo-potato",
   },
   {
+    name: "Project-Building Tutorials",
+    shortName: "BYOX",
+    tagline: "Build Real Technologies From First Principles",
+    description:
+      "Interactive step-by-step guides to build databases, OS, compilers, servers, and AI models from scratch.",
+    href: "/project-tutorials",
+    isExternal: false,
+    badge: "Core Feature",
+    officialUrl: "https://flowctrl.dev/project-tutorials",
+  },
+  {
     name: "ATS Resume Analysis",
     shortName: "ATS",
     tagline: "Automated Resume Screener & ATS Parser",
