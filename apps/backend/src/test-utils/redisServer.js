@@ -10,7 +10,7 @@ class TestRedisServer {
   constructor(options = {}) {
     this.port = options.port || 6389;
     this.host = options.host || "127.0.0.1";
-    this.password = options.password || "redispassword9555";
+    this.password = options.password || "fc_test_secret_k8s_9876543210_auth";
     this.store = new Map();
     this.ttls = new Map();
     this.server = null;
@@ -135,6 +135,21 @@ class TestRedisServer {
         socket.write("*0\r\n");
         break;
       }
+      case "BGSAVE": {
+        socket.write("+Background saving started\r\n");
+        break;
+      }
+      case "CONFIG": {
+        const sub = (args[1] || "").toUpperCase();
+        if (sub === "GET") {
+          const param = args[2] || "maxmemory-policy";
+          const val = param.includes("policy") ? "noeviction" : "268435456";
+          socket.write(`*2\r\n$${param.length}\r\n${param}\r\n$${val.length}\r\n${val}\r\n`);
+        } else {
+          socket.write("+OK\r\n");
+        }
+        break;
+      }
       case "INFO": {
         const info = [
           "# Server",
@@ -144,6 +159,12 @@ class TestRedisServer {
           `used_memory:${this.store.size * 64}`,
           "used_memory_human:1.2M",
           "used_memory_peak_human:1.5M",
+          "maxmemory:268435456",
+          "maxmemory_human:256.00M",
+          "maxmemory_policy:noeviction",
+          "# Persistence",
+          "rdb_last_bgsave_status:ok",
+          "aof_enabled:1",
           "# Clients",
           `connected_clients:${this.connections.size}`,
           "total_connections_received:10",
@@ -217,6 +238,36 @@ class TestRedisServer {
         }
         break;
       }
+      case "LPUSH": {
+        const key = args[1];
+        let list = this.store.get(key);
+        if (!Array.isArray(list)) list = [];
+        for (let i = 2; i < args.length; i++) {
+          list.unshift(args[i]);
+        }
+        this.store.set(key, list);
+        socket.write(`:${list.length}\r\n`);
+        break;
+      }
+      case "RPOP": {
+        const key = args[1];
+        const list = this.store.get(key);
+        if (Array.isArray(list) && list.length > 0) {
+          const val = list.pop();
+          const b = Buffer.from(val);
+          socket.write(`$${b.length}\r\n${val}\r\n`);
+        } else {
+          socket.write("$-1\r\n");
+        }
+        break;
+      }
+      case "LLEN": {
+        const key = args[1];
+        const list = this.store.get(key);
+        const len = Array.isArray(list) ? list.length : 0;
+        socket.write(`:${len}\r\n`);
+        break;
+      }
       case "SCAN": {
         const pattern = args[3] && args[2].toUpperCase() === "MATCH" ? args[3] : "*";
         const regex = new RegExp(
@@ -228,7 +279,6 @@ class TestRedisServer {
             matches.push(k);
           }
         }
-        // Return *2 -> cursor "0" -> array of matched keys
         let resp = `*2\r\n$1\r\n0\r\n*${matches.length}\r\n`;
         for (const m of matches) {
           const mb = Buffer.from(m);
@@ -250,4 +300,3 @@ class TestRedisServer {
 }
 
 module.exports = { TestRedisServer };
-

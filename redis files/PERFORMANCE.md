@@ -30,12 +30,10 @@ In `apps/backend/src/middleware/rateLimit.middleware.js`, rate limiting combines
 - The standard `KEYS *` command blocks the single-threaded Redis event loop, stalling all client connections while scanning millions of keys.
 - `SCAN` allows Redis to process background sweeps incrementally without interrupting concurrent read/write traffic.
 
-### 2.4 Bounded Memory Allocation (`allkeys-lru`)
-- Caps Redis RAM usage at `256mb`.
-- When reached, Redis automatically frees memory by dropping the least recently used keys first.
-- Guarantees zero out-of-memory container crashes.
+### 2.4 Dual Memory Allocation & Eviction Architecture
+- **Volatile Cache (`redis` on 6379)**: Configured with `maxmemory 256mb` and `maxmemory-policy allkeys-lru`. Automatically frees memory under pressure by evicting stale cache items without dropping connections.
+- **Durable Queues (`redis-queue` on 6380)**: Configured with `maxmemory 256mb` and `maxmemory-policy noeviction` with AOF persistence. Prevents background BullMQ jobs, retries, and dead letters from being silently dropped under cache spikes.
 
 ### 2.5 Connection Reuse & Pool Architecture
 - The application reuses a single persistent TCP connection for general caching and rate limiting.
 - Dedicated independent connections are created only where mandatory by design (BullMQ workers, blocking stream commands), preventing head-of-line blocking.
-

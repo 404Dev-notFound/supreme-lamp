@@ -4,7 +4,7 @@
  */
 
 const REDIS_CONFIG = {
-  // Connection parameters
+  // Primary connection parameters (Cache, Sessions, Rate Limiting)
   url: process.env.REDIS_URL || null,
   host: process.env.REDIS_HOST || "localhost",
   port: parseInt(process.env.REDIS_PORT || "6379", 10),
@@ -12,6 +12,16 @@ const REDIS_CONFIG = {
   db: parseInt(process.env.REDIS_DB || "0", 10),
   tls: process.env.REDIS_TLS === "true" ? {} : undefined,
   keyPrefix: process.env.REDIS_KEY_PREFIX || "fc:",
+
+  // Dedicated Queue Redis instance parameters (for BullMQ background processing isolation)
+  // When running separated instances, queue connects to redis-queue:6379 with noeviction policy
+  queue: {
+    url: process.env.REDIS_QUEUE_URL || process.env.REDIS_URL || null,
+    host: process.env.REDIS_QUEUE_HOST || process.env.REDIS_HOST || "localhost",
+    port: parseInt(process.env.REDIS_QUEUE_PORT || (process.env.REDIS_QUEUE_URL ? "6379" : process.env.REDIS_PORT || "6379"), 10),
+    password: process.env.REDIS_QUEUE_PASSWORD || process.env.REDIS_PASSWORD || undefined,
+    db: parseInt(process.env.REDIS_QUEUE_DB || "0", 10),
+  },
 
   // Connection timeouts & retries
   connectTimeout: parseInt(process.env.REDIS_CONNECT_TIMEOUT_MS || "5000", 10),
@@ -78,4 +88,3 @@ module.exports = {
   REDIS_CONFIG,
   buildKey,
 };
-

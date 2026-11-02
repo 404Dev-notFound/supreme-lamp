@@ -59,4 +59,16 @@ class RAGSettings(BaseSettings):
     COLLECTION_VERSION: str = os.getenv("RAG_COLLECTION_VERSION", "v1")
     EMBEDDING_VERSION: str = os.getenv("RAG_EMBEDDING_VERSION", "v1")
 
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+        if self.ENVIRONMENT == "production" and self.REDIS_PASSWORD in [
+            "redispassword9555",
+            "password",
+            "default",
+            "123456",
+        ]:
+            raise ValueError(
+                "FATAL SECURITY ERROR: In production, REDIS_PASSWORD cannot use default credentials."
+            )
+
 settings = RAGSettings()

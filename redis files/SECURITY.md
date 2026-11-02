@@ -17,7 +17,7 @@ flowCTRL implements multi-layered security controls comparable to Google Cloud M
     redis-server
     --bind 0.0.0.0
     --protected-mode yes
-    --requirepass ${REDIS_PASSWORD:-redispassword9555}
+    --requirepass ${REDIS_PASSWORD:?REDIS_PASSWORD must be set in environment}
   ```
 - **Internal Interface Listening**: Binding to `0.0.0.0` inside the container ensures Redis listens on the virtual bridge interface (`eth0`) accessible to authorized application containers (`backend`) via service discovery (`redis:6379`).
 - **Protected Mode & Auth**: Protected mode is actively enabled with `--requirepass`.

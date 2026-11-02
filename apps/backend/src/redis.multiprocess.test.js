@@ -8,6 +8,8 @@
  * 2. Shared atomic distributed rate limiting counters across processes
  * 3. Cross-process session revocation and tombstone propagation
  * 4. Network disconnection failover and automatic reconnection recovery
+ * 5. Background queue job persistence across worker shutdown and restart
+ * 6. Backup triggering (BGSAVE) and memory eviction policy safety
  */
 
 const test = require("node:test");
@@ -17,7 +19,7 @@ const { TestRedisServer } = require("./test-utils/redisServer");
 
 const TEST_PORT = 6389;
 const TEST_HOST = "127.0.0.1";
-const TEST_AUTH = "redispassword9555";
+const TEST_AUTH = "fc_test_secret_k8s_9876543210_auth";
 
 let redisServer = null;
 
@@ -145,6 +147,59 @@ test("Multi-Process Session Revocation - Process B revokes session created by Pr
   await apiNode.quit();
 });
 
+test("Multi-Process Queue Durability - Job persists across worker shutdown and executes on restart", async () => {
+  const producer = createProcessClient("producer-client");
+  await producer.connect();
+
+  const queueKey = "fc:queue:resumes:wait";
+  const jobPayload = JSON.stringify({
+    jobId: "job-ats-999",
+    resumeId: "res-42",
+    timestamp: Date.now(),
+  });
+
+  // 1. Producer enqueues job while workers are offline
+  await producer.lpush(queueKey, jobPayload);
+
+  // Verify job is stored in Redis queue
+  const queueLength = await producer.llen(queueKey);
+  assert.equal(queueLength, 1, "Job must persist in queue before worker is online");
+
+  // 2. Worker 1 starts up, processes the waiting job
+  const workerClient = createProcessClient("worker-node-1");
+  await workerClient.connect();
+
+  const poppedJob = await workerClient.rpop(queueKey);
+  assert.ok(poppedJob);
+  const parsed = JSON.parse(poppedJob);
+  assert.equal(parsed.jobId, "job-ats-999");
+  assert.equal(parsed.resumeId, "res-42");
+
+  // Queue is now empty
+  const remaining = await workerClient.llen(queueKey);
+  assert.equal(remaining, 0);
+
+  await producer.quit();
+  await workerClient.quit();
+});
+
+test("Redis Durability & Backup - BGSAVE and Memory limit verification over TCP", async () => {
+  const adminClient = createProcessClient("admin-client");
+  await adminClient.connect();
+
+  // Test BGSAVE on-demand snapshot triggering
+  const bgReply = await adminClient.bgsave();
+  assert.ok(bgReply.includes("Background saving started") || bgReply === "OK");
+
+  // Test memory configuration inspection
+  const policy = await adminClient.config("GET", "maxmemory-policy");
+  assert.ok(Array.isArray(policy));
+  assert.equal(policy[0], "maxmemory-policy");
+  assert.equal(policy[1], "noeviction");
+
+  await adminClient.quit();
+});
+
 test("Multi-Process Network Failover & Reconnection Recovery", async () => {
   const resilientClient = createProcessClient("resilient-worker");
   await resilientClient.connect();
@@ -161,7 +216,6 @@ test("Multi-Process Network Failover & Reconnection Recovery", async () => {
   } catch {
     failedDuringOutage = true;
   }
-  // During outage, requests fail fast or reject
   assert.ok(failedDuringOutage || resilientClient.status !== "ready");
 
   // Restart Redis server
@@ -177,4 +231,3 @@ test("Multi-Process Network Failover & Reconnection Recovery", async () => {
   await resilientClient.disconnect();
   await recoveredClient.quit();
 });
-

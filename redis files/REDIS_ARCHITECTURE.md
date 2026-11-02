@@ -4,6 +4,10 @@
 
 flowCTRL utilizes Redis 7 as an enterprise-tier centralized in-memory caching, distributed rate-limiting, and asynchronous message broker layer positioned between the Next.js frontend, Express backend, and PostgreSQL 18 database engine.
 
+To guarantee that queue data cannot be silently evicted as disposable cache data under memory pressure, flowCTRL employs a **Dual-Instance Separation Architecture**:
+1. **`redis` (Cache Instance)**: Dedicated to volatile cache-aside, session acceleration, and rate limiting with `allkeys-lru` eviction policy.
+2. **`redis-queue` (Queue Instance)**: Dedicated to BullMQ durable background processing with `noeviction` policy and Append-Only File (AOF) persistence.
+
 ```mermaid
 flowchart TD
     Client["Client (Web Browser / Next.js)"]
@@ -24,8 +28,12 @@ flowchart TD
         Services["Domain Services (Roadmaps, Jobs, Admin, RAG)"]
     end
     
-    subgraph CacheTier ["In-Memory Data Tier"]
-        RedisServer[("Redis 7 (Alpine Linux)")]
+    subgraph CacheTier ["Cache & Session Tier (Instance 1: Port 6379)"]
+        RedisCache[("Redis 7 Cache (allkeys-lru / RDB)")]
+    end
+
+    subgraph QueueTier ["Durable Background Queue Tier (Instance 2: Port 6380)"]
+        RedisQueue[("Redis 7 BullMQ (noeviction / AOF + RDB)")]
     end
     
     subgraph DataTier ["Authoritative Persistence Tier"]
@@ -34,19 +42,19 @@ flowchart TD
 
     Client -->|HTTP / HTTPS| Router
     Router --> RateLimiter
-    RateLimiter -->|Atomic INCR / Pipeline| RedisServer
+    RateLimiter -->|Atomic INCR / Pipeline| RedisCache
     RateLimiter -.->|Fallback| MemFallback
     Router --> SessionGuard
-    SessionGuard -->|L1 Session Cache (5m)| RedisServer
+    SessionGuard -->|L1 Session Cache (5m)| RedisCache
     SessionGuard -->|L2 Authoritative Check| PostgresDB
     Router --> Services
     Services -->|Cache-Aside getOrSet| CacheEngine
-    CacheEngine -->|Read Hit| RedisServer
+    CacheEngine -->|Read Hit| RedisCache
     CacheEngine -->|Read Miss| PostgresDB
     CacheEngine -.->|Outage Fallback| MemFallback
     Services -->|Enqueue Asynchronous Task| QueueMgr
-    QueueMgr -->|Dispatch Job| RedisServer
-    QueueMgr -.->|Inline Fallback| Services
+    QueueMgr -->|Durable Persistence| RedisQueue
+    QueueMgr -.->|Synchronous Fallback| Services
 ```
 
 ---
@@ -54,29 +62,26 @@ flowchart TD
 ## 2. Component Breakdown
 
 ### 2.1 Connection & Lifecycle Manager (`client.js`)
-- Singleton `ioredis` client instance initialized once during process boot.
-- Connection parameters extracted dynamically from environment (`REDIS_URL`, `REDIS_HOST`, `REDIS_PORT`, `REDIS_PASSWORD`, `REDIS_TLS`).
+- Singleton `ioredis` client instance initialized once during process boot for general caching and rate limiting.
+- Dedicated client factory for BullMQ queues targeting the isolated `redis-queue` instance (`REDIS_QUEUE_URL` / `REDIS_QUEUE_PORT: 6380`).
 - Non-blocking asynchronous connect (`lazyConnect: true`) ensures backend starts instantly even if Redis is unreachable.
 - Automatic exponential backoff retry with jitter (`initialDelay: 200ms`, `maxDelay: 3000ms`, `maxAttempts: 5`).
-- Circuit-breaking logging: warns once on connection degradation and prevents terminal log flooding.
-- Process signal listeners (`SIGTERM`, `SIGINT`) execute `quit()` for clean connection draining during container restarts.
+- **Production Startup Security Guard**: Startup immediately aborts with a fatal error if credentials are empty or equal to default insecure passwords (`redispassword9555`).
 
-### 2.2 Resilient Cache-Aside Engine (`cache.js`)
-- Encapsulates JSON serialization/deserialization transparently.
-- Implements single-flight promise memoization (`inflightPromises`) to prevent cache stampedes under high concurrency.
-- Provides non-blocking batch invalidation (`delPattern`) using Redis `SCAN` (100 keys per cursor step) to prevent latency spikes caused by `KEYS *`.
-- Built-in `MemoryFallbackStore` with automatic TTL sweep every 120 seconds guarantees zero service interruption if Redis goes offline.
+### 2.2 Cache Engine & Race Condition Interceptor (`cache.js`)
+- **Single-Flight Stampede Protection**: In-flight promise registry guarantees exactly one database execution during concurrent cold key queries.
+- **Invalidation-Aware CAS Timestamp Guard**: Records invalidation tombstones (`fc:inv:<key>`); aborts stale cache writes if an update occurred while a database query was in flight.
 
-### 2.3 BullMQ Background Processing (`queues.js`)
-- Dedicated worker connection factory preventing command interference with general cache traffic.
-- Four distinct queues:
-  - `resume-analysis`: Asynchronous resume parsing and ATS heuristic/AI evaluation.
-  - `notifications`: Asynchronous dispatch of email and in-app alerts.
-  - `rag-indexing`: Background document chunking and vector cache warmup.
-  - `cache-invalidation`: Wide-pattern distributed cache purges.
-- Fallback queue simulator (`MemoryQueueFallback`) executes jobs inline on `setImmediate` when Redis is disconnected.
+### 2.3 Durable Background Queue Manager (`queues.js`)
+- **Zero-False-Queuing**: When Redis is online, jobs persist to BullMQ queues with AOF persistence. When offline, executes synchronously with explicit `{ queued: false, synchronous: true, mode: "synchronous_fallback", degraded: true }`.
+- **`noeviction` Guarantee**: BullMQ keys are isolated from the cache; Redis will throw an OOM error rather than silently evicting waiting jobs.
+- **Dead-Letter Retention**: Up to 1,000 failed jobs retained for 7 days.
 
-### 2.4 Metrics & Observability (`metrics.js`)
-- In-memory telemetry tracker measuring lookups, hits, misses, sets, deletes, errors, fallback activations, and command latency.
-- Accessible via `/api/health/redis` endpoint and Prometheus exporter.
+---
 
+## 3. High-Availability & Disaster Recovery
+
+- **Dual Volume Mounts**:
+  - `flowctrl_redis_data`: Cache snapshots (`dump.rdb`).
+  - `flowctrl_redis_queue_data`: Append-Only File (`appendonlydir/`) and RDB snapshots.
+- **Transparent Degraded Fallback**: If both Redis instances are unavailable, public read routes serve directly from PostgreSQL and the local in-memory store without throwing 500 errors.

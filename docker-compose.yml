@@ -6,7 +6,7 @@ services:
       - "no-new-privileges:true"
     environment:
       POSTGRES_USER: ${POSTGRES_USER:-postgres}
-      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgrespassword9555}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?POSTGRES_PASSWORD must be set in environment}
       POSTGRES_DB: ${POSTGRES_DB:-flowCTRL}
     ports:
       # Bind strictly to local loopback interface - never expose database to 0.0.0.0 public interface
@@ -22,6 +22,8 @@ services:
     networks:
       - flowctrl_internal
 
+  # Dedicated Redis Instance 1: Volatile Caching, Session Acceleration & Rate Limiting
+  # Configured with allkeys-lru eviction for disposable cache entries
   redis:
     image: redis:7-alpine
     restart: always
@@ -31,7 +33,7 @@ services:
       redis-server
       --bind 0.0.0.0
       --protected-mode yes
-      --requirepass ${REDIS_PASSWORD:-redispassword9555}
+      --requirepass ${REDIS_PASSWORD:?REDIS_PASSWORD must be set in environment}
       --maxmemory 256mb
       --maxmemory-policy allkeys-lru
       --save 900 1
@@ -40,14 +42,52 @@ services:
       --timeout 0
       --tcp-keepalive 300
     environment:
-      REDIS_PASSWORD: ${REDIS_PASSWORD:-redispassword9555}
+      REDIS_PASSWORD: ${REDIS_PASSWORD:?REDIS_PASSWORD must be set in environment}
     ports:
       # Bind strictly to local loopback interface for host development; never expose Redis on 0.0.0.0
       - "127.0.0.1:6379:6379"
     volumes:
       - flowctrl_redis_data:/data
     healthcheck:
-      test: ["CMD", "redis-cli", "-a", "${REDIS_PASSWORD:-redispassword9555}", "--no-auth-warning", "ping"]
+      test: ["CMD", "redis-cli", "-a", "${REDIS_PASSWORD:?REDIS_PASSWORD must be set in environment}", "--no-auth-warning", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+      start_period: 5s
+    networks:
+      - flowctrl_internal
+
+  # Dedicated Redis Instance 2: BullMQ Background Queue & Worker Durability
+  # Configured with NOEVICTION policy and Append-Only File (AOF) persistence
+  # Guarantees background jobs cannot be silently evicted as disposable cache
+  redis-queue:
+    image: redis:7-alpine
+    restart: always
+    security_opt:
+      - "no-new-privileges:true"
+    command: >
+      redis-server
+      --bind 0.0.0.0
+      --protected-mode yes
+      --requirepass ${REDIS_PASSWORD:?REDIS_PASSWORD must be set in environment}
+      --maxmemory 256mb
+      --maxmemory-policy noeviction
+      --appendonly yes
+      --appendfsync everysec
+      --save 900 1
+      --save 300 10
+      --tcp-backlog 511
+      --timeout 0
+      --tcp-keepalive 300
+    environment:
+      REDIS_PASSWORD: ${REDIS_PASSWORD:?REDIS_PASSWORD must be set in environment}
+    ports:
+      # Bind strictly to local loopback interface on dedicated port 6380
+      - "127.0.0.1:6380:6379"
+    volumes:
+      - flowctrl_redis_queue_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "-a", "${REDIS_PASSWORD:?REDIS_PASSWORD must be set in environment}", "--no-auth-warning", "ping"]
       interval: 5s
       timeout: 3s
       retries: 5
@@ -65,11 +105,15 @@ services:
     environment:
       PORT: 5000
       NODE_ENV: production
-      DATABASE_URL: postgresql://${POSTGRES_USER:-postgres}:${POSTGRES_PASSWORD:-postgrespassword9555}@postgres:5432/${POSTGRES_DB:-flowCTRL}
-      REDIS_URL: redis://:${REDIS_PASSWORD:-redispassword9555}@redis:6379/0
+      DATABASE_URL: postgresql://${POSTGRES_USER:-postgres}:${POSTGRES_PASSWORD:?POSTGRES_PASSWORD must be set in environment}@postgres:5432/${POSTGRES_DB:-flowCTRL}
+      REDIS_URL: redis://:${REDIS_PASSWORD:?REDIS_PASSWORD must be set in environment}@redis:6379/0
       REDIS_HOST: redis
       REDIS_PORT: 6379
-      REDIS_PASSWORD: ${REDIS_PASSWORD:-redispassword9555}
+      REDIS_PASSWORD: ${REDIS_PASSWORD:?REDIS_PASSWORD must be set in environment}
+      REDIS_QUEUE_URL: redis://:${REDIS_PASSWORD:?REDIS_PASSWORD must be set in environment}@redis-queue:6379/0
+      REDIS_QUEUE_HOST: redis-queue
+      REDIS_QUEUE_PORT: 6379
+      REDIS_QUEUE_PASSWORD: ${REDIS_PASSWORD:?REDIS_PASSWORD must be set in environment}
       JWT_SECRET: ${JWT_SECRET:?JWT_SECRET must be set in environment}
       NEXTAUTH_SECRET: ${NEXTAUTH_SECRET:?NEXTAUTH_SECRET must be set in environment}
       COOKIE_SECURE: "false"
@@ -81,6 +125,8 @@ services:
       postgres:
         condition: service_healthy
       redis:
+        condition: service_healthy
+      redis-queue:
         condition: service_healthy
     healthcheck:
       test: ["CMD-SHELL", "wget --no-verbose --tries=1 --spider http://127.0.0.1:5000/api/health || exit 1"]
@@ -103,7 +149,7 @@ services:
       NODE_ENV: production
       NEXT_PUBLIC_API_URL: http://localhost:5000
       INTERNAL_BACKEND_URL: http://backend:5000
-      DATABASE_URL: postgresql://${POSTGRES_USER:-postgres}:${POSTGRES_PASSWORD:-postgrespassword9555}@postgres:5432/${POSTGRES_DB:-flowCTRL}
+      DATABASE_URL: postgresql://${POSTGRES_USER:-postgres}:${POSTGRES_PASSWORD:?POSTGRES_PASSWORD must be set in environment}@postgres:5432/${POSTGRES_DB:-flowCTRL}
       NEXTAUTH_URL: http://localhost:3000
       NEXTAUTH_SECRET: ${NEXTAUTH_SECRET:?NEXTAUTH_SECRET must be set in environment}
     ports:
@@ -134,3 +180,4 @@ networks:
 volumes:
   flowctrl_postgres_data:
   flowctrl_redis_data:
+  flowctrl_redis_queue_data:

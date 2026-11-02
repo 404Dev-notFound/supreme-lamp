@@ -7,6 +7,11 @@ const INSECURE_DEFAULT_SECRETS = [
   "super-secret-key-please-change_yes-sir-i-have-changed-it",
   "super-secret-refresh-key-please-change",
   "915b693d6ec72978dff75123dc5380fa57818c203cc7a1676d79aee95818235eb50d1d5c65db85e60d9954ee6c2eddb8",
+  "redispassword9555",
+  "postgrespassword9555",
+  "password",
+  "123456",
+  "default",
 ];
 
 const nodeEnv = process.env.NODE_ENV || "development";
@@ -22,14 +27,6 @@ if (isNaN(parsedPort) || parsedPort < 1 || parsedPort > 65535) {
 const resolvedJwtSecret = process.env.JWT_SECRET || process.env.NEXTAUTH_SECRET;
 const resolvedRefreshSecret = process.env.JWT_REFRESH_SECRET;
 
-if (isProduction) {
-  if (!resolvedJwtSecret || INSECURE_DEFAULT_SECRETS.includes(resolvedJwtSecret)) {
-    throw new Error(
-      "FATAL SECURITY CONFIGURATION: In production, JWT_SECRET / NEXTAUTH_SECRET must be set to a strong, uncommitted secret value.",
-    );
-  }
-}
-
 const databaseUrl =
   process.env.DATABASE_URL ||
   "postgresql://postgres:postgrespassword9555@localhost:5432/flowCTRL";
@@ -38,6 +35,37 @@ if (!databaseUrl.startsWith("postgresql://") && !databaseUrl.startsWith("postgre
   throw new Error(
     "Invalid DATABASE_URL environment variable. Must begin with postgresql:// or postgres://",
   );
+}
+
+if (isProduction) {
+  if (!resolvedJwtSecret || INSECURE_DEFAULT_SECRETS.includes(resolvedJwtSecret)) {
+    throw new Error(
+      "FATAL SECURITY CONFIGURATION: In production, JWT_SECRET / NEXTAUTH_SECRET must be set to a strong, uncommitted secret value.",
+    );
+  }
+
+  // Production Redis secret enforcement
+  const redisUrl = process.env.REDIS_URL;
+  let parsedRedisPass = process.env.REDIS_PASSWORD;
+  if (!parsedRedisPass && redisUrl) {
+    try {
+      parsedRedisPass = new URL(redisUrl).password;
+    } catch {
+      // Ignore URL parse error; will be caught by client connection
+    }
+  }
+
+  if (!parsedRedisPass || INSECURE_DEFAULT_SECRETS.includes(parsedRedisPass)) {
+    throw new Error(
+      "FATAL SECURITY CONFIGURATION: In production, REDIS_PASSWORD (or password in REDIS_URL) must be set to a strong, uncommitted secret value. Insecure default or blank credentials are prohibited.",
+    );
+  }
+
+  if (databaseUrl.includes("postgrespassword9555")) {
+    throw new Error(
+      "FATAL SECURITY CONFIGURATION: In production, DATABASE_URL must not contain insecure default credentials ('postgrespassword9555').",
+    );
+  }
 }
 
 const allowedOrigins = [

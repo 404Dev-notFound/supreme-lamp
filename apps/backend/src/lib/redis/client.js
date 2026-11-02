@@ -11,6 +11,42 @@ let primaryClient = null;
 let isConnected = false;
 let hasLoggedConnectionWarning = false;
 
+const INSECURE_REDIS_PASSWORDS = [
+  "redispassword9555",
+  "password",
+  "default",
+  "123456",
+  "admin",
+  "root",
+];
+
+/**
+ * Validate that production environments never execute with missing or default Redis credentials
+ */
+function validateRedisCredentials() {
+  if (process.env.NODE_ENV === "production") {
+    let pass = REDIS_CONFIG.password;
+    if (!pass && REDIS_CONFIG.url) {
+      try {
+        pass = new URL(REDIS_CONFIG.url).password;
+      } catch {
+        // Fall through to pass check
+      }
+    }
+
+    if (!pass) {
+      throw new Error(
+        "FATAL SECURITY CONFIGURATION: In production, REDIS_PASSWORD (or password in REDIS_URL) must be set. Running unauthenticated Redis in production is strictly prohibited."
+      );
+    }
+    if (INSECURE_REDIS_PASSWORDS.includes(pass)) {
+      throw new Error(
+        "FATAL SECURITY CONFIGURATION: In production, REDIS_PASSWORD cannot use an insecure default credential (e.g. 'redispassword9555'). Set a strong cryptographically random secret."
+      );
+    }
+  }
+}
+
 /**
  * Build exponential backoff with jitter retry strategy
  */
@@ -73,6 +109,9 @@ function initRedisClient() {
   if (primaryClient) {
     return primaryClient;
   }
+
+  // Validate credentials in production
+  validateRedisCredentials();
 
   // If no Redis URL or Host is provided and explicitly running in local dev without Redis, return null
   const hasConfig = Boolean(process.env.REDIS_URL || process.env.REDIS_HOST);
@@ -137,19 +176,30 @@ function initRedisClient() {
 
 /**
  * Create a dedicated independent Redis connection (for BullMQ queues, Pub/Sub, or locks)
+ * When targeting queues/workers, supports dedicated isolated Redis instances
  */
 function createDedicatedClient(label = "worker") {
+  const isQueue = label.startsWith("queue:") || label.startsWith("worker:");
+  const targetConfig = isQueue && REDIS_CONFIG.queue ? REDIS_CONFIG.queue : REDIS_CONFIG;
+
   try {
     const options = buildRedisOptions({
       maxRetriesPerRequest: null, // Required by BullMQ
       enableReadyCheck: false,
     });
 
-    const client = REDIS_CONFIG.url
-      ? new Redis(REDIS_CONFIG.url, options)
+    if (targetConfig.password) {
+      options.password = targetConfig.password;
+    }
+    if (targetConfig.db !== undefined) {
+      options.db = targetConfig.db;
+    }
+
+    const client = targetConfig.url
+      ? new Redis(targetConfig.url, options)
       : new Redis({
-          host: REDIS_CONFIG.host,
-          port: REDIS_CONFIG.port,
+          host: targetConfig.host,
+          port: targetConfig.port,
           ...options,
         });
 
@@ -262,5 +312,5 @@ module.exports = {
   pingRedis,
   getRedisInfo,
   closeRedisConnections,
+  validateRedisCredentials,
 };
-

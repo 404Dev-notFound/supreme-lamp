@@ -14,7 +14,7 @@ You run a local Redis instance (via Docker or standalone binary) on port 6379:
    ```env
    REDIS_HOST=localhost
    REDIS_PORT=6379
-   REDIS_PASSWORD=redispassword9555
+   REDIS_PASSWORD=replace-with-your-redis-password
    REDIS_KEY_PREFIX=fc:
    ```
 3. Start the Express backend:

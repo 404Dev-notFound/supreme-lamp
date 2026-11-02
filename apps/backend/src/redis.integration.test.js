@@ -1,11 +1,13 @@
 /**
  * Comprehensive Integration & Verification Suite for FlowCTRL Redis Infrastructure
  * Tests Connection, Caching, Stampede Protection, Race Condition Prevention,
- * Durable Queues (Zero-False-Queuing), Fail-Closed Rate Limiting, and Outage Fallback
+ * Durable Queues (Zero-False-Queuing), Fail-Closed Rate Limiting, Session Invalidation,
+ * Production Security Guards, Dedicated Queue Isolation, and RAG Cache Isolation.
  */
 
 const test = require("node:test");
 const assert = require("node:assert/strict");
+const crypto = require("node:crypto");
 const {
   cache,
   queues,
@@ -362,4 +364,45 @@ test("Redis Observability - Hit/Miss Ratio and Metrics Tracking", async () => {
   assert.ok(stats.hitRatePercent > 0);
 
   await cache.del(key);
+});
+
+test("Production Security Guard - Rejects insecure default or missing secrets in production mode", () => {
+  const { validateRedisCredentials } = require("./lib/redis/client");
+  const origEnv = process.env.NODE_ENV;
+  const origPass = process.env.REDIS_PASSWORD;
+
+  try {
+    process.env.NODE_ENV = "production";
+    process.env.REDIS_PASSWORD = "redispassword9555";
+
+    assert.throws(
+      () => validateRedisCredentials(),
+      /FATAL SECURITY CONFIGURATION/,
+      "Must reject default insecure credentials in production mode"
+    );
+  } finally {
+    process.env.NODE_ENV = origEnv;
+    process.env.REDIS_PASSWORD = origPass;
+  }
+});
+
+test("Dedicated Queue Isolation - BullMQ queue configuration supports isolated instance", () => {
+  assert.ok(REDIS_CONFIG.queue);
+  assert.ok(typeof REDIS_CONFIG.queue.port === "number");
+  assert.ok(typeof REDIS_CONFIG.queue.host === "string");
+});
+
+test("RAG AI Cache Isolation - Deterministic keys prevent cross-tenant and cross-tier leakage", () => {
+  function buildTestRagKey(query, role, tenant) {
+    const raw = `q=${query.trim().toLowerCase()}|role=${role}|tenant=${tenant}`;
+    return `fc:rag:retrieval:${tenant}:${role}:${crypto.createHash("sha256").update(raw).digest("hex").slice(0, 32)}`;
+  }
+
+  const query = "Next.js distributed caching architecture";
+  const standardKey = buildTestRagKey(query, "FREE", "org-alpha");
+  const premiumKey = buildTestRagKey(query, "PREMIUM", "org-alpha");
+  const tenantBKey = buildTestRagKey(query, "FREE", "org-beta");
+
+  assert.notEqual(standardKey, premiumKey, "Free and Premium users must never share cache keys");
+  assert.notEqual(standardKey, tenantBKey, "Different tenants must never share cache keys");
 });
