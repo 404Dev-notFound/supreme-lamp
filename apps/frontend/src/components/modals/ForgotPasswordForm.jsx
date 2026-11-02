@@ -26,9 +26,7 @@ export default function ForgotPasswordForm({ onClose }) {
   };
 
   const switchModal = (target) => {
-    const url = new URL(window.location.href);
-    url.searchParams.set("modal", target);
-    window.history.replaceState(null, "", url.toString());
+    router.replace(`?modal=${target}`);
   };
 
   if (submitted) {

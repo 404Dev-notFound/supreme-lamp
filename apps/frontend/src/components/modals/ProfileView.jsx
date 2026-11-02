@@ -13,6 +13,9 @@ import {
   Globe,
   Shield,
   Settings,
+  Sparkles,
+  Zap,
+  Check,
 } from "lucide-react";
 import ProfileSkeleton from "../skeletons/ProfileSkeleton";
 
@@ -225,6 +228,76 @@ export default function ProfileView({ onClose }) {
           )}
         </div>
       )}
+
+      {/* Membership & Subscription Tier Card */}
+      <div
+        className={`p-4 rounded-2xl border transition-all ${
+          profile.isPremium
+            ? "bg-gradient-to-r from-zinc-950 via-zinc-900 to-orange-950/30 border-orange-500/40 shadow-lg shadow-orange-950/20"
+            : "bg-white/5 border-white/10"
+        }`}
+      >
+        <div className="flex items-center justify-between gap-3">
+          <div className="flex items-center gap-2.5">
+            <div
+              className={`w-9 h-9 rounded-xl flex items-center justify-center shrink-0 ${
+                profile.isPremium
+                  ? "bg-orange-500/20 text-orange-400 border border-orange-500/30"
+                  : "bg-white/10 text-zinc-300"
+              }`}
+            >
+              {profile.isPremium ? (
+                <Sparkles className="w-4 h-4 text-orange-400" />
+              ) : (
+                <Shield className="w-4 h-4 text-zinc-400" />
+              )}
+            </div>
+            <div>
+              <div className="text-xs font-bold text-white flex items-center gap-1.5">
+                <span>
+                  {profile.membership?.planName ||
+                    (profile.isPremium ? "flowCTRL Premium" : "Community Explorer (Free)")}
+                </span>
+                {profile.isPremium ? (
+                  <span className="px-2 py-0.5 rounded-full text-[10px] font-extrabold bg-orange-500 text-black">
+                    PRO
+                  </span>
+                ) : (
+                  <span className="px-2 py-0.5 rounded-full text-[10px] font-medium bg-white/10 text-zinc-400">
+                    FREE
+                  </span>
+                )}
+              </div>
+              <div className="text-[11px] text-zinc-400 mt-0.5">
+                {profile.isPremium
+                  ? `Active • ${
+                      profile.membership?.expiresAt
+                        ? `Valid until ${new Date(profile.membership.expiresAt).toLocaleDateString()}`
+                        : "Unlimited Access"
+                    }`
+                  : "Standard community roadmap access"}
+              </div>
+            </div>
+          </div>
+
+          {!profile.isPremium ? (
+            <button
+              type="button"
+              onClick={() => switchModal("upgrade")}
+              className="px-3.5 py-1.5 rounded-xl bg-gradient-to-r from-orange-500 to-amber-500 hover:from-orange-400 hover:to-amber-400 text-black font-bold text-xs shadow-md shadow-orange-500/20 transition-all flex items-center gap-1.5 cursor-pointer shrink-0"
+            >
+              <Zap className="w-3.5 h-3.5" />
+              Upgrade
+            </button>
+          ) : (
+            <div className="text-right shrink-0">
+              <span className="text-[11px] font-medium text-emerald-400 flex items-center gap-1">
+                <Check className="w-3.5 h-3.5" /> All Unlocked
+              </span>
+            </div>
+          )}
+        </div>
+      </div>
 
       {/* Acquired Skills */}
       <div className="space-y-2.5">

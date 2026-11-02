@@ -1,0 +1,142 @@
+[
+  {
+    "id": "path_backend_dev",
+    "title": "Backend Engineering",
+    "domain": "Software Development",
+    "roles": ["Backend Developer", "API Engineer", "Distributed Systems Engineer"],
+    "description": "Architecting reliable, high-throughput server-side applications, data pipelines, APIs, and microservices.",
+    "companySuitability": ["Product-based company", "Startup", "Enterprise", "Service-based company", "Fintech"],
+    "coreSkills": ["Node.js", "Python", "Go", "PostgreSQL", "Redis", "REST APIs", "GraphQL", "Docker", "System Design"],
+    "progression": {
+      "beginner": ["HTTP/HTTPS basics", "Relational Databases (PostgreSQL/MySQL)", "CRUD REST API development", "Git version control"],
+      "intermediate": ["Authentication & JWT/OAuth", "Caching with Redis", "Message Queues (RabbitMQ/Kafka)", "Containerization (Docker)", "Unit & Integration Testing"],
+      "advanced": ["Distributed consensus", "High-Availability System Design", "Database Sharding & Replication", "Observability (OpenTelemetry/Prometheus)"]
+    }
+  },
+  {
+    "id": "path_frontend_dev",
+    "title": "Frontend Engineering",
+    "domain": "Web Development",
+    "roles": ["Frontend Developer", "UI/UX Engineer", "Design Systems Engineer"],
+    "description": "Building performant, accessible, interactive, and responsive web user interfaces.",
+    "companySuitability": ["Product-based company", "Startup", "Freelancing", "Service-based company"],
+    "coreSkills": ["HTML5/CSS3", "JavaScript (ES6+)", "TypeScript", "React", "Next.js", "State Management", "TailwindCSS/CSS Modules", "Web Performance"],
+    "progression": {
+      "beginner": ["Semantic HTML & CSS Layouts (Flexbox/Grid)", "Modern JavaScript fundamentals", "DOM manipulation", "Basic Git"],
+      "intermediate": ["React Component architecture & Hooks", "TypeScript typing & generics", "State management & caching (TanStack Query)", "Responsive Design & Accessibility (a11y)"],
+      "advanced": ["Micro-frontends", "Next.js App Router & SSR/SSG/ISR", "Core Web Vitals optimization", "Design Systems architecture"]
+    }
+  },
+  {
+    "id": "path_fullstack_dev",
+    "title": "Full Stack Engineering",
+    "domain": "Software Development",
+    "roles": ["Full Stack Engineer", "Founding Engineer", "Technical Lead"],
+    "description": "End-to-end product engineering spanning modern frontend interfaces, resilient backend APIs, and cloud deployments.",
+    "companySuitability": ["Startup", "Product-based company", "Freelancing", "Entrepreneurship"],
+    "coreSkills": ["React", "Next.js", "Node.js", "TypeScript", "PostgreSQL", "Prisma ORM", "Docker", "CI/CD"],
+    "progression": {
+      "beginner": ["HTML/CSS/JS", "Basic Node.js API", "SQL basics", "Git"],
+      "intermediate": ["React + TypeScript", "Express/NestJS backend", "Database schema design & migrations", "JWT Auth & cookies"],
+      "advanced": ["Full-stack monorepos (Turborepo)", "Cloud architecture (AWS/Vercel/Fly.io)", "Performance optimization & caching", "Production security audits"]
+    }
+  },
+  {
+    "id": "path_ai_ml_dev",
+    "title": "AI & Machine Learning Engineering",
+    "domain": "AI/ML",
+    "roles": ["Machine Learning Engineer", "AI Engineer", "LLM Systems Specialist", "MLOps Engineer"],
+    "description": "Building, fine-tuning, deploying, and serving predictive models, deep learning networks, and generative AI agents.",
+    "companySuitability": ["Product-based company", "R&D", "Research", "Startup", "Enterprise"],
+    "coreSkills": ["Python", "PyTorch", "Hugging Face", "Vector Databases", "LangChain/LlamaIndex", "Docker", "MLflow", "RAG Pipelines"],
+    "progression": {
+      "beginner": ["Python for Data Science (NumPy, Pandas)", "Linear Algebra & Calculus basics", "Classical Machine Learning (Scikit-Learn)", "Data cleaning & visualization"],
+      "intermediate": ["Deep Learning fundamentals (PyTorch)", "Natural Language Processing (NLP)", "Embeddings & Vector Databases (Chroma/Pinecone/pgvector)", "RAG Systems"],
+      "advanced": ["Fine-tuning Large Language Models (LoRA/QLoRA)", "Agentic reasoning loops", "MLOps & Model Serving (vLLM/Triton)", "Model evaluation & red-teaming"]
+    }
+  },
+  {
+    "id": "path_data_science",
+    "title": "Data Science & Analytics",
+    "domain": "Data Science",
+    "roles": ["Data Scientist", "Quantitative Analyst", "Business Intelligence Specialist"],
+    "description": "Transforming unstructured and complex datasets into predictive insights, business intelligence, and statistical models.",
+    "companySuitability": ["Product-based company", "Fintech", "R&D", "Academia", "Service-based company"],
+    "coreSkills": ["Python", "SQL", "Pandas", "Statistical Modeling", "Power BI/Tableau", "A/B Testing", "Scikit-Learn"],
+    "progression": {
+      "beginner": ["SQL queries and joins", "Python basics & Pandas", "Exploratory Data Analysis (EDA)", "Descriptive Statistics"],
+      "intermediate": ["Hypothesis testing & A/B experiment design", "Supervised/Unsupervised ML", "Data storytelling & interactive dashboards", "Feature engineering"],
+      "advanced": ["Causal inference", "Time-series forecasting", "Big Data analytics (Apache Spark)", "Executive strategy & metric design"]
+    }
+  },
+  {
+    "id": "path_cloud_devops",
+    "title": "Cloud & DevOps Engineering",
+    "domain": "Cloud / DevOps",
+    "roles": ["DevOps Engineer", "Site Reliability Engineer (SRE)", "Cloud Architect", "Platform Engineer"],
+    "description": "Automating infrastructure, continuous delivery pipelines, scalability, reliability, and security of cloud platforms.",
+    "companySuitability": ["Product-based company", "Enterprise", "Service-based company", "Startup"],
+    "coreSkills": ["Linux", "Docker", "Kubernetes", "Terraform", "GitHub Actions", "AWS/GCP/Azure", "Prometheus/Grafana", "Networking basics"],
+    "progression": {
+      "beginner": ["Linux terminal & bash scripting", "Git workflows", "Networking fundamentals (DNS, TCP/IP, VPC)", "Docker containerization"],
+      "intermediate": ["CI/CD pipelines (GitHub Actions/GitLab)", "Infrastructure as Code (Terraform)", "Kubernetes pod & service orchestration", "Cloud provider fundamentals (AWS S3, EC2, IAM)"],
+      "advanced": ["Multi-cluster Kubernetes management", "Zero-downtime blue/green & canary deployments", "SRE practices (SLOs, SLIs, Error Budgets)", "Chaos engineering"]
+    }
+  },
+  {
+    "id": "path_cybersecurity",
+    "title": "Cybersecurity & Information Security",
+    "domain": "Cybersecurity",
+    "roles": ["Security Analyst", "Penetration Tester", "AppSec Engineer", "SOC Analyst"],
+    "description": "Protecting systems, networks, and applications from vulnerabilities, unauthorized access, and malicious attacks.",
+    "companySuitability": ["Product-based company", "Government / public-sector", "Fintech", "Enterprise", "Defense"],
+    "coreSkills": ["Network Security", "Linux", "OWASP Top 10", "Burp Suite", "Wireshark", "Cryptography", "Python/Bash", "SIEM"],
+    "progression": {
+      "beginner": ["Computer networking & protocols", "Operating systems security (Linux/Windows)", "Common attack vectors & OWASP Top 10", "Basic scripting"],
+      "intermediate": ["Web application penetration testing", "Vulnerability scanning & static code analysis (SAST/DAST)", "Authentication exploits & cryptography", "Network packet analysis"],
+      "advanced": ["Exploit development", "Cloud security posture management (CSPM)", "Incident response & digital forensics", "Enterprise zero-trust architecture"]
+    }
+  },
+  {
+    "id": "path_mobile_dev",
+    "title": "Mobile App Development",
+    "domain": "Mobile Development",
+    "roles": ["Mobile Developer", "iOS Engineer", "Android Engineer", "React Native Developer"],
+    "description": "Designing and deploying high-performance native and cross-platform mobile apps for iOS and Android.",
+    "companySuitability": ["Product-based company", "Startup", "Freelancing", "Service-based company"],
+    "coreSkills": ["React Native", "Flutter", "Swift/SwiftUI", "Kotlin", "Mobile UI/UX", "Offline Storage", "App Store Publishing"],
+    "progression": {
+      "beginner": ["Programming fundamentals (Dart/JavaScript/Swift)", "Mobile UI layout and navigation", "Device storage & local state", "Git"],
+      "intermediate": ["REST API consumption & offline sync", "Native device hardware access (Camera, GPS, Biometrics)", "Push notifications & analytics", "Automated testing"],
+      "advanced": ["Native bridge modules & JSI", "App performance profiling & memory leak detection", "CI/CD for App Store & Google Play", "Security & obfuscation"]
+    }
+  },
+  {
+    "id": "path_blockchain_web3",
+    "title": "Blockchain & Web3 Engineering",
+    "domain": "Blockchain / Web3",
+    "roles": ["Smart Contract Developer", "Blockchain Engineer", "Web3 Full Stack Developer"],
+    "description": "Building decentralized applications (dApps), cryptographic protocols, and secure smart contracts.",
+    "companySuitability": ["Startup", "Open-source", "Fintech", "R&D"],
+    "coreSkills": ["Solidity", "EVM", "Ethers.js / Viem", "Hardhat / Foundry", "Rust (Solana)", "Cryptography", "DeFi Architecture"],
+    "progression": {
+      "beginner": ["Cryptographic fundamentals (Hashing, Public/Private keys)", "Blockchain consensus (PoW, PoS)", "JavaScript & Node.js", "Git"],
+      "intermediate": ["Solidity smart contract development", "Foundry/Hardhat testing & deployment", "Ethers.js/Viem wallet integration", "ERC-20 & ERC-721 standards"],
+      "advanced": ["Smart contract security & reentrancy audits", "Gas optimization patterns", "Zero-Knowledge proofs (zk-SNARKs)", "Cross-chain bridges & L2 rollups"]
+    }
+  },
+  {
+    "id": "path_game_dev",
+    "title": "Game Development",
+    "domain": "Game Development",
+    "roles": ["Game Programmer", "Gameplay Engineer", "Graphics Programmer", "Unity/Unreal Specialist"],
+    "description": "Creating interactive 2D/3D games, real-time graphics simulations, and multi-player gaming experiences.",
+    "companySuitability": ["Product-based company", "Startup", "Indie Game Studio", "Entertainment"],
+    "coreSkills": ["C++", "C#", "Unity", "Unreal Engine", "Linear Algebra & 3D Math", "Shaders/HLSL", "Game Physics"],
+    "progression": {
+      "beginner": ["C# or C++ fundamentals", "Basic 2D physics & vectors", "Unity or Godot engine basics", "Asset management"],
+      "intermediate": ["3D game loops & character state machines", "Animation rigging & audio systems", "Pathfinding & basic AI", "UI Systems & input handlers"],
+      "advanced": ["Custom shaders & rendering pipelines", "Multiplayer networking & replication", "Engine memory optimization & ECS", "Spatial partitioning & raymarching"]
+    }
+  }
+]

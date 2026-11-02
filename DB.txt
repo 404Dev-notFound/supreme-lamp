@@ -1,0 +1,1618 @@
+====================================================================================================
+flowCTRL — COMPLETE DATABASE ARCHITECTURAL SPECIFICATION & DATA DICTIONARY
+File: DB.txt
+Database Engine: PostgreSQL 18.x
+ORM / Persistence: Prisma ORM (v7.x)
+Canonical Schema File: flowCTRL data files/prisma/schema.prisma
+Synchronized Mirror:   apps/backend/prisma/schema.prisma
+Total Database Tables / Models: 35
+Total Enums: 5
+Documentation Standard: ISO/IEC 11179 Metadata & Relational Data Dictionary Standard
+Last Schema Sync & Verification: 2026-11-02
+====================================================================================================
+
+----------------------------------------------------------------------------------------------------
+TABLE OF CONTENTS
+----------------------------------------------------------------------------------------------------
+1. ARCHITECTURAL OVERVIEW & DESIGN PRINCIPLES
+2. GLOBAL ENUM SPECIFICATIONS
+3. HIGH-LEVEL DOMAIN ARCHITECTURE & RELATIONSHIP OVERVIEW
+4. COMPREHENSIVE TABLE-BY-TABLE DATA DICTIONARY (ALL 35 TABLES)
+   4.1   User
+   4.2   UserProfile
+   4.3   UserPreference
+   4.4   Account
+   4.5   Session
+   4.6   UserSession
+   4.7   VerificationToken
+   4.8   SecurityLog
+   4.9   Category
+   4.10  CareerPath
+   4.11  Skill
+   4.12  UserSkill
+   4.13  Roadmap
+   4.14  RoadmapPhase
+   4.15  RoadmapTask
+   4.16  Resume
+   4.17  ResumeAnalysis
+   4.18  Company
+   4.19  Job
+   4.20  JobSkill
+   4.21  SavedJob
+   4.22  JobApplication
+   4.23  MentorProfile
+   4.24  Project
+   4.25  ProjectMember
+   4.26  Issue
+   4.27  Notification
+   4.28  UserRoadmapProgress
+   4.29  AuditLog
+   4.30  MembershipPlan
+   4.31  UserMembership
+   4.32  MembershipHistory
+   4.33  MembershipTransaction
+   4.34  ResourceCategory
+   4.35  PremiumResource
+5. EXHAUSTIVE RELATIONSHIP MAP (ONE-TO-ONE, ONE-TO-MANY, MANY-TO-MANY)
+6. REFERENTIAL INTEGRITY, CASCADING RULES & INDEXING STRATEGY
+7. MAINTENANCE & SCHEMA REVISION PROTOCOL
+8. IDEMPOTENT ENTERPRISE SEED SYSTEM & TEST PERSONAS (ALL 35 MODELS)
+9. ENTERPRISE MIGRATION & DISASTER RECOVERY PROTOCOL
+
+====================================================================================================
+1. ARCHITECTURAL OVERVIEW & DESIGN PRINCIPLES
+====================================================================================================
+The flowCTRL database is structured on PostgreSQL 18 utilizing Prisma ORM as the authoritative
+object-relational mapping and migration engine. The relational schema is engineered to satisfy
+enterprise requirements for:
+  • Primary Key Security: Collision-resistant CUIDs (Collision-resistant Unique Identifiers)
+    and composite primary keys prevent enumeration attacks common with auto-increment integers.
+  • Relational Integrity: Strict Foreign Key constraints enforced directly at the PostgreSQL engine level
+    using explicit `ON DELETE CASCADE` or `ON DELETE SET NULL` policies.
+  • Performance Optimization: Multi-column composite unique constraints, B-Tree indexes on all foreign
+    keys, search filters, status codes, and timestamps.
+  • Storage Optimization: Variable text (`VARCHAR` / `Text`), JSONB (`Json`) for dynamic structured
+    attributes (AI feedback, ATS metadata, custom settings), and integer/float primitives.
+  • Security & Privacy: Cryptographic hash storage for passwords (bcrypt 10-round salt), tokenized
+    session credentials with automatic expiration checking, and centralized audit logging (`SecurityLog`,
+    `AuditLog`).
+
+====================================================================================================
+2. GLOBAL ENUM SPECIFICATIONS
+====================================================================================================
+
+2.1 Role (Identity & Authorization)
+    Values:
+      - GUEST       : Unauthenticated visitor / preview access.
+      - USER        : Standard registered developer / engineer.
+      - MENTOR      : Verified technical advisor with mentorship capabilities.
+      - RECRUITER   : Verified talent partner with job posting and candidate screening privileges.
+      - COMPANY_REP : Official enterprise corporate representative.
+      - ADMIN       : Platform system administrator.
+      - SUPER_ADMIN : Root platform operator with unrestricted governance rights.
+
+2.2 WorkMode (Job Opportunity Classification)
+    Values:
+      - REMOTE : 100% remote / distributed employment.
+      - HYBRID : Split on-site and remote work arrangement.
+      - ONSITE : 100% physical on-site employment requirement.
+
+2.3 ApplicationStatus (Job Pipeline Tracking)
+    Values:
+      - APPLIED      : Application submitted by candidate to employer.
+      - SCREENING    : Automated ATS parsing or recruiter review phase.
+      - INTERVIEWING : Active technical or behavioral interview stages.
+      - OFFERED      : Formal offer of employment extended.
+      - REJECTED     : Candidate not selected for this position.
+      - WITHDRAWN    : Application retracted by candidate.
+
+2.4 IssueStatus (Project Tracking & Collaboration)
+    Values:
+      - TODO        : Task / issue created and awaiting triage or commencement.
+      - IN_PROGRESS : Active development or debugging in flight.
+      - DONE        : Verified and merged to completion.
+
+2.5 IssuePriority (Triage & Issue Urgency)
+    Values:
+      - LOW    : Minor enhancement, non-blocking bug, or chore.
+      - MEDIUM : Standard priority task or expected feature work.
+      - HIGH   : Important milestone blocker or high-impact defect.
+      - URGENT : Critical outage, security vulnerability, or production blocker.
+
+====================================================================================================
+3. HIGH-LEVEL DOMAIN ARCHITECTURE & RELATIONSHIP OVERVIEW
+====================================================================================================
+The 35 database tables are organized into 9 cohesive architectural domains:
+
+  [Domain 1: Identity & Security]
+    User (Central Hub) <-> UserProfile (1:1)
+    User <-> UserPreference (1:1)
+    User <-> Account (1:N)
+    User <-> Session (1:N)
+    User <-> UserSession (1:N)
+    User <-> SecurityLog (1:N)
+    VerificationToken (Independent credential storage)
+
+  [Domain 2: Skills Taxonomy]
+    Category <-> Skill (1:N)
+    CareerPath (Taxonomy guide)
+    User <-> UserSkill <-> Skill (N:M Junction)
+    Job <-> JobSkill <-> Skill (N:M Junction)
+
+  [Domain 3: Roadmaps & Learning]
+    User <-> Roadmap (1:N)
+    Roadmap <-> RoadmapPhase (1:N)
+    RoadmapPhase <-> RoadmapTask (1:N)
+    User <-> UserRoadmapProgress (1:N)
+
+  [Domain 4: Resumes & ATS Scoring]
+    User <-> Resume (1:N)
+    Resume <-> ResumeAnalysis (1:N)
+    User <-> ResumeAnalysis (1:N)
+
+  [Domain 5: Jobs & Hiring Pipeline]
+    Company <-> Job (1:N)
+    Job <-> JobSkill (1:N)
+    User <-> SavedJob <-> Job (N:M Junction)
+    User <-> JobApplication <-> Job (1:N to User, 1:N to Job, 1:1 to Resume)
+
+  [Domain 6: Mentorship]
+    User <-> MentorProfile (1:1)
+
+  [Domain 7: Projects & Issue Tracker]
+    User <-> Project [Owner] (1:N)
+    Project <-> ProjectMember <-> User (N:M Junction)
+    Project <-> Issue (1:N)
+    User <-> Issue [Creator] (1:N)
+    User <-> Issue [Assignee] (1:N)
+
+  [Domain 8: Notifications & Auditability]
+    User <-> Notification (1:N)
+    User <-> AuditLog (1:N)
+
+  [Domain 9: Membership & Premium Resources]
+    MembershipPlan <-> UserMembership (1:N)
+    User <-> UserMembership (1:1)
+    User <-> MembershipHistory <-> MembershipPlan (Audit trail)
+    User <-> MembershipTransaction <-> UserMembership (Payment transactions)
+    ResourceCategory <-> PremiumResource (1:N)
+
+====================================================================================================
+4. COMPREHENSIVE TABLE-BY-TABLE DATA DICTIONARY (ALL 35 TABLES)
+====================================================================================================
+
+----------------------------------------------------------------------------------------------------
+4.1 Table: User
+----------------------------------------------------------------------------------------------------
+Purpose:
+  The authoritative root entity for identity, access governance, and ownership across the entire
+  flowCTRL platform. Every profile, preference, roadmap, session, resume, and membership connects
+  back to this model.
+
+Columns:
+  • id             : String (cuid) | PK | NOT NULL | Default: cuid()
+                    Unique collision-resistant primary key.
+  • name           : String        | NULL
+                    Full legal or display name provided by user or OAuth identity.
+  • email          : String        | UNIQUE | NULL
+                    Primary normalized lowercase email address used for signin and verification.
+  • emailVerified  : DateTime      | NULL
+                    Timestamp indicating when email ownership was confirmed.
+  • image          : String        | NULL
+                    Direct avatar image URL (NextAuth compatibility).
+  • password       : String        | NULL
+                    Bcrypt password hash (10 salt rounds). Null for pure OAuth accounts.
+  • role           : Enum (Role)   | NOT NULL | Default: USER
+                    Role-based access level (GUEST, USER, MENTOR, RECRUITER, COMPANY_REP, ADMIN, SUPER_ADMIN).
+  • status         : String        | NOT NULL | Default: "ACTIVE"
+                    Account lifecycle status: "ACTIVE", "SUSPENDED", "DEACTIVATED".
+  • headline       : String        | NULL
+                    Legacy direct profile headline (preserved for zero-migration compatibility).
+  • bio            : Text          | NULL
+                    Legacy biographical summary (preserved for zero-migration compatibility).
+  • location       : String        | NULL
+                    Legacy geographical location string.
+  • createdAt      : DateTime      | NOT NULL | Default: now()
+                    Account creation timestamp.
+  • updatedAt      : DateTime      | NOT NULL | Auto-updated on record change
+                    Last modification timestamp.
+
+Indexes & Constraints:
+  • Primary Key : `id`
+  • Unique      : `email`
+  • Index       : `@@index([email])`
+  • Index       : `@@index([role])`
+  • Index       : `@@index([status])`
+  • Index       : `@@index([createdAt])`
+
+Connected Relationships:
+  • UserProfile?            : 1-to-1 relation to `UserProfile` (Cascade on delete).
+  • UserPreference?         : 1-to-1 relation to `UserPreference` (Cascade on delete).
+  • UserSession[]           : 1-to-many relation to `UserSession` (Cascade on delete).
+  • Account[]               : 1-to-many relation to `Account` (OAuth provider links).
+  • Session[]               : 1-to-many relation to `Session` (NextAuth sessions).
+  • SecurityLog[]           : 1-to-many relation to `SecurityLog` (Login/audit history).
+  • UserSkill[]             : 1-to-many relation to `UserSkill` (Selected skills).
+  • Roadmap[]               : 1-to-many relation to `Roadmap` (Authored custom roadmaps).
+  • MentorProfile?          : 1-to-1 relation to `MentorProfile` (Mentorship profile).
+  • Resume[]                : 1-to-many relation to `Resume` (Uploaded CV artifacts).
+  • ResumeAnalysis[]        : 1-to-many relation to `ResumeAnalysis` (ATS scoring results).
+  • SavedJob[]              : 1-to-many relation to `SavedJob` (Bookmarked job vacancies).
+  • JobApplication[]        : 1-to-many relation to `JobApplication` (Submitted applications).
+  • Project[]               : 1-to-many relation to `Project` via relation "ProjectOwner".
+  • ProjectMember[]         : 1-to-many relation to `ProjectMember` (Workspace team memberships).
+  • Issue[] (created)       : 1-to-many relation to `Issue` via relation "IssueCreator".
+  • Issue[] (assigned)      : 1-to-many relation to `Issue` via relation "IssueAssignee".
+  • Notification[]          : 1-to-many relation to `Notification` (Platform alerts).
+  • UserRoadmapProgress[]   : 1-to-many relation to `UserRoadmapProgress` (Topic tracking).
+  • AuditLog[]              : 1-to-many relation to `AuditLog` (Administrative audit trail).
+  • UserMembership?         : 1-to-1 relation to `UserMembership` (Active plan & tier).
+  • MembershipHistory[]     : 1-to-many relation to `MembershipHistory` (Subscription audit).
+  • MembershipTransaction[] : 1-to-many relation to `MembershipTransaction` (Payment ledger).
+
+----------------------------------------------------------------------------------------------------
+4.2 Table: UserProfile
+----------------------------------------------------------------------------------------------------
+Purpose:
+  Dedicated user profile entity separating public persona, career details, and social portfolio
+  links from sensitive authentication credentials.
+
+Columns:
+  • userId      : String   | PK | FK | NOT NULL
+                 Primary key and foreign key referencing `User.id`.
+  • displayName : String   | NULL
+                 Custom handle or chosen public display name.
+  • firstName   : String   | NULL
+                 Legal first name.
+  • lastName    : String   | NULL
+                 Legal last/family name.
+  • headline    : String   | NULL
+                 Professional headline (e.g. "Staff Distributed Systems Architect").
+  • bio         : Text     | NULL
+                 Full Markdown/text developer biography and technical philosophy.
+  • avatarUrl   : String   | NULL
+                 Custom uploaded avatar image path or CDN link.
+  • location    : String   | NULL
+                 City, state/province, country, or remote timezone.
+  • websiteUrl  : String   | NULL
+                 Personal engineering blog or portfolio homepage.
+  • githubUrl   : String   | NULL
+                 Verified GitHub profile URL.
+  • linkedinUrl : String   | NULL
+                 LinkedIn professional profile URL.
+  • twitterUrl  : String   | NULL
+                 X / Twitter profile handle or URL.
+  • createdAt   : DateTime | NOT NULL | Default: now()
+  • updatedAt   : DateTime | NOT NULL | Auto-updated
+
+Indexes & Constraints:
+  • Primary Key : `userId`
+  • Foreign Key : `userId` -> `User.id` (ON DELETE CASCADE)
+
+Connected Relationships:
+  • user : 1-to-1 parent relation referencing `User`.
+
+----------------------------------------------------------------------------------------------------
+4.3 Table: UserPreference
+----------------------------------------------------------------------------------------------------
+Purpose:
+  Stores user-specific UI configurations, notification dispatch flags, and privacy settings.
+
+Columns:
+  • userId               : String   | PK | FK | NOT NULL
+                          Primary key and foreign key referencing `User.id`.
+  • theme                : String   | NOT NULL | Default: "dark"
+                          UI color scheme: "dark", "light", "system".
+  • emailNotifications   : Boolean  | NOT NULL | Default: true
+                          Master toggle for transactional email dispatch.
+  • weeklyDigest         : Boolean  | NOT NULL | Default: true
+                          Opt-in for weekly career progress and recommended job digests.
+  • jobAlerts            : Boolean  | NOT NULL | Default: true
+                          Instant notifications on high-scoring Radar job matches.
+  • profileVisibility    : String   | NOT NULL | Default: "PUBLIC"
+                          Visibility scope: "PUBLIC", "PRIVATE", "RECRUITERS_ONLY".
+  • careerGoalVisibility : Boolean  | NOT NULL | Default: true
+                          Whether target roles and skill gaps are visible to recruiters.
+  • customSettings       : Json     | NULL     | Default: "{}"
+                          Extensible JSONB object for client-side workspace preferences.
+  • createdAt            : DateTime | NOT NULL | Default: now()
+  • updatedAt            : DateTime | NOT NULL | Auto-updated
+
+Indexes & Constraints:
+  • Primary Key : `userId`
+  • Foreign Key : `userId` -> `User.id` (ON DELETE CASCADE)
+
+Connected Relationships:
+  • user : 1-to-1 parent relation referencing `User`.
+
+----------------------------------------------------------------------------------------------------
+4.4 Table: Account
+----------------------------------------------------------------------------------------------------
+Purpose:
+  OAuth identity provider account link (NextAuth.js standard specification). Enables federated
+  login via Google, GitHub, and enterprise single sign-on.
+
+Columns:
+  • id                : String   | PK | NOT NULL | Default: cuid()
+  • userId            : String   | FK | NOT NULL
+                       Foreign key referencing `User.id`.
+  • type              : String   | NOT NULL
+                       Provider account type (e.g. "oauth", "email").
+  • provider          : String   | NOT NULL
+                       OAuth provider identifier (e.g. "google", "github").
+  • providerAccountId : String   | NOT NULL
+                       Provider's unique subject / user ID.
+  • refresh_token     : Text     | NULL
+                       OAuth refresh token for offline credential renewal.
+  • access_token      : Text     | NULL
+                       OAuth access token for third-party API calls.
+  • expires_at        : Int      | NULL
+                       UNIX epoch timestamp of access token expiry.
+  • token_type        : String   | NULL
+                       Token type returned by provider (e.g. "Bearer").
+  • scope             : String   | NULL
+                       Authorized OAuth permission scopes.
+  • id_token          : Text     | NULL
+                       OpenID Connect JWT identity assertion token.
+  • session_state     : String   | NULL
+                       Provider session state string.
+
+Indexes & Constraints:
+  • Primary Key : `id`
+  • Unique      : `@@unique([provider, providerAccountId])`
+  • Index       : `@@index([userId])`
+  • Foreign Key : `userId` -> `User.id` (ON DELETE CASCADE)
+
+Connected Relationships:
+  • user : Many-to-1 parent relation referencing `User`.
+
+----------------------------------------------------------------------------------------------------
+4.5 Table: Session
+----------------------------------------------------------------------------------------------------
+Purpose:
+  NextAuth standard session table for stateless session token validation.
+
+Columns:
+  • id           : String   | PK | NOT NULL | Default: cuid()
+  • sessionToken : String   | UNIQUE | NOT NULL
+                   Cryptographically random session token string.
+  • userId       : String   | FK | NOT NULL
+                   Foreign key referencing `User.id`.
+  • expires      : DateTime | NOT NULL
+                   Expiration timestamp of session.
+
+Indexes & Constraints:
+  • Primary Key : `id`
+  • Unique      : `sessionToken`
+  • Index       : `@@index([userId])`
+  • Foreign Key : `userId` -> `User.id` (ON DELETE CASCADE)
+
+Connected Relationships:
+  • user : Many-to-1 parent relation referencing `User`.
+
+----------------------------------------------------------------------------------------------------
+4.6 Table: UserSession
+----------------------------------------------------------------------------------------------------
+Purpose:
+  Production custom session management and cybersecurity session tracker. Enforces absolute
+  session expiration, cryptographic CSRF token binding, device profiling, and instantaneous
+  session revocation ("Log Out from All Devices").
+
+Columns:
+  • id           : String    | PK | NOT NULL | Default: cuid()
+  • userId       : String    | FK | NOT NULL
+                   Foreign key referencing `User.id`.
+  • sessionToken : String    | UNIQUE | NOT NULL
+                   Opaque high-entropy 256-bit session token stored in HttpOnly cookie.
+  • ipAddress    : String    | NULL
+                   Client IP address recorded at session issuance.
+  • userAgent    : String    | NULL
+                   Full browser User-Agent header string.
+  • deviceType   : String    | NULL | Default: "Desktop"
+                   Parsed device class: "Desktop", "Mobile", "Tablet", "Unknown".
+  • browser      : String    | NULL
+                   Parsed browser family (e.g. "Chrome", "Firefox", "Safari").
+  • os           : String    | NULL
+                   Parsed operating system (e.g. "Windows", "macOS", "Linux", "iOS").
+  • revokedAt    : DateTime  | NULL
+                   Timestamp when session was explicitly revoked. Null if active.
+  • lastActiveAt : DateTime  | NOT NULL | Default: now()
+                   Timestamp of user's most recent API interaction (throttled).
+  • expiresAt    : DateTime  | NOT NULL
+                   Hard expiration date (default: 7 days from creation).
+  • createdAt    : DateTime  | NOT NULL | Default: now()
+  • updatedAt    : DateTime  | NOT NULL | Auto-updated
+
+Indexes & Constraints:
+  • Primary Key : `id`
+  • Unique      : `sessionToken`
+  • Index       : `@@index([userId])`
+  • Index       : `@@index([expiresAt])`
+  • Index       : `@@index([revokedAt])`
+  • Foreign Key : `userId` -> `User.id` (ON DELETE CASCADE)
+
+Connected Relationships:
+  • user : Many-to-1 parent relation referencing `User`.
+
+----------------------------------------------------------------------------------------------------
+4.7 Table: VerificationToken
+----------------------------------------------------------------------------------------------------
+Purpose:
+  NextAuth standard email verification and magic link token persistence.
+
+Columns:
+  • identifier : String   | NOT NULL
+                 User email address or identity subject.
+  • token      : String   | UNIQUE | NOT NULL
+                 One-time cryptographic verification token.
+  • expires    : DateTime | NOT NULL
+                 Token expiration timestamp.
+
+Indexes & Constraints:
+  • Unique : `token`
+  • Unique : `@@unique([identifier, token])`
+
+----------------------------------------------------------------------------------------------------
+4.8 Table: SecurityLog
+----------------------------------------------------------------------------------------------------
+Purpose:
+  Append-only immutable cybersecurity audit log recording security-critical events
+  (logins, failed authentication, password resets, session revocations, membership upgrades).
+
+Columns:
+  • id        : String   | PK | NOT NULL | Default: cuid()
+  • userId    : String   | FK | NOT NULL
+               Foreign key referencing `User.id`.
+  • eventType : String   | NOT NULL
+               Security event identifier (e.g. "login_success", "failed_login", "password_change").
+  • ipAddress : String   | NULL
+               Client IP address at event time.
+  • userAgent : String   | NULL
+               Client User-Agent header string.
+  • details   : Json     | NULL
+               Structured JSONB metadata describing payload, method, or reason.
+  • createdAt : DateTime | NOT NULL | Default: now()
+               Immutable timestamp of event occurrence.
+
+Indexes & Constraints:
+  • Primary Key : `id`
+  • Index       : `@@index([userId])`
+  • Index       : `@@index([eventType])`
+  • Index       : `@@index([createdAt])`
+  • Foreign Key : `userId` -> `User.id` (ON DELETE CASCADE)
+
+Connected Relationships:
+  • user : Many-to-1 parent relation referencing `User`.
+
+----------------------------------------------------------------------------------------------------
+4.9 Table: Category
+----------------------------------------------------------------------------------------------------
+Purpose:
+  Shared catalog classification groups for software engineering skills, tools, and technical disciplines.
+
+Columns:
+  • id          : String   | PK | NOT NULL | Default: cuid()
+  • name        : String   | UNIQUE | NOT NULL
+                 Human-readable category name (e.g. "Backend Architecture").
+  • slug        : String   | UNIQUE | NOT NULL
+                 URL-safe unique identifier (e.g. "backend-architecture").
+  • description : Text     | NULL
+                 Curated summary of topics and technologies in this category.
+  • createdAt   : DateTime | NOT NULL | Default: now()
+  • updatedAt   : DateTime | NOT NULL | Auto-updated
+
+Indexes & Constraints:
+  • Primary Key : `id`
+  • Unique      : `name`
+  • Unique      : `slug`
+
+Connected Relationships:
+  • skills : 1-to-many child relation to `Skill[]`.
+
+----------------------------------------------------------------------------------------------------
+4.10 Table: CareerPath
+----------------------------------------------------------------------------------------------------
+Purpose:
+  Defines structured career roles and progressive seniority paths (Beginner through Lead).
+
+Columns:
+  • id          : String   | PK | NOT NULL | Default: cuid()
+  • title       : String   | UNIQUE | NOT NULL
+                 Career title (e.g. "Senior Full-Stack Engineer").
+  • slug        : String   | UNIQUE | NOT NULL
+                 URL-safe unique slug (e.g. "senior-full-stack-engineer").
+  • description : Text     | NULL
+                 Comprehensive role description and scope of responsibilities.
+  • level       : String   | NOT NULL | Default: "Mid-Level"
+                 Target seniority: "Beginner", "Mid-Level", "Senior", "Lead".
+  • createdAt   : DateTime | NOT NULL | Default: now()
+  • updatedAt   : DateTime | NOT NULL | Auto-updated
+
+Indexes & Constraints:
+  • Primary Key : `id`
+  • Unique      : `title`
+  • Unique      : `slug`
+
+----------------------------------------------------------------------------------------------------
+4.11 Table: Skill
+----------------------------------------------------------------------------------------------------
+Purpose:
+  Authoritative technology and competency catalog (languages, frameworks, cloud services, concepts).
+  Shared across User profiles, Job requirements, and Roadmap milestones.
+
+Columns:
+  • id          : String   | PK | NOT NULL | Default: cuid()
+  • name        : String   | UNIQUE | NOT NULL
+                 Canonical skill name (e.g. "PostgreSQL", "Docker", "Rust").
+  • category    : String   | NOT NULL
+                 Category name string (backward compatibility).
+  • categoryId  : String   | FK | NULL
+                 Foreign key referencing `Category.id`.
+  • description : Text     | NULL
+                 Technical overview of the skill and industry relevance.
+  • createdAt   : DateTime | NOT NULL | Default: now()
+  • updatedAt   : DateTime | NOT NULL | Auto-updated
+
+Indexes & Constraints:
+  • Primary Key : `id`
+  • Unique      : `name`
+  • Index       : `@@index([category])`
+  • Index       : `@@index([categoryId])`
+  • Foreign Key : `categoryId` -> `Category.id` (ON DELETE SET NULL)
+
+Connected Relationships:
+  • categoryRef : Many-to-1 parent relation to `Category`.
+  • userSkills  : 1-to-many child relation to `UserSkill[]`.
+  • jobSkills   : 1-to-many child relation to `JobSkill[]`.
+
+----------------------------------------------------------------------------------------------------
+4.12 Table: UserSkill
+----------------------------------------------------------------------------------------------------
+Purpose:
+  Many-to-Many explicit junction table connecting `User` and `Skill`. Stores candidate proficiency
+  levels and credential verification status.
+
+Columns:
+  • id         : String   | PK | NOT NULL | Default: cuid()
+  • userId     : String   | FK | NOT NULL
+                Foreign key referencing `User.id`.
+  • skillId    : String   | FK | NOT NULL
+                Foreign key referencing `Skill.id`.
+  • proficiency: Int      | NOT NULL | Default: 3
+                Skill self-rating or assessed score on a 1 (Novice) to 5 (Expert) scale.
+  • isVerified : Boolean  | NOT NULL | Default: false
+                Indicates if the skill was empirically verified via quiz, code lab, or mentor audit.
+  • createdAt  : DateTime | NOT NULL | Default: now()
+  • updatedAt  : DateTime | NOT NULL | Auto-updated
+
+Indexes & Constraints:
+  • Primary Key : `id`
+  • Unique      : `@@unique([userId, skillId])` (Prevents duplicate skill assignments)
+  • Index       : `@@index([userId])`
+  • Index       : `@@index([skillId])`
+  • Foreign Key : `userId`  -> `User.id`  (ON DELETE CASCADE)
+  • Foreign Key : `skillId` -> `Skill.id` (ON DELETE CASCADE)
+
+Connected Relationships:
+  • user  : Many-to-1 parent relation referencing `User`.
+  • skill : Many-to-1 parent relation referencing `Skill`.
+
+----------------------------------------------------------------------------------------------------
+4.13 Table: Roadmap
+----------------------------------------------------------------------------------------------------
+Purpose:
+  User-created custom career roadmaps and customized study curriculum paths.
+
+Columns:
+  • id          : String   | PK | NOT NULL | Default: cuid()
+  • title       : String   | NOT NULL
+                 Roadmap title (e.g. "My Cloud Native SRE Roadmap").
+  • description : Text     | NULL
+                 Detailed roadmap summary and objective.
+  • category    : String   | NOT NULL | Default: "role"
+                 Category type: "role", "skill", "best-practice".
+  • slug        : String   | NULL
+                 URL-safe unique identifier for public sharing.
+  • isPublic    : Boolean  | NOT NULL | Default: false
+                 Whether this roadmap is published for the public community.
+  • userId      : String   | FK | NOT NULL
+                 Foreign key referencing author `User.id`.
+  • createdAt   : DateTime | NOT NULL | Default: now()
+  • updatedAt   : DateTime | NOT NULL | Auto-updated
+
+Indexes & Constraints:
+  • Primary Key : `id`
+  • Index       : `@@index([userId])`
+  • Index       : `@@index([isPublic])`
+  • Foreign Key : `userId` -> `User.id` (ON DELETE CASCADE)
+
+Connected Relationships:
+  • user   : Many-to-1 parent relation referencing `User`.
+  • phases : 1-to-many child relation to `RoadmapPhase[]`.
+
+----------------------------------------------------------------------------------------------------
+4.14 Table: RoadmapPhase
+----------------------------------------------------------------------------------------------------
+Purpose:
+  Sequential curriculum phases or milestones belonging to a `Roadmap`.
+
+Columns:
+  • id        : String   | PK | NOT NULL | Default: cuid()
+  • title     : String   | NOT NULL
+               Phase heading (e.g. "Phase 1: Foundations & Linux Internals").
+  • order     : Int      | NOT NULL
+               Display sequence index (0-based or 1-based order).
+  • roadmapId : String   | FK | NOT NULL
+               Foreign key referencing `Roadmap.id`.
+  • createdAt : DateTime | NOT NULL | Default: now()
+  • updatedAt : DateTime | NOT NULL | Auto-updated
+
+Indexes & Constraints:
+  • Primary Key : `id`
+  • Index       : `@@index([roadmapId])`
+  • Foreign Key : `roadmapId` -> `Roadmap.id` (ON DELETE CASCADE)
+
+Connected Relationships:
+  • roadmap : Many-to-1 parent relation referencing `Roadmap`.
+  • tasks   : 1-to-many child relation to `RoadmapTask[]`.
+
+----------------------------------------------------------------------------------------------------
+4.15 Table: RoadmapTask
+----------------------------------------------------------------------------------------------------
+Purpose:
+  Individual granular learning objective or actionable task inside a `RoadmapPhase`.
+
+Columns:
+  • id             : String   | PK | NOT NULL | Default: cuid()
+  • title          : String   | NOT NULL
+                    Actionable topic name (e.g. "Master POSIX Signals & Forking").
+  • description    : Text     | NULL
+                    Task instructions, reference links, and code suggestions.
+  • completed      : Boolean  | NOT NULL | Default: false
+                    Completion checkbox status.
+  • order          : Int      | NOT NULL | Default: 0
+                    Sorting order within the parent phase.
+  • roadmapPhaseId : String   | FK | NOT NULL
+                    Foreign key referencing `RoadmapPhase.id`.
+  • createdAt      : DateTime | NOT NULL | Default: now()
+  • updatedAt      : DateTime | NOT NULL | Auto-updated
+
+Indexes & Constraints:
+  • Primary Key : `id`
+  • Index       : `@@index([roadmapPhaseId])`
+  • Foreign Key : `roadmapPhaseId` -> `RoadmapPhase.id` (ON DELETE CASCADE)
+
+Connected Relationships:
+  • phase : Many-to-1 parent relation referencing `RoadmapPhase`.
+
+----------------------------------------------------------------------------------------------------
+4.16 Table: Resume
+----------------------------------------------------------------------------------------------------
+Purpose:
+  Stores uploaded candidate resume/CV document metadata, storage paths, and MIME parameters.
+
+Columns:
+  • id         : String   | PK | NOT NULL | Default: cuid()
+  • userId     : String   | FK | NULL
+                Foreign key referencing `User.id`. Null for anonymous screener submissions.
+  • fileName   : String   | NOT NULL
+                Sanitized client filename.
+  • fileSize   : Int      | NOT NULL
+                File size in bytes.
+  • fileUrl    : String   | NULL
+                Secure download URL or local file path.
+  • storageKey : String   | NULL
+                Object storage key (e.g. S3 bucket / local vault path).
+  • mimeType   : String   | NOT NULL | Default: "application/pdf"
+                Validated document MIME type.
+  • createdAt  : DateTime | NOT NULL | Default: now()
+  • updatedAt  : DateTime | NOT NULL | Auto-updated
+
+Indexes & Constraints:
+  • Primary Key : `id`
+  • Index       : `@@index([userId])`
+  • Foreign Key : `userId` -> `User.id` (ON DELETE CASCADE)
+
+Connected Relationships:
+  • user            : Many-to-1 parent relation referencing `User` (Optional).
+  • analyses        : 1-to-many child relation to `ResumeAnalysis[]`.
+  • jobApplications : 1-to-many child relation to `JobApplication[]`.
+
+----------------------------------------------------------------------------------------------------
+4.17 Table: ResumeAnalysis
+----------------------------------------------------------------------------------------------------
+Purpose:
+  Automated ATS (Applicant Tracking System) parsing results, keyword scoring, strengths, flaws,
+  and AI-generated section feedback for an uploaded `Resume`.
+
+Columns:
+  • id              : String   | PK | NOT NULL | Default: cuid()
+  • resumeId        : String   | FK | NULL
+                     Foreign key referencing `Resume.id`.
+  • userId          : String   | FK | NULL
+                     Foreign key referencing `User.id`.
+  • overallScore    : Int      | NOT NULL
+                     Composite readiness score (0 to 100).
+  • verdict         : String   | NOT NULL
+                     Overall rating verdict (e.g. "Excellent", "Competitive", "Needs Work").
+  • verdictReason   : Text     | NULL
+                     Summary explanation justifying the assigned score.
+  • atsScore        : Int      | NULL
+                     Dedicated ATS machine-readability filter score (0 to 100).
+  • atsIssues       : Json     | NULL
+                     JSONB array of detected ATS formatting issues (tables, multi-column headers).
+  • topFixes        : Json     | NULL
+                     JSONB array of actionable recommendations with priority weights.
+  • strengths       : Json     | NULL
+                     JSONB array of identified candidate strengths and high-value keywords.
+  • flaws           : Json     | NULL
+                     JSONB array of weaknesses or missing technical credentials.
+  • sectionFeedback : Json     | NULL
+                     JSONB object with granular breakdowns per section (Experience, Skills, Education).
+  • createdAt       : DateTime | NOT NULL | Default: now()
+
+Indexes & Constraints:
+  • Primary Key : `id`
+  • Index       : `@@index([userId])`
+  • Index       : `@@index([resumeId])`
+  • Index       : `@@index([createdAt])`
+  • Foreign Key : `userId`   -> `User.id`   (ON DELETE CASCADE)
+  • Foreign Key : `resumeId` -> `Resume.id` (ON DELETE CASCADE)
+
+Connected Relationships:
+  • user   : Many-to-1 parent relation referencing `User`.
+  • resume : Many-to-1 parent relation referencing `Resume`.
+
+----------------------------------------------------------------------------------------------------
+4.18 Table: Company
+----------------------------------------------------------------------------------------------------
+Purpose:
+  Corporate employer entity that publishes engineering job vacancies.
+
+Columns:
+  • id          : String   | PK | NOT NULL | Default: cuid()
+  • name        : String   | UNIQUE | NOT NULL
+                 Official corporate entity name (e.g. "Vercel", "Stripe").
+  • logo        : String   | NULL
+                 Logo image URL.
+  • website     : String   | NULL
+                 Corporate website homepage URL.
+  • location    : String   | NULL
+                 Headquarters city and country.
+  • description : Text     | NULL
+                 Company profile, culture, and business overview.
+  • isVerified  : Boolean  | NOT NULL | Default: false
+                 Whether the company has been vetted by platform admins.
+  • createdAt   : DateTime | NOT NULL | Default: now()
+  • updatedAt   : DateTime | NOT NULL | Auto-updated
+
+Indexes & Constraints:
+  • Primary Key : `id`
+  • Unique      : `name`
+
+Connected Relationships:
+  • jobs : 1-to-many child relation to `Job[]`.
+
+----------------------------------------------------------------------------------------------------
+4.19 Table: Job
+----------------------------------------------------------------------------------------------------
+Purpose:
+  Active engineering job vacancy posted by a `Company`. Matched against candidate skills via
+  the Job Matcher algorithm.
+
+Columns:
+  • id          : String         | PK | NOT NULL | Default: cuid()
+  • title       : String         | NOT NULL
+                 Job title (e.g. "Senior Rust Core Systems Engineer").
+  • companyId   : String         | FK | NOT NULL
+                 Foreign key referencing `Company.id`.
+  • location    : String         | NOT NULL
+                 Location or eligible hiring jurisdictions.
+  • workMode    : Enum (WorkMode)| NOT NULL | Default: REMOTE
+                 Work arrangement: REMOTE, HYBRID, ONSITE.
+  • salaryMin   : Int            | NULL
+                 Minimum annual base compensation in specified currency.
+  • salaryMax   : Int            | NULL
+                 Maximum annual base compensation in specified currency.
+  • currency    : String         | NOT NULL | Default: "USD"
+                 Currency code (ISO 4217, e.g. "USD", "EUR").
+  • description : Text           | NULL
+                 Complete job description, responsibilities, and perks.
+  • applyUrl    : String         | NULL
+                 External application link or ATS webhook URL.
+  • isFeatured  : Boolean        | NOT NULL | Default: false
+                 Whether the posting is promoted to the top of the Radar.
+  • isActive    : Boolean        | NOT NULL | Default: true
+                 Whether the vacancy is open for new applications.
+  • createdAt   : DateTime       | NOT NULL | Default: now()
+  • updatedAt   : DateTime       | NOT NULL | Auto-updated
+
+Indexes & Constraints:
+  • Primary Key : `id`
+  • Index       : `@@index([companyId])`
+  • Index       : `@@index([workMode])`
+  • Index       : `@@index([location])`
+  • Index       : `@@index([isActive])`
+  • Index       : `@@index([createdAt])`
+  • Foreign Key : `companyId` -> `Company.id` (ON DELETE CASCADE)
+
+Connected Relationships:
+  • company      : Many-to-1 parent relation referencing `Company`.
+  • jobSkills    : 1-to-many child relation to `JobSkill[]`.
+  • savedJobs    : 1-to-many child relation to `SavedJob[]`.
+  • applications : 1-to-many child relation to `JobApplication[]`.
+
+----------------------------------------------------------------------------------------------------
+4.20 Table: JobSkill
+----------------------------------------------------------------------------------------------------
+Purpose:
+  Many-to-Many explicit junction table connecting `Job` and `Skill`. Identifies required vs.
+  nice-to-have technical skills for automated match calculations.
+
+Columns:
+  • id         : String   | PK | NOT NULL | Default: cuid()
+  • jobId      : String   | FK | NOT NULL
+                Foreign key referencing `Job.id`.
+  • skillId    : String   | FK | NOT NULL
+                Foreign key referencing `Skill.id`.
+  • isRequired : Boolean  | NOT NULL | Default: true
+                True if strictly required; False if preferred / optional.
+  • createdAt  : DateTime | NOT NULL | Default: now()
+
+Indexes & Constraints:
+  • Primary Key : `id`
+  • Unique      : `@@unique([jobId, skillId])`
+  • Index       : `@@index([jobId])`
+  • Index       : `@@index([skillId])`
+  • Foreign Key : `jobId`   -> `Job.id`   (ON DELETE CASCADE)
+  • Foreign Key : `skillId` -> `Skill.id` (ON DELETE CASCADE)
+
+Connected Relationships:
+  • job   : Many-to-1 parent relation referencing `Job`.
+  • skill : Many-to-1 parent relation referencing `Skill`.
+
+----------------------------------------------------------------------------------------------------
+4.21 Table: SavedJob
+----------------------------------------------------------------------------------------------------
+Purpose:
+  Bookmarks table allowing candidates to save interesting vacancies for future review.
+
+Columns:
+  • id        : String   | PK | NOT NULL | Default: cuid()
+  • userId    : String   | FK | NOT NULL
+               Foreign key referencing `User.id`.
+  • jobId     : String   | FK | NOT NULL
+               Foreign key referencing `Job.id`.
+  • createdAt : DateTime | NOT NULL | Default: now()
+
+Indexes & Constraints:
+  • Primary Key : `id`
+  • Unique      : `@@unique([userId, jobId])`
+  • Index       : `@@index([userId])`
+  • Index       : `@@index([jobId])`
+  • Foreign Key : `userId` -> `User.id` (ON DELETE CASCADE)
+  • Foreign Key : `jobId`  -> `Job.id`  (ON DELETE CASCADE)
+
+Connected Relationships:
+  • user : Many-to-1 parent relation referencing `User`.
+  • job  : Many-to-1 parent relation referencing `Job`.
+
+----------------------------------------------------------------------------------------------------
+4.22 Table: JobApplication
+----------------------------------------------------------------------------------------------------
+Purpose:
+  Manages candidate job applications, linking the candidate (`User`), the targeted `Job`,
+  the specific attached `Resume`, and the recruitment lifecycle status.
+
+Columns:
+  • id        : String                  | PK | NOT NULL | Default: cuid()
+  • userId    : String                  | FK | NOT NULL
+               Foreign key referencing candidate `User.id`.
+  • jobId     : String                  | FK | NOT NULL
+               Foreign key referencing targeted `Job.id`.
+  • resumeId  : String                  | FK | NULL
+               Foreign key referencing attached `Resume.id`.
+  • status    : Enum (ApplicationStatus)| NOT NULL | Default: APPLIED
+               Current pipeline stage (APPLIED, SCREENING, INTERVIEWING, OFFERED, REJECTED, WITHDRAWN).
+  • notes     : Text                    | NULL
+               Internal candidate notes or cover letter message.
+  • appliedAt : DateTime                | NOT NULL | Default: now()
+               Submission timestamp.
+  • updatedAt : DateTime                | NOT NULL | Auto-updated
+
+Indexes & Constraints:
+  • Primary Key : `id`
+  • Index       : `@@index([userId])`
+  • Index       : `@@index([jobId])`
+  • Index       : `@@index([resumeId])`
+  • Index       : `@@index([status])`
+  • Foreign Key : `userId`   -> `User.id`   (ON DELETE CASCADE)
+  • Foreign Key : `jobId`    -> `Job.id`    (ON DELETE CASCADE)
+  • Foreign Key : `resumeId` -> `Resume.id` (ON DELETE SET NULL)
+
+Connected Relationships:
+  • user   : Many-to-1 parent relation referencing `User`.
+  • job    : Many-to-1 parent relation referencing `Job`.
+  • resume : Many-to-1 parent relation referencing `Resume` (Optional).
+
+----------------------------------------------------------------------------------------------------
+4.23 Table: MentorProfile
+----------------------------------------------------------------------------------------------------
+Purpose:
+  Stores verified technical mentor configurations, domain specializations, and booking parameters.
+
+Columns:
+  • id          : String   | PK | NOT NULL | Default: cuid()
+  • userId      : String   | UNIQUE | FK | NOT NULL
+                 Foreign key referencing `User.id`. One mentor profile per user.
+  • expertise   : String   | NOT NULL
+                 Primary domain expertise (e.g. "Systems Architecture & Rust").
+  • yearsOfExp  : Int      | NOT NULL
+                 Verified professional software engineering experience in years.
+  • hourlyRate  : Decimal(10,2)| NULL
+                 Hourly consultation rate in USD (precise fixed-point monetary precision).
+  • isAvailable : Boolean  | NOT NULL | Default: true
+                 Availability flag for new mentee bookings.
+  • createdAt   : DateTime | NOT NULL | Default: now()
+  • updatedAt   : DateTime | NOT NULL | Auto-updated
+
+Indexes & Constraints:
+  • Primary Key : `id`
+  • Unique      : `userId`
+  • Index       : `@@index([userId])`
+  • Foreign Key : `userId` -> `User.id` (ON DELETE CASCADE)
+
+Connected Relationships:
+  • user : 1-to-1 parent relation referencing `User`.
+
+----------------------------------------------------------------------------------------------------
+4.24 Table: Project
+----------------------------------------------------------------------------------------------------
+Purpose:
+  Collaborative open-source or team engineering project workspace (CodeCollab integration).
+  Organizes technical stacks, pinned showcases, issues, and member teams.
+
+Columns:
+  • id          : String   | PK | NOT NULL | Default: cuid()
+  • title       : String   | NOT NULL
+                 Project name (e.g. "Distributed Cloud Orchestrator").
+  • category    : String   | NOT NULL | Default: "General"
+                 Category grouping (e.g. "Systems Programming", "Web Development").
+  • difficulty  : String   | NOT NULL | Default: "Intermediate"
+                 Project complexity: "Beginner", "Intermediate", "Advanced".
+  • techStack   : String[] | NOT NULL | Default: []
+                 PostgreSQL text array containing technology tags (e.g. ["Go", "Kubernetes", "gRPC"]).
+  • image       : String   | NULL
+                 Project preview banner or thumbnail URL.
+  • description : Text     | NULL
+                 Complete Markdown description of architecture and goals.
+  • githubUrl   : String   | NULL
+                 External GitHub repository URL.
+  • isPinned    : Boolean  | NOT NULL | Default: false
+                 Whether the project is pinned on the user's showcase portfolio.
+  • isDemo      : Boolean  | NOT NULL | Default: false
+                 Seed or demonstration fixture flag.
+  • ownerId     : String   | FK | NULL
+                 Foreign key referencing owner `User.id`.
+  • createdAt   : DateTime | NOT NULL | Default: now()
+  • updatedAt   : DateTime | NOT NULL | Auto-updated
+
+Indexes & Constraints:
+  • Primary Key : `id`
+  • Index       : `@@index([ownerId])`
+  • Index       : `@@index([category])`
+  • Index       : `@@index([isPinned])`
+  • Index       : `@@index([createdAt])`
+  • Foreign Key : `ownerId` -> `User.id` (ON DELETE CASCADE)
+
+Connected Relationships:
+  • owner   : Many-to-1 parent relation to `User` via relation "ProjectOwner".
+  • members : 1-to-many child relation to `ProjectMember[]`.
+  • issues  : 1-to-many child relation to `Issue[]`.
+
+----------------------------------------------------------------------------------------------------
+4.25 Table: ProjectMember
+----------------------------------------------------------------------------------------------------
+Purpose:
+  Many-to-Many explicit junction table managing workspace team membership and role permissions.
+
+Columns:
+  • projectId   : String   | PK part 1 | FK | NOT NULL
+                 Foreign key referencing `Project.id`.
+  • userId      : String   | PK part 2 | FK | NOT NULL
+                 Foreign key referencing `User.id`.
+  • projectRole : String   | NOT NULL | Default: "viewer"
+                 Access role within project: "owner", "admin", "editor", "viewer".
+  • joinedAt    : DateTime | NOT NULL | Default: now()
+
+Indexes & Constraints:
+  • Composite Primary Key : `@@id([projectId, userId])`
+  • Index                 : `@@index([userId])`
+  • Foreign Key           : `projectId` -> `Project.id` (ON DELETE CASCADE)
+  • Foreign Key           : `userId`    -> `User.id`    (ON DELETE CASCADE)
+
+Connected Relationships:
+  • project : Many-to-1 parent relation referencing `Project`.
+  • user    : Many-to-1 parent relation referencing `User`.
+
+----------------------------------------------------------------------------------------------------
+4.26 Table: Issue
+----------------------------------------------------------------------------------------------------
+Purpose:
+  Issue and task tracker item associated with a `Project`. Tracks bugs, features, and technical debt.
+
+Columns:
+  • id          : String              | PK | NOT NULL | Default: cuid()
+  • title       : String              | NOT NULL
+                 Concise issue title.
+  • description : Text                | NULL
+                 Markdown description of reproduction steps or requirements.
+  • status      : Enum (IssueStatus)  | NOT NULL | Default: TODO
+                 Status lifecycle: TODO, IN_PROGRESS, DONE.
+  • priority    : Enum (IssuePriority)| NOT NULL | Default: MEDIUM
+                 Triage urgency: LOW, MEDIUM, HIGH, URGENT.
+  • tags        : String[]            | NOT NULL | Default: []
+                 PostgreSQL text array containing issue tags (e.g. ["bug", "frontend"]).
+  • projectId   : String              | FK | NOT NULL
+                 Foreign key referencing parent `Project.id`.
+  • creatorId   : String              | FK | NULL
+                 Foreign key referencing issue reporter `User.id`.
+  • assigneeId  : String              | FK | NULL
+                 Foreign key referencing assigned engineer `User.id`.
+  • createdAt   : DateTime            | NOT NULL | Default: now()
+  • updatedAt   : DateTime            | NOT NULL | Auto-updated
+
+Indexes & Constraints:
+  • Primary Key : `id`
+  • Index       : `@@index([projectId])`
+  • Index       : `@@index([creatorId])`
+  • Index       : `@@index([assigneeId])`
+  • Index       : `@@index([status])`
+  • Index       : `@@index([priority])`
+  • Foreign Key : `projectId`  -> `Project.id` (ON DELETE CASCADE)
+  • Foreign Key : `creatorId`  -> `User.id`    (ON DELETE SET NULL)
+  • Foreign Key : `assigneeId` -> `User.id`    (ON DELETE SET NULL)
+
+Connected Relationships:
+  • project  : Many-to-1 parent relation referencing `Project`.
+  • creator  : Many-to-1 parent relation referencing `User` via relation "IssueCreator".
+  • assignee : Many-to-1 parent relation referencing `User` via relation "IssueAssignee".
+
+----------------------------------------------------------------------------------------------------
+4.27 Table: Notification
+----------------------------------------------------------------------------------------------------
+Purpose:
+  User alert notification system for radar job matches, project invites, and membership alerts.
+
+Columns:
+  • id        : String    | PK | NOT NULL | Default: cuid()
+  • userId    : String    | FK | NOT NULL
+               Foreign key referencing recipient `User.id`.
+  • title     : String    | NOT NULL
+               Notification subject heading.
+  • message   : Text      | NOT NULL
+               Detailed notification message body.
+  • type      : String    | NOT NULL | Default: "info"
+               Notification category: "info", "success", "warning", "alert", "project", "job".
+  • link      : String    | NULL
+               In-app navigation URL to trigger when clicked.
+  • read      : Boolean   | NOT NULL | Default: false
+               Read / unread state flag.
+  • readAt    : DateTime  | NULL
+               Timestamp when notification was marked as read.
+  • createdAt : DateTime  | NOT NULL | Default: now()
+  • updatedAt : DateTime  | NOT NULL | Auto-updated
+
+Indexes & Constraints:
+  • Primary Key : `id`
+  • Index       : `@@index([userId])`
+  • Index       : `@@index([read])`
+  • Index       : `@@index([userId, read])`
+  • Index       : `@@index([createdAt])`
+  • Foreign Key : `userId` -> `User.id` (ON DELETE CASCADE)
+
+Connected Relationships:
+  • user : Many-to-1 parent relation referencing `User`.
+
+----------------------------------------------------------------------------------------------------
+4.28 Table: UserRoadmapProgress
+----------------------------------------------------------------------------------------------------
+Purpose:
+  Persistent tracking entity recording a candidate's completed topics, current active milestone,
+  and percentage completion across community and premium roadmaps.
+
+Columns:
+  • id              : String    | PK | NOT NULL | Default: cuid()
+  • userId          : String    | FK | NOT NULL
+                     Foreign key referencing candidate `User.id`.
+  • roadmapSlug     : String    | NOT NULL
+                     Unique slug identifier of the roadmap track (e.g. "frontend", "ai-engineer").
+  • completedTopics : String[]  | NOT NULL | Default: []
+                     PostgreSQL text array containing IDs of mastered topics.
+  • currentTopic    : String    | NULL
+                     ID of the topic currently in progress.
+  • progressPercent : Int       | NOT NULL | Default: 0
+                     Precomputed integer completion percentage (0 to 100).
+  • lastActivityAt  : DateTime  | NOT NULL | Default: now()
+                     Timestamp of most recent topic checkbox toggle.
+  • createdAt       : DateTime  | NOT NULL | Default: now()
+  • updatedAt       : DateTime  | NOT NULL | Auto-updated
+
+Indexes & Constraints:
+  • Primary Key : `id`
+  • Unique      : `@@unique([userId, roadmapSlug])` (One progress record per user per roadmap track)
+  • Index       : `@@index([userId])`
+  • Index       : `@@index([roadmapSlug])`
+  • Foreign Key : `userId` -> `User.id` (ON DELETE CASCADE)
+
+Connected Relationships:
+  • user : Many-to-1 parent relation referencing `User`.
+
+----------------------------------------------------------------------------------------------------
+4.29 Table: AuditLog
+----------------------------------------------------------------------------------------------------
+Purpose:
+  Centralized immutable administrative audit log tracking administrative governance, catalog edits,
+  moderation actions, and security operations.
+
+Columns:
+  • id         : String   | PK | NOT NULL | Default: cuid()
+  • userId     : String   | FK | NULL
+                Foreign key referencing initiating `User.id`. Null for system actions.
+  • action     : String   | NOT NULL
+                Verb describing administrative operation (e.g. "USER_ROLE_CHANGE", "PROJECT_DELETE").
+  • targetType : String   | NOT NULL
+                Entity domain modified (e.g. "User", "Project", "Job", "Membership").
+  • targetId   : String   | NULL
+                Primary key ID of modified record.
+  • ipAddress  : String   | NULL
+                Client IP address of initiator.
+  • userAgent  : String   | NULL
+                Client User-Agent string.
+  • details    : Json     | NULL
+                JSONB diff or payload parameters of change.
+  • createdAt  : DateTime | NOT NULL | Default: now()
+
+Indexes & Constraints:
+  • Primary Key : `id`
+  • Index       : `@@index([userId])`
+  • Index       : `@@index([action])`
+  • Index       : `@@index([targetType])`
+  • Index       : `@@index([createdAt])`
+  • Foreign Key : `userId` -> `User.id` (ON DELETE SET NULL)
+
+Connected Relationships:
+  • user : Many-to-1 parent relation referencing `User` (Optional).
+
+----------------------------------------------------------------------------------------------------
+4.30 Table: MembershipPlan
+----------------------------------------------------------------------------------------------------
+Purpose:
+  Defines product subscription tiers, billing intervals, features list, and pricing structures.
+
+Columns:
+  • id          : String   | PK | NOT NULL | Default: cuid()
+  • code        : String   | UNIQUE | NOT NULL
+                 Plan programmatic key (e.g. "FREE", "PREMIUM_MONTHLY", "PREMIUM_ANNUAL").
+  • name        : String   | NOT NULL
+                 Customer-facing plan name (e.g. "flowCTRL Premium (Annual)").
+  • description : Text     | NULL
+                 Marketing summary of plan capabilities.
+  • tier        : String   | NOT NULL | Default: "PREMIUM"
+                 Access tier classification: "FREE" or "PREMIUM".
+  • price       : Decimal(10,2)| NOT NULL | Default: 0.00
+                 Base cost of plan in specified currency units with fixed 2-decimal monetary precision (0.00 for Free).
+  • currency    : String   | NOT NULL | Default: "USD"
+                 Currency identifier (ISO 4217, default "USD").
+  • interval    : String   | NULL
+                 Billing recurrence: "month", "year", "lifetime", null.
+  • features    : String[] | NOT NULL | Default: []
+                 PostgreSQL text array containing bullet-point feature entitlements.
+  • isActive    : Boolean  | NOT NULL | Default: true
+                 Whether new checkouts can be created for this plan.
+  • sortOrder   : Int      | NOT NULL | Default: 0
+                 Display sorting priority.
+  • createdAt   : DateTime | NOT NULL | Default: now()
+  • updatedAt   : DateTime | NOT NULL | Auto-updated
+
+Indexes & Constraints:
+  • Primary Key : `id`
+  • Unique      : `code`
+  • Index       : `@@index([code])`
+  • Index       : `@@index([tier])`
+  • Index       : `@@index([isActive])`
+
+Connected Relationships:
+  • memberships : 1-to-many child relation to `UserMembership[]`.
+  • history     : 1-to-many child relation to `MembershipHistory[]`.
+
+----------------------------------------------------------------------------------------------------
+4.31 Table: UserMembership
+----------------------------------------------------------------------------------------------------
+Purpose:
+  Authoritative user subscription state. Evaluated on every premium resource request to enforce
+  real-time access control, expiration downgrade, and auto-renewal state.
+
+Columns:
+  • id             : String    | PK | NOT NULL | Default: cuid()
+  • userId         : String    | UNIQUE | FK | NOT NULL
+                    Foreign key referencing `User.id`. Exactly one active membership record per user.
+  • planId         : String    | FK | NOT NULL
+                    Foreign key referencing currently assigned `MembershipPlan.id`.
+  • tier           : String    | NOT NULL | Default: "FREE"
+                    Cached access level: "FREE" or "PREMIUM".
+  • status         : String    | NOT NULL | Default: "ACTIVE"
+                    Membership status: "ACTIVE", "EXPIRED", "CANCELLED", "PAST_DUE".
+  • startDate      : DateTime  | NOT NULL | Default: now()
+                    Date when current subscription commenced.
+  • expiresAt      : DateTime  | NULL
+                    Date when subscription expires. Null indicates perpetual/unlimited access.
+  • autoRenew      : Boolean   | NOT NULL | Default: false
+                    Whether subscription will automatically renew at period end.
+  • cancelledAt    : DateTime  | NULL
+                    Timestamp when candidate cancelled renewal. Null if active.
+  • lastVerifiedAt : DateTime  | NOT NULL | Default: now()
+                    Timestamp when backend verified validity against real-time clock.
+  • createdAt      : DateTime  | NOT NULL | Default: now()
+  • updatedAt      : DateTime  | NOT NULL | Auto-updated
+
+Indexes & Constraints:
+  • Primary Key : `id`
+  • Unique      : `userId`
+  • Index       : `@@index([userId])`
+  • Index       : `@@index([tier])`
+  • Index       : `@@index([status])`
+  • Index       : `@@index([expiresAt])`
+  • Foreign Key : `userId` -> `User.id` (ON DELETE CASCADE)
+  • Foreign Key : `planId` -> `MembershipPlan.id` (Restricted delete)
+
+Connected Relationships:
+  • user         : 1-to-1 parent relation referencing `User`.
+  • plan         : Many-to-1 parent relation referencing `MembershipPlan`.
+  • transactions : 1-to-many child relation to `MembershipTransaction[]`.
+
+----------------------------------------------------------------------------------------------------
+4.32 Table: MembershipHistory
+----------------------------------------------------------------------------------------------------
+Purpose:
+  Immutable audit ledger recording all membership transitions (activations, upgrades, renewals,
+  expirations, and cancellations).
+
+Columns:
+  • id        : String    | PK | NOT NULL | Default: cuid()
+  • userId    : String    | FK | NOT NULL
+               Foreign key referencing `User.id`.
+  • planId    : String    | FK | NOT NULL
+               Foreign key referencing target `MembershipPlan.id`.
+  • action    : String    | NOT NULL
+               Lifecycle transition action: "ACTIVATED", "UPGRADED", "RENEWED", "EXPIRED", "CANCELLED".
+  • tier      : String    | NOT NULL | Default: "PREMIUM"
+               Tier associated with event: "FREE" or "PREMIUM".
+  • startDate : DateTime  | NOT NULL
+               Commencement date of this period.
+  • endDate   : DateTime  | NULL
+               Conclusion date of this period.
+  • note      : Text      | NULL
+               Human-readable event notes or payment gateway confirmation details.
+  • createdAt : DateTime  | NOT NULL | Default: now()
+
+Indexes & Constraints:
+  • Primary Key : `id`
+  • Index       : `@@index([userId])`
+  • Index       : `@@index([planId])`
+  • Index       : `@@index([createdAt])`
+  • Foreign Key : `userId` -> `User.id` (ON DELETE CASCADE)
+  • Foreign Key : `planId` -> `MembershipPlan.id`
+
+Connected Relationships:
+  • user : Many-to-1 parent relation referencing `User`.
+  • plan : Many-to-1 parent relation referencing `MembershipPlan`.
+
+----------------------------------------------------------------------------------------------------
+4.33 Table: MembershipTransaction
+----------------------------------------------------------------------------------------------------
+Purpose:
+  Financial and payment ledger recording checkout attempts, payment confirmations, and refunds.
+
+Columns:
+  • id                : String   | PK | NOT NULL | Default: cuid()
+  • membershipId      : String   | FK | NULL
+                       Foreign key referencing `UserMembership.id`.
+  • userId            : String   | FK | NOT NULL
+                       Foreign key referencing paying `User.id`.
+  • amount            : Decimal(10,2)| NOT NULL
+                       Monetary amount charged with fixed 2-decimal precision (e.g. 29.00 or 290.00).
+  • currency          : String   | NOT NULL | Default: "USD"
+                       ISO 4217 currency code.
+  • status            : String   | NOT NULL
+                       Transaction outcome: "PENDING", "COMPLETED", "FAILED", "REFUNDED".
+  • paymentMethod     : String   | NULL
+                       Payment gateway channel: "card", "mock", "crypto".
+  • providerReference : String   | NULL
+                       External reference ID from payment provider.
+  • createdAt         : DateTime | NOT NULL | Default: now()
+  • updatedAt         : DateTime | NOT NULL | Auto-updated
+
+Indexes & Constraints:
+  • Primary Key : `id`
+  • Index       : `@@index([userId])`
+  • Index       : `@@index([membershipId])`
+  • Index       : `@@index([status])`
+  • Index       : `@@index([createdAt])`
+  • Foreign Key : `membershipId` -> `UserMembership.id` (ON DELETE SET NULL)
+  • Foreign Key : `userId`       -> `User.id`           (ON DELETE CASCADE)
+
+Connected Relationships:
+  • membership : Many-to-1 parent relation referencing `UserMembership` (Optional).
+  • user       : Many-to-1 parent relation referencing `User`.
+
+----------------------------------------------------------------------------------------------------
+4.34 Table: ResourceCategory
+----------------------------------------------------------------------------------------------------
+Purpose:
+  Curated domain categories for premium learning tracks and advanced architectural guides.
+
+Columns:
+  • id          : String   | PK | NOT NULL | Default: cuid()
+  • slug        : String   | UNIQUE | NOT NULL
+                 URL-safe category slug (e.g. "backend-cloud", "security", "ai-intelligence").
+  • name        : String   | NOT NULL
+                 Human-readable category name (e.g. "Backend & Cloud Architecture").
+  • description : Text     | NULL
+                 Curriculum domain summary.
+  • icon        : String   | NULL
+                 Lucide icon identifier string (e.g. "Server", "ShieldCheck", "Brain").
+  • sortOrder   : Int      | NOT NULL | Default: 0
+                 Display ordering sequence.
+  • createdAt   : DateTime | NOT NULL | Default: now()
+  • updatedAt   : DateTime | NOT NULL | Auto-updated
+
+Indexes & Constraints:
+  • Primary Key : `id`
+  • Unique      : `slug`
+  • Index       : `@@index([slug])`
+
+Connected Relationships:
+  • resources : 1-to-many child relation to `PremiumResource[]`.
+
+----------------------------------------------------------------------------------------------------
+4.35 Table: PremiumResource
+----------------------------------------------------------------------------------------------------
+Purpose:
+  Curated advanced engineering masterclasses and architectural guides. Content is strictly
+  redacted for non-premium viewers and unlocked only for verified active Premium subscribers.
+
+Columns:
+  • id             : String   | PK | NOT NULL | Default: cuid()
+  • slug           : String   | UNIQUE | NOT NULL
+                    URL-safe unique identifier (e.g. "distributed-systems-architecture").
+  • title          : String   | NOT NULL
+                    Masterclass title (e.g. "Advanced Distributed Systems & High-Scale Architecture").
+  • description    : Text     | NOT NULL
+                    Detailed course overview and learning objectives.
+  • categorySlug   : String   | NULL
+                    Category slug (indexed string).
+  • categoryId     : String   | FK | NULL
+                    Foreign key referencing `ResourceCategory.id`.
+  • accessLevel    : String   | NOT NULL | Default: "PREMIUM"
+                    Access tier restriction: "FREE" or "PREMIUM".
+  • level          : String   | NOT NULL | Default: "Advanced"
+                    Target seniority: "Beginner", "Intermediate", "Advanced".
+  • badge          : String   | NULL | Default: "PREMIUM"
+                    UI visual badge tag: "PREMIUM", "PRO", "DEEP DIVE".
+  • iconName       : String   | NULL | Default: "Sparkles"
+                    Lucide icon identifier name.
+  • estimatedHours : Int      | NULL | Default: 25
+                    Estimated total curriculum completion time in hours.
+  • topicsCount    : Int      | NOT NULL | Default: 0
+                    Total number of modules and granular topics included.
+  • externalUrl    : String   | NULL
+                    Optional companion link or repository.
+  • content        : Json     | NULL
+                    Confidential JSONB object containing modules, topic outlines, papers, and code labs.
+                    (Strictly stripped by backend service when viewed by non-premium clients).
+  • isActive       : Boolean  | NOT NULL | Default: true
+                    Whether the track is live in the catalog.
+  • isFeatured     : Boolean  | NOT NULL | Default: false
+                    Promotional feature flag.
+  • sortOrder      : Int      | NOT NULL | Default: 0
+                    Sorting sequence order.
+  • createdAt      : DateTime | NOT NULL | Default: now()
+  • updatedAt      : DateTime | NOT NULL | Auto-updated
+
+Indexes & Constraints:
+  • Primary Key : `id`
+  • Unique      : `slug`
+  • Index       : `@@index([slug])`
+  • Index       : `@@index([accessLevel])`
+  • Index       : `@@index([isActive])`
+  • Index       : `@@index([categoryId])`
+  • Index       : `@@index([categorySlug])`
+  • Foreign Key : `categoryId` -> `ResourceCategory.id` (ON DELETE SET NULL)
+
+Connected Relationships:
+  • category : Many-to-1 parent relation referencing `ResourceCategory` (Optional).
+
+====================================================================================================
+5. EXHAUSTIVE RELATIONSHIP MAP (ONE-TO-ONE, ONE-TO-MANY, MANY-TO-MANY)
+====================================================================================================
+
+5.1 One-to-One (1:1) Relationships:
+  --------------------------------------------------------------------------------------------------
+  Parent Table    | Child Table      | Foreign Key                      | Cascading Behavior
+  --------------------------------------------------------------------------------------------------
+  User            | UserProfile      | UserProfile.userId -> User.id    | CASCADE on delete
+  User            | UserPreference   | UserPreference.userId -> User.id | CASCADE on delete
+  User            | MentorProfile    | MentorProfile.userId -> User.id  | CASCADE on delete (Unique FK)
+  User            | UserMembership   | UserMembership.userId -> User.id | CASCADE on delete (Unique FK)
+
+5.2 One-to-Many (1:N) Relationships:
+  --------------------------------------------------------------------------------------------------
+  Parent Table     | Child Table           | Foreign Key Column             | Cascading Behavior
+  --------------------------------------------------------------------------------------------------
+  User             | Account               | Account.userId                 | CASCADE on delete
+  User             | Session               | Session.userId                 | CASCADE on delete
+  User             | UserSession           | UserSession.userId             | CASCADE on delete
+  User             | SecurityLog           | SecurityLog.userId             | CASCADE on delete
+  User             | UserSkill             | UserSkill.userId               | CASCADE on delete
+  User             | Roadmap               | Roadmap.userId                 | CASCADE on delete
+  User             | Resume                | Resume.userId                  | CASCADE on delete
+  User             | ResumeAnalysis        | ResumeAnalysis.userId          | CASCADE on delete
+  User             | SavedJob              | SavedJob.userId                | CASCADE on delete
+  User             | JobApplication        | JobApplication.userId          | CASCADE on delete
+  User             | Project (owned)       | Project.ownerId                | CASCADE on delete
+  User             | ProjectMember         | ProjectMember.userId           | CASCADE on delete
+  User             | Issue (created)       | Issue.creatorId                | SET NULL on delete
+  User             | Issue (assigned)      | Issue.assigneeId               | SET NULL on delete
+  User             | Notification          | Notification.userId            | CASCADE on delete
+  User             | UserRoadmapProgress   | UserRoadmapProgress.userId     | CASCADE on delete
+  User             | AuditLog              | AuditLog.userId                | SET NULL on delete
+  User             | MembershipHistory     | MembershipHistory.userId       | CASCADE on delete
+  User             | MembershipTransaction | MembershipTransaction.userId   | CASCADE on delete
+  Category         | Skill                 | Skill.categoryId               | SET NULL on delete
+  Skill            | UserSkill             | UserSkill.skillId              | CASCADE on delete
+  Skill            | JobSkill              | JobSkill.skillId               | CASCADE on delete
+  Roadmap          | RoadmapPhase          | RoadmapPhase.roadmapId         | CASCADE on delete
+  RoadmapPhase     | RoadmapTask           | RoadmapTask.roadmapPhaseId     | CASCADE on delete
+  Resume           | ResumeAnalysis        | ResumeAnalysis.resumeId        | CASCADE on delete
+  Resume           | JobApplication        | JobApplication.resumeId        | SET NULL on delete
+  Company          | Job                   | Job.companyId                  | CASCADE on delete
+  Job              | JobSkill              | JobSkill.jobId                 | CASCADE on delete
+  Job              | SavedJob              | SavedJob.jobId                 | CASCADE on delete
+  Job              | JobApplication        | JobApplication.jobId           | CASCADE on delete
+  Project          | ProjectMember         | ProjectMember.projectId        | CASCADE on delete
+  Project          | Issue                 | Issue.projectId                | CASCADE on delete
+  MembershipPlan   | UserMembership        | UserMembership.planId          | RESTRICT on delete
+  MembershipPlan   | MembershipHistory     | MembershipHistory.planId       | RESTRICT on delete
+  UserMembership   | MembershipTransaction | MembershipTransaction.membershipId | SET NULL on delete
+  ResourceCategory | PremiumResource       | PremiumResource.categoryId     | SET NULL on delete
+
+5.3 Many-to-Many (N:M) Relationships via Explicit Junction Tables:
+  --------------------------------------------------------------------------------------------------
+  Entity A | Entity B | Explicit Junction Table | Junction PK / Unique Key     | Attributes
+  --------------------------------------------------------------------------------------------------
+  User     | Skill    | UserSkill               | @@unique([userId, skillId])  | proficiency, isVerified
+  Job      | Skill    | JobSkill                | @@unique([jobId, skillId])   | isRequired
+  User     | Job      | SavedJob                | @@unique([userId, jobId])    | createdAt
+  Project  | User     | ProjectMember           | @@id([projectId, userId])    | projectRole, joinedAt
+  User     | Job      | JobApplication          | id (cuid)                    | status, notes, resumeId
+
+====================================================================================================
+6. REFERENTIAL INTEGRITY, CASCADING RULES & INDEXING STRATEGY
+====================================================================================================
+
+6.1 Cascading Delete Protocol (GDPR & Data Cleanliness):
+  When a user account (`User`) is deleted:
+  • Primary profile, preferences, custom roadmaps, and sessions are immediately PURGED (Cascade).
+  • Uploaded resume artifacts and analyses are immediately PURGED (Cascade).
+  • Saved jobs and job applications are immediately PURGED (Cascade).
+  • Security logs and membership history are PURGED (Cascade).
+  • Workspaces owned by the user are PURGED (Cascade).
+  • Issues authored or assigned to the user have their foreign keys safely preserved with SET NULL,
+    preventing corruption of team collaboration repositories.
+  • Administrative AuditLog entries retain their immutable activity record with SET NULL on the actor ID.
+
+6.2 Indexing & Query Acceleration:
+  Every relational lookup path in flowCTRL is indexed using PostgreSQL B-Tree indexes:
+  • All foreign keys (`userId`, `companyId`, `roadmapId`, `projectId`, `skillId`, `jobId`, `planId`).
+  • Filterable enumerations and status columns (`role`, `status`, `workMode`, `accessLevel`, `read`).
+  • Composite unique constraints preventing duplicates:
+    - `[provider, providerAccountId]` in Account
+    - `[identifier, token]` in VerificationToken
+    - `[userId, skillId]` in UserSkill
+    - `[jobId, skillId]` in JobSkill
+    - `[userId, jobId]` in SavedJob
+    - `[userId, roadmapSlug]` in UserRoadmapProgress
+    - `[projectId, userId]` in ProjectMember
+  • Temporal / chronological query indexes (`createdAt`, `expiresAt`, `revokedAt`) for efficient
+    session revocation sweeps and audit log pagination.
+
+====================================================================================================
+7. MAINTENANCE & SCHEMA REVISION PROTOCOL
+====================================================================================================
+1. Any modification to models, fields, or relationships MUST be made directly in:
+   `flowCTRL data files/prisma/schema.prisma`
+2. Sync the mirrored schema:
+   Copy to `apps/backend/prisma/schema.prisma`
+3. Validate and verify schema parity:
+   $ npx prisma validate
+   $ npx prisma migrate diff --from-config-datasource --to-schema "flowCTRL data files/prisma/schema.prisma" --script
+4. Apply migrations transactionally with rollback considerations (never use blind resets):
+   $ psql -h localhost -p 5432 -U postgres -d flowCTRL -f "flowCTRL data files/prisma/migrations/<migration>/migration.sql"
+5. Regenerate Prisma Client:
+   $ npx prisma generate
+6. Run regression test suite:
+   $ npm test --workspace=backend
+7. Update this documentation file (`DB.txt`) immediately to reflect any schema modifications.
+
+====================================================================================================
+8. IDEMPOTENT ENTERPRISE SEED SYSTEM & TEST PERSONAS (ALL 35 MODELS)
+====================================================================================================
+Authoritative Seed Script: `flowCTRL data files/scripts/seed.js`
+Execution Command:          $ node "flowCTRL data files/scripts/seed.js"
+
+8.1 Production Security Guard:
+  • Hard-coded guard preventing accidental execution in production environments:
+    `if (process.env.NODE_ENV === "production" && process.env.ALLOW_SEED !== "true")`
+  • Fails with exit code 1 and logs an audit security warning.
+
+8.2 100% Fictional Data Guarantee:
+  • Strictly zero real credentials, personal information, or live payment gateway numbers.
+  • Passwords are uniformly hashed using Bcrypt (10 rounds) from `Password123!`.
+  • Provider references and hashes are generated deterministically using SHA-256 prefixes.
+
+8.3 Dedicated Test Persona Scenarios:
+  1. System Administrator (`admin@flowctrl.dev`):
+     - Role: ADMIN
+     - Membership: Pro Annual ($290.00/yr), active, auto-renewal enabled.
+     - Responsibilities: Governance, schema audits, platform-wide curation.
+  2. Senior Full-Stack Engineer (`alex@flowctrl.dev`):
+     - Role: USER
+     - Membership: Pro Monthly ($29.00/mo), active, auto-renewal enabled.
+     - Portfolio: 94 ATS resume score, active job interview pipeline, 65% roadmap progress.
+  3. Active Free Engineer (`free.dev@flowctrl.dev`):
+     - Role: USER
+     - Membership: Community Free ($0.00), active.
+     - Testing: Validates paywall enforcement, locked premium curriculum indicators.
+  4. Expired Member (`expired.member@flowctrl.dev`):
+     - Role: USER
+     - Membership: Pro Monthly, expired 7 days ago, status EXPIRED.
+     - Testing: Validates automatic downgrade to Free tier and renewal reminders.
+  5. Verified Mentor (`mentor@flowctrl.dev`):
+     - Role: MENTOR
+     - Profile: Sarah Lin, 11 years experience, $120.00/hr (Decimal 10,2).
+  6. Technical Recruiter (`recruiter@flowctrl.dev`):
+     - Role: RECRUITER
+     - Persona: Marcus Vance, talent acquisition and candidate pipeline screener.
+
+8.4 35/35 Model Coverage Map:
+  [Phase 1]  Category, CareerPath, Skill
+  [Phase 2]  User, UserProfile, UserPreference, UserSkill, Account, Session, UserSession, VerificationToken, SecurityLog
+  [Phase 3]  MembershipPlan, UserMembership, MembershipHistory, MembershipTransaction (Decimal amounts)
+  [Phase 4]  ResourceCategory, PremiumResource (Deep-dive curriculums)
+  [Phase 5]  Roadmap, RoadmapPhase, RoadmapTask, UserRoadmapProgress
+  [Phase 6]  Resume, ResumeAnalysis (Scores, feedback, ATS issues)
+  [Phase 7]  Company, Job, JobSkill, SavedJob, JobApplication
+  [Phase 8]  MentorProfile (Decimal hourlyRate)
+  [Phase 9]  Project, ProjectMember, Issue
+  [Phase 10] Notification (Read and unread state variations)
+  [Phase 11] AuditLog (Administrative security trail)
+
+====================================================================================================
+9. ENTERPRISE MIGRATION & DISASTER RECOVERY PROTOCOL
+====================================================================================================
+9.1 Version-Controlled Migration Directory:
+  `flowCTRL data files/prisma/migrations/20261102_enterprise_db_audit_optimization/`
+  - `migration.sql` : Transactional DDL applying DECIMAL(10,2) conversions and 10 query/FK indexes.
+  - `rollback.sql`  : Disaster recovery reversal script reverting schema to previous state.
+
+9.2 Full Database Backup Snapshot:
+  - Path: `flowCTRL data files/backups/pre_audit_backup_20261102.sql`
+  - Engine: PostgreSQL pg_dump (v18.4)
+  - Recovery Command:
+    $ psql -h localhost -p 5432 -U postgres -d flowCTRL -f "flowCTRL data files/backups/pre_audit_backup_20261102.sql"
+
+====================================================================================================
+END OF flowCTRL DATABASE ARCHITECTURAL SPECIFICATION (DB.txt)
+====================================================================================================
+

@@ -57,6 +57,9 @@ export function clearClientCache(prefix = "") {
   }
 }
 
+const BACKEND_URL =
+  process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000";
+
 /**
  * Core centralized request utility
  */
@@ -115,7 +118,17 @@ async function request(endpoint, options = {}) {
     }
   }
 
-  const response = await fetch(endpoint, config);
+  // Resolve target URL: send /api/ requests to backend URL if not absolute
+  let targetUrl = endpoint;
+  if (
+    endpoint.startsWith("/api/auth") ||
+    endpoint.startsWith("/api/roadmaps") ||
+    endpoint.startsWith("/api/rag")
+  ) {
+    targetUrl = `${BACKEND_URL}${endpoint}`;
+  }
+
+  const response = await fetch(targetUrl, config);
 
   // Parse JSON response safely
   let data;
@@ -162,7 +175,9 @@ export const api = {
 
   // Centralized Auth API Methods
   auth: {
-    login: (credentials) => api.post("/api/auth/login", credentials),
+    signIn: (credentials) => api.post("/api/auth/signin", credentials),
+    login: (credentials) => api.post("/api/auth/signin", credentials),
+    signUp: (userData) => api.post("/api/auth/signup", userData),
     signup: (userData) => api.post("/api/auth/signup", userData),
     me: () => api.get("/api/auth/me"),
     logout: () => api.post("/api/auth/logout"),
@@ -196,6 +211,15 @@ export const api = {
       const q = new URLSearchParams(params).toString();
       return api.get(`/api/job-matcher${q ? `?${q}` : ""}`);
     },
+  },
+
+  // Centralized RAG Career Roadmap API Methods
+  rag: {
+    generateRoadmap: (queryData) => api.post("/api/rag/generate-roadmap", queryData),
+    updateStepProgress: (progressData) => api.post("/api/rag/progress/step", progressData),
+    getProfile: () => api.get("/api/rag/profile"),
+    getRoadmap: () => api.get("/api/rag/roadmap"),
+    getRecommendations: () => api.get("/api/rag/recommendations"),
   },
 };
 

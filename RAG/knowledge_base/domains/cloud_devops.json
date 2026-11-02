@@ -1,0 +1,201 @@
+{
+  "domain": "Cloud / DevOps",
+  "careerPath": "Cloud & DevOps Engineering",
+  "targetRoles": ["DevOps Engineer", "Site Reliability Engineer (SRE)", "Cloud Architect"],
+  "stages": [
+    {
+      "stageName": "Foundation",
+      "stageDescription": "Linux operating system, terminal navigation, shell scripting, and networking fundamentals.",
+      "items": [
+        {
+          "topic": "Linux Administration & Bash Automation",
+          "whyRecommended": "Linux powers virtually all cloud servers, containers, and deployment infrastructure.",
+          "difficulty": "Beginner",
+          "prerequisites": [],
+          "estimatedEffort": "15 hours (1-2 weeks)",
+          "skills": ["Linux", "Bash", "SSH"],
+          "recommendedResources": [
+            {
+              "title": "Linux Journey - Grasshopper to Guru",
+              "type": "documentation",
+              "url": "https://linuxjourney.com/"
+            }
+          ],
+          "practiceTasks": ["Write bash scripts for log rotation, disk space alerts, and process monitoring"],
+          "projectApplication": "Automated server health check script sending alerts on threshold violations",
+          "completionCriteria": "Proficient with systemd, grep/awk/sed, file permissions (chmod/chown), and SSH keys",
+          "nextRecommendedStep": "Docker & Container Architecture"
+        }
+      ]
+    },
+    {
+      "stageName": "Core Skills",
+      "stageDescription": "Containerization, multi-stage builds, continuous integration, and infrastructure provisioning.",
+      "items": [
+        {
+          "topic": "Docker Containerization & Multi-Stage Builds",
+          "whyRecommended": "Guarantees reproducible development and production deployment environments.",
+          "difficulty": "Intermediate",
+          "prerequisites": ["Linux"],
+          "estimatedEffort": "18 hours (2 weeks)",
+          "skills": ["Docker", "Docker Compose"],
+          "recommendedResources": [
+            {
+              "title": "Docker Official Documentation",
+              "type": "documentation",
+              "url": "https://docs.docker.com/"
+            }
+          ],
+          "practiceTasks": ["Containerize multi-container web apps with databases and volume persistence"],
+          "projectApplication": "Dockerized microservices stack with isolated network bridges and healthchecks",
+          "completionCriteria": "Production Docker images under 150MB with non-root security contexts",
+          "nextRecommendedStep": "CI/CD Automation with GitHub Actions"
+        },
+        {
+          "topic": "CI/CD Automation with GitHub Actions",
+          "whyRecommended": "Automates linting, testing, image building, and production deployment on every Git push.",
+          "difficulty": "Intermediate",
+          "prerequisites": ["Docker"],
+          "estimatedEffort": "15 hours (1-2 weeks)",
+          "skills": ["CI/CD", "GitHub Actions"],
+          "recommendedResources": [
+            {
+              "title": "GitHub Actions Documentation",
+              "type": "documentation",
+              "url": "https://docs.github.com/en/actions"
+            }
+          ],
+          "practiceTasks": ["Build automated matrix workflows for linting, unit testing, and Docker image publishing to GHCR"],
+          "projectApplication": "Automated pull request validation workflow with preview deployments",
+          "completionCriteria": "Automated pipeline blocks broken PRs and deploys green builds safely",
+          "nextRecommendedStep": "Kubernetes Orchestration"
+        }
+      ]
+    },
+    {
+      "stageName": "Intermediate Skills",
+      "stageDescription": "Kubernetes orchestration, pod scheduling, services, ingress, and Infrastructure as Code.",
+      "items": [
+        {
+          "topic": "Kubernetes & Infrastructure as Code (Terraform)",
+          "whyRecommended": "Industry standard for orchestrating resilient distributed services at scale.",
+          "difficulty": "Advanced",
+          "prerequisites": ["Docker", "Linux"],
+          "estimatedEffort": "30 hours (3 weeks)",
+          "skills": ["Kubernetes", "Terraform", "Cloud"],
+          "recommendedResources": [
+            {
+              "title": "Kubernetes Documentation",
+              "type": "documentation",
+              "url": "https://kubernetes.io/docs/home/"
+            }
+          ],
+          "practiceTasks": ["Deploy a high-availability app on Minikube/K3s with HPA, ConfigMaps, and Ingress", "Provision AWS resources with Terraform"],
+          "projectApplication": "Multi-tier app running in Kubernetes with automated horizontal pod autoscaling",
+          "completionCriteria": "Simulate pod crash and verify zero-downtime traffic continuity",
+          "nextRecommendedStep": "Observability with Prometheus & Grafana"
+        }
+      ]
+    },
+    {
+      "stageName": "Advanced Skills",
+      "stageDescription": "Observability, distributed tracing, SRE practices, and chaos engineering.",
+      "items": [
+        {
+          "topic": "Observability (Prometheus, Grafana & OpenTelemetry)",
+          "whyRecommended": "Essential for detecting service degradation and debugging production outages.",
+          "difficulty": "Advanced",
+          "prerequisites": ["Kubernetes"],
+          "estimatedEffort": "20 hours (2 weeks)",
+          "skills": ["Prometheus", "Grafana", "OpenTelemetry"],
+          "recommendedResources": [
+            {
+              "title": "Google SRE Book - Monitoring Distributed Systems",
+              "type": "article",
+              "url": "https://sre.google/sre-book/monitoring-distributed-systems/"
+            }
+          ],
+          "practiceTasks": ["Instrument Express/FastAPI apps with OpenTelemetry; configure Grafana dashboards and alert rules"],
+          "projectApplication": "Unified observability stack tracking P95/P99 latency, error rates, and saturation",
+          "completionCriteria": "Alert fires accurately during simulated traffic spikes or high error rates",
+          "nextRecommendedStep": "DevOps Capstone Project"
+        }
+      ]
+    },
+    {
+      "stageName": "Projects",
+      "stageDescription": "Complete GitOps automated infrastructure pipeline deployed to public cloud.",
+      "items": [
+        {
+          "topic": "Capstone: GitOps Production Infrastructure Pipeline (ArgoCD)",
+          "whyRecommended": "Demonstrates enterprise-grade automation and deployment hygiene.",
+          "difficulty": "Advanced",
+          "prerequisites": ["Kubernetes", "Terraform", "CI/CD"],
+          "estimatedEffort": "35 hours (3 weeks)",
+          "skills": ["GitOps", "ArgoCD", "Terraform"],
+          "recommendedResources": [
+            {
+              "title": "ArgoCD Getting Started",
+              "type": "documentation",
+              "url": "https://argo-cd.readthedocs.io/en/stable/"
+            }
+          ],
+          "practiceTasks": ["Implement declarative GitOps repository syncing Kubernetes manifests via ArgoCD"],
+          "projectApplication": "Zero-touch deployment pipeline with blue/green deployment strategy",
+          "completionCriteria": "Git commit automatically updates live production environment within 60 seconds",
+          "nextRecommendedStep": "DevOps Interview Prep"
+        }
+      ]
+    },
+    {
+      "stageName": "Interview Preparation",
+      "stageDescription": "SRE scenario troubleshooting, incident post-mortems, and system design.",
+      "items": [
+        {
+          "topic": "SRE Incident Troubleshooting & Systems Questions",
+          "whyRecommended": "Primary evaluation criteria in DevOps/SRE interviews.",
+          "difficulty": "Advanced",
+          "prerequisites": ["Linux", "Kubernetes", "Observability"],
+          "estimatedEffort": "15 hours (1-2 weeks)",
+          "skills": ["Debugging", "SRE"],
+          "recommendedResources": [
+            {
+              "title": "DevOps Interview Handbook",
+              "type": "article",
+              "url": "https://github.com/bregman-arie/devops-exercises"
+            }
+          ],
+          "practiceTasks": ["Solve timed troubleshooting drills: DNS resolution failure, CrashLoopBackOff, disk space full"],
+          "projectApplication": "Write a formal blameless incident post-mortem with root cause analysis and action items",
+          "completionCriteria": "Quickly isolate and explain the 4 Golden Signals (Latency, Traffic, Errors, Saturation)",
+          "nextRecommendedStep": "Career Placement"
+        }
+      ]
+    },
+    {
+      "stageName": "Career Preparation",
+      "stageDescription": "Cloud certifications preparation (AWS Solutions Architect / CKA) and public repository portfolio.",
+      "items": [
+        {
+          "topic": "Cloud Certification & Architecture Portfolio",
+          "whyRecommended": "High credibility booster for enterprise and consultancy hiring.",
+          "difficulty": "Intermediate",
+          "prerequisites": [],
+          "estimatedEffort": "10 hours (1 week)",
+          "skills": ["Certifications", "Architecture"],
+          "recommendedResources": [
+            {
+              "title": "AWS Certified Solutions Architect Official Exam Guide",
+              "type": "documentation",
+              "url": "https://aws.amazon.com/certification/certified-solutions-architect-associate/"
+            }
+          ],
+          "practiceTasks": ["Complete architecture diagram documenting multi-region disaster recovery"],
+          "projectApplication": "Public GitHub repository with modular Terraform modules and automated testing",
+          "completionCriteria": "Portfolio verified with working Terraform code and architectural diagrams",
+          "nextRecommendedStep": "DevOps Job Search"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+[
+  {
+    "skillId": "skill_javascript",
+    "topic": "JavaScript Fundamentals & Event Loop",
+    "resources": [
+      {
+        "title": "MDN Web Docs - JavaScript Guide",
+        "type": "documentation",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+      },
+      {
+        "title": "JavaScript.info - The Modern JavaScript Tutorial",
+        "type": "article",
+        "url": "https://javascript.info/"
+      }
+    ],
+    "practiceTasks": [
+      "Implement custom debounce and throttle utility functions from scratch",
+      "Build an interactive asynchronous promise queue with concurrency limits"
+    ],
+    "projectIdea": "Build an in-browser task runner and event emitter library"
+  },
+  {
+    "skillId": "skill_nodejs",
+    "topic": "Node.js Core Architecture & Streams",
+    "resources": [
+      {
+        "title": "Node.js Official Documentation",
+        "type": "documentation",
+        "url": "https://nodejs.org/en/docs"
+      },
+      {
+        "title": "Node.js Stream Handbook",
+        "type": "article",
+        "url": "https://github.com/substack/stream-handbook"
+      }
+    ],
+    "practiceTasks": [
+      "Process large CSV files using backpressured stream pipelines",
+      "Implement a custom HTTP server without external third-party dependencies"
+    ],
+    "projectIdea": "High-throughput log processing pipeline using Node streams and cluster module"
+  },
+  {
+    "skillId": "skill_postgresql",
+    "topic": "PostgreSQL Indexing & Transactions",
+    "resources": [
+      {
+        "title": "PostgreSQL Official Documentation - Index Types and MVCC",
+        "type": "documentation",
+        "url": "https://www.postgresql.org/docs/current/indexes.html"
+      },
+      {
+        "title": "Use The Index, Luke! - SQL Indexing Tutorial",
+        "type": "article",
+        "url": "https://use-the-index-luke.com/"
+      }
+    ],
+    "practiceTasks": [
+      "Analyze query execution plans using EXPLAIN ANALYZE and optimize slow joins",
+      "Design an atomic double-entry ledger with PostgreSQL serializable transactions"
+    ],
+    "projectIdea": "E-Commerce inventory & ledger engine with optimistic locking and composite indices"
+  },
+  {
+    "skillId": "skill_redis",
+    "topic": "Redis Data Structures & Distributed Caching",
+    "resources": [
+      {
+        "title": "Redis Official Documentation",
+        "type": "documentation",
+        "url": "https://redis.io/docs/"
+      },
+      {
+        "title": "System Design: Distributed Cache Strategies",
+        "type": "article",
+        "url": "https://redis.io/resources/cache-stampede-prevention/"
+      }
+    ],
+    "practiceTasks": [
+      "Implement cache-aside and write-through caching patterns with TTL and jitter",
+      "Build a distributed sliding-window rate limiter using Redis sorted sets (ZSET)"
+    ],
+    "projectIdea": "API Gateway Rate Limiter and Distributed Session Cache"
+  },
+  {
+    "skillId": "skill_system_design",
+    "topic": "Scalable System Architecture & Partitioning",
+    "resources": [
+      {
+        "title": "The System Design Primer - Donne Martin",
+        "type": "article",
+        "url": "https://github.com/donnemartin/system-design-primer"
+      },
+      {
+        "title": "AWS Well-Architected Framework",
+        "type": "documentation",
+        "url": "https://aws.amazon.com/architecture/well-architected/"
+      }
+    ],
+    "practiceTasks": [
+      "Design a URL shortener capable of handling 100M daily clicks with sub-20ms latency",
+      "Architect a real-time collaborative document editing engine using CRDTs and WebSockets"
+    ],
+    "projectIdea": "Distributed notification delivery engine with guaranteed at-least-once delivery"
+  },
+  {
+    "skillId": "skill_react",
+    "topic": "React Component Architecture & Performance",
+    "resources": [
+      {
+        "title": "React Official Documentation",
+        "type": "documentation",
+        "url": "https://react.dev/"
+      },
+      {
+        "title": "Overreacted - Dan Abramov",
+        "type": "article",
+        "url": "https://overreacted.io/"
+      }
+    ],
+    "practiceTasks": [
+      "Profile and eliminate unnecessary re-renders in deep component trees using React DevTools",
+      "Build an accessible, composable modal and dropdown component system with WAI-ARIA"
+    ],
+    "projectIdea": "Real-time collaborative Kanban workspace with optimistic UI updates"
+  },
+  {
+    "skillId": "skill_docker",
+    "topic": "Docker Multi-Stage Builds & Container Security",
+    "resources": [
+      {
+        "title": "Docker Official Documentation",
+        "type": "documentation",
+        "url": "https://docs.docker.com/"
+      },
+      {
+        "title": "Docker Best Practices for Node.js",
+        "type": "article",
+        "url": "https://github.com/goldbergyoni/nodebestpractices#10-docker-best-practices"
+      }
+    ],
+    "practiceTasks": [
+      "Write multi-stage Dockerfiles reducing production image sizes from 1GB to under 120MB",
+      "Set up rootless container execution with non-root security contexts"
+    ],
+    "projectIdea": "Dockerized microservices environment with automated docker-compose healthchecks"
+  },
+  {
+    "skillId": "skill_rag_systems",
+    "topic": "RAG Pipeline Engineering & Vector Embeddings",
+    "resources": [
+      {
+        "title": "Hugging Face - RAG Handbook",
+        "type": "article",
+        "url": "https://huggingface.co/learn/nlp-course"
+      },
+      {
+        "title": "LangChain Conceptual Guides",
+        "type": "documentation",
+        "url": "https://js.langchain.com/docs/concepts"
+      }
+    ],
+    "practiceTasks": [
+      "Build semantic chunking pipelines preserving document headers and parent metadata",
+      "Evaluate RAG retrieval accuracy using RAGAS / precision-recall metrics"
+    ],
+    "projectIdea": "Autonomous technical documentation query agent with hybrid vector-keyword retrieval"
+  }
+]

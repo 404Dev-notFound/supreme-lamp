@@ -1,0 +1,182 @@
+{
+  "domain": "Web Development",
+  "careerPath": "Frontend Engineering",
+  "targetRoles": ["Frontend Developer", "UI/UX Engineer", "React Specialist"],
+  "stages": [
+    {
+      "stageName": "Foundation",
+      "stageDescription": "HTML5 semantic markup, modern CSS layouts (Flexbox/Grid), and modern JavaScript ES6+.",
+      "items": [
+        {
+          "topic": "Modern JavaScript & DOM Architecture",
+          "whyRecommended": "Fundamental browser execution language required before mastering any modern framework.",
+          "difficulty": "Beginner",
+          "prerequisites": [],
+          "estimatedEffort": "15 hours (1-2 weeks)",
+          "skills": ["JavaScript", "HTML5", "DOM"],
+          "recommendedResources": [
+            {
+              "title": "MDN Web Docs - JavaScript Guide",
+              "type": "documentation",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+            }
+          ],
+          "practiceTasks": ["Build an accessible modal component and carousel using vanilla JavaScript"],
+          "projectApplication": "Interactive client-side calculator with keyboard navigation and sound effects",
+          "completionCriteria": "Understand scope, closures, prototypal inheritance, and event delegation",
+          "nextRecommendedStep": "CSS Layouts & Responsive Design"
+        }
+      ]
+    },
+    {
+      "stageName": "Core Skills",
+      "stageDescription": "Component lifecycles, hooks, TypeScript typing, and state management.",
+      "items": [
+        {
+          "topic": "React.js & TypeScript Mastery",
+          "whyRecommended": "Industry standard for building maintainable, type-safe interactive web interfaces.",
+          "difficulty": "Intermediate",
+          "prerequisites": ["JavaScript"],
+          "estimatedEffort": "25 hours (2-3 weeks)",
+          "skills": ["React", "TypeScript"],
+          "recommendedResources": [
+            {
+              "title": "React Official Documentation",
+              "type": "documentation",
+              "url": "https://react.dev/"
+            }
+          ],
+          "practiceTasks": ["Implement custom hooks for data fetching, local storage sync, and media queries"],
+          "projectApplication": "Interactive dashboard with filterable charts, search, and dark mode theme switching",
+          "completionCriteria": "Zero TypeScript any types, properly typed component props and event handlers",
+          "nextRecommendedStep": "Next.js App Router & Server Components"
+        }
+      ]
+    },
+    {
+      "stageName": "Intermediate Skills",
+      "stageDescription": "Server-side rendering, caching, data synchronization, and accessibility.",
+      "items": [
+        {
+          "topic": "Next.js & Server Components",
+          "whyRecommended": "Required for optimal SEO, fast First Contentful Paint, and modern hybrid web architecture.",
+          "difficulty": "Intermediate",
+          "prerequisites": ["React", "TypeScript"],
+          "estimatedEffort": "20 hours (2 weeks)",
+          "skills": ["Next.js", "SSR", "SEO"],
+          "recommendedResources": [
+            {
+              "title": "Next.js Documentation",
+              "type": "documentation",
+              "url": "https://nextjs.org/docs"
+            }
+          ],
+          "practiceTasks": ["Implement server actions, streaming with Suspense, and parallel routes"],
+          "projectApplication": "Production blog and documentation portal with static site generation and incremental regeneration",
+          "completionCriteria": "Lighthouse performance score above 95 across Mobile and Desktop",
+          "nextRecommendedStep": "Frontend Testing & Web Vitals Optimization"
+        }
+      ]
+    },
+    {
+      "stageName": "Advanced Skills",
+      "stageDescription": "Web performance profiling, Core Web Vitals, micro-frontends, and design systems.",
+      "items": [
+        {
+          "topic": "Web Vitals & Performance Optimization",
+          "whyRecommended": "Essential for top-tier product companies requiring sub-second load times and silky 60fps animations.",
+          "difficulty": "Advanced",
+          "prerequisites": ["Next.js"],
+          "estimatedEffort": "15 hours (1-2 weeks)",
+          "skills": ["Performance", "Chrome DevTools", "Core Web Vitals"],
+          "recommendedResources": [
+            {
+              "title": "web.dev - Core Web Vitals Guide",
+              "type": "article",
+              "url": "https://web.dev/vitals/"
+            }
+          ],
+          "practiceTasks": ["Profile bundle sizes with webpack-bundle-analyzer and optimize LCP, FID/INP, and CLS"],
+          "projectApplication": "High-speed e-commerce product catalog with instant instant search and virtualization",
+          "completionCriteria": "Demonstrated reduction in bundle size by at least 40% and CLS score under 0.05",
+          "nextRecommendedStep": "Full Frontend Capstone Project"
+        }
+      ]
+    },
+    {
+      "stageName": "Projects",
+      "stageDescription": "Showcase projects emphasizing polish, responsiveness, accessibility, and clean architecture.",
+      "items": [
+        {
+          "topic": "Capstone: Real-time Collaborative Board with Design System",
+          "whyRecommended": "Proves ability to build complex, low-latency UI with fluid state management.",
+          "difficulty": "Advanced",
+          "prerequisites": ["React", "TypeScript", "Next.js"],
+          "estimatedEffort": "35 hours (3 weeks)",
+          "skills": ["React", "TailwindCSS", "WebSockets"],
+          "recommendedResources": [
+            {
+              "title": "Building Design Systems Guide",
+              "type": "article",
+              "url": "https://www.invisionapp.com/inside-design/guide-to-design-systems/"
+            }
+          ],
+          "practiceTasks": ["Build reusable design token library with Storybook documentation"],
+          "projectApplication": "Collaborative canvas with drag-and-drop, export to SVG/PNG, and live cursors",
+          "completionCriteria": "Keyboard accessible, responsive across mobile/desktop, live on Vercel",
+          "nextRecommendedStep": "Frontend Interview Preparation"
+        }
+      ]
+    },
+    {
+      "stageName": "Interview Preparation",
+      "stageDescription": "Machine coding rounds, UI component whiteboard challenges, and frontend trivia.",
+      "items": [
+        {
+          "topic": "Frontend Machine Coding & Architecture Challenges",
+          "whyRecommended": "Standard evaluation format for senior frontend engineering roles.",
+          "difficulty": "Intermediate",
+          "prerequisites": ["React", "JavaScript"],
+          "estimatedEffort": "15 hours (1-2 weeks)",
+          "skills": ["Problem Solving", "Machine Coding"],
+          "recommendedResources": [
+            {
+              "title": "GreatFrontend - Front End Interview Preparation",
+              "type": "article",
+              "url": "https://www.greatfrontend.com/"
+            }
+          ],
+          "practiceTasks": ["Timed 90-minute coding challenges: Autocomplete search, infinite scroll list, nested comments"],
+          "projectApplication": "Collection of 10 completed and tested frontend machine coding problems",
+          "completionCriteria": "Complete machine coding challenges within time limits with clean code and edge case handling",
+          "nextRecommendedStep": "Career Preparation"
+        }
+      ]
+    },
+    {
+      "stageName": "Career Preparation",
+      "stageDescription": "Interactive portfolio, case studies, and engineering blog posts.",
+      "items": [
+        {
+          "topic": "Interactive Portfolio & Engineering Case Studies",
+          "whyRecommended": "Shows craftsmanship and visual excellence that immediate wows hiring managers.",
+          "difficulty": "Intermediate",
+          "prerequisites": [],
+          "estimatedEffort": "10 hours (1 week)",
+          "skills": ["Portfolio", "Technical Writing"],
+          "recommendedResources": [
+            {
+              "title": "Building an Outstanding Developer Portfolio",
+              "type": "article",
+              "url": "https://www.freecodecamp.org/news/build-a-developer-portfolio-website/"
+            }
+          ],
+          "practiceTasks": ["Write a technical case study detailing architectural decisions and performance optimizations"],
+          "projectApplication": "Deploy personal portfolio with dark mode, interactive demos, and contact form",
+          "completionCriteria": "Aesthetic, 100/100 Lighthouse score portfolio deployed with custom domain",
+          "nextRecommendedStep": "Hiring Outreach"
+        }
+      ]
+    }
+  ]
+}

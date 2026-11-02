@@ -85,6 +85,7 @@ env/
 *.sqlite
 *.sqlite3
 **/src/generated/prisma/
+flowCTRL data files/postgres_data/
 
 # OS & Editor
 .DS_Store
@@ -117,3 +118,4 @@ JobRadar/backend/data/_private/
 
 # Scratch & Temporary
 scratch/
+.worktrees/

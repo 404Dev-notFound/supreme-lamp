@@ -1,0 +1,381 @@
+[
+  {
+    "slug": "distributed-systems-architecture",
+    "title": "Advanced Distributed Systems & High-Scale Architecture",
+    "description": "Master consensus protocols, Raft, Paxos, event-driven streaming architectures, partition tolerance, and fault-tolerant distributed computing.",
+    "categorySlug": "backend-cloud",
+    "accessLevel": "PREMIUM",
+    "level": "Advanced",
+    "badge": "PREMIUM",
+    "iconName": "Network",
+    "estimatedHours": 45,
+    "topicsCount": 12,
+    "isFeatured": true,
+    "sortOrder": 1,
+    "content": {
+      "overview": "An exhaustive engineering curriculum covering the theory, mechanics, and real-world implementation of planetary-scale distributed systems.",
+      "prerequisites": ["Strong systems programming knowledge", "Understanding of networking (TCP/IP, sockets)", "Relational and NoSQL fundamentals"],
+      "modules": [
+        {
+          "id": "mod-dist-1",
+          "title": "Consensus & Replication Fundamentals",
+          "description": "State machine replication, leader election, and distributed consensus algorithms.",
+          "topics": [
+            {
+              "id": "top-raft-paxos",
+              "title": "Raft and Paxos Consensus Protocols",
+              "summary": "Mechanisms for achieving agreement in asynchronous systems with crash-recovery failures. Quorum systems, log matching, and term transitions.",
+              "resources": [
+                { "id": "res-raft-paper", "type": "paper", "title": "In Search of an Understandable Consensus Algorithm (Raft Paper)", "url": "https://raft.github.io/raft.pdf" },
+                { "id": "res-paxos-simple", "type": "article", "title": "Paxos Made Simple by Leslie Lamport", "url": "https://lamport.azurewebsites.net/pubs/paxos-simple.pdf" }
+              ]
+            },
+            {
+              "id": "top-cap-pacelc",
+              "title": "CAP Theorem & PACELC Trade-Offs",
+              "summary": "Formal analysis of consistency, availability, and partition tolerance tradeoffs during normal and partitioned execution.",
+              "resources": [
+                { "id": "res-pacelc-guide", "type": "article", "title": "PACELC Theorem & Latency vs. Consistency Trade-Offs", "url": "https://en.wikipedia.org/wiki/PACELC_theorem" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mod-dist-2",
+          "title": "Distributed Storage & Partitioning",
+          "description": "Consistent hashing, virtual nodes, sharding strategies, and multi-datacenter data replication.",
+          "topics": [
+            {
+              "id": "top-consistent-hashing",
+              "title": "Consistent Hashing & Dynamo Ring Architecture",
+              "summary": "Ring-based distribution with virtual nodes to minimize data relocation during cluster scaling and failover.",
+              "resources": [
+                { "id": "res-dynamo-paper", "type": "paper", "title": "Amazon Dynamo: Highly Available Key-Value Store", "url": "https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf" }
+              ]
+            },
+            {
+              "id": "top-vector-clocks",
+              "title": "Causality, Vector Clocks & CRDTs",
+              "summary": "Conflict-free Replicated Data Types (State-based and Operation-based) enabling concurrent editing without coordination.",
+              "resources": [
+                { "id": "res-crdt-tech", "type": "article", "title": "A Comprehensive Study of Convergent and Commutative Replicated Data Types", "url": "https://hal.inria.fr/inria-00555588/document" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mod-dist-3",
+          "title": "High-Throughput Streaming & Event Sourcing",
+          "description": "Log-centric architectures, exactly-once processing semantics, and distributed pub/sub pipelines.",
+          "topics": [
+            {
+              "id": "top-kafka-internals",
+              "title": "Distributed Commit Logs & Partition Mechanics",
+              "summary": "Zero-copy data transfer, index segmentation, consumer group rebalancing, and transaction coordinators.",
+              "resources": [
+                { "id": "res-kafka-doc", "type": "guide", "title": "Apache Kafka Architecture & Log Compaction Deep Dive", "url": "https://kafka.apache.org/documentation/#design" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "offensive-security-red-teaming",
+    "title": "Offensive Security, Exploit Analysis & Red Teaming",
+    "description": "Advanced penetration testing, vulnerability discovery, memory corruption analysis, web application exploitation, and enterprise red team tradecraft.",
+    "categorySlug": "security",
+    "accessLevel": "PREMIUM",
+    "level": "Advanced",
+    "badge": "PREMIUM",
+    "iconName": "ShieldCheck",
+    "estimatedHours": 50,
+    "topicsCount": 14,
+    "isFeatured": true,
+    "sortOrder": 2,
+    "content": {
+      "overview": "Professional offensive cybersecurity blueprint focused on practical vulnerability research, active defense evasion, and systematic red team operations.",
+      "prerequisites": ["Linux and Windows internals", "Networking fundamentals", "Familiarity with Python and C/C++ basics"],
+      "modules": [
+        {
+          "id": "mod-sec-1",
+          "title": "Modern Web Application Exploitation",
+          "description": "Deep dive beyond basic injection into complex multi-stage deserialization, prototype pollution, and authentication bypass.",
+          "topics": [
+            {
+              "id": "top-advanced-deserialization",
+              "title": "Insecure Object Deserialization & Gadget Chains",
+              "summary": "Constructing exploitation gadget chains in runtime environments (Java, Python, PHP, Node.js) for remote code execution.",
+              "resources": [
+                { "id": "res-appsec-guide", "type": "article", "title": "OWASP Application Security Verification Standard", "url": "https://owasp.org/www-project-application-security-verification-standard/" }
+              ]
+            },
+            {
+              "id": "top-ssrf-cloud-metadata",
+              "title": "SSRF & Cloud Metadata Exploitation",
+              "summary": "Exploiting blind SSRF to exfiltrate cloud credentials from AWS IMDSv1/v2, GCP metadata endpoints, and internal microservice mesh.",
+              "resources": [
+                { "id": "res-ssrf-bible", "type": "guide", "title": "Server-Side Request Forgery Prevention Cheat Sheet", "url": "https://cheatsheetseries.owasp.org/cheatsheets/Server_Side_Request_Forgery_Prevention_Cheat_Sheet.html" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mod-sec-2",
+          "title": "Fuzzing & Vulnerability Research",
+          "description": "Coverage-guided fuzz testing, memory corruption detection, and crash triaging.",
+          "topics": [
+            {
+              "id": "top-coverage-fuzzing",
+              "title": "Coverage-Guided Fuzzing with AFL++ and LibFuzzer",
+              "summary": "Instrumenting binaries with compile-time hooks, mutating corpus inputs, and isolating heap/stack corruption.",
+              "resources": [
+                { "id": "res-fuzzing-guide", "type": "guide", "title": "AFL++ Comprehensive Fuzzing Documentation", "url": "https://aflplus.plus/docs/" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mod-sec-3",
+          "title": "Active Directory & Enterprise Red Teaming",
+          "description": "Domain enumeration, Kerberoasting, AS-REP roasting, token manipulation, and cross-forest privilege escalation.",
+          "topics": [
+            {
+              "id": "top-ad-kerberos",
+              "title": "Kerberos Protocol Attacks & Ticket Forgery",
+              "summary": "Golden Ticket, Silver Ticket, Kerberoasting, and Unconstrained Delegation attack vectors in hybrid enterprise environments.",
+              "resources": [
+                { "id": "res-mitre-attck", "type": "guide", "title": "MITRE ATT&CK Enterprise Matrix", "url": "https://attack.mitre.org/" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "autonomous-ai-agents",
+    "title": "Applied Autonomous AI Agents & Neural Architectures",
+    "description": "Build production-grade autonomous agent systems, multi-agent communication protocols, hierarchical memory, tool-use loops, and adversarial defenses.",
+    "categorySlug": "ai-intelligence",
+    "accessLevel": "PREMIUM",
+    "level": "Advanced",
+    "badge": "PREMIUM",
+    "iconName": "Bot",
+    "estimatedHours": 40,
+    "topicsCount": 11,
+    "isFeatured": true,
+    "sortOrder": 3,
+    "content": {
+      "overview": "From single-turn LLM prompts to fully autonomous self-correcting agent systems with cognitive memory architectures and tool orchestration.",
+      "prerequisites": ["Python intermediate proficiency", "Basic knowledge of vector embeddings", "API interaction experience"],
+      "modules": [
+        {
+          "id": "mod-agent-1",
+          "title": "Agentic Reasoning Frameworks",
+          "description": "ReAct, Reflexion, Plan-and-Solve, and Tree-of-Thoughts architectural paradigms.",
+          "topics": [
+            {
+              "id": "top-react-loop",
+              "title": "ReAct: Synergizing Reasoning & Action",
+              "summary": "Designing iterative Thought-Action-Observation loops with self-reflection and deterministic error correction.",
+              "resources": [
+                { "id": "res-react-paper", "type": "paper", "title": "ReAct: Synergizing Reasoning and Acting in Language Models", "url": "https://arxiv.org/abs/2210.03629" }
+              ]
+            },
+            {
+              "id": "top-reflexion",
+              "title": "Reflexion: Episodic Memory & Self-Correction",
+              "summary": "Reinforcing agents through linguistic feedback loops stored in episodic memory without fine-tuning weights.",
+              "resources": [
+                { "id": "res-reflexion-paper", "type": "paper", "title": "Reflexion: Language Agents with Verbal Reinforcement Learning", "url": "https://arxiv.org/abs/2303.11366" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mod-agent-2",
+          "title": "Memory Architectures & Vector Spaces",
+          "description": "Hierarchical working, episodic, and semantic memory systems for long-horizon agent tasks.",
+          "topics": [
+            {
+              "id": "top-agent-memory",
+              "title": "Dynamic Context Compression & Memory Consolidation",
+              "summary": "Summarization pipelines, token budget eviction, and hybrid dense/sparse vector retrieval for persistent agent state.",
+              "resources": [
+                { "id": "res-mem-architecture", "type": "guide", "title": "Generative Agents: Interactive Simulacra of Human Behavior", "url": "https://arxiv.org/abs/2304.03442" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mod-agent-3",
+          "title": "Adversarial Defense & Guardrails",
+          "description": "Hardening autonomous agents against indirect prompt injection, data exfiltration, and tool abuse.",
+          "topics": [
+            {
+              "id": "top-prompt-injection-defense",
+              "title": "Indirect Prompt Injection Mitigations",
+              "summary": "Dual-LLM evaluator patterns, tool parameter strict validation, and sandboxed execution boundaries.",
+              "resources": [
+                { "id": "res-owasp-llm-top10", "type": "guide", "title": "OWASP Top 10 for Large Language Model Applications", "url": "https://owasp.org/www-project-top-10-for-large-language-model-applications/" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "kubernetes-platform-engineering",
+    "title": "Cloud-Native Kubernetes & Platform Engineering",
+    "description": "Architect internal developer platforms (IDPs), custom Kubernetes operators, service meshes (Istio/Linkerd), and eBPF-powered cluster telemetry.",
+    "categorySlug": "devops-cloud",
+    "accessLevel": "PREMIUM",
+    "level": "Advanced",
+    "badge": "PREMIUM",
+    "iconName": "Box",
+    "estimatedHours": 40,
+    "topicsCount": 10,
+    "isFeatured": false,
+    "sortOrder": 4,
+    "content": {
+      "overview": "Professional cloud-native guide for senior SREs and platform engineers designing resilient multi-tenant Kubernetes platforms.",
+      "prerequisites": ["Docker and container basics", "Linux systems administration", "Basic Go or Python for controllers"],
+      "modules": [
+        {
+          "id": "mod-k8s-1",
+          "title": "Custom Controllers & Operator SDK",
+          "description": "Extending the Kubernetes control plane with Custom Resource Definitions and reconciliation controllers.",
+          "topics": [
+            {
+              "id": "top-k8s-operator",
+              "title": "Operator Pattern & Reconciliation Loops",
+              "summary": "Building level-triggered reconciliation loops with client-go, controller-runtime, and Kubebuilder.",
+              "resources": [
+                { "id": "res-k8s-operators", "type": "guide", "title": "Official Kubernetes Operator Pattern Guide", "url": "https://kubernetes.io/docs/concepts/extend-kubernetes/operator/" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mod-k8s-2",
+          "title": "Service Mesh & Zero-Trust Networking",
+          "description": "mTLS, progressive delivery with Canary rollouts, and traffic mirroring.",
+          "topics": [
+            {
+              "id": "top-service-mesh",
+              "title": "Istio & Envoy Data Plane Mechanics",
+              "summary": "Configuring VirtualServices, DestinationRules, automatic mTLS sidecar injection, and circuit breaking.",
+              "resources": [
+                { "id": "res-envoy-arch", "type": "guide", "title": "Envoy Proxy Architecture & Threading Model", "url": "https://www.envoyproxy.io/docs/envoy/latest/intro/arch_overview/arch_overview" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "applied-cryptography-zkp",
+    "title": "Applied Cryptography & Zero-Knowledge Proofs",
+    "description": "Practical cryptography engineering: Elliptic Curves, Ed25519, Key Exchange protocols, Authenticated Encryption, and zk-SNARK mathematical foundations.",
+    "categorySlug": "computer-science",
+    "accessLevel": "PREMIUM",
+    "level": "Advanced",
+    "badge": "PREMIUM",
+    "iconName": "Lock",
+    "estimatedHours": 35,
+    "topicsCount": 9,
+    "isFeatured": false,
+    "sortOrder": 5,
+    "content": {
+      "overview": "Modern applied cryptographic techniques for software engineers building secure communications, privacy-preserving proofs, and distributed ledgers.",
+      "prerequisites": ["Linear algebra basics", "Modular arithmetic", "Familiarity with hashing and digital signatures"],
+      "modules": [
+        {
+          "id": "mod-crypto-1",
+          "title": "Modern Cryptographic Primitives",
+          "description": "Authenticated encryption with associated data (AEAD), ChaCha20-Poly1305, and Curve25519.",
+          "topics": [
+            {
+              "id": "top-aead-curves",
+              "title": "AEAD & Elliptic Curve Diffie-Hellman (X25519)",
+              "summary": "Preventing padding oracle and chosen-ciphertext attacks with provably secure AEAD constructions.",
+              "resources": [
+                { "id": "res-crypto-engineering", "type": "guide", "title": "Cryptography Engineering Principles (Ferguson, Schneier, Kohno)", "url": "https://www.schneier.com/books/cryptography-engineering/" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mod-crypto-2",
+          "title": "Zero-Knowledge Foundations",
+          "description": "Arithmetization, R1CS, QAP, and zk-SNARK proof systems (Groth16, PLONK).",
+          "topics": [
+            {
+              "id": "top-zk-snarks",
+              "title": "Groth16 and Polynomial Commitments",
+              "summary": "Converting computational logic into arithmetic circuits and generating succinct non-interactive zero-knowledge proofs.",
+              "resources": [
+                { "id": "res-zk-learning", "type": "guide", "title": "Zero Knowledge Proofs MOOC & Course Materials", "url": "https://zk-learning.org/" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "high-performance-databases",
+    "title": "High-Performance Database Internals & Storage Engines",
+    "description": "Explore B-Tree and LSM-Tree storage engines, MVCC isolation levels, Write-Ahead Logging (WAL), cost-based query optimizers, and buffer pool caching.",
+    "categorySlug": "databases-storage",
+    "accessLevel": "PREMIUM",
+    "level": "Advanced",
+    "badge": "PREMIUM",
+    "iconName": "Database",
+    "estimatedHours": 40,
+    "topicsCount": 10,
+    "isFeatured": false,
+    "sortOrder": 6,
+    "content": {
+      "overview": "Deep technical inspection of how database engines store, index, buffer, and execute queries across disk and memory hierarchies.",
+      "prerequisites": ["Operating systems fundamentals (page cache, I/O)", "SQL proficiency", "C/Rust/Go familiarity"],
+      "modules": [
+        {
+          "id": "mod-db-1",
+          "title": "Storage Engine Architectures",
+          "description": "B+Trees vs. Log-Structured Merge (LSM) Trees and their write-amplification tradeoffs.",
+          "topics": [
+            {
+              "id": "top-lsm-trees",
+              "title": "LSM-Trees, Memtables & Compaction Strategies",
+              "summary": "Leveled vs. Size-Tiered compaction, Bloom filters for point lookups, and crash recovery with WAL.",
+              "resources": [
+                { "id": "res-rocksdb-arch", "type": "guide", "title": "RocksDB Architecture & Compaction Mechanics", "url": "https://github.com/facebook/rocksdb/wiki/RocksDB-Basics" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mod-db-2",
+          "title": "Concurrency Control & MVCC",
+          "description": "Snapshot isolation, serializable snapshot isolation (SSI), and write skew prevention.",
+          "topics": [
+            {
+              "id": "top-mvcc-internals",
+              "title": "PostgreSQL MVCC & Tuple Visibility",
+              "summary": "xmin/xmax transaction boundaries, vacuuming, freeze operations, and lock escalation.",
+              "resources": [
+                { "id": "res-pg-internals", "type": "guide", "title": "The Internals of PostgreSQL for Hardware & Engine Architects", "url": "https://www.interdb.jp/pg/" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+]
+

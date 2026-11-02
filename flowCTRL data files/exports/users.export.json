@@ -1,0 +1,82 @@
+[
+  {
+    "id": "usr_seed_admin",
+    "name": "System Administrator",
+    "email": "admin@flowctrl.dev",
+    "role": "ADMIN",
+    "status": "ACTIVE",
+    "createdAt": "2026-10-06T17:11:49.775Z",
+    "updatedAt": "2026-10-06T17:11:49.775Z",
+    "profile": {
+      "displayName": "System Administrator",
+      "headline": "Core Platform Administrator",
+      "bio": "Overseeing flowCTRL security and infrastructure.",
+      "location": "Global"
+    },
+    "preferences": {
+      "theme": "dark",
+      "emailNotifications": true,
+      "profileVisibility": "PUBLIC"
+    }
+  },
+  {
+    "id": "usr_seed_alex",
+    "name": "Alex Johnson",
+    "email": "alex@flowctrl.dev",
+    "role": "USER",
+    "status": "ACTIVE",
+    "createdAt": "2026-10-06T17:11:49.791Z",
+    "updatedAt": "2026-10-06T17:11:49.791Z",
+    "profile": {
+      "displayName": "Alex Johnson",
+      "headline": "Senior Full-Stack Engineer",
+      "bio": "Building scalable distributed web applications with flowCTRL.",
+      "location": "San Francisco, CA"
+    },
+    "preferences": {
+      "theme": "dark",
+      "emailNotifications": true,
+      "profileVisibility": "PUBLIC"
+    }
+  },
+  {
+    "id": "usr_seed_mentor",
+    "name": "Sarah Lin",
+    "email": "mentor@flowctrl.dev",
+    "role": "MENTOR",
+    "status": "ACTIVE",
+    "createdAt": "2026-10-06T17:11:49.800Z",
+    "updatedAt": "2026-10-06T17:11:49.800Z",
+    "profile": {
+      "displayName": "Sarah Lin",
+      "headline": "Staff AI Engineer & Tech Lead",
+      "bio": "Guiding aspiring engineers in systems design and cloud architectures.",
+      "location": "Seattle, WA"
+    },
+    "preferences": {
+      "theme": "dark",
+      "emailNotifications": true,
+      "profileVisibility": "PUBLIC"
+    }
+  },
+  {
+    "id": "usr_seed_recruiter",
+    "name": "Marcus Vance",
+    "email": "recruiter@flowctrl.dev",
+    "role": "RECRUITER",
+    "status": "ACTIVE",
+    "createdAt": "2026-10-06T17:11:49.807Z",
+    "updatedAt": "2026-10-06T17:11:49.807Z",
+    "profile": {
+      "displayName": "Marcus Vance",
+      "headline": "Technical Talent Partner",
+      "bio": "Connecting elite engineers with top-tier technology teams.",
+      "location": "New York, NY"
+    },
+    "preferences": {
+      "theme": "dark",
+      "emailNotifications": true,
+      "profileVisibility": "PUBLIC"
+    }
+  }
+]

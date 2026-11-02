@@ -1,0 +1,227 @@
+[
+  {
+    "id": "skill_html_css",
+    "name": "HTML5 & Modern CSS",
+    "category": "Frontend",
+    "domain": "Web Development",
+    "level": "Beginner",
+    "prerequisites": [],
+    "importance": "Core"
+  },
+  {
+    "id": "skill_javascript",
+    "name": "JavaScript (ES6+)",
+    "category": "Programming Languages",
+    "domain": "Web Development",
+    "level": "Beginner",
+    "prerequisites": [],
+    "importance": "Core"
+  },
+  {
+    "id": "skill_typescript",
+    "name": "TypeScript",
+    "category": "Programming Languages",
+    "domain": "Software Development",
+    "level": "Intermediate",
+    "prerequisites": ["skill_javascript"],
+    "importance": "Core"
+  },
+  {
+    "id": "skill_react",
+    "name": "React.js",
+    "category": "Frontend Frameworks",
+    "domain": "Web Development",
+    "level": "Intermediate",
+    "prerequisites": ["skill_javascript", "skill_html_css"],
+    "importance": "Core"
+  },
+  {
+    "id": "skill_nextjs",
+    "name": "Next.js",
+    "category": "Fullstack Frameworks",
+    "domain": "Web Development",
+    "level": "Intermediate",
+    "prerequisites": ["skill_react", "skill_typescript"],
+    "importance": "Advanced"
+  },
+  {
+    "id": "skill_nodejs",
+    "name": "Node.js Fundamentals",
+    "category": "Backend Runtime",
+    "domain": "Software Development",
+    "level": "Beginner",
+    "prerequisites": ["skill_javascript"],
+    "importance": "Core"
+  },
+  {
+    "id": "skill_express",
+    "name": "Express.js & REST APIs",
+    "category": "Backend Frameworks",
+    "domain": "Software Development",
+    "level": "Intermediate",
+    "prerequisites": ["skill_nodejs"],
+    "importance": "Core"
+  },
+  {
+    "id": "skill_sql",
+    "name": "SQL & Relational Database Design",
+    "category": "Databases",
+    "domain": "Software Development",
+    "level": "Beginner",
+    "prerequisites": [],
+    "importance": "Core"
+  },
+  {
+    "id": "skill_postgresql",
+    "name": "PostgreSQL & Prisma ORM",
+    "category": "Databases",
+    "domain": "Software Development",
+    "level": "Intermediate",
+    "prerequisites": ["skill_sql"],
+    "importance": "Core"
+  },
+  {
+    "id": "skill_redis",
+    "name": "Redis In-Memory Caching",
+    "category": "Databases",
+    "domain": "Software Development",
+    "level": "Intermediate",
+    "prerequisites": ["skill_nodejs", "skill_sql"],
+    "importance": "Advanced"
+  },
+  {
+    "id": "skill_auth_security",
+    "name": "Authentication, JWT & Web Security",
+    "category": "Security",
+    "domain": "Software Development",
+    "level": "Intermediate",
+    "prerequisites": ["skill_express"],
+    "importance": "Core"
+  },
+  {
+    "id": "skill_system_design",
+    "name": "System Design & Architecture",
+    "category": "Architecture",
+    "domain": "Software Development",
+    "level": "Advanced",
+    "prerequisites": ["skill_postgresql", "skill_redis", "skill_express"],
+    "importance": "Advanced"
+  },
+  {
+    "id": "skill_dsa",
+    "name": "Data Structures & Algorithms",
+    "category": "Computer Science",
+    "domain": "Software Development",
+    "level": "Intermediate",
+    "prerequisites": ["skill_javascript"],
+    "importance": "Core"
+  },
+  {
+    "id": "skill_git",
+    "name": "Git & GitHub Version Control",
+    "category": "Developer Tools",
+    "domain": "Software Development",
+    "level": "Beginner",
+    "prerequisites": [],
+    "importance": "Core"
+  },
+  {
+    "id": "skill_docker",
+    "name": "Docker & Containerization",
+    "category": "DevOps",
+    "domain": "Cloud / DevOps",
+    "level": "Intermediate",
+    "prerequisites": ["skill_linux"],
+    "importance": "Core"
+  },
+  {
+    "id": "skill_linux",
+    "name": "Linux & Bash Scripting",
+    "category": "Operating Systems",
+    "domain": "Cloud / DevOps",
+    "level": "Beginner",
+    "prerequisites": [],
+    "importance": "Core"
+  },
+  {
+    "id": "skill_kubernetes",
+    "name": "Kubernetes Orchestration",
+    "category": "DevOps",
+    "domain": "Cloud / DevOps",
+    "level": "Advanced",
+    "prerequisites": ["skill_docker"],
+    "importance": "Advanced"
+  },
+  {
+    "id": "skill_python",
+    "name": "Python Programming",
+    "category": "Programming Languages",
+    "domain": "AI/ML",
+    "level": "Beginner",
+    "prerequisites": [],
+    "importance": "Core"
+  },
+  {
+    "id": "skill_pandas_numpy",
+    "name": "NumPy, Pandas & Data Analysis",
+    "category": "Data Science",
+    "domain": "Data Science",
+    "level": "Intermediate",
+    "prerequisites": ["skill_python"],
+    "importance": "Core"
+  },
+  {
+    "id": "skill_scikit_learn",
+    "name": "Machine Learning with Scikit-Learn",
+    "category": "AI/ML",
+    "domain": "AI/ML",
+    "level": "Intermediate",
+    "prerequisites": ["skill_pandas_numpy"],
+    "importance": "Core"
+  },
+  {
+    "id": "skill_pytorch",
+    "name": "Deep Learning with PyTorch",
+    "category": "AI/ML",
+    "domain": "AI/ML",
+    "level": "Advanced",
+    "prerequisites": ["skill_scikit_learn"],
+    "importance": "Advanced"
+  },
+  {
+    "id": "skill_vector_db",
+    "name": "Vector Databases & Embeddings",
+    "category": "AI/ML",
+    "domain": "AI/ML",
+    "level": "Intermediate",
+    "prerequisites": ["skill_python"],
+    "importance": "Core"
+  },
+  {
+    "id": "skill_rag_systems",
+    "name": "RAG Systems & Autonomous AI Agents",
+    "category": "AI/ML",
+    "domain": "AI/ML",
+    "level": "Advanced",
+    "prerequisites": ["skill_vector_db", "skill_pytorch"],
+    "importance": "Advanced"
+  },
+  {
+    "id": "skill_cyber_network_sec",
+    "name": "Network Protocols & Defense",
+    "category": "Cybersecurity",
+    "domain": "Cybersecurity",
+    "level": "Beginner",
+    "prerequisites": ["skill_linux"],
+    "importance": "Core"
+  },
+  {
+    "id": "skill_cyber_appsec",
+    "name": "Application Security & OWASP Top 10",
+    "category": "Cybersecurity",
+    "domain": "Cybersecurity",
+    "level": "Intermediate",
+    "prerequisites": ["skill_cyber_network_sec", "skill_javascript"],
+    "importance": "Core"
+  }
+]

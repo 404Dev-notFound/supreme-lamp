@@ -13,7 +13,10 @@
     "test": "turbo run test",
     "test:integration": "npm run --prefix apps/backend test:integration",
     "prettier:check": "prettier --check \"apps/**/*.{js,jsx}\" \"packages/**/*.{js,jsx}\"",
-    "format": "prettier --write \"**/*.{js,jsx,md,json}\""
+    "format": "prettier --write \"**/*.{js,jsx,md,json}\"",
+    "db:push": "prisma db push",
+    "db:seed": "node \"flowCTRL data files/scripts/seed.js\"",
+    "db:export": "node \"flowCTRL data files/scripts/export-data.js\""
   },
   "devDependencies": {
     "prettier": "^3.9.6",

@@ -6,17 +6,19 @@ import {
   ArrowRight,
   BarChart,
   Compass,
+  Cpu,
   Users,
   Code,
   BookOpen,
   Target,
-  CheckCircle2,
   FileText,
+  BrainCircuit,
+  ExternalLink,
 } from "lucide-react";
 import JobMatcherModal from "../components/JobMatcherModal";
 import ResumeScreenerModal from "../components/modals/ResumeScreenerModal";
+import MentalHealthScoreModal from "../components/modals/MentalHealthScoreModal";
 import NavProfile from "../components/NavProfile";
-import WellbeingEmbed from "../components/WellbeingEmbed";
 import CompanyMarquee from "../components/CompanyMarquee";
 import DevRoadmapButton from "../components/roadmap/DevRoadmapButton";
 import Footer from "../components/Footer";
@@ -24,6 +26,7 @@ import Footer from "../components/Footer";
 export default function LandingPage() {
   const [isJobMatcherOpen, setJobMatcherOpen] = useState(false);
   const [isResumeScreenerOpen, setResumeScreenerOpen] = useState(false);
+  const [isMentalHealthScoreOpen, setMentalHealthScoreOpen] = useState(false);
 
   return (
     <div className="min-h-screen text-zinc-100 font-sans selection:bg-primary/30">
@@ -48,6 +51,13 @@ export default function LandingPage() {
             <Compass className="w-4 h-4 text-orange-400" />
             Roadmaps
           </Link>
+          <Link
+            href="/ecosystem"
+            className="hover:text-amber-300 transition-colors flex items-center gap-1.5 text-zinc-300"
+          >
+            <Cpu className="w-4 h-4 text-cyan-400" />
+            Ecosystem
+          </Link>
           <Link href="#features" className="hover:text-white transition-colors">
             Features
           </Link>
@@ -58,9 +68,13 @@ export default function LandingPage() {
           >
             Resume Screener
           </button>
-          <Link href="#pricing" className="hover:text-white transition-colors">
-            Pricing
-          </Link>
+          <button
+            type="button"
+            onClick={() => setMentalHealthScoreOpen(true)}
+            className="hover:text-white transition-colors cursor-pointer text-sm font-medium text-zinc-300"
+          >
+            Mental Health Score
+          </button>
         </div>
         <div className="flex items-center gap-3">
           <NavProfile />
@@ -68,7 +82,7 @@ export default function LandingPage() {
       </nav>
 
       {/* Hero Section */}
-      <section className="relative pt-32 pb-20 px-6 max-w-7xl mx-auto flex flex-col items-center text-center">
+      <section className="relative pt-32 pb-24 md:pb-32 px-6 max-w-7xl mx-auto flex flex-col items-center text-center">
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[600px] bg-primary/20 rounded-full blur-[120px] opacity-50 pointer-events-none" />
 
         <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-sm font-medium mb-8 glass">
@@ -106,26 +120,14 @@ export default function LandingPage() {
             <FileText className="w-4 h-4 text-emerald-400" />
             Resume Screener
           </button>
-        </div>
-      </section>
-
-      {/* Dashboard Preview */}
-      <section className="px-6 pb-32 max-w-6xl mx-auto relative z-10">
-        <div className="aspect-[16/9] w-full glass-card rounded-2xl flex flex-col overflow-hidden">
-          {/* Fake Window Header */}
-          <div className="h-12 border-b border-white/10 flex items-center px-4 gap-2 glass shrink-0 relative">
-            <div className="w-3 h-3 rounded-full bg-red-500/80" />
-            <div className="w-3 h-3 rounded-full bg-yellow-500/80" />
-            <div className="w-3 h-3 rounded-full bg-green-500/80" />
-            <div className="absolute left-1/2 -translate-x-1/2 flex items-center bg-white/5 border border-white/10 rounded-md px-3 py-1 text-xs text-zinc-300 font-medium tracking-wide w-80 justify-center shadow-inner">
-              <span className="opacity-50 mr-1">🔒</span>{" "}
-              https://fluffy-spoon-score.vercel.app/
-            </div>
-          </div>
-          {/* Embedded Mental Health App */}
-          <div className="flex-1 relative overflow-hidden bg-background/50">
-            <WellbeingEmbed />
-          </div>
+          <button
+            type="button"
+            onClick={() => setMentalHealthScoreOpen(true)}
+            className="flex items-center gap-2 px-6 py-3 rounded-full font-medium text-zinc-300 hover:text-white hover:bg-white/5 transition-all text-sm cursor-pointer"
+          >
+            <BrainCircuit className="w-4 h-4 text-emerald-400" />
+            Mental Health Score
+          </button>
         </div>
       </section>
 
@@ -273,15 +275,6 @@ export default function LandingPage() {
             </Link>
             <DevRoadmapButton variant="glow" size="lg" />
           </div>
-
-          <div className="mt-8 flex items-center justify-center gap-6 text-sm text-zinc-300">
-            <span className="flex items-center gap-2">
-              <CheckCircle2 className="w-4 h-4 text-emerald-400" /> No credit card required
-            </span>
-            <span className="flex items-center gap-2">
-              <CheckCircle2 className="w-4 h-4 text-emerald-400" /> 14-day premium trial
-            </span>
-          </div>
         </div>
       </section>
 
@@ -292,6 +285,10 @@ export default function LandingPage() {
       <ResumeScreenerModal
         isOpen={isResumeScreenerOpen}
         onClose={() => setResumeScreenerOpen(false)}
+      />
+      <MentalHealthScoreModal
+        isOpen={isMentalHealthScoreOpen}
+        onClose={() => setMentalHealthScoreOpen(false)}
       />
     </div>
   );

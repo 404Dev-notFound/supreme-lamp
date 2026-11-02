@@ -11,6 +11,8 @@ import EditProfileForm from "./EditProfileForm";
 import SecurityModal from "./SecurityModal";
 import SettingsModal from "./SettingsModal";
 import ResumeScreenerModal from "./ResumeScreenerModal";
+import MentalHealthScoreModal from "./MentalHealthScoreModal";
+import UpgradeMembershipModal from "./UpgradeMembershipModal";
 
 function ModalManagerContent() {
   const router = useRouter();
@@ -36,8 +38,26 @@ function ModalManagerContent() {
 
   if (!modal) return null;
 
+  if (modal === "upgrade") {
+    return (
+      <UpgradeMembershipModal
+        isOpen={true}
+        onClose={closeModal}
+        onSuccess={() => {
+          if (typeof window !== "undefined") {
+            window.location.reload();
+          }
+        }}
+      />
+    );
+  }
+
   if (modal === "resume-screener") {
     return <ResumeScreenerModal isOpen={true} onClose={closeModal} />;
+  }
+
+  if (modal === "mental-health-score" || modal === "mental-health") {
+    return <MentalHealthScoreModal isOpen={true} onClose={closeModal} />;
   }
 
   const renderContent = () => {

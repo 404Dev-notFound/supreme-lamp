@@ -1,0 +1,239 @@
+{
+  "domain": "Software Development",
+  "careerPath": "Backend Engineering",
+  "targetRoles": ["Backend Developer", "API Engineer", "Server Engineer"],
+  "stages": [
+    {
+      "stageName": "Foundation",
+      "stageDescription": "Programming languages, runtime execution models, and version control foundations.",
+      "items": [
+        {
+          "topic": "JavaScript/TypeScript Execution & Event Loop",
+          "whyRecommended": "Essential for understanding single-threaded non-blocking I/O and asynchronous event loops in Node.js.",
+          "difficulty": "Beginner",
+          "prerequisites": [],
+          "estimatedEffort": "12 hours (1 week)",
+          "skills": ["JavaScript", "Node.js"],
+          "recommendedResources": [
+            {
+              "title": "MDN JavaScript Event Loop and Asynchronous Programming",
+              "type": "documentation",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Event_loop"
+            }
+          ],
+          "practiceTasks": ["Implement a promise-based retry utility with exponential backoff"],
+          "projectApplication": "Build an asynchronous CLI downloader that streams large files concurrently",
+          "completionCriteria": "Explain microtasks vs macrotasks and write zero-blocking async code",
+          "nextRecommendedStep": "Node.js Core APIs & File System Streams"
+        },
+        {
+          "topic": "Relational Databases & SQL Fundamentals",
+          "whyRecommended": "Primary data persistence layer required for transactional integrity across all backend architectures.",
+          "difficulty": "Beginner",
+          "prerequisites": [],
+          "estimatedEffort": "15 hours (1-2 weeks)",
+          "skills": ["SQL", "Relational Databases"],
+          "recommendedResources": [
+            {
+              "title": "PostgreSQL Tutorial for Beginners",
+              "type": "documentation",
+              "url": "https://www.postgresqltutorial.com/"
+            }
+          ],
+          "practiceTasks": ["Write complex JOIN queries, GROUP BY aggregations, and subqueries on multi-table schemas"],
+          "projectApplication": "Design an e-commerce normalized database schema (3NF) with foreign key constraints",
+          "completionCriteria": "Produce correct SQL schemas with indexing on foreign keys and unique constraints",
+          "nextRecommendedStep": "PostgreSQL & Prisma ORM Integration"
+        }
+      ]
+    },
+    {
+      "stageName": "Core Skills",
+      "stageDescription": "RESTful API engineering, HTTP protocols, ORM/query builders, and database migrations.",
+      "items": [
+        {
+          "topic": "RESTful API Design & Express.js / Fastify",
+          "whyRecommended": "Standard transport contract between backend services and client applications.",
+          "difficulty": "Intermediate",
+          "prerequisites": ["JavaScript", "Node.js"],
+          "estimatedEffort": "20 hours (2 weeks)",
+          "skills": ["Express.js", "REST APIs", "HTTP"],
+          "recommendedResources": [
+            {
+              "title": "RESTful Web APIs by Leonard Richardson",
+              "type": "article",
+              "url": "https://restfulapi.net/"
+            }
+          ],
+          "practiceTasks": ["Build a complete CRUD API with status codes, pagination, and sorting"],
+          "projectApplication": "Production-ready task management backend with centralized error handling",
+          "completionCriteria": "API passes automated integration tests and correctly handles 4xx/5xx edge cases",
+          "nextRecommendedStep": "Authentication, JWT & Cookie Security"
+        },
+        {
+          "topic": "PostgreSQL & Prisma ORM",
+          "whyRecommended": "Type-safe database interaction preventing SQL injection and simplifying migrations.",
+          "difficulty": "Intermediate",
+          "prerequisites": ["SQL", "Express.js"],
+          "estimatedEffort": "15 hours (1-2 weeks)",
+          "skills": ["PostgreSQL", "Prisma"],
+          "recommendedResources": [
+            {
+              "title": "Prisma Documentation",
+              "type": "documentation",
+              "url": "https://www.prisma.io/docs"
+            }
+          ],
+          "practiceTasks": ["Execute database migrations, seed data, and perform atomic multi-model transactions"],
+          "projectApplication": "Relational user account system with profile, preferences, and session cascade deletes",
+          "completionCriteria": "Schema migration files generated and verified against local PostgreSQL database",
+          "nextRecommendedStep": "Redis In-Memory Caching"
+        }
+      ]
+    },
+    {
+      "stageName": "Intermediate Skills",
+      "stageDescription": "Authentication, authorization, caching, security defense, and background task processing.",
+      "items": [
+        {
+          "topic": "Authentication, JWT & Web Security",
+          "whyRecommended": "Mandatory for protecting sensitive user data and defending against OWASP Top 10 vulnerabilities.",
+          "difficulty": "Intermediate",
+          "prerequisites": ["Express.js", "PostgreSQL"],
+          "estimatedEffort": "18 hours (2 weeks)",
+          "skills": ["JWT", "Security", "Bcrypt"],
+          "recommendedResources": [
+            {
+              "title": "OWASP Node.js Cheat Sheet",
+              "type": "documentation",
+              "url": "https://cheatsheetseries.owasp.org/cheatsheets/Nodejs_Security_Cheat_Sheet.html"
+            }
+          ],
+          "practiceTasks": ["Implement access and refresh token rotation with secure HttpOnly cookies and CSRF protection"],
+          "projectApplication": "Enterprise authentication gateway with rate limiting and password reset tokens",
+          "completionCriteria": "Passes automated penetration tests for algorithm confusion, CSRF, and SQLi",
+          "nextRecommendedStep": "Redis Caching & Session Management"
+        },
+        {
+          "topic": "Redis Caching & Rate Limiting",
+          "whyRecommended": "Prevents database overload under heavy traffic and enforces API abuse limits.",
+          "difficulty": "Intermediate",
+          "prerequisites": ["Express.js", "PostgreSQL"],
+          "estimatedEffort": "14 hours (1-2 weeks)",
+          "skills": ["Redis", "Caching"],
+          "recommendedResources": [
+            {
+              "title": "Redis University - Fast In-Memory Storage",
+              "type": "documentation",
+              "url": "https://redis.io/learn"
+            }
+          ],
+          "practiceTasks": ["Implement sliding-window rate limiting and cache-invalidation hooks on database writes"],
+          "projectApplication": "High-speed caching proxy for trending catalog queries with TTL jitter",
+          "completionCriteria": "Under synthetic load, 90% of repeat requests served from cache in under 5ms",
+          "nextRecommendedStep": "Docker & Containerized Microservices"
+        }
+      ]
+    },
+    {
+      "stageName": "Advanced Skills",
+      "stageDescription": "Distributed architecture, message queues, observability, and high-availability system design.",
+      "items": [
+        {
+          "topic": "Distributed System Design & Message Queues",
+          "whyRecommended": "Crucial for product-tier engineering and handling asynchronous workloads reliably.",
+          "difficulty": "Advanced",
+          "prerequisites": ["Redis", "PostgreSQL", "Express.js"],
+          "estimatedEffort": "25 hours (3 weeks)",
+          "skills": ["System Design", "Kafka", "RabbitMQ"],
+          "recommendedResources": [
+            {
+              "title": "Designing Data-Intensive Applications by Martin Kleppmann",
+              "type": "article",
+              "url": "https://dataintensive.net/"
+            }
+          ],
+          "practiceTasks": ["Implement producer-consumer job queues with retry queues and dead-letter exchanges"],
+          "projectApplication": "Asynchronous video transcoding or analytics processing pipeline",
+          "completionCriteria": "Zero data loss during simulated worker node crashes",
+          "nextRecommendedStep": "Full Production Project Deployment"
+        }
+      ]
+    },
+    {
+      "stageName": "Projects",
+      "stageDescription": "End-to-end production-grade portfolio projects showcasing full engineering rigor.",
+      "items": [
+        {
+          "topic": "Capstone: Production API Gateway & Real-time Collaboration Engine",
+          "whyRecommended": "Demonstrates mastery of authentication, web sockets, database indexing, and containerization.",
+          "difficulty": "Advanced",
+          "prerequisites": ["Authentication", "PostgreSQL", "Redis", "Docker"],
+          "estimatedEffort": "40 hours (3-4 weeks)",
+          "skills": ["Full-Stack Architecture", "Socket.IO", "Prisma", "Docker"],
+          "recommendedResources": [
+            {
+              "title": "Production Deployment Guide",
+              "type": "documentation",
+              "url": "https://expressjs.com/en/advanced/best-practices-security.html"
+            }
+          ],
+          "practiceTasks": ["Set up GitHub Actions CI with linting, unit tests, and automated Docker build"],
+          "projectApplication": "Complete multi-tenant workspace with real-time presence and audit logging",
+          "completionCriteria": "Live deployment with passing test coverage (>80%) and comprehensive API documentation",
+          "nextRecommendedStep": "Technical Interview Preparation"
+        }
+      ]
+    },
+    {
+      "stageName": "Interview Preparation",
+      "stageDescription": "Algorithmic problem solving and system design mock interview mastery.",
+      "items": [
+        {
+          "topic": "Backend System Design & Concurrency Mock Rounds",
+          "whyRecommended": "Evaluates candidate capability for scale, fault tolerance, and trade-off analysis.",
+          "difficulty": "Advanced",
+          "prerequisites": ["System Design"],
+          "estimatedEffort": "20 hours (2 weeks)",
+          "skills": ["System Design", "Scalability", "Load Balancing"],
+          "recommendedResources": [
+            {
+              "title": "System Design Primer Interview Guide",
+              "type": "article",
+              "url": "https://github.com/donnemartin/system-design-primer#system-design-interview-questions-with-solutions"
+            }
+          ],
+          "practiceTasks": ["Whiteboard design of Instagram Feed, Rate Limiter, and Web Crawler"],
+          "projectApplication": "Architectural technical documentation with C4 model architecture diagrams",
+          "completionCriteria": "Successfully articulate latency, throughput, and consistency trade-offs (CAP theorem)",
+          "nextRecommendedStep": "Career Preparation & Resume Polish"
+        }
+      ]
+    },
+    {
+      "stageName": "Career Preparation",
+      "stageDescription": "Portfolio presentation, GitHub contribution hygiene, and behavioral interview alignment.",
+      "items": [
+        {
+          "topic": "Production Codebase Review & Portfolio Presentation",
+          "whyRecommended": "Ensures recruiter and engineering manager evaluation passes with highest confidence.",
+          "difficulty": "Intermediate",
+          "prerequisites": [],
+          "estimatedEffort": "10 hours (1 week)",
+          "skills": ["Technical Writing", "Open-Source", "Git"],
+          "recommendedResources": [
+            {
+              "title": "Writing Excellent Technical READMEs",
+              "type": "article",
+              "url": "https://github.com/matiassingers/awesome-readme"
+            }
+          ],
+          "practiceTasks": ["Record a 3-minute video walkthrough of backend architecture and run benchmarks"],
+          "projectApplication": "Publish comprehensive OpenAPI 3.0 documentation for all personal projects",
+          "completionCriteria": "Clean public GitHub repository with live deployed URL and passing CI badges",
+          "nextRecommendedStep": "Job Applications & Networking"
+        }
+      ]
+    }
+  ]
+}

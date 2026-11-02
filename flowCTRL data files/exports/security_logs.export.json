@@ -1,0 +1,46 @@
+[
+  {
+    "id": "cmuwxrj8x007gzs974u5wbxbk",
+    "userId": "usr_seed_recruiter",
+    "eventType": "seed_initialized",
+    "ipAddress": "127.0.0.1",
+    "userAgent": "flowCTRL Seeder",
+    "details": {
+      "role": "RECRUITER"
+    },
+    "createdAt": "2026-10-06T17:11:49.807Z"
+  },
+  {
+    "id": "cmuwxrj8p007fzs97bzxan2h1",
+    "userId": "usr_seed_mentor",
+    "eventType": "seed_initialized",
+    "ipAddress": "127.0.0.1",
+    "userAgent": "flowCTRL Seeder",
+    "details": {
+      "role": "MENTOR"
+    },
+    "createdAt": "2026-10-06T17:11:49.800Z"
+  },
+  {
+    "id": "cmuwxrj8h007ezs974al361pt",
+    "userId": "usr_seed_alex",
+    "eventType": "seed_initialized",
+    "ipAddress": "127.0.0.1",
+    "userAgent": "flowCTRL Seeder",
+    "details": {
+      "role": "USER"
+    },
+    "createdAt": "2026-10-06T17:11:49.791Z"
+  },
+  {
+    "id": "cmuwxrj85007dzs97selab60h",
+    "userId": "usr_seed_admin",
+    "eventType": "seed_initialized",
+    "ipAddress": "127.0.0.1",
+    "userAgent": "flowCTRL Seeder",
+    "details": {
+      "role": "ADMIN"
+    },
+    "createdAt": "2026-10-06T17:11:49.775Z"
+  }
+]

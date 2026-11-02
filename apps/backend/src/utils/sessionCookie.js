@@ -165,6 +165,11 @@ async function validateSessionToken(token) {
       user: {
         include: {
           profile: true,
+          membership: {
+            include: {
+              plan: true,
+            },
+          },
         },
       },
     },
@@ -232,6 +237,37 @@ async function revokeAllUserSessions(userId) {
 
 function sanitizeAuthUser(user) {
   if (!user) return null;
+
+  let isPremium = false;
+  let membershipInfo = {
+    tier: "FREE",
+    status: "ACTIVE",
+    expiresAt: null,
+    planCode: "FREE",
+    planName: "Community Explorer",
+    autoRenew: false,
+  };
+
+  if (user.membership) {
+    const isExpired =
+      user.membership.expiresAt &&
+      new Date(user.membership.expiresAt) < new Date();
+
+    const isMemberActive =
+      user.membership.status === "ACTIVE" && !isExpired;
+
+    isPremium = user.membership.tier === "PREMIUM" && isMemberActive;
+
+    membershipInfo = {
+      tier: user.membership.tier || "FREE",
+      status: isExpired ? "EXPIRED" : (user.membership.status || "ACTIVE"),
+      expiresAt: user.membership.expiresAt,
+      planCode: user.membership.plan?.code || "FREE",
+      planName: user.membership.plan?.name || "Community Explorer",
+      autoRenew: user.membership.autoRenew,
+    };
+  }
+
   return {
     id: user.id,
     name: user.profile?.displayName || user.name || "FlowCTRL User",
@@ -239,6 +275,8 @@ function sanitizeAuthUser(user) {
     role: user.role || "USER",
     status: user.status || "ACTIVE",
     image: user.profile?.avatarUrl || user.image || null,
+    isPremium,
+    membership: membershipInfo,
     createdAt: user.createdAt,
   };
 }

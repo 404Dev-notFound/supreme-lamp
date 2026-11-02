@@ -218,9 +218,9 @@ export async function PUT(req) {
     console.error("Update profile error:", error);
     return NextResponse.json(
       {
-        error:
-          "Failed to update profile data: " +
-          (error instanceof Error ? error.message : "Unknown error"),
+        success: false,
+        code: "PROFILE_UPDATE_FAILED",
+        error: "Failed to update profile data. Please try again.",
       },
       { status: 500 },
     );
