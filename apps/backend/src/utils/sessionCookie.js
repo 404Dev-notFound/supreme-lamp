@@ -1,5 +1,6 @@
 const crypto = require("crypto");
 const { prisma } = require("../db");
+const { cache, buildKey, REDIS_CONFIG } = require("../lib/redis");
 
 const SESSION_COOKIE_NAME = "flowctrl_session";
 const CSRF_COOKIE_NAME = "flowctrl_csrf";
@@ -159,6 +160,35 @@ async function validateSessionToken(token) {
     return { valid: false, reason: "INVALID_TOKEN_FORMAT" };
   }
 
+  const tokenSuffix = token.slice(-24);
+  const sessionCacheKey = buildKey(REDIS_CONFIG.namespaces.SESSION, tokenSuffix);
+  const revokedKey = buildKey(REDIS_CONFIG.namespaces.REVOKED, tokenSuffix);
+
+  // 1. Fast check if session is marked as revoked in Redis
+  const isRevoked = await cache.get(revokedKey);
+  if (isRevoked) {
+    return { valid: false, reason: "SESSION_REVOKED" };
+  }
+
+  // 2. Check if valid session payload is already cached in Redis
+  const cached = await cache.get(sessionCacheKey);
+  if (cached && cached.session && cached.user) {
+    const expiresAt = new Date(cached.session.expiresAt);
+    if (expiresAt < new Date()) {
+      await cache.del(sessionCacheKey);
+      return { valid: false, reason: "SESSION_EXPIRED" };
+    }
+    if (cached.user.status !== "ACTIVE") {
+      return { valid: false, reason: "ACCOUNT_INACTIVE" };
+    }
+    return {
+      valid: true,
+      session: cached.session,
+      user: cached.user,
+    };
+  }
+
+  // 3. Authoritative fetch from PostgreSQL
   const session = await prisma.userSession.findUnique({
     where: { sessionToken: token },
     include: {
@@ -180,6 +210,7 @@ async function validateSessionToken(token) {
   }
 
   if (session.revokedAt) {
+    await cache.set(revokedKey, true, 3600);
     return { valid: false, reason: "SESSION_REVOKED" };
   }
 
@@ -191,7 +222,14 @@ async function validateSessionToken(token) {
     return { valid: false, reason: "ACCOUNT_INACTIVE" };
   }
 
-  // Update last active if > 5 minutes
+  // Cache verified session for 5 minutes (rolling hot cache)
+  await cache.set(
+    sessionCacheKey,
+    { session, user: session.user },
+    REDIS_CONFIG.ttl.SESSION_CACHE
+  );
+
+  // Update last active in PostgreSQL if > 5 minutes
   const fiveMinutesAgo = new Date(Date.now() - 5 * 60 * 1000);
   if (session.lastActiveAt < fiveMinutesAgo) {
     prisma.userSession
@@ -211,6 +249,15 @@ async function validateSessionToken(token) {
 
 async function revokeSessionToken(token) {
   if (!token) return false;
+
+  const tokenSuffix = token.slice(-24);
+  const sessionCacheKey = buildKey(REDIS_CONFIG.namespaces.SESSION, tokenSuffix);
+  const revokedKey = buildKey(REDIS_CONFIG.namespaces.REVOKED, tokenSuffix);
+
+  // Invalidate Redis session cache and record tombstone
+  await cache.del(sessionCacheKey);
+  await cache.set(revokedKey, true, 3600);
+
   try {
     await prisma.userSession.update({
       where: { sessionToken: token },
@@ -224,11 +271,31 @@ async function revokeSessionToken(token) {
 
 async function revokeAllUserSessions(userId) {
   if (!userId) return false;
+
   try {
+    // 1. Fetch active session tokens for this user to target specific cache keys
+    const activeSessions = await prisma.userSession.findMany({
+      where: { userId, revokedAt: null },
+      select: { sessionToken: true },
+    });
+
+    // 2. Invalidate cache and record revocation tombstones for each active token
+    for (const s of activeSessions) {
+      if (s.sessionToken) {
+        const tokenSuffix = s.sessionToken.slice(-24);
+        const sessionCacheKey = buildKey(REDIS_CONFIG.namespaces.SESSION, tokenSuffix);
+        const revokedKey = buildKey(REDIS_CONFIG.namespaces.REVOKED, tokenSuffix);
+        await cache.del(sessionCacheKey);
+        await cache.set(revokedKey, true, 3600);
+      }
+    }
+
+    // 3. Mark all user sessions as revoked in PostgreSQL
     await prisma.userSession.updateMany({
       where: { userId, revokedAt: null },
       data: { revokedAt: new Date() },
     });
+
     return true;
   } catch {
     return false;

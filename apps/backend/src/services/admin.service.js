@@ -1,5 +1,6 @@
 const { prisma } = require("../lib/prisma");
 const { recordAuditLog } = require("./audit.service");
+const { cache, buildKey, REDIS_CONFIG } = require("../lib/redis");
 
 class AdminError extends Error {
   constructor(message, statusCode = 400, code = "ADMIN_ERROR") {
@@ -205,56 +206,64 @@ async function updateUserStatus({
  * Get platform-wide statistics for Mission Control / Admin Dashboard
  */
 async function getPlatformStats() {
-  const [
-    totalUsers,
-    activeUsers,
-    usersByRole,
-    totalJobs,
-    activeJobs,
-    totalApplications,
-    totalProjects,
-    totalCompanies,
-    totalResumes,
-  ] = await prisma.$transaction([
-    prisma.user.count(),
-    prisma.user.count({ where: { status: "ACTIVE" } }),
-    prisma.user.groupBy({ by: ["role"], _count: { id: true } }),
-    prisma.job.count(),
-    prisma.job.count({ where: { isActive: true } }),
-    prisma.jobApplication.count(),
-    prisma.project.count(),
-    prisma.company.count(),
-    prisma.resume.count(),
-  ]);
+  const cacheKey = buildKey(REDIS_CONFIG.namespaces.STATS, "platform", "aggregate");
 
-  const roleBreakdown = {};
-  for (const group of usersByRole) {
-    roleBreakdown[group.role] = group._count.id;
-  }
+  return cache.getOrSet(
+    cacheKey,
+    async () => {
+      const [
+        totalUsers,
+        activeUsers,
+        usersByRole,
+        totalJobs,
+        activeJobs,
+        totalApplications,
+        totalProjects,
+        totalCompanies,
+        totalResumes,
+      ] = await prisma.$transaction([
+        prisma.user.count(),
+        prisma.user.count({ where: { status: "ACTIVE" } }),
+        prisma.user.groupBy({ by: ["role"], _count: { id: true } }),
+        prisma.job.count(),
+        prisma.job.count({ where: { isActive: true } }),
+        prisma.jobApplication.count(),
+        prisma.project.count(),
+        prisma.company.count(),
+        prisma.resume.count(),
+      ]);
 
-  return {
-    users: {
-      total: totalUsers,
-      active: activeUsers,
-      byRole: roleBreakdown,
+      const roleBreakdown = {};
+      for (const group of usersByRole) {
+        roleBreakdown[group.role] = group._count.id;
+      }
+
+      return {
+        users: {
+          total: totalUsers,
+          active: activeUsers,
+          byRole: roleBreakdown,
+        },
+        jobs: {
+          total: totalJobs,
+          active: activeJobs,
+        },
+        applications: {
+          total: totalApplications,
+        },
+        projects: {
+          total: totalProjects,
+        },
+        companies: {
+          total: totalCompanies,
+        },
+        resumes: {
+          total: totalResumes,
+        },
+      };
     },
-    jobs: {
-      total: totalJobs,
-      active: activeJobs,
-    },
-    applications: {
-      total: totalApplications,
-    },
-    projects: {
-      total: totalProjects,
-    },
-    companies: {
-      total: totalCompanies,
-    },
-    resumes: {
-      total: totalResumes,
-    },
-  };
+    REDIS_CONFIG.ttl.DASHBOARD_STATS
+  );
 }
 
 /**

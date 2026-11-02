@@ -49,4 +49,14 @@ class RAGSettings(BaseSettings):
     # Security
     ALLOW_PROMPT_OVERRIDE: bool = False
 
+    # Centralized Redis Infrastructure Integration
+    REDIS_URL: str = os.getenv("REDIS_URL", "")
+    REDIS_HOST: str = os.getenv("REDIS_HOST", "localhost")
+    REDIS_PORT: int = int(os.getenv("REDIS_PORT", "6379"))
+    REDIS_PASSWORD: str = os.getenv("REDIS_PASSWORD", "")
+    REDIS_KEY_PREFIX: str = os.getenv("REDIS_KEY_PREFIX", "fc:rag:")
+    RAG_CACHE_TTL: int = int(os.getenv("RAG_CACHE_TTL", "1800"))
+    COLLECTION_VERSION: str = os.getenv("RAG_COLLECTION_VERSION", "v1")
+    EMBEDDING_VERSION: str = os.getenv("RAG_EMBEDDING_VERSION", "v1")
+
 settings = RAGSettings()
