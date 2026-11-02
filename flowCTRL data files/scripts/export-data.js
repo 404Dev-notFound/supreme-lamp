@@ -11,7 +11,7 @@ async function exportData() {
     fs.mkdirSync(EXPORTS_DIR, { recursive: true });
   }
 
-  // 1. Export Users (sanitized, strictly excluding passwords and hashes)
+  // 1. Export Users (sanitized, strictly excluding passwords, hashes, and session tokens)
   const users = await prisma.user.findMany({
     select: {
       id: true,
@@ -72,15 +72,44 @@ async function exportData() {
   fs.writeFileSync(projectsPath, JSON.stringify(projects, null, 2), "utf-8");
   console.log(`✅ Exported ${projects.length} projects to: ${projectsPath}`);
 
-  // 3. Export Security and Session Logs
+  // 3. Export Security and Session Logs (sanitized)
   const logs = await prisma.securityLog.findMany({
     take: 100,
     orderBy: { createdAt: "desc" },
   });
 
+  const sanitizedLogs = logs.map((log) => {
+    const details = log.details && typeof log.details === "object" ? { ...log.details } : log.details;
+    if (details && typeof details === "object") {
+      delete details.password;
+      delete details.token;
+      delete details.sessionToken;
+      delete details.secret;
+    }
+    return { ...log, details };
+  });
+
   const logsPath = path.join(EXPORTS_DIR, "security_logs.export.json");
-  fs.writeFileSync(logsPath, JSON.stringify(logs, null, 2), "utf-8");
-  console.log(`✅ Exported ${logs.length} security log entries to: ${logsPath}`);
+  fs.writeFileSync(logsPath, JSON.stringify(sanitizedLogs, null, 2), "utf-8");
+  console.log(`✅ Exported ${sanitizedLogs.length} security log entries to: ${logsPath}`);
+
+  // 4. Export Roadmap Progress
+  const roadmapProgress = await prisma.userRoadmapProgress.findMany({
+    select: {
+      id: true,
+      userId: true,
+      roadmapSlug: true,
+      completedTopics: true,
+      currentTopic: true,
+      progressPercent: true,
+      lastActivityAt: true,
+    },
+    orderBy: { lastActivityAt: "desc" },
+  });
+
+  const roadmapProgressPath = path.join(EXPORTS_DIR, "roadmap_progress.export.json");
+  fs.writeFileSync(roadmapProgressPath, JSON.stringify(roadmapProgress, null, 2), "utf-8");
+  console.log(`✅ Exported ${roadmapProgress.length} roadmap progress records to: ${roadmapProgressPath}`);
 
   console.log("\n✨ Data export completed successfully!");
 }

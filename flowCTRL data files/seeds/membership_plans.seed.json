@@ -1,0 +1,60 @@
+[
+  {
+    "code": "FREE",
+    "name": "Community Explorer",
+    "description": "Foundational access to all standard community roadmaps, interactive graphs, and core career tracking.",
+    "tier": "FREE",
+    "price": 0.0,
+    "currency": "USD",
+    "interval": null,
+    "features": [
+      "Access to 92+ Community Roadmaps",
+      "Interactive Step-by-Step Curriculum Graphs",
+      "Basic Topic Progress Tracking",
+      "Public Career Profile & Skills Portfolio",
+      "Job Matcher & Community Search"
+    ],
+    "isActive": true,
+    "sortOrder": 1
+  },
+  {
+    "code": "PREMIUM_MONTHLY",
+    "name": "flowCTRL Premium (Monthly)",
+    "description": "Complete access to exclusive curated masterclasses, advanced architecture tracks, and deep-dive resources.",
+    "tier": "PREMIUM",
+    "price": 19.0,
+    "currency": "USD",
+    "interval": "month",
+    "features": [
+      "All Free Tier features included",
+      "Full Access to Exclusive Premium Learning Tracks",
+      "Curated Advanced Architecture & Security Blueprints",
+      "Deep-Dive Technical Guides & Resource Repositories",
+      "Interactive Progress Checkpoints & Code Lab Links",
+      "Priority Verification on Skills & Profile Badging",
+      "Monthly Billing, Cancel Anytime"
+    ],
+    "isActive": true,
+    "sortOrder": 2
+  },
+  {
+    "code": "PREMIUM_ANNUAL",
+    "name": "flowCTRL Premium (Annual)",
+    "description": "Best value for dedicated engineers and senior architects. Save 35% with full year access.",
+    "tier": "PREMIUM",
+    "price": 149.0,
+    "currency": "USD",
+    "interval": "year",
+    "features": [
+      "Everything in Premium Monthly included",
+      "2 Months Free (35% Savings over monthly)",
+      "Priority Access to Newly Released Masterclasses",
+      "Offline Downloadable Roadmap Summaries",
+      "Verified Senior Architect Member Badge",
+      "Annual Priority Support & Feature Requests"
+    ],
+    "isActive": true,
+    "sortOrder": 3
+  }
+]
+

@@ -78,8 +78,20 @@ model User {
   createdIssues   Issue[]          @relation("IssueCreator")
   assignedIssues  Issue[]          @relation("IssueAssignee")
 
+  // Notifications & Progress
+  notifications   Notification[]
+  roadmapProgress UserRoadmapProgress[]
+  auditLogs       AuditLog[]
+
+  // Membership & Subscriptions
+  membership             UserMembership?
+  membershipHistory      MembershipHistory[]
+  membershipTransactions MembershipTransaction[]
+
   @@index([email])
   @@index([role])
+  @@index([status])
+  @@index([createdAt])
 }
 
 model UserProfile {
@@ -312,6 +324,7 @@ model Resume {
   fileName  String
   fileSize  Int
   fileUrl   String?
+  storageKey String?
   mimeType  String   @default("application/pdf")
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
@@ -357,6 +370,7 @@ model Company {
   website     String?
   location    String?
   description String?  @db.Text
+  isVerified  Boolean  @default(false)
   createdAt   DateTime @default(now())
   updatedAt   DateTime @updatedAt
 
@@ -375,6 +389,7 @@ model Job {
   description String?   @db.Text
   applyUrl    String?
   isFeatured  Boolean   @default(false)
+  isActive    Boolean   @default(true)
   createdAt   DateTime  @default(now())
   updatedAt   DateTime  @updatedAt
 
@@ -386,6 +401,8 @@ model Job {
   @@index([companyId])
   @@index([workMode])
   @@index([location])
+  @@index([isActive])
+  @@index([createdAt])
 }
 
 model JobSkill {
@@ -433,6 +450,7 @@ model JobApplication {
 
   @@index([userId])
   @@index([jobId])
+  @@index([resumeId])
   @@index([status])
 }
 
@@ -445,7 +463,7 @@ model MentorProfile {
   userId      String   @unique
   expertise   String
   yearsOfExp  Int
-  hourlyRate  Float?
+  hourlyRate  Decimal? @db.Decimal(10, 2)
   isAvailable Boolean  @default(true)
   createdAt   DateTime @default(now())
   updatedAt   DateTime @updatedAt
@@ -494,6 +512,7 @@ model Project {
 
   @@index([ownerId])
   @@index([category])
+  @@index([isPinned])
   @@index([createdAt])
 }
 
@@ -535,4 +554,202 @@ model Issue {
   @@index([status])
   @@index([priority])
 }
+
+// ==========================================
+// 8. NOTIFICATIONS & AUDITING
+// ==========================================
+
+model Notification {
+  id        String    @id @default(cuid())
+  userId    String
+  title     String
+  message   String    @db.Text
+  type      String    @default("info") // info, success, warning, alert, project, job
+  link      String?
+  read      Boolean   @default(false)
+  readAt    DateTime?
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@index([read])
+  @@index([userId, read])
+  @@index([createdAt])
+}
+
+model UserRoadmapProgress {
+  id              String   @id @default(cuid())
+  userId          String
+  roadmapSlug     String
+  completedTopics String[]
+  currentTopic    String?
+  progressPercent Int      @default(0)
+  lastActivityAt  DateTime @default(now())
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, roadmapSlug])
+  @@index([userId])
+  @@index([roadmapSlug])
+}
+
+model AuditLog {
+  id         String   @id @default(cuid())
+  userId     String?
+  action     String
+  targetType String
+  targetId   String?
+  ipAddress  String?
+  userAgent  String?
+  details    Json?
+  createdAt  DateTime @default(now())
+
+  user User? @relation(fields: [userId], references: [id], onDelete: SetNull)
+
+  @@index([userId])
+  @@index([action])
+  @@index([targetType])
+  @@index([createdAt])
+}
+
+// ==========================================
+// 9. MEMBERSHIP & PREMIUM LEARNING RESOURCES
+// ==========================================
+
+model MembershipPlan {
+  id          String   @id @default(cuid())
+  code        String   @unique // "FREE", "PREMIUM_MONTHLY", "PREMIUM_ANNUAL"
+  name        String
+  description String?  @db.Text
+  tier        String   @default("PREMIUM") // "FREE" or "PREMIUM"
+  price       Decimal  @default(0.00) @db.Decimal(10, 2)
+  currency    String   @default("USD")
+  interval    String?  // "month", "year", "lifetime", null
+  features    String[]
+  isActive    Boolean  @default(true)
+  sortOrder   Int      @default(0)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  memberships UserMembership[]
+  history     MembershipHistory[]
+
+  @@index([code])
+  @@index([tier])
+  @@index([isActive])
+}
+
+model UserMembership {
+  id             String    @id @default(cuid())
+  userId         String    @unique
+  planId         String
+  tier           String    @default("FREE") // "FREE" or "PREMIUM"
+  status         String    @default("ACTIVE") // "ACTIVE", "EXPIRED", "CANCELLED", "PAST_DUE"
+  startDate      DateTime  @default(now())
+  expiresAt      DateTime? // null = recurring/unlimited, otherwise expiration date
+  autoRenew      Boolean   @default(false)
+  cancelledAt    DateTime?
+  lastVerifiedAt DateTime  @default(now())
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
+
+  user         User                    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  plan         MembershipPlan          @relation(fields: [planId], references: [id])
+  transactions MembershipTransaction[]
+
+  @@index([userId])
+  @@index([tier])
+  @@index([status])
+  @@index([expiresAt])
+}
+
+model MembershipHistory {
+  id        String    @id @default(cuid())
+  userId    String
+  planId    String
+  action    String    // "ACTIVATED", "UPGRADED", "RENEWED", "EXPIRED", "CANCELLED"
+  tier      String    @default("PREMIUM")
+  startDate DateTime
+  endDate   DateTime?
+  note      String?   @db.Text
+  createdAt DateTime  @default(now())
+
+  user User           @relation(fields: [userId], references: [id], onDelete: Cascade)
+  plan MembershipPlan @relation(fields: [planId], references: [id])
+
+  @@index([userId])
+  @@index([planId])
+  @@index([createdAt])
+}
+
+model MembershipTransaction {
+  id                String   @id @default(cuid())
+  membershipId      String?
+  userId            String
+  amount            Decimal  @db.Decimal(10, 2)
+  currency          String   @default("USD")
+  status            String   // "PENDING", "COMPLETED", "FAILED", "REFUNDED"
+  paymentMethod     String?  // "card", "mock", "crypto"
+  providerReference String?
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
+
+  membership UserMembership? @relation(fields: [membershipId], references: [id], onDelete: SetNull)
+  user       User            @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@index([membershipId])
+  @@index([status])
+  @@index([createdAt])
+}
+
+model ResourceCategory {
+  id          String   @id @default(cuid())
+  slug        String   @unique
+  name        String
+  description String?  @db.Text
+  icon        String?
+  sortOrder   Int      @default(0)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  resources PremiumResource[]
+
+  @@index([slug])
+}
+
+model PremiumResource {
+  id             String   @id @default(cuid())
+  slug           String   @unique
+  title          String
+  description    String   @db.Text
+  categorySlug   String?
+  categoryId     String?
+  accessLevel    String   @default("PREMIUM") // "FREE" or "PREMIUM"
+  level          String   @default("Advanced") // "Beginner", "Intermediate", "Advanced"
+  badge          String?  @default("PREMIUM") // "PREMIUM", "PRO", "DEEP DIVE"
+  iconName       String?  @default("Sparkles")
+  estimatedHours Int?     @default(25)
+  topicsCount    Int      @default(0)
+  externalUrl    String?
+  content        Json?    // modules, chapters, detailed curated resource guides
+  isActive       Boolean  @default(true)
+  isFeatured     Boolean  @default(false)
+  sortOrder      Int      @default(0)
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  category ResourceCategory? @relation(fields: [categoryId], references: [id], onDelete: SetNull)
+
+  @@index([slug])
+  @@index([accessLevel])
+  @@index([isActive])
+  @@index([categoryId])
+  @@index([categorySlug])
+}
+
 

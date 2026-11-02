@@ -15,11 +15,14 @@ import {
   TrendingUp,
   BrainCircuit,
   ExternalLink,
+  Zap,
+  Lock,
 } from "lucide-react";
 import NavProfile from "@/components/NavProfile";
 import Footer from "@/components/Footer";
 import JobMatcherModal from "@/components/JobMatcherModal";
 import ResumeScreenerModal from "@/components/modals/ResumeScreenerModal";
+import UpgradeMembershipModal from "@/components/modals/UpgradeMembershipModal";
 import WellbeingEmbed from "@/components/WellbeingEmbed";
 import { useAuth } from "@/hooks/useAuth";
 
@@ -27,6 +30,7 @@ export default function DashboardPage() {
   const { user, status } = useAuth();
   const [isJobMatcherOpen, setJobMatcherOpen] = useState(false);
   const [isResumeScreenerOpen, setResumeScreenerOpen] = useState(false);
+  const [isUpgradeModalOpen, setUpgradeModalOpen] = useState(false);
 
   const displayName = user?.name || user?.email?.split("@")[0] || "Architect";
   const userRole = user?.role || "ENGINEER";
@@ -98,6 +102,21 @@ export default function DashboardPage() {
                 <span className="px-2.5 py-0.5 rounded-full text-[10px] font-bold uppercase tracking-wider bg-orange-500/20 text-orange-400 border border-orange-500/30">
                   {userRole}
                 </span>
+                {user?.isPremium ? (
+                  <span className="px-2.5 py-0.5 rounded-full text-[10px] font-extrabold uppercase tracking-wider bg-gradient-to-r from-orange-500 to-amber-500 text-black flex items-center gap-1 shadow-sm shadow-orange-500/30">
+                    <Sparkles className="w-3 h-3 text-black" />
+                    PREMIUM ACTIVE
+                  </span>
+                ) : (
+                  <button
+                    type="button"
+                    onClick={() => setUpgradeModalOpen(true)}
+                    className="px-2.5 py-0.5 rounded-full text-[10px] font-bold uppercase tracking-wider bg-zinc-800 text-amber-300 border border-amber-500/30 hover:bg-orange-500/20 transition-colors flex items-center gap-1 cursor-pointer"
+                  >
+                    <Zap className="w-3 h-3 text-amber-400" />
+                    Free Tier • Upgrade
+                  </button>
+                )}
                 <span className="text-xs text-zinc-400">
                   Mission Control Center Active
                 </span>
@@ -357,6 +376,13 @@ export default function DashboardPage() {
       <ResumeScreenerModal
         isOpen={isResumeScreenerOpen}
         onClose={() => setResumeScreenerOpen(false)}
+      />
+      <UpgradeMembershipModal
+        isOpen={isUpgradeModalOpen}
+        onClose={() => setUpgradeModalOpen(false)}
+        onSuccess={() => {
+          if (typeof window !== "undefined") window.location.reload();
+        }}
       />
     </div>
   );

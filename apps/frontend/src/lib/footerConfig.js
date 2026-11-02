@@ -420,6 +420,12 @@ export const RESOURCE_CATEGORIES = [
           "Community-driven visual developer roadmaps and educational guides.",
       },
       {
+        name: "Awesome Curated Resources",
+        url: "https://github.com/sindresorhus/awesome",
+        description:
+          "Curated directory of comprehensive software engineering collections, development roadmaps, and reference guides.",
+      },
+      {
         name: "Nowcoder",
         url: "https://www.nowcoder.com",
         description:

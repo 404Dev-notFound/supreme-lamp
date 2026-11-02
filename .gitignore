@@ -118,3 +118,4 @@ JobRadar/backend/data/_private/
 
 # Scratch & Temporary
 scratch/
+.worktrees/

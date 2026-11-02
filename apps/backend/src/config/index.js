@@ -9,10 +9,20 @@ const INSECURE_DEFAULT_SECRETS = [
   "915b693d6ec72978dff75123dc5380fa57818c203cc7a1676d79aee95818235eb50d1d5c65db85e60d9954ee6c2eddb8",
 ];
 
+const nodeEnv = process.env.NODE_ENV || "development";
+const isProduction = nodeEnv === "production";
+const isTest = nodeEnv === "test";
+
+const rawPort = process.env.PORT || "5000";
+const parsedPort = parseInt(rawPort, 10);
+if (isNaN(parsedPort) || parsedPort < 1 || parsedPort > 65535) {
+  throw new Error(`Invalid PORT environment variable: '${rawPort}'. Must be between 1 and 65535.`);
+}
+
 const resolvedJwtSecret = process.env.JWT_SECRET || process.env.NEXTAUTH_SECRET;
 const resolvedRefreshSecret = process.env.JWT_REFRESH_SECRET;
 
-if (process.env.NODE_ENV === "production") {
+if (isProduction) {
   if (!resolvedJwtSecret || INSECURE_DEFAULT_SECRETS.includes(resolvedJwtSecret)) {
     throw new Error(
       "FATAL SECURITY CONFIGURATION: In production, JWT_SECRET / NEXTAUTH_SECRET must be set to a strong, uncommitted secret value.",
@@ -20,16 +30,35 @@ if (process.env.NODE_ENV === "production") {
   }
 }
 
+const databaseUrl =
+  process.env.DATABASE_URL ||
+  "postgresql://postgres:postgrespassword9555@localhost:5432/flowCTRL";
+
+if (!databaseUrl.startsWith("postgresql://") && !databaseUrl.startsWith("postgres://")) {
+  throw new Error(
+    "Invalid DATABASE_URL environment variable. Must begin with postgresql:// or postgres://",
+  );
+}
+
+const allowedOrigins = [
+  "http://localhost:3000",
+  "http://localhost:5000",
+  "http://127.0.0.1:3000",
+  "http://127.0.0.1:5000",
+  process.env.APP_URL,
+  process.env.FRONTEND_URL,
+  process.env.NEXTAUTH_URL,
+  process.env.CORS_ORIGIN,
+].filter(Boolean);
+
 const config = {
-  env: process.env.NODE_ENV || "development",
-  isProduction: process.env.NODE_ENV === "production",
-  isTest: process.env.NODE_ENV === "test",
-  port: parseInt(process.env.PORT || "5000", 10),
+  env: nodeEnv,
+  isProduction,
+  isTest,
+  port: parsedPort,
 
   db: {
-    url:
-      process.env.DATABASE_URL ||
-      "postgresql://postgres:postgrespassword9555@localhost:5432/flowCTRL",
+    url: databaseUrl,
   },
 
   jwt: {
@@ -47,24 +76,14 @@ const config = {
     sessionName: "flowctrl_session",
     csrfName: "flowctrl_csrf",
     secure:
-      process.env.COOKIE_SECURE === "true" ||
-      process.env.NODE_ENV === "production",
+      process.env.COOKIE_SECURE === "true" || isProduction,
     sameSite: (process.env.COOKIE_SAME_SITE || "lax").toLowerCase(),
     domain: process.env.COOKIE_DOMAIN || undefined,
     maxAgeSeconds: 30 * 24 * 60 * 60, // 30 days
   },
 
   cors: {
-    allowedOrigins: [
-      "http://localhost:3000",
-      "http://localhost:5000",
-      "http://127.0.0.1:3000",
-      "http://127.0.0.1:5000",
-      process.env.APP_URL,
-      process.env.FRONTEND_URL,
-      process.env.NEXTAUTH_URL,
-      process.env.CORS_ORIGIN,
-    ].filter(Boolean),
+    allowedOrigins,
   },
 
   rateLimit: {

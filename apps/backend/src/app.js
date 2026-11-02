@@ -8,9 +8,10 @@ const config = require("./config");
 const { prisma } = require("./lib/prisma");
 const { initTelemetry } = require("./telemetry");
 const { requestIdMiddleware } = require("./middleware/requestId.middleware");
+const { requestTimingMiddleware } = require("./middleware/requestTiming.middleware");
 const { authRouter } = require("./routes/auth.routes");
-const { usersRouter } = require("./routes/users");
-const { roadmapsRouter } = require("./routes/roadmaps");
+const { usersRouter } = require("./routes/users.routes");
+const { roadmapsRouter } = require("./routes/roadmaps.routes");
 const { roadmapProgressRouter } = require("./routes/roadmapProgress.routes");
 const { projectsRouter } = require("./routes/projects.routes");
 const { jobsRouter } = require("./routes/jobs.routes");
@@ -18,6 +19,8 @@ const { mentorsRouter } = require("./routes/mentors.routes");
 const { resumesRouter } = require("./routes/resumes.routes");
 const { catalogRouter } = require("./routes/catalog.routes");
 const { notificationsRouter } = require("./routes/notifications.routes");
+const { membershipRouter } = require("./routes/membership.routes");
+const { premiumResourcesRouter } = require("./routes/premiumResources.routes");
 const { adminRouter } = require("./routes/admin.routes");
 const { gatewayRouter } = require("./routes/gateway.routes");
 const { ragRouter } = require("./routes/rag.routes");
@@ -47,8 +50,9 @@ app.set("trust proxy", 1);
 // 2. Disable X-Powered-By header to prevent technology fingerprinting
 app.disable("x-powered-by");
 
-// 3. Request ID Middleware for distributed tracing & structured logs
+// 3. Request ID & Request Timing Middleware for distributed tracing & metrics
 app.use(requestIdMiddleware);
+app.use(requestTimingMiddleware);
 
 // 4. Host Header Injection Defense
 app.use(hostHeaderGuard);
@@ -232,19 +236,25 @@ app.use("/api/resumes", resumesRouter);
 // 24. Skills, Categories & Career Paths Catalog
 app.use("/api/catalog", catalogRouter);
 
-// 25. Notifications Routes
+// 25. Membership Management & Subscription Routes
+app.use("/api/membership", membershipRouter);
+
+// 26. Curated Premium Learning Resources Routes
+app.use("/api/resources", premiumResourcesRouter);
+
+// 27. Notifications Routes
 app.use("/api/notifications", notificationsRouter);
 
-// 26. Admin Management Routes
+// 28. Admin Management Routes
 app.use("/api/admin", adminRouter);
 
-// 27. Internal Microservice Gateway Routes
+// 29. Internal Microservice Gateway Routes
 app.use("/api/services", gatewayRouter);
 
-// 28. RAG Personalized Roadmap & Recommendation Routes
+// 30. RAG Personalized Roadmap & Recommendation Routes
 app.use("/api/rag", ragRouter);
 
-// 29. Protected Mission Control Dashboard Route
+// 31. Protected Mission Control Dashboard Route
 app.get("/api/dashboard", requireAuth, (req, res) => {
   res.setHeader("Cache-Control", "no-store, max-age=0");
   res.status(200).json({

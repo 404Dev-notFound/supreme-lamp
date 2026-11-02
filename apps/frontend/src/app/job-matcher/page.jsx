@@ -38,30 +38,27 @@ export default function JobMatcherPage() {
 
   return (
     <div className="min-h-screen text-zinc-100 font-sans selection:bg-primary/30 flex flex-col justify-between">
-      {/* Navigation */}
-      <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 py-4 glass border-b border-white/10">
-        <div className="flex items-center gap-4">
-          <Link
-            href="/"
-            aria-label="Back to Home"
-            className="p-2 rounded-full glass hover:bg-white/10 transition-colors text-zinc-300 hover:text-white"
-          >
-            <ArrowLeft className="w-4 h-4" />
-          </Link>
+      {/* Navigation — consistent with ATS Screener page pattern */}
+      <nav className="fixed top-0 left-0 right-0 z-40 flex items-center justify-between px-6 py-4 glass border-b border-white/10">
+        <div className="flex items-center gap-3">
           <Link
             href="/"
             className="flex items-center gap-2 hover:opacity-80 transition-opacity"
+            aria-label="flowCTRL Home"
           >
             <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center shadow-lg shadow-primary/20">
               <span className="font-bold text-primary-foreground tracking-tighter">
                 fC
               </span>
             </div>
-            <span className="font-semibold text-lg tracking-tight">
-              flowCTRL{" "}
-              <span className="text-orange-400 font-normal">/ Job Matcher</span>
+            <span className="font-semibold text-lg tracking-tight text-white hidden sm:inline">
+              flowCTRL
             </span>
           </Link>
+          <span className="text-zinc-400 mx-1">/</span>
+          <span className="font-semibold text-lg tracking-tight text-white truncate max-w-[200px] sm:max-w-md">
+            Job Matcher
+          </span>
         </div>
 
         <div className="flex items-center gap-4">
@@ -71,23 +68,59 @@ export default function JobMatcherPage() {
           >
             Roadmaps
           </Link>
+          <Link
+            href="/resume-screener"
+            className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-orange-500/20 hover:bg-orange-500/30 text-amber-300 hover:text-white border border-orange-500/40 text-xs sm:text-sm font-semibold transition-all shadow-sm"
+          >
+            ATS Screener
+          </Link>
           <NavProfile />
         </div>
       </nav>
 
-      {/* Hero Header */}
-      <main className="pt-32 pb-16 px-6 max-w-7xl mx-auto w-full relative z-10 flex-1">
-        <div className="mb-10 text-center max-w-2xl mx-auto">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-xs font-semibold mb-4">
-            <Sparkles className="w-3.5 h-3.5" />
-            AI Opportunity Radar Active
+      {/* Main Container */}
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 pt-24 sm:pt-28 pb-16 w-full flex-1 relative z-10">
+        {/* Header Banner — mirrors ATS Screener page design */}
+        <div className="p-6 md:p-8 rounded-3xl glass-card border border-white/10 mb-6 relative overflow-hidden">
+          <div className="absolute top-0 right-0 w-96 h-96 bg-primary/10 rounded-full blur-3xl pointer-events-none" />
+          <div className="absolute -bottom-12 -left-12 w-64 h-64 bg-orange-500/5 rounded-full blur-2xl pointer-events-none" />
+
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 relative z-10">
+            <div>
+              <div className="flex flex-wrap items-center gap-2 mb-2">
+                <span className="inline-flex items-center gap-1 text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full bg-primary/10 border border-primary/30 text-primary">
+                  <Sparkles className="w-3.5 h-3.5 text-orange-400" />
+                  AI Opportunity Radar
+                </span>
+                <span className="text-xs font-medium px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-300">
+                  Live Job Matching
+                </span>
+              </div>
+              <h1 className="text-2xl sm:text-3xl font-bold tracking-tight text-white mb-1">
+                Opportunities Matched to Your Skills
+              </h1>
+              <p className="text-sm text-zinc-300 max-w-2xl font-normal leading-relaxed">
+                Compare your competency map against live roles from top
+                engineering teams. Filter by work mode, experience, and salary range.
+              </p>
+            </div>
+
+            <div className="flex items-center gap-3 shrink-0">
+              <Link
+                href="/"
+                className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl glass border border-white/10 text-xs font-medium text-zinc-300 hover:text-white transition-colors"
+              >
+                <ArrowLeft className="w-3.5 h-3.5" />
+                Back to Home
+              </Link>
+              <Link
+                href="/roadmaps"
+                className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-primary text-primary-foreground font-medium hover:opacity-90 transition-opacity text-xs shadow-lg shadow-primary/20"
+              >
+                View Roadmaps <ArrowRight className="w-3.5 h-3.5" />
+              </Link>
+            </div>
           </div>
-          <h1 className="text-3xl md:text-5xl font-extrabold tracking-tight text-white mb-3">
-            Opportunities matched to your skills
-          </h1>
-          <p className="text-sm text-zinc-400">
-            Compare your competency map against live roles from top engineering teams.
-          </p>
         </div>
 
         {/* Filter Bar */}
@@ -101,7 +134,7 @@ export default function JobMatcherPage() {
             <select
               value={filters.workMode}
               onChange={(e) => handleFilterChange("workMode", e.target.value)}
-              className="bg-white/5 border border-white/10 rounded-xl px-3 py-1.5 text-xs text-zinc-200 focus:outline-none focus:border-primary/50"
+              className="bg-white/5 border border-white/10 rounded-xl px-3 py-1.5 text-xs text-zinc-200 focus:outline-none focus:border-primary/50 cursor-pointer"
             >
               <option value="" className="bg-zinc-900 text-white">All Work Modes</option>
               <option value="Remote" className="bg-zinc-900 text-white">Remote</option>
@@ -112,11 +145,11 @@ export default function JobMatcherPage() {
             <select
               value={filters.experience}
               onChange={(e) => handleFilterChange("experience", e.target.value)}
-              className="bg-white/5 border border-white/10 rounded-xl px-3 py-1.5 text-xs text-zinc-200 focus:outline-none focus:border-primary/50"
+              className="bg-white/5 border border-white/10 rounded-xl px-3 py-1.5 text-xs text-zinc-200 focus:outline-none focus:border-primary/50 cursor-pointer"
             >
               <option value="" className="bg-zinc-900 text-white">All Experience Levels</option>
-              <option value="Junior" className="bg-zinc-900 text-white">Junior (0-2y)</option>
-              <option value="Mid" className="bg-zinc-900 text-white">Mid-Level (3-5y)</option>
+              <option value="Junior" className="bg-zinc-900 text-white">Junior (0–2y)</option>
+              <option value="Mid" className="bg-zinc-900 text-white">Mid-Level (3–5y)</option>
               <option value="Senior" className="bg-zinc-900 text-white">Senior (5+y)</option>
               <option value="Lead" className="bg-zinc-900 text-white">Lead / Principal</option>
             </select>
@@ -127,7 +160,7 @@ export default function JobMatcherPage() {
             <select
               value={sort}
               onChange={(e) => setSort(e.target.value)}
-              className="bg-white/5 border border-white/10 rounded-xl px-3 py-1.5 text-xs text-zinc-200 focus:outline-none focus:border-primary/50"
+              className="bg-white/5 border border-white/10 rounded-xl px-3 py-1.5 text-xs text-zinc-200 focus:outline-none focus:border-primary/50 cursor-pointer"
             >
               <option value="best" className="bg-zinc-900 text-white">Best Match</option>
               <option value="salary" className="bg-zinc-900 text-white">Highest Compensation</option>
@@ -156,29 +189,57 @@ export default function JobMatcherPage() {
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
             {jobs.map((job) => {
-              const match = job.matchScore || job.matchPct || 85;
+              const match = job.matchPercent ?? job.matchScore ?? job.matchPct ?? 85;
+              const companyName =
+                (typeof job.company === "object" ? job.company?.name : job.company) ||
+                "Leading Tech Co";
+              const companyInitial = companyName[0];
+
               return (
                 <div
                   key={job.id}
-                  className="p-6 rounded-3xl glass-card border border-white/10 hover:border-orange-500/30 transition-all bg-zinc-950/50 flex flex-col justify-between"
+                  className="p-6 rounded-3xl glass-card border border-white/10 hover:border-primary/30 transition-all bg-zinc-950/50 flex flex-col justify-between group"
                 >
                   <div>
-                    <div className="flex items-start justify-between gap-4 mb-4">
-                      <div>
-                        <span className="text-[11px] font-semibold text-zinc-400 uppercase tracking-wider block mb-1">
-                          {job.company || "Leading Tech Co"}
-                        </span>
-                        <h3 className="text-lg font-bold text-white leading-tight">
-                          {job.title}
-                        </h3>
+                    {/* Company + Title + Match Badge */}
+                    <div className="flex items-start justify-between gap-4 mb-3">
+                      <div className="flex items-center gap-3">
+                        {job.company?.logo ? (
+                          <img
+                            src={job.company.logo}
+                            alt={companyName}
+                            className="w-10 h-10 rounded-xl object-cover bg-white/10 shrink-0"
+                          />
+                        ) : (
+                          <div className="w-10 h-10 rounded-xl bg-primary/20 text-primary border border-primary/30 flex items-center justify-center font-bold text-sm shrink-0">
+                            {companyInitial}
+                          </div>
+                        )}
+                        <div>
+                          <span className="text-[11px] font-semibold text-zinc-400 uppercase tracking-wider block mb-0.5">
+                            {companyName}
+                          </span>
+                          <h3 className="text-base font-bold text-white leading-tight group-hover:text-amber-200 transition-colors">
+                            {job.title}
+                          </h3>
+                        </div>
                       </div>
-                      <div className="flex flex-col items-end">
-                        <span className="px-2.5 py-1 rounded-full text-xs font-bold bg-emerald-500/15 text-emerald-400 border border-emerald-500/30">
-                          {match}% Match
-                        </span>
+                      <span className="px-2.5 py-1 rounded-full text-xs font-bold bg-emerald-500/15 text-emerald-400 border border-emerald-500/30 shrink-0">
+                        {match}% Match
+                      </span>
+                    </div>
+
+                    {/* Match Progress Bar */}
+                    <div className="mb-4">
+                      <div className="h-1.5 w-full bg-white/5 rounded-full overflow-hidden">
+                        <div
+                          className="h-full bg-gradient-to-r from-primary to-amber-400 rounded-full transition-all duration-700"
+                          style={{ width: `${Math.min(Number(match), 100)}%` }}
+                        />
                       </div>
                     </div>
 
+                    {/* Meta Info */}
                     <div className="flex flex-wrap items-center gap-3 text-xs text-zinc-400 mb-4">
                       <span className="flex items-center gap-1">
                         <MapPin className="w-3.5 h-3.5 text-zinc-500" />
@@ -196,8 +257,32 @@ export default function JobMatcherPage() {
                       )}
                     </div>
 
-                    {job.skills && job.skills.length > 0 && (
-                      <div className="flex flex-wrap gap-1.5 mb-6">
+                    {/* Matched Skills (green) */}
+                    {job.matchedSkills && job.matchedSkills.length > 0 && (
+                      <div className="flex flex-wrap gap-1.5 mb-2">
+                        {job.matchedSkills.map((s, idx) => (
+                          <span
+                            key={idx}
+                            className="inline-flex items-center gap-0.5 px-2 py-0.5 rounded-md text-[10px] font-medium bg-emerald-500/10 border border-emerald-500/20 text-emerald-300"
+                          >
+                            <CheckCircle2 className="w-2.5 h-2.5 shrink-0" />
+                            {s}
+                          </span>
+                        ))}
+                        {(job.missingSkills || []).map((s, idx) => (
+                          <span
+                            key={`miss-${idx}`}
+                            className="px-2 py-0.5 rounded-md text-[10px] font-medium bg-white/5 border border-white/10 text-zinc-500 line-through"
+                          >
+                            {s}
+                          </span>
+                        ))}
+                      </div>
+                    )}
+
+                    {/* Generic skills fallback */}
+                    {!job.matchedSkills && job.skills && job.skills.length > 0 && (
+                      <div className="flex flex-wrap gap-1.5 mb-2">
                         {job.skills.map((s, idx) => (
                           <span
                             key={idx}
@@ -210,18 +295,18 @@ export default function JobMatcherPage() {
                     )}
                   </div>
 
-                  <div className="pt-4 border-t border-white/10 flex items-center justify-between">
+                  <div className="pt-4 border-t border-white/10 flex items-center justify-between mt-3">
                     <Link
                       href="/roadmaps"
-                      className="text-xs text-zinc-400 hover:text-white transition-colors"
+                      className="text-xs text-zinc-400 hover:text-amber-300 transition-colors"
                     >
-                      View skill gaps
+                      View skill gaps →
                     </Link>
                     <a
                       href={job.applyUrl || "#"}
                       target="_blank"
                       rel="noreferrer"
-                      className="px-4 py-2 rounded-xl bg-primary text-primary-foreground font-semibold text-xs hover:opacity-90 transition-opacity flex items-center gap-1.5"
+                      className="px-4 py-2 rounded-xl bg-primary text-primary-foreground font-semibold text-xs hover:opacity-90 transition-opacity flex items-center gap-1.5 shadow-sm shadow-primary/20"
                     >
                       Apply Now <ArrowRight className="w-3.5 h-3.5" />
                     </a>
@@ -231,6 +316,19 @@ export default function JobMatcherPage() {
             })}
           </div>
         )}
+
+        {/* Scripted by dev attribution */}
+        <div className="mt-12 text-center text-xs text-zinc-500 select-none">
+          <span>flowCTRL Job Matcher · Scripted by </span>
+          <a
+            href="mailto:scriptedbydev@gmail.com"
+            className="text-zinc-400 hover:text-amber-300 font-semibold transition-colors"
+            title="scriptedbydev@gmail.com"
+          >
+            dev
+          </a>
+          <span> · flowCTRL Ecosystem</span>
+        </div>
       </main>
 
       {/* Footer */}

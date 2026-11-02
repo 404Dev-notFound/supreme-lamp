@@ -86,8 +86,13 @@ async function listMentors({
     }),
   ]);
 
+  const formattedMentors = mentors.map((m) => ({
+    ...m,
+    hourlyRate: m.hourlyRate !== null && m.hourlyRate !== undefined ? Number(m.hourlyRate) : null,
+  }));
+
   return {
-    mentors,
+    mentors: formattedMentors,
     pagination: {
       page: safePage,
       limit: safeLimit,
@@ -126,7 +131,10 @@ async function getMentorById(id) {
     throw new MentorError("Mentor profile not found.", 404, "MENTOR_NOT_FOUND");
   }
 
-  return mentor;
+  return {
+    ...mentor,
+    hourlyRate: mentor.hourlyRate !== null && mentor.hourlyRate !== undefined ? Number(mentor.hourlyRate) : null,
+  };
 }
 
 /**
@@ -173,6 +181,10 @@ async function upsertMentorProfile({ userId, data, req = null }) {
         where: { id: userId },
         data: { role: "MENTOR" },
       });
+    }
+
+    if (upserted && upserted.hourlyRate !== null && upserted.hourlyRate !== undefined) {
+      upserted.hourlyRate = Number(upserted.hourlyRate);
     }
 
     return upserted;

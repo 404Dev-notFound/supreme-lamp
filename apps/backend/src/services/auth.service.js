@@ -85,6 +85,34 @@ async function signup({ name, email, password, req = null }) {
       },
     });
 
+    // Automatically provision default FREE membership tier
+    const freePlan = await tx.membershipPlan.findUnique({
+      where: { code: "FREE" },
+    });
+    if (freePlan) {
+      await tx.userMembership.create({
+        data: {
+          userId: user.id,
+          planId: freePlan.id,
+          tier: "FREE",
+          status: "ACTIVE",
+          expiresAt: null,
+          autoRenew: false,
+        },
+      });
+
+      await tx.membershipHistory.create({
+        data: {
+          userId: user.id,
+          planId: freePlan.id,
+          action: "ACTIVATED",
+          tier: "FREE",
+          startDate: new Date(),
+          note: "Default Free tier assigned on account registration",
+        },
+      });
+    }
+
     await tx.securityLog.create({
       data: {
         userId: user.id,
@@ -126,7 +154,14 @@ async function signin({ email, password, req = null }) {
 
   const user = await prisma.user.findUnique({
     where: { email: normalizedEmail },
-    include: { profile: true },
+    include: {
+      profile: true,
+      membership: {
+        include: {
+          plan: true,
+        },
+      },
+    },
   });
 
   // Account does not exist or has no local password

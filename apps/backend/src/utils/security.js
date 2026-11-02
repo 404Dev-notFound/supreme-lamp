@@ -321,6 +321,28 @@ function sanitizeSelfProfile(user) {
     skills: Array.isArray(user.userSkills || user.skills)
       ? (user.userSkills || user.skills).map((us) => (us.skill ? us.skill.name : us))
       : [],
+    isPremium: Boolean(
+      user.membership?.tier === "PREMIUM" &&
+      user.membership?.status === "ACTIVE" &&
+      (!user.membership?.expiresAt || new Date(user.membership?.expiresAt) > new Date()),
+    ),
+    membership: user.membership
+      ? {
+          tier: user.membership.tier,
+          status: user.membership.status,
+          planName: user.membership.plan?.name || "flowCTRL Premium",
+          planCode: user.membership.plan?.code || "PREMIUM",
+          expiresAt: user.membership.expiresAt,
+          autoRenew: user.membership.autoRenew,
+        }
+      : {
+          tier: "FREE",
+          status: "ACTIVE",
+          planName: "Community Explorer",
+          planCode: "FREE",
+          expiresAt: null,
+          autoRenew: false,
+        },
   };
 }
 
@@ -340,6 +362,28 @@ function sanitizePublicProfile(user) {
     skills: Array.isArray(user.userSkills || user.skills)
       ? (user.userSkills || user.skills).map((us) => (us.skill ? us.skill.name : us))
       : [],
+    isPremium: Boolean(
+      user.membership?.tier === "PREMIUM" &&
+      user.membership?.status === "ACTIVE" &&
+      (!user.membership?.expiresAt || new Date(user.membership?.expiresAt) > new Date()),
+    ),
+    membership: user.membership
+      ? {
+          tier: user.membership.tier,
+          status: user.membership.status,
+          planName: user.membership.plan?.name || "flowCTRL Premium",
+          planCode: user.membership.plan?.code || "PREMIUM",
+          expiresAt: user.membership.expiresAt,
+          autoRenew: user.membership.autoRenew,
+        }
+      : {
+          tier: "FREE",
+          status: "ACTIVE",
+          planName: "Community Explorer",
+          planCode: "FREE",
+          expiresAt: null,
+          autoRenew: false,
+        },
     createdAt: user.createdAt,
   };
 }

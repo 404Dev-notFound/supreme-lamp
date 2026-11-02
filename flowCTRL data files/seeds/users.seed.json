@@ -8,7 +8,8 @@
     "headline": "Core Platform Administrator",
     "bio": "Overseeing flowCTRL security and infrastructure.",
     "location": "Global",
-    "theme": "dark"
+    "theme": "dark",
+    "membershipScenario": "PREMIUM_ANNUAL"
   },
   {
     "id": "usr_seed_alex",
@@ -19,7 +20,8 @@
     "headline": "Senior Full-Stack Engineer",
     "bio": "Building scalable distributed web applications with flowCTRL.",
     "location": "San Francisco, CA",
-    "theme": "dark"
+    "theme": "dark",
+    "membershipScenario": "PREMIUM_MONTHLY"
   },
   {
     "id": "usr_seed_mentor",
@@ -30,7 +32,8 @@
     "headline": "Staff AI Engineer & Tech Lead",
     "bio": "Guiding aspiring engineers in systems design and cloud architectures.",
     "location": "Seattle, WA",
-    "theme": "dark"
+    "theme": "dark",
+    "membershipScenario": "FREE"
   },
   {
     "id": "usr_seed_recruiter",
@@ -41,6 +44,31 @@
     "headline": "Technical Talent Partner",
     "bio": "Connecting elite engineers with top-tier technology teams.",
     "location": "New York, NY",
-    "theme": "dark"
+    "theme": "dark",
+    "membershipScenario": "FREE"
+  },
+  {
+    "id": "usr_seed_free",
+    "name": "Elena Rostova",
+    "email": "free.dev@flowctrl.dev",
+    "role": "USER",
+    "status": "ACTIVE",
+    "headline": "Frontend Developer",
+    "bio": "Specializing in React, TypeScript, and accessible UI engineering.",
+    "location": "Austin, TX",
+    "theme": "dark",
+    "membershipScenario": "FREE"
+  },
+  {
+    "id": "usr_seed_expired",
+    "name": "Devin Clark",
+    "email": "expired.member@flowctrl.dev",
+    "role": "USER",
+    "status": "ACTIVE",
+    "headline": "DevOps Specialist",
+    "bio": "Building CI/CD pipelines and cloud infrastructure.",
+    "location": "Chicago, IL",
+    "theme": "dark",
+    "membershipScenario": "EXPIRED"
   }
 ]
