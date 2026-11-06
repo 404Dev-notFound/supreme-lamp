@@ -244,3 +244,4 @@ All endpoints are mounted on `/api/project-tutorials`.
 ### 9. `POST /api/project-tutorials/:id/bookmark`
 - **Access**: Authenticated (`requireAuth`)
 - **Response**: `{ "success": true, "data": { "bookmarked": true } }`
+

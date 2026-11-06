@@ -12,9 +12,24 @@ import {
   ShieldCheck,
   FileCode,
   Globe,
+  Play,
 } from "lucide-react";
 
+function extractYouTubeId(url) {
+  if (!url || typeof url !== "string") return null;
+  const match = url.match(/(?:youtu\.be\/|youtube\.com\/(?:embed\/|v\/|watch\?v=|watch\?.+&v=))([\w-]{11})/i);
+  return match ? match[1] : null;
+}
+
 export default function ProjectOverviewTab({ project, onStartBuilding }) {
+  const videoId =
+    extractYouTubeId(project.tutorialUrl) ||
+    extractYouTubeId(project.videoUrl) ||
+    (project.resources &&
+      project.resources
+        .map((r) => extractYouTubeId(r.url))
+        .find(Boolean));
+
   const getResourceIcon = (type) => {
     switch (type) {
       case "GITHUB_REPO":
@@ -59,6 +74,35 @@ export default function ProjectOverviewTab({ project, onStartBuilding }) {
           </div>
         )}
       </section>
+
+      {/* Video Tutorial Walkthrough (if YouTube) */}
+      {videoId && (
+        <section className="rounded-3xl glass-card border border-white/10 bg-zinc-950/70 p-6">
+          <div className="flex items-center justify-between mb-4">
+            <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-red-400">
+              <Play className="w-4 h-4 fill-red-500 text-red-500" />
+              Interactive Video Tutorial Walkthrough
+            </div>
+            <a
+              href={`https://www.youtube.com/watch?v=${videoId}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xs text-orange-400 hover:underline flex items-center gap-1 font-semibold"
+            >
+              Watch directly on YouTube <ExternalLink className="w-3.5 h-3.5" />
+            </a>
+          </div>
+          <div className="aspect-video w-full rounded-2xl overflow-hidden border border-white/10 shadow-2xl bg-black">
+            <iframe
+              src={`https://www.youtube-nocookie.com/embed/${videoId}?rel=0`}
+              title="YouTube Video Tutorial"
+              className="w-full h-full"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
+          </div>
+        </section>
+      )}
 
       {/* 2. Grid: Why Build This & Real-World Applications */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -227,10 +271,10 @@ export default function ProjectOverviewTab({ project, onStartBuilding }) {
         <button
           type="button"
           onClick={onStartBuilding}
-          className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-primary text-primary-foreground font-medium text-xs hover:bg-primary/90 transition-all shrink-0"
+          className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-orange-500 text-black font-semibold text-xs hover:bg-orange-400 transition-all shrink-0 shadow-md"
         >
           <Layers className="w-3.5 h-3.5" />
-          Jump to Interactive Steps
+          Start Learning Guide
         </button>
       </div>
     </div>

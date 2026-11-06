@@ -14,25 +14,30 @@ class ResourceNotFoundError extends Error {
  * List all curated resources.
  * Strips confidential module content and deep source links if client is not an active Premium member.
  */
-async function listResources({ isPremium = false, category = null, level = null, search = null } = {}) {
+async function listResources({ isPremium = false, category = null, level = null, search = null, page = null, limit = null } = {}) {
   const cacheKey = buildKey(
     REDIS_CONFIG.namespaces.PREMIUM,
     "list",
-    `${Boolean(isPremium)}:${category || "all"}:${level || "all"}:${search || "all"}`
+    `${Boolean(isPremium)}:${category || "all"}:${level || "all"}:${search || "all"}:${page || "all"}:${limit || "all"}`
   );
 
   return cache.getOrSet(
     cacheKey,
     async () => {
+      const isPaginated = page !== null && page !== undefined;
       const where = {
         isActive: true,
       };
 
-      if (category) {
+      if (!isPaginated && !category && !level && !search) {
+        where.accessLevel = "PREMIUM";
+      }
+
+      if (category && category !== "all") {
         where.categorySlug = category;
       }
 
-      if (level) {
+      if (level && level !== "all") {
         where.level = { equals: level, mode: "insensitive" };
       }
 
@@ -44,6 +49,12 @@ async function listResources({ isPremium = false, category = null, level = null,
           { slug: { contains: q, mode: "insensitive" } },
         ];
       }
+      const pageNum = Math.max(1, parseInt(page, 10) || 1);
+      const limitNum = Math.min(100, Math.max(1, parseInt(limit, 10) || 24));
+      const skip = isPaginated ? (pageNum - 1) * limitNum : undefined;
+      const take = isPaginated ? limitNum : (limit ? parseInt(limit, 10) : undefined);
+
+      const total = isPaginated ? await prisma.premiumResource.count({ where }) : undefined;
 
       const items = await prisma.premiumResource.findMany({
         where,
@@ -52,10 +63,12 @@ async function listResources({ isPremium = false, category = null, level = null,
             select: { id: true, slug: true, name: true, icon: true },
           },
         },
-        orderBy: [{ sortOrder: "asc" }, { createdAt: "asc" }],
+        orderBy: [{ isPinned: "desc" }, { isFeatured: "desc" }, { sortOrder: "asc" }, { createdAt: "asc" }],
+        skip,
+        take,
       });
 
-      return items.map((r) => {
+      const mapped = items.map((r) => {
         const isLocked = r.accessLevel === "PREMIUM" && !isPremium;
 
         // For non-premium users, build safe teaser outline without deep URLs
@@ -87,10 +100,29 @@ async function listResources({ isPremium = false, category = null, level = null,
           isFeatured: r.isFeatured,
           sortOrder: r.sortOrder,
           moduleOutlines,
+          url: r.externalUrl || r.content?.url || null,
+          author: r.content?.author || "Community Curated",
+          format: r.content?.format || "WEB",
+          language: r.content?.language || "General",
+          type: r.content?.type || "BOOK",
+          rating: r.content?.rating || 4.8,
+          tags: r.content?.tags || [],
           // Only include full curriculum if verified Premium or Free access
           ...(isLocked ? {} : { content: r.content }),
         };
       });
+
+      if (isPaginated) {
+        return {
+          resources: mapped,
+          total,
+          page: pageNum,
+          totalPages: Math.ceil(total / limitNum),
+          limit: limitNum,
+        };
+      }
+
+      return mapped;
     },
     REDIS_CONFIG.ttl.PREMIUM_CATALOG
   );

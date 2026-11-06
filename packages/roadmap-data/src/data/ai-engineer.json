@@ -308,16 +308,6 @@
       }
     },
     {
-      "id": "node-PT3uDiUjiKhO8laOkCmgP",
-      "label": "Constraining Prompts",
-      "topicId": "PT3uDiUjiKhO8laOkCmgP",
-      "level": 4,
-      "position": {
-        "x": 80,
-        "y": 1680
-      }
-    },
-    {
       "id": "node-ljZLa3yjQpegiZWwtnn_q",
       "label": "Content Moderation APIs",
       "topicId": "ljZLa3yjQpegiZWwtnn_q",
@@ -1368,16 +1358,6 @@
       }
     },
     {
-      "id": "node-ozrR8IvjNFbHd44kZrExX",
-      "label": "Prompt vs. Context Engineering",
-      "topicId": "ozrR8IvjNFbHd44kZrExX",
-      "level": 4,
-      "position": {
-        "x": 340,
-        "y": 7280
-      }
-    },
-    {
       "id": "node-WcjX6p-V-Rdd77EL8Ega9",
       "label": "Purpose and Functionality",
       "topicId": "WcjX6p-V-Rdd77EL8Ega9",
@@ -1415,16 +1395,6 @@
       "position": {
         "x": 600,
         "y": 7440
-      }
-    },
-    {
-      "id": "node-LnQ2AatMWpExUHcZhDIPd",
-      "label": "RAG and Dynamic Filters",
-      "topicId": "LnQ2AatMWpExUHcZhDIPd",
-      "level": 4,
-      "position": {
-        "x": 80,
-        "y": 7600
       }
     },
     {
@@ -1475,16 +1445,6 @@
       "position": {
         "x": 600,
         "y": 7760
-      }
-    },
-    {
-      "id": "node-IX1BJWGwGmB4L063g0Frf",
-      "label": "RAG",
-      "topicId": "IX1BJWGwGmB4L063g0Frf",
-      "level": 4,
-      "position": {
-        "x": 80,
-        "y": 7920
       }
     },
     {
@@ -2120,12 +2080,6 @@
     {
       "id": "edge-node-ONLDyczNacGVZGojYyJrU-node-PT3uDiUjiKhO8laOkCmgP",
       "source": "node-ONLDyczNacGVZGojYyJrU",
-      "target": "node-PT3uDiUjiKhO8laOkCmgP",
-      "animated": true
-    },
-    {
-      "id": "edge-node-PT3uDiUjiKhO8laOkCmgP-node-PT3uDiUjiKhO8laOkCmgP",
-      "source": "node-PT3uDiUjiKhO8laOkCmgP",
       "target": "node-PT3uDiUjiKhO8laOkCmgP",
       "animated": true
     },
@@ -2786,12 +2740,6 @@
     {
       "id": "edge-node-c0RPhpD00VIUgF4HJgN2T-node-LnQ2AatMWpExUHcZhDIPd",
       "source": "node-c0RPhpD00VIUgF4HJgN2T",
-      "target": "node-LnQ2AatMWpExUHcZhDIPd",
-      "animated": true
-    },
-    {
-      "id": "edge-node-LnQ2AatMWpExUHcZhDIPd-node-LnQ2AatMWpExUHcZhDIPd",
-      "source": "node-LnQ2AatMWpExUHcZhDIPd",
       "target": "node-LnQ2AatMWpExUHcZhDIPd",
       "animated": true
     },

@@ -92,3 +92,4 @@ The system is architected for zero-code-change catalog expansion:
    node apps/backend/src/seeds/seedProjectTutorials.js
    ```
 4. The backend automatically clears the Redis catalog cache via `projectTutorialsService.invalidateCatalogCache()`, immediately making the new project searchable and browsable in the frontend.
+

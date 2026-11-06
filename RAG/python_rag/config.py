@@ -38,7 +38,7 @@ class RAGSettings(BaseSettings):
     KNOWLEDGE_BASE_DIR: Path = rag_dir / "knowledge_base"
     ROADMAP_DATA_DIR: Path = root_dir / "packages" / "roadmap-data" / "src" / "data"
     FLOWCTRL_DATA_DIR: Path = root_dir / "flowCTRL DATA"
-    VECTOR_STORE_PATH: Path = rag_dir / "data" / "vector_store.json"
+    VECTOR_STORE_PATH: Path = rag_dir / "data" / "python_vector_store.json"
 
     CHUNK_SIZE: int = int(os.getenv("RAG_CHUNK_SIZE", "500"))
     CHUNK_OVERLAP: int = int(os.getenv("RAG_CHUNK_OVERLAP", "50"))

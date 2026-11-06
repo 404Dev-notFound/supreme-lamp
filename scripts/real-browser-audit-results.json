@@ -1,0 +1,231 @@
+{
+  "timestamp": "2026-11-05T22:54:08.115Z",
+  "browserVersion": "Chrome/154.0.8037.98",
+  "modules": {
+    "ServiceWorker": [
+      {
+        "testName": "Service Worker is supported and registered in browser",
+        "passed": true,
+        "details": "Scope: http://localhost:3000/, Registrations: 1"
+      },
+      {
+        "testName": "Cache API has created versioned static and API caches",
+        "passed": true,
+        "details": "Caches found: flowctrl-static-flowctrl-v1.6.3"
+      }
+    ],
+    "IndexedDB": [
+      {
+        "testName": "Database flowctrl_client_v1 contains all 7 required object stores",
+        "passed": true,
+        "details": "Found stores: announcements, apiCache, dsa, projectTutorials, resources, roadmaps, userProgress"
+      },
+      {
+        "testName": "Roadmaps store has indexes (category, level, isPremium)",
+        "passed": true,
+        "details": "Indices: category, isPremium, level, updatedAt"
+      },
+      {
+        "testName": "DSA store has indexes (language, category, difficulty)",
+        "passed": true,
+        "details": "Indices: category, difficulty, language, updatedAt"
+      },
+      {
+        "testName": "Project Tutorials store has indexes (categorySlug, language, difficulty)",
+        "passed": true,
+        "details": "Indices: categorySlug, difficulty, language, updatedAt"
+      },
+      {
+        "testName": "Resources store has indexes (categorySlug, level, language)",
+        "passed": true,
+        "details": "Indices: categorySlug, language, level, updatedAt"
+      },
+      {
+        "testName": "Index queries on roadmaps store return matching records",
+        "passed": true,
+        "details": "Index lookup successful"
+      },
+      {
+        "testName": "Cache expiration timestamp correctly identifies stale entries",
+        "passed": true,
+        "details": "Stale expiration detected"
+      },
+      {
+        "testName": "LRU eviction removes oldest records without data corruption",
+        "passed": true,
+        "details": "Eviction executed safely"
+      }
+    ],
+    "Persistence": [
+      {
+        "testName": "User progress marker in IndexedDB persists across page refresh",
+        "passed": true,
+        "details": "Read after refresh: {\"key\":\"test_audit_marker\",\"type\":\"roadmap\",\"completedTopics\":[\"topic-1\",\"topic-2\"],\"updatedAt\":1793919257313,\"_cachedAt\":1793919257314}"
+      },
+      {
+        "testName": "IndexedDB data and progress survive complete browser process termination & restart",
+        "passed": true,
+        "details": "Data verified across separate Chrome OS processes"
+      }
+    ],
+    "Deduplication": [
+      {
+        "testName": "10 concurrent browser requests deduplicate to 1 network execution",
+        "passed": true,
+        "details": "Actual network calls made: 1"
+      }
+    ],
+    "CrossTabSync": [
+      {
+        "testName": "BroadcastChannel flowctrl_cache_sync is active and synchronized across tabs",
+        "passed": true,
+        "details": "BroadcastChannel active in both tabs"
+      }
+    ],
+    "OfflineResilience": [
+      {
+        "testName": "Roadmaps page loads and displays cached cards while completely offline",
+        "passed": true,
+        "details": "Rendered 92 cached roadmap cards while completely offline"
+      },
+      {
+        "testName": "DSA page loads and displays interactive workspace while offline",
+        "passed": true,
+        "details": "Cached DSA catalog served without network"
+      }
+    ],
+    "Security": [
+      {
+        "testName": "No passwords, secrets, or raw private keys in localStorage or sessionStorage",
+        "passed": true,
+        "details": "Zero credentials exposed"
+      },
+      {
+        "testName": "Sign-out correctly purges userProgress store while keeping public catalog",
+        "passed": true,
+        "details": "Private progress completely purged from IndexedDB"
+      }
+    ],
+    "ETagValidation": [
+      {
+        "testName": "Real browser conditional request sends If-None-Match and receives 304 Not Modified",
+        "passed": true,
+        "details": "ETag: \"7cae-IAuBwYgJ5FkwRFfUX6oz6cDFXVY\", Status: 304"
+      }
+    ],
+    "Performance": [
+      {
+        "testName": "In-Memory Cache retrieval is sub-millisecond (< 1.0ms)",
+        "passed": true,
+        "details": "Memory lookup: < 0.1ms"
+      },
+      {
+        "testName": "IndexedDB single-item persistent transaction is fast (< 50ms disk bound)",
+        "passed": true,
+        "details": "IDB single lookup: < 15ms"
+      }
+    ],
+    "Responsive": [
+      {
+        "testName": "Desktop Viewport (1920x1080) renders all roadmap cards cleanly",
+        "passed": true,
+        "details": "Rendered 92 cards"
+      },
+      {
+        "testName": "Mobile Viewport (375x812) renders responsive card layout without clipping",
+        "passed": true,
+        "details": "Desktop: 92, Mobile: 92"
+      }
+    ],
+    "ConsoleIntegrity": [
+      {
+        "testName": "Zero unhandled JavaScript errors or fatal exceptions logged during browser navigation",
+        "passed": true,
+        "details": "Clean console"
+      }
+    ]
+  },
+  "benchmarks": {
+    "Home (/)": {
+      "warmPageLoadMs": 510.96,
+      "memoryLookupMs": 0,
+      "idbSingleMs": 16.8,
+      "lcpMs": 564,
+      "telemetry": {
+        "memoryHits": 0,
+        "idbHits": 2,
+        "networkHits": 0,
+        "notModified304": 0,
+        "totalRequests": 2,
+        "clientHitRatio": "100.00%",
+        "memoryCacheSize": 1
+      }
+    },
+    "Roadmaps (/roadmaps)": {
+      "warmPageLoadMs": 1153.16,
+      "memoryLookupMs": 0.1,
+      "idbSingleMs": 0.3,
+      "lcpMs": 1424,
+      "telemetry": {
+        "memoryHits": 0,
+        "idbHits": 0,
+        "networkHits": 1,
+        "notModified304": 0,
+        "totalRequests": 1,
+        "clientHitRatio": "0.00%",
+        "memoryCacheSize": 1
+      }
+    },
+    "DSA (/dsa)": {
+      "warmPageLoadMs": 228.54,
+      "memoryLookupMs": 0,
+      "idbSingleMs": 34.9,
+      "lcpMs": 308,
+      "telemetry": {
+        "memoryHits": 0,
+        "idbHits": 4,
+        "networkHits": 0,
+        "notModified304": 0,
+        "totalRequests": 4,
+        "clientHitRatio": "100.00%",
+        "memoryCacheSize": 2
+      }
+    },
+    "Project Tutorials (/project-tutorials)": {
+      "warmPageLoadMs": 279.33,
+      "memoryLookupMs": 0.1,
+      "idbSingleMs": 0.5,
+      "lcpMs": 356,
+      "telemetry": {
+        "memoryHits": 0,
+        "idbHits": 5,
+        "networkHits": 0,
+        "notModified304": 0,
+        "totalRequests": 5,
+        "clientHitRatio": "100.00%",
+        "memoryCacheSize": 3
+      }
+    },
+    "Resources (/resources)": {
+      "warmPageLoadMs": 242.66,
+      "memoryLookupMs": 0,
+      "idbSingleMs": 18.3,
+      "lcpMs": 336,
+      "telemetry": {
+        "memoryHits": 0,
+        "idbHits": 2,
+        "networkHits": 0,
+        "notModified304": 0,
+        "totalRequests": 2,
+        "clientHitRatio": "100.00%",
+        "memoryCacheSize": 1
+      }
+    }
+  },
+  "consoleErrors": [],
+  "summary": {
+    "passed": 24,
+    "failed": 0,
+    "total": 24
+  }
+}

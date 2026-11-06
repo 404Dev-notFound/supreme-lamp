@@ -4,6 +4,7 @@ import { cn } from "@/lib/utils";
 import { Suspense } from "react";
 import ModalManager from "@/components/modals/ModalManager";
 import AuthProvider from "@/components/AuthProvider";
+import ServiceWorkerRegistration from "@/components/ServiceWorkerRegistration";
 
 const geist = Geist({ subsets: ["latin"], variable: "--font-sans" });
 
@@ -50,6 +51,7 @@ export default function RootLayout({ children }) {
           {children}
           <Suspense fallback={null}>
             <ModalManager />
+            <ServiceWorkerRegistration />
           </Suspense>
         </AuthProvider>
       </body>

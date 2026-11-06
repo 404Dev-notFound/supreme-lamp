@@ -3,6 +3,7 @@ const { app } = require("./app");
 const config = require("./config");
 const { prisma, pool } = require("./lib/prisma");
 const { initSocket } = require("./realtime/socket");
+const { closeRedisConnections, queues } = require("./lib/redis");
 
 const server = http.createServer(app);
 
@@ -58,6 +59,20 @@ async function gracefulShutdown(signal) {
       }
     } catch (poolErr) {
       console.error("Error ending PostgreSQL pool:", poolErr);
+    }
+
+    // 4. Disconnect Redis and close background queues
+    try {
+      if (queues && typeof queues.closeQueuesAndWorkers === "function") {
+        await queues.closeQueuesAndWorkers();
+        console.log("BullMQ queues and workers closed.");
+      }
+      if (typeof closeRedisConnections === "function") {
+        await closeRedisConnections();
+        console.log("Redis connections closed.");
+      }
+    } catch (redisErr) {
+      console.error("Error closing Redis connections:", redisErr);
     }
 
     clearTimeout(forceExitTimeout);

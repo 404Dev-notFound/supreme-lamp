@@ -6,7 +6,39 @@ function getAllRoadmaps() {
 
 function getRoadmapBySlug(slug) {
   try {
-    return require(`./data/${slug}.json`);
+    const raw = require(`./data/${slug}.json`);
+    if (!raw) return null;
+
+    // Enforce unique node and edge identity preservation
+    let cleanNodes = raw.nodes;
+    if (Array.isArray(raw.nodes)) {
+      const seenNodeIds = new Set();
+      cleanNodes = [];
+      for (const node of raw.nodes) {
+        if (node?.id && !seenNodeIds.has(node.id)) {
+          seenNodeIds.add(node.id);
+          cleanNodes.push(node);
+        }
+      }
+    }
+
+    let cleanEdges = raw.edges;
+    if (Array.isArray(raw.edges)) {
+      const seenEdgeIds = new Set();
+      cleanEdges = [];
+      for (const edge of raw.edges) {
+        if (edge?.id && edge.source !== edge.target && !seenEdgeIds.has(edge.id)) {
+          seenEdgeIds.add(edge.id);
+          cleanEdges.push(edge);
+        }
+      }
+    }
+
+    return {
+      ...raw,
+      nodes: cleanNodes,
+      edges: cleanEdges,
+    };
   } catch (err) {
     return null;
   }

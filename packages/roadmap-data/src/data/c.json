@@ -388,16 +388,6 @@
       }
     },
     {
-      "id": "node-Iw6fn73v5n8Ru0zA-IJfP",
-      "label": "Common Data Structures",
-      "topicId": "Iw6fn73v5n8Ru0zA-IJfP",
-      "level": 4,
-      "position": {
-        "x": 600,
-        "y": 2000
-      }
-    },
-    {
       "id": "node-nMzRriI7nNECvHOofg5wb",
       "label": "Dangling Pointers",
       "topicId": "nMzRriI7nNECvHOofg5wb",
@@ -1314,16 +1304,6 @@
       "level": 4,
       "position": {
         "x": 340,
-        "y": 6960
-      }
-    },
-    {
-      "id": "node-fE1c9niOycVP6mb9VlVgS",
-      "label": "Typedef",
-      "topicId": "fE1c9niOycVP6mb9VlVgS",
-      "level": 4,
-      "position": {
-        "x": 600,
         "y": 6960
       }
     },

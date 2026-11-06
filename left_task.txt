@@ -1,0 +1,3 @@
+Remaining / Optional Enhancements:
+- Distributed multi-node Redis cluster deployment via Docker daemon (single-process resilient in-memory fallback is currently active, hardened, and verified with all tests passing).
+- Interactive in-browser compiler runner (e.g. Judge0 sandbox) for compiling and running DSA algorithms in isolated microVMs directly from the browser.

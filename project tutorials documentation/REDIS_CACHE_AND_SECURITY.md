@@ -90,3 +90,4 @@ All client inputs undergo schema validation before reaching the database:
 - All code snippets, objectives, instructions, and descriptions are rendered as structured React components with explicit escaping.
 - No raw `dangerouslySetInnerHTML` is used in tutorial rendering.
 - Markdown links in external resources are restricted to valid HTTP/HTTPS schemes with `target="_blank"` and `rel="noopener noreferrer"`.
+

@@ -1,4 +1,5 @@
 import { authApi } from "../api/auth";
+import { indexedDbStorage, STORES } from "@/lib/storage/indexedDbStorage";
 
 /**
  * Authentication Client Service
@@ -108,7 +109,23 @@ export const authService = {
    * Execute Logout request to revoke session
    */
   async signOut() {
-    return await authApi.logout();
+    try {
+      await authApi.logout();
+    } finally {
+      if (typeof window !== "undefined") {
+        indexedDbStorage.clear(STORES.USER_PROGRESS).catch(() => {});
+        try {
+          const keysToRemove = [];
+          for (let i = 0; i < localStorage.length; i++) {
+            const key = localStorage.key(i);
+            if (key && (key.startsWith("flowctrl_user_") || key.includes("progress") || key.includes("token"))) {
+              keysToRemove.push(key);
+            }
+          }
+          keysToRemove.forEach((k) => localStorage.removeItem(k));
+        } catch {}
+      }
+    }
   },
 
   /**

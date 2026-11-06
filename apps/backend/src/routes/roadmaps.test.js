@@ -52,23 +52,21 @@ test("Search filtering finds relevant roadmaps", () => {
   );
 });
 
-test("Roadmaps Service pins Premium Roadmaps at the top of the catalog", async () => {
+test("Roadmaps Service mixes Premium and Free Roadmaps throughout the catalog", async () => {
   const all = await roadmapsService.getAllRoadmaps();
   assert.ok(all.length >= 6, "Expected at least 6 roadmaps in total");
 
-  // First 6 entries must be pinned premium tracks
-  const topSix = all.slice(0, 6);
-  for (const track of topSix) {
+  // Premium tracks must be present and identified with PREMIUM badge
+  const premiumTracks = all.filter((r) => r.isPremium);
+  assert.ok(premiumTracks.length >= 6, "Expected at least 6 premium tracks");
+  for (const track of premiumTracks) {
     assert.equal(track.isPremium, true, `Track ${track.slug} should be premium`);
-    assert.equal(track.isPinned, true, `Track ${track.slug} should be pinned`);
     assert.equal(track.badge, "PREMIUM");
   }
 
-  // Follow-up entries should be non-pinned free roadmaps
-  const remainder = all.slice(6);
-  assert.ok(remainder.length > 0);
-  assert.equal(remainder[0].isPinned, false);
-  assert.equal(remainder[0].isPremium, false);
+  // Free tracks must also be present
+  const freeTracks = all.filter((r) => !r.isPremium);
+  assert.ok(freeTracks.length > 0, "Expected free tracks to be present");
 });
 
 test("Roadmaps Service category filtering supports 'premium'", async () => {
@@ -76,7 +74,7 @@ test("Roadmaps Service category filtering supports 'premium'", async () => {
   assert.ok(premiumTracks.length >= 6);
   for (const t of premiumTracks) {
     assert.equal(t.isPremium, true);
-    assert.equal(t.isPinned, true);
+    assert.equal(t.badge, "PREMIUM");
   }
 });
 

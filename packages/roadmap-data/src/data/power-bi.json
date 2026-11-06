@@ -318,16 +318,6 @@
       }
     },
     {
-      "id": "node-l-vk3xwURU8AOHoGlu0iT",
-      "label": "Context and Filtering",
-      "topicId": "l-vk3xwURU8AOHoGlu0iT",
-      "level": 4,
-      "position": {
-        "x": 340,
-        "y": 1680
-      }
-    },
-    {
       "id": "node-62ecBOZmKPo56zRGd6GIQ",
       "label": "Context Transition",
       "topicId": "62ecBOZmKPo56zRGd6GIQ",
@@ -654,16 +644,6 @@
       "level": 4,
       "position": {
         "x": 340,
-        "y": 3440
-      }
-    },
-    {
-      "id": "node-OSDmzLdt4rdVU2TFKazh1",
-      "label": "Formatting & Filtering",
-      "topicId": "OSDmzLdt4rdVU2TFKazh1",
-      "level": 4,
-      "position": {
-        "x": 600,
         "y": 3440
       }
     },
@@ -1124,16 +1104,6 @@
       "level": 4,
       "position": {
         "x": 80,
-        "y": 6000
-      }
-    },
-    {
-      "id": "node-rVwlH4DTClyXbTewOdmn3",
-      "label": "Publishing and Sharing",
-      "topicId": "rVwlH4DTClyXbTewOdmn3",
-      "level": 4,
-      "position": {
-        "x": 340,
         "y": 6000
       }
     },
@@ -1680,12 +1650,6 @@
       "animated": true
     },
     {
-      "id": "edge-node-l-vk3xwURU8AOHoGlu0iT-node-l-vk3xwURU8AOHoGlu0iT",
-      "source": "node-l-vk3xwURU8AOHoGlu0iT",
-      "target": "node-l-vk3xwURU8AOHoGlu0iT",
-      "animated": true
-    },
-    {
       "id": "edge-node-l-vk3xwURU8AOHoGlu0iT-node-62ecBOZmKPo56zRGd6GIQ",
       "source": "node-l-vk3xwURU8AOHoGlu0iT",
       "target": "node-62ecBOZmKPo56zRGd6GIQ",
@@ -2162,12 +2126,6 @@
     {
       "id": "edge-node-P1t4cTjmCHILyc6jkAHWH-node-rVwlH4DTClyXbTewOdmn3",
       "source": "node-P1t4cTjmCHILyc6jkAHWH",
-      "target": "node-rVwlH4DTClyXbTewOdmn3",
-      "animated": true
-    },
-    {
-      "id": "edge-node-rVwlH4DTClyXbTewOdmn3-node-rVwlH4DTClyXbTewOdmn3",
-      "source": "node-rVwlH4DTClyXbTewOdmn3",
       "target": "node-rVwlH4DTClyXbTewOdmn3",
       "animated": true
     },

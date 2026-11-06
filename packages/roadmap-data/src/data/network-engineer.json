@@ -18,16 +18,6 @@
       }
     },
     {
-      "id": "node-x1B9MVsG_C-CejgLAeTzA",
-      "label": "Access Points",
-      "topicId": "x1B9MVsG_C-CejgLAeTzA",
-      "level": 1,
-      "position": {
-        "x": 340,
-        "y": 80
-      }
-    },
-    {
       "id": "node-XPOTGRx3lpaHHNlzlMTPq",
       "label": "Access Points",
       "topicId": "XPOTGRx3lpaHHNlzlMTPq",
@@ -155,16 +145,6 @@
       "position": {
         "x": 600,
         "y": 720
-      }
-    },
-    {
-      "id": "node-VdAObqd1uue--xbej2M-f",
-      "label": "Bluetooth Basics",
-      "topicId": "VdAObqd1uue--xbej2M-f",
-      "level": 3,
-      "position": {
-        "x": 80,
-        "y": 880
       }
     },
     {
@@ -335,16 +315,6 @@
       "position": {
         "x": 600,
         "y": 1680
-      }
-    },
-    {
-      "id": "node-aorLjhyk7VjFTWgV19uRf",
-      "label": "Common Network Issues",
-      "topicId": "aorLjhyk7VjFTWgV19uRf",
-      "level": 4,
-      "position": {
-        "x": 80,
-        "y": 1840
       }
     },
     {
@@ -884,16 +854,6 @@
       "level": 4,
       "position": {
         "x": 80,
-        "y": 4720
-      }
-    },
-    {
-      "id": "node-WjhKYOnKJx3HSbDxtwAS0",
-      "label": "Troubleshooting Methodologies",
-      "topicId": "WjhKYOnKJx3HSbDxtwAS0",
-      "level": 4,
-      "position": {
-        "x": 340,
         "y": 4720
       }
     },
@@ -1848,16 +1808,6 @@
       }
     },
     {
-      "id": "node-WHYQSWWe4mKUl7OC9thyF",
-      "label": "VPNs",
-      "topicId": "WHYQSWWe4mKUl7OC9thyF",
-      "level": 4,
-      "position": {
-        "x": 340,
-        "y": 9840
-      }
-    },
-    {
       "id": "node-dwqMxvPbs-s2c6sgoPz-s",
       "label": "VRFs",
       "topicId": "dwqMxvPbs-s2c6sgoPz-s",
@@ -2020,12 +1970,6 @@
   ],
   "edges": [
     {
-      "id": "edge-node-x1B9MVsG_C-CejgLAeTzA-node-x1B9MVsG_C-CejgLAeTzA",
-      "source": "node-x1B9MVsG_C-CejgLAeTzA",
-      "target": "node-x1B9MVsG_C-CejgLAeTzA",
-      "animated": true
-    },
-    {
       "id": "edge-node-x1B9MVsG_C-CejgLAeTzA-node-XPOTGRx3lpaHHNlzlMTPq",
       "source": "node-x1B9MVsG_C-CejgLAeTzA",
       "target": "node-XPOTGRx3lpaHHNlzlMTPq",
@@ -2100,12 +2044,6 @@
     {
       "id": "edge-node-gCdUfkMlZwamhOpM5aUqr-node-VdAObqd1uue--xbej2M-f",
       "source": "node-gCdUfkMlZwamhOpM5aUqr",
-      "target": "node-VdAObqd1uue--xbej2M-f",
-      "animated": true
-    },
-    {
-      "id": "edge-node-VdAObqd1uue--xbej2M-f-node-VdAObqd1uue--xbej2M-f",
-      "source": "node-VdAObqd1uue--xbej2M-f",
       "target": "node-VdAObqd1uue--xbej2M-f",
       "animated": true
     },
@@ -2208,12 +2146,6 @@
     {
       "id": "edge-node-ltBgGfY9KOS87dPUs476I-node-aorLjhyk7VjFTWgV19uRf",
       "source": "node-ltBgGfY9KOS87dPUs476I",
-      "target": "node-aorLjhyk7VjFTWgV19uRf",
-      "animated": true
-    },
-    {
-      "id": "edge-node-aorLjhyk7VjFTWgV19uRf-node-aorLjhyk7VjFTWgV19uRf",
-      "source": "node-aorLjhyk7VjFTWgV19uRf",
       "target": "node-aorLjhyk7VjFTWgV19uRf",
       "animated": true
     },
@@ -2538,12 +2470,6 @@
     {
       "id": "edge-node-usgE8mpRUSLMRv7d0kXy3-node-WjhKYOnKJx3HSbDxtwAS0",
       "source": "node-usgE8mpRUSLMRv7d0kXy3",
-      "target": "node-WjhKYOnKJx3HSbDxtwAS0",
-      "animated": true
-    },
-    {
-      "id": "edge-node-WjhKYOnKJx3HSbDxtwAS0-node-WjhKYOnKJx3HSbDxtwAS0",
-      "source": "node-WjhKYOnKJx3HSbDxtwAS0",
       "target": "node-WjhKYOnKJx3HSbDxtwAS0",
       "animated": true
     },

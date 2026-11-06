@@ -316,7 +316,7 @@ export default function Footer() {
               <span>
                 {isResourcesExpanded
                   ? "Collapse Resources"
-                  : "Explore All 53 Resources"}
+                  : `Explore All ${allResources.length} Technologies & Resources`}
               </span>
               {isResourcesExpanded ? (
                 <ChevronUp className="w-4 h-4 text-amber-400" />
@@ -441,6 +441,16 @@ export default function Footer() {
                 {DEVELOPER_INFO.name}
               </a>
             </div>
+            <span className="hidden sm:inline text-zinc-500">|</span>
+            <a
+              href="https://opensource-projects.netlify.app/#terms"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-zinc-400 hover:text-orange-400 transition-colors flex items-center gap-1"
+            >
+              <span>Terms &amp; Conditions</span>
+              <ExternalLink className="w-3 h-3 opacity-60" />
+            </a>
           </div>
 
           <div className="flex items-center gap-4 text-zinc-300">

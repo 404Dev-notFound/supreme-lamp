@@ -19,12 +19,15 @@ const { mentorsRouter } = require("./routes/mentors.routes");
 const { resumesRouter } = require("./routes/resumes.routes");
 const { catalogRouter } = require("./routes/catalog.routes");
 const { notificationsRouter } = require("./routes/notifications.routes");
+const { announcementsRouter } = require("./routes/announcements.routes");
 const { membershipRouter } = require("./routes/membership.routes");
 const { premiumResourcesRouter } = require("./routes/premiumResources.routes");
 const { adminRouter } = require("./routes/admin.routes");
 const { gatewayRouter } = require("./routes/gateway.routes");
 const { ragRouter } = require("./routes/rag.routes");
 const { projectTutorialsRouter } = require("./routes/projectTutorials.routes");
+const { dsaRouter } = require("./routes/dsa.routes");
+const { coursesRouter } = require("./routes/courses.routes");
 const { csrfProtection } = require("./middleware/csrf");
 const { requireAuth, requireRole } = require("./middleware/auth.middleware");
 const {
@@ -54,6 +57,9 @@ app.set("trust proxy", 1);
 
 // 2. Disable X-Powered-By header to prevent technology fingerprinting
 app.disable("x-powered-by");
+
+// Enable strong ETag generation for conditional caching and 304 Not Modified negotiation
+app.set("etag", "strong");
 
 // 3. Request ID & Request Timing Middleware for distributed tracing & metrics
 app.use(requestIdMiddleware);
@@ -127,6 +133,15 @@ app.use(
       "x-requested-with",
       "x-test-rate-limit",
       "x-request-id",
+      "If-None-Match",
+      "If-Modified-Since",
+      "Cache-Control",
+    ],
+    exposedHeaders: [
+      "ETag",
+      "Content-Length",
+      "x-request-id",
+      "x-response-time",
     ],
     maxAge: 86400, // 24 hours preflight cache
   }),
@@ -181,14 +196,16 @@ app.get("/health", handleHealth);
 app.get("/api/health", handleHealth);
 
 // Dedicated Redis Observability & Cache Health Diagnostic Route
-app.get("/api/health/redis", async (req, res) => {
+const handleRedisHealth = async (req, res) => {
   res.setHeader("Cache-Control", "no-store, max-age=0");
   const report = await getRedisHealthReport();
   return res.status(200).json({
     success: true,
     data: report,
   });
-});
+};
+app.get("/api/health/redis", handleRedisHealth);
+app.get("/api/redis/health", handleRedisHealth);
 
 // 15. Readiness Probe (checks database connection)
 const handleReady = async (req, res) => {
@@ -267,6 +284,7 @@ app.use("/api/resources", premiumResourcesRouter);
 
 // 27. Notifications Routes
 app.use("/api/notifications", notificationsRouter);
+app.use("/api/announcements", announcementsRouter);
 
 // 28. Admin Management Routes
 app.use("/api/admin", adminRouter);
@@ -279,6 +297,12 @@ app.use("/api/rag", ragRouter);
 
 // 31. Project-Building Tutorials Discovery & Progress Routes
 app.use("/api/project-tutorials", projectTutorialsRouter);
+
+// 32. Data Structures & Algorithms (DSA) Knowledge Engine
+app.use("/api/dsa", dsaRouter);
+
+// 33. Premium Engineering Courses & Syllabi
+app.use("/api/courses", coursesRouter);
 
 // 31. Protected Mission Control Dashboard Route
 app.get("/api/dashboard", requireAuth, (req, res) => {

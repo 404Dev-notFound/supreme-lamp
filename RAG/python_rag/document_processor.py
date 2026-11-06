@@ -51,6 +51,9 @@ class DocumentProcessor:
         # 4. Load roadmap-data JSONs (curated subset to prevent token explosion)
         docs.extend(self._load_roadmap_data())
 
+        # 5. Load Project-Building Tutorials catalog
+        docs.extend(self._load_project_tutorials())
+
         return docs
 
     def _load_domain_curricula(self) -> List[Document]:
@@ -140,7 +143,7 @@ class DocumentProcessor:
             try:
                 with open(cp_file, "r", encoding="utf-8") as f:
                     data = json.load(f)
-                paths = data.get("careerPaths", [])
+                paths = data if isinstance(data, list) else data.get("careerPaths", [])
                 for cp in paths:
                     title = clean_text(cp.get("title", ""))
                     desc = clean_text(cp.get("description", ""))
@@ -171,7 +174,7 @@ class DocumentProcessor:
             try:
                 with open(comp_file, "r", encoding="utf-8") as f:
                     data = json.load(f)
-                profiles = data.get("companyProfiles", [])
+                profiles = data if isinstance(data, list) else data.get("companyProfiles", [])
                 for comp in profiles:
                     type_name = clean_text(comp.get("type", ""))
                     desc = clean_text(comp.get("description", ""))
@@ -206,7 +209,7 @@ class DocumentProcessor:
         try:
             with open(res_file, "r", encoding="utf-8") as f:
                 data = json.load(f)
-            resources = data.get("resources", [])
+            resources = data if isinstance(data, list) else data.get("resources", [])
             for res in resources:
                 topic = clean_text(res.get("topic", ""))
                 title = clean_text(res.get("title", ""))
@@ -286,5 +289,64 @@ class DocumentProcessor:
                     ))
             except Exception as e:
                 print(f"[DocumentProcessor] Error loading roadmap {r_name}: {e}")
+
+        return docs
+
+    def _load_project_tutorials(self) -> List[Document]:
+        docs: List[Document] = []
+        projects_file = Path(__file__).resolve().parent.parent.parent / "data" / "unified_projects.json"
+        if not projects_file.exists():
+            return docs
+
+        try:
+            with open(projects_file, "r", encoding="utf-8") as f:
+                projects = json.load(f)
+
+            for p in projects:
+                title = clean_text(p.get("title", ""))
+                slug = p.get("slug", "")
+                desc = clean_text(p.get("description", ""))
+                lang = p.get("language", "")
+                diff = p.get("difficulty", "Intermediate")
+                p_type = clean_text(p.get("projectType", "Tutorial"))
+                tut_url = p.get("tutorialUrl", "")
+                git_url = p.get("githubUrl", "")
+                sources = p.get("sourceRepositories", [])
+                what_build = clean_text(p.get("whatYouWillBuild", ""))
+                outcomes = p.get("learningOutcomes", [])
+                steps = p.get("steps", [])
+
+                step_text = ""
+                if steps:
+                    step_text = "\n**Steps:**\n" + "\n".join([f"- Step {s.get('stepNumber')}: {s.get('title')}" for s in steps[:5]])
+
+                content = (
+                    f"### Project Tutorial: {title}\n"
+                    f"**Category:** {p_type} | **Language:** {lang} | **Difficulty:** {diff}\n"
+                    f"**Summary:** {desc}\n"
+                    f"**What You Will Build:** {what_build if what_build else desc}\n"
+                    f"**Source URL:** {tut_url or git_url}\n"
+                    f"**GitHub:** {git_url}\n"
+                    f"**Learning Outcomes:** {', '.join(outcomes) if outcomes else 'Hands-on system implementation'}\n"
+                    f"{step_text}"
+                )
+
+                docs.append(Document(
+                    page_content=content,
+                    metadata={
+                        "id": f"tutorial_{slug[:40]}",
+                        "title": title,
+                        "slug": slug,
+                        "type": "project_tutorial",
+                        "category": p_type,
+                        "language": lang,
+                        "difficulty": diff,
+                        "url": tut_url or git_url,
+                        "githubUrl": git_url,
+                        "sourceRepositories": sources,
+                    },
+                ))
+        except Exception as e:
+            print(f"[DocumentProcessor] Error loading project tutorials: {e}")
 
         return docs

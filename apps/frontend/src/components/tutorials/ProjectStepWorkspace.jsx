@@ -13,7 +13,18 @@ import {
   HelpCircle,
   ExternalLink,
   BookOpen,
+  Play,
+  FolderGit2,
+  Layers,
+  ShieldAlert,
+  Globe,
 } from "lucide-react";
+
+function extractYouTubeId(url) {
+  if (!url || typeof url !== "string") return null;
+  const match = url.match(/(?:youtu\.be\/|youtube\.com\/(?:embed\/|v\/|watch\?v=|watch\?.+&v=))([\w-]{11})/i);
+  return match ? match[1] : null;
+}
 
 export default function ProjectStepWorkspace({
   project,
@@ -33,9 +44,124 @@ export default function ProjectStepWorkspace({
   const [copied, setCopied] = useState(false);
 
   if (!steps || steps.length === 0) {
+    const fallbackVideoId =
+      extractYouTubeId(project?.tutorialUrl) ||
+      extractYouTubeId(project?.videoUrl) ||
+      (project?.resources &&
+        project.resources
+          .map((r) => extractYouTubeId(r.url))
+          .find(Boolean));
+
+    const tutorialLink = project?.tutorialUrl || project?.resources?.[0]?.url;
+    const githubLink = project?.githubUrl || project?.sourceRepo || (project?.sourceRepositories && project.sourceRepositories[0]);
+
     return (
-      <div className="p-12 text-center rounded-2xl glass-card border border-white/10 text-zinc-400">
-        No step instructions are currently available for this project.
+      <div className="space-y-8">
+        <div className="p-8 md:p-12 rounded-3xl glass-card border border-white/10 bg-zinc-950/70 relative overflow-hidden">
+          <div className="absolute top-0 right-0 w-96 h-96 bg-orange-500/10 rounded-full blur-[100px] pointer-events-none" />
+
+          <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-amber-400 mb-3">
+            <ShieldAlert className="w-4 h-4" />
+            Step-by-Step Breakdown Unavailable
+          </div>
+
+          <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-zinc-100 mb-4">
+            Curated First-Principles Build Guide
+          </h2>
+
+          <p className="text-zinc-300 text-sm md:text-base leading-relaxed max-w-3xl mb-8">
+            This project tutorial does not yet have decomposed, interactive milestone steps in flowCTRL. We strictly preserve engineering integrity and do not generate fabricated or unverified instructions. You can build this project directly using the verified source repository, original guide, and documentation below.
+          </p>
+
+          {/* Primary Quick Links */}
+          <div className="flex flex-wrap items-center gap-3 mb-8">
+            {tutorialLink && (
+              <a
+                href={tutorialLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-orange-500 text-black font-semibold text-xs hover:bg-orange-400 transition-all shadow-lg shadow-orange-500/20"
+              >
+                <BookOpen className="w-4 h-4" />
+                Open Verified Original Tutorial
+                <ExternalLink className="w-3.5 h-3.5" />
+              </a>
+            )}
+
+            {githubLink && (
+              <a
+                href={githubLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-white/10 hover:bg-white/15 text-zinc-100 font-semibold text-xs border border-white/10 transition-all"
+              >
+                <FolderGit2 className="w-4 h-4" />
+                View GitHub Repository
+                <ExternalLink className="w-3.5 h-3.5" />
+              </a>
+            )}
+          </div>
+
+          {/* Playable YouTube Video Embed if available */}
+          {fallbackVideoId && (
+            <div className="rounded-2xl overflow-hidden border border-white/10 bg-black shadow-2xl mb-8">
+              <div className="p-3 bg-zinc-900/80 border-b border-white/10 flex items-center justify-between text-xs text-zinc-300">
+                <div className="flex items-center gap-2 font-medium">
+                  <Play className="w-4 h-4 fill-red-500 text-red-500" />
+                  <span>Interactive Video Walkthrough</span>
+                </div>
+                <a
+                  href={`https://www.youtube.com/watch?v=${fallbackVideoId}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-orange-400 hover:underline flex items-center gap-1 font-semibold"
+                >
+                  Watch on YouTube <ExternalLink className="w-3 h-3" />
+                </a>
+              </div>
+              <div className="aspect-video w-full bg-black">
+                <iframe
+                  src={`https://www.youtube-nocookie.com/embed/${fallbackVideoId}?rel=0`}
+                  title="Tutorial Video Walkthrough"
+                  className="w-full h-full"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                />
+              </div>
+            </div>
+          )}
+
+          {/* Verified Resources Checklist */}
+          {project?.resources && project.resources.length > 0 && (
+            <div className="pt-6 border-t border-white/10">
+              <h4 className="text-sm font-semibold text-zinc-200 mb-3 flex items-center gap-2">
+                <Globe className="w-4 h-4 text-cyan-400" />
+                Verified Reference Links
+              </h4>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                {project.resources.map((res) => (
+                  <a
+                    key={res.id}
+                    href={res.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="p-3.5 rounded-xl bg-white/[0.02] hover:bg-white/[0.05] border border-white/5 hover:border-orange-500/30 transition-all flex items-center justify-between gap-3 text-xs group"
+                  >
+                    <div>
+                      <div className="font-semibold text-zinc-200 group-hover:text-orange-400 transition-colors">
+                        {res.title}
+                      </div>
+                      <span className="text-[10px] text-zinc-500 font-mono">
+                        {res.resourceType.replace(/_/g, " ")}
+                      </span>
+                    </div>
+                    <ExternalLink className="w-3.5 h-3.5 text-zinc-500 group-hover:text-zinc-200 transition-colors shrink-0" />
+                  </a>
+                ))}
+              </div>
+            </div>
+          )}
+        </div>
       </div>
     );
   }
@@ -44,6 +170,12 @@ export default function ProjectStepWorkspace({
   const isCurrentStepCompleted = completedStepIds.has(currentStep.id);
   const isLastStep = activeStepIndex === steps.length - 1;
   const isFirstStep = activeStepIndex === 0;
+
+  const stepVideoId = extractYouTubeId(
+    currentStep.videoUrl ||
+    currentStep.youtubeUrl ||
+    (project?.tutorialUrl && project.tutorialUrl.includes("youtu") ? project.tutorialUrl : null)
+  );
 
   const handleCopyCode = (text) => {
     if (!text) return;
@@ -186,6 +318,35 @@ export default function ProjectStepWorkspace({
           </div>
         )}
 
+        {/* Video Tutorial Walkthrough (if YouTube) */}
+        {stepVideoId && (
+          <div className="mb-8 rounded-2xl overflow-hidden border border-white/10 bg-zinc-950/80 shadow-xl">
+            <div className="p-3 border-b border-white/10 flex items-center justify-between text-xs text-zinc-300 bg-zinc-900/60">
+              <div className="flex items-center gap-2">
+                <Play className="w-4 h-4 fill-red-500 text-red-500" />
+                <span className="font-semibold text-zinc-200">Video Walkthrough</span>
+              </div>
+              <a
+                href={`https://www.youtube.com/watch?v=${stepVideoId}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-orange-400 hover:underline flex items-center gap-1 font-medium"
+              >
+                Open on YouTube <ExternalLink className="w-3 h-3" />
+              </a>
+            </div>
+            <div className="aspect-video w-full bg-black">
+              <iframe
+                src={`https://www.youtube-nocookie.com/embed/${stepVideoId}?rel=0`}
+                title="Step Video Walkthrough"
+                className="w-full h-full"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
+            </div>
+          </div>
+        )}
+
         {/* Detailed Implementation Guidance */}
         <div className="mb-8">
           <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-zinc-400 mb-3">
@@ -296,3 +457,4 @@ export default function ProjectStepWorkspace({
     </div>
   );
 }
+

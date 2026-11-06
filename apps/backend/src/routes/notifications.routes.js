@@ -1,10 +1,14 @@
 const { Router } = require("express");
 const notificationsController = require("../controllers/notifications.controller");
+const announcementsController = require("../controllers/announcements.controller");
 const { requireAuth } = require("../middleware/auth.middleware");
 
 const router = Router();
 
-// GET /api/notifications - List user's notifications
+// GET /api/notifications/announcements - List platform notifications & announcements (Public)
+router.get("/announcements", announcementsController.listAnnouncements);
+
+// GET /api/notifications - List user's notifications (Private)
 router.get("/", requireAuth, notificationsController.listNotifications);
 
 // POST /api/notifications/mark-all-read - Mark all as read

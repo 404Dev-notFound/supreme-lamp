@@ -23,7 +23,20 @@ export default function DevRoadmapGraph({
   const [searchQuery, setSearchQuery] = useState("");
   const [viewMode, setViewMode] = useState("graph");
 
-  const nodes = useMemo(() => roadmap?.nodes || [], [roadmap?.nodes]);
+  // Enforce unique node identity and prevent duplicate-key errors
+  const nodes = useMemo(() => {
+    if (!roadmap?.nodes || !Array.isArray(roadmap.nodes)) return [];
+    const seenNodeIds = new Set();
+    const uniqueNodes = [];
+    for (const node of roadmap.nodes) {
+      if (node?.id && !seenNodeIds.has(node.id)) {
+        seenNodeIds.add(node.id);
+        uniqueNodes.push(node);
+      }
+    }
+    return uniqueNodes;
+  }, [roadmap?.nodes]);
+
   const topicsMap = useMemo(() => roadmap?.topics || {}, [roadmap?.topics]);
 
   const filteredNodes = useMemo(() => {

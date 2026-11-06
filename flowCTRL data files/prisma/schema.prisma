@@ -88,6 +88,10 @@ model User {
   membershipHistory      MembershipHistory[]
   membershipTransactions MembershipTransaction[]
 
+  // Project-Building Tutorials Relations
+  projectProgress        UserProjectProgress[]
+  projectBookmarks       ProjectBookmark[]
+
   @@index([email])
   @@index([role])
   @@index([status])
@@ -754,4 +758,170 @@ model PremiumResource {
   @@index([categorySlug])
 }
 
+// ==========================================
+// 10. PROJECT-BUILDING TUTORIALS
+// ==========================================
+
+model ProjectTutorialCategory {
+  id          String   @id @default(cuid())
+  slug        String   @unique
+  name        String
+  description String?  @db.Text
+  icon        String?  @default("FolderGit2")
+  sortOrder   Int      @default(0)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  tutorials   ProjectTutorial[]
+
+  @@index([slug])
+}
+
+model ProjectTutorial {
+  id                    String   @id @default(cuid())
+  slug                  String   @unique
+  title                 String
+  description           String   @db.Text
+  categorySlug          String
+  categoryId            String?
+  language              String
+  languages             String[]
+  difficulty            String   @default("Intermediate") // Beginner, Intermediate, Advanced
+  estimatedHours        Int?     @default(15)
+  whatYouWillBuild      String?  @db.Text
+  whyBuildThis          String?  @db.Text
+  realWorldApplications String?  @db.Text
+  expectedOutcome       String?  @db.Text
+  prerequisites         String[]
+  technologies          String[]
+  toolsRequired         String[]
+  learningOutcomes      String[]
+  projectType           String   @default("TUTORIAL") // TUTORIAL, PROJECT_IDEA, EXERCISE, IMPLEMENTATION_GUIDE
+  tutorialUrl           String?
+  githubUrl             String?
+  sourceRepositories    String[] @default([])
+  sourceRepo            String?  @default("https://github.com/codecrafters-io/build-your-own-x")
+  sourceAuthor          String?
+  sourceLicense         String?  @default("CC0-1.0")
+  isPublished           Boolean  @default(true)
+  isFeatured            Boolean  @default(false)
+  sortOrder             Int      @default(0)
+  createdAt             DateTime @default(now())
+  updatedAt             DateTime @updatedAt
+
+  category              ProjectTutorialCategory? @relation(fields: [categoryId], references: [id], onDelete: SetNull)
+  steps                 ProjectStep[]
+  resources             ProjectResource[]
+  userProgress          UserProjectProgress[]
+  bookmarks             ProjectBookmark[]
+
+  @@index([slug])
+  @@index([categorySlug])
+  @@index([language])
+  @@index([difficulty])
+  @@index([isPublished])
+  @@index([isFeatured])
+  @@index([projectType])
+}
+
+model ProjectStep {
+  id                String   @id @default(cuid())
+  projectTutorialId String
+  stepNumber        Int
+  title             String
+  objective         String?  @db.Text
+  whyNecessary      String?  @db.Text
+  content           String   @db.Text
+  codeSnippet       String?  @db.Text
+  codeLanguage      String?
+  concepts          String[]
+  referenceUrls     String[]
+  expectedResult    String?  @db.Text
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
+
+  project           ProjectTutorial           @relation(fields: [projectTutorialId], references: [id], onDelete: Cascade)
+  stepProgress      UserProjectStepProgress[]
+
+  @@unique([projectTutorialId, stepNumber])
+  @@index([projectTutorialId])
+  @@index([stepNumber])
+}
+
+model ProjectResource {
+  id                String   @id @default(cuid())
+  projectTutorialId String
+  title             String
+  url               String
+  resourceType      String   @default("ORIGINAL_TUTORIAL") // ORIGINAL_TUTORIAL, GITHUB_REPO, OFFICIAL_DOCS, SPECIFICATION, VIDEO, ARTICLE
+  description       String?  @db.Text
+  author            String?
+  isVerified        Boolean  @default(true)
+  sortOrder         Int      @default(0)
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
+
+  project           ProjectTutorial @relation(fields: [projectTutorialId], references: [id], onDelete: Cascade)
+
+  @@index([projectTutorialId])
+  @@index([resourceType])
+}
+
+model UserProjectProgress {
+  id                 String    @id @default(cuid())
+  userId             String
+  projectTutorialId  String
+  status             String    @default("IN_PROGRESS") // NOT_STARTED, IN_PROGRESS, COMPLETED
+  currentStepNumber  Int       @default(1)
+  completedStepCount Int       @default(0)
+  totalStepCount     Int       @default(0)
+  progressPercent    Int       @default(0)
+  startedAt          DateTime  @default(now())
+  completedAt        DateTime?
+  lastActivityAt     DateTime  @default(now())
+  createdAt          DateTime  @default(now())
+  updatedAt          DateTime  @updatedAt
+
+  user               User                      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  project            ProjectTutorial           @relation(fields: [projectTutorialId], references: [id], onDelete: Cascade)
+  stepProgress       UserProjectStepProgress[]
+
+  @@unique([userId, projectTutorialId])
+  @@index([userId])
+  @@index([projectTutorialId])
+  @@index([status])
+}
+
+model UserProjectStepProgress {
+  id             String    @id @default(cuid())
+  userProgressId String
+  projectStepId  String
+  isCompleted    Boolean   @default(false)
+  completedAt    DateTime?
+  notes          String?   @db.Text
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
+
+  userProgress   UserProjectProgress @relation(fields: [userProgressId], references: [id], onDelete: Cascade)
+  step           ProjectStep         @relation(fields: [projectStepId], references: [id], onDelete: Cascade)
+
+  @@unique([userProgressId, projectStepId])
+  @@index([userProgressId])
+  @@index([projectStepId])
+  @@index([isCompleted])
+}
+
+model ProjectBookmark {
+  id                String   @id @default(cuid())
+  userId            String
+  projectTutorialId String
+  createdAt         DateTime @default(now())
+
+  user              User            @relation(fields: [userId], references: [id], onDelete: Cascade)
+  project           ProjectTutorial @relation(fields: [projectTutorialId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, projectTutorialId])
+  @@index([userId])
+  @@index([projectTutorialId])
+}
 

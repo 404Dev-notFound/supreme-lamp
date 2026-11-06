@@ -998,16 +998,6 @@
       }
     },
     {
-      "id": "node-P4st_telfCwKLSAU2WsQP",
-      "label": "SvelteKit",
-      "topicId": "P4st_telfCwKLSAU2WsQP",
-      "level": 4,
-      "position": {
-        "x": 80,
-        "y": 5360
-      }
-    },
-    {
       "id": "node-h26uS3muFCabe6ekElZcI",
       "label": "SWC (Speedy Web Compiler)",
       "topicId": "h26uS3muFCabe6ekElZcI",

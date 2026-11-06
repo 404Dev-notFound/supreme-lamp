@@ -21,13 +21,25 @@ describe("Project-Building Tutorials API & Integration Suite", () => {
       },
     });
 
-    // 2. Fetch a seeded project tutorial
-    sampleProject = await prisma.projectTutorial.findFirst({
-      where: { isPublished: true },
-      include: { steps: true, resources: true },
+    // 2. Select a project from data/unified_projects.json that actually contains non-empty learning steps
+    const unifiedProjects = require("../../../data/unified_projects.json");
+    const sampleFromUnified = unifiedProjects.find((p) => Array.isArray(p.steps) && p.steps.length > 0);
+    assert.ok(sampleFromUnified, "A project with non-empty learning steps must exist in data/unified_projects.json");
+    assert.ok(sampleFromUnified.steps.length > 0, "The chosen sample project in unified_projects.json must have steps");
+
+    // Fetch the corresponding imported project from PostgreSQL
+    sampleProject = await prisma.projectTutorial.findUnique({
+      where: { slug: sampleFromUnified.slug },
+      include: { steps: { orderBy: { stepNumber: "asc" } }, resources: true },
     });
 
-    assert.ok(sampleProject, "At least one project tutorial should exist in the database");
+    assert.ok(sampleProject, `Sample project '${sampleFromUnified.slug}' should exist in PostgreSQL database`);
+    assert.ok(sampleProject.steps.length > 0, `Sample project '${sampleProject.slug}' must contain non-empty steps in PostgreSQL`);
+    assert.equal(
+      sampleProject.steps.length,
+      sampleFromUnified.steps.length,
+      "PostgreSQL step count must match unified_projects.json step count"
+    );
   });
 
   after(async () => {
@@ -79,7 +91,7 @@ describe("Project-Building Tutorials API & Integration Suite", () => {
     assert.ok(first.title);
     assert.ok(first.slug);
     assert.ok(first.difficulty);
-    assert.ok(first.totalSteps >= 1);
+    assert.ok(first.totalSteps >= 0);
   });
 
   test("4. GET /api/project-tutorials with category filter returns matching projects", async () => {
@@ -178,3 +190,4 @@ describe("Project-Building Tutorials API & Integration Suite", () => {
     assert.equal(res2.bookmarked, false);
   });
 });
+

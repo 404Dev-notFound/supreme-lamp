@@ -88,16 +88,6 @@
       }
     },
     {
-      "id": "node-_nL7Wf1MG3mofKY9XwGDX",
-      "label": "APIs Design",
-      "topicId": "_nL7Wf1MG3mofKY9XwGDX",
-      "level": 2,
-      "position": {
-        "x": 600,
-        "y": 400
-      }
-    },
-    {
       "id": "node-jHqnzz31kPThHr2Evq9rl",
       "label": "Authentication",
       "topicId": "jHqnzz31kPThHr2Evq9rl",
@@ -374,16 +364,6 @@
       "level": 4,
       "position": {
         "x": 80,
-        "y": 2000
-      }
-    },
-    {
-      "id": "node-aqrK4e6B8LFvFimKoqCNF",
-      "label": "Data Structures & Algorithms",
-      "topicId": "aqrK4e6B8LFvFimKoqCNF",
-      "level": 4,
-      "position": {
-        "x": 340,
         "y": 2000
       }
     },
@@ -984,16 +964,6 @@
       "level": 4,
       "position": {
         "x": 340,
-        "y": 5200
-      }
-    },
-    {
-      "id": "node-414WIX6TuK2h1jEtzRG2H",
-      "label": "From X to FDE",
-      "topicId": "414WIX6TuK2h1jEtzRG2H",
-      "level": 4,
-      "position": {
-        "x": 600,
         "y": 5200
       }
     }

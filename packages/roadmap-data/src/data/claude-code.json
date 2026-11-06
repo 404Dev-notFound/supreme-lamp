@@ -98,16 +98,6 @@
       }
     },
     {
-      "id": "node-FgQXBQ6oJ5sfW_ar0u6ez",
-      "label": "claude --add-dir",
-      "topicId": "FgQXBQ6oJ5sfW_ar0u6ez",
-      "level": 3,
-      "position": {
-        "x": 80,
-        "y": 560
-      }
-    },
-    {
       "id": "node-XlCA3rx2C7wx_EcTYtr9_",
       "label": "claude -c",
       "topicId": "XlCA3rx2C7wx_EcTYtr9_",
@@ -788,16 +778,6 @@
       }
     },
     {
-      "id": "node-Dam_IG339RrYZXjXq3T8_",
-      "label": "Prompt Caching",
-      "topicId": "Dam_IG339RrYZXjXq3T8_",
-      "level": 4,
-      "position": {
-        "x": 80,
-        "y": 4240
-      }
-    },
-    {
       "id": "node-0HKJlqhoSCMNKf1lRIEy1",
       "label": "Resume Conversations",
       "topicId": "0HKJlqhoSCMNKf1lRIEy1",
@@ -905,16 +885,6 @@
       "position": {
         "x": 600,
         "y": 4720
-      }
-    },
-    {
-      "id": "node-5uIBv9rk7Wzc_bXny0B27",
-      "label": "Skill Best Practices",
-      "topicId": "5uIBv9rk7Wzc_bXny0B27",
-      "level": 4,
-      "position": {
-        "x": 80,
-        "y": 4880
       }
     },
     {
@@ -1085,16 +1055,6 @@
       "position": {
         "x": 600,
         "y": 5680
-      }
-    },
-    {
-      "id": "node-YjRDJcSK_h82DooDWY2k4",
-      "label": "Use /compact and /clear",
-      "topicId": "YjRDJcSK_h82DooDWY2k4",
-      "level": 4,
-      "position": {
-        "x": 80,
-        "y": 5840
       }
     },
     {
@@ -1632,12 +1592,6 @@
       "animated": true
     },
     {
-      "id": "edge-node-Dam_IG339RrYZXjXq3T8_-node-Dam_IG339RrYZXjXq3T8_",
-      "source": "node-Dam_IG339RrYZXjXq3T8_",
-      "target": "node-Dam_IG339RrYZXjXq3T8_",
-      "animated": true
-    },
-    {
       "id": "edge-node-Dam_IG339RrYZXjXq3T8_-node-0HKJlqhoSCMNKf1lRIEy1",
       "source": "node-Dam_IG339RrYZXjXq3T8_",
       "target": "node-0HKJlqhoSCMNKf1lRIEy1",
@@ -1700,12 +1654,6 @@
     {
       "id": "edge-node-gpg2cfEUUKI5J9FMxn5QD-node-5uIBv9rk7Wzc_bXny0B27",
       "source": "node-gpg2cfEUUKI5J9FMxn5QD",
-      "target": "node-5uIBv9rk7Wzc_bXny0B27",
-      "animated": true
-    },
-    {
-      "id": "edge-node-5uIBv9rk7Wzc_bXny0B27-node-5uIBv9rk7Wzc_bXny0B27",
-      "source": "node-5uIBv9rk7Wzc_bXny0B27",
       "target": "node-5uIBv9rk7Wzc_bXny0B27",
       "animated": true
     },
@@ -1808,12 +1756,6 @@
     {
       "id": "edge-node-CPJulmusiWq3JQ6MmEJ0I-node-YjRDJcSK_h82DooDWY2k4",
       "source": "node-CPJulmusiWq3JQ6MmEJ0I",
-      "target": "node-YjRDJcSK_h82DooDWY2k4",
-      "animated": true
-    },
-    {
-      "id": "edge-node-YjRDJcSK_h82DooDWY2k4-node-YjRDJcSK_h82DooDWY2k4",
-      "source": "node-YjRDJcSK_h82DooDWY2k4",
       "target": "node-YjRDJcSK_h82DooDWY2k4",
       "animated": true
     },

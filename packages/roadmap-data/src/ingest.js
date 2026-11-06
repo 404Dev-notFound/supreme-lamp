@@ -1,12 +1,13 @@
 const fs = require("fs");
 const path = require("path");
 
-const SOURCE_ROADMAPS_DIR = path.resolve(
-  __dirname,
-  "../../../../additional used projects/developer-roadmap/roadmaps",
-);
-
 const OUTPUT_DATA_DIR = path.resolve(__dirname, "data");
+
+// Fallback to internal data directory if external source repository is not mounted
+const externalSourcePath = path.resolve(__dirname, "../../../../additional used projects/developer-roadmap/roadmaps");
+const SOURCE_ROADMAPS_DIR = fs.existsSync(externalSourcePath)
+  ? externalSourcePath
+  : OUTPUT_DATA_DIR;
 
 const TRACK_METADATA = {
   frontend: {
@@ -242,38 +243,44 @@ function buildRoadmapData() {
     const topicsMap = {};
     const nodes = [];
     const edges = [];
+    const seenTopicIds = new Set();
 
     if (fs.existsSync(contentDir)) {
       const files = fs.readdirSync(contentDir).filter((f) => f.endsWith(".md"));
 
-      files.forEach((file, index) => {
+      files.forEach((file) => {
         const topic = parseTopicFile(path.join(contentDir, file), file);
-        if (topic) {
+        if (topic && !seenTopicIds.has(topic.id)) {
+          seenTopicIds.add(topic.id);
           topicsMap[topic.id] = topic;
 
-          const col = index % 3;
-          const row = Math.floor(index / 3);
+          const currentIndex = nodes.length;
+          const col = currentIndex % 3;
+          const row = Math.floor(currentIndex / 3);
           const x = 80 + col * 260;
           const y = 80 + row * 160;
 
           const level = row === 0 ? 1 : row < 3 ? 2 : row < 6 ? 3 : 4;
 
-          nodes.push({
+          const newNode = {
             id: `node-${topic.id}`,
             label: topic.title,
             topicId: topic.id,
             level,
             position: { x, y },
-          });
+          };
+          nodes.push(newNode);
 
-          if (index > 0) {
-            const prevNode = nodes[index - 1];
-            edges.push({
-              id: `edge-${prevNode.id}-${nodes[index].id}`,
-              source: prevNode.id,
-              target: nodes[index].id,
-              animated: true,
-            });
+          if (currentIndex > 0) {
+            const prevNode = nodes[currentIndex - 1];
+            if (prevNode.id !== newNode.id) {
+              edges.push({
+                id: `edge-${prevNode.id}-${newNode.id}`,
+                source: prevNode.id,
+                target: newNode.id,
+                animated: true,
+              });
+            }
           }
         }
       });

@@ -156,18 +156,10 @@ export default function DevRoadmapTopicDrawer({
           </div>
         </div>
 
-        {/* Footer info & attribution */}
+        {/* Footer info */}
         <div className="mt-10 pt-6 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-zinc-400">
           <span>FlowCTRL Career Engine</span>
-          <a
-            href={`https://roadmap.sh/${roadmapSlug}`}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-1 text-orange-400 hover:text-orange-300 font-medium transition-colors"
-          >
-            Original Curriculum at roadmap.sh{" "}
-            <ExternalLink className="w-3 h-3" />
-          </a>
+          <span className="text-zinc-500">Official Career & Systems Track</span>
         </div>
       </div>
     </div>

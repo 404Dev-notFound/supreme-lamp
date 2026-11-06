@@ -268,16 +268,6 @@
       }
     },
     {
-      "id": "node-MnDgQq9Vcxsu3wDqv5uh2",
-      "label": "Headless Component Libraries",
-      "topicId": "MnDgQq9Vcxsu3wDqv5uh2",
-      "level": 4,
-      "position": {
-        "x": 600,
-        "y": 1360
-      }
-    },
-    {
       "id": "node-zOENl96GUZRw2PP2KxIck",
       "label": "High Order Components",
       "topicId": "zOENl96GUZRw2PP2KxIck",
@@ -966,12 +956,6 @@
     {
       "id": "edge-node-y2dI1DVLWKAkv6VRpgaQa-node-MnDgQq9Vcxsu3wDqv5uh2",
       "source": "node-y2dI1DVLWKAkv6VRpgaQa",
-      "target": "node-MnDgQq9Vcxsu3wDqv5uh2",
-      "animated": true
-    },
-    {
-      "id": "edge-node-MnDgQq9Vcxsu3wDqv5uh2-node-MnDgQq9Vcxsu3wDqv5uh2",
-      "source": "node-MnDgQq9Vcxsu3wDqv5uh2",
       "target": "node-MnDgQq9Vcxsu3wDqv5uh2",
       "animated": true
     },

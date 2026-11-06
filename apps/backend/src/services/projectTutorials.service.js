@@ -119,6 +119,10 @@ class ProjectTutorialsService {
               technologies: true,
               sourceAuthor: true,
               isFeatured: true,
+              projectType: true,
+              tutorialUrl: true,
+              githubUrl: true,
+              sourceRepositories: true,
               category: {
                 select: {
                   name: true,
@@ -155,6 +159,10 @@ class ProjectTutorialsService {
             technologies: t.technologies,
             sourceAuthor: t.sourceAuthor,
             isFeatured: t.isFeatured,
+            projectType: t.projectType,
+            tutorialUrl: t.tutorialUrl,
+            githubUrl: t.githubUrl,
+            sourceRepositories: t.sourceRepositories,
             totalSteps: t._count.steps,
             totalResources: t._count.resources,
           })),
@@ -760,3 +768,4 @@ module.exports = {
   projectTutorialsService,
   ProjectTutorialsService,
 };
+

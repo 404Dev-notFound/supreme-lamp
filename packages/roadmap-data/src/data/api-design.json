@@ -358,16 +358,6 @@
       }
     },
     {
-      "id": "node-zXxEiM5HeOn7W-Vue0tQf",
-      "label": "Handling CRUD Operations in API Design",
-      "topicId": "zXxEiM5HeOn7W-Vue0tQf",
-      "level": 4,
-      "position": {
-        "x": 600,
-        "y": 1840
-      }
-    },
-    {
       "id": "node-LByD1vhzunhY1uY1YGZHP",
       "label": "HATEOAS in API Design",
       "topicId": "LByD1vhzunhY1uY1YGZHP",
@@ -794,16 +784,6 @@
       "level": 4,
       "position": {
         "x": 80,
-        "y": 4240
-      }
-    },
-    {
-      "id": "node-5CxU3inGcSHp-TDg3BQiY",
-      "label": "RFC 7807 - Problem Details for HTTP APIs in Error Handling",
-      "topicId": "5CxU3inGcSHp-TDg3BQiY",
-      "level": 4,
-      "position": {
-        "x": 340,
         "y": 4240
       }
     },
@@ -1464,12 +1444,6 @@
     {
       "id": "edge-node-BvwdASMvuNQ9DNgzdSZ4o-node-5CxU3inGcSHp-TDg3BQiY",
       "source": "node-BvwdASMvuNQ9DNgzdSZ4o",
-      "target": "node-5CxU3inGcSHp-TDg3BQiY",
-      "animated": true
-    },
-    {
-      "id": "edge-node-5CxU3inGcSHp-TDg3BQiY-node-5CxU3inGcSHp-TDg3BQiY",
-      "source": "node-5CxU3inGcSHp-TDg3BQiY",
       "target": "node-5CxU3inGcSHp-TDg3BQiY",
       "animated": true
     },

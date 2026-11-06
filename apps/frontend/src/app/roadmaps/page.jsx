@@ -3,7 +3,11 @@
 import React, { useState, useMemo, useEffect } from "react";
 import Link from "next/link";
 import { useRouter, usePathname, useSearchParams } from "next/navigation";
-import { Compass, Search, Sparkles, ArrowLeft, Lock, Hammer } from "lucide-react";
+import { Compass,
+  Code,
+  BookOpen,
+  BrainCircuit,
+  FileText, Search, Sparkles, ArrowLeft, Lock, Hammer } from "lucide-react";
 import DevRoadmapCard from "../../components/roadmap/DevRoadmapCard";
 import PremiumAccessPopup from "../../components/roadmap/PremiumAccessPopup";
 import UpgradeMembershipModal from "../../components/modals/UpgradeMembershipModal";
@@ -11,6 +15,7 @@ import ResumeScreenerModal from "../../components/modals/ResumeScreenerModal";
 import NavProfile from "../../components/NavProfile";
 import Footer from "../../components/Footer";
 import { getAllRoadmaps } from "@flowctrl/roadmap-data";
+import { roadmapsService } from "../../services/roadmaps.service";
 import { membershipService } from "../../services/membership.service";
 import { useAuth } from "@/hooks/useAuth";
 
@@ -60,20 +65,25 @@ export default function RoadmapsCatalogPage() {
     };
   }, [authUser]);
 
-  // Fetch full roadmaps catalog from backend API (includes DB premium tracks)
+  // Fetch roadmaps catalog using multi-layer client-side SWR cache (0ms instant render)
   useEffect(() => {
     let isMounted = true;
-    const apiUrl = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000";
 
-    fetch(`${apiUrl}/api/roadmaps`, { credentials: "include" })
-      .then((res) => (res.ok ? res.json() : null))
+    roadmapsService
+      .fetchCatalog({
+        onBackgroundUpdate: (fresh) => {
+          if (isMounted && Array.isArray(fresh)) {
+            setRoadmapsList(fresh);
+          }
+        },
+      })
       .then((data) => {
-        if (isMounted && data?.data && Array.isArray(data.data)) {
-          setRoadmapsList(data.data);
+        if (isMounted && Array.isArray(data)) {
+          setRoadmapsList(data);
         }
       })
       .catch((err) => {
-        console.warn("Could not load dynamic roadmaps catalog:", err.message);
+        console.warn("Could not load roadmaps catalog:", err.message);
       });
 
     return () => {
@@ -81,18 +91,24 @@ export default function RoadmapsCatalogPage() {
     };
   }, [isPremiumMember]);
 
-  // Adjust locked status according to current user membership
+  // Adjust locked status according to current user membership with unique slug guarantee
   const processedRoadmaps = useMemo(() => {
-    return roadmapsList.map((r) => {
-      const isPremiumTrack =
-        r.isPremium || r.accessLevel === "PREMIUM" || r.badge === "PREMIUM";
-      const isLocked = isPremiumTrack && !isPremiumMember;
-      return {
-        ...r,
-        isPremium: isPremiumTrack,
-        isLocked,
-      };
-    });
+    const seenSlugs = new Set();
+    const unique = [];
+    for (const r of roadmapsList) {
+      if (r?.slug && !seenSlugs.has(r.slug)) {
+        seenSlugs.add(r.slug);
+        const isPremiumTrack =
+          r.isPremium || r.accessLevel === "PREMIUM" || r.badge === "PREMIUM";
+        const isLocked = isPremiumTrack && !isPremiumMember;
+        unique.push({
+          ...r,
+          isPremium: isPremiumTrack,
+          isLocked,
+        });
+      }
+    }
+    return unique;
   }, [roadmapsList, isPremiumMember]);
 
   const filteredRoadmaps = useMemo(() => {
@@ -114,6 +130,12 @@ export default function RoadmapsCatalogPage() {
             r.slug.includes("prompt") ||
             r.slug.includes("machine-learning") ||
             r.categorySlug === "ai-intelligence")) ||
+        (selectedCategory === "system-design" &&
+          (r.slug.includes("system-design") ||
+            r.slug.includes("software-architect") ||
+            r.slug.includes("design-system") ||
+            r.title.toLowerCase().includes("system design") ||
+            r.category === "system-design")) ||
         (selectedCategory === "devops" &&
           (r.slug.includes("devops") ||
             r.slug.includes("docker") ||
@@ -134,6 +156,7 @@ export default function RoadmapsCatalogPage() {
       isHighlight: true,
     },
     { id: "role", label: "Career Roles" },
+    { id: "system-design", label: "Architecture & System Design" },
     { id: "ai", label: "AI & Intelligence" },
     { id: "skill", label: "Skills & Frameworks" },
     { id: "devops", label: "DevOps & Cloud" },

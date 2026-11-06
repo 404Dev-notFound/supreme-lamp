@@ -23,7 +23,9 @@ import UpgradeMembershipModal from "../../../components/modals/UpgradeMembership
 import NavProfile from "../../../components/NavProfile";
 import Footer from "../../../components/Footer";
 import { getRoadmapBySlug } from "@flowctrl/roadmap-data";
+import { roadmapsService } from "../../../services/roadmaps.service";
 import { membershipService } from "../../../services/membership.service";
+import { indexedDbStorage, STORES } from "@/lib/storage/indexedDbStorage";
 import { useAuth } from "@/hooks/useAuth";
 
 export default function RoadmapDetailPage({ params }) {
@@ -47,28 +49,32 @@ export default function RoadmapDetailPage({ params }) {
   const [isResumeScreenerOpen, setResumeScreenerOpen] = useState(false);
   const [isUpgradeModalOpen, setUpgradeModalOpen] = useState(false);
 
-  // Fetch dynamic/premium roadmap details from API
+  // Fetch dynamic/premium roadmap details with client-side SWR caching
   useEffect(() => {
     if (!slug) return;
     let isMounted = true;
-    const apiUrl = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000";
 
-    fetch(`${apiUrl}/api/roadmaps/${encodeURIComponent(slug)}`, {
-      credentials: "include",
-    })
-      .then((res) => (res.ok ? res.json() : null))
+    roadmapsService
+      .fetchDetailBySlug(slug, {
+        onBackgroundUpdate: (freshData) => {
+          if (isMounted && freshData) {
+            setRoadmap(freshData);
+            setIsLocked(Boolean(freshData.isLocked));
+          }
+        },
+      })
       .then((data) => {
         if (!isMounted) return;
-        if (data?.data) {
-          setRoadmap(data.data);
-          setIsLocked(Boolean(data.data.isLocked));
+        if (data) {
+          setRoadmap(data);
+          setIsLocked(Boolean(data.isLocked));
         } else if (staticRoadmap) {
           setRoadmap(staticRoadmap);
           setIsLocked(false);
         }
       })
       .catch((err) => {
-        console.warn("Could not fetch remote roadmap data:", err.message);
+        console.warn("Could not fetch roadmap detail:", err.message);
         if (staticRoadmap) {
           setRoadmap(staticRoadmap);
           setIsLocked(false);
@@ -107,14 +113,20 @@ export default function RoadmapDetailPage({ params }) {
       } else {
         next.add(topicId);
       }
+      const arr = Array.from(next);
       try {
         localStorage.setItem(
           `flowctrl_roadmap_${slug}_completed`,
-          JSON.stringify(Array.from(next)),
+          JSON.stringify(arr),
         );
       } catch (e) {
         console.warn("Could not save progress", e);
       }
+      indexedDbStorage.set(STORES.USER_PROGRESS, {
+        key: `roadmap:${slug}`,
+        completedTopics: arr,
+        updatedAt: Date.now(),
+      }).catch(() => {});
       return next;
     });
   };

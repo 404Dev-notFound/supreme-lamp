@@ -28,8 +28,10 @@ function successResponse(res, {
   if (data !== null) payload.data = data;
   if (meta) payload.meta = meta;
 
-  const reqId = req?.id || res?.getHeader?.("x-request-id");
-  if (reqId) payload.requestId = reqId;
+  // X-Request-Id is in HTTP header; only include in body if explicitly requested to maintain ETag stability
+  if (req?.includeRequestIdInBody) {
+    payload.requestId = req.id || res?.getHeader?.("x-request-id");
+  }
 
   return res.status(statusCode).json(payload);
 }
@@ -51,8 +53,10 @@ function errorResponse(res, {
     payload.details = details;
   }
 
-  const reqId = req?.id || res?.getHeader?.("x-request-id");
-  if (reqId) payload.requestId = reqId;
+  // X-Request-Id is in HTTP header; only include in body if explicitly requested to maintain ETag stability
+  if (req?.includeRequestIdInBody) {
+    payload.requestId = req.id || res?.getHeader?.("x-request-id");
+  }
 
   return res.status(statusCode).json(payload);
 }

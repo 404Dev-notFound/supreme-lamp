@@ -7,6 +7,8 @@ import {
   Filter,
   X,
   Compass,
+  Code,
+  BookOpen,
   Hammer,
   BarChart3,
   FileText,
@@ -25,7 +27,7 @@ import ProjectTutorialCard from "@/components/tutorials/ProjectTutorialCard";
 import NavProfile from "@/components/NavProfile";
 import Footer from "@/components/Footer";
 import ResumeScreenerModal from "@/components/modals/ResumeScreenerModal";
-import WellbeingEmbed from "@/components/WellbeingEmbed";
+import MentalHealthScoreModal from "@/components/modals/MentalHealthScoreModal";
 import { projectTutorialsService } from "@/services/projectTutorials.service";
 import { useAuth } from "@/hooks/useAuth";
 
@@ -162,44 +164,32 @@ export default function ProjectTutorialsLandingPage() {
             <span className="font-semibold text-lg tracking-tight">flowCTRL</span>
           </Link>
 
-          <div className="hidden md:flex items-center gap-6 text-sm font-medium text-zinc-300">
-            <Link
-              href="/project-tutorials"
-              className="text-orange-400 font-semibold flex items-center gap-1.5 transition-colors"
-            >
+          <div className="hidden xl:flex items-center gap-5 text-sm font-medium text-zinc-300">
+            <Link href="/project-tutorials" className="text-orange-400 font-semibold flex items-center gap-1.5 transition-colors">
               <Hammer className="w-4 h-4 text-orange-400" />
-              Project Tutorials
+              Tutorials
             </Link>
-            <Link
-              href="/roadmaps"
-              className="hover:text-amber-300 transition-colors flex items-center gap-1.5 text-zinc-300"
-            >
+            <Link href="/roadmaps" className="hover:text-amber-300 transition-colors flex items-center gap-1.5 text-zinc-300">
               <Compass className="w-4 h-4 text-zinc-400" />
               Roadmaps
             </Link>
-            <Link
-              href="/ecosystem"
-              className="hover:text-amber-300 transition-colors flex items-center gap-1.5 text-zinc-300"
-            >
+            <Link href="/dsa" className="hover:text-amber-300 transition-colors flex items-center gap-1.5 text-zinc-300">
+              <Code className="w-4 h-4 text-emerald-400" />
+              DSA
+            </Link>
+
+            <Link href="/resources" className="hover:text-amber-300 transition-colors flex items-center gap-1.5 text-zinc-300">
+              <FileText className="w-4 h-4 text-blue-400" />
+              Resources
+            </Link>
+            <Link href="/assistant" className="hover:text-amber-300 transition-colors flex items-center gap-1.5 text-zinc-300">
+              <BrainCircuit className="w-4 h-4 text-pink-400" />
+              AI Assistant
+            </Link>
+            <Link href="/ecosystem" className="hover:text-amber-300 transition-colors flex items-center gap-1.5 text-zinc-300">
               <Cpu className="w-4 h-4 text-cyan-400" />
               Ecosystem
             </Link>
-            <button
-              type="button"
-              onClick={() => setResumeScreenerOpen(true)}
-              className="hover:text-white transition-colors cursor-pointer text-sm font-medium text-zinc-300 flex items-center gap-1.5"
-            >
-              <FileText className="w-4 h-4 text-emerald-400" />
-              Resume Screener
-            </button>
-            <button
-              type="button"
-              onClick={() => setMentalHealthScoreOpen(true)}
-              className="hover:text-white transition-colors cursor-pointer text-sm font-medium text-zinc-300 flex items-center gap-1.5"
-            >
-              <BrainCircuit className="w-4 h-4 text-emerald-400" />
-              Mental Health Score
-            </button>
           </div>
         </div>
 
@@ -510,7 +500,7 @@ export default function ProjectTutorialsLandingPage() {
         isOpen={isResumeScreenerOpen}
         onClose={() => setResumeScreenerOpen(false)}
       />
-      <WellbeingEmbed
+      <MentalHealthScoreModal
         isOpen={isMentalHealthScoreOpen}
         onClose={() => setMentalHealthScoreOpen(false)}
       />
@@ -520,3 +510,4 @@ export default function ProjectTutorialsLandingPage() {
     </div>
   );
 }
+

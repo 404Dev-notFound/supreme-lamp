@@ -298,16 +298,6 @@
       }
     },
     {
-      "id": "node-jw218cE_PQDRnOTzCXpXr",
-      "label": "Conditional Statements",
-      "topicId": "jw218cE_PQDRnOTzCXpXr",
-      "level": 4,
-      "position": {
-        "x": 600,
-        "y": 1520
-      }
-    },
-    {
       "id": "node-vnDB786JPJGLIEbaQuXn2",
       "label": "Everything is an Object",
       "topicId": "vnDB786JPJGLIEbaQuXn2",
@@ -608,32 +598,12 @@
       }
     },
     {
-      "id": "node-toevE0eM7c5f_zeSaVjdr",
-      "label": "Mutex",
-      "topicId": "toevE0eM7c5f_zeSaVjdr",
-      "level": 4,
-      "position": {
-        "x": 80,
-        "y": 3280
-      }
-    },
-    {
       "id": "node-tRGKIfQG9IiPJGuO8DUX4",
       "label": "Naming Conventions",
       "topicId": "tRGKIfQG9IiPJGuO8DUX4",
       "level": 4,
       "position": {
         "x": 340,
-        "y": 3280
-      }
-    },
-    {
-      "id": "node-wsnjdnZZohQsVBfM1uN8H",
-      "label": "Naming Conventions",
-      "topicId": "wsnjdnZZohQsVBfM1uN8H",
-      "level": 4,
-      "position": {
-        "x": 600,
         "y": 3280
       }
     },
@@ -928,16 +898,6 @@
       }
     },
     {
-      "id": "node-Av5hlCtE-ZoeKpS0k3kLA",
-      "label": "Installing Ruby",
-      "topicId": "Av5hlCtE-ZoeKpS0k3kLA",
-      "level": 4,
-      "position": {
-        "x": 600,
-        "y": 4880
-      }
-    },
-    {
       "id": "node-XI-1114QVFgALBF9VAb99",
       "label": "Sinatra",
       "topicId": "XI-1114QVFgALBF9VAb99",
@@ -1028,16 +988,6 @@
       }
     },
     {
-      "id": "node-H4Cz_4xcMJmU0UwvEhNIn",
-      "label": "Threads",
-      "topicId": "H4Cz_4xcMJmU0UwvEhNIn",
-      "level": 4,
-      "position": {
-        "x": 80,
-        "y": 5520
-      }
-    },
-    {
       "id": "node-xJ_F95dKmaRKE42yQ2R-r",
       "label": "Threads",
       "topicId": "xJ_F95dKmaRKE42yQ2R-r",
@@ -1055,16 +1005,6 @@
       "position": {
         "x": 600,
         "y": 5520
-      }
-    },
-    {
-      "id": "node-5ThpsSMnFZUxWV1Y2Z75A",
-      "label": "Type Casting",
-      "topicId": "5ThpsSMnFZUxWV1Y2Z75A",
-      "level": 4,
-      "position": {
-        "x": 80,
-        "y": 5680
       }
     },
     {

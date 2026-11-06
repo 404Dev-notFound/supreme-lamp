@@ -20,16 +20,21 @@ class RoadmapsService {
       async () => {
         let results = search ? searchRoadmaps(search) : getAllRoadmaps();
 
-        // Tag free roadmaps explicitly
-        results = results.map((r) => ({
-          ...r,
-          accessLevel: "FREE",
-          isPremium: false,
-          isLocked: false,
-          isPinned: false,
-        }));
+        // Classify standard roadmaps: Advanced level is automatically classified as Premium
+        results = results.map((r) => {
+          const isAdvanced = (r.level || "").toLowerCase() === "advanced";
+          const isItemPremium = isAdvanced || r.accessLevel === "PREMIUM" || Boolean(r.isPremium);
+          return {
+            ...r,
+            accessLevel: isItemPremium ? "PREMIUM" : "FREE",
+            isPremium: isItemPremium,
+            isLocked: isItemPremium && !isPremium,
+            badge: isItemPremium ? "PREMIUM" : (r.badge || null),
+            isPinned: false,
+          };
+        });
 
-        // Fetch active premium resources from PostgreSQL
+        // Fetch active premium roadmaps from PostgreSQL
         try {
           const premiumWhere = { isActive: true };
           if (category && category !== "all" && category.toLowerCase() !== "premium") {
@@ -40,11 +45,37 @@ class RoadmapsService {
           }
 
           const premiumResources = await prisma.premiumResource.findMany({
-            where: premiumWhere,
-            orderBy: [{ isPinned: "desc" }, { sortOrder: "asc" }, { createdAt: "asc" }],
+            where: {
+              isActive: true,
+              OR: [
+                { categorySlug: { in: ["system-design", "roadmaps"] } },
+                { isPinned: true },
+                {
+                  slug: {
+                    in: [
+                      "system-design-architecture",
+                      "distributed-systems-architecture",
+                      "offensive-security-red-teaming",
+                      "autonomous-ai-agents",
+                      "kubernetes-platform-engineering",
+                      "applied-cryptography-zkp",
+                      "high-performance-databases",
+                      "llm-engineering-rag-systems",
+                      "cloud-native-kubernetes-gitops",
+                    ],
+                  },
+                },
+              ],
+            },
+            orderBy: [{ sortOrder: "asc" }, { createdAt: "asc" }],
           });
 
-          const premiumMapped = premiumResources.map((p) => {
+          // Only include full roadmaps with defined curriculum modules
+          const roadmapModules = premiumResources.filter(
+            (p) => p.content?.modules && Array.isArray(p.content.modules) && p.content.modules.length > 0
+          );
+
+          const premiumMapped = roadmapModules.map((p) => {
             const isLocked = !isPremium;
             return {
               slug: p.slug,
@@ -58,7 +89,7 @@ class RoadmapsService {
               accessLevel: "PREMIUM",
               isPremium: true,
               isLocked,
-              isPinned: p.isPinned !== false,
+              isPinned: false,
               sortOrder: p.sortOrder,
               isFeatured: p.isFeatured,
               estimatedHours: p.estimatedHours,
@@ -76,8 +107,12 @@ class RoadmapsService {
             );
           }
 
-          // Pin premium roadmaps ahead of standard roadmaps
-          results = [...filteredPremium, ...results];
+          // Merge without duplicates and sort alphabetically to mix Free and Premium naturally
+          const existingSlugs = new Set(results.map((r) => r.slug));
+          const uniquePremium = filteredPremium.filter((p) => !existingSlugs.has(p.slug));
+          const combined = [...results, ...uniquePremium];
+          combined.sort((a, b) => a.title.localeCompare(b.title));
+          results = combined;
         } catch (e) {
           console.warn("Could not fetch premium resources from DB:", e.message);
         }
@@ -114,14 +149,39 @@ class RoadmapsService {
     return cache.getOrSet(
       cacheKey,
       async () => {
-        // 1. Check if it's a standard free roadmap
+        // 1. Check if it's a standard roadmap
         const baseRoadmap = getRoadmapBySlug(slug);
         if (baseRoadmap) {
+          const isAdvanced = (baseRoadmap.level || "").toLowerCase() === "advanced";
+          const isItemPremium = isAdvanced || baseRoadmap.accessLevel === "PREMIUM" || Boolean(baseRoadmap.isPremium);
+          const isLocked = isItemPremium && !isPremium;
+
+          if (isLocked) {
+            return {
+              ...baseRoadmap,
+              accessLevel: "PREMIUM",
+              isPremium: true,
+              isLocked: true,
+              badge: "PREMIUM",
+              preview: {
+                overview: baseRoadmap.description,
+                prerequisites: ["Fundamental Software Engineering Concepts"],
+                modules: Object.entries(baseRoadmap.topics || {}).slice(0, 5).map(([id, t]) => ({
+                  id,
+                  title: t.title || id,
+                  description: t.description || "",
+                  topicCount: 1,
+                })),
+              },
+            };
+          }
+
           return {
             ...baseRoadmap,
-            accessLevel: "FREE",
-            isPremium: false,
+            accessLevel: isItemPremium ? "PREMIUM" : "FREE",
+            isPremium: isItemPremium,
             isLocked: false,
+            badge: isItemPremium ? "PREMIUM" : (baseRoadmap.badge || null),
             isPinned: false,
           };
         }

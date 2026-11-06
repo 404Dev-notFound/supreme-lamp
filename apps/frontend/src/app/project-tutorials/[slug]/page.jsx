@@ -17,13 +17,18 @@ import {
   ShieldCheck,
   Play,
   RotateCcw,
+  TrendingUp,
+  FolderGit2,
 } from "lucide-react";
 import NavProfile from "@/components/NavProfile";
 import Footer from "@/components/Footer";
 import ProjectOverviewTab from "@/components/tutorials/ProjectOverviewTab";
 import ProjectStepWorkspace from "@/components/tutorials/ProjectStepWorkspace";
+import ProjectArchitectureTab from "@/components/tutorials/ProjectArchitectureTab";
+import ProjectResourcesTab from "@/components/tutorials/ProjectResourcesTab";
+import ProjectProgressTab from "@/components/tutorials/ProjectProgressTab";
 import ResumeScreenerModal from "@/components/modals/ResumeScreenerModal";
-import WellbeingEmbed from "@/components/WellbeingEmbed";
+import MentalHealthScoreModal from "@/components/modals/MentalHealthScoreModal";
 import { projectTutorialsService } from "@/services/projectTutorials.service";
 import { useAuth } from "@/hooks/useAuth";
 
@@ -37,7 +42,7 @@ export default function ProjectTutorialDetailPage({ params }) {
   const [project, setProject] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const [activeTab, setActiveTab] = useState("overview"); // "overview" | "workspace"
+  const [activeTab, setActiveTab] = useState("overview"); // "overview" | "guide" | "architecture" | "resources" | "progress"
   const [isUpdatingProgress, setIsUpdatingProgress] = useState(false);
 
   // Modals
@@ -112,7 +117,7 @@ export default function ProjectTutorialDetailPage({ params }) {
   // Start Project Action
   const handleStartProject = async () => {
     if (!authUser) {
-      window.location.href = "?modal=signin";
+      setActiveTab("guide");
       return;
     }
     if (!project) return;
@@ -127,10 +132,11 @@ export default function ProjectTutorialDetailPage({ params }) {
             completedStepIds: [],
           },
         }));
-        setActiveTab("workspace");
       }
+      setActiveTab("guide");
     } catch (err) {
       console.error("Failed to start project:", err);
+      setActiveTab("guide");
     }
   };
 
@@ -370,17 +376,17 @@ export default function ProjectTutorialDetailPage({ params }) {
                   className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-orange-500 text-black font-semibold text-xs hover:bg-orange-400 transition-all shadow-lg shadow-orange-500/20"
                 >
                   <Play className="w-3.5 h-3.5 fill-black" />
-                  Start Building Project
+                  Start Learning
                 </button>
               ) : (
                 <>
                   <button
                     type="button"
-                    onClick={() => setActiveTab("workspace")}
+                    onClick={() => setActiveTab("guide")}
                     className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-white text-black font-semibold text-xs hover:bg-zinc-200 transition-all"
                   >
                     <Layers className="w-3.5 h-3.5" />
-                    {isCompleted ? "Review Steps" : "Resume Workspace"}
+                    {isCompleted ? "Review Guide" : "Resume Guide"}
                   </button>
                   {!isCompleted && (
                     <button
@@ -398,31 +404,82 @@ export default function ProjectTutorialDetailPage({ params }) {
           </div>
         </header>
 
-        {/* Workspace View Tabs */}
-        <div className="flex items-center gap-3 border-b border-white/10 pb-4 mb-8">
+        {/* 5-Section Navigation Tabs */}
+        <div className="flex items-center gap-2 border-b border-white/10 pb-4 mb-8 overflow-x-auto no-scrollbar">
           <button
             type="button"
             onClick={() => setActiveTab("overview")}
-            className={`px-5 py-2.5 rounded-xl font-medium text-sm transition-all flex items-center gap-2 ${
+            className={`px-4 py-2.5 rounded-xl font-medium text-xs sm:text-sm transition-all flex items-center gap-2 shrink-0 ${
               activeTab === "overview"
-                ? "bg-white/10 text-white border border-white/10 shadow-sm"
-                : "text-zinc-400 hover:text-zinc-200"
+                ? "bg-white/10 text-white border border-white/15 shadow-sm"
+                : "text-zinc-400 hover:text-zinc-200 hover:bg-white/5"
             }`}
           >
             <Sparkles className="w-4 h-4 text-orange-400" />
-            Overview & Blueprint
+            Overview
           </button>
+
           <button
             type="button"
-            onClick={() => setActiveTab("workspace")}
-            className={`px-5 py-2.5 rounded-xl font-medium text-sm transition-all flex items-center gap-2 ${
-              activeTab === "workspace"
+            onClick={() => setActiveTab("guide")}
+            className={`px-4 py-2.5 rounded-xl font-medium text-xs sm:text-sm transition-all flex items-center gap-2 shrink-0 ${
+              activeTab === "guide"
                 ? "bg-orange-500 text-black font-semibold shadow-lg shadow-orange-500/20"
-                : "text-zinc-400 hover:text-zinc-200"
+                : "text-zinc-400 hover:text-zinc-200 hover:bg-white/5"
             }`}
           >
             <Layers className="w-4 h-4" />
-            Interactive Workspace ({project.steps?.length || 0} Steps)
+            Build Guide
+            {project.steps && project.steps.length > 0 && (
+              <span
+                className={`text-[10px] font-mono px-1.5 py-0.5 rounded-md ${
+                  activeTab === "guide"
+                    ? "bg-black/20 text-black font-bold"
+                    : "bg-white/10 text-zinc-300"
+                }`}
+              >
+                {project.steps.length}
+              </span>
+            )}
+          </button>
+
+          <button
+            type="button"
+            onClick={() => setActiveTab("architecture")}
+            className={`px-4 py-2.5 rounded-xl font-medium text-xs sm:text-sm transition-all flex items-center gap-2 shrink-0 ${
+              activeTab === "architecture"
+                ? "bg-cyan-500/20 text-cyan-300 border border-cyan-500/30 shadow-sm"
+                : "text-zinc-400 hover:text-zinc-200 hover:bg-white/5"
+            }`}
+          >
+            <Cpu className="w-4 h-4 text-cyan-400" />
+            Architecture
+          </button>
+
+          <button
+            type="button"
+            onClick={() => setActiveTab("resources")}
+            className={`px-4 py-2.5 rounded-xl font-medium text-xs sm:text-sm transition-all flex items-center gap-2 shrink-0 ${
+              activeTab === "resources"
+                ? "bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 shadow-sm"
+                : "text-zinc-400 hover:text-zinc-200 hover:bg-white/5"
+            }`}
+          >
+            <FolderGit2 className="w-4 h-4 text-emerald-400" />
+            Resources
+          </button>
+
+          <button
+            type="button"
+            onClick={() => setActiveTab("progress")}
+            className={`px-4 py-2.5 rounded-xl font-medium text-xs sm:text-sm transition-all flex items-center gap-2 shrink-0 ${
+              activeTab === "progress"
+                ? "bg-amber-500/20 text-amber-300 border border-amber-500/30 shadow-sm"
+                : "text-zinc-400 hover:text-zinc-200 hover:bg-white/5"
+            }`}
+          >
+            <TrendingUp className="w-4 h-4 text-amber-400" />
+            Progress
           </button>
         </div>
 
@@ -430,18 +487,43 @@ export default function ProjectTutorialDetailPage({ params }) {
         {activeTab === "overview" && (
           <ProjectOverviewTab
             project={project}
-            onStartBuilding={() => setActiveTab("workspace")}
+            onStartBuilding={() => setActiveTab("guide")}
           />
         )}
 
-        {/* Tab 2: Interactive Step Workspace */}
-        {activeTab === "workspace" && (
+        {/* Tab 2: Build Guide */}
+        {activeTab === "guide" && (
           <ProjectStepWorkspace
             project={project}
             steps={project.steps || []}
             userProgress={project.userProgress}
             completedStepIds={completedStepIdSet}
             onToggleStepCompletion={handleToggleStepCompletion}
+            isUpdating={isUpdatingProgress}
+          />
+        )}
+
+        {/* Tab 3: Architecture */}
+        {activeTab === "architecture" && (
+          <ProjectArchitectureTab project={project} />
+        )}
+
+        {/* Tab 4: Resources */}
+        {activeTab === "resources" && (
+          <ProjectResourcesTab project={project} />
+        )}
+
+        {/* Tab 5: Progress */}
+        {activeTab === "progress" && (
+          <ProjectProgressTab
+            project={project}
+            steps={project.steps || []}
+            userProgress={project.userProgress}
+            completedStepIds={completedStepIdSet}
+            onToggleStepCompletion={handleToggleStepCompletion}
+            onStartLearning={() => setActiveTab("guide")}
+            onCompleteProject={handleCompleteProject}
+            authUser={authUser}
             isUpdating={isUpdatingProgress}
           />
         )}
@@ -452,7 +534,7 @@ export default function ProjectTutorialDetailPage({ params }) {
         isOpen={isResumeScreenerOpen}
         onClose={() => setResumeScreenerOpen(false)}
       />
-      <WellbeingEmbed
+      <MentalHealthScoreModal
         isOpen={isMentalHealthScoreOpen}
         onClose={() => setMentalHealthScoreOpen(false)}
       />
@@ -462,3 +544,4 @@ export default function ProjectTutorialDetailPage({ params }) {
     </div>
   );
 }
+

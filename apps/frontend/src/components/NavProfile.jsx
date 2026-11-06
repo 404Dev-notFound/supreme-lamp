@@ -1,6 +1,7 @@
 "use client";
 
 import React, { Suspense, useState, useRef, useEffect } from "react";
+import Link from "next/link";
 import { useRouter, usePathname, useSearchParams } from "next/navigation";
 import { useSession, signOut as nextAuthSignOut } from "next-auth/react";
 import {
@@ -91,6 +92,15 @@ function NavProfileContent() {
                 {role}
               </span>
             </div>
+
+            <Link
+              href="/dashboard"
+              onClick={() => setDropdownOpen(false)}
+              className="w-full flex items-center gap-2 px-3 py-2 rounded-xl hover:bg-white/10 text-left transition-colors cursor-pointer text-zinc-200"
+            >
+              <Sparkles className="w-3.5 h-3.5 text-amber-400" />
+              Mission Control Dashboard
+            </Link>
 
             <button
               onClick={() => openModal("profile")}

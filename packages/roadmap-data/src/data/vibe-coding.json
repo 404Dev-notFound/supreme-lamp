@@ -98,16 +98,6 @@
       }
     },
     {
-      "id": "node-XY2l96sry3WyLzzo3KUeU",
-      "label": "ChatGPT",
-      "topicId": "XY2l96sry3WyLzzo3KUeU",
-      "level": 3,
-      "position": {
-        "x": 80,
-        "y": 560
-      }
-    },
-    {
       "id": "node-Gr9WJ0tNmSsVHSA0Cx3xY",
       "label": "Consider Test-driven development (TDD)",
       "topicId": "Gr9WJ0tNmSsVHSA0Cx3xY",
@@ -395,16 +385,6 @@
       "position": {
         "x": 600,
         "y": 2000
-      }
-    },
-    {
-      "id": "node-Ubk4GN0Z4XlDJ3EbRXdxg",
-      "label": "Copilot",
-      "topicId": "Ubk4GN0Z4XlDJ3EbRXdxg",
-      "level": 4,
-      "position": {
-        "x": 80,
-        "y": 2160
       }
     },
     {

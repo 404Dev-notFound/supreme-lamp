@@ -948,16 +948,6 @@
       }
     },
     {
-      "id": "node-nD36-PXHzOXePM7j9u_O_",
-      "label": "Glue (ETL)",
-      "topicId": "nD36-PXHzOXePM7j9u_O_",
-      "level": 4,
-      "position": {
-        "x": 340,
-        "y": 5040
-      }
-    },
-    {
       "id": "node-4z2i5NXTo9h3YY0kJvRrz",
       "label": "Go",
       "topicId": "4z2i5NXTo9h3YY0kJvRrz",
@@ -1458,16 +1448,6 @@
       }
     },
     {
-      "id": "node-uZYQ8tqTriXt_JIOjcM9_",
-      "label": "NoSQL databases",
-      "topicId": "uZYQ8tqTriXt_JIOjcM9_",
-      "level": 4,
-      "position": {
-        "x": 340,
-        "y": 7760
-      }
-    },
-    {
       "id": "node--VQQmIUGesnrT1N6kH5et",
       "label": "OLTP vs OLAP",
       "topicId": "-VQQmIUGesnrT1N6kH5et",
@@ -1524,16 +1504,6 @@
       "level": 4,
       "position": {
         "x": 340,
-        "y": 8080
-      }
-    },
-    {
-      "id": "node-TAh4__7U58J7fduU9a1Ol",
-      "label": "Prefect",
-      "topicId": "TAh4__7U58J7fduU9a1Ol",
-      "level": 4,
-      "position": {
-        "x": 600,
         "y": 8080
       }
     },
@@ -2770,12 +2740,6 @@
     {
       "id": "edge-node-r1KmASWAa_MOqQOC9gvvF-node-uZYQ8tqTriXt_JIOjcM9_",
       "source": "node-r1KmASWAa_MOqQOC9gvvF",
-      "target": "node-uZYQ8tqTriXt_JIOjcM9_",
-      "animated": true
-    },
-    {
-      "id": "edge-node-uZYQ8tqTriXt_JIOjcM9_-node-uZYQ8tqTriXt_JIOjcM9_",
-      "source": "node-uZYQ8tqTriXt_JIOjcM9_",
       "target": "node-uZYQ8tqTriXt_JIOjcM9_",
       "animated": true
     },

@@ -78,16 +78,6 @@
       }
     },
     {
-      "id": "node-3bSTQ3nt5GdvKOder9J5R",
-      "label": "Anthropic",
-      "topicId": "3bSTQ3nt5GdvKOder9J5R",
-      "level": 2,
-      "position": {
-        "x": 340,
-        "y": 400
-      }
-    },
-    {
       "id": "node-B4SyJwbv0HnI34BW81Ong",
       "label": "Auth & Model Providers",
       "topicId": "B4SyJwbv0HnI34BW81Ong",
@@ -298,16 +288,6 @@
       }
     },
     {
-      "id": "node-OPHuAD0L-GZ6zRhIhbmPL",
-      "label": "Deploy on an Isolated VPS, VM, or Dedicated Device",
-      "topicId": "OPHuAD0L-GZ6zRhIhbmPL",
-      "level": 4,
-      "position": {
-        "x": 600,
-        "y": 1520
-      }
-    },
-    {
       "id": "node-ghi0M5P_JMm7D_JhIwJXC",
       "label": "Discord",
       "topicId": "ghi0M5P_JMm7D_JhIwJXC",
@@ -485,16 +465,6 @@
       "position": {
         "x": 600,
         "y": 2480
-      }
-    },
-    {
-      "id": "node-EggP8_uXPbgQeNKQFP4JJ",
-      "label": "How OpenClaw Works",
-      "topicId": "EggP8_uXPbgQeNKQFP4JJ",
-      "level": 4,
-      "position": {
-        "x": 80,
-        "y": 2640
       }
     },
     {
@@ -845,16 +815,6 @@
       "position": {
         "x": 600,
         "y": 4400
-      }
-    },
-    {
-      "id": "node-CE3p60gkIzzHBh69kKiIw",
-      "label": "Raspberry Pi",
-      "topicId": "CE3p60gkIzzHBh69kKiIw",
-      "level": 4,
-      "position": {
-        "x": 80,
-        "y": 4560
       }
     },
     {
@@ -1266,12 +1226,6 @@
       "animated": true
     },
     {
-      "id": "edge-node-3bSTQ3nt5GdvKOder9J5R-node-3bSTQ3nt5GdvKOder9J5R",
-      "source": "node-3bSTQ3nt5GdvKOder9J5R",
-      "target": "node-3bSTQ3nt5GdvKOder9J5R",
-      "animated": true
-    },
-    {
       "id": "edge-node-3bSTQ3nt5GdvKOder9J5R-node-B4SyJwbv0HnI34BW81Ong",
       "source": "node-3bSTQ3nt5GdvKOder9J5R",
       "target": "node-B4SyJwbv0HnI34BW81Ong",
@@ -1398,12 +1352,6 @@
       "animated": true
     },
     {
-      "id": "edge-node-OPHuAD0L-GZ6zRhIhbmPL-node-OPHuAD0L-GZ6zRhIhbmPL",
-      "source": "node-OPHuAD0L-GZ6zRhIhbmPL",
-      "target": "node-OPHuAD0L-GZ6zRhIhbmPL",
-      "animated": true
-    },
-    {
       "id": "edge-node-OPHuAD0L-GZ6zRhIhbmPL-node-ghi0M5P_JMm7D_JhIwJXC",
       "source": "node-OPHuAD0L-GZ6zRhIhbmPL",
       "target": "node-ghi0M5P_JMm7D_JhIwJXC",
@@ -1508,12 +1456,6 @@
     {
       "id": "edge-node-KJ_Y5N8D-FWZIz52ajcO8-node-EggP8_uXPbgQeNKQFP4JJ",
       "source": "node-KJ_Y5N8D-FWZIz52ajcO8",
-      "target": "node-EggP8_uXPbgQeNKQFP4JJ",
-      "animated": true
-    },
-    {
-      "id": "edge-node-EggP8_uXPbgQeNKQFP4JJ-node-EggP8_uXPbgQeNKQFP4JJ",
-      "source": "node-EggP8_uXPbgQeNKQFP4JJ",
       "target": "node-EggP8_uXPbgQeNKQFP4JJ",
       "animated": true
     },
@@ -1724,12 +1666,6 @@
     {
       "id": "edge-node-qzVRzcGnImdqVDw0W-Z7H-node-CE3p60gkIzzHBh69kKiIw",
       "source": "node-qzVRzcGnImdqVDw0W-Z7H",
-      "target": "node-CE3p60gkIzzHBh69kKiIw",
-      "animated": true
-    },
-    {
-      "id": "edge-node-CE3p60gkIzzHBh69kKiIw-node-CE3p60gkIzzHBh69kKiIw",
-      "source": "node-CE3p60gkIzzHBh69kKiIw",
       "target": "node-CE3p60gkIzzHBh69kKiIw",
       "animated": true
     },

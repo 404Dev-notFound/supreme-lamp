@@ -796,6 +796,10 @@ model ProjectTutorial {
   technologies          String[]
   toolsRequired         String[]
   learningOutcomes      String[]
+  projectType           String   @default("TUTORIAL") // TUTORIAL, PROJECT_IDEA, EXERCISE, IMPLEMENTATION_GUIDE
+  tutorialUrl           String?
+  githubUrl             String?
+  sourceRepositories    String[] @default([])
   sourceRepo            String?  @default("https://github.com/codecrafters-io/build-your-own-x")
   sourceAuthor          String?
   sourceLicense         String?  @default("CC0-1.0")
@@ -817,6 +821,7 @@ model ProjectTutorial {
   @@index([difficulty])
   @@index([isPublished])
   @@index([isFeatured])
+  @@index([projectType])
 }
 
 model ProjectStep {

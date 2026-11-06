@@ -4,6 +4,8 @@ import React, { useState } from "react";
 import Link from "next/link";
 import {
   Compass,
+  Code,
+  BookOpen,
   Hammer,
   ArrowRight,
   Sparkles,
@@ -52,43 +54,38 @@ export default function DashboardPage() {
             </div>
             <span className="font-semibold text-lg tracking-tight">flowCTRL</span>
           </Link>
-          <div className="hidden md:flex items-center gap-6 text-sm font-medium text-zinc-300">
-            <Link
-              href="/dashboard"
-              className="text-amber-400 font-semibold flex items-center gap-1.5"
-            >
+          <div className="hidden xl:flex items-center gap-5 text-sm font-medium text-zinc-300">
+            <Link href="/dashboard" className="text-amber-400 font-semibold flex items-center gap-1.5">
               <BarChart3 className="w-4 h-4 text-orange-400" />
               Mission Control
             </Link>
-            <Link
-              href="/project-tutorials"
-              className="hover:text-amber-300 transition-colors flex items-center gap-1.5 text-zinc-300"
-            >
-              <Hammer className="w-4 h-4 text-orange-400" />
-              Project Tutorials
-            </Link>
-            <Link
-              href="/roadmaps"
-              className="hover:text-amber-300 transition-colors flex items-center gap-1.5 text-zinc-300"
-            >
-              <Compass className="w-4 h-4 text-zinc-400" />
+            <Link href="/roadmaps" className="hover:text-amber-300 transition-colors flex items-center gap-1.5 text-zinc-300">
+              <Compass className="w-4 h-4 text-orange-400" />
               Roadmaps
             </Link>
-            <button
-              type="button"
-              onClick={() => setResumeScreenerOpen(true)}
-              className="hover:text-white transition-colors cursor-pointer text-sm font-medium text-zinc-300 flex items-center gap-1.5"
-            >
+            <Link href="/dsa" className="hover:text-amber-300 transition-colors flex items-center gap-1.5 text-zinc-300">
+              <Code className="w-4 h-4 text-emerald-400" />
+              DSA
+            </Link>
+            <Link href="/project-tutorials" className="hover:text-amber-300 transition-colors flex items-center gap-1.5 text-zinc-300">
+              <Hammer className="w-4 h-4 text-amber-400" />
+              Tutorials
+            </Link>
+            <Link href="/resources" className="hover:text-amber-300 transition-colors flex items-center gap-1.5 text-zinc-300">
+              <FileText className="w-4 h-4 text-blue-400" />
+              Resources
+            </Link>
+            <Link href="/assistant" className="hover:text-amber-300 transition-colors flex items-center gap-1.5 text-zinc-300">
+              <BrainCircuit className="w-4 h-4 text-pink-400" />
+              AI Assistant
+            </Link>
+            <button type="button" onClick={() => setResumeScreenerOpen(true)} className="hover:text-white transition-colors cursor-pointer text-sm font-medium text-zinc-300 flex items-center gap-1.5">
               <FileText className="w-4 h-4 text-emerald-400" />
-              Resume Screener
+              Resume
             </button>
-            <button
-              type="button"
-              onClick={() => setJobMatcherOpen(true)}
-              className="hover:text-white transition-colors cursor-pointer text-sm font-medium text-zinc-300 flex items-center gap-1.5"
-            >
+            <button type="button" onClick={() => setJobMatcherOpen(true)} className="hover:text-white transition-colors cursor-pointer text-sm font-medium text-zinc-300 flex items-center gap-1.5">
               <Target className="w-4 h-4 text-blue-400" />
-              Job Matcher
+              Jobs
             </button>
           </div>
         </div>
@@ -154,6 +151,59 @@ export default function DashboardPage() {
                 Radar Jobs
               </button>
             </div>
+          </div>
+        </section>
+
+        {/* Engineering Learning Modules Hub */}
+        <section className="mb-10">
+          <div className="flex items-center justify-between mb-4">
+            <h2 className="text-xl font-bold text-white flex items-center gap-2">
+              <Sparkles className="w-5 h-5 text-amber-400" />
+              Learning Ecosystem Quick Access
+            </h2>
+            <span className="text-xs text-zinc-400">All 5 core modules live</span>
+          </div>
+
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3.5">
+            <Link href="/roadmaps" className="p-4 rounded-xl glass border border-white/10 hover:border-orange-500/40 transition-all text-center group">
+              <div className="w-9 h-9 mx-auto rounded-lg bg-orange-500/10 text-orange-400 flex items-center justify-center mb-2 group-hover:scale-110 transition-transform">
+                <Compass className="w-5 h-5" />
+              </div>
+              <div className="font-bold text-xs text-zinc-100 group-hover:text-orange-400">Roadmaps</div>
+              <div className="text-[10px] text-zinc-400">90+ Tracks</div>
+            </Link>
+
+            <Link href="/dsa" className="p-4 rounded-xl glass border border-white/10 hover:border-emerald-500/40 transition-all text-center group">
+              <div className="w-9 h-9 mx-auto rounded-lg bg-emerald-500/10 text-emerald-400 flex items-center justify-center mb-2 group-hover:scale-110 transition-transform">
+                <Code className="w-5 h-5" />
+              </div>
+              <div className="font-bold text-xs text-zinc-100 group-hover:text-emerald-400">DSA Engine</div>
+              <div className="text-[10px] text-zinc-400">6 Languages</div>
+            </Link>
+
+            <Link href="/project-tutorials" className="p-4 rounded-xl glass border border-white/10 hover:border-amber-500/40 transition-all text-center group">
+              <div className="w-9 h-9 mx-auto rounded-lg bg-amber-500/10 text-amber-400 flex items-center justify-center mb-2 group-hover:scale-110 transition-transform">
+                <Hammer className="w-5 h-5" />
+              </div>
+              <div className="font-bold text-xs text-zinc-100 group-hover:text-amber-400">Tutorials</div>
+              <div className="text-[10px] text-zinc-400">1,274 Projects</div>
+            </Link>
+
+            <Link href="/resources" className="p-4 rounded-xl glass border border-white/10 hover:border-blue-500/40 transition-all text-center group">
+              <div className="w-9 h-9 mx-auto rounded-lg bg-blue-500/10 text-blue-400 flex items-center justify-center mb-2 group-hover:scale-110 transition-transform">
+                <FileText className="w-5 h-5" />
+              </div>
+              <div className="font-bold text-xs text-zinc-100 group-hover:text-blue-400">Resources</div>
+              <div className="text-[10px] text-zinc-400">Books & Docs</div>
+            </Link>
+
+            <Link href="/assistant" className="p-4 rounded-xl glass border border-white/10 hover:border-pink-500/40 transition-all text-center group">
+              <div className="w-9 h-9 mx-auto rounded-lg bg-pink-500/10 text-pink-400 flex items-center justify-center mb-2 group-hover:scale-110 transition-transform">
+                <BrainCircuit className="w-5 h-5" />
+              </div>
+              <div className="font-bold text-xs text-zinc-100 group-hover:text-pink-400">AI Advisor</div>
+              <div className="text-[10px] text-zinc-400">Adaptive RAG</div>
+            </Link>
           </div>
         </section>
 

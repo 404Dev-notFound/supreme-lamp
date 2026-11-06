@@ -348,16 +348,6 @@
       }
     },
     {
-      "id": "node-SFGRkOuEMFxOJ4UU_Ti8L",
-      "label": "debug",
-      "topicId": "SFGRkOuEMFxOJ4UU_Ti8L",
-      "level": 4,
-      "position": {
-        "x": 340,
-        "y": 1840
-      }
-    },
-    {
       "id": "node-ELvMdjJZGl_k_0Qsi_vtm",
       "label": "Debugging",
       "topicId": "ELvMdjJZGl_k_0Qsi_vtm",
@@ -794,16 +784,6 @@
       "level": 4,
       "position": {
         "x": 80,
-        "y": 4240
-      }
-    },
-    {
-      "id": "node-nh6d9XbtvwBUtVDmEk0i_",
-      "label": "Plugins",
-      "topicId": "nh6d9XbtvwBUtVDmEk0i_",
-      "level": 4,
-      "position": {
-        "x": 340,
         "y": 4240
       }
     },
@@ -1564,12 +1544,6 @@
     {
       "id": "edge-node-G3HHrElODg0Js0WY-VYkL-node-nh6d9XbtvwBUtVDmEk0i_",
       "source": "node-G3HHrElODg0Js0WY-VYkL",
-      "target": "node-nh6d9XbtvwBUtVDmEk0i_",
-      "animated": true
-    },
-    {
-      "id": "edge-node-nh6d9XbtvwBUtVDmEk0i_-node-nh6d9XbtvwBUtVDmEk0i_",
-      "source": "node-nh6d9XbtvwBUtVDmEk0i_",
       "target": "node-nh6d9XbtvwBUtVDmEk0i_",
       "animated": true
     },
