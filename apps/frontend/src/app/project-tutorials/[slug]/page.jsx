@@ -55,8 +55,9 @@ export default function ProjectTutorialDetailPage({ params }) {
     setError(null);
     try {
       const res = await projectTutorialsService.fetchProjectBySlug(slug);
-      if (res?.data) {
-        setProject(res.data);
+      const projectData = res?.data || res;
+      if (projectData && (projectData.id || projectData.slug)) {
+        setProject(projectData);
       } else {
         setError("Project tutorial not found.");
       }
@@ -266,7 +267,7 @@ export default function ProjectTutorialDetailPage({ params }) {
               className="hover:text-white transition-colors cursor-pointer text-sm font-medium text-zinc-300 flex items-center gap-1.5"
             >
               <FileText className="w-4 h-4 text-emerald-400" />
-              Resume Screener
+              Resume Reviewer
             </button>
             <button
               type="button"
@@ -274,7 +275,7 @@ export default function ProjectTutorialDetailPage({ params }) {
               className="hover:text-white transition-colors cursor-pointer text-sm font-medium text-zinc-300 flex items-center gap-1.5"
             >
               <BrainCircuit className="w-4 h-4 text-emerald-400" />
-              Mental Health Score
+              Wellbeing Check-In
             </button>
           </div>
         </div>

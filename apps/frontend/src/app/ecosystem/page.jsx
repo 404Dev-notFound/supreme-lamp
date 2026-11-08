@@ -244,19 +244,19 @@ export default function EcosystemPage() {
         <div className="space-y-3">
           <div className="flex items-center gap-2 flex-wrap">
             <span className="px-3 py-1 rounded-full text-xs font-mono font-bold uppercase tracking-wider bg-orange-500/10 text-orange-400 border border-orange-500/30">
-              AI RAG Career Engine & Interactive Canvas
+              Career Navigator & Interactive Canvas
             </span>
             <span className="text-xs font-mono text-zinc-500 hidden sm:inline">
               92 Curated Tracks • 10,400+ Topics • 24,000+ Verified Resources
             </span>
           </div>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight">
-            Personalized Career Roadmap & Ecosystem
+            Interactive Learning Paths & Ecosystem
           </h1>
           <p className="text-sm sm:text-base text-zinc-400 max-w-3xl leading-relaxed">
             Search for any career goal, engineering discipline, or learning objective.
-            Our LangChain RAG model generates a structured, prerequisite-ordered roadmap
-            rendered directly on the interactive canvas with courses and references from 90+ verified curricula.
+            We map out a clear, step-by-step roadmap on the interactive canvas
+            with verified topics, tutorials, and practical references from 101 curricula.
           </p>
         </div>
 

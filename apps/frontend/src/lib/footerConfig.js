@@ -22,7 +22,7 @@ export const ECOSYSTEM_PRODUCTS = [
     shortName: "fC",
     tagline: "The Career Operating System",
     description:
-      "Identify skill gaps, explore 90+ dev roadmaps, and land your dream engineering role.",
+      "Explore 101 structured roadmaps, practice DSA, build practical projects, and track your progress.",
     href: "/",
     isExternal: false,
     badge: "Core Platform",
@@ -31,9 +31,9 @@ export const ECOSYSTEM_PRODUCTS = [
   {
     name: "Ecosystem Architecture",
     shortName: "ECO",
-    tagline: "Robotic Architecture Explorer & Project Network",
+    tagline: "Interactive Learning Canvas & Project Network",
     description:
-      "Interactive command-center visualizing all 5 ecosystem projects, RAG memory, and telemetry.",
+      "Interactive command center connecting learning paths, practical build guides, and community tools.",
     href: "/ecosystem",
     isExternal: false,
     badge: "Interactive Hub",
@@ -42,7 +42,7 @@ export const ECOSYSTEM_PRODUCTS = [
   {
     name: "CodeCollab",
     shortName: "CC",
-    tagline: "Collaborative Open-Source Development Platform",
+    tagline: "Open-Source Collaboration Platform",
     description:
       "Multi-language project matchmaking, trie search, and team collaboration workspace.",
     href: "https://opensource-projects.netlify.app",
@@ -52,47 +52,47 @@ export const ECOSYSTEM_PRODUCTS = [
     repoUrl: "https://github.com/404Dev-notFound/jubilant-octo-potato",
   },
   {
-    name: "Project-Building Tutorials",
+    name: "Project Tutorials",
     shortName: "BYOX",
-    tagline: "Build Real Technologies From First Principles",
+    tagline: "Learn by Building Real Software",
     description:
-      "Interactive step-by-step guides to build databases, OS, compilers, servers, and AI models from scratch.",
+      "Step-by-step guides to build databases, operating systems, compilers, servers, and developer tools from scratch.",
     href: "/project-tutorials",
     isExternal: false,
     badge: "Core Feature",
     officialUrl: "https://flowctrl.dev/project-tutorials",
   },
   {
-    name: "ATS Resume Analysis",
+    name: "Resume Reviewer",
     shortName: "ATS",
-    tagline: "Automated Resume Screener & ATS Parser",
+    tagline: "Skill & Presentation Review",
     description:
-      "Evaluate your resume against top industry filters and receive real-time match scoring.",
+      "Understand how your resume presents your skills and discover where to improve before applying.",
     href: "/resume-screener",
     isExternal: false,
-    badge: "Production App",
+    badge: "Career Tool",
     officialUrl: "https://ats-resume-analysis.netlify.app",
   },
   {
-    name: "Mental Health Score",
+    name: "Wellbeing Check-In",
     shortName: "MHS",
-    tagline: "Developer Wellbeing & Mental Fitness Check",
+    tagline: "Developer Wellbeing & Balanced Routine",
     description:
-      "Fluffy Spoon wellbeing assessment model tailored for high-focus engineering teams.",
+      "Take a moment to check in with yourself and maintain a healthy, sustainable learning routine.",
     href: "https://fluffy-spoon-score.vercel.app",
     isExternal: true,
-    badge: "Wellbeing AI",
+    badge: "Wellbeing",
     officialUrl: "https://fluffy-spoon-score.vercel.app",
   },
   {
     name: "404 Community",
     shortName: "404",
-    tagline: "From Error to Execution — Offline Tech Guild",
+    tagline: "From Error to Execution — Student Tech Guild",
     description:
-      "Offline student project incubation, collaborative coding sprints, and peer mentorship.",
+      "Student project incubation, collaborative coding sprints, and peer mentorship.",
     href: "/community-agreement",
     isExternal: false,
-    badge: "Offline Guild",
+    badge: "Community",
     officialUrl: "https://flowctrl.dev/community-agreement",
   },
 ];

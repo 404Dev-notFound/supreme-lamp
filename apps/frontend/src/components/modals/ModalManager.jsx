@@ -82,12 +82,12 @@ function ModalManagerContent() {
   };
 
   const titleMap = {
-    signin: "Sign In",
-    signup: "Sign Up",
-    forgot: "Forgot Password",
-    profile: "My Profile",
+    signin: "Welcome Back",
+    signup: "Start Your Journey",
+    forgot: "Reset Your Password",
+    profile: "Your Profile",
     "edit-profile": "Edit Profile",
-    security: "Security Center",
+    security: "Account Security",
     settings: "Settings & Preferences",
   };
 

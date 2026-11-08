@@ -33,12 +33,12 @@ export default function RoadmapCanvasView({
         </div>
 
         <h3 className="text-xl md:text-2xl font-extrabold text-white tracking-tight mb-2">
-          AI-Powered Career Roadmap Canvas
+          Interactive Career Roadmap Canvas
         </h3>
         <p className="text-sm text-zinc-400 max-w-lg mb-6 leading-relaxed">
           Search for any career goal, tech stack, or skill above to generate a
-          personalized, stage-ordered roadmap grounded in our collection of 90+
-          verified curricula.
+          personalized, stage-ordered roadmap grounded in our collection of 101
+          structured curricula.
         </p>
 
         <div className="flex items-center gap-3">
@@ -48,7 +48,7 @@ export default function RoadmapCanvasView({
             className="inline-flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-semibold bg-white/5 hover:bg-white/10 text-zinc-300 hover:text-white border border-white/10 transition-all cursor-pointer"
           >
             <Compass className="w-4 h-4 text-orange-400" />
-            <span>Switch to 5-Project Ecosystem</span>
+            <span>Switch to flowCTRL Ecosystem</span>
           </button>
         </div>
       </div>
@@ -135,7 +135,7 @@ export default function RoadmapCanvasView({
           </span>
           {roadmapData.provenance?.totalResourcesGrounded && (
             <span className="text-[11px] font-mono text-zinc-400 hidden sm:inline">
-              • {roadmapData.provenance.totalResourcesGrounded} Grounded Courses
+              • {roadmapData.provenance.totalResourcesGrounded} Grounded Tracks
             </span>
           )}
         </div>

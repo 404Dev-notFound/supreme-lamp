@@ -104,7 +104,7 @@ export default function RagAssistantPage() {
               <span className="font-bold text-primary-foreground tracking-tighter">fC</span>
             </div>
             <span className="font-semibold text-lg tracking-tight">
-              flowCTRL <span className="text-orange-400 font-normal">/ RAG AI Architect</span>
+              flowCTRL <span className="text-pink-400 font-normal">/ Career Assistant</span>
             </span>
           </Link>
         </div>
@@ -128,7 +128,7 @@ export default function RagAssistantPage() {
           </Link>
           <Link href="/assistant" className="text-pink-400 font-semibold flex items-center gap-1.5">
             <BrainCircuit className="w-4 h-4 text-pink-400" />
-            AI Assistant
+            Career Assistant
           </Link>
         </div>
 
@@ -143,13 +143,13 @@ export default function RagAssistantPage() {
         <div className="mb-8">
           <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-xs font-semibold mb-3">
             <BrainCircuit className="w-3.5 h-3.5" />
-            Semantic Retrieval-Augmented Generation & Skill Gap Analysis
+            Personalized Guidance • Built Around Your Goals
           </div>
           <h1 className="text-3xl sm:text-4xl font-extrabold tracking-tight mb-2">
-            AI Career Advisor & Personalized Roadmap Architect
+            Find Your Path. Plan Your Next Move.
           </h1>
-          <p className="text-zinc-400 max-w-3xl text-sm sm:text-base">
-            Powered by LangChain, dense vector semantic search, and deterministic skill gap evaluation. Input your background and career ambitions to generate an adaptive, milestone-based curriculum with matched project tutorials and resources.
+          <p className="text-zinc-300 max-w-3xl text-sm sm:text-base leading-relaxed">
+            Tell us what you know and where you want to go. We&apos;ll help you find the skills to learn, create a clear roadmap, and discover projects and resources that move you closer to your goal.
           </p>
         </div>
 
@@ -158,12 +158,12 @@ export default function RagAssistantPage() {
           <form onSubmit={handleGenerate} className="space-y-6">
             <div>
               <label className="block text-xs font-semibold text-zinc-300 uppercase tracking-wider mb-2">
-                Your Career Ambition or Query
+                Your Goal or Current Situation
               </label>
               <div className="relative">
                 <input
                   type="text"
-                  placeholder="e.g. I am a frontend developer with 2 years experience looking to transition into a Distributed Systems & Backend Engineer..."
+                  placeholder="e.g. I am a college student learning JavaScript and React, and I want to prepare for frontend developer roles..."
                   value={query}
                   onChange={(e) => setQuery(e.target.value)}
                   className="w-full bg-zinc-900/90 border border-white/10 rounded-xl px-4 py-3 text-sm text-zinc-100 placeholder:text-zinc-500 focus:outline-none focus:border-primary/50 shadow-inner"
@@ -174,7 +174,7 @@ export default function RagAssistantPage() {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
               <div>
                 <label className="block text-xs font-semibold text-zinc-300 uppercase tracking-wider mb-2">
-                  Target Engineering Role
+                  Target Role
                 </label>
                 <select
                   value={targetRole}
@@ -185,14 +185,14 @@ export default function RagAssistantPage() {
                   <option value="Frontend Engineer">Frontend Engineer</option>
                   <option value="Full Stack Engineer">Full Stack Engineer</option>
                   <option value="DevOps Engineer">DevOps & Cloud Architect</option>
-                  <option value="AI Engineer">AI / Prompt Engineer</option>
+                  <option value="AI Engineer">AI / Machine Learning Engineer</option>
                   <option value="Security Analyst">Security Analyst</option>
                 </select>
               </div>
 
               <div>
                 <label className="block text-xs font-semibold text-zinc-300 uppercase tracking-wider mb-2">
-                  Target Company Culture
+                  Target Environment
                 </label>
                 <select
                   value={targetDomain}
@@ -200,15 +200,15 @@ export default function RagAssistantPage() {
                   className="w-full bg-zinc-900/90 border border-white/10 rounded-xl px-3 py-2.5 text-sm text-zinc-200 focus:outline-none"
                 >
                   <option value="Product-based company">Product-based Company</option>
-                  <option value="Fast-paced Startup">Fast-paced Startup</option>
-                  <option value="Fintech / Enterprise">Fintech / Enterprise</option>
-                  <option value="Frontier R&D">Frontier R&D Lab</option>
+                  <option value="Fast-paced Startup">Fast-growing Startup</option>
+                  <option value="Fintech / Enterprise">Tech Enterprise</option>
+                  <option value="Frontier R&D">Research &amp; Innovation Lab</option>
                 </select>
               </div>
 
               <div>
                 <label className="block text-xs font-semibold text-zinc-300 uppercase tracking-wider mb-2">
-                  Current Skills (Comma Separated)
+                  Skills You Know (Comma-Separated)
                 </label>
                 <input
                   type="text"
@@ -221,7 +221,7 @@ export default function RagAssistantPage() {
 
               <div>
                 <label className="block text-xs font-semibold text-zinc-300 uppercase tracking-wider mb-2">
-                  Experience (Years)
+                  Years of Experience (0 for Students)
                 </label>
                 <input
                   type="number"
@@ -243,12 +243,12 @@ export default function RagAssistantPage() {
                 {loading ? (
                   <>
                     <Loader2 className="w-4 h-4 animate-spin" />
-                    Synthesizing Semantic Knowledge Base...
+                    Planning Your Learning Path...
                   </>
                 ) : (
                   <>
                     <Sparkles className="w-4 h-4" />
-                    Generate Adaptive Roadmap
+                    Plan My Career Roadmap
                   </>
                 )}
               </button>
@@ -288,13 +288,13 @@ export default function RagAssistantPage() {
               </div>
             </div>
 
-            {/* 1. Skill Gap Delta Card */}
+            {/* 1. Skill Progression Card */}
             {(result.skillGapAnalysis || result.skillGapMetrics) && (
               <div className="glass p-6 sm:p-8 rounded-2xl border border-white/10 space-y-4">
                 <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 border-b border-white/10">
                   <div>
                     <h3 className="text-xl font-bold text-zinc-100 flex items-center gap-2">
-                      <Target className="w-5 h-5 text-primary" /> Skill Gap Benchmark Delta
+                      <Target className="w-5 h-5 text-primary" /> Skills You Have &amp; What to Learn Next
                     </h3>
                     <p className="text-xs text-zinc-400 mt-1">
                       Target Role: <span className="text-zinc-200 font-semibold">{result.targetRole || targetRole}</span>
@@ -302,7 +302,7 @@ export default function RagAssistantPage() {
                   </div>
 
                   <div className="flex items-center gap-2 px-3 py-1.5 rounded-full bg-primary/10 border border-primary/20 text-primary text-xs font-bold">
-                    Skill Gaps Identified: {result.skillGapMetrics?.totalGapsIdentified || 6}
+                    Skills to Focus On: {result.skillGapMetrics?.totalGapsIdentified || 6}
                   </div>
                 </div>
 
@@ -310,7 +310,7 @@ export default function RagAssistantPage() {
                   {/* Matched Skills */}
                   <div>
                     <div className="text-xs font-semibold text-emerald-400 uppercase tracking-wider mb-2 flex items-center gap-1.5">
-                      <CheckCircle2 className="w-4 h-4" /> Current Mastered Skills
+                      <CheckCircle2 className="w-4 h-4" /> Skills You Already Have
                     </div>
                     <div className="flex flex-wrap gap-2">
                       {currentSkills.split(",").map((s, idx) => (
@@ -324,13 +324,13 @@ export default function RagAssistantPage() {
                     </div>
                   </div>
 
-                  {/* Critical Skill Gaps */}
+                  {/* Priority Skills to Learn */}
                   <div>
                     <div className="text-xs font-semibold text-orange-400 uppercase tracking-wider mb-2 flex items-center gap-1.5">
-                      <AlertCircle className="w-4 h-4" /> High-Priority Knowledge Gaps
+                      <AlertCircle className="w-4 h-4" /> Priority Concepts to Learn Next
                     </div>
                     <div className="flex flex-wrap gap-2">
-                      {["Distributed Consensus", "Message Queuing & Kafka", "Database Indexing & MVCC", "Caching & Cache Stampede", "High-Scale System Architecture", "Observability & Tracing"].map((gap, idx) => (
+                      {["Distributed Systems", "Message Queues", "Database Indexing", "Caching Strategies", "System Architecture", "API Observability"].map((gap, idx) => (
                         <span
                           key={idx}
                           className="px-2.5 py-1 rounded-lg bg-orange-500/10 border border-orange-500/20 text-orange-300 text-xs font-medium"
@@ -348,7 +348,7 @@ export default function RagAssistantPage() {
             {result.stages && result.stages.length > 0 && (
               <div className="space-y-4">
                 <h3 className="text-xl font-bold text-zinc-100 flex items-center gap-2">
-                  <Layers className="w-5 h-5 text-primary" /> Personalized Roadmap Curriculum
+                  <Layers className="w-5 h-5 text-primary" /> Your Step-by-Step Learning Milestones
                 </h3>
 
                 <div className="space-y-4">
@@ -435,13 +435,13 @@ export default function RagAssistantPage() {
               </div>
             )}
 
-            {/* 3. Recommended Project Tutorials & Curated Provenance */}
+            {/* 3. Recommended Projects */}
             <div className="glass p-6 sm:p-8 rounded-2xl border border-white/10 space-y-4">
               <h3 className="text-xl font-bold text-zinc-100 flex items-center gap-2">
-                <Hammer className="w-5 h-5 text-orange-400" /> Matched Project-Building Tutorials
+                <Hammer className="w-5 h-5 text-orange-400" /> Recommended Projects to Build
               </h3>
               <p className="text-xs text-zinc-400">
-                Semantically matched from flowCTRL's catalog of 1,274 project tutorials and architecture guides.
+                Hands-on project tutorials selected from our catalog to help you turn concepts into practical experience.
               </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">

@@ -81,11 +81,10 @@ export default function UpgradeMembershipModal({
             </div>
 
             <h2 className="text-2xl sm:text-3xl font-bold tracking-tight mb-2">
-              Elevate your engineering career.
+              Take your learning further.
             </h2>
             <p className="text-sm text-zinc-300 mb-6">
-              Access deep-dive masterclasses, planetary-scale distributed systems,
-              offensive cybersecurity labs, and verified member credentials.
+              Unlock advanced System Design roadmaps, in-depth architectural guides, and practical engineering blueprints.
             </p>
 
             {error && (
@@ -146,11 +145,11 @@ export default function UpgradeMembershipModal({
                 Included in flowCTRL Premium:
               </div>
               {[
-                "Full access to 6 exclusive curated engineering masterclasses",
-                "Advanced architecture blueprints & state machine consensus guides",
-                "Offensive security, threat modeling & cryptographic protocols",
-                "Zero-fluff deep-dive curriculum with interactive code checkpoints",
-                "Verified Senior Architect Member Badge on public profile",
+                "Full access to advanced System Design & Architecture tracks",
+                "Step-by-step topic guides and practical checkpoints",
+                "Deep architectural blueprints and real-world case studies",
+                "Personal progress tracking across all specialized paths",
+                "Member recognition and priority support for the platform",
               ].map((feat, i) => (
                 <div key={i} className="flex items-center gap-2 text-xs text-zinc-200">
                   <div className="w-4 h-4 rounded-full bg-orange-500/20 text-orange-400 flex items-center justify-center shrink-0">

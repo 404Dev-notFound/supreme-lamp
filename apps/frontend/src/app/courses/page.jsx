@@ -114,10 +114,10 @@ export default function CoursesPage() {
 
         <div className="hidden lg:flex items-center gap-6 text-sm font-medium text-zinc-300">
           <Link href="/roadmaps" className="hover:text-amber-300 transition-colors">Roadmaps</Link>
-          <Link href="/dsa" className="hover:text-amber-300 transition-colors">DSA Engine</Link>
+          <Link href="/dsa" className="hover:text-amber-300 transition-colors">Problem-Solving & DSA</Link>
           <Link href="/project-tutorials" className="hover:text-amber-300 transition-colors">Project Tutorials</Link>
           <Link href="/resources" className="hover:text-amber-300 transition-colors">Resources</Link>
-          <Link href="/assistant" className="hover:text-amber-300 transition-colors">RAG Assistant</Link>
+          <Link href="/assistant" className="hover:text-amber-300 transition-colors">Career Assistant</Link>
         </div>
 
         <div className="flex items-center gap-3">
@@ -131,10 +131,10 @@ export default function CoursesPage() {
         <div className="mb-8">
           <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-xs font-semibold mb-3">
             <GraduationCap className="w-3.5 h-3.5" />
-            Elite Software Engineering Curriculums
+            Structured Engineering Curriculums
           </div>
           <h1 className="text-3xl sm:text-4xl font-extrabold tracking-tight mb-2">
-            Production Engineering Masterclasses
+            Master Production Engineering
           </h1>
           <p className="text-zinc-400 max-w-3xl text-sm sm:text-base">
             In-depth multi-week courses taught by staff engineers and infrastructure leads, complete with architecture diagrams, interactive labs, and capstone code deliverables.
@@ -292,7 +292,7 @@ export default function CoursesPage() {
                       }`}
                     >
                       <CheckCircle2 className="w-4 h-4" />
-                      {isEnrolled ? "Enrolled & In Progress" : "Enroll Masterclass"}
+                      {isEnrolled ? "Enrolled • Continue Learning" : "Start Learning"}
                     </button>
                   </div>
                 </div>

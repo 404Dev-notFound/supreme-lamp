@@ -92,9 +92,7 @@ export default function Footer() {
               </div>
             </Link>
             <p className="text-sm text-zinc-300 max-w-xl leading-relaxed">
-              Empowering engineers and ambitious talent to systematically bridge
-              skill gaps, master interactive roadmaps, and build verified
-              careers.
+              Everything students need to plan, learn, practice, build, and track their career journey — organized in one place.
             </p>
           </div>
 

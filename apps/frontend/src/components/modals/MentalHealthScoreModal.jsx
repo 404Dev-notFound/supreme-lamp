@@ -62,11 +62,11 @@ export default function MentalHealthScoreModal({ isOpen, onClose }) {
                         as="h3"
                         className="text-base sm:text-lg font-bold text-white tracking-tight flex items-center gap-2"
                       >
-                        Mental Health Score
+                        Wellbeing Check-In
                       </Dialog.Title>
                       <span className="hidden md:inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 gap-1">
                         <Sparkles className="w-3 h-3" />
-                        Wellbeing Radar
+                        Healthy Routine Check
                       </span>
                     </div>
                   </div>

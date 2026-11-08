@@ -120,7 +120,8 @@ class ClientCacheManager {
     // Check Layer 1: In-Memory LRU Cache
     // ==========================================
     const memoryRecord = this.memory.get(key);
-    if (memoryRecord) {
+    const isMemoryEmptyArray = memoryRecord && Array.isArray(memoryRecord.data) && memoryRecord.data.length === 0;
+    if (memoryRecord && !isMemoryEmptyArray) {
       this.telemetry.memoryHits++;
 
       // If SWR and stale, trigger non-blocking background revalidation
@@ -144,7 +145,8 @@ class ClientCacheManager {
       console.warn("IDB read error:", e);
     }
 
-    if (idbRecord && idbRecord.data) {
+    const isIdbEmptyArray = idbRecord && Array.isArray(idbRecord.data) && idbRecord.data.length === 0;
+    if (idbRecord && idbRecord.data && !isIdbEmptyArray) {
       this.telemetry.idbHits++;
 
       // Warm in-memory cache
@@ -230,8 +232,8 @@ class ClientCacheManager {
         rawData = await res.json();
       }
 
-      // Extract payload (handles standard { success, data } envelopes)
-      const data = rawData?.data !== undefined ? rawData.data : rawData;
+      // Extract payload (handles standard { success, data } envelopes, preserving pagination if present)
+      const data = (rawData?.data !== undefined && !rawData.pagination) ? rawData.data : rawData;
 
       // Persist to Layer 1 (In-Memory) & Layer 2 (IndexedDB)
       const cacheRecord = {

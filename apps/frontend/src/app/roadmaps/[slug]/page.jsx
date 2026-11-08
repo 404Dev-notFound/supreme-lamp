@@ -25,6 +25,7 @@ import Footer from "../../../components/Footer";
 import { getRoadmapBySlug } from "@flowctrl/roadmap-data";
 import { roadmapsService } from "../../../services/roadmaps.service";
 import { membershipService } from "../../../services/membership.service";
+import { analyticsService } from "../../../services/analytics.service";
 import { indexedDbStorage, STORES } from "@/lib/storage/indexedDbStorage";
 import { useAuth } from "@/hooks/useAuth";
 
@@ -48,6 +49,63 @@ export default function RoadmapDetailPage({ params }) {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
   const [isResumeScreenerOpen, setResumeScreenerOpen] = useState(false);
   const [isUpgradeModalOpen, setUpgradeModalOpen] = useState(false);
+  const [analytics, setAnalytics] = useState(null);
+  const [isEnrolled, setIsEnrolled] = useState(false);
+  const [isEnrolling, setIsEnrolling] = useState(false);
+
+  // Track roadmap detail view in platform analytics and fetch engagement counts
+  useEffect(() => {
+    if (slug) {
+      analyticsService.trackEvent({
+        eventType: "DETAIL_VIEW",
+        entityType: "ROADMAP",
+        entityId: slug,
+      });
+      analyticsService.getRoadmapAnalytics(slug).then((data) => {
+        if (data) setAnalytics(data);
+      });
+    }
+  }, [slug]);
+
+  // Sync authenticated user progress from backend database
+  useEffect(() => {
+    if (authUser && slug) {
+      roadmapsService.fetchProgress(slug).then((res) => {
+        if (res) {
+          setIsEnrolled(Boolean(res.isEnrolled));
+          if (res.completedTopics && Array.isArray(res.completedTopics)) {
+            setCompletedTopics(new Set(res.completedTopics));
+          }
+        }
+      });
+    }
+  }, [authUser, slug]);
+
+  const handleEnroll = async () => {
+    if (!authUser) {
+      handleOpenAuth();
+      return;
+    }
+    setIsEnrolling(true);
+    try {
+      const res = await roadmapsService.enroll(slug);
+      if (res) {
+        setIsEnrolled(true);
+        // Refresh analytics counter locally
+        setAnalytics((prev) =>
+          prev
+            ? {
+                ...prev,
+                totalEnrollments: (prev.totalEnrollments || 0) + 1,
+                activeLearners: (prev.activeLearners || 0) + 1,
+              }
+            : null,
+        );
+      }
+    } finally {
+      setIsEnrolling(false);
+    }
+  };
 
   // Fetch dynamic/premium roadmap details with client-side SWR caching
   useEffect(() => {
@@ -127,6 +185,10 @@ export default function RoadmapDetailPage({ params }) {
         completedTopics: arr,
         updatedAt: Date.now(),
       }).catch(() => {});
+
+      if (authUser) {
+        roadmapsService.toggleTopic(slug, topicId, totalTopicsCount);
+      }
       return next;
     });
   };
@@ -238,7 +300,7 @@ export default function RoadmapDetailPage({ params }) {
             onClick={() => setResumeScreenerOpen(true)}
             className="text-sm font-medium text-zinc-300 hover:text-white transition-colors hidden md:inline cursor-pointer"
           >
-            Resume Screener
+            Resume Reviewer
           </button>
           <NavProfile />
         </div>
@@ -262,7 +324,7 @@ export default function RoadmapDetailPage({ params }) {
                 {isPremiumTrack && (
                   <span className="text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full bg-orange-500/20 border border-orange-500/40 text-amber-300 flex items-center gap-1.5">
                     <Sparkles className="w-3.5 h-3.5 text-orange-400" />
-                    Premium Masterclass
+                    Advanced Track
                   </span>
                 )}
                 <span className="text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full bg-white/10 border border-white/15 text-zinc-200">
@@ -284,6 +346,24 @@ export default function RoadmapDetailPage({ params }) {
               <p className="text-sm md:text-base text-zinc-200 leading-relaxed font-normal">
                 {roadmap.description}
               </p>
+
+              {/* Live Roadmap Analytics & Engagement Stats */}
+              {analytics && (
+                <div className="flex flex-wrap items-center gap-3 mt-4 text-xs text-zinc-300">
+                  <span className="flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-white/5 border border-white/10">
+                    <span className="w-1.5 h-1.5 rounded-full bg-orange-400"></span>
+                    <strong>{analytics.totalViews || 0}</strong> Total Views
+                  </span>
+                  <span className="flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-white/5 border border-white/10">
+                    <span className="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
+                    <strong>{analytics.totalEnrollments || 0}</strong> Enrolled
+                  </span>
+                  <span className="flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-white/5 border border-white/10">
+                    <span className="w-1.5 h-1.5 rounded-full bg-blue-400"></span>
+                    <strong>{analytics.activeLearners || 0}</strong> Active Learners
+                  </span>
+                </div>
+              )}
             </div>
 
             {/* Progress Tracker Card (shown when unlocked) */}
@@ -291,7 +371,7 @@ export default function RoadmapDetailPage({ params }) {
               <div className="p-5 rounded-2xl bg-zinc-900/85 border border-white/15 min-w-[280px] shrink-0 shadow-xl backdrop-blur-md">
                 <div className="flex items-center justify-between gap-4 mb-2">
                   <span className="text-xs uppercase font-bold text-zinc-300">
-                    Curriculum Progress
+                    Learning Progress
                   </span>
                   <span className="text-sm font-bold text-amber-300">
                     {progressPercent}%
@@ -305,14 +385,33 @@ export default function RoadmapDetailPage({ params }) {
                   />
                 </div>
 
-                <div className="flex items-center justify-between text-xs text-zinc-300">
+                <div className="flex items-center justify-between text-xs text-zinc-300 mb-3">
                   <span>
                     <strong className="text-white">{completedCount}</strong> of{" "}
-                    {totalTopicsCount} mastered
+                    {totalTopicsCount} completed
                   </span>
                   <span className="text-emerald-400 font-semibold flex items-center gap-1">
                     <CheckCircle2 className="w-3.5 h-3.5" /> Tracked
                   </span>
+                </div>
+
+                {/* Explicit Enrollment Action */}
+                <div className="pt-3 border-t border-white/10">
+                  {isEnrolled ? (
+                    <span className="text-xs font-semibold text-emerald-400 flex items-center gap-1.5">
+                      <CheckCircle2 className="w-4 h-4" /> Enrolled in Track
+                    </span>
+                  ) : (
+                    <button
+                      type="button"
+                      onClick={handleEnroll}
+                      disabled={isEnrolling}
+                      className="w-full py-2 px-4 rounded-xl bg-gradient-to-r from-orange-500 to-amber-400 hover:from-orange-400 hover:to-amber-300 text-black font-semibold text-xs shadow-md transition-all flex items-center justify-center gap-2 cursor-pointer"
+                    >
+                      <Compass className="w-3.5 h-3.5" />
+                      {isEnrolling ? "Enrolling..." : "Enroll in Track"}
+                    </button>
+                  )}
                 </div>
               </div>
             )}

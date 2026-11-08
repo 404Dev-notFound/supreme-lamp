@@ -78,9 +78,9 @@ export default function RoadmapSearchBar({
   };
 
   const loadingSteps = [
-    "Analyzing career objective & searching 92 curated tracks...",
-    "Querying LangChain RAG vector embeddings & retrieving verified courses...",
-    "Synthesizing prerequisite graph & ordering learning stages...",
+    "Reviewing your learning goals across 101 structured tracks...",
+    "Finding relevant topics, tutorials, and practical projects...",
+    "Organizing your step-by-step learning milestones...",
   ];
 
   return (

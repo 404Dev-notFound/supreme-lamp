@@ -218,10 +218,10 @@ export default function RoadmapStepDrawer({
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-2 text-xs font-mono font-bold uppercase tracking-wider text-orange-400">
                 <GraduationCap className="w-4 h-4 text-orange-400" />
-                <span>Recommended Courses ({recommendedCourses.length})</span>
+                <span>Recommended Resources ({recommendedCourses.length})</span>
               </div>
               <span className="text-[11px] font-mono text-zinc-500">
-                Grounded in 90+ verified curricula
+                Grounded in 101 structured curricula
               </span>
             </div>
 
@@ -265,7 +265,7 @@ export default function RoadmapStepDrawer({
                         rel="noopener noreferrer"
                         className="px-2.5 py-1 rounded-lg text-xs font-mono bg-white/5 hover:bg-orange-500 hover:text-white text-zinc-300 border border-white/10 transition-all shrink-0 cursor-pointer"
                       >
-                        Open Course
+                        Open Resource
                       </a>
                     </div>
 
@@ -279,7 +279,7 @@ export default function RoadmapStepDrawer({
               </div>
             ) : (
               <div className="p-4 rounded-xl bg-white/[0.02] border border-white/5 text-xs text-zinc-400 text-center">
-                No specific course listed in the direct curriculum for this step. See reference links below.
+                No specific single resource listed for this step. Explore the verified documentation links below.
               </div>
             )}
           </div>
@@ -353,7 +353,7 @@ export default function RoadmapStepDrawer({
 
         {/* Footer info */}
         <div className="pt-4 border-t border-white/10 flex items-center justify-between text-xs font-mono text-zinc-500">
-          <span>flowCTRL • RAG Curriculum Engine</span>
+          <span>flowCTRL • Career Operating System</span>
           <button
             onClick={onClose}
             className="text-zinc-400 hover:text-white transition-colors cursor-pointer"

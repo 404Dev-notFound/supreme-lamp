@@ -1,5 +1,5 @@
 # Multi-stage Docker build for flowCTRL Next.js Frontend
-FROM node:20-alpine AS base
+FROM node:22-slim AS base
 
 FROM base AS builder
 WORKDIR /app
@@ -18,10 +18,13 @@ WORKDIR /app
 ENV NODE_ENV=production
 ENV PORT=3000
 
+# Install wget for healthcheck
+RUN apt-get update && apt-get install -y --no-install-recommends wget && rm -rf /var/lib/apt/lists/*
+
 COPY --from=builder /app/package.json ./package.json
 COPY --from=builder /app/node_modules ./node_modules
 COPY --from=builder /app/packages ./packages
-COPY --from=builder /app/flowCTRL\ data\ files ./flowCTRL\ data\ files
+COPY --from=builder ["/app/flowCTRL data files", "./flowCTRL data files"]
 COPY --from=builder /app/apps/frontend/public ./apps/frontend/public
 COPY --from=builder /app/apps/frontend/.next ./apps/frontend/.next
 COPY --from=builder /app/apps/frontend/package.json ./apps/frontend/package.json

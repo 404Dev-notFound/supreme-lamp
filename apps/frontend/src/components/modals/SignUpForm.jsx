@@ -75,6 +75,7 @@ export default function SignUpForm({ onClose }) {
       }
 
       onClose();
+      router.push("/dashboard");
       router.refresh();
     } catch (err) {
       setError(

@@ -1,6 +1,7 @@
 const path = require("path");
 const { prisma } = require("../lib/prisma");
 const storageService = require("./storage.service");
+const { syncJsonUserData } = require("../utils/syncJsonData");
 const {
   sanitizeSelfProfile,
   sanitizePublicProfile,
@@ -121,12 +122,21 @@ class UsersService {
         }
       }
 
+      await tx.userActivityLog.create({
+        data: {
+          userId,
+          activityType: "PROFILE_UPDATE",
+          entityType: "PROFILE",
+          title: "Updated profile information",
+        },
+      });
+
       return tx.user.findUnique({
         where: { id: userId },
         include: {
           profile: true,
           preferences: true,
-          skills: {
+          userSkills: {
             include: {
               skill: true,
             },
@@ -134,6 +144,8 @@ class UsersService {
         },
       });
     });
+
+    syncJsonUserData(updatedUser, updatedUser.profile);
 
     return sanitizeSelfProfile(updatedUser);
   }

@@ -126,13 +126,13 @@ export default function HomeNotificationsSection() {
       <div className="text-center max-w-3xl mx-auto mb-14">
         <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-orange-500/10 border border-orange-500/20 text-orange-400 text-xs font-semibold uppercase tracking-wider mb-4 glass">
           <Bell className="w-3.5 h-3.5 text-orange-400" />
-          Live Platform Broadcasts
+          Community &amp; Opportunity Updates
         </div>
         <h2 className="text-3xl md:text-5xl font-bold tracking-tight text-zinc-100 mb-4">
-          Notifications &amp; Announcements
+          Updates, Opportunities &amp; Events
         </h2>
-        <p className="text-zinc-400 text-sm md:text-base leading-relaxed">
-          Stay synchronized with real-time technical interviews, upcoming ecosystem hackathons, community meetups, and platform engineering updates.
+        <p className="text-zinc-300 text-sm md:text-base leading-relaxed">
+          Stay up to date with upcoming technical interview sessions, student hackathons, community meetups, and newly released learning tracks.
         </p>
       </div>
 

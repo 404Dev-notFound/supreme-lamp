@@ -62,6 +62,7 @@ router.get("/me", authController.me);
 
 // POST /api/auth/logout - Invalidate current session
 router.post("/logout", authController.logout);
+router.post("/signout", authController.logout);
 
 /**
  * Authenticated Endpoints

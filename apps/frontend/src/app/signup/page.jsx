@@ -41,7 +41,7 @@ export default function SignUpPage() {
             Create your account
           </h1>
           <p className="text-xs text-zinc-400">
-            Join flowCTRL to map your skills, follow interactive dev tracks, and land top roles.
+            Join flowCTRL to plan your path, follow structured learning roadmaps, build real projects, and track your growth.
           </p>
         </div>
 
@@ -52,7 +52,7 @@ export default function SignUpPage() {
 
       {/* Security Note */}
       <p className="mt-8 text-center text-[11px] text-zinc-500 relative z-10">
-        By registering, you agree to the flowCTRL Terms and Security Guidelines.
+        By creating an account, you agree to the flowCTRL Terms and Community Guidelines.
       </p>
     </div>
   );

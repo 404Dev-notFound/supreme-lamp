@@ -8,6 +8,7 @@
  */
 
 import { clientCache, CACHE_STRATEGIES, DEFAULT_TTLS } from "@/lib/storage/clientCacheManager";
+import { apiClient } from "@/lib/api";
 
 const API_BASE = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000";
 import { STORES } from "@/lib/storage/indexedDbStorage";
@@ -90,6 +91,50 @@ class RoadmapsClientService {
     idleCallback(() => {
       this.fetchDetailBySlug(slug).catch(() => {});
     });
+  }
+
+  /**
+   * Explicitly enroll authenticated user in a roadmap track
+   */
+  async enroll(slug) {
+    if (!slug) return null;
+    try {
+      const res = await apiClient.post(`/api/roadmaps/${slug}/enroll`, {});
+      return res?.data || res;
+    } catch (err) {
+      console.warn("Roadmap enrollment failed:", err.message);
+      return null;
+    }
+  }
+
+  /**
+   * Fetch authenticated user progress for a roadmap
+   */
+  async fetchProgress(slug) {
+    if (!slug) return null;
+    try {
+      const res = await apiClient.get(`/api/roadmaps/${slug}/progress`);
+      return res?.data || res;
+    } catch {
+      return null;
+    }
+  }
+
+  /**
+   * Toggle topic completion on backend
+   */
+  async toggleTopic(slug, topicId, totalTopicsCount) {
+    if (!slug || !topicId) return null;
+    try {
+      const res = await apiClient.post(`/api/roadmaps/${slug}/progress/toggle`, {
+        topicId,
+        totalTopicsCount,
+      });
+      return res?.data || res;
+    } catch (err) {
+      console.warn("Toggle topic failed:", err.message);
+      return null;
+    }
   }
 }
 

@@ -44,6 +44,57 @@ async function getRoadmapProgress({ userId, roadmapSlug }) {
 }
 
 /**
+ * Explicitly enroll user into a learning roadmap
+ */
+async function enrollInTrack({ userId, roadmapSlug }) {
+  if (!roadmapSlug) {
+    throw new RoadmapProgressError(
+      "Roadmap slug is required.",
+      400,
+      "INVALID_SLUG",
+    );
+  }
+
+  const cleanSlug = String(roadmapSlug).trim().toLowerCase();
+
+  const progress = await prisma.userRoadmapProgress.upsert({
+    where: {
+      userId_roadmapSlug: {
+        userId,
+        roadmapSlug: cleanSlug,
+      },
+    },
+    create: {
+      userId,
+      roadmapSlug: cleanSlug,
+      completedTopics: [],
+      progressPercent: 0,
+      lastActivityAt: new Date(),
+    },
+    update: {
+      lastActivityAt: new Date(),
+    },
+  });
+
+  try {
+    const { analyticsService } = require("./analytics.service");
+    await analyticsService.recordEvent({
+      userId,
+      eventType: "ENROLL",
+      entityType: "ROADMAP",
+      entityId: cleanSlug,
+    });
+  } catch (err) {
+    console.warn("Analytics enrollment recording error:", err.message);
+  }
+
+  return {
+    ...progress,
+    isEnrolled: true,
+  };
+}
+
+/**
  * Toggle topic completion and update progress percentage
  */
 async function toggleTopicCompletion({
@@ -80,6 +131,7 @@ async function toggleTopicCompletion({
 
   const total = Math.max(1, parseInt(totalTopicsCount, 10) || 10);
   const percent = Math.min(100, Math.round((completedTopics.length / total) * 100));
+  const isComplete = percent === 100;
 
   const updated = await prisma.userRoadmapProgress.upsert({
     where: {
@@ -94,15 +146,44 @@ async function toggleTopicCompletion({
       completedTopics,
       currentTopic: cleanTopicId,
       progressPercent: percent,
+      isCompleted: isComplete,
+      completedAt: isComplete ? new Date() : null,
       lastActivityAt: new Date(),
     },
     update: {
       completedTopics,
       currentTopic: cleanTopicId,
       progressPercent: percent,
+      isCompleted: isComplete,
+      completedAt: isComplete ? new Date() : null,
       lastActivityAt: new Date(),
     },
   });
+
+  try {
+    const { analyticsService } = require("./analytics.service");
+    if (isComplete) {
+      await analyticsService.recordEvent({
+        userId,
+        eventType: "COMPLETE",
+        entityType: "ROADMAP",
+        entityId: cleanSlug,
+      });
+    } else {
+      await analyticsService.recordEvent({
+        userId,
+        eventType: "PROGRESS",
+        entityType: "ROADMAP",
+        entityId: cleanSlug,
+        metadata: {
+          progressPercent: percent,
+          completedCount: completedTopics.length,
+        },
+      });
+    }
+  } catch (err) {
+    console.warn("Analytics progress recording error:", err.message);
+  }
 
   return updated;
 }
@@ -199,6 +280,7 @@ async function listCustomRoadmaps({ userId }) {
 
 module.exports = {
   getRoadmapProgress,
+  enrollInTrack,
   toggleTopicCompletion,
   listUserTracks,
   createCustomRoadmap,

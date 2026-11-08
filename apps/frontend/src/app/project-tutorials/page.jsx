@@ -64,14 +64,40 @@ export default function ProjectTutorialsLandingPage() {
       projectTutorialsService.fetchLanguages().catch(() => ({ data: [] })),
     ]).then(([catRes, langRes]) => {
       if (isMounted) {
-        if (catRes?.data) setCategories(catRes.data);
-        if (langRes?.data) setLanguages(langRes.data);
+        if (catRes) {
+          const catList = Array.isArray(catRes) ? catRes : (catRes.data || []);
+          setCategories(catList);
+        }
+        if (langRes) {
+          const langList = Array.isArray(langRes) ? langRes : (langRes.data || []);
+          setLanguages(langList);
+        }
       }
     });
 
     return () => {
       isMounted = false;
     };
+  }, []);
+
+  // Robust helper to apply projects and pagination safely
+  const applyProjectsPayload = useCallback((payload) => {
+    if (!payload) return;
+    const projectList = Array.isArray(payload)
+      ? payload
+      : Array.isArray(payload.data)
+      ? payload.data
+      : [];
+    setProjects(projectList);
+    if (payload.pagination) {
+      setPagination(payload.pagination);
+    } else if (Array.isArray(payload)) {
+      setPagination((prev) => ({
+        ...prev,
+        total: payload.length,
+        totalPages: Math.max(1, Math.ceil(payload.length / (prev.limit || 12))),
+      }));
+    }
   }, []);
 
   // Fetch Projects based on active filters and pagination
@@ -87,21 +113,19 @@ export default function ProjectTutorialsLandingPage() {
         sort: selectedSort,
         page,
         limit: 12,
+        onBackgroundUpdate: (fresh) => {
+          applyProjectsPayload(fresh);
+        },
       });
 
-      if (res?.data) {
-        setProjects(res.data);
-        if (res.pagination) {
-          setPagination(res.pagination);
-        }
-      }
+      applyProjectsPayload(res);
     } catch (err) {
       console.error("Failed to load project tutorials:", err);
       setError("Unable to load project tutorials. Please verify your connection.");
     } finally {
       setLoading(false);
     }
-  }, [searchQuery, selectedCategory, selectedLanguage, selectedDifficulty, selectedSort]);
+  }, [searchQuery, selectedCategory, selectedLanguage, selectedDifficulty, selectedSort, applyProjectsPayload]);
 
   // Debounced query triggering
   useEffect(() => {
@@ -204,19 +228,18 @@ export default function ProjectTutorialsLandingPage() {
         <section className="relative text-center max-w-4xl mx-auto mb-12">
           <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-orange-500/10 border border-orange-500/20 text-orange-400 text-sm font-medium mb-6 glass">
             <Hammer className="w-4 h-4 text-orange-400" />
-            First-Principles Engineering Catalog
+            Learning by Building • 1,274 Practical Guides
           </div>
 
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-4 leading-[1.15]">
-            Build Your Own Technology. <br />
+            Go beyond watching tutorials. <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-amber-300 to-yellow-200">
-              Understand What You Create.
+              Build real software. Understand how it works.
             </span>
           </h1>
 
           <p className="text-base md:text-lg text-zinc-300 max-w-2xl mx-auto leading-relaxed font-normal mb-8">
-            Recreate production-grade software from first principles. Master databases,
-            operating systems, compilers, web servers, and neural networks through hands-on step-by-step implementation.
+            Turn what you learn into practical engineering experience. Build real systems — from databases and operating systems to compilers, web servers, and tools — with step-by-step milestones.
           </p>
 
           {/* Search Bar Input */}
@@ -228,7 +251,7 @@ export default function ProjectTutorialsLandingPage() {
               type="text"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              placeholder="Search by project name, language (C, Go, Rust), technology, or concept..."
+              placeholder="Search projects by technology, concept, or language (e.g. Redis, Git, Docker, Rust)..."
               className="w-full pl-12 pr-10 py-3.5 rounded-2xl glass-card border border-white/10 bg-zinc-950/70 text-zinc-100 placeholder-zinc-500 text-sm focus:outline-none focus:border-orange-500/50 focus:ring-2 focus:ring-orange-500/20 transition-all shadow-xl"
             />
             {searchQuery && (

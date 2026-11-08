@@ -8,7 +8,7 @@
  * - Transparent bypass for authenticated mutations and private user data
  */
 
-const CACHE_VERSION = "flowctrl-v1.6.3";
+const CACHE_VERSION = "flowctrl-v1.6.5";
 const STATIC_CACHE_NAME = `flowctrl-static-${CACHE_VERSION}`;
 const API_CACHE_NAME = `flowctrl-api-${CACHE_VERSION}`;
 
@@ -16,7 +16,6 @@ const API_CACHE_NAME = `flowctrl-api-${CACHE_VERSION}`;
 const PRECACHE_ASSETS = [
   "/",
   "/roadmaps",
-  "/dsa",
   "/project-tutorials",
   "/resources",
   "/favicon.ico",
@@ -69,11 +68,25 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
-  // Never cache sensitive authentication routes
+  // Strictly bypass Service Worker on localhost / local IP or for all /_next/ dev resources & HMR
   if (
-    url.pathname.includes("/api/auth/") ||
-    url.pathname.includes("/api/users/me") ||
-    url.pathname.includes("/api/security/")
+    url.hostname === "localhost" ||
+    url.hostname === "127.0.0.1" ||
+    url.pathname.startsWith("/_next/")
+  ) {
+    return;
+  }
+
+  // Strictly bypass Service Worker for private, authenticated, or user-scoped requests
+  if (
+    url.pathname.includes("/api/auth") ||
+    url.pathname.includes("/api/users") ||
+    url.pathname.includes("/api/dashboard") ||
+    url.pathname.includes("/user/") ||
+    url.pathname.includes("/my") ||
+    url.pathname.includes("/progress") ||
+    url.pathname.includes("/bookmark") ||
+    url.pathname.includes("/security")
   ) {
     return;
   }

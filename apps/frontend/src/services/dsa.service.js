@@ -8,6 +8,7 @@
  */
 
 import { clientCache, CACHE_STRATEGIES, DEFAULT_TTLS } from "@/lib/storage/clientCacheManager";
+import { apiClient } from "@/lib/api";
 
 const API_BASE = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000";
 import { STORES } from "@/lib/storage/indexedDbStorage";
@@ -97,6 +98,32 @@ class DsaClientService {
   searchAlgorithms(prefix, limit = 20) {
     if (!this.isTrieIndexed || !prefix) return [];
     return this.searchTrie.searchPrefix(prefix, limit);
+  }
+
+  /**
+   * Fetch authenticated user's solved DSA problems from database
+   */
+  async fetchMyProgress() {
+    try {
+      const res = await apiClient.get("/api/dsa/progress/my");
+      return res?.data || { solvedSlugs: [], count: 0 };
+    } catch {
+      return { solvedSlugs: [], count: 0 };
+    }
+  }
+
+  /**
+   * Toggle solve status in database
+   */
+  async toggleSolve(slug, language = "all") {
+    if (!slug) return null;
+    try {
+      const res = await apiClient.post(`/api/dsa/${slug}/solve`, { language });
+      return res?.data || res;
+    } catch (err) {
+      console.warn("Toggle solve failed:", err.message);
+      return null;
+    }
   }
 }
 

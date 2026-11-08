@@ -28,6 +28,8 @@ const { ragRouter } = require("./routes/rag.routes");
 const { projectTutorialsRouter } = require("./routes/projectTutorials.routes");
 const { dsaRouter } = require("./routes/dsa.routes");
 const { coursesRouter } = require("./routes/courses.routes");
+const { dashboardRouter } = require("./routes/dashboard.routes");
+const { analyticsRouter } = require("./routes/analytics.routes");
 const { csrfProtection } = require("./middleware/csrf");
 const { requireAuth, requireRole } = require("./middleware/auth.middleware");
 const {
@@ -256,6 +258,7 @@ app.use("/api/auth", authRouter);
 
 // 18. User & Profile Management Routes
 app.use("/api/users", usersRouter);
+app.use("/api/user", usersRouter);
 
 // 19. Roadmaps Catalog & Progress Routes
 app.use("/api/roadmaps", roadmapsRouter);
@@ -304,14 +307,11 @@ app.use("/api/dsa", dsaRouter);
 // 33. Premium Engineering Courses & Syllabi
 app.use("/api/courses", coursesRouter);
 
-// 31. Protected Mission Control Dashboard Route
-app.get("/api/dashboard", requireAuth, (req, res) => {
-  res.setHeader("Cache-Control", "no-store, max-age=0");
-  res.status(200).json({
-    message: "Welcome to your Mission Control Center",
-    user: req.user,
-  });
-});
+// 34. Protected Mission Control Dashboard Route
+app.use("/api/dashboard", dashboardRouter);
+
+// 35. Platform Analytics & Interaction Event Engine
+app.use("/api/analytics", analyticsRouter);
 
 // 29. 404 & Centralized Error Handlers
 app.use(notFoundHandler);

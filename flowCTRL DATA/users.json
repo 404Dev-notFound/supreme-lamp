@@ -12,5 +12,19 @@
     "email": "bob@example.com",
     "createdAt": "2024-02-20T12:45:00Z",
     "roleId": "role_002"
+  },
+  {
+    "id": "cmw6dx4l10000mc97mbers625",
+    "username": "Lifecycle Tester",
+    "email": "lifecycle.test.1794054822025@flowctrl.dev",
+    "createdAt": "2026-11-07T12:33:42.517Z",
+    "roleId": "role_002"
+  },
+  {
+    "id": "cmw6myaxr000e8497uiui2bbg",
+    "username": "this is test name",
+    "email": "this_is_test_email____@gmail.com",
+    "createdAt": "2026-11-07T16:46:33.951Z",
+    "roleId": "role_002"
   }
 ]

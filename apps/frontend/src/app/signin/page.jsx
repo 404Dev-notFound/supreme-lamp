@@ -41,7 +41,7 @@ export default function SignInPage() {
             Welcome back
           </h1>
           <p className="text-xs text-zinc-400">
-            Sign in to continue your career journey and track your dev roadmap progress.
+            Sign in to continue your learning journey and pick up right where you left off.
           </p>
         </div>
 
@@ -52,7 +52,7 @@ export default function SignInPage() {
 
       {/* Security Note */}
       <p className="mt-8 text-center text-[11px] text-zinc-500 relative z-10">
-        Protected with 256-bit encryption, strict CSRF defense, and rate-limiting.
+        Your data is private, secure, and always under your control.
       </p>
     </div>
   );

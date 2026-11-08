@@ -118,13 +118,9 @@ async function request(endpoint, options = {}) {
     }
   }
 
-  // Resolve target URL: send /api/ requests to backend URL if not absolute
+  // Resolve target URL: send all relative /api/ requests to backend URL
   let targetUrl = endpoint;
-  if (
-    endpoint.startsWith("/api/auth") ||
-    endpoint.startsWith("/api/roadmaps") ||
-    endpoint.startsWith("/api/rag")
-  ) {
+  if (endpoint.startsWith("/api/")) {
     targetUrl = `${BACKEND_URL}${endpoint}`;
   }
 
@@ -205,14 +201,6 @@ export const api = {
     getBySlug: (slug) => api.get(`/api/roadmaps/${slug}`),
   },
 
-  // Centralized Job Matcher API Methods
-  jobMatcher: {
-    getMatches: (params = {}) => {
-      const q = new URLSearchParams(params).toString();
-      return api.get(`/api/job-matcher${q ? `?${q}` : ""}`);
-    },
-  },
-
   // Centralized RAG Career Roadmap API Methods
   rag: {
     generateRoadmap: (queryData) => api.post("/api/rag/generate-roadmap", queryData),
@@ -223,5 +211,5 @@ export const api = {
   },
 };
 
-export { ApiError };
+export { ApiError, api, api as apiClient };
 export default api;

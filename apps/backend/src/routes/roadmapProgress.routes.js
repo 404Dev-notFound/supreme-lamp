@@ -16,6 +16,9 @@ router.post("/custom", requireAuth, roadmapProgressController.createCustomRoadma
 // GET /api/roadmaps/:slug/progress - Get progress for specific roadmap
 router.get("/:slug/progress", requireAuth, roadmapProgressController.getProgress);
 
+// POST /api/roadmaps/:slug/enroll - Explicitly enroll in roadmap track
+router.post("/:slug/enroll", requireAuth, roadmapProgressController.enrollTrack);
+
 // POST /api/roadmaps/:slug/progress/toggle - Toggle completion for a topic in roadmap
 router.post("/:slug/progress/toggle", requireAuth, roadmapProgressController.toggleTopic);
 

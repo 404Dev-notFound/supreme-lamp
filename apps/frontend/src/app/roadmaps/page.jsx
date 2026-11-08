@@ -157,7 +157,7 @@ export default function RoadmapsCatalogPage() {
     },
     { id: "role", label: "Career Roles" },
     { id: "system-design", label: "Architecture & System Design" },
-    { id: "ai", label: "AI & Intelligence" },
+    { id: "ai", label: "AI & Machine Learning" },
     { id: "skill", label: "Skills & Frameworks" },
     { id: "devops", label: "DevOps & Cloud" },
   ];
@@ -237,20 +237,18 @@ export default function RoadmapsCatalogPage() {
 
         <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-orange-500/20 border border-orange-500/40 text-amber-200 text-xs font-bold mb-6 glass">
           <Sparkles className="w-3.5 h-3.5 text-orange-400" />
-          Structured Career Roadmaps & Learning Guides
+          Structured Learning Paths • Step-by-Step Direction
         </div>
 
         <h1 className="text-4xl md:text-6xl font-bold tracking-tighter mb-4 max-w-3xl leading-tight">
-          Master the skills you need. <br />
+          Know what to learn next. <br />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-amber-300">
-            Step by step, concept by concept.
+            From the basics to real-world engineering.
           </span>
         </h1>
 
         <p className="text-base md:text-lg text-zinc-300 max-w-2xl mb-10 leading-relaxed font-normal">
-          Explore interactive curriculum graphs, handpicked community resources,
-          and track your progression across modern software engineering and AI
-          tracks.
+          Follow structured paths from foundational concepts to production skills. Explore interactive topic graphs, save your progress, and build your confidence step by step.
         </p>
 
         {/* Search & Filter Bar */}

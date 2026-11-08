@@ -14,6 +14,24 @@ async function getProgress(req, res, next) {
   }
 }
 
+async function enrollTrack(req, res, next) {
+  try {
+    const { slug } = req.params;
+    const enrolled = await roadmapProgressService.enrollInTrack({
+      userId: req.user.id,
+      roadmapSlug: slug,
+    });
+    return successResponse(res, {
+      data: enrolled,
+      message: "Successfully enrolled in roadmap.",
+      statusCode: 200,
+      req,
+    });
+  } catch (err) {
+    next(err);
+  }
+}
+
 async function toggleTopic(req, res, next) {
   try {
     const { slug } = req.params;
@@ -80,6 +98,7 @@ async function listCustomRoadmaps(req, res, next) {
 
 module.exports = {
   getProgress,
+  enrollTrack,
   toggleTopic,
   listMyTracks,
   createCustomRoadmap,

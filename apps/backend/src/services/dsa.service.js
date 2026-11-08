@@ -9,41 +9,74 @@ const fs = require('fs');
 const path = require('path');
 
 let UNIFIED_DSA = null;
-try {
-  const dataPath = path.resolve(__dirname, '..', '..', '..', 'data', 'unified_dsa.json');
-  if (fs.existsSync(dataPath)) {
-    UNIFIED_DSA = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
+
+function loadUnifiedDsa() {
+  if (UNIFIED_DSA && Array.isArray(UNIFIED_DSA.algorithms) && UNIFIED_DSA.algorithms.length > 0) {
+    return UNIFIED_DSA;
   }
-} catch (e) {
-  console.warn("Could not load unified_dsa.json:", e.message);
+
+  const candidatePaths = [
+    // 4 levels up: from apps/backend/src/services to root
+    path.resolve(__dirname, '..', '..', '..', '..', 'data', 'unified_dsa.json'),
+    // 3 levels up: from apps/backend/src to root / apps
+    path.resolve(__dirname, '..', '..', '..', 'data', 'unified_dsa.json'),
+    // from current working directory
+    path.resolve(process.cwd(), 'data', 'unified_dsa.json'),
+    path.resolve(process.cwd(), '..', 'data', 'unified_dsa.json'),
+    path.resolve(process.cwd(), '..', '..', 'data', 'unified_dsa.json'),
+  ];
+
+  for (const p of candidatePaths) {
+    try {
+      if (fs.existsSync(p)) {
+        const raw = JSON.parse(fs.readFileSync(p, 'utf8'));
+        if (raw && Array.isArray(raw.algorithms) && raw.algorithms.length > 0) {
+          UNIFIED_DSA = raw;
+          return UNIFIED_DSA;
+        }
+      }
+    } catch (e) {
+      console.warn(`Could not parse unified_dsa.json at ${p}:`, e.message);
+    }
+  }
+
+  return { algorithms: [], languages: [] };
 }
 
-const DSA_DATA = UNIFIED_DSA?.algorithms || [];
-const LANGUAGES = UNIFIED_DSA?.languages || [];
+// Initial load
+loadUnifiedDsa();
 
 class DsaService {
+  getAlgorithmsData() {
+    return loadUnifiedDsa().algorithms || [];
+  }
+
+  getLanguagesData() {
+    return loadUnifiedDsa().languages || [];
+  }
+
   listAlgorithms({ category, difficulty, search, language } = {}) {
-    let result = DSA_DATA;
+    let result = this.getAlgorithmsData();
 
     if (language && language !== "all") {
       result = result.filter(a => a.codeSnippets && a.codeSnippets[language]);
     }
 
     if (category && category !== "all") {
-      result = result.filter(a => a.category.toLowerCase().includes(category.toLowerCase()));
+      result = result.filter(a => a.category && a.category.toLowerCase().includes(category.toLowerCase()));
     }
 
     if (difficulty && difficulty !== "all") {
-      result = result.filter(a => a.difficulty.toLowerCase() === difficulty.toLowerCase());
+      result = result.filter(a => a.difficulty && a.difficulty.toLowerCase() === difficulty.toLowerCase());
     }
 
     if (search && search.trim()) {
       const q = search.trim().toLowerCase();
       result = result.filter(a => 
-        a.title.toLowerCase().includes(q) ||
+        (a.title && a.title.toLowerCase().includes(q)) ||
         (a.description && a.description.toLowerCase().includes(q)) ||
         (a.problemStatement && a.problemStatement.toLowerCase().includes(q)) ||
-        a.category.toLowerCase().includes(q)
+        (a.category && a.category.toLowerCase().includes(q))
       );
     }
 
@@ -51,16 +84,16 @@ class DsaService {
   }
 
   getAlgorithmBySlug(slug) {
-    return DSA_DATA.find(a => a.slug === slug) || null;
+    return this.getAlgorithmsData().find(a => a.slug === slug) || null;
   }
 
   getCategories() {
-    const cats = new Set(DSA_DATA.map(a => a.category));
+    const cats = new Set(this.getAlgorithmsData().map(a => a.category).filter(Boolean));
     return Array.from(cats);
   }
 
   getLanguages() {
-    return LANGUAGES;
+    return this.getLanguagesData();
   }
 }
 
@@ -68,6 +101,6 @@ const dsaService = new DsaService();
 
 module.exports = {
   dsaService,
-  DSA_DATA,
-  LANGUAGES,
+  get DSA_DATA() { return dsaService.getAlgorithmsData(); },
+  get LANGUAGES() { return dsaService.getLanguagesData(); },
 };

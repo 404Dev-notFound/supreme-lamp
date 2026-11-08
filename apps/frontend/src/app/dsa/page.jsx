@@ -33,6 +33,8 @@ import {
 import NavProfile from "@/components/NavProfile";
 import Footer from "@/components/Footer";
 import { dsaService } from "@/services/dsa.service";
+import { useAuth } from "@/hooks/useAuth";
+import { analyticsService } from "@/services/analytics.service";
 import { indexedDbStorage, STORES } from "@/lib/storage/indexedDbStorage";
 
 const LANGUAGE_BADGES = {
@@ -63,6 +65,7 @@ const LANGUAGE_BADGES = {
 };
 
 export default function DsaPage() {
+  const [hasMounted, setHasMounted] = useState(false);
   const [languages, setLanguages] = useState([]);
   const [algorithms, setAlgorithms] = useState([]);
   const [categories, setCategories] = useState([]);
@@ -72,44 +75,71 @@ export default function DsaPage() {
   const [selectedDifficulty, setSelectedDifficulty] = useState("all");
   const [searchQuery, setSearchQuery] = useState("");
   
+  const { user: authUser } = useAuth();
   const [selectedAlgo, setSelectedAlgo] = useState(null);
   const [activeCodeLang, setActiveCodeLang] = useState("python");
   const [solvedMap, setSolvedMap] = useState({});
   const [copied, setCopied] = useState(false);
   const [loading, setLoading] = useState(true);
 
-  // Load progress from localStorage
+  // Guarantee hydration alignment by mounting client-side state after initial hydration
   useEffect(() => {
+    setHasMounted(true);
+  }, []);
+
+  // Load progress from localStorage and sync from PostgreSQL when authenticated
+  useEffect(() => {
+    if (!hasMounted) return;
+
     try {
       const saved = localStorage.getItem("flowctrl_dsa_solved");
       if (saved) setSolvedMap(JSON.parse(saved));
     } catch {}
-  }, []);
 
-  // Fetch languages and algorithms from client-side SWR cache / backend
+    if (authUser) {
+      dsaService.fetchMyProgress().then((data) => {
+        if (data?.solvedSlugs && Array.isArray(data.solvedSlugs)) {
+          const map = {};
+          data.solvedSlugs.forEach((slug) => {
+            map[slug] = true;
+          });
+          setSolvedMap((prev) => ({ ...prev, ...map }));
+        }
+      });
+    }
+  }, [hasMounted, authUser]);
+
+  // Fetch languages and algorithms from client-side SWR cache / backend strictly after hydration
   useEffect(() => {
+    if (!hasMounted) return;
+
     let isMounted = true;
 
     Promise.all([
       dsaService.fetchLanguages({
         onBackgroundUpdate: (freshLangs) => {
-          if (isMounted && Array.isArray(freshLangs) && freshLangs.length > 0) {
-            setLanguages(freshLangs);
+          const list = Array.isArray(freshLangs) ? freshLangs : freshLangs?.data;
+          if (isMounted && Array.isArray(list) && list.length > 0) {
+            setLanguages(list);
           }
         },
       }),
       dsaService.fetchAlgorithms({
         onBackgroundUpdate: (freshAlgos) => {
-          if (isMounted && Array.isArray(freshAlgos) && freshAlgos.length > 0) {
-            setAlgorithms(freshAlgos);
-            const cats = Array.from(new Set(freshAlgos.map((a) => a.category)));
+          const list = Array.isArray(freshAlgos) ? freshAlgos : freshAlgos?.data;
+          if (isMounted && Array.isArray(list) && list.length > 0) {
+            setAlgorithms(list);
+            const cats = Array.from(new Set(list.map((a) => a.category).filter(Boolean)));
             setCategories(cats);
           }
         },
       }),
     ])
-      .then(([langs, algos]) => {
+      .then(([langsRes, algosRes]) => {
         if (!isMounted) return;
+        const langs = Array.isArray(langsRes) ? langsRes : (langsRes?.data || []);
+        const algos = Array.isArray(algosRes) ? algosRes : (algosRes?.data || []);
+
         if (Array.isArray(langs) && langs.length > 0) {
           setLanguages(langs);
           setSelectedLanguage(langs[0].id);
@@ -120,7 +150,7 @@ export default function DsaPage() {
           if (algos.length > 0) {
             setSelectedAlgo(algos[0]);
           }
-          const cats = Array.from(new Set(algos.map((a) => a.category)));
+          const cats = Array.from(new Set(algos.map((a) => a.category).filter(Boolean)));
           setCategories(cats);
         }
         setLoading(false);
@@ -133,7 +163,7 @@ export default function DsaPage() {
     return () => {
       isMounted = false;
     };
-  }, []);
+  }, [hasMounted]);
 
   // Sync active code language when selected language changes
   const handleSelectLanguage = (langId) => {
@@ -152,6 +182,17 @@ export default function DsaPage() {
       solvedMap: next,
       updatedAt: Date.now(),
     }).catch(() => {});
+
+    if (authUser) {
+      dsaService.toggleSolve(slug, activeCodeLang);
+    } else {
+      analyticsService.trackEvent({
+        eventType: "SOLVE",
+        entityType: "DSA",
+        entityId: slug,
+        metadata: { language: activeCodeLang },
+      });
+    }
   };
 
   // Filter algorithms by selected language, search, category, difficulty
@@ -181,9 +222,48 @@ export default function DsaPage() {
     });
   }, [algorithms, selectedLanguage, searchQuery, selectedCategory, selectedDifficulty]);
 
+  // Keep selectedAlgo synchronized with filtered list
+  useEffect(() => {
+    if (filteredAlgorithms.length > 0) {
+      const stillInList = selectedAlgo && filteredAlgorithms.some((a) => a.slug === selectedAlgo.slug);
+      if (!stillInList) {
+        setSelectedAlgo(filteredAlgorithms[0]);
+      }
+    } else if (algorithms.length > 0 && filteredAlgorithms.length === 0) {
+      setSelectedAlgo(null);
+    }
+  }, [filteredAlgorithms, selectedAlgo, algorithms]);
+
+  // Keep activeCodeLang synchronized with available snippets on selectedAlgo
+  useEffect(() => {
+    if (selectedAlgo?.codeSnippets) {
+      const available = Object.keys(selectedAlgo.codeSnippets);
+      if (available.length > 0 && !available.includes(activeCodeLang)) {
+        if (available.includes(selectedLanguage)) {
+          setActiveCodeLang(selectedLanguage);
+        } else {
+          setActiveCodeLang(available[0]);
+        }
+      }
+    }
+  }, [selectedAlgo, selectedLanguage, activeCodeLang]);
+
   const solvedCount = useMemo(() => {
+    if (!hasMounted || loading) return 0;
     return algorithms.filter((a) => solvedMap[a.slug]).length;
-  }, [algorithms, solvedMap]);
+  }, [hasMounted, loading, algorithms, solvedMap]);
+
+  const progressPercent = useMemo(() => {
+    if (!hasMounted || loading || !algorithms.length) return 0;
+    const raw = (solvedCount / algorithms.length) * 100;
+    if (isNaN(raw) || !isFinite(raw)) return 0;
+    return Math.min(100, Math.max(0, Math.round(raw)));
+  }, [hasMounted, loading, solvedCount, algorithms.length]);
+
+  const progressLabel = useMemo(() => {
+    if (!hasMounted || loading) return "0 / 0 Solved";
+    return `${solvedCount} / ${algorithms.length} Solved`;
+  }, [hasMounted, loading, solvedCount, algorithms.length]);
 
   const handleCopyCode = (code) => {
     navigator.clipboard.writeText(code);
@@ -256,13 +336,13 @@ export default function DsaPage() {
           <div>
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-xs font-semibold mb-2">
               <Sparkles className="w-3.5 h-3.5" />
-              24 Languages • In-Depth Theory • Interactive Split Workspace
+              24 Languages • Intuitive Explanations • Step-by-Step Guidance
             </div>
             <h1 className="text-3xl font-bold tracking-tight text-white mb-1">
-              Data Structures & Algorithms Engine
+              Problem-Solving &amp; Data Structures
             </h1>
-            <p className="text-xs sm:text-sm text-zinc-400 max-w-2xl">
-              Master core interview patterns with step-by-step intuition, complexity proofs, visual flowcharts, and multi-language verified code.
+            <p className="text-xs sm:text-sm text-zinc-300 max-w-2xl leading-relaxed">
+              Build stronger problem-solving skills, practice coding patterns, and prepare for technical interviews one problem at a time — with visual intuitions, complexity breakdowns, and verified solutions.
             </p>
           </div>
 
@@ -271,14 +351,14 @@ export default function DsaPage() {
             <div className="flex items-center justify-between text-xs mb-2">
               <span className="text-zinc-400 font-medium">Learning Progress</span>
               <span className="text-emerald-400 font-bold">
-                {solvedCount} / {algorithms.length} Solved
+                {progressLabel}
               </span>
             </div>
             <div className="w-full h-2 rounded-full bg-zinc-800 overflow-hidden">
               <div
                 className="h-full bg-gradient-to-r from-emerald-500 to-teal-400 transition-all duration-500"
                 style={{
-                  width: `${algorithms.length > 0 ? (solvedCount / algorithms.length) * 100 : 0}%`,
+                  width: `${progressPercent}%`,
                 }}
               />
             </div>
@@ -290,13 +370,27 @@ export default function DsaPage() {
           <div className="flex items-center justify-between mb-3">
             <h2 className="text-xs font-bold uppercase tracking-wider text-zinc-400 flex items-center gap-1.5">
               <Terminal className="w-4 h-4 text-emerald-400" />
-              Step 1: Choose Your Programming Language ({languages.length} available)
+              <span>
+                {hasMounted && !loading
+                  ? `Step 1: Choose Your Programming Language (${languages.length} available)`
+                  : "Step 1: Choose Your Programming Language (0 available)"}
+              </span>
             </h2>
             <span className="text-[11px] text-zinc-500">Click to filter algorithms</span>
           </div>
 
           <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-2.5">
-            {languages.map((lang) => {
+            {!hasMounted || (loading && languages.length === 0) ? (
+              Array.from({ length: 8 }).map((_, i) => (
+                <div key={`lang-skel-${i}`} className="p-3 rounded-xl border border-white/5 bg-zinc-900/40 animate-pulse h-20 flex flex-col justify-between">
+                  <div className="w-7 h-7 rounded-lg bg-zinc-800" />
+                  <div className="space-y-1">
+                    <div className="w-16 h-3 bg-zinc-800 rounded" />
+                    <div className="w-10 h-2 bg-zinc-800/60 rounded" />
+                  </div>
+                </div>
+              ))
+            ) : languages.map((lang) => {
               const isSelected = selectedLanguage === lang.id;
               const badge = LANGUAGE_BADGES[lang.id] || { label: lang.name, color: "from-zinc-500 to-zinc-700", icon: lang.name.slice(0, 2) };
 
@@ -324,7 +418,7 @@ export default function DsaPage() {
                       {lang.name}
                     </div>
                     <div className="text-[10px] text-zinc-400">
-                      {lang.algorithmCount} questions
+                      {`${lang.algorithmCount} questions`}
                     </div>
                   </div>
                 </button>
@@ -338,7 +432,11 @@ export default function DsaPage() {
           <div className="flex flex-col md:flex-row gap-3 items-center justify-between mb-4">
             <h2 className="text-xs font-bold uppercase tracking-wider text-zinc-400 flex items-center gap-1.5 self-start md:self-auto">
               <Layers className="w-4 h-4 text-amber-400" />
-              Step 2: Select Algorithm ({filteredAlgorithms.length} in {LANGUAGE_BADGES[selectedLanguage]?.label || selectedLanguage})
+              <span>
+                {hasMounted && !loading
+                  ? `Step 2: Select Algorithm (${filteredAlgorithms.length} in ${LANGUAGE_BADGES[selectedLanguage]?.label || selectedLanguage})`
+                  : `Step 2: Select Algorithm (0 in ${LANGUAGE_BADGES[selectedLanguage]?.label || selectedLanguage})`}
+              </span>
             </h2>
 
             <div className="flex flex-wrap items-center gap-2.5 w-full md:w-auto">
@@ -382,7 +480,25 @@ export default function DsaPage() {
 
           {/* Algorithm Cards Horizontal Grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3.5">
-            {filteredAlgorithms.map((algo) => {
+            {!hasMounted || (loading && algorithms.length === 0) ? (
+              Array.from({ length: 4 }).map((_, i) => (
+                <div key={`algo-skel-${i}`} className="p-4 rounded-2xl border border-white/5 bg-zinc-900/40 animate-pulse h-36 flex flex-col justify-between">
+                  <div className="flex justify-between">
+                    <div className="w-12 h-4 bg-zinc-800 rounded" />
+                    <div className="w-4 h-4 rounded-full bg-zinc-800" />
+                  </div>
+                  <div className="space-y-2">
+                    <div className="w-28 h-4 bg-zinc-800 rounded" />
+                    <div className="w-full h-3 bg-zinc-800/60 rounded" />
+                  </div>
+                  <div className="w-20 h-3 bg-zinc-800/40 rounded" />
+                </div>
+              ))
+            ) : filteredAlgorithms.length === 0 ? (
+              <div className="col-span-full py-8 text-center glass rounded-2xl border border-white/10 text-zinc-400 text-sm">
+                No algorithms found matching your search or filters in {LANGUAGE_BADGES[selectedLanguage]?.label || selectedLanguage}.
+              </div>
+            ) : filteredAlgorithms.map((algo) => {
               const isSelected = selectedAlgo?.slug === algo.slug;
               const isSolved = solvedMap[algo.slug];
 
@@ -444,7 +560,7 @@ export default function DsaPage() {
         </section>
 
         {/* STEP 3: Detailed Learning Workspace (Split View) */}
-        {selectedAlgo && (
+        {hasMounted && !loading && selectedAlgo && (
           <section className="rounded-3xl glass-card border border-white/15 overflow-hidden shadow-2xl bg-zinc-950/70">
             {/* Workspace Header Bar */}
             <div className="p-5 border-b border-white/10 flex flex-col md:flex-row md:items-center justify-between gap-4 bg-zinc-900/60">
@@ -594,7 +710,7 @@ export default function DsaPage() {
                   <div>
                     <h4 className="text-xs font-bold uppercase tracking-wider text-pink-400 flex items-center gap-1.5 mb-2">
                       <BrainCircuit className="w-4 h-4 text-pink-400" />
-                      How to Communicate in Interviews
+                      Interview Discussion Tips
                     </h4>
                     <p className="bg-pink-500/10 p-3 rounded-xl border border-pink-500/20 text-pink-200 text-xs">
                       {selectedAlgo.interviewCommunication}

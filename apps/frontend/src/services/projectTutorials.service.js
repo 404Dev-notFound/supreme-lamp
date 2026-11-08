@@ -24,6 +24,7 @@ export const projectTutorialsService = {
     page = 1,
     limit = 12,
     sort = "recommended",
+    onBackgroundUpdate,
   } = {}) {
         const params = {
       search,
@@ -44,6 +45,7 @@ export const projectTutorialsService = {
       storeName: STORES.PROJECT_TUTORIALS,
       strategy: CACHE_STRATEGIES.SWR,
       ttlMs: DEFAULT_TTLS.PROJECTS_CATALOG,
+      onBackgroundUpdate,
       fetcher: async () => {
         const queryParams = new URLSearchParams();
         Object.entries(params).forEach(([k, v]) => {

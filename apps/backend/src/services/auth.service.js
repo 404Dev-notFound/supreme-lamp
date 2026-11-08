@@ -1,5 +1,6 @@
 const bcrypt = require("bcrypt");
 const { prisma } = require("../lib/prisma");
+const { syncJsonUserData } = require("../utils/syncJsonData");
 const {
   createSessionRecord,
   validateSessionToken,
@@ -123,8 +124,30 @@ async function signup({ name, email, password, req = null }) {
       },
     });
 
-    return user;
+    await tx.userActivityLog.create({
+      data: {
+        userId: user.id,
+        activityType: "REGISTER",
+        entityType: "PROFILE",
+        title: "Account created and registered on flowCTRL",
+        metadata: { method: "credentials" },
+      },
+    });
+
+    return tx.user.findUnique({
+      where: { id: user.id },
+      include: {
+        profile: true,
+        preferences: true,
+        membership: {
+          include: { plan: true },
+        },
+      },
+    });
   });
+
+  // Synchronize registered user into user file immediately
+  syncJsonUserData(newUser, newUser.profile);
 
   // Create active session in PostgreSQL
   const { sessionToken, csrfToken, cookieOptions } = await createSessionRecord(
@@ -219,6 +242,18 @@ async function signin({ email, password, req = null }) {
     })
     .catch(() => {});
 
+  prisma.userActivityLog
+    .create({
+      data: {
+        userId: user.id,
+        activityType: "SIGN_IN",
+        entityType: "SESSION",
+        title: "Signed into flowCTRL session",
+        metadata: { ip: ipAddress },
+      },
+    })
+    .catch(() => {});
+
   // Create active session record in database
   const { sessionToken, csrfToken, cookieOptions } = await createSessionRecord(
     user.id,
@@ -265,6 +300,35 @@ async function getSessionUser(sessionToken) {
  */
 async function logout(sessionToken) {
   if (sessionToken) {
+    try {
+      const session = await prisma.userSession.findUnique({
+        where: { sessionToken },
+        select: { userId: true },
+      });
+      if (session?.userId) {
+        prisma.userActivityLog
+          .create({
+            data: {
+              userId: session.userId,
+              activityType: "SIGN_OUT",
+              entityType: "SESSION",
+              title: "Signed out of flowCTRL session",
+            },
+          })
+          .catch(() => {});
+        prisma.securityLog
+          .create({
+            data: {
+              userId: session.userId,
+              eventType: "logout",
+              details: { method: "session_token" },
+            },
+          })
+          .catch(() => {});
+      }
+    } catch {
+      // Non-blocking log
+    }
     await revokeSessionToken(sessionToken);
   }
   return getCookieOptions();

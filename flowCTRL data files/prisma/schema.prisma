@@ -92,6 +92,12 @@ model User {
   projectProgress        UserProjectProgress[]
   projectBookmarks       ProjectBookmark[]
 
+  // User Progress, Bookmarks & Analytics
+  dsaProgress            UserDsaProgress[]
+  resourceBookmarks      ResourceBookmark[]
+  activityLogs           UserActivityLog[]
+  analyticsEvents        PlatformAnalyticsEvent[]
+
   @@index([email])
   @@index([role])
   @@index([status])
@@ -590,6 +596,8 @@ model UserRoadmapProgress {
   completedTopics String[]
   currentTopic    String?
   progressPercent Int      @default(0)
+  isCompleted     Boolean  @default(false)
+  completedAt     DateTime?
   lastActivityAt  DateTime @default(now())
   createdAt       DateTime @default(now())
   updatedAt       DateTime @updatedAt
@@ -599,6 +607,7 @@ model UserRoadmapProgress {
   @@unique([userId, roadmapSlug])
   @@index([userId])
   @@index([roadmapSlug])
+  @@index([isCompleted])
 }
 
 model AuditLog {
@@ -749,6 +758,7 @@ model PremiumResource {
   updatedAt      DateTime @updatedAt
 
   category ResourceCategory? @relation(fields: [categoryId], references: [id], onDelete: SetNull)
+  bookmarks ResourceBookmark[]
 
   @@index([slug])
   @@index([accessLevel])
@@ -923,5 +933,126 @@ model ProjectBookmark {
   @@unique([userId, projectTutorialId])
   @@index([userId])
   @@index([projectTutorialId])
+}
+
+// ==========================================
+// 11. USER PROGRESS, BOOKMARKS & PLATFORM ANALYTICS
+// ==========================================
+
+model UserDsaProgress {
+  id            String    @id @default(cuid())
+  userId        String
+  problemSlug   String
+  language      String?
+  isSolved      Boolean   @default(false)
+  solvedAt      DateTime?
+  lastAttemptAt DateTime  @default(now())
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, problemSlug])
+  @@index([userId])
+  @@index([problemSlug])
+  @@index([isSolved])
+}
+
+model ResourceBookmark {
+  id         String   @id @default(cuid())
+  userId     String
+  resourceId String
+  createdAt  DateTime @default(now())
+
+  user     User            @relation(fields: [userId], references: [id], onDelete: Cascade)
+  resource PremiumResource @relation(fields: [resourceId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, resourceId])
+  @@index([userId])
+  @@index([resourceId])
+}
+
+model UserActivityLog {
+  id           String   @id @default(cuid())
+  userId       String
+  activityType String   // SIGN_IN, SIGN_OUT, REGISTER, ROADMAP_ENROLL, ROADMAP_PROGRESS, ROADMAP_COMPLETE, DSA_SOLVED, TUTORIAL_START, TUTORIAL_COMPLETE, BOOKMARK_ADD, BOOKMARK_REMOVE, PROFILE_UPDATE
+  entityType   String?  // ROADMAP, DSA, TUTORIAL, RESOURCE, PROFILE, SESSION
+  entityId     String?  // slug or identifier
+  title        String?  // human readable activity summary
+  metadata     Json?
+  createdAt    DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@index([activityType])
+  @@index([entityType])
+  @@index([createdAt])
+  @@index([userId, createdAt])
+}
+
+model PlatformAnalyticsEvent {
+  id         String   @id @default(cuid())
+  userId     String?
+  visitorId  String?  // privacy-conscious anonymous visitor session token
+  eventType  String   // PAGE_VIEW, DETAIL_VIEW, ENROLL, COMPLETE, CLICK, SEARCH, BOOKMARK, SOLVE
+  entityType String   // ROADMAP, TUTORIAL, DSA, RESOURCE, FEATURE, PAGE
+  entityId   String   // slug or identifier
+  metadata   Json?
+  ipAddress  String?  // anonymized / masked
+  userAgent  String?
+  createdAt  DateTime @default(now())
+
+  user User? @relation(fields: [userId], references: [id], onDelete: SetNull)
+
+  @@index([userId])
+  @@index([visitorId])
+  @@index([eventType])
+  @@index([entityType, entityId])
+  @@index([createdAt])
+  @@index([eventType, entityType, entityId])
+}
+
+model EntityInteractionCounter {
+  id                  String   @id @default(cuid())
+  entityType          String   // ROADMAP, TUTORIAL, DSA, RESOURCE
+  entityId            String   // slug or ID
+  totalViews          Int      @default(0)
+  uniqueVisitorsCount Int      @default(0)
+  authVisitorsCount   Int      @default(0)
+  totalEnrollments    Int      @default(0)
+  uniqueEnrolledCount Int      @default(0)
+  completedCount      Int      @default(0)
+  activeLearnersCount Int      @default(0)
+  lastInteractionAt   DateTime @default(now())
+  createdAt           DateTime @default(now())
+  updatedAt           DateTime @updatedAt
+
+  @@unique([entityType, entityId])
+  @@index([entityType])
+  @@index([totalViews])
+  @@index([totalEnrollments])
+}
+
+model PlatformAnnouncement {
+  id          String   @id
+  title       String
+  description String   @db.Text
+  category    String
+  dateTime    DateTime
+  priority    String   @default("NORMAL")
+  status      String   @default("UPCOMING")
+  actionLabel String?
+  actionUrl   String?
+  badge       String?
+  isFeatured  Boolean  @default(false)
+  sortOrder   Int      @default(0)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @default(now()) @updatedAt
+
+  @@index([category])
+  @@index([priority])
+  @@index([status])
+  @@index([isFeatured])
 }
 

@@ -170,13 +170,13 @@ export default function ResourcesPage() {
         <div className="mb-8">
           <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-xs font-semibold mb-3">
             <BookOpen className="w-3.5 h-3.5" />
-            Curated Computer Science & System Engineering Library
+            Curated Learning Library • {totalCount > 100 ? `${totalCount.toLocaleString()}+` : "5,700+"} Resources
           </div>
           <h1 className="text-3xl sm:text-4xl font-extrabold tracking-tight mb-2">
-            Developer Knowledge & Engineering Resources
+            Spend Less Time Searching. More Time Learning.
           </h1>
-          <p className="text-zinc-400 max-w-3xl text-sm sm:text-base">
-            Over {totalCount > 100 ? `${totalCount.toLocaleString()}+` : "5,700+"} programming books, official documentation, distributed system whitepapers, interactive tutorials, cheat sheets, and awesome reference indexes.
+          <p className="text-zinc-300 max-w-3xl text-sm sm:text-base leading-relaxed">
+            A handpicked collection of free engineering books, official documentation, cheat sheets, and practical guides across every programming language and domain — all organized in one place.
           </p>
         </div>
 
@@ -186,7 +186,7 @@ export default function ResourcesPage() {
             <Search className="w-4 h-4 absolute left-3.5 top-1/2 -translate-y-1/2 text-zinc-400" />
             <input
               type="text"
-              placeholder="Search books, docs, languages, papers, authors..."
+              placeholder="Search books, docs, cheat sheets, frameworks (e.g. React, SQL, Python)..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               className="w-full bg-zinc-900/80 border border-white/10 rounded-lg pl-10 pr-4 py-2 text-sm text-zinc-100 placeholder:text-zinc-500 focus:outline-none focus:border-primary/50"

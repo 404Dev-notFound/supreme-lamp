@@ -32,7 +32,7 @@ export default function ResumeScreenerPage() {
           </Link>
           <span className="text-zinc-400 mx-1">/</span>
           <span className="font-semibold text-lg tracking-tight text-white truncate max-w-[200px] sm:max-w-md">
-            Resume Screener
+            Resume Reviewer
           </span>
         </div>
 
@@ -74,19 +74,17 @@ export default function ResumeScreenerPage() {
               <div className="flex flex-wrap items-center gap-2 mb-2">
                 <span className="inline-flex items-center gap-1 text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full bg-orange-500/10 border border-orange-500/30 text-amber-300">
                   <Sparkles className="w-3.5 h-3.5 text-orange-400" />
-                  ATS Resume Screener
+                  Resume Review
                 </span>
                 <span className="text-xs font-medium px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-300">
-                  Live ATS Analysis
+                  Skill & Format Review
                 </span>
               </div>
               <h1 className="text-2xl sm:text-3xl font-bold tracking-tight text-white mb-1">
-                ATS Resume Analysis & Scoring
+                Resume Review & Keyword Matching
               </h1>
               <p className="text-sm text-zinc-300 max-w-2xl font-normal leading-relaxed">
-                Upload your resume to evaluate ATS compatibility, keyword
-                matching, formatting flaws, and get actionable recruiter
-                insights.
+                Upload your resume to check formatting, keyword match, and see clear suggestions before applying to tech internships and entry-level roles.
               </p>
             </div>
 

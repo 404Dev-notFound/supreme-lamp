@@ -21,7 +21,7 @@ const outfit = Outfit({
 export const metadata = {
   title: "flowCTRL | Career Operating System",
   description:
-    "Identify skill gaps, generate roadmaps, and land your dream job.",
+    "From Confusion to Clarity. From Learning to Building. Everything students need to plan, learn, practice, build, and track their career journey — organized in one place.",
 };
 
 export default function RootLayout({ children }) {

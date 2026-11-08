@@ -99,7 +99,7 @@ function NavProfileContent() {
               className="w-full flex items-center gap-2 px-3 py-2 rounded-xl hover:bg-white/10 text-left transition-colors cursor-pointer text-zinc-200"
             >
               <Sparkles className="w-3.5 h-3.5 text-amber-400" />
-              Mission Control Dashboard
+              Personal Dashboard
             </Link>
 
             <button
@@ -115,7 +115,7 @@ function NavProfileContent() {
               className="w-full flex items-center gap-2 px-3 py-2 rounded-xl hover:bg-white/10 text-left transition-colors cursor-pointer text-zinc-200"
             >
               <Sparkles className="w-3.5 h-3.5 text-amber-400" />
-              Edit Profile & Skills
+              Edit Profile &amp; Skills
             </button>
 
             <button
@@ -123,7 +123,7 @@ function NavProfileContent() {
               className="w-full flex items-center gap-2 px-3 py-2 rounded-xl hover:bg-white/10 text-left transition-colors cursor-pointer text-zinc-200"
             >
               <Shield className="w-3.5 h-3.5 text-blue-400" />
-              Security Center
+              Account Security
             </button>
 
             <button
@@ -131,7 +131,7 @@ function NavProfileContent() {
               className="w-full flex items-center gap-2 px-3 py-2 rounded-xl hover:bg-white/10 text-left transition-colors cursor-pointer text-zinc-200"
             >
               <Settings className="w-3.5 h-3.5 text-zinc-400" />
-              Settings & Preferences
+              Settings
             </button>
 
             <div className="border-t border-white/10 my-1" />

@@ -1,4 +1,6 @@
 const { dsaService } = require("../services/dsa.service");
+const { prisma } = require("../lib/prisma");
+const { analyticsService } = require("../services/analytics.service");
 
 class DsaController {
   async getAlgorithms(req, res, next) {
@@ -53,6 +55,94 @@ class DsaController {
         success: true,
         count: languages.length,
         data: languages,
+      });
+    } catch (err) {
+      next(err);
+    }
+  }
+
+  async getMyProgress(req, res, next) {
+    try {
+      const userId = req.user.id;
+      const solved = await prisma.userDsaProgress.findMany({
+        where: { userId, isSolved: true },
+        select: { problemSlug: true, solvedAt: true },
+      });
+      const solvedSlugs = solved.map((s) => s.problemSlug);
+      return res.status(200).json({
+        success: true,
+        count: solvedSlugs.length,
+        data: {
+          solvedSlugs,
+          count: solvedSlugs.length,
+        },
+      });
+    } catch (err) {
+      next(err);
+    }
+  }
+
+  async toggleSolveProblem(req, res, next) {
+    try {
+      const userId = req.user.id;
+      const { slug } = req.params;
+      const { language } = req.body || {};
+
+      const existing = await prisma.userDsaProgress.findUnique({
+        where: {
+          userId_problemSlug: {
+            userId,
+            problemSlug: slug,
+          },
+        },
+      });
+
+      const nextSolved = !existing?.isSolved;
+      const updated = await prisma.userDsaProgress.upsert({
+        where: {
+          userId_problemSlug: {
+            userId,
+            problemSlug: slug,
+          },
+        },
+        create: {
+          userId,
+          problemSlug: slug,
+          language: language || null,
+          isSolved: nextSolved,
+          solvedAt: nextSolved ? new Date() : null,
+          lastAttemptAt: new Date(),
+        },
+        update: {
+          isSolved: nextSolved,
+          solvedAt: nextSolved ? new Date() : null,
+          lastAttemptAt: new Date(),
+          ...(language ? { language } : {}),
+        },
+      });
+
+      if (nextSolved) {
+        await analyticsService.recordEvent({
+          userId,
+          eventType: "SOLVE",
+          entityType: "DSA",
+          entityId: slug,
+          metadata: { language },
+        });
+      }
+
+      const totalSolved = await prisma.userDsaProgress.count({
+        where: { userId, isSolved: true },
+      });
+
+      return res.status(200).json({
+        success: true,
+        data: {
+          slug,
+          isSolved: updated.isSolved,
+          solvedAt: updated.solvedAt,
+          totalSolved,
+        },
       });
     } catch (err) {
       next(err);

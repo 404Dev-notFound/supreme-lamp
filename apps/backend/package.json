@@ -8,7 +8,7 @@
     "build": "echo backend ready",
     "start": "node src/index.js",
     "lint": "echo backend lint ok",
-    "test": "node --test src/health.test.js src/routes/roadmaps.test.js src/routes/users.test.js src/routes/auth.test.js src/routes/projects.test.js src/persistence.test.js src/security.hardening.test.js src/production.backend.test.js src/security.audit.test.js src/rag.integration.test.js src/architecture.upgrade.test.js src/membership.test.js src/redis.integration.test.js src/redis.multiprocess.test.js src/projectTutorials.test.js src/announcements.test.js",
+    "test": "node --test src/health.test.js src/routes/roadmaps.test.js src/routes/users.test.js src/routes/auth.test.js src/routes/projects.test.js src/persistence.test.js src/security.hardening.test.js src/production.backend.test.js src/security.audit.test.js src/rag.integration.test.js src/architecture.upgrade.test.js src/membership.test.js src/redis.integration.test.js src/redis.multiprocess.test.js src/projectTutorials.test.js src/announcements.test.js src/dashboard.test.js src/lifecycle.analytics.test.js src/dsa.test.js",
     "test:integration": "node -e \"console.log('Backend integration tests passed')\""
   },
   "devDependencies": {
