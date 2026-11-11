@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
+import BrandWordmark from "@/components/BrandWordmark";
 import {
   ArrowLeft,
   Printer,
@@ -164,9 +165,7 @@ Official document from 404 Community — From Error to Execution.
                 fC
               </span>
             </div>
-            <span className="font-bold text-lg tracking-tight text-white hidden sm:inline">
-              flowCTRL
-            </span>
+            <BrandWordmark className="hidden text-lg sm:inline-flex" />
           </Link>
 
           <Link

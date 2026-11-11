@@ -16,8 +16,16 @@ import {
   Sparkles,
   Zap,
   Check,
+  GitBranch,
+  Trash2,
+  ExternalLink,
+  ChevronRight,
+  Layers,
+  Target,
 } from "lucide-react";
 import ProfileSkeleton from "../skeletons/ProfileSkeleton";
+import PersonalizedRoadmapModal from "../roadmap/PersonalizedRoadmapModal";
+import { personalizedRoadmapsClient } from "@/services/personalizedRoadmaps.service";
 
 function Github(props) {
   return (
@@ -48,25 +56,41 @@ export default function ProfileView({ onClose }) {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [avatarError, setAvatarError] = useState(false);
+  const [activeModalRoadmapId, setActiveModalRoadmapId] = useState(null);
+  const [deletingId, setDeletingId] = useState(null);
+
+  const loadProfile = async () => {
+    try {
+      const res = await fetch("/api/user/profile");
+      if (!res.ok) {
+        throw new Error("Failed to load profile details.");
+      }
+      const data = await res.json();
+      setProfile(data);
+    } catch (err) {
+      setError(err?.message || "Error loading profile");
+    } finally {
+      setLoading(false);
+    }
+  };
 
   useEffect(() => {
-    async function loadProfile() {
-      try {
-        const res = await fetch("/api/user/profile");
-        if (!res.ok) {
-          throw new Error("Failed to load profile details.");
-        }
-        const data = await res.json();
-        setProfile(data);
-      } catch (err) {
-        setError(err?.message || "Error loading profile");
-      } finally {
-        setLoading(false);
-      }
-    }
-
     loadProfile();
   }, []);
+
+  const handleDeleteRoadmap = async (e, rId) => {
+    e.stopPropagation();
+    if (!confirm("Are you sure you want to remove this personalized roadmap?")) return;
+    setDeletingId(rId);
+    try {
+      await personalizedRoadmapsClient.deleteRoadmap(rId);
+      await loadProfile();
+    } catch (err) {
+      alert("Failed to delete roadmap: " + err.message);
+    } finally {
+      setDeletingId(null);
+    }
+  };
 
   const switchModal = (target) => {
     const url = new URL(window.location.href);
@@ -346,6 +370,109 @@ export default function ProfileView({ onClose }) {
         )}
       </div>
 
+      {/* My Personalized Roadmaps Section */}
+      <div className="space-y-3 pt-1">
+        <div className="flex items-center justify-between">
+          <h4 className="text-xs font-bold text-zinc-200 flex items-center gap-1.5 uppercase tracking-wide">
+            <Sparkles className="w-3.5 h-3.5 text-orange-400" />
+            My Personalized Roadmaps
+          </h4>
+          <span className="text-[11px] font-mono text-zinc-400">
+            {profile.personalizedRoadmaps?.length || 0} roadmaps
+          </span>
+        </div>
+
+        {profile.personalizedRoadmaps && profile.personalizedRoadmaps.length > 0 ? (
+          <div className="space-y-2.5 max-h-56 overflow-y-auto pr-1">
+            {profile.personalizedRoadmaps.map((rm) => {
+              const genDate = rm.createdAt
+                ? new Date(rm.createdAt).toLocaleDateString("en-US", {
+                    month: "short",
+                    day: "numeric",
+                    year: "numeric",
+                  })
+                : "Recently";
+
+              return (
+                <div
+                  key={rm.id}
+                  onClick={() => setActiveModalRoadmapId(rm.id)}
+                  className="p-3.5 rounded-2xl bg-zinc-900/90 hover:bg-zinc-800/90 border border-white/10 hover:border-orange-500/50 transition-all cursor-pointer group shadow-md"
+                >
+                  <div className="flex items-start justify-between gap-3">
+                    <div className="flex-1 min-w-0">
+                      <div className="flex items-center gap-2">
+                        <h5 className="text-xs sm:text-sm font-bold text-white group-hover:text-amber-300 transition-colors truncate">
+                          {rm.title}
+                        </h5>
+                        <span className="px-1.5 py-0.5 rounded text-[9px] font-mono font-bold bg-orange-500/15 text-orange-400 border border-orange-500/30 shrink-0">
+                          RAG
+                        </span>
+                      </div>
+
+                      <p className="text-[11px] text-zinc-300 flex items-center gap-1 mt-1 truncate">
+                        <Target className="w-3 h-3 text-orange-400 shrink-0" />
+                        <span className="truncate">Goal: {rm.careerGoal || "Software Engineering"}</span>
+                      </p>
+
+                      <div className="flex items-center gap-3 text-[10px] font-mono text-zinc-400 mt-2 flex-wrap">
+                        <span>Generated: {genDate}</span>
+                        <span>•</span>
+                        <span>{rm.totalLevels || 0} levels</span>
+                        <span>•</span>
+                        <span>{rm.totalNodes || 0} nodes</span>
+                      </div>
+                    </div>
+
+                    <div className="flex flex-col items-end gap-2 shrink-0">
+                      <div className="flex items-center gap-1.5">
+                        <button
+                          onClick={(e) => handleDeleteRoadmap(e, rm.id)}
+                          title="Delete Roadmap"
+                          disabled={deletingId === rm.id}
+                          className="p-1 rounded-lg text-zinc-500 hover:text-rose-400 hover:bg-white/5 transition-colors cursor-pointer"
+                        >
+                          <Trash2 className="w-3.5 h-3.5" />
+                        </button>
+                        <ChevronRight className="w-4 h-4 text-zinc-400 group-hover:text-orange-400 group-hover:translate-x-0.5 transition-transform" />
+                      </div>
+
+                      <div className="text-right">
+                        <span className="text-xs font-mono font-bold text-amber-300">
+                          {rm.progressPercent || 0}%
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Overall Completion Progress Bar */}
+                  <div className="w-full bg-zinc-800 h-1.5 rounded-full overflow-hidden mt-2.5">
+                    <div
+                      className="bg-gradient-to-r from-orange-500 to-amber-400 h-full transition-all duration-300"
+                      style={{ width: `${rm.progressPercent || 0}%` }}
+                    />
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        ) : (
+          <div className="p-4 rounded-2xl bg-white/5 border border-white/5 text-center space-y-2">
+            <p className="text-xs text-zinc-400">
+              You haven&apos;t generated any personalized roadmaps yet.
+            </p>
+            <a
+              href="/ecosystem"
+              onClick={onClose}
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-orange-500/20 hover:bg-orange-500/30 text-amber-300 border border-orange-500/30 text-xs font-semibold transition-colors"
+            >
+              <Sparkles className="w-3.5 h-3.5 text-orange-400" />
+              <span>Generate Roadmap via RAG</span>
+            </a>
+          </div>
+        )}
+      </div>
+
       {/* Navigation Quick Actions */}
       <div className="pt-3 border-t border-white/10 grid grid-cols-3 gap-2 text-xs">
         <button
@@ -383,6 +510,16 @@ export default function ProfileView({ onClose }) {
           Sign Out of flowCTRL
         </button>
       </div>
+
+      {/* Interactive Personalized Roadmap Graph Modal */}
+      {activeModalRoadmapId && (
+        <PersonalizedRoadmapModal
+          roadmapId={activeModalRoadmapId}
+          isOpen={Boolean(activeModalRoadmapId)}
+          onClose={() => setActiveModalRoadmapId(null)}
+          onProgressUpdated={() => loadProfile()}
+        />
+      )}
     </div>
   );
 }

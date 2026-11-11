@@ -11,6 +11,7 @@ import {
   ChevronDown,
   UserCheck,
   Shield,
+  ShieldAlert,
   Settings,
 } from "lucide-react";
 import { useAuth } from "@/hooks/useAuth";
@@ -101,6 +102,18 @@ function NavProfileContent() {
               <Sparkles className="w-3.5 h-3.5 text-amber-400" />
               Personal Dashboard
             </Link>
+
+            {role === "ADMIN" && (
+              <Link
+                href="/admin"
+                onClick={() => setDropdownOpen(false)}
+                className="w-full flex items-center gap-2 px-3 py-2 rounded-xl bg-orange-500/10 hover:bg-orange-500/20 text-orange-400 text-left transition-colors cursor-pointer font-medium border border-orange-500/20"
+                id="admin-nav-link"
+              >
+                <ShieldAlert className="w-3.5 h-3.5 text-orange-400" />
+                Admin Dashboard
+              </Link>
+            )}
 
             <button
               onClick={() => openModal("profile")}

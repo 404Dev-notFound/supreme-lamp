@@ -2,6 +2,7 @@
 
 import React, { useState, useMemo, useEffect } from "react";
 import Link from "next/link";
+import BrandWordmark from "@/components/BrandWordmark";
 import { useRouter, usePathname, useSearchParams } from "next/navigation";
 import { Compass,
   Code,
@@ -206,7 +207,7 @@ export default function RoadmapsCatalogPage() {
               </span>
             </div>
             <span className="font-semibold text-lg tracking-tight">
-              flowCTRL{" "}
+              <BrandWordmark className="text-lg" />{" "}
               <span className="text-orange-400 font-normal">/ Roadmaps</span>
             </span>
           </Link>

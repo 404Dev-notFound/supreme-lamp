@@ -64,9 +64,10 @@ model User {
   securityLogs  SecurityLog[]
 
   // User-Owned Data Relations
-  userSkills      UserSkill[]
-  roadmaps        Roadmap[]
-  mentorProfile   MentorProfile?
+  userSkills           UserSkill[]
+  roadmaps             Roadmap[]
+  personalizedRoadmaps PersonalizedRoadmap[]
+  mentorProfile        MentorProfile?
   resumes         Resume[]
   resumeAnalyses  ResumeAnalysis[]
   savedJobs       SavedJob[]
@@ -1055,4 +1056,105 @@ model PlatformAnnouncement {
   @@index([status])
   @@index([isFeatured])
 }
+
+// ==========================================
+// 19. RAG PERSONALIZED CAREER ROADMAP & GRAPH MODELS
+// ==========================================
+
+model PersonalizedRoadmap {
+  id                  String                     @id @default(cuid())
+  userId              String
+  userGoal            String
+  title               String
+  description         String?                    @db.Text
+  targetRole          String?
+  estimatedTotalWeeks Int?                       @default(12)
+  status              String                     @default("IN_PROGRESS") // NOT_STARTED, IN_PROGRESS, COMPLETED
+  progressPercent     Int                        @default(0)
+  modelMetadata       Json?                      @default("{}")
+  originalRagOutput   Json?
+  createdAt           DateTime                   @default(now())
+  updatedAt           DateTime                   @updatedAt
+
+  user                User                       @relation(fields: [userId], references: [id], onDelete: Cascade)
+  levels              PersonalizedRoadmapLevel[]
+  nodes               PersonalizedRoadmapNode[]
+  edges               PersonalizedRoadmapEdge[]
+
+  @@index([userId])
+  @@index([status])
+  @@index([createdAt])
+}
+
+model PersonalizedRoadmapLevel {
+  id          String                    @id @default(cuid())
+  roadmapId   String
+  levelIndex  Int
+  title       String
+  description String?                   @db.Text
+  order       Int                       @default(0)
+  createdAt   DateTime                  @default(now())
+  updatedAt   DateTime                  @updatedAt
+
+  roadmap     PersonalizedRoadmap       @relation(fields: [roadmapId], references: [id], onDelete: Cascade)
+  nodes       PersonalizedRoadmapNode[]
+
+  @@unique([roadmapId, levelIndex])
+  @@index([roadmapId])
+}
+
+model PersonalizedRoadmapNode {
+  id                   String                    @id @default(cuid())
+  roadmapId            String
+  levelId              String?
+  nodeKey              String
+  topic                String
+  nodeType             String                    @default("TOPIC") // TOPIC, SKILL, MILESTONE, PROJECT, FOUNDATION
+  levelIndex           Int                       @default(0)
+  orderIndex           Int                       @default(0)
+  difficulty           String                    @default("Beginner") // Beginner, Intermediate, Advanced
+  estimatedEffort      String?
+  whyItMatters         String?                   @db.Text
+  whatYouWillLearn     String?                   @db.Text
+  practicalApplication String?                   @db.Text
+  completionCriteria   String?                   @db.Text
+  nextStep             String?
+  status               String                    @default("NOT_STARTED") // NOT_STARTED, IN_PROGRESS, COMPLETED, LOCKED, UPCOMING
+  completedAt          DateTime?
+  metadata             Json?                     @default("{}")
+  createdAt            DateTime                  @default(now())
+  updatedAt            DateTime                  @updatedAt
+
+  roadmap              PersonalizedRoadmap       @relation(fields: [roadmapId], references: [id], onDelete: Cascade)
+  level                PersonalizedRoadmapLevel? @relation(fields: [levelId], references: [id], onDelete: SetNull)
+  outgoingEdges        PersonalizedRoadmapEdge[] @relation("SourceNode")
+  incomingEdges        PersonalizedRoadmapEdge[] @relation("TargetNode")
+
+  @@unique([roadmapId, nodeKey])
+  @@index([roadmapId])
+  @@index([levelId])
+  @@index([status])
+}
+
+model PersonalizedRoadmapEdge {
+  id           String                  @id @default(cuid())
+  roadmapId    String
+  sourceNodeId String
+  targetNodeId String
+  label        String?
+  edgeType     String                  @default("PREREQUISITE") // PREREQUISITE, DEPENDENCY, RECOMMENDED, RELATED
+  metadata     Json?                   @default("{}")
+  createdAt    DateTime                @default(now())
+  updatedAt    DateTime                @updatedAt
+
+  roadmap      PersonalizedRoadmap     @relation(fields: [roadmapId], references: [id], onDelete: Cascade)
+  sourceNode   PersonalizedRoadmapNode @relation("SourceNode", fields: [sourceNodeId], references: [id], onDelete: Cascade)
+  targetNode   PersonalizedRoadmapNode @relation("TargetNode", fields: [targetNodeId], references: [id], onDelete: Cascade)
+
+  @@unique([roadmapId, sourceNodeId, targetNodeId])
+  @@index([roadmapId])
+  @@index([sourceNodeId])
+  @@index([targetNodeId])
+}
+
 

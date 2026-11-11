@@ -39,7 +39,20 @@ async function getAnnouncementById(req, res, next) {
   }
 }
 
+async function getNoticeBoard(req, res, next) {
+  try {
+    const noticeBoard = await announcementsService.getNoticeBoard();
+    return successResponse(res, {
+      data: noticeBoard,
+      message: "Notice board retrieved successfully",
+    });
+  } catch (err) {
+    next(err);
+  }
+}
+
 module.exports = {
   listAnnouncements,
   getAnnouncementById,
+  getNoticeBoard,
 };

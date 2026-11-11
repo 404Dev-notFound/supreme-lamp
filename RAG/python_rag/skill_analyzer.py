@@ -118,12 +118,30 @@ class SkillGapAnalyzer:
         total_eval = len(matched_skills) + len(critical_gaps) + len(recommended_gaps)
         readiness_score = round((len(matched_skills) / total_eval * 100) if total_eval > 0 else 25.0, 1)
 
+        # Determine mastered skills from user's submitted currentSkills
+        mastered_skills = []
+        for s in (current_skills or []):
+            if isinstance(s, dict):
+                lvl = s.get("proficiency") or s.get("level") or 4
+                s_name = s.get("name", "")
+                if s_name and int(lvl) >= 4:
+                    mastered_skills.append({"name": s_name, "level": int(lvl)})
+            elif isinstance(s, str) and s.strip():
+                mastered_skills.append({"name": s.strip(), "level": 4})
+
+        # Also add any matched required skills
+        for m in matched_skills:
+            if not any(x["name"].lower() == m.lower() for x in mastered_skills):
+                mastered_skills.append({"name": m, "level": 4})
+
         return SkillAssessmentResponse(
             targetRole=target_role,
             matchedSkills=matched_skills,
+            masteredSkills=mastered_skills,
             missingPrerequisites=missing_prereqs,
             criticalGaps=critical_gaps,
             recommendedGaps=recommended_gaps,
             allGaps=all_gaps,
+            skillGaps=all_gaps,
             readinessScore=readiness_score,
         )

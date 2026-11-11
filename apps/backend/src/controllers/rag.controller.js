@@ -2,6 +2,7 @@ const path = require("path");
 const { prisma } = require("../lib/prisma");
 const { successResponse, errorResponse } = require("../utils/response");
 const { cache, buildKey, REDIS_CONFIG } = require("../lib/redis");
+const { personalizedRoadmapsService } = require("../services/personalizedRoadmaps.service");
 
 // Import RAG System modules cleanly from root RAG/ folder
 const {
@@ -154,26 +155,62 @@ async function saveProfile(req, res, next) {
 const RAG_SERVICE_URL = process.env.RAG_SERVICE_URL || "http://127.0.0.1:8001";
 
 /**
- * Communicates with the Python LangChain RAG microservice with automatic timeout & fallback
+ * Communicates with the Python LangChain RAG microservice with automatic timeout,
+ * correlation ID tracking, and explicit fallback telemetry.
  */
-async function callPythonRAG(endpoint, payload) {
+async function callPythonRAG(endpoint, payload, req = null) {
   const ctrl = new AbortController();
-  const timer = setTimeout(() => ctrl.abort(), 6000);
+  const timeoutMs = parseInt(process.env.RAG_TIMEOUT_MS || "15000", 10);
+  const timer = setTimeout(() => ctrl.abort(), timeoutMs);
+  const requestId = req?.headers?.["x-request-id"] || req?.id || `req_${Date.now()}`;
+  const t0 = Date.now();
+
   try {
     const res = await fetch(`${RAG_SERVICE_URL}${endpoint}`, {
       method: "POST",
-      headers: { "Content-Type": "application/json" },
+      headers: {
+        "Content-Type": "application/json",
+        "X-Request-Id": requestId,
+        ...(req?.user?.id ? { "X-User-Id": req.user.id } : {}),
+      },
       body: JSON.stringify(payload),
       signal: ctrl.signal,
     });
     clearTimeout(timer);
+    const durationMs = Date.now() - t0;
+
     if (res.ok) {
-      return await res.json();
+      const data = await res.json();
+      return {
+        success: true,
+        data,
+        timingMs: durationMs,
+        pipeline: "python_langchain_qdrant",
+        mode: "rag",
+      };
+    } else {
+      const errText = await res.text().catch(() => "Unknown error");
+      console.warn(`[RAG Controller] Python RAG ${endpoint} returned HTTP ${res.status}: ${errText}`);
+      return {
+        success: false,
+        error: `Python service returned HTTP ${res.status}`,
+        timingMs: durationMs,
+        pipeline: "python_langchain_qdrant",
+        mode: "fallback",
+      };
     }
   } catch (err) {
     clearTimeout(timer);
+    const durationMs = Date.now() - t0;
+    console.warn(`[RAG Controller] Python RAG ${endpoint} failed: ${err.message} (${durationMs}ms)`);
+    return {
+      success: false,
+      error: err.name === "AbortError" ? "Request timed out" : err.message,
+      timingMs: durationMs,
+      pipeline: "python_langchain_qdrant",
+      mode: "fallback",
+    };
   }
-  return null;
 }
 
 /**
@@ -195,21 +232,48 @@ async function assessSkills(req, res, next) {
     }
 
     // Try Python LangChain RAG microservice first
-    const pyAssessment = await callPythonRAG("/api/rag/skill-assessment", {
+    const pyResult = await callPythonRAG("/api/rag/skill-assessment", {
       targetRole: profile.targetRole,
       targetDomain: profile.targetDomain,
       currentSkills: profile.currentSkills,
-    });
+    }, req);
 
-    const assessment = pyAssessment || skillGapAnalyzer.analyzeGaps({
-      currentSkills: profile.currentSkills,
-      targetRole: profile.targetRole,
-      targetDomain: profile.targetDomain,
-    });
+    let assessment;
+    let responseMode = "rag";
+    let retrievalMeta;
+
+    if (pyResult.success && pyResult.data) {
+      assessment = pyResult.data;
+      retrievalMeta = {
+        succeeded: true,
+        pipeline: "python_langchain_qdrant",
+        timingMs: pyResult.timingMs,
+        backend: "qdrant",
+      };
+    } else {
+      responseMode = "fallback";
+      assessment = skillGapAnalyzer.analyzeGaps({
+        currentSkills: profile.currentSkills,
+        targetRole: profile.targetRole,
+        targetDomain: profile.targetDomain,
+      });
+      retrievalMeta = {
+        succeeded: false,
+        pipeline: "javascript_isolated_fallback",
+        timingMs: pyResult.timingMs,
+        fallbackReason: pyResult.error || "Python RAG microservice unavailable",
+      };
+    }
 
     return successResponse(res, {
       data: assessment,
-      message: "Skill gap analysis completed.",
+      meta: {
+        mode: responseMode,
+        retrieval: retrievalMeta,
+      },
+      message: responseMode === "rag"
+        ? "Skill gap analysis completed via Python RAG."
+        : "Skill gap analysis generated via fallback analyzer.",
       req,
     });
   } catch (err) {
@@ -238,28 +302,66 @@ async function generateRoadmapFromQuery(req, res, next) {
     };
 
     // Forward to Python LangChain RAG microservice
-    let roadmap = await callPythonRAG("/api/rag/generate-roadmap", payload);
+    const pyResult = await callPythonRAG("/api/rag/generate-roadmap", payload, req);
+    let roadmap;
+    let responseMode = "rag";
+    let retrievalMeta;
 
-    if (!roadmap) {
-      // Fallback: If python microservice temporarily unavailable, use JS roadmapGenerator
+    if (pyResult.success && pyResult.data) {
+      roadmap = pyResult.data;
+      retrievalMeta = {
+        succeeded: true,
+        pipeline: "python_langchain_qdrant",
+        timingMs: pyResult.timingMs,
+        backend: "qdrant",
+      };
+    } else {
+      responseMode = "fallback";
       const mockProfile = {
         targetRole: query.trim(),
         experienceLevel: experienceLevel || "Beginner",
         careerGoals: goals || [],
       };
       roadmap = await roadmapGenerator.generateRoadmap(mockProfile);
+      retrievalMeta = {
+        succeeded: false,
+        pipeline: "javascript_isolated_fallback",
+        timingMs: pyResult.timingMs,
+        fallbackReason: pyResult.error || "Python RAG microservice unavailable",
+      };
     }
 
     // Persist for authenticated user if session exists
+    let outputRoadmap = roadmap;
     if (req.user && req.user.id) {
+      try {
+        outputRoadmap = await personalizedRoadmapsService.saveGeneratedRoadmap(
+          req.user.id,
+          roadmap,
+          {
+            query: query.trim(),
+            experienceLevel,
+            goals,
+            pipeline: retrievalMeta.pipeline,
+          }
+        );
+      } catch (saveErr) {
+        console.warn("[RAG Controller] PostgreSQL roadmap persistence warning:", saveErr.message);
+      }
       await updateUserRagData(req.user.id, {
-        ragActiveRoadmap: roadmap,
+        ragActiveRoadmap: outputRoadmap,
       });
     }
 
     return successResponse(res, {
-      data: roadmap,
-      message: "Personalized roadmap generated successfully.",
+      data: outputRoadmap,
+      meta: {
+        mode: responseMode,
+        retrieval: retrievalMeta,
+      },
+      message: responseMode === "rag"
+        ? "Personalized roadmap generated via Python RAG."
+        : "Personalized roadmap generated via fallback engine.",
       statusCode: 200,
       req,
     });
@@ -292,6 +394,19 @@ async function updateStepStatus(req, res, next) {
     }
 
     if (req.user && req.user.id) {
+      if (roadmapId) {
+        try {
+          await personalizedRoadmapsService.updateTopicProgress(
+            roadmapId,
+            stepId,
+            status,
+            req.user
+          );
+        } catch (dbErr) {
+          console.warn("[RAG Controller] PersonalizedRoadmap DB update fallback:", dbErr.message);
+        }
+      }
+
       const data = await getUserRagData(req.user.id);
       const currentProgress = { ...(data.stepProgress || {}) };
       currentProgress[stepId] = status;
@@ -354,13 +469,48 @@ async function generateRoadmap(req, res, next) {
     }
 
     // Delegate to Python LangChain RAG microservice
-    const pyRoadmap = await callPythonRAG("/api/rag/generate", profile);
-    const roadmap = pyRoadmap || await roadmapGenerator.generateRoadmap(profile);
+    const pyResult = await callPythonRAG("/api/rag/generate", profile, req);
+    let roadmap;
+    let responseMode = "rag";
+    let retrievalMeta;
+
+    if (pyResult.success && pyResult.data) {
+      roadmap = pyResult.data;
+      retrievalMeta = {
+        succeeded: true,
+        pipeline: "python_langchain_qdrant",
+        timingMs: pyResult.timingMs,
+        backend: "qdrant",
+      };
+    } else {
+      responseMode = "fallback";
+      roadmap = await roadmapGenerator.generateRoadmap(profile);
+      retrievalMeta = {
+        succeeded: false,
+        pipeline: "javascript_isolated_fallback",
+        timingMs: pyResult.timingMs,
+        fallbackReason: pyResult.error || "Python RAG microservice unavailable",
+      };
+    }
 
     // Persist active roadmap for authenticated user
+    let outputRoadmap = roadmap;
     if (req.user?.id) {
+      try {
+        outputRoadmap = await personalizedRoadmapsService.saveGeneratedRoadmap(
+          req.user.id,
+          roadmap,
+          {
+            targetRole: profile.targetRole,
+            pipeline: retrievalMeta.pipeline,
+          }
+        );
+      } catch (saveErr) {
+        console.warn("[RAG Controller] PersonalizedRoadmap save fallback:", saveErr.message);
+      }
+
       await updateUserRagData(req.user.id, {
-        ragActiveRoadmap: roadmap,
+        ragActiveRoadmap: outputRoadmap,
         ragProfile: profile,
       });
 
@@ -391,7 +541,13 @@ async function generateRoadmap(req, res, next) {
 
     return successResponse(res, {
       data: roadmap,
-      message: "Personalized roadmap generated successfully.",
+      meta: {
+        mode: responseMode,
+        retrieval: retrievalMeta,
+      },
+      message: responseMode === "rag"
+        ? "Personalized roadmap generated via Python RAG."
+        : "Personalized roadmap generated via fallback engine.",
       statusCode: 201,
       req,
     });
@@ -438,18 +594,43 @@ async function getRecommendations(req, res, next) {
     }
 
     // Try Python LangChain RAG microservice first
-    const pyRecs = await callPythonRAG("/api/rag/recommendations", {
+    const pyResult = await callPythonRAG("/api/rag/recommendations", {
       profile,
       completedTopics,
-    });
+    }, req);
 
-    const recs = pyRecs || await recommendationEngine.getRecommendations({
-      userProfile: profile,
-      completedTopics,
-    });
+    let recs;
+    let responseMode = "rag";
+    let retrievalMeta;
+
+    if (pyResult.success && pyResult.data) {
+      recs = pyResult.data;
+      retrievalMeta = {
+        succeeded: true,
+        pipeline: "python_langchain_qdrant",
+        timingMs: pyResult.timingMs,
+        backend: "qdrant",
+      };
+    } else {
+      responseMode = "fallback";
+      recs = await recommendationEngine.getRecommendations({
+        userProfile: profile,
+        completedTopics,
+      });
+      retrievalMeta = {
+        succeeded: false,
+        pipeline: "javascript_isolated_fallback",
+        timingMs: pyResult.timingMs,
+        fallbackReason: pyResult.error || "Python RAG microservice unavailable",
+      };
+    }
 
     return successResponse(res, {
       data: recs,
+      meta: {
+        mode: responseMode,
+        retrieval: retrievalMeta,
+      },
       req,
     });
   } catch (err) {
@@ -584,6 +765,131 @@ async function getSkillGaps(req, res, next) {
   }
 }
 
+/**
+ * 10. POST /api/rag/admin/reindex - Trigger secured knowledge base reindexing
+ */
+async function adminReindex(req, res, next) {
+  try {
+    const isProd = process.env.NODE_ENV === "production";
+    const adminSecret = process.env.RAG_ADMIN_SECRET || (!isProd ? "flowctrl-dev-admin-secret-2026" : null);
+
+    if (isProd && !adminSecret) {
+      console.error("[RAG Admin] RAG_ADMIN_SECRET is missing in production environment. Failing closed.");
+      return errorResponse(res, {
+        statusCode: 500,
+        message: "Configuration error: Administrative operations disabled until RAG_ADMIN_SECRET is provisioned.",
+        req,
+      });
+    }
+
+    // Must have verified ADMIN user session (enforced by route middleware) or provide the service secret
+    const headerKey = req.headers["x-admin-key"];
+    const authHeader = req.headers["authorization"];
+    let token = headerKey;
+    if (!token && authHeader) {
+      const parts = authHeader.split(" ");
+      if (parts.length === 2 && parts[0].toLowerCase() === "bearer") {
+        token = parts[1];
+      }
+    }
+
+    if (token && token !== adminSecret) {
+      return errorResponse(res, {
+        statusCode: 401,
+        message: "Unauthorized: Provided administrative key is invalid.",
+        req,
+      });
+    }
+
+    if (!token && req.user?.role !== "ADMIN") {
+      return errorResponse(res, {
+        statusCode: 403,
+        message: "Forbidden: Administrative role or valid X-Admin-Key required.",
+        req,
+      });
+    }
+
+    // Extend socket and response timeout for heavyweight reindex execution (120s)
+    if (typeof res.setTimeout === "function") res.setTimeout(120000);
+    if (typeof req.setTimeout === "function") req.setTimeout(120000);
+
+    const limit = req.query?.limit || req.body?.limit;
+    const reindexUrl = limit
+      ? `${RAG_SERVICE_URL}/api/rag/reindex?limit=${encodeURIComponent(limit)}`
+      : `${RAG_SERVICE_URL}/api/rag/reindex`;
+
+    const t0 = Date.now();
+    const pyRes = await fetch(reindexUrl, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        "X-Admin-Key": adminSecret,
+        "X-Request-Id": req.headers["x-request-id"] || `admin_reindex_${Date.now()}`,
+      },
+    });
+
+    const durationMs = Date.now() - t0;
+    if (pyRes.ok) {
+      const result = await pyRes.json();
+      return successResponse(res, {
+        data: result,
+        meta: {
+          timingMs: durationMs,
+          vectorBackend: "qdrant",
+          mode: "rag",
+        },
+        message: "Knowledge base reindex completed successfully in Qdrant.",
+        req,
+      });
+    } else {
+      const errText = await pyRes.text();
+      return errorResponse(res, {
+        statusCode: pyRes.status,
+        message: `Reindexing failed: ${errText}`,
+        req,
+      });
+    }
+  } catch (err) {
+    next(err);
+  }
+}
+
+/**
+ * 11. GET /api/rag/health - Health & readiness diagnostics across Express, Python RAG and Qdrant
+ */
+async function getRagHealth(req, res, next) {
+  try {
+    const t0 = Date.now();
+    let pyHealth = null;
+    try {
+      const ctrl = new AbortController();
+      const timer = setTimeout(() => ctrl.abort(), 5000);
+      const r = await fetch(`${RAG_SERVICE_URL}/ready`, { signal: ctrl.signal });
+      clearTimeout(timer);
+      if (r.ok) {
+        pyHealth = await r.json();
+      }
+    } catch (e) {
+      // Python microservice not responding
+    }
+
+    return successResponse(res, {
+      data: {
+        status: pyHealth?.ready ? "healthy" : "degraded",
+        expressBackend: "online",
+        pythonRAG: pyHealth || { status: "offline", ready: false, error: "Python service unreachable" },
+        vectorDatabase: "qdrant",
+        primaryPipeline: "python_langchain_qdrant",
+        fallbackAvailable: true,
+        timingMs: Date.now() - t0,
+      },
+      req,
+    });
+  } catch (err) {
+    next(err);
+  }
+}
+
 module.exports = {
   getProfile,
   saveProfile,
@@ -596,4 +902,6 @@ module.exports = {
   toggleTopicProgress,
   getDashboard,
   getSkillGaps,
+  adminReindex,
+  getRagHealth,
 };

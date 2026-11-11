@@ -83,17 +83,19 @@ async function signin(req, res, next) {
   }
 }
 
-async function me(req, res, next) {
+async function me(req, res) {
   try {
     const cookies = parseCookies(req.headers.cookie);
     const sessionToken = cookies[SESSION_COOKIE_NAME];
 
-    const result = await authService.getSessionUser(sessionToken);
+    const result = await authService.getSessionUser(sessionToken, req);
 
     res.setHeader("Cache-Control", "no-store, max-age=0");
     return res.status(200).json(result);
   } catch (error) {
-    next(error);
+    console.error("[Auth /api/auth/me Error]:", error);
+    res.setHeader("Cache-Control", "no-store, max-age=0");
+    return res.status(200).json({ authenticated: false, user: null });
   }
 }
 

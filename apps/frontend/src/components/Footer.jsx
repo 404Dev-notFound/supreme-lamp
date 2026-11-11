@@ -2,6 +2,7 @@
 
 import React, { useState, useMemo } from "react";
 import Link from "next/link";
+import BrandWordmark from "@/components/BrandWordmark";
 import {
   ExternalLink,
   Mail,
@@ -79,9 +80,7 @@ export default function Footer() {
               </div>
               <div className="flex flex-col">
                 <div className="flex items-center gap-2">
-                  <span className="font-bold text-xl tracking-tight text-white">
-                    flowCTRL
-                  </span>
+                  <BrandWordmark className="text-xl" />
                   <span className="px-2 py-0.5 rounded-full text-[10px] font-semibold bg-orange-500/15 text-orange-400 border border-orange-500/30">
                     Ecosystem v{APP_VERSION}
                   </span>

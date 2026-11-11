@@ -1,3 +1,5 @@
+const fs = require("fs");
+const path = require("path");
 const {
   getAllRoadmaps,
   getRoadmapBySlug,
@@ -6,6 +8,35 @@ const {
 } = require("@flowctrl/roadmap-data");
 const { prisma } = require("../lib/prisma");
 const { cache, buildKey, REDIS_CONFIG } = require("../lib/redis");
+
+let CACHED_PREMIUM_SEEDS = null;
+
+function loadPremiumRoadmapSeeds() {
+  if (CACHED_PREMIUM_SEEDS && Array.isArray(CACHED_PREMIUM_SEEDS) && CACHED_PREMIUM_SEEDS.length > 0) {
+    return CACHED_PREMIUM_SEEDS;
+  }
+
+  const candidatePaths = [
+    path.resolve(__dirname, "../../../../flowCTRL data files/seeds/premium_resources.seed.json"),
+    path.resolve(__dirname, "../../../flowCTRL data files/seeds/premium_resources.seed.json"),
+    path.resolve(process.cwd(), "flowCTRL data files/seeds/premium_resources.seed.json"),
+  ];
+
+  for (const p of candidatePaths) {
+    try {
+      if (fs.existsSync(p)) {
+        const raw = JSON.parse(fs.readFileSync(p, "utf8"));
+        if (Array.isArray(raw) && raw.length > 0) {
+          CACHED_PREMIUM_SEEDS = raw;
+          return CACHED_PREMIUM_SEEDS;
+        }
+      }
+    } catch (e) {
+      // continue
+    }
+  }
+  return [];
+}
 
 class RoadmapsService {
   async getAllRoadmaps({ search, category, level, isPremium = false } = {}) {
@@ -34,7 +65,8 @@ class RoadmapsService {
           };
         });
 
-        // Fetch active premium roadmaps from PostgreSQL
+        // Fetch active premium roadmaps from PostgreSQL or seed fallback
+        let premiumResources = [];
         try {
           const premiumWhere = { isActive: true };
           if (category && category !== "all" && category.toLowerCase() !== "premium") {
@@ -44,7 +76,7 @@ class RoadmapsService {
             premiumWhere.level = { equals: level, mode: "insensitive" };
           }
 
-          const premiumResources = await prisma.premiumResource.findMany({
+          premiumResources = await prisma.premiumResource.findMany({
             where: {
               isActive: true,
               OR: [
@@ -69,7 +101,20 @@ class RoadmapsService {
             },
             orderBy: [{ sortOrder: "asc" }, { createdAt: "asc" }],
           });
+        } catch (e) {
+          // Gracefully fall back to seed catalog if database is offline or unseeded
+        }
 
+        if (!premiumResources || premiumResources.length === 0) {
+          const seeds = loadPremiumRoadmapSeeds();
+          premiumResources = seeds.map((s, idx) => ({
+            ...s,
+            isActive: true,
+            sortOrder: s.sortOrder !== undefined ? s.sortOrder : idx,
+          }));
+        }
+
+        try {
           // Only include full roadmaps with defined curriculum modules
           const roadmapModules = premiumResources.filter(
             (p) => p.content?.modules && Array.isArray(p.content.modules) && p.content.modules.length > 0
@@ -114,7 +159,7 @@ class RoadmapsService {
           combined.sort((a, b) => a.title.localeCompare(b.title));
           results = combined;
         } catch (e) {
-          console.warn("Could not fetch premium resources from DB:", e.message);
+          console.warn("Could not process premium resources:", e.message);
         }
 
         if (category && category !== "all") {
@@ -186,11 +231,28 @@ class RoadmapsService {
           };
         }
 
-        // 2. Check if it's a premium resource from PostgreSQL
+        // 2. Check if it's a premium resource from PostgreSQL or seed fallback
         try {
-          const premiumResource = await prisma.premiumResource.findUnique({
-            where: { slug },
-          });
+          let premiumResource = null;
+          try {
+            premiumResource = await prisma.premiumResource.findUnique({
+              where: { slug },
+            });
+          } catch (dbErr) {
+            // DB offline or unseeded - handled by seed fallback below
+          }
+
+          if (!premiumResource) {
+            const seeds = loadPremiumRoadmapSeeds();
+            const match = seeds.find((s) => s.slug === slug);
+            if (match) {
+              premiumResource = {
+                ...match,
+                isActive: true,
+                isPinned: match.isPinned !== false,
+              };
+            }
+          }
 
           if (premiumResource && premiumResource.isActive) {
             const isLocked = !isPremium;

@@ -152,7 +152,7 @@ test("Issue Validation - Status and Priority enum verification", () => {
 test("Project IDOR Defense - Ownership and permission enforcement", () => {
   function canModifyProject(user, project) {
     if (!user || !project) return false;
-    if (["ADMIN", "SUPER_ADMIN"].includes(user.role)) return true;
+    if (user.role === "ADMIN") return true;
     if (project.ownerId === user.id) return true;
     if (
       project.members &&

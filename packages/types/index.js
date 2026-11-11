@@ -5,13 +5,8 @@
  */
 
 const USER_ROLES = Object.freeze({
-  GUEST: "GUEST",
   USER: "USER",
-  MENTOR: "MENTOR",
-  RECRUITER: "RECRUITER",
-  COMPANY_REP: "COMPANY_REP",
   ADMIN: "ADMIN",
-  SUPER_ADMIN: "SUPER_ADMIN",
 });
 
 const WORK_MODES = Object.freeze({

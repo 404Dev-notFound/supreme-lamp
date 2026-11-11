@@ -8,12 +8,8 @@ class AnalyticsController {
    */
   async trackEvent(req, res, next) {
     try {
-      const { eventType, entityType, entityId, metadata, visitorId } = req.body || {};
-      const resolvedVisitorId =
-        visitorId ||
-        req.cookies?.["fc_visitor_id"] ||
-        req.headers["x-visitor-id"] ||
-        "anon";
+      const { eventType, entityType, entityId, metadata } = req.body || {};
+      const resolvedVisitorId = req.user?.id ? null : "without_signin";
 
       const ipAddress =
         req.headers["x-forwarded-for"]?.split(",")[0]?.trim() ||
@@ -70,7 +66,7 @@ class AnalyticsController {
    */
   async getPlatformOverview(req, res, next) {
     try {
-      if (req.user?.role !== "ADMIN" && req.user?.role !== "SUPER_ADMIN") {
+      if (req.user?.role !== "ADMIN") {
         return errorResponse(
           res,
           "Forbidden: Administrator privileges required.",
@@ -80,7 +76,10 @@ class AnalyticsController {
         );
       }
 
-      const overview = await analyticsService.getPlatformOverview(req.user.role);
+      const overview = await analyticsService.getPlatformOverview(req.user.role, {
+        eventPage: req.query.page,
+        eventLimit: req.query.limit,
+      });
       return successResponse(res, {
         data: overview,
         statusCode: 200,

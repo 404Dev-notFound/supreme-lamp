@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
+import BrandWordmark from "@/components/BrandWordmark";
 import {
   BrainCircuit,
   Sparkles,
@@ -104,7 +105,7 @@ export default function RagAssistantPage() {
               <span className="font-bold text-primary-foreground tracking-tighter">fC</span>
             </div>
             <span className="font-semibold text-lg tracking-tight">
-              flowCTRL <span className="text-pink-400 font-normal">/ Career Assistant</span>
+              <BrandWordmark className="text-lg" />{" "}<span className="text-pink-400 font-normal">/ Career Assistant</span>
             </span>
           </Link>
         </div>

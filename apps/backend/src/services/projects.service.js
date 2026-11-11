@@ -3,7 +3,7 @@ const { prisma } = require("../lib/prisma");
 class ProjectsService {
   canModifyProject(user, project) {
     if (!user || !project) return false;
-    if (["ADMIN", "SUPER_ADMIN"].includes(user.role)) return true;
+    if (user.role === "ADMIN") return true;
     if (project.ownerId === user.id) return true;
     if (
       project.members &&
@@ -180,7 +180,7 @@ class ProjectsService {
     }
 
     const isOwner = existing.ownerId === user.id;
-    const isPlatformAdmin = ["ADMIN", "SUPER_ADMIN"].includes(user.role);
+    const isPlatformAdmin = user.role === "ADMIN";
 
     if (!isOwner && !isPlatformAdmin) {
       const err = new Error("Only the project owner or administrator can delete this project.");

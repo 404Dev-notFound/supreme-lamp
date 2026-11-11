@@ -3,6 +3,7 @@
 import React, { Suspense } from "react";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
+import BrandWordmark from "@/components/BrandWordmark";
 import SignInForm from "@/components/modals/SignInForm";
 import { useRouter } from "next/navigation";
 
@@ -30,7 +31,7 @@ export default function SignInPage() {
               fC
             </span>
           </div>
-          <span className="font-semibold text-base tracking-tight">flowCTRL</span>
+          <BrandWordmark className="text-base" />
         </Link>
       </div>
 

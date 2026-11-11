@@ -101,7 +101,7 @@ function initSocket(server) {
         }
 
         const isOwner = project.ownerId === socket.user.id;
-        const isAdmin = ["ADMIN", "SUPER_ADMIN"].includes(socket.user.role);
+        const isAdmin = socket.user.role === "ADMIN";
         const isDemo = Boolean(project.isDemo);
 
         let isMember = false;

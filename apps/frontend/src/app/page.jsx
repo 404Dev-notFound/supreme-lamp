@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import {
   ArrowRight,
   BarChart,
@@ -26,9 +26,14 @@ import { useAuth } from "@/hooks/useAuth";
 import ResumeScreenerModal from "../components/modals/ResumeScreenerModal";
 import MentalHealthScoreModal from "../components/modals/MentalHealthScoreModal";
 import NavProfile from "../components/NavProfile";
+import Dock from "../components/Dock";
+import BrandWordmark from "@/components/BrandWordmark";
 import CompanyMarquee from "../components/CompanyMarquee";
+import TechText from "../components/TechText";
 import DevRoadmapButton from "../components/roadmap/DevRoadmapButton";
-import HomeNotificationsSection from "../components/home/HomeNotificationsSection";
+import ProductIntroduction from "../components/home/ProductIntroduction";
+import NoticeBoard from "../components/home/NoticeBoard";
+import CenterFlow from "../components/home/CenterFlow";
 import Footer from "../components/Footer";
 
 export default function LandingPage() {
@@ -38,6 +43,7 @@ export default function LandingPage() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const pathname = usePathname();
+  const router = useRouter();
   const { user: authUser } = useAuth();
   const { data: nextSession } = useSession();
   const currentUser = authUser || nextSession?.user;
@@ -103,8 +109,8 @@ export default function LandingPage() {
       <nav
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
           scrolled
-            ? "bg-black/85 backdrop-blur-xl border-b border-white/10 shadow-lg shadow-black/40 py-3 px-6"
-            : "glass border-b border-white/10 py-4 px-6"
+            ? "py-3 px-6"
+            : "py-4 px-6"
         }`}
       >
         <div className="w-full grid grid-cols-2 lg:grid-cols-[1fr_auto_1fr] items-center">
@@ -120,59 +126,47 @@ export default function LandingPage() {
                   fC
                 </span>
               </div>
-              <span className="font-semibold text-lg tracking-tight">flowCTRL</span>
+              <BrandWordmark className="text-lg" />
             </Link>
           </div>
 
-          {/* Center: Navigation Links (Mathematically Centered horizontally via 1fr-auto-1fr grid) */}
-          <div className="hidden lg:flex items-center justify-center gap-1 xl:gap-2 text-xs xl:text-sm font-medium text-zinc-300">
-            {navItems.map((item) => {
-              const Icon = item.icon;
-              const isActive = pathname === item.href;
-              return (
-                <Link
-                  key={item.name}
-                  href={item.href}
-                  className={`group relative px-2.5 xl:px-3 py-1.5 rounded-lg flex items-center gap-1.5 transition-all duration-200 ease-out hover:text-white hover:bg-white/[0.04] ${
-                    isActive ? "text-orange-400 font-semibold" : "text-zinc-300"
-                  }`}
-                >
-                  <Icon
-                    className={`w-4 h-4 ${item.iconColor} transition-transform duration-200 ease-out ${item.iconHoverAnim}`}
-                  />
-                  <span>{item.name}</span>
-
-                  {/* Active indicator or subtle orange accent glow/underline on hover */}
-                  {isActive ? (
-                    <span className="absolute bottom-0 left-2 right-2 h-[2px] rounded-full bg-gradient-to-r from-orange-500 to-amber-400 shadow-[0_0_8px_rgba(249,115,22,0.8)]" />
-                  ) : (
-                    <span className="absolute bottom-0 left-2 right-2 h-[2px] rounded-full bg-gradient-to-r from-orange-400/0 via-orange-400 to-amber-400/0 opacity-0 scale-x-0 group-hover:opacity-100 group-hover:scale-x-100 transition-all duration-200 origin-center shadow-[0_0_6px_rgba(249,115,22,0.5)]" />
-                  )}
-                </Link>
-              );
-            })}
-
-            {/* 7. Mental Health */}
-            <button
-              type="button"
-              onClick={() => setMentalHealthScoreOpen(true)}
-              className="group relative px-2.5 xl:px-3 py-1.5 rounded-lg flex items-center gap-1.5 transition-all duration-200 ease-out hover:text-white hover:bg-white/[0.04] text-zinc-300 cursor-pointer"
-            >
-              <HeartPulse className="w-4 h-4 text-rose-400 transition-transform duration-200 ease-out group-hover:scale-110" />
-              <span>Mental Health</span>
-              <span className="absolute bottom-0 left-2 right-2 h-[2px] rounded-full bg-gradient-to-r from-orange-400/0 via-orange-400 to-amber-400/0 opacity-0 scale-x-0 group-hover:opacity-100 group-hover:scale-x-100 transition-all duration-200 origin-center shadow-[0_0_6px_rgba(249,115,22,0.5)]" />
-            </button>
-
-            {/* 8. Resume */}
-            <button
-              type="button"
-              onClick={() => setResumeScreenerOpen(true)}
-              className="group relative px-2.5 xl:px-3 py-1.5 rounded-lg flex items-center gap-1.5 transition-all duration-200 ease-out hover:text-white hover:bg-white/[0.04] text-zinc-300 cursor-pointer"
-            >
-              <FileCheck className="w-4 h-4 text-emerald-400 transition-transform duration-200 ease-out group-hover:scale-110" />
-              <span>Resume</span>
-              <span className="absolute bottom-0 left-2 right-2 h-[2px] rounded-full bg-gradient-to-r from-orange-400/0 via-orange-400 to-amber-400/0 opacity-0 scale-x-0 group-hover:opacity-100 group-hover:scale-x-100 transition-all duration-200 origin-center shadow-[0_0_6px_rgba(249,115,22,0.5)]" />
-            </button>
+          {/* Center: React Bits Dock navigation */}
+          <div className="hidden lg:block">
+            <Dock
+              position="top"
+              baseItemSize={42}
+              magnification={58}
+              panelHeight={56}
+              gap={12}
+              className="header-dock"
+              style={{ top: "50%", translate: "0 -50%" }}
+              items={[
+                ...navItems.map((item) => {
+                  const Icon = item.icon;
+                  return {
+                    label: item.name,
+                    active: pathname === item.href,
+                    icon: <Icon size={20} strokeWidth={2} className={item.iconColor} />,
+                    onClick: () => router.push(item.href),
+                  };
+                }),
+                {
+                  label: "CodeCollab",
+                  icon: <ExternalLink size={20} strokeWidth={2} className="text-violet-400" />,
+                  onClick: () => window.open("https://opensource-projects.netlify.app/", "_blank", "noopener,noreferrer"),
+                },
+                {
+                  label: "Mental Health",
+                  icon: <HeartPulse size={20} strokeWidth={2} className="text-rose-400" />,
+                  onClick: () => setMentalHealthScoreOpen(true),
+                },
+                {
+                  label: "Resume",
+                  icon: <FileCheck size={20} strokeWidth={2} className="text-emerald-400" />,
+                  onClick: () => setResumeScreenerOpen(true),
+                },
+              ]}
+            />
           </div>
 
           {/* Right: Profile & Mobile Menu Toggle */}
@@ -246,12 +240,20 @@ export default function LandingPage() {
 
         <h1 className="text-5xl md:text-7xl font-bold tracking-tighter mb-6 max-w-4xl leading-[1.1]">
           Your Career. Your Roadmap. <br className="hidden md:block" />
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-amber-300">
-            Your Next Move.
-          </span>
+          <span className="sr-only">Your Next Move.</span>
+          <TechText
+            text="Your Next Move."
+            fontSize={144}
+            fontWeight={700}
+            color="#fb923c"
+            accentColor="#fb923c"
+            align="center"
+            className="w-full"
+            style={{ height: "1.35em" }}
+          />
         </h1>
 
-        <p className="text-lg md:text-xl text-zinc-300 max-w-3xl mb-10 leading-relaxed font-normal">
+        <p className="text-lg md:text-xl text-zinc-300 max-w-3xl mb-10 leading-relaxed font-normal -mt-2">
           Learning to build a career in technology can feel overwhelming. There are countless tutorials, programming languages, and roadmaps — but knowing what to learn next is often the hardest part. flowCTRL brings everything together: structured learning paths, DSA practice, hands-on project tutorials, curated resources, and personal progress tracking — all in one place.
         </p>
 
@@ -302,6 +304,11 @@ export default function LandingPage() {
           </button> */}
         </div>
       </section>
+
+      <CenterFlow
+        onMentalHealthClick={() => setMentalHealthScoreOpen(true)}
+        onResumeClick={() => setResumeScreenerOpen(true)}
+      />
 
       {/* Core Features */}
       <section
@@ -446,33 +453,11 @@ export default function LandingPage() {
       {/* Companies Marquee */}
       <CompanyMarquee />
 
-      {/* CTA Section */}
-      <section className="py-32 px-6 relative overflow-hidden">
-        <div className="absolute inset-0 bg-primary/5 backdrop-blur-md" />
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[400px] bg-primary/20 rounded-full blur-[100px] pointer-events-none" />
+      {/* FlowCTRL Product Introduction */}
+      <ProductIntroduction />
 
-        <div className="max-w-3xl mx-auto text-center relative z-10 glass-card p-12 rounded-3xl">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 tracking-tight text-white">
-            From Confusion to Clarity. <br />
-            From Learning to Building.
-          </h2>
-          <p className="text-lg md:text-xl text-zinc-300 mb-10 leading-relaxed">
-            Join thousands of students and developers who are taking control of their career journey with structured roadmaps and real projects.
-          </p>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link
-              href="?modal=signup"
-              className="inline-flex items-center gap-2 bg-white text-black px-8 py-4 rounded-full font-semibold hover:scale-105 transition-transform text-sm shadow-sm"
-            >
-              Start Your Free Journey
-            </Link>
-            <DevRoadmapButton variant="glow" size="lg" />
-          </div>
-        </div>
-      </section>
-
-      {/* Footer */}
-      <HomeNotificationsSection />
+      {/* Notice Board & Footer */}
+      <NoticeBoard />
       <Footer />
 
       <ResumeScreenerModal

@@ -9,8 +9,8 @@ const {
 
 const router = Router();
 
-// Enforce strict Admin / Super Admin authorization across all admin routes
-router.use(requireAuth, requireRole(["ADMIN", "SUPER_ADMIN"]));
+// Enforce strict Admin authorization across all admin routes
+router.use(requireAuth, requireRole(["ADMIN"]));
 
 // GET /api/admin/stats - Overview metrics
 router.get("/stats", adminController.getStats);

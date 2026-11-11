@@ -37,16 +37,19 @@ function successResponse(res, {
 }
 
 function errorResponse(res, {
-  error = "An unexpected error occurred.",
+  error = null,
+  message = null,
   code = "REQUEST_ERROR",
   statusCode = 400,
   details = null,
   req = null,
 } = {}) {
+  const errorMessage = error || message || "An unexpected error occurred.";
   const payload = {
     success: false,
     code,
-    error,
+    error: errorMessage,
+    message: errorMessage,
   };
 
   if (details && (process.env.NODE_ENV !== "production" || statusCode < 500)) {

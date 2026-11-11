@@ -167,7 +167,7 @@ async function runVerification() {
     console.log("\n--- TEST 3: Mass Assignment & Privilege Escalation Defense ---");
     const maliciousInput = {
       id: "malicious-id-override",
-      role: "SUPER_ADMIN",
+      role: "ADMIN",
       status: "BANNED",
       password: "hackedPassword",
       passwordHash: "$2a$10$fakehashfakehashfakehashfake",

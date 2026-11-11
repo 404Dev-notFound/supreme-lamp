@@ -2,15 +2,7 @@
  * Admin Input Validators
  */
 
-const VALID_ROLES = [
-  "GUEST",
-  "USER",
-  "MENTOR",
-  "RECRUITER",
-  "COMPANY_REP",
-  "ADMIN",
-  "SUPER_ADMIN",
-];
+const VALID_ROLES = ["USER", "ADMIN"];
 
 const VALID_STATUSES = ["ACTIVE", "SUSPENDED", "DEACTIVATED"];
 

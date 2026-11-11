@@ -5,7 +5,7 @@ from langchain_core.documents import Document
 from langchain_core.retrievers import BaseRetriever
 from langchain_core.callbacks.manager import CallbackManagerForRetrieverRun
 from pydantic import Field
-from .vector_store import JSONVectorStore
+from .vector_store import QdrantVectorStore
 from .schemas import UserProfile
 from .config import settings
 
@@ -71,7 +71,7 @@ class FlowCTRLRetriever(BaseRetriever):
     Hybrid semantic retriever with domain awareness and metadata filtering.
     Retrieves verified topics, prerequisites, curated resources, and projects.
     """
-    vector_store: JSONVectorStore = Field(...)
+    vector_store: QdrantVectorStore = Field(...)
     top_k: int = Field(default=settings.TOP_K)
     similarity_threshold: float = Field(default=settings.SIMILARITY_THRESHOLD)
     tenant_scope: str = Field(default="global")

@@ -42,6 +42,46 @@ class AnnouncementsClientService {
       },
     });
   }
+
+  /**
+   * Fetch dynamic notice board configuration and notices
+   */
+  async fetchNoticeBoard() {
+    try {
+      const res = await fetch(`${API_BASE}/api/announcements/notice-board`, {
+        credentials: "include",
+        headers: { Accept: "application/json" },
+        cache: "no-store",
+      });
+
+      if (!res.ok) {
+        throw new Error(`Notice board fetch failed with status ${res.status}`);
+      }
+
+      const json = await res.json();
+      return json.data;
+    } catch (err) {
+      console.warn("Notice board fetch failed, using announcements fallback:", err.message);
+      const fallbackList = await this.fetchAnnouncements({ category: "INTERVIEW" });
+      const item = fallbackList && fallbackList.length > 0 ? fallbackList[0] : null;
+      return {
+        title: "Notice Board",
+        totalPages: 3,
+        notices: item
+          ? [
+              {
+                id: item.id,
+                title: item.title.replace(/:.*$/, "").trim() || "Upcoming Technical Interview",
+                description: item.description,
+                dateTime: item.dateTime,
+                actionLabel: item.actionLabel || "Prepare Blueprint",
+                actionUrl: item.actionUrl || "/roadmaps/system-design-architecture",
+              },
+            ]
+          : [],
+      };
+    }
+  }
 }
 
 export const announcementsService = new AnnouncementsClientService();

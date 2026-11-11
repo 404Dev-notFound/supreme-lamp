@@ -3,6 +3,7 @@
 import React, { Suspense } from "react";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
+import BrandWordmark from "@/components/BrandWordmark";
 import SignUpForm from "@/components/modals/SignUpForm";
 import { useRouter } from "next/navigation";
 
@@ -30,7 +31,7 @@ export default function SignUpPage() {
               fC
             </span>
           </div>
-          <span className="font-semibold text-base tracking-tight">flowCTRL</span>
+          <BrandWordmark className="text-base" />
         </Link>
       </div>
 

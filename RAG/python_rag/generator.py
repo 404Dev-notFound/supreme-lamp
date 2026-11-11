@@ -119,7 +119,9 @@ class GroundedLocalSynthesizer:
             next_match = re.search(r"(?i)\* Next Step:\s*([^\n\r]+)", block)
             next_step = next_match.group(1).strip() if next_match else "Proceed to next curriculum milestone"
 
+            item_id = f"topic_{re.sub(r'[^a-z0-9_]+', '_', title.lower()).strip('_')}"
             parsed_items.append(RoadmapItem(
+                id=item_id,
                 topic=title,
                 whyRecommended=f"Essential skill for {role} at {company}, directly addressing required competencies.",
                 difficulty=diff,
@@ -166,6 +168,7 @@ class GroundedLocalSynthesizer:
         # Ensure Projects, Interview Prep, and Career Prep milestones exist
         if not stages_dict["Projects"]:
             stages_dict["Projects"].append(RoadmapItem(
+                id=f"topic_capstone_{role.lower().replace(' ', '_')}",
                 topic=f"Capstone: Scalable {role} Production Project",
                 whyRecommended=f"Demonstrates full engineering lifecycle standards for {company}.",
                 difficulty="Advanced",
@@ -186,6 +189,7 @@ class GroundedLocalSynthesizer:
 
         if not stages_dict["Interview Preparation"]:
             stages_dict["Interview Preparation"].append(RoadmapItem(
+                id=f"topic_interview_prep_{role.lower().replace(' ', '_')}",
                 topic=f"Technical Interview Mastery for {role}",
                 whyRecommended=f"Targeted problem-solving drills and architecture walkthroughs for {company}.",
                 difficulty="Intermediate",
@@ -206,6 +210,7 @@ class GroundedLocalSynthesizer:
 
         if not stages_dict["Career Preparation"]:
             stages_dict["Career Preparation"].append(RoadmapItem(
+                id=f"topic_career_prep_{role.lower().replace(' ', '_')}",
                 topic=f"Portfolio & Technical Case Study Polish",
                 whyRecommended="Presents demonstrable proof of technical mastery to engineering recruiters.",
                 difficulty="Intermediate",
@@ -233,7 +238,8 @@ class GroundedLocalSynthesizer:
                     items=items,
                 ))
 
-        total_weeks = max(8, sum(len(s.items) for s in stages) * 2)
+        total_topics = sum(len(s.items) for s in stages)
+        total_weeks = max(8, total_topics * 2)
 
         return RoadmapResponse(
             id=f"roadmap_{role.lower().replace(' ', '_')}_{user_profile.experienceLevel.lower()}",
@@ -241,6 +247,7 @@ class GroundedLocalSynthesizer:
             summary=f"Tailored curriculum designed for {role} targeting {company}. Structured to bridge detected skill gaps with verified resources and milestones.",
             estimatedTotalWeeks=total_weeks,
             targetRole=role,
+            totalTopicsCount=total_topics,
             stages=stages,
             provenance={"source": "grounded_local", "retrieved_topics": len(parsed_items)},
         )

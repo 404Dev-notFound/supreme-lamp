@@ -1,7 +1,11 @@
+import time
+import uuid
 import uvicorn
 from contextlib import asynccontextmanager
-from fastapi import FastAPI, HTTPException, status
+from datetime import datetime, timezone
+from fastapi import FastAPI, HTTPException, Request, Header, Query, status
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import JSONResponse
 
 from .config import settings
 from .schemas import (
@@ -16,6 +20,7 @@ from .schemas import (
     QueryRequest,
     QueryResponse,
     HealthResponse,
+    ReadinessResponse,
 )
 from .pipeline import RAGPipeline
 
@@ -31,8 +36,8 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(
     title="FlowCTRL Python LangChain RAG Service",
-    description="Production Retrieval-Augmented Generation for Personalized Career Roadmaps & Learning Recommendations",
-    version="2.0.0",
+    description="Production Retrieval-Augmented Generation for Personalized Career Roadmaps & Learning Recommendations backed by Qdrant and MiniLM",
+    version="2.1.0",
     lifespan=lifespan,
 )
 
@@ -45,14 +50,40 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+# Request tracking middleware
+@app.middleware("http")
+async def request_logging_middleware(request: Request, call_next):
+    request_id = request.headers.get("x-request-id") or str(uuid.uuid4())
+    t0 = time.time()
+    try:
+        response = await call_next(request)
+        duration_ms = round((time.time() - t0) * 1000, 2)
+        response.headers["X-Request-Id"] = request_id
+        response.headers["X-Response-Time"] = f"{duration_ms}ms"
+        return response
+    except Exception as exc:
+        duration_ms = round((time.time() - t0) * 1000, 2)
+        print(f"[RAG Service] Error processing request {request.url.path} ({request_id}) after {duration_ms}ms: {exc}")
+        return JSONResponse(
+            status_code=500,
+            content={
+                "detail": f"Internal server error: {str(exc)}",
+                "status": "error",
+                "requestId": request_id,
+            },
+            headers={"X-Request-Id": request_id},
+        )
+
 @app.get("/", response_model=HealthResponse)
 @app.get("/health", response_model=HealthResponse)
 async def health():
-    count = len(rag_pipeline.vector_store.documents) if rag_pipeline else 0
+    count = rag_pipeline.vector_store.count() if (rag_pipeline and rag_pipeline.vector_store) else 0
     return HealthResponse(
         status="healthy",
         provider=settings.LLM_PROVIDER,
+        vectorBackend="qdrant",
         vectorStoreCount=count,
+        collection=settings.COLLECTION_NAME,
         models={
             "llm": (
                 settings.OPENAI_MODEL if settings.LLM_PROVIDER == "openai"
@@ -60,13 +91,59 @@ async def health():
                 else settings.GROQ_MODEL if settings.LLM_PROVIDER == "groq"
                 else "local_grounded"
             ),
-            "embeddings": (
-                settings.OPENAI_EMBEDDING_MODEL if settings.LLM_PROVIDER == "openai"
-                else settings.GEMINI_EMBEDDING_MODEL if settings.LLM_PROVIDER == "gemini"
-                else "local_deterministic_384d"
-            ),
+            "embeddings": settings.EMBEDDING_MODEL_NAME,
         },
     )
+
+@app.get("/ready", response_model=ReadinessResponse)
+async def ready():
+    """Readiness probe verifying actual vector DB connection, indexing status, and embedding model inference."""
+    if not rag_pipeline or not rag_pipeline.vector_store:
+        raise HTTPException(status_code=status.HTTP_503_SERVICE_UNAVAILABLE, detail="RAG Pipeline not yet initialized")
+
+    try:
+        # 1. Verify Qdrant connection and point count
+        count = rag_pipeline.vector_store.count()
+        if count == 0:
+            raise HTTPException(
+                status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
+                detail="Qdrant vector store is not ready: collection is unindexed (0 vectors found).",
+            )
+
+        # 2. Verify actual semantic embedding model inference
+        test_vec = rag_pipeline.embeddings.embed_query("flowctrl readiness probe")
+        if not test_vec or len(test_vec) != settings.EMBEDDING_DIMENSION:
+            raise HTTPException(
+                status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
+                detail=f"Embedding model failure: produced vector size {len(test_vec) if test_vec else 0}, expected {settings.EMBEDDING_DIMENSION}.",
+            )
+
+        return ReadinessResponse(
+            ready=True,
+            status="ready",
+            vectorDatabase={
+                "backend": "qdrant",
+                "collection": settings.COLLECTION_NAME,
+                "dimension": settings.EMBEDDING_DIMENSION,
+                "storagePath": str(settings.QDRANT_STORAGE_PATH),
+                "healthy": True,
+            },
+            embeddingModel={
+                "name": settings.EMBEDDING_MODEL_NAME,
+                "dimension": settings.EMBEDDING_DIMENSION,
+                "version": settings.EMBEDDING_VERSION,
+                "ready": True,
+            },
+            indexedDocuments=count,
+            timestamp=datetime.now(timezone.utc).isoformat(),
+        )
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(
+            status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
+            detail=f"Readiness check failed: {str(e)}",
+        )
 
 @app.post("/api/rag/skill-assessment", response_model=SkillAssessmentResponse)
 async def assess_skills(req: SkillAssessmentRequest):
@@ -160,10 +237,34 @@ async def query_knowledge_base(req: QueryRequest):
         )
 
 @app.post("/api/rag/reindex")
-async def reindex_knowledge_base():
+async def reindex_knowledge_base(
+    x_admin_key: str = Header(None, alias="x-admin-key"),
+    authorization: str = Header(None),
+    limit: int = Query(None),
+):
+    """Admin-secured knowledge base re-indexing into Qdrant."""
+    token = x_admin_key
+    if not token and authorization:
+        parts = authorization.split()
+        if len(parts) == 2 and parts[0].lower() == "bearer":
+            token = parts[1]
+
+    if not token or not settings.RAG_ADMIN_SECRET or token != settings.RAG_ADMIN_SECRET:
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="Unauthorized: Valid administrative key required to trigger reindexing.",
+        )
+
     try:
-        count = rag_pipeline.reindex()
-        return {"status": "success", "indexedDocuments": count}
+        count = rag_pipeline.reindex(limit=limit)
+        return {
+            "status": "success",
+            "indexedDocuments": count,
+            "vectorBackend": "qdrant",
+            "collection": settings.COLLECTION_NAME,
+            "embeddingModel": settings.EMBEDDING_MODEL_NAME,
+            "timestamp": datetime.now(timezone.utc).isoformat(),
+        }
     except Exception as e:
         raise HTTPException(
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,

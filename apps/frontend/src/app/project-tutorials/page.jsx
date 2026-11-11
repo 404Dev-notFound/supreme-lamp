@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useMemo, useCallback } from "react";
 import Link from "next/link";
+import BrandWordmark from "@/components/BrandWordmark";
 import {
   Search,
   Filter,
@@ -185,7 +186,7 @@ export default function ProjectTutorialsLandingPage() {
             <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center shadow-lg shadow-primary/20">
               <span className="font-bold text-primary-foreground tracking-tighter">fC</span>
             </div>
-            <span className="font-semibold text-lg tracking-tight">flowCTRL</span>
+            <BrandWordmark className="text-lg" />
           </Link>
 
           <div className="hidden xl:flex items-center gap-5 text-sm font-medium text-zinc-300">

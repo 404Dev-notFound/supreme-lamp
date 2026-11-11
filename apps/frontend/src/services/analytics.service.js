@@ -1,17 +1,7 @@
 import { apiClient } from "@/lib/api";
 
 function getVisitorId() {
-  if (typeof window === "undefined") return "server";
-  try {
-    let vid = localStorage.getItem("fc_visitor_id");
-    if (!vid) {
-      vid = "v_" + Math.random().toString(36).substring(2, 12) + Date.now().toString(36);
-      localStorage.setItem("fc_visitor_id", vid);
-    }
-    return vid;
-  } catch {
-    return "anon_visitor";
-  }
+  return "without_signin";
 }
 
 class AnalyticsService {
@@ -30,7 +20,7 @@ class AnalyticsService {
         visitorId,
         metadata,
       });
-    } catch (err) {
+    } catch {
       // Non-blocking telemetry
       return null;
     }

@@ -54,6 +54,9 @@ class DocumentProcessor:
         # 5. Load Project-Building Tutorials catalog
         docs.extend(self._load_project_tutorials())
 
+        # 6. Load DSA Algorithms and Problem-Solving patterns
+        docs.extend(self._load_dsa_data())
+
         return docs
 
     def _load_domain_curricula(self) -> List[Document]:
@@ -350,3 +353,59 @@ class DocumentProcessor:
             print(f"[DocumentProcessor] Error loading project tutorials: {e}")
 
         return docs
+
+    def _load_dsa_data(self) -> List[Document]:
+        docs: List[Document] = []
+        dsa_file = Path(__file__).resolve().parent.parent.parent / "data" / "unified_dsa.json"
+        if not dsa_file.exists():
+            return docs
+
+        try:
+            with open(dsa_file, "r", encoding="utf-8") as f:
+                data = json.load(f)
+
+            algorithms = data.get("algorithms", [])
+            for algo in algorithms:
+                slug = algo.get("slug", "")
+                title = clean_text(algo.get("title", ""))
+                category = clean_text(algo.get("category", "Algorithms"))
+                diff = algo.get("difficulty", "Medium")
+                patterns = algo.get("patterns", [])
+                time_c = algo.get("timeComplexity", "")
+                space_c = algo.get("spaceComplexity", "")
+                problem = clean_text(algo.get("problemStatement", ""))
+                intuition = clean_text(algo.get("intuition", ""))
+                prereqs = algo.get("prerequisites", [])
+                comm_tips = clean_text(algo.get("interviewCommunication", ""))
+
+                content = (
+                    f"### DSA Algorithm: {title}\n"
+                    f"**Category:** {category} | **Difficulty:** {diff}\n"
+                    f"**Time Complexity:** {time_c} | **Space Complexity:** {space_c}\n"
+                    f"**Patterns:** {', '.join(patterns) if patterns else 'None'}\n"
+                    f"**Prerequisites:** {', '.join(prereqs) if prereqs else 'None'}\n"
+                    f"**Problem Statement:** {problem}\n"
+                    f"**Intuition & Approach:** {intuition}\n"
+                    f"**Interview Tips:** {comm_tips}"
+                )
+
+                docs.append(Document(
+                    page_content=content,
+                    metadata={
+                        "id": f"dsa_{slug or title.lower().replace(' ', '_')}",
+                        "title": title,
+                        "slug": slug,
+                        "type": "dsa_algorithm",
+                        "category": category,
+                        "difficulty": diff,
+                        "patterns": patterns,
+                        "time_complexity": time_c,
+                        "space_complexity": space_c,
+                        "tenant_id": "global",
+                    },
+                ))
+        except Exception as e:
+            print(f"[DocumentProcessor] Error loading DSA data: {e}")
+
+        return docs
+

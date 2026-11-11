@@ -39,7 +39,7 @@ test("Security Utils - validateProfileUpdate prevents mass assignment", () => {
     headline: "Security Researcher",
     // Protected fields that must be ignored/dropped
     id: "hacked-id-123",
-    role: "SUPER_ADMIN",
+    role: "ADMIN",
     status: "BANNED",
     email: "hacker@evil.com",
     password: "new-password-123",

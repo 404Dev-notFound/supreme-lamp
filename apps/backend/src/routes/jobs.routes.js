@@ -24,7 +24,7 @@ router.get("/companies/:id", jobsController.getCompanyById);
 router.post(
   "/companies",
   requireAuth,
-  requireRole(["RECRUITER", "COMPANY_REP", "ADMIN", "SUPER_ADMIN"]),
+  requireRole(["ADMIN"]),
   validate(validateCreateCompany),
   jobsController.createCompany,
 );
@@ -33,7 +33,7 @@ router.post(
 router.put(
   "/companies/:id",
   requireAuth,
-  requireRole(["RECRUITER", "COMPANY_REP", "ADMIN", "SUPER_ADMIN"]),
+  requireRole(["ADMIN"]),
   validate(validateCreateCompany),
   jobsController.updateCompany,
 );
@@ -65,7 +65,7 @@ router.post(
 router.get(
   "/:id/applications",
   requireAuth,
-  requireRole(["RECRUITER", "COMPANY_REP", "ADMIN", "SUPER_ADMIN"]),
+  requireRole(["ADMIN"]),
   jobsController.listJobApplications,
 );
 
@@ -73,7 +73,7 @@ router.get(
 router.patch(
   "/applications/:applicationId/status",
   requireAuth,
-  requireRole(["RECRUITER", "COMPANY_REP", "ADMIN", "SUPER_ADMIN"]),
+  requireRole(["ADMIN"]),
   validate(validateApplicationStatus),
   jobsController.updateApplicationStatus,
 );
@@ -91,7 +91,7 @@ router.get("/:id", optionalAuth, jobsController.getJobById);
 router.post(
   "/",
   requireAuth,
-  requireRole(["RECRUITER", "COMPANY_REP", "ADMIN", "SUPER_ADMIN"]),
+  requireRole(["ADMIN"]),
   validate(validateCreateJob),
   jobsController.createJob,
 );
@@ -100,7 +100,7 @@ router.post(
 router.put(
   "/:id",
   requireAuth,
-  requireRole(["RECRUITER", "COMPANY_REP", "ADMIN", "SUPER_ADMIN"]),
+  requireRole(["ADMIN"]),
   validate(validateCreateJob),
   jobsController.updateJob,
 );
@@ -109,7 +109,7 @@ router.put(
 router.delete(
   "/:id",
   requireAuth,
-  requireRole(["RECRUITER", "COMPANY_REP", "ADMIN", "SUPER_ADMIN"]),
+  requireRole(["ADMIN"]),
   jobsController.deleteJob,
 );
 

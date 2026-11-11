@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
+import BrandWordmark from "@/components/BrandWordmark";
 import { ArrowLeft, ExternalLink, FileText, Sparkles } from "lucide-react";
 import NavProfile from "@/components/NavProfile";
 import Footer from "@/components/Footer";
@@ -26,9 +27,7 @@ export default function ResumeScreenerPage() {
                 fC
               </span>
             </div>
-            <span className="font-semibold text-lg tracking-tight text-white hidden sm:inline">
-              flowCTRL
-            </span>
+            <BrandWordmark className="hidden text-lg sm:inline-flex" />
           </Link>
           <span className="text-zinc-400 mx-1">/</span>
           <span className="font-semibold text-lg tracking-tight text-white truncate max-w-[200px] sm:max-w-md">

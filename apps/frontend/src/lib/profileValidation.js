@@ -206,6 +206,31 @@ export function sanitizeSelfProfile(user) {
       isPublic: r.isPublic,
       updatedAt: r.updatedAt,
     })),
+    personalizedRoadmaps: (user.personalizedRoadmaps || []).map((r) => {
+      const totalNodes = r._count?.nodes || r.nodes?.length || 0;
+      const completedNodes = (r.nodes || []).filter((n) => n.status === "COMPLETED").length;
+      const progressPercent =
+        r.progressPercent !== undefined
+          ? r.progressPercent
+          : totalNodes > 0
+          ? Math.round((completedNodes / totalNodes) * 100)
+          : 0;
+      return {
+        id: r.id,
+        title: r.title,
+        careerGoal: r.userGoal,
+        userGoal: r.userGoal,
+        targetRole: r.targetRole,
+        description: r.description,
+        status: r.status,
+        progressPercent,
+        totalLevels: r._count?.levels || 0,
+        totalNodes,
+        completedNodes,
+        createdAt: r.createdAt,
+        updatedAt: r.updatedAt,
+      };
+    }),
   };
 }
 

@@ -120,24 +120,10 @@ async function getResumeById({ id, userId, userRole }) {
   }
 
   const isOwner = resume.userId === userId;
-  const isAdmin = ["ADMIN", "SUPER_ADMIN"].includes(userRole);
+  const isAdmin = userRole === "ADMIN";
 
   if (!isOwner && !isAdmin) {
-    const isHiring = ["RECRUITER", "COMPANY_REP"].includes(userRole);
-    if (!isHiring) {
-      throw new ResumeError("Access denied. Unauthorized resume access.", 403, "FORBIDDEN");
-    }
-
-    // Hiring role can only view if candidate has submitted this resume to an application
-    const hasApplication = await prisma.jobApplication.findFirst({
-      where: {
-        resumeId: id,
-      },
-    });
-
-    if (!hasApplication) {
-      throw new ResumeError("Access denied. Resume is not associated with any job applications.", 403, "FORBIDDEN");
-    }
+    throw new ResumeError("Access denied. Unauthorized resume access.", 403, "FORBIDDEN");
   }
 
   return resume;
@@ -171,7 +157,7 @@ async function deleteResume({ id, userId, userRole, req = null }) {
   }
 
   const isOwner = resume.userId === userId;
-  const isAdmin = ["ADMIN", "SUPER_ADMIN"].includes(userRole);
+  const isAdmin = userRole === "ADMIN";
 
   if (!isOwner && !isAdmin) {
     throw new ResumeError("Access denied.", 403, "FORBIDDEN");

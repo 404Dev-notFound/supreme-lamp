@@ -38,6 +38,23 @@ export async function GET() {
           take: 5,
           orderBy: { updatedAt: "desc" },
         },
+        personalizedRoadmaps: {
+          orderBy: { createdAt: "desc" },
+          include: {
+            _count: {
+              select: {
+                levels: true,
+                nodes: true,
+                edges: true,
+              },
+            },
+            nodes: {
+              select: {
+                status: true,
+              },
+            },
+          },
+        },
       },
     });
 
@@ -199,6 +216,23 @@ export async function PUT(req) {
         roadmaps: {
           take: 5,
           orderBy: { updatedAt: "desc" },
+        },
+        personalizedRoadmaps: {
+          orderBy: { createdAt: "desc" },
+          include: {
+            _count: {
+              select: {
+                levels: true,
+                nodes: true,
+                edges: true,
+              },
+            },
+            nodes: {
+              select: {
+                status: true,
+              },
+            },
+          },
         },
       },
     });

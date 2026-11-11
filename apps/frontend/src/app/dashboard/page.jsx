@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
+import BrandWordmark from "@/components/BrandWordmark";
 import {
   Compass,
   Code,
@@ -30,6 +31,8 @@ import UpgradeMembershipModal from "@/components/modals/UpgradeMembershipModal";
 import WellbeingEmbed from "@/components/WellbeingEmbed";
 import { useAuth } from "@/hooks/useAuth";
 import { dashboardService } from "@/services/dashboard.service";
+import { personalizedRoadmapsClient } from "@/services/personalizedRoadmaps.service";
+import PersonalizedRoadmapModal from "@/components/roadmap/PersonalizedRoadmapModal";
 
 export default function DashboardPage() {
   const { user: authUser, status: authStatus } = useAuth();
@@ -39,6 +42,9 @@ export default function DashboardPage() {
 
   const [isResumeScreenerOpen, setResumeScreenerOpen] = useState(false);
   const [isUpgradeModalOpen, setUpgradeModalOpen] = useState(false);
+
+  const [personalizedRoadmaps, setPersonalizedRoadmaps] = useState([]);
+  const [activeModalRoadmapId, setActiveModalRoadmapId] = useState(null);
 
   // Fetch live account dashboard metrics when user is authenticated
   const loadDashboard = async () => {
@@ -52,6 +58,15 @@ export default function DashboardPage() {
       setError(err.message || "Failed to load dashboard metrics");
     } finally {
       setLoading(false);
+    }
+
+    try {
+      const res = await personalizedRoadmapsClient.listUserRoadmaps();
+      if (res && res.roadmaps) {
+        setPersonalizedRoadmaps(res.roadmaps);
+      }
+    } catch (err) {
+      console.warn("Could not fetch personalized roadmaps:", err.message);
     }
   };
 
@@ -91,7 +106,7 @@ export default function DashboardPage() {
                 fC
               </span>
             </div>
-            <span className="font-semibold text-lg tracking-tight">flowCTRL</span>
+            <BrandWordmark className="text-lg" />
           </Link>
           <div className="hidden xl:flex items-center gap-5 text-sm font-medium text-zinc-300">
             <Link href="/dashboard" className="text-amber-400 font-semibold flex items-center gap-1.5">
@@ -427,6 +442,116 @@ export default function DashboardPage() {
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-10">
               {/* Enrolled Tracks & Active Learning Modules (2 Cols) */}
               <section className="lg:col-span-2 space-y-6">
+                {/* 0. Personalized RAG-Generated Career Roadmaps */}
+                <div>
+                  <div className="flex items-center justify-between mb-3">
+                    <h2 className="text-xl font-bold text-white flex items-center gap-2">
+                      <Sparkles className="w-5 h-5 text-orange-400" />
+                      My Personalized Roadmaps
+                    </h2>
+                    <Link
+                      href="/ecosystem"
+                      className="text-xs font-semibold text-orange-400 hover:text-orange-300 flex items-center gap-1"
+                    >
+                      Generate New Path <ArrowRight className="w-3.5 h-3.5" />
+                    </Link>
+                  </div>
+
+                  {personalizedRoadmaps.length === 0 ? (
+                    <div className="p-8 rounded-2xl glass-card border border-white/10 bg-zinc-950/40 text-center">
+                      <Sparkles className="w-10 h-10 text-zinc-600 mx-auto mb-3" />
+                      <h3 className="text-base font-semibold text-zinc-200 mb-1">
+                        No Personalized Roadmaps Generated Yet
+                      </h3>
+                      <p className="text-xs text-zinc-400 max-w-sm mx-auto mb-4">
+                        Generate an adaptive, multi-level learning graph based on your career targets and skill gaps.
+                      </p>
+                      <Link
+                        href="/ecosystem"
+                        className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-orange-500 text-black font-semibold text-xs hover:bg-orange-400 transition-colors shadow-lg shadow-orange-500/20"
+                      >
+                        <Sparkles className="w-4 h-4" />
+                        Generate with RAG
+                      </Link>
+                    </div>
+                  ) : (
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                      {personalizedRoadmaps.map((rm) => {
+                        const genDate = rm.createdAt
+                          ? new Date(rm.createdAt).toLocaleDateString("en-US", {
+                              month: "short",
+                              day: "numeric",
+                              year: "numeric",
+                            })
+                          : "Recently";
+
+                        return (
+                          <div
+                            key={rm.id}
+                            onClick={() => setActiveModalRoadmapId(rm.id)}
+                            className="p-5 rounded-2xl glass-card border border-white/10 hover:border-orange-500/50 transition-all group bg-zinc-950/40 cursor-pointer flex flex-col justify-between"
+                          >
+                            <div>
+                              <div className="flex items-center justify-between mb-2.5">
+                                <span className="px-2 py-0.5 rounded text-[10px] font-mono font-bold bg-orange-500/20 text-orange-400 border border-orange-500/30">
+                                  RAG Personalized
+                                </span>
+                                <span className="text-[11px] font-mono text-zinc-400">
+                                  {genDate}
+                                </span>
+                              </div>
+
+                              <h3 className="text-base font-bold text-white mb-1 group-hover:text-amber-300 transition-colors truncate">
+                                {rm.title}
+                              </h3>
+
+                              <p className="text-xs text-zinc-300 flex items-center gap-1.5 line-clamp-1 mb-3">
+                                <Target className="w-3.5 h-3.5 text-orange-400 shrink-0" />
+                                <span>Goal: {rm.careerGoal || rm.userGoal || "Software Engineering"}</span>
+                              </p>
+
+                              <div className="flex items-center gap-3 text-[11px] font-mono text-zinc-400 mb-3">
+                                <span>{rm.totalLevels || 0} levels</span>
+                                <span>•</span>
+                                <span>{rm.totalNodes || 0} nodes</span>
+                                <span>•</span>
+                                <span>{rm.completedNodes || 0} completed</span>
+                              </div>
+                            </div>
+
+                            <div>
+                              <div className="flex items-center justify-between text-xs text-zinc-400 mb-1.5 font-mono">
+                                <span>Progress</span>
+                                <span className="font-bold text-amber-300">{rm.progressPercent || 0}%</span>
+                              </div>
+                              <div className="w-full bg-white/5 rounded-full h-1.5 overflow-hidden">
+                                <div
+                                  className="bg-gradient-to-r from-orange-500 to-amber-400 h-full rounded-full transition-all duration-500"
+                                  style={{ width: `${Math.min(100, Math.max(0, rm.progressPercent || 0))}%` }}
+                                />
+                              </div>
+
+                              <div className="flex items-center justify-between pt-3 mt-2 border-t border-white/5 text-[11px]">
+                                <span className="text-orange-400 font-semibold group-hover:text-amber-300 transition-colors">
+                                  Open Interactive Graph →
+                                </span>
+                                <Link
+                                  href={`/roadmaps/personalized/${rm.id}`}
+                                  onClick={(e) => e.stopPropagation()}
+                                  className="text-zinc-500 hover:text-white transition-colors flex items-center gap-1 font-mono"
+                                >
+                                  <ExternalLink className="w-3 h-3" />
+                                  <span>Full Page</span>
+                                </Link>
+                              </div>
+                            </div>
+                          </div>
+                        );
+                      })}
+                    </div>
+                  )}
+                </div>
+
                 {/* 1. Enrolled Roadmaps */}
                 <div>
                   <div className="flex items-center justify-between mb-3">
@@ -689,6 +814,14 @@ export default function DashboardPage() {
       <Footer />
 
       {/* Interactive Modals */}
+      {activeModalRoadmapId && (
+        <PersonalizedRoadmapModal
+          roadmapId={activeModalRoadmapId}
+          isOpen={Boolean(activeModalRoadmapId)}
+          onClose={() => setActiveModalRoadmapId(null)}
+          onProgressUpdated={() => loadDashboard()}
+        />
+      )}
       <ResumeScreenerModal
         isOpen={isResumeScreenerOpen}
         onClose={() => setResumeScreenerOpen(false)}

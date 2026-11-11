@@ -1,7 +1,10 @@
 const bcrypt = require("bcrypt");
+const jwt = require("jsonwebtoken");
+const config = require("../config");
 const { prisma } = require("../lib/prisma");
 const { syncJsonUserData } = require("../utils/syncJsonData");
 const {
+  parseCookies,
   createSessionRecord,
   validateSessionToken,
   revokeSessionToken,
@@ -270,29 +273,109 @@ async function signin({ email, password, req = null }) {
 
 /**
  * Verify session token and retrieve current user context.
+ * Supports primary HTTP-only flowctrl_session cookie, Bearer JWT, and NextAuth session tokens.
  */
-async function getSessionUser(sessionToken) {
-  if (!sessionToken) {
+async function getSessionUser(sessionToken, req = null) {
+  try {
+    // 1. Primary path: flowctrl_session token
+    if (sessionToken) {
+      const validation = await validateSessionToken(sessionToken);
+
+      if (validation.valid && validation.user) {
+        return {
+          authenticated: true,
+          user: sanitizeAuthUser(validation.user),
+          session: {
+            id: validation.session.id,
+            deviceType: validation.session.deviceType,
+            browser: validation.session.browser,
+            os: validation.session.os,
+            lastActiveAt: validation.session.lastActiveAt,
+          },
+        };
+      }
+    }
+
+    // 2. Secondary path: Bearer JWT Authorization header
+    const authHeader = req?.headers?.authorization;
+    if (authHeader && authHeader.startsWith("Bearer ")) {
+      const token = authHeader.split(" ")[1];
+      try {
+        const decoded = jwt.verify(token, config.jwt.secret, {
+          algorithms: ["HS256"],
+        });
+        const userId = decoded.id || decoded.sub || decoded.userId;
+
+        if (userId) {
+          const user = await prisma.user.findUnique({
+            where: { id: userId },
+            include: {
+              profile: true,
+              membership: {
+                include: {
+                  plan: true,
+                },
+              },
+            },
+          });
+
+          if (user && user.status === "ACTIVE") {
+            return {
+              authenticated: true,
+              user: sanitizeAuthUser(user),
+              session: null,
+            };
+          }
+        }
+      } catch {
+        // Bearer token verification failed
+      }
+    }
+
+    // 3. Fallback: NextAuth JWT session token in cookies
+    if (req?.headers?.cookie) {
+      const cookies = parseCookies(req.headers.cookie);
+      const nextAuthToken =
+        cookies["next-auth.session-token"] ||
+        cookies["__Secure-next-auth.session-token"];
+
+      if (nextAuthToken) {
+        try {
+          const decoded = jwt.decode(nextAuthToken);
+          const userId = decoded?.id || decoded?.sub;
+
+          if (userId) {
+            const user = await prisma.user.findUnique({
+              where: { id: userId },
+              include: {
+                profile: true,
+                membership: {
+                  include: {
+                    plan: true,
+                  },
+                },
+              },
+            });
+
+            if (user && user.status === "ACTIVE") {
+              return {
+                authenticated: true,
+                user: sanitizeAuthUser(user),
+                session: null,
+              };
+            }
+          }
+        } catch {
+          // NextAuth decode failed
+        }
+      }
+    }
+
+    return { authenticated: false, user: null };
+  } catch (err) {
+    console.warn("[Auth getSessionUser Warning]:", err.message);
     return { authenticated: false, user: null };
   }
-
-  const validation = await validateSessionToken(sessionToken);
-
-  if (!validation.valid || !validation.user) {
-    return { authenticated: false, user: null };
-  }
-
-  return {
-    authenticated: true,
-    user: sanitizeAuthUser(validation.user),
-    session: {
-      id: validation.session.id,
-      deviceType: validation.session.deviceType,
-      browser: validation.session.browser,
-      os: validation.session.os,
-      lastActiveAt: validation.session.lastActiveAt,
-    },
-  };
 }
 
 /**

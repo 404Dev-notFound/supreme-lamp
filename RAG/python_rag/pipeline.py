@@ -1,4 +1,5 @@
 import os
+import time
 from typing import List, Dict, Any, Optional
 from langchain_core.documents import Document
 
@@ -13,7 +14,7 @@ from .schemas import (
     PersonalizedRoadmapResponse,
 )
 from .embeddings import get_embeddings_model
-from .vector_store import JSONVectorStore
+from .vector_store import QdrantVectorStore
 from .document_processor import DocumentProcessor
 from .retriever import FlowCTRLRetriever
 from .skill_analyzer import SkillGapAnalyzer
@@ -23,17 +24,20 @@ from .roadmap_catalog import RoadmapCatalog
 class RAGPipeline:
     """
     Unified LangChain RAG Pipeline orchestrating:
-    - Ingestion & Vector Storage
+    - Ingestion & Qdrant Vector Storage
     - Skill Gap Analysis
-    - Hybrid Retrieval
+    - Hybrid Semantic Retrieval
     - Grounded Generation
     - Full 92+ Roadmap Catalog Search & Course Retrieval
     """
     def __init__(self):
+        print("[RAGPipeline] Initializing embedding model...")
         self.embeddings = get_embeddings_model()
-        self.vector_store = JSONVectorStore(
+        print(f"[RAGPipeline] Connecting to Qdrant vector store at {settings.QDRANT_STORAGE_PATH} (collection='{settings.COLLECTION_NAME}')...")
+        self.vector_store = QdrantVectorStore(
             embedding_function=self.embeddings,
-            storage_path=settings.VECTOR_STORE_PATH,
+            collection_name=settings.COLLECTION_NAME,
+            storage_path=settings.QDRANT_STORAGE_PATH,
         )
         self.doc_processor = DocumentProcessor(
             chunk_size=settings.CHUNK_SIZE,
@@ -43,7 +47,7 @@ class RAGPipeline:
         self.generator = RoadmapGenerator()
         self.catalog = RoadmapCatalog()
 
-        # Load existing index or build from documents
+        # Check or build index in Qdrant
         self.initialize_index()
 
         self.retriever = FlowCTRLRetriever(
@@ -53,26 +57,30 @@ class RAGPipeline:
         )
 
     def initialize_index(self) -> int:
-        """Loads vector store from disk. If absent or empty, indexes all knowledge base documents."""
-        count = self.vector_store.load_local()
+        """Checks if Qdrant collection has vectors. If empty, indexes all knowledge base documents."""
+        count = self.vector_store.count()
         if count == 0:
-            print("[RAGPipeline] Vector store empty or absent. Starting knowledge base indexing...")
+            print("[RAGPipeline] Qdrant collection is empty. Starting knowledge base indexing...")
             count = self.reindex()
         else:
-            print(f"[RAGPipeline] Successfully loaded {count} documents from vector store.")
+            print(f"[RAGPipeline] Successfully verified {count} indexed documents in Qdrant collection '{settings.COLLECTION_NAME}'.")
         return count
 
-    def reindex(self) -> int:
-        """Reloads all documents, computes embeddings, and persists vector store to disk."""
+    def reindex(self, limit: Optional[int] = None) -> int:
+        """Reloads all documents, computes embeddings, and indexes them into Qdrant."""
+        t0 = time.time()
+        print("[RAGPipeline] Loading and chunking knowledge base documents...")
         docs = self.doc_processor.load_all_documents()
+        if limit and limit > 0:
+            docs = docs[:limit]
         if docs:
-            self.vector_store.documents = []
-            self.vector_store.vectors = []
-            self.vector_store._ids = []
-            self.vector_store.add_documents(docs)
-            self.vector_store.save_local()
-            print(f"[RAGPipeline] Re-indexed and saved {len(docs)} documents.")
+            print(f"[RAGPipeline] Loaded {len(docs)} documents. Resetting and indexing into Qdrant...")
+            self.vector_store.clear()
+            self.vector_store.add_documents(docs, batch_size=64)
+            elapsed = time.time() - t0
+            print(f"[RAGPipeline] Successfully re-indexed {len(docs)} documents into Qdrant in {elapsed:.2f}s.")
             return len(docs)
+        print("[RAGPipeline] Warning: No documents found to index.")
         return 0
 
     def assess_skills(
@@ -88,6 +96,8 @@ class RAGPipeline:
         )
 
     async def generate_roadmap(self, profile: UserProfile) -> RoadmapResponse:
+        t0 = time.time()
+
         # 1. Analyze skill gaps
         assessment = self.skill_analyzer.analyze_gaps(
             current_skills=profile.currentSkills or [],
@@ -95,7 +105,7 @@ class RAGPipeline:
         )
         gaps_list = assessment.criticalGaps + assessment.recommendedGaps
 
-        # 2. Retrieve relevant grounded documents
+        # 2. Retrieve relevant grounded documents from Qdrant
         retrieved_docs = self.retriever.retrieve_for_roadmap(
             user_profile=profile,
             skill_gaps=gaps_list,
@@ -110,6 +120,18 @@ class RAGPipeline:
             skill_gaps=gaps_list,
             retrieved_context=context_str,
         )
+
+        timing_ms = round((time.time() - t0) * 1000, 2)
+        roadmap.provenance = {
+            "mode": "rag",
+            "pipeline": "python_langchain_qdrant",
+            "vectorBackend": "qdrant",
+            "collection": settings.COLLECTION_NAME,
+            "embeddingModel": settings.EMBEDDING_MODEL_NAME,
+            "retrievalSucceeded": len(retrieved_docs) > 0,
+            "documentsRetrieved": len(retrieved_docs),
+            "executionTimeMs": timing_ms,
+        }
         return roadmap
 
     async def get_recommendations(
@@ -146,12 +168,14 @@ class RAGPipeline:
         top_k: int = 5,
         filter: Optional[Dict[str, Any]] = None,
     ) -> QueryResponse:
+        t0 = time.time()
         results = self.vector_store.similarity_search_with_score(
             query=query,
             k=top_k,
             filter=filter,
             min_score=settings.SIMILARITY_THRESHOLD,
         )
+        timing_ms = round((time.time() - t0) * 1000, 2)
 
         items: List[QueryResultItem] = []
         for doc, score in results:
@@ -162,7 +186,13 @@ class RAGPipeline:
                 score=round(float(score), 4),
             ))
 
-        return QueryResponse(query=query, results=items, count=len(items))
+        return QueryResponse(
+            query=query,
+            results=items,
+            count=len(items),
+            timing_ms=timing_ms,
+            backend="qdrant",
+        )
 
     def generate_roadmap_from_query(
         self,
@@ -170,8 +200,16 @@ class RAGPipeline:
         experience_level: str = "Beginner",
         goals: Optional[List[str]] = None,
     ) -> PersonalizedRoadmapResponse:
-        return self.catalog.generate_personalized_roadmap(
+        t0 = time.time()
+        result = self.catalog.generate_personalized_roadmap(
             query=query,
             experience_level=experience_level,
             goals=goals,
         )
+        timing_ms = round((time.time() - t0) * 1000, 2)
+        if hasattr(result, "provenance") and isinstance(result.provenance, dict):
+            result.provenance["mode"] = "rag"
+            result.provenance["pipeline"] = "python_langchain_qdrant"
+            result.provenance["vectorBackend"] = "qdrant"
+            result.provenance["executionTimeMs"] = timing_ms
+        return result

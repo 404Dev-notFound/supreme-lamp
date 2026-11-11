@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useMemo, useCallback } from "react";
 import Link from "next/link";
+import BrandWordmark from "@/components/BrandWordmark";
 import {
   BookOpen,
   Search,
@@ -131,7 +132,7 @@ export default function ResourcesPage() {
               <span className="font-bold text-primary-foreground tracking-tighter">fC</span>
             </div>
             <span className="font-semibold text-lg tracking-tight">
-              flowCTRL <span className="text-orange-400 font-normal">/ Engineering Resources</span>
+              <BrandWordmark className="text-lg" />{" "}<span className="text-orange-400 font-normal">/ Engineering Resources</span>
             </span>
           </Link>
         </div>
@@ -170,7 +171,7 @@ export default function ResourcesPage() {
         <div className="mb-8">
           <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-xs font-semibold mb-3">
             <BookOpen className="w-3.5 h-3.5" />
-            Curated Learning Library • {totalCount > 100 ? `${totalCount.toLocaleString()}+` : "5,700+"} Resources
+            Curated Learning Library • 5,755+ Verified Resources
           </div>
           <h1 className="text-3xl sm:text-4xl font-extrabold tracking-tight mb-2">
             Spend Less Time Searching. More Time Learning.

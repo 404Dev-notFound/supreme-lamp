@@ -1,8 +1,14 @@
 const { Router } = require("express");
 const ragController = require("../controllers/rag.controller");
-const { requireAuth, optionalAuth } = require("../middleware/auth.middleware");
+const { requireAuth, optionalAuth, requireRole } = require("../middleware/auth.middleware");
 
 const router = Router();
+
+// Diagnostics & health across Express and Python RAG microservice
+router.get("/health", ragController.getRagHealth);
+
+// Admin-secured knowledge base reindexing: requires verified authenticated ADMIN role
+router.post("/admin/reindex", requireAuth, requireRole(["ADMIN"]), ragController.adminReindex);
 
 // 1. Natural Language Roadmap Generation from Search Bar (Open to both guests & authenticated users)
 router.post("/generate-roadmap", optionalAuth, ragController.generateRoadmapFromQuery);

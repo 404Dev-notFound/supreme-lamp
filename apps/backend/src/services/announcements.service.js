@@ -10,7 +10,7 @@ const pool = new Pool({
 const FALLBACK_ANNOUNCEMENTS = [
   {
     id: "ann_interview_upcoming",
-    title: "Upcoming Technical Interview: Distributed Systems & Architecture",
+    title: "Upcoming Technical Interview",
     description:
       "Live technical evaluation scheduled with Senior Staff Architecture Panel. Review your verified system design blueprints, database internals, and concurrency patterns.",
     category: "INTERVIEW",
@@ -144,6 +144,61 @@ class AnnouncementsService {
         list = list.filter((a) => a.status === status);
       }
       return list;
+    }
+  }
+
+  /**
+   * Get Notice Board configuration and notices
+   */
+  async getNoticeBoard() {
+    try {
+      const announcements = await this.listAnnouncements({ category: "INTERVIEW" });
+      const activeNotice = announcements && announcements.length > 0 ? announcements[0] : null;
+
+      const formattedNotice = activeNotice
+        ? {
+            id: activeNotice.id,
+            title: activeNotice.title.replace(/:.*$/, "").trim() || "Upcoming Technical Interview",
+            description: activeNotice.description,
+            dateTime: activeNotice.dateTime,
+            actionLabel: activeNotice.actionLabel || "Prepare Blueprint",
+            actionUrl: activeNotice.actionUrl || "/roadmaps/system-design-architecture",
+            category: activeNotice.category || "INTERVIEW",
+          }
+        : {
+            id: "notice_interview_upcoming",
+            title: "Upcoming Technical Interview",
+            description:
+              "Live technical evaluation scheduled with Senior Staff Architecture Panel. Review your verified system design blueprints, database internals, and concurrency patterns.",
+            dateTime: new Date(Date.now() + 2 * 24 * 60 * 60 * 1000).toISOString(),
+            actionLabel: "Prepare Blueprint",
+            actionUrl: "/roadmaps/system-design-architecture",
+            category: "INTERVIEW",
+          };
+
+      return {
+        title: "Notice Board",
+        totalPages: 3,
+        notices: [formattedNotice],
+      };
+    } catch (err) {
+      console.warn("getNoticeBoard error, using fallback notice:", err.message);
+      return {
+        title: "Notice Board",
+        totalPages: 3,
+        notices: [
+          {
+            id: "notice_interview_upcoming",
+            title: "Upcoming Technical Interview",
+            description:
+              "Live technical evaluation scheduled with Senior Staff Architecture Panel. Review your verified system design blueprints, database internals, and concurrency patterns.",
+            dateTime: new Date(Date.now() + 2 * 24 * 60 * 60 * 1000).toISOString(),
+            actionLabel: "Prepare Blueprint",
+            actionUrl: "/roadmaps/system-design-architecture",
+            category: "INTERVIEW",
+          },
+        ],
+      };
     }
   }
 

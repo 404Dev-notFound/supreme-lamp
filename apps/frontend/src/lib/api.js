@@ -161,7 +161,7 @@ async function request(endpoint, options = {}) {
   return data;
 }
 
-export const api = {
+const api = {
   get: (url, options = {}) => request(url, { method: "GET", ...options }),
   post: (url, body, options = {}) => request(url, { method: "POST", body, ...options }),
   put: (url, body, options = {}) => request(url, { method: "PUT", body, ...options }),

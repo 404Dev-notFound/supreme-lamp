@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useMemo } from "react";
 import Link from "next/link";
+import BrandWordmark from "@/components/BrandWordmark";
 import {
   Code,
   Search,
@@ -296,7 +297,7 @@ export default function DsaPage() {
               <span className="font-bold text-primary-foreground tracking-tighter">fC</span>
             </div>
             <span className="font-semibold text-lg tracking-tight">
-              flowCTRL <span className="text-emerald-400 font-normal">/ DSA Learning Engine</span>
+              <BrandWordmark className="text-lg" />{" "}<span className="text-emerald-400 font-normal">/ DSA Learning Engine</span>
             </span>
           </Link>
         </div>

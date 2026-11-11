@@ -176,9 +176,9 @@ async function getJobById(id) {
  * Create a new job listing
  */
 async function createJob({ data, userId, userRole, req = null }) {
-  const isAuthorized = ["RECRUITER", "COMPANY_REP", "ADMIN", "SUPER_ADMIN"].includes(userRole);
+  const isAuthorized = userRole === "ADMIN";
   if (!isAuthorized) {
-    throw new JobError("Only recruiters, company representatives, or admins can post jobs.", 403, "FORBIDDEN");
+    throw new JobError("Only administrators can post jobs.", 403, "FORBIDDEN");
   }
 
   const company = await prisma.company.findUnique({
@@ -248,7 +248,7 @@ async function createJob({ data, userId, userRole, req = null }) {
  * Update job listing
  */
 async function updateJob({ id, data, userId, userRole, req = null }) {
-  const isAuthorized = ["RECRUITER", "COMPANY_REP", "ADMIN", "SUPER_ADMIN"].includes(userRole);
+  const isAuthorized = userRole === "ADMIN";
   if (!isAuthorized) {
     throw new JobError("Insufficient permissions to update job listing.", 403, "FORBIDDEN");
   }
@@ -313,7 +313,7 @@ async function updateJob({ id, data, userId, userRole, req = null }) {
  * Delete / Archive job
  */
 async function deleteJob({ id, userId, userRole, req = null }) {
-  const isAuthorized = ["RECRUITER", "COMPANY_REP", "ADMIN", "SUPER_ADMIN"].includes(userRole);
+  const isAuthorized = userRole === "ADMIN";
   if (!isAuthorized) {
     throw new JobError("Insufficient permissions to delete job listing.", 403, "FORBIDDEN");
   }
@@ -535,7 +535,7 @@ async function listMyApplications({ userId, page = 1, limit = 20 }) {
  * List Applications for a specific Job (Recruiter / Admin view)
  */
 async function listJobApplications({ jobId, userId, userRole, page = 1, limit = 20 }) {
-  const isAuthorized = ["RECRUITER", "COMPANY_REP", "ADMIN", "SUPER_ADMIN"].includes(userRole);
+  const isAuthorized = userRole === "ADMIN";
   if (!isAuthorized) {
     throw new JobError("Access denied. Recruiter or Admin role required.", 403, "FORBIDDEN");
   }
@@ -596,7 +596,7 @@ async function updateApplicationStatus({
   userRole,
   req = null,
 }) {
-  const isAuthorized = ["RECRUITER", "COMPANY_REP", "ADMIN", "SUPER_ADMIN"].includes(userRole);
+  const isAuthorized = userRole === "ADMIN";
   if (!isAuthorized) {
     throw new JobError("Access denied.", 403, "FORBIDDEN");
   }
@@ -712,7 +712,7 @@ async function getCompanyById(id) {
  * Create Company
  */
 async function createCompany({ data, userId, userRole, req = null }) {
-  const isAuthorized = ["RECRUITER", "COMPANY_REP", "ADMIN", "SUPER_ADMIN"].includes(userRole);
+  const isAuthorized = userRole === "ADMIN";
   if (!isAuthorized) {
     throw new JobError("Permission denied. Recruiter or Admin role required.", 403, "FORBIDDEN");
   }
@@ -728,7 +728,7 @@ async function createCompany({ data, userId, userRole, req = null }) {
   const company = await prisma.company.create({
     data: {
       ...data,
-      isVerified: ["ADMIN", "SUPER_ADMIN"].includes(userRole),
+      isVerified: userRole === "ADMIN",
     },
   });
 
@@ -748,7 +748,7 @@ async function createCompany({ data, userId, userRole, req = null }) {
  * Update Company
  */
 async function updateCompany({ id, data, userId, userRole, req = null }) {
-  const isAuthorized = ["RECRUITER", "COMPANY_REP", "ADMIN", "SUPER_ADMIN"].includes(userRole);
+  const isAuthorized = userRole === "ADMIN";
   if (!isAuthorized) {
     throw new JobError("Permission denied.", 403, "FORBIDDEN");
   }

@@ -1,18 +1,5 @@
 const { prisma } = require("../lib/prisma");
 
-// In-memory rapid deduplication cache: key -> timestamp (5 second TTL)
-const recentEventsCache = new Map();
-
-function cleanDedupeCache() {
-  const now = Date.now();
-  for (const [key, timestamp] of recentEventsCache.entries()) {
-    if (now - timestamp > 10000) {
-      recentEventsCache.delete(key);
-    }
-  }
-}
-setInterval(cleanDedupeCache, 30000).unref();
-
 class AnalyticsService {
   /**
    * Record a platform analytics event with deduplication and counter aggregation
@@ -34,27 +21,23 @@ class AnalyticsService {
     const cleanEventType = String(eventType).trim().toUpperCase();
     const cleanEntityType = String(entityType).trim().toUpperCase();
     const cleanEntityId = String(entityId).trim();
-    const actorKey = userId ? `u:${userId}` : `v:${visitorId || "anon"}`;
-    const dedupeKey = `${actorKey}:${cleanEventType}:${cleanEntityType}:${cleanEntityId}`;
-
-    const now = Date.now();
-    const lastSeen = recentEventsCache.get(dedupeKey);
-    if (lastSeen && now - lastSeen < 5000) {
-      // Deduplicated within 5 second throttle window
-      return { recorded: true, deduplicated: true };
-    }
-    recentEventsCache.set(dedupeKey, now);
-
-    // Sanitize metadata to guarantee no passwords, tokens or secrets are logged
-    let safeMetadata = null;
-    if (metadata && typeof metadata === "object") {
-      safeMetadata = { ...metadata };
-      delete safeMetadata.password;
-      delete safeMetadata.token;
-      delete safeMetadata.sessionToken;
-      delete safeMetadata.secret;
-      delete safeMetadata.authorization;
-    }
+    // Preserve submitted product data while recursively excluding credentials and secrets.
+    const sensitiveKey = /password|passcode|token|secret|authorization|otp|one.?time.?code|cvv|cvc|credit.?card|card.?number/i;
+    const sanitizeValue = (value, depth = 0) => {
+      if (depth > 8) return "[nested data omitted]";
+      if (typeof value === "string") return value.slice(0, 20000);
+      if (Array.isArray(value)) return value.slice(0, 100).map((item) => sanitizeValue(item, depth + 1));
+      if (value && typeof value === "object") {
+        return Object.fromEntries(
+          Object.entries(value)
+            .filter(([key]) => !sensitiveKey.test(key))
+            .slice(0, 100)
+            .map(([key, item]) => [key, sanitizeValue(item, depth + 1)]),
+        );
+      }
+      return value;
+    };
+    const safeMetadata = metadata && typeof metadata === "object" ? sanitizeValue(metadata) : null;
 
     // Check if this visitor/user has performed this exact event on this entity before
     let isUnique = false;
@@ -131,7 +114,7 @@ class AnalyticsService {
     isUnique,
     isAuthenticated,
   }) {
-    const isView = eventType === "VIEW" || eventType === "DETAIL_VIEW";
+    const isView = eventType === "VIEW" || eventType === "DETAIL_VIEW" || eventType === "PAGE_VIEW";
     const isEnroll = eventType === "ENROLL" || eventType === "START";
     const isComplete = eventType === "COMPLETE";
 
@@ -309,10 +292,13 @@ class AnalyticsService {
   /**
    * Admin Platform-Wide Analytics Dashboard
    */
-  async getPlatformOverview(userRole) {
-    if (userRole !== "ADMIN" && userRole !== "SUPER_ADMIN") {
+  async getPlatformOverview(userRole, { eventPage = 1, eventLimit = 50 } = {}) {
+    if (userRole !== "ADMIN") {
       throw new Error("Unauthorized: Administrative privileges required.");
     }
+
+    const safeEventPage = Math.max(1, Number.parseInt(eventPage, 10) || 1);
+    const safeEventLimit = Math.min(100, Math.max(1, Number.parseInt(eventLimit, 10) || 50));
 
     const now = new Date();
     const oneDayAgo = new Date(now.getTime() - 24 * 60 * 60 * 1000);
@@ -332,6 +318,13 @@ class AnalyticsService {
       topViewedRoadmaps,
       topEnrolledRoadmaps,
       eventBreakdown,
+      totalTrackedEvents,
+      eventsLast30d,
+      signedInEventsLast30d,
+      guestEventsLast30d,
+      topInteractions,
+      recentEvents,
+      dailyActivity,
     ] = await Promise.all([
       prisma.user.count(),
       prisma.userActivityLog.findMany({
@@ -360,6 +353,40 @@ class AnalyticsService {
         _count: { id: true },
         where: { createdAt: { gte: thirtyDaysAgo } },
       }),
+      prisma.platformAnalyticsEvent.count(),
+      prisma.platformAnalyticsEvent.count({ where: { createdAt: { gte: thirtyDaysAgo } } }),
+      prisma.platformAnalyticsEvent.count({ where: { createdAt: { gte: thirtyDaysAgo }, userId: { not: null } } }),
+      prisma.platformAnalyticsEvent.count({ where: { createdAt: { gte: thirtyDaysAgo }, visitorId: "without_signin" } }),
+      prisma.platformAnalyticsEvent.groupBy({
+        by: ["entityType", "entityId"],
+        _count: { id: true },
+        where: { createdAt: { gte: thirtyDaysAgo } },
+        orderBy: { _count: { id: "desc" } },
+        take: 12,
+      }),
+      prisma.platformAnalyticsEvent.findMany({
+        orderBy: { createdAt: "desc" },
+        skip: (safeEventPage - 1) * safeEventLimit,
+        take: safeEventLimit,
+        select: {
+          id: true,
+          userId: true,
+          visitorId: true,
+          eventType: true,
+          entityType: true,
+          entityId: true,
+          metadata: true,
+          createdAt: true,
+        },
+      }),
+      prisma.$queryRaw`
+        SELECT TO_CHAR(DATE_TRUNC('day', "createdAt"), 'YYYY-MM-DD') AS day,
+               COUNT(*)::int AS count
+        FROM "PlatformAnalyticsEvent"
+        WHERE "createdAt" >= ${thirtyDaysAgo}
+        GROUP BY DATE_TRUNC('day', "createdAt")
+        ORDER BY DATE_TRUNC('day', "createdAt") ASC
+      `,
     ]);
 
     const completedRoadmaps = await prisma.userRoadmapProgress.count({
@@ -399,6 +426,22 @@ class AnalyticsService {
         eventType: e.eventType,
         count: e._count.id,
       })),
+      usage: {
+        totalTrackedEvents,
+        eventsLast30d,
+        signedInEventsLast30d,
+        guestEventsLast30d,
+        dailyActivity: dailyActivity.map((item) => ({ day: item.day, count: Number(item.count) })),
+        topInteractions: topInteractions.map((item) => ({
+          entityType: item.entityType,
+          entityId: item.entityId,
+          count: item._count.id,
+        })),
+        recentEvents,
+        eventPage: safeEventPage,
+        eventLimit: safeEventLimit,
+        totalEventPages: Math.max(1, Math.ceil(totalTrackedEvents / safeEventLimit)),
+      },
     };
   }
 }

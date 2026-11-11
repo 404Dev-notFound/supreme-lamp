@@ -26,10 +26,12 @@ class SkillAssessmentRequest(BaseModel):
 class SkillAssessmentResponse(BaseModel):
     targetRole: str
     matchedSkills: List[str] = Field(default_factory=list)
+    masteredSkills: List[Dict[str, Any]] = Field(default_factory=list)
     missingPrerequisites: List[str] = Field(default_factory=list)
     criticalGaps: List[str] = Field(default_factory=list)
     recommendedGaps: List[str] = Field(default_factory=list)
     allGaps: List[SkillGap] = Field(default_factory=list)
+    skillGaps: List[SkillGap] = Field(default_factory=list)
     readinessScore: float = Field(0.0, description="Estimated readiness percent (0 - 100)")
 
 class ResourceItem(BaseModel):
@@ -38,6 +40,7 @@ class ResourceItem(BaseModel):
     url: str
 
 class RoadmapItem(BaseModel):
+    id: Optional[str] = None
     topic: str
     whyRecommended: str
     difficulty: str = Field("Intermediate", description="Beginner | Intermediate | Advanced")
@@ -60,6 +63,7 @@ class RoadmapResponse(BaseModel):
     summary: str
     estimatedTotalWeeks: int
     targetRole: Optional[str] = None
+    totalTopicsCount: Optional[int] = 0
     stages: List[RoadmapStage]
     provenance: Optional[Dict[str, Any]] = None
 
@@ -133,9 +137,22 @@ class QueryResponse(BaseModel):
     query: str
     results: List[QueryResultItem]
     count: int
+    timing_ms: Optional[float] = None
+    backend: Optional[str] = "qdrant"
 
 class HealthResponse(BaseModel):
     status: str
     provider: str
+    vectorBackend: str = "qdrant"
     vectorStoreCount: int
+    collection: str = "flowctrl_kb_v2"
     models: Dict[str, str]
+
+class ReadinessResponse(BaseModel):
+    ready: bool
+    status: str
+    vectorDatabase: Dict[str, Any]
+    embeddingModel: Dict[str, Any]
+    indexedDocuments: int
+    timestamp: str
+

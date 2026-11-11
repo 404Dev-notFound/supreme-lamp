@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
+import BrandWordmark from "@/components/BrandWordmark";
 import {
   Cpu,
   GitBranch,
@@ -27,6 +28,8 @@ import MentalHealthScoreModal from "../../components/modals/MentalHealthScoreMod
 import EcosystemCanvas from "../../components/ecosystem/EcosystemCanvas";
 import RoadmapSearchBar from "../../components/roadmap/RoadmapSearchBar";
 import RoadmapStepDrawer from "../../components/roadmap/RoadmapStepDrawer";
+import PersonalizedRoadmapModal from "../../components/roadmap/PersonalizedRoadmapModal";
+import { personalizedRoadmapsClient } from "../../services/personalizedRoadmaps.service";
 import { ECOSYSTEM_PROJECTS } from "../../lib/ecosystemData";
 
 const PROJECT_ICONS = {
@@ -73,23 +76,46 @@ export default function EcosystemPage() {
   // Modals for Resume Screener and Mental Health Score
   const [isResumeScreenerOpen, setResumeScreenerOpen] = useState(false);
   const [isMentalHealthScoreOpen, setMentalHealthScoreOpen] = useState(false);
+  const [isPersonalizedModalOpen, setIsPersonalizedModalOpen] = useState(false);
 
-  // Load persistent progress and initial roadmap on mount
+  // Load persistent roadmap and progress from PostgreSQL first on mount
   useEffect(() => {
-    try {
-      const savedProgress = localStorage.getItem("flowctrl_rag_step_progress");
-      if (savedProgress) {
-        setStepProgress(JSON.parse(savedProgress));
-      }
-      const cachedRoadmap = localStorage.getItem("flowctrl_active_roadmap");
-      if (cachedRoadmap) {
-        const parsed = JSON.parse(cachedRoadmap);
-        if (parsed && parsed.steps) {
-          setRoadmapData(parsed);
-          setCurrentQuery(parsed.userGoal || parsed.roadmapTitle || "");
+    let isMounted = true;
+    personalizedRoadmapsClient
+      .listUserRoadmaps({ limit: 1 })
+      .then((res) => {
+        if (!isMounted) return;
+        if (res?.roadmaps && res.roadmaps.length > 0) {
+          const latestId = res.roadmaps[0].id;
+          return personalizedRoadmapsClient.getRoadmapById(latestId);
         }
-      }
-    } catch {}
+      })
+      .then((fullRoadmap) => {
+        if (!isMounted || !fullRoadmap) return;
+        setRoadmapData(fullRoadmap);
+        setCurrentQuery(fullRoadmap.userGoal || fullRoadmap.roadmapTitle || "");
+        const progressObj = {};
+        (fullRoadmap.steps || []).forEach((s) => {
+          if (s.status) progressObj[s.id] = s.status;
+        });
+        setStepProgress(progressObj);
+      })
+      .catch(() => {
+        try {
+          const cached = localStorage.getItem("flowctrl_active_roadmap");
+          if (cached) {
+            const parsed = JSON.parse(cached);
+            if (parsed && parsed.steps) {
+              setRoadmapData(parsed);
+              setCurrentQuery(parsed.userGoal || parsed.roadmapTitle || "");
+            }
+          }
+        } catch {}
+      });
+
+    return () => {
+      isMounted = false;
+    };
   }, []);
 
   // Natural Language Roadmap Generation handler
@@ -155,6 +181,22 @@ export default function EcosystemPage() {
       return next;
     });
 
+    setRoadmapData((prev) => {
+      if (!prev || !prev.steps) return prev;
+      const updatedSteps = prev.steps.map((s) =>
+        s.id === stepId ? { ...s, status } : s
+      );
+      const total = updatedSteps.length;
+      const done = updatedSteps.filter((s) => s.status === "completed").length;
+      return {
+        ...prev,
+        steps: updatedSteps,
+        nodes: updatedSteps,
+        progressPercent: total > 0 ? Math.round((done / total) * 100) : 0,
+        completedNodes: done,
+      };
+    });
+
     try {
       await fetch("/api/rag/progress/step", {
         method: "POST",
@@ -165,6 +207,9 @@ export default function EcosystemPage() {
           roadmapId: roadmapData?.id,
         }),
       });
+      if (roadmapData?.id) {
+        await personalizedRoadmapsClient.updateTopicProgress(roadmapData.id, stepId, status);
+      }
     } catch (err) {
       console.warn("Could not sync step progress to backend server:", err);
     }
@@ -191,9 +236,7 @@ export default function EcosystemPage() {
               fC
             </span>
           </div>
-          <span className="font-semibold text-lg tracking-tight text-white">
-            flowCTRL
-          </span>
+          <BrandWordmark className="text-lg" />
         </Link>
 
         <div className="hidden md:flex items-center gap-8 text-sm font-medium text-zinc-300">
@@ -304,6 +347,13 @@ export default function EcosystemPage() {
               </div>
 
               <div className="flex items-center gap-3">
+                <button
+                  onClick={() => setIsPersonalizedModalOpen(true)}
+                  className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-orange-500/20 hover:bg-orange-500/30 text-amber-300 border border-orange-500/40 text-xs font-bold transition-all shadow-lg shadow-orange-500/10 cursor-pointer"
+                >
+                  <Sparkles className="w-4 h-4 text-orange-400" />
+                  <span>Open Full Graph Visualization</span>
+                </button>
                 <div className="px-4 py-2 rounded-xl bg-white/[0.03] border border-white/10 text-right">
                   <span className="text-[10px] font-mono uppercase text-zinc-500 block">
                     Total Estimated Duration
@@ -564,6 +614,21 @@ export default function EcosystemPage() {
         isOpen={isMentalHealthScoreOpen}
         onClose={() => setMentalHealthScoreOpen(false)}
       />
+
+      {/* Personalized Dynamic Graph Modal */}
+      {isPersonalizedModalOpen && roadmapData && (
+        <PersonalizedRoadmapModal
+          roadmapId={roadmapData.id}
+          initialRoadmap={roadmapData}
+          isOpen={isPersonalizedModalOpen}
+          onClose={() => setIsPersonalizedModalOpen(false)}
+          onProgressUpdated={(res) => {
+            if (res?.stepId) {
+              setStepProgress((prev) => ({ ...prev, [res.stepId]: res.status }));
+            }
+          }}
+        />
+      )}
 
       {/* Footer */}
       <Footer />

@@ -37,7 +37,7 @@ async function listUsers({
     ];
   }
 
-  const [total, users] = await prisma.$transaction([
+  const [total, users] = await Promise.all([
     prisma.user.count({ where }),
     prisma.user.findMany({
       where,
@@ -104,15 +104,8 @@ async function updateUserRole({
     throw new AdminError("Target user not found.", 404, "USER_NOT_FOUND");
   }
 
-  // Privilege Escalation Guards:
-  // 1. Only SUPER_ADMIN can grant ADMIN or SUPER_ADMIN
-  if (["ADMIN", "SUPER_ADMIN"].includes(newRole) && currentAdminRole !== "SUPER_ADMIN") {
-    throw new AdminError("Only a Super Administrator can assign administrative roles.", 403, "PRIVILEGE_ESCALATION");
-  }
-
-  // 2. Regular ADMIN cannot modify a SUPER_ADMIN
-  if (targetUser.role === "SUPER_ADMIN" && currentAdminRole !== "SUPER_ADMIN") {
-    throw new AdminError("Access denied. Super Administrator accounts cannot be modified by standard administrators.", 403, "FORBIDDEN");
+  if (!["USER", "ADMIN"].includes(newRole)) {
+    throw new AdminError("Invalid role. Role must be USER or ADMIN.", 400, "INVALID_ROLE");
   }
 
   const updated = await prisma.user.update({
@@ -162,9 +155,6 @@ async function updateUserStatus({
     throw new AdminError("Target user not found.", 404, "USER_NOT_FOUND");
   }
 
-  if (targetUser.role === "SUPER_ADMIN" && currentAdminRole !== "SUPER_ADMIN") {
-    throw new AdminError("Access denied. Super Administrator accounts cannot be suspended by standard administrators.", 403, "FORBIDDEN");
-  }
 
   const updated = await prisma.$transaction(async (tx) => {
     const u = await tx.user.update({
@@ -215,16 +205,18 @@ async function getPlatformStats() {
         totalUsers,
         activeUsers,
         usersByRole,
+        usersByStatus,
         totalJobs,
         activeJobs,
         totalApplications,
         totalProjects,
         totalCompanies,
         totalResumes,
-      ] = await prisma.$transaction([
+      ] = await Promise.all([
         prisma.user.count(),
         prisma.user.count({ where: { status: "ACTIVE" } }),
         prisma.user.groupBy({ by: ["role"], _count: { id: true } }),
+        prisma.user.groupBy({ by: ["status"], _count: { id: true } }),
         prisma.job.count(),
         prisma.job.count({ where: { isActive: true } }),
         prisma.jobApplication.count(),
@@ -238,11 +230,17 @@ async function getPlatformStats() {
         roleBreakdown[group.role] = group._count.id;
       }
 
+      const statusBreakdown = {};
+      for (const group of usersByStatus) {
+        statusBreakdown[group.status] = group._count.id;
+      }
+
       return {
         users: {
           total: totalUsers,
           active: activeUsers,
           byRole: roleBreakdown,
+          byStatus: statusBreakdown,
         },
         jobs: {
           total: totalJobs,
@@ -278,7 +276,7 @@ async function listAuditLogs({ page = 1, limit = 50, action = null, targetType =
   if (action) where.action = action;
   if (targetType) where.targetType = targetType;
 
-  const [total, logs] = await prisma.$transaction([
+  const [total, logs] = await Promise.all([
     prisma.auditLog.count({ where }),
     prisma.auditLog.findMany({
       where,

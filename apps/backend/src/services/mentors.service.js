@@ -175,14 +175,6 @@ async function upsertMentorProfile({ userId, data, req = null }) {
       },
     });
 
-    // If user was a regular USER, update role to MENTOR if not already ADMIN/SUPER_ADMIN
-    if (user.role === "USER") {
-      await tx.user.update({
-        where: { id: userId },
-        data: { role: "MENTOR" },
-      });
-    }
-
     if (upserted && upserted.hourlyRate !== null && upserted.hourlyRate !== undefined) {
       upserted.hourlyRate = Number(upserted.hourlyRate);
     }
@@ -211,7 +203,7 @@ async function deleteMentorProfile({ id, userId, userRole, req = null }) {
   }
 
   const isOwner = mentor.userId === userId;
-  const isAdmin = ["ADMIN", "SUPER_ADMIN"].includes(userRole);
+  const isAdmin = userRole === "ADMIN";
 
   if (!isOwner && !isAdmin) {
     throw new MentorError("Access denied.", 403, "FORBIDDEN");

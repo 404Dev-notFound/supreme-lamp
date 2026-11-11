@@ -164,87 +164,92 @@ async function validateSessionToken(token) {
   const sessionCacheKey = buildKey(REDIS_CONFIG.namespaces.SESSION, tokenSuffix);
   const revokedKey = buildKey(REDIS_CONFIG.namespaces.REVOKED, tokenSuffix);
 
-  // 1. Fast check if session is marked as revoked in Redis
-  const isRevoked = await cache.get(revokedKey);
-  if (isRevoked) {
-    return { valid: false, reason: "SESSION_REVOKED" };
-  }
-
-  // 2. Check if valid session payload is already cached in Redis
-  const cached = await cache.get(sessionCacheKey);
-  if (cached && cached.session && cached.user) {
-    const expiresAt = new Date(cached.session.expiresAt);
-    if (expiresAt < new Date()) {
-      await cache.del(sessionCacheKey);
-      return { valid: false, reason: "SESSION_EXPIRED" };
+  try {
+    // 1. Fast check if session is marked as revoked in Redis
+    const isRevoked = await cache.get(revokedKey);
+    if (isRevoked) {
+      return { valid: false, reason: "SESSION_REVOKED" };
     }
-    if (cached.user.status !== "ACTIVE") {
-      return { valid: false, reason: "ACCOUNT_INACTIVE" };
-    }
-    return {
-      valid: true,
-      session: cached.session,
-      user: cached.user,
-    };
-  }
 
-  // 3. Authoritative fetch from PostgreSQL
-  const session = await prisma.userSession.findUnique({
-    where: { sessionToken: token },
-    include: {
-      user: {
-        include: {
-          profile: true,
-          membership: {
-            include: {
-              plan: true,
+    // 2. Check if valid session payload is already cached in Redis
+    const cached = await cache.get(sessionCacheKey);
+    if (cached && cached.session && cached.user) {
+      const expiresAt = new Date(cached.session.expiresAt);
+      if (expiresAt < new Date()) {
+        await cache.del(sessionCacheKey);
+        return { valid: false, reason: "SESSION_EXPIRED" };
+      }
+      if (cached.user.status !== "ACTIVE") {
+        return { valid: false, reason: "ACCOUNT_INACTIVE" };
+      }
+      return {
+        valid: true,
+        session: cached.session,
+        user: cached.user,
+      };
+    }
+
+    // 3. Authoritative fetch from PostgreSQL
+    const session = await prisma.userSession.findUnique({
+      where: { sessionToken: token },
+      include: {
+        user: {
+          include: {
+            profile: true,
+            membership: {
+              include: {
+                plan: true,
+              },
             },
           },
         },
       },
-    },
-  });
+    });
 
-  if (!session) {
-    return { valid: false, reason: "SESSION_NOT_FOUND" };
+    if (!session) {
+      return { valid: false, reason: "SESSION_NOT_FOUND" };
+    }
+
+    if (session.revokedAt) {
+      await cache.set(revokedKey, true, 3600);
+      return { valid: false, reason: "SESSION_REVOKED" };
+    }
+
+    if (session.expiresAt < new Date()) {
+      return { valid: false, reason: "SESSION_EXPIRED" };
+    }
+
+    if (!session.user || session.user.status !== "ACTIVE") {
+      return { valid: false, reason: "ACCOUNT_INACTIVE" };
+    }
+
+    // Cache verified session for 5 minutes (rolling hot cache)
+    await cache.set(
+      sessionCacheKey,
+      { session, user: session.user },
+      REDIS_CONFIG.ttl.SESSION_CACHE
+    );
+
+    // Update last active in PostgreSQL if > 5 minutes
+    const fiveMinutesAgo = new Date(Date.now() - 5 * 60 * 1000);
+    if (session.lastActiveAt < fiveMinutesAgo) {
+      prisma.userSession
+        .update({
+          where: { id: session.id },
+          data: { lastActiveAt: new Date() },
+        })
+        .catch(() => {});
+    }
+
+    return {
+      valid: true,
+      session,
+      user: session.user,
+    };
+  } catch (error) {
+    console.warn("[Auth Session Validation Warning]:", error.message);
+    return { valid: false, reason: "VALIDATION_FAILED" };
   }
-
-  if (session.revokedAt) {
-    await cache.set(revokedKey, true, 3600);
-    return { valid: false, reason: "SESSION_REVOKED" };
-  }
-
-  if (session.expiresAt < new Date()) {
-    return { valid: false, reason: "SESSION_EXPIRED" };
-  }
-
-  if (session.user.status !== "ACTIVE") {
-    return { valid: false, reason: "ACCOUNT_INACTIVE" };
-  }
-
-  // Cache verified session for 5 minutes (rolling hot cache)
-  await cache.set(
-    sessionCacheKey,
-    { session, user: session.user },
-    REDIS_CONFIG.ttl.SESSION_CACHE
-  );
-
-  // Update last active in PostgreSQL if > 5 minutes
-  const fiveMinutesAgo = new Date(Date.now() - 5 * 60 * 1000);
-  if (session.lastActiveAt < fiveMinutesAgo) {
-    prisma.userSession
-      .update({
-        where: { id: session.id },
-        data: { lastActiveAt: new Date() },
-      })
-      .catch(() => {});
-  }
-
-  return {
-    valid: true,
-    session,
-    user: session.user,
-  };
 }
 
 async function revokeSessionToken(token) {

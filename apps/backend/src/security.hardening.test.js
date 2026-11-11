@@ -323,7 +323,7 @@ test("IDOR / BOLA Defense - User profile update prevents mass assignment of admi
     // Attacker tries to elevate role or change status via IDOR mass-assignment
     id: "different-user-id-999",
     userId: "admin-id-001",
-    role: "SUPER_ADMIN",
+    role: "ADMIN",
     status: "BANNED",
     email: "ceo@flowctrl.dev",
     password: "new-password",

@@ -5,6 +5,7 @@ import { Suspense } from "react";
 import ModalManager from "@/components/modals/ModalManager";
 import AuthProvider from "@/components/AuthProvider";
 import ServiceWorkerRegistration from "@/components/ServiceWorkerRegistration";
+import AnalyticsTracker from "@/components/AnalyticsTracker";
 
 const geist = Geist({ subsets: ["latin"], variable: "--font-sans" });
 
@@ -50,6 +51,7 @@ export default function RootLayout({ children }) {
         <AuthProvider>
           {children}
           <Suspense fallback={null}>
+            <AnalyticsTracker />
             <ModalManager />
             <ServiceWorkerRegistration />
           </Suspense>

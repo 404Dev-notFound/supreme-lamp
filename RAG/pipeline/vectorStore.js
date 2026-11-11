@@ -1,3 +1,9 @@
+/**
+ * DEPRECATED / RETIRED IN PRODUCTION
+ * Primary vector storage has been migrated to Python LangChain + Qdrant (flowctrl_kb_v2).
+ * This module is retained strictly as an isolated in-memory test fallback.
+ * Do not use as the primary vector store.
+ */
 const fs = require("fs");
 const path = require("path");
 const config = require("../config");

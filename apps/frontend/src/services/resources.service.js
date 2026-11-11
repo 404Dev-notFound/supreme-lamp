@@ -48,12 +48,24 @@ class ResourcesClientService {
           if (v !== undefined) queryParams.append(k, v);
         });
 
-        const res = await fetch(`${API_BASE}/api/resources?${queryParams.toString()}`, {
+        try {
+          const res = await fetch(`${API_BASE}/api/resources?${queryParams.toString()}`, {
+            headers: { Accept: "application/json" },
+          });
+          if (res.ok) {
+            const json = await res.json();
+            if (json && (Array.isArray(json.resources) || Array.isArray(json))) return json;
+          }
+        } catch (err) {
+          // Fall back to Next.js internal API route if backend is starting or offline
+        }
+
+        const localRes = await fetch(`/api/resources?${queryParams.toString()}`, {
           headers: { Accept: "application/json" },
         });
 
-        if (!res.ok) throw new Error("Failed to load curated resources");
-        const json = await res.json();
+        if (!localRes.ok) throw new Error("Failed to load curated resources");
+        const json = await localRes.json();
         return json;
       },
     });
